@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
-import { Icone } from '../composants/Icone';
+import { Icone, ICONE_MATIERE } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, surAppareilEnfant, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
@@ -125,7 +125,7 @@ export function Accueil() {
               const b = bilan(competencesJouables({ ...pack, matieres: [m] }).map((c) => c.id), suivi);
               return (
                 <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
-                  <span className="hp-subject__icon"><Icone nom="eclair" /></span>
+                  <span className="hp-subject__icon"><Icone nom={ICONE_MATIERE[m.matiere] ?? 'eclair'} /></span>
                   <span className="hp-subject__name">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>
                   <span className="hp-subject__meta">
                     {b.total > 0 ? `${b.acquises} / ${b.total} acquise${b.acquises > 1 ? 's' : ''}` : `${m.competences.length} notion${m.competences.length > 1 ? 's' : ''}`}
