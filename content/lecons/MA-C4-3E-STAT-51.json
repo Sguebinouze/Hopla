@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-STAT-51",
+  "exemple": "Série 12 ; 7 ; 18 ; 9 ; 15 : étendue 18 − 7 = 11.",
+  "regle": "L’**étendue** d’une série est la différence entre sa **plus grande** et sa **plus petite** valeur. Elle mesure la **dispersion** : plus elle est grande, plus les valeurs sont éloignées les unes des autres.",
+  "piege": "Deux séries peuvent avoir la même moyenne et des étendues très différentes.",
+  "essai": {
+    "consigne": "Quelle est l’étendue de la série 14 ; 6 ; 21 ; 10 ; 8 ?",
+    "options": [
+      "15",
+      "21",
+      "11"
+    ],
+    "reponse": "15",
+    "explication": "Plus grande valeur 21, plus petite 6 : 21 − 6 = 15."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

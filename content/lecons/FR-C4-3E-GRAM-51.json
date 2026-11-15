@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-GRAM-51",
+  "exemple": "« La ville où je suis né. » « Le livre dont tu parles. » « Le stylo avec lequel j’écris. »",
+  "regle": "Le **pronom relatif** dépend de sa fonction dans la relative : **qui** sujet, **que** COD, **dont** complément introduit par « de ». **Où** est complément de lieu ou de temps. Après une préposition, on emploie **lequel**, auquel, duquel.",
+  "piege": "Pour choisir, remplace le pronom par l’antécédent : « je parle de ce livre » donne « dont ».",
+  "essai": {
+    "consigne": "Complète : C’est la maison … je rêve.",
+    "options": [
+      "dont",
+      "que",
+      "où"
+    ],
+    "reponse": "dont",
+    "explication": "On dit « rêver de la maison » : le complément est introduit par « de », on emploie « dont »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

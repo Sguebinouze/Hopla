@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-TRIG-51",
+  "exemple": "ABC rectangle en A : cos(ABC) = AB/BC ; sin(ABC) = AC/BC ; tan(ABC) = AC/AB.",
+  "regle": "Pour un angle aigu d’un triangle rectangle : **cosinus** = côté adjacent ÷ hypoténuse ; **sinus** = côté opposé ÷ hypoténuse ; **tangente** = côté opposé ÷ côté adjacent.",
+  "piege": "Le côté adjacent touche l’angle, mais ce n’est pas l’hypoténuse.",
+  "essai": {
+    "consigne": "ABC rectangle en A, BC = 10 cm et sin(ABC) = 0,8. Combien mesure AC ?",
+    "options": [
+      "8 cm",
+      "12,5 cm",
+      "2 cm"
+    ],
+    "reponse": "8 cm",
+    "explication": "sin(ABC) = AC/BC, donc AC = 10 × 0,8 = 8 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

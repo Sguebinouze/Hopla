@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-RAC-51",
+  "exemple": "x² = 64 : x = 8 ou x = −8. x² = −9 n’a pas de solution.",
+  "regle": "Si a est positif, l’équation **x² = a** a deux solutions : **√a et −√a**. Si a = 0, la seule solution est 0. Si a est négatif, il n’y a **aucune solution**, car un carré n’est jamais négatif.",
+  "piege": "N’oublie pas la solution négative : (−8)² = 64 aussi.",
+  "essai": {
+    "consigne": "Résous : x² = 100",
+    "options": [
+      "x = −10 ou x = 10",
+      "x = 10",
+      "x = 50"
+    ],
+    "reponse": "x = −10 ou x = 10",
+    "explication": "10² = 100 et (−10)² = 100 : il y a deux solutions."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

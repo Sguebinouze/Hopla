@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PROBA-51",
+  "exemple": "Une pièce et un dé à six faces : 2 × 6 = 12 issues. « Pile et 6 » : 1 issue, probabilité 1/12.",
+  "regle": "Quand toutes les issues ont la même chance, probabilité = **nombre d’issues favorables ÷ nombre total d’issues**. Pour deux épreuves, on dresse un **tableau à double entrée** : une ligne par issue de la première épreuve, une colonne par issue de la seconde.",
+  "piege": "Avec deux dés, la somme 7 n’a pas la même probabilité que la somme 2 : compte les cases.",
+  "essai": {
+    "consigne": "On lance deux dés à six faces. Probabilité d’obtenir une somme égale à 12 ?",
+    "options": [
+      "1/36",
+      "1/12",
+      "1/6"
+    ],
+    "reponse": "1/36",
+    "explication": "Le tableau compte 36 cases. Seule la case (6 ; 6) donne 12 : 1/36."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

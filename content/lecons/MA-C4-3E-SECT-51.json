@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-SECT-51",
+  "exemple": "La section d’une boule par un plan est un disque ; celle d’un cylindre perpendiculaire à son axe, un disque identique à la base.",
+  "regle": "La **sphère** de centre O et de rayon r est formée des points situés à la distance r de O ; la **boule** comprend aussi l’intérieur. La section d’une sphère par un plan est un **cercle**, celle d’une boule un **disque**.",
+  "piege": "Le rayon de la section d’une sphère se calcule avec le théorème de Pythagore.",
+  "essai": {
+    "consigne": "On coupe une boule de rayon 13 cm par un plan situé à 5 cm du centre. Rayon de la section ?",
+    "options": [
+      "12 cm",
+      "8 cm",
+      "18 cm"
+    ],
+    "reponse": "12 cm",
+    "explication": "13² − 5² = 169 − 25 = 144, donc le rayon vaut √144 = 12 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

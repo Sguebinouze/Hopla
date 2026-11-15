@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-LIT-51",
+  "exemple": "(x + 4)(x − 2) = x² − 2x + 4x − 8 = x² + 2x − 8.",
+  "regle": "La **double distributivité** : (a + b)(c + d) = ac + ad + bc + bd. Chaque terme de la première parenthèse multiplie **chaque** terme de la seconde. On réduit ensuite l’expression obtenue.",
+  "piege": "Il faut quatre produits : n’oublie pas les deux termes du milieu.",
+  "essai": {
+    "consigne": "Développe et réduis : (x + 5)(x + 2)",
+    "options": [
+      "x² + 7x + 10",
+      "x² + 10",
+      "x² + 7x + 7"
+    ],
+    "reponse": "x² + 7x + 10",
+    "explication": "x × x = x², x × 2 = 2x, 5 × x = 5x, 5 × 2 = 10. On réduit : x² + 7x + 10."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

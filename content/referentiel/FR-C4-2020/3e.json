@@ -1,0 +1,291 @@
+{
+  "programme": "FR-C4-2020",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "FR-C4-3E-GRAM-51",
+      "titre": "Fonction du pronom relatif",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Choisir le pronom relatif selon sa fonction dans la subordonnée relative.",
+      "exemple": "« Le film que j’ai vu » : COD. « Le film dont je parle » : complément de « parle ».",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils comprennent le fonctionnement du pronom relatif dans la phrase et sa fonction dans la proposition subordonnée."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-52",
+      "titre": "Fonction des subordonnées",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier la fonction d’une subordonnée : complément du nom, COD ou complément circonstanciel.",
+      "exemple": "« Je crois que tu as raison » : la subordonnée est COD de « crois ».",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils comprennent la fonction grammaticale des propositions subordonnées dans la phrase."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-53",
+      "titre": "Les autres pronoms",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier les pronoms indéfinis, interrogatifs, adverbiaux et relatifs.",
+      "exemple": "« Personne n’est venu » : indéfini. « Qui parle ? » : interrogatif. « J’y vais » : adverbial.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils identifient tous les autres pronoms : indéfinis, interrogatifs, adverbiaux et relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-54",
+      "titre": "Infinitives et participiales",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier les subordonnées infinitives et participiales.",
+      "exemple": "« J’entends les oiseaux chanter » : infinitive. « Le travail terminé, ils partirent » : participiale.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils identifient les propositions subordonnées qui n’ont pas été abordées précédemment : infinitives, participiales."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-55",
+      "titre": "Attribut du COD",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier l’attribut du COD et le distinguer de l’attribut du sujet et de l’épithète.",
+      "exemple": "« Je trouve ce film drôle » : « drôle » est attribut du COD « ce film ».",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 7,
+        "extrait": "Ils élargissent leurs connaissances des fonctions grammaticales et identifient l’attribut du COD dans une phrase simple."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-56",
+      "titre": "Tous les compléments circonstanciels",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier le sens de tous les compléments circonstanciels : temps, lieu, manière, moyen, cause, conséquence, but, opposition, condition, comparaison.",
+      "exemple": "« Malgré la pluie, nous sortons » : opposition. « Il court comme un lapin » : comparaison.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 7,
+        "extrait": "Ils identifient tous les compléments circonstanciels."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-51",
+      "titre": "Subjonctif passé",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Conjuguer et employer le subjonctif passé.",
+      "exemple": "« Je suis content que tu sois venu. » « Il faut que tu aies fini. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "Ils accroissent leur connaissance des conjugaisons en mémorisant le passé du conditionnel et le passé, l’imparfait et le plus-que-parfait du subjonctif"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-52",
+      "titre": "Radicaux des verbes irréguliers",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Orthographier les radicaux des verbes irréguliers aux temps simples, notamment au conditionnel et au subjonctif.",
+      "exemple": "Je verrais, tu pourrais, qu’il fasse, que nous sachions.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "Ils maîtrisent la formation des temps simples et des temps composés à tous les modes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-53",
+      "titre": "Subjonctif imparfait",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Identifier le subjonctif imparfait et le subjonctif plus-que-parfait et les distinguer du passé simple.",
+      "exemple": "« Il fallait qu’il partît » : subjonctif imparfait. « Il partit » : passé simple.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "En plus des temps déjà maîtrisés, ils identifient le subjonctif imparfait et le subjonctif plus-que-parfait."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-54",
+      "titre": "Mode après une conjonction",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Employer le subjonctif après certaines conjonctions (bien que, pour que, avant que…) et l’indicatif après d’autres (parce que, après que…).",
+      "exemple": "Bien qu’il fasse froid. Parce qu’il fait froid.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 10,
+        "extrait": "après certaines conjonctions (à condition que, bien que, pour que, de crainte que…)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-55",
+      "titre": "Falloir et valoir",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Conjuguer les verbes falloir et valoir aux temps étudiés.",
+      "exemple": "Il faudra, qu’il faille ; il vaut, ils valent, il vaudrait, qu’il vaille.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 10,
+        "extrait": "Ils mémorisent la conjugaison des verbes falloir et valoir aux temps étudiés."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-51",
+      "titre": "Participe passé et COD relatif",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Accorder le participe passé employé avec avoir quand le COD est le pronom relatif « que ».",
+      "exemple": "« Les lettres que j’ai écrites. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "l’orthographient correctement quand le COD est un pronom relatif."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-52",
+      "titre": "Accord des mots apposés",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Accorder l’adjectif et le participe passé en fonction d’apposition, d’épithète ou d’attribut.",
+      "exemple": "« Épuisés, les randonneurs s’arrêtent. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "l’accord de l’adjectif et du participe passé en fonction d’apposition."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-53",
+      "titre": "Accords du verbe délicats",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Accorder le verbe avec un sujet qui comporte un complément du nom ou avec un pronom indéfini.",
+      "exemple": "« Le panier de pommes est lourd. » « Chacun de nous a sa place. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "En fin d’année, les élèves maîtrisent des accords orthographiques exigeant la prise en compte de plus en plus d’éléments."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-DISC-51",
+      "titre": "Discours indirect libre",
+      "domaine": "Étude de la langue",
+      "theme": "Construire les notions permettant l’analyse et l’élaboration des textes et des discours",
+      "attendu": "Reconnaitre le discours direct, le discours indirect et le discours indirect libre.",
+      "exemple": "« Paul regarda la lettre. Elle ne reviendrait donc jamais. » : discours indirect libre.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 12,
+        "extrait": "Ils reconnaissent et utilisent les paroles rapportées directement, indirectement et reconnaissent le discours indirect libre."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-DISC-52",
+      "titre": "Connecteurs logiques",
+      "domaine": "Étude de la langue",
+      "theme": "Construire les notions permettant l’analyse et l’élaboration des textes et des discours",
+      "attendu": "Choisir le connecteur qui exprime la relation logique entre deux propositions.",
+      "exemple": "« Il a révisé ; pourtant, il a échoué. » : opposition.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 12,
+        "extrait": "Ils repèrent dans un texte et utilisent dans leurs écrits les éléments de reprise et tous les connecteurs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-51",
+      "titre": "Racines grecques et latines",
+      "domaine": "Étude de la langue",
+      "theme": "Enrichir et structurer le lexique",
+      "attendu": "Déduire le sens d’un mot de ses racines grecques ou latines.",
+      "exemple": "« géo » (terre) + « graphie » (écrire) : géographie.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 11,
+        "extrait": "Ils connaissent le sens des préfixes et suffixes les plus fréquents, les racines grecques et latines"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-52",
+      "titre": "Nuances de sens",
+      "domaine": "Étude de la langue",
+      "theme": "Enrichir et structurer le lexique",
+      "attendu": "Distinguer la dénotation et la connotation méliorative, neutre ou péjorative d’un mot.",
+      "exemple": "« demeure », « maison », « masure » : même sens, nuances différentes.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 11,
+        "extrait": "Ils analysent le sens des mots : nuances et glissements de sens"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-53",
+      "titre": "Modalisation",
+      "domaine": "Étude de la langue",
+      "theme": "Construire les notions permettant l’analyse et l’élaboration des textes et des discours",
+      "attendu": "Repérer et interpréter les marques de modalisation : certitude, doute, jugement, information non confirmée.",
+      "exemple": "« Il viendra sans doute » : probabilité. « Ce prétendu expert » : jugement défavorable.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 12,
+        "extrait": "Ils repèrent et interprètent des marques de modalisation"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

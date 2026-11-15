@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-FONC-51",
+  "exemple": "f(x) = 3x − 2 : l’image de 4 est f(4) = 10 ; un antécédent de 7 est 3, car f(3) = 7.",
+  "regle": "Une **fonction** f associe à un nombre x un unique nombre noté **f(x)**, son **image**. Un **antécédent** de b est un nombre x tel que f(x) = b.",
+  "piege": "Image de 3 : on calcule f(3). Antécédent de 3 : on cherche x tel que f(x) = 3.",
+  "essai": {
+    "consigne": "f(x) = 2x + 3. Quelle est l’image de 5 ?",
+    "options": [
+      "13",
+      "1",
+      "10"
+    ],
+    "reponse": "13",
+    "explication": "f(5) = 2 × 5 + 3 = 13."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

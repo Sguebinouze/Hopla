@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-DISC-52",
+  "exemple": "« Il pleut ; pourtant, nous sortons. » « Il pleut ; donc nous restons. »",
+  "regle": "Les **connecteurs logiques** expriment la relation entre deux idées. **Cause** : en effet, car. **Conséquence** : donc, ainsi, par conséquent. **Opposition** : pourtant, cependant, en revanche. **Ajout** : de plus, en outre. **Illustration** : par exemple.",
+  "piege": "« En effet » introduit une explication, pas une conséquence.",
+  "essai": {
+    "consigne": "Complète : Elle a raté son bus ; …, elle est arrivée en retard.",
+    "options": [
+      "par conséquent",
+      "pourtant",
+      "en effet"
+    ],
+    "reponse": "par conséquent",
+    "explication": "Le retard est le résultat du bus raté : c’est une conséquence."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-HOM-51",
+  "exemple": "Homothétie de centre O et de rapport −2 : A’ est de l’autre côté de O, et OA’ = 2 × OA.",
+  "regle": "Une **rotation** fait tourner une figure autour d’un point : elle conserve les longueurs, les angles et les aires. Une **homothétie** de rapport k agrandit ou réduit : les longueurs sont multipliées par k (par −k si k est négatif) et les aires par k².",
+  "piege": "Avec un rapport négatif, les longueurs restent positives : seule la position de l’image change.",
+  "essai": {
+    "consigne": "Une figure d’aire 3 cm² subit une homothétie de rapport −2. Aire de l’image ?",
+    "options": [
+      "12 cm²",
+      "−12 cm²",
+      "6 cm²"
+    ],
+    "reponse": "12 cm²",
+    "explication": "Les aires sont multipliées par k² = (−2)² = 4 : 3 × 4 = 12 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

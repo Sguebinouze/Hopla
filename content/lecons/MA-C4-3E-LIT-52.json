@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-LIT-52",
+  "exemple": "x² − 25 = x² − 5² = (x − 5)(x + 5).",
+  "regle": "Une expression de la forme **a² − b²** se factorise en **(a − b)(a + b)**. On l’utilise pour résoudre une équation : x² − 25 = 0 devient (x − 5)(x + 5) = 0, donc x = 5 ou x = −5.",
+  "piege": "Repère bien a et b : dans 9x² − 4, a = 3x et b = 2, pas a = 9x.",
+  "essai": {
+    "consigne": "Factorise : x² − 36",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)²",
+      "(x − 36)(x + 36)"
+    ],
+    "reponse": "(x − 6)(x + 6)",
+    "explication": "x² − 36 = x² − 6² : c’est a² − b² avec a = x et b = 6, donc (x − 6)(x + 6)."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

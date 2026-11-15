@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-GRAM-55",
+  "exemple": "« Je trouve ce roman passionnant » : « passionnant » est attribut du COD « ce roman ».",
+  "regle": "L’**attribut du COD** donne une caractéristique au COD, par l’intermédiaire du verbe : trouver, juger, rendre, nommer, élire, appeler… L’**attribut du sujet** suit un verbe d’état. L’**épithète** est dans le groupe nominal.",
+  "piege": "Remplace le COD par un pronom : « Je le trouve passionnant ». L’attribut reste, l’épithète disparaitrait avec le nom.",
+  "essai": {
+    "consigne": "Dans « On l’a nommée directrice », quelle est la fonction de « directrice » ?",
+    "options": [
+      "attribut du COD",
+      "COD",
+      "attribut du sujet"
+    ],
+    "reponse": "attribut du COD",
+    "explication": "« Directrice » caractérise « l’ », COD de « a nommée » : c’est un attribut du COD."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

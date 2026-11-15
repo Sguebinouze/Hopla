@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PCT-51",
+  "exemple": "Hausse de 20 % : × 1,2. Baisse de 15 % : × 0,85.",
+  "regle": "Augmenter de **t %**, c’est multiplier par **1 + t/100**. Diminuer de t %, c’est multiplier par **1 − t/100**. Ce nombre est le **coefficient multiplicateur** associé au taux d’évolution.",
+  "piege": "Pour retrouver un prix de départ, on divise par le coefficient : on ne retire pas le pourcentage du nouveau prix.",
+  "essai": {
+    "consigne": "Un prix de 50 € augmente de 10 %. Quel est le nouveau prix ?",
+    "options": [
+      "55 €",
+      "60 €",
+      "50,10 €"
+    ],
+    "reponse": "55 €",
+    "explication": "Le coefficient est 1,1 : 50 × 1,1 = 55 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

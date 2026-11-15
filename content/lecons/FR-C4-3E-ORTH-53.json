@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-ORTH-53",
+  "exemple": "« Le panier de pommes est lourd. » « Chacun de nous a sa place. »",
+  "regle": "Quand le sujet contient un **complément du nom**, le verbe s’accorde avec le **nom noyau**. Avec un pronom comme **chacun**, **aucun** ou **personne**, le verbe est au singulier.",
+  "piege": "Ne te laisse pas attirer par le nom pluriel le plus proche du verbe.",
+  "essai": {
+    "consigne": "Complète : La liste des invités … sur la table. (être)",
+    "options": [
+      "est",
+      "sont",
+      "es"
+    ],
+    "reponse": "est",
+    "explication": "Le noyau du sujet est « la liste », au singulier : « est »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

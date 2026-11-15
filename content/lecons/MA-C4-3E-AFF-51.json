@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-AFF-51",
+  "exemple": "f(x) = 3x − 1 : a = 3 et b = −1. Sa droite coupe l’axe des ordonnées en −1.",
+  "regle": "Une **fonction affine** s’écrit f(x) = ax + b. Le nombre **b** est l’image de 0. Le coefficient **a** est le quotient de la variation de f(x) par la variation de x. Sa représentation est une droite.",
+  "piege": "Une fonction linéaire est une fonction affine particulière, avec b = 0.",
+  "essai": {
+    "consigne": "f(x) = 5 − 2x. Quels sont a et b ?",
+    "options": [
+      "a = −2 et b = 5",
+      "a = 5 et b = −2",
+      "a = 2 et b = 5"
+    ],
+    "reponse": "a = −2 et b = 5",
+    "explication": "On écrit f(x) = −2x + 5 : a = −2 et b = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

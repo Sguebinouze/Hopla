@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-EQ-51",
+  "exemple": "(x − 3)(x + 7) = 0 : x − 3 = 0 ou x + 7 = 0, donc x = 3 ou x = −7.",
+  "regle": "Un **produit est nul** si et seulement si l’un de ses facteurs est nul. On écrit donc deux équations du premier degré et on résout chacune séparément.",
+  "piege": "Attention aux signes : x + 7 = 0 donne x = −7, et non 7.",
+  "essai": {
+    "consigne": "Résous : (x − 2)(x + 4) = 0",
+    "options": [
+      "x = 2 ou x = −4",
+      "x = −2 ou x = 4",
+      "x = 2"
+    ],
+    "reponse": "x = 2 ou x = −4",
+    "explication": "x − 2 = 0 donne x = 2 ; x + 4 = 0 donne x = −4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

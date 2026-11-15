@@ -1,0 +1,291 @@
+{
+  "programme": "MA-C4-2020",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "MA-C4-3E-FRAC-51",
+      "titre": "Fraction irréductible",
+      "domaine": "Nombres et calculs",
+      "theme": "Fractions, nombres rationnels",
+      "attendu": "Rendre une fraction irréductible, à l’aide des diviseurs communs ou des décompositions en facteurs premiers.",
+      "exemple": "84/126 = (2 × 3 × 14)/(3 × 3 × 14) = 2/3.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "La notion de fraction irréductible est introduite."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PUIS-51",
+      "titre": "Puissances d’exposant négatif",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Utiliser la définition d’une puissance d’exposant négatif : a⁻ⁿ est l’inverse de aⁿ.",
+      "exemple": "2⁻³ = 1/2³ = 1/8 ; 10⁻² = 0,01.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "Les puissances de base quelconque d’exposants négatifs sont introduites"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PUIS-52",
+      "titre": "Produits et quotients de puissances",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Simplifier des produits et des quotients de puissances d’un même nombre, avec des exposants relatifs.",
+      "exemple": "10⁵ ÷ 10⁸ = 10⁻³ ; 2⁴ × 2⁻⁶ = 2⁻².",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "utilisées pour simplifier des quotients."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIT-51",
+      "titre": "Double distributivité",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral",
+      "attendu": "Développer un produit avec la double distributivité ; factoriser avec un facteur commun.",
+      "exemple": "(x + 2)(x + 5) = x² + 5x + 2x + 10 = x² + 7x + 10.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 4,
+        "extrait": "La double distributivité est abordée."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIT-52",
+      "titre": "Factoriser a² − b²",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral",
+      "attendu": "Factoriser une expression de la forme a² − b² et s’en servir pour résoudre une équation produit.",
+      "exemple": "x² − 9 = (x − 3)(x + 3).",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 5,
+        "extrait": "La factorisation d’une expression du type a2 - b2 permet de résoudre des équations produits se ramenant au premier degré"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-EQ-51",
+      "titre": "Équation produit nul",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral",
+      "attendu": "Résoudre une équation produit nul.",
+      "exemple": "(x − 2)(x + 5) = 0 : x = 2 ou x = −5.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 5,
+        "extrait": "permet de résoudre des équations produits se ramenant au premier degré"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-RAC-51",
+      "titre": "Résoudre x² = a",
+      "domaine": "Nombres et calculs",
+      "theme": "Racine carrée",
+      "attendu": "Résoudre une équation de la forme x² = a, en lien avec la racine carrée.",
+      "exemple": "x² = 49 : x = 7 ou x = −7. x² = −4 n’a pas de solution.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 5,
+        "extrait": "équations du type x2 = a en lien avec la racine carrée"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-STAT-51",
+      "titre": "Étendue",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Statistiques",
+      "attendu": "Calculer l’étendue d’une série et l’utiliser pour comparer la dispersion de deux séries.",
+      "exemple": "Série 4 ; 9 ; 15 ; 7 : étendue 15 − 4 = 11.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 6,
+        "extrait": "Un indicateur de dispersion est introduit : l’étendue."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PROBA-51",
+      "titre": "Probabilités et dénombrement",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Probabilités",
+      "attendu": "Calculer une probabilité par dénombrement, pour une épreuve ou pour deux épreuves à l’aide d’un tableau à double entrée.",
+      "exemple": "Deux dés : 36 issues, dont 6 doubles. Probabilité d’un double : 6/36 = 1/6.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 6,
+        "extrait": "Les dénombrements s’appuient alors uniquement sur des tableaux à double entrée, la notion d’arbre ne figurant pas au programme."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PCT-51",
+      "titre": "Coefficient multiplicateur",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Traduire une évolution en pourcentage par un coefficient multiplicateur et l’appliquer.",
+      "exemple": "Hausse de 20 % : × 1,2. Baisse de 15 % : × 0,85.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 7,
+        "extrait": "Le lien est fait entre taux d’évolution et coefficient multiplicateur"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-FONC-51",
+      "titre": "Image et antécédent",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Utiliser la notation f(x) et le vocabulaire image et antécédent, avec une formule ou un tableau de valeurs.",
+      "exemple": "f(x) = 2x + 1 : l’image de 3 est 7 ; un antécédent de 9 est 4.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 7,
+        "extrait": "Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIN-51",
+      "titre": "Fonctions linéaires",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Calculer avec une fonction linéaire f(x) = ax et retrouver son coefficient, en lien avec la proportionnalité.",
+      "exemple": "f(x) = 3x : f(4) = 12. Si f(5) = 10, alors a = 2.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 7,
+        "extrait": "ainsi qu’entre la proportionnalité et les fonctions linéaires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-AFF-51",
+      "titre": "Fonctions affines",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Reconnaitre une fonction affine f(x) = ax + b et déterminer ses coefficients.",
+      "exemple": "f(x) = 2x − 3 : a = 2 et b = −3.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 7,
+        "extrait": "Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-BOULE-51",
+      "titre": "Volume de la boule",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Calculs sur des grandeurs mesurables",
+      "attendu": "Calculer le volume d’une boule de rayon donné.",
+      "exemple": "Boule de rayon 3 cm : 4/3 × π × 3³ ≈ 113 cm³.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 8,
+        "extrait": "La formule donnant le volume d’une boule est utilisée."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-SECT-51",
+      "titre": "Sphère, boule, sections",
+      "domaine": "Espace et géométrie",
+      "theme": "Représenter l’espace",
+      "attendu": "Connaitre la sphère et la boule et la nature des sections planes d’un pavé, d’un cylindre, d’une boule.",
+      "exemple": "Un plan coupe une boule selon un disque.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 9,
+        "extrait": "Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-THAL-51",
+      "titre": "Théorème de Thalès",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Utiliser le théorème de Thalès et sa réciproque, y compris dans la configuration du papillon.",
+      "exemple": "Si (MN) // (BC), alors AM/AB = AN/AC = MN/BC.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "Le théorème de Thalès et sa réciproque dans la configuration du papillon sont énoncés et utilisés"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-TRIG-51",
+      "titre": "Trigonométrie",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Utiliser le cosinus, le sinus et la tangente dans un triangle rectangle pour calculer des longueurs.",
+      "exemple": "Rectangle en A : sin(ABC) = AC/BC ; tan(ABC) = AC/AB.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "Les lignes trigonométriques (cosinus, sinus, tangente) dans le triangle rectangle sont utilisées pour calculer des longueurs ou des angles."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-SEMB-51",
+      "titre": "Triangles semblables",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Reconnaitre des triangles semblables par leurs angles ou par la proportionnalité de leurs côtés ; calculer une longueur.",
+      "exemple": "Côtés 3, 4, 5 et 6, 8, 10 : proportionnels, triangles semblables.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-HOM-51",
+      "titre": "Homothéties et rotations",
+      "domaine": "Espace et géométrie",
+      "theme": "Transformations",
+      "attendu": "Connaitre l’effet d’une rotation et d’une homothétie de rapport positif ou négatif sur les longueurs et les aires.",
+      "exemple": "Homothétie de rapport −2 : longueurs × 2, aires × 4.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 11,
+        "extrait": "Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

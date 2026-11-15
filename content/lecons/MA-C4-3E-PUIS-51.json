@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PUIS-51",
+  "exemple": "2⁻³ = 1/2³ = 1/8 ; 10⁻² = 1/10² = 0,01.",
+  "regle": "Pour un nombre a non nul et un entier n positif, **a⁻ⁿ est l’inverse de aⁿ** : a⁻ⁿ = 1/aⁿ. Par exemple, 5⁻² = 1/25.",
+  "piege": "Un exposant négatif ne rend pas le nombre négatif : 3⁻² = 1/9, qui est positif.",
+  "essai": {
+    "consigne": "Écris 4⁻² sous la forme d’une fraction.",
+    "options": [
+      "1/16",
+      "−16",
+      "1/8"
+    ],
+    "reponse": "1/16",
+    "explication": "4⁻² = 1/4² = 1/16."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

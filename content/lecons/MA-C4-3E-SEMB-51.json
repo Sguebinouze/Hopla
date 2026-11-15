@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-SEMB-51",
+  "exemple": "Triangles de côtés 3, 4, 5 et 6, 8, 10 : chaque côté est doublé, les triangles sont semblables.",
+  "regle": "Deux triangles sont **semblables** quand ils ont les **mêmes angles**. C’est le cas si et seulement si les longueurs de leurs côtés sont **proportionnelles**. Le coefficient de proportionnalité est le rapport de similitude.",
+  "piege": "Associe bien les côtés correspondants : le plus petit avec le plus petit, le plus grand avec le plus grand.",
+  "essai": {
+    "consigne": "ABC a des angles de 40° et 60°. DEF a des angles de 60° et 80°. Sont-ils semblables ?",
+    "options": [
+      "Oui",
+      "Non",
+      "On ne peut pas savoir"
+    ],
+    "reponse": "Oui",
+    "explication": "Le troisième angle de ABC vaut 80°, celui de DEF 40° : les deux triangles ont les angles 40°, 60° et 80°."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

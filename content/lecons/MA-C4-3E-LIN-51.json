@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-LIN-51",
+  "exemple": "f(x) = 4x : f(3) = 12. Si f(5) = 15, le coefficient vaut 15 ÷ 5 = 3.",
+  "regle": "Une **fonction linéaire** s’écrit f(x) = ax. Elle traduit une situation de **proportionnalité** : a est le coefficient de proportionnalité, égal à f(x) ÷ x. Sa représentation est une droite qui passe par l’origine.",
+  "piege": "Le coefficient est f(x) ÷ x, pas x ÷ f(x).",
+  "essai": {
+    "consigne": "f est linéaire et f(4) = 10. Quel est son coefficient ?",
+    "options": [
+      "2,5",
+      "0,4",
+      "40"
+    ],
+    "reponse": "2,5",
+    "explication": "a = f(4) ÷ 4 = 10 ÷ 4 = 2,5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

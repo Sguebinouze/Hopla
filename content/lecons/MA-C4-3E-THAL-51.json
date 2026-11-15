@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-THAL-51",
+  "exemple": "Papillon : (BM) et (CN) se coupent en A, (MN) // (BC). Alors AM/AB = AN/AC = MN/BC.",
+  "regle": "Quand deux droites sécantes en A sont coupées par deux **parallèles**, le **théorème de Thalès** donne trois quotients égaux, en triangles emboîtés comme en **papillon**. Sa **réciproque** prouve un parallélisme si les quotients sont égaux et les points dans le même ordre.",
+  "piege": "Le théorème sert à calculer une longueur, la réciproque à prouver que des droites sont parallèles.",
+  "essai": {
+    "consigne": "Papillon : AM = 3 cm, AB = 6 cm, BC = 8 cm et (MN) // (BC). Combien mesure MN ?",
+    "options": [
+      "4 cm",
+      "16 cm",
+      "5 cm"
+    ],
+    "reponse": "4 cm",
+    "explication": "AM/AB = MN/BC, donc MN = 8 × 3 ÷ 6 = 4 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

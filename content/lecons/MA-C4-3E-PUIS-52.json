@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PUIS-52",
+  "exemple": "10⁵ ÷ 10⁸ = 1/10³ = 10⁻³ ; 2⁴ × 2⁻⁶ = 2⁴ ÷ 2⁶ = 2⁻².",
+  "regle": "On simplifie un produit ou un quotient de puissances d’un même nombre en revenant à la **définition** : on compte les facteurs qui restent. On constate qu’on **additionne** les exposants pour un produit et qu’on les **soustrait** pour un quotient.",
+  "piege": "On ne multiplie pas les exposants : 10² × 10³ = 10⁵, pas 10⁶.",
+  "essai": {
+    "consigne": "Écris sous la forme d’une seule puissance : 3² ÷ 3⁵",
+    "options": [
+      "3⁻³",
+      "3³",
+      "3⁷"
+    ],
+    "reponse": "3⁻³",
+    "explication": "3² ÷ 3⁵ = (3 × 3) ÷ (3 × 3 × 3 × 3 × 3) = 1/3³ = 3⁻³."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

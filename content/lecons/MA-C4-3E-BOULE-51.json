@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-BOULE-51",
+  "exemple": "Boule de rayon 3 cm : V = 4/3 × π × 27 ≈ 113 cm³.",
+  "regle": "Le volume d’une **boule** de rayon r est **V = 4/3 × π × r³**. Si l’on connait le diamètre, on le divise d’abord par 2 pour obtenir le rayon.",
+  "piege": "Si le rayon double, le volume est multiplié par 2³ = 8, pas par 2.",
+  "essai": {
+    "consigne": "Le rayon d’une boule est multiplié par 2. Son volume est multiplié par :",
+    "options": [
+      "8",
+      "2",
+      "4"
+    ],
+    "reponse": "8",
+    "explication": "Le volume dépend du cube du rayon : 2³ = 8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

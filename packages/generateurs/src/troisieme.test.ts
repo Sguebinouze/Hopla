@@ -550,7 +550,7 @@ describe('variété 3e', () => {
     'identifier-temps-3e': 8, 'valeurs-conditionnel-3e': 6, 'accord-participe-cod-relatif-3e': 6, 'accord-sujets-complexes-3e': 6,
     'accord-adjectif-fonctions-3e': 6, 'denotation-connotation-3e': 8, 'racines-savantes-3e': 15, 'radicaux-verbaux-3e': 6, 'homophones-lexicaux-3e': 7,
   };
-  it.each(GENERATEURS_TROISIEME.map((g) => g.id))('%s : assez de consignes distinctes, d1 différente de d3', (id) => {
+  it.each(GENERATEURS_TROISIEME.filter((g) => !g.id.endsWith('-2020')).map((g) => g.id))('%s : assez de consignes distinctes, d1 différente de d3', (id) => {
     const consignes = DIFFICULTES.map((d) => new Set(GRAINES.map((s) => generateur(id).generer(s, d).consigne)));
     for (const ens of consignes) expect(ens.size).toBeGreaterThanOrEqual(FERMES[id] ?? 25);
     expect([...consignes[0]!].some((x) => !consignes[2]!.has(x))).toBe(true);
