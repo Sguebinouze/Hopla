@@ -1,3 +1,4 @@
+import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
@@ -105,7 +106,8 @@ export function Parent() {
     <main className="ecran">
       <div className="ligne">
         <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
-        <h1 className="titre-1">Espace parent</h1>
+        <h1 className="titre-1 pousse">Espace parent</h1>
+        <BoutonTheme />
       </div>
 
       {!ouvert ? (

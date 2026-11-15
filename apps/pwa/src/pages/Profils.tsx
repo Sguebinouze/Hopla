@@ -1,3 +1,4 @@
+import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
@@ -32,7 +33,7 @@ export function Profils() {
   if (!connecte) {
     return (
       <main className="ecran">
-        <div className="marque"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div>
+        <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
         <h1 className="titre-1">Connexion parent</h1>
         <p className="muet">Une seule fois sur cet appareil. Ensuite, chaque enfant entre avec son code secret.</p>
         <form className="formulaire" onSubmit={async (e) => {
@@ -58,7 +59,7 @@ export function Profils() {
 
   return (
     <main className="ecran">
-      <div className="marque"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div>
+      <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
       <div className="hp-bubble">
         <Octave taille={88} />
         <div className="hp-bubble__text"><span className="hp-bubble__name">Octave</span>

@@ -1,3 +1,4 @@
+import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
@@ -75,6 +76,7 @@ export function Accueil() {
           <p className="muet">{enfant.classe.toUpperCase()} · ta session</p>
         </div>
         <span className="hp-chip hp-chip--streak"><Icone nom="flamme" />{enfant.serie}</span>
+        <BoutonTheme />
       </div>
 
       <div className="hp-level" style={{ minWidth: 0 }}>
