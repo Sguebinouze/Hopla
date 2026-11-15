@@ -31,9 +31,9 @@
 ## Prochaines étapes, par ordre
 
 1. **Compléter CE1 et 6e** : CE1 grandeurs (longueurs, masses, monnaie, heures), géométrie, lecture et vocabulaire ; 6e géométrie, volumes, statistiques et probabilités.
-2. **Cycle 4 (5e, 4e, 3e)** : demander à Laurent les PDF du programme 2026 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026) et du programme 2020 encore en vigueur en 4e et 3e. Le calendrier de bascule est dans `content/programmes/programmes.json`.
+2. **Cycle 4 (5e, 4e, 3e)** : les textes sont archivés (`bo10-2026-francais-maths-c4.pdf` pour le programme 2026, `bo31-2020-cycles-2-3-4.pdf` pour le programme 2020 encore en vigueur en 4e et 3e). Le calendrier de bascule est dans `content/programmes/programmes.json`.
 3. **App** : progression réelle par matière et par notion (les barres sont à 0 %), tableau de bord parent, badges, synchronisation hors connexion.
-4. **Autres matières** : questionner le monde, sciences, histoire-géographie, langues, EMC.
+4. **Autres matières** : commencées en CE1 et 6e (questionner le monde, EMC, histoire-géographie, sciences), avec 285 questions rédigées en brouillon à faire relire par Laurent. Étendre aux autres classes à partir des textes déjà archivés.
 
 ## Avant de livrer
 
