@@ -1,0 +1,274 @@
+<title>Relecture Hopla</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Lexend:wght@400;500;600&display=swap">
+<style>
+/* Poste de relecture : une colonne de lecture, barre d'état collante en haut. Tokens repris du DS Hopla. */
+:root {
+  --bg: #F5F4FB; --surface: #FFFFFF; --surface-2: #ECEAF7; --line: #DCD9EE;
+  --ink: #1A1D3A; --ink-muted: #5A5F80; --primary: #4B3FD1; --primary-soft: #E7E4FB;
+  --success: #0B6E3E; --success-soft: #DDF3E6; --attention: #B23A26; --attention-soft: #FBE4DF;
+  --sun-soft: #FFF2CC; --sun-ink: #6B4E00;
+  --font-display: "Fredoka", "Trebuchet MS", sans-serif; --font-text: "Lexend", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12132A; --surface: #1C1E3D; --surface-2: #26284D; --line: #34376A;
+  --ink: #ECEBFA; --ink-muted: #A7A9CC; --primary: #9A91FF; --primary-soft: #2C2A5E;
+  --success: #5FD39A; --success-soft: #143A29; --attention: #FF8A75; --attention-soft: #45201A;
+  --sun-soft: #3D3214; --sun-ink: #FFD978; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12132A; --surface: #1C1E3D; --surface-2: #26284D; --line: #34376A;
+  --ink: #ECEBFA; --ink-muted: #A7A9CC; --primary: #9A91FF; --primary-soft: #2C2A5E;
+  --success: #5FD39A; --success-soft: #143A29; --attention: #FF8A75; --attention-soft: #45201A;
+  --sun-soft: #3D3214; --sun-ink: #FFD978; color-scheme: dark }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-text); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.barre { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line);
+  padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.barre__in, main { max-width: 860px; margin: 0 auto; }
+.barre__haut { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 22px; margin: 0; }
+.compteur { font-size: 13px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.compteur b { color: var(--ink); }
+.jauge { height: 6px; border-radius: 99px; background: var(--surface-2); overflow: hidden; margin-top: 8px; display: flex; }
+.jauge span { height: 100%; }
+.filtres { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.puce { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 99px; padding: 4px 12px; font: 500 13px var(--font-text); cursor: pointer; }
+.puce[aria-pressed="true"] { background: var(--primary); border-color: var(--primary); color: var(--surface); }
+.etat { font-size: 12px; color: var(--ink-muted); margin-top: 6px; min-height: 18px; }
+main { padding-block: 16px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 20px; }
+.vide { background: var(--surface); border-radius: 12px; padding: 20px; color: var(--ink-muted); }
+.notion { display: flex; flex-direction: column; gap: 10px; }
+.notion__tete { background: var(--surface); border-radius: 14px; padding: 14px 16px; border: 1.5px solid var(--line); display: flex; flex-direction: column; gap: 8px; }
+.notion__tete[data-decision="ok"] { border-color: var(--success); }
+.notion__tete[data-decision="corriger"] { border-color: var(--attention); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; color: var(--ink-muted); }
+.tag { background: var(--surface-2); color: var(--ink); border-radius: 6px; padding: 1px 8px; font-weight: 600; font-size: 12px; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 19px; margin: 0; text-wrap: balance; }
+.attendu { margin: 0; }
+.source { border-left: 3px solid var(--primary); background: var(--primary-soft); border-radius: 0 8px 8px 0; padding: 8px 12px; font-size: 13px; }
+.source cite { display: block; font-style: normal; color: var(--ink-muted); font-size: 12px; margin-top: 2px; }
+.q { background: var(--surface); border-radius: 12px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; border: 1.5px solid transparent; }
+.q[data-decision="ok"] { border-color: var(--success); }
+.q[data-decision="corriger"] { border-color: var(--attention); }
+.q__consigne { font-weight: 600; margin: 0; }
+.options { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.options li { border: 1.5px solid var(--line); border-radius: 8px; padding: 3px 10px; font-size: 14px; }
+.options li.juste { border-color: var(--success); background: var(--success-soft); color: var(--success); font-weight: 600; }
+.aide { font-size: 13px; color: var(--ink-muted); margin: 0; }
+.aide b { color: var(--ink); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 6px 12px; font: 600 13px var(--font-text); cursor: pointer; min-height: 36px; }
+.btn--ok[aria-pressed="true"] { background: var(--success); border-color: var(--success); color: var(--surface); }
+.btn--ko[aria-pressed="true"] { background: var(--attention); border-color: var(--attention); color: var(--surface); }
+.btn:disabled { opacity: .5; cursor: default; }
+textarea { width: 100%; min-height: 56px; border: 1.5px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 14px var(--font-text); background: var(--bg); color: var(--ink); resize: vertical; }
+:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.bandeau { background: var(--sun-soft); color: var(--sun-ink); border-radius: 10px; padding: 10px 14px; font-size: 13px; }
+@media (prefers-reduced-motion: no-preference) { .q, .notion__tete { transition: border-color .15s; } }
+.lecon { background: var(--surface); border-radius: 12px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; border: 1.5px solid transparent; }
+.lecon[data-decision="ok"] { border-color: var(--success); }
+.lecon[data-decision="corriger"] { border-color: var(--attention); }
+.lecon dl { margin: 0; display: grid; grid-template-columns: 88px 1fr; gap: 6px 12px; }
+.lecon dt { font-size: 12px; font-weight: 600; color: var(--ink-muted); text-transform: uppercase; letter-spacing: .04em; padding-top: 2px; }
+.lecon dd { margin: 0; }
+.type { font-family: var(--font-display); font-weight: 600; font-size: 15px; margin: 0; }
+.tout { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 10px; }
+.tout .aide { flex: 1 1 200px; }
+.btn--tout { background: var(--success); border-color: var(--success); color: var(--surface); }
+.plus { align-self: center; }
+@media (max-width: 520px) { .lecon dl { grid-template-columns: 1fr; gap: 2px; } .lecon dd { margin-bottom: 6px; } }
+</style>
+
+
+<header class="barre">
+  <div class="barre__in">
+    <div class="barre__haut">
+      <h1>Relecture Hopla</h1>
+      <span class="compteur" id="compteur"></span>
+    </div>
+    <div class="jauge" aria-hidden="true"><span id="j-ok" style="background:var(--success)"></span><span id="j-ko" style="background:var(--attention)"></span></div>
+    <div class="filtres" id="f-classe" role="group" aria-label="Classe"></div>
+    <div class="filtres" id="f-matiere" role="group" aria-label="Matière"></div>
+    <div class="filtres" id="f-etat" role="group" aria-label="État"></div>
+    <div class="etat" id="etat" role="status"></div>
+  </div>
+</header>
+<main id="liste"></main>
+
+<script type="application/json" id="donnees">__DONNEES__</script>
+<script>
+(function () {
+  const NOTIONS = JSON.parse(document.getElementById('donnees').textContent);
+  const COLLS = ['notions', 'lecons', 'questions'];
+  const decisions = { notions: {}, lecons: {}, questions: {} };
+  let db = null;
+  const CLASSES = [...new Set(NOTIONS.map((n) => n.classe))];
+  const filtre = { classe: CLASSES[0], matiere: 'Toutes', etat: 'À relire' };
+  let limite = 20;
+
+  const el = (tag, attrs, ...enfants) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (k === 'class') n.className = v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+    }
+    for (const e of enfants) if (e != null) n.append(e);
+    return n;
+  };
+  // **gras** → <strong>, sans injecter de HTML.
+  const riche = (texte) => {
+    const n = el('span');
+    String(texte).split(/(\*\*[^*]+\*\*)/).forEach((p) => n.append(/^\*\*.+\*\*$/.test(p) ? el('strong', {}, p.slice(2, -2)) : p));
+    return n;
+  };
+  const etat = (t) => { document.getElementById('etat').textContent = t; };
+
+  // Éléments à relire d'une notion : la notion (conformité au texte), sa leçon, ses questions.
+  const elements = (n) => [
+    { coll: 'notions', id: n.id },
+    ...(n.lecon ? [{ coll: 'lecons', id: n.id }] : []),
+    ...n.questions.map((q) => ({ coll: 'questions', id: q.id })),
+  ];
+  const decision = (e) => decisions[e.coll][e.id]?.decision;
+
+  function puces(id, valeurs, cle) {
+    const zone = document.getElementById(id);
+    zone.replaceChildren(...valeurs.map((v) => el('button', { class: 'puce', type: 'button', 'aria-pressed': String(filtre[cle] === v),
+      onclick: () => { filtre[cle] = v; limite = 20; puces(id, valeurs, cle); if (cle === 'classe') puces('f-matiere', matieres(), 'matiere'); rendre(); } }, v)));
+  }
+  const matieres = () => ['Toutes', ...new Set(NOTIONS.filter((n) => n.classe === filtre.classe).map((n) => n.matiere))];
+  puces('f-classe', CLASSES, 'classe');
+  puces('f-matiere', matieres(), 'matiere');
+  puces('f-etat', ['À relire', 'À corriger', 'Validées', 'Tout'], 'etat');
+
+  function compter() {
+    const tous = NOTIONS.filter((n) => n.classe === filtre.classe).flatMap(elements);
+    const ok = tous.filter((e) => decision(e) === 'ok').length;
+    const ko = tous.filter((e) => decision(e) === 'corriger').length;
+    const t = tous.length || 1;
+    document.getElementById('compteur').innerHTML = `${filtre.classe} : <b>${ok}</b> validés · <b>${ko}</b> à corriger · ${tous.length - ok - ko} à relire`;
+    document.getElementById('j-ok').style.width = (ok / t * 100) + '%';
+    document.getElementById('j-ko').style.width = (ko / t * 100) + '%';
+  }
+
+  async function enregistrer(coll, id, valeur, commentaire) {
+    const avant = decisions[coll][id];
+    const corps = { decision: valeur, commentaire: commentaire || '', le: new Date().toISOString() };
+    decisions[coll][id] = corps;
+    compter();
+    if (!db) { etat('Hors connexion à la base : cette décision ne sera pas conservée.'); return false; }
+    try { await db.collection(coll).doc(id).set(corps); etat('Enregistré.'); return true; }
+    catch (e) { decisions[coll][id] = avant; compter(); rendre(); etat('Échec de l’enregistrement : ' + (e && e.message ? e.message : 'erreur inconnue') + '.'); return false; }
+  }
+
+  async function toutValider(n, bouton) {
+    const restants = elements(n).filter((e) => !decision(e));
+    bouton.disabled = true;
+    etat(`Validation de ${restants.length} élément${restants.length > 1 ? 's' : ''}…`);
+    for (const e of restants) { if (!(await enregistrer(e.coll, e.id, 'ok', ''))) break; }
+    rendre();
+  }
+
+  function blocDecision(coll, id, libelleOk, libelleKo) {
+    const d = decisions[coll][id];
+    const zone = el('div', { class: 'actions' });
+    const champ = el('textarea', { id: `c-${coll}-${id}`, placeholder: 'Ce qui ne va pas, et la correction souhaitée', 'aria-label': 'Commentaire' });
+    champ.value = d?.commentaire || '';
+    champ.hidden = d?.decision !== 'corriger';
+    let minuteur = null;
+    champ.addEventListener('input', () => {
+      clearTimeout(minuteur);
+      minuteur = setTimeout(() => enregistrer(coll, id, 'corriger', champ.value), 800);
+    });
+    const ok = el('button', { class: 'btn btn--ok', type: 'button', 'aria-pressed': String(d?.decision === 'ok'),
+      onclick: () => { enregistrer(coll, id, 'ok', ''); rendre(); } }, libelleOk);
+    const ko = el('button', { class: 'btn btn--ko', type: 'button', 'aria-pressed': String(d?.decision === 'corriger'),
+      onclick: () => { enregistrer(coll, id, 'corriger', champ.value); champ.hidden = false; ok.setAttribute('aria-pressed', 'false'); ko.setAttribute('aria-pressed', 'true'); champ.focus(); } }, libelleKo);
+    zone.append(ok, ko);
+    return [zone, champ];
+  }
+
+  function garder(n) {
+    const ds = elements(n).map(decision);
+    if (filtre.etat === 'À relire') return ds.some((d) => !d);
+    if (filtre.etat === 'À corriger') return ds.some((d) => d === 'corriger');
+    if (filtre.etat === 'Validées') return ds.every((d) => d === 'ok');
+    return true;
+  }
+
+  function carteLecon(n) {
+    const l = n.lecon;
+    const d = decisions.lecons[n.id];
+    return el('article', { class: 'lecon', 'data-decision': d?.decision || '' },
+      el('p', { class: 'type' }, 'Leçon'),
+      el('dl', {},
+        el('dt', {}, 'Regarde'), el('dd', {}, riche(l.exemple)),
+        el('dt', {}, 'Retiens'), el('dd', {}, riche(l.regle)),
+        ...(l.piege ? [el('dt', {}, 'Attention'), el('dd', {}, riche(l.piege))] : []),
+        el('dt', {}, 'Essai'), el('dd', {}, el('p', { class: 'q__consigne' }, l.essai.consigne),
+          el('ul', { class: 'options' }, ...l.essai.options.map((o) => el('li', { class: o === l.essai.reponse ? 'juste' : '' }, (o === l.essai.reponse ? '✓ ' : '') + o))),
+          el('p', { class: 'aide' }, l.essai.explication))),
+      ...blocDecision('lecons', n.id, 'Valider la leçon', 'À corriger'));
+  }
+
+  function carteQuestion(q) {
+    const d = decisions.questions[q.id];
+    return el('article', { class: 'q', 'data-decision': d?.decision || '' },
+      el('div', { class: 'meta' }, el('span', { class: 'tag' }, 'Niveau ' + q.difficulte), q.id),
+      ...(q.ecoute ? [el('p', { class: 'aide' }, el('b', {}, 'Octave dit en anglais : '), '« ' + q.ecoute + ' »')] : []),
+      el('p', { class: 'q__consigne' }, q.consigne),
+      el('ul', { class: 'options' }, ...q.options.map((o) => el('li', { class: o === q.reponse ? 'juste' : '' }, (o === q.reponse ? '✓ ' : '') + o))),
+      el('p', { class: 'aide' }, el('b', {}, 'Indice : '), q.indice),
+      el('p', { class: 'aide' }, el('b', {}, 'Explication : '), q.explication),
+      ...blocDecision('questions', q.id, 'Valider', 'À corriger'));
+  }
+
+  function rendre() {
+    compter();
+    const liste = document.getElementById('liste');
+    const blocs = [];
+    if (!db) blocs.push(el('p', { class: 'bandeau' }, 'Connexion à la base en cours. Les décisions ne seront conservées qu’une fois la connexion établie.'));
+    const choisies = NOTIONS.filter((n) => n.classe === filtre.classe && (filtre.matiere === 'Toutes' || n.matiere === filtre.matiere) && garder(n));
+    for (const n of choisies.slice(0, limite)) {
+      const dn = decisions.notions[n.id];
+      const restants = elements(n).filter((e) => !decision(e)).length;
+      const tout = el('button', { class: 'btn btn--tout', type: 'button', onclick: (ev) => toutValider(n, ev.currentTarget) },
+        restants === elements(n).length ? 'Tout valider' : `Valider les ${restants} restants`);
+      const tete = el('section', { class: 'notion__tete', 'data-decision': dn?.decision || '' },
+        el('div', { class: 'meta' }, el('span', { class: 'tag' }, n.classe), el('span', { class: 'tag' }, n.matiere), n.theme),
+        el('h2', {}, n.titre),
+        el('p', { class: 'attendu' }, n.attendu),
+        el('div', { class: 'source' }, '« ' + n.source.extrait + ' »', el('cite', {}, `${n.source.titre}, page ${n.source.page} du PDF archivé`)),
+        ...blocDecision('notions', n.id, 'Notion conforme au texte', 'Notion à revoir'),
+        ...(restants > 0 ? [el('div', { class: 'tout' },
+          el('p', { class: 'aide' }, `Notion, leçon et ${n.questions.length} question${n.questions.length > 1 ? 's' : ''} : tout ce qui n’a pas de décision passe en « validé ».`), tout)] : []));
+      blocs.push(el('div', { class: 'notion' }, tete, ...(n.lecon ? [carteLecon(n)] : []), ...n.questions.map(carteQuestion)));
+    }
+    if (choisies.length > limite) blocs.push(el('button', { class: 'btn plus', type: 'button', onclick: () => { limite += 20; rendre(); } },
+      `Afficher 20 notions de plus (${choisies.length - limite} restantes)`));
+    if (!choisies.length) blocs.push(el('p', { class: 'vide' }, filtre.etat === 'À relire' ? 'Plus rien à relire avec ces filtres.' : 'Aucune notion avec ces filtres.'));
+    liste.replaceChildren(...blocs);
+  }
+
+  rendre();
+
+  (async () => {
+    db = await window.claude?.use?.('db').catch(() => null) ?? null;
+    if (!db) { etat('Base indisponible : ouvre la page en étant connecté à claude.ai pour enregistrer.'); rendre(); return; }
+    rendre();
+    let attendus = COLLS.length;
+    const minuteur = setTimeout(() => etat('La base ne répond pas encore. Les décisions affichées peuvent être incomplètes.'), 10000);
+    for (const coll of COLLS) {
+      db.collection(coll).onSnapshot((snap) => {
+        const m = {};
+        for (const d of snap.docs) if (d.exists) m[d.id] = d.data();
+        decisions[coll] = m;
+        if (!snap.metadata?.fromCache && --attendus <= 0) { clearTimeout(minuteur); etat(''); }
+        if (!document.activeElement || document.activeElement.tagName !== 'TEXTAREA') rendre(); else compter();
+      }, (e) => { clearTimeout(minuteur); etat('Lecture impossible : ' + (e && e.message ? e.message : 'erreur') + '.'); });
+    }
+  })();
+})();
+</script>
