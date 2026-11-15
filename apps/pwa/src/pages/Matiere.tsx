@@ -18,7 +18,7 @@ export function Matiere() {
         if (!enfant) return naviguer('/');
         const pack = await chargerPack(enfant.classe);
         const m = pack.matieres.find((x) => x.matiere === matiere);
-        if (!m) return naviguer('/accueil');
+        if (!m || enfant.matieres_masquees?.includes(m.matiere)) return naviguer('/accueil');
         setBloc(m);
         setSuivi(await api.progression().catch(() => ({})));
       } catch {

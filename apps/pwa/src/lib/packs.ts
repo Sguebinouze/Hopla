@@ -187,3 +187,8 @@ export function seriePour(c: CompetencePack, n: number): ItemPack[] {
   }
   return items;
 }
+
+/** Pack sans les matières masquées par le parent. */
+export function sansMatieres(pack: Pack, masquees: string[] = []): Pack {
+  return masquees.length ? { ...pack, matieres: pack.matieres.filter((m) => !masquees.includes(m.matiere)) } : pack;
+}

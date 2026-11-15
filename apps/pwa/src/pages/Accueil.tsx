@@ -5,7 +5,7 @@ import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, surAppareilEnfant, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
-import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
 import { bilan, etat, type Suivi } from '../lib/progression';
 import { dateLisible } from '../lib/entrainement';
 import type { ControlePrevu } from '../lib/donnees';
@@ -25,6 +25,7 @@ export function Accueil() {
   const [voixAuto, setVoixAuto] = useState<boolean | null>(null);
   const [suivi, setSuivi] = useState<Record<string, Suivi>>({});
   const [prevu, setPrevu] = useState<ControlePrevu | null>(null);
+  const [minutes, setMinutes] = useState(0);
   const [mesRecords, setMesRecords] = useState<Record<string, number>>({});
 
   useEffect(() => {
@@ -33,8 +34,9 @@ export function Accueil() {
         const e = await api.enfantCourant();
         if (!e) return naviguer('/');
         setEnfant(e);
-        const p = await chargerPack(e.classe);
+        const p = sansMatieres(await chargerPack(e.classe), e.matieres_masquees);
         setPack(p);
+        if (e.minutes_par_jour) setMinutes(await api.minutesAujourdhui().catch(() => 0));
         setVoixAuto(lectureAuto(p.cycle));
         // Sans réseau, l'accueil reste utilisable : la progression s'affiche à 0.
         setSuivi(await api.progression().catch(() => ({})));
@@ -84,6 +86,18 @@ export function Accueil() {
 
       {erreur && <p className="erreur">{erreur}</p>}
 
+      {enfant.minutes_par_jour ? (
+        <div className="temps-jour" role="status">
+          <span className="muet pousse">
+            {minutes >= enfant.minutes_par_jour
+              ? 'Temps prévu atteint pour aujourd’hui : bravo, on reprend demain !'
+              : `Aujourd’hui : ${Math.round(minutes)} min sur ${enfant.minutes_par_jour}`}
+          </span>
+          <div className="hp-progress hp-progress--sm" aria-hidden="true">
+            <span style={{ width: `${Math.min(100, (minutes / enfant.minutes_par_jour) * 100)}%` }} />
+          </div>
+        </div>
+      ) : null}
       <section className="hp-mission" style={{ width: 'auto' }}>
         <div className="ligne">
           <Octave taille={46} />

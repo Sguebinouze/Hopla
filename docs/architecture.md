@@ -26,7 +26,7 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 
 ## Espaces
 
-**Parent** (`/parent`) : famille et invitations, une fiche par enfant (progression par matière, à revoir, erreurs fréquentes, appareils), création de profils. À venir (lot 2) : historique des séances, leçons consultées, réglages par enfant (matières, temps d'écran, code), export et suppression des données.
+**Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle prévu, réglages et appareils.
 
 **Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. À venir (lot 3) : profil (avatar, Octave personnalisable, collection), mode hors connexion.
 
@@ -35,7 +35,7 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 ## Lots
 
 1. Famille, co-parent, appairage des appareils, connexion Apple et Google (si activée dans Supabase), records et contrôles en base. **Fait le 16 novembre 2026.**
-2. Fiche enfant complète, historique, réglages, export et suppression.
+2. Fiche enfant complète (progression par notion, séances, leçons consultées), réglages par enfant (prénom, avatar, classe, code, matières, temps de travail par jour), export et suppression des données.
 3. Profil enfant, mode hors connexion.
 4. Bilan du dimanche par email, contrôle programmé par le parent.
 5. Photo de leçon, cahier de vacances, défi de la semaine en famille.

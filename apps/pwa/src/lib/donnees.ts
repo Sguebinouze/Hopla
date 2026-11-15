@@ -15,6 +15,41 @@ export interface Enfant extends Profil {
   classe: Classe;
   xp: number;
   serie: number;
+  /** Matières masquées par le parent (identifiants : 'langues-vivantes'…). */
+  matieres_masquees?: string[];
+  /** Temps de travail maximal par jour, en minutes ; null : pas de limite. */
+  minutes_par_jour?: number | null;
+}
+
+export const AVATARS = ['orange', 'violet', 'teal', 'framboise'] as const;
+
+export interface ReglagesEnfant {
+  prenom: string;
+  avatar: string;
+  classe: Classe;
+  matieres_masquees: string[];
+  minutes_par_jour: number | null;
+}
+
+export interface JourneeNotion {
+  jour: string;
+  competence_id: string;
+  questions: number;
+  reussies: number;
+  duree_ms: number;
+}
+
+export interface LeconVue {
+  competence_id: string;
+  vues: number;
+  derniere_vue: string;
+}
+
+export interface FicheEnfant {
+  historique: JourneeNotion[];
+  lecons: LeconVue[];
+  records: Record<string, number>;
+  controle: ControlePrevu | null;
 }
 
 export interface Resultat {
@@ -106,6 +141,20 @@ export interface Api {
   noterDefi(defi: string, score: number): Promise<boolean>;
   controle(enfant?: string): Promise<ControlePrevu | null>;
   prevoirControle(c: ControlePrevu | null, enfant?: string): Promise<void>;
+  // Fiche enfant (mode parent).
+  modeParentActif(): Promise<boolean>;
+  ficheEnfant(enfant: string): Promise<FicheEnfant>;
+  reglerEnfant(enfant: string, r: ReglagesEnfant): Promise<void>;
+  changerCodeEnfant(enfant: string, code: string): Promise<void>;
+  supprimerEnfant(enfant: string): Promise<void>;
+  /** Toutes les données de la famille, pour l'export (droit d'accès et de portabilité). */
+  exporterDonnees(): Promise<unknown>;
+  /** Supprime le compte du parent ; les enfants restent si un autre parent est membre. */
+  supprimerMonCompte(): Promise<void>;
+  // Enfant en session.
+  noterLecon(competence: string): Promise<void>;
+  /** Minutes de travail aujourd'hui (questions répondues). */
+  minutesAujourdhui(): Promise<number>;
   // Espace admin : compte inscrit comme admin, mode parent ouvert (contrôlé en base).
   estAdmin(): Promise<boolean>;
   decisionsRelecture(): Promise<DecisionRelecture[]>;
@@ -219,7 +268,7 @@ function apiSupabase(url: string, cle: string): Api {
       if (!sessionStorage.getItem(CLE_SESSION) || !id) return null;
       const { data, error } = await client
         .from('enfants')
-        .select('id, prenom, avatar, classe, code_type, xp, serie')
+        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour')
         .eq('id', id)
         .maybeSingle();
       if (error) throw error;
@@ -268,7 +317,7 @@ function apiSupabase(url: string, cle: string): Api {
     },
     async suiviParent() {
       const { data: enfants, error } = await client.from('enfants')
-        .select('id, prenom, avatar, classe, code_type, xp, serie').order('cree_le');
+        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour').order('cree_le');
       if (error) throw error;
       const { data: lignes, error: e2 } = await client.from('progression_competences')
         .select(`enfant_id, ${COLONNES_PROGRESSION}`);
@@ -295,7 +344,8 @@ function apiSupabase(url: string, cle: string): Api {
         try { localStorage.removeItem(CLE_APPAREIL); } catch { /* rien */ }
         return null;
       }
-      return { id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'pictos' } as Enfant;
+      const { data: ligne } = await client.from('enfants').select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour').eq('id', e.enfant_id).maybeSingle();
+      return (ligne as Enfant | null) ?? ({ id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'pictos' } as Enfant);
     },
     async lierAppareil(code) {
       const { data, error } = await client.rpc('lier_appareil', { p_code: code, p_nom: nomAppareil() });
@@ -359,6 +409,82 @@ function apiSupabase(url: string, cle: string): Api {
         ? await client.from('controles').upsert({ enfant_id: id, date: c.date, notions: c.notions, maj_le: new Date().toISOString() })
         : await client.from('controles').delete().eq('enfant_id', id);
       if (error) throw error;
+    },
+    async modeParentActif() {
+      if (!sessionStorage.getItem(CLE_PARENT)) return false;
+      const { data, error } = await client.rpc('mode_parent_actif');
+      if (error) throw error;
+      return data === true;
+    },
+    async ficheEnfant(enfant) {
+      const [h, l, r, c] = await Promise.all([
+        client.rpc('historique', { p_enfant: enfant, p_jours: 60 }),
+        client.from('lecons_vues').select('competence_id, vues, derniere_vue').eq('enfant_id', enfant).order('derniere_vue', { ascending: false }),
+        client.from('records_defis').select('defi_id, record').eq('enfant_id', enfant),
+        this.controle(enfant),
+      ]);
+      for (const x of [h, l, r]) if (x.error) throw x.error;
+      return {
+        historique: (h.data as JourneeNotion[]).map((x) => ({ ...x, questions: Number(x.questions), reussies: Number(x.reussies), duree_ms: Number(x.duree_ms) })),
+        lecons: l.data as LeconVue[],
+        records: Object.fromEntries((r.data as { defi_id: string; record: number }[]).map((x) => [x.defi_id, x.record])),
+        controle: c,
+      };
+    },
+    async reglerEnfant(enfant, r) {
+      const { error } = await client.from('enfants').update({
+        prenom: r.prenom.trim().slice(0, 40), avatar: r.avatar, classe: r.classe,
+        matieres_masquees: r.matieres_masquees, minutes_par_jour: r.minutes_par_jour,
+      }).eq('id', enfant);
+      if (error) throw error;
+    },
+    async changerCodeEnfant(enfant, code) {
+      const { error } = await client.rpc('definir_code_enfant', { p_enfant: enfant, p_code: code });
+      if (error) throw error;
+    },
+    async supprimerEnfant(enfant) {
+      const { error } = await client.from('enfants').delete().eq('id', enfant);
+      if (error) throw error;
+    },
+    async exporterDonnees() {
+      const tout = async (table: string, colonnes: string) => {
+        const lignes: unknown[] = [];
+        for (let debut = 0; ; debut += 1000) {
+          const { data, error } = await client.from(table).select(colonnes).range(debut, debut + 999);
+          if (error) throw error;
+          lignes.push(...data);
+          if (data.length < 1000) return lignes;
+        }
+      };
+      return {
+        exporte_le: new Date().toISOString(),
+        famille: await this.membresFamille(),
+        enfants: await tout('enfants', 'id, prenom, avatar, classe, xp, serie, derniere_activite, cree_le, matieres_masquees, minutes_par_jour'),
+        resultats: await tout('resultats', 'enfant_id, competence_id, contenu_id, annee_scolaire, reussi, indice, duree_ms, reponse, erreur, le'),
+        progression: await tout('progression_competences', 'enfant_id, competence_id, score, nb_essais, prochaine_revision, maj_le'),
+        lecons_vues: await tout('lecons_vues', 'enfant_id, competence_id, vues, derniere_vue'),
+        records_defis: await tout('records_defis', 'enfant_id, defi_id, record, maj_le'),
+        controles: await tout('controles', 'enfant_id, date, notions, maj_le'),
+        appareils: await tout('appareils', 'enfant_id, nom, cree_le, vu_le'),
+      };
+    },
+    async supprimerMonCompte() {
+      const { error } = await client.rpc('supprimer_mon_compte');
+      if (error) throw error;
+      sessionStorage.clear();
+      await client.auth.signOut();
+    },
+    async noterLecon(competence) {
+      const { error } = await client.rpc('noter_lecon', { p_competence: competence });
+      if (error) throw error;
+    },
+    async minutesAujourdhui() {
+      const e = await this.enfantCourant();
+      if (!e) return 0;
+      const { data, error } = await client.rpc('historique', { p_enfant: e.id, p_jours: 1 });
+      if (error) throw error;
+      const jour = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Paris' });
+      return (data as JourneeNotion[]).filter((x) => x.jour === jour).reduce((n, x) => n + Number(x.duree_ms), 0) / 60_000;
     },
     async estAdmin() {
       if (!sessionStorage.getItem(CLE_PARENT)) return false;
@@ -467,6 +593,14 @@ function apiDemo(): Api {
       const j = lireJournal();
       const d = j[id] ?? { progression: {}, erreurs: [] };
       d.progression[r.competence] = majSuivi(d.progression[r.competence], r);
+      const h = lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {});
+      const jour = auJour();
+      const lignes = h[id] ?? [];
+      const l = lignes.find((x) => x.jour === jour && x.competence_id === r.competence);
+      if (l) { l.questions++; l.reussies += r.reussi ? 1 : 0; l.duree_ms += r.dureeMs; }
+      else lignes.unshift({ jour, competence_id: r.competence, questions: 1, reussies: r.reussi ? 1 : 0, duree_ms: r.dureeMs });
+      h[id] = lignes;
+      ecrireDemo('hopla.demo-historique', h);
       if (r.erreur) d.erreurs = [...d.erreurs, { competence: r.competence, erreur: r.erreur }].slice(-200);
       j[id] = d;
       ecrireJournal(j);
@@ -548,6 +682,41 @@ function apiDemo(): Api {
     async prevoirControle(c, enfant) {
       const id = enfant ?? (await this.enfantCourant())?.id;
       if (id) ecrireDemo(`hopla.controle.${id}`, c);
+    },
+    modeParentActif: async () => sessionStorage.getItem(CLE_PARENT) === 'demo',
+    async ficheEnfant(enfant) {
+      return {
+        historique: lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {})[enfant] ?? [],
+        lecons: lireDemo<Record<string, LeconVue[]>>('hopla.demo-lecons', {})[enfant] ?? [],
+        records: lireDemo<Record<string, number>>(`hopla.defis.${enfant}`, {}),
+        controle: await this.controle(enfant),
+      };
+    },
+    async reglerEnfant(enfant, r) {
+      ecrire(lire().map((e) => (e.id === enfant ? { ...e, ...r } : e)));
+    },
+    changerCodeEnfant: async () => undefined,
+    async supprimerEnfant(enfant) {
+      ecrire(lire().filter((e) => e.id !== enfant));
+    },
+    async exporterDonnees() {
+      return { exporte_le: new Date().toISOString(), enfants: lire(), suivi: lireJournal() };
+    },
+    supprimerMonCompte: async () => { throw new Error('Pas de compte à supprimer en mode démo.'); },
+    async noterLecon(competence) {
+      const id = (await this.enfantCourant())?.id;
+      if (!id) return;
+      const tout = lireDemo<Record<string, LeconVue[]>>('hopla.demo-lecons', {});
+      const avant = (tout[id] ?? []).find((x) => x.competence_id === competence);
+      tout[id] = [{ competence_id: competence, vues: (avant?.vues ?? 0) + 1, derniere_vue: new Date().toISOString() },
+        ...(tout[id] ?? []).filter((x) => x.competence_id !== competence)];
+      ecrireDemo('hopla.demo-lecons', tout);
+    },
+    async minutesAujourdhui() {
+      const id = (await this.enfantCourant())?.id ?? '';
+      const jour = auJour();
+      return (lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {})[id] ?? [])
+        .filter((x) => x.jour === jour).reduce((n, x) => n + x.duree_ms, 0) / 60_000;
     },
     // Démo : admin dès que le mode parent est ouvert ; décisions gardées dans ce navigateur.
     estAdmin: async () => sessionStorage.getItem(CLE_PARENT) === 'demo',

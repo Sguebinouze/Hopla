@@ -247,6 +247,48 @@ describe('sessions et isolation', () => {
     expect(await surAppareil(jeton, `select id from public.enfants`)).toEqual([]);
   });
 
+  it('fiche enfant : leçons vues, historique et réglages, visibles par l’enfant et sa famille seulement', async () => {
+    const lea_ = { parent: PARENT_A, enfant: sessionLea };
+    await en(lea_, `select public.noter_lecon('MA-C2-CE2-FRAC-02')`);
+    await en(lea_, `select public.noter_lecon('MA-C2-CE2-FRAC-02')`);
+    await expect(en({ parent: PARENT_A, parentMode: modeA }, `select public.noter_lecon('MA-C2-CE2-FRAC-02')`)).rejects.toThrow(/Session enfant requise/);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, `select competence_id, vues from public.lecons_vues`)).toEqual([{ competence_id: 'MA-C2-CE2-FRAC-02', vues: 2 }]);
+    expect(await en({ parent: PARENT_B }, `select * from public.lecons_vues`)).toEqual([]);
+
+    const h = `select sum(questions)::int as q from public.historique($1)`;
+    expect((await une<number>({ parent: PARENT_A, parentMode: modeA }, h, [lea]))!.q).toBeGreaterThan(0);
+    expect((await une<number>(lea_, h, [lea]))!.q).toBeGreaterThan(0);
+    expect((await une<number | null>({ parent: PARENT_B }, h, [lea]))!.q).toBeNull();
+    expect((await une<number | null>(lea_, h, [tom]))!.q).toBeNull();
+
+    const regler = `update public.enfants set minutes_par_jour = 30, matieres_masquees = '{langues-vivantes}' where id = $1 returning id`;
+    expect(await en(lea_, regler, [lea])).toEqual([]);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, regler, [lea])).toEqual([{ id: lea }]);
+    expect(await en(lea_, `select minutes_par_jour, matieres_masquees from public.enfants`)).toEqual([{ minutes_par_jour: 30, matieres_masquees: ['langues-vivantes'] }]);
+    await expect(en({ parent: PARENT_A, parentMode: modeA }, `update public.enfants set matieres_masquees = '{"Pas valide"}' where id = $1`, [lea])).rejects.toThrow(/check constraint/);
+    await expect(en({ parent: PARENT_A, parentMode: modeA }, `update public.enfants set minutes_par_jour = 1 where id = $1`, [lea])).rejects.toThrow(/check constraint/);
+    expect((await une<boolean>({ parent: PARENT_A, parentMode: modeA }, `select public.mode_parent_actif() as m`))!.m).toBe(true);
+    expect((await une<boolean>({ parent: PARENT_A }, `select public.mode_parent_actif() as m`))!.m).toBe(false);
+  });
+
+  it('suppression du compte : les enfants restent si un autre parent est membre, sinon tout part', async () => {
+    await expect(en({ parent: PARENT_C }, `select public.supprimer_mon_compte()`)).rejects.toThrow(/Mode parent requis/);
+    const modeC = (await une<string>({ parent: PARENT_C }, `select public.ouvrir_mode_parent('7777') as j`))!.j!;
+    await en({ parent: PARENT_C, parentMode: modeC }, `select public.supprimer_mon_compte()`);
+    expect((await db.query(`select count(*)::int as n from auth.users where id = $1`, [PARENT_C])).rows[0]).toEqual({ n: 0 });
+    expect((await en({ parent: PARENT_A, parentMode: modeA }, `select prenom from public.enfants order by cree_le`)).map((e) => e.prenom)).toEqual(['Léa', 'Tom']);
+
+    const PARENT_D = '44444444-4444-4444-4444-444444444444';
+    await db.query(`insert into auth.users values ($1, 'd@exemple.fr')`, [PARENT_D]);
+    await en({ parent: PARENT_D }, `select public.definir_code_parent('5555')`);
+    const modeD = (await une<string>({ parent: PARENT_D }, `select public.ouvrir_mode_parent('5555') as j`))!.j!;
+    const zoe = (await une<string>({ parent: PARENT_D, parentMode: modeD }, `select public.creer_enfant('Zoé', 'vert', 'cp', '1212') as id`))!.id!;
+    await en({ parent: PARENT_D, parentMode: modeD }, `select public.supprimer_mon_compte()`);
+    const reste = await db.query(`select (select count(*) from public.enfants where id = $1)::int as enfants,
+      (select count(*) from public.familles f where not exists (select 1 from public.membres_famille m where m.famille_id = f.id))::int as familles_vides`, [zoe]);
+    expect(reste.rows[0]).toEqual({ enfants: 0, familles_vides: 0 });
+  });
+
   it('bloque après 5 mauvais codes en 10 minutes', async () => {
     for (let i = 0; i < 4; i++) await en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '0000')`, [tom]);
     await expect(en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876')`, [tom])).resolves.toBeDefined();

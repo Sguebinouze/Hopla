@@ -128,3 +128,23 @@ a.hp-chip { text-decoration: none; }
 .appareils__code img { border-radius: var(--radius-sm); background: #fff; }
 .code-lisible { margin: 0; font-family: var(--font-display); font-size: 28px; font-weight: 600; letter-spacing: .12em; }
 .code-saisie { text-transform: uppercase; letter-spacing: .12em; font-size: 20px; }
+
+/* Fiche enfant */
+.fiche__onglets, .fiche__puces { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.fiche__matiere summary { list-style: none; cursor: pointer; display: flex; flex-direction: column; gap: var(--space-2); }
+.fiche__matiere summary::-webkit-details-marker { display: none; }
+.fiche__notions, .fiche__liste { list-style: none; margin: var(--space-3) 0 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.fiche__liste { margin: 0; }
+.fiche__liste li { flex-wrap: wrap; }
+.fiche__notion .pousse { min-width: 0; }
+.fiche__notion .hp-chip, .fiche__notion .muet { flex: none; }
+.fiche__jour { display: block; }
+.fiche__jour::first-letter { text-transform: uppercase; }
+.fiche__bloc, .fiche__seance { display: flex; flex-direction: column; gap: var(--space-2); }
+.fiche__seance .titre-3, .fiche__bloc .titre-3 { margin: 0; }
+.fiche__seances { display: flex; flex-direction: column; gap: var(--space-2); }
+.fiche__groupe { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.fiche__groupe legend { font-size: 14px; font-weight: 600; padding: 0; margin-bottom: var(--space-2); }
+.fiche__avatar { border: 3px solid transparent; border-radius: 50%; padding: 0; background: none; cursor: pointer; line-height: 0; }
+.fiche__avatar--choisi { border-color: var(--primary); }
+.temps-jour { display: flex; flex-direction: column; gap: var(--space-1); }

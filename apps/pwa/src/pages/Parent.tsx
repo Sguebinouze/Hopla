@@ -2,17 +2,14 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
-import { Appareils } from '../composants/Appareils';
 import { Famille } from '../composants/Famille';
-import { api, type Appareil, type Classe, type SuiviEnfant } from '../lib/donnees';
+import { api, type Classe, type SuiviEnfant } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { bilan, libelleErreur } from '../lib/progression';
 
 const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 
-function TableauEnfant({ suivi, pack, appareils, onChange }: {
-  suivi: SuiviEnfant; pack: Pack | undefined; appareils: Appareil[]; onChange: () => void;
-}) {
+function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undefined }) {
   const { enfant, progression, erreurs } = suivi;
   const titres = new Map(pack?.matieres.flatMap((m) => m.competences.map((c) => [c.id, c.titre] as const)) ?? []);
   return (
@@ -56,7 +53,9 @@ function TableauEnfant({ suivi, pack, appareils, onChange }: {
           ))}
         </ul>
       )}
-      <Appareils enfant={enfant.id} prenom={enfant.prenom} appareils={appareils} onChange={onChange} />
+      <Link to={`/parent/enfant/${enfant.id}`} className="hp-btn hp-btn--secondary" style={{ alignSelf: 'flex-start' }}>
+        Fiche complète et réglages
+      </Link>
     </section>
   );
 }
@@ -70,7 +69,12 @@ export function Parent() {
   const [packs, setPacks] = useState<Partial<Record<Classe, Pack>>>({});
   const [version, setVersion] = useState(0);
   const [admin, setAdmin] = useState(false);
-  const [appareils, setAppareils] = useState<Appareil[]>([]);
+  const [confirmer, setConfirmer] = useState(false);
+
+  // Mode parent encore ouvert dans cet onglet (retour depuis une fiche) : pas besoin de redemander le code.
+  useEffect(() => {
+    api.modeParentActif().then((o) => o && setOuvert(true)).catch(() => undefined);
+  }, []);
 
   useEffect(() => {
     if (!ouvert) return;
@@ -79,7 +83,6 @@ export function Parent() {
         setAdmin(await api.estAdmin().catch(() => false));
         const s = await api.suiviParent();
         setSuivis(s);
-        setAppareils(await api.appareils().catch(() => []));
         const classes = [...new Set(s.map((x) => x.enfant.classe))];
         const charges = await Promise.all(classes.map((c) => chargerPack(c).then((p) => [c, p] as const).catch(() => null)));
         setPacks(Object.fromEntries(charges.filter((x) => x !== null)));
@@ -137,8 +140,7 @@ export function Parent() {
           </Link>
         )}
         {suivis.map((s) => (
-          <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]}
-            appareils={appareils.filter((a) => a.enfant_id === s.enfant.id)} onChange={() => setVersion((v) => v + 1)} />
+          <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />
         ))}
         <Famille sansEnfant={suivis.length === 0} onRejoint={() => setVersion((v) => v + 1)} />
         <form className="formulaire hp-card" onSubmit={(e) => {
@@ -164,6 +166,37 @@ export function Parent() {
           </label>
           <button className="hp-btn hp-btn--primary">Créer le profil</button>
         </form>
+        <section className="hp-card fiche__bloc">
+          <h2 className="titre-2">Mes données</h2>
+          <p className="muet">Hopla ne garde que le prénom, l’avatar et la classe de chaque enfant, avec ses résultats.</p>
+          <button type="button" className="hp-btn hp-btn--secondary" style={{ alignSelf: 'flex-start' }} onClick={() => void essayer(async () => {
+            const donnees = await api.exporterDonnees();
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([JSON.stringify(donnees, null, 2)], { type: 'application/json' }));
+            a.download = `hopla-donnees-${new Date().toISOString().slice(0, 10)}.json`;
+            a.click();
+            URL.revokeObjectURL(a.href);
+          })}>Télécharger toutes nos données</button>
+          {!confirmer ? (
+            <button type="button" className="hp-btn hp-btn--ghost" style={{ alignSelf: 'flex-start' }} onClick={() => setConfirmer(true)}>
+              Supprimer mon compte
+            </button>
+          ) : (
+            <>
+              <p style={{ margin: 0 }}>
+                Ton compte sera supprimé. Si un autre parent est membre de la famille, les profils des enfants restent avec lui ;
+                sinon, tous les profils et leurs résultats sont effacés. C’est définitif.
+              </p>
+              <div className="ligne">
+                <button type="button" className="hp-btn hp-btn--primary" onClick={() => void essayer(async () => {
+                  await api.supprimerMonCompte();
+                  location.assign('/');
+                })}>Supprimer définitivement</button>
+                <button type="button" className="hp-btn hp-btn--ghost" onClick={() => setConfirmer(false)}>Annuler</button>
+              </div>
+            </>
+          )}
+        </section>
         </>
       )}
       {message && <p className="muet" role="status">{message}</p>}

@@ -4,6 +4,8 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
+import { FinDuJour } from '../composants/FinDuJour';
+import { tempsEcoule } from '../lib/temps';
 import { chargerPack, type Defi as DefiPack } from '../lib/packs';
 
 type Phase = 'pret' | 'en-cours' | 'fini';
@@ -24,6 +26,7 @@ export function Defi() {
   const [enfant, setEnfant] = useState<Enfant | null>(null);
   const [defi, setDefi] = useState<DefiPack | null>(null);
   const [phase, setPhase] = useState<Phase>('pret');
+  const [stop, setStop] = useState(0);
   const [item, setItem] = useState<Item | null>(null);
   const [saisie, setSaisie] = useState('');
   const [justes, setJustes] = useState(0);
@@ -41,6 +44,7 @@ export function Defi() {
       try {
         const e = await api.enfantCourant();
         if (!e) return naviguer('/');
+        if (await tempsEcoule(e)) return setStop(e.minutes_par_jour ?? 0);
         const d = (await chargerPack(e.classe)).defis.find((x) => x.id === id);
         if (!d) return naviguer('/accueil');
         setEnfant(e);
@@ -74,6 +78,7 @@ export function Defi() {
     if (phase === 'en-cours' && reste === 0 && debut.current > 0) terminer();
   }, [phase, reste, terminer]);
 
+  if (stop) return <FinDuJour minutes={stop} />;
   if (!defi || !enfant) return <main className="ecran" aria-busy="true" />;
 
   const demarrer = () => {

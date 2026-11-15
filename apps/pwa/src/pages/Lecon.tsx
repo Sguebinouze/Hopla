@@ -32,6 +32,7 @@ export function Lecon() {
         if (!r?.competence.lecon) return naviguer('/accueil');
         setC(r.competence);
         setOptions(melanger(r.competence.lecon.essai.options));
+        void api.noterLecon(competence).catch(() => undefined);
       } catch {
         naviguer('/accueil');
       }

@@ -7,6 +7,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Accueil } from './pages/Accueil';
 import { Code } from './pages/Code';
 import { Exercice } from './pages/Exercice';
+import { FicheEnfant } from './pages/FicheEnfant';
 import { Lecon } from './pages/Lecon';
 import { Appairer } from './pages/Appairer';
 import { Controle } from './pages/Controle';
@@ -34,6 +35,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />
+        <Route path="/parent/enfant/:id" element={<FicheEnfant />} />
         <Route path="/admin" element={<Navigate to="/admin/relecture" replace />} />
         <Route path="/admin/relecture" element={<Suspense fallback={<main className="ecran" aria-busy="true" />}><Relecture /></Suspense>} />
         <Route path="*" element={<Navigate to="/" replace />} />

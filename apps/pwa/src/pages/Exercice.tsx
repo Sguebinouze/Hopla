@@ -6,6 +6,8 @@ import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { Visuel } from '../composants/Visuel';
 import { api } from '../lib/donnees';
+import { tempsEcoule } from '../lib/temps';
+import { FinDuJour } from '../composants/FinDuJour';
 import { chargerPack, competencesJouables, seriePour, type ItemPack } from '../lib/packs';
 import { dire, lectureAuto, taire, voixPour } from '../lib/voix';
 
@@ -23,12 +25,14 @@ export function Exercice() {
   const [aLecon, setALecon] = useState(false);
   const [cycle, setCycle] = useState(3);
   const debut = useRef(Date.now());
+  const [stop, setStop] = useState(0);
 
   useEffect(() => {
     void (async () => {
       try {
         const enfant = await api.enfantCourant();
         if (!enfant) return naviguer('/');
+        if (await tempsEcoule(enfant)) return setStop(enfant.minutes_par_jour ?? 0);
         const pack = await chargerPack(enfant.classe);
         const c = competencesJouables(pack).find((x) => x.id === competence);
         if (!c) return naviguer('/accueil');
@@ -55,6 +59,7 @@ export function Exercice() {
   const repondu = choix !== null;
   const juste = useMemo(() => item !== undefined && choix !== null && choix === item.reponse, [item, choix]);
 
+  if (stop) return <FinDuJour minutes={stop} />;
   if (!item) return <main className="ecran" aria-busy="true" />;
 
   const valider = async (reponse: string) => {

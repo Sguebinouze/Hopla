@@ -5,7 +5,7 @@ import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
 import { dateLisible, joursAvant, prochainVendredi } from '../lib/entrainement';
 import type { ControlePrevu } from '../lib/donnees';
-import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { chargerPack, competencesJouables, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
 import { aujourdhui, CHIP_ETAT, etat, LIBELLE_ETAT, type Suivi } from '../lib/progression';
 
 // Mode « contrôle vendredi » : l'enfant choisit les notions et la date,
@@ -28,7 +28,7 @@ export function Controle() {
         const e = await api.enfantCourant();
         if (!e) return naviguer('/');
         setEnfant(e);
-        setPack(await chargerPack(e.classe));
+        setPack(sansMatieres(await chargerPack(e.classe), e.matieres_masquees));
         setPrevu(await api.controle().catch(() => null));
         setSuivi(await api.progression().catch(() => ({})));
       } catch {
