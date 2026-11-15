@@ -243,6 +243,171 @@
       },
       "prerequis": [],
       "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-VOL-01",
+      "titre": "Volumes en cm³",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les volumes",
+      "attendu": "Connaitre le centimètre cube et déterminer ou comparer des volumes en dénombrant des cubes de 1 cm³.",
+      "exemple": "Un pavé de 2 couches de 3 rangées de 4 cubes de 1 cm³ a un volume de 24 cm³.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 20,
+        "extrait": "Connaître l’unité centimètre cube"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-GEO-01",
+      "titre": "Distance et milieu",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Utiliser la définition du milieu d’un segment et de la distance entre deux points.",
+      "exemple": "I est le milieu de [AB] et AB = 8 cm, donc AI = IB = 4 cm.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Connaître et utiliser la définition du milieu d’un segment"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-GEO-02",
+      "titre": "Cercle et disque",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Connaitre cercle, disque, rayon, diamètre et corde, et situer un point selon sa distance au centre.",
+      "exemple": "Un cercle de rayon 3 cm a un diamètre de 6 cm. Un point à 2 cm du centre est dans le disque.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Connaître les définitions d’un cercle, d’un disque, d’un rayon, d’un diamètre, d’une corde"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-GEO-03",
+      "titre": "Médiatrice d’un segment",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Connaitre la médiatrice d’un segment et utiliser sa propriété caractéristique.",
+      "exemple": "M est sur la médiatrice de [AB] : MA = MB.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Connaître la définition de la médiatrice d’un segment"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-ANG-01",
+      "titre": "Vocabulaire des angles",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Nommer un angle selon sa mesure ; utiliser angles supplémentaires, adjacents et opposés par le sommet.",
+      "exemple": "Deux angles supplémentaires : 65° et 115°, car 65 + 115 = 180.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "angle nul, angle aigu, angle obtus, angles opposés par le sommet, angles adjacents, angles supplémentaires"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-ANG-02",
+      "titre": "Bissectrice d’un angle",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Utiliser la définition de la bissectrice d’un angle saillant pour calculer des mesures.",
+      "exemple": "La bissectrice d’un angle de 70° forme deux angles de 35°.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Connaître la définition de la bissectrice d’un angle saillant"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-TRI-01",
+      "titre": "Angles d’un triangle",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Utiliser la somme des angles d’un triangle et les propriétés des triangles particuliers ; savoir qu’un triangle n’existe pas toujours.",
+      "exemple": "Dans un triangle, si deux angles mesurent 50° et 60°, le troisième mesure 70°.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Connaître la valeur de la somme des mesures des angles d’un triangle"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-SYM-01",
+      "titre": "Symétrie axiale",
+      "domaine": "Espace et géométrie",
+      "theme": "Étude de configurations planes",
+      "attendu": "Reconnaitre les axes de symétrie des figures usuelles et utiliser les propriétés de la symétrie axiale.",
+      "exemple": "Un rectangle non carré a 2 axes de symétrie. La symétrie conserve les longueurs.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 23,
+        "extrait": "Il reconnaît si une figure possède un ou plusieurs axes de symétrie."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-ESP-01",
+      "titre": "Solides et assemblages",
+      "domaine": "Espace et géométrie",
+      "theme": "La vision dans l’espace",
+      "attendu": "Reconnaitre les solides usuels, dont le prisme droit, et dénombrer les cubes d’un assemblage.",
+      "exemple": "Un prisme droit à base triangulaire a 5 faces, 9 arêtes et 6 sommets.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 24,
+        "extrait": "Voir dans l’espace des assemblages de cubes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-STAT-01",
+      "titre": "Lire et filtrer des données",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Lire un tableau ou un diagramme, filtrer des données selon un critère.",
+      "exemple": "Températures : 12, 15, 18, 9, 16 °C. Trois jours dépassent 14 °C.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 26,
+        "extrait": "Faire un choix en filtrant les données d’un tableau selon un critère"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-PROBA-01",
+      "titre": "Probabilités",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Les probabilités",
+      "attendu": "Exprimer une probabilité par un nombre entre 0 et 1, la calculer et la comparer à une fréquence.",
+      "exemple": "3 chances sur 4, c’est une probabilité de 3/4, soit 0,75.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 26,
+        "extrait": "Savoir que la probabilité d’un évènement est un nombre compris entre 0 et 1"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
     }
   ]
 }
