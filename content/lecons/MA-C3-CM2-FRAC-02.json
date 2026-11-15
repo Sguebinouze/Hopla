@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-FRAC-02",
+  "exemple": "2/3 < 5/6 car 2/3 = 4/6.",
+  "regle": "Si un dénominateur est **multiple** de l’autre, écris les deux fractions avec le même dénominateur. Compare ensuite les numérateurs.",
+  "piege": "Pour changer le dénominateur, multiplie aussi le numérateur.",
+  "essai": {
+    "consigne": "Complète : 3/4 … 5/8",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "reponse": ">",
+    "explication": "3/4 = 6/8. 6/8 > 5/8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

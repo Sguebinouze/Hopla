@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ORTH-03",
+  "exemple": "Les filles sont arrivées. Mon oncle est parti.",
+  "regle": "Avec l’auxiliaire **être**, le participe passé s’accorde avec le **sujet** : -e au féminin, -s au pluriel.",
+  "piege": "Avec un sujet masculin et un sujet féminin, on accorde au masculin pluriel : Léa et Tom sont partis.",
+  "essai": {
+    "consigne": "Complète : ma tante est … (venir)",
+    "options": [
+      "venue",
+      "venu",
+      "venues"
+    ],
+    "reponse": "venue",
+    "explication": "Le sujet « ma tante » est féminin singulier : venue."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

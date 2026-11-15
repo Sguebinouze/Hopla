@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-VOC-01",
+  "exemple": "Content a pour synonyme heureux et pour antonyme triste.",
+  "regle": "Un **synonyme** a un sens proche. Un **antonyme** a un sens contraire. Les deux sont de la même classe que le mot de départ.",
+  "piege": "Le contraire de « monter » est « descendre », un verbe, pas « bas ».",
+  "essai": {
+    "consigne": "Quel est l’antonyme de « rapide » ?",
+    "options": [
+      "lent",
+      "vite",
+      "pressé"
+    ],
+    "reponse": "lent",
+    "explication": "« Lent » est un adjectif de sens contraire à « rapide »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

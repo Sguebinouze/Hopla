@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-03",
+  "exemple": "Dans « Léa range ses livres après le diner », ses livres est COD.",
+  "regle": "Le **complément d’objet** complète le verbe et ne se déplace pas. Le **complément circonstanciel** dit où, quand, comment ; on peut le déplacer ou le supprimer. Le **COD** suit le verbe sans préposition ; le **COI** commence par à ou de.",
+  "piege": "Pour vérifier un complément circonstanciel, essaie de le déplacer en début de phrase.",
+  "essai": {
+    "consigne": "Dans « Il téléphone à sa grand-mère », quelle est la fonction de « à sa grand-mère » ?",
+    "options": [
+      "COI",
+      "COD",
+      "complément circonstanciel"
+    ],
+    "reponse": "COI",
+    "explication": "Le complément est introduit par « à » et ne se déplace pas : c’est un COI."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

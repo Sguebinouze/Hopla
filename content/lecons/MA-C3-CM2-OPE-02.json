@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-OPE-02",
+  "exemple": "3,45 × 6 : 345 × 6 = 2 070, donc 20,70.",
+  "regle": "Pour multiplier un **décimal par un entier**, calcule sans la virgule. Place ensuite la virgule : autant de chiffres après la virgule que dans le décimal.",
+  "piege": "N’aligne pas les virgules comme dans une addition.",
+  "essai": {
+    "consigne": "Combien font 1,25 × 4 ?",
+    "options": [
+      "5",
+      "50",
+      "4,25"
+    ],
+    "reponse": "5",
+    "explication": "125 × 4 = 500. Deux chiffres après la virgule : 5,00 = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

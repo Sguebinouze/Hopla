@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ORTH-01",
+  "exemple": "La mère des enfants est partie.",
+  "regle": "Avec l’auxiliaire **être**, le participe passé s’accorde avec le **sujet**. Cherche le **nom noyau** du groupe sujet : c’est lui qui donne le genre et le nombre.",
+  "piege": "Dans « La mère des enfants », le noyau est « mère », pas « enfants ».",
+  "essai": {
+    "consigne": "Complète : les amies de Tom sont … (arriver)",
+    "options": [
+      "arrivées",
+      "arrivé",
+      "arrivés"
+    ],
+    "reponse": "arrivées",
+    "explication": "Le noyau du sujet est « amies », féminin pluriel : arrivées."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-CALC-01",
+  "exemple": "3,45 × 100 = 345. 72,1 ÷ 1 000 = 0,0721.",
+  "regle": "Multiplier par **10, 100, 1 000**, c’est décaler chaque chiffre d’un, deux ou trois rangs vers la gauche. Diviser, c’est les décaler vers la droite.",
+  "piege": "Ajoute des zéros si besoin : 4,5 × 100 = 450.",
+  "essai": {
+    "consigne": "Combien font 0,8 × 100 ?",
+    "options": [
+      "80",
+      "8",
+      "0,800"
+    ],
+    "reponse": "80",
+    "explication": "Chaque chiffre avance de deux rangs : 8 dixièmes deviennent 8 dizaines."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

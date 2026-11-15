@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-DEC-02",
+  "exemple": "3,5 > 3,45 : même partie entière, puis 5 dixièmes contre 4.",
+  "regle": "Pour **comparer des décimaux**, compare d’abord la partie entière, puis les dixièmes, puis les centièmes.",
+  "piege": "Le nombre qui a le plus de chiffres après la virgule n’est pas forcément le plus grand.",
+  "essai": {
+    "consigne": "Quel est le plus grand ?",
+    "options": [
+      "4,6",
+      "4,58",
+      "4,09"
+    ],
+    "reponse": "4,6",
+    "explication": "Même partie entière. Dixièmes : 6, 5 et 0. Le plus grand est 4,6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

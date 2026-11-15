@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-CALC-03",
+  "exemple": "La moitié de 7 est 3,5. 2,4 × 5 = 12.",
+  "regle": "Pour **multiplier par 5**, multiplie par 10 puis prends la moitié. Pour le **double** ou la **moitié** d’un décimal, traite la partie entière et la partie décimale.",
+  "piege": "La moitié de 3,6 est 1,8, pas 1,3.",
+  "essai": {
+    "consigne": "Combien font 1,6 × 5 ?",
+    "options": [
+      "8",
+      "6,6",
+      "80"
+    ],
+    "reponse": "8",
+    "explication": "1,6 × 10 = 16. La moitié : 8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

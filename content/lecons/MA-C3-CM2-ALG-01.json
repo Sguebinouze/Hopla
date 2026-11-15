@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ALG-01",
+  "exemple": "178 − … = 6 × 8. Comme 6 × 8 = 48, le nombre manquant est 130.",
+  "regle": "Calcule d’abord le côté où tout est connu. Cherche ensuite le nombre qui rend l’**égalité** vraie. Vérifie en remplaçant.",
+  "piege": "Le signe = relie deux quantités égales : ce n’est pas un ordre de calculer.",
+  "essai": {
+    "consigne": "Complète : 7 × … = 100 − 16",
+    "options": [
+      "12",
+      "84",
+      "13"
+    ],
+    "reponse": "12",
+    "explication": "100 − 16 = 84. 7 × 12 = 84."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

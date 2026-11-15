@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-CALC-01",
+  "exemple": "457 + 29 = 457 + 30 − 1 = 486.",
+  "regle": "Pour **ajouter 29**, ajoute 30 puis retire 1. Pour **multiplier par 4**, prends le double du double. Pour **multiplier par 5**, multiplie par 10 puis divise par 2.",
+  "piege": "Pour 7 × 300, calcule 7 × 3 = 21, puis tu obtiens 21 centaines : 2 100.",
+  "essai": {
+    "consigne": "Combien font 36 × 5 ?",
+    "options": [
+      "180",
+      "150",
+      "41"
+    ],
+    "reponse": "180",
+    "explication": "36 × 10 = 360. La moitié : 180."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

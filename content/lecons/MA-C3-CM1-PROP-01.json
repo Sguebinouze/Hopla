@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-PROP-01",
+  "exemple": "4 pains coutent 7 €. 12 pains, c’est 3 fois plus de pains : on paie 21 €.",
+  "regle": "Dans une situation de **proportionnalité**, si une quantité est multipliée par un nombre, l’autre l’est aussi. On peut aussi ajouter deux situations connues.",
+  "piege": "Ajouter le même nombre ne marche pas : 4 pains → 7 €, 8 pains ne font pas 11 €.",
+  "essai": {
+    "consigne": "2 kg de pommes coutent 5 €. Combien coutent 6 kg ?",
+    "options": [
+      "15 €",
+      "9 €",
+      "30 €"
+    ],
+    "reponse": "15 €",
+    "explication": "6 kg, c’est 3 fois plus que 2 kg : 3 × 5 = 15 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

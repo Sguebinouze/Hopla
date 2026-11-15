@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-LONG-02",
+  "exemple": "Un triangle de côtés 5 cm, 7 cm et 9 cm a un périmètre de 21 cm.",
+  "regle": "Le **périmètre** est la longueur du tour d’une figure. On additionne les longueurs de tous les côtés, dans la même unité.",
+  "piege": "Un carré a 4 côtés égaux : son périmètre vaut 4 fois son côté.",
+  "essai": {
+    "consigne": "Quel est le périmètre d’un carré de 6 cm de côté ?",
+    "options": [
+      "24 cm",
+      "36 cm",
+      "12 cm"
+    ],
+    "reponse": "24 cm",
+    "explication": "4 côtés de 6 cm : 4 × 6 = 24 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

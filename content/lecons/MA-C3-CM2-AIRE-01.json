@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-AIRE-01",
+  "exemple": "Un rectangle de 12 cm sur 7 cm a une aire de 84 cm².",
+  "regle": "Aire du **rectangle** : longueur × largeur. Aire du **carré** : côté × côté. L’aire s’exprime en unités carrées, par exemple en cm².",
+  "piege": "Ne confonds pas avec le périmètre, qui additionne les côtés.",
+  "essai": {
+    "consigne": "Quelle est l’aire d’un carré de 5 cm de côté ?",
+    "options": [
+      "25 cm²",
+      "20 cm²",
+      "10 cm²"
+    ],
+    "reponse": "25 cm²",
+    "explication": "5 × 5 = 25 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

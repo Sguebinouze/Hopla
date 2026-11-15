@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-PB-02",
+  "exemple": "Tom a 48 billes. C’est 4 fois plus que Léa. Léa a 48 ÷ 4 = 12 billes.",
+  "regle": "**« Fois plus »** se calcule souvent par une multiplication, **« fois moins »** par une division. Pour **« combien de fois »**, on divise.",
+  "piege": "Lis bien qui a le plus : la phrase peut parler de la plus grande quantité.",
+  "essai": {
+    "consigne": "Un vélo coute 150 €. C’est 3 fois plus qu’une trottinette. Prix de la trottinette ?",
+    "options": [
+      "50 €",
+      "450 €",
+      "147 €"
+    ],
+    "reponse": "50 €",
+    "explication": "La trottinette coute 3 fois moins : 150 ÷ 3 = 50 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

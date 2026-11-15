@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-OPE-03",
+  "exemple": "347 = 6 × 57 + 5 : le quotient est 57, le reste est 5.",
+  "regle": "Dans une **division euclidienne**, on cherche combien de fois le diviseur tient dans le nombre : c’est le **quotient**. Ce qui reste est le **reste**, toujours plus petit que le diviseur.",
+  "piege": "Si le reste dépasse le diviseur, le quotient est trop petit.",
+  "essai": {
+    "consigne": "Quel est le reste de la division de 29 par 4 ?",
+    "options": [
+      "1",
+      "7",
+      "3"
+    ],
+    "reponse": "1",
+    "explication": "4 × 7 = 28. 29 − 28 = 1. Le reste est 1."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

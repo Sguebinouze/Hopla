@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ENT-04",
+  "exemple": "Les diviseurs de 12 sont 1, 2, 3, 4, 6 et 12.",
+  "regle": "a est un **diviseur** de b si la division de b par a tombe juste. b est alors un **multiple** de a. Pour trouver les diviseurs, cherche les produits qui donnent le nombre : 12 = 1 × 12 = 2 × 6 = 3 × 4.",
+  "piege": "1 et le nombre lui-même sont toujours des diviseurs.",
+  "essai": {
+    "consigne": "Quel nombre est un diviseur de 18 ?",
+    "options": [
+      "6",
+      "4",
+      "36"
+    ],
+    "reponse": "6",
+    "explication": "6 × 3 = 18 : 6 est un diviseur de 18."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

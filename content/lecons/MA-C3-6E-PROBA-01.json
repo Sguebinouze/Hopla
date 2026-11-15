@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-PROBA-01",
+  "exemple": "3 chances sur 4, c’est une probabilité de 3/4, soit 0,75.",
+  "regle": "Une **probabilité** est un nombre entre **0 et 1** : 0 pour un évènement impossible, 1 pour un évènement certain. Probabilité = issues favorables ÷ issues possibles.",
+  "piege": "Une fréquence observée sur peu de lancers peut s’éloigner de la probabilité.",
+  "essai": {
+    "consigne": "On lance un dé à 6 faces. Probabilité d’obtenir 5 ?",
+    "options": [
+      "1/6",
+      "5/6",
+      "1/5"
+    ],
+    "reponse": "1/6",
+    "explication": "Une seule issue favorable sur 6 possibles : 1/6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-DEC-03",
+  "exemple": "La partie entière de 34,72 est 34. Son arrondi à l’unité est 35.",
+  "regle": "La **partie entière** est le nombre avant la virgule. Pour **arrondir à l’unité**, regarde le chiffre des dixièmes : à partir de 5, on passe à l’unité suivante.",
+  "piege": "L’arrondi peut être plus grand que la partie entière.",
+  "essai": {
+    "consigne": "Quel est l’arrondi à l’unité de 8,51 ?",
+    "options": [
+      "9",
+      "8",
+      "8,5"
+    ],
+    "reponse": "9",
+    "explication": "Le chiffre des dixièmes est 5 : on arrondit à 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

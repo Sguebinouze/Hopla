@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-CALC-02",
+  "exemple": "457 + 99 = 457 + 100 − 1 = 556. 30 × 400 = 12 000.",
+  "regle": "Pour **ajouter 99**, ajoute 100 puis retire 1. Pour multiplier des dizaines et des centaines, multiplie les chiffres puis compte les zéros. Pour **diviser par 4**, prends la moitié de la moitié.",
+  "piege": "La **distributivité** aide : 12 × 25 = 10 × 25 + 2 × 25.",
+  "essai": {
+    "consigne": "Combien font 20 × 300 ?",
+    "options": [
+      "6 000",
+      "600",
+      "60 000"
+    ],
+    "reponse": "6 000",
+    "explication": "2 × 3 = 6. Il y a trois zéros : 6 000."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

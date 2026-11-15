@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ENT-01",
+  "exemple": "Deux-millions-trois-cent-mille s’écrit 2 300 000.",
+  "regle": "On lit un grand nombre **par classes** de trois chiffres : millions, milliers, unités. On lit chaque classe, puis son nom.",
+  "piege": "« Million » prend un s au pluriel, « mille » jamais : trois-millions, trois-mille.",
+  "essai": {
+    "consigne": "Comment s’écrit 4 050 000 en lettres ?",
+    "options": [
+      "quatre-millions-cinquante-mille",
+      "quatre-millions-cinq-cent-mille",
+      "quatre-mille-cinquante"
+    ],
+    "reponse": "quatre-millions-cinquante-mille",
+    "explication": "Classe des millions : 4. Classe des milliers : 50. Classe des unités : 0."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

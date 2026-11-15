@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-02",
+  "exemple": "Léa et Inès chantent : elles chantent. Tom range les jouets : Tom les range.",
+  "regle": "Un groupe nominal **sujet** se remplace par il, elle, ils, elles. Un groupe nominal **complément** se remplace par le, la, les, placé devant le verbe.",
+  "piege": "Si « moi » fait partie du sujet, on dit « nous » : Tom et moi, nous partons.",
+  "essai": {
+    "consigne": "Remplace « le gâteau » : Lucas mange le gâteau.",
+    "options": [
+      "Lucas le mange.",
+      "Lucas la mange.",
+      "Lucas mange le."
+    ],
+    "reponse": "Lucas le mange.",
+    "explication": "« Le gâteau » est masculin singulier : le. Il se place devant le verbe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

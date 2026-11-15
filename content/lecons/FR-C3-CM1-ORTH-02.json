@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ORTH-02",
+  "exemple": "Le petit voisin bavard devient les petites voisines bavardes.",
+  "regle": "Dans le **groupe nominal**, le déterminant, le nom et l’adjectif s’accordent ensemble. Au féminin, on ajoute souvent -e ; au pluriel, souvent -s.",
+  "piege": "N’oublie aucun mot : le déterminant change aussi.",
+  "essai": {
+    "consigne": "Écris au féminin pluriel : un grand ami",
+    "options": [
+      "des grandes amies",
+      "des grands amies",
+      "des grandes amis"
+    ],
+    "reponse": "des grandes amies",
+    "explication": "Le nom et l’adjectif prennent -e et -s : des grandes amies."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

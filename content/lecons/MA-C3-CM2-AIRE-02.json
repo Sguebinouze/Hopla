@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-AIRE-02",
+  "exemple": "1 m² = 100 dm² et 1 dm² = 100 cm², donc 3 m² = 300 dm².",
+  "regle": "Entre deux unités d’**aire** voisines, on multiplie ou on divise par **100**, pas par 10.",
+  "piege": "1 m² ne vaut pas 10 dm². Un carré de 1 m de côté contient 10 × 10 carrés de 1 dm.",
+  "essai": {
+    "consigne": "Combien font 2 dm² ?",
+    "options": [
+      "200 cm²",
+      "20 cm²",
+      "2 000 cm²"
+    ],
+    "reponse": "200 cm²",
+    "explication": "1 dm² = 100 cm². 2 dm² = 200 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-CONJ-03",
+  "exemple": "Léa a fini ses exercices. Léa n’a pas fini ses exercices.",
+  "regle": "Aux temps composés, **« ne »** se place devant l’auxiliaire, et **« pas », « jamais » ou « plus »** juste après. S’il y a un pronom complément, « ne » se place devant lui : Tom ne l’a pas vu.",
+  "piege": "Le participe passé reste après « pas » : on n’écrit pas « il n’a fini pas ».",
+  "essai": {
+    "consigne": "Mets à la forme négative : Nous avons compris.",
+    "options": [
+      "Nous n’avons pas compris.",
+      "Nous avons pas compris.",
+      "Nous n’avons compris pas."
+    ],
+    "reponse": "Nous n’avons pas compris.",
+    "explication": "« Ne » devant l’auxiliaire, « pas » juste après : nous n’avons pas compris."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-PB-01",
+  "exemple": "3 cahiers à 2,40 € et une trousse à 6,75 €, payés avec 20 € : on rend 6,05 €.",
+  "regle": "Découpe le problème en **étapes** et écris la question de chaque étape. Un calcul avec parenthèses peut résumer la démarche : 20 − (7,20 + 6,75).",
+  "piege": "Garde les unités jusqu’au bout et vérifie que le résultat est vraisemblable.",
+  "essai": {
+    "consigne": "Un livre coute 8,50 €. Léa en achète 2 et paie avec 20 €. Combien lui rend-on ?",
+    "options": [
+      "3 €",
+      "11,50 €",
+      "17 €"
+    ],
+    "reponse": "3 €",
+    "explication": "2 × 8,50 = 17 €. 20 − 17 = 3 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

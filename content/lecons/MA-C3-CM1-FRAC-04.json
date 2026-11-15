@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-FRAC-04",
+  "exemple": "Le tiers de 12 billes, c’est 12 ÷ 3 = 4 billes.",
+  "regle": "Pour calculer une **fraction unitaire** d’une quantité, on divise. La moitié : ÷ 2. Le tiers : ÷ 3. Le quart : ÷ 4.",
+  "piege": "Le quart, ce n’est pas « moins 4 » : c’est partager en 4 parts égales.",
+  "essai": {
+    "consigne": "Combien vaut le quart de 20 € ?",
+    "options": [
+      "5 €",
+      "16 €",
+      "80 €"
+    ],
+    "reponse": "5 €",
+    "explication": "Le quart, c’est diviser par 4 : 20 ÷ 4 = 5 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

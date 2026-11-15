@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-DEC-03",
+  "exemple": "La partie entière de 23,7 est 23. Son arrondi à l’unité est 24.",
+  "regle": "La **partie entière** est le nombre avant la virgule. Pour **arrondir à l’unité**, regarde le chiffre des dixièmes : à partir de 5, on arrondit à l’unité supérieure.",
+  "piege": "La partie entière et l’arrondi ne sont pas toujours égaux : 23,7 donne 23 et 24.",
+  "essai": {
+    "consigne": "Quel est l’arrondi à l’unité de 12,48 ?",
+    "options": [
+      "12",
+      "13",
+      "12,5"
+    ],
+    "reponse": "12",
+    "explication": "Le chiffre des dixièmes est 4, plus petit que 5 : on garde 12."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

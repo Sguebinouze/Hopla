@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-SYM-01",
+  "exemple": "Un rectangle qui n’est pas un carré a 2 axes de symétrie.",
+  "regle": "Par **symétrie axiale**, une figure se replie exactement sur elle-même le long de l’axe. La symétrie conserve les longueurs, les angles et les aires.",
+  "piege": "Les diagonales d’un rectangle ne sont pas des axes de symétrie.",
+  "essai": {
+    "consigne": "Combien d’axes de symétrie a un carré ?",
+    "options": [
+      "4",
+      "2",
+      "1"
+    ],
+    "reponse": "4",
+    "explication": "Les deux médianes et les deux diagonales : 4 axes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

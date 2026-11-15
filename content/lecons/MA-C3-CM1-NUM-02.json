@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-NUM-02",
+  "exemple": "Deux-cent-quatre-mille-quatre-vingts s’écrit 204 080.",
+  "regle": "On écrit les **milliers**, puis le mot « mille », puis les unités simples. Tous les mots sont reliés par des traits d’union.",
+  "piege": "« Mille » ne prend jamais de s. « Cent » et « vingt » prennent un s seulement s’ils terminent le nombre et sont multipliés.",
+  "essai": {
+    "consigne": "Comment s’écrit 300 080 en lettres ?",
+    "options": [
+      "trois-cent-mille-quatre-vingts",
+      "trois-cents-mille-quatre-vingt",
+      "trois-cent-milles-quatre-vingts"
+    ],
+    "reponse": "trois-cent-mille-quatre-vingts",
+    "explication": "Cent est suivi de « mille » : pas de s. Quatre-vingts termine le nombre : s."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

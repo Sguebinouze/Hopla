@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-DEC-01",
+  "exemple": "35 + 7/10 + 8/100 = 35,78.",
+  "regle": "Après la virgule, le premier chiffre compte les **dixièmes**, le deuxième les **centièmes**. 4,07 = 407/100.",
+  "piege": "Dans 4,07, le 0 est indispensable : il dit qu’il n’y a aucun dixième.",
+  "essai": {
+    "consigne": "Comment écrire 6 + 3/100 ?",
+    "options": [
+      "6,03",
+      "6,3",
+      "6,300"
+    ],
+    "reponse": "6,03",
+    "explication": "3 centièmes : le 3 est au deuxième rang après la virgule. Il n’y a aucun dixième."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

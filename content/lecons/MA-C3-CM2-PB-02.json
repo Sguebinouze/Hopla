@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-PB-02",
+  "exemple": "Tom a 12 billes, Léa en a 4 fois plus : 12 × 4 = 48 billes.",
+  "regle": "**« Fois plus »** : on multiplie. **« Fois moins »** : on divise. **« Combien de fois »** : on divise la plus grande quantité par la plus petite.",
+  "piege": "« 3 fois plus » n’est pas « 3 de plus ».",
+  "essai": {
+    "consigne": "Un adulte pèse 72 kg, un enfant 24 kg. Combien de fois l’adulte est-il plus lourd ?",
+    "options": [
+      "3 fois",
+      "48 fois",
+      "4 fois"
+    ],
+    "reponse": "3 fois",
+    "explication": "72 ÷ 24 = 3."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

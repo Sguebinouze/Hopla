@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-NUM-01",
+  "exemple": "Dans 45 372, le chiffre des milliers est 5. Il y a 453 centaines en tout.",
+  "regle": "Chaque chiffre a une **valeur** selon son **rang** : unités, dizaines, centaines, puis milliers. Dix unités d’un rang font une unité du rang suivant.",
+  "piege": "Le chiffre des centaines n’est pas le nombre de centaines. Dans 45 372, le chiffre est 3, mais il y a 453 centaines.",
+  "essai": {
+    "consigne": "Quel est le chiffre des dizaines de mille dans 381 204 ?",
+    "options": [
+      "8",
+      "3",
+      "1"
+    ],
+    "reponse": "8",
+    "explication": "381 204 : 3 centaines de mille, 8 dizaines de mille."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

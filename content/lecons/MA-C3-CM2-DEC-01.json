@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-DEC-01",
+  "exemple": "3 + 4/10 + 7/1 000 = 3,407.",
+  "regle": "Après la virgule : **dixièmes**, **centièmes**, **millièmes**. Un rang vide s’écrit 0.",
+  "piege": "Dans 3,407, le 0 dit qu’il n’y a aucun centième.",
+  "essai": {
+    "consigne": "Comment écrire 2 + 5/1 000 ?",
+    "options": [
+      "2,005",
+      "2,5",
+      "2,05"
+    ],
+    "reponse": "2,005",
+    "explication": "5 millièmes : le 5 est au troisième rang après la virgule."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

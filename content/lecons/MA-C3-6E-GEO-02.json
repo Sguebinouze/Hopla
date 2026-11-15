@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-GEO-02",
+  "exemple": "Un cercle de rayon 3 cm a un diamètre de 6 cm.",
+  "regle": "Le **cercle** est formé des points situés à la même distance du centre : le **rayon**. Le **disque** est le cercle et son intérieur. Le **diamètre** vaut deux fois le rayon.",
+  "piege": "Une corde relie deux points du cercle ; le diamètre est la plus longue des cordes.",
+  "essai": {
+    "consigne": "Un cercle a un diamètre de 10 cm. Un point est à 4 cm du centre. Où est-il ?",
+    "options": [
+      "à l’intérieur du disque",
+      "sur le cercle",
+      "à l’extérieur du disque"
+    ],
+    "reponse": "à l’intérieur du disque",
+    "explication": "Le rayon mesure 5 cm. 4 cm, c’est moins que le rayon : le point est à l’intérieur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

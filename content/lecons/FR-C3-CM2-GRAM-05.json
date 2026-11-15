@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-05",
+  "exemple": "Quand la cloche sonne, les élèves sortent : deux verbes conjugués.",
+  "regle": "Une **phrase simple** contient un seul verbe conjugué. Une **phrase complexe** en contient plusieurs : elle a autant de propositions que de verbes conjugués.",
+  "piege": "Un infinitif n’est pas un verbe conjugué : « Je veux jouer » est une phrase simple.",
+  "essai": {
+    "consigne": "« Le chat dort et le chien joue. » Cette phrase est :",
+    "options": [
+      "complexe",
+      "simple",
+      "non verbale"
+    ],
+    "reponse": "complexe",
+    "explication": "Elle contient deux verbes conjugués : dort et joue."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

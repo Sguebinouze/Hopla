@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-DUR-01",
+  "exemple": "De 14 h 35 à 16 h 10, il s’écoule 1 h 35 min.",
+  "regle": "1 h = 60 min. Pour calculer une **durée**, avance jusqu’à l’heure ronde, puis jusqu’à l’heure d’arrivée. Additionne les morceaux.",
+  "piege": "Une heure ne fait pas 100 minutes : 1 h 30 min = 90 min.",
+  "essai": {
+    "consigne": "Un film commence à 20 h 45 et dure 1 h 30 min. À quelle heure finit-il ?",
+    "options": [
+      "22 h 15",
+      "21 h 75",
+      "22 h 45"
+    ],
+    "reponse": "22 h 15",
+    "explication": "20 h 45 + 15 min = 21 h. Puis 1 h 15 min de plus : 22 h 15."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

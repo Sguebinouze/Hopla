@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-01",
+  "exemple": "Dans « Ma sœur lit ce livre », ma est un déterminant possessif.",
+  "regle": "Le **déterminant** se place devant le nom. Les **articles** : le, la, les, un, une, des. Les **possessifs** : mon, ton, son, nos… Les **démonstratifs** : ce, cet, cette, ces.",
+  "piege": "« Ce » devient « cet » devant une voyelle : cet arbre.",
+  "essai": {
+    "consigne": "Dans « Ces fleurs sont belles », quel est le déterminant ?",
+    "options": [
+      "ces",
+      "fleurs",
+      "belles"
+    ],
+    "reponse": "ces",
+    "explication": "« Ces » est placé devant le nom « fleurs » : c’est un déterminant démonstratif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

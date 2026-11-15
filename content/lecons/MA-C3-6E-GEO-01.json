@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-GEO-01",
+  "exemple": "I est le milieu de [AB] et AB = 8 cm, donc AI = IB = 4 cm.",
+  "regle": "Le **milieu** d’un segment est le point de ce segment situé à la même distance des deux extrémités. La **distance** entre deux points est la longueur du segment qui les joint.",
+  "piege": "Un point à égale distance de A et B n’est pas toujours le milieu : il doit être sur [AB].",
+  "essai": {
+    "consigne": "M est le milieu de [CD] et CM = 3,5 cm. Combien mesure CD ?",
+    "options": [
+      "7 cm",
+      "3,5 cm",
+      "1,75 cm"
+    ],
+    "reponse": "7 cm",
+    "explication": "CD = 2 × CM = 2 × 3,5 = 7 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ALG-02",
+  "exemple": "Choisis 5, ajoute 2, multiplie par 4, retire 3 : on obtient 25.",
+  "regle": "Un **programme de calcul** se suit dans l’ordre. Chaque instruction s’applique au résultat de la précédente.",
+  "piege": "N’applique pas une instruction au nombre de départ si une autre la précède.",
+  "essai": {
+    "consigne": "Choisis 3, multiplie par 5, ajoute 4. Quel résultat ?",
+    "options": [
+      "19",
+      "35",
+      "12"
+    ],
+    "reponse": "19",
+    "explication": "3 × 5 = 15. 15 + 4 = 19."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-CONJ-02",
+  "exemple": "Nous avons fini. Ils ont pris le train. Tu n’as pas fini.",
+  "regle": "Le **passé composé** se forme avec l’auxiliaire **avoir** ou **être** au présent, suivi du **participe passé**. La négation entoure l’auxiliaire : je n’ai pas fini.",
+  "piege": "L’infinitif de « ils ont pris » est prendre, pas « pris ».",
+  "essai": {
+    "consigne": "Quelle phrase est correcte ?",
+    "options": [
+      "Il n’a pas mangé.",
+      "Il n’a mangé pas.",
+      "Il ne pas a mangé."
+    ],
+    "reponse": "Il n’a pas mangé.",
+    "explication": "Au passé composé, « ne » et « pas » entourent l’auxiliaire."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

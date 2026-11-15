@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-CALC-02",
+  "exemple": "437 × 100 = 43 700. 34,7 ÷ 10 = 3,47.",
+  "regle": "Multiplier par **10**, c’est rendre chaque chiffre dix fois plus grand : il avance d’un rang. Diviser par 10, c’est reculer d’un rang.",
+  "piege": "« Ajouter un zéro » ne marche pas avec les décimaux : 3,4 × 10 = 34, pas 3,40.",
+  "essai": {
+    "consigne": "Combien font 5,6 × 10 ?",
+    "options": [
+      "56",
+      "5,60",
+      "0,56"
+    ],
+    "reponse": "56",
+    "explication": "Chaque chiffre avance d’un rang : les unités deviennent des dizaines. 5,6 × 10 = 56."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

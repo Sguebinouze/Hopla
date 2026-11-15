@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-FRAC-05",
+  "exemple": "Les deux tiers de 12 € : 12 ÷ 3 = 4, puis 2 × 4 = 8 €.",
+  "regle": "Pour calculer les **a/b** d’une quantité, divise par b pour trouver une part, puis multiplie par a.",
+  "piege": "Les trois quarts ne sont pas « moins 3 » : on partage en 4, puis on prend 3 parts.",
+  "essai": {
+    "consigne": "Combien valent les 3/4 de 20 € ?",
+    "options": [
+      "15 €",
+      "5 €",
+      "60 €"
+    ],
+    "reponse": "15 €",
+    "explication": "20 ÷ 4 = 5. 3 × 5 = 15 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

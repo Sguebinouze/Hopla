@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-FRAC-01",
+  "exemple": "17/5 = 3 + 2/5, donc 17/5 est entre 3 et 4.",
+  "regle": "Une fraction est **plus grande que 1** quand le numérateur dépasse le dénominateur. Cherche combien d’unités entières elle contient : 5/5 = 1, 10/5 = 2, 15/5 = 3.",
+  "piege": "Ne confonds pas 17/5 avec 1,75 : la barre de fraction n’est pas une virgule.",
+  "essai": {
+    "consigne": "Entre quels entiers se trouve 11/4 ?",
+    "options": [
+      "entre 2 et 3",
+      "entre 1 et 2",
+      "entre 11 et 12"
+    ],
+    "reponse": "entre 2 et 3",
+    "explication": "8/4 = 2 et 12/4 = 3. 11/4 est entre les deux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

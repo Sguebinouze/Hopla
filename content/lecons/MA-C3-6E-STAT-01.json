@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-STAT-01",
+  "exemple": "Températures : 12, 15, 18, 9 et 16 °C. Trois jours dépassent 14 °C.",
+  "regle": "Pour **filtrer** des données, lis chaque valeur et garde seulement celles qui vérifient le critère. Compte-les ensuite.",
+  "piege": "« Dépasser 14 » exclut 14 : la valeur doit être strictement plus grande.",
+  "essai": {
+    "consigne": "Notes : 8, 12, 15, 10, 9. Combien de notes sont supérieures ou égales à 10 ?",
+    "options": [
+      "3",
+      "2",
+      "4"
+    ],
+    "reponse": "3",
+    "explication": "12, 15 et 10 vérifient le critère : 3 notes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

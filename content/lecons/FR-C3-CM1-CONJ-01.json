@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-CONJ-01",
+  "exemple": "Aujourd’hui, nous finissons. Hier, ils prenaient le bus. Demain, vous viendrez.",
+  "regle": "Au **présent**, les verbes en -er finissent par -e, -es, -e, -ons, -ez, -ent. À l’**imparfait**, la marque est -ai- ou -i- : je jouais, nous jouions. Au **futur**, on entend -r- : je jouerai.",
+  "piege": "Avec les verbes en -ger et -cer, on garde le son : nous mangeons, nous commençons.",
+  "essai": {
+    "consigne": "Complète au futur : demain, ils … (venir)",
+    "options": [
+      "viendront",
+      "venaient",
+      "viennent"
+    ],
+    "reponse": "viendront",
+    "explication": "Au futur, le radical de venir est « viendr- ». Avec ils : viendront."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-NUM-03",
+  "exemple": "45 372 > 45 327 : les milliers et les centaines sont égaux, puis 7 dizaines contre 2.",
+  "regle": "Pour **comparer**, compte d’abord les chiffres. S’ils sont aussi nombreux, compare rang par rang en partant de la gauche.",
+  "piege": "Un nombre qui a plus de chiffres est plus grand : 100 000 > 99 999.",
+  "essai": {
+    "consigne": "Complète : 204 518 … 240 158",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "reponse": "<",
+    "explication": "Même nombre de chiffres. Dizaines de mille : 0 contre 4. Donc 204 518 < 240 158."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-ANG-02",
+  "exemple": "La bissectrice d’un angle de 70° forme deux angles de 35°.",
+  "regle": "La **bissectrice** d’un angle est la demi-droite qui le partage en **deux angles de même mesure**.",
+  "piege": "Partager en deux, c’est diviser par 2, pas soustraire 2.",
+  "essai": {
+    "consigne": "La bissectrice d’un angle de 128° forme deux angles de :",
+    "options": [
+      "64°",
+      "126°",
+      "256°"
+    ],
+    "reponse": "64°",
+    "explication": "128 ÷ 2 = 64°."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

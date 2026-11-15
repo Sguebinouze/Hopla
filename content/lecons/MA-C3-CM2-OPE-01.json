@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-OPE-01",
+  "exemple": "(25 + 15) × 3 : on calcule d’abord 25 + 15 = 40, puis 40 × 3 = 120.",
+  "regle": "On effectue d’abord les calculs **entre parenthèses**. S’il y a deux paires, on commence par la plus intérieure.",
+  "piege": "Sans parenthèses, 25 + 15 × 3 ne donne pas le même résultat.",
+  "essai": {
+    "consigne": "Combien fait (12 − 4) × 5 ?",
+    "options": [
+      "40",
+      "8",
+      "60"
+    ],
+    "reponse": "40",
+    "explication": "D’abord 12 − 4 = 8, puis 8 × 5 = 40."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

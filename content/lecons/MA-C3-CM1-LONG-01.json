@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-LONG-01",
+  "exemple": "3,5 m = 350 cm, car 1 m = 100 cm.",
+  "regle": "Les unités de **longueur** vont de 10 en 10 : km, hm, dam, m, dm, cm, mm. 1 km = 1 000 m. 1 m = 100 cm. 1 cm = 10 mm.",
+  "piege": "Un tableau de conversion aide à placer chaque chiffre dans la bonne colonne.",
+  "essai": {
+    "consigne": "Combien font 2,4 km ?",
+    "options": [
+      "2 400 m",
+      "240 m",
+      "24 m"
+    ],
+    "reponse": "2 400 m",
+    "explication": "1 km = 1 000 m. 2,4 × 1 000 = 2 400 m."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

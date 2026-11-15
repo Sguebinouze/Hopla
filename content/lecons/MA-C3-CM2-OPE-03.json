@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-OPE-03",
+  "exemple": "7 ÷ 4 = 1,75.",
+  "regle": "Dans une **division décimale**, s’il reste quelque chose, écris une virgule au quotient. Ajoute un 0 au reste et continue.",
+  "piege": "Place la virgule au quotient au moment où tu abaisses le premier chiffre après la virgule.",
+  "essai": {
+    "consigne": "Combien font 9 ÷ 2 ?",
+    "options": [
+      "4,5",
+      "4,1",
+      "4"
+    ],
+    "reponse": "4,5",
+    "explication": "9 = 2 × 4 + 1. On ajoute un 0 : 10 ÷ 2 = 5. Le quotient est 4,5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

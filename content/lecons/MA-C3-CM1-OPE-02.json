@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-OPE-02",
+  "exemple": "347 × 26 = 9 022. 4,35 × 7 = 30,45.",
+  "regle": "Pour **multiplier par un nombre à deux chiffres**, multiplie par les unités, puis par les dizaines, et additionne. Pour un **décimal**, calcule sans la virgule, puis place-la : autant de chiffres après la virgule.",
+  "piege": "La ligne des dizaines commence par un zéro.",
+  "essai": {
+    "consigne": "Combien font 2,5 × 3 ?",
+    "options": [
+      "7,5",
+      "75",
+      "6,5"
+    ],
+    "reponse": "7,5",
+    "explication": "25 × 3 = 75. Il y a un chiffre après la virgule : 7,5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

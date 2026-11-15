@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ORTH-02",
+  "exemple": "Léa a cueilli des fleurs. Les fleurs que Léa a cueillies sont sur la table.",
+  "regle": "Avec **avoir**, le participe passé ne s’accorde pas avec le sujet. Il s’accorde avec le **COD** seulement si celui-ci est placé **avant** le verbe.",
+  "piege": "Si le COD est après le verbe, on n’accorde pas : elle a mangé des pommes.",
+  "essai": {
+    "consigne": "Complète : ces lettres, je les ai … (écrire)",
+    "options": [
+      "écrites",
+      "écrit",
+      "écrits"
+    ],
+    "reponse": "écrites",
+    "explication": "Le COD « les » (ces lettres) est placé avant : féminin pluriel, écrites."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

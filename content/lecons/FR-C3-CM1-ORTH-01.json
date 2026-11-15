@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ORTH-01",
+  "exemple": "Les enfants du quartier jouent au ballon.",
+  "regle": "Pour accorder le verbe, trouve le **sujet** en posant la question « Qui est-ce qui ? ». Dans un groupe nominal, le verbe s’accorde avec le **nom noyau**.",
+  "piege": "Le complément du nom ne commande pas l’accord : « Le chien des voisins aboie ».",
+  "essai": {
+    "consigne": "Complète : le bruit des voitures … (gêner)",
+    "options": [
+      "gêne",
+      "gênent",
+      "gênes"
+    ],
+    "reponse": "gêne",
+    "explication": "Le nom noyau est « bruit », au singulier : le verbe est au singulier."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

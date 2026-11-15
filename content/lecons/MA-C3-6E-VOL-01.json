@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-VOL-01",
+  "exemple": "Un pavé de 2 couches de 3 rangées de 4 cubes de 1 cm³ a un volume de 24 cm³.",
+  "regle": "Le **volume** mesure la place occupée par un solide. On compte les cubes de 1 cm³ : nombre de couches × nombre de rangées × nombre de cubes par rangée.",
+  "piege": "Deux solides de formes différentes peuvent avoir le même volume.",
+  "essai": {
+    "consigne": "Un pavé a 3 couches de 2 rangées de 5 cubes de 1 cm³. Son volume ?",
+    "options": [
+      "30 cm³",
+      "10 cm³",
+      "25 cm³"
+    ],
+    "reponse": "30 cm³",
+    "explication": "3 × 2 × 5 = 30 cm³."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

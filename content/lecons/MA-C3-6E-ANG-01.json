@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-ANG-01",
+  "exemple": "Deux angles supplémentaires : 65° et 115°, car 65 + 115 = 180.",
+  "regle": "Deux angles sont **supplémentaires** si leur somme vaut 180°. Deux angles **adjacents** ont le même sommet et un côté commun. Deux angles **opposés par le sommet** ont la même mesure.",
+  "piege": "Supplémentaire veut dire « somme de 180° », pas de 90°.",
+  "essai": {
+    "consigne": "Quel angle est supplémentaire d’un angle de 40° ?",
+    "options": [
+      "140°",
+      "50°",
+      "320°"
+    ],
+    "reponse": "140°",
+    "explication": "180 − 40 = 140°."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

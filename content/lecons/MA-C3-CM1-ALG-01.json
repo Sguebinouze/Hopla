@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-ALG-01",
+  "exemple": "178 − … = 6 × 8. On calcule 6 × 8 = 48, donc le nombre manquant est 130.",
+  "regle": "Dans une **égalité à trous**, calcule d’abord le côté complet. Puis cherche le nombre qui rend les deux côtés égaux.",
+  "piege": "Le signe = veut dire « autant que », pas « le résultat est ».",
+  "essai": {
+    "consigne": "Complète : 50 + … = 9 × 7",
+    "options": [
+      "13",
+      "63",
+      "113"
+    ],
+    "reponse": "13",
+    "explication": "9 × 7 = 63. 50 + 13 = 63."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-06",
+  "exemple": "Léa regarde les oiseaux. Léa les regarde. Tom parle à sa sœur. Tom lui parle.",
+  "regle": "Le **COD** se remplace par le, la, l’, les. Le **COI** introduit par « à » se remplace par **lui** ou **leur**. Le pronom se place devant le verbe.",
+  "piege": "« Leur » pronom ne prend jamais de s : je leur parle.",
+  "essai": {
+    "consigne": "Remplace « à ses amis » : Il écrit à ses amis.",
+    "options": [
+      "Il leur écrit.",
+      "Il les écrit.",
+      "Il lui écrit."
+    ],
+    "reponse": "Il leur écrit.",
+    "explication": "« À ses amis » est un COI au pluriel : leur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

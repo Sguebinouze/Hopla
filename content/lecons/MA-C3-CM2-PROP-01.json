@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-PROP-01",
+  "exemple": "4 pains coutent 7 €. 12 pains, c’est 3 fois plus : 3 × 7 = 21 €.",
+  "regle": "En situation de **proportionnalité**, multiplier une quantité multiplie l’autre par le même nombre. On peut aussi additionner deux situations connues.",
+  "piege": "Ajouter le même nombre aux deux quantités est faux.",
+  "essai": {
+    "consigne": "3 cahiers coutent 6 €, 5 cahiers coutent 10 €. Combien coutent 8 cahiers ?",
+    "options": [
+      "16 €",
+      "13 €",
+      "24 €"
+    ],
+    "reponse": "16 €",
+    "explication": "8 cahiers = 3 cahiers + 5 cahiers : 6 + 10 = 16 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-PB-01",
+  "exemple": "Tom achète 3 livres à 6,40 € et un magazine à 4,75 €. Il paie avec 50 €.",
+  "regle": "Pour un problème en **plusieurs étapes**, écris la question de chaque étape. Fais un calcul par étape. Vérifie que la réponse répond à la question.",
+  "piege": "Ne réponds pas avec un résultat intermédiaire : relis la question finale.",
+  "essai": {
+    "consigne": "Un cahier coute 2 €. Léa en achète 3 et paie avec 10 €. Combien lui rend-on ?",
+    "options": [
+      "4 €",
+      "6 €",
+      "8 €"
+    ],
+    "reponse": "4 €",
+    "explication": "3 × 2 = 6 €. 10 − 6 = 4 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

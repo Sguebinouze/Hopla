@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-TRI-01",
+  "exemple": "Si deux angles d’un triangle mesurent 50° et 60°, le troisième mesure 70°.",
+  "regle": "La somme des angles d’un **triangle** vaut toujours **180°**. Un triangle isocèle a deux angles égaux ; un triangle équilatéral a trois angles de 60°.",
+  "piege": "Si deux angles font déjà 180° ou plus, le triangle n’existe pas.",
+  "essai": {
+    "consigne": "Un triangle a des angles de 90° et 35°. Le troisième mesure :",
+    "options": [
+      "55°",
+      "125°",
+      "65°"
+    ],
+    "reponse": "55°",
+    "explication": "90 + 35 = 125. 180 − 125 = 55°."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

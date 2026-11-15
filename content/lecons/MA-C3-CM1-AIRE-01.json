@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-AIRE-01",
+  "exemple": "Un rectangle pavé par 4 rangées de 6 carreaux de 1 cm² a une aire de 24 cm².",
+  "regle": "L’**aire** mesure la surface d’une figure. On compte les carreaux de 1 cm² qui la recouvrent.",
+  "piege": "Aire et périmètre sont différents : l’aire mesure l’intérieur, le périmètre le tour.",
+  "essai": {
+    "consigne": "Une figure est pavée par 3 rangées de 5 carreaux de 1 cm². Son aire ?",
+    "options": [
+      "15 cm²",
+      "8 cm²",
+      "16 cm²"
+    ],
+    "reponse": "15 cm²",
+    "explication": "3 rangées de 5 carreaux : 3 × 5 = 15 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

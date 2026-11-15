@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-DEC-02",
+  "exemple": "3,45 > 3,405 : même partie entière, mêmes dixièmes, puis 5 centièmes contre 0.",
+  "regle": "Compare d’abord les **parties entières**, puis les dixièmes, les centièmes et les millièmes. Tu peux écrire des zéros pour avoir autant de chiffres : 3,450 et 3,405.",
+  "piege": "Le nombre le plus long n’est pas forcément le plus grand : 3,45 > 3,405.",
+  "essai": {
+    "consigne": "Quel est le plus petit ?",
+    "options": [
+      "5,09",
+      "5,1",
+      "5,099"
+    ],
+    "reponse": "5,09",
+    "explication": "5,090 ; 5,100 ; 5,099. Le plus petit est 5,090."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

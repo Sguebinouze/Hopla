@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ANG-01",
+  "exemple": "La moitié d’un angle droit mesure 90° ÷ 2 = 45°.",
+  "regle": "Un **angle droit** mesure 90°. Un angle **aigu** mesure moins de 90°. Un angle **obtus** mesure entre 90° et 180°.",
+  "piege": "La taille des côtés dessinés ne change pas la mesure de l’angle.",
+  "essai": {
+    "consigne": "Un angle mesure 135°. Il est :",
+    "options": [
+      "obtus",
+      "aigu",
+      "droit"
+    ],
+    "reponse": "obtus",
+    "explication": "135° est entre 90° et 180° : l’angle est obtus."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

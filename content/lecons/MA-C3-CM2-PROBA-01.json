@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-PROBA-01",
+  "exemple": "Avec un dé à 6 faces, on a 3 chances sur 6 d’obtenir un nombre pair.",
+  "regle": "Quand toutes les issues ont la même chance, compte les **issues favorables** et toutes les **issues possibles**. On dit « a chances sur b ».",
+  "piege": "Pour deux épreuves, dresse la liste de toutes les paires possibles.",
+  "essai": {
+    "consigne": "Dans un sac : 2 billes rouges et 3 bleues. Chances de tirer une rouge ?",
+    "options": [
+      "2 chances sur 5",
+      "2 chances sur 3",
+      "3 chances sur 5"
+    ],
+    "reponse": "2 chances sur 5",
+    "explication": "Il y a 5 billes en tout, dont 2 rouges : 2 chances sur 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

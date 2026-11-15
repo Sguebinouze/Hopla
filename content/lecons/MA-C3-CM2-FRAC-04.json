@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-FRAC-04",
+  "exemple": "4 × 2/7 = 8/7 = 1 + 1/7.",
+  "regle": "Pour multiplier un **entier** par une **fraction**, multiplie le numérateur par l’entier. Le dénominateur ne change pas.",
+  "piege": "Ne multiplie pas le dénominateur : 3 × 2/5 = 6/5, pas 6/15.",
+  "essai": {
+    "consigne": "Combien font 3 × 2/5 ?",
+    "options": [
+      "6/5",
+      "6/15",
+      "5/5"
+    ],
+    "reponse": "6/5",
+    "explication": "3 × 2 = 6 cinquièmes : 6/5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

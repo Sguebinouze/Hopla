@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-03",
+  "exemple": "Sur la colline se dresse un château.",
+  "regle": "Le **sujet** est parfois placé **après le verbe**. Pose la question « Qui est-ce qui ? » devant le verbe pour le trouver.",
+  "piege": "Le groupe placé en début de phrase n’est pas toujours le sujet.",
+  "essai": {
+    "consigne": "Quel est le sujet dans « Au loin brillaient les étoiles » ?",
+    "options": [
+      "les étoiles",
+      "au loin",
+      "brillaient"
+    ],
+    "reponse": "les étoiles",
+    "explication": "Qui est-ce qui brillait ? Les étoiles : c’est le sujet."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

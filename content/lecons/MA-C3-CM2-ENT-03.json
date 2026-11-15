@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ENT-03",
+  "exemple": "45 678 912 < 45 687 912 : aux dizaines de milliers, 7 < 8.",
+  "regle": "Pour **comparer**, regarde d’abord le nombre de chiffres. S’il est égal, compare chiffre à chiffre en partant de la gauche.",
+  "piege": "Le premier chiffre différent décide, même si les suivants sont plus grands.",
+  "essai": {
+    "consigne": "Complète : 9 999 999 … 10 000 000",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "reponse": "<",
+    "explication": "10 000 000 a huit chiffres, 9 999 999 en a sept : il est plus petit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

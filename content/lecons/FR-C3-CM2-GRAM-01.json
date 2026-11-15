@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-01",
+  "exemple": "Dans « Ma sœur devient pilote », pilote est attribut du sujet.",
+  "regle": "L’**attribut du sujet** suit un verbe d’état (être, devenir, sembler, rester) et désigne le sujet. Le **COD** suit le verbe sans préposition. Le **COI** est introduit par à ou de.",
+  "piege": "Après « être », ne cherche pas un COD : « Il est boulanger » contient un attribut.",
+  "essai": {
+    "consigne": "Dans « Il parle à son voisin », quelle est la fonction de « à son voisin » ?",
+    "options": [
+      "COI",
+      "COD",
+      "attribut du sujet"
+    ],
+    "reponse": "COI",
+    "explication": "Le complément est introduit par « à » : c’est un COI."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

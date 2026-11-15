@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-CONT-01",
+  "exemple": "1,5 L = 150 cL, car 1 L = 100 cL.",
+  "regle": "Les unités de **contenance** vont de 10 en 10 : hL, daL, L, dL, cL, mL. 1 L = 10 dL = 100 cL = 1 000 mL.",
+  "piege": "Un litre fait 100 cL, pas 1 000 cL.",
+  "essai": {
+    "consigne": "Combien font 2 L ?",
+    "options": [
+      "2 000 mL",
+      "200 mL",
+      "20 mL"
+    ],
+    "reponse": "2 000 mL",
+    "explication": "1 L = 1 000 mL. 2 L = 2 000 mL."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-MAS-01",
+  "exemple": "2,5 kg = 2 500 g, car 1 kg = 1 000 g.",
+  "regle": "Les unités de **masse** vont de 10 en 10 : kg, hg, dag, g, dg, cg, mg. 1 kg = 1 000 g. 1 g = 1 000 mg. 1 t = 1 000 kg.",
+  "piege": "Ne confonds pas masse et contenance : le gramme mesure une masse, le litre une contenance.",
+  "essai": {
+    "consigne": "Combien font 3 t ?",
+    "options": [
+      "3 000 kg",
+      "300 kg",
+      "30 kg"
+    ],
+    "reponse": "3 000 kg",
+    "explication": "1 t = 1 000 kg. 3 t = 3 000 kg."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

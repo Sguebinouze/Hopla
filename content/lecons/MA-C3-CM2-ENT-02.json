@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ENT-02",
+  "exemple": "Dans 345 678 912, le chiffre des dizaines de millions est 4.",
+  "regle": "Chaque classe a trois rangs : unités, dizaines, centaines. Le **chiffre** d’un rang n’est pas le **nombre** d’unités de ce rang.",
+  "piege": "345 678 912 contient 345 678 milliers, alors que son chiffre des milliers est 8.",
+  "essai": {
+    "consigne": "Quel est le chiffre des centaines de millions dans 718 204 563 ?",
+    "options": [
+      "7",
+      "1",
+      "8"
+    ],
+    "reponse": "7",
+    "explication": "Le premier chiffre à gauche est celui des centaines de millions : 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

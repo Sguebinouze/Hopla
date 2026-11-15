@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-FRAC-03",
+  "exemple": "1/3 + 5/12 = 4/12 + 5/12 = 9/12.",
+  "regle": "Pour additionner des fractions, il faut le **même dénominateur**. Transforme celle dont le dénominateur est plus petit, puis additionne les numérateurs.",
+  "piege": "On n’additionne pas les dénominateurs : 1/2 + 1/4 ne fait pas 2/6.",
+  "essai": {
+    "consigne": "Combien font 1/2 + 1/6 ?",
+    "options": [
+      "4/6",
+      "2/8",
+      "2/6"
+    ],
+    "reponse": "4/6",
+    "explication": "1/2 = 3/6. 3/6 + 1/6 = 4/6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

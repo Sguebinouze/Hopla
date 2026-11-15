@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-FRAC-02",
+  "exemple": "3/8 < 5/8. 3/5 > 3/8 : un cinquième est plus grand qu’un huitième.",
+  "regle": "Avec le même **dénominateur**, la plus grande fraction a le plus grand numérateur. Avec le même **numérateur**, la plus grande a le plus petit dénominateur : les parts sont plus grandes.",
+  "piege": "Pour comparer à un entier, écris l’entier avec le même dénominateur : 3 = 12/4.",
+  "essai": {
+    "consigne": "Complète : 2/7 … 2/9",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "reponse": ">",
+    "explication": "Même numérateur. Un septième est plus grand qu’un neuvième. Donc 2/7 > 2/9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

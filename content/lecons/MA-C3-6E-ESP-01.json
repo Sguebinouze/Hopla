@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-ESP-01",
+  "exemple": "Un prisme droit à base triangulaire a 5 faces, 9 arêtes et 6 sommets.",
+  "regle": "Un **prisme droit** a deux bases identiques et parallèles, et des faces latérales rectangulaires. Le cube et le pavé sont des prismes droits particuliers.",
+  "piege": "Pour compter les cubes d’un assemblage, compte couche par couche, sans oublier ceux qui sont cachés.",
+  "essai": {
+    "consigne": "Combien de faces a un prisme droit à base pentagonale ?",
+    "options": [
+      "7",
+      "5",
+      "10"
+    ],
+    "reponse": "7",
+    "explication": "2 bases et 5 faces latérales : 7 faces."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
