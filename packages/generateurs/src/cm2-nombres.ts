@@ -173,7 +173,7 @@ export const comparerEntiersCm2 = creerGenerateur({
       consigne: `Complète l’encadrement au million près : … < ${fr(n)} < ${fr(bas + 1e6)}`,
       reponse: String(bas),
       indice: 'Garde les chiffres des millions et remplace les autres par des zéros.',
-      explication: `${fr(n)} contient ${fr(bas / 1e6)} millions et un peu plus. Il est compris entre ${fr(bas)} et ${fr(bas + 1e6)}.`,
+      explication: `${fr(n)} contient ${fr(bas / 1e6)} million${bas / 1e6 > 1 ? 's' : ''} et un peu plus. Il est compris entre ${fr(bas)} et ${fr(bas + 1e6)}.`,
     };
   },
 });
@@ -283,7 +283,7 @@ export const fractionsDecimalesCm2 = creerGenerateur({
         consigne: `Écris sous forme décimale : ${fr(n)}/${fr(10 ** k)}`,
         reponse: r,
         indice: `Le dernier chiffre du numérateur est au rang des ${['dixièmes', 'centièmes', 'millièmes'][k - 1]}.`,
-        explication: `${fr(n)}/${fr(10 ** k)}, c’est ${fr(n)} ${['dixièmes', 'centièmes', 'millièmes'][k - 1]}. Le nombre s’écrit ${frDecimal(r)}.`,
+        explication: `${fr(n)}/${fr(10 ** k)}, c’est ${fr(n)} ${['dixième', 'centième', 'millième'][k - 1]}${n > 1 ? 's' : ''}. Le nombre s’écrit ${frDecimal(r)}.`,
       };
     }
     if (d === 2) {

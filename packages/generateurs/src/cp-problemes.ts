@@ -135,7 +135,7 @@ export const problemesDeuxEtapesCp = creerGenerateur({
       consigne: `Il y a ${depart} enfants dans un bus. Au premier arrêt, ${premier} enfants ${v1}. Au deuxième arrêt, ${second} enfants ${v2}. Combien d’enfants y a-t-il dans le bus maintenant ?`,
       reponse: String(fin),
       indice: 'Fais le calcul arrêt par arrêt.',
-      explication: `Premier arrêt : ${depart} ${descendentDabord ? '−' : '+'} ${premier} = ${milieu}. Deuxième arrêt : ${milieu} ${descendentDabord ? '+' : '−'} ${second} = ${fin}. Il y a ${fin} enfants.`,
+      explication: `Premier arrêt : ${depart} ${descendentDabord ? '−' : '+'} ${premier} = ${milieu}. Deuxième arrêt : ${milieu} ${descendentDabord ? '+' : '−'} ${second} = ${fin}. Il y a ${fin} enfant${fin > 1 ? 's' : ''}.`,
     };
   },
 });

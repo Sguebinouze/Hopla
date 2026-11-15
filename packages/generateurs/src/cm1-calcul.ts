@@ -255,7 +255,7 @@ export const divisionCm1 = creerGenerateur({
       consigne: `On range ${fr(n)} ${objets} dans des ${contenants} de ${b}. ${quotient ? `Combien de ${contenants} pleines obtient-on ?` : `Combien de ${objets} reste-t-il ?`}`.replace('cartons pleines', 'cartons pleins').replace('sachets pleines', 'sachets pleins'),
       reponse: String(quotient ? q : r),
       indice: `Divise ${fr(n)} par ${b}.`,
-      explication: `${egalite} On remplit ${fr(q)} ${contenants}, et il reste ${r} ${objets}.`,
+      explication: `${egalite} On remplit ${fr(q)} ${contenants}, et il reste ${r} ${r > 1 ? objets : objets.slice(0, -1)}.`,
     };
   },
 });

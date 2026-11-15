@@ -1,6 +1,6 @@
 // CE1, résolution de problèmes. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 // Les nombres restent dans le champ du CE1 (jusqu'à 1 000).
-import { creerGenerateur } from './outils';
+import { creerGenerateur, que } from './outils';
 
 const PRENOMS_F = ['Lucie', 'Inès', 'Nora', 'Jade', 'Lina', 'Rose', 'Elsa', 'Maya'];
 const PRENOMS_G = ['Léo', 'Sami', 'Hugo', 'Malo', 'Noé', 'Tom', 'Enzo', 'Paul'];
@@ -89,10 +89,10 @@ export const problemesComparaisonCe1 = creerGenerateur({
     if (d === 1) {
       return {
         gabarit: 'saisie',
-        consigne: `${garcon} a ${petit} ${objet}. ${fille} en a ${ecart} de plus que ${garcon}. Combien ${fille} a-t-elle de ${objet} ?`,
+        consigne: `${garcon} a ${petit} ${objet}. ${fille} en a ${ecart} de plus ${que(garcon)}. Combien ${fille} a-t-elle de ${objet} ?`,
         reponse: String(grand),
         indice,
-        explication: `${fille} en a plus que ${garcon}. ${petit} + ${ecart} = ${grand}. ${fille} a ${grand} ${objet}.`,
+        explication: `${fille} en a plus ${que(garcon)}. ${petit} + ${ecart} = ${grand}. ${fille} a ${grand} ${objet}.`,
       };
     }
     if (d === 2) {
@@ -106,10 +106,10 @@ export const problemesComparaisonCe1 = creerGenerateur({
     }
     return {
       gabarit: 'saisie',
-      consigne: `${fille} a ${grand} ${objet}. Elle en a ${ecart} de plus que ${garcon}. Combien ${garcon} a-t-il de ${objet} ?`,
+      consigne: `${fille} a ${grand} ${objet}. Elle en a ${ecart} de plus ${que(garcon)}. Combien ${garcon} a-t-il de ${objet} ?`,
       reponse: String(petit),
       indice: `Attention : c’est ${fille} qui en a le plus.`,
-      explication: `${garcon} en a moins que ${fille}. ${grand} − ${ecart} = ${petit}. ${garcon} a ${petit} ${objet}.`,
+      explication: `${garcon} en a moins ${que(fille)}. ${grand} − ${ecart} = ${petit}. ${garcon} a ${petit} ${objet}.`,
     };
   },
 });

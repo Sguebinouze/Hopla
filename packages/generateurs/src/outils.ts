@@ -25,6 +25,11 @@ export function qte(n: number, singulier: string, pluriel = `${singulier}s`): st
   return `${fr(n)} ${n > 1 ? pluriel : singulier}`;
 }
 
+/** « que » élidé devant une voyelle : que('Elsa') → « qu’Elsa », que('Tom') → « que Tom ». */
+export function que(mot: string): string {
+  return /^[aeiouyéèêâîôûh]/i.test(mot) && !/^h/i.test(mot) ? `qu’${mot}` : `que ${mot}`;
+}
+
 /** Fabrique un générateur : chaque appel reçoit un aléatoire déjà initialisé. */
 export function creerGenerateur(def: {
   id: string;

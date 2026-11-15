@@ -286,7 +286,7 @@ const PHRASES_SUJET_D3: [string, string, string, string][] = [
   ['Chaque soir, ', 'ma mère', 'lit', 'un livre'], ['Au marché, ', 'mes parents', 'achètent', 'des fruits'],
   ['Demain, ', 'les élèves', 'visiteront', 'un musée'], ['Dans le pré, ', 'la vache', 'mange', 'de l’herbe'],
   ['Le mercredi, ', 'les enfants du quartier', 'jouent', 'au parc'], ['Sur la branche, ', 'le merle de Paul', 'chante', 'fort'],
-  ['En hiver, ', 'les oiseaux du parc', 'cherchent', 'des graines'], ['Après la classe, ', 'les amies de Nora', 'goûtent', 'ensemble'],
+  ['En hiver, ', 'les oiseaux du parc', 'cherchent', 'des graines'], ['Après la classe, ', 'les amies de Nora', 'goutent', 'ensemble'],
   ['Ce soir, ', 'le frère de Tom', 'regarde', 'un film'], ['Dans la cuisine, ', 'le chat des voisins', 'mange', 'du poisson'],
 ];
 

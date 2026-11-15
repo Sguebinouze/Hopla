@@ -459,7 +459,7 @@ export const fractionsDecimalesCm1 = creerGenerateur({
         consigne: `Écris sous forme décimale : ${ecrits.join(' + ')}`,
         reponse: r,
         indice: 'Le chiffre des dixièmes vient juste après la virgule, puis celui des centièmes.',
-        explication: `Il y a ${e} unités, ${dx} dixième${dx > 1 ? 's' : ''} et ${ct} centième${ct > 1 ? 's' : ''}. Le nombre est ${frDecimal(r)}.`,
+        explication: `Il y a ${e} unité${Number(e) > 1 ? 's' : ''}, ${dx} dixième${dx > 1 ? 's' : ''} et ${ct} centième${ct > 1 ? 's' : ''}. Le nombre est ${frDecimal(r)}.`,
       };
     }
     const k = a.entier(1, 2);

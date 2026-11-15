@@ -4,7 +4,7 @@ import { creerGenerateur, options } from './outils';
 // Verbes du premier groupe sans particularité orthographique (pas de -ger, -cer, -yer, -eler, -eter, -ier,
 // ni de e ou é dans l'avant-dernière syllabe).
 export const VERBES_ER = ['chanter', 'jouer', 'parler', 'marcher', 'danser', 'regarder', 'aimer', 'écouter',
-  'arriver', 'dessiner', 'sauter', 'trouver', 'porter', 'tomber', 'rentrer', 'habiter', 'aider', 'garder', 'goûter', 'raconter'];
+  'arriver', 'dessiner', 'sauter', 'trouver', 'porter', 'tomber', 'rentrer', 'habiter', 'aider', 'garder', 'gouter', 'raconter'];
 
 export const PERSONNES = ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles'] as const;
 type Personne = (typeof PERSONNES)[number];

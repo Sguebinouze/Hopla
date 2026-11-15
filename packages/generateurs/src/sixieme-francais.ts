@@ -153,7 +153,7 @@ type Fonction = (typeof FONCTIONS)[number];
 // Le groupe à analyser est entre crochets.
 export const PHRASES_FONCTIONS: Record<Fonction, string[]> = {
   'attribut du sujet': ['Le ciel devient [gris].', 'Ma sœur est [infirmière].', 'Ce gâteau semble [délicieux].',
-    'Les élèves restent [calmes].', 'Le chat paraît [fatigué].', 'Ton idée est [excellente].', 'Le lac demeure [gelé] tout l’hiver.'],
+    'Les élèves restent [calmes].', 'Le chat parait [fatigué].', 'Ton idée est [excellente].', 'Le lac demeure [gelé] tout l’hiver.'],
   COD: ['Le chat mange [la souris].', 'Léa lit [un roman].', 'Nous préparons [le dîner].', 'Le vent emporte [les feuilles].',
     'Mon frère répare [son vélo].', 'Elle regarde [le ciel gris].', 'Les enfants construisent [une cabane].'],
   COI: ['Je pense [à mes vacances].', 'Il parle [de son voyage].', 'Nous obéissons [au règlement].', 'Tu ressembles [à ton père].',

@@ -147,7 +147,7 @@ export const fractionsDecimales6e = creerGenerateur({
       consigne: `Écris sous forme décimale : ${termes.join(' + ')}`,
       reponse: r,
       indice: 'Place chaque chiffre dans son rang. Mets un zéro dans le rang vide.',
-      explication: `Il y a ${e} unités, ${dixiemes} dixième${dixiemes > 1 ? 's' : ''}, 0 centième et ${milliemes} millième${milliemes > 1 ? 's' : ''}. Le nombre est ${frDecimal(r)}.`,
+      explication: `Il y a ${e} unité${Number(e) > 1 ? 's' : ''}, ${dixiemes} dixième${dixiemes > 1 ? 's' : ''}, 0 centième et ${milliemes} millième${milliemes > 1 ? 's' : ''}. Le nombre est ${frDecimal(r)}.`,
     };
   },
 });

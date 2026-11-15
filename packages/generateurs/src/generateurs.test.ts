@@ -7,6 +7,9 @@ import { PARTICIPES_ETRE, PHRASES_PROPOSITIONS, SUJETS_ETRE } from './sixieme-fr
 
 // ───────────────────────── Règles communes à tous les générateurs
 
+// Mots invariables terminés par s, légitimes après « 1 » (« 1 fois », « 1 pas »).
+const INVARIABLES_EN_S = ['fois', 'tiers', 'mois', 'pas', 'plus', 'puis', 'dans', 'sous', 'pendant', 'temps', 'avis', 'corps', 'jus', 'bras', 'repas', 'pois', 'nez', 'colis', 'tapis', 'ours', 'dos', 'os', 'vers'];
+
 describe.each(GENERATEURS)('$id', (g) => {
   it('est déterministe pour une graine donnée', () => {
     expect(g.generer(42, 2)).toEqual(g.generer(42, 2));
@@ -43,6 +46,10 @@ describe.each(GENERATEURS)('$id', (g) => {
         const erreurs = verifierTexte(texte, g.cycle).filter((p) => p.niveau === 'erreur');
         expect(erreurs, texte).toEqual([]);
         expect(texte).not.toMatch(/undefined|NaN|\[object/);
+        // Règles apprises à la relecture, valables pour toutes les classes.
+        for (const m of texte.matchAll(/(?<![\d,])1 (\p{L}+s)(?!\p{L})/gu)) expect(INVARIABLES_EN_S, `« 1 ${m[1]} » : ${texte}`).toContain(m[1]);
+        expect(texte, `élision devant un prénom : ${texte}`).not.toMatch(/\b(que|de) [AEIOUYÉÈÊ]\p{Ll}/u);
+        expect(texte, `orthographe de 1990 : ${texte}`).not.toMatch(/coût|maître|boîte|connaît|paraît|goût/);
       }
     }
   });
@@ -443,7 +450,7 @@ describe('justesse 6e français', () => {
   });
 
   it('fonctions : verbe d’état pour l’attribut, préposition pour le COI', () => {
-    const ETAT = /\b(est|sont|devient|semble|reste|restent|paraît|demeure)\b/;
+    const ETAT = /\b(est|sont|devient|semble|reste|restent|parait|demeure)\b/;
     partout('fonctions-6e', (item) => {
       const phrase = item.consigne.match(/« (.+?) »/)![1]!;
       const groupe = item.consigne.match(/de « (.+) » \?/)![1]!;

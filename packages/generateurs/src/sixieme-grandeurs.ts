@@ -204,8 +204,8 @@ export const durees6e = creerGenerateur({
 // ─────────── Proportionnalité
 
 const ARTICLES: [string, string, string][] = [
-  ['kg de pommes', 'coûtent', '€'], ['cahiers', 'coûtent', '€'], ['places de cinéma', 'coûtent', '€'],
-  ['litres d’essence', 'coûtent', '€'], ['tours de piste', 'durent', 'min'],
+  ['kg de pommes', 'coutent', '€'], ['cahiers', 'coutent', '€'], ['places de cinéma', 'coutent', '€'],
+  ['litres d’essence', 'coutent', '€'], ['tours de piste', 'durent', 'min'],
 ];
 
 export const proportionnalite6e = creerGenerateur({
