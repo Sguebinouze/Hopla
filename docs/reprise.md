@@ -33,16 +33,21 @@
 
 ## Prochaines étapes, par ordre
 
-1. **Compléter CE1 et 6e** : CE1 grandeurs (longueurs, masses, monnaie, heures), géométrie, lecture et vocabulaire ; 6e géométrie, volumes, statistiques et probabilités.
-2. **Cycle 4 (5e, 4e, 3e)** : les textes sont archivés (`bo10-2026-francais-maths-c4.pdf` pour le programme 2026, `bo31-2020-cycles-2-3-4.pdf` pour le programme 2020 encore en vigueur en 4e et 3e). Le calendrier de bascule est dans `content/programmes/programmes.json`.
-3. **App** : progression réelle par matière et par notion (les barres sont à 0 %), tableau de bord parent, badges, synchronisation hors connexion.
-4. **Autres matières** : commencées en CE1 et 6e (questionner le monde, EMC, histoire-géographie, sciences), avec 285 questions rédigées en brouillon à faire relire par Laurent. Étendre aux autres classes à partir des textes déjà archivés.
+Session VS Code (français et maths) :
+1. **Codes d'erreur** : renseigner `erreurs` (option piège → code kebab-case) dans les générateurs QCM où le piège correspond à une erreur connue (fractions, décimaux, accords, homophones…), et un dictionnaire `ERREURS` (code → libellé court pour le parent, 60 caractères au plus) exporté par `@hopla/generateurs`. L'espace parent l'affichera à la place du libellé automatique.
+2. **Compétence CE2 manquante** : « tables d'addition dans les deux sens » (BO n°41, p. 22, objectif 15 égalités en une minute), pour le défi de fluence CE2.
+3. **Leçons de français et de maths** : 262 notions sans leçon (CP à 3e). Format et exemples dans `content/lecons/` (36 notions CE1 et 6e déjà faites), règles de rédaction du cycle vérifiées par `pnpm content:check`. Statut `brouillon`, auteur `ia`.
+
+Session cloud (app et autres matières) :
+1. Littérature de 6e (4 entrées du programme) : la session cloud ajoute ces compétences dans `content/referentiel/FR-C3-2025/6e.json`, la session VS Code n'y touche pas en attendant.
+2. Anglais (CE1 puis 6e), puis autres matières des autres classes.
+3. Leçons des matières autres que français et maths ; page de relecture enrichie des leçons.
 
 ## Travail à deux sessions
 
 Deux sessions Claude peuvent travailler en même temps (VS Code sur le Mac, session cloud). Pour ne pas se marcher dessus :
 - `git pull --rebase` avant de commencer, commit et `git push` dès qu'un lot est terminé et vérifié ;
-- une session par zone. Français et maths (`packages/generateurs`, `content/referentiel/FR-*` et `MA-*`) d'un côté ; app (`apps/pwa`, `supabase`), autres matières (`content/referentiel` hors FR et MA, `content/exercices`) et calendrier (`content/programmes`, `content/sources`) de l'autre ;
+- une session par zone. Français et maths (`packages/generateurs`, `content/referentiel/FR-*` et `MA-*`, `content/lecons/FR-*` et `MA-*`) d'un côté ; app (`apps/pwa`, `supabase`), autres matières (`content/referentiel` hors FR et MA, `content/exercices`) et calendrier (`content/programmes`, `content/sources`) de l'autre ;
 - un fichier partagé (`index.ts`, `generateurs.test.ts`, `docs/reprise.md`) : modifier peu et pousser vite.
 
 ## Avant de livrer
