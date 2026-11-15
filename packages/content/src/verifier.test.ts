@@ -1,3 +1,4 @@
+import { appliquerRelecture, construireRelecture } from './relecture';
 import { describe, expect, it } from 'vitest';
 import { anneeScolaire, couvre } from './annees';
 import { chargerContenu, type Contenu } from './charger';
@@ -48,6 +49,24 @@ describe('intégrité des références', () => {
     const c = clone();
     c.banques[0]!.exercices[0]!.reponse = 'jouons';
     expect(erreursDe(c).some((e) => e.message.includes('ne fait pas partie des options'))).toBe(true);
+  });
+
+  it('relecture : liste ce qui reste à relire et reporte les décisions humaines', () => {
+    const notions = construireRelecture(contenu);
+    expect(notions.length).toBeGreaterThan(0);
+    expect(notions[0]!.classe).toBe('cp');
+    const n = notions.find((x) => x.lecon && x.questions.length > 0)!;
+    const q = n.questions[0]!;
+    const bilan = appliquerRelecture(contenu, [
+      { type: 'question', element_id: q.id, decision: 'ok', commentaire: '' },
+      { type: 'lecon', element_id: n.id, decision: 'ok', commentaire: '' },
+      { type: 'notion', element_id: n.id, decision: 'corriger', commentaire: 'Extrait trop court.' },
+      { type: 'question', element_id: 'XX-C2-CE1-ABC-01-001', decision: 'ok', commentaire: '' },
+    ], 'Laurent', false);
+    expect(bilan.publies).toEqual([q.id, `leçon ${n.id}`]);
+    expect(bilan.verifiees).toEqual([]);
+    expect(bilan.aCorriger.map((d) => d.commentaire)).toEqual(['Extrait trop court.']);
+    expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['XX-C2-CE1-ABC-01-001']);
   });
 
   it('refuse un défi de fluence dont le générateur ne couvre pas la compétence', () => {

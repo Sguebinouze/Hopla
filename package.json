@@ -14,6 +14,7 @@
     "content:packs": "pnpm --filter @hopla/content packs",
     "content:hash": "pnpm --filter @hopla/content hash",
     "ds:build": "pnpm --filter @hopla/ds build",
-    "content:extraits": "pnpm --filter @hopla/content extraits"
+    "content:extraits": "pnpm --filter @hopla/content extraits",
+    "content:relecture": "pnpm --filter @hopla/content relecture"
   }
 }

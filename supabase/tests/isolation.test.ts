@@ -138,6 +138,41 @@ describe('sessions et isolation', () => {
     await expect(en({ parent: PARENT_A, enfant: sessionLea }, `select app.intervalle(0.9, 1::smallint)`)).rejects.toThrow(/permission denied/);
   });
 
+  it('admin : relecture réservée à un compte inscrit, mode parent ouvert', async () => {
+    const ecrire = `insert into public.relectures (type, element_id, decision, commentaire) values ('question', 'QM-C2-CE1-ESP-01-001', 'ok', '')
+                    on conflict (type, element_id) do update set decision = excluded.decision, maj_le = now()`;
+    const lire = `select type, element_id, decision from public.relectures`;
+    const estAdmin = async (ctx: Contexte) => (await une<boolean>(ctx, `select public.est_admin() as a`))!.a;
+
+    // Pas encore inscrit : rien, même en mode parent.
+    expect(await estAdmin({ parent: PARENT_A, parentMode: modeA })).toBe(false);
+    await expect(en({ parent: PARENT_A, parentMode: modeA }, ecrire)).rejects.toThrow(/row-level security/);
+
+    await db.query(`insert into public.admins (user_id) values ($1)`, [PARENT_A]);
+    expect(await estAdmin({ parent: PARENT_A, parentMode: modeA })).toBe(true);
+    await en({ parent: PARENT_A, parentMode: modeA }, ecrire);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, lire)).toEqual([{ type: 'question', element_id: 'QM-C2-CE1-ESP-01-001', decision: 'ok' }]);
+
+    // Même compte sans mode parent, ou depuis la session d'un enfant : ni lecture ni écriture.
+    expect(await estAdmin({ parent: PARENT_A })).toBe(false);
+    expect(await en({ parent: PARENT_A }, lire)).toEqual([]);
+    expect(await en({ parent: PARENT_A, enfant: sessionLea }, lire)).toEqual([]);
+    await expect(en({ parent: PARENT_A, enfant: sessionLea }, ecrire)).rejects.toThrow(/row-level security/);
+
+    // Un autre parent : rien.
+    expect(await estAdmin({ parent: PARENT_B })).toBe(false);
+    expect(await en({ parent: PARENT_B }, lire)).toEqual([]);
+    await expect(en({ parent: PARENT_B }, ecrire)).rejects.toThrow(/row-level security/);
+
+    // L'admin ne signe pas au nom d'un autre, et les identifiants sont contrôlés.
+    await expect(en({ parent: PARENT_A, parentMode: modeA },
+      `insert into public.relectures (type, element_id, decision, par) values ('lecon', 'QM-C2-CE1-ESP-01', 'ok', '${PARENT_B}')`)).rejects.toThrow(/row-level security/);
+    await expect(en({ parent: PARENT_A, parentMode: modeA },
+      `insert into public.relectures (type, element_id, decision) values ('lecon', 'pas un id', 'ok')`)).rejects.toThrow(/check constraint/);
+    // La table des admins ne se modifie pas depuis l'app.
+    await expect(en({ parent: PARENT_B }, `insert into public.admins (user_id) values ('${PARENT_B}')`)).rejects.toThrow(/permission denied/);
+  });
+
   it('bloque après 5 mauvais codes en 10 minutes', async () => {
     for (let i = 0; i < 4; i++) await en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '0000')`, [tom]);
     await expect(en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876')`, [tom])).resolves.toBeDefined();

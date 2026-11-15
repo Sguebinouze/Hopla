@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { anneeScolaire } from './annees';
 import { RACINE_DEPOT, chargerContenu } from './charger';
 import { construirePacks } from './packs';
+import { construireRelecture } from './relecture';
 import { verifierContenu } from './verifier';
 
 // Usage : pnpm content:packs [--annee 2026-2027] [--brouillons] [--sortie chemin]
@@ -30,6 +31,8 @@ writeFileSync(
   join(sortie, 'index.json'),
   JSON.stringify({ annee, brouillons, classes: packs.map((p) => p.classe), genere_le: new Date().toISOString() }),
 );
+// Ce qui reste à relire, pour l'espace admin (contenu pédagogique seulement).
+writeFileSync(join(sortie, 'relecture.json'), JSON.stringify(construireRelecture(contenu)));
 const resume = packs
   .map((p) => `${p.classe}:${p.matieres.reduce((n, m) => n + m.competences.length, 0)}`)
   .join(' ');

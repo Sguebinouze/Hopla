@@ -35,6 +35,14 @@ export interface ErreurFrequente {
   nb: number;
 }
 
+export interface DecisionRelecture {
+  type: 'notion' | 'lecon' | 'question';
+  element_id: string;
+  decision: 'ok' | 'corriger';
+  commentaire: string;
+  maj_le?: string;
+}
+
 export interface SuiviEnfant {
   enfant: Enfant;
   progression: Record<string, Suivi>;
@@ -59,6 +67,10 @@ export interface Api {
   creerEnfant(e: { prenom: string; avatar: string; classe: Classe; code: string }): Promise<void>;
   /** Mode parent ouvert : progression et erreurs fréquentes de chaque enfant. */
   suiviParent(): Promise<SuiviEnfant[]>;
+  // Espace admin : compte inscrit comme admin, mode parent ouvert (contrôlé en base).
+  estAdmin(): Promise<boolean>;
+  decisionsRelecture(): Promise<DecisionRelecture[]>;
+  enregistrerDecisions(d: DecisionRelecture[]): Promise<void>;
 }
 
 type LigneProgression = {
@@ -197,6 +209,32 @@ function apiSupabase(url: string, cle: string): Api {
         };
       }));
     },
+    async estAdmin() {
+      if (!sessionStorage.getItem(CLE_PARENT)) return false;
+      const { data, error } = await client.rpc('est_admin');
+      if (error) throw error;
+      return data === true;
+    },
+    async decisionsRelecture() {
+      const toutes: DecisionRelecture[] = [];
+      for (let debut = 0; ; debut += 1000) {
+        const { data, error } = await client.from('relectures')
+          .select('type, element_id, decision, commentaire, maj_le').order('element_id').range(debut, debut + 999);
+        if (error) throw error;
+        toutes.push(...(data as DecisionRelecture[]));
+        if (data.length < 1000) return toutes;
+      }
+    },
+    async enregistrerDecisions(d) {
+      const maj_le = new Date().toISOString();
+      for (let i = 0; i < d.length; i += 200) {
+        const lot = d.slice(i, i + 200).map((x) => ({
+          type: x.type, element_id: x.element_id, decision: x.decision, commentaire: x.commentaire.slice(0, 2000), maj_le,
+        }));
+        const { error } = await client.from('relectures').upsert(lot, { onConflict: 'type,element_id' });
+        if (error) throw error;
+      }
+    },
   };
 }
 
@@ -245,6 +283,7 @@ function apiDemo(): Api {
     listeProfils: async () => lire().map(({ id, prenom, avatar, code_type }) => ({ id, prenom, avatar, code_type })),
     async ouvrirSession(enfant, code) {
       if (code !== CODE_DEMO) return false;
+      sessionStorage.removeItem(CLE_PARENT);
       sessionStorage.setItem(CLE_ENFANT, enfant);
       return true;
     },
@@ -285,9 +324,33 @@ function apiDemo(): Api {
     },
     async fermerSession() {
       sessionStorage.removeItem(CLE_ENFANT);
+      sessionStorage.removeItem(CLE_PARENT);
     },
     definirCodeParent: async () => undefined,
-    ouvrirModeParent: async (code) => code === CODE_DEMO,
+    async ouvrirModeParent(code) {
+      if (code !== CODE_DEMO) return false;
+      sessionStorage.setItem(CLE_PARENT, 'demo');
+      return true;
+    },
+    // Démo : admin dès que le mode parent est ouvert ; décisions gardées dans ce navigateur.
+    estAdmin: async () => sessionStorage.getItem(CLE_PARENT) === 'demo',
+    async decisionsRelecture() {
+      try {
+        return JSON.parse(localStorage.getItem('hopla.demo-relecture') ?? '[]') as DecisionRelecture[];
+      } catch {
+        return [];
+      }
+    },
+    async enregistrerDecisions(d) {
+      const toutes = new Map((await this.decisionsRelecture()).map((x) => [`${x.type}#${x.element_id}`, x]));
+      const maj_le = new Date().toISOString();
+      for (const x of d) toutes.set(`${x.type}#${x.element_id}`, { ...x, maj_le });
+      try {
+        localStorage.setItem('hopla.demo-relecture', JSON.stringify([...toutes.values()]));
+      } catch {
+        throw new Error('Stockage du navigateur indisponible : décisions non enregistrées.');
+      }
+    },
     async creerEnfant(e) {
       const id = `demo-${Date.now()}`;
       const code_type = ['cp', 'ce1', 'ce2', 'cm1', 'cm2'].includes(e.classe) ? 'pictos' : 'chiffres';

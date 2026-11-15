@@ -64,11 +64,13 @@ export function Parent() {
   const [suivis, setSuivis] = useState<SuiviEnfant[]>([]);
   const [packs, setPacks] = useState<Partial<Record<Classe, Pack>>>({});
   const [version, setVersion] = useState(0);
+  const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
     if (!ouvert) return;
     void (async () => {
       try {
+        setAdmin(await api.estAdmin().catch(() => false));
         const s = await api.suiviParent();
         setSuivis(s);
         const classes = [...new Set(s.map((x) => x.enfant.classe))];
@@ -118,6 +120,15 @@ export function Parent() {
         </form>
       ) : (
         <>
+        {admin && (
+          <Link to="/admin" className="hp-skill notion">
+            <span className="hp-skill__main">
+              <span className="hp-skill__name">Administration</span>
+              <span className="hp-skill__where">Relecture des notions, leçons et questions</span>
+            </span>
+            <Icone nom="eclair" />
+          </Link>
+        )}
         {suivis.map((s) => <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />)}
         <form className="formulaire hp-card" onSubmit={(e) => {
           e.preventDefault();
