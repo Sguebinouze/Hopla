@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C4-5E-LANG-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-LANG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « flat » en anglais britannique ?",
+      "options": [
+        "un appartement",
+        "une ferme",
+        "un plat"
+      ],
+      "reponse": "un appartement",
+      "indice": "Aux États-Unis, on dit « apartment ».",
+      "explication": "« Flat » veut dire appartement au Royaume-Uni.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « biscuit » aux États-Unis ?",
+      "options": [
+        "cookie",
+        "biscuit",
+        "cake"
+      ],
+      "reponse": "cookie",
+      "indice": "Pense aux pépites de chocolat.",
+      "explication": "Les Américains disent « cookie ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle fête américaine est évoquée ?",
+      "options": [
+        "Thanksgiving.",
+        "Noël.",
+        "Halloween."
+      ],
+      "reponse": "Thanksgiving.",
+      "indice": "On mange de la dinde.",
+      "explication": "À Thanksgiving, les familles américaines partagent un repas.",
+      "ecoute": {
+        "texte": "At Thanksgiving, we eat turkey with my family.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel jour fête-t-on Thanksgiving aux États-Unis ?",
+      "options": [
+        "le quatrième jeudi de novembre",
+        "le 25 décembre",
+        "le 4 juillet"
+      ],
+      "reponse": "le quatrième jeudi de novembre",
+      "indice": "C’est en automne.",
+      "explication": "Thanksgiving tombe le quatrième jeudi de novembre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « ascenseur » en anglais américain ?",
+      "options": [
+        "elevator",
+        "lift",
+        "stairs"
+      ],
+      "reponse": "elevator",
+      "indice": "Les Britanniques disent « lift ».",
+      "explication": "« Elevator » est le mot américain ; « lift » le mot britannique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fête-t-on le 4 juillet aux États-Unis ?",
+      "options": [
+        "L’indépendance.",
+        "La fin de l’hiver.",
+        "La rentrée."
+      ],
+      "reponse": "L’indépendance.",
+      "indice": "« Independence » ressemble au français.",
+      "explication": "Le 4 juillet est la fête de l’Indépendance.",
+      "ecoute": {
+        "texte": "On the fourth of July, Americans celebrate Independence Day.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que commémore Juneteenth aux États-Unis ?",
+      "options": [
+        "la fin de l’esclavage",
+        "la découverte de l’Amérique",
+        "la fin de la guerre froide"
+      ],
+      "reponse": "la fin de l’esclavage",
+      "indice": "C’est le 19 juin.",
+      "explication": "Juneteenth, le 19 juin, commémore la fin de l’esclavage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-LANG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi l’anglais est-il parlé sur tous les continents ?",
+      "options": [
+        "à cause de l’histoire, des migrations et de l’ancien empire britannique",
+        "parce que c’est la langue la plus ancienne",
+        "parce qu’il n’a pas de grammaire"
+      ],
+      "reponse": "à cause de l’histoire, des migrations et de l’ancien empire britannique",
+      "indice": "Pense à l’Inde, l’Australie, le Canada.",
+      "explication": "L’histoire coloniale et les migrations ont diffusé l’anglais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

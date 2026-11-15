@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C4-5E-INTER-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-INTER-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dis-tu que tu es d’accord ?",
+      "options": [
+        "Good idea!",
+        "No way!",
+        "I disagree."
+      ],
+      "reponse": "Good idea!",
+      "indice": "« Good idea » veut dire bonne idée.",
+      "explication": "On exprime l’accord avec « Good idea! ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « No way! » ?",
+      "options": [
+        "Pas question !",
+        "Pas de problème !",
+        "Bien sûr !"
+      ],
+      "reponse": "Pas question !",
+      "indice": "C’est un refus fort.",
+      "explication": "« No way! » exprime un désaccord fort.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande l’élève ?",
+      "options": [
+        "S’il peut ouvrir la fenêtre.",
+        "S’il peut sortir.",
+        "S’il peut manger."
+      ],
+      "reponse": "S’il peut ouvrir la fenêtre.",
+      "indice": "« Window » veut dire fenêtre.",
+      "explication": "« Can I open the window? » demande une autorisation.",
+      "ecoute": {
+        "texte": "Can I open the window?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’est-ce qui est interdit au musée ?",
+      "options": [
+        "Manger.",
+        "Regarder.",
+        "Parler doucement."
+      ],
+      "reponse": "Manger.",
+      "indice": "« Cannot » exprime l’interdiction.",
+      "explication": "« You cannot eat in the museum » : on ne peut pas manger.",
+      "ecoute": {
+        "texte": "You cannot eat in the museum.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Tu n’as pas compris. Que demandes-tu ?",
+      "options": [
+        "Can you repeat, please?",
+        "Can I go out?",
+        "Good idea!"
+      ],
+      "reponse": "Can you repeat, please?",
+      "indice": "Tu veux entendre à nouveau.",
+      "explication": "On demande de répéter : « Can you repeat, please? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande l’élève ?",
+      "options": [
+        "D’expliquer un mot.",
+        "De fermer la porte.",
+        "De parler plus fort."
+      ],
+      "reponse": "D’expliquer un mot.",
+      "indice": "« Explain » veut dire expliquer.",
+      "explication": "« Can you explain that word? » : peux-tu expliquer ce mot ?",
+      "ecoute": {
+        "texte": "Can you explain that word?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que conseille le guide ?",
+      "options": [
+        "Faire attention.",
+        "Courir.",
+        "Crier."
+      ],
+      "reponse": "Faire attention.",
+      "indice": "« Careful » veut dire prudent.",
+      "explication": "« Be careful » veut dire fais attention.",
+      "ecoute": {
+        "texte": "Be careful! The floor is wet.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-INTER-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu poliment que tu n’es pas d’accord ?",
+      "options": [
+        "I’m not sure I agree.",
+        "You are stupid.",
+        "Shut up!"
+      ],
+      "reponse": "I’m not sure I agree.",
+      "indice": "Reste respectueux.",
+      "explication": "« I’m not sure I agree » exprime un désaccord poli.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

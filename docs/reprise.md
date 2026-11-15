@@ -60,7 +60,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - Anglais CE2 (fait) : `LV-C2-2020`, notions réservées au CE2 par les repères de progressivité (présenter quelqu’un, questions, date, politesse et excuses, épeler) et thèmes du cycle non traités en CE1 (famille et maison, météo, fêtes). 9 notions, 72 questions dont 61 avec écoute, 9 leçons.
 - Anglais CM1 (fait) : `LV-C3-2026` (BO n° 12 de 2026, objectifs du CM1). 9 notions, 72 questions dont 58 avec écoute, 9 leçons.
 - Anglais CM2 (fait) : `LV-C3-2020` (BO n° 31 de 2020, cycle 3 sans répartition annuelle). Thèmes choisis pour ne pas doublonner la 6e (2025) : annonces, invitations, achats, réagir, vêtements, ville, développement durable, contes et légendes, passé et futur. 9 notions, 72 questions dont 52 avec écoute, 9 leçons.
-- À suivre : anglais 5e (`LV-C4-2025`) ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027.
+- Anglais 5e (fait) : `LV-C4-2025` (BO n° 22 de 2025, classe de cinquième) : axes culturels 2 à 6 (dont le Royaume-Uni, obligatoire) et actes langagiers (raconter au passé, projets, gouts, accord et aide). 9 notions, 72 questions dont 36 avec écoute, 9 leçons.
+- Zone « autres matières » terminée pour 2026-2027. Reste possible : l’anglais de 4e et de 3e, dont le programme 2025 ne s’applique qu’en 2027-2028 et 2028-2029 (aucun programme de langue vivante n’est listé pour ces classes en 2026-2027).
 
 ## Travail à deux sessions
 

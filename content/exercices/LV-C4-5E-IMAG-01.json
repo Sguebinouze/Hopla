@@ -1,0 +1,156 @@
+{
+  "competence": "LV-C4-5E-IMAG-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-IMAG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel détective vit au 221B Baker Street ?",
+      "options": [
+        "Sherlock Holmes",
+        "Hercule Poirot",
+        "Tom Sawyer"
+      ],
+      "reponse": "Sherlock Holmes",
+      "indice": "Il a un ami nommé Watson.",
+      "explication": "Sherlock Holmes habite au 221B Baker Street.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui a créé Sherlock Holmes ?",
+      "options": [
+        "Arthur Conan Doyle.",
+        "Mark Twain.",
+        "Roald Dahl."
+      ],
+      "reponse": "Arthur Conan Doyle.",
+      "indice": "Écoute le nom de l’auteur.",
+      "explication": "Arthur Conan Doyle a créé Sherlock Holmes.",
+      "ecoute": {
+        "texte": "Arthur Conan Doyle created Sherlock Holmes.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « imaginary » ?",
+      "options": [
+        "imaginaire",
+        "réel",
+        "ancien"
+      ],
+      "reponse": "imaginaire",
+      "indice": "C’est un mot transparent.",
+      "explication": "« Imaginary » veut dire imaginaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Le personnage est-il réel ou imaginaire ?",
+      "options": [
+        "Imaginaire.",
+        "Réel."
+      ],
+      "reponse": "Imaginaire.",
+      "indice": "Un dragon n’existe pas.",
+      "explication": "Le dragon est une créature imaginaire.",
+      "ecoute": {
+        "texte": "The dragon lives in a magic castle.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est Watson ?",
+      "options": [
+        "L’ami et l’assistant de Holmes.",
+        "Le frère de Holmes.",
+        "Un voleur."
+      ],
+      "reponse": "L’ami et l’assistant de Holmes.",
+      "indice": "« Partner » veut dire partenaire.",
+      "explication": "Le docteur Watson aide Holmes à résoudre les enquêtes.",
+      "ecoute": {
+        "texte": "Doctor Watson is Holmes’s partner.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel écrivain américain a raconté les aventures de Tom Sawyer ?",
+      "options": [
+        "Mark Twain",
+        "Charles Dickens",
+        "Arthur Conan Doyle"
+      ],
+      "reponse": "Mark Twain",
+      "indice": "Il a navigué sur le Mississippi.",
+      "explication": "Mark Twain est l’auteur des aventures de Tom Sawyer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que font Holmes et Watson ensemble ?",
+      "options": [
+        "Ils résolvent des crimes.",
+        "Ils écrivent des chansons.",
+        "Ils construisent des ponts."
+      ],
+      "reponse": "Ils résolvent des crimes.",
+      "indice": "« Solve » veut dire résoudre.",
+      "explication": "« They solved crimes together » : ils résolvaient des crimes.",
+      "ecoute": {
+        "texte": "They solved crimes together.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-IMAG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi dit-on que l’imaginaire s’inspire du réel ?",
+      "options": [
+        "les auteurs placent souvent leurs héros dans des lieux qui existent",
+        "les histoires sont toujours vraies",
+        "le réel copie les livres"
+      ],
+      "reponse": "les auteurs placent souvent leurs héros dans des lieux qui existent",
+      "indice": "Baker Street existe vraiment à Londres.",
+      "explication": "Les fictions empruntent souvent des lieux et des faits réels.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

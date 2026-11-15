@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C4-5E-GOUT-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-GOUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I enjoy » ?",
+      "options": [
+        "j’apprécie, j’aime",
+        "je déteste",
+        "je voudrais"
+      ],
+      "reponse": "j’apprécie, j’aime",
+      "indice": "C’est positif.",
+      "explication": "« I enjoy » veut dire j’apprécie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I dislike » ?",
+      "options": [
+        "je n’aime pas",
+        "j’adore",
+        "je préfère"
+      ],
+      "reponse": "je n’aime pas",
+      "indice": "Le préfixe « dis- » marque le contraire.",
+      "explication": "« I dislike » veut dire je n’aime pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’aime-t-il faire au club ?",
+      "options": [
+        "Jouer aux échecs.",
+        "Jouer au foot.",
+        "Chanter."
+      ],
+      "reponse": "Jouer aux échecs.",
+      "indice": "« Chess » veut dire échecs.",
+      "explication": "« I enjoy playing chess » : j’aime jouer aux échecs.",
+      "ecoute": {
+        "texte": "I enjoy playing chess in the school club.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Après « enjoy », le verbe se termine par…",
+      "options": [
+        "-ing",
+        "-ed",
+        "-s"
+      ],
+      "reponse": "-ing",
+      "indice": "Pense à « I enjoy playing ».",
+      "explication": "Après enjoy, love, like, on utilise souvent le verbe en -ing.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que pense-t-elle du gâteau ?",
+      "options": [
+        "Il est délicieux.",
+        "Il est horrible.",
+        "Il est trop sucré."
+      ],
+      "reponse": "Il est délicieux.",
+      "indice": "« Delicious » ressemble au français.",
+      "explication": "« It’s delicious » : c’est délicieux.",
+      "ecoute": {
+        "texte": "Mmm, this cake is delicious!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I am fond of autumn » ?",
+      "options": [
+        "J’aime beaucoup l’automne.",
+        "Je n’aime pas l’automne.",
+        "J’ai peur de l’automne."
+      ],
+      "reponse": "J’aime beaucoup l’automne.",
+      "indice": "« Be fond of » exprime l’affection.",
+      "explication": "« I am fond of » veut dire j’aime beaucoup.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que préfère-t-il ?",
+      "options": [
+        "Le basket au foot.",
+        "Le foot au basket.",
+        "Il n’aime aucun des deux."
+      ],
+      "reponse": "Le basket au foot.",
+      "indice": "« Prefer… to… » : préférer… à…",
+      "explication": "Il préfère le basket au football.",
+      "ecoute": {
+        "texte": "I like football, but I prefer basketball.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GOUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment exprimes-tu ton enthousiasme pour une histoire ?",
+      "options": [
+        "What a wonderful story!",
+        "What story wonderful?",
+        "A story wonderful is."
+      ],
+      "reponse": "What a wonderful story!",
+      "indice": "On commence par « What a ».",
+      "explication": "L’exclamation « What a… ! » exprime l’enthousiasme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

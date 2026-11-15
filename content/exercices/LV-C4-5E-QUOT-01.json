@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C4-5E-QUOT-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-QUOT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "L’automne.",
+        "L’été.",
+        "Le printemps."
+      ],
+      "reponse": "L’automne.",
+      "indice": "Les feuilles tombent.",
+      "explication": "« Autumn » veut dire automne.",
+      "ecoute": {
+        "texte": "Autumn.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Le petit-déjeuner.",
+        "Le déjeuner.",
+        "Le diner."
+      ],
+      "reponse": "Le petit-déjeuner.",
+      "indice": "C’est le premier repas.",
+      "explication": "« Breakfast » veut dire petit-déjeuner.",
+      "ecoute": {
+        "texte": "Breakfast.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle saison préfère-t-elle ?",
+      "options": [
+        "L’été.",
+        "L’hiver.",
+        "L’automne."
+      ],
+      "reponse": "L’été.",
+      "indice": "« Summer » veut dire été.",
+      "explication": "« My favourite season is summer » : ma saison préférée est l’été.",
+      "ecoute": {
+        "texte": "My favourite season is summer.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment va-t-il au collège ?",
+      "options": [
+        "En bus à impériale.",
+        "En métro.",
+        "À pied."
+      ],
+      "reponse": "En bus à impériale.",
+      "indice": "« Double-decker » : bus à deux étages.",
+      "explication": "Il prend un bus à deux étages.",
+      "ecoute": {
+        "texte": "I go to school by double-decker bus.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que mange-t-on au petit-déjeuner anglais ?",
+      "options": [
+        "Des œufs, du bacon et des haricots.",
+        "Des croissants.",
+        "Du riz et du poisson cru."
+      ],
+      "reponse": "Des œufs, du bacon et des haricots.",
+      "indice": "« Beans » veut dire haricots.",
+      "explication": "Le petit-déjeuner anglais traditionnel est copieux.",
+      "ecoute": {
+        "texte": "A full English breakfast: eggs, bacon, sausages and beans.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot américain correspond à l’anglais britannique « autumn » ?",
+      "options": [
+        "fall",
+        "spring",
+        "winter"
+      ],
+      "reponse": "fall",
+      "indice": "Les feuilles tombent.",
+      "explication": "Aux États-Unis, on dit « fall » pour l’automne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi part-on en vacances en aout ?",
+      "options": [
+        "C’est l’été et il n’y a pas école.",
+        "Il neige.",
+        "C’est Noël."
+      ],
+      "reponse": "C’est l’été et il n’y a pas école.",
+      "indice": "« Holidays » veut dire vacances.",
+      "explication": "En aout, ce sont les vacances d’été.",
+      "ecoute": {
+        "texte": "In August, there is no school. It’s the summer holidays!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-QUOT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « en hiver, il fait froid et il neige » ?",
+      "options": [
+        "In winter, it’s cold and it snows.",
+        "On winter, it cold and snow.",
+        "At winter, is cold, snowing."
+      ],
+      "reponse": "In winter, it’s cold and it snows.",
+      "indice": "On dit « in » devant une saison.",
+      "explication": "On dit « In winter, it’s cold and it snows ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

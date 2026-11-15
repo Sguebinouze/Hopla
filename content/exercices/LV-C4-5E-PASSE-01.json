@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C4-5E-PASSE-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-PASSE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le prétérit de « visit » ?",
+      "options": [
+        "visited",
+        "visiting",
+        "visits"
+      ],
+      "reponse": "visited",
+      "indice": "Verbe régulier : on ajoute -ed.",
+      "explication": "Le prétérit régulier se forme avec -ed : visited.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le prétérit de « be » avec « I » ?",
+      "options": [
+        "was",
+        "were",
+        "been"
+      ],
+      "reponse": "was",
+      "indice": "Avec I, he, she, it.",
+      "explication": "On dit « I was ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quand ont-ils visité le musée ?",
+      "options": [
+        "Hier.",
+        "Demain.",
+        "La semaine prochaine."
+      ],
+      "reponse": "Hier.",
+      "indice": "« Yesterday » veut dire hier.",
+      "explication": "« Yesterday » situe l’action dans le passé.",
+      "ecoute": {
+        "texte": "Yesterday, we visited the museum.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le prétérit de « go » ?",
+      "options": [
+        "went",
+        "goed",
+        "gone"
+      ],
+      "reponse": "went",
+      "indice": "C’est un verbe irrégulier.",
+      "explication": "Le prétérit de « go » est « went ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où est-il allé le weekend dernier ?",
+      "options": [
+        "À Brighton.",
+        "À Londres.",
+        "À Oxford."
+      ],
+      "reponse": "À Brighton.",
+      "indice": "« Went » est le passé de « go ».",
+      "explication": "Il est allé à Brighton.",
+      "ecoute": {
+        "texte": "Last weekend, I went to Brighton.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « nous étions fatigués » ?",
+      "options": [
+        "We were tired.",
+        "We was tired.",
+        "We are tired."
+      ],
+      "reponse": "We were tired.",
+      "indice": "Avec we, you, they : were.",
+      "explication": "On dit « We were tired ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’a-t-elle vu ?",
+      "options": [
+        "Un spectacle au Globe.",
+        "Un match de football.",
+        "Un film au cinéma."
+      ],
+      "reponse": "Un spectacle au Globe.",
+      "indice": "« Play » veut dire pièce de théâtre.",
+      "explication": "Elle est allée voir une pièce au Globe Theatre.",
+      "ecoute": {
+        "texte": "We went to see a play at the Globe Theatre.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-PASSE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment met-on « I didn’t like the film » à la forme affirmative ?",
+      "options": [
+        "I liked the film.",
+        "I like the film.",
+        "I did liked the film."
+      ],
+      "reponse": "I liked the film.",
+      "indice": "À l’affirmatif, on ajoute -ed.",
+      "explication": "La forme affirmative est « I liked the film ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

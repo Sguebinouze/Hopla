@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C4-5E-ECOLE-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-ECOLE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Les mathématiques.",
+        "L’histoire.",
+        "La musique."
+      ],
+      "reponse": "Les mathématiques.",
+      "indice": "On y calcule.",
+      "explication": "« Maths » veut dire mathématiques.",
+      "ecoute": {
+        "texte": "Maths.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "L’uniforme.",
+        "Le cartable.",
+        "La cantine."
+      ],
+      "reponse": "L’uniforme.",
+      "indice": "Beaucoup d’élèves britanniques le portent.",
+      "explication": "« Uniform » veut dire uniforme.",
+      "ecoute": {
+        "texte": "Uniform.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle est sa matière préférée ?",
+      "options": [
+        "Les sciences.",
+        "L’anglais.",
+        "Le sport."
+      ],
+      "reponse": "Les sciences.",
+      "indice": "« Science » ressemble au français.",
+      "explication": "« My favourite subject is science » : ma matière préférée est les sciences.",
+      "ecoute": {
+        "texte": "My favourite subject is science.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « PE » à l’école ?",
+      "options": [
+        "l’éducation physique et sportive",
+        "le français",
+        "la récréation"
+      ],
+      "reponse": "l’éducation physique et sportive",
+      "indice": "Physical Education.",
+      "explication": "« PE » signifie physical education, le sport.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quand a lieu le club de théâtre ?",
+      "options": [
+        "Le mardi après les cours.",
+        "Le lundi matin.",
+        "Le samedi soir."
+      ],
+      "reponse": "Le mardi après les cours.",
+      "indice": "« After school » veut dire après les cours.",
+      "explication": "Le club de théâtre a lieu le mardi après les cours.",
+      "ecoute": {
+        "texte": "The drama club is on Tuesday after school.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait-on pendant « break » ?",
+      "options": [
+        "On fait une pause.",
+        "On passe un examen.",
+        "On rentre chez soi."
+      ],
+      "reponse": "On fait une pause.",
+      "indice": "« Break » veut dire pause.",
+      "explication": "« Break » est la récréation.",
+      "ecoute": {
+        "texte": "At break, we play in the playground.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi aime-t-il son club ?",
+      "options": [
+        "Il y joue avec ses amis.",
+        "Il est obligé d’y aller.",
+        "Il y dort."
+      ],
+      "reponse": "Il y joue avec ses amis.",
+      "indice": "« Friends » veut dire amis.",
+      "explication": "Il aime le club parce qu’il y retrouve ses amis.",
+      "ecoute": {
+        "texte": "I love the football club because I play with my friends.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-ECOLE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qu’est-ce qu’un « yearbook » dans une école américaine ?",
+      "options": [
+        "un livre souvenir de l’année avec les photos des élèves",
+        "un agenda vide",
+        "un manuel de maths"
+      ],
+      "reponse": "un livre souvenir de l’année avec les photos des élèves",
+      "indice": "« Year » veut dire année.",
+      "explication": "Le yearbook rassemble photos et souvenirs de l’année.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "competence": "LV-C4-5E-FUT-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I would like » ?",
+      "options": [
+        "je voudrais",
+        "j’aime",
+        "j’ai aimé"
+      ],
+      "reponse": "je voudrais",
+      "indice": "C’est poli.",
+      "explication": "« I would like » veut dire je voudrais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que voudrait-il ?",
+      "options": [
+        "Un ours en peluche.",
+        "Un livre.",
+        "Une glace."
+      ],
+      "reponse": "Un ours en peluche.",
+      "indice": "« Teddy bear » veut dire ours en peluche.",
+      "explication": "« I would like a teddy bear » : je voudrais un ours en peluche.",
+      "ecoute": {
+        "texte": "I would like a teddy bear, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Est-ce un projet ou un souvenir ?",
+      "options": [
+        "Un projet.",
+        "Un souvenir."
+      ],
+      "reponse": "Un projet.",
+      "indice": "« Will » exprime le futur.",
+      "explication": "« I will visit » : je visiterai.",
+      "ecoute": {
+        "texte": "I will visit New York one day.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment ira-t-elle à son hôtel ?",
+      "options": [
+        "En métro.",
+        "En taxi.",
+        "À pied."
+      ],
+      "reponse": "En métro.",
+      "indice": "« The Tube » est le métro de Londres.",
+      "explication": "Elle prendra le métro.",
+      "ecoute": {
+        "texte": "She will take the Tube to her hotel.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la forme contractée de « I will » ?",
+      "options": [
+        "I’ll",
+        "I’d",
+        "I’m"
+      ],
+      "reponse": "I’ll",
+      "indice": "Pense à « I’ll go ».",
+      "explication": "« I will » se contracte en « I’ll ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quand partira-t-il à Bristol ?",
+      "options": [
+        "Le mois prochain.",
+        "Hier.",
+        "La semaine dernière."
+      ],
+      "reponse": "Le mois prochain.",
+      "indice": "« Next month » veut dire le mois prochain.",
+      "explication": "« Next month » situe le projet dans le futur.",
+      "ecoute": {
+        "texte": "I’ll go to Bristol next month.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « je n’irai pas à la fête » ?",
+      "options": [
+        "I won’t go to the party.",
+        "I don’t went to the party.",
+        "I will not to go party."
+      ],
+      "reponse": "I won’t go to the party.",
+      "indice": "« Won’t » est la négation de « will ».",
+      "explication": "« Won’t » = will not : I won’t go.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel est le projet de la classe ?",
+      "options": [
+        "Visiter Tower Bridge demain.",
+        "Visiter Tower Bridge hier.",
+        "Rester au collège."
+      ],
+      "reponse": "Visiter Tower Bridge demain.",
+      "indice": "« Tomorrow » veut dire demain.",
+      "explication": "Demain, la classe visitera Tower Bridge.",
+      "ecoute": {
+        "texte": "Tomorrow, we will visit Tower Bridge.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
