@@ -1,0 +1,291 @@
+{
+  "programme": "MA-C4-2026",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "MA-C4-4E-REL-01",
+      "titre": "Multiplier, diviser des relatifs",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations sur les nombres relatifs",
+      "attendu": "Multiplier et diviser des nombres relatifs en appliquant la règle des signes.",
+      "exemple": "(−3) × (+4) = −12 ; (−20) ÷ (−5) = 4.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Diviser deux nombres relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-REL-02",
+      "titre": "Enchainer des calculs relatifs",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations sur les nombres relatifs",
+      "attendu": "Calculer un enchainement d’opérations avec des nombres relatifs en respectant les priorités.",
+      "exemple": "(−2) + (+3) × (−4) = −2 + (−12) = −14.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Savoir calculer un enchainement d’opérations avec des nombres relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-01",
+      "titre": "Simplifier une fraction",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres rationnels",
+      "attendu": "Simplifier une fraction jusqu’à la forme irréductible.",
+      "exemple": "18/24 = 3/4 en divisant par 6.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Simplifier une fraction."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-02",
+      "titre": "Multiplier des fractions",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres rationnels",
+      "attendu": "Multiplier des fractions et prendre une fraction d’un nombre.",
+      "exemple": "2/3 × 9/4 = 18/12 = 3/2.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Calculer le produit de nombres rationnels."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-03",
+      "titre": "Inverse, diviser des fractions",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres rationnels",
+      "attendu": "Déterminer l’inverse d’un nombre ou d’une fraction et diviser des fractions.",
+      "exemple": "3/4 ÷ 1/2 = 3/4 × 2 = 3/2.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Diviser des fractions."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PUIS-01",
+      "titre": "Puissances",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Calculer une puissance d’exposant entier naturel ; multiplier des puissances d’un même nombre ou de même exposant.",
+      "exemple": "2³ × 2⁴ = 2⁷ ; 2⁵ × 5⁵ = 10⁵.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Multiplier des puissances d’exposant entier naturel d’un même nombre entre elles."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-RAC-01",
+      "titre": "Racine carrée",
+      "domaine": "Nombres et calculs",
+      "theme": "Racine carrée",
+      "attendu": "Connaitre la racine carrée d’un carré parfait et encadrer une racine carrée par deux entiers consécutifs.",
+      "exemple": "√49 = 7 ; 8 < √70 < 9.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Encadrer la racine carrée d’un entier par deux nombres entiers consécutifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-LIT-01",
+      "titre": "Développer et factoriser",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Développer et factoriser avec la distributivité simple, y compris avec des nombres relatifs.",
+      "exemple": "−3(2x − 5) = −6x + 15 ; 4x² + 7x = x(4x + 7).",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-EQ-01",
+      "titre": "Équations ax + b = c",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Résoudre des équations du premier degré ax + b = c et ax + b = cx + d.",
+      "exemple": "3x + 5 = 20, donc 3x = 15 et x = 5.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Résoudre une équation du premier degré du type a𝑥 + b = c."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PYTH-01",
+      "titre": "Théorème de Pythagore",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Calculer une longueur avec le théorème de Pythagore ; utiliser sa réciproque et sa contraposée.",
+      "exemple": "Rectangle en A, AB = 3 et AC = 4 : BC² = 9 + 16 = 25, BC = 5.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 47,
+        "extrait": "Connaitre le théorème de Pythagore, sa réciproque, sa contraposée."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-MIL-01",
+      "titre": "Droite des milieux",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Utiliser les théorèmes de la droite des milieux pour calculer une longueur ou justifier un parallélisme.",
+      "exemple": "I et J milieux de [AB] et [AC] : IJ = BC ÷ 2 et (IJ) // (BC).",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 47,
+        "extrait": "Connaitre les trois théorèmes relatifs à la droite des milieux dans un triangle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-VOL-01",
+      "titre": "Volume pyramide et cône",
+      "domaine": "Espace et géométrie",
+      "theme": "Représentation de l’espace",
+      "attendu": "Calculer le volume d’une pyramide et d’un cône de révolution.",
+      "exemple": "Pyramide de base 30 cm² et de hauteur 6 cm : 30 × 6 ÷ 3 = 60 cm³.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 47,
+        "extrait": "Connaitre le volume de la pyramide et du cône de révolution."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-TRANS-01",
+      "titre": "Translations",
+      "domaine": "Espace et géométrie",
+      "theme": "Parallélogrammes et translations",
+      "attendu": "Comprendre l’effet d’une translation, ses conservations et son lien avec le parallélogramme.",
+      "exemple": "La translation qui transforme A en B transforme C en D : ABDC est un parallélogramme.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 47,
+        "extrait": "Connaitre et utiliser les propriétés de conservations des translations."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-CERC-01",
+      "titre": "Triangle rectangle et cercle",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Caractériser un triangle rectangle par son cercle circonscrit, dont l’hypoténuse est un diamètre.",
+      "exemple": "ABC rectangle en A et BC = 10 cm : le rayon du cercle circonscrit est 5 cm.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Déterminer le centre du cercle circonscrit d’un triangle rectangle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-STAT-01",
+      "titre": "Médiane, étendue, moyenne",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Statistiques",
+      "attendu": "Déterminer la médiane et l’étendue d’une petite série ; calculer une moyenne pondérée.",
+      "exemple": "4 ; 7 ; 9 ; 12 ; 15 : médiane 9, étendue 11.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 50,
+        "extrait": "Déterminer une médiane et l’interpréter dans le cas d’une série de petit effectif présentée sous forme de données brutes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PROBA-01",
+      "titre": "Contraire, deux épreuves",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Probabilités",
+      "attendu": "Calculer la probabilité d’un évènement et de son contraire, y compris pour une expérience à deux épreuves.",
+      "exemple": "Deux pièces : obtenir deux piles a une probabilité de 1/4.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 50,
+        "extrait": "Calculer la probabilité d’un évènement et de l’évènement contraire."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PROP-01",
+      "titre": "Quatrième proportionnelle",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Déterminer une quatrième proportionnelle et partager une quantité dans un rapport donné.",
+      "exemple": "3 kg coutent 7,50 € : 5 kg coutent 7,50 × 5 ÷ 3 = 12,50 €.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Déterminer une quatrième proportionnelle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PCT-01",
+      "titre": "Coefficient multiplicateur",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Traduire une hausse ou une baisse en pourcentage par un coefficient multiplicateur et l’appliquer.",
+      "exemple": "Baisse de 20 % : on multiplie par 0,8.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Définir le coefficient multiplicateur."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FONC-01",
+      "titre": "Programmes de calcul",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Appliquer un programme de calcul, le remonter et l’écrire avec une lettre.",
+      "exemple": "Ajouter 3 puis multiplier par 2 : 2(x + 3) = 2x + 6.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Savoir retrouver le nombre de départ après avoir remonté un programme de calcul simple."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

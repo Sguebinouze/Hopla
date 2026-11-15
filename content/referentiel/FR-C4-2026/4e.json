@@ -1,0 +1,201 @@
+{
+  "programme": "FR-C4-2026",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "FR-C4-4E-GRAM-01",
+      "titre": "Relatif ou conjonction",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Distinguer pronoms relatifs et conjonctions de subordination.",
+      "exemple": "« Le livre que je lis » : relatif. « Je sais que tu viens » : conjonction.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier et nommer les conjonctions de subordination et pronoms relatifs, sans chercher l’exhaustivité."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-02",
+      "titre": "Fonctions des subordonnées",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier la fonction d’une subordonnée relative, complétive ou circonstancielle.",
+      "exemple": "« Je crois que tu as raison » : la complétive est COD.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier les fonctions des propositions subordonnées conjonctives et relatives."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-03",
+      "titre": "Opposition, condition, apposition",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier les compléments circonstanciels d’opposition et de condition, et la fonction apposition.",
+      "exemple": "« Malgré la pluie » : CC d’opposition. « Paris, capitale de la France » : apposition.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier les fonctions de complément circonstanciel d’opposition, de condition et la fonction apposition."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-04",
+      "titre": "Interrogative indirecte",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier et former une subordonnée interrogative indirecte, totale ou partielle.",
+      "exemple": "« Viens-tu ? » devient « Je te demande si tu viens. »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Identifier la proposition subordonnée interrogative indirecte dans le cadre d’une interrogation totale ou partielle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-01",
+      "titre": "Temps composés",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Identifier plus-que-parfait, passé antérieur, futur antérieur et conditionnel passé.",
+      "exemple": "« Il aurait chanté » : conditionnel passé.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier la morphologie du plus-que-parfait, du passé antérieur, du futur antérieur et du conditionnel dans un texte, en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-02",
+      "titre": "Voix passive",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Identifier la voix passive et transformer une phrase active en phrase passive au même temps.",
+      "exemple": "« Le vent pousse les nuages » devient « Les nuages sont poussés par le vent ».",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Comprendre la construction de la voix passive."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-03",
+      "titre": "Le subjonctif présent",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Conjuguer et employer le subjonctif présent après les tournures qui l’imposent.",
+      "exemple": "Il faut que tu viennes. Bien qu’il soit tard.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier les valeurs du mode subjonctif."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-01",
+      "titre": "Participes passés",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Écrire les participes passés en -é, -i, -u et ceux terminés par une consonne muette.",
+      "exemple": "Pris (prise), dit (dite), ouvert (ouverte).",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Mémoriser les particularités orthographiques des participes passés en -é, -i, -u ainsi que les formes avec une consonne finale"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-02",
+      "titre": "Accord avec qui, plusieurs sujets",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder le verbe avec un pronom relatif sujet et avec un sujet de plusieurs personnes.",
+      "exemple": "C’est moi qui fais. Toi et lui dansez.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Comprendre, mémoriser et maitriser l’accord du verbe avec le sujet dans des cas complexes (sujet comportant plusieurs"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-03",
+      "titre": "Verbes pronominaux",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Découvrir l’accord du participe passé des verbes pronominaux.",
+      "exemple": "Elles se sont lavées. Elles se sont lavé les mains.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Découvrir l’accord du participe passé des verbes pronominaux."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-01",
+      "titre": "Homophones des conjonctions",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Écrire avec justesse (orthographe)",
+      "attendu": "Distinguer les conjonctions de coordination de leurs homophones (mais, mes, met ; ou, où ; et, est…).",
+      "exemple": "Il voulait venir, mais il était malade. Range mes affaires.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Construire des réflexes orthographiques : les conjonctions et leurs homophones."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-02",
+      "titre": "Polysémie",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Réemployer son lexique et jouer avec les mots",
+      "attendu": "Analyser en contexte le sens d’un mot polysémique.",
+      "exemple": "« La souris de l’ordinateur » : un appareil, pas un rongeur.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Analyser en contexte le sens des mots : polysémie et synonymie, antonymie et homonymie, dénotation et connotation."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-03",
+      "titre": "Degrés d’intensité",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Identifier les types de relations entre les mots",
+      "attendu": "Classer des mots par degré d’intensité.",
+      "exemple": "Tiède < chaud < brûlant.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Maitriser le classement par degré d’intensité et de généralité, et les utiliser à l’écrit et à l’oral."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}
