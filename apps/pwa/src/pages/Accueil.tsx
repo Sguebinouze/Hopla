@@ -5,7 +5,8 @@ import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
-import { chargerPack, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { bilan, etat, type Suivi } from '../lib/progression';
 
 const XP_PAR_NIVEAU = 200;
 const COULEUR_MATIERE: Record<string, string> = {
@@ -20,6 +21,7 @@ export function Accueil() {
   const [pack, setPack] = useState<Pack | null>(null);
   const [erreur, setErreur] = useState('');
   const [voixAuto, setVoixAuto] = useState<boolean | null>(null);
+  const [suivi, setSuivi] = useState<Record<string, Suivi>>({});
 
   useEffect(() => {
     void (async () => {
@@ -30,6 +32,8 @@ export function Accueil() {
         const p = await chargerPack(e.classe);
         setPack(p);
         setVoixAuto(lectureAuto(p.cycle));
+        // Sans réseau, l'accueil reste utilisable : la progression s'affiche à 0.
+        setSuivi(await api.progression().catch(() => ({})));
       } catch (err) {
         setErreur((err as Error).message || 'Erreur de chargement.');
       }
@@ -52,7 +56,7 @@ export function Accueil() {
   }
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
-  const mission = pack ? missionDuJour(pack) : [];
+  const mission = pack ? missionDuJour(pack, suivi) : [];
 
   return (
     <main className="ecran">
@@ -85,6 +89,7 @@ export function Accueil() {
             className={`hp-mission__item${i === 0 ? ' hp-mission__item--current' : ''}`}>
             <span className="hp-check" />
             <span className="pousse">{NOMS_MATIERES[c.matiere]} · {c.titre}</span>
+            {etat(suivi[c.id]) === 'a-revoir' && <span className="hp-chip hp-chip--attention">À revoir</span>}
           </Link>
         ))}
         {mission[0] && (
@@ -96,14 +101,22 @@ export function Accueil() {
         <>
           <h2 className="titre-2">Mes matières</h2>
           <div className="grille-matieres">
-            {pack.matieres.filter((m) => m.competences.length > 0).map((m) => (
-              <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
-                <span className="hp-subject__icon"><Icone nom="eclair" /></span>
-                <span className="hp-subject__name">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>
-                <span className="hp-subject__meta">{m.competences.length} notion{m.competences.length > 1 ? 's' : ''}</span>
-                <div className="hp-progress hp-progress--sm"><span style={{ width: '0%' }} /></div>
-              </Link>
-            ))}
+            {pack.matieres.filter((m) => m.competences.length > 0).map((m) => {
+              const b = bilan(competencesJouables({ ...pack, matieres: [m] }).map((c) => c.id), suivi);
+              return (
+                <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
+                  <span className="hp-subject__icon"><Icone nom="eclair" /></span>
+                  <span className="hp-subject__name">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>
+                  <span className="hp-subject__meta">
+                    {b.total > 0 ? `${b.acquises} / ${b.total} acquise${b.acquises > 1 ? 's' : ''}` : `${m.competences.length} notion${m.competences.length > 1 ? 's' : ''}`}
+                  </span>
+                  <div className="hp-progress hp-progress--sm" role="progressbar" aria-label="Notions acquises"
+                    aria-valuenow={b.acquises} aria-valuemin={0} aria-valuemax={b.total}>
+                    <span style={{ width: `${b.part * 100}%` }} />
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </>
       )}

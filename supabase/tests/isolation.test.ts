@@ -114,6 +114,30 @@ describe('sessions et isolation', () => {
     expect(await en({ parent: PARENT_B, enfant: sessionLea }, `select id from public.resultats`)).toEqual([]);
   });
 
+  it('réponse et erreur typique : visibles par l’enfant et son parent, pas par un autre parent', async () => {
+    const ins = `insert into public.resultats (enfant_id, competence_id, contenu_id, annee_scolaire, reussi, reponse, erreur)
+                 values ($1, 'MA-C2-CE2-FRAC-02', 'somme:1:7', '2026-2027', false, '2/9', $2)`;
+    await en({ parent: PARENT_A, enfant: sessionLea }, ins, [lea, 'additionne-denominateurs']);
+    await en({ parent: PARENT_A, enfant: sessionLea }, ins, [lea, 'additionne-denominateurs']);
+    await expect(en({ parent: PARENT_A, enfant: sessionLea }, ins, [lea, 'Pas un code'])).rejects.toThrow(/check constraint/);
+    const requete = `select erreur, nb::int as nb from public.erreurs_frequentes($1)`;
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, requete, [lea])).toEqual([{ erreur: 'additionne-denominateurs', nb: 2 }]);
+    expect(await en({ parent: PARENT_A, enfant: sessionLea }, requete, [lea])).toEqual([{ erreur: 'additionne-denominateurs', nb: 2 }]);
+    expect(await en({ parent: PARENT_A }, requete, [lea])).toEqual([]);
+    expect(await en({ parent: PARENT_B }, requete, [lea])).toEqual([]);
+  });
+
+  it('révision espacée : une notion ratée revient le lendemain, une notion maitrisée de plus en plus tard', async () => {
+    const p = await une<string>({ parent: PARENT_A, enfant: sessionLea },
+      `select (prochaine_revision - current_date)::int as dans, reussites_espacees from public.progression_competences
+       where competence_id = 'MA-C2-CE2-FRAC-02'`);
+    expect(p).toMatchObject({ dans: 1, reussites_espacees: 0 });
+    const r = await db.query<{ i: number[] }>(`select array[app.intervalle(0.5, 0::smallint), app.intervalle(0.7, 3::smallint),
+      app.intervalle(0.9, 1::smallint), app.intervalle(0.9, 2::smallint), app.intervalle(0.9, 3::smallint), app.intervalle(0.9, 6::smallint)] as i`);
+    expect(r.rows[0]!.i).toEqual([1, 2, 3, 7, 14, 30]);
+    await expect(en({ parent: PARENT_A, enfant: sessionLea }, `select app.intervalle(0.9, 1::smallint)`)).rejects.toThrow(/permission denied/);
+  });
+
   it('bloque après 5 mauvais codes en 10 minutes', async () => {
     for (let i = 0; i < 4; i++) await en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '0000')`, [tom]);
     await expect(en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876')`, [tom])).resolves.toBeDefined();

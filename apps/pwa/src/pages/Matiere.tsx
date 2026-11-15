@@ -3,11 +3,13 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { api } from '../lib/donnees';
 import { chargerPack, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { CHIP_ETAT, etat, LIBELLE_ETAT, type Suivi } from '../lib/progression';
 
 export function Matiere() {
   const { matiere = '' } = useParams();
   const naviguer = useNavigate();
   const [bloc, setBloc] = useState<Pack['matieres'][number] | null>(null);
+  const [suivi, setSuivi] = useState<Record<string, Suivi>>({});
 
   useEffect(() => {
     void (async () => {
@@ -18,6 +20,7 @@ export function Matiere() {
         const m = pack.matieres.find((x) => x.matiere === matiere);
         if (!m) return naviguer('/accueil');
         setBloc(m);
+        setSuivi(await api.progression().catch(() => ({})));
       } catch {
         naviguer('/accueil');
       }
@@ -40,6 +43,7 @@ export function Matiere() {
           <h2 className="titre-3">{t}</h2>
           {bloc.competences.filter((c) => c.theme === t).map((c) => {
             const jouable = c.generateurs.length > 0 || c.exercices.length > 0;
+            const e = etat(suivi[c.id]);
             return (
               <div key={c.id} className="hp-skill notion" aria-disabled={!jouable && !c.lecon}>
                 <span className="hp-skill__main">
@@ -47,6 +51,7 @@ export function Matiere() {
                   <span className="hp-skill__where">{c.attendu}</span>
                 </span>
                 <span className="notion__actions">
+                  {e !== 'nouveau' && <span className={`hp-chip ${CHIP_ETAT[e]}`}>{LIBELLE_ETAT[e]}</span>}
                   {c.lecon && <Link to={`/lecon/${c.id}`} className="hp-chip hp-chip--neutral"><Icone nom="livre" taille={16} />Leçon</Link>}
                   {jouable && <Link to={`/exercice/${c.id}`} className="hp-chip hp-chip--primary">S’entrainer</Link>}
                   {!jouable && !c.lecon && <span className="hp-chip hp-chip--neutral">Bientôt</span>}

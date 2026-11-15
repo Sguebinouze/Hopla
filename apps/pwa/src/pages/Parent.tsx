@@ -1,16 +1,84 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
-import { api, type Classe } from '../lib/donnees';
+import { api, type Classe, type SuiviEnfant } from '../lib/donnees';
+import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { bilan, libelleErreur } from '../lib/progression';
 
 const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 
-// Première version : code parent et création des profils. Le tableau de bord viendra ensuite.
+function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undefined }) {
+  const { enfant, progression, erreurs } = suivi;
+  const titres = new Map(pack?.matieres.flatMap((m) => m.competences.map((c) => [c.id, c.titre] as const)) ?? []);
+  return (
+    <section className="hp-card suivi">
+      <div className="ligne">
+        <Avatar teinte={enfant.avatar} taille={40} />
+        <div className="pousse">
+          <h2 className="titre-2">{enfant.prenom}</h2>
+          <p className="muet">{enfant.classe.toUpperCase()} · {enfant.xp} XP · série de {enfant.serie} jour{enfant.serie > 1 ? 's' : ''}</p>
+        </div>
+      </div>
+      {pack ? pack.matieres.map((m) => {
+        const ids = competencesJouables({ ...pack, matieres: [m] }).map((c) => c.id);
+        if (ids.length === 0) return null;
+        const b = bilan(ids, progression);
+        return (
+          <div key={m.matiere} className="suivi__matiere">
+            <div className="ligne">
+              <span className="pousse">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>
+              {b.aRevoir > 0 && <span className="hp-chip hp-chip--attention">{b.aRevoir} à revoir</span>}
+              <span className="muet">{b.acquises} / {b.total}</span>
+            </div>
+            <div className="hp-progress hp-progress--sm" role="progressbar" aria-label={`Notions acquises en ${NOMS_MATIERES[m.matiere] ?? m.matiere}`}
+              aria-valuenow={b.acquises} aria-valuemin={0} aria-valuemax={b.total}>
+              <span style={{ width: `${b.part * 100}%` }} />
+            </div>
+          </div>
+        );
+      }) : <p className="muet">Programme de la classe indisponible.</p>}
+      <h3 className="titre-3">Erreurs fréquentes (30 jours)</h3>
+      {erreurs.length === 0 ? <p className="muet">Aucune erreur récurrente repérée.</p> : (
+        <ul className="suivi__erreurs">
+          {erreurs.slice(0, 5).map((e) => (
+            <li key={`${e.competence}#${e.erreur}`}>
+              <span className="pousse">
+                <strong>{libelleErreur(e.erreur)}</strong>
+                <span className="muet suivi__notion">{titres.get(e.competence) ?? e.competence}</span>
+              </span>
+              <span className="hp-chip hp-chip--neutral">{e.nb} fois</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
 export function Parent() {
   const [ouvert, setOuvert] = useState(false);
   const [code, setCode] = useState('');
   const [message, setMessage] = useState('');
   const [enfant, setEnfant] = useState({ prenom: '', avatar: 'orange', classe: 'ce2' as Classe, code: '' });
+  const [suivis, setSuivis] = useState<SuiviEnfant[]>([]);
+  const [packs, setPacks] = useState<Partial<Record<Classe, Pack>>>({});
+  const [version, setVersion] = useState(0);
+
+  useEffect(() => {
+    if (!ouvert) return;
+    void (async () => {
+      try {
+        const s = await api.suiviParent();
+        setSuivis(s);
+        const classes = [...new Set(s.map((x) => x.enfant.classe))];
+        const charges = await Promise.all(classes.map((c) => chargerPack(c).then((p) => [c, p] as const).catch(() => null)));
+        setPacks(Object.fromEntries(charges.filter((x) => x !== null)));
+      } catch (e) {
+        setMessage((e as Error).message);
+      }
+    })();
+  }, [ouvert, version]);
 
   const essayer = async (action: () => Promise<void>) => {
     setMessage('');
@@ -49,12 +117,15 @@ export function Parent() {
           {api.mode === 'demo' && <p className="bandeau-demo">Démo : le code parent est 1111.</p>}
         </form>
       ) : (
+        <>
+        {suivis.map((s) => <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />)}
         <form className="formulaire hp-card" onSubmit={(e) => {
           e.preventDefault();
           void essayer(async () => {
             await api.creerEnfant(enfant);
             setMessage(`Profil ${enfant.prenom} créé.`);
             setEnfant({ ...enfant, prenom: '', code: '' });
+            setVersion((v) => v + 1);
           });
         }}>
           <h2 className="titre-2">Ajouter un enfant</h2>
@@ -71,6 +142,7 @@ export function Parent() {
           </label>
           <button className="hp-btn hp-btn--primary">Créer le profil</button>
         </form>
+        </>
       )}
       {message && <p className="muet" role="status">{message}</p>}
     </main>

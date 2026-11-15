@@ -60,7 +60,12 @@ export function Exercice() {
     const ok = r === item.reponse;
     if (ok) setJustes((n) => n + 1);
     try {
-      await api.enregistrer({ competence: item.competence, contenu: item.id, reussi: ok, indice, dureeMs: Date.now() - debut.current });
+      await api.enregistrer({
+        competence: item.competence, contenu: item.id, reussi: ok, indice, dureeMs: Date.now() - debut.current,
+        // Seulement une option du contenu ou un nombre : jamais de texte libre de l'enfant.
+        reponse: item.gabarit === 'qcm' || /^[0-9 ,./-]{1,20}$/.test(r) ? r : undefined,
+        erreur: ok ? undefined : item.erreurs?.[r],
+      });
     } catch {
       /* hors connexion : la synchronisation différée viendra dans une prochaine étape */
     }

@@ -1,6 +1,7 @@
 import { serie, type Difficulte, type Item } from '@hopla/generateurs';
 import { anneeScolaire } from './annee';
 import type { Classe } from './donnees';
+import { aujourdhui, etat, type Suivi } from './progression';
 
 // Forme produite par @hopla/content (pnpm content:packs).
 export interface CompetencePack {
@@ -28,6 +29,7 @@ export interface CompetencePack {
     reponse: string;
     indice: string;
     explication: string;
+    erreurs?: Record<string, string>;
   }[];
 }
 
@@ -61,8 +63,21 @@ export async function chargerPack(classe: Classe): Promise<Pack> {
   return (await r.json()) as Pack;
 }
 
-/** Mission du jour : trois notions, en alternant les matières, qui changent chaque jour. */
-export function missionDuJour(pack: Pack, jour = new Date()) {
+/**
+ * Mission du jour : trois notions. D'abord deux révisions arrivées à échéance au plus
+ * (les plus anciennes), puis les matières en alternance, avec une rotation quotidienne.
+ */
+export function missionDuJour(pack: Pack, suivi: Record<string, Suivi> = {}, jour = new Date()) {
+  const date = aujourdhui(jour);
+  const revisions = competencesJouables(pack)
+    .filter((c) => etat(suivi[c.id], date) === 'a-revoir')
+    .sort((a, b) => suivi[a.id]!.prochaineRevision.localeCompare(suivi[b.id]!.prochaineRevision))
+    .slice(0, 2);
+  const pris = new Set(revisions.map((c) => c.id));
+  return [...revisions, ...rotation(pack, jour).filter((c) => !pris.has(c.id))].slice(0, 3);
+}
+
+function rotation(pack: Pack, jour: Date) {
   const numero = Math.floor(jour.getTime() / 86_400_000);
   const parMatiere = pack.matieres
     .map((m) => competencesJouables({ ...pack, matieres: [m] }))
@@ -73,7 +88,7 @@ export function missionDuJour(pack: Pack, jour = new Date()) {
     });
   const alternees: ReturnType<typeof competencesJouables> = [];
   for (let i = 0; parMatiere.some((l) => i < l.length); i++) for (const l of parMatiere) if (l[i]) alternees.push(l[i]!);
-  return alternees.slice(0, 3);
+  return alternees;
 }
 
 /** Une compétence du pack avec sa matière et le cycle de la classe. */
@@ -120,6 +135,7 @@ export function seriePour(c: CompetencePack, n: number): Item[] {
       indice: e.indice,
       explication: e.explication,
       difficulte: e.difficulte,
+      erreurs: e.erreurs,
     }));
   const graine = Math.floor(Math.random() * 1e9);
   const cle = (it: Item) => `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${(it.options ?? []).join('|')}`;
