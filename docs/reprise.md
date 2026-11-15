@@ -35,7 +35,7 @@
 
 Session VS Code (français et maths) :
 - Fait le 15 novembre 2026 : codes d'erreur (107 générateurs, 169 codes, dictionnaire `ERREURS` exporté par `@hopla/generateurs`, test `erreurs.test.ts`), compétence CE2 « tables d'addition » (MA-C2-CE2-CALC-05, générateur `tables-addition-ce2`, défi de fluence), leçons de toutes les notions de français et de maths du CP à la 3e.
-1. **Programme 2020 de 4e et de 3e**, encore en vigueur selon le calendrier : il faut d'abord archiver les « Repères annuels de progression » du cycle 4 (`eduscol-reperes-attendus`), car le BO n°31 de 2020 ne répartit pas les notions par année. Identifiants prévus : numéros 51 à 99.
+1. **Programme 2020 de 4e et de 3e**, encore en vigueur selon le calendrier : il faut d'abord archiver les « Repères annuels de progression » du cycle 4 (`bo22-2019-reperes-francais-c4` et `bo22-2019-reperes-maths-c4`, BO n°22 du 29 mai 2019), car le BO n°31 de 2020 ne répartit pas les notions par année. Identifiants prévus : numéros 51 à 99.
 2. **Codes d'erreur restants** : 92 générateurs QCM sans code (classements, comparaisons, nombres en lettres…), à qualifier quand un piège correspond à une erreur connue. Outils : `choix`, `erreursDe`, `confusionTemps`, `erreurLongueurDecimale` (`outils.ts`, `erreurs.ts`).
 
 Session cloud (app et autres matières) :

@@ -161,8 +161,8 @@
     "intitule": "Programme de français du cycle 4 (2015, version consolidée 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
     "sources": [
-      "eduscol-cycle-4",
-      "eduscol-reperes-francais-c4"
+      "eduscol-cycle-4-2020",
+      "bo22-2019-reperes-francais-c4"
     ],
     "verifie": false,
     "application": [
@@ -190,8 +190,8 @@
     "intitule": "Programme de mathématiques du cycle 4 (2015, version consolidée 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
     "sources": [
-      "eduscol-cycle-4",
-      "eduscol-reperes-attendus"
+      "eduscol-cycle-4-2020",
+      "bo22-2019-reperes-maths-c4"
     ],
     "verifie": false,
     "application": [
@@ -785,6 +785,35 @@
         "classe": "6e",
         "debut": "2025-2026",
         "fin": null
+      }
+    ]
+  },
+  {
+    "id": "LV-C4-2020",
+    "matiere": "langues-vivantes",
+    "cycle": 4,
+    "intitule": "Langues vivantes (cycle 4)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "eduscol-reperes-lv-c4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": "2027-2028"
       }
     ]
   },
