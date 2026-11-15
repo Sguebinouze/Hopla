@@ -79,6 +79,6 @@ describe('packs', () => {
       ce2(b).matieres.flatMap((m) => m.competences).reduce((n, c) => n + c.exercices.length, 0);
     expect(nb(false)).toBe(0);
     expect(nb(true)).toBe(3);
-    expect(ce2(false).matieres.map((m) => m.programme.id).sort()).toEqual(['FR-C2-2024', 'MA-C2-2024']);
+    expect(ce2(false).matieres.map((m) => m.programme.id).sort()).toEqual(['EM-C2-2024', 'FR-C2-2024', 'LV-C2-2020', 'MA-C2-2024', 'QM-C2-2020']);
   });
 });
