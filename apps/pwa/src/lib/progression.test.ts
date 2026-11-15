@@ -46,3 +46,13 @@ describe('progression (même règle que la base)', () => {
       .toEqual({ acquises: 1, aRevoir: 1, total: 4, part: 0.25 });
   });
 });
+
+describe('libellé des erreurs', () => {
+  it('prend le libellé du dictionnaire, sinon met le code en forme', async () => {
+    const { ERREURS } = await import('@hopla/generateurs');
+    const { libelleErreur } = await import('./progression');
+    const [code, libelle] = Object.entries(ERREURS)[0]!;
+    expect(libelleErreur(code)).toBe(libelle);
+    expect(libelleErreur('code-inconnu-de-test')).toBe('Code inconnu de test');
+  });
+});

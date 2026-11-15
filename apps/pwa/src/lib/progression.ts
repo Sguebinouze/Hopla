@@ -1,3 +1,5 @@
+import { ERREURS } from '@hopla/generateurs';
+
 // Suivi d'une notion. Même règle que app.apres_resultat et app.intervalle
 // (supabase/migrations/20261116000000_suivi.sql) : la démo calcule ici, Supabase en base.
 
@@ -75,8 +77,9 @@ export function bilan(ids: string[], suivi: Record<string, Suivi>, jour = aujour
   return { acquises, aRevoir, total: ids.length, part: ids.length ? acquises / ids.length : 0 };
 }
 
-/** Code d'erreur kebab-case → libellé lisible, en attendant un dictionnaire de libellés. */
+/** Code d'erreur → libellé du dictionnaire ERREURS, ou code mis en forme s'il n'y figure pas. */
 export function libelleErreur(code: string): string {
+  if (ERREURS[code]) return ERREURS[code];
   const t = code.replace(/-/g, ' ');
   return t.charAt(0).toUpperCase() + t.slice(1);
 }

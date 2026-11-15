@@ -40,7 +40,6 @@ Session VS Code (français et maths) :
 3. **Leçons de la littérature de 6e**, une fois les compétences ajoutées par la session cloud.
 
 Session cloud (app et autres matières) :
-0. Espace parent : afficher `ERREURS[code]` à la place de `libelleErreur(code)` quand le libellé existe.
 1. Littérature de 6e (4 entrées du programme) : la session cloud ajoute ces compétences dans `content/referentiel/FR-C3-2025/6e.json`, la session VS Code n'y touche pas en attendant.
 2. Anglais (CE1 puis 6e), puis autres matières des autres classes.
 3. Leçons des matières autres que français et maths ; page de relecture enrichie des leçons.
