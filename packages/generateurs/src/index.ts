@@ -16,6 +16,11 @@ import { GENERATEURS_CP } from './cp';
 import { GENERATEURS_CE2 } from './ce2';
 import { GENERATEURS_CM1 } from './cm1';
 import { GENERATEURS_CM2 } from './cm2';
+import { GENERATEURS_CE1 } from './ce1';
+import { GENERATEURS_SIXIEME } from './sixieme';
+import { GENERATEURS_CINQUIEME } from './cinquieme';
+import { GENERATEURS_QUATRIEME } from './quatrieme';
+import { GENERATEURS_TROISIEME } from './troisieme';
 import type { Difficulte, Generateur, Item } from './types';
 
 export type { Difficulte, Gabarit, Generateur, Item, Visuel } from './types';
@@ -31,6 +36,8 @@ export const GENERATEURS: Generateur[] = [
   numerationCalculCe1, proceduresCe1, problemesAdditifsCe1, problemesComparaisonCe1, problemesMultiplicatifsCe1,
   // CE1 français
   presentCe1, infinitifCe1, plurielGnCe1, accordSujetVerbeCe1, classesMotsCe1, typesPhrasesCe1,
+  // CE1 compléments
+  ...GENERATEURS_CE1,
   // CE2
   fractionsColoriees, tablesMultiplication, ...GENERATEURS_CE2,
   // CM1, CM2
@@ -41,8 +48,12 @@ export const GENERATEURS: Generateur[] = [
   conversionsLongueurs6e, perimetres6e, aires6e, durees6e, proportionnalite6e,
   // 6e français
   imperatif6e, conditionnel6e, participePasseEtre6e, fonctions6e, propositions6e, conjonctions6e, antonymes6e,
+  // 6e compléments
+  ...GENERATEURS_SIXIEME,
   // 5e
-  additionRelatifs,
+  additionRelatifs, ...GENERATEURS_CINQUIEME,
+  // 4e, 3e
+  ...GENERATEURS_QUATRIEME, ...GENERATEURS_TROISIEME,
 ];
 
 export function generateur(id: string): Generateur {
