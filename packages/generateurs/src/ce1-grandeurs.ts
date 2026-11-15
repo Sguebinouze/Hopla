@@ -1,7 +1,7 @@
 // CE1, grandeurs et mesures : longueurs, masses, monnaie, heures, durées.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 27 à 29.
 // Pas d'écriture à virgule pour les longueurs et les masses ; la virgule n'apparait qu'avec la monnaie.
-import { choix, creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, erreursDe, fr, qte, type Piege } from './outils';
 import type { Aleatoire } from './outils';
 
 const TROU = '…';
@@ -13,6 +13,17 @@ function deuxUnites(total: number, grande: string, petite: string, facteur: numb
   if (g === 0) return `${fr(p)} ${petite}`;
   return p === 0 ? `${fr(g)} ${grande}` : `${fr(g)} ${grande} ${fr(p)} ${petite}`;
 }
+
+/** Pièges d'estimation : même nombre et autre unité, ou ordre de grandeur invraisemblable. */
+const erreursEstimation = (juste: string, pieges: string[], code: string) =>
+  Object.fromEntries(pieges.map((p) => [p, p.split(' ')[0] === juste.split(' ')[0] ? 'unite-confondue' : code]));
+/** Pièges de comparaison : l'extrême opposé, et la mesure choisie en lisant le premier nombre sans convertir. */
+const erreursComparaison = (ecrites: string[], valeurs: number[], reponse: string, grand: boolean): Record<string, string> => {
+  const lu = (t: string) => Number(t.split(' ')[0]!.replace(/\s/g, ''));
+  const naif = ecrites.reduce((p, q) => ((grand ? lu(q) > lu(p) : lu(q) < lu(p)) ? q : p));
+  const oppose = ecrites[valeurs.indexOf(grand ? Math.min(...valeurs) : Math.max(...valeurs))]!;
+  return erreursDe(ecrites, reponse, [[naif, 'unites-non-converties'], [oppose, 'plus-grand-plus-petit-confondus']]);
+};
 
 /** Options d'un QCM « la plus grande / la plus petite » : valeurs toutes différentes. */
 function choisirMesures(a: Aleatoire, base: number, ecarts: number[], n = 4): number[] {
@@ -52,6 +63,7 @@ export const longueursCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien mesure ${objet}, à peu près ?`,
         options: a.melanger([juste, p1, p2]),
+        erreurs: erreursEstimation(juste, [p1, p2], 'estimation-longueur'),
         reponse: juste,
         indice: '1 cm, c’est la largeur d’un doigt. 1 m, c’est un grand pas.',
         explication: `${objet[0]!.toUpperCase()}${objet.slice(1)} mesure environ ${juste}.`,
@@ -99,6 +111,7 @@ export const longueursCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quelle longueur est la plus ${grand ? 'grande' : 'petite'} ?`,
       options: a.melanger(ecrites),
+      erreurs: erreursComparaison(ecrites, valeurs, reponse, grand),
       reponse,
       indice: 'Écris toutes les longueurs en centimètres.',
       explication: reponse === `${cible} cm`
@@ -134,6 +147,7 @@ export const massesCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien pèse ${objet}, à peu près ?`,
         options: a.melanger([juste, p1, p2]),
+        erreurs: erreursEstimation(juste, [p1, p2], 'estimation-masse'),
         reponse: juste,
         indice: 'Un paquet de sucre pèse 1 kg. Un sachet de levure pèse 10 g.',
         explication: `${objet[0]!.toUpperCase()}${objet.slice(1)} pèse environ ${juste}.`,
@@ -173,6 +187,7 @@ export const massesCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quelle masse est la plus ${lourd ? 'lourde' : 'légère'} ?`,
       options: a.melanger(ecrites),
+      erreurs: erreursComparaison(ecrites, valeurs, reponse, lourd),
       reponse,
       indice: 'Écris toutes les masses en grammes.',
       explication: reponse === `${fr(cible)} g`
@@ -278,7 +293,7 @@ export const heuresCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Il est ${qte(h, 'heure')} ${moment(h)}. Qu’affiche l’horloge digitale ?`,
-        options: options(a, reponse, [`${h} h`, `${h + 10} h`, `${(h + 13) % 24} h`], () => `${a.entier(13, 23)} h`),
+        ...choix(a, reponse, [[`${h} h`, 'apres-midi-sans-12'], [`${h + 10} h`], [`${(h + 13) % 24} h`]], () => `${a.entier(13, 23)} h`),
         reponse,
         indice: 'Après midi, on ajoute 12 heures.',
         explication: `Après midi, on compte à partir de 12. ${h} + 12 = ${h + 12}. L’horloge affiche ${reponse}.`,
@@ -293,7 +308,7 @@ export const heuresCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `La petite aiguille est entre le ${h} et le ${h + 1}. La grande aiguille est sur le ${grande}. Quelle heure est-il ?`,
-        options: options(a, reponse, [hm(h + 1, m), hm(h, grande), hm(grande, h * 5 % 60)], () => hm(h, (m + 15) % 60)),
+        ...choix(a, reponse, [[hm(h + 1, m), 'heure-suivante'], [hm(h, grande), 'minutes-lues-sur-cadran'], [hm(grande, h * 5 % 60), 'aiguilles-inversees']], () => hm(h, (m + 15) % 60)),
         reponse,
         indice: 'La grande aiguille sur le 3 : 15 minutes. Sur le 6 : 30 minutes.',
         explication: `La petite aiguille donne ${qte(h, 'heure')}. La grande aiguille sur le ${grande}, c’est ${m} minutes. Il est ${reponse}.`,
@@ -305,7 +320,7 @@ export const heuresCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Il est ${dit} ${moment(h)}. Qu’affiche l’horloge digitale ?`,
-      options: options(a, reponse, [hm(h, m), hm(h + 12, m === 15 ? 25 : m === 30 ? 50 : 15), hm(m === 45 ? h + 13 : h + 12, m === 45 ? 15 : (m + 15) % 60)], () => hm(h + 12, (m + 30) % 60)),
+      ...choix(a, reponse, [[hm(h, m), 'apres-midi-sans-12'], [hm(h + 12, m === 15 ? 25 : m === 30 ? 50 : 15), 'quart-heure-mal-compte'], [hm(m === 45 ? h + 13 : h + 12, m === 45 ? 15 : (m + 15) % 60), 'quart-heure-mal-compte']] as Piege[], () => hm(h + 12, (m + 30) % 60)),
       reponse,
       indice: 'Un quart d’heure, c’est 15 minutes. Une demi-heure, c’est 30 minutes.',
       explication: m === 45

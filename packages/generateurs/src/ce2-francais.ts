@@ -2,7 +2,10 @@
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024), p. 18-19 et 22.
 import { formes } from './ce2-conjugaison';
 import { confusionTemps } from './erreurs';
-import { choix, creerGenerateur, erreursDe, options } from './outils';
+import { choix, creerGenerateur, erreursDe } from './outils';
+
+/** La même étiquette pour toutes les options fausses. */
+const tous = (opts: readonly string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
 
 const majuscule = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
 
@@ -236,7 +239,7 @@ export const classesMotsCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Dans « ${phrase} », quel mot est un adverbe ?`,
-        options: options(a, cible.mot, a.melanger(autres).slice(0, 3), () => a.choisir(autres)),
+        ...choix(a, cible.mot, a.melanger(autres).slice(0, 3).map((m): [string, string] => [m, 'classe-grammaticale-confondue']), () => a.choisir(autres)),
         reponse: cible.mot,
         indice: 'L’adverbe ne change jamais. Il précise souvent le verbe.',
         explication: `« ${cible.mot} » est un adverbe. Il ne varie pas.`,
@@ -249,7 +252,8 @@ export const classesMotsCe2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la classe du mot « ${cible.mot} » ?`,
-      options: options(a, classe, a.melanger(CLASSES.filter((c) => c !== classe)).slice(0, 3), () => a.choisir(CLASSES)),
+      ...choix(a, classe, a.melanger(CLASSES.filter((c) => c !== classe)).slice(0, 3).map((c): [string, string] => [c,
+        (c === 'déterminant' && classe === 'pronom') || (c === 'pronom' && classe === 'déterminant') ? 'determinant-pronom-confondus' : 'classe-grammaticale-confondue']), () => a.choisir(CLASSES)),
       reponse: classe,
       indice: 'Le verbe change avec le temps. L’adverbe ne change jamais.',
       explication: `« ${cible.mot} » est un ${classe}.`,
@@ -305,6 +309,7 @@ export const groupeSujetCe2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel pronom peut remplacer « ${gn} » ?`,
         options: a.melanger(['il', 'elle', 'ils', 'elles']),
+        erreurs: tous(['il', 'elle', 'ils', 'elles'], pronom, 'pronom-genre-nombre'),
         reponse: pronom,
         indice: 'Masculin ou féminin ? Singulier ou pluriel ?',
         explication: `« ${gn} » est au ${pronom.endsWith('s') ? 'pluriel' : 'singulier'}. On le remplace par « ${pronom} ».`,
@@ -315,11 +320,12 @@ export const groupeSujetCe2 = creerGenerateur({
     const reponse = avant ? gs : majuscule(gs);
     // Piège des sujets longs : le nom sans son complément (« Le chien » pour « Le chien de mes voisins »).
     const tete = reponse.split(/ (?:de|du|des) /)[0]!;
-    const pieges = [verbe, suite, avant ? avant.replace(/,\s*$/, '') : tete !== reponse ? tete : `${reponse} ${verbe}`];
+    const pieges: [string, string][] = [[verbe, 'sujet-mal-identifie'], [suite, 'sujet-mal-identifie'],
+      avant ? [avant.replace(/,\s*$/, ''), 'sujet-mal-identifie'] : tete !== reponse ? [tete, 'sujet-incomplet'] : [`${reponse} ${verbe}`, 'sujet-mal-identifie']];
     return {
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quel est le groupe sujet ?`,
-      options: options(a, reponse, pieges, () => `${verbe} ${suite}`),
+      ...choix(a, reponse, pieges, () => `${verbe} ${suite}`),
       reponse,
       indice: d === 3 ? 'Cherche le verbe. Le groupe sujet peut être long.' : 'Cherche le verbe. Qui est-ce qui fait l’action ?',
       explication: `Le verbe est « ${verbe} ». Le groupe sujet est « ${gs} ».`,
@@ -374,11 +380,11 @@ export const formeNegativeCe2 = creerGenerateur({
     const mauvaisNe = elision ? 'ne ' : 'n’';
     const phrase = majuscule(`${debutAffirmatif}${verbe} ${suite}.`);
     const reponse = majuscule(`${debut}${ne}${verbe} pas ${suite}.`);
-    const pieges = [
-      majuscule(`${debutAffirmatif}${verbe} pas ${suite}.`),
-      majuscule(`${debut}${ne}${verbe} ${suite}.`),
-      majuscule(`${debut}ne pas ${verbe} ${suite}.`),
-      majuscule(`${debut}${mauvaisNe}${verbe} pas ${suite}.`),
+    const pieges: [string, string][] = [
+      [majuscule(`${debutAffirmatif}${verbe} pas ${suite}.`), 'negation-ne-oublie'],
+      [majuscule(`${debut}${ne}${verbe} ${suite}.`), 'negation-pas-oublie'],
+      [majuscule(`${debut}ne pas ${verbe} ${suite}.`), 'negation-mal-placee'],
+      [majuscule(`${debut}${mauvaisNe}${verbe} pas ${suite}.`), 'elision-oubliee'],
     ];
     const regle = jeElide
       ? 'On encadre le verbe avec n’ et pas. Le j’ redevient je.'
@@ -388,7 +394,7 @@ export const formeNegativeCe2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `« ${phrase} » Mets cette phrase à la forme négative.`,
-      options: options(a, reponse, a.melanger(pieges).slice(0, 3), () => pieges[0]!),
+      ...choix(a, reponse, a.melanger(pieges).slice(0, 3), () => pieges[0]![0]),
       reponse,
       indice: 'La négation a deux morceaux : ne et pas.',
       explication: `${regle} On écrit : ${reponse}`,
@@ -427,7 +433,7 @@ export const prefixesCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Que veut dire « ${mot} » ?`,
-        options: a.melanger([reponse, `très ${base}`, `un peu ${base}`, `${base} avant`]),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, reponse, 'sens-prefixe') }))(a.melanger([reponse, `très ${base}`, `un peu ${base}`, `${base} avant`])),
         reponse,
         indice: `Cherche le mot « ${base} » caché dedans.`,
         explication: `« ${majuscule(mot)} », c’est « ${base} » avec un préfixe. Ce préfixe veut dire « pas ».`,
@@ -439,7 +445,7 @@ export const prefixesCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Que veut dire « ${mot} » ?`,
-        options: a.melanger([`le contraire de ${base}`, `${base} de nouveau`, `${base} avant`, `bien ${base}`]),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, reponse, 'sens-prefixe') }))(a.melanger([`le contraire de ${base}`, `${base} de nouveau`, `${base} avant`, `bien ${base}`])),
         reponse,
         indice: 'Regarde le début du mot.',
         explication: sens === 'contraire'
@@ -455,6 +461,7 @@ export const prefixesCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel mot est le contraire de « ${base} » ?`,
       options: a.melanger([mot, ...autres]),
+      erreurs: tous(autres, mot, 'sens-prefixe'),
       reponse: mot,
       indice: `Cherche le mot « ${base} » avec un préfixe devant.`,
       explication: `« ${majuscule(mot)} », c’est « ${base} » avec un préfixe. Ce préfixe donne le sens contraire.`,
@@ -492,6 +499,7 @@ export const famillesMotsCe2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel ${classe} est de la même famille que « ${famille[donnee]} » ?`,
         options: a.melanger([reponse, famille[troisieme], autre[cherchee], autre[troisieme]]),
+        erreurs: { [famille[troisieme]]: 'classe-grammaticale-confondue', [autre[cherchee]]: 'famille-mots-confondue' },
         reponse,
         indice: 'Cherche la partie commune. Puis vérifie la classe du mot.',
         explication: `« ${famille[donnee]} » et « ${reponse} » ont une partie commune. « ${majuscule(reponse)} » est un ${classe}.`,
@@ -504,7 +512,7 @@ export const famillesMotsCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel mot est de la même famille que « ${donne} » ?`,
-        options: a.melanger([reponse, ...autres.map((f) => a.choisir(f))]),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, reponse, 'famille-mots-confondue') }))(a.melanger([reponse, ...autres.map((f) => a.choisir(f))])),
         reponse,
         indice: 'Cherche la partie commune aux deux mots.',
         explication: `« ${donne} » et « ${reponse} » ont une partie commune. Ils sont de la même famille.`,
@@ -516,6 +524,7 @@ export const famillesMotsCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel mot n’est pas de la même famille que « ${donne} » ?`,
       options: a.melanger([...restants, intrus]),
+      erreurs: tous(restants, intrus, 'famille-mots-confondue'),
       reponse: intrus,
       indice: `Cherche la partie commune avec « ${donne} ».`,
       explication: `« ${majuscule(restants[0]!)} » et « ${restants[1]} » ont une partie commune avec « ${donne} ». « ${majuscule(intrus)} » est l’intrus.`,
@@ -552,7 +561,7 @@ export const generiquesSynonymesCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel mot a presque le même sens que « ${mot} » ?`,
-        options: a.melanger([synonyme, ...autres.map((p) => a.choisir(p))]),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, synonyme, 'synonyme-mal-choisi') }))(a.melanger([synonyme, ...autres.map((p) => a.choisir(p))])),
         reponse: synonyme,
         indice: 'Remplace le mot dans une phrase. Le sens reste-t-il le même ?',
         explication: `« ${majuscule(mot)} » et « ${synonyme} » ont presque le même sens. Ce sont des synonymes.`,
@@ -565,6 +574,7 @@ export const generiquesSynonymesCe2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel mot désigne à la fois : ${mots.join(', ')} ?`,
         options: a.melanger([cat!.pluriel, ...autres.map((c) => c.pluriel)]),
+        erreurs: tous(autres.map((c) => c.pluriel), cat!.pluriel, 'generique-confondu'),
         reponse: cat!.pluriel,
         indice: 'Cherche le mot qui les regroupe tous.',
         explication: `${majuscule(mots.join(', '))} sont ${cat!.pluriel}.`,
@@ -576,6 +586,7 @@ export const generiquesSynonymesCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel mot n’est pas ${cat!.singulier} ?`,
       options: a.melanger([...mots, intrus]),
+      erreurs: tous(mots, intrus, 'generique-confondu'),
       reponse: intrus,
       indice: `Cherche les trois mots qui sont ${cat!.pluriel}.`,
       explication: `${majuscule(mots.join(', '))} sont ${cat!.pluriel}. « ${majuscule(intrus)} » est ${autres[0]!.singulier}.`,

@@ -1,6 +1,8 @@
 // CE1, nombres et fractions. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 import { enLettres } from './lettres';
-import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, qte, type Piege } from './outils';
+
+const tous = (opts: string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
 
 // ─────────── Nombres jusqu'à 1 000 : unités de numération
 
@@ -62,12 +64,13 @@ export const nombresLettresCe1 = creerGenerateur({
         explication: `${lettres} : ${c} centaine${c > 1 ? 's' : ''}, puis ${n % 100}. Le nombre est ${n}.`,
       };
     }
-    const voisins = [c * 100 + u * 10 + dz, dz * 100 + c * 10 + u, c * 100 + ((dz + 1) % 10) * 10 + u]
-      .filter((x) => x >= 100 && x <= 999 && x !== n);
+    const voisins: [number, string | undefined][] = [
+      [c * 100 + u * 10 + dz, 'dizaines-unites-inversees'], [dz * 100 + c * 10 + u, 'centaines-dizaines-inversees'], [c * 100 + ((dz + 1) % 10) * 10 + u, undefined],
+    ];
     return {
       gabarit: 'qcm',
       consigne: `Comment s’écrit ${n} en lettres ?`,
-      options: options(a, lettres, voisins.map(enLettres), () => enLettres(a.entier(100, 999))),
+      ...choix(a, lettres, voisins.filter(([x]) => x >= 100 && x <= 999 && x !== n).map(([x, code]): Piege => [enLettres(x), code]), () => enLettres(a.entier(100, 999))),
       reponse: lettres,
       indice: `Lis le nombre à voix haute : ${c} centaine${c > 1 ? 's' : ''}, puis la fin.`,
       explication: `${n} s’écrit ${lettres}. Les mots sont reliés par des traits d’union.`,
@@ -92,7 +95,7 @@ export const nombresComparerCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel nombre est compris entre ${bas} et ${haut} ?`,
-        options: options(a, String(juste), pieges.map(String), () => String(haut + a.entier(1, 50))),
+        ...choix(a, String(juste), pieges.map((x): Piege => [String(x), 'hors-encadrement']), () => String(haut + a.entier(1, 50))),
         reponse: String(juste),
         indice: `Le nombre est plus grand que ${bas}. Il est plus petit que ${haut}.`,
         explication: `${bas} < ${juste} < ${haut}. ${juste} est compris entre ${bas} et ${haut}.`,
@@ -113,6 +116,7 @@ export const nombresComparerCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel est le plus ${plusGrand ? 'grand' : 'petit'} nombre ?`,
       options: a.melanger(liste.map(String)),
+      erreurs: { [String(plusGrand ? Math.min(...liste) : Math.max(...liste))]: 'plus-grand-plus-petit-confondus' },
       reponse: String(cible),
       indice: 'Compare d’abord les centaines. Puis compare les dizaines.',
       explication: `On range les nombres : ${[...liste].sort((p, q) => p - q).join(' < ')}. Le plus ${plusGrand ? 'grand' : 'petit'} est ${cible}.`,
@@ -152,6 +156,7 @@ export const fractionsComparerCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quelle fraction est la plus ${mot} ?`,
         options: a.melanger(nums.map((n) => `${n}/${den}`)),
+        erreurs: { [`${plusGrande ? Math.min(...nums) : Math.max(...nums)}/${den}`]: 'plus-grand-plus-petit-confondus' },
         reponse: `${cible}/${den}`,
         indice: 'Les parts ont toutes la même taille. Compte les parts.',
         explication: `Le tout est partagé en ${den} parts égales. ${cible}/${den}, c’est ${nomFraction(cible, den)}. C’est le ${plusGrande ? 'plus' : 'moins'} de parts.`,
@@ -163,6 +168,8 @@ export const fractionsComparerCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quelle fraction est la plus ${mot} ?`,
       options: a.melanger(dens.map((x) => `1/${x}`)),
+      // Erreur typique : croire que 1/8 est plus grand que 1/2 parce que 8 est plus grand que 2.
+      erreurs: { [`1/${plusGrande ? Math.max(...dens) : Math.min(...dens)}`]: 'fraction-unitaire-inversee' },
       reponse: `1/${cible}`,
       indice: 'Plus on partage le tout, plus les parts sont petites.',
       explication: `Pour 1/${cible}, le tout est partagé en ${cible} parts. ${plusGrande ? 'Ce sont les parts les plus grandes.' : 'Ce sont les parts les plus petites.'} 1/${cible} est la plus ${mot}.`,
@@ -228,6 +235,7 @@ export const pariteCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel nombre pair est compris entre ${bas} et ${haut} ?`,
         options: a.melanger([pair, impairDedans, pairDehors, pairApres].map(String)),
+        erreurs: { [String(impairDedans)]: 'parite-confondue', [String(pairDehors)]: 'hors-encadrement', [String(pairApres)]: 'hors-encadrement' },
         reponse: String(pair),
         indice: 'Regarde le chiffre des unités. Puis vérifie l’encadrement.',
         explication: `${pair} finit par ${pair % 10} : il est pair. Il est compris entre ${bas} et ${haut}.`,
@@ -249,7 +257,7 @@ export const pariteCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quel nombre est ${chercherPair ? 'pair' : 'impair'} ?`,
-      options: a.melanger([cible, ...autres].map(String)),
+      ...((opts) => ({ options: opts, erreurs: tous(opts, String(cible), 'parite-confondue') }))(a.melanger([cible, ...autres].map(String))),
       reponse: String(cible),
       indice: 'Regarde seulement le chiffre des unités.',
       explication: `Un nombre pair finit par 0, 2, 4, 6 ou 8. ${cible} finit par ${cible % 10} : il est ${chercherPair ? 'pair' : 'impair'}.`,

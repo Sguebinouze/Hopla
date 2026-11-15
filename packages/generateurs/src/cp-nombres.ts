@@ -1,6 +1,6 @@
 // CP, nombres jusqu'à 100. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 import { enLettres } from './lettres';
-import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, qte, type Piege } from './outils';
 
 const TROU = '…';
 
@@ -97,15 +97,15 @@ export const nombresLettresCp = creerGenerateur({
     const lettres = enLettres(n);
     const dz = Math.floor(n / 10);
     const u = n % 10;
-    const pieges: string[] = [];
-    if (u === 1) pieges.push(lettres.replace('-et-', '-'));
-    if (n >= 11 && n <= 16) pieges.push(`dix-${enLettres(u)}`);
-    if (u > 0 && 10 * u + dz <= 50 && u !== dz) pieges.push(enLettres(10 * u + dz));
-    pieges.push(enLettres(n <= 40 ? n + 10 : n - 10));
+    const pieges: Piege[] = [];
+    if (u === 1) pieges.push([lettres.replace('-et-', '-'), 'et-oublie']);
+    if (n >= 11 && n <= 16) pieges.push([`dix-${enLettres(u)}`, 'onze-seize-dix']);
+    if (u > 0 && 10 * u + dz <= 50 && u !== dz) pieges.push([enLettres(10 * u + dz), 'dizaines-unites-inversees']);
+    pieges.push([enLettres(n <= 40 ? n + 10 : n - 10)]);
     return {
       gabarit: 'qcm',
       consigne: `Comment s’écrit ${n} en lettres ?`,
-      options: options(a, lettres, pieges, () => enLettres(a.entier(d === 1 ? 11 : 21, 50))),
+      ...choix(a, lettres, pieges, () => enLettres(a.entier(d === 1 ? 11 : 21, 50))),
       reponse: lettres,
       indice: 'Lis le nombre à voix haute. Commence par les dizaines.',
       explication: `${n} s’écrit ${lettres}. Les mots sont reliés par des traits d’union.`,
@@ -132,6 +132,7 @@ export const nombresComparerCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Complète avec <, > ou = : ${x} ${TROU} ${y}`,
         options: a.melanger(['<', '>', '=']),
+        erreurs: signe === '=' ? {} : { [signe === '<' ? '>' : '<']: 'signe-comparaison-inverse' },
         reponse: signe,
         indice: 'Compare d’abord les dizaines.',
         explication: `${x} est ${mot} ${y}. On écrit ${x} ${signe} ${y}.`,
@@ -152,6 +153,7 @@ export const nombresComparerCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est le plus ${plusGrand ? 'grand' : 'petit'} nombre ?`,
         options: a.melanger(liste.map(String)),
+        erreurs: { [String(plusGrand ? Math.min(...liste) : Math.max(...liste))]: 'plus-grand-plus-petit-confondus' },
         reponse: String(cible),
         indice: 'Compare d’abord les dizaines. Puis compare les unités.',
         explication: `On range les nombres : ${[...liste].sort((p, q) => p - q).join(' < ')}. Le plus ${plusGrand ? 'grand' : 'petit'} est ${cible}.`,
@@ -165,7 +167,7 @@ export const nombresComparerCp = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel nombre est compris entre ${bas} et ${haut} ?`,
-        options: optionsNumeriques(a, String(juste), pieges.filter((x) => x >= 0).map(String), () => String(haut + a.entier(1, 9))),
+        ...choix(a, String(juste), pieges.filter((x) => x >= 0).map((x) => [String(x), x === haut ? 'borne-incluse' : undefined] as Piege), () => String(haut + a.entier(1, 9)), { numerique: true }),
         reponse: String(juste),
         indice: `Le nombre est plus grand que ${bas}. Il est plus petit que ${haut}.`,
         explication: `${bas} < ${juste} < ${haut}. ${juste} est compris entre ${bas} et ${haut}.`,
@@ -186,7 +188,7 @@ export const nombresComparerCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Range du plus ${croissant ? 'petit au plus grand' : 'grand au plus petit'} : ${ecrire(nombres)}.`,
-      options: options(a, ecrire(tri), [ecrire([...tri].reverse()), permuter(a.entier(0, 3)), permuter(a.entier(0, 3))], () => ecrire(a.melanger(tri))),
+      ...choix(a, ecrire(tri), [[ecrire([...tri].reverse()), 'ordre-inverse'], [permuter(a.entier(0, 3)), 'rangement-voisins'], [permuter(a.entier(0, 3)), 'rangement-voisins']], () => ecrire(a.melanger(tri))),
       reponse: ecrire(tri),
       indice: croissant ? 'Cherche d’abord le plus petit nombre.' : 'Cherche d’abord le plus grand nombre.',
       explication: `${tri.join(croissant ? ' < ' : ' > ')}. On écrit : ${ecrire(tri)}.`,
@@ -251,7 +253,7 @@ export const ordinauxCp = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `La liste est : ${liste.join(', ')}. À quelle position est ${valeur} ?`,
-        options: options(a, ordinal(rang, true), autres, () => ordinal(a.entier(1, 6), true)),
+        ...choix(a, ordinal(rang, true), autres.map((o) => [o, o === ordinal(rang + 2, true) ? undefined : 'rang-decale'] as Piege), () => ordinal(a.entier(1, 6), true)),
         reponse: ordinal(rang, true),
         indice: 'Compte les nombres depuis le début de la liste.',
         explication: `${valeur} est le ${ordinal(rang)} nombre. Il est en ${ordinal(rang, true)} position.`,
@@ -282,7 +284,7 @@ export const ordinauxCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `La suite est : ${debut}${TROU} Quelle est la ${ordinal(rang, true)} lettre ?`,
-      options: options(a, lettre, motif, () => a.choisir(autres)),
+      ...choix(a, lettre, motif.map((m) => [m, 'motif-decale'] as Piege), () => a.choisir(autres)),
       reponse: lettre,
       indice: `Le motif ${motif.join('')} se répète. Continue la suite jusqu’à ${rang}.`,
       explication: `Le motif ${motif.join('')} a ${taille} lettres. Il se répète. La ${ordinal(rang, true)} lettre est ${lettre}.`,

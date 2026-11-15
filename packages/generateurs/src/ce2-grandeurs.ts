@@ -1,7 +1,7 @@
 // CE2, grandeurs et mesures : longueurs, masses, contenances, monnaie, durées.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 29-31.
 // Pas d'écriture à virgule pour les longueurs, masses et contenances, pas de tableau de conversion.
-import { choix, creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, fr, options, qte, type Piege } from './outils';
 import type { Aleatoire } from './outils';
 
 const TROU = '…';
@@ -198,13 +198,14 @@ export const dureesCe2 = creerGenerateur({
     const arrivee = a.suivant() < 0.6;
     const reponse = horaire(arrivee ? fin : debut);
     const autour = arrivee ? fin : debut;
-    const pieges = [horaire(autour + 60), horaire(autour - 60), horaire(arrivee ? fin - 2 * (duree % 60) : debut + 2 * (duree % 60))];
+    // Une heure de trop ou de moins ; minutes retirées au lieu d'ajoutées (ou l'inverse).
+    const pieges: Piege[] = [[horaire(autour + 60), 'heures-mal-comptees'], [horaire(autour - 60), 'heures-mal-comptees'], [horaire(arrivee ? fin - 2 * (duree % 60) : debut + 2 * (duree % 60)), 'sens-duree-inverse']];
     const secours = () => horaire(autour + a.choisir([-30, -20, -10, 10, 20, 30]));
     if (arrivee) {
       return {
         gabarit: 'qcm',
         consigne: `Le train part à ${horaire(debut)}. Le trajet dure ${dureeTexte}. À quelle heure arrive-t-il ?`,
-        options: options(a, reponse, pieges, secours),
+        ...choix(a, reponse, pieges, secours),
         reponse,
         indice: 'Ajoute d’abord les heures, puis les minutes.',
         explication: `${horaire(debut)} + ${dureeTexte}, c’est ${horaire(fin)}. Le train arrive à ${horaire(fin)}.`,
@@ -214,7 +215,7 @@ export const dureesCe2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `${qui} rentre à ${horaire(fin)}. Elle est sortie pendant ${dureeTexte}. À quelle heure est-elle partie ?`,
-      options: options(a, reponse, pieges, secours),
+      ...choix(a, reponse, pieges, secours),
       reponse,
       indice: 'Recule d’abord des heures, puis des minutes.',
       explication: `${horaire(fin)} − ${dureeTexte}, c’est ${horaire(debut)}. ${qui} est partie à ${horaire(debut)}.`,

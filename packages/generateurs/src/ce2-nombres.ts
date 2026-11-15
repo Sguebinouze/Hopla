@@ -1,6 +1,6 @@
 // CE2, nombres jusqu'à 10 000. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 19-20.
 import { enLettres } from './lettres';
-import { creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, fr, qte, type Piege } from './outils';
 
 // ─────────── Unités de numération : milliers, centaines, dizaines, unités
 
@@ -76,12 +76,12 @@ export const nombresLettresCe2 = creerGenerateur({
         explication: `${lettres} : ${qte(m, 'millier')}, puis ${n % 1000}. Le nombre est ${fr(n)}.`,
       };
     }
-    const voisins = [m * 1000 + dz * 100 + c * 10 + u, c * 1000 + m * 100 + dz * 10 + u, m * 100 + dz * 10 + u, n + 1000]
-      .filter((x) => x >= 1000 && x <= 9999 && x !== n);
+    const voisins = ([[m * 1000 + dz * 100 + c * 10 + u, 'centaines-dizaines-inversees'], [c * 1000 + m * 100 + dz * 10 + u, 'milliers-centaines-inverses'], [n + 1000, undefined]] as [number, string | undefined][])
+      .filter(([x]) => x >= 1000 && x <= 9999 && x !== n);
     return {
       gabarit: 'qcm',
       consigne: `Comment s’écrit ${fr(n)} en lettres ?`,
-      options: options(a, lettres, voisins.map(enLettres), () => enLettres(a.entier(1000, 9999))),
+      ...choix(a, lettres, voisins.map(([x, code]): Piege => [enLettres(x), code]), () => enLettres(a.entier(1000, 9999))),
       reponse: lettres,
       indice: `Lis d’abord les milliers : ${enLettres(m * 1000)}.`,
       explication: `${fr(n)} s’écrit ${lettres}. Mille ne prend jamais de s.`,
@@ -120,7 +120,7 @@ export const nombresComparerCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel nombre est compris entre ${fr(bas)} et ${fr(haut)} ?`,
-        options: options(a, fr(juste), pieges.map(fr), () => fr(haut + a.entier(1, 99))),
+        ...choix(a, fr(juste), pieges.map((x): Piege => [fr(x), 'hors-encadrement']), () => fr(haut + a.entier(1, 99))),
         reponse: fr(juste),
         indice: `Le nombre est plus grand que ${fr(bas)}. Il est plus petit que ${fr(haut)}.`,
         explication: `${fr(bas)} < ${fr(juste)} < ${fr(haut)}. ${fr(juste)} est compris entre les deux.`,
@@ -144,6 +144,7 @@ export const nombresComparerCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel est le plus ${plusGrand ? 'grand' : 'petit'} nombre ?`,
       options: a.melanger(liste.map(fr)),
+      erreurs: { [fr(plusGrand ? Math.min(...liste) : Math.max(...liste))]: 'plus-grand-plus-petit-confondus' },
       reponse: fr(cible),
       indice: 'Compare d’abord les milliers. Puis compare les centaines.',
       explication: `On range les nombres : ${[...liste].sort((p, q) => p - q).map(fr).join(' < ')}. Le plus ${plusGrand ? 'grand' : 'petit'} est ${fr(cible)}.`,

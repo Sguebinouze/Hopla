@@ -1,5 +1,5 @@
 // CE1, étude de la langue. Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024).
-import { choix, creerGenerateur, options } from './outils';
+import { choix, creerGenerateur } from './outils';
 
 // Verbes du premier groupe sans particularité orthographique (pas de -ger, -cer, -yer, -eler, -eter, -ier,
 // ni de e ou é dans l'avant-dernière syllabe).
@@ -196,7 +196,8 @@ export const classesMotsCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la classe du mot « ${cible.mot} » ?`,
-      options: options(a, classe, a.melanger(CLASSES.filter((c) => c !== classe)).slice(0, 3), () => a.choisir(CLASSES)),
+      ...choix(a, classe, a.melanger(CLASSES.filter((c) => c !== classe)).slice(0, 3).map((c): [string, string] => [c,
+        (c === 'déterminant' && classe === 'pronom') || (c === 'pronom' && classe === 'déterminant') ? 'determinant-pronom-confondus' : 'classe-grammaticale-confondue']), () => a.choisir(CLASSES)),
       reponse: classe,
       indice: 'Le verbe change avec le temps. Le nom suit souvent un déterminant.',
       explication: `« ${cible.mot} » est un ${classe}.`,
@@ -230,6 +231,7 @@ export const typesPhrasesCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${phrase} » Quel est le type de cette phrase ?`,
       options: a.melanger([...TYPES]),
+      erreurs: Object.fromEntries(TYPES.filter((t) => t !== type).map((t) => [t, 'type-phrase-confondu'])),
       reponse: type,
       indice: 'Donne-t-elle une information, pose-t-elle une question ou donne-t-elle un ordre ?',
       explication: `C’est une phrase ${type}. ${RAISON[type]}`,

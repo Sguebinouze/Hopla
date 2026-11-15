@@ -1,6 +1,9 @@
 // CP, lecture, vocabulaire et étude de la langue, sans audio.
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024).
-import { choix, creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, erreursDe, type Piege } from './outils';
+
+/** Codes d'erreur : la même étiquette pour toutes les options fausses. */
+const tous = (opts: string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
 
 const TROU = '…';
 
@@ -61,7 +64,7 @@ export const sonsCp = creerGenerateur({
         return {
           gabarit: 'qcm',
           consigne: `Quel mot contient le son « ${son} » écrit « ${graphie} » ?`,
-          options: a.melanger([mot, ...a.melanger(autres).slice(0, 3)]),
+          ...((opts) => ({ options: opts, erreurs: tous(opts, mot, 'graphie-confondue') }))(a.melanger([mot, ...a.melanger(autres).slice(0, 3)])),
           reponse: mot,
           indice: `Tous les mots ont le son « ${son} ». Regarde comment il s’écrit.`,
           explication: `Dans « ${mot} », le son « ${son} » s’écrit « ${graphie} ».`,
@@ -74,7 +77,7 @@ export const sonsCp = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel mot ne contient pas le son « ${son} » ?`,
-        options: a.melanger([intrus, ...trois]),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, intrus, 'son-mal-entendu') }))(a.melanger([intrus, ...trois])),
         reponse: intrus,
         indice: 'Lis chaque mot à voix basse.',
         explication: `On entend « ${son} » dans ${trois.map((m) => `« ${m} »`).join(', ')}. On ne l’entend pas dans « ${intrus} ».`,
@@ -88,7 +91,7 @@ export const sonsCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: question(libelle),
-      options: a.melanger([mot, ...a.melanger(sans(son)).slice(0, 3)]),
+      ...((opts) => ({ options: opts, erreurs: tous(opts, mot, 'son-mal-entendu') }))(a.melanger([mot, ...a.melanger(sans(son)).slice(0, 3)])),
       reponse: mot,
       indice: 'Lis chaque mot à voix basse.',
       explication: `On entend le son « ${libelle} » dans « ${mot} ».`,
@@ -119,6 +122,7 @@ export const syllabesCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien de syllabes entends-tu dans « ${mot} » ?`,
         options: ['1', '2', '3', '4'],
+        erreurs: Object.fromEntries([n - 1, n + 1].filter((k) => k >= 1 && k <= 4).map((k) => [String(k), 'syllabes-mal-comptees'])),
         reponse: String(n),
         indice: 'Frappe dans tes mains à chaque syllabe.',
         explication: `On découpe : ${decoupe.join(' - ')}. Il y a ${n} syllabes.`,
@@ -132,7 +136,7 @@ export const syllabesCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quelle est la ${premiere ? 'première' : 'dernière'} syllabe de « ${mot} » ?`,
-      options: options(a, syllabe, (premiere ? !mot.startsWith(autre) : !mot.endsWith(autre)) ? [autre] : [], () => a.choisir(pieges)),
+      ...choix(a, syllabe, (premiere ? !mot.startsWith(autre) : !mot.endsWith(autre)) ? [[autre, 'premiere-derniere-confondues']] : [], () => a.choisir(pieges)),
       reponse: syllabe,
       indice: 'Dis le mot lentement, syllabe par syllabe.',
       explication: `On découpe : ${decoupe.join(' - ')}. La ${premiere ? 'première' : 'dernière'} syllabe est « ${syllabe} ».`,
@@ -189,7 +193,7 @@ export const lettresMuettesCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Choisis le mot bien écrit : ${amorce} Pense à « ${famille} ».`,
-      options: a.melanger([mot, ...a.melanger(pieges).slice(0, 3)]),
+      ...((opts) => ({ options: opts, erreurs: tous(opts, mot, 'lettre-muette') }))(a.melanger([mot, ...a.melanger(pieges).slice(0, 3)])),
       reponse: mot,
       indice,
       explication,
@@ -388,6 +392,7 @@ export const phraseCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quelle est la bonne écriture de « ${p} » ?`,
         options: a.melanger([juste, `${p}.`, majuscule(p), `${majuscule(p)} ?`]),
+        erreurs: { [`${p}.`]: 'majuscule-oubliee', [majuscule(p)]: 'point-oublie', [`${majuscule(p)} ?`]: 'signe-final-confondu' },
         reponse: juste,
         indice: 'Une phrase commence par une majuscule. Elle finit par un point.',
         explication: `La phrase donne une information. Elle commence par une majuscule. Elle finit par un point : ${juste}`,
@@ -405,6 +410,7 @@ export const phraseCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien de phrases y a-t-il ? ${texte}`,
         options: ['1', '2', '3', '4'],
+        erreurs: Object.fromEntries([n - 1, n + 1].filter((k) => k >= 1 && k <= 4).map((k) => [String(k), 'phrases-mal-comptees'])),
         reponse: String(n),
         indice: 'Compte les majuscules au début des phrases.',
         explication: `Chaque phrase commence par une majuscule. Elle finit par un point, un point d’interrogation ou un point d’exclamation. Il y a ${n} phrases.`,
@@ -418,6 +424,7 @@ export const phraseCp = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel signe termine la phrase ? ${p} ${TROU}`,
       options: a.melanger(['.', '?', '!']),
+      erreurs: tous(['.', '?', '!'], signe, 'signe-final-confondu'),
       reponse: signe,
       indice: 'Pose-t-elle une question ? Exprime-t-elle une émotion ?',
       explication: `${raison} Elle finit par ${SIGNES[signe]} : ${p}${signe === '.' ? '' : ' '}${signe}`,
@@ -511,6 +518,7 @@ export const famillesCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel mot n’est pas de la famille de « ${mot} » ?`,
         options: a.melanger([intrus, ...autres]),
+        erreurs: tous(autres, intrus, 'famille-mots-confondue'),
         reponse: intrus,
         indice: 'Cherche le morceau de mot qui revient.',
         explication: `${liste(autres)} sont de la famille de « ${mot} ». « ${intrus} » n’en fait pas partie.`,
@@ -523,7 +531,7 @@ export const famillesCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quel mot est de la même famille que « ${mot} » ?`,
-      options: a.melanger([parent, ...a.melanger(etrangers).slice(0, 3)]),
+      ...((opts) => ({ options: opts, erreurs: erreursDe(opts, parent, opts.map((o): Piege => [o, SOSIES.includes(o) ? 'famille-mots-confondue' : undefined])) }))(a.melanger([parent, ...a.melanger(etrangers).slice(0, 3)])),
       reponse: parent,
       indice: 'Cherche le morceau de mot qui revient.',
       explication: `« ${mot} » et « ${parent} » ont un morceau commun. Ils sont de la même famille.`,

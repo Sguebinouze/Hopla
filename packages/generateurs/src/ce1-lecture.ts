@@ -255,6 +255,7 @@ export const lectureCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${t.texte} » ${question}`,
       options: a.melanger([reponse, p1, p2]),
+      erreurs: Object.fromEntries([p1, p2].map((p) => [p, d === 1 ? 'information-mal-reperee' : d === 2 ? 'reprise-pronom' : 'inference-lecture'])),
       reponse,
       indice: d === 1 ? 'Relis le texte. La réponse y est écrite.' : d === 2 ? 'Cherche le mot que le petit mot remplace.' : 'La réponse n’est pas écrite. Cherche les indices.',
       explication: d === 1

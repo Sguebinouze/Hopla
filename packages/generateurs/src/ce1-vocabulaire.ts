@@ -1,7 +1,10 @@
 // CE1, vocabulaire : termes génériques et spécifiques, contraires construits avec in- et dé-,
 // mots formés avec un suffixe ou un préfixe (chanteur, boulanger, parapluie), sens propre et sens figuré.
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024), p. 17.
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, type Piege } from './outils';
+/** La même étiquette pour toutes les options fausses. */
+const tous = (opts: readonly string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
+
 
 // ─────────── Termes génériques : du mot général au mot précis
 
@@ -41,7 +44,7 @@ export const generiquesCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel mot désigne à la fois : ${trois.join(', ')} ?`,
-        options: options(a, pluriel, a.melanger(CATEGORIES.map((c) => c[0]).filter((c) => c !== pluriel)).slice(0, 3), () => a.choisir(CATEGORIES)[0]),
+        ...choix(a, pluriel, a.melanger(CATEGORIES.map((c) => c[0]).filter((c) => c !== pluriel)).slice(0, 3).map((c): Piege => [c, 'generique-confondu']), () => a.choisir(CATEGORIES)[0]),
         reponse: pluriel,
         indice: 'Cherche le mot qui les regroupe tous.',
         explication: `${trois.join(', ').replace(/, (?=[^,]*$)/, ' et ')} sont ${pluriel}.`.replace(/^(.)/, (c) => c.toUpperCase()),
@@ -57,6 +60,7 @@ export const generiquesCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel mot n’est pas ${singulier} ?`,
         options: a.melanger([...trois, intrus]),
+        erreurs: tous(trois, intrus, 'generique-confondu'),
         reponse: intrus,
         indice: 'Trois mots vont ensemble. Cherche celui qui ne va pas.',
         explication: `${trois.join(', ').replace(/, (?=[^,]*$)/, ' et ')} : ce sont ${CATEGORIES[i]![0]}. « ${intrus} » est ${autre[1]}.`.replace(/^(.)/, (c) => c.toUpperCase()),
@@ -69,6 +73,7 @@ export const generiquesCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel mot est le plus ${precis ? 'précis' : 'général'} : ${a.melanger([...chaine]).join(', ')} ?`,
       options: a.melanger([...chaine]),
+      erreurs: tous(chaine, reponse, 'general-precis-confondus'),
       reponse,
       indice: 'Un mot général désigne beaucoup de choses. Un mot précis en désigne peu.',
       explication: `Du plus général au plus précis : ${chaine.join(', ')}. Le plus ${precis ? 'précis' : 'général'} est « ${reponse} ».`,
@@ -108,7 +113,7 @@ export const contrairesCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel est le contraire de « ${mot} » ?`,
-        options: options(a, contraire, pieges, () => `dés${mot}`),
+        ...choix(a, contraire, pieges.map((p): Piege => [p, 'prefixe-contraire']), () => `dés${mot}`),
         reponse: contraire,
         indice: verbe ? 'Ajoute un petit morceau au début du verbe.' : 'Ajoute un petit morceau au début du mot.',
         explication: `On ajoute « ${prefixe}- » devant « ${mot} ». Le contraire est « ${contraire} ».${prefixe === 'im' ? ' Devant m, b ou p, on écrit im.' : ''}`,
@@ -121,6 +126,7 @@ export const contrairesCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Que veut dire « ${contraire} » ?`,
         options: a.melanger([reponse, ...pieges]),
+        erreurs: tous(pieges, reponse, 'sens-prefixe'),
         reponse,
         indice: `Cherche le mot « ${mot} » caché dedans.`,
         explication: `« ${contraire} », c’est « ${mot} » avec le préfixe « ${prefixe}- ». Ce préfixe donne le sens contraire.`,
@@ -183,6 +189,7 @@ export const motsFormesCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `${elle ? 'Celle' : 'Celui'} qui ${action} est ${elle ? 'une' : 'un'} …`,
         options: a.melanger([reponse, elle ? masculin : feminin, verbe]),
+        erreurs: { [elle ? masculin : feminin]: 'feminin-nom', [verbe]: 'classe-grammaticale-confondue' },
         reponse,
         indice: elle ? 'Pense à « coiffeuse », « danseuse ».' : 'Pense à « coiffeur », « danseur ».',
         explication: `On forme le nom à partir du verbe « ${verbe} ». ${elle ? 'Celle' : 'Celui'} qui ${action} est ${elle ? 'une' : 'un'} ${reponse}.`,
@@ -195,6 +202,7 @@ export const motsFormesCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Comment appelle-t-on la personne qui ${action} ?`,
         options: a.melanger([metier, lieu, autre]),
+        erreurs: { [lieu]: 'metier-lieu-confondus' },
         reponse: metier,
         indice: 'Cherche un nom de métier, pas un nom de magasin.',
         explication: `La personne qui ${action} est le ${metier}.`,
@@ -206,6 +214,7 @@ export const motsFormesCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: question,
       options: a.melanger([reponse, ...pieges]),
+      erreurs: tous(pieges, reponse, 'sens-prefixe'),
       reponse,
       indice: 'Coupe le mot en deux. Chaque morceau a un sens.',
       explication: `${sens} La réponse est : ${reponse}.`,
@@ -264,6 +273,7 @@ export const expressionsCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `« ${expression[0]!.toUpperCase()}${expression.slice(1)} », cela veut dire :`,
         options: a.melanger([sens, litteral, autres[0]![1]]),
+        erreurs: { [litteral]: 'sens-propre-figure' },
         reponse: sens,
         indice: 'Les mots ne veulent pas dire ce qu’ils disent. Cherche l’image.',
         explication: `C’est une expression imagée. Elle veut dire : ${sens}.`,
@@ -283,6 +293,7 @@ export const expressionsCe1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: 'Quelle phrase est au sens propre ?',
       options: a.melanger([propre, autres[0]![4], autres[1]![4]]),
+      erreurs: tous([autres[0]![4], autres[1]![4]], propre, 'sens-propre-figure'),
       reponse: propre,
       indice: 'Au sens propre, les mots disent exactement ce qui se passe.',
       explication: `« ${propre} » : les mots ont leur sens habituel. Les deux autres phrases sont imagées.`,

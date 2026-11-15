@@ -1,6 +1,6 @@
 // CP, grandeurs et mesures, espace et géométrie, données.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
-import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, erreursDe, qte } from './outils';
 
 const PRENOMS = ['Léa', 'Anna', 'Mia', 'Paul', 'Jan', 'Aaron', 'Hugo', 'Zoé'];
 const FILLES = ['Léa', 'Anna', 'Mia', 'Zoé'];
@@ -35,6 +35,8 @@ export const longueursCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien mesure ${objet}, à peu près ?`,
         options: a.melanger([juste, ...pieges]),
+        // Même nombre, autre unité : confusion cm et m ; sinon, ordre de grandeur invraisemblable.
+        erreurs: Object.fromEntries(pieges.map((p) => [p, p.split(' ')[0] === juste.split(' ')[0] ? 'unite-confondue' : 'estimation-longueur'])),
         reponse: juste,
         indice: '1 cm, c’est la largeur d’un doigt. 1 m, c’est un grand pas.',
         explication: `${objet.charAt(0).toUpperCase()}${objet.slice(1)} mesure environ ${juste}.`,
@@ -47,10 +49,15 @@ export const longueursCp = creerGenerateur({
       const valeurs = [...cm].map((v) => ({ texte: `${v} cm`, v }));
       valeurs.push({ texte: '1 m', v: 100 });
       const cible = valeurs.reduce((p, q) => ((plusLongue ? q.v > p.v : q.v < p.v) ? q : p));
+      const opposee = valeurs.reduce((p, q) => ((plusLongue ? q.v < p.v : q.v > p.v) ? q : p));
+      // Sans conversion, « 1 m » parait la plus petite et le plus grand nombre de cm la plus grande.
+      const sansConversion = plusLongue ? valeurs.filter((x) => x.texte !== '1 m').reduce((p, q) => (q.v > p.v ? q : p)) : valeurs[3]!;
+      const opts = a.melanger(valeurs.map((x) => x.texte));
       return {
         gabarit: 'qcm',
         consigne: `Quelle longueur est la plus ${plusLongue ? 'grande' : 'petite'} ?`,
-        options: a.melanger(valeurs.map((x) => x.texte)),
+        options: opts,
+        erreurs: erreursDe(opts, cible.texte, [[sansConversion.texte, 'unites-non-converties'], [opposee.texte, 'plus-grand-plus-petit-confondus']]),
         reponse: cible.texte,
         indice: '1 m, c’est 100 cm.',
         explication: `1 m = 100 cm. On range : ${[...valeurs].sort((p, q) => p.v - q.v).map((x) => x.texte).join(' < ')}. La plus ${plusLongue ? 'grande' : 'petite'} est ${cible.texte}.`,
@@ -215,7 +222,7 @@ export const solidesCp = creerGenerateur({
         return {
           gabarit: 'qcm',
           consigne: `Combien de faces a un ${nom} ?`,
-          options: optionsNumeriques(a, '6', ['4', '8', '12'], () => String(a.entier(3, 10))),
+          ...choix(a, '6', [['8', 'faces-aretes-sommets'], ['12', 'faces-aretes-sommets'], ['4']], () => String(a.entier(3, 10)), { numerique: true }),
           reponse: '6',
           indice: 'Compte les faces : dessus, dessous, et tout autour.',
           explication: `Un ${nom} a 6 faces. Il y a le dessus et le dessous. Il y a 4 faces autour.`,
@@ -226,6 +233,7 @@ export const solidesCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quelle est la forme des faces d’un ${nom} ?`,
         options: a.melanger(['des carrés', 'des rectangles', 'des triangles', 'des disques']),
+        erreurs: { [cube ? 'des rectangles' : 'des carrés']: 'carre-rectangle-confondus' },
         reponse: forme,
         indice: cube ? 'Toutes les faces d’un cube sont pareilles.' : 'Pense à une boite à chaussures.',
         explication: `Les faces d’un ${nom} sont ${forme}.`,
@@ -237,7 +245,7 @@ export const solidesCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quelle est la forme d’${objet} ?`,
-      options: options(a, solide, a.melanger(permis.filter((s) => s !== solide)), () => a.choisir(permis), d === 1 ? 3 : 4),
+      ...choix(a, solide, a.melanger(permis.filter((s) => s !== solide)).map((s) => [s, 'solides-confondus'] as const), () => a.choisir(permis), { taille: d === 1 ? 3 : 4 }),
       reponse: solide,
       indice: 'Imagine l’objet dans ta main. Il roule ? Il a des faces plates ?',
       explication: `${objet.charAt(0).toUpperCase()}${objet.slice(1)} a la forme d’un${solide === 'boule' ? 'e' : ''} ${solide}.`,
@@ -262,6 +270,7 @@ export const figuresCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: cotes ? `Une figure a ${cotes} côtés. Comment s’appelle-t-elle ?` : 'Une figure est toute ronde. Comment s’appelle-t-elle ?',
         options: a.melanger(noms),
+        erreurs: Object.fromEntries(noms.filter((x) => x !== nom).map((x) => [x, 'figures-confondues'])),
         reponse: nom,
         indice: 'Compte les côtés de chaque figure.',
         explication: cotes ? `Une figure à ${cotes} côtés est un ${nom}.` : 'Une figure toute ronde, sans côté, est un disque.',
@@ -299,6 +308,7 @@ export const figuresCp = creerGenerateur({
       gabarit: 'qcm',
       consigne: `${description} Quelle est cette figure ?`,
       options: a.melanger(noms),
+      erreurs: Object.fromEntries(noms.filter((x) => x !== reponse).map((x) => [x, cas < 2 && x !== 'triangle' && x !== 'disque' ? 'carre-rectangle-confondus' : 'figures-confondues'])),
       reponse,
       indice: 'Compte les côtés. Puis compare leurs longueurs.',
       explication: cas === 2
@@ -336,6 +346,7 @@ export const donneesCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `${ligne} Quelle réponse est la ${plus ? 'plus' : 'moins'} choisie ?`,
         options: a.melanger(valeurs),
+        erreurs: { [valeurs[eff.indexOf(plus ? Math.min(...eff) : Math.max(...eff))]!]: 'plus-grand-plus-petit-confondus' },
         reponse: valeurs[i]!,
         indice: `Cherche le nombre le plus ${plus ? 'grand' : 'petit'}.`,
         explication: `Le nombre le plus ${plus ? 'grand' : 'petit'} est ${eff[i]}. C’est ${valeurs[i]}.`,

@@ -99,6 +99,15 @@ export const fractionsComparerCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Choisis le bon signe : ${g} … ${dr}`,
       options: ['<', '>', '='],
+      erreurs: (() => {
+        const oppose = signe === '<' ? '>' : signe === '>' ? '<' : undefined;
+        // En d3, l'erreur typique compare les numérateurs sans regarder les dénominateurs.
+        const naif = gauche[0] < droite[0] ? '<' : gauche[0] > droite[0] ? '>' : '=';
+        const e: Record<string, string> = {};
+        if (d === 3 && naif !== signe) e[naif] = 'denominateurs-ignores';
+        if (oppose && !(oppose in e)) e[oppose] = d === 2 ? 'fraction-unitaire-inversee' : 'signe-comparaison-inverse';
+        return e;
+      })(),
       reponse: signe,
       indice: d === 2 ? 'Plus on partage le tout, plus les parts sont petites.' : d === 3 ? 'Écris les deux fractions avec le même dénominateur.' : 'Compare le nombre de parts.',
       explication: `${explication} Donc ${g} ${signe} ${dr}.`,

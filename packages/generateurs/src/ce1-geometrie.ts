@@ -1,6 +1,9 @@
 // CE1, géométrie : solides usuels, figures planes, angles.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 33 et 34.
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, type Piege } from './outils';
+/** La même étiquette pour toutes les options fausses. */
+const tous = (opts: readonly string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
+
 
 // ─────────── Solides : cube, pavé, pyramide, boule, cylindre, cône
 
@@ -42,7 +45,7 @@ export const solidesCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quelle est la forme d’${objet} ?`,
-        options: options(a, reponse, a.melanger(SOLIDES.filter((s) => s !== solide)).slice(0, 3).map((s) => ARTICLE[s]), () => ARTICLE[a.choisir(SOLIDES)]),
+        ...choix(a, reponse, a.melanger(SOLIDES.filter((s) => s !== solide)).slice(0, 3).map((s): Piege => [ARTICLE[s], 'solides-confondus']), () => ARTICLE[a.choisir(SOLIDES)]),
         reponse,
         indice: 'Imagine l’objet. Roule-t-il ? A-t-il des faces plates ?',
         explication: `${objet[0]!.toUpperCase()}${objet.slice(1)} a la forme d’${reponse}.`,
@@ -55,7 +58,7 @@ export const solidesCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Combien ${/^[aeéiou]/.test(e.mot) ? 'd’' : 'de '}${e.mot} a ${p.nom} ?`,
-        options: options(a, String(n), [String(p.faces), String(p.aretes), String(p.sommets), String(n + 2)].filter((x) => x !== String(n)), () => String(a.entier(3, 14))),
+        ...choix(a, String(n), ([[String(p.faces), 'faces-aretes-sommets'], [String(p.aretes), 'faces-aretes-sommets'], [String(p.sommets), 'faces-aretes-sommets'], [String(n + 2)]] as Piege[]).filter(([x]) => x !== String(n)), () => String(a.entier(3, 14))),
         reponse: String(n),
         indice: e.aide,
         explication: `${p.nom[0]!.toUpperCase()}${p.nom.slice(1)} : ${p.faces} faces, ${p.aretes} arêtes, ${p.sommets} sommets.`,
@@ -66,7 +69,7 @@ export const solidesCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quelles sont les faces d’${p.nom} ?`,
-        options: a.melanger(POLYEDRES.map((x) => x.natureFaces).concat('6 triangles')),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, p.natureFaces, 'solides-confondus') }))(a.melanger(POLYEDRES.map((x) => x.natureFaces).concat('6 triangles'))),
         reponse: p.natureFaces,
         indice: 'Imagine le solide posé sur la table. Regarde chaque face.',
         explication: `Ses faces sont : ${p.natureFaces}.`,
@@ -75,7 +78,7 @@ export const solidesCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Un solide a ${p.natureFaces} comme faces. Quel est ce solide ?`,
-      options: a.melanger(POLYEDRES.map((x) => x.nom).concat('un cylindre')),
+      ...((opts) => ({ options: opts, erreurs: tous(opts, p.nom, 'solides-confondus') }))(a.melanger(POLYEDRES.map((x) => x.nom).concat('un cylindre'))),
       reponse: p.nom,
       indice: 'Compte les faces. Regarde leur forme.',
       explication: `${p.natureFaces[0]!.toUpperCase()}${p.natureFaces.slice(1)} : c’est ${p.nom}.`,
@@ -113,6 +116,8 @@ export const figuresCe1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `${description} Quelle est cette figure ?`,
         options: a.melanger([...FIGURES]),
+        erreurs: Object.fromEntries(FIGURES.filter((f) => f !== figure).map((f) => [f,
+          f.includes('triangle') && figure.includes('triangle') ? 'angle-droit-non-verifie' : !f.includes('triangle') && !figure.includes('triangle') ? 'carre-rectangle-confondus' : 'figures-confondues'])),
         reponse: figure,
         indice: 'Compte les côtés. Cherche les angles droits.',
         explication: `${description} C’est ${figure}.`,
@@ -168,6 +173,7 @@ export const figuresCe1 = creerGenerateur({
       return {
         gabarit: 'qcm', consigne: q,
         options: a.melanger(['un angle aigu', 'un angle droit', 'un angle obtus']),
+        erreurs: tous(['un angle aigu', 'un angle droit', 'un angle obtus'], r, 'angles-confondus'),
         reponse: r,
         indice: 'Compare l’angle avec le coin d’une feuille.',
         explication: e,
@@ -182,7 +188,7 @@ export const figuresCe1 = creerGenerateur({
     ];
     const [q, r, pieges, e] = a.choisir(cas);
     return {
-      gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), reponse: r,
+      gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), erreurs: tous(pieges, r, 'propriete-figure'), reponse: r,
       indice: 'Repense aux propriétés : côtés, angles droits, longueurs.',
       explication: e,
     };

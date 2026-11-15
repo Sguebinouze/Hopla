@@ -264,6 +264,7 @@ export const additionSoustractionCp = creerGenerateur({
         gabarit: 'qcm',
         consigne: `On sait que ${x} + ${y} = ${s}. Quelle égalité est juste ?`,
         options: a.melanger([juste, ...pieges]),
+        erreurs: { [pieges[0]!]: 'soustraction-ordre', [pieges[1]!]: 'egalite-mal-construite', [pieges[2]!]: 'addition-au-lieu-soustraction' },
         reponse: juste,
         indice: 'Dans une soustraction, on part du plus grand nombre.',
         explication: `${x} + ${y} = ${s}. Si on enlève ${y} à ${s}, il reste ${x}. Donc ${juste}.`,

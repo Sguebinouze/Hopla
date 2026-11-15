@@ -1,5 +1,5 @@
 import { creerAleatoire } from './aleatoire';
-import { optionsNumeriques } from './outils';
+import { erreursDe, optionsNumeriques } from './outils';
 import type { Difficulte, Generateur } from './types';
 
 // Dimensions d'une tablette pour chaque dénominateur.
@@ -23,7 +23,8 @@ function creerFractionsColoriees(
       const [lignes, colonnes] = GRILLES[d] ?? [1, d];
       const reponse = `${n}/${d}`;
       // Aucune fraction égale à la réponse parmi les pièges (2/4 et 1/2 seraient toutes deux justes).
-      const options = optionsNumeriques(a, reponse, [`${d - n}/${d}`, `${n}/${d - n}`, `${d}/${n}`], () => {
+      const pieges: [string, string][] = [[`${d - n}/${d}`, 'parts-non-coloriees'], [`${n}/${d - n}`, 'parts-restantes-au-denominateur'], [`${d}/${n}`, 'fraction-inversee']];
+      const options = optionsNumeriques(a, reponse, pieges.map(([p]) => p), () => {
         const dd = a.choisir(tous);
         return `${a.entier(1, dd - 1)}/${dd}`;
       });
@@ -35,6 +36,7 @@ function creerFractionsColoriees(
         consigne: 'Quelle fraction de la tablette est coloriée ?',
         visuel: { type: 'grille', lignes, colonnes, coloriees: n },
         options,
+        erreurs: erreursDe(options, reponse, pieges),
         reponse,
         indice: 'Compte tous les carrés. Puis compte les carrés coloriés.',
         explication: `La tablette a ${d} carrés en tout. ${d} est le dénominateur. ${coloriees}. ${n} est le numérateur. La réponse est ${reponse}.`,
