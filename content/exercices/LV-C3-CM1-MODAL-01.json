@@ -1,0 +1,167 @@
+{
+  "competence": "LV-C3-CM1-MODAL-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-MODAL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Cet enfant sait-il nager ?",
+      "options": [
+        "Oui.",
+        "Non."
+      ],
+      "reponse": "Oui.",
+      "indice": "« Can » veut dire savoir, pouvoir.",
+      "explication": "« I can swim » : je sais nager.",
+      "ecoute": {
+        "texte": "I can swim.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Cet enfant sait-il faire du vélo ?",
+      "options": [
+        "Non.",
+        "Oui."
+      ],
+      "reponse": "Non.",
+      "indice": "« Can’t » est la négation.",
+      "explication": "« I can’t ride a bike » : je ne sais pas faire de vélo.",
+      "ecoute": {
+        "texte": "I can’t ride a bike.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Est-ce que je peux entrer ?",
+        "Est-ce que tu sais chanter ?",
+        "Où est la porte ?"
+      ],
+      "reponse": "Est-ce que je peux entrer ?",
+      "indice": "« Come in » veut dire entrer.",
+      "explication": "« Can I come in? » demande une permission.",
+      "ecoute": {
+        "texte": "Can I come in?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que doit faire l’élève ?",
+      "options": [
+        "Se taire.",
+        "Chanter.",
+        "Sortir."
+      ],
+      "reponse": "Se taire.",
+      "indice": "« Quiet » veut dire calme, silencieux.",
+      "explication": "« You must be quiet » : tu dois te taire.",
+      "ecoute": {
+        "texte": "You must be quiet.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’est-ce qui est interdit ?",
+      "options": [
+        "Courir dans le couloir.",
+        "Lire en classe.",
+        "Manger à la cantine."
+      ],
+      "reponse": "Courir dans le couloir.",
+      "indice": "« Mustn’t » exprime une interdiction.",
+      "explication": "« You mustn’t run » : tu ne dois pas courir.",
+      "ecoute": {
+        "texte": "You mustn’t run in the corridor.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que sait faire l’oiseau ?",
+      "options": [
+        "Voler.",
+        "Nager.",
+        "Parler."
+      ],
+      "reponse": "Voler.",
+      "indice": "« Fly » veut dire voler.",
+      "explication": "« It can fly » : il sait voler.",
+      "ecoute": {
+        "texte": "A bird can fly.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demandes-tu poliment la permission de boire ?",
+      "options": [
+        "Can I have a drink, please?",
+        "I must drink.",
+        "You can’t drink."
+      ],
+      "reponse": "Can I have a drink, please?",
+      "indice": "On commence par « Can I ».",
+      "explication": "« Can I…, please? » sert à demander la permission.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-MODAL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle règle donne le professeur ?",
+      "options": [
+        "Il faut lever la main.",
+        "Il est interdit de parler anglais.",
+        "On peut crier."
+      ],
+      "reponse": "Il faut lever la main.",
+      "indice": "« Must » exprime une obligation.",
+      "explication": "« You must put your hand up » : tu dois lever la main.",
+      "ecoute": {
+        "texte": "You must put your hand up.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

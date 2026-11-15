@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C3-CM1-QUES-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-QUES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « When » ?",
+      "options": [
+        "quand",
+        "où",
+        "qui"
+      ],
+      "reponse": "quand",
+      "indice": "Pense à « When is your birthday? ».",
+      "explication": "« When » veut dire quand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Quel âge as-tu ?",
+        "Comment vas-tu ?",
+        "Où habites-tu ?"
+      ],
+      "reponse": "Quel âge as-tu ?",
+      "indice": "« Old » veut dire vieux, âgé.",
+      "explication": "« How old are you? » : quel âge as-tu ?",
+      "ecoute": {
+        "texte": "How old are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Où est ta trousse ?",
+        "De quelle couleur est ta trousse ?",
+        "À qui est la trousse ?"
+      ],
+      "reponse": "Où est ta trousse ?",
+      "indice": "« Where » veut dire où.",
+      "explication": "« Where is your pencil case? » : où est ta trousse ?",
+      "ecoute": {
+        "texte": "Where is your pencil case?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Combien de frères as-tu ?",
+        "Comment s’appelle ton frère ?",
+        "Où est ton frère ?"
+      ],
+      "reponse": "Combien de frères as-tu ?",
+      "indice": "« How many » veut dire combien.",
+      "explication": "« How many brothers have you got? » : combien de frères as-tu ?",
+      "ecoute": {
+        "texte": "How many brothers have you got?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "It’s in May.",
+        "I’m ten.",
+        "In the kitchen."
+      ],
+      "reponse": "It’s in May.",
+      "indice": "On te demande quand.",
+      "explication": "À « When is your birthday? », on répond par un mois.",
+      "ecoute": {
+        "texte": "When is your birthday?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Pourquoi es-tu triste ?",
+        "Qui est triste ?",
+        "Quand es-tu triste ?"
+      ],
+      "reponse": "Pourquoi es-tu triste ?",
+      "indice": "« Why » veut dire pourquoi.",
+      "explication": "« Why are you sad? » : pourquoi es-tu triste ?",
+      "ecoute": {
+        "texte": "Why are you sad?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "It’s blue.",
+        "It’s Monday.",
+        "It’s ten."
+      ],
+      "reponse": "It’s blue.",
+      "indice": "On te demande une couleur.",
+      "explication": "À « What colour is it? », on répond par une couleur.",
+      "ecoute": {
+        "texte": "What colour is your bike?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle question pose-t-on pour connaitre le prix ?",
+      "options": [
+        "How much is it?",
+        "How old is it?",
+        "Where is it?"
+      ],
+      "reponse": "How much is it?",
+      "indice": "« How much » sert pour le prix.",
+      "explication": "« How much is it? » : combien ça coute ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

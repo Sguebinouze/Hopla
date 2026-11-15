@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C3-CM1-ADJ-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-ADJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le contraire de « big » ?",
+      "options": [
+        "small",
+        "tall",
+        "old"
+      ],
+      "reponse": "small",
+      "indice": "« Big » veut dire grand, gros.",
+      "explication": "Le contraire de « big » est « small ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment est l’éléphant ?",
+      "options": [
+        "Grand.",
+        "Petit.",
+        "Rapide."
+      ],
+      "reponse": "Grand.",
+      "indice": "« Big » veut dire grand.",
+      "explication": "« The elephant is big » : l’éléphant est grand.",
+      "ecoute": {
+        "texte": "The elephant is big.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le contraire de « old » ?",
+      "options": [
+        "young",
+        "small",
+        "short"
+      ],
+      "reponse": "young",
+      "indice": "Pense à un bébé.",
+      "explication": "Le contraire de « old » (vieux) est « young » (jeune).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment est le guépard ?",
+      "options": [
+        "Rapide.",
+        "Lent.",
+        "Petit."
+      ],
+      "reponse": "Rapide.",
+      "indice": "« Fast » veut dire rapide.",
+      "explication": "« The cheetah is fast » : le guépard est rapide.",
+      "ecoute": {
+        "texte": "The cheetah is fast.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment est la tortue ?",
+      "options": [
+        "Lente.",
+        "Rapide.",
+        "Grande."
+      ],
+      "reponse": "Lente.",
+      "indice": "« Slow » est le contraire de « fast ».",
+      "explication": "« The tortoise is slow » : la tortue est lente.",
+      "ecoute": {
+        "texte": "The tortoise is slow.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où se place l’adjectif en anglais ?",
+      "options": [
+        "avant le nom : a red car",
+        "après le nom : a car red",
+        "n’importe où"
+      ],
+      "reponse": "avant le nom : a red car",
+      "indice": "Pense à « a big dog ».",
+      "explication": "En anglais, l’adjectif se place avant le nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « des chats noirs » ?",
+      "options": [
+        "black cats",
+        "blacks cats",
+        "cats blacks"
+      ],
+      "reponse": "black cats",
+      "indice": "L’adjectif reste invariable.",
+      "explication": "En anglais, l’adjectif ne prend jamais de s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-ADJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment est la girafe ?",
+      "options": [
+        "Grande, avec un long cou.",
+        "Petite, avec un cou court.",
+        "Grosse et lente."
+      ],
+      "reponse": "Grande, avec un long cou.",
+      "indice": "« Tall » veut dire grand, « long » veut dire long.",
+      "explication": "La girafe est grande et a un long cou.",
+      "ecoute": {
+        "texte": "The giraffe is tall. It has got a long neck.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

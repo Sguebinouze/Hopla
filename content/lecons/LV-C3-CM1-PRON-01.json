@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-PRON-01",
+  "exemple": "« This is my friend Anna. Her cat is grey. Her brother is Tom. His cat is black. »",
+  "regle": "Les pronoms : **he** (il), **she** (elle), **they** (ils). Les possessifs : **my** (mon), **your** (ton), **his** (son, à un garçon), **her** (son, à une fille).",
+  "piege": "« His » ou « her » dépend du possesseur, pas de l’objet. On dit « her dog » pour le chien d’une fille.",
+  "essai": {
+    "consigne": "Comment dis-tu « son chat », en parlant d’une fille ?",
+    "options": [
+      "her cat",
+      "his cat",
+      "my cat"
+    ],
+    "reponse": "her cat",
+    "explication": "Le chat est à une fille : on dit « her »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

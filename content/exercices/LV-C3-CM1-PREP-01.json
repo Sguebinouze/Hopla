@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C3-CM1-PREP-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-PREP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où est le chat ?",
+      "options": [
+        "Sous la table.",
+        "Sur la table.",
+        "Derrière la table."
+      ],
+      "reponse": "Sous la table.",
+      "indice": "« Under » veut dire sous.",
+      "explication": "« Under the table » : sous la table.",
+      "ecoute": {
+        "texte": "The cat is under the table.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où est le livre ?",
+      "options": [
+        "Sur le bureau.",
+        "Sous le bureau.",
+        "Dans le bureau."
+      ],
+      "reponse": "Sur le bureau.",
+      "indice": "« On » veut dire sur.",
+      "explication": "« On the desk » : sur le bureau.",
+      "ecoute": {
+        "texte": "The book is on the desk.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où est la balle ?",
+      "options": [
+        "Dans la boite.",
+        "Sur la boite.",
+        "À côté de la boite."
+      ],
+      "reponse": "Dans la boite.",
+      "indice": "« In » veut dire dans.",
+      "explication": "« In the box » : dans la boite.",
+      "ecoute": {
+        "texte": "The ball is in the box.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où est le chien ?",
+      "options": [
+        "Derrière l’arbre.",
+        "Devant l’arbre.",
+        "Dans l’arbre."
+      ],
+      "reponse": "Derrière l’arbre.",
+      "indice": "« Behind » veut dire derrière.",
+      "explication": "« Behind the tree » : derrière l’arbre.",
+      "ecoute": {
+        "texte": "The dog is behind the tree.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où est l’école ?",
+      "options": [
+        "À côté de la poste.",
+        "Loin de la poste.",
+        "Dans la poste."
+      ],
+      "reponse": "À côté de la poste.",
+      "indice": "« Next to » veut dire à côté de.",
+      "explication": "« Next to the post office » : à côté de la poste.",
+      "ecoute": {
+        "texte": "The school is next to the post office.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Tourner à gauche.",
+        "Tourner à droite.",
+        "Aller tout droit."
+      ],
+      "reponse": "Tourner à gauche.",
+      "indice": "« Left » veut dire gauche.",
+      "explication": "« Turn left » : tourne à gauche.",
+      "ecoute": {
+        "texte": "Turn left.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Mettre ton cahier dans ton sac.",
+        "Mettre ton sac sur ton cahier.",
+        "Sortir ton cahier."
+      ],
+      "reponse": "Mettre ton cahier dans ton sac.",
+      "indice": "« Put » veut dire mettre.",
+      "explication": "« Put your exercise book in your bag » : mets ton cahier dans ton sac.",
+      "ecoute": {
+        "texte": "Put your exercise book in your bag.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PREP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Où est le parc ?",
+      "options": [
+        "En face de la gare.",
+        "Derrière la gare.",
+        "Dans la gare."
+      ],
+      "reponse": "En face de la gare.",
+      "indice": "« Opposite » veut dire en face de.",
+      "explication": "« Opposite the station » : en face de la gare.",
+      "ecoute": {
+        "texte": "The park is opposite the station.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

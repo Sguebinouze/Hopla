@@ -1,0 +1,163 @@
+{
+  "competence": "LV-C3-CM1-GOUT-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-GOUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Cet enfant aime-t-il la pizza ?",
+      "options": [
+        "Oui, beaucoup.",
+        "Non, pas du tout."
+      ],
+      "reponse": "Oui, beaucoup.",
+      "indice": "« Love » veut dire adorer.",
+      "explication": "« I love pizza » : j’adore la pizza.",
+      "ecoute": {
+        "texte": "I love pizza.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Cet enfant aime-t-il les carottes ?",
+      "options": [
+        "Non, pas du tout.",
+        "Oui, beaucoup."
+      ],
+      "reponse": "Non, pas du tout.",
+      "indice": "« Hate » veut dire détester.",
+      "explication": "« I hate carrots » : je déteste les carottes.",
+      "ecoute": {
+        "texte": "I hate carrots.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « favourite » ?",
+      "options": [
+        "préféré",
+        "détesté",
+        "nouveau"
+      ],
+      "reponse": "préféré",
+      "indice": "Pense à « my favourite colour ».",
+      "explication": "« Favourite » veut dire préféré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel est son sport préféré ?",
+      "options": [
+        "Le tennis.",
+        "Le football.",
+        "La natation."
+      ],
+      "reponse": "Le tennis.",
+      "indice": "Écoute le mot après « is ».",
+      "explication": "« My favourite sport is tennis » : mon sport préféré est le tennis.",
+      "ecoute": {
+        "texte": "My favourite sport is tennis.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que pense Mia des chats ?",
+      "options": [
+        "Elle les aime.",
+        "Elle les déteste.",
+        "Elle en a peur."
+      ],
+      "reponse": "Elle les aime.",
+      "indice": "« Likes » veut dire aime.",
+      "explication": "« She likes cats » : elle aime les chats.",
+      "ecoute": {
+        "texte": "Mia likes cats.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que préfère cet enfant ?",
+      "options": [
+        "Les pommes.",
+        "Les bananes.",
+        "Il aime les deux autant."
+      ],
+      "reponse": "Les pommes.",
+      "indice": "« Prefer » veut dire préférer.",
+      "explication": "« I prefer apples » : je préfère les pommes.",
+      "ecoute": {
+        "texte": "I like bananas but I prefer apples.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’aime faire cet enfant ?",
+      "options": [
+        "Nager.",
+        "Lire.",
+        "Dessiner."
+      ],
+      "reponse": "Nager.",
+      "indice": "« Swimming » veut dire nager.",
+      "explication": "« I love swimming » : j’adore nager.",
+      "ecoute": {
+        "texte": "I love swimming!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-GOUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « il n’aime pas le lait » ?",
+      "options": [
+        "He doesn’t like milk.",
+        "He don’t like milk.",
+        "He not like milk."
+      ],
+      "reponse": "He doesn’t like milk.",
+      "indice": "Avec « he », on utilise « doesn’t ».",
+      "explication": "À la 3e personne, on dit « He doesn’t like milk ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

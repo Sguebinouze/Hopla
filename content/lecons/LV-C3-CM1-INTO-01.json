@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-INTO-01",
+  "exemple": "« It’s a dog. » « Is it a dog? » « Oh, it’s a dog! »",
+  "regle": "Dans une **affirmation**, la voix descend à la fin. Dans une **question**, elle monte souvent, et le verbe passe avant le sujet. Une **exclamation** exprime une émotion forte : surprise, peur, joie.",
+  "piege": "Une question avec « What » ou « Where » se termine souvent par une voix qui descend.",
+  "essai": {
+    "consigne": "Laquelle est une question ?",
+    "options": [
+      "Is she happy?",
+      "She is happy.",
+      "Happy she is."
+    ],
+    "reponse": "Is she happy?",
+    "explication": "Le verbe « is » passe avant le sujet."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

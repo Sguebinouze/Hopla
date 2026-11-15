@@ -1,0 +1,162 @@
+{
+  "competence": "LV-C3-CM1-PRON-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-PRON-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Parle-t-on d’un garçon ou d’une fille ?",
+      "options": [
+        "D’une fille.",
+        "D’un garçon."
+      ],
+      "reponse": "D’une fille.",
+      "indice": "« She » veut dire elle.",
+      "explication": "« She » désigne une fille.",
+      "ecoute": {
+        "texte": "She is ten.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Parle-t-on d’un garçon ou d’une fille ?",
+      "options": [
+        "D’un garçon.",
+        "D’une fille."
+      ],
+      "reponse": "D’un garçon.",
+      "indice": "« He » veut dire il.",
+      "explication": "« He » désigne un garçon.",
+      "ecoute": {
+        "texte": "He likes football.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « my » ?",
+      "options": [
+        "mon, ma, mes",
+        "ton, ta, tes",
+        "son, sa, ses"
+      ],
+      "reponse": "mon, ma, mes",
+      "indice": "Pense à « my name ».",
+      "explication": "« My » veut dire mon, ma ou mes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À qui est le vélo ?",
+      "options": [
+        "À Lucy.",
+        "À son frère.",
+        "À moi."
+      ],
+      "reponse": "À Lucy.",
+      "indice": "« Her » renvoie à une fille.",
+      "explication": "« Her bike » : le vélo de Lucy.",
+      "ecoute": {
+        "texte": "This is Lucy. Her bike is red.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À qui est le chien ?",
+      "options": [
+        "À Sam.",
+        "À sa sœur.",
+        "À toi."
+      ],
+      "reponse": "À Sam.",
+      "indice": "« His » renvoie à un garçon.",
+      "explication": "« His dog » : le chien de Sam.",
+      "ecoute": {
+        "texte": "This is Sam. His dog is small.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Combien de personnes jouent ?",
+      "options": [
+        "Plusieurs.",
+        "Une seule."
+      ],
+      "reponse": "Plusieurs.",
+      "indice": "« They » veut dire ils ou elles.",
+      "explication": "« They » désigne plusieurs personnes.",
+      "ecoute": {
+        "texte": "They play in the park.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « sa trousse » en parlant d’un garçon ?",
+      "options": [
+        "his pencil case",
+        "her pencil case",
+        "my pencil case"
+      ],
+      "reponse": "his pencil case",
+      "indice": "Le possessif dépend du possesseur.",
+      "explication": "En anglais, « his » renvoie au garçon qui possède.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-PRON-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qui le professeur appelle-t-il ?",
+      "options": [
+        "Moi.",
+        "Toi.",
+        "Eux."
+      ],
+      "reponse": "Moi.",
+      "indice": "« Me » veut dire moi.",
+      "explication": "« Give it to me » : donne-le-moi.",
+      "ecoute": {
+        "texte": "Give it to me, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

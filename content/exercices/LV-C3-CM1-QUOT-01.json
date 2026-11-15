@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C3-CM1-QUOT-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-QUOT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « in the morning » ?",
+      "options": [
+        "le matin",
+        "le soir",
+        "la nuit"
+      ],
+      "reponse": "le matin",
+      "indice": "Pense à « Good morning ».",
+      "explication": "« In the morning » veut dire le matin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que fait cet enfant ?",
+      "options": [
+        "Il se lève.",
+        "Il se couche.",
+        "Il mange."
+      ],
+      "reponse": "Il se lève.",
+      "indice": "« Get up » veut dire se lever.",
+      "explication": "« I get up » : je me lève.",
+      "ecoute": {
+        "texte": "I get up at seven.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. À quelle heure se lève-t-il ?",
+      "options": [
+        "À 7 heures.",
+        "À 8 heures.",
+        "À 6 heures."
+      ],
+      "reponse": "À 7 heures.",
+      "indice": "« Seven » veut dire sept.",
+      "explication": "« At seven » : à sept heures.",
+      "ecoute": {
+        "texte": "I get up at seven.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment va-t-il à l’école ?",
+      "options": [
+        "En bus.",
+        "À pied.",
+        "À vélo."
+      ],
+      "reponse": "En bus.",
+      "indice": "« By bus » veut dire en bus.",
+      "explication": "« I go to school by bus » : je vais à l’école en bus.",
+      "ecoute": {
+        "texte": "I go to school by bus.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait-elle le soir ?",
+      "options": [
+        "Elle lit.",
+        "Elle nage.",
+        "Elle court."
+      ],
+      "reponse": "Elle lit.",
+      "indice": "« Read » veut dire lire.",
+      "explication": "« She reads in the evening » : elle lit le soir.",
+      "ecoute": {
+        "texte": "She reads in the evening.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait-il après l’école ?",
+      "options": [
+        "Ses devoirs.",
+        "La cuisine.",
+        "Du ski."
+      ],
+      "reponse": "Ses devoirs.",
+      "indice": "« Homework » veut dire devoirs.",
+      "explication": "« I do my homework » : je fais mes devoirs.",
+      "ecoute": {
+        "texte": "After school, I do my homework.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « je me couche à 9 heures » ?",
+      "options": [
+        "I go to bed at nine.",
+        "I get up at nine.",
+        "I go to school at nine."
+      ],
+      "reponse": "I go to bed at nine.",
+      "indice": "« Bed » veut dire lit.",
+      "explication": "On dit « I go to bed at nine ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-QUOT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fait Tom le mercredi après-midi ?",
+      "options": [
+        "Il joue au football.",
+        "Il va à l’école.",
+        "Il dort."
+      ],
+      "reponse": "Il joue au football.",
+      "indice": "« Afternoon » veut dire après-midi.",
+      "explication": "« He plays football » : il joue au football.",
+      "ecoute": {
+        "texte": "On Wednesday afternoon, Tom plays football.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

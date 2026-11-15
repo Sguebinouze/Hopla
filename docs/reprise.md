@@ -58,7 +58,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - 3e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024`, EMC `EM-C4-2024` (thème « Faire vivre la démocratie »). 36 notions (17 + 5 + 4 + 6 + 4), 288 questions, 36 leçons. En SVT, génétique et évolution sont placées en 3e par usage (l’extrait décrit une progression sur le cycle) ; digestion et immunité s’appuient sur les phrases qui les réservent à la 3e.
 - Anglais CP (fait) : `LV-C2-2026` (BO n° 12 de 2026). 9 notions, 72 questions dont 65 avec écoute (`ecoute`, en-GB), 9 leçons. Le constructeur accepte désormais un 7e champ facultatif pour le texte à écouter.
 - Anglais CE2 (fait) : `LV-C2-2020`, notions réservées au CE2 par les repères de progressivité (présenter quelqu’un, questions, date, politesse et excuses, épeler) et thèmes du cycle non traités en CE1 (famille et maison, météo, fêtes). 9 notions, 72 questions dont 61 avec écoute, 9 leçons.
-- À suivre : anglais CM1 (`LV-C3-2026`), CM2 (`LV-C3-2020`), 5e (`LV-C4-2025`) ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027.
+- Anglais CM1 (fait) : `LV-C3-2026` (BO n° 12 de 2026, objectifs du CM1). 9 notions, 72 questions dont 58 avec écoute, 9 leçons.
+- À suivre : anglais CM2 (`LV-C3-2020`), 5e (`LV-C4-2025`) ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027.
 
 ## Travail à deux sessions
 

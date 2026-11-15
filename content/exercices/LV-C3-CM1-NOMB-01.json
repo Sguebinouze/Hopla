@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C3-CM1-NOMB-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-NOMB-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "20",
+        "12",
+        "2"
+      ],
+      "reponse": "20",
+      "indice": "« Twenty » se termine par « ty ».",
+      "explication": "« Twenty » veut dire vingt.",
+      "ecoute": {
+        "texte": "Twenty.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "15",
+        "50",
+        "5"
+      ],
+      "reponse": "15",
+      "indice": "« Teen » indique de 13 à 19.",
+      "explication": "« Fifteen » veut dire quinze.",
+      "ecoute": {
+        "texte": "Fifteen.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "100",
+        "10",
+        "1 000"
+      ],
+      "reponse": "100",
+      "indice": "« Hundred » veut dire cent.",
+      "explication": "« One hundred » veut dire cent.",
+      "ecoute": {
+        "texte": "One hundred.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "40",
+        "14",
+        "4"
+      ],
+      "reponse": "40",
+      "indice": "La fin en « ty » marque les dizaines.",
+      "explication": "« Forty » veut dire quarante.",
+      "ecoute": {
+        "texte": "Forty.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "73",
+        "37",
+        "63"
+      ],
+      "reponse": "73",
+      "indice": "D’abord la dizaine, puis l’unité.",
+      "explication": "« Seventy-three » veut dire soixante-treize.",
+      "ecoute": {
+        "texte": "Seventy-three.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quand est son anniversaire ?",
+      "options": [
+        "En mars.",
+        "En mai.",
+        "En avril."
+      ],
+      "reponse": "En mars.",
+      "indice": "« March » veut dire mars.",
+      "explication": "« In March » : en mars.",
+      "ecoute": {
+        "texte": "My birthday is in March.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la date ?",
+      "options": [
+        "Le 12 mars.",
+        "Le 20 mars.",
+        "Le 2 mai."
+      ],
+      "reponse": "Le 12 mars.",
+      "indice": "« Twelfth » veut dire douzième.",
+      "explication": "« The twelfth of March » : le douze mars.",
+      "ecoute": {
+        "texte": "It’s the twelfth of March.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-NOMB-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "250",
+        "215",
+        "205"
+      ],
+      "reponse": "250",
+      "indice": "« Two hundred » puis « fifty ».",
+      "explication": "« Two hundred and fifty » veut dire deux-cent-cinquante.",
+      "ecoute": {
+        "texte": "Two hundred and fifty.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

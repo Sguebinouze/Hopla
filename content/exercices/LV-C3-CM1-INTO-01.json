@@ -1,0 +1,166 @@
+{
+  "competence": "LV-C3-CM1-INTO-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-INTO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Est-ce une question ou une affirmation ?",
+      "options": [
+        "Une question.",
+        "Une affirmation."
+      ],
+      "reponse": "Une question.",
+      "indice": "La voix monte à la fin.",
+      "explication": "« Are you ready? » est une question : la voix monte.",
+      "ecoute": {
+        "texte": "Are you ready?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Est-ce une question ou une affirmation ?",
+      "options": [
+        "Une affirmation.",
+        "Une question."
+      ],
+      "reponse": "Une affirmation.",
+      "indice": "La voix descend à la fin.",
+      "explication": "« I’m ready. » est une affirmation.",
+      "ecoute": {
+        "texte": "I’m ready.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que ressent la personne ?",
+      "options": [
+        "De la surprise.",
+        "De la tristesse.",
+        "De la fatigue."
+      ],
+      "reponse": "De la surprise.",
+      "indice": "« Wow » exprime l’étonnement.",
+      "explication": "« Wow! » exprime la surprise.",
+      "ecoute": {
+        "texte": "Wow! A dragon!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Est-ce une question ou une affirmation ?",
+      "options": [
+        "Une question.",
+        "Une affirmation."
+      ],
+      "reponse": "Une question.",
+      "indice": "La phrase commence par « Is ».",
+      "explication": "« Is it your bag? » est une question.",
+      "ecoute": {
+        "texte": "Is it your bag?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que ressent la personne ?",
+      "options": [
+        "De la peur.",
+        "De la joie.",
+        "De la colère."
+      ],
+      "reponse": "De la peur.",
+      "indice": "« Help » veut dire au secours.",
+      "explication": "« Help » et le cri de la voix expriment la peur.",
+      "ecoute": {
+        "texte": "Help! A spider!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que ressent la personne ?",
+      "options": [
+        "De la joie.",
+        "De la peur.",
+        "De l’ennui."
+      ],
+      "reponse": "De la joie.",
+      "indice": "« Great » veut dire génial.",
+      "explication": "« Great » et « We won » expriment la joie.",
+      "ecoute": {
+        "texte": "Great! We won!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment transforme-t-on « You are tired. » en question ?",
+      "options": [
+        "Are you tired?",
+        "You tired are?",
+        "Tired you are?"
+      ],
+      "reponse": "Are you tired?",
+      "indice": "On place « are » au début.",
+      "explication": "Pour poser la question, on inverse : « Are you tired? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-INTO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle phrase est une question ?",
+      "options": [
+        "Can you swim?",
+        "I can swim.",
+        "Swim!"
+      ],
+      "reponse": "Can you swim?",
+      "indice": "Elle commence par « Can ».",
+      "explication": "« Can you swim? » est une question.",
+      "ecoute": {
+        "texte": "Can you swim?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
