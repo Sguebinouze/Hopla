@@ -1,0 +1,158 @@
+{
+  "competence": "FR-C3-6E-LITT-02",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-LITT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment appelle-t-on une ligne d’un poème ?",
+      "options": [
+        "un paragraphe",
+        "une strophe",
+        "un vers"
+      ],
+      "reponse": "un vers",
+      "indice": "Elle commence souvent par une majuscule.",
+      "explication": "Une ligne de poème est un vers. Un groupe de vers forme une strophe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment appelle-t-on un groupe de vers ?",
+      "options": [
+        "une réplique",
+        "un chapitre",
+        "une strophe"
+      ],
+      "reponse": "une strophe",
+      "indice": "Elle est séparée des autres par un blanc.",
+      "explication": "Une strophe est un groupe de vers séparé par un blanc.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’une rime ?",
+      "options": [
+        "le titre d’un poème",
+        "le retour du même son à la fin de deux vers",
+        "le premier mot d’un poème"
+      ],
+      "reponse": "le retour du même son à la fin de deux vers",
+      "indice": "Pense à « chat » et « rat ».",
+      "explication": "La rime est la répétition d’un même son en fin de vers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Tes yeux brillent comme des étoiles. » Quelle figure est utilisée ?",
+      "options": [
+        "une métaphore",
+        "une personnification",
+        "une comparaison"
+      ],
+      "reponse": "une comparaison",
+      "indice": "Cherche un outil de comparaison.",
+      "explication": "Le mot « comme » relie les yeux et les étoiles : c’est une comparaison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Le vent hurle dans la nuit. » Quelle figure est utilisée ?",
+      "options": [
+        "une comparaison",
+        "une rime",
+        "une personnification"
+      ],
+      "reponse": "une personnification",
+      "indice": "Le vent fait une action humaine.",
+      "explication": "Hurler est une action humaine prêtée au vent : c’est une personnification.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Ce lac est un miroir. » Quelle figure est utilisée ?",
+      "options": [
+        "une comparaison",
+        "une personnification",
+        "une métaphore"
+      ],
+      "reponse": "une métaphore",
+      "indice": "Il n’y a pas de mot comme « comme » ou « tel ».",
+      "explication": "Le lac est rapproché d’un miroir sans outil de comparaison : c’est une métaphore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de syllabes compte un alexandrin ?",
+      "options": [
+        "12",
+        "10",
+        "8"
+      ],
+      "reponse": "12",
+      "indice": "C’est le vers le plus long de la poésie classique.",
+      "explication": "L’alexandrin compte douze syllabes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel poète a écrit les « Fables », dont « Le Corbeau et le Renard » ?",
+      "options": [
+        "Victor Hugo",
+        "Jean de La Fontaine",
+        "Arthur Rimbaud"
+      ],
+      "reponse": "Jean de La Fontaine",
+      "indice": "Il vivait au temps de Louis XIV.",
+      "explication": "Jean de La Fontaine a publié ses « Fables » à partir de 1668.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LITT-02-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment appelle-t-on des rimes qui suivent le schéma AABB ?",
+      "options": [
+        "des rimes plates",
+        "des rimes embrassées",
+        "des rimes croisées"
+      ],
+      "reponse": "des rimes plates",
+      "indice": "Les rimes vont deux par deux.",
+      "explication": "AABB : rimes plates. ABAB : rimes croisées. ABBA : rimes embrassées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
