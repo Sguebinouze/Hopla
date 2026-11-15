@@ -1,0 +1,220 @@
+{
+  "programme": "MA-C2-2024",
+  "classe": "ce1",
+  "competences": [
+    {
+      "id": "MA-C2-CE1-NUM-01",
+      "titre": "Écrire les nombres jusqu’à 1 000",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Lire, écrire et décomposer les nombres jusqu’à 1 000 avec les unités de numération.",
+      "exemple": "635, c’est 6 centaines, 3 dizaines et 5 unités. Il s’écrit six-cent-trente-cinq.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 11,
+        "extrait": "L’élève sait écrire en chiffres un nombre dicté. Il sait également lire un nombre écrit en chiffres et l’écrire en lettres."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-NUM-02",
+      "titre": "Comparer les nombres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Comparer, ranger et encadrer des nombres jusqu’à 1 000.",
+      "exemple": "234 < 239 < 243. 727 est compris entre 720 et 730.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 11,
+        "extrait": "L’élève sait ordonner dans l’ordre croissant ou décroissant un ensemble pouvant aller jusqu’à cinq nombres"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-FRAC-01",
+      "titre": "Lire une fraction",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Lire, écrire et représenter une fraction d’un tout inférieure ou égale à 1.",
+      "exemple": "Une bande est partagée en 8 parts égales. 3 parts sont grisées : c’est 3/8.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 12,
+        "extrait": "Les fractions rencontrées au CE1 ont un dénominateur égal à 2, 3, 4, 5, 6, 8 ou 10."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-FRAC-02",
+      "titre": "Comparer des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Comparer des fractions de même dénominateur ou de numérateur 1.",
+      "exemple": "2/5 est plus petit que 3/5. 1/5 est plus petit que 1/3.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 13,
+        "extrait": "Comparer des fractions ayant le même dénominateur."
+      },
+      "prerequis": [
+        "MA-C2-CE1-FRAC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-FRAC-03",
+      "titre": "Ajouter et retirer des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Additionner et soustraire des fractions de même dénominateur.",
+      "exemple": "1/5 + 2/5 = 3/5. 2/3 − 1/3 = 1/3.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 13,
+        "extrait": "Additionner et soustraire des fractions de même dénominateur."
+      },
+      "prerequis": [
+        "MA-C2-CE1-FRAC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-OPE-01",
+      "titre": "Pair ou impair",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Dire si un nombre est pair ou impair.",
+      "exemple": "48 est pair. 57 est impair.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 14,
+        "extrait": "L’élève sait dire si un nombre est pair ou impair."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-CALC-01",
+      "titre": "Tables d’addition",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les tables d’addition dans les deux sens.",
+      "exemple": "4 + 8 = 12, donc 4 + … = 12 se complète avec 8.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 14,
+        "extrait": "L’élève sait compléter des « égalités à trou » du type : 4 + … = 12 ; 5 + 3 = … ; 10 = 7 + …"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-CALC-02",
+      "titre": "Tables de multiplication",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les tables de multiplication dans les deux sens.",
+      "exemple": "4 × 3 = 12, donc 4 × … = 12 se complète avec 3.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 14,
+        "extrait": "L’élève peut ainsi compléter des « égalités à trou » du type : 4 × … = 12 ; 5 × 3 = … ;"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-CALC-03",
+      "titre": "Doubles et moitiés",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les doubles, les moitiés et les premiers multiples de 25.",
+      "exemple": "Le double de 25 est 50. La moitié de 70 est 35.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 14,
+        "extrait": "les doubles des nombres de 1 à 15 ;"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-CALC-04",
+      "titre": "Calculer avec dizaines et centaines",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Ajouter ou soustraire des dizaines et des centaines, multiplier par 10.",
+      "exemple": "234 + 60 = 294. 72 × 10 = 720.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 15,
+        "extrait": "L’élève s’appuie sur la numération pour effectuer rapidement et mentalement des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-CALC-05",
+      "titre": "Astuces de calcul mental",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Utiliser les procédures apprises : ajouter 9, 19 ou 29, soustraire en passant la dizaine, moitié, produit par décomposition.",
+      "exemple": "47 + 19 : 47 + 20 = 67, puis 67 − 1 = 66.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 15,
+        "extrait": "L’élève sait ajouter 9, 19 ou 29 à un nombre en ajoutant 10, 20 ou 30, puis en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-PB-01",
+      "titre": "Problèmes : ajouter, retirer",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes additifs en une ou deux étapes : parties et tout, ajout, retrait.",
+      "exemple": "J’ai 227 billes. 113 sont dans le coffre vert. Le coffre rouge en contient 114.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 17,
+        "extrait": "Les élèves doivent traiter au moins dix problèmes par semaine"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-PB-02",
+      "titre": "Problèmes : comparer",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes additifs de comparaison en une étape.",
+      "exemple": "Léo a 188 billes. Lucie en a 75 de plus. Lucie a 263 billes.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 17,
+        "extrait": "L’élève sait résoudre des problèmes additifs de comparaison lorsque deux des trois"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-PB-03",
+      "titre": "Problèmes : multiplier, partager",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes multiplicatifs en une étape : chercher le tout, le nombre de parts ou la valeur d’une part.",
+      "exemple": "8 paquets de 7 biscuits : 8 × 7 = 56 biscuits.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 18,
+        "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur du"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

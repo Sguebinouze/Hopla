@@ -20,6 +20,8 @@ jobs:
         run: pnpm content:check
       - name: Empreintes des textes officiels archivés
         run: pnpm content:hash
+      - name: Extraits cités présents dans les textes officiels
+        run: sudo apt-get install -y poppler-utils && pnpm content:extraits
       - name: Tests (rédaction, générateurs, contenu, isolation Supabase)
         run: pnpm test
       - name: Types

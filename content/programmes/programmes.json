@@ -5,12 +5,28 @@
     "cycle": 2,
     "intitule": "Programme de français du cycle 2",
     "reference": "BO n°41 du 31 octobre 2024",
-    "sources": ["eduscol-cycle-2", "eduscol-calendrier-2026"],
+    "sources": [
+      "bo41-2024-francais-c2",
+      "eduscol-cycle-2",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cp", "debut": "2025-2026", "fin": null },
-      { "classe": "ce1", "debut": "2025-2026", "fin": null },
-      { "classe": "ce2", "debut": "2025-2026", "fin": null }
+      {
+        "classe": "cp",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2025-2026",
+        "fin": null
+      }
     ]
   },
   {
@@ -19,12 +35,27 @@
     "cycle": 2,
     "intitule": "Programme de mathématiques du cycle 2",
     "reference": "BO n°41 du 31 octobre 2024",
-    "sources": ["bo41-2024-maths-c2", "eduscol-calendrier-2026"],
+    "sources": [
+      "bo41-2024-maths-c2",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cp", "debut": "2025-2026", "fin": null },
-      { "classe": "ce1", "debut": "2025-2026", "fin": null },
-      { "classe": "ce2", "debut": "2025-2026", "fin": null }
+      {
+        "classe": "cp",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2025-2026",
+        "fin": null
+      }
     ]
   },
   {
@@ -33,10 +64,17 @@
     "cycle": 3,
     "intitule": "Programme de français du cycle 3 (version 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
-    "sources": ["eduscol-cycle-3", "eduscol-reperes-attendus"],
+    "sources": [
+      "eduscol-cycle-3",
+      "eduscol-reperes-attendus"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cm2", "debut": "2020-2021", "fin": "2025-2026" }
+      {
+        "classe": "cm2",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      }
     ]
   },
   {
@@ -45,10 +83,17 @@
     "cycle": 3,
     "intitule": "Programme de mathématiques du cycle 3 (version 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
-    "sources": ["eduscol-cycle-3", "eduscol-reperes-attendus"],
+    "sources": [
+      "eduscol-cycle-3",
+      "eduscol-reperes-attendus"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cm2", "debut": "2020-2021", "fin": "2025-2026" }
+      {
+        "classe": "cm2",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      }
     ]
   },
   {
@@ -56,13 +101,28 @@
     "matiere": "francais",
     "cycle": 3,
     "intitule": "Programme de français du cycle 3",
-    "reference": "Référence BO à confirmer sur éduscol",
-    "sources": ["eduscol-cycle-3", "eduscol-calendrier-2026"],
+    "reference": "BO n°16 du 17 avril 2025",
+    "sources": [
+      "bo16-2025-francais-c3",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cm1", "debut": "2025-2026", "fin": null },
-      { "classe": "6e", "debut": "2025-2026", "fin": null },
-      { "classe": "cm2", "debut": "2026-2027", "fin": null }
+      {
+        "classe": "cm1",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "6e",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2026-2027",
+        "fin": null
+      }
     ]
   },
   {
@@ -71,12 +131,27 @@
     "cycle": 3,
     "intitule": "Programme de mathématiques du cycle 3",
     "reference": "BO n°16 du 17 avril 2025",
-    "sources": ["eduscol-cycle-3", "eduscol-calendrier-2026"],
+    "sources": [
+      "bo16-2025-maths-c3",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "cm1", "debut": "2025-2026", "fin": null },
-      { "classe": "6e", "debut": "2025-2026", "fin": null },
-      { "classe": "cm2", "debut": "2026-2027", "fin": null }
+      {
+        "classe": "cm1",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "6e",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2026-2027",
+        "fin": null
+      }
     ]
   },
   {
@@ -85,12 +160,27 @@
     "cycle": 4,
     "intitule": "Programme de français du cycle 4 (2015, version consolidée 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
-    "sources": ["eduscol-cycle-4", "eduscol-reperes-francais-c4"],
+    "sources": [
+      "eduscol-cycle-4",
+      "eduscol-reperes-francais-c4"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "5e", "debut": "2020-2021", "fin": "2025-2026" },
-      { "classe": "4e", "debut": "2020-2021", "fin": "2026-2027" },
-      { "classe": "3e", "debut": "2020-2021", "fin": "2027-2028" }
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": "2027-2028"
+      }
     ]
   },
   {
@@ -99,12 +189,27 @@
     "cycle": 4,
     "intitule": "Programme de mathématiques du cycle 4 (2015, version consolidée 2020)",
     "reference": "BO n°31 du 30 juillet 2020",
-    "sources": ["eduscol-cycle-4", "eduscol-reperes-attendus"],
+    "sources": [
+      "eduscol-cycle-4",
+      "eduscol-reperes-attendus"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "5e", "debut": "2020-2021", "fin": "2025-2026" },
-      { "classe": "4e", "debut": "2020-2021", "fin": "2026-2027" },
-      { "classe": "3e", "debut": "2020-2021", "fin": "2027-2028" }
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": "2027-2028"
+      }
     ]
   },
   {
@@ -113,12 +218,27 @@
     "cycle": 4,
     "intitule": "Programme de français du cycle 4",
     "reference": "Arrêté du 18 février 2026, BO n°10 du 5 mars 2026",
-    "sources": ["eduscol-cycle-4", "eduscol-calendrier-2026"],
+    "sources": [
+      "eduscol-cycle-4",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "5e", "debut": "2026-2027", "fin": null },
-      { "classe": "4e", "debut": "2027-2028", "fin": null },
-      { "classe": "3e", "debut": "2028-2029", "fin": null }
+      {
+        "classe": "5e",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2028-2029",
+        "fin": null
+      }
     ]
   },
   {
@@ -127,12 +247,27 @@
     "cycle": 4,
     "intitule": "Programme de mathématiques du cycle 4",
     "reference": "Arrêté du 18 février 2026, BO n°10 du 5 mars 2026",
-    "sources": ["eduscol-cycle-4", "eduscol-calendrier-2026"],
+    "sources": [
+      "eduscol-cycle-4",
+      "eduscol-calendrier-2026"
+    ],
     "verifie": false,
     "application": [
-      { "classe": "5e", "debut": "2026-2027", "fin": null },
-      { "classe": "4e", "debut": "2027-2028", "fin": null },
-      { "classe": "3e", "debut": "2028-2029", "fin": null }
+      {
+        "classe": "5e",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2028-2029",
+        "fin": null
+      }
     ]
   }
 ]

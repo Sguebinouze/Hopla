@@ -14,11 +14,13 @@ export interface Pack {
     programme: { id: string; intitule: string; reference: string; verifie: boolean };
     competences: {
       id: string;
+      titre: string;
       domaine: string;
       theme: string;
       attendu: string;
       exemple: string;
       statut: string;
+      source: { id: string; page: number | null };
       generateurs: string[];
       exercices: Exercice[];
     }[];
@@ -46,11 +48,13 @@ export function construirePacks(
           programme: { id: p.id, intitule: p.intitule, reference: p.reference, verifie: p.verifie },
           competences: (ref?.competences ?? []).map((c) => ({
             id: c.id,
+            titre: c.titre,
             domaine: c.domaine,
             theme: c.theme,
             attendu: c.attendu,
             exemple: c.exemple,
             statut: c.statut,
+            source: { id: c.source.id, page: c.source.page },
             generateurs: GENERATEURS.filter((g) => g.competences.includes(c.id)).map((g) => g.id),
             exercices: (banques.get(c.id) ?? []).filter((e) => statuts.has(e.statut)),
           })),

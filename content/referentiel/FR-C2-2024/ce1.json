@@ -1,0 +1,96 @@
+{
+  "programme": "FR-C2-2024",
+  "classe": "ce1",
+  "competences": [
+    {
+      "id": "FR-C2-CE1-GRAM-01",
+      "titre": "Classes de mots",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Reconnaitre le déterminant, le nom commun, le nom propre, l’adjectif, le verbe et le pronom personnel sujet.",
+      "exemple": "Dans « Le chat noir dort », noir est un adjectif.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 21,
+        "extrait": "Différencier et nommer les principales classes de mots : le"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-GRAM-02",
+      "titre": "Types de phrases",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Reconnaitre les phrases déclaratives, interrogatives et impératives.",
+      "exemple": "« Ferme la porte. » est une phrase impérative.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 21,
+        "extrait": "Reconnaitre et utiliser les trois types de phrases, en lien"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-CONJ-01",
+      "titre": "Le présent",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Conjuguer au présent être, avoir et les verbes du premier groupe.",
+      "exemple": "Nous chantons. Vous avez. Ils sont.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 21,
+        "extrait": "Apprendre à conjuguer au présent, à l’imparfait, au futur"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-CONJ-02",
+      "titre": "Trouver l’infinitif",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Trouver l’infinitif d’un verbe du premier groupe conjugué.",
+      "exemple": "Ils plieront, tu as plié, vous pliez : c’est le verbe plier.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 21,
+        "extrait": "Identifier le radical et la terminaison d’un verbe du"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-ORTH-01",
+      "titre": "Pluriel du groupe nominal",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Accorder dans le groupe nominal : pluriel en -s, féminin en -e.",
+      "exemple": "Un chat noir, des chats noirs. Une petite poule.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 21,
+        "extrait": "pluriel en –s, féminin en –e"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-ORTH-02",
+      "titre": "Accord sujet-verbe",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Accorder le verbe avec son sujet : marque -nt du pluriel.",
+      "exemple": "Les enfants jouent. Léa et Tom chantent.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 11,
+        "extrait": "verbal (marque de pluriel des verbes = nt)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

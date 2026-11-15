@@ -11,7 +11,8 @@
     "packs": "tsx src/cli-packs.ts",
     "hash": "tsx src/cli-hash.ts",
     "test": "vitest run",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "extraits": "tsx src/cli-extraits.ts"
   },
   "dependencies": {
     "@hopla/generateurs": "workspace:*",

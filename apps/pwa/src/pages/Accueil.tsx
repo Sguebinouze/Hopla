@@ -4,7 +4,7 @@ import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
-import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
+import { chargerPack, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
 
 const XP_PAR_NIVEAU = 200;
 const COULEUR_MATIERE: Record<string, string> = {
@@ -48,7 +48,7 @@ export function Accueil() {
   }
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
-  const mission = pack ? competencesJouables(pack).slice(0, 3) : [];
+  const mission = pack ? missionDuJour(pack) : [];
 
   return (
     <main className="ecran">
@@ -80,7 +80,7 @@ export function Accueil() {
           <Link key={c.id} to={`/exercice/${c.id}`}
             className={`hp-mission__item${i === 0 ? ' hp-mission__item--current' : ''}`}>
             <span className="hp-check" />
-            <span className="pousse">{NOMS_MATIERES[c.matiere]} · {c.theme}</span>
+            <span className="pousse">{NOMS_MATIERES[c.matiere]} · {c.titre}</span>
           </Link>
         ))}
         {mission[0] && (
@@ -93,12 +93,12 @@ export function Accueil() {
           <h2 className="titre-2">Mes matières</h2>
           <div className="grille-matieres">
             {pack.matieres.map((m) => (
-              <div key={m.matiere} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
+              <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
                 <span className="hp-subject__icon"><Icone nom="eclair" /></span>
                 <span className="hp-subject__name">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>
-                <span className="hp-subject__meta">{m.competences.length} notion(s)</span>
+                <span className="hp-subject__meta">{m.competences.length} notion{m.competences.length > 1 ? 's' : ''}</span>
                 <div className="hp-progress hp-progress--sm"><span style={{ width: '0%' }} /></div>
-              </div>
+              </Link>
             ))}
           </div>
         </>

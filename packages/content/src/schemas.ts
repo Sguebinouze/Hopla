@@ -46,6 +46,8 @@ export const programmeSchema = z.object({
 
 export const competenceSchema = z.object({
   id: z.string().regex(/^[A-Z]{2}-C[234]-[A-Z0-9]{2,3}-[A-Z]{2,6}-\d{2}$/),
+  /** Nom court affiché à l'élève (« Doubles et moitiés »). */
+  titre: z.string().min(1).max(40),
   domaine: z.string().min(1),
   theme: z.string().min(1),
   attendu: z.string().min(1),

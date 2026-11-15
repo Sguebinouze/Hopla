@@ -1,0 +1,111 @@
+{
+  "programme": "FR-C3-2025",
+  "classe": "6e",
+  "competences": [
+    {
+      "id": "FR-C3-6E-GRAM-01",
+      "titre": "Attribut, COD, COI",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Distinguer l’attribut du sujet du COD, et reconnaitre COI et compléments circonstanciels.",
+      "exemple": "Dans « Le ciel devient gris », gris est attribut du sujet. Dans « Léa lit un roman », un roman est COD.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Opposer et distinguer attribut du sujet et complément d’objet direct (COD)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-GRAM-02",
+      "titre": "Phrase simple ou complexe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Se repérer dans la phrase complexe",
+      "attendu": "Distinguer phrase simple et phrase complexe à partir des propositions.",
+      "exemple": "« Quand la cloche sonne, les élèves sortent. » contient deux verbes conjugués : deux propositions.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Distinguer phrase simple et phrase complexe à partir du repérage des propositions"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-GRAM-03",
+      "titre": "Conjonctions",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Se repérer dans la phrase complexe",
+      "attendu": "Distinguer conjonction de coordination et conjonction de subordination.",
+      "exemple": "« car » est une conjonction de coordination. « parce que » est une conjonction de subordination.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Distinguer le rôle de la conjonction de coordination et celui de la conjonction de subordination"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-CONJ-01",
+      "titre": "L’impératif présent",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Conjuguer à l’impératif présent.",
+      "exemple": "Chante. Finissons. Soyez attentifs.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 21,
+        "extrait": "Conjugaisons à mémoriser et à maîtriser : impératif présent, conditionnel présent des verbes être et avoir, des verbes des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-CONJ-02",
+      "titre": "Le conditionnel présent",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Conjuguer au conditionnel présent.",
+      "exemple": "Je chanterais. Nous irions. Ils prendraient.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 21,
+        "extrait": "Identifier les marques de temps pour le conditionnel présent et l’impératif présent"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-01",
+      "titre": "Participe passé avec être",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Accorder le participe passé employé avec l’auxiliaire être.",
+      "exemple": "Les filles sont parties. Tom et Léa sont arrivés.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 21,
+        "extrait": "Maîtriser l’accord du participe passé employé avec l’auxiliaire être"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-6E-VOC-01",
+      "titre": "Antonymes",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Donner des antonymes qui respectent la classe grammaticale du mot.",
+      "exemple": "Le contraire de l’adjectif rapide est l’adjectif lent, pas l’adverbe lentement.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Donner des exemples de synonymes et d’antonymes qui respectent la classe grammaticale du mot cible"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

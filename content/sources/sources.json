@@ -20,14 +20,44 @@
     "archive": null
   },
   {
+    "id": "bo41-2024-francais-c2",
+    "titre": "Programme de français du cycle 2 (BO n°41 du 31 octobre 2024)",
+    "editeur": "Ministère de l'Éducation nationale",
+    "url": "https://www.education.gouv.fr/sites/default/files/ensel135_annexe3.pdf",
+    "licence": "texte-officiel",
+    "consulte_le": "2026-11-15",
+    "sha256": "4a15d1446a0b46866a7b672b9c12fbd86ccaf6ad92ac878ded677d92ab8b102a",
+    "archive": "sources/archive/bo41-2024-francais-c2.pdf"
+  },
+  {
     "id": "bo41-2024-maths-c2",
     "titre": "Programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024)",
     "editeur": "Ministère de l'Éducation nationale",
     "url": "https://www.education.gouv.fr/sites/default/files/ensel135_annexe4.pdf",
     "licence": "texte-officiel",
     "consulte_le": "2026-11-15",
-    "sha256": null,
-    "archive": null
+    "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed",
+    "archive": "sources/archive/bo41-2024-maths-c2.pdf"
+  },
+  {
+    "id": "bo16-2025-francais-c3",
+    "titre": "Programme de français du cycle 3 (BO n°16 du 17 avril 2025)",
+    "editeur": "Ministère de l'Éducation nationale",
+    "url": "https://www.education.gouv.fr/sites/default/files/ensel620_annexe1.pdf",
+    "licence": "texte-officiel",
+    "consulte_le": "2026-11-15",
+    "sha256": "e7c27f55c212b5ebb92ba8b60b6b1b0761a2301e7c0d0d780171c4cfb6e121ae",
+    "archive": "sources/archive/bo16-2025-francais-c3.pdf"
+  },
+  {
+    "id": "bo16-2025-maths-c3",
+    "titre": "Programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025)",
+    "editeur": "Ministère de l'Éducation nationale",
+    "url": "https://www.education.gouv.fr/sites/default/files/ensel620_annexe2-v2.pdf",
+    "licence": "texte-officiel",
+    "consulte_le": "2026-11-15",
+    "sha256": "f3f79a75ca8be7f54409b8b7cee3eafd769c23d12e6c822a253454e2c703b508",
+    "archive": "sources/archive/bo16-2025-maths-c3.pdf"
   },
   {
     "id": "eduscol-cycle-2",

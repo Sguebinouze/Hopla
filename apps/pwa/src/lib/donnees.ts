@@ -146,8 +146,8 @@ function apiSupabase(url: string, cle: string): Api {
 
 const CODE_DEMO = '1111';
 const ENFANTS_DEMO: Enfant[] = [
-  { id: 'demo-ce2', prenom: 'Élève de CE2', avatar: 'orange', code_type: 'pictos', classe: 'ce2', xp: 0, serie: 0 },
-  { id: 'demo-5e', prenom: 'Élève de 5e', avatar: 'violet', code_type: 'chiffres', classe: '5e', xp: 0, serie: 0 },
+  { id: 'demo-ce1', prenom: 'Élève de CE1', avatar: 'orange', code_type: 'pictos', classe: 'ce1', xp: 0, serie: 0 },
+  { id: 'demo-6e', prenom: 'Élève de 6e', avatar: 'violet', code_type: 'chiffres', classe: '6e', xp: 0, serie: 0 },
 ];
 
 function apiDemo(): Api {

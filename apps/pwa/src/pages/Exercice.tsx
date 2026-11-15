@@ -28,7 +28,7 @@ export function Exercice() {
         const pack = await chargerPack(enfant.classe);
         const c = competencesJouables(pack).find((x) => x.id === competence);
         if (!c) return naviguer('/accueil');
-        setItems(seriePour(c, TAILLE_SERIE, 1));
+        setItems(seriePour(c, TAILLE_SERIE));
       } catch {
         naviguer('/accueil');
       }
@@ -66,6 +66,9 @@ export function Exercice() {
     debut.current = Date.now();
   };
 
+  // Options rédigées (formes verbales, classes de mots) : plus de place, police plus petite.
+  const optionsLongues = (item.options ?? []).some((o) => o.length > 9);
+
   const classeOption = (o: string) => {
     if (!repondu) return 'hp-option';
     if (o === item.reponse) return 'hp-option hp-option--correct';
@@ -92,9 +95,9 @@ export function Exercice() {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
           {item.gabarit === 'qcm' && item.options && (
-            <div className="grille-options">
+            <div className={`grille-options${optionsLongues ? ' grille-options--texte' : ''}`}>
               {item.options.map((o) => (
-                <button key={o} className={classeOption(o)} onClick={() => void valider(o)} disabled={repondu && o !== choix && o !== item.reponse}>
+                <button key={o} className={`${classeOption(o)}${optionsLongues ? ' option-texte' : ''}`} onClick={() => void valider(o)} disabled={repondu && o !== choix && o !== item.reponse}>
                   {o}
                 </button>
               ))}
@@ -104,7 +107,7 @@ export function Exercice() {
             <form className="ligne" onSubmit={(e) => { e.preventDefault(); void valider(saisie); }}>
               <label className="pousse">
                 <span className="muet">Ta réponse</span>
-                <input className="saisie" inputMode="numeric" autoComplete="off" value={saisie}
+                <input className="saisie" inputMode="decimal" autoComplete="off" value={saisie}
                   onChange={(e) => setSaisie(e.target.value)} disabled={repondu} />
               </label>
               {!repondu && <button className="hp-btn hp-btn--primary hp-btn--lg" disabled={!saisie.trim()}>Vérifier</button>}

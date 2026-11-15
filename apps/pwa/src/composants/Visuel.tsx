@@ -11,10 +11,12 @@ export function Visuel({ visuel, revele = false }: { visuel: V; revele?: boolean
     return (
       <svg width={l} height={h} viewBox={`0 0 ${l} ${h}`} role="img"
         aria-label={`Une tablette de ${lignes * colonnes} carrés, ${coloriees} coloriés`}>
-        <rect width={l} height={h} rx={10} fill="#7A4A2A" />
+        <rect width={l} height={h} rx={10} fill="var(--surface-2)" />
+        {/* Parts coloriées pleines, parts vides blanches et cerclées : le contraste ne laisse aucun doute. */}
         {Array.from({ length: lignes * colonnes }, (_, i) => (
-          <rect key={i} x={g + (i % colonnes) * (c + g)} y={g + Math.floor(i / colonnes) * (c + g)}
-            width={c} height={c} rx={6} fill={i < coloriees ? '#FF8A3D' : '#A86A44'} />
+          <rect key={i} x={g + (i % colonnes) * (c + g) + 1} y={g + Math.floor(i / colonnes) * (c + g) + 1}
+            width={c - 2} height={c - 2} rx={6} fill={i < coloriees ? 'var(--primary)' : 'var(--surface-1)'}
+            stroke={i < coloriees ? 'var(--primary-strong)' : 'var(--line)'} strokeWidth={2} />
         ))}
       </svg>
     );

@@ -5,10 +5,13 @@ import type { Classe } from './donnees';
 // Forme produite par @hopla/content (pnpm content:packs).
 export interface CompetencePack {
   id: string;
+  titre: string;
   domaine: string;
   theme: string;
   attendu: string;
   exemple: string;
+  statut: string;
+  source: { id: string; page: number | null };
   generateurs: string[];
   exercices: {
     id: string;
@@ -52,6 +55,21 @@ export async function chargerPack(classe: Classe): Promise<Pack> {
   return (await r.json()) as Pack;
 }
 
+/** Mission du jour : trois notions, en alternant les matières, qui changent chaque jour. */
+export function missionDuJour(pack: Pack, jour = new Date()) {
+  const numero = Math.floor(jour.getTime() / 86_400_000);
+  const parMatiere = pack.matieres
+    .map((m) => competencesJouables({ ...pack, matieres: [m] }))
+    .filter((l) => l.length > 0)
+    .map((l, k) => {
+      const debut = (numero + k) % l.length;
+      return [...l.slice(debut), ...l.slice(0, debut)];
+    });
+  const alternees: ReturnType<typeof competencesJouables> = [];
+  for (let i = 0; parMatiere.some((l) => i < l.length); i++) for (const l of parMatiere) if (l[i]) alternees.push(l[i]!);
+  return alternees.slice(0, 3);
+}
+
 /** Compétences jouables (au moins un générateur ou un exercice publié). */
 export function competencesJouables(pack: Pack) {
   return pack.matieres.flatMap((m) =>
@@ -61,10 +79,12 @@ export function competencesJouables(pack: Pack) {
   );
 }
 
-/** Une série d'items pour une compétence : générateurs d'abord, banque rédigée ensuite. */
-export function seriePour(c: CompetencePack, n: number, difficulte: Difficulte): Item[] {
-  const graine = Math.floor(Math.random() * 1e9);
-  const generes = c.generateurs.flatMap((g, i) => serie(g, n, graine + i * 10_000, difficulte));
+// Progression dans une série : on commence simple, on finit par la difficulté 3.
+const PALIERS: Difficulte[] = [1, 1, 2, 2, 3];
+const hasard = <T>(liste: T[]): T => liste[Math.floor(Math.random() * liste.length)]!;
+
+/** Une série d'items pour une compétence, de difficulté croissante, sans doublon. */
+export function seriePour(c: CompetencePack, n: number): Item[] {
   const rediges: Item[] = c.exercices
     .filter((e) => e.gabarit === 'qcm' || e.gabarit === 'saisie')
     .map((e) => ({
@@ -78,10 +98,24 @@ export function seriePour(c: CompetencePack, n: number, difficulte: Difficulte):
       explication: e.explication,
       difficulte: e.difficulte,
     }));
-  const tous = [...generes, ...rediges];
-  for (let i = tous.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [tous[i], tous[j]] = [tous[j]!, tous[i]!];
+  const graine = Math.floor(Math.random() * 1e9);
+  const cle = (it: Item) => `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${(it.options ?? []).join('|')}`;
+  const vus = new Set<string>();
+  const items: Item[] = [];
+  for (let k = 0; items.length < n && k < n * 30; k++) {
+    const d = PALIERS[Math.min(items.length, PALIERS.length - 1)]!;
+    const libres = rediges.filter((e) => !vus.has(cle(e)));
+    const auPalier = libres.filter((e) => e.difficulte === d);
+    const prendreRedige = libres.length > 0 && (c.generateurs.length === 0 || (auPalier.length > 0 && Math.random() < 0.3));
+    const item = prendreRedige
+      ? hasard(auPalier.length ? auPalier : libres)
+      : c.generateurs.length
+        ? serie(hasard(c.generateurs), 1, graine + k * 7_919, d)[0]
+        : undefined;
+    if (!item) break;
+    if (vus.has(cle(item))) continue;
+    vus.add(cle(item));
+    items.push(item);
   }
-  return tous.slice(0, n);
+  return items;
 }

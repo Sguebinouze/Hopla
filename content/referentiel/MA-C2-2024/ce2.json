@@ -4,21 +4,31 @@
   "competences": [
     {
       "id": "MA-C2-CE2-FRAC-01",
+      "titre": "Lire une fraction",
       "domaine": "Nombres, calcul et résolution de problèmes",
       "theme": "Les fractions",
-      "attendu": "Lire, écrire et représenter une fraction simple dont le dénominateur ne dépasse pas 12.",
+      "attendu": "Lire, écrire et représenter une fraction inférieure ou égale à 1 dont le dénominateur ne dépasse pas 12.",
       "exemple": "Une barre est coupée en 4 parts égales. 3 parts sont coloriées : c'est 3/4 de la barre.",
-      "source": { "id": "bo41-2024-maths-c2", "page": null, "extrait": null },
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 20,
+        "extrait": "Les fractions rencontrées au CE2 ont un dénominateur inférieur ou égal à douze et sont toutes inférieures ou égales à un."
+      },
       "prerequis": [],
       "statut": "a_verifier"
     },
     {
       "id": "MA-C2-CE2-CALC-01",
+      "titre": "Tables de multiplication",
       "domaine": "Nombres, calcul et résolution de problèmes",
       "theme": "Le calcul mental",
       "attendu": "Connaître les tables de multiplication et les utiliser pour calculer.",
       "exemple": "6 × 7 = 42, donc 42 = 6 × 7.",
-      "source": { "id": "bo41-2024-maths-c2", "page": null, "extrait": null },
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 22,
+        "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute."
+      },
       "prerequis": [],
       "statut": "a_verifier"
     }

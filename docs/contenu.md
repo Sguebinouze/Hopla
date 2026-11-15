@@ -35,11 +35,13 @@ Les alertes (sources non archivées, programmes non vérifiés, compétences san
 1. Télécharger le texte à la main (éduscol bloque les robots) dans `content/sources/archive/<id>.pdf`.
 2. `pnpm content:hash --maj` enregistre l'empreinte.
 3. En CI, `pnpm content:hash` échoue si un fichier archivé ne correspond plus à son empreinte.
-4. À chaque rentrée : vérifier le calendrier officiel et les nouveaux BO, mettre à jour `programmes.json`.
+4. `pnpm content:extraits` vérifie que chaque extrait cité figure à la page indiquée du texte archivé (nécessite `pdftotext`, paquet poppler).
+5. À chaque rentrée : vérifier le calendrier officiel et les nouveaux BO, mettre à jour `programmes.json`.
 
 ## Ajouter une compétence
 
 1. L'ajouter dans `content/referentiel/<programme>/<classe>.json` avec `statut: a_verifier`.
 2. Écrire un générateur (`packages/generateurs`) ou des exercices (`content/exercices`).
 3. `pnpm content:check` puis `pnpm test`.
-4. Relire l'attendu sur le texte source, renseigner page et extrait, passer en `verifie`.
+4. Renseigner page et extrait du texte source, puis `pnpm content:extraits`.
+5. Un humain relit l'attendu face au texte et passe la compétence en `verifie`.

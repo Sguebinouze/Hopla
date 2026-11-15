@@ -1,0 +1,248 @@
+{
+  "programme": "MA-C3-2025",
+  "classe": "6e",
+  "competences": [
+    {
+      "id": "MA-C3-6E-DEC-01",
+      "titre": "Comparer des décimaux",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Comparer et ranger des nombres décimaux.",
+      "exemple": "2,5 > 2,45 : on compare d’abord les dixièmes, 5 dixièmes contre 4 dixièmes.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 14,
+        "extrait": "Comparer deux nombres décimaux"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DEC-02",
+      "titre": "× et ÷ par 10, 100, 1 000",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Multiplier ou diviser un décimal par 10, 100, 1 000 ; multiplier par 0,1, 0,01 ou 0,001.",
+      "exemple": "3,45 × 100 = 345. 72,1 ÷ 1 000 = 0,0721. 45 × 0,01 = 0,45.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 13,
+        "extrait": "L’élève applique de manière automatique la procédure de multiplication d’un nombre décimal par 1, par 10, par 100 ou par 1 000,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DEC-03",
+      "titre": "Fractions décimales",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Passer d’une fraction décimale ou d’une somme de fractions décimales à l’écriture à virgule, et inversement.",
+      "exemple": "4 + 1/10 + 7/1 000 = 4,107.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 13,
+        "extrait": "L’élève passe de manière automatique d’une écriture sous forme de fraction décimale ou de somme de fractions décimales à"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DEC-04",
+      "titre": "Arrondir",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Donner l’arrondi d’un décimal à l’unité, au dixième ou au centième.",
+      "exemple": "L’arrondi au dixième de 3,476 est 3,5.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 14,
+        "extrait": "Donner la valeur arrondie à l’unité, au dixième ou au centième, d’un nombre décimal"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DEC-05",
+      "titre": "Multiplier des décimaux",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Calculer le produit de deux nombres décimaux.",
+      "exemple": "2,5 × 0,4 : 25 × 4 = 100, deux chiffres après la virgule, donc 1.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 14,
+        "extrait": "Calculer le produit de deux nombres décimaux"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DEC-06",
+      "titre": "Diviser un décimal",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Diviser un nombre décimal par un nombre entier inférieur à 10.",
+      "exemple": "7,5 ÷ 3 = 2,5 car 2,5 × 3 = 7,5.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 14,
+        "extrait": "Diviser un nombre décimal par un nombre entier non nul inférieur à 10"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DIV-01",
+      "titre": "Division euclidienne",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers et décimaux",
+      "attendu": "Effectuer la division euclidienne d’un entier par un entier inférieur à 100.",
+      "exemple": "347 = 12 × 28 + 11, et 11 < 12 : le quotient est 28, le reste est 11.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 14,
+        "extrait": "Effectuer la division euclidienne d’un nombre entier par un nombre entier inférieur à 100"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-FRAC-01",
+      "titre": "Fractions usuelles",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Connaitre les écritures décimales des fractions usuelles et calculer avec quarts et demis.",
+      "exemple": "3/4 = 0,75. 1/4 + 1/2 = 3/4.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 15,
+        "extrait": "L’élève sait passer de manière automatique d’une écriture fractionnaire à une écriture décimale, et inversement, dans les cas"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-FRAC-02",
+      "titre": "Fraction d’un nombre",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Appliquer une fraction à une quantité ou à un nombre entier.",
+      "exemple": "2/3 de 12 œufs : 12 ÷ 3 = 4, puis 2 × 4 = 8 œufs.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 15,
+        "extrait": "Utiliser une multiplication pour appliquer une fraction à un nombre entier"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-FRAC-03",
+      "titre": "Additionner des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Additionner et soustraire des fractions.",
+      "exemple": "1/3 + 5/6 = 2/6 + 5/6 = 7/6.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 16,
+        "extrait": "Additionner et soustraire des fractions"
+      },
+      "prerequis": [
+        "MA-C3-6E-FRAC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-PCT-01",
+      "titre": "Pourcentages",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Appliquer un pourcentage simple à une grandeur ou à un nombre.",
+      "exemple": "25 % de 80 € : c’est le quart de 80 €, soit 20 €.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 16,
+        "extrait": "Appliquer un pourcentage à une grandeur ou à un nombre"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-LONG-01",
+      "titre": "Convertir des longueurs",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs",
+      "attendu": "Convertir des longueurs du kilomètre au millimètre.",
+      "exemple": "3,5 m = 350 cm car 1 m = 100 cm.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 19,
+        "extrait": "L’élève sait convertir en mètre une longueur donnée dans une autre unité, multiple ou sous-multiple du mètre."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-LONG-02",
+      "titre": "Périmètres",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs",
+      "attendu": "Calculer le périmètre d’un carré, d’un rectangle et d’un disque.",
+      "exemple": "Un disque de diamètre 10 cm a un périmètre d’environ 10 × 3,14 = 31,4 cm.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 19,
+        "extrait": "Calculer le périmètre d’un disque"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-AIRE-01",
+      "titre": "Aires",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les aires",
+      "attendu": "Calculer l’aire d’un carré ou d’un rectangle ; convertir des aires.",
+      "exemple": "Un rectangle de 7 cm sur 4 cm a une aire de 28 cm². 1 m² = 100 dm².",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 19,
+        "extrait": "Calculer l’aire d’un carré ou d’un rectangle"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-DUR-01",
+      "titre": "Durées et horaires",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Le repérage dans le temps et les durées",
+      "attendu": "Convertir des durées et calculer des horaires.",
+      "exemple": "150 min = 2 h 30 min, car 150 = 2 × 60 + 30.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 20,
+        "extrait": "Effectuer des calculs sur des horaires et des durées"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C3-6E-PROP-01",
+      "titre": "Proportionnalité",
+      "domaine": "La proportionnalité",
+      "theme": "La proportionnalité",
+      "attendu": "Résoudre un problème de proportionnalité par linéarité ou retour à l’unité.",
+      "exemple": "3 kg coûtent 6 €. 12 kg, c’est 4 fois plus : 4 × 6 = 24 €.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 27,
+        "extrait": "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

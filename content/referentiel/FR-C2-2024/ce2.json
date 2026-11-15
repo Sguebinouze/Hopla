@@ -4,11 +4,16 @@
   "competences": [
     {
       "id": "FR-C2-CE2-ORTH-01",
-      "domaine": "Étude de la langue",
-      "theme": "Les accords",
-      "attendu": "Accorder le verbe avec son sujet dans les cas simples.",
+      "titre": "Accord sujet-verbe",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Identifier la relation sujet-verbe dans des situations simples et accorder le verbe.",
       "exemple": "Les enfants jouent. Le sujet « les enfants » est au pluriel, le verbe aussi.",
-      "source": { "id": "eduscol-cycle-2", "page": null, "extrait": null },
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "Identifier, dans des situations simples, la relation sujet-"
+      },
       "prerequis": [],
       "statut": "a_verifier"
     }

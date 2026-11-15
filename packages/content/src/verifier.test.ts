@@ -58,7 +58,9 @@ describe('intégrité des références', () => {
 
   it('refuse une compétence vérifiée sans page ni extrait de la source', () => {
     const c = clone();
-    c.referentiels[0]!.competences[0]!.statut = 'verifie';
+    const comp = c.referentiels[0]!.competences[0]!;
+    comp.statut = 'verifie';
+    comp.source = { ...comp.source, page: null, extrait: null };
     expect(erreursDe(c).some((e) => e.message.includes('citer la page'))).toBe(true);
   });
 
