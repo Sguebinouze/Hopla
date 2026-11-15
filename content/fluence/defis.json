@@ -100,6 +100,26 @@
     "verifie": false
   },
   {
+    "id": "tables-addition-ce2",
+    "classe": "ce2",
+    "titre": "Tables d’addition",
+    "competence": "MA-C2-CE2-CALC-05",
+    "generateur": "tables-addition-ce2",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 15,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 22,
+      "extrait": "À la fin du CE2, l’élève peut compléter quinze égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
     "id": "tables-multiplication-ce2",
     "classe": "ce2",
     "titre": "Tables de multiplication",

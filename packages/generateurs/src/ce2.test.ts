@@ -113,6 +113,16 @@ describe('justesse CE2 mathématiques : fractions', () => {
 });
 
 describe('justesse CE2 mathématiques : calcul', () => {
+  it('tables d’addition : égalités à trou vraies, termes de 1 à 10', () => {
+    partout('tables-addition-ce2', (item) => {
+      egaliteVraie(item);
+      const termes = item.consigne.replace('Complète : ', '').replace('…', item.reponse).match(/\d+/g)!.map(Number);
+      const somme = Math.max(...termes);
+      expect(somme).toBeLessThanOrEqual(20);
+      for (const t of termes.filter((x) => x !== somme)) expect(t).toBeGreaterThanOrEqual(1);
+    });
+  });
+
   it('faits multiplicatifs : égalités à trou', () => {
     partout('faits-multiplicatifs-ce2', (item) => {
       egaliteVraie(item);

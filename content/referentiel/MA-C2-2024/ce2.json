@@ -186,6 +186,23 @@
       "statut": "a_verifier"
     },
     {
+      "id": "MA-C2-CE2-CALC-05",
+      "titre": "Tables d’addition",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les tables d’addition dans les deux sens et compléter quinze égalités à trou en une minute.",
+      "exemple": "4 + … = 12 ; 5 + 3 = … ; 10 = 7 + …",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 22,
+        "extrait": "À la fin du CE2, l’élève peut compléter quinze égalités de ce type en une minute."
+      },
+      "prerequis": [
+        "MA-C2-CE1-CALC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
       "id": "MA-C2-CE2-OPE-01",
       "titre": "Additions et soustractions posées",
       "domaine": "Nombres, calcul et résolution de problèmes",

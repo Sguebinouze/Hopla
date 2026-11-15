@@ -4,6 +4,37 @@ import { creerGenerateur, fr } from './outils';
 
 const TROU = '…';
 
+// ─────────── Tables d'addition dans les deux sens, pour la fluence (p. 22 : quinze égalités en une minute)
+
+export const tablesAdditionCe2 = creerGenerateur({
+  id: 'tables-addition-ce2',
+  competence: 'MA-C2-CE2-CALC-05',
+  cycle: 2,
+  description: 'Compléter des égalités à trou avec les tables d’addition, dans les deux sens.',
+  generer(a, d) {
+    // Les tables de 1 à 10 ; les sommes qui franchissent la dizaine sont plus fréquentes en difficulté 2 et 3.
+    let x = a.entier(1, 10);
+    let y = a.entier(1, 10);
+    if (d > 1 && x + y <= 10 && a.suivant() < 0.6) [x, y] = [a.entier(4, 9), a.entier(4, 9)];
+    const s = x + y;
+    const formes = [
+      { consigne: `${x} + ${y} = ${TROU}`, reponse: s },
+      { consigne: `${x} + ${TROU} = ${s}`, reponse: y },
+      { consigne: `${TROU} + ${y} = ${s}`, reponse: x },
+      { consigne: `${s} = ${x} + ${TROU}`, reponse: y },
+      { consigne: `${s} − ${x} = ${TROU}`, reponse: y },
+    ];
+    const f = d === 1 ? a.choisir(formes.slice(0, 2)) : d === 2 ? a.choisir(formes.slice(1, 4)) : a.choisir(formes.slice(2));
+    return {
+      gabarit: 'saisie',
+      consigne: `Complète : ${f.consigne}`,
+      reponse: String(f.reponse),
+      indice: f.reponse === s ? `Pars de ${Math.max(x, y)} et avance de ${Math.min(x, y)}.` : `Cherche ce qui manque pour aller jusqu’à ${s}.`,
+      explication: `${x} + ${y} = ${s}. Le nombre cherché est ${f.reponse}.`,
+    };
+  },
+});
+
 // ─────────── Faits multiplicatifs usuels : listes du programme de CE2 (p. 22)
 
 const DOUBLES = [
