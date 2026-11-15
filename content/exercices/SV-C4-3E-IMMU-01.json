@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-IMMU-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-IMMU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les bactéries et les virus sont des…",
+      "options": [
+        "micro-organismes",
+        "organes",
+        "vitamines"
+      ],
+      "reponse": "micro-organismes",
+      "indice": "Ils sont invisibles à l’œil nu.",
+      "explication": "Bactéries et virus sont des micro-organismes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelles cellules défendent l’organisme ?",
+      "options": [
+        "les globules blancs",
+        "les globules rouges",
+        "les neurones"
+      ],
+      "reponse": "les globules blancs",
+      "indice": "Ce sont les leucocytes.",
+      "explication": "Les globules blancs défendent l’organisme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Se laver les mains permet de…",
+      "options": [
+        "limiter la transmission des microbes",
+        "renforcer les muscles",
+        "guérir une fracture"
+      ],
+      "reponse": "limiter la transmission des microbes",
+      "indice": "C’est une mesure d’hygiène.",
+      "explication": "L’hygiène limite la contamination.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les antibiotiques sont efficaces contre…",
+      "options": [
+        "les bactéries",
+        "les virus",
+        "tous les microbes"
+      ],
+      "reponse": "les bactéries",
+      "indice": "Pas contre la grippe.",
+      "explication": "Les antibiotiques agissent sur les bactéries, pas sur les virus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La phagocytose, c’est…",
+      "options": [
+        "l’ingestion d’un microbe par un globule blanc",
+        "la fabrication d’un vaccin",
+        "la multiplication des virus"
+      ],
+      "reponse": "l’ingestion d’un microbe par un globule blanc",
+      "indice": "Une réaction rapide.",
+      "explication": "Certains globules blancs ingèrent les microbes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les anticorps sont produits par…",
+      "options": [
+        "des lymphocytes",
+        "des globules rouges",
+        "des neurones"
+      ],
+      "reponse": "des lymphocytes",
+      "indice": "Ce sont des globules blancs particuliers.",
+      "explication": "Des lymphocytes produisent les anticorps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un vaccin protège-t-il durablement ?",
+      "options": [
+        "il crée une mémoire immunitaire",
+        "il tue tous les microbes du corps",
+        "il remplace les globules blancs"
+      ],
+      "reponse": "il crée une mémoire immunitaire",
+      "indice": "Le corps réagit plus vite ensuite.",
+      "explication": "La vaccination crée des cellules mémoires.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un antiseptique s’utilise…",
+      "options": [
+        "sur la peau pour limiter l’infection d’une plaie",
+        "à avaler contre la grippe",
+        "pour vacciner"
+      ],
+      "reponse": "sur la peau pour limiter l’infection d’une plaie",
+      "indice": "Il désinfecte.",
+      "explication": "L’antiseptique élimine les microbes à la surface d’une plaie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

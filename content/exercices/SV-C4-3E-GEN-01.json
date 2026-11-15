@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-GEN-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-GEN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de chromosomes contient une cellule humaine ?",
+      "options": [
+        "46",
+        "23",
+        "100"
+      ],
+      "reponse": "46",
+      "indice": "23 paires.",
+      "explication": "Une cellule humaine contient 46 chromosomes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les chromosomes sont faits d’une molécule appelée…",
+      "options": [
+        "ADN",
+        "eau",
+        "glucose"
+      ],
+      "reponse": "ADN",
+      "indice": "Elle porte l’information génétique.",
+      "explication": "Les chromosomes sont formés d’ADN.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se trouvent les chromosomes dans la cellule ?",
+      "options": [
+        "dans le noyau",
+        "dans la membrane",
+        "hors de la cellule"
+      ],
+      "reponse": "dans le noyau",
+      "indice": "Au centre de la cellule.",
+      "explication": "Les chromosomes sont dans le noyau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un gène est…",
+      "options": [
+        "une portion d’ADN qui détermine un caractère",
+        "une cellule entière",
+        "un organe"
+      ],
+      "reponse": "une portion d’ADN qui détermine un caractère",
+      "indice": "Il est situé sur un chromosome.",
+      "explication": "Un gène est un fragment d’ADN.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les allèles sont…",
+      "options": [
+        "les différentes versions d’un même gène",
+        "des chromosomes sexuels",
+        "des cellules reproductrices"
+      ],
+      "reponse": "les différentes versions d’un même gène",
+      "indice": "Par exemple pour le groupe sanguin.",
+      "explication": "Les allèles sont des versions d’un gène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de chromosomes contient un spermatozoïde ?",
+      "options": [
+        "23",
+        "46",
+        "92"
+      ],
+      "reponse": "23",
+      "indice": "Un chromosome de chaque paire.",
+      "explication": "Les gamètes contiennent 23 chromosomes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi chaque enfant d’un couple est-il génétiquement unique ?",
+      "options": [
+        "chaque gamète reçoit une combinaison différente de chromosomes",
+        "les parents changent d’ADN",
+        "l’ADN est choisi au hasard dans la population"
+      ],
+      "reponse": "chaque gamète reçoit une combinaison différente de chromosomes",
+      "indice": "Et la fécondation les réunit au hasard.",
+      "explication": "Les gamètes sont tous différents et s’unissent au hasard.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-GEN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Lors de la division cellulaire d’une cellule de la peau, les cellules filles…",
+      "options": [
+        "ont les mêmes chromosomes que la cellule mère",
+        "ont deux fois moins de chromosomes",
+        "n’ont plus de noyau"
+      ],
+      "reponse": "ont les mêmes chromosomes que la cellule mère",
+      "indice": "L’information génétique est copiée.",
+      "explication": "La mitose conserve l’information génétique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

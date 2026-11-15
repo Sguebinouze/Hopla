@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-ENER-01",
+  "exemple": "Pour présenter le drone de la classe, on dessine sa chaine d’énergie en quatre blocs reliés par des flèches.",
+  "regle": "Le **schéma bloc** représente la **chaine d’énergie** d’un objet : chaque bloc associe une **fonction** (alimenter, distribuer, convertir, transmettre) à un **constituant**. Les **flèches** indiquent les **flux d’énergie** et leur nature. Chaque conversion s’accompagne de **pertes**, souvent sous forme de **chaleur**.",
+  "piege": "Le schéma bloc ne représente pas la forme de l’objet : il montre seulement son organisation fonctionnelle.",
+  "essai": {
+    "consigne": "Quelle fonction assure un moteur ?",
+    "options": [
+      "convertir",
+      "alimenter",
+      "distribuer"
+    ],
+    "reponse": "convertir",
+    "explication": "Le moteur convertit l’énergie."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-NUMER-01",
+  "exemple": "Sur l’écran de la station météo, la température s’affiche en chiffres, mesurée chaque minute.",
+  "regle": "Un **capteur** fournit souvent un **signal analogique**, qui varie de façon **continue**. Le microcontrôleur le **numérise** : il le mesure à intervalles réguliers et le code en **nombres binaires**, avec des **0** et des **1**. Un **bit** vaut 0 ou 1 ; un **octet** (8 bits) code **256** valeurs. Les images, les sons et les textes sont ainsi codés en données.",
+  "piege": "Numériser fait perdre un peu d’information : on ne garde que les valeurs mesurées.",
+  "essai": {
+    "consigne": "Combien de bits dans un octet ?",
+    "options": [
+      "8",
+      "2",
+      "256"
+    ],
+    "reponse": "8",
+    "explication": "Un octet contient 8 bits."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

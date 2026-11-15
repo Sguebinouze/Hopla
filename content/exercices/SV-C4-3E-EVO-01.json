@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-EVO-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-EVO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un fossile est…",
+      "options": [
+        "le reste ou la trace d’un être vivant ancien conservé dans une roche",
+        "un minéral précieux",
+        "un animal vivant"
+      ],
+      "reponse": "le reste ou la trace d’un être vivant ancien conservé dans une roche",
+      "indice": "Comme une ammonite.",
+      "explication": "Un fossile conserve la trace d’un être vivant passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel scientifique a proposé la théorie de la sélection naturelle ?",
+      "options": [
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Isaac Newton"
+      ],
+      "reponse": "Charles Darwin",
+      "indice": "Il publie un livre en 1859.",
+      "explication": "Darwin propose la sélection naturelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les espèces actuelles…",
+      "options": [
+        "descendent d’espèces plus anciennes",
+        "existent depuis toujours sans changer",
+        "sont toutes apparues en même temps"
+      ],
+      "reponse": "descendent d’espèces plus anciennes",
+      "indice": "Elles ont évolué.",
+      "explication": "Les espèces descendent d’ancêtres communs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand les dinosaures non aviens ont-ils disparu ?",
+      "options": [
+        "il y a environ 66 millions d’années",
+        "il y a 10 000 ans",
+        "il y a 1 milliard d’années"
+      ],
+      "reponse": "il y a environ 66 millions d’années",
+      "indice": "Une crise biologique majeure.",
+      "explication": "Ils disparaissent il y a environ 66 millions d’années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux espèces qui partagent de nombreux caractères…",
+      "options": [
+        "ont un ancêtre commun proche",
+        "n’ont aucun lien de parenté",
+        "sont forcément identiques"
+      ],
+      "reponse": "ont un ancêtre commun proche",
+      "indice": "C’est la base de la classification.",
+      "explication": "Des caractères partagés indiquent une parenté proche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "D’où viennent les nouveaux caractères dans une population ?",
+      "options": [
+        "de mutations de l’ADN, dues au hasard",
+        "de la volonté des animaux",
+        "de l’entrainement"
+      ],
+      "reponse": "de mutations de l’ADN, dues au hasard",
+      "indice": "Ce sont des modifications de l’ADN.",
+      "explication": "Les mutations, aléatoires, créent de nouveaux allèles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Selon la sélection naturelle, quels individus transmettent le plus leurs caractères ?",
+      "options": [
+        "ceux qui survivent et se reproduisent le mieux dans leur milieu",
+        "les plus gros toujours",
+        "ceux qui le décident"
+      ],
+      "reponse": "ceux qui survivent et se reproduisent le mieux dans leur milieu",
+      "indice": "L’avantage dépend du milieu.",
+      "explication": "Les individus avantagés dans leur milieu laissent plus de descendants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-EVO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi des bactéries deviennent-elles résistantes aux antibiotiques ?",
+      "options": [
+        "les bactéries résistantes survivent et se multiplient",
+        "les antibiotiques les rendent plus fortes volontairement",
+        "elles changent de forme pour se cacher"
+      ],
+      "reponse": "les bactéries résistantes survivent et se multiplient",
+      "indice": "C’est un exemple de sélection actuelle.",
+      "explication": "L’antibiotique élimine les sensibles : les résistantes sont sélectionnées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

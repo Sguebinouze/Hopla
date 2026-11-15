@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-GEN-01",
+  "exemple": "Je compare mon groupe sanguin à celui de mes parents : j’ai hérité d’un allèle de chacun.",
+  "regle": "L’**information génétique** est portée par l’**ADN** des **chromosomes**, dans le noyau. Une cellule humaine en contient **46** (23 paires). Un **gène** détermine un caractère ; il existe sous plusieurs versions, les **allèles**. Les **gamètes** contiennent **23** chromosomes, un de chaque paire. La **fécondation** réunit au hasard deux gamètes différents : chaque individu est **unique**.",
+  "piege": "Avoir les mêmes gènes ne signifie pas avoir les mêmes allèles : c’est la combinaison d’allèles qui fait la différence.",
+  "essai": {
+    "consigne": "Combien de chromosomes dans un ovule ?",
+    "options": [
+      "23",
+      "46",
+      "12"
+    ],
+    "reponse": "23",
+    "explication": "Un ovule contient 23 chromosomes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

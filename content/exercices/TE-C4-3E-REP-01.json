@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-REP-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-REP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un dysfonctionnement, c’est…",
+      "options": [
+        "quand un objet ne fonctionne pas comme prévu",
+        "un objet neuf",
+        "une notice"
+      ],
+      "reponse": "quand un objet ne fonctionne pas comme prévu",
+      "indice": "Une panne par exemple.",
+      "explication": "Un dysfonctionnement est un écart au fonctionnement attendu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que faut-il faire avant d’ouvrir un appareil électrique ?",
+      "options": [
+        "le débrancher",
+        "l’allumer",
+        "le secouer"
+      ],
+      "reponse": "le débrancher",
+      "indice": "Sécurité avant tout.",
+      "explication": "On débranche toujours l’appareil avant d’intervenir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une imprimante 3D peut servir à…",
+      "options": [
+        "fabriquer une pièce de remplacement sur mesure",
+        "souder des fils",
+        "mesurer une tension"
+      ],
+      "reponse": "fabriquer une pièce de remplacement sur mesure",
+      "indice": "Une pièce cassée introuvable.",
+      "explication": "On peut imprimer une pièce de remplacement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Formuler une hypothèse, c’est…",
+      "options": [
+        "proposer une cause possible de la panne",
+        "réparer tout de suite",
+        "jeter l’objet"
+      ],
+      "reponse": "proposer une cause possible de la panne",
+      "indice": "On la vérifie ensuite.",
+      "explication": "Une hypothèse est une cause possible à vérifier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour vérifier si un fil électrique est coupé, on peut utiliser…",
+      "options": [
+        "un multimètre en mode continuité",
+        "un thermomètre",
+        "une règle"
+      ],
+      "reponse": "un multimètre en mode continuité",
+      "indice": "Il bipe si le courant passe.",
+      "explication": "Le multimètre teste la continuité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un protocole de dépannage, on teste les hypothèses…",
+      "options": [
+        "une par une, de la plus simple à la plus complexe",
+        "toutes en même temps au hasard",
+        "jamais"
+      ],
+      "reponse": "une par une, de la plus simple à la plus complexe",
+      "indice": "On commence par la prise.",
+      "explication": "On teste méthodiquement, du plus simple au plus difficile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi réparer plutôt que remplacer ?",
+      "options": [
+        "pour économiser des ressources et réduire les déchets",
+        "pour polluer davantage",
+        "parce que c’est interdit de racheter"
+      ],
+      "reponse": "pour économiser des ressources et réduire les déchets",
+      "indice": "Pense au cycle de vie.",
+      "explication": "Réparer prolonge la vie de l’objet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-REP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une pièce réalisée sur mesure doit respecter…",
+      "options": [
+        "les dimensions et les contraintes de la pièce d’origine",
+        "seulement la couleur",
+        "aucune contrainte"
+      ],
+      "reponse": "les dimensions et les contraintes de la pièce d’origine",
+      "indice": "Elle doit s’emboiter et résister.",
+      "explication": "La pièce doit respecter dimensions et sollicitations.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

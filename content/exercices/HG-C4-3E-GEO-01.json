@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C4-3E-GEO-01",
+  "exercices": [
+    {
+      "id": "HG-C4-3E-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où vit la grande majorité des Français ?",
+      "options": [
+        "dans les villes et leurs aires d’influence",
+        "dans des fermes isolées",
+        "en montagne"
+      ],
+      "reponse": "dans les villes et leurs aires d’influence",
+      "indice": "La France est très urbanisée.",
+      "explication": "La grande majorité des Français vit dans l’influence des villes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la plus grande aire urbaine de France ?",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Marseille"
+      ],
+      "reponse": "Paris",
+      "indice": "C’est la capitale.",
+      "explication": "L’aire urbaine de Paris est la plus peuplée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un espace périurbain est…",
+      "options": [
+        "un espace autour de la ville où l’on construit des lotissements",
+        "le centre historique",
+        "une zone de haute montagne"
+      ],
+      "reponse": "un espace autour de la ville où l’on construit des lotissements",
+      "indice": "Entre ville et campagne.",
+      "explication": "Le périurbain mêle habitat récent et espaces agricoles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les mobilités pendulaires sont…",
+      "options": [
+        "les trajets quotidiens entre domicile et travail",
+        "les voyages de vacances",
+        "les déménagements"
+      ],
+      "reponse": "les trajets quotidiens entre domicile et travail",
+      "indice": "Aller le matin, retour le soir.",
+      "explication": "Ce sont les déplacements quotidiens domicile-travail.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une aire urbaine comprend…",
+      "options": [
+        "un pôle urbain et sa couronne périurbaine",
+        "seulement le centre-ville",
+        "seulement des villages"
+      ],
+      "reponse": "un pôle urbain et sa couronne périurbaine",
+      "indice": "Le pôle offre les emplois.",
+      "explication": "L’aire urbaine associe un pôle et sa couronne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi des ménages s’installent-ils dans le périurbain ?",
+      "options": [
+        "pour avoir une maison avec jardin moins chère",
+        "pour être plus près du métro",
+        "parce qu’il n’y a pas de voiture"
+      ],
+      "reponse": "pour avoir une maison avec jardin moins chère",
+      "indice": "Le foncier coute moins cher.",
+      "explication": "Le périurbain offre des logements plus grands et moins chers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est un inconvénient de l’étalement urbain ?",
+      "options": [
+        "la consommation de terres agricoles et la dépendance à la voiture",
+        "la baisse des trajets",
+        "la disparition des embouteillages"
+      ],
+      "reponse": "la consommation de terres agricoles et la dépendance à la voiture",
+      "indice": "La ville grignote les champs.",
+      "explication": "L’étalement consomme des terres et allonge les trajets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-3E-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une métropole est une grande ville qui…",
+      "options": [
+        "concentre population, emplois et fonctions de commandement",
+        "n’a aucun emploi",
+        "est isolée des autres villes"
+      ],
+      "reponse": "concentre population, emplois et fonctions de commandement",
+      "indice": "Lyon, Lille, Bordeaux…",
+      "explication": "La métropole concentre hommes, activités et décisions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

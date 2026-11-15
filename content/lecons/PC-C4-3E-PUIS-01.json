@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-PUIS-01",
+  "exemple": "Sur la plaque du sèche-cheveux, je lis : 230 V, 1 800 W.",
+  "regle": "La **puissance** d’un appareil (en **watts**) indique l’énergie qu’il convertit chaque seconde. Elle se calcule par **P = U × I**. L’**énergie** consommée dépend de la puissance et de la durée : **E = P × t**. En joules si t est en secondes, en **kWh** si P est en kW et t en heures. Le **disjoncteur** protège contre une intensité trop forte.",
+  "piege": "Ne pas confondre puissance et énergie : un appareil puissant utilisé une minute peut consommer peu.",
+  "essai": {
+    "consigne": "Une lampe de 20 W allumée 10 h consomme…",
+    "options": [
+      "200 Wh",
+      "30 Wh",
+      "2 Wh"
+    ],
+    "reponse": "200 Wh",
+    "explication": "E = 20 × 10 = 200 Wh."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

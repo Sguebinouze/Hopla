@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-NUMER-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-NUMER-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un signal analogique…",
+      "options": [
+        "varie de façon continue",
+        "ne prend que deux valeurs",
+        "n’existe pas"
+      ],
+      "reponse": "varie de façon continue",
+      "indice": "Comme une température.",
+      "explication": "Un signal analogique varie continument.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le système binaire utilise…",
+      "options": [
+        "les chiffres 0 et 1",
+        "les chiffres de 0 à 9",
+        "les lettres A et B"
+      ],
+      "reponse": "les chiffres 0 et 1",
+      "indice": "Ce sont les bits.",
+      "explication": "Le binaire n’utilise que 0 et 1.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un bit peut prendre…",
+      "options": [
+        "2 valeurs",
+        "10 valeurs",
+        "256 valeurs"
+      ],
+      "reponse": "2 valeurs",
+      "indice": "0 ou 1.",
+      "explication": "Un bit vaut 0 ou 1.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de valeurs différentes peut coder un octet ?",
+      "options": [
+        "256",
+        "8",
+        "16"
+      ],
+      "reponse": "256",
+      "indice": "2 puissance 8.",
+      "explication": "Un octet code 2⁸ = 256 valeurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Numériser un signal, c’est…",
+      "options": [
+        "le transformer en une suite de nombres",
+        "l’effacer",
+        "l’amplifier"
+      ],
+      "reponse": "le transformer en une suite de nombres",
+      "indice": "On le mesure à intervalles réguliers.",
+      "explication": "Numériser, c’est coder le signal en nombres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est l’écriture décimale du nombre binaire 101 ?",
+      "options": [
+        "5",
+        "101",
+        "3"
+      ],
+      "reponse": "5",
+      "indice": "1×4 + 0×2 + 1×1.",
+      "explication": "101 en binaire vaut 4 + 1 = 5.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une image numérique est formée de…",
+      "options": [
+        "pixels codés par des nombres",
+        "traits continus",
+        "gouttes d’encre uniquement"
+      ],
+      "reponse": "pixels codés par des nombres",
+      "indice": "Chaque point a une couleur.",
+      "explication": "Une image numérique est une grille de pixels codés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-NUMER-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi mesure-t-on un signal plus souvent pour mieux le numériser ?",
+      "options": [
+        "la suite de nombres décrit alors plus fidèlement le signal",
+        "le fichier devient plus petit",
+        "le capteur se recharge"
+      ],
+      "reponse": "la suite de nombres décrit alors plus fidèlement le signal",
+      "indice": "C’est la fréquence d’échantillonnage.",
+      "explication": "Plus d’échantillons donnent une numérisation plus fidèle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

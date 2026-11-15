@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-ATOM-01",
+  "exemple": "Si le noyau d’un atome avait la taille d’une bille, l’atome aurait la taille d’un stade.",
+  "regle": "Un **atome** est formé d’un **noyau** (protons positifs et neutrons) et d’**électrons** négatifs qui l’entourent. Il est **électriquement neutre** : autant de protons que d’électrons. Il est minuscule (environ **10⁻¹⁰ m**) et constitué surtout de **vide**. Un **ion** est un atome qui a perdu (ion **positif**) ou gagné (ion **négatif**) des électrons.",
+  "piege": "Un ion positif a perdu des électrons, il n’a pas gagné de protons.",
+  "essai": {
+    "consigne": "Combien de protons a un atome neutre de 8 électrons ?",
+    "options": [
+      "8",
+      "16",
+      "4"
+    ],
+    "reponse": "8",
+    "explication": "Un atome neutre a autant de protons que d’électrons."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

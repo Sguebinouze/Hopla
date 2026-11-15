@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C4-3E-GEO-02",
+  "exemple": "Dans la vallée, l’ancienne usine textile est devenue un centre commercial et un musée.",
+  "regle": "Les **espaces productifs** sont **industriels**, **agricoles**, **touristiques** ou **d’affaires**. Ils se transforment avec l’**urbanisation** et la **mondialisation**. L’industrie recule (**désindustrialisation**) mais se modernise près des axes de transport et dans les **technopoles**. La majorité des actifs travaille dans les **services**. La France reste la première puissance **agricole** de l’UE.",
+  "piege": "Désindustrialisation ne signifie pas disparition : l’industrie se transforme et se concentre.",
+  "essai": {
+    "consigne": "Dans quel secteur travaille la majorité des actifs ?",
+    "options": [
+      "les services",
+      "l’industrie",
+      "l’agriculture"
+    ],
+    "reponse": "les services",
+    "explication": "La majorité des actifs travaille dans les services."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

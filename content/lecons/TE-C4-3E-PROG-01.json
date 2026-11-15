@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-PROG-01",
+  "exemple": "On traduit en Python le programme par blocs du robot : chaque bloc devient une ligne de code.",
+  "regle": "Pour ajouter une **fonctionnalité**, on détermine les **données** utilisées et produites, puis on écrit l’**algorithme**. On le **programme** avec des **évènements**, des **conditions**, des **boucles** et des **variables**, par blocs ou en langage **textuel** (Python). On **teste** ensuite avec plusieurs valeurs, y compris les cas limites.",
+  "piege": "Un programme qui marche pour une valeur peut échouer pour une autre : il faut tester plusieurs cas.",
+  "essai": {
+    "consigne": "Quelle structure répète des instructions ?",
+    "options": [
+      "une boucle",
+      "une condition",
+      "un capteur"
+    ],
+    "reponse": "une boucle",
+    "explication": "Une boucle répète des instructions."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

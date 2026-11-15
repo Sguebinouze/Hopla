@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-GRAV-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-GRAV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le poids d’un objet s’exprime en…",
+      "options": [
+        "newtons",
+        "kilogrammes",
+        "litres"
+      ],
+      "reponse": "newtons",
+      "indice": "C’est une force.",
+      "explication": "Le poids est une force, en newtons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La masse d’un objet s’exprime en…",
+      "options": [
+        "kilogrammes",
+        "newtons",
+        "mètres"
+      ],
+      "reponse": "kilogrammes",
+      "indice": "On la mesure avec une balance.",
+      "explication": "La masse s’exprime en kilogrammes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur la Lune, la masse d’un astronaute…",
+      "options": [
+        "reste la même",
+        "diminue",
+        "devient nulle"
+      ],
+      "reponse": "reste la même",
+      "indice": "La quantité de matière ne change pas.",
+      "explication": "La masse ne dépend pas du lieu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur Terre, g ≈ 10 N/kg. Quel est le poids d’un objet de 5 kg ?",
+      "options": [
+        "50 N",
+        "5 N",
+        "0,5 N"
+      ],
+      "reponse": "50 N",
+      "indice": "P = m × g.",
+      "explication": "P = 5 × 10 = 50 N.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La gravitation est une attraction entre…",
+      "options": [
+        "deux corps qui ont une masse",
+        "deux aimants seulement",
+        "deux charges identiques"
+      ],
+      "reponse": "deux corps qui ont une masse",
+      "indice": "Elle s’exerce à distance.",
+      "explication": "Tout corps ayant une masse attire les autres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand la distance entre deux astres augmente, la force de gravitation…",
+      "options": [
+        "diminue",
+        "augmente",
+        "ne change pas"
+      ],
+      "reponse": "diminue",
+      "indice": "Plus on s’éloigne, plus elle est faible.",
+      "explication": "La gravitation diminue avec la distance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur la Lune, g ≈ 1,6 N/kg. Quel est le poids d’un objet de 10 kg ?",
+      "options": [
+        "16 N",
+        "100 N",
+        "1,6 N"
+      ],
+      "reponse": "16 N",
+      "indice": "P = m × g.",
+      "explication": "P = 10 × 1,6 = 16 N.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la Lune tourne-t-elle autour de la Terre ?",
+      "options": [
+        "la Terre l’attire par gravitation",
+        "le vent la pousse",
+        "elle est attachée par un aimant"
+      ],
+      "reponse": "la Terre l’attire par gravitation",
+      "indice": "Une attraction à distance.",
+      "explication": "La gravitation terrestre maintient la Lune sur son orbite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

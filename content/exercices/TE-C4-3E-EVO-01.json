@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-EVO-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-EVO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une invention, c’est…",
+      "options": [
+        "la création de quelque chose qui n’existait pas",
+        "la vente d’un produit",
+        "une publicité"
+      ],
+      "reponse": "la création de quelque chose qui n’existait pas",
+      "indice": "Elle n’est pas forcément commercialisée.",
+      "explication": "Une invention crée une nouveauté.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une innovation, c’est…",
+      "options": [
+        "une nouveauté qui se diffuse dans la société",
+        "un objet ancien",
+        "une panne"
+      ],
+      "reponse": "une nouveauté qui se diffuse dans la société",
+      "indice": "Elle trouve des utilisateurs.",
+      "explication": "Une innovation est adoptée par la société.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une intelligence artificielle apprend à partir…",
+      "options": [
+        "de données",
+        "du hasard seul",
+        "de rien"
+      ],
+      "reponse": "de données",
+      "indice": "Beaucoup d’exemples.",
+      "explication": "Une IA apprend à partir de données.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une innovation de rupture…",
+      "options": [
+        "change profondément les usages",
+        "améliore un détail",
+        "n’est jamais adoptée"
+      ],
+      "reponse": "change profondément les usages",
+      "indice": "Pense au smartphone.",
+      "explication": "Elle bouleverse les usages existants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans l’apprentissage supervisé, on fournit à l’IA…",
+      "options": [
+        "des exemples déjà étiquetés",
+        "aucune donnée",
+        "seulement des images floues"
+      ],
+      "reponse": "des exemples déjà étiquetés",
+      "indice": "Photos marquées « chat » ou « chien ».",
+      "explication": "L’apprentissage supervisé utilise des données étiquetées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel usage relève de l’intelligence artificielle ?",
+      "options": [
+        "la traduction automatique",
+        "un interrupteur",
+        "un marteau"
+      ],
+      "reponse": "la traduction automatique",
+      "indice": "Elle traite le langage.",
+      "explication": "La traduction automatique utilise l’IA.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un biais d’une IA, c’est…",
+      "options": [
+        "une erreur systématique due à des données d’apprentissage déséquilibrées",
+        "une panne d’électricité",
+        "une mise à jour"
+      ],
+      "reponse": "une erreur systématique due à des données d’apprentissage déséquilibrées",
+      "indice": "Les données reflètent des inégalités.",
+      "explication": "Des données biaisées produisent des résultats biaisés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-EVO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi faut-il garder un regard critique sur la réponse d’une IA ?",
+      "options": [
+        "elle peut se tromper ou inventer",
+        "elle a toujours raison",
+        "elle remplace toute vérification"
+      ],
+      "reponse": "elle peut se tromper ou inventer",
+      "indice": "Vérifie les sources.",
+      "explication": "Une IA peut produire des erreurs : il faut vérifier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

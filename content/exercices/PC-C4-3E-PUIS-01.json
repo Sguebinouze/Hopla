@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-PUIS-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-PUIS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La puissance électrique s’exprime en…",
+      "options": [
+        "watts",
+        "volts",
+        "ohms"
+      ],
+      "reponse": "watts",
+      "indice": "Symbole W.",
+      "explication": "La puissance s’exprime en watts.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur une facture, l’énergie électrique est comptée en…",
+      "options": [
+        "kilowattheures",
+        "kilogrammes",
+        "kilomètres"
+      ],
+      "reponse": "kilowattheures",
+      "indice": "Symbole kWh.",
+      "explication": "La facture compte l’énergie en kWh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un appareil de 2 000 W est plus puissant qu’un appareil de…",
+      "options": [
+        "500 W",
+        "3 000 W",
+        "2 500 W"
+      ],
+      "reponse": "500 W",
+      "indice": "Compare les nombres.",
+      "explication": "2 000 W est plus que 500 W.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle relation lie puissance, tension et intensité ?",
+      "options": [
+        "P = U × I",
+        "P = U ÷ I",
+        "P = U + I"
+      ],
+      "reponse": "P = U × I",
+      "indice": "En watts, volts et ampères.",
+      "explication": "P = U × I.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle relation lie énergie, puissance et durée ?",
+      "options": [
+        "E = P × t",
+        "E = P ÷ t",
+        "E = P + t"
+      ],
+      "reponse": "E = P × t",
+      "indice": "Plus longtemps, plus d’énergie.",
+      "explication": "E = P × t.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un appareil fonctionne sous 230 V avec une intensité de 2 A. Sa puissance est…",
+      "options": [
+        "460 W",
+        "115 W",
+        "232 W"
+      ],
+      "reponse": "460 W",
+      "indice": "P = U × I.",
+      "explication": "P = 230 × 2 = 460 W.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un radiateur de 1 000 W fonctionne 3 h. Quelle énergie consomme-t-il ?",
+      "options": [
+        "3 kWh",
+        "3 000 kWh",
+        "0,3 kWh"
+      ],
+      "reponse": "3 kWh",
+      "indice": "1 kW × 3 h.",
+      "explication": "E = 1 kW × 3 h = 3 kWh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un disjoncteur coupe-t-il le courant si l’on branche trop d’appareils sur une prise ?",
+      "options": [
+        "l’intensité devient trop grande et les fils chauffent",
+        "la tension devient nulle",
+        "les appareils s’éteignent seuls"
+      ],
+      "reponse": "l’intensité devient trop grande et les fils chauffent",
+      "indice": "Risque d’incendie.",
+      "explication": "Le disjoncteur protège contre une intensité excessive.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

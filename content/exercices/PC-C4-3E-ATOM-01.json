@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-ATOM-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-ATOM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un atome est constitué…",
+      "options": [
+        "d’un noyau et d’électrons",
+        "uniquement d’électrons",
+        "de molécules"
+      ],
+      "reponse": "d’un noyau et d’électrons",
+      "indice": "Les électrons tournent autour du noyau.",
+      "explication": "L’atome comporte un noyau entouré d’électrons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la charge électrique d’un électron ?",
+      "options": [
+        "négative",
+        "positive",
+        "nulle"
+      ],
+      "reponse": "négative",
+      "indice": "On la note −e.",
+      "explication": "L’électron porte une charge négative.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un atome est électriquement…",
+      "options": [
+        "neutre",
+        "toujours positif",
+        "toujours négatif"
+      ],
+      "reponse": "neutre",
+      "indice": "Charges positives et négatives se compensent.",
+      "explication": "L’atome est électriquement neutre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le noyau est formé…",
+      "options": [
+        "de protons et de neutrons",
+        "d’électrons",
+        "de molécules"
+      ],
+      "reponse": "de protons et de neutrons",
+      "indice": "Ce sont les nucléons.",
+      "explication": "Le noyau contient protons et neutrons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un ion positif est un atome qui a…",
+      "options": [
+        "perdu un ou plusieurs électrons",
+        "gagné des électrons",
+        "perdu son noyau"
+      ],
+      "reponse": "perdu un ou plusieurs électrons",
+      "indice": "Moins de charges négatives.",
+      "explication": "Un cation a perdu des électrons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est l’ordre de grandeur de la taille d’un atome ?",
+      "options": [
+        "10⁻¹⁰ m",
+        "10⁻² m",
+        "1 m"
+      ],
+      "reponse": "10⁻¹⁰ m",
+      "indice": "Un dixième de milliardième de mètre.",
+      "explication": "Un atome mesure environ 10⁻¹⁰ m.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’ion chlorure Cl⁻ a…",
+      "options": [
+        "gagné un électron",
+        "perdu un électron",
+        "perdu un proton"
+      ],
+      "reponse": "gagné un électron",
+      "indice": "Le signe moins indique un excès d’électrons.",
+      "explication": "Cl⁻ porte une charge négative : il a gagné un électron.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ATOM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un atome a 6 protons. Combien a-t-il d’électrons ?",
+      "options": [
+        "6",
+        "12",
+        "3"
+      ],
+      "reponse": "6",
+      "indice": "Il est neutre.",
+      "explication": "Un atome neutre a autant d’électrons que de protons : 6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

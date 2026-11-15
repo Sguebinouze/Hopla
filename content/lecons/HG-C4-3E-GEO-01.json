@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C4-3E-GEO-01",
+  "exemple": "Dans le village de Sarah, à 30 km de Lyon, de nouveaux lotissements remplacent des champs.",
+  "regle": "Depuis 50 ans, l’**urbanisation** a transformé la France. La grande majorité des Français vit dans une **aire urbaine** : un **pôle urbain** (centre, banlieues) et une **couronne périurbaine**. Les **mobilités pendulaires** relient domicile et travail. Les **métropoles** concentrent emplois et fonctions de commandement. L’**étalement urbain** consomme des terres agricoles.",
+  "piege": "Vivre dans un village n’empêche pas d’être urbain : beaucoup de villageois travaillent en ville.",
+  "essai": {
+    "consigne": "Les trajets quotidiens domicile-travail sont des mobilités…",
+    "options": [
+      "pendulaires",
+      "touristiques",
+      "internationales"
+    ],
+    "reponse": "pendulaires",
+    "explication": "Ce sont des mobilités pendulaires."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-EVO-01",
+  "exemple": "Une IA de reconnaissance d’images entrainée surtout sur des photos de chats reconnait mal les chiens.",
+  "regle": "Une **invention** crée une nouveauté ; une **innovation** est une nouveauté adoptée par la société. Une **innovation de rupture** change profondément les usages (imprimerie, smartphone). Les **intelligences artificielles** apprennent à partir de **données** ; dans l’apprentissage **supervisé**, ces données sont étiquetées. Leurs résultats peuvent comporter des **biais** : il faut les vérifier.",
+  "piege": "Une IA ne « comprend » pas comme un humain : elle reproduit ce qu’elle a appris dans ses données.",
+  "essai": {
+    "consigne": "Une IA apprend à partir de…",
+    "options": [
+      "données",
+      "rien",
+      "ses émotions"
+    ],
+    "reponse": "données",
+    "explication": "Une IA apprend à partir de données."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

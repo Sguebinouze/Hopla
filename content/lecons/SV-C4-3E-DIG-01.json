@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-DIG-01",
+  "exemple": "Je mâche longtemps un morceau de pain : il devient légèrement sucré.",
+  "regle": "La **digestion** transforme les **aliments** en **nutriments** grâce aux **enzymes digestives**. Par exemple, l’**amidon** devient du **glucose**. Les nutriments passent dans le **sang** au niveau de l’**intestin grêle**, dont les **villosités** offrent une grande surface d’échange. Le **microbiote intestinal** participe à la digestion. Une alimentation **équilibrée** est indispensable à la santé.",
+  "piege": "Les aliments ne passent pas tels quels dans le sang : ils doivent d’abord être transformés en nutriments.",
+  "essai": {
+    "consigne": "Où les nutriments passent-ils dans le sang ?",
+    "options": [
+      "dans l’intestin grêle",
+      "dans l’estomac",
+      "dans le gros intestin"
+    ],
+    "reponse": "dans l’intestin grêle",
+    "explication": "Ils passent dans le sang au niveau de l’intestin grêle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

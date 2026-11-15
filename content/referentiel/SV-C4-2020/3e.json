@@ -1,0 +1,66 @@
+{
+  "programme": "SV-C4-2020",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "SV-C4-3E-GEN-01",
+      "titre": "Génétique et hérédité",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier l’information génétique à la diversité des individus",
+      "attendu": "Relier l’ADN, les chromosomes et les gènes aux caractères héréditaires et expliquer l’unicité de chaque individu par la reproduction sexuée.",
+      "exemple": "Deux frères ont les mêmes parents, mais pas tout à fait les mêmes caractères : chacun a reçu une combinaison différente d’allèles.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "La diversité génétique des individus : on passe progressivement du constat de la diversité"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-3E-EVO-01",
+      "titre": "L’évolution des êtres vivants",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Mettre en évidence des faits d’évolution des espèces",
+      "attendu": "Relier la parenté des êtres vivants à l’évolution et expliquer le rôle du hasard et de la sélection naturelle.",
+      "exemple": "Les fossiles montrent que des espèces ont disparu et que d’autres sont apparues au cours des temps géologiques.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "La classification du vivant et l'évolution des êtres vivants : dans le prolongement du cycle 3"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-3E-IMMU-01",
+      "titre": "Immunité et santé",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Relations avec le monde microbien",
+      "attendu": "Expliquer les défenses de l’organisme contre les micro-organismes et le rôle de la vaccination, des antiseptiques et des antibiotiques.",
+      "exemple": "Un vaccin prépare l’organisme à reconnaitre un microbe avant même de le rencontrer.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 114,
+        "extrait": "l'explication globale est atteinte en classe de 3e."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-3E-DIG-01",
+      "titre": "Digestion et nutriments",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Alimentation et digestion",
+      "attendu": "Expliquer la transformation des aliments en nutriments par les enzymes digestives et leur passage dans le sang.",
+      "exemple": "Dans la bouche, la salive commence à transformer l’amidon du pain en sucre.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 114,
+        "extrait": "moléculaires à la classe de 3e. On veille à ce que l'éducation à la santé accompagne l'étude"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

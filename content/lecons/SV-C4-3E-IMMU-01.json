@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-IMMU-01",
+  "exemple": "Après une écorchure, je nettoie la plaie et j’applique un antiseptique.",
+  "regle": "Notre corps héberge de nombreux **micro-organismes**, souvent utiles. Certains sont **pathogènes**. La peau et l’**hygiène** limitent la contamination. En cas d’infection, les **globules blancs** réagissent : **phagocytose**, puis production d’**anticorps** par des **lymphocytes**. La **vaccination** crée une **mémoire immunitaire**. Les **antibiotiques** agissent sur les **bactéries**, pas sur les virus.",
+  "piege": "Un antibiotique ne soigne pas un rhume : c’est un virus, et l’abus d’antibiotiques favorise les résistances.",
+  "essai": {
+    "consigne": "Contre quoi agissent les antibiotiques ?",
+    "options": [
+      "les bactéries",
+      "les virus",
+      "les champignons uniquement"
+    ],
+    "reponse": "les bactéries",
+    "explication": "Les antibiotiques agissent sur les bactéries."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

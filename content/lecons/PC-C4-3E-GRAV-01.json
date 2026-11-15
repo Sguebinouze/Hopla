@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-GRAV-01",
+  "exemple": "Je suspends un sac de 2 kg à un dynamomètre : il indique environ 20 N.",
+  "regle": "La **masse** (en **kg**) mesure la quantité de matière ; elle ne dépend pas du lieu. Le **poids** est une **force** (en **newtons**) exercée par un astre. On le calcule avec **P = m × g** ; sur Terre, **g ≈ 9,8 N/kg**. La **gravitation** est une **attraction à distance** entre deux corps qui ont une masse. Elle diminue quand la distance augmente.",
+  "piege": "Dans la vie courante, on dit « je pèse 50 kilos » : c’est en fait une masse, pas un poids.",
+  "essai": {
+    "consigne": "Sur Terre (g ≈ 10 N/kg), quel est le poids d’un objet de 3 kg ?",
+    "options": [
+      "30 N",
+      "3 N",
+      "13 N"
+    ],
+    "reponse": "30 N",
+    "explication": "P = 3 × 10 = 30 N."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

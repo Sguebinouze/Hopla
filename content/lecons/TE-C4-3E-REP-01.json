@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-REP-01",
+  "exemple": "Le ventilateur ne tourne plus : on teste la prise, puis le fusible, puis le moteur.",
+  "regle": "Face à un **dysfonctionnement**, on **formule des hypothèses** sur sa cause. On les vérifie avec un **protocole de dépannage**, de la plus simple à la plus difficile, en respectant les règles de **sécurité**. On **répare** ensuite : remplacement d’un composant ou **pièce sur mesure** (impression 3D, découpe). **Réparer** prolonge la durée de vie de l’objet.",
+  "piege": "Toujours débrancher un appareil avant de l’ouvrir : la sécurité passe avant la réparation.",
+  "essai": {
+    "consigne": "Que faut-il faire avant d’ouvrir un appareil ?",
+    "options": [
+      "le débrancher",
+      "le brancher",
+      "l’allumer"
+    ],
+    "reponse": "le débrancher",
+    "explication": "On débranche toujours l’appareil avant de l’ouvrir."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

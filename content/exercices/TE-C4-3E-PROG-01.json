@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-PROG-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-PROG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avant de programmer, on écrit souvent…",
+      "options": [
+        "un algorithme",
+        "une notice de montage",
+        "un poème"
+      ],
+      "reponse": "un algorithme",
+      "indice": "En langage naturel ou en organigramme.",
+      "explication": "On commence par l’algorithme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle instruction permet de répéter des actions ?",
+      "options": [
+        "une boucle",
+        "une condition",
+        "une variable"
+      ],
+      "reponse": "une boucle",
+      "indice": "Répéter, tant que.",
+      "explication": "La boucle répète des actions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un évènement dans un programme peut être…",
+      "options": [
+        "l’appui sur un bouton",
+        "la couleur du boitier",
+        "le nom du fichier"
+      ],
+      "reponse": "l’appui sur un bouton",
+      "indice": "Il déclenche une action.",
+      "explication": "Un évènement déclenche une partie du programme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En Python, que fait l’instruction print(\"Bonjour\") ?",
+      "options": [
+        "elle affiche Bonjour",
+        "elle efface Bonjour",
+        "elle demande Bonjour"
+      ],
+      "reponse": "elle affiche Bonjour",
+      "indice": "print signifie « afficher ».",
+      "explication": "print affiche un message.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une variable « compteur » vaut 0. Une boucle « répéter 5 fois : ajouter 1 à compteur » s’exécute. Que vaut compteur ?",
+      "options": [
+        "5",
+        "1",
+        "0"
+      ],
+      "reponse": "5",
+      "indice": "0 + 1 + 1 + 1 + 1 + 1.",
+      "explication": "Après 5 tours, compteur vaut 5.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelles données utilise un programme d’éclairage automatique ?",
+      "options": [
+        "la luminosité mesurée et un seuil",
+        "la couleur des murs",
+        "le nom de l’utilisateur"
+      ],
+      "reponse": "la luminosité mesurée et un seuil",
+      "indice": "Le capteur fournit une valeur.",
+      "explication": "Le programme compare la luminosité à un seuil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En Python, comment écrit-on « si x est supérieur à 10 » ?",
+      "options": [
+        "if x > 10:",
+        "while x = 10",
+        "print x > 10"
+      ],
+      "reponse": "if x > 10:",
+      "indice": "if signifie « si ».",
+      "explication": "On écrit if x > 10: en Python.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi tester un programme avec plusieurs valeurs, y compris extrêmes ?",
+      "options": [
+        "pour vérifier qu’il fonctionne dans tous les cas",
+        "pour le ralentir",
+        "pour l’effacer"
+      ],
+      "reponse": "pour vérifier qu’il fonctionne dans tous les cas",
+      "indice": "Par exemple au seuil exact.",
+      "explication": "Tester plusieurs cas révèle les erreurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "programme": "EM-C4-2024",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "EM-C4-3E-CONST-01",
+      "titre": "La Constitution de la Ve République",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles du jeu démocratique",
+      "attendu": "Comprendre que la Constitution garantit les droits et libertés, organise la séparation des pouvoirs et a évolué depuis 1958.",
+      "exemple": "Depuis 1962, le président de la République est élu au suffrage universel direct.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 23,
+        "extrait": "Les règles du jeu démocratique (6 à 8 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-3E-EUR-01",
+      "titre": "Les institutions européennes",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles du jeu démocratique",
+      "attendu": "Présenter les institutions de l’Union européenne et du Conseil de l’Europe et les droits liés à la citoyenneté européenne.",
+      "exemple": "Un citoyen européen qui habite en France peut voter aux élections municipales de sa commune.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 23,
+        "extrait": "depuis l’après-guerre, la démocratie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-3E-OPI-01",
+      "titre": "Opinion et information",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les acteurs du jeu démocratique et leur engagement : l’opinion",
+      "attendu": "Comprendre le rôle de l’opinion publique, des médias et des sondages, et repérer la désinformation et le complotisme.",
+      "exemple": "Avant de partager une vidéo choc, je vérifie sa source et sa date.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 24,
+        "extrait": "Les acteurs du jeu démocratique et leur engagement (1) : l’opinion (5 à 6 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-3E-ENG-01",
+      "titre": "Voter et s’engager",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les acteurs du jeu démocratique et leur engagement : l’engagement collectif",
+      "attendu": "Connaitre les différentes élections, le référendum et les formes d’engagement politique, syndical, associatif et scolaire.",
+      "exemple": "Au collège, les délégués de classe représentent leurs camarades au conseil de classe.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 24,
+        "extrait": "Les acteurs du jeu démocratique et leur engagement (2) : l’engagement collectif (5 à 6 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

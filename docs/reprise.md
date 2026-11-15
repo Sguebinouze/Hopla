@@ -55,7 +55,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - CM2 (fait) : histoire-géographie `HG-C3-2020` et sciences et technologie `ST-C3-2023` (colonne « cours moyen » du programme, encore en vigueur au CM2 en 2026-2027), EMC `EM-C3-2024`. 20 notions (6 + 10 + 4), 160 questions, 20 leçons.
 - 5e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024`, EMC `EM-C4-2024` (thème « Égalité, fraternité et solidarité »). 22 notions (6 + 5 + 3 + 5 + 3), 176 questions, 22 leçons. Les programmes 2020 de SVT et de physique-chimie ne répartissent pas les notions par année : la classe est justifiée par les « repères de progressivité » cités en extrait (« dès la classe de 5e », « dès le début du cycle »). À confirmer à la relecture.
 - 4e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024` (colonne 4e des repères de progressivité), EMC `EM-C4-2024` (thème « Défendre les droits et les libertés »). 28 notions (10 + 5 + 3 + 6 + 4), 224 questions, 28 leçons. Même prudence qu’en 5e pour la SVT et la physique-chimie ; la reproduction humaine et la géologie sont placées en 4e par usage, l’extrait cité ne fixe pas l’année.
-- À suivre : 3e (mêmes programmes), puis anglais des autres classes.
+- 3e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024`, EMC `EM-C4-2024` (thème « Faire vivre la démocratie »). 36 notions (17 + 5 + 4 + 6 + 4), 288 questions, 36 leçons. En SVT, génétique et évolution sont placées en 3e par usage (l’extrait décrit une progression sur le cycle) ; digestion et immunité s’appuient sur les phrases qui les réservent à la 3e.
+- À suivre : anglais des autres classes (CP, CE2, CM1, CM2, 5e ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027).
 
 ## Travail à deux sessions
 

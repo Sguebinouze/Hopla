@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-NRJ-01",
+  "exemple": "Un camion et une voiture roulent à la même vitesse : le camion, plus lourd, met plus de distance à s’arrêter.",
+  "regle": "Un objet en **mouvement** possède une **énergie cinétique** : **Ec = ½ m v²**, avec m en kg, v en m/s et Ec en **joules**. Elle augmente avec la masse et surtout avec la **vitesse** : si la vitesse **double**, l’énergie est multipliée par **4**. Pour freiner, il faut dissiper cette énergie : la **distance de freinage** augmente donc fortement avec la vitesse.",
+  "piege": "Doubler la vitesse ne double pas l’énergie cinétique : elle est multipliée par quatre.",
+  "essai": {
+    "consigne": "Si la vitesse est multipliée par 3, l’énergie cinétique est multipliée par…",
+    "options": [
+      "9",
+      "3",
+      "6"
+    ],
+    "reponse": "9",
+    "explication": "3² = 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

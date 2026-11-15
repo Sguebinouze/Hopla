@@ -1,0 +1,81 @@
+{
+  "programme": "PC-C4-2020",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "PC-C4-3E-ATOM-01",
+      "titre": "Structure de l’atome",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Décrire la constitution de l’atome (noyau, électrons) et la formation des ions, avec des ordres de grandeur en puissances de dix.",
+      "exemple": "L’atome est environ 100 000 fois plus grand que son noyau : il est surtout constitué de vide.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 101,
+        "extrait": "noyau peut être réservée à la classe de 3e, et permet un travail sur les puissances de dix en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-3E-GRAV-01",
+      "titre": "Poids et gravitation",
+      "domaine": "Mouvement et interactions",
+      "theme": "Modéliser une interaction par une force",
+      "attendu": "Distinguer masse et poids, utiliser la relation P = m × g et interpréter la gravitation comme une attraction entre deux masses.",
+      "exemple": "Sur la Lune, un astronaute garde la même masse, mais son poids est environ six fois plus faible.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 102,
+        "extrait": "En fin de cycle 4, un élève sait exploiter l'expression de la force de gravitation universelle"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-3E-NRJ-01",
+      "titre": "L’énergie cinétique",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "L’énergie, ses transferts et ses conversions",
+      "attendu": "Utiliser l’expression de l’énergie cinétique Ec = ½ m v² et l’appliquer à la sécurité routière.",
+      "exemple": "À 100 km/h, une voiture a environ quatre fois plus d’énergie cinétique qu’à 50 km/h.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "L'expression littérale de l'énergie cinétique peut être réservée à la classe de 3e."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-3E-PUIS-01",
+      "titre": "Puissance et énergie électrique",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "Réaliser des circuits électriques simples et exploiter les lois de l’électricité",
+      "attendu": "Utiliser les relations P = U × I et E = P × t et lire une puissance nominale ou une facture d’électricité.",
+      "exemple": "Une lampe de 10 W allumée pendant 5 heures consomme 50 Wh.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "Les aspects énergétiques peuvent être réservés à la classe de 3e."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-3E-SIG-01",
+      "titre": "Signaux sonores et lumineux",
+      "domaine": "Des signaux pour observer et communiquer",
+      "theme": "Caractériser différents types de signaux",
+      "attendu": "Caractériser les signaux sonores et lumineux : propagation, vitesse, fréquence, et utiliser la relation d = v × t.",
+      "exemple": "Pendant un orage, on voit l’éclair avant d’entendre le tonnerre, car la lumière va bien plus vite que le son.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 105,
+        "extrait": "La maîtrise de la notion de fréquence est un objectif de fin de cycle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

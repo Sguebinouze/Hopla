@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-RES-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-RES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Internet est…",
+      "options": [
+        "un réseau qui relie des millions de réseaux",
+        "un seul ordinateur géant",
+        "un logiciel de jeu"
+      ],
+      "reponse": "un réseau qui relie des millions de réseaux",
+      "indice": "C’est le « réseau des réseaux ».",
+      "explication": "Internet interconnecte de nombreux réseaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel appareil oriente les données entre les réseaux ?",
+      "options": [
+        "le routeur",
+        "la souris",
+        "l’imprimante"
+      ],
+      "reponse": "le routeur",
+      "indice": "Il choisit le chemin.",
+      "explication": "Le routeur oriente les données.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un serveur est un ordinateur qui…",
+      "options": [
+        "fournit des services ou des données à d’autres",
+        "n’est relié à rien",
+        "sert uniquement à jouer"
+      ],
+      "reponse": "fournit des services ou des données à d’autres",
+      "indice": "Il héberge des sites web.",
+      "explication": "Le serveur fournit des services aux clients.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur Internet, les données sont découpées en…",
+      "options": [
+        "paquets",
+        "feuilles",
+        "blocs de bois"
+      ],
+      "reponse": "paquets",
+      "indice": "Ils voyagent séparément.",
+      "explication": "Les données circulent en paquets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une table de routage indique…",
+      "options": [
+        "vers où envoyer un paquet selon sa destination",
+        "le prix d’Internet",
+        "la liste des mots de passe"
+      ],
+      "reponse": "vers où envoyer un paquet selon sa destination",
+      "indice": "Comme un panneau indicateur.",
+      "explication": "La table de routage guide les paquets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un protocole, c’est…",
+      "options": [
+        "un ensemble de règles de communication",
+        "un câble",
+        "un écran"
+      ],
+      "reponse": "un ensemble de règles de communication",
+      "indice": "TCP/IP en est un.",
+      "explication": "Un protocole fixe des règles communes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi le routage est-il nécessaire sur Internet ?",
+      "options": [
+        "les réseaux sont nombreux et les chemins multiples",
+        "il n’existe qu’un câble",
+        "les ordinateurs sont tous côte à côte"
+      ],
+      "reponse": "les réseaux sont nombreux et les chemins multiples",
+      "indice": "Il faut trouver un chemin.",
+      "explication": "Le routage trouve un chemin entre réseaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-RES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Si un routeur tombe en panne sur le trajet, les paquets…",
+      "options": [
+        "peuvent emprunter un autre chemin",
+        "sont tous perdus définitivement",
+        "reviennent toujours à l’expéditeur"
+      ],
+      "reponse": "peuvent emprunter un autre chemin",
+      "indice": "Le réseau est maillé.",
+      "explication": "Le maillage permet de contourner une panne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

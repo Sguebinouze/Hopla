@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-RES-01",
+  "exemple": "En classe, chaque élève joue un routeur et fait passer des papiers numérotés jusqu’au destinataire.",
+  "regle": "**Internet** relie entre eux de très nombreux **réseaux**. Les données sont découpées en **paquets** qui portent l’**adresse IP** du destinataire. Les **routeurs** les orientent grâce à des **tables de routage**. Tous respectent des **protocoles** communs. Le réseau est **maillé** : si un chemin est coupé, les paquets en prennent un autre.",
+  "piege": "Internet et le Web sont différents : le Web n’est qu’un des services qui utilisent Internet.",
+  "essai": {
+    "consigne": "Sur Internet, les données circulent en…",
+    "options": [
+      "paquets",
+      "lettres",
+      "colis"
+    ],
+    "reponse": "paquets",
+    "explication": "Les données circulent en paquets."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C4-3E-EUR-01",
+  "exemple": "Une étudiante italienne installée à Lyon vote aux élections municipales de sa ville.",
+  "regle": "Depuis l’après-guerre, la démocratie française s’inscrit dans des institutions européennes. Dans l’**UE**, le **Parlement européen** est élu par les citoyens, la **Commission** propose les textes, la **Cour de justice** veille au droit. Les États membres doivent appliquer le **droit européen**. La **citoyenneté européenne** donne des droits, comme voter aux municipales et aux européennes dans son pays de résidence. Le **Conseil de l’Europe** et la **CEDH** protègent les droits de l’homme.",
+  "piege": "Le Conseil de l’Europe n’est pas une institution de l’UE : c’est une autre organisation, plus large.",
+  "essai": {
+    "consigne": "Quelle institution européenne est élue par les citoyens ?",
+    "options": [
+      "le Parlement européen",
+      "la Commission",
+      "la Cour de justice"
+    ],
+    "reponse": "le Parlement européen",
+    "explication": "Le Parlement européen est élu par les citoyens."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
