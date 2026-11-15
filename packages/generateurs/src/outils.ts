@@ -124,6 +124,16 @@ export function choix(
   return { options: opts, erreurs: erreursDe(opts, reponse, pieges) };
 }
 
+/** La même étiquette d'erreur pour toutes les options fausses. */
+export function tous(opts: readonly string[], reponse: string, code: string): Record<string, string> {
+  return Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
+}
+
+/** Code de l'erreur de comparaison : le signe opposé (rien si la bonne réponse est « = »). */
+export function signeOppose(reponse: string, code = 'signe-comparaison-inverse'): Record<string, string> {
+  return reponse === '<' ? { '>': code } : reponse === '>' ? { '<': code } : {};
+}
+
 /** Erreur « decimal-longueur » : l'élève prend le décimal qui a le plus (ou le moins) de décimales pour le plus grand (ou le plus petit). */
 export function erreurLongueurDecimale(valeurs: readonly string[], reponse: string, plusGrand: boolean): Record<string, string> {
   const decimales = (x: string) => (x.split(',')[1] ?? '').length;

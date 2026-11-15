@@ -1,7 +1,7 @@
 // 6e, organisation et gestion de données, probabilités.
 // Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), p. 25 et 26.
 import { depuisEntier } from './decimaux';
-import { choix, creerGenerateur, frDecimal } from './outils';
+import { choix, creerGenerateur, erreursDe, frDecimal } from './outils';
 
 // ─────────── Lire et filtrer des données
 
@@ -36,7 +36,8 @@ export const donnees6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `${r.titre} : ${tableau}. ${plus ? r.plus : r.moins}`,
-        options: a.melanger([reponse, ...a.melanger(r.etiquettes.filter((e) => e !== reponse)).slice(0, 3)]),
+        ...((opts) => ({ options: opts, erreurs: erreursDe(opts, reponse, [[r.etiquettes[valeurs.indexOf(plus ? Math.min(...valeurs) : Math.max(...valeurs))], 'plus-grand-plus-petit-confondus']]) }))(
+          a.melanger([reponse, ...a.melanger(r.etiquettes.filter((e) => e !== reponse)).slice(0, 3)])),
         reponse,
         indice: `Cherche la valeur la plus ${plus ? 'grande' : 'petite'} du tableau.`,
         explication: `La valeur la plus ${plus ? 'grande' : 'petite'} est ${cible} ${r.unite} : ${reponse}.`,

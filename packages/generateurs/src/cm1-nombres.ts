@@ -4,7 +4,7 @@
 // décimales), décimaux avec au plus deux chiffres après la virgule.
 import { comparerDecimaux, depuisEntier } from './decimaux';
 import { enLettres } from './lettres';
-import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, signeOppose, tous, type Aleatoire, type Piege } from './outils';
 
 const RANGS_SG = ['unité', 'dizaine', 'centaine', 'millier', 'dizaine de milliers', 'centaine de milliers'];
 const RANGS_PL = ['unités', 'dizaines', 'centaines', 'milliers', 'dizaines de milliers', 'centaines de milliers'];
@@ -144,6 +144,7 @@ export const comparerEntiersCm1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Complète avec <, > ou = : ${fr(x)} … ${fr(y)}`,
         options: ['<', '>', '='],
+        erreurs: signeOppose(s),
         reponse: s,
         indice: 'Compte les chiffres. S’il y en a autant, compare chiffre à chiffre en partant de la gauche.',
         explication:
@@ -165,6 +166,7 @@ export const comparerEntiersCm1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est le plus ${grand ? 'grand' : 'petit'} de ces nombres ?`,
         options: a.melanger(liste.map(fr)),
+        erreurs: { [fr(grand ? tri[0]! : tri[3]!)]: 'plus-grand-plus-petit-confondus' },
         reponse: fr(cible),
         indice: 'Compare d’abord le nombre de chiffres, puis les chiffres de gauche à droite.',
         explication: `Rangés dans l’ordre croissant : ${tri.map(fr).join(' < ')}. Le plus ${grand ? 'grand' : 'petit'} est ${fr(cible)}.`,
@@ -178,7 +180,7 @@ export const comparerEntiersCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quel nombre est compris entre ${fr(bas)} et ${fr(haut)} ?`,
-      options: optionsNumeriques(a, fr(dedans), pieges.map(fr), () => fr(haut + a.entier(1, 5 * pas))),
+      ...choix(a, fr(dedans), pieges.map((x): Piege => [fr(x), 'hors-encadrement']), () => fr(haut + a.entier(1, 5 * pas)), { numerique: true }),
       reponse: fr(dedans),
       indice: `Le nombre cherché est plus grand que ${fr(bas)} et plus petit que ${fr(haut)}.`,
       explication: `${fr(bas)} < ${fr(dedans)} < ${fr(haut)}. Les autres nombres sont en dehors de l’intervalle.`,
@@ -206,7 +208,7 @@ export const multiplesCm1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Lequel de ces nombres est un diviseur de ${n} ?`,
-        options: optionsNumeriques(a, String(p), a.melanger(non).map(String), () => String(a.choisir(non))),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, String(p), 'divisibilite-erreur') }))(optionsNumeriques(a, String(p), a.melanger(non).map(String), () => String(a.choisir(non)))),
         reponse: String(p),
         indice: 'Cherche dans les tables de multiplication : quelle table contient ce nombre ?',
         explication: `${p} × ${n / p} = ${n}. Donc ${p} est un diviseur de ${n}. Les autres nombres ne divisent pas ${n} sans reste.`,
@@ -228,7 +230,7 @@ export const multiplesCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Lequel de ces nombres est un multiple de ${k} ?`,
-      options: optionsNumeriques(a, String(m), [non(), non(), non()].map(String), () => String(non())),
+      ...((opts) => ({ options: opts, erreurs: tous(opts, String(m), 'divisibilite-erreur') }))(optionsNumeriques(a, String(m), [non(), non(), non()].map(String), () => String(non()))),
       reponse: String(m),
       indice: regle[k] ?? `Cherche le nombre qui s’obtient en multipliant ${k} par un nombre entier.`,
       explication: `${regle[k] ? `${regle[k]} ` : ''}${m} = ${k} × ${m / k}. Donc ${m} est un multiple de ${k}.`,
@@ -254,7 +256,7 @@ export const fractionsEntiersCm1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Entre quels nombres entiers consécutifs se trouve ${num}/${den} ?`,
-        ...choix(a, entre(e), [[entre(e - 1)], [entre(e + 1)], [entre(r)]], () => entre(e + a.entier(2, 5))),
+        ...choix(a, entre(e), [[entre(e - 1), 'encadrement-decale'], [entre(e + 1), 'encadrement-decale'], [entre(r), 'reste-pris-pour-entier']], () => entre(e + a.entier(2, 5))),
         reponse: entre(e),
         indice: `Cherche combien de fois ${den}/${den}, c’est-à-dire 1, il y a dans ${num}/${den}.`,
         explication: `${calcul} ${num}/${den} est donc ${entre(e)}.`,
@@ -293,6 +295,8 @@ export const comparerFractionsCm1 = creerGenerateur({
     let c: number;
     let explication: string;
     let indice: string;
+    // Même numérateur : l'erreur typique croit la fraction plus grande quand le dénominateur l'est.
+    let code = 'signe-comparaison-inverse';
     if (d === 1) {
       const den = a.entier(3, 20);
       const p = a.entier(1, 2 * den);
@@ -309,6 +313,7 @@ export const comparerFractionsCm1 = creerGenerateur({
       if (x === y) y = x === 20 ? 19 : x + 1;
       [gauche, droite, c] = [`${p}/${x}`, `${p}/${y}`, Math.sign(y - x)];
       indice = 'Même numérateur : plus le dénominateur est grand, plus chaque part est petite.';
+      code = 'fraction-unitaire-inversee';
       explication = `Partager l’unité en ${x} donne des parts ${x < y ? 'plus grandes' : 'plus petites'} qu’en ${y}. Avec ${p} part${p > 1 ? 's' : ''} de chaque, ${gauche} ${signe(c)} ${droite}.`;
     } else {
       // Fraction et entier : 1 à la difficulté 2, un entier plus grand à la difficulté 3.
@@ -327,6 +332,7 @@ export const comparerFractionsCm1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec <, > ou = : ${gauche} … ${droite}`,
       options: ['<', '>', '='],
+      erreurs: signeOppose(signe(c), code),
       reponse: signe(c),
       indice,
       explication,

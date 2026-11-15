@@ -2,7 +2,7 @@
 // Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), pages 16 à 18.
 // Au cours moyen, les conversions s'appuient sur les relations entre unités (1 m = 100 cm), sans tableau.
 import { comparerDecimaux, decaler, depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreursDe, fr, frDecimal, type Aleatoire, type Piege } from './outils';
 import type { Difficulte, Generateur } from './types';
 
 // ─────────── Conversions : longueurs, masses, contenances
@@ -203,10 +203,15 @@ export const airesCm1 = creerGenerateur({
     if (a.suivant() < 0.5) [r1, c1, r2, c2] = [r2, c2, r1, c1];
     const [sA, sB] = [r1 * c1, r2 * c2];
     const reponse = sA === sB ? COMPARER[2]! : sA > sB ? COMPARER[0]! : COMPARER[1]!;
+    // Erreur typique : juger sur la plus longue rangée au lieu de compter les carreaux.
+    const [lA, lB] = [Math.max(r1, c1), Math.max(r2, c2)];
+    const naif = lA === lB ? COMPARER[2]! : lA > lB ? COMPARER[0]! : COMPARER[1]!;
+    const opts = a.melanger(COMPARER);
     return {
       gabarit: 'qcm',
       consigne: `La figure A est pavée par ${r1} rangées de ${c1} carreaux. La figure B est pavée par ${r2} rangées de ${c2} carreaux. Les carreaux sont identiques. Quelle figure a la plus grande aire ?`,
-      options: a.melanger(COMPARER),
+      options: opts,
+      erreurs: erreursDe(opts, reponse, [[naif, 'aire-une-dimension']]),
       reponse,
       indice: 'Compte les carreaux de chaque figure.',
       explication: `Figure A : ${r1} × ${c1} = ${sA} carreaux. Figure B : ${r2} × ${c2} = ${sB} carreaux. ${sA === sB ? 'Les deux figures ont la même aire, même si leurs formes sont différentes.' : `La figure ${sA > sB ? 'A' : 'B'} a la plus grande aire.`}`,
@@ -245,13 +250,13 @@ export const dureesCm1 = creerGenerateur({
       const total = a.entier(61, 299);
       const h = Math.floor(total / 60);
       const m = total % 60;
-      const pieges = [ecrireDuree(total + 60), ecrireDuree(total - 10)];
+      const pieges: Piege[] = [[ecrireDuree(total + 60), 'heures-mal-comptees'], [ecrireDuree(total - 10)]];
       // Piège : lire les minutes comme des centièmes d'heure (150 min n'est pas 1 h 50 min).
-      if (total >= 100 && total % 100 > 0 && total % 100 < 60) pieges.unshift(`${Math.floor(total / 100)} h ${total % 100} min`);
+      if (total >= 100 && total % 100 > 0 && total % 100 < 60) pieges.unshift([`${Math.floor(total / 100)} h ${total % 100} min`, 'minutes-centiemes']);
       return {
         gabarit: 'qcm',
         consigne: `Combien font ${total} minutes en heures et minutes ?`,
-        options: options(a, ecrireDuree(total), pieges, () => ecrireDuree(total + 5 * a.entier(1, 12))),
+        ...choix(a, ecrireDuree(total), pieges, () => ecrireDuree(total + 5 * a.entier(1, 12))),
         reponse: ecrireDuree(total),
         indice: 'Combien de fois 60 dans ce nombre ?',
         explication: `${total} = ${h} × 60 + ${m}. ${total} min = ${ecrireDuree(total)}. Une heure compte 60 minutes, pas 100.`,
@@ -262,13 +267,13 @@ export const dureesCm1 = creerGenerateur({
       const duree = 5 * a.entier(4, 34);
       const fin = debut + duree;
       const [hD, mD, hF, mF] = [Math.floor(debut / 60), debut % 60, Math.floor(fin / 60), fin % 60];
-      const pieges = [ecrireDuree(duree + 60), ecrireDuree(duree + 10), ecrireDuree(duree - 10)];
+      const pieges: Piege[] = [[ecrireDuree(duree + 60), 'heures-mal-comptees'], [ecrireDuree(duree + 10)], [ecrireDuree(duree - 10)]];
       // Piège : soustraire heures et minutes séparément sans passer par l'heure pleine.
-      if (mF < mD) pieges.unshift(`${hF - hD} h ${mD - mF} min`);
+      if (mF < mD) pieges.unshift([`${hF - hD} h ${mD - mF} min`, 'soustraction-heures-minutes']);
       return {
         gabarit: 'qcm',
         consigne: `Un film commence à ${ecrireHoraire(debut)} et finit à ${ecrireHoraire(fin)}. Combien de temps dure-t-il ?`,
-        options: options(a, ecrireDuree(duree), pieges, () => ecrireDuree(duree + 5 * a.entier(1, 10))),
+        ...choix(a, ecrireDuree(duree), pieges, () => ecrireDuree(duree + 5 * a.entier(1, 10))),
         reponse: ecrireDuree(duree),
         indice: 'Avance d’abord jusqu’à l’heure pleine suivante, puis compte le reste.',
         explication:
@@ -284,7 +289,7 @@ export const dureesCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `${p.nom} part à ${ecrireHoraire(debut)}. ${p.il === 'il' ? 'Il' : 'Elle'} marche ${marche} min, puis prend le bus pendant ${bus} min. À quelle heure arrive-t-${p.il} ?`,
-      options: options(a, ecrireHoraire(fin), [ecrireHoraire(fin + 60), ecrireHoraire(fin - 10), ecrireHoraire(fin + 10)], () => ecrireHoraire(fin + 5 * a.entier(3, 20))),
+      ...choix(a, ecrireHoraire(fin), [[ecrireHoraire(fin + 60), 'heures-mal-comptees'], [ecrireHoraire(fin - 10)], [ecrireHoraire(fin + 10)]], () => ecrireHoraire(fin + 5 * a.entier(3, 20))),
       reponse: ecrireHoraire(fin),
       indice: 'Calcule d’abord la durée totale du trajet.',
       explication: `Durée du trajet : ${marche} + ${bus} = ${marche + bus} min. ${ecrireHoraire(debut)} + ${ecrireDuree(marche + bus)} = ${ecrireHoraire(fin)}.`,

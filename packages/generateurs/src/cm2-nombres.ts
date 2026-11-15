@@ -2,7 +2,7 @@
 // Au CM2 : entiers jusqu'à 999 999 999, décimaux jusqu'aux millièmes, arrondi à l'unité seulement.
 import { comparerDecimaux, decaler, depuisEntier, normaliserDecimal } from './decimaux';
 import { enLettres } from './lettres';
-import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, qte, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, qte, type Aleatoire, signeOppose, tous, type Piege } from './outils';
 
 /** Un grand nombre « lisible » : quelques classes non nulles, des zéros intercalés. */
 function grandNombre(a: Aleatoire, chiffresMax: number): number {
@@ -133,6 +133,7 @@ export const comparerEntiersCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Complète avec <, > ou = : ${fr(x)} … ${fr(y)}`,
         options: ['<', '>', '='],
+        erreurs: signeOppose(signe),
         reponse: signe,
         indice: 'Compte d’abord les chiffres. Compare ensuite rang par rang, en partant de la gauche.',
         explication:
@@ -161,6 +162,7 @@ export const comparerEntiersCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est le plus ${grand ? 'grand' : 'petit'} de ces nombres ?`,
         options: a.melanger(liste.map(fr)),
+        erreurs: { [fr(grand ? tri[0]! : tri[3]!)]: 'plus-grand-plus-petit-confondus' },
         reponse: fr(cible),
         indice: 'Ces nombres ont autant de chiffres. Compare-les rang par rang, depuis la gauche.',
         explication: `Rangés dans l’ordre croissant : ${tri.map(fr).join(' < ')}.`,
@@ -197,7 +199,7 @@ export const diviseursMultiplesCm2 = creerGenerateur({
         return {
           gabarit: 'qcm',
           consigne: `Lequel de ces nombres est un multiple de ${k} ?`,
-          options: optionsNumeriques(a, String(bon), pieges.map(String), () => String(k * a.entier(2, 11) + a.entier(1, k - 1))),
+          ...((opts) => ({ options: opts, erreurs: tous(opts, String(bon), 'divisibilite-erreur') }))(optionsNumeriques(a, String(bon), pieges.map(String), () => String(k * a.entier(2, 11) + a.entier(1, k - 1)))),
           reponse: String(bon),
           indice: `Un multiple de ${k} est dans la table de ${k}, ou au-delà.`,
           explication: `${bon} = ${k} × ${bon / k}. C’est un multiple de ${k}. Les autres nombres ne sont pas dans la table de ${k}.`,
@@ -210,7 +212,7 @@ export const diviseursMultiplesCm2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Lequel de ces nombres est un diviseur de ${n} ?`,
-        options: optionsNumeriques(a, String(bon), a.melanger(mauvais).map(String), () => String(a.choisir(mauvais))),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, String(bon), 'divisibilite-erreur') }))(optionsNumeriques(a, String(bon), a.melanger(mauvais).map(String), () => String(a.choisir(mauvais)))),
         reponse: String(bon),
         indice: `Cherche dans les tables de multiplication un produit égal à ${n}.`,
         explication: `${n} = ${bon} × ${n / bon}, donc ${bon} est un diviseur de ${n}. Les autres nombres ne divisent pas ${n} : la division a un reste.`,
@@ -239,7 +241,7 @@ export const diviseursMultiplesCm2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Lequel de ces nombres est un diviseur commun à ${x} et à ${y} ?`,
-        options: optionsNumeriques(a, String(bon), a.melanger(pieges).map(String), () => String(x * y + 1)),
+        ...choix(a, String(bon), a.melanger(pieges).map((k): Piege => [String(k), 'commun-un-seul']), () => String(x * y + 1), { numerique: true }),
         reponse: String(bon),
         indice: 'Un diviseur commun divise les deux nombres.',
         explication: `${x} = ${bon} × ${x / bon} et ${y} = ${bon} × ${y / bon}. Donc ${bon} divise ${x} et ${y}.`,
@@ -255,7 +257,8 @@ export const diviseursMultiplesCm2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Lequel de ces nombres est un multiple commun à ${x} et à ${y} ?`,
-      options: optionsNumeriques(a, String(bon), pieges.map(String), () => String(x * a.entier(2, 20) + 1)),
+      // Multiple d'un seul des deux nombres : erreur typique ; les autres pièges ne sont multiples d'aucun.
+      ...choix(a, String(bon), pieges.map((k): Piege => [String(k), k % x === 0 || k % y === 0 ? 'commun-un-seul' : 'divisibilite-erreur']), () => String(x * a.entier(2, 20) + 1), { numerique: true }),
       reponse: String(bon),
       indice: 'Un multiple commun est à la fois dans la table de chacun des deux nombres.',
       explication: `${bon} = ${x} × ${bon / x} et ${bon} = ${y} × ${bon / y}. C’est un multiple de ${x} et de ${y}.`,

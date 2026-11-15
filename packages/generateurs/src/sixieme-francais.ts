@@ -185,6 +185,9 @@ export const fonctions6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la fonction de « ${groupe} » ?`,
       options: a.melanger([...FONCTIONS]),
+      erreurs: Object.fromEntries(FONCTIONS.filter((x) => x !== f).map((x) => [x,
+        ['COD', 'COI'].includes(x) && ['COD', 'COI'].includes(f) ? 'cod-coi-confondus'
+          : (x === 'attribut du sujet' && f === 'COD') || (f === 'attribut du sujet' && x === 'COD') ? 'attribut-cod-confondus' : 'fonction-grammaticale-confondue'])),
       reponse: f,
       indice: 'Repère le verbe. Est-ce un verbe d’état ? Le groupe peut-il être déplacé ?',
       explication: `« ${groupe} » est ${f === 'COD' || f === 'COI' ? 'un ' : f === 'attribut du sujet' ? "l’" : 'un '}${f}. ${EXPLICATIONS_FONCTIONS[f]}`,
@@ -217,6 +220,7 @@ export const propositions6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Combien de propositions la phrase « ${phrase} » contient-elle ?`,
       options: ['1', '2', '3', '4'],
+      erreurs: Object.fromEntries([n - 1, n + 1].filter((k) => k >= 1 && k <= 4).map((k) => [String(k), 'verbes-mal-comptes'])),
       reponse: String(n),
       indice: 'Compte les verbes conjugués.',
       explication: `Les verbes conjugués sont : ${verbes.join(', ')}. Il y a ${n} proposition${n > 1 ? 's' : ''}. C’est une phrase ${n > 1 ? 'complexe' : 'simple'}.`,
@@ -250,6 +254,7 @@ export const conjonctions6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la classe de « ${mot} » ?`,
       options: a.melanger(CLASSES_CONJ),
+      erreurs: Object.fromEntries(CLASSES_CONJ.filter((c) => c !== reponse).map((c) => [c, c.startsWith('conjonction') ? 'conjonction-confondue' : 'classe-grammaticale-confondue'])),
       reponse,
       indice: 'Mais, ou, et, donc, or, ni, car : ce sont les conjonctions de coordination.',
       explication: coord
@@ -288,6 +293,7 @@ export const antonymes6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel mot est le contraire du mot « ${mot} » et appartient à la même classe grammaticale ?`,
       options: a.melanger([antonyme, autre1, autre2, synonyme]),
+      erreurs: { [synonyme]: 'synonyme-antonyme-confondus' },
       reponse: antonyme,
       indice: `« ${mot} » est un ${classe}. Cherche un ${classe} de sens opposé.`,
       explication: `« ${antonyme} » est un ${classe} de sens contraire. « ${synonyme} » a un sens proche. Les autres mots ne sont pas des ${classe}s.`,

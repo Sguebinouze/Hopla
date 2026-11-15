@@ -1,7 +1,7 @@
 // CM2, grandeurs et mesures : aires, angles, durées. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 // Au CM2 : cm², dm², m² ; degré introduit par l'angle droit (sans rapporteur) ; secondes.
 import { decaler, depuisEntier } from './decimaux';
-import { choix, creerGenerateur, fr, frDecimal } from './outils';
+import { choix, creerGenerateur, fr, frDecimal, tous } from './outils';
 
 // ─────────── Aire du carré et du rectangle
 
@@ -131,6 +131,7 @@ export const anglesCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Un angle mesure ${m}°. Comment s’appelle cet angle ?`,
         options: a.melanger(['aigu', 'droit', 'obtus']),
+        erreurs: tous(['aigu', 'droit', 'obtus'], nature, 'angles-confondus'),
         reponse: nature,
         indice: 'Un angle droit mesure 90°. Compare la mesure à 90°.',
         explication: `${m}° ${m < 90 ? '<' : m === 90 ? '=' : '>'} 90°. ${nature === 'aigu' ? 'Un angle plus petit qu’un angle droit est aigu.' : nature === 'droit' ? 'C’est un angle droit.' : 'Un angle plus grand qu’un angle droit est obtus.'}`,

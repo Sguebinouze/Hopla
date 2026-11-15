@@ -3,7 +3,15 @@
 // accord du participe passé avec être et avec avoir (COD placé avant), forme négative des temps composés,
 // attribut, COD, COI, compléments circonstanciels de temps, de lieu, de cause, sujet inversé,
 // prépositions, pronoms personnels compléments, phrase complexe.
-import { choix, creerGenerateur, erreursDe } from './outils';
+import { choix, creerGenerateur, erreursDe, tous } from './outils';
+
+/** Attribut et objet confondus, COD et COI confondus, sinon fonction confondue. */
+const codeFonction = (choisie: string, juste: string) => {
+  const objet = (f: string) => ['COD', 'COI', 'complément d’objet'].includes(f);
+  if (['COD', 'COI'].includes(choisie) && ['COD', 'COI'].includes(juste)) return 'cod-coi-confondus';
+  if ((choisie === 'attribut du sujet' && objet(juste)) || (juste === 'attribut du sujet' && objet(choisie))) return 'attribut-cod-confondus';
+  return 'fonction-grammaticale-confondue';
+};
 
 const PERSONNES = ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles'] as const;
 type Personne = (typeof PERSONNES)[number];
@@ -335,6 +343,8 @@ export const fonctionsCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Dans « ${phrase} », quelle est la fonction de « ${groupe} » ?`,
         options: a.melanger(['attribut du sujet', 'complément d’objet', 'complément circonstanciel']),
+        erreurs: Object.fromEntries(['attribut du sujet', 'complément d’objet', 'complément circonstanciel'].filter((o) => o !== (f === 'attribut du sujet' ? f : 'complément d’objet'))
+          .map((o) => [o, codeFonction(o, f === 'attribut du sujet' ? f : 'complément d’objet')])),
         reponse: f === 'attribut du sujet' ? f : 'complément d’objet',
         indice: 'Repère le verbe. Est-ce un verbe d’état comme être, devenir, sembler, paraitre, rester ?',
         explication: f === 'attribut du sujet'
@@ -347,6 +357,7 @@ export const fonctionsCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la fonction de « ${groupe} » ?`,
       options: a.melanger(['attribut du sujet', 'COD', 'COI']),
+      erreurs: Object.fromEntries(['attribut du sujet', 'COD', 'COI'].filter((o) => o !== f).map((o) => [o, codeFonction(o, f)])),
       reponse: f,
       indice: 'Verbe d’état : attribut. Sinon, regarde si le complément est introduit par une préposition (à, de).',
       explication: pronom
@@ -423,6 +434,7 @@ export const complementsCirconstancielsCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la fonction de « ${groupe} » ?`,
       options: a.melanger((['temps', 'lieu', 'cause'] as Circonstance[]).map(nom)),
+      erreurs: tous((['temps', 'lieu', 'cause'] as Circonstance[]).map(nom), nom(c), 'circonstance-confondue'),
       reponse: nom(c),
       indice: d === 3 ? 'Le complément peut contenir un verbe. Pose les questions : quand ? où ? pourquoi ?' : 'Pose les questions : quand ? où ? pourquoi ?',
       explication: `« ${groupe} » répond à la question « ${QUESTIONS_CC[c]} ». On peut le déplacer ou le supprimer. C’est un ${nom(c)}.`,
@@ -533,6 +545,7 @@ export const sujetInverseCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quel est le sujet du verbe « ${verbe} » ?`,
       options: a.melanger([sujet, ...pieges]),
+      erreurs: tous(pieges, sujet, 'sujet-mal-identifie'),
       reponse: sujet,
       indice: `Pose la question « Qui est-ce qui ${verbe} ? » ou encadre avec « c’est… qui ».`,
       explication: `C’est « ${sujet} » qui ${verbe}. Le sujet est placé après le verbe : on dit qu’il est inversé. Le verbe s’accorde avec lui.`,
@@ -601,6 +614,7 @@ export const classesMotsCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la classe ${affiche.includes(' ') || affiche.includes('-') || affiche.endsWith('’') ? 'de « ' : 'du mot « '}${affiche} » ?`,
       options: a.melanger(['préposition', 'conjonction de coordination', 'conjonction de subordination', 'adverbe']),
+      erreurs: tous(['préposition', 'conjonction de coordination', 'conjonction de subordination', 'adverbe'], c, 'classe-grammaticale-confondue'),
       reponse: c,
       indice: 'Le mot introduit-il un groupe nominal, relie-t-il deux éléments, introduit-il une proposition, ou précise-t-il un verbe ?',
       explication: `« ${affiche} » est ${c === 'adverbe' ? 'un adverbe' : c === 'préposition' ? 'une préposition' : `une ${c}`}. ${RAPPELS_CLASSES[c]}`,
@@ -797,6 +811,7 @@ export const phraseComplexeCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien de verbes conjugués la phrase « ${sansMarques(brute)} » contient-elle ?`,
         options: ['1', '2', '3', '4'],
+        erreurs: Object.fromEntries([n - 1, n + 1].filter((k) => k >= 1 && k <= 4).map((k) => [String(k), 'verbes-mal-comptes'])),
         reponse: String(n),
         indice: 'Un verbe conjugué change avec le sujet et le temps. Un infinitif ne compte pas.',
         explication: `Verbe${n > 1 ? 's' : ''} conjugué${n > 1 ? 's' : ''} : ${verbes.join(', ')}. ${n > 1 ? 'Plusieurs verbes conjugués : c’est une phrase complexe.' : 'Un seul verbe conjugué : c’est une phrase simple.'}`,
@@ -810,6 +825,7 @@ export const phraseComplexeCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quelle phrase est une phrase ${chercheComplexe ? 'complexe' : 'simple'} ?`,
       options: a.melanger([bonne, ...autres].map(sansMarques)),
+      erreurs: tous(autres.map(sansMarques), sansMarques(bonne), 'phrase-simple-complexe'),
       reponse: sansMarques(bonne),
       indice: 'Compte les verbes conjugués de chaque phrase.',
       explication: `« ${sansMarques(bonne)} » contient ${verbes.length > 1 ? `${verbes.length} verbes conjugués (${verbes.join(', ')})` : `un seul verbe conjugué (${verbes[0]})`}. C’est une phrase ${chercheComplexe ? 'complexe' : 'simple'}. Les autres en contiennent ${chercheComplexe ? 'un seul' : 'plusieurs'}.`,

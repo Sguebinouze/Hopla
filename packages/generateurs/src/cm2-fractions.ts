@@ -1,7 +1,7 @@
 // CM2, fractions. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 // Au CM2, les dénominateurs ne dépassent pas 60 (hors fractions décimales).
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, frDecimal } from './outils';
+import { creerGenerateur, frDecimal, signeOppose } from './outils';
 
 // ─────────── Fractions supérieures à 1 : entier + fraction, encadrement
 
@@ -94,6 +94,12 @@ export const comparerFractionsCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec <, > ou = : ${x[0]}/${x[1]} … ${y[0]}/${y[1]}`,
       options: ['<', '>', '='],
+      erreurs: (() => {
+        // En d3, l'erreur typique compare les numérateurs sans tenir compte des dénominateurs.
+        const naif = x[0] < y[0] ? '<' : x[0] > y[0] ? '>' : '=';
+        const e: Record<string, string> = d === 3 && naif !== signe ? { [naif]: 'denominateurs-ignores' } : {};
+        return { ...signeOppose(signe, d === 2 ? 'fraction-unitaire-inversee' : 'signe-comparaison-inverse'), ...e };
+      })(),
       reponse: signe,
       indice: d === 1 ? 'Même dénominateur : regarde les numérateurs.' : d === 2 ? 'Même numérateur : regarde la taille des parts.' : 'Écris les deux fractions avec le même dénominateur.',
       explication: `${explication} ${x[0]}/${x[1]} ${signe} ${y[0]}/${y[1]}.`,

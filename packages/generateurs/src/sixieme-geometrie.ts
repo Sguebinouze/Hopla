@@ -1,7 +1,7 @@
 // 6e, espace et géométrie : distances et milieu, cercle et disque, médiatrice, angles, bissectrice,
 // triangles, symétrie axiale. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), p. 23.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, frDecimal, options } from './outils';
+import { choix, creerGenerateur, frDecimal, tous, type Piege } from './outils';
 
 /** Longueur en dixièmes de cm → « 8,4 cm ». */
 const cm = (dixiemes: number) => `${frDecimal(depuisEntier(dixiemes, 1))} cm`;
@@ -49,6 +49,8 @@ export const milieu6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Le point ${I} ${surSegment ? `est sur le segment [${P}${Q}]` : `n’est pas sur la droite (${P}${Q})`}. ${P}${I} = ${cm(t)} et ${I}${Q} = ${cm(autre)}. ${I} est-il le milieu de [${P}${Q}] ?`,
       options: a.melanger(['Oui', 'Non', 'On ne peut pas savoir']),
+      // « Oui » à tort : une des deux conditions (sur le segment, à égale distance) n'est pas vérifiée.
+      erreurs: { [reponse === 'Non' ? 'Oui' : 'Non']: 'milieu-mal-justifie' },
       reponse,
       indice: 'Le milieu est sur le segment et à égale distance des deux extrémités.',
       explication: reponse === 'Oui'
@@ -118,7 +120,8 @@ export const cercle6e = creerGenerateur({
       const [question, reponse] = a.choisir(VOCABULAIRE_CERCLE);
       return {
         gabarit: 'qcm', consigne: question,
-        options: options(a, reponse, ['un rayon', 'un diamètre', 'une corde', 'un cercle', 'un disque'].filter((x) => x !== reponse).slice(0, 3), () => 'un arc'),
+        ...choix(a, reponse, ['un rayon', 'un diamètre', 'une corde', 'un cercle', 'un disque'].filter((x) => x !== reponse).slice(0, 3)
+          .map((x): Piege => [x, ['un rayon', 'un diamètre'].includes(x) && ['un rayon', 'un diamètre'].includes(reponse) ? 'rayon-diametre' : 'cercle-vocabulaire']), () => 'un arc'),
         reponse,
         indice: 'Le cercle est la ligne. Le disque est la surface. Le diamètre passe par le centre.',
         explication: `${question.replace(/ s’appelle :$/, '')} : c’est ${reponse}.`,
@@ -132,6 +135,7 @@ export const cercle6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Un cercle a pour centre O et pour rayon ${r} cm. Le point M est à ${distance} cm de O. Où est M ?`,
       options: a.melanger(['sur le cercle', 'à l’intérieur du disque, pas sur le cercle', 'à l’extérieur du disque']),
+      erreurs: tous(['sur le cercle', 'à l’intérieur du disque, pas sur le cercle', 'à l’extérieur du disque'], reponse, 'distance-rayon-comparee'),
       reponse,
       indice: 'Compare la distance OM au rayon.',
       explication: position === 0
@@ -160,7 +164,7 @@ export const mediatrice6e = creerGenerateur({
       ];
       const [q, r, pieges] = a.choisir(definitions);
       return {
-        gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), reponse: r,
+        gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), erreurs: tous(pieges, r, 'mediatrice-propriete'), reponse: r,
         indice: 'Médiatrice : « médi » comme milieu, et un angle droit.',
         explication: `${q.replace(/ :$/, '')} ${r}.`,
       };
@@ -182,6 +186,7 @@ export const mediatrice6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `${M}${P} = ${cm(t)} et ${M}${Q} = ${cm(autre)}. Le point ${M} est-il sur la médiatrice de [${P}${Q}] ?`,
       options: a.melanger(['Oui', 'Non', 'On ne peut pas savoir']),
+      erreurs: { [egales ? 'Non' : 'Oui']: 'mediatrice-propriete' },
       reponse: egales ? 'Oui' : 'Non',
       indice: 'Compare les distances aux deux extrémités du segment.',
       explication: egales
@@ -207,7 +212,7 @@ export const angles6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Un angle mesure ${x}°. Comment s’appelle-t-il ?`,
-        options: options(a, reponse, ['nul', 'aigu', 'droit', 'obtus', 'plat', 'plein'].map((n) => `un angle ${n}`).filter((n) => n !== reponse).slice(0, 3), () => 'un angle droit'),
+        ...choix(a, reponse, ['nul', 'aigu', 'droit', 'obtus', 'plat', 'plein'].map((n) => `un angle ${n}`).filter((n) => n !== reponse).slice(0, 3).map((n): Piege => [n, 'angles-confondus']), () => 'un angle droit'),
         reponse,
         indice: 'Repères : droit 90°, plat 180°, plein 360°.',
         explication: x < 90 && x > 0 ? `${x}° est entre 0° et 90° : l’angle est aigu.` : x > 90 && x < 180 ? `${x}° est entre 90° et 180° : l’angle est obtus.` : `${x}° : c’est ${reponse}.`,
@@ -335,6 +340,7 @@ export const trianglesAngles6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Peut-on construire un triangle dont les côtés mesurent ${x} cm, ${y} cm et ${z} cm ?`,
       options: a.melanger(['Oui', 'Non', 'Seulement s’il est rectangle']),
+      erreurs: { [possible ? 'Non' : 'Oui']: 'inegalite-triangulaire' },
       reponse: possible ? 'Oui' : 'Non',
       indice: 'Le plus grand côté doit être plus petit que la somme des deux autres.',
       explication: possible
@@ -364,6 +370,7 @@ export const symetrie6e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Combien d’axes de symétrie a ${figure} ?`,
         options: a.melanger([n, ...pieges]),
+        erreurs: tous(pieges, n, 'axes-symetrie'),
         reponse: n,
         indice: 'Un axe de symétrie partage la figure en deux moitiés qui se superposent par pliage.',
         explication: `${figure[0]!.toUpperCase()}${figure.slice(1)} ${n === '0' ? 'n’a aucun axe' : n === '1' ? 'a 1 axe' : `a ${n} axes`} de symétrie.`,

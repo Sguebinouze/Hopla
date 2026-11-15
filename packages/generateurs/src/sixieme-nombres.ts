@@ -1,6 +1,6 @@
 // 6e, nombres, calculs et fractions. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 import { comparerDecimaux, decaler, depuisEntier, normaliserDecimal } from './decimaux';
-import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, tous, type Aleatoire } from './outils';
 
 const PUISSANCES = [10, 100, 1000];
 const nomPuissance = (p: number) => fr(p);
@@ -124,6 +124,7 @@ export const fractionsDecimales6e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quelle fraction est égale à ${x} ?`,
         options: a.melanger([1, 2, 3].map((j) => `${n}/${den(j)}`).concat(`${n * 10}/10`)),
+        erreurs: tous([1, 2, 3].map((j) => `${n}/${den(j)}`).concat(`${n * 10}/10`), `${n}/${den(k)}`, 'fraction-decimale-rang'),
         reponse: `${n}/${den(k)}`,
         indice: 'Repère le rang du dernier chiffre : dixièmes, centièmes ou millièmes.',
         explication: `Le chiffre ${n} est au rang des ${['dixièmes', 'centièmes', 'millièmes'][k - 1]}. ${x} = ${n}/${den(k)}.`,

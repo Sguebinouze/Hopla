@@ -2,7 +2,7 @@
 // Temps du CM1 : présent, imparfait, futur, passé composé. Verbes : être, avoir, 1er et 2e groupes,
 // faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.
 import { confusionTemps } from './erreurs';
-import { choix, creerGenerateur, erreursDe, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreursDe, tous, type Aleatoire } from './outils';
 
 // ─────────── Données de conjugaison
 
@@ -393,6 +393,7 @@ export const determinantsCm1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans la phrase « ${phrase} », quelle est la nature du déterminant « ${mot} » ?`,
       options: a.melanger([...NATURES]),
+      erreurs: tous(NATURES, nature, 'determinant-confondu'),
       reponse: nature,
       indice: 'Le déterminant précise-t-il une chose connue, une chose quelconque, à qui elle appartient, ou la montre-t-il ?',
       explication: `« ${mot} » est un ${nature}. ${RAISON_NATURE[nature]}${ASTUCE[mot.toLowerCase()] ?? ''}`,
@@ -529,6 +530,8 @@ export const complementsCm1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la fonction du groupe « ${cible.texte} » ?`,
       options: a.melanger(d === 3 ? FONCTIONS_3 : FONCTIONS_1),
+      erreurs: Object.fromEntries((d === 3 ? FONCTIONS_3 : FONCTIONS_1).filter((f) => f !== reponse)
+        .map((f) => [f, ['COD', 'COI'].includes(f) && ['COD', 'COI'].includes(reponse) ? 'cod-coi-confondus' : 'fonction-grammaticale-confondue'])),
       reponse,
       indice: d === 3 ? 'Le COI est relié au verbe par une préposition (à, de). Le COD est relié directement.' : 'Essaie de déplacer ou de supprimer le groupe. Si la phrase garde son sens, c’est un complément circonstanciel.',
       explication,
