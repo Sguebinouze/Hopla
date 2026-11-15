@@ -4,7 +4,6 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
-import { noterDefi, records } from '../lib/entrainement';
 import { chargerPack, type Defi as DefiPack } from '../lib/packs';
 
 type Phase = 'pret' | 'en-cours' | 'fini';
@@ -46,7 +45,7 @@ export function Defi() {
         if (!d) return naviguer('/accueil');
         setEnfant(e);
         setDefi(d);
-        setRecord(records(e.id)[d.id] ?? 0);
+        setRecord((await api.records().catch(() => ({} as Record<string, number>)))[d.id] ?? 0);
       } catch {
         naviguer('/accueil');
       }
@@ -56,7 +55,8 @@ export function Defi() {
   const terminer = useCallback(() => {
     if (!enfant || !defi) return;
     setPhase('fini');
-    setNouveauRecord(noterDefi(enfant.id, defi.id, justes));
+    setNouveauRecord(false);
+    void api.noterDefi(defi.id, justes).then(setNouveauRecord).catch(() => undefined);
     setRecord((r) => Math.max(r, justes));
   }, [enfant, defi, justes]);
 

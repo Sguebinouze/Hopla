@@ -2,13 +2,17 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
-import { api, type Classe, type SuiviEnfant } from '../lib/donnees';
+import { Appareils } from '../composants/Appareils';
+import { Famille } from '../composants/Famille';
+import { api, type Appareil, type Classe, type SuiviEnfant } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { bilan, libelleErreur } from '../lib/progression';
 
 const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 
-function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undefined }) {
+function TableauEnfant({ suivi, pack, appareils, onChange }: {
+  suivi: SuiviEnfant; pack: Pack | undefined; appareils: Appareil[]; onChange: () => void;
+}) {
   const { enfant, progression, erreurs } = suivi;
   const titres = new Map(pack?.matieres.flatMap((m) => m.competences.map((c) => [c.id, c.titre] as const)) ?? []);
   return (
@@ -52,6 +56,7 @@ function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undef
           ))}
         </ul>
       )}
+      <Appareils enfant={enfant.id} prenom={enfant.prenom} appareils={appareils} onChange={onChange} />
     </section>
   );
 }
@@ -65,6 +70,7 @@ export function Parent() {
   const [packs, setPacks] = useState<Partial<Record<Classe, Pack>>>({});
   const [version, setVersion] = useState(0);
   const [admin, setAdmin] = useState(false);
+  const [appareils, setAppareils] = useState<Appareil[]>([]);
 
   useEffect(() => {
     if (!ouvert) return;
@@ -73,6 +79,7 @@ export function Parent() {
         setAdmin(await api.estAdmin().catch(() => false));
         const s = await api.suiviParent();
         setSuivis(s);
+        setAppareils(await api.appareils().catch(() => []));
         const classes = [...new Set(s.map((x) => x.enfant.classe))];
         const charges = await Promise.all(classes.map((c) => chargerPack(c).then((p) => [c, p] as const).catch(() => null)));
         setPacks(Object.fromEntries(charges.filter((x) => x !== null)));
@@ -129,7 +136,11 @@ export function Parent() {
             <Icone nom="eclair" />
           </Link>
         )}
-        {suivis.map((s) => <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />)}
+        {suivis.map((s) => (
+          <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]}
+            appareils={appareils.filter((a) => a.enfant_id === s.enfant.id)} onChange={() => setVersion((v) => v + 1)} />
+        ))}
+        <Famille sansEnfant={suivis.length === 0} onRejoint={() => setVersion((v) => v + 1)} />
         <form className="formulaire hp-card" onSubmit={(e) => {
           e.preventDefault();
           void essayer(async () => {

@@ -8,6 +8,7 @@ import { beforeAll, describe, expect, it } from 'vitest';
 
 const PARENT_A = '11111111-1111-1111-1111-111111111111';
 const PARENT_B = '22222222-2222-2222-2222-222222222222';
+const PARENT_C = '33333333-3333-3333-3333-333333333333';
 
 let db: PGlite;
 
@@ -30,6 +31,16 @@ async function en<T = Record<string, unknown>>(ctx: Contexte, sql: string, param
     return r.rows;
   });
 }
+/** Appareil appairé de l'enfant : rôle anon, aucun compte, jeton d'appareil en en-tête. */
+async function surAppareil<T = Record<string, unknown>>(jeton: string | null, sql: string, params: unknown[] = []): Promise<T[]> {
+  return db.transaction(async (tx) => {
+    await tx.query(`select set_config('request.jwt.claim.sub', '', true), set_config('request.headers', $1, true)`,
+      [JSON.stringify(jeton ? { 'x-appareil': jeton } : {})]);
+    await tx.exec('set local role anon');
+    const r = await tx.query<T>(sql, params);
+    return r.rows;
+  });
+}
 const une = async <T>(ctx: Contexte, sql: string, params: unknown[] = []) => (await en<Record<string, T>>(ctx, sql, params))[0];
 
 beforeAll(async () => {
@@ -39,11 +50,11 @@ beforeAll(async () => {
     create role authenticated nologin;
     create schema auth;
     create schema extensions;
-    create table auth.users (id uuid primary key);
+    create table auth.users (id uuid primary key, email text);
     create function auth.uid() returns uuid language sql stable as
       $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
     grant usage on schema public, auth, extensions to anon, authenticated;
-    insert into auth.users values ('${PARENT_A}'), ('${PARENT_B}');
+    insert into auth.users values ('${PARENT_A}', 'a@exemple.fr'), ('${PARENT_B}', 'b@exemple.fr'), ('${PARENT_C}', 'c@exemple.fr');
   `);
   const dossier = join(import.meta.dirname, '..', 'migrations');
   for (const f of readdirSync(dossier).sort()) await db.exec(readFileSync(join(dossier, f), 'utf8'));
@@ -171,6 +182,69 @@ describe('sessions et isolation', () => {
       `insert into public.relectures (type, element_id, decision) values ('lecon', 'pas un id', 'ok')`)).rejects.toThrow(/check constraint/);
     // La table des admins ne se modifie pas depuis l'app.
     await expect(en({ parent: PARENT_B }, `insert into public.admins (user_id) values ('${PARENT_B}')`)).rejects.toThrow(/permission denied/);
+  });
+
+  it('famille : un second parent invité voit les mêmes enfants, en mode parent seulement', async () => {
+    const code = (await une<string>({ parent: PARENT_A, parentMode: modeA }, `select public.inviter_parent() as c`))!.c!;
+    expect(code).toMatch(/^[A-HJ-KMNP-Z2-9]{8}$/);
+    await expect(en({ parent: PARENT_A }, `select public.inviter_parent()`)).rejects.toThrow(/Mode parent requis/);
+
+    await en({ parent: PARENT_C }, `select public.definir_code_parent('7777')`);
+    await expect(en({ parent: PARENT_C }, `select public.rejoindre_famille('AAAA-BBBB')`)).rejects.toThrow(/inconnu ou expiré/);
+    await en({ parent: PARENT_C }, `select public.rejoindre_famille($1)`, [code.slice(0, 4) + '-' + code.slice(4).toLowerCase()]);
+    // Usage unique.
+    await expect(en({ parent: PARENT_B }, `select public.rejoindre_famille($1)`, [code])).rejects.toThrow(/inconnu ou expiré/);
+
+    expect((await en({ parent: PARENT_C }, `select prenom from public.liste_profils()`)).map((p) => p.prenom)).toEqual(['Léa', 'Tom']);
+    expect(await en({ parent: PARENT_C }, `select id from public.enfants`)).toEqual([]);
+    const modeC = (await une<string>({ parent: PARENT_C }, `select public.ouvrir_mode_parent('7777') as j`))!.j!;
+    expect((await en({ parent: PARENT_C, parentMode: modeC }, `select prenom from public.enfants order by cree_le`)).map((e) => e.prenom)).toEqual(['Léa', 'Tom']);
+    expect((await en({ parent: PARENT_C, parentMode: modeC }, `select moi from public.membres_de_ma_famille()`)).length).toBe(2);
+    // Le parent B, hors de la famille, ne voit toujours rien.
+    expect(await en({ parent: PARENT_B }, `select prenom from public.liste_profils()`)).toEqual([]);
+  });
+
+  it('appareil de l’enfant : appairé par code, limité à son profil, révocable', async () => {
+    await expect(en({ parent: PARENT_B }, `select public.creer_appairage($1)`, [lea])).rejects.toThrow(/Mode parent requis/);
+    const code = (await une<string>({ parent: PARENT_A, parentMode: modeA }, `select public.creer_appairage($1) as c`, [lea]))!.c!;
+    await expect(surAppareil(null, `select * from public.lier_appareil('ZZZZZZZZ', 'Tablette')`)).rejects.toThrow(/inconnu ou expiré/);
+    const lien = (await surAppareil<{ jeton: string; prenom: string }>(null, `select * from public.lier_appareil($1, 'Tablette')`, [code]))[0]!;
+    expect(lien.prenom).toBe('Léa');
+    await expect(surAppareil(null, `select * from public.lier_appareil($1, 'Autre')`, [code])).rejects.toThrow(/inconnu ou expiré/);
+
+    const jeton = lien.jeton;
+    expect((await surAppareil(jeton, `select prenom from public.mon_appareil()`)).map((r) => r.prenom)).toEqual(['Léa']);
+    expect((await surAppareil(jeton, `select prenom from public.enfants`)).map((r) => r.prenom)).toEqual(['Léa']);
+    const ins = `insert into public.resultats (enfant_id, competence_id, contenu_id, annee_scolaire, reussi) values ($1, 'MA-C2-CE2-NUM-01', 'x', '2026-2027', true)`;
+    await surAppareil(jeton, ins, [lea]);
+    await expect(surAppareil(jeton, ins, [tom])).rejects.toThrow(/row-level security/);
+    expect((await surAppareil(jeton, `select distinct enfant_id from public.resultats`)).map((r) => r.enfant_id)).toEqual([lea]);
+    // Sans jeton, ou avec un faux : rien.
+    expect(await surAppareil(null, `select id from public.enfants`)).toEqual([]);
+    expect(await surAppareil('faux', `select id from public.resultats`)).toEqual([]);
+    for (const f of ['public.inviter_parent()', `public.creer_appairage('${lea}')`, 'public.membres_de_ma_famille()', `public.rejoindre_famille('X')`]) {
+      await expect(surAppareil(jeton, `select ${f}`)).rejects.toThrow(/permission denied/);
+    }
+
+    // Records et contrôle depuis l'appareil ; le parent les voit, un autre parent non.
+    expect((await surAppareil(jeton, `select public.noter_defi('tables-addition-ce1', 9) as n`))[0]!.n).toBe(true);
+    expect((await surAppareil(jeton, `select public.noter_defi('tables-addition-ce1', 7) as n`))[0]!.n).toBe(false);
+    await surAppareil(jeton, `insert into public.controles (enfant_id, date, notions) values ($1, '2026-11-20', array['MA-C2-CE2-NUM-01'])`, [lea]);
+    await expect(surAppareil(jeton, `insert into public.controles (enfant_id, date, notions) values ($1, '2026-11-20', array['MA-C2-CE2-NUM-01'])`, [tom]))
+      .rejects.toThrow(/row-level security/);
+    await expect(surAppareil(jeton, `update public.controles set notions = array['pas un id'] where enfant_id = $1`, [lea])).rejects.toThrow(/check constraint/);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, `select defi_id, record from public.records_defis`)).toEqual([{ defi_id: 'tables-addition-ce1', record: 9 }]);
+    expect((await en({ parent: PARENT_A, parentMode: modeA }, `select enfant_id from public.controles`)).length).toBe(1);
+    expect(await en({ parent: PARENT_B }, `select * from public.controles`)).toEqual([]);
+    expect(await en({ parent: PARENT_A }, `select * from public.records_defis`)).toEqual([]);
+
+    // Le parent voit l'appareil et le retire : le jeton ne vaut plus rien.
+    const appareils = await en<{ id: string; nom: string }>({ parent: PARENT_A, parentMode: modeA }, `select id, nom from public.appareils`);
+    expect(appareils.map((a) => a.nom)).toEqual(['Tablette']);
+    expect(await en({ parent: PARENT_B }, `select id from public.appareils`)).toEqual([]);
+    await en({ parent: PARENT_A, parentMode: modeA }, `delete from public.appareils where id = $1`, [appareils[0]!.id]);
+    expect(await surAppareil(jeton, `select prenom from public.mon_appareil()`)).toEqual([]);
+    expect(await surAppareil(jeton, `select id from public.enfants`)).toEqual([]);
   });
 
   it('bloque après 5 mauvais codes en 10 minutes', async () => {

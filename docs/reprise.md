@@ -1,6 +1,6 @@
 # Reprise du projet : état et prochaines étapes
 
-À lire en début de session, après `CLAUDE.md`, `docs/contenu.md` et `docs/redaction.md`.
+À lire en début de session, après `CLAUDE.md`, `docs/contenu.md` et `docs/redaction.md`. Comptes, accès et espaces : `docs/architecture.md`.
 
 ## État au 15 novembre 2026
 

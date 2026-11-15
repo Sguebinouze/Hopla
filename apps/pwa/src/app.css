@@ -118,3 +118,13 @@ a.hp-chip { text-decoration: none; }
 .relecture__commentaire { min-height: 64px; border: 2px solid var(--line); border-radius: var(--radius-sm); padding: var(--space-2); font: inherit; background: var(--surface-1); color: var(--ink); resize: vertical; }
 .relecture__tout { flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: var(--space-2); }
 @media (max-width: 560px) { .relecture__lecon { grid-template-columns: 1fr; gap: 2px; } .relecture__lecon dd { margin-bottom: var(--space-2); } }
+
+/* Famille et appareils */
+.famille, .appareils { display: flex; flex-direction: column; gap: var(--space-2); }
+.famille__membres { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-1); }
+.appareils { border-top: 1px solid var(--line); padding-top: var(--space-3); }
+.appareils__ligne { flex-wrap: wrap; }
+.appareils__code { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; }
+.appareils__code img { border-radius: var(--radius-sm); background: #fff; }
+.code-lisible { margin: 0; font-family: var(--font-display); font-size: 28px; font-weight: 600; letter-spacing: .12em; }
+.code-saisie { text-transform: uppercase; letter-spacing: .12em; font-size: 20px; }

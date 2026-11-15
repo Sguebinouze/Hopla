@@ -1,48 +1,4 @@
-// Records de défis et contrôle prévu : gardés sur l'appareil, par enfant.
-// Rien de personnel : des scores et des identifiants de notions.
-
-export interface Controle {
-  date: string; // AAAA-MM-JJ
-  notions: string[];
-}
-
-const lire = <T>(cle: string, defaut: T): T => {
-  try {
-    const brut = localStorage.getItem(cle);
-    return brut ? (JSON.parse(brut) as T) : defaut;
-  } catch {
-    return defaut;
-  }
-};
-const ecrire = (cle: string, valeur: unknown) => {
-  try {
-    if (valeur === null) localStorage.removeItem(cle);
-    else localStorage.setItem(cle, JSON.stringify(valeur));
-  } catch {
-    /* stockage indisponible : rien n'est gardé */
-  }
-};
-
-export function records(enfant: string): Record<string, number> {
-  return lire(`hopla.defis.${enfant}`, {});
-}
-
-/** Enregistre un score ; renvoie vrai si c'est un nouveau record. */
-export function noterDefi(enfant: string, defi: string, score: number): boolean {
-  const r = records(enfant);
-  const nouveau = score > (r[defi] ?? 0);
-  if (nouveau) ecrire(`hopla.defis.${enfant}`, { ...r, [defi]: score });
-  return nouveau;
-}
-
-export function controle(enfant: string, jour: string): Controle | null {
-  const c = lire<Controle | null>(`hopla.controle.${enfant}`, null);
-  return c && c.date >= jour && c.notions.length > 0 ? c : null;
-}
-
-export function prevoirControle(enfant: string, c: Controle | null) {
-  ecrire(`hopla.controle.${enfant}`, c);
-}
+// Dates du mode contrôle. Les records et le contrôle prévu sont en base (api.records, api.controle).
 
 /** Prochain vendredi (aujourd'hui exclu), au format AAAA-MM-JJ. */
 export function prochainVendredi(d = new Date()): Date {

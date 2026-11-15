@@ -1,23 +1,31 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
-import { api, type Profil } from '../lib/donnees';
+import { api, surAppareilEnfant, type Profil } from '../lib/donnees';
+
+const FOURNISSEURS = [
+  ...(import.meta.env.VITE_AUTH_APPLE === '1' ? [{ id: 'apple' as const, nom: 'Apple' }] : []),
+  ...(import.meta.env.VITE_AUTH_GOOGLE === '1' ? [{ id: 'google' as const, nom: 'Google' }] : []),
+];
 
 export function Profils() {
   const [connecte, setConnecte] = useState<boolean | null>(null);
   const [profils, setProfils] = useState<Profil[]>([]);
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const naviguer = useNavigate();
 
   useEffect(() => {
     void (async () => {
+      // Appareil de l'enfant : son espace s'ouvre directement.
+      if (surAppareilEnfant() && (await api.monAppareil().catch(() => null))) return naviguer('/accueil', { replace: true });
       const ok = await api.parentConnecte();
       setConnecte(ok);
       if (ok) setProfils(await api.listeProfils());
     })();
-  }, []);
+  }, [naviguer]);
 
   if (connecte === null) return <main className="ecran" aria-busy="true" />;
 
@@ -35,7 +43,15 @@ export function Profils() {
           <label>Adresse e-mail<input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} /></label>
           <button className="hp-btn hp-btn--primary hp-btn--lg">Recevoir le lien</button>
         </form>
+        {FOURNISSEURS.map((f) => (
+          <button key={f.id} type="button" className="hp-btn hp-btn--secondary hp-btn--block"
+            onClick={() => void api.connecterAvec(f.id).catch((e: Error) => setMessage(e.message))}>
+            Continuer avec {f.nom}
+          </button>
+        ))}
         {message && <p className="muet">{message}</p>}
+        <div className="pousse" />
+        <Link to="/appairer" className="hp-btn hp-btn--ghost hp-btn--block">C’est l’appareil d’un enfant : j’ai un code</Link>
       </main>
     );
   }

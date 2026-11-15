@@ -3,7 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
-import { controle as lireControle, dateLisible, joursAvant, prevoirControle, prochainVendredi, type Controle as ControlePrevu } from '../lib/entrainement';
+import { dateLisible, joursAvant, prochainVendredi } from '../lib/entrainement';
+import type { ControlePrevu } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { aujourdhui, CHIP_ETAT, etat, LIBELLE_ETAT, type Suivi } from '../lib/progression';
 
@@ -18,6 +19,7 @@ export function Controle() {
   const [date, setDate] = useState(aujourdhui(prochainVendredi()));
   const [choix, setChoix] = useState<string[]>([]);
   const [matiere, setMatiere] = useState('');
+  const [erreur, setErreur] = useState('');
   const jour = aujourdhui();
 
   useEffect(() => {
@@ -27,7 +29,7 @@ export function Controle() {
         if (!e) return naviguer('/');
         setEnfant(e);
         setPack(await chargerPack(e.classe));
-        setPrevu(lireControle(e.id, aujourdhui()));
+        setPrevu(await api.controle().catch(() => null));
         setSuivi(await api.progression().catch(() => ({})));
       } catch {
         naviguer('/accueil');
@@ -74,7 +76,7 @@ export function Controle() {
           })}
         </div>
         {liste[0] && <Link to={`/exercice/${liste[0].id}`} className="hp-btn hp-btn--reward hp-btn--block">Réviser la notion la moins sure</Link>}
-        <button className="hp-btn hp-btn--ghost" onClick={() => { prevoirControle(enfant.id, null); setPrevu(null); setChoix([]); }}>
+        <button className="hp-btn hp-btn--ghost" onClick={() => { void api.prevoirControle(null).then(() => { setPrevu(null); setChoix([]); }).catch((e: Error) => setErreur(e.message)); }}>
           Le contrôle est passé ou annulé
         </button>
       </main>
@@ -88,8 +90,7 @@ export function Controle() {
   const valider = () => {
     if (choix.length === 0) return;
     const c = { date, notions: choix };
-    prevoirControle(enfant.id, c);
-    setPrevu(c);
+    void api.prevoirControle(c).then(() => setPrevu(c)).catch((e: Error) => setErreur(e.message));
   };
   return (
     <main className="ecran controle">
@@ -144,6 +145,7 @@ export function Controle() {
         ))}
       </section>
 
+      {erreur && <p className="muet" role="alert">{erreur}</p>}
       <div className="controle__pied">
         <p className="muet pousse">
           {choix.length === 0 ? 'Choisis au moins une notion.' : `${choix.length} notion${choix.length > 1 ? 's' : ''} · ${dateLisible(date)}`}

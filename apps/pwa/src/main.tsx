@@ -8,6 +8,7 @@ import { Accueil } from './pages/Accueil';
 import { Code } from './pages/Code';
 import { Exercice } from './pages/Exercice';
 import { Lecon } from './pages/Lecon';
+import { Appairer } from './pages/Appairer';
 import { Controle } from './pages/Controle';
 import { Defi } from './pages/Defi';
 import { Matiere } from './pages/Matiere';
@@ -24,6 +25,7 @@ createRoot(document.getElementById('racine')!).render(
       <Routes>
         <Route path="/" element={<Profils />} />
         <Route path="/code/:id" element={<Code />} />
+        <Route path="/appairer" element={<Appairer />} />
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/matiere/:matiere" element={<Matiere />} />
         <Route path="/lecon/:competence" element={<Lecon />} />

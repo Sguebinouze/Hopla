@@ -3,11 +3,12 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
-import { api, type Enfant } from '../lib/donnees';
+import { api, surAppareilEnfant, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
 import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
-import { bilan, etat, aujourdhui, type Suivi } from '../lib/progression';
-import { controle as controlePrevu, dateLisible, records } from '../lib/entrainement';
+import { bilan, etat, type Suivi } from '../lib/progression';
+import { dateLisible } from '../lib/entrainement';
+import type { ControlePrevu } from '../lib/donnees';
 
 const XP_PAR_NIVEAU = 200;
 const COULEUR_MATIERE: Record<string, string> = {
@@ -23,6 +24,8 @@ export function Accueil() {
   const [erreur, setErreur] = useState('');
   const [voixAuto, setVoixAuto] = useState<boolean | null>(null);
   const [suivi, setSuivi] = useState<Record<string, Suivi>>({});
+  const [prevu, setPrevu] = useState<ControlePrevu | null>(null);
+  const [mesRecords, setMesRecords] = useState<Record<string, number>>({});
 
   useEffect(() => {
     void (async () => {
@@ -35,6 +38,8 @@ export function Accueil() {
         setVoixAuto(lectureAuto(p.cycle));
         // Sans réseau, l'accueil reste utilisable : la progression s'affiche à 0.
         setSuivi(await api.progression().catch(() => ({})));
+        setPrevu(await api.controle().catch(() => null));
+        setMesRecords(await api.records().catch(() => ({})));
       } catch (err) {
         setErreur((err as Error).message || 'Erreur de chargement.');
       }
@@ -57,9 +62,7 @@ export function Accueil() {
   }
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
-  const prevu = controlePrevu(enfant.id, aujourdhui());
   const mission = pack ? missionDuJour(pack, suivi, new Date(), prevu?.notions) : [];
-  const mesRecords = records(enfant.id);
 
   return (
     <main className="ecran">
@@ -159,9 +162,11 @@ export function Accueil() {
           Octave lit les consignes à voix haute
         </label>
       )}
-      <button className="hp-btn hp-btn--ghost" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
-        <Icone nom="cadenas" />Quitter ma session
-      </button>
+      {!surAppareilEnfant() && (
+        <button className="hp-btn hp-btn--ghost" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
+          <Icone nom="cadenas" />Quitter ma session
+        </button>
+      )}
     </main>
   );
 }

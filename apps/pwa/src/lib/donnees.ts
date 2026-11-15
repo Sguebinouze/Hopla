@@ -43,6 +43,26 @@ export interface DecisionRelecture {
   maj_le?: string;
 }
 
+export interface Appareil {
+  id: string;
+  enfant_id: string;
+  nom: string;
+  cree_le: string;
+  vu_le: string;
+}
+
+export interface MembreFamille {
+  user_id: string;
+  email: string;
+  rejoint_le: string;
+  moi: boolean;
+}
+
+export interface ControlePrevu {
+  date: string;
+  notions: string[];
+}
+
 export interface SuiviEnfant {
   enfant: Enfant;
   progression: Record<string, Suivi>;
@@ -53,6 +73,8 @@ export interface Api {
   mode: 'demo' | 'supabase';
   parentConnecte(): Promise<boolean>;
   envoyerLienParent(email: string): Promise<void>;
+  /** Connexion parent par Apple ou Google (si le fournisseur est activé dans Supabase). */
+  connecterAvec(fournisseur: 'apple' | 'google'): Promise<void>;
   listeProfils(): Promise<Profil[]>;
   /** Renvoie faux si le code est incorrect. */
   ouvrirSession(enfant: string, code: string): Promise<boolean>;
@@ -67,6 +89,23 @@ export interface Api {
   creerEnfant(e: { prenom: string; avatar: string; classe: Classe; code: string }): Promise<void>;
   /** Mode parent ouvert : progression et erreurs fréquentes de chaque enfant. */
   suiviParent(): Promise<SuiviEnfant[]>;
+  // Appareil de l'enfant : appairé par un code du parent, limité à ce profil.
+  /** Profil associé à cet appareil, ou null. */
+  monAppareil(): Promise<Enfant | null>;
+  lierAppareil(code: string): Promise<Enfant>;
+  // Mode parent : famille et appareils.
+  membresFamille(): Promise<MembreFamille[]>;
+  inviterParent(): Promise<string>;
+  rejoindreFamille(code: string): Promise<void>;
+  creerAppairage(enfant: string): Promise<string>;
+  appareils(): Promise<Appareil[]>;
+  retirerAppareil(id: string): Promise<void>;
+  // Défis et contrôle de l'enfant en session (ou d'un enfant en mode parent).
+  records(): Promise<Record<string, number>>;
+  /** Vrai si c'est un nouveau record. */
+  noterDefi(defi: string, score: number): Promise<boolean>;
+  controle(enfant?: string): Promise<ControlePrevu | null>;
+  prevoirControle(c: ControlePrevu | null, enfant?: string): Promise<void>;
   // Espace admin : compte inscrit comme admin, mode parent ouvert (contrôlé en base).
   estAdmin(): Promise<boolean>;
   decisionsRelecture(): Promise<DecisionRelecture[]>;
@@ -86,6 +125,36 @@ const versSuivi = (l: LigneProgression): Suivi => ({
 const CLE_SESSION = 'hopla.session-enfant';
 const CLE_ENFANT = 'hopla.enfant';
 const CLE_PARENT = 'hopla.session-parent';
+/** Appareil de l'enfant : jeton durable, gardé sur l'appareil (localStorage). */
+const CLE_APPAREIL = 'hopla.appareil';
+
+function jetonAppareil(): string | null {
+  try {
+    return localStorage.getItem(CLE_APPAREIL);
+  } catch {
+    return null;
+  }
+}
+
+/** Nom générique de l'appareil, sans rien d'identifiant. */
+/** Vrai si cet appareil est associé à un profil enfant. */
+export const surAppareilEnfant = () => jetonAppareil() !== null;
+
+export function nomAppareil(): string {
+  const ua = navigator.userAgent;
+  if (/iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) return 'iPad';
+  if (/iPhone/.test(ua)) return 'iPhone';
+  if (/Android/.test(ua)) return /Mobile/.test(ua) ? 'Téléphone Android' : 'Tablette Android';
+  if (/Macintosh/.test(ua)) return 'Mac';
+  if (/Windows/.test(ua)) return 'PC Windows';
+  return 'Appareil';
+}
+
+const auJour = () => {
+  const d = new Date();
+  const z = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${z(d.getMonth() + 1)}-${z(d.getDate())}`;
+};
 
 // ─────────────────────────────── Supabase
 
@@ -99,6 +168,8 @@ function apiSupabase(url: string, cle: string): Api {
         if (jeton) entetes.set('x-session-enfant', jeton);
         const jetonParent = sessionStorage.getItem(CLE_PARENT);
         if (jetonParent) entetes.set('x-session-parent', jetonParent);
+        const appareil = jetonAppareil();
+        if (appareil) entetes.set('x-appareil', appareil);
         return fetch(entree, { ...init, headers: entetes });
       },
     },
@@ -123,6 +194,10 @@ function apiSupabase(url: string, cle: string): Api {
       const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin } });
       if (error) throw error;
     },
+    async connecterAvec(fournisseur) {
+      const { error } = await client.auth.signInWithOAuth({ provider: fournisseur, options: { redirectTo: location.origin } });
+      if (error) throw error;
+    },
     async listeProfils() {
       const { data, error } = await client.rpc('liste_profils');
       if (error) throw error;
@@ -139,6 +214,7 @@ function apiSupabase(url: string, cle: string): Api {
       return true;
     },
     async enfantCourant() {
+      if (jetonAppareil()) return this.monAppareil();
       const id = sessionStorage.getItem(CLE_ENFANT);
       if (!sessionStorage.getItem(CLE_SESSION) || !id) return null;
       const { data, error } = await client
@@ -166,7 +242,7 @@ function apiSupabase(url: string, cle: string): Api {
       if (error) throw error;
     },
     async progression() {
-      if (!sessionStorage.getItem(CLE_SESSION)) return {};
+      if (!sessionStorage.getItem(CLE_SESSION) && !jetonAppareil()) return {};
       const { data, error } = await client.from('progression_competences').select(COLONNES_PROGRESSION);
       if (error) throw error;
       return Object.fromEntries((data as LigneProgression[]).map((l) => [l.competence_id, versSuivi(l)]));
@@ -209,6 +285,81 @@ function apiSupabase(url: string, cle: string): Api {
         };
       }));
     },
+    async monAppareil() {
+      if (!jetonAppareil()) return null;
+      const { data, error } = await client.rpc('mon_appareil');
+      if (error) throw error;
+      const e = (data as (Omit<Enfant, 'id' | 'code_type'> & { enfant_id: string })[])[0];
+      if (!e) {
+        // Appareil retiré par le parent : on oublie le jeton.
+        try { localStorage.removeItem(CLE_APPAREIL); } catch { /* rien */ }
+        return null;
+      }
+      return { id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'pictos' } as Enfant;
+    },
+    async lierAppareil(code) {
+      const { data, error } = await client.rpc('lier_appareil', { p_code: code, p_nom: nomAppareil() });
+      if (error) throw error;
+      const l = (data as { jeton: string; enfant_id: string; prenom: string; avatar: string; classe: Classe }[])[0]!;
+      localStorage.setItem(CLE_APPAREIL, l.jeton);
+      sessionStorage.removeItem(CLE_SESSION);
+      sessionStorage.removeItem(CLE_PARENT);
+      return { id: l.enfant_id, prenom: l.prenom, avatar: l.avatar, classe: l.classe, xp: 0, serie: 0, code_type: 'pictos' } as Enfant;
+    },
+    async membresFamille() {
+      const { data, error } = await client.rpc('membres_de_ma_famille');
+      if (error) throw error;
+      return data as MembreFamille[];
+    },
+    async inviterParent() {
+      const { data, error } = await client.rpc('inviter_parent');
+      if (error) throw error;
+      return data as string;
+    },
+    async rejoindreFamille(code) {
+      const { error } = await client.rpc('rejoindre_famille', { p_code: code });
+      if (error) throw error;
+    },
+    async creerAppairage(enfant) {
+      const { data, error } = await client.rpc('creer_appairage', { p_enfant: enfant });
+      if (error) throw error;
+      return data as string;
+    },
+    async appareils() {
+      const { data, error } = await client.from('appareils').select('id, enfant_id, nom, cree_le, vu_le').order('cree_le');
+      if (error) throw error;
+      return data as Appareil[];
+    },
+    async retirerAppareil(id) {
+      const { error } = await client.from('appareils').delete().eq('id', id);
+      if (error) throw error;
+    },
+    async records() {
+      const { data, error } = await client.from('records_defis').select('defi_id, record');
+      if (error) throw error;
+      return Object.fromEntries((data as { defi_id: string; record: number }[]).map((r) => [r.defi_id, r.record]));
+    },
+    async noterDefi(defi, score) {
+      const { data, error } = await client.rpc('noter_defi', { p_defi: defi, p_score: score });
+      if (error) throw error;
+      return data === true;
+    },
+    async controle(enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      if (!id) return null;
+      const { data, error } = await client.from('controles').select('date, notions').eq('enfant_id', id).maybeSingle();
+      if (error) throw error;
+      const c = data as ControlePrevu | null;
+      return c && c.date >= auJour() ? c : null;
+    },
+    async prevoirControle(c, enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      if (!id) throw new Error('Aucun profil en cours.');
+      const { error } = c
+        ? await client.from('controles').upsert({ enfant_id: id, date: c.date, notions: c.notions, maj_le: new Date().toISOString() })
+        : await client.from('controles').delete().eq('enfant_id', id);
+      if (error) throw error;
+    },
     async estAdmin() {
       if (!sessionStorage.getItem(CLE_PARENT)) return false;
       const { data, error } = await client.rpc('est_admin');
@@ -239,6 +390,23 @@ function apiSupabase(url: string, cle: string): Api {
 }
 
 // ─────────────────────────────── Démo (sans backend)
+
+function lireDemo<T>(cle: string, defaut: T): T {
+  try {
+    const v = localStorage.getItem(cle);
+    return v ? (JSON.parse(v) as T) : defaut;
+  } catch {
+    return defaut;
+  }
+}
+function ecrireDemo(cle: string, valeur: unknown) {
+  try {
+    if (valeur === null) localStorage.removeItem(cle);
+    else localStorage.setItem(cle, JSON.stringify(valeur));
+  } catch {
+    /* stockage indisponible : rien n'est gardé */
+  }
+}
 
 const CODE_DEMO = '1111';
 const ENFANTS_DEMO: Enfant[] = [
@@ -279,6 +447,7 @@ function apiDemo(): Api {
   return {
     mode: 'demo',
     parentConnecte: async () => true,
+    connecterAvec: async () => { throw new Error('Pas de connexion externe en mode démo.'); },
     envoyerLienParent: async () => undefined,
     listeProfils: async () => lire().map(({ id, prenom, avatar, code_type }) => ({ id, prenom, avatar, code_type })),
     async ouvrirSession(enfant, code) {
@@ -288,11 +457,11 @@ function apiDemo(): Api {
       return true;
     },
     async enfantCourant() {
-      const id = sessionStorage.getItem(CLE_ENFANT);
+      const id = jetonAppareil() ?? sessionStorage.getItem(CLE_ENFANT);
       return lire().find((e) => e.id === id) ?? null;
     },
     async enregistrer(r) {
-      const id = sessionStorage.getItem(CLE_ENFANT);
+      const id = jetonAppareil() ?? sessionStorage.getItem(CLE_ENFANT);
       ecrire(lire().map((e) => (e.id === id ? { ...e, xp: e.xp + (r.reussi ? (r.indice ? 6 : 10) : 2), serie: Math.max(1, e.serie) } : e)));
       if (!id) return;
       const j = lireJournal();
@@ -303,7 +472,7 @@ function apiDemo(): Api {
       ecrireJournal(j);
     },
     async progression() {
-      const id = sessionStorage.getItem(CLE_ENFANT);
+      const id = jetonAppareil() ?? sessionStorage.getItem(CLE_ENFANT);
       return id ? (lireJournal()[id]?.progression ?? {}) : {};
     },
     async suiviParent() {
@@ -331,6 +500,54 @@ function apiDemo(): Api {
       if (code !== CODE_DEMO) return false;
       sessionStorage.setItem(CLE_PARENT, 'demo');
       return true;
+    },
+    // Démo : appareils, famille, records et contrôles gardés dans ce navigateur.
+    async monAppareil() {
+      const id = jetonAppareil();
+      return id ? (lire().find((e) => e.id === id) ?? null) : null;
+    },
+    async lierAppareil(code) {
+      const c = lireDemo<Record<string, string>>('hopla.demo-appairages', {});
+      const enfant = c[code.toUpperCase().replace(/[^A-Z0-9]/g, '')];
+      const e = lire().find((x) => x.id === enfant);
+      if (!e) throw new Error('Code inconnu ou expiré.');
+      localStorage.setItem(CLE_APPAREIL, e.id);
+      ecrireDemo('hopla.demo-appareils', [...lireDemo<Appareil[]>('hopla.demo-appareils', []),
+        { id: `app-${Date.now()}`, enfant_id: e.id, nom: nomAppareil(), cree_le: new Date().toISOString(), vu_le: new Date().toISOString() }]);
+      return e;
+    },
+    membresFamille: async () => [{ user_id: 'demo', email: 'parent@demo', rejoint_le: new Date().toISOString(), moi: true }],
+    inviterParent: async () => 'DEMO2345',
+    rejoindreFamille: async () => { throw new Error('Pas d’invitation en mode démo.'); },
+    async creerAppairage(enfant) {
+      const code = Array.from({ length: 8 }, () => 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'[Math.floor(Math.random() * 31)]).join('');
+      ecrireDemo('hopla.demo-appairages', { ...lireDemo<Record<string, string>>('hopla.demo-appairages', {}), [code]: enfant });
+      return code;
+    },
+    appareils: async () => lireDemo<Appareil[]>('hopla.demo-appareils', []),
+    async retirerAppareil(id) {
+      ecrireDemo('hopla.demo-appareils', lireDemo<Appareil[]>('hopla.demo-appareils', []).filter((a) => a.id !== id));
+    },
+    async records() {
+      const id = (await this.enfantCourant())?.id;
+      return id ? lireDemo<Record<string, number>>(`hopla.defis.${id}`, {}) : {};
+    },
+    async noterDefi(defi, score) {
+      const id = (await this.enfantCourant())?.id;
+      if (!id) return false;
+      const r = lireDemo<Record<string, number>>(`hopla.defis.${id}`, {});
+      if ((r[defi] ?? 0) >= score) return false;
+      ecrireDemo(`hopla.defis.${id}`, { ...r, [defi]: score });
+      return true;
+    },
+    async controle(enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      const c = id ? lireDemo<ControlePrevu | null>(`hopla.controle.${id}`, null) : null;
+      return c && c.date >= auJour() && c.notions.length > 0 ? c : null;
+    },
+    async prevoirControle(c, enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      if (id) ecrireDemo(`hopla.controle.${id}`, c);
     },
     // Démo : admin dès que le mode parent est ouvert ; décisions gardées dans ce navigateur.
     estAdmin: async () => sessionStorage.getItem(CLE_PARENT) === 'demo',
