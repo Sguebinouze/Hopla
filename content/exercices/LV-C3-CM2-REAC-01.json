@@ -1,0 +1,160 @@
+{
+  "competence": "LV-C3-CM2-REAC-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-REAC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que propose cet enfant ?",
+      "options": [
+        "De jouer au football.",
+        "De regarder la télé.",
+        "De faire ses devoirs."
+      ],
+      "reponse": "De jouer au football.",
+      "indice": "« Let’s » veut dire allons, faisons.",
+      "explication": "« Let’s play football » : jouons au football.",
+      "ecoute": {
+        "texte": "Let’s play football!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment acceptes-tu une proposition ?",
+      "options": [
+        "Yes, good idea!",
+        "No, thanks.",
+        "Sorry."
+      ],
+      "reponse": "Yes, good idea!",
+      "indice": "« Good idea » veut dire bonne idée.",
+      "explication": "On accepte avec « Yes, good idea! ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment refuses-tu poliment ?",
+      "options": [
+        "No, thank you.",
+        "Yes, please.",
+        "Well done!"
+      ],
+      "reponse": "No, thank you.",
+      "indice": "Reste poli.",
+      "explication": "On refuse poliment avec « No, thank you ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dit le professeur ?",
+      "options": [
+        "Bravo.",
+        "Attention.",
+        "Silence."
+      ],
+      "reponse": "Bravo.",
+      "indice": "On le dit quand c’est réussi.",
+      "explication": "« Well done! » veut dire bravo.",
+      "ecoute": {
+        "texte": "Well done!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dit-on à cet enfant ?",
+      "options": [
+        "Félicitations.",
+        "Pardon.",
+        "Au revoir."
+      ],
+      "reponse": "Félicitations.",
+      "indice": "Le mot ressemble au français.",
+      "explication": "« Congratulations! » veut dire félicitations.",
+      "ecoute": {
+        "texte": "Congratulations!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Cet enfant accepte-t-il ?",
+      "options": [
+        "Non.",
+        "Oui."
+      ],
+      "reponse": "Non.",
+      "indice": "« Sorry, I can’t » veut dire désolé, je ne peux pas.",
+      "explication": "Il refuse : il ne peut pas.",
+      "ecoute": {
+        "texte": "Sorry, I can’t. I’m busy.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Ton ami te propose une glace. Tu en veux. Que réponds-tu ?",
+      "options": [
+        "Yes, please!",
+        "No, thanks.",
+        "Sorry!"
+      ],
+      "reponse": "Yes, please!",
+      "indice": "On accepte poliment.",
+      "explication": "On accepte avec « Yes, please! ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que propose cet enfant ?",
+      "options": [
+        "D’aller au parc après l’école.",
+        "D’aller à l’école.",
+        "De rester à la maison."
+      ],
+      "reponse": "D’aller au parc après l’école.",
+      "indice": "« After school » veut dire après l’école.",
+      "explication": "Il propose d’aller au parc après l’école.",
+      "ecoute": {
+        "texte": "Why don’t we go to the park after school?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

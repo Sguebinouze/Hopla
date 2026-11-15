@@ -59,7 +59,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - Anglais CP (fait) : `LV-C2-2026` (BO n° 12 de 2026). 9 notions, 72 questions dont 65 avec écoute (`ecoute`, en-GB), 9 leçons. Le constructeur accepte désormais un 7e champ facultatif pour le texte à écouter.
 - Anglais CE2 (fait) : `LV-C2-2020`, notions réservées au CE2 par les repères de progressivité (présenter quelqu’un, questions, date, politesse et excuses, épeler) et thèmes du cycle non traités en CE1 (famille et maison, météo, fêtes). 9 notions, 72 questions dont 61 avec écoute, 9 leçons.
 - Anglais CM1 (fait) : `LV-C3-2026` (BO n° 12 de 2026, objectifs du CM1). 9 notions, 72 questions dont 58 avec écoute, 9 leçons.
-- À suivre : anglais CM2 (`LV-C3-2020`), 5e (`LV-C4-2025`) ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027.
+- Anglais CM2 (fait) : `LV-C3-2020` (BO n° 31 de 2020, cycle 3 sans répartition annuelle). Thèmes choisis pour ne pas doublonner la 6e (2025) : annonces, invitations, achats, réagir, vêtements, ville, développement durable, contes et légendes, passé et futur. 9 notions, 72 questions dont 52 avec écoute, 9 leçons.
+- À suivre : anglais 5e (`LV-C4-2025`) ; pas de programme de langue vivante en vigueur listé pour la 4e et la 3e en 2026-2027.
 
 ## Travail à deux sessions
 

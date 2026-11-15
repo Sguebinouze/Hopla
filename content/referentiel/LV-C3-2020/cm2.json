@@ -1,0 +1,141 @@
+{
+  "programme": "LV-C3-2020",
+  "classe": "cm2",
+  "competences": [
+    {
+      "id": "LV-C3-CM2-MSG-01",
+      "titre": "Comprendre une annonce",
+      "domaine": "Écouter et comprendre",
+      "theme": "Identifier le sujet d’un message oral de courte durée",
+      "attendu": "Comprendre et extraire l’information essentielle d’un message oral court : annonce, météo, horaire.",
+      "exemple": "« The train to London leaves at ten o’clock from platform two. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 126,
+        "extrait": "Comprendre et extraire l'information"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01",
+      "titre": "Annoncer, inviter",
+      "domaine": "Parler en continu",
+      "theme": "Faire une brève annonce",
+      "attendu": "Faire une brève annonce ou une invitation en situant l’évènement dans le temps et l’espace.",
+      "exemple": "« Come to my birthday party on Saturday at three o’clock! »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 128,
+        "extrait": "Faire une brève annonce (date, anniversaire,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-REN-01",
+      "titre": "Faire des achats",
+      "domaine": "Réagir et dialoguer",
+      "theme": "Dialoguer pour obtenir des renseignements",
+      "attendu": "Dialoguer pour obtenir un renseignement simple : prix, quantité, horaire.",
+      "exemple": "« How much is the T-shirt? » « It’s ten pounds. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 130,
+        "extrait": "Dialoguer pour échanger / obtenir des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-REAC-01",
+      "titre": "Accepter, refuser, féliciter",
+      "domaine": "Réagir et dialoguer",
+      "theme": "Réagir à des propositions",
+      "attendu": "Réagir à des propositions de la vie courante : accepter, refuser, remercier, féliciter, s’excuser.",
+      "exemple": "« Let’s play football. » « Yes, good idea! »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 130,
+        "extrait": "Réagir à des propositions, dans des situations"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-VET-01",
+      "titre": "Les vêtements",
+      "domaine": "Activités culturelles et linguistiques",
+      "theme": "La personne et la vie quotidienne",
+      "attendu": "Nommer les vêtements et dire ce que l’on porte.",
+      "exemple": "« I’m wearing a blue jumper and black trousers. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 132,
+        "extrait": "Le corps humain, les vêtements, les modes de vie."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01",
+      "titre": "La ville",
+      "domaine": "Activités culturelles et linguistiques",
+      "theme": "La personne et la vie quotidienne",
+      "attendu": "Nommer les lieux de la ville, les espaces verts et l’habitat.",
+      "exemple": "« There is a big park next to the library. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 132,
+        "extrait": "L'environnement urbain : les espaces verts, l’habitat et l’écohabitat (notamment les"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-DD-01",
+      "titre": "Protéger la planète",
+      "domaine": "Activités culturelles et linguistiques",
+      "theme": "La personne et la vie quotidienne",
+      "attendu": "Comprendre et utiliser le vocabulaire du tri, du recyclage, des transports et des économies d’énergie.",
+      "exemple": "« Recycle your bottles and turn off the lights! »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 132,
+        "extrait": "Le développement durable : la lutte contre la pollution, le tri des déchets et le recyclage,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01",
+      "titre": "Contes et légendes",
+      "domaine": "Activités culturelles et linguistiques",
+      "theme": "L’imaginaire",
+      "attendu": "Découvrir quelques contes, mythes et légendes des pays de langue anglaise.",
+      "exemple": "« Robin Hood lives in Sherwood Forest. He helps the poor. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 132,
+        "extrait": "Contes, mythes et légendes du pays ou de la région."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01",
+      "titre": "Hier, aujourd’hui, demain",
+      "domaine": "Activités culturelles et linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Reconnaitre l’expression du temps : présent, passé et futur dans des énoncés simples.",
+      "exemple": "« Yesterday, I played tennis. Tomorrow, I’m going to swim. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 132,
+        "extrait": "Le verbe : son accord avec le sujet ; l'expression du temps : présent, passé, futur ; les"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

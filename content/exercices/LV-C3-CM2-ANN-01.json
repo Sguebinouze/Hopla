@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C3-CM2-ANN-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-ANN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. À quoi est-on invité ?",
+      "options": [
+        "À une fête d’anniversaire.",
+        "À un match.",
+        "À un mariage."
+      ],
+      "reponse": "À une fête d’anniversaire.",
+      "indice": "« Birthday party » veut dire fête d’anniversaire.",
+      "explication": "On est invité à une fête d’anniversaire.",
+      "ecoute": {
+        "texte": "Come to my birthday party!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel jour a lieu la fête ?",
+      "options": [
+        "Samedi.",
+        "Dimanche.",
+        "Vendredi."
+      ],
+      "reponse": "Samedi.",
+      "indice": "« Saturday » veut dire samedi.",
+      "explication": "La fête a lieu samedi (Saturday).",
+      "ecoute": {
+        "texte": "My party is on Saturday.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. À quelle heure ?",
+      "options": [
+        "À 3 heures.",
+        "À 4 heures.",
+        "À 8 heures."
+      ],
+      "reponse": "À 3 heures.",
+      "indice": "« Three » veut dire trois.",
+      "explication": "« At three o’clock » : à trois heures.",
+      "ecoute": {
+        "texte": "The party starts at three o’clock.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où a lieu la fête ?",
+      "options": [
+        "Dans le jardin.",
+        "À l’école.",
+        "À la piscine."
+      ],
+      "reponse": "Dans le jardin.",
+      "indice": "« Garden » veut dire jardin.",
+      "explication": "« In my garden » : dans mon jardin.",
+      "ecoute": {
+        "texte": "The party is in my garden.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment commences-tu une invitation ?",
+      "options": [
+        "Come to my party!",
+        "Goodbye to my party!",
+        "I don’t like parties."
+      ],
+      "reponse": "Come to my party!",
+      "indice": "« Come » veut dire viens.",
+      "explication": "On invite avec « Come to my party! ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que faut-il apporter ?",
+      "options": [
+        "Un maillot de bain.",
+        "Un cadeau.",
+        "Un gâteau."
+      ],
+      "reponse": "Un maillot de bain.",
+      "indice": "« Swimsuit » veut dire maillot de bain.",
+      "explication": "« Bring your swimsuit » : apporte ton maillot.",
+      "ecoute": {
+        "texte": "Bring your swimsuit!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la date du concert ?",
+      "options": [
+        "Le 21 juin.",
+        "Le 12 juin.",
+        "Le 21 juillet."
+      ],
+      "reponse": "Le 21 juin.",
+      "indice": "« June » veut dire juin.",
+      "explication": "« The twenty-first of June » : le 21 juin.",
+      "ecoute": {
+        "texte": "The school concert is on the twenty-first of June.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ANN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment annonces-tu « la fête est dimanche à midi » ?",
+      "options": [
+        "The party is on Sunday at twelve o’clock.",
+        "The party is in Sunday on twelve.",
+        "Party Sunday twelve is."
+      ],
+      "reponse": "The party is on Sunday at twelve o’clock.",
+      "indice": "« on » devant le jour, « at » devant l’heure.",
+      "explication": "On dit « on Sunday » et « at twelve o’clock ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

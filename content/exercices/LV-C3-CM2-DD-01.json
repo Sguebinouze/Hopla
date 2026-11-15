@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C3-CM2-DD-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-DD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « recycle » ?",
+      "options": [
+        "recycler",
+        "jeter",
+        "acheter"
+      ],
+      "reponse": "recycler",
+      "indice": "Le mot ressemble au français.",
+      "explication": "« Recycle » veut dire recycler.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que faut-il éteindre ?",
+      "options": [
+        "La lumière.",
+        "L’ordinateur.",
+        "La radio."
+      ],
+      "reponse": "La lumière.",
+      "indice": "« Lights » veut dire lumières.",
+      "explication": "« Turn off the lights » : éteins les lumières.",
+      "ecoute": {
+        "texte": "Turn off the lights!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment cet enfant va-t-il à l’école ?",
+      "options": [
+        "À vélo.",
+        "En voiture.",
+        "En bus."
+      ],
+      "reponse": "À vélo.",
+      "indice": "« By bike » veut dire à vélo.",
+      "explication": "« I go to school by bike » : je vais à l’école à vélo.",
+      "ecoute": {
+        "texte": "I go to school by bike.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où faut-il mettre la bouteille ?",
+      "options": [
+        "Dans la poubelle de tri.",
+        "Par terre.",
+        "Dans la rivière."
+      ],
+      "reponse": "Dans la poubelle de tri.",
+      "indice": "« Recycling bin » veut dire poubelle de tri.",
+      "explication": "On met la bouteille dans la poubelle de tri.",
+      "ecoute": {
+        "texte": "Put the bottle in the recycling bin.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que faut-il faire ?",
+      "options": [
+        "Économiser l’eau.",
+        "Gaspiller l’eau.",
+        "Boire de l’eau."
+      ],
+      "reponse": "Économiser l’eau.",
+      "indice": "« Save » veut dire économiser.",
+      "explication": "« Save water » : économise l’eau.",
+      "ecoute": {
+        "texte": "Save water!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « pollution » ?",
+      "options": [
+        "la pollution",
+        "la politesse",
+        "la population"
+      ],
+      "reponse": "la pollution",
+      "indice": "C’est un mot transparent.",
+      "explication": "« Pollution » veut dire pollution.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel geste est bon pour la planète ?",
+      "options": [
+        "Prendre les transports en commun.",
+        "Laisser la télé allumée.",
+        "Jeter ses déchets par terre."
+      ],
+      "reponse": "Prendre les transports en commun.",
+      "indice": "« Public transport » veut dire transports en commun.",
+      "explication": "Prendre les transports en commun pollue moins.",
+      "ecoute": {
+        "texte": "Take public transport. It’s better for the planet.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-DD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « ne gaspille pas le papier » ?",
+      "options": [
+        "Don’t waste paper.",
+        "Waste paper.",
+        "You paper waste."
+      ],
+      "reponse": "Don’t waste paper.",
+      "indice": "L’interdiction commence par « Don’t ».",
+      "explication": "On dit « Don’t waste paper ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

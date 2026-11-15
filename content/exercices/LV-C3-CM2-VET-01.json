@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C3-CM2-VET-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-VET-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un pantalon.",
+        "Une jupe.",
+        "Un pull."
+      ],
+      "reponse": "Un pantalon.",
+      "indice": "Il couvre les deux jambes.",
+      "explication": "« Trousers » veut dire pantalon.",
+      "ecoute": {
+        "texte": "Trousers.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Des chaussures.",
+        "Des chaussettes.",
+        "Des gants."
+      ],
+      "reponse": "Des chaussures.",
+      "indice": "On les met aux pieds pour sortir.",
+      "explication": "« Shoes » veut dire chaussures.",
+      "ecoute": {
+        "texte": "Shoes.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un chapeau.",
+        "Un manteau.",
+        "Une écharpe."
+      ],
+      "reponse": "Un chapeau.",
+      "indice": "On le porte sur la tête.",
+      "explication": "« Hat » veut dire chapeau.",
+      "ecoute": {
+        "texte": "A hat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un pull.",
+        "Une robe.",
+        "Un short."
+      ],
+      "reponse": "Un pull.",
+      "indice": "Il tient chaud en hiver.",
+      "explication": "« Jumper » veut dire pull.",
+      "ecoute": {
+        "texte": "A jumper.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que porte Lucy ?",
+      "options": [
+        "Une robe rouge.",
+        "Une jupe rouge.",
+        "Un manteau rouge."
+      ],
+      "reponse": "Une robe rouge.",
+      "indice": "« Dress » veut dire robe.",
+      "explication": "« A red dress » : une robe rouge.",
+      "ecoute": {
+        "texte": "Lucy is wearing a red dress.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. De quelle couleur est le manteau ?",
+      "options": [
+        "Vert.",
+        "Gris.",
+        "Bleu."
+      ],
+      "reponse": "Vert.",
+      "indice": "« Green » veut dire vert.",
+      "explication": "« A green coat » : un manteau vert.",
+      "ecoute": {
+        "texte": "My coat is green.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « je porte un tee-shirt blanc » ?",
+      "options": [
+        "I’m wearing a white T-shirt.",
+        "I’m wearing a T-shirt white.",
+        "I wear white T-shirt is."
+      ],
+      "reponse": "I’m wearing a white T-shirt.",
+      "indice": "La couleur se place avant le nom.",
+      "explication": "On dit « I’m wearing a white T-shirt ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VET-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi faut-il un manteau ?",
+      "options": [
+        "Il fait froid.",
+        "Il fait chaud.",
+        "C’est la fête."
+      ],
+      "reponse": "Il fait froid.",
+      "indice": "« Cold » veut dire froid.",
+      "explication": "Il fait froid : on met un manteau.",
+      "ecoute": {
+        "texte": "Put on your coat, it’s cold!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

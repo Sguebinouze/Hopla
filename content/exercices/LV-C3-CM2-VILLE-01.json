@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C3-CM2-VILLE-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-VILLE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Le parc.",
+        "La gare.",
+        "L’hôpital."
+      ],
+      "reponse": "Le parc.",
+      "indice": "Il y a de l’herbe et des arbres.",
+      "explication": "« Park » veut dire parc.",
+      "ecoute": {
+        "texte": "The park.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "La bibliothèque.",
+        "La librairie.",
+        "L’école."
+      ],
+      "reponse": "La bibliothèque.",
+      "indice": "On y emprunte des livres.",
+      "explication": "« Library » veut dire bibliothèque.",
+      "ecoute": {
+        "texte": "The library.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "La gare.",
+        "Le cinéma.",
+        "La poste."
+      ],
+      "reponse": "La gare.",
+      "indice": "On y prend le train.",
+      "explication": "« Station » veut dire gare.",
+      "ecoute": {
+        "texte": "The station.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "L’hôpital.",
+        "L’hôtel.",
+        "Le musée."
+      ],
+      "reponse": "L’hôpital.",
+      "indice": "On y soigne les malades.",
+      "explication": "« Hospital » veut dire hôpital.",
+      "ecoute": {
+        "texte": "The hospital.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où va cet enfant ?",
+      "options": [
+        "À la piscine.",
+        "À la boulangerie.",
+        "Au zoo."
+      ],
+      "reponse": "À la piscine.",
+      "indice": "« Swimming pool » veut dire piscine.",
+      "explication": "« The swimming pool » : la piscine.",
+      "ecoute": {
+        "texte": "I’m going to the swimming pool.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’y a-t-il sur le toit ?",
+      "options": [
+        "Des plantes.",
+        "Des voitures.",
+        "De la neige."
+      ],
+      "reponse": "Des plantes.",
+      "indice": "« Plants » veut dire plantes.",
+      "explication": "C’est un toit végétalisé.",
+      "ecoute": {
+        "texte": "There are plants on the roof of this house.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Où est la poste ?",
+      "options": [
+        "En face de la banque.",
+        "Derrière la banque.",
+        "Dans la banque."
+      ],
+      "reponse": "En face de la banque.",
+      "indice": "« Opposite » veut dire en face de.",
+      "explication": "La poste est en face de la banque.",
+      "ecoute": {
+        "texte": "The post office is opposite the bank.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-VILLE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « library » ?",
+      "options": [
+        "bibliothèque",
+        "librairie",
+        "liberté"
+      ],
+      "reponse": "bibliothèque",
+      "indice": "C’est un faux ami.",
+      "explication": "« Library » veut dire bibliothèque, pas librairie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

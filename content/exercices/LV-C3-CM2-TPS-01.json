@@ -1,0 +1,159 @@
+{
+  "competence": "LV-C3-CM2-TPS-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-TPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « yesterday » ?",
+      "options": [
+        "hier",
+        "demain",
+        "aujourd’hui"
+      ],
+      "reponse": "hier",
+      "indice": "C’est le jour d’avant.",
+      "explication": "« Yesterday » veut dire hier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « tomorrow » ?",
+      "options": [
+        "demain",
+        "hier",
+        "ce soir"
+      ],
+      "reponse": "demain",
+      "indice": "C’est le jour d’après.",
+      "explication": "« Tomorrow » veut dire demain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quand a-t-il joué au tennis ?",
+      "options": [
+        "Hier.",
+        "Demain.",
+        "Aujourd’hui."
+      ],
+      "reponse": "Hier.",
+      "indice": "« Yesterday » veut dire hier.",
+      "explication": "« Yesterday, I played tennis » : hier, j’ai joué au tennis.",
+      "ecoute": {
+        "texte": "Yesterday, I played tennis.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Est-ce le passé ou le futur ?",
+      "options": [
+        "Le futur.",
+        "Le passé."
+      ],
+      "reponse": "Le futur.",
+      "indice": "« I’m going to » annonce un projet.",
+      "explication": "« I’m going to visit London » : je vais visiter Londres.",
+      "ecoute": {
+        "texte": "Next week, I’m going to visit London.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Est-ce le passé ou le futur ?",
+      "options": [
+        "Le passé.",
+        "Le futur."
+      ],
+      "reponse": "Le passé.",
+      "indice": "Le verbe se termine par « -ed ».",
+      "explication": "« Watched » est au passé : j’ai regardé.",
+      "ecoute": {
+        "texte": "I watched a film last night.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où était cet enfant hier ?",
+      "options": [
+        "À la plage.",
+        "À l’école.",
+        "Au cinéma."
+      ],
+      "reponse": "À la plage.",
+      "indice": "« Beach » veut dire plage.",
+      "explication": "« I was at the beach » : j’étais à la plage.",
+      "ecoute": {
+        "texte": "Yesterday, I was at the beach.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel verbe est au passé ?",
+      "options": [
+        "played",
+        "play",
+        "plays"
+      ],
+      "reponse": "played",
+      "indice": "Le passé régulier se termine par « -ed ».",
+      "explication": "« Played » est le passé de « play ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-TPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fera cet enfant demain ?",
+      "options": [
+        "Il ira chez sa grand-mère.",
+        "Il est allé chez sa grand-mère.",
+        "Il est chez sa grand-mère."
+      ],
+      "reponse": "Il ira chez sa grand-mère.",
+      "indice": "« Tomorrow » annonce le futur.",
+      "explication": "Demain, il va aller chez sa grand-mère.",
+      "ecoute": {
+        "texte": "Tomorrow, I’m going to visit my grandma.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

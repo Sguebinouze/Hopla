@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C3-CM2-MSG-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-MSG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où va le train ?",
+      "options": [
+        "À Londres.",
+        "À Paris.",
+        "À Oxford."
+      ],
+      "reponse": "À Londres.",
+      "indice": "Écoute le nom de la ville.",
+      "explication": "Le train va à Londres (London).",
+      "ecoute": {
+        "texte": "The train to London leaves at ten o’clock.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. À quelle heure part le train ?",
+      "options": [
+        "À 10 heures.",
+        "À 2 heures.",
+        "À 12 heures."
+      ],
+      "reponse": "À 10 heures.",
+      "indice": "« Ten » veut dire dix.",
+      "explication": "« At ten o’clock » : à dix heures.",
+      "ecoute": {
+        "texte": "The train to London leaves at ten o’clock.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel temps fera-t-il demain ?",
+      "options": [
+        "De la pluie.",
+        "Du soleil.",
+        "De la neige."
+      ],
+      "reponse": "De la pluie.",
+      "indice": "« Rainy » vient de « rain », pluie.",
+      "explication": "« Tomorrow will be rainy » : demain, il pleuvra.",
+      "ecoute": {
+        "texte": "Tomorrow will be rainy.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. De quel quai part le train ?",
+      "options": [
+        "Du quai 2.",
+        "Du quai 10.",
+        "Du quai 3."
+      ],
+      "reponse": "Du quai 2.",
+      "indice": "« Platform » veut dire quai.",
+      "explication": "« Platform two » : quai numéro deux.",
+      "ecoute": {
+        "texte": "The train leaves from platform two.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande le directeur ?",
+      "options": [
+        "Aller dans la cour.",
+        "Rester en classe.",
+        "Aller à la cantine."
+      ],
+      "reponse": "Aller dans la cour.",
+      "indice": "« Playground » veut dire cour de récréation.",
+      "explication": "« Go to the playground » : allez dans la cour.",
+      "ecoute": {
+        "texte": "All pupils, please go to the playground.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quand le musée est-il fermé ?",
+      "options": [
+        "Le lundi.",
+        "Le dimanche.",
+        "Le samedi."
+      ],
+      "reponse": "Le lundi.",
+      "indice": "« Closed » veut dire fermé.",
+      "explication": "« Closed on Mondays » : fermé le lundi.",
+      "ecoute": {
+        "texte": "The museum is closed on Mondays.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel est le sujet du message ?",
+      "options": [
+        "Un chien perdu.",
+        "Un match de football.",
+        "Une fête d’anniversaire."
+      ],
+      "reponse": "Un chien perdu.",
+      "indice": "« Lost » veut dire perdu.",
+      "explication": "On cherche un chien perdu, petit et brun.",
+      "ecoute": {
+        "texte": "Lost dog! He is small and brown. His name is Max. Please call 0123 456.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-MSG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Combien coute le billet pour un enfant ?",
+      "options": [
+        "3 livres.",
+        "5 livres.",
+        "8 livres."
+      ],
+      "reponse": "3 livres.",
+      "indice": "« Child » veut dire enfant.",
+      "explication": "Le billet enfant coute trois livres (three pounds).",
+      "ecoute": {
+        "texte": "Tickets: five pounds for adults, three pounds for children.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

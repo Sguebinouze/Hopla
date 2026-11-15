@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM2-ANN-01",
+  "exemple": "« Hi Sam. Come to my party on Friday at four o’clock, in my garden. Bring a hat! »",
+  "regle": "Une annonce dit **quoi** (party, concert), **quand** (on Saturday, at three o’clock) et **où** (in my garden, at school). Pour inviter : **Come to…!**",
+  "piege": "On dit « on Saturday » pour un jour, mais « at three o’clock » pour une heure.",
+  "essai": {
+    "consigne": "Quel mot va devant un jour ?",
+    "options": [
+      "on",
+      "at",
+      "in"
+    ],
+    "reponse": "on",
+    "explication": "On dit « on Monday », « on Saturday »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C3-CM2-IMAG-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-IMAG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans quelle forêt vit Robin des Bois ?",
+      "options": [
+        "Sherwood.",
+        "Brocéliande.",
+        "Amazonie."
+      ],
+      "reponse": "Sherwood.",
+      "indice": "Elle est en Angleterre.",
+      "explication": "Robin des Bois vit dans la forêt de Sherwood.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui aide Robin des Bois ?",
+      "options": [
+        "Les pauvres.",
+        "Les rois.",
+        "Les riches."
+      ],
+      "reponse": "Les pauvres.",
+      "indice": "« Poor » veut dire pauvre.",
+      "explication": "« He helps the poor » : il aide les pauvres.",
+      "ecoute": {
+        "texte": "Robin Hood helps the poor.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel monstre dit-on vivre dans un lac d’Écosse ?",
+      "options": [
+        "Nessie, le monstre du Loch Ness.",
+        "Un dragon gallois.",
+        "Un ogre."
+      ],
+      "reponse": "Nessie, le monstre du Loch Ness.",
+      "indice": "« Loch » veut dire lac en Écosse.",
+      "explication": "Selon la légende, Nessie vit dans le Loch Ness.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est le roi de la légende ?",
+      "options": [
+        "Le roi Arthur.",
+        "Le roi Henri.",
+        "Le roi George."
+      ],
+      "reponse": "Le roi Arthur.",
+      "indice": "Il a une épée magique.",
+      "explication": "Le roi Arthur est un héros de légende.",
+      "ecoute": {
+        "texte": "King Arthur and the Knights of the Round Table.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire « Once upon a time » ?",
+      "options": [
+        "Il était une fois.",
+        "À la fin.",
+        "Un jour de pluie."
+      ],
+      "reponse": "Il était une fois.",
+      "indice": "C’est le début des contes.",
+      "explication": "« Once upon a time » : il était une fois.",
+      "ecoute": {
+        "texte": "Once upon a time, there was a dragon.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel animal figure sur le drapeau du pays de Galles ?",
+      "options": [
+        "Un dragon rouge.",
+        "Un lion bleu.",
+        "Un aigle noir."
+      ],
+      "reponse": "Un dragon rouge.",
+      "indice": "C’est une créature de légende.",
+      "explication": "Le drapeau gallois porte un dragon rouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment se termine l’histoire ?",
+      "options": [
+        "Ils vécurent heureux pour toujours.",
+        "Ils partirent en voyage.",
+        "Ils se disputèrent."
+      ],
+      "reponse": "Ils vécurent heureux pour toujours.",
+      "indice": "« Happily » veut dire heureux.",
+      "explication": "« They lived happily ever after » : ils vécurent heureux.",
+      "ecoute": {
+        "texte": "And they lived happily ever after.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-IMAG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fait le dragon ?",
+      "options": [
+        "Il crache du feu.",
+        "Il chante.",
+        "Il dort."
+      ],
+      "reponse": "Il crache du feu.",
+      "indice": "« Fire » veut dire feu.",
+      "explication": "« The dragon breathes fire » : le dragon crache du feu.",
+      "ecoute": {
+        "texte": "The dragon breathes fire.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C3-CM2-REN-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-REN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que demande « How much is it? » ?",
+      "options": [
+        "Le prix.",
+        "L’heure.",
+        "L’âge."
+      ],
+      "reponse": "Le prix.",
+      "indice": "On le dit dans un magasin.",
+      "explication": "« How much is it? » demande le prix.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Combien coute la glace ?",
+      "options": [
+        "2 livres.",
+        "12 livres.",
+        "20 livres."
+      ],
+      "reponse": "2 livres.",
+      "indice": "« Two » veut dire deux.",
+      "explication": "La glace coute deux livres (two pounds).",
+      "ecoute": {
+        "texte": "The ice cream is two pounds.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la monnaie du Royaume-Uni ?",
+      "options": [
+        "La livre sterling.",
+        "L’euro.",
+        "Le dollar."
+      ],
+      "reponse": "La livre sterling.",
+      "indice": "On dit « pound ».",
+      "explication": "Au Royaume-Uni, on paie en livres sterling.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut le client ?",
+      "options": [
+        "Deux pommes.",
+        "Deux bananes.",
+        "Trois pommes."
+      ],
+      "reponse": "Deux pommes.",
+      "indice": "« I’d like » veut dire je voudrais.",
+      "explication": "« I’d like two apples » : je voudrais deux pommes.",
+      "ecoute": {
+        "texte": "I’d like two apples, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Combien coute le livre ?",
+      "options": [
+        "5 livres 50.",
+        "15 livres.",
+        "50 pence."
+      ],
+      "reponse": "5 livres 50.",
+      "indice": "D’abord les livres, puis les pence.",
+      "explication": "« Five pounds fifty » : cinq livres cinquante.",
+      "ecoute": {
+        "texte": "The book is five pounds fifty.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demandes-tu poliment un jus d’orange ?",
+      "options": [
+        "Can I have an orange juice, please?",
+        "Give me orange juice!",
+        "Orange juice is it?"
+      ],
+      "reponse": "Can I have an orange juice, please?",
+      "indice": "N’oublie pas « please ».",
+      "explication": "On dit « Can I have…, please? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. À quelle heure ouvre la boutique ?",
+      "options": [
+        "À 9 heures.",
+        "À 5 heures.",
+        "À 19 heures."
+      ],
+      "reponse": "À 9 heures.",
+      "indice": "« Opens » veut dire ouvre.",
+      "explication": "« Opens at nine » : ouvre à neuf heures.",
+      "ecoute": {
+        "texte": "The shop opens at nine and closes at five.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-REN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le vendeur dit « Here you are ». Que réponds-tu ?",
+      "options": [
+        "Thank you!",
+        "How much?",
+        "Hello!"
+      ],
+      "reponse": "Thank you!",
+      "indice": "« Here you are » veut dire voici.",
+      "explication": "On remercie : « Thank you! ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM2-MSG-01",
+  "exemple": "À la gare, une voix annonce : « The train to York is late. »",
+  "regle": "Pour comprendre une annonce, repère d’abord le **sujet** (train, météo, école). Cherche ensuite les **informations clés** : **qui**, **où**, **quand**, **combien**. Les nombres et les noms propres aident beaucoup.",
+  "piege": "Inutile de comprendre chaque mot : concentre-toi sur les mots importants.",
+  "essai": {
+    "consigne": "Dans « The bus leaves at five », que faut-il retenir ?",
+    "options": [
+      "Le bus part à 5 heures.",
+      "Le bus est en retard.",
+      "Il y a cinq bus."
+    ],
+    "reponse": "Le bus part à 5 heures.",
+    "explication": "« Leaves at five » : part à cinq heures."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
