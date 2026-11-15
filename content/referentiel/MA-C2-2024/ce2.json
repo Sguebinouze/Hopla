@@ -17,7 +17,7 @@
       "prerequis": [
         "MA-C2-CE1-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-NUM-02",
@@ -34,7 +34,7 @@
       "prerequis": [
         "MA-C2-CE2-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-NUM-03",
@@ -51,7 +51,7 @@
       "prerequis": [
         "MA-C2-CE1-NUM-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-FRAC-01",
@@ -66,7 +66,7 @@
         "extrait": "Les fractions rencontrées au CE2 ont un dénominateur inférieur ou égal à douze et sont toutes inférieures ou égales à un."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-FRAC-02",
@@ -83,7 +83,7 @@
       "prerequis": [
         "MA-C2-CE2-FRAC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-FRAC-03",
@@ -100,7 +100,7 @@
       "prerequis": [
         "MA-C2-CE2-FRAC-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-FRAC-04",
@@ -117,7 +117,7 @@
       "prerequis": [
         "MA-C2-CE2-FRAC-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-CALC-01",
@@ -132,7 +132,7 @@
         "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-CALC-02",
@@ -149,7 +149,7 @@
       "prerequis": [
         "MA-C2-CE1-CALC-03"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-CALC-03",
@@ -166,7 +166,7 @@
       "prerequis": [
         "MA-C2-CE2-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-CALC-04",
@@ -183,7 +183,7 @@
       "prerequis": [
         "MA-C2-CE1-CALC-05"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-CALC-05",
@@ -200,7 +200,7 @@
       "prerequis": [
         "MA-C2-CE1-CALC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-OPE-01",
@@ -215,7 +215,7 @@
         "extrait": "L’élève sait traiter les additions et les soustractions posées avec des nombres entiers"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-OPE-02",
@@ -232,7 +232,7 @@
       "prerequis": [
         "MA-C2-CE2-CALC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-OPE-03",
@@ -249,7 +249,7 @@
       "prerequis": [
         "MA-C2-CE2-CALC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-PB-01",
@@ -267,7 +267,7 @@
         "MA-C2-CE1-PB-01",
         "MA-C2-CE1-PB-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-PB-02",
@@ -284,7 +284,7 @@
       "prerequis": [
         "MA-C2-CE2-PB-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-PB-03",
@@ -301,7 +301,7 @@
       "prerequis": [
         "MA-C2-CE1-PB-03"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-PB-04",
@@ -318,7 +318,7 @@
       "prerequis": [
         "MA-C2-CE2-PB-03"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-GM-01",
@@ -333,7 +333,7 @@
         "extrait": "L’élève sait que 1 cm = 10 mm et 1 m = 1 000 mm."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-GM-02",
@@ -348,7 +348,7 @@
         "extrait": "L’élève sait convertir entre les unités gramme et kilogramme :"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-GM-03",
@@ -363,7 +363,7 @@
         "extrait": "L’élève sait rendre la monnaie en procédant par ajouts successifs"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-GM-04",
@@ -378,7 +378,7 @@
         "extrait": "L’élève sait déterminer le nombre de minutes qu’il y a dans deux heures et vingt minutes."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE2-GEO-01",
@@ -393,7 +393,7 @@
         "extrait": "justifier sa nature en indiquant le nombre et la nature de ses faces"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "prerequis": [
         "FR-C2-CE1-CONJ-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-CONJ-02",
@@ -34,7 +34,7 @@
       "prerequis": [
         "FR-C2-CE2-CONJ-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-CONJ-03",
@@ -51,7 +51,7 @@
       "prerequis": [
         "FR-C2-CE2-CONJ-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-ORTH-01",
@@ -66,7 +66,7 @@
         "extrait": "Identifier, dans des situations simples, la relation sujet-"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-ORTH-02",
@@ -83,7 +83,7 @@
       "prerequis": [
         "FR-C2-CE1-ORTH-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-GRAM-01",
@@ -100,7 +100,7 @@
       "prerequis": [
         "FR-C2-CE1-GRAM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-GRAM-02",
@@ -115,7 +115,7 @@
         "extrait": "Il substitue à un groupe nominal sujet un pronom"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-GRAM-03",
@@ -132,7 +132,7 @@
       "prerequis": [
         "FR-C2-CE1-GRAM-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-LEX-01",
@@ -147,7 +147,7 @@
         "extrait": "L’élève identifie un sens négatif dans les préfixes dé-, mal-,"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-LEX-02",
@@ -162,7 +162,7 @@
         "extrait": "Il opère des dérivations en identifiant la partie commune"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C2-CE2-LEX-03",
@@ -177,7 +177,7 @@
         "extrait": "L’élève mobilise des synonymes, termes génériques ou"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

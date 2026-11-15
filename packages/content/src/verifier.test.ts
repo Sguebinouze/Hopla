@@ -52,19 +52,26 @@ describe('intégrité des références', () => {
   });
 
   it('relecture : liste ce qui reste à relire et reporte les décisions humaines', () => {
-    const notions = construireRelecture(contenu);
-    expect(notions.length).toBeGreaterThan(0);
+    // Contenu remis en brouillon en mémoire : la liste ne dépend pas de l'état du dépôt.
+    const enAttente: Contenu = {
+      ...contenu,
+      referentiels: contenu.referentiels.map((r) => ({ ...r, competences: r.competences.map((c) => ({ ...c, statut: 'a_verifier' as const })) })),
+      banques: contenu.banques.map((b) => ({ ...b, exercices: b.exercices.map((e) => ({ ...e, statut: 'brouillon' as const, relu_par: null })) })),
+      lecons: contenu.lecons.map((l) => ({ ...l, statut: 'brouillon' as const, relu_par: null })),
+    };
+    const notions = construireRelecture(enAttente);
     expect(notions[0]!.classe).toBe('cp');
     const n = notions.find((x) => x.lecon && x.questions.length > 0)!;
-    const q = n.questions[0]!;
+    expect(n.verifiee).toBe(false);
+    // Rien d'écrit (dernier argument) : décisions reportées sur le contenu réel, sans toucher au dépôt.
+    const q = contenu.banques.flatMap((b) => b.exercices).find((e) => e.id === n.questions[0]!.id)!;
     const bilan = appliquerRelecture(contenu, [
       { type: 'question', element_id: q.id, decision: 'ok', commentaire: '' },
-      { type: 'lecon', element_id: n.id, decision: 'ok', commentaire: '' },
       { type: 'notion', element_id: n.id, decision: 'corriger', commentaire: 'Extrait trop court.' },
       { type: 'question', element_id: 'XX-C2-CE1-ABC-01-001', decision: 'ok', commentaire: '' },
     ], 'Laurent', false);
-    expect(bilan.publies).toEqual([q.id, `leçon ${n.id}`]);
-    expect(bilan.verifiees).toEqual([]);
+    // Une question déjà publiée n'est pas republiée ; une inconnue est signalée ; une correction est listée.
+    expect(bilan.publies).toEqual(q.statut === 'publie' ? [] : [q.id]);
     expect(bilan.aCorriger.map((d) => d.commentaire)).toEqual(['Extrait trop court.']);
     expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['XX-C2-CE1-ABC-01-001']);
   });
@@ -106,9 +113,18 @@ describe('packs', () => {
     // Avec les brouillons : toutes les questions rédigées des notions du pack, quel que soit leur nombre.
     const ids = new Set(ce2(true).matieres.flatMap((m) => m.competences.map((c) => c.id)));
     const redigees = contenu.banques.filter((b) => ids.has(b.competence)).reduce((n, b) => n + b.exercices.length, 0);
-    expect(nb(false)).toBe(0);
+    const publiees = contenu.banques.filter((b) => ids.has(b.competence))
+      .reduce((n, b) => n + b.exercices.filter((e) => e.statut === 'publie').length, 0);
     expect(redigees).toBeGreaterThan(0);
+    expect(nb(false)).toBe(publiees);
     expect(nb(true)).toBe(redigees);
+    // Un brouillon n'entre jamais dans un pack de production.
+    const enBrouillon = {
+      ...contenu,
+      banques: contenu.banques.map((b) => ({ ...b, exercices: b.exercices.map((e) => ({ ...e, statut: 'brouillon' as const, relu_par: null })) })),
+    };
+    expect(construirePacks(enBrouillon, '2026-2027').find((p) => p.classe === 'ce2')!
+      .matieres.flatMap((m) => m.competences).reduce((n, c) => n + c.exercices.length, 0)).toBe(0);
     expect(ce2(false).matieres.map((m) => m.programme.id).sort()).toEqual(['EM-C2-2024', 'FR-C2-2024', 'LV-C2-2020', 'MA-C2-2024', 'QM-C2-2020']);
   });
 });

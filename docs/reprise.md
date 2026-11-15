@@ -44,6 +44,7 @@ Session cloud (app et autres matières) :
 - Fait : espace admin `/admin` (PWA), réservé aux comptes de `public.admins`, mode parent ouvert. Rubrique Relecture : notions, leçons et questions rédigées en brouillon (fichier `packs/relecture.json`, produit par `pnpm content:packs`), validation par notion, export des décisions. Report dans le dépôt : `pnpm content:relecture --decisions <export.json> --par Laurent` (ou `--simulation`). La décision « ok » publie la question ou la leçon et passe la notion en `verifie` ; « corriger » est listé avec le commentaire.
 1. Autres matières des autres classes : reprises par la session VS Code (voir « Autres matières » ci-dessous).
 2. Appliquer les décisions de relecture dès que Laurent en a pris (export depuis /admin, ou lecture de la table `relectures`).
+- Le 15 novembre 2026 au soir, Laurent a demandé de tout valider sans relecture détaillée : 2 250 questions et 583 leçons publiées, 583 notions vérifiées. Elles portent `relu_par: "Laurent (validation globale)"`, pour les distinguer d'une vraie relecture. Les nouveaux contenus restent en brouillon jusqu'à validation dans /admin.
 
 ## Autres matières (session VS Code depuis le 15 novembre 2026)
 

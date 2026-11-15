@@ -14,9 +14,9 @@
       "reponse": "un réseau qui relie des millions de réseaux",
       "indice": "C’est le « réseau des réseaux ».",
       "explication": "Internet interconnecte de nombreux réseaux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-002",
@@ -31,9 +31,9 @@
       "reponse": "le routeur",
       "indice": "Il choisit le chemin.",
       "explication": "Le routeur oriente les données.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-003",
@@ -48,9 +48,9 @@
       "reponse": "fournit des services ou des données à d’autres",
       "indice": "Il héberge des sites web.",
       "explication": "Le serveur fournit des services aux clients.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-004",
@@ -65,9 +65,9 @@
       "reponse": "paquets",
       "indice": "Ils voyagent séparément.",
       "explication": "Les données circulent en paquets.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-005",
@@ -82,9 +82,9 @@
       "reponse": "vers où envoyer un paquet selon sa destination",
       "indice": "Comme un panneau indicateur.",
       "explication": "La table de routage guide les paquets.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-006",
@@ -99,9 +99,9 @@
       "reponse": "un ensemble de règles de communication",
       "indice": "TCP/IP en est un.",
       "explication": "Un protocole fixe des règles communes.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-007",
@@ -116,9 +116,9 @@
       "reponse": "les réseaux sont nombreux et les chemins multiples",
       "indice": "Il faut trouver un chemin.",
       "explication": "Le routage trouve un chemin entre réseaux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-RES-01-008",
@@ -133,9 +133,9 @@
       "reponse": "peuvent emprunter un autre chemin",
       "indice": "Le réseau est maillé.",
       "explication": "Le maillage permet de contourner une panne.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

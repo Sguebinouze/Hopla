@@ -14,9 +14,9 @@
       "reponse": "quand un objet ne fonctionne pas comme prévu",
       "indice": "Une panne par exemple.",
       "explication": "Un dysfonctionnement est un écart au fonctionnement attendu.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-002",
@@ -31,9 +31,9 @@
       "reponse": "le débrancher",
       "indice": "Sécurité avant tout.",
       "explication": "On débranche toujours l’appareil avant d’intervenir.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-003",
@@ -48,9 +48,9 @@
       "reponse": "fabriquer une pièce de remplacement sur mesure",
       "indice": "Une pièce cassée introuvable.",
       "explication": "On peut imprimer une pièce de remplacement.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-004",
@@ -65,9 +65,9 @@
       "reponse": "proposer une cause possible de la panne",
       "indice": "On la vérifie ensuite.",
       "explication": "Une hypothèse est une cause possible à vérifier.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-005",
@@ -82,9 +82,9 @@
       "reponse": "un multimètre en mode continuité",
       "indice": "Il bipe si le courant passe.",
       "explication": "Le multimètre teste la continuité.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-006",
@@ -99,9 +99,9 @@
       "reponse": "une par une, de la plus simple à la plus complexe",
       "indice": "On commence par la prise.",
       "explication": "On teste méthodiquement, du plus simple au plus difficile.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-007",
@@ -116,9 +116,9 @@
       "reponse": "pour économiser des ressources et réduire les déchets",
       "indice": "Pense au cycle de vie.",
       "explication": "Réparer prolonge la vie de l’objet.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-REP-01-008",
@@ -133,9 +133,9 @@
       "reponse": "les dimensions et les contraintes de la pièce d’origine",
       "indice": "Elle doit s’emboiter et résister.",
       "explication": "La pièce doit respecter dimensions et sollicitations.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

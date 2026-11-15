@@ -14,8 +14,10 @@
         "page": 5,
         "extrait": "Connaître la valeur des chiffres en fonction de leur position dans un nombre"
       },
-      "prerequis": ["MA-C2-CE1-NUM-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-NUM-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-NUM-02",
@@ -29,8 +31,10 @@
         "page": 5,
         "extrait": "Connaître la suite écrite et la suite orale des nombres jusqu’à 999 999"
       },
-      "prerequis": ["MA-C2-CE1-NUM-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-NUM-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-NUM-03",
@@ -44,8 +48,10 @@
         "page": 5,
         "extrait": "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >"
       },
-      "prerequis": ["MA-C2-CE1-NUM-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-NUM-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-NUM-04",
@@ -59,8 +65,10 @@
         "page": 5,
         "extrait": "Savoir reconnaître les multiples de 2, de 5 et de 10 à partir de leur écriture chiffrée"
       },
-      "prerequis": ["MA-C2-CE1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-FRAC-01",
@@ -74,8 +82,10 @@
         "page": 6,
         "extrait": "Savoir écrire une fraction supérieure à 1 comme la somme d’un entier et d’une fraction inférieure à 1"
       },
-      "prerequis": ["MA-C2-CE1-FRAC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-FRAC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-FRAC-02",
@@ -89,8 +99,10 @@
         "page": 6,
         "extrait": "Comparer des fractions"
       },
-      "prerequis": ["MA-C3-CM1-FRAC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-FRAC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-FRAC-03",
@@ -104,8 +116,10 @@
         "page": 6,
         "extrait": "Additionner et soustraire des fractions"
       },
-      "prerequis": ["MA-C3-CM1-FRAC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-FRAC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-FRAC-04",
@@ -119,8 +133,10 @@
         "page": 6,
         "extrait": "Déterminer une fraction d’une quantité ou d’une grandeur"
       },
-      "prerequis": ["MA-C2-CE1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-DEC-01",
@@ -134,8 +150,10 @@
         "page": 6,
         "extrait": "Passer d’une écriture sous forme d’une fraction décimale ou d’une somme de fractions décimales à une écriture à virgule et"
       },
-      "prerequis": ["MA-C3-CM1-FRAC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-FRAC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-DEC-02",
@@ -149,8 +167,10 @@
         "page": 6,
         "extrait": "Comparer, encadrer, intercaler, ordonner, par ordre croissant ou décroissant, des nombres décimaux donnés par leur écriture à"
       },
-      "prerequis": ["MA-C3-CM1-DEC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-DEC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-DEC-03",
@@ -164,8 +184,10 @@
         "page": 6,
         "extrait": "Savoir donner la partie entière et l’arrondi à l’entier d’un nombre décimal"
       },
-      "prerequis": ["MA-C3-CM1-DEC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-DEC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-CALC-01",
@@ -179,8 +201,10 @@
         "page": 7,
         "extrait": "Ajouter ou soustraire 8, 9, 18, 19, 28, 29, 38 ou 39, à un nombre"
       },
-      "prerequis": ["MA-C2-CE1-CALC-05"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-CALC-05"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-CALC-02",
@@ -194,8 +218,10 @@
         "page": 7,
         "extrait": "Multiplier un nombre entier par 10, 100 ou 1 000"
       },
-      "prerequis": ["MA-C3-CM1-NUM-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-NUM-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-OPE-01",
@@ -209,8 +235,10 @@
         "page": 7,
         "extrait": "Poser en colonnes et effectuer des additions et des soustractions de nombres décimaux"
       },
-      "prerequis": ["MA-C3-CM1-DEC-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-DEC-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-OPE-02",
@@ -224,8 +252,10 @@
         "page": 7,
         "extrait": "Poser et effectuer des multiplications de deux nombres entiers"
       },
-      "prerequis": ["MA-C2-CE1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-OPE-03",
@@ -239,8 +269,10 @@
         "page": 7,
         "extrait": "Poser et effectuer des divisions euclidiennes avec un diviseur à un chiffre"
       },
-      "prerequis": ["MA-C2-CE1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-ALG-01",
@@ -255,7 +287,7 @@
         "extrait": "Trouver le nombre manquant dans une égalité à trous"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-PB-01",
@@ -269,8 +301,10 @@
         "page": 8,
         "extrait": "Résoudre des problèmes mixtes en deux ou trois étapes"
       },
-      "prerequis": ["MA-C2-CE1-PB-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-PB-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-PB-02",
@@ -284,8 +318,10 @@
         "page": 8,
         "extrait": "Résoudre des problèmes de comparaison multiplicative"
       },
-      "prerequis": ["MA-C2-CE1-PB-03"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-PB-03"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-PROP-01",
@@ -299,8 +335,10 @@
         "page": 26,
         "extrait": "Savoir résoudre un problème de proportionnalité"
       },
-      "prerequis": ["MA-C2-CE1-PB-03"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C2-CE1-PB-03"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-LONG-01",
@@ -314,8 +352,10 @@
         "page": 17,
         "extrait": "Connaître les relations entre les unités de longueur"
       },
-      "prerequis": ["MA-C3-CM1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-LONG-02",
@@ -330,7 +370,7 @@
         "extrait": "Résoudre des problèmes mettant en jeu les longueurs des côtés d’un polygone et son périmètre"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-MAS-01",
@@ -344,8 +384,10 @@
         "page": 17,
         "extrait": "Connaître les relations entre les unités de masse"
       },
-      "prerequis": ["MA-C3-CM1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-CONT-01",
@@ -359,8 +401,10 @@
         "page": 17,
         "extrait": "Connaître les relations entre les unités de contenance"
       },
-      "prerequis": ["MA-C3-CM1-CALC-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "MA-C3-CM1-CALC-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-AIRE-01",
@@ -375,7 +419,7 @@
         "extrait": "Connaître et utiliser les centimètres carrés pour exprimer des aires"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM1-DUR-01",
@@ -390,7 +434,7 @@
         "extrait": "Résoudre des problèmes à une ou deux étapes impliquant des durées"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

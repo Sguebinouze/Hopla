@@ -14,9 +14,9 @@
       "reponse": "acquérir une information",
       "indice": "Il mesure ou détecte.",
       "explication": "Le capteur acquiert une information.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-002",
@@ -31,9 +31,9 @@
       "reponse": "le microcontrôleur",
       "indice": "Il exécute le programme.",
       "explication": "Le microcontrôleur traite l’information.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-003",
@@ -48,9 +48,9 @@
       "reponse": "l’interface entre l’humain et la machine",
       "indice": "L’utilisateur appuie dessus.",
       "explication": "Le bouton est un élément d’IHM.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-004",
@@ -65,9 +65,9 @@
       "reponse": "acquérir, traiter, communiquer",
       "indice": "Du capteur à l’ordre.",
       "explication": "Acquérir, traiter, communiquer.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-005",
@@ -82,9 +82,9 @@
       "reponse": "communiquer une information à l’utilisateur",
       "indice": "Il montre un message ou un nombre.",
       "explication": "L’afficheur communique l’information.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-006",
@@ -99,9 +99,9 @@
       "reponse": "un capteur de température",
       "indice": "Il règle le chauffage.",
       "explication": "Le thermostat mesure la température.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-007",
@@ -116,9 +116,9 @@
       "reponse": "elle transmet l’ordre d’arrêter le moteur",
       "indice": "Elle commande la chaine d’énergie.",
       "explication": "La chaine d’information commande l’arrêt via la chaine d’énergie.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-INFO-01-008",
@@ -133,9 +133,9 @@
       "reponse": "la première donne des ordres à la seconde",
       "indice": "Communiquer un ordre.",
       "explication": "La chaine d’information pilote la chaine d’énergie.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

@@ -15,7 +15,7 @@
         "extrait": "Comparer deux nombres décimaux"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DEC-02",
@@ -30,7 +30,7 @@
         "extrait": "L’élève applique de manière automatique la procédure de multiplication d’un nombre décimal par 1, par 10, par 100 ou par 1 000,"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DEC-03",
@@ -45,7 +45,7 @@
         "extrait": "L’élève passe de manière automatique d’une écriture sous forme de fraction décimale ou de somme de fractions décimales à"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DEC-04",
@@ -60,7 +60,7 @@
         "extrait": "Donner la valeur arrondie à l’unité, au dixième ou au centième, d’un nombre décimal"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DEC-05",
@@ -75,7 +75,7 @@
         "extrait": "Calculer le produit de deux nombres décimaux"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DEC-06",
@@ -90,7 +90,7 @@
         "extrait": "Diviser un nombre décimal par un nombre entier non nul inférieur à 10"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DIV-01",
@@ -105,7 +105,7 @@
         "extrait": "Effectuer la division euclidienne d’un nombre entier par un nombre entier inférieur à 100"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-FRAC-01",
@@ -120,7 +120,7 @@
         "extrait": "L’élève sait passer de manière automatique d’une écriture fractionnaire à une écriture décimale, et inversement, dans les cas"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-FRAC-02",
@@ -135,7 +135,7 @@
         "extrait": "Utiliser une multiplication pour appliquer une fraction à un nombre entier"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-FRAC-03",
@@ -152,7 +152,7 @@
       "prerequis": [
         "MA-C3-6E-FRAC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-PCT-01",
@@ -167,7 +167,7 @@
         "extrait": "Appliquer un pourcentage à une grandeur ou à un nombre"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-LONG-01",
@@ -182,7 +182,7 @@
         "extrait": "L’élève sait convertir en mètre une longueur donnée dans une autre unité, multiple ou sous-multiple du mètre."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-LONG-02",
@@ -197,7 +197,7 @@
         "extrait": "Calculer le périmètre d’un disque"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-AIRE-01",
@@ -212,7 +212,7 @@
         "extrait": "Calculer l’aire d’un carré ou d’un rectangle"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-DUR-01",
@@ -227,7 +227,7 @@
         "extrait": "Effectuer des calculs sur des horaires et des durées"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-PROP-01",
@@ -242,7 +242,7 @@
         "extrait": "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-VOL-01",
@@ -257,7 +257,7 @@
         "extrait": "Connaître l’unité centimètre cube"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-GEO-01",
@@ -272,7 +272,7 @@
         "extrait": "Connaître et utiliser la définition du milieu d’un segment"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-GEO-02",
@@ -287,7 +287,7 @@
         "extrait": "Connaître les définitions d’un cercle, d’un disque, d’un rayon, d’un diamètre, d’une corde"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-GEO-03",
@@ -302,7 +302,7 @@
         "extrait": "Connaître la définition de la médiatrice d’un segment"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-ANG-01",
@@ -317,7 +317,7 @@
         "extrait": "angle nul, angle aigu, angle obtus, angles opposés par le sommet, angles adjacents, angles supplémentaires"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-ANG-02",
@@ -332,7 +332,7 @@
         "extrait": "Connaître la définition de la bissectrice d’un angle saillant"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-TRI-01",
@@ -347,7 +347,7 @@
         "extrait": "Connaître la valeur de la somme des mesures des angles d’un triangle"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-SYM-01",
@@ -362,7 +362,7 @@
         "extrait": "Il reconnaît si une figure possède un ou plusieurs axes de symétrie."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-ESP-01",
@@ -377,7 +377,7 @@
         "extrait": "Voir dans l’espace des assemblages de cubes"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-STAT-01",
@@ -392,7 +392,7 @@
         "extrait": "Faire un choix en filtrant les données d’un tableau selon un critère"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-6E-PROBA-01",
@@ -407,7 +407,7 @@
         "extrait": "Savoir que la probabilité d’un évènement est un nombre compris entre 0 et 1"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

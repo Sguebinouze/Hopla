@@ -15,7 +15,7 @@
         "extrait": "L’élève sait associer différentes représentations d’un même nombre"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-NUM-02",
@@ -32,7 +32,7 @@
       "prerequis": [
         "MA-C2-CP-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-NUM-03",
@@ -49,7 +49,7 @@
       "prerequis": [
         "MA-C2-CP-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-NUM-04",
@@ -64,7 +64,7 @@
         "extrait": "de un en un, de deux en deux et de dix en dix"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-NUM-05",
@@ -79,7 +79,7 @@
         "extrait": "L’élève utilise les nombres ordinaux pour indiquer une position dans une liste"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-OPE-01",
@@ -94,7 +94,7 @@
         "extrait": "La soustraction est comprise par l’élève comme l’opération inverse de l’addition."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-OPE-02",
@@ -109,7 +109,7 @@
         "extrait": "L’élève sait poser une addition de deux ou trois nombres à un ou deux chiffres"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-01",
@@ -124,7 +124,7 @@
         "extrait": "L’élève sait donner oralement et par écrit l’un des trois nombres d’une égalité du type"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-02",
@@ -139,7 +139,7 @@
         "extrait": "les moitiés des dizaines entières 40, 60, 80 et 100."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-03",
@@ -156,7 +156,7 @@
       "prerequis": [
         "MA-C2-CP-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-04",
@@ -173,7 +173,7 @@
       "prerequis": [
         "MA-C2-CP-CALC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-05",
@@ -190,7 +190,7 @@
       "prerequis": [
         "MA-C2-CP-CALC-04"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-CALC-06",
@@ -208,7 +208,7 @@
         "MA-C2-CP-CALC-02",
         "MA-C2-CP-CALC-03"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-PB-01",
@@ -223,7 +223,7 @@
         "extrait": "L’élève sait résoudre des problèmes de parties-tout en une étape"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-PB-02",
@@ -240,7 +240,7 @@
       "prerequis": [
         "MA-C2-CP-PB-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-PB-03",
@@ -255,7 +255,7 @@
         "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-LONG-01",
@@ -270,7 +270,7 @@
         "extrait": "L’élève sait dire si la longueur d’une trousse est plutôt 2 cm, 20 cm ou 1 m."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-MONN-01",
@@ -287,7 +287,7 @@
       "prerequis": [
         "MA-C2-CP-NUM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-TEMPS-01",
@@ -302,7 +302,7 @@
         "extrait": "L’élève sait lire des heures entières"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-GEO-01",
@@ -317,7 +317,7 @@
         "extrait": "qu’une boite à chaussures a la forme d’un pavé"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-GEO-02",
@@ -332,7 +332,7 @@
         "extrait": "L’élève sait donner le nombre de sommets et le nombre de côtés d’un polygone"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CP-DON-01",
@@ -347,7 +347,7 @@
         "extrait": "L’élève sait ensuite organiser dans un tableau les données recueillies."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

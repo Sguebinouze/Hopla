@@ -15,7 +15,7 @@
         "extrait": "L’élève sait écrire en chiffres un nombre dicté. Il sait également lire un nombre écrit en chiffres et l’écrire en lettres."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-NUM-02",
@@ -30,7 +30,7 @@
         "extrait": "L’élève sait ordonner dans l’ordre croissant ou décroissant un ensemble pouvant aller jusqu’à cinq nombres"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-FRAC-01",
@@ -45,7 +45,7 @@
         "extrait": "Les fractions rencontrées au CE1 ont un dénominateur égal à 2, 3, 4, 5, 6, 8 ou 10."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-FRAC-02",
@@ -62,7 +62,7 @@
       "prerequis": [
         "MA-C2-CE1-FRAC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-FRAC-03",
@@ -79,7 +79,7 @@
       "prerequis": [
         "MA-C2-CE1-FRAC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-OPE-01",
@@ -94,7 +94,7 @@
         "extrait": "L’élève sait dire si un nombre est pair ou impair."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-CALC-01",
@@ -109,7 +109,7 @@
         "extrait": "L’élève sait compléter des « égalités à trou » du type : 4 + … = 12 ; 5 + 3 = … ; 10 = 7 + …"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-CALC-02",
@@ -124,7 +124,7 @@
         "extrait": "L’élève peut ainsi compléter des « égalités à trou » du type : 4 × … = 12 ; 5 × 3 = … ;"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-CALC-03",
@@ -139,7 +139,7 @@
         "extrait": "les doubles des nombres de 1 à 15 ;"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-CALC-04",
@@ -154,7 +154,7 @@
         "extrait": "L’élève s’appuie sur la numération pour effectuer rapidement et mentalement des"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-CALC-05",
@@ -169,7 +169,7 @@
         "extrait": "L’élève sait ajouter 9, 19 ou 29 à un nombre en ajoutant 10, 20 ou 30, puis en"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-PB-01",
@@ -184,7 +184,7 @@
         "extrait": "Les élèves doivent traiter au moins dix problèmes par semaine"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-PB-02",
@@ -199,7 +199,7 @@
         "extrait": "L’élève sait résoudre des problèmes additifs de comparaison lorsque deux des trois"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-PB-03",
@@ -214,7 +214,7 @@
         "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur du"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-LONG-01",
@@ -229,7 +229,7 @@
         "extrait": "L’élève sait que 1 m = 100 cm et 1 km = 1 000 m."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-MAS-01",
@@ -244,7 +244,7 @@
         "extrait": "L’élève connait la masse de quelques objets du quotidien."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-MONN-01",
@@ -259,7 +259,7 @@
         "extrait": "2 € et 5 centimes s’écrit 2,05 €"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-TEMPS-01",
@@ -274,7 +274,7 @@
         "extrait": "L’élève comprend et utilise les expressions « trois heures du matin », « trois heures de"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-DUR-01",
@@ -289,7 +289,7 @@
         "extrait": "1 heure = 60 minutes ; 1 demi-heure = 30 minutes"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-GEO-01",
@@ -304,7 +304,7 @@
         "extrait": "décrire ses faces (carrés, rectangles, triangles) et donner le nombre de ses arêtes et de"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C2-CE1-GEO-02",
@@ -319,7 +319,7 @@
         "extrait": "L’élève sait dire qu’un rectangle a quatre sommets, quatre angles droits, quatre côtés et"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

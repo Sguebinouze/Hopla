@@ -14,9 +14,9 @@
       "reponse": "une seule boucle",
       "indice": "Le courant n’a qu’un chemin.",
       "explication": "Un circuit en série forme une seule boucle.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-002",
@@ -31,9 +31,9 @@
       "reponse": "le générateur",
       "indice": "Une pile en est un.",
       "explication": "Le générateur fournit le courant.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-003",
@@ -48,9 +48,9 @@
       "reponse": "dans un seul sens",
       "indice": "Son branchement compte.",
       "explication": "Une DEL ne laisse passer le courant que dans un sens.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-004",
@@ -65,9 +65,9 @@
       "reponse": "reste allumée",
       "indice": "Elle est sur une autre boucle.",
       "explication": "En dérivation, chaque branche fonctionne indépendamment.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-005",
@@ -82,9 +82,9 @@
       "reponse": "en dérivation",
       "indice": "Chaque appareil fonctionne seul.",
       "explication": "Les prises sont branchées en dérivation.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-006",
@@ -99,9 +99,9 @@
       "reponse": "le courant devient très intense et chauffe les fils",
       "indice": "Risque d’incendie.",
       "explication": "Un court-circuit provoque un courant intense et un échauffement.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-007",
@@ -116,9 +116,9 @@
       "reponse": "volts",
       "indice": "Symbole V.",
       "explication": "La tension se mesure en volts.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-5E-ELEC-01-008",
@@ -133,9 +133,9 @@
       "reponse": "un ampèremètre",
       "indice": "Elle s’exprime en ampères.",
       "explication": "On mesure l’intensité avec un ampèremètre.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

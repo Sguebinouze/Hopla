@@ -14,9 +14,9 @@
       "reponse": "identifier un appareil sur un réseau",
       "indice": "Comme une adresse postale.",
       "explication": "L’adresse IP identifie un appareil.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-002",
@@ -31,9 +31,9 @@
       "reponse": "un commutateur",
       "indice": "On l’appelle aussi switch.",
       "explication": "Le commutateur relie les terminaux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-003",
@@ -48,9 +48,9 @@
       "reponse": "un routeur",
       "indice": "La box en contient un.",
       "explication": "Le routeur relie le réseau local à Internet.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-004",
@@ -65,9 +65,9 @@
       "reponse": "non, sinon ils ne communiquent pas correctement",
       "indice": "Chaque adresse doit être unique.",
       "explication": "Chaque appareil doit avoir une adresse IP unique.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-005",
@@ -82,9 +82,9 @@
       "reponse": "4 nombres séparés par des points",
       "indice": "Compte les parties.",
       "explication": "Une adresse IPv4 a 4 nombres.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-006",
@@ -99,9 +99,9 @@
       "reponse": "sans fil",
       "indice": "Par ondes radio.",
       "explication": "Le WiFi est une liaison sans fil.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-007",
@@ -116,9 +116,9 @@
       "reponse": "bits par seconde",
       "indice": "Mbit/s par exemple.",
       "explication": "Le débit s’exprime en bits par seconde.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-RES-01-008",
@@ -133,9 +133,9 @@
       "reponse": "ils ne sont pas sur le même réseau et ne communiquent pas",
       "indice": "Compare le troisième nombre.",
       "explication": "Leurs adresses désignent deux réseaux différents.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

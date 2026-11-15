@@ -6,39 +6,51 @@
       "gabarit": "qcm",
       "difficulte": 1,
       "consigne": "Choisis la bonne forme : Les enfants … dans la cour.",
-      "options": ["joue", "jouent", "joues"],
+      "options": [
+        "joue",
+        "jouent",
+        "joues"
+      ],
       "reponse": "jouent",
       "indice": "Cherche qui fait l'action.",
       "explication": "Le sujet est « les enfants ». Il est au pluriel. Le verbe prend -nt : jouent.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "FR-C2-CE2-ORTH-01-002",
       "gabarit": "qcm",
       "difficulte": 1,
       "consigne": "Choisis la bonne forme : Mon chat … sur le canapé.",
-      "options": ["dort", "dorment", "dors"],
+      "options": [
+        "dort",
+        "dorment",
+        "dors"
+      ],
       "reponse": "dort",
       "indice": "Cherche qui fait l'action.",
       "explication": "Le sujet est « mon chat ». Il est au singulier. Le verbe s'écrit dort.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "FR-C2-CE2-ORTH-01-003",
       "gabarit": "qcm",
       "difficulte": 2,
       "consigne": "Choisis la bonne forme : Le soir, mes parents … le journal.",
-      "options": ["lit", "lisent", "lis"],
+      "options": [
+        "lit",
+        "lisent",
+        "lis"
+      ],
       "reponse": "lisent",
       "indice": "Le sujet n'est pas toujours au début de la phrase.",
       "explication": "Le sujet est « mes parents ». Il est au pluriel. Le verbe s'écrit lisent.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

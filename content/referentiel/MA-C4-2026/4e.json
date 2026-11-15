@@ -15,7 +15,7 @@
         "extrait": "Diviser deux nombres relatifs."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-REL-02",
@@ -30,7 +30,7 @@
         "extrait": "Savoir calculer un enchainement d’opérations avec des nombres relatifs."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-FRAC-01",
@@ -45,7 +45,7 @@
         "extrait": "Simplifier une fraction."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-FRAC-02",
@@ -60,7 +60,7 @@
         "extrait": "Calculer le produit de nombres rationnels."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-FRAC-03",
@@ -75,7 +75,7 @@
         "extrait": "Diviser des fractions."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-PUIS-01",
@@ -90,7 +90,7 @@
         "extrait": "Multiplier des puissances d’exposant entier naturel d’un même nombre entre elles."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-RAC-01",
@@ -105,7 +105,7 @@
         "extrait": "Encadrer la racine carrée d’un entier par deux nombres entiers consécutifs."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-LIT-01",
@@ -120,7 +120,7 @@
         "extrait": "Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-EQ-01",
@@ -135,7 +135,7 @@
         "extrait": "Résoudre une équation du premier degré du type a𝑥 + b = c."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-PYTH-01",
@@ -150,7 +150,7 @@
         "extrait": "Connaitre le théorème de Pythagore, sa réciproque, sa contraposée."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-MIL-01",
@@ -165,7 +165,7 @@
         "extrait": "Connaitre les trois théorèmes relatifs à la droite des milieux dans un triangle."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-VOL-01",
@@ -180,7 +180,7 @@
         "extrait": "Connaitre le volume de la pyramide et du cône de révolution."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-TRANS-01",
@@ -195,7 +195,7 @@
         "extrait": "Connaitre et utiliser les propriétés de conservations des translations."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-CERC-01",
@@ -210,7 +210,7 @@
         "extrait": "Déterminer le centre du cercle circonscrit d’un triangle rectangle."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-STAT-01",
@@ -225,7 +225,7 @@
         "extrait": "Déterminer une médiane et l’interpréter dans le cas d’une série de petit effectif présentée sous forme de données brutes."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-PROBA-01",
@@ -240,7 +240,7 @@
         "extrait": "Calculer la probabilité d’un évènement et de l’évènement contraire."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-PROP-01",
@@ -255,7 +255,7 @@
         "extrait": "Déterminer une quatrième proportionnelle."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-PCT-01",
@@ -270,7 +270,7 @@
         "extrait": "Définir le coefficient multiplicateur."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-4E-FONC-01",
@@ -285,7 +285,7 @@
         "extrait": "Savoir retrouver le nombre de départ après avoir remonté un programme de calcul simple."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

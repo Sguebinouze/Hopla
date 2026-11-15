@@ -15,7 +15,7 @@
         "extrait": "Conjugaisons à mémoriser et à maîtriser : passé simple, plus-que-parfait des verbes être et avoir"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-CONJ-02",
@@ -30,7 +30,7 @@
         "extrait": "Connaître la composition en deux parties (auxiliaire + participe passé) des temps composés"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-CONJ-03",
@@ -47,7 +47,7 @@
       "prerequis": [
         "FR-C3-CM2-CONJ-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-ORTH-01",
@@ -64,7 +64,7 @@
       "prerequis": [
         "FR-C3-CM2-CONJ-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-ORTH-02",
@@ -82,7 +82,7 @@
         "FR-C3-CM2-ORTH-01",
         "FR-C3-CM2-GRAM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-01",
@@ -97,7 +97,7 @@
         "extrait": "Différencier attribut du sujet et complément d’objet"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-02",
@@ -112,7 +112,7 @@
         "extrait": "Différencier les compléments circonstanciels de temps, de lieu, de cause"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-03",
@@ -127,7 +127,7 @@
         "extrait": "Identifier le sujet inversé dans des cas simples"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-04",
@@ -142,7 +142,7 @@
         "extrait": "Identifier et nommer les prépositions"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-05",
@@ -157,7 +157,7 @@
         "extrait": "Distinguer phrase simple et phrase complexe à partir du repérage des verbes conjugués"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM2-GRAM-06",
@@ -174,7 +174,7 @@
       "prerequis": [
         "FR-C3-CM2-GRAM-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

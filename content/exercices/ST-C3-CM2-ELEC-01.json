@@ -14,9 +14,9 @@
       "reponse": "fermé",
       "indice": "Le courant doit faire tout le tour.",
       "explication": "Le courant circule seulement dans un circuit fermé.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-002",
@@ -31,9 +31,9 @@
       "reponse": "la pile",
       "indice": "C’est le générateur.",
       "explication": "La pile est le générateur.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-003",
@@ -48,9 +48,9 @@
       "reponse": "ouvrir ou fermer le circuit",
       "indice": "Il coupe ou laisse passer le courant.",
       "explication": "L’interrupteur ouvre ou ferme le circuit.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-004",
@@ -65,9 +65,9 @@
       "reponse": "un court-circuit",
       "indice": "C’est dangereux, la pile chauffe.",
       "explication": "Relier les bornes directement, c’est un court-circuit.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-005",
@@ -82,9 +82,9 @@
       "reponse": "s’éteignent",
       "indice": "Le circuit est coupé.",
       "explication": "Le circuit est ouvert : tout s’éteint.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-006",
@@ -99,9 +99,9 @@
       "reponse": "des symboles",
       "indice": "Chaque élément a son dessin normalisé.",
       "explication": "Un schéma utilise des symboles normalisés.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-007",
@@ -116,9 +116,9 @@
       "reponse": "l’eau conduit le courant et on risque l’électrocution",
       "indice": "Le courant du secteur est dangereux.",
       "explication": "L’eau favorise le passage du courant : danger d’électrocution.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "ST-C3-CM2-ELEC-01-008",
@@ -133,9 +133,9 @@
       "reponse": "230 volts",
       "indice": "Bien plus qu’une pile.",
       "explication": "La prise délivre environ 230 V : c’est dangereux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

@@ -14,8 +14,10 @@
         "page": 18,
         "extrait": "Conjugaisons à mémoriser et à maîtriser : présent de l’indicatif, imparfait, futur, passé composé des verbes être et avoir, des"
       },
-      "prerequis": ["FR-C2-CE1-CONJ-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C2-CE1-CONJ-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-CONJ-02",
@@ -29,8 +31,10 @@
         "page": 18,
         "extrait": "Connaître la composition du passé composé en deux parties (auxiliaire + participe passé) ; retrouver la forme infinitive du"
       },
-      "prerequis": ["FR-C3-CM1-CONJ-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C3-CM1-CONJ-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-ORTH-01",
@@ -44,8 +48,10 @@
         "page": 18,
         "extrait": "Repérer le sujet du verbe : notamment le nom noyau dans le cas d’un groupe nominal"
       },
-      "prerequis": ["FR-C2-CE1-ORTH-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C2-CE1-ORTH-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-ORTH-02",
@@ -59,8 +65,10 @@
         "page": 18,
         "extrait": "Transformer le genre et le nombre de groupes nominaux simples isolés puis inscrits dans des phrases simples"
       },
-      "prerequis": ["FR-C2-CE1-ORTH-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C2-CE1-ORTH-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-ORTH-03",
@@ -74,8 +82,10 @@
         "page": 18,
         "extrait": "Accorder le participe passé avec le sujet dans le cas de l’emploi avec l’auxiliaire être"
       },
-      "prerequis": ["FR-C3-CM1-CONJ-02"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C3-CM1-CONJ-02"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-GRAM-01",
@@ -89,8 +99,10 @@
         "page": 17,
         "extrait": "Identifier et nommer les déterminants suivants : articles définis, indéfinis, déterminants possessifs et démonstratifs"
       },
-      "prerequis": ["FR-C2-CE1-GRAM-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C2-CE1-GRAM-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-GRAM-02",
@@ -104,8 +116,10 @@
         "page": 17,
         "extrait": "Remplacer un groupe nominal sujet par un pronom personnel sujet"
       },
-      "prerequis": ["FR-C2-CE1-GRAM-01"],
-      "statut": "a_verifier"
+      "prerequis": [
+        "FR-C2-CE1-GRAM-01"
+      ],
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-GRAM-03",
@@ -120,7 +134,7 @@
         "extrait": "Distinguer le complément d’objet du complément circonstanciel"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "FR-C3-CM1-VOC-01",
@@ -135,7 +149,7 @@
         "extrait": "Comprendre et utiliser les notions de synonymie et antonymie"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

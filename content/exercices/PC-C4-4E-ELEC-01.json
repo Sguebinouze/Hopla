@@ -14,9 +14,9 @@
       "reponse": "est la même partout",
       "indice": "Il n’y a qu’un seul chemin.",
       "explication": "En série, l’intensité est identique en tout point.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-002",
@@ -31,9 +31,9 @@
       "reponse": "ohms (Ω)",
       "indice": "Symbole oméga.",
       "explication": "La résistance s’exprime en ohms.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-003",
@@ -48,9 +48,9 @@
       "reponse": "en dérivation",
       "indice": "Aux bornes du dipôle.",
       "explication": "Le voltmètre se branche en dérivation.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-004",
@@ -65,9 +65,9 @@
       "reponse": "6 V",
       "indice": "Les tensions s’additionnent.",
       "explication": "En série, les tensions s’additionnent : 2 + 4 = 6 V.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-005",
@@ -82,9 +82,9 @@
       "reponse": "est la même",
       "indice": "Chaque branche est reliée au générateur.",
       "explication": "En dérivation, les tensions sont égales.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-006",
@@ -99,9 +99,9 @@
       "reponse": "0,5 A",
       "indice": "Loi des nœuds.",
       "explication": "Les intensités s’additionnent : 0,2 + 0,3 = 0,5 A.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-007",
@@ -116,9 +116,9 @@
       "reponse": "5 V",
       "indice": "U = R × I.",
       "explication": "U = 100 × 0,05 = 5 V.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-ELEC-01-008",
@@ -133,9 +133,9 @@
       "reponse": "0,2 A",
       "indice": "I = U ÷ R.",
       "explication": "I = 10 ÷ 50 = 0,2 A.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

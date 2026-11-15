@@ -14,9 +14,9 @@
       "reponse": "un algorithme",
       "indice": "En langage naturel ou en organigramme.",
       "explication": "On commence par l’algorithme.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-002",
@@ -31,9 +31,9 @@
       "reponse": "une boucle",
       "indice": "Répéter, tant que.",
       "explication": "La boucle répète des actions.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-003",
@@ -48,9 +48,9 @@
       "reponse": "l’appui sur un bouton",
       "indice": "Il déclenche une action.",
       "explication": "Un évènement déclenche une partie du programme.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-004",
@@ -65,9 +65,9 @@
       "reponse": "elle affiche Bonjour",
       "indice": "print signifie « afficher ».",
       "explication": "print affiche un message.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-005",
@@ -82,9 +82,9 @@
       "reponse": "5",
       "indice": "0 + 1 + 1 + 1 + 1 + 1.",
       "explication": "Après 5 tours, compteur vaut 5.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-006",
@@ -99,9 +99,9 @@
       "reponse": "la luminosité mesurée et un seuil",
       "indice": "Le capteur fournit une valeur.",
       "explication": "Le programme compare la luminosité à un seuil.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-007",
@@ -116,9 +116,9 @@
       "reponse": "if x > 10:",
       "indice": "if signifie « si ».",
       "explication": "On écrit if x > 10: en Python.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-3E-PROG-01-008",
@@ -133,9 +133,9 @@
       "reponse": "pour vérifier qu’il fonctionne dans tous les cas",
       "indice": "Par exemple au seuil exact.",
       "explication": "Tester plusieurs cas révèle les erreurs.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

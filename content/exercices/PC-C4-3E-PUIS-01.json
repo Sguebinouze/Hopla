@@ -14,9 +14,9 @@
       "reponse": "watts",
       "indice": "Symbole W.",
       "explication": "La puissance s’exprime en watts.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-002",
@@ -31,9 +31,9 @@
       "reponse": "kilowattheures",
       "indice": "Symbole kWh.",
       "explication": "La facture compte l’énergie en kWh.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-003",
@@ -48,9 +48,9 @@
       "reponse": "500 W",
       "indice": "Compare les nombres.",
       "explication": "2 000 W est plus que 500 W.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-004",
@@ -65,9 +65,9 @@
       "reponse": "P = U × I",
       "indice": "En watts, volts et ampères.",
       "explication": "P = U × I.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-005",
@@ -82,9 +82,9 @@
       "reponse": "E = P × t",
       "indice": "Plus longtemps, plus d’énergie.",
       "explication": "E = P × t.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-006",
@@ -99,9 +99,9 @@
       "reponse": "460 W",
       "indice": "P = U × I.",
       "explication": "P = 230 × 2 = 460 W.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-007",
@@ -116,9 +116,9 @@
       "reponse": "3 kWh",
       "indice": "1 kW × 3 h.",
       "explication": "E = 1 kW × 3 h = 3 kWh.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-3E-PUIS-01-008",
@@ -133,9 +133,9 @@
       "reponse": "l’intensité devient trop grande et les fils chauffent",
       "indice": "Risque d’incendie.",
       "explication": "Le disjoncteur protège contre une intensité excessive.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

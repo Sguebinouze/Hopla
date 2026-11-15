@@ -15,7 +15,7 @@
         "extrait": "Connaître la suite écrite et la suite orale des nombres jusqu’à 999 999 999"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ENT-02",
@@ -30,7 +30,7 @@
         "extrait": "Connaître la valeur des chiffres en fonction de leur position dans un nombre"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ENT-03",
@@ -47,7 +47,7 @@
       "prerequis": [
         "MA-C3-CM2-ENT-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ENT-04",
@@ -62,7 +62,7 @@
         "extrait": "Déterminer des diviseurs d’un nombre entier inférieur ou égal à 100"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-FRAC-01",
@@ -77,7 +77,7 @@
         "extrait": "Écrire une fraction supérieure à 1 comme la somme d’un entier et d’une fraction inférieure à 1"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-FRAC-02",
@@ -94,7 +94,7 @@
       "prerequis": [
         "MA-C3-CM2-ENT-04"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-FRAC-03",
@@ -111,7 +111,7 @@
       "prerequis": [
         "MA-C3-CM2-FRAC-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-FRAC-04",
@@ -128,7 +128,7 @@
       "prerequis": [
         "MA-C3-CM2-FRAC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-FRAC-05",
@@ -143,7 +143,7 @@
         "extrait": "au CM2, les élèves apprennent à calculer des fractions de quantités ou de grandeurs comme deux tiers de 12 € ou trois quarts de 100 mètres"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-DEC-01",
@@ -158,7 +158,7 @@
         "extrait": "Passer d’une écriture sous forme d’une fraction décimale ou de la somme de fractions décimales à une écriture à virgule"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-DEC-02",
@@ -175,7 +175,7 @@
       "prerequis": [
         "MA-C3-CM2-DEC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-DEC-03",
@@ -192,7 +192,7 @@
       "prerequis": [
         "MA-C3-CM2-DEC-02"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-CALC-01",
@@ -207,7 +207,7 @@
         "extrait": "Multiplier un nombre décimal par 10, 100 ou 1 000"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-CALC-02",
@@ -222,7 +222,7 @@
         "extrait": "Ajouter ou soustraire 8, 9, 18, 19, 28, 29"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-CALC-03",
@@ -239,7 +239,7 @@
       "prerequis": [
         "MA-C3-CM2-CALC-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-OPE-01",
@@ -254,7 +254,7 @@
         "extrait": "Savoir réaliser un calcul contenant une ou deux paires de parenthèses"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-OPE-02",
@@ -269,7 +269,7 @@
         "extrait": "Poser et effectuer la multiplication d’un nombre décimal par un nombre entier"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-OPE-03",
@@ -284,7 +284,7 @@
         "extrait": "Poser et effectuer des divisions décimales avec un dividende entier et un diviseur à un chiffre"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-PB-01",
@@ -299,7 +299,7 @@
         "extrait": "Résoudre des problèmes mixtes en plusieurs étapes"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-PB-02",
@@ -314,7 +314,7 @@
         "extrait": "Résoudre des problèmes de comparaison multiplicative"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ALG-01",
@@ -329,7 +329,7 @@
         "extrait": "Trouver le nombre manquant dans une égalité à trous"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ALG-02",
@@ -344,7 +344,7 @@
         "extrait": "Exécuter ou produire un programme de calcul"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-PROP-01",
@@ -359,7 +359,7 @@
         "extrait": "Seuls des raisonnements fondés sur les propriétés de linéarité pour la multiplication et pour l’addition sont attendus"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-AIRE-01",
@@ -374,7 +374,7 @@
         "extrait": "Déterminer l’aire d’un carré ou d’un rectangle"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-AIRE-02",
@@ -391,7 +391,7 @@
       "prerequis": [
         "MA-C3-CM2-AIRE-01"
       ],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-ANG-01",
@@ -406,7 +406,7 @@
         "extrait": "Savoir qu’un angle droit mesure 90°"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-DUR-01",
@@ -421,7 +421,7 @@
         "extrait": "la compréhension du système sexagésimal (base soixante) utilisé pour les unités de durée s’étend avec l’introduction des secondes"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C3-CM2-PROBA-01",
@@ -436,7 +436,7 @@
         "extrait": "exprimer la probabilité d’un évènement sous la forme « a chances sur b »"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }

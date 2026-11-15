@@ -15,7 +15,7 @@
         "extrait": "Factoriser un nombre entier positif : 60 = 2² × 3 × 5."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-FRAC-01",
@@ -30,7 +30,7 @@
         "extrait": "Rendre irréductible une fraction."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PUIS-01",
@@ -45,7 +45,7 @@
         "extrait": "Définir les puissances d’exposant négatif d’un nombre."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PUIS-02",
@@ -60,7 +60,7 @@
         "extrait": "Multiplier et diviser des puissances."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-SCI-01",
@@ -75,7 +75,7 @@
         "extrait": "Déterminer la notation scientifique d’un nombre."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-RAC-01",
@@ -90,7 +90,7 @@
         "extrait": "Résoudre analytiquement et graphiquement des équations de la forme 𝑥2 = a."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIT-01",
@@ -105,7 +105,7 @@
         "extrait": "Utiliser la double distributivité pour développer et factoriser des expressions dont le facteur est apparent."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIT-02",
@@ -120,7 +120,7 @@
         "extrait": "Manipuler les trois identités remarquables pour développer et factoriser :"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-EQ-01",
@@ -135,7 +135,7 @@
         "extrait": "Résoudre une équation produit nul."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-INEQ-01",
@@ -150,7 +150,7 @@
         "extrait": "Résoudre analytiquement et graphiquement une inéquation du premier degré du type a𝑥 ⩾ b."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-THAL-01",
@@ -165,7 +165,7 @@
         "extrait": "Connaitre et appliquer le théorème de Thalès, sa réciproque, sa contraposée (configurations des triangles emboités et configuration dite du papillon)."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-TRIG-01",
@@ -180,7 +180,7 @@
         "extrait": "Connaitre et utiliser les lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-BOULE-01",
@@ -195,7 +195,7 @@
         "extrait": "Connaitre et utiliser la formule du volume d’une boule de rayon donné."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-SECT-01",
@@ -210,7 +210,7 @@
         "extrait": "Visualiser et réaliser des sections de pavé parallèlement à une face, de cylindre parallèlement ou perpendiculairement à son axe, d’une boule."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-VECT-01",
@@ -225,7 +225,7 @@
         "extrait": "Définir et utiliser les notions de vecteur, de vecteurs égaux, de vecteur nul, d’opposé d’un vecteur."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-VECT-02",
@@ -240,7 +240,7 @@
         "extrait": "Découvrir et utiliser la relation de Chasles."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-STAT-01",
@@ -255,7 +255,7 @@
         "extrait": "Donner les quartiles et la médiane d’une série donnée sous forme de tableau d’effectifs ou de diagramme en barres."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PROBA-01",
@@ -270,7 +270,7 @@
         "extrait": "Connaitre et savoir appliquer la relation 𝑃(𝐴 ∪ 𝐵) + 𝑃(𝐴 ∩ 𝐵) = 𝑃(𝐴) + 𝑃(𝐵)."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PCT-01",
@@ -285,7 +285,7 @@
         "extrait": "Traduire une augmentation ou une diminution en pourcentages."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-FONC-01",
@@ -300,7 +300,7 @@
         "extrait": "Définir et connaitre le vocabulaire : image, antécédents."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIN-01",
@@ -315,7 +315,7 @@
         "extrait": "Définir et utiliser les fonctions linéaires."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-AFF-01",
@@ -330,7 +330,7 @@
         "extrait": "Définir et utiliser les fonctions affines."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }
