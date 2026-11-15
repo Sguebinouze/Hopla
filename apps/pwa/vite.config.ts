@@ -3,6 +3,9 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  // Port dédié à Hopla : il doit correspondre à l'URL de redirection configurée dans Supabase Auth.
+  server: { port: 5180, strictPort: true },
+  preview: { port: 5181, strictPort: true },
   plugins: [
     react(),
     VitePWA({

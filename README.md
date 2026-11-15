@@ -38,7 +38,7 @@ pnpm build          # tokens, packs (exercices publiés) puis PWA
 
 1. Créer un projet en région UE.
 2. Appliquer `supabase/migrations` (`supabase link` puis `supabase db push`, ou l'éditeur SQL).
-3. Auth : activer la connexion par lien e-mail ; URL du site = URL Cloudflare Pages.
+3. Auth : activer la connexion par lien e-mail ; URL du site = `http://localhost:5180` en développement, puis l'URL Cloudflare Pages.
 4. Copier `apps/pwa/.env.example` en `.env.local` et renseigner l'URL et la clé anon.
 
 Isolation des sessions : le JWT du parent seul ne donne que la liste des prénoms. Le code secret d'un enfant ouvre une session limitée à ses données ; le code parent ouvre le mode parent. Les résultats sont insérés par la session enfant, la progression (XP, série, score par compétence) est calculée en base. Voir `supabase/tests/isolation.test.ts`.
