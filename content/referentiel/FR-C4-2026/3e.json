@@ -1,0 +1,216 @@
+{
+  "programme": "FR-C4-2026",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "FR-C4-3E-GRAM-01",
+      "titre": "Phrase emphatique",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier une phrase emphatique et son procédé : présentatif, détachement en tête ou en fin de phrase.",
+      "exemple": "« Ce livre, je l’ai lu » : détachement en tête de phrase.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Identifier la phrase de forme emphatique et ses différents modes de construction."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-02",
+      "titre": "Pronom relatif",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Choisir le pronom relatif selon sa fonction dans la relative.",
+      "exemple": "« Le livre dont je parle » ; « le concours auquel je participe ».",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Comprendre le fonctionnement du pronom relatif."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-GRAM-03",
+      "titre": "Connecteurs logiques",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Choisir le connecteur logique qui exprime la relation entre deux propositions.",
+      "exemple": "« Il pleuvait ; par conséquent, nous sommes restés. »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 32,
+        "extrait": "Employer des connecteurs logiques variés pour assurer la progression logique d’un texte."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-DISC-01",
+      "titre": "Discours indirect libre",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Analyser et employer des paroles rapportées",
+      "attendu": "Distinguer discours direct, indirect et indirect libre dans un récit.",
+      "exemple": "« Il hésita. Fallait-il partir ? » : discours indirect libre.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Identifier des paroles rapportées au discours indirect libre et en apprécier les effets littéraires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-01",
+      "titre": "Subjonctif passé",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Former et employer le subjonctif passé.",
+      "exemple": "« Je suis content que tu aies réussi. »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Employer et identifier le présent et le passé du subjonctif à l’écrit et à l’oral."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-02",
+      "titre": "Identifier un temps",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Identifier le temps et le mode d’une forme verbale par sa morphologie.",
+      "exemple": "« ils eurent vu » : passé antérieur.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Identifier tous les temps connus dans un texte en raisonnant sur la morphologie des verbes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-CONJ-03",
+      "titre": "Valeurs du conditionnel",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Identifier la valeur temporelle ou modale du conditionnel.",
+      "exemple": "« Il a dit qu’il viendrait » : futur dans le passé.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Consolider la maitrise du conditionnel et comprendre ses différents emplois : temps verbal de l’indicatif qui présente des valeurs temporelles et modales."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-01",
+      "titre": "Participe passé et COD relatif",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder le participe passé employé avec avoir quand le COD est un pronom relatif placé avant.",
+      "exemple": "« Les fleurs que j’ai cueillies ».",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Maitriser l’accord du participe passé (auxiliaire avoir avec un complément d’objet direct pronom relatif placé avant le verbe)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-02",
+      "titre": "Accords sujet-verbe complexes",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder le verbe avec un pronom collectif ou distributif, ou un sujet qui comporte un complément du nom.",
+      "exemple": "« Chacun des élèves a son cahier. »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Maitriser l’accord sujet-verbe dans des cas complexes (pronom collectif ou distributif comme sujet, groupe nominal incluant un complément du nom)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-ORTH-03",
+      "titre": "Accord de l’adjectif",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder l’adjectif épithète, attribut ou apposé, et identifier sa fonction.",
+      "exemple": "« Épuisés, les randonneurs firent une pause » : apposition.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 33,
+        "extrait": "Maitriser l’accord de l’adjectif ou du groupe adjectival (fonctions épithète, attribut et apposition)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-01",
+      "titre": "Dénotation et connotation",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Réemployer son lexique et jouer avec les mots",
+      "attendu": "Distinguer la connotation méliorative, neutre ou péjorative de mots de même sens.",
+      "exemple": "destrier, cheval, canasson.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 29,
+        "extrait": "Distinguer la dénotation et la connotation et comprendre les types de connotations."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-02",
+      "titre": "Racines savantes",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Comprendre la formation des mots",
+      "attendu": "Déduire le sens d’un mot de ses racines grecques ou latines.",
+      "exemple": "« chrono » signifie le temps : chronomètre, chronologie.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 29,
+        "extrait": "Développer une stratégie de recherche autonome du sens d’un mot par sa formation."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-03",
+      "titre": "Radicaux verbaux difficiles",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Écrire avec justesse (orthographe)",
+      "attendu": "Orthographier les radicaux verbaux difficiles au conditionnel et au subjonctif.",
+      "exemple": "je courrais ; que nous soyons ; que vous voyiez.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 29,
+        "extrait": "Développer un raisonnement pour résoudre les difficultés orthographiques des radicaux verbaux (conditionnel, subjonctif)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-3E-VOC-04",
+      "titre": "Homophones lexicaux",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Écrire avec justesse (orthographe)",
+      "attendu": "Choisir l’orthographe d’un homophone lexical selon le sens.",
+      "exemple": "un verre d’eau, un ver de terre, la couleur verte.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 29,
+        "extrait": "Consolider les réflexes orthographiques pour orthographier les homophones lexicaux."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

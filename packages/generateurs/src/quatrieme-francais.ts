@@ -27,7 +27,7 @@ export const SUBORDONNANTS: [string, string, 'pronom relatif' | 'conjonction de 
   ['Les fleurs que tu as cueillies sentent bon.', 'que', 'pronom relatif', 2],
   ['Il faut que tu viennes demain.', 'que', 'conjonction de subordination', 2],
   ['La lettre que j’attendais est enfin arrivée.', 'que', 'pronom relatif', 2],
-  ['Je me demande quand il reviendra.', 'quand', 'conjonction de subordination', 3],
+  ['Quand il reviendra, nous fêterons son retour.', 'Quand', 'conjonction de subordination', 3],
   ['L’année où nous sommes partis, il a neigé.', 'où', 'pronom relatif', 3],
   ['Si tu veux, je t’accompagne.', 'Si', 'conjonction de subordination', 3],
   ['C’est l’ami avec qui je voyage.', 'qui', 'pronom relatif', 3],

@@ -1,0 +1,336 @@
+{
+  "programme": "MA-C4-2026",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "MA-C4-3E-DIV-01",
+      "titre": "Décomposer en facteurs premiers",
+      "domaine": "Nombres et calculs",
+      "theme": "Multiples et diviseurs",
+      "attendu": "Décomposer un entier positif en produit de facteurs premiers.",
+      "exemple": "60 = 2² × 3 × 5.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Factoriser un nombre entier positif : 60 = 2² × 3 × 5."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-FRAC-01",
+      "titre": "Rendre une fraction irréductible",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres rationnels",
+      "attendu": "Rendre une fraction irréductible à l’aide des décompositions en facteurs premiers.",
+      "exemple": "84/126 = 2/3, car 84 = 2² × 3 × 7 et 126 = 2 × 3² × 7.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Rendre irréductible une fraction."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PUIS-01",
+      "titre": "Puissances d’exposant négatif",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Utiliser la définition des puissances d’exposant négatif.",
+      "exemple": "10⁻³ = 0,001 ; 2⁻³ = 1/8.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Définir les puissances d’exposant négatif d’un nombre."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PUIS-02",
+      "titre": "Multiplier et diviser des puissances",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Multiplier et diviser des puissances d’un même nombre, avec des exposants relatifs.",
+      "exemple": "10⁵ × 10⁻² = 10³ ; a⁴ ÷ a⁶ = a⁻².",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 43,
+        "extrait": "Multiplier et diviser des puissances."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-SCI-01",
+      "titre": "Notation scientifique",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Écrire un nombre décimal en notation scientifique.",
+      "exemple": "45 000 = 4,5 × 10⁴ ; 0,0032 = 3,2 × 10⁻³.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Déterminer la notation scientifique d’un nombre."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-RAC-01",
+      "titre": "Résoudre x² = a",
+      "domaine": "Nombres et calculs",
+      "theme": "Racine carrée",
+      "attendu": "Résoudre une équation de la forme x² = a selon le signe de a.",
+      "exemple": "x² = 49 : x = −7 ou x = 7 ; x² = −4 : aucune solution.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Résoudre analytiquement et graphiquement des équations de la forme 𝑥2 = a."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIT-01",
+      "titre": "Double distributivité",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Développer avec la double distributivité et factoriser avec un facteur commun apparent.",
+      "exemple": "(x + 2)(x + 5) = x² + 7x + 10.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Utiliser la double distributivité pour développer et factoriser des expressions dont le facteur est apparent."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIT-02",
+      "titre": "Identités remarquables",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Développer et factoriser avec les trois identités remarquables.",
+      "exemple": "(x − 3)² = x² − 6x + 9 ; x² − 25 = (x − 5)(x + 5).",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Manipuler les trois identités remarquables pour développer et factoriser :"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-EQ-01",
+      "titre": "Équation produit nul",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Résoudre une équation produit nul.",
+      "exemple": "(x − 2)(x + 3) = 0 : x = −3 ou x = 2.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Résoudre une équation produit nul."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-INEQ-01",
+      "titre": "Inéquation du premier degré",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Résoudre une inéquation du premier degré, en changeant de sens si l’on divise par un négatif.",
+      "exemple": "−2x > 8 : x < −4.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 44,
+        "extrait": "Résoudre analytiquement et graphiquement une inéquation du premier degré du type a𝑥 ⩾ b."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-THAL-01",
+      "titre": "Théorème de Thalès",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Calculer une longueur avec le théorème de Thalès ; prouver un parallélisme avec sa réciproque ou sa contraposée.",
+      "exemple": "AM/AB = MN/BC, donc MN = BC × AM ÷ AB.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Connaitre et appliquer le théorème de Thalès, sa réciproque, sa contraposée (configurations des triangles emboités et configuration dite du papillon)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-TRIG-01",
+      "titre": "Trigonométrie",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Utiliser le cosinus, le sinus et la tangente d’un angle aigu dans un triangle rectangle.",
+      "exemple": "cos(B̂) = côté adjacent / hypoténuse.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Connaitre et utiliser les lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-BOULE-01",
+      "titre": "Volume de la boule",
+      "domaine": "Espace et géométrie",
+      "theme": "Représentation de l’espace",
+      "attendu": "Calculer le volume d’une boule de rayon donné.",
+      "exemple": "V = 4/3 × π × r³ ; pour r = 3 cm, V ≈ 113 cm³.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Connaitre et utiliser la formule du volume d’une boule de rayon donné."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-SECT-01",
+      "titre": "Sphère, boule et sections",
+      "domaine": "Espace et géométrie",
+      "theme": "Représentation de l’espace",
+      "attendu": "Distinguer sphère et boule ; connaitre la nature des sections d’un pavé, d’un cylindre, d’une boule.",
+      "exemple": "Un cylindre coupé perpendiculairement à son axe donne un disque de même rayon.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Visualiser et réaliser des sections de pavé parallèlement à une face, de cylindre parallèlement ou perpendiculairement à son axe, d’une boule."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-VECT-01",
+      "titre": "Vecteurs",
+      "domaine": "Espace et géométrie",
+      "theme": "Translations et vecteurs",
+      "attendu": "Reconnaitre des vecteurs égaux, opposés, et le parallélogramme associé à une translation.",
+      "exemple": "ABCD parallélogramme : vecteur AB = vecteur DC.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 48,
+        "extrait": "Définir et utiliser les notions de vecteur, de vecteurs égaux, de vecteur nul, d’opposé d’un vecteur."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-VECT-02",
+      "titre": "Relation de Chasles",
+      "domaine": "Espace et géométrie",
+      "theme": "Translations et vecteurs",
+      "attendu": "Additionner des vecteurs avec la relation de Chasles.",
+      "exemple": "vecteur AB + vecteur BC = vecteur AC.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 49,
+        "extrait": "Découvrir et utiliser la relation de Chasles."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-STAT-01",
+      "titre": "Médiane et quartiles",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Statistiques",
+      "attendu": "Calculer effectifs cumulés, médiane et quartiles d’une série donnée par un tableau d’effectifs.",
+      "exemple": "Effectif 20 : Q1 est la 5e valeur, Q3 la 15e.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 50,
+        "extrait": "Donner les quartiles et la médiane d’une série donnée sous forme de tableau d’effectifs ou de diagramme en barres."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PROBA-01",
+      "titre": "Probabilité d’une réunion",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Probabilités",
+      "attendu": "Appliquer la relation entre P(A ∪ B), P(A ∩ B), P(A) et P(B).",
+      "exemple": "P(A) = 0,5, P(B) = 0,4, P(A ∩ B) = 0,2 : P(A ∪ B) = 0,7.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 51,
+        "extrait": "Connaitre et savoir appliquer la relation 𝑃(𝐴 ∪ 𝐵) + 𝑃(𝐴 ∩ 𝐵) = 𝑃(𝐴) + 𝑃(𝐵)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-PCT-01",
+      "titre": "Évolutions en pourcentage",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Traduire une augmentation ou une diminution en pourcentage, y compris des évolutions successives.",
+      "exemple": "De 80 € à 92 € : hausse de 15 %. +20 % puis −20 % : baisse de 4 %.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Traduire une augmentation ou une diminution en pourcentages."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-FONC-01",
+      "titre": "Image et antécédent",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Utiliser le vocabulaire image et antécédent, avec une formule ou un tableau de valeurs.",
+      "exemple": "f(x) = 3x − 2 : l’image de 4 est 10 ; l’antécédent de 10 est 4.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Définir et connaitre le vocabulaire : image, antécédents."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-LIN-01",
+      "titre": "Fonctions linéaires",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Calculer avec une fonction linéaire et retrouver son coefficient.",
+      "exemple": "f linéaire, f(4) = 12 : f(x) = 3x.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 53,
+        "extrait": "Définir et utiliser les fonctions linéaires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-3E-AFF-01",
+      "titre": "Fonctions affines",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Identifier les coefficients d’une fonction affine et les déterminer à partir de deux points.",
+      "exemple": "f(1) = 3 et f(3) = 7 : f(x) = 2x + 1.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 53,
+        "extrait": "Définir et utiliser les fonctions affines."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}
