@@ -92,12 +92,12 @@ create table public.badges_enfant (
 -- ─────────────────────────────────────────── Sessions
 
 create function app.entete(nom text) returns text
-language sql stable as $$
+language sql stable set search_path = '' as $$
   select nullif(current_setting('request.headers', true), '')::json ->> nom
 $$;
 
 create function app.empreinte(jeton text) returns text
-language sql immutable as $$
+language sql immutable set search_path = '' as $$
   select encode(extensions.digest(jeton, 'sha256'), 'hex')
 $$;
 
@@ -134,7 +134,7 @@ language sql volatile set search_path = public, extensions as $$
 $$;
 
 create function app.verifier_code(p_code text) returns void
-language plpgsql immutable as $$
+language plpgsql immutable set search_path = '' as $$
 begin
   if p_code !~ '^[0-9]{4}$' then
     raise exception 'Le code doit compter 4 symboles.' using errcode = 'P0001';
