@@ -117,10 +117,14 @@ export const etendue3e2020 = creerGenerateur({
       const [eA, eB] = [etendue(A), etendue(B)];
       const reponse = eA > eB ? 'la série A' : eA < eB ? 'la série B' : 'les deux séries ont la même étendue';
       const opts = a.melanger(['la série A', 'la série B', 'les deux séries ont la même étendue']);
+      // Erreur typique : prendre la plus grande valeur pour l'étendue.
+      const [mA, mB] = [Math.max(...A), Math.max(...B)];
+      const naif = mA > mB ? 'la série A' : mA < mB ? 'la série B' : 'les deux séries ont la même étendue';
       return {
         gabarit: 'qcm',
         consigne: `${contexte}. Série A : ${A.join(' ; ')}. Série B : ${B.join(' ; ')}. Quelle série est la plus dispersée, au sens de l’étendue ?`,
         options: opts,
+        erreurs: erreursDe(opts, reponse, [[naif, 'etendue-maximum']]),
         reponse,
         indice: 'Calcule l’étendue de chaque série : la plus grande étendue indique la série la plus dispersée.',
         explication: `Étendue de A : ${Math.max(...A)} − ${Math.min(...A)} = ${eA}. Étendue de B : ${Math.max(...B)} − ${Math.min(...B)} = ${eB}.`,
@@ -253,6 +257,7 @@ export const semblables3e2020 = creerGenerateur({
       const opts = a.melanger([SEMBLABLES_OUI, SEMBLABLES_NON, 'On ne peut pas savoir']);
       return {
         gabarit: 'qcm',
+        erreurs: { [reponse === SEMBLABLES_OUI ? SEMBLABLES_NON : SEMBLABLES_OUI]: 'semblables-critere' },
         consigne: `Le triangle ABC a deux angles de ${x}° et ${y}°. Le triangle DEF a deux angles de ${p}° et ${q}°. Ces triangles sont-ils semblables ?`,
         options: opts,
         reponse,
@@ -279,7 +284,7 @@ export const semblables3e2020 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Le triangle ABC a des côtés de ${cotes.join(' cm, ')} cm. Le triangle DEF a des côtés de ${images.map((c) => dec(c, 1)).join(' cm, ')} cm. Ces triangles sont-ils semblables ?`,
         options: opts,
-        erreurs: erreursDe(opts, reponse, [['On ne peut pas savoir']]),
+        erreurs: erreursDe(opts, reponse, [[oui ? SEMBLABLES_NON : SEMBLABLES_OUI, 'semblables-critere']]),
         reponse,
         indice: 'Range les côtés dans l’ordre croissant et calcule les quotients des côtés correspondants : ils doivent être égaux.',
         explication: oui

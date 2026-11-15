@@ -94,7 +94,8 @@ export const fonctionsSubordonnees4e = creerGenerateur({
         ? `C’est une relative : elle complète le nom qui la précède. Elle est complément du nom.`
         : fonction === 'COD'
           ? `Elle complète le verbe et ne peut pas être supprimée : elle est COD du verbe.`
-          : `Elle peut être déplacée ou supprimée : elle est ${fonction}.`);
+          : `Elle peut être déplacée ou supprimée : elle est ${fonction}.`,
+      (o) => (o.startsWith('CC') && fonction.startsWith('CC') ? 'circonstance-confondue' : 'fonction-grammaticale-confondue'));
   },
 });
 
@@ -135,7 +136,8 @@ export const oppositionCondition4e = creerGenerateur({
         ? `« ${groupe} » est détaché par des virgules et caractérise un nom de la phrase : c’est une apposition.`
         : fonction === 'CC d’opposition'
           ? `« ${groupe} » exprime un fait qui aurait dû empêcher l’action : c’est un CC d’opposition.`
-          : `« ${groupe} » exprime une condition nécessaire à l’action : c’est un CC de condition.`);
+          : `« ${groupe} » exprime une condition nécessaire à l’action : c’est un CC de condition.`,
+      (o) => (o.startsWith('CC') && fonction.startsWith('CC') ? 'circonstance-confondue' : 'fonction-grammaticale-confondue'));
   },
 });
 
@@ -167,20 +169,22 @@ export const interrogativeIndirecte4e = creerGenerateur({
       const autres = [`Je demande : ${directe}`, indirecte.replace(/ (si|où|quand|pourquoi|ce que|qui|combien) .*$/, ' une réponse.'), 'Je sais que tu viens ce soir.'];
       return qcm(a, 'Quelle phrase contient une proposition subordonnée interrogative indirecte ?', indirecte, autres,
         'L’interrogative indirecte est une question rapportée, sans point d’interrogation, après un verbe comme demander ou savoir.',
-        `« ${indirecte} » rapporte une question, sans point d’interrogation : c’est une interrogative indirecte.`);
+        `« ${indirecte} » rapporte une question, sans point d’interrogation : c’est une interrogative indirecte.`,
+        (o) => (o.startsWith('Je demande :') ? 'paroles-rapportees-confondues' : 'interrogative-indirecte'));
     }
     if (d === 2) {
       return qcm(a, `${directe} Quelle phrase rapporte cette question au discours indirect ?`, indirecte,
         [indirecte.replace(/ (si|où|quand|pourquoi|ce que|qui|combien) /, ' que '), `${indirecte.slice(0, -1)} ?`, indirecte.replace(/ (si|où|quand|pourquoi|ce que|qui|combien) /, ' : ')].filter((x) => x !== indirecte),
         'On supprime le point d’interrogation et l’inversion du sujet, on garde le mot interrogatif (ou « si »).',
-        `On écrit : ${indirecte}`);
+        `On écrit : ${indirecte}`, () => 'interrogative-indirecte');
     }
     return qcm(a, `« ${indirecte} » L’interrogation indirecte est-elle totale ou partielle ?`, totale ? 'totale' : 'partielle',
       [totale ? 'partielle' : 'totale', 'ce n’est pas une interrogation'],
       'Totale : on répond par oui ou non, elle commence par « si ». Partielle : elle porte sur un élément (où, quand, qui…).',
       totale
         ? 'Elle commence par « si » et appelle une réponse par oui ou non : interrogation totale.'
-        : 'Elle porte sur un élément précis (lieu, moment, cause, objet…) : interrogation partielle.');
+        : 'Elle porte sur un élément précis (lieu, moment, cause, objet…) : interrogation partielle.',
+      (o) => (o === 'ce n’est pas une interrogation' ? undefined : 'interrogative-indirecte'));
   },
 });
 
@@ -475,7 +479,7 @@ export const polysemie4e = creerGenerateur({
     const [phrase, mot, sens, pieges] = a.choisir(POLYSEMIE.filter((p) => niveaux(d).includes(p[4])));
     return qcm(a, `Dans « ${phrase} », que signifie « ${mot} » ?`, sens, pieges,
       'Un mot polysémique a plusieurs sens : c’est le contexte qui choisit.',
-      `Ici, le contexte indique que « ${mot} » signifie : ${sens}.`);
+      `Ici, le contexte indique que « ${mot} » signifie : ${sens}.`, () => 'sens-contexte');
   },
 });
 
@@ -502,13 +506,13 @@ export const intensite4e = creerGenerateur({
       return qcm(a, `Quel mot exprime le degré le plus ${fort ? 'fort' : 'faible'} : ${a.melanger(echelle).join(', ')} ?`, reponse,
         echelle.filter((m) => m !== reponse),
         'Imagine une échelle, du plus faible au plus fort.',
-        `Du plus faible au plus fort : ${echelle.join(', ')}. Le plus ${fort ? 'fort' : 'faible'} est « ${reponse} ».`);
+        `Du plus faible au plus fort : ${echelle.join(', ')}. Le plus ${fort ? 'fort' : 'faible'} est « ${reponse} ».`, () => 'degre-intensite');
     }
     const reponse = echelle.join(' < ');
     const [x, y, z] = echelle as [string, string, string];
     return qcm(a, `Range ces mots du plus faible au plus fort : ${a.melanger(echelle).join(', ')}.`, reponse,
       [`${y} < ${x} < ${z}`, `${x} < ${z} < ${y}`, `${z} < ${y} < ${x}`],
       'Commence par le mot le plus faible.',
-      `Du plus faible au plus fort : ${reponse}.`);
+      `Du plus faible au plus fort : ${reponse}.`, (o) => (o === `${z} < ${y} < ${x}` ? 'ordre-inverse' : 'degre-intensite'));
   },
 });

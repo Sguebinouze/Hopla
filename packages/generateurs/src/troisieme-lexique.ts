@@ -116,7 +116,7 @@ export const racines3e = creerGenerateur({
     const autres = a.melanger(RACINES.filter((r) => r[0] !== element && !r[2].includes(mot) && r[1] !== sens).map((r) => r[1])).slice(0, 3);
     return qcm(a, `Dans le mot « ${mot} », que signifie l’élément « ${element} » ?`, sens, autres,
       'Pense à d’autres mots qui contiennent le même élément.',
-      `« ${element} » signifie ${sens}, comme dans ${mots.map((m) => `« ${m} »`).join(' et ')}.`);
+      `« ${element} » signifie ${sens}, comme dans ${mots.map((m) => `« ${m} »`).join(' et ')}.`, () => 'racine-savante');
   },
 });
 

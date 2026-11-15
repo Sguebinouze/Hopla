@@ -82,7 +82,8 @@ export const autresPronoms3e2020 = creerGenerateur({
     const pieges = a.melanger(NOMS_PRONOMS.filter((n) => n !== nature)).slice(0, 3);
     return qcm(a, `Dans « ${phrase} », quelle est la nature du pronom « ${pronom} » ?`, nature, pieges,
       'Un pronom relatif a un antécédent juste avant lui. Un pronom interrogatif pose une question. « En » et « y » sont des pronoms adverbiaux.',
-      `« ${pronom} » : ${EXPLICATIONS_PRONOMS[nature]}.`);
+      `« ${pronom} » : ${EXPLICATIONS_PRONOMS[nature]}.`,
+      (o) => (['pronom relatif', 'pronom interrogatif'].includes(o) && ['pronom relatif', 'pronom interrogatif'].includes(nature) ? 'relatif-interrogatif-confondus' : 'classe-grammaticale-confondue'));
   },
 });
 

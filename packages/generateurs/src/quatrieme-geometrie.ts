@@ -2,7 +2,7 @@
 // pyramide et du cône, translations, triangle rectangle et cercle circonscrit.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 47 et 48.
 import { depuisEntier } from './decimaux';
-import { choix, creerGenerateur, fr, frDecimal } from './outils';
+import { choix, creerGenerateur, fr, frDecimal, tous } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 const dec = (n: number, c: number) => frDecimal(depuisEntier(n, c));
@@ -47,6 +47,7 @@ export const pythagore4e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Un triangle a des côtés de ${x * k} cm, ${y * k} cm et ${grand} cm. Est-il rectangle ?`,
       options: a.melanger(['Oui', 'Non', 'On ne peut pas savoir']),
+      erreurs: { [rectangle ? 'Non' : 'Oui']: 'pythagore-reciproque' },
       reponse: rectangle ? 'Oui' : 'Non',
       indice: 'Compare le carré du plus grand côté à la somme des carrés des deux autres.',
       explication: rectangle
@@ -99,7 +100,7 @@ export const droiteMilieux4e = creerGenerateur({
     ];
     const [q, r, pieges] = a.choisir(enonces);
     return {
-      gabarit: 'qcm', consigne: `Dans le triangle ABC, ${q}`, options: a.melanger([r, ...pieges]), reponse: r,
+      gabarit: 'qcm', consigne: `Dans le triangle ABC, ${q}`, options: a.melanger([r, ...pieges]), erreurs: tous(pieges, r, 'droite-milieux-propriete'), reponse: r,
       indice: 'Pense aux trois théorèmes de la droite des milieux.',
       explication: `D’après le théorème de la droite des milieux, la réponse est : ${r}`,
     };
@@ -248,7 +249,7 @@ export const cercleCirconscrit4e = creerGenerateur({
       ];
       const [q, r, pieges] = a.choisir(enonces);
       return {
-        gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), reponse: r,
+        gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), erreurs: tous(pieges, r, 'cercle-circonscrit-propriete'), reponse: r,
         indice: 'Un triangle est rectangle si et seulement s’il est inscrit dans un demi-cercle dont le diamètre est un de ses côtés.',
         explication: `Réponse : ${r}. L’hypoténuse d’un triangle rectangle est un diamètre de son cercle circonscrit.`,
       };

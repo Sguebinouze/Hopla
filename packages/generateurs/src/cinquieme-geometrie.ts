@@ -1,7 +1,7 @@
 // 5e, espace et géométrie : volumes, symétrie centrale, angles et parallélisme, triangles, parallélogrammes.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 45 et 46.
 import { depuisEntier } from './decimaux';
-import { choix, creerGenerateur, fr, frDecimal } from './outils';
+import { choix, creerGenerateur, fr, frDecimal, tous } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 const dec = (n: number, chiffres: number) => frDecimal(depuisEntier(n, chiffres));
@@ -168,6 +168,7 @@ export const anglesParalleles5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Deux droites sont coupées par une sécante. Deux angles ${type} mesurent ${x}° et ${y}°. Les deux droites sont-elles parallèles ?`,
       options: a.melanger(['Oui', 'Non', 'On ne peut pas savoir']),
+      erreurs: { [egaux ? 'Non' : 'Oui']: 'angles-paralleles-propriete' },
       reponse: egaux ? 'Oui' : 'Non',
       indice: 'Si deux angles alternes-internes (ou correspondants) sont égaux, les droites sont parallèles.',
       explication: egaux
@@ -226,7 +227,7 @@ export const triangles5e = creerGenerateur({
     const autres = ['une hauteur', 'une médiane', 'une médiatrice', 'une bissectrice'];
     const pieges = r === 'concourantes' ? ['parallèles', 'de même longueur', 'perpendiculaires'] : r === 'du cercle circonscrit' ? ['du triangle', 'de la hauteur', 'du côté le plus long'] : autres.filter((x) => x !== r).slice(0, 3);
     return {
-      gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), reponse: r,
+      gabarit: 'qcm', consigne: q, options: a.melanger([r, ...pieges]), erreurs: tous(pieges, r, autres.includes(r) ? 'droites-remarquables-confondues' : 'propriete-figure'), reponse: r,
       indice: 'Hauteur : angle droit. Médiane : milieu du côté opposé. Médiatrice : angle droit et milieu.',
       explication: `${q.replace(/ :$/, '')} ${r}.`,
     };
@@ -287,7 +288,8 @@ export const parallelogrammes5e = creerGenerateur({
       const [q, r] = a.choisir(cas);
       return {
         gabarit: 'qcm', consigne: q.replace(' C’est :', ' Quelle est sa nature la plus précise ?'),
-        options: a.melanger(['un rectangle', 'un losange', 'un carré', 'un parallélogramme', 'un trapèze'].filter((x) => x !== r).slice(0, 3).concat(r)),
+        ...((opts) => ({ options: opts, erreurs: tous(opts, r, 'parallelogramme-particulier') }))(
+          a.melanger(['un rectangle', 'un losange', 'un carré', 'un parallélogramme', 'un trapèze'].filter((x) => x !== r).slice(0, 3).concat(r))),
         reponse: r,
         indice: 'Diagonales de même longueur : rectangle. Diagonales perpendiculaires : losange. Les deux : carré.',
         explication: `${q.replace(/\. C’est :$/, '')} : c’est ${r}. On ne peut pas en dire plus.`,

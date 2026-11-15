@@ -1,6 +1,6 @@
 // 5e, vocabulaire : préfixes et suffixes, registres de langue, relations de sens entre les mots.
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 27 et 28.
-import { creerGenerateur, erreursDe } from './outils';
+import { creerGenerateur, erreursDe, tous } from './outils';
 
 // ─────────── Préfixes et suffixes les plus fréquents
 
@@ -61,6 +61,7 @@ export const affixes5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Dans « ${exemple} », que signifie le préfixe ${prefixe} ?`,
         options: a.melanger([sens, ...pieges]),
+        erreurs: tous(pieges, sens, 'sens-prefixe'),
         reponse: sens,
         indice: 'Pense à d’autres mots qui commencent par le même préfixe.',
         explication: `Le préfixe ${prefixe} signifie « ${sens} », comme dans « ${exemple} ».`,
@@ -72,6 +73,7 @@ export const affixes5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Dans « ${exemple} », quel est le sens du suffixe ${suffixe} ?`,
         options: a.melanger([sens, ...pieges]),
+        erreurs: tous(pieges, sens, 'sens-suffixe'),
         reponse: sens,
         indice: 'Le suffixe se trouve à la fin du mot. Il change souvent la classe du mot.',
         explication: `Le suffixe ${suffixe} signifie « ${sens} », comme dans « ${exemple} ».`,

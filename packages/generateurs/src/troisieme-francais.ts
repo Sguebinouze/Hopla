@@ -51,7 +51,7 @@ export const emphase3e = creerGenerateur({
     const [phrase, procede] = a.choisir(EMPHASES.filter((e) => niveaux(d).includes(e[2])));
     return qcm(a, `« ${phrase} » Quel procédé de mise en relief est utilisé ?`, procede, [PRESENTATIF, TETE, FIN, NEUTRE],
       'Cherche un présentatif « c’est… qui / que », ou un groupe détaché et repris par un pronom.',
-      EXPLICATIONS_EMPHASE[procede]!);
+      EXPLICATIONS_EMPHASE[procede]!, () => 'emphase-confondue');
   },
 });
 
@@ -250,7 +250,7 @@ export const valeursConditionnel3e = creerGenerateur({
     return qcm(a, `Dans « ${phrase} », quelle est la valeur du conditionnel « ${verbe} » ?`, valeur,
       a.melanger(toutes.filter((v) => v !== valeur)).slice(0, 3),
       'Le conditionnel peut situer une action dans le futur d’un passé, ou exprimer une hypothèse, la politesse, une information incertaine, un souhait.',
-      EXPLICATIONS_COND[valeur]!);
+      EXPLICATIONS_COND[valeur]!, () => 'valeur-conditionnel');
   },
 });
 

@@ -1,7 +1,7 @@
 // 5e, nombres et calculs : priorités opératoires, distributivité, divisibilité, nombres relatifs,
 // fractions, puissances (carrés et cubes). Source : programme de mathématiques du cycle 4
 // (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 40 et 41.
-import { choix, creerGenerateur, fr } from './outils';
+import { choix, creerGenerateur, erreursDe, fr, tous } from './outils';
 import { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 
 const pgcd = (x: number, y: number): number => (y === 0 ? Math.abs(x) : pgcd(y, x % y));
@@ -146,6 +146,7 @@ export const divisibilite5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Lequel de ces nombres est divisible par ${diviseur} ?`,
       options: a.melanger([multiple, ...pieges].map(String)),
+      erreurs: tous(pieges.map(String), String(multiple), 'divisibilite-erreur'),
       reponse: String(multiple),
       indice: diviseur === 3 || diviseur === 9 ? `Additionne les chiffres de chaque nombre.` : 'Regarde le chiffre des unités.',
       explication: `${fr(multiple)} est divisible par ${diviseur} car ${regle[diviseur]}.`,
@@ -180,10 +181,13 @@ export const comparerRelatifs5e = creerGenerateur({
     const ecrire = (x: number) => ecrireRelatif(Math.round(x * 10) / 10).replace('.', ',');
     if (d === 2) {
       // Piège principal : comparer les distances à zéro sans tenir compte du signe.
+      const parDistance = liste.reduce((p, q) => ((plusGrand ? Math.abs(q) > Math.abs(p) : Math.abs(q) < Math.abs(p)) ? q : p));
+      const opts = a.melanger(liste.map(ecrire));
       return {
         gabarit: 'qcm',
         consigne: `Quel est le plus ${plusGrand ? 'grand' : 'petit'} de ces nombres ?`,
-        options: a.melanger(liste.map(ecrire)),
+        options: opts,
+        erreurs: erreursDe(opts, ecrire(cible), [[ecrire(parDistance), 'distance-a-zero'], [ecrire(plusGrand ? Math.min(...liste) : Math.max(...liste)), 'plus-grand-plus-petit-confondus']]),
         reponse: ecrire(cible),
         indice: 'Un nombre négatif est plus petit qu’un nombre positif. Entre deux négatifs, le plus petit est le plus loin de zéro.',
         explication: `Rangés dans l’ordre croissant : ${[...liste].sort((x, y) => x - y).map(ecrire).join(' < ')}.`,
@@ -195,6 +199,8 @@ export const comparerRelatifs5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec < ou > : ${ecrire(x)} … ${ecrire(y)}`,
       options: ['<', '>'].concat('='),
+      // Comparer les distances à zéro donne le signe opposé quand les deux nombres sont négatifs ou de signes contraires.
+      erreurs: { [signe === '<' ? '>' : '<']: (Math.abs(x) < Math.abs(y) ? '<' : '>') !== signe ? 'distance-a-zero' : 'signe-comparaison-inverse' },
       reponse: signe,
       indice: 'Place les deux nombres sur une droite graduée : le plus petit est à gauche.',
       explication: `${ecrire(x)} est à ${x < y ? 'gauche' : 'droite'} de ${ecrire(y)} sur la droite graduée. Donc ${ecrire(x)} ${signe} ${ecrire(y)}.`,

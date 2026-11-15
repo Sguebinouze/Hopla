@@ -1,4 +1,5 @@
 import { completerOptions, creerAleatoire } from './aleatoire';
+import { erreursDe } from './outils';
 import type { Generateur } from './types';
 
 const MOINS = '−';
@@ -34,9 +35,11 @@ export const additionRelatifs: Generateur = {
     }
     const r = x + y;
     const reponse = ecrireRelatif(r);
-    const pieges = [x - y, -r, (Math.abs(x) + Math.abs(y)) * Math.sign(x)].map(ecrireRelatif);
+    // Soustraire au lieu d'ajouter ; signe du résultat inversé. Le troisième piège (distances à zéro ajoutées) coïncide
+    // toujours avec l'un des deux autres ou avec la réponse : il n'a pas de code propre.
+    const pieges: [string, string?][] = [[ecrireRelatif(x - y), 'soustraction-relatifs'], [ecrireRelatif(-r), 'regle-signes'], [ecrireRelatif((Math.abs(x) + Math.abs(y)) * Math.sign(x))]];
     const options = a.melanger(
-      completerOptions([reponse, ...pieges], 4, () => ecrireRelatif(r + a.entier(-5, 5))),
+      completerOptions([reponse, ...pieges.map(([p]) => p)], 4, () => ecrireRelatif(r + a.entier(-5, 5))),
     );
     const sens = y > 0 ? `avancer de ${y} vers la droite` : `reculer de ${-y} vers la gauche`;
     return {
@@ -46,6 +49,7 @@ export const additionRelatifs: Generateur = {
       consigne: `Calcule : ${ecrireTerme(x)} + ${ecrireTerme(y)}`,
       visuel: { type: 'droite', min: Math.min(x, r) - 2, max: Math.max(x, r) + 2, depart: x, saut: y },
       options,
+      erreurs: erreursDe(options, reponse, pieges),
       reponse,
       indice: `Place-toi sur ${ecrireRelatif(x)} sur la droite graduée.`,
       explication: `Place-toi sur ${ecrireRelatif(x)}. Ajouter ${ecrireTerme(y)}, c'est ${sens}. On arrive à ${reponse}.`,

@@ -193,6 +193,7 @@ export const reconnaitreProportionnalite5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `${contexte} Est-ce une situation de proportionnalité ?`,
       options: a.melanger(['Oui', 'Non', 'On ne peut pas savoir']),
+      erreurs: { [proportionnel ? 'Non' : 'Oui']: 'proportionnalite-non-verifiee' },
       reponse: proportionnel ? 'Oui' : 'Non',
       indice: 'Calcule chaque quotient : deuxième ligne ÷ première ligne.',
       explication: proportionnel
