@@ -15,7 +15,7 @@
         "extrait": "La notion de fraction irréductible est introduite."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PUIS-51",
@@ -30,7 +30,7 @@
         "extrait": "Les puissances de base quelconque d’exposants négatifs sont introduites"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PUIS-52",
@@ -45,7 +45,7 @@
         "extrait": "utilisées pour simplifier des quotients."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIT-51",
@@ -60,7 +60,7 @@
         "extrait": "La double distributivité est abordée."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIT-52",
@@ -75,7 +75,7 @@
         "extrait": "La factorisation d’une expression du type a2 - b2 permet de résoudre des équations produits se ramenant au premier degré"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-EQ-51",
@@ -90,7 +90,7 @@
         "extrait": "permet de résoudre des équations produits se ramenant au premier degré"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-RAC-51",
@@ -105,7 +105,7 @@
         "extrait": "équations du type x2 = a en lien avec la racine carrée"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-STAT-51",
@@ -120,7 +120,7 @@
         "extrait": "Un indicateur de dispersion est introduit : l’étendue."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PROBA-51",
@@ -135,7 +135,7 @@
         "extrait": "Les dénombrements s’appuient alors uniquement sur des tableaux à double entrée, la notion d’arbre ne figurant pas au programme."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-PCT-51",
@@ -150,7 +150,7 @@
         "extrait": "Le lien est fait entre taux d’évolution et coefficient multiplicateur"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-FONC-51",
@@ -165,7 +165,7 @@
         "extrait": "Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-LIN-51",
@@ -180,7 +180,7 @@
         "extrait": "ainsi qu’entre la proportionnalité et les fonctions linéaires."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-AFF-51",
@@ -195,7 +195,7 @@
         "extrait": "Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-BOULE-51",
@@ -210,7 +210,7 @@
         "extrait": "La formule donnant le volume d’une boule est utilisée."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-SECT-51",
@@ -225,7 +225,7 @@
         "extrait": "Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-THAL-51",
@@ -240,7 +240,7 @@
         "extrait": "Le théorème de Thalès et sa réciproque dans la configuration du papillon sont énoncés et utilisés"
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-TRIG-51",
@@ -255,7 +255,7 @@
         "extrait": "Les lignes trigonométriques (cosinus, sinus, tangente) dans le triangle rectangle sont utilisées pour calculer des longueurs ou des angles."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-SEMB-51",
@@ -270,7 +270,7 @@
         "extrait": "Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     },
     {
       "id": "MA-C4-3E-HOM-51",
@@ -285,7 +285,7 @@
         "extrait": "Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif)."
       },
       "prerequis": [],
-      "statut": "a_verifier"
+      "statut": "verifie"
     }
   ]
 }
