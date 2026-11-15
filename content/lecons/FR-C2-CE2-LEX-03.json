@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-LEX-03",
+  "exemple": "La voiture, l’automobile, le véhicule.",
+  "regle": "Un **synonyme** a un sens proche. Un **mot générique** regroupe plusieurs mots. On les utilise pour éviter les répétitions.",
+  "piege": "Un synonyme doit garder le sens de la phrase.",
+  "essai": {
+    "consigne": "Quel est un synonyme de « content » ?",
+    "options": [
+      "joyeux",
+      "triste",
+      "grand"
+    ],
+    "reponse": "joyeux",
+    "explication": "« Joyeux » a un sens proche de « content »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

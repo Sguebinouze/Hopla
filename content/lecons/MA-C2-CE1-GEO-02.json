@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-GEO-02",
+  "exemple": "Un rectangle a quatre angles droits. Ses côtés opposés sont égaux.",
+  "regle": "Un **angle droit** est comme le coin d’une feuille. Un angle plus petit est **aigu**. Un angle plus ouvert est **obtus**.",
+  "piege": "Le carré a aussi quatre angles droits.",
+  "essai": {
+    "consigne": "Un triangle a un angle droit. Comment s’appelle-t-il ?",
+    "options": [
+      "un triangle rectangle",
+      "un rectangle",
+      "un carré"
+    ],
+    "reponse": "un triangle rectangle",
+    "explication": "Un triangle qui a un angle droit est un triangle rectangle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

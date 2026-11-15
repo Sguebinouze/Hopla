@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-NUM-03",
+  "exemple": "49 < 53. Du plus petit au plus grand : 18, 21, 26.",
+  "regle": "Pour **comparer**, regarde d’abord les **dizaines**. Si elles sont égales, regarde les unités. La pointe du signe < montre le plus petit.",
+  "piege": "49 a un 9. Pourtant 53 est plus grand : 5 dizaines, c’est plus.",
+  "essai": {
+    "consigne": "Complète : 62 … 58",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "reponse": ">",
+    "explication": "6 dizaines, c’est plus que 5 dizaines. Donc 62 > 58."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

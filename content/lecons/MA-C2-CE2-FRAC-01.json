@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-FRAC-01",
+  "exemple": "Une barre est coupée en 4 parts égales. 3 parts sont coloriées : 3/4.",
+  "regle": "Le **dénominateur** dit en combien de parts égales on coupe. Le **numérateur** dit combien de parts on prend.",
+  "piege": "Les parts doivent être égales, sinon ce n’est pas une fraction.",
+  "essai": {
+    "consigne": "Une pizza a 8 parts égales. On en mange 3. Quelle fraction ?",
+    "options": [
+      "3/8",
+      "8/3",
+      "5/8"
+    ],
+    "reponse": "3/8",
+    "explication": "On coupe en 8, on prend 3 : trois huitièmes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

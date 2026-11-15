@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GM-01",
+  "exemple": "3 cm + 4 mm = 30 mm + 4 mm = 34 mm.",
+  "regle": "1 km = 1 000 m. 1 m = 100 cm. 1 cm = 10 mm. Pour **convertir**, écris tout dans la même unité.",
+  "piege": "Pour comparer 1 m et 90 cm, écris 1 m = 100 cm.",
+  "essai": {
+    "consigne": "Combien font 4 m ?",
+    "options": [
+      "400 cm",
+      "40 cm",
+      "4 000 cm"
+    ],
+    "reponse": "400 cm",
+    "explication": "1 m = 100 cm. Donc 4 m = 400 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

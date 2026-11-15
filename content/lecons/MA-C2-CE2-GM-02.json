@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GM-02",
+  "exemple": "3 kg = 3 000 g. 780 cL = 7 L et 80 cL.",
+  "regle": "1 kg = 1 000 g. 1 t = 1 000 kg. 1 L = 10 dL = 100 cL.",
+  "piege": "Un litre ne fait pas 1 000 cL, mais 100 cL.",
+  "essai": {
+    "consigne": "Combien font 2 L ?",
+    "options": [
+      "200 cL",
+      "20 cL",
+      "2 000 cL"
+    ],
+    "reponse": "200 cL",
+    "explication": "1 L = 100 cL. Donc 2 L = 200 cL."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-LONG-01",
+  "exemple": "Une trousse mesure environ 20 cm. 1 m 46 cm = 146 cm.",
+  "regle": "On mesure en **centimètres**, en **mètres** et en **kilomètres**. 1 m = 100 cm. 1 km = 1 000 m.",
+  "piege": "Pour comparer, écris les deux longueurs dans la même unité.",
+  "essai": {
+    "consigne": "Combien font 2 m 5 cm ?",
+    "options": [
+      "205 cm",
+      "25 cm",
+      "250 cm"
+    ],
+    "reponse": "205 cm",
+    "explication": "2 m = 200 cm. 200 + 5 = 205 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

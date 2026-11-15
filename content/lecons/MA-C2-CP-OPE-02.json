@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-OPE-02",
+  "exemple": "45 + 37 : 5 + 7 = 12. On écrit 2 et on retient 1.",
+  "regle": "On pose les nombres en **colonnes** : unités sous les unités. On commence par les unités. Dix unités font une **retenue**.",
+  "piege": "N’oublie pas d’ajouter la retenue avec les dizaines.",
+  "essai": {
+    "consigne": "Combien fait 28 + 14 ?",
+    "options": [
+      "42",
+      "32",
+      "312"
+    ],
+    "reponse": "42",
+    "explication": "8 + 4 = 12 : on écrit 2, on retient 1. 2 + 1 + 1 = 4. Résultat : 42."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

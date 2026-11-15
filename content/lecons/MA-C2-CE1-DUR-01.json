@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-DUR-01",
+  "exemple": "Un quart d’heure et une demi-heure : 15 + 30 = 45 minutes.",
+  "regle": "1 heure = 60 minutes. Une **demi-heure**, c’est 30 minutes. Un **quart d’heure**, c’est 15 minutes.",
+  "piege": "Une heure ne fait pas 100 minutes, mais 60.",
+  "essai": {
+    "consigne": "Combien de minutes dans trois quarts d’heure ?",
+    "options": [
+      "45",
+      "30",
+      "75"
+    ],
+    "reponse": "45",
+    "explication": "Un quart d’heure, c’est 15 minutes. 15 + 15 + 15 = 45."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

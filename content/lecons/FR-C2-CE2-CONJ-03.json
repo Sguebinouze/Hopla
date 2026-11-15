@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-CONJ-03",
+  "exemple": "Nous avons joué. Elle est allée au parc.",
+  "regle": "Le **passé composé** a deux mots. D’abord **avoir** ou **être**, puis le participe passé.",
+  "piege": "Avec être, le participe s’accorde : elle est allée, ils sont partis.",
+  "essai": {
+    "consigne": "Complète : elles … au parc.",
+    "options": [
+      "sont allées",
+      "ont allé",
+      "sont allé"
+    ],
+    "reponse": "sont allées",
+    "explication": "Aller se conjugue avec être. Elles : on accorde avec -es."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

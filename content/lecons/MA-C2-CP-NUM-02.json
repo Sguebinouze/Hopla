@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-NUM-02",
+  "exemple": "35 s’écrit trente-cinq. 41 s’écrit quarante-et-un.",
+  "regle": "On écrit les **dizaines**, puis les **unités**. Un trait d’union les relie.",
+  "piege": "Pour 21, 31, 41, on écrit « et un » : vingt-et-un.",
+  "essai": {
+    "consigne": "Comment s’écrit 28 en lettres ?",
+    "options": [
+      "vingt-huit",
+      "deux-huit",
+      "huit-vingt"
+    ],
+    "reponse": "vingt-huit",
+    "explication": "28, c’est 2 dizaines et 8 unités : vingt-huit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

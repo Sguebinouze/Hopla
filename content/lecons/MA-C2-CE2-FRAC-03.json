@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-FRAC-03",
+  "exemple": "5/12 < 7/12. 5/12 < 5/8.",
+  "regle": "Même **dénominateur** : la plus grande a le plus grand numérateur. Même **numérateur** : les parts plus petites font moins.",
+  "piege": "1/8 est plus petit que 1/4 : on coupe en plus de parts.",
+  "essai": {
+    "consigne": "Complète : 2/5 … 4/5",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "reponse": "<",
+    "explication": "Même nombre de parts : 2 parts, c’est moins que 4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

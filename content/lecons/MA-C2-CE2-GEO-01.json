@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GEO-01",
+  "exemple": "Un cube a 6 faces carrées, 8 sommets et 12 arêtes.",
+  "regle": "Le **cube** et le **pavé** ont 6 faces et 8 sommets. Ils ont 12 arêtes. Une **pyramide** a des faces triangulaires.",
+  "piege": "Les faces du pavé sont des rectangles, celles du cube des carrés.",
+  "essai": {
+    "consigne": "Combien de sommets a un pavé ?",
+    "options": [
+      "8",
+      "6",
+      "12"
+    ],
+    "reponse": "8",
+    "explication": "Le pavé a 8 sommets, comme le cube."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

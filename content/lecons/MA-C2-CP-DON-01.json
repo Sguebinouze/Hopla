@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-DON-01",
+  "exemple": "Fraise 12, banane 8 : la fraise a 4 réponses de plus.",
+  "regle": "Un **tableau** range des résultats. Lis la ligne qui t’intéresse. Compare les nombres pour trouver le plus ou le moins.",
+  "piege": "« Combien de plus » se calcule avec une soustraction.",
+  "essai": {
+    "consigne": "Chats 9, chiens 5. Combien d’élèves en tout ?",
+    "options": [
+      "14",
+      "4",
+      "9"
+    ],
+    "reponse": "14",
+    "explication": "En tout, on ajoute : 9 + 5 = 14."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

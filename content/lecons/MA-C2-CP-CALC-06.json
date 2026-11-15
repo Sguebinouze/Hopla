@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-CALC-06",
+  "exemple": "47 + 28 : 40 + 20 = 60, puis 7 + 8 = 15. 60 + 15 = 75.",
+  "regle": "Pour ajouter deux nombres, ajoute les **dizaines**, puis les **unités**. Réunis les deux résultats.",
+  "piege": "Pour 50 − 6, pense à 10 − 6 = 4. Cela fait 44.",
+  "essai": {
+    "consigne": "Combien fait 30 − 4 ?",
+    "options": [
+      "26",
+      "34",
+      "24"
+    ],
+    "reponse": "26",
+    "explication": "10 − 4 = 6. Donc 30 − 4 = 26."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-ORTH-02",
+  "exemple": "Un cheval, des chevaux. Un bijou, des bijoux.",
+  "regle": "Au pluriel, on ajoute souvent **-s**. Les mots en -al font souvent **-aux**. Certains mots en -ou prennent **-x**.",
+  "piege": "Bijou, caillou, chou, genou, hibou, joujou, pou prennent un x.",
+  "essai": {
+    "consigne": "Quel est le pluriel de « journal » ?",
+    "options": [
+      "journaux",
+      "journals",
+      "journales"
+    ],
+    "reponse": "journaux",
+    "explication": "Les mots en -al font souvent -aux : des journaux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

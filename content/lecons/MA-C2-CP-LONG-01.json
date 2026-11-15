@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-LONG-01",
+  "exemple": "Une trousse mesure environ 20 cm. Une porte mesure environ 2 m.",
+  "regle": "On mesure les longueurs en **mètres** (m) et en **centimètres** (cm). Un mètre, c’est cent centimètres.",
+  "piege": "Pose bien le 0 de la règle au début de l’objet.",
+  "essai": {
+    "consigne": "Quelle est la longueur d’un crayon ?",
+    "options": [
+      "15 cm",
+      "15 m",
+      "150 m"
+    ],
+    "reponse": "15 cm",
+    "explication": "Un crayon est plus petit qu’une règle : environ 15 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

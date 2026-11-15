@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-OPE-02",
+  "exemple": "548 × 16 = 548 × 6 + 548 × 10.",
+  "regle": "Pour **multiplier par un nombre à deux chiffres**, commence par les unités. Puis multiplie par les dizaines et ajoute.",
+  "piege": "La ligne des dizaines commence par un zéro.",
+  "essai": {
+    "consigne": "Combien font 23 × 4 ?",
+    "options": [
+      "92",
+      "82",
+      "27"
+    ],
+    "reponse": "92",
+    "explication": "20 × 4 = 80 et 3 × 4 = 12. 80 + 12 = 92."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

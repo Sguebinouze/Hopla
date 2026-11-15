@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-GRAM-01",
+  "exemple": "« Le chat dort. » commence par une majuscule et finit par un point.",
+  "regle": "Une **phrase** commence par une **majuscule**. Elle finit par un **point**. Une question finit par un point d’interrogation.",
+  "piege": "Une ligne qui finit n’est pas forcément une phrase finie. Cherche le point.",
+  "essai": {
+    "consigne": "Quelle phrase est bien écrite ?",
+    "options": [
+      "Léo joue au ballon.",
+      "léo joue au ballon.",
+      "Léo joue au ballon"
+    ],
+    "reponse": "Léo joue au ballon.",
+    "explication": "Elle commence par une majuscule et finit par un point."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

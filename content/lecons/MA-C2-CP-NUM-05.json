@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-NUM-05",
+  "exemple": "Dans la file Léa, Tom, Sami, Sami est le troisième.",
+  "regle": "Les **nombres ordinaux** donnent un rang : premier, deuxième, troisième. On compte depuis le début de la file.",
+  "piege": "On dit « premier », pas « unième ».",
+  "essai": {
+    "consigne": "Dans la liste 4, 8, 12, 16, quel est le deuxième nombre ?",
+    "options": [
+      "8",
+      "4",
+      "12"
+    ],
+    "reponse": "8",
+    "explication": "Premier : 4. Deuxième : 8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

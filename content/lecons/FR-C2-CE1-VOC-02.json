@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-VOC-02",
+  "exemple": "Visible, invisible. Ranger, déranger.",
+  "regle": "Les préfixes **in-** et **dé-** donnent souvent le contraire. Devant m, b ou p, in- devient **im-** : possible, impossible.",
+  "piege": "Tous les mots en « dé » ne sont pas des contraires : « décider ».",
+  "essai": {
+    "consigne": "Quel est le contraire de « coller » ?",
+    "options": [
+      "décoller",
+      "incoller",
+      "recoller"
+    ],
+    "reponse": "décoller",
+    "explication": "Le préfixe dé- donne le contraire : décoller."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

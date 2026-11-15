@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-TEMPS-01",
+  "exemple": "Petite aiguille sur le 3. Grande aiguille sur le 12. Il est 3 heures.",
+  "regle": "La **petite aiguille** montre l’heure. Pour une heure entière, la **grande aiguille** est sur le 12.",
+  "piege": "Ne lis pas la grande aiguille : elle ne donne pas l’heure.",
+  "essai": {
+    "consigne": "La petite aiguille est sur le 7. La grande est sur le 12. Quelle heure est-il ?",
+    "options": [
+      "7 heures",
+      "12 heures",
+      "19 heures"
+    ],
+    "reponse": "7 heures",
+    "explication": "La petite aiguille montre 7. Il est 7 heures."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-NUM-04",
+  "exemple": "23, 33, 43, 53 : on compte de 10 en 10.",
+  "regle": "Compter de **10 en 10**, c’est ajouter une dizaine. Le chiffre des unités ne change pas. De **2 en 2**, on saute un nombre.",
+  "piege": "À rebours, on recule : 52, 51, 50, 49.",
+  "essai": {
+    "consigne": "Quel nombre vient après 37, 47, 57 ?",
+    "options": [
+      "67",
+      "58",
+      "60"
+    ],
+    "reponse": "67",
+    "explication": "On ajoute une dizaine à chaque fois. 57 + 10 = 67."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

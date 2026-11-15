@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-GEO-01",
+  "exemple": "Une boite à chaussures a la forme d’un pavé. Un dé a la forme d’un cube.",
+  "regle": "Le **cube** a 6 faces carrées. Le **pavé** a 6 faces rectangulaires. La boule roule partout.",
+  "piege": "Le cylindre roule aussi, mais il a deux faces plates.",
+  "essai": {
+    "consigne": "Combien de faces a un cube ?",
+    "options": [
+      "6",
+      "4",
+      "8"
+    ],
+    "reponse": "6",
+    "explication": "Un cube a 6 faces, toutes carrées."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-PB-02",
+  "exemple": "29 enfants. 12 descendent, 7 montent : 29 − 12 + 7 = 24.",
+  "regle": "Un problème en **deux étapes** se fait en deux calculs. Fais le premier calcul. Utilise son résultat pour le second.",
+  "piege": "La question porte sur la fin. Fais bien les deux calculs.",
+  "essai": {
+    "consigne": "Il y a 10 oiseaux. 4 partent, puis 3 arrivent. Combien y en a-t-il ?",
+    "options": [
+      "9",
+      "13",
+      "3"
+    ],
+    "reponse": "9",
+    "explication": "10 − 4 = 6. Puis 6 + 3 = 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

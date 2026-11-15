@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-LECT-02",
+  "exemple": "« Chocolat », c’est cho - co - lat. On tape trois fois dans les mains.",
+  "regle": "Une **syllabe**, c’est un morceau de mot qu’on dit d’un coup. Tape dans tes mains à chaque syllabe. Compte les coups.",
+  "piege": "Le e muet final ne compte pas. « Lune » a une syllabe.",
+  "essai": {
+    "consigne": "Combien de syllabes dans « papillon » ?",
+    "options": [
+      "3",
+      "2",
+      "4"
+    ],
+    "reponse": "3",
+    "explication": "On dit pa - pi - llon : trois syllabes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

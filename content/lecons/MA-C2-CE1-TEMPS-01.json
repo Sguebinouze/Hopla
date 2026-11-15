@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-TEMPS-01",
+  "exemple": "Deux heures et quart de l’après-midi : l’horloge digitale affiche 14 h 15.",
+  "regle": "Grande aiguille sur le 3 : **et quart**. Sur le 6 : **et demie**. L’après-midi, on ajoute 12 aux heures.",
+  "piege": "À 3 heures et demie, la petite aiguille est après le 3.",
+  "essai": {
+    "consigne": "Il est 5 heures du soir. Que montre l’horloge digitale ?",
+    "options": [
+      "17 h 00",
+      "5 h 00",
+      "15 h 00"
+    ],
+    "reponse": "17 h 00",
+    "explication": "Le soir, on ajoute 12. 5 + 12 = 17."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

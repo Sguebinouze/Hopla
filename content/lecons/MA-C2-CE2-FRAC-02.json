@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-FRAC-02",
+  "exemple": "Des parts deux fois plus petites, deux fois plus de parts. Donc 6/8 = 3/4.",
+  "regle": "Deux fractions sont **égales** si elles représentent la même part. On multiplie le haut et le bas par le même nombre.",
+  "piege": "On n’ajoute pas le même nombre en haut et en bas.",
+  "essai": {
+    "consigne": "Quelle fraction est égale à 1/2 ?",
+    "options": [
+      "3/6",
+      "2/3",
+      "1/4"
+    ],
+    "reponse": "3/6",
+    "explication": "1 × 3 = 3 et 2 × 3 = 6. Donc 1/2 = 3/6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

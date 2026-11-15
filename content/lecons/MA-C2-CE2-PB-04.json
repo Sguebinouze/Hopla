@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-PB-04",
+  "exemple": "Le casque coute 32 €. La trottinette coute 4 fois plus : 4 × 32 = 128 €.",
+  "regle": "**« Fois plus »** se calcule avec une multiplication. **« De plus »** se calcule avec une addition.",
+  "piege": "4 fois plus, ce n’est pas 4 de plus.",
+  "essai": {
+    "consigne": "Tom a 6 ans. Son père a 5 fois plus. Quel âge a son père ?",
+    "options": [
+      "30 ans",
+      "11 ans",
+      "35 ans"
+    ],
+    "reponse": "30 ans",
+    "explication": "5 fois plus : 5 × 6 = 30 ans."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

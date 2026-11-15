@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-NUM-03",
+  "exemple": "6 234 < 6 239. 4 618 est entre 4 610 et 4 620.",
+  "regle": "Pour **comparer**, regarde d’abord les milliers. S’ils sont égaux, regarde les centaines, puis les dizaines.",
+  "piege": "Compare toujours chiffre à chiffre, en partant de la gauche.",
+  "essai": {
+    "consigne": "Complète : 3 512 … 3 498",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "reponse": ">",
+    "explication": "Même nombre de milliers. 5 centaines, c’est plus que 4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

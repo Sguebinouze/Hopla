@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-PB-01",
+  "exemple": "Léa a 53 euros. Elle achète un livre à 7 euros. Il lui reste 46 euros.",
+  "regle": "Lis l’histoire. Cherche si on **ajoute** ou si on **retire**. Puis calcule.",
+  "piege": "Le mot « reste » ne veut pas toujours dire soustraction. Relis bien.",
+  "essai": {
+    "consigne": "Tom a 12 billes. Il en gagne 5. Combien en a-t-il ?",
+    "options": [
+      "17",
+      "7",
+      "12"
+    ],
+    "reponse": "17",
+    "explication": "Il gagne des billes : on ajoute. 12 + 5 = 17."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

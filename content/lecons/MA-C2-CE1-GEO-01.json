@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-GEO-01",
+  "exemple": "Une boite à chaussures a la forme d’un pavé. Un dé est un cube.",
+  "regle": "Un solide a des **faces**, des **arêtes** et des **sommets**. Le cube a 6 faces, 12 arêtes et 8 sommets.",
+  "piege": "Une arête est un bord. Un sommet est un coin.",
+  "essai": {
+    "consigne": "Combien d’arêtes a un pavé ?",
+    "options": [
+      "12",
+      "6",
+      "8"
+    ],
+    "reponse": "12",
+    "explication": "Comme le cube, le pavé a 12 arêtes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

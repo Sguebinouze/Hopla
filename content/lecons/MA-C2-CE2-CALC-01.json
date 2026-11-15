@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-CALC-01",
+  "exemple": "6 × 7 = 42. Donc 42 = 6 × 7.",
+  "regle": "Une **table de multiplication** se lit dans les deux sens. 6 × 7 et 7 × 6 donnent le même résultat.",
+  "piege": "Pour 9 × 7, pense à 10 × 7 = 70, puis retire 7.",
+  "essai": {
+    "consigne": "Complète : 8 × … = 56",
+    "options": [
+      "7",
+      "6",
+      "48"
+    ],
+    "reponse": "7",
+    "explication": "8 × 7 = 56. Le nombre manquant est 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

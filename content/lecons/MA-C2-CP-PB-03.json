@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-PB-03",
+  "exemple": "3 paquets de 7 biscuits : 7 + 7 + 7 = 21 biscuits.",
+  "regle": "Pour des **paquets pareils**, on ajoute plusieurs fois le même nombre. Pour **partager**, on fait des parts égales.",
+  "piege": "3 paquets de 7, ce n’est pas 3 + 7.",
+  "essai": {
+    "consigne": "Il y a 4 boites de 5 crayons. Combien de crayons en tout ?",
+    "options": [
+      "20",
+      "9",
+      "45"
+    ],
+    "reponse": "20",
+    "explication": "5 + 5 + 5 + 5 = 20 crayons."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

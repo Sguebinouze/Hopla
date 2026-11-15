@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-CALC-03",
+  "exemple": "10 × 724 = 7 240. Chaque unité devient une dizaine.",
+  "regle": "Multiplier par **10**, c’est rendre chaque chiffre dix fois plus grand. Par **100**, cent fois plus grand.",
+  "piege": "Ne dis pas « on ajoute un zéro » : pense aux rangs des chiffres.",
+  "essai": {
+    "consigne": "Combien font 36 × 100 ?",
+    "options": [
+      "3 600",
+      "360",
+      "136"
+    ],
+    "reponse": "3 600",
+    "explication": "Les unités deviennent des centaines : 3 600."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

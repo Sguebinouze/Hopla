@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-LEX-02",
+  "exemple": "Observation, observer, observable : un nom, un verbe, un adjectif.",
+  "regle": "Les mots d’une **famille** ont une partie commune. Ils peuvent être de classes différentes.",
+  "piege": "La partie commune doit garder le même sens. « Mer » et « merci » ne vont pas ensemble.",
+  "essai": {
+    "consigne": "Quel mot est de la famille de « fleur » ?",
+    "options": [
+      "fleuriste",
+      "flamme",
+      "feuille"
+    ],
+    "reponse": "fleuriste",
+    "explication": "Le fleuriste vend des fleurs. On retrouve « fleur »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-OPE-03",
+  "exemple": "7 × 13 = 91. Donc 91 ÷ 7 = 13 et 91 ÷ 13 = 7.",
+  "regle": "La **division** défait la multiplication. Pour 42 ÷ 6, cherche le nombre qui, multiplié par 6, donne 42.",
+  "piege": "On ne peut pas inverser les nombres d’une division.",
+  "essai": {
+    "consigne": "Combien font 35 ÷ 5 ?",
+    "options": [
+      "7",
+      "30",
+      "40"
+    ],
+    "reponse": "7",
+    "explication": "5 × 7 = 35. Donc 35 ÷ 5 = 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

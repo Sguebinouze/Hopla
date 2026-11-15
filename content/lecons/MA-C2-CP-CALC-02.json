@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-CALC-02",
+  "exemple": "Le double de 4 est 8. La moitié de 8 est 4.",
+  "regle": "Le **double**, c’est deux fois le nombre. La **moitié**, c’est partager en deux parts égales.",
+  "piege": "Le double de 40, ce n’est pas 42 : c’est 40 + 40 = 80.",
+  "essai": {
+    "consigne": "Quelle est la moitié de 14 ?",
+    "options": [
+      "7",
+      "28",
+      "12"
+    ],
+    "reponse": "7",
+    "explication": "7 + 7 = 14. La moitié de 14 est 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

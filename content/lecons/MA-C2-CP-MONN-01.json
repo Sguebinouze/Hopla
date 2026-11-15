@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-MONN-01",
+  "exemple": "3 billets de 10 € et 4 pièces de 1 € font 34 €.",
+  "regle": "Compte d’abord les **billets**, puis les **pièces**. Ajoute tout.",
+  "piege": "Un billet de 10 € vaut dix pièces de 1 €.",
+  "essai": {
+    "consigne": "Combien font 2 billets de 10 € et 3 pièces de 1 € ?",
+    "options": [
+      "23 €",
+      "5 €",
+      "32 €"
+    ],
+    "reponse": "23 €",
+    "explication": "10 + 10 = 20. Puis 20 + 3 = 23 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

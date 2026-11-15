@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-CALC-02",
+  "exemple": "2 × 150 = 300. 3 × 25 = 75. 60 = 4 × 15.",
+  "regle": "Certains résultats sont à **connaitre par cœur**. Par exemple, les doubles, les moitiés et les multiples de 25.",
+  "piege": "La moitié de 150 n’est pas 70 : c’est 75.",
+  "essai": {
+    "consigne": "Combien font 4 × 25 ?",
+    "options": [
+      "100",
+      "75",
+      "125"
+    ],
+    "reponse": "100",
+    "explication": "25 + 25 + 25 + 25 = 100."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

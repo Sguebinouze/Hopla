@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-PB-01",
+  "exemple": "Une ville a 3 817 habitants. 1 292 arrivent. 3 817 + 1 292 = 5 109.",
+  "regle": "Lis l’histoire. Cherche si on **ajoute**, si on **retire** ou si on **compare**. Puis calcule.",
+  "piege": "« Combien de plus » se calcule avec une soustraction.",
+  "essai": {
+    "consigne": "Un livre a 1 250 pages. Léa en a lu 800. Combien en reste-t-il ?",
+    "options": [
+      "450",
+      "2 050",
+      "1 050"
+    ],
+    "reponse": "450",
+    "explication": "On retire ce qui est lu : 1 250 − 800 = 450."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

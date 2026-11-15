@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-CALC-05",
+  "exemple": "4 + … = 12 se complète avec 8. 10 = 7 + 3.",
+  "regle": "Une **table d’addition** se lit dans les deux sens. Entraine-toi vite : quinze égalités en une minute.",
+  "piege": "Pour 8 + 7, pense à 8 + 2 = 10, puis ajoute 5.",
+  "essai": {
+    "consigne": "Complète : … + 6 = 13",
+    "options": [
+      "7",
+      "19",
+      "6"
+    ],
+    "reponse": "7",
+    "explication": "7 + 6 = 13. Le nombre manquant est 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

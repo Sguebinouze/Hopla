@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-PB-03",
+  "exemple": "6 dictionnaires coutent 72 €. 6 × 12 = 72, donc un dictionnaire coute 12 €.",
+  "regle": "Repère ce qu’on connait : le **tout**, la **part** ou les **parts**. Puis multiplie ou divise.",
+  "piege": "Pour trouver une part, on divise le tout.",
+  "essai": {
+    "consigne": "24 bonbons sont partagés entre 4 enfants. Combien chacun en a-t-il ?",
+    "options": [
+      "6",
+      "20",
+      "28"
+    ],
+    "reponse": "6",
+    "explication": "24 ÷ 4 = 6 bonbons chacun."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

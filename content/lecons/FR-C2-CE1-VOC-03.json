@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-VOC-03",
+  "exemple": "Celui qui chante est un chanteur. Un parapluie protège de la pluie.",
+  "regle": "Un mot peut être formé d’un autre. **-eur** et **-euse** disent qui fait l’action. **Para-** veut dire « contre ».",
+  "piege": "Les métiers finissent souvent par -ier ou -er : le pâtissier, le boulanger.",
+  "essai": {
+    "consigne": "Comment appelle-t-on celui qui danse ?",
+    "options": [
+      "un danseur",
+      "un dansier",
+      "une danse"
+    ],
+    "reponse": "un danseur",
+    "explication": "Avec -eur, on dit qui fait l’action : un danseur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

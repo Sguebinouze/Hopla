@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-GRAM-03",
+  "exemple": "Jean ferme la porte. Jean ne ferme pas la porte.",
+  "regle": "À la **forme négative**, on entoure le verbe avec **ne… pas**. Devant une voyelle, ne devient n’.",
+  "piege": "À l’écrit, n’oublie jamais le « ne ».",
+  "essai": {
+    "consigne": "Quelle phrase est à la forme négative ?",
+    "options": [
+      "Il ne mange pas.",
+      "Il mange pas.",
+      "Il ne pas mange."
+    ],
+    "reponse": "Il ne mange pas.",
+    "explication": "« Ne » et « pas » entourent le verbe : il ne mange pas."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

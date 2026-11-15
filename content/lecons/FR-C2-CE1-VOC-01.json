@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-VOC-01",
+  "exemple": "Aliment, fruit, pomme : on va du plus général au plus précis.",
+  "regle": "Un **mot général** regroupe plusieurs mots. « Fruit » regroupe pomme, poire et cerise. La pomme est un fruit précis.",
+  "piege": "« Animal » est plus général que « chien ». Le chien est un animal.",
+  "essai": {
+    "consigne": "Quel mot regroupe : rose, tulipe, marguerite ?",
+    "options": [
+      "fleurs",
+      "arbres",
+      "fruits"
+    ],
+    "reponse": "fleurs",
+    "explication": "La rose, la tulipe et la marguerite sont des fleurs."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

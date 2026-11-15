@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GM-04",
+  "exemple": "2 h 20 min = 140 min. De 15 h 40 à 16 h 05, il passe 25 minutes.",
+  "regle": "1 h = 60 min. Pour calculer une **durée**, va jusqu’à l’heure ronde. Puis ajoute le reste.",
+  "piege": "Une heure fait 60 minutes, pas 100.",
+  "essai": {
+    "consigne": "Combien de minutes dans 1 h 30 min ?",
+    "options": [
+      "90",
+      "130",
+      "60"
+    ],
+    "reponse": "90",
+    "explication": "1 h = 60 min. 60 + 30 = 90 minutes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

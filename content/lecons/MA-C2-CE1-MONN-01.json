@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-MONN-01",
+  "exemple": "2 € et 5 centimes s’écrit 2,05 €.",
+  "regle": "1 € = 100 **centimes**. Après la virgule, on écrit toujours **deux chiffres** pour les centimes.",
+  "piege": "2,5 € veut dire 2 € et 50 centimes, pas 5 centimes.",
+  "essai": {
+    "consigne": "Comment écrit-on 3 € et 8 centimes ?",
+    "options": [
+      "3,08 €",
+      "3,8 €",
+      "38 €"
+    ],
+    "reponse": "3,08 €",
+    "explication": "8 centimes s’écrit 08 après la virgule : 3,08 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

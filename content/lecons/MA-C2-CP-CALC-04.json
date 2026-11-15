@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-CALC-04",
+  "exemple": "74 + 6 = 80, car 4 + 6 = 10.",
+  "regle": "Pour aller à la **dizaine suivante**, regarde les unités. Cherche ce qui manque pour faire 10.",
+  "piege": "Pour aller de 70 à 80, il manque 10. Mais de 73 à 80, il manque 7.",
+  "essai": {
+    "consigne": "Complète : 38 + … = 40",
+    "options": [
+      "2",
+      "12",
+      "8"
+    ],
+    "reponse": "2",
+    "explication": "8 + 2 = 10. Donc 38 + 2 = 40."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

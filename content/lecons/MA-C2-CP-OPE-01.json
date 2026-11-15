@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-OPE-01",
+  "exemple": "32 + 15 = 47, donc 47 − 15 = 32.",
+  "regle": "La **soustraction** défait l’addition. Si on ajoute 15 puis on retire 15, on revient au départ.",
+  "piege": "Dans une soustraction, on n’inverse pas les deux nombres.",
+  "essai": {
+    "consigne": "On sait que 20 + 6 = 26. Combien fait 26 − 6 ?",
+    "options": [
+      "20",
+      "32",
+      "6"
+    ],
+    "reponse": "20",
+    "explication": "On retire ce qu’on avait ajouté : on revient à 20."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

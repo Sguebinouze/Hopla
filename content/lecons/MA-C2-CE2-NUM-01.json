@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-NUM-01",
+  "exemple": "4 635, c’est 4 milliers, 6 centaines, 3 dizaines et 5 unités.",
+  "regle": "Chaque chiffre a une **valeur** selon sa place. Un **millier**, c’est 10 centaines.",
+  "piege": "Dans 4 635, il y a 46 centaines en tout.",
+  "essai": {
+    "consigne": "Combien d’unités vaut le chiffre 7 dans 7 204 ?",
+    "options": [
+      "7 000",
+      "700",
+      "7"
+    ],
+    "reponse": "7 000",
+    "explication": "Le 7 est au rang des milliers : il vaut 7 000."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

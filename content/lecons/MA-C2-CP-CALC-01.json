@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-CALC-01",
+  "exemple": "4 + 8 = 12. Donc 4 + … = 12 se complète avec 8.",
+  "regle": "Une **table d’addition** se lit dans les deux sens. Si tu sais 7 + 3 = 10, tu sais aussi 10 = 7 + 3.",
+  "piege": "Pour 9 + 5, pense à 10 + 5, puis enlève 1.",
+  "essai": {
+    "consigne": "Complète : 6 + … = 10",
+    "options": [
+      "4",
+      "16",
+      "5"
+    ],
+    "reponse": "4",
+    "explication": "6 + 4 = 10. Le nombre manquant est 4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

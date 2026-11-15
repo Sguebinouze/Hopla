@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-VOC-01",
+  "exemple": "Chanter et chanteur sont de la même famille. Dormir et dormeur aussi.",
+  "regle": "Les mots d’une même **famille** se ressemblent. Ils ont un morceau commun et parlent de la même chose.",
+  "piege": "Attention aux faux amis. « Chat » et « chapeau » ne sont pas de la même famille.",
+  "essai": {
+    "consigne": "Quel mot est de la famille de « jardin » ?",
+    "options": [
+      "jardinier",
+      "jaune",
+      "jardin public"
+    ],
+    "reponse": "jardinier",
+    "explication": "Le jardinier travaille dans le jardin. Les deux mots ont « jardin »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

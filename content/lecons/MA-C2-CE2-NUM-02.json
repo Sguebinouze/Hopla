@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-NUM-02",
+  "exemple": "4 635 s’écrit quatre-mille-six-cent-trente-cinq.",
+  "regle": "On lit les **milliers**, puis les **centaines**, puis le reste. On relie tous les mots par des traits d’union.",
+  "piege": "« Mille » ne prend jamais de s.",
+  "essai": {
+    "consigne": "Comment s’écrit 2 300 en lettres ?",
+    "options": [
+      "deux-mille-trois-cents",
+      "deux-milles-trois-cents",
+      "deux-mille-trente"
+    ],
+    "reponse": "deux-mille-trois-cents",
+    "explication": "Mille reste invariable. Cent prend un s : trois-cents."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

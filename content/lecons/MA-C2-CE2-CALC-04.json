@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-CALC-04",
+  "exemple": "4 × 37 : 2 × 37 = 74, puis 2 × 74 = 148.",
+  "regle": "Pour **ajouter 9**, ajoute 10 puis retire 1. Pour **multiplier par 4**, prends le double du double.",
+  "piege": "Pour 23 × 7, calcule 20 × 7, puis 3 × 7, et ajoute.",
+  "essai": {
+    "consigne": "Combien font 45 + 19 ?",
+    "options": [
+      "64",
+      "54",
+      "65"
+    ],
+    "reponse": "64",
+    "explication": "45 + 20 = 65. On retire 1 : 64."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

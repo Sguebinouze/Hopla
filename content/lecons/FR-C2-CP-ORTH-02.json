@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-ORTH-02",
+  "exemple": "On écrit « lampe » avec un m. On écrit « poisson » avec ss.",
+  "regle": "Devant **m, b ou p**, on écrit m : lampe, jambe. Entre deux voyelles, **s** fait le son « z ». **ss** fait le son « s ».",
+  "piege": "Poison et poisson ne se disent pas pareil : poi-zon, poi-sson.",
+  "essai": {
+    "consigne": "Quel mot est bien écrit ?",
+    "options": [
+      "chambre",
+      "chanbre",
+      "chamre"
+    ],
+    "reponse": "chambre",
+    "explication": "Il y a un b après : on écrit m. On écrit donc « chambre »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

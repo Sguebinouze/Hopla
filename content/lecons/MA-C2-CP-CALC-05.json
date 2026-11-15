@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-CALC-05",
+  "exemple": "47 + 8 : on va à 50 avec 3, puis on ajoute 5. Cela fait 55.",
+  "regle": "Pour ajouter un petit nombre, passe par la **dizaine**. Pour **ajouter 9**, ajoute 10 puis retire 1.",
+  "piege": "37 + 9 ne fait pas 39 : on ajoute 9 en tout.",
+  "essai": {
+    "consigne": "Combien fait 26 + 9 ?",
+    "options": [
+      "35",
+      "36",
+      "29"
+    ],
+    "reponse": "35",
+    "explication": "26 + 10 = 36. On retire 1 : 35."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

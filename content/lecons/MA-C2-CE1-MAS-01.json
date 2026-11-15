@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-MAS-01",
+  "exemple": "Un paquet de sucre pèse 1 kg. 1 kg 300 g = 1 300 g.",
+  "regle": "On mesure les masses en **grammes** et en **kilogrammes**. 1 kg = 1 000 g.",
+  "piege": "Un objet gros n’est pas toujours lourd : un ballon est léger.",
+  "essai": {
+    "consigne": "Combien font 2 kg ?",
+    "options": [
+      "2 000 g",
+      "200 g",
+      "20 g"
+    ],
+    "reponse": "2 000 g",
+    "explication": "1 kg = 1 000 g. Donc 2 kg = 2 000 g."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

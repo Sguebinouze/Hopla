@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-GRAM-01",
+  "exemple": "Dans « Léa court très vite. », « très » et « vite » sont des adverbes.",
+  "regle": "Le **nom** désigne. Le **verbe** dit l’action. L’**adjectif** décrit le nom. L’**adverbe** précise le verbe ou l’adjectif.",
+  "piege": "Un nom propre commence par une majuscule : Léa, Paris.",
+  "essai": {
+    "consigne": "Dans « Le chat noir dort. », quelle est la classe de « noir » ?",
+    "options": [
+      "adjectif",
+      "nom",
+      "verbe"
+    ],
+    "reponse": "adjectif",
+    "explication": "« Noir » décrit le chat : c’est un adjectif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

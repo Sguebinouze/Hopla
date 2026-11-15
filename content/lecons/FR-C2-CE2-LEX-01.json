@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-LEX-01",
+  "exemple": "Immobile veut dire pas mobile. Défaire, c’est le contraire de faire.",
+  "regle": "Un **préfixe** se place au début du mot. **In-**, **dé-** et **mal-** donnent souvent le sens contraire.",
+  "piege": "Re- veut dire « encore » : refaire, relire.",
+  "essai": {
+    "consigne": "Que veut dire « malheureux » ?",
+    "options": [
+      "pas heureux",
+      "très heureux",
+      "encore heureux"
+    ],
+    "reponse": "pas heureux",
+    "explication": "Le préfixe mal- donne le contraire : pas heureux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

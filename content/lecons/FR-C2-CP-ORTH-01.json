@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-ORTH-01",
+  "exemple": "On écrit « chat » avec un t. Pourquoi ? Pense à « chaton ».",
+  "regle": "Une **lettre muette** s’écrit mais ne s’entend pas. Pour la trouver, cherche un mot de la même famille. Dans « chaton », on entend le t.",
+  "piege": "Certaines lettres finales s’entendent. On entend le l de « bol ».",
+  "essai": {
+    "consigne": "Quelle lettre muette finit le mot « gran… » ? Pense à « grande ».",
+    "options": [
+      "d",
+      "t",
+      "s"
+    ],
+    "reponse": "d",
+    "explication": "On entend le d dans « grande ». On écrit donc « grand »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

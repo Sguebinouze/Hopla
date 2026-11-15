@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-NUM-01",
+  "exemple": "3 dizaines et 5 unités, c’est 35. Et 35 = 30 + 5.",
+  "regle": "Une **dizaine**, c’est un paquet de 10. Dans 35, le 3 compte les dizaines. Le 5 compte les unités.",
+  "piege": "35 et 53, ce n’est pas pareil. L’ordre des chiffres compte.",
+  "essai": {
+    "consigne": "Quel nombre a 4 dizaines et 7 unités ?",
+    "options": [
+      "47",
+      "74",
+      "11"
+    ],
+    "reponse": "47",
+    "explication": "4 dizaines, c’est 40. 40 + 7 = 47."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GM-03",
+  "exemple": "Deux euros et cinq centimes s’écrit 2,05 €.",
+  "regle": "Après la virgule, deux chiffres donnent les **centimes**. 100 centimes font 1 €. Pour **rendre la monnaie**, complète jusqu’au billet donné.",
+  "piege": "1,5 € veut dire 1 € et 50 centimes.",
+  "essai": {
+    "consigne": "Un livre coute 7 €. Tu donnes 10 €. Combien te rend-on ?",
+    "options": [
+      "3 €",
+      "17 €",
+      "7 €"
+    ],
+    "reponse": "3 €",
+    "explication": "De 7 à 10, il manque 3. On te rend 3 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

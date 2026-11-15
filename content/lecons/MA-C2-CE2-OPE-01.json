@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-OPE-01",
+  "exemple": "La somme de 3 721 et 4 054 est 7 775. La différence entre 60 et 37 est 23.",
+  "regle": "La **somme** est le résultat d’une addition. La **différence** est le résultat d’une soustraction. On pose en colonnes, rang sous rang.",
+  "piege": "Dans une soustraction posée, n’oublie pas les retenues.",
+  "essai": {
+    "consigne": "Quelle est la différence entre 52 et 18 ?",
+    "options": [
+      "34",
+      "44",
+      "70"
+    ],
+    "reponse": "34",
+    "explication": "52 − 18 = 34."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

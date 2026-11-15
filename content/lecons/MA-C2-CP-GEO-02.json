@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CP-GEO-02",
+  "exemple": "Un triangle a 3 côtés et 3 sommets.",
+  "regle": "Le **carré** a 4 côtés de même longueur. Le **rectangle** a 4 côtés, deux longs et deux courts. Le triangle a 3 côtés.",
+  "piege": "Un carré tourné reste un carré.",
+  "essai": {
+    "consigne": "Combien de sommets a un rectangle ?",
+    "options": [
+      "4",
+      "3",
+      "2"
+    ],
+    "reponse": "4",
+    "explication": "Un rectangle a 4 côtés et 4 sommets."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
