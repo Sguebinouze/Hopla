@@ -34,11 +34,13 @@
 ## Prochaines étapes, par ordre
 
 Session VS Code (français et maths) :
-1. **Codes d'erreur** : renseigner `erreurs` (option piège → code kebab-case) dans les générateurs QCM où le piège correspond à une erreur connue (fractions, décimaux, accords, homophones…), et un dictionnaire `ERREURS` (code → libellé court pour le parent, 60 caractères au plus) exporté par `@hopla/generateurs`. L'espace parent l'affichera à la place du libellé automatique.
-2. **Compétence CE2 manquante** : « tables d'addition dans les deux sens » (BO n°41, p. 22, objectif 15 égalités en une minute), pour le défi de fluence CE2.
-3. **Leçons de français et de maths** : 262 notions sans leçon (CP à 3e). Format et exemples dans `content/lecons/` (43 notions CE1 et 6e déjà faites), règles de rédaction du cycle vérifiées par `pnpm content:check`. Statut `brouillon`, auteur `ia`.
+- Fait le 15 novembre 2026 : codes d'erreur (107 générateurs, 169 codes, dictionnaire `ERREURS` exporté par `@hopla/generateurs`, test `erreurs.test.ts`), compétence CE2 « tables d'addition » (MA-C2-CE2-CALC-05, générateur `tables-addition-ce2`, défi de fluence), leçons de toutes les notions de français et de maths du CP à la 3e.
+1. **Programme 2020 de 4e et de 3e**, encore en vigueur selon le calendrier : il faut d'abord archiver les « Repères annuels de progression » du cycle 4 (`eduscol-reperes-attendus`), car le BO n°31 de 2020 ne répartit pas les notions par année. Identifiants prévus : numéros 51 à 99.
+2. **Codes d'erreur restants** : 92 générateurs QCM sans code (classements, comparaisons, nombres en lettres…), à qualifier quand un piège correspond à une erreur connue. Outils : `choix`, `erreursDe`, `confusionTemps`, `erreurLongueurDecimale` (`outils.ts`, `erreurs.ts`).
+3. **Leçons de la littérature de 6e**, une fois les compétences ajoutées par la session cloud.
 
 Session cloud (app et autres matières) :
+0. Espace parent : afficher `ERREURS[code]` à la place de `libelleErreur(code)` quand le libellé existe.
 1. Littérature de 6e (4 entrées du programme) : la session cloud ajoute ces compétences dans `content/referentiel/FR-C3-2025/6e.json`, la session VS Code n'y touche pas en attendant.
 2. Anglais (CE1 puis 6e), puis autres matières des autres classes.
 3. Leçons des matières autres que français et maths ; page de relecture enrichie des leçons.
