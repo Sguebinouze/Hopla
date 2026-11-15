@@ -2,13 +2,16 @@
 // radicaux verbaux au conditionnel et au subjonctif, homophones lexicaux.
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 29 et 32.
 // Toutes les phrases sont rédigées et annotées à la main. Les pièges sont choisis pour qu'une seule option convienne.
-import { creerGenerateur } from './outils';
+import { creerGenerateur, erreursDe } from './outils';
 
 const niveaux = (d: number) => (d === 1 ? [1] : d === 2 ? [1, 2] : [2, 3]);
 type Niveau = 1 | 2 | 3;
-const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string) => ({
-  gabarit: 'qcm' as const, consigne, options: a.melanger([reponse, ...pieges.filter((p, i, t) => p !== reponse && t.indexOf(p) === i)]), reponse, indice, explication,
-});
+/** QCM à options rédigées ; `code` qualifie un piège qui révèle une erreur typique (voir `ERREURS`). */
+const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string,
+  code?: (piege: string) => string | undefined) => {
+  const options = a.melanger([reponse, ...pieges.filter((p, i, t) => p !== reponse && t.indexOf(p) === i)]);
+  return { gabarit: 'qcm' as const, consigne, options, reponse, indice, explication, erreurs: erreursDe(options, reponse, code ? options.map((o) => [o, code(o)] as const) : []) };
+};
 
 // ─────────── Connecteurs logiques
 
@@ -43,7 +46,7 @@ export const connecteurs3e = creerGenerateur({
     const [phrase, connecteur, relation, pieges] = a.choisir(CONNECTEURS.filter((c) => niveaux(d).includes(c[4])));
     return qcm(a, `Complète avec le connecteur logique qui convient : ${phrase}`, connecteur, pieges,
       'Demande-toi quel lien unit les deux parties : cause, conséquence, opposition, ajout ou exemple.',
-      `Le lien entre les deux propositions exprime ${relation} : « ${connecteur} » convient.`);
+      `Le lien entre les deux propositions exprime ${relation} : « ${connecteur} » convient.`, () => 'connecteur-relation-logique');
   },
 });
 
@@ -76,7 +79,7 @@ export const connotation3e = creerGenerateur({
     return qcm(a, `Ces mots désignent ${sens} : ${a.melanger(mots).join(', ')}. Lequel a une connotation ${cible === 'neutre' ? 'neutre, sans jugement' : cible} ?`,
       reponse, mots,
       'Tous ont le même sens (la dénotation). Cherche celui qui ajoute un jugement positif, négatif, ou aucun jugement.',
-      `« ${pejoratif} » est péjoratif, il dévalorise. ${melioratif ? `« ${melioratif} » est mélioratif, il valorise. « ${neutre} » est neutre.` : `« ${neutre} » et « ${neutre2} » sont neutres.`}`);
+      `« ${pejoratif} » est péjoratif, il dévalorise. ${melioratif ? `« ${melioratif} » est mélioratif, il valorise. « ${neutre} » est neutre.` : `« ${neutre} » et « ${neutre2} » sont neutres.`}`, () => 'connotation-confondue');
   },
 });
 
@@ -151,7 +154,8 @@ export const radicaux3e = creerGenerateur({
     const [phrase, infinitif, forme, pieges, regle] = a.choisir(RADICAUX.filter((r) => niveaux(d).includes(r[5])));
     return qcm(a, `Complète avec le verbe « ${infinitif} » : ${phrase}`, forme, pieges,
       'Repère le mode demandé par la phrase (condition : conditionnel ; « il faut que » : subjonctif), puis le radical du verbe.',
-      `${regle[0]!.toUpperCase()}${regle.slice(1)}. On écrit : ${phrase.replace('…', forme)}`);
+      `${regle[0]!.toUpperCase()}${regle.slice(1)}. On écrit : ${phrase.replace('…', forme)}`,
+      (p) => (/yi/.test(p) && !/yi/.test(forme) ? 'subjonctif-yi' : forme.includes('rr') && p === forme.replace('rr', 'r') ? 'radical-r-double' : undefined));
   },
 });
 
@@ -193,6 +197,6 @@ export const homophonesLexicaux3e = creerGenerateur({
     const [phrase, mot, pieges, sens] = a.choisir(HOMOPHONES.filter((h) => niveaux(d).includes(h[4])));
     return qcm(a, `Complète avec le mot qui convient : ${phrase}`, mot, pieges,
       'Ces mots se prononcent de la même façon : c’est le sens de la phrase qui décide.',
-      `Le sens attendu ici : ${sens}. On écrit donc « ${mot} ».`);
+      `Le sens attendu ici : ${sens}. On écrit donc « ${mot} ».`, () => 'homophone-lexical');
   },
 });

@@ -1,7 +1,7 @@
 // CE2, grandeurs et mesures : longueurs, masses, contenances, monnaie, durées.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 29-31.
 // Pas d'écriture à virgule pour les longueurs, masses et contenances, pas de tableau de conversion.
-import { creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, fr, options, qte } from './outils';
 import type { Aleatoire } from './outils';
 
 const TROU = '…';
@@ -109,7 +109,7 @@ export const monnaieCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Comment écrit-on ${e} euro${e > 1 ? 's' : ''} et ${c} centime${c > 1 ? 's' : ''} ?`,
-        options: options(a, reponse, [euros(e * 100 + inverse), `${fr(e * 100 + c)} €`, euros((e + 1) * 100 + c)], secours(e * 100 + c)),
+        ...choix(a, reponse, [[euros(e * 100 + inverse), 'centimes-rang'], [`${fr(e * 100 + c)} €`, 'centimes-comptes-en-euros'], [euros((e + 1) * 100 + c)]], secours(e * 100 + c)),
         reponse,
         indice: 'Après la virgule, il y a toujours deux chiffres pour les centimes.',
         explication: `${c} centime${c > 1 ? 's' : ''} s’écrit ${String(c).padStart(2, '0')} après la virgule. La réponse est ${reponse}.`,
@@ -126,7 +126,7 @@ export const monnaieCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule : ${euros(x)} + ${terme}`,
-        options: options(a, euros(total), [euros(sansRetenue), euros(total + 100), euros(total - 10)], secours(total)),
+        ...choix(a, euros(total), [[euros(sansRetenue), 'retenue-oubliee'], [euros(total + 100)], [euros(total - 10)]], secours(total)),
         reponse: euros(total),
         indice: '100 centimes font 1 €.',
         explication: `On ajoute les centimes, puis les euros. 100 centimes font 1 €. Le total est ${euros(total)}.`,

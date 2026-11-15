@@ -1,6 +1,6 @@
 // CP, lecture, vocabulaire et étude de la langue, sans audio.
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024).
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, options } from './outils';
 
 const TROU = '…';
 
@@ -336,11 +336,11 @@ export const genreNombreCp = creerGenerateur({
       };
     }
     const reponse = gn(`${masc}s`, `${adj}s`);
-    const pieges = [gn(masc, `${adj}s`), gn(`${masc}s`, adj), gn(masc, adj)];
+    const pieges: [string, string][] = [[gn(masc, `${adj}s`), 'accord-nom'], [gn(`${masc}s`, adj), 'accord-adjectif'], [gn(masc, adj), 'pluriel-oublie']];
     return {
       gabarit: 'qcm',
       consigne: `Écris au pluriel : un ${gn(masc, adj)}, des ${TROU}`,
-      options: options(a, reponse, pieges, () => gn(masc, adj)),
+      ...choix(a, reponse, pieges, () => gn(masc, adj)),
       reponse,
       indice: 'Au pluriel, le nom prend un s. Le mot qui va avec aussi.',
       explication: `Le nom et l’adjectif prennent un s. On écrit : des ${reponse}.`,
@@ -462,7 +462,7 @@ export const etreAvoirCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Complète avec le verbe ${verbe} : ${majuscule(phrase)}`,
-      options: options(a, forme, a.melanger(table).slice(0, 3), () => a.choisir(table)),
+      ...choix(a, forme, a.melanger(table).slice(0, 3).map((x): [string, string] => [x, 'accord-personne']), () => a.choisir(table)),
       reponse: forme,
       indice: `Récite le verbe ${verbe} au présent.`,
       explication: `Avec « ${d === 3 ? sujet : debut.trim()} », le verbe ${verbe} s’écrit « ${forme} ». ${majuscule(`${debut}${forme} ${suite}`)}.`,

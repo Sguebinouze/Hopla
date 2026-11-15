@@ -3,13 +3,16 @@
 // verbes pronominaux, homophones des conjonctions, polysémie, degrés d'intensité.
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 28, 31 et 32.
 // Toutes les phrases sont rédigées et annotées à la main.
-import { creerGenerateur } from './outils';
+import { creerGenerateur, erreursDe } from './outils';
 
 /** Corpus par niveau : d1 → niveau 1 ; d2 → niveaux 1 et 2 ; d3 → niveaux 2 et 3. */
 const niveaux = (d: number) => (d === 1 ? [1] : d === 2 ? [1, 2] : [2, 3]);
-const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string) => ({
-  gabarit: 'qcm' as const, consigne, options: a.melanger([reponse, ...pieges]), reponse, indice, explication,
-});
+/** QCM à options rédigées ; `code` qualifie un piège qui révèle une erreur typique (voir `ERREURS`). */
+const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string,
+  code?: (piege: string) => string | undefined) => {
+  const options = a.melanger([reponse, ...pieges]);
+  return { gabarit: 'qcm' as const, consigne, options, reponse, indice, explication, erreurs: erreursDe(options, reponse, code ? options.map((o) => [o, code(o)] as const) : []) };
+};
 
 // ─────────── Subordonnants : pronom relatif ou conjonction de subordination
 
@@ -47,7 +50,8 @@ export const subordonnants4e = creerGenerateur({
       'Un pronom relatif reprend un nom (son antécédent) et a une fonction. Une conjonction de subordination ne remplace rien.',
       nature === 'pronom relatif'
         ? `« ${mot} » reprend un nom placé avant lui (son antécédent) : c’est un pronom relatif.`
-        : `« ${mot} » ne remplace aucun nom : il relie la subordonnée à la principale. C’est une conjonction de subordination.`);
+        : `« ${mot} » ne remplace aucun nom : il relie la subordonnée à la principale. C’est une conjonction de subordination.`,
+      (p) => (/^(pronom relatif|conjonction de subordination)$/.test(p) ? 'relatif-conjonction-confondus' : undefined));
   },
 });
 
@@ -218,6 +222,7 @@ export const tempsComposes4e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${sujet}${aux} ${pp} » : à quel temps ce verbe est-il conjugué ?`,
       options: a.melanger(noms),
+      erreurs: erreursDe(noms, temps, noms.map((n) => [n, 'auxiliaire-temps-confondu'] as const)),
       reponse: temps,
       indice: 'Le temps de l’auxiliaire donne le nom du temps composé.',
       explication: `L’auxiliaire « ${aux} » est ${tempsAux[temps]} : le verbe est au ${temps}.`,
@@ -266,7 +271,8 @@ export const voixPassive4e = creerGenerateur({
     return qcm(a, `« ${active} » Quelle est la phrase passive correspondante, au même temps ?`, passive,
       [tempsChange, sansAccord, autre[1]].filter((x, i, t) => x !== passive && t.indexOf(x) === i).slice(0, 3),
       'Le COD devient sujet ; on conjugue être au temps du verbe actif, puis on ajoute le participe passé accordé et le complément d’agent.',
-      `Le COD devient sujet, être est au même temps que le verbe actif, le participe s’accorde : ${passive}`);
+      `Le COD devient sujet, être est au même temps que le verbe actif, le participe s’accorde : ${passive}`,
+      (p) => (p === tempsChange ? 'passif-temps-change' : p === sansAccord ? 'accord-participe-passif' : undefined));
   },
 });
 
@@ -297,7 +303,8 @@ export const subjonctif4e = creerGenerateur({
     const lie = /^(il|ils|elle|on)$/.test(sujet) ? `${amorce.replace(/que$/, 'qu’')}${sujet}` : `${amorce} ${sujet}`;
     return qcm(a, `Complète avec le verbe « ${infinitif} » : ${lie} …`, forme, pieges,
       `« ${amorce} » est suivi du subjonctif.`,
-      `« ${amorce} » impose le subjonctif. ${infinitif[0]!.toUpperCase()}${infinitif.slice(1)} au subjonctif présent avec « ${personne} » : ${forme}.`);
+      `« ${amorce} » impose le subjonctif. ${infinitif[0]!.toUpperCase()}${infinitif.slice(1)} au subjonctif présent avec « ${personne} » : ${forme}.`,
+      (p) => (/(rais|rait|rions|riez|raient)$/.test(p) ? 'conditionnel-au-lieu-subjonctif' : 'indicatif-au-lieu-subjonctif'));
   },
 });
 
@@ -331,13 +338,15 @@ export const participesPasses4e = creerGenerateur({
       const [infinitif, pp, pieges, feminin] = a.choisir(d === 1 ? PARTICIPES.slice(0, 9) : PARTICIPES);
       return qcm(a, `Quel est le participe passé masculin singulier de « ${infinitif} » ?`, pp, pieges,
         'Mets le participe au féminin : la consonne finale muette s’entend alors.',
-        feminin === pp ? `Le participe passé de « ${infinitif} » est « ${pp} » ; il est invariable.` : `On dit « ${feminin} » au féminin, donc on écrit « ${pp} » au masculin.`);
+        feminin === pp ? `Le participe passé de « ${infinitif} » est « ${pp} » ; il est invariable.` : `On dit « ${feminin} » au féminin, donc on écrit « ${pp} » au masculin.`,
+        () => 'participe-terminaison');
     }
     const [phrase, infinitif, forme] = a.choisir(PHRASES_PP);
     const masculin = PARTICIPES.find((p) => p[0] === infinitif)![1];
     return qcm(a, `Complète avec le participe passé de « ${infinitif} » : ${phrase}`, forme, [masculin, `${masculin}s`, `${forme}s`],
       'Avec avoir, le participe s’accorde avec le COD placé avant le verbe.',
-      `Le COD placé avant est féminin singulier : on écrit « ${forme} ». On entend alors la consonne finale.`);
+      `Le COD placé avant est féminin singulier : on écrit « ${forme} ». On entend alors la consonne finale.`,
+      (p) => (p === masculin ? 'accord-cod-avant-oublie' : 'accord-pp-genre-nombre'));
   },
 });
 
@@ -364,7 +373,8 @@ export const accordsComplexes4e = creerGenerateur({
     const [phrase, infinitif, forme, pieges] = a.choisir(ACCORDS_4E.filter((x) => niveaux(d).includes(x[4])));
     return qcm(a, `Complète avec « ${infinitif} » au présent : ${phrase}`, forme, pieges,
       '« Qui » prend la personne de son antécédent. Plusieurs personnes : moi l’emporte (nous), puis toi (vous).',
-      `${/qui/.test(phrase) ? 'Le pronom relatif « qui » a la personne de son antécédent.' : 'Le sujet réunit plusieurs personnes.'} On écrit : ${phrase.replace('…', forme)}`);
+      `${/qui/.test(phrase) ? 'Le pronom relatif « qui » a la personne de son antécédent.' : 'Le sujet réunit plusieurs personnes.'} On écrit : ${phrase.replace('…', forme)}`,
+      () => (/qui/.test(phrase) ? 'accord-relatif-qui' : 'accord-sujets-multiples'));
   },
 });
 
@@ -399,7 +409,7 @@ export const pronominaux4e = creerGenerateur({
     const [phrase, infinitif, forme, pieges, explication] = PRONOMINAUX[a.choisir(tranches[d - 1]!)]!;
     return qcm(a, `Complète avec le participe passé de « ${infinitif} » : ${phrase}`, forme, pieges,
       'Cherche si « se » est COD, COI, ou si un autre COD suit le verbe.',
-      `${explication} On écrit : ${phrase.replace('…', forme)}`);
+      `${explication} On écrit : ${phrase.replace('…', forme)}`, () => 'accord-pronominal');
   },
 });
 
@@ -431,7 +441,7 @@ export const homophones4e = creerGenerateur({
   generer(a, d) {
     const tranches = [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4, 5, 6, 9, 10, 13], [5, 6, 9, 10, 7, 8, 11, 12, 13]];
     const [phrase, forme, pieges, explication] = HOMOPHONES[a.choisir(tranches[d - 1]!)]!;
-    return qcm(a, `Complète : ${phrase}`, forme, pieges, 'Remplace le mot par un autre de même nature pour vérifier.', `${explication} On écrit : ${phrase.replace('…', forme)}`);
+    return qcm(a, `Complète : ${phrase}`, forme, pieges, 'Remplace le mot par un autre de même nature pour vérifier.', `${explication} On écrit : ${phrase.replace('…', forme)}`, () => 'homophone-grammatical');
   },
 });
 

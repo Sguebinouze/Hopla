@@ -1,6 +1,6 @@
 // 5e, vocabulaire : préfixes et suffixes, registres de langue, relations de sens entre les mots.
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 27 et 28.
-import { creerGenerateur } from './outils';
+import { creerGenerateur, erreursDe } from './outils';
 
 // ─────────── Préfixes et suffixes les plus fréquents
 
@@ -125,6 +125,7 @@ export const registres5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `À quel registre de langue appartient « ${triple[r]} » ?`,
         options: [...REGISTRE],
+        erreurs: erreursDe(REGISTRE, REGISTRE[r]!, REGISTRE.map((x) => [x, 'registre-langue-confondu'] as const)),
         reponse: REGISTRE[r]!,
         indice: 'Familier : entre amis. Courant : la langue de tous les jours. Soutenu : la langue soignée, souvent écrite.',
         explication: `« ${triple[0]} » est familier, « ${triple[1]} » est courant, « ${triple[2]} » est soutenu.`,
@@ -138,6 +139,7 @@ export const registres5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est l’équivalent en registre courant de « ${familier} » ?`,
         options: a.melanger([courant, soutenu, autre]),
+        erreurs: erreursDe([soutenu], courant, [[soutenu, 'registre-langue-confondu']]),
         reponse: courant,
         indice: 'Cherche le mot de même sens qu’on emploie partout, sans être ni relâché ni recherché.',
         explication: `« ${familier} » (familier) se dit « ${courant} » en registre courant et « ${soutenu} » en registre soutenu.`,
@@ -149,6 +151,7 @@ export const registres5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${triple[r]} » À quel registre de langue appartient cette phrase ?`,
       options: [...REGISTRE],
+      erreurs: erreursDe(REGISTRE, REGISTRE[r]!, REGISTRE.map((x) => [x, 'registre-langue-confondu'] as const)),
       reponse: REGISTRE[r]!,
       indice: 'Observe le vocabulaire et la syntaxe : négation complète, inversion du sujet, mots familiers.',
       explication: `Familier : « ${triple[0]} » Courant : « ${triple[1]} » Soutenu : « ${triple[2]} »`,
@@ -185,6 +188,7 @@ export const relationsSens5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quelle relation unit les mots « ${ordre[0]} » et « ${ordre[1]} » ?`,
       options: a.melanger([...NOMS_RELATIONS]),
+      erreurs: erreursDe(NOMS_RELATIONS, relation, NOMS_RELATIONS.map((x) => [x, 'relation-sens-confondue'] as const)),
       reponse: relation,
       indice: 'Synonymes : même sens. Antonymes : sens contraires. Homonymes : même prononciation, sens différents.',
       explication: {

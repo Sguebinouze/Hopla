@@ -2,7 +2,7 @@
 // de la réunion, évolutions en pourcentage, image et antécédent, fonctions linéaires et affines.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 50 à 53.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, fr, qte } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 import { affine } from './troisieme-nombres';
 
@@ -177,7 +177,7 @@ export const evolutionPourcentage3e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Un prix subit ${premiere}, puis ${seconde}. Quelle est l’évolution globale ?`,
-      options: options(a, reponse, [naif, evolution(-p), evolution(p + (p > 0 ? 10 : -10))].filter((o) => o !== reponse), () => evolution(p + a.entier(1, 9))),
+      ...choix(a, reponse, [[naif, 'pourcentages-additionnes'], [evolution(-p), 'hausse-baisse-confondues'], [evolution(p + (p > 0 ? 10 : -10))]], () => evolution(p + a.entier(1, 9))),
       reponse,
       indice: 'Les pourcentages ne s’additionnent pas : on multiplie les coefficients multiplicateurs.',
       explication: `${hausseDabord ? `${depuisEntier(100 + t1, 2)} × ${depuisEntier(100 - t2, 2)}` : `${depuisEntier(100 - t2, 2)} × ${depuisEntier(100 + t1, 2)}`} = ${depuisEntier(produit, 4)}. Le prix est multiplié par ${depuisEntier(produit, 4)} : c’est une ${reponse === 'aucune évolution' ? 'évolution nulle' : reponse}.`,
@@ -225,7 +225,7 @@ export const imageAntecedent3e = creerGenerateur({
         return {
           gabarit: 'qcm',
           consigne: `Tableau de valeurs d’une fonction f. ${tableau} Quelle est l’image de ${ecrireRelatif(cible)} par f ?`,
-          options: options(a, reponse, [antecedent, ys[(xs.indexOf(cible) + 1) % 6], -image].filter((v): v is number => v !== undefined && v !== image).map(ecrireRelatif), () => ecrireRelatif(image + a.entier(10, 20))),
+          ...choix(a, reponse, [[antecedent === undefined ? undefined : ecrireRelatif(antecedent), 'image-antecedent-confondus'], [ys[(xs.indexOf(cible) + 1) % 6] === undefined ? undefined : ecrireRelatif(ys[(xs.indexOf(cible) + 1) % 6]!), 'lecture-tableau-decalee'], [ecrireRelatif(-image)]], () => ecrireRelatif(image + a.entier(10, 20))),
           reponse,
           indice: 'L’image se lit sur la ligne f(x), sous la valeur de x.',
           explication: `Sous x = ${ecrireRelatif(cible)}, on lit f(x) = ${reponse}. L’image de ${ecrireRelatif(cible)} est ${reponse}.`,
@@ -235,7 +235,7 @@ export const imageAntecedent3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Tableau de valeurs d’une fonction f. ${tableau} Quel est l’antécédent de ${ecrireRelatif(cible)} par f ?`,
-        options: options(a, reponse, [image, xs[(xs.indexOf(antecedent) + 1) % 6], -antecedent].filter((v): v is number => v !== undefined && v !== antecedent).map(ecrireRelatif), () => ecrireRelatif(antecedent + a.entier(10, 20))),
+        ...choix(a, reponse, [[ecrireRelatif(image), 'image-antecedent-confondus'], [ecrireRelatif(xs[(xs.indexOf(antecedent) + 1) % 6]!), 'lecture-tableau-decalee'], [ecrireRelatif(-antecedent)]], () => ecrireRelatif(antecedent + a.entier(10, 20))),
         reponse,
         indice: 'Un antécédent se lit sur la ligne x, au-dessus de la valeur cherchée dans la ligne f(x).',
         explication: `On cherche ${ecrireRelatif(cible)} dans la ligne f(x) : il est sous x = ${reponse}. L’antécédent de ${ecrireRelatif(cible)} est ${reponse}.`,
@@ -287,7 +287,7 @@ export const lineaires3e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `f est une fonction linéaire et f(${x0}) = ${yTexte}. Quel est son coefficient ?`,
         // Pièges : quotient inversé, soustraction, signe oublié.
-        options: options(a, cTexte, [decExact(x0 / y0), decExact(y0 - x0), dec(-c)].filter((o): o is string => o !== undefined && o !== cTexte), () => dec(c + a.entier(1, 5))),
+        ...choix(a, cTexte, [[decExact(x0 / y0), 'coefficient-inverse'], [decExact(y0 - x0), 'soustrait-au-lieu-de-diviser'], [dec(-c), 'regle-signes']], () => dec(c + a.entier(1, 5))),
         reponse: cTexte,
         indice: 'f(x) = ax : le coefficient a est le quotient f(x) ÷ x.',
         explication: `a = f(${x0}) ÷ ${x0} = ${yTexte} ÷ ${x0} = ${cTexte}.`,
@@ -326,7 +326,7 @@ export const affines3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `f(x) = ${ecrite}. Quels sont les coefficients a et b, avec f(x) = ax + b ?`,
-        options: options(a, reponse, [coef(b, k), coef(-k, b), coef(k, -b)].filter((o) => o !== reponse), () => coef(k + 1, b)),
+        ...choix(a, reponse, [[coef(b, k), 'coefficients-a-b-inverses'], [coef(-k, b), 'regle-signes'], [coef(k, -b), 'regle-signes']], () => coef(k + 1, b)),
         reponse,
         indice: 'a est le nombre qui multiplie x ; b est le nombre seul.',
         explication: `Le nombre qui multiplie x est ${ecrireRelatif(k)}, le nombre seul est ${ecrireRelatif(b)} : ${reponse}.`,
@@ -339,7 +339,7 @@ export const affines3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `La droite qui représente la fonction affine f passe par les points (0 ; ${ecrireRelatif(b)}) et (${x1} ; ${ecrireRelatif(y1)}). Quel est le coefficient a ?`,
-        options: options(a, reponse, [ecrireRelatif(y1 - b === k ? y1 : y1 - b), ecrireRelatif(b), ecrireRelatif(-k)].filter((o) => o !== reponse), () => ecrireRelatif(k + a.entier(1, 4))),
+        ...choix(a, reponse, [[ecrireRelatif(y1 - b === k ? y1 : y1 - b), 'coefficient-sans-division'], [ecrireRelatif(b), 'ordonnee-origine-pour-coefficient'], [ecrireRelatif(-k), 'regle-signes']], () => ecrireRelatif(k + a.entier(1, 4))),
         reponse,
         indice: 'a = (différence des ordonnées) ÷ (différence des abscisses).',
         explication: `a = (${ecrireRelatif(y1)} − ${ecrireRelatif(b)}) ÷ (${x1} − 0) = ${ecrireRelatif(y1 - b)} ÷ ${x1} = ${reponse}.`.replace(/− (−\d+)/g, '− ($1)'),
@@ -349,11 +349,11 @@ export const affines3e = creerGenerateur({
     const x2 = x1 + a.entier(1, 4);
     const [y1, y2] = [k * x1 + b, k * x2 + b];
     const reponse = expression(k, b);
-    const pieges = [expression(k, y1), expression(-k, b), expression(k, -b)].filter((o) => o !== reponse);
+    const pieges: [string, string][] = [[expression(k, y1), 'ordonnee-origine-pour-coefficient'], [expression(-k, b), 'regle-signes'], [expression(k, -b), 'regle-signes']];
     return {
       gabarit: 'qcm',
       consigne: `f est une fonction affine telle que f(${ecrireRelatif(x1)}) = ${ecrireRelatif(y1)} et f(${ecrireRelatif(x2)}) = ${ecrireRelatif(y2)}. Quelle est son expression ?`,
-      options: options(a, reponse, pieges, () => expression(k + 1, b)),
+      ...choix(a, reponse, pieges, () => expression(k + 1, b)),
       reponse,
       indice: 'Calcule a avec les deux points, puis trouve b en remplaçant x par une valeur connue.',
       explication: `a = (${ecrireRelatif(y2)} − ${par(y1)}) ÷ (${ecrireRelatif(x2)} − ${par(x1)}) = ${ecrireRelatif(y2 - y1)} ÷ ${x2 - x1} = ${ecrireRelatif(k)}. Puis b = ${ecrireRelatif(y1)} − ${par(k)} × ${par(x1)} = ${ecrireRelatif(b)}.`,

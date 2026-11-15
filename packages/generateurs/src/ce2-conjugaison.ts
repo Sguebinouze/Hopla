@@ -1,7 +1,8 @@
 // CE2, conjugaison : présent, imparfait, futur et passé composé de l'indicatif.
 // Être, avoir, verbes du premier groupe et huit verbes du 3e groupe (faire, aller, dire, venir, pouvoir, voir, vouloir, prendre).
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024), p. 22.
-import { creerGenerateur, options } from './outils';
+import { confusionTemps } from './erreurs';
+import { choix, creerGenerateur } from './outils';
 import type { Aleatoire } from './outils';
 
 export const PERSONNES_CE2 = ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles'] as const;
@@ -87,12 +88,12 @@ const devant = (p: Personne, forme: string) => (p === 'je' && voyelle(forme) ? '
 function qcmTemps(a: Aleatoire, verbe: string, temps: Temps, p: Personne, autreTemps: Temps) {
   const liste = formes(verbe, temps);
   const forme = liste[RANG[p]]!;
-  const pieges = [...a.melanger(liste.filter((f) => f !== forme)).slice(0, 2), formes(verbe, autreTemps)[RANG[p]]!];
+  const pieges: [string, string?][] = [...a.melanger(liste.filter((f) => f !== forme)).slice(0, 2).map((f): [string, string] => [f, 'accord-personne']), [formes(verbe, autreTemps)[RANG[p]]!, confusionTemps(temps, autreTemps)]];
   const au = temps === 'imparfait' ? 'à l’imparfait' : `au ${temps}`;
   return {
     gabarit: 'qcm' as const,
     consigne: `Complète avec le verbe ${verbe} ${au} : ${devant(p, forme).trim()} …`,
-    options: options(a, forme, pieges, () => a.choisir(liste)),
+    ...choix(a, forme, pieges, () => a.choisir(liste)),
     reponse: forme,
     indice: IRREGULIERS[verbe] ? `Récite le verbe ${verbe} ${au}.` : 'Regarde le sujet. Il commande la terminaison.',
     explication: `${au.charAt(0).toUpperCase()}${au.slice(1)}, avec « ${p} », on écrit : ${devant(p, forme)}${forme}.`,
@@ -153,7 +154,7 @@ export const passeComposeCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Complète au passé composé avec le verbe ${verbe} : ${p} …`,
-        options: options(a, forme, [...a.melanger(autres).slice(0, 2), `${AVOIR_PRESENT[RANG[p]]} ${base}`], () => `${aux} ${base}`),
+        ...choix(a, forme, [...a.melanger(autres).slice(0, 2).map((x): [string, string] => [x, 'accord-etre']), [`${AVOIR_PRESENT[RANG[p]]} ${base}`, 'auxiliaire-faux']], () => `${aux} ${base}`),
         reponse: forme,
         indice: `Le verbe ${verbe} se conjugue avec être. Regarde le sujet.`,
         explication: `Avec être, le participe s’accorde avec le sujet « ${p} ». On écrit : ${p} ${forme}.`,
@@ -164,12 +165,12 @@ export const passeComposeCe2 = creerGenerateur({
     const p = a.choisir(PERSONNES_CE2);
     const aux = AVOIR_PRESENT[RANG[p]]!;
     const forme = `${aux} ${participe}`;
-    const pieges = [`${aux} ${verbe}`, `${ETRE_PRESENT[RANG[p]]} ${participe}`, `${a.choisir(AVOIR_PRESENT.filter((x) => x !== aux))} ${participe}`];
-    if (d === 1) pieges.push(`${aux} ${participe}s`);
+    const pieges: [string, string][] = [[`${aux} ${verbe}`, 'infinitif-au-lieu-participe'], [`${ETRE_PRESENT[RANG[p]]} ${participe}`, 'auxiliaire-faux'], [`${a.choisir(AVOIR_PRESENT.filter((x) => x !== aux))} ${participe}`, 'accord-personne']];
+    if (d === 1) pieges.push([`${aux} ${participe}s`, 'accord-pp-abusif']);
     return {
       gabarit: 'qcm',
       consigne: `Complète au passé composé avec le verbe ${verbe} : ${devant(p, aux).trim()} …`,
-      options: options(a, forme, pieges, () => `${a.choisir(AVOIR_PRESENT)} ${participe}`),
+      ...choix(a, forme, pieges, () => `${a.choisir(AVOIR_PRESENT)} ${participe}`),
       reponse: forme,
       indice: 'Le passé composé : l’auxiliaire avoir, puis le participe passé.',
       explication: `Avoir au présent, puis le participe passé « ${participe} ». On écrit : ${devant(p, aux)}${forme}.`,

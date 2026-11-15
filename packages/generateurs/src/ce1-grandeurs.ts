@@ -1,7 +1,7 @@
 // CE1, grandeurs et mesures : longueurs, masses, monnaie, heures, durées.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 27 à 29.
 // Pas d'écriture à virgule pour les longueurs et les masses ; la virgule n'apparait qu'avec la monnaie.
-import { creerGenerateur, fr, options, qte } from './outils';
+import { choix, creerGenerateur, fr, options, qte } from './outils';
 import type { Aleatoire } from './outils';
 
 const TROU = '…';
@@ -210,11 +210,11 @@ export const monnaieCe1 = creerGenerateur({
       }
       const reponse = eurosCentimes(e, c);
       // Pièges : couper le nombre au mauvais endroit, oublier de convertir.
-      const pieges = [`${qte(Math.floor(total / 10), 'euro')} et ${qte(total % 10, 'centime')}`, `${qte(total, 'euro')}`, `${qte(c, 'euro')} et ${qte(e, 'centime')}`];
+      const pieges: [string, string][] = [[`${qte(Math.floor(total / 10), 'euro')} et ${qte(total % 10, 'centime')}`, 'centimes-rang'], [`${qte(total, 'euro')}`, 'centimes-comptes-en-euros'], [`${qte(c, 'euro')} et ${qte(e, 'centime')}`, 'euros-centimes-inverses']];
       return {
         gabarit: 'qcm',
         consigne: `${total} centimes, combien cela fait-il ?`,
-        options: options(a, reponse, pieges, () => eurosCentimes(e + a.choisir([1, 2]), c)),
+        ...choix(a, reponse, pieges, () => eurosCentimes(e + a.choisir([1, 2]), c)),
         reponse,
         indice: '100 centimes font 1 euro.',
         explication: `${total} centimes = ${e * 100} centimes + ${qte(c, 'centime')}. ${e * 100} centimes font ${e} €. Cela fait ${reponse}.`,
@@ -229,7 +229,7 @@ export const monnaieCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Comment écrit-on ${eurosCentimes(e, c)} ?`,
-        options: options(a, reponse, [mauvaiseVirgule, `${fr(e * 100 + c)} €`, euros((e + 1) * 100 + c)], () => euros(e * 100 + c + a.choisir([100, 200]))),
+        ...choix(a, reponse, [[mauvaiseVirgule, 'centimes-rang'], [`${fr(e * 100 + c)} €`, 'centimes-comptes-en-euros'], [euros((e + 1) * 100 + c)]], () => euros(e * 100 + c + a.choisir([100, 200]))),
         reponse,
         indice: 'Après la virgule, on écrit toujours deux chiffres.',
         explication: `${qte(c, 'centime')} s’écrit ${String(c).padStart(2, '0')} après la virgule. On écrit ${reponse}.`,

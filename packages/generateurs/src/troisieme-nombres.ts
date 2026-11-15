@@ -3,7 +3,7 @@
 // distributivité, identités remarquables, équations produit nul, inéquations ax ⩾ b.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 43 et 44.
 import { decaler, depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options } from './outils';
+import { choix, creerGenerateur, fr, frDecimal } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 const pgcd = (x: number, y: number): number => (y === 0 ? Math.abs(x) : pgcd(y, x % y));
@@ -77,7 +77,7 @@ export const decomposition3e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quelle est la décomposition de ${fr(n)} en produit de facteurs premiers ?`,
-      options: options(a, reponse, [nonPremier, plus, moins], () => ecrireDecomposition(f.map(([q, x]): [number, number] => [q, x + a.entier(1, 2)]))),
+      ...choix(a, reponse, [[nonPremier, 'facteur-non-premier'], [plus, 'exposant-faux'], [moins, 'exposant-faux']], () => ecrireDecomposition(f.map(([q, x]): [number, number] => [q, x + a.entier(1, 2)]))),
       reponse,
       indice: 'Divise par 2 tant que c’est possible, puis par 3, par 5, par 7… Chaque facteur doit être un nombre premier.',
       explication: `On divise successivement par des nombres premiers : ${fr(n)} = ${reponse}. ${p ** 2} n’est pas premier, il ne peut pas apparaitre.`,
@@ -127,7 +127,7 @@ export const puissancesNegatives3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quelle est l’écriture décimale de ${puissance(10, -n)} ?`,
-        options: options(a, reponse, [depuisEntier(1, n + 1), n > 1 ? depuisEntier(1, n - 1) : '10', `−${fr(10 ** n)}`], () => depuisEntier(1, n + 2)),
+        ...choix(a, reponse, [[depuisEntier(1, n + 1), 'puissance-dix-rang'], [n > 1 ? depuisEntier(1, n - 1) : '10', 'puissance-dix-rang'], [`−${fr(10 ** n)}`, 'exposant-negatif-signe']], () => depuisEntier(1, n + 2)),
         reponse,
         indice: `10 puissance −n, c’est 1 divisé par 10 puissance n.`,
         explication: `${puissance(10, -n)} = 1/${fr(10 ** n)} = ${reponse}. Le chiffre un est en position ${n} derrière la virgule.`,
@@ -151,7 +151,7 @@ export const puissancesNegatives3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Écris ${depuisEntier(1, n)} sous la forme d’une puissance de 10.`,
-        options: options(a, reponse, [puissance(10, n), puissance(10, -(n + 1)), puissance(10, -(n - 1))], () => puissance(10, -(n + 2))),
+        ...choix(a, reponse, [[puissance(10, n), 'exposant-signe-oublie'], [puissance(10, -(n + 1)), 'puissance-dix-rang'], [puissance(10, -(n - 1)), 'puissance-dix-rang']], () => puissance(10, -(n + 2))),
         reponse,
         indice: 'Repère le rang du chiffre un après la virgule.',
         explication: `${depuisEntier(1, n)} = 1/${fr(10 ** n)} = ${reponse}.`,
@@ -163,7 +163,7 @@ export const puissancesNegatives3e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Écris 1/${base ** n} sous la forme d’une puissance de ${base}.`,
-      options: options(a, reponse, [puissance(base, n), `−${puissance(base, n)}`, puissance(base, -(n + 1))], () => puissance(base, -(n + 2))),
+      ...choix(a, reponse, [[puissance(base, n), 'exposant-signe-oublie'], [`−${puissance(base, n)}`, 'exposant-negatif-signe'], [puissance(base, -(n + 1))]], () => puissance(base, -(n + 2))),
       reponse,
       indice: `Écris d’abord ${base ** n} comme une puissance de ${base}.`,
       explication: `${base ** n} = ${puissance(base, n)}, donc 1/${base ** n} = 1/${puissance(base, n)} = ${reponse}.`,
@@ -187,11 +187,11 @@ export const operationsPuissances3e = creerGenerateur({
       const div = d === 2;
       const r = div ? m - n : m + n;
       const reponse = puissance(base, r);
-      const pieges = div ? [puissance(base, m + n), puissance(base, n - m)] : [puissance(base, m * n), puissance(base, m - n)];
+      const pieges: [string, string][] = div ? [[puissance(base, m + n), 'exposants-additionnes-division'], [puissance(base, n - m), 'exposants-ordre-inverse']] : [[puissance(base, m * n), 'exposants-multiplies'], [puissance(base, m - n), 'exposants-soustraits-produit']];
       return {
         gabarit: 'qcm',
         consigne: `Écris sous la forme d’une seule puissance : ${puissance(base, m)} ${div ? '÷' : '×'} ${puissance(base, n)}`,
-        options: options(a, reponse, pieges, () => puissance(base, r + a.entier(1, 3) * signe(a))),
+        ...choix(a, reponse, pieges, () => puissance(base, r + a.entier(1, 3) * signe(a))),
         reponse,
         indice: div ? 'Pour diviser deux puissances d’un même nombre, on soustrait les exposants.' : 'Pour multiplier deux puissances d’un même nombre, on additionne les exposants.',
         explication: div ? `On soustrait les exposants : ${ecrireRelatif(m)} − ${facteurRelatif(n)} = ${ecrireRelatif(r)}. Résultat : ${reponse}.` : `On additionne les exposants : ${ecrireRelatif(m)} + ${facteurRelatif(n)} = ${ecrireRelatif(r)}. Résultat : ${reponse}.`,
@@ -204,7 +204,7 @@ export const operationsPuissances3e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Écris sous la forme d’une seule puissance : ${puissance(base, m)} × ${puissance(base, n)} ÷ ${puissance(base, p)}`,
-      options: options(a, reponse, [puissance(base, m + n + p), puissance(base, m * n - p), puissance(base, p - m - n)], () => puissance(base, r + a.entier(1, 3) * signe(a))),
+      ...choix(a, reponse, [[puissance(base, m + n + p), 'exposants-additionnes-division'], [puissance(base, m * n - p), 'exposants-multiplies'], [puissance(base, p - m - n), 'exposants-ordre-inverse']], () => puissance(base, r + a.entier(1, 3) * signe(a))),
       reponse,
       indice: 'Additionne les exposants du produit, puis soustrais celui du diviseur.',
       explication: `${ecrireRelatif(m)} + ${facteurRelatif(n)} − ${facteurRelatif(p)} = ${ecrireRelatif(r)}. Résultat : ${reponse}.`,
@@ -231,21 +231,21 @@ export const notationScientifique3e = creerGenerateur({
     const reponse = scientifique(mantisse, n);
     const decale = (x: number) => decaler(mantisse, x);
     let consigne: string;
-    let pieges: string[];
+    let pieges: [string, string][];
     if (d < 3) {
       const nombre = frDecimal(decale(n));
       consigne = `Quelle est la notation scientifique de ${nombre} ?`;
-      pieges = [scientifique(mantisse, n > 0 ? n - 1 : n + 1), scientifique(mantisse, -n), `${decale(1)} × ${puissance(10, n - 1)}`];
+      pieges = [[scientifique(mantisse, n > 0 ? n - 1 : n + 1), 'puissance-dix-rang'], [scientifique(mantisse, -n), 'exposant-signe-oublie'], [`${decale(1)} × ${puissance(10, n - 1)}`, 'mantisse-hors-intervalle']];
     } else {
       // Nombre déjà écrit avec une puissance de 10, mais mantisse hors de [1 ; 10[.
       const decalage = a.choisir([-2, -1, 1, 2]);
       consigne = `Écris en notation scientifique : ${frDecimal(decale(decalage))} × ${puissance(10, n - decalage)}`;
-      pieges = [scientifique(mantisse, n - 2 * decalage), scientifique(mantisse, n - decalage), `${decale(decalage)} × ${puissance(10, n - decalage + 1)}`];
+      pieges = [[scientifique(mantisse, n - 2 * decalage), 'decalage-sens-inverse'], [scientifique(mantisse, n - decalage), 'exposant-non-ajuste'], [`${decale(decalage)} × ${puissance(10, n - decalage + 1)}`, 'mantisse-hors-intervalle']];
     }
     return {
       gabarit: 'qcm',
       consigne,
-      options: options(a, reponse, pieges.filter((p) => p !== reponse), () => scientifique(mantisse, n + a.entier(2, 3))),
+      ...choix(a, reponse, pieges, () => scientifique(mantisse, n + a.entier(2, 3))),
       reponse,
       indice: 'Notation scientifique : a × 10ⁿ avec a supérieur ou égal à 1 et strictement inférieur à 10.',
       explication: `Le nombre devant la puissance de 10 doit être entre 1 et 10 : ${mantisse}. On compte le décalage de la virgule : ${reponse}.`,
@@ -275,13 +275,13 @@ export const equationCarre3e = creerGenerateur({
     const AUCUNE = 'aucune solution';
     const deux = (s: string) => `x = −${s} ou x = ${s}`;
     const reponse = valeur < 0 ? AUCUNE : forme === 'non-carre' ? deux(`√${valeur}`) : deux(String(r));
-    const pieges = valeur < 0 ? [deux(`√${-valeur}`), `x = −√${-valeur}`, `x = ${-valeur / 2}`.replace('.', ',')]
-      : forme === 'non-carre' ? [`x = √${valeur}`, deux(String(valeur)), AUCUNE]
-        : [`x = ${r}`, deux(String(valeur)), `x = ${(valeur / 2).toString().replace('.', ',')}`];
+    const pieges: [string, string][] = valeur < 0 ? [[deux(`√${-valeur}`), 'carre-negatif'], [`x = −√${-valeur}`, 'carre-negatif'], [`x = ${-valeur / 2}`.replace('.', ','), 'carre-moitie']]
+      : forme === 'non-carre' ? [[`x = √${valeur}`, 'solution-negative-oubliee'], [deux(String(valeur)), 'racine-non-extraite'], [AUCUNE, 'non-carre-sans-solution']]
+        : [[`x = ${r}`, 'solution-negative-oubliee'], [deux(String(valeur)), 'racine-non-extraite'], [`x = ${(valeur / 2).toString().replace('.', ',')}`, 'carre-moitie']];
     return {
       gabarit: 'qcm',
       consigne,
-      options: options(a, reponse, pieges, () => deux(String(r + 1))),
+      ...choix(a, reponse, pieges, () => deux(String(r + 1))),
       reponse,
       indice: 'Un carré n’est jamais négatif. Si a est positif, x² = a a deux solutions opposées : √a et −√a.',
       explication: valeur < 0
@@ -308,7 +308,7 @@ export const doubleDistributivite3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Développe et réduis : (${affine(k, p)})(${affine(1, q)})`,
-        options: options(a, reponse, [polynome(k, 0, p * q), polynome(k, k * q + p, p + q), polynome(k, k * q - p, -p * q), polynome(0, k + 1, p * q)].filter((x) => x !== reponse), () => polynome(k, k * q + p + a.entier(1, 3), p * q)),
+        ...choix(a, reponse, [[polynome(k, 0, p * q), 'double-distributivite-incomplete'], [polynome(k, k * q + p, p + q), 'constante-additionnee'], [polynome(k, k * q - p, -p * q), 'regle-signes'], [polynome(0, k + 1, p * q), 'x-fois-x']], () => polynome(k, k * q + p + a.entier(1, 3), p * q)),
         reponse,
         indice: 'Chaque terme de la première parenthèse multiplie chaque terme de la seconde : quatre produits.',
         explication: `${affine(k, 0)} × x = ${polynome(k, 0, 0)} ; ${affine(k, 0)} × ${facteurRelatif(q)} = ${polynome(0, k * q, 0)} ; ${facteurRelatif(p)} × x = ${polynome(0, p, 0)} ; ${facteurRelatif(p)} × ${facteurRelatif(q)} = ${ecrireRelatif(p * q)}. On réduit : ${reponse}.`,
@@ -324,11 +324,11 @@ export const doubleDistributivite3e = creerGenerateur({
     if (b + e === 1 && c + f === p) f += f > 0 ? -1 : 1;
     const facteur = `(${affine(1, p)})`;
     const reponse = `${facteur}(${affine(b + e, c + f)})`;
-    const pieges = [`${facteur}(${affine(b - e, c - f)})`, `${facteur}²(${affine(b + e, c + f)})`, `${facteur}(${affine(b * e, c * f)})`];
+    const pieges: [string, string][] = [[`${facteur}(${affine(b - e, c - f)})`, 'factorisation-signes'], [`${facteur}²(${affine(b + e, c + f)})`, 'facteur-commun-double'], [`${facteur}(${affine(b * e, c * f)})`, 'factorisation-produit']];
     return {
       gabarit: 'qcm',
       consigne: `Factorise : ${facteur}(${affine(b, c)}) + ${facteur}(${affine(e, f)})`,
-      options: options(a, reponse, pieges.filter((x) => x !== reponse), () => `${facteur}(${affine(b + e, c + f + a.entier(1, 3))})`),
+      ...choix(a, reponse, pieges, () => `${facteur}(${affine(b + e, c + f + a.entier(1, 3))})`),
       reponse,
       indice: `Le facteur commun ${facteur} est apparent : mets-le devant, puis additionne ce qui reste.`,
       explication: `Le facteur commun est ${facteur}. Il reste (${affine(b, c)}) + (${affine(e, f)}) = ${affine(b + e, c + f)}. Résultat : ${reponse}.`,
@@ -351,32 +351,32 @@ export const identites3e = creerGenerateur({
     const kx = k === 1 ? 'x' : `${k}x`;
     const forme = a.choisir(d === 1 ? ['somme', 'difference'] : ['somme', 'difference', 'produit']);
     if (d < 3) {
-      const [depart, reponse, pieges] =
+      const [depart, reponse, pieges]: [string, string, [string, string][]] =
         forme === 'somme'
-          ? [`(${kx} + ${b})²`, polynome(k * k, 2 * k * b, b * b), [polynome(k * k, 0, b * b), polynome(k * k, k * b, b * b), polynome(k * k, 2 * k * b, 2 * b)]]
+          ? [`(${kx} + ${b})²`, polynome(k * k, 2 * k * b, b * b), [[polynome(k * k, 0, b * b), 'double-produit-oublie'], [polynome(k * k, k * b, b * b), 'double-produit-sans-2'], [polynome(k * k, 2 * k * b, 2 * b), 'carre-double']]]
           : forme === 'difference'
-            ? [`(${kx} − ${b})²`, polynome(k * k, -2 * k * b, b * b), [polynome(k * k, 0, -b * b), polynome(k * k, -2 * k * b, -b * b), polynome(k * k, 2 * k * b, b * b)]]
-            : [`(${kx} − ${b})(${kx} + ${b})`, polynome(k * k, 0, -b * b), [polynome(k * k, 0, b * b), polynome(k * k, -2 * k * b, -b * b), polynome(k * k, -2 * k * b, b * b)]];
+            ? [`(${kx} − ${b})²`, polynome(k * k, -2 * k * b, b * b), [[polynome(k * k, 0, -b * b), 'double-produit-oublie'], [polynome(k * k, -2 * k * b, -b * b), 'regle-signes'], [polynome(k * k, 2 * k * b, b * b), 'regle-signes']]]
+            : [`(${kx} − ${b})(${kx} + ${b})`, polynome(k * k, 0, -b * b), [[polynome(k * k, 0, b * b), 'regle-signes'], [polynome(k * k, -2 * k * b, -b * b), 'identite-confondue'], [polynome(k * k, -2 * k * b, b * b), 'identite-confondue']]];
       return {
         gabarit: 'qcm',
         consigne: `Développe avec une identité remarquable : ${depart}`,
-        options: options(a, reponse, pieges.filter((x) => x !== reponse), () => polynome(k * k, a.entier(1, 9), b * b + 1)),
+        ...choix(a, reponse, pieges, () => polynome(k * k, a.entier(1, 9), b * b + 1)),
         reponse,
         indice: forme === 'produit' ? '(a − b)(a + b) = a² − b².' : forme === 'somme' ? '(a + b)² = a² + 2ab + b².' : '(a − b)² = a² − 2ab + b².',
         explication: `Ici a = ${kx} et b = ${b}. ${forme === 'produit' ? `a² − b² = ${polynome(k * k, 0, 0)} − ${b * b}` : `a² = ${polynome(k * k, 0, 0)}, 2ab = ${2 * k * b}x, b² = ${b * b}`}. Résultat : ${reponse}.`,
       };
     }
     // Factoriser.
-    const [depart, reponse, pieges] =
+    const [depart, reponse, pieges]: [string, string, [string, string][]] =
       forme === 'somme'
-        ? [polynome(k * k, 2 * k * b, b * b), `(${kx} + ${b})²`, [`(${kx} − ${b})²`, `(${kx} + ${2 * b})²`, `(${kx} − ${b})(${kx} + ${b})`]]
+        ? [polynome(k * k, 2 * k * b, b * b), `(${kx} + ${b})²`, [[`(${kx} − ${b})²`, 'regle-signes'], [`(${kx} + ${2 * b})²`, 'double-produit-mal-lu'], [`(${kx} − ${b})(${kx} + ${b})`, 'identite-confondue']]]
         : forme === 'difference'
-          ? [polynome(k * k, -2 * k * b, b * b), `(${kx} − ${b})²`, [`(${kx} + ${b})²`, `(${kx} − ${b})(${kx} + ${b})`, `(${kx} − ${2 * b})²`]]
-          : [polynome(k * k, 0, -b * b), `(${kx} − ${b})(${kx} + ${b})`, [`(${kx} − ${b})²`, `(${kx} + ${b})²`, `(${b} − ${kx})(${b} + ${kx})`]];
+          ? [polynome(k * k, -2 * k * b, b * b), `(${kx} − ${b})²`, [[`(${kx} + ${b})²`, 'regle-signes'], [`(${kx} − ${b})(${kx} + ${b})`, 'identite-confondue'], [`(${kx} − ${2 * b})²`, 'double-produit-mal-lu']]]
+          : [polynome(k * k, 0, -b * b), `(${kx} − ${b})(${kx} + ${b})`, [[`(${kx} − ${b})²`, 'identite-confondue'], [`(${kx} + ${b})²`, 'identite-confondue'], [`(${b} − ${kx})(${b} + ${kx})`, 'difference-carres-ordre']]];
     return {
       gabarit: 'qcm',
       consigne: `Factorise avec une identité remarquable : ${depart}`,
-      options: options(a, reponse, pieges, () => `(${kx} + ${b + 1})²`),
+      ...choix(a, reponse, pieges, () => `(${kx} + ${b + 1})²`),
       reponse,
       indice: 'Repère les deux carrés, puis regarde s’il reste un double produit et son signe.',
       explication: `${polynome(k * k, 0, 0)} = (${kx})² et ${b * b} = ${b}². ${forme === 'produit' ? 'C’est une différence de deux carrés' : `Le double produit vaut ${2 * k * b}x`}. Résultat : ${reponse}.`,
@@ -411,11 +411,11 @@ export const produitNul3e = creerGenerateur({
     while (p === -q * k) p = a.entier(1, 9) * (d === 1 ? 1 : signe(a));
     // (kx − p)(x + q) = 0 ⇔ x = p/k ou x = −q
     const reponse = solutions([p, k], [-q, 1]);
-    const pieges = [solutions([-p, k], [q, 1]), solutions([p, k], [q, 1]), k > 1 && p !== -q ? solutions([p, 1], [-q, 1]) : `x = ${fractionOuEntier(p, k)}`];
+    const pieges: [string, string][] = [[solutions([-p, k], [q, 1]), 'produit-nul-signes'], [solutions([p, k], [q, 1]), 'produit-nul-signes'], k > 1 && p !== -q ? [solutions([p, 1], [-q, 1]), 'produit-nul-coefficient'] : [`x = ${fractionOuEntier(p, k)}`, 'produit-nul-une-solution']];
     return {
       gabarit: 'qcm',
       consigne: `Résous l’équation : (${affine(k, -p)})(${affine(1, q)}) = 0`,
-      options: options(a, reponse, pieges.filter((x) => x !== reponse), () => solutions([p + 1, k], [-q, 1])),
+      ...choix(a, reponse, pieges, () => solutions([p + 1, k], [-q, 1])),
       reponse,
       indice: 'Un produit est nul si et seulement si l’un de ses facteurs est nul.',
       explication: `${affine(k, -p)} = 0 donne x = ${fractionOuEntier(p, k)} ; ${affine(1, q)} = 0 donne x = ${ecrireRelatif(-q)}. Solutions : ${reponse}.`,
@@ -441,11 +441,11 @@ export const inequation3e = creerGenerateur({
     const gauche = d === 3 ? affine(k, b) : affine(k, 0);
     const final = k < 0 ? SENS[symbole]! : symbole;
     const reponse = `x ${final} ${ecrireRelatif(s)}`;
-    const pieges = [`x ${k < 0 ? symbole : SENS[symbole]} ${ecrireRelatif(s)}`, `x ${final} ${ecrireRelatif(-s)}`, `x ${symbole} ${ecrireRelatif(droite - k - b)}`];
+    const pieges: [string, string][] = [[`x ${k < 0 ? symbole : SENS[symbole]} ${ecrireRelatif(s)}`, k < 0 ? 'inequation-sens-negatif' : 'inequation-sens-change'], [`x ${final} ${ecrireRelatif(-s)}`, 'regle-signes'], [`x ${symbole} ${ecrireRelatif(droite - k - b)}`, 'soustrait-au-lieu-de-diviser']];
     return {
       gabarit: 'qcm',
       consigne: `Résous l’inéquation : ${gauche} ${symbole} ${ecrireRelatif(droite)}`,
-      options: options(a, reponse, pieges.filter((x) => x !== reponse), () => `x ${final} ${ecrireRelatif(s + a.entier(1, 3))}`),
+      ...choix(a, reponse, pieges, () => `x ${final} ${ecrireRelatif(s + a.entier(1, 3))}`),
       reponse,
       indice: 'On divise les deux membres par le coefficient de x. S’il est négatif, le sens de l’inégalité change.',
       explication: `${b ? `On ${b > 0 ? `soustrait ${b}` : `ajoute ${-b}`} : ${affine(k, 0)} ${symbole} ${ecrireRelatif(droite - b)}. ` : ''}On divise par ${ecrireRelatif(k)}${k < 0 ? ', négatif : le sens change' : ', positif : le sens ne change pas'}. Résultat : ${reponse}.`,

@@ -1,7 +1,7 @@
 // 4e, nombres et calculs (programme 2026) : relatifs (produit, quotient, enchainements), fractions (simplifier,
 // multiplier, diviser), puissances, racine carrée, distributivité, équations ax + b = c.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 42 et 43.
-import { creerGenerateur, fr, options, optionsNumeriques } from './outils';
+import { choix, creerGenerateur, fr } from './outils';
 import { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 
 const pgcd = (x: number, y: number): number => (y === 0 ? Math.abs(x) : pgcd(y, x % y));
@@ -38,7 +38,7 @@ export const produitRelatifs4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule : ${ecrireTerme(x)} × ${ecrireTerme(y)}`,
-        options: options(a, reponse, [ecrireRelatif(-r), ecrireRelatif(x + y), ecrireRelatif(-(x + y))], () => ecrireRelatif(r + a.entier(-3, 3))),
+        ...choix(a, reponse, [[ecrireRelatif(-r), 'regle-signes'], [ecrireRelatif(x + y), 'addition-au-lieu-produit'], [ecrireRelatif(-(x + y)), 'addition-au-lieu-produit']], () => ecrireRelatif(r + a.entier(-3, 3))),
         reponse,
         indice: 'Deux facteurs de même signe : produit positif. De signes contraires : produit négatif.',
         explication: `${Math.abs(x)} × ${Math.abs(y)} = ${Math.abs(r)}. Les signes sont ${x * y > 0 ? 'identiques : le produit est positif' : 'contraires : le produit est négatif'}. Résultat : ${reponse}.`,
@@ -164,7 +164,7 @@ export const diviserFractions4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel est l’inverse de ${entier ? d1 : `${n1}/${d1}`} ?`,
-        options: optionsNumeriques(a, reponse, entier ? [`${d1}`, `1/${d1 + 1}`, `${d1}/2`] : [`${n1}/${d1}`, irreductible(d1 + n1, d1), `1/${n1 * d1}`], () => `${a.entier(1, 9)}/${a.entier(2, 9)}`),
+        ...choix(a, reponse, entier ? [[`${d1}`, 'inverse-non-calcule'], [`1/${d1 + 1}`], [`${d1}/2`]] : [[`${n1}/${d1}`, 'inverse-non-calcule'], [irreductible(d1 + n1, d1)], [`1/${n1 * d1}`]], () => `${a.entier(1, 9)}/${a.entier(2, 9)}`, { numerique: true }),
         reponse,
         indice: 'L’inverse d’un nombre a, c’est le nombre qui, multiplié par a, donne 1.',
         explication: entier
@@ -227,7 +227,7 @@ export const puissances4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Écris sous la forme d’une seule puissance : ${b}${exp(m)} × ${b}${exp(n)}`,
-        options: options(a, `${b}${exp(m + n)}`, [`${b}${exp(m * n)}`, `${b}${exp(m + n + 1)}`, `${b}${exp(m + n - 1)}`], () => `${b}${exp(m + n + 2)}`),
+        ...choix(a, `${b}${exp(m + n)}`, [[`${b}${exp(m * n)}`, 'exposants-multiplies'], [`${b}${exp(m + n + 1)}`], [`${b}${exp(m + n - 1)}`]], () => `${b}${exp(m + n + 2)}`),
         reponse: `${b}${exp(m + n)}`,
         indice: 'Pour multiplier des puissances d’un même nombre, on additionne les exposants.',
         explication: `${b}${exp(m)} × ${b}${exp(n)} = ${b}${exp(m + n)}, car on a ${m} + ${n} = ${m + n} facteurs ${b}.`,
@@ -237,7 +237,7 @@ export const puissances4e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Écris sous la forme d’une seule puissance : ${x}${exp(m)} × ${y}${exp(m)}`,
-      options: options(a, `${x * y}${exp(m)}`, [`${x * y}${exp(2 * m)}`, `${x + y}${exp(m)}`, `${x * y}${exp(m + 1)}`], () => `${x * y + 1}${exp(m)}`),
+      ...choix(a, `${x * y}${exp(m)}`, [[`${x * y}${exp(2 * m)}`, 'exposants-additionnes-meme-exposant'], [`${x + y}${exp(m)}`, 'bases-additionnees'], [`${x * y}${exp(m + 1)}`]], () => `${x * y + 1}${exp(m)}`),
       reponse: `${x * y}${exp(m)}`,
       indice: 'Même exposant : on multiplie les nombres et on garde l’exposant.',
       explication: `${x}${exp(m)} × ${y}${exp(m)} = (${x} × ${y})${exp(m)} = ${x * y}${exp(m)}.`,
@@ -304,7 +304,7 @@ export const developper4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Développe : ${facteur}(${affine(p, q)})`,
-        options: options(a, reponse, [affine(k * p, q), affine(k * p, -k * q), affine(p, k * q)], () => affine(k * p, k * q + 1)),
+        ...choix(a, reponse, [[affine(k * p, q), 'distributivite-incomplete'], [affine(k * p, -k * q), 'regle-signes'], [affine(p, k * q), 'distributivite-incomplete']], () => affine(k * p, k * q + 1)),
         reponse,
         indice: 'Multiplie chaque terme de la parenthèse, en respectant les signes.',
         explication: `${facteur} × ${p}x = ${affine(k * p, 0)} et ${facteur} × ${ecrireTerme(q)} = ${ecrireRelatif(k * q)}. Résultat : ${reponse}.`,
@@ -317,7 +317,7 @@ export const developper4e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Factorise en mettant x en facteur : ${c}x² ${q > 0 ? '+' : '−'} ${terme}`,
-      options: options(a, reponse, [`x(${c}x² ${q > 0 ? '+' : '−'} ${Math.abs(q)})`, `${c}x(x ${q > 0 ? '+' : '−'} ${Math.abs(q)})`, `x(${affine(c + Math.abs(q), 0)})`], () => `x(${affine(c, q + 1)})`),
+      ...choix(a, reponse, [[`x(${c}x² ${q > 0 ? '+' : '−'} ${Math.abs(q)})`, 'factorisation-incomplete'], [`${c}x(x ${q > 0 ? '+' : '−'} ${Math.abs(q)})`, 'factorisation-incomplete'], [`x(${affine(c + Math.abs(q), 0)})`, 'termes-non-semblables-additionnes']], () => `x(${affine(c, q + 1)})`),
       reponse,
       indice: 'Les deux termes ont x en commun.',
       explication: `${c}x² = x × ${c}x et ${terme} = x × ${Math.abs(q)}. On met x en facteur : ${reponse}.`,

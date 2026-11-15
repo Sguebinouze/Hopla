@@ -2,7 +2,7 @@
 // pyramide et du cône, translations, triangle rectangle et cercle circonscrit.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 47 et 48.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options } from './outils';
+import { choix, creerGenerateur, fr, frDecimal } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 const dec = (n: number, c: number) => frDecimal(depuisEntier(n, c));
@@ -205,7 +205,7 @@ export const translations4e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Dans un repère, A${coord(ax, ay)} et B${coord(bx, by)}. La translation qui transforme A en B transforme C${coord(cx, cy)} en D. Quelles sont les coordonnées de D ?`,
-      options: options(a, reponse, [coord(cx - dx, cy - dy), coord(cx + dy, cy + dx), coord(bx + cx, by + cy)], () => coord(cx + dx + 1, cy + dy)),
+      ...choix(a, reponse, [[coord(cx - dx, cy - dy), 'translation-sens-inverse'], [coord(cx + dy, cy + dx), 'coordonnees-inversees'], [coord(bx + cx, by + cy)]], () => coord(cx + dx + 1, cy + dy)),
       reponse,
       indice: 'Pour aller de A à B, de combien se déplace-t-on horizontalement et verticalement ?',
       explication: `De A à B : ${ecrireRelatif(dx)} en abscisse et ${ecrireRelatif(dy)} en ordonnée. On applique le même déplacement à C : D${reponse}.`,

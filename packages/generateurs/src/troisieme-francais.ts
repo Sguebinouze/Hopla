@@ -3,14 +3,18 @@
 // (pronom collectif ou distributif, complément du nom), accord de l'adjectif selon sa fonction.
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 32 et 33.
 // Toutes les phrases sont rédigées et annotées à la main.
-import { creerGenerateur } from './outils';
+import { confusionTemps } from './erreurs';
+import { creerGenerateur, erreursDe } from './outils';
 
 /** Corpus par niveau : d1 → niveau 1 ; d2 → niveaux 1 et 2 ; d3 → niveaux 2 et 3. */
 const niveaux = (d: number) => (d === 1 ? [1] : d === 2 ? [1, 2] : [2, 3]);
 type Niveau = 1 | 2 | 3;
-const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string) => ({
-  gabarit: 'qcm' as const, consigne, options: a.melanger([reponse, ...pieges.filter((p, i, t) => p !== reponse && t.indexOf(p) === i)]), reponse, indice, explication,
-});
+/** QCM à options rédigées ; `code` qualifie un piège qui révèle une erreur typique (voir `ERREURS`). */
+const qcm = (a: { melanger: <T>(l: readonly T[]) => T[] }, consigne: string, reponse: string, pieges: string[], indice: string, explication: string,
+  code?: (piege: string) => string | undefined) => {
+  const options = a.melanger([reponse, ...pieges.filter((p, i, t) => p !== reponse && t.indexOf(p) === i)]);
+  return { gabarit: 'qcm' as const, consigne, options, reponse, indice, explication, erreurs: erreursDe(options, reponse, code ? options.map((o) => [o, code(o)] as const) : []) };
+};
 
 // ─────────── Phrase emphatique
 
@@ -84,7 +88,7 @@ export const pronomRelatif3e = creerGenerateur({
     const [phrase, pronom, pieges, raison] = a.choisir(RELATIFS.filter((r) => niveaux(d).includes(r[4])));
     return qcm(a, `Complète avec le pronom relatif qui convient : ${phrase}`, pronom, pieges,
       'Cherche la fonction du pronom dans la relative : sujet, COD, complément introduit par « de », complément de lieu, ou après une préposition.',
-      `On écrit « ${pronom} » : ${raison}`);
+      `On écrit « ${pronom} » : ${raison}`, () => 'relatif-fonction');
   },
 });
 
@@ -121,7 +125,7 @@ export const discours3e = creerGenerateur({
     const [phrase, type] = a.choisir(DISCOURS.filter((x) => niveaux(d).includes(x[2])));
     return qcm(a, `Lis cette phrase : ${phrase} Comment les paroles ou les pensées sont-elles rapportées ?`, type, [DIRECT, INDIRECT, LIBRE, RECIT],
       'Repère les guillemets, un verbe de parole suivi de « que » ou « si », ou des pensées glissées dans le récit.',
-      EXPLICATIONS_DISCOURS[type]!);
+      EXPLICATIONS_DISCOURS[type]!, (p) => (p === RECIT || type === RECIT ? undefined : 'paroles-rapportees-confondues'));
   },
 });
 
@@ -159,7 +163,9 @@ export const subjonctifPasse3e = creerGenerateur({
     const auxEtre = /^(sois|soit|soyons|soyez|soient)\b/.test(forme);
     return qcm(a, `Complète avec « ${infinitif} » au subjonctif passé : ${phrase}`, forme, pieges,
       'Subjonctif passé : auxiliaire avoir ou être au subjonctif présent, puis participe passé.',
-      `L’auxiliaire ${auxEtre ? 'être' : 'avoir'} est au subjonctif présent, suivi du participe passé : ${phrase.replace('…', forme)}`);
+      `L’auxiliaire ${auxEtre ? 'être' : 'avoir'} est au subjonctif présent, suivi du participe passé : ${phrase.replace('…', forme)}`,
+      (p) => (p === pieges[0] ? 'indicatif-au-lieu-subjonctif' : p === pieges[1] ? 'subjonctif-present-passe' : /^aur/.test(p) ? 'conditionnel-au-lieu-subjonctif'
+        : /^(aie|aies|ait|ayons|ayez|aient|sois|soit|soyons|soyez|soient) /.test(p) ? 'auxiliaire-faux' : 'indicatif-au-lieu-subjonctif'));
   },
 });
 
@@ -200,7 +206,8 @@ export const identifierTemps3e = creerGenerateur({
     const compose = forme.split(/[ ’]/).some((mot, i, mots) => AUXILIAIRES.has(mot) && i < mots.length - 1);
     return qcm(a, `« ${forme} » : à quel temps et à quel mode ce verbe est-il conjugué ?`, temps, VOISINS[temps]!,
       compose ? 'Forme composée : le temps de l’auxiliaire donne le nom du temps.' : 'Observe la terminaison et le radical : -ais, -ai, -rai, -rais…',
-      `${compose ? 'L’auxiliaire indique le temps composé' : 'La terminaison et le radical indiquent le temps'} : « ${forme} » est ${temps.startsWith('imparfait') ? 'à l’' : 'au '}${temps}.`);
+      `${compose ? 'L’auxiliaire indique le temps composé' : 'La terminaison et le radical indiquent le temps'} : « ${forme} » est ${temps.startsWith('imparfait') ? 'à l’' : 'au '}${temps}.`,
+      (p) => confusionTemps(temps, p));
   },
 });
 
@@ -280,7 +287,8 @@ export const accordPPRelatif3e = creerGenerateur({
     const [phrase, infinitif, forme, formes, raison] = a.choisir(PP_RELATIF.filter((p) => niveaux(d).includes(p[5])));
     return qcm(a, `Complète avec le participe passé de « ${infinitif} » : ${phrase}`, forme, formes,
       'Avec avoir, le participe passé s’accorde avec le COD seulement s’il est placé avant le verbe.',
-      `${raison[0]!.toUpperCase()}${raison.slice(1)}. On écrit : ${phrase.replace('…', forme)}`);
+      `${raison[0]!.toUpperCase()}${raison.slice(1)}. On écrit : ${phrase.replace('…', forme)}`,
+      (p) => (forme === formes[0] ? (phrase.includes(' dont ') ? 'accord-avec-dont' : 'accord-pp-abusif') : p === formes[0] ? 'accord-cod-avant-oublie' : 'accord-pp-genre-nombre'));
   },
 });
 
@@ -319,7 +327,8 @@ export const accordSujetsComplexes3e = creerGenerateur({
     const pluriel = /^« (les|des) /.test(noyau);
     return qcm(a, `Complète avec « ${infinitif} » au présent : ${phrase}`, forme, pieges,
       'Cherche le mot principal du sujet : le complément du nom ne commande pas l’accord.',
-      `Le verbe s’accorde avec ${noyau}, ${pluriel ? 'au pluriel' : 'au singulier'}. On écrit : ${phrase.replace('…', forme)}`);
+      `Le verbe s’accorde avec ${noyau}, ${pluriel ? 'au pluriel' : 'au singulier'}. On écrit : ${phrase.replace('…', forme)}`,
+      (p) => (p !== pieges[0] ? 'accord-personne' : /^« (chacun|chacune|aucun|aucune|personne|nul|tout le monde|quelqu’un) »$/.test(noyau) ? 'accord-pronom-distributif' : 'accord-complement-du-nom'));
   },
 });
 
@@ -366,10 +375,10 @@ export const accordAdjectif3e = creerGenerateur({
     if (d > 1 && a.suivant() < 0.4) {
       return qcm(a, `Dans « ${complete} », quelle est la fonction de « ${forme.toLowerCase()} » ?`, fonction, [EPITHETE, ATTRIBUT, APPOSITION, 'complément du nom'],
         'Épithète : à côté du nom. Attribut : relié par un verbe. Apposition : séparé par une virgule.',
-        ROLE[fonction]!);
+        ROLE[fonction]!, (p) => (p === 'complément du nom' ? undefined : 'fonction-adjectif-confondue'));
     }
     return qcm(a, `Complète avec l’adjectif « ${adjectif} » bien accordé : ${phrase}`, forme, formes,
       'L’adjectif s’accorde en genre et en nombre avec le nom qu’il qualifie, quelle que soit sa fonction.',
-      `L’adjectif qualifie ${qualifie} : il s’accorde avec ${/ et /.test(qualifie) ? 'les deux noms, au masculin pluriel' : 'ce nom'}. ${ROLE[fonction]!}`);
+      `L’adjectif qualifie ${qualifie} : il s’accorde avec ${/ et /.test(qualifie) ? 'les deux noms, au masculin pluriel' : 'ce nom'}. ${ROLE[fonction]!}`, () => 'accord-adjectif');
   },
 });

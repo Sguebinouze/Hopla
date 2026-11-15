@@ -1,6 +1,6 @@
 // CE1, nombres et fractions. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 import { enLettres } from './lettres';
-import { creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
 
 // ─────────── Nombres jusqu'à 1 000 : unités de numération
 
@@ -186,7 +186,7 @@ export const fractionsAdditionnerCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `${qui} colorie ${n}/${den} d’une figure en bleu. Le reste est en rouge. Quelle fraction est en rouge ?`,
-        options: optionsNumeriques(a, `${den - n}/${den}`, [`${n}/${den}`, `${den}/${den}`], secours),
+        ...choix(a, `${den - n}/${den}`, [[`${n}/${den}`, 'complement-au-tout'], [`${den}/${den}`]], secours, { numerique: true }),
         reponse: `${den - n}/${den}`,
         indice: `La figure entière, c’est ${den}/${den}.`,
         explication: `La figure entière fait ${den}/${den}. ${den}/${den} − ${n}/${den} = ${den - n}/${den}. La partie rouge vaut ${den - n}/${den}.`,
@@ -201,7 +201,7 @@ export const fractionsAdditionnerCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Calcule : ${p}/${den} ${signe} ${q}/${den}`,
-      options: optionsNumeriques(a, `${r}/${den}`, addition ? [`${r}/${den * 2}`] : [`${p + q}/${den}`], secours),
+      ...choix(a, `${r}/${den}`, addition ? [[`${r}/${den * 2}`, 'denominateurs-additionnes']] : [[`${p + q}/${den}`, 'addition-au-lieu-soustraction']], secours, { numerique: true }),
       reponse: `${r}/${den}`,
       indice: 'Le dénominateur ne change pas. Calcule avec les numérateurs.',
       explication: `${majuscule(nomFraction(p, den))} ${addition ? 'plus' : 'moins'} ${nomFraction(q, den)}, cela fait ${nomFraction(r, den)}. Le résultat est ${r}/${den}.`,

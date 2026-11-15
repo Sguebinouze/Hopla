@@ -1,7 +1,7 @@
 // 5e, calcul littéral et algébrique : substitution, développer, factoriser, réduire ; équations ax = c et x + b = c.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 41 et 42.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, frDecimal, options } from './outils';
+import { choix, creerGenerateur, frDecimal } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 /** « 3x + 5 », « x − 4 », « 2x » : coefficient 1 non écrit, signe moins typographique. */
@@ -73,7 +73,7 @@ export const developper5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Réduis : ${x1}x ${plus ? '+' : '−'} ${x2}x + ${b}`,
-        options: options(a, reponse, [`${coef + b}x`, affine(x1 * x2, b), `${coef === 1 ? '' : coef}x² + ${b}`], () => affine(coef + 1, b)),
+        ...choix(a, reponse, [[`${coef + b}x`, 'termes-non-semblables-additionnes'], [affine(x1 * x2, b), 'coefficients-multiplies'], [`${coef === 1 ? '' : coef}x² + ${b}`, 'x-plus-x-carre']], () => affine(coef + 1, b)),
         reponse,
         indice: 'On regroupe les termes en x entre eux. Le nombre seul reste à part.',
         explication: `${x1}x ${plus ? '+' : '−'} ${x2}x = ${affine(coef, 0)}. On ne peut pas l’ajouter à ${b}. Résultat : ${reponse}.`,
@@ -89,7 +89,7 @@ export const developper5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Développe : ${k}(${affine(p, b)})`,
-        options: options(a, reponse, [affine(k * p, b), affine(p, k * b), affine(k + p, k + b)], () => affine(k * p, k * b + 1)),
+        ...choix(a, reponse, [[affine(k * p, b), 'distributivite-incomplete'], [affine(p, k * b), 'distributivite-incomplete'], [affine(k + p, k + b), 'addition-au-lieu-produit']], () => affine(k * p, k * b + 1)),
         reponse,
         indice: 'Multiplie chaque terme de la parenthèse par le facteur devant.',
         explication: `${k} × ${p}x = ${k * p}x et ${k} × ${Math.abs(b)} = ${k * Math.abs(b)}. Donc ${k}(${affine(p, b)}) = ${reponse}.`,
@@ -99,7 +99,7 @@ export const developper5e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Factorise ${affine(k * p, k * b)} en mettant ${k} en facteur.`,
-      options: options(a, reponse, [`${k}(${affine(p, k * b)})`, `${k}(${affine(k * p, b)})`, `${k * p}(x ${b > 0 ? '+' : '−'} ${Math.abs(b)})`], () => `${k}(${affine(p + 1, b)})`),
+      ...choix(a, reponse, [[`${k}(${affine(p, k * b)})`, 'factorisation-incomplete'], [`${k}(${affine(k * p, b)})`, 'factorisation-incomplete'], [`${k * p}(x ${b > 0 ? '+' : '−'} ${Math.abs(b)})`, 'factorisation-incomplete']], () => `${k}(${affine(p + 1, b)})`),
       reponse,
       indice: `Cherche le facteur commun à ${k * p} et ${k * Math.abs(b)}.`,
       explication: `${k * p}x = ${k} × ${p}x et ${k * Math.abs(b)} = ${k} × ${Math.abs(b)}. On met ${k} en facteur : ${reponse}.`,

@@ -1,7 +1,8 @@
 // CE2, étude de la langue : accords, classes de mots, phrase, vocabulaire.
 // Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024), p. 18-19 et 22.
 import { formes } from './ce2-conjugaison';
-import { creerGenerateur, options } from './outils';
+import { confusionTemps } from './erreurs';
+import { choix, creerGenerateur, erreursDe, options } from './outils';
 
 const majuscule = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
 
@@ -35,12 +36,13 @@ export const accordSujetVerbeCe2 = creerGenerateur({
     }
     const liste = formes(verbe, temps);
     const forme = liste[pluriel ? 5 : 2]!;
-    const autre = formes(verbe, temps === 'futur' ? 'présent' : temps === 'imparfait' ? 'futur' : 'imparfait');
+    const autreTemps = temps === 'futur' ? 'présent' : temps === 'imparfait' ? 'futur' : 'imparfait';
+    const autre = formes(verbe, autreTemps);
     const au = temps === 'imparfait' ? 'à l’imparfait' : `au ${temps}`;
     return {
       gabarit: 'qcm',
       consigne: `Choisis le verbe ${au} : ${sujet} … ${suite}.`,
-      options: options(a, forme, [liste[pluriel ? 2 : 5]!, liste[1]!, autre[pluriel ? 5 : 2]!], () => a.choisir(liste)),
+      ...choix(a, forme, [[liste[pluriel ? 2 : 5]!, 'accord-sujet-verbe'], [liste[1]!, 'accord-personne'], [autre[pluriel ? 5 : 2]!, confusionTemps(temps, autreTemps)]], () => a.choisir(liste)),
       reponse: forme,
       indice: sujet.includes(' des ') || sujet.includes(' du ') || sujet.includes(' de ') ? 'Cherche le nom principal du sujet.' : 'Le sujet est-il au singulier ou au pluriel ?',
       explication: pluriel
@@ -92,7 +94,7 @@ export const plurielNomsCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Écris au pluriel : le ${adj} ${sg} → les …`,
-        options: options(a, reponse, a.melanger(pieges).slice(0, 3), () => `${adj} ${sg}`),
+        ...choix(a, reponse, a.melanger(pieges).slice(0, 3).map((p): [string, string] => [p, p === `${adj} ${pl}` ? 'accord-adjectif' : 'pluriel-nom']), () => `${adj} ${sg}`),
         reponse,
         indice: 'Le nom et l’adjectif s’accordent tous les deux.',
         explication: `${regle} L’adjectif « ${adj} » s’accorde aussi. On écrit : les ${reponse}.`,
@@ -101,7 +103,7 @@ export const plurielNomsCe2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Écris au pluriel : un ${sg} → des …`,
-      options: options(a, pl, autresPluriels(sg).filter((x) => x !== pl), () => sg, 3),
+      ...choix(a, pl, autresPluriels(sg).filter((x) => x !== pl).map((x): [string, string] => [x, 'pluriel-nom']), () => sg, { taille: 3 }),
       reponse: pl,
       indice: 'Regarde la fin du nom.',
       explication: `${regle} On écrit : des ${pl}.`,
@@ -177,7 +179,7 @@ export const femininCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Écris au féminin : un ${mn} ${ma} → une …`,
-        options: options(a, reponse, [`${fn} ${ma}`, `${mn} ${fa}`, `${mn}e ${fa}`], () => `${mn} ${ma}`),
+        ...choix(a, reponse, [[`${fn} ${ma}`, 'accord-adjectif'], [`${mn} ${fa}`, 'accord-nom'], [`${mn}e ${fa}`, 'feminin-nom']], () => `${mn} ${ma}`),
         reponse,
         indice: 'Le nom et l’adjectif changent tous les deux.',
         explication: `« ${mn} » devient « ${fn} ». « ${ma} » devient « ${fa} ». On écrit : une ${reponse}.`,
@@ -189,6 +191,7 @@ export const femininCe2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel est le féminin de « ${m} » ?`,
       options: a.melanger([f, ...piegesFeminin(m, f)]),
+      erreurs: erreursDe(piegesFeminin(m, f), f, piegesFeminin(m, f).map((x) => [x, 'feminin-nom'] as const)),
       reponse: f,
       indice: d === 1 ? 'Dis le mot avec « une » devant.' : 'Dis les deux mots à voix haute : un… une…',
       explication: `On dit « ${m} » au masculin et « ${f} » au féminin. ${regleFeminin(m, f)}`,

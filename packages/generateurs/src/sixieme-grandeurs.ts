@@ -1,6 +1,6 @@
 // 6e, grandeurs, mesures et proportionnalité. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 import { decaler, depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options } from './outils';
+import { choix, creerGenerateur, fr, frDecimal } from './outils';
 
 // ─────────── Conversions de longueurs
 
@@ -174,7 +174,7 @@ export const durees6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Combien font ${total} minutes en heures et minutes ?`,
-        options: options(a, ecrireDuree(total), [naif, ecrireDuree(total + 30), ecrireDuree(Math.max(61, total - 40))], () => ecrireDuree(a.entier(61, 299))),
+        ...choix(a, ecrireDuree(total), [[naif, total >= 100 ? 'minutes-centiemes' : undefined], [ecrireDuree(total + 30)], [ecrireDuree(Math.max(61, total - 40))]], () => ecrireDuree(a.entier(61, 299))),
         reponse: ecrireDuree(total),
         indice: 'Combien de fois 60 dans ce nombre ?',
         explication: `${total} = ${h} × 60 + ${m}. ${total} min = ${ecrireDuree(total)}. Une heure compte 60 minutes, pas 100.`,
@@ -193,7 +193,7 @@ export const durees6e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Un film commence à ${ecrireHoraire(debutArrondi)}. Il dure ${ecrireDuree(duree)}. À quelle heure finit-il ?`,
-      options: options(a, ecrireHoraire(fin), [naif, ecrireHoraire(fin + 60), ecrireHoraire(fin - 10)], () => ecrireHoraire(fin + 5 * a.entier(1, 20))),
+      ...choix(a, ecrireHoraire(fin), [[naif, 'minutes-au-dela-de-60'], [ecrireHoraire(fin + 60)], [ecrireHoraire(fin - 10)]], () => ecrireHoraire(fin + 5 * a.entier(1, 20))),
       reponse: ecrireHoraire(fin),
       indice: 'Ajoute d’abord les heures, puis les minutes. 60 minutes font 1 heure.',
       explication: `${ecrireHoraire(debutArrondi)} + ${ecrireDuree(duree)} : ${mD} min + ${mDuree} min = ${mD + mDuree} min${mD + mDuree >= 60 ? `, soit 1 h ${mD + mDuree - 60} min` : ''}. Le film finit à ${ecrireHoraire(fin)}.`,

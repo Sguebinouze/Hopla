@@ -1,6 +1,6 @@
 // CE2, fractions inférieures ou égales à 1, dénominateur jusqu'à 12.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 20-21.
-import { creerGenerateur, optionsNumeriques } from './outils';
+import { choix, creerGenerateur, optionsNumeriques } from './outils';
 
 /** Fractions de base n/d (d ≤ 6) qu'on peut agrandir sans dépasser un dénominateur de 12. */
 const BASES: [number, number][] = [
@@ -33,13 +33,14 @@ export const fractionsEgalesCe2 = creerGenerateur({
     const explication = `Les parts sont ${k} fois plus petites. Il faut ${k} fois plus de parts. ${n} × ${k} = ${N}, donc ${N}/${D} = ${n}/${den}.`;
     if (d === 3) {
       const pieges = garder([`${n}/${D}`, `${N - 1}/${D}`, `${N + 1}/${D}`, `${n + 1}/${den}`]);
+      const numerateurGarde = `${n}/${D}`;
       return {
         gabarit: 'qcm',
         consigne: `Quelle fraction est égale à ${n}/${den} ?`,
-        options: optionsNumeriques(a, `${N}/${D}`, pieges, () => {
+        ...choix(a, `${N}/${D}`, pieges.map((f): [string, string?] => [f, f === numerateurGarde ? 'numerateur-non-multiplie' : undefined]), () => {
           const q = a.entier(den + 1, 12);
           return `${a.entier(1, q - 1)}/${q}`;
-        }),
+        }, { numerique: true }),
         reponse: `${N}/${D}`,
         indice: 'Des parts deux fois plus petites : il en faut deux fois plus.',
         explication,
@@ -139,7 +140,7 @@ export const fractionsAdditionnerCe2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule : ${p}/${den} ${signe} ${q}/${den}`,
-        options: optionsNumeriques(a, `${r}/${den}`, garder([addition ? `${r}/${den * 2}` : `${p + q}/${den}`, `${r + 1}/${den}`]), () => `${a.entier(1, den - 1)}/${den}`),
+        ...choix(a, `${r}/${den}`, [[addition ? `${r}/${den * 2}` : `${p + q}/${den}`, addition ? 'denominateurs-additionnes' : 'addition-au-lieu-soustraction'], [`${r + 1}/${den}`]].filter(([f]) => garder([f!]).length > 0) as [string, string?][], () => `${a.entier(1, den - 1)}/${den}`, { numerique: true }),
         reponse: `${r}/${den}`,
         indice: 'Le dénominateur ne change pas. Calcule avec les numérateurs.',
         explication: `Les parts ont la même taille. ${parts(p)} ${addition ? 'plus' : 'moins'} ${parts(q)}, cela fait ${parts(r)}. Le résultat est ${r}/${den}.`,
@@ -158,7 +159,7 @@ export const fractionsAdditionnerCe2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Calcule : ${gauche} ${signe} ${droite}`,
-      options: optionsNumeriques(a, `${r}/${D}`, garder([addition ? `${x + y}/${D}` : `${Math.abs(x - y)}/${D}`, addition ? `${x + y}/${den}` : `${x}/${D}`, `${r + 1}/${D}`]), () => `${a.entier(1, D - 1)}/${D}`),
+      ...choix(a, `${r}/${D}`, ([[addition ? `${x + y}/${D}` : `${Math.abs(x - y)}/${D}`, 'numerateur-non-multiplie'], [addition ? `${x + y}/${den}` : `${x}/${D}`, addition ? 'mauvais-denominateur' : undefined], [`${r + 1}/${D}`]] as [string, string?][]).filter(([f]) => garder([f]).length > 0), () => `${a.entier(1, D - 1)}/${D}`, { numerique: true }),
       reponse: `${r}/${D}`,
       indice: `Écris ${x}/${den} avec ${D} comme dénominateur.`,
       explication: `${x}/${den} = ${X}/${D}. ${gaucheD} ${signe} ${droiteD} = ${r}/${D}.`,

@@ -1,7 +1,7 @@
 // CM2, grandeurs et mesures : aires, angles, durées. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 // Au CM2 : cm², dm², m² ; degré introduit par l'angle droit (sans rapporteur) ; secondes.
 import { decaler, depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options } from './outils';
+import { choix, creerGenerateur, fr, frDecimal } from './outils';
 
 // ─────────── Aire du carré et du rectangle
 
@@ -227,7 +227,7 @@ export const dureesCm2 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Combien font ${total} secondes en minutes et secondes ?`,
-        options: options(a, ecrireDuree(total), [naif, ecrireDuree(total + 60), ecrireDuree(total - 30)], () => ecrireDuree(a.entier(61, 599))),
+        ...choix(a, ecrireDuree(total), [[naif, total >= 100 ? 'minutes-centiemes' : undefined], [ecrireDuree(total + 60)], [ecrireDuree(total - 30)]], () => ecrireDuree(a.entier(61, 599))),
         reponse: ecrireDuree(total),
         indice: 'Combien de fois 60 dans ce nombre ?',
         explication: `${total} = ${m} × 60 + ${s}. ${total} s = ${ecrireDuree(total)}. Une minute compte 60 secondes, pas 100.`,
@@ -244,11 +244,12 @@ export const dureesCm2 = creerGenerateur({
     // Étapes de la correction : jusqu'à la minute ronde, puis jusqu'à la minute de l'arrivée.
     const rond1 = Math.ceil(debut / 60) * 60;
     const rond2 = fin - sF;
-    const naif = naifS < 60 && naifS >= 0 && naifM >= 0 ? ecrireDuree(naifM * 60 + naifS) : ecrireDuree(duree + 40);
+    const naifValide = naifS < 60 && naifS >= 0 && naifM >= 0;
+    const naif = naifValide ? ecrireDuree(naifM * 60 + naifS) : ecrireDuree(duree + 40);
     return {
       gabarit: 'qcm',
       consigne: `Une course commence à ${ecrireInstant(debut)} et se termine à ${ecrireInstant(fin)}. Combien de temps a-t-elle duré ?`,
-      options: options(a, ecrireDuree(duree), [naif, ecrireDuree(duree + 60), ecrireDuree(duree - 10)], () => ecrireDuree(duree + 5 * a.entier(1, 30))),
+      ...choix(a, ecrireDuree(duree), [[naif, naifValide ? 'minutes-centiemes' : undefined], [ecrireDuree(duree + 60)], [ecrireDuree(duree - 10)]], () => ecrireDuree(duree + 5 * a.entier(1, 30))),
       reponse: ecrireDuree(duree),
       indice: 'Avance de l’heure de départ jusqu’à la minute ronde suivante, puis jusqu’à l’heure d’arrivée.',
       explication: `${ecrireInstant(debut)} → ${ecrireInstant(rond1)} : ${ecrireDuree(rond1 - debut)}. ${ecrireInstant(rond1)} → ${ecrireInstant(rond2)} : ${ecrireDuree(rond2 - rond1)}. ${ecrireInstant(rond2)} → ${ecrireInstant(fin)} : ${ecrireDuree(fin - rond2)}. En tout : ${ecrireDuree(duree)}.`,

@@ -1,7 +1,7 @@
 // 5e, nombres et calculs : priorités opératoires, distributivité, divisibilité, nombres relatifs,
 // fractions, puissances (carrés et cubes). Source : programme de mathématiques du cycle 4
 // (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 40 et 41.
-import { creerGenerateur, fr, options, optionsNumeriques } from './outils';
+import { choix, creerGenerateur, fr } from './outils';
 import { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 
 const pgcd = (x: number, y: number): number => (y === 0 ? Math.abs(x) : pgcd(y, x % y));
@@ -218,7 +218,7 @@ export const soustraireRelatifs5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule : ${ecrireTerme(x)} − ${ecrireTerme(y)}`,
-        options: options(a, reponse, [ecrireRelatif(x + y), ecrireRelatif(-r), ecrireRelatif(-x - y)], () => ecrireRelatif(r + a.entier(-4, 4))),
+        ...choix(a, reponse, [[ecrireRelatif(x + y), 'soustraction-relatifs'], [ecrireRelatif(-r), 'regle-signes'], [ecrireRelatif(-x - y), 'soustraction-relatifs']], () => ecrireRelatif(r + a.entier(-4, 4))),
         reponse,
         indice: 'Soustraire un nombre, c’est ajouter son opposé.',
         explication: `${ecrireTerme(x)} − ${ecrireTerme(y)} = ${ecrireTerme(x)} + ${ecrireTerme(-y)} = ${reponse}.`,
@@ -258,7 +258,7 @@ export const fractions5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule et simplifie si possible : ${n1}/${b} ${plus ? '+' : '−'} ${n2}/${b * k}`,
-        options: optionsNumeriques(a, reponse, [`${plus ? n1 + n2 : Math.abs(n1 - n2)}/${b + b * k}`, `${plus ? n1 + n2 : Math.abs(n1 - n2)}/${b * k}`, fraction(num + k, b * k)], () => `${a.entier(1, 20)}/${b * k}`),
+        ...choix(a, reponse, [[`${plus ? n1 + n2 : Math.abs(n1 - n2)}/${b + b * k}`, 'fractions-terme-a-terme'], [`${plus ? n1 + n2 : Math.abs(n1 - n2)}/${b * k}`, 'numerateur-non-multiplie'], [fraction(num + k, b * k)]], () => `${a.entier(1, 20)}/${b * k}`, { numerique: true }),
         reponse,
         indice: `Écris ${n1}/${b} avec le dénominateur ${b * k}.`,
         explication: `${n1}/${b} = ${n1 * k}/${b * k}. ${n1 * k}/${b * k} ${plus ? '+' : '−'} ${n2}/${b * k} = ${num}/${b * k}${fraction(num, b * k) !== `${num}/${b * k}` ? ` = ${reponse}` : ''}.`,
@@ -274,7 +274,7 @@ export const fractions5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Calcule et simplifie si possible : ${n1}/${b1} + ${n2}/${b2}`,
-        options: optionsNumeriques(a, reponse, [`${n1 + n2}/${b1 + b2}`, `${n1 + n2}/${b1 * b2}`, `${n1 * n2}/${b1 * b2}`], () => `${a.entier(1, 30)}/${b1 * b2}`),
+        ...choix(a, reponse, [[`${n1 + n2}/${b1 + b2}`, 'fractions-terme-a-terme'], [`${n1 + n2}/${b1 * b2}`, 'numerateur-non-multiplie'], [`${n1 * n2}/${b1 * b2}`, 'addition-au-lieu-produit']], () => `${a.entier(1, 30)}/${b1 * b2}`, { numerique: true }),
         reponse,
         indice: `Prends ${b1 * b2} comme dénominateur commun.`,
         explication: `${n1}/${b1} = ${n1 * b2}/${b1 * b2} et ${n2}/${b2} = ${n2 * b1}/${b1 * b2}. Somme : ${num}/${b1 * b2}${reponse !== `${num}/${b1 * b2}` ? ` = ${reponse}` : ''}. On n’additionne jamais les dénominateurs.`,

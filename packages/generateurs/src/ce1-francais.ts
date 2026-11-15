@@ -1,5 +1,5 @@
 // CE1, étude de la langue. Source : programme de français du cycle 2 (BO n°41 du 31 octobre 2024).
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, options } from './outils';
 
 // Verbes du premier groupe sans particularité orthographique (pas de -ger, -cer, -yer, -eler, -eter, -ier,
 // ni de e ou é dans l'avant-dernière syllabe).
@@ -34,7 +34,7 @@ export const presentCe1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Complète avec le verbe ${etre ? 'être' : 'avoir'} au présent : ${sujetDevant(p, forme).trim()} …`,
-        options: options(a, forme, a.melanger(table).slice(0, 3), () => a.choisir(table)),
+        ...choix(a, forme, a.melanger(table).slice(0, 3).map((x): [string, string] => [x, 'accord-personne']), () => a.choisir(table)),
         reponse: forme,
         indice: `Récite le verbe ${etre ? 'être' : 'avoir'} au présent.`,
         explication: `Le verbe ${etre ? 'être' : 'avoir'} ne suit pas de modèle. Au présent, on écrit : ${sujetDevant(p, forme)}${forme}.`,
@@ -48,7 +48,7 @@ export const presentCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Complète avec le verbe ${verbe} au présent : ${sujetDevant(p, forme).trim()} …`,
-      options: options(a, forme, a.melanger(autres).slice(0, 3), () => radical + a.choisir(['e', 'es', 'ons', 'ez', 'ent'])),
+      ...choix(a, forme, a.melanger(autres).slice(0, 3).map((x): [string, string] => [x, 'accord-personne']), () => radical + a.choisir(['e', 'es', 'ons', 'ez', 'ent'])),
       reponse: forme,
       indice: 'Regarde le sujet. Il commande la terminaison.',
       explication: `Avec « ${p} », la terminaison est -${fin}. On écrit : ${sujetDevant(p, forme)}${forme}.`,
@@ -81,7 +81,7 @@ export const infinitifCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quel est l’infinitif du verbe : ${conjugue} ?`,
-      options: options(a, verbe, [`${radical}é`, `${radical}ent`, `${radical}e`], () => `${radical}ons`),
+      ...choix(a, verbe, [[`${radical}é`, 'participe-pour-infinitif'], [`${radical}ent`, 'conjugue-pour-infinitif'], [`${radical}e`, 'conjugue-pour-infinitif']], () => `${radical}ons`),
       reponse: verbe,
       indice: 'Cherche le radical. Puis ajoute -er.',
       explication: `Le radical est « ${radical} ». L’infinitif se termine par -er : ${verbe}.`,
@@ -112,11 +112,11 @@ export const plurielGnCe1 = creerGenerateur({
     const detPl = defini ? 'les' : 'des';
     const gn = (n: string, x: string) => (avant ? `${x} ${n}` : `${n} ${x}`);
     const reponse = gn(`${nom}s`, `${adj}s`);
-    const pieges = [gn(nom, `${adj}s`), gn(`${nom}s`, adj), feminin ? gn(`${nom}s`, `${adjM}s`) : gn(nom, adj)];
+    const pieges: [string, string][] = [[gn(nom, `${adj}s`), 'accord-nom'], [gn(`${nom}s`, adj), 'accord-adjectif'], feminin ? [gn(`${nom}s`, `${adjM}s`), 'accord-adjectif'] : [gn(nom, adj), 'pluriel-oublie']];
     return {
       gabarit: 'qcm',
       consigne: `Écris au pluriel : ${det} ${gn(nom, adj)} → ${detPl} …`,
-      options: options(a, reponse, pieges, () => gn(nom, adj)),
+      ...choix(a, reponse, pieges, () => gn(nom, adj)),
       reponse,
       indice: 'Au pluriel, le nom prend un s. L’adjectif aussi.',
       explication: feminin
@@ -151,7 +151,7 @@ export const accordSujetVerbeCe1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Choisis le bon verbe : ${sujet} … ${suite}.`,
-      options: options(a, forme, [`${radical}e`, `${radical}es`, `${radical}ent`, `${radical}ons`], () => `${radical}ez`),
+      ...choix(a, forme, [[`${radical}e`, 'accord-sujet-verbe'], [`${radical}es`, 'accord-personne'], [`${radical}ent`, 'accord-sujet-verbe'], [`${radical}ons`, 'accord-personne']], () => `${radical}ez`),
       reponse: forme,
       indice: d === 3 ? 'Cherche qui fait l’action.' : 'Le sujet est-il au singulier ou au pluriel ?',
       explication: pluriel

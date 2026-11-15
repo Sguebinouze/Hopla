@@ -1,7 +1,7 @@
 // 6e, organisation et gestion de données, probabilités.
 // Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), p. 25 et 26.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, frDecimal, optionsNumeriques } from './outils';
+import { choix, creerGenerateur, frDecimal } from './outils';
 
 // ─────────── Lire et filtrer des données
 
@@ -105,7 +105,7 @@ export const probabilites6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Une urne contient ${x} boule${x > 1 ? 's' : ''} ${x > 1 ? couleurs[0] : couleurs[0].slice(0, -1)} et ${y} boule${y > 1 ? 's' : ''} ${y > 1 ? couleurs[1] : couleurs[1].slice(0, -1)}. On tire une boule au hasard. Quelle est la probabilité qu’elle soit ${couleurs[0].slice(0, -1)} ?`,
-        options: optionsNumeriques(a, reponse, [`${x}/${y}`, `${y}/${total}`, `${total}/${x}`], () => `${a.entier(1, total)}/${total + 1}`),
+        ...choix(a, reponse, [[`${x}/${y}`, 'probabilite-favorables-sur-autres'], [`${y}/${total}`, 'evenement-contraire'], [`${total}/${x}`, 'probabilite-superieure-a-1']], () => `${a.entier(1, total)}/${total + 1}`, { numerique: true }),
         reponse,
         indice: 'Probabilité = nombre de cas favorables ÷ nombre total de cas.',
         explication: `Il y a ${total} boules en tout, dont ${x} ${couleurs[0].slice(0, -1)}${x > 1 ? 's' : ''}. La probabilité est ${reponse}.`,

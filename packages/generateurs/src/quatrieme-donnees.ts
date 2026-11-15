@@ -2,7 +2,7 @@
 // évènement contraire, deux épreuves ; quatrième proportionnelle, partage ; coefficient multiplicateur ; programmes de calcul.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 50 et 52.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, optionsNumeriques } from './outils';
+import { choix, creerGenerateur, erreursDe, fr, frDecimal, optionsNumeriques } from './outils';
 
 const dec = (n: number, c: number) => frDecimal(depuisEntier(n, c));
 
@@ -74,7 +74,7 @@ export const probabilites4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `La probabilité qu’un évènement A se réalise est ${num}/${den}. Quelle est la probabilité de l’évènement contraire de A ?`,
-        options: optionsNumeriques(a, `${den - num}/${den}`, [`${num}/${den}`, `${den}/${num}`, `1/${den}`], () => `${a.entier(1, den - 1)}/${den + 1}`),
+        ...choix(a, `${den - num}/${den}`, [[`${num}/${den}`, 'evenement-contraire'], [`${den}/${num}`, 'probabilite-superieure-a-1'], [`1/${den}`]], () => `${a.entier(1, den - 1)}/${den + 1}`, { numerique: true }),
         reponse: `${den - num}/${den}`,
         indice: 'p(A) + p(contraire de A) = 1.',
         explication: `1 − ${num}/${den} = ${den - num}/${den}.`,
@@ -99,7 +99,7 @@ export const probabilites4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Une urne contient ${r} boule${r > 1 ? 's' : ''} rouge${r > 1 ? 's' : ''} et ${b} bleue${b > 1 ? 's' : ''}. On tire une boule, on la remet, puis on en tire une deuxième. Quelle est la probabilité d’obtenir deux boules rouges ?`,
-        options: optionsNumeriques(a, reponse, [`${r}/${n}`, `${2 * r}/${n}`, `${r * r}/${n}`], () => `${a.entier(1, n * n - 1)}/${n * n}`),
+        ...choix(a, reponse, [[`${r}/${n}`, 'probabilites-non-multipliees'], [`${2 * r}/${n}`, 'probabilites-additionnees'], [`${r * r}/${n}`, 'denominateur-non-multiplie']], () => `${a.entier(1, n * n - 1)}/${n * n}`, { numerique: true }),
         reponse,
         indice: 'Les deux tirages sont indépendants : multiplie les probabilités.',
         explication: `Rouge au premier tirage : ${r}/${n}. Rouge au second : ${r}/${n}. ${r}/${n} × ${r}/${n} = ${reponse}.`,
@@ -170,7 +170,7 @@ export const coefficientMultiplicateur4e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Par quel nombre multiplie-t-on un prix pour ${hausse ? 'l’augmenter' : 'le diminuer'} de ${p} % ?`,
-        options: optionsNumeriques(a, dec(coef, 2), [dec(p, 2), dec(hausse ? 100 - p : 100 + p, 2), String(p)], () => dec(coef + 5, 2)),
+        ...choix(a, dec(coef, 2), [[dec(p, 2), 'coefficient-sans-1'], [dec(hausse ? 100 - p : 100 + p, 2), 'hausse-baisse-confondues'], [String(p), 'pourcentage-pour-coefficient']], () => dec(coef + 5, 2), { numerique: true }),
         reponse: dec(coef, 2),
         indice: `${hausse ? 'Augmenter' : 'Diminuer'} de ${p} %, c’est multiplier par 1 ${hausse ? '+' : '−'} ${p}/100.`,
         explication: `1 ${hausse ? '+' : '−'} ${dec(p, 2)} = ${dec(coef, 2)}.`,
@@ -235,6 +235,7 @@ export const programmeCalcul4e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Programme : choisir un nombre x, ajouter ${b}, multiplier le résultat par ${k}. Quelle expression donne le résultat ?`,
       options: [...new Set([reponse, `x + ${b} × ${k}`, `${k}x + ${b}`, `${b}x + ${k}`, `${k}x + ${b + k}`])].slice(0, 4).sort(),
+      erreurs: erreursDe([...new Set([reponse, `x + ${b} × ${k}`, `${k}x + ${b}`, `${b}x + ${k}`, `${k}x + ${b + k}`])].slice(0, 4), reponse, [[`x + ${b} × ${k}`, 'parentheses-oubliees'], [`${k}x + ${b}`, 'distributivite-incomplete']]),
       reponse,
       indice: 'Écris (x + b) × k, puis développe.',
       explication: `(x + ${b}) × ${k} = ${k}x + ${k * b}.`,

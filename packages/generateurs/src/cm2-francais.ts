@@ -3,7 +3,7 @@
 // accord du participe passé avec être et avec avoir (COD placé avant), forme négative des temps composés,
 // attribut, COD, COI, compléments circonstanciels de temps, de lieu, de cause, sujet inversé,
 // prépositions, pronoms personnels compléments, phrase complexe.
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, erreursDe } from './outils';
 
 const PERSONNES = ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles'] as const;
 type Personne = (typeof PERSONNES)[number];
@@ -61,7 +61,7 @@ export const passeSimpleCm2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Conjugue « ${v.infinitif} » au passé simple : ${elide(p, forme).trim()} …`,
-      options: options(a, forme, [imparfait, ...a.melanger(autres)], () => passeSimple(v, a.entier(0, 5))),
+      ...choix(a, forme, [[imparfait, 'imparfait-passe-simple'], ...a.melanger(autres).map((x): [string, string] => [x, 'accord-personne'])], () => passeSimple(v, a.entier(0, 5))),
       reponse: forme,
       indice: v.groupe === 1 || v.infinitif === 'aller'
         ? 'Verbes en -er au passé simple : -ai, -as, -a, -âmes, -âtes, -èrent.'
@@ -108,7 +108,7 @@ export const plusQueParfaitCm2 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Conjugue « ${v.infinitif} » au plus-que-parfait : ${elide(p, forme).trim()} …`,
-      options: options(a, forme, [passeCompose, mauvaisAccord, mauvaisAux], () => `${aux[a.entier(0, 5)]} ${v.participe}`),
+      ...choix(a, forme, [[passeCompose, 'auxiliaire-temps-confondu'], [mauvaisAccord, v.etre ? 'accord-etre' : 'accord-personne'], [mauvaisAux, 'auxiliaire-faux']], () => `${aux[a.entier(0, 5)]} ${v.participe}`),
       reponse: forme,
       indice: 'Plus-que-parfait = auxiliaire être ou avoir à l’imparfait + participe passé.',
       explication: `« ${v.infinitif} » se conjugue avec l’auxiliaire ${v.etre ? 'être' : 'avoir'}. À l’imparfait : ${elide(p, aux[r]!)}${aux[r]}. On ajoute le participe passé « ${v.participe}${accord} »${v.etre ? ', accordé avec le sujet' : ''}. « ${passeCompose} » est au passé composé.`,
@@ -162,6 +162,7 @@ export const participePasseEtreCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Choisis la bonne forme du verbe « ${inf} » : ${s.texte} ${aux} … ${suite}.`,
       options: a.melanger([pp, `${pp}e`, `${pp}s`, `${pp}es`]),
+      erreurs: erreursDe([pp, `${pp}e`, `${pp}s`, `${pp}es`], forme, [pp, `${pp}e`, `${pp}s`, `${pp}es`].map((x) => [x, 'accord-etre'] as const)),
       reponse: forme,
       indice: 'Avec l’auxiliaire être, le participe passé s’accorde avec le sujet. Cherche le nom noyau du sujet.',
       explication: `${s.noyau ? `Le nom noyau du sujet est « ${s.noyau} ». ` : ''}Le sujet est ${s.feminin ? 'féminin' : 'masculin'} ${s.pluriel ? 'pluriel' : 'singulier'}.${coordonne && !s.feminin ? ' Un masculin et un féminin ensemble donnent un masculin pluriel.' : ''} On écrit : ${s.texte} ${aux} ${forme}.`,
@@ -256,6 +257,8 @@ export const participePasseAvoirCm2 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Choisis la bonne forme du verbe « ${v.infinitif} » : ${phrase}`,
       options: a.melanger([...new Set([pp, `${pp}e`, pp.endsWith('s') ? pp : `${pp}s`, `${pp}es`])]),
+      erreurs: erreursDe([pp, `${pp}e`, pp.endsWith('s') ? pp : `${pp}s`, `${pp}es`], reponse, [pp, `${pp}e`, pp.endsWith('s') ? pp : `${pp}s`, `${pp}es`].map((x) => [x,
+        reponse === pp ? 'accord-pp-abusif' : x === pp ? 'accord-cod-avant-oublie' : 'accord-pp-genre-nombre'] as const)),
       reponse,
       indice: 'Avec avoir, cherche le COD : se trouve-t-il avant ou après le verbe ?',
       explication,
@@ -649,15 +652,15 @@ export const pronomsComplementsCm2 = creerGenerateur({
     const construire = (p: string) => `${sujet} ${neg(devant(p))}${forme}${fin}.`;
     const reponse = construire(pronom);
     const autres = ['le', 'la', 'les', 'lui', 'leur'].filter((p) => p !== pronom);
-    const pieges = [
-      ...a.melanger(autres).slice(0, 2).map(construire),
+    const pieges: [string, string][] = [
+      ...a.melanger(autres).slice(0, 2).map((p): [string, string] => [construire(p), 'pronom-complement-confondu']),
       // Pronom mal placé : avant « ne », ou après le verbe.
-      negatif ? `${sujet} ${pronom} ${ne}${forme} pas.` : `${sujet} ${forme} ${pronom}.`,
+      [negatif ? `${sujet} ${pronom} ${ne}${forme} pas.` : `${sujet} ${forme} ${pronom}.`, 'pronom-mal-place'],
     ];
     return {
       gabarit: 'qcm',
       consigne: `Remplace « ${complement} » par un pronom personnel : ${phrase}`,
-      options: options(a, reponse, pieges, () => construire(a.choisir(autres))),
+      ...choix(a, reponse, pieges, () => construire(a.choisir(autres))),
       reponse,
       indice: v.coi ? 'Le complément est introduit par « à » : c’est un COI.' : 'Le complément suit le verbe sans préposition : c’est un COD.',
       explication: v.coi
@@ -744,16 +747,17 @@ export const negationTempsComposesCm2 = creerGenerateur({
     const ne = voyelle(groupe) ? 'n’' : 'ne ';
     const reponse = `${sujet} ${ne}${groupe} ${adv} ${apres}.`;
     const [participe, ...reste] = apres.split(' ');
-    const pieges = [
-      `${sujet} ${ne}${groupe} ${participe} ${adv}${reste.length ? ` ${reste.join(' ')}` : ''}.`,
-      avant ? `${sujet} ${groupe} ${adv} ${apres}.` : `${sujet} ne ${groupe} ${adv} ${apres}.`,
-      `${sujet} ${adv} ${ne}${groupe} ${apres}.`,
-      avant ? `${sujet} ne ${adv} ${groupe} ${apres}.` : `${sujet} ${ne}${groupe} ${apres} ${adv}.`,
-    ].filter((p) => p !== reponse);
+    const qualifies: [string, string][] = [
+      [`${sujet} ${ne}${groupe} ${participe} ${adv}${reste.length ? ` ${reste.join(' ')}` : ''}.`, 'negation-mal-placee'],
+      [avant ? `${sujet} ${groupe} ${adv} ${apres}.` : `${sujet} ne ${groupe} ${adv} ${apres}.`, avant ? 'negation-ne-oublie' : 'elision-oubliee'],
+      [`${sujet} ${adv} ${ne}${groupe} ${apres}.`, 'negation-mal-placee'],
+      [avant ? `${sujet} ne ${adv} ${groupe} ${apres}.` : `${sujet} ${ne}${groupe} ${apres} ${adv}.`, 'negation-mal-placee'],
+    ];
+    const pieges = qualifies.map(([p]) => p).filter((p) => p !== reponse);
     return {
       gabarit: 'qcm',
       consigne: `Mets à la forme négative avec « ne … ${adv} » : ${phrase}`,
-      options: options(a, reponse, a.melanger(pieges).slice(0, 3), () => `${sujet} ${adv} ${groupe} ${apres}.`),
+      ...choix(a, reponse, a.melanger(pieges).slice(0, 3).map((p): [string, string?] => [p, qualifies.find(([q]) => q === p)?.[1]]), () => `${sujet} ${adv} ${groupe} ${apres}.`),
       reponse,
       indice: 'Aux temps composés, la négation encadre l’auxiliaire.',
       explication: `L’auxiliaire est « ${aux} ». « ${ne.trim()} » se place devant${avant ? ` le pronom « ${avant} » et` : ''} l’auxiliaire, « ${adv} » juste après l’auxiliaire. On écrit : ${reponse}`,

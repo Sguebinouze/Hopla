@@ -1,6 +1,6 @@
 // CP, nombres jusqu'à 100. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 import { enLettres } from './lettres';
-import { creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
 
 const TROU = '…';
 
@@ -28,7 +28,7 @@ export const nombresUnitesCp = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quel nombre a ${qte(dz, 'dizaine')} et ${qte(u, 'unité')} ?`,
-        options: optionsNumeriques(a, String(n), [String(10 * u + dz), String(dz + u), String(10 * dz)], () => String(a.entier(11, 99))),
+        ...choix(a, String(n), [[String(10 * u + dz), 'dizaines-unites-inversees'], [String(dz + u), 'dizaines-comptees-unites'], [String(10 * dz), 'unites-oubliees']], () => String(a.entier(11, 99)), { numerique: true }),
         reponse: String(n),
         indice: 'Le chiffre des dizaines s’écrit à gauche.',
         explication: `${qte(dz, 'dizaine')}, c’est ${10 * dz}. ${10 * dz} + ${u} = ${n}.`,

@@ -1,7 +1,7 @@
 // 5e, espace et géométrie : volumes, symétrie centrale, angles et parallélisme, triangles, parallélogrammes.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 45 et 46.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, fr, frDecimal, options } from './outils';
+import { choix, creerGenerateur, fr, frDecimal } from './outils';
 import { ecrireRelatif } from './relatifs-c4';
 
 const dec = (n: number, chiffres: number) => frDecimal(depuisEntier(n, chiffres));
@@ -132,7 +132,7 @@ export const symetrieCentrale5e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Dans un repère d’origine O, le point A a pour coordonnées ${coord(x, y)}. Quelles sont les coordonnées de son symétrique A′ par rapport à O ?`,
-      options: options(a, reponse, [coord(-x, y), coord(x, -y), coord(y, x)], () => coord(x, y)),
+      ...choix(a, reponse, [[coord(-x, y), 'symetrie-centrale-axiale'], [coord(x, -y), 'symetrie-centrale-axiale'], [coord(y, x), 'coordonnees-inversees']], () => coord(x, y)),
       reponse,
       indice: 'O est le milieu de [AA′] : on prend les opposés des deux coordonnées.',
       explication: `L’abscisse ${ecrireRelatif(x)} devient ${ecrireRelatif(-x)} et l’ordonnée ${ecrireRelatif(y)} devient ${ecrireRelatif(-y)}. A′ a pour coordonnées ${reponse}.`,

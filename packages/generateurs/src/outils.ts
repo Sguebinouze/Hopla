@@ -81,3 +81,34 @@ export function optionsNumeriques(a: Aleatoire, reponse: string, pieges: string[
   for (let i = 0; i < 200 && liste.length < taille; i++) ajouter(secours());
   return a.melanger(liste);
 }
+
+/** Piège de QCM : l'option et, si elle révèle une erreur typique, son code (voir `ERREURS`). */
+export type Piege = readonly [string | undefined, string?];
+
+/** Codes d'erreur des pièges réellement retenus parmi les options (jamais la bonne réponse). */
+export function erreursDe(opts: readonly string[], reponse: string, pieges: readonly Piege[]): Record<string, string> {
+  const erreurs: Record<string, string> = {};
+  for (const [option, code] of pieges) {
+    if (option !== undefined && code && option !== reponse && opts.includes(option) && !(option in erreurs)) erreurs[option] = code;
+  }
+  return erreurs;
+}
+
+/** Options de QCM et codes d'erreur des pièges qualifiés, en un seul appel. */
+export function choix(
+  a: Aleatoire, reponse: string, pieges: readonly Piege[], secours: () => string, reglages: { numerique?: boolean; taille?: number } = {},
+): { options: string[]; erreurs: Record<string, string> } {
+  const liste = pieges.flatMap(([o]) => (o === undefined ? [] : [o]));
+  const opts = (reglages.numerique ? optionsNumeriques : options)(a, reponse, liste, secours, reglages.taille ?? 4);
+  return { options: opts, erreurs: erreursDe(opts, reponse, pieges) };
+}
+
+/** Erreur « decimal-longueur » : l'élève prend le décimal qui a le plus (ou le moins) de décimales pour le plus grand (ou le plus petit). */
+export function erreurLongueurDecimale(valeurs: readonly string[], reponse: string, plusGrand: boolean): Record<string, string> {
+  const decimales = (x: string) => (x.split(',')[1] ?? '').length;
+  const tri = [...valeurs].sort((x, y) => (plusGrand ? decimales(y) - decimales(x) : decimales(x) - decimales(y)));
+  const piege = frDecimal(tri[0]!);
+  // Erreur typique seulement à partie entière égale : 3,125 pris pour plus grand que 3,8.
+  const memeEntier = tri[0]!.split(',')[0] === reponse.replace(/[\s  ]/g, '').split(',')[0];
+  return piege !== reponse && memeEntier && decimales(tri[0]!) !== decimales(tri[1]!) ? { [piege]: 'decimal-longueur' } : {};
+}

@@ -1,7 +1,8 @@
 // 5e, conjugaison et accords : identifier un temps, variations du radical, accord sujet-verbe dans les cas complexes,
 // accord du participe passé avec être et avec avoir (COD placé avant, à distinguer du COI).
 // Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 31.
-import { creerGenerateur } from './outils';
+import { confusionTemps } from './erreurs';
+import { creerGenerateur, erreursDe } from './outils';
 
 // ─────────── Identifier un temps de l'indicatif
 
@@ -15,6 +16,11 @@ const SIMPLES: Record<string, string[]> = {
   'conditionnel présent': ['erais', 'erais', 'erait', 'erions', 'eriez', 'eraient'],
 };
 const NOMS_SIMPLES = Object.keys(SIMPLES);
+/** Le bon temps et trois autres, avec le code des confusions connues. */
+const optionsTemps = (a: { melanger: <T>(l: readonly T[]) => T[] }, temps: string, noms: string[]) => {
+  const options = a.melanger([temps, ...a.melanger(noms.filter((t) => t !== temps)).slice(0, 3)]);
+  return { options, erreurs: erreursDe(options, temps, options.map((t) => [t, confusionTemps(temps, t)] as const)) };
+};
 /** Verbes irréguliers à la 3e personne du singulier et à la 1re du pluriel : [présent, imparfait, futur, passé simple, conditionnel]. */
 const IRREGULIERS: Record<string, [string[], string[]]> = {
   être: [['est', 'était', 'sera', 'fut', 'serait'], ['sommes', 'étions', 'serons', 'fûmes', 'serions']],
@@ -54,7 +60,7 @@ export const identifierTemps5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `« ${sujet(PERSONNES[r]!, forme)}${forme} » : à quel temps de l’indicatif ce verbe est-il conjugué ?`,
-        options: a.melanger([temps, ...a.melanger(NOMS_SIMPLES.filter((t) => t !== temps)).slice(0, 3)]),
+        ...optionsTemps(a, temps, NOMS_SIMPLES),
         reponse: temps,
         indice: 'Repère la terminaison : marque du temps (-ai-, -r-, -â-…) et marque de la personne.',
         explication: `La terminaison « -${SIMPLES[temps]![r]} » avec « ${PERSONNES[r]} » est celle du ${temps}.`,
@@ -69,7 +75,7 @@ export const identifierTemps5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `« ${pluriel ? 'nous' : 'elle'} ${forme} » (verbe ${verbe}) : à quel temps de l’indicatif ce verbe est-il conjugué ?`,
-        options: a.melanger([temps, ...a.melanger(NOMS_SIMPLES.filter((x) => x !== temps)).slice(0, 3)]),
+        ...optionsTemps(a, temps, NOMS_SIMPLES),
         reponse: temps,
         indice: 'Pense au radical (il peut changer) et à la terminaison.',
         explication: `« ${forme} » est le verbe ${verbe} au ${temps}.`,
@@ -86,6 +92,7 @@ export const identifierTemps5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${sujet(PERSONNES[r]!, auxiliaire)}${auxiliaire} ${participe} » : à quel temps de l’indicatif ce verbe est-il conjugué ?`,
       options: a.melanger(COMPOSES.map((c) => c[0])),
+      erreurs: erreursDe(COMPOSES.map((c) => c[0]), temps, COMPOSES.map((c) => [c[0], confusionTemps(temps, c[0])] as const)),
       reponse: temps,
       indice: 'Un temps composé = auxiliaire + participe passé. Le temps de l’auxiliaire donne le nom du temps composé.',
       explication: `L’auxiliaire « ${auxiliaire} » est au ${{ 'passé composé': 'présent', 'plus-que-parfait': 'imparfait', 'futur antérieur': 'futur simple', 'passé antérieur': 'passé simple' }[temps]} : le verbe est au ${temps}.`,
@@ -141,6 +148,7 @@ export const radicaux5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Conjugue « ${verbe} » ${temps === 'imparfait' ? 'à l’imparfait' : temps === 'futur' ? 'au futur simple' : `au ${temps}`} avec « ${pronom} ».`,
       options: a.melanger([bonne, ...pieges]),
+      erreurs: erreursDe(pieges, bonne, pieges.map((p) => [p, 'radical-verbe'] as const)),
       reponse: bonne,
       indice: 'Le radical peut changer : regarde si la terminaison commence par une voyelle prononcée ou par un e muet.',
       explication,
@@ -198,6 +206,7 @@ export const accordSujetVerbe5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec le verbe « ${infinitif} » au présent : ${phrase}`,
       options: a.melanger([reponse, ...pieges]),
+      erreurs: erreursDe(pieges, reponse, [[pieges[0], / et /.test(phrase) ? 'accord-sujets-multiples' : 'accord-complement-du-nom'], [pieges[1], 'accord-personne']]),
       reponse,
       indice: 'Cherche le nom noyau du sujet. Le complément du nom ne commande pas l’accord.',
       explication: `${explication} On écrit : ${phrase.replace('…', reponse)}`,
@@ -252,6 +261,9 @@ export const participePasse5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec le participe passé de « ${infinitif} » : ${phrase}`,
       options: a.melanger([reponse, ...pieges]),
+      erreurs: erreursDe(pieges, reponse, pieges.map((p) => [p, / (est|sont|suis|es|sommes|êtes) …/.test(phrase) ? 'accord-etre'
+        : reponse.length < p.length ? (/ (leur|lui) /.test(phrase) ? 'accord-avec-coi' : 'accord-pp-abusif')
+          : p.length < reponse.length && reponse.startsWith(p) ? 'accord-cod-avant-oublie' : 'accord-pp-genre-nombre'] as const)),
       reponse,
       indice: 'Avec être : accord avec le sujet. Avec avoir : accord avec le COD seulement s’il est placé avant.',
       explication: `${explication} On écrit : ${phrase.replace('…', reponse)}`,

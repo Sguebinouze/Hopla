@@ -1,6 +1,6 @@
 // CP, grandeurs et mesures, espace et géométrie, données.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
-import { creerGenerateur, options, optionsNumeriques, qte } from './outils';
+import { choix, creerGenerateur, options, optionsNumeriques, qte } from './outils';
 
 const PRENOMS = ['Léa', 'Anna', 'Mia', 'Paul', 'Jan', 'Aaron', 'Hugo', 'Zoé'];
 const FILLES = ['Léa', 'Anna', 'Mia', 'Zoé'];
@@ -183,7 +183,7 @@ export const heuresCp = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `${phrases.join(' ')} Quelle heure est-il ?`,
-      options: options(a, heures(n), [heures(12), ...voisines], () => heures(a.entier(1, 11))),
+      ...choix(a, heures(n), [[heures(12), 'aiguilles-inversees'], ...voisines.map((x): [string] => [x])], () => heures(a.entier(1, 11))),
       reponse: heures(n),
       indice: 'La petite aiguille montre les heures.',
       explication: `La grande aiguille sur le 12 : c’est une heure entière. La petite aiguille est sur le ${n}. Il est ${heures(n)}.`,

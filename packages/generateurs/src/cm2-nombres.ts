@@ -2,7 +2,7 @@
 // Au CM2 : entiers jusqu'à 999 999 999, décimaux jusqu'aux millièmes, arrondi à l'unité seulement.
 import { comparerDecimaux, decaler, depuisEntier, normaliserDecimal } from './decimaux';
 import { enLettres } from './lettres';
-import { creerGenerateur, fr, frDecimal, options, optionsNumeriques, qte, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, qte, type Aleatoire } from './outils';
 
 /** Un grand nombre « lisible » : quelques classes non nulles, des zéros intercalés. */
 function grandNombre(a: Aleatoire, chiffresMax: number): number {
@@ -33,17 +33,18 @@ export const nombresLettresCm2 = creerGenerateur({
     }
     // Pièges : un chiffre déplacé dans une autre classe, ou l'accord oublié de « cent » et « vingt ».
     const millions = Math.floor(n / 1e6);
-    const pieges = [
-      millions > 0 ? enLettres((n % 1e6) + Math.floor(millions / 10) * 1e6 + (millions % 10) * 1e5) : '',
-      enLettres(n + 1e6),
-      enLettres(Math.floor(n / 10)),
-    ].filter(Boolean);
+    const candidats: [string, string?][] = [
+      [millions > 0 ? enLettres((n % 1e6) + Math.floor(millions / 10) * 1e6 + (millions % 10) * 1e5) : '', 'classes-nombre'],
+      [enLettres(n + 1e6)],
+      [enLettres(Math.floor(n / 10)), 'classes-nombre'],
+    ];
+    const pieges = candidats.filter((p) => Boolean(p[0]));
     const sansS = enLettres(n).replace(/(cent|vingt)s(?=-millions?|$)/, '$1');
-    if (sansS !== enLettres(n)) pieges.unshift(sansS);
+    if (sansS !== enLettres(n)) pieges.unshift([sansS, 'accord-cent-vingt']);
     return {
       gabarit: 'qcm',
       consigne: `Comment s’écrit ${fr(n)} en lettres ?`,
-      options: options(a, enLettres(n), pieges, () => enLettres(n + a.entier(1, 9) * 1000)),
+      ...choix(a, enLettres(n), pieges, () => enLettres(n + a.entier(1, 9) * 1000)),
       reponse: enLettres(n),
       indice: 'Lis le nombre classe par classe : millions, milliers, puis unités.',
       explication: `${fr(n)} se lit classe par classe. On écrit : ${enLettres(n)}. « Mille » est invariable, « million » prend un s au pluriel.`,
@@ -365,6 +366,7 @@ export const comparerDecimauxCm2 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est le plus ${grand ? 'grand' : 'petit'} de ces nombres ?`,
         options: a.melanger(liste.map(frDecimal)),
+        erreurs: erreurLongueurDecimale(liste, frDecimal(cible), grand),
         reponse: frDecimal(cible),
         indice: 'Compare d’abord les parties entières, puis les dixièmes, les centièmes et les millièmes.',
         explication: `Rangés dans l’ordre croissant : ${tri.map(frDecimal).join(' < ')}.`,

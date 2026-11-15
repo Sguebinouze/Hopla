@@ -1,5 +1,5 @@
 // 6e, étude de la langue. Source : programme de français du cycle 3 (BO n°16 du 17 avril 2025).
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, erreursDe } from './outils';
 
 // ─────────── Données de conjugaison
 
@@ -65,7 +65,7 @@ export const conditionnel6e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Conjugue « ${v.infinitif} » au conditionnel présent : ${elide(p, forme).trim()} …`,
-      options: options(a, forme, [futur, imparfait, autrePersonne], () => v.futur + a.choisir(FIN_CONDITIONNEL)),
+      ...choix(a, forme, [[futur, 'futur-conditionnel'], [imparfait, 'imparfait-conditionnel'], [autrePersonne, 'accord-personne']], () => v.futur + a.choisir(FIN_CONDITIONNEL)),
       reponse: forme,
       indice: 'Conditionnel présent = radical du futur + terminaisons de l’imparfait.',
       explication: `Le radical du futur est « ${v.futur}- ». On ajoute la terminaison de l’imparfait -${FIN_CONDITIONNEL[r]} : ${elide(p, forme)}${forme}.${r === 0 ? ` Ne confonds pas avec le futur : ${elide(p, futur)}${futur}.` : ''}`,
@@ -89,7 +89,7 @@ export const imperatif6e = creerGenerateur({
     // Difficulté 1 : surtout la 2e personne du singulier, où l'on oublie le -s absent.
     const r = d === 1 && a.suivant() < 0.6 ? 0 : a.entier(0, 2);
     const forme = imp[r]!;
-    const pieges = [v.presentTu, ...imp.filter((x) => x !== forme), v.infinitif];
+    const pieges: [string, string][] = [[v.presentTu, 'imperatif-present'], ...imp.filter((x) => x !== forme).map((x): [string, string] => [x, 'accord-personne']), [v.infinitif, 'infinitif-au-lieu-conjugue']];
     const regle =
       v.groupe === 1 && r === 0
         ? 'À la 2e personne du singulier, les verbes du 1er groupe ne prennent pas de -s.'
@@ -99,7 +99,7 @@ export const imperatif6e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Conjugue « ${v.infinitif} » à l’impératif présent, ${NOMS_PERSONNES[r]}.`,
-      options: options(a, forme, pieges, () => `${v.imparfait}ez`),
+      ...choix(a, forme, pieges, () => `${v.imparfait}ez`),
       reponse: forme,
       indice: 'L’impératif n’a que trois personnes et pas de sujet.',
       explication: `${regle} La bonne forme est « ${forme} ».`,
@@ -139,6 +139,7 @@ export const participePasseEtre6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Choisis la bonne forme du verbe « ${inf} » : ${s.texte} ${aux} … ${suite}.`,
       options: a.melanger([pp, `${pp}e`, `${pp}s`, `${pp}es`]),
+      erreurs: erreursDe([pp, `${pp}e`, `${pp}s`, `${pp}es`], forme, [pp, `${pp}e`, `${pp}s`, `${pp}es`].map((x) => [x, 'accord-etre'] as const)),
       reponse: forme,
       indice: 'Avec l’auxiliaire être, le participe passé s’accorde avec le sujet.',
       explication: `Le sujet est « ${s.texte} » : ${s.feminin ? 'féminin' : 'masculin'} ${s.pluriel ? 'pluriel' : 'singulier'}.${mixte ? ' Un masculin et un féminin ensemble donnent un masculin pluriel.' : ''} On écrit : ${s.texte} ${aux} ${forme}.`,

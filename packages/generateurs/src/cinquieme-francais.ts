@@ -1,7 +1,7 @@
 // 5e, grammaire de la phrase : types et formes, phrase simple ou complexe, fonctions, déterminants et pronoms,
 // paroles rapportées. Source : programme de français du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 30 et 31.
 // Toutes les phrases sont rédigées et annotées à la main : aucune combinatoire.
-import { creerGenerateur } from './outils';
+import { creerGenerateur, erreursDe } from './outils';
 
 // ─────────── Types et formes de phrases
 
@@ -52,6 +52,7 @@ export const typesFormes5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `« ${phrase} » Quel est le type de cette phrase ?`,
         options: a.melanger(['déclarative', 'interrogative', 'injonctive']),
+        erreurs: erreursDe(['déclarative', 'interrogative', 'injonctive'], type, ['déclarative', 'interrogative', 'injonctive'].map((t) => [t, 'type-phrase-confondu'] as const)),
         reponse: type,
         indice: 'Déclarative : elle affirme. Interrogative : elle questionne. Injonctive : elle donne un ordre ou un conseil.',
         explication: `C’est une phrase ${type} : ${type === 'déclarative' ? 'elle donne une information ou exprime un jugement' : type === 'interrogative' ? 'elle pose une question' : 'elle donne un ordre ou un conseil'}.`,
@@ -147,6 +148,7 @@ export const phraseComplexe5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `« ${phrase} » Comment les propositions de cette phrase sont-elles reliées ?`,
       options: a.melanger(['juxtaposition', 'coordination', 'subordination']),
+      erreurs: erreursDe(['juxtaposition', 'coordination', 'subordination'], relation!, ['juxtaposition', 'coordination', 'subordination'].map((t) => [t, 'liaison-propositions-confondue'] as const)),
       reponse: relation!,
       indice: 'Juxtaposition : une virgule. Coordination : mais, ou, et, donc, or, ni, car. Subordination : un mot subordonnant (que, quand, si, qui, où, parce que…).',
       explication: relation === 'juxtaposition'
@@ -212,6 +214,7 @@ export const fonctions5e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Dans « ${phrase} », quelle est la fonction de « ${groupe} » ?`,
       options: a.melanger([fonction, ...pieges]),
+      erreurs: erreursDe(pieges, fonction, pieges.map((p) => [p, 'fonction-grammaticale-confondue'] as const)),
       reponse: fonction,
       indice: 'Manipule le groupe : peut-on le supprimer ou le déplacer ? Est-il relié au verbe par une préposition ?',
       explication: {
@@ -264,6 +267,7 @@ export const determinantsPronoms5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Dans « ${phrase} », « ${mot} » est-il un déterminant ou un pronom ?`,
         options: a.melanger(['un déterminant', 'un pronom']).concat('un adverbe'),
+        erreurs: erreursDe(['un déterminant', 'un pronom'], `un ${classe}`, [['un déterminant', 'determinant-pronom-confondus'], ['un pronom', 'determinant-pronom-confondus']]),
         reponse: `un ${classe}`,
         indice: 'Un déterminant accompagne un nom. Un pronom remplace un nom ou un groupe nominal.',
         explication: classe === 'déterminant'
@@ -316,6 +320,7 @@ export const paroles5e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `${phrase} Les paroles sont-elles rapportées au discours direct ou au discours indirect ?`,
         options: a.melanger(['au discours direct', 'au discours indirect']).concat('ce ne sont pas des paroles'),
+        erreurs: erreursDe(['au discours direct', 'au discours indirect'], `au discours ${discours}`, [['au discours direct', 'paroles-rapportees-confondues'], ['au discours indirect', 'paroles-rapportees-confondues']]),
         reponse: `au discours ${discours}`,
         indice: 'Discours direct : deux-points et guillemets, paroles telles quelles. Discours indirect : paroles intégrées après « que », « si », « de »…',
         explication: discours === 'direct'
@@ -332,6 +337,7 @@ export const paroles5e = creerGenerateur({
         ? `${direct} Quelle phrase rapporte ces paroles au discours indirect ?`
         : `${direct} Choisis la transposition correcte au discours indirect.`,
       options: a.melanger(d === 2 ? [indirect, piege, autre] : [indirect, piege, direct.replace(' : « ', ' que « ')]),
+      erreurs: erreursDe(d === 2 ? [piege] : [piege, direct.replace(' : « ', ' que « ')], indirect, [[piege, 'discours-indirect-transposition'], [direct.replace(' : « ', ' que « '), 'discours-indirect-guillemets']]),
       reponse: indirect,
       indice: 'Au discours indirect, les pronoms, les possessifs et les temps s’adaptent au récit.',
       explication: `On supprime les deux-points et les guillemets, on introduit les paroles par un mot subordonnant et on adapte les pronoms : ${indirect}`,

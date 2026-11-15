@@ -1,6 +1,6 @@
 // 6e, nombres, calculs et fractions. Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025).
 import { comparerDecimaux, decaler, depuisEntier, normaliserDecimal } from './decimaux';
-import { creerGenerateur, fr, frDecimal, optionsNumeriques, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, type Aleatoire } from './outils';
 
 const PUISSANCES = [10, 100, 1000];
 const nomPuissance = (p: number) => fr(p);
@@ -29,6 +29,8 @@ export const comparerDecimaux6e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Complète avec <, > ou = : ${frDecimal(x)} … ${frDecimal(y)}`,
         options: ['<', '>', '='],
+        // Croire que le nombre le plus long est le plus grand : 3,7 < 3,70.
+        erreurs: forme === 0 ? { '<': 'decimal-longueur' } : {},
         reponse: signe,
         indice: 'Écris les deux nombres avec autant de décimales. Compare ensuite chiffre à chiffre.',
         explication:
@@ -53,6 +55,8 @@ export const comparerDecimaux6e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Quel est le plus ${plusGrand ? 'grand' : 'petit'} de ces nombres ?`,
       options: a.melanger(liste.map(frDecimal)),
+      // Croire que le nombre qui a le plus de décimales est le plus grand.
+      erreurs: erreurLongueurDecimale(liste, frDecimal(cible), plusGrand),
       reponse: frDecimal(cible),
       indice: 'Compare d’abord les parties entières, puis les dixièmes, puis les centièmes.',
       explication: `Rangés dans l’ordre croissant : ${tri.map(frDecimal).join(' < ')}. Le nombre de chiffres après la virgule ne compte pas.`,
@@ -303,7 +307,7 @@ export const fractionsUsuelles6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Quelle est l\u2019écriture décimale de ${f} ?`,
-        options: optionsNumeriques(a, dec, [naif, ...a.melanger(autresDec)], () => a.choisir(autresDec)),
+        ...choix(a, dec, [[naif, 'fraction-virgule'], ...a.melanger(autresDec).map((x): [string] => [x])], () => a.choisir(autresDec), { numerique: true }),
         reponse: dec,
         indice: `${f}, c\u2019est ${f.split('/')[0]} divisé par ${f.split('/')[1]}.`,
         explication: `${f.split('/')[0]} ÷ ${f.split('/')[1]} = ${dec}. Donc ${f} = ${dec}.`,
@@ -313,7 +317,7 @@ export const fractionsUsuelles6e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quelle fraction est égale à ${dec} ?`,
-      options: optionsNumeriques(a, f, [...naif, ...a.melanger(autresF)], () => a.choisir(autresF)),
+      ...choix(a, f, [...naif.map((x): [string, string] => [x, 'fraction-decimale-rang']), ...a.melanger(autresF).map((x): [string] => [x])], () => a.choisir(autresF), { numerique: true }),
       reponse: f,
       indice: 'Divise le numérateur par le dénominateur pour vérifier.',
       explication: `${f.split('/')[0]} ÷ ${f.split('/')[1]} = ${dec}. Donc ${dec} = ${f}.`,
@@ -370,14 +374,14 @@ export const fractionsOperations6e = creerGenerateur({
     const numerateur = soustraction ? x * k - y : x * k + y;
     const reponse = `${numerateur}/${grand}`;
     // Erreurs classiques : ajouter numérateurs et dénominateurs, oublier de convertir.
-    const pieges = soustraction
-      ? [`${Math.abs(x - y)}/${grand}`, `${numerateur}/${petit}`, `${x * k + y}/${grand}`]
-      : [`${x + y}/${petit + grand}`, `${x + y}/${grand}`, `${numerateur}/${petit}`];
+    const pieges: [string, string][] = soustraction
+      ? [[`${Math.abs(x - y)}/${grand}`, 'numerateur-non-multiplie'], [`${numerateur}/${petit}`, 'mauvais-denominateur'], [`${x * k + y}/${grand}`, 'addition-au-lieu-soustraction']]
+      : [[`${x + y}/${petit + grand}`, 'fractions-terme-a-terme'], [`${x + y}/${grand}`, 'numerateur-non-multiplie'], [`${numerateur}/${petit}`, 'mauvais-denominateur']];
     const g = pgcd(numerateur, grand);
     return {
       gabarit: 'qcm',
       consigne: `Calcule : ${x}/${petit} ${soustraction ? '−' : '+'} ${y}/${grand}`,
-      options: optionsNumeriques(a, reponse, pieges, () => `${a.entier(1, 3 * grand)}/${grand}`),
+      ...choix(a, reponse, pieges, () => `${a.entier(1, 3 * grand)}/${grand}`, { numerique: true }),
       reponse,
       indice: k === 1 ? 'Les dénominateurs sont égaux : calcule avec les numérateurs.' : `Écris ${x}/${petit} avec le dénominateur ${grand}.`,
       explication: `${k === 1 ? '' : `${x}/${petit} = ${x * k}/${grand}. `}${x * k}/${grand} ${soustraction ? '−' : '+'} ${y}/${grand} = ${reponse}.${g > 1 ? ` On peut simplifier : ${reponse} = ${numerateur / g}/${grand / g}.` : ''}`,

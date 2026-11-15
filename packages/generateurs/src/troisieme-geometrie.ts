@@ -2,7 +2,7 @@
 // rectangle, volume de la boule, sections de solides, vecteurs, relation de Chasles.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 48 et 49.
 import { depuisEntier } from './decimaux';
-import { creerGenerateur, options } from './outils';
+import { choix, creerGenerateur, erreursDe } from './outils';
 
 const LETTRES = 'ABCDEFGHIJKLMNPRSTUV';
 const lettres = (a: { melanger: <T>(l: readonly T[]) => T[] }, n: number) => a.melanger([...LETTRES]).slice(0, n).sort();
@@ -52,6 +52,7 @@ export const thales3e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Les points A, M, B sont alignés dans cet ordre, ainsi que A, N, C. AM = ${am} cm, AB = ${ab} cm, AN = ${an} cm et AC = ${ac} cm. Les droites (MN) et (BC) sont-elles parallèles ?`,
       options: a.melanger([THALES_OUI, THALES_NON, 'Oui, d’après le théorème de Thalès', 'On ne peut pas conclure']),
+      erreurs: erreursDe([THALES_OUI, THALES_NON, 'Oui, d’après le théorème de Thalès'], reponse, [[THALES_OUI, 'quotients-mal-compares'], [THALES_NON, 'quotients-mal-compares'], ['Oui, d’après le théorème de Thalès', 'thales-reciproque-confondus']]),
       reponse,
       indice: 'Compare les quotients AM/AB et AN/AC. Le théorème de Thalès sert à calculer, sa réciproque à prouver un parallélisme.',
       explication: `AM/AB = ${am}/${ab}${u > 1 ? ` = ${p}/${q}` : ''} et AN/AC = ${an}/${ac}${paralleles && w > 1 ? ` = ${p}/${q}` : ''}. ${paralleles ? 'Les quotients sont égaux et les points sont alignés dans le même ordre : les droites sont parallèles.' : 'Les quotients ne sont pas égaux : les droites ne sont pas parallèles.'}`,
@@ -85,7 +86,7 @@ export const trigonometrie3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `${contexte} Quelle égalité donne ${rapport}(${angle}) ?`,
-        options: options(a, reponse, [quotient.cos, quotient.sin, quotient.tan, `${hyp}/${adj}`].filter((o) => o !== reponse), () => `${adj}/${opp}`),
+        ...choix(a, reponse, [[quotient.cos, 'trigo-rapport-confondu'], [quotient.sin, 'trigo-rapport-confondu'], [quotient.tan, 'trigo-rapport-confondu'], [`${hyp}/${adj}`, 'trigo-rapport-inverse']], () => `${adj}/${opp}`),
         reponse,
         indice: 'Cosinus : adjacent sur hypoténuse. Sinus : opposé sur hypoténuse. Tangente : opposé sur adjacent.',
         explication: `L’hypoténuse est [${hyp}], le côté adjacent à l’angle ${angle} est [${adj}], le côté opposé est [${opp}]. ${NOMS_RAPPORT[rapport][0]!.toUpperCase()}${NOMS_RAPPORT[rapport].slice(1)} vaut donc ${reponse}.`,
@@ -140,7 +141,7 @@ export const volumeBoule3e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `On multiplie le rayon d’une boule par ${k}. Par combien son volume est-il multiplié ?`,
-        options: options(a, reponse, [String(k), String(k * k), String(3 * k)].filter((o) => o !== reponse), () => String(k ** 3 + a.entier(1, 9))),
+        ...choix(a, reponse, [[String(k), 'volume-proportionnel-longueur'], [String(k * k), 'volume-carre-au-lieu-cube'], [String(3 * k), 'cube-triple']], () => String(k ** 3 + a.entier(1, 9))),
         reponse,
         indice: 'Dans la formule du volume, le rayon est au cube.',
         explication: `Le volume dépend de r³ : si le rayon est multiplié par ${k}, le volume est multiplié par ${k}³ = ${k ** 3}.`,
@@ -189,6 +190,8 @@ export const sections3e = creerGenerateur({
           gabarit: 'qcm',
           consigne: `Quels points forment ${sphere ? 'la sphère' : 'la boule'} de centre O et de rayon ${r} cm ?`,
           options: a.melanger([reponse, sphere ? `les points situés à ${r} cm ou moins de O` : `les points situés à exactement ${r} cm de O`, `les points situés à plus de ${r} cm de O`, `les points situés à exactement ${2 * r} cm de O`]),
+          erreurs: erreursDe([`les points situés à ${r} cm ou moins de O`, `les points situés à exactement ${r} cm de O`, `les points situés à exactement ${2 * r} cm de O`], reponse,
+            [[`les points situés à ${r} cm ou moins de O`, 'sphere-boule-confondues'], [`les points situés à exactement ${r} cm de O`, 'sphere-boule-confondues'], [`les points situés à exactement ${2 * r} cm de O`, 'rayon-diametre']]),
           reponse,
           indice: 'La sphère est la « surface ». La boule est la sphère et tout son intérieur.',
           explication: sphere ? `La sphère contient les points à exactement ${r} cm du centre.` : `La boule contient la sphère et son intérieur : les points à ${r} cm ou moins du centre.`,
@@ -197,6 +200,7 @@ export const sections3e = creerGenerateur({
       const [consigne, reponse, pieges] = a.choisir(SECTIONS);
       return {
         gabarit: 'qcm', consigne, options: a.melanger([reponse, ...pieges]), reponse,
+        erreurs: erreursDe(pieges, reponse, pieges.map((p): [string, string | undefined] => [p, /plus petit/.test(p) ? 'section-plus-petite' : /^un (cercle|disque)$|une (sphère|boule)/.test(p) ? 'sphere-boule-confondues' : undefined])),
         indice: 'Imagine la coupe du solide par le plan, comme une tranche.',
         explication: `La section est ${reponse}.`,
       };
@@ -210,6 +214,7 @@ export const sections3e = creerGenerateur({
           gabarit: 'qcm',
           consigne: `Un pavé droit mesure ${l} cm × ${w} cm × ${h} cm. On le coupe par un plan parallèle à la face de ${l} cm sur ${w} cm. Quelle est la section ?`,
           options: a.melanger([reponse, `un rectangle de ${l} cm sur ${h} cm`, `un rectangle de ${w} cm sur ${h} cm`, `un carré de ${l} cm de côté`]),
+          erreurs: { [`un rectangle de ${l} cm sur ${h} cm`]: 'section-mauvaise-face', [`un rectangle de ${w} cm sur ${h} cm`]: 'section-mauvaise-face' },
           reponse,
           indice: 'Une section parallèle à une face est identique à cette face.',
           explication: `La section est parallèle à la face de ${l} cm sur ${w} cm : c’est ${reponse}.`,
@@ -220,11 +225,15 @@ export const sections3e = creerGenerateur({
       if (h === 2 * r) h += 1;
       const perpendiculaire = solide === 'cylindre-perpendiculaire';
       const reponse = perpendiculaire ? `un disque de rayon ${r} cm` : `un rectangle de ${2 * r} cm sur ${h} cm`;
-      const pieges = perpendiculaire ? [`un disque de rayon ${h} cm`, `un disque de rayon ${2 * r} cm`, `un rectangle de ${r} cm sur ${h} cm`] : [`un rectangle de ${r} cm sur ${h} cm`, `un disque de rayon ${r} cm`, `un rectangle de ${2 * r} cm sur ${2 * h} cm`];
+      const qualifies: [string, string][] = perpendiculaire
+        ? [[`un disque de rayon ${h} cm`, 'section-mauvaise-face'], [`un disque de rayon ${2 * r} cm`, 'rayon-diametre'], [`un rectangle de ${r} cm sur ${h} cm`, 'section-mauvaise-face']]
+        : [[`un rectangle de ${r} cm sur ${h} cm`, 'rayon-diametre'], [`un disque de rayon ${r} cm`, 'section-mauvaise-face'], [`un rectangle de ${2 * r} cm sur ${2 * h} cm`, 'rayon-diametre']];
+      const pieges = qualifies.map(([p]) => p);
       return {
         gabarit: 'qcm',
         consigne: `Un cylindre a pour rayon ${r} cm et pour hauteur ${h} cm. On le coupe par un plan ${perpendiculaire ? 'perpendiculaire à son axe' : 'qui contient son axe'}. Quelle est la section ?`,
         options: a.melanger([reponse, ...pieges]),
+        erreurs: erreursDe(pieges, reponse, qualifies),
         reponse,
         indice: perpendiculaire ? 'La section est une copie de la base.' : 'La section contient l’axe : sa largeur est le diamètre.',
         explication: perpendiculaire ? `La section est un disque identique à la base : ${reponse}.` : `La largeur de la section est le diamètre, ${2 * r} cm, et sa longueur la hauteur : ${reponse}.`,
@@ -263,6 +272,7 @@ export const vecteurs3e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est l’opposé du ${vect(x + y)} ?`,
         options: a.melanger([reponse, vect(x + y), 'le vecteur nul']),
+        erreurs: { [vect(x + y)]: 'vecteur-sens' },
         reponse,
         indice: 'L’opposé d’un vecteur a la même direction, la même longueur, mais le sens contraire.',
         explication: `L’opposé du ${vect(x + y)} va de ${y} vers ${x} : c’est le ${reponse}.`,
@@ -274,6 +284,7 @@ export const vecteurs3e = creerGenerateur({
         gabarit: 'qcm',
         consigne: `L’image du point ${z} par la translation de ${vect(x + y)} est le point ${w}. Quel quadrilatère est un parallélogramme ?`,
         options: a.melanger([reponse, `${x}${y}${z}${w}`, `${x}${w}${y}${z}`]),
+        erreurs: { [`${x}${y}${z}${w}`]: 'parallelogramme-ordre-lettres', [`${x}${w}${y}${z}`]: 'parallelogramme-ordre-lettres' },
         reponse,
         indice: `Le ${vect(x + y)} est égal au ${vect(z + w)}. Attention à l’ordre des lettres.`,
         explication: `${vect(x + y)} = ${vect(z + w)}, donc ${x}${y}${w}${z} est un parallélogramme (on tourne dans l’ordre ${x}, ${y}, ${w}, ${z}).`,
@@ -287,6 +298,7 @@ export const vecteurs3e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `${x}${y}${z}${w} est un parallélogramme. Quel vecteur est égal au ${vect(depart)} ?`,
       options: a.melanger([vect(reponse), ...pieges.map(vect)]),
+      erreurs: { [vect(pieges[0]!)]: 'vecteur-sens' },
       reponse: vect(reponse),
       indice: 'Deux vecteurs égaux ont même direction, même sens et même longueur.',
       explication: `Dans le parallélogramme ${x}${y}${z}${w}, les côtés opposés sont parallèles et de même longueur. Le ${vect(depart)} est égal au ${vect(reponse)}, dans le même sens.`,
@@ -341,6 +353,7 @@ export const chasles3e = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Simplifie avec la relation de Chasles : ${consigne}`,
       options: a.melanger([reponse, ...pieges]),
+      erreurs: reponse === 'le vecteur nul' ? { [pieges[1]!]: 'vecteurs-opposes-additionnes' } : { [pieges[0]!]: 'vecteur-sens' },
       reponse,
       indice: 'Relation de Chasles : vecteur AB + vecteur BC = vecteur AC. La lettre du milieu doit se répéter.',
       explication,

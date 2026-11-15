@@ -4,7 +4,7 @@
 // décimales), décimaux avec au plus deux chiffres après la virgule.
 import { comparerDecimaux, depuisEntier } from './decimaux';
 import { enLettres } from './lettres';
-import { creerGenerateur, fr, frDecimal, options, optionsNumeriques, type Aleatoire } from './outils';
+import { choix, creerGenerateur, erreurLongueurDecimale, fr, frDecimal, optionsNumeriques, type Aleatoire } from './outils';
 
 const RANGS_SG = ['unité', 'dizaine', 'centaine', 'millier', 'dizaine de milliers', 'centaine de milliers'];
 const RANGS_PL = ['unités', 'dizaines', 'centaines', 'milliers', 'dizaines de milliers', 'centaines de milliers'];
@@ -95,6 +95,7 @@ export const nombresLettresCm1 = creerGenerateur({
     const n = nombreAPieges(a, 2, 999);
     const juste = enLettres(n);
     const pieges = [juste.replace(/-mille\b/, '-milles')];
+    const sansAccord = pieges[0]!;
     const s = String(n);
     const i = a.entier(0, s.length - 2);
     const echange = Number(s.slice(0, i) + s[i + 1] + s[i] + s.slice(i + 2));
@@ -103,7 +104,7 @@ export const nombresLettresCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Comment s’écrit ${fr(n)} en lettres ?`,
-      options: options(a, juste, pieges, () => enLettres(n + a.entier(1, 9) * 10)),
+      ...choix(a, juste, pieges.map((p): [string, string?] => [p, p === sansAccord && p !== juste ? 'accord-mille' : undefined]), () => enLettres(n + a.entier(1, 9) * 10)),
       reponse: juste,
       indice: '« Mille » ne prend jamais de s. Lis d’abord la classe des milliers, puis celle des unités.',
       explication: `${fr(n)} : on lit d’abord ${fr(Math.floor(n / 1000))} milliers${n % 1000 ? `, puis ${fr(n % 1000)}` : ''}. On écrit « ${juste} ». Tous les mots sont reliés par des traits d’union.`,
@@ -253,7 +254,7 @@ export const fractionsEntiersCm1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Entre quels nombres entiers consécutifs se trouve ${num}/${den} ?`,
-        options: options(a, entre(e), [entre(e - 1), entre(e + 1), entre(r)], () => entre(e + a.entier(2, 5))),
+        ...choix(a, entre(e), [[entre(e - 1)], [entre(e + 1)], [entre(r)]], () => entre(e + a.entier(2, 5))),
         reponse: entre(e),
         indice: `Cherche combien de fois ${den}/${den}, c’est-à-dire 1, il y a dans ${num}/${den}.`,
         explication: `${calcul} ${num}/${den} est donc ${entre(e)}.`,
@@ -529,6 +530,7 @@ export const comparerDecimauxCm1 = creerGenerateur({
         gabarit: 'qcm',
         consigne: `Quel est le plus ${grand ? 'grand' : 'petit'} de ces nombres ?`,
         options: a.melanger(liste.map(frDecimal)),
+        erreurs: erreurLongueurDecimale(liste, frDecimal(cible), grand),
         reponse: frDecimal(cible),
         indice: 'Compare d’abord les parties entières, puis les dixièmes, puis les centièmes.',
         explication: `Rangés dans l’ordre croissant : ${tri.map(frDecimal).join(' < ')}.`,

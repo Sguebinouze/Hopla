@@ -1,7 +1,8 @@
 // CM1, étude de la langue. Source : programme de français du cycle 3 (BO n°16 du 17 avril 2025), pages 14, 17 et 18.
 // Temps du CM1 : présent, imparfait, futur, passé composé. Verbes : être, avoir, 1er et 2e groupes,
 // faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.
-import { creerGenerateur, options, type Aleatoire } from './outils';
+import { confusionTemps } from './erreurs';
+import { choix, creerGenerateur, erreursDe, type Aleatoire } from './outils';
 
 // ─────────── Données de conjugaison
 
@@ -93,8 +94,8 @@ export const conjugaisonCm1 = creerGenerateur({
     const verbe = d === 3 ? a.choisir([...VERBES_3, ...VERBES_1_GC]) : a.choisir([...VERBES_1, ...VERBES_2, 'être', 'avoir']);
     const [p, r] = a.choisir(PRONOMS);
     const forme = conjuguer(verbe, temps, r);
-    const autres = (['présent', 'imparfait', 'futur'] as const).filter((t) => t !== temps).map((t) => conjuguer(verbe, t, r));
-    const pieges = [...autres, conjuguer(verbe, temps, (r + 3) % 6), conjuguer(verbe, temps, (r + 1) % 6)];
+    const autres = (['présent', 'imparfait', 'futur'] as const).filter((t) => t !== temps).map((t): [string, string?] => [conjuguer(verbe, t, r), confusionTemps(temps, t)]);
+    const pieges: [string, string?][] = [...autres, [conjuguer(verbe, temps, (r + 3) % 6), 'accord-personne'], [conjuguer(verbe, temps, (r + 1) % 6), 'accord-personne']];
     const regle =
       temps === 'imparfait'
         ? 'À l’imparfait, la marque du temps est -ai- ou -i-.'
@@ -107,7 +108,7 @@ export const conjugaisonCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Conjugue « ${verbe} » ${NOM_TEMPS[temps]} : ${sujet(p, forme).trim()} …`,
-      options: options(a, forme, pieges, () => conjuguer(verbe, a.choisir(['présent', 'imparfait', 'futur'] as const), a.entier(0, 5))),
+      ...choix(a, forme, pieges, () => conjuguer(verbe, a.choisir(['présent', 'imparfait', 'futur'] as const), a.entier(0, 5))),
       reponse: forme,
       indice: temps === 'présent' ? 'Repère le groupe du verbe, puis la personne.' : temps === 'imparfait' ? 'Cherche la marque du temps : -ai- ou -i-.' : 'Cherche la marque du temps : -r-.',
       explication: `${regle}${gc} On écrit : ${sujet(p, forme)}${forme}.`,
@@ -139,11 +140,11 @@ export const passeComposeCm1 = creerGenerateur({
       const forme = `${aux} ${pp}${accord}`;
       const autreAux = (avecEtre ? AUX_AVOIR : AUX_ETRE)[r]!;
       const faute = accord ? `${aux} ${pp}` : pp.endsWith('s') ? `${aux} ${pp.slice(0, -1)}t` : `${aux} ${pp}s`;
-      const pieges = [`${autreAux} ${pp}`, `${aux} ${verbe}`, faute, `${IRREGULIERS[avecEtre ? 'être' : 'avoir']!.imparfait}${FIN_IMPARFAIT[r]} ${pp}${accord}`];
+      const pieges: [string, string][] = [[`${autreAux} ${pp}`, 'auxiliaire-faux'], [`${aux} ${verbe}`, 'infinitif-au-lieu-participe'], [faute, accord ? 'accord-etre' : 'participe-terminaison'], [`${IRREGULIERS[avecEtre ? 'être' : 'avoir']!.imparfait}${FIN_IMPARFAIT[r]} ${pp}${accord}`, 'auxiliaire-temps-confondu']];
       return {
         gabarit: 'qcm',
         consigne: `Conjugue « ${verbe} » au passé composé : ${sujet(p, aux).trim()} …`,
-        options: options(a, forme, pieges, () => `${aux} ${pp}t`),
+        ...choix(a, forme, pieges, () => `${aux} ${pp}t`),
         reponse: forme,
         indice: 'Le passé composé a deux parties : l’auxiliaire au présent, puis le participe passé.',
         explication: `Auxiliaire ${avecEtre ? 'être' : 'avoir'} au présent, puis le participe passé « ${pp} ».${avecEtre ? ' Avec être, le participe passé s’accorde avec le sujet.' : ''} On écrit : ${sujet(p, aux)}${forme}.`,
@@ -161,7 +162,7 @@ export const passeComposeCm1 = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Écris à la forme négative : ${S}${S.endsWith('’') ? '' : ' '}${aux} ${pp} ${c}.`,
-        options: options(a, juste, [`${Sn} n’${aux} ${pp} pas ${c}.`, `${Sn} ne pas ${aux} ${pp} ${c}.`, `${S}${S.endsWith('’') ? '' : ' '}${aux} pas ${pp} ${c}.`], () => `${Sn} n’${aux} ${pp} ${c} pas.`),
+        ...choix(a, juste, [[`${Sn} n’${aux} ${pp} pas ${c}.`, 'negation-mal-placee'], [`${Sn} ne pas ${aux} ${pp} ${c}.`, 'negation-mal-placee'], [`${S}${S.endsWith('’') ? '' : ' '}${aux} pas ${pp} ${c}.`, 'negation-ne-oublie']], () => `${Sn} n’${aux} ${pp} ${c} pas.`),
         reponse: juste,
         indice: 'Au passé composé, la négation entoure l’auxiliaire.',
         explication: `« ne » (ou « n’ » devant une voyelle) se place avant l’auxiliaire, « pas » juste après. On écrit : ${juste}`,
@@ -171,7 +172,7 @@ export const passeComposeCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Quel est l’infinitif du verbe conjugué dans « ${sujet(p, aux)}${aux} ${pp} ${c} » ?`,
-      options: options(a, verbe, [pp, ...autres], () => a.choisir(VERBES_1)),
+      ...choix(a, verbe, [[pp, 'participe-pour-infinitif'], ...autres.map((x): [string] => [x])], () => a.choisir(VERBES_1)),
       reponse: verbe,
       indice: 'Le participe passé porte le sens du verbe. Cherche le verbe à l’infinitif qui lui correspond.',
       explication: `« ${aux} » est l’auxiliaire avoir. « ${pp} » est le participe passé du verbe ${verbe}. L’infinitif est « ${verbe} ».`,
@@ -225,7 +226,7 @@ export const accordSujetVerbeCm1 = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `Choisis la bonne forme du verbe « ${verbe} » ${NOM_TEMPS[temps]} : ${s.texte} … ${suite}.`,
-      options: options(a, forme, a.melanger(formes), () => a.choisir(formes)),
+      ...choix(a, forme, a.melanger(formes).map((f): [string, string] => [f, 'accord-sujet-verbe']), () => a.choisir(formes)),
       reponse: forme,
       indice: d === 2 ? 'Cherche le nom principal du groupe sujet, celui qu’on ne peut pas supprimer.' : 'Qui fait l’action ? Remplace le sujet par un pronom.',
       explication: `${pourquoi} Le verbe est à la ${personne}. On écrit : ${s.texte} ${forme} ${suite}.`,
@@ -258,16 +259,16 @@ export const accordGnCm1 = creerGenerateur({
     const detCible = pluriel ? det[2] : det[1];
     const juste = gn(detCible, nom + fin, adj + fin);
     const cible = d === 1 ? 'pluriel' : d === 2 ? 'féminin' : 'féminin pluriel';
-    const pieges = [
-      gn(detCible, nom + fin, adj + (pluriel ? 's' : '')),
-      gn(detCible, nom + fin, adj),
-      gn(detCible, nom + (pluriel ? 's' : ''), adj + fin),
-      gn(pluriel ? det[1] : det[0], nom + fin, adj + fin),
+    const pieges: [string, string][] = [
+      [gn(detCible, nom + fin, adj + (pluriel ? 's' : '')), 'accord-adjectif'],
+      [gn(detCible, nom + fin, adj), 'accord-adjectif'],
+      [gn(detCible, nom + (pluriel ? 's' : ''), adj + fin), 'accord-nom'],
+      [gn(pluriel ? det[1] : det[0], nom + fin, adj + fin), 'accord-determinant'],
     ];
     return {
       gabarit: 'qcm',
       consigne: `Écris au ${cible} : ${gn(det[0], nom, adj)}`,
-      options: options(a, juste, pieges, () => gn(detCible, nom, adj)),
+      ...choix(a, juste, pieges, () => gn(detCible, nom, adj)),
       reponse: juste,
       indice: 'Le nom noyau donne son genre et son nombre au déterminant et à l’adjectif.',
       explication: `Le nom « ${nom} » devient « ${nom + fin} ». Le déterminant et l’adjectif s’accordent avec lui : ${juste}.`,
@@ -316,6 +317,7 @@ export const participeEtreCm1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Complète avec le participe passé du verbe « ${verbe} » : ${s.texte} ${aux} … ${suite}.`,
       options: a.melanger([pp, `${pp}e`, `${pp}s`, `${pp}es`]),
+      erreurs: erreursDe([pp, `${pp}e`, `${pp}s`, `${pp}es`], forme, [pp, `${pp}e`, `${pp}s`, `${pp}es`].map((x) => [x, 'accord-etre'] as const)),
       reponse: forme,
       indice: 'Avec l’auxiliaire être, le participe passé s’accorde avec le sujet. Cherche son genre et son nombre.',
       explication: `Le sujet « ${s.texte} » est au ${genre}.${s.texte.includes(' et ') && !s.feminin ? ' Un nom masculin suffit pour accorder au masculin.' : ''} On écrit : ${s.texte} ${aux} ${forme} ${suite}.`,
@@ -444,11 +446,11 @@ export const pronomsCm1 = creerGenerateur({
   generer(a, d) {
     if (d < 3) {
       const [gn, suite, pronom] = a.choisir(d === 1 ? GN_SUJETS : GN_PLUSIEURS);
-      const choix = d === 1 ? ['il', 'elle', 'ils', 'elles'] : ['ils', 'elles', 'nous', 'vous', 'il'];
+      const pronomsPossibles = d === 1 ? ['il', 'elle', 'ils', 'elles'] : ['ils', 'elles', 'nous', 'vous', 'il'];
       return {
         gabarit: 'qcm',
         consigne: `Par quel pronom peux-tu remplacer « ${gn} » dans « ${gn} ${suite} » ?`,
-        options: options(a, pronom, a.melanger(choix), () => a.choisir(choix)),
+        ...choix(a, pronom, a.melanger(pronomsPossibles).map((x): [string, string] => [x, 'pronom-genre-nombre']), () => a.choisir(pronomsPossibles)),
         reponse: pronom,
         indice: d === 1 ? 'Le groupe sujet est-il masculin ou féminin ? Singulier ou pluriel ?' : 'Si « moi » fait partie du sujet, pense à « nous ». Si c’est « toi », pense à « vous ».',
         explication: `« ${gn} » est le groupe sujet. On le remplace par « ${pronom} » : ${pronom[0]!.toUpperCase()}${pronom.slice(1)} ${suite}`,
@@ -460,6 +462,7 @@ export const pronomsCm1 = creerGenerateur({
       gabarit: 'qcm',
       consigne: `Remplace « ${gn} » par un pronom dans « ${qui} ${verbe} ${gn}. »`,
       options: a.melanger(['le', 'la', 'les', 'lui'].map(phrase)),
+      erreurs: erreursDe(['le', 'la', 'les', 'lui'].map(phrase), phrase(pronom), ['le', 'la', 'les', 'lui'].map((x) => [phrase(x), 'pronom-complement-confondu'] as const)),
       reponse: phrase(pronom),
       indice: 'Le pronom complément se place devant le verbe. Il a le même genre et le même nombre que le groupe remplacé.',
       explication: `« ${gn} » est le complément d’objet du verbe. On le remplace par « ${pronom} », placé devant le verbe : ${phrase(pronom)}`,
@@ -604,6 +607,7 @@ export const synonymesCm1 = creerGenerateur({
           ? `Quel mot a un sens ${synonyme ? 'proche' : 'contraire'} de « ${v.mot} » ?`
           : `Quel mot est un ${relation} de « ${v.mot} » ?`,
       options: a.melanger([reponse, piege, ...v.autres]),
+      erreurs: { [piege]: 'synonyme-antonyme-confondus' },
       reponse,
       indice: synonyme ? 'Un synonyme est un mot de sens proche.' : 'Un antonyme est un mot de sens contraire.',
       explication: `« ${reponse} » a un sens ${synonyme ? 'proche' : 'contraire'} de « ${v.mot} » : c’est un ${relation}. Les deux mots sont des ${v.classe}s. « ${piege} » est un ${synonyme ? 'antonyme' : 'synonyme'}.`,
