@@ -91,6 +91,81 @@
       },
       "prerequis": [],
       "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-LECT-01",
+      "titre": "Comprendre un texte",
+      "domaine": "Lecture",
+      "theme": "Comprendre un texte",
+      "attendu": "Comprendre un texte court : retrouver une information, savoir qui un pronom remplace, déduire ce qui n’est pas écrit.",
+      "exemple": "« Tom met son bonnet. Dehors, il neige. » On est en hiver.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 7,
+        "extrait": "Comprendre ce qui est implicite dans le texte (inférences)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-VOC-01",
+      "titre": "Du mot général au mot précis",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Regrouper des mots sous un terme générique et classer des mots du plus général au plus précis.",
+      "exemple": "Aliment, fruit, pomme : du plus général au plus précis.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Percevoir de grandes catégories et hiérarchiser les termes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-VOC-02",
+      "titre": "Contraires avec in- et dé-",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Former et comprendre des contraires construits avec les préfixes in- (im-) et dé- (dés-).",
+      "exemple": "Visible, invisible. Ranger, déranger.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Il identifie des contraires construits avec les préfixes in- ou"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-VOC-03",
+      "titre": "Mots formés : chanteur, parapluie",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans toutes les disciplines",
+      "attendu": "S’appuyer sur les suffixes (-eur, -euse, -er, -ier) et les préfixes (para-, anti-, multi-) pour comprendre un mot.",
+      "exemple": "Celui qui chante est un chanteur. Un parapluie protège de la pluie.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Il enrichit sa connaissance des principaux affixes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE1-VOC-04",
+      "titre": "Sens propre, sens figuré",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Comprendre des expressions imagées et distinguer le sens propre du sens figuré.",
+      "exemple": "« Avoir une faim de loup » veut dire avoir très faim.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Comprendre la différence entre sens propre/sens figuré."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
     }
   ]
 }

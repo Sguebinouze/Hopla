@@ -215,6 +215,111 @@
       },
       "prerequis": [],
       "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-LONG-01",
+      "titre": "Mètres, centimètres, kilomètres",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs et les masses",
+      "attendu": "Connaitre les unités m, cm et km, leurs relations, quelques longueurs de référence, et comparer des longueurs sans écriture à virgule.",
+      "exemple": "Une trousse mesure environ 20 cm. 1 m 46 cm = 146 cm.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 27,
+        "extrait": "L’élève sait que 1 m = 100 cm et 1 km = 1 000 m."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-MAS-01",
+      "titre": "Grammes et kilogrammes",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs et les masses",
+      "attendu": "Connaitre les unités g et kg, savoir que 1 kg = 1 000 g, estimer et comparer des masses.",
+      "exemple": "Un paquet de sucre pèse 1 kg. 1 kg 300 g = 1 300 g.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 27,
+        "extrait": "L’élève connait la masse de quelques objets du quotidien."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-MONN-01",
+      "titre": "Euros et centimes",
+      "domaine": "Grandeurs et mesures",
+      "theme": "La monnaie",
+      "attendu": "Connaitre le lien entre euros et centimes, écrire une somme avec une virgule, comparer deux sommes.",
+      "exemple": "2 € et 5 centimes s’écrit 2,05 €. 345 centimes, c’est 3 € et 45 centimes.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 28,
+        "extrait": "2 € et 5 centimes s’écrit 2,05 €"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-TEMPS-01",
+      "titre": "Lire l’heure",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Le repérage dans le temps et les durées",
+      "attendu": "Lire l’heure en heures entières, demi-heures et quarts d’heure, le matin et l’après-midi, sur une horloge à aiguilles ou digitale.",
+      "exemple": "Deux heures et quart de l’après-midi : l’horloge digitale affiche 14 h 15.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 28,
+        "extrait": "L’élève comprend et utilise les expressions « trois heures du matin », « trois heures de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-DUR-01",
+      "titre": "Heures, minutes, quarts d’heure",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Le repérage dans le temps et les durées",
+      "attendu": "Connaitre les relations entre heure, demi-heure, quart d’heure et minute, calculer et ajouter des durées dans une même journée.",
+      "exemple": "Un quart d’heure et une demi-heure : 15 + 30 = 45 minutes.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 29,
+        "extrait": "1 heure = 60 minutes ; 1 demi-heure = 30 minutes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-GEO-01",
+      "titre": "Cube, pavé, pyramide",
+      "domaine": "Espace et géométrie",
+      "theme": "Les solides",
+      "attendu": "Reconnaitre et nommer les solides usuels ; décrire un cube, un pavé ou une pyramide avec les mots face, arête et sommet.",
+      "exemple": "Une boite à chaussures a la forme d’un pavé. Un cube a 6 faces, 12 arêtes et 8 sommets.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 33,
+        "extrait": "décrire ses faces (carrés, rectangles, triangles) et donner le nombre de ses arêtes et de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE1-GEO-02",
+      "titre": "Carré, rectangle, triangle",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Reconnaitre et décrire le carré, le rectangle, le triangle et le triangle rectangle ; distinguer angle droit, aigu et obtus.",
+      "exemple": "Un rectangle a quatre angles droits. Ses côtés opposés sont égaux.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 34,
+        "extrait": "L’élève sait dire qu’un rectangle a quatre sommets, quatre angles droits, quatre côtés et"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
     }
   ]
 }
