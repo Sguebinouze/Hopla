@@ -1,0 +1,66 @@
+{
+  "programme": "EM-C2-2024",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "EM-C2-CP-SOI-01",
+      "titre": "Mes émotions",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Connaissance et maîtrise de soi",
+      "attendu": "Nommer ses émotions (joie, tristesse, peur, colère, surprise) et les exprimer avec des mots.",
+      "exemple": "Je suis en colère. Je le dis avec des mots, sans crier.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 10,
+        "extrait": "Connaissance et maîtrise de soi"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CP-REG-01",
+      "titre": "Les règles de l’école",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles collectives et l’autonomie",
+      "attendu": "Connaitre les règles de la classe et de l’école, ses droits et ses devoirs, le rôle des adultes.",
+      "exemple": "Je lève la main pour parler. J’ai le droit d’apprendre en sécurité.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 10,
+        "extrait": "Les règles collectives et l’autonomie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CP-DRO-01",
+      "titre": "Mon corps, mes droits",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Règles d’hygiène et exigence d’intimité",
+      "attendu": "Savoir que les enfants ont des droits, respecter son corps et son intimité, appliquer les règles d’hygiène.",
+      "exemple": "Mon corps m’appartient. Si quelque chose me gêne, j’en parle à un adulte de confiance.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "Règles d’hygiène et exigence d’intimité"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CP-REP-01",
+      "titre": "Le drapeau et la Marseillaise",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Être élève à l’école de la République",
+      "attendu": "Identifier le drapeau français et reconnaitre La Marseillaise, symboles de la République.",
+      "exemple": "Le drapeau français est bleu, blanc, rouge. L’hymne national est La Marseillaise.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "Être élève à l’école de la République"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

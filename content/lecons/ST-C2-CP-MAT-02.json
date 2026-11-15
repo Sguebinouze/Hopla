@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-MAT-02",
+  "exemple": "L’hiver, la flaque gèle. Au soleil, la glace fond.",
+  "regle": "L’eau peut être **solide** : glace, neige, grêle. Elle peut être **liquide** : pluie, mer, rivière. L’eau liquide coule, l’eau solide garde sa forme.",
+  "piege": "La neige et la glace sont aussi de l’eau.",
+  "essai": {
+    "consigne": "La neige est de l’eau…",
+    "options": [
+      "solide",
+      "liquide",
+      "chaude"
+    ],
+    "reponse": "solide",
+    "explication": "La neige est de l’eau solide."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

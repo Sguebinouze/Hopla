@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C2-CP-GEO-01",
+  "exercices": [
+    {
+      "id": "HG-C2-CP-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le chat est sur la table. Il est…",
+      "options": [
+        "au-dessus de la table",
+        "sous la table",
+        "derrière la porte"
+      ],
+      "reponse": "au-dessus de la table",
+      "indice": "Il est posé sur la table.",
+      "explication": "Sur la table veut dire au-dessus de la table.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où mange-t-on à midi à l’école ?",
+      "options": [
+        "au réfectoire",
+        "dans la cour",
+        "dans la classe"
+      ],
+      "reponse": "au réfectoire",
+      "indice": "C’est la cantine.",
+      "explication": "On mange au réfectoire, la cantine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où joue-t-on pendant la récréation ?",
+      "options": [
+        "dans la cour",
+        "au réfectoire",
+        "dans le bureau"
+      ],
+      "reponse": "dans la cour",
+      "indice": "C’est dehors.",
+      "explication": "Pendant la récréation, on joue dans la cour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un plan montre un lieu vu…",
+      "options": [
+        "d’en haut",
+        "de côté",
+        "de dessous"
+      ],
+      "reponse": "d’en haut",
+      "indice": "Comme un oiseau qui vole.",
+      "explication": "Un plan montre un lieu vu d’en haut.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le contraire de « devant » est…",
+      "options": [
+        "derrière",
+        "dessus",
+        "à côté"
+      ],
+      "reponse": "derrière",
+      "indice": "Pense à une file d’élèves.",
+      "explication": "Le contraire de devant est derrière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où achète-t-on du pain ?",
+      "options": [
+        "à la boulangerie",
+        "à la mairie",
+        "à la poste"
+      ],
+      "reponse": "à la boulangerie",
+      "indice": "Le boulanger y travaille.",
+      "explication": "On achète du pain à la boulangerie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le chemin de la maison à l’école s’appelle…",
+      "options": [
+        "un trajet",
+        "un plan",
+        "un quartier"
+      ],
+      "reponse": "un trajet",
+      "indice": "On le fait chaque matin.",
+      "explication": "Le chemin d’un lieu à un autre est un trajet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur le plan de la classe, que représente un petit rectangle ?",
+      "options": [
+        "une table",
+        "un élève qui court",
+        "le ciel"
+      ],
+      "reponse": "une table",
+      "indice": "Le plan montre les meubles vus d’en haut.",
+      "explication": "Vue d’en haut, une table ressemble à un rectangle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-CORPS-01",
+  "exemple": "Au gouter, je mange une pomme et un yaourt.",
+  "regle": "On range les aliments en **familles**. Il y a les fruits et légumes, les viandes, les produits laitiers. Il y a aussi les féculents, les matières grasses, les boissons. Un aliment vient d’un **animal**, d’une **plante** ou d’un **minéral**.",
+  "piege": "Le fromage est un produit laitier : il est fait avec du lait.",
+  "essai": {
+    "consigne": "Le riz est…",
+    "options": [
+      "un féculent",
+      "un fruit",
+      "un produit laitier"
+    ],
+    "reponse": "un féculent",
+    "explication": "Le riz est un féculent."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

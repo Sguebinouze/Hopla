@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-ENV-01",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-ENV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où vit le ver de terre ?",
+      "options": [
+        "dans le sol",
+        "dans les nuages",
+        "dans la mer"
+      ],
+      "reponse": "dans le sol",
+      "indice": "Il creuse la terre.",
+      "explication": "Le ver de terre vit dans le sol.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où vit la grenouille ?",
+      "options": [
+        "près de la mare",
+        "dans le désert",
+        "dans un nid"
+      ],
+      "reponse": "près de la mare",
+      "indice": "Elle aime l’eau douce.",
+      "explication": "La grenouille vit près de la mare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un insecte ?",
+      "options": [
+        "la fourmi",
+        "le chat",
+        "le moineau"
+      ],
+      "reponse": "la fourmi",
+      "indice": "Il a six pattes.",
+      "explication": "La fourmi est un insecte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de pattes a un insecte ?",
+      "options": [
+        "6",
+        "8",
+        "4"
+      ],
+      "reponse": "6",
+      "indice": "Compte les pattes d’une fourmi.",
+      "explication": "Un insecte a six pattes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’araignée a…",
+      "options": [
+        "8 pattes",
+        "6 pattes",
+        "2 pattes"
+      ],
+      "reponse": "8 pattes",
+      "indice": "Elle en a plus qu’un insecte.",
+      "explication": "L’araignée a huit pattes : ce n’est pas un insecte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Lequel est un champignon ?",
+      "options": [
+        "le cèpe",
+        "la marguerite",
+        "le chêne"
+      ],
+      "reponse": "le cèpe",
+      "indice": "On le trouve en forêt en automne.",
+      "explication": "Le cèpe est un champignon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’endroit où vit un animal s’appelle…",
+      "options": [
+        "son milieu de vie",
+        "son repas",
+        "sa maison en briques"
+      ],
+      "reponse": "son milieu de vie",
+      "indice": "La mare, le sol, la forêt…",
+      "explication": "L’endroit où vit un animal est son milieu de vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Où l’escargot aime-t-il vivre ?",
+      "options": [
+        "dans un lieu humide",
+        "dans un lieu très sec",
+        "dans l’eau de mer"
+      ],
+      "reponse": "dans un lieu humide",
+      "indice": "On le voit après la pluie.",
+      "explication": "L’escargot aime l’humidité : on le voit après la pluie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

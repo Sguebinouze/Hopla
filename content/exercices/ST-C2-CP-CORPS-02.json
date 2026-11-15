@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-CORPS-02",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-CORPS-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle articulation plie la jambe ?",
+      "options": [
+        "le genou",
+        "le coude",
+        "le poignet"
+      ],
+      "reponse": "le genou",
+      "indice": "Elle est au milieu de la jambe.",
+      "explication": "Le genou permet de plier la jambe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle articulation plie le bras ?",
+      "options": [
+        "le coude",
+        "le genou",
+        "la cheville"
+      ],
+      "reponse": "le coude",
+      "indice": "Elle est au milieu du bras.",
+      "explication": "Le coude permet de plier le bras.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La tête est reliée au corps par…",
+      "options": [
+        "le cou",
+        "le genou",
+        "le pied"
+      ],
+      "reponse": "le cou",
+      "indice": "Il permet de tourner la tête.",
+      "explication": "Le cou relie la tête au corps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’articulation entre la main et le bras est…",
+      "options": [
+        "le poignet",
+        "la cheville",
+        "l’épaule"
+      ],
+      "reponse": "le poignet",
+      "indice": "On y porte une montre.",
+      "explication": "Le poignet relie la main au bras.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’articulation entre le pied et la jambe est…",
+      "options": [
+        "la cheville",
+        "le poignet",
+        "le coude"
+      ],
+      "reponse": "la cheville",
+      "indice": "On peut se la tordre en courant.",
+      "explication": "La cheville relie le pied à la jambe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les os forment…",
+      "options": [
+        "le squelette",
+        "la peau",
+        "les cheveux"
+      ],
+      "reponse": "le squelette",
+      "indice": "On le voit sur une radiographie.",
+      "explication": "Tous les os forment le squelette.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle articulation permet de tourner le bras en rond ?",
+      "options": [
+        "l’épaule",
+        "le genou",
+        "le coude"
+      ],
+      "reponse": "l’épaule",
+      "indice": "Elle est en haut du bras.",
+      "explication": "L’épaule permet de tourner le bras.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une articulation, c’est…",
+      "options": [
+        "là où deux os se rejoignent",
+        "un muscle",
+        "un os très long"
+      ],
+      "reponse": "là où deux os se rejoignent",
+      "indice": "Le corps peut plier à cet endroit.",
+      "explication": "Une articulation est l’endroit où deux os se rejoignent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

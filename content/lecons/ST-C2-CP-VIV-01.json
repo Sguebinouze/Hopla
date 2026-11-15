@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-VIV-01",
+  "exemple": "Le chien naît, mange, grandit et a des petits.",
+  "regle": "Un **être vivant** naît, se **nourrit**, **grandit** et se **reproduit**. Un caillou n’est pas vivant. Le nid, le lait, la laine sont **fabriqués par des vivants**.",
+  "piege": "Une plante est vivante, même si elle ne se déplace pas.",
+  "essai": {
+    "consigne": "Lequel est vivant ?",
+    "options": [
+      "un escargot",
+      "une gomme",
+      "un caillou"
+    ],
+    "reponse": "un escargot",
+    "explication": "L’escargot mange et grandit : il est vivant."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

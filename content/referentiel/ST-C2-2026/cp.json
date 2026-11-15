@@ -1,0 +1,141 @@
+{
+  "programme": "ST-C2-2026",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "ST-C2-CP-MAT-01",
+      "titre": "Lourd, léger, chaud, froid",
+      "domaine": "La matière, les mesures, l’électricité",
+      "theme": "Masse, volumes et mesure de température",
+      "attendu": "Comparer les masses d’objets et lire une température sur un thermomètre.",
+      "exemple": "Une pastèque est plus lourde qu’une pomme. Le thermomètre indique 20 degrés.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 6,
+        "extrait": "Masse, volumes et mesure de température"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-MAT-02",
+      "titre": "L’eau solide ou liquide",
+      "domaine": "La matière, les mesures, l’électricité",
+      "theme": "États physiques de la matière",
+      "attendu": "Reconnaitre l’eau à l’état solide et à l’état liquide dans la nature.",
+      "exemple": "La neige et la glace sont de l’eau solide. La pluie et la mer sont de l’eau liquide.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 7,
+        "extrait": "États physiques de la matière"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-VIV-01",
+      "titre": "Vivant ou non vivant",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Unité et diversité du vivant",
+      "attendu": "Trier ce qui est vivant, non vivant ou fabriqué par un être vivant, avec des critères simples.",
+      "exemple": "Le chat grandit, mange et a des petits : il est vivant. Le caillou ne grandit pas.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 8,
+        "extrait": "Unité et diversité du vivant"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-ENV-01",
+      "titre": "Observer son environnement",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Observer et décrire son environnement proche",
+      "attendu": "Nommer quelques êtres vivants de l’environnement proche et leur milieu de vie.",
+      "exemple": "Dans la mare vivent des grenouilles. Dans le sol vivent des vers de terre.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 8,
+        "extrait": "Observer et décrire son environnement proche"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-ENV-02",
+      "titre": "Protéger l’environnement",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Agir pour protéger l’environnement",
+      "attendu": "Connaitre quelques gestes simples pour protéger l’environnement proche.",
+      "exemple": "Je ferme le robinet pendant que je me brosse les dents.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 9,
+        "extrait": "Agir pour protéger l’environnement"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01",
+      "titre": "Les familles d’aliments",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Alimentation",
+      "attendu": "Nommer les catégories d’aliments et leur origine animale, végétale ou minérale.",
+      "exemple": "La pomme est un fruit, d’origine végétale. Le fromage est un produit laitier.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 11,
+        "extrait": "Découvrir et nommer les catégories d’aliments et leur"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-CORPS-02",
+      "titre": "Le corps et ses articulations",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Croissance et mouvement",
+      "attendu": "Nommer les parties du corps et les principales articulations qui permettent de bouger.",
+      "exemple": "Je plie le bras grâce au coude. Je plie la jambe grâce au genou.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 11,
+        "extrait": "Croissance et mouvement"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-SANTE-01",
+      "titre": "Prendre soin de sa santé",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Santé et hygiène de vie",
+      "attendu": "Connaitre quelques règles d’hygiène de vie : sommeil, activité physique, lavage des mains, brossage des dents.",
+      "exemple": "Je me lave les mains avant de manger. Je me brosse les dents matin et soir.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 12,
+        "extrait": "Santé et hygiène de vie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01",
+      "titre": "Les objets techniques",
+      "domaine": "Les objets techniques au cœur de la société",
+      "theme": "Les objets techniques",
+      "attendu": "Reconnaitre un objet fabriqué par les humains pour répondre à un besoin.",
+      "exemple": "La cuillère en bois est fabriquée avec le bois d’un arbre. Elle sert à manger.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 13,
+        "extrait": "Identifier qu’un objet technique est obtenu par"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

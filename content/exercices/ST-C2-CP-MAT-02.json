@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-MAT-02",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-MAT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La glace est de l’eau…",
+      "options": [
+        "solide",
+        "liquide",
+        "chaude"
+      ],
+      "reponse": "solide",
+      "indice": "On peut la tenir dans la main.",
+      "explication": "La glace est de l’eau solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La pluie est de l’eau…",
+      "options": [
+        "liquide",
+        "solide",
+        "en bois"
+      ],
+      "reponse": "liquide",
+      "indice": "Elle coule.",
+      "explication": "La pluie est de l’eau liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La neige est de l’eau…",
+      "options": [
+        "solide",
+        "liquide",
+        "en sable"
+      ],
+      "reponse": "solide",
+      "indice": "On peut en faire une boule.",
+      "explication": "La neige est de l’eau solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que devient un glaçon au soleil ?",
+      "options": [
+        "de l’eau liquide",
+        "du sable",
+        "de la neige"
+      ],
+      "reponse": "de l’eau liquide",
+      "indice": "Il fond.",
+      "explication": "Au chaud, la glace fond : elle devient liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’eau de la mer est…",
+      "options": [
+        "liquide",
+        "solide",
+        "en glace toute l’année"
+      ],
+      "reponse": "liquide",
+      "indice": "On peut s’y baigner.",
+      "explication": "L’eau de la mer est liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La grêle est de l’eau…",
+      "options": [
+        "solide",
+        "liquide",
+        "chaude"
+      ],
+      "reponse": "solide",
+      "indice": "Ce sont de petites billes de glace.",
+      "explication": "La grêle est faite de glace : c’est de l’eau solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un glacier en montagne est fait…",
+      "options": [
+        "d’eau solide",
+        "d’eau liquide",
+        "de sable"
+      ],
+      "reponse": "d’eau solide",
+      "indice": "C’est une énorme masse de glace.",
+      "explication": "Un glacier est fait de glace : de l’eau solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-MAT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle eau coule dans une rivière ?",
+      "options": [
+        "de l’eau liquide",
+        "de l’eau solide",
+        "de la neige"
+      ],
+      "reponse": "de l’eau liquide",
+      "indice": "Elle s’écoule.",
+      "explication": "Dans une rivière, l’eau coule : elle est liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

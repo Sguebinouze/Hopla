@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-HIST-01",
+  "exemple": "Le matin, le soleil se lève. Le soir, il se couche et la nuit arrive.",
+  "regle": "La Terre **tourne sur elle-même**. Le côté éclairé par le soleil a le **jour**. L’autre côté a la **nuit**. L’année a **quatre saisons** : printemps, été, automne, hiver.",
+  "piege": "La nuit, le soleil éclaire l’autre côté de la Terre.",
+  "essai": {
+    "consigne": "Quelle saison vient après l’été ?",
+    "options": [
+      "l’automne",
+      "le printemps",
+      "l’hiver"
+    ],
+    "reponse": "l’automne",
+    "explication": "Après l’été vient l’automne."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-ENV-02",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-ENV-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où met-on un papier de bonbon ?",
+      "options": [
+        "à la poubelle",
+        "par terre",
+        "dans le bac à sable"
+      ],
+      "reponse": "à la poubelle",
+      "indice": "On ne salit pas la cour.",
+      "explication": "Un papier se jette à la poubelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pour économiser l’eau, que fais-tu ?",
+      "options": [
+        "Je ferme le robinet.",
+        "Je laisse couler l’eau.",
+        "Je joue avec l’eau."
+      ],
+      "reponse": "Je ferme le robinet.",
+      "indice": "L’eau est précieuse.",
+      "explication": "Fermer le robinet économise l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "En quittant la classe, on…",
+      "options": [
+        "éteint la lumière",
+        "allume toutes les lampes",
+        "ouvre les robinets"
+      ],
+      "reponse": "éteint la lumière",
+      "indice": "On économise l’électricité.",
+      "explication": "On éteint la lumière pour économiser l’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les piles usagées se déposent…",
+      "options": [
+        "dans un point de collecte",
+        "dans la nature",
+        "dans les toilettes"
+      ],
+      "reponse": "dans un point de collecte",
+      "indice": "Elles sont dangereuses pour la nature.",
+      "explication": "Les piles se recyclent dans un point de collecte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Trier ses déchets, c’est…",
+      "options": [
+        "les mettre dans la bonne poubelle",
+        "les jeter par terre",
+        "les cacher"
+      ],
+      "reponse": "les mettre dans la bonne poubelle",
+      "indice": "Il y a plusieurs couleurs de poubelles.",
+      "explication": "Trier, c’est mettre chaque déchet dans la bonne poubelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel geste abime la nature ?",
+      "options": [
+        "jeter ses déchets dans la forêt",
+        "trier ses déchets",
+        "éteindre la lumière"
+      ],
+      "reponse": "jeter ses déchets dans la forêt",
+      "indice": "Les animaux peuvent s’y blesser.",
+      "explication": "Jeter ses déchets dans la forêt abime la nature.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une bouteille en plastique vide va…",
+      "options": [
+        "dans la poubelle de tri",
+        "dans la rivière",
+        "dans le compost"
+      ],
+      "reponse": "dans la poubelle de tri",
+      "indice": "Le plastique peut être recyclé.",
+      "explication": "La bouteille en plastique se trie pour être recyclée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-ENV-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les épluchures de légumes peuvent aller…",
+      "options": [
+        "dans le compost",
+        "dans la poubelle à verre",
+        "dans la rue"
+      ],
+      "reponse": "dans le compost",
+      "indice": "Elles se transforment en terre.",
+      "explication": "Les épluchures vont au compost.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

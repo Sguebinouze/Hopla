@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-OBJ-01",
+  "exemple": "Il pleut : je prends mon parapluie et mon manteau.",
+  "regle": "Un **objet technique** est **fabriqué par les humains**. Il répond à un **besoin** : se protéger, se déplacer, écrire. On le fabrique avec des **matériaux** : bois, laine, argile, plastique.",
+  "piege": "Une branche vient de la nature : ce n’est pas un objet technique.",
+  "essai": {
+    "consigne": "Lequel est un objet technique ?",
+    "options": [
+      "une chaise",
+      "une fleur",
+      "un caillou"
+    ],
+    "reponse": "une chaise",
+    "explication": "La chaise est fabriquée par les humains."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-VIV-01",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-VIV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est vivant ?",
+      "options": [
+        "un chat",
+        "un caillou",
+        "une chaise"
+      ],
+      "reponse": "un chat",
+      "indice": "Il mange et il grandit.",
+      "explication": "Le chat est vivant : il mange et grandit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel n’est pas vivant ?",
+      "options": [
+        "un caillou",
+        "un arbre",
+        "un oiseau"
+      ],
+      "reponse": "un caillou",
+      "indice": "Il ne grandit pas.",
+      "explication": "Le caillou ne grandit pas : il n’est pas vivant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une fleur est…",
+      "options": [
+        "vivante",
+        "non vivante",
+        "fabriquée en usine"
+      ],
+      "reponse": "vivante",
+      "indice": "Elle pousse.",
+      "explication": "La fleur pousse et grandit : elle est vivante.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que fait un être vivant ?",
+      "options": [
+        "Il grandit.",
+        "Il reste toujours pareil.",
+        "Il ne se nourrit jamais."
+      ],
+      "reponse": "Il grandit.",
+      "indice": "Pense à un bébé.",
+      "explication": "Un être vivant grandit et se nourrit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un nid a été fabriqué par…",
+      "options": [
+        "un oiseau",
+        "une usine",
+        "le vent"
+      ],
+      "reponse": "un oiseau",
+      "indice": "Il y pond ses œufs.",
+      "explication": "Le nid est fabriqué par un être vivant, l’oiseau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le lait vient…",
+      "options": [
+        "d’un animal",
+        "d’un caillou",
+        "de la pluie"
+      ],
+      "reponse": "d’un animal",
+      "indice": "La vache en donne.",
+      "explication": "Le lait est produit par un être vivant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La laine d’un pull vient…",
+      "options": [
+        "du mouton",
+        "du sable",
+        "du pétrole seulement"
+      ],
+      "reponse": "du mouton",
+      "indice": "Il a une épaisse toison.",
+      "explication": "La laine est produite par le mouton.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-VIV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un arbre est vivant car…",
+      "options": [
+        "il grandit et se reproduit",
+        "il ne bouge pas",
+        "il est grand"
+      ],
+      "reponse": "il grandit et se reproduit",
+      "indice": "Il pousse et donne des graines.",
+      "explication": "L’arbre grandit et fait des graines : il est vivant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

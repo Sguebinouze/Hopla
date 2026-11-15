@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-CORPS-02",
+  "exemple": "Pour lancer un ballon, je plie le coude et je tourne l’épaule.",
+  "regle": "Le corps a un **squelette** fait d’**os**. Là où deux os se rejoignent, il y a une **articulation**. Le coude, le genou et la cheville sont des articulations. Elles permettent de bouger.",
+  "piege": "On ne plie pas un os : on plie une articulation.",
+  "essai": {
+    "consigne": "Quelle articulation plie la jambe ?",
+    "options": [
+      "le genou",
+      "le coude",
+      "l’épaule"
+    ],
+    "reponse": "le genou",
+    "explication": "Le genou permet de plier la jambe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-ENV-01",
+  "exemple": "Dans la cour, j’observe une fourmi, un moineau et un pissenlit.",
+  "regle": "Autour de l’école vivent des **animaux**, des **végétaux** et des **champignons**. Chacun a son **milieu de vie**. Ce peut être le sol, la mare ou la forêt.",
+  "piege": "L’araignée a huit pattes : ce n’est pas un insecte.",
+  "essai": {
+    "consigne": "Où vit le ver de terre ?",
+    "options": [
+      "dans le sol",
+      "dans un arbre",
+      "dans la mer"
+    ],
+    "reponse": "dans le sol",
+    "explication": "Le ver de terre vit dans le sol."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

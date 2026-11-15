@@ -1,0 +1,81 @@
+{
+  "programme": "HG-C2-2026",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "HG-C2-CP-HIST-01",
+      "titre": "Jour, nuit et saisons",
+      "domaine": "Histoire",
+      "theme": "Les manifestations naturelles du temps",
+      "attendu": "Expliquer l’alternance du jour et de la nuit, nommer les saisons et leurs caractéristiques.",
+      "exemple": "La Terre tourne sur elle-même. Chez nous, c’est le jour. De l’autre côté, c’est la nuit.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 57,
+        "extrait": "Thème 1 : Les manifestations naturelles du temps"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C2-CP-HIST-02",
+      "titre": "Le calendrier",
+      "domaine": "Histoire",
+      "theme": "Les représentations humaines du temps",
+      "attendu": "Savoir que l’année compte 12 mois, la semaine 7 jours et la journée 24 heures ; utiliser un calendrier.",
+      "exemple": "Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche : une semaine.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 57,
+        "extrait": "Thème 2 : Les représentations humaines du temps"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C2-CP-HIST-03",
+      "titre": "Avant, pendant, après",
+      "domaine": "Histoire",
+      "theme": "Situer des évènements dans le temps",
+      "attendu": "Situer des évènements avec hier, aujourd’hui, demain ; compléter une frise et un arbre généalogique simple.",
+      "exemple": "Hier, j’étais à la piscine. Aujourd’hui, je suis à l’école. Demain, je vais au parc.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 57,
+        "extrait": "Thème 3 : Situer des évènements dans le temps"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C2-CP-GEO-01",
+      "titre": "Se repérer autour de l’école",
+      "domaine": "Géographie",
+      "theme": "Autour de l’école",
+      "attendu": "Se repérer dans la classe, l’école et le quartier avec les mots de position et un plan simple.",
+      "exemple": "Le tableau est devant les élèves. La porte est à droite du bureau.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 60,
+        "extrait": "Thème 1 : Autour de l’école (trois périodes)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C2-CP-GEO-02",
+      "titre": "Continents et océans",
+      "domaine": "Géographie",
+      "theme": "Des représentations du monde",
+      "attendu": "Reconnaitre un planisphère et un globe ; localiser les continents, les océans et la France.",
+      "exemple": "Sur le planisphère, la France est en Europe. L’océan Atlantique la borde à l’ouest.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 60,
+        "extrait": "Thème 2 : Des représentations du monde (deux périodes)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

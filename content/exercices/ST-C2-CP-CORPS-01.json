@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-CORPS-01",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La pomme est…",
+      "options": [
+        "un fruit",
+        "un produit laitier",
+        "une viande"
+      ],
+      "reponse": "un fruit",
+      "indice": "Elle pousse sur un arbre.",
+      "explication": "La pomme est un fruit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le yaourt est…",
+      "options": [
+        "un produit laitier",
+        "un légume",
+        "un poisson"
+      ],
+      "reponse": "un produit laitier",
+      "indice": "Il est fait avec du lait.",
+      "explication": "Le yaourt est un produit laitier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La carotte est…",
+      "options": [
+        "un légume",
+        "un fruit sucré",
+        "une viande"
+      ],
+      "reponse": "un légume",
+      "indice": "Elle pousse dans la terre.",
+      "explication": "La carotte est un légume.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les pâtes sont…",
+      "options": [
+        "un féculent",
+        "un produit laitier",
+        "un fruit"
+      ],
+      "reponse": "un féculent",
+      "indice": "Comme le riz et le pain.",
+      "explication": "Les pâtes sont un féculent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "D’où vient l’œuf ?",
+      "options": [
+        "d’un animal",
+        "d’une plante",
+        "d’un caillou"
+      ],
+      "reponse": "d’un animal",
+      "indice": "La poule le pond.",
+      "explication": "L’œuf vient d’un animal, la poule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "D’où vient le sel ?",
+      "options": [
+        "d’un minéral",
+        "d’un animal",
+        "d’un arbre"
+      ],
+      "reponse": "d’un minéral",
+      "indice": "On le récolte au bord de la mer.",
+      "explication": "Le sel est d’origine minérale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le beurre est…",
+      "options": [
+        "une matière grasse",
+        "un féculent",
+        "un légume"
+      ],
+      "reponse": "une matière grasse",
+      "indice": "On en met sur les tartines.",
+      "explication": "Le beurre est une matière grasse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "D’où vient le pain ?",
+      "options": [
+        "d’une plante, le blé",
+        "d’un animal",
+        "du sel"
+      ],
+      "reponse": "d’une plante, le blé",
+      "indice": "Il est fait avec de la farine.",
+      "explication": "Le pain est fait avec du blé : il est d’origine végétale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

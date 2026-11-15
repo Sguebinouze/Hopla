@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C2-CP-HIST-02",
+  "exercices": [
+    {
+      "id": "HG-C2-CP-HIST-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de jours dans une semaine ?",
+      "options": [
+        "7",
+        "5",
+        "12"
+      ],
+      "reponse": "7",
+      "indice": "Récite les jours de lundi à dimanche.",
+      "explication": "Une semaine compte sept jours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel jour vient après lundi ?",
+      "options": [
+        "mardi",
+        "dimanche",
+        "jeudi"
+      ],
+      "reponse": "mardi",
+      "indice": "Récite les jours dans l’ordre.",
+      "explication": "Après lundi vient mardi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de mois dans une année ?",
+      "options": [
+        "12",
+        "7",
+        "24"
+      ],
+      "reponse": "12",
+      "indice": "De janvier à décembre.",
+      "explication": "Une année compte douze mois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mois vient après janvier ?",
+      "options": [
+        "février",
+        "mars",
+        "décembre"
+      ],
+      "reponse": "février",
+      "indice": "C’est le mois le plus court.",
+      "explication": "Après janvier vient février.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien d’heures dans une journée ?",
+      "options": [
+        "24",
+        "12",
+        "60"
+      ],
+      "reponse": "24",
+      "indice": "Une journée entière, avec la nuit.",
+      "explication": "Une journée entière dure vingt-quatre heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel objet sert à mesurer le temps ?",
+      "options": [
+        "un sablier",
+        "une règle",
+        "une balance"
+      ],
+      "reponse": "un sablier",
+      "indice": "Le sable s’écoule doucement.",
+      "explication": "Le sablier mesure une durée, comme une montre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel jour vient avant samedi ?",
+      "options": [
+        "vendredi",
+        "dimanche",
+        "jeudi"
+      ],
+      "reponse": "vendredi",
+      "indice": "Recule d’un jour.",
+      "explication": "Avant samedi, il y a vendredi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le dernier mois de l’année ?",
+      "options": [
+        "décembre",
+        "janvier",
+        "novembre"
+      ],
+      "reponse": "décembre",
+      "indice": "C’est le mois de Noël.",
+      "explication": "L’année finit en décembre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

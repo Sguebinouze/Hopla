@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C2-CP-OBJ-01",
+  "exercices": [
+    {
+      "id": "ST-C2-CP-OBJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est fabriqué par les humains ?",
+      "options": [
+        "un stylo",
+        "une feuille d’arbre",
+        "un caillou"
+      ],
+      "reponse": "un stylo",
+      "indice": "On l’achète au magasin.",
+      "explication": "Le stylo est fabriqué par les humains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel n’est pas fabriqué par les humains ?",
+      "options": [
+        "une branche d’arbre",
+        "une règle",
+        "une gomme"
+      ],
+      "reponse": "une branche d’arbre",
+      "indice": "Elle pousse toute seule.",
+      "explication": "La branche vient de l’arbre : personne ne l’a fabriquée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert un parapluie ?",
+      "options": [
+        "à se protéger de la pluie",
+        "à manger",
+        "à écrire"
+      ],
+      "reponse": "à se protéger de la pluie",
+      "indice": "On l’ouvre quand il pleut.",
+      "explication": "Le parapluie protège de la pluie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avec quoi fait-on un pull en laine ?",
+      "options": [
+        "la laine du mouton",
+        "le bois",
+        "le verre"
+      ],
+      "reponse": "la laine du mouton",
+      "indice": "L’animal a une épaisse toison.",
+      "explication": "Le pull est fait avec la laine du mouton.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour venir à l’école, quel objet aide à se déplacer ?",
+      "options": [
+        "un vélo",
+        "une cuillère",
+        "un crayon"
+      ],
+      "reponse": "un vélo",
+      "indice": "Il a deux roues.",
+      "explication": "Le vélo aide à se déplacer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une tuile est fabriquée avec…",
+      "options": [
+        "de l’argile",
+        "du lait",
+        "des feuilles"
+      ],
+      "reponse": "de l’argile",
+      "indice": "C’est une terre qu’on cuit.",
+      "explication": "La tuile est faite avec de l’argile cuite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quand il fait froid, quel objet répond au besoin d’avoir chaud ?",
+      "options": [
+        "un manteau",
+        "un ventilateur",
+        "des lunettes de soleil"
+      ],
+      "reponse": "un manteau",
+      "indice": "On le met en hiver.",
+      "explication": "Le manteau protège du froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C2-CP-OBJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un objet technique est…",
+      "options": [
+        "fabriqué pour un besoin",
+        "trouvé dans la nature",
+        "toujours vivant"
+      ],
+      "reponse": "fabriqué pour un besoin",
+      "indice": "Pense au stylo ou à la chaise.",
+      "explication": "Un objet technique est fabriqué par les humains pour un besoin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

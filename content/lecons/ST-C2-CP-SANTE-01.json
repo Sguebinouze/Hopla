@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-SANTE-01",
+  "exemple": "Le soir, je me brosse les dents. Puis je me couche tôt.",
+  "regle": "Pour rester en **bonne santé**, on **dort** bien. On **bouge** chaque jour. On mange varié. On se **lave les mains**. On se **brosse les dents**. On limite les écrans.",
+  "piege": "On ne voit pas les microbes, mais le savon les enlève.",
+  "essai": {
+    "consigne": "Quand se lave-t-on les mains ?",
+    "options": [
+      "avant de manger",
+      "jamais",
+      "une fois par mois"
+    ],
+    "reponse": "avant de manger",
+    "explication": "On se lave les mains avant de manger."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

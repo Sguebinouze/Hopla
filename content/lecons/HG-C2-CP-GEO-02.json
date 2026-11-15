@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-GEO-02",
+  "exemple": "Sur le globe, le bleu montre les océans.",
+  "regle": "Les **continents** sont de grandes terres : Europe, Afrique, Asie, Amérique, Océanie, Antarctique. Les **océans** sont de grandes étendues d’eau salée : Atlantique, Pacifique, Indien. La **France** est en Europe.",
+  "piege": "Un pays n’est pas un continent : la France est un pays d’Europe.",
+  "essai": {
+    "consigne": "Lequel est un océan ?",
+    "options": [
+      "le Pacifique",
+      "l’Asie",
+      "la France"
+    ],
+    "reponse": "le Pacifique",
+    "explication": "Le Pacifique est un océan."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

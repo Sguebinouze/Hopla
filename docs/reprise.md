@@ -42,8 +42,14 @@ Session cloud (app et autres matières) :
 - Fait : littérature de 6e (5 entrées du programme, `FR-C3-6E-LITT-01` à `05`), avec 45 questions rédigées et 5 leçons, en brouillon. `FR-C3-2025/6e.json` revient à la session VS Code.
 - Fait : anglais CE1 (5 compétences en écoute, champ `ecoute` des exercices, lu en anglais par la PWA) et 6e (11 compétences, programme BO n°22 de 2025 appliqué en 6e depuis la rentrée 2025 d'après l'académie de Bordeaux, à confirmer sur l'arrêté). 133 questions et 16 leçons en brouillon.
 - Fait : espace admin `/admin` (PWA), réservé aux comptes de `public.admins`, mode parent ouvert. Rubrique Relecture : notions, leçons et questions rédigées en brouillon (fichier `packs/relecture.json`, produit par `pnpm content:packs`), validation par notion, export des décisions. Report dans le dépôt : `pnpm content:relecture --decisions <export.json> --par Laurent` (ou `--simulation`). La décision « ok » publie la question ou la leçon et passe la notion en `verifie` ; « corriger » est listé avec le commentaire.
-1. Autres matières des autres classes (questionner le monde CP et CE2, histoire-géographie, sciences et EMC du CM1 à la 3e, anglais des autres classes).
+1. Autres matières des autres classes : reprises par la session VS Code (voir « Autres matières » ci-dessous).
 2. Appliquer les décisions de relecture dès que Laurent en a pris (export depuis /admin, ou lecture de la table `relectures`).
+
+## Autres matières (session VS Code depuis le 15 novembre 2026)
+
+Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons` de ces matières. Pour chaque classe : compétences avec page et extrait (vérifiés par `pnpm content:extraits`), 8 questions et une leçon par notion, en brouillon, `auteur: ia`. Le programme suivi est celui que `content/programmes/programmes.json` applique en 2026-2027.
+- CP (fait) : le CP suit déjà les programmes 2026 d’histoire-géographie (`HG-C2-2026`, BO n°22 de 2026) et de sciences et technologie (`ST-C2-2026`, BO n°24 de 2026), qui remplacent questionner le monde ; EMC `EM-C2-2024`. 18 notions, 144 questions, 18 leçons.
+- À suivre, dans l’ordre : CE2 (questionner le monde 2020, EMC), CM1 et CM2 (histoire-géographie, sciences, EMC), cycle 4, anglais des autres classes.
 
 ## Travail à deux sessions
 

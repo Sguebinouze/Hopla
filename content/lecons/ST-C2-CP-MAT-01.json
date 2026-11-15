@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-MAT-01",
+  "exemple": "Je soupèse une pomme et un melon. Le melon est plus lourd.",
+  "regle": "On compare des **masses** avec une **balance**. Le côté lourd descend. Le **thermomètre** mesure la **température**, en degrés.",
+  "piege": "Gros ne veut pas dire lourd : un ballon gonflé est léger.",
+  "essai": {
+    "consigne": "Quel objet mesure la température ?",
+    "options": [
+      "le thermomètre",
+      "la balance",
+      "la montre"
+    ],
+    "reponse": "le thermomètre",
+    "explication": "Le thermomètre mesure la température."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

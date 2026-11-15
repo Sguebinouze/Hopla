@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C2-CP-HIST-03",
+  "exercices": [
+    {
+      "id": "HG-C2-CP-HIST-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le jour avant aujourd’hui s’appelle…",
+      "options": [
+        "hier",
+        "demain",
+        "ce soir"
+      ],
+      "reponse": "hier",
+      "indice": "C’est déjà passé.",
+      "explication": "Hier est le jour avant aujourd’hui.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le jour après aujourd’hui s’appelle…",
+      "options": [
+        "demain",
+        "hier",
+        "avant-hier"
+      ],
+      "reponse": "demain",
+      "indice": "C’est dans le futur.",
+      "explication": "Demain est le jour après aujourd’hui.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que fait-on d’abord le matin ?",
+      "options": [
+        "se réveiller",
+        "aller à l’école",
+        "déjeuner à midi"
+      ],
+      "reponse": "se réveiller",
+      "indice": "C’est le début de la journée.",
+      "explication": "On se réveille d’abord. Ensuite, on va à l’école.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui est le papa de ton papa ?",
+      "options": [
+        "ton grand-père",
+        "ton frère",
+        "ton oncle"
+      ],
+      "reponse": "ton grand-père",
+      "indice": "Pense à l’arbre de la famille.",
+      "explication": "Le papa de ton papa est ton grand-père.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Je jouerai au parc. » Quand cela se passe-t-il ?",
+      "options": [
+        "dans le futur",
+        "dans le passé",
+        "maintenant"
+      ],
+      "reponse": "dans le futur",
+      "indice": "Le verbe parle de demain.",
+      "explication": "« Je jouerai » parle du futur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel jour vient deux jours avant aujourd’hui ?",
+      "options": [
+        "avant-hier",
+        "après-demain",
+        "demain"
+      ],
+      "reponse": "avant-hier",
+      "indice": "C’est avant hier.",
+      "explication": "Deux jours avant aujourd’hui, c’est avant-hier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur une frise, où place-t-on ta naissance ?",
+      "options": [
+        "au début",
+        "à la fin",
+        "au milieu"
+      ],
+      "reponse": "au début",
+      "indice": "C’est le premier évènement de ta vie.",
+      "explication": "Ta naissance est au début de la frise de ta vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-HIST-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui est le plus âgé ?",
+      "options": [
+        "ton grand-père",
+        "ton père",
+        "toi"
+      ],
+      "reponse": "ton grand-père",
+      "indice": "Il est né avant les autres.",
+      "explication": "Le grand-père est né le premier : il est le plus âgé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

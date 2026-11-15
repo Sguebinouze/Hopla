@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-HIST-02",
+  "exemple": "Le calendrier montre les jours, les semaines et les mois.",
+  "regle": "Une **semaine** a 7 jours. Une **année** a 12 mois. Une **journée** dure 24 heures. Les jours et les mois reviennent toujours dans le même ordre.",
+  "piege": "L’année commence le 1er janvier, pas à la rentrée.",
+  "essai": {
+    "consigne": "Quel jour vient après mercredi ?",
+    "options": [
+      "jeudi",
+      "mardi",
+      "lundi"
+    ],
+    "reponse": "jeudi",
+    "explication": "Après mercredi vient jeudi."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
