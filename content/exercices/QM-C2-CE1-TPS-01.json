@@ -1,0 +1,175 @@
+{
+  "competence": "QM-C2-CE1-TPS-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-TPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien y a-t-il de jours dans une semaine ?",
+      "options": [
+        "10",
+        "7",
+        "5"
+      ],
+      "reponse": "7",
+      "indice": "Récite les jours de lundi à dimanche.",
+      "explication": "De lundi à dimanche, il y a 7 jours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel jour vient après lundi ?",
+      "options": [
+        "dimanche",
+        "jeudi",
+        "mardi"
+      ],
+      "reponse": "mardi",
+      "indice": "Récite les jours dans l’ordre.",
+      "explication": "Après lundi vient mardi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien y a-t-il de mois dans une année ?",
+      "options": [
+        "12",
+        "10",
+        "7"
+      ],
+      "reponse": "12",
+      "indice": "Récite les mois de janvier à décembre.",
+      "explication": "De janvier à décembre, il y a 12 mois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mois vient après mars ?",
+      "options": [
+        "avril",
+        "février",
+        "mai"
+      ],
+      "reponse": "avril",
+      "indice": "Récite les mois dans l’ordre.",
+      "explication": "Après mars vient avril.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien y a-t-il de minutes dans une heure ?",
+      "options": [
+        "30",
+        "100",
+        "60"
+      ],
+      "reponse": "60",
+      "indice": "Regarde la grande aiguille de l’horloge.",
+      "explication": "Une heure compte 60 minutes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien y a-t-il d’heures dans une journée entière ?",
+      "options": [
+        "12",
+        "24",
+        "60"
+      ],
+      "reponse": "24",
+      "indice": "Compte le jour et la nuit.",
+      "explication": "Une journée entière compte 24 heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En quelle saison commence le mois de janvier ?",
+      "options": [
+        "l’hiver",
+        "l’été",
+        "le printemps"
+      ],
+      "reponse": "l’hiver",
+      "indice": "C’est la saison la plus froide.",
+      "explication": "Janvier est en hiver.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien d’années y a-t-il dans un siècle ?",
+      "options": [
+        "10",
+        "100",
+        "1 000"
+      ],
+      "reponse": "100",
+      "indice": "Un siècle est très long.",
+      "explication": "Un siècle dure 100 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle durée est la plus longue ?",
+      "options": [
+        "un siècle",
+        "un mois",
+        "une année"
+      ],
+      "reponse": "un siècle",
+      "indice": "Compare les nombres d’années.",
+      "explication": "Un siècle dure 100 ans. C’est le plus long.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01-010",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mois est en été ?",
+      "options": [
+        "novembre",
+        "janvier",
+        "juillet"
+      ],
+      "reponse": "juillet",
+      "indice": "C’est le mois des grandes vacances.",
+      "explication": "Juillet est en été.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

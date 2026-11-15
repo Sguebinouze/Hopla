@@ -1,0 +1,158 @@
+{
+  "competence": "ST-C3-6E-VIV-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-VIV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est l’unité de base de tous les êtres vivants ?",
+      "options": [
+        "l’organe",
+        "la cellule",
+        "le muscle"
+      ],
+      "reponse": "la cellule",
+      "indice": "On l’observe au microscope.",
+      "explication": "Tous les êtres vivants sont formés d’une ou de plusieurs cellules.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel instrument permet d’observer des cellules ?",
+      "options": [
+        "le microscope",
+        "la boussole",
+        "le télescope"
+      ],
+      "reponse": "le microscope",
+      "indice": "Il grossit ce qui est minuscule.",
+      "explication": "Le microscope permet d’observer des cellules, trop petites pour l’œil nu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le chat, la baleine et l’humain ont des mamelles. Ce sont des…",
+      "options": [
+        "oiseaux",
+        "poissons",
+        "mammifères"
+      ],
+      "reponse": "mammifères",
+      "indice": "Le mot vient de « mamelle ».",
+      "explication": "Les mammifères allaitent leurs petits grâce à leurs mamelles. La baleine est un mammifère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel attribut partagent tous les oiseaux ?",
+      "options": [
+        "des écailles",
+        "des poils",
+        "des plumes"
+      ],
+      "reponse": "des plumes",
+      "indice": "La chauve-souris vole mais n’en a pas.",
+      "explication": "Tous les oiseaux ont des plumes. C’est l’attribut qui les définit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel être vivant est formé d’une seule cellule ?",
+      "options": [
+        "une bactérie",
+        "une souris",
+        "un chêne"
+      ],
+      "reponse": "une bactérie",
+      "indice": "C’est un microorganisme.",
+      "explication": "Une bactérie est unicellulaire : elle est formée d’une seule cellule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que montre un arbre de parenté ?",
+      "options": [
+        "les liens de parenté entre des espèces",
+        "l’âge des arbres",
+        "la taille des animaux"
+      ],
+      "reponse": "les liens de parenté entre des espèces",
+      "indice": "Il ressemble à un arbre généalogique.",
+      "explication": "Un arbre de parenté montre quelles espèces partagent des attributs hérités d’un ancêtre commun.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur quoi repose une classification scientifique en groupes emboîtés ?",
+      "options": [
+        "les attributs partagés",
+        "leur lieu de vie",
+        "la taille des êtres vivants"
+      ],
+      "reponse": "les attributs partagés",
+      "indice": "Plumes, poils, vertèbres sont des attributs.",
+      "explication": "On classe les êtres vivants selon les attributs qu’ils partagent, pas selon leur milieu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le requin et la baleine vivent dans la mer. Sont-ils dans le même groupe ?",
+      "options": [
+        "Oui : ils nagent tous les deux.",
+        "Oui : ils vivent tous les deux dans la mer.",
+        "Non : le requin est un poisson, la baleine un mammifère."
+      ],
+      "reponse": "Non : le requin est un poisson, la baleine un mammifère.",
+      "indice": "Regarde leurs attributs, pas leur milieu.",
+      "explication": "La baleine a des mamelles et respire avec des poumons. Le requin a des branchies : c’est un poisson.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le champignon est-il un végétal ?",
+      "options": [
+        "Non, il forme un groupe à part.",
+        "Oui, c’est une plante.",
+        "Non, c’est un animal."
+      ],
+      "reponse": "Non, il forme un groupe à part.",
+      "indice": "Il ne fait pas de photosynthèse.",
+      "explication": "Les champignons ne sont ni des végétaux ni des animaux. Ils forment un groupe à part.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

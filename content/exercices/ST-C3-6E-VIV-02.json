@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-6E-VIV-02",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-VIV-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’un fossile ?",
+      "options": [
+        "un reste ou une trace d’être vivant conservé dans la roche",
+        "un animal vivant très âgé",
+        "un caillou bien rond"
+      ],
+      "reponse": "un reste ou une trace d’être vivant conservé dans la roche",
+      "indice": "On en trouve dans les roches.",
+      "explication": "Un fossile est un reste ou une trace d’un être vivant, conservé dans une roche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel outil permet d’identifier une espèce ?",
+      "options": [
+        "une clé de détermination",
+        "un thermomètre",
+        "une boussole"
+      ],
+      "reponse": "une clé de détermination",
+      "indice": "On répond à une suite de questions.",
+      "explication": "La clé de détermination guide pas à pas jusqu’au nom de l’espèce.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand les dinosaures non aviens ont-ils disparu ?",
+      "options": [
+        "il y a 6 000 ans",
+        "il y a 66 millions d’années",
+        "il y a 1 million d’années"
+      ],
+      "reponse": "il y a 66 millions d’années",
+      "indice": "C’est très ancien, bien avant les humains.",
+      "explication": "Les dinosaures non aviens ont disparu il y a 66 millions d’années, lors d’une crise biologique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les premiers humains ont-ils vu des dinosaures non aviens ?",
+      "options": [
+        "Oui, mais seulement en Afrique.",
+        "Non, des dizaines de millions d’années les séparent.",
+        "Oui, ils vivaient ensemble."
+      ],
+      "reponse": "Non, des dizaines de millions d’années les séparent.",
+      "indice": "Les premiers humains datent de quelques millions d’années.",
+      "explication": "Les premiers humains apparaissent il y a quelques millions d’années seulement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment appelle-t-on la disparition d’un grand nombre d’espèces en peu de temps ?",
+      "options": [
+        "une crise biologique",
+        "une migration",
+        "une saison"
+      ],
+      "reponse": "une crise biologique",
+      "indice": "On parle aussi d’extinction de masse.",
+      "explication": "Une crise biologique fait disparaître de nombreuses espèces en un temps court.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux chiens de races différentes appartiennent-ils à la même espèce ?",
+      "options": [
+        "Non : ce sont deux espèces.",
+        "Oui : leurs différences sont internes à l’espèce.",
+        "Non : ils n’ont pas la même taille."
+      ],
+      "reponse": "Oui : leurs différences sont internes à l’espèce.",
+      "indice": "Ils peuvent avoir des petits ensemble.",
+      "explication": "Toutes les races de chiens forment une seule espèce. C’est la diversité au sein de l’espèce.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’archéoptéryx a des plumes, des dents et une longue queue osseuse. À quel groupe actuel est-il apparenté ?",
+      "options": [
+        "les insectes",
+        "les poissons",
+        "les oiseaux"
+      ],
+      "reponse": "les oiseaux",
+      "indice": "Cherche l’attribut partagé.",
+      "explication": "Les plumes rapprochent l’archéoptéryx des oiseaux actuels.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En quelle unité exprime-t-on les durées de l’histoire de la Terre ?",
+      "options": [
+        "en secondes",
+        "en millions d’années",
+        "en siècles"
+      ],
+      "reponse": "en millions d’années",
+      "indice": "La Terre a environ 4,6 milliards d’années.",
+      "explication": "Les temps géologiques se comptent en millions d’années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

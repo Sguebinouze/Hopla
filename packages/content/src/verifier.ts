@@ -79,6 +79,19 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
     }
   }
 
+  // Toutes matières : jamais deux programmes de la même matière pour une classe et une année.
+  const matieres = [...new Set(contenu.programmes.map((p) => p.matiere))];
+  for (const matiere of matieres.filter((m) => !options.matieresSuivies.includes(m))) {
+    for (const classe of CLASSES) {
+      for (const annee of options.annees) {
+        const applicables = programmesApplicables(contenu.programmes, classe, annee, matiere);
+        if (applicables.length > 1) {
+          erreur(`calendrier ${matiere}`, `${applicables.length} programmes pour ${classe} en ${annee} : ${applicables.map((p) => p.id).join(', ')}`);
+        }
+      }
+    }
+  }
+
   // Référentiel
   const competences = new Map<string, Competence & { cycle: 2 | 3 | 4; programme: string }>();
   for (const r of contenu.referentiels) {

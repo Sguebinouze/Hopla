@@ -1,0 +1,158 @@
+{
+  "competence": "ST-C3-6E-ALIM-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-ALIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel aliment est fabriqué grâce à des bactéries ?",
+      "options": [
+        "le sucre",
+        "le yaourt",
+        "le sel"
+      ],
+      "reponse": "le yaourt",
+      "indice": "Il est fait avec du lait.",
+      "explication": "Des bactéries transforment le lait en yaourt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel microorganisme fait lever la pâte à pain ?",
+      "options": [
+        "le sel",
+        "un virus",
+        "la levure"
+      ],
+      "reponse": "la levure",
+      "indice": "C’est un champignon microscopique.",
+      "explication": "La levure est un champignon microscopique. Elle fait lever la pâte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment s’appelle la transformation d’un aliment par des microorganismes ?",
+      "options": [
+        "la congélation",
+        "la fermentation",
+        "la cuisson"
+      ],
+      "reponse": "la fermentation",
+      "indice": "Le yaourt et le pain en sont des exemples.",
+      "explication": "La fermentation est la transformation d’un aliment par des microorganismes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi conserve-t-on les aliments au réfrigérateur ?",
+      "options": [
+        "Le froid ajoute des vitamines.",
+        "Le froid tue tous les microorganismes.",
+        "Le froid ralentit les microorganismes."
+      ],
+      "reponse": "Le froid ralentit les microorganismes.",
+      "indice": "Le froid ne stérilise pas.",
+      "explication": "Le froid ralentit la multiplication des microorganismes. Il ne les tue pas tous.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel procédé de conservation utilise le sel ?",
+      "options": [
+        "la salaison",
+        "la stérilisation",
+        "la congélation"
+      ],
+      "reponse": "la salaison",
+      "indice": "Pense au jambon sec.",
+      "explication": "La salaison conserve les aliments grâce au sel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel aliment est obtenu par fermentation ?",
+      "options": [
+        "la pomme crue",
+        "le fromage",
+        "l’eau du robinet"
+      ],
+      "reponse": "le fromage",
+      "indice": "Il est fabriqué à partir de lait.",
+      "explication": "Le fromage est obtenu grâce à des microorganismes qui transforment le lait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que fait la stérilisation des conserves ?",
+      "options": [
+        "Elle ajoute du sucre.",
+        "Elle refroidit l’aliment.",
+        "Elle détruit les microorganismes par la chaleur."
+      ],
+      "reponse": "Elle détruit les microorganismes par la chaleur.",
+      "indice": "On chauffe la boîte fermée.",
+      "explication": "La stérilisation chauffe l’aliment pour détruire les microorganismes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pendant la fabrication du pain, la levure produit un gaz. Lequel ?",
+      "options": [
+        "le dioxygène",
+        "le diazote",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "Ce gaz forme les trous de la mie.",
+      "explication": "La levure produit du dioxyde de carbone. Les bulles font gonfler la pâte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel paramètre influence la réussite d’un yaourt ?",
+      "options": [
+        "le bruit de la cuisine",
+        "la couleur du pot",
+        "la température"
+      ],
+      "reponse": "la température",
+      "indice": "Les yaourtières chauffent doucement.",
+      "explication": "Les bactéries du yaourt agissent mieux autour de 40 °C. La température est un paramètre clé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

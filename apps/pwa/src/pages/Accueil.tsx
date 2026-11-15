@@ -92,7 +92,7 @@ export function Accueil() {
         <>
           <h2 className="titre-2">Mes matières</h2>
           <div className="grille-matieres">
-            {pack.matieres.map((m) => (
+            {pack.matieres.filter((m) => m.competences.length > 0).map((m) => (
               <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>
                 <span className="hp-subject__icon"><Icone nom="eclair" /></span>
                 <span className="hp-subject__name">{NOMS_MATIERES[m.matiere] ?? m.matiere}</span>

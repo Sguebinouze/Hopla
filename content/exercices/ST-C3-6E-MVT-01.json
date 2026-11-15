@@ -1,0 +1,158 @@
+{
+  "competence": "ST-C3-6E-MVT-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-MVT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un cycliste parcourt 30 km en 2 h. Quelle est sa vitesse moyenne ?",
+      "options": [
+        "32 km/h",
+        "60 km/h",
+        "15 km/h"
+      ],
+      "reponse": "15 km/h",
+      "indice": "Divise la distance par la durée.",
+      "explication": "Vitesse = distance ÷ durée = 30 km ÷ 2 h = 15 km/h.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de temps met la Terre pour faire un tour autour du Soleil ?",
+      "options": [
+        "24 heures",
+        "un mois",
+        "environ 365 jours"
+      ],
+      "reponse": "environ 365 jours",
+      "indice": "C’est la durée d’une année.",
+      "explication": "La Terre fait un tour autour du Soleil en environ 365 jours : c’est une année.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de temps met la Terre pour tourner sur elle-même ?",
+      "options": [
+        "365 jours",
+        "environ 24 heures",
+        "une semaine"
+      ],
+      "reponse": "environ 24 heures",
+      "indice": "C’est la durée d’un jour.",
+      "explication": "La Terre tourne sur elle-même en environ 24 heures : c’est un jour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une voiture parcourt 120 km en 2 h. Quelle est sa vitesse moyenne ?",
+      "options": [
+        "240 km/h",
+        "60 km/h",
+        "122 km/h"
+      ],
+      "reponse": "60 km/h",
+      "indice": "Divise la distance par la durée.",
+      "explication": "120 km ÷ 2 h = 60 km/h.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un coureur parcourt 100 m en 20 s. Quelle est sa vitesse ?",
+      "options": [
+        "120 m/s",
+        "5 m/s",
+        "2 000 m/s"
+      ],
+      "reponse": "5 m/s",
+      "indice": "Divise les mètres par les secondes.",
+      "explication": "100 m ÷ 20 s = 5 m/s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment calcule-t-on une vitesse moyenne ?",
+      "options": [
+        "la distance divisée par la durée",
+        "la durée divisée par la distance",
+        "la distance multipliée par la durée"
+      ],
+      "reponse": "la distance divisée par la durée",
+      "indice": "L’unité km/h se lit « kilomètres par heure ».",
+      "explication": "Vitesse = distance ÷ durée. En km/h, on divise des kilomètres par des heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un passager est assis dans un train qui roule. Par rapport au train, il est…",
+      "options": [
+        "en mouvement rapide",
+        "immobile",
+        "en mouvement circulaire"
+      ],
+      "reponse": "immobile",
+      "indice": "Il ne bouge pas de son siège.",
+      "explication": "Par rapport au train, le passager est immobile. Par rapport au quai, il est en mouvement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un point coloré sur une toupie qui tourne décrit…",
+      "options": [
+        "un zigzag",
+        "une ligne droite",
+        "un cercle"
+      ],
+      "reponse": "un cercle",
+      "indice": "La toupie tourne autour de son axe.",
+      "explication": "Par rapport à l’axe de la toupie, le point décrit un cercle : c’est un mouvement circulaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MVT-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien de secondes y a-t-il dans une heure ?",
+      "options": [
+        "3 600",
+        "60",
+        "100"
+      ],
+      "reponse": "3 600",
+      "indice": "Une heure fait 60 minutes de 60 secondes.",
+      "explication": "60 × 60 = 3 600. Une heure compte 3 600 secondes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

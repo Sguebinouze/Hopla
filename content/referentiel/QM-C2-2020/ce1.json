@@ -1,0 +1,156 @@
+{
+  "programme": "QM-C2-2020",
+  "classe": "ce1",
+  "competences": [
+    {
+      "id": "QM-C2-CE1-MAT-01",
+      "titre": "Les états de l’eau",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Qu’est-ce que la matière ?",
+      "attendu": "Reconnaitre l’eau liquide et la glace, et un changement d’état dans la vie quotidienne.",
+      "exemple": "La glace fond au soleil. Elle devient de l’eau liquide.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 76,
+        "extrait": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01",
+      "titre": "Le monde vivant",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaître le monde vivant ?",
+      "attendu": "Distinguer l’animal, le végétal et le minéral ; connaitre le cycle de vie d’un être vivant.",
+      "exemple": "Le chêne est un végétal. Le caillou est un minéral.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Le cycle de vie des êtres vivants."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02",
+      "titre": "Qui mange quoi ?",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaître le monde vivant ?",
+      "attendu": "Connaitre le régime alimentaire de quelques animaux et les chaînes alimentaires.",
+      "exemple": "La chenille mange des feuilles. L’oiseau mange la chenille.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Régimes alimentaires de quelques animaux."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01",
+      "titre": "Bien manger, bien vivre",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaître le monde vivant ?",
+      "attendu": "Connaitre les catégories d’aliments et quelques règles d’hygiène de vie.",
+      "exemple": "Le lait et le fromage sont des produits laitiers.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Catégories d’aliments, leur origine."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01",
+      "titre": "Le circuit électrique",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Les objets techniques",
+      "attendu": "Connaitre les éléments d’un circuit simple, les conducteurs et les isolants.",
+      "exemple": "Le métal laisse passer le courant. Le plastique ne le laisse pas passer.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 78,
+        "extrait": "Exemples de bon conducteurs et d’isolants."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01",
+      "titre": "Se repérer dans l’espace",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Se situer dans l’espace",
+      "attendu": "Utiliser le vocabulaire des positions et lire un plan simple.",
+      "exemple": "Le ballon est sous la table. L’arbre est derrière l’école.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 79,
+        "extrait": "Vocabulaire permettant de définir des positions"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02",
+      "titre": "La Terre et ses continents",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Se situer dans l’espace",
+      "attendu": "Situer la France, les continents et les océans sur une carte ou un globe.",
+      "exemple": "La France est en Europe. L’océan Atlantique borde la France.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 80,
+        "extrait": "Repérer la position de sa région, de la France,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-TPS-01",
+      "titre": "Le calendrier et les durées",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Se situer dans le temps",
+      "attendu": "Connaitre les jours, les mois, les saisons et les unités de durée.",
+      "exemple": "Une semaine compte 7 jours. Une année compte 12 mois.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 80,
+        "extrait": "Le caractère cyclique des jours, des semaines,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-TPS-02",
+      "titre": "Autrefois et aujourd’hui",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Explorer les organisations du monde",
+      "attendu": "Comparer les modes de vie d’aujourd’hui et d’autrefois, sur quelques générations.",
+      "exemple": "Autrefois, on lavait le linge à la main.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 83,
+        "extrait": "Au CE1 : les élèves étudient l'évolution des modes de vie et des événements remarquables à"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03",
+      "titre": "Les paysages",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Explorer les organisations du monde",
+      "attendu": "Reconnaitre différents paysages : littoral, montagne, campagne, ville, désert.",
+      "exemple": "La mer et la plage forment un paysage de littoral.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 82,
+        "extrait": "Reconnaître différents paysages : les littoraux,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

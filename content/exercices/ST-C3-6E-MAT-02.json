@@ -1,0 +1,175 @@
+{
+  "competence": "ST-C3-6E-MAT-02",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-MAT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de millilitres y a-t-il dans 1 litre ?",
+      "options": [
+        "1 000",
+        "100",
+        "10"
+      ],
+      "reponse": "1 000",
+      "indice": "« Milli » signifie millième.",
+      "explication": "1 L = 1 000 mL.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de grammes y a-t-il dans 1 kilogramme ?",
+      "options": [
+        "100",
+        "10",
+        "1 000"
+      ],
+      "reponse": "1 000",
+      "indice": "« Kilo » signifie mille.",
+      "explication": "1 kg = 1 000 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz est le plus abondant dans l’air ?",
+      "options": [
+        "le dioxygène",
+        "le diazote",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le diazote",
+      "indice": "Il représente presque 4/5 de l’air.",
+      "explication": "L’air contient environ 78 % de diazote et 21 % de dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle part de l’air représente le dioxygène ?",
+      "options": [
+        "environ 21 %",
+        "environ 1 %",
+        "environ 78 %"
+      ],
+      "reponse": "environ 21 %",
+      "indice": "C’est environ un cinquième.",
+      "explication": "Le dioxygène représente environ 21 % de l’air.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz contribue à l’effet de serre ?",
+      "options": [
+        "le diazote",
+        "le dioxygène",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "Il est rejeté quand on brûle du pétrole.",
+      "explication": "Le dioxyde de carbone est un gaz à effet de serre. Il réchauffe le climat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment séparer le sable de l’eau ?",
+      "options": [
+        "par filtration",
+        "en ajoutant du sel",
+        "en secouant le mélange"
+      ],
+      "reponse": "par filtration",
+      "indice": "On utilise un papier filtre.",
+      "explication": "Le filtre retient le sable et laisse passer l’eau. C’est la filtration.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment mesurer le volume d’un caillou ?",
+      "options": [
+        "avec une balance",
+        "avec un thermomètre",
+        "par déplacement d’eau dans une éprouvette graduée"
+      ],
+      "reponse": "par déplacement d’eau dans une éprouvette graduée",
+      "indice": "Le niveau de l’eau monte quand on plonge le caillou.",
+      "explication": "Le volume du caillou est égal à la hausse du niveau de l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On verse de l’huile dans de l’eau. Que se passe-t-il ?",
+      "options": [
+        "L’huile se dissout dans l’eau.",
+        "L’huile reste au-dessus.",
+        "L’huile tombe au fond."
+      ],
+      "reponse": "L’huile reste au-dessus.",
+      "indice": "L’huile et l’eau ne se mélangent pas.",
+      "explication": "L’huile et l’eau ne sont pas miscibles. L’huile, moins dense, reste au-dessus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On dissout 10 g de sucre dans 200 g d’eau. Quelle est la masse du mélange ?",
+      "options": [
+        "200 g",
+        "210 g",
+        "190 g"
+      ],
+      "reponse": "210 g",
+      "indice": "Le sucre ne disparaît pas.",
+      "explication": "La masse se conserve lors d’une dissolution : 200 g + 10 g = 210 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-MAT-02-010",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "1 L d’eau a une masse d’environ 1 kg. Quelle est la masse de 3 L d’eau ?",
+      "options": [
+        "environ 3 kg",
+        "environ 30 kg",
+        "environ 1 kg"
+      ],
+      "reponse": "environ 3 kg",
+      "indice": "La masse est proportionnelle au volume.",
+      "explication": "Masse et volume sont proportionnels. 3 L d’eau ont une masse d’environ 3 kg.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

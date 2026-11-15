@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE1-ESP-03",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-ESP-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où trouve-t-on des plages et la mer ?",
+      "options": [
+        "en montagne",
+        "dans le désert",
+        "sur le littoral"
+      ],
+      "reponse": "sur le littoral",
+      "indice": "C’est le bord de mer.",
+      "explication": "Le littoral est le bord de mer. On y trouve des plages.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel paysage a des sommets enneigés ?",
+      "options": [
+        "la ville",
+        "la montagne",
+        "la plage"
+      ],
+      "reponse": "la montagne",
+      "indice": "On y fait du ski.",
+      "explication": "La montagne a des sommets hauts, souvent enneigés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel paysage a beaucoup de champs et de fermes ?",
+      "options": [
+        "la campagne",
+        "la ville",
+        "le désert"
+      ],
+      "reponse": "la campagne",
+      "indice": "On y trouve des vaches et des tracteurs.",
+      "explication": "À la campagne, il y a des champs et des fermes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel paysage a peu d’eau et beaucoup de sable ?",
+      "options": [
+        "le littoral",
+        "le désert",
+        "la forêt"
+      ],
+      "reponse": "le désert",
+      "indice": "Il y fait très chaud et sec.",
+      "explication": "Le désert est très sec. Il y a peu d’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel paysage a des immeubles et beaucoup d’habitants ?",
+      "options": [
+        "la ville",
+        "la campagne",
+        "la montagne"
+      ],
+      "reponse": "la ville",
+      "indice": "On y trouve des magasins et des bus.",
+      "explication": "La ville a des immeubles et beaucoup d’habitants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment appelle-t-on le bord de mer ?",
+      "options": [
+        "le littoral",
+        "le sommet",
+        "la vallée"
+      ],
+      "reponse": "le littoral",
+      "indice": "Ce mot commence par « li ».",
+      "explication": "Le bord de mer s’appelle le littoral.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le plus haut sommet de France ?",
+      "options": [
+        "le mont Blanc",
+        "le mont Ventoux",
+        "le puy de Dôme"
+      ],
+      "reponse": "le mont Blanc",
+      "indice": "Son nom parle de neige.",
+      "explication": "Le mont Blanc est dans les Alpes. C’est le plus haut sommet de France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans quel paysage cultive-t-on le blé ?",
+      "options": [
+        "la banquise",
+        "le désert",
+        "la campagne"
+      ],
+      "reponse": "la campagne",
+      "indice": "Il faut de grands champs.",
+      "explication": "Le blé pousse dans les champs, à la campagne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

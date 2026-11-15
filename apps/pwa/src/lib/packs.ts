@@ -82,6 +82,14 @@ export function competencesJouables(pack: Pack) {
 // Progression dans une série : on commence simple, on finit par la difficulté 3.
 const PALIERS: Difficulte[] = [1, 1, 2, 2, 3];
 const hasard = <T>(liste: T[]): T => liste[Math.floor(Math.random() * liste.length)]!;
+const melanger = <T>(liste: T[]): T[] => {
+  const copie = [...liste];
+  for (let i = copie.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copie[i], copie[j]] = [copie[j]!, copie[i]!];
+  }
+  return copie;
+};
 
 /** Une série d'items pour une compétence, de difficulté croissante, sans doublon. */
 export function seriePour(c: CompetencePack, n: number): Item[] {
@@ -92,7 +100,8 @@ export function seriePour(c: CompetencePack, n: number): Item[] {
       competence: c.id,
       gabarit: e.gabarit as Item['gabarit'],
       consigne: e.consigne,
-      options: e.options,
+      // Les banques rédigées gardent un ordre fixe dans le fichier : on mélange à l'affichage.
+      options: e.options ? melanger(e.options) : undefined,
       reponse: e.reponse,
       indice: e.indice,
       explication: e.explication,

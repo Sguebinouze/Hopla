@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-6E-VIV-03",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-VIV-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel insecte transporte le pollen d’une fleur à l’autre ?",
+      "options": [
+        "l’abeille",
+        "l’araignée",
+        "le ver de terre"
+      ],
+      "reponse": "l’abeille",
+      "indice": "Elle fabrique du miel.",
+      "explication": "Quand elle butine, l’abeille transporte le pollen d’une fleur à l’autre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que trouve l’abeille dans la fleur ?",
+      "options": [
+        "de la viande",
+        "du nectar et du pollen",
+        "de l’eau salée"
+      ],
+      "reponse": "du nectar et du pollen",
+      "indice": "Elle en fait du miel.",
+      "explication": "La fleur offre du nectar et du pollen à l’abeille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Après la pollinisation, que devient la fleur ?",
+      "options": [
+        "une racine",
+        "une feuille",
+        "un fruit"
+      ],
+      "reponse": "un fruit",
+      "indice": "Pense au pommier au printemps puis en automne.",
+      "explication": "Après la pollinisation, la fleur se transforme en fruit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que deviennent les ovules après la fécondation ?",
+      "options": [
+        "des racines",
+        "des graines",
+        "des pétales"
+      ],
+      "reponse": "des graines",
+      "indice": "On les trouve à l’intérieur du fruit.",
+      "explication": "Les ovules fécondés deviennent des graines.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle partie de la fleur produit le pollen ?",
+      "options": [
+        "la racine",
+        "l’étamine",
+        "le pistil"
+      ],
+      "reponse": "l’étamine",
+      "indice": "C’est l’organe mâle de la fleur.",
+      "explication": "Les étamines produisent le pollen. Le pistil contient les ovules.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Abeille et fleur : quel type de relation ?",
+      "options": [
+        "une prédation",
+        "une coopération : chacune y gagne",
+        "une compétition"
+      ],
+      "reponse": "une coopération : chacune y gagne",
+      "indice": "L’abeille se nourrit, la fleur est pollinisée.",
+      "explication": "L’abeille et la fleur coopèrent. C’est une relation mutualiste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que se passe-t-il pour certaines cultures si les pollinisateurs diminuent ?",
+      "options": [
+        "Elles poussent plus vite.",
+        "Elles produisent moins de fruits.",
+        "Rien ne change."
+      ],
+      "reponse": "Elles produisent moins de fruits.",
+      "indice": "Sans pollinisation, pas de fruit.",
+      "explication": "Moins de pollinisateurs, c’est moins de fleurs pollinisées, donc moins de fruits.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIV-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quels produits peuvent réduire le nombre de pollinisateurs ?",
+      "options": [
+        "le compost",
+        "l’eau de pluie",
+        "certains pesticides"
+      ],
+      "reponse": "certains pesticides",
+      "indice": "Ces produits servent à tuer des insectes.",
+      "explication": "Certains pesticides tuent ou affaiblissent les abeilles et d’autres pollinisateurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

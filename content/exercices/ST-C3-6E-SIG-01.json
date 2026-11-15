@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-6E-SIG-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-SIG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pourquoi y a-t-il une alternance du jour et de la nuit ?",
+      "options": [
+        "La Lune cache le Soleil chaque soir.",
+        "Le Soleil s’éteint la nuit.",
+        "La Terre tourne sur elle-même."
+      ],
+      "reponse": "La Terre tourne sur elle-même.",
+      "indice": "Pense à une boule éclairée par une lampe.",
+      "explication": "La Terre tourne sur elle-même. La face tournée vers le Soleil est éclairée : c’est le jour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "D’où vient la lumière du jour ?",
+      "options": [
+        "des nuages",
+        "de la Lune",
+        "du Soleil"
+      ],
+      "reponse": "du Soleil",
+      "indice": "C’est une étoile.",
+      "explication": "La lumière du jour vient du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand il fait jour en France, que se passe-t-il de l’autre côté de la Terre ?",
+      "options": [
+        "Il fait toujours nuit.",
+        "Il fait nuit.",
+        "Il fait jour aussi."
+      ],
+      "reponse": "Il fait nuit.",
+      "indice": "Une seule moitié de la Terre est éclairée.",
+      "explication": "Le Soleil éclaire une moitié de la Terre. L’autre moitié est dans la nuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En été, en France, les jours sont…",
+      "options": [
+        "toujours égaux aux nuits",
+        "plus courts que les nuits",
+        "plus longs que les nuits"
+      ],
+      "reponse": "plus longs que les nuits",
+      "indice": "Le Soleil se couche tard en juillet.",
+      "explication": "En été, en France, le jour dure plus longtemps que la nuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En France, quand a lieu le jour le plus long de l’année ?",
+      "options": [
+        "en mars",
+        "en décembre",
+        "en juin"
+      ],
+      "reponse": "en juin",
+      "indice": "C’est le début de l’été.",
+      "explication": "Le jour le plus long a lieu vers le 21 juin, au solstice d’été.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour un observateur en France, de quel côté le Soleil se lève-t-il ?",
+      "options": [
+        "vers l’ouest",
+        "vers le nord",
+        "vers l’est"
+      ],
+      "reponse": "vers l’est",
+      "indice": "C’est l’opposé du coucher.",
+      "explication": "Le Soleil se lève vers l’est et se couche vers l’ouest.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi y a-t-il des saisons ?",
+      "options": [
+        "La Terre s’éloigne beaucoup du Soleil en hiver.",
+        "La Lune change de forme.",
+        "L’axe de la Terre est incliné."
+      ],
+      "reponse": "L’axe de la Terre est incliné.",
+      "indice": "L’erreur la plus courante parle de distance.",
+      "explication": "L’axe de la Terre est incliné. La hauteur du Soleil et la durée du jour varient au cours de l’année.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-SIG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En hiver, en France, le Soleil de midi est…",
+      "options": [
+        "plus haut dans le ciel qu’en été",
+        "plus bas dans le ciel qu’en été",
+        "à la même hauteur qu’en été"
+      ],
+      "reponse": "plus bas dans le ciel qu’en été",
+      "indice": "Compare la longueur des ombres à midi.",
+      "explication": "En hiver, le Soleil monte moins haut. Les ombres de midi sont plus longues.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C3-6E-VIE-01",
+  "exercices": [
+    {
+      "id": "EM-C3-6E-VIE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Peux-tu publier la photo d’un camarade sans son accord ?",
+      "options": [
+        "Oui, si la photo est réussie.",
+        "Non, il a droit au respect de son image.",
+        "Oui, sur tous les réseaux."
+      ],
+      "reponse": "Non, il a droit au respect de son image.",
+      "indice": "Chacun décide de l’usage de son image.",
+      "explication": "Le droit à l’image protège chacun. Il faut l’accord de la personne photographiée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Laquelle de ces informations est une donnée personnelle ?",
+      "options": [
+        "la capitale de la France",
+        "le score d’un match",
+        "ton adresse"
+      ],
+      "reponse": "ton adresse",
+      "indice": "Elle permet de t’identifier.",
+      "explication": "L’adresse permet de t’identifier : c’est une donnée personnelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quel âge est fixée la majorité numérique en France ?",
+      "options": [
+        "18 ans",
+        "15 ans",
+        "10 ans"
+      ],
+      "reponse": "15 ans",
+      "indice": "Elle est fixée par une loi de 2023.",
+      "explication": "La loi du 7 juillet 2023 fixe la majorité numérique à 15 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qu’une trace numérique ?",
+      "options": [
+        "une information laissée en ligne",
+        "une empreinte de pas",
+        "un dessin au crayon"
+      ],
+      "reponse": "une information laissée en ligne",
+      "indice": "Chaque clic peut en laisser une.",
+      "explication": "Messages, photos, recherches : tout ce qu’on fait en ligne laisse des traces.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce que le cyberharcèlement ?",
+      "options": [
+        "du harcèlement sur internet et les réseaux",
+        "une panne d’ordinateur",
+        "un jeu vidéo en ligne"
+      ],
+      "reponse": "du harcèlement sur internet et les réseaux",
+      "indice": "Le préfixe « cyber » renvoie au numérique.",
+      "explication": "Le cyberharcèlement est un harcèlement en ligne. Il est puni par la loi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel organisme protège les données personnelles en France ?",
+      "options": [
+        "la SNCF",
+        "l’INSEE",
+        "la CNIL"
+      ],
+      "reponse": "la CNIL",
+      "indice": "Son nom parle d’informatique et de libertés.",
+      "explication": "La CNIL, Commission nationale de l’informatique et des libertés, protège les données personnelles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le droit à la vie privée concerne-t-il aussi les enfants ?",
+      "options": [
+        "Non, seulement sur internet.",
+        "Non, seulement les adultes.",
+        "Oui, la Convention des droits de l’enfant le garantit."
+      ],
+      "reponse": "Oui, la Convention des droits de l’enfant le garantit.",
+      "indice": "Pense à l’article 16 de la Convention de 1989.",
+      "explication": "L’article 16 de la Convention internationale des droits de l’enfant protège la vie privée des enfants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-VIE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Tu reçois des messages blessants en ligne. Que fais-tu ?",
+      "options": [
+        "Je réponds par des insultes.",
+        "Je garde tout pour moi.",
+        "J’en parle à un adulte et je signale."
+      ],
+      "reponse": "J’en parle à un adulte et je signale.",
+      "indice": "Le 3018 est le numéro national contre le cyberharcèlement.",
+      "explication": "Il faut en parler à un adulte et signaler. Le 3018 aide les victimes de cyberharcèlement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

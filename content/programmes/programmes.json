@@ -271,5 +271,503 @@
         "fin": null
       }
     ]
+  },
+  {
+    "id": "QM-C2-2020",
+    "matiere": "questionner-le-monde",
+    "cycle": 2,
+    "intitule": "Questionner le monde (cycle 2)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "ce1",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "ce2",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      }
+    ]
+  },
+  {
+    "id": "HG-C2-2026",
+    "matiere": "histoire-geographie",
+    "cycle": 2,
+    "intitule": "Programme d'histoire-géographie du cycle 2",
+    "reference": "BO n°22 du 28 mai 2026",
+    "sources": [
+      "bo22-2026-histoire-geo-c2-c3"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "ST-C2-2026",
+    "matiere": "sciences-technologie",
+    "cycle": 2,
+    "intitule": "Programme de sciences et technologie du cycle 2",
+    "reference": "BO n°24 du 11 juin 2026",
+    "sources": [
+      "bo24-2026-sciences-c2-c3"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "LV-C2-2020",
+    "matiere": "langues-vivantes",
+    "cycle": 2,
+    "intitule": "Langues vivantes (cycle 2)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "ce1",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "ce2",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      }
+    ]
+  },
+  {
+    "id": "LV-C2-2026",
+    "matiere": "langues-vivantes",
+    "cycle": 2,
+    "intitule": "Programme de langues vivantes étrangères et régionales du cycle 2",
+    "reference": "BO n°12 du 19 mars 2026",
+    "sources": [
+      "bo12-2026-langues-ecole"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "EM-C2-2024",
+    "matiere": "emc",
+    "cycle": 2,
+    "intitule": "Programme d'enseignement moral et civique",
+    "reference": "BO n°24 du 13 juin 2024",
+    "sources": [
+      "bo24-2024-emc"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cp",
+        "debut": "2024-2025",
+        "fin": null
+      },
+      {
+        "classe": "ce1",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "ce2",
+        "debut": "2026-2027",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "HG-C3-2020",
+    "matiere": "histoire-geographie",
+    "cycle": 3,
+    "intitule": "Histoire et géographie (cycle 3)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-3-2023",
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "cm2",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "6e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      }
+    ]
+  },
+  {
+    "id": "HG-C3-2026",
+    "matiere": "histoire-geographie",
+    "cycle": 3,
+    "intitule": "Programme d'histoire-géographie du cycle 3",
+    "reference": "BO n°22 du 28 mai 2026",
+    "sources": [
+      "bo22-2026-histoire-geo-c2-c3"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "6e",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "ST-C3-2023",
+    "matiere": "sciences-technologie",
+    "cycle": 3,
+    "intitule": "Sciences et technologie (cycle 3)",
+    "reference": "BO n°25 du 22 juin 2023",
+    "sources": [
+      "eduscol-cycle-3-2023"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2023-2024",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "cm2",
+        "debut": "2023-2024",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "6e",
+        "debut": "2023-2024",
+        "fin": "2026-2027"
+      }
+    ]
+  },
+  {
+    "id": "ST-C3-2026",
+    "matiere": "sciences-technologie",
+    "cycle": 3,
+    "intitule": "Programme de sciences et technologie du cycle 3",
+    "reference": "BO n°24 du 11 juin 2026",
+    "sources": [
+      "bo24-2026-sciences-c2-c3"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "6e",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "LV-C3-2020",
+    "matiere": "langues-vivantes",
+    "cycle": 3,
+    "intitule": "Langues vivantes (cycle 3)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "cm2",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      }
+    ]
+  },
+  {
+    "id": "LV-C3-2026",
+    "matiere": "langues-vivantes",
+    "cycle": 3,
+    "intitule": "Programme de langues vivantes étrangères et régionales des classes de cours moyen",
+    "reference": "BO n°12 du 19 mars 2026",
+    "sources": [
+      "bo12-2026-langues-ecole"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2027-2028",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "EM-C3-2024",
+    "matiere": "emc",
+    "cycle": 3,
+    "intitule": "Programme d'enseignement moral et civique",
+    "reference": "BO n°24 du 13 juin 2024",
+    "sources": [
+      "bo24-2024-emc"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "cm1",
+        "debut": "2024-2025",
+        "fin": null
+      },
+      {
+        "classe": "cm2",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "6e",
+        "debut": "2026-2027",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "HG-C4-2020",
+    "matiere": "histoire-geographie",
+    "cycle": 4,
+    "intitule": "Histoire et géographie (cycle 4)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "SV-C4-2020",
+    "matiere": "svt",
+    "cycle": 4,
+    "intitule": "Sciences de la vie et de la Terre (cycle 4)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "PC-C4-2020",
+    "matiere": "physique-chimie",
+    "cycle": 4,
+    "intitule": "Physique-chimie (cycle 4)",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "bo31-2020-cycles-2-3-4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "TE-C4-2024",
+    "matiere": "technologie",
+    "cycle": 4,
+    "intitule": "Programme de technologie du cycle 4",
+    "reference": "BO n°9 du 29 février 2024",
+    "sources": [
+      "bo9-2024-technologie-c4"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2024-2025",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2026-2027",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "EM-C4-2024",
+    "matiere": "emc",
+    "cycle": 4,
+    "intitule": "Programme d'enseignement moral et civique",
+    "reference": "BO n°24 du 13 juin 2024",
+    "sources": [
+      "bo24-2024-emc"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2024-2025",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2025-2026",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2026-2027",
+        "fin": null
+      }
+    ]
   }
 ]

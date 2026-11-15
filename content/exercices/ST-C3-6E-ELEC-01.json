@@ -1,0 +1,158 @@
+{
+  "competence": "ST-C3-6E-ELEC-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-ELEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel type de signal utilise un feu tricolore ?",
+      "options": [
+        "un signal lumineux",
+        "un signal sonore",
+        "un signal olfactif"
+      ],
+      "reponse": "un signal lumineux",
+      "indice": "Pense à ses couleurs.",
+      "explication": "Le feu tricolore transmet une information par un signal lumineux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel type de signal utilise une alarme incendie ?",
+      "options": [
+        "un signal olfactif",
+        "un signal tactile",
+        "un signal sonore"
+      ],
+      "reponse": "un signal sonore",
+      "indice": "On l’entend dans tout le bâtiment.",
+      "explication": "L’alarme incendie émet un signal sonore pour alerter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un circuit à une boucle, on échange la lampe et l’interrupteur. Que se passe-t-il ?",
+      "options": [
+        "La pile se décharge aussitôt.",
+        "La lampe ne s’allume plus.",
+        "La lampe fonctionne toujours."
+      ],
+      "reponse": "La lampe fonctionne toujours.",
+      "indice": "Dans une boucle, l’ordre des composants ne change rien.",
+      "explication": "Dans un circuit à une boucle, on peut intervertir les composants. La lampe fonctionne toujours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel composant convertit l’énergie électrique en mouvement ?",
+      "options": [
+        "le moteur",
+        "la lampe",
+        "la pile"
+      ],
+      "reponse": "le moteur",
+      "indice": "Il fait tourner une hélice.",
+      "explication": "Le moteur convertit l’énergie électrique en énergie cinétique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel composant convertit la lumière en électricité ?",
+      "options": [
+        "la cellule photovoltaïque",
+        "le moteur",
+        "la lampe"
+      ],
+      "reponse": "la cellule photovoltaïque",
+      "indice": "On en trouve sur les toits.",
+      "explication": "La cellule photovoltaïque convertit l’énergie lumineuse en énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi le courant du secteur est-il dangereux ?",
+      "options": [
+        "Sa tension de 230 V peut électrocuter.",
+        "Il est trop froid.",
+        "Il est toujours sans danger."
+      ],
+      "reponse": "Sa tension de 230 V peut électrocuter.",
+      "indice": "Une pile ronde ne fait que 1,5 V.",
+      "explication": "La tension du secteur est de 230 V. Elle peut provoquer une électrocution.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans quel cas la lampe s’allume-t-elle ?",
+      "options": [
+        "quand l’interrupteur est ouvert",
+        "quand le circuit est fermé",
+        "quand un fil est débranché"
+      ],
+      "reponse": "quand le circuit est fermé",
+      "indice": "Le courant doit faire une boucle complète.",
+      "explication": "La lampe s’allume si le circuit est fermé. Le courant circule alors dans toute la boucle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel capteur peut allumer une lampe quand quelqu’un passe ?",
+      "options": [
+        "une balance",
+        "un détecteur de mouvement",
+        "un thermomètre"
+      ],
+      "reponse": "un détecteur de mouvement",
+      "indice": "On en trouve dans les couloirs.",
+      "explication": "Le détecteur de mouvement repère un passage et ferme le circuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel équipement transmet des informations entre les continents ?",
+      "options": [
+        "un câble sous-marin",
+        "une antenne de radio FM",
+        "une rallonge électrique"
+      ],
+      "reponse": "un câble sous-marin",
+      "indice": "Il est posé au fond des océans.",
+      "explication": "Les câbles sous-marins transmettent l’essentiel des données d’Internet entre les continents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

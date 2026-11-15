@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-6E-GEO-01",
+  "exercices": [
+    {
+      "id": "HG-C3-6E-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’une métropole ?",
+      "options": [
+        "une très grande ville qui concentre pouvoirs et activités",
+        "une région agricole",
+        "un petit village isolé"
+      ],
+      "reponse": "une très grande ville qui concentre pouvoirs et activités",
+      "indice": "Pense à Paris ou à Tokyo.",
+      "explication": "Une métropole est une grande ville. Elle concentre habitants, emplois et pouvoirs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la plus grande métropole de France ?",
+      "options": [
+        "Paris",
+        "Marseille",
+        "Lyon"
+      ],
+      "reponse": "Paris",
+      "indice": "C’est la capitale.",
+      "explication": "Paris est la plus grande métropole française, avec plus de 12 millions d’habitants dans son aire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment appelle-t-on les personnes qui font chaque jour l’aller-retour entre domicile et travail ?",
+      "options": [
+        "des nomades",
+        "des migrants pendulaires",
+        "des touristes"
+      ],
+      "reponse": "des migrants pendulaires",
+      "indice": "Ils vont et viennent comme un pendule.",
+      "explication": "Les migrants pendulaires font l’aller-retour chaque jour entre leur domicile et leur travail.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle métropole se trouve dans un pays émergent ?",
+      "options": [
+        "Tokyo",
+        "São Paulo",
+        "Londres"
+      ],
+      "reponse": "São Paulo",
+      "indice": "Ce pays d’Amérique du Sud connaît une forte croissance.",
+      "explication": "São Paulo est au Brésil, un pays émergent. Londres et Tokyo sont dans des pays développés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel problème est fréquent dans les métropoles ?",
+      "options": [
+        "l’absence de commerces",
+        "le manque d’habitants",
+        "les embouteillages"
+      ],
+      "reponse": "les embouteillages",
+      "indice": "Pense aux heures de pointe.",
+      "explication": "Les métropoles concentrent beaucoup de déplacements. Les embouteillages et la pollution sont fréquents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment appelle-t-on les communes qui entourent la ville-centre ?",
+      "options": [
+        "le littoral",
+        "la banlieue",
+        "le désert"
+      ],
+      "reponse": "la banlieue",
+      "indice": "Elles se trouvent autour de la ville.",
+      "explication": "La banlieue entoure la ville-centre. Ensemble, elles forment l’agglomération.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qu’est-ce qu’un bidonville ?",
+      "options": [
+        "un quartier d’affaires",
+        "un quartier d’habitations précaires",
+        "un grand parc"
+      ],
+      "reponse": "un quartier d’habitations précaires",
+      "indice": "On en trouve dans beaucoup de métropoles des pays pauvres et émergents.",
+      "explication": "Un bidonville est un quartier d’habitations précaires, souvent sans eau courante.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-6E-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle mesure rend une ville plus durable ?",
+      "options": [
+        "développer les transports en commun",
+        "supprimer les espaces verts",
+        "construire plus d’autoroutes"
+      ],
+      "reponse": "développer les transports en commun",
+      "indice": "Pense à la pollution de l’air.",
+      "explication": "Les transports en commun réduisent la pollution. C’est une mesure de ville durable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

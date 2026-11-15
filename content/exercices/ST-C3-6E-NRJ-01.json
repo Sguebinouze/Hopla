@@ -1,0 +1,158 @@
+{
+  "competence": "ST-C3-6E-NRJ-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-NRJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle ressource en énergie est renouvelable ?",
+      "options": [
+        "le charbon",
+        "le pétrole",
+        "le vent"
+      ],
+      "reponse": "le vent",
+      "indice": "Elle ne s’épuise pas à l’échelle d’une vie humaine.",
+      "explication": "Le vent se renouvelle sans cesse. Le pétrole et le charbon s’épuisent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle ressource en énergie n’est pas renouvelable ?",
+      "options": [
+        "le gaz naturel",
+        "le vent",
+        "le Soleil"
+      ],
+      "reponse": "le gaz naturel",
+      "indice": "Elle s’est formée en des millions d’années.",
+      "explication": "Le gaz naturel met des millions d’années à se former. Il n’est pas renouvelable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une éolienne convertit l’énergie du vent en énergie…",
+      "options": [
+        "électrique",
+        "chimique",
+        "nucléaire"
+      ],
+      "reponse": "électrique",
+      "indice": "L’éolienne alimente le réseau.",
+      "explication": "Le vent fait tourner les pales. L’éolienne produit de l’énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une pile, l’énergie est stockée sous forme…",
+      "options": [
+        "cinétique",
+        "chimique",
+        "lumineuse"
+      ],
+      "reponse": "chimique",
+      "indice": "Elle repose sur une réaction chimique.",
+      "explication": "La pile stocke de l’énergie chimique et la convertit en énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un objet qui tombe de plus en plus vite gagne de l’énergie…",
+      "options": [
+        "lumineuse",
+        "cinétique",
+        "chimique"
+      ],
+      "reponse": "cinétique",
+      "indice": "C’est l’énergie liée au mouvement.",
+      "explication": "Pendant la chute, l’énergie de pesanteur est convertie en énergie cinétique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un panneau photovoltaïque convertit l’énergie lumineuse en énergie…",
+      "options": [
+        "nucléaire",
+        "cinétique",
+        "électrique"
+      ],
+      "reponse": "électrique",
+      "indice": "Il alimente une maison.",
+      "explication": "Le panneau photovoltaïque convertit la lumière en électricité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle centrale utilise l’uranium ?",
+      "options": [
+        "la centrale hydroélectrique",
+        "le parc éolien",
+        "la centrale nucléaire"
+      ],
+      "reponse": "la centrale nucléaire",
+      "indice": "L’uranium est un combustible nucléaire.",
+      "explication": "La centrale nucléaire utilise l’uranium. Cette ressource n’est pas renouvelable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Brûler du charbon ou du pétrole rejette surtout…",
+      "options": [
+        "de l’eau pure",
+        "du dioxyde de carbone",
+        "du dioxygène"
+      ],
+      "reponse": "du dioxyde de carbone",
+      "indice": "C’est un gaz à effet de serre.",
+      "explication": "La combustion du charbon et du pétrole rejette du dioxyde de carbone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "D’où vient presque toute l’énergie reçue par la Terre ?",
+      "options": [
+        "des étoiles lointaines",
+        "du Soleil",
+        "de la Lune"
+      ],
+      "reponse": "du Soleil",
+      "indice": "Il nous éclaire et nous chauffe.",
+      "explication": "Le Soleil fournit presque toute l’énergie reçue par la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

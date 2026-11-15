@@ -1,0 +1,51 @@
+{
+  "programme": "EM-C2-2024",
+  "classe": "ce1",
+  "competences": [
+    {
+      "id": "EM-C2-CE1-ALT-01",
+      "titre": "Respecter les autres",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Altérité et sociabilité",
+      "attendu": "Reconnaitre les émotions d’autrui, s’entraider, refuser les moqueries et le harcèlement.",
+      "exemple": "Un camarade est seul. Je lui propose de jouer.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "Altérité et sociabilité"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CE1-REG-01",
+      "titre": "Les règles et la sécurité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Règles collectives et prise d’initiative",
+      "attendu": "Connaitre les règles de la vie collective, repérer un danger et savoir donner l’alerte.",
+      "exemple": "En cas d’urgence, j’appelle le 15, le 17 ou le 18.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 12,
+        "extrait": "Règles collectives et prise d’initiative"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CE1-REP-01",
+      "titre": "Les symboles de la République",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Principes et symboles de la République",
+      "attendu": "Identifier les symboles de la République et comprendre la devise.",
+      "exemple": "La devise de la République est « Liberté, Égalité, Fraternité ».",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 12,
+        "extrait": "Principes et symboles de la République"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

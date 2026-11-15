@@ -1,0 +1,158 @@
+{
+  "competence": "QM-C2-CE1-VIV-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-VIV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le chêne est…",
+      "options": [
+        "un minéral",
+        "un végétal",
+        "un animal"
+      ],
+      "reponse": "un végétal",
+      "indice": "Le chêne a des feuilles et des racines.",
+      "explication": "Le chêne est un arbre. C’est un végétal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le caillou est…",
+      "options": [
+        "un minéral",
+        "un végétal",
+        "un animal"
+      ],
+      "reponse": "un minéral",
+      "indice": "Un caillou ne naît pas et ne grandit pas.",
+      "explication": "Le caillou n’est pas vivant. C’est un minéral.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’escargot est…",
+      "options": [
+        "un végétal",
+        "un animal",
+        "un minéral"
+      ],
+      "reponse": "un animal",
+      "indice": "L’escargot se déplace et mange.",
+      "explication": "L’escargot se déplace et se nourrit. C’est un animal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que fait un être vivant au cours de sa vie ?",
+      "options": [
+        "Il ne change jamais.",
+        "Il reste toujours petit.",
+        "Il naît, grandit et meurt."
+      ],
+      "reponse": "Il naît, grandit et meurt.",
+      "indice": "Pense à ta propre vie.",
+      "explication": "Un être vivant naît, grandit, se reproduit et meurt. C’est son cycle de vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans quel ordre une plante se développe-t-elle ?",
+      "options": [
+        "plantule → graine → plante fleurie",
+        "graine → plantule → plante fleurie",
+        "plante fleurie → graine → plantule"
+      ],
+      "reponse": "graine → plantule → plante fleurie",
+      "indice": "Tout commence par une graine.",
+      "explication": "La graine germe et donne une plantule. La plantule devient une plante fleurie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le petit de la grenouille ?",
+      "options": [
+        "le têtard",
+        "le poussin",
+        "la chenille"
+      ],
+      "reponse": "le têtard",
+      "indice": "Il vit dans l’eau et a une queue.",
+      "explication": "Le têtard vit dans l’eau. Il devient ensuite une grenouille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La chenille devient…",
+      "options": [
+        "un papillon",
+        "un escargot",
+        "une abeille"
+      ],
+      "reponse": "un papillon",
+      "indice": "Elle s’enferme d’abord dans un cocon.",
+      "explication": "La chenille se transforme dans un cocon. Elle devient un papillon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "De quoi une plante a-t-elle besoin pour vivre ?",
+      "options": [
+        "de bruit et de vent",
+        "de sucre et de lait",
+        "d’eau et de lumière"
+      ],
+      "reponse": "d’eau et de lumière",
+      "indice": "Pense à une plante oubliée dans un placard.",
+      "explication": "Une plante a besoin d’eau et de lumière. Sans elles, elle meurt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-01-009",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le coquillage vide trouvé sur la plage a été fabriqué par…",
+      "options": [
+        "un animal",
+        "un minéral",
+        "un végétal"
+      ],
+      "reponse": "un animal",
+      "indice": "Un coquillage protégeait autrefois un être vivant.",
+      "explication": "Le coquillage a été fabriqué par un animal. C’était sa maison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

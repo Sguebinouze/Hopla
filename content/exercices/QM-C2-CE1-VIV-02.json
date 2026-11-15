@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE1-VIV-02",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-VIV-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que mange la vache ?",
+      "options": [
+        "de l’herbe",
+        "de la viande",
+        "des insectes"
+      ],
+      "reponse": "de l’herbe",
+      "indice": "Regarde ce qu’elle fait dans le pré.",
+      "explication": "La vache mange de l’herbe. Elle est herbivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que mange le lion ?",
+      "options": [
+        "des fruits",
+        "de la viande",
+        "de l’herbe"
+      ],
+      "reponse": "de la viande",
+      "indice": "Le lion est un chasseur.",
+      "explication": "Le lion chasse d’autres animaux. Il est carnivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un animal qui mange seulement des plantes est…",
+      "options": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "reponse": "herbivore",
+      "indice": "Le mot contient « herbe ».",
+      "explication": "Un herbivore mange des plantes. Le lapin est herbivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un animal qui mange d’autres animaux est…",
+      "options": [
+        "herbivore",
+        "omnivore",
+        "carnivore"
+      ],
+      "reponse": "carnivore",
+      "indice": "Le mot contient « carne », la viande.",
+      "explication": "Un carnivore mange de la viande. Le loup est carnivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel animal est herbivore ?",
+      "options": [
+        "le lapin",
+        "le requin",
+        "le loup"
+      ],
+      "reponse": "le lapin",
+      "indice": "Il mange des carottes et de l’herbe.",
+      "explication": "Le lapin mange des plantes. Il est herbivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’humain mange des légumes et de la viande. Il est…",
+      "options": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "reponse": "omnivore",
+      "indice": "Il mange de tout.",
+      "explication": "Un omnivore mange des plantes et des animaux. L’humain est omnivore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La salade est mangée par la chenille. La chenille est mangée par l’oiseau. Qui mange la chenille ?",
+      "options": [
+        "la salade",
+        "la feuille",
+        "l’oiseau"
+      ],
+      "reponse": "l’oiseau",
+      "indice": "Suis la chaîne alimentaire.",
+      "explication": "L’oiseau mange la chenille. C’est une chaîne alimentaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-VIV-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui est toujours au début d’une chaîne alimentaire ?",
+      "options": [
+        "un carnivore",
+        "un herbivore",
+        "une plante"
+      ],
+      "reponse": "une plante",
+      "indice": "Elle ne mange pas d’autres êtres vivants.",
+      "explication": "Les plantes fabriquent leur nourriture. Elles sont au début de la chaîne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

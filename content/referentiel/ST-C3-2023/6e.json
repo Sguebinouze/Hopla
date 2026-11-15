@@ -1,0 +1,156 @@
+{
+  "programme": "ST-C3-2023",
+  "classe": "6e",
+  "competences": [
+    {
+      "id": "ST-C3-6E-MAT-01",
+      "titre": "Les états de la matière",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Décrire les états et la constitution de la matière",
+      "attendu": "Mesurer des températures de changement d’état et classer des matériaux selon leurs propriétés.",
+      "exemple": "L’eau pure gèle à 0 °C et bout à 100 °C.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 82,
+        "extrait": "Mesurer des températures de changement"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-MAT-02",
+      "titre": "Masse, volume et mélanges",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Décrire les états et la constitution de la matière",
+      "attendu": "Convertir des masses et des volumes, séparer des mélanges, connaitre la composition de l’air.",
+      "exemple": "1 L = 1 000 mL. L’air contient surtout du diazote et du dioxygène.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 83,
+        "extrait": "Rechercher et exploiter des informations"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-MVT-01",
+      "titre": "Mouvement et vitesse",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Différents types de mouvement",
+      "attendu": "Calculer une vitesse moyenne et relier l’année et le jour aux mouvements de la Terre.",
+      "exemple": "Un cycliste parcourt 30 km en 2 h : sa vitesse est 15 km/h.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 84,
+        "extrait": "Calculer la valeur de la vitesse à partir de la"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-NRJ-01",
+      "titre": "Les formes d’énergie",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Ressources en énergie et conversions d’énergie",
+      "attendu": "Identifier des formes d’énergie et distinguer ressources renouvelables et non renouvelables.",
+      "exemple": "Le vent est une ressource renouvelable. Le pétrole ne l’est pas.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 85,
+        "extrait": "Identifier différentes formes d’énergie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-SIG-01",
+      "titre": "Jour, nuit et saisons",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Signal et information",
+      "attendu": "Expliquer l’alternance du jour et de la nuit et le lien entre saisons et durée du jour.",
+      "exemple": "La Terre tourne sur elle-même en 24 heures : c’est l’alternance du jour et de la nuit.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 86,
+        "extrait": "Interpréter l’alternance du jour et de la nuit"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-ELEC-01",
+      "titre": "Circuits et signaux",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Signal et information",
+      "attendu": "Réaliser un circuit à une boucle et identifier des signaux qui transmettent une information.",
+      "exemple": "Un feu tricolore transmet une information par un signal lumineux.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 87,
+        "extrait": "Identifier différents signaux pour"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-VIV-01",
+      "titre": "Cellules et classification",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Panorama du monde vivant",
+      "attendu": "Savoir que la cellule est l’unité du vivant et classer les êtres vivants en groupes emboîtés.",
+      "exemple": "Le chat et la souris ont des poils : ils sont dans le groupe des mammifères.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 88,
+        "extrait": "Lire et interpréter des arbres de parenté"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-VIV-02",
+      "titre": "Biodiversité d’hier et d’aujourd’hui",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Panorama du monde vivant",
+      "attendu": "Utiliser les fossiles pour comparer biodiversité actuelle et passée, placer des crises sur une échelle des temps.",
+      "exemple": "Les dinosaures non aviens ont disparu il y a 66 millions d’années.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 88,
+        "extrait": "Biodiversité actuelle et passée"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-ALIM-01",
+      "titre": "Microorganismes et aliments",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Alimentation humaine",
+      "attendu": "Expliquer le rôle des microorganismes dans la fabrication et la conservation des aliments.",
+      "exemple": "Le yaourt est fabriqué grâce à des bactéries qui transforment le lait.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 89,
+        "extrait": "Production et conservation des aliments"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-6E-VIV-03",
+      "titre": "La pollinisation",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Cycle de vie et reproduction des êtres vivants",
+      "attendu": "Expliquer le rôle de la pollinisation dans la formation des fruits et des graines.",
+      "exemple": "L’abeille transporte le pollen d’une fleur à l’autre.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 90,
+        "extrait": "pollinisation dans la transformation de la"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

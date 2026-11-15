@@ -1,0 +1,140 @@
+{
+  "competence": "QM-C2-CE1-OBJ-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-OBJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet laisse passer le courant ?",
+      "options": [
+        "un clou en fer",
+        "une gomme",
+        "un bouchon en liège"
+      ],
+      "reponse": "un clou en fer",
+      "indice": "Cherche l’objet en métal.",
+      "explication": "Le fer est un métal. Les métaux laissent passer le courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le plastique laisse-t-il passer le courant ?",
+      "options": [
+        "Oui, c’est un conducteur.",
+        "Non, c’est un isolant."
+      ],
+      "reponse": "Non, c’est un isolant.",
+      "indice": "Les fils électriques sont entourés de plastique.",
+      "explication": "Le plastique ne laisse pas passer le courant. C’est un isolant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel matériau est conducteur ?",
+      "options": [
+        "le cuivre",
+        "le carton",
+        "le bois"
+      ],
+      "reponse": "le cuivre",
+      "indice": "Les fils électriques en contiennent.",
+      "explication": "Le cuivre est un métal. Il conduit le courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quoi sert l’interrupteur ?",
+      "options": [
+        "à ouvrir ou fermer le circuit",
+        "à faire de la lumière",
+        "à fabriquer le courant"
+      ],
+      "reponse": "à ouvrir ou fermer le circuit",
+      "indice": "Pense au bouton de la lumière.",
+      "explication": "L’interrupteur ouvre ou ferme le circuit. Il allume ou éteint la lampe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un circuit simple, qui fournit l’énergie ?",
+      "options": [
+        "la pile",
+        "la lampe",
+        "l’interrupteur"
+      ],
+      "reponse": "la pile",
+      "indice": "Elle s’use quand on s’en sert.",
+      "explication": "La pile fournit l’énergie. Le courant part de la pile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour que la lampe s’allume, le circuit doit être…",
+      "options": [
+        "ouvert",
+        "coupé",
+        "fermé"
+      ],
+      "reponse": "fermé",
+      "indice": "Le courant doit faire tout le tour.",
+      "explication": "Le courant circule dans un circuit fermé. Alors la lampe s’allume.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne faut-il jamais toucher l’intérieur d’une prise ?",
+      "options": [
+        "Le courant de la prise est dangereux.",
+        "La prise est fragile.",
+        "La prise est trop froide."
+      ],
+      "reponse": "Le courant de la prise est dangereux.",
+      "indice": "Le courant de la maison est très fort.",
+      "explication": "Le courant de la prise peut blesser gravement. On ne joue jamais avec.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel objet fonctionne avec une pile ?",
+      "options": [
+        "une lampe de poche",
+        "un réfrigérateur",
+        "un four"
+      ],
+      "reponse": "une lampe de poche",
+      "indice": "Cherche un petit objet qu’on transporte.",
+      "explication": "La lampe de poche marche avec des piles. Le four se branche sur une prise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

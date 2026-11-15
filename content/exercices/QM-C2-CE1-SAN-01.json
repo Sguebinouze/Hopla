@@ -1,0 +1,158 @@
+{
+  "competence": "QM-C2-CE1-SAN-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-SAN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le fromage est…",
+      "options": [
+        "un fruit",
+        "un produit laitier",
+        "un légume"
+      ],
+      "reponse": "un produit laitier",
+      "indice": "Il est fabriqué avec du lait.",
+      "explication": "Le fromage est fait avec du lait. C’est un produit laitier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La pomme est…",
+      "options": [
+        "un produit laitier",
+        "une viande",
+        "un fruit"
+      ],
+      "reponse": "un fruit",
+      "indice": "Elle pousse sur un arbre.",
+      "explication": "La pomme pousse sur un pommier. C’est un fruit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de fois par jour faut-il se brosser les dents ?",
+      "options": [
+        "deux fois",
+        "une fois par semaine",
+        "jamais"
+      ],
+      "reponse": "deux fois",
+      "indice": "Pense au matin et au soir.",
+      "explication": "On se brosse les dents matin et soir. Cela protège les dents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le lait vient le plus souvent…",
+      "options": [
+        "de la vache",
+        "de la pomme",
+        "du blé"
+      ],
+      "reponse": "de la vache",
+      "indice": "Pense à un animal de la ferme.",
+      "explication": "Le lait vient le plus souvent de la vache. C’est un aliment d’origine animale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le pain est fabriqué avec…",
+      "options": [
+        "du blé",
+        "des pommes",
+        "du lait"
+      ],
+      "reponse": "du blé",
+      "indice": "On fait de la farine avec ce végétal.",
+      "explication": "On écrase le blé pour faire de la farine. Avec la farine, on fait le pain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand faut-il se laver les mains ?",
+      "options": [
+        "seulement le dimanche",
+        "avant de manger",
+        "jamais"
+      ],
+      "reponse": "avant de manger",
+      "indice": "Les mains touchent beaucoup de choses.",
+      "explication": "On se lave les mains avant de manger. Cela enlève les microbes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que nous apporte le sport ?",
+      "options": [
+        "Il rend malade.",
+        "Il empêche de grandir.",
+        "Il est bon pour le corps."
+      ],
+      "reponse": "Il est bon pour le corps.",
+      "indice": "Pense à ce que tu ressens après avoir couru.",
+      "explication": "Bouger chaque jour est bon pour le cœur et les muscles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi faut-il bien dormir ?",
+      "options": [
+        "pour avoir plus faim",
+        "pour grandir et être en forme",
+        "pour se salir"
+      ],
+      "reponse": "pour grandir et être en forme",
+      "indice": "Le corps se repose la nuit.",
+      "explication": "Le sommeil aide à grandir. Il aide aussi à apprendre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-SAN-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un repas équilibré contient…",
+      "options": [
+        "des aliments variés",
+        "un seul aliment",
+        "seulement des bonbons"
+      ],
+      "reponse": "des aliments variés",
+      "indice": "Pense à la cantine.",
+      "explication": "Un repas équilibré mélange des aliments différents. Chaque aliment apporte quelque chose.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

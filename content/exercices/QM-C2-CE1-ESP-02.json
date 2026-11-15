@@ -1,0 +1,158 @@
+{
+  "competence": "QM-C2-CE1-ESP-02",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-ESP-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur quel continent se trouve la France ?",
+      "options": [
+        "l’Afrique",
+        "l’Europe",
+        "l’Asie"
+      ],
+      "reponse": "l’Europe",
+      "indice": "Pense aux pays voisins de la France.",
+      "explication": "La France est un pays d’Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur un globe, que montre la couleur bleue ?",
+      "options": [
+        "les forêts",
+        "les déserts",
+        "les mers et les océans"
+      ],
+      "reponse": "les mers et les océans",
+      "indice": "Pense à la couleur de l’eau.",
+      "explication": "Le bleu représente l’eau : les mers et les océans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le plus grand océan du monde ?",
+      "options": [
+        "l’océan Atlantique",
+        "l’océan Indien",
+        "l’océan Pacifique"
+      ],
+      "reponse": "l’océan Pacifique",
+      "indice": "Il est entre l’Asie et l’Amérique.",
+      "explication": "L’océan Pacifique est le plus grand océan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel océan borde la France à l’ouest ?",
+      "options": [
+        "l’océan Indien",
+        "l’océan Pacifique",
+        "l’océan Atlantique"
+      ],
+      "reponse": "l’océan Atlantique",
+      "indice": "C’est l’océan de la Bretagne.",
+      "explication": "L’océan Atlantique borde l’ouest de la France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle mer borde le sud de la France ?",
+      "options": [
+        "la mer Rouge",
+        "la mer Méditerranée",
+        "la mer du Nord"
+      ],
+      "reponse": "la mer Méditerranée",
+      "indice": "C’est la mer de Marseille et de Nice.",
+      "explication": "La mer Méditerranée borde le sud de la France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où fait-il le plus froid sur la Terre ?",
+      "options": [
+        "dans le désert",
+        "à l’équateur",
+        "aux pôles"
+      ],
+      "reponse": "aux pôles",
+      "indice": "Pense à la banquise.",
+      "explication": "Aux pôles, il fait très froid toute l’année.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle ligne imaginaire partage la Terre en deux ?",
+      "options": [
+        "la frontière",
+        "le pôle Nord",
+        "l’équateur"
+      ],
+      "reponse": "l’équateur",
+      "indice": "Elle fait le tour de la Terre au milieu.",
+      "explication": "L’équateur partage la Terre en deux moitiés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel astre éclaire la Terre le jour ?",
+      "options": [
+        "le Soleil",
+        "la Lune",
+        "Mars"
+      ],
+      "reponse": "le Soleil",
+      "indice": "C’est une étoile.",
+      "explication": "Le Soleil est une étoile. Il éclaire et chauffe la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Autour de quel astre tourne la Lune ?",
+      "options": [
+        "Mars",
+        "la Terre",
+        "Vénus"
+      ],
+      "reponse": "la Terre",
+      "indice": "La Lune est notre voisine.",
+      "explication": "La Lune tourne autour de la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE1-ESP-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-ESP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le chat est sur le lit. Le lit est donc… le chat.",
+      "options": [
+        "devant",
+        "sur",
+        "sous"
+      ],
+      "reponse": "sous",
+      "indice": "Dessine la scène dans ta tête.",
+      "explication": "Le chat est sur le lit. Le lit est donc sous le chat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est le contraire de « devant » ?",
+      "options": [
+        "derrière",
+        "dessous",
+        "à gauche"
+      ],
+      "reponse": "derrière",
+      "indice": "Pense à une file d’élèves.",
+      "explication": "Le contraire de devant est derrière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est le contraire de « près » ?",
+      "options": [
+        "loin",
+        "haut",
+        "droite"
+      ],
+      "reponse": "loin",
+      "indice": "Pense à une longue distance.",
+      "explication": "Le contraire de près est loin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur une carte, à quoi sert la légende ?",
+      "options": [
+        "à donner le titre",
+        "à expliquer les symboles",
+        "à indiquer la date"
+      ],
+      "reponse": "à expliquer les symboles",
+      "indice": "Elle est souvent dans un cadre, en bas.",
+      "explication": "La légende explique les couleurs et les symboles de la carte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur une carte, le nord est le plus souvent…",
+      "options": [
+        "en haut",
+        "à gauche",
+        "en bas"
+      ],
+      "reponse": "en haut",
+      "indice": "Cherche la flèche marquée N.",
+      "explication": "Le nord est le plus souvent en haut de la carte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que montre le plan de l’école ?",
+      "options": [
+        "l’école la nuit",
+        "l’école vue du dessus",
+        "l’école vue de côté"
+      ],
+      "reponse": "l’école vue du dessus",
+      "indice": "Imagine un oiseau au-dessus de l’école.",
+      "explication": "Un plan montre un lieu vu du dessus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le Soleil se lève toujours du même côté. Lequel ?",
+      "options": [
+        "le nord",
+        "l’est",
+        "l’ouest"
+      ],
+      "reponse": "l’est",
+      "indice": "C’est le côté du matin.",
+      "explication": "Le Soleil se lève à l’est. Il se couche à l’ouest.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-ESP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur une carte, à quoi sert l’échelle ?",
+      "options": [
+        "à colorier",
+        "à trouver le nord",
+        "à mesurer les distances"
+      ],
+      "reponse": "à mesurer les distances",
+      "indice": "Elle ressemble à une petite règle.",
+      "explication": "L’échelle permet de calculer les vraies distances.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
