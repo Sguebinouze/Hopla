@@ -12,6 +12,9 @@
 - Référentiel fait, du CP à la 6e en français et en maths : 181 compétences (CP 30, CE1 20, CE2 34, CM1 35, CM2 39, 6e 23), plus 1 en 5e. Chaque compétence cite page et extrait ; `pnpm content:extraits` le vérifie dans le PDF (`pdftotext`, paquet poppler : `brew install poppler`).
 - Toutes les compétences sont `a_verifier` : seul Laurent les passe en `verifie` après relecture.
 - 184 générateurs dans `packages/generateurs/src`, un fichier par classe et domaine (`cp-*.ts`, `ce1-*.ts`, `ce2-*.ts`, `cm1-*.ts`, `cm2-*.ts`, `sixieme-*.ts`). Chaque classe récente a son point d'entrée (`cp.ts`, `ce2.ts`, `cm1.ts`, `cm2.ts`) et ses tests de justesse (`cp.test.ts`…), avec les outils d'oracle communs de `oracles.ts`. Les règles communes à tous les générateurs restent dans `generateurs.test.ts`.
+- Leçons : `content/lecons/<COMPETENCE>.json` (exemple, règle, piège, essai), 76 en brouillon pour toutes les notions CE1 et 6e ; page `/lecon/:competence` dans la PWA. Voix d'Octave : `pourLaVoix` (`packages/redaction/src/oral.ts`) puis synthèse vocale du navigateur.
+- Suivi : chaque résultat enregistre l'option choisie et son code d'erreur (`Item.erreurs`), la révision espacée est calculée en base (`app.intervalle`) et dans `apps/pwa/src/lib/progression.ts`. L'espace parent affiche les erreurs fréquentes : les codes ajoutés aux générateurs y apparaissent tels quels, mis en forme par `libelleErreur`.
+- La PWA a ses propres tests (vitest) : après un pull, `pnpm install`.
 - Points de périmètre à trancher par Laurent en relisant : CM2 sans « ne… plus » (seuls « pas » et « jamais » sont exercés aux temps composés) ; CM1, masses avec dag, dg, cg ; CE2, conversions dL ↔ cL absentes ; CP, sons désignés par leur graphie (« an » couvre an, en, am, em).
 
 ## Règles apprises en route
