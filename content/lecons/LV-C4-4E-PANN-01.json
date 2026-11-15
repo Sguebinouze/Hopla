@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C4-4E-PANN-01",
+  "exemple": "Dans le métro de Londres, une voix répète « Mind the gap ».",
+  "regle": "Les panneaux utilisent des formules courtes. **Interdiction** : No + -ing (No smoking), Keep off, Do not. **Attention** : Mind, Caution, Watch out. **Indications** : Exit, Entrance, Staff only, Out of order.",
+  "piege": "Out of order veut dire hors service, pas « en désordre ».",
+  "essai": {
+    "consigne": "Que veut dire « No parking » ?",
+    "options": [
+      "Parking gratuit",
+      "Parking complet",
+      "Stationnement interdit"
+    ],
+    "reponse": "Stationnement interdit",
+    "explication": "No + -ing : interdiction."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

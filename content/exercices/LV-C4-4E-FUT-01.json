@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-4E-FUT-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Next summer, I’m … visit Scotland. »",
+      "options": [
+        "going to",
+        "go to",
+        "will to"
+      ],
+      "reponse": "going to",
+      "indice": "Projet déjà décidé.",
+      "explication": "Projet : be going to + base verbale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Look at those clouds! It’s going … rain. »",
+      "options": [
+        "at",
+        "to",
+        "for"
+      ],
+      "reponse": "to",
+      "indice": "Be going to + base verbale.",
+      "explication": "It’s going to rain : il va pleuvoir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I will call you tomorrow » ?",
+      "options": [
+        "Je t’ai appelé hier.",
+        "Je t’appellerai demain.",
+        "Je t’appelle tous les jours."
+      ],
+      "reponse": "Je t’appellerai demain.",
+      "indice": "Will exprime le futur.",
+      "explication": "Will + base verbale : futur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la forme négative de « She will come » ?",
+      "options": [
+        "She won’t come.",
+        "She doesn’t will come.",
+        "She willn’t come."
+      ],
+      "reponse": "She won’t come.",
+      "indice": "Will not a une forme abrégée particulière.",
+      "explication": "Will not s’abrège en won’t.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot situe une action dans le futur ?",
+      "options": [
+        "tomorrow",
+        "ago",
+        "yesterday"
+      ],
+      "reponse": "tomorrow",
+      "indice": "Ago et yesterday renvoient au passé.",
+      "explication": "Tomorrow : demain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … you going to play tonight? »",
+      "options": [
+        "Do",
+        "Will",
+        "Are"
+      ],
+      "reponse": "Are",
+      "indice": "La question reprend be.",
+      "explication": "Question : be + sujet + going to.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « When I grow up, I want to be a vet » ?",
+      "options": [
+        "Je suis vétérinaire depuis que je suis grand.",
+        "Quand j’étais petit, je voulais être vétérinaire.",
+        "Quand je serai grand, je veux être vétérinaire."
+      ],
+      "reponse": "Quand je serai grand, je veux être vétérinaire.",
+      "indice": "Grow up veut dire grandir.",
+      "explication": "When I grow up : quand je serai grand. Vet : vétérinaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel est le projet de cette personne ?",
+      "options": [
+        "un déménagement au Canada",
+        "un voyage seul au Canada",
+        "un voyage au Canada en famille"
+      ],
+      "reponse": "un voyage au Canada en famille",
+      "indice": "Écoute bien with my family.",
+      "explication": "I’m going to travel : je vais voyager. With my family : en famille.",
+      "ecoute": {
+        "texte": "I’m going to travel to Canada with my family.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

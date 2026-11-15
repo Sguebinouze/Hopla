@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C4-3E-LIRE-01",
+  "exercices": [
+    {
+      "id": "LV-C4-3E-LIRE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Dear Sam, I’m so excited: we’re moving to Dublin next month! » Comment se sent l’auteur ?",
+      "options": [
+        "Il est en colère.",
+        "Il est triste.",
+        "Il est très enthousiaste."
+      ],
+      "reponse": "Il est très enthousiaste.",
+      "indice": "Excited veut dire enthousiaste.",
+      "explication": "So excited : très enthousiaste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« We’re moving to Dublin next month. » Que va faire la famille ?",
+      "options": [
+        "quitter Dublin",
+        "visiter Dublin",
+        "déménager à Dublin"
+      ],
+      "reponse": "déménager à Dublin",
+      "indice": "Move veut dire déménager.",
+      "explication": "To move : déménager.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« I miss my friends a lot. » Que ressent l’auteur ?",
+      "options": [
+        "Il a raté ses amis.",
+        "Il voit souvent ses amis.",
+        "Ses amis lui manquent beaucoup."
+      ],
+      "reponse": "Ses amis lui manquent beaucoup.",
+      "indice": "Miss a ici le sens de manquer.",
+      "explication": "I miss my friends : mes amis me manquent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Last weekend, we went camping. It rained all night, but it was fun! » Comment était le weekend ?",
+      "options": [
+        "ensoleillé et ennuyeux",
+        "pluvieux et ennuyeux",
+        "pluvieux mais amusant"
+      ],
+      "reponse": "pluvieux mais amusant",
+      "indice": "But introduit une opposition.",
+      "explication": "It rained : il a plu. But it was fun : mais c’était amusant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« I hope you can come and visit us this summer. » Que souhaite l’auteur ?",
+      "options": [
+        "partir seul en vacances",
+        "que son ami vienne le voir cet été",
+        "rendre visite à son ami cet hiver"
+      ],
+      "reponse": "que son ami vienne le voir cet été",
+      "indice": "Hope veut dire espérer.",
+      "explication": "I hope you can come : j’espère que tu pourras venir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle formule termine souvent une lettre à un ami ?",
+      "options": [
+        "Best wishes,",
+        "To whom it may concern,",
+        "Dear Sir,"
+      ],
+      "reponse": "Best wishes,",
+      "indice": "Les deux autres sont très formelles.",
+      "explication": "Best wishes ou Love : formules amicales de fin de lettre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Unfortunately, I failed my maths test, so I’m a bit down. » Que s’est-il passé ?",
+      "options": [
+        "Il a réussi son contrôle de maths.",
+        "Il a raté son contrôle de maths et il est un peu triste.",
+        "Il est tombé pendant le contrôle."
+      ],
+      "reponse": "Il a raté son contrôle de maths et il est un peu triste.",
+      "indice": "Fail : échouer. Down : déprimé.",
+      "explication": "Failed my test : j’ai raté mon contrôle. A bit down : un peu triste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-LIRE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« By the way, have you finished the book I lent you? » Que demande l’auteur ?",
+      "options": [
+        "où son ami a acheté le livre",
+        "si son ami a fini le livre qu’il lui a prêté",
+        "s’il peut emprunter un livre"
+      ],
+      "reponse": "si son ami a fini le livre qu’il lui a prêté",
+      "indice": "Lent est le prétérit de lend, prêter.",
+      "explication": "The book I lent you : le livre que je t’ai prêté.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

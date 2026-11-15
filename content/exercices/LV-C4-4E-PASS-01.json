@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-4E-PASS-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-PASS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Yesterday, I … (play) football. »",
+      "options": [
+        "plays",
+        "play",
+        "played"
+      ],
+      "reponse": "played",
+      "indice": "Yesterday indique le passé.",
+      "explication": "Prétérit d’un verbe régulier : base verbale + -ed.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le prétérit de « go » ?",
+      "options": [
+        "gone",
+        "goed",
+        "went"
+      ],
+      "reponse": "went",
+      "indice": "C’est un verbe irrégulier.",
+      "explication": "Go, went, gone. Gone est le participe passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le prétérit de « be » avec « they » ?",
+      "options": [
+        "was",
+        "are",
+        "were"
+      ],
+      "reponse": "were",
+      "indice": "Avec I, he, she, it, on dit was.",
+      "explication": "They were : ils étaient.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la forme négative de « She watched TV » ?",
+      "options": [
+        "She doesn’t watched TV.",
+        "She didn’t watch TV.",
+        "She didn’t watched TV."
+      ],
+      "reponse": "She didn’t watch TV.",
+      "indice": "Après didn’t, le verbe reste à la base verbale.",
+      "explication": "Didn’t + base verbale : she didn’t watch TV.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … you visit London last summer? »",
+      "options": [
+        "Were",
+        "Did",
+        "Do"
+      ],
+      "reponse": "Did",
+      "indice": "Last summer indique le passé.",
+      "explication": "Question au prétérit : did + sujet + base verbale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le prétérit de « buy » ?",
+      "options": [
+        "brought",
+        "buyed",
+        "bought"
+      ],
+      "reponse": "bought",
+      "indice": "Ne le confonds pas avec bring.",
+      "explication": "Buy, bought, bought. Bring, brought, brought.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle expression situe une action dans le passé ?",
+      "options": [
+        "next week",
+        "every week",
+        "last week"
+      ],
+      "reponse": "last week",
+      "indice": "Next annonce le futur.",
+      "explication": "Last week : la semaine dernière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PASS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’ont fait ces enfants ?",
+      "options": [
+        "Ils ont pris le bateau.",
+        "Ils sont allés à la plage et ont nagé.",
+        "Ils vont aller à la plage demain."
+      ],
+      "reponse": "Ils sont allés à la plage et ont nagé.",
+      "indice": "Went et swam sont des prétérits.",
+      "explication": "Went : prétérit de go. Swam : prétérit de swim.",
+      "ecoute": {
+        "texte": "We went to the beach and we swam in the sea.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

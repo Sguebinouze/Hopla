@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C4-4E-LIRE-01",
+  "exemple": "« Adults £12. Children under 12 free. » : l’entrée est gratuite pour un enfant de 10 ans.",
+  "regle": "Dans un document pratique, on cherche d’abord **l’information utile** : un prix (£, $), un horaire (am, pm), un jour (Mon, Fri), un lieu (platform, gate). Mots fréquents : **free** (gratuit), **sold out** (complet), **hire** (location), **open** et **closed**.",
+  "piege": "Free veut dire gratuit, pas seulement libre.",
+  "essai": {
+    "consigne": "Que veut dire « Closed on Sundays » ?",
+    "options": [
+      "Ouvert tous les jours",
+      "Fermé le dimanche",
+      "Ouvert le dimanche"
+    ],
+    "reponse": "Fermé le dimanche",
+    "explication": "Closed est le contraire de open."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

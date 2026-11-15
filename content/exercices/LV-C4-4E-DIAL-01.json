@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C4-4E-DIAL-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-DIAL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande la personne ?",
+      "options": [
+        "le prix du T-shirt",
+        "la couleur du T-shirt",
+        "la taille du T-shirt"
+      ],
+      "reponse": "le prix du T-shirt",
+      "indice": "How much porte sur le prix.",
+      "explication": "How much is…? : combien coute… ?",
+      "ecoute": {
+        "texte": "How much is this T-shirt?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que cherche la personne ?",
+      "options": [
+        "la gare",
+        "l’école",
+        "l’arrêt de bus"
+      ],
+      "reponse": "la gare",
+      "indice": "Station veut dire gare.",
+      "explication": "Where is the station? : où est la gare ?",
+      "ecoute": {
+        "texte": "Excuse me, where is the station?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel chemin faut-il prendre ?",
+      "options": [
+        "tout droit, puis à gauche",
+        "à droite, puis tout droit",
+        "demi-tour, puis à gauche"
+      ],
+      "reponse": "tout droit, puis à gauche",
+      "indice": "Straight on : tout droit.",
+      "explication": "Go straight on : allez tout droit. Turn left : tournez à gauche.",
+      "ecoute": {
+        "texte": "Go straight on and turn left.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander poliment où est la banque ?",
+      "options": [
+        "Could you tell me where the bank is, please?",
+        "Tell me where the bank is!",
+        "Where bank?"
+      ],
+      "reponse": "Could you tell me where the bank is, please?",
+      "indice": "Could you… please? est une formule polie.",
+      "explication": "Could you tell me…, please? : pourriez-vous me dire…, s’il vous plait ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où se trouve le magasin ?",
+      "options": [
+        "derrière le cinéma, près du parc",
+        "entre le cinéma et le parc",
+        "à côté du cinéma, en face du parc"
+      ],
+      "reponse": "à côté du cinéma, en face du parc",
+      "indice": "Opposite veut dire en face.",
+      "explication": "Next to : à côté de. Opposite : en face de.",
+      "ecoute": {
+        "texte": "It’s next to the cinema, opposite the park.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un magasin, que répondre à « Can I help you? » ?",
+      "options": [
+        "Yes, I’m looking for a jumper.",
+        "Yes, you can help me tomorrow.",
+        "No, I’m helping you."
+      ],
+      "reponse": "Yes, I’m looking for a jumper.",
+      "indice": "Le vendeur propose son aide.",
+      "explication": "I’m looking for… : je cherche…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. À quelle heure part le bus ?",
+      "options": [
+        "15 h 15",
+        "15 h 30",
+        "14 h 45"
+      ],
+      "reponse": "15 h 15",
+      "indice": "A quarter past : et quart.",
+      "explication": "A quarter past three : trois heures et quart, soit 15 h 15 l’après-midi.",
+      "ecoute": {
+        "texte": "The bus leaves at a quarter past three in the afternoon.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « How long does it take to get there? » ?",
+      "options": [
+        "Combien de temps faut-il pour y aller ?",
+        "Quand faut-il partir ?",
+        "Quelle est la distance ?"
+      ],
+      "reponse": "Combien de temps faut-il pour y aller ?",
+      "indice": "How long porte sur une durée.",
+      "explication": "How long does it take? : combien de temps faut-il ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

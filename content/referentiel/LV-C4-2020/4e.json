@@ -1,0 +1,126 @@
+{
+  "programme": "LV-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "LV-C4-4E-PASS-01",
+      "titre": "Raconter au prétérit",
+      "domaine": "Écrire et réagir à l’écrit",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Raconter un évènement ou des activités passées au prétérit, verbes réguliers et irréguliers.",
+      "exemple": "Yesterday I played football and I went to the cinema.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 43,
+        "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-PRES-01",
+      "titre": "Présent simple ou en -ing",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Distinguer l’habitude (présent simple) de l’action en cours (be + -ing).",
+      "exemple": "I usually walk to school, but today I’m taking the bus.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-COMP-01",
+      "titre": "Comparer",
+      "domaine": "Parler en continu",
+      "theme": "Exprimer, expliciter, justifier son opinion ; comparer",
+      "attendu": "Comparer avec les comparatifs et superlatifs pour exprimer ses préférences.",
+      "exemple": "London is bigger than Oxford.",
+      "source": {
+        "id": "eduscol-reperes-lv-c4",
+        "page": 5,
+        "extrait": "Peut exprimer des préférences en s’appuyant sur des comparaisons, de façon simple et directe."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01",
+      "titre": "Documents de la vie courante",
+      "domaine": "Lire",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Trouver une information dans un menu, un horaire, une annonce ou un prospectus.",
+      "exemple": "Museum open Mon–Fri, 9 am – 5 pm.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 40,
+        "extrait": "Trouver un renseignement spécifique et prévisible dans des documents simples tels que prospectus, menus, annonces, horaires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-PANN-01",
+      "titre": "Panneaux et signes",
+      "domaine": "Lire",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Comprendre les panneaux courants des lieux publics.",
+      "exemple": "Mind the gap.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 40,
+        "extrait": "Comprendre les signes et les panneaux courants dans les lieux publics, à l’école, pour l’orientation, les instructions, la sécurité."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-DIAL-01",
+      "titre": "Demander un renseignement",
+      "domaine": "Réagir et dialoguer",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Demander et comprendre un chemin, un prix, un horaire.",
+      "exemple": "Excuse me, where is the station?",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 41,
+        "extrait": "Demander et fournir des renseignements."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-FUT-01",
+      "titre": "Parler de ses projets",
+      "domaine": "Parler en continu",
+      "theme": "Se raconter : projets",
+      "attendu": "Parler de ses projets avec be going to et will.",
+      "exemple": "Next summer, I’m going to visit Scotland.",
+      "source": {
+        "id": "eduscol-reperes-lv-c4",
+        "page": 5,
+        "extrait": "en prenant appui sur ses actions et ses projets."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C4-4E-CULT-01",
+      "titre": "Voyages",
+      "domaine": "Connaissances culturelles",
+      "theme": "Voyages et migrations",
+      "attendu": "Connaitre quelques lieux, monnaies et repères des pays anglophones ; voyager de façon responsable.",
+      "exemple": "The Statue of Liberty is in New York.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Voyages scolaires, touristiques. Le tourisme écoresponsable, l’empreinte carbone."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C4-4E-DIAL-01",
+  "exemple": "« Excuse me, where is the station? » « Go straight on and turn left. It’s next to the bank. »",
+  "regle": "Pour **demander poliment** : Excuse me…, Could you tell me…, please? Pour **un prix** : How much is it? Pour **un chemin** : go straight on, turn left, turn right. Pour **situer** : next to, opposite, between, behind.",
+  "piege": "Opposite veut dire en face de, pas « opposé ».",
+  "essai": {
+    "consigne": "Que veut dire « Turn right at the traffic lights » ?",
+    "options": [
+      "Continuez tout droit.",
+      "Tournez à gauche au feu.",
+      "Tournez à droite au feu."
+    ],
+    "reponse": "Tournez à droite au feu.",
+    "explication": "Right : droite. Traffic lights : feux de circulation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

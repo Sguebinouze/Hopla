@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C4-3E-IND-01",
+  "exemple": "Tom : « I am tired. » → Tom said he was tired.",
+  "regle": "Au **discours indirect**, les pronoms changent (I → he) et, après un verbe au passé (said, asked), les temps reculent : am → **was**, like → **liked**, will → **would**. Une question rapportée n’a **pas d’inversion** : He asked where I lived. Une question fermée prend **if**. Un ordre : **told me to** + base verbale.",
+  "piege": "Pas de do ni d’inversion dans une question indirecte : where I lived, et non where did I live.",
+  "essai": {
+    "consigne": "Elle a demandé : « Do you like music? » Au discours indirect, cela donne…",
+    "options": [
+      "She asked do I like music.",
+      "She asked if I liked music.",
+      "She asked if did I like music."
+    ],
+    "reponse": "She asked if I liked music.",
+    "explication": "Question fermée : asked if + sujet + verbe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

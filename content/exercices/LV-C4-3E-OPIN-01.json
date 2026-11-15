@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-3E-OPIN-01",
+  "exercices": [
+    {
+      "id": "LV-C4-3E-OPIN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle expression sert à donner son avis ?",
+      "options": [
+        "In my opinion,",
+        "Once upon a time,",
+        "On the left,"
+      ],
+      "reponse": "In my opinion,",
+      "indice": "Opinion veut dire avis.",
+      "explication": "In my opinion : à mon avis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I agree with you » ?",
+      "options": [
+        "Je te remercie.",
+        "Je ne suis pas d’accord.",
+        "Je suis d’accord avec toi."
+      ],
+      "reponse": "Je suis d’accord avec toi.",
+      "indice": "Agree : être d’accord.",
+      "explication": "I agree : je suis d’accord. I disagree : je ne suis pas d’accord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « Je ne suis pas d’accord » ?",
+      "options": [
+        "I agree.",
+        "I disagree.",
+        "I don’t mind."
+      ],
+      "reponse": "I disagree.",
+      "indice": "Le préfixe dis- exprime le contraire.",
+      "explication": "I disagree : je ne suis pas d’accord. I don’t mind : ça m’est égal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I can’t stand horror films » ?",
+      "options": [
+        "Je ne peux pas aller voir de film.",
+        "J’adore les films d’horreur.",
+        "Je ne supporte pas les films d’horreur."
+      ],
+      "reponse": "Je ne supporte pas les films d’horreur.",
+      "indice": "Can’t stand exprime un rejet fort.",
+      "explication": "Can’t stand : ne pas supporter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot sert à ajouter un argument ?",
+      "options": [
+        "However",
+        "Although",
+        "Moreover"
+      ],
+      "reponse": "Moreover",
+      "indice": "Il signifie de plus.",
+      "explication": "Moreover : de plus. However et although expriment l’opposition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que pense cette personne de l’uniforme ?",
+      "options": [
+        "Elle n’a pas d’avis.",
+        "C’est une mauvaise idée, car tout le monde se ressemble.",
+        "C’est une bonne idée, car tout le monde se ressemble."
+      ],
+      "reponse": "C’est une bonne idée, car tout le monde se ressemble.",
+      "indice": "Écoute good idea et because.",
+      "explication": "I think… is a good idea because… : je pense que c’est une bonne idée parce que…",
+      "ecoute": {
+        "texte": "I think school uniforms are a good idea because everyone looks the same.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « It’s worth visiting » ?",
+      "options": [
+        "Ça vaut la peine d’être visité.",
+        "Ça ne se visite pas.",
+        "C’est cher à visiter."
+      ],
+      "reponse": "Ça vaut la peine d’être visité.",
+      "indice": "Worth : qui vaut.",
+      "explication": "It’s worth + -ing : ça vaut la peine de…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-OPIN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase exprime un regret ?",
+      "options": [
+        "I hope I have more time.",
+        "I have more time.",
+        "I wish I had more time."
+      ],
+      "reponse": "I wish I had more time.",
+      "indice": "Wish exprime un souhait qui ne se réalise pas.",
+      "explication": "I wish I had… : j’aimerais avoir… (mais ce n’est pas le cas).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

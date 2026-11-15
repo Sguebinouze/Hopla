@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C4-3E-MOD-01",
+  "exercices": [
+    {
+      "id": "LV-C4-3E-MOD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « You should drink more water » ?",
+      "options": [
+        "Tu sais boire plus d’eau.",
+        "Tu devrais boire plus d’eau.",
+        "Tu es obligé de boire plus d’eau."
+      ],
+      "reponse": "Tu devrais boire plus d’eau.",
+      "indice": "Should exprime un conseil.",
+      "explication": "Should : conseil, comme « tu devrais ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel modal exprime une obligation forte ?",
+      "options": [
+        "could",
+        "might",
+        "must"
+      ],
+      "reponse": "must",
+      "indice": "C’est la règle, sans discussion.",
+      "explication": "Must : obligation. Might et could : possibilité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « It might rain » ?",
+      "options": [
+        "Il va pleuvoir, c’est sûr.",
+        "Il ne pleut jamais.",
+        "Il se peut qu’il pleuve."
+      ],
+      "reponse": "Il se peut qu’il pleuve.",
+      "indice": "Might exprime une possibilité.",
+      "explication": "Might : il est possible que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète pour dire que ce n’est pas obligatoire : « You don’t … wear a uniform. »",
+      "options": [
+        "can",
+        "have to",
+        "must"
+      ],
+      "reponse": "have to",
+      "indice": "Don’t have to n’est pas une interdiction.",
+      "explication": "Don’t have to : pas obligé. Mustn’t : interdit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander poliment « Pourrais-tu m’aider ? » ?",
+      "options": [
+        "Could you help me?",
+        "Should I help you?",
+        "Must you help me?"
+      ],
+      "reponse": "Could you help me?",
+      "indice": "Could rend la demande polie.",
+      "explication": "Could you…? : pourrais-tu… ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « When I was five, I could swim » ?",
+      "options": [
+        "À cinq ans, je pourrai nager.",
+        "À cinq ans, je savais nager.",
+        "À cinq ans, je devais nager."
+      ],
+      "reponse": "À cinq ans, je savais nager.",
+      "indice": "Could est le passé de can.",
+      "explication": "Could : capacité dans le passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète pour dire que c’est interdit : « Students … use their phones in class. »",
+      "options": [
+        "don’t have to",
+        "shouldn’t have",
+        "mustn’t"
+      ],
+      "reponse": "mustn’t",
+      "indice": "On exprime une interdiction.",
+      "explication": "Mustn’t : interdiction.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-MOD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « He must be tired » ?",
+      "options": [
+        "Il doit être fatigué, c’est probable.",
+        "Il était fatigué.",
+        "Il est obligé d’être fatigué."
+      ],
+      "reponse": "Il doit être fatigué, c’est probable.",
+      "indice": "Ici, must exprime une déduction.",
+      "explication": "Must peut exprimer une forte probabilité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

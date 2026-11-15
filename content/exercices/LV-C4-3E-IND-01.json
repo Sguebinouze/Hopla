@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C4-3E-IND-01",
+  "exercices": [
+    {
+      "id": "LV-C4-3E-IND-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tom dit : « I am tired. » Au discours indirect, cela donne…",
+      "options": [
+        "Tom says he tired.",
+        "Tom says I am tired.",
+        "Tom says he is tired."
+      ],
+      "reponse": "Tom says he is tired.",
+      "indice": "I devient he.",
+      "explication": "Les pronoms changent : I devient he.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Ann a dit : « I like pizza. » Au discours indirect, cela donne…",
+      "options": [
+        "Ann said liked pizza.",
+        "Ann said she liked pizza.",
+        "Ann said I liked pizza."
+      ],
+      "reponse": "Ann said she liked pizza.",
+      "indice": "Said est au passé.",
+      "explication": "Après said, le présent passe souvent au prétérit : she liked.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le professeur a demandé : « Where do you live? » Au discours indirect, cela donne…",
+      "options": [
+        "The teacher asked where do you live.",
+        "The teacher asked where I lived.",
+        "The teacher asked where did I live."
+      ],
+      "reponse": "The teacher asked where I lived.",
+      "indice": "Pas d’inversion dans une question indirecte.",
+      "explication": "Interrogation indirecte : sujet + verbe, sans do.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « She told me … close the door. »",
+      "options": [
+        "for",
+        "to",
+        "that"
+      ],
+      "reponse": "to",
+      "indice": "Un ordre rapporté.",
+      "explication": "Tell somebody to do something : dire à quelqu’un de faire quelque chose.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Il a demandé : « Are you ready? » Au discours indirect, cela donne…",
+      "options": [
+        "He asked was I ready.",
+        "He asked if I was ready.",
+        "He asked are you ready."
+      ],
+      "reponse": "He asked if I was ready.",
+      "indice": "Question fermée : if ou whether.",
+      "explication": "Question en yes/no rapportée : asked if + sujet + verbe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-006",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel verbe introduit souvent un ordre rapporté ?",
+      "options": [
+        "say",
+        "tell",
+        "speak"
+      ],
+      "reponse": "tell",
+      "indice": "Il est suivi d’une personne puis de to.",
+      "explication": "Tell somebody to… : dire à quelqu’un de…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Elle a dit : « I will help you. » Au discours indirect, cela donne…",
+      "options": [
+        "She said she would help me.",
+        "She said she will helped me.",
+        "She said I will help you."
+      ],
+      "reponse": "She said she would help me.",
+      "indice": "Will devient would.",
+      "explication": "Après said : will devient would, you devient me.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-IND-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « He asked me what time it was » ?",
+      "options": [
+        "Il m’a demandé l’heure.",
+        "Il m’a donné l’heure.",
+        "Il m’a demandé combien de temps il faut."
+      ],
+      "reponse": "Il m’a demandé l’heure.",
+      "indice": "What time : quelle heure.",
+      "explication": "He asked me what time it was : il m’a demandé quelle heure il était.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

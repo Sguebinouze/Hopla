@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C4-4E-LIRE-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-LIRE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Menu : « Fish and chips £8. Burger £7. Salad £5. » Combien coute le burger ?",
+      "options": [
+        "5 livres",
+        "7 livres",
+        "8 livres"
+      ],
+      "reponse": "7 livres",
+      "indice": "£ est le symbole de la livre sterling.",
+      "explication": "Burger £7 : le burger coute 7 livres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Panneau : « Museum open Mon–Fri, 9 am – 5 pm. » Quand le musée est-il ouvert ?",
+      "options": [
+        "du lundi au vendredi, de 9 h à 17 h",
+        "le weekend seulement",
+        "tous les jours jusqu’à 21 h"
+      ],
+      "reponse": "du lundi au vendredi, de 9 h à 17 h",
+      "indice": "Mon et Fri sont des abréviations.",
+      "explication": "Mon–Fri : Monday to Friday. 5 pm : 17 h.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Annonce : « Lost cat! Black and white, answers to Tiger. » Que cherche-t-on ?",
+      "options": [
+        "un chat à vendre",
+        "un chat perdu",
+        "un tigre"
+      ],
+      "reponse": "un chat perdu",
+      "indice": "Lost veut dire perdu.",
+      "explication": "Lost cat : chat perdu. Il répond au nom de Tiger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Tarifs : « Adults £12. Children under 12 free. » Combien paie un enfant de 10 ans ?",
+      "options": [
+        "12 livres",
+        "rien",
+        "6 livres"
+      ],
+      "reponse": "rien",
+      "indice": "Free veut dire gratuit.",
+      "explication": "Under 12 : moins de 12 ans. L’entrée est gratuite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Gare : « Next train to Oxford: 10:45, platform 3. » Que veut dire « platform » ?",
+      "options": [
+        "le guichet",
+        "le wagon",
+        "le quai"
+      ],
+      "reponse": "le quai",
+      "indice": "C’est l’endroit où l’on attend le train.",
+      "explication": "Platform : le quai.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Sold out » sur l’affiche d’un concert ?",
+      "options": [
+        "en solde",
+        "annulé",
+        "complet"
+      ],
+      "reponse": "complet",
+      "indice": "Sold vient de to sell, vendre.",
+      "explication": "Sold out : tout est vendu, c’est complet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Prospectus : « Bike hire: £5 per hour, £20 per day. » Que propose-t-on ?",
+      "options": [
+        "la vente de vélos",
+        "la location de vélos",
+        "des cours de vélo"
+      ],
+      "reponse": "la location de vélos",
+      "indice": "Hire veut dire location.",
+      "explication": "Bike hire : location de vélos, à l’heure ou à la journée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-LIRE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Menu : « Soup of the day: ask your server. » Que faut-il faire ?",
+      "options": [
+        "payer d’avance",
+        "choisir sur la carte",
+        "demander au serveur"
+      ],
+      "reponse": "demander au serveur",
+      "indice": "Ask veut dire demander.",
+      "explication": "Ask your server : demandez à votre serveur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

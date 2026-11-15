@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C4-3E-PASS-01",
+  "exemple": "Hamlet was written by Shakespeare. English is spoken all over the world.",
+  "regle": "Le **passif** met en avant ce qui subit l’action : **be + participe passé**. Le temps se porte sur be : is made (présent), **was built** (prétérit), **will be opened** (futur). L’auteur de l’action est introduit par **by**.",
+  "piege": "Il faut le participe passé : was written, et non was wrote.",
+  "essai": {
+    "consigne": "Complète : « The Eiffel Tower … built in 1889. »",
+    "options": [
+      "was",
+      "has",
+      "is"
+    ],
+    "reponse": "was",
+    "explication": "Prétérit passif : was + participe passé."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

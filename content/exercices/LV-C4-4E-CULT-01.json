@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C4-4E-CULT-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-CULT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans quelle ville se trouve Big Ben ?",
+      "options": [
+        "New York",
+        "Édimbourg",
+        "Londres"
+      ],
+      "reponse": "Londres",
+      "indice": "C’est la capitale du Royaume-Uni.",
+      "explication": "Big Ben est la cloche de la tour Elizabeth, au palais de Westminster, à Londres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans quelle ville se trouve la statue de la Liberté ?",
+      "options": [
+        "Washington",
+        "New York",
+        "Boston"
+      ],
+      "reponse": "New York",
+      "indice": "Elle accueille les bateaux à l’entrée du port.",
+      "explication": "La statue de la Liberté, offerte par la France, se dresse à New York depuis 1886.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle monnaie utilise-t-on au Royaume-Uni ?",
+      "options": [
+        "la livre sterling",
+        "l’euro",
+        "le dollar"
+      ],
+      "reponse": "la livre sterling",
+      "indice": "Son symbole est £.",
+      "explication": "Le Royaume-Uni utilise la livre sterling (pound).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel parc national américain est célèbre pour ses geysers ?",
+      "options": [
+        "Central Park",
+        "Hyde Park",
+        "Yellowstone"
+      ],
+      "reponse": "Yellowstone",
+      "indice": "C’est le plus ancien parc national du monde.",
+      "explication": "Yellowstone, créé en 1872, est célèbre pour ses geysers comme Old Faithful.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « carbon footprint » ?",
+      "options": [
+        "l’empreinte carbone",
+        "une trace de pas",
+        "le charbon"
+      ],
+      "reponse": "l’empreinte carbone",
+      "indice": "Footprint veut dire empreinte de pas.",
+      "explication": "Carbon footprint : l’empreinte carbone, c’est-à-dire les gaz à effet de serre émis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour aller de Londres à Paris, quel transport émet le moins de CO₂ ?",
+      "options": [
+        "l’avion",
+        "le train",
+        "la voiture"
+      ],
+      "reponse": "le train",
+      "indice": "Il passe sous la Manche.",
+      "explication": "L’Eurostar relie Londres à Paris par le tunnel sous la Manche, avec peu d’émissions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle est la capitale des États-Unis ?",
+      "options": [
+        "New York",
+        "Los Angeles",
+        "Washington, D.C."
+      ],
+      "reponse": "Washington, D.C.",
+      "indice": "C’est là que se trouve la Maison-Blanche.",
+      "explication": "Washington, D.C. est la capitale fédérale. New York est la plus grande ville.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-CULT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel pays anglophone a pour capitale Canberra ?",
+      "options": [
+        "l’Australie",
+        "la Nouvelle-Zélande",
+        "le Canada"
+      ],
+      "reponse": "l’Australie",
+      "indice": "Ce n’est pas Sydney.",
+      "explication": "Canberra est la capitale de l’Australie. Sydney est la plus grande ville.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

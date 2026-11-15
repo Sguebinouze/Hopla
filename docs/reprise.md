@@ -35,7 +35,7 @@
 
 Session VS Code (français et maths) :
 - Fait le 15 novembre 2026 : codes d'erreur (107 générateurs, 169 codes, dictionnaire `ERREURS` exporté par `@hopla/generateurs`, test `erreurs.test.ts`), compétence CE2 « tables d'addition » (MA-C2-CE2-CALC-05, générateur `tables-addition-ce2`, défi de fluence), leçons de toutes les notions de français et de maths du CP à la 3e.
-1. **Programme 2020 de 4e et de 3e**, encore en vigueur selon le calendrier : il faut d'abord archiver les « Repères annuels de progression » du cycle 4 (`bo22-2019-reperes-francais-c4` et `bo22-2019-reperes-maths-c4`, BO n°22 du 29 mai 2019), car le BO n°31 de 2020 ne répartit pas les notions par année. Identifiants prévus : numéros 51 à 99.
+1. **Programme 2020 de 4e et de 3e**, encore en vigueur selon le calendrier. Les repères sont archivés depuis le 15 novembre 2026 (il fallait d'abord archiver les « Repères annuels de progression » du cycle 4 (`bo22-2019-reperes-francais-c4` et `bo22-2019-reperes-maths-c4`, BO n°22 du 29 mai 2019), car le BO n°31 de 2020 ne répartit pas les notions par année. Identifiants prévus : numéros 51 à 99.
 2. **Codes d'erreur restants** : 92 générateurs QCM sans code (classements, comparaisons, nombres en lettres…), à qualifier quand un piège correspond à une erreur connue. Outils : `choix`, `erreursDe`, `confusionTemps`, `erreurLongueurDecimale` (`outils.ts`, `erreurs.ts`).
 
 Session cloud (app et autres matières) :
@@ -61,6 +61,7 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - Anglais CM1 (fait) : `LV-C3-2026` (BO n° 12 de 2026, objectifs du CM1). 9 notions, 72 questions dont 58 avec écoute, 9 leçons.
 - Anglais CM2 (fait) : `LV-C3-2020` (BO n° 31 de 2020, cycle 3 sans répartition annuelle). Thèmes choisis pour ne pas doublonner la 6e (2025) : annonces, invitations, achats, réagir, vêtements, ville, développement durable, contes et légendes, passé et futur. 9 notions, 72 questions dont 52 avec écoute, 9 leçons.
 - Anglais 5e (fait) : `LV-C4-2025` (BO n° 22 de 2025, classe de cinquième) : axes culturels 2 à 6 (dont le Royaume-Uni, obligatoire) et actes langagiers (raconter au passé, projets, gouts, accord et aide). 9 notions, 72 questions dont 36 avec écoute, 9 leçons.
+- Anglais 4e et 3e (fait, session cloud) : `LV-C4-2020` (programme du cycle 4 de 2020, encore en vigueur en 4e et 3e en 2026-2027). Le programme et les repères annuels de langues vivantes (`eduscol-reperes-lv-c4`, archivé) sont organisés par niveau du CECRL, pas par classe : le niveau A2 est placé en 4e, le niveau B1 en 3e. À confirmer à la relecture. 8 notions par classe, 128 questions dont 9 avec écoute, 16 leçons.
 - Zone « autres matières » terminée pour 2026-2027. Reste possible : l’anglais de 4e et de 3e, dont le programme 2025 ne s’applique qu’en 2027-2028 et 2028-2029 (aucun programme de langue vivante n’est listé pour ces classes en 2026-2027).
 
 ## Travail à deux sessions
