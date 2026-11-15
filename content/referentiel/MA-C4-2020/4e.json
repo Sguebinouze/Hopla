@@ -1,0 +1,321 @@
+{
+  "programme": "MA-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "MA-C4-4E-REL-51",
+      "titre": "Multiplier, diviser des relatifs",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres décimaux relatifs",
+      "attendu": "Multiplier et diviser des nombres relatifs en appliquant la règle des signes.",
+      "exemple": "(−3) × (+4) = −12 ; (−20) ÷ (−5) = 4.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 1,
+        "extrait": "Le produit et le quotient de décimaux relatifs sont abordés."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-51",
+      "titre": "Simplifier une fraction",
+      "domaine": "Nombres et calculs",
+      "theme": "Fractions, nombres rationnels",
+      "attendu": "Simplifier une fraction en divisant son numérateur et son dénominateur par un même nombre.",
+      "exemple": "18/24 = 9/12 = 3/4.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "reconnaître et produire des fractions égales, simplifier des fractions."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-52",
+      "titre": "Multiplier des fractions",
+      "domaine": "Nombres et calculs",
+      "theme": "Fractions, nombres rationnels",
+      "attendu": "Multiplier des fractions et calculer une fraction d’un nombre.",
+      "exemple": "2/3 × 5/7 = 10/21 ; 3/4 de 20, c’est 15.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 1,
+        "extrait": "les opérations entre fractions sont étendues à la multiplication et la division."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-FRAC-53",
+      "titre": "Inverse, diviser des fractions",
+      "domaine": "Nombres et calculs",
+      "theme": "Fractions, nombres rationnels",
+      "attendu": "Déterminer l’inverse d’un nombre et diviser par une fraction en multipliant par son inverse.",
+      "exemple": "L’inverse de 2/5 est 5/2 ; 3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 1,
+        "extrait": "La notion d’inverse est introduite"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-DIV-51",
+      "titre": "Décomposer en facteurs premiers",
+      "domaine": "Nombres et calculs",
+      "theme": "Divisibilité, nombres premiers",
+      "attendu": "Décomposer un entier en produit de facteurs premiers à l’aide des nombres premiers inférieurs à 100.",
+      "exemple": "60 = 2 × 2 × 3 × 5 = 2² × 3 × 5.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "Les élèves déterminent la liste des nombres premiers inférieurs ou égaux à 100 et l’utilisent pour décomposer des nombres en facteurs premiers"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-RAC-51",
+      "titre": "Racine carrée",
+      "domaine": "Nombres et calculs",
+      "theme": "Racine carrée",
+      "attendu": "Connaitre la racine carrée des carrés parfaits de 1 à 144 et encadrer une racine carrée.",
+      "exemple": "√81 = 9 ; √50 est compris entre 7 et 8.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "La racine carrée est introduite, en lien avec des situations géométriques (théorème de Pythagore, agrandissement des aires) et à l’appui de la connaissance des carrés parfaits de 1 à 144"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PUIS-51",
+      "titre": "Puissances de 10 et préfixes",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Passer d’une puissance de 10 à son écriture décimale, avec un exposant positif ou négatif ; connaitre les préfixes de nano à giga.",
+      "exemple": "10⁴ = 10 000 ; 10⁻³ = 0,001 ; 1 km = 10³ m.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "Les puissances de 10 sont d’abord introduites avec des exposants positifs, puis négatifs, afin de définir les préfixes de nano à giga"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PUIS-52",
+      "titre": "Puissances d’un nombre",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Calculer une puissance d’exposant positif et simplifier l’écriture d’un produit de puissances.",
+      "exemple": "3⁴ = 81 ; 2³ × 2⁴ = 2⁷.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "Les puissances de base quelconque d’exposants positifs sont introduites pour simplifier l’écriture de produits."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-SCI-51",
+      "titre": "Notation scientifique",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Écrire un nombre décimal en notation scientifique.",
+      "exemple": "5 600 000 = 5,6 × 10⁶ ; 0,0042 = 4,2 × 10⁻³.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 3,
+        "extrait": "la notation scientifique. Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de grandeurs"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-LIT-51",
+      "titre": "Développer et factoriser",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral",
+      "attendu": "Utiliser la distributivité simple pour développer un produit, factoriser une somme, réduire une expression.",
+      "exemple": "3(2x + 5) = 6x + 15 ; 4x² + 9x = x(4x + 9).",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 4,
+        "extrait": "La propriété de distributivité simple est formalisée et est utilisée pour développer un produit, factoriser une somme, réduire une expression littérale."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-EQ-51",
+      "titre": "Équations du premier degré",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral",
+      "attendu": "Résoudre algébriquement une équation du premier degré.",
+      "exemple": "3x + 4 = 19, donc 3x = 15 et x = 5.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 5,
+        "extrait": "Elles permettent d’aborder la mise en équation d’un problème et la résolution algébrique d’une équation du premier degré."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-STAT-51",
+      "titre": "Médiane",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Statistiques",
+      "attendu": "Déterminer la médiane d’une série donnée par une liste ou par un tableau d’effectifs.",
+      "exemple": "Série 4 ; 7 ; 9 ; 12 ; 15 : la médiane est 9.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 6,
+        "extrait": "Un nouvel indicateur de position est introduit : la médiane."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PROBA-51",
+      "titre": "Évènement contraire",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Probabilités",
+      "attendu": "Calculer la probabilité de l’évènement contraire ; utiliser des situations simples qui ne sont pas équiprobables.",
+      "exemple": "Si la probabilité de A est 0,3, celle de son contraire est 0,7.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 6,
+        "extrait": "Le lien est fait entre les probabilités de deux événements contraires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PROP-51",
+      "titre": "Quatrième proportionnelle",
+      "domaine": "Organisation et gestion de données, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Calculer une quatrième proportionnelle ; partager une quantité selon un rapport donné.",
+      "exemple": "3 kg coutent 12 € : 5 kg coutent 5 × 12 ÷ 3 = 20 €.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 7,
+        "extrait": "Le calcul d’une quatrième proportionnelle est systématisé"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-VOL-51",
+      "titre": "Volume pyramide et cône",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Calculs sur des grandeurs mesurables",
+      "attendu": "Calculer le volume d’une pyramide et d’un cône de révolution.",
+      "exemple": "Pyramide : base de 12 cm², hauteur de 5 cm, volume 12 × 5 ÷ 3 = 20 cm³.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 8,
+        "extrait": "Le lexique des formules s’étend au volume des pyramides et du cône."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-GRAN-51",
+      "titre": "Vitesse et débit",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Calculs sur des grandeurs mesurables",
+      "attendu": "Utiliser des grandeurs quotients (vitesse moyenne, débit) et convertir des km/h en m/s.",
+      "exemple": "150 km en 2 h : vitesse moyenne de 75 km/h. 36 km/h = 10 m/s.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 8,
+        "extrait": "des grandeurs quotients (par exemple vitesse, débit, concentration, masse volumique) sont introduites à travers la résolution de problèmes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-AGR-51",
+      "titre": "Agrandissement et réduction",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Effet des transformations sur des grandeurs géométriques",
+      "attendu": "Connaitre l’effet d’un agrandissement ou d’une réduction de rapport k sur les longueurs, les aires et les volumes.",
+      "exemple": "Rapport 3 : longueurs × 3, aires × 9, volumes × 27.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 8,
+        "extrait": "Les élèves connaissent et utilisent l’effet d’un agrandissement ou d’une réduction sur les longueurs, les aires et les volumes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-THAL-51",
+      "titre": "Thalès, triangles emboîtés",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Utiliser le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés.",
+      "exemple": "Si (MN) // (BC), alors AM/AB = AN/AC = MN/BC.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "Le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés sont énoncés et utilisés"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-PYTH-51",
+      "titre": "Théorème de Pythagore",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Calculer une longueur avec le théorème de Pythagore ; prouver qu’un triangle est rectangle ou non avec sa réciproque.",
+      "exemple": "ABC rectangle en A : BC² = AB² + AC².",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "ainsi que le théorème de Pythagore (plusieurs démonstrations possibles) et sa réciproque."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-COS-51",
+      "titre": "Cosinus d’un angle",
+      "domaine": "Espace et géométrie",
+      "theme": "Géométrie plane",
+      "attendu": "Utiliser le cosinus d’un angle aigu d’un triangle rectangle pour calculer une longueur.",
+      "exemple": "Rectangle en A : cos(ABC) = AB/BC.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 10,
+        "extrait": "La définition du cosinus d’un angle d’un triangle rectangle découle, grâce au théorème de Thalès, de l’indépendance du rapport des longueurs le définissant."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-4E-TRANS-51",
+      "titre": "Translations",
+      "domaine": "Espace et géométrie",
+      "theme": "Transformations",
+      "attendu": "Utiliser les propriétés de la translation et son lien avec le parallélogramme.",
+      "exemple": "Si la translation qui transforme A en B transforme C en D, alors ABDC est un parallélogramme.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 11,
+        "extrait": "le lien est alors fait entre translation et parallélogramme."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

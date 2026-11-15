@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-EQ-51",
+  "exemple": "5x − 3 = 17, donc 5x = 20 et x = 4.",
+  "regle": "Résoudre une équation, c’est trouver la valeur de l’**inconnue** qui rend l’égalité vraie. On ajoute ou on soustrait le même nombre aux deux membres, puis on divise les deux membres par le même nombre non nul.",
+  "piege": "Vérifie toujours : remplace x par ta solution dans l’équation de départ.",
+  "essai": {
+    "consigne": "Résous : 3x + 7 = 22",
+    "options": [
+      "5",
+      "29/3",
+      "15"
+    ],
+    "reponse": "5",
+    "explication": "3x = 22 − 7 = 15, donc x = 15 ÷ 3 = 5. Vérification : 3 × 5 + 7 = 22."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

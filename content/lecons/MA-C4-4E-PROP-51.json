@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-PROP-51",
+  "exemple": "5 stylos coutent 4 €. 15 stylos coutent 3 fois plus : 12 €.",
+  "regle": "Dans une situation de **proportionnalité**, on calcule une **quatrième proportionnelle** par le produit en croix. Si a correspond à b, alors c correspond à b × c ÷ a.",
+  "piege": "Vérifie d’abord que la situation est proportionnelle : l’âge et la taille d’un enfant ne le sont pas.",
+  "essai": {
+    "consigne": "4 kg de pommes coutent 10 €. Combien coutent 6 kg ?",
+    "options": [
+      "15 €",
+      "12 €",
+      "24 €"
+    ],
+    "reponse": "15 €",
+    "explication": "10 × 6 ÷ 4 = 15. Les 6 kg coutent 15 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

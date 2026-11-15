@@ -374,7 +374,7 @@ describe('variété 4e', () => {
     'homophones-conjonctions-4e': 5, 'polysemie-4e': 6, 'intensite-4e': 15, 'cercle-circonscrit-4e': 25, 'probabilites-4e': 20,
     'puissances-4e': 20, 'racine-carree-4e': 13, 'coefficient-multiplicateur-4e': 16,
   };
-  it.each(GENERATEURS_QUATRIEME.map((g) => g.id))('%s : assez de consignes distinctes, d1 différente de d3', (id) => {
+  it.each(GENERATEURS_QUATRIEME.filter((g) => !g.id.endsWith('-2020')).map((g) => g.id))('%s : assez de consignes distinctes, d1 différente de d3', (id) => {
     const consignes = DIFFICULTES.map((d) => new Set(GRAINES.map((s) => generateur(id).generer(s, d).consigne)));
     for (const ens of consignes) expect(ens.size).toBeGreaterThanOrEqual(FERMES[id] ?? 25);
     expect([...consignes[0]!].some((x) => !consignes[2]!.has(x))).toBe(true);

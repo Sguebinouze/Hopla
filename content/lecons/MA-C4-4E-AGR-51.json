@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-AGR-51",
+  "exemple": "Agrandissement de rapport 2 : les longueurs sont doublées, les aires multipliées par 4, les volumes par 8.",
+  "regle": "Dans un agrandissement ou une réduction de **rapport k**, les longueurs sont multipliées par **k**, les aires par **k²** et les volumes par **k³**. Si k est plus petit que 1, c’est une réduction.",
+  "piege": "Les aires ne sont pas multipliées par k : un carré de côté doublé a une aire 4 fois plus grande.",
+  "essai": {
+    "consigne": "Une figure d’aire 5 cm² est agrandie dans le rapport 3. Quelle est l’aire obtenue ?",
+    "options": [
+      "45 cm²",
+      "15 cm²",
+      "135 cm²"
+    ],
+    "reponse": "45 cm²",
+    "explication": "Les aires sont multipliées par 3² = 9 : 5 × 9 = 45 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

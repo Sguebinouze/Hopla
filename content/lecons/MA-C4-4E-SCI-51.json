@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-SCI-51",
+  "exemple": "72 000 = 7,2 × 10⁴ ; 0,0035 = 3,5 × 10⁻³.",
+  "regle": "La **notation scientifique** d’un nombre est a × 10ⁿ, où n est un entier relatif. Le nombre a a **un seul chiffre non nul avant la virgule** : il est entre 1 et 10, 10 exclu.",
+  "piege": "72 × 10³ a la bonne valeur, mais ce n’est pas une notation scientifique : 72 a deux chiffres avant la virgule.",
+  "essai": {
+    "consigne": "Quelle est la notation scientifique de 560 000 ?",
+    "options": [
+      "5,6 × 10⁵",
+      "56 × 10⁴",
+      "5,6 × 10⁴"
+    ],
+    "reponse": "5,6 × 10⁵",
+    "explication": "On place la virgule après le 5 : 5,6. Elle a reculé de 5 rangs, donc 560 000 = 5,6 × 10⁵."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

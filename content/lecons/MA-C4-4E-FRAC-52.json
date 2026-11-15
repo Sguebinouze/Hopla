@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FRAC-52",
+  "exemple": "3/5 × 2/7 = 6/35. Les 3/4 de 20 : 3/4 × 20 = 15.",
+  "regle": "Pour **multiplier deux fractions**, on multiplie les numérateurs entre eux et les dénominateurs entre eux. Prendre **une fraction d’une quantité**, c’est multiplier cette quantité par la fraction.",
+  "piege": "Pas de dénominateur commun pour multiplier : on ne le cherche que pour additionner ou soustraire.",
+  "essai": {
+    "consigne": "Calcule : 2/3 × 5/7",
+    "options": [
+      "10/21",
+      "7/10",
+      "10/7"
+    ],
+    "reponse": "10/21",
+    "explication": "2 × 5 = 10 et 3 × 7 = 21 : le produit vaut 10/21."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

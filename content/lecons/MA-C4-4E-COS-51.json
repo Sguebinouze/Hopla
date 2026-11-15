@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-COS-51",
+  "exemple": "ABC rectangle en A : cos(ABC) = AB/BC, côté adjacent sur hypoténuse.",
+  "regle": "Dans un triangle rectangle, le **cosinus** d’un angle aigu est le quotient du **côté adjacent** à cet angle par l’**hypoténuse**. Il permet de calculer une longueur quand on connait l’angle.",
+  "piege": "Le côté adjacent touche l’angle, mais ce n’est pas l’hypoténuse.",
+  "essai": {
+    "consigne": "ABC est rectangle en A, BC = 10 cm et cos(ABC) = 0,6. Combien mesure AB ?",
+    "options": [
+      "6 cm",
+      "16,7 cm",
+      "4 cm"
+    ],
+    "reponse": "6 cm",
+    "explication": "cos(ABC) = AB/BC, donc AB = BC × 0,6 = 10 × 0,6 = 6 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

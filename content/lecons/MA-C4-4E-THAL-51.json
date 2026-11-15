@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-THAL-51",
+  "exemple": "M sur [AB], N sur [AC], (MN) // (BC) : AM/AB = AN/AC = MN/BC.",
+  "regle": "Dans un triangle ABC, M est sur [AB], N sur [AC] et (MN) est parallèle à (BC). Le **théorème de Thalès** donne trois **quotients égaux** : AM/AB = AN/AC = MN/BC. La **réciproque** sert à prouver que deux droites sont parallèles.",
+  "piege": "Écris les quotients dans le même ordre : petit triangle au numérateur, grand triangle au dénominateur.",
+  "essai": {
+    "consigne": "AM = 3 cm, AB = 9 cm, BC = 12 cm et (MN) // (BC). Combien mesure MN ?",
+    "options": [
+      "4 cm",
+      "36 cm",
+      "6 cm"
+    ],
+    "reponse": "4 cm",
+    "explication": "AM/AB = MN/BC, donc MN = 12 × 3 ÷ 9 = 4 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

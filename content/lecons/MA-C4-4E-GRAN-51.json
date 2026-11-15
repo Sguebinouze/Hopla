@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-GRAN-51",
+  "exemple": "Un train parcourt 240 km en 2 h : sa vitesse moyenne est 240 ÷ 2 = 120 km/h.",
+  "regle": "La **vitesse moyenne** est le quotient de la distance par la durée : v = d ÷ t. On en déduit d = v × t. Un **débit** est un volume par unité de temps, par exemple en litres par minute.",
+  "piege": "Exprime la durée en heures : 1 h 30 min = 1,5 h, et non 1,30 h.",
+  "essai": {
+    "consigne": "Une voiture roule à 80 km/h pendant 1 h 30 min. Quelle distance parcourt-elle ?",
+    "options": [
+      "120 km",
+      "104 km",
+      "53 km"
+    ],
+    "reponse": "120 km",
+    "explication": "1 h 30 min = 1,5 h. 80 × 1,5 = 120 km."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

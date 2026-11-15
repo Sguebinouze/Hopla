@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-DIV-51",
+  "exemple": "84 = 2 × 42 = 2 × 2 × 21 = 2² × 3 × 7.",
+  "regle": "Un **nombre premier** a exactement deux diviseurs : 1 et lui-même (2, 3, 5, 7, 11…). Pour **décomposer** un entier en produit de facteurs premiers, on le divise successivement par les nombres premiers, du plus petit au plus grand.",
+  "piege": "1 n’est pas premier, et 9 non plus : 9 = 3 × 3. Une décomposition ne contient que des nombres premiers.",
+  "essai": {
+    "consigne": "Quelle est la décomposition de 45 en facteurs premiers ?",
+    "options": [
+      "3² × 5",
+      "9 × 5",
+      "3 × 15"
+    ],
+    "reponse": "3² × 5",
+    "explication": "45 = 3 × 15 = 3 × 3 × 5 = 3² × 5. Les nombres 9 et 15 ne sont pas premiers."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

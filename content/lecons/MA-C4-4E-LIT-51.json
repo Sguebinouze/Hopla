@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-LIT-51",
+  "exemple": "4(3x + 2) = 12x + 8 ; 6x + 9 = 3(2x + 3).",
+  "regle": "**Développer** k(a + b), c’est l’écrire comme une somme : k(a + b) = ka + kb. **Factoriser** ka + kb, c’est le transformer en produit en mettant le **facteur commun** k devant la parenthèse.",
+  "piege": "Le facteur multiplie tous les termes de la parenthèse, pas seulement le premier.",
+  "essai": {
+    "consigne": "Développe : 7(x − 4)",
+    "options": [
+      "7x − 28",
+      "7x − 4",
+      "8x − 28"
+    ],
+    "reponse": "7x − 28",
+    "explication": "7 × x = 7x et 7 × (−4) = −28 : 7(x − 4) = 7x − 28."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

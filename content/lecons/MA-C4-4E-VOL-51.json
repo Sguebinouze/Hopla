@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-VOL-51",
+  "exemple": "Cône de rayon 3 cm et de hauteur 4 cm : volume ≈ 3,14 × 9 × 4 ÷ 3 ≈ 37,68 cm³.",
+  "regle": "Volume d’une **pyramide** ou d’un **cône** : aire de la base × hauteur ÷ 3. C’est le **tiers** du volume du prisme ou du cylindre de même base et de même hauteur.",
+  "piege": "On divise par 3, pas par 2. Pour le cône, la base est un disque d’aire π × r².",
+  "essai": {
+    "consigne": "Volume d’une pyramide de base 15 cm² et de hauteur 6 cm ?",
+    "options": [
+      "30 cm³",
+      "90 cm³",
+      "45 cm³"
+    ],
+    "reponse": "30 cm³",
+    "explication": "15 × 6 ÷ 3 = 30. Le volume est 30 cm³."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

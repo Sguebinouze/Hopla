@@ -1,0 +1,276 @@
+{
+  "programme": "FR-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "FR-C4-4E-GRAM-51",
+      "titre": "Relative ou conjonctive",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Distinguer la subordonnée relative, introduite par un pronom relatif, de la subordonnée conjonctive.",
+      "exemple": "« Le livre que je lis » : relative. « Je sais que tu viens » : conjonctive.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils différencient la proposition subordonnée relative de la proposition subordonnée conjonctive."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-52",
+      "titre": "Interrogative indirecte",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier et former une proposition subordonnée interrogative indirecte.",
+      "exemple": "« Où vas-tu ? » devient « Je me demande où tu vas. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils identifient la proposition subordonnée interrogative indirecte."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-53",
+      "titre": "L’apposition",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier l’apposition et la distinguer de l’épithète et du complément du nom.",
+      "exemple": "« Paris, capitale de la France, attire les touristes » : apposition.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 7,
+        "extrait": "Ils élargissent leurs connaissances des fonctions grammaticales en identifiant l’apposition et en distinguant cette fonction de l’épithète et du complément du nom."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-54",
+      "titre": "Complément de conséquence",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier les compléments circonstanciels de conséquence et les distinguer de la cause et du but.",
+      "exemple": "« Il a neigé, si bien que les routes sont bloquées » : conséquence.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 7,
+        "extrait": "les compléments circonstanciels de conséquence."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-55",
+      "titre": "Démonstratifs et possessifs",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier les pronoms démonstratifs et possessifs et les distinguer des déterminants.",
+      "exemple": "« Mon vélo est rouge, le tien est bleu » : « le tien » est un pronom possessif.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils identifient les pronoms démonstratifs et possessifs"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-56",
+      "titre": "Comparatif et superlatif",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier les degrés de l’adjectif : comparatif et superlatif.",
+      "exemple": "« plus grand que » : comparatif. « le plus grand » : superlatif.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "les degrés de l’adjectif (comparatif et superlatif)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-57",
+      "titre": "Forme impersonnelle",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Identifier la forme impersonnelle, où le pronom « il » ne désigne personne.",
+      "exemple": "« Il pleut », « il faut partir » : forme impersonnelle.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 8,
+        "extrait": "Ils consolident leur connaissance des trois types et des trois formes de phrase déjà abordés précédemment et identifient la forme impersonnelle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-GRAM-58",
+      "titre": "Sujet éloigné du verbe",
+      "domaine": "Étude de la langue",
+      "theme": "Analyser le fonctionnement de la phrase simple et de la phrase complexe",
+      "attendu": "Reconnaitre le sujet d’un verbe, même séparé du verbe par plusieurs compléments ou placé après lui.",
+      "exemple": "« Dans la forêt vivaient des loups » : le sujet est « des loups ».",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 7,
+        "extrait": "Dans une phrase simple, les élèves reconnaissent le sujet même dans les cas complexes où il est éloigné du verbe par plusieurs compléments."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-51",
+      "titre": "Passés du subjonctif et conditionnel",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Identifier le passé du subjonctif et le passé du conditionnel.",
+      "exemple": "« qu’il ait fini » : subjonctif passé. « il aurait fini » : conditionnel passé.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "En plus des temps déjà maîtrisés, les élèves identifient le passé du subjonctif et le passé du conditionnel."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-52",
+      "titre": "Voix passive",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Construire la voix passive en conservant le temps de la phrase active.",
+      "exemple": "« Le chat mange la souris » devient « La souris est mangée par le chat ».",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "Ils construisent la voix passive et identifient la forme impersonnelle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-CONJ-53",
+      "titre": "Subjonctif présent",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Conjuguer au subjonctif présent être, avoir, les verbes des 1er et 2e groupes et les verbes irréguliers du programme.",
+      "exemple": "Il faut que tu ailles, que nous fassions, qu’il veuille.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "Ils consolident leur connaissance de tous les temps de l’indicatif, de l’impératif présent, du conditionnel présent et du subjonctif présent"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-51",
+      "titre": "Participe passé avec avoir",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Accorder le participe passé employé avec avoir quand le COD est placé avant, notamment quand c’est un pronom personnel.",
+      "exemple": "« Ces fleurs, je les ai cueillies. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "l’accord du participe passé avec avoir quand le COD est antéposé et quand le COD est un pronom personnel"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-52",
+      "titre": "Accord du verbe, cas complexes",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Accorder le verbe avec un pronom relatif sujet et avec des sujets de plusieurs personnes.",
+      "exemple": "« C’est moi qui suis venu. » « Toi et moi partirons. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "l’accord du verbe dans les cas complexes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-ORTH-53",
+      "titre": "Participes passés",
+      "domaine": "Étude de la langue",
+      "theme": "Consolider l’orthographe lexicale et grammaticale",
+      "attendu": "Écrire les participes passés en -é, -i, -u et ceux qui se terminent par une consonne muette.",
+      "exemple": "pris (prise), fait (faite), offert (offerte).",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 9,
+        "extrait": "Ils construisent les temps composés et connaissent les formes du participe passé des verbes (é, i, u et formes avec consonne finale)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-51",
+      "titre": "Degrés d’intensité",
+      "domaine": "Étude de la langue",
+      "theme": "Enrichir et structurer le lexique",
+      "attendu": "Classer des mots de sens voisin par degré d’intensité.",
+      "exemple": "tiède < chaud < brulant.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 11,
+        "extrait": "organisent leur classement par degré d'intensité et de généralité."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-52",
+      "titre": "Dérivation et classe des mots",
+      "domaine": "Étude de la langue",
+      "theme": "Enrichir et structurer le lexique",
+      "attendu": "Repérer le changement de classe grammaticale produit par la dérivation et ses incidences orthographiques.",
+      "exemple": "rapide → rapidement (adverbe) ; prudent → prudemment.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 11,
+        "extrait": "Ils mettent en évidence les changements de catégorie induits par la dérivation et leurs incidences orthographiques."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-VOC-53",
+      "titre": "Champ sémantique",
+      "domaine": "Étude de la langue",
+      "theme": "Enrichir et structurer le lexique",
+      "attendu": "Analyser en contexte les différents sens d’un mot polysémique (son champ sémantique).",
+      "exemple": "« pièce » : partie d’un logement, monnaie, texte de théâtre.",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 11,
+        "extrait": "Ils mettent en réseau des mots (groupements par champ lexical et par champ sémantique)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-4E-DISC-51",
+      "titre": "Paroles rapportées indirectement",
+      "domaine": "Étude de la langue",
+      "theme": "Construire les notions permettant l’analyse et l’élaboration des textes et des discours",
+      "attendu": "Reconnaitre le discours indirect et passer du discours direct au discours indirect.",
+      "exemple": "Hugo répond : « Je suis fatigué. » devient « Hugo répond qu’il est fatigué. »",
+      "source": {
+        "id": "bo22-2019-reperes-francais-c4",
+        "page": 12,
+        "extrait": "Ils reconnaissent et utilisent les paroles rapportées indirectement."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

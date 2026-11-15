@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-RAC-51",
+  "exemple": "√64 = 8, car 8² = 64. √20 est compris entre 4 et 5.",
+  "regle": "La **racine carrée** d’un nombre positif a est le nombre positif dont le carré vaut a. Connaitre les **carrés parfaits** de 1 à 144 permet de trouver ou d’encadrer une racine carrée.",
+  "piege": "√36 ne vaut pas 18 : c’est 6, car 6 × 6 = 36.",
+  "essai": {
+    "consigne": "Entre quels entiers consécutifs se trouve √70 ?",
+    "options": [
+      "8 et 9",
+      "35 et 36",
+      "7 et 8"
+    ],
+    "reponse": "8 et 9",
+    "explication": "8² = 64 et 9² = 81. 70 est entre 64 et 81, donc √70 est entre 8 et 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

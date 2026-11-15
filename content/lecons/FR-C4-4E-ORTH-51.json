@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-ORTH-51",
+  "exemple": "« J’ai cueilli des fleurs. » mais « Ces fleurs, je les ai cueillies. »",
+  "regle": "Avec l’auxiliaire **avoir**, le participe passé ne s’accorde **jamais avec le sujet**. Il s’accorde avec le **COD** seulement si ce COD est **placé avant** le verbe. C’est le cas d’un pronom personnel COD : le, la, les, me, te, nous, vous.",
+  "piege": "« Leur » et « lui » sont des COI : pas d’accord dans « je leur ai parlé ».",
+  "essai": {
+    "consigne": "Complète : Ta montre, je l’ai … sous le lit.",
+    "options": [
+      "retrouvée",
+      "retrouvé",
+      "retrouvés"
+    ],
+    "reponse": "retrouvée",
+    "explication": "« L’ » reprend « ta montre », féminin singulier, et il est placé avant : on écrit « retrouvée »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

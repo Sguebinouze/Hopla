@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-DISC-51",
+  "exemple": "Léa dit : « Je pars. » devient « Léa dit qu’elle part. »",
+  "regle": "Au **discours direct**, les paroles sont citées entre guillemets. Au **discours indirect**, elles sont rapportées dans une subordonnée, **sans guillemets** : les pronoms changent, et parfois les temps.",
+  "piege": "Une question devient une interrogative indirecte : « As-tu faim ? » devient « Il demande si j’ai faim. »",
+  "essai": {
+    "consigne": "Sami dit : « J’ai gagné. » Au discours indirect :",
+    "options": [
+      "Sami dit qu’il a gagné.",
+      "Sami dit que j’ai gagné.",
+      "Sami dit qu’« il a gagné »."
+    ],
+    "reponse": "Sami dit qu’il a gagné.",
+    "explication": "On supprime les guillemets et « je » devient « il » : Sami dit qu’il a gagné."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

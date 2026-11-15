@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-ORTH-53",
+  "exemple": "mis, mise ; écrit, écrite ; offert, offerte.",
+  "regle": "Le **participe passé** se termine par -é, -i, -u, ou par une **consonne muette** (-s, -t). Pour trouver cette consonne, on met le participe au **féminin** : elle s’entend alors.",
+  "piege": "Certains participes n’ont pas de consonne muette : fini, couru, ri.",
+  "essai": {
+    "consigne": "Quel est le participe passé masculin de « construire » ?",
+    "options": [
+      "construit",
+      "construis",
+      "construi"
+    ],
+    "reponse": "construit",
+    "explication": "Au féminin, on dit « construite » : le t s’entend. On écrit « construit »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

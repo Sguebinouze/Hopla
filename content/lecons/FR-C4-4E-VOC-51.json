@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-VOC-51",
+  "exemple": "tiède < chaud < brulant ; ruisseau < rivière < fleuve.",
+  "regle": "Des mots de sens proche peuvent exprimer des **degrés d’intensité** différents : on les range du plus faible au plus fort. Ils peuvent aussi être plus ou moins **généraux** : « fleur » est plus général que « rose ».",
+  "piege": "Un mot trop fort exagère : « terrifié » ne convient pas pour une petite inquiétude.",
+  "essai": {
+    "consigne": "Range du plus faible au plus fort : glacial, frais, froid",
+    "options": [
+      "frais < froid < glacial",
+      "froid < frais < glacial",
+      "glacial < froid < frais"
+    ],
+    "reponse": "frais < froid < glacial",
+    "explication": "Frais est le plus faible, glacial le plus fort."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

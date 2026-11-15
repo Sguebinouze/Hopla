@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FRAC-51",
+  "exemple": "18/24 = 9/12 = 3/4 : on divise par 2, puis par 3.",
+  "regle": "Pour **simplifier** une fraction, on divise son numérateur et son dénominateur par un **même diviseur commun**. On obtient une fraction égale. On continue tant qu’il reste un diviseur commun autre que 1.",
+  "piege": "On divise les deux termes, jamais un seul : 18/24 ne devient pas 9/24.",
+  "essai": {
+    "consigne": "Simplifie au maximum : 20/30",
+    "options": [
+      "2/3",
+      "10/15",
+      "4/6"
+    ],
+    "reponse": "2/3",
+    "explication": "20 et 30 sont divisibles par 10 : 20/30 = 2/3. Les deux autres fractions sont égales, mais pas simplifiées au maximum."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

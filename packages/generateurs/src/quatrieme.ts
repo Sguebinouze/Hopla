@@ -9,6 +9,8 @@ import {
   accordsComplexes4e, fonctionsSubordonnees4e, homophones4e, intensite4e, interrogativeIndirecte4e, oppositionCondition4e,
   participesPasses4e, polysemie4e, pronominaux4e, subjonctif4e, subordonnants4e, tempsComposes4e, voixPassive4e,
 } from './quatrieme-francais';
+import { GENERATEURS_QUATRIEME_2020_FRANCAIS } from './quatrieme-2020-francais';
+import { GENERATEURS_QUATRIEME_2020_MATHS } from './quatrieme-2020-maths';
 import type { Generateur } from './types';
 
 export const GENERATEURS_QUATRIEME: Generateur[] = [
@@ -19,4 +21,6 @@ export const GENERATEURS_QUATRIEME: Generateur[] = [
   // Français
   subordonnants4e, fonctionsSubordonnees4e, oppositionCondition4e, interrogativeIndirecte4e, tempsComposes4e, voixPassive4e,
   subjonctif4e, participesPasses4e, accordsComplexes4e, pronominaux4e, homophones4e, polysemie4e, intensite4e,
+  // Programme 2020
+  ...GENERATEURS_QUATRIEME_2020_MATHS, ...GENERATEURS_QUATRIEME_2020_FRANCAIS,
 ];

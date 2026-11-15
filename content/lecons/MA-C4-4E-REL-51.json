@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-REL-51",
+  "exemple": "(−5) × (+3) = −15 ; (−24) ÷ (−6) = 4.",
+  "regle": "Pour multiplier ou diviser deux nombres relatifs, on calcule avec les distances à zéro, puis on applique la **règle des signes**. Deux signes **identiques** donnent un résultat positif. Deux signes **contraires** donnent un résultat négatif.",
+  "piege": "Cette règle ne vaut pas pour l’addition : (−5) + (−3) = −8, alors que (−5) × (−3) = 15.",
+  "essai": {
+    "consigne": "Calcule : (−8) × (−4)",
+    "options": [
+      "32",
+      "−32",
+      "−12"
+    ],
+    "reponse": "32",
+    "explication": "8 × 4 = 32. Les deux signes sont identiques : le produit est positif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

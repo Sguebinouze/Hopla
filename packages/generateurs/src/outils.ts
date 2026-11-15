@@ -50,6 +50,27 @@ export function creerGenerateur(def: {
   };
 }
 
+/**
+ * Reprend un générateur existant pour une autre compétence au périmètre identique (programme 2020 de 4e et de 3e,
+ * dont certaines notions ont déjà un générateur au programme 2026) : mêmes items, identifiant et compétence propres.
+ * `consigne` réécrit la consigne quand seul le vocabulaire diffère d'un programme à l'autre.
+ */
+export function reprendre(
+  source: Generateur, def: { id: string; competence: string; description?: string; consigne?: (c: string) => string },
+): Generateur {
+  return {
+    id: def.id,
+    competences: [def.competence],
+    cycle: source.cycle,
+    description: def.description ?? source.description,
+    generer(graine, difficulte) {
+      const item = source.generer(graine, difficulte);
+      const consigne = def.consigne ? def.consigne(item.consigne) : item.consigne;
+      return { ...item, consigne, id: `${def.id}:${difficulte}:${graine}`, competence: def.competence };
+    },
+  };
+}
+
 /** Options de QCM : la bonne réponse, des pièges, complétés par `secours` puis mélangés. */
 export function options(a: Aleatoire, reponse: string, pieges: string[], secours: () => string, taille = 4): string[] {
   const base = [reponse, ...pieges.filter((p) => p !== reponse)];

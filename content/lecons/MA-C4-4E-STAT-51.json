@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-STAT-51",
+  "exemple": "Série rangée : 3 ; 5 ; 8 ; 10 ; 14. La médiane est 8.",
+  "regle": "La **médiane** partage une série rangée dans l’ordre croissant en **deux groupes de même effectif**. Avec un effectif impair, c’est la valeur du milieu. Avec un effectif pair, c’est la moyenne des deux valeurs du milieu.",
+  "piege": "Range d’abord les valeurs : la valeur placée au milieu de la liste donnée n’est pas forcément la médiane.",
+  "essai": {
+    "consigne": "Quelle est la médiane de la série 12 ; 4 ; 9 ; 15 ; 6 ; 10 ?",
+    "options": [
+      "9,5",
+      "9",
+      "15"
+    ],
+    "reponse": "9,5",
+    "explication": "Rangée : 4 ; 6 ; 9 ; 10 ; 12 ; 15. Six valeurs : la médiane est (9 + 10) ÷ 2 = 9,5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
