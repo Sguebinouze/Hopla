@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-ESP-01",
+  "exemple": "Le soir, la Lune est un croissant. Quinze jours plus tard, elle est pleine.",
+  "regle": "La **Terre** est une **planète**. Elle tourne autour du **Soleil**, une étoile, en un an. La **Lune** tourne autour de la Terre. Elle est éclairée par le Soleil.",
+  "piege": "La Lune ne produit pas de lumière : le Soleil l’éclaire.",
+  "essai": {
+    "consigne": "Le Soleil est…",
+    "options": [
+      "une étoile",
+      "une planète",
+      "un satellite"
+    ],
+    "reponse": "une étoile",
+    "explication": "Le Soleil est une étoile."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

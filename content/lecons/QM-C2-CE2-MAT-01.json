@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-MAT-01",
+  "exemple": "Le linge sèche au soleil : l’eau part dans l’air en vapeur.",
+  "regle": "La matière a **trois états**. Un **solide** garde sa forme. Un **liquide** coule. Un **gaz** est invisible, comme l’**air** ou la **vapeur d’eau**.",
+  "piege": "On ne voit pas l’air, mais il existe : il gonfle les ballons.",
+  "essai": {
+    "consigne": "L’air est…",
+    "options": [
+      "un gaz",
+      "un liquide",
+      "un solide"
+    ],
+    "reponse": "un gaz",
+    "explication": "L’air est un gaz : il est invisible."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

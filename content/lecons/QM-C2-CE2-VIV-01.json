@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-VIV-01",
+  "exemple": "Une graine de tournesol devient une grande fleur. Elle donne de nouvelles graines.",
+  "regle": "Un être vivant **naît**, **grandit**, se **reproduit** et **meurt**. C’est son **cycle de vie**. Certains animaux changent beaucoup : la chenille devient papillon.",
+  "piege": "Le têtard ne ressemble pas à la grenouille. C’est pourtant le même animal.",
+  "essai": {
+    "consigne": "Que devient le têtard ?",
+    "options": [
+      "une grenouille",
+      "un papillon",
+      "un oiseau"
+    ],
+    "reponse": "une grenouille",
+    "explication": "Le têtard devient une grenouille."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

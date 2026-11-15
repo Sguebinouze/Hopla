@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE2-REP-01",
+  "exemple": "Les habitants votent pour choisir le conseil municipal. Il élit le maire.",
+  "regle": "En France, le **président de la République** est le chef de l’État. Il est **élu**. Dans la commune, le **maire** est un élu local. Il s’occupe de l’état civil, des écoles et de l’environnement.",
+  "piege": "Le maire n’est pas nommé par le président : il est élu localement.",
+  "essai": {
+    "consigne": "Qui dirige la commune ?",
+    "options": [
+      "le maire",
+      "le président",
+      "le préfet"
+    ],
+    "reponse": "le maire",
+    "explication": "Le maire dirige la commune."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

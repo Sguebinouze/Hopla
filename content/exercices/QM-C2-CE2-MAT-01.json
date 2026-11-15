@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-MAT-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La vapeur d’eau est de l’eau…",
+      "options": [
+        "à l’état gazeux",
+        "à l’état solide",
+        "à l’état liquide"
+      ],
+      "reponse": "à l’état gazeux",
+      "indice": "Elle s’échappe de la casserole.",
+      "explication": "La vapeur est de l’eau à l’état gazeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien y a-t-il d’états de la matière ?",
+      "options": [
+        "3",
+        "2",
+        "5"
+      ],
+      "reponse": "3",
+      "indice": "Solide, liquide…",
+      "explication": "Les trois états sont solide, liquide et gazeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le jus de pomme est…",
+      "options": [
+        "liquide",
+        "solide",
+        "gazeux"
+      ],
+      "reponse": "liquide",
+      "indice": "Il coule dans le verre.",
+      "explication": "Le jus coule : il est liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand l’eau bout, elle devient…",
+      "options": [
+        "de la vapeur",
+        "de la glace",
+        "du sable"
+      ],
+      "reponse": "de la vapeur",
+      "indice": "Pense à la casserole sur le feu.",
+      "explication": "L’eau qui bout se transforme en vapeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qui gonfle un ballon ?",
+      "options": [
+        "l’air",
+        "l’eau",
+        "le sable"
+      ],
+      "reponse": "l’air",
+      "indice": "On souffle dedans.",
+      "explication": "L’air remplit le ballon et le gonfle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’air existe-t-il, même si on ne le voit pas ?",
+      "options": [
+        "oui",
+        "non",
+        "seulement quand il pleut"
+      ],
+      "reponse": "oui",
+      "indice": "Pense au vent sur ton visage.",
+      "explication": "L’air est invisible, mais il existe : on sent le vent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une flaque disparait au soleil. L’eau est devenue…",
+      "options": [
+        "de la vapeur d’eau",
+        "de la glace",
+        "du sable"
+      ],
+      "reponse": "de la vapeur d’eau",
+      "indice": "La chaleur transforme l’eau liquide.",
+      "explication": "Au soleil, l’eau s’évapore : elle devient vapeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un solide garde…",
+      "options": [
+        "sa forme",
+        "la forme du verre",
+        "aucune forme"
+      ],
+      "reponse": "sa forme",
+      "indice": "Pense à un caillou.",
+      "explication": "Un solide garde sa forme. Un liquide prend celle du récipient.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

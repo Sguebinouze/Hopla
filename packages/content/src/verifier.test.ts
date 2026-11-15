@@ -103,8 +103,12 @@ describe('packs', () => {
       construirePacks(contenu, '2026-2027', { brouillons }).find((p) => p.classe === 'ce2')!;
     const nb = (b: boolean) =>
       ce2(b).matieres.flatMap((m) => m.competences).reduce((n, c) => n + c.exercices.length, 0);
+    // Avec les brouillons : toutes les questions rédigées des notions du pack, quel que soit leur nombre.
+    const ids = new Set(ce2(true).matieres.flatMap((m) => m.competences.map((c) => c.id)));
+    const redigees = contenu.banques.filter((b) => ids.has(b.competence)).reduce((n, b) => n + b.exercices.length, 0);
     expect(nb(false)).toBe(0);
-    expect(nb(true)).toBe(3);
+    expect(redigees).toBeGreaterThan(0);
+    expect(nb(true)).toBe(redigees);
     expect(ce2(false).matieres.map((m) => m.programme.id).sort()).toEqual(['EM-C2-2024', 'FR-C2-2024', 'LV-C2-2020', 'MA-C2-2024', 'QM-C2-2020']);
   });
 });

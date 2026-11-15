@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-OBJ-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-OBJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet laisse passer le courant ?",
+      "options": [
+        "une clé en métal",
+        "une gomme",
+        "un bouchon en liège"
+      ],
+      "reponse": "une clé en métal",
+      "indice": "C’est du métal.",
+      "explication": "Le métal laisse passer le courant : il est conducteur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet ne laisse pas passer le courant ?",
+      "options": [
+        "une règle en plastique",
+        "un clou",
+        "une pièce de monnaie"
+      ],
+      "reponse": "une règle en plastique",
+      "indice": "Le plastique protège.",
+      "explication": "Le plastique est un isolant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert l’interrupteur ?",
+      "options": [
+        "à ouvrir ou fermer le circuit",
+        "à changer la couleur",
+        "à chauffer la pile"
+      ],
+      "reponse": "à ouvrir ou fermer le circuit",
+      "indice": "Il allume et éteint.",
+      "explication": "L’interrupteur ouvre ou ferme le circuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un matériau qui laisse passer le courant est…",
+      "options": [
+        "conducteur",
+        "isolant",
+        "invisible"
+      ],
+      "reponse": "conducteur",
+      "indice": "Comme le métal.",
+      "explication": "Il laisse passer le courant : il est conducteur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les fils électriques sont-ils entourés de plastique ?",
+      "options": [
+        "pour isoler",
+        "pour décorer seulement",
+        "pour aller plus vite"
+      ],
+      "reponse": "pour isoler",
+      "indice": "Le plastique ne laisse pas passer le courant.",
+      "explication": "Le plastique isole et protège des chocs électriques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand l’interrupteur est ouvert, la lampe est…",
+      "options": [
+        "éteinte",
+        "allumée",
+        "cassée"
+      ],
+      "reponse": "éteinte",
+      "indice": "Le circuit est coupé.",
+      "explication": "Circuit ouvert : le courant ne passe pas, la lampe est éteinte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Peut-on mettre un objet dans une prise électrique ?",
+      "options": [
+        "non, c’est dangereux",
+        "oui, sans risque",
+        "oui, avec les doigts mouillés"
+      ],
+      "reponse": "non, c’est dangereux",
+      "indice": "Le courant du secteur est dangereux.",
+      "explication": "Le courant de la prise peut tuer : on ne touche jamais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle source est sans danger pour un circuit en classe ?",
+      "options": [
+        "une pile",
+        "une prise électrique",
+        "un fil du secteur"
+      ],
+      "reponse": "une pile",
+      "indice": "C’est un petit circuit.",
+      "explication": "En classe, on utilise une pile, sans danger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

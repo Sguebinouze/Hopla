@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C2-CE2-SERV-01",
+  "exercices": [
+    {
+      "id": "EM-C2-CE2-SERV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui éteint les incendies ?",
+      "options": [
+        "les pompiers",
+        "les facteurs",
+        "les cuisiniers"
+      ],
+      "reponse": "les pompiers",
+      "indice": "Ils ont un camion rouge.",
+      "explication": "Les pompiers éteignent les incendies.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel numéro appelle-t-on pour les pompiers ?",
+      "options": [
+        "le 18",
+        "le 10",
+        "le 33"
+      ],
+      "reponse": "le 18",
+      "indice": "C’est un numéro d’urgence.",
+      "explication": "Le 18 est le numéro des pompiers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui assure la sécurité dans la rue ?",
+      "options": [
+        "les policiers",
+        "les boulangers",
+        "les coiffeurs"
+      ],
+      "reponse": "les policiers",
+      "indice": "Ils peuvent aider en cas de danger.",
+      "explication": "Les policiers assurent la sécurité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel numéro appelle-t-on pour une urgence médicale ?",
+      "options": [
+        "le 15",
+        "le 12",
+        "le 30"
+      ],
+      "reponse": "le 15",
+      "indice": "C’est le SAMU.",
+      "explication": "Le 15 est le numéro du SAMU.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’école publique est…",
+      "options": [
+        "gratuite pour tous",
+        "réservée aux riches",
+        "payante chaque jour"
+      ],
+      "reponse": "gratuite pour tous",
+      "indice": "Tous les enfants peuvent y aller.",
+      "explication": "L’école publique est gratuite pour tous.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un service public sert…",
+      "options": [
+        "tout le monde",
+        "une seule personne",
+        "seulement les adultes"
+      ],
+      "reponse": "tout le monde",
+      "indice": "Il est ouvert à chacun.",
+      "explication": "Un service public sert toute la population.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une association humanitaire…",
+      "options": [
+        "aide des personnes en difficulté",
+        "vend des jouets chers",
+        "fait la loi"
+      ],
+      "reponse": "aide des personnes en difficulté",
+      "indice": "Ses bénévoles donnent du temps.",
+      "explication": "Une association humanitaire aide ceux qui en ont besoin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le numéro d’urgence européen est…",
+      "options": [
+        "le 112",
+        "le 911",
+        "le 1000"
+      ],
+      "reponse": "le 112",
+      "indice": "Il marche dans toute l’Europe.",
+      "explication": "Le 112 est le numéro d’urgence européen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

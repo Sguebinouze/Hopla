@@ -1,0 +1,156 @@
+{
+  "programme": "QM-C2-2020",
+  "classe": "ce2",
+  "competences": [
+    {
+      "id": "QM-C2-CE2-MAT-01",
+      "titre": "L’air et les trois états",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Qu’est-ce que la matière ?",
+      "attendu": "Connaitre les trois états de la matière, la vapeur d’eau et quelques propriétés de l’air.",
+      "exemple": "L’eau bout dans la casserole. Elle devient de la vapeur.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 76,
+        "extrait": "Tout ce qui est lié à l’état gazeux est abordé en CE2."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01",
+      "titre": "Le cycle de vie",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaitre le monde vivant ?",
+      "attendu": "Décrire le cycle de vie d’un animal et d’une plante : naissance, croissance, reproduction, mort.",
+      "exemple": "L’œuf devient chenille, puis chrysalide, puis papillon.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Le cycle de vie des êtres vivants."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-VIV-02",
+      "titre": "Les besoins des plantes",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaitre le monde vivant ?",
+      "attendu": "Savoir qu’une plante a besoin d’eau, de lumière et de sels minéraux pour vivre et grandir.",
+      "exemple": "Sans eau, la plante se fane. Sans lumière, elle jaunit.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Quelques besoins vitaux des végétaux."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01",
+      "titre": "Je grandis",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaitre le monde vivant ?",
+      "attendu": "Mesurer sa croissance (taille, masse, pointure) et connaitre les dents de lait et définitives.",
+      "exemple": "À 6 ans, les dents de lait tombent. Les dents définitives poussent.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Modifications de la dentition."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-OBJ-01",
+      "titre": "Conducteurs et isolants",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Les objets et l’électricité",
+      "attendu": "Trier les matériaux conducteurs et isolants, connaitre le rôle de l’interrupteur et les règles de sécurité.",
+      "exemple": "Un clou en métal laisse passer le courant. Un bouchon en liège ne le laisse pas passer.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 78,
+        "extrait": "Exemples de bon conducteurs et d’isolants."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01",
+      "titre": "L’ordinateur et ses parties",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Les objets techniques et le numérique",
+      "attendu": "Nommer les éléments d’un ordinateur et leur rôle : écran, clavier, souris, unité centrale.",
+      "exemple": "Je tape un texte avec le clavier. Je le lis sur l’écran.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 78,
+        "extrait": "Décrire l’architecture simple d’un dispositif"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01",
+      "titre": "La Terre, le Soleil, la Lune",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Situer un lieu sur une carte ou un globe",
+      "attendu": "Savoir que la Terre est une planète qui tourne autour du Soleil, et que la Lune tourne autour de la Terre.",
+      "exemple": "La Terre tourne autour du Soleil en un an.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 80,
+        "extrait": "Savoir que la Terre fait partie d’un univers très"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01",
+      "titre": "Les milieux du monde",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Situer un lieu sur une carte ou un globe",
+      "attendu": "Reconnaitre quelques milieux caractéristiques de la Terre : désert, banquise, forêt tropicale, montagne.",
+      "exemple": "Dans le désert, il pleut très peu. Sur la banquise, il fait très froid.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 80,
+        "extrait": "Au CE2, on commence l’étude de l’espace géographique terrestre à travers quelques milieux"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-TPS-01",
+      "titre": "Les grandes périodes",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Repérer et situer quelques événements dans un temps long",
+      "attendu": "Repérer les grandes périodes de l’histoire sur une frise, avec quelques dates et personnages.",
+      "exemple": "Préhistoire, Antiquité, Moyen Âge, Temps modernes, époque contemporaine.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 81,
+        "extrait": "Le repérage des grandes périodes historiques se travaille au CE2."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01",
+      "titre": "Le village et la ville",
+      "domaine": "Explorer les organisations du monde",
+      "theme": "Comprendre qu’un espace est organisé",
+      "attendu": "Repérer les principaux espaces d’un quartier, d’un village ou d’une ville et leurs fonctions.",
+      "exemple": "À la mairie, on se marie. Au parc, on se promène. À l’usine, on travaille.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 82,
+        "extrait": "Comprendre qu’un espace est organisé"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

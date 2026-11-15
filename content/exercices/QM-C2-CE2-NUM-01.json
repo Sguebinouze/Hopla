@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-NUM-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-NUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi tape-t-on les lettres ?",
+      "options": [
+        "le clavier",
+        "l’écran",
+        "l’imprimante"
+      ],
+      "reponse": "le clavier",
+      "indice": "Il a des touches.",
+      "explication": "On tape les lettres avec le clavier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où voit-on les images de l’ordinateur ?",
+      "options": [
+        "sur l’écran",
+        "sur la souris",
+        "sur le clavier"
+      ],
+      "reponse": "sur l’écran",
+      "indice": "On le regarde.",
+      "explication": "Les images s’affichent sur l’écran.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi déplace-t-on la flèche à l’écran ?",
+      "options": [
+        "la souris",
+        "l’imprimante",
+        "le haut-parleur"
+      ],
+      "reponse": "la souris",
+      "indice": "On la fait glisser sur la table.",
+      "explication": "La souris déplace la flèche à l’écran.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel appareil met un texte sur papier ?",
+      "options": [
+        "l’imprimante",
+        "le clavier",
+        "la souris"
+      ],
+      "reponse": "l’imprimante",
+      "indice": "La feuille en sort.",
+      "explication": "L’imprimante met le texte sur papier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le clavier sert à…",
+      "options": [
+        "entrer des informations",
+        "afficher des images",
+        "imprimer"
+      ],
+      "reponse": "entrer des informations",
+      "indice": "On écrit avec.",
+      "explication": "Le clavier sert à entrer des informations.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour garder un texte, on…",
+      "options": [
+        "l’enregistre",
+        "éteint l’écran",
+        "débranche la souris"
+      ],
+      "reponse": "l’enregistre",
+      "indice": "Sinon, il est perdu.",
+      "explication": "On enregistre un texte pour le garder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le haut-parleur sert à…",
+      "options": [
+        "entendre les sons",
+        "taper du texte",
+        "voir les images"
+      ],
+      "reponse": "entendre les sons",
+      "indice": "Il fait de la musique.",
+      "explication": "Le haut-parleur fait sortir les sons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-NUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le correcteur d’orthographe sert à…",
+      "options": [
+        "repérer des fautes",
+        "dessiner",
+        "jouer"
+      ],
+      "reponse": "repérer des fautes",
+      "indice": "Il souligne des mots en rouge.",
+      "explication": "Le correcteur repère les fautes d’orthographe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

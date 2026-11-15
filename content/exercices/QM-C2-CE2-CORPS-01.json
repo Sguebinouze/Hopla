@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-CORPS-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on sa taille ?",
+      "options": [
+        "une toise",
+        "une balance",
+        "un thermomètre"
+      ],
+      "reponse": "une toise",
+      "indice": "On se met dos au mur.",
+      "explication": "La toise mesure la taille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on sa masse ?",
+      "options": [
+        "une balance",
+        "une toise",
+        "une règle"
+      ],
+      "reponse": "une balance",
+      "indice": "On monte dessus.",
+      "explication": "La balance mesure la masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les premières dents s’appellent…",
+      "options": [
+        "les dents de lait",
+        "les dents de fer",
+        "les dents de sagesse"
+      ],
+      "reponse": "les dents de lait",
+      "indice": "Elles tombent vers 6 ans.",
+      "explication": "Les premières dents sont les dents de lait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que se passe-t-il quand une dent de lait tombe ?",
+      "options": [
+        "une dent définitive pousse",
+        "rien ne repousse",
+        "deux dents de lait poussent"
+      ],
+      "reponse": "une dent définitive pousse",
+      "indice": "Elle restera toute la vie.",
+      "explication": "Une dent définitive remplace la dent de lait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En grandissant, la pointure de chaussures…",
+      "options": [
+        "augmente",
+        "diminue",
+        "ne change pas"
+      ],
+      "reponse": "augmente",
+      "indice": "Les pieds grandissent.",
+      "explication": "Les pieds grandissent : la pointure augmente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel aliment aide à avoir des os solides ?",
+      "options": [
+        "les produits laitiers",
+        "les bonbons",
+        "les sodas"
+      ],
+      "reponse": "les produits laitiers",
+      "indice": "Ils contiennent du calcium.",
+      "explication": "Les produits laitiers apportent du calcium aux os.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les dents définitives…",
+      "options": [
+        "ne repoussent pas si on les perd",
+        "repoussent toujours",
+        "tombent chaque année"
+      ],
+      "reponse": "ne repoussent pas si on les perd",
+      "indice": "On les garde toute la vie.",
+      "explication": "Une dent définitive perdue ne repousse pas : on la soigne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un enfant de 8 ans a besoin de dormir environ…",
+      "options": [
+        "10 heures",
+        "3 heures",
+        "20 heures"
+      ],
+      "reponse": "10 heures",
+      "indice": "Plus que les adultes.",
+      "explication": "Un enfant de cet âge dort environ dix heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

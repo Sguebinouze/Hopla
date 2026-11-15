@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-ORG-01",
+  "exemple": "Sur le plan du quartier, la légende montre l’école et la mairie.",
+  "regle": "Une commune est **organisée** en espaces. Chacun a une **fonction** : habiter, travailler, se soigner, apprendre. Le **maire** et le conseil municipal la dirigent.",
+  "piege": "Un village est plus petit qu’une ville. Il a aussi une mairie.",
+  "essai": {
+    "consigne": "Qui dirige la commune ?",
+    "options": [
+      "le maire",
+      "le facteur",
+      "le policier"
+    ],
+    "reponse": "le maire",
+    "explication": "Le maire dirige la commune."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

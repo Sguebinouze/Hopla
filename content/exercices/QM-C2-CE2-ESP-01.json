@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-ESP-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-ESP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La Terre tourne autour…",
+      "options": [
+        "du Soleil",
+        "de la Lune",
+        "de Mars"
+      ],
+      "reponse": "du Soleil",
+      "indice": "C’est notre étoile.",
+      "explication": "La Terre tourne autour du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qui tourne autour de la Terre ?",
+      "options": [
+        "la Lune",
+        "le Soleil",
+        "Mars"
+      ],
+      "reponse": "la Lune",
+      "indice": "On la voit la nuit.",
+      "explication": "La Lune tourne autour de la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le Soleil est…",
+      "options": [
+        "une étoile",
+        "une planète",
+        "un nuage"
+      ],
+      "reponse": "une étoile",
+      "indice": "Il produit de la lumière.",
+      "explication": "Le Soleil est une étoile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La Terre est…",
+      "options": [
+        "une planète",
+        "une étoile",
+        "un satellite"
+      ],
+      "reponse": "une planète",
+      "indice": "Elle tourne autour du Soleil.",
+      "explication": "La Terre est une planète.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+      "options": [
+        "un an",
+        "un jour",
+        "une heure"
+      ],
+      "reponse": "un an",
+      "indice": "Pense aux saisons qui reviennent.",
+      "explication": "La Terre fait le tour du Soleil en un an.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La Lune brille car…",
+      "options": [
+        "le Soleil l’éclaire",
+        "elle fait du feu",
+        "elle est une étoile"
+      ],
+      "reponse": "le Soleil l’éclaire",
+      "indice": "Elle ne produit pas de lumière.",
+      "explication": "La Lune est éclairée par le Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les planètes qui tournent autour du Soleil forment…",
+      "options": [
+        "le système solaire",
+        "un continent",
+        "un océan"
+      ],
+      "reponse": "le système solaire",
+      "indice": "Mercure, Vénus, la Terre, Mars…",
+      "explication": "Le Soleil et ses planètes forment le système solaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ESP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la forme de la Lune change-t-elle ?",
+      "options": [
+        "on voit une partie plus ou moins éclairée",
+        "elle grossit et maigrit",
+        "les nuages la coupent"
+      ],
+      "reponse": "on voit une partie plus ou moins éclairée",
+      "indice": "Le Soleil n’éclaire qu’une moitié.",
+      "explication": "Selon sa position, on voit plus ou moins sa partie éclairée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

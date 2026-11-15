@@ -1,0 +1,66 @@
+{
+  "programme": "EM-C2-2024",
+  "classe": "ce2",
+  "competences": [
+    {
+      "id": "EM-C2-CE2-BIEN-01",
+      "titre": "Le bien commun",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’engagement pour le bien commun",
+      "attendu": "Distinguer intérêt particulier et intérêt général, prendre soin du bien commun et de l’environnement.",
+      "exemple": "Le parc appartient à tous. On le garde propre pour que chacun en profite.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "L’engagement pour le bien commun"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CE2-SERV-01",
+      "titre": "Les services publics",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’engagement pour le bien commun",
+      "attendu": "Connaitre des institutions et des associations au service de tous : pompiers, police, santé, école.",
+      "exemple": "Les pompiers viennent aider quand il y a un incendie. Leur numéro est le 18.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "Présenter une institution ou une association servant l’intérêt général"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CE2-REP-01",
+      "titre": "Le maire et le président",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La République et son fonctionnement",
+      "attendu": "Savoir que le président de la République et le maire sont élus, et connaitre le rôle du maire.",
+      "exemple": "Le maire célèbre les mariages et s’occupe des écoles de la commune.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "La République et son fonctionnement"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C2-CE2-DEV-01",
+      "titre": "Liberté, Égalité, Fraternité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La République et son fonctionnement",
+      "attendu": "Comprendre les trois mots de la devise de la République et les liens entre eux.",
+      "exemple": "La devise de la République est écrite sur la façade de l’école.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "entre les différents éléments de la devise de la République : la liberté"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

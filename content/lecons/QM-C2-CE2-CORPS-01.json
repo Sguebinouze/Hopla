@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-CORPS-01",
+  "exemple": "Sur la toise, Léo mesurait 1 m 20 l’an dernier. Aujourd’hui, il mesure 1 m 26.",
+  "regle": "En grandissant, la **taille**, la **masse** et la **pointure** augmentent. Vers 6 ans, les **dents de lait** tombent. Les **dents définitives** les remplacent.",
+  "piege": "Une dent définitive ne repousse pas : il faut bien la brosser.",
+  "essai": {
+    "consigne": "Avec quoi mesure-t-on sa taille ?",
+    "options": [
+      "une toise",
+      "une balance",
+      "une montre"
+    ],
+    "reponse": "une toise",
+    "explication": "La toise mesure la taille."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

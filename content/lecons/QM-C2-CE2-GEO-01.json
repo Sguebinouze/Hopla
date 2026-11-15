@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-GEO-01",
+  "exemple": "Sur la photo, il y a du sable partout. C’est un désert.",
+  "regle": "La Terre a des **milieux** très différents. Le **désert** est très sec. La **banquise** est glacée. La **forêt tropicale** est chaude et humide. En **montagne**, il fait plus froid en haut.",
+  "piege": "Il existe aussi des déserts froids, sans sable.",
+  "essai": {
+    "consigne": "Où vit l’ours polaire ?",
+    "options": [
+      "sur la banquise",
+      "dans le désert",
+      "dans la forêt tropicale"
+    ],
+    "reponse": "sur la banquise",
+    "explication": "L’ours polaire vit sur la banquise."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

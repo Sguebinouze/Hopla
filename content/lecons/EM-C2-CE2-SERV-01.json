@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE2-SERV-01",
+  "exemple": "Une voiture brûle dans la rue. Un adulte appelle le 18.",
+  "regle": "Des **services publics** travaillent pour tous. Les **pompiers** répondent au 18, le **SAMU** au 15. La **police** répond au 17. Le **112** marche dans toute l’Europe.",
+  "piege": "On n’appelle jamais un numéro d’urgence pour jouer.",
+  "essai": {
+    "consigne": "Quel numéro pour les pompiers ?",
+    "options": [
+      "le 18",
+      "le 15",
+      "le 17"
+    ],
+    "reponse": "le 18",
+    "explication": "Le 18 est le numéro des pompiers."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-VIV-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-VIV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que devient la chenille ?",
+      "options": [
+        "un papillon",
+        "une abeille",
+        "un escargot"
+      ],
+      "reponse": "un papillon",
+      "indice": "Elle passe par la chrysalide.",
+      "explication": "La chenille devient un papillon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que devient le têtard ?",
+      "options": [
+        "une grenouille",
+        "un poisson",
+        "un serpent"
+      ],
+      "reponse": "une grenouille",
+      "indice": "Il vit dans la mare.",
+      "explication": "Le têtard devient une grenouille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "D’où sort le poussin ?",
+      "options": [
+        "d’un œuf",
+        "d’une graine",
+        "d’une fleur"
+      ],
+      "reponse": "d’un œuf",
+      "indice": "La poule le couve.",
+      "explication": "Le poussin sort d’un œuf.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "D’où pousse un haricot ?",
+      "options": [
+        "d’une graine",
+        "d’un œuf",
+        "d’un caillou"
+      ],
+      "reponse": "d’une graine",
+      "indice": "On la plante dans la terre.",
+      "explication": "Le haricot pousse à partir d’une graine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est l’étape entre la chenille et le papillon ?",
+      "options": [
+        "la chrysalide",
+        "l’œuf",
+        "le têtard"
+      ],
+      "reponse": "la chrysalide",
+      "indice": "La chenille s’enferme.",
+      "explication": "La chenille devient chrysalide, puis papillon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un être vivant naît, grandit, se reproduit et…",
+      "options": [
+        "meurt",
+        "redevient bébé",
+        "ne change jamais"
+      ],
+      "reponse": "meurt",
+      "indice": "C’est la fin du cycle.",
+      "explication": "Tout être vivant finit par mourir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans quel ordre vit une plante ?",
+      "options": [
+        "graine, plante, fleur, fruit",
+        "fruit, graine, fleur, plante",
+        "fleur, graine, fruit, plante"
+      ],
+      "reponse": "graine, plante, fleur, fruit",
+      "indice": "Elle commence par une graine.",
+      "explication": "La graine germe, la plante pousse, fleurit et donne un fruit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-VIV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le fruit contient…",
+      "options": [
+        "des graines",
+        "des œufs",
+        "des têtards"
+      ],
+      "reponse": "des graines",
+      "indice": "Pense à la pomme.",
+      "explication": "Le fruit contient des graines : le cycle recommence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

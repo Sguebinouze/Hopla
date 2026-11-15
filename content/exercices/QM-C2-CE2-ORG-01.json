@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-ORG-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-ORG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui dirige la commune ?",
+      "options": [
+        "le maire",
+        "le boulanger",
+        "le facteur"
+      ],
+      "reponse": "le maire",
+      "indice": "Il travaille à la mairie.",
+      "explication": "Le maire dirige la commune.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se soigne-t-on quand on est très malade ?",
+      "options": [
+        "à l’hôpital",
+        "au stade",
+        "à la bibliothèque"
+      ],
+      "reponse": "à l’hôpital",
+      "indice": "Les médecins y travaillent.",
+      "explication": "On se soigne à l’hôpital.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où emprunte-t-on des livres ?",
+      "options": [
+        "à la bibliothèque",
+        "à la piscine",
+        "à la gare"
+      ],
+      "reponse": "à la bibliothèque",
+      "indice": "On les rend ensuite.",
+      "explication": "On emprunte des livres à la bibliothèque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une ville, il y a en général…",
+      "options": [
+        "plus d’habitants que dans un village",
+        "moins de maisons qu’un village",
+        "aucun commerce"
+      ],
+      "reponse": "plus d’habitants que dans un village",
+      "indice": "Les immeubles sont nombreux.",
+      "explication": "Une ville a plus d’habitants qu’un village.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur un plan, la légende sert à…",
+      "options": [
+        "comprendre les symboles",
+        "décorer",
+        "écrire son nom"
+      ],
+      "reponse": "comprendre les symboles",
+      "indice": "Elle explique les couleurs et les dessins.",
+      "explication": "La légende explique les symboles du plan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui ramasse les déchets dans la commune ?",
+      "options": [
+        "les éboueurs",
+        "les pompiers",
+        "les enseignants"
+      ],
+      "reponse": "les éboueurs",
+      "indice": "Ils passent avec un camion.",
+      "explication": "Les éboueurs ramassent les déchets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une zone avec beaucoup de magasins s’appelle…",
+      "options": [
+        "une zone commerciale",
+        "une zone de forêt",
+        "une zone de mer"
+      ],
+      "reponse": "une zone commerciale",
+      "indice": "On y fait ses courses.",
+      "explication": "Les magasins sont regroupés dans une zone commerciale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-ORG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi une ville aménage-t-elle des pistes cyclables ?",
+      "options": [
+        "pour se déplacer sans polluer",
+        "pour les voitures",
+        "pour les trains"
+      ],
+      "reponse": "pour se déplacer sans polluer",
+      "indice": "Le vélo ne rejette pas de fumée.",
+      "explication": "Les pistes cyclables aident à se déplacer sans polluer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

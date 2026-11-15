@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-OBJ-01",
+  "exemple": "Je mets une cuillère en métal dans le circuit. La lampe brille.",
+  "regle": "Les **conducteurs** laissent passer le courant, comme le métal. Les **isolants** l’arrêtent : le plastique, le bois, le verre. L’**interrupteur** ouvre ou ferme le circuit.",
+  "piege": "Le courant d’une prise est dangereux : on n’y touche jamais.",
+  "essai": {
+    "consigne": "Lequel est un isolant ?",
+    "options": [
+      "le plastique",
+      "le fer",
+      "le cuivre"
+    ],
+    "reponse": "le plastique",
+    "explication": "Le plastique ne laisse pas passer le courant."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

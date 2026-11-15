@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-VIV-02",
+  "exemple": "En classe, une plante oubliée dans le placard a jauni.",
+  "regle": "Une **plante** a besoin d’**eau** et de **lumière**. Elle a aussi besoin de **sels minéraux**. Elle boit par ses **racines**.",
+  "piege": "Une plante ne mange pas comme un animal. Elle fabrique sa matière avec la lumière.",
+  "essai": {
+    "consigne": "De quoi une plante a-t-elle besoin ?",
+    "options": [
+      "de lumière et d’eau",
+      "de jouets",
+      "de viande"
+    ],
+    "reponse": "de lumière et d’eau",
+    "explication": "Une plante a besoin de lumière et d’eau."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

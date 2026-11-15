@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-NUM-01",
+  "exemple": "Je tape mon texte au clavier. Je le lis à l’écran.",
+  "regle": "Un **ordinateur** a une **unité centrale**. On entre des informations avec le **clavier** et la **souris**. On les voit sur l’**écran**. L’**imprimante** les met sur papier.",
+  "piege": "L’écran ne sert pas à écrire : il affiche ce qu’on tape.",
+  "essai": {
+    "consigne": "Avec quoi déplace-t-on la flèche ?",
+    "options": [
+      "la souris",
+      "l’écran",
+      "l’imprimante"
+    ],
+    "reponse": "la souris",
+    "explication": "La souris déplace la flèche."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

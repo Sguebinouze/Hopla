@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-GEO-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où fait-il très froid toute l’année ?",
+      "options": [
+        "sur la banquise",
+        "dans le désert chaud",
+        "à la plage en été"
+      ],
+      "reponse": "sur la banquise",
+      "indice": "Il y a de la glace partout.",
+      "explication": "Sur la banquise, près des pôles, il fait très froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où pleut-il très peu ?",
+      "options": [
+        "dans le désert",
+        "dans la forêt tropicale",
+        "au bord de la mer"
+      ],
+      "reponse": "dans le désert",
+      "indice": "Il y a du sable et peu de plantes.",
+      "explication": "Dans le désert, il pleut très peu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel animal vit sur la banquise ?",
+      "options": [
+        "l’ours polaire",
+        "le chameau",
+        "le perroquet"
+      ],
+      "reponse": "l’ours polaire",
+      "indice": "Il a une fourrure blanche.",
+      "explication": "L’ours polaire vit sur la banquise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel animal vit dans le désert ?",
+      "options": [
+        "le dromadaire",
+        "le pingouin",
+        "le phoque"
+      ],
+      "reponse": "le dromadaire",
+      "indice": "Il peut rester longtemps sans boire.",
+      "explication": "Le dromadaire vit dans le désert.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où trouve-t-on une forêt chaude et très humide ?",
+      "options": [
+        "près de l’équateur",
+        "au pôle Nord",
+        "au sommet des Alpes"
+      ],
+      "reponse": "près de l’équateur",
+      "indice": "Il y fait chaud et il pleut beaucoup.",
+      "explication": "La forêt tropicale pousse près de l’équateur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En haut d’une montagne, il fait…",
+      "options": [
+        "plus froid",
+        "plus chaud",
+        "toujours nuit"
+      ],
+      "reponse": "plus froid",
+      "indice": "Il y a de la neige sur les sommets.",
+      "explication": "Plus on monte, plus il fait froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les pôles sont…",
+      "options": [
+        "au nord et au sud de la Terre",
+        "au milieu de la Terre",
+        "au centre de la France"
+      ],
+      "reponse": "au nord et au sud de la Terre",
+      "indice": "Regarde le globe, en haut et en bas.",
+      "explication": "Les pôles sont tout au nord et tout au sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi peu d’humains vivent-ils dans le désert ?",
+      "options": [
+        "il manque d’eau",
+        "il fait trop froid",
+        "il pleut trop"
+      ],
+      "reponse": "il manque d’eau",
+      "indice": "Il pleut très rarement.",
+      "explication": "Le manque d’eau rend la vie difficile dans le désert.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
