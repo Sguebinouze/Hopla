@@ -3,16 +3,316 @@
   "classe": "5e",
   "competences": [
     {
+      "id": "MA-C4-5E-OPE-01",
+      "titre": "Priorités opératoires",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations",
+      "attendu": "Calculer une expression en respectant les priorités opératoires et les parenthèses.",
+      "exemple": "3 + 4 × 5 = 3 + 20 = 23 ; (3 + 4) × 5 = 35.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 40,
+        "extrait": "Connaitre et utiliser les priorités opératoires."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-OPE-02",
+      "titre": "Distributivité simple",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations",
+      "attendu": "Utiliser la distributivité simple sur des exemples numériques pour calculer.",
+      "exemple": "7 × 102 = 7 × 100 + 7 × 2 = 714.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 40,
+        "extrait": "Connaitre et utiliser la distributivité simple sur des exemples numériques."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-DIV-01",
+      "titre": "Critères de divisibilité",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations",
+      "attendu": "Utiliser les critères de divisibilité par 2, 3, 5, 9 et 10.",
+      "exemple": "471 est divisible par 3 car 4 + 7 + 1 = 12.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 40,
+        "extrait": "Connaitre les critères de divisibilité par 3 et par 9."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
       "id": "MA-C4-5E-REL-01",
       "titre": "Additionner des relatifs",
       "domaine": "Nombres et calculs",
-      "theme": "Les nombres relatifs",
+      "theme": "Nombres relatifs",
       "attendu": "Additionner deux nombres relatifs en s'appuyant sur la droite graduée.",
       "exemple": "Il fait −7 °C. La température monte de 4 degrés. Il fait −3 °C : (−7) + (+4) = −3.",
       "source": {
-        "id": "eduscol-cycle-4",
-        "page": null,
-        "extrait": null
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Additionner deux nombres décimaux relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-REL-02",
+      "titre": "Opposé, comparer des relatifs",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres relatifs",
+      "attendu": "Trouver l’opposé d’un nombre relatif ; comparer et ranger des nombres décimaux relatifs.",
+      "exemple": "−3,5 < −2 < 0,5. L’opposé de −7 est 7.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Comparer et ranger dans l’ordre croissant et décroissant des nombres décimaux relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-REL-03",
+      "titre": "Soustraire des relatifs",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres relatifs",
+      "attendu": "Soustraire des nombres relatifs en ajoutant l’opposé ; enchainer additions et soustractions.",
+      "exemple": "(−3) − (−8) = (−3) + (+8) = 5.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Soustraire deux nombres décimaux relatifs."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-FRAC-01",
+      "titre": "Fractions : additionner, comparer",
+      "domaine": "Nombres et calculs",
+      "theme": "Nombres rationnels",
+      "attendu": "Additionner, soustraire et comparer des fractions de dénominateurs quelconques.",
+      "exemple": "1/3 + 1/4 = 4/12 + 3/12 = 7/12.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Additionner et soustraire des fractions de dénominateurs quelconques."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-PUIS-01",
+      "titre": "Carrés et cubes",
+      "domaine": "Nombres et calculs",
+      "theme": "Puissances",
+      "attendu": "Connaitre les carrés de 0 à 12 et le cube de 10 ; calculer des expressions contenant des puissances simples.",
+      "exemple": "7² = 49 ; 10³ = 1 000.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Connaitre les carrés des entiers de 0 à 12."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-LIT-01",
+      "titre": "Substituer une valeur",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Calculer la valeur d’une expression littérale en remplaçant la lettre par un nombre.",
+      "exemple": "Pour x = 4 : 3x + 5 = 3 × 4 + 5 = 17.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 41,
+        "extrait": "Calculer la valeur d’une expression littérale par substitution."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-LIT-02",
+      "titre": "Développer, factoriser, réduire",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Réduire ax + bx, développer k(a + b) et factoriser ka + kb.",
+      "exemple": "3(2x + 4) = 6x + 12 ; 5x + 2x = 7x.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Exploiter les relations k(a + b) = ka + kb ou k(a – b) = ka – kb pour factoriser, ou développer une expression littérale."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-EQ-01",
+      "titre": "Équations x + b = c et ax = c",
+      "domaine": "Nombres et calculs",
+      "theme": "Calcul littéral et algébrique",
+      "attendu": "Résoudre des équations du type x + b = c et ax = c par l’opération inverse, et modéliser un problème.",
+      "exemple": "3x = 21, donc x = 21 ÷ 3 = 7.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 42,
+        "extrait": "Donner à la lettre le statut d’inconnue."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-VOL-01",
+      "titre": "Volumes et capacités",
+      "domaine": "Espace et géométrie",
+      "theme": "Représentation de l’espace",
+      "attendu": "Calculer le volume d’un cube, d’un pavé droit, d’un prisme droit, d’un cylindre ; convertir volumes et capacités.",
+      "exemple": "Pavé de 5 cm × 4 cm × 3 cm : 60 cm³. 1 L = 1 000 cm³.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 45,
+        "extrait": "Calculer le volume du cube, du pavé droit, du prisme droit."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-SYM-01",
+      "titre": "Symétrie centrale",
+      "domaine": "Espace et géométrie",
+      "theme": "Transformations",
+      "attendu": "Connaitre la définition et les propriétés de la symétrie centrale (demi-tour).",
+      "exemple": "O est le milieu de [AA′] ; un segment de 4 cm a pour image un segment de 4 cm.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 45,
+        "extrait": "Connaitre les propriétés du demi-tour."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-ANG-01",
+      "titre": "Angles et parallélisme",
+      "domaine": "Espace et géométrie",
+      "theme": "Angles",
+      "attendu": "Utiliser les angles alternes-internes et correspondants pour calculer ou prouver un parallélisme.",
+      "exemple": "Deux droites parallèles et une sécante : deux angles correspondants sont égaux.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 46,
+        "extrait": "Caractériser le parallélisme par les angles : angles alternes internes, angles correspondants."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-TRI-01",
+      "titre": "Aire du triangle, hauteurs",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Calculer l’aire d’un triangle ; connaitre hauteurs, médianes et médiatrices.",
+      "exemple": "Base 6 cm, hauteur 4 cm : aire 6 × 4 ÷ 2 = 12 cm².",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 46,
+        "extrait": "Calculer l’aire d’un triangle."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-PARA-01",
+      "titre": "Parallélogrammes",
+      "domaine": "Espace et géométrie",
+      "theme": "Parallélogrammes",
+      "attendu": "Utiliser les propriétés des parallélogrammes et des parallélogrammes particuliers ; calculer leur aire.",
+      "exemple": "Un parallélogramme aux diagonales perpendiculaires est un losange.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 46,
+        "extrait": "Connaitre les propriétés caractéristiques des côtés opposés et des diagonales."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-STAT-01",
+      "titre": "Fréquences et moyenne",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Statistiques",
+      "attendu": "Calculer des effectifs, des fréquences et la moyenne simple d’une série.",
+      "exemple": "12, 15, 9 et 16 : moyenne 52 ÷ 4 = 13.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 49,
+        "extrait": "Calculer et interpréter la moyenne simple d’une série de données."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-PROBA-01",
+      "titre": "Probabilités simples",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Probabilités",
+      "attendu": "Attribuer une probabilité dans des cas d’équiprobabilité ; évènement contraire, impossible, certain.",
+      "exemple": "Obtenir 4 avec un dé équilibré : probabilité 1/6.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 50,
+        "extrait": "Attribuer des probabilités dans des cas simples (équiprobabilité)."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-PROP-01",
+      "titre": "Pourcentages",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Calculer et appliquer un pourcentage, calculer un pourcentage à partir d’effectifs.",
+      "exemple": "20 % de 150 = 150 × 20 ÷ 100 = 30.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 51,
+        "extrait": "Calculer, appliquer des proportions, des pourcentages."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-PROP-02",
+      "titre": "Reconnaitre la proportionnalité",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Proportionnalité",
+      "attendu": "Reconnaitre une situation de proportionnalité à partir d’un tableau et utiliser un coefficient.",
+      "exemple": "2 ; 3 ; 5 et 8 ; 12 ; 20 : coefficient 4, c’est proportionnel.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 51,
+        "extrait": "Reconnaitre une situation de proportionnalité à partir d’un tableau ou d’un graphique."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C4-5E-FONC-01",
+      "titre": "Formules et tableaux de valeurs",
+      "domaine": "Proportionnalité, fonctions",
+      "theme": "Fonctions",
+      "attendu": "Calculer des valeurs à partir d’une formule exprimant une grandeur en fonction d’une autre.",
+      "exemple": "Prix P = 3 × m : pour m = 5 kg, P = 15 €.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 52,
+        "extrait": "Traduire la relation de dépendance entre deux grandeurs par un tableau de valeurs à partir d’une formule."
       },
       "prerequis": [],
       "statut": "a_verifier"

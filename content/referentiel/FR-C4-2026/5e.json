@@ -1,0 +1,186 @@
+{
+  "programme": "FR-C4-2026",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "FR-C4-5E-GRAM-01",
+      "titre": "Types et formes de phrases",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier le type d’une phrase (déclarative, interrogative, injonctive) et ses formes négative et exclamative.",
+      "exemple": "« Ne parle pas si fort ! » : injonctive, négative et exclamative.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 30,
+        "extrait": "Identifier trois types de phrases et analyser leurs effets dans un texte."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-GRAM-02",
+      "titre": "Phrase simple ou complexe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Distinguer phrase simple, complexe et non verbale ; nommer la juxtaposition, la coordination, la subordination.",
+      "exemple": "« Il pleut, nous restons. » : deux propositions juxtaposées.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 30,
+        "extrait": "Comprendre et expliciter la différence entre phrase simple, phrase complexe, phrase non verbale."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-GRAM-03",
+      "titre": "Fonctions dans la phrase",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Identifier sujet, COD, COI, attribut du sujet et compléments circonstanciels de lieu, temps, cause et manière.",
+      "exemple": "« Le skieur descend avec prudence. » : « avec prudence » est CC de manière.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 30,
+        "extrait": "Identifier le sujet, les compléments d’objet direct et indirect, l’attribut du sujet, les compléments circonstanciels de lieu, de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-GRAM-04",
+      "titre": "Déterminant ou pronom",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Comprendre et expliquer le fonctionnement d’une phrase",
+      "attendu": "Distinguer déterminants et pronoms ; identifier pronoms personnels, démonstratifs et indéfinis.",
+      "exemple": "« Je le vois » : « le » est un pronom. « Le chat » : « le » est un déterminant.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Distinguer les déterminants et les pronoms."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-GRAM-05",
+      "titre": "Discours direct et indirect",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Analyser et employer des paroles rapportées",
+      "attendu": "Identifier les paroles rapportées au discours direct et indirect et passer de l’un à l’autre.",
+      "exemple": "Léa dit : « Je viens. » devient : Léa dit qu’elle vient.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Identifier des paroles rapportées aux discours direct et indirect."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-CONJ-01",
+      "titre": "Identifier un temps",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Identifier les temps simples et composés de l’indicatif, dont le passé antérieur et le futur antérieur.",
+      "exemple": "« Il eut chanté » est au passé antérieur : auxiliaire au passé simple.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-CONJ-02",
+      "titre": "Radicaux des verbes",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maitrise des formes conjuguées du verbe et leur emploi",
+      "attendu": "Conjuguer en tenant compte des variations du radical (manger, appeler, acheter, venir, prendre…).",
+      "exemple": "Nous mangeons, j’appelle, ils viennent.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Consolider la conjugaison des verbes réguliers et des principaux verbes irréguliers en fonction de la variation de leur radical."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-ORTH-01",
+      "titre": "Accord sujet-verbe complexe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder le verbe avec un sujet séparé par un complément ou comportant plusieurs noms.",
+      "exemple": "Le bruit des vagues berce les campeurs.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Maitriser les cas complexes de l’accord sujet-verbe (sujet séparé du verbe par un complément, sujet comportant plusieurs"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-ORTH-02",
+      "titre": "Accord du participe passé",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Savoir accorder les mots dans la phrase et expliquer ses choix",
+      "attendu": "Accorder le participe passé avec être, et avec avoir quand le COD est placé avant ; distinguer COD et COI.",
+      "exemple": "Ces lettres, je les ai écrites. Je leur ai écrit.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Justifier à l'oral ou à l'écrit l'accord du participe passé employé avec l'auxiliaire être et avec l'auxiliaire avoir (COD antéposé"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-VOC-01",
+      "titre": "Préfixes et suffixes",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Comprendre la formation des mots",
+      "attendu": "Connaitre le sens des préfixes et suffixes fréquents pour comprendre un mot construit.",
+      "exemple": "Pré- signifie « avant » : préhistoire. -able signifie « qui peut être » : lavable.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Connaitre le sens des préfixes et suffixes les plus fréquents."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-VOC-02",
+      "titre": "Registres de langue",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Réemployer son lexique et jouer avec les mots",
+      "attendu": "Distinguer les registres familier, courant et soutenu et passer de l’un à l’autre.",
+      "exemple": "Une bagnole, une voiture, une automobile.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Distinguer les registres de langue et les utiliser en s’ajustant au contexte, à l’écrit comme à l’oral."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C4-5E-VOC-03",
+      "titre": "Relations de sens",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Identifier les types de relations entre les mots",
+      "attendu": "Reconnaitre et nommer synonymie, antonymie, homonymie, relation générique et spécifique.",
+      "exemple": "Monter et descendre sont des antonymes.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 27,
+        "extrait": "Reconnaitre et savoir nommer les relations de sens entre les mots."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}
