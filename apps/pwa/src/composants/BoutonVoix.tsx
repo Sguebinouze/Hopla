@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { dire, taire, voixDisponible } from '../lib/voix';
+import { dire, taire, voixDisponible, type Langue } from '../lib/voix';
 import { Icone } from './Icone';
 
 /** Bouton haut-parleur : Octave lit le texte. Masqué si l'appareil n'a pas de synthèse vocale. */
-export function BoutonVoix({ texte, label = 'Écouter' }: { texte: string; label?: string }) {
+export function BoutonVoix({ texte, label = 'Écouter', langue = 'fr-FR' }: { texte: string; label?: string; langue?: Langue }) {
   const [enCours, setEnCours] = useState(false);
   useEffect(() => () => taire(), []);
   if (!voixDisponible()) return null;
@@ -16,7 +16,7 @@ export function BoutonVoix({ texte, label = 'Écouter' }: { texte: string; label
           return;
         }
         setEnCours(true);
-        dire(texte, () => setEnCours(false));
+        dire(texte, () => setEnCours(false), langue);
       }}>
       <Icone nom="haut-parleur" />
     </button>

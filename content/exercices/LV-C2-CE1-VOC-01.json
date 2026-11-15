@@ -1,0 +1,215 @@
+{
+  "competence": "LV-C2-CE1-VOC-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-VOC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle couleur entends-tu ?",
+      "options": [
+        "vert",
+        "rouge",
+        "bleu"
+      ],
+      "reponse": "rouge",
+      "indice": "C’est la couleur d’une tomate.",
+      "explication": "« Red » veut dire rouge.",
+      "ecoute": {
+        "texte": "red",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle couleur entends-tu ?",
+      "options": [
+        "jaune",
+        "bleu",
+        "rouge"
+      ],
+      "reponse": "bleu",
+      "indice": "C’est la couleur du ciel.",
+      "explication": "« Blue » veut dire bleu.",
+      "ecoute": {
+        "texte": "blue",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "5",
+        "3",
+        "8"
+      ],
+      "reponse": "3",
+      "indice": "Compte : one, two, three.",
+      "explication": "« Three » veut dire trois.",
+      "ecoute": {
+        "texte": "three",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "7",
+        "6",
+        "10"
+      ],
+      "reponse": "7",
+      "indice": "Il ressemble à « sept ».",
+      "explication": "« Seven » veut dire sept.",
+      "ecoute": {
+        "texte": "seven",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel animal entends-tu ?",
+      "options": [
+        "un oiseau",
+        "un chat",
+        "un chien"
+      ],
+      "reponse": "un chat",
+      "indice": "Il fait miaou.",
+      "explication": "« Cat » veut dire chat.",
+      "ecoute": {
+        "texte": "a cat",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel animal entends-tu ?",
+      "options": [
+        "un lapin",
+        "un chien",
+        "un chat"
+      ],
+      "reponse": "un chien",
+      "indice": "Il fait ouaf.",
+      "explication": "« Dog » veut dire chien.",
+      "ecoute": {
+        "texte": "a dog",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "la sœur",
+        "la maman",
+        "le papa"
+      ],
+      "reponse": "la maman",
+      "indice": "On dit aussi « mum ».",
+      "explication": "« Mother » veut dire mère, maman.",
+      "ecoute": {
+        "texte": "mother",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "la sœur",
+        "le grand-père",
+        "le frère"
+      ],
+      "reponse": "le frère",
+      "indice": "Il ressemble à « frère ».",
+      "explication": "« Brother » veut dire frère. « Sister » veut dire sœur.",
+      "ecoute": {
+        "texte": "brother",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle couleur entends-tu ?",
+      "options": [
+        "rose",
+        "vert",
+        "gris"
+      ],
+      "reponse": "vert",
+      "indice": "C’est la couleur de l’herbe.",
+      "explication": "« Green » veut dire vert.",
+      "ecoute": {
+        "texte": "green",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01-010",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "2",
+        "12",
+        "20"
+      ],
+      "reponse": "12",
+      "indice": "Il vient juste après eleven.",
+      "explication": "« Twelve » veut dire douze. « Twenty » veut dire vingt.",
+      "ecoute": {
+        "texte": "twelve",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

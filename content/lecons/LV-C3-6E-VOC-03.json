@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-6E-VOC-03",
+  "exemple": "It’s half past seven : il est 7 h 30. It’s a quarter to nine : il est 8 h 45.",
+  "regle": "**Les nombres** : 13 thirteen, 15 fifteen, 30 thirty, 40 **forty**, 50 fifty. Les nombres composés prennent un trait d’union : seventy-two. **L’heure** : o’clock (pile), **half past** (et demie), **a quarter past** (et quart), **a quarter to** (moins le quart).",
+  "piege": "Forty s’écrit sans u, contrairement à four et fourteen.",
+  "essai": {
+    "consigne": "Que veut dire « a quarter past six » ?",
+    "options": [
+      "6 h 45",
+      "5 h 45",
+      "6 h 15"
+    ],
+    "reponse": "6 h 15",
+    "explication": "Past veut dire après : six heures et quart."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

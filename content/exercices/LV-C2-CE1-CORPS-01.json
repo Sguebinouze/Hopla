@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CE1-CORPS-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu toucher ?",
+      "options": [
+        "Ton pied.",
+        "Ta tête.",
+        "Ton nez."
+      ],
+      "reponse": "Ton nez.",
+      "indice": "Il est au milieu de ton visage.",
+      "explication": "« Nose » veut dire nez.",
+      "ecoute": {
+        "texte": "Touch your nose!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Sauter.",
+        "Taper dans tes mains.",
+        "Lever les bras."
+      ],
+      "reponse": "Taper dans tes mains.",
+      "indice": "« Hands » veut dire mains.",
+      "explication": "« Clap your hands » veut dire « Tape dans tes mains ».",
+      "ecoute": {
+        "texte": "Clap your hands!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Sauter.",
+        "Marcher.",
+        "T’asseoir."
+      ],
+      "reponse": "Sauter.",
+      "indice": "Tes pieds quittent le sol.",
+      "explication": "« Jump » veut dire « Saute ».",
+      "ecoute": {
+        "texte": "Jump!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu toucher ?",
+      "options": [
+        "Ton bras.",
+        "Ton genou.",
+        "Ta tête."
+      ],
+      "reponse": "Ta tête.",
+      "indice": "C’est en haut du corps.",
+      "explication": "« Head » veut dire tête.",
+      "ecoute": {
+        "texte": "Touch your head!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Courir.",
+        "Tourner sur toi-même.",
+        "Te coucher."
+      ],
+      "reponse": "Tourner sur toi-même.",
+      "indice": "« Turn » veut dire tourner.",
+      "explication": "« Turn around » veut dire « Tourne sur toi-même ».",
+      "ecoute": {
+        "texte": "Turn around!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu montrer ?",
+      "options": [
+        "Tes yeux.",
+        "Tes pieds.",
+        "Tes mains."
+      ],
+      "reponse": "Tes pieds.",
+      "indice": "On marche avec.",
+      "explication": "« Feet » veut dire pieds.",
+      "ecoute": {
+        "texte": "Show me your feet!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Lever le bras.",
+        "Fermer les yeux.",
+        "Ouvrir la bouche."
+      ],
+      "reponse": "Fermer les yeux.",
+      "indice": "« Eyes » veut dire yeux.",
+      "explication": "« Close your eyes » veut dire « Ferme les yeux ».",
+      "ecoute": {
+        "texte": "Close your eyes!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Te lever et taper des mains.",
+        "Te lever et toucher tes genoux.",
+        "T’asseoir et toucher ta tête."
+      ],
+      "reponse": "Te lever et toucher tes genoux.",
+      "indice": "Il y a deux actions.",
+      "explication": "« Stand up » : lève-toi. « Knees » : genoux.",
+      "ecoute": {
+        "texte": "Stand up and touch your knees!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -30,8 +30,16 @@ export interface CompetencePack {
     indice: string;
     explication: string;
     erreurs?: Record<string, string>;
+    ecoute?: Ecoute;
   }[];
 }
+
+/** Langues vivantes : phrase dite à l'élève dans la langue étudiée. */
+export interface Ecoute {
+  texte: string;
+  langue: 'en-GB';
+}
+export type ItemPack = Item & { ecoute?: Ecoute };
 
 export interface Defi {
   id: string;
@@ -141,8 +149,8 @@ const melanger = <T>(liste: T[]): T[] => {
 };
 
 /** Une série d'items pour une compétence, de difficulté croissante, sans doublon. */
-export function seriePour(c: CompetencePack, n: number): Item[] {
-  const rediges: Item[] = c.exercices
+export function seriePour(c: CompetencePack, n: number): ItemPack[] {
+  const rediges: ItemPack[] = c.exercices
     .filter((e) => e.gabarit === 'qcm' || e.gabarit === 'saisie')
     .map((e) => ({
       id: e.id,
@@ -156,11 +164,12 @@ export function seriePour(c: CompetencePack, n: number): Item[] {
       explication: e.explication,
       difficulte: e.difficulte,
       erreurs: e.erreurs,
+      ecoute: e.ecoute,
     }));
   const graine = Math.floor(Math.random() * 1e9);
   const cle = (it: Item) => `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${(it.options ?? []).join('|')}`;
   const vus = new Set<string>();
-  const items: Item[] = [];
+  const items: ItemPack[] = [];
   for (let k = 0; items.length < n && k < n * 30; k++) {
     const d = PALIERS[Math.min(items.length, PALIERS.length - 1)]!;
     const libres = rediges.filter((e) => !vus.has(cle(e)));

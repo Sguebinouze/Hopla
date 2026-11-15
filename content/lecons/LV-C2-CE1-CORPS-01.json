@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE1-CORPS-01",
+  "exemple": "« Clap your hands! » : on tape dans ses mains.",
+  "regle": "Le **corps** : head, nose, eyes, hands, feet. Les **gestes** : jump, clap, touch, turn around.",
+  "piege": "« Hands » veut dire mains. « Feet » veut dire pieds.",
+  "essai": {
+    "consigne": "Que veut dire « Touch your head! » ?",
+    "options": [
+      "Touche ton pied !",
+      "Touche ta tête !",
+      "Lève la main !"
+    ],
+    "reponse": "Touche ta tête !",
+    "explication": "« Head » veut dire tête."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,81 @@
+{
+  "programme": "LV-C2-2020",
+  "classe": "ce1",
+  "competences": [
+    {
+      "id": "LV-C2-CE1-ORAL-01",
+      "titre": "Consignes de classe",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre les consignes de classe",
+      "attendu": "Comprendre une dizaine de consignes de classe dites lentement.",
+      "exemple": "« Stand up! » : l’élève se lève.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 53,
+        "extrait": "ils peuvent comprendre une dizaine de consignes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CE1-VOC-01",
+      "titre": "Premiers mots",
+      "domaine": "Comprendre l’oral",
+      "theme": "Utiliser quelques mots familiers",
+      "attendu": "Reconnaitre à l’oral des mots familiers : couleurs, nombres, famille, animaux.",
+      "exemple": "« Red » veut dire rouge.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Utiliser quelques mots familiers et quelques expressions très courantes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CE1-CORPS-01",
+      "titre": "Gestes et corps",
+      "domaine": "Comprendre l’oral",
+      "theme": "Suivre des instructions courtes et simples",
+      "attendu": "Suivre trois ou quatre instructions sur les gestes et les parties du corps.",
+      "exemple": "« Clap your hands! » : on tape dans ses mains.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 53,
+        "extrait": "Ils peuvent suivre 3 ou 4 instructions relatives aux gestes et mouvement du corps"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01",
+      "titre": "Saluer, demander des nouvelles",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Saluer et demander des nouvelles",
+      "attendu": "Saluer, prendre congé, remercier, demander des nouvelles et y répondre.",
+      "exemple": "« How are you? » « I’m fine, thank you. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 54,
+        "extrait": "Au CE1, ils commencent à dialoguer en demandant des nouvelles et en réagissant."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01",
+      "titre": "Se présenter",
+      "domaine": "S’exprimer oralement en continu",
+      "theme": "Se présenter",
+      "attendu": "Dire et comprendre un nom, un âge et un lieu d’habitation.",
+      "exemple": "« My name is Léa. I’m eight. I live in Lyon. »",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 54,
+        "extrait": "Ils se présentent de manière autonome en disant leur nom, prénom, âge et lieu d’habitation."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

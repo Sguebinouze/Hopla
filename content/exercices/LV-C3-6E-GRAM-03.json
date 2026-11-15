@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-6E-GRAM-03",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I can swim » ?",
+      "options": [
+        "Je sais nager.",
+        "Je dois nager.",
+        "Je ne sais pas nager."
+      ],
+      "reponse": "Je sais nager.",
+      "indice": "Can exprime une capacité.",
+      "explication": "I can swim : je sais nager. I can’t swim : je ne sais pas nager.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète pour dire qu’elle ne sait pas : « She … ride a bike. »",
+      "options": [
+        "can",
+        "cans",
+        "can’t"
+      ],
+      "reponse": "can’t",
+      "indice": "Can’t est la forme négative.",
+      "explication": "She can’t ride a bike : elle ne sait pas faire de vélo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "He can play the piano.",
+        "He can plays the piano.",
+        "He cans play the piano."
+      ],
+      "reponse": "He can play the piano.",
+      "indice": "Can ne change jamais.",
+      "explication": "Can ne prend jamais de -s, et le verbe qui suit non plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander poliment : « Je peux ouvrir la fenêtre ? »",
+      "options": [
+        "Do I open the window?",
+        "I can open the window?",
+        "Can I open the window, please?"
+      ],
+      "reponse": "Can I open the window, please?",
+      "indice": "La question commence par can.",
+      "explication": "Can I…, please? sert à demander une permission.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « You can’t feed the animals » ?",
+      "options": [
+        "Tu dois nourrir les animaux.",
+        "Tu n’as pas le droit de nourrir les animaux.",
+        "Tu sais nourrir les animaux."
+      ],
+      "reponse": "Tu n’as pas le droit de nourrir les animaux.",
+      "indice": "Ici, can’t exprime une interdiction.",
+      "explication": "Can’t peut exprimer une incapacité ou une interdiction.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-006",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « … you speak English? » « Yes, I can. »",
+      "options": [
+        "Can",
+        "Are",
+        "Do"
+      ],
+      "reponse": "Can",
+      "indice": "Regarde la réponse.",
+      "explication": "La réponse Yes, I can montre que la question commence par can.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « We … be quiet in the library. » (obligation)",
+      "options": [
+        "mustn’t",
+        "must",
+        "can"
+      ],
+      "reponse": "must",
+      "indice": "On exprime une obligation.",
+      "explication": "Must exprime l’obligation : nous devons être calmes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « You mustn’t run » ?",
+      "options": [
+        "Tu sais courir.",
+        "Tu n’es pas obligé de courir.",
+        "Tu ne dois pas courir."
+      ],
+      "reponse": "Tu ne dois pas courir.",
+      "indice": "Mustn’t exprime une interdiction.",
+      "explication": "Mustn’t est une interdiction. Ce n’est pas une absence d’obligation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

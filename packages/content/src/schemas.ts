@@ -79,6 +79,8 @@ export const exerciceSchema = z
     explication: z.string().min(1),
     /** Code d'erreur typique par option piège (voir Item.erreurs dans @hopla/generateurs). */
     erreurs: z.record(z.string(), z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).optional(),
+    /** Langues vivantes : phrase dite à l'élève dans la langue étudiée, avant de répondre. */
+    ecoute: z.object({ texte: z.string().min(1).max(120), langue: z.enum(['en-GB']) }).optional(),
     statut: z.enum(['brouillon', 'relu', 'publie']),
     auteur: z.enum(['humain', 'ia']),
     relu_par: z.string().nullable(),

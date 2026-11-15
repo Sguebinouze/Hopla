@@ -1,31 +1,46 @@
 import { pourLaVoix } from '@hopla/redaction';
 
-// Voix d'Octave : synthèse vocale du navigateur (Web Speech), en français.
+// Voix d'Octave : synthèse vocale du navigateur (Web Speech), en français,
+// et en anglais pour les questions d'écoute en langue vivante.
 // Aucune donnée ne quitte l'appareil : la voix est produite localement par le système.
 
 const CLE_AUTO = 'hopla.voix-auto';
 
 export const voixDisponible = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
 
-let voix: SpeechSynthesisVoice | null = null;
+export type Langue = 'fr-FR' | 'en-GB';
+const voix: Partial<Record<Langue, SpeechSynthesisVoice | null>> = {};
 function choisirVoix() {
   if (!voixDisponible()) return;
-  const fr = speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith('fr'));
-  voix = fr.find((v) => v.lang === 'fr-FR' && v.localService) ?? fr.find((v) => v.lang === 'fr-FR') ?? fr[0] ?? null;
+  const toutes = speechSynthesis.getVoices();
+  for (const langue of ['fr-FR', 'en-GB'] as const) {
+    const debut = langue.slice(0, 2);
+    const proches = toutes.filter((v) => v.lang.toLowerCase().startsWith(debut));
+    const exacte = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-') === langue;
+    voix[langue] = proches.find((v) => exacte(v) && v.localService) ?? proches.find(exacte) ?? proches[0] ?? null;
+  }
+}
+
+/** Vrai si l'appareil a une voix pour cette langue (les voix arrivent parfois après le chargement). */
+export function voixPour(langue: Langue): boolean {
+  if (!voixDisponible()) return false;
+  if (voix[langue] === undefined) choisirVoix();
+  return Boolean(voix[langue]) || speechSynthesis.getVoices().length === 0;
 }
 if (voixDisponible()) {
   choisirVoix();
   speechSynthesis.addEventListener?.('voiceschanged', choisirVoix);
 }
 
-/** Lit un texte à voix haute ; coupe la lecture en cours. */
-export function dire(texte: string, surFin?: () => void) {
+/** Lit un texte à voix haute ; coupe la lecture en cours, sauf si `ensuite` (le texte suit la lecture en cours). */
+export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
   if (!voixDisponible() || !texte.trim()) return;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(pourLaVoix(texte));
-  u.lang = 'fr-FR';
-  u.rate = 0.92;
-  if (voix) u.voice = voix;
+  if (!ensuite) speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(langue === 'fr-FR' ? pourLaVoix(texte) : texte);
+  u.lang = langue;
+  u.rate = langue === 'fr-FR' ? 0.92 : 0.8;
+  const v = voix[langue];
+  if (v) u.voice = v;
   if (surFin) {
     u.onend = surFin;
     u.onerror = surFin;

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE1-VOC-01",
+  "exemple": "« Red » veut dire rouge. « Three » veut dire trois.",
+  "regle": "Les **couleurs** : red, blue, green, yellow. Les **nombres** : one, two, three, four, five. La **famille** : mother, father, brother, sister.",
+  "piege": "« Brother » est le frère. « Sister » est la sœur.",
+  "essai": {
+    "consigne": "Que veut dire « blue » ?",
+    "options": [
+      "jaune",
+      "rouge",
+      "bleu"
+    ],
+    "reponse": "bleu",
+    "explication": "« Blue » est la couleur du ciel."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

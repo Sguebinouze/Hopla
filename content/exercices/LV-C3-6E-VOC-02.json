@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-6E-VOC-02",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-VOC-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « to get up » ?",
+      "options": [
+        "se lever",
+        "se laver",
+        "se coucher"
+      ],
+      "reponse": "se lever",
+      "indice": "Up veut dire vers le haut.",
+      "explication": "Get up : se lever. Go to bed : se coucher.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans quelle pièce prépare-t-on les repas ?",
+      "options": [
+        "the garden",
+        "the bedroom",
+        "the kitchen"
+      ],
+      "reponse": "the kitchen",
+      "indice": "On y trouve le four.",
+      "explication": "The kitchen : la cuisine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « breakfast » ?",
+      "options": [
+        "le diner",
+        "le petit-déjeuner",
+        "le gouter"
+      ],
+      "reponse": "le petit-déjeuner",
+      "indice": "C’est le premier repas de la journée.",
+      "explication": "Breakfast : le petit-déjeuner. Lunch : le déjeuner. Dinner : le diner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « to have a shower » ?",
+      "options": [
+        "avoir faim",
+        "prendre le bus",
+        "prendre une douche"
+      ],
+      "reponse": "prendre une douche",
+      "indice": "Have ne veut pas toujours dire avoir.",
+      "explication": "Have a shower : prendre une douche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I do my homework » ?",
+      "options": [
+        "Je fais mes devoirs.",
+        "Je rentre à la maison.",
+        "Je fais le ménage."
+      ],
+      "reponse": "Je fais mes devoirs.",
+      "indice": "Home veut dire maison, work veut dire travail.",
+      "explication": "Homework : les devoirs à faire à la maison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où dort-on ?",
+      "options": [
+        "in the bedroom",
+        "in the living-room",
+        "in the kitchen"
+      ],
+      "reponse": "in the bedroom",
+      "indice": "Bed veut dire lit.",
+      "explication": "The bedroom : la chambre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « to brush one’s teeth » ?",
+      "options": [
+        "se laver les mains",
+        "se brosser les dents",
+        "se coiffer"
+      ],
+      "reponse": "se brosser les dents",
+      "indice": "Teeth est le pluriel de tooth.",
+      "explication": "Brush one’s teeth : se brosser les dents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel ordre suit une matinée ?",
+      "options": [
+        "wake up, have breakfast, go to school",
+        "have breakfast, go to bed, wake up",
+        "go to school, wake up, have breakfast"
+      ],
+      "reponse": "wake up, have breakfast, go to school",
+      "indice": "On commence par se réveiller.",
+      "explication": "On se réveille, on prend son petit-déjeuner, puis on va à l’école.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -40,7 +40,8 @@ Session VS Code (français et maths) :
 
 Session cloud (app et autres matières) :
 - Fait : littérature de 6e (5 entrées du programme, `FR-C3-6E-LITT-01` à `05`), avec 45 questions rédigées et 5 leçons, en brouillon. `FR-C3-2025/6e.json` revient à la session VS Code.
-2. Anglais (CE1 puis 6e), puis autres matières des autres classes.
+- Fait : anglais CE1 (5 compétences en écoute, champ `ecoute` des exercices, lu en anglais par la PWA) et 6e (11 compétences, programme BO n°22 de 2025 appliqué en 6e depuis la rentrée 2025 d'après l'académie de Bordeaux, à confirmer sur l'arrêté). 133 questions et 16 leçons en brouillon.
+2. Autres matières des autres classes.
 3. Leçons des matières autres que français et maths ; page de relecture enrichie des leçons.
 
 ## Travail à deux sessions

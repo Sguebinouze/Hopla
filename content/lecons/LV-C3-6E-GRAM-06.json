@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-6E-GRAM-06",
+  "exemple": "Where do you live? In Lille. How old are you? I’m eleven.",
+  "regle": "**Who** : qui. **What** : quoi, quel. **Where** : où. **When** : quand. **Why** : pourquoi. **How** : comment. **How old** : quel âge.",
+  "piege": "À une question en why, on répond avec because.",
+  "essai": {
+    "consigne": "Complète : « … is your birthday? » « In June. »",
+    "options": [
+      "Where",
+      "When",
+      "Who"
+    ],
+    "reponse": "When",
+    "explication": "On répond par un moment : when, quand."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

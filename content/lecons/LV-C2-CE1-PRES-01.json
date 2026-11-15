@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE1-PRES-01",
+  "exemple": "« Hello! My name is Léa. I’m eight. I live in Lyon. »",
+  "regle": "Pour **dire ton nom** : My name is… Pour **dire ton âge** : I’m eight. Pour **dire où tu habites** : I live in…",
+  "piege": "En anglais, l’âge se dit avec « I’m », sans le mot « ans ».",
+  "essai": {
+    "consigne": "Comment dis-tu « J’ai neuf ans » ?",
+    "options": [
+      "My name is nine.",
+      "I live nine.",
+      "I’m nine."
+    ],
+    "reponse": "I’m nine.",
+    "explication": "On dit « I’m » puis le nombre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

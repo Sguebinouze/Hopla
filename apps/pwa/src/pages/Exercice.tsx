@@ -6,15 +6,15 @@ import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { Visuel } from '../composants/Visuel';
 import { api } from '../lib/donnees';
-import { chargerPack, competencesJouables, seriePour } from '../lib/packs';
-import { dire, lectureAuto, taire } from '../lib/voix';
+import { chargerPack, competencesJouables, seriePour, type ItemPack } from '../lib/packs';
+import { dire, lectureAuto, taire, voixPour } from '../lib/voix';
 
 const TAILLE_SERIE = 5;
 
 export function Exercice() {
   const { competence = '' } = useParams();
   const naviguer = useNavigate();
-  const [items, setItems] = useState<Item[]>([]);
+  const [items, setItems] = useState<ItemPack[]>([]);
   const [rang, setRang] = useState(0);
   const [choix, setChoix] = useState<string | null>(null);
   const [saisie, setSaisie] = useState('');
@@ -44,8 +44,12 @@ export function Exercice() {
   const item = items[rang];
 
   // Au cycle 2, Octave lit chaque consigne (réglable) : un enfant de CP ne lit pas encore seul.
+  // Langue vivante : la phrase à comprendre est dite en anglais, après la consigne si elle est lue.
   useEffect(() => {
-    if (item && lectureAuto(cycle)) dire(item.consigne);
+    if (!item) return;
+    const auto = lectureAuto(cycle);
+    if (auto) dire(item.consigne);
+    if (item.ecoute) dire(item.ecoute.texte, undefined, item.ecoute.langue, auto);
     return () => taire();
   }, [item, cycle]);
   const repondu = choix !== null;
@@ -110,6 +114,19 @@ export function Exercice() {
             <h1 className="titre-1 pousse">{item.consigne}</h1>
             <BoutonVoix texte={item.consigne} label="Écouter la consigne" />
           </div>
+          {item.ecoute && (
+            <div className="ecoute">
+              {voixPour(item.ecoute.langue) ? (
+                <button type="button" className="hp-btn hp-btn--secondary hp-btn--lg"
+                  onClick={() => dire(item.ecoute!.texte, undefined, item.ecoute!.langue)}>
+                  <Icone nom="haut-parleur" />Écouter Octave
+                </button>
+              ) : (
+                <p className="ecoute__texte" lang={item.ecoute.langue}>« {item.ecoute.texte} »</p>
+              )}
+              {repondu && voixPour(item.ecoute.langue) && <p className="ecoute__texte" lang={item.ecoute.langue}>« {item.ecoute.texte} »</p>}
+            </div>
+          )}
           {item.visuel && <div className="visuel"><Visuel visuel={item.visuel} revele={repondu} /></div>}
         </div>
 

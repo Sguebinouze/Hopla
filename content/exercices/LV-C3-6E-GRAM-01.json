@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-6E-GRAM-01",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « I … eleven. »",
+      "options": [
+        "are",
+        "am",
+        "is"
+      ],
+      "reponse": "am",
+      "indice": "Avec I, be devient am.",
+      "explication": "I am : je suis. Pour l’âge, l’anglais utilise be : I am eleven.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « She … a dog. »",
+      "options": [
+        "has",
+        "is",
+        "have"
+      ],
+      "reponse": "has",
+      "indice": "Avec he, she, it, have change de forme.",
+      "explication": "Avec he, she et it, have devient has.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « They … British. »",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "reponse": "are",
+      "indice": "They est au pluriel.",
+      "explication": "Avec we, you et they, be devient are.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « We … two cats. »",
+      "options": [
+        "have",
+        "are",
+        "has"
+      ],
+      "reponse": "have",
+      "indice": "We n’est pas à la 3e personne du singulier.",
+      "explication": "We have : nous avons. Has n’est utilisé qu’avec he, she, it.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la forme négative de « He is happy » ?",
+      "options": [
+        "He don’t happy.",
+        "He isn’t happy.",
+        "He not is happy."
+      ],
+      "reponse": "He isn’t happy.",
+      "indice": "Avec be, on place not juste après le verbe.",
+      "explication": "He is not happy, en abrégé : he isn’t happy.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète la question : « … you French? »",
+      "options": [
+        "Do",
+        "Is",
+        "Are"
+      ],
+      "reponse": "Are",
+      "indice": "Avec be, on inverse le sujet et le verbe.",
+      "explication": "Question avec be : Are you French? Réponse : Yes, I am.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « … he have a brother? »",
+      "options": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "reponse": "Does",
+      "indice": "À la 3e personne, la question se forme avec does.",
+      "explication": "Does he have a brother? Après does, have reste à la base verbale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « I’m hungry » ?",
+      "options": [
+        "Je suis en colère.",
+        "J’ai faim.",
+        "J’ai froid."
+      ],
+      "reponse": "J’ai faim.",
+      "indice": "L’anglais utilise be là où le français utilise avoir.",
+      "explication": "I’m hungry : j’ai faim. I’m cold : j’ai froid. I’m angry : je suis en colère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

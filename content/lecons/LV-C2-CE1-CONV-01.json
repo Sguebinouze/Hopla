@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE1-CONV-01",
+  "exemple": "« Hello! How are you? » « I’m fine, thank you. »",
+  "regle": "Pour **saluer** : hello, good morning. Pour **partir** : goodbye. Pour **demander des nouvelles** : How are you? Pour **répondre** : I’m fine, thank you.",
+  "piege": "« Good night » se dit seulement le soir, avant de dormir.",
+  "essai": {
+    "consigne": "Que réponds-tu à « How are you? » ?",
+    "options": [
+      "Goodbye!",
+      "I’m eight.",
+      "I’m fine, thank you."
+    ],
+    "reponse": "I’m fine, thank you.",
+    "explication": "On te demande comment tu vas."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

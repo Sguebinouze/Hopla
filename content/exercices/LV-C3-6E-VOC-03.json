@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-6E-VOC-03",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-VOC-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment écrit-on 15 en anglais ?",
+      "options": [
+        "fifteen",
+        "five",
+        "fifty"
+      ],
+      "reponse": "fifteen",
+      "indice": "Les nombres de 13 à 19 finissent par -teen.",
+      "explication": "15 : fifteen. 50 : fifty.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment écrit-on 40 en anglais ?",
+      "options": [
+        "forty",
+        "fourty",
+        "fourteen"
+      ],
+      "reponse": "forty",
+      "indice": "Attention, pas de u.",
+      "explication": "40 : forty, sans u. 14 : fourteen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « half past seven » ?",
+      "options": [
+        "7 h 30",
+        "7 h 15",
+        "6 h 30"
+      ],
+      "reponse": "7 h 30",
+      "indice": "Half veut dire demi.",
+      "explication": "Half past seven : sept heures et demie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « a quarter to nine » ?",
+      "options": [
+        "9 h 45",
+        "8 h 45",
+        "9 h 15"
+      ],
+      "reponse": "8 h 45",
+      "indice": "To : il manque un quart d’heure pour arriver à 9 h.",
+      "explication": "A quarter to nine : neuf heures moins le quart, 8 h 45.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on 10 h 15 ?",
+      "options": [
+        "a quarter to ten",
+        "a quarter past ten",
+        "half past ten"
+      ],
+      "reponse": "a quarter past ten",
+      "indice": "Past : après l’heure.",
+      "explication": "10 h 15 : a quarter past ten.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment écrit-on 72 en anglais ?",
+      "options": [
+        "seven-two",
+        "seventy-two",
+        "seventeen-two"
+      ],
+      "reponse": "seventy-two",
+      "indice": "Les dizaines finissent par -ty.",
+      "explication": "70 : seventy. 72 : seventy-two, avec un trait d’union.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « It’s ten o’clock » ?",
+      "options": [
+        "Il est 10 h.",
+        "Il est 10 h 30.",
+        "Il a dix ans."
+      ],
+      "reponse": "Il est 10 h.",
+      "indice": "O’clock indique une heure pile.",
+      "explication": "It’s ten o’clock : il est dix heures pile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien font « twelve plus eight » ?",
+      "options": [
+        "thirty",
+        "eighteen",
+        "twenty"
+      ],
+      "reponse": "twenty",
+      "indice": "12 + 8.",
+      "explication": "12 + 8 = 20 : twenty.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

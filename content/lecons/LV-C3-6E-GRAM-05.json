@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-6E-GRAM-05",
+  "exemple": "There is a cat. There are two dogs.",
+  "regle": "**There is** + singulier, **there are** + pluriel. Le pluriel se forme avec **-s** ou **-es** : cats, boxes. Certains pluriels sont irréguliers : **children**, **feet**, **women**, **mice**. L’adjectif se place **avant le nom** et ne s’accorde pas.",
+  "piege": "On dit two black cats : black ne prend jamais de -s.",
+  "essai": {
+    "consigne": "Complète : « There … two birds in the tree. »",
+    "options": [
+      "has",
+      "is",
+      "are"
+    ],
+    "reponse": "are",
+    "explication": "Two birds est au pluriel : there are."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

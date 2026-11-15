@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-6E-GRAM-05",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « There … a cat in the garden. »",
+      "options": [
+        "have",
+        "are",
+        "is"
+      ],
+      "reponse": "is",
+      "indice": "A cat est au singulier.",
+      "explication": "There is + singulier : il y a un chat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « There … three books on the table. »",
+      "options": [
+        "is",
+        "has",
+        "are"
+      ],
+      "reponse": "are",
+      "indice": "Three books est au pluriel.",
+      "explication": "There are + pluriel : il y a trois livres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le pluriel de « child » ?",
+      "options": [
+        "children",
+        "childrens",
+        "childs"
+      ],
+      "reponse": "children",
+      "indice": "C’est un pluriel irrégulier.",
+      "explication": "One child, two children.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le pluriel de « foot » ?",
+      "options": [
+        "feet",
+        "foots",
+        "feets"
+      ],
+      "reponse": "feet",
+      "indice": "La voyelle change.",
+      "explication": "One foot, two feet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le pluriel de « box » ?",
+      "options": [
+        "box",
+        "boxs",
+        "boxes"
+      ],
+      "reponse": "boxes",
+      "indice": "Après -x, on ajoute -es.",
+      "explication": "Box se termine par -x : boxes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le pluriel de « woman » ?",
+      "options": [
+        "womens",
+        "womans",
+        "women"
+      ],
+      "reponse": "women",
+      "indice": "Comme man, men.",
+      "explication": "One woman, two women.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le pluriel de « mouse » ?",
+      "options": [
+        "mouses",
+        "mices",
+        "mice"
+      ],
+      "reponse": "mice",
+      "indice": "C’est un pluriel irrégulier.",
+      "explication": "One mouse, two mice.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment traduire « deux grands châteaux » ?",
+      "options": [
+        "two castles big",
+        "two bigs castles",
+        "two big castles"
+      ],
+      "reponse": "two big castles",
+      "indice": "L’adjectif se place avant le nom.",
+      "explication": "L’adjectif se place avant le nom et ne prend jamais de -s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

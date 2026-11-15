@@ -769,5 +769,51 @@
         "fin": null
       }
     ]
+  },
+  {
+    "id": "LV-C3-2025",
+    "matiere": "langues-vivantes",
+    "cycle": 3,
+    "intitule": "Programme d’anglais de la classe de sixième",
+    "reference": "BO n°22 du 29 mai 2025",
+    "sources": [
+      "bo22-2025-anglais-college"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "6e",
+        "debut": "2025-2026",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "LV-C4-2025",
+    "matiere": "langues-vivantes",
+    "cycle": 4,
+    "intitule": "Programme d’anglais des classes de cinquième, quatrième et troisième",
+    "reference": "BO n°22 du 29 mai 2025",
+    "sources": [
+      "bo22-2025-anglais-college"
+    ],
+    "verifie": false,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2028-2029",
+        "fin": null
+      }
+    ]
   }
 ]

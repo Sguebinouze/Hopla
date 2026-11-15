@@ -1,0 +1,215 @@
+{
+  "competence": "LV-C2-CE1-ORAL-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-ORAL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "T’asseoir.",
+        "Te taire.",
+        "Te lever."
+      ],
+      "reponse": "Te lever.",
+      "indice": "« Up » veut dire vers le haut.",
+      "explication": "« Stand up » veut dire « Lève-toi ».",
+      "ecoute": {
+        "texte": "Stand up!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "T’asseoir.",
+        "Te lever.",
+        "Chanter."
+      ],
+      "reponse": "T’asseoir.",
+      "indice": "« Down » veut dire vers le bas.",
+      "explication": "« Sit down » veut dire « Assieds-toi ».",
+      "ecoute": {
+        "texte": "Sit down!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Écrire.",
+        "Dessiner.",
+        "Écouter."
+      ],
+      "reponse": "Écouter.",
+      "indice": "On utilise ses oreilles.",
+      "explication": "« Listen » veut dire « Écoute ».",
+      "ecoute": {
+        "texte": "Listen!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Courir.",
+        "Dormir.",
+        "Regarder."
+      ],
+      "reponse": "Regarder.",
+      "indice": "On utilise ses yeux.",
+      "explication": "« Look » veut dire « Regarde ».",
+      "ecoute": {
+        "texte": "Look!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Fermer ton livre.",
+        "Ranger ton cartable.",
+        "Ouvrir ton livre."
+      ],
+      "reponse": "Ouvrir ton livre.",
+      "indice": "« Book » veut dire livre.",
+      "explication": "« Open » veut dire ouvrir.",
+      "ecoute": {
+        "texte": "Open your book!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Sortir de la classe.",
+        "Fermer la porte.",
+        "Ouvrir la fenêtre."
+      ],
+      "reponse": "Fermer la porte.",
+      "indice": "« Door » veut dire porte.",
+      "explication": "« Close the door » veut dire « ferme la porte ».",
+      "ecoute": {
+        "texte": "Close the door, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Te taire.",
+        "Crier.",
+        "Chanter fort."
+      ],
+      "reponse": "Te taire.",
+      "indice": "C’est le contraire de faire du bruit.",
+      "explication": "« Be quiet » veut dire « sois calme, tais-toi ».",
+      "ecoute": {
+        "texte": "Be quiet, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Taper des pieds.",
+        "Lever la main.",
+        "Fermer les yeux."
+      ],
+      "reponse": "Lever la main.",
+      "indice": "« Hand » veut dire main.",
+      "explication": "« Raise your hand » veut dire « Lève la main ».",
+      "ecoute": {
+        "texte": "Raise your hand!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu prendre ?",
+      "options": [
+        "Ton crayon.",
+        "Ta gomme.",
+        "Ta règle."
+      ],
+      "reponse": "Ton crayon.",
+      "indice": "On écrit avec.",
+      "explication": "« Pencil » veut dire crayon.",
+      "ecoute": {
+        "texte": "Take your pencil.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ORAL-01-010",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Partir.",
+        "Répondre.",
+        "Répéter."
+      ],
+      "reponse": "Répéter.",
+      "indice": "Le mot ressemble au français.",
+      "explication": "« Repeat » veut dire répéter.",
+      "ecoute": {
+        "texte": "Repeat, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

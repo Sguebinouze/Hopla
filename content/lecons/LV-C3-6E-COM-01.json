@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-6E-COM-01",
+  "exemple": "Hello! How are you? I’m good, thank you. And you?",
+  "regle": "Pour **saluer** : hello, good morning. Pour **prendre congé** : bye, see you tomorrow. Pour **demander des nouvelles** : How are you? On répond : Good, thank you. Pour **demander de l’aide** : Can you repeat, please? How do you say… in English?",
+  "piege": "Good morning se dit le matin ; l’après-midi, on dit good afternoon.",
+  "essai": {
+    "consigne": "Comment dit-on « À demain ! » ?",
+    "options": [
+      "Good night!",
+      "See you tomorrow!",
+      "Hello!"
+    ],
+    "reponse": "See you tomorrow!",
+    "explication": "Tomorrow veut dire demain."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

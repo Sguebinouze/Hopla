@@ -1,0 +1,194 @@
+{
+  "competence": "LV-C2-CE1-CONV-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-CONV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Merci.",
+        "Bonjour.",
+        "Au revoir."
+      ],
+      "reponse": "Bonjour.",
+      "indice": "On le dit en arrivant.",
+      "explication": "« Hello » sert à dire bonjour.",
+      "ecoute": {
+        "texte": "Hello!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Pardon.",
+        "Au revoir.",
+        "Bonjour."
+      ],
+      "reponse": "Au revoir.",
+      "indice": "On le dit en partant.",
+      "explication": "« Goodbye » veut dire au revoir.",
+      "ecoute": {
+        "texte": "Goodbye!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "S’il te plait.",
+        "Merci.",
+        "Bonne nuit."
+      ],
+      "reponse": "Merci.",
+      "indice": "On le dit après un cadeau.",
+      "explication": "« Thank you » veut dire merci.",
+      "ecoute": {
+        "texte": "Thank you!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute la question. Que veut-elle dire ?",
+      "options": [
+        "Comment vas-tu ?",
+        "Où habites-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Comment vas-tu ?",
+      "indice": "« How » veut dire comment.",
+      "explication": "« How are you? » veut dire « Comment vas-tu ? ».",
+      "ecoute": {
+        "texte": "How are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "Goodbye!",
+        "I’m fine, thank you.",
+        "I’m seven."
+      ],
+      "reponse": "I’m fine, thank you.",
+      "indice": "On te demande de tes nouvelles.",
+      "explication": "On répond « I’m fine » : je vais bien.",
+      "ecoute": {
+        "texte": "How are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "S’il te plait.",
+        "Pardon.",
+        "Merci."
+      ],
+      "reponse": "S’il te plait.",
+      "indice": "On le dit pour demander poliment.",
+      "explication": "« Please » veut dire s’il te plait.",
+      "ecoute": {
+        "texte": "Please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quand dit-on cela ?",
+      "options": [
+        "Le matin.",
+        "À midi, avant de manger.",
+        "Le soir, avant de dormir."
+      ],
+      "reponse": "Le matin.",
+      "indice": "« Morning » veut dire matin.",
+      "explication": "« Good morning » veut dire bonjour, le matin.",
+      "ecoute": {
+        "texte": "Good morning!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment va cet enfant ?",
+      "options": [
+        "Il est triste.",
+        "Il a faim.",
+        "Il est content."
+      ],
+      "reponse": "Il est triste.",
+      "indice": "« Sad » est le contraire de « happy ».",
+      "explication": "« I’m sad » veut dire « je suis triste ».",
+      "ecoute": {
+        "texte": "I’m sad.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-CONV-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Bon anniversaire.",
+        "Bonne nuit.",
+        "Bonjour."
+      ],
+      "reponse": "Bonne nuit.",
+      "indice": "« Night » veut dire nuit.",
+      "explication": "« Good night » se dit avant d’aller dormir.",
+      "ecoute": {
+        "texte": "Good night!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

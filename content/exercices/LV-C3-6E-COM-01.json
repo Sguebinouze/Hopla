@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C3-6E-COM-01",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-COM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que réponds-tu ?",
+      "options": [
+        "My name is Ben.",
+        "I’m eleven.",
+        "Good, thank you."
+      ],
+      "reponse": "Good, thank you.",
+      "indice": "On te demande de tes nouvelles.",
+      "explication": "How are you? Good, thank you : bien, merci.",
+      "ecoute": {
+        "texte": "How are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Where do you come from? » ?",
+      "options": [
+        "Où vas-tu ?",
+        "D’où viens-tu ?",
+        "Où habites-tu ?"
+      ],
+      "reponse": "D’où viens-tu ?",
+      "indice": "Come from veut dire venir de.",
+      "explication": "Where do you come from? : d’où viens-tu ? Where do you live? : où habites-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « Désolé, je suis en retard » ?",
+      "options": [
+        "Sorry I’m tired.",
+        "Sorry I’m late.",
+        "I’m late, thank you."
+      ],
+      "reponse": "Sorry I’m late.",
+      "indice": "Late veut dire en retard.",
+      "explication": "Sorry I’m late : désolé, je suis en retard.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Can you repeat, please? » ?",
+      "options": [
+        "Tu peux parler plus fort ?",
+        "Tu peux répéter, s’il te plait ?",
+        "Tu peux m’aider ?"
+      ],
+      "reponse": "Tu peux répéter, s’il te plait ?",
+      "indice": "Repeat ressemble à répéter.",
+      "explication": "Can you repeat, please? sert à demander de répéter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander comment on dit « chat » en anglais ?",
+      "options": [
+        "Do you speak cat?",
+        "How do you say “chat” in English?",
+        "What’s your cat?"
+      ],
+      "reponse": "How do you say “chat” in English?",
+      "indice": "How do you say… veut dire comment dit-on…",
+      "explication": "How do you say… in English? : comment dit-on… en anglais ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « See you tomorrow! » ?",
+      "options": [
+        "À tout de suite !",
+        "Bonne nuit !",
+        "À demain !"
+      ],
+      "reponse": "À demain !",
+      "indice": "Tomorrow veut dire demain.",
+      "explication": "See you tomorrow : à demain",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Tu te présentes. Quelle phrase est correcte ?",
+      "options": [
+        "I’m French and I lives in Lille.",
+        "I have French and I live in Lille.",
+        "I’m French and I live in Lille."
+      ],
+      "reponse": "I’m French and I live in Lille.",
+      "indice": "Avec I, pas de -s au verbe.",
+      "explication": "I’m French : je suis français. I live : j’habite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-COM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « What’s your favourite sport? » ?",
+      "options": [
+        "Aimes-tu le sport ?",
+        "Quel sport fais-tu aujourd’hui ?",
+        "Quel est ton sport préféré ?"
+      ],
+      "reponse": "Quel est ton sport préféré ?",
+      "indice": "Favourite veut dire préféré.",
+      "explication": "What’s your favourite… ? : quel est ton… préféré ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

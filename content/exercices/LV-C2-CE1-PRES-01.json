@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CE1-PRES-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-PRES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment s’appelle l’enfant ?",
+      "options": [
+        "Tom",
+        "Léa",
+        "Sam"
+      ],
+      "reponse": "Tom",
+      "indice": "Écoute le mot après « name is ».",
+      "explication": "« My name is Tom » veut dire « Je m’appelle Tom ».",
+      "ecoute": {
+        "texte": "My name is Tom.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel âge a l’enfant ?",
+      "options": [
+        "8 ans",
+        "10 ans",
+        "6 ans"
+      ],
+      "reponse": "8 ans",
+      "indice": "« Eight » veut dire huit.",
+      "explication": "« I’m eight » veut dire « J’ai huit ans ».",
+      "ecoute": {
+        "texte": "I’m eight.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute la question. Que veut-elle dire ?",
+      "options": [
+        "Comment vas-tu ?",
+        "Quel âge as-tu ?",
+        "Comment t’appelles-tu ?"
+      ],
+      "reponse": "Comment t’appelles-tu ?",
+      "indice": "« Name » veut dire nom.",
+      "explication": "« What’s your name? » veut dire « Comment t’appelles-tu ? ».",
+      "ecoute": {
+        "texte": "What’s your name?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute la question. Que veut-elle dire ?",
+      "options": [
+        "Quel âge as-tu ?",
+        "Où habites-tu ?",
+        "Comment t’appelles-tu ?"
+      ],
+      "reponse": "Quel âge as-tu ?",
+      "indice": "« Old » veut dire âgé.",
+      "explication": "« How old are you? » veut dire « Quel âge as-tu ? ».",
+      "ecoute": {
+        "texte": "How old are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "My name is Lily.",
+        "I’m seven.",
+        "I’m fine."
+      ],
+      "reponse": "I’m seven.",
+      "indice": "On te demande ton âge.",
+      "explication": "On donne son âge : « I’m seven ».",
+      "ecoute": {
+        "texte": "How old are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Où vit l’enfant ?",
+      "options": [
+        "à Paris",
+        "à Lyon",
+        "à Londres"
+      ],
+      "reponse": "à Paris",
+      "indice": "« Live » veut dire habiter.",
+      "explication": "« I live in Paris » veut dire « J’habite à Paris ».",
+      "ecoute": {
+        "texte": "I live in Paris.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "My name is Lucas.",
+        "I’m nine.",
+        "Thank you."
+      ],
+      "reponse": "My name is Lucas.",
+      "indice": "On te demande ton nom.",
+      "explication": "On répond « My name is… » : je m’appelle…",
+      "ecoute": {
+        "texte": "What’s your name?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-PRES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel âge a l’enfant ?",
+      "options": [
+        "19 ans",
+        "5 ans",
+        "9 ans"
+      ],
+      "reponse": "9 ans",
+      "indice": "Compte jusqu’à nine.",
+      "explication": "« Nine » veut dire neuf.",
+      "ecoute": {
+        "texte": "I’m nine.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
