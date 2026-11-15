@@ -50,6 +50,13 @@ describe('intégrité des références', () => {
     expect(erreursDe(c).some((e) => e.message.includes('ne fait pas partie des options'))).toBe(true);
   });
 
+  it('refuse un défi de fluence dont le générateur ne couvre pas la compétence', () => {
+    const d = contenu.defis.find((x) => x.id === 'tables-addition-ce1')!;
+    const faux = { ...contenu, defis: [...contenu.defis, { ...d, id: 'defi-faux', generateur: 'tables-addition-cp' }] };
+    expect(erreursDe(faux).map((e) => e.message).join('\n')).toMatch(/ne couvre pas MA-C2-CE1-CALC-01/);
+    expect(construirePacks(contenu, '2026-2027').find((p) => p.classe === 'ce1')!.defis.map((x) => x.objectif)).toEqual([12, 8, 8]);
+  });
+
   it('refuse un exercice qui enfreint les règles de rédaction du cycle', () => {
     const c = clone();
     c.banques[0]!.exercices[0]!.explication = 'Bien sûr, voici la réponse fascinante : jouent.';

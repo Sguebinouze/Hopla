@@ -1,6 +1,6 @@
 import { GENERATEURS } from '@hopla/generateurs';
 import type { Contenu } from './charger';
-import { CLASSES, CYCLE_DE, type Classe, type Exercice, type Lecon } from './schemas';
+import { CLASSES, CYCLE_DE, type Classe, type Defi, type Exercice, type Lecon } from './schemas';
 import { programmesApplicables } from './verifier';
 
 export interface Pack {
@@ -9,6 +9,7 @@ export interface Pack {
   classe: Classe;
   cycle: 2 | 3 | 4;
   genere_le: string;
+  defis: (Omit<Defi, 'classe' | 'source'> & { source: { id: string; page: number } | null })[];
   matieres: {
     matiere: string;
     programme: { id: string; intitule: string; reference: string; verifie: boolean };
@@ -43,6 +44,9 @@ export function construirePacks(
       classe,
       cycle: CYCLE_DE[classe],
       genere_le: new Date().toISOString(),
+      defis: contenu.defis.filter((d) => d.classe === classe).map(({ classe: _c, source, ...d }) => ({
+        ...d, source: source ? { id: source.id, page: source.page } : null,
+      })),
       matieres: programmes.map((p) => {
         const ref = contenu.referentiels.find((r) => r.programme === p.id && r.classe === classe);
         return {

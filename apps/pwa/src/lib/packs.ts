@@ -33,10 +33,23 @@ export interface CompetencePack {
   }[];
 }
 
+export interface Defi {
+  id: string;
+  titre: string;
+  competence: string;
+  generateur: string;
+  difficultes: Difficulte[];
+  duree_s: number;
+  /** Objectif de fin d'année fixé par le programme, null s'il n'en fixe pas. */
+  objectif: number | null;
+  source: { id: string; page: number } | null;
+}
+
 export interface Pack {
   annee: string;
   classe: Classe;
   cycle: 2 | 3 | 4;
+  defis: Defi[];
   matieres: {
     matiere: string;
     programme: { id: string; intitule: string; reference: string; verifie: boolean };
@@ -67,14 +80,21 @@ export async function chargerPack(classe: Classe): Promise<Pack> {
  * Mission du jour : trois notions. D'abord deux révisions arrivées à échéance au plus
  * (les plus anciennes), puis les matières en alternance, avec une rotation quotidienne.
  */
-export function missionDuJour(pack: Pack, suivi: Record<string, Suivi> = {}, jour = new Date()) {
+export function missionDuJour(
+  pack: Pack, suivi: Record<string, Suivi> = {}, jour = new Date(), controle: string[] = [],
+) {
   const date = aujourdhui(jour);
+  // Contrôle prévu : ses deux notions les moins sures passent en premier.
+  const aPreparer = competencesJouables(pack)
+    .filter((c) => controle.includes(c.id))
+    .sort((a, b) => (suivi[a.id]?.score ?? 0) - (suivi[b.id]?.score ?? 0))
+    .slice(0, 2);
   const revisions = competencesJouables(pack)
     .filter((c) => etat(suivi[c.id], date) === 'a-revoir')
     .sort((a, b) => suivi[a.id]!.prochaineRevision.localeCompare(suivi[b.id]!.prochaineRevision))
     .slice(0, 2);
-  const pris = new Set(revisions.map((c) => c.id));
-  return [...revisions, ...rotation(pack, jour).filter((c) => !pris.has(c.id))].slice(0, 3);
+  const ordre = [...aPreparer, ...revisions, ...rotation(pack, jour)];
+  return ordre.filter((c, i) => ordre.findIndex((x) => x.id === c.id) === i).slice(0, 3);
 }
 
 function rotation(pack: Pack, jour: Date) {

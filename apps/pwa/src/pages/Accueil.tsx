@@ -6,7 +6,8 @@ import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
 import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
-import { bilan, etat, type Suivi } from '../lib/progression';
+import { bilan, etat, aujourdhui, type Suivi } from '../lib/progression';
+import { controle as controlePrevu, dateLisible, records } from '../lib/entrainement';
 
 const XP_PAR_NIVEAU = 200;
 const COULEUR_MATIERE: Record<string, string> = {
@@ -56,7 +57,9 @@ export function Accueil() {
   }
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
-  const mission = pack ? missionDuJour(pack, suivi) : [];
+  const prevu = controlePrevu(enfant.id, aujourdhui());
+  const mission = pack ? missionDuJour(pack, suivi, new Date(), prevu?.notions) : [];
+  const mesRecords = records(enfant.id);
 
   return (
     <main className="ecran">
@@ -120,6 +123,33 @@ export function Accueil() {
           </div>
         </>
       )}
+
+      {pack && pack.defis.length > 0 && (
+        <section className="liste-notions">
+          <h2 className="titre-2">Défis chrono</h2>
+          {pack.defis.map((d) => (
+            <Link key={d.id} to={`/defi/${d.id}`} className="hp-skill notion">
+              <span className="hp-skill__main">
+                <span className="hp-skill__name">{d.titre}</span>
+                <span className="hp-skill__where">
+                  Record : {mesRecords[d.id] ?? 0}{d.objectif !== null ? ` · objectif de fin d’année : ${d.objectif} en 1 min` : ''}
+                </span>
+              </span>
+              <span className="hp-chip hp-chip--sun"><Icone nom="eclair" taille={16} />1 min</span>
+            </Link>
+          ))}
+        </section>
+      )}
+
+      <Link to="/controle" className="hp-skill notion">
+        <span className="hp-skill__main">
+          <span className="hp-skill__name">{prevu ? `Contrôle ${dateLisible(prevu.date)}` : 'Un contrôle bientôt ?'}</span>
+          <span className="hp-skill__where">
+            {prevu ? `${prevu.notions.length} notion${prevu.notions.length > 1 ? 's' : ''} à préparer, chaque jour dans ta mission` : 'Choisis les notions, Octave t’aide à réviser.'}
+          </span>
+        </span>
+        <span className="hp-chip hp-chip--primary">{prevu ? 'Voir' : 'Préparer'}</span>
+      </Link>
 
       <div className="pousse" />
       {voixDisponible() && voixAuto !== null && (

@@ -121,3 +121,21 @@ export const leconSchema = z
   });
 export type Lecon = z.infer<typeof leconSchema>;
 export type Banque = z.infer<typeof banqueSchema>;
+
+// Défi de fluence : le plus de bonnes réponses en temps limité, sur des faits à automatiser.
+// L'objectif cite le texte officiel (page et extrait vérifiés par pnpm content:extraits) ; null s'il n'en fixe pas.
+export const defiSchema = z.object({
+  id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+  classe: z.enum(CLASSES),
+  titre: z.string().min(1).max(40),
+  competence: z.string(),
+  generateur: z.string(),
+  difficultes: z.array(z.union([z.literal(1), z.literal(2), z.literal(3)])).min(1),
+  duree_s: z.number().int().min(30).max(300),
+  objectif: z.number().int().positive().nullable(),
+  source: z.object({ id: z.string(), page: z.number().int().positive(), extrait: z.string().min(10) }).nullable(),
+  verifie: z.boolean(),
+}).refine((d) => (d.objectif === null) === (d.source === null), {
+  message: 'un objectif chiffré cite sa source, et seulement dans ce cas',
+});
+export type Defi = z.infer<typeof defiSchema>;

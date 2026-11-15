@@ -50,6 +50,15 @@ for (const ref of contenu.referentiels) {
   }
 }
 
+for (const d of contenu.defis) {
+  if (!d.source) continue;
+  const source = contenu.sources.find((s) => s.id === d.source!.id);
+  const fichier = source?.archive ? join(DOSSIER_CONTENU, source.archive) : null;
+  if (!fichier || !existsSync(fichier)) echecs.push(`défi ${d.id} : source ${d.source.id} non archivée`);
+  else if (textePage(fichier, d.source.page).includes(normaliser(d.source.extrait))) verifies++;
+  else echecs.push(`défi ${d.id} : extrait introuvable page ${d.source.page} : « ${d.source.extrait} »`);
+}
+
 console.log(`Extraits : ${verifies} vérifié(s) sur le texte officiel, ${sansExtrait} compétence(s) sans extrait.`);
 if (echecs.length) {
   for (const e of echecs) console.error(`  ✖ ${e}`);

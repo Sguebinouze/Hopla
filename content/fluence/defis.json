@@ -1,0 +1,158 @@
+[
+  {
+    "id": "tables-addition-cp",
+    "classe": "cp",
+    "titre": "Tables d’addition",
+    "competence": "MA-C2-CP-CALC-01",
+    "generateur": "tables-addition-cp",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 8,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "À la fin du CP, l’élève peut compléter huit égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "doubles-moities-cp",
+    "classe": "cp",
+    "titre": "Doubles et moitiés",
+    "competence": "MA-C2-CP-CALC-02",
+    "generateur": "doubles-moities-cp",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 8,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "À la fin du CP, l’élève peut compléter huit égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "tables-addition-ce1",
+    "classe": "ce1",
+    "titre": "Tables d’addition",
+    "competence": "MA-C2-CE1-CALC-01",
+    "generateur": "tables-addition-ce1",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 12,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "À la fin du CE1, l’élève sait compléter douze égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "tables-multiplication-ce1",
+    "classe": "ce1",
+    "titre": "Tables de multiplication",
+    "competence": "MA-C2-CE1-CALC-02",
+    "generateur": "tables-multiplication-ce1",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 8,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "À la fin du CE1, l’élève peut compléter huit égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "doubles-moities-ce1",
+    "classe": "ce1",
+    "titre": "Doubles et moitiés",
+    "competence": "MA-C2-CE1-CALC-03",
+    "generateur": "doubles-moities-ce1",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 8,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "À la fin du CE1, l’élève sait compléter huit égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "tables-multiplication-ce2",
+    "classe": "ce2",
+    "titre": "Tables de multiplication",
+    "competence": "MA-C2-CE2-CALC-01",
+    "generateur": "tables-multiplication",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 12,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 22,
+      "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "faits-multiplicatifs-ce2",
+    "classe": "ce2",
+    "titre": "Doubles, moitiés et faits utiles",
+    "competence": "MA-C2-CE2-CALC-02",
+    "generateur": "faits-multiplicatifs-ce2",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": 12,
+    "source": {
+      "id": "bo41-2024-maths-c2",
+      "page": 22,
+      "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute."
+    },
+    "verifie": false
+  },
+  {
+    "id": "multiplier-diviser-10-6e",
+    "classe": "6e",
+    "titre": "× et ÷ par 10, 100, 1 000",
+    "competence": "MA-C3-6E-DEC-02",
+    "generateur": "multiplier-diviser-10-6e",
+    "difficultes": [
+      1,
+      2,
+      3
+    ],
+    "duree_s": 60,
+    "objectif": null,
+    "source": null,
+    "verifie": false
+  }
+]

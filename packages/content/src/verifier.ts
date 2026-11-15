@@ -181,6 +181,20 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
     }
   }
 
+  // Défis de fluence : compétence de la classe, générateur qui la couvre, identifiants uniques.
+  const vusDefis = new Set<string>();
+  for (const d of contenu.defis) {
+    const ici = `défi ${d.id}`;
+    if (vusDefis.has(d.id)) erreur(ici, 'identifiant en double');
+    vusDefis.add(d.id);
+    if (!competences.has(d.competence)) erreur(ici, `compétence inconnue : ${d.competence}`);
+    if (!d.competence.includes(`-${d.classe.toUpperCase()}-`)) erreur(ici, `compétence ${d.competence} hors de la classe ${d.classe}`);
+    const g = generateurs.find((x) => x.id === d.generateur);
+    if (!g) erreur(ici, `générateur inconnu : ${d.generateur}`);
+    else if (!g.competences.includes(d.competence)) erreur(ici, `le générateur ${d.generateur} ne couvre pas ${d.competence}`);
+    if (d.source && !contenu.sources.some((s) => s.id === d.source!.id)) erreur(ici, `source inconnue : ${d.source.id}`);
+  }
+
   const couvertes = new Set([...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences)]);
   for (const id of competences.keys()) if (!couvertes.has(id)) alerte(id, 'aucun exercice ni générateur');
 
