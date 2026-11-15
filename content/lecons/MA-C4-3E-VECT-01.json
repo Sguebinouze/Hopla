@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-VECT-01",
+  "exemple": "ABCD parallélogramme : vecteur AB = vecteur DC.",
+  "regle": "Deux **vecteurs égaux** ont même direction, même sens et même longueur. Le vecteur **opposé** de AB est BA. Le **vecteur nul** a pour longueur 0 : vecteur AA.",
+  "piege": "L’ordre des lettres compte : vecteur AB et vecteur BA sont opposés.",
+  "essai": {
+    "consigne": "ABCD est un parallélogramme. Quel vecteur est égal au vecteur AD ?",
+    "options": [
+      "vecteur BC",
+      "vecteur CB",
+      "vecteur DC"
+    ],
+    "reponse": "vecteur BC",
+    "explication": "Dans ABCD, les côtés [AD] et [BC] sont parallèles, de même longueur et de même sens."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

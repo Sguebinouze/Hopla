@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-PARA-01",
+  "exemple": "Un parallélogramme aux diagonales perpendiculaires est un losange.",
+  "regle": "Un **parallélogramme** a ses côtés opposés parallèles et de même longueur, et ses diagonales se coupent en leur milieu. Avec un angle droit : **rectangle**. Avec deux côtés consécutifs égaux : **losange**. Les deux : **carré**.",
+  "piege": "Aire d’un parallélogramme : base × hauteur, pas le produit de deux côtés.",
+  "essai": {
+    "consigne": "Un parallélogramme a un angle droit. Quelle est sa nature la plus précise ?",
+    "options": [
+      "un rectangle",
+      "un losange",
+      "un trapèze"
+    ],
+    "reponse": "un rectangle",
+    "explication": "Un parallélogramme qui a un angle droit est un rectangle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

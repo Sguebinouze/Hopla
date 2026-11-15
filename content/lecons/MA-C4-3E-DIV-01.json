@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-DIV-01",
+  "exemple": "60 = 2² × 3 × 5.",
+  "regle": "Un **nombre premier** a exactement deux diviseurs : 1 et lui-même. Pour **décomposer** un entier en produit de facteurs premiers, on le divise successivement par 2, 3, 5, 7…",
+  "piege": "4, 6 ou 9 ne sont pas premiers : ils ne peuvent pas apparaitre dans la décomposition.",
+  "essai": {
+    "consigne": "Quelle est la décomposition de 36 en facteurs premiers ?",
+    "options": [
+      "2² × 3²",
+      "4 × 9",
+      "2 × 3 × 6"
+    ],
+    "reponse": "2² × 3²",
+    "explication": "36 = 2 × 2 × 3 × 3 = 2² × 3²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

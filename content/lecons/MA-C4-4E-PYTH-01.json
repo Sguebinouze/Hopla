@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-PYTH-01",
+  "exemple": "Triangle rectangle de côtés 3 cm et 4 cm : hypoténuse² = 9 + 16 = 25, hypoténuse 5 cm.",
+  "regle": "Dans un triangle **rectangle**, le carré de l’**hypoténuse** est égal à la somme des carrés des deux autres côtés. Réciproquement, si l’égalité est vraie, le triangle est rectangle.",
+  "piege": "L’hypoténuse est le plus grand côté, celui qui est en face de l’angle droit.",
+  "essai": {
+    "consigne": "Triangle rectangle de côtés 6 cm et 8 cm. Longueur de l’hypoténuse ?",
+    "options": [
+      "10 cm",
+      "14 cm",
+      "100 cm"
+    ],
+    "reponse": "10 cm",
+    "explication": "6² + 8² = 36 + 64 = 100. √100 = 10 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-REL-02",
+  "exemple": "(−2) + (+3) × (−4) = −2 + (−12) = −14.",
+  "regle": "Dans un **enchainement**, les priorités restent les mêmes : parenthèses, puis multiplications et divisions, puis additions et soustractions. On applique à chaque étape la règle des signes adaptée.",
+  "piege": "Ne calcule pas de gauche à droite sans regarder les priorités.",
+  "essai": {
+    "consigne": "Calcule : 5 − 2 × (−3)",
+    "options": [
+      "11",
+      "−9",
+      "−1"
+    ],
+    "reponse": "11",
+    "explication": "2 × (−3) = −6. 5 − (−6) = 5 + 6 = 11."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

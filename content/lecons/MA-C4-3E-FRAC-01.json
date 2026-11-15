@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-FRAC-01",
+  "exemple": "84/126 = 2/3, car 84 = 2² × 3 × 7 et 126 = 2 × 3² × 7.",
+  "regle": "Pour rendre une fraction **irréductible**, décompose le numérateur et le dénominateur en facteurs premiers, puis supprime les facteurs communs.",
+  "piege": "Tant qu’un facteur premier est commun, la fraction n’est pas irréductible.",
+  "essai": {
+    "consigne": "Rends irréductible : 42/56",
+    "options": [
+      "3/4",
+      "6/8",
+      "21/28"
+    ],
+    "reponse": "3/4",
+    "explication": "42 = 2 × 3 × 7 et 56 = 2³ × 7. On simplifie par 14 : 3/4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

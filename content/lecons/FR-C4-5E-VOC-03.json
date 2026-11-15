@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-VOC-03",
+  "exemple": "Monter et descendre sont des antonymes.",
+  "regle": "Des **synonymes** ont un sens proche ; des **antonymes** un sens contraire ; des **homonymes** se prononcent de la même façon mais ont des sens différents. Un mot **générique** englobe des mots **spécifiques** : fleur, rose.",
+  "piege": "Des homonymes ne sont pas des synonymes : « verre » et « vert ».",
+  "essai": {
+    "consigne": "Quelle relation unit « mer » et « mère » ?",
+    "options": [
+      "des homonymes",
+      "des synonymes",
+      "des antonymes"
+    ],
+    "reponse": "des homonymes",
+    "explication": "Ils se prononcent de la même façon et ont des sens différents : ce sont des homonymes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-TRANS-01",
+  "exemple": "La translation qui transforme A en B transforme C en D : ABDC est un parallélogramme.",
+  "regle": "Une **translation** fait glisser une figure, sans la tourner ni la retourner. Elle conserve les longueurs, les angles, les aires et le parallélisme.",
+  "piege": "Attention à l’ordre des lettres : c’est ABDC, pas ABCD, qui est un parallélogramme.",
+  "essai": {
+    "consigne": "Par une translation, l’image d’un segment de 5 cm mesure :",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "2,5 cm"
+    ],
+    "reponse": "5 cm",
+    "explication": "Une translation conserve les longueurs."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

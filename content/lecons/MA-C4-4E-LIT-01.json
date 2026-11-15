@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-LIT-01",
+  "exemple": "−3(2x − 5) = −6x + 15.",
+  "regle": "Pour **développer** k(a + b), on multiplie chaque terme par k, en respectant la règle des signes. Pour **factoriser**, on repère un facteur commun et on le met devant la parenthèse.",
+  "piege": "Le facteur multiplie les deux termes, pas seulement le premier.",
+  "essai": {
+    "consigne": "Développe : 5(2x − 3)",
+    "options": [
+      "10x − 15",
+      "10x − 3",
+      "7x − 15"
+    ],
+    "reponse": "10x − 15",
+    "explication": "5 × 2x = 10x et 5 × (−3) = −15."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

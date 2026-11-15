@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-GRAM-04",
+  "exemple": "« Je le vois » : « le » est un pronom. « Le chat » : « le » est un déterminant.",
+  "regle": "Le **déterminant** accompagne un nom. Le **pronom** remplace un nom ou un groupe nominal. Pronoms **personnels** : je, le, lui… ; **démonstratifs** : celui-ci, cela… ; **indéfinis** : chacun, personne, quelqu’un.",
+  "piege": "Le même mot peut changer de classe : « le », « la », « les » sont déterminants devant un nom, pronoms devant un verbe.",
+  "essai": {
+    "consigne": "Dans « Prends celui-ci », quelle est la classe de « celui-ci » ?",
+    "options": [
+      "pronom démonstratif",
+      "déterminant démonstratif",
+      "pronom personnel"
+    ],
+    "reponse": "pronom démonstratif",
+    "explication": "« Celui-ci » remplace un nom et désigne un objet : pronom démonstratif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

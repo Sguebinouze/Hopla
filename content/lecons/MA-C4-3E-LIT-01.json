@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-LIT-01",
+  "exemple": "(x + 2)(x + 5) = x² + 7x + 10.",
+  "regle": "La **double distributivité** : (a + b)(c + d) = ac + ad + bc + bd. Chaque terme de la première parenthèse multiplie chaque terme de la seconde. Pour factoriser, on repère un **facteur commun** apparent.",
+  "piege": "Quatre produits sont nécessaires : n’oublie pas les deux termes du milieu.",
+  "essai": {
+    "consigne": "Développe et réduis : (x + 3)(x − 1)",
+    "options": [
+      "x² + 2x − 3",
+      "x² − 3",
+      "x² + 4x − 3"
+    ],
+    "reponse": "x² + 2x − 3",
+    "explication": "x² − x + 3x − 3 = x² + 2x − 3."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-STAT-01",
+  "exemple": "12, 15, 9 et 16 : moyenne 52 ÷ 4 = 13.",
+  "regle": "La **moyenne** d’une série : somme des valeurs ÷ nombre de valeurs. La **fréquence** d’une valeur : son effectif ÷ effectif total.",
+  "piege": "Une moyenne n’est pas forcément une valeur de la série.",
+  "essai": {
+    "consigne": "Moyenne de 8, 10 et 15 ?",
+    "options": [
+      "11",
+      "33",
+      "10"
+    ],
+    "reponse": "11",
+    "explication": "8 + 10 + 15 = 33. 33 ÷ 3 = 11."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-REL-02",
+  "exemple": "−3,5 < −2 < 0,5. L’opposé de −7 est 7.",
+  "regle": "Deux nombres **opposés** ont la même distance à zéro et des signes contraires. Pour **comparer** deux négatifs, le plus petit est le plus éloigné de zéro.",
+  "piege": "−5 est plus petit que −2, même si 5 est plus grand que 2.",
+  "essai": {
+    "consigne": "Range dans l’ordre croissant : −1 ; −4 ; 2",
+    "options": [
+      "−4 ; −1 ; 2",
+      "−1 ; −4 ; 2",
+      "2 ; −1 ; −4"
+    ],
+    "reponse": "−4 ; −1 ; 2",
+    "explication": "−4 est le plus éloigné de zéro du côté négatif : c’est le plus petit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

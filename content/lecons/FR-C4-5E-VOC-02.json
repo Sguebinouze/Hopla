@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-VOC-02",
+  "exemple": "Une bagnole, une voiture, une automobile.",
+  "regle": "Le **registre familier** s’emploie entre proches, le **registre courant** dans la plupart des situations, le **registre soutenu** à l’écrit soigné ou dans un discours.",
+  "piege": "Un mot familier n’est pas faux, mais il ne convient pas à toutes les situations.",
+  "essai": {
+    "consigne": "Quel mot appartient au registre soutenu ?",
+    "options": [
+      "demeure",
+      "maison",
+      "baraque"
+    ],
+    "reponse": "demeure",
+    "explication": "« Demeure » est soutenu, « maison » courant, « baraque » familier."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

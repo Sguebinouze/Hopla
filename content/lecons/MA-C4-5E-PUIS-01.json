@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-PUIS-01",
+  "exemple": "7² = 49 ; 10³ = 1 000.",
+  "regle": "Le **carré** d’un nombre, c’est ce nombre multiplié par lui-même : a² = a × a. Le **cube** : a³ = a × a × a. Dans un calcul, les puissances passent avant les multiplications.",
+  "piege": "5² ne vaut pas 10 : 5² = 5 × 5 = 25.",
+  "essai": {
+    "consigne": "Calcule : 2 + 3²",
+    "options": [
+      "11",
+      "25",
+      "10"
+    ],
+    "reponse": "11",
+    "explication": "La puissance d’abord : 3² = 9. Puis 2 + 9 = 11."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

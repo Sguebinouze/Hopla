@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FONC-01",
+  "exemple": "Choisir un nombre, ajouter 3, multiplier par 2 : pour x, on obtient 2(x + 3) = 2x + 6.",
+  "regle": "Un **programme de calcul** se traduit par une expression : on applique les étapes à x, dans l’ordre. Pour le **remonter**, on fait les opérations inverses dans l’ordre inverse.",
+  "piege": "Mets des parenthèses quand une étape s’applique à tout le résultat précédent.",
+  "essai": {
+    "consigne": "Choisir x, multiplier par 4, retirer 1. On obtient 19. Quel nombre a-t-on choisi ?",
+    "options": [
+      "5",
+      "4,5",
+      "75"
+    ],
+    "reponse": "5",
+    "explication": "19 + 1 = 20, puis 20 ÷ 4 = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

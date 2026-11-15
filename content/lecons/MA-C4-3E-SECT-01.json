@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-SECT-01",
+  "exemple": "Un cylindre coupé perpendiculairement à son axe donne un disque de même rayon.",
+  "regle": "La **sphère** est formée des points à une distance donnée du centre ; la **boule** comprend aussi l’intérieur. La section d’une sphère par un plan est un **cercle**, celle d’une boule un **disque**. Une section de pavé parallèle à une face est un rectangle identique à cette face.",
+  "piege": "Le rayon de la section d’une sphère se calcule avec le théorème de Pythagore.",
+  "essai": {
+    "consigne": "On coupe une sphère de rayon 5 cm par un plan à 3 cm du centre. Rayon de la section ?",
+    "options": [
+      "4 cm",
+      "2 cm",
+      "8 cm"
+    ],
+    "reponse": "4 cm",
+    "explication": "r² = 5² − 3² = 25 − 9 = 16, donc r = 4 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

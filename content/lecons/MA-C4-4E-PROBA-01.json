@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-PROBA-01",
+  "exemple": "On lance deux fois une pièce : P(deux fois pile) = 1/2 × 1/2 = 1/4.",
+  "regle": "La probabilité de l’**évènement contraire** vaut 1 moins celle de l’évènement. Pour **deux épreuves**, on dresse un arbre ou un tableau de toutes les issues, puis on compte.",
+  "piege": "Les issues « pile puis face » et « face puis pile » sont différentes : il faut compter les deux.",
+  "essai": {
+    "consigne": "P(A) = 3/10. Quelle est la probabilité de l’évènement contraire ?",
+    "options": [
+      "7/10",
+      "3/10",
+      "10/3"
+    ],
+    "reponse": "7/10",
+    "explication": "1 − 3/10 = 7/10."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

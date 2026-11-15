@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-STAT-01",
+  "exemple": "Effectif 20 : Q1 est la 5e valeur, Q3 la 15e.",
+  "regle": "Le **premier quartile** Q1 est la plus petite valeur telle qu’au moins 25 % des valeurs lui soient inférieures ou égales. Le **troisième quartile** Q3 correspond à 75 %. Les **effectifs cumulés croissants** aident à trouver ces rangs.",
+  "piege": "Si le quart de l’effectif n’est pas entier, on prend le rang entier suivant.",
+  "essai": {
+    "consigne": "Effectif total 30. À quel rang se trouve Q1 ?",
+    "options": [
+      "8e",
+      "7e",
+      "15e"
+    ],
+    "reponse": "8e",
+    "explication": "25 % de 30 = 7,5 : on prend le rang entier suivant, le 8e."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-OPE-01",
+  "exemple": "3 + 4 × 5 = 3 + 20 = 23 ; (3 + 4) × 5 = 35.",
+  "regle": "On calcule d’abord les **parenthèses**, puis les **multiplications et divisions**, enfin les **additions et soustractions**, de gauche à droite.",
+  "piege": "De gauche à droite ne veut pas dire « dans l’ordre d’écriture » : 3 + 4 × 5 ne vaut pas 35.",
+  "essai": {
+    "consigne": "Calcule : 20 − 3 × 4",
+    "options": [
+      "8",
+      "68",
+      "17"
+    ],
+    "reponse": "8",
+    "explication": "La multiplication d’abord : 3 × 4 = 12. Puis 20 − 12 = 8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-CONJ-02",
+  "exemple": "Nous mangeons, j’appelle, ils viennent.",
+  "regle": "Certains verbes changent de **radical**. -ger garde le e devant a et o : nous mangeons. Appeler et jeter doublent la consonne devant un e muet : j’appelle. Acheter prend un accent : j’achète.",
+  "piege": "Le radical change aussi pour les verbes du 3e groupe : je viens, nous venons, ils viennent.",
+  "essai": {
+    "consigne": "Conjugue « jeter » au présent avec « je ».",
+    "options": [
+      "je jette",
+      "je jète",
+      "je jete"
+    ],
+    "reponse": "je jette",
+    "explication": "Devant un e muet, jeter double le t : je jette."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

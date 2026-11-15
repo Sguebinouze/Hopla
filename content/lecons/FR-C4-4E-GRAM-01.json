@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-GRAM-01",
+  "exemple": "« Le livre que je lis » : « que » est un pronom relatif. « Je sais que tu viens » : « que » est une conjonction.",
+  "regle": "Le **pronom relatif** (qui, que, dont, où, lequel) reprend un nom placé avant lui, son antécédent, et a une fonction dans la subordonnée. La **conjonction de subordination** (que, quand, parce que, si) relie la subordonnée sans rien remplacer.",
+  "piege": "Pour « que », cherche un nom juste avant : s’il y en a un et que « que » le reprend, c’est un pronom relatif.",
+  "essai": {
+    "consigne": "Dans « Les fleurs que tu as cueillies sentent bon », quelle est la classe de « que » ?",
+    "options": [
+      "pronom relatif",
+      "conjonction de subordination",
+      "adverbe"
+    ],
+    "reponse": "pronom relatif",
+    "explication": "« Que » reprend « les fleurs » : c’est un pronom relatif, COD de « as cueillies »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

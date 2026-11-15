@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-ANG-01",
+  "exemple": "Deux droites parallèles coupées par une sécante forment des angles alternes-internes égaux.",
+  "regle": "Si deux droites sont **parallèles**, les angles **alternes-internes** et les angles **correspondants** formés avec une sécante sont égaux. Réciproquement, si ces angles sont égaux, les droites sont parallèles.",
+  "piege": "Il faut que les droites soient parallèles pour affirmer l’égalité des angles.",
+  "essai": {
+    "consigne": "Deux droites parallèles, une sécante. Un angle mesure 70°. Son angle correspondant mesure :",
+    "options": [
+      "70°",
+      "110°",
+      "20°"
+    ],
+    "reponse": "70°",
+    "explication": "Avec des droites parallèles, les angles correspondants sont égaux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

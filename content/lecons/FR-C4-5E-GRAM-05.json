@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-GRAM-05",
+  "exemple": "Léa dit : « Je viens. » devient : Léa dit qu’elle vient.",
+  "regle": "Au **discours direct**, les paroles sont citées entre guillemets. Au **discours indirect**, elles sont rapportées dans une subordonnée, sans guillemets : on change les pronoms et parfois les temps.",
+  "piege": "Au discours indirect, « je » devient « il » ou « elle » selon la personne qui parle.",
+  "essai": {
+    "consigne": "Tom dit : « Je suis prêt. » Au discours indirect :",
+    "options": [
+      "Tom dit qu’il est prêt.",
+      "Tom dit que je suis prêt.",
+      "Tom dit qu’« il est prêt »."
+    ],
+    "reponse": "Tom dit qu’il est prêt.",
+    "explication": "On supprime les guillemets et « je » devient « il » : Tom dit qu’il est prêt."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

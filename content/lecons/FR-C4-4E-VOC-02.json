@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-VOC-02",
+  "exemple": "« La souris de l’ordinateur » et « le chat chasse la souris » : même mot, deux sens.",
+  "regle": "Un mot **polysémique** a plusieurs sens. C’est le **contexte** qui permet de choisir le bon sens. Le sens peut être propre ou figuré.",
+  "piege": "Ne cherche pas le premier sens du dictionnaire : lis toute la phrase.",
+  "essai": {
+    "consigne": "Dans « Il a la main verte », que signifie « main verte » ?",
+    "options": [
+      "être doué pour le jardinage",
+      "avoir la peau verte",
+      "avoir peint ses mains"
+    ],
+    "reponse": "être doué pour le jardinage",
+    "explication": "C’est un sens figuré : on parle de quelqu’un qui réussit ses plantations."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

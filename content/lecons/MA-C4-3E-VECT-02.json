@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-VECT-02",
+  "exemple": "vecteur AB + vecteur BC = vecteur AC.",
+  "regle": "La **relation de Chasles** : vecteur AB + vecteur BC = vecteur AC. La lettre du milieu se répète, et on « enchaine » les déplacements.",
+  "piege": "Soustraire un vecteur, c’est ajouter son opposé : vecteur AB − vecteur CB = vecteur AB + vecteur BC.",
+  "essai": {
+    "consigne": "Simplifie : vecteur EF + vecteur FG + vecteur GH",
+    "options": [
+      "vecteur EH",
+      "vecteur HE",
+      "vecteur EG"
+    ],
+    "reponse": "vecteur EH",
+    "explication": "On enchaine E → F → G → H : vecteur EH."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-AFF-01",
+  "exemple": "f(1) = 3 et f(3) = 7 : f(x) = 2x + 1.",
+  "regle": "Une **fonction affine** s’écrit f(x) = ax + b. Le coefficient **a** = (f(x₂) − f(x₁)) ÷ (x₂ − x₁). Le nombre **b** est l’image de 0 : la droite coupe l’axe des ordonnées en b.",
+  "piege": "Une fonction linéaire est une fonction affine particulière, avec b = 0.",
+  "essai": {
+    "consigne": "f(x) = −2x + 5. Quels sont a et b ?",
+    "options": [
+      "a = −2 et b = 5",
+      "a = 5 et b = −2",
+      "a = 2 et b = 5"
+    ],
+    "reponse": "a = −2 et b = 5",
+    "explication": "a multiplie x : −2. b est le nombre seul : 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

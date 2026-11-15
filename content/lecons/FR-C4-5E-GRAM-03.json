@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-GRAM-03",
+  "exemple": "« Le skieur descend avec prudence. » : « avec prudence » est un complément circonstanciel de manière.",
+  "regle": "Le **sujet** fait l’action. Le **COD** et le **COI** complètent le verbe ; l’**attribut** suit un verbe d’état. Les **compléments circonstanciels** indiquent le lieu, le temps, la cause ou la manière ; ils se déplacent et se suppriment.",
+  "piege": "Pour distinguer COI et complément circonstanciel, essaie de supprimer le groupe : le COI est souvent indispensable.",
+  "essai": {
+    "consigne": "Dans « Il réussit grâce à son travail », quelle est la fonction de « grâce à son travail » ?",
+    "options": [
+      "CC de cause",
+      "COI",
+      "CC de manière"
+    ],
+    "reponse": "CC de cause",
+    "explication": "Le groupe répond à « pourquoi ? » et peut être supprimé : c’est un complément circonstanciel de cause."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

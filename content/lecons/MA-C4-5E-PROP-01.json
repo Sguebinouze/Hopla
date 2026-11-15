@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-PROP-01",
+  "exemple": "20 % de 150 = 150 × 20 ÷ 100 = 30.",
+  "regle": "Prendre **p %** d’une quantité, c’est la multiplier par p puis diviser par 100. Pour calculer un pourcentage, on divise la partie par le total, puis on multiplie par 100.",
+  "piege": "50 % c’est la moitié, 25 % le quart, 10 % le dixième.",
+  "essai": {
+    "consigne": "Combien font 30 % de 200 ?",
+    "options": [
+      "60",
+      "6",
+      "170"
+    ],
+    "reponse": "60",
+    "explication": "200 × 30 ÷ 100 = 60."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

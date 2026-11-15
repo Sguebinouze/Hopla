@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-INEQ-01",
+  "exemple": "−2x > 8 : x < −4.",
+  "regle": "On résout une **inéquation** comme une équation, avec une exception : quand on **multiplie ou divise par un nombre négatif**, on change le sens de l’inégalité.",
+  "piege": "Diviser par un nombre positif ne change pas le sens.",
+  "essai": {
+    "consigne": "Résous : −3x ⩽ 12",
+    "options": [
+      "x ⩾ −4",
+      "x ⩽ −4",
+      "x ⩾ 4"
+    ],
+    "reponse": "x ⩾ −4",
+    "explication": "On divise par −3, négatif : le sens change. x ⩾ −4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

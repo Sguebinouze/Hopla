@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-DIV-01",
+  "exemple": "471 est divisible par 3 car 4 + 7 + 1 = 12.",
+  "regle": "Un nombre est divisible par **2** s’il est pair, par **5** s’il se termine par 0 ou 5, par **10** s’il se termine par 0. Il est divisible par **3** (ou **9**) si la somme de ses chiffres l’est.",
+  "piege": "Un nombre divisible par 9 est divisible par 3, mais pas l’inverse : 12 est divisible par 3, pas par 9.",
+  "essai": {
+    "consigne": "Lequel de ces nombres est divisible par 9 ?",
+    "options": [
+      "252",
+      "253",
+      "245"
+    ],
+    "reponse": "252",
+    "explication": "2 + 5 + 2 = 9 : 252 est divisible par 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

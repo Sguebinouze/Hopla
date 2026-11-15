@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-ORTH-02",
+  "exemple": "C’est moi qui fais la vaisselle. Toi et lui dansez très bien.",
+  "regle": "Après le pronom relatif sujet **« qui »**, le verbe prend la personne de l’antécédent. Avec **plusieurs sujets**, « moi » l’emporte (nous), puis « toi » (vous), sinon on met la 3e personne du pluriel.",
+  "piege": "« C’est moi qui a » est fautif : on écrit « c’est moi qui ai ».",
+  "essai": {
+    "consigne": "Complète : c’est toi qui … raison. (avoir)",
+    "options": [
+      "as",
+      "a",
+      "ont"
+    ],
+    "reponse": "as",
+    "explication": "L’antécédent de « qui » est « toi » : 2e personne du singulier, « as »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

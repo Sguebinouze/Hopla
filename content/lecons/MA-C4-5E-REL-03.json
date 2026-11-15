@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-REL-03",
+  "exemple": "(−3) − (−8) = (−3) + (+8) = 5.",
+  "regle": "Soustraire un nombre relatif, c’est **ajouter son opposé**. On transforme la soustraction en addition, puis on applique la règle de l’addition.",
+  "piege": "Il faut changer le signe du second nombre seulement.",
+  "essai": {
+    "consigne": "Calcule : (+2) − (+6)",
+    "options": [
+      "−4",
+      "4",
+      "8"
+    ],
+    "reponse": "−4",
+    "explication": "(+2) − (+6) = (+2) + (−6) = −4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

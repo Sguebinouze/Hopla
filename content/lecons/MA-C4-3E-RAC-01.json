@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-RAC-01",
+  "exemple": "x² = 49 : x = −7 ou x = 7 ; x² = −4 : aucune solution.",
+  "regle": "Si a > 0, l’équation **x² = a** a deux solutions : √a et −√a. Si a = 0, une seule : 0. Si a < 0, aucune, car un carré n’est jamais négatif.",
+  "piege": "N’oublie pas la solution négative.",
+  "essai": {
+    "consigne": "Résous : x² = 81",
+    "options": [
+      "x = −9 ou x = 9",
+      "x = 9",
+      "aucune solution"
+    ],
+    "reponse": "x = −9 ou x = 9",
+    "explication": "81 est positif : deux solutions opposées, 9 et −9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

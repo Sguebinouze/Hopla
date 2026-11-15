@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-TRI-01",
+  "exemple": "Base 6 cm, hauteur 4 cm : aire 6 × 4 ÷ 2 = 12 cm².",
+  "regle": "Aire d’un **triangle** : base × hauteur ÷ 2. La **hauteur** relative à un côté est la droite perpendiculaire à ce côté passant par le sommet opposé.",
+  "piege": "La hauteur n’est pas un côté du triangle, sauf dans un triangle rectangle.",
+  "essai": {
+    "consigne": "Aire d’un triangle de base 10 cm et de hauteur 3 cm ?",
+    "options": [
+      "15 cm²",
+      "30 cm²",
+      "13 cm²"
+    ],
+    "reponse": "15 cm²",
+    "explication": "10 × 3 ÷ 2 = 15 cm²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

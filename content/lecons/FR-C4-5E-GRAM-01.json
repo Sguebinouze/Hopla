@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-GRAM-01",
+  "exemple": "« Ne parle pas si fort ! » : phrase injonctive, à la forme négative et exclamative.",
+  "regle": "Une phrase a un **type** : **déclarative** (elle informe), **interrogative** (elle pose une question), **injonctive** (elle donne un ordre). Elle peut avoir des **formes** : négative, exclamative.",
+  "piege": "Le point d’exclamation ne suffit pas à faire une phrase injonctive : « Quel beau temps ! » est déclarative et exclamative.",
+  "essai": {
+    "consigne": "« Range ta chambre. » Quel est le type de cette phrase ?",
+    "options": [
+      "injonctive",
+      "déclarative",
+      "interrogative"
+    ],
+    "reponse": "injonctive",
+    "explication": "Elle donne un ordre, avec un verbe à l’impératif : elle est injonctive."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

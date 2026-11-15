@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-TRIG-01",
+  "exemple": "Dans un triangle rectangle : cos = adjacent / hypoténuse.",
+  "regle": "Pour un angle aigu d’un triangle rectangle : **cosinus** = côté adjacent ÷ hypoténuse ; **sinus** = côté opposé ÷ hypoténuse ; **tangente** = côté opposé ÷ côté adjacent.",
+  "piege": "Repère bien le côté adjacent : il touche l’angle et n’est pas l’hypoténuse.",
+  "essai": {
+    "consigne": "ABC rectangle en A, BC = 10 cm, cos(ABC) = 0,6. Combien mesure AB ?",
+    "options": [
+      "6 cm",
+      "16,7 cm",
+      "4 cm"
+    ],
+    "reponse": "6 cm",
+    "explication": "cos(ABC) = AB/BC, donc AB = 10 × 0,6 = 6 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

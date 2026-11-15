@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-PROP-01",
+  "exemple": "4 cahiers coutent 6 €. 6 cahiers : 6 × 6 ÷ 4 = 9 €.",
+  "regle": "La **quatrième proportionnelle** se calcule avec le **produit en croix** : dans un tableau de proportionnalité, a/b = c/d donne d = b × c ÷ a.",
+  "piege": "Vérifie que la situation est bien proportionnelle avant d’appliquer le produit en croix.",
+  "essai": {
+    "consigne": "3 kg coutent 12 €. Combien coutent 5 kg ?",
+    "options": [
+      "20 €",
+      "14 €",
+      "15 €"
+    ],
+    "reponse": "20 €",
+    "explication": "12 × 5 ÷ 3 = 20 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FRAC-01",
+  "exemple": "18/24 = 3/4 en divisant par 6.",
+  "regle": "Pour **simplifier** une fraction, on divise le numérateur et le dénominateur par un même diviseur commun. Elle est **irréductible** quand ils n’ont plus de diviseur commun autre que 1.",
+  "piege": "Simplifier par 2 puis par 3 revient à simplifier par 6 : on peut le faire en plusieurs étapes.",
+  "essai": {
+    "consigne": "Rends irréductible : 15/25",
+    "options": [
+      "3/5",
+      "5/15",
+      "1/10"
+    ],
+    "reponse": "3/5",
+    "explication": "15 et 25 sont divisibles par 5 : 15/25 = 3/5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

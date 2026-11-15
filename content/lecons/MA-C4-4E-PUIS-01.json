@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-PUIS-01",
+  "exemple": "2³ = 8. 10² × 10⁴ = 10⁶.",
+  "regle": "aⁿ est le produit de n facteurs égaux à a. Pour **multiplier deux puissances d’un même nombre**, on additionne les exposants. (−2)³ est négatif, (−2)² est positif.",
+  "piege": "2³ ne vaut pas 6 : c’est 2 × 2 × 2 = 8.",
+  "essai": {
+    "consigne": "Écris sous la forme d’une seule puissance : 7² × 7⁵",
+    "options": [
+      "7⁷",
+      "7¹⁰",
+      "49⁷"
+    ],
+    "reponse": "7⁷",
+    "explication": "On additionne les exposants : 2 + 5 = 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-LIT-01",
+  "exemple": "Pour x = 4 : 3x + 5 = 3 × 4 + 5 = 17.",
+  "regle": "Pour calculer une **expression littérale**, on remplace la lettre par sa valeur. On rétablit le signe × sous-entendu, puis on respecte les priorités.",
+  "piege": "3x signifie 3 × x : pour x = 4, 3x vaut 12, pas 34.",
+  "essai": {
+    "consigne": "Calcule 2x − 1 pour x = 5.",
+    "options": [
+      "9",
+      "24",
+      "11"
+    ],
+    "reponse": "9",
+    "explication": "2 × 5 − 1 = 10 − 1 = 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

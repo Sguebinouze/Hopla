@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-CONJ-02",
+  "exemple": "« Le chat mange la souris. » devient « La souris est mangée par le chat. »",
+  "regle": "À la **voix passive**, le COD de la phrase active devient sujet. Le verbe se forme avec **être** au temps du verbe actif, suivi du participe passé accordé. L’ancien sujet devient **complément d’agent**, introduit par « par » ou « de ».",
+  "piege": "Garde le temps : « a distribué » devient « ont été distribuées », pas « sont distribuées ».",
+  "essai": {
+    "consigne": "Mets à la voix passive : « Le maire inaugurera la piscine. »",
+    "options": [
+      "La piscine sera inaugurée par le maire.",
+      "La piscine est inaugurée par le maire.",
+      "La piscine sera inauguré par le maire."
+    ],
+    "reponse": "La piscine sera inaugurée par le maire.",
+    "explication": "« Inaugurera » est au futur : être au futur, « sera », et participe accordé avec « la piscine »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

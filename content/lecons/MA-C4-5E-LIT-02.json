@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-LIT-02",
+  "exemple": "3(2x + 4) = 6x + 12 ; 5x + 2x = 7x.",
+  "regle": "**Réduire**, c’est regrouper les termes de même nature : 5x + 2x = 7x. **Développer**, c’est distribuer : k(a + b) = ka + kb. **Factoriser**, c’est l’inverse : ka + kb = k(a + b).",
+  "piege": "On ne peut pas réduire 3x + 4 : un terme en x et un nombre ne s’additionnent pas.",
+  "essai": {
+    "consigne": "Développe : 4(x + 3)",
+    "options": [
+      "4x + 12",
+      "4x + 3",
+      "x + 12"
+    ],
+    "reponse": "4x + 12",
+    "explication": "4 × x + 4 × 3 = 4x + 12."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

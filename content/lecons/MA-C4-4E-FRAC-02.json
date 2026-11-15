@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FRAC-02",
+  "exemple": "2/3 × 4/5 = 8/15. Les 2/3 de 12 : 2/3 × 12 = 8.",
+  "regle": "Pour **multiplier des fractions**, on multiplie les numérateurs entre eux et les dénominateurs entre eux. Prendre une fraction d’une quantité, c’est multiplier par cette fraction.",
+  "piege": "Pense à simplifier avant de multiplier pour éviter les grands nombres.",
+  "essai": {
+    "consigne": "Calcule et simplifie : 3/4 × 2/5",
+    "options": [
+      "3/10",
+      "5/9",
+      "15/8"
+    ],
+    "reponse": "3/10",
+    "explication": "3 × 2 = 6 et 4 × 5 = 20 : 6/20, qui se simplifie en 3/10."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

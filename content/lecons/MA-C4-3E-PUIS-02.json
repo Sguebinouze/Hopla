@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PUIS-02",
+  "exemple": "10⁵ × 10⁻² = 10³ ; a⁴ ÷ a⁶ = a⁻².",
+  "regle": "Pour un même nombre a : **aᵐ × aⁿ = aᵐ⁺ⁿ** et **aᵐ ÷ aⁿ = aᵐ⁻ⁿ**. On additionne ou on soustrait les exposants, en respectant les signes.",
+  "piege": "On ne multiplie pas les exposants dans un produit : 10² × 10³ = 10⁵, pas 10⁶.",
+  "essai": {
+    "consigne": "Écris sous la forme d’une seule puissance : 10⁴ ÷ 10⁻²",
+    "options": [
+      "10⁶",
+      "10²",
+      "10⁻⁸"
+    ],
+    "reponse": "10⁶",
+    "explication": "4 − (−2) = 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

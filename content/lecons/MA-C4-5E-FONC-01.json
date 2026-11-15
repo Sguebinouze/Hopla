@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-FONC-01",
+  "exemple": "Prix P = 3 × m : pour m = 5 kg, P = 15 €.",
+  "regle": "Une **formule** exprime une grandeur en fonction d’une autre. Pour calculer une valeur, on remplace la lettre par le nombre donné.",
+  "piege": "Respecte les priorités opératoires dans la formule.",
+  "essai": {
+    "consigne": "Le périmètre d’un carré est P = 4 × c. Pour c = 7 cm, P = ?",
+    "options": [
+      "28 cm",
+      "11 cm",
+      "49 cm"
+    ],
+    "reponse": "28 cm",
+    "explication": "4 × 7 = 28 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

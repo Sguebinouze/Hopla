@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-EQ-01",
+  "exemple": "(x − 2)(x + 3) = 0 : x = 2 ou x = −3.",
+  "regle": "Un **produit est nul** si et seulement si l’un de ses facteurs est nul. On résout chaque équation du premier degré séparément.",
+  "piege": "Attention aux signes : x + 3 = 0 donne x = −3.",
+  "essai": {
+    "consigne": "Résous : (x − 4)(2x + 6) = 0",
+    "options": [
+      "x = 4 ou x = −3",
+      "x = −4 ou x = 3",
+      "x = 4 ou x = −6"
+    ],
+    "reponse": "x = 4 ou x = −3",
+    "explication": "x − 4 = 0 donne 4 ; 2x + 6 = 0 donne x = −3."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

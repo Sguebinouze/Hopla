@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-GRAM-02",
+  "exemple": "« Il pleut, nous restons. » : deux propositions juxtaposées.",
+  "regle": "Une phrase **simple** a un verbe conjugué ; une phrase **complexe** en a plusieurs. Les propositions sont **juxtaposées** (virgule, point-virgule), **coordonnées** (mais, ou, et, donc, or, ni, car) ou **subordonnées** (quand, parce que, qui…).",
+  "piege": "Une phrase sans verbe conjugué est **non verbale** : « Silence ! ».",
+  "essai": {
+    "consigne": "« Il fait beau mais il fait froid. » Comment les propositions sont-elles reliées ?",
+    "options": [
+      "coordination",
+      "juxtaposition",
+      "subordination"
+    ],
+    "reponse": "coordination",
+    "explication": "« Mais » est une conjonction de coordination."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

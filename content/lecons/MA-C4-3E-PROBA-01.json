@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PROBA-01",
+  "exemple": "P(A) = 0,5, P(B) = 0,4, P(A ∩ B) = 0,2 : P(A ∪ B) = 0,7.",
+  "regle": "Pour deux évènements A et B : **P(A ∪ B) + P(A ∩ B) = P(A) + P(B)**. A ∪ B se lit « A ou B », A ∩ B se lit « A et B ».",
+  "piege": "On retire P(A ∩ B) car les issues communes sont comptées deux fois dans P(A) + P(B).",
+  "essai": {
+    "consigne": "P(A) = 0,6, P(B) = 0,3, P(A ∩ B) = 0,1. P(A ∪ B) = ?",
+    "options": [
+      "0,8",
+      "0,9",
+      "1"
+    ],
+    "reponse": "0,8",
+    "explication": "0,6 + 0,3 − 0,1 = 0,8."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

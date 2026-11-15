@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-EQ-01",
+  "exemple": "3x = 21, donc x = 21 ÷ 3 = 7.",
+  "regle": "Pour résoudre **x + b = c**, on soustrait b. Pour **ax = c**, on divise par a. On vérifie en remplaçant x par la solution.",
+  "piege": "Pour 3x = 21, on divise par 3 : on ne soustrait pas 3.",
+  "essai": {
+    "consigne": "Résous : x + 9 = 23",
+    "options": [
+      "14",
+      "32",
+      "207"
+    ],
+    "reponse": "14",
+    "explication": "x = 23 − 9 = 14. Vérification : 14 + 9 = 23."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

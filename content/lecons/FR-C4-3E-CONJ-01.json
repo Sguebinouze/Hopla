@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-CONJ-01",
+  "exemple": "Je suis content que tu aies réussi.",
+  "regle": "Le **subjonctif passé** se forme avec l’auxiliaire **avoir** ou **être** au subjonctif présent, suivi du participe passé : que j’aie fini, qu’elle soit partie. Il exprime une action accomplie.",
+  "piege": "Après « bien que », « il faut que », « je doute que », on emploie le subjonctif, pas l’indicatif.",
+  "essai": {
+    "consigne": "Complète au subjonctif passé : Bien qu’ils … (partir) tôt, ils sont en retard.",
+    "options": [
+      "soient partis",
+      "sont partis",
+      "aient partis"
+    ],
+    "reponse": "soient partis",
+    "explication": "Partir se conjugue avec être : être au subjonctif présent, « soient », puis « partis »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-EQ-01",
+  "exemple": "3x + 5 = 20, donc 3x = 15 et x = 5.",
+  "regle": "Pour résoudre **ax + b = c**, on soustrait b des deux membres, puis on divise par a. On vérifie en remplaçant x par la solution.",
+  "piege": "Ce qu’on fait d’un côté de l’égalité, on le fait de l’autre.",
+  "essai": {
+    "consigne": "Résous : 4x − 3 = 17",
+    "options": [
+      "5",
+      "3,5",
+      "20"
+    ],
+    "reponse": "5",
+    "explication": "4x = 17 + 3 = 20, donc x = 20 ÷ 4 = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

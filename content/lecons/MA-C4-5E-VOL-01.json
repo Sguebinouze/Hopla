@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-VOL-01",
+  "exemple": "Pavé de 5 cm × 4 cm × 3 cm : 60 cm³. 1 L = 1 dm³.",
+  "regle": "Volume d’un **pavé** : longueur × largeur × hauteur. D’un **prisme droit** ou d’un **cylindre** : aire de la base × hauteur. 1 dm³ = 1 L et 1 cm³ = 1 mL.",
+  "piege": "Entre deux unités de volume voisines, on multiplie par 1 000 : 1 dm³ = 1 000 cm³.",
+  "essai": {
+    "consigne": "Volume d’un cube de 3 cm d’arête ?",
+    "options": [
+      "27 cm³",
+      "9 cm³",
+      "18 cm³"
+    ],
+    "reponse": "27 cm³",
+    "explication": "3 × 3 × 3 = 27 cm³."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

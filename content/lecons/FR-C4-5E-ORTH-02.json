@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-ORTH-02",
+  "exemple": "Ces lettres, je les ai écrites. Je leur ai parlé.",
+  "regle": "Avec **être**, le participe passé s’accorde avec le sujet. Avec **avoir**, il s’accorde avec le **COD** seulement s’il est placé avant le verbe. Il ne s’accorde jamais avec un COI.",
+  "piege": "« Leur » et « lui » sont des COI : pas d’accord.",
+  "essai": {
+    "consigne": "Complète : ces fleurs, je les ai … (cueillir)",
+    "options": [
+      "cueillies",
+      "cueilli",
+      "cueillis"
+    ],
+    "reponse": "cueillies",
+    "explication": "Le COD « les » (ces fleurs) est placé avant : féminin pluriel, cueillies."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

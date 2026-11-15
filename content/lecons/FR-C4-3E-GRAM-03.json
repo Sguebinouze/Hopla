@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-3E-GRAM-03",
+  "exemple": "Il pleuvait ; par conséquent, nous sommes restés.",
+  "regle": "Les **connecteurs logiques** expriment la relation entre deux idées. **Cause** : en effet, car. **Conséquence** : donc, par conséquent, ainsi. **Opposition** : pourtant, cependant, en revanche. **Ajout** : de plus, en outre. **Illustration** : par exemple.",
+  "piege": "« En effet » introduit une explication, pas une conséquence.",
+  "essai": {
+    "consigne": "Complète : Il a beaucoup révisé ; …, il a échoué.",
+    "options": [
+      "pourtant",
+      "donc",
+      "en effet"
+    ],
+    "reponse": "pourtant",
+    "explication": "Le résultat est contraire à ce qu’on attendait : c’est une opposition, « pourtant »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

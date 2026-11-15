@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-REL-01",
+  "exemple": "Il fait −7 °C, la température monte de 4 degrés : (−7) + (+4) = −3.",
+  "regle": "Pour additionner deux **relatifs de même signe**, on ajoute les distances à zéro et on garde le signe. **De signes contraires**, on soustrait les distances à zéro et on prend le signe de celui qui est le plus loin de zéro.",
+  "piege": "Sur la droite graduée, ajouter un nombre positif fait avancer, ajouter un négatif fait reculer.",
+  "essai": {
+    "consigne": "Calcule : (−5) + (+8)",
+    "options": [
+      "3",
+      "−3",
+      "−13"
+    ],
+    "reponse": "3",
+    "explication": "Signes contraires : 8 − 5 = 3. 8 est plus loin de zéro et positif : +3."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

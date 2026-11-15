@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-STAT-01",
+  "exemple": "Série 3 ; 7 ; 8 ; 12 ; 15 : médiane 8, étendue 12.",
+  "regle": "La **médiane** partage la série rangée dans l’ordre en deux groupes de même effectif. L’**étendue** est la différence entre la plus grande et la plus petite valeur. La **moyenne pondérée** tient compte des effectifs.",
+  "piege": "Range toujours la série avant de chercher la médiane.",
+  "essai": {
+    "consigne": "Médiane de 4 ; 10 ; 6 ; 12 ; 9 ?",
+    "options": [
+      "9",
+      "6",
+      "8,2"
+    ],
+    "reponse": "9",
+    "explication": "Rangée : 4 ; 6 ; 9 ; 10 ; 12. La valeur du milieu est 9."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

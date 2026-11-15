@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-CERC-01",
+  "exemple": "ABC rectangle en A : le centre du cercle circonscrit est le milieu de [BC].",
+  "regle": "Un triangle est **rectangle** si et seulement si il est inscrit dans un cercle qui a pour **diamètre** l’un de ses côtés. Ce côté est l’hypoténuse.",
+  "piege": "Le rayon du cercle circonscrit vaut la moitié de l’hypoténuse.",
+  "essai": {
+    "consigne": "ABC est rectangle en A et BC = 10 cm. Rayon du cercle circonscrit ?",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "20 cm"
+    ],
+    "reponse": "5 cm",
+    "explication": "[BC] est un diamètre : le rayon vaut 10 ÷ 2 = 5 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

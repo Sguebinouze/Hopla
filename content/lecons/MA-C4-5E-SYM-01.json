@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-SYM-01",
+  "exemple": "O est le milieu de [AA′] ; un segment de 4 cm a pour image un segment de 4 cm.",
+  "regle": "Le symétrique de A par rapport au point O est le point A′ tel que **O est le milieu de [AA′]**. La **symétrie centrale** est un demi-tour : elle conserve les longueurs, les angles et les aires.",
+  "piege": "Ne confonds pas avec la symétrie axiale : ici, la figure tourne d’un demi-tour, elle ne se retourne pas.",
+  "essai": {
+    "consigne": "Dans un repère, A(3 ; −2). Coordonnées de son symétrique par rapport à l’origine ?",
+    "options": [
+      "(−3 ; 2)",
+      "(−3 ; −2)",
+      "(3 ; 2)"
+    ],
+    "reponse": "(−3 ; 2)",
+    "explication": "Par rapport à l’origine, on prend l’opposé des deux coordonnées."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

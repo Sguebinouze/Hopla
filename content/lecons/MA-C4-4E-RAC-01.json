@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-RAC-01",
+  "exemple": "√49 = 7 car 7² = 49.",
+  "regle": "La **racine carrée** d’un nombre positif a est le nombre positif dont le carré vaut a. Pour un nombre qui n’est pas un carré parfait, on l’encadre entre deux entiers consécutifs.",
+  "piege": "√16 ne vaut pas 8 : c’est 4, car 4² = 16.",
+  "essai": {
+    "consigne": "Entre quels entiers se trouve √30 ?",
+    "options": [
+      "5 et 6",
+      "15 et 16",
+      "4 et 5"
+    ],
+    "reponse": "5 et 6",
+    "explication": "5² = 25 et 6² = 36. 30 est entre les deux, donc √30 est entre 5 et 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

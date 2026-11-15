@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-ORTH-03",
+  "exemple": "Elles se sont lavées ce matin. Elles se sont lavé les mains.",
+  "regle": "Avec un **verbe pronominal**, le participe s’accorde avec le sujet quand « se » est COD. Il ne s’accorde pas quand « se » est COI ou quand un COD est placé après le verbe.",
+  "piege": "Les verbes essentiellement pronominaux s’accordent avec le sujet : elles se sont souvenues.",
+  "essai": {
+    "consigne": "Complète : ils se sont … au téléphone. (parler)",
+    "options": [
+      "parlé",
+      "parlés",
+      "parlées"
+    ],
+    "reponse": "parlé",
+    "explication": "On parle à quelqu’un : « se » est COI. Le participe ne s’accorde pas."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

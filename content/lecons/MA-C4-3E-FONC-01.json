@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-FONC-01",
+  "exemple": "f(x) = 3x − 2 : l’image de 4 est 10 ; un antécédent de 10 est 4.",
+  "regle": "Pour une fonction f, l’**image** de a est f(a). Un **antécédent** de b est un nombre x tel que f(x) = b. Dans un tableau de valeurs, l’image se lit sous x, l’antécédent au-dessus de f(x).",
+  "piege": "Ne confonds pas « image de 3 » (on calcule f(3)) et « antécédent de 3 » (on résout f(x) = 3).",
+  "essai": {
+    "consigne": "f(x) = 2x + 1. Quel est l’antécédent de 9 ?",
+    "options": [
+      "4",
+      "19",
+      "5"
+    ],
+    "reponse": "4",
+    "explication": "2x + 1 = 9 donne 2x = 8, donc x = 4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

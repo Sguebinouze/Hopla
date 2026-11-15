@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-LIN-01",
+  "exemple": "f linéaire, f(4) = 12 : f(x) = 3x.",
+  "regle": "Une **fonction linéaire** s’écrit f(x) = ax. Son **coefficient** a se calcule par a = f(x) ÷ x. Elle traduit une situation de proportionnalité.",
+  "piege": "Le coefficient est f(x) ÷ x, pas x ÷ f(x).",
+  "essai": {
+    "consigne": "f est linéaire et f(5) = 15. Combien vaut f(2) ?",
+    "options": [
+      "6",
+      "12",
+      "10"
+    ],
+    "reponse": "6",
+    "explication": "a = 15 ÷ 5 = 3. f(2) = 3 × 2 = 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

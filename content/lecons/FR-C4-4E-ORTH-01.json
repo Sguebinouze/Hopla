@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-ORTH-01",
+  "exemple": "Pris, prise : le t de « prise » s’entend. Dit, dite. Fini, finie.",
+  "regle": "Le **participe passé** se termine par -é (1er groupe), -i, -u ou par une consonne muette (-s, -t). Pour trouver la consonne muette, mets le participe au **féminin** : elle s’entend.",
+  "piege": "Certains participes n’ont pas de consonne muette : fini, couru, ri.",
+  "essai": {
+    "consigne": "Quel est le participe passé masculin de « peindre » ?",
+    "options": [
+      "peint",
+      "peins",
+      "peindu"
+    ],
+    "reponse": "peint",
+    "explication": "Au féminin, on dit « peinte » : le t s’entend. On écrit « peint »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

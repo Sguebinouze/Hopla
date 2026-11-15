@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-PROP-02",
+  "exemple": "2 ; 3 ; 5 et 8 ; 12 ; 20 : coefficient 4, c’est proportionnel.",
+  "regle": "Un tableau est de **proportionnalité** si on passe d’une ligne à l’autre en multipliant toujours par le même nombre, le **coefficient**.",
+  "piege": "Ajouter le même nombre ne donne pas une situation de proportionnalité.",
+  "essai": {
+    "consigne": "Le tableau 3 ; 5 et 9 ; 15 est-il de proportionnalité ?",
+    "options": [
+      "oui, coefficient 3",
+      "oui, coefficient 6",
+      "non"
+    ],
+    "reponse": "oui, coefficient 3",
+    "explication": "3 × 3 = 9 et 5 × 3 = 15 : même coefficient."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-SCI-01",
+  "exemple": "45 000 = 4,5 × 10⁴ ; 0,0032 = 3,2 × 10⁻³.",
+  "regle": "La **notation scientifique** d’un nombre est a × 10ⁿ, avec a supérieur ou égal à 1 et strictement inférieur à 10, et n entier relatif.",
+  "piege": "45 × 10³ a la bonne valeur, mais ce n’est pas une notation scientifique.",
+  "essai": {
+    "consigne": "Notation scientifique de 0,00072 ?",
+    "options": [
+      "7,2 × 10⁻⁴",
+      "72 × 10⁻⁵",
+      "7,2 × 10⁴"
+    ],
+    "reponse": "7,2 × 10⁻⁴",
+    "explication": "On déplace la virgule de 4 rangs vers la droite : 7,2 × 10⁻⁴."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

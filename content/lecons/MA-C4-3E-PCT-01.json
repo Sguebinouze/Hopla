@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-PCT-01",
+  "exemple": "De 80 € à 92 € : hausse de 15 %. +20 % puis −20 % : baisse de 4 %.",
+  "regle": "Pour traduire une évolution en pourcentage, divise la **variation** par la **valeur de départ**. Pour des évolutions successives, **multiplie les coefficients multiplicateurs**.",
+  "piege": "Les pourcentages successifs ne s’additionnent pas : +20 % puis −20 % ne ramène pas au prix de départ.",
+  "essai": {
+    "consigne": "Un prix passe de 50 € à 60 €. De quel pourcentage a-t-il augmenté ?",
+    "options": [
+      "20 %",
+      "10 %",
+      "17 %"
+    ],
+    "reponse": "20 %",
+    "explication": "Variation : 10 €. 10 ÷ 50 = 0,2, soit 20 %."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

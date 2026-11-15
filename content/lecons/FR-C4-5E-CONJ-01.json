@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-CONJ-01",
+  "exemple": "« Il eut chanté » : auxiliaire au passé simple, donc passé antérieur.",
+  "regle": "Pour un **temps simple**, regarde la terminaison. Pour un **temps composé**, regarde le temps de l’auxiliaire : présent → passé composé, imparfait → plus-que-parfait, passé simple → passé antérieur, futur → futur antérieur.",
+  "piege": "Ne confonds pas « il chantait » (imparfait) et « il chanta » (passé simple).",
+  "essai": {
+    "consigne": "« Nous aurons fini » : à quel temps est ce verbe ?",
+    "options": [
+      "futur antérieur",
+      "plus-que-parfait",
+      "passé composé"
+    ],
+    "reponse": "futur antérieur",
+    "explication": "L’auxiliaire « aurons » est au futur : le verbe est au futur antérieur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-VOC-03",
+  "exemple": "Tiède, chaud, brûlant.",
+  "regle": "Des mots proches peuvent exprimer des **degrés d’intensité** différents. On les range du plus faible au plus fort pour choisir le mot juste.",
+  "piege": "Un mot fort employé à tort exagère : « terrifié » ne convient pas pour une petite peur.",
+  "essai": {
+    "consigne": "Range du plus faible au plus fort : furieux, mécontent, fâché",
+    "options": [
+      "mécontent < fâché < furieux",
+      "fâché < mécontent < furieux",
+      "furieux < fâché < mécontent"
+    ],
+    "reponse": "mécontent < fâché < furieux",
+    "explication": "Mécontent est le plus faible, furieux le plus fort."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

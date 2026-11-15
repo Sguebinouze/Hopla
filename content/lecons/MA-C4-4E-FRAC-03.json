@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-FRAC-03",
+  "exemple": "L’inverse de 3/4 est 4/3. 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12.",
+  "regle": "L’**inverse** d’un nombre non nul a est le nombre qui, multiplié par a, donne 1. Diviser par une fraction, c’est **multiplier par son inverse**.",
+  "piege": "Ne confonds pas inverse et opposé : l’opposé de 2 est −2, son inverse est 1/2.",
+  "essai": {
+    "consigne": "Quel est l’inverse de 5 ?",
+    "options": [
+      "1/5",
+      "−5",
+      "5/5"
+    ],
+    "reponse": "1/5",
+    "explication": "5 × 1/5 = 1 : l’inverse de 5 est 1/5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

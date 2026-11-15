@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-GRAM-04",
+  "exemple": "« Où vas-tu ? » devient « Je te demande où tu vas. »",
+  "regle": "L’**interrogative indirecte** rapporte une question dans une subordonnée, après un verbe comme demander ou savoir. Elle n’a ni point d’interrogation ni inversion du sujet. Elle est **totale** avec « si », **partielle** avec qui, où, quand, pourquoi…",
+  "piege": "« Est-ce que » disparait : « Est-ce que tu viens ? » devient « Je demande si tu viens. »",
+  "essai": {
+    "consigne": "Quelle phrase contient une interrogative indirecte ?",
+    "options": [
+      "Il demande si le train est parti.",
+      "Le train est-il parti ?",
+      "Il dit : « Le train est parti. »"
+    ],
+    "reponse": "Il demande si le train est parti.",
+    "explication": "La question est rapportée après « demande », introduite par « si », sans point d’interrogation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

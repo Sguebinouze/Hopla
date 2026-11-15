@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-4E-GRAM-03",
+  "exemple": "« Malgré la pluie, nous sommes sortis. » : complément circonstanciel d’opposition.",
+  "regle": "Le **CC d’opposition** marque un obstacle sans effet : malgré, bien que. Le **CC de condition** pose une condition : en cas de, si, sans. L’**apposition** caractérise un nom dont elle est séparée par une virgule.",
+  "piege": "« Sans ton aide, je n’y serais pas arrivé » exprime une condition, pas une opposition.",
+  "essai": {
+    "consigne": "Dans « Paris, capitale de la France, attire les touristes », quelle est la fonction de « capitale de la France » ?",
+    "options": [
+      "apposition",
+      "CC de condition",
+      "COD"
+    ],
+    "reponse": "apposition",
+    "explication": "Le groupe caractérise « Paris » et en est séparé par des virgules : c’est une apposition."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
