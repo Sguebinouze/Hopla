@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-MAT-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un matériau naturel ?",
+      "options": [
+        "le bois",
+        "le plastique",
+        "le verre"
+      ],
+      "reponse": "le bois",
+      "indice": "Il vient des arbres.",
+      "explication": "Le bois est un matériau naturel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un matériau fabriqué ?",
+      "options": [
+        "le plastique",
+        "la laine",
+        "la pierre"
+      ],
+      "reponse": "le plastique",
+      "indice": "Il est fabriqué à partir du pétrole.",
+      "explication": "Le plastique est fabriqué par l’être humain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qui est attiré par un aimant ?",
+      "options": [
+        "le fer",
+        "le bois",
+        "le plastique"
+      ],
+      "reponse": "le fer",
+      "indice": "C’est un métal magnétique.",
+      "explication": "Le fer est attiré par un aimant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avec quoi fabrique-t-on le verre ?",
+      "options": [
+        "du sable",
+        "du bois",
+        "du lait"
+      ],
+      "reponse": "du sable",
+      "indice": "On le chauffe très fort.",
+      "explication": "Le verre est fabriqué à partir de sable fondu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi fait-on des casseroles en métal ?",
+      "options": [
+        "le métal conduit bien la chaleur",
+        "le métal est transparent",
+        "le métal est léger comme une plume"
+      ],
+      "reponse": "le métal conduit bien la chaleur",
+      "indice": "La chaleur passe du feu à l’eau.",
+      "explication": "Le métal transmet bien la chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les poignées de casserole sont-elles souvent en bois ou en plastique ?",
+      "options": [
+        "ils conduisent mal la chaleur",
+        "ils sont plus lourds",
+        "ils brillent"
+      ],
+      "reponse": "ils conduisent mal la chaleur",
+      "indice": "On ne se brule pas.",
+      "explication": "Bois et plastique isolent de la chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi trier le verre à part ?",
+      "options": [
+        "il se recycle facilement",
+        "il est dangereux à toucher",
+        "il ne sert à rien"
+      ],
+      "reponse": "il se recycle facilement",
+      "indice": "Il peut être refondu.",
+      "explication": "Le verre se refond et se recycle sans fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle propriété rend une vitre utile ?",
+      "options": [
+        "elle est transparente",
+        "elle est magnétique",
+        "elle est molle"
+      ],
+      "reponse": "elle est transparente",
+      "indice": "On voit à travers.",
+      "explication": "La vitre laisse passer la lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

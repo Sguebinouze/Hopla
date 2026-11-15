@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-MAT-02",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-MAT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on la masse ?",
+      "options": [
+        "une balance",
+        "une éprouvette",
+        "un thermomètre"
+      ],
+      "reponse": "une balance",
+      "indice": "On pose l’objet dessus.",
+      "explication": "La balance mesure la masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on le volume d’un liquide ?",
+      "options": [
+        "une éprouvette graduée",
+        "une balance",
+        "une règle"
+      ],
+      "reponse": "une éprouvette graduée",
+      "indice": "Elle porte des graduations.",
+      "explication": "L’éprouvette graduée mesure le volume d’un liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un litre est égal à…",
+      "options": [
+        "1 000 mL",
+        "100 mL",
+        "10 mL"
+      ],
+      "reponse": "1 000 mL",
+      "indice": "Mille millilitres.",
+      "explication": "1 L = 1 000 mL.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien font 1 kg ?",
+      "options": [
+        "1 000 g",
+        "100 g",
+        "10 g"
+      ],
+      "reponse": "1 000 g",
+      "indice": "Kilo veut dire mille.",
+      "explication": "1 kg = 1 000 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien font 50 cL ?",
+      "options": [
+        "500 mL",
+        "50 mL",
+        "5 mL"
+      ],
+      "reponse": "500 mL",
+      "indice": "1 cL = 10 mL.",
+      "explication": "50 cL = 500 mL.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour lire le volume dans une éprouvette, l’œil doit être…",
+      "options": [
+        "au niveau du liquide",
+        "au-dessus de l’éprouvette",
+        "sous la table"
+      ],
+      "reponse": "au niveau du liquide",
+      "indice": "Sinon la lecture est fausse.",
+      "explication": "On lit le volume l’œil à hauteur du liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On fait fondre un glaçon de 20 g. L’eau obtenue pèse…",
+      "options": [
+        "20 g",
+        "10 g",
+        "40 g"
+      ],
+      "reponse": "20 g",
+      "indice": "La matière ne disparait pas.",
+      "explication": "La masse se conserve lors de la fusion : 20 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On plonge un caillou dans une éprouvette : l’eau monte de 30 mL à 45 mL. Le volume du caillou est…",
+      "options": [
+        "15 mL",
+        "45 mL",
+        "75 mL"
+      ],
+      "reponse": "15 mL",
+      "indice": "Calcule la différence.",
+      "explication": "45 − 30 = 15 mL : c’est le volume du caillou.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

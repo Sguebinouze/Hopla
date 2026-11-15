@@ -1,0 +1,156 @@
+{
+  "programme": "ST-C3-2023",
+  "classe": "cm2",
+  "competences": [
+    {
+      "id": "ST-C3-CM2-MAT-01",
+      "titre": "Matériaux naturels ou fabriqués",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "États et constitution de la matière à l’échelle macroscopique",
+      "attendu": "Distinguer matériaux naturels et fabriqués et les classer selon leurs propriétés physiques.",
+      "exemple": "Le bois et la laine sont naturels. Le plastique et le verre sont fabriqués par l’être humain.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 82,
+        "extrait": "Distinguer les matériaux fabriqués ou"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-MAT-02",
+      "titre": "Masse et volume",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "États et constitution de la matière à l’échelle macroscopique",
+      "attendu": "Mesurer la masse d’un solide ou d’un liquide et le volume d’un liquide, et convertir les unités.",
+      "exemple": "L’éprouvette graduée indique 250 mL d’eau. La balance indique 250 g.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 82,
+        "extrait": "Mesurer la masse d’un solide ou d’un"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01",
+      "titre": "Les formes d’énergie",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Ressources en énergie et conversions d’énergie",
+      "attendu": "Identifier différentes formes d’énergie et les conversions dans un dispositif ; distinguer sources renouvelables ou non.",
+      "exemple": "Une éolienne transforme l’énergie du vent en énergie électrique.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 85,
+        "extrait": "Identifier différentes formes d’énergie :"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01",
+      "titre": "Le circuit électrique",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Signal et information",
+      "attendu": "Réaliser un circuit électrique à une boucle et connaitre les règles de sécurité électrique.",
+      "exemple": "Pile, fils, interrupteur fermé, lampe : le courant circule et la lampe brille.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 87,
+        "extrait": "Réaliser un circuit électrique à une boucle"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-01",
+      "titre": "La digestion",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Alimentation humaine",
+      "attendu": "Identifier et localiser la transformation des aliments dans le tube digestif et le passage des nutriments dans le sang.",
+      "exemple": "Dans l’estomac, les aliments sont brassés et commencent à être transformés.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 89,
+        "extrait": "Identifier et localiser la transformation des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-02",
+      "titre": "La circulation sanguine",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Alimentation humaine",
+      "attendu": "Identifier le rôle de la circulation sanguine dans le transport des nutriments et du dioxygène vers les organes.",
+      "exemple": "Le cœur pompe le sang, qui apporte nutriments et dioxygène aux muscles.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 89,
+        "extrait": "Identifier le rôle de la circulation sanguine"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03",
+      "titre": "Bien se nourrir",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Alimentation humaine",
+      "attendu": "Expliquer le rôle des aliments et citer des comportements alimentaires favorables à la santé.",
+      "exemple": "Un repas équilibré associe légumes, féculent, protéine, produit laitier et fruit.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 89,
+        "extrait": "Citer quelques comportements alimentaires"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-04",
+      "titre": "Produire et conserver les aliments",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Alimentation humaine",
+      "attendu": "Réaliser une transformation alimentaire et connaitre les procédés de conservation des aliments.",
+      "exemple": "Des levures font gonfler la pâte à pain. Le froid du réfrigérateur ralentit les microbes.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 89,
+        "extrait": "Réaliser une transformation alimentaire (pain"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-VIV-01",
+      "titre": "Le cycle d’une plante à fleurs",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Cycle de vie et reproduction des êtres vivants",
+      "attendu": "Décrire le cycle de vie d’une plante à fleurs, de la graine au fruit, à partir de cultures.",
+      "exemple": "La graine de haricot germe, la plante pousse, fleurit, puis donne des gousses pleines de graines.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 90,
+        "extrait": "Exploiter des observations issues de cultures"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01",
+      "titre": "Objets techniques et besoins",
+      "domaine": "Matériaux et objets techniques",
+      "theme": "Les objets techniques en réponse aux besoins des individus et de la société",
+      "attendu": "Distinguer un objet technique d’un objet naturel et repérer l’évolution des objets selon les besoins et les époques.",
+      "exemple": "Le téléphone a évolué : téléphone à cadran, puis portable, puis smartphone.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 91,
+        "extrait": "Distinguer un objet technique d’un objet naturel."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

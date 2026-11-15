@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C3-CM2-CIT-01",
+  "exemple": "Le jour de ses 18 ans, Lina reçoit sa carte électorale.",
+  "regle": "La **citoyenneté** est liée à la **nationalité**. Tout individu a des **droits civils** (être soigné, éduqué, s’exprimer). Le citoyen majeur a aussi des **droits politiques** : **voter** et être **élu**. Il participe ainsi à la vie du pays.",
+  "piege": "Un enfant n’est pas encore électeur, mais il a déjà des droits.",
+  "essai": {
+    "consigne": "À partir de quel âge vote-t-on ?",
+    "options": [
+      "18 ans",
+      "16 ans",
+      "21 ans"
+    ],
+    "reponse": "18 ans",
+    "explication": "On vote à partir de 18 ans."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

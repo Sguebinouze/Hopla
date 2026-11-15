@@ -1,0 +1,96 @@
+{
+  "programme": "HG-C3-2020",
+  "classe": "cm2",
+  "competences": [
+    {
+      "id": "HG-C3-CM2-HIST-01",
+      "titre": "Le temps de la République",
+      "domaine": "Histoire",
+      "theme": "Le temps de la République",
+      "attendu": "Situer les grandes étapes de la République, l’école de Jules Ferry et la conquête des libertés et des droits.",
+      "exemple": "En 1892, la République fête ses cent ans. Depuis Jules Ferry, l’école est gratuite, laïque et obligatoire.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 71,
+        "extrait": "Thème 1 - Le temps de la République"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM2-HIST-02",
+      "titre": "L’âge industriel",
+      "domaine": "Histoire",
+      "theme": "L’âge industriel en France",
+      "attendu": "Décrire les énergies et les machines de l’âge industriel, le travail à l’usine et à la mine, la ville et le monde rural.",
+      "exemple": "Au XIXe siècle, la machine à vapeur fonctionne au charbon extrait des mines.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 72,
+        "extrait": "Thème 2 - L’âge industriel en France"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM2-HIST-03",
+      "titre": "Guerres mondiales et Europe",
+      "domaine": "Histoire",
+      "theme": "La France, des guerres mondiales à l’Union européenne",
+      "attendu": "Situer les deux guerres mondiales, évoquer la Résistance et le génocide des Juifs, comprendre la construction européenne.",
+      "exemple": "Chaque 11 novembre, on commémore la fin de la Première Guerre mondiale.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 72,
+        "extrait": "Thème 3 - La France, des guerres mondiales à l’Union européenne"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01",
+      "titre": "Se déplacer en France et ailleurs",
+      "domaine": "Géographie",
+      "theme": "Se déplacer",
+      "attendu": "Étudier les modes et réseaux de transport du quotidien et des longues distances, et les enjeux de mobilité durable.",
+      "exemple": "Pour aller de Paris à Marseille, on peut prendre le TGV en environ trois heures.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 75,
+        "extrait": "Thème 1 - Se déplacer"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-02",
+      "titre": "Communiquer avec l’Internet",
+      "domaine": "Géographie",
+      "theme": "Communiquer d’un bout à l’autre du monde grâce à l’Internet",
+      "attendu": "Comprendre le fonctionnement du réseau Internet, ses usages et les inégalités de connexion en France et dans le monde.",
+      "exemple": "Grâce à Internet, je peux parler en vidéo avec ma cousine au Canada.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 76,
+        "extrait": "Thème 2 - Communiquer d’un bout à l’autre du monde grâce à l’Internet"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-03",
+      "titre": "Mieux habiter",
+      "domaine": "Géographie",
+      "theme": "Mieux habiter",
+      "attendu": "Étudier des projets qui améliorent le cadre de vie : nature en ville, recyclage, écoquartier.",
+      "exemple": "Dans l’écoquartier, les toits ont des panneaux solaires et les rues sont réservées aux piétons et aux vélos.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 76,
+        "extrait": "Thème 3 - Mieux habiter"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-NRJ-01",
+  "exemple": "La dynamo du vélo transforme le mouvement de la roue en électricité pour la lampe.",
+  "regle": "L’énergie existe sous plusieurs **formes** : de mouvement, électrique, lumineuse, thermique, chimique. Un dispositif **convertit** une forme en une autre. Certaines sources sont **renouvelables** (soleil, vent, eau), d’autres non (pétrole, charbon, gaz).",
+  "piege": "L’énergie ne se crée pas : elle se transforme d’une forme à une autre.",
+  "essai": {
+    "consigne": "Lequel est une source renouvelable ?",
+    "options": [
+      "le vent",
+      "le charbon",
+      "le gaz"
+    ],
+    "reponse": "le vent",
+    "explication": "Le vent est une source renouvelable."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

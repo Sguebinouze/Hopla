@@ -52,7 +52,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - CE2 (fait) : questionner le monde `QM-C2-2020` (encore en vigueur au CE2 en 2026-2027 ; notions choisies parmi celles que le texte réserve au CE2 ou que le CE1 n’a pas : état gazeux, cycle de vie, besoins des plantes, croissance, conducteurs, ordinateur, astres, milieux, grandes périodes, organisation de la commune) et EMC `EM-C2-2024`. 14 notions, 112 questions, 14 leçons.
 - Le test des packs (`packages/content/src/verifier.test.ts`) ne compte plus un nombre fixe de brouillons au CE2 : il compare au total des questions rédigées.
 - CM1 (fait) : histoire-géographie `HG-C3-2026` et sciences et technologie `ST-C3-2026`, appliqués au CM1 depuis la rentrée 2026, et EMC `EM-C3-2024`. 24 notions (8 + 11 + 5), 192 questions, 24 leçons.
-- À suivre, dans l’ordre : CM2 (histoire-géographie 2020, sciences 2023, EMC), cycle 4, anglais des autres classes.
+- CM2 (fait) : histoire-géographie `HG-C3-2020` et sciences et technologie `ST-C3-2023` (colonne « cours moyen » du programme, encore en vigueur au CM2 en 2026-2027), EMC `EM-C3-2024`. 20 notions (6 + 10 + 4), 160 questions, 20 leçons.
+- À suivre : cycle 4 (histoire-géographie, SVT et physique-chimie 2020, technologie 2024, EMC 2024), puis anglais des autres classes. Les programmes 2020 de SVT et de physique-chimie ne répartissent pas les notions par année : il faudra choisir la classe avec prudence, ou demander les repères annuels.
 
 ## Travail à deux sessions
 

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-ELEC-01",
+  "exemple": "Je relie la pile, l’interrupteur et la lampe par des fils. Je ferme l’interrupteur : la lampe brille.",
+  "regle": "Dans un circuit à **une boucle**, le courant fait le tour : **pile**, **fils**, **interrupteur**, **lampe**. Il ne circule que si le circuit est **fermé**. Relier directement les bornes de la pile provoque un **court-circuit**. Le courant du **secteur** (230 V) est dangereux.",
+  "piege": "On ne fait jamais d’expérience avec une prise de courant.",
+  "essai": {
+    "consigne": "Le courant circule si le circuit est…",
+    "options": [
+      "fermé",
+      "ouvert",
+      "coupé"
+    ],
+    "reponse": "fermé",
+    "explication": "Le courant circule dans un circuit fermé."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-MAT-02",
+  "exemple": "Je verse 200 mL d’eau dans l’éprouvette, puis je pèse le tout sur la balance.",
+  "regle": "La **masse** se mesure avec une **balance**, en grammes ou kilogrammes. Le **volume** d’un liquide se mesure avec une **éprouvette graduée**, en litres ou millilitres. 1 kg = 1 000 g ; 1 L = 1 000 mL.",
+  "piege": "Masse et volume sont différents : un litre de plumes ne pèse pas autant qu’un litre d’eau.",
+  "essai": {
+    "consigne": "Combien font 2 L ?",
+    "options": [
+      "2 000 mL",
+      "200 mL",
+      "20 mL"
+    ],
+    "reponse": "2 000 mL",
+    "explication": "1 L = 1 000 mL, donc 2 L = 2 000 mL."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

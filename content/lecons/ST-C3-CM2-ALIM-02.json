@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-ALIM-02",
+  "exemple": "Après un sprint, je pose deux doigts sur mon poignet : mon cœur bat très vite.",
+  "regle": "Le **cœur** pompe le **sang** dans les **vaisseaux sanguins**. Le sang apporte aux organes les **nutriments** venus de l’intestin et le **dioxygène** pris dans les **poumons**. Il emporte le **dioxyde de carbone**, rejeté par les poumons.",
+  "piege": "Le sang ne s’arrête jamais : il fait sans cesse le tour du corps.",
+  "essai": {
+    "consigne": "Quel organe pompe le sang ?",
+    "options": [
+      "le cœur",
+      "le poumon",
+      "l’estomac"
+    ],
+    "reponse": "le cœur",
+    "explication": "Le cœur pompe le sang."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

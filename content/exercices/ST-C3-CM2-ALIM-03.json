@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-ALIM-03",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-ALIM-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle boisson faut-il boire en priorité ?",
+      "options": [
+        "l’eau",
+        "le soda",
+        "le sirop"
+      ],
+      "reponse": "l’eau",
+      "indice": "Elle n’a pas de sucre.",
+      "explication": "L’eau est la seule boisson indispensable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Manger équilibré, c’est…",
+      "options": [
+        "manger varié et en bonne quantité",
+        "manger seulement des pâtes",
+        "sauter des repas"
+      ],
+      "reponse": "manger varié et en bonne quantité",
+      "indice": "Toutes les familles d’aliments.",
+      "explication": "Manger équilibré, c’est manger varié.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel repas aide à bien commencer la journée ?",
+      "options": [
+        "le petit déjeuner",
+        "le gouter de minuit",
+        "aucun"
+      ],
+      "reponse": "le petit déjeuner",
+      "indice": "On a jeuné toute la nuit.",
+      "explication": "Le petit déjeuner apporte de l’énergie pour la matinée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les féculents (pâtes, riz, pain) apportent surtout…",
+      "options": [
+        "de l’énergie",
+        "de la vitamine C",
+        "du calcium"
+      ],
+      "reponse": "de l’énergie",
+      "indice": "Ils sont utiles avant un effort.",
+      "explication": "Les féculents apportent de l’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les produits laitiers apportent surtout…",
+      "options": [
+        "du calcium pour les os",
+        "du sucre rapide",
+        "des fibres"
+      ],
+      "reponse": "du calcium pour les os",
+      "indice": "Ils aident à construire le squelette.",
+      "explication": "Les produits laitiers apportent du calcium.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Manger trop de sucre et de gras peut…",
+      "options": [
+        "nuire à la santé",
+        "rendre plus fort",
+        "remplacer le sport"
+      ],
+      "reponse": "nuire à la santé",
+      "indice": "Pense aux caries et au surpoids.",
+      "explication": "Trop de sucre et de gras nuit à la santé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un sportif a besoin de…",
+      "options": [
+        "plus d’énergie qu’une personne peu active",
+        "moins d’eau",
+        "ne pas manger"
+      ],
+      "reponse": "plus d’énergie qu’une personne peu active",
+      "indice": "Il dépense beaucoup.",
+      "explication": "Les besoins augmentent avec l’activité physique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALIM-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les fruits et légumes apportent…",
+      "options": [
+        "des vitamines et des fibres",
+        "beaucoup de gras",
+        "de l’alcool"
+      ],
+      "reponse": "des vitamines et des fibres",
+      "indice": "On en mange plusieurs par jour.",
+      "explication": "Fruits et légumes apportent vitamines et fibres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

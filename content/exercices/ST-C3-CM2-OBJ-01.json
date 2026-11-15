@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-OBJ-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-OBJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un objet technique ?",
+      "options": [
+        "une lampe de poche",
+        "un galet",
+        "une pomme de pin"
+      ],
+      "reponse": "une lampe de poche",
+      "indice": "Il est fabriqué par l’être humain.",
+      "explication": "La lampe de poche est un objet technique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un objet naturel ?",
+      "options": [
+        "un coquillage",
+        "une montre",
+        "un stylo"
+      ],
+      "reponse": "un coquillage",
+      "indice": "Il vient de la mer.",
+      "explication": "Le coquillage est un objet naturel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un objet technique est conçu pour…",
+      "options": [
+        "répondre à un besoin",
+        "décorer la nature",
+        "rien"
+      ],
+      "reponse": "répondre à un besoin",
+      "indice": "Pense au parapluie.",
+      "explication": "Un objet technique répond à un besoin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel besoin satisfait un réfrigérateur ?",
+      "options": [
+        "conserver les aliments",
+        "éclairer la cuisine",
+        "se déplacer"
+      ],
+      "reponse": "conserver les aliments",
+      "indice": "Il garde au froid.",
+      "explication": "Le réfrigérateur conserve les aliments.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avant la lampe électrique, on s’éclairait avec…",
+      "options": [
+        "des bougies et des lampes à huile",
+        "des écrans",
+        "des lasers"
+      ],
+      "reponse": "des bougies et des lampes à huile",
+      "indice": "Il y a longtemps.",
+      "explication": "On s’éclairait à la bougie ou à la lampe à huile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les objets évoluent-ils ?",
+      "options": [
+        "les besoins et les techniques changent",
+        "par hasard",
+        "ils ne changent jamais"
+      ],
+      "reponse": "les besoins et les techniques changent",
+      "indice": "Nouvelles inventions, nouveaux usages.",
+      "explication": "Les objets évoluent avec les besoins et les techniques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une lampe LED remplace l’ampoule classique car elle…",
+      "options": [
+        "consomme moins d’énergie",
+        "éclaire moins",
+        "coute plus d’électricité"
+      ],
+      "reponse": "consomme moins d’énergie",
+      "indice": "C’est un enjeu de développement durable.",
+      "explication": "La LED consomme bien moins d’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-OBJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est l’ancêtre du smartphone ?",
+      "options": [
+        "le téléphone fixe",
+        "la radio à galène",
+        "le télégraphe optique seulement"
+      ],
+      "reponse": "le téléphone fixe",
+      "indice": "Il était relié par un fil.",
+      "explication": "Le téléphone fixe est l’ancêtre du téléphone portable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

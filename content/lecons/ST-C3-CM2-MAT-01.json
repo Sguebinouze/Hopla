@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-MAT-01",
+  "exemple": "Ma table a un plateau en bois et des pieds en métal.",
+  "regle": "Un **matériau naturel** se trouve dans la nature : bois, pierre, laine. Un **matériau fabriqué** est produit par l’être humain : plastique, verre, acier. On choisit un matériau selon ses **propriétés** : solidité, transparence, conduction de la chaleur, magnétisme.",
+  "piege": "Tous les métaux ne sont pas attirés par l’aimant : l’aluminium ne l’est pas.",
+  "essai": {
+    "consigne": "Lequel est un matériau naturel ?",
+    "options": [
+      "la laine",
+      "le plastique",
+      "l’acier"
+    ],
+    "reponse": "la laine",
+    "explication": "La laine vient du mouton : elle est naturelle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

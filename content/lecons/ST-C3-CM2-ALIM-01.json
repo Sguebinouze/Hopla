@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-ALIM-01",
+  "exemple": "Je croque une pomme : mes dents la broient, la salive l’humidifie, puis j’avale.",
+  "regle": "Les aliments traversent le **tube digestif** : **bouche**, **œsophage**, **estomac**, **intestin grêle**, **gros intestin**. Ils sont transformés en **nutriments**, qui passent dans le **sang** au niveau de l’intestin grêle. Ce qui n’est pas digéré est rejeté.",
+  "piege": "Les aliments ne passent pas dans les poumons : ils empruntent l’œsophage.",
+  "essai": {
+    "consigne": "Où les nutriments passent-ils dans le sang ?",
+    "options": [
+      "dans l’intestin grêle",
+      "dans l’estomac",
+      "dans la bouche"
+    ],
+    "reponse": "dans l’intestin grêle",
+    "explication": "Les nutriments passent dans le sang au niveau de l’intestin grêle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

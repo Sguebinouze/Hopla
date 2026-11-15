@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-CM2-GEO-01",
+  "exercices": [
+    {
+      "id": "HG-C3-CM2-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel train relie très vite les grandes villes françaises ?",
+      "options": [
+        "le TGV",
+        "le tramway",
+        "le métro"
+      ],
+      "reponse": "le TGV",
+      "indice": "Train à grande vitesse.",
+      "explication": "Le TGV relie rapidement les grandes villes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel transport en commun circule sur des rails en ville ?",
+      "options": [
+        "le tramway",
+        "le vélo",
+        "la trottinette"
+      ],
+      "reponse": "le tramway",
+      "indice": "Il roule au milieu des rues.",
+      "explication": "Le tramway roule sur des rails en ville.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lequel est un moyen de transport en commun ?",
+      "options": [
+        "le bus",
+        "la voiture individuelle",
+        "le vélo personnel"
+      ],
+      "reponse": "le bus",
+      "indice": "Plusieurs personnes voyagent ensemble.",
+      "explication": "Le bus est un transport en commun.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Partager sa voiture avec d’autres personnes pour un trajet, c’est…",
+      "options": [
+        "du covoiturage",
+        "du tri",
+        "de l’exode"
+      ],
+      "reponse": "du covoiturage",
+      "indice": "Moins de voitures sur la route.",
+      "explication": "Partager un trajet en voiture, c’est le covoiturage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi favoriser le vélo en ville ?",
+      "options": [
+        "il ne pollue pas",
+        "il est plus rapide qu’un avion",
+        "il consomme du pétrole"
+      ],
+      "reponse": "il ne pollue pas",
+      "indice": "Il ne rejette pas de fumée.",
+      "explication": "Le vélo ne pollue pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un réseau de transport, c’est…",
+      "options": [
+        "un ensemble de lignes reliées",
+        "une seule route",
+        "un parking"
+      ],
+      "reponse": "un ensemble de lignes reliées",
+      "indice": "Comme le plan du métro.",
+      "explication": "Un réseau relie des lignes et des lieux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un grand aéroport où se croisent de nombreux vols s’appelle…",
+      "options": [
+        "une plateforme de correspondance",
+        "une gare de campagne",
+        "un port de pêche"
+      ],
+      "reponse": "une plateforme de correspondance",
+      "indice": "Les passagers y changent d’avion.",
+      "explication": "C’est une plateforme où l’on change d’avion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel transport émet le plus de gaz à effet de serre par voyageur sur une même distance ?",
+      "options": [
+        "l’avion",
+        "le train",
+        "le vélo"
+      ],
+      "reponse": "l’avion",
+      "indice": "Il consomme beaucoup de carburant.",
+      "explication": "L’avion émet bien plus que le train par voyageur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

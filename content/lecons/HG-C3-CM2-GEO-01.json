@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM2-GEO-01",
+  "exemple": "Chaque matin, Nora prend le tramway, puis marche cinq minutes jusqu’au collège.",
+  "regle": "Les habitants se déplacent grâce à des **réseaux** de transport : routes, voies ferrées, lignes de bus, aéroports. Pour un **développement durable**, on favorise les **transports en commun**, le **vélo**, la marche et le **covoiturage**, qui polluent moins.",
+  "piege": "Le plus rapide n’est pas toujours le plus durable : l’avion pollue beaucoup plus que le train.",
+  "essai": {
+    "consigne": "Lequel pollue le moins ?",
+    "options": [
+      "le vélo",
+      "la voiture",
+      "l’avion"
+    ],
+    "reponse": "le vélo",
+    "explication": "Le vélo ne pollue pas."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

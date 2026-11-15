@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-NRJ-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-NRJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une lampe allumée produit de l’énergie…",
+      "options": [
+        "lumineuse",
+        "du vent",
+        "sonore seulement"
+      ],
+      "reponse": "lumineuse",
+      "indice": "Elle éclaire.",
+      "explication": "La lampe produit de l’énergie lumineuse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle source d’énergie est renouvelable ?",
+      "options": [
+        "le soleil",
+        "le pétrole",
+        "le charbon"
+      ],
+      "reponse": "le soleil",
+      "indice": "Il ne s’épuise pas à notre échelle.",
+      "explication": "Le soleil est une source renouvelable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une éolienne utilise l’énergie…",
+      "options": [
+        "du vent",
+        "du charbon",
+        "du pétrole"
+      ],
+      "reponse": "du vent",
+      "indice": "Ses pales tournent.",
+      "explication": "L’éolienne utilise l’énergie du vent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une pile fournit de l’énergie…",
+      "options": [
+        "électrique",
+        "éolienne",
+        "solaire"
+      ],
+      "reponse": "électrique",
+      "indice": "Elle alimente une lampe.",
+      "explication": "La pile fournit de l’énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle source d’énergie n’est pas renouvelable ?",
+      "options": [
+        "le pétrole",
+        "le vent",
+        "l’eau des rivières"
+      ],
+      "reponse": "le pétrole",
+      "indice": "Ses réserves s’épuisent.",
+      "explication": "Le pétrole n’est pas renouvelable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un panneau solaire transforme la lumière en énergie…",
+      "options": [
+        "électrique",
+        "chimique des aliments",
+        "sonore"
+      ],
+      "reponse": "électrique",
+      "indice": "Il alimente des appareils.",
+      "explication": "Le panneau solaire produit de l’électricité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans une ampoule, l’énergie électrique devient lumière et…",
+      "options": [
+        "chaleur",
+        "vent",
+        "pétrole"
+      ],
+      "reponse": "chaleur",
+      "indice": "Touche une vieille ampoule allumée.",
+      "explication": "Une partie de l’énergie se transforme en chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-NRJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’énergie qu’apportent les aliments à notre corps est une énergie…",
+      "options": [
+        "chimique",
+        "éolienne",
+        "nucléaire"
+      ],
+      "reponse": "chimique",
+      "indice": "Elle est stockée dans les aliments.",
+      "explication": "Les aliments contiennent de l’énergie chimique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

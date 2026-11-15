@@ -1,0 +1,66 @@
+{
+  "programme": "EM-C3-2024",
+  "classe": "cm2",
+  "competences": [
+    {
+      "id": "EM-C3-CM2-CIT-01",
+      "titre": "Citoyenneté et nationalité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Citoyenneté et nationalité",
+      "attendu": "Connaitre le lien entre citoyenneté et nationalité, les droits civils et les droits politiques du citoyen.",
+      "exemple": "À 18 ans, une citoyenne française peut voter et se présenter aux élections.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 15,
+        "extrait": "Citoyenneté et nationalité"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM2-DEV-01",
+      "titre": "Les devoirs du citoyen",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Citoyenneté et nationalité",
+      "attendu": "Connaitre les devoirs du citoyen : respecter les lois, payer l’impôt, voter, défendre l’environnement.",
+      "exemple": "Les impôts permettent de financer les écoles, les hôpitaux et les routes.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 15,
+        "extrait": "L’étude de plusieurs articles de la DDHC permet également de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM2-SYM-01",
+      "titre": "Symboles et Union européenne",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Citoyenneté et nationalité",
+      "attendu": "Connaitre les symboles de la République (drapeau, hymne, devise, Marianne, 14 juillet) et savoir que la France est membre de l’Union européenne.",
+      "exemple": "Sur la mairie flottent le drapeau tricolore et le drapeau européen aux douze étoiles.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 16,
+        "extrait": "Connaître le drapeau européen, comprendre pourquoi il est"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM2-LIB-01",
+      "titre": "Libertés et droits fondamentaux",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Libertés et droits fondamentaux",
+      "attendu": "Connaitre les libertés et droits fondamentaux (expression, opinion, association, éducation, santé) et leurs limites.",
+      "exemple": "La liberté d’expression permet de dire ce que l’on pense, sans insulter ni menacer.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 16,
+        "extrait": "Libertés et droits fondamentaux"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

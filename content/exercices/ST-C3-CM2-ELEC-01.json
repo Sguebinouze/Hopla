@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-ELEC-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-ELEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pour que la lampe brille, le circuit doit être…",
+      "options": [
+        "fermé",
+        "ouvert",
+        "coupé"
+      ],
+      "reponse": "fermé",
+      "indice": "Le courant doit faire tout le tour.",
+      "explication": "Le courant circule seulement dans un circuit fermé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel élément fournit le courant dans un circuit de classe ?",
+      "options": [
+        "la pile",
+        "la lampe",
+        "l’interrupteur"
+      ],
+      "reponse": "la pile",
+      "indice": "C’est le générateur.",
+      "explication": "La pile est le générateur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que sert à faire l’interrupteur ?",
+      "options": [
+        "ouvrir ou fermer le circuit",
+        "produire du courant",
+        "colorer la lumière"
+      ],
+      "reponse": "ouvrir ou fermer le circuit",
+      "indice": "Il coupe ou laisse passer le courant.",
+      "explication": "L’interrupteur ouvre ou ferme le circuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Si on relie directement les deux bornes de la pile avec un fil, on fait…",
+      "options": [
+        "un court-circuit",
+        "un circuit en série normal",
+        "une économie"
+      ],
+      "reponse": "un court-circuit",
+      "indice": "C’est dangereux, la pile chauffe.",
+      "explication": "Relier les bornes directement, c’est un court-circuit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une lampe grillée dans un circuit à une boucle : les autres lampes…",
+      "options": [
+        "s’éteignent",
+        "brillent plus",
+        "ne changent pas"
+      ],
+      "reponse": "s’éteignent",
+      "indice": "Le circuit est coupé.",
+      "explication": "Le circuit est ouvert : tout s’éteint.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans le schéma d’un circuit, on représente les éléments par…",
+      "options": [
+        "des symboles",
+        "des photos",
+        "des couleurs au hasard"
+      ],
+      "reponse": "des symboles",
+      "indice": "Chaque élément a son dessin normalisé.",
+      "explication": "Un schéma utilise des symboles normalisés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne jamais toucher une prise avec les mains mouillées ?",
+      "options": [
+        "l’eau conduit le courant et on risque l’électrocution",
+        "l’eau éteint la prise",
+        "cela n’a aucun risque"
+      ],
+      "reponse": "l’eau conduit le courant et on risque l’électrocution",
+      "indice": "Le courant du secteur est dangereux.",
+      "explication": "L’eau favorise le passage du courant : danger d’électrocution.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ELEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La tension d’une prise de la maison est d’environ…",
+      "options": [
+        "230 volts",
+        "4,5 volts",
+        "1 volt"
+      ],
+      "reponse": "230 volts",
+      "indice": "Bien plus qu’une pile.",
+      "explication": "La prise délivre environ 230 V : c’est dangereux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

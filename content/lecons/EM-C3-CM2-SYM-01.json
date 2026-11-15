@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C3-CM2-SYM-01",
+  "exemple": "Le 11 novembre, devant le monument aux morts, on chante La Marseillaise.",
+  "regle": "Les **symboles** de la République sont le **drapeau tricolore**, **La Marseillaise**, la **devise**, **Marianne** et le **14 juillet**. La France est membre de l’**Union européenne** : drapeau bleu aux **douze étoiles**, hymne européen, **euro**.",
+  "piege": "Les douze étoiles du drapeau européen ne correspondent pas au nombre de pays.",
+  "essai": {
+    "consigne": "Combien d’étoiles sur le drapeau européen ?",
+    "options": [
+      "12",
+      "27",
+      "15"
+    ],
+    "reponse": "12",
+    "explication": "Le drapeau européen a douze étoiles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
