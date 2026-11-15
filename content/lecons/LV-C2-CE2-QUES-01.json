@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-QUES-01",
+  "exemple": "« Have you got a pet? » « Yes, I have. I’ve got a dog. »",
+  "regle": "Pour demander **où** quelqu’un habite : Where do you live? Pour demander s’il **a** quelque chose : Have you got…?",
+  "piege": "On répond « Yes, I have » ou « No, I haven’t ».",
+  "essai": {
+    "consigne": "Que réponds-tu à « Where do you live? » ?",
+    "options": [
+      "I live in Lille.",
+      "I’m eight.",
+      "Yes, I have."
+    ],
+    "reponse": "I live in Lille.",
+    "explication": "On te demande où tu habites."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

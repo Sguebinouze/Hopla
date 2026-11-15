@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-FAM-01",
+  "exemple": "« This is my house. My grandma is in the living room. »",
+  "regle": "La famille : **mum**, **dad**, **brother**, **sister**, **grandma**, **grandpa**. La maison : **kitchen**, **bedroom**, **garden**.",
+  "piege": "« Brother » est un garçon, « sister » est une fille. Ne les confonds pas.",
+  "essai": {
+    "consigne": "Que veut dire « sister » ?",
+    "options": [
+      "sœur",
+      "frère",
+      "mère"
+    ],
+    "reponse": "sœur",
+    "explication": "« Sister » veut dire sœur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

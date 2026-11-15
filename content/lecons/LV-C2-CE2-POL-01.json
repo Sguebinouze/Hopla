@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-POL-01",
+  "exemple": "« Can I have a pencil, please? » « Here you are. » « Thank you! »",
+  "regle": "**Please** : s’il te plait. **Thank you** : merci. **Sorry** : pardon. **You’re welcome** : de rien.",
+  "piege": "« Sorry » sert à s’excuser. « Excuse me » sert à attirer l’attention.",
+  "essai": {
+    "consigne": "Que dis-tu après avoir bousculé quelqu’un ?",
+    "options": [
+      "Sorry!",
+      "Thank you!",
+      "Hello!"
+    ],
+    "reponse": "Sorry!",
+    "explication": "On s’excuse avec « Sorry! »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

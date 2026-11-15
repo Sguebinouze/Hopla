@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CE2-POL-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-POL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Pardon.",
+        "Merci.",
+        "Bravo."
+      ],
+      "reponse": "Pardon.",
+      "indice": "On le dit quand on bouscule.",
+      "explication": "« Sorry » veut dire pardon.",
+      "ecoute": {
+        "texte": "Sorry!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "S’il te plait.",
+        "Au revoir.",
+        "Bonne nuit."
+      ],
+      "reponse": "S’il te plait.",
+      "indice": "On le dit pour demander.",
+      "explication": "« Please » veut dire s’il te plait.",
+      "ecoute": {
+        "texte": "Please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Merci beaucoup.",
+        "Bonne journée.",
+        "À bientôt."
+      ],
+      "reponse": "Merci beaucoup.",
+      "indice": "« Thank you » veut dire merci.",
+      "explication": "« Thank you very much » : merci beaucoup.",
+      "ecoute": {
+        "texte": "Thank you very much.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "De rien.",
+        "Pardon.",
+        "Bienvenue."
+      ],
+      "reponse": "De rien.",
+      "indice": "On le dit après un merci.",
+      "explication": "« You’re welcome » : de rien.",
+      "ecoute": {
+        "texte": "You’re welcome.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Excuse-moi.",
+        "Merci.",
+        "Bravo."
+      ],
+      "reponse": "Excuse-moi.",
+      "indice": "On le dit pour passer ou interrompre.",
+      "explication": "« Excuse me » : excuse-moi.",
+      "ecoute": {
+        "texte": "Excuse me.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelqu’un te dit « Thank you! ». Que réponds-tu ?",
+      "options": [
+        "You’re welcome.",
+        "Sorry.",
+        "Goodbye."
+      ],
+      "reponse": "You’re welcome.",
+      "indice": "On répond poliment.",
+      "explication": "On répond « You’re welcome » : de rien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "That’s OK.",
+        "Thank you.",
+        "Hello."
+      ],
+      "reponse": "That’s OK.",
+      "indice": "On te demande pardon.",
+      "explication": "On répond « That’s OK » : ce n’est pas grave.",
+      "ecoute": {
+        "texte": "Sorry!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-POL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demandes-tu poliment un crayon ?",
+      "options": [
+        "Can I have a pencil, please?",
+        "Give pencil!",
+        "Pencil, sorry."
+      ],
+      "reponse": "Can I have a pencil, please?",
+      "indice": "N’oublie pas « please ».",
+      "explication": "On demande « Can I have a pencil, please? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

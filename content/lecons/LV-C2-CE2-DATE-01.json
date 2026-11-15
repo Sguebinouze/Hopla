@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-DATE-01",
+  "exemple": "« What day is it today? » « It’s Tuesday. »",
+  "regle": "Les jours : **Monday**, **Tuesday**, **Wednesday**, **Thursday**, **Friday**, **Saturday**, **Sunday**.",
+  "piege": "En anglais, les jours et les mois prennent une majuscule.",
+  "essai": {
+    "consigne": "Que veut dire « Saturday » ?",
+    "options": [
+      "samedi",
+      "dimanche",
+      "vendredi"
+    ],
+    "reponse": "samedi",
+    "explication": "« Saturday » veut dire samedi."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

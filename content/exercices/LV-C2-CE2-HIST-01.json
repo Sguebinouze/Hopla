@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CE2-HIST-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-HIST-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui a faim ?",
+      "options": [
+        "L’ours.",
+        "Le chat.",
+        "Le lapin."
+      ],
+      "reponse": "L’ours.",
+      "indice": "« Bear » veut dire ours.",
+      "explication": "« The bear is hungry » : l’ours a faim.",
+      "ecoute": {
+        "texte": "The bear is hungry.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que mange l’ours ?",
+      "options": [
+        "Du miel.",
+        "Du pain.",
+        "Une pomme."
+      ],
+      "reponse": "Du miel.",
+      "indice": "« Honey » veut dire miel.",
+      "explication": "« He eats honey » : il mange du miel.",
+      "ecoute": {
+        "texte": "He eats honey.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où est le chat ?",
+      "options": [
+        "Dans l’arbre.",
+        "Sous la table.",
+        "Dans la maison."
+      ],
+      "reponse": "Dans l’arbre.",
+      "indice": "« Tree » veut dire arbre.",
+      "explication": "« In the tree » : dans l’arbre.",
+      "ecoute": {
+        "texte": "The cat is in the tree.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait la petite fille ?",
+      "options": [
+        "Elle court dans la forêt.",
+        "Elle dort dans son lit.",
+        "Elle mange une soupe."
+      ],
+      "reponse": "Elle court dans la forêt.",
+      "indice": "« Forest » ressemble au français.",
+      "explication": "« She runs in the forest » : elle court dans la forêt.",
+      "ecoute": {
+        "texte": "The little girl runs in the forest.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment est le loup ?",
+      "options": [
+        "Grand et méchant.",
+        "Petit et gentil.",
+        "Triste et fatigué."
+      ],
+      "reponse": "Grand et méchant.",
+      "indice": "« Big » veut dire grand.",
+      "explication": "« Big bad wolf » : le grand méchant loup.",
+      "ecoute": {
+        "texte": "The big bad wolf.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Combien de petits cochons ?",
+      "options": [
+        "3",
+        "5",
+        "2"
+      ],
+      "reponse": "3",
+      "indice": "« Three » veut dire trois.",
+      "explication": "« Three little pigs » : trois petits cochons.",
+      "ecoute": {
+        "texte": "Three little pigs.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que se passe-t-il à la fin ?",
+      "options": [
+        "Le chat rentre à la maison.",
+        "Le chat part en voyage.",
+        "Le chat se cache."
+      ],
+      "reponse": "Le chat rentre à la maison.",
+      "indice": "« Home » veut dire maison.",
+      "explication": "« Goes home » : rentre à la maison.",
+      "ecoute": {
+        "texte": "At the end, the cat goes home.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-HIST-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi l’enfant est-il content ?",
+      "options": [
+        "Il a trouvé sa balle.",
+        "Il a perdu sa balle.",
+        "Il va à l’école."
+      ],
+      "reponse": "Il a trouvé sa balle.",
+      "indice": "« Found » veut dire trouvé.",
+      "explication": "« I found my ball » : j’ai trouvé ma balle.",
+      "ecoute": {
+        "texte": "I’m happy! I found my ball!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

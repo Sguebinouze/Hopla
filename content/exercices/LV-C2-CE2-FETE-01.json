@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CE2-FETE-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-FETE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Joyeux Noël.",
+        "Bonne année.",
+        "Joyeux anniversaire."
+      ],
+      "reponse": "Joyeux Noël.",
+      "indice": "« Christmas » veut dire Noël.",
+      "explication": "« Merry Christmas » : joyeux Noël.",
+      "ecoute": {
+        "texte": "Merry Christmas!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Joyeux anniversaire.",
+        "Joyeux Noël.",
+        "Bonne nuit."
+      ],
+      "reponse": "Joyeux anniversaire.",
+      "indice": "« Birthday » veut dire anniversaire.",
+      "explication": "« Happy birthday » : joyeux anniversaire.",
+      "ecoute": {
+        "texte": "Happy birthday!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Bonne année.",
+        "Bonne journée.",
+        "Bon appétit."
+      ],
+      "reponse": "Bonne année.",
+      "indice": "« Year » veut dire année.",
+      "explication": "« Happy New Year » : bonne année.",
+      "ecoute": {
+        "texte": "Happy New Year!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quelle fête dit-on « Trick or treat? » ?",
+      "options": [
+        "Halloween.",
+        "Noël.",
+        "Pâques."
+      ],
+      "reponse": "Halloween.",
+      "indice": "Les enfants se déguisent.",
+      "explication": "À Halloween, les enfants demandent des bonbons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que cherchent les enfants à Pâques ?",
+      "options": [
+        "Des œufs.",
+        "Des citrouilles.",
+        "Des cadeaux."
+      ],
+      "reponse": "Des œufs.",
+      "indice": "« Eggs » veut dire œufs.",
+      "explication": "« Easter eggs » : les œufs de Pâques.",
+      "ecoute": {
+        "texte": "Easter eggs!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que fête-t-on au Royaume-Uni le 5 novembre ?",
+      "options": [
+        "Bonfire Night, avec des feux.",
+        "Noël.",
+        "Pâques."
+      ],
+      "reponse": "Bonfire Night, avec des feux.",
+      "indice": "« Fire » veut dire feu.",
+      "explication": "Le 5 novembre, on allume des feux de joie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’est-ce qu’on voit à Halloween ?",
+      "options": [
+        "Une citrouille.",
+        "Un sapin.",
+        "Un lapin."
+      ],
+      "reponse": "Une citrouille.",
+      "indice": "« Pumpkin » veut dire citrouille.",
+      "explication": "À Halloween, on creuse des citrouilles.",
+      "ecoute": {
+        "texte": "A pumpkin.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FETE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui apporte les cadeaux de Noël au Royaume-Uni ?",
+      "options": [
+        "Father Christmas.",
+        "The Easter Bunny.",
+        "The Tooth Fairy."
+      ],
+      "reponse": "Father Christmas.",
+      "indice": "C’est le père Noël.",
+      "explication": "Au Royaume-Uni, c’est Father Christmas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

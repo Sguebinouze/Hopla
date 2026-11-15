@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-METEO-01",
+  "exemple": "« What’s the weather like today? » « It’s cloudy and cold. »",
+  "regle": "**It’s sunny** : il fait beau. **It’s raining** : il pleut. **It’s cold** : il fait froid. **It’s hot** : il fait chaud.",
+  "piege": "« It’s cold » parle du temps. « I’m cold » veut dire j’ai froid.",
+  "essai": {
+    "consigne": "Que veut dire « It’s snowing » ?",
+    "options": [
+      "Il neige.",
+      "Il pleut.",
+      "Il fait beau."
+    ],
+    "reponse": "Il neige.",
+    "explication": "« Snow » veut dire neige."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

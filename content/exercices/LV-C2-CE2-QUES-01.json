@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C2-CE2-QUES-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-QUES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Où habites-tu ?",
+        "Quel âge as-tu ?",
+        "Comment vas-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "indice": "« Live » veut dire habiter.",
+      "explication": "« Where do you live? » : où habites-tu ?",
+      "ecoute": {
+        "texte": "Where do you live?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "As-tu un frère ?",
+        "Où est ton frère ?",
+        "Qui est ton frère ?"
+      ],
+      "reponse": "As-tu un frère ?",
+      "indice": "« Have you got » veut dire as-tu.",
+      "explication": "« Have you got a brother? » : as-tu un frère ?",
+      "ecoute": {
+        "texte": "Have you got a brother?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "As-tu un animal ?",
+        "Aimes-tu les animaux ?",
+        "Où est ton chat ?"
+      ],
+      "reponse": "As-tu un animal ?",
+      "indice": "« Pet » veut dire animal de compagnie.",
+      "explication": "« Have you got a pet? » : as-tu un animal ?",
+      "ecoute": {
+        "texte": "Have you got a pet?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "Yes, I have.",
+        "I’m fine.",
+        "I’m nine."
+      ],
+      "reponse": "Yes, I have.",
+      "indice": "On te demande si tu as un chien.",
+      "explication": "À « Have you got a dog? », on répond « Yes, I have ».",
+      "ecoute": {
+        "texte": "Have you got a dog?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "I live in Nantes.",
+        "I like Nantes.",
+        "I am Nantes."
+      ],
+      "reponse": "I live in Nantes.",
+      "indice": "On te demande où tu habites.",
+      "explication": "On répond « I live in » et la ville.",
+      "ecoute": {
+        "texte": "Where do you live?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "C’est à qui ?",
+        "Qui est-ce ?",
+        "Où est-ce ?"
+      ],
+      "reponse": "C’est à qui ?",
+      "indice": "« Whose » sert à demander à qui.",
+      "explication": "« Whose bag is it? » : à qui est ce sac ?",
+      "ecoute": {
+        "texte": "Whose bag is it?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "No, I haven’t.",
+        "No, I am.",
+        "Yes, I live."
+      ],
+      "reponse": "No, I haven’t.",
+      "indice": "Réponse courte avec « have ».",
+      "explication": "Pour dire non, on répond « No, I haven’t ».",
+      "ecoute": {
+        "texte": "Have you got a sister?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-QUES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demandes-tu « as-tu un chat ? » ?",
+      "options": [
+        "Have you got a cat?",
+        "Where is a cat?",
+        "I have got a cat."
+      ],
+      "reponse": "Have you got a cat?",
+      "indice": "La question commence par « Have ».",
+      "explication": "On demande « Have you got a cat? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

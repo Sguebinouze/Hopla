@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CE2-PRES-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-PRES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui présente-t-on ?",
+      "options": [
+        "Un ami.",
+        "Un frère.",
+        "Un professeur."
+      ],
+      "reponse": "Un ami.",
+      "indice": "« Friend » veut dire ami.",
+      "explication": "« This is my friend » : voici mon ami.",
+      "ecoute": {
+        "texte": "This is my friend Sam.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel âge a Sam ?",
+      "options": [
+        "9 ans",
+        "7 ans",
+        "10 ans"
+      ],
+      "reponse": "9 ans",
+      "indice": "« Nine » veut dire neuf.",
+      "explication": "« He is nine » : il a neuf ans.",
+      "ecoute": {
+        "texte": "He is nine.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui présente-t-on ?",
+      "options": [
+        "Une sœur.",
+        "Une mère.",
+        "Une amie."
+      ],
+      "reponse": "Une sœur.",
+      "indice": "« Sister » veut dire sœur.",
+      "explication": "« This is my sister » : voici ma sœur.",
+      "ecoute": {
+        "texte": "This is my sister Emma.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où habite Emma ?",
+      "options": [
+        "À Londres.",
+        "À Paris.",
+        "À Dublin."
+      ],
+      "reponse": "À Londres.",
+      "indice": "« London » veut dire Londres.",
+      "explication": "« She lives in London » : elle habite à Londres.",
+      "ecoute": {
+        "texte": "She lives in London.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment présentes-tu ton frère Paul ?",
+      "options": [
+        "This is my brother Paul.",
+        "I am Paul.",
+        "Where is Paul?"
+      ],
+      "reponse": "This is my brother Paul.",
+      "indice": "« This is » veut dire voici.",
+      "explication": "On dit « This is my brother Paul ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On parle d’une fille. Quel mot utilise-t-on ?",
+      "options": [
+        "she",
+        "he",
+        "it"
+      ],
+      "reponse": "she",
+      "indice": "Pour un garçon, on dit « he ».",
+      "explication": "« She » veut dire elle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que sait-on de Tom ?",
+      "options": [
+        "Il a huit ans et habite à Leeds.",
+        "Il a dix ans et habite à Paris.",
+        "Il est le père de Sam."
+      ],
+      "reponse": "Il a huit ans et habite à Leeds.",
+      "indice": "Écoute le nombre et la ville.",
+      "explication": "Tom a huit ans et habite à Leeds.",
+      "ecoute": {
+        "texte": "This is Tom. He is eight. He lives in Leeds.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-PRES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « elle a dix ans » ?",
+      "options": [
+        "She is ten.",
+        "He is ten.",
+        "She has ten."
+      ],
+      "reponse": "She is ten.",
+      "indice": "En anglais, on dit « elle est dix ».",
+      "explication": "On dit « She is ten ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
