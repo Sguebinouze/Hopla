@@ -1,4 +1,6 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+import { definirApparence } from './apparence';
+import { avecHorsLigne } from './horsLigne';
 import { anneeScolaire } from './annee';
 import { majSuivi, type Suivi } from './progression';
 
@@ -19,6 +21,8 @@ export interface Enfant extends Profil {
   matieres_masquees?: string[];
   /** Temps de travail maximal par jour, en minutes ; null : pas de limite. */
   minutes_par_jour?: number | null;
+  /** Apparence d'Octave choisie par l'enfant (« couleur.accessoire ») ; null : d'origine. */
+  octave?: string | null;
 }
 
 export const AVATARS = ['orange', 'violet', 'teal', 'framboise'] as const;
@@ -152,6 +156,8 @@ export interface Api {
   /** Supprime le compte du parent ; les enfants restent si un autre parent est membre. */
   supprimerMonCompte(): Promise<void>;
   // Enfant en session.
+  /** L'enfant choisit son avatar et l'apparence d'Octave. */
+  reglerMonProfil(avatar: string, octave: string | null): Promise<void>;
   noterLecon(competence: string): Promise<void>;
   /** Minutes de travail aujourd'hui (questions répondues). */
   minutesAujourdhui(): Promise<number>;
@@ -226,7 +232,8 @@ function apiSupabase(url: string, cle: string): Api {
 
   const fermerTout = async () => {
     if (sessionStorage.getItem(CLE_SESSION) || sessionStorage.getItem(CLE_PARENT)) {
-      await client.rpc('fermer_sessions');
+      // Sans réseau, la session expirera d'elle-même côté serveur ; on la ferme ici quand même.
+      await client.rpc('fermer_sessions').then(() => undefined, () => undefined);
     }
     sessionStorage.removeItem(CLE_SESSION);
     sessionStorage.removeItem(CLE_PARENT);
@@ -268,7 +275,7 @@ function apiSupabase(url: string, cle: string): Api {
       if (!sessionStorage.getItem(CLE_SESSION) || !id) return null;
       const { data, error } = await client
         .from('enfants')
-        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour')
+        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave')
         .eq('id', id)
         .maybeSingle();
       if (error) throw error;
@@ -317,7 +324,7 @@ function apiSupabase(url: string, cle: string): Api {
     },
     async suiviParent() {
       const { data: enfants, error } = await client.from('enfants')
-        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour').order('cree_le');
+        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave').order('cree_le');
       if (error) throw error;
       const { data: lignes, error: e2 } = await client.from('progression_competences')
         .select(`enfant_id, ${COLONNES_PROGRESSION}`);
@@ -344,7 +351,7 @@ function apiSupabase(url: string, cle: string): Api {
         try { localStorage.removeItem(CLE_APPAREIL); } catch { /* rien */ }
         return null;
       }
-      const { data: ligne } = await client.from('enfants').select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour').eq('id', e.enfant_id).maybeSingle();
+      const { data: ligne } = await client.from('enfants').select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave').eq('id', e.enfant_id).maybeSingle();
       return (ligne as Enfant | null) ?? ({ id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'pictos' } as Enfant);
     },
     async lierAppareil(code) {
@@ -459,7 +466,7 @@ function apiSupabase(url: string, cle: string): Api {
       return {
         exporte_le: new Date().toISOString(),
         famille: await this.membresFamille(),
-        enfants: await tout('enfants', 'id, prenom, avatar, classe, xp, serie, derniere_activite, cree_le, matieres_masquees, minutes_par_jour'),
+        enfants: await tout('enfants', 'id, prenom, avatar, classe, xp, serie, derniere_activite, cree_le, matieres_masquees, minutes_par_jour, octave'),
         resultats: await tout('resultats', 'enfant_id, competence_id, contenu_id, annee_scolaire, reussi, indice, duree_ms, reponse, erreur, le'),
         progression: await tout('progression_competences', 'enfant_id, competence_id, score, nb_essais, prochaine_revision, maj_le'),
         lecons_vues: await tout('lecons_vues', 'enfant_id, competence_id, vues, derniere_vue'),
@@ -473,6 +480,10 @@ function apiSupabase(url: string, cle: string): Api {
       if (error) throw error;
       sessionStorage.clear();
       await client.auth.signOut();
+    },
+    async reglerMonProfil(avatar, octave) {
+      const { error } = await client.rpc('regler_mon_profil', { p_avatar: avatar, p_octave: octave });
+      if (error) throw error;
     },
     async noterLecon(competence) {
       const { error } = await client.rpc('noter_lecon', { p_competence: competence });
@@ -703,6 +714,10 @@ function apiDemo(): Api {
       return { exporte_le: new Date().toISOString(), enfants: lire(), suivi: lireJournal() };
     },
     supprimerMonCompte: async () => { throw new Error('Pas de compte à supprimer en mode démo.'); },
+    async reglerMonProfil(avatar, octave) {
+      const id = (await this.enfantCourant())?.id;
+      ecrire(lire().map((e) => (e.id === id ? { ...e, avatar, octave } : e)));
+    },
     async noterLecon(competence) {
       const id = (await this.enfantCourant())?.id;
       if (!id) return;
@@ -749,4 +764,21 @@ export const CODE_DE_DEMO = CODE_DEMO;
 
 const url = import.meta.env.VITE_SUPABASE_URL as string | undefined;
 const cle = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
-export const api: Api = url && cle ? apiSupabase(url, cle) : apiDemo();
+const base: Api = url && cle ? apiSupabase(url, cle) : apiDemo();
+export const api: Api = suivreApparence(base.mode === 'supabase' ? avecHorsLigne(base) : base);
+
+/** Les Octave de l'app prennent l'apparence choisie par l'enfant en session. */
+function suivreApparence(a: Api): Api {
+  const enfantCourant = a.enfantCourant.bind(a);
+  const fermerSession = a.fermerSession.bind(a);
+  a.enfantCourant = async () => {
+    const e = await enfantCourant();
+    definirApparence(e?.octave);
+    return e;
+  };
+  a.fermerSession = async () => {
+    definirApparence(null);
+    await fermerSession();
+  };
+  return a;
+}

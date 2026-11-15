@@ -1,10 +1,11 @@
+import { ChoixAvatar } from '../composants/ChoixAvatar';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Appareils } from '../composants/Appareils';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import {
-  api, AVATARS, type Appareil, type Classe, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
+  api, type Appareil, type Classe, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
 } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { bilan, CHIP_ETAT, etat, LIBELLE_ETAT, libelleErreur } from '../lib/progression';
@@ -236,14 +237,7 @@ function Reglages({ suivi, pack, appareils, onChange, onSupprime }: {
         </label>
         <fieldset className="fiche__groupe">
           <legend>Avatar</legend>
-          <div className="ligne">
-            {AVATARS.map((a) => (
-              <button key={a} type="button" aria-pressed={a === r.avatar} aria-label={`Avatar ${a}`}
-                className={`fiche__avatar${a === r.avatar ? ' fiche__avatar--choisi' : ''}`} onClick={() => setR({ ...r, avatar: a })}>
-                <Avatar teinte={a} taille={44} />
-              </button>
-            ))}
-          </div>
+          <ChoixAvatar valeur={r.avatar} taille={44} onChange={(avatar) => setR({ ...r, avatar })} />
         </fieldset>
         <label>Classe
           <select value={r.classe} onChange={(e) => setR({ ...r, classe: e.target.value as Classe })}>

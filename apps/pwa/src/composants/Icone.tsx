@@ -41,6 +41,18 @@ const CHEMINS = {
     </>
   ),
   lune: <path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" />,
+  coupe: (
+    <>
+      <path d="M8 4h8v5a4 4 0 01-8 0V4z" />
+      <path d="M8 6H5a3 3 0 003 4M16 6h3a3 3 0 01-3 4M12 13v4M8 21h8M9 17h6" />
+    </>
+  ),
+  nuage: (
+    <>
+      <path d="M7 18a4 4 0 01-.6-8A6 6 0 0118 9a4.5 4.5 0 01-.5 9z" />
+      <path d="M4 4l16 16" />
+    </>
+  ),
   // Matières.
   plume: (
     <>

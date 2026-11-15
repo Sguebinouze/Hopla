@@ -153,3 +153,32 @@ a.hp-chip { text-decoration: none; }
 :root { color-scheme: light; }
 [data-theme="dark"] { color-scheme: dark; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; } }
+
+/* Profil de l'enfant. */
+.accueil__avatar { line-height: 0; border-radius: 50%; }
+.accueil__avatar:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.profil__tete { display: flex; align-items: center; gap: var(--space-3); }
+.profil__section { display: flex; flex-direction: column; gap: var(--space-3); }
+.profil__section .titre-3 { margin: 0; }
+.profil__octave { display: flex; align-items: center; gap: var(--space-3); }
+.profil__octave svg { flex-shrink: 0; }
+.profil__accessoire { border: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 600; }
+.profil__accessoire:disabled { opacity: .55; cursor: default; }
+.choix-avatar { display: flex; flex-direction: column; gap: var(--space-3); }
+.choix-avatar__ligne { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.choix-avatar__teinte { width: 36px; height: 36px; border-radius: 50%; border: 3px solid var(--surface-1); box-shadow: 0 0 0 2px var(--line);
+  cursor: pointer; padding: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--on-primary); }
+.choix-avatar__teinte--choisie { box-shadow: 0 0 0 3px var(--primary); }
+.choix-avatar__teinte:disabled { cursor: default; opacity: .45; }
+.choix-avatar__teinte:focus-visible, .fiche__avatar:focus-visible, .profil__accessoire:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.collection { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--space-2); }
+.trophee { display: flex; flex-direction: column; gap: var(--space-1); padding: var(--space-3); border-radius: var(--radius-md);
+  background: var(--surface-2); color: var(--ink-muted); }
+.trophee--gagne { background: var(--sun-soft); color: var(--ink); }
+.trophee__icone { width: 36px; height: 36px; border-radius: var(--radius-sm); display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface-1); color: var(--ink-muted); }
+.trophee--gagne .trophee__icone { background: var(--sun); color: var(--on-sun); }
+.trophee__nom { font-weight: 600; font-size: 14px; }
+.trophee__condition { font-size: 12px; line-height: 16px; }
+.etat-reseau { display: flex; align-items: center; gap: var(--space-2); margin: 0; padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md); background: var(--surface-2); color: var(--ink-muted); font-size: 13px; }

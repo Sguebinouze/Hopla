@@ -1,3 +1,5 @@
+import { EtatReseau } from '../composants/EtatReseau';
+import { XP_PAR_NIVEAU } from '../lib/apparence';
 import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -11,7 +13,6 @@ import { bilan, etat, type Suivi } from '../lib/progression';
 import { dateLisible } from '../lib/entrainement';
 import type { ControlePrevu } from '../lib/donnees';
 
-const XP_PAR_NIVEAU = 200;
 const COULEUR_MATIERE: Record<string, string> = {
   francais: 'hp-subj-francais', mathematiques: 'hp-subj-maths', 'questionner-le-monde': 'hp-subj-histgeo',
   'histoire-geographie': 'hp-subj-histgeo', 'sciences-technologie': 'hp-subj-sciences', svt: 'hp-subj-sciences',
@@ -70,7 +71,9 @@ export function Accueil() {
   return (
     <main className="ecran">
       <div className="ligne">
-        <Avatar teinte={enfant.avatar} taille={44} />
+        <Link to="/profil" className="accueil__avatar" aria-label="Mon profil : avatar, Octave et collection">
+          <Avatar teinte={enfant.avatar} taille={44} />
+        </Link>
         <div className="pousse">
           <h1 className="titre-2">Salut {enfant.prenom}</h1>
           <p className="muet">{enfant.classe.toUpperCase()} · ta session</p>
@@ -86,6 +89,7 @@ export function Accueil() {
         </div>
       </div>
 
+      <EtatReseau />
       {erreur && <p className="erreur">{erreur}</p>}
 
       {enfant.minutes_par_jour ? (

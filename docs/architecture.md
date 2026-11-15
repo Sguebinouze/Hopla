@@ -1,6 +1,6 @@
 # Architecture des comptes, des accès et des espaces
 
-Référence pour les deux sessions. Principe directeur : **le moins de données possible**. Enfant : prénom (ou pseudo), avatar, classe. Parent : adresse de connexion. Jamais de nom, d'adresse, de téléphone, de date de naissance ni de photo d'enfant.
+Référence pour les deux sessions. Principe directeur : **le moins de données possible**. Enfant : prénom (ou pseudo), avatar, classe. L'apparence d'Octave choisie par l'enfant (`enfants.octave`, couleur et accessoire) est un réglage d'affichage, pas une donnée personnelle. Parent : adresse de connexion. Jamais de nom, d'adresse, de téléphone, de date de naissance ni de photo d'enfant.
 
 ## Acteurs et accès
 
@@ -28,15 +28,17 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 
 **Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle prévu, réglages et appareils.
 
-**Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. À venir (lot 3) : profil (avatar, Octave personnalisable, collection), mode hors connexion.
+**Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. Profil (`/profil`) : avatar (7 personnages, 8 teintes), Octave (6 couleurs, 6 accessoires, débloqués par niveau), collection de trophées calculés à partir de la progression (rien de plus n'est enregistré).
+
+**Hors connexion** (`apps/pwa/src/lib/horsLigne.ts`) : l'app et les packs sont mis en cache par le service worker ; l'enfant en session garde une copie de son profil, de sa progression, de ses records et de son contrôle ; ses réponses, leçons vues et records attendent dans une file, envoyée dans l'ordre au retour du réseau. Limite : ouvrir une session sur un appareil familial demande le réseau (l'appareil appairé de l'enfant, lui, fonctionne sans). Les réponses envoyées plus tard sont datées du moment de l'envoi.
 
 **Admin** (`/admin`) : relecture ; module chargé à part.
 
 ## Lots
 
 1. Famille, co-parent, appairage des appareils, connexion Apple et Google (si activée dans Supabase), records et contrôles en base. **Fait le 16 novembre 2026.**
-2. Fiche enfant complète (progression par notion, séances, leçons consultées), réglages par enfant (prénom, avatar, classe, code, matières, temps de travail par jour), export et suppression des données.
-3. Profil enfant, mode hors connexion.
+2. Fiche enfant complète (progression par notion, séances, leçons consultées), réglages par enfant (prénom, avatar, classe, code, matières, temps de travail par jour), export et suppression des données. **Fait le 16 novembre 2026.**
+3. Profil enfant, mode hors connexion. **Fait le 16 novembre 2026.**
 4. Bilan du dimanche par email, contrôle programmé par le parent.
 5. Photo de leçon, cahier de vacances, défi de la semaine en famille.
 

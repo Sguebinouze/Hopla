@@ -10,6 +10,7 @@ import { Exercice } from './pages/Exercice';
 import { FicheEnfant } from './pages/FicheEnfant';
 import { Lecon } from './pages/Lecon';
 import { Appairer } from './pages/Appairer';
+import { Profil } from './pages/Profil';
 import { Controle } from './pages/Controle';
 import { Defi } from './pages/Defi';
 import { Matiere } from './pages/Matiere';
@@ -32,6 +33,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/lecon/:competence" element={<Lecon />} />
         <Route path="/defi/:id" element={<Defi />} />
         <Route path="/controle" element={<Controle />} />
+        <Route path="/profil" element={<Profil />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />

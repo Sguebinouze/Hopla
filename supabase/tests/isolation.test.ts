@@ -271,6 +271,21 @@ describe('sessions et isolation', () => {
     expect((await une<boolean>({ parent: PARENT_A }, `select public.mode_parent_actif() as m`))!.m).toBe(false);
   });
 
+  it('profil : l’enfant règle son avatar et son Octave, pour lui seul', async () => {
+    const lea_ = { parent: PARENT_A, enfant: sessionLea };
+    await en(lea_, `select public.regler_mon_profil('chat-bleu', 'violet.lunettes')`);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, `select avatar, octave from public.enfants where id = $1`, [lea]))
+      .toEqual([{ avatar: 'chat-bleu', octave: 'violet.lunettes' }]);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, `select avatar from public.enfants where id = $1`, [tom])).not.toEqual([{ avatar: 'chat-bleu' }]);
+    await expect(en({ parent: PARENT_A, parentMode: modeA }, `select public.regler_mon_profil('chat-bleu', null)`)).rejects.toThrow(/Session enfant requise/);
+    await expect(en({ parent: PARENT_B }, `select public.regler_mon_profil('chat-bleu', null)`)).rejects.toThrow(/Session enfant requise/);
+    await expect(surAppareil(null, `select public.regler_mon_profil('chat-bleu', null)`)).rejects.toThrow(/Session enfant requise/);
+    await expect(en(lea_, `select public.regler_mon_profil('<script>', null)`)).rejects.toThrow(/check constraint/);
+    await expect(en(lea_, `select public.regler_mon_profil('chat-bleu', 'pas valide')`)).rejects.toThrow(/check constraint/);
+    await expect(en(lea_, `update public.enfants set octave = 'or.couronne' where id = $1`, [lea])).rejects.toThrow(/permission denied/);
+    await en(lea_, `select public.regler_mon_profil('teal', null)`);
+  });
+
   it('suppression du compte : les enfants restent si un autre parent est membre, sinon tout part', async () => {
     await expect(en({ parent: PARENT_C }, `select public.supprimer_mon_compte()`)).rejects.toThrow(/Mode parent requis/);
     const modeC = (await une<string>({ parent: PARENT_C }, `select public.ouvrir_mode_parent('7777') as j`))!.j!;
