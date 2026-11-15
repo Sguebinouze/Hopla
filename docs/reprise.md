@@ -41,9 +41,9 @@ Session VS Code (français et maths) :
 Session cloud (app et autres matières) :
 - Fait : littérature de 6e (5 entrées du programme, `FR-C3-6E-LITT-01` à `05`), avec 45 questions rédigées et 5 leçons, en brouillon. `FR-C3-2025/6e.json` revient à la session VS Code.
 - Fait : anglais CE1 (5 compétences en écoute, champ `ecoute` des exercices, lu en anglais par la PWA) et 6e (11 compétences, programme BO n°22 de 2025 appliqué en 6e depuis la rentrée 2025 d'après l'académie de Bordeaux, à confirmer sur l'arrêté). 133 questions et 16 leçons en brouillon.
-2. Autres matières des autres classes.
 - Fait : page de relecture (artefact claude.ai « Relecture Hopla ») avec notions, leçons et questions rédigées, validation par notion. Générée par `outils/relecture/construire.py` ; décisions dans sa base (collections `notions`, `lecons`, `questions`). Appliquer les décisions : statut `publie`, `relu_par: "Laurent"` pour les éléments validés, corrections pour les autres ; les notions validées passent en `verifie`.
-3. Autres matières des autres classes.
+1. Autres matières des autres classes (questionner le monde CP et CE2, histoire-géographie, sciences et EMC du CM1 à la 3e, anglais des autres classes).
+2. Appliquer les décisions de relecture dès que Laurent en a pris.
 
 ## Travail à deux sessions
 
