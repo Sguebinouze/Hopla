@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-5E-NUT-01",
+  "exercices": [
+    {
+      "id": "SV-C4-5E-NUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "De quoi une plante verte a-t-elle besoin pour produire sa matière ?",
+      "options": [
+        "lumière, eau, sels minéraux, dioxyde de carbone",
+        "viande et sucre",
+        "uniquement d’obscurité"
+      ],
+      "reponse": "lumière, eau, sels minéraux, dioxyde de carbone",
+      "indice": "Elle ne mange pas d’autres êtres vivants.",
+      "explication": "La plante produit sa matière avec lumière, eau, sels minéraux et CO2.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel gaz les animaux prélèvent-ils pour respirer ?",
+      "options": [
+        "le dioxygène",
+        "le dioxyde de carbone",
+        "l’hélium"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "On l’inspire.",
+      "explication": "Les animaux prélèvent du dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pigment vert permet aux plantes de capter la lumière ?",
+      "options": [
+        "la chlorophylle",
+        "l’hémoglobine",
+        "la mélanine"
+      ],
+      "reponse": "la chlorophylle",
+      "indice": "Elle donne leur couleur aux feuilles.",
+      "explication": "La chlorophylle capte la lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz une plante verte rejette-t-elle à la lumière ?",
+      "options": [
+        "le dioxygène",
+        "le dioxyde de carbone uniquement",
+        "le méthane"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "C’est un produit de la photosynthèse.",
+      "explication": "À la lumière, la plante rejette du dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les plantes respirent-elles ?",
+      "options": [
+        "oui, jour et nuit",
+        "non, jamais",
+        "seulement le jour"
+      ],
+      "reponse": "oui, jour et nuit",
+      "indice": "Toutes les cellules vivantes respirent.",
+      "explication": "Les plantes respirent en permanence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Par où une plante absorbe-t-elle l’eau et les sels minéraux ?",
+      "options": [
+        "par les racines",
+        "par les fleurs",
+        "par les fruits"
+      ],
+      "reponse": "par les racines",
+      "indice": "Elles sont dans le sol.",
+      "explication": "Les racines absorbent l’eau et les sels minéraux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel rôle jouent les micro-organismes décomposeurs du sol ?",
+      "options": [
+        "ils transforment la matière morte en sels minéraux",
+        "ils produisent de la lumière",
+        "ils mangent les plantes vivantes"
+      ],
+      "reponse": "ils transforment la matière morte en sels minéraux",
+      "indice": "Ils recyclent la matière.",
+      "explication": "Les décomposeurs recyclent la matière morte en sels minéraux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-NUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les animaux sont dits « hétérotrophes » car ils…",
+      "options": [
+        "se nourrissent d’autres êtres vivants",
+        "fabriquent leur matière seuls",
+        "ne respirent pas"
+      ],
+      "reponse": "se nourrissent d’autres êtres vivants",
+      "indice": "Contrairement aux plantes vertes.",
+      "explication": "Les animaux dépendent d’autres êtres vivants pour se nourrir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

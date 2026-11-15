@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-MVT-01",
+  "exemple": "Sur la vidéo, la balle descend la pente de plus en plus vite : le mouvement est accéléré.",
+  "regle": "Un **mouvement** se décrit **par rapport à un objet de référence**. On précise la **trajectoire** (rectiligne, circulaire) et la **vitesse** : valeur, **direction** et **sens**. Vitesse moyenne : **v = d / t**. Le mouvement est **uniforme**, **accéléré** ou **ralenti**.",
+  "piege": "Pour calculer une vitesse, distance et durée doivent être dans des unités cohérentes.",
+  "essai": {
+    "consigne": "Un coureur parcourt 100 m en 20 s. Sa vitesse moyenne est…",
+    "options": [
+      "5 m/s",
+      "2 000 m/s",
+      "0,2 m/s"
+    ],
+    "reponse": "5 m/s",
+    "explication": "100 ÷ 20 = 5 m/s."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

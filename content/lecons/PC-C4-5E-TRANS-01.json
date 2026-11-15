@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-TRANS-01",
+  "exemple": "Je verse du vinaigre sur du bicarbonate : ça mousse, un gaz se dégage.",
+  "regle": "Lors d’une **transformation chimique**, des **réactifs** sont consommés et des **produits** apparaissent. La **combustion** nécessite un combustible et du **dioxygène** ; celle du carbone produit du **dioxyde de carbone**, qui trouble l’**eau de chaux**. À la différence d’un changement d’état, de nouvelles espèces se forment.",
+  "piege": "Un changement d’état n’est pas une transformation chimique : l’espèce reste la même.",
+  "essai": {
+    "consigne": "Quel gaz trouble l’eau de chaux ?",
+    "options": [
+      "le dioxyde de carbone",
+      "le dioxygène",
+      "l’hydrogène"
+    ],
+    "reponse": "le dioxyde de carbone",
+    "explication": "Le dioxyde de carbone trouble l’eau de chaux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

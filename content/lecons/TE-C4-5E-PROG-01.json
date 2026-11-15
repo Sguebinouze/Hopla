@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-PROG-01",
+  "exemple": "Le robot de la classe tournait trop vite ; on a réduit la vitesse dans le programme.",
+  "regle": "Un **programme** pilote un objet : il lit des **capteurs**, applique des **conditions** et des **boucles**, puis commande des **actionneurs**. Les **variables** stockent des valeurs. **Modifier les paramètres** (seuil, durée, vitesse) change le comportement ; on **teste** ensuite pour valider.",
+  "piege": "Un capteur ne fait rien seul : c’est le programme qui décide de l’action.",
+  "essai": {
+    "consigne": "Un détecteur de lumière est…",
+    "options": [
+      "un capteur",
+      "un actionneur",
+      "une variable"
+    ],
+    "reponse": "un capteur",
+    "explication": "Un détecteur de lumière est un capteur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

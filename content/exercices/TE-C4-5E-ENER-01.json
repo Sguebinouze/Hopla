@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-ENER-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-ENER-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans une trottinette électrique, quel constituant stocke l’énergie ?",
+      "options": [
+        "la batterie",
+        "le guidon",
+        "le frein"
+      ],
+      "reponse": "la batterie",
+      "indice": "On la recharge.",
+      "explication": "La batterie stocke l’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel constituant convertit l’énergie électrique en mouvement ?",
+      "options": [
+        "le moteur",
+        "la batterie",
+        "le câble"
+      ],
+      "reponse": "le moteur",
+      "indice": "Il fait tourner la roue.",
+      "explication": "Le moteur convertit l’énergie électrique en énergie mécanique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle énergie entre dans un sèche-cheveux ?",
+      "options": [
+        "électrique",
+        "chimique",
+        "éolienne"
+      ],
+      "reponse": "électrique",
+      "indice": "On le branche sur une prise.",
+      "explication": "Le sèche-cheveux reçoit de l’énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les fonctions de la chaine d’énergie sont : alimenter, distribuer, convertir et…",
+      "options": [
+        "transmettre",
+        "acquérir",
+        "communiquer"
+      ],
+      "reponse": "transmettre",
+      "indice": "L’énergie arrive à l’effecteur.",
+      "explication": "Alimenter, distribuer, convertir, transmettre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle énergie sort principalement d’un radiateur électrique ?",
+      "options": [
+        "thermique",
+        "lumineuse",
+        "cinétique"
+      ],
+      "reponse": "thermique",
+      "indice": "Il chauffe.",
+      "explication": "Le radiateur produit de l’énergie thermique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un interrupteur dans la chaine d’énergie sert à…",
+      "options": [
+        "distribuer ou couper l’énergie",
+        "stocker l’énergie",
+        "convertir l’énergie"
+      ],
+      "reponse": "distribuer ou couper l’énergie",
+      "indice": "Il laisse passer ou non.",
+      "explication": "L’interrupteur distribue l’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans un vélo à assistance électrique, quel élément transmet le mouvement à la roue ?",
+      "options": [
+        "la chaine et les engrenages",
+        "la batterie",
+        "l’écran"
+      ],
+      "reponse": "la chaine et les engrenages",
+      "indice": "Ils relient le moteur ou le pédalier à la roue.",
+      "explication": "La chaine transmet le mouvement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENER-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle chaine traite les informations des capteurs ?",
+      "options": [
+        "la chaine d’information",
+        "la chaine d’énergie",
+        "aucune"
+      ],
+      "reponse": "la chaine d’information",
+      "indice": "Acquérir, traiter, communiquer.",
+      "explication": "La chaine d’information traite les données des capteurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

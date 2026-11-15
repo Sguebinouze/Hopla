@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-NUM-01",
+  "exemple": "Pour son exposé, Malik range ses images dans un dossier « Exposé » et ses textes dans un autre.",
+  "regle": "Les **données** sont stockées dans des **fichiers** (texte, image, son) identifiés par leur **extension** et rangés dans une **arborescence** de dossiers. L’information se mesure en **bits** et en **octets** (ko, Mo, Go). La **cybersécurité** repose sur des mots de passe robustes et l’**authentification**. On respecte le **droit d’auteur** et on refuse les **cyberviolences**.",
+  "piege": "Un mot de passe partagé, même avec un ami, n’est plus un mot de passe sûr.",
+  "essai": {
+    "consigne": "Combien de bits dans un octet ?",
+    "options": [
+      "8",
+      "10",
+      "2"
+    ],
+    "reponse": "8",
+    "explication": "Un octet vaut 8 bits."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

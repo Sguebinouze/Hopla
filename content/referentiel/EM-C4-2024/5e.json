@@ -1,0 +1,51 @@
+{
+  "programme": "EM-C4-2024",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "EM-C4-5E-EGA-01",
+      "titre": "Égalité femmes-hommes",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Agir pour l’égalité femmes-hommes et lutter contre les discriminations",
+      "attendu": "Comprendre que l’égalité femmes-hommes est un principe de la République, fruit de combats, et que des inégalités persistent.",
+      "exemple": "Depuis la loi sur la parité de 2000, les listes électorales doivent compter autant de femmes que d’hommes.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 19,
+        "extrait": "Agir pour l’égalité femmes-hommes et lutter contre les discriminations (9-11 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-5E-DIS-01",
+      "titre": "Discriminations et harcèlement",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Agir pour l’égalité femmes-hommes et lutter contre les discriminations",
+      "attendu": "Savoir que la discrimination est un délit, identifier racisme, antisémitisme et harcèlement comme des atteintes punies par la loi.",
+      "exemple": "Refuser un logement à quelqu’un à cause de son origine est une discrimination punie par la loi.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 20,
+        "extrait": "À partir de l’expression de stéréotypes ou de préjugés,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-5E-SOL-01",
+      "titre": "La solidarité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La solidarité et ses échelles",
+      "attendu": "Comprendre le principe de solidarité nationale, le rôle de l’impôt, de la Sécurité sociale, des collectivités et des associations.",
+      "exemple": "Grâce à la Sécurité sociale, une grande partie des frais médicaux est remboursée.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 20,
+        "extrait": "La solidarité et ses échelles (7-9 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

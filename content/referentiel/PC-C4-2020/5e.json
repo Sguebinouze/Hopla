@@ -1,0 +1,81 @@
+{
+  "programme": "PC-C4-2020",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "PC-C4-5E-MAT-01",
+      "titre": "États de la matière, mélanges",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Distinguer corps purs et mélanges, décrire les changements d’état, la conservation de la masse et la non-conservation du volume.",
+      "exemple": "Quand l’eau gèle, sa masse reste la même, mais son volume augmente.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Dès la classe de 5e, les activités proposées permettent de consolider les notions d'espèce"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-5E-TRANS-01",
+      "titre": "Les transformations chimiques",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire et expliquer des transformations chimiques",
+      "attendu": "Reconnaitre une transformation chimique : des réactifs disparaissent, des produits apparaissent ; exemple des combustions.",
+      "exemple": "Le carbone brule dans le dioxygène : il se forme du dioxyde de carbone, qui trouble l’eau de chaux.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 101,
+        "extrait": "transformations chimiques dès la classe de 5e, avec des liens possibles avec l'histoire des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01",
+      "titre": "Sources et conversions d’énergie",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "L’énergie, ses transferts et ses conversions",
+      "attendu": "Identifier les sources, les formes et les conversions d’énergie, et comparer des ordres de grandeur.",
+      "exemple": "Dans une éolienne, l’énergie cinétique du vent est convertie en énergie électrique.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 103,
+        "extrait": "L'étude du thème de l'énergie gagne à être présente chaque année. La classe de 5e est"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01",
+      "titre": "Circuits électriques",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "Réaliser des circuits électriques simples",
+      "attendu": "Réaliser des circuits en série et en dérivation et connaitre les premières propriétés du courant et de la tension.",
+      "exemple": "Dans un circuit en série, si une lampe est dévissée, l’autre s’éteint aussi.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "Dès la classe de 5e, la mise en œuvre de circuits simples visant à réaliser des fonctions"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-5E-MVT-01",
+      "titre": "Mouvement et vitesse",
+      "domaine": "Mouvement et interactions",
+      "theme": "Caractériser un mouvement",
+      "attendu": "Caractériser un mouvement par sa trajectoire, la valeur, la direction et le sens de sa vitesse ; calculer v = d / t.",
+      "exemple": "Un cycliste parcourt 30 km en 2 h : sa vitesse moyenne est de 15 km/h.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 102,
+        "extrait": "Le concept de vitesse est réinvesti et approfondi dès le"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

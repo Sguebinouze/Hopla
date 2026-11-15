@@ -53,7 +53,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - Le test des packs (`packages/content/src/verifier.test.ts`) ne compte plus un nombre fixe de brouillons au CE2 : il compare au total des questions rédigées.
 - CM1 (fait) : histoire-géographie `HG-C3-2026` et sciences et technologie `ST-C3-2026`, appliqués au CM1 depuis la rentrée 2026, et EMC `EM-C3-2024`. 24 notions (8 + 11 + 5), 192 questions, 24 leçons.
 - CM2 (fait) : histoire-géographie `HG-C3-2020` et sciences et technologie `ST-C3-2023` (colonne « cours moyen » du programme, encore en vigueur au CM2 en 2026-2027), EMC `EM-C3-2024`. 20 notions (6 + 10 + 4), 160 questions, 20 leçons.
-- À suivre : cycle 4 (histoire-géographie, SVT et physique-chimie 2020, technologie 2024, EMC 2024), puis anglais des autres classes. Les programmes 2020 de SVT et de physique-chimie ne répartissent pas les notions par année : il faudra choisir la classe avec prudence, ou demander les repères annuels.
+- 5e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024`, EMC `EM-C4-2024` (thème « Égalité, fraternité et solidarité »). 22 notions (6 + 5 + 3 + 5 + 3), 176 questions, 22 leçons. Les programmes 2020 de SVT et de physique-chimie ne répartissent pas les notions par année : la classe est justifiée par les « repères de progressivité » cités en extrait (« dès la classe de 5e », « dès le début du cycle »). À confirmer à la relecture.
+- À suivre : 4e puis 3e (mêmes programmes), puis anglais des autres classes.
 
 ## Travail à deux sessions
 

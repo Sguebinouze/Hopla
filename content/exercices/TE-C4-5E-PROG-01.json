@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-PROG-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-PROG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un programme est…",
+      "options": [
+        "une suite d’instructions exécutées par une machine",
+        "un objet en bois",
+        "un fichier image"
+      ],
+      "reponse": "une suite d’instructions exécutées par une machine",
+      "indice": "Il est écrit dans un langage.",
+      "explication": "Un programme est une suite d’instructions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un capteur sert à…",
+      "options": [
+        "acquérir une information",
+        "produire du mouvement",
+        "stocker l’énergie"
+      ],
+      "reponse": "acquérir une information",
+      "indice": "Comme un détecteur de lumière.",
+      "explication": "Le capteur acquiert une information.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un actionneur sert à…",
+      "options": [
+        "agir, comme un moteur ou une lampe",
+        "mesurer la température",
+        "écrire le programme"
+      ],
+      "reponse": "agir, comme un moteur ou une lampe",
+      "indice": "Il produit une action.",
+      "explication": "L’actionneur produit une action.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une variable dans un programme sert à…",
+      "options": [
+        "stocker une valeur qui peut changer",
+        "dessiner",
+        "éteindre l’ordinateur"
+      ],
+      "reponse": "stocker une valeur qui peut changer",
+      "indice": "Comme un score dans un jeu.",
+      "explication": "Une variable stocke une valeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’instruction « si… alors… sinon » est…",
+      "options": [
+        "une structure conditionnelle",
+        "une boucle",
+        "un capteur"
+      ],
+      "reponse": "une structure conditionnelle",
+      "indice": "Le programme choisit.",
+      "explication": "C’est une condition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Modifier un paramètre d’un programme, c’est par exemple changer…",
+      "options": [
+        "une valeur de seuil ou une durée",
+        "le matériau de l’objet",
+        "la couleur du boitier"
+      ],
+      "reponse": "une valeur de seuil ou une durée",
+      "indice": "Par exemple 3 secondes au lieu de 5.",
+      "explication": "On modifie une valeur : seuil, durée, vitesse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi tester un programme après modification ?",
+      "options": [
+        "pour vérifier qu’il fait ce qu’on attend",
+        "pour l’effacer",
+        "par habitude seulement"
+      ],
+      "reponse": "pour vérifier qu’il fait ce qu’on attend",
+      "indice": "On compare au comportement prévu.",
+      "explication": "Tester permet de valider le comportement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-PROG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une lampe s’allume si la luminosité est inférieure à 30. On met 50. La lampe s’allumera…",
+      "options": [
+        "plus tôt, dès qu’il fait un peu moins clair",
+        "plus tard",
+        "jamais"
+      ],
+      "reponse": "plus tôt, dès qu’il fait un peu moins clair",
+      "indice": "Le seuil est plus haut.",
+      "explication": "Avec un seuil plus haut, la condition est remplie plus tôt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

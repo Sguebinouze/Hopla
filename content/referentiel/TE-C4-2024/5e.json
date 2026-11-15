@@ -1,0 +1,81 @@
+{
+  "programme": "TE-C4-2024",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "TE-C4-5E-EVO-01",
+      "titre": "L’évolution des objets",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "L’évolution des objets et systèmes techniques",
+      "attendu": "Comparer des principes techniques pour une même fonction et expliquer l’évolution des objets et systèmes techniques.",
+      "exemple": "Pour éclairer, on est passé de la bougie à la lampe à incandescence, puis à la DEL.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 7,
+        "extrait": "Comparer des principes techniques"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-5E-NUM-01",
+      "titre": "Données et cybersécurité",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "Usages et impacts sociétaux du numérique",
+      "attendu": "Classer et stocker des données dans des fichiers, connaitre les unités d’information et les règles de cybersécurité.",
+      "exemple": "Une photo est enregistrée dans un fichier « vacances.jpg » rangé dans un dossier.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 7,
+        "extrait": "Identifier des règles permettant de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-5E-DD-01",
+      "titre": "Choisir un objet durable",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "Le choix d’un objet ou système technique dans un contexte de développement durable",
+      "attendu": "Identifier les étapes du cycle de vie d’un objet et choisir un objet selon des critères de développement durable.",
+      "exemple": "L’indice de réparabilité d’un smartphone indique s’il sera facile à réparer.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 9,
+        "extrait": "Identifier les étapes du cycle de vie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-5E-ENER-01",
+      "titre": "La chaine d’énergie",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Fonctions, solutions, constituants de la chaine d’énergie",
+      "attendu": "Identifier les constituants d’une chaine d’énergie et la nature de l’énergie en entrée et en sortie.",
+      "exemple": "Dans une trottinette électrique : la batterie alimente, le variateur distribue, le moteur convertit, la roue transmet.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 11,
+        "extrait": "Identifier des constituants de la chaîne"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-5E-PROG-01",
+      "titre": "Modifier un programme",
+      "domaine": "La programmation",
+      "theme": "La programmation d’une nouvelle fonctionnalité",
+      "attendu": "Comprendre un programme associé à une fonctionnalité et en modifier les paramètres.",
+      "exemple": "Si l’on change le seuil de luminosité dans le programme, la lampe s’allume plus tôt le soir.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 14,
+        "extrait": "Modifier les paramètres d’un programme"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

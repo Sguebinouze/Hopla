@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-MAT-01",
+  "exemple": "Je pèse un glaçon dans un sac fermé, puis l’eau obtenue après fusion : la balance affiche la même masse.",
+  "regle": "La matière existe à l’état **solide**, **liquide** ou **gazeux**. Les **changements d’état** (fusion, solidification, vaporisation, liquéfaction) conservent la **masse** mais pas le **volume**. Un **corps pur** contient une seule espèce chimique et change d’état à température constante ; un **mélange** en contient plusieurs.",
+  "piege": "L’eau qui gèle prend plus de place, mais elle ne devient pas plus lourde.",
+  "essai": {
+    "consigne": "Le passage gaz → liquide s’appelle…",
+    "options": [
+      "la liquéfaction",
+      "la fusion",
+      "la vaporisation"
+    ],
+    "reponse": "la liquéfaction",
+    "explication": "Gaz → liquide : c’est la liquéfaction."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

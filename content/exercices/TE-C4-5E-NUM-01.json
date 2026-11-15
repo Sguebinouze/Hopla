@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-NUM-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-NUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’extension « .jpg » indique un fichier…",
+      "options": [
+        "image",
+        "son",
+        "texte"
+      ],
+      "reponse": "image",
+      "indice": "Comme une photo.",
+      "explication": "Un fichier .jpg contient une image.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un mot de passe robuste contient…",
+      "options": [
+        "des lettres, des chiffres et des symboles",
+        "seulement son prénom",
+        "1234"
+      ],
+      "reponse": "des lettres, des chiffres et des symboles",
+      "indice": "Il doit être difficile à deviner.",
+      "explication": "Un mot de passe robuste mélange plusieurs types de caractères.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où range-t-on des fichiers sur un ordinateur ?",
+      "options": [
+        "dans des dossiers",
+        "dans l’écran",
+        "dans le clavier"
+      ],
+      "reponse": "dans des dossiers",
+      "indice": "Ils forment une arborescence.",
+      "explication": "On range les fichiers dans des dossiers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un octet est composé de…",
+      "options": [
+        "8 bits",
+        "2 bits",
+        "100 bits"
+      ],
+      "reponse": "8 bits",
+      "indice": "C’est l’unité de base de stockage.",
+      "explication": "Un octet vaut 8 bits.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Utiliser une image trouvée sur Internet sans autorisation peut enfreindre…",
+      "options": [
+        "le droit d’auteur",
+        "le Code de la route",
+        "aucune règle"
+      ],
+      "reponse": "le droit d’auteur",
+      "indice": "L’auteur possède des droits.",
+      "explication": "Le droit d’auteur protège les œuvres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’usurpation d’identité en ligne, c’est…",
+      "options": [
+        "se faire passer pour quelqu’un d’autre",
+        "changer de pseudo",
+        "créer un dossier"
+      ],
+      "reponse": "se faire passer pour quelqu’un d’autre",
+      "indice": "C’est une cyberviolence.",
+      "explication": "Usurper une identité, c’est se faire passer pour autrui.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’authentification sert à…",
+      "options": [
+        "vérifier l’identité d’un utilisateur",
+        "effacer un fichier",
+        "accélérer Internet"
+      ],
+      "reponse": "vérifier l’identité d’un utilisateur",
+      "indice": "Mot de passe, code reçu par SMS…",
+      "explication": "L’authentification vérifie qui se connecte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-NUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un fichier de 3 Mo est plus lourd qu’un fichier de…",
+      "options": [
+        "300 ko",
+        "3 Go",
+        "30 Go"
+      ],
+      "reponse": "300 ko",
+      "indice": "1 Mo = 1 000 ko.",
+      "explication": "3 Mo = 3 000 ko, plus que 300 ko.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-MVT-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-MVT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La vitesse moyenne se calcule par…",
+      "options": [
+        "distance ÷ durée",
+        "durée ÷ distance",
+        "distance × durée"
+      ],
+      "reponse": "distance ÷ durée",
+      "indice": "v = d / t.",
+      "explication": "v = d / t : distance divisée par durée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une voiture parcourt 120 km en 2 h. Sa vitesse moyenne est…",
+      "options": [
+        "60 km/h",
+        "240 km/h",
+        "122 km/h"
+      ],
+      "reponse": "60 km/h",
+      "indice": "120 ÷ 2.",
+      "explication": "120 km ÷ 2 h = 60 km/h.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une trajectoire en ligne droite est…",
+      "options": [
+        "rectiligne",
+        "circulaire",
+        "curviligne quelconque"
+      ],
+      "reponse": "rectiligne",
+      "indice": "Comme une règle.",
+      "explication": "Une trajectoire droite est rectiligne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un mouvement dont la vitesse ne change pas est…",
+      "options": [
+        "uniforme",
+        "accéléré",
+        "ralenti"
+      ],
+      "reponse": "uniforme",
+      "indice": "Même distance chaque seconde.",
+      "explication": "Un mouvement à vitesse constante est uniforme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un passager assis dans un train qui roule est immobile par rapport…",
+      "options": [
+        "au train",
+        "aux rails",
+        "aux arbres"
+      ],
+      "reponse": "au train",
+      "indice": "Tout dépend du point de vue.",
+      "explication": "Il est immobile par rapport au train, en mouvement par rapport au sol.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La trajectoire de l’extrémité d’une aiguille de montre est…",
+      "options": [
+        "circulaire",
+        "rectiligne",
+        "aléatoire"
+      ],
+      "reponse": "circulaire",
+      "indice": "Elle tourne autour d’un centre.",
+      "explication": "L’extrémité de l’aiguille décrit un cercle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une vitesse de 36 km/h correspond à…",
+      "options": [
+        "10 m/s",
+        "36 m/s",
+        "3,6 m/s"
+      ],
+      "reponse": "10 m/s",
+      "indice": "36 000 m en 3 600 s.",
+      "explication": "36 km/h = 36 000 m / 3 600 s = 10 m/s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MVT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour décrire complètement la vitesse, on précise sa valeur, sa direction et…",
+      "options": [
+        "son sens",
+        "sa masse",
+        "sa couleur"
+      ],
+      "reponse": "son sens",
+      "indice": "Vers la gauche ou vers la droite ?",
+      "explication": "La vitesse a une valeur, une direction et un sens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

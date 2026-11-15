@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-MAT-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le passage de l’état solide à l’état liquide s’appelle…",
+      "options": [
+        "la fusion",
+        "la solidification",
+        "la vaporisation"
+      ],
+      "reponse": "la fusion",
+      "indice": "La glace fond.",
+      "explication": "Le passage solide → liquide est la fusion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le passage de l’état liquide à l’état gazeux s’appelle…",
+      "options": [
+        "la vaporisation",
+        "la fusion",
+        "la liquéfaction"
+      ],
+      "reponse": "la vaporisation",
+      "indice": "L’eau bout.",
+      "explication": "Le passage liquide → gaz est la vaporisation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’eau pure bout, sous pression normale, à…",
+      "options": [
+        "100 °C",
+        "0 °C",
+        "50 °C"
+      ],
+      "reponse": "100 °C",
+      "indice": "C’est un repère classique.",
+      "explication": "L’eau pure bout à 100 °C.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Lors d’un changement d’état, la masse…",
+      "options": [
+        "se conserve",
+        "augmente toujours",
+        "disparait"
+      ],
+      "reponse": "se conserve",
+      "indice": "Rien ne se perd.",
+      "explication": "La masse se conserve lors d’un changement d’état.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand l’eau gèle, son volume…",
+      "options": [
+        "augmente",
+        "diminue",
+        "reste identique"
+      ],
+      "reponse": "augmente",
+      "indice": "Une bouteille pleine au congélateur peut éclater.",
+      "explication": "L’eau solide occupe plus de volume que l’eau liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’eau salée est…",
+      "options": [
+        "un mélange",
+        "un corps pur",
+        "un gaz"
+      ],
+      "reponse": "un mélange",
+      "indice": "Elle contient eau et sel.",
+      "explication": "L’eau salée est un mélange de deux espèces chimiques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pendant la solidification d’un corps pur, la température…",
+      "options": [
+        "reste constante",
+        "augmente",
+        "varie au hasard"
+      ],
+      "reponse": "reste constante",
+      "indice": "On observe un palier.",
+      "explication": "Un corps pur change d’état à température constante.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "1 L d’eau a une masse d’environ 1 kg. Quelle est la masse de 3 L d’eau ?",
+      "options": [
+        "3 kg",
+        "1 kg",
+        "300 g"
+      ],
+      "reponse": "3 kg",
+      "indice": "Masse et volume sont proportionnels.",
+      "explication": "Pour une même substance, la masse est proportionnelle au volume : 3 kg.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

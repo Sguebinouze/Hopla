@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-CORPS-01",
+  "exemple": "Après un 400 m, je compte mes battements de cœur : 150 par minute, contre 75 au repos.",
+  "regle": "Pendant un **effort**, les **muscles** consomment davantage de **dioxygène** et de **nutriments** et rejettent plus de **dioxyde de carbone**. Le **cœur** et la **respiration** s’accélèrent pour y répondre. Le **cerveau** commande les mouvements par l’intermédiaire des **nerfs**.",
+  "piege": "Le cœur ne s’accélère pas pour rien : il répond aux besoins accrus des muscles.",
+  "essai": {
+    "consigne": "Pendant l’effort, le cœur bat…",
+    "options": [
+      "plus vite",
+      "moins vite",
+      "au même rythme"
+    ],
+    "reponse": "plus vite",
+    "explication": "Le cœur bat plus vite à l’effort."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

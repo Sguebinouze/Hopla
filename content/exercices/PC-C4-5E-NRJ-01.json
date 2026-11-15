@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-NRJ-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-NRJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Laquelle est une source d’énergie renouvelable ?",
+      "options": [
+        "le vent",
+        "le pétrole",
+        "l’uranium"
+      ],
+      "reponse": "le vent",
+      "indice": "Il se renouvelle sans cesse.",
+      "explication": "Le vent est une source renouvelable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une lampe convertit l’énergie électrique en énergie…",
+      "options": [
+        "lumineuse et thermique",
+        "cinétique uniquement",
+        "chimique"
+      ],
+      "reponse": "lumineuse et thermique",
+      "indice": "Elle éclaire et chauffe un peu.",
+      "explication": "La lampe produit de la lumière et de la chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’énergie liée au mouvement s’appelle…",
+      "options": [
+        "l’énergie cinétique",
+        "l’énergie chimique",
+        "l’énergie lumineuse"
+      ],
+      "reponse": "l’énergie cinétique",
+      "indice": "Un objet en mouvement en possède.",
+      "explication": "L’énergie de mouvement est l’énergie cinétique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une pile convertit de l’énergie…",
+      "options": [
+        "chimique en énergie électrique",
+        "électrique en énergie chimique",
+        "lumineuse en énergie thermique"
+      ],
+      "reponse": "chimique en énergie électrique",
+      "indice": "Des réactions ont lieu à l’intérieur.",
+      "explication": "Une pile convertit l’énergie chimique en énergie électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un panneau photovoltaïque convertit l’énergie…",
+      "options": [
+        "lumineuse en énergie électrique",
+        "électrique en énergie lumineuse",
+        "thermique en énergie chimique"
+      ],
+      "reponse": "lumineuse en énergie électrique",
+      "indice": "Il reçoit la lumière du soleil.",
+      "explication": "Le panneau photovoltaïque produit de l’électricité à partir de la lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une conversion, une partie de l’énergie est souvent « perdue » sous forme…",
+      "options": [
+        "thermique",
+        "nucléaire",
+        "de masse"
+      ],
+      "reponse": "thermique",
+      "indice": "Le moteur chauffe.",
+      "explication": "Une partie de l’énergie est dissipée en chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans un diagramme énergétique, une flèche entrant dans un convertisseur représente…",
+      "options": [
+        "l’énergie reçue",
+        "l’énergie perdue uniquement",
+        "la masse"
+      ],
+      "reponse": "l’énergie reçue",
+      "indice": "Elle arrive de la source.",
+      "explication": "La flèche entrante représente l’énergie reçue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-NRJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qu’est-ce qui ne se crée ni ne disparait, mais se convertit ?",
+      "options": [
+        "l’énergie",
+        "la vitesse",
+        "la température"
+      ],
+      "reponse": "l’énergie",
+      "indice": "C’est un principe fondamental.",
+      "explication": "L’énergie se conserve : elle se convertit d’une forme à une autre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

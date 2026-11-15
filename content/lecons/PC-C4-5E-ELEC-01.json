@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-ELEC-01",
+  "exemple": "Dans la guirlande ancienne, une ampoule grillée éteignait tout : les lampes étaient en série.",
+  "regle": "Un circuit en **série** forme une seule boucle : tous les dipôles dépendent les uns des autres. Un circuit en **dérivation** comporte plusieurs boucles indépendantes. Le **générateur** fournit le courant ; la **tension** se mesure en **volts**, l’**intensité** en **ampères**. Le **court-circuit** est dangereux.",
+  "piege": "La DEL a un sens de branchement : à l’envers, elle ne s’allume pas.",
+  "essai": {
+    "consigne": "En dérivation, si une lampe grille, les autres…",
+    "options": [
+      "restent allumées",
+      "s’éteignent",
+      "clignotent"
+    ],
+    "reponse": "restent allumées",
+    "explication": "En dérivation, les branches sont indépendantes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

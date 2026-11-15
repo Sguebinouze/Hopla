@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-DD-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-DD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la première étape du cycle de vie d’un objet ?",
+      "options": [
+        "l’extraction des matières premières",
+        "le recyclage",
+        "l’utilisation"
+      ],
+      "reponse": "l’extraction des matières premières",
+      "indice": "Avant de fabriquer, il faut des matériaux.",
+      "explication": "Le cycle de vie commence par l’extraction des matières.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’étiquette énergie d’un appareil indique…",
+      "options": [
+        "sa consommation d’énergie",
+        "son prix",
+        "sa couleur"
+      ],
+      "reponse": "sa consommation d’énergie",
+      "indice": "Des lettres de A à G.",
+      "explication": "L’étiquette énergie renseigne sur la consommation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’indice de réparabilité informe sur…",
+      "options": [
+        "la facilité à réparer l’objet",
+        "sa vitesse",
+        "son poids"
+      ],
+      "reponse": "la facilité à réparer l’objet",
+      "indice": "Une note sur 10.",
+      "explication": "L’indice de réparabilité indique si l’objet se répare facilement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelles sont les étapes du cycle de vie dans l’ordre ?",
+      "options": [
+        "extraction, fabrication, transport, utilisation, fin de vie",
+        "utilisation, extraction, fin de vie",
+        "fin de vie, fabrication, transport"
+      ],
+      "reponse": "extraction, fabrication, transport, utilisation, fin de vie",
+      "indice": "De la naissance à la fin de l’objet.",
+      "explication": "Extraction, fabrication, transport, utilisation, fin de vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les trois piliers du développement durable sont…",
+      "options": [
+        "environnemental, social et économique",
+        "rapide, cher et beau",
+        "nord, sud et est"
+      ],
+      "reponse": "environnemental, social et économique",
+      "indice": "Planète, personnes, économie.",
+      "explication": "Le développement durable a trois piliers : environnement, social, économie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réparer un objet plutôt que le remplacer permet…",
+      "options": [
+        "de réduire les déchets et les ressources consommées",
+        "de polluer plus",
+        "rien"
+      ],
+      "reponse": "de réduire les déchets et les ressources consommées",
+      "indice": "On prolonge sa vie.",
+      "explication": "Réparer prolonge la durée de vie et économise des ressources.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Lors du choix entre deux appareils, un critère environnemental est…",
+      "options": [
+        "l’efficacité énergétique",
+        "la marque la plus connue",
+        "la couleur"
+      ],
+      "reponse": "l’efficacité énergétique",
+      "indice": "Il consomme moins.",
+      "explication": "L’efficacité énergétique est un critère environnemental.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le choix des matériaux influence surtout…",
+      "options": [
+        "les étapes d’extraction, de fabrication et de fin de vie",
+        "uniquement la couleur",
+        "aucune étape"
+      ],
+      "reponse": "les étapes d’extraction, de fabrication et de fin de vie",
+      "indice": "Certains matériaux se recyclent mieux.",
+      "explication": "Les matériaux pèsent sur plusieurs étapes du cycle de vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

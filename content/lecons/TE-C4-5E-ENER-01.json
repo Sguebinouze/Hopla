@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-ENER-01",
+  "exemple": "Je démonte un jouet à moteur : piles, interrupteur, moteur, engrenages et roues.",
+  "regle": "La **chaine d’énergie** d’un objet assure quatre fonctions : **alimenter** (batterie, prise), **distribuer** (interrupteur, variateur), **convertir** (moteur, résistance) et **transmettre** (engrenages, chaine). On repère la nature de l’énergie en **entrée** et en **sortie**.",
+  "piege": "La chaine d’énergie ne traite pas d’information : c’est le rôle de la chaine d’information.",
+  "essai": {
+    "consigne": "Quel constituant convertit l’énergie dans un ventilateur ?",
+    "options": [
+      "le moteur",
+      "la prise",
+      "l’interrupteur"
+    ],
+    "reponse": "le moteur",
+    "explication": "Le moteur convertit l’énergie électrique en mouvement."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

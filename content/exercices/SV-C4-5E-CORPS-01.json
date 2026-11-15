@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-5E-CORPS-01",
+  "exercices": [
+    {
+      "id": "SV-C4-5E-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pendant un effort, la fréquence cardiaque…",
+      "options": [
+        "augmente",
+        "diminue",
+        "reste nulle"
+      ],
+      "reponse": "augmente",
+      "indice": "Le cœur bat plus vite.",
+      "explication": "La fréquence cardiaque augmente à l’effort.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pendant un effort, la fréquence respiratoire…",
+      "options": [
+        "augmente",
+        "diminue",
+        "s’arrête"
+      ],
+      "reponse": "augmente",
+      "indice": "On respire plus vite.",
+      "explication": "On respire plus vite pendant l’effort.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel organe commande les mouvements volontaires ?",
+      "options": [
+        "le cerveau",
+        "l’estomac",
+        "le foie"
+      ],
+      "reponse": "le cerveau",
+      "indice": "Il envoie des messages aux muscles.",
+      "explication": "Le cerveau commande les mouvements volontaires.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "De quoi les muscles ont-ils davantage besoin pendant l’effort ?",
+      "options": [
+        "de dioxygène et de nutriments",
+        "de dioxyde de carbone",
+        "de rien de plus"
+      ],
+      "reponse": "de dioxygène et de nutriments",
+      "indice": "Ils produisent de l’énergie.",
+      "explication": "Les muscles consomment plus de dioxygène et de nutriments.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Par quoi le message du cerveau atteint-il les muscles ?",
+      "options": [
+        "par les nerfs",
+        "par les os",
+        "par le sang uniquement"
+      ],
+      "reponse": "par les nerfs",
+      "indice": "Ce sont des « câbles » du corps.",
+      "explication": "Les nerfs transmettent les messages nerveux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel déchet les muscles rejettent-ils davantage pendant l’effort ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le dioxygène",
+        "le glucose"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "Il est éliminé par les poumons.",
+      "explication": "Les muscles rejettent plus de dioxyde de carbone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi s’échauffer avant un effort intense ?",
+      "options": [
+        "pour préparer progressivement muscles et cœur",
+        "pour se fatiguer avant",
+        "cela ne sert à rien"
+      ],
+      "reponse": "pour préparer progressivement muscles et cœur",
+      "indice": "Cela limite les blessures.",
+      "explication": "L’échauffement prépare l’organisme et limite les blessures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Après l’effort, la fréquence cardiaque d’une personne entrainée revient au repos…",
+      "options": [
+        "plus vite que celle d’une personne non entrainée",
+        "plus lentement",
+        "jamais"
+      ],
+      "reponse": "plus vite que celle d’une personne non entrainée",
+      "indice": "L’entrainement améliore la récupération.",
+      "explication": "Un organisme entrainé récupère plus vite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

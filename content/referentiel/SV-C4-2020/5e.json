@@ -1,0 +1,51 @@
+{
+  "programme": "SV-C4-2020",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "SV-C4-5E-CORPS-01",
+      "titre": "Effort physique et organisme",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Activités musculaire, nerveuse et cardiovasculaire",
+      "attendu": "Relier l’effort physique aux modifications des activités cardiaque et respiratoire et au rôle du système nerveux.",
+      "exemple": "Pendant une course, le cœur bat plus vite et la respiration s’accélère pour apporter plus de dioxygène aux muscles.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 114,
+        "extrait": "respiratoire permet dès le début du cycle de découvrir l'organisation fonctionnelle du système"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-5E-NUT-01",
+      "titre": "La nutrition des organismes",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier les besoins des cellules aux fonctions de nutrition",
+      "attendu": "Relier les besoins des êtres vivants à leurs fonctions de nutrition : prélèvement de nourriture, respiration, production de matière par les végétaux.",
+      "exemple": "Une plante verte produit sa matière à partir de lumière, d’eau, de sels minéraux et de dioxyde de carbone.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "La nutrition des organismes : on passe progressivement de l'organisation fonctionnelle à"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-5E-REPRO-01",
+      "titre": "Modes de reproduction",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier la reproduction au peuplement des milieux",
+      "attendu": "Distinguer reproduction sexuée et asexuée et décrire les modalités de rencontre des gamètes.",
+      "exemple": "Le fraisier se reproduit par ses graines, mais aussi par ses stolons, sans fécondation.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "La dynamique des populations : on passe progressivement de l'étude de la diversité des"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

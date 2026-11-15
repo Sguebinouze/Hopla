@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-DD-01",
+  "exemple": "Pour remplacer sa bouilloire, la famille compare l’étiquette énergie et l’indice de réparabilité.",
+  "regle": "Le **cycle de vie** d’un objet va de l’**extraction** des matières à la **fin de vie**, en passant par la fabrication, le transport et l’utilisation. Choisir un objet, c’est aussi tenir compte de l’**efficacité énergétique**, de l’**indice de réparabilité** et des **impacts environnementaux**, selon les trois piliers du **développement durable**.",
+  "piege": "L’objet le moins cher à l’achat n’est pas toujours le plus économique sur toute sa vie.",
+  "essai": {
+    "consigne": "L’indice de réparabilité indique…",
+    "options": [
+      "si l’objet est facile à réparer",
+      "sa consommation",
+      "sa date de fabrication"
+    ],
+    "reponse": "si l’objet est facile à réparer",
+    "explication": "L’indice de réparabilité renseigne sur la réparation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

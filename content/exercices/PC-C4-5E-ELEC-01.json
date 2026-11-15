@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-ELEC-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-ELEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans un circuit en série, il y a…",
+      "options": [
+        "une seule boucle",
+        "plusieurs boucles",
+        "aucun générateur"
+      ],
+      "reponse": "une seule boucle",
+      "indice": "Le courant n’a qu’un chemin.",
+      "explication": "Un circuit en série forme une seule boucle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel appareil fournit le courant dans un circuit ?",
+      "options": [
+        "le générateur",
+        "la lampe",
+        "le moteur"
+      ],
+      "reponse": "le générateur",
+      "indice": "Une pile en est un.",
+      "explication": "Le générateur fournit le courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une DEL (diode électroluminescente) laisse passer le courant…",
+      "options": [
+        "dans un seul sens",
+        "dans les deux sens",
+        "jamais"
+      ],
+      "reponse": "dans un seul sens",
+      "indice": "Son branchement compte.",
+      "explication": "Une DEL ne laisse passer le courant que dans un sens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un circuit en dérivation, si une lampe grille, l’autre…",
+      "options": [
+        "reste allumée",
+        "s’éteint",
+        "explose"
+      ],
+      "reponse": "reste allumée",
+      "indice": "Elle est sur une autre boucle.",
+      "explication": "En dérivation, chaque branche fonctionne indépendamment.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment sont branchées les prises d’une maison ?",
+      "options": [
+        "en dérivation",
+        "en série",
+        "au hasard"
+      ],
+      "reponse": "en dérivation",
+      "indice": "Chaque appareil fonctionne seul.",
+      "explication": "Les prises sont branchées en dérivation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un court-circuit est dangereux car…",
+      "options": [
+        "le courant devient très intense et chauffe les fils",
+        "le courant s’arrête",
+        "les lampes brillent moins"
+      ],
+      "reponse": "le courant devient très intense et chauffe les fils",
+      "indice": "Risque d’incendie.",
+      "explication": "Un court-circuit provoque un courant intense et un échauffement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La tension électrique se mesure en…",
+      "options": [
+        "volts",
+        "ampères",
+        "watts"
+      ],
+      "reponse": "volts",
+      "indice": "Symbole V.",
+      "explication": "La tension se mesure en volts.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-ELEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’intensité du courant se mesure avec…",
+      "options": [
+        "un ampèremètre",
+        "un voltmètre",
+        "un thermomètre"
+      ],
+      "reponse": "un ampèremètre",
+      "indice": "Elle s’exprime en ampères.",
+      "explication": "On mesure l’intensité avec un ampèremètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
