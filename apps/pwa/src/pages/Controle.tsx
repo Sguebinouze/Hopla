@@ -17,6 +17,7 @@ export function Controle() {
   const [prevu, setPrevu] = useState<ControlePrevu | null>(null);
   const [date, setDate] = useState(aujourdhui(prochainVendredi()));
   const [choix, setChoix] = useState<string[]>([]);
+  const [matiere, setMatiere] = useState('');
   const jour = aujourdhui();
 
   useEffect(() => {
@@ -81,38 +82,90 @@ export function Controle() {
   }
 
   const matieres = [...new Set(notions.map((c) => c.matiere))];
+  const ouverte = matiere && matieres.includes(matiere) ? matiere : matieres[0]!;
   const basculer = (id: string) => setChoix((l) => (l.includes(id) ? l.filter((x) => x !== id) : [...l, id]));
+  const jours = joursDeClasse(5);
+  const valider = () => {
+    if (choix.length === 0) return;
+    const c = { date, notions: choix };
+    prevoirControle(enfant.id, c);
+    setPrevu(c);
+  };
   return (
-    <main className="ecran">
+    <main className="ecran controle">
       <div className="ligne">
         <Link to="/accueil" className="hp-iconbtn" aria-label="Retour à l'accueil"><Icone nom="retour" /></Link>
         <h1 className="titre-2 pousse">Préparer un contrôle</h1>
       </div>
-      <form className="formulaire hp-card" onSubmit={(e) => {
-        e.preventDefault();
-        if (choix.length === 0) return;
-        const c = { date, notions: choix };
-        prevoirControle(enfant.id, c);
-        setPrevu(c);
-      }}>
-        <label>Date du contrôle
-          <input type="date" required min={jour} value={date} onChange={(e) => setDate(e.target.value)} />
+
+      <section className="hp-card controle__etape">
+        <h2 className="titre-3">Quand ?</h2>
+        <div className="controle__puces" role="radiogroup" aria-label="Date du contrôle">
+          {jours.map((j) => (
+            <button key={j} type="button" role="radio" aria-checked={j === date}
+              className={`hp-chip ${j === date ? 'hp-chip--primary' : 'hp-chip--neutral'}`} onClick={() => setDate(j)}>
+              {dateCourte(j)}
+            </button>
+          ))}
+        </div>
+        <label className="controle__autre">
+          <span className="muet">Autre date</span>
+          <input type="date" min={jour} value={date} onChange={(e) => e.target.value && setDate(e.target.value)} />
         </label>
-        {matieres.map((m) => (
-          <fieldset key={m} className="controle__matiere">
-            <legend className="titre-3">{NOMS_MATIERES[m] ?? m}</legend>
-            {notions.filter((c) => c.matiere === m).map((c) => (
-              <label key={c.id} className="controle__notion">
-                <input type="checkbox" checked={choix.includes(c.id)} onChange={() => basculer(c.id)} />
-                <span>{c.titre}</span>
-              </label>
-            ))}
-          </fieldset>
+      </section>
+
+      <section className="hp-card controle__etape">
+        <h2 className="titre-3">Quelles notions ?</h2>
+        <div className="controle__puces" role="tablist" aria-label="Matières">
+          {matieres.map((m) => {
+            const n = notions.filter((c) => c.matiere === m && choix.includes(c.id)).length;
+            return (
+              <button key={m} type="button" role="tab" aria-selected={m === ouverte}
+                className={`hp-chip ${m === ouverte ? 'hp-chip--primary' : 'hp-chip--neutral'}`} onClick={() => setMatiere(m)}>
+                {NOMS_MATIERES[m] ?? m}{n > 0 ? ` · ${n}` : ''}
+              </button>
+            );
+          })}
+        </div>
+        {[...new Set(notions.filter((c) => c.matiere === ouverte).map((c) => c.domaine))].map((domaine) => (
+          <div key={domaine} className="controle__liste" role="group" aria-label={domaine}>
+            <p className="muet">{domaine}</p>
+            {notions.filter((c) => c.matiere === ouverte && c.domaine === domaine).map((c) => {
+              const coche = choix.includes(c.id);
+              return (
+                <button key={c.id} type="button" role="checkbox" aria-checked={coche}
+                  className={`controle__notion${coche ? ' controle__notion--coche' : ''}`} onClick={() => basculer(c.id)}>
+                  <span className="controle__case" aria-hidden="true">{coche && <Icone nom="coche" taille={16} />}</span>
+                  <span className="controle__titre">{c.titre}</span>
+                </button>
+              );
+            })}
+          </div>
         ))}
-        <button className="hp-btn hp-btn--primary" disabled={choix.length === 0}>
-          Préparer {choix.length > 0 ? `${choix.length} notion${choix.length > 1 ? 's' : ''}` : 'le contrôle'}
-        </button>
-      </form>
+      </section>
+
+      <div className="controle__pied">
+        <p className="muet pousse">
+          {choix.length === 0 ? 'Choisis au moins une notion.' : `${choix.length} notion${choix.length > 1 ? 's' : ''} · ${dateLisible(date)}`}
+        </p>
+        <button type="button" className="hp-btn hp-btn--primary" disabled={choix.length === 0} onClick={valider}>Préparer</button>
+      </div>
     </main>
   );
+}
+
+/** Les n prochains jours de classe (lundi à vendredi), à partir de demain. */
+function joursDeClasse(n: number): string[] {
+  const res: string[] = [];
+  const d = new Date();
+  while (res.length < n) {
+    d.setDate(d.getDate() + 1);
+    if (d.getDay() !== 0 && d.getDay() !== 6) res.push(aujourdhui(d));
+  }
+  return res;
+}
+
+function dateCourte(date: string): string {
+  const [a, m, j] = date.split('-').map(Number) as [number, number, number];
+  return new Date(a, m - 1, j).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
 }
