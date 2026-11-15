@@ -77,6 +77,8 @@ export const exerciceSchema = z
     reponse: z.string().min(1),
     indice: z.string().min(1),
     explication: z.string().min(1),
+    /** Code d'erreur typique par option piège (voir Item.erreurs dans @hopla/generateurs). */
+    erreurs: z.record(z.string(), z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).optional(),
     statut: z.enum(['brouillon', 'relu', 'publie']),
     auteur: z.enum(['humain', 'ia']),
     relu_par: z.string().nullable(),

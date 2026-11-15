@@ -32,6 +32,13 @@ describe.each(GENERATEURS)('$id', (g) => {
       } else {
         expect(normaliserReponse(item.reponse), item.consigne).toBe(item.reponse);
       }
+      if (item.erreurs) {
+        expect(item.erreurs[item.reponse], `${item.consigne} : la bonne réponse n'a pas de code d'erreur`).toBeUndefined();
+        for (const [option, code] of Object.entries(item.erreurs)) {
+          if (item.gabarit === 'qcm') expect(item.options, item.consigne).toContain(option);
+          expect(code).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
+        }
+      }
       for (const texte of [item.consigne, item.indice, item.explication]) {
         const erreurs = verifierTexte(texte, g.cycle).filter((p) => p.niveau === 'erreur');
         expect(erreurs, texte).toEqual([]);

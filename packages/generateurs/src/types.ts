@@ -18,6 +18,13 @@ export interface Item {
   indice: string;
   explication: string;
   difficulte: Difficulte;
+  /**
+   * Erreurs typiques : pour une option piège (ou une saisie fautive prévisible), le code de l'erreur
+   * qu'elle révèle. Code court, stable, en kebab-case : « decimal-longueur », « futur-conditionnel ».
+   * Sert au repérage des erreurs récurrentes dans le suivi parent. Les options sans code sont des
+   * erreurs non qualifiées.
+   */
+  erreurs?: Record<string, string>;
 }
 
 export interface Generateur {
