@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C2-CP-HUM-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-HUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment est cet enfant ?",
+      "options": [
+        "Content.",
+        "Triste.",
+        "En colère."
+      ],
+      "reponse": "Content.",
+      "indice": "« Happy » veut dire content.",
+      "explication": "« I’m happy » veut dire je suis content.",
+      "ecoute": {
+        "texte": "I’m happy!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment est cet enfant ?",
+      "options": [
+        "Triste.",
+        "Content.",
+        "Fatigué."
+      ],
+      "reponse": "Triste.",
+      "indice": "« Sad » est le contraire de « happy ».",
+      "explication": "« I’m sad » veut dire je suis triste.",
+      "ecoute": {
+        "texte": "I’m sad.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment est cet enfant ?",
+      "options": [
+        "En colère.",
+        "Content.",
+        "Malade."
+      ],
+      "reponse": "En colère.",
+      "indice": "« Angry » se dit avec une grosse voix.",
+      "explication": "« I’m angry » veut dire je suis en colère.",
+      "ecoute": {
+        "texte": "I’m angry!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment est cet enfant ?",
+      "options": [
+        "Fatigué.",
+        "Content.",
+        "Surpris."
+      ],
+      "reponse": "Fatigué.",
+      "indice": "« Tired » se dit en bâillant.",
+      "explication": "« I’m tired » veut dire je suis fatigué.",
+      "ecoute": {
+        "texte": "I’m tired.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment est cet enfant ?",
+      "options": [
+        "Malade.",
+        "Content.",
+        "En colère."
+      ],
+      "reponse": "Malade.",
+      "indice": "« Sick » veut dire malade.",
+      "explication": "« I’m sick » veut dire je suis malade.",
+      "ecoute": {
+        "texte": "I’m sick.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que propose la maitresse ?",
+      "options": [
+        "De jouer ensemble.",
+        "De dormir.",
+        "De manger."
+      ],
+      "reponse": "De jouer ensemble.",
+      "indice": "« Play » veut dire jouer.",
+      "explication": "« Let’s play together » veut dire jouons ensemble.",
+      "ecoute": {
+        "texte": "Let’s play together!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi l’enfant est-il surpris ?",
+      "options": [
+        "Il voit un gros ours.",
+        "Il mange une pomme.",
+        "Il va dormir."
+      ],
+      "reponse": "Il voit un gros ours.",
+      "indice": "« Bear » veut dire ours.",
+      "explication": "« A big bear » veut dire un gros ours.",
+      "ecoute": {
+        "texte": "Oooh! A big bear!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-HUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On te demande « How are you today? ». Tu es content. Que réponds-tu ?",
+      "options": [
+        "I’m happy.",
+        "I’m sad.",
+        "I’m six."
+      ],
+      "reponse": "I’m happy.",
+      "indice": "« Happy » veut dire content.",
+      "explication": "Tu réponds « I’m happy ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

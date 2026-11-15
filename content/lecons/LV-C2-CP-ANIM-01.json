@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-ANIM-01",
+  "exemple": "« Look! A dog. There is a cat. »",
+  "regle": "**Dog** : chien. **Cat** : chat. **Fish** : poisson. **Bird** : oiseau. **Rabbit** : lapin.",
+  "piege": "Pour montrer un animal, on dit « Look! » : regarde.",
+  "essai": {
+    "consigne": "Que veut dire « bird » ?",
+    "options": [
+      "un oiseau",
+      "un chat",
+      "un poisson"
+    ],
+    "reponse": "un oiseau",
+    "explication": "« Bird » veut dire oiseau."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-ACT-01",
+  "exemple": "« Simon says: stand up. Simon says: clap your hands. »",
+  "regle": "**Stand up** : lève-toi. **Sit down** : assieds-toi. **Jump** : saute. **Clap your hands** : tape dans tes mains.",
+  "piege": "Dans « Simon says », on bouge seulement si on entend « Simon says ».",
+  "essai": {
+    "consigne": "Que veut dire « Sit down » ?",
+    "options": [
+      "Assieds-toi.",
+      "Lève-toi.",
+      "Saute."
+    ],
+    "reponse": "Assieds-toi.",
+    "explication": "« Sit down » veut dire assieds-toi."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

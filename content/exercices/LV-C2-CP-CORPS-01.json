@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CP-CORPS-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "La tête.",
+        "Le pied.",
+        "La main."
+      ],
+      "reponse": "La tête.",
+      "indice": "C’est en haut du corps.",
+      "explication": "« Head » veut dire tête.",
+      "ecoute": {
+        "texte": "Head.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Le nez.",
+        "La bouche.",
+        "L’oreille."
+      ],
+      "reponse": "Le nez.",
+      "indice": "Il est au milieu du visage.",
+      "explication": "« Nose » veut dire nez.",
+      "ecoute": {
+        "texte": "Nose.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Les yeux.",
+        "Les pieds.",
+        "Les genoux."
+      ],
+      "reponse": "Les yeux.",
+      "indice": "On voit avec eux.",
+      "explication": "« Eyes » veut dire yeux.",
+      "ecoute": {
+        "texte": "Eyes.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Les épaules.",
+        "Les orteils.",
+        "Les cheveux."
+      ],
+      "reponse": "Les épaules.",
+      "indice": "Elles sont sous la tête.",
+      "explication": "« Shoulders » veut dire épaules.",
+      "ecoute": {
+        "texte": "Shoulders.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Les genoux.",
+        "Les mains.",
+        "Les yeux."
+      ],
+      "reponse": "Les genoux.",
+      "indice": "Ils sont au milieu des jambes.",
+      "explication": "« Knees » veut dire genoux.",
+      "ecoute": {
+        "texte": "Knees.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "La bouche.",
+        "Le nez.",
+        "Le pied."
+      ],
+      "reponse": "La bouche.",
+      "indice": "On mange avec elle.",
+      "explication": "« Mouth » veut dire bouche.",
+      "ecoute": {
+        "texte": "Mouth.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Les orteils.",
+        "Les oreilles.",
+        "Les épaules."
+      ],
+      "reponse": "Les orteils.",
+      "indice": "Ils sont au bout des pieds.",
+      "explication": "« Toes » veut dire orteils.",
+      "ecoute": {
+        "texte": "Toes.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu toucher ?",
+      "options": [
+        "Tes oreilles.",
+        "Ton nez.",
+        "Tes genoux."
+      ],
+      "reponse": "Tes oreilles.",
+      "indice": "« Ears » veut dire oreilles.",
+      "explication": "« Touch your ears » : touche tes oreilles.",
+      "ecoute": {
+        "texte": "Touch your ears.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

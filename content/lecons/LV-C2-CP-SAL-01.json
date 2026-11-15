@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-SAL-01",
+  "exemple": "« Hello, Tom. » « Hello, Lina. » « Goodbye, Tom. »",
+  "regle": "Pour **dire bonjour** : hello. Pour **dire au revoir** : goodbye. Pour **dire merci** : thank you.",
+  "piege": "« Good night » ne veut pas dire bonjour. On le dit le soir.",
+  "essai": {
+    "consigne": "Que veut dire « Goodbye! » ?",
+    "options": [
+      "Au revoir.",
+      "Bonjour.",
+      "Merci."
+    ],
+    "reponse": "Au revoir.",
+    "explication": "« Goodbye » veut dire au revoir."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-PRES-01",
+  "exemple": "« I’m Tom. I’m six. I like music. »",
+  "regle": "Pour te présenter : **I’m** et ton prénom. Pour ton âge : **I’m** et un nombre.",
+  "piege": "« I’m six » veut dire j’ai six ans. En anglais, on dit « je suis six ».",
+  "essai": {
+    "consigne": "Comment dis-tu « j’ai sept ans » ?",
+    "options": [
+      "I’m seven.",
+      "I have seven.",
+      "I like seven."
+    ],
+    "reponse": "I’m seven.",
+    "explication": "On dit « I’m seven »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

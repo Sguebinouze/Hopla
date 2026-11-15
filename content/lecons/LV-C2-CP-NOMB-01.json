@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-NOMB-01",
+  "exemple": "« One, two, buckle my shoe. Three, four, shut the door. »",
+  "regle": "On compte : **one**, **two**, **three**, **four**, **five**. Puis **six**, **seven**, **eight**, **nine**, **ten**.",
+  "piege": "« Two » se prononce presque comme « tout ». Ne confonds pas avec « ten ».",
+  "essai": {
+    "consigne": "Que veut dire « four » ?",
+    "options": [
+      "4",
+      "5",
+      "2"
+    ],
+    "reponse": "4",
+    "explication": "« Four » veut dire quatre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C2-CP-SAL-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-SAL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Bonjour.",
+        "Merci.",
+        "Au revoir."
+      ],
+      "reponse": "Bonjour.",
+      "indice": "On le dit en arrivant.",
+      "explication": "« Hello » veut dire bonjour.",
+      "ecoute": {
+        "texte": "Hello!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Au revoir.",
+        "Bonjour.",
+        "Pardon."
+      ],
+      "reponse": "Au revoir.",
+      "indice": "On le dit en partant.",
+      "explication": "« Goodbye » veut dire au revoir.",
+      "ecoute": {
+        "texte": "Goodbye!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Merci.",
+        "Bonne nuit.",
+        "Bravo."
+      ],
+      "reponse": "Merci.",
+      "indice": "On le dit après un cadeau.",
+      "explication": "« Thank you » veut dire merci.",
+      "ecoute": {
+        "texte": "Thank you!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veulent dire ces mots ?",
+      "options": [
+        "Entre.",
+        "Assieds-toi.",
+        "Lève-toi."
+      ],
+      "reponse": "Entre.",
+      "indice": "On le dit à la porte.",
+      "explication": "« Come in » veut dire entre.",
+      "ecoute": {
+        "texte": "Come in!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Bienvenue.",
+        "Au revoir.",
+        "Attention."
+      ],
+      "reponse": "Bienvenue.",
+      "indice": "On le dit à un nouvel élève.",
+      "explication": "« Welcome » veut dire bienvenue.",
+      "ecoute": {
+        "texte": "Welcome!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment va cet enfant ?",
+      "options": [
+        "Il va bien.",
+        "Il est malade.",
+        "Il a faim."
+      ],
+      "reponse": "Il va bien.",
+      "indice": "« Fine » veut dire bien.",
+      "explication": "« I’m fine » veut dire je vais bien.",
+      "ecoute": {
+        "texte": "I’m fine!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quand dit-on cela ?",
+      "options": [
+        "Le matin.",
+        "Le soir.",
+        "À midi."
+      ],
+      "reponse": "Le matin.",
+      "indice": "« Morning » veut dire matin.",
+      "explication": "« Good morning » se dit le matin.",
+      "ecoute": {
+        "texte": "Good morning!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-SAL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Ta maitresse dit « Hello! ». Que réponds-tu ?",
+      "options": [
+        "Hello!",
+        "Goodbye!",
+        "Thank you!"
+      ],
+      "reponse": "Hello!",
+      "indice": "On répond par le même mot.",
+      "explication": "On répond « Hello! » pour saluer aussi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

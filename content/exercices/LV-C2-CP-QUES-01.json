@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C2-CP-QUES-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-QUES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Qui est-ce ?",
+        "Où est-il ?",
+        "Quelle couleur ?"
+      ],
+      "reponse": "Qui est-ce ?",
+      "indice": "« Who » veut dire qui.",
+      "explication": "« Who is it? » veut dire qui est-ce ?",
+      "ecoute": {
+        "texte": "Who is it?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Où est le chat ?",
+        "Qui est le chat ?",
+        "Le chat mange."
+      ],
+      "reponse": "Où est le chat ?",
+      "indice": "« Where » veut dire où.",
+      "explication": "« Where is the cat? » veut dire où est le chat ?",
+      "ecoute": {
+        "texte": "Where is the cat?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Qu’est-ce que c’est ?",
+        "Qui es-tu ?",
+        "Où vas-tu ?"
+      ],
+      "reponse": "Qu’est-ce que c’est ?",
+      "indice": "« What » veut dire quoi.",
+      "explication": "« What is it? » veut dire qu’est-ce que c’est ?",
+      "ecoute": {
+        "texte": "What is it?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Qui est dans la maison ?",
+        "Où est la maison ?",
+        "La maison est grande."
+      ],
+      "reponse": "Qui est dans la maison ?",
+      "indice": "« House » veut dire maison.",
+      "explication": "On demande qui est dans la maison.",
+      "ecoute": {
+        "texte": "Who is in the house?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Quel animal est là ?",
+        "Où est ton chien ?",
+        "Qui est là ?"
+      ],
+      "reponse": "Quel animal est là ?",
+      "indice": "« Animal » ressemble au français.",
+      "explication": "On demande quel animal est là.",
+      "ecoute": {
+        "texte": "What animal is here?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot anglais veut dire « où » ?",
+      "options": [
+        "where",
+        "who",
+        "what"
+      ],
+      "reponse": "where",
+      "indice": "Pense à « Where is the cat? ».",
+      "explication": "« Where » veut dire où.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "It’s a dog.",
+        "I’m six.",
+        "Goodbye!"
+      ],
+      "reponse": "It’s a dog.",
+      "indice": "On te demande ce que c’est.",
+      "explication": "À « What is it? », on répond « It’s a dog ».",
+      "ecoute": {
+        "texte": "What is it?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-QUES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelle est la bonne réponse ?",
+      "options": [
+        "In the box.",
+        "I’m happy.",
+        "Thank you!"
+      ],
+      "reponse": "In the box.",
+      "indice": "On te demande où.",
+      "explication": "À « Where is the ball? », on répond « In the box ».",
+      "ecoute": {
+        "texte": "Where is the ball?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

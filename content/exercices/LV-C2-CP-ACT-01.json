@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CP-ACT-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-ACT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Taper dans tes mains.",
+        "Sauter.",
+        "T’asseoir."
+      ],
+      "reponse": "Taper dans tes mains.",
+      "indice": "« Hands » veut dire mains.",
+      "explication": "« Clap your hands » : tape dans tes mains.",
+      "ecoute": {
+        "texte": "Clap your hands!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Te lever.",
+        "T’asseoir.",
+        "Dormir."
+      ],
+      "reponse": "Te lever.",
+      "indice": "« Up » veut dire en haut.",
+      "explication": "« Stand up » : lève-toi.",
+      "ecoute": {
+        "texte": "Stand up!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "T’asseoir.",
+        "Te lever.",
+        "Courir."
+      ],
+      "reponse": "T’asseoir.",
+      "indice": "« Down » veut dire en bas.",
+      "explication": "« Sit down » : assieds-toi.",
+      "ecoute": {
+        "texte": "Sit down!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Sauter.",
+        "Chanter.",
+        "Dessiner."
+      ],
+      "reponse": "Sauter.",
+      "indice": "On décolle du sol.",
+      "explication": "« Jump » : saute.",
+      "ecoute": {
+        "texte": "Jump!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dois-tu toucher ?",
+      "options": [
+        "Ton nez.",
+        "Ta tête.",
+        "Tes pieds."
+      ],
+      "reponse": "Ton nez.",
+      "indice": "« Nose » veut dire nez.",
+      "explication": "« Touch your nose » : touche ton nez.",
+      "ecoute": {
+        "texte": "Simon says: touch your nose.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où dois-tu aller ?",
+      "options": [
+        "À la porte.",
+        "À la fenêtre.",
+        "Au tableau."
+      ],
+      "reponse": "À la porte.",
+      "indice": "« Door » veut dire porte.",
+      "explication": "« Go to the door » : va à la porte.",
+      "ecoute": {
+        "texte": "Go to the door.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "Couper l’ananas.",
+        "Manger l’ananas.",
+        "Laver l’ananas."
+      ],
+      "reponse": "Couper l’ananas.",
+      "indice": "« Cut » veut dire couper.",
+      "explication": "« Cut the pineapple » : coupe l’ananas.",
+      "ecoute": {
+        "texte": "Cut the pineapple.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ACT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dois-tu prendre ?",
+      "options": [
+        "Ta colle.",
+        "Tes ciseaux.",
+        "Ton crayon."
+      ],
+      "reponse": "Ta colle.",
+      "indice": "« Glue » veut dire colle.",
+      "explication": "« Take your glue stick » : prends ton bâton de colle.",
+      "ecoute": {
+        "texte": "Take your glue stick, please!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-CORPS-01",
+  "exemple": "« Head, shoulders, knees and toes. Eyes and ears and mouth and nose. »",
+  "regle": "**Head** : tête. **Eyes** : yeux. **Ears** : oreilles. **Nose** : nez. **Mouth** : bouche.",
+  "piege": "« Ears » et « eyes » se ressemblent. Les oreilles, ce sont « ears ».",
+  "essai": {
+    "consigne": "Que veut dire « nose » ?",
+    "options": [
+      "le nez",
+      "la bouche",
+      "les yeux"
+    ],
+    "reponse": "le nez",
+    "explication": "« Nose » veut dire nez."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

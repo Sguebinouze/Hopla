@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CP-NOMB-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-NOMB-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "3",
+        "2",
+        "8"
+      ],
+      "reponse": "3",
+      "indice": "Compte sur tes doigts.",
+      "explication": "« Three » veut dire trois.",
+      "ecoute": {
+        "texte": "Three.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "1",
+        "7",
+        "4"
+      ],
+      "reponse": "1",
+      "indice": "C’est le plus petit.",
+      "explication": "« One » veut dire un.",
+      "ecoute": {
+        "texte": "One.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "5",
+        "9",
+        "2"
+      ],
+      "reponse": "5",
+      "indice": "C’est une main entière.",
+      "explication": "« Five » veut dire cinq.",
+      "ecoute": {
+        "texte": "Five.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "10",
+        "6",
+        "3"
+      ],
+      "reponse": "10",
+      "indice": "C’est deux mains.",
+      "explication": "« Ten » veut dire dix.",
+      "ecoute": {
+        "texte": "Ten.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quels nombres entends-tu ?",
+      "options": [
+        "1 et 2",
+        "3 et 4",
+        "5 et 6"
+      ],
+      "reponse": "1 et 2",
+      "indice": "Ce sont les premiers.",
+      "explication": "« One, two » : un et deux.",
+      "ecoute": {
+        "texte": "One, two, buckle my shoe.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Combien de bananes ?",
+      "options": [
+        "2",
+        "4",
+        "1"
+      ],
+      "reponse": "2",
+      "indice": "« Two » veut dire deux.",
+      "explication": "« Two bananas » : deux bananes.",
+      "ecoute": {
+        "texte": "Take two bananas.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "7",
+        "6",
+        "9"
+      ],
+      "reponse": "7",
+      "indice": "Il vient après six.",
+      "explication": "« Seven » veut dire sept.",
+      "ecoute": {
+        "texte": "Seven.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel âge a cet enfant ?",
+      "options": [
+        "6 ans",
+        "9 ans",
+        "3 ans"
+      ],
+      "reponse": "6 ans",
+      "indice": "« Six » se dit presque comme en français.",
+      "explication": "« I’m six » veut dire j’ai six ans.",
+      "ecoute": {
+        "texte": "I’m six.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

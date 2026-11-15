@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CP-PRES-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-PRES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dis-tu « j’ai six ans » ?",
+      "options": [
+        "I’m six.",
+        "I like six.",
+        "I’m happy."
+      ],
+      "reponse": "I’m six.",
+      "indice": "On utilise « I’m ».",
+      "explication": "« I’m six » veut dire j’ai six ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment s’appelle cet enfant ?",
+      "options": [
+        "Alice.",
+        "Anna.",
+        "Tom."
+      ],
+      "reponse": "Alice.",
+      "indice": "Écoute le prénom.",
+      "explication": "« I’m Alice » : je suis Alice.",
+      "ecoute": {
+        "texte": "I’m Alice!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle est sa couleur préférée ?",
+      "options": [
+        "Le vert.",
+        "Le bleu.",
+        "Le rouge."
+      ],
+      "reponse": "Le vert.",
+      "indice": "« Green » veut dire vert.",
+      "explication": "« My favourite colour is green » : ma couleur préférée est le vert.",
+      "ecoute": {
+        "texte": "My favourite colour is green.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dis-tu « je suis Léo » ?",
+      "options": [
+        "I’m Léo.",
+        "I like Léo.",
+        "Who is Léo?"
+      ],
+      "reponse": "I’m Léo.",
+      "indice": "« I’m » veut dire je suis.",
+      "explication": "On dit « I’m Léo ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-on ?",
+      "options": [
+        "Qui es-tu ?",
+        "Où es-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Qui es-tu ?",
+      "indice": "« Who » veut dire qui.",
+      "explication": "« Who are you? » : qui es-tu ?",
+      "ecoute": {
+        "texte": "Who are you?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’aime cet enfant ?",
+      "options": [
+        "La musique.",
+        "Le sport.",
+        "Les chats."
+      ],
+      "reponse": "La musique.",
+      "indice": "Le mot ressemble au français.",
+      "explication": "« I like music » : j’aime la musique.",
+      "ecoute": {
+        "texte": "I like music.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. D’où vient cet enfant ?",
+      "options": [
+        "Du Canada.",
+        "De France.",
+        "D’Angleterre."
+      ],
+      "reponse": "Du Canada.",
+      "indice": "« From » veut dire de.",
+      "explication": "« I’m from Canada » : je viens du Canada.",
+      "ecoute": {
+        "texte": "I’m from Canada.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-PRES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On te demande « Who are you? ». Que réponds-tu ?",
+      "options": [
+        "I’m Sami.",
+        "I’m fine.",
+        "Goodbye!"
+      ],
+      "reponse": "I’m Sami.",
+      "indice": "On te demande qui tu es.",
+      "explication": "Tu donnes ton prénom : « I’m Sami ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

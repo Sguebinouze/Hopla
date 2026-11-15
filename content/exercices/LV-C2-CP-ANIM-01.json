@@ -1,0 +1,173 @@
+{
+  "competence": "LV-C2-CP-ANIM-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-ANIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un chien.",
+        "Un chat.",
+        "Un oiseau."
+      ],
+      "reponse": "Un chien.",
+      "indice": "Il aboie.",
+      "explication": "« Dog » veut dire chien.",
+      "ecoute": {
+        "texte": "A dog.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un chat.",
+        "Un lapin.",
+        "Un poisson."
+      ],
+      "reponse": "Un chat.",
+      "indice": "Il miaule.",
+      "explication": "« Cat » veut dire chat.",
+      "ecoute": {
+        "texte": "A cat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un poisson.",
+        "Un chien.",
+        "Un cheval."
+      ],
+      "reponse": "Un poisson.",
+      "indice": "Il vit dans l’eau.",
+      "explication": "« Fish » veut dire poisson.",
+      "ecoute": {
+        "texte": "A fish.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un lapin.",
+        "Un chat.",
+        "Un ours."
+      ],
+      "reponse": "Un lapin.",
+      "indice": "Il a de grandes oreilles.",
+      "explication": "« Rabbit » veut dire lapin.",
+      "ecoute": {
+        "texte": "A rabbit.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un hamster.",
+        "Un oiseau.",
+        "Un cheval."
+      ],
+      "reponse": "Un hamster.",
+      "indice": "Le mot est presque le même.",
+      "explication": "« Hamster » veut dire hamster.",
+      "ecoute": {
+        "texte": "Here, a hamster!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "Un oiseau.",
+        "Un poisson.",
+        "Un chien."
+      ],
+      "reponse": "Un oiseau.",
+      "indice": "Il vole.",
+      "explication": "« Bird » veut dire oiseau.",
+      "ecoute": {
+        "texte": "A bird.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dit l’enfant ?",
+      "options": [
+        "Regarde, un chat !",
+        "J’ai un chat.",
+        "Je n’aime pas les chats."
+      ],
+      "reponse": "Regarde, un chat !",
+      "indice": "« Look » veut dire regarde.",
+      "explication": "« Look! A cat. » : regarde, un chat.",
+      "ecoute": {
+        "texte": "Look! A cat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel animal vit en Australie ?",
+      "options": [
+        "Le kangourou.",
+        "Le chat.",
+        "Le lapin."
+      ],
+      "reponse": "Le kangourou.",
+      "indice": "Il saute avec une poche.",
+      "explication": "Le kangourou vit en Australie.",
+      "ecoute": {
+        "texte": "Kangaroo!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

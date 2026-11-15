@@ -1,0 +1,167 @@
+{
+  "competence": "LV-C2-CP-GOUT-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-GOUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Est-ce que cet enfant aime le bleu ?",
+      "options": [
+        "Oui.",
+        "Non."
+      ],
+      "reponse": "Oui.",
+      "indice": "« I like » veut dire j’aime.",
+      "explication": "« I like blue » veut dire j’aime le bleu.",
+      "ecoute": {
+        "texte": "I like blue.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Est-ce que cet enfant aime l’orange ?",
+      "options": [
+        "Non.",
+        "Oui."
+      ],
+      "reponse": "Non.",
+      "indice": "« I don’t like » veut dire je n’aime pas.",
+      "explication": "« I don’t like orange » veut dire je n’aime pas l’orange.",
+      "ecoute": {
+        "texte": "I don’t like orange.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’aime cet enfant ?",
+      "options": [
+        "Les pommes.",
+        "Les bananes.",
+        "Les fraises."
+      ],
+      "reponse": "Les pommes.",
+      "indice": "« Apples » veut dire pommes.",
+      "explication": "« I like apples » veut dire j’aime les pommes.",
+      "ecoute": {
+        "texte": "I like apples.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’est-ce que cet enfant n’aime pas ?",
+      "options": [
+        "Les bananes.",
+        "Les pommes.",
+        "Le lait."
+      ],
+      "reponse": "Les bananes.",
+      "indice": "« Bananas » ressemble au français.",
+      "explication": "Il dit qu’il n’aime pas les bananes.",
+      "ecoute": {
+        "texte": "I don’t like bananas.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle couleur aime cet enfant ?",
+      "options": [
+        "Le vert.",
+        "Le rouge.",
+        "Le jaune."
+      ],
+      "reponse": "Le vert.",
+      "indice": "« Green » veut dire vert.",
+      "explication": "« I like green » veut dire j’aime le vert.",
+      "ecoute": {
+        "texte": "I like green.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’aime cet enfant ?",
+      "options": [
+        "Le chocolat.",
+        "Le poisson.",
+        "La soupe."
+      ],
+      "reponse": "Le chocolat.",
+      "indice": "Le mot ressemble au français.",
+      "explication": "« I like chocolate » veut dire j’aime le chocolat.",
+      "ecoute": {
+        "texte": "I like chocolate.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dit cet enfant ?",
+      "options": [
+        "Il aime le rouge, pas le jaune.",
+        "Il aime le jaune, pas le rouge.",
+        "Il aime les deux."
+      ],
+      "reponse": "Il aime le rouge, pas le jaune.",
+      "indice": "« Red » veut dire rouge.",
+      "explication": "Il aime le rouge mais pas le jaune.",
+      "ecoute": {
+        "texte": "I like red. I don’t like yellow.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dis-tu « j’aime les chats » ?",
+      "options": [
+        "I like cats.",
+        "I don’t like cats.",
+        "I am a cat."
+      ],
+      "reponse": "I like cats.",
+      "indice": "Sans « don’t ».",
+      "explication": "« I like cats » veut dire j’aime les chats.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

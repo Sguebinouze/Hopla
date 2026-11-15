@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-QUES-01",
+  "exemple": "« Who is it? » « Where is the cat? » « What is it? »",
+  "regle": "Pour demander **qui** : who. Pour demander **où** : where. Pour demander **quoi** : what.",
+  "piege": "« Who » et « where » se ressemblent. Écoute bien le début du mot.",
+  "essai": {
+    "consigne": "Que veut dire « who » ?",
+    "options": [
+      "qui",
+      "où",
+      "quoi"
+    ],
+    "reponse": "qui",
+    "explication": "« Who » veut dire qui."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

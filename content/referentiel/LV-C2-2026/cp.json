@@ -1,0 +1,141 @@
+{
+  "programme": "LV-C2-2026",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "LV-C2-CP-SAL-01",
+      "titre": "Saluer",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre quelques mots familiers et expressions très courantes",
+      "attendu": "Comprendre les formules d’accueil et de salutation de la classe.",
+      "exemple": "« Hello! » veut dire bonjour.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 17,
+        "extrait": "Repérer quelques mots du champ lexical de la prise de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-QUES-01",
+      "titre": "Qui, quoi, où ?",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre quelques mots familiers et expressions très courantes",
+      "attendu": "Reconnaitre les mots de question usuels : who, what, where.",
+      "exemple": "« Where is the cat? » veut dire : où est le chat ?",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 17,
+        "extrait": "Reconnaitre les pronoms interrogatifs usuels"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-GOUT-01",
+      "titre": "J’aime, je n’aime pas",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre quelques mots familiers et expressions très courantes",
+      "attendu": "Comprendre quelqu’un qui dit ce qu’il aime et ce qu’il n’aime pas.",
+      "exemple": "« I like apples. » veut dire : j’aime les pommes.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 18,
+        "extrait": "Identifier les verbes permettant d’exprimer le gout et le"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-HUM-01",
+      "titre": "Les émotions",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre quelques mots familiers et expressions très courantes",
+      "attendu": "Reconnaitre l’humeur de quelqu’un : content, triste, en colère, surpris.",
+      "exemple": "« I’m happy! » veut dire : je suis content.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 18,
+        "extrait": "Identifier l’humeur de ses interlocuteurs (tristesse, joie,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-NOMB-01",
+      "titre": "Les nombres",
+      "domaine": "Comprendre l’oral",
+      "theme": "Suivre le fil d’une histoire adaptée à l’âge des élèves et suffisamment étayée",
+      "attendu": "Reconnaitre à l’oral les nombres de 1 à 10, dans une comptine ou un jeu.",
+      "exemple": "« One, two, buckle my shoe » : un, deux.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 18,
+        "extrait": "Reconnaitre certaines lettres de l’alphabet et les chiffres."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-CORPS-01",
+      "titre": "Les parties du corps",
+      "domaine": "Comprendre l’oral",
+      "theme": "Suivre le fil d’une histoire adaptée à l’âge des élèves et suffisamment étayée",
+      "attendu": "Reconnaitre les parties du corps dans une comptine comme « Head, Shoulders, Knees and Toes ».",
+      "exemple": "« Head » veut dire tête.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 19,
+        "extrait": "Reconnaitre les mots familiers pour parler de soi, de sa"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-ACT-01",
+      "titre": "Comprendre et agir",
+      "domaine": "Comprendre l’oral",
+      "theme": "Comprendre et agir",
+      "attendu": "Réagir à des consignes simples à l’impératif, comme dans le jeu « Simon says ».",
+      "exemple": "« Clap your hands! » : on tape dans ses mains.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 19,
+        "extrait": "Agir en suivant les indications données par des verbes"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-PRES-01",
+      "titre": "Parler de soi",
+      "domaine": "S’exprimer oralement en continu",
+      "theme": "Reproduire un modèle oral",
+      "attendu": "Dire son âge, sa couleur préférée et ce qu’on aime avec des phrases mémorisées.",
+      "exemple": "« I’m six. My favourite colour is green. »",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 25,
+        "extrait": "Parler de soi ou de son environnement familier en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "LV-C2-CP-ANIM-01",
+      "titre": "Les animaux familiers",
+      "domaine": "Médiation et culture",
+      "theme": "Identifier les repères culturels",
+      "attendu": "Nommer et reconnaitre quelques animaux de compagnie en les montrant.",
+      "exemple": "« Look! A dog. » : regarde, un chien.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 43,
+        "extrait": "Utiliser quelques expressions indiquant ce que l’on veut"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}
