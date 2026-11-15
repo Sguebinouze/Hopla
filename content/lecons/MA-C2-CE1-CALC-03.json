@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-CALC-03",
+  "exemple": "Le double de 25 est 50. La moitié de 50 est 25.",
+  "regle": "Le **double**, c’est deux fois le même nombre. La **moitié**, c’est partager en deux parts égales. 4 × 25 = **100**.",
+  "piege": "La moitié de 70 n’est pas 30. C’est 35, car 35 + 35 = 70.",
+  "essai": {
+    "consigne": "Quelle est la moitié de 40 ?",
+    "options": [
+      "10",
+      "80",
+      "20"
+    ],
+    "reponse": "20",
+    "explication": "20 + 20 = 40. La moitié de 40 est 20."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-ESP-01",
+  "exemple": "Le ballon est sous la table. La chaise est devant la table.",
+  "regle": "Des mots disent **où** sont les choses. Par exemple : devant, derrière, sur, sous, à gauche, à droite. Un **plan** montre un lieu vu du dessus.",
+  "piege": "Sur une carte, le nord est souvent en haut.",
+  "essai": {
+    "consigne": "Quel est le contraire de « sur » ?",
+    "options": [
+      "loin",
+      "devant",
+      "sous"
+    ],
+    "reponse": "sous",
+    "explication": "Le contraire de sur est sous."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

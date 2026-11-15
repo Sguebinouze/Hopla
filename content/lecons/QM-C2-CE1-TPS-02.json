@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-TPS-02",
+  "exemple": "Quand ton grand-père était petit, il n’avait pas de téléphone portable.",
+  "regle": "Les modes de vie changent avec le **temps**. Les objets, les maisons et les jeux évoluent. Les **générations** se suivent : enfants, parents, grands-parents.",
+  "piege": "Autrefois ne veut pas dire « il y a très très longtemps ».",
+  "essai": {
+    "consigne": "Qui est le plus âgé ?",
+    "options": [
+      "l’arrière-grand-père",
+      "le grand-père",
+      "le père"
+    ],
+    "reponse": "l’arrière-grand-père",
+    "explication": "L’arrière-grand-père est le père du grand-père. Il est le plus âgé."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

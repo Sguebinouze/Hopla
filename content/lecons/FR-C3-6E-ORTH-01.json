@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-ORTH-01",
+  "exemple": "Tom est parti. Léa est partie. Les filles sont parties.",
+  "regle": "Avec l’auxiliaire **être**, le participe passé **s’accorde avec le sujet** : on ajoute **-e** au féminin et **-s** au pluriel.",
+  "piege": "Un masculin et un féminin ensemble donnent un masculin pluriel : Tom et Léa sont arrivés.",
+  "essai": {
+    "consigne": "Choisis : Mes cousines sont … hier.",
+    "options": [
+      "venu",
+      "venues",
+      "venus"
+    ],
+    "reponse": "venues",
+    "explication": "Le sujet « mes cousines » est féminin pluriel : venues."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

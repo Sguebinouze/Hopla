@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-04",
+  "exemple": "3,476 est entre 3,4 et 3,5. Le chiffre des centièmes est 7 : l’arrondi au dixième est 3,5.",
+  "regle": "Pour **arrondir** au dixième, on regarde le **chiffre des centièmes**. S’il vaut **5 ou plus**, on prend la valeur supérieure ; sinon, la valeur inférieure. Même méthode à l’unité (on regarde les dixièmes) et au centième (on regarde les millièmes).",
+  "piege": "Arrondir n’est pas tronquer : l’arrondi de 2,96 à l’unité est 3, pas 2.",
+  "essai": {
+    "consigne": "Arrondis 12,64 à l’unité.",
+    "options": [
+      "13",
+      "12,6",
+      "12"
+    ],
+    "reponse": "13",
+    "explication": "Le chiffre des dixièmes est 6, qui vaut 5 ou plus : l’arrondi est 13."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

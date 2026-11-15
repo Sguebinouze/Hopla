@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-LONG-02",
+  "exemple": "Un carré de 5 cm de côté a un périmètre de 4 × 5 = 20 cm.",
+  "regle": "Le **périmètre** est la longueur du contour. Carré : **4 × côté**. Rectangle : **2 × (longueur + largeur)**. Disque : **diamètre × π**, avec π ≈ 3,14.",
+  "piege": "Le rayon est la moitié du diamètre : pense à le doubler avant de multiplier par π.",
+  "essai": {
+    "consigne": "Périmètre d’un disque de diamètre 10 cm (π ≈ 3,14) ?",
+    "options": [
+      "62,8 cm",
+      "314 cm",
+      "31,4 cm"
+    ],
+    "reponse": "31,4 cm",
+    "explication": "Diamètre × π = 10 × 3,14 = 31,4 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

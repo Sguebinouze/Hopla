@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DUR-01",
+  "exemple": "150 min = 2 h 30 min, car 150 = 2 × 60 + 30.",
+  "regle": "**1 h = 60 min** et **1 min = 60 s**. Pour convertir des minutes en heures, on cherche combien de fois 60 entre dans le nombre. Pour ajouter des durées, on ajoute heures et minutes, puis on transforme 60 minutes en 1 heure.",
+  "piege": "Une heure n’a pas 100 minutes : 1,5 h = 1 h 30 min, et non 1 h 50 min.",
+  "essai": {
+    "consigne": "Un film commence à 20 h 45 et dure 1 h 30 min. Il finit à…",
+    "options": [
+      "22 h 45",
+      "21 h 75",
+      "22 h 15"
+    ],
+    "reponse": "22 h 15",
+    "explication": "20 h 45 + 1 h = 21 h 45. Puis 21 h 45 + 30 min = 22 h 15."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

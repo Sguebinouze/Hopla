@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-VIV-01",
+  "exemple": "Le chat naît, grandit et vieillit. Le caillou ne grandit pas.",
+  "regle": "Un **être vivant** naît, grandit, se nourrit, se reproduit et meurt. Les **animaux** et les **végétaux** sont vivants. Un **minéral**, comme un caillou, n’est pas vivant.",
+  "piege": "Une plante est vivante, même si elle ne bouge pas.",
+  "essai": {
+    "consigne": "La fleur est…",
+    "options": [
+      "un minéral",
+      "un végétal",
+      "un animal"
+    ],
+    "reponse": "un végétal",
+    "explication": "La fleur pousse, grandit et fane. C’est un végétal."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-SIG-01",
+  "exemple": "Quand il est midi à Paris, il fait nuit en Australie.",
+  "regle": "La Terre **tourne sur elle-même** en 24 h. La moitié tournée vers le Soleil est dans le **jour**, l’autre dans la **nuit**. L’**axe de la Terre est incliné**. Au fil de l’année, la hauteur du Soleil et la durée du jour changent. Ce sont les **saisons**.",
+  "piege": "Les saisons ne viennent pas de la distance au Soleil.",
+  "essai": {
+    "consigne": "Pourquoi y a-t-il des saisons ?",
+    "options": [
+      "Le Soleil chauffe moins en hiver.",
+      "La Terre s’éloigne du Soleil en hiver.",
+      "L’axe de la Terre est incliné."
+    ],
+    "reponse": "L’axe de la Terre est incliné.",
+    "explication": "L’inclinaison de l’axe fait varier la hauteur du Soleil et la durée du jour."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

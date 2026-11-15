@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-CALC-05",
+  "exemple": "47 + 9 : je fais 47 + 10 = 57. Puis 57 − 1 = 56.",
+  "regle": "Pour **ajouter 9**, ajoute 10 puis enlève 1. Pour **enlever 9**, enlève 10 puis ajoute 1. Pour 13 × 7, calcule 10 × 7 plus 3 × 7.",
+  "piege": "Avec 19, ajoute 20 et enlève 1. Avec 29, ajoute 30 et enlève 1.",
+  "essai": {
+    "consigne": "Calcule : 36 + 19",
+    "options": [
+      "55",
+      "45",
+      "56"
+    ],
+    "reponse": "55",
+    "explication": "36 + 20 = 56. Puis 56 − 1 = 55."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

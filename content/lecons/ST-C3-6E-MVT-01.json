@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-MVT-01",
+  "exemple": "Un cycliste parcourt 30 km en 2 h. Chaque heure, il parcourt en moyenne 15 km.",
+  "regle": "La **vitesse moyenne** se calcule en divisant la **distance** par la **durée** : 30 km ÷ 2 h = 15 km/h. Un mouvement se décrit toujours **par rapport à** un observateur. La Terre tourne sur elle-même en **24 h** (un jour) et autour du Soleil en **365 jours** environ (une année).",
+  "piege": "Assis dans le train, tu es immobile par rapport au train, mais en mouvement par rapport au quai.",
+  "essai": {
+    "consigne": "Une voiture roule 180 km en 2 h. Sa vitesse moyenne ?",
+    "options": [
+      "182 km/h",
+      "360 km/h",
+      "90 km/h"
+    ],
+    "reponse": "90 km/h",
+    "explication": "180 km ÷ 2 h = 90 km/h."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-CALC-01",
+  "exemple": "7 + 5 = 12. Donc 12 = 7 + 5, et 5 + … = 12 se complète avec 7.",
+  "regle": "Une table d’addition se lit dans **les deux sens**. Si tu connais 7 + 5 = 12, tu connais aussi 12 − 5 = 7.",
+  "piege": "Pour 9 + 6, pense à 10 + 6, puis retire 1.",
+  "essai": {
+    "consigne": "Complète : 8 + … = 15",
+    "options": [
+      "7",
+      "23",
+      "8"
+    ],
+    "reponse": "7",
+    "explication": "8 + 7 = 15. Le nombre manquant est 7."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

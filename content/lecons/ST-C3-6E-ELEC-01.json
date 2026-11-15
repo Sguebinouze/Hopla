@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-ELEC-01",
+  "exemple": "Un feu tricolore passe au rouge : les voitures s’arrêtent. Un signal lumineux a transmis une information.",
+  "regle": "Un **circuit à une boucle** relie une pile, un interrupteur et des récepteurs (lampe, moteur). Le courant circule si le circuit est **fermé**. On peut changer l’ordre des composants dans la boucle. Un **signal** lumineux, sonore ou électrique transmet une **information**.",
+  "piege": "La tension du secteur (230 V) est dangereuse : on ne manipule jamais une prise.",
+  "essai": {
+    "consigne": "Quel composant convertit l’électricité en mouvement ?",
+    "options": [
+      "le moteur",
+      "la lampe",
+      "l’interrupteur"
+    ],
+    "reponse": "le moteur",
+    "explication": "Le moteur convertit l’énergie électrique en mouvement."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

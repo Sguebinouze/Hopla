@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-TPS-01",
+  "exemple": "Lundi, mardi, mercredi… Après dimanche, la semaine recommence.",
+  "regle": "Une **semaine** compte 7 jours. Une **année** compte 12 mois. Il y a 4 **saisons** : printemps, été, automne, hiver. Une **heure** compte 60 minutes.",
+  "piege": null,
+  "essai": {
+    "consigne": "Combien de jours dans une semaine ?",
+    "options": [
+      "4",
+      "7",
+      "12"
+    ],
+    "reponse": "7",
+    "explication": "De lundi à dimanche, il y a 7 jours."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

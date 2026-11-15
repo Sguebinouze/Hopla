@@ -115,3 +115,5 @@ export function verifierTexte(texte: string, cycle: Cycle): Probleme[] {
 
   return problemes;
 }
+
+export { pourLaVoix } from './oral';

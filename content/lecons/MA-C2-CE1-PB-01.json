@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-PB-01",
+  "exemple": "Léo a 25 billes. Il en gagne 10. Le nombre augmente : 25 + 10 = 35.",
+  "regle": "Lis l’histoire et raconte-la avec tes mots. Si la quantité **augmente**, on ajoute. Si elle **diminue**, on retire. Si on cherche une **partie** du tout, on retire.",
+  "piege": "Le mot « plus » ne veut pas toujours dire qu’il faut additionner.",
+  "essai": {
+    "consigne": "Nora a 50 images. Elle en donne 20. Combien lui en reste-t-il ?",
+    "options": [
+      "20",
+      "30",
+      "70"
+    ],
+    "reponse": "30",
+    "explication": "La quantité diminue. 50 − 20 = 30."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-MAT-02",
+  "exemple": "On verse du sable dans l’eau, puis on filtre : le sable reste dans le filtre.",
+  "regle": "La **masse** se mesure en grammes (1 kg = 1 000 g), le **volume** en litres (1 L = 1 000 mL). On sépare un mélange par **décantation** ou **filtration**. L’air contient environ **78 % de diazote** et **21 % de dioxygène**. Lors d’une dissolution, la masse totale **se conserve**.",
+  "piege": "Le sucre dissous ne disparaît pas : la masse du mélange est la somme des masses.",
+  "essai": {
+    "consigne": "Quel gaz est le plus abondant dans l’air ?",
+    "options": [
+      "le diazote",
+      "le dioxygène",
+      "le dioxyde de carbone"
+    ],
+    "reponse": "le diazote",
+    "explication": "L’air contient environ 78 % de diazote."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

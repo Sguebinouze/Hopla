@@ -4,6 +4,7 @@ import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
+import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
 import { chargerPack, missionDuJour, NOMS_MATIERES, type Pack } from '../lib/packs';
 
 const XP_PAR_NIVEAU = 200;
@@ -18,6 +19,7 @@ export function Accueil() {
   const [enfant, setEnfant] = useState<Enfant | null>(null);
   const [pack, setPack] = useState<Pack | null>(null);
   const [erreur, setErreur] = useState('');
+  const [voixAuto, setVoixAuto] = useState<boolean | null>(null);
 
   useEffect(() => {
     void (async () => {
@@ -25,7 +27,9 @@ export function Accueil() {
         const e = await api.enfantCourant();
         if (!e) return naviguer('/');
         setEnfant(e);
-        setPack(await chargerPack(e.classe));
+        const p = await chargerPack(e.classe);
+        setPack(p);
+        setVoixAuto(lectureAuto(p.cycle));
       } catch (err) {
         setErreur((err as Error).message || 'Erreur de chargement.');
       }
@@ -105,6 +109,13 @@ export function Accueil() {
       )}
 
       <div className="pousse" />
+      {voixDisponible() && voixAuto !== null && (
+        <label className="reglage">
+          <input type="checkbox" id="voix-auto" checked={voixAuto}
+            onChange={(e) => { reglerLectureAuto(e.target.checked); setVoixAuto(e.target.checked); }} />
+          Octave lit les consignes à voix haute
+        </label>
+      )}
       <button className="hp-btn hp-btn--ghost" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
         <Icone nom="cadenas" />Quitter ma session
       </button>

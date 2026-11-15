@@ -1,0 +1,18 @@
+{
+  "competence": "MA-C2-CE1-OPE-01",
+  "exemple": "8 billes, on peut les ranger 2 par 2 sans reste. 7 billes, il en reste une.",
+  "regle": "Un nombre **pair** se partage en deux parts égales. Il finit par **0, 2, 4, 6 ou 8**. Les autres nombres sont **impairs**.",
+  "piege": "Pour un grand nombre, regarde seulement le chiffre des unités.",
+  "essai": {
+    "consigne": "Le nombre 346 est-il pair ou impair ?",
+    "options": [
+      "impair",
+      "pair"
+    ],
+    "reponse": "pair",
+    "explication": "346 finit par 6. Il est pair."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

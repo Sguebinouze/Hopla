@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-OBJ-01",
+  "exemple": "Une pile, deux fils, une lampe. Le circuit est fermé : la lampe s’allume.",
+  "regle": "Le courant sort de la **pile** et passe dans les fils. Puis il revient à la pile. Le circuit doit être **fermé**. Les métaux sont **conducteurs**. Le plastique et le bois sont **isolants**.",
+  "piege": "Ne joue jamais avec les prises de la maison. Leur courant est dangereux.",
+  "essai": {
+    "consigne": "Que fait l’interrupteur ouvert ?",
+    "options": [
+      "Il coupe le courant.",
+      "Il allume la lampe.",
+      "Il recharge la pile."
+    ],
+    "reponse": "Il coupe le courant.",
+    "explication": "L’interrupteur ouvert coupe le circuit. La lampe s’éteint."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

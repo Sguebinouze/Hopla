@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-NUM-01",
+  "exemple": "635, c’est 6 centaines, 3 dizaines et 5 unités. On dit six-cent-trente-cinq.",
+  "regle": "Dans un nombre, chaque chiffre a une **valeur** selon sa place. À droite, les **unités**. Puis les **dizaines**. Puis les **centaines**. 10 unités font 1 dizaine. 10 dizaines font 1 centaine.",
+  "piege": "Si un rang est vide, on écrit un zéro : 408.",
+  "essai": {
+    "consigne": "Écris en chiffres : 3 centaines, 0 dizaine et 7 unités.",
+    "options": [
+      "307",
+      "370",
+      "37"
+    ],
+    "reponse": "307",
+    "explication": "3 centaines, pas de dizaine, 7 unités. On écrit 307."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

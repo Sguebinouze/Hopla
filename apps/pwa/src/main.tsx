@@ -7,6 +7,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Accueil } from './pages/Accueil';
 import { Code } from './pages/Code';
 import { Exercice } from './pages/Exercice';
+import { Lecon } from './pages/Lecon';
 import { Matiere } from './pages/Matiere';
 import { Parent } from './pages/Parent';
 import { Profils } from './pages/Profils';
@@ -20,6 +21,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/code/:id" element={<Code />} />
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/matiere/:matiere" element={<Matiere />} />
+        <Route path="/lecon/:competence" element={<Lecon />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />

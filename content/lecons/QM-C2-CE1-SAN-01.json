@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-SAN-01",
+  "exemple": "À midi, Tom mange des carottes, du riz et une pomme.",
+  "regle": "Les aliments forment des **familles**. Par exemple : fruits et légumes, féculents, laitages, viandes et poissons. Un repas **équilibré** mélange plusieurs familles. Bouger, dormir et se laver aident à grandir en forme.",
+  "piege": null,
+  "essai": {
+    "consigne": "Le yaourt fait partie des…",
+    "options": [
+      "fruits",
+      "produits laitiers",
+      "féculents"
+    ],
+    "reponse": "produits laitiers",
+    "explication": "Le yaourt est fait avec du lait. C’est un produit laitier."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

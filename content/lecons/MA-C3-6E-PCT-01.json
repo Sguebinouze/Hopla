@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-PCT-01",
+  "exemple": "Un pull à 40 € est soldé à 25 % : la remise est le quart de 40 €, soit 10 €.",
+  "regle": "**t %** signifie **t/100**. Appliquer un pourcentage, c’est multiplier par t/100. À connaître : **50 %** = la moitié, **25 %** = le quart, **10 %** = le dixième, **75 %** = les trois quarts.",
+  "piege": null,
+  "essai": {
+    "consigne": "Calcule 10 % de 350.",
+    "options": [
+      "35",
+      "3,5",
+      "340"
+    ],
+    "reponse": "35",
+    "explication": "10 %, c’est le dixième : 350 ÷ 10 = 35."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

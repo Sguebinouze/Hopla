@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-PB-02",
+  "exemple": "Léo a 12 billes. Lucie en a 5 de plus que Léo. Lucie a 12 + 5 = 17 billes.",
+  "regle": "Dessine **deux barres**, une par personne. Cherche qui en a le **plus**. L’**écart** est la différence entre les deux nombres.",
+  "piege": "Elle a 5 billes de plus que lui : il en a moins.",
+  "essai": {
+    "consigne": "Il y a 20 filles et 15 garçons. Combien de filles de plus ?",
+    "options": [
+      "35",
+      "15",
+      "5"
+    ],
+    "reponse": "5",
+    "explication": "On cherche l’écart : 20 − 15 = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

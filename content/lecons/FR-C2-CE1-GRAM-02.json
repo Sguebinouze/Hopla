@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-GRAM-02",
+  "exemple": "« Il pleut. » donne une information. « Il pleut ? » pose une question. « Ferme la fenêtre. » donne un ordre.",
+  "regle": "Une phrase **déclarative** donne une information. Elle finit par un point. Une phrase **interrogative** pose une question. Elle finit par un point d’interrogation. Une phrase **impérative** donne un ordre ou un conseil.",
+  "piege": "Une phrase impérative n’a pas de sujet : « Range ta chambre. »",
+  "essai": {
+    "consigne": "« Où est mon cartable ? » Quel est le type de cette phrase ?",
+    "options": [
+      "interrogative",
+      "impérative",
+      "déclarative"
+    ],
+    "reponse": "interrogative",
+    "explication": "La phrase pose une question. Elle finit par un point d’interrogation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

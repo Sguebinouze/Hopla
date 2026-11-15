@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-02",
+  "exemple": "3,45 × 100 = 345. Chaque chiffre prend une valeur 100 fois plus grande.",
+  "regle": "Multiplier par **10, 100 ou 1 000** décale chaque chiffre de **1, 2 ou 3 rangs vers la gauche**. Diviser par 10, 100 ou 1 000 les décale **vers la droite**. Multiplier par 0,1, c’est diviser par 10.",
+  "piege": "On ne « déplace » pas la virgule au hasard : ce sont les chiffres qui changent de rang.",
+  "essai": {
+    "consigne": "Calcule : 7,2 ÷ 100",
+    "options": [
+      "720",
+      "0,72",
+      "0,072"
+    ],
+    "reponse": "0,072",
+    "explication": "Chaque chiffre recule de 2 rangs : 7,2 ÷ 100 = 0,072."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

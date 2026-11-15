@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-GRAM-01",
+  "exemple": "Le chat noir dort. « Le » annonce le nom. « Chat » est un nom. « Noir » dit comment est le chat. « Dort » dit ce qu’il fait.",
+  "regle": "Le **déterminant** est devant le nom : le, la, un, des. Le **nom commun** désigne une chose, un animal ou une personne. Le **nom propre** prend une majuscule : Léa, Paris. L’**adjectif** dit comment est le nom. Le **verbe** dit ce que l’on fait. Le **pronom** remplace le nom : il, elle, nous.",
+  "piege": "Un nom propre prend toujours une majuscule, même en milieu de phrase.",
+  "essai": {
+    "consigne": "Dans « Léa mange une pomme », quelle est la classe de « Léa » ?",
+    "options": [
+      "verbe",
+      "nom propre",
+      "déterminant"
+    ],
+    "reponse": "nom propre",
+    "explication": "Léa est le prénom d’une personne. Il a une majuscule. C’est un nom propre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

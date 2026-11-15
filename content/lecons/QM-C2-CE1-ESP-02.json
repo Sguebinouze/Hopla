@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-ESP-02",
+  "exemple": "Sur le globe, la France est en Europe. Le bleu montre les océans.",
+  "regle": "La Terre a des **continents**, de grandes terres. Elle a aussi des **océans**, de grandes étendues d’eau salée. La France est sur le continent européen.",
+  "piege": "Le globe est rond comme la Terre. La carte est à plat.",
+  "essai": {
+    "consigne": "Sur quel continent est la France ?",
+    "options": [
+      "l’Asie",
+      "l’Europe",
+      "l’Amérique"
+    ],
+    "reponse": "l’Europe",
+    "explication": "La France est en Europe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

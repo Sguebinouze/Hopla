@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-03",
+  "exemple": "4 + 1/10 + 7/1 000 = 4,107. Le rang des centièmes est vide : on y met un 0.",
+  "regle": "1/10 = **0,1** (un dixième), 1/100 = **0,01** (un centième), 1/1 000 = **0,001** (un millième). Chaque chiffre se place dans son rang ; un rang vide reçoit un zéro.",
+  "piege": "7/100 s’écrit 0,07, et non 0,7.",
+  "essai": {
+    "consigne": "Écris sous forme décimale : 35/100",
+    "options": [
+      "3,5",
+      "0,35",
+      "0,035"
+    ],
+    "reponse": "0,35",
+    "explication": "35 centièmes s’écrit 0,35."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

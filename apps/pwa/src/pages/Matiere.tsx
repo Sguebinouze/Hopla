@@ -41,14 +41,17 @@ export function Matiere() {
           {bloc.competences.filter((c) => c.theme === t).map((c) => {
             const jouable = c.generateurs.length > 0 || c.exercices.length > 0;
             return (
-              <Link key={c.id} to={jouable ? `/exercice/${c.id}` : '#'} aria-disabled={!jouable}
-                className="hp-skill notion" onClick={(e) => { if (!jouable) e.preventDefault(); }}>
+              <div key={c.id} className="hp-skill notion" aria-disabled={!jouable && !c.lecon}>
                 <span className="hp-skill__main">
                   <span className="hp-skill__name">{c.titre}</span>
                   <span className="hp-skill__where">{c.attendu}</span>
                 </span>
-                <span className="hp-chip hp-chip--primary">{jouable ? "S’entrainer" : 'Bientôt'}</span>
-              </Link>
+                <span className="notion__actions">
+                  {c.lecon && <Link to={`/lecon/${c.id}`} className="hp-chip hp-chip--neutral"><Icone nom="livre" taille={16} />Leçon</Link>}
+                  {jouable && <Link to={`/exercice/${c.id}`} className="hp-chip hp-chip--primary">S’entrainer</Link>}
+                  {!jouable && !c.lecon && <span className="hp-chip hp-chip--neutral">Bientôt</span>}
+                </span>
+              </div>
             );
           })}
         </section>

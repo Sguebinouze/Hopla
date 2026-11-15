@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-PB-03",
+  "exemple": "3 paquets de 4 biscuits. Cela fait 4 + 4 + 4 = 12. On écrit 3 × 4 = 12.",
+  "regle": "Pour trouver le **tout**, on multiplie. Pour faire des **paquets égaux**, on remplit le plus de paquets possible. Pour **partager**, on distribue un par un.",
+  "piege": "Vérifie : le nombre de parts fois la part donne le tout.",
+  "essai": {
+    "consigne": "12 bonbons pour 3 enfants. Combien chacun en reçoit-il ?",
+    "options": [
+      "15",
+      "4",
+      "9"
+    ],
+    "reponse": "4",
+    "explication": "3 × 4 = 12. Chaque enfant reçoit 4 bonbons."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-FRAC-01",
+  "exemple": "On coupe une pizza en 4 parts égales. Tu manges 1 part. Tu as mangé 1/4 de la pizza.",
+  "regle": "Le **dénominateur**, en bas, dit en combien de parts égales on coupe. Le **numérateur**, en haut, dit combien de parts on prend.",
+  "piege": "Les parts doivent être égales. Sinon, ce n’est pas une fraction.",
+  "essai": {
+    "consigne": "Une tablette a 8 carrés. 3 sont coloriés. Quelle fraction est coloriée ?",
+    "options": [
+      "8/3",
+      "3/5",
+      "3/8"
+    ],
+    "reponse": "3/8",
+    "explication": "Il y a 8 carrés en tout : c’est le dénominateur. 3 sont coloriés : c’est le numérateur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

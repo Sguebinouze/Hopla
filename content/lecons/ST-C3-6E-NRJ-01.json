@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-NRJ-01",
+  "exemple": "L’eau d’un barrage fait tourner une turbine qui produit de l’électricité.",
+  "regle": "L’énergie existe sous plusieurs **formes** : de pesanteur, cinétique (mouvement), chimique, thermique, électrique, lumineuse, nucléaire. Un dispositif **convertit** une forme en une autre. Une ressource est **renouvelable** si elle se reconstitue à l’échelle d’une vie humaine : Soleil, vent, eau. Pétrole, charbon, gaz et uranium ne le sont pas.",
+  "piege": null,
+  "essai": {
+    "consigne": "Quelle ressource est renouvelable ?",
+    "options": [
+      "l’uranium",
+      "le charbon",
+      "le Soleil"
+    ],
+    "reponse": "le Soleil",
+    "explication": "Le Soleil fournit de l’énergie en continu. Le charbon et l’uranium s’épuisent."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

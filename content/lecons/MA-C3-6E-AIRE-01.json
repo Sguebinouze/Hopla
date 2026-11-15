@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-AIRE-01",
+  "exemple": "Un rectangle de 7 cm sur 4 cm contient 28 carrés de 1 cm de côté. Son aire est 28 cm².",
+  "regle": "L’**aire** mesure la surface. Rectangle : **longueur × largeur**. Carré : **côté × côté**. Pour les aires, on passe d’une unité à la suivante en multipliant ou divisant par **100** : 1 m² = 100 dm².",
+  "piege": "4 × côté donne le périmètre d’un carré, pas son aire.",
+  "essai": {
+    "consigne": "Aire d’un carré de 6 m de côté ?",
+    "options": [
+      "36 m²",
+      "24 m²",
+      "12 m²"
+    ],
+    "reponse": "36 m²",
+    "explication": "6 × 6 = 36. L’aire est 36 m²."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

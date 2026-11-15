@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-GRAM-01",
+  "exemple": "« Le ciel devient gris » : gris dit comment est le ciel. « Léa lit un roman » : un roman est ce que Léa lit.",
+  "regle": "L’**attribut du sujet** suit un verbe d’état (être, devenir, sembler, paraître, rester, demeurer) et caractérise le sujet. Le **COD** complète le verbe directement, sans préposition. Le **COI** est introduit par une préposition (à, de). Le **complément circonstanciel** indique le lieu, le temps ou la cause ; on peut le déplacer ou le supprimer.",
+  "piege": "Après « est », ne cherche pas un COD : « Ma sœur est infirmière » contient un attribut.",
+  "essai": {
+    "consigne": "Dans « Nous partirons demain », quelle est la fonction de « demain » ?",
+    "options": [
+      "complément circonstanciel",
+      "attribut du sujet",
+      "COD"
+    ],
+    "reponse": "complément circonstanciel",
+    "explication": "« Demain » indique le temps. On peut le déplacer : « Demain, nous partirons »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

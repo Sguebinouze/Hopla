@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-ALIM-01",
+  "exemple": "Du lait, des ferments, une yaourtière à 40 °C : quelques heures plus tard, on obtient des yaourts.",
+  "regle": "Des **microorganismes** (bactéries, levures) transforment les aliments : c’est la **fermentation** (yaourt, pain, fromage). Pour **conserver** les aliments, on limite les microorganismes : froid, salaison, stérilisation.",
+  "piege": "Le froid du réfrigérateur ralentit les microorganismes ; il ne les tue pas tous.",
+  "essai": {
+    "consigne": "Quel microorganisme fait lever la pâte à pain ?",
+    "options": [
+      "un virus",
+      "la levure",
+      "le sel"
+    ],
+    "reponse": "la levure",
+    "explication": "La levure produit du dioxyde de carbone : la pâte gonfle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

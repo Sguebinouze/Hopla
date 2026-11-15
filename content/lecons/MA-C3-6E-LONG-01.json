@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-LONG-01",
+  "exemple": "3,5 m = 350 cm, car 1 m = 100 cm.",
+  "regle": "Les unités de longueur se suivent de 10 en 10 : **km, hm, dam, m, dm, cm, mm**. Vers une unité plus **petite**, on **multiplie** ; vers une unité plus **grande**, on **divise**.",
+  "piege": "Vérifie le sens : en cm, une longueur s’écrit avec un nombre plus grand qu’en m.",
+  "essai": {
+    "consigne": "Convertis 2,4 km en m.",
+    "options": [
+      "0,0024",
+      "24",
+      "2 400"
+    ],
+    "reponse": "2 400",
+    "explication": "1 km = 1 000 m. 2,4 × 1 000 = 2 400 m."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

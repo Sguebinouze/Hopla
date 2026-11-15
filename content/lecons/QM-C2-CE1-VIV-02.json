@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-VIV-02",
+  "exemple": "La vache mange de l’herbe. Le lion mange de la viande.",
+  "regle": "Un **herbivore** mange des plantes. Un **carnivore** mange des animaux. Un **omnivore** mange les deux. Dans une **chaîne alimentaire**, chacun est mangé par le suivant.",
+  "piege": "Une chaîne commence toujours par une plante.",
+  "essai": {
+    "consigne": "Le loup mange des lapins. Il est…",
+    "options": [
+      "carnivore",
+      "herbivore",
+      "omnivore"
+    ],
+    "reponse": "carnivore",
+    "explication": "Le loup mange d’autres animaux. Il est carnivore."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

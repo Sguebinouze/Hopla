@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-VOC-01",
+  "exemple": "Rapide et lent sont deux adjectifs de sens contraire. Rapide et lentement n’ont pas la même classe.",
+  "regle": "Un **antonyme** est un mot de sens contraire. Il doit appartenir à la **même classe grammaticale** : un adjectif pour un adjectif, un verbe pour un verbe.",
+  "piege": "Un synonyme a un sens proche, pas un sens contraire.",
+  "essai": {
+    "consigne": "Quel est l’antonyme de « allumer » ?",
+    "options": [
+      "extinction",
+      "éclairer",
+      "éteindre"
+    ],
+    "reponse": "éteindre",
+    "explication": "« Éteindre » est un verbe de sens contraire, comme « allumer »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

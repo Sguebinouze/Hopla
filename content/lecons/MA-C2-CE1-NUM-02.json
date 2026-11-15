@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-NUM-02",
+  "exemple": "Compare 243 et 234. Les centaines sont égales. 4 dizaines, c’est plus que 3. Donc 243 > 234.",
+  "regle": "Pour **comparer**, regarde d’abord les **centaines**. Si elles sont égales, regarde les **dizaines**. Puis les **unités**. Le signe **<** veut dire « plus petit que ». Le signe **>** veut dire « plus grand que ».",
+  "piege": "La pointe du signe montre toujours le plus petit nombre.",
+  "essai": {
+    "consigne": "Complète : 512 … 521",
+    "options": [
+      ">",
+      "=",
+      "<"
+    ],
+    "reponse": "<",
+    "explication": "Les centaines sont égales. 1 dizaine est moins que 2. Donc 512 < 521."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

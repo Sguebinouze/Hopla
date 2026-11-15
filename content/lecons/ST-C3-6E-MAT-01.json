@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-MAT-01",
+  "exemple": "On chauffe de la glace : la température monte jusqu’à 0 °C, reste stable pendant la fusion, puis remonte.",
+  "regle": "La matière existe à l’état **solide**, **liquide** ou **gazeux**. La **fusion** fait passer du solide au liquide, la **solidification** l’inverse, la **vaporisation** du liquide au gaz. L’eau pure fond à **0 °C** et bout à **100 °C**. Pendant un changement d’état d’un corps pur, la température reste **constante**.",
+  "piege": "Le fer est attiré par l’aimant, pas l’aluminium ni le cuivre.",
+  "essai": {
+    "consigne": "Comment s’appelle le passage du liquide au solide ?",
+    "options": [
+      "la solidification",
+      "la fusion",
+      "la vaporisation"
+    ],
+    "reponse": "la solidification",
+    "explication": "Le liquide devient solide : c’est la solidification."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-FRAC-02",
+  "exemple": "Les 2/3 de 12 œufs : 1/3 de 12, c’est 12 ÷ 3 = 4. 2/3, c’est 2 × 4 = 8 œufs.",
+  "regle": "Pour prendre **a/b d’un nombre**, on divise ce nombre par **b**, puis on multiplie par **a**. C’est la même chose que calculer a/b × le nombre.",
+  "piege": null,
+  "essai": {
+    "consigne": "Calcule les 3/4 de 20.",
+    "options": [
+      "60",
+      "15",
+      "5"
+    ],
+    "reponse": "15",
+    "explication": "1/4 de 20 = 5. Donc 3/4 de 20 = 3 × 5 = 15."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

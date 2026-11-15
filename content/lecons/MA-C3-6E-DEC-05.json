@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-05",
+  "exemple": "2,5 × 0,4 : 25 × 4 = 100. Les facteurs ont 2 chiffres après la virgule en tout : 1,00 = 1.",
+  "regle": "Pour **multiplier deux décimaux**, on calcule d’abord sans les virgules. Le produit a **autant de chiffres après la virgule** que les deux facteurs réunis. On vérifie avec un **ordre de grandeur**.",
+  "piege": "Multiplier par un nombre plus petit que 1 donne un résultat plus petit : 8 × 0,5 = 4.",
+  "essai": {
+    "consigne": "Calcule : 1,2 × 3",
+    "options": [
+      "0,36",
+      "3,6",
+      "36"
+    ],
+    "reponse": "3,6",
+    "explication": "12 × 3 = 36, avec un chiffre après la virgule : 3,6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

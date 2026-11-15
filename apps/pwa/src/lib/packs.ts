@@ -13,6 +13,12 @@ export interface CompetencePack {
   statut: string;
   source: { id: string; page: number | null };
   generateurs: string[];
+  lecon: {
+    exemple: string;
+    regle: string;
+    piege: string | null;
+    essai: { consigne: string; options: string[]; reponse: string; explication: string };
+  } | null;
   exercices: {
     id: string;
     gabarit: string;
@@ -68,6 +74,14 @@ export function missionDuJour(pack: Pack, jour = new Date()) {
   const alternees: ReturnType<typeof competencesJouables> = [];
   for (let i = 0; parMatiere.some((l) => i < l.length); i++) for (const l of parMatiere) if (l[i]) alternees.push(l[i]!);
   return alternees.slice(0, 3);
+}
+
+/** Une compétence du pack avec sa matière et le cycle de la classe. */
+export async function competenceDuPack(classe: Classe, id: string) {
+  const pack = await chargerPack(classe);
+  const c = competencesJouables(pack).find((x) => x.id === id)
+    ?? pack.matieres.flatMap((m) => m.competences.map((x) => ({ ...x, matiere: m.matiere }))).find((x) => x.id === id);
+  return c ? { competence: c, cycle: pack.cycle } : null;
 }
 
 /** Compétences jouables (au moins un générateur ou un exercice publié). */

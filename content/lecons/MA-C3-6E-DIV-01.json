@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DIV-01",
+  "exemple": "On range 47 œufs par boîtes de 6 : 7 boîtes pleines et 5 œufs restants. 47 = 6 × 7 + 5.",
+  "regle": "Dans la **division euclidienne** de a par b, on cherche un **quotient** q et un **reste** r. On a **a = b × q + r**, avec **r < b**.",
+  "piege": "Si le reste est plus grand que le diviseur, le quotient est trop petit.",
+  "essai": {
+    "consigne": "Dans la division euclidienne de 50 par 7, quel est le reste ?",
+    "options": [
+      "1",
+      "3",
+      "7"
+    ],
+    "reponse": "1",
+    "explication": "50 = 7 × 7 + 1, et 1 < 7. Le reste est 1."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

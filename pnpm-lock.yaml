@@ -16,6 +16,9 @@ importers:
       '@hopla/generateurs':
         specifier: workspace:*
         version: link:../../packages/generateurs
+      '@hopla/redaction':
+        specifier: workspace:*
+        version: link:../../packages/redaction
       '@supabase/supabase-js':
         specifier: ^2.49.4
         version: 2.119.0

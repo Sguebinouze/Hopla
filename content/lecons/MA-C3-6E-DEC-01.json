@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-01",
+  "exemple": "2,5 ou 2,45 ? 2,5 = 2,50. On compare 50 centièmes et 45 centièmes : 2,5 est le plus grand.",
+  "regle": "Pour **comparer deux décimaux**, on compare d’abord les **parties entières**. Si elles sont égales, on compare les **dixièmes**, puis les **centièmes**. On peut ajouter des zéros à droite pour avoir autant de décimales.",
+  "piege": "Le nombre qui a le plus de chiffres après la virgule n’est pas forcément le plus grand.",
+  "essai": {
+    "consigne": "Quel est le plus grand nombre ?",
+    "options": [
+      "3,7",
+      "3,65",
+      "3,099"
+    ],
+    "reponse": "3,7",
+    "explication": "Les parties entières sont égales. 7 dixièmes, c’est plus que 6 ou 0 dixièmes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

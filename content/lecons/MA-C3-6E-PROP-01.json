@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-PROP-01",
+  "exemple": "3 kg de pommes coûtent 6 €. 9 kg, c’est 3 fois plus : 3 × 6 = 18 €.",
+  "regle": "Deux grandeurs sont **proportionnelles** quand on passe de l’une à l’autre en multipliant toujours par le même nombre. On peut utiliser la **linéarité** : 2 fois plus, 3 fois moins, somme de deux colonnes. On peut aussi faire un **retour à l’unité** : le prix pour 1 kg.",
+  "piege": "Tout n’est pas proportionnel : l’âge et la taille d’un enfant ne le sont pas.",
+  "essai": {
+    "consigne": "4 places coûtent 36 €. Combien coûtent 7 places ?",
+    "options": [
+      "63 €",
+      "252 €",
+      "39 €"
+    ],
+    "reponse": "63 €",
+    "explication": "1 place : 36 ÷ 4 = 9 €. 7 places : 7 × 9 = 63 €."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

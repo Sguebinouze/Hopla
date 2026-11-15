@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-FRAC-01",
+  "exemple": "Un quart d’heure dure 15 minutes, soit 0,25 heure. 1/4 = 0,25.",
+  "regle": "À connaître par cœur : **1/2 = 0,5** ; **1/4 = 0,25** ; **3/4 = 0,75** ; **3/2 = 1,5** ; **5/2 = 2,5**. Pour calculer avec des demis et des quarts, on écrit tout en quarts : 1/2 = 2/4 et 1 = 4/4.",
+  "piege": "1/4 ne s’écrit pas 1,4.",
+  "essai": {
+    "consigne": "Complète : 1/2 + 1/4 = …",
+    "options": [
+      "3/4",
+      "2/6",
+      "1/6"
+    ],
+    "reponse": "3/4",
+    "explication": "En quarts : 2/4 + 1/4 = 3/4."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

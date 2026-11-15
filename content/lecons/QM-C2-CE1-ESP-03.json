@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-ESP-03",
+  "exemple": "À la mer, on voit la plage. À la montagne, on voit des sommets.",
+  "regle": "Un **paysage**, c’est ce que l’on voit d’un lieu. Le **littoral** est le bord de mer. La **montagne** a des sommets. La **campagne** a des champs. La **ville** a des immeubles.",
+  "piege": null,
+  "essai": {
+    "consigne": "Où trouve-t-on beaucoup d’immeubles ?",
+    "options": [
+      "à la campagne",
+      "à la montagne",
+      "en ville"
+    ],
+    "reponse": "en ville",
+    "explication": "La ville a beaucoup d’immeubles et d’habitants."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

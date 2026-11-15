@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-ORTH-02",
+  "exemple": "Le chat joue. Les chats jouent. On entend la même chose. On n’écrit pas la même chose.",
+  "regle": "Le verbe s’accorde avec son **sujet**. Si le sujet est au **pluriel**, le verbe prend **-nt**.",
+  "piege": "Pour trouver le sujet, demande : qui fait l’action ?",
+  "essai": {
+    "consigne": "Choisis le bon verbe : Les enfants … dans la cour.",
+    "options": [
+      "joues",
+      "jouent",
+      "joue"
+    ],
+    "reponse": "jouent",
+    "explication": "Le sujet est « les enfants ». Il est au pluriel. Le verbe prend -nt."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

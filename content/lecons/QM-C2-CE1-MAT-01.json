@@ -1,0 +1,18 @@
+{
+  "competence": "QM-C2-CE1-MAT-01",
+  "exemple": "Un glaçon fond dans ta main. La glace devient de l’eau liquide.",
+  "regle": "L’eau peut être **liquide**, comme la pluie. Elle peut être **solide**, comme la glace ou la neige. Le froid transforme l’eau en glace. La chaleur fait **fondre** la glace.",
+  "piege": "L’eau pure gèle à 0 °C.",
+  "essai": {
+    "consigne": "Dans quel état est la neige ?",
+    "options": [
+      "liquide",
+      "solide"
+    ],
+    "reponse": "solide",
+    "explication": "La neige est faite de cristaux de glace. C’est de l’eau solide."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

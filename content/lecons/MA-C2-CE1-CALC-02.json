@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-CALC-02",
+  "exemple": "4 rangées de 3 salades. Cela fait 3 + 3 + 3 + 3 = 12. On écrit 4 × 3 = 12.",
+  "regle": "Le signe **×** se lit « fois ». 4 × 3, c’est 4 fois 3. L’**ordre** ne change rien : 4 × 3 = 3 × 4.",
+  "piege": "Table de 5 : compte de 5 en 5. Tu dis 5, 10, 15, 20.",
+  "essai": {
+    "consigne": "Complète : 5 × … = 30",
+    "options": [
+      "25",
+      "6",
+      "5"
+    ],
+    "reponse": "6",
+    "explication": "5 × 6 = 30. Le nombre manquant est 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

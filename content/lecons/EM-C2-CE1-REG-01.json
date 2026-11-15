@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE1-REG-01",
+  "exemple": "Dans la classe, on lève la main pour parler. Tout le monde peut s’exprimer.",
+  "regle": "Les **règles** permettent de vivre ensemble. En cas d’urgence, on prévient un adulte. Le **15** appelle le SAMU. Le **17** appelle la police. Le **18** appelle les pompiers. Le **112** marche partout en Europe.",
+  "piege": "Pour alerter, dis qui tu es et où tu es. Puis dis ce qui se passe.",
+  "essai": {
+    "consigne": "Quel numéro appelle les pompiers ?",
+    "options": [
+      "15",
+      "18",
+      "17"
+    ],
+    "reponse": "18",
+    "explication": "Le 18 est le numéro des pompiers."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

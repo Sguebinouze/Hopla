@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-DEC-06",
+  "exemple": "7,5 ÷ 3 = 2,5, car 2,5 × 3 = 7,5.",
+  "regle": "On pose la **division** comme pour les entiers. Quand on abaisse le premier chiffre après la virgule, on **place la virgule au quotient**. On vérifie en multipliant le quotient par le diviseur.",
+  "piege": null,
+  "essai": {
+    "consigne": "Calcule : 8,4 ÷ 4",
+    "options": [
+      "21",
+      "2,1",
+      "0,21"
+    ],
+    "reponse": "2,1",
+    "explication": "2,1 × 4 = 8,4. Donc 8,4 ÷ 4 = 2,1."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

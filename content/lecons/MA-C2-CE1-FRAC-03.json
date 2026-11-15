@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-FRAC-03",
+  "exemple": "1 cinquième plus 2 cinquièmes, cela fait 3 cinquièmes.",
+  "regle": "Quand les **dénominateurs** sont égaux, on ajoute ou on retire les **numérateurs**. Le dénominateur ne change pas.",
+  "piege": "N’ajoute pas les dénominateurs. 1/5 + 2/5 ne fait pas 3/10.",
+  "essai": {
+    "consigne": "Calcule : 2/6 + 3/6",
+    "options": [
+      "5/6",
+      "6/6",
+      "5/12"
+    ],
+    "reponse": "5/6",
+    "explication": "On ajoute les numérateurs : 2 + 3 = 5. Le dénominateur reste 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
