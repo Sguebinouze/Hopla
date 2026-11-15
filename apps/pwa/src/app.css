@@ -1,0 +1,34 @@
+/* Mise en page de l'app. Les composants viennent de @hopla/ds/components.css. */
+html, body { margin: 0; background: var(--surface-0); color: var(--ink); font-family: var(--font-text); }
+* { box-sizing: border-box; }
+a { color: var(--primary); }
+
+.ecran { max-width: 560px; margin: 0 auto; min-height: 100dvh; padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); }
+.ecran--large { max-width: 1100px; }
+.titre-1 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 26px; line-height: 1.15; }
+.titre-2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 19px; }
+.muet { color: var(--ink-muted); font-size: 13px; margin: 0; }
+.ligne { display: flex; align-items: center; gap: var(--space-2); }
+.pousse { flex-grow: 1; }
+.marque { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; font-size: 22px; }
+
+.grille-profils { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-3); }
+.grille-matieres { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: var(--space-2); }
+.grille-matieres .hp-subject { width: auto; }
+.grille-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); }
+.grille-options .hp-option { min-width: 0; width: 100%; }
+.hp-mission a.hp-mission__item { text-decoration: none; }
+.hp-mission a.hp-mission__item:not(.hp-mission__item--current) { color: inherit; }
+.visuel { background: var(--surface-1); border-radius: var(--radius-lg); padding: var(--space-4); display: flex; justify-content: center; box-shadow: var(--shadow-card); }
+.saisie { min-height: var(--target-kid); border: 2px solid var(--line); border-radius: var(--radius-md); padding: 0 var(--space-4); font-family: var(--font-display); font-size: 24px; width: 100%; background: var(--surface-1); color: var(--ink); }
+.saisie:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.bandeau-demo { background: var(--sun-soft); color: var(--sun-ink); border-radius: var(--radius-md); padding: var(--space-2) var(--space-3); font-size: 13px; }
+.erreur { color: var(--attention); font-size: 14px; font-weight: 600; margin: 0; }
+.formulaire { display: flex; flex-direction: column; gap: var(--space-2); }
+.formulaire label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; font-weight: 600; }
+.formulaire input, .formulaire select { min-height: var(--target-min); border: 2px solid var(--line); border-radius: var(--radius-sm); padding: 0 var(--space-3); font: inherit; font-weight: 400; background: var(--surface-1); color: var(--ink); }
+
+@media (min-width: 900px) {
+  .exercice { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: var(--space-5); align-items: start; }
+  .grille-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

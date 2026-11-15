@@ -1,0 +1,26 @@
+{
+  "programme": "MA-C2-2024",
+  "classe": "ce2",
+  "competences": [
+    {
+      "id": "MA-C2-CE2-FRAC-01",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Lire, écrire et représenter une fraction simple dont le dénominateur ne dépasse pas 12.",
+      "exemple": "Une barre est coupée en 4 parts égales. 3 parts sont coloriées : c'est 3/4 de la barre.",
+      "source": { "id": "bo41-2024-maths-c2", "page": null, "extrait": null },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-CALC-01",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaître les tables de multiplication et les utiliser pour calculer.",
+      "exemple": "6 × 7 = 42, donc 42 = 6 × 7.",
+      "source": { "id": "bo41-2024-maths-c2", "page": null, "extrait": null },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

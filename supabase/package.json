@@ -1,0 +1,13 @@
+{
+  "name": "@hopla/supabase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.14",
+    "vitest": "^2.1.8"
+  }
+}

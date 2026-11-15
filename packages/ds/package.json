@@ -1,0 +1,16 @@
+{
+  "name": "@hopla/ds",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tokens.json": "./tokens.json",
+    "./tokens.css": "./dist/tokens.css",
+    "./components.css": "./components.css",
+    "./octave.svg": "./octave.svg",
+    "./hopla-mark.svg": "./hopla-mark.svg"
+  },
+  "scripts": {
+    "build": "node scripts/build-css.mjs"
+  }
+}

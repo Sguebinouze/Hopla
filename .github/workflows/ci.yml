@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Intégrité du contenu (référentiel, calendrier, règles de rédaction)
+        run: pnpm content:check
+      - name: Empreintes des textes officiels archivés
+        run: pnpm content:hash
+      - name: Tests (rédaction, générateurs, contenu, isolation Supabase)
+        run: pnpm test
+      - name: Types
+        run: pnpm typecheck
+      - name: Build de la PWA (exercices publiés seulement)
+        run: pnpm build

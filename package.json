@@ -1,0 +1,18 @@
+{
+  "name": "hopla",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @hopla/pwa dev",
+    "build": "pnpm --filter @hopla/ds build && pnpm content:packs && pnpm --filter @hopla/pwa build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "content:check": "pnpm --filter @hopla/content check",
+    "content:packs": "pnpm --filter @hopla/content packs",
+    "content:hash": "pnpm --filter @hopla/content hash",
+    "ds:build": "pnpm --filter @hopla/ds build"
+  }
+}
