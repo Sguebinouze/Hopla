@@ -12,6 +12,10 @@ import {
   fractionsOperations6e, fractionsUsuelles6e, multiplierDecimaux6e, multiplierDiviser6e, pourcentages6e,
 } from './sixieme-nombres';
 import { tablesMultiplication } from './tables-c2';
+import { GENERATEURS_CP } from './cp';
+import { GENERATEURS_CE2 } from './ce2';
+import { GENERATEURS_CM1 } from './cm1';
+import { GENERATEURS_CM2 } from './cm2';
 import type { Difficulte, Generateur, Item } from './types';
 
 export type { Difficulte, Gabarit, Generateur, Item, Visuel } from './types';
@@ -19,6 +23,8 @@ export { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 export { enLettres } from './lettres';
 
 export const GENERATEURS: Generateur[] = [
+  // CP
+  ...GENERATEURS_CP,
   // CE1 mathématiques
   nombresUnitesCe1, nombresLettresCe1, nombresComparerCe1, fractionsColorieesCe1, fractionsComparerCe1,
   fractionsAdditionnerCe1, pariteCe1, tablesAdditionCe1, tablesMultiplicationCe1, doublesMoitiesCe1,
@@ -26,7 +32,9 @@ export const GENERATEURS: Generateur[] = [
   // CE1 français
   presentCe1, infinitifCe1, plurielGnCe1, accordSujetVerbeCe1, classesMotsCe1, typesPhrasesCe1,
   // CE2
-  fractionsColoriees, tablesMultiplication,
+  fractionsColoriees, tablesMultiplication, ...GENERATEURS_CE2,
+  // CM1, CM2
+  ...GENERATEURS_CM1, ...GENERATEURS_CM2,
   // 6e mathématiques
   comparerDecimaux6e, multiplierDiviser6e, fractionsDecimales6e, arrondir6e, multiplierDecimaux6e, diviserDecimal6e,
   divisionEuclidienne6e, fractionsUsuelles6e, fractionDunNombre6e, fractionsOperations6e, pourcentages6e,
@@ -60,11 +68,14 @@ export function serie(id: string, n: number, graineBase: number, difficulte: Dif
 }
 
 /**
- * Normalise une saisie : espaces, signe moins typographique ou clavier,
- * point décimal et zéros inutiles (« 3.50 » devient « 3,5 »).
+ * Normalise une saisie.
+ * Mot : minuscules (les tablettes mettent une majuscule d'office), espaces simples, apostrophe typographique.
+ * Nombre : espaces, signe moins typographique ou clavier, point décimal et zéros inutiles (« 3.50 » devient « 3,5 »).
  */
 export function normaliserReponse(saisie: string): string {
-  const s = saisie.trim().replace(/\s+/g, '').replace(/^-/, '−').replace(/^\+/, '');
+  const brut = saisie.trim();
+  if (/\p{L}/u.test(brut)) return brut.replace(/\s+/g, ' ').replace(/'/g, '’').toLowerCase();
+  const s = brut.replace(/\s+/g, '').replace(/^-/, '−').replace(/^\+/, '');
   const m = s.match(/^(−?)(\d+(?:[.,]\d+)?)$/);
   return m ? m[1]! + normaliserDecimal(m[2]!) : s;
 }

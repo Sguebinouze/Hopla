@@ -1,0 +1,141 @@
+{
+  "programme": "FR-C3-2025",
+  "classe": "cm1",
+  "competences": [
+    {
+      "id": "FR-C3-CM1-CONJ-01",
+      "titre": "Présent, imparfait, futur",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Conjuguer au présent, à l’imparfait et au futur être, avoir, les verbes des 1er et 2e groupes, et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
+      "exemple": "Nous finissons. Ils prenaient. Vous viendrez. Nous mangeons.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Conjugaisons à mémoriser et à maîtriser : présent de l’indicatif, imparfait, futur, passé composé des verbes être et avoir, des"
+      },
+      "prerequis": ["FR-C2-CE1-CONJ-01"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-CONJ-02",
+      "titre": "Le passé composé",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Former le passé composé (auxiliaire et participe passé), retrouver l’infinitif, placer la négation.",
+      "exemple": "Nous avons fini. Ils ont pris : infinitif prendre. Tu n’as pas fini.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Connaître la composition du passé composé en deux parties (auxiliaire + participe passé) ; retrouver la forme infinitive du"
+      },
+      "prerequis": ["FR-C3-CM1-CONJ-01"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-01",
+      "titre": "Accord sujet-verbe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Acquérir l’orthographe grammaticale",
+      "attendu": "Repérer le sujet du verbe, en particulier le nom noyau d’un groupe nominal, et accorder le verbe.",
+      "exemple": "Les enfants du quartier jouent au ballon : le nom noyau est « enfants », au pluriel.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Repérer le sujet du verbe : notamment le nom noyau dans le cas d’un groupe nominal"
+      },
+      "prerequis": ["FR-C2-CE1-ORTH-02"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-02",
+      "titre": "Accords dans le groupe nominal",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Acquérir l’orthographe grammaticale",
+      "attendu": "Transformer le genre et le nombre d’un groupe nominal en effectuant toutes les variations régulières.",
+      "exemple": "Le petit voisin bavard devient, au féminin pluriel, les petites voisines bavardes.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Transformer le genre et le nombre de groupes nominaux simples isolés puis inscrits dans des phrases simples"
+      },
+      "prerequis": ["FR-C2-CE1-ORTH-01"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-03",
+      "titre": "Participe passé avec être",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Acquérir l’orthographe grammaticale",
+      "attendu": "Accorder le participe passé avec le sujet quand le verbe est conjugué avec l’auxiliaire être.",
+      "exemple": "Les filles sont arrivées. Mon oncle est parti.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Accorder le participe passé avec le sujet dans le cas de l’emploi avec l’auxiliaire être"
+      },
+      "prerequis": ["FR-C3-CM1-CONJ-02"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-01",
+      "titre": "Les déterminants",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Identifier et nommer les articles définis et indéfinis, les déterminants possessifs et démonstratifs.",
+      "exemple": "Dans « Ma sœur lit ce livre », ma est un déterminant possessif, ce un déterminant démonstratif.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "Identifier et nommer les déterminants suivants : articles définis, indéfinis, déterminants possessifs et démonstratifs"
+      },
+      "prerequis": ["FR-C2-CE1-GRAM-01"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-02",
+      "titre": "Remplacer par un pronom",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Remplacer un groupe nominal sujet par un pronom personnel sujet, et un groupe nominal objet par un pronom personnel objet.",
+      "exemple": "Léa et Inès chantent : elles chantent. Tom range les jouets : Tom les range.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "Remplacer un groupe nominal sujet par un pronom personnel sujet"
+      },
+      "prerequis": ["FR-C2-CE1-GRAM-01"],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-03",
+      "titre": "Compléments du verbe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Distinguer le complément d’objet du complément circonstanciel, puis le COD du COI dans des phrases simples.",
+      "exemple": "Dans « Léa range ses livres après le diner », ses livres est COD, après le diner est un complément circonstanciel.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "Distinguer le complément d’objet du complément circonstanciel"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM1-VOC-01",
+      "titre": "Synonymes et antonymes",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Trouver un synonyme (mot de sens proche) ou un antonyme (mot de sens contraire) de même classe grammaticale.",
+      "exemple": "Content a pour synonyme heureux et pour antonyme triste.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "Comprendre et utiliser les notions de synonymie et antonymie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

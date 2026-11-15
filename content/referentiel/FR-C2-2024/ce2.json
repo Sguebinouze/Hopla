@@ -3,6 +3,57 @@
   "classe": "ce2",
   "competences": [
     {
+      "id": "FR-C2-CE2-CONJ-01",
+      "titre": "Le présent",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Conjuguer au présent de l’indicatif être, avoir, les verbes du premier groupe et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
+      "exemple": "Je fais, tu vas, il dit, nous venons, vous pouvez, ils prennent.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "(faire, aller, dire, venir, pouvoir, voir, vouloir, prendre)."
+      },
+      "prerequis": [
+        "FR-C2-CE1-CONJ-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-CONJ-02",
+      "titre": "L’imparfait et le futur",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Conjuguer à l’imparfait et au futur de l’indicatif être, avoir, les verbes du premier groupe et les verbes du 3e groupe du programme.",
+      "exemple": "Hier, je jouais. Demain, je jouerai. Nous étions, nous serons.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "Apprendre à conjuguer au présent, à l’imparfait, au futur"
+      },
+      "prerequis": [
+        "FR-C2-CE2-CONJ-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-CONJ-03",
+      "titre": "Le passé composé",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Conjuguer au passé composé avec avoir ou être, et accorder le participe passé avec être.",
+      "exemple": "Nous avons joué. Elle est allée au parc.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "et au passé composé de l’indicatif être et avoir, les verbes"
+      },
+      "prerequis": [
+        "FR-C2-CE2-CONJ-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
       "id": "FR-C2-CE2-ORTH-01",
       "titre": "Accord sujet-verbe",
       "domaine": "Grammaire et orthographe",
@@ -13,6 +64,117 @@
         "id": "bo41-2024-francais-c2",
         "page": 22,
         "extrait": "Identifier, dans des situations simples, la relation sujet-"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-ORTH-02",
+      "titre": "Accords dans le groupe nominal",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Accorder le groupe nominal : pluriels en -s, -x et -aux, féminins qui s’entendent.",
+      "exemple": "Un cheval, des chevaux. Un bijou, des bijoux. Un lecteur, une lectrice.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "des marques d’accord de pluriels irréguliers pour les noms"
+      },
+      "prerequis": [
+        "FR-C2-CE1-ORTH-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-GRAM-01",
+      "titre": "Classes de mots",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Différencier et nommer le déterminant, le nom commun, le nom propre, l’adjectif, le verbe, le pronom personnel sujet et l’adverbe.",
+      "exemple": "Dans « Léa court très vite. », « très » et « vite » sont des adverbes.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "verbe, le pronom personnel sujet et l’adverbe."
+      },
+      "prerequis": [
+        "FR-C2-CE1-GRAM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-GRAM-02",
+      "titre": "Le groupe sujet",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Identifier le groupe sujet et le remplacer par un pronom personnel sujet.",
+      "exemple": "Les enfants jouent. Les enfants, c’est le groupe sujet. On peut dire : ils jouent.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "Il substitue à un groupe nominal sujet un pronom"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-GRAM-03",
+      "titre": "La forme négative",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Reconnaitre et produire la forme négative d’une phrase.",
+      "exemple": "Jean, ferme la porte. Jean, ne ferme pas la porte.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 22,
+        "extrait": "Il transforme des phrases de différents types à la forme"
+      },
+      "prerequis": [
+        "FR-C2-CE1-GRAM-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-LEX-01",
+      "titre": "Les préfixes",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans toutes les disciplines",
+      "attendu": "S’appuyer sur les préfixes pour trouver le sens d’un mot, notamment le sens négatif de dé-, mal-, in-.",
+      "exemple": "Immobile veut dire pas mobile. Défaire, c’est le contraire de faire.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 18,
+        "extrait": "L’élève identifie un sens négatif dans les préfixes dé-, mal-,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-LEX-02",
+      "titre": "Familles de mots",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Trier et apparier des mots et leurs dérivés, repérer la partie commune et la classe grammaticale.",
+      "exemple": "Observation, observer, observable : un nom, un verbe, un adjectif. Ils sont de la même famille.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 19,
+        "extrait": "Il opère des dérivations en identifiant la partie commune"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CE2-LEX-03",
+      "titre": "Mots génériques et synonymes",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Utiliser des synonymes et des termes génériques pour éviter les répétitions.",
+      "exemple": "La voiture, l’automobile, le véhicule. Pomme, poire et cerise sont des fruits.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 19,
+        "extrait": "L’élève mobilise des synonymes, termes génériques ou"
       },
       "prerequis": [],
       "statut": "a_verifier"

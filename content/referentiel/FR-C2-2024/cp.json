@@ -1,0 +1,126 @@
+{
+  "programme": "FR-C2-2024",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "FR-C2-CP-LECT-01",
+      "titre": "Lettres et sons",
+      "domaine": "Lecture",
+      "theme": "Identifier les mots de manière de plus en plus aisée",
+      "attendu": "Associer des graphèmes aux phonèmes étudiés et repérer un son dans un mot écrit.",
+      "exemple": "On entend le son « ou » dans « loup ». On entend « an » dans « dent ».",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 5,
+        "extrait": "Décoder et encoder de 25 à 30 CGP."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-LECT-02",
+      "titre": "Les syllabes",
+      "domaine": "Lecture",
+      "theme": "Identifier les mots de manière de plus en plus aisée",
+      "attendu": "Découper un mot en syllabes, trouver sa première et sa dernière syllabe.",
+      "exemple": "« chocolat », c’est cho - co - lat : 3 syllabes.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 5,
+        "extrait": "Déchiffrer des syllabes, des mots puis des phrases en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-ORTH-01",
+      "titre": "Les lettres muettes",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe lexicale",
+      "attendu": "Trouver la lettre muette finale d’un mot grâce à un mot de la même famille.",
+      "exemple": "On écrit « chat » avec un t, comme dans « chaton ».",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Être capable de comprendre la présence d’une lettre"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-ORTH-02",
+      "titre": "m devant m, b, p ; s ou ss",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe lexicale",
+      "attendu": "Écrire m devant m, b, p, et choisir s ou ss entre deux voyelles selon le son entendu.",
+      "exemple": "On écrit « lampe » avec un m. On écrit « poisson » avec ss.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 17,
+        "extrait": "Connaitre la valeur sonore de certaines lettres (s – c – g)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-ORTH-03",
+      "titre": "Masculin, féminin, pluriel",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Marquer le pluriel d’un nom et d’un adjectif par un s, et le féminin d’un adjectif par un e.",
+      "exemple": "Un lapin, deux lapins. Un ballon rond, une balle ronde.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 20,
+        "extrait": "Comprendre les notions de singulier et de pluriel"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-GRAM-01",
+      "titre": "Majuscule et point",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Se repérer dans la phrase simple",
+      "attendu": "Reconnaitre une phrase à sa majuscule initiale et à son point final, repérer une question.",
+      "exemple": "« Le chat dort. » commence par une majuscule et finit par un point.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 20,
+        "extrait": "S’approprier progressivement la notion de phrase simple"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-CONJ-01",
+      "titre": "Être et avoir au présent",
+      "domaine": "Grammaire et orthographe",
+      "theme": "Découvrir, comprendre et mettre en œuvre l’orthographe grammaticale",
+      "attendu": "Conjuguer être et avoir au présent de l’indicatif.",
+      "exemple": "Je suis, tu es, il est. J’ai, tu as, il a.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 20,
+        "extrait": "Apprendre à conjuguer être et avoir au présent de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C2-CP-VOC-01",
+      "titre": "Familles de mots",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Associer des mots de la même famille, par exemple un nom et un verbe.",
+      "exemple": "Chanter et chanteur sont de la même famille. Dormir et dormeur aussi.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 16,
+        "extrait": "Il sait associer le nom et le verbe d’une même famille de"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

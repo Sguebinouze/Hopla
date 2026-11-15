@@ -1,0 +1,353 @@
+{
+  "programme": "MA-C2-2024",
+  "classe": "cp",
+  "competences": [
+    {
+      "id": "MA-C2-CP-NUM-01",
+      "titre": "Dizaines et unités",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Passer d’une représentation d’un nombre jusqu’à 100 à une autre : dizaines et unités, écriture en chiffres, décomposition additive.",
+      "exemple": "3 dizaines et 5 unités, c’est 35. 35 = 30 + 5.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 4,
+        "extrait": "L’élève sait associer différentes représentations d’un même nombre"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-NUM-02",
+      "titre": "Écrire les nombres en lettres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Lire et écrire en lettres les nombres jusqu’à 50.",
+      "exemple": "35 s’écrit trente-cinq. 41 s’écrit quarante-et-un.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 4,
+        "extrait": "À la fin du CP, l’élève maitrise l’écriture en lettres des nombres jusqu’à cinquante."
+      },
+      "prerequis": [
+        "MA-C2-CP-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-NUM-03",
+      "titre": "Comparer et ranger les nombres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Comparer, encadrer, intercaler et ranger des nombres jusqu’à 100 avec les symboles =, < et >.",
+      "exemple": "49 < 53. Rangés du plus petit au plus grand : 18, 21, 26.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 4,
+        "extrait": "L’élève sait placer le symbole qui convient (= ou < ou >) entre deux nombres"
+      },
+      "prerequis": [
+        "MA-C2-CP-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-NUM-04",
+      "titre": "Compter de 2 en 2, de 10 en 10",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Compter de un en un, de deux en deux, de dix en dix, et à rebours, à partir de n’importe quel nombre jusqu’à 100.",
+      "exemple": "23, 33, 43, 53. 52, 51, 50, 49.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 4,
+        "extrait": "de un en un, de deux en deux et de dix en dix"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-NUM-05",
+      "titre": "Les nombres ordinaux",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Utiliser les nombres ordinaux jusqu’à « vingtième » pour repérer un rang dans une liste, une file ou une suite répétitive.",
+      "exemple": "Liste 2, 6, 10, 14, 18 : le quatrième nombre est 14.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 4,
+        "extrait": "L’élève utilise les nombres ordinaux pour indiquer une position dans une liste"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-OPE-01",
+      "titre": "Addition et soustraction",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Comprendre la soustraction comme l’opération inverse de l’addition et utiliser les symboles +, − et =.",
+      "exemple": "On a 32 + 15 = 47, donc 47 − 15 = 32.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 5,
+        "extrait": "La soustraction est comprise par l’élève comme l’opération inverse de l’addition."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-OPE-02",
+      "titre": "Additions en colonnes",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Poser et calculer une addition de deux ou trois nombres à un ou deux chiffres.",
+      "exemple": "45 + 37 = 82. 28 + 8 + 56 = 92.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 5,
+        "extrait": "L’élève sait poser une addition de deux ou trois nombres à un ou deux chiffres"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-01",
+      "titre": "Tables d’addition",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les tables d’addition dans les deux sens, avec des termes de 0 à 10.",
+      "exemple": "4 + … = 12 se complète avec 8. 10 = 7 + 3.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 6,
+        "extrait": "L’élève sait donner oralement et par écrit l’un des trois nombres d’une égalité du type"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-02",
+      "titre": "Doubles et moitiés",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les doubles des nombres de 1 à 10 et de 20, 30, 40, 50, les moitiés des nombres pairs de 2 à 20 et de 40, 60, 80, 100.",
+      "exemple": "Le double de 40 est 80. La moitié de 16 est 8.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 6,
+        "extrait": "les moitiés des dizaines entières 40, 60, 80 et 100."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-03",
+      "titre": "Ajouter ou retirer 1, 2, 10, 20…",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Ajouter ou soustraire 1 ou 2, 10, puis 20, 30… 90 à un nombre en s’appuyant sur la numération.",
+      "exemple": "17 − 2 = 15. 37 − 10 = 27. 76 − 30 = 46.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 6,
+        "extrait": "L’élève sait qu’ajouter 10 à un nombre, c’est ajouter une dizaine"
+      },
+      "prerequis": [
+        "MA-C2-CP-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-04",
+      "titre": "Compléter à la dizaine",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Trouver le complément d’un nombre à la dizaine supérieure avec les compléments à 10.",
+      "exemple": "74 + 6 = 80, car 4 + 6 = 10.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 6,
+        "extrait": "pour trouver le complément d’un nombre à la dizaine supérieure"
+      },
+      "prerequis": [
+        "MA-C2-CP-CALC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-05",
+      "titre": "Ajouter un nombre à un chiffre",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Ajouter un nombre inférieur à 9, avec ou sans passage de la dizaine, et ajouter 9.",
+      "exemple": "32 + 4 = 36. 47 + 8 = 55. 37 + 9 = 46.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 7,
+        "extrait": "Pour ajouter un nombre inférieur à 9, l’élève sait utiliser une procédure adaptée"
+      },
+      "prerequis": [
+        "MA-C2-CP-CALC-04"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-CALC-06",
+      "titre": "Astuces de calcul mental",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Ajouter deux nombres inférieurs à 100, trouver la moitié d’un nombre pair, soustraire un nombre à un chiffre d’une dizaine entière.",
+      "exemple": "47 + 28 = 75. La moitié de 46 est 23. 50 − 6 = 44.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 7,
+        "extrait": "pour ajouter deux nombres inférieurs à 100, il peut les décomposer"
+      },
+      "prerequis": [
+        "MA-C2-CP-CALC-02",
+        "MA-C2-CP-CALC-03"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-PB-01",
+      "titre": "Problèmes : le tout et les parties",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes additifs en une étape du type parties-tout, ajout et retrait compris, nombres jusqu’à 100.",
+      "exemple": "Léa a 53 euros. Elle achète un livre à 7 euros. Il lui reste 46 euros.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 9,
+        "extrait": "L’élève sait résoudre des problèmes de parties-tout en une étape"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-PB-02",
+      "titre": "Problèmes en deux étapes",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes additifs en deux étapes, nombres jusqu’à 30.",
+      "exemple": "29 enfants, 12 descendent, 7 montent : 29 − 12 + 7 = 24.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 9,
+        "extrait": "Il y avait 29 enfants dans un bus."
+      },
+      "prerequis": [
+        "MA-C2-CP-PB-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-PB-03",
+      "titre": "Problèmes : fois et partages",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes multiplicatifs en une étape jusqu’à 30 : valeur du tout, nombre de parts, valeur d’une part.",
+      "exemple": "3 paquets de 7 biscuits : 7 + 7 + 7 = 21 biscuits.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 9,
+        "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-LONG-01",
+      "titre": "Mètre et centimètre",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs et les masses",
+      "attendu": "Connaitre le mètre et le centimètre, quelques longueurs de référence, et savoir qu’un mètre est égal à cent centimètres.",
+      "exemple": "Une trousse mesure environ 20 cm. 1 m = 100 cm.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 25,
+        "extrait": "L’élève sait dire si la longueur d’une trousse est plutôt 2 cm, 20 cm ou 1 m."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-MONN-01",
+      "titre": "Compter la monnaie",
+      "domaine": "Grandeurs et mesures",
+      "theme": "La monnaie",
+      "attendu": "Trouver la valeur d’un ensemble de pièces et de billets, rendre la monnaie, montants entiers jusqu’à 100 euros.",
+      "exemple": "3 billets de 10 € et 4 pièces de 1 € font 34 €.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 26,
+        "extrait": "L’élève détermine la valeur d’une somme d’argent en organisant la monnaie"
+      },
+      "prerequis": [
+        "MA-C2-CP-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-TEMPS-01",
+      "titre": "Lire l’heure",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Le repérage dans le temps",
+      "attendu": "Lire et placer sur une horloge à aiguilles une heure entière.",
+      "exemple": "Petite aiguille sur le 3. Grande aiguille sur le 12. Il est 3 heures.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 26,
+        "extrait": "L’élève sait lire des heures entières"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-GEO-01",
+      "titre": "Les solides",
+      "domaine": "Espace et géométrie",
+      "theme": "Les solides",
+      "attendu": "Reconnaitre et nommer le cube, le pavé, la boule, le cylindre et le cône ; connaitre le nombre et la forme des faces du cube et du pavé.",
+      "exemple": "Une boite à chaussures a la forme d’un pavé. Un cube a 6 faces carrées.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 32,
+        "extrait": "qu’une boite à chaussures a la forme d’un pavé"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-GEO-02",
+      "titre": "Carré, rectangle, triangle",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Nommer le disque, le carré, le rectangle et le triangle, et les décrire avec les mots côté et sommet.",
+      "exemple": "Un triangle a 3 côtés et 3 sommets. Un carré a 4 côtés de même longueur.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 32,
+        "extrait": "L’élève sait donner le nombre de sommets et le nombre de côtés d’un polygone"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CP-DON-01",
+      "titre": "Lire un tableau de données",
+      "domaine": "Organisation et gestion de données",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Organiser et lire les résultats d’une enquête dans un tableau : le plus, le moins, combien de plus, combien en tout.",
+      "exemple": "Fraise 12, banane 8 : la fraise a 4 réponses de plus.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 37,
+        "extrait": "L’élève sait ensuite organiser dans un tableau les données recueillies."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

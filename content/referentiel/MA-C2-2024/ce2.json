@@ -3,6 +3,57 @@
   "classe": "ce2",
   "competences": [
     {
+      "id": "MA-C2-CE2-NUM-01",
+      "titre": "Les nombres jusqu’à 10 000",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Dénombrer et décomposer les nombres jusqu’à 10 000 avec les milliers, centaines, dizaines et unités.",
+      "exemple": "4 635, c’est 4 milliers, 6 centaines, 3 dizaines et 5 unités. C’est aussi 463 dizaines et 5 unités.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 19,
+        "extrait": "Les connaissances et savoir-faire attendus concernent les nombres jusqu’à 10 000."
+      },
+      "prerequis": [
+        "MA-C2-CE1-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-NUM-02",
+      "titre": "Écrire les nombres en lettres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Écrire en chiffres un nombre dicté, lire un nombre écrit en chiffres et l’écrire en lettres jusqu’à 10 000.",
+      "exemple": "4 635 s’écrit quatre-mille-six-cent-trente-cinq.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 19,
+        "extrait": "L’élève sait écrire en chiffres un nombre dicté."
+      },
+      "prerequis": [
+        "MA-C2-CE2-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-NUM-03",
+      "titre": "Comparer les nombres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les nombres entiers",
+      "attendu": "Comparer, ranger, encadrer et intercaler des nombres jusqu’à 10 000.",
+      "exemple": "6 234 < 6 239 < 6 243. 4 618 est compris entre 4 610 et 4 620.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 20,
+        "extrait": "L’élève sait ordonner dans l’ordre croissant ou décroissant un ensemble pouvant aller"
+      },
+      "prerequis": [
+        "MA-C2-CE1-NUM-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
       "id": "MA-C2-CE2-FRAC-01",
       "titre": "Lire une fraction",
       "domaine": "Nombres, calcul et résolution de problèmes",
@@ -18,6 +69,57 @@
       "statut": "a_verifier"
     },
     {
+      "id": "MA-C2-CE2-FRAC-02",
+      "titre": "Fractions égales",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Établir des égalités de fractions inférieures ou égales à 1.",
+      "exemple": "Des parts deux fois plus petites, deux fois plus de parts. Donc 6/8 = 3/4.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 20,
+        "extrait": "L’élève sait déterminer le numérateur manquant dans l’égalité"
+      },
+      "prerequis": [
+        "MA-C2-CE2-FRAC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-FRAC-03",
+      "titre": "Comparer des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Comparer deux fractions de même dénominateur, de même numérateur, ou dont un dénominateur est multiple de l’autre.",
+      "exemple": "5/12 < 7/12. 5/12 < 5/8. 5/6 = 10/12, donc 5/6 > 7/12.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 21,
+        "extrait": "L’élève sait comparer des fractions ayant le même numérateur et justifier sa réponse"
+      },
+      "prerequis": [
+        "MA-C2-CE2-FRAC-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-FRAC-04",
+      "titre": "Ajouter et retirer des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Additionner et soustraire des fractions de même dénominateur, ou dont un dénominateur est multiple de l’autre.",
+      "exemple": "3/8 + 2/8 = 5/8. 1/2 + 1/4 = 2/4 + 1/4 = 3/4.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 21,
+        "extrait": "L’élève sait additionner et soustraire des fractions de même dénominateur en"
+      },
+      "prerequis": [
+        "MA-C2-CE2-FRAC-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
       "id": "MA-C2-CE2-CALC-01",
       "titre": "Tables de multiplication",
       "domaine": "Nombres, calcul et résolution de problèmes",
@@ -28,6 +130,250 @@
         "id": "bo41-2024-maths-c2",
         "page": 22,
         "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-CALC-02",
+      "titre": "Doubles, moitiés et faits utiles",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Connaitre les doubles, les moitiés, les premiers multiples de 25 et les décompositions de 60 listés au programme.",
+      "exemple": "2 × 150 = 300. 1 000 = 2 × 500. 3 × 25 = 75. 60 = 4 × 15.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 22,
+        "extrait": "L’élève connait les multiples de 25 suivants"
+      },
+      "prerequis": [
+        "MA-C2-CE1-CALC-03"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-CALC-03",
+      "titre": "Multiplier par 10 ou par 100",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Multiplier un nombre entier par 10 ou par 100 en s’appuyant sur les unités de numération.",
+      "exemple": "Une unité devient une dizaine : 10 × 724 = 7 240.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 22,
+        "extrait": "lors d’une multiplication par 10, une unité devient une dizaine"
+      },
+      "prerequis": [
+        "MA-C2-CE2-NUM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-CALC-04",
+      "titre": "Astuces de calcul mental",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Le calcul mental",
+      "attendu": "Ajouter 8, 9, 18… 39, soustraire 9… 39, multiplier par 4 ou 8, par un nombre entier de dizaines, et décomposer un produit.",
+      "exemple": "4 × 37 : 2 × 37 = 74, puis 2 × 74 = 148. 23 × 7 = 140 + 21 = 161.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 23,
+        "extrait": "L’élève sait que multiplier par 4 revient à multiplier par 2 et encore par 2."
+      },
+      "prerequis": [
+        "MA-C2-CE1-CALC-05"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-OPE-01",
+      "titre": "Additions et soustractions posées",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Poser et effectuer des additions et des soustractions jusqu’à 10 000 ; utiliser les mots somme et différence.",
+      "exemple": "La somme de 3 721 et de 4 054 est 7 775. La différence entre 60 et 37 est 23.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 21,
+        "extrait": "L’élève sait traiter les additions et les soustractions posées avec des nombres entiers"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-OPE-02",
+      "titre": "Multiplication posée",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Poser et effectuer la multiplication d’un nombre à deux ou trois chiffres par un nombre à un ou deux chiffres.",
+      "exemple": "548 × 16 = 548 × 6 + 548 × 10. 3 288 + 5 480 = 8 768.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 21,
+        "extrait": "Par exemple, l’élève sait calculer 16 × 548 ou 548 × 16 en posant l’opération avec le"
+      },
+      "prerequis": [
+        "MA-C2-CE2-CALC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-OPE-03",
+      "titre": "Comprendre la division",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les quatre opérations",
+      "attendu": "Comprendre la division comme opération inverse de la multiplication et utiliser le symbole ÷.",
+      "exemple": "7 × 13 = 91, donc 91 ÷ 7 = 13 et 91 ÷ 13 = 7.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 21,
+        "extrait": "L’élève comprend que la division est l’opération inverse de la multiplication."
+      },
+      "prerequis": [
+        "MA-C2-CE2-CALC-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-PB-01",
+      "titre": "Problèmes : ajouter, retirer",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes additifs en une étape (parties-tout, transformation, comparaison) avec des nombres supérieurs à 1 000.",
+      "exemple": "Une ville a 3 817 habitants. 1 292 habitants arrivent. 3 817 + 1 292 = 5 109.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 24,
+        "extrait": "des problèmes en une étape avec des nombres entiers supérieurs à 1 000 ;"
+      },
+      "prerequis": [
+        "MA-C2-CE1-PB-01",
+        "MA-C2-CE1-PB-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-PB-02",
+      "titre": "Problèmes en deux étapes",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes en deux étapes : additifs, comparaison puis recherche du tout, mixtes avec une multiplication.",
+      "exemple": "Léo a 188 billes. Lucie en a 75 de plus. 188 + 75 = 263, puis 188 + 263 = 451.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 24,
+        "extrait": "L’élève rencontre des problèmes de comparaison qui se traitent en deux étapes."
+      },
+      "prerequis": [
+        "MA-C2-CE2-PB-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-PB-03",
+      "titre": "Problèmes : multiplier, partager",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes multiplicatifs en une étape : valeur du tout, valeur d’une part, nombre de parts, produits cartésiens.",
+      "exemple": "6 dictionnaires coutent 72 €. 6 × 12 = 72, donc un dictionnaire coute 12 €.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 24,
+        "extrait": "conduit à étendre le champ numérique sur lequel portent les problèmes multiplicatifs"
+      },
+      "prerequis": [
+        "MA-C2-CE1-PB-03"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-PB-04",
+      "titre": "Problèmes : fois plus, fois moins",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "La résolution de problèmes",
+      "attendu": "Résoudre des problèmes de comparaison multiplicative en une étape et distinguer « fois plus » de « de plus ».",
+      "exemple": "Le casque coute 32 €. La trottinette coute 4 fois plus cher : 4 × 32 = 128 €.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 25,
+        "extrait": "L’élève comprend le sens des locutions « fois plus » et « fois moins » et les distingue des"
+      },
+      "prerequis": [
+        "MA-C2-CE2-PB-03"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-GM-01",
+      "titre": "Mesurer et convertir des longueurs",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les longueurs",
+      "attendu": "Connaitre les unités km, m, dm, cm, mm et leurs relations pour convertir sans écriture à virgule.",
+      "exemple": "3 cm + 4 mm = 30 mm + 4 mm = 34 mm. 5 km 750 m = 5 750 m.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 29,
+        "extrait": "L’élève sait que 1 cm = 10 mm et 1 m = 1 000 mm."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-GM-02",
+      "titre": "Masses et contenances",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Les masses",
+      "attendu": "Connaitre les unités t, kg, g et L, dL, cL et leurs relations pour convertir sans écriture à virgule.",
+      "exemple": "1 kg = 1 000 g, donc 3 kg = 3 000 g. 780 cL = 7 L + 80 cL.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 30,
+        "extrait": "L’élève sait convertir entre les unités gramme et kilogramme :"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-GM-03",
+      "titre": "La monnaie",
+      "domaine": "Grandeurs et mesures",
+      "theme": "La monnaie",
+      "attendu": "Écrire un montant avec une virgule, additionner des montants en euros et rendre la monnaie.",
+      "exemple": "Deux euros et cinq centimes s’écrit 2,05 €. Pour 3,68 € payés avec 5 €, on rend 1,32 €.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 30,
+        "extrait": "L’élève sait rendre la monnaie en procédant par ajouts successifs"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-GM-04",
+      "titre": "Heures et durées",
+      "domaine": "Grandeurs et mesures",
+      "theme": "Le repérage dans le temps et les durées",
+      "attendu": "Convertir des heures en minutes, calculer une durée entre deux horaires d’une même journée, trouver un horaire.",
+      "exemple": "2 h 20 min = 140 min. De 15 h 40 à 16 h 05, il s’écoule 25 minutes.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 31,
+        "extrait": "L’élève sait déterminer le nombre de minutes qu’il y a dans deux heures et vingt minutes."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "MA-C2-CE2-GEO-01",
+      "titre": "Cube, pavé et pyramide",
+      "domaine": "Espace et géométrie",
+      "theme": "Les solides",
+      "attendu": "Décrire un cube, un pavé ou une pyramide : nombre et nature des faces, nombre de sommets et d’arêtes.",
+      "exemple": "Un cube a 6 faces carrées, 8 sommets et 12 arêtes.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 35,
+        "extrait": "justifier sa nature en indiquant le nombre et la nature de ses faces"
       },
       "prerequis": [],
       "statut": "a_verifier"

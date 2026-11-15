@@ -1,50 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { verifierTexte } from '@hopla/redaction';
 import { comparerDecimaux, decaler, normaliserDecimal } from './decimaux';
-import { GENERATEURS, enLettres, generateur, normaliserReponse, serie } from './index';
+import { GENERATEURS, enLettres, normaliserReponse, serie } from './index';
+import { DIFFICULTES, GRAINES, calculJuste, calculer, egaliteVraie, partout, proche, tous, val } from './oracles';
 import { PARTICIPES_ETRE, PHRASES_PROPOSITIONS, SUJETS_ETRE } from './sixieme-francais';
-import type { Difficulte, Item } from './types';
-
-const DIFFICULTES: Difficulte[] = [1, 2, 3];
-const GRAINES = Array.from({ length: 400 }, (_, i) => i * 7919 + 1);
-
-// ───────────────────────── Outils d'oracle, indépendants des générateurs
-
-/** Valeur d'une écriture française : « 1 234,5 », « −3 », « 3/4 ». */
-const val = (s: string): number => {
-  const t = s.replace(/[\s ]/g, '').replace(/,/g, '.').replace(/−/g, '-');
-  if (/^-?\d+(\.\d+)?\/\d+$/.test(t)) {
-    const [p, q] = t.split('/').map(Number);
-    return p! / q!;
-  }
-  return Number(t);
-};
-/** Évalue une expression arithmétique écrite à la française. */
-const calculer = (expr: string): number => {
-  const js = expr
-    .replace(/(\d)[\s ](?=\d{3}\b)/g, '$1')
-    .replace(/(\d),(\d)/g, '$1.$2')
-    .replace(/×/g, '*').replace(/÷/g, '/').replace(/−/g, '-');
-  if (!/^[\d.+\-*/() ]+$/.test(js)) throw new Error(`Expression inattendue : ${expr}`);
-  return Function(`return (${js});`)() as number;
-};
-const proche = (x: number, y: number) => Math.abs(x - y) < 1e-9 * Math.max(1, Math.abs(y));
-const tous = (id: string, d: Difficulte, f: (item: Item) => void) => {
-  for (const graine of GRAINES) f(generateur(id).generer(graine, d));
-};
-const partout = (id: string, f: (item: Item, d: Difficulte) => void) => {
-  for (const d of DIFFICULTES) for (const graine of GRAINES) f(generateur(id).generer(graine, d), d);
-};
-/** Vérifie une égalité à trou (« … » ou « ? ») une fois la réponse placée. */
-const egaliteVraie = (item: Item) => {
-  const eq = item.consigne.replace(/^Complète : /, '').replace(/[…?]/, `(${item.reponse})`);
-  const [g, dr] = eq.split('=');
-  expect(proche(calculer(g!), calculer(dr!)), item.consigne).toBe(true);
-};
-const calculJuste = (item: Item) => {
-  const expr = item.consigne.match(/^Calcule : (.+)$/)![1]!;
-  expect(proche(calculer(expr), val(item.reponse)), item.consigne).toBe(true);
-};
 
 // ───────────────────────── Règles communes à tous les générateurs
 
@@ -96,6 +55,17 @@ describe('justesse CE1 mathématiques', () => {
       90: 'quatre-vingt-dix', 91: 'quatre-vingt-onze', 99: 'quatre-vingt-dix-neuf', 100: 'cent', 101: 'cent-un',
       200: 'deux-cents', 201: 'deux-cent-un', 280: 'deux-cent-quatre-vingts', 635: 'six-cent-trente-cinq',
       721: 'sept-cent-vingt-et-un', 999: 'neuf-cent-quatre-vingt-dix-neuf', 1000: 'mille',
+    };
+    for (const [n, l] of Object.entries(ref)) expect(enLettres(Number(n))).toBe(l);
+  });
+
+  it('écriture en lettres : grands nombres (mille invariable, million et milliard noms)', () => {
+    const ref: Record<number, string> = {
+      1001: 'mille-un', 1080: 'mille-quatre-vingts', 2000: 'deux-mille', 80000: 'quatre-vingt-mille',
+      200000: 'deux-cent-mille', 280500: 'deux-cent-quatre-vingt-mille-cinq-cents', 1000000: 'un-million',
+      2300000: 'deux-millions-trois-cent-mille', 80000000: 'quatre-vingts-millions', 200000000: 'deux-cents-millions',
+      1000000000: 'un-milliard', 3000021000: 'trois-milliards-vingt-et-un-mille',
+      999999999: 'neuf-cent-quatre-vingt-dix-neuf-millions-neuf-cent-quatre-vingt-dix-neuf-mille-neuf-cent-quatre-vingt-dix-neuf',
     };
     for (const [n, l] of Object.entries(ref)) expect(enLettres(Number(n))).toBe(l);
   });
@@ -507,5 +477,8 @@ describe('justesse 5e', () => {
   it('normalise le signe moins saisi au clavier', () => {
     expect(normaliserReponse(' -3 ')).toBe('−3');
     expect(normaliserReponse('+4')).toBe('4');
+    expect(normaliserReponse(' Ballons ')).toBe('ballons');
+    expect(normaliserReponse("Aujourd'hui")).toBe('aujourd’hui');
+    expect(normaliserReponse('3 / 4')).toBe('3/4');
   });
 });

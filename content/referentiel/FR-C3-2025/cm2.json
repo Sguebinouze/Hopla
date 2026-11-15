@@ -1,0 +1,180 @@
+{
+  "programme": "FR-C3-2025",
+  "classe": "cm2",
+  "competences": [
+    {
+      "id": "FR-C3-CM2-CONJ-01",
+      "titre": "Le passé simple",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Acquérir l’orthographe grammaticale",
+      "attendu": "Conjuguer au passé simple être, avoir, les verbes des 1er et 2e groupes et faire, aller, dire, venir, pouvoir, voir, vouloir, prendre.",
+      "exemple": "Il chanta, ils finirent, nous fûmes, elle vint.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Conjugaisons à mémoriser et à maîtriser : passé simple, plus-que-parfait des verbes être et avoir"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-CONJ-02",
+      "titre": "Le plus-que-parfait",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Conjuguer au plus-que-parfait : auxiliaire être ou avoir à l’imparfait, suivi du participe passé.",
+      "exemple": "Nous avions fini. Elles étaient venues.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Connaître la composition en deux parties (auxiliaire + participe passé) des temps composés"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-CONJ-03",
+      "titre": "Forme négative, temps composés",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Mettre à la forme négative un verbe au passé composé ou au plus-que-parfait : « ne » devant l’auxiliaire (et le pronom complément), « pas », « jamais » ou « plus » juste après l’auxiliaire.",
+      "exemple": "Léa a fini ses exercices. → Léa n’a pas fini ses exercices. Tom l’a vu. → Tom ne l’a pas vu.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Effectuer la transformation à la forme négative d’un verbe aux temps composés en plaçant les adverbes de négation au bon emplacement"
+      },
+      "prerequis": [
+        "FR-C3-CM2-CONJ-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-ORTH-01",
+      "titre": "Participe passé avec être",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Accorder le participe passé employé avec l’auxiliaire être avec le sujet, en repérant le nom noyau du groupe sujet.",
+      "exemple": "La mère des enfants est partie : le noyau du sujet est « mère », féminin singulier.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Accorder le participe passé avec le sujet dans le cas de l’auxiliaire être"
+      },
+      "prerequis": [
+        "FR-C3-CM2-CONJ-02"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-ORTH-02",
+      "titre": "Participe passé avec avoir",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Accorder le participe passé employé avec l’auxiliaire avoir avec le COD placé avant le verbe ; ne pas l’accorder quand le COD est après.",
+      "exemple": "Léa a cueilli des fleurs. Les fleurs que Léa a cueillies sont sur la table.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Accorder le participe passé avec le COD pour les verbes étudiés et conjugués avec l’auxiliaire avoir"
+      },
+      "prerequis": [
+        "FR-C3-CM2-ORTH-01",
+        "FR-C3-CM2-GRAM-01"
+      ],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-01",
+      "titre": "Attribut, COD, COI",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Différencier attribut du sujet et complément d’objet, puis complément d’objet direct et complément d’objet indirect.",
+      "exemple": "Dans « Ma sœur devient pilote », « pilote » est attribut du sujet. Dans « Il parle à son voisin », « à son voisin » est COI.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Différencier attribut du sujet et complément d’objet"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-02",
+      "titre": "Compléments circonstanciels",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Différencier les compléments circonstanciels de temps, de lieu et de cause.",
+      "exemple": "Dans « Le match est annulé à cause de l’orage », « à cause de l’orage » est complément circonstanciel de cause.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Différencier les compléments circonstanciels de temps, de lieu, de cause"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-03",
+      "titre": "Le sujet inversé",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Identifier le sujet placé après le verbe dans des cas simples.",
+      "exemple": "Dans « Sur la colline se dresse un château », le sujet de « se dresse » est « un château ».",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Identifier le sujet inversé dans des cas simples"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-04",
+      "titre": "Prépositions et conjonctions",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Identifier et nommer les prépositions, les conjonctions de coordination et de subordination, les adverbes.",
+      "exemple": "Dans « Il part avec son frère », « avec » est une préposition.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Identifier et nommer les prépositions"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-05",
+      "titre": "Phrase simple ou complexe",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Se repérer dans la phrase complexe",
+      "attendu": "Distinguer phrase simple et phrase complexe en repérant les verbes conjugués.",
+      "exemple": "« Quand la cloche sonne, les élèves sortent » contient deux verbes conjugués : sonne et sortent.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Distinguer phrase simple et phrase complexe à partir du repérage des verbes conjugués"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-06",
+      "titre": "Pronoms compléments d’objet",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les constituants d’une phrase simple",
+      "attendu": "Remplacer un COD par le, la, l’, les et un COI introduit par « à » par lui ou leur, et placer le pronom devant le verbe.",
+      "exemple": "Léa regarde les oiseaux. → Léa les regarde. Tom parle à sa sœur. → Tom lui parle.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Identifier les pronoms personnels compléments d’objet"
+      },
+      "prerequis": [
+        "FR-C3-CM2-GRAM-01"
+      ],
+      "statut": "a_verifier"
+    }
+  ]
+}
