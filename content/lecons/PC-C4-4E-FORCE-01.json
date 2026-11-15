@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-FORCE-01",
+  "exemple": "Je tire sur un dynamomètre accroché à une trousse : l’aiguille indique 2 N.",
+  "regle": "Deux objets en **interaction** agissent l’un sur l’autre, par **contact** (pousser, tirer) ou **à distance** (gravitation, aimant). On modélise une action par une **force**, représentée par une **flèche**. Elle a une **valeur** en **newtons (N)**, une **direction**, un **sens** et un **point d’application**. On la mesure avec un **dynamomètre**.",
+  "piege": "Une interaction va dans les deux sens : la Lune attire aussi la Terre.",
+  "essai": {
+    "consigne": "Une force s’exprime en…",
+    "options": [
+      "newtons",
+      "kilogrammes",
+      "volts"
+    ],
+    "reponse": "newtons",
+    "explication": "Une force s’exprime en newtons."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

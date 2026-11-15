@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-ELEC-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-ELEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans un circuit en série, l’intensité du courant…",
+      "options": [
+        "est la même partout",
+        "diminue après chaque lampe",
+        "est nulle"
+      ],
+      "reponse": "est la même partout",
+      "indice": "Il n’y a qu’un seul chemin.",
+      "explication": "En série, l’intensité est identique en tout point.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La résistance électrique s’exprime en…",
+      "options": [
+        "ohms (Ω)",
+        "volts (V)",
+        "ampères (A)"
+      ],
+      "reponse": "ohms (Ω)",
+      "indice": "Symbole oméga.",
+      "explication": "La résistance s’exprime en ohms.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment branche-t-on un voltmètre ?",
+      "options": [
+        "en dérivation",
+        "en série",
+        "sans le relier"
+      ],
+      "reponse": "en dérivation",
+      "indice": "Aux bornes du dipôle.",
+      "explication": "Le voltmètre se branche en dérivation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En série, deux lampes ont des tensions de 2 V et 4 V. Quelle est la tension du générateur ?",
+      "options": [
+        "6 V",
+        "2 V",
+        "8 V"
+      ],
+      "reponse": "6 V",
+      "indice": "Les tensions s’additionnent.",
+      "explication": "En série, les tensions s’additionnent : 2 + 4 = 6 V.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "En dérivation, la tension aux bornes de chaque branche…",
+      "options": [
+        "est la même",
+        "s’additionne",
+        "est nulle"
+      ],
+      "reponse": "est la même",
+      "indice": "Chaque branche est reliée au générateur.",
+      "explication": "En dérivation, les tensions sont égales.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux branches en dérivation sont parcourues par 0,2 A et 0,3 A. Quelle intensité traverse la branche principale ?",
+      "options": [
+        "0,5 A",
+        "0,1 A",
+        "0,06 A"
+      ],
+      "reponse": "0,5 A",
+      "indice": "Loi des nœuds.",
+      "explication": "Les intensités s’additionnent : 0,2 + 0,3 = 0,5 A.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "D’après la loi d’Ohm, quelle est la tension aux bornes d’une résistance de 100 Ω traversée par 0,05 A ?",
+      "options": [
+        "5 V",
+        "2 000 V",
+        "0,0005 V"
+      ],
+      "reponse": "5 V",
+      "indice": "U = R × I.",
+      "explication": "U = 100 × 0,05 = 5 V.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une résistance de 50 Ω a une tension de 10 V à ses bornes. Quelle intensité la traverse ?",
+      "options": [
+        "0,2 A",
+        "500 A",
+        "5 A"
+      ],
+      "reponse": "0,2 A",
+      "indice": "I = U ÷ R.",
+      "explication": "I = 10 ÷ 50 = 0,2 A.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

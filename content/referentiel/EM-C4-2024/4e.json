@@ -1,0 +1,66 @@
+{
+  "programme": "EM-C4-2024",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "EM-C4-4E-LIB-01",
+      "titre": "Les libertés",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’État de droit et les libertés",
+      "attendu": "Distinguer libertés individuelles et libertés collectives et savoir que des textes les garantissent.",
+      "exemple": "La liberté d’association permet de créer un club de sport ou une association de quartier.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 21,
+        "extrait": "L’État de droit et les libertés (9 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-4E-ORD-01",
+      "titre": "Libertés et ordre public",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’État de droit et les libertés",
+      "attendu": "Comprendre que les libertés sont limitées par les libertés des autres et par la défense de l’ordre public.",
+      "exemple": "La liberté d’expression ne permet ni l’injure ni l’incitation à la haine.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 22,
+        "extrait": "nos libertés sont toutefois encadrées"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-4E-JUS-01",
+      "titre": "La justice",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’État de droit et les libertés",
+      "attendu": "Présenter les grands principes de la justice : indépendance, organisation, droits des justiciables, justice des mineurs.",
+      "exemple": "Au tribunal correctionnel, l’accusé a droit à un avocat et il est présumé innocent.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 22,
+        "extrait": "l’indépendance de la justice est une"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C4-4E-DEF-01",
+      "titre": "Sécurité et défense",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Défendre le cadre démocratique : sécurité et défense nationale",
+      "attendu": "Connaitre le rôle des forces de sécurité intérieure et des armées, et les nouveaux enjeux comme la guerre informationnelle.",
+      "exemple": "Lors d’un incendie de forêt, les pompiers et la sécurité civile protègent les habitants.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 22,
+        "extrait": "Défendre le cadre démocratique : sécurité et défense nationale (9 heures)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

@@ -54,7 +54,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - CM1 (fait) : histoire-géographie `HG-C3-2026` et sciences et technologie `ST-C3-2026`, appliqués au CM1 depuis la rentrée 2026, et EMC `EM-C3-2024`. 24 notions (8 + 11 + 5), 192 questions, 24 leçons.
 - CM2 (fait) : histoire-géographie `HG-C3-2020` et sciences et technologie `ST-C3-2023` (colonne « cours moyen » du programme, encore en vigueur au CM2 en 2026-2027), EMC `EM-C3-2024`. 20 notions (6 + 10 + 4), 160 questions, 20 leçons.
 - 5e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024`, EMC `EM-C4-2024` (thème « Égalité, fraternité et solidarité »). 22 notions (6 + 5 + 3 + 5 + 3), 176 questions, 22 leçons. Les programmes 2020 de SVT et de physique-chimie ne répartissent pas les notions par année : la classe est justifiée par les « repères de progressivité » cités en extrait (« dès la classe de 5e », « dès le début du cycle »). À confirmer à la relecture.
-- À suivre : 4e puis 3e (mêmes programmes), puis anglais des autres classes.
+- 4e (fait) : histoire-géographie `HG-C4-2020`, physique-chimie `PC-C4-2020`, SVT `SV-C4-2020`, technologie `TE-C4-2024` (colonne 4e des repères de progressivité), EMC `EM-C4-2024` (thème « Défendre les droits et les libertés »). 28 notions (10 + 5 + 3 + 6 + 4), 224 questions, 28 leçons. Même prudence qu’en 5e pour la SVT et la physique-chimie ; la reproduction humaine et la géologie sont placées en 4e par usage, l’extrait cité ne fixe pas l’année.
+- À suivre : 3e (mêmes programmes), puis anglais des autres classes.
 
 ## Travail à deux sessions
 

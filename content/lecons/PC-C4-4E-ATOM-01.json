@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-ATOM-01",
+  "exemple": "Sur le tableau périodique de la classe, je repère H en haut à gauche et O dans la deuxième ligne.",
+  "regle": "La matière est faite d’**atomes**, représentés par des **symboles** : H (hydrogène), C (carbone), O (oxygène), N (azote). Le **tableau périodique** les range par numéro atomique. Les atomes s’assemblent en **molécules**. La **formule** indique le nombre de chaque atome : **H2O** contient 2 atomes H et 1 atome O.",
+  "piege": "Dans une formule, le chiffre écrit après un symbole porte seulement sur cet atome : dans CO2, il y a 2 O mais 1 seul C.",
+  "essai": {
+    "consigne": "Combien d’atomes d’hydrogène dans H2O ?",
+    "options": [
+      "2",
+      "1",
+      "3"
+    ],
+    "reponse": "2",
+    "explication": "H2O contient 2 atomes d’hydrogène."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

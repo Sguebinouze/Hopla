@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-DD-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-DD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le bilan carbone d’un objet mesure…",
+      "options": [
+        "les gaz à effet de serre émis sur son cycle de vie",
+        "son poids",
+        "sa couleur"
+      ],
+      "reponse": "les gaz à effet de serre émis sur son cycle de vie",
+      "indice": "On l’exprime en équivalent CO2.",
+      "explication": "Le bilan carbone évalue les émissions de gaz à effet de serre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un appareil classé A sur l’étiquette énergie…",
+      "options": [
+        "consomme peu d’énergie",
+        "consomme beaucoup",
+        "ne fonctionne pas"
+      ],
+      "reponse": "consomme peu d’énergie",
+      "indice": "L’échelle va de A à G.",
+      "explication": "La classe A correspond aux appareils les plus sobres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparer deux objets « répondant au même besoin », c’est comparer des objets qui…",
+      "options": [
+        "remplissent la même fonction",
+        "ont la même couleur",
+        "viennent du même pays"
+      ],
+      "reponse": "remplissent la même fonction",
+      "indice": "Par exemple deux lampes.",
+      "explication": "On compare des objets de même fonction.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une lampe consomme 10 W, une autre 50 W pour le même éclairage. Laquelle est la plus efficace ?",
+      "options": [
+        "celle de 10 W",
+        "celle de 50 W",
+        "aucune différence"
+      ],
+      "reponse": "celle de 10 W",
+      "indice": "Même service, moins d’énergie.",
+      "explication": "La lampe de 10 W fournit le même service avec moins d’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel critère prend en compte la fin de vie d’un objet ?",
+      "options": [
+        "la recyclabilité",
+        "la vitesse",
+        "la marque"
+      ],
+      "reponse": "la recyclabilité",
+      "indice": "Peut-on récupérer ses matériaux ?",
+      "explication": "La recyclabilité concerne la fin de vie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi le transport influence-t-il le bilan carbone ?",
+      "options": [
+        "il consomme de l’énergie et émet des gaz",
+        "il n’a aucun effet",
+        "il refroidit l’objet"
+      ],
+      "reponse": "il consomme de l’énergie et émet des gaz",
+      "indice": "Bateau, camion, avion.",
+      "explication": "Le transport émet des gaz à effet de serre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une bouilloire A coute 20 € et consomme beaucoup ; une bouilloire B coute 30 € et consomme peu. Sur plusieurs années…",
+      "options": [
+        "B peut revenir moins cher",
+        "A est toujours moins chère",
+        "les deux coutent pareil"
+      ],
+      "reponse": "B peut revenir moins cher",
+      "indice": "Pense à la facture d’électricité.",
+      "explication": "Les économies d’énergie peuvent compenser un prix d’achat plus élevé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour arrêter un choix entre plusieurs objets, on s’appuie sur…",
+      "options": [
+        "des critères mesurés et comparés",
+        "le hasard",
+        "la publicité seule"
+      ],
+      "reponse": "des critères mesurés et comparés",
+      "indice": "Un tableau de comparaison aide.",
+      "explication": "On compare des critères objectifs pour décider.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

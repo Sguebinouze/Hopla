@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-INFO-01",
+  "exemple": "Le robot aspirateur détecte un mur avec un capteur, puis son programme décide de tourner.",
+  "regle": "La **chaine d’information** d’un objet comporte trois fonctions : **acquérir** (capteurs, boutons), **traiter** (**microcontrôleur**) et **communiquer** (afficheur, ordre envoyé). Elle **pilote** la chaine d’énergie : elle lui envoie des ordres.",
+  "piege": "Le capteur ne décide rien : c’est le microcontrôleur qui traite l’information.",
+  "essai": {
+    "consigne": "Le microcontrôleur assure la fonction…",
+    "options": [
+      "traiter",
+      "acquérir",
+      "alimenter"
+    ],
+    "reponse": "traiter",
+    "explication": "Le microcontrôleur traite l’information."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

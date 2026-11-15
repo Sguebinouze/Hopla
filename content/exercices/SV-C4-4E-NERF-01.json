@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-4E-NERF-01",
+  "exercices": [
+    {
+      "id": "SV-C4-4E-NERF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel organe reçoit et traite les messages des organes des sens ?",
+      "options": [
+        "le cerveau",
+        "l’estomac",
+        "le cœur"
+      ],
+      "reponse": "le cerveau",
+      "indice": "Il est protégé par le crâne.",
+      "explication": "Le cerveau traite les messages sensoriels.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La cellule du système nerveux s’appelle…",
+      "options": [
+        "le neurone",
+        "le globule rouge",
+        "l’ovule"
+      ],
+      "reponse": "le neurone",
+      "indice": "Il transmet des messages.",
+      "explication": "Le neurone est la cellule nerveuse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’œil est un…",
+      "options": [
+        "organe des sens",
+        "centre nerveux",
+        "muscle"
+      ],
+      "reponse": "organe des sens",
+      "indice": "Il capte la lumière.",
+      "explication": "L’œil est un organe des sens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le trajet d’un message nerveux lors d’un mouvement volontaire ?",
+      "options": [
+        "organe des sens → nerf → cerveau → nerf → muscle",
+        "muscle → os → peau",
+        "cerveau → estomac → cœur"
+      ],
+      "reponse": "organe des sens → nerf → cerveau → nerf → muscle",
+      "indice": "Récepteur, centre, effecteur.",
+      "explication": "Le message va du récepteur au cerveau puis au muscle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment les neurones communiquent-ils entre eux ?",
+      "options": [
+        "par des substances chimiques au niveau des synapses",
+        "par le sang uniquement",
+        "ils ne communiquent pas"
+      ],
+      "reponse": "par des substances chimiques au niveau des synapses",
+      "indice": "Ce sont des neurotransmetteurs.",
+      "explication": "Les neurotransmetteurs passent d’un neurone à l’autre au niveau des synapses.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel autre centre nerveux se trouve dans la colonne vertébrale ?",
+      "options": [
+        "la moelle épinière",
+        "le foie",
+        "le poumon"
+      ],
+      "reponse": "la moelle épinière",
+      "indice": "Elle relie le cerveau aux nerfs.",
+      "explication": "La moelle épinière est un centre nerveux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi l’alcool est-il dangereux au volant ?",
+      "options": [
+        "il ralentit la transmission des messages nerveux",
+        "il accélère les réflexes",
+        "il améliore la vue"
+      ],
+      "reponse": "il ralentit la transmission des messages nerveux",
+      "indice": "Les réactions sont plus lentes.",
+      "explication": "L’alcool perturbe le fonctionnement des neurones et ralentit les réactions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-NERF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi le sommeil est-il important pour le cerveau ?",
+      "options": [
+        "il permet la récupération et la mémorisation",
+        "il arrête le cerveau",
+        "il n’a aucun rôle"
+      ],
+      "reponse": "il permet la récupération et la mémorisation",
+      "indice": "Les apprentissages se consolident.",
+      "explication": "Le sommeil favorise récupération et mémorisation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

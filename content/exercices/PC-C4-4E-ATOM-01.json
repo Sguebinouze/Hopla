@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-ATOM-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-ATOM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le symbole de l’atome d’oxygène ?",
+      "options": [
+        "O",
+        "Ox",
+        "G"
+      ],
+      "reponse": "O",
+      "indice": "Une seule lettre.",
+      "explication": "Le symbole de l’oxygène est O.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le symbole de l’atome de carbone ?",
+      "options": [
+        "C",
+        "Ca",
+        "K"
+      ],
+      "reponse": "C",
+      "indice": "Il est présent dans le CO2.",
+      "explication": "Le symbole du carbone est C.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une molécule est…",
+      "options": [
+        "un assemblage d’atomes",
+        "une seule particule indivisible",
+        "un mélange de liquides"
+      ],
+      "reponse": "un assemblage d’atomes",
+      "indice": "Comme H2O.",
+      "explication": "Une molécule est formée d’atomes liés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien d’atomes contient la molécule de dioxyde de carbone CO2 ?",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "reponse": "3",
+      "indice": "1 carbone et 2 oxygènes.",
+      "explication": "CO2 contient 1 atome de carbone et 2 atomes d’oxygène, soit 3.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la formule de la molécule de dioxygène ?",
+      "options": [
+        "O2",
+        "O",
+        "CO2"
+      ],
+      "reponse": "O2",
+      "indice": "Deux atomes d’oxygène.",
+      "explication": "Le dioxygène a pour formule O2.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le tableau périodique classe les atomes…",
+      "options": [
+        "selon leur numéro atomique",
+        "par ordre alphabétique",
+        "selon leur couleur"
+      ],
+      "reponse": "selon leur numéro atomique",
+      "indice": "Mendeleïev l’a proposé.",
+      "explication": "Les atomes sont rangés par numéro atomique croissant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien d’atomes contient la molécule de méthane CH4 ?",
+      "options": [
+        "5",
+        "4",
+        "1"
+      ],
+      "reponse": "5",
+      "indice": "1 carbone et 4 hydrogènes.",
+      "explication": "CH4 contient 1 atome de carbone et 4 atomes d’hydrogène, soit 5.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le symbole de l’atome de fer ?",
+      "options": [
+        "Fe",
+        "F",
+        "Fr"
+      ],
+      "reponse": "Fe",
+      "indice": "Il vient du latin ferrum.",
+      "explication": "Le symbole du fer est Fe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

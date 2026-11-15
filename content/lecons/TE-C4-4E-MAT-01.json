@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-MAT-01",
+  "exemple": "Au fablab, la classe compare deux supports de téléphone : l’un imprimé en 3D, l’autre plié dans une plaque de plastique.",
+  "regle": "Le choix du **procédé** dépend de la **forme** de la pièce et du **matériau**. On distingue l’**ajout de matière** (impression 3D), l’**enlèvement de matière** (découpe laser, usinage), la **mise en forme** (pliage, thermoformage) et l’**assemblage** (fixe ou démontable). Les matériaux ont des **propriétés** : conduction, résistance, masse.",
+  "piege": "Imprimer en 3D n’est pas toujours le meilleur choix : pour une plaque simple, la découpe est plus rapide.",
+  "essai": {
+    "consigne": "L’impression 3D procède par…",
+    "options": [
+      "ajout de matière",
+      "enlèvement de matière",
+      "pliage"
+    ],
+    "reponse": "ajout de matière",
+    "explication": "L’impression 3D procède par ajout de matière."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

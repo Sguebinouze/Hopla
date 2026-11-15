@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-ELEC-01",
+  "exemple": "Je mesure 4,5 V aux bornes de la pile et 1,5 V puis 3 V aux bornes des deux lampes en série.",
+  "regle": "En **série**, l’**intensité** est la même partout et les **tensions s’additionnent**. En **dérivation**, la **tension** est la même aux bornes de chaque branche et les **intensités s’additionnent** (loi des nœuds). Pour une résistance, la **loi d’Ohm** s’écrit **U = R × I**, avec U en volts, R en ohms et I en ampères.",
+  "piege": "Ne pas inverser : en série ce sont les tensions qui s’additionnent, en dérivation ce sont les intensités.",
+  "essai": {
+    "consigne": "Avec la loi d’Ohm, R = 20 Ω et I = 0,5 A donnent U = …",
+    "options": [
+      "10 V",
+      "40 V",
+      "20,5 V"
+    ],
+    "reponse": "10 V",
+    "explication": "U = 20 × 0,5 = 10 V."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

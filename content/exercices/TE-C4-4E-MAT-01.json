@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-MAT-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une imprimante 3D fabrique une pièce par…",
+      "options": [
+        "ajout de matière",
+        "enlèvement de matière",
+        "pliage seulement"
+      ],
+      "reponse": "ajout de matière",
+      "indice": "Couche après couche.",
+      "explication": "L’impression 3D ajoute de la matière couche par couche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une découpe laser est un procédé par…",
+      "options": [
+        "enlèvement de matière",
+        "ajout de matière",
+        "assemblage"
+      ],
+      "reponse": "enlèvement de matière",
+      "indice": "Le laser retire de la matière.",
+      "explication": "La découpe laser enlève de la matière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel matériau conduit bien l’électricité ?",
+      "options": [
+        "le cuivre",
+        "le bois",
+        "le plastique"
+      ],
+      "reponse": "le cuivre",
+      "indice": "On l’utilise dans les fils électriques.",
+      "explication": "Le cuivre est un bon conducteur électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le thermoformage consiste à…",
+      "options": [
+        "chauffer une feuille de plastique pour la mettre en forme",
+        "couler du métal",
+        "coller du bois"
+      ],
+      "reponse": "chauffer une feuille de plastique pour la mettre en forme",
+      "indice": "Comme les barquettes alimentaires.",
+      "explication": "Le thermoformage met en forme une feuille de plastique chauffée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un assemblage par vis est…",
+      "options": [
+        "démontable",
+        "définitif",
+        "impossible"
+      ],
+      "reponse": "démontable",
+      "indice": "On peut dévisser.",
+      "explication": "Un assemblage vissé est démontable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les casseroles ont-elles souvent un manche en plastique ou en bois ?",
+      "options": [
+        "ces matériaux conduisent mal la chaleur",
+        "ils sont plus lourds",
+        "ils fondent facilement"
+      ],
+      "reponse": "ces matériaux conduisent mal la chaleur",
+      "indice": "On ne se brule pas.",
+      "explication": "Bois et plastique sont de mauvais conducteurs thermiques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une pièce creuse, difficile à usiner, en petite série, se réalise plutôt par…",
+      "options": [
+        "impression 3D",
+        "pliage d’une tôle",
+        "sciage"
+      ],
+      "reponse": "impression 3D",
+      "indice": "Elle permet des formes libres.",
+      "explication": "L’impression 3D permet des formes creuses difficiles à usiner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une poutre qui se courbe sous une charge est sollicitée en…",
+      "options": [
+        "flexion",
+        "torsion",
+        "fusion"
+      ],
+      "reponse": "flexion",
+      "indice": "Elle plie.",
+      "explication": "Une poutre chargée travaille en flexion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

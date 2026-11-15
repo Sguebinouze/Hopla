@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-MAT-01",
+  "exemple": "Je pèse 50 cm³ d’huile : 46 g. Sa masse volumique est donc 0,92 g/cm³.",
+  "regle": "La **masse volumique** d’une substance est la masse d’une unité de volume : **ρ = m / V**. Elle s’exprime en **g/cm³** ou en **kg/L**. L’**eau** a une masse volumique de **1 g/cm³**. Un objet **flotte** sur l’eau si sa masse volumique est plus petite que celle de l’eau. Elle permet d’**identifier** une substance.",
+  "piege": "Un gros objet n’est pas forcément plus dense : un tronc d’arbre flotte, un petit clou coule.",
+  "essai": {
+    "consigne": "Un liquide de 100 cm³ a une masse de 80 g. Sa masse volumique est…",
+    "options": [
+      "0,8 g/cm³",
+      "8 g/cm³",
+      "1,25 g/cm³"
+    ],
+    "reponse": "0,8 g/cm³",
+    "explication": "80 ÷ 100 = 0,8 g/cm³."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

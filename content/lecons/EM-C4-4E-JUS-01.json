@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C4-4E-JUS-01",
+  "exemple": "La classe assiste à une audience : le juge, le procureur, l’avocat et le prévenu ont chacun un rôle.",
+  "regle": "L’**indépendance de la justice** est une condition de l’**État de droit**. Toute personne est **présumée innocente** et a droit à un **avocat**. Le **tribunal correctionnel** juge les délits, la **cour d’assises** juge les crimes avec des **jurés**. Les **mineurs** ont une justice spécialisée. On peut **faire appel**, puis aller en cassation. La **CEDH** contrôle le respect des droits de l’homme.",
+  "piege": "Être accusé ne signifie pas être coupable : seule une décision de justice établit la culpabilité.",
+  "essai": {
+    "consigne": "Quelle juridiction juge les crimes ?",
+    "options": [
+      "la cour d’assises",
+      "le tribunal correctionnel",
+      "le juge des enfants"
+    ],
+    "reponse": "la cour d’assises",
+    "explication": "La cour d’assises juge les crimes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

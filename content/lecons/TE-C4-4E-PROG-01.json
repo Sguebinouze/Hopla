@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-PROG-01",
+  "exemple": "Le programme du robot avance de 10 pas ; on ajoute une boucle pour qu’il trace un carré.",
+  "regle": "Pour ajouter une fonctionnalité, on **analyse les données** de l’objet, puis on **complète le programme** avec des **conditions** (si… alors… sinon), des **boucles** (répéter, tant que) et des **variables**. On **teste** ensuite la modification, en simulation ou sur l’objet réel, pour la **valider**.",
+  "piege": "Un programme qui fonctionne en simulation doit encore être vérifié sur l’objet réel.",
+  "essai": {
+    "consigne": "« Si… alors… sinon » est…",
+    "options": [
+      "une condition",
+      "une boucle",
+      "une variable"
+    ],
+    "reponse": "une condition",
+    "explication": "C’est une structure conditionnelle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

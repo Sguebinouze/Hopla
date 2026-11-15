@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-RES-01",
+  "exemple": "L’imprimante ne répondait pas : elle avait la même adresse IP qu’un ordinateur de la salle.",
+  "regle": "Un **réseau local** relie des **terminaux** (ordinateurs, imprimantes) par des **liaisons** filaires ou **sans fil**, grâce à un **commutateur**. Chaque appareil a une **adresse IP** unique, faite de **4 nombres**. Le **routeur** relie le réseau local à **Internet**. Le **débit** se mesure en bits par seconde.",
+  "piege": "Deux appareils avec la même adresse IP créent un conflit : la communication échoue.",
+  "essai": {
+    "consigne": "Quel appareil relie un réseau local à Internet ?",
+    "options": [
+      "le routeur",
+      "le commutateur",
+      "le terminal"
+    ],
+    "reponse": "le routeur",
+    "explication": "Le routeur relie le réseau local à Internet."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

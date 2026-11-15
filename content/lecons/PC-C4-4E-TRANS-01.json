@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-TRANS-01",
+  "exemple": "Je compte les atomes dans C + O2 → CO2 : 1 C et 2 O à gauche, 1 C et 2 O à droite.",
+  "regle": "Une **transformation chimique** est un **réarrangement d’atomes** : les **réactifs** disparaissent, les **produits** apparaissent. On l’écrit par une **équation de réaction** : réactifs à gauche, produits à droite de la flèche. Les **atomes se conservent** : chaque côté contient autant de chaque atome. C’est pourquoi la **masse** se conserve.",
+  "piege": "Le nombre placé devant une formule multiplie toute la molécule : 2 H2O représente 2 molécules d’eau.",
+  "essai": {
+    "consigne": "Dans C + O2 → CO2, combien d’atomes d’oxygène à droite ?",
+    "options": [
+      "2",
+      "1",
+      "3"
+    ],
+    "reponse": "2",
+    "explication": "CO2 contient 2 atomes d’oxygène."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

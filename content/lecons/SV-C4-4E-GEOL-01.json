@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-GEOL-01",
+  "exemple": "Sur une carte du monde, les points rouges des séismes dessinent les contours des plaques.",
+  "regle": "La surface de la Terre est découpée en **plaques** qui se déplacent de quelques centimètres par an. Les **séismes** et les **volcans** se produisent surtout aux **frontières des plaques**. Un séisme nait d’une rupture des roches en profondeur, au **foyer** ; l’**épicentre** est en surface. Pour réduire les **risques**, on surveille, on prévient et on construit selon des **normes parasismiques**.",
+  "piege": "On ne peut pas empêcher un séisme : on peut seulement réduire ses conséquences.",
+  "essai": {
+    "consigne": "Où se produisent surtout les séismes ?",
+    "options": [
+      "aux frontières des plaques",
+      "au centre des océans",
+      "dans les plaines"
+    ],
+    "reponse": "aux frontières des plaques",
+    "explication": "Les séismes se produisent surtout aux frontières des plaques."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

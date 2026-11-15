@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-MAT-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La masse volumique se calcule par…",
+      "options": [
+        "masse ÷ volume",
+        "volume ÷ masse",
+        "masse × volume"
+      ],
+      "reponse": "masse ÷ volume",
+      "indice": "ρ = m / V.",
+      "explication": "ρ = m / V : masse divisée par volume.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la masse volumique de l’eau ?",
+      "options": [
+        "1 g/cm³",
+        "10 g/cm³",
+        "0,1 g/cm³"
+      ],
+      "reponse": "1 g/cm³",
+      "indice": "1 L d’eau pèse 1 kg.",
+      "explication": "L’eau a une masse volumique de 1 g/cm³, soit 1 kg/L.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un objet moins dense que l’eau…",
+      "options": [
+        "flotte",
+        "coule",
+        "se dissout toujours"
+      ],
+      "reponse": "flotte",
+      "indice": "Le bois flotte.",
+      "explication": "Un objet de masse volumique inférieure à celle de l’eau flotte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un objet a une masse de 200 g et un volume de 100 cm³. Sa masse volumique est…",
+      "options": [
+        "2 g/cm³",
+        "0,5 g/cm³",
+        "20 000 g/cm³"
+      ],
+      "reponse": "2 g/cm³",
+      "indice": "200 ÷ 100.",
+      "explication": "ρ = 200 g ÷ 100 cm³ = 2 g/cm³.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’huile flotte sur l’eau car elle est…",
+      "options": [
+        "moins dense que l’eau",
+        "plus dense que l’eau",
+        "plus chaude"
+      ],
+      "reponse": "moins dense que l’eau",
+      "indice": "Comparer les masses volumiques.",
+      "explication": "L’huile, moins dense, reste au-dessus de l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le volume de 3 kg d’eau ?",
+      "options": [
+        "3 L",
+        "30 L",
+        "0,3 L"
+      ],
+      "reponse": "3 L",
+      "indice": "1 kg d’eau occupe 1 L.",
+      "explication": "Pour l’eau, 3 kg occupent 3 L.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un cube de fer de 10 cm³ a une masse de 79 g. Quelle est la masse volumique du fer ?",
+      "options": [
+        "7,9 g/cm³",
+        "79 g/cm³",
+        "0,79 g/cm³"
+      ],
+      "reponse": "7,9 g/cm³",
+      "indice": "79 ÷ 10.",
+      "explication": "ρ = 79 g ÷ 10 cm³ = 7,9 g/cm³.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "À quoi sert la masse volumique pour un chimiste ?",
+      "options": [
+        "à identifier une substance",
+        "à mesurer une température",
+        "à calculer une vitesse"
+      ],
+      "reponse": "à identifier une substance",
+      "indice": "Chaque substance pure a la sienne.",
+      "explication": "La masse volumique caractérise une substance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

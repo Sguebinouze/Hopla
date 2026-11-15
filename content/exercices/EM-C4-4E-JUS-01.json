@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C4-4E-JUS-01",
+  "exercices": [
+    {
+      "id": "EM-C4-4E-JUS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Toute personne est considérée comme innocente tant que…",
+      "options": [
+        "sa culpabilité n’a pas été prouvée",
+        "elle n’a pas parlé",
+        "la police ne l’a pas vue"
+      ],
+      "reponse": "sa culpabilité n’a pas été prouvée",
+      "indice": "C’est la présomption d’innocence.",
+      "explication": "C’est la présomption d’innocence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui défend une personne devant le tribunal ?",
+      "options": [
+        "un avocat",
+        "un maire",
+        "un professeur"
+      ],
+      "reponse": "un avocat",
+      "indice": "Chacun a droit à une défense.",
+      "explication": "L’avocat défend la personne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui juge les mineurs ?",
+      "options": [
+        "le juge des enfants et le tribunal pour enfants",
+        "le maire",
+        "le directeur d’école"
+      ],
+      "reponse": "le juge des enfants et le tribunal pour enfants",
+      "indice": "Une justice spécialisée.",
+      "explication": "Les mineurs relèvent d’une justice spécialisée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel tribunal juge les délits ?",
+      "options": [
+        "le tribunal correctionnel",
+        "la cour d’assises",
+        "le Conseil constitutionnel"
+      ],
+      "reponse": "le tribunal correctionnel",
+      "indice": "Vol, violences…",
+      "explication": "Le tribunal correctionnel juge les délits.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle juridiction juge les crimes, avec des jurés ?",
+      "options": [
+        "la cour d’assises",
+        "le tribunal de police",
+        "le conseil municipal"
+      ],
+      "reponse": "la cour d’assises",
+      "indice": "Des citoyens tirés au sort y siègent.",
+      "explication": "La cour d’assises juge les crimes avec des jurés populaires.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Si l’on n’est pas d’accord avec un jugement, on peut…",
+      "options": [
+        "faire appel",
+        "refaire le procès soi-même",
+        "ignorer la décision"
+      ],
+      "reponse": "faire appel",
+      "indice": "Une autre juridiction rejuge l’affaire.",
+      "explication": "L’appel permet d’être rejugé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la justice doit-elle être indépendante ?",
+      "options": [
+        "pour juger équitablement, sans pression du pouvoir",
+        "pour être plus rapide",
+        "pour obéir au gouvernement"
+      ],
+      "reponse": "pour juger équitablement, sans pression du pouvoir",
+      "indice": "C’est une condition de l’État de droit.",
+      "explication": "L’indépendance garantit un jugement équitable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-4E-JUS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle cour européenne contrôle le respect des droits de l’homme ?",
+      "options": [
+        "la Cour européenne des droits de l’homme",
+        "la Cour des comptes",
+        "le Conseil d’État"
+      ],
+      "reponse": "la Cour européenne des droits de l’homme",
+      "indice": "Elle siège à Strasbourg.",
+      "explication": "La CEDH, à Strasbourg, contrôle le respect des droits de l’homme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

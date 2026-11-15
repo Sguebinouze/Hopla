@@ -1,0 +1,81 @@
+{
+  "programme": "PC-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "PC-C4-4E-MAT-01",
+      "titre": "La masse volumique",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Définir et calculer la masse volumique ρ = m / V et l’utiliser pour identifier une substance ou prévoir si un objet flotte.",
+      "exemple": "1 L d’eau a une masse de 1 kg : la masse volumique de l’eau est 1 kg/L.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "L'introduction de la grandeur quotient masse volumique se fait progressivement à"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-4E-ATOM-01",
+      "titre": "Atomes et molécules",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Utiliser le tableau périodique pour repérer les atomes et lire la formule d’une molécule.",
+      "exemple": "La molécule d’eau, de formule H2O, contient 2 atomes d’hydrogène et 1 atome d’oxygène.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 101,
+        "extrait": "Le tableau périodique est considéré à partir de la classe de 4e comme un outil de classement"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01",
+      "titre": "Équations de réaction",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire et expliquer des transformations chimiques",
+      "attendu": "Interpréter une transformation chimique comme un réarrangement d’atomes et l’écrire par une équation de réaction simple.",
+      "exemple": "La combustion du carbone s’écrit : C + O2 → CO2.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 101,
+        "extrait": "de réaction pour modéliser les transformations peut être initiée en classe de 4e dans des cas"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-4E-FORCE-01",
+      "titre": "Interactions et forces",
+      "domaine": "Mouvement et interactions",
+      "theme": "Modéliser une interaction par une force",
+      "attendu": "Distinguer interactions de contact et à distance et modéliser une action par une force caractérisée par une valeur, une direction, un sens et un point d’application.",
+      "exemple": "La Terre attire la Lune à distance ; la main pousse la porte par contact.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 102,
+        "extrait": "Progressivement et si possible dès la classe de 4e, ces interactions sont modélisées par la"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "PC-C4-4E-ELEC-01",
+      "titre": "Lois de l’électricité",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "Réaliser des circuits électriques simples et exploiter les lois de l’électricité",
+      "attendu": "Utiliser les lois d’additivité des tensions et des intensités et la loi d’Ohm U = R × I.",
+      "exemple": "Dans un circuit en série, l’intensité du courant est la même en tout point.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "En classes de 4e et de 3e, les différentes lois de l'électricité peuvent être abordées sans"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

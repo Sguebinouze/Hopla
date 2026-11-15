@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-NUM-01",
+  "exemple": "Avant d’installer un jeu, Inès vérifie les autorisations demandées : micro, contacts, position.",
+  "regle": "Nos usages laissent des **traces** qui forment notre **identité numérique**. Les **cookies** et la **géolocalisation** collectent des **données personnelles**. Un usage raisonné consiste à paramétrer ses **autorisations**, refuser les traceurs inutiles et respecter la **propriété intellectuelle** et le **droit à l’image**.",
+  "piege": "Ce qui est publié en ligne peut être copié et rester accessible longtemps, même après suppression.",
+  "essai": {
+    "consigne": "Un cookie est…",
+    "options": [
+      "un fichier déposé par un site",
+      "un mot de passe",
+      "un réseau"
+    ],
+    "reponse": "un fichier déposé par un site",
+    "explication": "Un cookie est un fichier déposé par un site."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

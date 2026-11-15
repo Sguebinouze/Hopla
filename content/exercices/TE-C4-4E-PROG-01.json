@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-PROG-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-PROG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une boucle « répéter 4 fois » sert à…",
+      "options": [
+        "exécuter plusieurs fois les mêmes instructions",
+        "arrêter le programme",
+        "créer un capteur"
+      ],
+      "reponse": "exécuter plusieurs fois les mêmes instructions",
+      "indice": "Pour tracer un carré par exemple.",
+      "explication": "Une boucle répète des instructions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un algorithme est…",
+      "options": [
+        "une suite d’étapes pour résoudre un problème",
+        "un composant électronique",
+        "un fichier image"
+      ],
+      "reponse": "une suite d’étapes pour résoudre un problème",
+      "indice": "Comme une recette.",
+      "explication": "Un algorithme décrit des étapes ordonnées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que faut-il faire après avoir modifié un programme ?",
+      "options": [
+        "le tester",
+        "l’effacer",
+        "éteindre l’ordinateur"
+      ],
+      "reponse": "le tester",
+      "indice": "On vérifie le résultat.",
+      "explication": "On teste pour valider la modification.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Si la température > 30 alors allumer le ventilateur ». Il fait 25 °C. Le ventilateur…",
+      "options": [
+        "reste éteint",
+        "s’allume",
+        "clignote"
+      ],
+      "reponse": "reste éteint",
+      "indice": "25 n’est pas supérieur à 30.",
+      "explication": "La condition est fausse : le ventilateur reste éteint.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une boucle « tant que » s’arrête quand…",
+      "options": [
+        "sa condition devient fausse",
+        "le programme démarre",
+        "jamais"
+      ],
+      "reponse": "sa condition devient fausse",
+      "indice": "Elle répète tant que la condition est vraie.",
+      "explication": "La boucle tant que s’arrête quand la condition devient fausse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Tester dans un environnement simulé permet de…",
+      "options": [
+        "vérifier le programme sans risquer d’abimer l’objet",
+        "fabriquer l’objet",
+        "supprimer les capteurs"
+      ],
+      "reponse": "vérifier le programme sans risquer d’abimer l’objet",
+      "indice": "On simule avant le réel.",
+      "explication": "La simulation valide sans risque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une variable « score » vaut 3. Le programme exécute « ajouter 2 à score » deux fois. Que vaut score ?",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "reponse": "7",
+      "indice": "3 + 2 + 2.",
+      "explication": "score = 3 + 2 + 2 = 7.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PROG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une barrière doit s’ouvrir seulement si un badge est valide ET si aucun obstacle n’est détecté. Quel opérateur utiliser ?",
+      "options": [
+        "ET",
+        "OU",
+        "NON seul"
+      ],
+      "reponse": "ET",
+      "indice": "Les deux conditions doivent être vraies.",
+      "explication": "L’opérateur ET exige que les deux conditions soient vraies.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

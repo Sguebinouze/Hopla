@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-4E-GEOL-01",
+  "exercices": [
+    {
+      "id": "SV-C4-4E-GEOL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un séisme est…",
+      "options": [
+        "un tremblement de terre",
+        "une éruption de lave",
+        "une tempête"
+      ],
+      "reponse": "un tremblement de terre",
+      "indice": "Le sol vibre.",
+      "explication": "Un séisme est un tremblement de terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La surface de la Terre est découpée en…",
+      "options": [
+        "plaques",
+        "cubes",
+        "anneaux"
+      ],
+      "reponse": "plaques",
+      "indice": "Elles se déplacent lentement.",
+      "explication": "La surface terrestre est formée de plaques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que rejette un volcan lors d’une éruption ?",
+      "options": [
+        "de la lave, des gaz et des cendres",
+        "de l’eau douce uniquement",
+        "du sable"
+      ],
+      "reponse": "de la lave, des gaz et des cendres",
+      "indice": "Le magma remonte.",
+      "explication": "Un volcan rejette lave, gaz et cendres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où se produisent la plupart des séismes et des volcans ?",
+      "options": [
+        "aux frontières des plaques",
+        "au centre des plaques",
+        "au hasard"
+      ],
+      "reponse": "aux frontières des plaques",
+      "indice": "Pense à la ceinture de feu du Pacifique.",
+      "explication": "Séismes et volcans se concentrent aux limites des plaques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’épicentre d’un séisme est…",
+      "options": [
+        "le point de la surface situé au-dessus du foyer",
+        "le point le plus profond",
+        "la ville la plus touchée"
+      ],
+      "reponse": "le point de la surface situé au-dessus du foyer",
+      "indice": "Le foyer est en profondeur.",
+      "explication": "L’épicentre est à la verticale du foyer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quelle vitesse se déplacent les plaques ?",
+      "options": [
+        "de quelques centimètres par an",
+        "de plusieurs kilomètres par jour",
+        "elles sont immobiles"
+      ],
+      "reponse": "de quelques centimètres par an",
+      "indice": "Comme la pousse des ongles.",
+      "explication": "Les plaques bougent de quelques centimètres par an.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment réduire le risque sismique ?",
+      "options": [
+        "construire selon des normes parasismiques",
+        "construire plus haut sans règles",
+        "ignorer l’aléa"
+      ],
+      "reponse": "construire selon des normes parasismiques",
+      "indice": "Les bâtiments résistent mieux.",
+      "explication": "Les normes parasismiques protègent les populations.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une éruption est dite explosive quand…",
+      "options": [
+        "un magma visqueux libère brutalement gaz et cendres",
+        "une lave fluide coule calmement",
+        "il n’y a pas de magma"
+      ],
+      "reponse": "un magma visqueux libère brutalement gaz et cendres",
+      "indice": "Pense au mont Saint Helens.",
+      "explication": "Un magma visqueux et riche en gaz provoque des explosions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

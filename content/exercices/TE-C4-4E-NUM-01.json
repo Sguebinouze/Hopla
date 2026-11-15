@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-NUM-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-NUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’identité numérique, c’est…",
+      "options": [
+        "l’ensemble des traces qu’on laisse en ligne",
+        "sa carte d’identité papier",
+        "son adresse postale"
+      ],
+      "reponse": "l’ensemble des traces qu’on laisse en ligne",
+      "indice": "Pseudos, photos, commentaires…",
+      "explication": "L’identité numérique rassemble nos traces en ligne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La géolocalisation permet de…",
+      "options": [
+        "connaitre la position d’un appareil",
+        "chiffrer un fichier",
+        "imprimer en 3D"
+      ],
+      "reponse": "connaitre la position d’un appareil",
+      "indice": "Grâce au GPS par exemple.",
+      "explication": "La géolocalisation indique la position.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un témoin de connexion (cookie) est…",
+      "options": [
+        "un petit fichier déposé par un site sur l’appareil",
+        "un virus obligatoire",
+        "un câble réseau"
+      ],
+      "reponse": "un petit fichier déposé par un site sur l’appareil",
+      "indice": "Il garde des informations sur la navigation.",
+      "explication": "Un cookie est un fichier déposé par un site.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour protéger sa vie privée sur une application, on peut…",
+      "options": [
+        "désactiver la géolocalisation quand elle est inutile",
+        "publier son adresse",
+        "accepter toutes les autorisations"
+      ],
+      "reponse": "désactiver la géolocalisation quand elle est inutile",
+      "indice": "On limite les données partagées.",
+      "explication": "Désactiver la géolocalisation limite les traces.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Publier la photo d’un ami sans son accord porte atteinte à…",
+      "options": [
+        "son droit à l’image",
+        "son droit de vote",
+        "rien du tout"
+      ],
+      "reponse": "son droit à l’image",
+      "indice": "Chacun décide de la diffusion de son image.",
+      "explication": "Il faut l’accord de la personne : c’est le droit à l’image.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une licence Creative Commons indique…",
+      "options": [
+        "les conditions de réutilisation d’une œuvre",
+        "le prix d’un ordinateur",
+        "la vitesse d’Internet"
+      ],
+      "reponse": "les conditions de réutilisation d’une œuvre",
+      "indice": "Elle précise ce qu’on a le droit de faire.",
+      "explication": "Elle fixe les droits de réutilisation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi refuser les cookies publicitaires ?",
+      "options": [
+        "pour limiter le suivi de sa navigation",
+        "pour accélérer l’écran",
+        "pour recharger la batterie"
+      ],
+      "reponse": "pour limiter le suivi de sa navigation",
+      "indice": "Ils servent à cibler la publicité.",
+      "explication": "Refuser ces cookies limite le pistage publicitaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-NUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une donnée personnelle est une information qui…",
+      "options": [
+        "permet d’identifier une personne",
+        "concerne la météo",
+        "est forcément publique"
+      ],
+      "reponse": "permet d’identifier une personne",
+      "indice": "Nom, photo, adresse…",
+      "explication": "Une donnée personnelle identifie une personne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

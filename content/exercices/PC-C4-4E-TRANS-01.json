@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-TRANS-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-TRANS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans l’équation C + O2 → CO2, quels sont les réactifs ?",
+      "options": [
+        "C et O2",
+        "CO2",
+        "seulement C"
+      ],
+      "reponse": "C et O2",
+      "indice": "Ils sont à gauche de la flèche.",
+      "explication": "Les réactifs C et O2 sont à gauche de la flèche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans l’équation C + O2 → CO2, quel est le produit ?",
+      "options": [
+        "CO2",
+        "C",
+        "O2"
+      ],
+      "reponse": "CO2",
+      "indice": "Il est à droite de la flèche.",
+      "explication": "Le produit CO2 est à droite de la flèche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lors d’une transformation chimique, les atomes…",
+      "options": [
+        "se réarrangent",
+        "disparaissent",
+        "se multiplient"
+      ],
+      "reponse": "se réarrangent",
+      "indice": "Rien ne se perd.",
+      "explication": "Les atomes se réarrangent pour former de nouvelles molécules.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi une équation doit-elle être équilibrée ?",
+      "options": [
+        "les atomes se conservent",
+        "pour faire joli",
+        "les molécules disparaissent"
+      ],
+      "reponse": "les atomes se conservent",
+      "indice": "Même nombre de chaque atome de chaque côté.",
+      "explication": "Il y a autant de chaque atome avant et après.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans 2 H2O, combien y a-t-il d’atomes d’hydrogène ?",
+      "options": [
+        "4",
+        "2",
+        "3"
+      ],
+      "reponse": "4",
+      "indice": "2 molécules de 2 atomes H.",
+      "explication": "2 × 2 = 4 atomes d’hydrogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La masse totale lors d’une transformation chimique…",
+      "options": [
+        "se conserve",
+        "augmente toujours",
+        "diminue toujours"
+      ],
+      "reponse": "se conserve",
+      "indice": "Les atomes ne disparaissent pas.",
+      "explication": "La masse se conserve car les atomes se conservent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel nombre faut-il placer devant H2 pour équilibrer … H2 + O2 → 2 H2O ?",
+      "options": [
+        "2",
+        "1",
+        "4"
+      ],
+      "reponse": "2",
+      "indice": "Compte les atomes H à droite.",
+      "explication": "À droite il y a 4 H : il faut 2 H2. On écrit 2 H2 + O2 → 2 H2O.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-TRANS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que produit la combustion complète du méthane CH4 ?",
+      "options": [
+        "CO2 et H2O",
+        "O2 et C",
+        "H2 et CO"
+      ],
+      "reponse": "CO2 et H2O",
+      "indice": "Dioxyde de carbone et eau.",
+      "explication": "CH4 + 2 O2 → CO2 + 2 H2O.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

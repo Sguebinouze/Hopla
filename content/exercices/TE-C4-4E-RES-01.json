@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-RES-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-RES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une adresse IP sert à…",
+      "options": [
+        "identifier un appareil sur un réseau",
+        "mesurer la température",
+        "protéger l’écran"
+      ],
+      "reponse": "identifier un appareil sur un réseau",
+      "indice": "Comme une adresse postale.",
+      "explication": "L’adresse IP identifie un appareil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel appareil relie les ordinateurs d’un réseau local ?",
+      "options": [
+        "un commutateur",
+        "un vidéoprojecteur",
+        "un clavier"
+      ],
+      "reponse": "un commutateur",
+      "indice": "On l’appelle aussi switch.",
+      "explication": "Le commutateur relie les terminaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel appareil relie un réseau local à Internet ?",
+      "options": [
+        "un routeur",
+        "une souris",
+        "un écran"
+      ],
+      "reponse": "un routeur",
+      "indice": "La box en contient un.",
+      "explication": "Le routeur relie le réseau local à Internet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux appareils peuvent-ils avoir la même adresse IP sur un même réseau local ?",
+      "options": [
+        "non, sinon ils ne communiquent pas correctement",
+        "oui, toujours",
+        "seulement le dimanche"
+      ],
+      "reponse": "non, sinon ils ne communiquent pas correctement",
+      "indice": "Chaque adresse doit être unique.",
+      "explication": "Chaque appareil doit avoir une adresse IP unique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une adresse IP de type 192.168.1.20 est composée de…",
+      "options": [
+        "4 nombres séparés par des points",
+        "2 lettres",
+        "10 chiffres collés"
+      ],
+      "reponse": "4 nombres séparés par des points",
+      "indice": "Compte les parties.",
+      "explication": "Une adresse IPv4 a 4 nombres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une liaison WiFi est une liaison…",
+      "options": [
+        "sans fil",
+        "filaire",
+        "optique par câble"
+      ],
+      "reponse": "sans fil",
+      "indice": "Par ondes radio.",
+      "explication": "Le WiFi est une liaison sans fil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le débit d’une connexion s’exprime en…",
+      "options": [
+        "bits par seconde",
+        "mètres",
+        "volts"
+      ],
+      "reponse": "bits par seconde",
+      "indice": "Mbit/s par exemple.",
+      "explication": "Le débit s’exprime en bits par seconde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-RES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un ordinateur a pour adresse 192.168.1.5 et une imprimante 192.168.2.7, sans routeur entre les deux. Que se passe-t-il ?",
+      "options": [
+        "ils ne sont pas sur le même réseau et ne communiquent pas",
+        "ils communiquent parfaitement",
+        "l’imprimante s’éteint"
+      ],
+      "reponse": "ils ne sont pas sur le même réseau et ne communiquent pas",
+      "indice": "Compare le troisième nombre.",
+      "explication": "Leurs adresses désignent deux réseaux différents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

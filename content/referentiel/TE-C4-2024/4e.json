@@ -1,0 +1,96 @@
+{
+  "programme": "TE-C4-2024",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "TE-C4-4E-NUM-01",
+      "titre": "Usage raisonné du numérique",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "Usages et impacts sociétaux du numérique",
+      "attendu": "Identifier et appliquer les règles d’un usage raisonné des objets communicants : propriété intellectuelle, identité numérique, témoins de connexion, géolocalisation.",
+      "exemple": "Si j’accepte tous les cookies d’un site, je laisse des traces de ma navigation.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 7,
+        "extrait": "Identifier et appliquer les règles pour"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-4E-DD-01",
+      "titre": "Comparer des objets",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "Le choix d’un objet ou système technique dans un contexte de développement durable",
+      "attendu": "Comparer plusieurs objets répondant au même besoin (incidences environnementales, bilan carbone, efficacité énergétique) et arrêter un choix.",
+      "exemple": "Pour éclairer la classe, on compare une lampe à DEL et une lampe halogène sur leur consommation et leur durée de vie.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 9,
+        "extrait": "Identifier les caractéristiques à prendre"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-4E-MAT-01",
+      "titre": "Matériaux et procédés",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Matériaux et procédés",
+      "attendu": "Mettre en relation la forme d’une pièce avec son procédé de réalisation et les propriétés des matériaux.",
+      "exemple": "Une coque de téléphone en plastique est obtenue par moulage ; un support en bois, par découpe.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 11,
+        "extrait": "Mettre en relation la forme d’une pièce"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-4E-INFO-01",
+      "titre": "La chaine d’information",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Fonctions, solutions, constituants de la chaine d’information",
+      "attendu": "Identifier les constituants de la chaine d’information d’un objet réel et les associer à leur fonction : acquérir, traiter, communiquer.",
+      "exemple": "Dans un éclairage automatique, le détecteur de présence acquiert, le microcontrôleur traite, le signal commande la lampe.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 11,
+        "extrait": "Identifier les constituants de la chaîne"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-4E-RES-01",
+      "titre": "Réseau local et adresse IP",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "La circulation de l’information dans un réseau informatique",
+      "attendu": "Paramétrer une adresse IP pour ajouter un objet à un réseau local et résoudre des problèmes de communication.",
+      "exemple": "Pour ajouter une imprimante au réseau de la classe, on lui donne l’adresse IP 192.168.1.20.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 12,
+        "extrait": "Paramétrer une adresse IP fixe pour"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "TE-C4-4E-PROG-01",
+      "titre": "Compléter et tester un programme",
+      "domaine": "La programmation",
+      "theme": "La programmation d’une nouvelle fonctionnalité",
+      "attendu": "Analyser des données, compléter un programme pour répondre à une fonctionnalité, puis tester et valider la modification.",
+      "exemple": "On complète le programme d’une serre : si la température dépasse 30 °C, alors le ventilateur se met en marche.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 14,
+        "extrait": "Compléter un programme pour répondre"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

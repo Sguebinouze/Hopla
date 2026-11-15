@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-DD-01",
+  "exemple": "La classe dresse un tableau : prix, consommation, durée de vie et recyclabilité de trois lampes.",
+  "regle": "Pour **choisir** un objet, on compare plusieurs objets qui répondent au **même besoin**. Les critères sont l’**efficacité énergétique**, le **bilan carbone**, les **incidences environnementales**, la **durabilité** et la **recyclabilité**. Un tableau de comparaison aide à **arrêter un choix** argumenté.",
+  "piege": "Le prix d’achat ne suffit pas : la consommation pendant l’usage compte aussi.",
+  "essai": {
+    "consigne": "L’étiquette énergie classe les appareils de…",
+    "options": [
+      "A à G",
+      "1 à 100",
+      "X à Z"
+    ],
+    "reponse": "A à G",
+    "explication": "L’étiquette énergie va de A à G."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,51 @@
+{
+  "programme": "SV-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "SV-C4-4E-NERF-01",
+      "titre": "Système nerveux et cerveau",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Activités musculaire, nerveuse et cardiovasculaire ; activité cérébrale",
+      "attendu": "Expliquer le trajet du message nerveux, le rôle des neurones et du cerveau, et les effets de certains comportements sur le système nerveux.",
+      "exemple": "Quand je touche un objet brulant, un message nerveux part de la peau et je retire la main.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 114,
+        "extrait": "cellulaire et le fonctionnement cérébral ne seront développés qu'à partir de la 4e"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-4E-REPRO-01",
+      "titre": "Puberté et reproduction",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Reproduction et sexualité",
+      "attendu": "Relier le fonctionnement des appareils reproducteurs à partir de la puberté à la maitrise de la reproduction et aux comportements responsables.",
+      "exemple": "À la puberté, les testicules commencent à produire des spermatozoïdes et les ovaires à libérer des ovules.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 114,
+        "extrait": "L'explication des mécanismes de la reproduction se construit au cours du cycle 4, du"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "SV-C4-4E-GEOL-01",
+      "titre": "Séismes, volcans et plaques",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Expliquer quelques phénomènes géologiques à partir du contexte géodynamique global",
+      "attendu": "Relier séismes et volcans au mouvement des plaques lithosphériques et connaitre les mesures de prévention des risques.",
+      "exemple": "Au Japon, à la frontière de plusieurs plaques, séismes et éruptions sont fréquents.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 110,
+        "extrait": "Les phénomènes géologiques liés au fonctionnement de la Terre / éléments de climatologie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

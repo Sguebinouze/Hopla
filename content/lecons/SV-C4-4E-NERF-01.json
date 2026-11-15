@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-NERF-01",
+  "exemple": "Au signal sonore, le coureur s’élance : l’oreille, le cerveau et les muscles des jambes ont travaillé ensemble.",
+  "regle": "Les **organes des sens** captent des informations. Les **nerfs** transmettent des **messages nerveux** aux **centres nerveux** (**cerveau**, **moelle épinière**). Ceux-ci envoient des ordres aux **muscles**. Les messages circulent dans les **neurones**, qui communiquent au niveau des **synapses**. Alcool, drogues et manque de **sommeil** perturbent ce fonctionnement.",
+  "piege": "Le message nerveux n’est pas le sang : il circule dans les nerfs, sous forme électrique.",
+  "essai": {
+    "consigne": "Comment s’appelle la cellule nerveuse ?",
+    "options": [
+      "le neurone",
+      "la synapse",
+      "le nerf"
+    ],
+    "reponse": "le neurone",
+    "explication": "La cellule nerveuse est le neurone."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
