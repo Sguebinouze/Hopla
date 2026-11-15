@@ -35,6 +35,13 @@
 3. **App** : progression réelle par matière et par notion (les barres sont à 0 %), tableau de bord parent, badges, synchronisation hors connexion.
 4. **Autres matières** : commencées en CE1 et 6e (questionner le monde, EMC, histoire-géographie, sciences), avec 285 questions rédigées en brouillon à faire relire par Laurent. Étendre aux autres classes à partir des textes déjà archivés.
 
+## Travail à deux sessions
+
+Deux sessions Claude peuvent travailler en même temps (VS Code sur le Mac, session cloud). Pour ne pas se marcher dessus :
+- `git pull --rebase` avant de commencer, commit et `git push` dès qu'un lot est terminé et vérifié ;
+- une session par zone. Français et maths (`packages/generateurs`, `content/referentiel/FR-*` et `MA-*`) d'un côté ; app (`apps/pwa`, `supabase`), autres matières (`content/referentiel` hors FR et MA, `content/exercices`) et calendrier (`content/programmes`, `content/sources`) de l'autre ;
+- un fichier partagé (`index.ts`, `generateurs.test.ts`, `docs/reprise.md`) : modifier peu et pousser vite.
+
 ## Avant de livrer
 
 `pnpm content:check && pnpm content:extraits && pnpm test && pnpm typecheck && pnpm build`, puis commit et push sur `main`.
