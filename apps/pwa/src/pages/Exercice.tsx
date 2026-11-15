@@ -22,12 +22,16 @@ export function Exercice() {
 
   useEffect(() => {
     void (async () => {
-      const enfant = await api.enfantCourant();
-      if (!enfant) return naviguer('/');
-      const pack = await chargerPack(enfant.classe);
-      const c = competencesJouables(pack).find((x) => x.id === competence);
-      if (!c) return naviguer('/accueil');
-      setItems(seriePour(c, TAILLE_SERIE, 1));
+      try {
+        const enfant = await api.enfantCourant();
+        if (!enfant) return naviguer('/');
+        const pack = await chargerPack(enfant.classe);
+        const c = competencesJouables(pack).find((x) => x.id === competence);
+        if (!c) return naviguer('/accueil');
+        setItems(seriePour(c, TAILLE_SERIE, 1));
+      } catch {
+        naviguer('/accueil');
+      }
     })();
   }, [competence, naviguer]);
 

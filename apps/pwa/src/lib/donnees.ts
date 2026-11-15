@@ -61,6 +61,15 @@ function apiSupabase(url: string, cle: string): Api {
     },
   });
 
+  const fermerTout = async () => {
+    if (sessionStorage.getItem(CLE_SESSION) || sessionStorage.getItem(CLE_PARENT)) {
+      await client.rpc('fermer_sessions');
+    }
+    sessionStorage.removeItem(CLE_SESSION);
+    sessionStorage.removeItem(CLE_PARENT);
+    sessionStorage.removeItem(CLE_ENFANT);
+  };
+
   return {
     mode: 'supabase',
     async parentConnecte() {
@@ -77,17 +86,22 @@ function apiSupabase(url: string, cle: string): Api {
       return data as Profil[];
     },
     async ouvrirSession(enfant, code) {
+      // Une seule session à la fois dans l'onglet : on ferme le mode parent ou la session précédente.
+      await fermerTout();
       const { data, error } = await client.rpc('ouvrir_session_enfant', { p_enfant: enfant, p_code: code });
       if (error) throw error;
       if (!data) return false;
       sessionStorage.setItem(CLE_SESSION, data as string);
+      sessionStorage.setItem(CLE_ENFANT, enfant);
       return true;
     },
     async enfantCourant() {
-      if (!sessionStorage.getItem(CLE_SESSION)) return null;
+      const id = sessionStorage.getItem(CLE_ENFANT);
+      if (!sessionStorage.getItem(CLE_SESSION) || !id) return null;
       const { data, error } = await client
         .from('enfants')
         .select('id, prenom, avatar, classe, code_type, xp, serie')
+        .eq('id', id)
         .maybeSingle();
       if (error) throw error;
       return data as Enfant | null;
@@ -106,16 +120,13 @@ function apiSupabase(url: string, cle: string): Api {
       });
       if (error) throw error;
     },
-    async fermerSession() {
-      await client.rpc('fermer_sessions');
-      sessionStorage.removeItem(CLE_SESSION);
-      sessionStorage.removeItem(CLE_PARENT);
-    },
+    fermerSession: fermerTout,
     async definirCodeParent(code) {
       const { error } = await client.rpc('definir_code_parent', { p_code: code });
       if (error) throw error;
     },
     async ouvrirModeParent(code) {
+      await fermerTout();
       const { data, error } = await client.rpc('ouvrir_mode_parent', { p_code: code });
       if (error) throw error;
       if (!data) return false;

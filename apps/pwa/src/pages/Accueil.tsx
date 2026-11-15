@@ -21,18 +21,31 @@ export function Accueil() {
 
   useEffect(() => {
     void (async () => {
-      const e = await api.enfantCourant();
-      if (!e) return naviguer('/');
-      setEnfant(e);
       try {
+        const e = await api.enfantCourant();
+        if (!e) return naviguer('/');
+        setEnfant(e);
         setPack(await chargerPack(e.classe));
       } catch (err) {
-        setErreur((err as Error).message);
+        setErreur((err as Error).message || 'Erreur de chargement.');
       }
     })();
   }, [naviguer]);
 
-  if (!enfant) return <main className="ecran" aria-busy="true" />;
+  if (!enfant) {
+    return (
+      <main className="ecran" aria-busy={!erreur}>
+        {erreur && (
+          <>
+            <p className="erreur" role="alert">{erreur}</p>
+            <button className="hp-btn hp-btn--secondary" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
+              Revenir au choix du profil
+            </button>
+          </>
+        )}
+      </main>
+    );
+  }
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
   const mission = pack ? competencesJouables(pack).slice(0, 3) : [];
