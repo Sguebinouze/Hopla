@@ -156,6 +156,31 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
   }
 
   // Couverture : une compétence sans aucun exercice est un trou.
+  // Leçons : une par notion au plus, règles de rédaction du cycle, essai cohérent.
+  const vuesLecons = new Set<string>();
+  for (const l of contenu.lecons) {
+    const c = competences.get(l.competence);
+    if (!c) {
+      erreur(l.fichier, `compétence inconnue : ${l.competence}`);
+      continue;
+    }
+    if (vuesLecons.has(l.competence)) erreur(l.fichier, `deux leçons pour ${l.competence}`);
+    vuesLecons.add(l.competence);
+    const opts = l.essai.options;
+    if (new Set(opts).size !== opts.length) erreur(l.fichier, 'essai : options en double');
+    if (!opts.includes(l.essai.reponse)) erreur(l.fichier, 'essai : la réponse ne fait pas partie des options');
+    const textes: [string, string][] = [
+      ['exemple', l.exemple], ['regle', l.regle.replace(/\*\*/g, '')], ['piege', l.piege ?? ''],
+      ['essai.consigne', l.essai.consigne], ['essai.explication', l.essai.explication],
+    ];
+    for (const [champ, texte] of textes) {
+      if (!texte) continue;
+      for (const pb of verifierTexte(texte, c.cycle)) {
+        (pb.niveau === 'erreur' ? erreur : alerte)(`leçon ${l.competence} (${champ})`, pb.message);
+      }
+    }
+  }
+
   const couvertes = new Set([...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences)]);
   for (const id of competences.keys()) if (!couvertes.has(id)) alerte(id, 'aucun exercice ni générateur');
 

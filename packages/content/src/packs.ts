@@ -1,6 +1,6 @@
 import { GENERATEURS } from '@hopla/generateurs';
 import type { Contenu } from './charger';
-import { CLASSES, CYCLE_DE, type Classe, type Exercice } from './schemas';
+import { CLASSES, CYCLE_DE, type Classe, type Exercice, type Lecon } from './schemas';
 import { programmesApplicables } from './verifier';
 
 export interface Pack {
@@ -23,6 +23,7 @@ export interface Pack {
       source: { id: string; page: number | null };
       generateurs: string[];
       exercices: Exercice[];
+      lecon: Pick<Lecon, 'exemple' | 'regle' | 'piege' | 'essai' | 'statut'> | null;
     }[];
   }[];
 }
@@ -32,6 +33,7 @@ export function construirePacks(
 ): Pack[] {
   const statuts = new Set<Exercice['statut']>(options.brouillons ? ['brouillon', 'relu', 'publie'] : ['publie']);
   const banques = new Map(contenu.banques.map((b) => [b.competence, b.exercices]));
+  const lecons = new Map(contenu.lecons.filter((l) => statuts.has(l.statut)).map((l) => [l.competence, l]));
 
   return CLASSES.map((classe) => {
     const programmes = programmesApplicables(contenu.programmes, classe, annee);
@@ -57,6 +59,10 @@ export function construirePacks(
             source: { id: c.source.id, page: c.source.page },
             generateurs: GENERATEURS.filter((g) => g.competences.includes(c.id)).map((g) => g.id),
             exercices: (banques.get(c.id) ?? []).filter((e) => statuts.has(e.statut)),
+            lecon: (() => {
+              const l = lecons.get(c.id);
+              return l ? { exemple: l.exemple, regle: l.regle, piege: l.piege, essai: l.essai, statut: l.statut } : null;
+            })(),
           })),
         };
       }),

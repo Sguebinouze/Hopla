@@ -95,4 +95,27 @@ export type Programme = z.infer<typeof programmeSchema>;
 export type Competence = z.infer<typeof competenceSchema>;
 export type Referentiel = z.infer<typeof referentielSchema>;
 export type Exercice = z.infer<typeof exerciceSchema>;
+
+// Leçon courte d'une notion : un exemple concret d'abord, la règle ensuite, puis un essai guidé.
+// Dans `regle`, les notions clés peuvent être entourées de ** pour le gras.
+export const leconSchema = z
+  .object({
+    competence: z.string(),
+    exemple: z.string().min(1),
+    regle: z.string().min(1),
+    piege: z.string().min(1).nullable(),
+    essai: z.object({
+      consigne: z.string().min(1),
+      options: z.array(z.string()).min(2).max(4),
+      reponse: z.string().min(1),
+      explication: z.string().min(1),
+    }),
+    statut: z.enum(['brouillon', 'relu', 'publie']),
+    auteur: z.enum(['humain', 'ia']),
+    relu_par: z.string().nullable(),
+  })
+  .refine((l) => l.statut === 'brouillon' || l.relu_par !== null, {
+    message: 'une leçon relue ou publiée doit indiquer relu_par',
+  });
+export type Lecon = z.infer<typeof leconSchema>;
 export type Banque = z.infer<typeof banqueSchema>;

@@ -3,8 +3,8 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { z } from 'zod';
 import {
-  banqueSchema, programmeSchema, referentielSchema, sourceSchema,
-  type Banque, type Programme, type Referentiel, type Source,
+  banqueSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
+  type Banque, type Lecon, type Programme, type Referentiel, type Source,
 } from './schemas';
 
 export const RACINE_DEPOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
@@ -15,6 +15,7 @@ export interface Contenu {
   programmes: Programme[];
   referentiels: (Referentiel & { fichier: string })[];
   banques: (Banque & { fichier: string })[];
+  lecons: (Lecon & { fichier: string })[];
 }
 
 export interface ErreurChargement {
@@ -64,5 +65,10 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     return b ? [{ ...b, fichier: relative(racine, f) }] : [];
   });
 
-  return { contenu: { sources, programmes, referentiels, banques }, erreurs };
+  const lecons = fichiersJson(join(racine, 'lecons')).flatMap((f) => {
+    const l = lire(f, leconSchema);
+    return l ? [{ ...l, fichier: relative(racine, f) }] : [];
+  });
+
+  return { contenu: { sources, programmes, referentiels, banques, lecons }, erreurs };
 }
