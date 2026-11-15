@@ -1,0 +1,81 @@
+{
+  "programme": "EM-C3-2024",
+  "classe": "cm1",
+  "competences": [
+    {
+      "id": "EM-C3-CM1-CIV-01",
+      "titre": "Civisme et civilité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Civisme et citoyenneté",
+      "attendu": "Définir le civisme, appliquer les règles de civilité et comprendre pourquoi les incivilités nuisent à tous.",
+      "exemple": "Je dis bonjour, je laisse ma place à une personne âgée dans le bus.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "Civisme et citoyenneté"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM1-NUM-01",
+      "titre": "Citoyen du numérique",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Civisme et citoyenneté",
+      "attendu": "Adopter un comportement responsable en ligne : respect, protection, source de l’information, sobriété numérique.",
+      "exemple": "Avant de partager une information, je vérifie qui l’a écrite.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "Afin de développer un civisme numérique, s’appuyer sur la charte"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM1-DEM-01",
+      "titre": "La démocratie",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Civisme et citoyenneté",
+      "attendu": "Connaitre la signification du mot démocratie et le fonctionnement du vote au suffrage direct.",
+      "exemple": "En démocratie, les citoyens élisent leurs représentants par le vote.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "Exposer les principes généraux de la démocratie"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM1-EGA-01",
+      "titre": "Égalité et discriminations",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’égalité dans la dignité",
+      "attendu": "Comprendre l’égalité en droit et la dignité de la personne, identifier et refuser les discriminations.",
+      "exemple": "Refuser un enfant dans une équipe à cause de son origine est une discrimination.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "L’égalité dans la dignité"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "EM-C3-CM1-FRA-01",
+      "titre": "Fraternité et empathie",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Comment faire société",
+      "attendu": "Comprendre la fraternité, valeur de la République, et ce que permet l’empathie ; débattre en respectant les autres.",
+      "exemple": "Je comprends que mon camarade soit triste et je l’aide.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 15,
+        "extrait": "Comment faire société"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

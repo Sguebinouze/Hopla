@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-CM1-GEO-03",
+  "exercices": [
+    {
+      "id": "HG-C3-CM1-GEO-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où prend-on le train ?",
+      "options": [
+        "à la gare",
+        "au port",
+        "à l’aéroport"
+      ],
+      "reponse": "à la gare",
+      "indice": "Il y a des quais.",
+      "explication": "On prend le train à la gare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où prend-on l’avion ?",
+      "options": [
+        "à l’aéroport",
+        "à la gare",
+        "au port"
+      ],
+      "reponse": "à l’aéroport",
+      "indice": "Il y a des pistes.",
+      "explication": "On prend l’avion à l’aéroport.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mode de déplacement ne pollue pas ?",
+      "options": [
+        "la marche",
+        "la voiture",
+        "l’avion"
+      ],
+      "reponse": "la marche",
+      "indice": "On utilise ses jambes.",
+      "explication": "La marche ne pollue pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un bateau arrive…",
+      "options": [
+        "au port",
+        "à la gare",
+        "à la station de métro"
+      ],
+      "reponse": "au port",
+      "indice": "Au bord de l’eau.",
+      "explication": "Les bateaux s’arrêtent au port.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Le collège est à 20 minutes à vélo. » Ici, la distance est mesurée…",
+      "options": [
+        "en temps",
+        "en kilomètres",
+        "en kilos"
+      ],
+      "reponse": "en temps",
+      "indice": "On parle de minutes.",
+      "explication": "La distance est donnée en temps de trajet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une voie réservée aux vélos s’appelle…",
+      "options": [
+        "une piste cyclable",
+        "une autoroute",
+        "un quai"
+      ],
+      "reponse": "une piste cyclable",
+      "indice": "Les voitures ne peuvent pas y rouler.",
+      "explication": "Les vélos roulent sur une piste cyclable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour traverser un océan rapidement, on prend…",
+      "options": [
+        "l’avion",
+        "le vélo",
+        "le métro"
+      ],
+      "reponse": "l’avion",
+      "indice": "C’est le moyen le plus rapide sur de grandes distances.",
+      "explication": "L’avion est le plus rapide pour traverser un océan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le métro se trouve surtout…",
+      "options": [
+        "dans les grandes villes",
+        "dans les petits villages",
+        "à la montagne"
+      ],
+      "reponse": "dans les grandes villes",
+      "indice": "Beaucoup d’habitants s’y déplacent.",
+      "explication": "Le métro dessert les grandes villes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "programme": "ST-C3-2026",
+  "classe": "cm1",
+  "competences": [
+    {
+      "id": "ST-C3-CM1-MAT-01",
+      "titre": "Mélanges et séparations",
+      "domaine": "La matière, les mouvements et les signaux",
+      "theme": "États et constitution de la matière à l’échelle macroscopique",
+      "attendu": "Distinguer mélanges homogènes et hétérogènes, séparer par tamisage, décantation, filtration ; observer la dissolution.",
+      "exemple": "Le sel se dissout dans l’eau. Le sable, lui, se dépose au fond.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 19,
+        "extrait": "Distinguer des mélanges homogènes et des mélanges"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01",
+      "titre": "Mesurer distances et durées",
+      "domaine": "La matière, les mouvements et les signaux",
+      "theme": "Différents types de mouvement",
+      "attendu": "Mesurer la distance parcourue et la durée d’un déplacement avec les bons instruments et les bonnes unités.",
+      "exemple": "La petite voiture parcourt 2 mètres en 4 secondes.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 19,
+        "extrait": "Mesurer une distance lors du déplacement d’un objet."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01",
+      "titre": "La lumière et les ombres",
+      "domaine": "La matière, les mouvements et les signaux",
+      "theme": "Signaux",
+      "attendu": "Classer des matériaux transparents, translucides ou opaques ; produire une ombre et distinguer ombre propre et ombre portée.",
+      "exemple": "Ma main devant la lampe fait une ombre sur le mur.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 20,
+        "extrait": "Produire expérimentalement une ombre (déficit de lumière"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01",
+      "titre": "Classer les êtres vivants",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Unité et diversité du vivant",
+      "attendu": "Définir une espèce, classer des êtres vivants en groupes emboités selon leurs attributs, utiliser une clé de détermination.",
+      "exemple": "Le chat et le chien ont des poils et un squelette : ils sont tous les deux mammifères et vertébrés.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 25,
+        "extrait": "Définir une espèce comme un ensemble d’individus"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02",
+      "titre": "Ovipares et vivipares",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Reproduction, croissance et développement",
+      "attendu": "Décrire les étapes du développement des animaux et relier le type de fécondation au mode de reproduction ovipare ou vivipare.",
+      "exemple": "La poule pond des œufs : elle est ovipare. La chatte met au monde des petits : elle est vivipare.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 26,
+        "extrait": "Mettre en relation le type de fécondation (interne ou"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-ECO-01",
+      "titre": "Écosystèmes et chaines alimentaires",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Les écosystèmes",
+      "attendu": "Définir un écosystème, représenter un réseau alimentaire et envisager les conséquences d’une action humaine.",
+      "exemple": "L’herbe est mangée par le lapin, le lapin par le renard : c’est une chaine alimentaire.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 26,
+        "extrait": "Définir un écosystème comme un ensemble d’êtres vivants,"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-TER-01",
+      "titre": "La météorologie",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "La Terre, une planète active",
+      "attendu": "Réaliser des mesures météorologiques avec thermomètre, pluviomètre et anémomètre, et décrire leurs variations.",
+      "exemple": "Le pluviomètre de l’école a recueilli 12 millimètres de pluie cette semaine.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 26,
+        "extrait": "Réaliser et exploiter des mesures météorologiques en"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01",
+      "titre": "Le cerveau",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Le cerveau : introduction à quelques grandes fonctions",
+      "attendu": "Localiser le cerveau, connaitre ses grandes fonctions et quelques stratégies pour être attentif et mémoriser.",
+      "exemple": "Le cerveau commande mes mouvements, me permet de parler et de me souvenir.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 29,
+        "extrait": "Localiser le cerveau et l’identifier comme un organe"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-02",
+      "titre": "La puberté",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Puberté et reproduction humaine",
+      "attendu": "Décrire les changements du corps à la puberté et savoir qu’ils surviennent à des âges différents et sont normaux.",
+      "exemple": "À la puberté, le corps grandit vite et la voix des garçons devient plus grave.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 30,
+        "extrait": "Décrire et identifier les changements morphologiques du"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-OBJ-01",
+      "titre": "Comment fonctionne un objet",
+      "domaine": "Les objets techniques au cœur de la société",
+      "theme": "Description du fonctionnement et de la constitution d’objets techniques",
+      "attendu": "Identifier les fonctions des composants d’un objet technique et décrire son fonctionnement à l’aide d’un croquis.",
+      "exemple": "Sur un stylo, le capuchon protège la pointe, l’agrafe permet de l’accrocher.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 32,
+        "extrait": "Identifier les fonctions assurées par les différents"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01",
+      "titre": "Programmer un objet",
+      "domaine": "Les objets techniques au cœur de la société",
+      "theme": "Programmation d’objets techniques",
+      "attendu": "Traduire un programme simple en langage naturel et utiliser un programme pour agir sur un objet ou un personnage.",
+      "exemple": "« Avancer de 10 pas, tourner à droite, répéter 4 fois » : le personnage dessine un carré.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 32,
+        "extrait": "Traduire un programme simple en langage naturel."
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-CORPS-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-CORPS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se trouve le cerveau ?",
+      "options": [
+        "dans la tête",
+        "dans le ventre",
+        "dans la jambe"
+      ],
+      "reponse": "dans la tête",
+      "indice": "Il est protégé par le crâne.",
+      "explication": "Le cerveau est dans la tête, protégé par le crâne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel organe commande les mouvements ?",
+      "options": [
+        "le cerveau",
+        "l’estomac",
+        "le cœur"
+      ],
+      "reponse": "le cerveau",
+      "indice": "Il envoie des ordres aux muscles.",
+      "explication": "Le cerveau commande les mouvements.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel os protège le cerveau ?",
+      "options": [
+        "le crâne",
+        "le fémur",
+        "la côte"
+      ],
+      "reponse": "le crâne",
+      "indice": "C’est une boite osseuse.",
+      "explication": "Le crâne protège le cerveau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Lequel est une fonction du cerveau ?",
+      "options": [
+        "se souvenir",
+        "digérer",
+        "respirer par la peau"
+      ],
+      "reponse": "se souvenir",
+      "indice": "Pense à la mémoire.",
+      "explication": "Le cerveau permet de mémoriser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour mieux se concentrer sur un exercice, il vaut mieux…",
+      "options": [
+        "éloigner les distractions",
+        "regarder une vidéo en même temps",
+        "faire trois choses à la fois"
+      ],
+      "reponse": "éloigner les distractions",
+      "indice": "Le cerveau fait mal plusieurs choses à la fois.",
+      "explication": "Éloigner les distractions aide à se concentrer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une illusion d’optique montre que…",
+      "options": [
+        "notre perception peut nous tromper",
+        "nos yeux voient tout parfaitement",
+        "le cerveau ne sert pas à voir"
+      ],
+      "reponse": "notre perception peut nous tromper",
+      "indice": "Deux traits égaux semblent différents.",
+      "explication": "Le cerveau interprète ce que voient les yeux et peut se tromper.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour retenir une leçon longtemps, le plus efficace est de…",
+      "options": [
+        "la revoir plusieurs fois, à quelques jours d’intervalle",
+        "la lire une seule fois très vite",
+        "ne jamais la relire"
+      ],
+      "reponse": "la revoir plusieurs fois, à quelques jours d’intervalle",
+      "indice": "La mémoire se renforce en se rappelant.",
+      "explication": "Se rappeler plusieurs fois une leçon la fait passer en mémoire à long terme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-CORPS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pendant le sommeil, le cerveau…",
+      "options": [
+        "continue de travailler et produit les rêves",
+        "s’arrête complètement",
+        "grossit"
+      ],
+      "reponse": "continue de travailler et produit les rêves",
+      "indice": "Il range aussi les souvenirs.",
+      "explication": "Le cerveau travaille la nuit : il produit les rêves et range les souvenirs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

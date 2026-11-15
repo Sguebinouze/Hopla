@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-OBJ-01",
+  "exemple": "Je démonte un stylo à bille : capuchon, corps, cartouche, ressort, bouton.",
+  "regle": "Un **objet technique** est fait de **composants**. Chacun a une **fonction** et un **matériau** choisi pour elle. On décrit l’objet avec un **croquis légendé** et on repère ses **sous-ensembles**.",
+  "piege": "La forme et le matériau d’une pièce ne sont jamais choisis au hasard.",
+  "essai": {
+    "consigne": "À quoi sert le ressort d’un stylo à bille ?",
+    "options": [
+      "à faire rentrer et sortir la pointe",
+      "à colorer l’encre",
+      "à décorer"
+    ],
+    "reponse": "à faire rentrer et sortir la pointe",
+    "explication": "Le ressort fait rentrer et sortir la pointe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

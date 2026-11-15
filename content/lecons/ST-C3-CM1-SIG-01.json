@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-SIG-01",
+  "exemple": "Avec ma main devant la lampe, je fais un lapin en ombre chinoise sur le mur.",
+  "regle": "Un objet **transparent** laisse passer la lumière, un objet **translucide** la laisse passer sans image nette, un objet **opaque** l’arrête. Derrière un objet opaque éclairé se forme une **ombre portée** ; la face non éclairée est l’**ombre propre**.",
+  "piege": "L’ombre n’est pas un objet : c’est un endroit où la lumière manque.",
+  "essai": {
+    "consigne": "Un carton est…",
+    "options": [
+      "opaque",
+      "transparent",
+      "translucide"
+    ],
+    "reponse": "opaque",
+    "explication": "Le carton arrête la lumière : il est opaque."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

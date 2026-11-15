@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-MAT-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que devient le sucre mélangé à l’eau ?",
+      "options": [
+        "il se dissout",
+        "il flotte",
+        "il devient du sable"
+      ],
+      "reponse": "il se dissout",
+      "indice": "On ne le voit plus, mais l’eau est sucrée.",
+      "explication": "Le sucre se dissout dans l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que fait le sable mélangé à l’eau ?",
+      "options": [
+        "il se dépose au fond",
+        "il se dissout",
+        "il disparait"
+      ],
+      "reponse": "il se dépose au fond",
+      "indice": "Il ne se dissout pas.",
+      "explication": "Le sable ne se dissout pas : il tombe au fond.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel outil sépare les gros cailloux du sable ?",
+      "options": [
+        "un tamis",
+        "un thermomètre",
+        "une loupe"
+      ],
+      "reponse": "un tamis",
+      "indice": "Il a des trous.",
+      "explication": "Le tamis retient les gros grains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un mélange où l’on distingue plusieurs constituants est…",
+      "options": [
+        "hétérogène",
+        "homogène",
+        "pur"
+      ],
+      "reponse": "hétérogène",
+      "indice": "On voit les différentes parties.",
+      "explication": "On distingue les constituants : le mélange est hétérogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’eau salée est un mélange…",
+      "options": [
+        "homogène",
+        "hétérogène",
+        "solide"
+      ],
+      "reponse": "homogène",
+      "indice": "On ne voit qu’une seule phase.",
+      "explication": "On ne distingue pas le sel : le mélange est homogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Laisser reposer de l’eau boueuse pour que la terre tombe au fond, c’est…",
+      "options": [
+        "une décantation",
+        "une dissolution",
+        "une évaporation"
+      ],
+      "reponse": "une décantation",
+      "indice": "On attend sans bouger.",
+      "explication": "Laisser reposer pour séparer, c’est décanter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel procédé retient les petites particules d’une eau trouble ?",
+      "options": [
+        "la filtration",
+        "le chauffage",
+        "le mélange"
+      ],
+      "reponse": "la filtration",
+      "indice": "On utilise un filtre en papier.",
+      "explication": "La filtration retient les particules solides.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On ajoute du sel à l’eau. À un moment, il ne se dissout plus. On dit que l’eau est…",
+      "options": [
+        "saturée",
+        "gelée",
+        "filtrée"
+      ],
+      "reponse": "saturée",
+      "indice": "Elle ne peut plus en dissoudre.",
+      "explication": "L’eau est saturée : elle ne peut plus dissoudre de sel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

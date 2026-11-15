@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-MAT-01",
+  "exemple": "J’agite de l’eau boueuse, puis je la laisse reposer : la terre tombe au fond.",
+  "regle": "Dans un mélange **homogène**, on ne distingue pas les constituants : eau salée. Dans un mélange **hétérogène**, on les voit : eau et sable. On sépare par **tamisage**, **décantation** ou **filtration**. Certains solides se **dissolvent** dans l’eau, jusqu’à **saturation**.",
+  "piege": "Un solide dissous n’a pas disparu : l’eau salée garde le gout du sel.",
+  "essai": {
+    "consigne": "L’eau et le sable forment un mélange…",
+    "options": [
+      "hétérogène",
+      "homogène",
+      "invisible"
+    ],
+    "reponse": "hétérogène",
+    "explication": "On distingue l’eau et le sable : mélange hétérogène."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -51,7 +51,8 @@ Zone : `content/referentiel` hors FR et MA, `content/exercices`, `content/lecons
 - CP (fait) : le CP suit déjà les programmes 2026 d’histoire-géographie (`HG-C2-2026`, BO n°22 de 2026) et de sciences et technologie (`ST-C2-2026`, BO n°24 de 2026), qui remplacent questionner le monde ; EMC `EM-C2-2024`. 18 notions, 144 questions, 18 leçons.
 - CE2 (fait) : questionner le monde `QM-C2-2020` (encore en vigueur au CE2 en 2026-2027 ; notions choisies parmi celles que le texte réserve au CE2 ou que le CE1 n’a pas : état gazeux, cycle de vie, besoins des plantes, croissance, conducteurs, ordinateur, astres, milieux, grandes périodes, organisation de la commune) et EMC `EM-C2-2024`. 14 notions, 112 questions, 14 leçons.
 - Le test des packs (`packages/content/src/verifier.test.ts`) ne compte plus un nombre fixe de brouillons au CE2 : il compare au total des questions rédigées.
-- À suivre, dans l’ordre : CM1 et CM2 (histoire-géographie, sciences, EMC), cycle 4, anglais des autres classes.
+- CM1 (fait) : histoire-géographie `HG-C3-2026` et sciences et technologie `ST-C3-2026`, appliqués au CM1 depuis la rentrée 2026, et EMC `EM-C3-2024`. 24 notions (8 + 11 + 5), 192 questions, 24 leçons.
+- À suivre, dans l’ordre : CM2 (histoire-géographie 2020, sciences 2023, EMC), cycle 4, anglais des autres classes.
 
 ## Travail à deux sessions
 

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-MVT-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-MVT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on une durée courte ?",
+      "options": [
+        "un chronomètre",
+        "une règle",
+        "une balance"
+      ],
+      "reponse": "un chronomètre",
+      "indice": "Il compte les secondes.",
+      "explication": "Le chronomètre mesure une durée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on une distance au sol ?",
+      "options": [
+        "un mètre ruban",
+        "un thermomètre",
+        "un chronomètre"
+      ],
+      "reponse": "un mètre ruban",
+      "indice": "Il se déroule.",
+      "explication": "Le mètre ruban mesure une distance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une durée se mesure en…",
+      "options": [
+        "secondes",
+        "mètres",
+        "grammes"
+      ],
+      "reponse": "secondes",
+      "indice": "Pense au chronomètre.",
+      "explication": "Une durée se mesure en secondes, minutes ou heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une distance se mesure en…",
+      "options": [
+        "mètres",
+        "secondes",
+        "litres"
+      ],
+      "reponse": "mètres",
+      "indice": "Pense à la règle.",
+      "explication": "Une distance se mesure en mètres ou en kilomètres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une durée, c’est…",
+      "options": [
+        "le temps entre deux instants",
+        "une distance",
+        "une masse"
+      ],
+      "reponse": "le temps entre deux instants",
+      "indice": "Début et fin du mouvement.",
+      "explication": "La durée est l’intervalle entre deux instants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux voitures parcourent 3 m. L’une met 2 s, l’autre 5 s. Laquelle va le plus vite ?",
+      "options": [
+        "celle qui met 2 s",
+        "celle qui met 5 s",
+        "elles vont aussi vite"
+      ],
+      "reponse": "celle qui met 2 s",
+      "indice": "Même distance, moins de temps.",
+      "explication": "Pour la même distance, la plus rapide met le moins de temps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour une course de 50 m, que mesure le chronomètre ?",
+      "options": [
+        "la durée de la course",
+        "la longueur de la piste",
+        "la masse du coureur"
+      ],
+      "reponse": "la durée de la course",
+      "indice": "On le déclenche au départ.",
+      "explication": "Le chronomètre mesure la durée de la course.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MVT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Deux enfants courent 10 s. L’un parcourt 40 m, l’autre 60 m. Qui est le plus rapide ?",
+      "options": [
+        "celui qui parcourt 60 m",
+        "celui qui parcourt 40 m",
+        "ils vont aussi vite"
+      ],
+      "reponse": "celui qui parcourt 60 m",
+      "indice": "Même durée, plus de distance.",
+      "explication": "Pour la même durée, le plus rapide parcourt la plus grande distance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

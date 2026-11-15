@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-VIV-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-VIV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel attribut partagent tous les oiseaux ?",
+      "options": [
+        "des plumes",
+        "des poils",
+        "des écailles de poisson"
+      ],
+      "reponse": "des plumes",
+      "indice": "Pense au pigeon et à l’autruche.",
+      "explication": "Tous les oiseaux ont des plumes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel attribut partagent tous les mammifères ?",
+      "options": [
+        "des poils",
+        "des plumes",
+        "des nageoires"
+      ],
+      "reponse": "des poils",
+      "indice": "Le chat, le chien, l’humain…",
+      "explication": "Les mammifères ont des poils.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un animal qui a un squelette interne est un…",
+      "options": [
+        "vertébré",
+        "insecte",
+        "végétal"
+      ],
+      "reponse": "vertébré",
+      "indice": "Il a une colonne vertébrale.",
+      "explication": "Un animal à squelette interne est un vertébré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une espèce, c’est un ensemble d’individus…",
+      "options": [
+        "qui peuvent se reproduire entre eux",
+        "de la même couleur",
+        "qui vivent au même endroit"
+      ],
+      "reponse": "qui peuvent se reproduire entre eux",
+      "indice": "Leurs petits sont eux-mêmes féconds.",
+      "explication": "Une espèce regroupe des individus interféconds.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’araignée a-t-elle un squelette interne ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement adulte"
+      ],
+      "reponse": "non",
+      "indice": "Elle a une carapace.",
+      "explication": "L’araignée n’est pas un vertébré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour identifier un insecte inconnu, on utilise…",
+      "options": [
+        "une clé de détermination",
+        "un thermomètre",
+        "une boussole"
+      ],
+      "reponse": "une clé de détermination",
+      "indice": "On répond à des questions successives.",
+      "explication": "Une clé de détermination aide à identifier une espèce.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La chauve-souris a des poils et allaite ses petits. C’est…",
+      "options": [
+        "un mammifère",
+        "un oiseau",
+        "un insecte"
+      ],
+      "reponse": "un mammifère",
+      "indice": "Elle vole, mais n’a pas de plumes.",
+      "explication": "Poils et allaitement : la chauve-souris est un mammifère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans une classification en groupes emboités, les mammifères sont inclus dans…",
+      "options": [
+        "les vertébrés",
+        "les insectes",
+        "les oiseaux"
+      ],
+      "reponse": "les vertébrés",
+      "indice": "Tous les mammifères ont un squelette interne.",
+      "explication": "Le groupe des mammifères est inclus dans celui des vertébrés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

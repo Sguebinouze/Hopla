@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM1-GEO-04",
+  "exemple": "Une vidéo envoyée au Canada traverse l’Atlantique dans un câble sous-marin.",
+  "regle": "**Internet** est un **réseau** mondial. Les données circulent surtout par des **câbles** terrestres et **sous-marins**, et parfois par **satellite**. L’accès est **inégal** : très bon en Amérique du Nord, en Europe ou en Asie de l’Est, faible dans d’autres régions.",
+  "piege": "Internet n’est pas « dans les nuages » : il repose sur des câbles bien réels.",
+  "essai": {
+    "consigne": "Par où passent surtout les données entre continents ?",
+    "options": [
+      "des câbles sous-marins",
+      "les nuages",
+      "les fleuves"
+    ],
+    "reponse": "des câbles sous-marins",
+    "explication": "Les câbles sous-marins relient les continents."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

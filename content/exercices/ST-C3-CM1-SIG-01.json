@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-SIG-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-SIG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un objet qui ne laisse pas passer la lumière est…",
+      "options": [
+        "opaque",
+        "transparent",
+        "translucide"
+      ],
+      "reponse": "opaque",
+      "indice": "Comme un livre.",
+      "explication": "Un objet opaque arrête la lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La vitre d’une fenêtre est…",
+      "options": [
+        "transparente",
+        "opaque",
+        "noire"
+      ],
+      "reponse": "transparente",
+      "indice": "On voit à travers.",
+      "explication": "On voit nettement à travers une vitre : elle est transparente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que faut-il pour obtenir une ombre ?",
+      "options": [
+        "une source de lumière et un objet opaque",
+        "de l’eau et du sable",
+        "un aimant"
+      ],
+      "reponse": "une source de lumière et un objet opaque",
+      "indice": "Pense à la lampe et à ta main.",
+      "explication": "Une ombre apparait derrière un objet opaque éclairé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un papier calque laisse passer la lumière sans qu’on voie nettement. Il est…",
+      "options": [
+        "translucide",
+        "transparent",
+        "opaque"
+      ],
+      "reponse": "translucide",
+      "indice": "La lumière passe, mais l’image est floue.",
+      "explication": "Le calque est translucide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’ombre dessinée sur le sol derrière un objet s’appelle…",
+      "options": [
+        "l’ombre portée",
+        "l’ombre propre",
+        "le reflet"
+      ],
+      "reponse": "l’ombre portée",
+      "indice": "Elle est « portée » sur le sol.",
+      "explication": "L’ombre sur le sol ou sur un mur est l’ombre portée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La partie non éclairée de l’objet lui-même s’appelle…",
+      "options": [
+        "l’ombre propre",
+        "l’ombre portée",
+        "la lumière"
+      ],
+      "reponse": "l’ombre propre",
+      "indice": "Elle est sur l’objet.",
+      "explication": "La face non éclairée de l’objet est son ombre propre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On rapproche l’objet de la lampe. Son ombre sur le mur devient…",
+      "options": [
+        "plus grande",
+        "plus petite",
+        "invisible"
+      ],
+      "reponse": "plus grande",
+      "indice": "L’objet cache plus de lumière.",
+      "explication": "Plus l’objet est près de la lampe, plus son ombre est grande.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-SIG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "À midi, en été, le Soleil est haut. Les ombres sont…",
+      "options": [
+        "courtes",
+        "très longues",
+        "absentes la nuit seulement"
+      ],
+      "reponse": "courtes",
+      "indice": "Le soleil éclaire presque d’en haut.",
+      "explication": "Quand le Soleil est haut, les ombres sont courtes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

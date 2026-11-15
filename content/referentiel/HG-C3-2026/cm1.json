@@ -1,0 +1,126 @@
+{
+  "programme": "HG-C3-2026",
+  "classe": "cm1",
+  "competences": [
+    {
+      "id": "HG-C3-CM1-HIST-01",
+      "titre": "La vie au Moyen Âge",
+      "domaine": "Histoire",
+      "theme": "La vie quotidienne au Moyen Âge (XIe - XIIIe siècles)",
+      "attendu": "Décrire la seigneurie, la vie des paysans et des seigneurs, le rôle de l’Église ; distinguer art roman et art gothique.",
+      "exemple": "Le seigneur vit dans son château fort. Les paysans cultivent ses terres et lui doivent des corvées.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 66,
+        "extrait": "Thème 1 : La vie quotidienne au Moyen Âge (XIe - XIIIe siècles) (première et deuxième période)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-HIST-02",
+      "titre": "La monarchie en France",
+      "domaine": "Histoire",
+      "theme": "La monarchie en France (XVIe – XVIIe siècles)",
+      "attendu": "Situer François Ier, Henri IV et Louis XIV et expliquer comment chacun incarne le pouvoir royal ; décrire la société d’ordres.",
+      "exemple": "Louis XIV fait construire le château de Versailles pour montrer sa puissance.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 67,
+        "extrait": "Thème 2 : La monarchie en France (XVIe – XVIIe siècles) (deuxième et troisième périodes)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-HIST-03",
+      "titre": "Explorations et conquêtes",
+      "domaine": "Histoire",
+      "theme": "Explorations et conquêtes par les Européens du XVe au XVIIe siècle",
+      "attendu": "Connaitre les inventions de la navigation, les grands voyages, les premiers empires coloniaux et la traite des esclaves.",
+      "exemple": "En 1492, Christophe Colomb traverse l’Atlantique et débarque en Amérique.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 67,
+        "extrait": "Thème 3 : Explorations et conquêtes par les Européens du XVe au XVIIe siècle (quatrième période)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-HIST-04",
+      "titre": "1789, l’année de la Révolution",
+      "domaine": "Histoire",
+      "theme": "1789, une année révolutionnaire en France",
+      "attendu": "Situer les évènements de 1789 et citer les principaux droits de la Déclaration des droits de l’homme et du citoyen.",
+      "exemple": "Le 14 juillet 1789, le peuple de Paris prend la Bastille.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 68,
+        "extrait": "Thème 4 : 1789, une année révolutionnaire en France (cinquième période)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-01",
+      "titre": "Se nourrir dans le monde",
+      "domaine": "Géographie",
+      "theme": "Se nourrir",
+      "attendu": "Décrire les différences d’alimentation entre pays et la chaine de production d’un aliment, du produit agricole au produit transformé.",
+      "exemple": "Le lait est un produit agricole. Le yaourt, fabriqué en usine, est un produit transformé.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 73,
+        "extrait": "Thème 1 : Se nourrir (1 ou 2 périodes au choix)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02",
+      "titre": "Les inégalités dans le monde",
+      "domaine": "Géographie",
+      "theme": "Les inégalités dans le monde",
+      "attendu": "Identifier des inégalités d’accès à l’eau, à la santé ou à l’éducation ; nommer les grandes aires régionales.",
+      "exemple": "Dans certaines régions, des enfants marchent des heures pour aller chercher de l’eau.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 73,
+        "extrait": "Thème 2 : Les inégalités dans le monde (1 ou 2 périodes au choix)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-03",
+      "titre": "Se déplacer",
+      "domaine": "Géographie",
+      "theme": "Se déplacer",
+      "attendu": "Identifier les modes de transport et leurs infrastructures ; mesurer un déplacement en kilomètres ou en temps.",
+      "exemple": "Pour prendre le train, on va à la gare. Pour prendre l’avion, on va à l’aéroport.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 74,
+        "extrait": "Thème 3 : Se déplacer (1 période)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-04",
+      "titre": "Internet dans le monde",
+      "domaine": "Géographie",
+      "theme": "Communiquer dans le monde avec Internet",
+      "attendu": "Expliquer qu’Internet repose sur des câbles et des satellites ; décrire les inégalités d’accès.",
+      "exemple": "Un message envoyé en Amérique passe par des câbles posés au fond de l’océan.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 74,
+        "extrait": "Thème 4 : Communiquer dans le monde avec Internet (1 période)"
+      },
+      "prerequis": [],
+      "statut": "a_verifier"
+    }
+  ]
+}

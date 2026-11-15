@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-ECO-01",
+  "exemple": "Dans la mare, les têtards mangent les algues, les poissons mangent les têtards.",
+  "regle": "Un **écosystème** réunit des êtres vivants, leur **milieu** et leurs **relations**. Les **végétaux** produisent leur matière avec la lumière. Les animaux mangent d’autres êtres vivants. Les **chaines alimentaires** reliées forment un **réseau alimentaire**.",
+  "piege": "La flèche d’une chaine alimentaire va du mangé vers le mangeur.",
+  "essai": {
+    "consigne": "Dans « algue → têtard → poisson », qui mange le têtard ?",
+    "options": [
+      "le poisson",
+      "l’algue",
+      "personne"
+    ],
+    "reponse": "le poisson",
+    "explication": "La flèche va du mangé vers le mangeur : le poisson mange le têtard."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

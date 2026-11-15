@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-PROG-01",
+  "exemple": "Le robot de la classe suit le programme : avancer, tourner, avancer, puis s’arrêter.",
+  "regle": "Un **programme** est une suite d’**instructions** exécutées dans l’ordre. Une **boucle** répète des instructions, une **condition** (« si… alors ») permet de réagir, par exemple à un **capteur**. On **teste** le programme pour corriger les erreurs.",
+  "piege": "Le robot ne devine rien : il fait exactement ce qui est écrit.",
+  "essai": {
+    "consigne": "« Répéter 3 fois » est…",
+    "options": [
+      "une boucle",
+      "une condition",
+      "un capteur"
+    ],
+    "reponse": "une boucle",
+    "explication": "« Répéter 3 fois » est une boucle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-PROG-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-PROG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un programme est…",
+      "options": [
+        "une suite d’instructions",
+        "un dessin",
+        "une batterie"
+      ],
+      "reponse": "une suite d’instructions",
+      "indice": "La machine les exécute dans l’ordre.",
+      "explication": "Un programme est une suite d’instructions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans quel ordre la machine exécute-t-elle les instructions ?",
+      "options": [
+        "l’une après l’autre",
+        "toutes au hasard",
+        "de la dernière à la première"
+      ],
+      "reponse": "l’une après l’autre",
+      "indice": "Comme une recette.",
+      "explication": "Les instructions s’exécutent dans l’ordre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le bloc « répéter 4 fois » sert à…",
+      "options": [
+        "refaire des instructions plusieurs fois",
+        "arrêter le programme",
+        "effacer l’écran"
+      ],
+      "reponse": "refaire des instructions plusieurs fois",
+      "indice": "On évite d’écrire 4 fois la même chose.",
+      "explication": "La boucle répète des instructions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Avancer, tourner à droite » répété 4 fois avec des angles droits dessine…",
+      "options": [
+        "un carré",
+        "un cercle",
+        "un triangle"
+      ],
+      "reponse": "un carré",
+      "indice": "Quatre côtés égaux, quatre angles droits.",
+      "explication": "Quatre fois « avancer, tourner d’un angle droit » donne un carré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un robot doit s’arrêter devant un mur. Il lui faut…",
+      "options": [
+        "un capteur",
+        "une peinture",
+        "un haut-parleur"
+      ],
+      "reponse": "un capteur",
+      "indice": "Il doit détecter l’obstacle.",
+      "explication": "Un capteur permet au robot de détecter le mur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une erreur dans un programme s’appelle souvent…",
+      "options": [
+        "un bug",
+        "un bloc",
+        "un pixel"
+      ],
+      "reponse": "un bug",
+      "indice": "On la corrige en testant.",
+      "explication": "Une erreur de programme est un bug.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Si le capteur détecte un obstacle, alors tourner. » C’est…",
+      "options": [
+        "une condition",
+        "une boucle infinie",
+        "une addition"
+      ],
+      "reponse": "une condition",
+      "indice": "Le mot « si » l’annonce.",
+      "explication": "Une instruction « si… alors » est une condition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-PROG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour vérifier un programme, on…",
+      "options": [
+        "le teste et on corrige",
+        "l’imprime seulement",
+        "le cache"
+      ],
+      "reponse": "le teste et on corrige",
+      "indice": "On observe ce que fait le robot.",
+      "explication": "On teste le programme puis on corrige les erreurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-VIV-02",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-VIV-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un animal qui pond des œufs est…",
+      "options": [
+        "ovipare",
+        "vivipare",
+        "végétal"
+      ],
+      "reponse": "ovipare",
+      "indice": "Comme la poule.",
+      "explication": "Un animal qui pond des œufs est ovipare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un animal dont le petit se développe dans le ventre de sa mère est…",
+      "options": [
+        "vivipare",
+        "ovipare",
+        "carnivore"
+      ],
+      "reponse": "vivipare",
+      "indice": "Comme la chatte.",
+      "explication": "Il est vivipare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le chat est…",
+      "options": [
+        "vivipare",
+        "ovipare",
+        "un insecte"
+      ],
+      "reponse": "vivipare",
+      "indice": "Les chatons naissent du ventre de la mère.",
+      "explication": "Le chat est vivipare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La tortue est…",
+      "options": [
+        "ovipare",
+        "vivipare",
+        "un mammifère"
+      ],
+      "reponse": "ovipare",
+      "indice": "Elle enfouit ses œufs dans le sable.",
+      "explication": "La tortue pond des œufs : elle est ovipare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La fécondation, c’est…",
+      "options": [
+        "la rencontre d’une cellule mâle et d’une cellule femelle",
+        "la naissance",
+        "la croissance"
+      ],
+      "reponse": "la rencontre d’une cellule mâle et d’une cellule femelle",
+      "indice": "C’est le début d’un nouvel individu.",
+      "explication": "La fécondation unit cellule mâle et cellule femelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Chez la grenouille, la fécondation a lieu…",
+      "options": [
+        "dans l’eau, hors du corps",
+        "dans le ventre de la femelle",
+        "dans un nid"
+      ],
+      "reponse": "dans l’eau, hors du corps",
+      "indice": "Les œufs sont pondus dans la mare.",
+      "explication": "Chez la grenouille, la fécondation est externe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Chez les mammifères, la fécondation est…",
+      "options": [
+        "interne",
+        "externe",
+        "inexistante"
+      ],
+      "reponse": "interne",
+      "indice": "Elle a lieu dans le corps de la femelle.",
+      "explication": "Chez les mammifères, la fécondation est interne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-VIV-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans quel ordre se développe un animal vivipare ?",
+      "options": [
+        "fécondation, développement dans le ventre, naissance",
+        "naissance, fécondation, développement",
+        "ponte, éclosion, fécondation"
+      ],
+      "reponse": "fécondation, développement dans le ventre, naissance",
+      "indice": "Tout commence par la fécondation.",
+      "explication": "Fécondation, développement dans le corps de la mère, puis naissance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

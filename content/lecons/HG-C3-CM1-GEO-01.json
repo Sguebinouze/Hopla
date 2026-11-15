@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM1-GEO-01",
+  "exemple": "Au petit déjeuner : du lait de la ferme voisine et du chocolat venu d’Afrique.",
+  "regle": "Un **produit agricole** vient directement de la ferme ; un **produit transformé** est fabriqué à partir de lui. Tous les habitants du monde ne mangent pas à leur faim : certains souffrent de **sous-nutrition**, d’autres d’une alimentation déséquilibrée.",
+  "piege": "Un produit transformé n’est pas forcément moins bon : le pain est un produit transformé.",
+  "essai": {
+    "consigne": "La confiture est…",
+    "options": [
+      "un produit transformé",
+      "un produit agricole",
+      "un minéral"
+    ],
+    "reponse": "un produit transformé",
+    "explication": "La confiture est fabriquée à partir de fruits : produit transformé."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

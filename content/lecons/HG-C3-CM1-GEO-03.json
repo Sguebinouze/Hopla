@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM1-GEO-03",
+  "exemple": "Léa va à l’école à pied. Son père prend le métro, puis le train.",
+  "regle": "On se déplace à pied, à vélo, en voiture, en métro, en train, en bateau ou en avion. Chaque mode a son **infrastructure** : route, voie cyclable, station, gare, port, aéroport. Une distance se mesure en **kilomètres** ou en **temps**.",
+  "piege": "Le plus court en kilomètres n’est pas toujours le plus rapide en temps.",
+  "essai": {
+    "consigne": "Où s’arrêtent les bateaux ?",
+    "options": [
+      "au port",
+      "à la gare",
+      "à l’aéroport"
+    ],
+    "reponse": "au port",
+    "explication": "Les bateaux s’arrêtent au port."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

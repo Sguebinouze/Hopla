@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-TER-01",
+  "exemple": "Chaque matin à 9 h, la classe relève la température et la pluie de la veille.",
+  "regle": "La **météorologie** étudie le temps qu’il fait. On mesure la **température** (thermomètre, en degrés), la **pluie** (pluviomètre, en millimètres), la vitesse du **vent** (anémomètre). On note les mesures dans un **tableau** ou un **graphique**.",
+  "piege": "La météo, c’est le temps d’un jour ; le climat, c’est le temps habituel sur de longues années.",
+  "essai": {
+    "consigne": "Quel instrument mesure la pluie ?",
+    "options": [
+      "le pluviomètre",
+      "l’anémomètre",
+      "le thermomètre"
+    ],
+    "reponse": "le pluviomètre",
+    "explication": "Le pluviomètre mesure la pluie tombée."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

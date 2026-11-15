@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-VIV-01",
+  "exemple": "Le pigeon a des plumes, le chat des poils : ils sont dans des groupes différents.",
+  "regle": "Une **espèce** regroupe des individus qui peuvent se reproduire entre eux. On **classe** les êtres vivants selon ce qu’ils **ont** : squelette interne (**vertébrés**), poils (**mammifères**), plumes (**oiseaux**). Les groupes sont **emboités**.",
+  "piege": "On classe selon ce que les êtres vivants ont, pas selon ce qu’ils font. La chauve-souris vole, mais c’est un mammifère.",
+  "essai": {
+    "consigne": "Le dauphin respire de l’air et allaite ses petits. C’est…",
+    "options": [
+      "un mammifère",
+      "un poisson",
+      "un oiseau"
+    ],
+    "reponse": "un mammifère",
+    "explication": "Le dauphin est un mammifère, pas un poisson."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

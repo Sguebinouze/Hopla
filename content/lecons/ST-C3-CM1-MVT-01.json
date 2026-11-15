@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-MVT-01",
+  "exemple": "Je chronomètre ma petite voiture : 2 mètres en 4 secondes.",
+  "regle": "Pour étudier un mouvement, on mesure une **distance** (mètre ruban, en mètres) et une **durée** (chronomètre, en secondes). Pour la même distance, le plus rapide met le moins de temps.",
+  "piege": "On ne compare la rapidité que si la distance ou la durée est la même.",
+  "essai": {
+    "consigne": "Avec quoi mesure-t-on une durée ?",
+    "options": [
+      "un chronomètre",
+      "une règle",
+      "un thermomètre"
+    ],
+    "reponse": "un chronomètre",
+    "explication": "Le chronomètre mesure une durée."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

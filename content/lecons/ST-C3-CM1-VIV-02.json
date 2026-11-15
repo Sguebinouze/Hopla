@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-VIV-02",
+  "exemple": "La cane couve ses œufs. La vache met au monde son veau.",
+  "regle": "Les animaux **ovipares** pondent des œufs ; les **vivipares** se développent dans le ventre de leur mère. Tout commence par la **fécondation**, **interne** (dans le corps de la femelle) ou **externe** (dans l’eau, comme chez la grenouille).",
+  "piege": "Tous les ovipares ne sont pas des oiseaux : la tortue, le serpent et la grenouille pondent aussi.",
+  "essai": {
+    "consigne": "La poule est…",
+    "options": [
+      "ovipare",
+      "vivipare",
+      "un mammifère"
+    ],
+    "reponse": "ovipare",
+    "explication": "La poule pond des œufs : elle est ovipare."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
