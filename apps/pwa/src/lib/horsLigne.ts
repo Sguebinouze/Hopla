@@ -3,14 +3,15 @@ import type { Api, Enfant, Resultat } from './donnees';
 
 // Mode hors connexion de l'enfant en session.
 // Lectures : la dernière réponse reçue est gardée sur l'appareil et resservie sans réseau.
-// Écritures : réponses aux questions, leçons vues et records attendent dans une file,
+// Écritures : réponses aux questions, leçons vues, records et parties de jeux attendent dans une file,
 // envoyée dès que le réseau revient (dans l'ordre, sans doublon).
 // Les packs de contenu et l'app elle-même sont mis en cache par le service worker.
 
 type Action =
   | { m: 'enregistrer'; r: Resultat }
   | { m: 'noterLecon'; c: string }
-  | { m: 'noterDefi'; d: string; s: number };
+  | { m: 'noterDefi'; d: string; s: number }
+  | { m: 'terminerJeu'; j: string; r: boolean };
 
 const PREFIXE = 'hopla.hors-ligne';
 
@@ -93,6 +94,7 @@ export function avecHorsLigne(api: Api): Api {
     enregistrer: api.enregistrer.bind(api),
     noterLecon: api.noterLecon.bind(api),
     noterDefi: api.noterDefi.bind(api),
+    terminerJeu: api.terminerJeu.bind(api),
   };
 
   /** Lecture : réseau d'abord, copie locale si le réseau manque. */
@@ -125,7 +127,8 @@ export function avecHorsLigne(api: Api): Api {
         try {
           if (a.m === 'enregistrer') await orig.enregistrer(a.r);
           else if (a.m === 'noterLecon') await orig.noterLecon(a.c);
-          else await orig.noterDefi(a.d, a.s);
+          else if (a.m === 'noterDefi') await orig.noterDefi(a.d, a.s);
+          else await orig.terminerJeu(a.j, a.r);
         } catch (e) {
           if (erreurReseau(e)) { majEtat({ horsLigne: true }); return; }
           // Refus du serveur (session expirée, donnée invalide) : on n'insiste pas pour cet élément.
@@ -167,6 +170,13 @@ export function avecHorsLigne(api: Api): Api {
     await ecriture({ m: 'noterDefi', d, s: sc }, async () => { reponse = await orig.noterDefi(d, sc); });
     if (s && nouveau) ecrire(cleCache(s, 'records'), { ...records, [d]: sc });
     return reponse ?? nouveau;
+  };
+
+  /** Sans réseau, la partie est notée plus tard ; les XP arrivent à l'envoi. */
+  api.terminerJeu = async (j, r) => {
+    let gain = 0;
+    await ecriture({ m: 'terminerJeu', j, r }, async () => { gain = await orig.terminerJeu(j, r); });
+    return gain;
   };
 
   if (typeof window !== 'undefined') {

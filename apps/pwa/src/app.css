@@ -263,3 +263,53 @@ a.hp-chip { text-decoration: none; }
 .clavier-code { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); }
 .code-visible { display: inline-flex; gap: var(--space-1); }
 .code-visible__case { width: 40px; height: 40px; border-radius: var(--radius-sm); background: var(--surface-2); display: grid; place-items: center; font-family: var(--font-display); font-size: 20px; font-weight: 600; }
+
+/* Jeux de réflexion et quiz de culture générale. */
+.jeux-accueil { display: flex; flex-direction: column; gap: var(--space-2); padding: var(--space-3) var(--space-4); }
+.jeux-accueil .titre-2 { margin: 0; }
+.jeux-accueil__liens { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); }
+.verrou { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-3); padding: var(--space-4); }
+.liste-jeux { display: flex; flex-direction: column; gap: var(--space-2); }
+.jeu-carte { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3); color: inherit; text-decoration: none; }
+.jeu-carte__icone { width: 44px; height: 44px; flex: none; border-radius: var(--radius-md); background: var(--octave-soft); color: var(--octave-ink); display: grid; place-items: center; }
+.jeu-fin, .jeu-manches, .jeu-plateau { display: flex; flex-direction: column; gap: var(--space-3); }
+.jeu-plateau { align-items: center; }
+.jeu-plateau > .hp-btn--ghost { align-self: center; }
+.suite { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); padding: var(--space-3); background: var(--surface-1); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); }
+.suite__terme { min-width: 48px; height: 48px; padding: 0 var(--space-2); border-radius: var(--radius-md); background: var(--surface-2); display: grid; place-items: center; font-family: var(--font-display); font-size: 22px; font-weight: 600; }
+.suite__terme--inconnu { background: var(--octave-soft); color: var(--octave-ink); }
+.grille-chiffres { display: grid; gap: 4px; width: min(100%, 360px); }
+.case { aspect-ratio: 1; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-1); color: var(--primary); font-family: var(--font-display); font-size: 24px; font-weight: 600; cursor: pointer; padding: 0; }
+.case--donnee { background: var(--surface-2); color: var(--ink); cursor: default; }
+.case--choisie { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary-soft); }
+.case--conflit { border-color: var(--attention); background: var(--attention-soft); color: var(--attention); }
+.case--bord-d { border-right: 4px solid var(--ink-muted); }
+.case--bord-b { border-bottom: 4px solid var(--ink-muted); }
+.grille-sommes { width: min(100%, 320px); }
+.somme { display: grid; place-items: center; font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--ink-muted); }
+.somme--juste { color: var(--success); }
+.somme--fausse { color: var(--attention); }
+.pave { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); max-width: 360px; }
+.pave__touche { width: 52px; height: 52px; border: 2px solid var(--line); border-radius: var(--radius-md); background: var(--surface-1); color: var(--ink); font-family: var(--font-display); font-size: 22px; font-weight: 600; box-shadow: var(--shadow-press); cursor: pointer; display: grid; place-items: center; }
+.memoire { display: grid; gap: var(--space-2); width: min(100%, 420px); }
+.carte { aspect-ratio: 1; border: 2px solid var(--line); border-radius: var(--radius-md); background: var(--octave-soft); color: var(--octave-ink); display: grid; place-items: center; cursor: pointer; box-shadow: var(--shadow-press); }
+.carte--visible { background: var(--surface-1); color: var(--ink); }
+.carte--trouvee { background: var(--success-soft); border-color: var(--success); color: var(--success); }
+.labyrinthe { display: grid; width: min(100%, 400px); aspect-ratio: 1; border: 2px solid var(--ink); background: var(--surface-1); touch-action: none; user-select: none; }
+.labyrinthe__case { display: grid; place-items: center; color: var(--sun-ink); }
+.mur-h { border-top: 2px solid var(--ink); }
+.mur-d { border-right: 2px solid var(--ink); }
+.mur-b { border-bottom: 2px solid var(--ink); }
+.mur-g { border-left: 2px solid var(--ink); }
+.labyrinthe__octave { width: 70%; height: 70%; border-radius: 50%; background: var(--octave); }
+.fleches { display: grid; grid-template-columns: repeat(3, var(--target-kid)); gap: var(--space-1); }
+.fleche--haut svg { transform: rotate(90deg); }
+.fleche--droite svg { transform: rotate(180deg); }
+.fleche--bas svg { transform: rotate(-90deg); }
+.mots-meles { display: grid; gap: 2px; width: min(100%, 420px); }
+.lettre { aspect-ratio: 1; border: 0; border-radius: var(--radius-sm); background: var(--surface-1); color: var(--ink); font-family: var(--font-display); font-weight: 600; font-size: clamp(13px, 4vw, 20px); padding: 0; cursor: pointer; }
+.lettre--trouvee { background: var(--success-soft); color: var(--success); }
+.lettre--debut { background: var(--primary); color: var(--on-primary); }
+.lettre--ratee { background: var(--attention-soft); }
+.mots-liste { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-1) var(--space-3); font-weight: 600; }
+.mot--trouve { text-decoration: line-through; color: var(--ink-muted); }

@@ -59,6 +59,8 @@ export interface Pack {
   classe: Classe;
   cycle: 2 | 3 | 4;
   defis: Defi[];
+  /** Culture générale (hors programme), banque du cycle de la classe. */
+  culture?: { id: string; theme: string; question: string; options: string[]; reponse: string; explication: string }[];
   matieres: {
     matiere: string;
     programme: { id: string; intitule: string; reference: string; verifie: boolean };

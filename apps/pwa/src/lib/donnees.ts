@@ -201,6 +201,8 @@ export interface Api {
   /** L'enfant choisit son avatar et l'apparence d'Octave. */
   reglerMonProfil(avatar: string, octave: string | null): Promise<void>;
   noterLecon(competence: string): Promise<void>;
+  /** Fin d'une partie de jeu ou du quiz de culture : XP gagnés (30 par jour au plus pour l'ensemble). */
+  terminerJeu(jeu: string, reussi: boolean): Promise<number>;
   /** Minutes de travail aujourd'hui (questions répondues). */
   minutesAujourdhui(): Promise<number>;
   // Espace admin : compte inscrit comme admin, mode parent ouvert (contrôlé en base).
@@ -447,6 +449,11 @@ function apiSupabase(url: string, cle: string): Api {
       if (error) throw error;
       return data === true;
     },
+    async terminerJeu(jeu, reussi) {
+      const { data, error } = await client.rpc('terminer_jeu', { p_jeu: jeu, p_reussi: reussi });
+      if (error) throw error;
+      return Number(data ?? 0);
+    },
     async controle(enfant) {
       const id = enfant ?? (await this.enfantCourant())?.id;
       if (!id) return null;
@@ -558,6 +565,7 @@ function apiSupabase(url: string, cle: string): Api {
         progression: await tout('progression_competences', 'enfant_id, competence_id, score, nb_essais, prochaine_revision, maj_le'),
         lecons_vues: await tout('lecons_vues', 'enfant_id, competence_id, vues, derniere_vue'),
         records_defis: await tout('records_defis', 'enfant_id, defi_id, record, maj_le'),
+        jeux: await tout('jeux_jour', 'enfant_id, jour, jeu, parties, reussies, xp'),
         controles: await tout('controles', 'enfant_id, date, notions, maj_le'),
         appareils: await tout('appareils', 'enfant_id, nom, cree_le, vu_le'),
       };
@@ -764,6 +772,16 @@ function apiDemo(): Api {
     async records() {
       const id = (await this.enfantCourant())?.id;
       return id ? lireDemo<Record<string, number>>(`hopla.defis.${id}`, {}) : {};
+    },
+    async terminerJeu(_jeu, reussi) {
+      const id = (await this.enfantCourant())?.id;
+      if (!id) return 0;
+      const cle = `hopla.demo-jeux.${id}.${auJour()}`;
+      const deja = lireDemo<number>(cle, 0);
+      const gain = Math.min(reussi ? 5 : 1, Math.max(0, 30 - deja));
+      ecrireDemo(cle, deja + gain);
+      ecrire(lire().map((e) => (e.id === id ? { ...e, xp: e.xp + gain } : e)));
+      return gain;
     },
     async noterDefi(defi, score) {
       const id = (await this.enfantCourant())?.id;

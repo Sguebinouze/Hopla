@@ -29,7 +29,8 @@ export function Confidentialite() {
           <li><strong>Pour chaque enfant :</strong> un prénom ou un pseudo, un avatar, une classe et l’apparence choisie pour Octave. Son code secret est protégé de la même façon.</li>
           <li>
             <strong>Son travail :</strong> les réponses choisies, les erreurs, le temps passé, la progression par notion,
-            les leçons consultées, les records de défis, le contrôle prévu et le cahier de vacances.
+            les leçons consultées, les records de défis, le contrôle prévu, le cahier de vacances,
+            et le nombre de parties de jeux et de quiz du jour.
           </li>
           <li><strong>Les appareils appairés :</strong> un nom générique (« iPhone », « Android ») et les dates d’utilisation.</li>
         </ul>

@@ -1,0 +1,950 @@
+{
+  "cycle": 2,
+  "questions": [
+    {
+      "id": "CG-C2-001",
+      "theme": "geographie",
+      "question": "Quelle est la capitale de la France ?",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Marseille"
+      ],
+      "reponse": "Paris",
+      "explication": "Paris est la capitale de la France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-002",
+      "theme": "geographie",
+      "question": "Quel est le plus grand océan ?",
+      "options": [
+        "le Pacifique",
+        "l’Atlantique",
+        "l’océan Indien"
+      ],
+      "reponse": "le Pacifique",
+      "explication": "Le Pacifique est le plus grand océan du monde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-003",
+      "theme": "geographie",
+      "question": "Sur quel continent se trouve la France ?",
+      "options": [
+        "l’Europe",
+        "l’Afrique",
+        "l’Asie"
+      ],
+      "reponse": "l’Europe",
+      "explication": "La France est un pays d’Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-004",
+      "theme": "geographie",
+      "question": "Quel fleuve traverse Paris ?",
+      "options": [
+        "la Seine",
+        "la Loire",
+        "le Rhône"
+      ],
+      "reponse": "la Seine",
+      "explication": "La Seine traverse Paris.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-005",
+      "theme": "geographie",
+      "question": "Quelle est la plus haute montagne des Alpes ?",
+      "options": [
+        "le mont Blanc",
+        "le mont Saint-Michel",
+        "le Vésuve"
+      ],
+      "reponse": "le mont Blanc",
+      "explication": "Le mont Blanc est le plus haut sommet des Alpes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-006",
+      "theme": "nature",
+      "question": "Combien de pattes a une araignée ?",
+      "options": [
+        "8",
+        "6",
+        "4"
+      ],
+      "reponse": "8",
+      "explication": "Une araignée a huit pattes. Un insecte en a six.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-007",
+      "theme": "nature",
+      "question": "Combien de pattes a un insecte ?",
+      "options": [
+        "6",
+        "8",
+        "10"
+      ],
+      "reponse": "6",
+      "explication": "Les insectes ont six pattes, comme la fourmi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-008",
+      "theme": "nature",
+      "question": "Que devient une chenille ?",
+      "options": [
+        "un papillon",
+        "une abeille",
+        "une coccinelle"
+      ],
+      "reponse": "un papillon",
+      "explication": "La chenille se transforme en papillon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-009",
+      "theme": "nature",
+      "question": "Quel animal pond des œufs ?",
+      "options": [
+        "la poule",
+        "la vache",
+        "le chat"
+      ],
+      "reponse": "la poule",
+      "explication": "La poule pond des œufs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-010",
+      "theme": "nature",
+      "question": "De quoi une plante a-t-elle besoin pour vivre ?",
+      "options": [
+        "d’eau et de lumière",
+        "de sucre seulement",
+        "de rien du tout"
+      ],
+      "reponse": "d’eau et de lumière",
+      "explication": "Une plante a besoin d’eau et de lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-011",
+      "theme": "nature",
+      "question": "La baleine est-elle un poisson ?",
+      "options": [
+        "Non, c’est un mammifère.",
+        "Oui, c’est un poisson.",
+        "Non, c’est un oiseau."
+      ],
+      "reponse": "Non, c’est un mammifère.",
+      "explication": "La baleine respire de l’air et allaite son petit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-012",
+      "theme": "nature",
+      "question": "Comment s’appelle le petit de la vache ?",
+      "options": [
+        "le veau",
+        "le poulain",
+        "l’agneau"
+      ],
+      "reponse": "le veau",
+      "explication": "Le petit de la vache est le veau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-013",
+      "theme": "nature",
+      "question": "Quel animal dort tout l’hiver ?",
+      "options": [
+        "la marmotte",
+        "le chien",
+        "la poule"
+      ],
+      "reponse": "la marmotte",
+      "explication": "La marmotte hiberne pendant l’hiver.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-014",
+      "theme": "nature",
+      "question": "Quel arbre donne des glands ?",
+      "options": [
+        "le chêne",
+        "le sapin",
+        "le pommier"
+      ],
+      "reponse": "le chêne",
+      "explication": "Les glands sont les fruits du chêne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-015",
+      "theme": "nature",
+      "question": "Quel est le plus grand animal du monde ?",
+      "options": [
+        "la baleine bleue",
+        "l’éléphant",
+        "la girafe"
+      ],
+      "reponse": "la baleine bleue",
+      "explication": "La baleine bleue est le plus grand animal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-016",
+      "theme": "nature",
+      "question": "Quel animal a un très long cou ?",
+      "options": [
+        "la girafe",
+        "le zèbre",
+        "le lion"
+      ],
+      "reponse": "la girafe",
+      "explication": "La girafe mange les feuilles en haut des arbres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-017",
+      "theme": "nature",
+      "question": "Quel oiseau ne vole pas et vit près du pôle Sud ?",
+      "options": [
+        "le manchot",
+        "le pigeon",
+        "l’aigle"
+      ],
+      "reponse": "le manchot",
+      "explication": "Le manchot nage très bien mais ne vole pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-018",
+      "theme": "nature",
+      "question": "Combien y a-t-il de saisons dans une année ?",
+      "options": [
+        "4",
+        "2",
+        "12"
+      ],
+      "reponse": "4",
+      "explication": "Printemps, été, automne et hiver : quatre saisons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-019",
+      "theme": "nature",
+      "question": "Quel animal fabrique le miel ?",
+      "options": [
+        "l’abeille",
+        "la mouche",
+        "le papillon"
+      ],
+      "reponse": "l’abeille",
+      "explication": "L’abeille fabrique le miel avec le nectar des fleurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-020",
+      "theme": "nature",
+      "question": "Où vit le poisson rouge ?",
+      "options": [
+        "dans l’eau",
+        "dans un nid",
+        "sous la terre"
+      ],
+      "reponse": "dans l’eau",
+      "explication": "Le poisson respire dans l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-021",
+      "theme": "espace",
+      "question": "Quelle étoile nous éclaire le jour ?",
+      "options": [
+        "le Soleil",
+        "la Lune",
+        "Mars"
+      ],
+      "reponse": "le Soleil",
+      "explication": "Le Soleil est une étoile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-022",
+      "theme": "espace",
+      "question": "Sur quelle planète vivons-nous ?",
+      "options": [
+        "la Terre",
+        "Mars",
+        "Jupiter"
+      ],
+      "reponse": "la Terre",
+      "explication": "Nous vivons sur la planète Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-023",
+      "theme": "espace",
+      "question": "Autour de quoi la Terre tourne-t-elle ?",
+      "options": [
+        "autour du Soleil",
+        "autour de la Lune",
+        "autour de Mars"
+      ],
+      "reponse": "autour du Soleil",
+      "explication": "En un an, la Terre fait le tour du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-024",
+      "theme": "espace",
+      "question": "Quel astronaute français est allé dans l’espace ?",
+      "options": [
+        "Thomas Pesquet",
+        "Victor Hugo",
+        "Louis Pasteur"
+      ],
+      "reponse": "Thomas Pesquet",
+      "explication": "Thomas Pesquet a vécu dans la Station spatiale internationale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-025",
+      "theme": "espace",
+      "question": "Que voit-on briller la nuit dans le ciel ?",
+      "options": [
+        "la Lune et les étoiles",
+        "le Soleil seulement",
+        "rien du tout"
+      ],
+      "reponse": "la Lune et les étoiles",
+      "explication": "La nuit, on voit la Lune et les étoiles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-026",
+      "theme": "sciences",
+      "question": "À quelle température l’eau gèle-t-elle ?",
+      "options": [
+        "0 °C",
+        "100 °C",
+        "20 °C"
+      ],
+      "reponse": "0 °C",
+      "explication": "L’eau devient de la glace à zéro degré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-027",
+      "theme": "sciences",
+      "question": "Que devient la glace quand elle chauffe ?",
+      "options": [
+        "de l’eau",
+        "du sable",
+        "du bois"
+      ],
+      "reponse": "de l’eau",
+      "explication": "La glace fond et devient de l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-028",
+      "theme": "sciences",
+      "question": "Avec quoi sent-on les odeurs ?",
+      "options": [
+        "le nez",
+        "les yeux",
+        "les oreilles"
+      ],
+      "reponse": "le nez",
+      "explication": "L’odorat est le sens du nez.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-029",
+      "theme": "sciences",
+      "question": "Combien de dents de lait a un enfant ?",
+      "options": [
+        "20",
+        "32",
+        "10"
+      ],
+      "reponse": "20",
+      "explication": "Un enfant a vingt dents de lait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-030",
+      "theme": "sciences",
+      "question": "Quel organe fait circuler le sang ?",
+      "options": [
+        "le cœur",
+        "l’estomac",
+        "les poumons"
+      ],
+      "reponse": "le cœur",
+      "explication": "Le cœur pompe le sang dans tout le corps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-031",
+      "theme": "sciences",
+      "question": "Avec quoi respire-t-on ?",
+      "options": [
+        "les poumons",
+        "le cœur",
+        "l’estomac"
+      ],
+      "reponse": "les poumons",
+      "explication": "L’air entre dans les poumons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-032",
+      "theme": "sciences",
+      "question": "Qu’attire un aimant ?",
+      "options": [
+        "le fer",
+        "le bois",
+        "le plastique"
+      ],
+      "reponse": "le fer",
+      "explication": "Un aimant attire les objets en fer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-033",
+      "theme": "sciences",
+      "question": "Combien de côtés a un triangle ?",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": "3",
+      "explication": "Un triangle a trois côtés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-034",
+      "theme": "arts",
+      "question": "Combien de notes dans « do, ré, mi, fa, sol, la, si » ?",
+      "options": [
+        "7",
+        "5",
+        "12"
+      ],
+      "reponse": "7",
+      "explication": "La gamme compte sept notes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-035",
+      "theme": "arts",
+      "question": "Quel mélange donne du vert ?",
+      "options": [
+        "bleu et jaune",
+        "rouge et blanc",
+        "noir et blanc"
+      ],
+      "reponse": "bleu et jaune",
+      "explication": "Bleu et jaune mélangés donnent du vert.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-036",
+      "theme": "arts",
+      "question": "Rouge et jaune mélangés donnent…",
+      "options": [
+        "de l’orange",
+        "du violet",
+        "du vert"
+      ],
+      "reponse": "de l’orange",
+      "explication": "Rouge et jaune donnent de l’orange.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-037",
+      "theme": "arts",
+      "question": "Noir et blanc mélangés donnent…",
+      "options": [
+        "du gris",
+        "du rose",
+        "du marron"
+      ],
+      "reponse": "du gris",
+      "explication": "Noir et blanc donnent du gris.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-038",
+      "theme": "arts",
+      "question": "Qui a peint La Joconde ?",
+      "options": [
+        "Léonard de Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "reponse": "Léonard de Vinci",
+      "explication": "Léonard de Vinci a peint La Joconde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-039",
+      "theme": "arts",
+      "question": "Quel instrument a des touches noires et blanches ?",
+      "options": [
+        "le piano",
+        "la flûte",
+        "le tambour"
+      ],
+      "reponse": "le piano",
+      "explication": "Le piano a des touches noires et blanches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-040",
+      "theme": "arts",
+      "question": "Comment s’appelle la grande tour en fer de Paris ?",
+      "options": [
+        "la tour Eiffel",
+        "la tour de Pise",
+        "Big Ben"
+      ],
+      "reponse": "la tour Eiffel",
+      "explication": "La tour Eiffel a été construite en 1889.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-041",
+      "theme": "langue",
+      "question": "Qui rencontre le loup en allant chez sa grand-mère ?",
+      "options": [
+        "le Petit Chaperon rouge",
+        "Cendrillon",
+        "Blanche-Neige"
+      ],
+      "reponse": "le Petit Chaperon rouge",
+      "explication": "C’est le conte du Petit Chaperon rouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-042",
+      "theme": "langue",
+      "question": "Combien de petits cochons y a-t-il dans le conte ?",
+      "options": [
+        "3",
+        "7",
+        "2"
+      ],
+      "reponse": "3",
+      "explication": "Les trois petits cochons construisent trois maisons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-043",
+      "theme": "langue",
+      "question": "Combien de nains vivent avec Blanche-Neige ?",
+      "options": [
+        "7",
+        "3",
+        "12"
+      ],
+      "reponse": "7",
+      "explication": "Blanche-Neige vit avec les sept nains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-044",
+      "theme": "langue",
+      "question": "Combien de lettres compte l’alphabet français ?",
+      "options": [
+        "26",
+        "24",
+        "30"
+      ],
+      "reponse": "26",
+      "explication": "L’alphabet a vingt-six lettres, de A à Z.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-045",
+      "theme": "langue",
+      "question": "Que veut dire « avoir un chat dans la gorge » ?",
+      "options": [
+        "avoir la voix enrouée",
+        "avoir très faim",
+        "être très triste"
+      ],
+      "reponse": "avoir la voix enrouée",
+      "explication": "On parle mal, comme si la gorge était bouchée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-046",
+      "theme": "langue",
+      "question": "Que veut dire « avoir une faim de loup » ?",
+      "options": [
+        "avoir très faim",
+        "avoir peur du loup",
+        "manger de la viande"
+      ],
+      "reponse": "avoir très faim",
+      "explication": "Le loup a la réputation d’avoir toujours faim.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-047",
+      "theme": "sport",
+      "question": "Combien de joueurs a une équipe de football sur le terrain ?",
+      "options": [
+        "11",
+        "5",
+        "15"
+      ],
+      "reponse": "11",
+      "explication": "Une équipe de football joue à onze.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-048",
+      "theme": "sport",
+      "question": "Avec quoi joue-t-on au tennis ?",
+      "options": [
+        "une raquette",
+        "une crosse",
+        "une batte"
+      ],
+      "reponse": "une raquette",
+      "explication": "Au tennis, on frappe la balle avec une raquette.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-049",
+      "theme": "sport",
+      "question": "Quel sport se joue sur la glace avec une crosse ?",
+      "options": [
+        "le hockey",
+        "le rugby",
+        "le judo"
+      ],
+      "reponse": "le hockey",
+      "explication": "Le hockey se joue sur la glace, en patins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-050",
+      "theme": "sport",
+      "question": "Tous les combien d’années ont lieu les Jeux olympiques d’été ?",
+      "options": [
+        "4 ans",
+        "1 an",
+        "10 ans"
+      ],
+      "reponse": "4 ans",
+      "explication": "Les Jeux olympiques d’été ont lieu tous les quatre ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-051",
+      "theme": "inventions",
+      "question": "Qui a inventé l’écriture pour les aveugles ?",
+      "options": [
+        "Louis Braille",
+        "Louis Pasteur",
+        "Jules Verne"
+      ],
+      "reponse": "Louis Braille",
+      "explication": "L’alphabet braille se lit avec les doigts.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-052",
+      "theme": "inventions",
+      "question": "À quoi sert un thermomètre ?",
+      "options": [
+        "mesurer la température",
+        "donner l’heure",
+        "peser"
+      ],
+      "reponse": "mesurer la température",
+      "explication": "Le thermomètre indique s’il fait chaud ou froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-053",
+      "theme": "inventions",
+      "question": "Quel moyen de transport roule sur des rails ?",
+      "options": [
+        "le train",
+        "l’avion",
+        "le bateau"
+      ],
+      "reponse": "le train",
+      "explication": "Le train roule sur des rails.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-054",
+      "theme": "monde",
+      "question": "Combien de mois compte une année ?",
+      "options": [
+        "12",
+        "10",
+        "7"
+      ],
+      "reponse": "12",
+      "explication": "Une année compte douze mois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-055",
+      "theme": "monde",
+      "question": "Combien de jours compte une semaine ?",
+      "options": [
+        "7",
+        "5",
+        "10"
+      ],
+      "reponse": "7",
+      "explication": "Une semaine compte sept jours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-056",
+      "theme": "monde",
+      "question": "Combien de minutes compte une heure ?",
+      "options": [
+        "60",
+        "100",
+        "30"
+      ],
+      "reponse": "60",
+      "explication": "Une heure compte soixante minutes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-057",
+      "theme": "monde",
+      "question": "Quelles sont les couleurs du drapeau français ?",
+      "options": [
+        "bleu, blanc, rouge",
+        "vert, blanc, rouge",
+        "noir, rouge, jaune"
+      ],
+      "reponse": "bleu, blanc, rouge",
+      "explication": "Le drapeau français est bleu, blanc, rouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-058",
+      "theme": "monde",
+      "question": "Quel est le premier mois de l’année ?",
+      "options": [
+        "janvier",
+        "mars",
+        "septembre"
+      ],
+      "reponse": "janvier",
+      "explication": "L’année commence le 1er janvier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-059",
+      "theme": "monde",
+      "question": "Que fête-t-on en France le 14 juillet ?",
+      "options": [
+        "la fête nationale",
+        "Noël",
+        "le jour de l’an"
+      ],
+      "reponse": "la fête nationale",
+      "explication": "Le 14 juillet est la fête nationale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-060",
+      "theme": "histoire",
+      "question": "Au Moyen Âge, qui vivait dans un château fort ?",
+      "options": [
+        "un seigneur",
+        "un astronaute",
+        "un dinosaure"
+      ],
+      "reponse": "un seigneur",
+      "explication": "Le seigneur protégeait ses terres depuis son château.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-061",
+      "theme": "histoire",
+      "question": "Les dinosaures ont-ils vécu avec les premiers humains ?",
+      "options": [
+        "Non, ils ont disparu bien avant.",
+        "Oui, ensemble.",
+        "Oui, mais seulement en France."
+      ],
+      "reponse": "Non, ils ont disparu bien avant.",
+      "explication": "Ils ont disparu bien avant l’apparition des humains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-062",
+      "theme": "histoire",
+      "question": "Où les hommes préhistoriques peignaient-ils ?",
+      "options": [
+        "dans des grottes",
+        "dans des musées",
+        "dans des écoles"
+      ],
+      "reponse": "dans des grottes",
+      "explication": "On trouve leurs peintures sur les parois des grottes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C2-063",
+      "theme": "histoire",
+      "question": "Quel animal tirait les charrettes autrefois ?",
+      "options": [
+        "le cheval",
+        "le chat",
+        "le lapin"
+      ],
+      "reponse": "le cheval",
+      "explication": "Le cheval tirait les charrettes et les charrues.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

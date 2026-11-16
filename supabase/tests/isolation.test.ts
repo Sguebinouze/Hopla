@@ -359,6 +359,26 @@ describe('sessions et isolation', () => {
     expect(await en(lea_, `select * from public.cahiers_vacances`)).toEqual([]);
   });
 
+  it('jeux : XP plafonnés à 30 par jour, parties visibles par l’enfant et sa famille seulement', async () => {
+    const modeB = await ouvrirModeB();
+    const lea_ = { parent: PARENT_A, enfant: sessionLea };
+    const xpAvant = (await une<number>({ parent: PARENT_A, parentMode: modeA }, `select xp from public.enfants where id = $1`, [lea]))!.xp!;
+    const gains: number[] = [];
+    for (let i = 0; i < 7; i++) gains.push((await une<number>(lea_, `select public.terminer_jeu('sudoku', true) as g`))!.g!);
+    gains.push((await une<number>(lea_, `select public.terminer_jeu('culture', false) as g`))!.g!);
+    expect(gains).toEqual([5, 5, 5, 5, 5, 5, 0, 0]);
+    expect((await une<number>({ parent: PARENT_A, parentMode: modeA }, `select xp from public.enfants where id = $1`, [lea]))!.xp).toBe(xpAvant + 30);
+    expect(await en(lea_, `select jeu, parties, reussies, xp from public.jeux_jour order by jeu`))
+      .toEqual([{ jeu: 'culture', parties: 1, reussies: 0, xp: 0 }, { jeu: 'sudoku', parties: 7, reussies: 7, xp: 30 }]);
+    await expect(en(lea_, `select public.terminer_jeu('poker', true)`)).rejects.toThrow(/Jeu inconnu/);
+    await expect(en(lea_, `insert into public.jeux_jour (enfant_id, jeu, xp) values ($1, 'sudoku', 500)`, [lea])).rejects.toThrow(/permission denied/);
+    await expect(en({ parent: PARENT_A }, `select public.terminer_jeu('sudoku', true)`)).rejects.toThrow(/Session enfant requise/);
+    expect((await en({ parent: PARENT_A, parentMode: modeA }, `select jeu from public.jeux_jour`)).length).toBe(2);
+    expect(await en({ parent: PARENT_A }, `select * from public.jeux_jour`)).toEqual([]);
+    expect(await en({ parent: PARENT_B, parentMode: modeB }, `select * from public.jeux_jour`)).toEqual([]);
+    expect(await surAppareil(null, `select * from public.jeux_jour`)).toEqual([]);
+  });
+
   it('suppression du compte : les enfants restent si un autre parent est membre, sinon tout part', async () => {
     await expect(en({ parent: PARENT_C }, `select public.supprimer_mon_compte()`)).rejects.toThrow(/Mode parent requis/);
     const modeC = (await une<string>({ parent: PARENT_C }, `select public.ouvrir_mode_parent('7777') as j`))!.j!;

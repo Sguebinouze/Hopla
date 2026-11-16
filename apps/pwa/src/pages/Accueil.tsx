@@ -13,6 +13,7 @@ import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
 import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
 import { aujourdhui, bilan, etat, type Suivi } from '../lib/progression';
 import { dateLisible } from '../lib/entrainement';
+import { missionFaite } from '../jeux/regles';
 import type { Cahier, ControlePrevu } from '../lib/donnees';
 
 const COULEUR_MATIERE: Record<string, string> = {
@@ -33,6 +34,7 @@ export function Accueil() {
   const [mesRecords, setMesRecords] = useState<Record<string, number>>({});
   const [cahier, setCahier] = useState<Cahier | null>(null);
   const [cahierFaites, setCahierFaites] = useState(0);
+  const [missionOk, setMissionOk] = useState(false);
 
   useEffect(() => {
     void (async () => {
@@ -48,6 +50,8 @@ export function Accueil() {
         setSuivi(await api.progression().catch(() => ({})));
         setPrevu(await api.controle().catch(() => null));
         setMesRecords(await api.records().catch(() => ({})));
+        const jourJ = aujourdhui();
+        setMissionOk(missionFaite((await api.mesJournees(1).catch(() => [])).filter((j) => j.jour === jourJ), competencesJouables(p).length));
         const c = await api.cahier().catch(() => null);
         if (c) {
           const jour = aujourdhui();
@@ -79,6 +83,9 @@ export function Accueil() {
   const niveau = Math.floor(enfant.xp / XP_PAR_NIVEAU) + 1;
   const dansNiveau = enfant.xp % XP_PAR_NIVEAU;
   const mission = pack ? missionDuJour(pack, suivi, new Date(), prevu?.notions) : [];
+  const masquees = enfant.matieres_masquees ?? [];
+  const jeuxActifs = !masquees.includes('jeux');
+  const cultureActive = !masquees.includes('culture') && (pack?.culture?.length ?? 0) > 0;
 
   return (
     <main className="ecran">
@@ -136,6 +143,24 @@ export function Accueil() {
       </section>
 
       <DefiFamille />
+
+      {pack && (jeuxActifs || cultureActive) && (
+        <section className="hp-card jeux-accueil">
+          <div className="ligne">
+            <Icone nom="coupe" />
+            <h2 className="titre-2 pousse">Jeux et quiz</h2>
+            {!missionOk && <span className="hp-chip hp-chip--neutral"><Icone nom="cadenas" taille={14} />Après la mission</span>}
+          </div>
+          {missionOk ? (
+            <div className="jeux-accueil__liens">
+              {cultureActive && <Link to="/culture" className="hp-btn hp-btn--reward">Quiz du jour</Link>}
+              {jeuxActifs && <Link to="/jeux" className="hp-btn hp-btn--secondary">Jeux</Link>}
+            </div>
+          ) : (
+            <p className="muet">Termine ta mission du jour pour ouvrir {cultureActive ? 'le quiz de culture générale et ' : ''}les jeux de réflexion.</p>
+          )}
+        </section>
+      )}
 
       {pack && (
         <>

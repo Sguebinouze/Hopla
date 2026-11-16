@@ -124,6 +124,32 @@ export const leconSchema = z
     message: 'une leçon relue ou publiée doit indiquer relu_par',
   });
 export type Lecon = z.infer<typeof leconSchema>;
+
+// Culture générale (hors programme) : une banque de questions par cycle, quiz de 5 questions par jour.
+export const THEMES_CULTURE = [
+  'geographie', 'histoire', 'sciences', 'nature', 'espace', 'arts', 'langue', 'sport', 'inventions', 'monde',
+] as const;
+export const questionCultureSchema = z
+  .object({
+    id: z.string().regex(/^CG-C[234]-\d{3}$/),
+    theme: z.enum(THEMES_CULTURE),
+    question: z.string().min(1).max(160),
+    options: z.array(z.string().min(1)).min(3).max(4),
+    reponse: z.string().min(1),
+    explication: z.string().min(1).max(240),
+    statut: z.enum(['brouillon', 'relu', 'publie']),
+    auteur: z.enum(['humain', 'ia']),
+    relu_par: z.string().nullable(),
+  })
+  .refine((q) => q.statut === 'brouillon' || q.relu_par !== null, {
+    message: 'une question relue ou publiée doit indiquer relu_par',
+  });
+export const banqueCultureSchema = z.object({
+  cycle: z.union([z.literal(2), z.literal(3), z.literal(4)]),
+  questions: z.array(questionCultureSchema).min(1),
+});
+export type QuestionCulture = z.infer<typeof questionCultureSchema>;
+export type BanqueCulture = z.infer<typeof banqueCultureSchema>;
 export type Banque = z.infer<typeof banqueSchema>;
 
 // Défi de fluence : le plus de bonnes réponses en temps limité, sur des faits à automatiser.

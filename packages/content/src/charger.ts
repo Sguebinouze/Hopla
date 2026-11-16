@@ -3,8 +3,8 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { z } from 'zod';
 import {
-  banqueSchema, defiSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
-  type Banque, type Defi, type Lecon, type Programme, type Referentiel, type Source,
+  banqueCultureSchema, banqueSchema, defiSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
+  type Banque, type BanqueCulture, type Defi, type Lecon, type Programme, type Referentiel, type Source,
 } from './schemas';
 
 export const RACINE_DEPOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
@@ -17,6 +17,7 @@ export interface Contenu {
   banques: (Banque & { fichier: string })[];
   lecons: (Lecon & { fichier: string })[];
   defis: Defi[];
+  culture: (BanqueCulture & { fichier: string })[];
 }
 
 export interface ErreurChargement {
@@ -75,5 +76,10 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     ? lire(join(racine, 'fluence', 'defis.json'), defiSchema.array()) ?? []
     : [];
 
-  return { contenu: { sources, programmes, referentiels, banques, lecons, defis }, erreurs };
+  const culture = fichiersJson(join(racine, 'culture')).flatMap((f) => {
+    const b = lire(f, banqueCultureSchema);
+    return b ? [{ ...b, fichier: relative(racine, f) }] : [];
+  });
+
+  return { contenu: { sources, programmes, referentiels, banques, lecons, defis, culture }, erreurs };
 }

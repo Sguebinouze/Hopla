@@ -34,6 +34,7 @@ function fausseApi() {
     },
     async noterLecon(c: string) { panne(); etat.recus.push(`lecon:${c}`); },
     async noterDefi(d: string, s: number) { panne(); etat.recus.push(`defi:${d}:${s}`); return true; },
+    async terminerJeu(j: string, r: boolean) { panne(); etat.recus.push(`jeu:${j}:${r}`); return r ? 5 : 1; },
   } as unknown as Api;
   return { api: avecHorsLigne(api), etat };
 }
@@ -100,6 +101,17 @@ describe('mode hors connexion', () => {
     await api.records();
     await new Promise((f) => setTimeout(f, 0));
     expect(etat.recus).toEqual(['defi:tables:6', 'defi:tables:5']);
+  });
+
+  it('partie de jeu sans réseau : notée plus tard, XP crédités à l’envoi', async () => {
+    const { api, etat } = fausseApi();
+    expect(await api.terminerJeu('sudoku', true)).toBe(5);
+    etat.reseau = false;
+    expect(await api.terminerJeu('memoire', true)).toBe(0);
+    etat.reseau = true;
+    await api.records();
+    await new Promise((f) => setTimeout(f, 0));
+    expect(etat.recus).toEqual(['jeu:sudoku:true', 'jeu:memoire:true']);
   });
 
   it('chaque profil a sa propre file et ses propres copies', async () => {

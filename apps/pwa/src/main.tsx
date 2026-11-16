@@ -29,6 +29,8 @@ import { Connexion } from './pages/Connexion';
 import { Demarrer } from './pages/Demarrer';
 import { Profils } from './pages/Profils';
 import { Resultat } from './pages/Resultat';
+import { Culture } from './pages/Culture';
+import { Jeu, Jeux } from './pages/Jeux';
 
 // Espace admin : module séparé, chargé seulement quand on ouvre /admin.
 const Relecture = lazy(() => import('./pages/admin/Relecture'));
@@ -50,6 +52,9 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/profil" element={<Profil />} />
         <Route path="/cahier" element={<Cahier />} />
         <Route path="/photo" element={<PhotoLecon />} />
+        <Route path="/jeux" element={<Jeux />} />
+        <Route path="/jeux/:jeu" element={<Jeu />} />
+        <Route path="/culture" element={<Culture />} />
         <Route path="/confidentialite" element={<Confidentialite />} />
         <Route path="/connexion" element={<Connexion />} />
         <Route path="/demarrer" element={<Demarrer />} />

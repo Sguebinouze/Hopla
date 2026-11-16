@@ -195,6 +195,26 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
     if (d.source && !contenu.sources.some((s) => s.id === d.source!.id)) erreur(ici, `source inconnue : ${d.source.id}`);
   }
 
+  // Culture générale : un fichier par cycle, identifiants uniques, réponse parmi les options, rédaction du cycle.
+  const cyclesCulture = new Set<number>();
+  const idsCulture: string[] = [];
+  for (const b of contenu.culture) {
+    if (cyclesCulture.has(b.cycle)) erreur(b.fichier, `deux banques de culture pour le cycle ${b.cycle}`);
+    cyclesCulture.add(b.cycle);
+    for (const q of b.questions) {
+      idsCulture.push(q.id);
+      if (!q.id.startsWith(`CG-C${b.cycle}-`)) erreur(q.id, `l'identifiant doit commencer par CG-C${b.cycle}-`);
+      if (new Set(q.options).size !== q.options.length) erreur(q.id, 'options en double');
+      if (!q.options.includes(q.reponse)) erreur(q.id, 'la réponse ne fait pas partie des options');
+      for (const [champ, texte] of [['question', q.question], ['explication', q.explication]] as const) {
+        for (const pb of verifierTexte(texte, b.cycle)) {
+          (pb.niveau === 'erreur' ? erreur : alerte)(`${q.id} (${champ})`, pb.message);
+        }
+      }
+    }
+  }
+  unicite(idsCulture, 'question de culture');
+
   const couvertes = new Set([...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences)]);
   for (const id of competences.keys()) if (!couvertes.has(id)) alerte(id, 'aucun exercice ni générateur');
 

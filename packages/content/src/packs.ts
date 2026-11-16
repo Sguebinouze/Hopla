@@ -1,6 +1,6 @@
 import { GENERATEURS } from '@hopla/generateurs';
 import type { Contenu } from './charger';
-import { CLASSES, CYCLE_DE, type Classe, type Defi, type Exercice, type Lecon } from './schemas';
+import { CLASSES, CYCLE_DE, type Classe, type Defi, type Exercice, type Lecon, type QuestionCulture } from './schemas';
 import { programmesApplicables } from './verifier';
 
 export interface Pack {
@@ -27,6 +27,8 @@ export interface Pack {
       lecon: Pick<Lecon, 'exemple' | 'regle' | 'piege' | 'essai' | 'statut'> | null;
     }[];
   }[];
+  /** Culture générale (hors programme) du cycle de la classe. */
+  culture: Pick<QuestionCulture, 'id' | 'theme' | 'question' | 'options' | 'reponse' | 'explication'>[];
 }
 
 export function construirePacks(
@@ -47,6 +49,10 @@ export function construirePacks(
       defis: contenu.defis.filter((d) => d.classe === classe).map(({ classe: _c, source, ...d }) => ({
         ...d, source: source ? { id: source.id, page: source.page } : null,
       })),
+      culture: contenu.culture
+        .filter((b) => b.cycle === CYCLE_DE[classe])
+        .flatMap((b) => b.questions.filter((q) => statuts.has(q.statut)))
+        .map(({ id, theme, question, options, reponse, explication }) => ({ id, theme, question, options, reponse, explication })),
       matieres: programmes.map((p) => {
         const ref = contenu.referentiels.find((r) => r.programme === p.id && r.classe === classe);
         return {

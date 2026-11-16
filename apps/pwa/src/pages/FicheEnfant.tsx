@@ -324,6 +324,20 @@ function Reglages({ suivi, pack, appareils, onChange, onSupprime }: {
             </div>
           </fieldset>
         )}
+        <fieldset className="fiche__groupe">
+          <legend>Après la mission du jour</legend>
+          <div className="fiche__puces">
+            {([['culture', 'Quiz de culture générale'], ['jeux', 'Jeux de réflexion']] as const).map(([id, nom]) => {
+              const active = !r.matieres_masquees.includes(id);
+              return (
+                <button key={id} type="button" role="checkbox" aria-checked={active}
+                  className={`hp-chip ${active ? 'hp-chip--primary' : 'hp-chip--neutral'}`} onClick={() => basculer(id)}>
+                  {active && <Icone nom="coche" taille={16} />}{nom}
+                </button>
+              );
+            })}
+          </div>
+        </fieldset>
         <label>Temps de travail par jour
           <select value={r.minutes_par_jour ?? ''} onChange={(e) => setR({ ...r, minutes_par_jour: e.target.value ? Number(e.target.value) : null })}>
             {LIMITES.map((l) => <option key={l ?? 'aucune'} value={l ?? ''}>{l ? `${l} minutes` : 'Pas de limite'}</option>)}

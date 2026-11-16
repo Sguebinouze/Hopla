@@ -1,0 +1,1010 @@
+{
+  "cycle": 3,
+  "questions": [
+    {
+      "id": "CG-C3-001",
+      "theme": "geographie",
+      "question": "Quelle est la capitale de l’Italie ?",
+      "options": [
+        "Rome",
+        "Milan",
+        "Venise"
+      ],
+      "reponse": "Rome",
+      "explication": "Rome est la capitale de l’Italie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-002",
+      "theme": "geographie",
+      "question": "Quel est le plus long fleuve de France ?",
+      "options": [
+        "la Loire",
+        "la Seine",
+        "la Garonne"
+      ],
+      "reponse": "la Loire",
+      "explication": "La Loire mesure environ 1 000 km. C’est le plus long fleuve de France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-003",
+      "theme": "geographie",
+      "question": "Quel est le plus haut sommet du monde ?",
+      "options": [
+        "l’Everest",
+        "le mont Blanc",
+        "le Kilimandjaro"
+      ],
+      "reponse": "l’Everest",
+      "explication": "L’Everest, dans l’Himalaya, dépasse 8 800 mètres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-004",
+      "theme": "geographie",
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "options": [
+        "le Sahara",
+        "le désert de Gobi",
+        "l’Atacama"
+      ],
+      "reponse": "le Sahara",
+      "explication": "Le Sahara couvre une grande partie du nord de l’Afrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-005",
+      "theme": "geographie",
+      "question": "Quelle mer sépare la France de l’Angleterre ?",
+      "options": [
+        "la Manche",
+        "la Méditerranée",
+        "la mer Baltique"
+      ],
+      "reponse": "la Manche",
+      "explication": "La Manche sépare la France du Royaume-Uni. Un tunnel passe dessous.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-006",
+      "theme": "geographie",
+      "question": "Quelle chaîne de montagnes sépare la France de l’Espagne ?",
+      "options": [
+        "les Pyrénées",
+        "les Alpes",
+        "le Jura"
+      ],
+      "reponse": "les Pyrénées",
+      "explication": "Les Pyrénées forment la frontière entre la France et l’Espagne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-007",
+      "theme": "geographie",
+      "question": "Quel pays a la forme d’une botte ?",
+      "options": [
+        "l’Italie",
+        "la Grèce",
+        "le Portugal"
+      ],
+      "reponse": "l’Italie",
+      "explication": "Sur une carte, l’Italie ressemble à une botte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-008",
+      "theme": "geographie",
+      "question": "Dans quel pays se trouve la Grande Muraille ?",
+      "options": [
+        "en Chine",
+        "au Japon",
+        "en Inde"
+      ],
+      "reponse": "en Chine",
+      "explication": "La Grande Muraille de Chine s’étend sur des milliers de kilomètres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-009",
+      "theme": "geographie",
+      "question": "Quelle est la capitale de l’Espagne ?",
+      "options": [
+        "Madrid",
+        "Barcelone",
+        "Séville"
+      ],
+      "reponse": "Madrid",
+      "explication": "Madrid est la capitale de l’Espagne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-010",
+      "theme": "geographie",
+      "question": "Quel océan borde la côte ouest de la France ?",
+      "options": [
+        "l’océan Atlantique",
+        "l’océan Pacifique",
+        "l’océan Indien"
+      ],
+      "reponse": "l’océan Atlantique",
+      "explication": "La côte ouest de la France donne sur l’Atlantique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-011",
+      "theme": "geographie",
+      "question": "Dans quel pays vivent les kangourous à l’état sauvage ?",
+      "options": [
+        "en Australie",
+        "au Brésil",
+        "au Canada"
+      ],
+      "reponse": "en Australie",
+      "explication": "Le kangourou est un animal d’Australie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-012",
+      "theme": "histoire",
+      "question": "En quelle année a eu lieu la prise de la Bastille ?",
+      "options": [
+        "1789",
+        "1515",
+        "1914"
+      ],
+      "reponse": "1789",
+      "explication": "Le 14 juillet 1789 marque le début de la Révolution française.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-013",
+      "theme": "histoire",
+      "question": "Qui a été sacré empereur des Français en 1804 ?",
+      "options": [
+        "Napoléon Bonaparte",
+        "Louis XIV",
+        "Charlemagne"
+      ],
+      "reponse": "Napoléon Bonaparte",
+      "explication": "Napoléon Bonaparte devient l’empereur Napoléon Ier en 1804.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-014",
+      "theme": "histoire",
+      "question": "Quel roi était surnommé le Roi-Soleil ?",
+      "options": [
+        "Louis XIV",
+        "Louis XVI",
+        "Henri IV"
+      ],
+      "reponse": "Louis XIV",
+      "explication": "Louis XIV a fait construire le château de Versailles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-015",
+      "theme": "histoire",
+      "question": "Qui a résisté à Jules César à Alésia ?",
+      "options": [
+        "Vercingétorix",
+        "Clovis",
+        "Astérix"
+      ],
+      "reponse": "Vercingétorix",
+      "explication": "Le chef gaulois Vercingétorix se rend à César en 52 avant J.-C.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-016",
+      "theme": "histoire",
+      "question": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+      "options": [
+        "en Égypte",
+        "au Mexique",
+        "en Grèce"
+      ],
+      "reponse": "en Égypte",
+      "explication": "Les pyramides de Gizeh sont des tombeaux de pharaons égyptiens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-017",
+      "theme": "histoire",
+      "question": "Qui fut le premier homme à marcher sur la Lune ?",
+      "options": [
+        "Neil Armstrong",
+        "Youri Gagarine",
+        "Thomas Pesquet"
+      ],
+      "reponse": "Neil Armstrong",
+      "explication": "Neil Armstrong a marché sur la Lune en 1969.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-018",
+      "theme": "histoire",
+      "question": "Quelle jeune femme a combattu pendant la guerre de Cent Ans ?",
+      "options": [
+        "Jeanne d’Arc",
+        "Marie Curie",
+        "Marie-Antoinette"
+      ],
+      "reponse": "Jeanne d’Arc",
+      "explication": "Jeanne d’Arc a mené l’armée du roi Charles VII.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-019",
+      "theme": "histoire",
+      "question": "Quel empereur a été couronné en l’an 800 ?",
+      "options": [
+        "Charlemagne",
+        "Napoléon",
+        "Jules César"
+      ],
+      "reponse": "Charlemagne",
+      "explication": "Charlemagne est couronné empereur à Rome en 800.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-020",
+      "theme": "histoire",
+      "question": "Que commémore-t-on le 11 novembre ?",
+      "options": [
+        "la fin de la Première Guerre mondiale",
+        "la prise de la Bastille",
+        "la fin des vacances"
+      ],
+      "reponse": "la fin de la Première Guerre mondiale",
+      "explication": "L’armistice du 11 novembre 1918 met fin aux combats.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-021",
+      "theme": "histoire",
+      "question": "Qui a rendu l’école gratuite et obligatoire en France ?",
+      "options": [
+        "Jules Ferry",
+        "Victor Hugo",
+        "Louis XIV"
+      ],
+      "reponse": "Jules Ferry",
+      "explication": "Les lois Jules Ferry datent de 1881 et 1882.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-022",
+      "theme": "histoire",
+      "question": "Où se trouve la célèbre grotte ornée de Lascaux ?",
+      "options": [
+        "en Dordogne",
+        "en Bretagne",
+        "en Alsace"
+      ],
+      "reponse": "en Dordogne",
+      "explication": "La grotte de Lascaux contient des peintures préhistoriques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-023",
+      "theme": "sciences",
+      "question": "À quelle température l’eau bout-elle au niveau de la mer ?",
+      "options": [
+        "100 °C",
+        "50 °C",
+        "0 °C"
+      ],
+      "reponse": "100 °C",
+      "explication": "L’eau pure bout à 100 °C au niveau de la mer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-024",
+      "theme": "sciences",
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "options": [
+        "la peau",
+        "le cœur",
+        "le foie"
+      ],
+      "reponse": "la peau",
+      "explication": "La peau recouvre tout le corps : c’est le plus grand organe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-025",
+      "theme": "sciences",
+      "question": "Combien d’os compte le squelette d’un adulte ?",
+      "options": [
+        "206",
+        "50",
+        "1 000"
+      ],
+      "reponse": "206",
+      "explication": "Un adulte a 206 os. Un bébé en a davantage, qui se soudent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-026",
+      "theme": "sciences",
+      "question": "Pourquoi voit-on l’éclair avant d’entendre le tonnerre ?",
+      "options": [
+        "La lumière va plus vite que le son.",
+        "Le tonnerre part plus tard.",
+        "Les yeux sont plus près du ciel."
+      ],
+      "reponse": "La lumière va plus vite que le son.",
+      "explication": "La lumière est presque instantanée, le son met du temps à arriver.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-027",
+      "theme": "sciences",
+      "question": "Quel gaz les plantes rejettent-elles à la lumière ?",
+      "options": [
+        "le dioxygène",
+        "le dioxyde de carbone",
+        "l’hélium"
+      ],
+      "reponse": "le dioxygène",
+      "explication": "Grâce à la photosynthèse, les plantes rejettent du dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-028",
+      "theme": "sciences",
+      "question": "Que signifie la formule H₂O ?",
+      "options": [
+        "l’eau",
+        "le sel",
+        "l’air"
+      ],
+      "reponse": "l’eau",
+      "explication": "H₂O : deux atomes d’hydrogène et un atome d’oxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-029",
+      "theme": "espace",
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "options": [
+        "Mercure",
+        "Vénus",
+        "Mars"
+      ],
+      "reponse": "Mercure",
+      "explication": "Mercure est la planète la plus proche du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-030",
+      "theme": "espace",
+      "question": "Quelle est la plus grosse planète du système solaire ?",
+      "options": [
+        "Jupiter",
+        "Saturne",
+        "la Terre"
+      ],
+      "reponse": "Jupiter",
+      "explication": "Jupiter est une planète gazeuse géante.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-031",
+      "theme": "espace",
+      "question": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "Mars",
+        "Vénus",
+        "Neptune"
+      ],
+      "reponse": "Mars",
+      "explication": "Le sol de Mars contient de l’oxyde de fer, qui lui donne sa couleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-032",
+      "theme": "espace",
+      "question": "En combien de temps la Terre fait-elle un tour sur elle-même ?",
+      "options": [
+        "environ 24 heures",
+        "un an",
+        "une semaine"
+      ],
+      "reponse": "environ 24 heures",
+      "explication": "Un tour sur elle-même dure environ 24 heures : c’est une journée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-033",
+      "theme": "espace",
+      "question": "Quelle planète est entourée de grands anneaux visibles ?",
+      "options": [
+        "Saturne",
+        "Mars",
+        "Mercure"
+      ],
+      "reponse": "Saturne",
+      "explication": "Les anneaux de Saturne sont faits de glace et de roches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-034",
+      "theme": "nature",
+      "question": "Quel est l’animal terrestre le plus rapide ?",
+      "options": [
+        "le guépard",
+        "le lion",
+        "le cheval"
+      ],
+      "reponse": "le guépard",
+      "explication": "Le guépard peut dépasser 100 km/h sur une courte distance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-035",
+      "theme": "nature",
+      "question": "La chauve-souris est…",
+      "options": [
+        "un mammifère",
+        "un oiseau",
+        "un insecte"
+      ],
+      "reponse": "un mammifère",
+      "explication": "La chauve-souris a des poils et allaite ses petits.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-036",
+      "theme": "nature",
+      "question": "De quel groupe d’animaux descendent les oiseaux ?",
+      "options": [
+        "des dinosaures",
+        "des poissons",
+        "des insectes"
+      ],
+      "reponse": "des dinosaures",
+      "explication": "Les oiseaux descendent de petits dinosaures à plumes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-037",
+      "theme": "nature",
+      "question": "Quel animal change de couleur pour se camoufler ?",
+      "options": [
+        "le caméléon",
+        "le crocodile",
+        "la tortue"
+      ],
+      "reponse": "le caméléon",
+      "explication": "Le caméléon change de couleur selon son humeur et son milieu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-038",
+      "theme": "nature",
+      "question": "Quel animal est le symbole de la Chine et mange du bambou ?",
+      "options": [
+        "le panda géant",
+        "le koala",
+        "l’ours brun"
+      ],
+      "reponse": "le panda géant",
+      "explication": "Le panda géant se nourrit presque uniquement de bambou.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-039",
+      "theme": "arts",
+      "question": "Dans quel musée parisien est exposée La Joconde ?",
+      "options": [
+        "le Louvre",
+        "le musée d’Orsay",
+        "le centre Pompidou"
+      ],
+      "reponse": "le Louvre",
+      "explication": "La Joconde est exposée au musée du Louvre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-040",
+      "theme": "arts",
+      "question": "Quel peintre a peint Les Tournesols ?",
+      "options": [
+        "Vincent van Gogh",
+        "Léonard de Vinci",
+        "Henri Matisse"
+      ],
+      "reponse": "Vincent van Gogh",
+      "explication": "Van Gogh a peint plusieurs tableaux de tournesols.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-041",
+      "theme": "arts",
+      "question": "Quel compositeur autrichien était un enfant prodige ?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Frédéric Chopin"
+      ],
+      "reponse": "Wolfgang Amadeus Mozart",
+      "explication": "Mozart composait déjà de la musique à cinq ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-042",
+      "theme": "arts",
+      "question": "Dans un orchestre, à quelle famille appartient le violon ?",
+      "options": [
+        "les cordes",
+        "les cuivres",
+        "les percussions"
+      ],
+      "reponse": "les cordes",
+      "explication": "Le violon fait partie de la famille des cordes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-043",
+      "theme": "arts",
+      "question": "Dans un orchestre, à quelle famille appartient la trompette ?",
+      "options": [
+        "les cuivres",
+        "les cordes",
+        "les bois"
+      ],
+      "reponse": "les cuivres",
+      "explication": "La trompette est un instrument de la famille des cuivres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-044",
+      "theme": "arts",
+      "question": "Qui a écrit Les Misérables ?",
+      "options": [
+        "Victor Hugo",
+        "Jules Verne",
+        "Molière"
+      ],
+      "reponse": "Victor Hugo",
+      "explication": "Victor Hugo publie Les Misérables en 1862.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-045",
+      "theme": "arts",
+      "question": "Qui a écrit Vingt mille lieues sous les mers ?",
+      "options": [
+        "Jules Verne",
+        "Victor Hugo",
+        "Charles Perrault"
+      ],
+      "reponse": "Jules Verne",
+      "explication": "Jules Verne raconte les voyages du capitaine Nemo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-046",
+      "theme": "arts",
+      "question": "Qui a écrit la fable Le Corbeau et le Renard ?",
+      "options": [
+        "Jean de La Fontaine",
+        "Charles Perrault",
+        "Molière"
+      ],
+      "reponse": "Jean de La Fontaine",
+      "explication": "Jean de La Fontaine a écrit de nombreuses fables.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-047",
+      "theme": "arts",
+      "question": "Qui a écrit Le Petit Prince ?",
+      "options": [
+        "Antoine de Saint-Exupéry",
+        "Victor Hugo",
+        "Jules Verne"
+      ],
+      "reponse": "Antoine de Saint-Exupéry",
+      "explication": "Antoine de Saint-Exupéry était aussi aviateur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-048",
+      "theme": "arts",
+      "question": "Qui a écrit les contes Cendrillon et Le Petit Poucet ?",
+      "options": [
+        "Charles Perrault",
+        "les frères Grimm",
+        "Andersen"
+      ],
+      "reponse": "Charles Perrault",
+      "explication": "Charles Perrault a publié ses contes en 1697.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-049",
+      "theme": "langue",
+      "question": "Que veut dire « poser un lapin » ?",
+      "options": [
+        "ne pas venir à un rendez-vous",
+        "offrir un animal",
+        "cuisiner un lapin"
+      ],
+      "reponse": "ne pas venir à un rendez-vous",
+      "explication": "Poser un lapin, c’est faire attendre quelqu’un pour rien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-050",
+      "theme": "langue",
+      "question": "Que veut dire « être dans la lune » ?",
+      "options": [
+        "être distrait",
+        "être astronaute",
+        "être très fatigué"
+      ],
+      "reponse": "être distrait",
+      "explication": "On pense à autre chose et on n’écoute plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-051",
+      "theme": "langue",
+      "question": "Quel est le pluriel de « cheval » ?",
+      "options": [
+        "chevaux",
+        "chevals",
+        "chevales"
+      ],
+      "reponse": "chevaux",
+      "explication": "Les noms en -al font souvent leur pluriel en -aux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-052",
+      "theme": "langue",
+      "question": "Quel est le contraire de « généreux » ?",
+      "options": [
+        "avare",
+        "gentil",
+        "riche"
+      ],
+      "reponse": "avare",
+      "explication": "Une personne avare ne veut pas partager.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-053",
+      "theme": "langue",
+      "question": "Que veut dire « hippopotame » en grec ancien ?",
+      "options": [
+        "cheval de rivière",
+        "gros ventre",
+        "roi de l’eau"
+      ],
+      "reponse": "cheval de rivière",
+      "explication": "Hippos signifie cheval et potamos signifie fleuve.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-054",
+      "theme": "sport",
+      "question": "Quelle course cycliste traverse la France chaque été ?",
+      "options": [
+        "le Tour de France",
+        "Roland-Garros",
+        "les 24 Heures du Mans"
+      ],
+      "reponse": "le Tour de France",
+      "explication": "Le Tour de France existe depuis 1903.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-055",
+      "theme": "sport",
+      "question": "Quelle est la forme du ballon de rugby ?",
+      "options": [
+        "ovale",
+        "ronde",
+        "carrée"
+      ],
+      "reponse": "ovale",
+      "explication": "Le ballon de rugby est ovale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-056",
+      "theme": "sport",
+      "question": "De quel pays vient le judo ?",
+      "options": [
+        "du Japon",
+        "de la Chine",
+        "du Brésil"
+      ],
+      "reponse": "du Japon",
+      "explication": "Le judo a été créé au Japon à la fin du XIXe siècle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-057",
+      "theme": "sport",
+      "question": "Quelle distance mesure un marathon ?",
+      "options": [
+        "42,195 km",
+        "10 km",
+        "100 km"
+      ],
+      "reponse": "42,195 km",
+      "explication": "Un marathon mesure 42,195 kilomètres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-058",
+      "theme": "sport",
+      "question": "Qui a relancé les Jeux olympiques modernes ?",
+      "options": [
+        "Pierre de Coubertin",
+        "Napoléon",
+        "Jules Ferry"
+      ],
+      "reponse": "Pierre de Coubertin",
+      "explication": "Les premiers Jeux modernes ont eu lieu à Athènes en 1896.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-059",
+      "theme": "inventions",
+      "question": "Qui a mis au point le premier vaccin contre la rage ?",
+      "options": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Isaac Newton"
+      ],
+      "reponse": "Louis Pasteur",
+      "explication": "Louis Pasteur a vacciné un enfant contre la rage en 1885.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-060",
+      "theme": "inventions",
+      "question": "Qui a inventé le cinématographe en 1895 ?",
+      "options": [
+        "les frères Lumière",
+        "les frères Montgolfier",
+        "Thomas Edison"
+      ],
+      "reponse": "les frères Lumière",
+      "explication": "Les frères Lumière ont organisé la première séance de cinéma.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-061",
+      "theme": "inventions",
+      "question": "Qui a fait voler la première montgolfière ?",
+      "options": [
+        "les frères Montgolfier",
+        "les frères Wright",
+        "les frères Lumière"
+      ],
+      "reponse": "les frères Montgolfier",
+      "explication": "Le premier vol en montgolfière avec passagers a eu lieu en 1783.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-062",
+      "theme": "inventions",
+      "question": "Quelle invention de Gutenberg a permis de multiplier les livres ?",
+      "options": [
+        "l’imprimerie",
+        "le papier",
+        "le stylo"
+      ],
+      "reponse": "l’imprimerie",
+      "explication": "Gutenberg met au point l’imprimerie vers 1450.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-063",
+      "theme": "inventions",
+      "question": "Qui a déposé le premier brevet du téléphone ?",
+      "options": [
+        "Graham Bell",
+        "Louis Braille",
+        "Gustave Eiffel"
+      ],
+      "reponse": "Graham Bell",
+      "explication": "Alexander Graham Bell dépose son brevet en 1876.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-064",
+      "theme": "monde",
+      "question": "Quelle est la monnaie de la France ?",
+      "options": [
+        "l’euro",
+        "le franc",
+        "le dollar"
+      ],
+      "reponse": "l’euro",
+      "explication": "La France utilise l’euro depuis 2002.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-065",
+      "theme": "monde",
+      "question": "Quelle langue parle-t-on au Brésil ?",
+      "options": [
+        "le portugais",
+        "l’espagnol",
+        "le brésilien"
+      ],
+      "reponse": "le portugais",
+      "explication": "Le Brésil a été une colonie du Portugal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-066",
+      "theme": "monde",
+      "question": "Quelles langues sont officielles au Canada ?",
+      "options": [
+        "l’anglais et le français",
+        "l’anglais seulement",
+        "l’espagnol et le français"
+      ],
+      "reponse": "l’anglais et le français",
+      "explication": "Le Canada a deux langues officielles : l’anglais et le français.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "CG-C3-067",
+      "theme": "monde",
+      "question": "Dans quelle ville se trouve Big Ben ?",
+      "options": [
+        "Londres",
+        "New York",
+        "Dublin"
+      ],
+      "reponse": "Londres",
+      "explication": "Big Ben est la grande cloche de l’horloge du Parlement de Londres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
