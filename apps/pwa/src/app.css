@@ -224,3 +224,6 @@ a.hp-chip { text-decoration: none; }
   background: var(--surface-1); box-shadow: var(--shadow-card); color: var(--ink); font: inherit; font-size: 13px; font-weight: 600; text-align: left; cursor: pointer; }
 .photo__vignette img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-sm); }
 .photo__vignette:focus-visible, .photo__notion:focus-visible, .cahier__duree:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+
+/* Mention des programmes officiels (connexion parent). */
+.mention-programmes { margin: 0; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); background: var(--primary-soft); color: var(--primary-strong); font-size: 14px; }

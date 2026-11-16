@@ -1,3 +1,4 @@
+import { BlocProgrammes } from '../composants/Programmes';
 import { DefiFamille } from '../composants/DefiFamille';
 import { BilanSemaine } from '../composants/BilanSemaine';
 import { BoutonTheme } from '../composants/BoutonTheme';
@@ -172,6 +173,7 @@ export function Parent() {
           </label>
           <button className="hp-btn hp-btn--primary">Créer le profil</button>
         </form>
+        <BlocProgrammes />
         <section className="hp-card fiche__bloc">
           <h2 className="titre-2">Mes données</h2>
           <p className="muet">Hopla ne garde que le prénom, l’avatar et la classe de chaque enfant, avec ses résultats.</p>
