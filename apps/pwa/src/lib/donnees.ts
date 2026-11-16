@@ -141,6 +141,8 @@ export interface Api {
   mode: 'demo' | 'supabase';
   parentConnecte(): Promise<boolean>;
   envoyerLienParent(email: string): Promise<void>;
+  /** Connexion par le code reçu (8 chiffres) de l'e-mail : indispensable pour l'app installée sur iPhone et iPad, où le lien s'ouvre dans Safari. */
+  verifierCodeParent(email: string, code: string): Promise<void>;
   /** Connexion parent par Apple ou Google (si le fournisseur est activé dans Supabase). */
   connecterAvec(fournisseur: 'apple' | 'google'): Promise<void>;
   listeProfils(): Promise<Profil[]>;
@@ -286,6 +288,10 @@ function apiSupabase(url: string, cle: string): Api {
     },
     async envoyerLienParent(email) {
       const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin } });
+      if (error) throw error;
+    },
+    async verifierCodeParent(email, code) {
+      const { error } = await client.auth.verifyOtp({ email, token: code.replace(/\D/g, ''), type: 'email' });
       if (error) throw error;
     },
     async connecterAvec(fournisseur) {
@@ -665,6 +671,7 @@ function apiDemo(): Api {
     parentConnecte: async () => true,
     connecterAvec: async () => { throw new Error('Pas de connexion externe en mode démo.'); },
     envoyerLienParent: async () => undefined,
+    verifierCodeParent: async () => undefined,
     listeProfils: async () => lire().map(({ id, prenom, avatar, code_type }) => ({ id, prenom, avatar, code_type })),
     async ouvrirSession(enfant, code) {
       if (code !== CODE_DEMO) return false;
