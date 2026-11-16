@@ -1,3 +1,4 @@
+import { etatCahier, planCahier } from '../lib/cahier';
 import { ChoixControle } from '../composants/ChoixControle';
 import { ChoixAvatar } from '../composants/ChoixAvatar';
 import { useEffect, useMemo, useState } from 'react';
@@ -6,7 +7,7 @@ import { Appareils } from '../composants/Appareils';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import {
-  api, type Appareil, type Classe, type ControlePrevu, type Enfant, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
+  api, type Appareil, type Classe, type Cahier, type ControlePrevu, type Enfant, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
 } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
 import { prochainVendredi } from '../lib/entrainement';
@@ -93,8 +94,20 @@ export function FicheEnfant() {
 function Progression({ suivi, pack, fiche, titres }: { suivi: SuiviEnfant; pack: Pack; fiche: Fiche; titres: Map<string, string> }) {
   const { enfant, progression, erreurs } = suivi;
   const masquees = enfant.matieres_masquees ?? [];
+  const [cahier, setCahier] = useState<Cahier | null>(null);
+  useEffect(() => { api.cahier(enfant.id).then(setCahier).catch(() => setCahier(null)); }, [enfant.id]);
+  const cahierFaites = cahier
+    ? etatCahier(planCahier(competencesJouables(sansMatieres(pack, masquees)), cahier.jours), cahier.debut, fiche.historique, aujourdhui()).faites
+    : 0;
   return (
     <>
+      {cahier && (
+        <section className="hp-card fiche__bloc">
+          <h2 className="titre-3">Cahier de vacances</h2>
+          <p style={{ margin: 0 }}>{cahierFaites} page{cahierFaites > 1 ? 's' : ''} faite{cahierFaites > 1 ? 's' : ''} sur {cahier.jours}, commencé {jourLisible(cahier.debut)}.</p>
+          <div className="hp-progress hp-progress--sm" aria-hidden="true"><span style={{ width: `${(cahierFaites / cahier.jours) * 100}%` }} /></div>
+        </section>
+      )}
       {pack.matieres.filter((m) => !masquees.includes(m.matiere)).map((m) => {
         const notions = competencesJouables({ ...pack, matieres: [m] });
         if (notions.length === 0) return null;

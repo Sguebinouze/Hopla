@@ -82,7 +82,7 @@ export function Exercice() {
 
   const suivant = () => {
     if (rang + 1 >= items.length) {
-      naviguer('/resultat', { state: { justes: justes, total: items.length } });
+      naviguer('/resultat', { state: { justes: justes, total: items.length, retour: retourSur(location.search) } });
       return;
     }
     setRang(rang + 1);
@@ -190,4 +190,10 @@ export function Exercice() {
       </div>
     </main>
   );
+}
+
+/** Page où revenir après la série (`?retour=/cahier`), limitée aux pages de l'app. */
+export function retourSur(recherche: string): string | null {
+  const r = new URLSearchParams(recherche).get('retour');
+  return r && /^\/[a-z]+$/.test(r) ? r : null;
 }

@@ -190,3 +190,37 @@ a.hp-chip { text-decoration: none; }
 .bilan__enfant p { margin: 0; }
 .bilan__email { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; }
 .bilan__email input { width: 20px; height: 20px; accent-color: var(--primary); }
+
+/* Défi de la semaine en famille. */
+.defi-famille { display: flex; flex-direction: column; gap: var(--space-2); }
+.defi-famille__icone { width: 40px; height: 40px; border-radius: var(--radius-sm); display: inline-flex; align-items: center; justify-content: center;
+  background: var(--streak-soft); color: var(--streak-ink); flex: none; }
+.defi-famille__sur { margin: 0; font-size: 13px; }
+.defi-famille__titre { margin: 0; font-weight: 600; }
+
+/* Cahier de vacances. */
+.cahier__intro { display: flex; align-items: center; gap: var(--space-3); }
+.cahier__intro svg { flex-shrink: 0; }
+.cahier__durees { display: flex; flex-direction: column; gap: var(--space-2); }
+.cahier__duree { border: 0; font: inherit; text-align: left; cursor: pointer; }
+.cahier__avancement { display: flex; flex-direction: column; gap: var(--space-3); }
+.cahier__tampons { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(30px, 1fr)); gap: 6px; }
+.cahier__tampon { aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 600;
+  background: var(--surface-2); color: var(--ink-muted); }
+.cahier__tampon--fait { background: var(--sun); color: var(--on-sun); }
+.cahier__tampon--courant { box-shadow: inset 0 0 0 2px var(--primary); color: var(--primary); }
+
+/* Photo de leçon. */
+.photo__apercu { width: 100%; max-height: 220px; object-fit: contain; border-radius: var(--radius-md); background: var(--surface-2); }
+.photo__apercu--grande { max-height: 60vh; }
+.photo__lecture { display: flex; align-items: center; gap: var(--space-3); }
+.photo__lecture svg { flex-shrink: 0; }
+.photo__notion { border: 0; font: inherit; text-align: left; cursor: pointer; }
+.photo__recherche { display: flex; flex-direction: column; gap: var(--space-1); }
+.photo__recherche input { min-height: var(--target-min); border: 2px solid var(--line); border-radius: var(--radius-sm); padding: 0 var(--space-3);
+  font: inherit; background: var(--surface-1); color: var(--ink); }
+.photo__grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--space-2); }
+.photo__vignette { display: flex; flex-direction: column; gap: var(--space-1); padding: var(--space-2); border: 0; border-radius: var(--radius-md);
+  background: var(--surface-1); box-shadow: var(--shadow-card); color: var(--ink); font: inherit; font-size: 13px; font-weight: 600; text-align: left; cursor: pointer; }
+.photo__vignette img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-sm); }
+.photo__vignette:focus-visible, .photo__notion:focus-visible, .cahier__duree:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }

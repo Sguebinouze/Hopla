@@ -24,6 +24,9 @@ function fausseApi() {
     async records() { panne(); return { tables: 4 }; },
     async controle() { panne(); return null; },
     async minutesAujourdhui() { panne(); return 3; },
+    async defiFamille() { panne(); return null; },
+    async cahier() { panne(); return { debut: '2027-07-06', jours: 30 }; },
+    async mesJournees() { panne(); return []; },
     async enregistrer(x: Resultat) {
       panne();
       if (x.contenu === etat.refuse) throw new Error('new row violates row-level security policy');
@@ -49,6 +52,11 @@ describe('mode hors connexion', () => {
     expect(await api.enfantCourant()).toEqual(ENFANT);
     expect(await api.records()).toEqual({ tables: 4 });
     expect(await api.progression()).toEqual({});
+    expect(await api.cahier()).toBeNull();
+    etat.reseau = true;
+    await api.cahier();
+    etat.reseau = false;
+    expect(await api.cahier()).toEqual({ debut: '2027-07-06', jours: 30 });
   });
 
   it('les réponses attendent dans une file et partent dans l’ordre au retour du réseau', async () => {

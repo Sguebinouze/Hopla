@@ -1,3 +1,4 @@
+import { DefiFamille } from '../composants/DefiFamille';
 import { BilanSemaine } from '../composants/BilanSemaine';
 import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
@@ -143,6 +144,7 @@ export function Parent() {
           </Link>
         )}
         <BilanSemaine key={`bilan-${version}`} />
+        <DefiFamille parent key={`defi-${version}`} />
         {suivis.map((s) => (
           <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />
         ))}

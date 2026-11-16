@@ -21,6 +21,7 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 - `appairages` (codes en attente), `appareils` (jeton, nom générique, dates).
 - `resultats` (réponse choisie et code d'erreur, jamais de texte libre), `progression_competences` (révision espacée), `badges_enfant`.
 - `records_defis`, `controles` (un contrôle prévu par enfant).
+- `cahiers_vacances` (un cahier par enfant : début, nombre de pages). Le défi de la semaine se calcule à partir des résultats (`public.defi_famille`), sans table.
 - `admins`, `relectures`.
 - `membres_famille.bilan_hebdo` : le parent a demandé le bilan du dimanche par e-mail. `public.bilans_a_envoyer()` (adresse et bilan) n'est exécutable qu'avec la clé de service.
 - Le contenu pédagogique n'est pas en base : il vit dans Git et part dans des packs statiques par classe.
@@ -30,6 +31,12 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 **Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle (le parent le prévoit, le modifie ou l'annule), réglages et appareils. « Cette semaine » : bilan des 7 derniers jours par enfant (`public.bilan_semaine`), le même que l'e-mail du dimanche.
 
 **Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. Profil (`/profil`) : avatar (7 personnages, 8 teintes), Octave (6 couleurs, 6 accessoires, débloqués par niveau), collection de trophées calculés à partir de la progression (rien de plus n'est enregistré).
+
+**Défi de la semaine en famille** : un objectif commun du lundi au dimanche (bonnes réponses, jours de travail ou notions travaillées, à tour de rôle), proportionnel au nombre d'enfants. L'enfant voit le total et sa part, jamais le détail de ses frères et sœurs.
+
+**Cahier de vacances** (`/cahier`) : toute l'année de la classe en révision, une page par jour (une notion de français, une de maths, une d'une autre matière), 10, 30 ou 40 pages. Une page est faite quand chaque notion a eu sa série ; le plan se déduit du programme et l'avancement des résultats (`apps/pwa/src/lib/cahier.ts`).
+
+**Photo de leçon** (`/photo`) : l'enfant photographie sa leçon ; le texte est lu sur l'appareil (Tesseract, fichiers servis par l'app dans `/ocr`, copiés par `scripts/copier-ocr.mjs`) et rapproché des notions de sa classe ; il confirme la notion et s'entraine. La photo et son texte ne quittent jamais l'appareil (IndexedDB, 30 photos au plus par enfant), rien n'est enregistré en base.
 
 **Hors connexion** (`apps/pwa/src/lib/horsLigne.ts`) : l'app et les packs sont mis en cache par le service worker ; l'enfant en session garde une copie de son profil, de sa progression, de ses records et de son contrôle ; ses réponses, leçons vues et records attendent dans une file, envoyée dans l'ordre au retour du réseau. Limite : ouvrir une session sur un appareil familial demande le réseau (l'appareil appairé de l'enfant, lui, fonctionne sans). Les réponses envoyées plus tard sont datées du moment de l'envoi.
 
@@ -41,7 +48,7 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 2. Fiche enfant complète (progression par notion, séances, leçons consultées), réglages par enfant (prénom, avatar, classe, code, matières, temps de travail par jour), export et suppression des données. **Fait le 16 novembre 2026.**
 3. Profil enfant, mode hors connexion. **Fait le 16 novembre 2026.**
 4. Bilan du dimanche par email, contrôle programmé par le parent. **Fait le 16 novembre 2026** (l'envoi des e-mails s'active à la mise en ligne, voir plus bas).
-5. Photo de leçon, cahier de vacances, défi de la semaine en famille.
+5. Photo de leçon, cahier de vacances, défi de la semaine en famille. **Fait le 16 novembre 2026.**
 
 ## Mettre en service
 

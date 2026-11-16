@@ -87,6 +87,9 @@ export function avecHorsLigne(api: Api): Api {
     records: api.records.bind(api),
     controle: api.controle.bind(api),
     minutesAujourdhui: api.minutesAujourdhui.bind(api),
+    defiFamille: api.defiFamille.bind(api),
+    cahier: api.cahier.bind(api),
+    mesJournees: api.mesJournees.bind(api),
     enregistrer: api.enregistrer.bind(api),
     noterLecon: api.noterLecon.bind(api),
     noterDefi: api.noterDefi.bind(api),
@@ -151,6 +154,9 @@ export function avecHorsLigne(api: Api): Api {
   api.records = () => lecture('records', orig.records, {});
   api.controle = (enfant?: string) => (enfant ? orig.controle(enfant) : lecture('controle', () => orig.controle(), null));
   api.minutesAujourdhui = () => lecture('minutes', orig.minutesAujourdhui, 0);
+  api.defiFamille = () => lecture('defi', orig.defiFamille, null);
+  api.cahier = (enfant?: string) => (enfant ? orig.cahier(enfant) : lecture('cahier', () => orig.cahier(), null));
+  api.mesJournees = (jours) => lecture(`journees`, () => orig.mesJournees(jours), []);
   api.enregistrer = (r) => ecriture({ m: 'enregistrer', r }, () => orig.enregistrer(r));
   api.noterLecon = (c) => ecriture({ m: 'noterLecon', c }, () => orig.noterLecon(c));
   api.noterDefi = async (d, sc) => {

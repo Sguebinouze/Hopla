@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "pnpm --filter @hopla/ds build && pnpm --filter @hopla/content packs --brouillons",
+    "predev": "pnpm --filter @hopla/ds build && pnpm --filter @hopla/content packs --brouillons && node scripts/copier-ocr.mjs",
     "dev": "vite",
-    "build": "tsc -p tsconfig.json && vite build",
+    "build": "node scripts/copier-ocr.mjs && tsc -p tsconfig.json && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run"
@@ -19,9 +19,11 @@
     "qrcode": "1.5.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.0"
+    "react-router-dom": "^7.6.0",
+    "tesseract.js": "7.0.0"
   },
   "devDependencies": {
+    "@tesseract.js-data/fra": "1.0.0",
     "@types/qrcode": "1.5.5",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",

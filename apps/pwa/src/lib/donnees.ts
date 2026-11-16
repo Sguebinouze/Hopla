@@ -65,6 +65,19 @@ export interface BilanSemaine {
   controle: { date: string; notions: number } | null;
 }
 
+/** Défi de la semaine en famille : objectif commun, total de la famille, part de l'enfant en session. */
+export interface DefiFamille {
+  sorte: 'bonnes_reponses' | 'jours_actifs' | 'notions';
+  debut: string;
+  fin: string;
+  enfants: number;
+  objectif: number;
+  total: number;
+  ma_part: number | null;
+}
+
+export interface Cahier { debut: string; jours: number }
+
 export interface FicheEnfant {
   historique: JourneeNotion[];
   lecons: LeconVue[];
@@ -161,6 +174,12 @@ export interface Api {
   noterDefi(defi: string, score: number): Promise<boolean>;
   controle(enfant?: string): Promise<ControlePrevu | null>;
   prevoirControle(c: ControlePrevu | null, enfant?: string): Promise<void>;
+  // Défi en famille (enfant en session ou mode parent) et cahier de vacances.
+  defiFamille(): Promise<DefiFamille | null>;
+  cahier(enfant?: string): Promise<Cahier | null>;
+  ouvrirCahier(c: Cahier | null, enfant?: string): Promise<void>;
+  /** Séances de l'enfant en session, par jour et par notion. */
+  mesJournees(jours: number): Promise<JourneeNotion[]>;
   // Bilan de la semaine (mode parent) et e-mail du dimanche.
   bilanSemaine(): Promise<BilanSemaine[]>;
   bilanHebdoActif(): Promise<boolean>;
@@ -435,6 +454,33 @@ function apiSupabase(url: string, cle: string): Api {
         ? await client.from('controles').upsert({ enfant_id: id, date: c.date, notions: c.notions, maj_le: new Date().toISOString() })
         : await client.from('controles').delete().eq('enfant_id', id);
       if (error) throw error;
+    },
+    async defiFamille() {
+      const { data, error } = await client.rpc('defi_famille');
+      if (error) throw error;
+      return (data as DefiFamille | null) ?? null;
+    },
+    async cahier(enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      if (!id) return null;
+      const { data, error } = await client.from('cahiers_vacances').select('debut, jours').eq('enfant_id', id).maybeSingle();
+      if (error) throw error;
+      return (data as Cahier | null) ?? null;
+    },
+    async ouvrirCahier(c, enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id;
+      if (!id) throw new Error('Aucun profil en cours.');
+      const { error } = c
+        ? await client.from('cahiers_vacances').upsert({ enfant_id: id, debut: c.debut, jours: c.jours, cree_le: new Date().toISOString() })
+        : await client.from('cahiers_vacances').delete().eq('enfant_id', id);
+      if (error) throw error;
+    },
+    async mesJournees(jours) {
+      const e = await this.enfantCourant();
+      if (!e) return [];
+      const { data, error } = await client.rpc('historique', { p_enfant: e.id, p_jours: Math.min(365, Math.max(1, jours)) });
+      if (error) throw error;
+      return (data as JourneeNotion[]).map((x) => ({ ...x, questions: Number(x.questions), reussies: Number(x.reussies), duree_ms: Number(x.duree_ms) }));
     },
     async bilanSemaine() {
       const { data, error } = await client.rpc('bilan_semaine');
@@ -726,6 +772,46 @@ function apiDemo(): Api {
     async prevoirControle(c, enfant) {
       const id = enfant ?? (await this.enfantCourant())?.id;
       if (id) ecrireDemo(`hopla.controle.${id}`, c);
+    },
+    async defiFamille() {
+      const lundi = new Date();
+      lundi.setHours(0, 0, 0, 0);
+      lundi.setDate(lundi.getDate() - ((lundi.getDay() + 6) % 7));
+      const debut = auJour(lundi);
+      const dimanche = new Date(lundi);
+      dimanche.setDate(lundi.getDate() + 6);
+      const enfants = lire();
+      if (enfants.length === 0) return null;
+      const semaine = Math.floor((lundi.getTime() / 86_400_000 + 3) / 7);
+      const sorte = (['bonnes_reponses', 'jours_actifs', 'notions'] as const)[semaine % 3]!;
+      const h = lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {});
+      const moi = (await this.enfantCourant())?.id ?? null;
+      const compte = (id: string) => {
+        const l = (h[id] ?? []).filter((x) => x.jour >= debut);
+        if (sorte === 'bonnes_reponses') return l.reduce((n, x) => n + x.reussies, 0);
+        return new Set(l.map((x) => (sorte === 'jours_actifs' ? x.jour : x.competence_id))).size;
+      };
+      return {
+        sorte, debut, fin: auJour(dimanche), enfants: enfants.length,
+        objectif: enfants.length * { bonnes_reponses: 60, jours_actifs: 4, notions: 6 }[sorte],
+        total: enfants.reduce((n, e) => n + compte(e.id), 0),
+        ma_part: moi ? compte(moi) : null,
+      };
+    },
+    async cahier(enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id ?? '';
+      return lireDemo<Record<string, Cahier>>('hopla.demo-cahiers', {})[id] ?? null;
+    },
+    async ouvrirCahier(c, enfant) {
+      const id = enfant ?? (await this.enfantCourant())?.id ?? '';
+      const tout = lireDemo<Record<string, Cahier>>('hopla.demo-cahiers', {});
+      if (c) tout[id] = c; else delete tout[id];
+      ecrireDemo('hopla.demo-cahiers', tout);
+    },
+    async mesJournees(jours) {
+      const id = (await this.enfantCourant())?.id ?? '';
+      const debut = auJour(new Date(Date.now() - (jours - 1) * 86_400_000));
+      return (lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {})[id] ?? []).filter((x) => x.jour >= debut);
     },
     async bilanSemaine() {
       const debut = auJour(new Date(Date.now() - 6 * 86_400_000));

@@ -1,3 +1,5 @@
+import { etatCahier, planCahier } from '../lib/cahier';
+import { DefiFamille } from '../composants/DefiFamille';
 import { EtatReseau } from '../composants/EtatReseau';
 import { XP_PAR_NIVEAU } from '../lib/apparence';
 import { BoutonTheme } from '../composants/BoutonTheme';
@@ -9,9 +11,9 @@ import { Octave } from '../composants/Octave';
 import { api, surAppareilEnfant, type Enfant } from '../lib/donnees';
 import { lectureAuto, reglerLectureAuto, voixDisponible } from '../lib/voix';
 import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
-import { bilan, etat, type Suivi } from '../lib/progression';
+import { aujourdhui, bilan, etat, type Suivi } from '../lib/progression';
 import { dateLisible } from '../lib/entrainement';
-import type { ControlePrevu } from '../lib/donnees';
+import type { Cahier, ControlePrevu } from '../lib/donnees';
 
 const COULEUR_MATIERE: Record<string, string> = {
   francais: 'hp-subj-francais', mathematiques: 'hp-subj-maths', 'questionner-le-monde': 'hp-subj-histgeo',
@@ -29,6 +31,8 @@ export function Accueil() {
   const [prevu, setPrevu] = useState<ControlePrevu | null>(null);
   const [minutes, setMinutes] = useState(0);
   const [mesRecords, setMesRecords] = useState<Record<string, number>>({});
+  const [cahier, setCahier] = useState<Cahier | null>(null);
+  const [cahierFaites, setCahierFaites] = useState(0);
 
   useEffect(() => {
     void (async () => {
@@ -44,6 +48,14 @@ export function Accueil() {
         setSuivi(await api.progression().catch(() => ({})));
         setPrevu(await api.controle().catch(() => null));
         setMesRecords(await api.records().catch(() => ({})));
+        const c = await api.cahier().catch(() => null);
+        if (c) {
+          const jour = aujourdhui();
+          const depuis = Math.round((Date.parse(jour) - Date.parse(c.debut)) / 86_400_000) + 1;
+          const journees = await api.mesJournees(depuis).catch(() => []);
+          setCahierFaites(etatCahier(planCahier(competencesJouables(p), c.jours), c.debut, journees, jour).faites);
+        }
+        setCahier(c);
       } catch (err) {
         setErreur((err as Error).message || 'Erreur de chargement.');
       }
@@ -123,6 +135,8 @@ export function Accueil() {
         )}
       </section>
 
+      <DefiFamille />
+
       {pack && (
         <>
           <h2 className="titre-2">Mes matières</h2>
@@ -172,6 +186,22 @@ export function Accueil() {
           </span>
         </span>
         <span className="hp-chip hp-chip--primary">{prevu ? 'Voir' : 'Préparer'}</span>
+      </Link>
+
+      <Link to="/photo" className="hp-skill notion">
+        <span className="hp-skill__main">
+          <span className="hp-skill__name">Photo de leçon</span>
+          <span className="hp-skill__where">Prends ta leçon du cahier en photo, Octave t’entraine dessus.</span>
+        </span>
+        <span className="hp-chip hp-chip--primary"><Icone nom="appareil" taille={16} />Photo</span>
+      </Link>
+
+      <Link to="/cahier" className="hp-skill notion">
+        <span className="hp-skill__main">
+          <span className="hp-skill__name">Cahier de vacances</span>
+          <span className="hp-skill__where">{cahier ? `Page ${Math.min(cahier.jours, cahierFaites + 1)} sur ${cahier.jours}` : 'Toute ton année en révision, une page par jour.'}</span>
+        </span>
+        <span className="hp-chip hp-chip--sun"><Icone nom="cahier" taille={16} />{cahier ? 'Continuer' : 'Ouvrir'}</span>
       </Link>
 
       <div className="pousse" />

@@ -30,7 +30,14 @@ export default defineConfig({
       workbox: {
         // Les packs de contenu restent disponibles hors connexion.
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        // Lecture de texte des photos de leçon : chargée à la première photo, puis gardée pour le hors connexion.
+        globIgnores: ['ocr/**'],
         runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/ocr/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'hopla-ocr', expiration: { maxEntries: 10 } },
+          },
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/packs/'),
             handler: 'StaleWhileRevalidate',

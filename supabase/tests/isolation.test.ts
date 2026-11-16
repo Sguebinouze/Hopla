@@ -319,6 +319,46 @@ describe('sessions et isolation', () => {
     expect(await service()).toEqual([]);
   });
 
+  let codeB = false;
+  const ouvrirModeB = async () => {
+    if (!codeB) await en({ parent: PARENT_B }, `select public.definir_code_parent('2468')`);
+    codeB = true;
+    return (await une<string>({ parent: PARENT_B }, `select public.ouvrir_mode_parent('2468') as j`))!.j!;
+  };
+
+  it('défi en famille : total commun, chaque enfant ne voit que sa part', async () => {
+    const modeB = await ouvrirModeB();
+    type Defi = { sorte: string; objectif: number; total: number; ma_part: number | null; enfants: number };
+    const sessionTom = (await une<string>({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876') as j`, [tom]))!.j!;
+    const dLea = (await une<Defi>({ parent: PARENT_A, enfant: sessionLea }, `select public.defi_famille() as d`))!.d!;
+    const dTom = (await une<Defi>({ parent: PARENT_A, enfant: sessionTom }, `select public.defi_famille() as d`))!.d!;
+    const dParent = (await une<Defi>({ parent: PARENT_A, parentMode: modeA }, `select public.defi_famille() as d`))!.d!;
+    expect(['bonnes_reponses', 'jours_actifs', 'notions']).toContain(dLea.sorte);
+    expect(dLea.enfants).toBe(2);
+    expect(dLea.objectif % 2).toBe(0);
+    expect(dLea.total).toBeGreaterThan(0);
+    expect(dLea.ma_part).toBe(dLea.total);
+    expect(dTom).toMatchObject({ total: dLea.total, ma_part: 0 });
+    expect(dParent).toMatchObject({ total: dLea.total, ma_part: null });
+    expect((await une<null>({ parent: PARENT_B, parentMode: modeB }, `select public.defi_famille() as d`))!.d).toBeNull();
+    await expect(en({ parent: PARENT_A }, `select public.defi_famille()`)).rejects.toThrow(/Session requise/);
+    await expect(surAppareil(null, `select public.defi_famille()`)).rejects.toThrow(/Session requise/);
+  });
+
+  it('cahier de vacances : l’enfant et sa famille seulement', async () => {
+    const modeB = await ouvrirModeB();
+    const lea_ = { parent: PARENT_A, enfant: sessionLea };
+    await en(lea_, `insert into public.cahiers_vacances (enfant_id, debut, jours) values ($1, '2027-07-06', 30)`, [lea]);
+    await expect(en(lea_, `insert into public.cahiers_vacances (enfant_id, debut, jours) values ($1, '2027-07-06', 30)`, [tom])).rejects.toThrow(/row-level security/);
+    await expect(en(lea_, `update public.cahiers_vacances set jours = 90 where enfant_id = $1`, [lea])).rejects.toThrow(/check constraint/);
+    expect(await en({ parent: PARENT_A, parentMode: modeA }, `select jours from public.cahiers_vacances`)).toEqual([{ jours: 30 }]);
+    expect(await en({ parent: PARENT_A }, `select * from public.cahiers_vacances`)).toEqual([]);
+    expect(await en({ parent: PARENT_B, parentMode: modeB }, `select * from public.cahiers_vacances`)).toEqual([]);
+    expect(await surAppareil(null, `select * from public.cahiers_vacances`)).toEqual([]);
+    await en({ parent: PARENT_A, parentMode: modeA }, `delete from public.cahiers_vacances where enfant_id = $1`, [lea]);
+    expect(await en(lea_, `select * from public.cahiers_vacances`)).toEqual([]);
+  });
+
   it('suppression du compte : les enfants restent si un autre parent est membre, sinon tout part', async () => {
     await expect(en({ parent: PARENT_C }, `select public.supprimer_mon_compte()`)).rejects.toThrow(/Mode parent requis/);
     const modeC = (await une<string>({ parent: PARENT_C }, `select public.ouvrir_mode_parent('7777') as j`))!.j!;
