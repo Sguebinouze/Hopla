@@ -1,0 +1,12 @@
+// Hébergement sur Cloudflare (Workers, fichiers statiques), branché sur le dépôt GitHub.
+// Build : `pnpm build` (DS, packs publiés, app). Déploiement : `npx wrangler deploy`.
+{
+  "name": "hopla",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./apps/pwa/dist",
+    // Toute adresse inconnue renvoie l'app (routes gérées côté navigateur).
+    "not_found_handling": "single-page-application"
+  }
+}

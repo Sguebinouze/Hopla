@@ -52,6 +52,8 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 
 ## Mettre en service
 
+- Hébergement : Cloudflare Workers (fichiers statiques), `wrangler.jsonc` à la racine. Projet branché sur le dépôt GitHub (Workers Builds) : build `pnpm build`, déploiement `npx wrangler deploy`. Les valeurs publiques Supabase sont dans `apps/pwa/.env.production`. Dans Supabase (Authentication, URL Configuration), l'adresse publique doit être l'adresse du site et une redirection autorisée.
+- E-mails de connexion : SMTP Gmail de hopla.news@gmail.com (mot de passe d'application) en attendant le domaine ; modèles français dans `docs/emails-supabase.md`.
 - Connexion Apple et Google : activer les fournisseurs dans Supabase (Authentication, Providers), puis `VITE_AUTH_GOOGLE=1` et `VITE_AUTH_APPLE=1` dans `apps/pwa/.env.local`. Sans cela, seuls les liens magiques s'affichent.
 - Appairage par QR : le QR contient l'adresse de l'app (`/appairer?code=…`) ; l'appareil de l'enfant doit pouvoir l'ouvrir (même réseau en développement, adresse publique en production).
 - Bilan du dimanche par e-mail (une fois l'app en ligne, avec son domaine) :

@@ -61,7 +61,7 @@ export function Confidentialite() {
         <h2 className="titre-3">Où elles sont</h2>
         <ul>
           <li><strong>Supabase</strong> héberge la base de données et la connexion, sur des serveurs situés à Paris.</li>
-          <li><strong>Netlify</strong> héberge les fichiers de l’app et voit passer l’adresse IP des visiteurs pour servir les pages.</li>
+          <li><strong>Cloudflare</strong> héberge les fichiers de l’app et voit passer l’adresse IP des visiteurs pour servir les pages.</li>
           <li><strong>Google (Gmail)</strong> envoie les e-mails de connexion et reçoit pour cela l’adresse e-mail du parent.</li>
         </ul>
       </section>
