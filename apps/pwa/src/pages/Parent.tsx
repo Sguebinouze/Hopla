@@ -1,3 +1,4 @@
+import { BilanSemaine } from '../composants/BilanSemaine';
 import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -141,6 +142,7 @@ export function Parent() {
             <Icone nom="eclair" />
           </Link>
         )}
+        <BilanSemaine key={`bilan-${version}`} />
         {suivis.map((s) => (
           <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />
         ))}

@@ -1,3 +1,4 @@
+import { ChoixControle } from '../composants/ChoixControle';
 import { ChoixAvatar } from '../composants/ChoixAvatar';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -5,14 +6,15 @@ import { Appareils } from '../composants/Appareils';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import {
-  api, type Appareil, type Classe, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
+  api, type Appareil, type Classe, type ControlePrevu, type Enfant, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
 } from '../lib/donnees';
-import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
-import { bilan, CHIP_ETAT, etat, LIBELLE_ETAT, libelleErreur } from '../lib/progression';
+import { chargerPack, competencesJouables, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
+import { prochainVendredi } from '../lib/entrainement';
+import { aujourdhui, bilan, CHIP_ETAT, etat, LIBELLE_ETAT, libelleErreur } from '../lib/progression';
 
 const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 const LIMITES = [null, 15, 20, 30, 45, 60, 90, 120];
-const ONGLETS = ['Progression', 'Séances', 'Leçons', 'Réglages'] as const;
+const ONGLETS = ['Progression', 'Séances', 'Leçons', 'Contrôle', 'Réglages'] as const;
 type Onglet = (typeof ONGLETS)[number];
 
 const jourLisible = (j: string) => {
@@ -77,6 +79,9 @@ export function FicheEnfant() {
       {onglet === 'Progression' && pack && fiche && <Progression suivi={suivi} pack={pack} fiche={fiche} titres={titres} />}
       {onglet === 'Séances' && fiche && <Seances fiche={fiche} titres={titres} />}
       {onglet === 'Leçons' && fiche && <Lecons fiche={fiche} titres={titres} />}
+      {onglet === 'Contrôle' && fiche && pack && (
+        <ControleParent enfant={enfant} pack={pack} prevu={fiche.controle} titres={titres} onChange={() => setVersion((v) => v + 1)} />
+      )}
       {onglet === 'Réglages' && (
         <Reglages suivi={suivi} pack={pack} appareils={appareils} onChange={() => setVersion((v) => v + 1)}
           onSupprime={() => naviguer('/parent')} />
@@ -149,12 +154,58 @@ function Progression({ suivi, pack, fiche, titres }: { suivi: SuiviEnfant; pack:
           </ul>
         </section>
       )}
-      {fiche.controle && (
-        <section className="hp-card fiche__bloc">
-          <h2 className="titre-3">Contrôle prévu</h2>
-          <p style={{ margin: 0 }}>{jourLisible(fiche.controle.date)} : {fiche.controle.notions.map((n) => titres.get(n) ?? n).join(', ')}</p>
-        </section>
-      )}
+    </>
+  );
+}
+
+/** Le parent prévoit, modifie ou annule le contrôle de l'enfant ; la mission du jour le prépare. */
+function ControleParent({ enfant, pack, prevu, titres, onChange }: {
+  enfant: Enfant; pack: Pack; prevu: ControlePrevu | null; titres: Map<string, string>; onChange: () => void;
+}) {
+  const [edition, setEdition] = useState(false);
+  const [date, setDate] = useState(prevu?.date ?? aujourdhui(prochainVendredi()));
+  const [choix, setChoix] = useState<string[]>(prevu?.notions ?? []);
+  const [message, setMessage] = useState('');
+  const enregistrer = (c: ControlePrevu | null) => {
+    setMessage('');
+    api.prevoirControle(c, enfant.id).then(() => { setEdition(false); onChange(); }).catch((e: Error) => setMessage(e.message));
+  };
+
+  if (!edition) {
+    return (
+      <section className="hp-card fiche__bloc">
+        <h2 className="titre-3">Contrôle prévu</h2>
+        {prevu ? (
+          <>
+            <p style={{ margin: 0 }}><strong>{jourLisible(prevu.date)}</strong></p>
+            <ul className="fiche__liste">
+              {prevu.notions.map((n) => <li key={n}>{titres.get(n) ?? n}</li>)}
+            </ul>
+            <p className="muet" style={{ margin: 0 }}>Chaque jour d’ici là, la mission de {enfant.prenom} commence par ces notions.</p>
+            <div className="ligne">
+              <button type="button" className="hp-btn hp-btn--primary" onClick={() => { setDate(prevu.date); setChoix(prevu.notions); setEdition(true); }}>Modifier</button>
+              <button type="button" className="hp-btn hp-btn--ghost" onClick={() => enregistrer(null)}>Annuler le contrôle</button>
+            </div>
+          </>
+        ) : (
+          <>
+            <p className="muet" style={{ margin: 0 }}>Aucun contrôle prévu. Indique la date et les notions : la mission du jour de {enfant.prenom} les fera réviser jusque-là.</p>
+            <button type="button" className="hp-btn hp-btn--primary" onClick={() => setEdition(true)}>Prévoir un contrôle</button>
+          </>
+        )}
+        {message && <p className="muet" role="alert">{message}</p>}
+      </section>
+    );
+  }
+  return (
+    <>
+      <ChoixControle notions={competencesJouables(sansMatieres(pack, enfant.matieres_masquees))} date={date} onDate={setDate} choix={choix} onChoix={setChoix} />
+      {message && <p className="muet" role="alert">{message}</p>}
+      <div className="ligne">
+        <span className="muet pousse">{choix.length === 0 ? 'Choisis au moins une notion.' : `${choix.length} notion${choix.length > 1 ? 's' : ''} · ${jourLisible(date)}`}</span>
+        <button type="button" className="hp-btn hp-btn--ghost" onClick={() => setEdition(false)}>Retour</button>
+        <button type="button" className="hp-btn hp-btn--primary" disabled={choix.length === 0} onClick={() => enregistrer({ date, notions: choix })}>Enregistrer</button>
+      </div>
     </>
   );
 }

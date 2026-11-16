@@ -182,3 +182,11 @@ a.hp-chip { text-decoration: none; }
 .trophee__condition { font-size: 12px; line-height: 16px; }
 .etat-reseau { display: flex; align-items: center; gap: var(--space-2); margin: 0; padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-md); background: var(--surface-2); color: var(--ink-muted); font-size: 13px; }
+
+/* Bilan de la semaine (espace parent). */
+.bilan { display: flex; flex-direction: column; gap: var(--space-3); }
+.bilan .titre-3 { margin: 0; }
+.bilan__enfant { display: flex; flex-direction: column; gap: var(--space-1); }
+.bilan__enfant p { margin: 0; }
+.bilan__email { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; }
+.bilan__email input { width: 20px; height: 20px; accent-color: var(--primary); }

@@ -22,11 +22,12 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 - `resultats` (réponse choisie et code d'erreur, jamais de texte libre), `progression_competences` (révision espacée), `badges_enfant`.
 - `records_defis`, `controles` (un contrôle prévu par enfant).
 - `admins`, `relectures`.
+- `membres_famille.bilan_hebdo` : le parent a demandé le bilan du dimanche par e-mail. `public.bilans_a_envoyer()` (adresse et bilan) n'est exécutable qu'avec la clé de service.
 - Le contenu pédagogique n'est pas en base : il vit dans Git et part dans des packs statiques par classe.
 
 ## Espaces
 
-**Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle prévu, réglages et appareils.
+**Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle (le parent le prévoit, le modifie ou l'annule), réglages et appareils. « Cette semaine » : bilan des 7 derniers jours par enfant (`public.bilan_semaine`), le même que l'e-mail du dimanche.
 
 **Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. Profil (`/profil`) : avatar (7 personnages, 8 teintes), Octave (6 couleurs, 6 accessoires, débloqués par niveau), collection de trophées calculés à partir de la progression (rien de plus n'est enregistré).
 
@@ -39,10 +40,30 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 1. Famille, co-parent, appairage des appareils, connexion Apple et Google (si activée dans Supabase), records et contrôles en base. **Fait le 16 novembre 2026.**
 2. Fiche enfant complète (progression par notion, séances, leçons consultées), réglages par enfant (prénom, avatar, classe, code, matières, temps de travail par jour), export et suppression des données. **Fait le 16 novembre 2026.**
 3. Profil enfant, mode hors connexion. **Fait le 16 novembre 2026.**
-4. Bilan du dimanche par email, contrôle programmé par le parent.
+4. Bilan du dimanche par email, contrôle programmé par le parent. **Fait le 16 novembre 2026** (l'envoi des e-mails s'active à la mise en ligne, voir plus bas).
 5. Photo de leçon, cahier de vacances, défi de la semaine en famille.
 
 ## Mettre en service
 
 - Connexion Apple et Google : activer les fournisseurs dans Supabase (Authentication, Providers), puis `VITE_AUTH_GOOGLE=1` et `VITE_AUTH_APPLE=1` dans `apps/pwa/.env.local`. Sans cela, seuls les liens magiques s'affichent.
 - Appairage par QR : le QR contient l'adresse de l'app (`/appairer?code=…`) ; l'appareil de l'enfant doit pouvoir l'ouvrir (même réseau en développement, adresse publique en production).
+- Bilan du dimanche par e-mail (une fois l'app en ligne, avec son domaine) :
+  1. Créer un compte Resend, vérifier le domaine d'envoi, créer une clé d'API.
+  2. Secrets de la fonction (Supabase, Edge Functions, Secrets) : `RESEND_API_KEY`, `BILAN_EXPEDITEUR` (par exemple `Hopla <bilan@domaine>`), `URL_APP` (adresse publique de l'app), `BILAN_CLE` (longue chaine aléatoire).
+  3. Déployer `supabase/functions/bilan-hebdo` sans vérification de JWT (la fonction vérifie elle-même `x-bilan-cle`).
+  4. Planifier l'envoi (extensions `pg_cron` et `pg_net`, clé rangée dans Vault) :
+     ```sql
+     create extension if not exists pg_cron;
+     create extension if not exists pg_net;
+     select vault.create_secret('<BILAN_CLE>', 'bilan_cle');
+     select cron.schedule('bilan-du-dimanche', '0 17 * * 0', $$
+       select net.http_post(
+         url := 'https://<projet>.supabase.co/functions/v1/bilan-hebdo',
+         headers := jsonb_build_object('Content-Type', 'application/json',
+           'x-bilan-cle', (select decrypted_secret from vault.decrypted_secrets where name = 'bilan_cle')),
+         body := '{}'::jsonb)
+     $$);
+     ```
+     (17 h UTC : 18 h à Paris en hiver, 19 h en été.)
+  5. `VITE_BILAN_EMAIL=1` dans l'environnement de l'app : la case « Bilan du dimanche par e-mail » apparait dans l'espace parent.
+  Le courriel ne contient que le prénom, la classe et des chiffres de la semaine ; le détail reste dans l'app. Resend reçoit ces éléments pour l'envoi.

@@ -49,6 +49,22 @@ export interface LeconVue {
   derniere_vue: string;
 }
 
+/** Bilan des 7 derniers jours d'un enfant (calculé en base, même calcul que l'e-mail du dimanche). */
+export interface BilanSemaine {
+  enfant_id: string;
+  prenom: string;
+  classe: Classe;
+  serie: number;
+  jours_actifs: number;
+  questions: number;
+  reussies: number;
+  minutes: number;
+  notions: number;
+  maitrisees: number;
+  a_revoir: number;
+  controle: { date: string; notions: number } | null;
+}
+
 export interface FicheEnfant {
   historique: JourneeNotion[];
   lecons: LeconVue[];
@@ -145,6 +161,10 @@ export interface Api {
   noterDefi(defi: string, score: number): Promise<boolean>;
   controle(enfant?: string): Promise<ControlePrevu | null>;
   prevoirControle(c: ControlePrevu | null, enfant?: string): Promise<void>;
+  // Bilan de la semaine (mode parent) et e-mail du dimanche.
+  bilanSemaine(): Promise<BilanSemaine[]>;
+  bilanHebdoActif(): Promise<boolean>;
+  reglerBilanHebdo(actif: boolean): Promise<void>;
   // Fiche enfant (mode parent).
   modeParentActif(): Promise<boolean>;
   ficheEnfant(enfant: string): Promise<FicheEnfant>;
@@ -205,8 +225,7 @@ export function nomAppareil(): string {
   return 'Appareil';
 }
 
-const auJour = () => {
-  const d = new Date();
+const auJour = (d = new Date()) => {
   const z = (n: number) => String(n).padStart(2, '0');
   return `${d.getFullYear()}-${z(d.getMonth() + 1)}-${z(d.getDate())}`;
 };
@@ -415,6 +434,20 @@ function apiSupabase(url: string, cle: string): Api {
       const { error } = c
         ? await client.from('controles').upsert({ enfant_id: id, date: c.date, notions: c.notions, maj_le: new Date().toISOString() })
         : await client.from('controles').delete().eq('enfant_id', id);
+      if (error) throw error;
+    },
+    async bilanSemaine() {
+      const { data, error } = await client.rpc('bilan_semaine');
+      if (error) throw error;
+      return data as BilanSemaine[];
+    },
+    async bilanHebdoActif() {
+      const { data, error } = await client.rpc('bilan_hebdo_actif');
+      if (error) throw error;
+      return data === true;
+    },
+    async reglerBilanHebdo(actif) {
+      const { error } = await client.rpc('regler_bilan_hebdo', { p_actif: actif });
       if (error) throw error;
     },
     async modeParentActif() {
@@ -694,6 +727,30 @@ function apiDemo(): Api {
       const id = enfant ?? (await this.enfantCourant())?.id;
       if (id) ecrireDemo(`hopla.controle.${id}`, c);
     },
+    async bilanSemaine() {
+      const debut = auJour(new Date(Date.now() - 6 * 86_400_000));
+      const h = lireDemo<Record<string, JourneeNotion[]>>('hopla.demo-historique', {});
+      const suivis = lireJournal();
+      return Promise.all(lire().map(async (e) => {
+        const l = (h[e.id] ?? []).filter((x) => x.jour >= debut);
+        const notions = new Set(l.map((x) => x.competence_id));
+        const prog = suivis[e.id]?.progression ?? {};
+        const c = await this.controle(e.id);
+        return {
+          enfant_id: e.id, prenom: e.prenom, classe: e.classe, serie: e.serie,
+          jours_actifs: new Set(l.map((x) => x.jour)).size,
+          questions: l.reduce((n, x) => n + x.questions, 0),
+          reussies: l.reduce((n, x) => n + x.reussies, 0),
+          minutes: Math.round(l.reduce((n, x) => n + x.duree_ms, 0) / 60_000),
+          notions: notions.size,
+          maitrisees: [...notions].filter((id) => (prog[id]?.score ?? 0) >= 0.85).length,
+          a_revoir: Object.values(prog).filter((s) => s.nbEssais > 0 && s.prochaineRevision <= auJour()).length,
+          controle: c ? { date: c.date, notions: c.notions.length } : null,
+        };
+      }));
+    },
+    bilanHebdoActif: async () => lireDemo('hopla.demo-bilan', false),
+    async reglerBilanHebdo(actif) { ecrireDemo('hopla.demo-bilan', actif); },
     modeParentActif: async () => sessionStorage.getItem(CLE_PARENT) === 'demo',
     async ficheEnfant(enfant) {
       return {

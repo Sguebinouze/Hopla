@@ -48,12 +48,13 @@ beforeAll(async () => {
   await db.exec(`
     create role anon nologin;
     create role authenticated nologin;
+    create role service_role nologin;
     create schema auth;
     create schema extensions;
     create table auth.users (id uuid primary key, email text);
     create function auth.uid() returns uuid language sql stable as
       $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
-    grant usage on schema public, auth, extensions to anon, authenticated;
+    grant usage on schema public, auth, extensions to anon, authenticated, service_role;
     insert into auth.users values ('${PARENT_A}', 'a@exemple.fr'), ('${PARENT_B}', 'b@exemple.fr'), ('${PARENT_C}', 'c@exemple.fr');
   `);
   const dossier = join(import.meta.dirname, '..', 'migrations');
@@ -284,6 +285,38 @@ describe('sessions et isolation', () => {
     await expect(en(lea_, `select public.regler_mon_profil('chat-bleu', 'pas valide')`)).rejects.toThrow(/check constraint/);
     await expect(en(lea_, `update public.enfants set octave = 'or.couronne' where id = $1`, [lea])).rejects.toThrow(/permission denied/);
     await en(lea_, `select public.regler_mon_profil('teal', null)`);
+  });
+
+  it('bilan de la semaine : famille seulement, mode parent ; envoi par e-mail aux seuls inscrits, clé de service', async () => {
+    const modeP = { parent: PARENT_A, parentMode: modeA };
+    type Ligne = { prenom: string; questions: number; jours_actifs: number; erreurs: unknown[]; controle: unknown };
+    const b = (await une<Ligne[]>(modeP, `select public.bilan_semaine() as b`))!.b!;
+    expect(b.map((x) => x.prenom)).toEqual(['Léa', 'Tom']);
+    expect(b[0]!.questions).toBeGreaterThan(0);
+    expect(b[0]!.jours_actifs).toBe(1);
+    expect(b[0]).toHaveProperty('controle');
+    expect(b[1]!.questions).toBe(0);
+    await expect(en({ parent: PARENT_A }, `select public.bilan_semaine()`)).rejects.toThrow(/Mode parent requis/);
+    await expect(en({ parent: PARENT_A, enfant: sessionLea }, `select public.bilan_semaine()`)).rejects.toThrow(/Mode parent requis/);
+    await expect(surAppareil(null, `select public.bilan_semaine()`)).rejects.toThrow(/permission denied/);
+
+    const service = async () => db.transaction(async (tx) => {
+      await tx.exec('set local role service_role');
+      return (await tx.query<{ email: string; bilan: { prenom: string }[] }>(`select * from public.bilans_a_envoyer()`)).rows;
+    });
+    expect(await service()).toEqual([]);
+    expect((await une<boolean>({ parent: PARENT_A }, `select public.bilan_hebdo_actif() as a`))!.a).toBe(false);
+    await expect(en({ parent: PARENT_A }, `select public.regler_bilan_hebdo(true)`)).rejects.toThrow(/Mode parent requis/);
+    await en(modeP, `select public.regler_bilan_hebdo(true)`);
+    expect((await une<boolean>({ parent: PARENT_A }, `select public.bilan_hebdo_actif() as a`))!.a).toBe(true);
+    const envois = await service();
+    expect(envois.map((e) => [e.email, e.bilan.map((x) => x.prenom)])).toEqual([['a@exemple.fr', ['Léa', 'Tom']]]);
+    for (const qui of [() => en({ parent: PARENT_A }, `select * from public.bilans_a_envoyer()`), () => en(modeP, `select * from public.bilans_a_envoyer()`),
+      () => surAppareil(null, `select * from public.bilans_a_envoyer()`)]) {
+      await expect(qui()).rejects.toThrow(/permission denied/);
+    }
+    await en(modeP, `select public.regler_bilan_hebdo(false)`);
+    expect(await service()).toEqual([]);
   });
 
   it('suppression du compte : les enfants restent si un autre parent est membre, sinon tout part', async () => {
