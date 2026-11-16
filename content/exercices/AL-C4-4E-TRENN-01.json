@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-TRENN-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-TRENN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « aufstehen » ?",
+      "options": [
+        "se lever",
+        "se coucher",
+        "manger"
+      ],
+      "reponse": "se lever",
+      "indice": "Le matin, après le réveil.",
+      "explication": "« aufstehen » : se lever.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « abends » ?",
+      "options": [
+        "le soir",
+        "le matin",
+        "à midi"
+      ],
+      "reponse": "le soir",
+      "indice": "der Abend.",
+      "explication": "« abends » : le soir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où va la particule séparable au présent ?",
+      "options": [
+        "à la fin de la phrase",
+        "avant le sujet",
+        "collée au verbe"
+      ],
+      "reponse": "à la fin de la phrase",
+      "indice": "Ich stehe … auf.",
+      "explication": "La particule se détache et va en fin de phrase.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich rufe meine Oma an.",
+        "Ich anrufe meine Oma.",
+        "Ich rufe an meine Oma."
+      ],
+      "reponse": "Ich rufe meine Oma an.",
+      "indice": "an|rufen.",
+      "explication": "Verbe en 2e position, particule an à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À quelle heure se lève-t-il ?",
+      "options": [
+        "à 6 h 30",
+        "à 7 h 30",
+        "à 6 h"
+      ],
+      "reponse": "à 6 h 30",
+      "indice": "« halb sieben ».",
+      "explication": "« Ich stehe um halb sieben auf » : je me lève à 6 h 30.",
+      "ecoute": {
+        "texte": "Ich stehe um halb sieben auf.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Kommst du … ? » (Tu viens avec nous ?)",
+      "options": [
+        "mit",
+        "an",
+        "fern"
+      ],
+      "reponse": "mit",
+      "indice": "mit|kommen.",
+      "explication": "« Kommst du mit? » : tu viens avec nous ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Am Samstag … meine Mutter … » (einkaufen)",
+      "options": [
+        "kauft … ein",
+        "einkauft …",
+        "kauft … auf"
+      ],
+      "reponse": "kauft … ein",
+      "indice": "ein|kaufen.",
+      "explication": "« Am Samstag kauft meine Mutter ein. »",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Remets dans l’ordre : « um 8 Uhr / die Schule / fängt / an »",
+      "options": [
+        "Die Schule fängt um 8 Uhr an.",
+        "Die Schule anfängt um 8 Uhr.",
+        "Um 8 Uhr die Schule fängt an."
+      ],
+      "reponse": "Die Schule fängt um 8 Uhr an.",
+      "indice": "an|fangen : commencer.",
+      "explication": "Verbe conjugué en 2e position, particule an à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

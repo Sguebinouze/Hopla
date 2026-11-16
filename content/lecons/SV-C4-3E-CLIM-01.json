@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-CLIM-01",
+  "exemple": "Une voiture garée au soleil, vitres fermées, devient très chaude : la chaleur reste piégée.",
+  "regle": "Les **gaz à effet de serre** de l’atmosphère retiennent une partie de la chaleur émise par la Terre : vapeur d’eau, **dioxyde de carbone**, **méthane**. Cet **effet de serre** naturel rend la Terre habitable. Les activités humaines augmentent ces gaz : combustion du **pétrole**, du **charbon** et du **gaz**, déforestation, élevage. La température moyenne s’élève : c’est le **réchauffement climatique**. Conséquences : fonte des glaces, montée du niveau des mers, déplacement d’espèces.",
+  "piege": "L’effet de serre n’est pas un problème en soi : c’est son renforcement par les activités humaines qui réchauffe la planète.",
+  "essai": {
+    "consigne": "Quelle activité humaine rejette le plus de dioxyde de carbone ?",
+    "options": [
+      "bruler du pétrole, du charbon ou du gaz",
+      "planter des arbres",
+      "recycler le verre"
+    ],
+    "reponse": "bruler du pétrole, du charbon ou du gaz",
+    "explication": "La combustion des énergies fossiles libère du dioxyde de carbone."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

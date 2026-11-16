@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-HORA-01",
+  "exemple": "« ¿Qué hora es? » « Es la una y media. » « ¡Ya! La película empieza a las dos en punto. »",
+  "regle": "Pour demander : **¿Qué hora es?** Pour 1 h : **Es la una**. Ensuite : **Son las dos**, **son las tres**. **y cuarto** : et quart. **y media** : et demie. **menos cuarto** : moins le quart. **en punto** : pile. Nombres : veinte, **veintiuno**, treinta, **treinta y dos**, cuarenta, cincuenta, **cien**. En Espagne, on déjeune souvent vers 14 h et on dine tard, souvent après 21 h.",
+  "piege": "« Son las cinco menos cuarto » veut dire 4 h 45, pas 5 h 15.",
+  "essai": {
+    "consigne": "Que vaut « treinta y cinco » ?",
+    "options": [
+      "35",
+      "53",
+      "30"
+    ],
+    "reponse": "35",
+    "explication": "treinta (30) y cinco (5) : 35."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

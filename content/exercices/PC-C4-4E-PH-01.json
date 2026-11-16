@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-PH-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-PH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une solution de pH 3 est…",
+      "options": [
+        "acide",
+        "neutre",
+        "basique"
+      ],
+      "reponse": "acide",
+      "indice": "Comparer à 7.",
+      "explication": "3 est inférieur à 7 : la solution est acide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’eau pure a un pH de…",
+      "options": [
+        "7",
+        "0",
+        "14"
+      ],
+      "reponse": "7",
+      "indice": "Elle est neutre.",
+      "explication": "L’eau pure est neutre : pH 7.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quel appareil mesure-t-on précisément le pH ?",
+      "options": [
+        "un pH-mètre",
+        "un thermomètre",
+        "une balance"
+      ],
+      "reponse": "un pH-mètre",
+      "indice": "Son nom contient « pH ».",
+      "explication": "Le pH-mètre donne la valeur du pH.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Laquelle de ces solutions est la plus acide ?",
+      "options": [
+        "pH = 2",
+        "pH = 5",
+        "pH = 6"
+      ],
+      "reponse": "pH = 2",
+      "indice": "Plus le pH est petit…",
+      "explication": "Plus le pH est petit, plus la solution est acide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On dilue du vinaigre avec beaucoup d’eau. Son pH…",
+      "options": [
+        "augmente vers 7",
+        "diminue vers 0",
+        "ne change pas"
+      ],
+      "reponse": "augmente vers 7",
+      "indice": "Il devient moins acide.",
+      "explication": "Diluer un acide le rend moins acide : son pH augmente et se rapproche de 7.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un produit de nettoyage a un pH de 12. Il est…",
+      "options": [
+        "basique",
+        "acide",
+        "neutre"
+      ],
+      "reponse": "basique",
+      "indice": "Supérieur à 7.",
+      "explication": "pH 12 : solution basique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi porter des lunettes pour manipuler un détartrant de pH 1 ?",
+      "options": [
+        "Il est très acide et corrosif pour les yeux.",
+        "Il est neutre.",
+        "Il dégage de la lumière."
+      ],
+      "reponse": "Il est très acide et corrosif pour les yeux.",
+      "indice": "pH très bas.",
+      "explication": "Une solution de pH 1 est très acide : une projection peut bruler les yeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-PH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On dilue une solution basique de pH 12 avec beaucoup d’eau. Son nouveau pH peut être…",
+      "options": [
+        "10",
+        "13",
+        "3"
+      ],
+      "reponse": "10",
+      "indice": "Elle se rapproche de 7 sans le dépasser.",
+      "explication": "Diluer une base fait baisser son pH vers 7 : 10 convient.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

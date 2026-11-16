@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-5E-FAM-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-FAM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « die Schwester » ?",
+      "options": [
+        "la sœur",
+        "le frère",
+        "la mère"
+      ],
+      "reponse": "la sœur",
+      "indice": "Sister en anglais.",
+      "explication": "« die Schwester » : la sœur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « der Vater » ?",
+      "options": [
+        "le père",
+        "le grand-père",
+        "l’oncle"
+      ],
+      "reponse": "le père",
+      "indice": "Father en anglais.",
+      "explication": "« der Vater » : le père.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. De qui parle-t-on ?",
+      "options": [
+        "de la grand-mère",
+        "de la sœur",
+        "du père"
+      ],
+      "reponse": "de la grand-mère",
+      "indice": "« Oma ».",
+      "explication": "« Meine Oma heißt Gisela » : ma grand-mère s’appelle Gisela.",
+      "ecoute": {
+        "texte": "Meine Oma heißt Gisela.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « die Eltern » ?",
+      "options": [
+        "les parents",
+        "les grands-parents",
+        "les enfants"
+      ],
+      "reponse": "les parents",
+      "indice": "Le père et la mère.",
+      "explication": "« die Eltern » : les parents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Das ist … Bruder. »",
+      "options": [
+        "mein",
+        "meine",
+        "meinen"
+      ],
+      "reponse": "mein",
+      "indice": "Bruder est masculin.",
+      "explication": "Devant un nom masculin : mein Bruder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Ich habe zwei Geschwister » ?",
+      "options": [
+        "J’ai deux frères et sœurs.",
+        "J’ai deux grands-parents.",
+        "J’ai deux enfants."
+      ],
+      "reponse": "J’ai deux frères et sœurs.",
+      "indice": "Geschwister regroupe frères et sœurs.",
+      "explication": "« Geschwister » : les frères et sœurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « … Großeltern wohnen in München. »",
+      "options": [
+        "Meine",
+        "Mein",
+        "Meinen"
+      ],
+      "reponse": "Meine",
+      "indice": "Großeltern est un pluriel.",
+      "explication": "Devant un pluriel : meine Großeltern.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-FAM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que comprends-tu ?",
+      "options": [
+        "Son frère a seize ans.",
+        "Sa sœur a six ans.",
+        "Son père a soixante ans."
+      ],
+      "reponse": "Son frère a seize ans.",
+      "indice": "« sechzehn » : 16.",
+      "explication": "« Mein Bruder ist sechzehn » : mon frère a seize ans.",
+      "ecoute": {
+        "texte": "Mein Bruder ist sechzehn.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

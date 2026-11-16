@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-5E-CLIM-01",
+  "exercices": [
+    {
+      "id": "SV-C4-5E-CLIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La météo décrit le temps qu’il fait…",
+      "options": [
+        "sur quelques heures ou quelques jours",
+        "sur au moins 30 ans",
+        "sur des millions d’années"
+      ],
+      "reponse": "sur quelques heures ou quelques jours",
+      "indice": "Pense au bulletin météo du soir.",
+      "explication": "La météo porte sur une courte durée : heures ou jours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le climat d’une région se calcule sur…",
+      "options": [
+        "au moins 30 ans",
+        "une semaine",
+        "une saison"
+      ],
+      "reponse": "au moins 30 ans",
+      "indice": "Il faut des moyennes.",
+      "explication": "Le climat est une moyenne calculée sur au moins 30 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase décrit un climat ?",
+      "options": [
+        "À Nice, les étés sont chauds et secs.",
+        "Demain, il pleuvra à Nice.",
+        "Il fait 25 °C à Nice ce midi."
+      ],
+      "reponse": "À Nice, les étés sont chauds et secs.",
+      "indice": "Cherche une habitude, pas un jour précis.",
+      "explication": "« Les étés sont chauds et secs » décrit une tendance sur de longues années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où trouve-t-on des ours blancs à l’état sauvage ?",
+      "options": [
+        "dans la zone polaire nord",
+        "dans la zone tempérée",
+        "dans la zone tropicale"
+      ],
+      "reponse": "dans la zone polaire nord",
+      "indice": "Banquise et grand froid.",
+      "explication": "L’ours blanc vit dans la zone polaire de l’Arctique, adapté au froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le vent est un déplacement…",
+      "options": [
+        "de masses d’air",
+        "de masses d’eau",
+        "de nuages seulement"
+      ],
+      "reponse": "de masses d’air",
+      "indice": "Il se produit dans l’atmosphère.",
+      "explication": "Le vent est un déplacement de masses d’air.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un courant océanique chaud longe l’Europe de l’Ouest. Son effet sur le climat de la Bretagne ?",
+      "options": [
+        "Il adoucit les hivers.",
+        "Il rend les étés glacials.",
+        "Il n’a aucun effet."
+      ],
+      "reponse": "Il adoucit les hivers.",
+      "indice": "Il apporte de la chaleur.",
+      "explication": "Ce courant chaud transporte de la chaleur : les hivers y sont plus doux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un hiver très froid en France prouve-t-il que le climat se refroidit ?",
+      "options": [
+        "Non, il faut des moyennes sur des dizaines d’années.",
+        "Oui, un hiver suffit.",
+        "Oui, si la neige tombe deux fois."
+      ],
+      "reponse": "Non, il faut des moyennes sur des dizaines d’années.",
+      "indice": "Météo ou climat ?",
+      "explication": "Un épisode froid relève de la météo. Une évolution du climat se mesure sur au moins 30 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la flore de la zone tropicale humide est-elle très abondante ?",
+      "options": [
+        "Chaleur et pluies toute l’année favorisent la croissance des plantes.",
+        "Il n’y a jamais de soleil.",
+        "Les sols y sont toujours gelés."
+      ],
+      "reponse": "Chaleur et pluies toute l’année favorisent la croissance des plantes.",
+      "indice": "Que faut-il à une plante pour pousser ?",
+      "explication": "Chaleur et eau abondantes toute l’année permettent une forte croissance végétale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

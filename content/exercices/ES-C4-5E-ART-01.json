@@ -1,0 +1,141 @@
+{
+  "competence": "ES-C4-5E-ART-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-ART-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel article va avec « casa » ?",
+      "options": [
+        "la",
+        "el",
+        "los"
+      ],
+      "reponse": "la",
+      "indice": "Nom en -a.",
+      "explication": "« la casa » : nom féminin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pluriel de « el libro » :",
+      "options": [
+        "los libros",
+        "las libros",
+        "el libros"
+      ],
+      "reponse": "los libros",
+      "indice": "Masculin pluriel.",
+      "explication": "el → los, libro → libros.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tengo … hermana. » (une)",
+      "options": [
+        "una",
+        "un",
+        "unos"
+      ],
+      "reponse": "una",
+      "indice": "Féminin singulier.",
+      "explication": "hermana est féminin : una hermana.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « Je veux de l’eau » ?",
+      "options": [
+        "Quiero agua.",
+        "Quiero de la agua.",
+        "Quiero del agua."
+      ],
+      "reponse": "Quiero agua.",
+      "indice": "Pas de partitif.",
+      "explication": "L’espagnol n’emploie pas de partitif : Quiero agua.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « J’aime l’Espagne » ?",
+      "options": [
+        "Me gusta España.",
+        "Me gusta la España.",
+        "Me gusta el España."
+      ],
+      "reponse": "Me gusta España.",
+      "indice": "Pas d’article devant le pays.",
+      "explication": "Pas d’article devant España.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pluriel de « la ciudad » :",
+      "options": [
+        "las ciudades",
+        "las ciudads",
+        "los ciudades"
+      ],
+      "reponse": "las ciudades",
+      "indice": "Consonne finale.",
+      "explication": "ciudad se termine par une consonne : ciudades.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« día » est…",
+      "options": [
+        "masculin : el día",
+        "féminin : la día",
+        "neutre"
+      ],
+      "reponse": "masculin : el día",
+      "indice": "Exception.",
+      "explication": "Malgré son -a, día est masculin : el día.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-ART-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Las chicas son … » (simpático)",
+      "options": [
+        "simpáticas",
+        "simpático",
+        "simpáticos"
+      ],
+      "reponse": "simpáticas",
+      "indice": "Accord féminin pluriel.",
+      "explication": "L’adjectif s’accorde : las chicas simpáticas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

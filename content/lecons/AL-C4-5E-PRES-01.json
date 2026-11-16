@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-PRES-01",
+  "exemple": "« Hallo! Ich heiße Paul. Ich bin dreizehn Jahre alt. Ich komme aus Frankreich und wohne in Lyon. »",
+  "regle": "Pour se présenter : **Ich heiße…** (je m’appelle), **Ich bin … Jahre alt** (j’ai … ans), **Ich komme aus…** (je viens de), **Ich wohne in…** (j’habite à). Pour demander : **Wie heißt du?**, **Wie alt bist du?**, **Woher kommst du?**, **Wo wohnst du?**",
+  "piege": "L’âge se dit avec **sein** (être) : « Ich bin zwölf », et non avec haben.",
+  "essai": {
+    "consigne": "Comment dit-on « j’habite à Paris » ?",
+    "options": [
+      "Ich wohne in Paris.",
+      "Ich komme aus Paris.",
+      "Ich heiße Paris."
+    ],
+    "reponse": "Ich wohne in Paris.",
+    "explication": "« Wohnen in » signifie habiter à."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

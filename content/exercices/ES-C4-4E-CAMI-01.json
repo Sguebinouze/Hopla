@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-CAMI-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-CAMI-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « todo recto » ?",
+      "options": [
+        "tout droit",
+        "à gauche",
+        "en face"
+      ],
+      "reponse": "tout droit",
+      "indice": "Sans tourner.",
+      "explication": "« todo recto » : tout droit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « la estación » ?",
+      "options": [
+        "la gare",
+        "la saison seulement",
+        "la station-service"
+      ],
+      "reponse": "la gare",
+      "indice": "On y prend le train.",
+      "explication": "« la estación (de tren) » : la gare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment aborder poliment un passant ?",
+      "options": [
+        "Perdone, …",
+        "¡Adiós!, …",
+        "Buenas noches, me voy, …"
+      ],
+      "reponse": "Perdone, …",
+      "indice": "Excusez-moi.",
+      "explication": "« Perdone » : excusez-moi (vouvoiement).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « ¿Para ir … museo? »",
+      "options": [
+        "al",
+        "a el",
+        "del"
+      ],
+      "reponse": "al",
+      "indice": "a + el.",
+      "explication": "a + el se contracte en al.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « en el semáforo » ?",
+      "options": [
+        "au feu",
+        "au rond-point",
+        "au pont"
+      ],
+      "reponse": "au feu",
+      "indice": "Feu tricolore.",
+      "explication": "« el semáforo » : le feu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où faut-il tourner ?",
+      "options": [
+        "à droite",
+        "à gauche",
+        "nulle part"
+      ],
+      "reponse": "à droite",
+      "indice": "« derecha ».",
+      "explication": "« Gire a la derecha » : tournez à droite.",
+      "ecoute": {
+        "texte": "Siga todo recto y gire a la derecha.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Está muy cerca, a cinco minutos » ?",
+      "options": [
+        "C’est tout près, à cinq minutes.",
+        "C’est loin, à cinq kilomètres.",
+        "C’est fermé pendant cinq minutes."
+      ],
+      "reponse": "C’est tout près, à cinq minutes.",
+      "indice": "« cerca » : près.",
+      "explication": "« cerca » : près.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Tome la segunda calle a la izquierda » ?",
+      "options": [
+        "Prenez la deuxième rue à gauche.",
+        "Prenez la première rue à droite.",
+        "Traversez deux rues."
+      ],
+      "reponse": "Prenez la deuxième rue à gauche.",
+      "indice": "« segunda » : deuxième.",
+      "explication": "« la segunda calle a la izquierda » : la deuxième rue à gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-LUM-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-LUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet produit sa propre lumière ?",
+      "options": [
+        "le Soleil",
+        "la Lune",
+        "une feuille blanche"
+      ],
+      "reponse": "le Soleil",
+      "indice": "C’est une étoile.",
+      "explication": "Le Soleil est une source primaire de lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un objet diffusant…",
+      "options": [
+        "renvoie la lumière qu’il reçoit",
+        "produit sa propre lumière",
+        "absorbe toujours toute la lumière"
+      ],
+      "reponse": "renvoie la lumière qu’il reçoit",
+      "indice": "Comme un mur éclairé.",
+      "explication": "Un objet diffusant renvoie dans toutes les directions la lumière qu’il reçoit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans l’air, la lumière se propage…",
+      "options": [
+        "en ligne droite",
+        "en zigzag",
+        "en cercle"
+      ],
+      "reponse": "en ligne droite",
+      "indice": "Pense au faisceau d’une lampe torche.",
+      "explication": "Dans un milieu homogène et transparent, la lumière va en ligne droite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour voir un livre, il faut que…",
+      "options": [
+        "la lumière diffusée par le livre entre dans l’œil",
+        "l’œil envoie de la lumière vers le livre",
+        "le livre produise de la lumière"
+      ],
+      "reponse": "la lumière diffusée par le livre entre dans l’œil",
+      "indice": "La lumière va de l’objet vers l’œil.",
+      "explication": "On voit un objet quand la lumière qu’il diffuse parvient à l’œil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment représente-t-on la lumière sur un schéma ?",
+      "options": [
+        "par une droite fléchée",
+        "par un point",
+        "par une vague sans flèche"
+      ],
+      "reponse": "par une droite fléchée",
+      "indice": "Le modèle du rayon lumineux.",
+      "explication": "Un rayon lumineux se dessine comme une droite avec une flèche dans le sens de propagation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La zone sombre derrière un objet opaque éclairé s’appelle…",
+      "options": [
+        "l’ombre portée",
+        "la source primaire",
+        "le rayon lumineux"
+      ],
+      "reponse": "l’ombre portée",
+      "indice": "Elle est « portée » sur l’écran ou le sol.",
+      "explication": "L’objet bloque la lumière : derrière lui se forme l’ombre portée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On rapproche une lampe d’un objet placé devant un écran. Son ombre portée…",
+      "options": [
+        "grandit",
+        "rétrécit",
+        "disparait"
+      ],
+      "reponse": "grandit",
+      "indice": "Trace les rayons qui frôlent l’objet.",
+      "explication": "Plus la source est proche, plus les rayons s’écartent derrière l’objet : l’ombre grandit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-LUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne faut-il jamais regarder le Soleil ou un laser en face ?",
+      "options": [
+        "La lumière intense peut abimer l’œil de façon définitive.",
+        "Ils n’émettent aucune lumière.",
+        "La lumière se propage trop lentement."
+      ],
+      "reponse": "La lumière intense peut abimer l’œil de façon définitive.",
+      "indice": "Sécurité.",
+      "explication": "Une lumière très intense peut bruler la rétine, parfois sans douleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

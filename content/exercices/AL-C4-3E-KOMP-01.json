@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-KOMP-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-KOMP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Der Zug ist schneller … das Auto. »",
+      "options": [
+        "als",
+        "wie",
+        "dass"
+      ],
+      "reponse": "als",
+      "indice": "Comparatif + als.",
+      "explication": "Après un comparatif de supériorité : als.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparatif de « alt » :",
+      "options": [
+        "älter",
+        "alter",
+        "mehr alt"
+      ],
+      "reponse": "älter",
+      "indice": "Umlaut.",
+      "explication": "alt → älter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « so groß wie » ?",
+      "options": [
+        "aussi grand que",
+        "plus grand que",
+        "le plus grand"
+      ],
+      "reponse": "aussi grand que",
+      "indice": "Égalité.",
+      "explication": "« so … wie » : aussi … que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comparatif de « gut » :",
+      "options": [
+        "besser",
+        "guter",
+        "güter"
+      ],
+      "reponse": "besser",
+      "indice": "Forme irrégulière.",
+      "explication": "gut → besser → am besten.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich esse … Obst als Fleisch. » (plus de)",
+      "options": [
+        "mehr",
+        "vieler",
+        "meist"
+      ],
+      "reponse": "mehr",
+      "indice": "viel → ?",
+      "explication": "viel → mehr.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est le plus jeune ?",
+      "options": [
+        "Anna",
+        "Tom",
+        "ils ont le même âge"
+      ],
+      "reponse": "Anna",
+      "indice": "« jünger als » : plus jeune que.",
+      "explication": "« Anna ist jünger als Tom » : Anna est plus jeune.",
+      "ecoute": {
+        "texte": "Anna ist jünger als Tom.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « … spiele ich Handball. » (C’est au handball que je préfère jouer.)",
+      "options": [
+        "Am liebsten",
+        "Am besten",
+        "Lieber als"
+      ],
+      "reponse": "Am liebsten",
+      "indice": "Superlatif de gern.",
+      "explication": "gern → lieber → am liebsten.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Die Zugspitze ist der höchste Berg Deutschlands.",
+        "Die Zugspitze ist der hochste Berg Deutschlands.",
+        "Die Zugspitze ist der mehr hoch Berg Deutschlands."
+      ],
+      "reponse": "Die Zugspitze ist der höchste Berg Deutschlands.",
+      "indice": "hoch → höher → am höchsten.",
+      "explication": "Superlatif de hoch avec Umlaut : der höchste Berg.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

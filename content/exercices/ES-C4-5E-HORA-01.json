@@ -1,0 +1,149 @@
+{
+  "competence": "ES-C4-5E-HORA-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-HORA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « ¿Qué hora es? » ?",
+      "options": [
+        "Quelle heure est-il ?",
+        "Quel âge as-tu ?",
+        "Quel jour sommes-nous ?"
+      ],
+      "reponse": "Quelle heure est-il ?",
+      "indice": "« hora » : heure.",
+      "explication": "« ¿Qué hora es? » : quelle heure est-il ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle heure est-il ?",
+      "options": [
+        "3 h",
+        "13 h 30",
+        "2 h"
+      ],
+      "reponse": "3 h",
+      "indice": "« tres » : trois.",
+      "explication": "« Son las tres » : il est 3 h.",
+      "ecoute": {
+        "texte": "Son las tres.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que vaut « quince » ?",
+      "options": [
+        "15",
+        "50",
+        "5"
+      ],
+      "reponse": "15",
+      "indice": "Entre catorce et dieciséis.",
+      "explication": "« quince » : 15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Son las diez y cuarto », c’est…",
+      "options": [
+        "10 h 15",
+        "9 h 45",
+        "10 h 30"
+      ],
+      "reponse": "10 h 15",
+      "indice": "« y cuarto » : et quart.",
+      "explication": "« y cuarto » : 10 h 15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi dit-on « Es la una » et non « Son la una » ?",
+      "options": [
+        "Une heure est singulier.",
+        "C’est une exception sans raison.",
+        "On dit les deux."
+      ],
+      "reponse": "Une heure est singulier.",
+      "indice": "Une seule heure.",
+      "explication": "La una est singulier, donc es ; pour les autres heures, son.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "47",
+        "74",
+        "40"
+      ],
+      "reponse": "47",
+      "indice": "« cuarenta y siete ».",
+      "explication": "« cuarenta y siete » : 47.",
+      "ecoute": {
+        "texte": "cuarenta y siete",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Son las ocho menos cuarto », c’est…",
+      "options": [
+        "7 h 45",
+        "8 h 15",
+        "8 h 45"
+      ],
+      "reponse": "7 h 45",
+      "indice": "« menos » : moins.",
+      "explication": "Huit heures moins le quart : 7 h 45.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-HORA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En Espagne, le diner a lieu le plus souvent…",
+      "options": [
+        "tard, souvent après 21 h",
+        "vers 18 h",
+        "avant le déjeuner"
+      ],
+      "reponse": "tard, souvent après 21 h",
+      "indice": "Des horaires à part.",
+      "explication": "Les Espagnols dinent en général tard, souvent après 21 h.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

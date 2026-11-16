@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-COMP-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-COMP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Soy tan alto … mi padre. »",
+      "options": [
+        "como",
+        "que",
+        "de"
+      ],
+      "reponse": "como",
+      "indice": "tan … como.",
+      "explication": "Égalité : tan … como.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « menos caro que » ?",
+      "options": [
+        "moins cher que",
+        "plus cher que",
+        "aussi cher que"
+      ],
+      "reponse": "moins cher que",
+      "indice": "menos : moins.",
+      "explication": "« menos … que » : moins … que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparatif de « bueno » :",
+      "options": [
+        "mejor",
+        "más bueno",
+        "buenísimo"
+      ],
+      "reponse": "mejor",
+      "indice": "Irrégulier.",
+      "explication": "bueno → mejor.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Es la ciudad más bonita … España. »",
+      "options": [
+        "de",
+        "que",
+        "como"
+      ],
+      "reponse": "de",
+      "indice": "Superlatif : el más … de.",
+      "explication": "Superlatif : la más bonita de España.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « mi hermano mayor » ?",
+      "options": [
+        "mon frère ainé",
+        "mon frère le plus grand de taille",
+        "mon petit frère"
+      ],
+      "reponse": "mon frère ainé",
+      "indice": "mayor : plus âgé.",
+      "explication": "« mayor » : plus âgé, ainé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est le plus petit ?",
+      "options": [
+        "Pablo",
+        "Lucía",
+        "ils ont la même taille"
+      ],
+      "reponse": "Pablo",
+      "indice": "« más bajo que ».",
+      "explication": "« Pablo es más bajo que Lucía » : Pablo est plus petit.",
+      "ecoute": {
+        "texte": "Pablo es más bajo que Lucía.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Este pastel está riquísimo » ?",
+      "options": [
+        "Ce gâteau est délicieux.",
+        "Ce gâteau est cher.",
+        "Ce gâteau est trop sucré."
+      ],
+      "reponse": "Ce gâteau est délicieux.",
+      "indice": "-ísimo : très.",
+      "explication": "« riquísimo » : très bon, délicieux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-COMP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Juego … como tú. » (autant)",
+      "options": [
+        "tanto",
+        "tan",
+        "más"
+      ],
+      "reponse": "tanto",
+      "indice": "Avec un verbe.",
+      "explication": "Avec un verbe : tanto como.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

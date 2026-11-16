@@ -7,6 +7,7 @@ import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Classe, type Profil } from '../lib/donnees';
 import { estInstallee, installationDirecte, installer, plateforme } from '../lib/installation';
+import { aUneLv2, masqueesPourLv2, type Lv2 } from '../lib/packs';
 
 const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 const ETAPES = ['Votre adresse', 'Code parent', 'Vos enfants', 'Les appareils', 'Installer Hopla'] as const;
@@ -145,7 +146,7 @@ function EtapeCode({ onFait }: { onFait: () => void }) {
 function EtapeEnfants({ enfants, onAjout, onSuite }: {
   enfants: EnfantAssistant[]; onAjout: (e: EnfantAssistant) => void; onSuite: () => void;
 }) {
-  const vide = { prenom: '', classe: 'ce2' as Classe, avatar: 'orange', code: '' };
+  const vide = { prenom: '', classe: 'ce2' as Classe, avatar: 'orange', code: '', lv2: 'aucune' as Lv2 };
   const [ouvert, setOuvert] = useState(enfants.length === 0);
   const [f, setF] = useState(vide);
   const [message, setMessage] = useState('');
@@ -158,6 +159,11 @@ function EtapeEnfants({ enfants, onAjout, onSuite }: {
     setEnCours(true);
     try {
       const id = await api.creerEnfant(f);
+      if (aUneLv2(f.classe)) {
+        await api.reglerEnfant(id, {
+          prenom: f.prenom.trim(), avatar: f.avatar, classe: f.classe, matieres_masquees: masqueesPourLv2(f.lv2), minutes_par_jour: null,
+        });
+      }
       onAjout({ id, prenom: f.prenom.trim(), avatar: f.avatar, classe: f.classe, code_type: pictos ? 'pictos' : 'chiffres', ou: 'partage' });
       setF(vide);
       setOuvert(false);
@@ -194,6 +200,15 @@ function EtapeEnfants({ enfants, onAjout, onSuite }: {
               {CLASSES.map((c) => <option key={c} value={c}>{c.toUpperCase()}</option>)}
             </select>
           </label>
+          {aUneLv2(f.classe) && (
+            <label>Deuxième langue
+              <select value={f.lv2} onChange={(e) => setF({ ...f, lv2: e.target.value as Lv2 })}>
+                <option value="aucune">Aucune</option>
+                <option value="allemand">Allemand</option>
+                <option value="espagnol">Espagnol</option>
+              </select>
+            </label>
+          )}
           <span className="demarrer__libelle">Avatar</span>
           <ChoixAvatar valeur={f.avatar} taille={44} onChange={(avatar) => setF({ ...f, avatar })} />
           <span className="demarrer__libelle">Son code secret</span>

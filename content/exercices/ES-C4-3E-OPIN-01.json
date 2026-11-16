@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-OPIN-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-OPIN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Creo que » ?",
+      "options": [
+        "Je crois que",
+        "Je crée que",
+        "Je dis que"
+      ],
+      "reponse": "Je crois que",
+      "indice": "creer : croire.",
+      "explication": "« Creo que » : je crois que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Tienes razón » ?",
+      "options": [
+        "Tu as raison.",
+        "Tu as tort.",
+        "Tu as une raison."
+      ],
+      "reponse": "Tu as raison.",
+      "indice": "Accord.",
+      "explication": "« Tienes razón » : tu as raison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « a mi parecer » ?",
+      "options": [
+        "à mon avis",
+        "à mon arrivée",
+        "pour mon père"
+      ],
+      "reponse": "à mon avis",
+      "indice": "parecer : sembler.",
+      "explication": "« a mi parecer » : à mon avis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « sin embargo » ?",
+      "options": [
+        "cependant",
+        "sans problème",
+        "en plus"
+      ],
+      "reponse": "cependant",
+      "indice": "Opposition.",
+      "explication": "« sin embargo » : cependant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Est-elle d’accord ?",
+      "options": [
+        "Non, elle n’est pas d’accord.",
+        "Oui, totalement.",
+        "Elle ne sait pas."
+      ],
+      "reponse": "Non, elle n’est pas d’accord.",
+      "indice": "« no comparto ».",
+      "explication": "« No comparto tu opinión » : je ne partage pas ton avis.",
+      "ecoute": {
+        "texte": "No comparto tu opinión.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel connecteur ajoute un argument ?",
+      "options": [
+        "además",
+        "pero",
+        "sin embargo"
+      ],
+      "reponse": "además",
+      "indice": "De plus.",
+      "explication": "« además » : de plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Por un lado es caro, por otro … es muy útil. »",
+      "options": [
+        "lado",
+        "parte",
+        "vez"
+      ],
+      "reponse": "lado",
+      "indice": "Expression fixe.",
+      "explication": "« por un lado… por otro lado » : d’un côté… de l’autre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-OPIN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Estoy de acuerdo contigo.",
+        "Soy de acuerdo contigo.",
+        "Estoy de acuerdo con tú."
+      ],
+      "reponse": "Estoy de acuerdo contigo.",
+      "indice": "estar + « contigo ».",
+      "explication": "estar de acuerdo, et « con tú » devient « contigo ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

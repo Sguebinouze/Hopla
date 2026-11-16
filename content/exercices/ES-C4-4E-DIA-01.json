@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-DIA-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-DIA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « me levanto » ?",
+      "options": [
+        "je me lève",
+        "je me couche",
+        "je me lave"
+      ],
+      "reponse": "je me lève",
+      "indice": "levantarse.",
+      "explication": "« me levanto » : je me lève.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « cenar » ?",
+      "options": [
+        "diner",
+        "déjeuner",
+        "gouter"
+      ],
+      "reponse": "diner",
+      "indice": "Repas du soir.",
+      "explication": "« cenar » : diner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « por la mañana » ?",
+      "options": [
+        "le matin",
+        "demain",
+        "la nuit"
+      ],
+      "reponse": "le matin",
+      "indice": "« la mañana ».",
+      "explication": "« por la mañana » : le matin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Tú … a las siete. » (despertarse)",
+      "options": [
+        "te despiertas",
+        "te despertas",
+        "me despierto"
+      ],
+      "reponse": "te despiertas",
+      "indice": "te + diphtongue.",
+      "explication": "Avec tú : te despiertas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À quelle heure se lève-t-elle ?",
+      "options": [
+        "7 h 30",
+        "7 h",
+        "6 h 30"
+      ],
+      "reponse": "7 h 30",
+      "indice": "« y media ».",
+      "explication": "« Me levanto a las siete y media » : à 7 h 30.",
+      "ecoute": {
+        "texte": "Me levanto a las siete y media.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « merendar » ?",
+      "options": [
+        "gouter",
+        "petit-déjeuner",
+        "diner"
+      ],
+      "reponse": "gouter",
+      "indice": "L’après-midi.",
+      "explication": "« merendar » : prendre le gouter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Nosotros … después del deporte. » (ducharse)",
+      "options": [
+        "nos duchamos",
+        "se duchan",
+        "me ducho"
+      ],
+      "reponse": "nos duchamos",
+      "indice": "nosotros : nos.",
+      "explication": "Avec nosotros : nos duchamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Remets dans l’ordre la matinée :",
+      "options": [
+        "me despierto, me levanto, desayuno",
+        "desayuno, me despierto, me levanto",
+        "me levanto, me despierto, desayuno"
+      ],
+      "reponse": "me despierto, me levanto, desayuno",
+      "indice": "D’abord se réveiller.",
+      "explication": "On se réveille, on se lève, puis on prend le petit-déjeuner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

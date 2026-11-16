@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-5E-LAND-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-LAND-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Österreich » ?",
+      "options": [
+        "l’Autriche",
+        "l’Australie",
+        "l’Allemagne"
+      ],
+      "reponse": "l’Autriche",
+      "indice": "Le A de DACH.",
+      "explication": "« Österreich » : l’Autriche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la capitale de l’Allemagne ?",
+      "options": [
+        "Berlin",
+        "München",
+        "Hamburg"
+      ],
+      "reponse": "Berlin",
+      "indice": "Le Bundestag y siège.",
+      "explication": "Berlin est la capitale de l’Allemagne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « der Süden » ?",
+      "options": [
+        "le sud",
+        "le nord",
+        "l’ouest"
+      ],
+      "reponse": "le sud",
+      "indice": "South en anglais.",
+      "explication": "« der Süden » : le sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de Länder compte l’Allemagne ?",
+      "options": [
+        "16",
+        "12",
+        "27"
+      ],
+      "reponse": "16",
+      "indice": "L’axe s’appelle « 16 nuances d’Allemagne ».",
+      "explication": "L’Allemagne est un État fédéral de 16 Länder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « die Ostsee » ?",
+      "options": [
+        "la mer Baltique",
+        "la mer du Nord",
+        "le lac de Constance"
+      ],
+      "reponse": "la mer Baltique",
+      "indice": "« Ost » : est.",
+      "explication": "La « Ostsee », mer de l’Est, est la mer Baltique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Dans quel pays habite-t-elle ?",
+      "options": [
+        "en Suisse",
+        "en Autriche",
+        "en Allemagne"
+      ],
+      "reponse": "en Suisse",
+      "indice": "« die Schweiz ».",
+      "explication": "« Ich wohne in der Schweiz » : j’habite en Suisse.",
+      "ecoute": {
+        "texte": "Ich wohne in der Schweiz.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Hambourg est un grand port situé…",
+      "options": [
+        "au nord de l’Allemagne",
+        "au sud de l’Allemagne",
+        "en Autriche"
+      ],
+      "reponse": "au nord de l’Allemagne",
+      "indice": "Près de la mer du Nord.",
+      "explication": "Hambourg est au nord, sur l’Elbe, près de la mer du Nord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-LAND-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que signifie CH dans DACH ?",
+      "options": [
+        "la Suisse",
+        "la Chine",
+        "l’Allemagne"
+      ],
+      "reponse": "la Suisse",
+      "indice": "Confoederatio Helvetica.",
+      "explication": "CH est le code de la Suisse, du latin Confoederatio Helvetica.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

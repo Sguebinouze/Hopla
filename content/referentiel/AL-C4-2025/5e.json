@@ -1,0 +1,141 @@
+{
+  "programme": "AL-C4-2025",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "AL-C4-5E-PRES-01",
+      "titre": "Se présenter",
+      "domaine": "Expression orale et écrite",
+      "theme": "Expression orale et écrite",
+      "attendu": "Se présenter très simplement : nom, âge, origine, lieu d’habitation, et poser les mêmes questions.",
+      "exemple": "Ich heiße Nina, ich bin zwölf Jahre alt, ich komme aus Österreich und ich wohne in Graz.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 18,
+        "extrait": "(Se) présenter de manière très simple en indiquant son"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01",
+      "titre": "Le présent",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le verbe et ses conjugaisons",
+      "attendu": "Conjuguer au présent les auxiliaires sein et haben et des verbes courants.",
+      "exemple": "Ich spiele, du spielst, er spielt, wir spielen.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "Le présent de l’indicatif : connaitre le présent des verbes les plus courants"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-ART-01",
+      "titre": "Der, die, das",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe nominal",
+      "attendu": "Utiliser les articles définis et indéfinis selon le genre du nom, et le déterminant négatif kein.",
+      "exemple": "der Hund, die Katze, das Haus ; ein Hund, eine Katze ; kein Hund, keine Katze.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "utiliser les articles définis et indéfinis"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-FAM-01",
+      "titre": "La famille",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique : la famille, les amis",
+      "attendu": "Nommer les membres de sa famille et les présenter avec mein et meine.",
+      "exemple": "Das ist meine Mutter und das ist mein Bruder Tom.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 22,
+        "extrait": "der Vater, die Mutter, die Eltern, der Bruder, die Schwester"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01",
+      "titre": "L’école",
+      "domaine": "Repères culturels",
+      "theme": "Axe 3. École et loisirs",
+      "attendu": "Nommer les matières et les lieux de l’école, et décrire la journée d’un élève en Allemagne.",
+      "exemple": "Am Montag habe ich Mathe und Deutsch. Mittags esse ich in der Mensa.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 22,
+        "extrait": "les disciplines scolaires, les lieux de l’école"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01",
+      "titre": "Gouts et préférences",
+      "domaine": "Expression orale et écrite",
+      "theme": "Expression orale et écrite",
+      "attendu": "Exprimer simplement ses gouts et préférences avec mögen, gern, lieber et Lieblings-.",
+      "exemple": "Ich spiele gern Fußball, aber ich schwimme lieber. Mein Lieblingsessen ist Pizza.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 19,
+        "extrait": "Exprimer simplement ses gouts et préférences en"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01",
+      "titre": "Nombres et heure",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique : les données chiffrées",
+      "attendu": "Compter jusqu’à 100 et dire l’heure : heures entières, demi-heures, quarts d’heure.",
+      "exemple": "Es ist halb acht : il est sept heures et demie.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 22,
+        "extrait": "compter jusqu’à 100, les adjectifs ordinaux (erste, zweite, zwanzigste), l’heure"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-VERB-01",
+      "titre": "Verbe en 2e position, questions",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : la syntaxe de la phrase allemande",
+      "attendu": "Placer le verbe conjugué en 2e position dans la phrase déclarative et former des questions avec un mot interrogatif ou le verbe en tête.",
+      "exemple": "Heute spiele ich Fußball. Wo wohnst du? Hast du Geschwister?",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 24,
+        "extrait": "repérer la place du verbe, en particulier lorsque la première position n’est pas occupée par le sujet"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-LAND-01",
+      "titre": "Les pays germanophones",
+      "domaine": "Repères culturels",
+      "theme": "Axe 6. 16 nuances d’Allemagne",
+      "attendu": "Situer les pays où l’on parle allemand, leurs capitales, et nommer les points cardinaux.",
+      "exemple": "On parle allemand en Allemagne, en Autriche et en Suisse : ce sont les pays DACH.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "les points cardinaux, les DACH-Länder"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    }
+  ]
+}

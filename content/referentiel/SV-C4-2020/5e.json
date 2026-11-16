@@ -46,6 +46,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-5E-CLIM-01",
+      "titre": "Météo et climat",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Phénomènes météorologiques et climatiques",
+      "attendu": "Distinguer météo et climat, et relier les grandes zones climatiques à la répartition des êtres vivants.",
+      "exemple": "Il pleut à Brest aujourd’hui : c’est la météo. Brest a des hivers doux et humides : c’est son climat.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 109,
+        "extrait": "Différence entre météo et climat"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-5E-CLASS-01",
+      "titre": "Classer les êtres vivants",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier les relations de parenté entre les êtres vivants et l’évolution",
+      "attendu": "Classer des êtres vivants en groupes emboîtés à partir des caractères qu’ils partagent.",
+      "exemple": "La chauve-souris a des poils et des mamelles : elle est rangée avec les mammifères, pas avec les oiseaux.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "Caractères partagés et classification."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-5E-ECO-01",
+      "titre": "Les écosystèmes",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Ressources naturelles, écosystèmes et activités humaines",
+      "attendu": "Décrire un écosystème : son milieu, ses êtres vivants, les relations alimentaires qui les relient, et l’effet d’une activité humaine.",
+      "exemple": "Dans une mare, l’algue est mangée par le têtard, lui-même mangé par la libellule.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 111,
+        "extrait": "L'exploration peut débuter au niveau local ou au niveau régional par l'étude du fonctionnement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

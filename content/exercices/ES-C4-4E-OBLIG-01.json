@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-OBLIG-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-OBLIG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Tengo que trabajar » ?",
+      "options": [
+        "Je dois travailler.",
+        "Je veux travailler.",
+        "Je peux travailler."
+      ],
+      "reponse": "Je dois travailler.",
+      "indice": "tener que : devoir.",
+      "explication": "« Tengo que » exprime l’obligation personnelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Hay que reciclar » ?",
+      "options": [
+        "Il faut recycler.",
+        "Il y a du recyclage.",
+        "J’ai recyclé."
+      ],
+      "reponse": "Il faut recycler.",
+      "indice": "Obligation pour tous.",
+      "explication": "« Hay que » : il faut.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « No se puede fumar » ?",
+      "options": [
+        "Il est interdit de fumer.",
+        "On doit fumer.",
+        "Il ne fume pas."
+      ],
+      "reponse": "Il est interdit de fumer.",
+      "indice": "« poder » : pouvoir.",
+      "explication": "« No se puede » : on ne peut pas, c’est interdit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Mis hermanos … que ayudar en casa. »",
+      "options": [
+        "tienen",
+        "tiene",
+        "hay"
+      ],
+      "reponse": "tienen",
+      "indice": "Sujet pluriel.",
+      "explication": "tener avec ellos : tienen que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … que proteger el planeta. » (il faut)",
+      "options": [
+        "Hay",
+        "Tengo",
+        "Es"
+      ],
+      "reponse": "Hay",
+      "indice": "Impersonnel.",
+      "explication": "Obligation générale : hay que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que doit-elle faire ?",
+      "options": [
+        "partir",
+        "manger",
+        "dormir"
+      ],
+      "reponse": "partir",
+      "indice": "« irme ».",
+      "explication": "« Tengo que irme » : je dois partir.",
+      "ecoute": {
+        "texte": "Lo siento, tengo que irme.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « ¿ … que llevar uniforme en tu colegio? » (tú)",
+      "options": [
+        "Tienes",
+        "Hay",
+        "Tiene"
+      ],
+      "reponse": "Tienes",
+      "indice": "Obligation pour toi.",
+      "explication": "Avec tú : ¿Tienes que llevar uniforme?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Hay que llegar a las ocho.",
+        "Hay que llegamos a las ocho.",
+        "Hay llegar a las ocho."
+      ],
+      "reponse": "Hay que llegar a las ocho.",
+      "indice": "hay que + infinitif.",
+      "explication": "« Hay que » est suivi de l’infinitif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

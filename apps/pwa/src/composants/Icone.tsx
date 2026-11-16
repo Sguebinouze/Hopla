@@ -160,5 +160,5 @@ export function Icone({ nom, taille = 24, label }: { nom: NomIcone; taille?: num
 export const ICONE_MATIERE: Record<string, NomIcone> = {
   francais: 'plume', mathematiques: 'operations', 'questionner-le-monde': 'loupe',
   'histoire-geographie': 'globe', 'sciences-technologie': 'fiole', svt: 'feuille',
-  'physique-chimie': 'atome', technologie: 'puce', 'langues-vivantes': 'bulles', emc: 'balance',
+  'physique-chimie': 'atome', technologie: 'puce', 'langues-vivantes': 'bulles', allemand: 'bulles', espagnol: 'bulles', emc: 'balance',
 };

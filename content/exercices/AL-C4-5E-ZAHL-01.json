@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-5E-ZAHL-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-ZAHL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que vaut « siebzehn » ?",
+      "options": [
+        "17",
+        "70",
+        "7"
+      ],
+      "reponse": "17",
+      "indice": "sieben + zehn.",
+      "explication": "« siebzehn » : 17.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle heure est-il ?",
+      "options": [
+        "9 h",
+        "19 h 30",
+        "10 h"
+      ],
+      "reponse": "9 h",
+      "indice": "« neun » : neuf.",
+      "explication": "« Es ist neun Uhr » : il est 9 h.",
+      "ecoute": {
+        "texte": "Es ist neun Uhr.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Wie spät ist es? » ?",
+      "options": [
+        "Quelle heure est-il ?",
+        "Quel âge as-tu ?",
+        "Il est tard."
+      ],
+      "reponse": "Quelle heure est-il ?",
+      "indice": "On demande l’heure.",
+      "explication": "« Wie spät ist es? » : quelle heure est-il ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que vaut « dreiundzwanzig » ?",
+      "options": [
+        "23",
+        "32",
+        "320"
+      ],
+      "reponse": "23",
+      "indice": "L’unité vient d’abord.",
+      "explication": "drei (3) und zwanzig (20) : 23.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Viertel nach zehn », c’est…",
+      "options": [
+        "10 h 15",
+        "9 h 45",
+        "10 h 30"
+      ],
+      "reponse": "10 h 15",
+      "indice": "« nach » : après.",
+      "explication": "Un quart d’heure après dix heures : 10 h 15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel nombre entends-tu ?",
+      "options": [
+        "45",
+        "54",
+        "40"
+      ],
+      "reponse": "45",
+      "indice": "« fünf » puis « vierzig ».",
+      "explication": "« fünfundvierzig » : 45.",
+      "ecoute": {
+        "texte": "fünfundvierzig",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« halb acht », c’est…",
+      "options": [
+        "7 h 30",
+        "8 h 30",
+        "8 h"
+      ],
+      "reponse": "7 h 30",
+      "indice": "La moitié en allant vers huit heures.",
+      "explication": "« halb acht » : 7 h 30.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ZAHL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Viertel vor sechs », c’est…",
+      "options": [
+        "5 h 45",
+        "6 h 15",
+        "6 h 45"
+      ],
+      "reponse": "5 h 45",
+      "indice": "« vor » : avant.",
+      "explication": "Un quart d’heure avant six heures : 5 h 45.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

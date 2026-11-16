@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-PERF-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-PERF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Participe passé de « spielen » :",
+      "options": [
+        "gespielt",
+        "gespielen",
+        "spielte"
+      ],
+      "reponse": "gespielt",
+      "indice": "Verbe régulier : ge-…-t.",
+      "explication": "spielen → gespielt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se place le participe passé ?",
+      "options": [
+        "à la fin de la phrase",
+        "après le sujet",
+        "en tête"
+      ],
+      "reponse": "à la fin de la phrase",
+      "indice": "Ich habe … gespielt.",
+      "explication": "Le participe passé ferme la phrase.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich … Musik gehört. »",
+      "options": [
+        "habe",
+        "bin",
+        "hat"
+      ],
+      "reponse": "habe",
+      "indice": "hören n’est pas un déplacement.",
+      "explication": "Ich habe Musik gehört.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir … nach Köln gefahren. »",
+      "options": [
+        "sind",
+        "haben",
+        "hat"
+      ],
+      "reponse": "sind",
+      "indice": "Déplacement.",
+      "explication": "fahren se conjugue avec sein : wir sind gefahren.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Participe passé de « sehen » :",
+      "options": [
+        "gesehen",
+        "gesieht",
+        "gesehnt"
+      ],
+      "reponse": "gesehen",
+      "indice": "Irrégulier : ge-…-en.",
+      "explication": "sehen → gesehen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’a-t-elle fait ?",
+      "options": [
+        "Elle a joué au foot.",
+        "Elle va jouer au foot.",
+        "Elle regarde un match."
+      ],
+      "reponse": "Elle a joué au foot.",
+      "indice": "« habe … gespielt ».",
+      "explication": "« Ich habe Fußball gespielt » : j’ai joué au foot.",
+      "ecoute": {
+        "texte": "Ich habe Fußball gespielt.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Gestern bin ich ins Kino gegangen.",
+        "Gestern habe ich ins Kino gegangen.",
+        "Gestern ich bin ins Kino gegangen."
+      ],
+      "reponse": "Gestern bin ich ins Kino gegangen.",
+      "indice": "gehen + sein, verbe en 2e position.",
+      "explication": "Après « Gestern », auxiliaire sein en 2e position, participe à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PERF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Das hat Spaß gemacht! » ?",
+      "options": [
+        "C’était amusant !",
+        "Ça va être drôle !",
+        "Ce n’était pas drôle."
+      ],
+      "reponse": "C’était amusant !",
+      "indice": "Parfait de « Spaß machen ».",
+      "explication": "« Das hat Spaß gemacht » : c’était amusant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

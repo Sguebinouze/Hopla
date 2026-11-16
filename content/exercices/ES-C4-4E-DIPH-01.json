@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-DIPH-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-DIPH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Yo … al fútbol. » (jugar)",
+      "options": [
+        "juego",
+        "jugo",
+        "jugamos"
+      ],
+      "reponse": "juego",
+      "indice": "u → ue.",
+      "explication": "jugar : juego.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tú … venir. » (poder)",
+      "options": [
+        "puedes",
+        "podes",
+        "pueden"
+      ],
+      "reponse": "puedes",
+      "indice": "o → ue.",
+      "explication": "poder avec tú : puedes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « La clase … a las ocho. » (empezar)",
+      "options": [
+        "empieza",
+        "empeza",
+        "empiezan"
+      ],
+      "reponse": "empieza",
+      "indice": "e → ie.",
+      "explication": "empezar avec la clase (elle) : empieza.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … ir. » (poder)",
+      "options": [
+        "podemos",
+        "puedemos",
+        "pueden"
+      ],
+      "reponse": "podemos",
+      "indice": "Pas de diphtongue avec nosotros.",
+      "explication": "Avec nosotros, pas de diphtongue : podemos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Mis padres … tarde. » (volver)",
+      "options": [
+        "vuelven",
+        "volven",
+        "vuelve"
+      ],
+      "reponse": "vuelven",
+      "indice": "o → ue, pluriel.",
+      "explication": "volver avec ellos : vuelven.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que préfère-t-il ?",
+      "options": [
+        "la plage",
+        "la montagne",
+        "la ville"
+      ],
+      "reponse": "la plage",
+      "indice": "« playa ».",
+      "explication": "« Prefiero la playa » : je préfère la plage.",
+      "ecoute": {
+        "texte": "Prefiero la playa.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « ¿Vosotros … pizza? » (querer)",
+      "options": [
+        "queréis",
+        "quieréis",
+        "quieren"
+      ],
+      "reponse": "queréis",
+      "indice": "Pas de diphtongue avec vosotros.",
+      "explication": "Avec vosotros : queréis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Los gatos … mucho. » (dormir)",
+      "options": [
+        "duermen",
+        "dormen",
+        "duermimos"
+      ],
+      "reponse": "duermen",
+      "indice": "o → ue, pluriel.",
+      "explication": "dormir avec ellos : duermen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -61,6 +61,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01",
+      "titre": "Le changement climatique",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Phénomènes météorologiques et climatiques",
+      "attendu": "Expliquer l’effet de serre, relier le réchauffement actuel aux activités humaines et en décrire des conséquences sur les êtres vivants.",
+      "exemple": "Les glaciers des Alpes reculent : leur glace fond plus vite qu’elle ne se reforme.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 109,
+        "extrait": "Les changements climatiques passés (temps géologiques) et actuels (influence des activités humaines sur le climat notamment par l’émission de gaz à effet de serre)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-3E-RESS-01",
+      "titre": "Les ressources naturelles",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Exploitation des ressources naturelles par l’être humain",
+      "attendu": "Distinguer ressources renouvelables et non renouvelables, et expliquer des choix de gestion durable.",
+      "exemple": "Le pétrole s’est formé en des millions d’années : ce que nous brûlons ne se reformera pas à l’échelle humaine.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 110,
+        "extrait": "L’exploitation de quelques ressources naturelles par l’être humain (eau, sol, pétrole, charbon, bois, ressources minérales, ressources halieutiques…)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-3E-BIOD-01",
+      "titre": "Biodiversité et êtres humains",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Interactions entre les activités humaines et l’environnement",
+      "attendu": "Décrire les menaces qui pèsent sur la biodiversité et des solutions pour la préserver.",
+      "exemple": "Le frelon asiatique, arrivé par accident en France, chasse les abeilles.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 110,
+        "extrait": "Quelques exemples d’interactions entre les activités humaines et l’environnement, dont l’interaction être humain - biodiversité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

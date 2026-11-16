@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-IONS-01",
+  "exemple": "On plonge un clou en fer dans de l’acide chlorhydrique. Des bulles apparaissent et le clou est peu à peu rongé.",
+  "regle": "Une solution **acide** contient plus d’ions **hydrogène H⁺** que d’ions **hydroxyde OH⁻**. Une solution **basique** contient plus d’ions **OH⁻**. Une solution **neutre** en contient autant. Plus il y a d’ions H⁺, plus le **pH est bas**. Un acide réagit avec certains métaux comme le fer : il se forme du **dihydrogène** et des **ions fer**. Le dihydrogène produit une petite **détonation** à l’approche d’une flamme.",
+  "piege": "Le dihydrogène ne trouble pas l’eau de chaux : son test est la détonation à la flamme.",
+  "essai": {
+    "consigne": "Une solution contient plus d’ions OH⁻ que d’ions H⁺. Elle est…",
+    "options": [
+      "basique",
+      "acide",
+      "neutre"
+    ],
+    "reponse": "basique",
+    "explication": "L’excès d’ions OH⁻ caractérise une solution basique."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

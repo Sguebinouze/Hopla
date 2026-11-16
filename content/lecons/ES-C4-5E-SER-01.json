@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-SER-01",
+  "exemple": "« Soy simpática, pero hoy estoy cansada. Tengo sueño y voy a casa. »",
+  "regle": "**Ser** (identité, origine, caractère) : soy, eres, es, somos, sois, son. **Estar** (lieu, état passager) : estoy, estás, está, estamos, estáis, están. **Tener** (avoir) : tengo, tienes, tiene, tenemos, tenéis, tienen. **Ir** (aller) : voy, vas, va, vamos, vais, van. On dit **tener hambre** (avoir faim), **tener frío** (avoir froid).",
+  "piege": "Pour situer un lieu, on utilise estar : « Madrid está en España ».",
+  "essai": {
+    "consigne": "Complète : « Hoy … muy contento. » (je suis, état du moment)",
+    "options": [
+      "estoy",
+      "soy",
+      "tengo"
+    ],
+    "reponse": "estoy",
+    "explication": "Un état passager s’exprime avec estar."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

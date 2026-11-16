@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-RESS-01",
+  "exemple": "Une forêt bien gérée fournit du bois chaque année. Un puits de pétrole finit par s’épuiser.",
+  "regle": "Une **ressource naturelle** est prélevée dans la nature pour nos besoins : eau, sol, bois, poissons, pétrole, minerais. Une ressource est **renouvelable** si elle se reconstitue assez vite à l’échelle humaine, à condition de ne pas la prélever trop vite. Le pétrole, le charbon, le gaz et les minerais sont **non renouvelables**. Le **sol** se forme très lentement. Une **gestion durable** limite les prélèvements : quotas de pêche, reboisement, recyclage, économies.",
+  "piege": "Une ressource renouvelable peut s’épuiser si on la prélève plus vite qu’elle ne se renouvelle, comme les poissons trop pêchés.",
+  "essai": {
+    "consigne": "Quelle ressource est non renouvelable ?",
+    "options": [
+      "le charbon",
+      "le bois",
+      "l’énergie du vent"
+    ],
+    "reponse": "le charbon",
+    "explication": "Le charbon s’est formé en millions d’années : il ne se reconstitue pas à l’échelle humaine."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

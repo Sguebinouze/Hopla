@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-VERB-01",
+  "exemple": "« Ich habe am Montag Sport. » devient « Am Montag habe ich Sport. »",
+  "regle": "Dans une phrase déclarative, le **verbe conjugué** est toujours en **2e position**. Si la phrase commence par un autre élément (Heute, Am Montag), le **sujet passe après le verbe**. Question avec mot interrogatif : **W-Wort + verbe + sujet** (Wo wohnst du?). Question fermée : le **verbe en tête** (Spielst du Tennis?). Mots interrogatifs : **wer** (qui), **was** (quoi), **wo** (où), **woher** (d’où), **wann** (quand), **wie** (comment).",
+  "piege": "« Heute ich spiele » est faux : le verbe reste en 2e position.",
+  "essai": {
+    "consigne": "Quelle phrase est correcte ?",
+    "options": [
+      "Heute spiele ich Fußball.",
+      "Heute ich spiele Fußball.",
+      "Heute Fußball ich spiele."
+    ],
+    "reponse": "Heute spiele ich Fußball.",
+    "explication": "Le verbe conjugué est en 2e position, le sujet suit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

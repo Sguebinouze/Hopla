@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-HIST-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-HIST-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui a atteint l’Amérique en 1492 ?",
+      "options": [
+        "Christophe Colomb",
+        "Simón Bolívar",
+        "Francisco Franco"
+      ],
+      "reponse": "Christophe Colomb",
+      "indice": "Navigateur financé par l’Espagne.",
+      "explication": "Christophe Colomb atteint l’Amérique en 1492.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle civilisation avait pour capitale Tenochtitlan ?",
+      "options": [
+        "les Aztèques",
+        "les Incas",
+        "les Mayas"
+      ],
+      "reponse": "les Aztèques",
+      "indice": "Mexico aujourd’hui.",
+      "explication": "Tenochtitlan était la capitale aztèque, à l’emplacement de Mexico.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Simón Bolívar est célèbre pour…",
+      "options": [
+        "les indépendances en Amérique du Sud",
+        "la découverte de l’Amérique",
+        "la peinture"
+      ],
+      "reponse": "les indépendances en Amérique du Sud",
+      "indice": "« El Libertador ».",
+      "explication": "Bolívar a mené plusieurs pays d’Amérique du Sud à l’indépendance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La guerre civile espagnole a eu lieu…",
+      "options": [
+        "de 1936 à 1939",
+        "de 1914 à 1918",
+        "en 1492"
+      ],
+      "reponse": "de 1936 à 1939",
+      "indice": "Avant la Seconde Guerre mondiale.",
+      "explication": "La guerre civile espagnole dure de 1936 à 1939.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dit la phrase ?",
+      "options": [
+        "La dictature s’est terminée en 1975.",
+        "La dictature a commencé en 1975.",
+        "La guerre a commencé en 1975."
+      ],
+      "reponse": "La dictature s’est terminée en 1975.",
+      "indice": "« terminó » : s’est terminée.",
+      "explication": "« La dictadura terminó en 1975 » : la dictature s’est terminée en 1975.",
+      "ecoute": {
+        "texte": "La dictadura terminó en 1975.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel empire dominait les Andes à l’arrivée des Espagnols ?",
+      "options": [
+        "l’Empire inca",
+        "l’Empire aztèque",
+        "l’Empire romain"
+      ],
+      "reponse": "l’Empire inca",
+      "indice": "Machu Picchu.",
+      "explication": "Les Incas dominaient les Andes, autour de Cuzco.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel texte fonde la démocratie espagnole actuelle ?",
+      "options": [
+        "la Constitution de 1978",
+        "la Constitution de 1492",
+        "la Déclaration de 1789"
+      ],
+      "reponse": "la Constitution de 1978",
+      "indice": "Trois ans après la mort de Franco.",
+      "explication": "La Constitution de 1978 fonde la démocratie en Espagne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-HIST-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi parle-t-on espagnol dans la plupart des pays d’Amérique latine ?",
+      "options": [
+        "Ils ont été colonisés par l’Espagne.",
+        "L’espagnol y est né.",
+        "Ils l’ont choisi au XXe siècle."
+      ],
+      "reponse": "Ils ont été colonisés par l’Espagne.",
+      "indice": "Conquête au XVIe siècle.",
+      "explication": "La colonisation espagnole, à partir du XVIe siècle, y a répandu la langue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

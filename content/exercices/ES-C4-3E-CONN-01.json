@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-CONN-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-CONN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « cuando » ?",
+      "options": [
+        "quand",
+        "comme",
+        "combien"
+      ],
+      "reponse": "quand",
+      "indice": "Temps.",
+      "explication": "« cuando » : quand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « pero » ?",
+      "options": [
+        "mais",
+        "pour",
+        "parce que"
+      ],
+      "reponse": "mais",
+      "indice": "Opposition.",
+      "explication": "« pero » : mais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tengo un perro … se llama Toby. »",
+      "options": [
+        "que",
+        "quien",
+        "cual"
+      ],
+      "reponse": "que",
+      "indice": "Pronom relatif.",
+      "explication": "« que » relie les deux phrases : un perro que se llama Toby.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … tengo tiempo, te llamo. » (si)",
+      "options": [
+        "Si",
+        "Sí",
+        "Se"
+      ],
+      "reponse": "Si",
+      "indice": "Condition, sans accent.",
+      "explication": "« si » sans accent : si (condition). « sí » : oui.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « aunque » ?",
+      "options": [
+        "même si, bien que",
+        "parce que",
+        "donc"
+      ],
+      "reponse": "même si, bien que",
+      "indice": "Concession.",
+      "explication": "« aunque » : bien que, même si.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Pourquoi ne vient-il pas ?",
+      "options": [
+        "Il est malade.",
+        "Il n’a pas envie.",
+        "Il travaille."
+      ],
+      "reponse": "Il est malade.",
+      "indice": "« enfermo ».",
+      "explication": "« No vengo porque estoy enfermo » : parce que je suis malade.",
+      "ecoute": {
+        "texte": "No vengo porque estoy enfermo.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Escucho música … hago los deberes. » (pendant que)",
+      "options": [
+        "mientras",
+        "aunque",
+        "porque"
+      ],
+      "reponse": "mientras",
+      "indice": "Simultanéité.",
+      "explication": "« mientras » : pendant que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-CONN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle question correspond à la réponse « Porque estoy cansado » ?",
+      "options": [
+        "¿Por qué no sales?",
+        "¿Porque no sales?",
+        "¿Cuándo sales?"
+      ],
+      "reponse": "¿Por qué no sales?",
+      "indice": "Pourquoi, en deux mots avec accent.",
+      "explication": "La question s’écrit « ¿Por qué…? ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

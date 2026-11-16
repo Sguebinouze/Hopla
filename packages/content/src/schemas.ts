@@ -6,14 +6,16 @@ export const CYCLE_DE: Record<Classe, 2 | 3 | 4> = {
 };
 export const MATIERES = [
   'francais', 'mathematiques', 'questionner-le-monde', 'sciences-technologie', 'histoire-geographie',
-  'svt', 'physique-chimie', 'technologie', 'langues-vivantes', 'emc',
+  'svt', 'physique-chimie', 'technologie', 'langues-vivantes', 'allemand', 'espagnol', 'emc',
 ] as const;
 /** Préfixe d'identifiant de compétence par matière. */
 export const PREFIXE: Record<Matiere, string> = {
   francais: 'FR', mathematiques: 'MA', 'questionner-le-monde': 'QM', 'sciences-technologie': 'ST',
   'histoire-geographie': 'HG', svt: 'SV', 'physique-chimie': 'PC', technologie: 'TE',
-  'langues-vivantes': 'LV', emc: 'EM',
+  'langues-vivantes': 'LV', allemand: 'AL', espagnol: 'ES', emc: 'EM',
 };
+/** Langues des phrases d'écoute (synthèse vocale de l'appareil). */
+export const LANGUES_ECOUTE = ['en-GB', 'de-DE', 'es-ES'] as const;
 
 export type Classe = (typeof CLASSES)[number];
 export type Matiere = (typeof MATIERES)[number];
@@ -80,7 +82,7 @@ export const exerciceSchema = z
     /** Code d'erreur typique par option piège (voir Item.erreurs dans @hopla/generateurs). */
     erreurs: z.record(z.string(), z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).optional(),
     /** Langues vivantes : phrase dite à l'élève dans la langue étudiée, avant de répondre. */
-    ecoute: z.object({ texte: z.string().min(1).max(120), langue: z.enum(['en-GB']) }).optional(),
+    ecoute: z.object({ texte: z.string().min(1).max(120), langue: z.enum(LANGUES_ECOUTE) }).optional(),
     statut: z.enum(['brouillon', 'relu', 'publie']),
     auteur: z.enum(['humain', 'ia']),
     relu_par: z.string().nullable(),

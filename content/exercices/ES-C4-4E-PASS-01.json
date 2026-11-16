@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-PASS-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-PASS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « ayer » ?",
+      "options": [
+        "hier",
+        "demain",
+        "aujourd’hui"
+      ],
+      "reponse": "hier",
+      "indice": "Le jour d’avant.",
+      "explication": "« ayer » : hier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ayer … con mi abuela. » (hablar, yo)",
+      "options": [
+        "hablé",
+        "hablo",
+        "habló"
+      ],
+      "reponse": "hablé",
+      "indice": "-ar, yo : -é.",
+      "explication": "Passé simple de hablar avec yo : hablé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « El año pasado … a Madrid. » (ir, yo)",
+      "options": [
+        "fui",
+        "fue",
+        "voy"
+      ],
+      "reponse": "fui",
+      "indice": "Irrégulier.",
+      "explication": "ir au passé simple avec yo : fui.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ella … paella. » (comer)",
+      "options": [
+        "comió",
+        "comí",
+        "come"
+      ],
+      "reponse": "comió",
+      "indice": "-er, él / ella : -ió.",
+      "explication": "Passé simple de comer avec ella : comió.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … el Prado. » (visitar)",
+      "options": [
+        "visitamos",
+        "visitaron",
+        "visité"
+      ],
+      "reponse": "visitamos",
+      "indice": "nosotros : -amos.",
+      "explication": "Passé simple avec nosotros : visitamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’ont-ils fait ?",
+      "options": [
+        "Ils ont visité Séville.",
+        "Ils vont visiter Séville.",
+        "Ils habitent à Séville."
+      ],
+      "reponse": "Ils ont visité Séville.",
+      "indice": "« -aron ».",
+      "explication": "« Visitaron Sevilla » : ils ont visité Séville.",
+      "ecoute": {
+        "texte": "El verano pasado visitaron Sevilla.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle forme veut dire « il a parlé » ?",
+      "options": [
+        "habló",
+        "hablo",
+        "hable"
+      ],
+      "reponse": "habló",
+      "indice": "Accent sur le o final.",
+      "explication": "« habló » : il a parlé ; « hablo » : je parle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PASS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « ¿Qué … el domingo? » (hacer, tú)",
+      "options": [
+        "hiciste",
+        "haces",
+        "hizo"
+      ],
+      "reponse": "hiciste",
+      "indice": "hacer est irrégulier : hice, hiciste…",
+      "explication": "hacer avec tú au passé simple : hiciste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

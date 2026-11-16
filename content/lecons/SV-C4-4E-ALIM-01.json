@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-ALIM-01",
+  "exemple": "Avant un match, un sportif mange des pâtes. Pour réparer ses muscles, il mange aussi des œufs ou du poisson.",
+  "regle": "Les aliments se rangent en **groupes** : fruits et légumes, féculents, produits laitiers, viande-poisson-œufs, matières grasses, produits sucrés. Ils apportent des **nutriments** : **glucides** et **lipides** pour l’énergie, **protéines** pour construire le corps, **vitamines** et **sels minéraux** pour son bon fonctionnement, et **eau**. Les besoins varient selon l’âge et l’activité. Une alimentation **variée** couvre ces besoins.",
+  "piege": "Aucun aliment ne suffit seul : c’est la variété qui couvre les besoins.",
+  "essai": {
+    "consigne": "Quel nutriment sert surtout à construire le corps ?",
+    "options": [
+      "les protéines",
+      "les glucides",
+      "l’eau"
+    ],
+    "reponse": "les protéines",
+    "explication": "Les protéines servent à fabriquer et réparer les cellules, notamment les muscles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

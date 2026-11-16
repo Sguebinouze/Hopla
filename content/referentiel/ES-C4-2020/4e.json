@@ -1,0 +1,96 @@
+{
+  "programme": "ES-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "ES-C4-4E-PASS-01",
+      "titre": "Raconter au passé simple",
+      "domaine": "Écrire et réagir à l’écrit",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Raconter un évènement passé et terminé au passé simple (pretérito indefinido), verbes réguliers et quelques irréguliers.",
+      "exemple": "Ayer visité el museo. El verano pasado fui a Sevilla.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 43,
+        "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-OBLIG-01",
+      "titre": "L’obligation",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Exprimer l’obligation personnelle avec tener que et impersonnelle avec hay que.",
+      "exemple": "Tengo que estudiar. Hay que salir antes de las dos.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir. Modaux."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-DIPH-01",
+      "titre": "Verbes à diphtongue",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Conjuguer au présent les verbes à diphtongue : e → ie, o → ue, u → ue.",
+      "exemple": "Quiero un bocadillo. Puedo venir. Juego al fútbol.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Passif. Construction des verbes."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-DIA-01",
+      "titre": "Ma journée",
+      "domaine": "Parler en continu",
+      "theme": "Décrire des activités quotidiennes",
+      "attendu": "Décrire sa journée avec des verbes pronominaux et des repères d’heure.",
+      "exemple": "Me levanto a las siete, me ducho y desayuno.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 42,
+        "extrait": "Peut décrire ou présenter simplement des gens, des conditions de vie, des activités quotidiennes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-CAMI-01",
+      "titre": "Demander son chemin",
+      "domaine": "Réagir et dialoguer",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Demander et comprendre un chemin simple en ville.",
+      "exemple": "Perdone, ¿dónde está la estación? Siga todo recto y gire a la derecha.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 41,
+        "extrait": "Demander et fournir des renseignements."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01",
+      "titre": "Voyager en pays hispanophone",
+      "domaine": "Connaissances culturelles",
+      "theme": "Voyages et migrations",
+      "attendu": "Connaitre quelques villes et lieux du monde hispanophone et le vocabulaire du voyage.",
+      "exemple": "Un billete para Sevilla, por favor. El tren sale del andén 3.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Voyages scolaires, touristiques."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    }
+  ]
+}

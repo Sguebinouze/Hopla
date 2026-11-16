@@ -76,6 +76,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-COMB-01",
+      "titre": "Les combustions",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Propriétés de quelques transformations chimiques",
+      "attendu": "Identifier les réactifs et les produits d’une combustion, les tester, et expliquer les dangers d’une combustion incomplète.",
+      "exemple": "Le gaz d’une cuisinière brule avec une flamme bleue et produit du dioxyde de carbone et de l’eau.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Combustions dans l’air."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-PH-01",
+      "titre": "Acide, neutre ou basique",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Propriétés de quelques transformations chimiques",
+      "attendu": "Mesurer le pH d’une solution, en déduire son caractère acide, neutre ou basique, et connaitre l’effet d’une dilution.",
+      "exemple": "Le jus de citron a un pH d’environ 2 : il est acide. L’eau savonneuse est basique.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 99,
+        "extrait": "Identifier le caractère acide ou basique d’une solution par mesure de pH."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

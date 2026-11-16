@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-IONS-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-IONS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel ion est responsable de l’acidité ?",
+      "options": [
+        "H⁺",
+        "OH⁻",
+        "Cl⁻"
+      ],
+      "reponse": "H⁺",
+      "indice": "Ion hydrogène.",
+      "explication": "Les ions H⁺ rendent une solution acide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une solution neutre contient…",
+      "options": [
+        "autant d’ions H⁺ que d’ions OH⁻",
+        "seulement des ions H⁺",
+        "seulement des ions OH⁻"
+      ],
+      "reponse": "autant d’ions H⁺ que d’ions OH⁻",
+      "indice": "Équilibre.",
+      "explication": "Dans une solution neutre, ions H⁺ et OH⁻ sont en quantités égales.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’ion OH⁻ s’appelle…",
+      "options": [
+        "l’ion hydroxyde",
+        "l’ion hydrogène",
+        "l’ion chlorure"
+      ],
+      "reponse": "l’ion hydroxyde",
+      "indice": "Hydr- et -oxyde.",
+      "explication": "OH⁻ est l’ion hydroxyde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Plus une solution contient d’ions H⁺, plus son pH est…",
+      "options": [
+        "bas",
+        "élevé",
+        "proche de 14"
+      ],
+      "reponse": "bas",
+      "indice": "Plus acide.",
+      "explication": "Davantage d’ions H⁺ : solution plus acide, pH plus bas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’acide chlorhydrique réagit avec le fer. Quel gaz se dégage ?",
+      "options": [
+        "le dihydrogène",
+        "le dioxygène",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le dihydrogène",
+      "indice": "Il détone à la flamme.",
+      "explication": "La réaction d’un acide sur le fer libère du dihydrogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment teste-t-on le dihydrogène ?",
+      "options": [
+        "Une flamme provoque une petite détonation.",
+        "L’eau de chaux se trouble.",
+        "Le papier pH devient vert."
+      ],
+      "reponse": "Une flamme provoque une petite détonation.",
+      "indice": "Un « pop ».",
+      "explication": "Le dihydrogène produit une détonation caractéristique à l’approche d’une flamme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pendant la réaction entre l’acide et le fer, le pH de la solution…",
+      "options": [
+        "augmente, car des ions H⁺ sont consommés",
+        "diminue, car des ions H⁺ apparaissent",
+        "reste égal à 0"
+      ],
+      "reponse": "augmente, car des ions H⁺ sont consommés",
+      "indice": "Les ions H⁺ réagissent.",
+      "explication": "Les ions H⁺ sont consommés : la solution devient moins acide, son pH augmente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-IONS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne faut-il pas conserver une boisson acide dans une canette en fer abimée ?",
+      "options": [
+        "L’acide peut attaquer le métal.",
+        "Le fer rend la boisson basique instantanément.",
+        "L’acide se transforme en eau pure."
+      ],
+      "reponse": "L’acide peut attaquer le métal.",
+      "indice": "Réaction acide-métal.",
+      "explication": "Un acide réagit avec certains métaux : le métal est rongé et des ions passent dans la boisson.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

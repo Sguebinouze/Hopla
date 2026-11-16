@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-3E-GESCH-01",
+  "exemple": "À Berlin, des morceaux de mur couverts de peintures se dressent encore le long de la Spree.",
+  "regle": "Après 1945, l’Allemagne est divisée : la **BRD** (RFA, à l’ouest) et la **DDR** (RDA, à l’est). En **1961**, la RDA construit le **mur de Berlin** (die Mauer). Il tombe le **9 novembre 1989**. L’Allemagne est **réunifiée** le **3 octobre 1990** : c’est aujourd’hui la fête nationale, **der Tag der Deutschen Einheit**. L’Allemagne est un **État fédéral** de **16 Länder**. Son drapeau est **noir, rouge, or** (Schwarz-Rot-Gold).",
+  "piege": "La chute du mur (1989) et la réunification (1990) sont deux dates différentes.",
+  "essai": {
+    "consigne": "Quand le mur de Berlin est-il tombé ?",
+    "options": [
+      "le 9 novembre 1989",
+      "le 3 octobre 1990",
+      "en 1961"
+    ],
+    "reponse": "le 9 novembre 1989",
+    "explication": "Le mur tombe le 9 novembre 1989. La réunification suit en 1990."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

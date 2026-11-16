@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-WEIL-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-WEIL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « weil » ?",
+      "options": [
+        "parce que",
+        "mais",
+        "quand"
+      ],
+      "reponse": "parce que",
+      "indice": "Il introduit une cause.",
+      "explication": "« weil » : parce que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans une subordonnée en dass, le verbe conjugué se place…",
+      "options": [
+        "à la fin",
+        "en 2e position",
+        "en tête"
+      ],
+      "reponse": "à la fin",
+      "indice": "Comme avec weil.",
+      "explication": "Dans une subordonnée, le verbe conjugué va à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich finde, … Mathe interessant ist. »",
+      "options": [
+        "dass",
+        "weil",
+        "denn"
+      ],
+      "reponse": "dass",
+      "indice": "Ich finde, que…",
+      "explication": "« Ich finde, dass… » : je trouve que…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich lerne viel, weil ich eine gute Note will.",
+        "Ich lerne viel, weil ich will eine gute Note.",
+        "Ich lerne viel, weil will ich eine gute Note."
+      ],
+      "reponse": "Ich lerne viel, weil ich eine gute Note will.",
+      "indice": "Verbe conjugué à la fin.",
+      "explication": "Après weil, « will » va à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich bleibe hier, denn es regnet.",
+        "Ich bleibe hier, denn regnet es.",
+        "Ich bleibe hier, es denn regnet."
+      ],
+      "reponse": "Ich bleibe hier, denn es regnet.",
+      "indice": "Avec denn, ordre normal.",
+      "explication": "« denn » ne change pas l’ordre : es regnet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Pourquoi ne vient-il pas ?",
+      "options": [
+        "Il doit travailler.",
+        "Il est malade.",
+        "Il n’a pas envie."
+      ],
+      "reponse": "Il doit travailler.",
+      "indice": "« arbeiten muss ».",
+      "explication": "« Ich komme nicht, weil ich arbeiten muss » : parce que je dois travailler.",
+      "ecoute": {
+        "texte": "Ich komme nicht, weil ich arbeiten muss.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme : « Er ist nett. » → « Ich glaube, dass… »",
+      "options": [
+        "er nett ist",
+        "er ist nett",
+        "ist er nett"
+      ],
+      "reponse": "er nett ist",
+      "indice": "Verbe à la fin.",
+      "explication": "« Ich glaube, dass er nett ist. »",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-WEIL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Sie ist froh, weil sie den Test … hat. » (bestehen, parfait)",
+      "options": [
+        "bestanden",
+        "besteht",
+        "gebestanden"
+      ],
+      "reponse": "bestanden",
+      "indice": "Participe, puis auxiliaire à la toute fin.",
+      "explication": "Au parfait dans une subordonnée : participe puis auxiliaire, « bestanden hat ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

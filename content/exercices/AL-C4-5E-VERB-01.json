@@ -1,0 +1,141 @@
+{
+  "competence": "AL-C4-5E-VERB-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-VERB-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Wann » ?",
+      "options": [
+        "quand",
+        "où",
+        "qui"
+      ],
+      "reponse": "quand",
+      "indice": "Wann hast du Ferien?",
+      "explication": "« Wann » : quand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … wohnst du? » (In Köln.)",
+      "options": [
+        "Wo",
+        "Wer",
+        "Wann"
+      ],
+      "reponse": "Wo",
+      "indice": "On répond par un lieu.",
+      "explication": "« Wo » : où.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … heißt du? » (Ich heiße Lena.)",
+      "options": [
+        "Wie",
+        "Wo",
+        "Was"
+      ],
+      "reponse": "Wie",
+      "indice": "Comment ?",
+      "explication": "« Wie heißt du? » : comment t’appelles-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Am Samstag gehe ich ins Kino.",
+        "Am Samstag ich gehe ins Kino.",
+        "Ich am Samstag gehe ins Kino."
+      ],
+      "reponse": "Am Samstag gehe ich ins Kino.",
+      "indice": "Verbe en 2e position.",
+      "explication": "Après « Am Samstag », le verbe vient en 2e position, puis le sujet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment transformer « Du spielst Tennis » en question fermée ?",
+      "options": [
+        "Spielst du Tennis?",
+        "Du spielst Tennis?",
+        "Tennis du spielst?"
+      ],
+      "reponse": "Spielst du Tennis?",
+      "indice": "Le verbe passe en tête.",
+      "explication": "Pour une question fermée, le verbe se place en premier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … kommst du? » (Aus Spanien.)",
+      "options": [
+        "Woher",
+        "Wo",
+        "Wohin"
+      ],
+      "reponse": "Woher",
+      "indice": "D’où ?",
+      "explication": "« Woher » demande l’origine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Morgen … wir nach Berlin. » (fahren)",
+      "options": [
+        "fahren",
+        "fahrt",
+        "fährt"
+      ],
+      "reponse": "fahren",
+      "indice": "Le sujet est wir.",
+      "explication": "Verbe en 2e position, accordé avec wir : Morgen fahren wir nach Berlin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-VERB-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle question correspond à la réponse « Ich esse eine Pizza » ?",
+      "options": [
+        "Was isst du?",
+        "Wer isst eine Pizza?",
+        "Wann isst du?"
+      ],
+      "reponse": "Was isst du?",
+      "indice": "La réponse dit quoi.",
+      "explication": "« Was isst du? » : que manges-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

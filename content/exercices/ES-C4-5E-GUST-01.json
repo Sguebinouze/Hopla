@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-GUST-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-GUST-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Me gusta bailar » ?",
+      "options": [
+        "J’aime danser.",
+        "Je danse mal.",
+        "Je n’aime pas danser."
+      ],
+      "reponse": "J’aime danser.",
+      "indice": "me gusta + infinitif.",
+      "explication": "« Me gusta bailar » : j’aime danser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Me encanta la música » ?",
+      "options": [
+        "J’adore la musique.",
+        "Je déteste la musique.",
+        "Je fais de la musique."
+      ],
+      "reponse": "J’adore la musique.",
+      "indice": "Plus fort que gustar.",
+      "explication": "« Me encanta » : j’adore.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Me … el chocolate. »",
+      "options": [
+        "gusta",
+        "gustan",
+        "gustas"
+      ],
+      "reponse": "gusta",
+      "indice": "Nom singulier.",
+      "explication": "El chocolate est singulier : me gusta.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « No me … los lunes. »",
+      "options": [
+        "gustan",
+        "gusta",
+        "gusto"
+      ],
+      "reponse": "gustan",
+      "indice": "« los lunes » est pluriel.",
+      "explication": "Pluriel : no me gustan los lunes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelqu’un dit « No me gusta el té ». Tu es d’accord. Tu réponds…",
+      "options": [
+        "A mí tampoco.",
+        "A mí también.",
+        "Sí, me gusta."
+      ],
+      "reponse": "A mí tampoco.",
+      "indice": "Moi non plus.",
+      "explication": "Pour approuver une phrase négative : A mí tampoco.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que préfère-t-il ?",
+      "options": [
+        "la natation",
+        "le football",
+        "le basket"
+      ],
+      "reponse": "la natation",
+      "indice": "« prefiero ».",
+      "explication": "« Prefiero la natación » : je préfère la natation.",
+      "ecoute": {
+        "texte": "Me gusta el fútbol, pero prefiero la natación.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demander à un ami s’il aime les jeux vidéo ?",
+      "options": [
+        "¿Te gustan los videojuegos?",
+        "¿Me gustan los videojuegos?",
+        "¿Te gusta los videojuegos?"
+      ],
+      "reponse": "¿Te gustan los videojuegos?",
+      "indice": "te + accord au pluriel.",
+      "explication": "« te » pour toi, et gustan pour un pluriel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GUST-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « ¡Qué rico! » devant un plat ?",
+      "options": [
+        "C’est délicieux !",
+        "C’est cher !",
+        "Quel riche !"
+      ],
+      "reponse": "C’est délicieux !",
+      "indice": "Gastronomie.",
+      "explication": "« ¡Qué rico! » : c’est délicieux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-REISE-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-REISE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « der Zug » ?",
+      "options": [
+        "le train",
+        "l’avion",
+        "le bus"
+      ],
+      "reponse": "le train",
+      "indice": "On le prend à la gare.",
+      "explication": "« der Zug » : le train.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La porte de Brandebourg se trouve à…",
+      "options": [
+        "Berlin",
+        "Vienne",
+        "Munich"
+      ],
+      "reponse": "Berlin",
+      "indice": "La capitale allemande.",
+      "explication": "Das Brandenburger Tor est à Berlin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « die Jugendherberge » ?",
+      "options": [
+        "l’auberge de jeunesse",
+        "l’hôtel de luxe",
+        "le camping"
+      ],
+      "reponse": "l’auberge de jeunesse",
+      "indice": "« Jugend » : jeunesse.",
+      "explication": "« Jugendherberge » : auberge de jeunesse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. D’où part le train ?",
+      "options": [
+        "du quai 5",
+        "à 5 heures",
+        "dans 5 minutes"
+      ],
+      "reponse": "du quai 5",
+      "indice": "« Gleis » : quai.",
+      "explication": "« Der Zug fährt von Gleis 5 » : le train part du quai 5.",
+      "ecoute": {
+        "texte": "Der Zug fährt von Gleis 5.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avec quelle monnaie paie-t-on à Zurich ?",
+      "options": [
+        "le franc suisse",
+        "l’euro",
+        "la livre"
+      ],
+      "reponse": "le franc suisse",
+      "indice": "La Suisse a sa propre monnaie.",
+      "explication": "En Suisse, on paie en francs suisses.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle ville est célèbre pour sa cathédrale, le Dom ?",
+      "options": [
+        "Köln",
+        "Hamburg",
+        "Bern"
+      ],
+      "reponse": "Köln",
+      "indice": "Cologne.",
+      "explication": "Der Kölner Dom est la cathédrale de Cologne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demander un billet pour Munich ?",
+      "options": [
+        "Eine Fahrkarte nach München, bitte.",
+        "Ein Gleis nach München, bitte.",
+        "Einen Zug in München, bitte."
+      ],
+      "reponse": "Eine Fahrkarte nach München, bitte.",
+      "indice": "« nach » pour une destination.",
+      "explication": "« Eine Fahrkarte nach München, bitte » : un billet pour Munich, s’il vous plait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REISE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans quel pays se trouve Salzbourg ?",
+      "options": [
+        "en Autriche",
+        "en Suisse",
+        "en Allemagne"
+      ],
+      "reponse": "en Autriche",
+      "indice": "La ville natale de Mozart.",
+      "explication": "Salzbourg (Salzburg) est en Autriche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

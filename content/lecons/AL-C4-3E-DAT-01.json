@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-3E-DAT-01",
+  "exemple": "« Ich fahre mit dem Fahrrad zu meiner Freundin. Das Geschenk gefällt ihr. »",
+  "regle": "Le **datif** marque souvent le complément d’attribution (à qui ?). Articles : **dem** (masculin et neutre), **der** (féminin), **den** + -n (pluriel). Indéfini : **einem**, **einer**. Après **mit, bei, nach, von, zu, aus, seit**, on emploie toujours le datif : mit **dem** Bus, mit **der** Bahn. Pronoms : **mir** (à moi), **dir** (à toi). « **Das gefällt mir** » : cela me plait.",
+  "piege": "Après mit, « der » ne veut pas dire masculin : mit der Bahn est un féminin au datif.",
+  "essai": {
+    "consigne": "Complète : « Ich fahre mit … Zug. » (der Zug)",
+    "options": [
+      "dem",
+      "den",
+      "der"
+    ],
+    "reponse": "dem",
+    "explication": "Après mit, masculin datif : dem Zug."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

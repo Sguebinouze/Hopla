@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-FUT-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « El año que viene … inglés. » (estudiar, yo)",
+      "options": [
+        "estudiaré",
+        "estudié",
+        "estudio"
+      ],
+      "reponse": "estudiaré",
+      "indice": "Infinitif + é.",
+      "explication": "Futur de estudiar avec yo : estudiaré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « de mayor » ?",
+      "options": [
+        "quand je serai grand",
+        "le plus grand",
+        "mon ainé"
+      ],
+      "reponse": "quand je serai grand",
+      "indice": "Plus tard dans la vie.",
+      "explication": "« de mayor » : quand je serai grand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Futur de « tener » avec yo :",
+      "options": [
+        "tendré",
+        "teneré",
+        "tengo"
+      ],
+      "reponse": "tendré",
+      "indice": "Irrégulier.",
+      "explication": "tener → tendré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … juntos. » (vivir)",
+      "options": [
+        "viviremos",
+        "vivimos",
+        "vivíamos"
+      ],
+      "reponse": "viviremos",
+      "indice": "Infinitif + emos.",
+      "explication": "Futur avec nosotros : viviremos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel métier fera-t-elle ?",
+      "options": [
+        "professeure",
+        "médecin",
+        "ingénieure"
+      ],
+      "reponse": "professeure",
+      "indice": "« profesora ».",
+      "explication": "« Seré profesora » : je serai professeure.",
+      "ecoute": {
+        "texte": "De mayor seré profesora.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Futur de « hacer » avec él :",
+      "options": [
+        "hará",
+        "hacerá",
+        "hace"
+      ],
+      "reponse": "hará",
+      "indice": "Irrégulier : har-.",
+      "explication": "hacer → hará.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Quiero ser enfermero.",
+        "Quiero ser un enfermero.",
+        "Quiero estar enfermero."
+      ],
+      "reponse": "Quiero ser enfermero.",
+      "indice": "Pas d’article devant un métier.",
+      "explication": "ser + métier sans article.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Dentro de cinco años, podré votar » ?",
+      "options": [
+        "Dans cinq ans, je pourrai voter.",
+        "Il y a cinq ans, j’ai voté.",
+        "Depuis cinq ans, je vote."
+      ],
+      "reponse": "Dans cinq ans, je pourrai voter.",
+      "indice": "« podré » : futur de poder.",
+      "explication": "« dentro de » : dans ; « podré » : je pourrai.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

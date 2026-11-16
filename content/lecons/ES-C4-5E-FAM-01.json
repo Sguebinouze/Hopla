@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-FAM-01",
+  "exemple": "« Mira esta foto: mi abuelo está arriba, a la derecha de su hermano. Delante están mis padres. »",
+  "regle": "Les parents : **el padre**, **la madre**, **los padres**. Les frères et sœurs : **el hermano**, **la hermana**, **los hermanos**. Les autres : **el abuelo**, **la abuela**, **el tío**, **la tía**, **el primo**, **la prima**. **mayor** : ainé, **menor** : cadet. Possessifs : **mi** / **mis** (mon, ma / mes), **tu** / **tus** (ton, ta / tes).",
+  "piege": "« los padres » veut dire les parents, et « los hermanos » les frères et sœurs.",
+  "essai": {
+    "consigne": "Complète : « … abuelos viven en Toledo. »",
+    "options": [
+      "Mis",
+      "Mi",
+      "Tu"
+    ],
+    "reponse": "Mis",
+    "explication": "Devant un pluriel : mis abuelos."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

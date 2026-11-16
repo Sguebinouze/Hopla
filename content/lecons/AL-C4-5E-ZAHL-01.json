@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-ZAHL-01",
+  "exemple": "« Wie spät ist es? Es ist Viertel nach drei. Der Bus kommt um halb vier. »",
+  "regle": "Au-delà de 20, on dit **l’unité avant la dizaine** : **einundzwanzig** (21 : un et vingt), **dreiundvierzig** (43). Dizaines : zwanzig, **dreißig**, vierzig, fünfzig. 100 : **hundert**. L’heure : **Es ist acht Uhr** (8 h). **Viertel nach drei** : 3 h 15. **Viertel vor vier** : 3 h 45. **Halb vier** : 3 h 30, la moitié vers quatre heures.",
+  "piege": "« halb acht » ne veut pas dire 8 h 30 mais 7 h 30.",
+  "essai": {
+    "consigne": "Que veut dire « vierundzwanzig » ?",
+    "options": [
+      "24",
+      "42",
+      "14"
+    ],
+    "reponse": "24",
+    "explication": "vier (4) und zwanzig (20) : 24."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

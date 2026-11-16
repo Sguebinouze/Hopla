@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-CLIM-01",
+  "exemple": "Ce matin, il gèle à Lyon. Mais Lyon a un climat tempéré, avec des étés chauds.",
+  "regle": "La **météo** décrit le temps qu’il fait à un endroit, sur quelques heures ou quelques jours. Le **climat** décrit le temps moyen d’une région, calculé sur au moins **30 ans**. La Terre compte de grandes **zones climatiques** : polaires, tempérées et chaudes. Chaque zone abrite une faune et une flore adaptées. Les **vents** et les **courants océaniques** déplacent la chaleur et influencent les climats.",
+  "piege": "Une journée froide ne dit rien du climat : il faut des moyennes sur de nombreuses années.",
+  "essai": {
+    "consigne": "« Il a neigé hier à Paris. » Cette phrase parle…",
+    "options": [
+      "de la météo",
+      "du climat",
+      "des saisons"
+    ],
+    "reponse": "de la météo",
+    "explication": "Elle décrit le temps d’un jour précis, donc la météo."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

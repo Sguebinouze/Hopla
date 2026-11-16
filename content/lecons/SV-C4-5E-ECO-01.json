@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-ECO-01",
+  "exemple": "Dans une forêt, les feuilles mortes disparaissent peu à peu sous l’action des vers de terre et des champignons.",
+  "regle": "Un **écosystème** réunit un **milieu de vie** et les **êtres vivants** qui y vivent, avec leurs **relations**. Les **producteurs** (végétaux chlorophylliens) fabriquent leur matière. Les **consommateurs** mangent d’autres êtres vivants. Les **décomposeurs** transforment la matière morte en sels minéraux. Une flèche de chaîne alimentaire se lit « est mangé par ». Les chaînes reliées forment un **réseau alimentaire**.",
+  "piege": "La flèche part de l’être mangé : herbe → lapin, et non lapin → herbe.",
+  "essai": {
+    "consigne": "Quel est le rôle des décomposeurs ?",
+    "options": [
+      "transformer la matière morte en sels minéraux",
+      "fabriquer de la matière avec la lumière",
+      "manger les prédateurs"
+    ],
+    "reponse": "transformer la matière morte en sels minéraux",
+    "explication": "Ils recyclent la matière morte, que les plantes réutilisent."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

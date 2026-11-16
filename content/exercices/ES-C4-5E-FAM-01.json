@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-FAM-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-FAM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « la hermana » ?",
+      "options": [
+        "la sœur",
+        "la mère",
+        "la tante"
+      ],
+      "reponse": "la sœur",
+      "indice": "hermano au féminin.",
+      "explication": "« la hermana » : la sœur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « el abuelo » ?",
+      "options": [
+        "le grand-père",
+        "l’oncle",
+        "le cousin"
+      ],
+      "reponse": "le grand-père",
+      "indice": "Abuela : grand-mère.",
+      "explication": "« el abuelo » : le grand-père.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. De qui parle-t-on ?",
+      "options": [
+        "de la cousine",
+        "de la tante",
+        "de la sœur"
+      ],
+      "reponse": "de la cousine",
+      "indice": "« prima ».",
+      "explication": "« Mi prima se llama Elena » : ma cousine s’appelle Elena.",
+      "ecoute": {
+        "texte": "Mi prima se llama Elena.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « los padres » ?",
+      "options": [
+        "les parents",
+        "les pères seulement",
+        "les grands-parents"
+      ],
+      "reponse": "les parents",
+      "indice": "Le père et la mère.",
+      "explication": "« los padres » : les parents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « mi hermano menor » ?",
+      "options": [
+        "mon petit frère",
+        "mon grand frère",
+        "mon demi-frère"
+      ],
+      "reponse": "mon petit frère",
+      "indice": "« menor » : plus jeune.",
+      "explication": "« menor » : cadet, plus jeune.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « ¿Cómo se llama … madre? » (ta)",
+      "options": [
+        "tu",
+        "tus",
+        "mis"
+      ],
+      "reponse": "tu",
+      "indice": "Singulier.",
+      "explication": "Devant un singulier : tu madre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Tengo dos hermanos: un chico y una chica » ?",
+      "options": [
+        "J’ai un frère et une sœur.",
+        "J’ai deux frères.",
+        "J’ai deux cousins."
+      ],
+      "reponse": "J’ai un frère et une sœur.",
+      "indice": "« hermanos » regroupe frères et sœurs.",
+      "explication": "« hermanos » désigne ici un frère et une sœur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FAM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le frère de ta mère est ton…",
+      "options": [
+        "tío",
+        "primo",
+        "abuelo"
+      ],
+      "reponse": "tío",
+      "indice": "Oncle.",
+      "explication": "Le frère de la mère est el tío, l’oncle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

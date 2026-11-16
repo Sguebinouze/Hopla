@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-5E-ECO-01",
+  "exercices": [
+    {
+      "id": "SV-C4-5E-ECO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un écosystème, c’est…",
+      "options": [
+        "un milieu, ses êtres vivants et leurs relations",
+        "seulement les animaux d’une forêt",
+        "un seul être vivant"
+      ],
+      "reponse": "un milieu, ses êtres vivants et leurs relations",
+      "indice": "Trois éléments.",
+      "explication": "Un écosystème réunit milieu, êtres vivants et relations entre eux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans la chaîne « herbe → lapin → renard », la flèche signifie…",
+      "options": [
+        "« est mangé par »",
+        "« mange »",
+        "« vit à côté de »"
+      ],
+      "reponse": "« est mangé par »",
+      "indice": "L’herbe ne mange pas le lapin.",
+      "explication": "La flèche se lit « est mangé par » : l’herbe est mangée par le lapin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel être vivant est un producteur ?",
+      "options": [
+        "le chêne",
+        "le renard",
+        "le ver de terre"
+      ],
+      "reponse": "le chêne",
+      "indice": "Il utilise la lumière.",
+      "explication": "Le chêne, végétal chlorophyllien, produit sa propre matière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le ver de terre qui mange les feuilles mortes est…",
+      "options": [
+        "un décomposeur",
+        "un producteur",
+        "un prédateur de renards"
+      ],
+      "reponse": "un décomposeur",
+      "indice": "Il recycle la matière morte.",
+      "explication": "Le ver de terre participe à la décomposition de la matière morte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Plusieurs chaînes alimentaires reliées forment…",
+      "options": [
+        "un réseau alimentaire",
+        "une population",
+        "un milieu"
+      ],
+      "reponse": "un réseau alimentaire",
+      "indice": "Comme un filet.",
+      "explication": "Des chaînes reliées entre elles forment un réseau alimentaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle chaîne est écrite correctement ?",
+      "options": [
+        "salade → escargot → hérisson",
+        "hérisson → escargot → salade",
+        "escargot → salade → hérisson"
+      ],
+      "reponse": "salade → escargot → hérisson",
+      "indice": "Commence par le producteur.",
+      "explication": "La salade est mangée par l’escargot, lui-même mangé par le hérisson.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un agriculteur arrache les haies de son champ. Une conséquence probable ?",
+      "options": [
+        "Les oiseaux et insectes qui y vivaient disparaissent du lieu.",
+        "Les vers de terre se multiplient sans limite.",
+        "Rien ne change dans l’écosystème."
+      ],
+      "reponse": "Les oiseaux et insectes qui y vivaient disparaissent du lieu.",
+      "indice": "Les haies sont des abris.",
+      "explication": "Les haies servent d’abri et de nourriture : leur disparition fait reculer de nombreuses espèces.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-ECO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que deviendrait une forêt sans décomposeurs ?",
+      "options": [
+        "La matière morte s’accumulerait et le sol s’appauvrirait.",
+        "Les arbres pousseraient plus vite.",
+        "Les feuilles mortes disparaitraient plus vite."
+      ],
+      "reponse": "La matière morte s’accumulerait et le sol s’appauvrirait.",
+      "indice": "Qui recycle la matière ?",
+      "explication": "Sans décomposeurs, la matière morte n’est plus recyclée en sels minéraux pour les plantes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

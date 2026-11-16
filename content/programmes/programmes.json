@@ -844,5 +844,119 @@
         "fin": null
       }
     ]
+  },
+  {
+    "id": "AL-C4-2020",
+    "matiere": "allemand",
+    "cycle": 4,
+    "intitule": "Langues vivantes (cycle 4) : allemand",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "eduscol-reperes-lv-c4"
+    ],
+    "verifie": true,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": "2027-2028"
+      }
+    ]
+  },
+  {
+    "id": "AL-C4-2025",
+    "matiere": "allemand",
+    "cycle": 4,
+    "intitule": "Programme d’allemand des classes de cinquième, quatrième et troisième",
+    "reference": "BO n°22 du 29 mai 2025",
+    "sources": [
+      "bo22-2025-allemand-college"
+    ],
+    "verifie": true,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2028-2029",
+        "fin": null
+      }
+    ]
+  },
+  {
+    "id": "ES-C4-2020",
+    "matiere": "espagnol",
+    "cycle": 4,
+    "intitule": "Langues vivantes (cycle 4) : espagnol",
+    "reference": "BO n°31 du 30 juillet 2020",
+    "sources": [
+      "eduscol-cycle-4-2020",
+      "eduscol-reperes-lv-c4"
+    ],
+    "verifie": true,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2020-2021",
+        "fin": "2025-2026"
+      },
+      {
+        "classe": "4e",
+        "debut": "2020-2021",
+        "fin": "2026-2027"
+      },
+      {
+        "classe": "3e",
+        "debut": "2020-2021",
+        "fin": "2027-2028"
+      }
+    ]
+  },
+  {
+    "id": "ES-C4-2025",
+    "matiere": "espagnol",
+    "cycle": 4,
+    "intitule": "Programme d’espagnol des classes de cinquième, quatrième et troisième",
+    "reference": "BO n°22 du 29 mai 2025",
+    "sources": [
+      "bo22-2025-espagnol-college"
+    ],
+    "verifie": true,
+    "application": [
+      {
+        "classe": "5e",
+        "debut": "2026-2027",
+        "fin": null
+      },
+      {
+        "classe": "4e",
+        "debut": "2027-2028",
+        "fin": null
+      },
+      {
+        "classe": "3e",
+        "debut": "2028-2029",
+        "fin": null
+      }
+    ]
   }
 ]

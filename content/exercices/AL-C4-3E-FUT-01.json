@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-FUT-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « die Ärztin » ?",
+      "options": [
+        "la médecin",
+        "l’infirmière",
+        "la pharmacienne"
+      ],
+      "reponse": "la médecin",
+      "indice": "der Arzt au féminin.",
+      "explication": "« die Ärztin » : la médecin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se place l’infinitif au futur ?",
+      "options": [
+        "à la fin",
+        "après werden",
+        "en tête"
+      ],
+      "reponse": "à la fin",
+      "indice": "Ich werde Deutsch lernen.",
+      "explication": "L’infinitif ferme la phrase.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment forme-t-on le féminin de « Lehrer » ?",
+      "options": [
+        "Lehrerin",
+        "Lehrere",
+        "Lehrerer"
+      ],
+      "reponse": "Lehrerin",
+      "indice": "Suffixe -in.",
+      "explication": "der Lehrer → die Lehrerin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Du … bestimmt Erfolg haben. » (werden)",
+      "options": [
+        "wirst",
+        "werdest",
+        "wird"
+      ],
+      "reponse": "wirst",
+      "indice": "Forme irrégulière avec du.",
+      "explication": "werden avec du : du wirst.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel métier veut-elle faire ?",
+      "options": [
+        "ingénieure",
+        "professeure",
+        "médecin"
+      ],
+      "reponse": "ingénieure",
+      "indice": "« Ingenieurin ».",
+      "explication": "« Ich möchte Ingenieurin werden » : je voudrais devenir ingénieure.",
+      "ecoute": {
+        "texte": "Ich möchte Ingenieurin werden.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « nächstes Jahr » ?",
+      "options": [
+        "l’année prochaine",
+        "l’année dernière",
+        "cette année"
+      ],
+      "reponse": "l’année prochaine",
+      "indice": "« nächst » : prochain.",
+      "explication": "« nächstes Jahr » : l’année prochaine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase exprime aussi le futur ?",
+      "options": [
+        "Morgen fahre ich nach Hamburg.",
+        "Gestern bin ich nach Hamburg gefahren.",
+        "Ich fuhr nach Hamburg."
+      ],
+      "reponse": "Morgen fahre ich nach Hamburg.",
+      "indice": "Présent + repère de temps.",
+      "explication": "Le présent avec « morgen » exprime le futur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Später will ich Polizistin werden.",
+        "Später ich will Polizistin werden.",
+        "Später will ich werden Polizistin."
+      ],
+      "reponse": "Später will ich Polizistin werden.",
+      "indice": "Verbe en 2e position, infinitif à la fin.",
+      "explication": "Après « Später », will en 2e position, werden à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -76,6 +76,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-IONS-01",
+      "titre": "Ions H⁺ et OH⁻",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Propriétés de quelques transformations chimiques",
+      "attendu": "Associer le caractère acide ou basique d’une solution aux ions H⁺ et OH⁻, et décrire la réaction d’un acide sur un métal.",
+      "exemple": "Dans l’acide chlorhydrique, le fer est attaqué : des bulles de dihydrogène se forment.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Associer le caractère acide ou basique à la présence d’ions H+ et OH-"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-UNIV-01",
+      "titre": "L’Univers et ses distances",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire l’organisation de la matière dans l’Univers",
+      "attendu": "Décrire la structure de l’Univers et du système solaire, et utiliser l’année-lumière comme unité de distance.",
+      "exemple": "La lumière du Soleil met environ 8 minutes pour atteindre la Terre.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Aborder les différentes unités de distance et savoir les convertir : du kilomètre à l’année-lumière."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

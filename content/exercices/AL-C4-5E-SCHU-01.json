@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-5E-SCHU-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-SCHU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Geschichte » ?",
+      "options": [
+        "l’histoire",
+        "la géographie",
+        "la musique"
+      ],
+      "reponse": "l’histoire",
+      "indice": "Une matière sur le passé.",
+      "explication": "« Geschichte » : l’histoire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « der Schulhof » ?",
+      "options": [
+        "la cour de l’école",
+        "le bureau du professeur",
+        "le gymnase"
+      ],
+      "reponse": "la cour de l’école",
+      "indice": "On y joue à la récréation.",
+      "explication": "« der Schulhof » : la cour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel jour a-t-il maths ?",
+      "options": [
+        "lundi",
+        "mardi",
+        "dimanche"
+      ],
+      "reponse": "lundi",
+      "indice": "« Montag ».",
+      "explication": "« Am Montag habe ich Mathe » : le lundi, j’ai maths.",
+      "ecoute": {
+        "texte": "Am Montag habe ich Mathe.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « die Hausaufgaben » ?",
+      "options": [
+        "les devoirs",
+        "les vacances",
+        "les notes"
+      ],
+      "reponse": "les devoirs",
+      "indice": "Des tâches faites à la maison.",
+      "explication": "« die Hausaufgaben » : les devoirs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Kunst » est…",
+      "options": [
+        "les arts plastiques",
+        "la physique",
+        "l’éducation physique"
+      ],
+      "reponse": "les arts plastiques",
+      "indice": "Dessin, peinture…",
+      "explication": "« Kunst » : les arts plastiques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Mein Lieblingsfach ist Sport » ?",
+      "options": [
+        "Ma matière préférée est le sport.",
+        "Je n’aime pas le sport.",
+        "J’ai sport aujourd’hui."
+      ],
+      "reponse": "Ma matière préférée est le sport.",
+      "indice": "« Lieblings- » : préféré.",
+      "explication": "« Lieblingsfach » : matière préférée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une AG dans une école allemande, c’est…",
+      "options": [
+        "un club d’activités proposé par l’école",
+        "un examen",
+        "une salle de classe"
+      ],
+      "reponse": "un club d’activités proposé par l’école",
+      "indice": "Chorale, jardinage, théâtre…",
+      "explication": "Une AG est un groupe d’activités : chorale, théâtre, jardin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-SCHU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. À quelle heure finit l’école ?",
+      "options": [
+        "13 h 30",
+        "15 h 30",
+        "7 h 45"
+      ],
+      "reponse": "13 h 30",
+      "indice": "« endet » : finit.",
+      "explication": "« Die Schule endet um 13 Uhr 30 » : l’école finit à 13 h 30.",
+      "ecoute": {
+        "texte": "Die Schule endet um 13 Uhr 30.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

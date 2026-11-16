@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-5E-GOUT-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-GOUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich spiele gern Tennis » ?",
+      "options": [
+        "J’aime jouer au tennis.",
+        "Je n’aime pas le tennis.",
+        "Je joue mal au tennis."
+      ],
+      "reponse": "J’aime jouer au tennis.",
+      "indice": "« gern » : volontiers.",
+      "explication": "Verbe + gern : aimer faire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich tanze nicht gern » ?",
+      "options": [
+        "Je n’aime pas danser.",
+        "J’aime danser.",
+        "Je danse souvent."
+      ],
+      "reponse": "Je n’aime pas danser.",
+      "indice": "« nicht » : ne pas.",
+      "explication": "« nicht gern » : ne pas aimer faire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich … Schokolade. » (j’aime)",
+      "options": [
+        "mag",
+        "gern",
+        "lieber"
+      ],
+      "reponse": "mag",
+      "indice": "Aimer + nom.",
+      "explication": "Avec un nom, on utilise mögen : Ich mag Schokolade.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Ich schwimme lieber » ?",
+      "options": [
+        "Je préfère nager.",
+        "Je nage mal.",
+        "Je n’aime pas nager."
+      ],
+      "reponse": "Je préfère nager.",
+      "indice": "« lieber » : plutôt.",
+      "explication": "« lieber » exprime la préférence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « mein Lieblingsessen » ?",
+      "options": [
+        "mon plat préféré",
+        "mon repas du soir",
+        "ma boisson"
+      ],
+      "reponse": "mon plat préféré",
+      "indice": "« Lieblings- » : préféré.",
+      "explication": "« Lieblingsessen » : plat préféré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que comprends-tu ?",
+      "options": [
+        "Elle aime danser mais pas chanter.",
+        "Elle aime chanter mais pas danser.",
+        "Elle n’aime ni chanter ni danser."
+      ],
+      "reponse": "Elle aime danser mais pas chanter.",
+      "indice": "« aber » : mais.",
+      "explication": "« Ich tanze gern, aber ich singe nicht gern. »",
+      "ecoute": {
+        "texte": "Ich tanze gern, aber ich singe nicht gern.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich esse gern Pommes.",
+        "Ich gern esse Pommes.",
+        "Gern ich esse Pommes."
+      ],
+      "reponse": "Ich esse gern Pommes.",
+      "indice": "Le verbe conjugué vient en 2e position.",
+      "explication": "Sujet, verbe conjugué, puis gern : Ich esse gern Pommes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-GOUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Tu goutes un gâteau délicieux. Que dis-tu ?",
+      "options": [
+        "Das schmeckt gut!",
+        "Das ist langweilig!",
+        "Ich habe keinen Hunger."
+      ],
+      "reponse": "Das schmeckt gut!",
+      "indice": "« schmecken » : avoir du gout.",
+      "explication": "« Das schmeckt gut! » : c’est bon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

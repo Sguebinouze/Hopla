@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-SER-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-SER-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Yo … francés. » (nationalité)",
+      "options": [
+        "soy",
+        "estoy",
+        "voy"
+      ],
+      "reponse": "soy",
+      "indice": "Identité, origine.",
+      "explication": "La nationalité s’exprime avec ser : soy.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … un perro. » (j’ai)",
+      "options": [
+        "Tengo",
+        "Soy",
+        "Estoy"
+      ],
+      "reponse": "Tengo",
+      "indice": "Posséder.",
+      "explication": "« Tengo un perro » : j’ai un chien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Nosotros … al cine. » (aller)",
+      "options": [
+        "vamos",
+        "van",
+        "vais"
+      ],
+      "reponse": "vamos",
+      "indice": "ir avec nosotros.",
+      "explication": "Ir avec nosotros : vamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Barcelona … en Cataluña. »",
+      "options": [
+        "está",
+        "es",
+        "tiene"
+      ],
+      "reponse": "está",
+      "indice": "Situer un lieu.",
+      "explication": "La localisation s’exprime avec estar.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Tengo frío » ?",
+      "options": [
+        "J’ai froid.",
+        "Je suis froid.",
+        "Il fait froid."
+      ],
+      "reponse": "J’ai froid.",
+      "indice": "tener + nom.",
+      "explication": "« Tener frío » : avoir froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment va-t-elle ?",
+      "options": [
+        "Elle est fatiguée.",
+        "Elle est grande.",
+        "Elle a faim."
+      ],
+      "reponse": "Elle est fatiguée.",
+      "indice": "« cansada ».",
+      "explication": "« Estoy cansada » : je suis fatiguée.",
+      "ecoute": {
+        "texte": "Estoy cansada.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Mi hermano … muy simpático. » (caractère)",
+      "options": [
+        "es",
+        "está",
+        "tiene"
+      ],
+      "reponse": "es",
+      "indice": "Trait de caractère durable.",
+      "explication": "Le caractère s’exprime avec ser : es simpático.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-SER-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « ¿Adónde … tú? » (aller)",
+      "options": [
+        "vas",
+        "va",
+        "vais"
+      ],
+      "reponse": "vas",
+      "indice": "ir avec tú.",
+      "explication": "Ir avec tú : vas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

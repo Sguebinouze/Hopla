@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-MEX-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-MEX-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle langue parle-t-on surtout au Mexique ?",
+      "options": [
+        "l’espagnol",
+        "le portugais",
+        "l’anglais"
+      ],
+      "reponse": "l’espagnol",
+      "indice": "Le pays compte le plus d’hispanophones.",
+      "explication": "L’espagnol est la langue la plus parlée au Mexique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la monnaie du Mexique ?",
+      "options": [
+        "le peso",
+        "l’euro",
+        "le dollar"
+      ],
+      "reponse": "le peso",
+      "indice": "Comme en Argentine, mais mexicain.",
+      "explication": "On paie en pesos mexicains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une calavera est…",
+      "options": [
+        "un crâne décoré",
+        "un plat de maïs",
+        "une danse"
+      ],
+      "reponse": "un crâne décoré",
+      "indice": "Día de Muertos.",
+      "explication": "Les calaveras sont des crânes décorés, souvent en sucre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le Día de Muertos se fête…",
+      "options": [
+        "début novembre",
+        "le 25 décembre",
+        "en été"
+      ],
+      "reponse": "début novembre",
+      "indice": "Après la Toussaint.",
+      "explication": "Il se célèbre le 1er et le 2 novembre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel peuple a bâti Chichén Itzá ?",
+      "options": [
+        "les Mayas",
+        "les Romains",
+        "les Incas"
+      ],
+      "reponse": "les Mayas",
+      "indice": "Péninsule du Yucatán.",
+      "explication": "Chichén Itzá est une cité maya.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel aliment est à la base des tortillas mexicaines ?",
+      "options": [
+        "le maïs",
+        "le riz",
+        "la pomme de terre"
+      ],
+      "reponse": "le maïs",
+      "indice": "Une céréale d’Amérique.",
+      "explication": "Les tortillas mexicaines sont faites de maïs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dit la phrase ?",
+      "options": [
+        "Le Mexique est un grand pays d’Amérique.",
+        "Le Mexique est une ile d’Europe.",
+        "Le Mexique est un petit pays d’Afrique."
+      ],
+      "reponse": "Le Mexique est un grand pays d’Amérique.",
+      "indice": "« grande », « América ».",
+      "explication": "« México es un país grande de América. »",
+      "ecoute": {
+        "texte": "México es un país grande de América.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-MEX-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Avec quel pays le Mexique a-t-il une longue frontière au nord ?",
+      "options": [
+        "les États-Unis",
+        "le Brésil",
+        "l’Espagne"
+      ],
+      "reponse": "les États-Unis",
+      "indice": "Amérique du Nord.",
+      "explication": "Le Mexique partage une longue frontière avec les États-Unis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

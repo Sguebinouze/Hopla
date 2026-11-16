@@ -76,6 +76,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-5E-LUM-01",
+      "titre": "Sources de lumière",
+      "domaine": "Des signaux pour observer et communiquer",
+      "theme": "Signaux lumineux",
+      "attendu": "Distinguer source primaire et objet diffusant, et utiliser la propagation rectiligne de la lumière pour expliquer les ombres.",
+      "exemple": "La Lune brille la nuit, mais elle ne produit pas de lumière : elle renvoie celle du Soleil.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "Distinguer une source primaire (objet lumineux) d’un objet diffusant."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-5E-SOL-01",
+      "titre": "Solubilité et miscibilité",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Distinguer dissolution et mélange de liquides, reconnaitre une solution saturée et la conservation de la masse lors d’une dissolution.",
+      "exemple": "Le sucre disparait dans le thé chaud : il est dissous. L’huile reste au-dessus de l’eau : elles ne se mélangent pas.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Les notions de miscibilité et de solubilité peuvent être introduites expérimentalement dès le début du cycle."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

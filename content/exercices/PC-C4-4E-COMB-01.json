@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-COMB-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-COMB-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans l’air, le comburant d’une combustion est…",
+      "options": [
+        "le dioxygène",
+        "le diazote",
+        "le bois"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "Le gaz que nous respirons.",
+      "explication": "Le dioxygène de l’air est le comburant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans un feu de bois, le bois est…",
+      "options": [
+        "le combustible",
+        "le comburant",
+        "un produit"
+      ],
+      "reponse": "le combustible",
+      "indice": "C’est lui qui brule.",
+      "explication": "Le bois est le combustible.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pourquoi la bougie sous le verre s’éteint-elle ?",
+      "options": [
+        "Le dioxygène est consommé.",
+        "La cire disparait d’un coup.",
+        "Le verre refroidit la mèche."
+      ],
+      "reponse": "Le dioxygène est consommé.",
+      "indice": "Un des trois éléments manque.",
+      "explication": "Sans renouvellement d’air, le dioxygène est consommé et la combustion s’arrête.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Équation de la combustion du carbone :",
+      "options": [
+        "C + O₂ → CO₂",
+        "CO₂ → C + O₂",
+        "C + CO₂ → O₂"
+      ],
+      "reponse": "C + O₂ → CO₂",
+      "indice": "Réactifs à gauche, produit à droite.",
+      "explication": "Le carbone réagit avec le dioxygène et produit du dioxyde de carbone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une combustion incomplète produit un gaz toxique et inodore :",
+      "options": [
+        "le monoxyde de carbone",
+        "le dioxygène",
+        "la vapeur d’eau"
+      ],
+      "reponse": "le monoxyde de carbone",
+      "indice": "CO.",
+      "explication": "Le monoxyde de carbone (CO) est toxique et ne se sent pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour éteindre un feu de casserole d’huile, on pose un couvercle. On supprime…",
+      "options": [
+        "le comburant",
+        "le combustible",
+        "les produits"
+      ],
+      "reponse": "le comburant",
+      "indice": "L’air ne passe plus.",
+      "explication": "Le couvercle prive la flamme de dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La combustion du méthane produit du dioxyde de carbone et…",
+      "options": [
+        "de l’eau",
+        "du dioxygène",
+        "du méthane"
+      ],
+      "reponse": "de l’eau",
+      "indice": "Le méthane contient de l’hydrogène.",
+      "explication": "CH₄ + 2 O₂ → CO₂ + 2 H₂O : il se forme du dioxyde de carbone et de l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-COMB-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi une chaudière doit-elle être entretenue et la pièce aérée ?",
+      "options": [
+        "Pour éviter une combustion incomplète qui produit du monoxyde de carbone.",
+        "Pour produire plus de dioxygène.",
+        "Pour que le gaz brule moins vite."
+      ],
+      "reponse": "Pour éviter une combustion incomplète qui produit du monoxyde de carbone.",
+      "indice": "Manque de dioxygène.",
+      "explication": "Un appareil mal réglé ou une pièce mal aérée provoque une combustion incomplète, source de monoxyde de carbone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

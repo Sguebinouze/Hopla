@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-VIAJ-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-VIAJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « el tren » ?",
+      "options": [
+        "le train",
+        "le tram",
+        "le bateau"
+      ],
+      "reponse": "le train",
+      "indice": "On le prend à la gare.",
+      "explication": "« el tren » : le train.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La Sagrada Familia se trouve à…",
+      "options": [
+        "Barcelone",
+        "Madrid",
+        "Séville"
+      ],
+      "reponse": "Barcelone",
+      "indice": "Œuvre de Gaudí.",
+      "explication": "La Sagrada Familia est à Barcelone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « la maleta » ?",
+      "options": [
+        "la valise",
+        "la carte",
+        "le sac à dos"
+      ],
+      "reponse": "la valise",
+      "indice": "On y range ses vêtements pour voyager.",
+      "explication": "« la maleta » : la valise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. D’où part le train ?",
+      "options": [
+        "du quai 3",
+        "à 3 heures",
+        "dans 3 minutes"
+      ],
+      "reponse": "du quai 3",
+      "indice": "« andén » : quai.",
+      "explication": "« El tren sale del andén tres » : le train part du quai 3.",
+      "ecoute": {
+        "texte": "El tren sale del andén tres.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans quel pays se trouve Machu Picchu ?",
+      "options": [
+        "au Pérou",
+        "au Mexique",
+        "en Espagne"
+      ],
+      "reponse": "au Pérou",
+      "indice": "Cité inca dans les Andes.",
+      "explication": "Machu Picchu est au Pérou.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’Alhambra est un palais situé à…",
+      "options": [
+        "Grenade",
+        "Barcelone",
+        "Bilbao"
+      ],
+      "reponse": "Grenade",
+      "indice": "En Andalousie.",
+      "explication": "L’Alhambra est à Grenade (Granada).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment demander un billet pour Séville ?",
+      "options": [
+        "Un billete para Sevilla, por favor.",
+        "Una maleta para Sevilla, por favor.",
+        "Un andén a Sevilla, por favor."
+      ],
+      "reponse": "Un billete para Sevilla, por favor.",
+      "indice": "« para » pour une destination.",
+      "explication": "« Un billete para Sevilla, por favor » : un billet pour Séville.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-VIAJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Avec quelle monnaie paie-t-on à Buenos Aires ?",
+      "options": [
+        "le peso argentin",
+        "l’euro",
+        "le dollar canadien"
+      ],
+      "reponse": "le peso argentin",
+      "indice": "Argentine.",
+      "explication": "En Argentine, on paie en pesos argentins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

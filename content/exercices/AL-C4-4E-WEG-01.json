@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-WEG-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-WEG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « links » ?",
+      "options": [
+        "à gauche",
+        "à droite",
+        "tout droit"
+      ],
+      "reponse": "à gauche",
+      "indice": "Le contraire de rechts.",
+      "explication": "« links » : à gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « der Bahnhof » ?",
+      "options": [
+        "la gare",
+        "la banque",
+        "le port"
+      ],
+      "reponse": "la gare",
+      "indice": "On y prend le train.",
+      "explication": "« der Bahnhof » : la gare.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment aborder poliment un passant ?",
+      "options": [
+        "Entschuldigung, …",
+        "Tschüss, …",
+        "Gute Nacht, …"
+      ],
+      "reponse": "Entschuldigung, …",
+      "indice": "Excusez-moi.",
+      "explication": "« Entschuldigung » : excusez-moi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wie komme ich … Post? » (die Post)",
+      "options": [
+        "zur",
+        "zum",
+        "zu den"
+      ],
+      "reponse": "zur",
+      "indice": "Post est féminin.",
+      "explication": "Devant un nom féminin : zur Post.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « an der Ampel » ?",
+      "options": [
+        "au feu",
+        "au coin",
+        "au pont"
+      ],
+      "reponse": "au feu",
+      "indice": "Feu tricolore.",
+      "explication": "« die Ampel » : le feu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où faut-il aller ?",
+      "options": [
+        "tout droit puis à droite",
+        "à gauche puis tout droit",
+        "à droite puis à gauche"
+      ],
+      "reponse": "tout droit puis à droite",
+      "indice": "« geradeaus », « rechts ».",
+      "explication": "« Gehen Sie geradeaus und dann rechts. »",
+      "ecoute": {
+        "texte": "Gehen Sie geradeaus und dann rechts.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Wie komme ich … Museum? » (das Museum)",
+      "options": [
+        "zum",
+        "zur",
+        "zu der"
+      ],
+      "reponse": "zum",
+      "indice": "Museum est neutre.",
+      "explication": "Devant un nom neutre : zum Museum.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-WEG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Nehmen Sie die zweite Straße links » ?",
+      "options": [
+        "Prenez la deuxième rue à gauche.",
+        "Prenez la première rue à droite.",
+        "Traversez deux rues."
+      ],
+      "reponse": "Prenez la deuxième rue à gauche.",
+      "indice": "« zweite » : deuxième.",
+      "explication": "« die zweite Straße links » : la deuxième rue à gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

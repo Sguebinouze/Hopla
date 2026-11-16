@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-SOL-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-SOL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Dans l’eau salée, le sel est…",
+      "options": [
+        "le soluté",
+        "le solvant",
+        "la solution"
+      ],
+      "reponse": "le soluté",
+      "indice": "C’est ce qu’on dissout.",
+      "explication": "Le sel dissous est le soluté, l’eau est le solvant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’eau et l’huile sont…",
+      "options": [
+        "non miscibles",
+        "miscibles",
+        "solubles l’une dans l’autre"
+      ],
+      "reponse": "non miscibles",
+      "indice": "Elles forment deux couches.",
+      "explication": "L’eau et l’huile ne se mélangent pas : elles sont non miscibles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une solution saturée…",
+      "options": [
+        "ne peut plus dissoudre de soluté",
+        "ne contient pas de soluté",
+        "contient seulement du solvant"
+      ],
+      "reponse": "ne peut plus dissoudre de soluté",
+      "indice": "Le sel reste au fond.",
+      "explication": "Une solution saturée ne dissout plus de soluté supplémentaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On dissout 10 g de sel dans 250 g d’eau. Masse de la solution ?",
+      "options": [
+        "260 g",
+        "250 g",
+        "240 g"
+      ],
+      "reponse": "260 g",
+      "indice": "La masse se conserve.",
+      "explication": "250 g + 10 g = 260 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’eau et le sirop de menthe forment…",
+      "options": [
+        "un mélange homogène",
+        "deux couches séparées",
+        "un solide"
+      ],
+      "reponse": "un mélange homogène",
+      "indice": "Ils sont miscibles.",
+      "explication": "Ces deux liquides miscibles donnent un mélange homogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Après agitation, on laisse reposer eau et huile. Où se place l’huile ?",
+      "options": [
+        "au-dessus de l’eau",
+        "au fond",
+        "mélangée à l’eau"
+      ],
+      "reponse": "au-dessus de l’eau",
+      "indice": "Elle est moins dense que l’eau.",
+      "explication": "L’huile, non miscible et moins dense, remonte au-dessus de l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La solubilité du sel est d’environ 360 g par litre d’eau à 20 °C. On verse 400 g de sel dans 1 L d’eau. Que se passe-t-il ?",
+      "options": [
+        "Environ 40 g restent au fond.",
+        "Tout le sel se dissout.",
+        "Rien ne se dissout."
+      ],
+      "reponse": "Environ 40 g restent au fond.",
+      "indice": "400 − 360.",
+      "explication": "Seuls 360 g environ se dissolvent : le reste, environ 40 g, reste solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-SOL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment prouver que le sel est toujours présent dans une eau salée limpide ?",
+      "options": [
+        "Faire évaporer l’eau : des cristaux de sel réapparaissent.",
+        "Regarder l’eau à la loupe.",
+        "Filtrer l’eau salée."
+      ],
+      "reponse": "Faire évaporer l’eau : des cristaux de sel réapparaissent.",
+      "indice": "Le filtre laisse passer la solution.",
+      "explication": "L’évaporation retire le solvant : le soluté réapparait sous forme de cristaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-COMB-01",
+  "exemple": "On pose un verre retourné sur une bougie allumée. La flamme faiblit puis s’éteint.",
+  "regle": "Une **combustion** est une transformation chimique. Il faut trois éléments : un **combustible** (bois, gaz, carbone), un **comburant** (le **dioxygène** de l’air) et une **source de chaleur** pour démarrer. La combustion du carbone produit du **dioxyde de carbone**, qui **trouble l’eau de chaux**. Celle du méthane produit aussi de l’**eau**. Si le dioxygène manque, la combustion est **incomplète** : elle produit du **monoxyde de carbone**, un gaz toxique et inodore.",
+  "piege": "Le dioxygène ne brule pas : c’est le comburant, il permet au combustible de bruler.",
+  "essai": {
+    "consigne": "Quel gaz trouble l’eau de chaux ?",
+    "options": [
+      "le dioxyde de carbone",
+      "le dioxygène",
+      "le diazote"
+    ],
+    "reponse": "le dioxyde de carbone",
+    "explication": "L’eau de chaux se trouble en présence de dioxyde de carbone."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

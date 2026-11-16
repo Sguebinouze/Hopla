@@ -46,6 +46,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01",
+      "titre": "Besoins alimentaires",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Alimentation et digestion",
+      "attendu": "Relier les groupes d’aliments à leurs apports et aux besoins de l’organisme, qui varient selon l’âge et l’activité.",
+      "exemple": "Les pâtes apportent surtout de l’énergie, le poisson des protéines, les fruits des vitamines.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 113,
+        "extrait": "Groupes d’aliments, besoins alimentaires, besoins nutritionnels et diversité des régimes alimentaires."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-MICRO-01",
+      "titre": "Le monde microbien",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Relations avec le monde microbien",
+      "attendu": "Relier la présence de micro-organismes dans et autour de nous au fonctionnement de l’organisme, et expliquer l’action des antibiotiques.",
+      "exemple": "Le yaourt est fabriqué grâce à des bactéries qui transforment le lait.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 113,
+        "extrait": "Relier le monde microbien hébergé par notre organisme et son fonctionnement."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01",
+      "titre": "Aléas et risques naturels",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Les phénomènes naturels : risques et enjeux pour l’être humain",
+      "attendu": "Distinguer aléa, enjeux et risque, et citer des mesures de prévision, de prévention et de protection.",
+      "exemple": "Un séisme dans un désert vide ne menace personne. Le même séisme sous une ville crée un risque majeur.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 110,
+        "extrait": "Notions d’aléas, de vulnérabilité et de risque en lien avec les phénomènes naturels ; prévisions."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-4E-RISQ-01",
+  "exercices": [
+    {
+      "id": "SV-C4-4E-RISQ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un aléa est…",
+      "options": [
+        "un phénomène naturel possible",
+        "une personne exposée",
+        "une mesure de sécurité"
+      ],
+      "reponse": "un phénomène naturel possible",
+      "indice": "Séisme, inondation…",
+      "explication": "L’aléa est le phénomène naturel lui-même.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les enjeux sont…",
+      "options": [
+        "les personnes et les biens exposés",
+        "les phénomènes naturels",
+        "les scientifiques"
+      ],
+      "reponse": "les personnes et les biens exposés",
+      "indice": "Ce qui peut être touché.",
+      "explication": "Les enjeux sont les personnes et les biens exposés à l’aléa.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le risque apparait quand…",
+      "options": [
+        "un aléa menace des enjeux",
+        "il n’y a personne",
+        "il fait beau"
+      ],
+      "reponse": "un aléa menace des enjeux",
+      "indice": "Il faut les deux.",
+      "explication": "Le risque naît de la rencontre d’un aléa et d’enjeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La carte de vigilance météo sert à…",
+      "options": [
+        "prévoir",
+        "protéger avec une digue",
+        "déclencher un séisme"
+      ],
+      "reponse": "prévoir",
+      "indice": "Elle annonce le danger à l’avance.",
+      "explication": "La vigilance météo annonce les phénomènes dangereux : c’est de la prévision.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une digue le long d’un fleuve est une mesure de…",
+      "options": [
+        "protection",
+        "prévision",
+        "vulnérabilité"
+      ],
+      "reponse": "protection",
+      "indice": "Elle retient l’eau.",
+      "explication": "La digue protège les habitations contre la crue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Interdire de construire en zone inondable, c’est…",
+      "options": [
+        "de la prévention",
+        "de la prévision",
+        "un aléa"
+      ],
+      "reponse": "de la prévention",
+      "indice": "On évite d’exposer des enjeux.",
+      "explication": "Ne pas exposer de nouveaux enjeux réduit le risque : c’est de la prévention.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Deux séismes de même force : l’un dans une région désertique, l’autre sous une grande ville. Où le risque est-il le plus fort ?",
+      "options": [
+        "sous la grande ville",
+        "dans la région désertique",
+        "le risque est identique"
+      ],
+      "reponse": "sous la grande ville",
+      "indice": "Compare les enjeux.",
+      "explication": "L’aléa est le même, mais la ville concentre beaucoup plus d’enjeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-RISQ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Des habitations en bois léger, sans normes, augmentent…",
+      "options": [
+        "la vulnérabilité",
+        "l’aléa",
+        "la prévision"
+      ],
+      "reponse": "la vulnérabilité",
+      "indice": "La fragilité des enjeux.",
+      "explication": "Des bâtiments fragiles rendent les enjeux plus vulnérables.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

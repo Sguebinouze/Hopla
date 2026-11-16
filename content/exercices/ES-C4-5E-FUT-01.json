@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-FUT-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Vamos a cantar » ?",
+      "options": [
+        "Nous allons chanter.",
+        "Nous chantons hier.",
+        "Allons au chant."
+      ],
+      "reponse": "Nous allons chanter.",
+      "indice": "ir a + infinitif.",
+      "explication": "« Vamos a cantar » : nous allons chanter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « mañana » ?",
+      "options": [
+        "demain",
+        "hier",
+        "ce soir"
+      ],
+      "reponse": "demain",
+      "indice": "Le jour suivant.",
+      "explication": "« mañana » : demain (et « la mañana » : le matin).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tú vas … estudiar. »",
+      "options": [
+        "a",
+        "de",
+        "en"
+      ],
+      "reponse": "a",
+      "indice": "ir a + infinitif.",
+      "explication": "Le futur proche se construit avec « a ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Mis amigos … a jugar al baloncesto. »",
+      "options": [
+        "van",
+        "vamos",
+        "va"
+      ],
+      "reponse": "van",
+      "indice": "Sujet pluriel.",
+      "explication": "ir avec ellos : van.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Me gustaría visitar Cuzco » ?",
+      "options": [
+        "J’aimerais visiter Cuzco.",
+        "J’ai visité Cuzco.",
+        "Je n’aime pas Cuzco."
+      ],
+      "reponse": "J’aimerais visiter Cuzco.",
+      "indice": "Conditionnel de gustar.",
+      "explication": "« Me gustaría » : j’aimerais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que va-t-il faire ce week-end ?",
+      "options": [
+        "aller à la plage",
+        "aller à l’école",
+        "faire ses devoirs"
+      ],
+      "reponse": "aller à la plage",
+      "indice": "« la playa ».",
+      "explication": "« El fin de semana voy a ir a la playa » : je vais aller à la plage.",
+      "ecoute": {
+        "texte": "El fin de semana voy a ir a la playa.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Vamos a visitar el museo.",
+        "Vamos visitar el museo.",
+        "Vamos de visitar el museo."
+      ],
+      "reponse": "Vamos a visitar el museo.",
+      "indice": "Le « a » est obligatoire.",
+      "explication": "ir + a + infinitif : vamos a visitar.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « el año que viene » ?",
+      "options": [
+        "l’année prochaine",
+        "l’année dernière",
+        "cette année"
+      ],
+      "reponse": "l’année prochaine",
+      "indice": "« viene » : vient.",
+      "explication": "« el año que viene » : l’année qui vient, l’année prochaine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

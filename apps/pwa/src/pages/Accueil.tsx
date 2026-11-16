@@ -18,7 +18,7 @@ import type { Cahier, ControlePrevu } from '../lib/donnees';
 const COULEUR_MATIERE: Record<string, string> = {
   francais: 'hp-subj-francais', mathematiques: 'hp-subj-maths', 'questionner-le-monde': 'hp-subj-histgeo',
   'histoire-geographie': 'hp-subj-histgeo', 'sciences-technologie': 'hp-subj-sciences', svt: 'hp-subj-sciences',
-  'physique-chimie': 'hp-subj-physique', technologie: 'hp-subj-techno', 'langues-vivantes': 'hp-subj-langues', emc: 'hp-subj-emc',
+  'physique-chimie': 'hp-subj-physique', technologie: 'hp-subj-techno', 'langues-vivantes': 'hp-subj-langues', allemand: 'hp-subj-langues', espagnol: 'hp-subj-langues', emc: 'hp-subj-emc',
 };
 
 export function Accueil() {
@@ -141,7 +141,7 @@ export function Accueil() {
         <>
           <h2 className="titre-2">Mes matières</h2>
           <div className="grille-matieres">
-            {pack.matieres.filter((m) => m.competences.length > 0).map((m) => {
+            {pack.matieres.filter((m) => competencesJouables({ ...pack, matieres: [m] }).length > 0).map((m) => {
               const b = bilan(competencesJouables({ ...pack, matieres: [m] }).map((c) => c.id), suivi);
               return (
                 <Link key={m.matiere} to={`/matiere/${m.matiere}`} className={`hp-subject ${COULEUR_MATIERE[m.matiere] ?? ''}`}>

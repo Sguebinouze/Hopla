@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-GESCH-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-GESCH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « die Mauer » ?",
+      "options": [
+        "le mur",
+        "la frontière",
+        "la porte"
+      ],
+      "reponse": "le mur",
+      "indice": "Berliner Mauer.",
+      "explication": "« die Mauer » : le mur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelles sont les couleurs du drapeau allemand ?",
+      "options": [
+        "noir, rouge, or",
+        "bleu, blanc, rouge",
+        "rouge, blanc"
+      ],
+      "reponse": "noir, rouge, or",
+      "indice": "Schwarz-Rot-Gold.",
+      "explication": "Le drapeau allemand est noir, rouge et or.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "En quelle année le mur de Berlin a-t-il été construit ?",
+      "options": [
+        "1961",
+        "1945",
+        "1989"
+      ],
+      "reponse": "1961",
+      "indice": "Pendant la guerre froide.",
+      "explication": "La RDA construit le mur en 1961.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La fête nationale allemande a lieu le…",
+      "options": [
+        "3 octobre",
+        "14 juillet",
+        "9 novembre"
+      ],
+      "reponse": "3 octobre",
+      "indice": "Tag der Deutschen Einheit.",
+      "explication": "Le 3 octobre célèbre la réunification de 1990.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La DDR, c’était…",
+      "options": [
+        "l’Allemagne de l’Est",
+        "l’Allemagne de l’Ouest",
+        "l’Autriche"
+      ],
+      "reponse": "l’Allemagne de l’Est",
+      "indice": "Deutsche Demokratische Republik.",
+      "explication": "La DDR (RDA) était l’Allemagne de l’Est.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que s’est-il passé en 1989 ?",
+      "options": [
+        "Le mur est tombé.",
+        "Le mur a été construit.",
+        "L’Allemagne a été divisée."
+      ],
+      "reponse": "Le mur est tombé.",
+      "indice": "« ist gefallen » : est tombé.",
+      "explication": "« 1989 ist die Mauer gefallen » : en 1989, le mur est tombé.",
+      "ecoute": {
+        "texte": "1989 ist die Mauer gefallen.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’Allemagne est un État fédéral. Cela signifie que…",
+      "options": [
+        "les 16 Länder ont leurs propres pouvoirs, par exemple sur l’école.",
+        "le pays n’a pas de gouvernement.",
+        "chaque ville a sa propre monnaie."
+      ],
+      "reponse": "les 16 Länder ont leurs propres pouvoirs, par exemple sur l’école.",
+      "indice": "Fédéralisme.",
+      "explication": "Chaque Land a un gouvernement et décide notamment de l’organisation scolaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien de temps le mur de Berlin est-il resté debout ?",
+      "options": [
+        "28 ans",
+        "45 ans",
+        "10 ans"
+      ],
+      "reponse": "28 ans",
+      "indice": "1989 − 1961.",
+      "explication": "De 1961 à 1989 : 28 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "AL-C4-4E-AKK-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-AKK-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À l’accusatif, « der » devient…",
+      "options": [
+        "den",
+        "dem",
+        "des"
+      ],
+      "reponse": "den",
+      "indice": "Marque -n.",
+      "explication": "Au masculin accusatif : den.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quels genres changent à l’accusatif ?",
+      "options": [
+        "seulement le masculin",
+        "le féminin et le neutre",
+        "tous les genres"
+      ],
+      "reponse": "seulement le masculin",
+      "indice": "der → den.",
+      "explication": "Seul le masculin change à l’accusatif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich habe … Bruder. » (un frère)",
+      "options": [
+        "einen",
+        "ein",
+        "eine"
+      ],
+      "reponse": "einen",
+      "indice": "Bruder est masculin.",
+      "explication": "Après haben, masculin accusatif : einen Bruder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich sehe … Frau. » (die Frau)",
+      "options": [
+        "die",
+        "den",
+        "der"
+      ],
+      "reponse": "die",
+      "indice": "Féminin.",
+      "explication": "Le féminin ne change pas : die Frau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « In meiner Stadt gibt es … Kino. » (das Kino)",
+      "options": [
+        "ein",
+        "einen",
+        "eine"
+      ],
+      "reponse": "ein",
+      "indice": "Neutre.",
+      "explication": "Le neutre ne change pas : ein Kino.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich habe … Hunger. » (pas faim, der Hunger)",
+      "options": [
+        "keinen",
+        "kein",
+        "keine"
+      ],
+      "reponse": "keinen",
+      "indice": "Hunger est masculin.",
+      "explication": "kein au masculin accusatif : keinen Hunger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich mag meinen Lehrer.",
+        "Ich mag mein Lehrer.",
+        "Ich mag meine Lehrer."
+      ],
+      "reponse": "Ich mag meinen Lehrer.",
+      "indice": "Lehrer, ici un seul professeur, masculin.",
+      "explication": "mein au masculin accusatif : meinen Lehrer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-AKK-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans « Den Film finde ich toll », quel est le sujet ?",
+      "options": [
+        "ich",
+        "den Film",
+        "toll"
+      ],
+      "reponse": "ich",
+      "indice": "« den » marque le complément.",
+      "explication": "« den Film » est à l’accusatif, donc complément ; le sujet est ich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

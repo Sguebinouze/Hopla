@@ -1,0 +1,141 @@
+{
+  "competence": "AL-C4-5E-ART-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-ART-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel article va avec « Hund » (chien) ?",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "reponse": "der",
+      "indice": "Masculin.",
+      "explication": "On dit « der Hund ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel article va avec « Haus » (maison) ?",
+      "options": [
+        "das",
+        "der",
+        "die"
+      ],
+      "reponse": "das",
+      "indice": "Neutre.",
+      "explication": "On dit « das Haus ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "En allemand, les noms s’écrivent…",
+      "options": [
+        "avec une majuscule",
+        "en minuscules",
+        "avec une majuscule seulement en début de phrase"
+      ],
+      "reponse": "avec une majuscule",
+      "indice": "der Hund, die Schule…",
+      "explication": "Tous les noms prennent une majuscule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« das Mädchen » (la fille) est…",
+      "options": [
+        "neutre",
+        "féminin",
+        "masculin"
+      ],
+      "reponse": "neutre",
+      "indice": "Regarde l’article.",
+      "explication": "« das » indique le neutre, même si le mot désigne une fille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Das ist … Schule. » (une)",
+      "options": [
+        "eine",
+        "ein",
+        "einen"
+      ],
+      "reponse": "eine",
+      "indice": "Schule est féminin.",
+      "explication": "Devant un nom féminin : eine Schule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Au pluriel, l’article défini est…",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "reponse": "die",
+      "indice": "Le même pour les trois genres.",
+      "explication": "Au pluriel, on utilise toujours « die ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « Ce n’est pas une bonne idée » ?",
+      "options": [
+        "Das ist keine gute Idee.",
+        "Das ist nicht eine gute Idee.",
+        "Das ist kein gute Idee."
+      ],
+      "reponse": "Das ist keine gute Idee.",
+      "indice": "Idee est féminin.",
+      "explication": "On nie un nom avec kein : keine devant un nom féminin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-ART-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich habe … Geschwister. » (pas de frères et sœurs)",
+      "options": [
+        "keine",
+        "kein",
+        "nicht"
+      ],
+      "reponse": "keine",
+      "indice": "Geschwister est un pluriel.",
+      "explication": "Au pluriel, kein devient keine : Ich habe keine Geschwister.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-4E-CAMI-01",
+  "exemple": "« Perdone, ¿para ir al museo? » « Siga todo recto y tome la primera calle a la izquierda. »",
+  "regle": "Pour demander : **Perdone, ¿dónde está…?** ou **¿Para ir a…?** Pour indiquer : **todo recto** (tout droit), **a la derecha** (à droite), **a la izquierda** (à gauche), **gire** (tournez). Repères : **la primera calle** (la première rue), **en el semáforo** (au feu), **cerca** (près), **lejos** (loin). **a + el** devient **al** : voy al museo.",
+  "piege": "« derecha » veut dire droite, et « derecho » peut aussi vouloir dire tout droit en Amérique latine.",
+  "essai": {
+    "consigne": "Que veut dire « a la izquierda » ?",
+    "options": [
+      "à gauche",
+      "à droite",
+      "tout droit"
+    ],
+    "reponse": "à gauche",
+    "explication": "« izquierda » : gauche."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

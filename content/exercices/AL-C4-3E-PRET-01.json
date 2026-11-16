@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-PRET-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-PRET-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Es war einmal » ?",
+      "options": [
+        "Il était une fois",
+        "C’est la fin",
+        "Une fois par semaine"
+      ],
+      "reponse": "Il était une fois",
+      "indice": "Début de conte.",
+      "explication": "« Es war einmal » : il était une fois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Prétérit de « haben » avec ich :",
+      "options": [
+        "hatte",
+        "habte",
+        "hätte"
+      ],
+      "reponse": "hatte",
+      "indice": "ich hatte.",
+      "explication": "haben → ich hatte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Wir … im Urlaub. » (sein, prétérit)",
+      "options": [
+        "waren",
+        "war",
+        "wart"
+      ],
+      "reponse": "waren",
+      "indice": "Pluriel.",
+      "explication": "sein avec wir au prétérit : wir waren.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Es gab viele Leute » ?",
+      "options": [
+        "Il y avait beaucoup de monde.",
+        "Il y a beaucoup de monde.",
+        "Il y aura beaucoup de monde."
+      ],
+      "reponse": "Il y avait beaucoup de monde.",
+      "indice": "Prétérit de « es gibt ».",
+      "explication": "« es gab » : il y avait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich … gestern nicht kommen. » (können, prétérit)",
+      "options": [
+        "konnte",
+        "kann",
+        "könnte"
+      ],
+      "reponse": "konnte",
+      "indice": "Sans Umlaut au prétérit.",
+      "explication": "können → ich konnte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que dit-il ?",
+      "options": [
+        "Il était fatigué hier.",
+        "Il est fatigué aujourd’hui.",
+        "Il sera fatigué demain."
+      ],
+      "reponse": "Il était fatigué hier.",
+      "indice": "« war », « gestern ».",
+      "explication": "« Gestern war ich sehr müde » : hier, j’étais très fatigué.",
+      "ecoute": {
+        "texte": "Gestern war ich sehr müde.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Früher … die Schüler still sein. » (sollen, prétérit)",
+      "options": [
+        "sollten",
+        "sollen",
+        "sollte"
+      ],
+      "reponse": "sollten",
+      "indice": "Sujet pluriel.",
+      "explication": "sollen au prétérit pluriel : sie sollten.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-PRET-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans « Der König starb im Jahr 814 », « starb » est le prétérit de…",
+      "options": [
+        "sterben (mourir)",
+        "stehen (être debout)",
+        "starten (démarrer)"
+      ],
+      "reponse": "sterben (mourir)",
+      "indice": "Le roi n’est plus.",
+      "explication": "« starb » vient de sterben : mourir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

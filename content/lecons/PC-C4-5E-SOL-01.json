@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-SOL-01",
+  "exemple": "On ajoute du sel dans un verre d’eau en remuant. Au bout d’un moment, le sel ne disparait plus et reste au fond.",
+  "regle": "Un solide **soluble** se **dissout** dans un liquide : on obtient une **solution**. Le solide dissous est le **soluté**, le liquide est le **solvant**. Au-delà d’une certaine quantité, le soluté ne se dissout plus : la solution est **saturée**. Lors d’une dissolution, la **masse se conserve**. Deux liquides **miscibles** forment un mélange homogène, comme l’eau et le sirop. L’eau et l’huile sont **non miscibles**.",
+  "piege": "Dissous ne veut pas dire disparu : le sel est toujours là, et la masse totale ne change pas.",
+  "essai": {
+    "consigne": "On dissout 5 g de sucre dans 200 g d’eau. Masse de la solution ?",
+    "options": [
+      "205 g",
+      "200 g",
+      "195 g"
+    ],
+    "reponse": "205 g",
+    "explication": "La masse se conserve : 200 g + 5 g = 205 g."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

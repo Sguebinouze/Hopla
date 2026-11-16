@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-CLASS-01",
+  "exemple": "Le dauphin vit dans l’eau comme le requin. Mais il respire de l’air et allaite ses petits, comme le chat.",
+  "regle": "On classe les êtres vivants selon les **caractères qu’ils possèdent en commun**, jamais selon ce qu’ils n’ont pas, ni selon leur milieu de vie. Les groupes sont **emboîtés** : les mammifères font partie des vertébrés. Exemples : **vertébrés** (squelette interne et colonne vertébrale), **mammifères** (poils, mamelles), **oiseaux** (plumes). Partager des caractères indique une **parenté**.",
+  "piege": "Vivre dans l’eau n’est pas un caractère de classification : le dauphin est un mammifère.",
+  "essai": {
+    "consigne": "Quel caractère range un animal parmi les oiseaux ?",
+    "options": [
+      "des plumes",
+      "des ailes",
+      "le fait de voler"
+    ],
+    "reponse": "des plumes",
+    "explication": "Les plumes sont propres aux oiseaux. Les chauves-souris et les insectes ont aussi des ailes."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

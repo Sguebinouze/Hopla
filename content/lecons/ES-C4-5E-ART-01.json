@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-ART-01",
+  "exemple": "« En mi mochila hay un cuaderno, una regla y los libros de español. »",
+  "regle": "Articles définis : **el** (masculin), **la** (féminin), **los**, **las** au pluriel. Indéfinis : **un**, **una**, **unos**, **unas**. Les noms en **-o** sont souvent masculins, ceux en **-a** souvent féminins. Pluriel : **+s** après une voyelle (libro → libros), **+es** après une consonne (ciudad → ciudades). Pas d’article devant la plupart des pays : **España**, **Francia**. Pas de partitif : **¿Quieres agua?**",
+  "piege": "Quelques exceptions : **el día** est masculin, **la mano** est féminin.",
+  "essai": {
+    "consigne": "Pluriel de « el árbol » :",
+    "options": [
+      "los árboles",
+      "los árbols",
+      "las árboles"
+    ],
+    "reponse": "los árboles",
+    "explication": "Après une consonne, on ajoute -es."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-UNIV-01",
+  "exemple": "Une étoile observée ce soir peut avoir changé depuis : sa lumière a voyagé pendant des années avant d’arriver.",
+  "regle": "Le **système solaire** comprend une étoile, le **Soleil**, et huit **planètes** : quatre **telluriques** (rocheuses) et quatre **gazeuses**. Le Soleil est une étoile parmi des milliards dans notre **galaxie**, la **Voie lactée**. L’Univers compte des milliards de galaxies. Pour les grandes distances, on utilise l’**année-lumière** : la distance parcourue par la lumière en **un an** dans le vide, environ **9 500 milliards de km**. Observer loin, c’est voir **dans le passé**.",
+  "piege": "L’année-lumière est une distance, pas une durée.",
+  "essai": {
+    "consigne": "Une année-lumière mesure…",
+    "options": [
+      "une distance",
+      "une durée",
+      "une vitesse"
+    ],
+    "reponse": "une distance",
+    "explication": "C’est la distance parcourue par la lumière en un an."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

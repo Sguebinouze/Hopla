@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-PH-01",
+  "exemple": "On dépose une goutte de vinaigre sur du papier pH : il devient rouge orangé, signe d’une solution acide.",
+  "regle": "Le **pH** se mesure avec du **papier pH** ou un **pH-mètre**. Sa valeur va de **0 à 14**. Une solution est **acide** si son pH est **inférieur à 7**, **neutre** s’il vaut **7**, **basique** s’il est **supérieur à 7**. Quand on **dilue** une solution acide avec de l’eau, son pH **augmente** et se rapproche de 7. Les produits très acides ou très basiques sont corrosifs : **lunettes** et **gants** sont obligatoires.",
+  "piege": "Un pH plus petit signifie une solution plus acide, et non moins acide.",
+  "essai": {
+    "consigne": "Une solution a un pH de 11. Elle est…",
+    "options": [
+      "basique",
+      "acide",
+      "neutre"
+    ],
+    "reponse": "basique",
+    "explication": "Un pH supérieur à 7 indique une solution basique."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-GUST-01",
+  "exemple": "« ¿Te gusta el cine? » « Sí, me encantan las comedias, pero no me gusta la ciencia ficción. »",
+  "regle": "**Me gusta** + nom singulier ou infinitif : Me gusta el chocolate, me gusta leer. **Me gustan** + nom pluriel : Me gustan los gatos. **Me encanta(n)** : j’adore. **No me gusta(n)** : je n’aime pas. **Prefiero** : je préfère. Pour demander : **¿Te gusta…?** Pour réagir : **A mí también** (moi aussi), **A mí tampoco** (moi non plus).",
+  "piege": "Le verbe s’accorde avec ce qui plait : me gusta**n** los videojuegos.",
+  "essai": {
+    "consigne": "Complète : « Me … las fresas. »",
+    "options": [
+      "gustan",
+      "gusta",
+      "gusto"
+    ],
+    "reponse": "gustan",
+    "explication": "Las fresas est pluriel : me gustan."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-DAT-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-DAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Après « mit », on emploie…",
+      "options": [
+        "le datif",
+        "l’accusatif",
+        "le nominatif"
+      ],
+      "reponse": "le datif",
+      "indice": "mit dem Bus.",
+      "explication": "« mit » est toujours suivi du datif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Das gefällt mir » ?",
+      "options": [
+        "Cela me plait.",
+        "Je le donne.",
+        "Cela ne me plait pas."
+      ],
+      "reponse": "Cela me plait.",
+      "indice": "« mir » : à moi.",
+      "explication": "« gefallen » + datif : plaire à.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich fahre mit … Fahrrad. » (das Fahrrad)",
+      "options": [
+        "dem",
+        "das",
+        "der"
+      ],
+      "reponse": "dem",
+      "indice": "Neutre au datif.",
+      "explication": "Neutre datif : dem Fahrrad.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Er wohnt bei … Mutter. » (seine Mutter)",
+      "options": [
+        "seiner",
+        "seine",
+        "seinem"
+      ],
+      "reponse": "seiner",
+      "indice": "Féminin au datif.",
+      "explication": "Féminin datif : seiner Mutter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Kannst du … helfen? » (m’aider)",
+      "options": [
+        "mir",
+        "mich",
+        "ich"
+      ],
+      "reponse": "mir",
+      "indice": "helfen + datif.",
+      "explication": "« helfen » se construit avec le datif : mir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Comment va-t-elle à l’école ?",
+      "options": [
+        "en tram",
+        "à vélo",
+        "en voiture"
+      ],
+      "reponse": "en tram",
+      "indice": "« Straßenbahn ».",
+      "explication": "« Ich fahre mit der Straßenbahn zur Schule » : en tram.",
+      "ecoute": {
+        "texte": "Ich fahre mit der Straßenbahn zur Schule.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich schenke … Bruder ein Buch. » (mon frère)",
+      "options": [
+        "meinem",
+        "meinen",
+        "mein"
+      ],
+      "reponse": "meinem",
+      "indice": "À qui ? Masculin datif.",
+      "explication": "Le destinataire est au datif : meinem Bruder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-DAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich spiele mit … Freunden. » (mes amis)",
+      "options": [
+        "meinen",
+        "meine",
+        "meiner"
+      ],
+      "reponse": "meinen",
+      "indice": "Pluriel datif : -en.",
+      "explication": "Pluriel datif : meinen Freunden.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

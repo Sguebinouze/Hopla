@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-MICRO-01",
+  "exemple": "Notre intestin abrite des milliards de bactéries. La plupart nous aident à digérer.",
+  "regle": "Les **micro-organismes** sont partout : air, eau, sol, peau, intestin. Ce sont des **bactéries**, des **champignons microscopiques** (levures) et des **virus**. Le **microbiote intestinal** aide à la digestion et protège contre certains microbes. Quelques micro-organismes sont **pathogènes** : ils causent des maladies. Les **antibiotiques** tuent les bactéries mais n’agissent **pas sur les virus**. Un usage inutile favorise la **résistance** des bactéries.",
+  "piege": "Un antibiotique ne guérit pas un rhume ni la grippe : ce sont des virus.",
+  "essai": {
+    "consigne": "Sur quoi agissent les antibiotiques ?",
+    "options": [
+      "les bactéries",
+      "les virus",
+      "tous les microbes"
+    ],
+    "reponse": "les bactéries",
+    "explication": "Les antibiotiques agissent sur les bactéries, pas sur les virus."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

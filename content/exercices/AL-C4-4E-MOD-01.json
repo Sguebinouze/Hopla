@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-MOD-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-MOD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich muss lernen » ?",
+      "options": [
+        "Je dois apprendre.",
+        "Je veux apprendre.",
+        "J’ai le droit d’apprendre."
+      ],
+      "reponse": "Je dois apprendre.",
+      "indice": "Obligation.",
+      "explication": "« müssen » exprime l’obligation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel verbe exprime la permission ?",
+      "options": [
+        "dürfen",
+        "müssen",
+        "wollen"
+      ],
+      "reponse": "dürfen",
+      "indice": "Darf ich…?",
+      "explication": "« dürfen » : avoir le droit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se place l’infinitif ?",
+      "options": [
+        "à la fin de la phrase",
+        "juste après le sujet",
+        "en tête de phrase"
+      ],
+      "reponse": "à la fin de la phrase",
+      "indice": "Ich kann gut schwimmen.",
+      "explication": "Avec un verbe de modalité, l’infinitif va à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Du … heute nicht ins Kino gehen. » (dürfen)",
+      "options": [
+        "darfst",
+        "darf",
+        "dürfst"
+      ],
+      "reponse": "darfst",
+      "indice": "du : -st, avec changement de voyelle.",
+      "explication": "dürfen avec du : du darfst.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich will nach Berlin fahren.",
+        "Ich will fahren nach Berlin.",
+        "Ich fahren will nach Berlin."
+      ],
+      "reponse": "Ich will nach Berlin fahren.",
+      "indice": "Infinitif à la fin.",
+      "explication": "Le verbe de modalité en 2e position, l’infinitif à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire la phrase ?",
+      "options": [
+        "Puis-je boire ici ?",
+        "Dois-je boire ici ?",
+        "Veux-tu boire ici ?"
+      ],
+      "reponse": "Puis-je boire ici ?",
+      "indice": "« darf » : avoir le droit.",
+      "explication": "« Darf ich hier trinken? » : ai-je le droit de boire ici ?",
+      "ecoute": {
+        "texte": "Darf ich hier trinken?",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Wir … morgen früh aufstehen. » (müssen)",
+      "options": [
+        "müssen",
+        "muss",
+        "musst"
+      ],
+      "reponse": "müssen",
+      "indice": "Au pluriel, pas de changement de voyelle.",
+      "explication": "Avec wir : wir müssen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-MOD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dire poliment « Je voudrais un jus de pomme » ?",
+      "options": [
+        "Ich möchte einen Apfelsaft.",
+        "Ich muss einen Apfelsaft.",
+        "Ich darf einen Apfelsaft."
+      ],
+      "reponse": "Ich möchte einen Apfelsaft.",
+      "indice": "Forme de politesse.",
+      "explication": "« Ich möchte » : je voudrais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

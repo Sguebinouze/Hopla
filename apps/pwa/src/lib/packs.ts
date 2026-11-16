@@ -1,6 +1,7 @@
 import { serie, type Difficulte, type Item } from '@hopla/generateurs';
 import { anneeScolaire } from './annee';
 import type { Classe } from './donnees';
+import type { Langue } from './voix';
 import { aujourdhui, etat, type Suivi } from './progression';
 
 // Forme produite par @hopla/content (pnpm content:packs).
@@ -37,7 +38,7 @@ export interface CompetencePack {
 /** Langues vivantes : phrase dite à l'élève dans la langue étudiée. */
 export interface Ecoute {
   texte: string;
-  langue: 'en-GB';
+  langue: Langue;
 }
 export type ItemPack = Item & { ecoute?: Ecoute };
 
@@ -75,8 +76,17 @@ export const NOMS_MATIERES: Record<string, string> = {
   'physique-chimie': 'Physique-chimie',
   technologie: 'Technologie',
   'langues-vivantes': 'Anglais',
+  allemand: 'Allemand',
+  espagnol: 'Espagnol',
   emc: 'EMC',
 };
+
+/** Deuxièmes langues vivantes, proposées de la 5e à la 3e. */
+export const LV2 = ['allemand', 'espagnol'] as const;
+export type Lv2 = (typeof LV2)[number] | 'aucune';
+export const aUneLv2 = (classe: Classe) => ['5e', '4e', '3e'].includes(classe);
+/** Matières à masquer pour qu'un enfant ne voie que sa deuxième langue. */
+export const masqueesPourLv2 = (lv2: Lv2): string[] => LV2.filter((l) => l !== lv2);
 
 export async function chargerPack(classe: Classe): Promise<Pack> {
   const r = await fetch(`/packs/${anneeScolaire()}/${classe}.json`);

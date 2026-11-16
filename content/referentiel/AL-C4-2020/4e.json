@@ -1,0 +1,96 @@
+{
+  "programme": "AL-C4-2020",
+  "classe": "4e",
+  "competences": [
+    {
+      "id": "AL-C4-4E-MOD-01",
+      "titre": "Les verbes de modalité",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Exprimer la capacité, l’obligation, la permission et la volonté avec können, müssen, dürfen et wollen, l’infinitif en fin de phrase.",
+      "exemple": "Ich kann gut schwimmen, aber ich muss heute lernen.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir. Modaux."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-AKK-01",
+      "titre": "L’accusatif",
+      "domaine": "Grammaire",
+      "theme": "Détermination",
+      "attendu": "Marquer le complément d’objet direct masculin à l’accusatif : den, einen, keinen, meinen.",
+      "exemple": "Ich habe einen Hund und eine Katze. Ich sehe den Lehrer.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Articles, quantifieurs."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-TRENN-01",
+      "titre": "Ma journée",
+      "domaine": "Parler en continu",
+      "theme": "Décrire des activités quotidiennes",
+      "attendu": "Décrire sa journée avec des verbes à particule séparable et des indications d’heure.",
+      "exemple": "Ich stehe um sieben Uhr auf. Abends sehe ich fern.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 42,
+        "extrait": "Peut décrire ou présenter simplement des gens, des conditions de vie, des activités quotidiennes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-PERF-01",
+      "titre": "Raconter au parfait",
+      "domaine": "Écrire et réagir à l’écrit",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Raconter des activités passées au parfait : haben ou sein, participe passé en fin de phrase.",
+      "exemple": "Am Samstag habe ich Fußball gespielt. Dann bin ich nach Hause gefahren.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 43,
+        "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-WEG-01",
+      "titre": "Demander son chemin",
+      "domaine": "Réagir et dialoguer",
+      "theme": "Repères de progressivité, niveau A2",
+      "attendu": "Demander et comprendre un chemin simple en ville.",
+      "exemple": "Entschuldigung, wie komme ich zum Bahnhof? Gehen Sie geradeaus und dann links.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 41,
+        "extrait": "Demander et fournir des renseignements."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-REISE-01",
+      "titre": "Voyager en pays germanophone",
+      "domaine": "Connaissances culturelles",
+      "theme": "Voyages et migrations",
+      "attendu": "Connaitre quelques villes et lieux des pays germanophones et le vocabulaire du voyage en train.",
+      "exemple": "Eine Fahrkarte nach München, bitte. Der Zug fährt von Gleis 5.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Voyages scolaires, touristiques."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    }
+  ]
+}

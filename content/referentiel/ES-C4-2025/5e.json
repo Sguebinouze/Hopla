@@ -1,0 +1,141 @@
+{
+  "programme": "ES-C4-2025",
+  "classe": "5e",
+  "competences": [
+    {
+      "id": "ES-C4-5E-PRES-01",
+      "titre": "Se présenter",
+      "domaine": "Expression orale et écrite",
+      "theme": "Expression orale et écrite",
+      "attendu": "Se présenter très simplement : nom, âge, origine, lieu d’habitation, et poser les mêmes questions.",
+      "exemple": "Hola, me llamo Clara, tengo trece años y vivo en Huelva.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 15,
+        "extrait": "(Se) présenter de manière très simple en indiquant son"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01",
+      "titre": "Le présent",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Conjuguer au présent les verbes réguliers en -ar, -er et -ir.",
+      "exemple": "Hablo español, comes en casa, vivimos en Lyon.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "Le présent de l’indicatif : connaitre le présent de l’indicatif des verbes les plus courants"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-SER-01",
+      "titre": "Ser, estar, tener, ir",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Conjuguer au présent ser, estar, tener et ir, et distinguer ser et estar.",
+      "exemple": "Soy alto. Estoy cansado. Tengo hambre. Voy al colegio.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "des verbes irréguliers : ser, estar, ir, tener"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-ART-01",
+      "titre": "Articles, genre et pluriel",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : la détermination",
+      "attendu": "Employer les articles définis et indéfinis, accorder en genre et en nombre, et omettre l’article devant un nom de pays.",
+      "exemple": "el libro, la casa, los libros, las casas ; un amigo, una amiga.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "Articles définis (el/la/los/las) ; deux formes d’articles indéfinis (un/una, unos/unas)."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-FAM-01",
+      "titre": "La famille",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique : la famille",
+      "attendu": "Nommer les membres de sa famille et les présenter avec mi, mis, tu, tus.",
+      "exemple": "Mi hermano mayor se llama Pablo y mis primos viven en Málaga.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 18,
+        "extrait": "mi hermano mayor/menor, los tíos, mi prima Elena"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-GUST-01",
+      "titre": "Gouts et préférences",
+      "domaine": "Expression orale et écrite",
+      "theme": "Expression orale et écrite",
+      "attendu": "Exprimer ses gouts avec me gusta, me gustan, me encanta, et sa préférence avec prefiero.",
+      "exemple": "Me gusta el fútbol, me encantan las tapas, pero prefiero la natación.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 16,
+        "extrait": "Exprimer simplement ses gouts et préférences en"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-HORA-01",
+      "titre": "Nombres et heure",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique : compter, exprimer l’heure",
+      "attendu": "Compter jusqu’à 100 et dire l’heure : heures entières, et quart, et demie, moins le quart.",
+      "exemple": "Son las dos y media : il est deux heures et demie.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "las doce en punto, las seis apenas, y pico"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-FUT-01",
+      "titre": "Le futur proche",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Exprimer un projet proche avec ir a + infinitif et un souhait avec me gustaría.",
+      "exemple": "Mañana voy a jugar al fútbol. Me gustaría visitar México.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "Le futur proche : Vamos a cantar una canción"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-MEX-01",
+      "titre": "Le Mexique",
+      "domaine": "Repères culturels",
+      "theme": "Axe 6. Le Mexique",
+      "attendu": "Connaitre quelques repères géographiques, historiques et culturels du Mexique.",
+      "exemple": "Le 2 novembre, les familles mexicaines décorent des autels pour le Día de Muertos.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 13,
+        "extrait": "Premier pays dans le monde en termes de locuteurs hispanophones"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    }
+  ]
+}

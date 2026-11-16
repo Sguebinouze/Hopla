@@ -1,0 +1,141 @@
+{
+  "competence": "AL-C4-5E-PRAES-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-PRAES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Er … Fußball. » (spielen)",
+      "options": [
+        "spielt",
+        "spielst",
+        "spiele"
+      ],
+      "reponse": "spielt",
+      "indice": "er : -t.",
+      "explication": "Avec er, la terminaison est -t : er spielt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Wir … Freunde. » (sein)",
+      "options": [
+        "sind",
+        "seid",
+        "ist"
+      ],
+      "reponse": "sind",
+      "indice": "wir sind.",
+      "explication": "Sein avec wir : wir sind.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich … einen Hund. » (haben)",
+      "options": [
+        "habe",
+        "hat",
+        "hast"
+      ],
+      "reponse": "habe",
+      "indice": "ich : -e.",
+      "explication": "Haben avec ich : ich habe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ihr … müde. » (sein)",
+      "options": [
+        "seid",
+        "sind",
+        "bist"
+      ],
+      "reponse": "seid",
+      "indice": "ihr seid.",
+      "explication": "Sein avec ihr : ihr seid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Sie (elle) … eine Katze. » (haben)",
+      "options": [
+        "hat",
+        "habt",
+        "haben"
+      ],
+      "reponse": "hat",
+      "indice": "Forme irrégulière à la 3e personne.",
+      "explication": "Haben avec sie (elle) : sie hat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir … gern. » (tanzen)",
+      "options": [
+        "tanzen",
+        "tanzt",
+        "tanze"
+      ],
+      "reponse": "tanzen",
+      "indice": "wir : -en.",
+      "explication": "Avec wir, la terminaison est -en : wir tanzen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Mein Vater … nach Berlin. » (fahren)",
+      "options": [
+        "fährt",
+        "fahrt",
+        "fahrst"
+      ],
+      "reponse": "fährt",
+      "indice": "a devient ä avec er.",
+      "explication": "Fahren change de voyelle : er fährt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRAES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Du … gut Deutsch. » (sprechen)",
+      "options": [
+        "sprichst",
+        "sprechst",
+        "spricht"
+      ],
+      "reponse": "sprichst",
+      "indice": "e devient i avec du.",
+      "explication": "Sprechen change de voyelle avec du : du sprichst.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

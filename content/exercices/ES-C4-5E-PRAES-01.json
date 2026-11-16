@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-PRAES-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-PRAES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Yo … en París. » (vivir)",
+      "options": [
+        "vivo",
+        "vive",
+        "vives"
+      ],
+      "reponse": "vivo",
+      "indice": "yo : -o.",
+      "explication": "Avec yo, la terminaison est -o : vivo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tú … mucho. » (trabajar)",
+      "options": [
+        "trabajas",
+        "trabaja",
+        "trabajo"
+      ],
+      "reponse": "trabajas",
+      "indice": "tú : -as pour -ar.",
+      "explication": "Avec tú, -ar donne -as : trabajas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ella … una manzana. » (comer)",
+      "options": [
+        "come",
+        "comes",
+        "como"
+      ],
+      "reponse": "come",
+      "indice": "él / ella : -e pour -er.",
+      "explication": "Avec ella, -er donne -e : come.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ellos … música. » (escuchar)",
+      "options": [
+        "escuchan",
+        "escucháis",
+        "escucha"
+      ],
+      "reponse": "escuchan",
+      "indice": "ellos : -an pour -ar.",
+      "explication": "Avec ellos, -ar donne -an : escuchan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Vosotros … el libro. » (leer)",
+      "options": [
+        "leéis",
+        "leen",
+        "leemos"
+      ],
+      "reponse": "leéis",
+      "indice": "vosotros : -éis pour -er.",
+      "explication": "Avec vosotros, -er donne -éis : leéis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi peut-on dire « Bailo » sans « yo » ?",
+      "options": [
+        "La terminaison -o indique déjà « je ».",
+        "Le pronom est interdit en espagnol.",
+        "« Bailo » est un nom."
+      ],
+      "reponse": "La terminaison -o indique déjà « je ».",
+      "indice": "Regarde la terminaison.",
+      "explication": "La terminaison du verbe indique la personne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qui parle anglais ?",
+      "options": [
+        "nous",
+        "ils",
+        "je"
+      ],
+      "reponse": "nous",
+      "indice": "« -amos ».",
+      "explication": "« Hablamos inglés » : nous parlons anglais.",
+      "ecoute": {
+        "texte": "Hablamos inglés.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRAES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Mis padres … en Valencia. » (vivir)",
+      "options": [
+        "viven",
+        "vivís",
+        "vive"
+      ],
+      "reponse": "viven",
+      "indice": "Sujet pluriel, 3e personne.",
+      "explication": "Mis padres = ellos : viven.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

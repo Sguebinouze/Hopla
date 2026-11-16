@@ -1,19 +1,19 @@
 import { pourLaVoix } from '@hopla/redaction';
 
 // Voix d'Octave : synthèse vocale du navigateur (Web Speech), en français,
-// et en anglais pour les questions d'écoute en langue vivante.
+// et dans la langue étudiée pour les questions d'écoute (anglais, allemand, espagnol).
 // Aucune donnée ne quitte l'appareil : la voix est produite localement par le système.
 
 const CLE_AUTO = 'hopla.voix-auto';
 
 export const voixDisponible = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
 
-export type Langue = 'fr-FR' | 'en-GB';
+export type Langue = 'fr-FR' | 'en-GB' | 'de-DE' | 'es-ES';
 const voix: Partial<Record<Langue, SpeechSynthesisVoice | null>> = {};
 function choisirVoix() {
   if (!voixDisponible()) return;
   const toutes = speechSynthesis.getVoices();
-  for (const langue of ['fr-FR', 'en-GB'] as const) {
+  for (const langue of ['fr-FR', 'en-GB', 'de-DE', 'es-ES'] as const) {
     const debut = langue.slice(0, 2);
     const proches = toutes.filter((v) => v.lang.toLowerCase().startsWith(debut));
     const exacte = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-') === langue;

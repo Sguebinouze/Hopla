@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-4E-AKK-01",
+  "exemple": "« Der Hund ist süß. » mais « Ich habe einen Hund. »",
+  "regle": "Le complément d’objet direct se met à l’**accusatif**. Seul le **masculin** change : der → **den**, ein → **einen**, kein → **keinen**, mein → **meinen**. Le féminin (die, eine), le neutre (das, ein) et le pluriel (die) ne changent pas. On trouve l’accusatif après **haben**, **es gibt**, **sehen**, **mögen**, **kaufen**…",
+  "piege": "Seul le masculin prend la marque -en : « Ich habe eine Schwester » ne change pas.",
+  "essai": {
+    "consigne": "Complète : « Ich kaufe … Ball. » (der Ball)",
+    "options": [
+      "einen",
+      "ein",
+      "eine"
+    ],
+    "reponse": "einen",
+    "explication": "Ball est masculin et complément : einen Ball."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-CLIM-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-CLIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel gaz est un gaz à effet de serre ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le dioxygène",
+        "le diazote"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "Il est rejeté par les moteurs.",
+      "explication": "Le dioxyde de carbone (CO₂) est un gaz à effet de serre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sans effet de serre naturel, la Terre serait…",
+      "options": [
+        "beaucoup plus froide",
+        "beaucoup plus chaude",
+        "identique"
+      ],
+      "reponse": "beaucoup plus froide",
+      "indice": "Ces gaz retiennent la chaleur.",
+      "explication": "L’effet de serre naturel garde une partie de la chaleur : sans lui, la Terre serait glaciale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le réchauffement actuel est surtout dû…",
+      "options": [
+        "aux activités humaines",
+        "aux volcans",
+        "aux saisons"
+      ],
+      "reponse": "aux activités humaines",
+      "indice": "Combustions et déforestation.",
+      "explication": "Les émissions humaines de gaz à effet de serre expliquent le réchauffement actuel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La fonte des glaciers terrestres provoque…",
+      "options": [
+        "une montée du niveau des mers",
+        "une baisse du niveau des mers",
+        "plus de banquise"
+      ],
+      "reponse": "une montée du niveau des mers",
+      "indice": "L’eau rejoint l’océan.",
+      "explication": "L’eau des glaciers terrestres rejoint l’océan : son niveau monte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avec le réchauffement, de nombreuses espèces se déplacent…",
+      "options": [
+        "vers les pôles ou en altitude",
+        "vers l’équateur",
+        "nulle part"
+      ],
+      "reponse": "vers les pôles ou en altitude",
+      "indice": "Elles cherchent la fraicheur.",
+      "explication": "Pour retrouver des températures adaptées, des espèces migrent vers les pôles ou en altitude.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’élevage de nombreux bovins rejette surtout…",
+      "options": [
+        "du méthane",
+        "du dioxygène",
+        "de l’hélium"
+      ],
+      "reponse": "du méthane",
+      "indice": "Il vient de leur digestion.",
+      "explication": "La digestion des ruminants produit du méthane, gaz à effet de serre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le climat a déjà changé dans le passé (glaciations). Qu’est-ce qui est nouveau aujourd’hui ?",
+      "options": [
+        "La rapidité du réchauffement, liée aux activités humaines.",
+        "Le climat n’avait jamais varié.",
+        "Le Soleil s’est éteint."
+      ],
+      "reponse": "La rapidité du réchauffement, liée aux activités humaines.",
+      "indice": "Quelle cause et à quel rythme ?",
+      "explication": "Les variations passées étaient naturelles et lentes. Le réchauffement actuel est rapide et d’origine humaine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-CLIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la déforestation renforce-t-elle l’effet de serre ?",
+      "options": [
+        "Les arbres absorbent du CO₂ : moins d’arbres, plus de CO₂ dans l’air.",
+        "Les arbres produisent du méthane.",
+        "Les forêts refroidissent le Soleil."
+      ],
+      "reponse": "Les arbres absorbent du CO₂ : moins d’arbres, plus de CO₂ dans l’air.",
+      "indice": "La photosynthèse utilise du CO₂.",
+      "explication": "Les arbres prélèvent du CO₂ pour produire leur matière. Les abattre ou les bruler en laisse davantage dans l’air.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

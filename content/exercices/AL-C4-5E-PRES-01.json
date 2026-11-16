@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-5E-PRES-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-PRES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dit-il ?",
+      "options": [
+        "Il donne son prénom.",
+        "Il donne son âge.",
+        "Il dit où il habite."
+      ],
+      "reponse": "Il donne son prénom.",
+      "indice": "« heißen » : s’appeler.",
+      "explication": "« Ich heiße Paul » : je m’appelle Paul.",
+      "ecoute": {
+        "texte": "Ich heiße Paul.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich bin dreizehn Jahre alt » ?",
+      "options": [
+        "J’ai treize ans.",
+        "J’ai trois ans.",
+        "J’habite au numéro treize."
+      ],
+      "reponse": "J’ai treize ans.",
+      "indice": "« Jahre alt » : ans.",
+      "explication": "« Ich bin dreizehn Jahre alt » : j’ai treize ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich … aus Frankreich. »",
+      "options": [
+        "komme",
+        "wohne",
+        "heiße"
+      ],
+      "reponse": "komme",
+      "indice": "Venir de.",
+      "explication": "« Ich komme aus Frankreich » : je viens de France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Wo wohnst du? » ?",
+      "options": [
+        "Où habites-tu ?",
+        "D’où viens-tu ?",
+        "Comment t’appelles-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "indice": "« Wo » : où.",
+      "explication": "« Wo wohnst du? » : où habites-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle réponse convient à « Wie alt bist du? » ?",
+      "options": [
+        "Ich bin zwölf.",
+        "Ich heiße Tom.",
+        "Ich wohne in Bonn."
+      ],
+      "reponse": "Ich bin zwölf.",
+      "indice": "« alt » : âgé.",
+      "explication": "On demande l’âge : « Ich bin zwölf », j’ai douze ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich wohne … Berlin. »",
+      "options": [
+        "in",
+        "aus",
+        "mit"
+      ],
+      "reponse": "in",
+      "indice": "Habiter dans une ville.",
+      "explication": "« Ich wohne in Berlin » : j’habite à Berlin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que comprends-tu ?",
+      "options": [
+        "Elle vient d’Autriche et habite à Vienne.",
+        "Elle vient de Vienne et habite en Suisse.",
+        "Elle a vingt ans et habite à Berlin."
+      ],
+      "reponse": "Elle vient d’Autriche et habite à Vienne.",
+      "indice": "« Österreich » : Autriche, « Wien » : Vienne.",
+      "explication": "« Ich komme aus Österreich und wohne in Wien » : je viens d’Autriche et j’habite à Vienne.",
+      "ecoute": {
+        "texte": "Ich komme aus Österreich und wohne in Wien.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PRES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle question pose-t-on pour connaitre l’origine de quelqu’un ?",
+      "options": [
+        "Woher kommst du?",
+        "Wo wohnst du?",
+        "Wie heißt du?"
+      ],
+      "reponse": "Woher kommst du?",
+      "indice": "« Woher » : d’où.",
+      "explication": "« Woher kommst du? » : d’où viens-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-RISQ-01",
+  "exemple": "Une rivière déborde chaque printemps. Tant que personne n’habite près d’elle, elle ne menace personne.",
+  "regle": "Un **aléa** est un phénomène naturel possible : séisme, inondation, cyclone, éruption. Les **enjeux** sont les personnes et les biens exposés. Le **risque** naît de la rencontre d’un aléa et d’enjeux. La **vulnérabilité** mesure la fragilité de ces enjeux. Pour réduire le risque : **prévoir** (surveillance, vigilance météo), **prévenir** (ne pas construire en zone inondable, normes parasismiques) et **protéger** (digues, consignes de sécurité).",
+  "piege": "Un aléa fort sans enjeux ne crée pas de risque pour l’être humain.",
+  "essai": {
+    "consigne": "Construire des bâtiments qui résistent aux séismes, c’est…",
+    "options": [
+      "de la prévention",
+      "de la prévision",
+      "un aléa"
+    ],
+    "reponse": "de la prévention",
+    "explication": "Les normes parasismiques limitent les dégâts : c’est une mesure de prévention."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-LUM-01",
+  "exemple": "Dans une chambre sans lumière, on ne voit plus le livre posé sur la table. Allume la lampe : il réapparait.",
+  "regle": "Une **source primaire** produit sa propre lumière : Soleil, flamme, lampe allumée. Un **objet diffusant** renvoie dans toutes les directions la lumière qu’il reçoit : Lune, livre, mur. On voit un objet quand sa lumière **entre dans l’œil**. Dans un milieu homogène et transparent, la lumière se propage **en ligne droite**. On la représente par un **rayon lumineux** : une droite fléchée. Derrière un objet opaque se forme une **ombre portée**.",
+  "piege": "La Lune n’est pas une source primaire : elle diffuse la lumière du Soleil.",
+  "essai": {
+    "consigne": "Lequel est une source primaire de lumière ?",
+    "options": [
+      "une bougie allumée",
+      "la Lune",
+      "un miroir"
+    ],
+    "reponse": "une bougie allumée",
+    "explication": "La flamme produit sa propre lumière. La Lune et le miroir renvoient une lumière reçue."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

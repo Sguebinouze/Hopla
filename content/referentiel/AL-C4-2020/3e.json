@@ -1,0 +1,96 @@
+{
+  "programme": "AL-C4-2020",
+  "classe": "3e",
+  "competences": [
+    {
+      "id": "AL-C4-3E-WEIL-01",
+      "titre": "Weil et dass",
+      "domaine": "Grammaire",
+      "theme": "Énoncés simples et complexes",
+      "attendu": "Justifier et donner son avis avec des subordonnées en weil et dass, le verbe conjugué en fin de subordonnée.",
+      "exemple": "Ich lerne Deutsch, weil ich nach Berlin fahren will. Ich finde, dass Berlin toll ist.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Coordination. Subordination. Relatifs."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-DAT-01",
+      "titre": "Le datif",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Employer le datif après mit, bei, nach, von, zu, aus, et avec les pronoms mir et dir.",
+      "exemple": "Ich fahre mit dem Bus zur Schule. Das gefällt mir.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Passif. Construction des verbes."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-KOMP-01",
+      "titre": "Comparer",
+      "domaine": "Parler en continu",
+      "theme": "Exprimer, expliciter, justifier son opinion ; comparer",
+      "attendu": "Comparer avec le comparatif (als, so … wie) et le superlatif (am …sten), y compris les formes irrégulières.",
+      "exemple": "Berlin ist größer als Freiburg, aber Freiburg ist grüner.",
+      "source": {
+        "id": "eduscol-reperes-lv-c4",
+        "page": 5,
+        "extrait": "Peut exprimer des préférences en s’appuyant sur des comparaisons, de façon simple et directe."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-FUT-01",
+      "titre": "Projets et métiers",
+      "domaine": "Parler en continu",
+      "theme": "Se raconter : projets",
+      "attendu": "Parler de ses projets et de son futur métier avec werden, möchten ou le présent accompagné d’un repère de temps.",
+      "exemple": "Nach der Schule möchte ich Ingenieurin werden. Nächstes Jahr werde ich ein Praktikum machen.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 42,
+        "extrait": "Se raconter : origine, famille, voyages, imaginaire, projets."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-PRET-01",
+      "titre": "Le prétérit",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Employer sein, haben et les verbes de modalité au prétérit, et reconnaitre le prétérit dans un récit.",
+      "exemple": "Gestern war ich müde und hatte keine Zeit. Es war einmal ein König…",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-GESCH-01",
+      "titre": "Repères d’histoire allemande",
+      "domaine": "Connaissances culturelles",
+      "theme": "Rencontres avec d’autres cultures",
+      "attendu": "Connaitre quelques repères de l’histoire allemande récente : le mur de Berlin, la réunification, le fédéralisme.",
+      "exemple": "Le 3 octobre, l’Allemagne fête son unité : der Tag der Deutschen Einheit.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Repères historiques et géographiques : Patrimoine historique, naturel et architectural."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-ART-01",
+  "exemple": "« Das ist der Hund von Lena. Er heißt Bello. Ich habe keine Katze. »",
+  "regle": "L’allemand a trois genres : **masculin** (der), **féminin** (die), **neutre** (das). Au pluriel : **die**. Article indéfini : **ein** (masculin et neutre), **eine** (féminin). Pour nier un nom, on utilise **kein, keine** : « Das ist kein Hund. » Tous les **noms** prennent une **majuscule**. On apprend chaque nom avec son article.",
+  "piege": "Le genre allemand ne suit pas toujours le français : das Mädchen (la fille) est neutre.",
+  "essai": {
+    "consigne": "Quel article va avec « Katze » (chat) ?",
+    "options": [
+      "die",
+      "der",
+      "das"
+    ],
+    "reponse": "die",
+    "explication": "On dit « die Katze » : le mot est féminin."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

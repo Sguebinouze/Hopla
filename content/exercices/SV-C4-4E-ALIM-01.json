@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-4E-ALIM-01",
+  "exercices": [
+    {
+      "id": "SV-C4-4E-ALIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les pâtes et le riz font partie des…",
+      "options": [
+        "féculents",
+        "produits laitiers",
+        "matières grasses"
+      ],
+      "reponse": "féculents",
+      "indice": "Ils contiennent de l’amidon.",
+      "explication": "Pâtes, riz, pain et pommes de terre sont des féculents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les glucides apportent surtout…",
+      "options": [
+        "de l’énergie",
+        "du calcium",
+        "des vitamines"
+      ],
+      "reponse": "de l’énergie",
+      "indice": "Le carburant du corps.",
+      "explication": "Les glucides sont une source d’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la seule boisson indispensable ?",
+      "options": [
+        "l’eau",
+        "le jus de fruits",
+        "le soda"
+      ],
+      "reponse": "l’eau",
+      "indice": "Le corps en est composé en majorité.",
+      "explication": "L’eau est indispensable. Les autres boissons sont facultatives.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les produits laitiers apportent notamment…",
+      "options": [
+        "du calcium",
+        "surtout des fibres",
+        "de la vitamine C"
+      ],
+      "reponse": "du calcium",
+      "indice": "Utile pour les os.",
+      "explication": "Lait, yaourts et fromages apportent du calcium.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les fruits et légumes apportent surtout…",
+      "options": [
+        "des vitamines, des fibres et des sels minéraux",
+        "beaucoup de lipides",
+        "beaucoup de protéines"
+      ],
+      "reponse": "des vitamines, des fibres et des sels minéraux",
+      "indice": "Pense à la vitamine C de l’orange.",
+      "explication": "Fruits et légumes apportent vitamines, fibres et sels minéraux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui a le plus grand besoin d’énergie par jour ?",
+      "options": [
+        "un adolescent qui fait beaucoup de sport",
+        "un adolescent au repos",
+        "un bébé de six mois"
+      ],
+      "reponse": "un adolescent qui fait beaucoup de sport",
+      "indice": "L’activité compte.",
+      "explication": "L’effort physique augmente la dépense d’énergie, donc les besoins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un repas : steak, frites, crème glacée. Quel groupe manque ?",
+      "options": [
+        "fruits et légumes",
+        "féculents",
+        "viande-poisson-œufs"
+      ],
+      "reponse": "fruits et légumes",
+      "indice": "Cherche les vitamines et les fibres.",
+      "explication": "Il manque les fruits et légumes, sources de vitamines et de fibres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-ALIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un régime végétarien exclut la viande et le poisson. D’où peuvent venir ses protéines ?",
+      "options": [
+        "des œufs, des produits laitiers et des légumes secs",
+        "uniquement du sucre",
+        "uniquement de l’eau"
+      ],
+      "reponse": "des œufs, des produits laitiers et des légumes secs",
+      "indice": "Lentilles, pois chiches…",
+      "explication": "Œufs, laitages, lentilles et pois chiches apportent des protéines.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-RESS-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-RESS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le pétrole est une ressource…",
+      "options": [
+        "non renouvelable",
+        "renouvelable",
+        "inépuisable"
+      ],
+      "reponse": "non renouvelable",
+      "indice": "Il met des millions d’années à se former.",
+      "explication": "Le pétrole ne se reforme pas à l’échelle humaine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les ressources halieutiques sont…",
+      "options": [
+        "les ressources de la pêche",
+        "les minerais",
+        "les forêts"
+      ],
+      "reponse": "les ressources de la pêche",
+      "indice": "Poissons, coquillages…",
+      "explication": "Les ressources halieutiques sont les poissons et autres produits de la pêche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle ressource est renouvelable si elle est bien gérée ?",
+      "options": [
+        "le bois",
+        "le gaz naturel",
+        "le minerai de fer"
+      ],
+      "reponse": "le bois",
+      "indice": "On peut replanter.",
+      "explication": "Le bois se renouvelle si on replante autant qu’on coupe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les quotas de pêche servent à…",
+      "options": [
+        "laisser les poissons se reproduire",
+        "pêcher le plus possible",
+        "polluer moins l’air"
+      ],
+      "reponse": "laisser les poissons se reproduire",
+      "indice": "Ne pas vider la mer.",
+      "explication": "Limiter les prises laisse les populations de poissons se reconstituer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le recyclage de l’aluminium permet…",
+      "options": [
+        "d’économiser du minerai",
+        "de produire du pétrole",
+        "de fabriquer du sol"
+      ],
+      "reponse": "d’économiser du minerai",
+      "indice": "Moins d’extraction.",
+      "explication": "Recycler réduit le besoin d’extraire du minerai.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi le sol est-il une ressource fragile ?",
+      "options": [
+        "Il se forme très lentement.",
+        "Il se reforme en une nuit.",
+        "Il n’est pas utile."
+      ],
+      "reponse": "Il se forme très lentement.",
+      "indice": "Des siècles, voire des millénaires.",
+      "explication": "La formation d’un sol prend des siècles à des milliers d’années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une forêt produit 100 m³ de bois par an. On en coupe 150 m³ par an. Que se passe-t-il ?",
+      "options": [
+        "La forêt diminue d’année en année.",
+        "La forêt grandit.",
+        "Rien ne change."
+      ],
+      "reponse": "La forêt diminue d’année en année.",
+      "indice": "Compare prélèvement et renouvellement.",
+      "explication": "On prélève plus vite que la forêt ne se renouvelle : elle s’épuise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-RESS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle mesure économise l’eau douce ?",
+      "options": [
+        "réparer les fuites et arroser le soir",
+        "laisser couler l’eau en se brossant les dents",
+        "laver la voiture chaque jour"
+      ],
+      "reponse": "réparer les fuites et arroser le soir",
+      "indice": "Moins de pertes.",
+      "explication": "Limiter les fuites et l’évaporation réduit la consommation d’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

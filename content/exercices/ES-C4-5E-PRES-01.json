@@ -1,0 +1,149 @@
+{
+  "competence": "ES-C4-5E-PRES-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-PRES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dit-elle ?",
+      "options": [
+        "Elle donne son prénom.",
+        "Elle donne son âge.",
+        "Elle dit d’où elle vient."
+      ],
+      "reponse": "Elle donne son prénom.",
+      "indice": "« llamarse » : s’appeler.",
+      "explication": "« Me llamo Lucía » : je m’appelle Lucía.",
+      "ecoute": {
+        "texte": "Me llamo Lucía.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Tengo doce años » ?",
+      "options": [
+        "J’ai douze ans.",
+        "J’ai deux ans.",
+        "J’habite au numéro douze."
+      ],
+      "reponse": "J’ai douze ans.",
+      "indice": "« años » : ans.",
+      "explication": "« Tengo doce años » : j’ai douze ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … de Francia. » (je suis)",
+      "options": [
+        "Soy",
+        "Tengo",
+        "Vivo"
+      ],
+      "reponse": "Soy",
+      "indice": "Ser de : être originaire de.",
+      "explication": "« Soy de Francia » : je suis de France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « ¿Dónde vives? » ?",
+      "options": [
+        "Où habites-tu ?",
+        "D’où es-tu ?",
+        "Comment t’appelles-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "indice": "« dónde » : où.",
+      "explication": "« ¿Dónde vives? » : où habites-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle réponse convient à « ¿Cuántos años tienes? » ?",
+      "options": [
+        "Tengo trece años.",
+        "Me llamo Pablo.",
+        "Soy de Madrid."
+      ],
+      "reponse": "Tengo trece años.",
+      "indice": "« cuántos años » : combien d’années.",
+      "explication": "On demande l’âge : « Tengo trece años ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment commence une question écrite en espagnol ?",
+      "options": [
+        "par ¿",
+        "par ¡",
+        "par une majuscule seulement"
+      ],
+      "reponse": "par ¿",
+      "indice": "Un point d’interrogation à l’envers.",
+      "explication": "Une question s’ouvre par ¿ et se ferme par ?.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que comprends-tu ?",
+      "options": [
+        "Il a quatorze ans et vit à Madrid.",
+        "Il a quarante ans et vit à Málaga.",
+        "Il a quatre ans et vient de Madrid."
+      ],
+      "reponse": "Il a quatorze ans et vit à Madrid.",
+      "indice": "« catorce » : 14.",
+      "explication": "« Tengo catorce años y vivo en Madrid. »",
+      "ecoute": {
+        "texte": "Tengo catorce años y vivo en Madrid.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-PRES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte pour dire « j’ai 13 ans » ?",
+      "options": [
+        "Tengo trece años.",
+        "Soy trece años.",
+        "Estoy trece años."
+      ],
+      "reponse": "Tengo trece años.",
+      "indice": "Comme en français : avoir.",
+      "explication": "L’âge s’exprime avec tener : Tengo trece años.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
