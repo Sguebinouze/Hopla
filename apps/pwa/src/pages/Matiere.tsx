@@ -37,7 +37,6 @@ export function Matiere() {
         <Link to="/accueil" className="hp-iconbtn" aria-label="Retour à l'accueil"><Icone nom="retour" /></Link>
         <h1 className="titre-2 pousse">{NOMS_MATIERES[bloc.matiere] ?? bloc.matiere}</h1>
       </div>
-      <p className="muet" style={{ margin: 0 }}>{bloc.programme.intitule} · {bloc.programme.reference}</p>
       {themes.map((t) => (
         <section key={t} className="liste-notions">
           <h2 className="titre-3">{t}</h2>
