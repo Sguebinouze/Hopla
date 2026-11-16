@@ -63,20 +63,42 @@ export function composerBilan(enfants: BilanEnfant[], urlApp: string): { sujet: 
     'Vous recevez ce message parce que vous l’avez demandé dans l’espace parent de Hopla. Pour ne plus le recevoir, décochez « Bilan du dimanche par e-mail » au même endroit.',
   ].join('\n');
 
+  // Habillage du design system Hopla (thème clair), en valeurs : les clients mail ne lisent pas les variables CSS.
+  const titre = "font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-weight:600;color:#1A1D3A";
+  const texteDs = "font-family:'Lexend',Arial,Helvetica,sans-serif;color:#1A1D3A";
+  const base = urlApp.replace(/\/$/, '');
   const blocs = enfants.map((e) => `
-    <tr><td style="padding:16px 20px;background:#ffffff;border-radius:16px">
-      <p style="margin:0 0 8px;font-size:18px;font-weight:600;color:#1A1D3A">${echapper(e.prenom)} <span style="font-weight:400;color:#5B6178">${echapper(e.classe.toUpperCase())}</span></p>
-      ${lignesEnfant(e).map((l) => `<p style="margin:4px 0;font-size:15px;line-height:22px;color:#1A1D3A">${echapper(l)}</p>`).join('')}
-    </td></tr>
-    <tr><td style="height:12px"></td></tr>`).join('');
-  const html = `<!doctype html><html lang="fr"><body style="margin:0;padding:0;background:#F4F5FA;font-family:Arial,Helvetica,sans-serif">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F5FA"><tr><td align="center" style="padding:24px 12px">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px">
-    <tr><td style="padding:0 4px 16px;font-size:22px;font-weight:700;color:#4B3FD1">Hopla</td></tr>
-    <tr><td style="padding:0 4px 16px;font-size:15px;color:#1A1D3A">Voici le bilan des 7 derniers jours.</td></tr>
-    ${blocs}
-    <tr><td style="padding:4px 4px 16px"><a href="${echapper(lien)}" style="display:inline-block;padding:12px 18px;border-radius:12px;background:#4B3FD1;color:#ffffff;font-weight:600;text-decoration:none">Voir le détail dans l’espace parent</a></td></tr>
-    <tr><td style="padding:0 4px;font-size:12px;line-height:18px;color:#5B6178">Vous recevez ce message parce que vous l’avez demandé dans l’espace parent de Hopla. Pour ne plus le recevoir, décochez « Bilan du dimanche par e-mail » au même endroit.</td></tr>
-  </table></td></tr></table></body></html>`;
+      <tr><td style="background:#FFFFFF;border-radius:20px;border-bottom:2px solid #DCE0EE;padding:20px 24px">
+        <p style="margin:0 0 8px;${titre};font-size:20px;line-height:26px">${echapper(e.prenom)} <span style="font-family:'Lexend',Arial,Helvetica,sans-serif;font-weight:400;font-size:15px;color:#5A6080">${echapper(e.classe.toUpperCase())}</span></p>
+        ${lignesEnfant(e).map((l) => `<p style="margin:4px 0;${texteDs};font-size:15px;line-height:22px">${echapper(l)}</p>`).join('')}
+      </td></tr>
+      <tr><td style="height:12px;line-height:12px;font-size:0">&nbsp;</td></tr>`).join('');
+  const html = `<!doctype html><html lang="fr"><body style="margin:0;padding:0;background:#F4F5FA">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F5FA">
+  <tr><td align="center" style="padding:24px 16px">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px">
+      <tr><td style="padding:0 4px 16px">
+        <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+          <td style="padding-right:8px"><img src="${echapper(base)}/icone-192.png" width="32" height="32" alt="" style="display:block;border-radius:10px"></td>
+          <td style="${titre};font-size:22px">Hopla</td>
+        </tr></table>
+      </td></tr>
+      <tr><td style="padding:0 4px 16px;${titre};font-size:22px;line-height:28px">La semaine en bref</td></tr>
+      <tr><td style="padding:0 4px 16px;${texteDs};font-size:15px;line-height:22px">Voici le bilan des 7 derniers jours.</td></tr>
+      ${blocs}
+      <tr><td style="padding:4px 4px 16px">
+        <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+          <td style="background:#4B3FD1;border-radius:14px;border-bottom:3px solid #362BA8">
+            <a href="${echapper(lien)}" style="display:inline-block;padding:15px 20px;font-family:'Lexend',Arial,Helvetica,sans-serif;font-size:16px;line-height:18px;font-weight:600;color:#FFFFFF;text-decoration:none">Voir le détail dans l’espace parent</a>
+          </td>
+        </tr></table>
+      </td></tr>
+      <tr><td style="padding:0 4px;font-family:'Lexend',Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#5A6080">
+        Vous recevez ce message parce que vous l’avez demandé dans l’espace parent de Hopla. Pour ne plus le recevoir, décochez « Bilan du dimanche par e-mail » au même endroit.<br><br>
+        Hopla, conçu d’après les programmes officiels de l’Éducation nationale. <a href="${echapper(base)}/confidentialite" style="color:#4B3FD1">Confidentialité</a>
+      </td></tr>
+    </table>
+  </td></tr>
+</table></body></html>`;
   return { sujet, texte, html };
 }
