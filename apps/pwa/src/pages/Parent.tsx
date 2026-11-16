@@ -11,7 +11,6 @@ import { api, type Classe, type SuiviEnfant } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { bilan, libelleErreur } from '../lib/progression';
 
-const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 
 function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undefined }) {
   const { enfant, progression, erreurs } = suivi;
@@ -68,7 +67,6 @@ export function Parent() {
   const [ouvert, setOuvert] = useState(false);
   const [code, setCode] = useState('');
   const [message, setMessage] = useState('');
-  const [enfant, setEnfant] = useState({ prenom: '', avatar: 'orange', classe: 'ce2' as Classe, code: '' });
   const [suivis, setSuivis] = useState<SuiviEnfant[]>([]);
   const [packs, setPacks] = useState<Partial<Record<Classe, Pack>>>({});
   const [version, setVersion] = useState(0);
@@ -150,29 +148,13 @@ export function Parent() {
           <TableauEnfant key={s.enfant.id} suivi={s} pack={packs[s.enfant.classe]} />
         ))}
         <Famille sansEnfant={suivis.length === 0} onRejoint={() => setVersion((v) => v + 1)} />
-        <form className="formulaire hp-card" onSubmit={(e) => {
-          e.preventDefault();
-          void essayer(async () => {
-            await api.creerEnfant(enfant);
-            setMessage(`Profil ${enfant.prenom} créé.`);
-            setEnfant({ ...enfant, prenom: '', code: '' });
-            setVersion((v) => v + 1);
-          });
-        }}>
-          <h2 className="titre-2">Ajouter un enfant</h2>
-          <label>Prénom<input required maxLength={40} value={enfant.prenom} onChange={(e) => setEnfant({ ...enfant, prenom: e.target.value })} /></label>
-          <label>Classe
-            <select value={enfant.classe} onChange={(e) => setEnfant({ ...enfant, classe: e.target.value as Classe })}>
-              {CLASSES.map((c) => <option key={c} value={c}>{c.toUpperCase()}</option>)}
-            </select>
-          </label>
-          <label>Code secret (4 chiffres ; en primaire, 0 à 7 = étoile, lune, cœur, feuille, goutte, soleil, poisson, nuage)
-            <input inputMode="numeric" maxLength={4} required value={enfant.code}
-              pattern={['cp', 'ce1', 'ce2', 'cm1', 'cm2'].includes(enfant.classe) ? '[0-7]{4}' : '[0-9]{4}'}
-              onChange={(e) => setEnfant({ ...enfant, code: e.target.value })} />
-          </label>
-          <button className="hp-btn hp-btn--primary">Créer le profil</button>
-        </form>
+        <Link to="/demarrer?etape=enfants" className="hp-skill notion">
+          <span className="hp-skill__main">
+            <span className="hp-skill__name">Ajouter un enfant ou un appareil</span>
+            <span className="hp-skill__where">Nouveau profil, tablette ou téléphone d’un enfant, installation</span>
+          </span>
+          <Icone nom="plus" />
+        </Link>
         <BlocProgrammes />
         <section className="hp-card fiche__bloc">
           <h2 className="titre-2">Mes données</h2>

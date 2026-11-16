@@ -16,6 +16,7 @@ const CHEMINS = {
     </>
   ),
   coche: <path d="M5 12l5 5 9-10" />,
+  plus: <path d="M12 5v14M5 12h14" />,
   'haut-parleur': (
     <>
       <path d="M4 9v6h4l5 4V5L8 9H4z" />

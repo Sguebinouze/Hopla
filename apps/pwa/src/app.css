@@ -234,3 +234,32 @@ a.hp-chip { text-decoration: none; }
 .confidentialite ul { padding-left: var(--space-4); display: flex; flex-direction: column; gap: var(--space-1); }
 .confidentialite p, .confidentialite li { line-height: 1.5; }
 .lien-discret { font-size: 13px; text-decoration: underline; }
+
+/* Ouverture et assistant de démarrage. */
+.ouverture { justify-content: space-between; }
+.ouverture__corps { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-3); padding-top: var(--space-4); }
+.ouverture__corps .titre-1 { margin: 0; }
+.ouverture__actions { display: flex; flex-direction: column; gap: var(--space-2); }
+.etapes { display: flex; flex-direction: column; gap: var(--space-1); }
+.etapes__nom { font-size: 13px; font-weight: 600; color: var(--ink-muted); }
+.demarrer__etape { display: flex; flex-direction: column; gap: var(--space-3); }
+.demarrer__etape .titre-1, .demarrer__etape .titre-2 { margin: 0; }
+.demarrer__formulaire { gap: var(--space-3); }
+.demarrer__libelle { font-size: 14px; font-weight: 600; }
+.demarrer__code { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); margin: 0; font-size: 14px; }
+.demarrer__recap { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.demarrer__recap li { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3); }
+.demarrer__appareil { display: flex; flex-direction: column; gap: var(--space-3); }
+.demarrer__choix { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); }
+.demarrer__option { display: flex; align-items: center; gap: var(--space-2); min-height: var(--target-min); padding: var(--space-2) var(--space-3);
+  border: 2px solid var(--line); border-radius: var(--radius-md); background: var(--surface-1); color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; text-align: left; cursor: pointer; }
+.demarrer__option--choisie { border-color: var(--primary); background: var(--primary-soft); }
+.demarrer__option:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.demarrer__rond { width: 22px; height: 22px; flex: none; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; background: var(--surface-1); color: var(--primary); }
+.demarrer__option--choisie .demarrer__rond { border-color: var(--primary); }
+.demarrer__appairage { display: flex; flex-direction: column; gap: var(--space-2); }
+.demarrer__appairage ol, .demarrer__instructions { margin: 0; padding-left: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2); line-height: 1.45; }
+.demarrer__instructions { padding: var(--space-4) var(--space-4) var(--space-4) calc(var(--space-4) + var(--space-4)); }
+.clavier-code { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); }
+.code-visible { display: inline-flex; gap: var(--space-1); }
+.code-visible__case { width: 40px; height: 40px; border-radius: var(--radius-sm); background: var(--surface-2); display: grid; place-items: center; font-family: var(--font-display); font-size: 20px; font-weight: 600; }

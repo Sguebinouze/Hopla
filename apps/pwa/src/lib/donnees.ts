@@ -156,7 +156,8 @@ export interface Api {
   // Espace parent
   definirCodeParent(code: string): Promise<void>;
   ouvrirModeParent(code: string): Promise<boolean>;
-  creerEnfant(e: { prenom: string; avatar: string; classe: Classe; code: string }): Promise<void>;
+  /** Crée le profil et renvoie son identifiant. */
+  creerEnfant(e: { prenom: string; avatar: string; classe: Classe; code: string }): Promise<string>;
   /** Mode parent ouvert : progression et erreurs fréquentes de chaque enfant. */
   suiviParent(): Promise<SuiviEnfant[]>;
   // Appareil de l'enfant : appairé par un code du parent, limité à ce profil.
@@ -361,10 +362,11 @@ function apiSupabase(url: string, cle: string): Api {
       return true;
     },
     async creerEnfant(e) {
-      const { error } = await client.rpc('creer_enfant', {
-        p_prenom: e.prenom, p_avatar: e.avatar, p_classe: e.classe, p_code: e.code,
+      const { data, error } = await client.rpc('creer_enfant', {
+        p_prenom: e.prenom.trim().slice(0, 40), p_avatar: e.avatar, p_classe: e.classe, p_code: e.code,
       });
       if (error) throw error;
+      return data as string;
     },
     async suiviParent() {
       const { data: enfants, error } = await client.from('enfants')
@@ -906,6 +908,7 @@ function apiDemo(): Api {
       const id = `demo-${Date.now()}`;
       const code_type = ['cp', 'ce1', 'ce2', 'cm1', 'cm2'].includes(e.classe) ? 'pictos' : 'chiffres';
       ecrire([...lire(), { id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, code_type, xp: 0, serie: 0 }]);
+      return id;
     },
   };
 }

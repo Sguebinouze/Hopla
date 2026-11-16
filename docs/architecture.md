@@ -28,6 +28,8 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 
 ## Espaces
 
+**Ouverture et démarrage** : `/` présente Hopla et ouvre deux portes, « Je suis parent » (`/connexion` : e-mail puis code à 8 chiffres reçu par e-mail, saisi dans l'app ; le lien de l'e-mail marche aussi hors app installée) et « Je suis un enfant, j'ai un code » (`/appairer`). Un parent connecté sans enfant arrive dans l'assistant `/demarrer` : code parent, enfants (prénom, classe, avatar, code choisi sur le clavier en pictogrammes ou chiffres), appareil de chaque enfant (partagé, ou le sien avec son code d'appairage), installation selon l'appareil, puis récapitulatif. L'espace parent y renvoie pour ajouter un enfant ou un appareil (`/demarrer?etape=enfants`).
+
 **Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle (le parent le prévoit, le modifie ou l'annule), réglages et appareils. « Cette semaine » : bilan des 7 derniers jours par enfant (`public.bilan_semaine`), le même que l'e-mail du dimanche.
 
 **Enfant** (`/accueil` et suivantes) : mission du jour (contrôle prévu, puis révisions dues, puis rotation), matières et notions, leçons, exercices, défis chrono, contrôle. Profil (`/profil`) : avatar (7 personnages, 8 teintes), Octave (6 couleurs, 6 accessoires, débloqués par niveau), collection de trophées calculés à partir de la progression (rien de plus n'est enregistré).

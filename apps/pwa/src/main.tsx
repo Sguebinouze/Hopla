@@ -24,11 +24,16 @@ import { Controle } from './pages/Controle';
 import { Defi } from './pages/Defi';
 import { Matiere } from './pages/Matiere';
 import { Parent } from './pages/Parent';
+import { ecouterInstallation } from './lib/installation';
+import { Connexion } from './pages/Connexion';
+import { Demarrer } from './pages/Demarrer';
 import { Profils } from './pages/Profils';
 import { Resultat } from './pages/Resultat';
 
 // Espace admin : module séparé, chargé seulement quand on ouvre /admin.
 const Relecture = lazy(() => import('./pages/admin/Relecture'));
+
+ecouterInstallation();
 
 createRoot(document.getElementById('racine')!).render(
   <StrictMode>
@@ -46,6 +51,8 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/cahier" element={<Cahier />} />
         <Route path="/photo" element={<PhotoLecon />} />
         <Route path="/confidentialite" element={<Confidentialite />} />
+        <Route path="/connexion" element={<Connexion />} />
+        <Route path="/demarrer" element={<Demarrer />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />
