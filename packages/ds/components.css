@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Lexend:wght@400;500;600;700&display=swap");
+/* Polices Fredoka (500, 600) et Lexend (400 à 700) : chargées par l'app elle-même (@fontsource),
+   jamais depuis un service tiers. */
 
 /* Hopla components. Every value comes from tokens.css. */
 .hp { font-family: var(--font-text); color: var(--ink); }

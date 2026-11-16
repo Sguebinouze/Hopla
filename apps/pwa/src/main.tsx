@@ -1,4 +1,10 @@
 import '@hopla/ds/tokens.css';
+import '@fontsource/fredoka/latin-500.css';
+import '@fontsource/fredoka/latin-600.css';
+import '@fontsource/lexend/latin-400.css';
+import '@fontsource/lexend/latin-500.css';
+import '@fontsource/lexend/latin-600.css';
+import '@fontsource/lexend/latin-700.css';
 import '@hopla/ds/components.css';
 import './app.css';
 import { lazy, StrictMode, Suspense } from 'react';
@@ -10,6 +16,7 @@ import { Exercice } from './pages/Exercice';
 import { FicheEnfant } from './pages/FicheEnfant';
 import { Lecon } from './pages/Lecon';
 import { Appairer } from './pages/Appairer';
+import { Confidentialite } from './pages/Confidentialite';
 import { PhotoLecon } from './pages/PhotoLecon';
 import { Cahier } from './pages/Cahier';
 import { Profil } from './pages/Profil';
@@ -38,6 +45,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/profil" element={<Profil />} />
         <Route path="/cahier" element={<Cahier />} />
         <Route path="/photo" element={<PhotoLecon />} />
+        <Route path="/confidentialite" element={<Confidentialite />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />

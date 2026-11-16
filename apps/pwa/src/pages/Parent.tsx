@@ -176,7 +176,7 @@ export function Parent() {
         <BlocProgrammes />
         <section className="hp-card fiche__bloc">
           <h2 className="titre-2">Mes données</h2>
-          <p className="muet">Hopla ne garde que le prénom, l’avatar et la classe de chaque enfant, avec ses résultats.</p>
+          <p className="muet">Hopla ne garde que le prénom, l’avatar et la classe de chaque enfant, avec ses résultats. <Link to="/confidentialite">En savoir plus</Link></p>
           <button type="button" className="hp-btn hp-btn--secondary" style={{ alignSelf: 'flex-start' }} onClick={() => void essayer(async () => {
             const donnees = await api.exporterDonnees();
             const a = document.createElement('a');

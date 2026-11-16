@@ -38,6 +38,7 @@ export function Profils() {
         <h1 className="titre-1">Connexion parent</h1>
         <MentionProgrammes />
         <p className="muet">Une seule fois sur cet appareil. Ensuite, chaque enfant entre avec son code secret.</p>
+        <Link to="/confidentialite" className="muet lien-discret">Confidentialité : ce que Hopla garde, et ce qu’il ne garde pas</Link>
         <form className="formulaire" onSubmit={async (e) => {
           e.preventDefault();
           await api.envoyerLienParent(email);
