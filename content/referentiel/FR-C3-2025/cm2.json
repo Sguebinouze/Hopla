@@ -175,6 +175,246 @@
         "FR-C3-CM2-GRAM-01"
       ],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-LECT-01",
+      "titre": "Les genres littéraires",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre seul des textes, des documents et des images",
+      "attendu": "Reconnaitre et nommer les principaux genres : conte, fable, roman, poésie, théâtre, bande dessinée, récit policier ou de science-fiction.",
+      "exemple": "Une fable met en scène des animaux et se termine par une morale.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Reconnaître et nommer les principaux genres littéraires à l’aide de critères travaillés en classe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02",
+      "titre": "Lire un document composite",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre des textes, des documents et des images pour apprendre dans toutes les disciplines",
+      "attendu": "Repérer les éléments d’une page documentaire : titre, intertitre, légende, encadré, schéma, source.",
+      "exemple": "Sous une photo, la légende explique ce qu’elle montre.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Reconnaître et nommer les caractéristiques des différents éléments d’un document composite"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03",
+      "titre": "Croiser les informations",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre des textes, des documents et des images pour apprendre dans toutes les disciplines",
+      "attendu": "Prélever des informations dans plusieurs passages, faire des inférences et les combiner pour répondre.",
+      "exemple": "Le texte dit « il a neigé toute la nuit » ; l’image montre des skis : la famille va skier.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "prélever des informations (en faisant des inférences si nécessaire)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01",
+      "titre": "Les genres de discours",
+      "domaine": "Oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Reconnaitre à l’écoute un récit, une explication, une consigne, un point de vue.",
+      "exemple": "« À mon avis… » annonce un point de vue.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 12,
+        "extrait": "Identifier les caractéristiques des différents genres de discours"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01",
+      "titre": "Écrire un dialogue",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits variés",
+      "attendu": "Insérer un dialogue dans un récit : guillemets, tirets, verbes de parole, ponctuation.",
+      "exemple": "« Tu viens ? » demanda Léa. Tom répondit : « J’arrive ! »",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 10,
+        "extrait": "Découvrir et manipuler des situations variées d’écriture : décrire, dialoguer"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01",
+      "titre": "Utiliser le dictionnaire",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans toutes les disciplines",
+      "attendu": "Trouver un mot dans le dictionnaire et lire son article : classe, sens numérotés, exemples, abréviations.",
+      "exemple": "« chanter v. » : v. signifie verbe.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "Utiliser des dictionnaires"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-VOC-02",
+      "titre": "Polysémie et sens figuré",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Distinguer le sens propre et le sens figuré d’un mot ou d’une expression.",
+      "exemple": "« Il a un cœur de pierre » : sens figuré, il est insensible.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "Approfondir sa compréhension de la notion de polysémie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-VOC-03",
+      "titre": "Le mot juste",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Choisir un mot précis selon l’univers de référence : sciences, histoire, géographie, arts.",
+      "exemple": "En géographie, on dit « un fleuve » s’il se jette dans la mer.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "À l’oral et à l’écrit, utiliser précisément le vocabulaire de différents univers de référence"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ORTH-03",
+      "titre": "Pluriels et féminins particuliers",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Réaliser la chaîne d’accords au sein du groupe nominal",
+      "attendu": "Écrire les pluriels en -aux, -eux, -oux et les féminins irréguliers.",
+      "exemple": "un cheval, des chevaux ; un bijou, des bijoux ; beau, belle.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Rencontrer quelques variations particulières en contexte"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07",
+      "titre": "Épithète, attribut, complément du nom",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Analyser le groupe nominal",
+      "attendu": "Distinguer l’adjectif épithète de l’attribut du sujet et repérer le complément du nom.",
+      "exemple": "« un chat noir » (épithète) ; « le chat est noir » (attribut) ; « le chat de Léa » (complément du nom).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Différencier épithète et attribut du sujet"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08",
+      "titre": "Types et formes de phrases (CM2)",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Connaître les trois types de phrases et leurs formes",
+      "attendu": "Transformer des phrases plus longues d’un type ou d’une forme à l’autre, sans changer leur sens.",
+      "exemple": "« Vous avez déjà visité ce musée. » → « Avez-vous déjà visité ce musée ? »",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Consolider les objectifs du CM1 avec des corpus de plus en plus complexes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09",
+      "titre": "Nature des mots et des groupes",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Distinguer les notions de nature/classe grammaticales et de fonction",
+      "attendu": "Donner la nature d’un mot et la nature d’un groupe : groupe nominal, groupe verbal, groupe prépositionnel, pronom.",
+      "exemple": "« dans le jardin » : groupe prépositionnel, complément circonstanciel de lieu.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Distinguer les natures/classes grammaticales de mots et les natures des groupes fonctionnels"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ORTH-04",
+      "titre": "Finales de noms fréquentes",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Écrire les finales régulières des noms : -tion, -ée, -té, -ail, -eil, -euil.",
+      "exemple": "la récréation, la journée, la liberté, le travail, le soleil.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Écrire correctement les mots fréquents en s’appuyant sur les régularités et la formation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ORTH-05",
+      "titre": "Féminin et pluriel des adjectifs",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les classes de mots subissant des variations",
+      "attendu": "Former le féminin et le pluriel des adjectifs : -eux/-euse, -f/-ve, -er/-ère, -el/-elle, -al/-aux.",
+      "exemple": "heureux → heureuse ; neuf → neuve ; normal → normaux.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 19,
+        "extrait": "Consolider les capacités à identifier, classer et repérer les variations des classes de mots"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-ECR-02",
+      "titre": "Comparer deux documents",
+      "domaine": "Écriture",
+      "theme": "Écrire pour réfléchir, apprendre et mémoriser",
+      "attendu": "Comparer deux documents : points communs, différences, informations qui se complètent.",
+      "exemple": "Une photo et un texte sur un volcan : la photo montre la lave, le texte donne sa température.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 10,
+        "extrait": "Écrire pour comparer deux documents"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM2-LECT-04",
+      "titre": "Œuvres et personnages célèbres",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire une œuvre et se l’approprier",
+      "attendu": "Relier un texte à des œuvres et à des personnages connus de la littérature.",
+      "exemple": "Un héros qui revient chez lui après un long voyage rappelle Ulysse.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Mettre en relation le texte lu avec une autre œuvre ou une autre référence culturelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

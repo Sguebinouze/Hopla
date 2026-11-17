@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-GRAM-04",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-GRAM-04-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Léo prend le ballon et le lance. » Que remplace « le » ?",
+      "options": [
+        "le ballon",
+        "Léo",
+        "le terrain"
+      ],
+      "reponse": "le ballon",
+      "indice": "Il lance quoi ?",
+      "explication": "Le = le ballon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Les enfants arrivent. Ils sont en retard. » Quel est l’antécédent de « Ils » ?",
+      "options": [
+        "les enfants",
+        "le retard",
+        "les parents"
+      ],
+      "reponse": "les enfants",
+      "indice": "Qui est en retard ?",
+      "explication": "Ils = les enfants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Je parle à Marie. Je lui parle. » Fonction de « lui » ?",
+      "options": [
+        "COI",
+        "COD",
+        "sujet"
+      ],
+      "reponse": "COI",
+      "indice": "Parler à quelqu’un.",
+      "explication": "Lui remplace « à Marie » : COI.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Ulysse retrouva ses compagnons et leur parla. » Que remplace « leur » ?",
+      "options": [
+        "à ses compagnons",
+        "Ulysse",
+        "le navire"
+      ],
+      "reponse": "à ses compagnons",
+      "indice": "Il parla à qui ?",
+      "explication": "Leur = à ses compagnons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Cette fleur, je la cueille. » Fonction de « la » ?",
+      "options": [
+        "COD",
+        "COI",
+        "sujet"
+      ],
+      "reponse": "COD",
+      "indice": "Je cueille quoi ?",
+      "explication": "La = cette fleur, COD.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Mes amis ? Je … téléphone ce soir. »",
+      "options": [
+        "leur",
+        "leurs",
+        "les"
+      ],
+      "reponse": "leur",
+      "indice": "Téléphoner à quelqu’un.",
+      "explication": "Leur, pronom invariable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Le loup vit l’agneau ; il l’attaqua. » Que remplace « l’ » ?",
+      "options": [
+        "l’agneau",
+        "le loup",
+        "le ruisseau"
+      ],
+      "reponse": "l’agneau",
+      "indice": "Il attaqua qui ?",
+      "explication": "L’ = l’agneau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Hercule demanda aux dieux de l’aider ; ils le lui refusèrent. » Que remplace « lui » ?",
+      "options": [
+        "à Hercule",
+        "aux dieux",
+        "l’aide"
+      ],
+      "reponse": "à Hercule",
+      "indice": "Refuser quelque chose à quelqu’un.",
+      "explication": "Lui = à Hercule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

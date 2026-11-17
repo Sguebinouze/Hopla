@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ORTH-04",
+  "exemple": "« Il pleut toujours beaucoup ici. »",
+  "regle": "Les **mots invariables** (toujours, beaucoup, souvent, longtemps) s’apprennent par cœur. Les **régularités** aident : -ment pour les adverbes, m devant m, b, p. La **famille** aide aussi : dent → dentiste.",
+  "piege": "Les adverbes en -ment issus d’adjectifs en -ent s’écrivent -emment : prudent → prudemment.",
+  "essai": {
+    "consigne": "Quel mot est bien écrit ?",
+    "options": [
+      "beaucoup",
+      "beaucoups",
+      "boucoup"
+    ],
+    "reponse": "beaucoup",
+    "explication": "Beaucoup est invariable : jamais de s."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

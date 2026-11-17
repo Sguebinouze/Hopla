@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM1-LECT-03",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-LECT-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un document montre l’évolution d’une température par des barres. Quelle est sa nature ?",
+      "options": [
+        "un graphique",
+        "une carte",
+        "un poème"
+      ],
+      "reponse": "un graphique",
+      "indice": "Des barres et des nombres.",
+      "explication": "C’est un graphique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où lit-on la source d’un document ?",
+      "options": [
+        "sous le document, en petit",
+        "dans le titre de la leçon",
+        "nulle part"
+      ],
+      "reponse": "sous le document, en petit",
+      "indice": "Regarde en bas.",
+      "explication": "La source est souvent indiquée sous le document.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Le Monde, 12 mars 2024 » indique…",
+      "options": [
+        "la source",
+        "la nature",
+        "le résumé"
+      ],
+      "reponse": "la source",
+      "indice": "D’où vient le document ?",
+      "explication": "C’est le journal et la date : la source.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un texte d’un journal présente un évènement récent. Quelle est sa nature ?",
+      "options": [
+        "un article de presse",
+        "un conte",
+        "une notice"
+      ],
+      "reponse": "un article de presse",
+      "indice": "Un journal publie…",
+      "explication": "C’est un article de presse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi regarder la date d’un document ?",
+      "options": [
+        "pour savoir s’il est récent",
+        "pour connaitre son auteur",
+        "pour le colorier"
+      ],
+      "reponse": "pour savoir s’il est récent",
+      "indice": "Une information peut changer.",
+      "explication": "La date indique si l’information est à jour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un document présente des lignes et des colonnes de nombres. Quelle est sa nature ?",
+      "options": [
+        "un tableau",
+        "une carte",
+        "une photographie"
+      ],
+      "reponse": "un tableau",
+      "indice": "Lignes et colonnes.",
+      "explication": "C’est un tableau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel document est le plus fiable pour connaitre la population d’une ville ?",
+      "options": [
+        "un tableau de l’Insee",
+        "un message d’un ami",
+        "une bande dessinée"
+      ],
+      "reponse": "un tableau de l’Insee",
+      "indice": "Qui compte les habitants ?",
+      "explication": "L’Insee est l’organisme officiel des statistiques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une image dessinée par un artiste au Moyen Âge est…",
+      "options": [
+        "une enluminure",
+        "une photographie",
+        "un graphique"
+      ],
+      "reponse": "une enluminure",
+      "indice": "Il n’y avait pas d’appareil photo.",
+      "explication": "Une enluminure est une peinture dans un manuscrit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-06",
+  "exemple": "« la grande maison blanche » : déterminant + adjectif + **nom** + adjectif.",
+  "regle": "Un **groupe nominal** est organisé autour d’un **nom noyau**. Il contient au moins un **déterminant**. Il peut contenir des **adjectifs** placés avant ou après le nom.",
+  "piege": "Le nom noyau est le mot qu’on ne peut pas supprimer.",
+  "essai": {
+    "consigne": "Quel est le nom noyau de « un vieux château fort » ?",
+    "options": [
+      "château",
+      "vieux",
+      "fort"
+    ],
+    "reponse": "château",
+    "explication": "On peut enlever vieux et fort, pas château."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

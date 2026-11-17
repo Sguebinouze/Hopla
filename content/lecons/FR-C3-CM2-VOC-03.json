@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-VOC-03",
+  "exemple": "Un fleuve se jette dans la mer. Une rivière se jette dans un fleuve ou une autre rivière.",
+  "regle": "Chaque discipline a ses **mots précis**. Un mot général (faire, chose, mettre) peut souvent être remplacé par un **mot plus juste**.",
+  "piege": "Le mot précis dépend du contexte : on « écrit » une lettre, on « compose » une musique.",
+  "essai": {
+    "consigne": "Comment appelle-t-on un animal qui mange de tout ?",
+    "options": [
+      "omnivore",
+      "herbivore",
+      "carnivore"
+    ],
+    "reponse": "omnivore",
+    "explication": "Omni- : tout."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

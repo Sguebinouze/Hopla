@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-GRAM-04",
+  "exemple": "« Zeus aperçut Europe. Il la trouva belle. » Il = Zeus (sujet) ; la = Europe (COD).",
+  "regle": "L’**antécédent** est le groupe que le pronom remplace. Le pronom peut être **sujet** (il, elle, ils), **COD** (le, la, les) ou **COI** (lui, leur).",
+  "piege": "« Leur » devant un verbe est un pronom invariable : je leur parle.",
+  "essai": {
+    "consigne": "Dans « Il la trouva belle », quelle est la fonction de « la » ?",
+    "options": [
+      "COD",
+      "sujet",
+      "COI"
+    ],
+    "reponse": "COD",
+    "explication": "Il trouva qui ? La (Europe)."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

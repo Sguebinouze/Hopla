@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-VOC-01",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-VOC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que signifie l’abréviation « adj. » ?",
+      "options": [
+        "adjectif",
+        "adverbe",
+        "adjoint"
+      ],
+      "reponse": "adjectif",
+      "indice": "Une classe de mots.",
+      "explication": "Adj. = adjectif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que signifie « n. f. » ?",
+      "options": [
+        "nom féminin",
+        "nom fréquent",
+        "nombre final"
+      ],
+      "reponse": "nom féminin",
+      "indice": "n. = nom.",
+      "explication": "Nom féminin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot vient en premier dans le dictionnaire ?",
+      "options": [
+        "abeille",
+        "abri",
+        "acier"
+      ],
+      "reponse": "abeille",
+      "indice": "Compare la 3e lettre.",
+      "explication": "abe < abr < aci.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sous quelle forme cherche-t-on « belles » ?",
+      "options": [
+        "beau",
+        "belle",
+        "belles"
+      ],
+      "reponse": "beau",
+      "indice": "Masculin singulier.",
+      "explication": "On cherche l’adjectif au masculin singulier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sous quelle forme cherche-t-on « nous prîmes » ?",
+      "options": [
+        "prendre",
+        "prîmes",
+        "pris"
+      ],
+      "reponse": "prendre",
+      "indice": "Infinitif.",
+      "explication": "Un verbe se cherche à l’infinitif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les mots repères d’une page sont « marmite » et « masque ». Quel mot s’y trouve ?",
+      "options": [
+        "marron",
+        "matin",
+        "manche"
+      ],
+      "reponse": "marron",
+      "indice": "Entre mar… et mas…",
+      "explication": "Marron est entre marmite et masque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot vient en premier ?",
+      "options": [
+        "chapeau",
+        "chapelle",
+        "chapitre"
+      ],
+      "reponse": "chapeau",
+      "indice": "Compare lettre à lettre.",
+      "explication": "chape-a < chape-l < chapi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-VOC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un article indique « 1. Instrument de mesure. 2. Sens figuré : modèle. » Que montrent les numéros ?",
+      "options": [
+        "les différents sens du mot",
+        "les pages",
+        "les exemples"
+      ],
+      "reponse": "les différents sens du mot",
+      "indice": "Le mot est polysémique.",
+      "explication": "Chaque numéro correspond à un sens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM1-GRAM-06",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-GRAM-06-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le nom noyau de « la petite fille » ?",
+      "options": [
+        "fille",
+        "petite",
+        "la"
+      ],
+      "reponse": "fille",
+      "indice": "Le mot indispensable.",
+      "explication": "Fille est le nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le nom noyau de « des fleurs rouges » ?",
+      "options": [
+        "fleurs",
+        "rouges",
+        "des"
+      ],
+      "reponse": "fleurs",
+      "indice": "Le mot indispensable.",
+      "explication": "Fleurs est le nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est un déterminant dans « ce gros camion » ?",
+      "options": [
+        "ce",
+        "gros",
+        "camion"
+      ],
+      "reponse": "ce",
+      "indice": "Il est devant.",
+      "explication": "Ce est un déterminant démonstratif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment est construit « un ciel bleu » ?",
+      "options": [
+        "déterminant + nom + adjectif",
+        "déterminant + adjectif + nom",
+        "nom + adjectif"
+      ],
+      "reponse": "déterminant + nom + adjectif",
+      "indice": "Bleu est après.",
+      "explication": "Un (dét.) + ciel (nom) + bleu (adj.).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien y a-t-il d’adjectifs dans « une longue route sinueuse » ?",
+      "options": [
+        "deux",
+        "un",
+        "trois"
+      ],
+      "reponse": "deux",
+      "indice": "Longue et…",
+      "explication": "Longue et sinueuse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel groupe est un groupe nominal ?",
+      "options": [
+        "mon vélo neuf",
+        "il roule vite",
+        "très rapidement"
+      ],
+      "reponse": "mon vélo neuf",
+      "indice": "Il y a un nom et un déterminant.",
+      "explication": "Mon (dét.) + vélo (nom) + neuf (adj.).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien de groupes nominaux dans « Le chat noir guette une souris. » ?",
+      "options": [
+        "deux",
+        "un",
+        "trois"
+      ],
+      "reponse": "deux",
+      "indice": "Cherche les noms.",
+      "explication": "Le chat noir ; une souris.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le nom noyau de « un beau gâteau au chocolat » ?",
+      "options": [
+        "gâteau",
+        "chocolat",
+        "beau"
+      ],
+      "reponse": "gâteau",
+      "indice": "« au chocolat » complète un nom.",
+      "explication": "Gâteau est le noyau ; « au chocolat » le complète.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

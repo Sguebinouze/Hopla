@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-VOC-03",
+  "exemple": "« Le médecin opère. » « Je pose l’opération. » Le même mot a deux sens.",
+  "regle": "Un mot **polysémique** a **plusieurs sens**. C’est la **phrase** ou la **discipline** qui indique le bon sens.",
+  "piege": "Le dictionnaire numérote les différents sens d’un même mot.",
+  "essai": {
+    "consigne": "Dans « la racine carrée », que signifie « racine » ?",
+    "options": [
+      "une notion de mathématiques",
+      "une partie de plante",
+      "l’origine d’un mot"
+    ],
+    "reponse": "une notion de mathématiques",
+    "explication": "Ici, le contexte est mathématique."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

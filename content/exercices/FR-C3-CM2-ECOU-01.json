@@ -1,0 +1,165 @@
+{
+  "competence": "FR-C3-CM2-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel genre de discours est-ce ?",
+      "options": [
+        "une consigne",
+        "un récit",
+        "un point de vue"
+      ],
+      "reponse": "une consigne",
+      "indice": "Il dit quoi faire.",
+      "explication": "C’est une consigne.",
+      "ecoute": {
+        "texte": "Prenez votre cahier rouge et écrivez la date.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel genre de discours est-ce ?",
+      "options": [
+        "un récit",
+        "une consigne",
+        "une explication"
+      ],
+      "reponse": "un récit",
+      "indice": "Il raconte.",
+      "explication": "C’est un récit.",
+      "ecoute": {
+        "texte": "Il était une fois un roi qui avait perdu sa couronne.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel genre de discours est-ce ?",
+      "options": [
+        "une explication",
+        "un récit",
+        "une consigne"
+      ],
+      "reponse": "une explication",
+      "indice": "Il fait comprendre un phénomène.",
+      "explication": "C’est une explication.",
+      "ecoute": {
+        "texte": "La pluie se forme quand la vapeur d’eau se refroidit dans les nuages.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel genre de discours est-ce ?",
+      "options": [
+        "un point de vue",
+        "une explication",
+        "un récit"
+      ],
+      "reponse": "un point de vue",
+      "indice": "Il donne son avis.",
+      "explication": "C’est un point de vue argumenté.",
+      "ecoute": {
+        "texte": "À mon avis, la cantine devrait servir plus de légumes, car c’est meilleur pour la santé.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel argument donne-t-il ?",
+      "options": [
+        "c’est meilleur pour la santé",
+        "les légumes sont chers",
+        "les élèves n’aiment pas"
+      ],
+      "reponse": "c’est meilleur pour la santé",
+      "indice": "Écoute après « car ».",
+      "explication": "Il dit : car c’est meilleur pour la santé.",
+      "ecoute": {
+        "texte": "À mon avis, la cantine devrait servir plus de légumes, car c’est meilleur pour la santé.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot annonce souvent un argument ?",
+      "options": [
+        "car",
+        "il était une fois",
+        "prenez"
+      ],
+      "reponse": "car",
+      "indice": "Il introduit une raison.",
+      "explication": "« Car » introduit une justification.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quel genre de discours est-ce ?",
+      "options": [
+        "un reportage",
+        "une fable",
+        "une recette"
+      ],
+      "reponse": "un reportage",
+      "indice": "Un journaliste décrit un évènement.",
+      "explication": "C’est un reportage.",
+      "ecoute": {
+        "texte": "Nous sommes au port de Brest, où des milliers de visiteurs admirent les grands voiliers.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans un exposé sur les abeilles, l’élève dit « Je vais vous expliquer ». Quel genre annonce-t-il ?",
+      "options": [
+        "une explication",
+        "un récit",
+        "une consigne"
+      ],
+      "reponse": "une explication",
+      "indice": "Le verbe annonce le genre.",
+      "explication": "Il annonce une explication.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

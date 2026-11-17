@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-04",
+  "exemple": "« Ferme la porte. » « La porte est fermée. » « La porte est-elle fermée ? »",
+  "regle": "Une phrase **déclarative** donne une information. Une phrase **interrogative** pose une question. Une phrase **impérative** donne un ordre ou un conseil. Toute phrase peut être à la forme **négative** ou **exclamative**.",
+  "piege": "L’exclamation est une forme, pas un type : « Quelle belle journée ! » reste déclarative.",
+  "essai": {
+    "consigne": "« Range ta chambre. » De quel type est cette phrase ?",
+    "options": [
+      "impérative",
+      "déclarative",
+      "interrogative"
+    ],
+    "reponse": "impérative",
+    "explication": "Elle donne un ordre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

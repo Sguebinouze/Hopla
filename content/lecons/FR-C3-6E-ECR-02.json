@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-ECR-02",
+  "exemple": "« Hier, les chevaliers partirent. Ils traverserent la foret. » → traversèrent, forêt.",
+  "regle": "Je relis **plusieurs fois**, avec **un objectif à chaque fois**. Je vérifie le sens et la ponctuation. Puis les accords dans le groupe nominal et l’accord sujet-verbe. Enfin les homophones et les accents.",
+  "piege": "Le correcteur d’un ordinateur ne repère pas toutes les fautes d’accord.",
+  "essai": {
+    "consigne": "Où est l’erreur : « Ils on fini. » ?",
+    "options": [
+      "on",
+      "Ils",
+      "fini"
+    ],
+    "reponse": "on",
+    "explication": "Il faut « ont », le verbe avoir."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

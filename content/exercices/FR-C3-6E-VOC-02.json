@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-VOC-02",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-VOC-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « bipède » ?",
+      "options": [
+        "qui marche sur deux pieds",
+        "qui a deux têtes",
+        "qui vole"
+      ],
+      "reponse": "qui marche sur deux pieds",
+      "indice": "Bi- = deux ; ped = pied.",
+      "explication": "Bi (deux) + pède (pied).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « aquatique » ?",
+      "options": [
+        "qui vit dans l’eau",
+        "qui vit dans l’air",
+        "qui vit sous terre"
+      ],
+      "reponse": "qui vit dans l’eau",
+      "indice": "Aqua = eau.",
+      "explication": "Aqua signifie eau en latin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « un microscope » ?",
+      "options": [
+        "un instrument pour voir le très petit",
+        "un téléphone",
+        "un petit livre"
+      ],
+      "reponse": "un instrument pour voir le très petit",
+      "indice": "Micro = petit ; scope = observer.",
+      "explication": "Il permet d’observer le très petit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Malgré la canicule, il portait un manteau. » Que veut dire « canicule » ?",
+      "options": [
+        "une forte chaleur",
+        "une tempête",
+        "un brouillard"
+      ],
+      "reponse": "une forte chaleur",
+      "indice": "« Malgré » et « manteau ».",
+      "explication": "Il fait très chaud, ce qui rend le manteau étonnant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « polyglotte » ?",
+      "options": [
+        "qui parle plusieurs langues",
+        "qui a plusieurs maisons",
+        "qui écrit beaucoup"
+      ],
+      "reponse": "qui parle plusieurs langues",
+      "indice": "Poly = plusieurs ; glotte = langue.",
+      "explication": "Poly (plusieurs) + glotte (langue).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle stratégie choisir si le contexte ne suffit pas ?",
+      "options": [
+        "consulter le dictionnaire",
+        "ignorer le mot",
+        "inventer un sens"
+      ],
+      "reponse": "consulter le dictionnaire",
+      "indice": "Pour vérifier.",
+      "explication": "Le dictionnaire donne le sens exact.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « chronophage » ?",
+      "options": [
+        "qui prend beaucoup de temps",
+        "qui mange des fruits",
+        "qui mesure le temps"
+      ],
+      "reponse": "qui prend beaucoup de temps",
+      "indice": "Chrono = temps ; phage = manger.",
+      "explication": "Qui « mange » du temps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Son discours laconique tenait en trois mots. » Que veut dire « laconique » ?",
+      "options": [
+        "très bref",
+        "très long",
+        "très drôle"
+      ],
+      "reponse": "très bref",
+      "indice": "Trois mots.",
+      "explication": "Laconique : dit en peu de mots.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

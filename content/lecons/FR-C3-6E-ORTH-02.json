@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-ORTH-02",
+  "exemple": "« Ses amis sont là ; ces livres sont à eux. »",
+  "regle": "Je **remplace** pour vérifier : **a** → avait, **est** → était, **sont** → étaient, **ont** → avaient. **Ses** → les siens ; **ces** → ceux-là. **Où** indique le lieu ou le temps ; **ou** → ou bien.",
+  "piege": "Si le remplacement fonctionne, c’est le verbe ; sinon, c’est l’autre mot.",
+  "essai": {
+    "consigne": "Complète : « Elle … partie. »",
+    "options": [
+      "est",
+      "et",
+      "ai"
+    ],
+    "reponse": "est",
+    "explication": "Elle était partie : verbe être."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

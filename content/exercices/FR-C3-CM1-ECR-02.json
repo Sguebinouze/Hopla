@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM1-ECR-02",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-ECR-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Question : que mange l’écureuil ? Quelle information est utile ?",
+      "options": [
+        "Il mange des noisettes.",
+        "Il a une queue touffue.",
+        "Il vit dans les arbres."
+      ],
+      "reponse": "Il mange des noisettes.",
+      "indice": "Cherche la nourriture.",
+      "explication": "Seule la nourriture répond.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Question : quand a été construite la tour Eiffel ? Quelle information est utile ?",
+      "options": [
+        "en 1889",
+        "elle mesure 330 m",
+        "elle est à Paris"
+      ],
+      "reponse": "en 1889",
+      "indice": "Cherche une date.",
+      "explication": "1889 répond à « quand ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que sont des mots-clés ?",
+      "options": [
+        "les mots essentiels d’une information",
+        "les mots les plus longs",
+        "les mots en gras seulement"
+      ],
+      "reponse": "les mots essentiels d’une information",
+      "indice": "Ce qu’on garde.",
+      "explication": "Ils résument l’information utile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Question : pourquoi les oiseaux migrent-ils ? Quelle information est utile ?",
+      "options": [
+        "pour trouver de la nourriture",
+        "certains volent très haut",
+        "les hirondelles sont noires"
+      ],
+      "reponse": "pour trouver de la nourriture",
+      "indice": "Cherche une cause.",
+      "explication": "Elle explique la raison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Question : combien de pattes a une araignée ? Quelle information est utile ?",
+      "options": [
+        "huit pattes",
+        "elle tisse une toile",
+        "elle n’est pas un insecte"
+      ],
+      "reponse": "huit pattes",
+      "indice": "Cherche un nombre.",
+      "explication": "Huit pattes répond.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quels mots-clés garder de « Le Nil, long de 6 650 km, traverse l’Égypte » pour la question « Quelle est sa longueur ? »",
+      "options": [
+        "Nil, 6 650 km",
+        "Égypte, traverse",
+        "long, le"
+      ],
+      "reponse": "Nil, 6 650 km",
+      "indice": "Ce qui répond.",
+      "explication": "Le nom et la longueur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Question : quels dangers menacent les abeilles ? Quelle information est utile ?",
+      "options": [
+        "les pesticides",
+        "elles font du miel",
+        "la reine pond des œufs"
+      ],
+      "reponse": "les pesticides",
+      "indice": "Un danger.",
+      "explication": "Les pesticides sont une menace.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Question : où et quand est né Victor Hugo ? Quelles informations garder ?",
+      "options": [
+        "Besançon, 1802",
+        "poète, romancier",
+        "Les Misérables"
+      ],
+      "reponse": "Besançon, 1802",
+      "indice": "Lieu et date.",
+      "explication": "Lieu et date de naissance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

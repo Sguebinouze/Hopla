@@ -150,6 +150,231 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-LECT-01",
+      "titre": "Explicite et implicite",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre seul des textes, des documents et des images",
+      "attendu": "Repérer les informations écrites dans le texte et déduire celles qui ne sont pas dites.",
+      "exemple": "« Il essuya la sueur de son front. » Le texte ne le dit pas, mais il fait chaud ou il a fait un effort.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 4,
+        "extrait": "Repérer, dans un texte, les informations explicites et pointer des informations implicites"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-LECT-02",
+      "titre": "Théâtre, poème ou récit ?",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre seul des textes, des documents et des images",
+      "attendu": "Reconnaitre un extrait de théâtre, un poème ou un texte narratif par sa mise en page.",
+      "exemple": "Des répliques précédées du nom des personnages : c’est du théâtre.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 4,
+        "extrait": "Distinguer, par la mise en page et les caractéristiques d’écriture spécifiques, un extrait de théâtre, un poème, un texte narratif"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-LECT-03",
+      "titre": "Nature et source d’un document",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre des textes, des documents et des images pour apprendre dans toutes les disciplines",
+      "attendu": "Dire de quel type de document il s’agit et d’où il vient, puis y trouver une information.",
+      "exemple": "Une carte tirée d’un atlas, une photographie publiée dans un journal.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 4,
+        "extrait": "Donner la nature et la source d’un document"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01",
+      "titre": "Comprendre un message oral",
+      "domaine": "Oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Écouter un message (annonce, reportage, consigne) et en retenir l’essentiel.",
+      "exemple": "Une annonce en gare : on retient le numéro du quai et l’heure.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 11,
+        "extrait": "Comprendre un message oral provenant d’un tiers ou d’un média"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01",
+      "titre": "Un texte cohérent",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits variés",
+      "attendu": "Enchainer ses phrases : ordre logique, connecteurs, reprises, temps cohérents.",
+      "exemple": "Le chien aboya. Puis l’animal s’enfuit dans la forêt.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 9,
+        "extrait": "Prendre conscience des composantes de la cohérence textuelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-VOC-02",
+      "titre": "Comprendre un mot inconnu",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans toutes les disciplines",
+      "attendu": "Trouver le sens d’un mot inconnu grâce au contexte et à sa formation (radical, préfixe, suffixe).",
+      "exemple": "Illisible : il- (pas) + lis (lire) + -ible (qu’on peut). Qu’on ne peut pas lire.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "Identifier les mots inconnus, lors de ses différentes lectures, et rechercher leur signification en s’appuyant sur la morphologie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-VOC-03",
+      "titre": "Mots à plusieurs sens",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Choisir le bon sens d’un mot polysémique selon la discipline ou la phrase.",
+      "exemple": "Une « opération » en mathématiques ou à l’hôpital.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "utiliser à bon escient les mots polysémiques dans différents contextes disciplinaires"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-04",
+      "titre": "Écrire les mots fréquents",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Écrire correctement les mots fréquents et invariables en s’appuyant sur les régularités et les familles de mots.",
+      "exemple": "Toujours, beaucoup, longtemps, maintenant ne changent jamais.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 14,
+        "extrait": "Écrire correctement les mots les plus fréquents de la langue en s’appuyant sur les régularités et la formation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04",
+      "titre": "Types et formes de phrases",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Connaître les trois types de phrases et leurs formes",
+      "attendu": "Reconnaitre et transformer les phrases déclaratives, interrogatives, impératives ; forme négative et exclamative.",
+      "exemple": "Tu viens. → Viens-tu ? → Viens ! → Tu ne viens pas.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "Identifier les trois types de phrases (déclaratif, interrogatif, impératif ou injonctif)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05",
+      "titre": "Nature et fonction",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Distinguer les notions de nature ou classe grammaticale et de fonction",
+      "attendu": "Distinguer ce qu’est un mot (sa nature) et ce qu’il fait dans la phrase (sa fonction).",
+      "exemple": "« Le chien mange. » Chien : nature nom, fonction sujet.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "Se familiariser avec les notions de nature et fonction"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-06",
+      "titre": "Le groupe nominal",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Analyser le groupe nominal",
+      "attendu": "Repérer un groupe nominal, son nom noyau et ses éléments : déterminant, adjectif.",
+      "exemple": "« un petit chien noir » : noyau chien.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Repérer et nommer le nom noyau dans le groupe nominal"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-05",
+      "titre": "Nom ou verbe ?",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les classes de mots subissant des variations",
+      "attendu": "Distinguer un nom d’un verbe qui s’écrit presque pareil, pour choisir les bonnes marques.",
+      "exemple": "des élèves (nom, -s) / elles élèvent (verbe, -ent).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Distinguer les variations morphologiques du verbe de celles du nom"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-CONJ-03",
+      "titre": "Verbes en -cer, -ger, -eler, -yer",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Conjuguer les verbes du premier groupe dont le radical change : -cer, -ger, -eler, -eter, -yer, e muet.",
+      "exemple": "nous lançons, nous mangeons, j’appelle, je nettoie, je lève.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Mettre en évidence les variations du radical pour certains verbes du premier groupe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ORTH-06",
+      "titre": "Mots variables et invariables",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les classes de mots subissant des variations",
+      "attendu": "Savoir quelles classes de mots varient et selon quoi : genre, nombre, personne, temps.",
+      "exemple": "Le nom varie en nombre (chat, chats) ; le verbe en personne et en temps (je chante, nous chanterons).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 18,
+        "extrait": "Identifier, classer et repérer les critères de variations (genre, nombre, personne, temps)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-ECR-02",
+      "titre": "Trier les informations utiles",
+      "domaine": "Écriture",
+      "theme": "Écrire pour réfléchir, apprendre et mémoriser",
+      "attendu": "Repérer dans un texte les informations qui répondent à une question et laisser les autres.",
+      "exemple": "Pour savoir ce que mange le hérisson, on garde « insectes, vers » et on laisse « il dort l’hiver ».",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 9,
+        "extrait": "Écrire pour repérer et trier les informations pertinentes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

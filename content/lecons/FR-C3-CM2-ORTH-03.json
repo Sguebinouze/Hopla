@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ORTH-03",
+  "exemple": "Des chevaux, des jeux, des bijoux, des yeux. Un loup gris, une louve grise.",
+  "regle": "La plupart des noms en **-al** font **-aux** (journal → journaux). Les noms en **-eau, -au, -eu** prennent **x**. Sept noms en **-ou** prennent **x** : bijou, caillou, chou, genou, hibou, joujou, pou. Certains féminins changent : beau → belle, vieux → vieille.",
+  "piege": "Exceptions : des bals, des festivals, des carnavals, des pneus, des bleus.",
+  "essai": {
+    "consigne": "Quel est le pluriel de « un hibou » ?",
+    "options": [
+      "des hiboux",
+      "des hibous",
+      "des hibeaux"
+    ],
+    "reponse": "des hiboux",
+    "explication": "Hibou fait partie des 7 noms en -oux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

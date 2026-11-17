@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-VOC-03",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-VOC-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Table » est un mot…",
+      "options": [
+        "simple",
+        "dérivé",
+        "composé"
+      ],
+      "reponse": "simple",
+      "indice": "Peut-on le découper ?",
+      "explication": "Table ne se découpe pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Chou-fleur » est un mot…",
+      "options": [
+        "composé",
+        "dérivé",
+        "simple"
+      ],
+      "reponse": "composé",
+      "indice": "Deux mots réunis.",
+      "explication": "Chou + fleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Impossible » est un mot…",
+      "options": [
+        "dérivé",
+        "composé",
+        "simple"
+      ],
+      "reponse": "dérivé",
+      "indice": "Un préfixe.",
+      "explication": "Im- + possible.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot est composé ?",
+      "options": [
+        "un arc-en-ciel",
+        "un arcade",
+        "un ciel"
+      ],
+      "reponse": "un arc-en-ciel",
+      "indice": "Plusieurs mots réunis.",
+      "explication": "Arc + en + ciel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le suffixe de « gentillesse » ?",
+      "options": [
+        "-esse",
+        "gent-",
+        "-ille"
+      ],
+      "reponse": "-esse",
+      "indice": "La fin du mot.",
+      "explication": "Gentil + -esse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le préfixe de « déraisonnable » ?",
+      "options": [
+        "dé-",
+        "-able",
+        "raison"
+      ],
+      "reponse": "dé-",
+      "indice": "Le début du mot.",
+      "explication": "Dé- + raison + -able.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Portefeuille » est un mot…",
+      "options": [
+        "composé soudé",
+        "dérivé",
+        "simple"
+      ],
+      "reponse": "composé soudé",
+      "indice": "Porte + feuille, sans trait d’union.",
+      "explication": "Composé de deux mots soudés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot est dérivé de « terre » ?",
+      "options": [
+        "atterrir",
+        "tarte",
+        "tirer"
+      ],
+      "reponse": "atterrir",
+      "indice": "Même radical.",
+      "explication": "A- + terr + -ir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

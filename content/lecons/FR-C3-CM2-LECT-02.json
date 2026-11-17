@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-LECT-02",
+  "exemple": "Une double page sur les volcans : un titre, une photo légendée, un schéma et un encadré « Le savais-tu ? ».",
+  "regle": "Un **document composite** associe plusieurs éléments. Le **titre** annonce le sujet. Les **intertitres** découpent le texte. La **légende** explique une image. L’**encadré** met une information en valeur.",
+  "piege": "Une image sans légende peut être mal comprise : lis toujours la légende.",
+  "essai": {
+    "consigne": "Quel élément explique une photographie ?",
+    "options": [
+      "la légende",
+      "le sommaire",
+      "l’index"
+    ],
+    "reponse": "la légende",
+    "explication": "La légende est placée sous l’image."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

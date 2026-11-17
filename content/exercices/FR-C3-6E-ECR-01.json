@@ -1,0 +1,140 @@
+{
+  "competence": "FR-C3-6E-ECR-01",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-ECR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un résumé doit être…",
+      "options": [
+        "plus court que le texte",
+        "plus long que le texte",
+        "identique au texte"
+      ],
+      "reponse": "plus court que le texte",
+      "indice": "Résumer = raccourcir.",
+      "explication": "Le résumé condense le texte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel temps utilise-t-on souvent dans le résumé d’un récit ?",
+      "options": [
+        "le présent",
+        "le futur",
+        "le conditionnel"
+      ],
+      "reponse": "le présent",
+      "indice": "Comme une fiche de lecture.",
+      "explication": "Le résumé s’écrit souvent au présent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un résumé contient-il l’avis du lecteur ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "Il reste fidèle au texte.",
+      "explication": "Le résumé reste objectif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le meilleur résumé du Petit Chaperon rouge ?",
+      "options": [
+        "Une fillette rencontre un loup qui la dévore avec sa grand-mère.",
+        "Une fillette porte un joli chaperon rouge.",
+        "Le loup a de grandes dents."
+      ],
+      "reponse": "Une fillette rencontre un loup qui la dévore avec sa grand-mère.",
+      "indice": "L’action principale.",
+      "explication": "Il garde l’intrigue essentielle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est un détail à supprimer ?",
+      "options": [
+        "Le château avait vingt fenêtres bleues.",
+        "Le prince délivra la princesse.",
+        "La sorcière fut vaincue."
+      ],
+      "reponse": "Le château avait vingt fenêtres bleues.",
+      "indice": "Cela change-t-il l’histoire ?",
+      "explication": "Le nombre de fenêtres n’est pas essentiel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment remplacer « Il mangea des pommes, des poires et des prunes » ?",
+      "options": [
+        "Il mangea des fruits.",
+        "Il mangea.",
+        "Il mangea des pommes."
+      ],
+      "reponse": "Il mangea des fruits.",
+      "indice": "Un mot général.",
+      "explication": "« Des fruits » regroupe la liste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel ordre doit suivre un résumé ?",
+      "options": [
+        "l’ordre des évènements du texte",
+        "l’ordre alphabétique",
+        "du plus court au plus long"
+      ],
+      "reponse": "l’ordre des évènements du texte",
+      "indice": "Chronologie.",
+      "explication": "On respecte l’ordre du récit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « synthétiser » plusieurs documents ?",
+      "options": [
+        "rassembler leurs informations essentielles",
+        "les recopier",
+        "les comparer en couleur"
+      ],
+      "reponse": "rassembler leurs informations essentielles",
+      "indice": "Synthèse = rassemblement.",
+      "explication": "On regroupe l’essentiel de chacun.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

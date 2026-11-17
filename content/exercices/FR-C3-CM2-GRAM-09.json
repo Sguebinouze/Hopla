@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-GRAM-09",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-GRAM-09-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « avec » ?",
+      "options": [
+        "préposition",
+        "conjonction",
+        "adverbe"
+      ],
+      "reponse": "préposition",
+      "indice": "Elle introduit un groupe.",
+      "explication": "Avec est une préposition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « ils » ?",
+      "options": [
+        "pronom",
+        "déterminant",
+        "nom"
+      ],
+      "reponse": "pronom",
+      "indice": "Il remplace un nom.",
+      "explication": "Ils est un pronom personnel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « une belle journée » ?",
+      "options": [
+        "groupe nominal",
+        "groupe prépositionnel",
+        "adverbe"
+      ],
+      "reponse": "groupe nominal",
+      "indice": "Noyau : journée.",
+      "explication": "Groupe nominal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la nature de « sur la table » ?",
+      "options": [
+        "groupe prépositionnel",
+        "groupe nominal",
+        "groupe verbal"
+      ],
+      "reponse": "groupe prépositionnel",
+      "indice": "Il commence par « sur ».",
+      "explication": "Préposition + groupe nominal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la nature de « vite » ?",
+      "options": [
+        "adverbe",
+        "adjectif",
+        "préposition"
+      ],
+      "reponse": "adverbe",
+      "indice": "Il est invariable et précise le verbe.",
+      "explication": "Vite est un adverbe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Je le vois. » Quelle est la nature de « le » ?",
+      "options": [
+        "pronom",
+        "déterminant",
+        "nom"
+      ],
+      "reponse": "pronom",
+      "indice": "Il remplace un nom, devant un verbe.",
+      "explication": "Devant un verbe, « le » est un pronom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Le sac de Lou est lourd. » Nature et fonction de « de Lou » ?",
+      "options": [
+        "groupe prépositionnel, complément du nom",
+        "groupe nominal, sujet",
+        "pronom, attribut"
+      ],
+      "reponse": "groupe prépositionnel, complément du nom",
+      "indice": "Il complète « sac ».",
+      "explication": "Groupe prépositionnel complément du nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-09-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Le soir, nous lisons. » Nature et fonction de « le soir » ?",
+      "options": [
+        "groupe nominal, complément circonstanciel de temps",
+        "groupe nominal, sujet",
+        "pronom, COD"
+      ],
+      "reponse": "groupe nominal, complément circonstanciel de temps",
+      "indice": "Quand ?",
+      "explication": "Groupe nominal, complément circonstanciel de temps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

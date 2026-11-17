@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM1-GRAM-04",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-GRAM-04-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Le chat dort sur le canapé. » De quel type est cette phrase ?",
+      "options": [
+        "déclarative",
+        "interrogative",
+        "impérative"
+      ],
+      "reponse": "déclarative",
+      "indice": "Elle donne une information.",
+      "explication": "Elle informe : déclarative.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« As-tu fini tes devoirs ? » De quel type est cette phrase ?",
+      "options": [
+        "interrogative",
+        "déclarative",
+        "impérative"
+      ],
+      "reponse": "interrogative",
+      "indice": "Le point final.",
+      "explication": "Elle pose une question.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Ne cours pas dans le couloir. » Quelle est sa forme ?",
+      "options": [
+        "négative",
+        "affirmative",
+        "exclamative"
+      ],
+      "reponse": "négative",
+      "indice": "ne… pas.",
+      "explication": "« Ne… pas » marque la forme négative.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Transforme à la forme négative : « Il aime le chocolat. »",
+      "options": [
+        "Il n’aime pas le chocolat.",
+        "Il aime pas le chocolat.",
+        "Il ne aime pas le chocolat."
+      ],
+      "reponse": "Il n’aime pas le chocolat.",
+      "indice": "Il faut ne et pas.",
+      "explication": "Ne devient n’ devant une voyelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle question utilise l’inversion du sujet ?",
+      "options": [
+        "Viens-tu demain ?",
+        "Tu viens demain ?",
+        "Est-ce que tu viens demain ?"
+      ],
+      "reponse": "Viens-tu demain ?",
+      "indice": "Le sujet passe après le verbe.",
+      "explication": "Viens-tu : sujet inversé avec un trait d’union.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Transforme en phrase impérative : « Tu manges ta soupe. »",
+      "options": [
+        "Mange ta soupe.",
+        "Manges ta soupe.",
+        "Tu mange ta soupe."
+      ],
+      "reponse": "Mange ta soupe.",
+      "indice": "Pas de sujet, pas de s.",
+      "explication": "À l’impératif, les verbes en -er n’ont pas de s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Comme ce gâteau est bon ! » Quel est son type et sa forme ?",
+      "options": [
+        "déclarative et exclamative",
+        "impérative et négative",
+        "interrogative et exclamative"
+      ],
+      "reponse": "déclarative et exclamative",
+      "indice": "Elle donne une information avec émotion.",
+      "explication": "Information + émotion : déclarative, forme exclamative.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-04-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme en question avec « est-ce que » : « Vous partez en vacances. »",
+      "options": [
+        "Est-ce que vous partez en vacances ?",
+        "Est-ce que partez-vous en vacances ?",
+        "Partez-vous est-ce que en vacances ?"
+      ],
+      "reponse": "Est-ce que vous partez en vacances ?",
+      "indice": "Pas d’inversion après « est-ce que ».",
+      "explication": "Est-ce que + phrase dans l’ordre normal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

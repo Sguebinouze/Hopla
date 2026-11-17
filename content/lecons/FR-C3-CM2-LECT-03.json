@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-LECT-03",
+  "exemple": "« Le musée ouvre à 10 h. » « Visite guidée : 1 h 30. » La visite guidée finit au plus tôt à 11 h 30.",
+  "regle": "Pour répondre, je cherche les informations **utiles** dans chaque passage. Je les **combine**. Si besoin, je fais une **inférence** : je déduis ce qui n’est pas écrit.",
+  "piege": "Une réponse peut demander deux informations situées à deux endroits différents.",
+  "essai": {
+    "consigne": "« Le car part à 8 h. Le trajet dure 2 h. » À quelle heure arrive-t-il ?",
+    "options": [
+      "à 10 h",
+      "à 8 h",
+      "à 2 h"
+    ],
+    "reponse": "à 10 h",
+    "explication": "8 h + 2 h = 10 h."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

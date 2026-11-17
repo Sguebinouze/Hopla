@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-08",
+  "exemple": "« Il a fini son travail. » → « A-t-il fini son travail ? » → « Il n’a pas fini son travail. »",
+  "regle": "Aux temps composés, la négation **encadre l’auxiliaire** : il **n’**a **pas** fini. Dans une question avec inversion, le pronom se place **après l’auxiliaire** : a-t-il fini ?",
+  "piege": "On ajoute -t- entre deux voyelles : a-t-elle, viendra-t-il.",
+  "essai": {
+    "consigne": "Transforme à la forme négative : « Elle est venue. »",
+    "options": [
+      "Elle n’est pas venue.",
+      "Elle est pas venue.",
+      "Elle n’est venue pas."
+    ],
+    "reponse": "Elle n’est pas venue.",
+    "explication": "Ne… pas encadrent l’auxiliaire."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

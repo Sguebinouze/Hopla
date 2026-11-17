@@ -1,0 +1,173 @@
+{
+  "competence": "FR-C3-6E-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quelle reformulation est juste ?",
+      "options": [
+        "Le spectacle commence plus tard.",
+        "Le spectacle est annulé.",
+        "Le spectacle est gratuit."
+      ],
+      "reponse": "Le spectacle commence plus tard.",
+      "indice": "Reporté = déplacé.",
+      "explication": "Reporté : il aura lieu plus tard.",
+      "ecoute": {
+        "texte": "Le spectacle est reporté de trente minutes.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quelle reformulation est juste ?",
+      "options": [
+        "Il faut apporter sa gourde.",
+        "L’eau est interdite.",
+        "On distribuera des gourdes."
+      ],
+      "reponse": "Il faut apporter sa gourde.",
+      "indice": "Écoute la consigne.",
+      "explication": "Chacun apporte sa gourde.",
+      "ecoute": {
+        "texte": "Chaque élève doit venir avec sa gourde.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Que comprend-on ?",
+      "options": [
+        "Le chemin est dangereux.",
+        "Le chemin est fermé pour travaux.",
+        "Le chemin est très beau."
+      ],
+      "reponse": "Le chemin est dangereux.",
+      "indice": "Écoute la mise en garde.",
+      "explication": "Prudence : il y a un danger.",
+      "ecoute": {
+        "texte": "Attention, ce sentier est glissant après la pluie.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que sous-entend-il ?",
+      "options": [
+        "Il a oublié son parapluie.",
+        "Il aime la pluie.",
+        "Il ne pleut pas."
+      ],
+      "reponse": "Il a oublié son parapluie.",
+      "indice": "Pourquoi est-il trempé ?",
+      "explication": "Il est trempé : il n’avait pas de parapluie.",
+      "ecoute": {
+        "texte": "Je suis arrivé trempé : mon parapluie est resté à la maison.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quelle reformulation est juste ?",
+      "options": [
+        "Le lion chasse surtout la nuit.",
+        "Le lion dort la nuit.",
+        "Le lion chasse seul le matin."
+      ],
+      "reponse": "Le lion chasse surtout la nuit.",
+      "indice": "Nocturne = la nuit.",
+      "explication": "Nocturne : actif la nuit.",
+      "ecoute": {
+        "texte": "Le lion est un chasseur surtout nocturne.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que sous-entend-il ?",
+      "options": [
+        "Le devoir n’a pas été fait.",
+        "Le devoir était facile.",
+        "Le chien a faim."
+      ],
+      "reponse": "Le devoir n’a pas été fait.",
+      "indice": "Une excuse classique.",
+      "explication": "Il se justifie de ne pas avoir rendu son devoir.",
+      "ecoute": {
+        "texte": "Madame, mon chien a mangé mon devoir.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle reformulation est juste ?",
+      "options": [
+        "Les volcans endormis peuvent se réveiller.",
+        "Les volcans sont tous éteints.",
+        "Les volcans ne sont jamais dangereux."
+      ],
+      "reponse": "Les volcans endormis peuvent se réveiller.",
+      "indice": "Écoute « pas forcément ».",
+      "explication": "Un volcan endormi n’est pas éteint.",
+      "ecoute": {
+        "texte": "Un volcan endormi n’est pas forcément éteint.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que sous-entend-il ?",
+      "options": [
+        "Le match a été très serré.",
+        "Le match a été facile.",
+        "Le match n’a pas eu lieu."
+      ],
+      "reponse": "Le match a été très serré.",
+      "indice": "La dernière seconde.",
+      "explication": "Gagner au dernier moment : le match était serré.",
+      "ecoute": {
+        "texte": "Nous avons gagné à la dernière seconde.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

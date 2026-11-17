@@ -1,0 +1,140 @@
+{
+  "competence": "FR-C3-6E-VOC-05",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-VOC-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est familier ?",
+      "options": [
+        "un pote",
+        "un ami",
+        "un camarade"
+      ],
+      "reponse": "un pote",
+      "indice": "Entre copains.",
+      "explication": "Pote est familier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est courant ?",
+      "options": [
+        "avoir peur",
+        "avoir la frousse",
+        "être saisi d’effroi"
+      ],
+      "reponse": "avoir peur",
+      "indice": "Le plus neutre.",
+      "explication": "Avoir peur est courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est soutenu ?",
+      "options": [
+        "un repas",
+        "la bouffe",
+        "un festin"
+      ],
+      "reponse": "un repas",
+      "indice": "Le plus recherché.",
+      "explication": "Festin est soutenu ; repas est courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel registre utiliser dans une lettre au maire ?",
+      "options": [
+        "soutenu",
+        "familier"
+      ],
+      "reponse": "soutenu",
+      "indice": "Situation officielle.",
+      "explication": "On écrit au maire dans un registre soutenu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Remplace « bosser » par un mot courant.",
+      "options": [
+        "travailler",
+        "oeuvrer",
+        "trimer"
+      ],
+      "reponse": "travailler",
+      "indice": "Le mot neutre.",
+      "explication": "Bosser (familier) → travailler (courant).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est en registre soutenu ?",
+      "options": [
+        "Je vous saurais gré de me répondre.",
+        "Réponds-moi vite.",
+        "Tu me réponds ou quoi ?"
+      ],
+      "reponse": "Je vous saurais gré de me répondre.",
+      "indice": "Formule de politesse recherchée.",
+      "explication": "« Savoir gré » est soutenu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Ce mec est sympa. » Réécris en registre courant.",
+      "options": [
+        "Ce garçon est gentil.",
+        "Ce type est cool.",
+        "Ce gars est sympa."
+      ],
+      "reponse": "Ce garçon est gentil.",
+      "indice": "Remplace les deux mots familiers.",
+      "explication": "Mec → garçon ; sympa → gentil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-VOC-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot est soutenu pour « mourir » ?",
+      "options": [
+        "trépasser",
+        "crever",
+        "mourir"
+      ],
+      "reponse": "trépasser",
+      "indice": "Langue littéraire.",
+      "explication": "Trépasser est soutenu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

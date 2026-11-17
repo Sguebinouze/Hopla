@@ -181,6 +181,276 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-LECT-01",
+      "titre": "Rattacher un texte à un genre",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre seul des textes, des documents et des images",
+      "attendu": "Dégager les caractéristiques d’un texte (personnages, cadre, structure, style) et le rattacher à un genre.",
+      "exemple": "Un héros affronte des épreuves et un monstre : c’est un récit épique ou un conte merveilleux.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Dégager les principales caractéristiques d’un texte et le rattacher à un genre"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-LECT-02",
+      "titre": "Liens logiques et reprises",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre seul des textes, des documents et des images",
+      "attendu": "Repérer l’implicite, les liens logiques (cause, conséquence, opposition) et les reprises nominales.",
+      "exemple": "« Hercule… le héros… le fils de Zeus » désignent le même personnage.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Repérer les informations explicites et implicites, les liens logiques, les reprises nominales"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-LECT-03",
+      "titre": "Nature et source des documents",
+      "domaine": "Lecture et compréhension de l’écrit",
+      "theme": "Lire et comprendre des textes, des documents et des images pour apprendre dans toutes les disciplines",
+      "attendu": "Identifier la nature et la source d’un document et juger sa fiabilité.",
+      "exemple": "Un article de l’encyclopédie Universalis est plus fiable qu’un message anonyme.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 5,
+        "extrait": "Identifier la nature et la source des documents"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ECR-01",
+      "titre": "Résumer un texte",
+      "domaine": "Écriture",
+      "theme": "Écrire pour réfléchir, apprendre et mémoriser",
+      "attendu": "Résumer : garder l’essentiel, supprimer les détails, reformuler avec ses mots, respecter l’ordre.",
+      "exemple": "Un chapitre de deux pages résumé en trois phrases.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 10,
+        "extrait": "Écrire pour résumer et/ou synthétiser"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ECR-02",
+      "titre": "Réviser son texte",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits variés",
+      "attendu": "Relire et corriger un texte : ponctuation, accords, conjugaison, répétitions, homophones.",
+      "exemple": "« Les enfant mange » → « Les enfants mangent ».",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 10,
+        "extrait": "Prendre en compte les normes de l’écrit pour réviser un texte"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ECOU-01",
+      "titre": "Reformuler ce qu’on a entendu",
+      "domaine": "Oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Reformuler avec ses mots les informations explicites et implicites d’un texte entendu.",
+      "exemple": "« Il reste trois places » peut se reformuler : la salle est presque pleine.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 12,
+        "extrait": "Montrer sa compréhension notamment en reformulant avec ses mots des informations explicites et implicites"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-VOC-02",
+      "titre": "Stratégies face à un mot inconnu",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans toutes les disciplines",
+      "attendu": "Choisir la bonne stratégie : déduire du contexte, analyser la formation, vérifier dans le dictionnaire.",
+      "exemple": "« Un nyctalope voit la nuit » : nyct- (nuit) + -ope (voir).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Choisir, de manière autonome, les stratégies les plus efficaces pour comprendre un mot inconnu"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-VOC-03",
+      "titre": "Mots simples, dérivés, composés",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Distinguer mot simple, mot dérivé (préfixe, suffixe) et mot composé.",
+      "exemple": "terre (simple), terrain (dérivé), pomme de terre (composé).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Différencier les mots simples, dérivés et composés"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-VOC-04",
+      "titre": "L’étymologie",
+      "domaine": "Vocabulaire",
+      "theme": "Établir des relations entre les mots",
+      "attendu": "Connaitre l’origine grecque ou latine de mots courants et l’évolution de leur sens.",
+      "exemple": "« Géographie » : du grec gê (terre) et graphein (écrire).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Se sensibiliser à l’étymologie et à l’évolution du sens des mots"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-VOC-05",
+      "titre": "Les registres de langue",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Reconnaitre les registres familier, courant et soutenu et choisir celui qui convient.",
+      "exemple": "une bagnole (familier), une voiture (courant), une automobile (soutenu).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "en respectant le registre de langue"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-02",
+      "titre": "Les homophones grammaticaux",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les classes de mots subissant des variations",
+      "attendu": "Choisir entre a/à, et/est, son/sont, on/ont, ces/ses, ou/où, ce/se.",
+      "exemple": "Il est à l’école et il a faim.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Améliorer son orthographe grammaticale dans le cadre de la production d’écrits ou d’exercices d’entraînement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-03",
+      "titre": "Les mots invariables fréquents",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Écrire sans erreur les mots invariables et fréquents en situation autonome.",
+      "exemple": "parmi, désormais, malgré, néanmoins, autrefois.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 15,
+        "extrait": "Écrire correctement les mots fréquents en situation autonome"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-GRAM-04",
+      "titre": "Le pronom et son antécédent",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Identifier les mots, un groupe de mots selon leur nature",
+      "attendu": "Identifier un pronom personnel, sa fonction et le groupe nominal qu’il remplace.",
+      "exemple": "« Le roi parla à ses soldats et leur donna des ordres. » Leur = à ses soldats.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Mettre en relation un pronom personnel avec son antécédent"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-GRAM-05",
+      "titre": "Épithète ou complément du nom",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Analyser le groupe nominal",
+      "attendu": "Distinguer l’adjectif épithète et le groupe nominal prépositionnel complément du nom.",
+      "exemple": "« une robe rouge » (épithète) ; « une robe de soirée » (complément du nom).",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Identifier et différencier sans ambigüité adjectif/groupe adjectival de fonction épithète"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-04",
+      "titre": "Accord sujet-verbe : cas difficiles",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Accorder le sujet et le verbe",
+      "attendu": "Identifier le groupe sujet (éloigné, inversé, plusieurs noms, pronom « qui ») et accorder le verbe.",
+      "exemple": "« Dans la forêt vivent des loups. » Sujet inversé : des loups.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Identifier le groupe sujet et raisonner sur l’accord sujet/verbe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-CONJ-03",
+      "titre": "Les valeurs des temps",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Identifier la valeur des temps : imparfait (description, habitude), passé simple (action ponctuelle), présent (vérité générale, narration).",
+      "exemple": "« Il pleuvait (décor) quand le chevalier arriva (action). »",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 21,
+        "extrait": "Initier à la notion de valeurs des temps"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-05",
+      "titre": "Participe passé avec avoir",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Approfondir sa maîtrise de la conjugaison",
+      "attendu": "Accorder le participe passé avec le COD placé avant l’auxiliaire avoir (pronom personnel).",
+      "exemple": "« Ces fleurs, je les ai cueillies. »",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 21,
+        "extrait": "Accorder le participe passé avec le complément d’objet direct (COD)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-ORTH-06",
+      "titre": "Accords dans le groupe nominal",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Réaliser la chaîne d’accords au sein du groupe nominal",
+      "attendu": "Accorder tous les éléments du groupe nominal avec le nom noyau, même éloignés.",
+      "exemple": "« de vieilles maisons blanches aux volets bleus ».",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 20,
+        "extrait": "Maîtriser la chaîne d’accords dans le groupe nominal"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

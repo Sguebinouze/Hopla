@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ECR-02",
+  "exemple": "Question : où vit le koala ? Texte : « Le koala vit en Australie. Il dort vingt heures par jour. »",
+  "regle": "Avant de lire, je note **la question**. Pendant la lecture, je garde seulement les informations **pertinentes**, celles qui répondent. Je les note en **mots-clés**.",
+  "piege": "Une information vraie n’est pas forcément utile pour la question posée.",
+  "essai": {
+    "consigne": "Quelle information répond à « Où vit le koala ? » ?",
+    "options": [
+      "en Australie",
+      "vingt heures par jour",
+      "il mange des feuilles"
+    ],
+    "reponse": "en Australie",
+    "explication": "C’est le lieu."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

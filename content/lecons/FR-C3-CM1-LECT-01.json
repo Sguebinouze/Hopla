@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-LECT-01",
+  "exemple": "« Clara ferma son parapluie en entrant. » Explicite : elle a un parapluie. Implicite : il pleuvait dehors.",
+  "regle": "Une information **explicite** est écrite dans le texte. Une information **implicite** n’est pas écrite : on la déduit grâce à des **indices** et à ses connaissances.",
+  "piege": "Une déduction doit toujours s’appuyer sur un indice précis du texte.",
+  "essai": {
+    "consigne": "« Le chevalier rangea son épée encore rouge. » Que peut-on déduire ?",
+    "options": [
+      "Il vient de se battre.",
+      "Il va se marier.",
+      "Il a peur du noir."
+    ],
+    "reponse": "Il vient de se battre.",
+    "explication": "L’épée rouge est un indice de combat."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

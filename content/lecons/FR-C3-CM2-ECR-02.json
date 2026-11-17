@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ECR-02",
+  "exemple": "Document 1 : « Paris compte 2,1 millions d’habitants. » Document 2 : une carte montrant Paris au bord de la Seine.",
+  "regle": "Pour comparer, je cherche les **points communs** et les **différences**. Je note ce que chaque document **apporte en plus**. J’utilise des mots de comparaison : **alors que, de même, en revanche**.",
+  "piege": "Deux documents peuvent parler du même sujet sans donner les mêmes informations.",
+  "essai": {
+    "consigne": "Quel mot introduit une différence ?",
+    "options": [
+      "en revanche",
+      "de même",
+      "aussi"
+    ],
+    "reponse": "en revanche",
+    "explication": "« En revanche » oppose deux éléments."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

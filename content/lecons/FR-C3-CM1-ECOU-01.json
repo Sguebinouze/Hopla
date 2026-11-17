@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-ECOU-01",
+  "exemple": "« Le train pour Bordeaux partira voie 3 à 14 h 10. »",
+  "regle": "Avant d’écouter, je sais **ce que je cherche**. Pendant l’écoute, je repère les **mots importants** : qui, quoi, où, quand, pourquoi.",
+  "piege": "Une information peut être corrigée à la fin du message : écoute jusqu’au bout.",
+  "essai": {
+    "consigne": "Dans l’annonce, quelle est la voie ?",
+    "options": [
+      "la voie 3",
+      "la voie 14",
+      "la voie 10"
+    ],
+    "reponse": "la voie 3",
+    "explication": "Le train part voie 3."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-VOC-03",
+  "exemple": "« jardin », « jardinier », « garde-manger ».",
+  "regle": "Un mot **simple** ne peut pas être découpé. Un mot **dérivé** est formé d’un radical avec un **préfixe** ou un **suffixe**. Un mot **composé** réunit plusieurs mots : porte-monnaie, arc-en-ciel, pomme de terre.",
+  "piege": "Un mot composé peut s’écrire en un mot, avec un trait d’union ou en plusieurs mots.",
+  "essai": {
+    "consigne": "« Jardinier » est un mot…",
+    "options": [
+      "dérivé",
+      "simple",
+      "composé"
+    ],
+    "reponse": "dérivé",
+    "explication": "Jardin + suffixe -ier."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

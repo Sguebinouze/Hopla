@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ORTH-05",
+  "exemple": "un garçon sportif, une fille sportive ; des résultats normaux.",
+  "regle": "Au féminin : **-eux → -euse**, **-f → -ve**, **-er → -ère**, **-el → -elle**, **-on → -onne**, **-en → -enne**. Au pluriel : on ajoute **-s**, sauf **-al → -aux** et les adjectifs en **-s, -x** qui ne changent pas.",
+  "piege": "Exceptions : banal, fatal, final, naval font -als au pluriel.",
+  "essai": {
+    "consigne": "Quel est le féminin de « actif » ?",
+    "options": [
+      "active",
+      "actife",
+      "activée"
+    ],
+    "reponse": "active",
+    "explication": "-f devient -ve."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

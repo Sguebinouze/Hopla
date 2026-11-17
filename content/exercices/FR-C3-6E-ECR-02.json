@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-ECR-02",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-ECR-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où est l’erreur : « Les chiens aboie. » ?",
+      "options": [
+        "aboie",
+        "Les",
+        "chiens"
+      ],
+      "reponse": "aboie",
+      "indice": "Accord sujet-verbe.",
+      "explication": "Les chiens aboient.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où est l’erreur : « des maison blanches » ?",
+      "options": [
+        "maison",
+        "des",
+        "blanches"
+      ],
+      "reponse": "maison",
+      "indice": "Accord dans le groupe nominal.",
+      "explication": "Des maisons blanches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est correctement ponctuée ?",
+      "options": [
+        "Où vas-tu ?",
+        "Où vas-tu.",
+        "où vas-tu ?"
+      ],
+      "reponse": "Où vas-tu ?",
+      "indice": "Question et majuscule.",
+      "explication": "Majuscule et point d’interrogation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où est l’erreur : « Elle a manger une glace. » ?",
+      "options": [
+        "manger",
+        "Elle",
+        "glace"
+      ],
+      "reponse": "manger",
+      "indice": "Remplace par « vendu ».",
+      "explication": "Elle a mangé : participe passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où est l’erreur : « Les filles sont partis. » ?",
+      "options": [
+        "partis",
+        "filles",
+        "sont"
+      ],
+      "reponse": "partis",
+      "indice": "Participe avec être.",
+      "explication": "Les filles sont parties.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase évite une répétition ?",
+      "options": [
+        "Le roi entra ; le souverain s’assit.",
+        "Le roi entra ; le roi s’assit.",
+        "Le roi entra ; roi s’assit."
+      ],
+      "reponse": "Le roi entra ; le souverain s’assit.",
+      "indice": "Reprise nominale.",
+      "explication": "« Le souverain » remplace « le roi ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Où est l’erreur : « Les arbres que j’ai planté ont poussé. » ?",
+      "options": [
+        "planté",
+        "arbres",
+        "poussé"
+      ],
+      "reponse": "planté",
+      "indice": "Le COD est placé avant.",
+      "explication": "Que (les arbres) est avant avoir : plantés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-ECR-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Où est l’erreur : « Hier, nous allions au cinéma et nous avons rit. » ?",
+      "options": [
+        "rit",
+        "allions",
+        "avons"
+      ],
+      "reponse": "rit",
+      "indice": "Participe passé de rire.",
+      "explication": "Le participe passé de rire est « ri ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

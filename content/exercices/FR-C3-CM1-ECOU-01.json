@@ -1,0 +1,173 @@
+{
+  "competence": "FR-C3-CM1-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. D’où part le train ?",
+      "options": [
+        "voie 5",
+        "voie 2",
+        "voie 9"
+      ],
+      "reponse": "voie 5",
+      "indice": "Écoute le numéro de la voie.",
+      "explication": "Le train part voie 5.",
+      "ecoute": {
+        "texte": "Le train pour Lille partira voie 5 à 9 heures.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Où va le train ?",
+      "options": [
+        "à Lille",
+        "à Lyon",
+        "à Nice"
+      ],
+      "reponse": "à Lille",
+      "indice": "Écoute la ville.",
+      "explication": "Le train va à Lille.",
+      "ecoute": {
+        "texte": "Le train pour Lille partira voie 5 à 9 heures.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel temps fera-t-il demain ?",
+      "options": [
+        "de la pluie",
+        "du soleil",
+        "de la neige"
+      ],
+      "reponse": "de la pluie",
+      "indice": "Écoute la météo.",
+      "explication": "Il pleuvra demain.",
+      "ecoute": {
+        "texte": "Demain, la pluie tombera sur toute la Bretagne.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Pourquoi la sortie est-elle annulée ?",
+      "options": [
+        "à cause de la tempête",
+        "à cause d’une grève",
+        "parce que le car est en panne"
+      ],
+      "reponse": "à cause de la tempête",
+      "indice": "Écoute la cause.",
+      "explication": "La tempête annule la sortie.",
+      "ecoute": {
+        "texte": "La sortie au phare est annulée à cause de la tempête.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Combien d’espèces vivent dans ce récif ?",
+      "options": [
+        "plus de quatre cents",
+        "quarante",
+        "quatorze"
+      ],
+      "reponse": "plus de quatre cents",
+      "indice": "Écoute le nombre.",
+      "explication": "Plus de quatre cents espèces.",
+      "ecoute": {
+        "texte": "Ce récif de corail abrite plus de quatre cents espèces de poissons.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Qui parle dans ce reportage ?",
+      "options": [
+        "une vétérinaire",
+        "un pompier",
+        "un boulanger"
+      ],
+      "reponse": "une vétérinaire",
+      "indice": "Écoute son métier.",
+      "explication": "C’est une vétérinaire.",
+      "ecoute": {
+        "texte": "Je suis vétérinaire. Je soigne les chevaux de la région.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Finalement, à quelle heure commence le match ?",
+      "options": [
+        "à 16 heures",
+        "à 15 heures",
+        "à 17 heures"
+      ],
+      "reponse": "à 16 heures",
+      "indice": "L’heure change à la fin.",
+      "explication": "Le match est retardé à 16 heures.",
+      "ecoute": {
+        "texte": "Le match prévu à 15 heures est retardé d’une heure.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que faut-il faire en cas d’alarme ?",
+      "options": [
+        "sortir dans la cour",
+        "rester en classe",
+        "appeler ses parents"
+      ],
+      "reponse": "sortir dans la cour",
+      "indice": "Écoute la consigne.",
+      "explication": "On sort dans la cour.",
+      "ecoute": {
+        "texte": "En cas d’alarme, sortez dans la cour sans courir.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

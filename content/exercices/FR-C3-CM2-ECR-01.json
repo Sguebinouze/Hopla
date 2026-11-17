@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-ECR-01",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-ECR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel signe ouvre un dialogue ?",
+      "options": [
+        "les guillemets",
+        "les parenthèses",
+        "le point-virgule"
+      ],
+      "reponse": "les guillemets",
+      "indice": "« … »",
+      "explication": "Le dialogue s’ouvre avec des guillemets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel signe marque le changement de personnage qui parle ?",
+      "options": [
+        "le tiret",
+        "la virgule",
+        "le point"
+      ],
+      "reponse": "le tiret",
+      "indice": "En début de ligne.",
+      "explication": "Un tiret signale une nouvelle réplique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel verbe de parole exprime un cri ?",
+      "options": [
+        "s’écria",
+        "murmura",
+        "chuchota"
+      ],
+      "reponse": "s’écria",
+      "indice": "Fort.",
+      "explication": "S’écrier : parler fort, avec émotion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle ponctuation est correcte ?",
+      "options": [
+        "Il dit : « Bonjour ! »",
+        "Il dit « Bonjour ! »",
+        "Il dit, « Bonjour ! »"
+      ],
+      "reponse": "Il dit : « Bonjour ! »",
+      "indice": "Avant la réplique.",
+      "explication": "Deux-points avant la réplique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel verbe convient : « Chut, le bébé dort », … maman.",
+      "options": [
+        "chuchota",
+        "hurla",
+        "s’écria"
+      ],
+      "reponse": "chuchota",
+      "indice": "On parle doucement.",
+      "explication": "Chuchoter : parler très bas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Je suis d’accord », … Paul. Quel verbe convient ?",
+      "options": [
+        "approuva",
+        "demanda",
+        "protesta"
+      ],
+      "reponse": "approuva",
+      "indice": "Il est d’accord.",
+      "explication": "Approuver : donner son accord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans « “Viens ici !” ordonna-t-il », pourquoi « ordonna-t-il » ?",
+      "options": [
+        "le verbe de parole est inversé après la réplique",
+        "c’est une question",
+        "c’est une faute"
+      ],
+      "reponse": "le verbe de parole est inversé après la réplique",
+      "indice": "Le verbe est après la réplique.",
+      "explication": "Après une réplique, on inverse le sujet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-ECR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel verbe de parole montre que le personnage est mécontent ?",
+      "options": [
+        "grogna",
+        "sourit",
+        "remercia"
+      ],
+      "reponse": "grogna",
+      "indice": "Un son de mauvaise humeur.",
+      "explication": "Grogner traduit le mécontentement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

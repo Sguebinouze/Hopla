@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-VOC-02",
+  "exemple": "« Le chat, nyctalope, chassait dans l’obscurité. »",
+  "regle": "Trois stratégies : **le contexte** (les mots autour), **la formation** (radical, préfixe, suffixe, racine grecque ou latine), **le dictionnaire** pour vérifier.",
+  "piege": "Le contexte suffit parfois, mais il peut tromper : vérifie si le sens est important.",
+  "essai": {
+    "consigne": "Que veut dire « nyctalope » ?",
+    "options": [
+      "qui voit la nuit",
+      "qui dort le jour",
+      "qui chasse seul"
+    ],
+    "reponse": "qui voit la nuit",
+    "explication": "Le contexte (obscurité) et la racine nyct- (nuit) le montrent."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

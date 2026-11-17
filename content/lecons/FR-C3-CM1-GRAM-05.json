@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM1-GRAM-05",
+  "exemple": "« Le chat chasse la souris. » « La souris » : nature groupe nominal ; fonction complément d’objet.",
+  "regle": "La **nature** d’un mot ne change pas : nom, verbe, adjectif, déterminant, pronom. La **fonction** dépend de la phrase : sujet, complément, attribut.",
+  "piege": "Un même nom peut être sujet dans une phrase et complément dans une autre.",
+  "essai": {
+    "consigne": "Dans « Le soleil brille », quelle est la fonction de « le soleil » ?",
+    "options": [
+      "sujet",
+      "complément d’objet",
+      "verbe"
+    ],
+    "reponse": "sujet",
+    "explication": "C’est lui qui brille."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

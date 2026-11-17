@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-ECR-01",
+  "exemple": "« Où vas-tu ? » demanda le loup. Le Petit Chaperon rouge répondit : « Chez ma grand-mère. »",
+  "regle": "Le dialogue s’ouvre et se ferme par des **guillemets**. Chaque changement de personnage se marque par un **tiret** en début de ligne. Un **verbe de parole** (dire, demander, répondre, s’écrier) indique qui parle.",
+  "piege": "Après un verbe de parole placé avant la réplique, on met deux-points.",
+  "essai": {
+    "consigne": "Quel verbe de parole convient pour une question ?",
+    "options": [
+      "demanda",
+      "répondit",
+      "affirma"
+    ],
+    "reponse": "demanda",
+    "explication": "On demande quand on pose une question."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

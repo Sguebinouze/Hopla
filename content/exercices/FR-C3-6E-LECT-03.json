@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-LECT-03",
+  "exercices": [
+    {
+      "id": "FR-C3-6E-LECT-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un document représente un territoire vu du dessus avec une légende. Sa nature ?",
+      "options": [
+        "une carte",
+        "un graphique",
+        "un article"
+      ],
+      "reponse": "une carte",
+      "indice": "Territoire et légende.",
+      "explication": "C’est une carte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que donne la source d’un document ?",
+      "options": [
+        "son origine",
+        "son résumé",
+        "son titre seulement"
+      ],
+      "reponse": "son origine",
+      "indice": "D’où vient-il ?",
+      "explication": "La source indique l’origine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un dessin avec des flèches explique le cycle de l’eau. Sa nature ?",
+      "options": [
+        "un schéma",
+        "une photographie",
+        "un tableau"
+      ],
+      "reponse": "un schéma",
+      "indice": "Flèches et explication.",
+      "explication": "C’est un schéma.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi une source sans auteur ni date est-elle douteuse ?",
+      "options": [
+        "on ne peut pas la vérifier",
+        "elle est trop courte",
+        "elle est en couleur"
+      ],
+      "reponse": "on ne peut pas la vérifier",
+      "indice": "Qui l’a écrite ? Quand ?",
+      "explication": "Sans auteur ni date, on ne peut pas la contrôler.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un article de 1995 sur les téléphones est…",
+      "options": [
+        "probablement dépassé",
+        "toujours exact",
+        "inventé"
+      ],
+      "reponse": "probablement dépassé",
+      "indice": "Pense à la date.",
+      "explication": "La technologie a beaucoup changé depuis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un tableau peint par Delacroix en 1830 est…",
+      "options": [
+        "une source historique",
+        "une photographie",
+        "un graphique"
+      ],
+      "reponse": "une source historique",
+      "indice": "Une œuvre d’époque.",
+      "explication": "Une œuvre d’époque est une source historique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Deux sites donnent des dates différentes pour un évènement. Que faire ?",
+      "options": [
+        "consulter une source de référence",
+        "choisir la date la plus récente",
+        "inventer une date"
+      ],
+      "reponse": "consulter une source de référence",
+      "indice": "Dictionnaire, encyclopédie, manuel.",
+      "explication": "Une source de référence permet de trancher.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-6E-LECT-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle source est la plus fiable pour un fait scientifique ?",
+      "options": [
+        "une revue scientifique",
+        "une vidéo virale",
+        "un forum anonyme"
+      ],
+      "reponse": "une revue scientifique",
+      "indice": "Des spécialistes vérifient.",
+      "explication": "Les revues scientifiques sont relues par des experts.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

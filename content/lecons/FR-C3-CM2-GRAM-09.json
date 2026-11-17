@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-09",
+  "exemple": "« Le chien de Paul court dans le jardin. »",
+  "regle": "Un **groupe nominal** a un nom pour noyau. Un **groupe prépositionnel** commence par une préposition (à, de, dans, sur, avec). Un **pronom** remplace un groupe nominal. La **fonction** dit le rôle du groupe dans la phrase.",
+  "piege": "Un groupe prépositionnel peut être complément du nom ou complément circonstanciel.",
+  "essai": {
+    "consigne": "Quelle est la nature de « dans le jardin » ?",
+    "options": [
+      "groupe prépositionnel",
+      "groupe nominal",
+      "pronom"
+    ],
+    "reponse": "groupe prépositionnel",
+    "explication": "Il commence par la préposition « dans »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,140 @@
+{
+  "competence": "FR-C3-CM1-GRAM-05",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-GRAM-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « jardin » ?",
+      "options": [
+        "nom",
+        "verbe",
+        "adjectif"
+      ],
+      "reponse": "nom",
+      "indice": "On peut mettre « le » devant.",
+      "explication": "Jardin est un nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « courir » ?",
+      "options": [
+        "verbe",
+        "nom",
+        "adjectif"
+      ],
+      "reponse": "verbe",
+      "indice": "C’est une action.",
+      "explication": "Courir est un verbe à l’infinitif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la nature de « rapide » ?",
+      "options": [
+        "adjectif",
+        "verbe",
+        "déterminant"
+      ],
+      "reponse": "adjectif",
+      "indice": "Il qualifie un nom.",
+      "explication": "Rapide est un adjectif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Les oiseaux chantent. » Quelle est la fonction de « les oiseaux » ?",
+      "options": [
+        "sujet",
+        "complément d’objet",
+        "attribut"
+      ],
+      "reponse": "sujet",
+      "indice": "Qui chante ?",
+      "explication": "Ce sont eux qui chantent : sujet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Paul lit un livre. » Quelle est la fonction de « un livre » ?",
+      "options": [
+        "complément d’objet",
+        "sujet",
+        "verbe"
+      ],
+      "reponse": "complément d’objet",
+      "indice": "Paul lit quoi ?",
+      "explication": "Un livre complète le verbe : complément d’objet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Fonction ou nature ? « sujet »",
+      "options": [
+        "fonction",
+        "nature"
+      ],
+      "reponse": "fonction",
+      "indice": "Cela dépend de la phrase ?",
+      "explication": "Sujet est une fonction.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Le chat dort. » / « Je caresse le chat. » Que change pour « le chat » ?",
+      "options": [
+        "sa fonction",
+        "sa nature",
+        "rien"
+      ],
+      "reponse": "sa fonction",
+      "indice": "Sujet puis complément.",
+      "explication": "La nature reste nom, la fonction change.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-GRAM-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Elle mange une pomme. » Quelle est la nature de « elle » ?",
+      "options": [
+        "pronom",
+        "nom",
+        "déterminant"
+      ],
+      "reponse": "pronom",
+      "indice": "Il remplace un nom.",
+      "explication": "Elle est un pronom personnel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

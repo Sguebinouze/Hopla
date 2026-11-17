@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM1-ECR-01",
+  "exercices": [
+    {
+      "id": "FR-C3-CM1-ECR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Il pleuvait, … nous sommes restés à la maison. »",
+      "options": [
+        "alors",
+        "mais",
+        "pourtant"
+      ],
+      "reponse": "alors",
+      "indice": "Une conséquence.",
+      "explication": "« Alors » exprime la conséquence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Il était fatigué, … il continua de marcher. »",
+      "options": [
+        "pourtant",
+        "donc",
+        "car"
+      ],
+      "reponse": "pourtant",
+      "indice": "Une opposition.",
+      "explication": "« Pourtant » marque l’opposition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot peut reprendre « le cheval » ?",
+      "options": [
+        "l’animal",
+        "la voiture",
+        "le cavalier"
+      ],
+      "reponse": "l’animal",
+      "indice": "Un mot plus général.",
+      "explication": "Le cheval est un animal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle suite est cohérente : « La princesse s’endormit. » ?",
+      "options": [
+        "Elle dormit cent ans.",
+        "Elle dormira cent ans hier.",
+        "Il dort cent ans."
+      ],
+      "reponse": "Elle dormit cent ans.",
+      "indice": "Même temps, même personnage.",
+      "explication": "Même personnage, temps du passé : c’est cohérent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel connecteur indique la dernière étape ?",
+      "options": [
+        "enfin",
+        "d’abord",
+        "ensuite"
+      ],
+      "reponse": "enfin",
+      "indice": "La fin.",
+      "explication": "« Enfin » clôt la suite d’étapes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase répète inutilement un mot ?",
+      "options": [
+        "Le chat mange. Le chat dort.",
+        "Le chat mange. Puis il dort.",
+        "Le chat mange puis s’endort."
+      ],
+      "reponse": "Le chat mange. Le chat dort.",
+      "indice": "Cherche la répétition.",
+      "explication": "« Le chat » est répété : un pronom suffit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Remets dans l’ordre : (1) Il partit. (2) Il prépara son sac. (3) Il arriva au sommet.",
+      "options": [
+        "2, 1, 3",
+        "1, 2, 3",
+        "3, 2, 1"
+      ],
+      "reponse": "2, 1, 3",
+      "indice": "On prépare avant de partir.",
+      "explication": "Préparer, partir, arriver.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM1-ECR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est incohérente ?",
+      "options": [
+        "Hier, nous irons au parc.",
+        "Hier, nous sommes allés au parc.",
+        "Demain, nous irons au parc."
+      ],
+      "reponse": "Hier, nous irons au parc.",
+      "indice": "Hier et le futur.",
+      "explication": "« Hier » demande un temps du passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

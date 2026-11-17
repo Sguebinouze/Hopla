@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-ORTH-04",
+  "exemple": "« Le bruit des vagues m’apaise. » Sujet : le bruit (noyau), pas les vagues.",
+  "regle": "Je cherche le **sujet** avec « C’est… qui ». Le verbe s’accorde avec le **nom noyau** du groupe sujet. Le sujet peut être **inversé** ou **éloigné**. Deux sujets singuliers donnent un **pluriel**.",
+  "piege": "Avec « qui », le verbe s’accorde avec l’antécédent : c’est moi qui suis.",
+  "essai": {
+    "consigne": "Complète : « Le bruit des moteurs … . » (gêner)",
+    "options": [
+      "gêne",
+      "gênent",
+      "gênes"
+    ],
+    "reponse": "gêne",
+    "explication": "C’est le bruit qui gêne."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

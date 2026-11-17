@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-GRAM-07",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-GRAM-07-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Un gros nuage gris passe. » Quelle est la fonction de « gris » ?",
+      "options": [
+        "épithète",
+        "attribut du sujet",
+        "complément du nom"
+      ],
+      "reponse": "épithète",
+      "indice": "Il est à côté du nom.",
+      "explication": "Gris est épithète de nuage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Le ciel devient gris. » Quelle est la fonction de « gris » ?",
+      "options": [
+        "attribut du sujet",
+        "épithète",
+        "complément du nom"
+      ],
+      "reponse": "attribut du sujet",
+      "indice": "Devenir est un verbe d’état.",
+      "explication": "Gris est attribut du sujet « le ciel ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Le vélo de mon frère est neuf. » Quelle est la fonction de « de mon frère » ?",
+      "options": [
+        "complément du nom",
+        "épithète",
+        "attribut"
+      ],
+      "reponse": "complément du nom",
+      "indice": "Il complète « vélo ».",
+      "explication": "Introduit par « de », il complète le nom vélo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel verbe est un verbe d’état ?",
+      "options": [
+        "paraitre",
+        "courir",
+        "manger"
+      ],
+      "reponse": "paraitre",
+      "indice": "Il relie le sujet à une qualité.",
+      "explication": "Paraitre est un verbe d’état.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Une tasse en porcelaine. » Quelle est la fonction de « en porcelaine » ?",
+      "options": [
+        "complément du nom",
+        "attribut du sujet",
+        "sujet"
+      ],
+      "reponse": "complément du nom",
+      "indice": "Préposition + nom.",
+      "explication": "En porcelaine complète tasse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Les élèves restent attentifs. » Quelle est la fonction de « attentifs » ?",
+      "options": [
+        "attribut du sujet",
+        "épithète",
+        "complément du nom"
+      ],
+      "reponse": "attribut du sujet",
+      "indice": "Rester est un verbe d’état.",
+      "explication": "Attentifs est attribut de « les élèves ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Mes sœurs sont … » (content)",
+      "options": [
+        "contentes",
+        "content",
+        "contents"
+      ],
+      "reponse": "contentes",
+      "indice": "L’attribut s’accorde avec le sujet.",
+      "explication": "Mes sœurs : féminin pluriel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-07-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« La porte du garage reste ouverte. » Combien y a-t-il d’attributs ?",
+      "options": [
+        "un",
+        "zéro",
+        "deux"
+      ],
+      "reponse": "un",
+      "indice": "Cherche le verbe d’état.",
+      "explication": "Ouverte est attribut ; « du garage » est complément du nom.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

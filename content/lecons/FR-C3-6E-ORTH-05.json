@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-ORTH-05",
+  "exemple": "« J’ai mangé les pommes. » « Les pommes, je les ai mangées. »",
+  "regle": "Avec **avoir**, le participe passé **ne s’accorde pas avec le sujet**. Il s’accorde avec le **COD** seulement si celui-ci est **placé avant** le verbe (les, la, l’).",
+  "piege": "Si le COD est après le verbe, pas d’accord : « Elle a cueilli des roses. »",
+  "essai": {
+    "consigne": "Complète : « Ma lettre, je l’ai … . » (écrire)",
+    "options": [
+      "écrite",
+      "écrit",
+      "écrits"
+    ],
+    "reponse": "écrite",
+    "explication": "L’ (ma lettre) est placé avant : féminin singulier."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,139 @@
+{
+  "competence": "FR-C3-CM2-LECT-03",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-LECT-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Zoé est née en 2014. Nous sommes en 2026. » Quel âge a Zoé cette année ?",
+      "options": [
+        "12 ans",
+        "14 ans",
+        "10 ans"
+      ],
+      "reponse": "12 ans",
+      "indice": "Soustrais les années.",
+      "explication": "2026 − 2014 = 12.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Le magasin ferme le lundi. Léo y va le lundi. » Que se passe-t-il ?",
+      "options": [
+        "Le magasin est fermé.",
+        "Il fait ses courses.",
+        "Il paie moins cher."
+      ],
+      "reponse": "Le magasin est fermé.",
+      "indice": "Croise les deux phrases.",
+      "explication": "Le lundi, c’est fermé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Les ours hibernent l’hiver. Nous sommes en janvier. » Que fait l’ours ?",
+      "options": [
+        "Il hiberne.",
+        "Il chasse.",
+        "Il migre."
+      ],
+      "reponse": "Il hiberne.",
+      "indice": "Janvier est en hiver.",
+      "explication": "En janvier, l’ours hiberne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Max mesure 1,40 m. Le manège exige 1,30 m. » Max peut-il monter ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "Compare les tailles.",
+      "explication": "1,40 m dépasse 1,30 m.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Le film dure 2 h. Il commence à 20 h 30. » À quelle heure finit-il ?",
+      "options": [
+        "à 22 h 30",
+        "à 22 h",
+        "à 20 h 32"
+      ],
+      "reponse": "à 22 h 30",
+      "indice": "Ajoute la durée.",
+      "explication": "20 h 30 + 2 h = 22 h 30.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Les tomates poussent au soleil. Ce jardin est toujours à l’ombre. » Que peut-on déduire ?",
+      "options": [
+        "Les tomates pousseront mal.",
+        "Les tomates pousseront vite.",
+        "Il n’y a pas de jardin."
+      ],
+      "reponse": "Les tomates pousseront mal.",
+      "indice": "Combine les deux informations.",
+      "explication": "Sans soleil, les tomates poussent mal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Inès a 3 € de plus que Tom. Tom a 5 €. Un livre coûte 9 €. » Inès peut-elle l’acheter ?",
+      "options": [
+        "non, il lui manque 1 €",
+        "oui, il lui reste 1 €",
+        "oui, tout juste"
+      ],
+      "reponse": "non, il lui manque 1 €",
+      "indice": "Calcule d’abord ce qu’a Inès.",
+      "explication": "Inès a 8 € : il manque 1 €.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Le chalet est à 2 000 m. La neige tient au-dessus de 1 500 m. » Y a-t-il de la neige au chalet ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "Compare les altitudes.",
+      "explication": "2 000 m est au-dessus de 1 500 m.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-LECT-02",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-LECT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel élément annonce le sujet d’une page ?",
+      "options": [
+        "le titre",
+        "la légende",
+        "la source"
+      ],
+      "reponse": "le titre",
+      "indice": "Il est en haut, en gros.",
+      "explication": "Le titre annonce le sujet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment s’appellent les petits titres qui découpent un texte ?",
+      "options": [
+        "les intertitres",
+        "les légendes",
+        "les notes"
+      ],
+      "reponse": "les intertitres",
+      "indice": "Entre les paragraphes.",
+      "explication": "Ce sont des intertitres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où trouve-t-on souvent une information à retenir, mise en valeur ?",
+      "options": [
+        "dans un encadré",
+        "dans la source",
+        "dans le sommaire"
+      ],
+      "reponse": "dans un encadré",
+      "indice": "Une boite colorée.",
+      "explication": "L’encadré met en valeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un dessin montre l’intérieur d’un volcan avec des flèches et des noms. C’est…",
+      "options": [
+        "un schéma",
+        "une photographie",
+        "une carte"
+      ],
+      "reponse": "un schéma",
+      "indice": "Flèches et noms.",
+      "explication": "C’est un schéma légendé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quoi sert le sommaire d’un magazine ?",
+      "options": [
+        "à trouver les pages des articles",
+        "à expliquer une image",
+        "à citer l’auteur"
+      ],
+      "reponse": "à trouver les pages des articles",
+      "indice": "Il est au début.",
+      "explication": "Le sommaire liste les articles et leurs pages.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le texte dit 15 000 habitants, le graphique montre 15 000. Les documents sont…",
+      "options": [
+        "convergents",
+        "contradictoires",
+        "sans rapport"
+      ],
+      "reponse": "convergents",
+      "indice": "Ils disent la même chose.",
+      "explication": "Ils se confirment : ils convergent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour connaitre la date d’une photo, je lis…",
+      "options": [
+        "la légende ou la source",
+        "le titre de la page",
+        "l’intertitre suivant"
+      ],
+      "reponse": "la légende ou la source",
+      "indice": "Sous l’image.",
+      "explication": "La légende ou la source donne la date.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-LECT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le texte parle de 3 lunes, le schéma en montre 2. Que faire ?",
+      "options": [
+        "vérifier dans une autre source",
+        "croire le schéma",
+        "croire le texte"
+      ],
+      "reponse": "vérifier dans une autre source",
+      "indice": "Les documents se contredisent.",
+      "explication": "Une troisième source permet de trancher.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

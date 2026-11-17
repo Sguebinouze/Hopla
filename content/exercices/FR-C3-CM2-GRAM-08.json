@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-CM2-GRAM-08",
+  "exercices": [
+    {
+      "id": "FR-C3-CM2-GRAM-08-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Transforme en question avec inversion : « Tu as compris. »",
+      "options": [
+        "As-tu compris ?",
+        "Tu as-tu compris ?",
+        "As compris-tu ?"
+      ],
+      "reponse": "As-tu compris ?",
+      "indice": "Le pronom après l’auxiliaire.",
+      "explication": "As-tu compris ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Transforme à la forme négative : « Nous avons mangé. »",
+      "options": [
+        "Nous n’avons pas mangé.",
+        "Nous avons pas mangé.",
+        "Nous n’avons mangé pas."
+      ],
+      "reponse": "Nous n’avons pas mangé.",
+      "indice": "Encadre l’auxiliaire.",
+      "explication": "Ne… pas autour de « avons ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est exclamative ?",
+      "options": [
+        "Quel beau spectacle !",
+        "Le spectacle commence.",
+        "Le spectacle commence-t-il ?"
+      ],
+      "reponse": "Quel beau spectacle !",
+      "indice": "Le point final.",
+      "explication": "Elle exprime une émotion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Transforme en question avec inversion : « Il viendra demain. »",
+      "options": [
+        "Viendra-t-il demain ?",
+        "Viendra-il demain ?",
+        "Il viendra-t-il demain ?"
+      ],
+      "reponse": "Viendra-t-il demain ?",
+      "indice": "Deux voyelles se suivent.",
+      "explication": "On ajoute -t- : viendra-t-il.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Transforme à la forme négative avec « jamais » : « Il ment. »",
+      "options": [
+        "Il ne ment jamais.",
+        "Il ment jamais.",
+        "Il ne jamais ment."
+      ],
+      "reponse": "Il ne ment jamais.",
+      "indice": "Ne… jamais.",
+      "explication": "Ne… jamais encadre le verbe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Transforme à la forme négative : « Elle a encore faim. »",
+      "options": [
+        "Elle n’a plus faim.",
+        "Elle n’a pas encore faim.",
+        "Elle a plus faim."
+      ],
+      "reponse": "Elle n’a plus faim.",
+      "indice": "Le contraire de « encore ».",
+      "explication": "Encore devient ne… plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme en question avec inversion : « Léa a fini. »",
+      "options": [
+        "Léa a-t-elle fini ?",
+        "A-t-Léa fini ?",
+        "Léa a-t-il fini ?"
+      ],
+      "reponse": "Léa a-t-elle fini ?",
+      "indice": "Avec un nom sujet, on ajoute un pronom.",
+      "explication": "Léa a-t-elle fini ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C3-CM2-GRAM-08-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme à la forme négative : « Quelqu’un est venu. »",
+      "options": [
+        "Personne n’est venu.",
+        "Quelqu’un n’est pas venu.",
+        "Personne est pas venu."
+      ],
+      "reponse": "Personne n’est venu.",
+      "indice": "Le contraire de quelqu’un.",
+      "explication": "Quelqu’un devient personne… ne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

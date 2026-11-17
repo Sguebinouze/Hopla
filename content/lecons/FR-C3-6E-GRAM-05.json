@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-6E-GRAM-05",
+  "exemple": "« un vieux livre de contes » : vieux (épithète), de contes (complément du nom).",
+  "regle": "L’**épithète** est un adjectif placé dans le groupe nominal ; il s’accorde avec le nom. Le **complément du nom** est un groupe introduit par une **préposition** (de, à, en, pour) ; il ne s’accorde pas.",
+  "piege": "« une tasse à café » : à café ne s’accorde pas, même au pluriel.",
+  "essai": {
+    "consigne": "« une boite en métal » : fonction de « en métal » ?",
+    "options": [
+      "complément du nom",
+      "épithète",
+      "attribut"
+    ],
+    "reponse": "complément du nom",
+    "explication": "Préposition « en » + nom."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

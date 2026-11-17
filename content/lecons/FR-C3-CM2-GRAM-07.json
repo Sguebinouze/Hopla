@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C3-CM2-GRAM-07",
+  "exemple": "« La mer calme brille. » « La mer est calme. » « Le bruit de la mer. »",
+  "regle": "L’adjectif **épithète** est placé à côté du nom, dans le groupe nominal. L’**attribut du sujet** est relié au sujet par un verbe d’état (être, sembler, devenir, paraitre, rester). Le **complément du nom** est un groupe introduit par une préposition (de, à, en) qui complète un nom.",
+  "piege": "L’attribut s’accorde avec le sujet, même s’il en est éloigné.",
+  "essai": {
+    "consigne": "« Ces fleurs semblent fanées. » Quelle est la fonction de « fanées » ?",
+    "options": [
+      "attribut du sujet",
+      "épithète",
+      "complément du nom"
+    ],
+    "reponse": "attribut du sujet",
+    "explication": "Il est relié par le verbe « sembler »."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
