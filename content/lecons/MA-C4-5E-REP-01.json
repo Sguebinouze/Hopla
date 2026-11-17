@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-REP-01",
+  "exemple": "Sur un plan de bataille navale, B(−1 ; 4) est 1 case à gauche de l’origine et 4 cases en haut.",
+  "regle": "Dans un **repère**, un point a deux **coordonnées** : l’**abscisse** (axe horizontal) puis l’**ordonnée** (axe vertical), notées (x ; y). L’**origine** O a pour coordonnées (0 ; 0).",
+  "piege": "L’abscisse s’écrit toujours en premier.",
+  "essai": {
+    "consigne": "Quelle est l’abscisse de M(5 ; −3) ?",
+    "options": [
+      "5",
+      "−3",
+      "2"
+    ],
+    "reponse": "5",
+    "explication": "Le premier nombre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

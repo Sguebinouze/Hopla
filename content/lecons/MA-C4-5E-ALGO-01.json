@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-5E-ALGO-01",
+  "exemple": "Programme : « demander un nombre ; le doubler ; retirer 1 ; afficher le résultat ». Pour 5, il affiche 9.",
+  "regle": "Un programme reçoit des **entrées** (données saisies), exécute des **instructions** dans l’**ordre**, puis produit des **sorties** (résultats affichés). Une **variable** garde une valeur en mémoire.",
+  "piege": "Changer l’ordre des instructions peut changer la sortie : ×2 puis +1 n’est pas +1 puis ×2.",
+  "essai": {
+    "consigne": "Programme : ×3 puis +2. Sortie pour 4 ?",
+    "options": [
+      "14",
+      "18",
+      "9"
+    ],
+    "reponse": "14",
+    "explication": "4 × 3 = 12 ; 12 + 2 = 14."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

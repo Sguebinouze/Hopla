@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C4-5E-DEC-01",
+  "exercices": [
+    {
+      "id": "MA-C4-5E-DEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Calcule 2,4 ÷ 0,3.",
+      "options": [
+        "8",
+        "0,8",
+        "80"
+      ],
+      "reponse": "8",
+      "indice": "24 ÷ 3.",
+      "explication": "24 ÷ 3 = 8.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Calcule 1,5 ÷ 0,5.",
+      "options": [
+        "3",
+        "0,3",
+        "30"
+      ],
+      "reponse": "3",
+      "indice": "15 ÷ 5.",
+      "explication": "15 ÷ 5 = 3.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "7,2 ÷ 0,9 est égal à…",
+      "options": [
+        "72 ÷ 9",
+        "7,2 ÷ 9",
+        "72 ÷ 0,9"
+      ],
+      "reponse": "72 ÷ 9",
+      "indice": "Multiplie les deux par 10.",
+      "explication": "On multiplie par 10 les deux nombres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Calcule 6 ÷ 0,25.",
+      "options": [
+        "24",
+        "1,5",
+        "0,24"
+      ],
+      "reponse": "24",
+      "indice": "600 ÷ 25.",
+      "explication": "600 ÷ 25 = 24.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Calcule 0,84 ÷ 0,12.",
+      "options": [
+        "7",
+        "0,7",
+        "70"
+      ],
+      "reponse": "7",
+      "indice": "84 ÷ 12.",
+      "explication": "84 ÷ 12 = 7.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Diviser 5 par 0,5 donne…",
+      "options": [
+        "10",
+        "2,5",
+        "0,1"
+      ],
+      "reponse": "10",
+      "indice": "Combien de fois 0,5 dans 5 ?",
+      "explication": "5 ÷ 0,5 = 10.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un ruban de 4,5 m est coupé en morceaux de 0,15 m. Combien de morceaux ?",
+      "options": [
+        "30",
+        "3",
+        "300"
+      ],
+      "reponse": "30",
+      "indice": "450 ÷ 15.",
+      "explication": "450 ÷ 15 = 30.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-DEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un litre d’essence coûte 1,85 €. Combien de litres pour 37 € ?",
+      "options": [
+        "20",
+        "2",
+        "18,5"
+      ],
+      "reponse": "20",
+      "indice": "3 700 ÷ 185.",
+      "explication": "3 700 ÷ 185 = 20.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

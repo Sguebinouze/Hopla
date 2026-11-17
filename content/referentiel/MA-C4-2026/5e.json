@@ -316,6 +316,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-5E-DEC-01",
+      "titre": "Diviser par un décimal",
+      "domaine": "Nombres et calculs",
+      "theme": "Opérations",
+      "attendu": "Diviser par un nombre décimal en se ramenant à une division par un entier.",
+      "exemple": "4,8 ÷ 0,6 = 48 ÷ 6 = 8.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 40,
+        "extrait": "Diviser par un nombre décimal"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-5E-REP-01",
+      "titre": "Se repérer dans le plan",
+      "domaine": "Espace et géométrie",
+      "theme": "Repérage sur une droite et dans le plan",
+      "attendu": "Lire et placer un point sur une droite graduée et dans un repère orthogonal (coordonnées positives ou négatives).",
+      "exemple": "Le point A(3 ; −2) : abscisse 3, ordonnée −2.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 45,
+        "extrait": "Dans le plan muni d’un repère orthogonal"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-5E-TRI-02",
+      "titre": "Construire un triangle",
+      "domaine": "Espace et géométrie",
+      "theme": "Triangles",
+      "attendu": "Construire un triangle à partir de longueurs ou d’angles et savoir s’il est constructible (inégalité triangulaire, somme des angles).",
+      "exemple": "Un triangle de côtés 3 cm, 4 cm et 9 cm n’existe pas : 3 + 4 < 9.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 46,
+        "extrait": "Construire des triangles à partir de données partielles"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-5E-ALGO-01",
+      "titre": "Programmes : entrées et sorties",
+      "domaine": "Nombres et calculs",
+      "theme": "La pensée informatique",
+      "attendu": "Lire un programme simple, identifier ses entrées et ses sorties et prévoir le résultat.",
+      "exemple": "Entrée : un nombre. Programme : le multiplier par 3 puis ajouter 2. Sortie pour 4 : 14.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 53,
+        "extrait": "Identifier les entrées et sorties d’un programme"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

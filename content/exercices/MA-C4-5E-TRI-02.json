@@ -1,0 +1,139 @@
+{
+  "competence": "MA-C4-5E-TRI-02",
+  "exercices": [
+    {
+      "id": "MA-C4-5E-TRI-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la somme des angles d’un triangle ?",
+      "options": [
+        "180°",
+        "360°",
+        "90°"
+      ],
+      "reponse": "180°",
+      "indice": "Un angle plat.",
+      "explication": "180°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Peut-on construire un triangle de côtés 3, 4 et 5 cm ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "3 + 4 > 5.",
+      "explication": "7 > 5 : constructible.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quel instrument reporte-t-on une longueur pour construire un triangle ?",
+      "options": [
+        "le compas",
+        "l’équerre",
+        "le rapporteur"
+      ],
+      "reponse": "le compas",
+      "indice": "Arcs de cercle.",
+      "explication": "Le compas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux angles d’un triangle mesurent 50° et 60°. Le troisième ?",
+      "options": [
+        "70°",
+        "110°",
+        "80°"
+      ],
+      "reponse": "70°",
+      "indice": "180 − 110.",
+      "explication": "70°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Peut-on construire un triangle de côtés 2, 3 et 7 cm ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "2 + 3 < 7.",
+      "explication": "Impossible.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un triangle rectangle a un angle de 35°. Le troisième angle ?",
+      "options": [
+        "55°",
+        "65°",
+        "145°"
+      ],
+      "reponse": "55°",
+      "indice": "180 − 90 − 35.",
+      "explication": "55°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Côtés 4, 6 et 10 cm : que se passe-t-il ?",
+      "options": [
+        "les points sont alignés",
+        "le triangle est rectangle",
+        "le triangle est isocèle"
+      ],
+      "reponse": "les points sont alignés",
+      "indice": "4 + 6 = 10.",
+      "explication": "Égalité : triangle aplati.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-5E-TRI-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un triangle isocèle a un angle au sommet de 40°. Ses angles à la base ?",
+      "options": [
+        "70° chacun",
+        "40° chacun",
+        "140° chacun"
+      ],
+      "reponse": "70° chacun",
+      "indice": "(180 − 40) ÷ 2.",
+      "explication": "140 ÷ 2 = 70°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
