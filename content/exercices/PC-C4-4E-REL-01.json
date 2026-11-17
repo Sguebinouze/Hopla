@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-REL-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-REL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’un référentiel ?",
+      "options": [
+        "l’objet par rapport auquel on décrit un mouvement",
+        "un instrument de mesure",
+        "une vitesse"
+      ],
+      "reponse": "l’objet par rapport auquel on décrit un mouvement",
+      "indice": "Par rapport à…",
+      "explication": "Le référentiel sert de repère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un passager assis dans un bus est immobile par rapport…",
+      "options": [
+        "au bus",
+        "à la route",
+        "aux arbres"
+      ],
+      "reponse": "au bus",
+      "indice": "Il ne bouge pas dans le bus.",
+      "explication": "Par rapport au bus, il est immobile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une personne debout sur le quai voit le train…",
+      "options": [
+        "en mouvement",
+        "immobile",
+        "invisible"
+      ],
+      "reponse": "en mouvement",
+      "indice": "Le train avance.",
+      "explication": "Par rapport au quai, il bouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Par rapport au Soleil, la Terre est…",
+      "options": [
+        "en mouvement",
+        "immobile",
+        "sans référentiel"
+      ],
+      "reponse": "en mouvement",
+      "indice": "Elle tourne autour.",
+      "explication": "La Terre tourne autour du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Par rapport au sol, une maison est…",
+      "options": [
+        "immobile",
+        "en mouvement",
+        "en rotation rapide"
+      ],
+      "reponse": "immobile",
+      "indice": "Le sol comme référence.",
+      "explication": "La maison ne bouge pas par rapport au sol.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Deux voitures roulent côte à côte à 90 km/h. L’une par rapport à l’autre est…",
+      "options": [
+        "immobile",
+        "à 180 km/h",
+        "à 90 km/h"
+      ],
+      "reponse": "immobile",
+      "indice": "Même vitesse, même sens.",
+      "explication": "Leur distance ne change pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un enfant court à 2 m/s vers l’avant dans un train à 30 m/s. Sa vitesse par rapport au quai ?",
+      "options": [
+        "32 m/s",
+        "28 m/s",
+        "2 m/s"
+      ],
+      "reponse": "32 m/s",
+      "indice": "Les vitesses s’ajoutent.",
+      "explication": "30 + 2 = 32 m/s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-REL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi le Soleil semble-t-il bouger dans le ciel ?",
+      "options": [
+        "parce que la Terre tourne sur elle-même",
+        "parce qu’il tourne autour de la Terre",
+        "à cause des nuages"
+      ],
+      "reponse": "parce que la Terre tourne sur elle-même",
+      "indice": "Le référentiel terrestre.",
+      "explication": "La rotation de la Terre crée ce mouvement apparent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

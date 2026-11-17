@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-GES-01",
+  "exemple": "Le méthane (CH₄) brûle : CH₄ + 2 O₂ → CO₂ + 2 H₂O.",
+  "regle": "Les combustions de carburants fossiles (charbon, pétrole, gaz) produisent du **dioxyde de carbone** (CO₂), principal **gaz à effet de serre** d’origine humaine. Le **méthane** en est un autre. La **corrosion** est une transformation lente d’un métal avec le dioxygène et l’eau : le fer **rouille**.",
+  "piege": "L’effet de serre est naturel ; c’est son renforcement par les activités humaines qui réchauffe le climat.",
+  "essai": {
+    "consigne": "Quel gaz produit la combustion du carbone ?",
+    "options": [
+      "le dioxyde de carbone",
+      "le dioxygène",
+      "le diazote"
+    ],
+    "reponse": "le dioxyde de carbone",
+    "explication": "C + O₂ → CO₂."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

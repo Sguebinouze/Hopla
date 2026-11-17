@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-PERIO-01",
+  "exemple": "Le tableau de Mendeleïev range les éléments : H, C, N, O, Fe, Cu…",
+  "regle": "Chaque élément a un **symbole** : une majuscule, parfois suivie d’une minuscule (H, O, Fe). Une **formule chimique** indique les atomes d’une molécule : le chiffre en **indice** donne leur nombre. CO₂ : 1 carbone, 2 oxygènes.",
+  "piege": "Co (cobalt) et CO (monoxyde de carbone) sont différents : la casse compte.",
+  "essai": {
+    "consigne": "Quel est le symbole du fer ?",
+    "options": [
+      "Fe",
+      "F",
+      "Fr"
+    ],
+    "reponse": "Fe",
+    "explication": "Du latin ferrum."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

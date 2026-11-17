@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-MASSE-01",
+  "exemple": "Dans un flacon fermé, on mélange vinaigre et bicarbonate : la balance indique la même masse avant et après.",
+  "regle": "Lors d’une transformation chimique, les **atomes** ne disparaissent pas : ils se **réarrangent**. La **masse totale** des réactifs est égale à la masse totale des produits. C’est la loi de **Lavoisier** : « Rien ne se perd, rien ne se crée, tout se transforme. »",
+  "piege": "En récipient ouvert, un gaz peut s’échapper : la masse semble diminuer.",
+  "essai": {
+    "consigne": "4 g de dihydrogène réagissent avec 32 g de dioxygène. Quelle masse d’eau ?",
+    "options": [
+      "36 g",
+      "28 g",
+      "32 g"
+    ],
+    "reponse": "36 g",
+    "explication": "4 + 32 = 36 g."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

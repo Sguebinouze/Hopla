@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-TEST-01",
+  "exemple": "On souffle dans de l’eau de chaux avec une paille : elle se trouble. L’air expiré contient du dioxyde de carbone.",
+  "regle": "Un **test caractéristique** identifie une espèce chimique. **Eau** : le sulfate de cuivre anhydre passe du blanc au **bleu**. **Dioxyde de carbone** : l’eau de chaux se **trouble**. **Dioxygène** : une buchette incandescente se **rallume**. **Dihydrogène** : une petite **détonation** près d’une flamme.",
+  "piege": "Un test n’identifie qu’une seule espèce : il faut choisir le bon.",
+  "essai": {
+    "consigne": "Quel réactif met en évidence le dioxyde de carbone ?",
+    "options": [
+      "l’eau de chaux",
+      "le sulfate de cuivre anhydre",
+      "une allumette"
+    ],
+    "reponse": "l’eau de chaux",
+    "explication": "L’eau de chaux se trouble."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

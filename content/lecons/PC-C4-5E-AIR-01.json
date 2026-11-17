@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-AIR-01",
+  "exemple": "L’air que nous respirons est un mélange de gaz.",
+  "regle": "L’**air** est un **mélange**. Il contient environ **78 %** de **diazote** (N₂), **21 %** de **dioxygène** (O₂) et **1 %** d’autres gaz (argon, dioxyde de carbone, vapeur d’eau). L’air a une **masse** : 1 L d’air pèse environ 1,2 g.",
+  "piege": "Le gaz le plus abondant n’est pas le dioxygène, mais le diazote.",
+  "essai": {
+    "consigne": "Quel gaz est le plus abondant dans l’air ?",
+    "options": [
+      "le diazote",
+      "le dioxygène",
+      "le dioxyde de carbone"
+    ],
+    "reponse": "le diazote",
+    "explication": "Environ 78 %."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

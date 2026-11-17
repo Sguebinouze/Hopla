@@ -106,6 +106,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01",
+      "titre": "Conservation de la masse",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire et expliquer des transformations chimiques",
+      "attendu": "Savoir que la masse totale se conserve lors d’une transformation chimique : les atomes se réarrangent.",
+      "exemple": "12 g de carbone et 32 g de dioxygène donnent 44 g de dioxyde de carbone.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 99,
+        "extrait": "Conservation de la masse lors d’une"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-PERIO-01",
+      "titre": "Le tableau périodique",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Associer un élément à son symbole et lire une formule chimique en termes d’atomes.",
+      "exemple": "H₂O : deux atomes d’hydrogène et un atome d’oxygène.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 99,
+        "extrait": "Associer leurs symboles aux éléments à l’aide de la classification périodique"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-REL-01",
+      "titre": "La relativité du mouvement",
+      "domaine": "Mouvement et interactions",
+      "theme": "Caractériser un mouvement",
+      "attendu": "Comprendre qu’un mouvement se décrit par rapport à un référentiel.",
+      "exemple": "Assis dans un train, je suis immobile par rapport au wagon mais en mouvement par rapport au quai.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 101,
+        "extrait": "Relativité du mouvement dans des cas simples"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

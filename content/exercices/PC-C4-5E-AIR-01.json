@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-AIR-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-AIR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pourcentage de dioxygène contient l’air ?",
+      "options": [
+        "environ 21 %",
+        "environ 78 %",
+        "environ 50 %"
+      ],
+      "reponse": "environ 21 %",
+      "indice": "Un cinquième.",
+      "explication": "Environ 21 %.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’air est…",
+      "options": [
+        "un mélange",
+        "un corps pur",
+        "un liquide"
+      ],
+      "reponse": "un mélange",
+      "indice": "Plusieurs gaz.",
+      "explication": "C’est un mélange de gaz.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la formule du diazote ?",
+      "options": [
+        "N₂",
+        "O₂",
+        "CO₂"
+      ],
+      "reponse": "N₂",
+      "indice": "N : azote.",
+      "explication": "Deux atomes d’azote.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans 100 L d’air, quel volume de diazote environ ?",
+      "options": [
+        "78 L",
+        "21 L",
+        "1 L"
+      ],
+      "reponse": "78 L",
+      "indice": "78 %.",
+      "explication": "78 % de 100 L.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’air a-t-il une masse ?",
+      "options": [
+        "oui, environ 1,2 g par litre",
+        "non",
+        "seulement quand il fait froid"
+      ],
+      "reponse": "oui, environ 1,2 g par litre",
+      "indice": "Un ballon gonflé pèse plus.",
+      "explication": "L’air est de la matière : il a une masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz de l’air est indispensable à la respiration ?",
+      "options": [
+        "le dioxygène",
+        "le diazote",
+        "l’argon"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "O₂.",
+      "explication": "Nous respirons le dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans 500 mL d’air, quel volume de dioxygène environ ?",
+      "options": [
+        "105 mL",
+        "390 mL",
+        "21 mL"
+      ],
+      "reponse": "105 mL",
+      "indice": "21 % de 500.",
+      "explication": "0,21 × 500 = 105 mL.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-AIR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle est la masse d’environ 10 L d’air ?",
+      "options": [
+        "12 g",
+        "1,2 g",
+        "120 g"
+      ],
+      "reponse": "12 g",
+      "indice": "1,2 g par litre.",
+      "explication": "10 × 1,2 = 12 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

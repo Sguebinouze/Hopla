@@ -1,0 +1,18 @@
+{
+  "competence": "PC-C4-4E-REL-01",
+  "exemple": "Un voyageur lit dans le TGV. Pour son voisin, il ne bouge pas. Pour une vache dans le champ, il file à 300 km/h.",
+  "regle": "Un mouvement se décrit toujours **par rapport à** un objet de référence : le **référentiel**. Un même objet peut être **immobile** dans un référentiel et **en mouvement** dans un autre.",
+  "piege": "Dire « il ne bouge pas » sans préciser par rapport à quoi est incomplet.",
+  "essai": {
+    "consigne": "Le voyageur est-il en mouvement par rapport au quai ?",
+    "options": [
+      "oui",
+      "non"
+    ],
+    "reponse": "oui",
+    "explication": "Le train avance par rapport au quai."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

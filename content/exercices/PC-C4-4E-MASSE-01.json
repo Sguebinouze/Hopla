@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-MASSE-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-MASSE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lors d’une transformation chimique, que deviennent les atomes ?",
+      "options": [
+        "ils se réarrangent",
+        "ils disparaissent",
+        "ils se multiplient"
+      ],
+      "reponse": "ils se réarrangent",
+      "indice": "Conservation.",
+      "explication": "Les atomes sont conservés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui a énoncé la loi de conservation de la masse ?",
+      "options": [
+        "Lavoisier",
+        "Newton",
+        "Pasteur"
+      ],
+      "reponse": "Lavoisier",
+      "indice": "XVIIIe siècle.",
+      "explication": "Antoine Lavoisier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La masse des produits est…",
+      "options": [
+        "égale à celle des réactifs",
+        "plus grande",
+        "plus petite"
+      ],
+      "reponse": "égale à celle des réactifs",
+      "indice": "Rien ne se perd.",
+      "explication": "Elle est conservée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "12 g de carbone brûlent avec 32 g de dioxygène. Masse de CO₂ ?",
+      "options": [
+        "44 g",
+        "20 g",
+        "32 g"
+      ],
+      "reponse": "44 g",
+      "indice": "Additionne.",
+      "explication": "12 + 32 = 44 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un comprimé effervescent dans un verre ouvert : la masse diminue. Pourquoi ?",
+      "options": [
+        "un gaz s’échappe",
+        "des atomes disparaissent",
+        "la balance est fausse"
+      ],
+      "reponse": "un gaz s’échappe",
+      "indice": "Les bulles.",
+      "explication": "Le CO₂ part dans l’air.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "56 g de fer réagissent et donnent 88 g de sulfure de fer. Masse de soufre ?",
+      "options": [
+        "32 g",
+        "144 g",
+        "56 g"
+      ],
+      "reponse": "32 g",
+      "indice": "88 − 56.",
+      "explication": "88 − 56 = 32 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi faire l’expérience en flacon fermé ?",
+      "options": [
+        "pour ne perdre aucun gaz",
+        "pour aller plus vite",
+        "pour la couleur"
+      ],
+      "reponse": "pour ne perdre aucun gaz",
+      "indice": "Tout doit être pesé.",
+      "explication": "Aucun produit ne s’échappe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-MASSE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Rien ne se perd, rien ne se crée, tout se transforme. » Ce principe concerne…",
+      "options": [
+        "la masse lors des transformations",
+        "la vitesse de la lumière",
+        "la pression"
+      ],
+      "reponse": "la masse lors des transformations",
+      "indice": "Lavoisier.",
+      "explication": "La conservation de la masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

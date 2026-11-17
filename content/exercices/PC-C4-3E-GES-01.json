@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-GES-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-GES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est le principal gaz à effet de serre émis par les humains ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le dioxygène",
+        "l’argon"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "CO₂.",
+      "explication": "Le CO₂, surtout par les combustions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment appelle-t-on la corrosion du fer ?",
+      "options": [
+        "la rouille",
+        "la fusion",
+        "l’évaporation"
+      ],
+      "reponse": "la rouille",
+      "indice": "Couleur orangée.",
+      "explication": "La rouille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel gaz est nécessaire à une combustion ?",
+      "options": [
+        "le dioxygène",
+        "le diazote",
+        "l’hélium"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "Le comburant.",
+      "explication": "Le dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quels réactifs faut-il pour que le fer rouille ?",
+      "options": [
+        "dioxygène et eau",
+        "diazote seul",
+        "dioxyde de carbone seul"
+      ],
+      "reponse": "dioxygène et eau",
+      "indice": "Air humide.",
+      "explication": "Le fer rouille en présence d’air humide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz à effet de serre est produit par l’élevage des ruminants ?",
+      "options": [
+        "le méthane",
+        "le dioxygène",
+        "le diazote"
+      ],
+      "reponse": "le méthane",
+      "indice": "CH₄.",
+      "explication": "Le méthane.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle source d’énergie ne libère pas de CO₂ en fonctionnant ?",
+      "options": [
+        "une éolienne",
+        "une centrale à charbon",
+        "un moteur diesel"
+      ],
+      "reponse": "une éolienne",
+      "indice": "Pas de combustion.",
+      "explication": "L’éolienne ne brûle rien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : CH₄ + 2 O₂ → … + 2 H₂O",
+      "options": [
+        "CO₂",
+        "CO",
+        "C"
+      ],
+      "reponse": "CO₂",
+      "indice": "Conserve les atomes.",
+      "explication": "Un carbone et deux oxygènes : CO₂.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-GES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi peint-on ou galvanise-t-on le fer ?",
+      "options": [
+        "pour le protéger de la corrosion",
+        "pour le rendre magnétique",
+        "pour l’alléger"
+      ],
+      "reponse": "pour le protéger de la corrosion",
+      "indice": "Isoler du dioxygène et de l’eau.",
+      "explication": "La couche protège de l’air humide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

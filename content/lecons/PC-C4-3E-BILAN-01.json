@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-BILAN-01",
+  "exemple": "Un moteur électrique reçoit 500 J et fournit 400 J de mouvement : 100 J sont dissipés en chaleur.",
+  "regle": "L’énergie se **conserve** : énergie **reçue** = énergie **utile** + énergie **dissipée**. Le **rendement** est le rapport énergie utile ÷ énergie reçue. L’énergie se mesure en **joules** (J) ; on utilise aussi le **kilowattheure** (kWh).",
+  "piege": "Un rendement est toujours inférieur à 1 (ou 100 %) : une partie de l’énergie est dissipée.",
+  "essai": {
+    "consigne": "Un appareil reçoit 200 J et en dissipe 50 J. Énergie utile ?",
+    "options": [
+      "150 J",
+      "250 J",
+      "50 J"
+    ],
+    "reponse": "150 J",
+    "explication": "200 − 50 = 150 J."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

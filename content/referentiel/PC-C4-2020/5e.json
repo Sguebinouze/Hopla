@@ -106,6 +106,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-5E-TEST-01",
+      "titre": "Tests caractéristiques",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire et expliquer des transformations chimiques",
+      "attendu": "Identifier l’eau, le dioxyde de carbone, le dioxygène et le dihydrogène par un test caractéristique.",
+      "exemple": "Le sulfate de cuivre anhydre blanc devient bleu au contact de l’eau.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 99,
+        "extrait": "Mettre en œuvre des tests caractéristiques d’espèces chimiques à partir d’une banque fournie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-5E-AIR-01",
+      "titre": "La composition de l’air",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire la constitution et les états de la matière",
+      "attendu": "Connaitre la composition de l’air : environ 78 % de diazote et 21 % de dioxygène.",
+      "exemple": "Sur 100 L d’air, il y a environ 78 L de diazote et 21 L de dioxygène.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 99,
+        "extrait": "Composition de l’air"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

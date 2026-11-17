@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-TEST-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-TEST-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel test met en évidence l’eau ?",
+      "options": [
+        "le sulfate de cuivre anhydre",
+        "l’eau de chaux",
+        "une buchette incandescente"
+      ],
+      "reponse": "le sulfate de cuivre anhydre",
+      "indice": "Il devient bleu.",
+      "explication": "Il passe du blanc au bleu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une buchette incandescente se rallume. Quel gaz est présent ?",
+      "options": [
+        "le dioxygène",
+        "le dioxyde de carbone",
+        "le diazote"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "Il entretient les combustions.",
+      "explication": "Le dioxygène ravive la combustion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’eau de chaux se trouble. Quel gaz est présent ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le dioxygène",
+        "le dihydrogène"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "CO₂.",
+      "explication": "Test du CO₂.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une petite détonation se produit près d’une flamme. Quel gaz ?",
+      "options": [
+        "le dihydrogène",
+        "le diazote",
+        "l’argon"
+      ],
+      "reponse": "le dihydrogène",
+      "indice": "Il est très inflammable.",
+      "explication": "Test du dihydrogène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "De quelle couleur est le sulfate de cuivre anhydre avant le test ?",
+      "options": [
+        "blanc",
+        "bleu",
+        "rouge"
+      ],
+      "reponse": "blanc",
+      "indice": "Anhydre : sans eau.",
+      "explication": "Blanc, il devient bleu avec l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On souffle dans de l’eau de chaux. Elle se trouble. Que conclut-on ?",
+      "options": [
+        "l’air expiré contient du CO₂",
+        "l’air expiré contient de l’eau",
+        "l’eau de chaux est sale"
+      ],
+      "reponse": "l’air expiré contient du CO₂",
+      "indice": "Test du CO₂.",
+      "explication": "L’air expiré est riche en CO₂.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le sulfate de cuivre anhydre bleuit au contact d’un liquide. Est-ce de l’eau pure ?",
+      "options": [
+        "on sait seulement qu’il contient de l’eau",
+        "oui, forcément pure",
+        "non, aucune eau"
+      ],
+      "reponse": "on sait seulement qu’il contient de l’eau",
+      "indice": "Le test détecte l’eau, pas sa pureté.",
+      "explication": "Il prouve la présence d’eau, pas sa pureté.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-TEST-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi le dioxygène rallume-t-il une buchette ?",
+      "options": [
+        "il est le comburant de la combustion",
+        "il est un combustible",
+        "il est chaud"
+      ],
+      "reponse": "il est le comburant de la combustion",
+      "indice": "Triangle du feu.",
+      "explication": "Le dioxygène est le comburant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

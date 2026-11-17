@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-5E-TERRE-01",
+  "exercices": [
+    {
+      "id": "SV-C4-5E-TERRE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est l’étoile du système solaire ?",
+      "options": [
+        "le Soleil",
+        "la Lune",
+        "Mars"
+      ],
+      "reponse": "le Soleil",
+      "indice": "Elle produit sa lumière.",
+      "explication": "Le Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel âge a la Terre ?",
+      "options": [
+        "environ 4,6 milliards d’années",
+        "environ 6 000 ans",
+        "environ 1 million d’années"
+      ],
+      "reponse": "environ 4,6 milliards d’années",
+      "indice": "Des milliards.",
+      "explication": "4,6 milliards d’années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle planète est la plus proche du Soleil ?",
+      "options": [
+        "Mercure",
+        "Mars",
+        "Jupiter"
+      ],
+      "reponse": "Mercure",
+      "indice": "La plus petite planète.",
+      "explication": "Mercure.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi la Terre peut-elle abriter la vie ?",
+      "options": [
+        "l’eau y est liquide",
+        "elle est la plus grosse",
+        "elle ne tourne pas"
+      ],
+      "reponse": "l’eau y est liquide",
+      "indice": "Distance au Soleil.",
+      "explication": "Sa température permet l’eau liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand les dinosaures non aviens ont-ils disparu ?",
+      "options": [
+        "il y a 66 millions d’années",
+        "il y a 10 000 ans",
+        "il y a 1 milliard d’années"
+      ],
+      "reponse": "il y a 66 millions d’années",
+      "indice": "Fin du Crétacé.",
+      "explication": "Il y a 66 millions d’années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qui permet de dater les couches de roches ?",
+      "options": [
+        "les fossiles qu’elles contiennent",
+        "leur couleur",
+        "leur poids"
+      ],
+      "reponse": "les fossiles qu’elles contiennent",
+      "indice": "Restes d’êtres vivants.",
+      "explication": "Les fossiles caractérisent les époques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Classe du plus ancien au plus récent : premiers poissons, dinosaures, premiers humains.",
+      "options": [
+        "poissons, dinosaures, humains",
+        "dinosaures, poissons, humains",
+        "humains, dinosaures, poissons"
+      ],
+      "reponse": "poissons, dinosaures, humains",
+      "indice": "Échelle des temps.",
+      "explication": "Les poissons sont bien plus anciens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-5E-TERRE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Si l’histoire de la Terre durait 24 h, l’espèce humaine apparaîtrait…",
+      "options": [
+        "dans les dernières secondes",
+        "à midi",
+        "au début"
+      ],
+      "reponse": "dans les dernières secondes",
+      "indice": "Très récente.",
+      "explication": "L’espèce humaine est très récente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

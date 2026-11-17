@@ -91,6 +91,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-POP-01",
+      "titre": "Dynamique des populations",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier la reproduction au peuplement des milieux",
+      "attendu": "Expliquer l’évolution de l’effectif d’une population : naissances, morts, ressources, prédateurs.",
+      "exemple": "Quand les lynx sont nombreux, les lièvres diminuent ; puis les lynx diminuent à leur tour.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "Dynamique des populations et paramètres"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-HYG-01",
+      "titre": "Cerveau et hygiène de vie",
+      "domaine": "Le corps humain et la santé",
+      "theme": "Activités musculaire, nerveuse et cardiovasculaire ; activité cérébrale",
+      "attendu": "Relier le fonctionnement du cerveau à l’hygiène de vie : sommeil, écrans, substances.",
+      "exemple": "Le manque de sommeil réduit l’attention et la mémorisation.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 113,
+        "extrait": "Activité cérébrale ; hygiène de vie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-4E-POP-01",
+  "exercices": [
+    {
+      "id": "SV-C4-4E-POP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’une population ?",
+      "options": [
+        "les individus d’une même espèce dans un milieu",
+        "toutes les espèces d’une forêt",
+        "un seul animal"
+      ],
+      "reponse": "les individus d’une même espèce dans un milieu",
+      "indice": "Une seule espèce.",
+      "explication": "Même espèce, même lieu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les prédateurs augmentent. Que deviennent les proies ?",
+      "options": [
+        "elles diminuent",
+        "elles augmentent",
+        "rien ne change"
+      ],
+      "reponse": "elles diminuent",
+      "indice": "Plus de chasseurs.",
+      "explication": "Plus de prédateurs, moins de proies.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qui limite une population ?",
+      "options": [
+        "la nourriture disponible",
+        "la couleur des individus",
+        "le nom de l’espèce"
+      ],
+      "reponse": "la nourriture disponible",
+      "indice": "Ressources.",
+      "explication": "Les ressources limitent la croissance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une population compte 100 individus, 30 naissances et 10 morts. Effectif ?",
+      "options": [
+        "120",
+        "140",
+        "80"
+      ],
+      "reponse": "120",
+      "indice": "100 + 30 − 10.",
+      "explication": "120 individus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les lynx diminuent-ils après la baisse des lièvres ?",
+      "options": [
+        "ils manquent de nourriture",
+        "ils migrent vers la mer",
+        "ils vieillissent tous"
+      ],
+      "reponse": "ils manquent de nourriture",
+      "indice": "Ce qu’ils mangent.",
+      "explication": "Moins de proies, moins de prédateurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une espèce introduite sans prédateur peut…",
+      "options": [
+        "envahir le milieu",
+        "disparaitre aussitôt",
+        "ne rien changer"
+      ],
+      "reponse": "envahir le milieu",
+      "indice": "Rien ne la limite.",
+      "explication": "Elle peut devenir invasive.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la reproduction sexuée favorise-t-elle la survie d’une population ?",
+      "options": [
+        "elle crée de la diversité génétique",
+        "elle est plus rapide",
+        "elle évite les prédateurs"
+      ],
+      "reponse": "elle crée de la diversité génétique",
+      "indice": "Individus différents.",
+      "explication": "La diversité aide face aux changements.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-4E-POP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les cycles lynx-lièvres sont décalés. Pourquoi ?",
+      "options": [
+        "les prédateurs réagissent avec retard à l’abondance des proies",
+        "par hasard",
+        "à cause des saisons"
+      ],
+      "reponse": "les prédateurs réagissent avec retard à l’abondance des proies",
+      "indice": "Le temps de se reproduire.",
+      "explication": "Les prédateurs suivent avec un décalage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

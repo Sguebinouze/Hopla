@@ -106,6 +106,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-GES-01",
+      "titre": "Gaz à effet de serre et corrosion",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Propriétés de quelques transformations chimiques",
+      "attendu": "Identifier les gaz à effet de serre issus des combustions et la corrosion des métaux.",
+      "exemple": "La combustion de l’essence libère du dioxyde de carbone, un gaz à effet de serre.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Identifier les gaz à effet de serre produits lors de transformations chimiques"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01",
+      "titre": "Bilan énergétique",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "L’énergie, ses transferts et ses conversions",
+      "attendu": "Établir un bilan énergétique : énergie reçue, énergie utile, énergie perdue, rendement.",
+      "exemple": "Une lampe reçoit 100 J d’énergie électrique : 10 J de lumière (utile), 90 J de chaleur (perdue).",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 102,
+        "extrait": "Établir un bilan énergétique pour un système simple"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

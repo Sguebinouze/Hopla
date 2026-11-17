@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-BILAN-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-BILAN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est l’unité d’énergie du Système international ?",
+      "options": [
+        "le joule",
+        "le watt",
+        "le volt"
+      ],
+      "reponse": "le joule",
+      "indice": "J.",
+      "explication": "Le joule (J).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’énergie se crée-t-elle ?",
+      "options": [
+        "non, elle se convertit",
+        "oui",
+        "seulement le jour"
+      ],
+      "reponse": "non, elle se convertit",
+      "indice": "Conservation.",
+      "explication": "Elle se convertit d’une forme à une autre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une lampe convertit l’énergie électrique en…",
+      "options": [
+        "lumière et chaleur",
+        "mouvement seulement",
+        "énergie chimique"
+      ],
+      "reponse": "lumière et chaleur",
+      "indice": "Elle chauffe aussi.",
+      "explication": "Lumière (utile) et chaleur (perdue).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un moteur reçoit 1 000 J et fournit 800 J utiles. Rendement ?",
+      "options": [
+        "80 %",
+        "20 %",
+        "125 %"
+      ],
+      "reponse": "80 %",
+      "indice": "Utile ÷ reçue.",
+      "explication": "800 ÷ 1 000 = 0,8.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un radiateur électrique a un rendement proche de…",
+      "options": [
+        "100 %",
+        "10 %",
+        "50 %"
+      ],
+      "reponse": "100 %",
+      "indice": "La chaleur est son énergie utile.",
+      "explication": "Presque toute l’énergie devient chaleur utile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "1 kWh vaut combien de joules ?",
+      "options": [
+        "3 600 000 J",
+        "1 000 J",
+        "3 600 J"
+      ],
+      "reponse": "3 600 000 J",
+      "indice": "1 000 W × 3 600 s.",
+      "explication": "1 000 × 3 600 = 3 600 000 J.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une lampe LED reçoit 10 J et produit 4 J de lumière. Énergie dissipée ?",
+      "options": [
+        "6 J",
+        "14 J",
+        "4 J"
+      ],
+      "reponse": "6 J",
+      "indice": "Reçue − utile.",
+      "explication": "10 − 4 = 6 J.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-BILAN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un rendement ne dépasse-t-il jamais 100 % ?",
+      "options": [
+        "l’énergie utile ne peut pas dépasser l’énergie reçue",
+        "les appareils sont mal faits",
+        "c’est interdit par la loi"
+      ],
+      "reponse": "l’énergie utile ne peut pas dépasser l’énergie reçue",
+      "indice": "Conservation.",
+      "explication": "On ne crée pas d’énergie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

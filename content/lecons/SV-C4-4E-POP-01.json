@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-POP-01",
+  "exemple": "Sur une ile sans prédateur, une population de lapins explose, puis s’effondre faute de nourriture.",
+  "regle": "Une **population** est l’ensemble des individus d’une même espèce dans un milieu. Son effectif dépend des **naissances**, des **morts**, des **migrations**. Les **ressources** (nourriture, espace) et les **prédateurs** limitent sa croissance.",
+  "piege": "Une population sans prédateur ne grandit pas sans fin : les ressources s’épuisent.",
+  "essai": {
+    "consigne": "Qu’est-ce qui fait augmenter une population ?",
+    "options": [
+      "plus de naissances que de morts",
+      "plus de prédateurs",
+      "moins de nourriture"
+    ],
+    "reponse": "plus de naissances que de morts",
+    "explication": "Le bilan naissances − morts est positif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

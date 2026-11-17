@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-TERRE-01",
+  "exemple": "Les dinosaures non aviens ont disparu il y a 66 millions d’années, bien avant l’apparition de l’espèce humaine.",
+  "regle": "La **Terre** est la **3e planète** du système solaire, à 150 millions de km du Soleil. Elle s’est formée il y a **4,6 milliards d’années**. L’histoire de la Terre est découpée en **ères géologiques** grâce aux fossiles et aux roches.",
+  "piege": "L’espèce humaine n’a jamais côtoyé les dinosaures non aviens.",
+  "essai": {
+    "consigne": "Quel rang occupe la Terre à partir du Soleil ?",
+    "options": [
+      "3e",
+      "1re",
+      "5e"
+    ],
+    "reponse": "3e",
+    "explication": "Mercure, Vénus, Terre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
