@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-LUM-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-LUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet est transparent ?",
+      "options": [
+        "une vitre",
+        "un mur",
+        "un carton"
+      ],
+      "reponse": "une vitre",
+      "indice": "On voit à travers.",
+      "explication": "La vitre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet est translucide ?",
+      "options": [
+        "du papier calque",
+        "une planche",
+        "l’air"
+      ],
+      "reponse": "du papier calque",
+      "indice": "La lumière passe, l’image est floue.",
+      "explication": "Le papier calque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que faut-il pour obtenir une ombre ?",
+      "options": [
+        "une source de lumière et un objet opaque",
+        "de l’eau",
+        "un miroir seulement"
+      ],
+      "reponse": "une source de lumière et un objet opaque",
+      "indice": "Deux éléments.",
+      "explication": "Une source et un objet opaque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "La lampe est à gauche de l’objet. Où est l’ombre ?",
+      "options": [
+        "à droite",
+        "à gauche",
+        "au-dessus"
+      ],
+      "reponse": "à droite",
+      "indice": "Côté opposé.",
+      "explication": "À l’opposé de la source.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand l’ombre d’un arbre est-elle la plus courte ?",
+      "options": [
+        "vers midi",
+        "le matin tôt",
+        "le soir"
+      ],
+      "reponse": "vers midi",
+      "indice": "Soleil haut.",
+      "explication": "Le soleil est le plus haut vers midi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce que l’ombre propre ?",
+      "options": [
+        "la partie non éclairée de l’objet",
+        "l’ombre sur le sol",
+        "la lumière"
+      ],
+      "reponse": "la partie non éclairée de l’objet",
+      "indice": "Sur l’objet lui-même.",
+      "explication": "La face de l’objet dans l’ombre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On rapproche l’objet de la lampe. L’ombre sur le mur…",
+      "options": [
+        "grandit",
+        "rapetisse",
+        "disparait"
+      ],
+      "reponse": "grandit",
+      "indice": "Comme les ombres chinoises.",
+      "explication": "Plus l’objet est proche de la source, plus l’ombre est grande.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi voit-on une éclipse de Lune ?",
+      "options": [
+        "la Terre fait de l’ombre à la Lune",
+        "la Lune s’éteint",
+        "un nuage passe"
+      ],
+      "reponse": "la Terre fait de l’ombre à la Lune",
+      "indice": "Ombre de la Terre.",
+      "explication": "La Lune entre dans l’ombre de la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

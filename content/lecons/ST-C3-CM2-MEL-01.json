@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-MEL-01",
+  "exemple": "Pour récupérer le sel de l’eau de mer, on laisse l’eau s’évaporer dans les marais salants.",
+  "regle": "Pour séparer : le **tamisage** (grains de tailles différentes), la **décantation** (le solide tombe au fond), la **filtration** (le filtre retient le solide), l’**évaporation** (récupérer un solide dissous). Un solide qui se **dissout** ne disparait pas : la **masse totale** se conserve.",
+  "piege": "Le sucre dissous est toujours là : l’eau a un goût sucré.",
+  "essai": {
+    "consigne": "Quelle technique récupère le sel dissous dans l’eau ?",
+    "options": [
+      "l’évaporation",
+      "le tamisage",
+      "la décantation"
+    ],
+    "reponse": "l’évaporation",
+    "explication": "L’eau s’en va, le sel reste."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

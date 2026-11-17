@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-MVT-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-MVT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une bille qui roule tout droit a un mouvement…",
+      "options": [
+        "rectiligne",
+        "circulaire",
+        "immobile"
+      ],
+      "reponse": "rectiligne",
+      "indice": "Ligne droite.",
+      "explication": "Rectiligne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un manège a un mouvement…",
+      "options": [
+        "circulaire",
+        "rectiligne",
+        "nul"
+      ],
+      "reponse": "circulaire",
+      "indice": "Il tourne.",
+      "explication": "Circulaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quoi mesure-t-on une durée ?",
+      "options": [
+        "un chronomètre",
+        "une règle",
+        "une balance"
+      ],
+      "reponse": "un chronomètre",
+      "indice": "Le temps.",
+      "explication": "Le chronomètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Assis dans le bus, par rapport au bus, tu es…",
+      "options": [
+        "immobile",
+        "en mouvement",
+        "en rotation"
+      ],
+      "reponse": "immobile",
+      "indice": "Point de vue du bus.",
+      "explication": "Immobile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour un piéton sur le trottoir, le passager du bus est…",
+      "options": [
+        "en mouvement",
+        "immobile",
+        "invisible"
+      ],
+      "reponse": "en mouvement",
+      "indice": "Point de vue du piéton.",
+      "explication": "En mouvement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de secondes dans 2 minutes ?",
+      "options": [
+        "120",
+        "200",
+        "60"
+      ],
+      "reponse": "120",
+      "indice": "1 min = 60 s.",
+      "explication": "120 s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le mouvement de la Terre autour du Soleil ?",
+      "options": [
+        "presque circulaire",
+        "rectiligne",
+        "immobile"
+      ],
+      "reponse": "presque circulaire",
+      "indice": "Une orbite.",
+      "explication": "Une trajectoire presque circulaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Combien de mètres dans 2,5 km ?",
+      "options": [
+        "2 500",
+        "250",
+        "25"
+      ],
+      "reponse": "2 500",
+      "indice": "× 1 000.",
+      "explication": "2 500 m.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

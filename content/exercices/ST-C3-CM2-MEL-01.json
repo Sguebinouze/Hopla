@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-MEL-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-MEL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pour séparer le sable des cailloux, on utilise…",
+      "options": [
+        "un tamis",
+        "un filtre à café",
+        "un aimant"
+      ],
+      "reponse": "un tamis",
+      "indice": "Tailles différentes.",
+      "explication": "Le tamisage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Laisser reposer de l’eau boueuse pour que la terre tombe au fond, c’est…",
+      "options": [
+        "la décantation",
+        "la filtration",
+        "l’évaporation"
+      ],
+      "reponse": "la décantation",
+      "indice": "Repos.",
+      "explication": "La décantation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le filtre à café retient…",
+      "options": [
+        "le marc de café",
+        "l’eau",
+        "le gout"
+      ],
+      "reponse": "le marc de café",
+      "indice": "Le solide.",
+      "explication": "Il retient le solide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On dissout 10 g de sucre dans 200 g d’eau. Masse totale ?",
+      "options": [
+        "210 g",
+        "200 g",
+        "190 g"
+      ],
+      "reponse": "210 g",
+      "indice": "Conservation.",
+      "explication": "200 + 10 = 210 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le sel dissous dans l’eau…",
+      "options": [
+        "est toujours présent",
+        "a disparu",
+        "est devenu de l’eau"
+      ],
+      "reponse": "est toujours présent",
+      "indice": "Goûte l’eau.",
+      "explication": "Il est dispersé dans l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mélange est homogène ?",
+      "options": [
+        "de l’eau salée",
+        "de l’eau et du sable",
+        "de l’huile et de l’eau"
+      ],
+      "reponse": "de l’eau salée",
+      "indice": "On ne distingue qu’une seule phase.",
+      "explication": "L’eau salée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Huile et eau : comment les séparer ?",
+      "options": [
+        "par décantation, l’huile reste au-dessus",
+        "par tamisage",
+        "par aimantation"
+      ],
+      "reponse": "par décantation, l’huile reste au-dessus",
+      "indice": "Elles ne se mélangent pas.",
+      "explication": "Ils forment deux couches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Peut-on dissoudre une quantité infinie de sel dans un verre d’eau ?",
+      "options": [
+        "non, l’eau sature",
+        "oui",
+        "seulement si elle est froide"
+      ],
+      "reponse": "non, l’eau sature",
+      "indice": "À un moment, le sel ne se dissout plus.",
+      "explication": "La solution devient saturée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

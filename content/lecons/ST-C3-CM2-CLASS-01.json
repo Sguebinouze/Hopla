@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-CLASS-01",
+  "exemple": "La chauve-souris a des ailes, mais aussi des poils et des mamelles : c’est un mammifère.",
+  "regle": "Un **organisme** est formé d’**appareils** (appareil digestif), eux-mêmes formés d’**organes** (estomac). Pour **classer**, on regroupe les êtres vivants selon ce qu’ils **ont** en commun (poils, plumes, squelette interne), pas selon ce qu’ils font. Les groupes s’**emboitent** : les mammifères font partie des vertébrés.",
+  "piege": "On ne classe pas selon le mode de vie : la baleine vit dans l’eau mais c’est un mammifère.",
+  "essai": {
+    "consigne": "La baleine est…",
+    "options": [
+      "un mammifère",
+      "un poisson",
+      "un oiseau"
+    ],
+    "reponse": "un mammifère",
+    "explication": "Elle allaite ses petits."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

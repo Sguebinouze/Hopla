@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-MVT-01",
+  "exemple": "Pour le passager, son siège est immobile ; pour le promeneur, le train avance en ligne droite.",
+  "regle": "Un mouvement est **rectiligne** (en ligne droite) ou **circulaire** (en cercle). Il se décrit **par rapport à un observateur** : un objet peut être immobile pour l’un et en mouvement pour l’autre. On mesure la **distance** parcourue et la **durée**.",
+  "piege": "Il faut toujours préciser par rapport à quoi l’objet bouge.",
+  "essai": {
+    "consigne": "Quel mouvement a l’aiguille d’une horloge ?",
+    "options": [
+      "circulaire",
+      "rectiligne",
+      "aucun"
+    ],
+    "reponse": "circulaire",
+    "explication": "Elle tourne en cercle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

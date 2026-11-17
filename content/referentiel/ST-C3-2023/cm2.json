@@ -151,6 +151,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-LUM-01",
+      "titre": "Lumière et ombres",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Signal et information",
+      "attendu": "Classer les objets (transparents, translucides, opaques) et expliquer la formation d’une ombre.",
+      "exemple": "Un mur est opaque : il arrête la lumière et crée une ombre.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 86,
+        "extrait": "Observer et classer des objets selon qu’ils sont transparents, opaques à la lumière ou translucides"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-MEL-01",
+      "titre": "Séparer un mélange",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "États et constitution de la matière à l’échelle macroscopique",
+      "attendu": "Séparer un mélange par tamisage, décantation, filtration ou évaporation ; savoir que la masse se conserve lors d’une dissolution.",
+      "exemple": "On filtre de l’eau boueuse pour retenir la terre.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 83,
+        "extrait": "Séparer les constituants d’un mélange de solides ou d’un mélange solide-liquide par tamisage, décantation, filtration"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-MVT-01",
+      "titre": "Décrire un mouvement",
+      "domaine": "Matière, mouvement, énergie, information",
+      "theme": "Différents types de mouvement",
+      "attendu": "Identifier un mouvement rectiligne ou circulaire en précisant le point de vue ; mesurer distance et durée.",
+      "exemple": "La nacelle d’une grande roue a un mouvement circulaire.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 84,
+        "extrait": "Observer et identifier le mouvement rectiligne ou circulaire d’un objet"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01",
+      "titre": "Organiser et classer le vivant",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Panorama du monde vivant",
+      "attendu": "Distinguer organisme, appareil et organe ; classer des êtres vivants en groupes emboités selon leurs attributs.",
+      "exemple": "Le chat et l’humain ont des poils et des mamelles : ce sont des mammifères.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 88,
+        "extrait": "Réaliser une classification en groupes emboités"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

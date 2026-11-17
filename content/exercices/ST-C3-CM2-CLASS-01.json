@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-CLASS-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-CLASS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel attribut partagent tous les oiseaux ?",
+      "options": [
+        "des plumes",
+        "des poils",
+        "des écailles"
+      ],
+      "reponse": "des plumes",
+      "indice": "Ils volent souvent.",
+      "explication": "Des plumes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le cœur est…",
+      "options": [
+        "un organe",
+        "un appareil",
+        "un organisme"
+      ],
+      "reponse": "un organe",
+      "indice": "Il fait partie de l’appareil circulatoire.",
+      "explication": "Un organe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel animal est un vertébré ?",
+      "options": [
+        "la grenouille",
+        "l’escargot",
+        "le ver de terre"
+      ],
+      "reponse": "la grenouille",
+      "indice": "Squelette interne.",
+      "explication": "La grenouille a une colonne vertébrale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi le pingouin est-il un oiseau ?",
+      "options": [
+        "il a des plumes",
+        "il nage",
+        "il vit au froid"
+      ],
+      "reponse": "il a des plumes",
+      "indice": "Attribut, pas mode de vie.",
+      "explication": "Il a des plumes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les mammifères font partie de quel groupe plus large ?",
+      "options": [
+        "les vertébrés",
+        "les insectes",
+        "les poissons"
+      ],
+      "reponse": "les vertébrés",
+      "indice": "Groupes emboités.",
+      "explication": "Les vertébrés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de pattes a un insecte ?",
+      "options": [
+        "six",
+        "huit",
+        "quatre"
+      ],
+      "reponse": "six",
+      "indice": "L’araignée en a huit.",
+      "explication": "Six pattes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’araignée est-elle un insecte ?",
+      "options": [
+        "non, elle a huit pattes",
+        "oui",
+        "seulement les petites"
+      ],
+      "reponse": "non, elle a huit pattes",
+      "indice": "Compte les pattes.",
+      "explication": "C’est une arachnide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CLASS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qu’ont en commun la chauve-souris et le chien ?",
+      "options": [
+        "des poils et des mamelles",
+        "des ailes",
+        "des plumes"
+      ],
+      "reponse": "des poils et des mamelles",
+      "indice": "Mammifères.",
+      "explication": "Ce sont des mammifères.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-LUM-01",
+  "exemple": "Le soir, l’ombre de Léa sur le trottoir est très longue.",
+  "regle": "Un objet **transparent** laisse passer la lumière et on voit à travers (vitre). Un objet **translucide** laisse passer la lumière sans qu’on voie net (papier calque). Un objet **opaque** l’arrête : derrière lui se forme une **ombre portée**. L’ombre est toujours du côté **opposé** à la source de lumière.",
+  "piege": "Quand la source est basse (soleil du soir), l’ombre est longue.",
+  "essai": {
+    "consigne": "Quel objet est opaque ?",
+    "options": [
+      "un livre",
+      "une vitre",
+      "un papier calque"
+    ],
+    "reponse": "un livre",
+    "explication": "Il arrête la lumière."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
