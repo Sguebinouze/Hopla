@@ -61,6 +61,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CP-SEC-01",
+      "titre": "Les dangers autour de moi",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles collectives et l’autonomie",
+      "attendu": "Repérer les dangers de la rue et de la maison, et savoir comment se protéger.",
+      "exemple": "Je traverse sur le passage piéton, quand le bonhomme est vert.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "identifier les risques et les dangers de son environnement immédiat"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CP-CIDE-01",
+      "titre": "Les droits de l’enfant",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles collectives et l’autonomie",
+      "attendu": "Savoir que tous les enfants ont des droits : être protégé, soigné, aller à l’école, jouer.",
+      "exemple": "Tous les enfants ont le droit d’aller à l’école.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "savoir que les enfants ont des droits"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CP-HYG-01",
+      "titre": "Prendre soin de son corps",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Règles d’hygiène et exigence d’intimité",
+      "attendu": "Connaitre les règles d’hygiène : se laver les mains, les dents, tousser dans son coude.",
+      "exemple": "Je me lave les mains avant de manger.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "connaître et appliquer les règles élémentaires d’hygiène personnelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CP-COL-01",
+      "titre": "Respecter le matériel commun",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Les règles collectives et l’autonomie",
+      "attendu": "Prendre soin du matériel de la classe et des lieux partagés.",
+      "exemple": "Je range les livres de la bibliothèque après les avoir lus.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 11,
+        "extrait": "respecter les équipements de la collectivité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

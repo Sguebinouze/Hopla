@@ -46,6 +46,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C4-5E-IMP-01",
+      "titre": "L’impôt et la solidarité",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La solidarité et ses échelles",
+      "attendu": "Comprendre que l’impôt finance les services publics et la solidarité nationale.",
+      "exemple": "La TVA, payée sur les achats, finance écoles, hôpitaux et routes.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 21,
+        "extrait": "l’impôt traduit la participation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C4-5E-SECU-01",
+      "titre": "La Sécurité sociale",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La solidarité et ses échelles",
+      "attendu": "Comprendre comment la Sécurité sociale protège contre les risques sociaux : maladie, accident, vieillesse.",
+      "exemple": "Une consultation chez le médecin est remboursée en partie par l’Assurance maladie.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 21,
+        "extrait": "La Sécurité sociale"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01",
+      "titre": "Face aux risques majeurs",
+      "domaine": "Enseignement moral et civique",
+      "theme": "La solidarité et ses échelles",
+      "attendu": "Connaitre les risques environnementaux et l’organisation des secours et de la prévention.",
+      "exemple": "Lors d’une inondation, la sécurité civile évacue et les communes accueillent les sinistrés.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 21,
+        "extrait": "les risques environnementaux"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C4-5E-IMP-01",
+  "exemple": "Quand un adulte achète un livre, une partie du prix (la TVA) va à l’État.",
+  "regle": "L’**impôt** est une contribution obligatoire. Les impôts **directs** sont payés par la personne selon ses revenus (impôt sur le revenu). Les impôts **indirects** sont inclus dans les prix (TVA). Ils financent l’**école**, la **santé**, la **sécurité** et l’**aide aux plus fragiles**.",
+  "piege": "Chacun contribue selon ses moyens : c’est un principe de la DDHC (article 13).",
+  "essai": {
+    "consigne": "Quel impôt est inclus dans le prix des achats ?",
+    "options": [
+      "la TVA",
+      "l’impôt sur le revenu",
+      "la taxe foncière"
+    ],
+    "reponse": "la TVA",
+    "explication": "Taxe sur la valeur ajoutée : impôt indirect."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

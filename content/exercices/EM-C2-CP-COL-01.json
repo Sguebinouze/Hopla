@@ -1,0 +1,139 @@
+{
+  "competence": "EM-C2-CP-COL-01",
+  "exercices": [
+    {
+      "id": "EM-C2-CP-COL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les livres de la classe sont à qui ?",
+      "options": [
+        "à tous les élèves",
+        "à moi seul",
+        "à personne"
+      ],
+      "reponse": "à tous les élèves",
+      "indice": "On les partage.",
+      "explication": "Ils appartiennent à la classe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que fais-tu d’un papier par terre ?",
+      "options": [
+        "Je le mets à la poubelle.",
+        "Je le laisse.",
+        "Je le cache."
+      ],
+      "reponse": "Je le mets à la poubelle.",
+      "indice": "Garder l’école propre.",
+      "explication": "La poubelle garde l’école propre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Peut-on dessiner sur les tables ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "La table est à tous.",
+      "explication": "On abime le matériel commun.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un ami casse un crayon de la classe exprès. Est-ce bien ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "Le crayon sert à tous.",
+      "explication": "Casser le matériel commun prive les autres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi fermer le robinet ?",
+      "options": [
+        "pour ne pas gaspiller l’eau",
+        "pour faire du bruit",
+        "pour jouer"
+      ],
+      "reponse": "pour ne pas gaspiller l’eau",
+      "indice": "L’eau est précieuse.",
+      "explication": "On ne gaspille pas l’eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans le parc, où jette-t-on son emballage ?",
+      "options": [
+        "dans la poubelle",
+        "dans l’herbe",
+        "dans la fontaine"
+      ],
+      "reponse": "dans la poubelle",
+      "indice": "Le parc est à tous.",
+      "explication": "Le parc reste propre pour tous.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui paie le matériel de l’école publique ?",
+      "options": [
+        "la commune et l’État",
+        "chaque élève",
+        "personne"
+      ],
+      "reponse": "la commune et l’État",
+      "indice": "L’argent de tous.",
+      "explication": "Il est payé avec l’argent public.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-COL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi éteindre la lumière en sortant ?",
+      "options": [
+        "pour économiser l’énergie",
+        "pour faire peur",
+        "pour dormir"
+      ],
+      "reponse": "pour économiser l’énergie",
+      "indice": "L’électricité.",
+      "explication": "On ne gaspille pas l’électricité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

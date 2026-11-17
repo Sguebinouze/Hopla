@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE2-INT-01",
+  "exemple": "La commune construit une nouvelle école pour tous les enfants du quartier.",
+  "regle": "L’**intérêt général**, c’est ce qui est bon pour **tous**. L’intérêt **particulier**, c’est ce qui est bon pour **une personne**. L’école, la sécurité, l’environnement servent l’intérêt général.",
+  "piege": "Parfois, on renonce à un petit avantage pour le bien de tous.",
+  "essai": {
+    "consigne": "Construire un hôpital sert…",
+    "options": [
+      "l’intérêt général",
+      "l’intérêt d’une seule personne",
+      "personne"
+    ],
+    "reponse": "l’intérêt général",
+    "explication": "Il soigne tous les habitants."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CP-HYG-01",
+  "exemple": "Avant la cantine, toute la classe se lave les mains au savon.",
+  "regle": "Je me lave les **mains** avant de manger et après les toilettes. Je me brosse les **dents** matin et soir. Je **tousse** dans mon coude.",
+  "piege": "L’eau seule ne suffit pas : il faut du savon.",
+  "essai": {
+    "consigne": "Quand se lave-t-on les mains ?",
+    "options": [
+      "avant de manger",
+      "après avoir dormi seulement",
+      "jamais"
+    ],
+    "reponse": "avant de manger",
+    "explication": "Les microbes passent des mains à la bouche."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

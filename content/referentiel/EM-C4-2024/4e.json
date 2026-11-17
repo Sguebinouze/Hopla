@@ -61,6 +61,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C4-4E-DROIT-01",
+      "titre": "L’État de droit",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’État de droit et les libertés",
+      "attendu": "Comprendre que l’État est soumis au droit, que les normes sont hiérarchisées et que la justice est indépendante.",
+      "exemple": "Une loi contraire à la Constitution peut être censurée par le Conseil constitutionnel.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 22,
+        "extrait": "les libertés sont garanties par"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C4-4E-COLL-01",
+      "titre": "Les libertés collectives",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’État de droit et les libertés",
+      "attendu": "Connaitre les libertés collectives : réunion, association, manifestation, droit syndical, presse.",
+      "exemple": "Créer une association de quartier, manifester, adhérer à un syndicat.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 22,
+        "extrait": "droit de réunion, d’association"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

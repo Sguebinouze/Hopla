@@ -1,0 +1,140 @@
+{
+  "competence": "EM-C4-5E-IMP-01",
+  "exercices": [
+    {
+      "id": "EM-C4-5E-IMP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi servent les impôts ?",
+      "options": [
+        "financer les services publics",
+        "enrichir les ministres",
+        "rien"
+      ],
+      "reponse": "financer les services publics",
+      "indice": "École, hôpital…",
+      "explication": "Ils financent les services publics.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Payer l’impôt est-il obligatoire ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "Devoir du citoyen.",
+      "explication": "C’est une obligation légale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La TVA est un impôt…",
+      "options": [
+        "indirect",
+        "direct",
+        "facultatif"
+      ],
+      "reponse": "indirect",
+      "indice": "Inclus dans le prix.",
+      "explication": "Elle est payée à l’achat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel principe veut que chacun paie selon ses moyens ?",
+      "options": [
+        "la contribution selon les facultés",
+        "l’égalité des montants",
+        "la gratuité"
+      ],
+      "reponse": "la contribution selon les facultés",
+      "indice": "DDHC, article 13.",
+      "explication": "Chacun contribue selon ses capacités.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel service public est financé par l’impôt ?",
+      "options": [
+        "l’école publique",
+        "un cinéma privé",
+        "un restaurant"
+      ],
+      "reponse": "l’école publique",
+      "indice": "Gratuit pour les élèves.",
+      "explication": "L’école publique est financée par l’impôt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’impôt sur le revenu est un impôt…",
+      "options": [
+        "direct",
+        "indirect",
+        "européen"
+      ],
+      "reponse": "direct",
+      "indice": "Payé directement par la personne.",
+      "explication": "Il est calculé sur les revenus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi l’impôt est-il un outil de solidarité ?",
+      "options": [
+        "il redistribue vers ceux qui en ont besoin",
+        "il punit les pauvres",
+        "il est le même pour tous"
+      ],
+      "reponse": "il redistribue vers ceux qui en ont besoin",
+      "indice": "Redistribution.",
+      "explication": "Il finance des aides et des services pour tous.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-IMP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui vote chaque année le budget de l’État ?",
+      "options": [
+        "le Parlement",
+        "le maire",
+        "les banques"
+      ],
+      "reponse": "le Parlement",
+      "indice": "Députés et sénateurs.",
+      "explication": "Le Parlement vote la loi de finances.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

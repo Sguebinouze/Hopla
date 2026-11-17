@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C4-5E-RISQ-01",
+  "exemple": "Une sirène retentit le premier mercredi du mois à midi : c’est un essai du signal d’alerte.",
+  "regle": "Les **risques majeurs** : inondation, incendie, séisme, tempête, accident industriel. La **prévention**, l’**alerte**, les **secours** et la **reconstruction** mobilisent l’État, les communes, les pompiers et les citoyens. Le **changement climatique** rend certains risques plus fréquents.",
+  "piege": "En cas d’alerte, on se met à l’abri et on écoute la radio ; on ne va pas chercher les enfants à l’école.",
+  "essai": {
+    "consigne": "Que faire en entendant la sirène d’alerte ?",
+    "options": [
+      "se mettre à l’abri et écouter la radio",
+      "sortir voir",
+      "téléphoner à tout le monde"
+    ],
+    "reponse": "se mettre à l’abri et écouter la radio",
+    "explication": "Ce sont les consignes officielles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CP-SEC-01",
+  "exemple": "Léo regarde à gauche, à droite, puis à gauche. Il traverse.",
+  "regle": "Dans la rue, je marche sur le **trottoir**. Je traverse au **passage piéton**. Je regarde **à gauche et à droite**. À la maison, je ne touche pas aux **prises**. Je ne touche pas aux **produits** dangereux.",
+  "piege": "Un ballon roule sur la route ? Je ne cours pas le chercher.",
+  "essai": {
+    "consigne": "Où traverse-t-on la rue ?",
+    "options": [
+      "au passage piéton",
+      "entre deux voitures",
+      "n’importe où"
+    ],
+    "reponse": "au passage piéton",
+    "explication": "Le passage piéton protège les piétons."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

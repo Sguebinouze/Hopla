@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C3-CM1-INC-01",
+  "exemple": "Dans le bus, Lina laisse sa place à une personne âgée. Un autre passager met la musique à fond.",
+  "regle": "Une **incivilité** est un comportement qui ne respecte pas les règles de la vie en société : bruit, déchets, dégradations, impolitesse. Elle gêne les autres et abime les **biens communs**.",
+  "piege": "Certaines incivilités sont punies par une amende, comme jeter un déchet par terre.",
+  "essai": {
+    "consigne": "Quel comportement est une incivilité ?",
+    "options": [
+      "jeter un chewing-gum par terre",
+      "dire bonjour",
+      "tenir la porte"
+    ],
+    "reponse": "jeter un chewing-gum par terre",
+    "explication": "Il salit l’espace public."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

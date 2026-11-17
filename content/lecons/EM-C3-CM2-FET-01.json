@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C3-CM2-FET-01",
+  "exemple": "Le 14 juillet, un défilé militaire remonte les Champs-Élysées, puis des feux d’artifice éclairent le ciel.",
+  "regle": "Le **14 Juillet** est la **fête nationale**. Il rappelle la **prise de la Bastille** (1789) et la **fête de la Fédération** (1790). **Marianne** représente la République, comme le **coq** gaulois.",
+  "piege": "Marianne n’est pas inscrite dans la Constitution, mais elle est présente dans toutes les mairies.",
+  "essai": {
+    "consigne": "Quelle est la date de la fête nationale ?",
+    "options": [
+      "le 14 juillet",
+      "le 1er mai",
+      "le 11 novembre"
+    ],
+    "reponse": "le 14 juillet",
+    "explication": "Depuis 1880."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

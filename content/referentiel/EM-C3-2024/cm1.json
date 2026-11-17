@@ -76,6 +76,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM1-INC-01",
+      "titre": "Les incivilités",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Civisme et citoyenneté",
+      "attendu": "Reconnaitre les incivilités et comprendre pourquoi elles nuisent à la vie en commun.",
+      "exemple": "Jeter un papier par terre, cracher, tagger un mur : ce sont des incivilités.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "identifier les incivilités et comprendre pourquoi elles nuisent à la vie en commun"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM1-DIG-01",
+      "titre": "La dignité humaine",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’égalité dans la dignité",
+      "attendu": "Comprendre que chaque être humain mérite le respect, quelle que soit sa situation.",
+      "exemple": "On ne se moque pas d’une personne sans abri : elle a la même dignité que tous.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 14,
+        "extrait": "comprendre ce qu’implique le principe de dignité de la personne humaine"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

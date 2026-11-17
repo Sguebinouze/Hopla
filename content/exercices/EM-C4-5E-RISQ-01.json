@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C4-5E-RISQ-01",
+  "exercices": [
+    {
+      "id": "EM-C4-5E-RISQ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel est un risque naturel majeur ?",
+      "options": [
+        "une inondation",
+        "un embouteillage",
+        "une panne de télévision"
+      ],
+      "reponse": "une inondation",
+      "indice": "Catastrophe naturelle.",
+      "explication": "L’inondation est un risque majeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui intervient en premier lors d’un incendie ?",
+      "options": [
+        "les sapeurs-pompiers",
+        "les facteurs",
+        "les professeurs"
+      ],
+      "reponse": "les sapeurs-pompiers",
+      "indice": "Le 18.",
+      "explication": "Les pompiers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel numéro appelle les pompiers ?",
+      "options": [
+        "le 18",
+        "le 17",
+        "le 15"
+      ],
+      "reponse": "le 18",
+      "indice": "Pompiers.",
+      "explication": "Le 18 (ou le 112).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi ne pas aller chercher ses enfants à l’école pendant une alerte ?",
+      "options": [
+        "l’école les met en sécurité",
+        "c’est trop loin",
+        "c’est fermé"
+      ],
+      "reponse": "l’école les met en sécurité",
+      "indice": "Plan de mise en sûreté.",
+      "explication": "L’école a un plan de mise en sûreté.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel phénomène rend certains risques plus fréquents ?",
+      "options": [
+        "le changement climatique",
+        "la Lune",
+        "les vacances"
+      ],
+      "reponse": "le changement climatique",
+      "indice": "Sécheresses, canicules.",
+      "explication": "Le réchauffement augmente certains risques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel principe permet d’aider les sinistrés d’une catastrophe ?",
+      "options": [
+        "la solidarité nationale",
+        "la concurrence",
+        "le hasard"
+      ],
+      "reponse": "la solidarité nationale",
+      "indice": "Tous aident.",
+      "explication": "La solidarité mobilise l’État et les citoyens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le rôle de la prévention ?",
+      "options": [
+        "réduire les risques avant la catastrophe",
+        "reconstruire après",
+        "punir les victimes"
+      ],
+      "reponse": "réduire les risques avant la catastrophe",
+      "indice": "Avant.",
+      "explication": "Prévenir limite les dégâts.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C4-5E-RISQ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel document communal informe des risques locaux ?",
+      "options": [
+        "le plan communal de sauvegarde",
+        "le menu de la cantine",
+        "le règlement intérieur"
+      ],
+      "reponse": "le plan communal de sauvegarde",
+      "indice": "Il organise la réponse de la commune.",
+      "explication": "Il organise l’alerte et les secours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

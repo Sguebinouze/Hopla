@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CP-COL-01",
+  "exemple": "Les jeux de la cour sont à tout le monde.",
+  "regle": "Le matériel de l’école est **à tous**. J’en prends **soin**. Je le **range**. Ainsi, tout le monde peut s’en servir.",
+  "piege": "Ce qui est à tous, chacun doit le protéger.",
+  "essai": {
+    "consigne": "Après avoir joué avec un jeu de la classe, que fais-tu ?",
+    "options": [
+      "Je le range.",
+      "Je le laisse par terre.",
+      "Je l’emporte chez moi."
+    ],
+    "reponse": "Je le range.",
+    "explication": "Rangé, il sert aux autres."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -61,6 +61,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM2-LOI-01",
+      "titre": "Comment nait une loi",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Citoyenneté et nationalité",
+      "attendu": "Connaitre les grandes étapes de l’élaboration d’une loi : proposition, débat, vote au Parlement.",
+      "exemple": "Une loi est votée par l’Assemblée nationale et le Sénat.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 15,
+        "extrait": "procédures générales d’élaboration de la loi"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM2-FET-01",
+      "titre": "Le 14 Juillet et Marianne",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Citoyenneté et nationalité",
+      "attendu": "Connaitre la fête nationale du 14 juillet et les symboles coutumiers comme Marianne.",
+      "exemple": "Le 14 juillet rappelle la prise de la Bastille (1789) et la fête de la Fédération (1790).",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 16,
+        "extrait": "connaître la fête nationale du 14 juillet"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM2-DIS-01",
+      "titre": "Lutter contre les discriminations",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Respecter les droits de tous",
+      "attendu": "Reconnaitre les atteintes aux personnes (racisme, sexisme, harcèlement) et savoir qu’elles sont punies.",
+      "exemple": "Refuser un logement à cause de l’origine est une discrimination punie par la loi.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 17,
+        "extrait": "faire reconnaitre les atteintes aux personnes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-CM2-LAI-01",
+      "titre": "La laïcité à l’école",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Respecter les droits de tous",
+      "attendu": "Comprendre que la laïcité protège la liberté de conscience et interdit d’imposer ses croyances.",
+      "exemple": "Personne ne peut être exclu pour sa religion, ni imposer la sienne aux autres.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 17,
+        "extrait": "nul ne peut être discriminé pour sa croyance ou ses convictions"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

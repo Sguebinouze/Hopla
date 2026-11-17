@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C2-CP-SEC-01",
+  "exercices": [
+    {
+      "id": "EM-C2-CP-SEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où marche-t-on dans la rue ?",
+      "options": [
+        "sur le trottoir",
+        "sur la route",
+        "sur la piste cyclable"
+      ],
+      "reponse": "sur le trottoir",
+      "indice": "C’est le chemin des piétons.",
+      "explication": "Le trottoir est pour les piétons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le bonhomme du feu est rouge. Que fais-tu ?",
+      "options": [
+        "J’attends.",
+        "Je traverse vite.",
+        "Je cours."
+      ],
+      "reponse": "J’attends.",
+      "indice": "Rouge veut dire stop.",
+      "explication": "J’attends le bonhomme vert.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet est dangereux pour un enfant ?",
+      "options": [
+        "un couteau pointu",
+        "un livre",
+        "un ballon"
+      ],
+      "reponse": "un couteau pointu",
+      "indice": "Il coupe.",
+      "explication": "Un couteau peut blesser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avant de traverser, où regardes-tu ?",
+      "options": [
+        "à gauche et à droite",
+        "seulement devant",
+        "en l’air"
+      ],
+      "reponse": "à gauche et à droite",
+      "indice": "Les voitures arrivent des deux côtés.",
+      "explication": "Je regarde des deux côtés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Ton ballon roule sur la route. Que fais-tu ?",
+      "options": [
+        "Je demande à un adulte.",
+        "Je cours le chercher.",
+        "Je le suis."
+      ],
+      "reponse": "Je demande à un adulte.",
+      "indice": "La route est dangereuse.",
+      "explication": "Un adulte m’aide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une voiture, que dois-tu faire ?",
+      "options": [
+        "attacher ma ceinture",
+        "me mettre debout",
+        "ouvrir la porte"
+      ],
+      "reponse": "attacher ma ceinture",
+      "indice": "Pour être protégé.",
+      "explication": "La ceinture me protège.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que faut-il porter à vélo ?",
+      "options": [
+        "un casque",
+        "un chapeau",
+        "des gants de cuisine"
+      ],
+      "reponse": "un casque",
+      "indice": "Il protège la tête.",
+      "explication": "Le casque protège la tête.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CP-SEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel numéro appeler en cas d’urgence ?",
+      "options": [
+        "le 112",
+        "le 1000",
+        "le 33"
+      ],
+      "reponse": "le 112",
+      "indice": "Le numéro d’urgence européen.",
+      "explication": "Le 112 marche partout en Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C4-5E-SECU-01",
+  "exemple": "Après un accident, les soins de Paul sont presque entièrement remboursés.",
+  "regle": "Les **risques sociaux** sont la maladie, l’accident, la perte d’emploi, la vieillesse. La **Sécurité sociale**, créée en **1945**, protège chacun grâce aux **cotisations** de tous : ceux qui travaillent paient pour ceux qui en ont besoin.",
+  "piege": "La carte Vitale permet le remboursement des soins.",
+  "essai": {
+    "consigne": "En quelle année a été créée la Sécurité sociale ?",
+    "options": [
+      "1945",
+      "1789",
+      "1905"
+    ],
+    "reponse": "1945",
+    "explication": "À la Libération."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
