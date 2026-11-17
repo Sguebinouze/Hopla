@@ -1,0 +1,173 @@
+{
+  "competence": "FR-C4-5E-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C4-5E-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel volcan a enseveli Pompéi ?",
+      "options": [
+        "le Vésuve",
+        "l’Etna",
+        "le Stromboli"
+      ],
+      "reponse": "le Vésuve",
+      "indice": "Écoute le nom.",
+      "explication": "Le Vésuve.",
+      "ecoute": {
+        "texte": "Le Vésuve, près de Naples, a enseveli Pompéi en l’an 79.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. En quelle année ?",
+      "options": [
+        "79",
+        "1979",
+        "790"
+      ],
+      "reponse": "79",
+      "indice": "Écoute la date.",
+      "explication": "En l’an 79.",
+      "ecoute": {
+        "texte": "Le Vésuve, près de Naples, a enseveli Pompéi en l’an 79.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Qui a écrit cette pièce ?",
+      "options": [
+        "Molière",
+        "Racine",
+        "Corneille"
+      ],
+      "reponse": "Molière",
+      "indice": "Écoute le nom de l’auteur.",
+      "explication": "Molière.",
+      "ecoute": {
+        "texte": "Le Bourgeois gentilhomme est une comédie de Molière, jouée en 1670.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Pourquoi les tortues marines sont-elles menacées ?",
+      "options": [
+        "à cause du plastique",
+        "à cause du froid",
+        "à cause des requins"
+      ],
+      "reponse": "à cause du plastique",
+      "indice": "Écoute la cause.",
+      "explication": "Le plastique les menace.",
+      "ecoute": {
+        "texte": "Les tortues marines avalent des sacs plastique qu’elles prennent pour des méduses.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Avec quoi confondent-elles les sacs ?",
+      "options": [
+        "des méduses",
+        "des algues",
+        "des poissons"
+      ],
+      "reponse": "des méduses",
+      "indice": "Écoute la fin.",
+      "explication": "Elles les prennent pour des méduses.",
+      "ecoute": {
+        "texte": "Les tortues marines avalent des sacs plastique qu’elles prennent pour des méduses.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Combien de temps a duré la guerre de Cent Ans ?",
+      "options": [
+        "116 ans",
+        "100 ans",
+        "30 ans"
+      ],
+      "reponse": "116 ans",
+      "indice": "Le nom est trompeur.",
+      "explication": "Elle a duré 116 ans.",
+      "ecoute": {
+        "texte": "La guerre de Cent Ans a duré en réalité cent seize ans.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle est l’idée principale ?",
+      "options": [
+        "Le sommeil aide à apprendre.",
+        "Il faut se coucher à minuit.",
+        "Les rêves sont colorés."
+      ],
+      "reponse": "Le sommeil aide à apprendre.",
+      "indice": "Pourquoi dormir ?",
+      "explication": "Le sommeil consolide les apprentissages.",
+      "ecoute": {
+        "texte": "Pendant le sommeil, le cerveau trie et fixe ce qu’on a appris dans la journée.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quel est le but de ce message ?",
+      "options": [
+        "convaincre de trier ses déchets",
+        "raconter une histoire",
+        "décrire une ville"
+      ],
+      "reponse": "convaincre de trier ses déchets",
+      "indice": "Écoute le verbe d’action.",
+      "explication": "Il incite à trier.",
+      "ecoute": {
+        "texte": "Triez vos déchets : une bouteille recyclée devient un pull polaire.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -181,6 +181,171 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-LECT-01",
+      "titre": "Outils d’analyse d’un texte",
+      "domaine": "Lecture",
+      "theme": "Comprendre, interpréter, apprécier",
+      "attendu": "Repérer le narrateur, le point de vue et les figures de style simples : comparaison, métaphore, personnification.",
+      "exemple": "« La lune, comme une faucille d’or » : une comparaison.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 18,
+        "extrait": "Apprendre à recourir à quelques outils d’analyse pertinents pour lire les textes rencontrés"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-LECT-02",
+      "titre": "Héros et chevaliers",
+      "domaine": "Lecture",
+      "theme": "Appréhender une œuvre dans des contextes artistiques variés",
+      "attendu": "Comprendre le parcours d’un personnage (épreuves, valeurs, évolution) dans un récit de chevalerie ou d’aventure.",
+      "exemple": "Perceval, jeune naïf, devient chevalier au fil de ses épreuves.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 18,
+        "extrait": "Comprendre et interpréter le parcours d’un ou de plusieurs personnages"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-LECT-03",
+      "titre": "Repères d’histoire littéraire",
+      "domaine": "Lecture",
+      "theme": "Acquérir, structurer et mobiliser des connaissances littéraires et culturelles",
+      "attendu": "Situer dans le temps quelques œuvres et auteurs : Moyen Âge, XVIIe siècle, XIXe siècle.",
+      "exemple": "La Chanson de Roland : XIe siècle ; les Fables de La Fontaine : XVIIe siècle.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 18,
+        "extrait": "Se constituer des repères dans l’histoire littéraire"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-ECR-01",
+      "titre": "L’idée principale",
+      "domaine": "Écriture",
+      "theme": "Écrire pour réfléchir, apprendre et mémoriser",
+      "attendu": "Repérer l’idée principale d’un paragraphe ou d’un message et la formuler en une phrase.",
+      "exemple": "Un paragraphe sur les dangers des écrans : idée principale « les écrans nuisent au sommeil ».",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 23,
+        "extrait": "Repérer l’idée principale d’un message écrit ou oral"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-ECR-02",
+      "titre": "Argument et exemple",
+      "domaine": "Écriture",
+      "theme": "Écrire des textes d’invention et de réflexion pour soi et pour autrui",
+      "attendu": "Distinguer thèse, argument et exemple ; relier un argument à un exemple qui l’illustre.",
+      "exemple": "Thèse : il faut lire. Argument : la lecture enrichit le vocabulaire. Exemple : les romans nous apprennent des mots rares.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 24,
+        "extrait": "Écrire un texte à visée argumentative à partir de consignes simples et explicitées"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-ECR-03",
+      "titre": "Réviser son texte",
+      "domaine": "Écriture",
+      "theme": "Évaluer son écrit et savoir le faire évoluer",
+      "attendu": "Réviser un écrit selon des critères : consigne, cohérence, répétitions, ponctuation, orthographe.",
+      "exemple": "Remplacer « il » répété cinq fois par « le chevalier », « Perceval », « le jeune homme ».",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 24,
+        "extrait": "Réviser un écrit en suivant les consignes des professeurs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-ECOU-01",
+      "titre": "Écouter et mémoriser",
+      "domaine": "Oral",
+      "theme": "Écouter, comprendre et interpréter",
+      "attendu": "Écouter une production orale et en retenir les principaux éléments.",
+      "exemple": "Une présentation sur les volcans : retenir le nom, le lieu, la cause.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 26,
+        "extrait": "Écouter une production orale et en mémoriser les principaux éléments"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-VOC-04",
+      "titre": "Déduire le sens d’un mot",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Enrichir son vocabulaire",
+      "attendu": "Déduire le sens d’un mot du contexte ou de sa formation, puis le vérifier dans le dictionnaire.",
+      "exemple": "« un récit belliqueux » : bell- (guerre) ; un récit qui aime la guerre.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 27,
+        "extrait": "Savoir déduire, vérifier ou rechercher le sens d’un mot"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-ORTH-03",
+      "titre": "Étymologie et orthographe",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Écrire avec justesse (orthographe)",
+      "attendu": "Utiliser l’étymologie et la famille d’un mot pour écrire les mots de même radical.",
+      "exemple": "« temps » et « temporel » : le p muet vient du latin tempus.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 28,
+        "extrait": "Utiliser sa connaissance de l’étymologie pour orthographier des mots ayant le même radical"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06",
+      "titre": "Grammaire de l’oral et de l’écrit",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Observer et distinguer les registres de langue et ajuster ses choix au contexte",
+      "attendu": "Distinguer les tournures de l’oral familier et de l’écrit normé : négation, interrogation, reprises.",
+      "exemple": "Oral : « Je sais pas. » Écrit : « Je ne sais pas. »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Découvrir et comprendre les différences entre grammaire de l’écrit et grammaire de l’oral"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03",
+      "titre": "Valeurs des temps du récit",
+      "domaine": "Grammaire et orthographe grammaticale",
+      "theme": "Maitriser l’emploi des temps et des modes",
+      "attendu": "Employer imparfait, passé simple et plus-que-parfait selon leur valeur dans un récit.",
+      "exemple": "« Il avait plu toute la nuit (antériorité) ; le chemin était boueux (description) ; le cheval glissa (action). »",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 31,
+        "extrait": "Approfondir sa maitrise des valeurs temporelles et aspectuelles des temps simples et composés"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C4-5E-CONJ-03",
+  "exercices": [
+    {
+      "id": "FR-C4-5E-CONJ-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Tous les dimanches, ils allaient au marché. » Valeur de l’imparfait ?",
+      "options": [
+        "habitude",
+        "action ponctuelle",
+        "antériorité"
+      ],
+      "reponse": "habitude",
+      "indice": "Tous les dimanches.",
+      "explication": "Action répétée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Soudain, la porte s’ouvrit. » Valeur du passé simple ?",
+      "options": [
+        "action ponctuelle",
+        "description",
+        "habitude"
+      ],
+      "reponse": "action ponctuelle",
+      "indice": "Soudain.",
+      "explication": "Action brève de premier plan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Il avait oublié ses clés. » Quel temps ?",
+      "options": [
+        "plus-que-parfait",
+        "passé composé",
+        "imparfait"
+      ],
+      "reponse": "plus-que-parfait",
+      "indice": "Auxiliaire à l’imparfait.",
+      "explication": "Avait + participe : plus-que-parfait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Il comprit qu’il … une erreur. » (commettre)",
+      "options": [
+        "avait commis",
+        "commettait",
+        "commettra"
+      ],
+      "reponse": "avait commis",
+      "indice": "L’erreur est antérieure.",
+      "explication": "Antériorité : plus-que-parfait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « La mer … calme quand le navire … . » (être, partir)",
+      "options": [
+        "était, partit",
+        "fut, partait",
+        "était, partait"
+      ],
+      "reponse": "était, partit",
+      "indice": "Décor puis action.",
+      "explication": "Décor à l’imparfait, action au passé simple.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Il lisait depuis une heure. » Valeur de l’imparfait ?",
+      "options": [
+        "durée",
+        "action soudaine",
+        "ordre"
+      ],
+      "reponse": "durée",
+      "indice": "Depuis une heure.",
+      "explication": "Action qui dure.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Lorsqu’elle … son repas, elle sortit. » (finir)",
+      "options": [
+        "eut fini",
+        "finissait",
+        "finira"
+      ],
+      "reponse": "eut fini",
+      "indice": "Antériorité immédiate, temps composé du passé simple.",
+      "explication": "Passé antérieur : eut fini.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-CONJ-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Dans un récit au passé, quel temps convient à une description de personnage ?",
+      "options": [
+        "l’imparfait",
+        "le passé simple",
+        "le futur"
+      ],
+      "reponse": "l’imparfait",
+      "indice": "Arrière-plan.",
+      "explication": "La description est à l’imparfait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

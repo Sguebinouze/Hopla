@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C4-5E-ECR-02",
+  "exemple": "« Il faut limiter les écrans (thèse), car ils réduisent le sommeil (argument) : une heure d’écran le soir retarde l’endormissement (exemple). »",
+  "regle": "La **thèse** est l’opinion défendue. L’**argument** est la raison qui la justifie. L’**exemple** est un fait concret qui illustre l’argument. Les connecteurs **car, en effet, par exemple, donc** les relient.",
+  "piege": "Un exemple sans argument ne prouve rien ; un argument sans exemple convainc moins.",
+  "essai": {
+    "consigne": "« Par exemple » introduit…",
+    "options": [
+      "un exemple",
+      "une thèse",
+      "une conclusion"
+    ],
+    "reponse": "un exemple",
+    "explication": "Il annonce un cas concret."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C4-5E-GRAM-06",
+  "exercices": [
+    {
+      "id": "FR-C4-5E-GRAM-06-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase relève de l’écrit normé ?",
+      "options": [
+        "Je ne comprends pas.",
+        "Je comprends pas.",
+        "Comprends pas."
+      ],
+      "reponse": "Je ne comprends pas.",
+      "indice": "Ne… pas.",
+      "explication": "La négation est complète.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase relève de l’oral familier ?",
+      "options": [
+        "Ta sœur, elle vient ?",
+        "Ta sœur vient-elle ?",
+        "Est-ce que ta sœur vient ?"
+      ],
+      "reponse": "Ta sœur, elle vient ?",
+      "indice": "Une reprise.",
+      "explication": "« Ta sœur, elle » : reprise orale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Réécris à l’écrit normé : « Tu viens quand ? »",
+      "options": [
+        "Quand viens-tu ?",
+        "Tu viens quand ?",
+        "Quand tu viens ?"
+      ],
+      "reponse": "Quand viens-tu ?",
+      "indice": "Inversion du sujet.",
+      "explication": "Question avec inversion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réécris : « Y a personne. »",
+      "options": [
+        "Il n’y a personne.",
+        "Y a pas personne.",
+        "Il y a personne."
+      ],
+      "reponse": "Il n’y a personne.",
+      "indice": "Il n’y a…",
+      "explication": "Il n’y a personne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réécris : « Ce livre, je l’ai lu. » à l’écrit normé neutre.",
+      "options": [
+        "J’ai lu ce livre.",
+        "Ce livre, lu.",
+        "Le livre, je l’ai."
+      ],
+      "reponse": "J’ai lu ce livre.",
+      "indice": "Supprime la reprise.",
+      "explication": "Sans reprise : j’ai lu ce livre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans quelle situation l’écrit normé est-il attendu ?",
+      "options": [
+        "une rédaction",
+        "un message à un ami",
+        "une discussion à la récré"
+      ],
+      "reponse": "une rédaction",
+      "indice": "Un exercice scolaire.",
+      "explication": "La rédaction demande l’écrit normé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Réécris : « C’est qui qui a fait ça ? »",
+      "options": [
+        "Qui a fait cela ?",
+        "Qui c’est qui a fait ça ?",
+        "C’est qui a fait ça ?"
+      ],
+      "reponse": "Qui a fait cela ?",
+      "indice": "Question directe simple.",
+      "explication": "Qui a fait cela ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-5E-GRAM-06-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Réécris : « Faut pas mentir. »",
+      "options": [
+        "Il ne faut pas mentir.",
+        "Faut ne pas mentir.",
+        "Il faut pas mentir."
+      ],
+      "reponse": "Il ne faut pas mentir.",
+      "indice": "Sujet et négation complète.",
+      "explication": "Il ne faut pas mentir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
