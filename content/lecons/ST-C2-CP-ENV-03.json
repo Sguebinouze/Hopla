@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C2-CP-ENV-03",
+  "exemple": "La classe a une poubelle pour le papier. Une autre sert au reste.",
+  "regle": "Je **trie** mes déchets. J’**économise** l’eau. J’**éteins** la lumière en sortant. Je rapporte les **piles** usagées au magasin.",
+  "piege": "Une pile jetée dans la nature pollue la terre et l’eau.",
+  "essai": {
+    "consigne": "Où jette-t-on une feuille de papier usagée ?",
+    "options": [
+      "dans la poubelle de tri",
+      "par terre",
+      "dans la rivière"
+    ],
+    "reponse": "dans la poubelle de tri",
+    "explication": "Le papier se recycle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -109,15 +109,15 @@
     },
     {
       "id": "ST-C2-CP-SANTE-01",
-      "titre": "Prendre soin de sa santé",
+      "titre": "Hygiène de vie et santé",
       "domaine": "Le corps humain et la santé",
       "theme": "Santé et hygiène de vie",
-      "attendu": "Connaitre quelques règles d’hygiène de vie : sommeil, activité physique, lavage des mains, brossage des dents.",
-      "exemple": "Je me lave les mains avant de manger. Je me brosse les dents matin et soir.",
+      "attendu": "Relier quelques règles d’hygiène de vie à la santé : sommeil, alimentation variée, sport, écrans.",
+      "exemple": "Je dors bien pour être en forme à l’école.",
       "source": {
         "id": "bo24-2026-sciences-c2-c3",
         "page": 12,
-        "extrait": "Santé et hygiène de vie"
+        "extrait": "Identifier quelques règles d’hygiène de vie au quotidien et les relier à sa santé"
       },
       "prerequis": [],
       "statut": "verifie"
@@ -133,6 +133,21 @@
         "id": "bo24-2026-sciences-c2-c3",
         "page": 13,
         "extrait": "Identifier qu’un objet technique est obtenu par"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C2-CP-ENV-03",
+      "titre": "Protéger l’environnement",
+      "domaine": "Les êtres vivants dans leur environnement",
+      "theme": "Agir pour protéger l’environnement",
+      "attendu": "Connaitre des gestes simples qui protègent l’environnement : trier, économiser l’eau et l’énergie.",
+      "exemple": "Je ferme le robinet pendant que je me brosse les dents.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 9,
+        "extrait": "Identifier et mettre en œuvre quelques gestes simples favorables à la protection de l’environnement"
       },
       "prerequis": [],
       "statut": "verifie"

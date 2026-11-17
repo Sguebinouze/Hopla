@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-TECH-03",
+  "exemple": "Le téléphone : d’abord fixe à manivelle, puis à touches, puis portable, puis smartphone.",
+  "regle": "Un **objet technique** répond à un **besoin** (se déplacer, communiquer, s’éclairer). Il **évolue** grâce aux nouvelles **matières**, **énergies** et **techniques**, et selon les contextes : époque, pays, coût, environnement.",
+  "piege": "Un objet récent n’est pas toujours meilleur : il peut consommer plus ou durer moins.",
+  "essai": {
+    "consigne": "Quel besoin satisfait un téléphone ?",
+    "options": [
+      "communiquer",
+      "se nourrir",
+      "dormir"
+    ],
+    "reponse": "communiquer",
+    "explication": "Il sert à parler à distance."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

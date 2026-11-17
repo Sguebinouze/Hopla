@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-MAT-03",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-MAT-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quel instrument mesure-t-on une masse ?",
+      "options": [
+        "une balance",
+        "une règle",
+        "un thermomètre"
+      ],
+      "reponse": "une balance",
+      "indice": "On pèse.",
+      "explication": "La balance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de grammes dans 1 kg ?",
+      "options": [
+        "1 000",
+        "100",
+        "10"
+      ],
+      "reponse": "1 000",
+      "indice": "Kilo = mille.",
+      "explication": "1 kg = 1 000 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert la touche « tare » ?",
+      "options": [
+        "remettre la balance à zéro avec le récipient",
+        "éteindre la balance",
+        "changer d’unité"
+      ],
+      "reponse": "remettre la balance à zéro avec le récipient",
+      "indice": "On ne pèse que le contenu.",
+      "explication": "Elle enlève la masse du récipient.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Bol vide : 300 g. Bol avec farine : 550 g. Masse de farine ?",
+      "options": [
+        "250 g",
+        "850 g",
+        "300 g"
+      ],
+      "reponse": "250 g",
+      "indice": "Plein − vide.",
+      "explication": "550 − 300 = 250 g.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On écrase une boule de pâte à modeler de 80 g. Sa masse devient…",
+      "options": [
+        "80 g",
+        "plus grande",
+        "plus petite"
+      ],
+      "reponse": "80 g",
+      "indice": "Rien n’est ajouté ni retiré.",
+      "explication": "La forme change, pas la masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel objet est le plus lourd : 1 kg de plumes ou 1 kg de plomb ?",
+      "options": [
+        "ils ont la même masse",
+        "le plomb",
+        "les plumes"
+      ],
+      "reponse": "ils ont la même masse",
+      "indice": "1 kg = 1 kg.",
+      "explication": "Même masse : 1 kg.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une balance à plateaux s’équilibre avec 200 g d’un côté. L’objet pèse…",
+      "options": [
+        "200 g",
+        "400 g",
+        "100 g"
+      ],
+      "reponse": "200 g",
+      "indice": "Équilibre.",
+      "explication": "À l’équilibre, les masses sont égales.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "1 L d’eau a une masse d’environ…",
+      "options": [
+        "1 kg",
+        "100 g",
+        "10 kg"
+      ],
+      "reponse": "1 kg",
+      "indice": "Une bouteille d’eau.",
+      "explication": "Environ 1 kg.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

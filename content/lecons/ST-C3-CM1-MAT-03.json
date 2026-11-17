@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM1-MAT-03",
+  "exemple": "Pour peser de l’eau, on pose le verre vide, on appuie sur « tare », puis on verse l’eau.",
+  "regle": "La **masse** se mesure avec une **balance**, en grammes (g) ou kilogrammes (kg). Pour peser un liquide, on utilise la **tare** ou on calcule : masse du récipient plein − masse du récipient vide.",
+  "piege": "La masse d’un objet ne change pas si on change sa forme.",
+  "essai": {
+    "consigne": "Récipient vide : 150 g. Plein : 400 g. Masse du contenu ?",
+    "options": [
+      "250 g",
+      "550 g",
+      "150 g"
+    ],
+    "reponse": "250 g",
+    "explication": "400 − 150 = 250 g."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

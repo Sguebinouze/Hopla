@@ -1,19 +1,19 @@
 {
   "competence": "ST-C2-CP-SANTE-01",
-  "exemple": "Le soir, je me brosse les dents. Puis je me couche tôt.",
-  "regle": "Pour rester en **bonne santé**, on **dort** bien. On **bouge** chaque jour. On mange varié. On se **lave les mains**. On se **brosse les dents**. On limite les écrans.",
-  "piege": "On ne voit pas les microbes, mais le savon les enlève.",
+  "exemple": "Mila dort dix heures, bouge à la récréation et mange des fruits.",
+  "regle": "Pour être en **bonne santé**, je **dors** assez. Je **mange** varié. Je **bouge** chaque jour. Je **limite** les écrans.",
+  "piege": "Les écrans le soir empêchent de bien dormir.",
   "essai": {
-    "consigne": "Quand se lave-t-on les mains ?",
+    "consigne": "Combien d’heures dort un enfant de 6 ans ?",
     "options": [
-      "avant de manger",
-      "jamais",
-      "une fois par mois"
+      "environ 10 heures",
+      "environ 5 heures",
+      "environ 2 heures"
     ],
-    "reponse": "avant de manger",
-    "explication": "On se lave les mains avant de manger."
+    "reponse": "environ 10 heures",
+    "explication": "Un enfant a besoin de beaucoup de sommeil."
   },
-  "statut": "publie",
+  "statut": "brouillon",
   "auteur": "ia",
-  "relu_par": "Laurent (validation globale)"
+  "relu_par": null
 }

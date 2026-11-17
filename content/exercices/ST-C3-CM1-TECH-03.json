@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM1-TECH-03",
+  "exercices": [
+    {
+      "id": "ST-C3-CM1-TECH-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel besoin satisfait une lampe ?",
+      "options": [
+        "s’éclairer",
+        "se déplacer",
+        "se nourrir"
+      ],
+      "reponse": "s’éclairer",
+      "indice": "La lumière.",
+      "explication": "Elle éclaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet a remplacé la bougie pour s’éclairer ?",
+      "options": [
+        "l’ampoule électrique",
+        "la cheminée",
+        "le miroir"
+      ],
+      "reponse": "l’ampoule électrique",
+      "indice": "Électricité.",
+      "explication": "L’ampoule électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle énergie utilisaient les premiers trains ?",
+      "options": [
+        "la vapeur",
+        "l’électricité",
+        "le soleil"
+      ],
+      "reponse": "la vapeur",
+      "indice": "Du charbon chauffé.",
+      "explication": "La machine à vapeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qui fait évoluer un objet ?",
+      "options": [
+        "de nouvelles techniques et de nouveaux besoins",
+        "la couleur à la mode seulement",
+        "rien"
+      ],
+      "reponse": "de nouvelles techniques et de nouveaux besoins",
+      "indice": "Inventions.",
+      "explication": "Techniques et besoins le font évoluer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Classe du plus ancien au plus récent : TGV, diligence, locomotive à vapeur.",
+      "options": [
+        "diligence, locomotive à vapeur, TGV",
+        "TGV, diligence, locomotive à vapeur",
+        "locomotive à vapeur, TGV, diligence"
+      ],
+      "reponse": "diligence, locomotive à vapeur, TGV",
+      "indice": "Chevaux d’abord.",
+      "explication": "Diligence, vapeur, puis TGV.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les vêtements diffèrent-ils entre pays chauds et pays froids ?",
+      "options": [
+        "ils s’adaptent au climat",
+        "par hasard",
+        "à cause de la mode seulement"
+      ],
+      "reponse": "ils s’adaptent au climat",
+      "indice": "Contexte géographique.",
+      "explication": "Le besoin dépend du climat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel critère de développement durable compte dans le choix d’un objet ?",
+      "options": [
+        "sa durée de vie et sa réparabilité",
+        "sa couleur",
+        "son nom"
+      ],
+      "reponse": "sa durée de vie et sa réparabilité",
+      "indice": "Durer longtemps.",
+      "explication": "Un objet réparable dure plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Les premiers vêtements de la Préhistoire étaient faits de…",
+      "options": [
+        "peaux d’animaux",
+        "polyester",
+        "nylon"
+      ],
+      "reponse": "peaux d’animaux",
+      "indice": "Avant le tissage.",
+      "explication": "De peaux d’animaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -5,137 +5,137 @@
       "id": "ST-C2-CP-SANTE-01-001",
       "gabarit": "qcm",
       "difficulte": 1,
-      "consigne": "Quand se lave-t-on les mains ?",
+      "consigne": "Quelle habitude est bonne pour la santé ?",
       "options": [
-        "avant de manger",
-        "jamais",
-        "seulement le dimanche"
+        "bouger chaque jour",
+        "rester assis tout le jour",
+        "manger des bonbons"
       ],
-      "reponse": "avant de manger",
-      "indice": "Les mains touchent la nourriture.",
-      "explication": "On se lave les mains avant de manger.",
-      "statut": "publie",
+      "reponse": "bouger chaque jour",
+      "indice": "Le sport.",
+      "explication": "Bouger renforce le corps.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-002",
       "gabarit": "qcm",
       "difficulte": 1,
-      "consigne": "Combien de fois par jour se brosse-t-on les dents ?",
+      "consigne": "Quel repas est le plus varié ?",
       "options": [
-        "au moins deux fois",
-        "une fois par semaine",
-        "jamais"
+        "légumes, pâtes, fromage, fruit",
+        "frites et soda",
+        "gâteaux seulement"
       ],
-      "reponse": "au moins deux fois",
-      "indice": "Le matin et le soir.",
-      "explication": "On se brosse les dents au moins matin et soir.",
-      "statut": "publie",
+      "reponse": "légumes, pâtes, fromage, fruit",
+      "indice": "Plusieurs familles d’aliments.",
+      "explication": "Il mélange plusieurs aliments.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-003",
       "gabarit": "qcm",
       "difficulte": 1,
-      "consigne": "Pour être en forme, il faut…",
+      "consigne": "Pourquoi dormir assez ?",
       "options": [
-        "bien dormir",
-        "se coucher très tard",
-        "ne jamais se reposer"
+        "pour être en forme",
+        "pour grossir",
+        "pour rien"
       ],
-      "reponse": "bien dormir",
-      "indice": "Le corps se repose la nuit.",
-      "explication": "Bien dormir aide à être en forme.",
-      "statut": "publie",
+      "reponse": "pour être en forme",
+      "indice": "Le lendemain.",
+      "explication": "Le sommeil repose le corps et l’esprit.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-004",
       "gabarit": "qcm",
       "difficulte": 2,
-      "consigne": "Lequel est bon pour la santé ?",
+      "consigne": "Que faire avant de dormir ?",
       "options": [
-        "courir et jouer dehors",
-        "rester assis toute la journée",
-        "regarder un écran longtemps"
+        "éteindre les écrans",
+        "jouer aux jeux vidéo",
+        "manger des bonbons"
       ],
-      "reponse": "courir et jouer dehors",
-      "indice": "Le corps aime bouger.",
-      "explication": "Bouger chaque jour est bon pour la santé.",
-      "statut": "publie",
+      "reponse": "éteindre les écrans",
+      "indice": "Les écrans gênent le sommeil.",
+      "explication": "Éteindre les écrans aide à dormir.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-005",
       "gabarit": "qcm",
       "difficulte": 2,
-      "consigne": "Pourquoi se laver les mains ?",
+      "consigne": "Quelle boisson est la meilleure pour la santé ?",
       "options": [
-        "pour enlever les microbes",
-        "pour les rendre plus grandes",
-        "pour qu’elles sentent mauvais"
+        "l’eau",
+        "le soda",
+        "le sirop"
       ],
-      "reponse": "pour enlever les microbes",
-      "indice": "On ne les voit pas, mais ils sont là.",
-      "explication": "Le lavage des mains enlève les microbes.",
-      "statut": "publie",
+      "reponse": "l’eau",
+      "indice": "Sans sucre.",
+      "explication": "L’eau est la meilleure boisson.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-006",
       "gabarit": "qcm",
       "difficulte": 2,
-      "consigne": "Avant de dormir, il vaut mieux…",
+      "consigne": "Quel moment de la journée est un temps de repos ?",
       "options": [
-        "lire un livre au calme",
-        "jouer sur un écran",
-        "manger des bonbons"
+        "la sieste ou la nuit",
+        "la récréation",
+        "le sport"
       ],
-      "reponse": "lire un livre au calme",
-      "indice": "Le calme aide à s’endormir.",
-      "explication": "Le calme aide à bien s’endormir.",
-      "statut": "publie",
+      "reponse": "la sieste ou la nuit",
+      "indice": "Le corps se repose.",
+      "explication": "Le sommeil est le repos.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-007",
       "gabarit": "qcm",
       "difficulte": 3,
-      "consigne": "Pourquoi limiter les écrans ?",
+      "consigne": "Pourquoi limiter le sucre ?",
       "options": [
-        "pour bien dormir et bouger",
-        "pour avoir mal aux yeux",
-        "pour rester fatigué"
+        "il abime les dents",
+        "il fait grandir",
+        "il soigne"
       ],
-      "reponse": "pour bien dormir et bouger",
-      "indice": "Les écrans prennent du temps de sommeil.",
-      "explication": "Trop d’écran gêne le sommeil et l’activité.",
-      "statut": "publie",
+      "reponse": "il abime les dents",
+      "indice": "Les caries.",
+      "explication": "Le sucre provoque des caries.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     },
     {
       "id": "ST-C2-CP-SANTE-01-008",
       "gabarit": "qcm",
       "difficulte": 3,
-      "consigne": "Après la récréation, on peut avoir besoin de…",
+      "consigne": "Quel professionnel soigne les dents ?",
       "options": [
-        "se calmer et boire de l’eau",
-        "courir encore plus",
-        "ne rien boire"
+        "le dentiste",
+        "le boulanger",
+        "le facteur"
       ],
-      "reponse": "se calmer et boire de l’eau",
-      "indice": "Le corps a travaillé.",
-      "explication": "Après l’effort, on se repose et on boit de l’eau.",
-      "statut": "publie",
+      "reponse": "le dentiste",
+      "indice": "Les caries.",
+      "explication": "Le dentiste.",
+      "statut": "brouillon",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": null
     }
   ]
 }

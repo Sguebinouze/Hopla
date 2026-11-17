@@ -166,6 +166,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM1-MAT-03",
+      "titre": "Mesurer une masse",
+      "domaine": "La matière, les mouvements et les signaux",
+      "theme": "Masse et volume",
+      "attendu": "Mesurer la masse d’un solide ou d’un liquide avec une balance, en utilisant la tare.",
+      "exemple": "Pot vide : 200 g. Pot plein : 450 g. Masse du liquide : 250 g.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 19,
+        "extrait": "Mesurer la masse d’un solide ou d’un liquide à l’aide d’une balance"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM1-TECH-03",
+      "titre": "L’évolution des objets",
+      "domaine": "Les objets techniques au cœur de la société",
+      "theme": "Les objets techniques en réponse aux besoins des individus et de la société",
+      "attendu": "Repérer comment un objet a évolué selon les époques, les lieux et les besoins.",
+      "exemple": "Du train à vapeur au TGV : plus rapide, électrique, plus confortable.",
+      "source": {
+        "id": "bo24-2026-sciences-c2-c3",
+        "page": 32,
+        "extrait": "Repérer les évolutions d’un objet dans différents contextes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }
