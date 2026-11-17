@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-MEIO-01",
+  "exemple": "Une cellule humaine a 23 paires de chromosomes. Un gamète n’en a que 23, un de chaque paire.",
+  "regle": "La **méiose** produit les **gamètes** : chacun reçoit **un seul chromosome de chaque paire**, choisi au **hasard**. Il existe donc des millions de gamètes différents. À la **fécondation**, un gamète de chaque parent s’unit : la **cellule-œuf** retrouve **23 paires**. Ce double **brassage** rend chaque individu **unique**, sauf les vrais jumeaux.",
+  "piege": "Mitose : copie identique de la cellule. Méiose : formation des gamètes.",
+  "essai": {
+    "consigne": "Combien de chromosomes contient un gamète humain ?",
+    "options": [
+      "23",
+      "46",
+      "92"
+    ],
+    "reponse": "23",
+    "explication": "Un chromosome de chaque paire."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

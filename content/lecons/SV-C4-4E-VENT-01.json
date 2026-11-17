@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-4E-VENT-01",
+  "exemple": "Le Gulf Stream, un courant chaud parti du golfe du Mexique, adoucit les hivers de l’Europe de l’Ouest.",
+  "regle": "Le Soleil chauffe inégalement la Terre : plus à l’**équateur** qu’aux **pôles**. L’air chaud, plus léger, **monte** ; l’air froid **descend** et prend sa place : c’est le **vent**. Il va des **hautes pressions** vers les **basses pressions**. Dans les océans, des **courants** déplacent aussi la chaleur, poussés par les vents et les différences de température et de salinité.",
+  "piege": "Le vent souffle des hautes vers les basses pressions, pas l’inverse.",
+  "essai": {
+    "consigne": "Pourquoi l’air chaud monte-t-il ?",
+    "options": [
+      "il est moins dense que l’air froid",
+      "il est plus lourd",
+      "il est attiré par le Soleil"
+    ],
+    "reponse": "il est moins dense que l’air froid",
+    "explication": "Moins dense, il s’élève."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

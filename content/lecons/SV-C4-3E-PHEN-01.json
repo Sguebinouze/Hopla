@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-3E-PHEN-01",
+  "exemple": "Deux jumeaux vrais ont les mêmes gènes. L’un, sportif, est plus musclé : l’environnement agit aussi.",
+  "regle": "Un **gène** existe en plusieurs versions : les **allèles**. L’ensemble des allèles d’un individu est son **génotype**. Ses **caractères** observables forment son **phénotype**. Le phénotype dépend du génotype **et** de l’**environnement** : alimentation, soleil, activité. Une **mutation** modifie un gène et peut créer un nouvel allèle.",
+  "piege": "Un caractère acquis par l’environnement (bronzage, muscles) ne se transmet pas aux enfants.",
+  "essai": {
+    "consigne": "Comment appelle-t-on les différentes versions d’un gène ?",
+    "options": [
+      "des allèles",
+      "des chromosomes",
+      "des cellules"
+    ],
+    "reponse": "des allèles",
+    "explication": "Allèles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

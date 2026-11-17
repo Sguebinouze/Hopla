@@ -106,6 +106,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01",
+      "titre": "Génotype, phénotype, environnement",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier l’information génétique à la diversité des individus",
+      "attendu": "Expliquer qu’un caractère (phénotype) dépend des allèles des gènes (génotype) et de l’action de l’environnement.",
+      "exemple": "Des jumeaux vrais ont les mêmes gènes mais peuvent avoir des peaux plus ou moins bronzées.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "Expliquer comment les phénotypes sont déterminés par les génotypes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01",
+      "titre": "Méiose, fécondation, diversité",
+      "domaine": "Le vivant et son évolution",
+      "theme": "Relier l’information génétique à la diversité des individus",
+      "attendu": "Expliquer comment la méiose et la fécondation brassent les allèles et rendent chaque individu unique.",
+      "exemple": "Deux enfants des mêmes parents n’ont pas les mêmes allèles.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 112,
+        "extrait": "ADN, mutations, brassage, gène, méiose et fécondation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C3-6E-TRAC-01",
+  "exercices": [
+    {
+      "id": "EM-C3-6E-TRAC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’une trace numérique ?",
+      "options": [
+        "une information laissée en ligne",
+        "une empreinte de pas",
+        "une rayure d’écran"
+      ],
+      "reponse": "une information laissée en ligne",
+      "indice": "En ligne.",
+      "explication": "Toute donnée laissée sur internet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle information est une donnée personnelle ?",
+      "options": [
+        "ton adresse",
+        "la météo",
+        "le titre d’un film"
+      ],
+      "reponse": "ton adresse",
+      "indice": "Elle t’identifie.",
+      "explication": "L’adresse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avant de publier la photo d’un camarade, il faut…",
+      "options": [
+        "lui demander son accord",
+        "la retoucher",
+        "la publier vite"
+      ],
+      "reponse": "lui demander son accord",
+      "indice": "Droit à l’image.",
+      "explication": "Son accord est nécessaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi une publication supprimée peut-elle rester visible ?",
+      "options": [
+        "elle a pu être copiée ou partagée",
+        "internet ne supprime rien jamais",
+        "à cause du Wi-Fi"
+      ],
+      "reponse": "elle a pu être copiée ou partagée",
+      "indice": "Copies.",
+      "explication": "Des copies circulent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui contrôle la protection des données en France ?",
+      "options": [
+        "la CNIL",
+        "la SNCF",
+        "l’INSEE"
+      ],
+      "reponse": "la CNIL",
+      "indice": "Commission informatique et libertés.",
+      "explication": "La CNIL.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce que la réputation numérique ?",
+      "options": [
+        "l’image de soi que donnent ses traces en ligne",
+        "le nombre d’amis",
+        "la vitesse de connexion"
+      ],
+      "reponse": "l’image de soi que donnent ses traces en ligne",
+      "indice": "Image.",
+      "explication": "Ce que les autres voient de nous en ligne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la loi fixe-t-elle une majorité numérique ?",
+      "options": [
+        "protéger les jeunes des risques en ligne",
+        "vendre plus de téléphones",
+        "interdire internet"
+      ],
+      "reponse": "protéger les jeunes des risques en ligne",
+      "indice": "Cyberharcèlement, santé.",
+      "explication": "Pour protéger les moins de 15 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le droit à l’oubli permet de…",
+      "options": [
+        "demander l’effacement de certaines données",
+        "oublier son mot de passe",
+        "supprimer internet"
+      ],
+      "reponse": "demander l’effacement de certaines données",
+      "indice": "Effacement.",
+      "explication": "Demander le retrait de données.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

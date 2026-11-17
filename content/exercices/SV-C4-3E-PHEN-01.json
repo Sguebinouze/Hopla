@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-PHEN-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-PHEN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le groupe sanguin observé d’une personne est…",
+      "options": [
+        "un élément de son phénotype",
+        "son génotype",
+        "un chromosome"
+      ],
+      "reponse": "un élément de son phénotype",
+      "indice": "Observable.",
+      "explication": "Phénotype.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien d’allèles d’un gène possède-t-on ?",
+      "options": [
+        "2, un de chaque parent",
+        "1",
+        "46"
+      ],
+      "reponse": "2, un de chaque parent",
+      "indice": "Chromosomes par paires.",
+      "explication": "Deux allèles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une mutation est…",
+      "options": [
+        "une modification de l’ADN",
+        "une maladie contagieuse",
+        "un nouvel organe"
+      ],
+      "reponse": "une modification de l’ADN",
+      "indice": "ADN.",
+      "explication": "Un changement dans la séquence d’ADN.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le bronzage est déterminé…",
+      "options": [
+        "par les gènes et l’exposition au soleil",
+        "par les gènes seuls",
+        "par le soleil seul"
+      ],
+      "reponse": "par les gènes et l’exposition au soleil",
+      "indice": "Génotype + environnement.",
+      "explication": "Les deux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un muscle développé par l’entraînement se transmet-il aux enfants ?",
+      "options": [
+        "non, c’est un caractère acquis",
+        "oui, toujours",
+        "seulement aux garçons"
+      ],
+      "reponse": "non, c’est un caractère acquis",
+      "indice": "Les gamètes ne changent pas.",
+      "explication": "L’ADN des gamètes n’est pas modifié.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Des jumeaux vrais ont…",
+      "options": [
+        "le même génotype",
+        "des génotypes différents",
+        "des chromosomes différents"
+      ],
+      "reponse": "le même génotype",
+      "indice": "Une seule cellule-œuf.",
+      "explication": "Le même génotype.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une même plante cultivée en altitude reste plus petite. Pourquoi ?",
+      "options": [
+        "l’environnement agit sur le phénotype",
+        "ses gènes ont changé",
+        "elle a muté"
+      ],
+      "reponse": "l’environnement agit sur le phénotype",
+      "indice": "Mêmes gènes.",
+      "explication": "L’environnement modifie le phénotype.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-PHEN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi une mutation peut-elle être transmise ?",
+      "options": [
+        "si elle touche une cellule reproductrice",
+        "si elle touche la peau",
+        "jamais"
+      ],
+      "reponse": "si elle touche une cellule reproductrice",
+      "indice": "Gamètes.",
+      "explication": "Seules les mutations des gamètes se transmettent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "SV-C4-3E-MEIO-01",
+  "exercices": [
+    {
+      "id": "SV-C4-3E-MEIO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de chromosomes dans une cellule humaine ordinaire ?",
+      "options": [
+        "46",
+        "23",
+        "92"
+      ],
+      "reponse": "46",
+      "indice": "23 paires.",
+      "explication": "46.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle division produit les gamètes ?",
+      "options": [
+        "la méiose",
+        "la mitose",
+        "la fécondation"
+      ],
+      "reponse": "la méiose",
+      "indice": "Réduit de moitié.",
+      "explication": "La méiose.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La fécondation réunit…",
+      "options": [
+        "un ovule et un spermatozoïde",
+        "deux ovules",
+        "deux cellules de peau"
+      ],
+      "reponse": "un ovule et un spermatozoïde",
+      "indice": "Deux gamètes.",
+      "explication": "Un gamète de chaque parent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi deux frères n’ont-ils pas les mêmes allèles ?",
+      "options": [
+        "les gamètes sont tous différents",
+        "ils n’ont pas les mêmes parents",
+        "à cause de l’alimentation"
+      ],
+      "reponse": "les gamètes sont tous différents",
+      "indice": "Brassage.",
+      "explication": "Chaque gamète reçoit des chromosomes au hasard.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que retrouve la cellule-œuf ?",
+      "options": [
+        "23 paires de chromosomes",
+        "23 chromosomes seuls",
+        "92 chromosomes"
+      ],
+      "reponse": "23 paires de chromosomes",
+      "indice": "Un lot de chaque parent.",
+      "explication": "46 chromosomes, par paires.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui sont les seuls à partager le même génotype ?",
+      "options": [
+        "les vrais jumeaux",
+        "les faux jumeaux",
+        "les cousins"
+      ],
+      "reponse": "les vrais jumeaux",
+      "indice": "Une seule cellule-œuf.",
+      "explication": "Les vrais jumeaux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Avec 23 paires, combien de combinaisons de chromosomes dans les gamètes ?",
+      "options": [
+        "2 puissance 23, plus de 8 millions",
+        "23",
+        "46"
+      ],
+      "reponse": "2 puissance 23, plus de 8 millions",
+      "indice": "2 choix par paire.",
+      "explication": "2²³ ≈ 8,4 millions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "SV-C4-3E-MEIO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel rôle a la mitose ?",
+      "options": [
+        "copier une cellule à l’identique",
+        "former les gamètes",
+        "mélanger les chromosomes"
+      ],
+      "reponse": "copier une cellule à l’identique",
+      "indice": "Croissance.",
+      "explication": "Elle produit des cellules identiques.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "SV-C4-5E-PLANT-01",
+  "exemple": "La pomme de terre est une réserve : la plante y stocke l’amidon fabriqué dans ses feuilles.",
+  "regle": "Les **racines** prélèvent l’**eau** et les **sels minéraux** : c’est la **sève brute**, qui monte vers les feuilles. Dans les **feuilles**, à la **lumière**, les cellules chlorophylliennes fabriquent des **sucres** avec le **CO₂** de l’air. La **sève élaborée** distribue ces sucres à toute la plante, qui les **stocke** (amidon) dans des organes de réserve.",
+  "piege": "Sève brute : racines vers feuilles. Sève élaborée : feuilles vers toute la plante.",
+  "essai": {
+    "consigne": "Où la plante fabrique-t-elle sa matière ?",
+    "options": [
+      "dans les feuilles éclairées",
+      "dans les racines",
+      "dans les fleurs"
+    ],
+    "reponse": "dans les feuilles éclairées",
+    "explication": "Grâce à la chlorophylle et à la lumière."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

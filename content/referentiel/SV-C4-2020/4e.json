@@ -121,6 +121,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-VENT-01",
+      "titre": "Vents et courants océaniques",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Phénomènes météorologiques et climatiques",
+      "attendu": "Expliquer les vents et les courants océaniques par les différences de température entre masses d’air et masses d’eau.",
+      "exemple": "Le Gulf Stream apporte des eaux chaudes vers l’Europe de l’Ouest.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 109,
+        "extrait": "dynamique des masses d’air et des masses d’eau"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "SV-C4-4E-PRES-01",
+      "titre": "Préserver et restaurer les milieux",
+      "domaine": "La planète Terre, l’environnement et l’action humaine",
+      "theme": "Interactions entre les activités humaines et l’environnement",
+      "attendu": "Argumenter des solutions de préservation ou de restauration de l’environnement : trames vertes et bleues, zones protégées, traitement des eaux.",
+      "exemple": "Un passage à faune sous une autoroute reconnecte deux forêts.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 110,
+        "extrait": "solutions de préservation ou de restauration de l’environnement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

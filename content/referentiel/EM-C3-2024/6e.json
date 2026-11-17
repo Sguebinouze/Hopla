@@ -46,6 +46,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-6E-INT-01",
+      "titre": "L’intérêt général",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Représenter les autres et servir l’intérêt général",
+      "attendu": "Définir l’intérêt général et comprendre qu’il prend en compte les générations futures.",
+      "exemple": "Créer une piste cyclable peut gêner des automobilistes mais servir à tous.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 18,
+        "extrait": "l’intérêt général est l’intérêt commun de tous les membres de la société"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C3-6E-TRAC-01",
+      "titre": "Traces et majorité numérique",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Avoir des droits et respecter ceux des autres",
+      "attendu": "Identifier ses traces numériques, protéger ses données personnelles et connaître la majorité numérique fixée à 15 ans.",
+      "exemple": "Une photo publiée peut circuler longtemps, même supprimée.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 19,
+        "extrait": "majorité numérique, données personnelles, traces numériques"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }
