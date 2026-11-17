@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C2-CE1-SOUH-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-SOUH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Thank you » ?",
+      "options": [
+        "merci",
+        "s’il te plaît",
+        "au revoir"
+      ],
+      "reponse": "merci",
+      "indice": "Après avoir reçu.",
+      "explication": "Thank you : merci.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Here you are » ?",
+      "options": [
+        "Voilà.",
+        "Au revoir.",
+        "Bonne nuit."
+      ],
+      "reponse": "Voilà.",
+      "indice": "On donne quelque chose.",
+      "explication": "Here you are : voilà.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I want a ball » ?",
+      "options": [
+        "Je veux un ballon.",
+        "J’ai un ballon.",
+        "Je lance un ballon."
+      ],
+      "reponse": "Je veux un ballon.",
+      "indice": "Want : vouloir.",
+      "explication": "I want : je veux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander un crayon poliment ?",
+      "options": [
+        "Can I have a pencil, please?",
+        "Pencil now!",
+        "Here you are."
+      ],
+      "reponse": "Can I have a pencil, please?",
+      "indice": "Can I have… please?",
+      "explication": "Avec please.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-il ?",
+      "options": [
+        "une pomme",
+        "un ballon",
+        "un crayon"
+      ],
+      "reponse": "une pomme",
+      "indice": "Apple.",
+      "explication": "« Can I have an apple? »",
+      "ecoute": {
+        "texte": "Can I have an apple, please?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "On te donne un livre. Que dis-tu ?",
+      "options": [
+        "Thank you.",
+        "Please.",
+        "Goodbye."
+      ],
+      "reponse": "Thank you.",
+      "indice": "Remercier.",
+      "explication": "Thank you.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que veut-elle ?",
+      "options": [
+        "de l’eau",
+        "du lait",
+        "un gâteau"
+      ],
+      "reponse": "de l’eau",
+      "indice": "Water.",
+      "explication": "« Water » veut dire eau.",
+      "ecoute": {
+        "texte": "Can I have some water, please?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est la plus polie ?",
+      "options": [
+        "Can I have a cake, please?",
+        "Give me a cake.",
+        "Cake!"
+      ],
+      "reponse": "Can I have a cake, please?",
+      "indice": "Please.",
+      "explication": "Avec Can I have et please.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CE1-ANIM-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-ANIM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un chat",
+        "un chien",
+        "un cheval"
+      ],
+      "reponse": "un chat",
+      "indice": "Il fait miaou.",
+      "explication": "« a cat » veut dire un chat.",
+      "ecoute": {
+        "texte": "a cat",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un chien",
+        "un chat",
+        "un poisson"
+      ],
+      "reponse": "un chien",
+      "indice": "Il fait wouf.",
+      "explication": "« a dog » veut dire un chien.",
+      "ecoute": {
+        "texte": "a dog",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un oiseau",
+        "un lapin",
+        "un chien"
+      ],
+      "reponse": "un oiseau",
+      "indice": "Il vole.",
+      "explication": "« a bird » veut dire un oiseau.",
+      "ecoute": {
+        "texte": "a bird",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un poisson",
+        "un oiseau",
+        "un chat"
+      ],
+      "reponse": "un poisson",
+      "indice": "Il nage.",
+      "explication": "« a fish » veut dire un poisson.",
+      "ecoute": {
+        "texte": "a fish",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un cheval",
+        "une vache",
+        "un lapin"
+      ],
+      "reponse": "un cheval",
+      "indice": "On peut monter dessus.",
+      "explication": "« a horse » veut dire un cheval.",
+      "ecoute": {
+        "texte": "a horse",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « a pet » ?",
+      "options": [
+        "un animal de compagnie",
+        "un animal sauvage",
+        "un jouet"
+      ],
+      "reponse": "un animal de compagnie",
+      "indice": "Il vit à la maison.",
+      "explication": "Pet : animal de compagnie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel animal a-t-elle ?",
+      "options": [
+        "un lapin",
+        "un chien",
+        "un poisson"
+      ],
+      "reponse": "un lapin",
+      "indice": "Il a de grandes oreilles.",
+      "explication": "« Rabbit » veut dire lapin.",
+      "ecoute": {
+        "texte": "I’ve got a rabbit.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « un chat » ?",
+      "options": [
+        "a cat",
+        "a cap",
+        "a car"
+      ],
+      "reponse": "a cat",
+      "indice": "Miaou.",
+      "explication": "A cat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

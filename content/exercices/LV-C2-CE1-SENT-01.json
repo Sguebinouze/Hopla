@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CE1-SENT-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-SENT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "Je suis content.",
+        "Je suis triste.",
+        "J’ai faim."
+      ],
+      "reponse": "Je suis content.",
+      "indice": "Il sourit.",
+      "explication": "« I’m happy » veut dire je suis content.",
+      "ecoute": {
+        "texte": "I’m happy",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "Je suis fatigué.",
+        "Je suis content.",
+        "J’ai froid."
+      ],
+      "reponse": "Je suis fatigué.",
+      "indice": "Il bâille.",
+      "explication": "« I’m tired » veut dire je suis fatigué.",
+      "ecoute": {
+        "texte": "I’m tired",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "J’ai faim.",
+        "J’ai soif.",
+        "Je suis triste."
+      ],
+      "reponse": "J’ai faim.",
+      "indice": "Il veut manger.",
+      "explication": "« I’m hungry » veut dire j’ai faim.",
+      "ecoute": {
+        "texte": "I’m hungry",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I like apples » ?",
+      "options": [
+        "J’aime les pommes.",
+        "Je n’aime pas les pommes.",
+        "Je mange une pomme."
+      ],
+      "reponse": "J’aime les pommes.",
+      "indice": "Like : aimer.",
+      "explication": "I like : j’aime.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I don’t like milk » ?",
+      "options": [
+        "Je n’aime pas le lait.",
+        "J’aime le lait.",
+        "Je bois du lait."
+      ],
+      "reponse": "Je n’aime pas le lait.",
+      "indice": "Don’t : ne pas.",
+      "explication": "I don’t like : je n’aime pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « je suis triste » ?",
+      "options": [
+        "I’m sad.",
+        "I’m happy.",
+        "I’m hungry."
+      ],
+      "reponse": "I’m sad.",
+      "indice": "Sad.",
+      "explication": "I’m sad.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment va-t-elle ?",
+      "options": [
+        "Elle est contente.",
+        "Elle est fatiguée.",
+        "Elle a faim."
+      ],
+      "reponse": "Elle est contente.",
+      "indice": "Happy.",
+      "explication": "« I’m happy » : je suis contente.",
+      "ecoute": {
+        "texte": "I’m very happy today.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’aime-t-il ?",
+      "options": [
+        "le chocolat",
+        "le lait",
+        "les pommes"
+      ],
+      "reponse": "le chocolat",
+      "indice": "Chocolate.",
+      "explication": "« I like chocolate. »",
+      "ecoute": {
+        "texte": "I like chocolate.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

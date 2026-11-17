@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CE1-VET-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-VET-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un chapeau",
+        "un manteau",
+        "une jupe"
+      ],
+      "reponse": "un chapeau",
+      "indice": "Sur la tête.",
+      "explication": "« a hat » veut dire un chapeau.",
+      "ecoute": {
+        "texte": "a hat",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un manteau",
+        "un chapeau",
+        "un pantalon"
+      ],
+      "reponse": "un manteau",
+      "indice": "Quand il fait froid.",
+      "explication": "« a coat » veut dire un manteau.",
+      "ecoute": {
+        "texte": "a coat",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "des chaussures",
+        "un tee-shirt",
+        "une jupe"
+      ],
+      "reponse": "des chaussures",
+      "indice": "Aux pieds.",
+      "explication": "« shoes » veut dire des chaussures.",
+      "ecoute": {
+        "texte": "shoes",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "une jupe",
+        "un chapeau",
+        "des chaussures"
+      ],
+      "reponse": "une jupe",
+      "indice": "Elle se porte à la taille.",
+      "explication": "« a skirt » veut dire une jupe.",
+      "ecoute": {
+        "texte": "a skirt",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un pantalon",
+        "un manteau",
+        "un bonnet"
+      ],
+      "reponse": "un pantalon",
+      "indice": "Deux jambes.",
+      "explication": "« trousers » veut dire un pantalon.",
+      "ecoute": {
+        "texte": "trousers",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Put on your hat » ?",
+      "options": [
+        "Mets ton chapeau.",
+        "Enlève ton chapeau.",
+        "Cherche ton chapeau."
+      ],
+      "reponse": "Mets ton chapeau.",
+      "indice": "Put on : mettre.",
+      "explication": "Put on : mettre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Take off your shoes » ?",
+      "options": [
+        "Enlève tes chaussures.",
+        "Mets tes chaussures.",
+        "Range tes chaussures."
+      ],
+      "reponse": "Enlève tes chaussures.",
+      "indice": "Take off : enlever.",
+      "explication": "Take off : enlever.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-VET-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que doit-il mettre ?",
+      "options": [
+        "son manteau",
+        "sa jupe",
+        "son tee-shirt"
+      ],
+      "reponse": "son manteau",
+      "indice": "Il fait froid.",
+      "explication": "« Coat » veut dire manteau.",
+      "ecoute": {
+        "texte": "Put on your coat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

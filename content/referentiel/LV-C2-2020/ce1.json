@@ -76,6 +76,81 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01",
+      "titre": "Compter jusqu’à 20",
+      "domaine": "Comprendre l’oral",
+      "theme": "Les nombres",
+      "attendu": "Comprendre et dire les nombres de 11 à 20 en anglais.",
+      "exemple": "eleven, twelve, thirteen… twenty",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Les nombres."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE1-ANIM-01",
+      "titre": "Les animaux",
+      "domaine": "Comprendre l’oral",
+      "theme": "Les animaux",
+      "attendu": "Comprendre et nommer quelques animaux familiers en anglais.",
+      "exemple": "a cat, a dog, a bird, a fish, a rabbit",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Les animaux."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE1-VET-01",
+      "titre": "Les vêtements",
+      "domaine": "Comprendre l’oral",
+      "theme": "Soi, le corps, les vêtements",
+      "attendu": "Comprendre et nommer quelques vêtements en anglais.",
+      "exemple": "a hat, a coat, shoes, a T-shirt",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Soi, le corps, les vêtements."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE1-SENT-01",
+      "titre": "Dire comment on se sent",
+      "domaine": "Comprendre l’oral",
+      "theme": "Sensations, goûts et sentiments",
+      "attendu": "Dire si l’on est content, triste, fatigué, et ce que l’on aime.",
+      "exemple": "I’m happy. I’m tired. I like apples.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Sensations, goûts et sentiments."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE1-SOUH-01",
+      "titre": "Dire ce que l’on veut",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Formuler des souhaits basiques",
+      "attendu": "Demander poliment quelque chose avec « Can I have… please? » et « I want… ».",
+      "exemple": "Can I have a pencil, please?",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 54,
+        "extrait": "Formuler des souhaits basiques."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

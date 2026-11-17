@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE1-SENT-01",
+  "exemple": "« How are you? » « I’m tired. » « I like chocolate! »",
+  "regle": "**I’m happy** : je suis content. **I’m sad** : je suis triste. **I’m tired** : je suis fatigué. **I’m hungry** : j’ai faim. **I like** : j’aime. **I don’t like** : je n’aime pas.",
+  "piege": "**I’m hungry** veut dire « j’ai faim », avec le verbe être.",
+  "essai": {
+    "consigne": "Que veut dire « I’m sad » ?",
+    "options": [
+      "Je suis triste.",
+      "Je suis content.",
+      "J’ai faim."
+    ],
+    "reponse": "Je suis triste.",
+    "explication": "Sad : triste."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

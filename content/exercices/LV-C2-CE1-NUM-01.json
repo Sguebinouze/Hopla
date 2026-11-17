@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CE1-NUM-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE1-NUM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "11",
+        "7",
+        "20"
+      ],
+      "reponse": "11",
+      "indice": "Il vient après ten.",
+      "explication": "« eleven » veut dire onze.",
+      "ecoute": {
+        "texte": "eleven",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "12",
+        "2",
+        "20"
+      ],
+      "reponse": "12",
+      "indice": "Une douzaine.",
+      "explication": "« twelve » veut dire douze.",
+      "ecoute": {
+        "texte": "twelve",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "20",
+        "12",
+        "2"
+      ],
+      "reponse": "20",
+      "indice": "Deux dizaines.",
+      "explication": "« twenty » veut dire vingt.",
+      "ecoute": {
+        "texte": "twenty",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "14",
+        "40",
+        "4"
+      ],
+      "reponse": "14",
+      "indice": "Four, puis -teen.",
+      "explication": "« fourteen » veut dire quatorze.",
+      "ecoute": {
+        "texte": "fourteen",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "18",
+        "80",
+        "8"
+      ],
+      "reponse": "18",
+      "indice": "Eight, puis -teen.",
+      "explication": "« eighteen » veut dire dix-huit.",
+      "ecoute": {
+        "texte": "eighteen",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « sixteen » ?",
+      "options": [
+        "16",
+        "60",
+        "6"
+      ],
+      "reponse": "16",
+      "indice": "Six, puis -teen.",
+      "explication": "Sixteen : seize.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel nombre finit par « -teen » ?",
+      "options": [
+        "seventeen",
+        "twenty",
+        "twelve"
+      ],
+      "reponse": "seventeen",
+      "indice": "Entre 13 et 19.",
+      "explication": "Seventeen : dix-sept.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE1-NUM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel âge a-t-il ?",
+      "options": [
+        "13 ans",
+        "30 ans",
+        "3 ans"
+      ],
+      "reponse": "13 ans",
+      "indice": "Écoute la fin du mot.",
+      "explication": "« Thirteen » veut dire treize.",
+      "ecoute": {
+        "texte": "I’m thirteen.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
