@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { GrilleEquilibree } from '../composants/Grille';
 import { Icone, type NomIcone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api } from '../lib/donnees';
@@ -41,14 +42,14 @@ export function Jeux() {
         <h1 className="titre-2 pousse">Jeux de réflexion</h1>
       </div>
       {!acces.jeux ? <p>Les jeux ne sont pas activés pour ton profil.</p> : !acces.debloque ? <Verrou /> : (
-        <div className="liste-jeux">
+        <GrilleEquilibree min={300} espace={2}>
           {JEUX.map((j) => (
             <Link key={j.id} to={`/jeux/${j.id}`} className="hp-card jeu-carte">
               <span className="jeu-carte__icone"><Icone nom={ICONES[j.id]} taille={26} /></span>
               <span className="pousse"><strong>{j.nom}</strong><span className="muet" style={{ display: 'block' }}>{j.consigne}</span></span>
             </Link>
           ))}
-        </div>
+        </GrilleEquilibree>
       )}
     </main>
   );

@@ -14,7 +14,9 @@ a { color: var(--primary); }
 .marque { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; font-size: 22px; }
 
 .grille-profils { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-3); }
-.grille-matieres { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: var(--space-2); }
+.grille-eq { display: flex; flex-direction: column; }
+.grille-eq__rangee { display: grid; }
+.grille-eq__rangee > * { width: auto; min-width: 0; }
 .grille-matieres .hp-subject { width: auto; }
 .grille-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); }
 .grille-options .hp-option { min-width: 0; width: 100%; }
@@ -55,7 +57,7 @@ a { color: var(--primary); }
 .support__texte { margin: 0; font-size: 20px; line-height: 1.5; }
 
 /* Accueil : blocs regroupés, mis côte à côte sur tablette. */
-.accueil-haut, .accueil-cote, .raccourcis { display: flex; flex-direction: column; gap: var(--space-3); }
+.accueil-haut, .accueil-cote { display: flex; flex-direction: column; gap: var(--space-3); }
 
 /* Tablette : on profite de la largeur, sauf pour les formulaires courts (connexion, code, appairage). */
 @media (min-width: 760px) {
@@ -63,14 +65,13 @@ a { color: var(--primary); }
   .ecran--etroit { max-width: 560px; }
   .titre-1 { font-size: 30px; }
   .titre-2 { font-size: 21px; }
-  .accueil-haut { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: start; }
-  .grille-matieres { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-3); }
-  .liste-defis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .liste-defis > .titre-2 { grid-column: 1 / -1; }
-  .raccourcis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); }
+  /* Deux colonnes de même hauteur : la dernière carte de droite s'étire, son contenu reste centré. */
+  .accueil-haut { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: stretch; }
+  .accueil-haut:has(> .accueil-cote:empty) { grid-template-columns: minmax(0, 1fr); }
+  .accueil-cote > :last-child { flex-grow: 1; justify-content: center; }
+  .hp-mission { justify-content: space-between; }
   .raccourcis .hp-skill { flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; gap: var(--space-2); }
   .raccourcis .hp-skill__main { flex: 1 1 auto; }
-  .liste-jeux { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .controle__pied { max-width: 940px; padding-left: var(--space-6); padding-right: var(--space-6); }
 }
 
@@ -293,7 +294,6 @@ a.hp-chip { text-decoration: none; }
 .jeux-accueil .titre-2 { margin: 0; }
 .jeux-accueil__liens { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); }
 .verrou { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-3); padding: var(--space-4); }
-.liste-jeux { display: flex; flex-direction: column; gap: var(--space-2); }
 .jeu-carte { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3); color: inherit; text-decoration: none; }
 .jeu-carte__icone { width: 44px; height: 44px; flex: none; border-radius: var(--radius-md); background: var(--octave-soft); color: var(--octave-ink); display: grid; place-items: center; }
 .jeu-fin, .jeu-manches, .jeu-plateau { display: flex; flex-direction: column; gap: var(--space-3); }

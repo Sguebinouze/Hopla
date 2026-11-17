@@ -6,6 +6,7 @@ import { BoutonTheme } from '../composants/BoutonTheme';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
+import { GrilleEquilibree } from '../composants/Grille';
 import { Icone, ICONE_MATIERE } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, surAppareilEnfant, type Enfant } from '../lib/donnees';
@@ -169,7 +170,7 @@ export function Accueil() {
       {pack && (
         <>
           <h2 className="titre-2">Mes matières</h2>
-          <div className="grille-matieres">
+          <GrilleEquilibree min={(l) => (l < 600 ? 104 : 150)} espace={2} className="grille-matieres">
             {pack.matieres.filter((m) => competencesJouables({ ...pack, matieres: [m] }).length > 0).map((m) => {
               const b = bilan(competencesJouables({ ...pack, matieres: [m] }).map((c) => c.id), suivi);
               return (
@@ -186,13 +187,14 @@ export function Accueil() {
                 </Link>
               );
             })}
-          </div>
+          </GrilleEquilibree>
         </>
       )}
 
       {pack && pack.defis.length > 0 && (
         <section className="liste-notions liste-defis">
           <h2 className="titre-2">Défis chrono</h2>
+          <GrilleEquilibree min={320} espace={2}>
           {pack.defis.map((d) => (
             <Link key={d.id} to={`/defi/${d.id}`} className="hp-skill notion">
               <span className="hp-skill__main">
@@ -204,10 +206,11 @@ export function Accueil() {
               <span className="hp-chip hp-chip--sun"><Icone nom="eclair" taille={16} />1 min</span>
             </Link>
           ))}
+          </GrilleEquilibree>
         </section>
       )}
 
-      <div className="raccourcis">
+      <GrilleEquilibree min={220} espace={2} className="raccourcis">
       <Link to="/controle" className="hp-skill notion">
         <span className="hp-skill__main">
           <span className="hp-skill__name">{prevu ? `Contrôle ${dateLisible(prevu.date)}` : 'Un contrôle bientôt ?'}</span>
@@ -233,7 +236,7 @@ export function Accueil() {
         </span>
         <span className="hp-chip hp-chip--sun"><Icone nom="cahier" taille={16} />{cahier ? 'Continuer' : 'Ouvrir'}</span>
       </Link>
-      </div>
+      </GrilleEquilibree>
 
       <div className="pousse" />
       {voixDisponible() && voixAuto !== null && (
