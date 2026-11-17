@@ -76,6 +76,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "HG-C2-CP-HIST-04",
+      "titre": "Mesurer le temps",
+      "domaine": "Histoire",
+      "theme": "Les représentations humaines du temps",
+      "attendu": "Connaitre des outils qui mesurent le temps : sablier, pendule, montre, réveil.",
+      "exemple": "Le sablier mesure un temps court. La montre donne l’heure.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 57,
+        "extrait": "Observer et utiliser des outils de mesure du temps"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "HG-C2-CP-GEO-03",
+      "titre": "Les lieux de l’école",
+      "domaine": "Géographie",
+      "theme": "Autour de l’école",
+      "attendu": "Nommer les lieux de l’école et dire à quoi ils servent.",
+      "exemple": "On mange au réfectoire. On joue dans la cour.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 60,
+        "extrait": "Décrire l’usage des différents lieux de l’école"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "HG-C2-CP-GEO-04",
+      "titre": "Nord, sud, est, ouest",
+      "domaine": "Géographie",
+      "theme": "Des représentations du monde",
+      "attendu": "Connaitre les quatre points cardinaux et les situer sur une carte.",
+      "exemple": "Sur une carte, le nord est en haut.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 60,
+        "extrait": "Nord/Sud/Est/Ouest"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "HG-C2-CP-GEO-05",
+      "titre": "Le monde est peuplé",
+      "domaine": "Géographie",
+      "theme": "Des représentations du monde",
+      "attendu": "Comprendre que les êtres humains vivent sur tous les continents, plus nombreux à certains endroits.",
+      "exemple": "Beaucoup de personnes vivent en Asie.",
+      "source": {
+        "id": "bo22-2026-histoire-geo-c2-c3",
+        "page": 60,
+        "extrait": "Comprendre que le monde est peuplé"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

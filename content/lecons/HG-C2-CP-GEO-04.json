@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-GEO-04",
+  "exemple": "Sur la carte de France, Lille est en haut, au nord. Marseille est en bas, au sud.",
+  "regle": "Il y a quatre **points cardinaux**. Ce sont le **nord**, le **sud**, l’**est** et l’**ouest**. Sur une carte, le **nord** est **en haut**. Le **sud** est en bas. L’**est** est à droite. L’**ouest** est à gauche.",
+  "piege": "Le soleil se lève à l’est et se couche à l’ouest.",
+  "essai": {
+    "consigne": "Sur une carte, où est le nord ?",
+    "options": [
+      "en haut",
+      "en bas",
+      "à gauche"
+    ],
+    "reponse": "en haut",
+    "explication": "Le nord est en haut."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

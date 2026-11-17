@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-GEO-03",
+  "exemple": "Le matin, j’entre par le portail. Je vais en classe. À midi, je mange au réfectoire.",
+  "regle": "Chaque lieu de l’école a un **usage**. On **apprend** dans la **classe**. On **joue** dans la **cour**. On **mange** au **réfectoire**. On se lave les mains aux **sanitaires**.",
+  "piege": "Le portail sert à entrer et à sortir de l’école.",
+  "essai": {
+    "consigne": "Où mange-t-on à midi ?",
+    "options": [
+      "au réfectoire",
+      "dans la cour",
+      "aux sanitaires"
+    ],
+    "reponse": "au réfectoire",
+    "explication": "C’est la cantine."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

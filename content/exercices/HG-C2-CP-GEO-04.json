@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C2-CP-GEO-04",
+  "exercices": [
+    {
+      "id": "HG-C2-CP-GEO-04-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien y a-t-il de points cardinaux ?",
+      "options": [
+        "4",
+        "2",
+        "6"
+      ],
+      "reponse": "4",
+      "indice": "Nord, sud, est, ouest.",
+      "explication": "Quatre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur une carte, le sud est…",
+      "options": [
+        "en bas",
+        "en haut",
+        "à droite"
+      ],
+      "reponse": "en bas",
+      "indice": "Le contraire du nord.",
+      "explication": "En bas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur une carte, l’est est…",
+      "options": [
+        "à droite",
+        "à gauche",
+        "en bas"
+      ],
+      "reponse": "à droite",
+      "indice": "Le soleil se lève là.",
+      "explication": "À droite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur une carte, l’ouest est…",
+      "options": [
+        "à gauche",
+        "à droite",
+        "en haut"
+      ],
+      "reponse": "à gauche",
+      "indice": "Le contraire de l’est.",
+      "explication": "À gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où le soleil se lève-t-il ?",
+      "options": [
+        "à l’est",
+        "à l’ouest",
+        "au nord"
+      ],
+      "reponse": "à l’est",
+      "indice": "Le matin.",
+      "explication": "À l’est.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel point cardinal est le contraire du nord ?",
+      "options": [
+        "le sud",
+        "l’est",
+        "l’ouest"
+      ],
+      "reponse": "le sud",
+      "indice": "En bas.",
+      "explication": "Le sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur la carte de France, la mer Méditerranée est…",
+      "options": [
+        "au sud",
+        "au nord",
+        "à l’ouest"
+      ],
+      "reponse": "au sud",
+      "indice": "En bas de la carte.",
+      "explication": "Au sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C2-CP-GEO-04-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel outil indique le nord ?",
+      "options": [
+        "la boussole",
+        "la montre",
+        "le sablier"
+      ],
+      "reponse": "la boussole",
+      "indice": "Une aiguille aimantée.",
+      "explication": "La boussole.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

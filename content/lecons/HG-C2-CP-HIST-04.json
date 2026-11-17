@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C2-CP-HIST-04",
+  "exemple": "Le réveil sonne à 7 heures. Le sablier compte 3 minutes pour se brosser les dents.",
+  "regle": "Pour mesurer le temps, on utilise des **outils**. Le **sablier** mesure un temps court. La **montre** et la **pendule** donnent l’**heure**. Le **réveil** sonne à l’heure choisie.",
+  "piege": "Une montre peut avoir des aiguilles ou des chiffres.",
+  "essai": {
+    "consigne": "Quel outil sonne le matin ?",
+    "options": [
+      "le réveil",
+      "le sablier",
+      "le calendrier"
+    ],
+    "reponse": "le réveil",
+    "explication": "Le réveil sonne pour nous lever."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
