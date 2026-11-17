@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-3E-ALGO-01",
+  "exemple": "Un lutin avance jusqu’à toucher le bord ; s’il rencontre un obstacle, il tourne de 90°.",
+  "regle": "La boucle « **répéter jusqu’à** » s’arrête quand une condition devient vraie : le nombre de tours n’est pas connu d’avance. On peut **imbriquer** une condition dans une boucle. Un **bloc personnalisé** (sous-programme) évite de répéter du code.",
+  "piege": "Une boucle dont la condition d’arrêt n’est jamais atteinte ne s’arrête pas.",
+  "essai": {
+    "consigne": "n vaut 1. Répéter jusqu’à n > 10 : n ← n + 4. Valeur finale ?",
+    "options": [
+      "13",
+      "10",
+      "9"
+    ],
+    "reponse": "13",
+    "explication": "1, 5, 9, 13."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

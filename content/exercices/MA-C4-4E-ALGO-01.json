@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C4-4E-ALGO-01",
+  "exercices": [
+    {
+      "id": "MA-C4-4E-ALGO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’une variable ?",
+      "options": [
+        "une valeur mémorisée qui peut changer",
+        "une instruction fixe",
+        "un dessin"
+      ],
+      "reponse": "une valeur mémorisée qui peut changer",
+      "indice": "Score, vies…",
+      "explication": "Une case mémoire nommée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "x vaut 3. « si x > 5 alors dire Oui sinon dire Non ». Résultat ?",
+      "options": [
+        "Non",
+        "Oui",
+        "rien"
+      ],
+      "reponse": "Non",
+      "indice": "3 > 5 ?",
+      "explication": "Le test est faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "score vaut 4. On ajoute 2 à score. Que vaut score ?",
+      "options": [
+        "6",
+        "2",
+        "42"
+      ],
+      "reponse": "6",
+      "indice": "4 + 2.",
+      "explication": "6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "n vaut 0. Répéter 5 fois : ajouter 3 à n. Valeur finale ?",
+      "options": [
+        "15",
+        "8",
+        "3"
+      ],
+      "reponse": "15",
+      "indice": "5 × 3.",
+      "explication": "15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour savoir si un nombre n est pair, quel test utiliser ?",
+      "options": [
+        "si le reste de n ÷ 2 vaut 0",
+        "si n > 2",
+        "si n = 2"
+      ],
+      "reponse": "si le reste de n ÷ 2 vaut 0",
+      "indice": "Division par 2.",
+      "explication": "Pair : reste nul.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "a vaut 5, b vaut 8. On exécute « a ← b ». Que vaut a ?",
+      "options": [
+        "8",
+        "5",
+        "13"
+      ],
+      "reponse": "8",
+      "indice": "a reçoit la valeur de b.",
+      "explication": "a vaut 8.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "x vaut 1. Répéter jusqu’à x > 20 : x ← x × 2. Valeur finale ?",
+      "options": [
+        "32",
+        "16",
+        "20"
+      ],
+      "reponse": "32",
+      "indice": "1, 2, 4, 8, 16, 32.",
+      "explication": "32 est le premier > 20.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "vies vaut 3. Le joueur est touché 3 fois (vies ← vies − 1). « si vies = 0 alors dire Perdu ». Que se passe-t-il ?",
+      "options": [
+        "Perdu s’affiche",
+        "rien",
+        "vies vaut 3"
+      ],
+      "reponse": "Perdu s’affiche",
+      "indice": "3 − 3.",
+      "explication": "vies = 0 : Perdu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

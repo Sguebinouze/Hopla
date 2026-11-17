@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C4-3E-ALGO-01",
+  "exercices": [
+    {
+      "id": "MA-C4-3E-ALGO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle boucle convient si on ne connait pas le nombre de tours ?",
+      "options": [
+        "répéter jusqu’à",
+        "répéter 10 fois",
+        "aucune"
+      ],
+      "reponse": "répéter jusqu’à",
+      "indice": "Condition d’arrêt.",
+      "explication": "« Répéter jusqu’à ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "n vaut 2. Répéter jusqu’à n > 7 : n ← n + 2. Valeur finale ?",
+      "options": [
+        "8",
+        "7",
+        "10"
+      ],
+      "reponse": "8",
+      "indice": "2, 4, 6, 8.",
+      "explication": "8.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert un bloc personnalisé ?",
+      "options": [
+        "regrouper des instructions réutilisables",
+        "effacer le programme",
+        "changer de couleur"
+      ],
+      "reponse": "regrouper des instructions réutilisables",
+      "indice": "Sous-programme.",
+      "explication": "Il évite de recopier.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "n vaut 6. « si n pair alors n ← n ÷ 2 sinon n ← 3n + 1 ». Nouveau n ?",
+      "options": [
+        "3",
+        "19",
+        "12"
+      ],
+      "reponse": "3",
+      "indice": "6 est pair.",
+      "explication": "6 ÷ 2 = 3.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "n vaut 3. Même règle. Nouveau n ?",
+      "options": [
+        "10",
+        "1,5",
+        "9"
+      ],
+      "reponse": "10",
+      "indice": "3 est impair.",
+      "explication": "3 × 3 + 1 = 10.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "s vaut 0. Pour i de 1 à 4 : s ← s + i. Valeur finale de s ?",
+      "options": [
+        "10",
+        "4",
+        "24"
+      ],
+      "reponse": "10",
+      "indice": "1 + 2 + 3 + 4.",
+      "explication": "10.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "n vaut 10. Répéter jusqu’à n = 0 : n ← n − 3. Que se passe-t-il ?",
+      "options": [
+        "la boucle ne s’arrête jamais",
+        "n vaut 0",
+        "n vaut 1"
+      ],
+      "reponse": "la boucle ne s’arrête jamais",
+      "indice": "10, 7, 4, 1, −2…",
+      "explication": "n ne vaut jamais exactement 0.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Compteur c vaut 0. Pour chaque lancer de dé, si le résultat est 6, c ← c + 1. Que compte c ?",
+      "options": [
+        "le nombre de 6 obtenus",
+        "le nombre de lancers",
+        "la somme des dés"
+      ],
+      "reponse": "le nombre de 6 obtenus",
+      "indice": "Condition sur 6.",
+      "explication": "Il compte les 6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

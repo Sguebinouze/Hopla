@@ -286,6 +286,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-3E-GEO-01",
+      "titre": "Latitude et longitude",
+      "domaine": "Espace et géométrie",
+      "theme": "Représenter l’espace",
+      "attendu": "Repérer un point sur la sphère terrestre par sa latitude et sa longitude.",
+      "exemple": "Paris : environ 49° N et 2° E.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 9,
+        "extrait": "Le repérage s’étend à la sphère"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-3E-ALGO-01",
+      "titre": "Boucles et conditions combinées",
+      "domaine": "Algorithmique et programmation",
+      "theme": "Écrire, mettre au point, exécuter un programme",
+      "attendu": "Combiner boucles « répéter jusqu’à » et conditions pour résoudre un problème, en décomposant en sous-programmes.",
+      "exemple": "Répéter jusqu’à n = 1 : si n est pair alors n ← n ÷ 2 sinon n ← 3n + 1.",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 12,
+        "extrait": "boucles « répéter … fois », et « répéter jusqu’à … »"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

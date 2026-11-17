@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C4-3E-GEO-01",
+  "exercices": [
+    {
+      "id": "MA-C4-3E-GEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la latitude du pôle Nord ?",
+      "options": [
+        "90° N",
+        "0°",
+        "180°"
+      ],
+      "reponse": "90° N",
+      "indice": "Le plus loin de l’équateur.",
+      "explication": "90° N.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Par quelle ville passe le méridien de référence ?",
+      "options": [
+        "Greenwich",
+        "Paris",
+        "New York"
+      ],
+      "reponse": "Greenwich",
+      "indice": "Près de Londres.",
+      "explication": "Greenwich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les lignes de même latitude s’appellent…",
+      "options": [
+        "les parallèles",
+        "les méridiens",
+        "les tropiques seulement"
+      ],
+      "reponse": "les parallèles",
+      "indice": "Parallèles à l’équateur.",
+      "explication": "Les parallèles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un point à 30° S est situé…",
+      "options": [
+        "dans l’hémisphère sud",
+        "dans l’hémisphère nord",
+        "sur l’équateur"
+      ],
+      "reponse": "dans l’hémisphère sud",
+      "indice": "S : sud.",
+      "explication": "Hémisphère sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la longitude maximale ?",
+      "options": [
+        "180°",
+        "90°",
+        "360°"
+      ],
+      "reponse": "180°",
+      "indice": "Est ou ouest.",
+      "explication": "180°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Paris est à environ 2° E. Elle est…",
+      "options": [
+        "un peu à l’est de Greenwich",
+        "loin à l’ouest",
+        "sur l’équateur"
+      ],
+      "reponse": "un peu à l’est de Greenwich",
+      "indice": "E : est.",
+      "explication": "À l’est du méridien de Greenwich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Deux villes ont même longitude. Elles sont…",
+      "options": [
+        "sur le même méridien",
+        "sur le même parallèle",
+        "à la même distance de l’équateur"
+      ],
+      "reponse": "sur le même méridien",
+      "indice": "Longitude : méridien.",
+      "explication": "Même méridien, nord-sud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-3E-GEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle latitude a le tropique du Cancer ?",
+      "options": [
+        "environ 23° N",
+        "environ 66° N",
+        "0°"
+      ],
+      "reponse": "environ 23° N",
+      "indice": "Proche de l’équateur.",
+      "explication": "Environ 23°26′ N.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

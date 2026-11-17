@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-REP-01",
+  "exemple": "Dans une salle de 6 m × 4 m × 3 m, une lampe au plafond, au centre, est en (3 ; 2 ; 3).",
+  "regle": "Dans l’espace, un point se repère par **trois** coordonnées : **abscisse**, **ordonnée** et **altitude** (hauteur), notées (x ; y ; z). L’origine est un **sommet** du pavé.",
+  "piege": "L’ordre des coordonnées est toujours le même : abscisse, ordonnée, altitude.",
+  "essai": {
+    "consigne": "Combien de coordonnées pour repérer un point dans l’espace ?",
+    "options": [
+      "3",
+      "2",
+      "4"
+    ],
+    "reponse": "3",
+    "explication": "Abscisse, ordonnée, altitude."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

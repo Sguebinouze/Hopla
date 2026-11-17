@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C4-4E-ALGO-01",
+  "exemple": "Un jeu : « mettre vies à 3 ; si le chat touche le chien, ajouter −1 à vies ; si vies = 0, dire Perdu ».",
+  "regle": "Une **variable** est une case mémoire nommée dont la valeur peut changer. Une **condition** « **si** … **alors** … **sinon** » choisit une action selon un test. Une **boucle** « **répéter** » exécute plusieurs fois des instructions.",
+  "piege": "Le test d’une condition est vrai ou faux : il n’y a pas de troisième possibilité.",
+  "essai": {
+    "consigne": "x vaut 7. « si x > 5 alors dire Grand sinon dire Petit ». Que dit le programme ?",
+    "options": [
+      "Grand",
+      "Petit",
+      "rien"
+    ],
+    "reponse": "Grand",
+    "explication": "7 > 5 est vrai."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C4-4E-REP-01",
+  "exercices": [
+    {
+      "id": "MA-C4-4E-REP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment s’appelle la troisième coordonnée ?",
+      "options": [
+        "l’altitude",
+        "l’abscisse",
+        "l’ordonnée"
+      ],
+      "reponse": "l’altitude",
+      "indice": "La hauteur.",
+      "explication": "L’altitude.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelles sont les coordonnées de l’origine ?",
+      "options": [
+        "(0 ; 0 ; 0)",
+        "(1 ; 1 ; 1)",
+        "(0 ; 0)"
+      ],
+      "reponse": "(0 ; 0 ; 0)",
+      "indice": "Trois zéros.",
+      "explication": "(0 ; 0 ; 0).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un point au sol a une altitude de…",
+      "options": [
+        "0",
+        "1",
+        "impossible à savoir"
+      ],
+      "reponse": "0",
+      "indice": "Au niveau du sol.",
+      "explication": "z = 0.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pavé de 5 × 3 × 2. Coordonnées du sommet opposé à l’origine ?",
+      "options": [
+        "(5 ; 3 ; 2)",
+        "(2 ; 3 ; 5)",
+        "(5 ; 3 ; 0)"
+      ],
+      "reponse": "(5 ; 3 ; 2)",
+      "indice": "Toutes les dimensions.",
+      "explication": "(5 ; 3 ; 2).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le point (4 ; 0 ; 0) est situé…",
+      "options": [
+        "sur l’axe des abscisses",
+        "sur l’axe des altitudes",
+        "en l’air"
+      ],
+      "reponse": "sur l’axe des abscisses",
+      "indice": "y = 0 et z = 0.",
+      "explication": "Sur l’arête de l’axe des abscisses.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Cube de côté 2. Centre de la face du dessus ?",
+      "options": [
+        "(1 ; 1 ; 2)",
+        "(2 ; 2 ; 2)",
+        "(1 ; 1 ; 1)"
+      ],
+      "reponse": "(1 ; 1 ; 2)",
+      "indice": "Au milieu, en haut.",
+      "explication": "(1 ; 1 ; 2).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Cube de côté 4. Coordonnées de son centre ?",
+      "options": [
+        "(2 ; 2 ; 2)",
+        "(4 ; 4 ; 4)",
+        "(2 ; 2 ; 4)"
+      ],
+      "reponse": "(2 ; 2 ; 2)",
+      "indice": "La moitié partout.",
+      "explication": "(2 ; 2 ; 2).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C4-4E-REP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur la Terre, quelles coordonnées remplacent abscisse et ordonnée ?",
+      "options": [
+        "longitude et latitude",
+        "nord et sud",
+        "altitude et profondeur"
+      ],
+      "reponse": "longitude et latitude",
+      "indice": "Sur une sphère.",
+      "explication": "Longitude et latitude.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

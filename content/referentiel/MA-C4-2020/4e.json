@@ -316,6 +316,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-4E-REP-01",
+      "titre": "Se repérer dans un pavé droit",
+      "domaine": "Espace et géométrie",
+      "theme": "Représenter l’espace",
+      "attendu": "Repérer un point dans un pavé droit par trois coordonnées : abscisse, ordonnée, altitude.",
+      "exemple": "Le sommet G d’un cube de côté 1 a pour coordonnées (1 ; 1 ; 1).",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 9,
+        "extrait": "Le repérage se fait dans un pavé droit"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C4-4E-ALGO-01",
+      "titre": "Variables et conditions",
+      "domaine": "Algorithmique et programmation",
+      "theme": "Écrire, mettre au point, exécuter un programme",
+      "attendu": "Utiliser une variable, une condition « si… alors… sinon » et une boucle dans un programme.",
+      "exemple": "Si score > 10 alors dire « Gagné » sinon dire « Perdu ».",
+      "source": {
+        "id": "bo22-2019-reperes-maths-c4",
+        "page": 12,
+        "extrait": "l’intégration d’une variable dans un programme"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }
