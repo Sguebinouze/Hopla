@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-6E-VIE-01",
+  "exemple": "Sur Vénus, il fait 460 °C. Sur Mars, l’eau est gelée. Sur Terre, elle coule.",
+  "regle": "La vie sur Terre demande trois conditions. De l’**eau liquide**, une **atmosphère** qui protège et contient de l’oxygène, une **température** adaptée. Ces conditions dépendent de la **distance au Soleil** : ni trop près, ni trop loin.",
+  "piege": "L’eau existe ailleurs, mais souvent en glace ou en vapeur, pas liquide.",
+  "essai": {
+    "consigne": "Quelle condition manque sur Mars aujourd’hui ?",
+    "options": [
+      "l’eau liquide en surface",
+      "le Soleil",
+      "des roches"
+    ],
+    "reponse": "l’eau liquide en surface",
+    "explication": "Elle y est gelée."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

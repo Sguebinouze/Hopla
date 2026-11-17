@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-CHAIN-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-CHAIN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire la flèche dans « herbe → lapin » ?",
+      "options": [
+        "est mangé par",
+        "mange",
+        "vit avec"
+      ],
+      "reponse": "est mangé par",
+      "indice": "Du mangé vers le mangeur.",
+      "explication": "L’herbe est mangée par le lapin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle chaîne est bien écrite ?",
+      "options": [
+        "salade → escargot → hérisson",
+        "hérisson → escargot → salade",
+        "escargot → salade → hérisson"
+      ],
+      "reponse": "salade → escargot → hérisson",
+      "indice": "Commence par un végétal.",
+      "explication": "Salade, puis escargot, puis hérisson.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "De quoi ont besoin les végétaux pour fabriquer leur matière ?",
+      "options": [
+        "de lumière, d’eau et d’air",
+        "de viande",
+        "de sucre"
+      ],
+      "reponse": "de lumière, d’eau et d’air",
+      "indice": "Ils ne mangent pas.",
+      "explication": "Lumière, eau, air, sels minéraux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Plusieurs chaînes reliées forment…",
+      "options": [
+        "un réseau alimentaire",
+        "une pyramide",
+        "un écosystème vide"
+      ],
+      "reponse": "un réseau alimentaire",
+      "indice": "Comme un filet.",
+      "explication": "Un réseau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans « gland → écureuil → martre », qui est le prédateur ?",
+      "options": [
+        "la martre",
+        "le gland",
+        "l’écureuil"
+      ],
+      "reponse": "la martre",
+      "indice": "En bout de chaîne.",
+      "explication": "La martre mange l’écureuil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les animaux grandissent grâce à…",
+      "options": [
+        "la nourriture venant d’autres êtres vivants",
+        "la lumière seule",
+        "l’air seul"
+      ],
+      "reponse": "la nourriture venant d’autres êtres vivants",
+      "indice": "Ils mangent.",
+      "explication": "Leur matière vient de ce qu’ils mangent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que se passe-t-il si un pesticide tue les criquets ?",
+      "options": [
+        "les grenouilles manquent de nourriture",
+        "l’herbe disparaît",
+        "les hérons mangent de l’herbe"
+      ],
+      "reponse": "les grenouilles manquent de nourriture",
+      "indice": "Suis la chaîne.",
+      "explication": "Le maillon suivant est touché.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi les végétaux sont-ils à la base des chaînes ?",
+      "options": [
+        "ils produisent leur propre matière",
+        "ils sont les plus gros",
+        "ils vivent longtemps"
+      ],
+      "reponse": "ils produisent leur propre matière",
+      "indice": "Production.",
+      "explication": "Ce sont des producteurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

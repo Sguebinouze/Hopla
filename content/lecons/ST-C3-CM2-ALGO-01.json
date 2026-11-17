@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-ALGO-01",
+  "exemple": "Répéter 4 fois : avancer de 10 pas, tourner à droite de 90°. Le robot trace un carré.",
+  "regle": "Un **algorithme** est une suite d’**instructions** dans un **ordre** précis. On peut **répéter** un bloc (« répéter 4 fois ») ou poser une **condition** (« si obstacle, alors tourner »). Un **programme** traduit l’algorithme pour la machine, souvent avec des **blocs**.",
+  "piege": "L’ordre compte : tourner puis avancer ne donne pas le même trajet.",
+  "essai": {
+    "consigne": "Combien de fois répéter « avancer, tourner de 90° » pour un carré ?",
+    "options": [
+      "4",
+      "3",
+      "6"
+    ],
+    "reponse": "4",
+    "explication": "Un carré a 4 côtés."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

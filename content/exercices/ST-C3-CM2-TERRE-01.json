@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-TERRE-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-TERRE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce que le Soleil ?",
+      "options": [
+        "une étoile",
+        "une planète",
+        "un satellite"
+      ],
+      "reponse": "une étoile",
+      "indice": "Il produit sa lumière.",
+      "explication": "Le Soleil est une étoile.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de planètes compte le système solaire ?",
+      "options": [
+        "8",
+        "9",
+        "12"
+      ],
+      "reponse": "8",
+      "indice": "De Mercure à Neptune.",
+      "explication": "Huit planètes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Autour de quoi tourne la Lune ?",
+      "options": [
+        "la Terre",
+        "le Soleil seulement",
+        "Mars"
+      ],
+      "reponse": "la Terre",
+      "indice": "C’est un satellite.",
+      "explication": "La Lune tourne autour de la Terre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle planète est la plus proche du Soleil ?",
+      "options": [
+        "Mercure",
+        "Vénus",
+        "Neptune"
+      ],
+      "reponse": "Mercure",
+      "indice": "La première.",
+      "explication": "Mercure.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle planète vient juste après la Terre ?",
+      "options": [
+        "Mars",
+        "Vénus",
+        "Jupiter"
+      ],
+      "reponse": "Mars",
+      "indice": "La planète rouge.",
+      "explication": "Mars est la 4e.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle est la plus grosse planète ?",
+      "options": [
+        "Jupiter",
+        "la Terre",
+        "Mercure"
+      ],
+      "reponse": "Jupiter",
+      "indice": "Une géante gazeuse.",
+      "explication": "Jupiter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la Lune brille-t-elle la nuit ?",
+      "options": [
+        "elle renvoie la lumière du Soleil",
+        "elle produit sa lumière",
+        "elle est en feu"
+      ],
+      "reponse": "elle renvoie la lumière du Soleil",
+      "indice": "Ce n’est pas une étoile.",
+      "explication": "Elle est éclairée par le Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En combien de temps environ la Terre fait-elle le tour du Soleil ?",
+      "options": [
+        "un an",
+        "un jour",
+        "un mois"
+      ],
+      "reponse": "un an",
+      "indice": "Le retour des saisons.",
+      "explication": "Environ 365 jours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

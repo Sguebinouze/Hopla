@@ -151,6 +151,111 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-VIE-01",
+      "titre": "Conditions de la vie sur Terre",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "La Terre, une planète singulière et active",
+      "attendu": "Expliquer pourquoi la vie est possible sur Terre : eau liquide, atmosphère, température adaptée.",
+      "exemple": "Sur Mars, l’eau est gelée ; sur Vénus, il fait plus de 400 °C.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 96,
+        "extrait": "Décrire les conditions qui permettent la présence de la vie sur Terre"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-CLIM-01",
+      "titre": "Le réchauffement climatique",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "La Terre, une planète singulière et active",
+      "attendu": "Argumenter avec des données que le climat se réchauffe à cause des gaz à effet de serre émis par les activités humaines.",
+      "exemple": "Depuis 1850, la température moyenne a augmenté d’environ 1,2 °C.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 96,
+        "extrait": "Construire une argumentation relative au réchauffement climatique récent"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-ECO-01",
+      "titre": "Saisons et peuplement",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Relier les changements de peuplement d’un milieu au fil des saisons aux conditions du milieu, et décrire les adaptations à l’hiver.",
+      "exemple": "Le hérisson hiberne ; l’hirondelle migre ; l’érable perd ses feuilles.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 97,
+        "extrait": "Suivre les changements de peuplement au cours des saisons"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-VEG-01",
+      "titre": "Besoins des végétaux",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Relier la production de matière par les végétaux à leurs besoins : lumière, eau, sels minéraux, dioxyde de carbone.",
+      "exemple": "Une plante privée de lumière jaunit et cesse de grandir.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 97,
+        "extrait": "production primaire"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-DECOMP-01",
+      "titre": "Décomposeurs et cycle de la matière",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Montrer que la matière des êtres morts est décomposée, notamment par les microorganismes, et retourne au sol.",
+      "exemple": "Les feuilles mortes deviennent de l’humus grâce aux vers de terre et aux champignons.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 97,
+        "extrait": "décomposée après leur mort (exemple du sol)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-REPRO-01",
+      "titre": "La reproduction humaine",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Cycle de vie et reproduction des êtres vivants",
+      "attendu": "Localiser les organes reproducteurs et décrire la fécondation interne et le développement de l’embryon dans l’utérus.",
+      "exemple": "L’embryon se développe dans l’utérus, relié au placenta.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 91,
+        "extrait": "fécondation interne et le développement vivipare"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-6E-RESS-01",
+      "titre": "Exploiter les ressources avec raison",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Justifier une exploitation raisonnée des ressources et concevoir des aménagements favorables à la biodiversité.",
+      "exemple": "Un hôtel à insectes ou un nichoir accueille des espèces utiles.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 98,
+        "extrait": "Justifier la nécessité d’une exploitation raisonnée des ressources"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

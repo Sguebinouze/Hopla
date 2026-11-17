@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-PROG-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-PROG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un détecteur d’obstacle est…",
+      "options": [
+        "un capteur",
+        "un actionneur",
+        "une batterie"
+      ],
+      "reponse": "un capteur",
+      "indice": "Il reçoit une information.",
+      "explication": "Un capteur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une lampe qui s’allume est…",
+      "options": [
+        "un actionneur",
+        "un capteur",
+        "un programme"
+      ],
+      "reponse": "un actionneur",
+      "indice": "Elle agit.",
+      "explication": "Un actionneur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui décide quoi faire dans un objet programmable ?",
+      "options": [
+        "le programme",
+        "le moteur",
+        "la carrosserie"
+      ],
+      "reponse": "le programme",
+      "indice": "Traiter l’information.",
+      "explication": "Le programme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une porte automatique s’ouvre quand on approche. Quel est le capteur ?",
+      "options": [
+        "le détecteur de présence",
+        "le moteur",
+        "la vitre"
+      ],
+      "reponse": "le détecteur de présence",
+      "indice": "Il détecte.",
+      "explication": "Le détecteur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Et l’actionneur de cette porte ?",
+      "options": [
+        "le moteur",
+        "le détecteur",
+        "le bouton d’urgence"
+      ],
+      "reponse": "le moteur",
+      "indice": "Il fait bouger.",
+      "explication": "Le moteur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un capteur de lumière sert à…",
+      "options": [
+        "mesurer s’il fait jour ou nuit",
+        "éclairer",
+        "faire avancer"
+      ],
+      "reponse": "mesurer s’il fait jour ou nuit",
+      "indice": "Il mesure.",
+      "explication": "Il mesure la luminosité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Ordre de fonctionnement ?",
+      "options": [
+        "acquérir, traiter, agir",
+        "agir, acquérir, traiter",
+        "traiter, agir, acquérir"
+      ],
+      "reponse": "acquérir, traiter, agir",
+      "indice": "Information puis action.",
+      "explication": "Capteur, programme, actionneur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un buzzer qui sonne dans une alarme est…",
+      "options": [
+        "un actionneur",
+        "un capteur",
+        "une information"
+      ],
+      "reponse": "un actionneur",
+      "indice": "Il produit un son.",
+      "explication": "Un actionneur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

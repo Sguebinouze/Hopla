@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-PROG-01",
+  "exemple": "Un lampadaire intelligent s’allume quand quelqu’un passe et que la nuit tombe.",
+  "regle": "Un objet programmable **acquiert** des informations avec des **capteurs** (détecteur de présence, capteur de lumière). Un **programme** les **traite** et décide. Des **actionneurs** **agissent** : moteur, lampe, haut-parleur. Capteurs → programme : **chaîne d’information**. Programme → actionneurs : **chaîne d’action**.",
+  "piege": "Le capteur reçoit une information ; l’actionneur produit une action.",
+  "essai": {
+    "consigne": "Dans un robot, le moteur des roues est…",
+    "options": [
+      "un actionneur",
+      "un capteur",
+      "un programme"
+    ],
+    "reponse": "un actionneur",
+    "explication": "Il agit : il fait tourner les roues."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

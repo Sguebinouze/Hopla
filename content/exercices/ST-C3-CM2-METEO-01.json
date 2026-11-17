@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-METEO-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-METEO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel instrument mesure la température ?",
+      "options": [
+        "le thermomètre",
+        "le pluviomètre",
+        "l’anémomètre"
+      ],
+      "reponse": "le thermomètre",
+      "indice": "thermo : chaleur.",
+      "explication": "Le thermomètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel instrument mesure la pluie ?",
+      "options": [
+        "le pluviomètre",
+        "le thermomètre",
+        "la boussole"
+      ],
+      "reponse": "le pluviomètre",
+      "indice": "pluvio : pluie.",
+      "explication": "Le pluviomètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel instrument mesure la vitesse du vent ?",
+      "options": [
+        "l’anémomètre",
+        "le pluviomètre",
+        "le baromètre"
+      ],
+      "reponse": "l’anémomètre",
+      "indice": "Il a des coupelles qui tournent.",
+      "explication": "L’anémomètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Le Sahara est chaud et sec. » Est-ce de la météo ou du climat ?",
+      "options": [
+        "du climat",
+        "de la météo",
+        "aucun des deux"
+      ],
+      "reponse": "du climat",
+      "indice": "Sur de longues années.",
+      "explication": "C’est le climat du Sahara.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur combien d’années au moins décrit-on un climat ?",
+      "options": [
+        "30 ans",
+        "1 an",
+        "1 semaine"
+      ],
+      "reponse": "30 ans",
+      "indice": "Une longue période.",
+      "explication": "Au moins 30 ans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Ce matin, orage sur Paris. » C’est…",
+      "options": [
+        "de la météo",
+        "du climat",
+        "une saison"
+      ],
+      "reponse": "de la météo",
+      "indice": "Ce matin.",
+      "explication": "Un moment précis : météo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En quelle unité mesure-t-on la pluie ?",
+      "options": [
+        "en millimètres",
+        "en degrés",
+        "en kilogrammes"
+      ],
+      "reponse": "en millimètres",
+      "indice": "La hauteur d’eau.",
+      "explication": "En millimètres de pluie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un hiver très froid prouve-t-il que la Terre se refroidit ?",
+      "options": [
+        "non, c’est la météo d’une saison",
+        "oui, forcément",
+        "oui, si il neige"
+      ],
+      "reponse": "non, c’est la météo d’une saison",
+      "indice": "Climat : moyenne sur 30 ans.",
+      "explication": "Il faut des moyennes sur de longues années.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

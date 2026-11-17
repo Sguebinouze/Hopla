@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-METEO-01",
+  "exemple": "Aujourd’hui il pleut à Brest : c’est la météo. En Bretagne, il pleut souvent toute l’année : c’est le climat.",
+  "regle": "La **météo** décrit le temps qu’il fait **un jour donné**, à un endroit. Le **climat** décrit le temps **moyen** d’une région sur au moins **30 ans**. Instruments : le **thermomètre** (température), le **pluviomètre** (pluie), l’**anémomètre** (vitesse du vent).",
+  "piege": "Une journée froide ne prouve pas que le climat se refroidit.",
+  "essai": {
+    "consigne": "« Demain, il fera 25 °C à Lyon. » Est-ce de la météo ou du climat ?",
+    "options": [
+      "de la météo",
+      "du climat",
+      "les deux"
+    ],
+    "reponse": "de la météo",
+    "explication": "Un jour donné : météo."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

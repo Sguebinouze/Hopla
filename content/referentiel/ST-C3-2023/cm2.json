@@ -211,6 +211,156 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-TERRE-01",
+      "titre": "La Terre dans le système solaire",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "La Terre, une planète singulière et active",
+      "attendu": "Situer la Terre dans le système solaire : une planète qui tourne autour du Soleil, avec la Lune pour satellite.",
+      "exemple": "La Terre est la 3e planète à partir du Soleil.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 96,
+        "extrait": "Situer la terre dans le système solaire"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-METEO-01",
+      "titre": "Météo et climat",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "La Terre, une planète singulière et active",
+      "attendu": "Distinguer la météo (le temps d’un jour) du climat (le temps moyen sur de longues années) et mesurer avec des instruments.",
+      "exemple": "Le thermomètre mesure la température ; le pluviomètre, la pluie.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 96,
+        "extrait": "Distinguer la météorologie du climat"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01",
+      "titre": "Séismes, volcans et risques",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "La Terre, une planète singulière et active",
+      "attendu": "Identifier des signes de l’activité de la Terre (séisme, volcan, tempête) et les gestes de prévention associés.",
+      "exemple": "Pendant un séisme, on s’abrite sous une table solide.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 96,
+        "extrait": "Identifier un risque naturel à partir d’un exemple au choix"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-ECO-01",
+      "titre": "Les relations dans un écosystème",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Décrire un écosystème (milieu et êtres vivants) et les relations entre espèces : prédation, coopération.",
+      "exemple": "La mare : l’eau, la vase, les grenouilles, les libellules, les plantes.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 97,
+        "extrait": "Décrire plusieurs types de relations entre espèces au sein d’un écosystème"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-CHAIN-01",
+      "titre": "Chaînes et réseaux alimentaires",
+      "domaine": "La Terre, une planète peuplée par des êtres vivants",
+      "theme": "Écosystème : structure, fonctionnement et dynamique",
+      "attendu": "Représenter les liens alimentaires par des chaînes et des réseaux, avec les végétaux à la base.",
+      "exemple": "herbe → criquet → grenouille → héron",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 97,
+        "extrait": "Repérer la place singulière des végétaux"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-PUB-01",
+      "titre": "Les changements de la puberté",
+      "domaine": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "theme": "Cycle de vie et reproduction des êtres vivants",
+      "attendu": "Décrire les changements du corps à la puberté et les relier à la capacité à se reproduire.",
+      "exemple": "À la puberté, on grandit vite et la voix change.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 90,
+        "extrait": "Décrire et identifier les changements du corps au moment de la puberté"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-FONC-01",
+      "titre": "Besoin, fonction, solution",
+      "domaine": "Matériaux et objets techniques",
+      "theme": "Description du fonctionnement et de la constitution d’objets techniques",
+      "attendu": "Distinguer le besoin, les fonctions techniques d’un objet et les solutions qui les réalisent.",
+      "exemple": "Lampe : éclairer (fonction) avec une ampoule (solution).",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 92,
+        "extrait": "Distinguer un besoin et les fonctions techniques réalisées par un objet"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-CYCLE-01",
+      "titre": "Cycle de vie d’un objet",
+      "domaine": "Matériaux et objets techniques",
+      "theme": "Démarche de conception et de réalisation d’un objet technique",
+      "attendu": "Identifier les étapes du cycle de vie d’un objet et faire des choix qui limitent son impact sur l’environnement.",
+      "exemple": "Extraction, fabrication, transport, utilisation, fin de vie.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 94,
+        "extrait": "Identifier les différentes étapes du cycle de vie d’un objet technique"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-PROG-01",
+      "titre": "Capteurs et actionneurs",
+      "domaine": "Matériaux et objets techniques",
+      "theme": "Programmation d’objets techniques",
+      "attendu": "Repérer dans un objet programmable la chaîne d’information (capteurs) et la chaîne d’action (actionneurs).",
+      "exemple": "Éclairage public : le détecteur de présence est un capteur, la lampe un actionneur.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 95,
+        "extrait": "Repérer les capteurs et les actionneurs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01",
+      "titre": "Programmer un robot",
+      "domaine": "Matériaux et objets techniques",
+      "theme": "Programmation d’objets techniques",
+      "attendu": "Coder un algorithme simple (suite d’instructions, répétition, condition) pour faire agir un robot.",
+      "exemple": "Répéter 4 fois : avancer de 10, tourner à droite de 90°.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 95,
+        "extrait": "Coder un algorithme simple agissant sur le comportement d’un objet technique"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

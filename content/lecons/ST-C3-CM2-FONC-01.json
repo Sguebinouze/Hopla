@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-FONC-01",
+  "exemple": "Une lampe de bureau : l’ampoule éclaire, l’interrupteur allume et éteint, le fil amène le courant.",
+  "regle": "Le **besoin** : ce que l’on veut (voir clair le soir). La **fonction technique** : ce que fait une partie de l’objet (éclairer, allumer). La **solution technologique** : l’élément choisi pour le faire (ampoule LED, interrupteur). Un **croquis** montre ce qu’on voit ; un **schéma** montre comment ça marche.",
+  "piege": "Une fonction commence par un verbe : éclairer, transporter, protéger.",
+  "essai": {
+    "consigne": "Dans un vélo, quelle partie assure la fonction « freiner » ?",
+    "options": [
+      "les freins à patins",
+      "la selle",
+      "la sonnette"
+    ],
+    "reponse": "les freins à patins",
+    "explication": "La solution qui réalise la fonction."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-ALGO-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-ALGO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un algorithme, c’est…",
+      "options": [
+        "une suite d’instructions ordonnées",
+        "un robot",
+        "un écran"
+      ],
+      "reponse": "une suite d’instructions ordonnées",
+      "indice": "Des étapes.",
+      "explication": "Une suite ordonnée d’instructions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pour un triangle équilatéral, on répète…",
+      "options": [
+        "3 fois",
+        "4 fois",
+        "5 fois"
+      ],
+      "reponse": "3 fois",
+      "indice": "3 côtés.",
+      "explication": "3 fois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel bloc évite d’écrire 10 fois la même instruction ?",
+      "options": [
+        "répéter",
+        "si … alors",
+        "attendre"
+      ],
+      "reponse": "répéter",
+      "indice": "Boucle.",
+      "explication": "Répéter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Si obstacle alors tourner » est…",
+      "options": [
+        "une condition",
+        "une boucle",
+        "un capteur"
+      ],
+      "reponse": "une condition",
+      "indice": "Si … alors.",
+      "explication": "Une condition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le robot doit s’arrêter devant un mur. Quel bloc utiliser ?",
+      "options": [
+        "si mur détecté, alors s’arrêter",
+        "répéter 10 fois avancer",
+        "tourner à gauche"
+      ],
+      "reponse": "si mur détecté, alors s’arrêter",
+      "indice": "Condition + capteur.",
+      "explication": "Une condition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Traduis : « répéter 2 fois : avancer 5, tourner à gauche ». Combien de fois le robot avance-t-il ?",
+      "options": [
+        "2 fois",
+        "5 fois",
+        "10 fois"
+      ],
+      "reponse": "2 fois",
+      "indice": "Répéter 2 fois.",
+      "explication": "Deux fois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le robot trace un carré trop petit. Que modifier ?",
+      "options": [
+        "la distance d’avancée",
+        "le nombre de répétitions",
+        "l’angle"
+      ],
+      "reponse": "la distance d’avancée",
+      "indice": "Taille des côtés.",
+      "explication": "Avancer plus loin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-ALGO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour un carré, de combien de degrés tourne-t-on à chaque coin ?",
+      "options": [
+        "90°",
+        "45°",
+        "180°"
+      ],
+      "reponse": "90°",
+      "indice": "Angle droit.",
+      "explication": "90°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

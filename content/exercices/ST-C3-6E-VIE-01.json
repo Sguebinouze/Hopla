@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-6E-VIE-01",
+  "exercices": [
+    {
+      "id": "ST-C3-6E-VIE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sous quelle forme l’eau permet-elle la vie ?",
+      "options": [
+        "liquide",
+        "glace",
+        "vapeur"
+      ],
+      "reponse": "liquide",
+      "indice": "Elle coule.",
+      "explication": "L’eau liquide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle enveloppe gazeuse entoure la Terre ?",
+      "options": [
+        "l’atmosphère",
+        "la croûte",
+        "le noyau"
+      ],
+      "reponse": "l’atmosphère",
+      "indice": "L’air.",
+      "explication": "L’atmosphère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pourquoi fait-il trop chaud sur Mercure ?",
+      "options": [
+        "elle est très proche du Soleil",
+        "elle est très loin",
+        "elle a des volcans"
+      ],
+      "reponse": "elle est très proche du Soleil",
+      "indice": "Distance.",
+      "explication": "Trop près du Soleil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz de l’atmosphère respirons-nous ?",
+      "options": [
+        "le dioxygène",
+        "l’hélium",
+        "le néon"
+      ],
+      "reponse": "le dioxygène",
+      "indice": "Oxygène.",
+      "explication": "Le dioxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "De quoi dépend la température d’une planète ?",
+      "options": [
+        "de sa distance au Soleil et de son atmosphère",
+        "de sa couleur",
+        "de sa forme"
+      ],
+      "reponse": "de sa distance au Soleil et de son atmosphère",
+      "indice": "Deux facteurs.",
+      "explication": "Distance et atmosphère.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle planète a une atmosphère qui la rend brûlante ?",
+      "options": [
+        "Vénus",
+        "Mars",
+        "Neptune"
+      ],
+      "reponse": "Vénus",
+      "indice": "460 °C.",
+      "explication": "Vénus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel rôle protecteur joue l’atmosphère ?",
+      "options": [
+        "elle filtre une partie des rayons du Soleil",
+        "elle refroidit le noyau",
+        "elle produit la lumière"
+      ],
+      "reponse": "elle filtre une partie des rayons du Soleil",
+      "indice": "Rayons dangereux.",
+      "explication": "Elle filtre les UV.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-6E-VIE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi cherche-t-on de l’eau liquide sur d’autres planètes ?",
+      "options": [
+        "c’est une condition de la vie",
+        "pour boire",
+        "pour la décorer"
+      ],
+      "reponse": "c’est une condition de la vie",
+      "indice": "Vie.",
+      "explication": "Sans eau liquide, pas de vie connue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

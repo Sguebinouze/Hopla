@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-TERRE-01",
+  "exemple": "Le Soleil est une étoile. Huit planètes tournent autour de lui. La Terre est la troisième.",
+  "regle": "Le **système solaire** comprend le **Soleil** (une étoile) et **huit planètes** qui tournent autour de lui. Dans l’ordre : Mercure, Vénus, **la Terre**, Mars, Jupiter, Saturne, Uranus, Neptune. La **Lune** est le **satellite** de la Terre : elle tourne autour d’elle.",
+  "piege": "Le Soleil est une étoile, pas une planète : il produit sa propre lumière.",
+  "essai": {
+    "consigne": "Quelle est la place de la Terre à partir du Soleil ?",
+    "options": [
+      "3e",
+      "1re",
+      "5e"
+    ],
+    "reponse": "3e",
+    "explication": "Mercure, Vénus, puis la Terre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

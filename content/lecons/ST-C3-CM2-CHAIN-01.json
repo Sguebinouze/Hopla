@@ -1,0 +1,19 @@
+{
+  "competence": "ST-C3-CM2-CHAIN-01",
+  "exemple": "herbe → criquet → grenouille → héron",
+  "regle": "Une **chaîne alimentaire** se lit avec des **flèches** qui veulent dire « **est mangé par** ». Elle commence toujours par un **végétal** : il fabrique sa matière avec la lumière, l’eau et l’air. Plusieurs chaînes reliées forment un **réseau alimentaire**.",
+  "piege": "La flèche va du mangé vers le mangeur : herbe → lapin.",
+  "essai": {
+    "consigne": "Par quoi commence une chaîne alimentaire ?",
+    "options": [
+      "un végétal",
+      "un prédateur",
+      "un insecte"
+    ],
+    "reponse": "un végétal",
+    "explication": "Le végétal produit sa matière."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

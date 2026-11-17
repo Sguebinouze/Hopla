@@ -1,0 +1,141 @@
+{
+  "competence": "ST-C3-CM2-RISQ-01",
+  "exercices": [
+    {
+      "id": "ST-C3-CM2-RISQ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment appelle-t-on un tremblement de terre ?",
+      "options": [
+        "un séisme",
+        "un cyclone",
+        "une avalanche"
+      ],
+      "reponse": "un séisme",
+      "indice": "Le sol tremble.",
+      "explication": "Un séisme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que rejette un volcan en éruption ?",
+      "options": [
+        "de la lave",
+        "de la neige",
+        "de l’eau de mer"
+      ],
+      "reponse": "de la lave",
+      "indice": "Roche fondue.",
+      "explication": "De la lave et des cendres.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel exercice prépare l’école aux risques majeurs ?",
+      "options": [
+        "le PPMS",
+        "le cross",
+        "la kermesse"
+      ],
+      "reponse": "le PPMS",
+      "indice": "Plan particulier de mise en sûreté.",
+      "explication": "Le PPMS.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qu’un risque naturel ?",
+      "options": [
+        "un phénomène naturel qui peut toucher des personnes",
+        "un phénomène rare dans le désert",
+        "un accident de voiture"
+      ],
+      "reponse": "un phénomène naturel qui peut toucher des personnes",
+      "indice": "Phénomène + personnes.",
+      "explication": "Il faut des enjeux humains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel phénomène vient de l’atmosphère ?",
+      "options": [
+        "une tempête",
+        "un séisme",
+        "une éruption"
+      ],
+      "reponse": "une tempête",
+      "indice": "Le vent.",
+      "explication": "La tempête est atmosphérique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment limiter les dégâts d’un séisme ?",
+      "options": [
+        "construire des bâtiments parasismiques",
+        "construire plus haut",
+        "peindre les murs"
+      ],
+      "reponse": "construire des bâtiments parasismiques",
+      "indice": "Construire solide.",
+      "explication": "Des bâtiments résistants.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle ressource vient de la chaleur de la Terre ?",
+      "options": [
+        "la géothermie",
+        "le charbon",
+        "le vent"
+      ],
+      "reponse": "la géothermie",
+      "indice": "géo : Terre ; thermie : chaleur.",
+      "explication": "La géothermie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ST-C3-CM2-RISQ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi surveille-t-on un volcan actif ?",
+      "options": [
+        "pour alerter et évacuer à temps",
+        "pour l’empêcher d’entrer en éruption",
+        "pour le refroidir"
+      ],
+      "reponse": "pour alerter et évacuer à temps",
+      "indice": "Prévenir.",
+      "explication": "La surveillance permet l’alerte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
