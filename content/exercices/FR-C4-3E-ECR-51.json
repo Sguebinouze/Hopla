@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C4-3E-ECR-51",
+  "exercices": [
+    {
+      "id": "FR-C4-3E-ECR-51-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Remplace « faire un dessin » par un verbe précis.",
+      "options": [
+        "dessiner",
+        "réaliser",
+        "mettre"
+      ],
+      "reponse": "dessiner",
+      "indice": "Un seul verbe.",
+      "explication": "Dessiner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Remplace « il y a des élèves qui » par une formule plus directe.",
+      "options": [
+        "certains élèves",
+        "il y a élèves",
+        "des élèves qu’il y a"
+      ],
+      "reponse": "certains élèves",
+      "indice": "Plus court.",
+      "explication": "Certains élèves…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pourquoi faire des paragraphes ?",
+      "options": [
+        "pour organiser les idées",
+        "pour remplir la page",
+        "par habitude"
+      ],
+      "reponse": "pour organiser les idées",
+      "indice": "Une idée par paragraphe.",
+      "explication": "Chaque paragraphe développe une idée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est la mieux écrite ?",
+      "options": [
+        "Les réseaux sociaux favorisent les échanges mais exposent aux rumeurs.",
+        "Les réseaux sociaux c’est bien mais c’est pas bien.",
+        "Il y a des choses bien et pas bien sur les réseaux."
+      ],
+      "reponse": "Les réseaux sociaux favorisent les échanges mais exposent aux rumeurs.",
+      "indice": "Précision et syntaxe.",
+      "explication": "Elle est précise et structurée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel connecteur introduit une conséquence ?",
+      "options": [
+        "par conséquent",
+        "cependant",
+        "par exemple"
+      ],
+      "reponse": "par conséquent",
+      "indice": "Résultat.",
+      "explication": "Par conséquent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où est l’erreur : « Les arguments que j’ai donné sont solides. » ?",
+      "options": [
+        "donné",
+        "arguments",
+        "solides"
+      ],
+      "reponse": "donné",
+      "indice": "COD placé avant avoir.",
+      "explication": "Donnés : accord avec « que » (les arguments).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment éviter de répéter « Victor Hugo » ?",
+      "options": [
+        "l’auteur des Misérables",
+        "il il il",
+        "Hugo Victor"
+      ],
+      "reponse": "l’auteur des Misérables",
+      "indice": "Reprise nominale.",
+      "explication": "Une périphrase.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ECR-51-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase évite le registre familier ?",
+      "options": [
+        "Ce film m’a profondément ému.",
+        "Ce film, il m’a trop mis une claque.",
+        "Ce film est grave bien."
+      ],
+      "reponse": "Ce film m’a profondément ému.",
+      "indice": "Registre courant ou soutenu.",
+      "explication": "Elle est précise et correcte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

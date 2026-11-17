@@ -1,0 +1,161 @@
+{
+  "competence": "FR-C4-4E-ORAL-51",
+  "exercices": [
+    {
+      "id": "FR-C4-4E-ORAL-51-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quelle est la visée ?",
+      "options": [
+        "convaincre",
+        "informer",
+        "raconter"
+      ],
+      "reponse": "convaincre",
+      "indice": "Il pousse à agir.",
+      "explication": "Il veut convaincre de recycler.",
+      "ecoute": {
+        "texte": "Recyclez vos piles : un geste simple qui protège nos rivières.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quelle est la visée ?",
+      "options": [
+        "informer",
+        "émouvoir",
+        "divertir"
+      ],
+      "reponse": "informer",
+      "indice": "Des faits.",
+      "explication": "Il informe.",
+      "ecoute": {
+        "texte": "Le collège sera fermé lundi en raison d’une coupure d’électricité.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une publicité cherche surtout à…",
+      "options": [
+        "persuader d’acheter",
+        "raconter une histoire vraie",
+        "expliquer une loi"
+      ],
+      "reponse": "persuader d’acheter",
+      "indice": "Vendre.",
+      "explication": "Persuader.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que sous-entend-il ?",
+      "options": [
+        "le train est souvent en retard",
+        "le train est rapide",
+        "il aime le train"
+      ],
+      "reponse": "le train est souvent en retard",
+      "indice": "« Comme d’habitude ».",
+      "explication": "« Comme d’habitude » suggère des retards fréquents.",
+      "ecoute": {
+        "texte": "Le train a encore vingt minutes de retard, comme d’habitude.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quelle est la visée principale ?",
+      "options": [
+        "émouvoir",
+        "informer",
+        "divertir"
+      ],
+      "reponse": "émouvoir",
+      "indice": "Un témoignage personnel.",
+      "explication": "Il cherche à émouvoir.",
+      "ecoute": {
+        "texte": "Quand j’ai revu ma sœur après dix ans, je n’ai pas pu retenir mes larmes.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Persuader et convaincre : quelle différence ?",
+      "options": [
+        "persuader joue sur les émotions, convaincre sur la raison",
+        "aucune",
+        "convaincre est plus court"
+      ],
+      "reponse": "persuader joue sur les émotions, convaincre sur la raison",
+      "indice": "Émotion ou raison.",
+      "explication": "Persuader touche les sentiments ; convaincre s’appuie sur des arguments.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que sous-entend-il ?",
+      "options": [
+        "qu’elle n’a pas travaillé",
+        "qu’elle est malade",
+        "qu’elle a eu une bonne note"
+      ],
+      "reponse": "qu’elle n’a pas travaillé",
+      "indice": "Ironie.",
+      "explication": "Il suggère un manque de travail.",
+      "ecoute": {
+        "texte": "Tu as révisé, je vois : zéro sur vingt.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel procédé oral renforce une visée persuasive ?",
+      "options": [
+        "la répétition et l’adresse directe au public",
+        "le chuchotement",
+        "la lecture monotone"
+      ],
+      "reponse": "la répétition et l’adresse directe au public",
+      "indice": "« Vous, vous, vous… ».",
+      "explication": "Elles captent et entraînent l’auditoire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

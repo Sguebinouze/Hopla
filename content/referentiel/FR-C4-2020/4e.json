@@ -331,6 +331,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-4E-ORAL-51",
+      "titre": "Visées d’un discours oral",
+      "domaine": "Oral",
+      "theme": "Comprendre et interpréter des messages et des discours oraux complexes",
+      "attendu": "Identifier la visée d’un discours oral (informer, convaincre, émouvoir, divertir) et distinguer explicite et implicite.",
+      "exemple": "Une publicité radio veut persuader d’acheter.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 14,
+        "extrait": "Identifier les visées d’un discours oral"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-4E-IMG-51",
+      "titre": "Analyser une image fixe",
+      "domaine": "Lecture et compréhension de l’écrit et de l’image",
+      "theme": "Lire des textes non littéraires, des images et des documents composites",
+      "attendu": "Décrire et analyser une image : cadrage, plans, composition, couleurs, intention.",
+      "exemple": "Une contre-plongée grandit le personnage et lui donne de la puissance.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 16,
+        "extrait": "Savoir décrire et analyser l’image fixe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-4E-LECT-51",
+      "titre": "Justifier son interprétation",
+      "domaine": "Lecture et compréhension de l’écrit et de l’image",
+      "theme": "Contrôler sa compréhension, devenir un lecteur autonome",
+      "attendu": "Justifier une interprétation en citant le texte et en expliquant le lien entre la citation et l’idée.",
+      "exemple": "« Il serrait les poings » : la citation montre sa colère.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 16,
+        "extrait": "Être capable de justifier son interprétation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

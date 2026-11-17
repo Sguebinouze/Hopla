@@ -1,0 +1,145 @@
+{
+  "competence": "FR-C4-3E-ORAL-51",
+  "exercices": [
+    {
+      "id": "FR-C4-3E-ORAL-51-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que signifie réfuter un argument ?",
+      "options": [
+        "montrer qu’il est faux ou faible",
+        "le répéter",
+        "l’accepter"
+      ],
+      "reponse": "montrer qu’il est faux ou faible",
+      "indice": "Contester.",
+      "explication": "On démontre ses limites.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle attitude est constructive dans un débat ?",
+      "options": [
+        "écouter puis répondre aux arguments",
+        "couper la parole",
+        "se moquer"
+      ],
+      "reponse": "écouter puis répondre aux arguments",
+      "indice": "Respect.",
+      "explication": "Écouter permet de répondre précisément.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle expression introduit une opinion ?",
+      "options": [
+        "« À mon avis… »",
+        "« Il était une fois… »",
+        "« Premièrement, mélangez… »"
+      ],
+      "reponse": "« À mon avis… »",
+      "indice": "Point de vue.",
+      "explication": "Elle annonce un avis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que fait-il ?",
+      "options": [
+        "il concède puis nuance",
+        "il insulte",
+        "il change de sujet"
+      ],
+      "reponse": "il concède puis nuance",
+      "indice": "Certes… mais.",
+      "explication": "Il reconnaît un point puis nuance.",
+      "ecoute": {
+        "texte": "Certes, le vélo est lent, mais il ne pollue pas et il entretient la santé.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel argument réfute « Lire ne sert à rien à l’heure d’Internet » ?",
+      "options": [
+        "Lire développe l’attention et le vocabulaire, utiles aussi en ligne.",
+        "Moi, j’aime lire.",
+        "Internet est nul."
+      ],
+      "reponse": "Lire développe l’attention et le vocabulaire, utiles aussi en ligne.",
+      "indice": "Un argument général.",
+      "explication": "Il s’appuie sur un bénéfice vérifiable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce qu’une attaque ad hominem ?",
+      "options": [
+        "s’en prendre à la personne au lieu de l’argument",
+        "un bon exemple",
+        "une conclusion"
+      ],
+      "reponse": "s’en prendre à la personne au lieu de l’argument",
+      "indice": "La personne.",
+      "explication": "C’est un procédé déloyal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le rôle du modérateur d’un débat ?",
+      "options": [
+        "distribuer la parole et faire respecter les règles",
+        "donner son avis",
+        "désigner le gagnant d’avance"
+      ],
+      "reponse": "distribuer la parole et faire respecter les règles",
+      "indice": "Arbitre.",
+      "explication": "Il organise les échanges.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C4-3E-ORAL-51-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi reformuler l’argument de l’autre avant de répondre ?",
+      "options": [
+        "pour montrer qu’on l’a compris et répondre précisément",
+        "pour gagner du temps",
+        "pour le ridiculiser"
+      ],
+      "reponse": "pour montrer qu’on l’a compris et répondre précisément",
+      "indice": "Écoute active.",
+      "explication": "La reformulation évite les malentendus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
