@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-CM1-LIRE-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-LIRE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Happy birthday, Lily! » Que fête Lily ?",
+      "options": [
+        "son anniversaire",
+        "Noël",
+        "la rentrée"
+      ],
+      "reponse": "son anniversaire",
+      "indice": "Birthday.",
+      "explication": "Birthday : anniversaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Closed on Sunday. » Le magasin est fermé…",
+      "options": [
+        "le dimanche",
+        "le samedi",
+        "le lundi"
+      ],
+      "reponse": "le dimanche",
+      "indice": "Sunday.",
+      "explication": "Sunday : dimanche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Dear Max » sert à…",
+      "options": [
+        "commencer une lettre",
+        "finir une lettre",
+        "dire merci"
+      ],
+      "reponse": "commencer une lettre",
+      "indice": "Cher Max.",
+      "explication": "Dear ouvre une lettre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« The museum opens at 10 am. » À quelle heure ouvre le musée ?",
+      "options": [
+        "10 h",
+        "22 h",
+        "12 h"
+      ],
+      "reponse": "10 h",
+      "indice": "Am : le matin.",
+      "explication": "10 am = 10 h du matin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Bring your swimsuit! » Que faut-il apporter ?",
+      "options": [
+        "un maillot de bain",
+        "un pull",
+        "un livre"
+      ],
+      "reponse": "un maillot de bain",
+      "indice": "Swim : nager.",
+      "explication": "Swimsuit : maillot de bain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« No dogs allowed. » Que signifie ce panneau ?",
+      "options": [
+        "Les chiens sont interdits.",
+        "Les chiens sont gratuits.",
+        "Promenez vos chiens."
+      ],
+      "reponse": "Les chiens sont interdits.",
+      "indice": "No…",
+      "explication": "Chiens interdits.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Meet me at the park at 4 pm, near the big tree. » Où est le rendez-vous ?",
+      "options": [
+        "au parc, près du grand arbre",
+        "à l’école",
+        "à la piscine"
+      ],
+      "reponse": "au parc, près du grand arbre",
+      "indice": "Park, tree.",
+      "explication": "Au parc, près du grand arbre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Tickets: £2 for children, £5 for adults. » Prix pour un enfant ?",
+      "options": [
+        "2 livres",
+        "5 livres",
+        "7 livres"
+      ],
+      "reponse": "2 livres",
+      "indice": "Children : enfants.",
+      "explication": "£2 pour un enfant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

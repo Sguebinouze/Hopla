@@ -1,0 +1,141 @@
+{
+  "competence": "LV-C3-CM1-RECET-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-RECET-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « cut » ?",
+      "options": [
+        "couper",
+        "cuire",
+        "boire"
+      ],
+      "reponse": "couper",
+      "indice": "Avec un couteau.",
+      "explication": "Cut : couper.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « add » ?",
+      "options": [
+        "ajouter",
+        "enlever",
+        "laver"
+      ],
+      "reponse": "ajouter",
+      "indice": "Mettre en plus.",
+      "explication": "Add : ajouter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « first » ?",
+      "options": [
+        "d’abord",
+        "enfin",
+        "ensuite"
+      ],
+      "reponse": "d’abord",
+      "indice": "Le premier.",
+      "explication": "First : d’abord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Pour the milk into the glass. » Que fait-on ?",
+      "options": [
+        "On verse le lait dans le verre.",
+        "On boit le lait.",
+        "On chauffe le verre."
+      ],
+      "reponse": "On verse le lait dans le verre.",
+      "indice": "Pour : verser.",
+      "explication": "Verser le lait dans le verre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Bake for 20 minutes. » Que fait-on ?",
+      "options": [
+        "cuire au four 20 minutes",
+        "attendre 2 minutes",
+        "couper en 20 parts"
+      ],
+      "reponse": "cuire au four 20 minutes",
+      "indice": "Bake.",
+      "explication": "Cuire au four 20 minutes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Roll the dice and move your pawn. » C’est…",
+      "options": [
+        "une règle de jeu",
+        "une recette",
+        "une lettre"
+      ],
+      "reponse": "une règle de jeu",
+      "indice": "Dice : dé.",
+      "explication": "Lancer le dé et avancer le pion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« First, wash the apples. Then, cut them. Finally, eat! » Quelle est la deuxième étape ?",
+      "options": [
+        "couper les pommes",
+        "laver les pommes",
+        "manger"
+      ],
+      "reponse": "couper les pommes",
+      "indice": "Then.",
+      "explication": "Then : ensuite, couper.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Do not open the oven before 15 minutes. » Que signifie la consigne ?",
+      "options": [
+        "N’ouvre pas le four avant 15 minutes.",
+        "Ouvre le four après 5 minutes.",
+        "Éteins le four."
+      ],
+      "reponse": "N’ouvre pas le four avant 15 minutes.",
+      "indice": "Do not.",
+      "explication": "Interdiction d’ouvrir avant 15 minutes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CP-COUL-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-COUL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle couleur ?",
+      "options": [
+        "rouge",
+        "vert",
+        "jaune"
+      ],
+      "reponse": "rouge",
+      "indice": "Comme une tomate.",
+      "explication": "« Red » : rouge.",
+      "ecoute": {
+        "texte": "Red.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle couleur ?",
+      "options": [
+        "jaune",
+        "bleu",
+        "noir"
+      ],
+      "reponse": "jaune",
+      "indice": "Comme le soleil.",
+      "explication": "« Yellow » : jaune.",
+      "ecoute": {
+        "texte": "Yellow.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quelle couleur ?",
+      "options": [
+        "vert",
+        "blanc",
+        "rouge"
+      ],
+      "reponse": "vert",
+      "indice": "Comme l’herbe.",
+      "explication": "« Green » : vert.",
+      "ecoute": {
+        "texte": "Green.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. De quelle couleur est le chat ?",
+      "options": [
+        "noir",
+        "blanc",
+        "bleu"
+      ],
+      "reponse": "noir",
+      "indice": "Black.",
+      "explication": "« A black cat » : un chat noir.",
+      "ecoute": {
+        "texte": "A black cat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’est-ce qui est blanc ?",
+      "options": [
+        "la neige",
+        "l’herbe",
+        "le ciel"
+      ],
+      "reponse": "la neige",
+      "indice": "White.",
+      "explication": "« The snow is white. »",
+      "ecoute": {
+        "texte": "The snow is white.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « une pomme rouge » ?",
+      "options": [
+        "a red apple",
+        "an apple red",
+        "a apple red"
+      ],
+      "reponse": "a red apple",
+      "indice": "La couleur avant le nom.",
+      "explication": "La couleur se place avant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quelles couleurs entends-tu ?",
+      "options": [
+        "bleu et jaune",
+        "rouge et vert",
+        "noir et blanc"
+      ],
+      "reponse": "bleu et jaune",
+      "indice": "Deux couleurs.",
+      "explication": "« Blue and yellow ».",
+      "ecoute": {
+        "texte": "Blue and yellow.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-COUL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Bleu + jaune donne…",
+      "options": [
+        "green",
+        "red",
+        "black"
+      ],
+      "reponse": "green",
+      "indice": "En peinture.",
+      "explication": "Bleu et jaune donnent vert : green.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

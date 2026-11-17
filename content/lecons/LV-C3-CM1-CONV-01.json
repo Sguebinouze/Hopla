@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-CONV-01",
+  "exemple": "« Good afternoon, Mrs Smith! This is my friend Léa. » « Nice to meet you, Léa! »",
+  "regle": "Saluer selon l’heure : **Good morning** (matin), **Good afternoon** (après-midi), **Good evening** (soir). Présenter : **This is…** Répondre : **Nice to meet you.** Prendre congé : **Goodbye**, **See you!**",
+  "piege": "« Good night » sert à dire bonne nuit, pas bonsoir en arrivant.",
+  "essai": {
+    "consigne": "Comment salue-t-on le matin ?",
+    "options": [
+      "Good morning!",
+      "Good night!",
+      "Goodbye!"
+    ],
+    "reponse": "Good morning!",
+    "explication": "Morning : le matin."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

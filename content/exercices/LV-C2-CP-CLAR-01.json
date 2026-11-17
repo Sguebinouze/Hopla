@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CP-CLAR-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-CLAR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire cette phrase ?",
+      "options": [
+        "Je ne comprends pas.",
+        "Je suis content.",
+        "Au revoir."
+      ],
+      "reponse": "Je ne comprends pas.",
+      "indice": "Understand : comprendre.",
+      "explication": "« I don’t understand » : je ne comprends pas.",
+      "ecoute": {
+        "texte": "I don’t understand.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "s’il te plait",
+        "merci",
+        "bonjour"
+      ],
+      "reponse": "s’il te plait",
+      "indice": "Pour demander poliment.",
+      "explication": "« Please » : s’il te plait.",
+      "ecoute": {
+        "texte": "Please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "oui",
+        "non",
+        "peut-être"
+      ],
+      "reponse": "oui",
+      "indice": "Le contraire de no.",
+      "explication": "« Yes » : oui.",
+      "ecoute": {
+        "texte": "Yes!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande l’enfant ?",
+      "options": [
+        "de répéter",
+        "de chanter",
+        "de partir"
+      ],
+      "reponse": "de répéter",
+      "indice": "Repeat.",
+      "explication": "« Can you repeat? » : peux-tu répéter ?",
+      "ecoute": {
+        "texte": "Can you repeat, please?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « pardon » en anglais ?",
+      "options": [
+        "Sorry.",
+        "Hello.",
+        "Yes."
+      ],
+      "reponse": "Sorry.",
+      "indice": "On s’excuse.",
+      "explication": "« Sorry » : pardon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire ce mot ?",
+      "options": [
+        "non",
+        "oui",
+        "merci"
+      ],
+      "reponse": "non",
+      "indice": "Le contraire de yes.",
+      "explication": "« No » : non.",
+      "ecoute": {
+        "texte": "No!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que dit l’enfant ?",
+      "options": [
+        "Pardon, je ne comprends pas.",
+        "Merci beaucoup.",
+        "Bonne nuit."
+      ],
+      "reponse": "Pardon, je ne comprends pas.",
+      "indice": "Deux parties : sorry, understand.",
+      "explication": "« Sorry, I don’t understand. »",
+      "ecoute": {
+        "texte": "Sorry, I don’t understand.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Tu ne comprends pas une consigne. Que dis-tu ?",
+      "options": [
+        "Can you repeat, please?",
+        "Goodbye!",
+        "I am six."
+      ],
+      "reponse": "Can you repeat, please?",
+      "indice": "Demande de répéter.",
+      "explication": "On demande de répéter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-EPEL-01",
+  "exemple": "« How do you spell your name? » « T-O-M. »",
+  "regle": "L’alphabet anglais se prononce différemment : **A** se dit [éï], **E** [i], **I** [aï], **J** [djéï], **G** [dji], **R** [ar], **Y** [waï]. Pour demander d’épeler : **How do you spell it?**",
+  "piege": "En anglais, le E se prononce [i] et le I se prononce [aï] : ne les inverse pas.",
+  "essai": {
+    "consigne": "Quel mot s’épelle D-O-G ?",
+    "options": [
+      "dog",
+      "dig",
+      "dot"
+    ],
+    "reponse": "dog",
+    "explication": "D-O-G : dog, le chien."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

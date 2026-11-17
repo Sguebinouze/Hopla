@@ -136,6 +136,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CP-CLAR-01",
+      "titre": "Je ne comprends pas",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Clarifier ou faire clarifier un point (EOI-CP)",
+      "attendu": "Dire qu’on ne comprend pas et demander de répéter.",
+      "exemple": "Sorry, I don’t understand. Can you repeat, please?",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 32,
+        "extrait": "L’élève peut signifier son incompréhension"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CP-COUL-01",
+      "titre": "Les couleurs",
+      "domaine": "S’exprimer oralement en continu",
+      "theme": "Reproduire un modèle oral (EOC-CP)",
+      "attendu": "Reconnaitre et dire les couleurs pour décrire un objet ou un animal.",
+      "exemple": "A red apple. A yellow sun.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 25,
+        "extrait": "il peut décrire très brièvement des personnes, des objets ou des animaux familiers"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CP-FAM-01",
+      "titre": "Ma famille",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Échanger des informations simples (EOI-CP)",
+      "attendu": "Nommer les membres de la famille et répondre à une question simple.",
+      "exemple": "This is my mum. This is my brother.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 31,
+        "extrait": "Échanger des informations simples"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

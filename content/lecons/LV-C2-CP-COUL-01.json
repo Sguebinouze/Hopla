@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CP-COUL-01",
+  "exemple": "« The sun is yellow. The sky is blue. »",
+  "regle": "Couleurs : **red** (rouge), **blue** (bleu), **yellow** (jaune). Et aussi : **green** (vert), **black** (noir), **white** (blanc). En anglais, la couleur se place **avant** le nom : a **red** car.",
+  "piege": "On dit « a red car », pas « a car red ».",
+  "essai": {
+    "consigne": "Comment dit-on « bleu » ?",
+    "options": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "reponse": "blue",
+    "explication": "Blue : bleu."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

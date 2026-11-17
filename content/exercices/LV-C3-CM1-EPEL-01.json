@@ -1,0 +1,169 @@
+{
+  "competence": "LV-C3-CM1-EPEL-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-EPEL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel mot est épelé ?",
+      "options": [
+        "cat",
+        "cut",
+        "cap"
+      ],
+      "reponse": "cat",
+      "indice": "C, A, T.",
+      "explication": "C-A-T : cat.",
+      "ecoute": {
+        "texte": "C, A, T.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel mot est épelé ?",
+      "options": [
+        "sun",
+        "son",
+        "sin"
+      ],
+      "reponse": "sun",
+      "indice": "S, U, N.",
+      "explication": "S-U-N : sun.",
+      "ecoute": {
+        "texte": "S, U, N.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que demande « How do you spell it? » ?",
+      "options": [
+        "Comment ça s’épelle ?",
+        "Comment vas-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Comment ça s’épelle ?",
+      "indice": "Spell : épeler.",
+      "explication": "Comment l’épelles-tu ?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle lettre ?",
+      "options": [
+        "E",
+        "I",
+        "A"
+      ],
+      "reponse": "E",
+      "indice": "Elle se dit [i].",
+      "explication": "La lettre E se dit [i].",
+      "ecoute": {
+        "texte": "E.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle lettre ?",
+      "options": [
+        "I",
+        "E",
+        "Y"
+      ],
+      "reponse": "I",
+      "indice": "Elle se dit [aï].",
+      "explication": "La lettre I se dit [aï].",
+      "ecoute": {
+        "texte": "I.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel mot est épelé ?",
+      "options": [
+        "red",
+        "rod",
+        "rid"
+      ],
+      "reponse": "red",
+      "indice": "Une couleur.",
+      "explication": "R-E-D : red.",
+      "ecoute": {
+        "texte": "R, E, D.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel prénom est épelé ?",
+      "options": [
+        "Jake",
+        "Gabe",
+        "Jack"
+      ],
+      "reponse": "Jake",
+      "indice": "J, A, K, E.",
+      "explication": "J-A-K-E : Jake.",
+      "ecoute": {
+        "texte": "J, A, K, E.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel mot est épelé ?",
+      "options": [
+        "yellow",
+        "hello",
+        "yell"
+      ],
+      "reponse": "yellow",
+      "indice": "Une couleur.",
+      "explication": "Y-E-L-L-O-W : yellow.",
+      "ecoute": {
+        "texte": "Y, E, double L, O, W.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

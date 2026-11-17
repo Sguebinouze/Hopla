@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C3-CM1-CONV-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-CONV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel moment de la journée ?",
+      "options": [
+        "l’après-midi",
+        "le matin",
+        "la nuit"
+      ],
+      "reponse": "l’après-midi",
+      "indice": "Afternoon.",
+      "explication": "« Good afternoon » : bon après-midi.",
+      "ecoute": {
+        "texte": "Good afternoon!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que répond-on à « Nice to meet you » ?",
+      "options": [
+        "Nice to meet you too!",
+        "Goodbye!",
+        "I’m ten."
+      ],
+      "reponse": "Nice to meet you too!",
+      "indice": "Ravi aussi.",
+      "explication": "Enchanté aussi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « à bientôt » ?",
+      "options": [
+        "See you soon!",
+        "Good morning!",
+        "Thank you!"
+      ],
+      "reponse": "See you soon!",
+      "indice": "See you.",
+      "explication": "See you soon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait l’enfant ?",
+      "options": [
+        "Il présente son ami.",
+        "Il dit au revoir.",
+        "Il demande l’heure."
+      ],
+      "reponse": "Il présente son ami.",
+      "indice": "This is…",
+      "explication": "Il présente son ami Sam.",
+      "ecoute": {
+        "texte": "This is my friend Sam.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le soir, en arrivant chez quelqu’un, on dit…",
+      "options": [
+        "Good evening!",
+        "Good night!",
+        "Good morning!"
+      ],
+      "reponse": "Good evening!",
+      "indice": "Bonsoir.",
+      "explication": "Good evening.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que veut dire cette phrase ?",
+      "options": [
+        "À demain !",
+        "À ce soir !",
+        "Bon appétit !"
+      ],
+      "reponse": "À demain !",
+      "indice": "Tomorrow : demain.",
+      "explication": "« See you tomorrow » : à demain.",
+      "ecoute": {
+        "texte": "See you tomorrow!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Remets dans l’ordre : (1) Goodbye! (2) Hello! (3) How are you?",
+      "options": [
+        "2, 3, 1",
+        "1, 2, 3",
+        "3, 1, 2"
+      ],
+      "reponse": "2, 3, 1",
+      "indice": "On salue d’abord.",
+      "explication": "Hello, How are you, Goodbye.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment va la personne ?",
+      "options": [
+        "très bien",
+        "mal",
+        "fatiguée"
+      ],
+      "reponse": "très bien",
+      "indice": "Very well.",
+      "explication": "« I’m very well, thank you. »",
+      "ecoute": {
+        "texte": "I’m very well, thank you.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "competence": "LV-C2-CP-FAM-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CP-FAM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "maman",
+        "papa",
+        "mamie"
+      ],
+      "reponse": "maman",
+      "indice": "Mum.",
+      "explication": "« Mum » : maman.",
+      "ecoute": {
+        "texte": "This is my mum.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "papa",
+        "frère",
+        "papi"
+      ],
+      "reponse": "papa",
+      "indice": "Dad.",
+      "explication": "« Dad » : papa.",
+      "ecoute": {
+        "texte": "This is my dad.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "mon frère",
+        "ma sœur",
+        "mon papi"
+      ],
+      "reponse": "mon frère",
+      "indice": "Un garçon.",
+      "explication": "« Brother » : frère.",
+      "ecoute": {
+        "texte": "This is my brother.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « mamie » ?",
+      "options": [
+        "grandma",
+        "grandpa",
+        "sister"
+      ],
+      "reponse": "grandma",
+      "indice": "Grand + ma.",
+      "explication": "Grandma.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est-ce ?",
+      "options": [
+        "mon papi",
+        "mon papa",
+        "mon frère"
+      ],
+      "reponse": "mon papi",
+      "indice": "Grandpa.",
+      "explication": "« Grandpa » : papi.",
+      "ecoute": {
+        "texte": "This is my grandpa.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « This is my… » ?",
+      "options": [
+        "Voici mon… / ma…",
+        "Je suis…",
+        "Il aime…"
+      ],
+      "reponse": "Voici mon… / ma…",
+      "indice": "Pour présenter.",
+      "explication": "« This is my » : voici mon, ma.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Combien de sœurs ?",
+      "options": [
+        "deux",
+        "une",
+        "trois"
+      ],
+      "reponse": "deux",
+      "indice": "Two.",
+      "explication": "« I have two sisters. »",
+      "ecoute": {
+        "texte": "I have two sisters.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CP-FAM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qui a un chien ?",
+      "options": [
+        "mon frère",
+        "ma sœur",
+        "maman"
+      ],
+      "reponse": "mon frère",
+      "indice": "Brother.",
+      "explication": "« My brother has a dog. »",
+      "ecoute": {
+        "texte": "My brother has a dog.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

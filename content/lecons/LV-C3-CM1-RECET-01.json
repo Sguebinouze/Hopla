@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-RECET-01",
+  "exemple": "« First, cut the bananas. Then, add the milk. Finally, mix. » : un milkshake.",
+  "regle": "Les instructions utilisent des **verbes d’action** : **cut** (couper), **add** (ajouter), **mix** (mélanger), **pour** (verser), **bake** (cuire au four). **First, then, finally** donnent l’ordre.",
+  "piege": "Dans une recette, l’ordre des étapes compte.",
+  "essai": {
+    "consigne": "Que veut dire « mix » ?",
+    "options": [
+      "mélanger",
+      "couper",
+      "verser"
+    ],
+    "reponse": "mélanger",
+    "explication": "Mix : mélanger."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

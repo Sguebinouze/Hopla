@@ -136,6 +136,96 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-LIRE-01",
+      "titre": "Lire un message court",
+      "domaine": "Comprendre l’écrit",
+      "theme": "Comprendre des textes courts et simples (CE-CM1)",
+      "attendu": "Lire une carte, une invitation ou un message court et en tirer l’information utile.",
+      "exemple": "« Party on Saturday at 3 pm! » : une fête samedi à 15 h.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 60,
+        "extrait": "Comprendre des textes courts et simples"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-RECET-01",
+      "titre": "Suivre une recette",
+      "domaine": "Comprendre l’écrit",
+      "theme": "Traiter les informations et agir (CE-CM1)",
+      "attendu": "Comprendre des instructions écrites : recette, règle de jeu, mode d’emploi.",
+      "exemple": "Mix the flour and the eggs. Bake for 20 minutes.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 61,
+        "extrait": "Traiter les informations et agir"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-EPEL-01",
+      "titre": "Épeler en anglais",
+      "domaine": "Écrire",
+      "theme": "Épeler, copier ou écrire sous la dictée des éléments connus (EE-CM1)",
+      "attendu": "Reconnaitre les lettres de l’alphabet anglais à l’oral et écrire un mot épelé.",
+      "exemple": "C-A-T : cat.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 63,
+        "extrait": "l’élève peut épeler, copier ou écrire sous la dictée des éléments connus"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-CONV-01",
+      "titre": "Commencer et finir une conversation",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Établir un contact (saluer, se présenter, présenter quelqu’un, etc.) (EOI-CM1)",
+      "attendu": "Saluer selon le moment, présenter quelqu’un, prendre congé.",
+      "exemple": "Good morning! This is my friend Sam. See you tomorrow!",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 58,
+        "extrait": "l’élève peut engager et clore une conversation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01",
+      "titre": "Exprimer un souhait",
+      "domaine": "Prendre part à une conversation",
+      "theme": "Exprimer ses émotions ou ses souhaits et réagir (EOI-CM1)",
+      "attendu": "Exprimer un souhait poliment (I would like) et réagir à une proposition.",
+      "exemple": "I would like an orange juice, please.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 57,
+        "extrait": "Exprimer ses émotions ou ses souhaits et réagir"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-CM1-CULT-01",
+      "titre": "Repères culturels",
+      "domaine": "Médiation et culture",
+      "theme": "Identifier les repères culturels (M-CM1)",
+      "attendu": "Repérer des similitudes et des différences culturelles avec les pays anglophones.",
+      "exemple": "Au Royaume-Uni, les voitures roulent à gauche.",
+      "source": {
+        "id": "bo12-2026-langues-ecole",
+        "page": 65,
+        "extrait": "l’élève peut identifier une similitude ou une différence culturelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

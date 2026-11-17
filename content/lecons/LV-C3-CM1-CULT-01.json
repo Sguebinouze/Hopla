@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-CULT-01",
+  "exemple": "À Londres, les bus rouges ont deux étages et les voitures roulent à gauche.",
+  "regle": "Le **Royaume-Uni** (capitale **Londres**) et les **États-Unis** (capitale **Washington**) sont des pays anglophones. On y fête **Halloween**, **Thanksgiving** (États-Unis) ou **Bonfire Night** (Royaume-Uni). La monnaie britannique est la **livre sterling** (£).",
+  "piege": "Au Royaume-Uni, on roule à gauche ; aux États-Unis, à droite.",
+  "essai": {
+    "consigne": "Quelle est la capitale du Royaume-Uni ?",
+    "options": [
+      "Londres",
+      "New York",
+      "Dublin"
+    ],
+    "reponse": "Londres",
+    "explication": "London."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

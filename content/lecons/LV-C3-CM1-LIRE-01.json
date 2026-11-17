@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM1-LIRE-01",
+  "exemple": "« Dear Tom, come to my party on Saturday at 3 pm. Love, Emma. »",
+  "regle": "Dans un message court, je cherche **qui**, **quoi**, **quand**, **où**. Les mots connus et les **chiffres** m’aident. **Dear** ouvre une lettre ; **Love** la termine.",
+  "piege": "Pm indique l’après-midi : 3 pm = 15 h.",
+  "essai": {
+    "consigne": "Quand a lieu la fête d’Emma ?",
+    "options": [
+      "samedi",
+      "dimanche",
+      "lundi"
+    ],
+    "reponse": "samedi",
+    "explication": "Saturday : samedi."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

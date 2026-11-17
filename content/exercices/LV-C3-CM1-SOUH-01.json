@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C3-CM1-SOUH-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM1-SOUH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut l’enfant ?",
+      "options": [
+        "une glace",
+        "un gâteau",
+        "une pomme"
+      ],
+      "reponse": "une glace",
+      "indice": "Ice cream.",
+      "explication": "« I’d like an ice cream. »",
+      "ecoute": {
+        "texte": "I’d like an ice cream, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « No, thank you » ?",
+      "options": [
+        "Non, merci.",
+        "Oui, s’il te plait.",
+        "Je ne sais pas."
+      ],
+      "reponse": "Non, merci.",
+      "indice": "Thank you : merci.",
+      "explication": "Non, merci.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Comment se sent l’enfant ?",
+      "options": [
+        "fatigué",
+        "content",
+        "en colère"
+      ],
+      "reponse": "fatigué",
+      "indice": "Tired.",
+      "explication": "« I’m tired » : je suis fatigué.",
+      "ecoute": {
+        "texte": "I’m tired.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase exprime un souhait poli ?",
+      "options": [
+        "I’d like a drink, please.",
+        "Give me a drink!",
+        "Drink!"
+      ],
+      "reponse": "I’d like a drink, please.",
+      "indice": "I would like.",
+      "explication": "La forme polie avec please.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que propose-t-on ?",
+      "options": [
+        "de jouer au foot",
+        "de manger",
+        "de dormir"
+      ],
+      "reponse": "de jouer au foot",
+      "indice": "Play football.",
+      "explication": "« Let’s play football! » : jouons au foot.",
+      "ecoute": {
+        "texte": "Let’s play football!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment réagir avec enthousiasme ?",
+      "options": [
+        "Great!",
+        "Oh no!",
+        "I’m sad."
+      ],
+      "reponse": "Great!",
+      "indice": "Génial.",
+      "explication": "« Great! » : génial !",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle est la différence entre « I like pizza » et « I’d like pizza » ?",
+      "options": [
+        "j’aime / je voudrais",
+        "je voudrais / j’aime",
+        "aucune"
+      ],
+      "reponse": "j’aime / je voudrais",
+      "indice": "Would.",
+      "explication": "« I’d like » exprime un souhait.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM1-SOUH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi l’enfant veut-il un sandwich ?",
+      "options": [
+        "Il a faim.",
+        "Il a soif.",
+        "Il a froid."
+      ],
+      "reponse": "Il a faim.",
+      "indice": "Hungry.",
+      "explication": "« I’m hungry » : j’ai faim.",
+      "ecoute": {
+        "texte": "I’m hungry. I’d like a sandwich.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
