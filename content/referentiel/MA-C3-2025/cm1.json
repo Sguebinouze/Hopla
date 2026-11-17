@@ -435,6 +435,87 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-GEO-01",
+      "titre": "Cercle et disque",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Décrire un cercle comme l’ensemble des points situés à la même distance du centre ; passer du rayon au diamètre et inversement.",
+      "exemple": "Tous les points d’un cercle de rayon 4 cm sont à 4 cm de son centre.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 20,
+        "extrait": "Décrire et reconnaître un cercle et un disque comme un ensemble de points caractérisés par leur distance à un point donné"
+      },
+      "prerequis": [
+        "MA-C2-CE2-GEO-03"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-GEO-02",
+      "titre": "Perpendiculaires et parallèles",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Reconnaitre des droites perpendiculaires et des droites parallèles ; utiliser l’équerre pour vérifier un angle droit.",
+      "exemple": "Les côtés qui se suivent dans un rectangle sont perpendiculaires. Les côtés opposés sont parallèles.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 20,
+        "extrait": "Reconnaître et utiliser la notion de perpendicularité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-GEO-03",
+      "titre": "Triangles et quadrilatères",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Reconnaitre et nommer triangle rectangle, isocèle, équilatéral, carré, rectangle et losange à partir de leur définition.",
+      "exemple": "Un triangle qui a trois côtés de même longueur est équilatéral.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 20,
+        "extrait": "Reconnaître et nommer les figures suivantes en faisant référence à leur définition"
+      },
+      "prerequis": [
+        "MA-C2-CE2-GEO-02"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-SYM-01",
+      "titre": "Axes de symétrie",
+      "domaine": "Espace et géométrie",
+      "theme": "La symétrie axiale",
+      "attendu": "Reconnaitre si une figure a un ou plusieurs axes de symétrie ; construire sur quadrillage le symétrique d’une case par rapport à une droite horizontale ou verticale.",
+      "exemple": "Un rectangle qui n’est pas un carré a 2 axes de symétrie.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 21,
+        "extrait": "Reconnaître si une figure possède un ou plusieurs axes de symétrie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-SOL-01",
+      "titre": "Prismes et patrons du cube",
+      "domaine": "Espace et géométrie",
+      "theme": "Les solides",
+      "attendu": "Décrire un prisme droit ou une pyramide (faces, sommets, arêtes) ; reconnaitre un patron du cube.",
+      "exemple": "Un prisme droit à base triangulaire a 5 faces : 2 triangles et 3 rectangles.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 21,
+        "extrait": "Connaître la nature des faces d’un prisme droit"
+      },
+      "prerequis": [
+        "MA-C2-CE2-GEO-01"
+      ],
+      "statut": "verifie"
     }
   ]
 }

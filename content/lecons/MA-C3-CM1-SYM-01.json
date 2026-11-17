@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-SYM-01",
+  "exemple": "Si on plie un carré selon une diagonale, les deux moitiés se superposent.",
+  "regle": "Un **axe de symétrie** partage une figure en deux parties qui se superposent par pliage. Sur quadrillage, le symétrique d’une case est à la même distance de l’axe, de l’autre côté.",
+  "piege": "La diagonale d’un rectangle qui n’est pas un carré n’est pas un axe de symétrie.",
+  "essai": {
+    "consigne": "Combien d’axes de symétrie a un carré ?",
+    "options": [
+      "4",
+      "2",
+      "1"
+    ],
+    "reponse": "4",
+    "explication": "Les 2 médianes et les 2 diagonales du carré sont des axes de symétrie."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

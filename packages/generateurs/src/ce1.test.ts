@@ -345,7 +345,7 @@ describe('variété CE1', () => {
   // Domaines fermés : peu de consignes possibles, la variété vient des options.
   const FERMES: Record<string, number> = {
     'longueurs-ce1': 2, 'masses-ce1': 2, 'heures-ce1': 10, 'durees-ce1': 10, 'solides-ce1': 6, 'figures-ce1': 9,
-    'generiques-ce1': 13, 'contraires-ce1': 1, 'mots-formes-ce1': 10, 'expressions-ce1': 1, 'lecture-ce1': 30,
+    'generiques-ce1': 13, 'cercle-ce1': 1, 'contraires-ce1': 1, 'mots-formes-ce1': 10, 'expressions-ce1': 1, 'lecture-ce1': 30,
   };
   it.each(GENERATEURS_CE1.map((g) => g.id))('%s : assez de consignes distinctes, d1 différente de d3', (id) => {
     const consignes = DIFFICULTES.map((d) => new Set(GRAINES.map((s) => generateur(id).generer(s, d).consigne)));

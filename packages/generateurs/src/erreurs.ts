@@ -2,6 +2,22 @@
 // parent (60 caractères au plus). L'espace parent affiche ce libellé à la place du code.
 // Un code ajouté dans un générateur doit figurer ici ; le test `erreurs.test.ts` le vérifie.
 export const ERREURS: Record<string, string> = {
+  // Géométrie plane et solides (CE1 à CM2)
+  'cercle-disque-confondus': 'Confond le cercle (le bord) et le disque',
+  'centre-mal-repere': 'Ne repère pas le centre du cercle',
+  'cotes-mal-comptes': 'Compte mal les côtés d’un polygone',
+  'polygones-confondus': 'Confond les noms des polygones',
+  'rayon-diametre-confondus': 'Confond le rayon et le diamètre',
+  'distance-centre': 'Ne compare pas la distance au centre et le rayon',
+  'perpendiculaires-paralleles': 'Confond droites perpendiculaires et parallèles',
+  'vocabulaire-geometrie': 'Se trompe de mot ou d’instrument en géométrie',
+  'proprietes-figures': 'Se trompe sur les propriétés des figures usuelles',
+  'triangles-particuliers': 'Confond les triangles particuliers',
+  'quadrilateres-confondus': 'Confond carré, rectangle, losange et trapèze',
+  'symetrique-non-retourne': 'Ne fait pas passer la figure de l’autre côté de l’axe',
+  'symetrique-decale': 'Place le symétrique à une mauvaise distance de l’axe',
+  'patron-cube': 'Ne reconnait pas un patron du cube',
+  'faces-prisme': 'Se trompe sur les faces d’un prisme droit',
   // Puissances et notation scientifique
   'facteur-non-premier': 'Garde un facteur qui n’est pas premier',
   'exposant-faux': 'Se trompe d’exposant dans une décomposition',

@@ -394,6 +394,40 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE2-GEO-02",
+      "titre": "Les polygones",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Nommer un polygone selon son nombre de côtés : triangle, quadrilatère, pentagone, hexagone.",
+      "exemple": "Un polygone à 5 côtés est un pentagone.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 36,
+        "extrait": "polygone, triangle, quadrilatère, pentagone et hexagone"
+      },
+      "prerequis": [
+        "MA-C2-CE1-GEO-02"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE2-GEO-03",
+      "titre": "Centre, rayon, diamètre",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Connaitre le centre, le rayon et le diamètre d’un cercle ; savoir que le diamètre mesure deux rayons.",
+      "exemple": "Un cercle de rayon 3 cm a un diamètre de 6 cm.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 36,
+        "extrait": "disque, cercle, centre, rayon, diamètre"
+      },
+      "prerequis": [
+        "MA-C2-CE2-GEO-02"
+      ],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-GEO-01",
+  "exemple": "Un point est à 3 cm du centre d’un cercle de rayon 3 cm. Il est sur le cercle.",
+  "regle": "Le **cercle** de centre O et de rayon r contient les points situés à r de O. Le **disque** contient aussi tous les points plus proches de O. Le diamètre mesure 2 × r.",
+  "piege": "Un point à moins de r du centre est dans le disque, mais pas sur le cercle.",
+  "essai": {
+    "consigne": "Un cercle a un diamètre de 14 cm. Quel est son rayon ?",
+    "options": [
+      "7 cm",
+      "14 cm",
+      "28 cm"
+    ],
+    "reponse": "7 cm",
+    "explication": "Le rayon est la moitié du diamètre : 14 ÷ 2 = 7 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

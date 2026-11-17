@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-GEO-03",
+  "exemple": "Le bord d’une assiette est un cercle. L’assiette entière est un disque.",
+  "regle": "Le **cercle** est une ligne ronde. Le **disque** est la surface à l’intérieur. Le **centre** est au milieu.",
+  "piege": "Un cercle n’a pas de côté ni de sommet.",
+  "essai": {
+    "consigne": "Une figure ronde est coloriée à l’intérieur. Comment s’appelle-t-elle ?",
+    "options": [
+      "un disque",
+      "un cercle",
+      "un carré"
+    ],
+    "reponse": "un disque",
+    "explication": "Une surface ronde coloriée est un disque."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

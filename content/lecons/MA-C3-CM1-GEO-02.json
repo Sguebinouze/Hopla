@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-GEO-02",
+  "exemple": "Les rails d’une voie ferrée sont parallèles. Les traverses leur sont perpendiculaires.",
+  "regle": "Deux droites **perpendiculaires** se coupent en formant un angle droit. Deux droites **parallèles** ne se coupent jamais.",
+  "piege": "Deux droites qui se coupent sans angle droit ne sont ni perpendiculaires ni parallèles.",
+  "essai": {
+    "consigne": "Avec quel instrument vérifie-t-on un angle droit ?",
+    "options": [
+      "une équerre",
+      "un compas",
+      "une règle graduée"
+    ],
+    "reponse": "une équerre",
+    "explication": "L’équerre possède un angle droit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

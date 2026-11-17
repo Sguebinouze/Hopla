@@ -437,6 +437,91 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-GEO-01",
+      "titre": "Cercle et disque",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Utiliser rayon, diamètre et distance au centre pour décrire un cercle et un disque.",
+      "exemple": "Un point situé à 2 cm du centre d’un disque de rayon 5 cm appartient au disque.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 21,
+        "extrait": "Décrire et reconnaître un cercle et un disque comme un ensemble de points caractérisés par leur distance à un point donné"
+      },
+      "prerequis": [
+        "MA-C3-CM1-GEO-01"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-SYM-01",
+      "titre": "Symétrie sur quadrillage",
+      "domaine": "Espace et géométrie",
+      "theme": "La symétrie axiale",
+      "attendu": "Construire sur quadrillage le symétrique d’une figure par rapport à une droite verticale, horizontale ou diagonale ; trouver les axes de symétrie des polygones.",
+      "exemple": "Par rapport à une diagonale du quadrillage, le symétrique de la case (2 ; 5) est la case (5 ; 2).",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 22,
+        "extrait": "Construire, sur papier quadrillé, la figure symétrique d’une figure donnée par rapport à une droite verticale, horizontale ou une diagonale du quadrillage"
+      },
+      "prerequis": [
+        "MA-C3-CM1-SYM-01"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-SOL-01",
+      "titre": "Patrons du cube et du pavé",
+      "domaine": "Espace et géométrie",
+      "theme": "Les solides",
+      "attendu": "Reconnaitre un patron du cube et un patron du pavé droit.",
+      "exemple": "Un pavé droit a 6 faces rectangulaires, opposées deux à deux et identiques.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 22,
+        "extrait": "Reconnaître un patron d’un pavé"
+      },
+      "prerequis": [
+        "MA-C3-CM1-SOL-01"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-GEO-02",
+      "titre": "Polygones usuels",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Nommer les polygones usuels d’après leur définition : pentagone, hexagone, trapèze, trapèze rectangle.",
+      "exemple": "Un quadrilatère qui a une seule paire de côtés parallèles est un trapèze.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 21,
+        "extrait": "trapèze, trapèze rectangle, pentagone et hexagone"
+      },
+      "prerequis": [
+        "MA-C3-CM1-GEO-03"
+      ],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-GEO-03",
+      "titre": "Programmes de construction",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Suivre un programme de construction et prévoir la figure obtenue ; élaborer un programme simple.",
+      "exemple": "Trace un segment de 4 cm, puis un cercle de centre une extrémité et de rayon 4 cm.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 22,
+        "extrait": "Élaborer un programme de construction"
+      },
+      "prerequis": [
+        "MA-C3-CM1-GEO-03"
+      ],
+      "statut": "verifie"
     }
   ]
 }

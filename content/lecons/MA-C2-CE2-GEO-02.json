@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GEO-02",
+  "exemple": "Un panneau stop a 8 côtés. C’est un polygone.",
+  "regle": "Un **polygone** est fermé et n’a que des côtés droits. Triangle : 3 côtés. **Quadrilatère** : 4 côtés. **Pentagone** : 5 côtés. **Hexagone** : 6 côtés.",
+  "piege": "Un cercle n’est pas un polygone : il n’a pas de côté droit.",
+  "essai": {
+    "consigne": "Combien de côtés a un hexagone ?",
+    "options": [
+      "6",
+      "5",
+      "8"
+    ],
+    "reponse": "6",
+    "explication": "Hexa veut dire six : un hexagone a 6 côtés."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

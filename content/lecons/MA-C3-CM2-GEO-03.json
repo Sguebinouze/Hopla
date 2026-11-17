@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-GEO-03",
+  "exemple": "Trace un carré de côté 3 cm, puis ses deux diagonales. Elles se coupent au centre.",
+  "regle": "Un **programme de construction** donne les étapes dans l’ordre, avec les longueurs et les instruments. On le suit pas à pas, sans sauter d’étape.",
+  "piege": "Une étape mal lue change toute la figure : relis chaque phrase avant de tracer.",
+  "essai": {
+    "consigne": "On trace un triangle dont les 3 côtés mesurent 5 cm. Quelle figure obtient-on ?",
+    "options": [
+      "un triangle équilatéral",
+      "un triangle rectangle",
+      "un carré"
+    ],
+    "reponse": "un triangle équilatéral",
+    "explication": "Trois côtés de même longueur : le triangle est équilatéral."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

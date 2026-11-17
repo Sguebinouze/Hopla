@@ -12,6 +12,7 @@ import { solidesCe2 } from './ce2-geometrie';
 import { dureesCe2, longueursCe2, massesContenancesCe2, monnaieCe2 } from './ce2-grandeurs';
 import { nombresComparerCe2, nombresLettresCe2, nombresUnitesCe2 } from './ce2-nombres';
 import { problemesAdditifsCe2, problemesDeuxEtapesCe2, problemesFoisPlusCe2, problemesMultiplicatifsCe2 } from './ce2-problemes';
+import { GENERATEURS_GEOMETRIE } from './geometrie-plane';
 import type { Generateur } from './types';
 
 export const GENERATEURS_CE2: Generateur[] = [
@@ -28,4 +29,6 @@ export const GENERATEURS_CE2: Generateur[] = [
   accordSujetVerbeCe2, plurielNomsCe2, femininCe2,
   classesMotsCe2, groupeSujetCe2, formeNegativeCe2,
   prefixesCe2, famillesMotsCe2, generiquesSynonymesCe2,
+  // Géométrie plane et solides
+  ...GENERATEURS_GEOMETRIE.ce2,
 ];

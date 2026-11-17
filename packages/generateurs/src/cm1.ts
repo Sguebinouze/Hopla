@@ -11,6 +11,7 @@ import {
   fractionsDecimalesCm1, fractionsEntiersCm1, multiplesCm1, nombresLettresCm1, valeurChiffresCm1,
 } from './cm1-nombres';
 import { comparaisonMultiplicativeCm1, problemesEtapesCm1, proportionnaliteCm1 } from './cm1-problemes';
+import { GENERATEURS_GEOMETRIE } from './geometrie-plane';
 import type { Generateur } from './types';
 
 export const GENERATEURS_CM1: Generateur[] = [
@@ -27,4 +28,6 @@ export const GENERATEURS_CM1: Generateur[] = [
   // Français
   conjugaisonCm1, passeComposeCm1, accordSujetVerbeCm1, accordGnCm1, participeEtreCm1, determinantsCm1, pronomsCm1, complementsCm1,
   synonymesCm1,
+  // Géométrie plane et solides
+  ...GENERATEURS_GEOMETRIE.cm1,
 ];

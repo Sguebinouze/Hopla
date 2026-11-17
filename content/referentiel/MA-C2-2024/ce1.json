@@ -320,6 +320,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE1-GEO-03",
+      "titre": "Cercle et disque",
+      "domaine": "Espace et géométrie",
+      "theme": "La géométrie plane",
+      "attendu": "Reconnaitre et nommer un cercle et un disque ; repérer le centre du cercle.",
+      "exemple": "Le bord d’une pièce de monnaie est un cercle. La pièce entière est un disque.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 34,
+        "extrait": "disque, cercle, centre"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

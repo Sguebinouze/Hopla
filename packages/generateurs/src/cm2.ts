@@ -14,6 +14,7 @@ import {
   nombresLettresCm2, valeurChiffresCm2,
 } from './cm2-nombres';
 import { comparaisonMultiplicativeCm2, probabilitesCm2, problemesEtapesCm2, proportionnaliteCm2 } from './cm2-problemes';
+import { GENERATEURS_GEOMETRIE } from './geometrie-plane';
 import type { Generateur } from './types';
 
 export const GENERATEURS_CM2: Generateur[] = [
@@ -30,4 +31,6 @@ export const GENERATEURS_CM2: Generateur[] = [
   // Français
   passeSimpleCm2, plusQueParfaitCm2, negationTempsComposesCm2, participePasseEtreCm2, participePasseAvoirCm2,
   fonctionsCm2, complementsCirconstancielsCm2, sujetInverseCm2, classesMotsCm2, phraseComplexeCm2, pronomsComplementsCm2,
+  // Géométrie plane et solides
+  ...GENERATEURS_GEOMETRIE.cm2,
 ];

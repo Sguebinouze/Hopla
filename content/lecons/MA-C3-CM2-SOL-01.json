@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-SOL-01",
+  "exemple": "Une boite à chaussures dépliée donne un patron de pavé.",
+  "regle": "Un **patron** est une figure plane qui, pliée, forme le solide. Le patron d’un pavé a 6 rectangles, identiques deux à deux.",
+  "piege": "Deux faces opposées ne doivent pas se toucher dans le patron.",
+  "essai": {
+    "consigne": "Combien de faces a le patron d’un pavé droit ?",
+    "options": [
+      "6",
+      "4",
+      "8"
+    ],
+    "reponse": "6",
+    "explication": "Un pavé droit a 6 faces : son patron a 6 rectangles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

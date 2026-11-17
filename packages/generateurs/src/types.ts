@@ -1,9 +1,30 @@
 export type Difficulte = 1 | 2 | 3;
 export type Gabarit = 'qcm' | 'saisie';
 
+export type Point = readonly [number, number];
+
+/** Éléments d'une figure de géométrie, en unités de carreau (origine en haut à gauche, y vers le bas). */
+export type ElementFigure =
+  | { forme: 'cercle'; centre: Point; rayon: number; plein?: boolean }
+  | { forme: 'segment'; de: Point; a: Point; accent?: boolean }
+  | { forme: 'droite'; de: Point; a: Point; nom?: string }
+  | { forme: 'axe'; de: Point; a: Point }
+  | { forme: 'point'; en: Point; nom?: string }
+  | { forme: 'polygone'; sommets: Point[]; plein?: boolean }
+  | { forme: 'case'; colonne: number; ligne: number; accent?: boolean };
+
 export type Visuel =
   | { type: 'grille'; lignes: number; colonnes: number; coloriees: number }
-  | { type: 'droite'; min: number; max: number; depart: number; saut: number };
+  | { type: 'droite'; min: number; max: number; depart: number; saut: number }
+  | {
+      type: 'figure';
+      largeur: number;
+      hauteur: number;
+      /** Papier quadrillé ; `reperes` nomme les colonnes (A, B, C…) et les lignes (1, 2, 3…). */
+      quadrillage?: boolean;
+      reperes?: boolean;
+      elements: ElementFigure[];
+    };
 
 export interface Item {
   /** Identifiant stable : générateur, difficulté et graine. */

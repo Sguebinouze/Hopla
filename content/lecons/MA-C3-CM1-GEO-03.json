@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-GEO-03",
+  "exemple": "Un losange a 4 côtés de même longueur. S’il a aussi un angle droit, c’est un carré.",
+  "regle": "Triangle **isocèle** : 2 côtés égaux. Triangle **équilatéral** : 3 côtés égaux. **Losange** : 4 côtés égaux. **Rectangle** : 4 angles droits. **Carré** : 4 côtés égaux et 4 angles droits.",
+  "piege": "Un carré est à la fois un rectangle et un losange.",
+  "essai": {
+    "consigne": "Un quadrilatère a 4 angles droits et des côtés de 3 cm et 5 cm. Qu’est-ce que c’est ?",
+    "options": [
+      "un rectangle",
+      "un carré",
+      "un losange"
+    ],
+    "reponse": "un rectangle",
+    "explication": "4 angles droits, mais les côtés ne sont pas tous égaux : c’est un rectangle."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

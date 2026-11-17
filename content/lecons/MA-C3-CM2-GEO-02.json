@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-GEO-02",
+  "exemple": "Une table en forme d’hexagone a 6 côtés et 6 sommets.",
+  "regle": "Un **trapèze** a deux côtés parallèles. Un **trapèze rectangle** a en plus un angle droit. Un **pentagone** a 5 côtés, un **hexagone** 6.",
+  "piege": "Un rectangle a deux paires de côtés parallèles : on ne l’appelle pas trapèze.",
+  "essai": {
+    "consigne": "Combien de diagonales a un pentagone ?",
+    "options": [
+      "5",
+      "10",
+      "3"
+    ],
+    "reponse": "5",
+    "explication": "Chaque sommet est relié à 2 sommets non voisins : 5 × 2 ÷ 2 = 5."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

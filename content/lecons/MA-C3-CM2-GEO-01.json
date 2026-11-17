@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-GEO-01",
+  "exemple": "Pour tracer un cercle de diamètre 10 cm, on écarte le compas de 5 cm.",
+  "regle": "Un point est **sur le cercle** s’il est à une distance du centre égale au rayon. Il est **dans le disque** si cette distance est inférieure ou égale au rayon.",
+  "piege": "L’écart du compas correspond au rayon, pas au diamètre.",
+  "essai": {
+    "consigne": "Un point est à 6 cm du centre d’un cercle de rayon 4 cm. Où est-il ?",
+    "options": [
+      "à l’extérieur du disque",
+      "sur le cercle",
+      "dans le disque"
+    ],
+    "reponse": "à l’extérieur du disque",
+    "explication": "6 cm est plus grand que le rayon de 4 cm : le point est à l’extérieur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

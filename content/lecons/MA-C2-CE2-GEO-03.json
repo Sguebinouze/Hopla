@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-GEO-03",
+  "exemple": "On trace un cercle au compas avec un écart de 4 cm. Son rayon mesure 4 cm.",
+  "regle": "Le **rayon** va du centre jusqu’au cercle. Le **diamètre** traverse le cercle en passant par le centre. Il mesure deux rayons.",
+  "piege": "Le diamètre passe toujours par le centre.",
+  "essai": {
+    "consigne": "Un cercle a un rayon de 5 cm. Quel est son diamètre ?",
+    "options": [
+      "10 cm",
+      "5 cm",
+      "15 cm"
+    ],
+    "reponse": "10 cm",
+    "explication": "Le diamètre mesure deux rayons : 5 + 5 = 10 cm."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

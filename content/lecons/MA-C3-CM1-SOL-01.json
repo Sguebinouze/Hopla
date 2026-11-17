@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-SOL-01",
+  "exemple": "Une boite de chocolats en forme de prisme a deux bases triangulaires.",
+  "regle": "Un **prisme droit** a 2 bases identiques et des faces latérales rectangulaires. Un **patron** du cube est formé de 6 carrés qui se replient sans se chevaucher.",
+  "piege": "Six carrés collés ne forment pas toujours un patron : il faut vérifier le pliage.",
+  "essai": {
+    "consigne": "Combien de faces a un prisme droit à base hexagonale ?",
+    "options": [
+      "8",
+      "6",
+      "12"
+    ],
+    "reponse": "8",
+    "explication": "2 bases et 6 rectangles : 8 faces."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

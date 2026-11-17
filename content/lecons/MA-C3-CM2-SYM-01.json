@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-SYM-01",
+  "exemple": "Une case est à 2 carreaux à gauche d’un axe vertical. Son symétrique est à 2 carreaux à droite.",
+  "regle": "Le symétrique d’une case est **à la même distance** de l’axe, **de l’autre côté**. Avec un axe diagonal, on échange colonne et ligne.",
+  "piege": "On compte les carreaux à partir de l’axe, pas à partir du bord.",
+  "essai": {
+    "consigne": "Combien d’axes de symétrie a un hexagone régulier ?",
+    "options": [
+      "6",
+      "3",
+      "2"
+    ],
+    "reponse": "6",
+    "explication": "Un polygone régulier à n côtés a n axes de symétrie."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
