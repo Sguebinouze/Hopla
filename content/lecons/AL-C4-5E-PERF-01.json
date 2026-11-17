@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-PERF-01",
+  "exemple": "« Am Wochenende habe ich ein Buch gekauft und Musik gehört. »",
+  "regle": "Le **parfait** raconte une action passée : **haben** conjugué en 2e position + **participe passé** à la **fin**. Verbes faibles : **ge-** + radical + **-t** : lernen → **gelernt**, spielen → **gespielt**, kaufen → **gekauft**.",
+  "piege": "Verstehen fait « verstanden », sans ge- : ich habe nicht verstanden.",
+  "essai": {
+    "consigne": "Participe passé de « spielen » ?",
+    "options": [
+      "gespielt",
+      "gespielen",
+      "spielt"
+    ],
+    "reponse": "gespielt",
+    "explication": "ge- + spiel + -t."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

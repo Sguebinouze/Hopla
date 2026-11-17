@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-COMP-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-COMP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « moins cher que » ?",
+      "options": [
+        "menos caro que",
+        "más caro que",
+        "tan caro como"
+      ],
+      "reponse": "menos caro que",
+      "indice": "Menos.",
+      "explication": "Menos caro que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « aussi grand que » ?",
+      "options": [
+        "tan grande como",
+        "más grande que",
+        "tan grande que"
+      ],
+      "reponse": "tan grande como",
+      "indice": "Égalité.",
+      "explication": "Tan … como.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparatif de « bueno » ?",
+      "options": [
+        "mejor",
+        "más bueno",
+        "buenísimo"
+      ],
+      "reponse": "mejor",
+      "indice": "Irrégulier.",
+      "explication": "Mejor.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est le plus grand ?",
+      "options": [
+        "le frère",
+        "moi",
+        "ils sont pareils"
+      ],
+      "reponse": "le frère",
+      "indice": "más alto que yo.",
+      "explication": "« Mi hermano es más alto que yo. »",
+      "ecoute": {
+        "texte": "Mi hermano es más alto que yo.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « El tren es … rápido … el autobús. »",
+      "options": [
+        "más / que",
+        "más / como",
+        "tan / que"
+      ],
+      "reponse": "más / que",
+      "indice": "Supériorité.",
+      "explication": "Más rápido que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comparatif de « malo » ?",
+      "options": [
+        "peor",
+        "más malo",
+        "malísimo"
+      ],
+      "reponse": "peor",
+      "indice": "Irrégulier.",
+      "explication": "Peor.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ana es tan simpática … Lucía. »",
+      "options": [
+        "como",
+        "que",
+        "de"
+      ],
+      "reponse": "como",
+      "indice": "Tan … ?",
+      "explication": "Tan … como.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-COMP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Traduis : « Mexico est plus peuplée que Madrid. »",
+      "options": [
+        "México es más poblada que Madrid.",
+        "México es tan poblada que Madrid.",
+        "México es menos poblada como Madrid."
+      ],
+      "reponse": "México es más poblada que Madrid.",
+      "indice": "Supériorité.",
+      "explication": "Más … que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

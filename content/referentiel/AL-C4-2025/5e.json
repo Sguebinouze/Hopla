@@ -136,6 +136,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-MOD-01",
+      "titre": "Les verbes de modalité",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le verbe et ses conjugaisons",
+      "attendu": "Conjuguer et employer können, müssen, wollen, dürfen, mögen et möchten, avec l’infinitif en fin de phrase.",
+      "exemple": "Ich kann gut schwimmen. Du musst jetzt gehen.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "les six verbes modaux : können, müssen, wollen, mögen, dürfen, sollen"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-NEG-01",
+      "titre": "Nicht ou kein ?",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe nominal",
+      "attendu": "Choisir entre kein (devant un nom sans article défini) et nicht (dans les autres cas).",
+      "exemple": "Ich habe keinen Hund. Ich spiele nicht.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "utiliser le déterminant négateur kein"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-PERF-01",
+      "titre": "Le parfait",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le verbe et ses conjugaisons",
+      "attendu": "Raconter au passé avec le parfait de verbes courants : haben + participe passé (ge-…-t).",
+      "exemple": "Ich habe Deutsch gelernt. Ich habe nicht verstanden.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 23,
+        "extrait": "employer (sans explicitation détaillée) le parfait de quelques verbes faibles"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-5E-COMP-01",
+      "titre": "Comparer : schöner als",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : l’adjectif",
+      "attendu": "Comparer avec -er als, so … wie, et la forme irrégulière besser.",
+      "exemple": "Berlin ist größer als München. Fußball ist so toll wie Tennis.",
+      "source": {
+        "id": "bo22-2025-allemand-college",
+        "page": 24,
+        "extrait": "Utiliser le comparatif de supériorité, d’égalité et d’infériorité de divers adjectifs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

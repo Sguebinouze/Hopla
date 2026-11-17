@@ -136,6 +136,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-GER-01",
+      "titre": "Estar + gérondif",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Décrire une action en cours avec estar + gérondif (-ando, -iendo).",
+      "exemple": "Estoy leyendo. Mi hermano está jugando.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "Estar + gérondif"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01",
+      "titre": "L’imparfait",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Reconnaitre et former l’imparfait : -aba pour -ar, -ía pour -er/-ir.",
+      "exemple": "Cuando era niño, jugaba en el parque.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "L’imparfait : terminaisons verbales -aba et -ía"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-COMP-01",
+      "titre": "Comparer : más, menos",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : la phrase espagnole et son organisation",
+      "attendu": "Comparer avec más … que, menos … que et tan … como.",
+      "exemple": "Madrid es más grande que Toledo.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "Comparatifs de supériorité et d’infériorité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01",
+      "titre": "Verbes à diphtongue",
+      "domaine": "Outils linguistiques",
+      "theme": "Grammaire : le groupe verbal",
+      "attendu": "Conjuguer au présent les verbes qui diphtonguent : poder (puedo), empezar (empiezo), volver (vuelvo).",
+      "exemple": "Puedo venir. La clase empieza a las nueve.",
+      "source": {
+        "id": "bo22-2025-espagnol-college",
+        "page": 19,
+        "extrait": "des verbes à diphtongue courants : poder, empezar, volver"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

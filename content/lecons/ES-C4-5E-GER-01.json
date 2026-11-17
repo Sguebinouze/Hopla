@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-GER-01",
+  "exemple": "« ¿Qué haces? » « Estoy escuchando música. Mis padres están cocinando. »",
+  "regle": "Pour une action **en cours** : **estar** conjugué + **gérondif**. Verbes en -ar : **-ando** (hablar → habl**ando**). Verbes en -er, -ir : **-iendo** (comer → com**iendo**, vivir → viv**iendo**).",
+  "piege": "Leer donne « leyendo », avec un y.",
+  "essai": {
+    "consigne": "Gérondif de « hablar » ?",
+    "options": [
+      "hablando",
+      "habliendo",
+      "hablado"
+    ],
+    "reponse": "hablando",
+    "explication": "-ar → -ando."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

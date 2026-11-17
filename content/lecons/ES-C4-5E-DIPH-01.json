@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-5E-DIPH-01",
+  "exemple": "« ¿Puedes venir? » « No, no puedo. Vuelvo a casa a las seis. »",
+  "regle": "Certains verbes **diphtonguent** quand l’accent tombe sur le radical : **o → ue** (poder → p**ue**do, volver → v**ue**lvo), **e → ie** (empezar → emp**ie**zo, querer → qu**ie**ro). Pas de diphtongue avec **nosotros** et **vosotros** : podemos, empezamos.",
+  "piege": "Nosotros podemos, sans diphtongue.",
+  "essai": {
+    "consigne": "Complète : « Yo … ir al cine. » (poder)",
+    "options": [
+      "puedo",
+      "podo",
+      "pudo"
+    ],
+    "reponse": "puedo",
+    "explication": "o → ue."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

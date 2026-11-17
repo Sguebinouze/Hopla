@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-5E-COMP-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-COMP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparatif de « schnell » ?",
+      "options": [
+        "schneller",
+        "mehr schnell",
+        "schnellst"
+      ],
+      "reponse": "schneller",
+      "indice": "-er.",
+      "explication": "Schneller.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comparatif de « gut » ?",
+      "options": [
+        "besser",
+        "guter",
+        "güter"
+      ],
+      "reponse": "besser",
+      "indice": "Irrégulier.",
+      "explication": "Besser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « plus grand que » ?",
+      "options": [
+        "größer als",
+        "groß wie",
+        "mehr groß"
+      ],
+      "reponse": "größer als",
+      "indice": "Umlaut.",
+      "explication": "Größer als.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Mein Bruder ist … als ich. » (alt)",
+      "options": [
+        "älter",
+        "alter",
+        "mehr alt"
+      ],
+      "reponse": "älter",
+      "indice": "Umlaut.",
+      "explication": "Älter.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Tom ist so groß … Max. »",
+      "options": [
+        "wie",
+        "als",
+        "dann"
+      ],
+      "reponse": "wie",
+      "indice": "Égalité.",
+      "explication": "So … wie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui est le plus rapide ?",
+      "options": [
+        "Lena",
+        "Paul",
+        "ils sont pareils"
+      ],
+      "reponse": "Lena",
+      "indice": "schneller als.",
+      "explication": "« Lena ist schneller als Paul. »",
+      "ecoute": {
+        "texte": "Lena ist schneller als Paul.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Im Sommer ist es … als im Winter. » (warm)",
+      "options": [
+        "wärmer",
+        "warmer",
+        "mehr warm"
+      ],
+      "reponse": "wärmer",
+      "indice": "Umlaut.",
+      "explication": "Wärmer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-COMP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Am besten gefällt mir Musik » ?",
+      "options": [
+        "Ce que je préfère, c’est la musique.",
+        "La musique est meilleure.",
+        "Je n’aime pas la musique."
+      ],
+      "reponse": "Ce que je préfère, c’est la musique.",
+      "indice": "Superlatif.",
+      "explication": "Am besten : le plus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

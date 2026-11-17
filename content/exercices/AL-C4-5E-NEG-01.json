@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-5E-NEG-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-NEG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Das ist … Hund, das ist eine Katze. »",
+      "options": [
+        "kein",
+        "nicht",
+        "keine"
+      ],
+      "reponse": "kein",
+      "indice": "ein Hund → ?",
+      "explication": "Kein Hund.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich schwimme … . »",
+      "options": [
+        "nicht",
+        "kein",
+        "keine"
+      ],
+      "reponse": "nicht",
+      "indice": "On nie un verbe.",
+      "explication": "Nicht.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich habe keine Zeit » ?",
+      "options": [
+        "Je n’ai pas le temps.",
+        "J’ai le temps.",
+        "Je n’aime pas le temps."
+      ],
+      "reponse": "Je n’ai pas le temps.",
+      "indice": "kein.",
+      "explication": "Pas de temps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich habe … Bruder. » (masculin, accusatif)",
+      "options": [
+        "keinen",
+        "kein",
+        "nicht"
+      ],
+      "reponse": "keinen",
+      "indice": "Accusatif masculin.",
+      "explication": "Keinen Bruder.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Das Buch ist … interessant. »",
+      "options": [
+        "nicht",
+        "kein",
+        "keine"
+      ],
+      "reponse": "nicht",
+      "indice": "On nie un adjectif.",
+      "explication": "Nicht interessant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. A-t-il des animaux ?",
+      "options": [
+        "non",
+        "oui, un chien",
+        "oui, deux chats"
+      ],
+      "reponse": "non",
+      "indice": "keine Tiere.",
+      "explication": "« Ich habe keine Tiere. »",
+      "ecoute": {
+        "texte": "Ich habe keine Tiere.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich trinke … Milch. »",
+      "options": [
+        "keine",
+        "nicht",
+        "kein"
+      ],
+      "reponse": "keine",
+      "indice": "Milch : sans article, féminin.",
+      "explication": "Keine Milch.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-NEG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich mag den Film … . »",
+      "options": [
+        "nicht",
+        "keinen",
+        "kein"
+      ],
+      "reponse": "nicht",
+      "indice": "Article défini : den.",
+      "explication": "Avec un article défini : nicht.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

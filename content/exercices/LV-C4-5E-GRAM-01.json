@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-5E-GRAM-01",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-GRAM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … you like pizza? »",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "reponse": "Do",
+      "indice": "You : do.",
+      "explication": "Do you like…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « He … play football. » (négation)",
+      "options": [
+        "doesn’t",
+        "don’t",
+        "isn’t"
+      ],
+      "reponse": "doesn’t",
+      "indice": "He : does.",
+      "explication": "He doesn’t play.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « We … live in Paris. » (négation)",
+      "options": [
+        "don’t",
+        "doesn’t",
+        "not"
+      ],
+      "reponse": "don’t",
+      "indice": "We : do.",
+      "explication": "We don’t live…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "She doesn’t like cheese.",
+        "She doesn’t likes cheese.",
+        "She don’t like cheese."
+      ],
+      "reponse": "She doesn’t like cheese.",
+      "indice": "Pas de -s après doesn’t.",
+      "explication": "Doesn’t + verbe de base.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quelle est la question ?",
+      "options": [
+        "Où habites-tu ?",
+        "Quel âge as-tu ?",
+        "Comment vas-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "indice": "Where.",
+      "explication": "« Where do you live? »",
+      "ecoute": {
+        "texte": "Where do you live?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réponse courte à « Does your brother play the guitar? » (oui)",
+      "options": [
+        "Yes, he does.",
+        "Yes, he plays.",
+        "Yes, he is."
+      ],
+      "reponse": "Yes, he does.",
+      "indice": "Reprends l’auxiliaire.",
+      "explication": "Yes, he does.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « What time … your sister get up? »",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "reponse": "does",
+      "indice": "Your sister = she.",
+      "explication": "Does.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme à la négation : « My dog eats vegetables. »",
+      "options": [
+        "My dog doesn’t eat vegetables.",
+        "My dog doesn’t eats vegetables.",
+        "My dog don’t eat vegetables."
+      ],
+      "reponse": "My dog doesn’t eat vegetables.",
+      "indice": "Doesn’t + base verbale.",
+      "explication": "Le -s passe sur l’auxiliaire.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-5E-PERF-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-PERF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Participe passé de « machen » ?",
+      "options": [
+        "gemacht",
+        "gemachen",
+        "macht"
+      ],
+      "reponse": "gemacht",
+      "indice": "ge-…-t.",
+      "explication": "Gemacht.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Participe passé de « kaufen » ?",
+      "options": [
+        "gekauft",
+        "gekaufen",
+        "kauft"
+      ],
+      "reponse": "gekauft",
+      "indice": "ge-…-t.",
+      "explication": "Gekauft.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich habe nicht verstanden » ?",
+      "options": [
+        "Je n’ai pas compris.",
+        "Je ne comprends pas.",
+        "Je ne comprendrai pas."
+      ],
+      "reponse": "Je n’ai pas compris.",
+      "indice": "Parfait.",
+      "explication": "Passé : je n’ai pas compris.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où se place le participe passé ?",
+      "options": [
+        "à la fin de la phrase",
+        "après le sujet",
+        "au début"
+      ],
+      "reponse": "à la fin de la phrase",
+      "indice": "Comme l’infinitif.",
+      "explication": "À la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir … Fußball gespielt. »",
+      "options": [
+        "haben",
+        "hat",
+        "habt"
+      ],
+      "reponse": "haben",
+      "indice": "Wir.",
+      "explication": "Wir haben.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’a-t-elle fait ?",
+      "options": [
+        "elle a écouté de la musique",
+        "elle a joué au foot",
+        "elle a acheté un livre"
+      ],
+      "reponse": "elle a écouté de la musique",
+      "indice": "gehört.",
+      "explication": "« Ich habe Musik gehört. »",
+      "ecoute": {
+        "texte": "Ich habe Musik gehört.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Er hat ein Geschenk gekauft.",
+        "Er hat gekauft ein Geschenk.",
+        "Er gekauft hat ein Geschenk."
+      ],
+      "reponse": "Er hat ein Geschenk gekauft.",
+      "indice": "Participe à la fin.",
+      "explication": "Participe rejeté en fin de phrase.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-PERF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Hast du deine Hausaufgaben …? » (machen)",
+      "options": [
+        "gemacht",
+        "machen",
+        "macht"
+      ],
+      "reponse": "gemacht",
+      "indice": "Parfait.",
+      "explication": "Gemacht.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

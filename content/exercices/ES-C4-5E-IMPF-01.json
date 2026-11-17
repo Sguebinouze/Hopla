@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-IMPF-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-IMPF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Imparfait de « comer » (yo) ?",
+      "options": [
+        "comía",
+        "comaba",
+        "comí"
+      ],
+      "reponse": "comía",
+      "indice": "-er → -ía.",
+      "explication": "Comía.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Imparfait de « vivir » (ella) ?",
+      "options": [
+        "vivía",
+        "vivaba",
+        "vivió"
+      ],
+      "reponse": "vivía",
+      "indice": "-ir → -ía.",
+      "explication": "Vivía.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Imparfait de « ser » (yo) ?",
+      "options": [
+        "era",
+        "sería",
+        "fui"
+      ],
+      "reponse": "era",
+      "indice": "Irrégulier.",
+      "explication": "Era.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … en la playa. » (jugar, imparfait)",
+      "options": [
+        "jugábamos",
+        "jugamos",
+        "jugíamos"
+      ],
+      "reponse": "jugábamos",
+      "indice": "-ábamos.",
+      "explication": "Jugábamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où habitait-elle ?",
+      "options": [
+        "à Séville",
+        "à Madrid",
+        "à Mexico"
+      ],
+      "reponse": "à Séville",
+      "indice": "Sevilla.",
+      "explication": "« Vivía en Sevilla. »",
+      "ecoute": {
+        "texte": "De pequeña, vivía en Sevilla.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Imparfait de « ir » (yo) ?",
+      "options": [
+        "iba",
+        "ía",
+        "fui"
+      ],
+      "reponse": "iba",
+      "indice": "Irrégulier.",
+      "explication": "Iba.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "L’imparfait exprime surtout…",
+      "options": [
+        "une habitude passée ou une description",
+        "un ordre",
+        "un futur"
+      ],
+      "reponse": "une habitude passée ou une description",
+      "indice": "Cuando era niño…",
+      "explication": "Habitude ou description passée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-IMPF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ellos … mucho. » (leer, imparfait)",
+      "options": [
+        "leían",
+        "leaban",
+        "leyeron"
+      ],
+      "reponse": "leían",
+      "indice": "-er → -ían.",
+      "explication": "Leían.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-5E-MOD-01",
+  "exercices": [
+    {
+      "id": "AL-C4-5E-MOD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich muss lernen » ?",
+      "options": [
+        "Je dois apprendre.",
+        "Je veux apprendre.",
+        "Je peux apprendre."
+      ],
+      "reponse": "Je dois apprendre.",
+      "indice": "müssen.",
+      "explication": "Müssen : devoir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Darf ich…? »",
+      "options": [
+        "Est-ce que j’ai le droit… ?",
+        "Est-ce que je dois… ?",
+        "Est-ce que je veux… ?"
+      ],
+      "reponse": "Est-ce que j’ai le droit… ?",
+      "indice": "dürfen.",
+      "explication": "Dürfen : avoir la permission.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que veut l’enfant ?",
+      "options": [
+        "une glace",
+        "un gâteau",
+        "un jus"
+      ],
+      "reponse": "une glace",
+      "indice": "Eis.",
+      "explication": "« Ich möchte ein Eis. »",
+      "ecoute": {
+        "texte": "Ich möchte ein Eis, bitte.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où se place l’infinitif ?",
+      "options": [
+        "à la fin de la phrase",
+        "juste après le sujet",
+        "en premier"
+      ],
+      "reponse": "à la fin de la phrase",
+      "indice": "Ich kann … schwimmen.",
+      "explication": "L’infinitif est rejeté à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir … heute ins Kino gehen. » (wollen)",
+      "options": [
+        "wollen",
+        "will",
+        "wollt"
+      ],
+      "reponse": "wollen",
+      "indice": "Wir : forme infinitive.",
+      "explication": "Wir wollen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich kann Gitarre spielen.",
+        "Ich kann spielen Gitarre.",
+        "Ich spielen kann Gitarre."
+      ],
+      "reponse": "Ich kann Gitarre spielen.",
+      "indice": "Infinitif à la fin.",
+      "explication": "Modal en 2e position, infinitif à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Du … nicht rauchen. » (dürfen)",
+      "options": [
+        "darfst",
+        "darf",
+        "dürfst"
+      ],
+      "reponse": "darfst",
+      "indice": "Du : -st, voyelle changée.",
+      "explication": "Du darfst.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-5E-MOD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi ne peut-il pas venir ?",
+      "options": [
+        "il doit travailler",
+        "il est malade",
+        "il ne veut pas"
+      ],
+      "reponse": "il doit travailler",
+      "indice": "muss arbeiten.",
+      "explication": "« Ich muss arbeiten. »",
+      "ecoute": {
+        "texte": "Ich kann nicht kommen. Ich muss arbeiten.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

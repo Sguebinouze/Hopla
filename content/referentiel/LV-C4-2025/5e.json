@@ -136,6 +136,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C4-5E-GRAM-01",
+      "titre": "Do, does : négation et question",
+      "domaine": "Outils linguistiques",
+      "theme": "Le verbe",
+      "attendu": "Former le présent simple à la forme négative et interrogative avec do / does.",
+      "exemple": "Do you like tea? She doesn’t play tennis.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 19,
+        "extrait": "Le présent simple : forme affirmative, négative et interrogative"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C4-5E-GRAM-02",
+      "titre": "Comparer : -er, more, the most",
+      "domaine": "Outils linguistiques",
+      "theme": "Le nom : forme et fonction du groupe nominal (GN)",
+      "attendu": "Comparer avec le comparatif (taller than, more famous than, as… as) et le superlatif (the tallest, the most famous).",
+      "exemple": "London is bigger than Oxford. It’s the biggest city in the UK.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 20,
+        "extrait": "Établir des comparaisons en utilisant des adjectifs connus associés à des comparatifs et des superlatifs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03",
+      "titre": "Always, often, never",
+      "domaine": "Outils linguistiques",
+      "theme": "Les adverbes et les groupes prépositionnels pour situer dans le temps et dans l’espace",
+      "attendu": "Utiliser les adverbes de fréquence et les placer correctement dans la phrase.",
+      "exemple": "I always walk to school. She is never late.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 20,
+        "extrait": "Utiliser des adverbes de fréquence"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04",
+      "titre": "Conseiller : should, could",
+      "domaine": "Outils linguistiques",
+      "theme": "Le verbe",
+      "attendu": "Donner un conseil ou une suggestion avec should / shouldn’t et could.",
+      "exemple": "You should drink more water. You could visit the British Museum.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 19,
+        "extrait": "Les auxiliaires de modalité : should/shouldn’t, could/couldn’t"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

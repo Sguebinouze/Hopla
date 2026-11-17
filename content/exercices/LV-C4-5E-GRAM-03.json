@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C4-5E-GRAM-03",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-GRAM-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « always » ?",
+      "options": [
+        "toujours",
+        "parfois",
+        "jamais"
+      ],
+      "reponse": "toujours",
+      "indice": "100 %.",
+      "explication": "Toujours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « sometimes » ?",
+      "options": [
+        "parfois",
+        "souvent",
+        "jamais"
+      ],
+      "reponse": "parfois",
+      "indice": "De temps en temps.",
+      "explication": "Parfois.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Combien de fois va-t-il à la piscine ?",
+      "options": [
+        "souvent",
+        "jamais",
+        "toujours"
+      ],
+      "reponse": "souvent",
+      "indice": "Often.",
+      "explication": "« I often go swimming. »",
+      "ecoute": {
+        "texte": "I often go swimming.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "I always get up early.",
+        "I get always up early.",
+        "Always I get up early."
+      ],
+      "reponse": "I always get up early.",
+      "indice": "Avant le verbe.",
+      "explication": "Always avant get up.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "He is never late.",
+        "He never is late.",
+        "Never he is late."
+      ],
+      "reponse": "He is never late.",
+      "indice": "Après be.",
+      "explication": "Is never.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demande-t-on « À quelle fréquence… ? »",
+      "options": [
+        "How often…?",
+        "How much…?",
+        "How old…?"
+      ],
+      "reponse": "How often…?",
+      "indice": "Often.",
+      "explication": "How often…?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Range du plus fréquent au moins fréquent : sometimes, always, never.",
+      "options": [
+        "always, sometimes, never",
+        "never, sometimes, always",
+        "sometimes, always, never"
+      ],
+      "reponse": "always, sometimes, never",
+      "indice": "100 % → 0 %.",
+      "explication": "Always > sometimes > never.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fait-elle d’habitude le dimanche ?",
+      "options": [
+        "elle rend visite à ses grands-parents",
+        "elle va au cinéma",
+        "elle fait du sport"
+      ],
+      "reponse": "elle rend visite à ses grands-parents",
+      "indice": "Usually.",
+      "explication": "« She usually visits her grandparents on Sundays. »",
+      "ecoute": {
+        "texte": "She usually visits her grandparents on Sundays.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

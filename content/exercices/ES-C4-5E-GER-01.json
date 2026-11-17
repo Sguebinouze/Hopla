@@ -1,0 +1,149 @@
+{
+  "competence": "ES-C4-5E-GER-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-GER-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Gérondif de « comer » ?",
+      "options": [
+        "comiendo",
+        "comando",
+        "comido"
+      ],
+      "reponse": "comiendo",
+      "indice": "-er → -iendo.",
+      "explication": "Comiendo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Gérondif de « jugar » ?",
+      "options": [
+        "jugando",
+        "jugiendo",
+        "jugado"
+      ],
+      "reponse": "jugando",
+      "indice": "-ar → -ando.",
+      "explication": "Jugando.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que fait-il ?",
+      "options": [
+        "il dort",
+        "il mange",
+        "il lit"
+      ],
+      "reponse": "il dort",
+      "indice": "durmiendo.",
+      "explication": "« Está durmiendo » : il dort.",
+      "ecoute": {
+        "texte": "Está durmiendo.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … estudiando. »",
+      "options": [
+        "estamos",
+        "están",
+        "estoy"
+      ],
+      "reponse": "estamos",
+      "indice": "Nosotros.",
+      "explication": "Estamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Gérondif de « escribir » ?",
+      "options": [
+        "escribiendo",
+        "escribando",
+        "escrito"
+      ],
+      "reponse": "escribiendo",
+      "indice": "-ir → -iendo.",
+      "explication": "Escribiendo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait la mère ?",
+      "options": [
+        "elle cuisine",
+        "elle chante",
+        "elle travaille"
+      ],
+      "reponse": "elle cuisine",
+      "indice": "cocinando.",
+      "explication": "« Mi madre está cocinando. »",
+      "ecoute": {
+        "texte": "Mi madre está cocinando.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Gérondif de « leer » ?",
+      "options": [
+        "leyendo",
+        "leiendo",
+        "leendo"
+      ],
+      "reponse": "leyendo",
+      "indice": "Avec un y.",
+      "explication": "Leyendo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-GER-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Traduis : « Ils regardent la télé (en ce moment). »",
+      "options": [
+        "Están viendo la tele.",
+        "Ven la tele siempre.",
+        "Estamos viendo la tele."
+      ],
+      "reponse": "Están viendo la tele.",
+      "indice": "Ellos : están.",
+      "explication": "Están viendo la tele.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

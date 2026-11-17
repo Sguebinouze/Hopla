@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-5E-DIPH-01",
+  "exercices": [
+    {
+      "id": "ES-C4-5E-DIPH-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Tú … nadar. » (poder)",
+      "options": [
+        "puedes",
+        "podes",
+        "pudes"
+      ],
+      "reponse": "puedes",
+      "indice": "o → ue.",
+      "explication": "Puedes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « La película … a las ocho. » (empezar)",
+      "options": [
+        "empieza",
+        "empeza",
+        "empiza"
+      ],
+      "reponse": "empieza",
+      "indice": "e → ie.",
+      "explication": "Empieza.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Yo … a casa. » (volver)",
+      "options": [
+        "vuelvo",
+        "volvo",
+        "vuelvó"
+      ],
+      "reponse": "vuelvo",
+      "indice": "o → ue.",
+      "explication": "Vuelvo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … jugar. » (poder)",
+      "options": [
+        "podemos",
+        "puedemos",
+        "pudemos"
+      ],
+      "reponse": "podemos",
+      "indice": "Pas de diphtongue avec nosotros.",
+      "explication": "Podemos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ella … un helado. » (querer)",
+      "options": [
+        "quiere",
+        "quere",
+        "quiera"
+      ],
+      "reponse": "quiere",
+      "indice": "e → ie.",
+      "explication": "Quiere.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À quelle heure commence le cours ?",
+      "options": [
+        "à neuf heures",
+        "à huit heures",
+        "à dix heures"
+      ],
+      "reponse": "à neuf heures",
+      "indice": "a las nueve.",
+      "explication": "« La clase empieza a las nueve. »",
+      "ecoute": {
+        "texte": "La clase empieza a las nueve.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Vosotros … tarde. » (volver)",
+      "options": [
+        "volvéis",
+        "vuelvéis",
+        "vuelven"
+      ],
+      "reponse": "volvéis",
+      "indice": "Pas de diphtongue avec vosotros.",
+      "explication": "Volvéis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-5E-DIPH-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ellos no … venir. » (poder)",
+      "options": [
+        "pueden",
+        "poden",
+        "podemos"
+      ],
+      "reponse": "pueden",
+      "indice": "Ellos : diphtongue.",
+      "explication": "Pueden.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

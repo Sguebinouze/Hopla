@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-5E-NEG-01",
+  "exemple": "« Hast du Geschwister? Nein, ich habe keine Geschwister. Ich spiele nicht Klavier. »",
+  "regle": "**Kein** nie un **nom** précédé de ein ou sans article : ein Hund → **kein** Hund. Il se décline comme ein (keinen au masculin accusatif). **Nicht** nie un **verbe**, un adjectif ou un nom précédé d’un article défini.",
+  "piege": "Ich habe keinen Bruder : -en à l’accusatif masculin.",
+  "essai": {
+    "consigne": "Complète : « Ich habe … Katze. »",
+    "options": [
+      "keine",
+      "nicht",
+      "kein"
+    ],
+    "reponse": "keine",
+    "explication": "Katze est féminin : keine."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C4-5E-GRAM-04",
+  "exercices": [
+    {
+      "id": "LV-C4-5E-GRAM-04-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Should sert à…",
+      "options": [
+        "donner un conseil",
+        "parler du passé",
+        "compter"
+      ],
+      "reponse": "donner un conseil",
+      "indice": "Tu devrais…",
+      "explication": "Un conseil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « tu ne devrais pas » ?",
+      "options": [
+        "you shouldn’t",
+        "you couldn’t",
+        "you don’t"
+      ],
+      "reponse": "you shouldn’t",
+      "indice": "Négation de should.",
+      "explication": "You shouldn’t.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel conseil donne-t-il ?",
+      "options": [
+        "porter un manteau",
+        "manger",
+        "dormir"
+      ],
+      "reponse": "porter un manteau",
+      "indice": "Coat.",
+      "explication": "« You should wear a coat. »",
+      "ecoute": {
+        "texte": "It’s cold. You should wear a coat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "She should study more.",
+        "She shoulds study more.",
+        "She should studies more."
+      ],
+      "reponse": "She should study more.",
+      "indice": "Pas de -s.",
+      "explication": "Should + base verbale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « We could go to the beach » ?",
+      "options": [
+        "On pourrait aller à la plage.",
+        "On doit aller à la plage.",
+        "On est allés à la plage."
+      ],
+      "reponse": "On pourrait aller à la plage.",
+      "indice": "Suggestion.",
+      "explication": "Could : suggestion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Ton ami a mal aux dents. Quel conseil ?",
+      "options": [
+        "You should see a dentist.",
+        "You could eat sweets.",
+        "You shouldn’t see a dentist."
+      ],
+      "reponse": "You should see a dentist.",
+      "indice": "Dentiste.",
+      "explication": "Il devrait consulter un dentiste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« When I was five, I couldn’t read. » Que veut dire couldn’t ici ?",
+      "options": [
+        "je ne savais pas",
+        "je ne devrais pas",
+        "je ne veux pas"
+      ],
+      "reponse": "je ne savais pas",
+      "indice": "Capacité passée.",
+      "explication": "Could : capacité au passé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-5E-GRAM-04-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que suggère-t-elle ?",
+      "options": [
+        "visiter un musée",
+        "faire les courses",
+        "rentrer"
+      ],
+      "reponse": "visiter un musée",
+      "indice": "Museum.",
+      "explication": "« We could visit the museum. »",
+      "ecoute": {
+        "texte": "If it rains, we could visit the museum.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
