@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C4-5E-GEO-04",
+  "exemple": "Dans une même ville, comme Rio de Janeiro, des quartiers riches côtoient des favelas.",
+  "regle": "La richesse est **inégalement répartie** entre pays et à l’intérieur des pays. On la mesure avec le **PIB par habitant**. L’**IDH** (indice de développement humain) combine revenu, **santé** (espérance de vie) et **éducation**. Les pays les moins avancés se trouvent surtout en Afrique subsaharienne.",
+  "piege": "Un pays riche peut avoir des régions pauvres : les inégalités existent à toutes les échelles.",
+  "essai": {
+    "consigne": "Que mesure l’IDH en plus du revenu ?",
+    "options": [
+      "la santé et l’éducation",
+      "la superficie",
+      "le climat"
+    ],
+    "reponse": "la santé et l’éducation",
+    "explication": "Espérance de vie et durée de scolarisation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

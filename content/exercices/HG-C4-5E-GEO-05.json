@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C4-5E-GEO-05",
+  "exercices": [
+    {
+      "id": "HG-C4-5E-GEO-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle énergie est fossile ?",
+      "options": [
+        "le pétrole",
+        "le vent",
+        "le soleil"
+      ],
+      "reponse": "le pétrole",
+      "indice": "Formée il y a des millions d’années.",
+      "explication": "Le pétrole.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle part de l’eau sur Terre est douce ?",
+      "options": [
+        "environ 3 %",
+        "environ 50 %",
+        "environ 97 %"
+      ],
+      "reponse": "environ 3 %",
+      "indice": "Très peu.",
+      "explication": "Environ 3 %, surtout dans les glaces.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle énergie utilise un barrage ?",
+      "options": [
+        "l’énergie hydraulique",
+        "l’énergie solaire",
+        "le charbon"
+      ],
+      "reponse": "l’énergie hydraulique",
+      "indice": "L’eau.",
+      "explication": "L’hydraulique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les énergies fossiles posent-elles problème ?",
+      "options": [
+        "elles s’épuisent et émettent du CO₂",
+        "elles sont gratuites",
+        "elles sont renouvelables"
+      ],
+      "reponse": "elles s’épuisent et émettent du CO₂",
+      "indice": "Climat.",
+      "explication": "Stocks limités et gaz à effet de serre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel geste économise l’eau ?",
+      "options": [
+        "prendre une douche plutôt qu’un bain",
+        "laisser couler le robinet",
+        "arroser à midi"
+      ],
+      "reponse": "prendre une douche plutôt qu’un bain",
+      "indice": "Moins de litres.",
+      "explication": "Une douche consomme moins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel secteur consomme le plus d’eau douce dans le monde ?",
+      "options": [
+        "l’agriculture",
+        "les ménages",
+        "les loisirs"
+      ],
+      "reponse": "l’agriculture",
+      "indice": "Irrigation.",
+      "explication": "Environ 70 % pour l’agriculture.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qu’est-ce que le stress hydrique ?",
+      "options": [
+        "un manque d’eau par rapport aux besoins",
+        "une inondation",
+        "une eau polluée"
+      ],
+      "reponse": "un manque d’eau par rapport aux besoins",
+      "indice": "Demande > ressource.",
+      "explication": "Les besoins dépassent l’eau disponible.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C4-5E-GEO-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un fleuve partagé par plusieurs pays peut-il créer des tensions ?",
+      "options": [
+        "un barrage en amont prive les pays en aval",
+        "il change de nom",
+        "il gèle"
+      ],
+      "reponse": "un barrage en amont prive les pays en aval",
+      "indice": "Le Nil, l’Euphrate.",
+      "explication": "L’eau devient un enjeu entre États.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
