@@ -516,6 +516,66 @@
         "MA-C2-CE2-GEO-01"
       ],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01",
+      "titre": "Les angles",
+      "domaine": "Espace et géométrie",
+      "theme": "Les angles",
+      "attendu": "Reconnaitre un angle droit, aigu ou obtus, le nommer et comparer des angles.",
+      "exemple": "L’angle ABC a pour sommet B.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 17,
+        "extrait": "Utiliser le lexique spécifique associé aux angles"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01",
+      "titre": "Décrire un déplacement",
+      "domaine": "Espace et géométrie",
+      "theme": "Le repérage dans l’espace",
+      "attendu": "Suivre et écrire une suite d’instructions de déplacement sur un quadrillage.",
+      "exemple": "Avance de 3 cases, tourne à droite, avance de 2 cases.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 21,
+        "extrait": "Comprendre, utiliser et produire une suite d’instructions qui décrivent un déplacement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01",
+      "titre": "Tableaux, diagrammes et courbes",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Lire un tableau, un diagramme en barres ou une courbe et résoudre un problème avec ces données.",
+      "exemple": "Une courbe des températures monte de 8 °C à 15 °C entre 8 h et 14 h.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 24,
+        "extrait": "Lire et interpréter les données d’un tableau à simple ou double entrée, d’un diagramme en barres ou d’une courbe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01",
+      "titre": "Possible, impossible, certain",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Les probabilités",
+      "attendu": "Utiliser le vocabulaire des probabilités : impossible, possible, certain, probable, une chance sur deux.",
+      "exemple": "Obtenir 7 avec un dé à six faces est impossible.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 24,
+        "extrait": "Comprendre et utiliser le vocabulaire approprié"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

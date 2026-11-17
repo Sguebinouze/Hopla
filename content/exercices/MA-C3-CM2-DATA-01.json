@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-CM2-DATA-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM2-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le disque entier d’un diagramme circulaire représente…",
+      "options": [
+        "le total",
+        "la moitié",
+        "le plus petit groupe"
+      ],
+      "reponse": "le total",
+      "indice": "Tout.",
+      "explication": "Le total.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un demi-disque représente…",
+      "options": [
+        "la moitié",
+        "le quart",
+        "le tiers"
+      ],
+      "reponse": "la moitié",
+      "indice": "Demi.",
+      "explication": "La moitié.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur 60 votes, la moitié du disque représente…",
+      "options": [
+        "30 votes",
+        "60 votes",
+        "15 votes"
+      ],
+      "reponse": "30 votes",
+      "indice": "60 ÷ 2.",
+      "explication": "30.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur 80 élèves, un quart du disque représente…",
+      "options": [
+        "20 élèves",
+        "40 élèves",
+        "25 élèves"
+      ],
+      "reponse": "20 élèves",
+      "indice": "80 ÷ 4.",
+      "explication": "20.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un quart du disque correspond à quel pourcentage ?",
+      "options": [
+        "25 %",
+        "50 %",
+        "75 %"
+      ],
+      "reponse": "25 %",
+      "indice": "100 ÷ 4.",
+      "explication": "25 %.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur 100 élèves, 50 % vont en bus. Combien ?",
+      "options": [
+        "50",
+        "25",
+        "100"
+      ],
+      "reponse": "50",
+      "indice": "La moitié.",
+      "explication": "50 élèves.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sur 120 élèves, le secteur « cantine » occupe les trois quarts. Combien mangent à la cantine ?",
+      "options": [
+        "90",
+        "30",
+        "60"
+      ],
+      "reponse": "90",
+      "indice": "120 ÷ 4 × 3.",
+      "explication": "30 × 3 = 90.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une courbe passe de 20 à 35 en 5 jours, régulièrement. Augmentation par jour ?",
+      "options": [
+        "3",
+        "15",
+        "5"
+      ],
+      "reponse": "3",
+      "indice": "15 ÷ 5.",
+      "explication": "15 ÷ 5 = 3.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-ALG-01",
+  "exemple": "Une frise de carrés : 4, 7, 10, 13 allumettes. On ajoute 3 à chaque nouveau carré.",
+  "regle": "Pour un **motif évolutif**, je cherche ce qui **change** d’une étape à l’autre. Je repère la **régularité** (on ajoute toujours le même nombre, on double…). Je peux alors calculer une étape lointaine sans tout dessiner.",
+  "piege": "Ajouter 3 à chaque étape ne donne pas 3 × 10 à l’étape 10 : le départ compte.",
+  "essai": {
+    "consigne": "Suite 4, 7, 10, 13… Quel est le terme suivant ?",
+    "options": [
+      "16",
+      "15",
+      "17"
+    ],
+    "reponse": "16",
+    "explication": "13 + 3 = 16."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

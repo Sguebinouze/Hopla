@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-DATA-01",
+  "exemple": "Animaux de la classe : chat 8, chien 6, poisson 3.",
+  "regle": "Dans un **diagramme en barres**, chaque barre montre un nombre. Plus la barre est **haute**, plus le nombre est **grand**. Je lis le nombre sur l’**axe** vertical.",
+  "piege": "La barre la plus haute donne le plus grand nombre.",
+  "essai": {
+    "consigne": "Chat 8, chien 6, poisson 3. Quel animal est le plus fréquent ?",
+    "options": [
+      "le chat",
+      "le chien",
+      "le poisson"
+    ],
+    "reponse": "le chat",
+    "explication": "8 est le plus grand nombre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

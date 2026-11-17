@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-ANG-01",
+  "exemple": "Le coin d’une feuille forme un angle droit. Les aiguilles à 2 h forment un angle aigu.",
+  "regle": "Un **angle** est formé par deux demi-droites de même origine, le **sommet**. Un angle **droit** se vérifie à l’équerre. Un angle **aigu** est plus petit qu’un angle droit, un angle **obtus** plus grand. L’angle **ABC** a pour sommet **B**, la lettre du milieu.",
+  "piege": "La longueur des côtés dessinés ne change pas la mesure de l’angle.",
+  "essai": {
+    "consigne": "Quel est le sommet de l’angle DEF ?",
+    "options": [
+      "E",
+      "D",
+      "F"
+    ],
+    "reponse": "E",
+    "explication": "La lettre du milieu."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

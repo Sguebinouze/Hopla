@@ -522,6 +522,36 @@
         "MA-C3-CM1-GEO-03"
       ],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01",
+      "titre": "Assemblages de cubes",
+      "domaine": "Espace et géométrie",
+      "theme": "Déplacements dans l’espace",
+      "attendu": "Compter les cubes d’un assemblage et passer d’une vue à l’autre.",
+      "exemple": "Un escalier de 3 marches posé en « pyramide » : 1 + 2 + 3 = 6 cubes.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 22,
+        "extrait": "Résoudre des problèmes portant sur des assemblages de cubes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-CM2-DATA-01",
+      "titre": "Diagramme circulaire et courbes",
+      "domaine": "Organisation et gestion de données et probabilités",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Lire un diagramme circulaire, un diagramme en barres ou une courbe et résoudre un problème.",
+      "exemple": "Dans un diagramme circulaire, un quart du disque représente 25 %.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 25,
+        "extrait": "Lire et interpréter les données d’un tableau, d’un diagramme en barres, d’un diagramme circulaire ou d’une courbe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

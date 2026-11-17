@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-CM2-ESP-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM2-ESP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un pavé de 2 × 2 × 2 cubes contient…",
+      "options": [
+        "8 cubes",
+        "6 cubes",
+        "4 cubes"
+      ],
+      "reponse": "8 cubes",
+      "indice": "2 × 2 × 2.",
+      "explication": "8 cubes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un étage de 3 rangées de 4 cubes contient…",
+      "options": [
+        "12 cubes",
+        "7 cubes",
+        "34 cubes"
+      ],
+      "reponse": "12 cubes",
+      "indice": "3 × 4.",
+      "explication": "12 cubes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Combien de faces a un cube ?",
+      "options": [
+        "6",
+        "8",
+        "12"
+      ],
+      "reponse": "6",
+      "indice": "Un dé.",
+      "explication": "6 faces.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une tour de 5 étages de 4 cubes chacun contient…",
+      "options": [
+        "20 cubes",
+        "9 cubes",
+        "45 cubes"
+      ],
+      "reponse": "20 cubes",
+      "indice": "5 × 4.",
+      "explication": "20 cubes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un escalier : 3 cubes en bas, 2 au milieu, 1 en haut. Combien de cubes ?",
+      "options": [
+        "6",
+        "5",
+        "9"
+      ],
+      "reponse": "6",
+      "indice": "3 + 2 + 1.",
+      "explication": "6 cubes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un grand cube est fait de 3 × 3 × 3 petits cubes. Combien ?",
+      "options": [
+        "27",
+        "9",
+        "18"
+      ],
+      "reponse": "27",
+      "indice": "3 × 3 × 3.",
+      "explication": "27.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On peint l’extérieur d’un grand cube de 3 × 3 × 3. Combien de petits cubes ne sont pas peints ?",
+      "options": [
+        "1",
+        "0",
+        "9"
+      ],
+      "reponse": "1",
+      "indice": "Celui du centre.",
+      "explication": "Seul le cube central est caché.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM2-ESP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Vu de dessus, un assemblage montre 4 carrés. Combien de cubes au minimum ?",
+      "options": [
+        "4",
+        "1",
+        "8"
+      ],
+      "reponse": "4",
+      "indice": "Un cube par carré visible.",
+      "explication": "Au moins un cube sous chaque carré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

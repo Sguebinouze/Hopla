@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE2-DATA-01",
+  "exemple": "Cantine : lundi, 40 repas ; mardi, 55 repas. L’axe est gradué de 5 en 5.",
+  "regle": "Dans un **tableau à double entrée**, je croise **ligne** et **colonne**. Dans un diagramme, je regarde l’**échelle**. Une graduation peut valoir 2, 5 ou 10.",
+  "piege": "Je lis toujours la valeur d’une graduation avant de lire une barre.",
+  "essai": {
+    "consigne": "Une graduation vaut 10. Une barre monte à 3 graduations. Elle vaut…",
+    "options": [
+      "30",
+      "3",
+      "13"
+    ],
+    "reponse": "30",
+    "explication": "3 × 10 = 30."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

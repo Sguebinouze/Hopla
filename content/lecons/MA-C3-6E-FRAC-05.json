@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-FRAC-05",
+  "exemple": "2/3 et 3/4 : on écrit 8/12 et 9/12, donc 2/3 < 3/4.",
+  "regle": "Même **dénominateur** : la plus grande fraction a le plus grand numérateur. Sinon, on les met au **même dénominateur** en multipliant numérateur et dénominateur par un même nombre. Une fraction est **plus grande que 1** si le numérateur dépasse le dénominateur.",
+  "piege": "Avec le même numérateur, la plus grande fraction a le plus petit dénominateur : 1/3 > 1/5.",
+  "essai": {
+    "consigne": "Quelle fraction est la plus grande ?",
+    "options": [
+      "5/7",
+      "3/7",
+      "4/7"
+    ],
+    "reponse": "5/7",
+    "explication": "Même dénominateur : 5 est le plus grand numérateur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

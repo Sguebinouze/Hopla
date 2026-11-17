@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C2-CE1-ESP-01",
+  "exercices": [
+    {
+      "id": "MA-C2-CE1-ESP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le chat dort en dessous de la table. Il est…",
+      "options": [
+        "sous la table",
+        "sur la table",
+        "devant la table"
+      ],
+      "reponse": "sous la table",
+      "indice": "En dessous.",
+      "explication": "Sous la table.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Lina est au milieu, avec Paul d’un côté et Zoé de l’autre. Lina est…",
+      "options": [
+        "entre Paul et Zoé",
+        "derrière Paul",
+        "loin de Zoé"
+      ],
+      "reponse": "entre Paul et Zoé",
+      "indice": "Au milieu.",
+      "explication": "Entre Paul et Zoé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est le contraire de « devant » ?",
+      "options": [
+        "derrière",
+        "dessus",
+        "loin"
+      ],
+      "reponse": "derrière",
+      "indice": "Dans le dos.",
+      "explication": "Derrière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le contraire de « près » est…",
+      "options": [
+        "loin",
+        "sous",
+        "entre"
+      ],
+      "reponse": "loin",
+      "indice": "Distance.",
+      "explication": "Loin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une file : Ana, Ben, Cléo. Qui est entre Ana et Cléo ?",
+      "options": [
+        "Ben",
+        "Ana",
+        "Cléo"
+      ],
+      "reponse": "Ben",
+      "indice": "Au milieu.",
+      "explication": "Ben.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une file : Ana, Ben, Cléo. Qui est devant Ben si Ana est en tête ?",
+      "options": [
+        "Ana",
+        "Cléo",
+        "personne"
+      ],
+      "reponse": "Ana",
+      "indice": "Ana est en premier.",
+      "explication": "Ana est devant Ben.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Tu lèves la main droite. Ton ami en face de toi voit ta main…",
+      "options": [
+        "à sa gauche",
+        "à sa droite",
+        "au-dessus"
+      ],
+      "reponse": "à sa gauche",
+      "indice": "Il te regarde.",
+      "explication": "En face, la droite apparaît à gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "En haut : les livres. Au milieu : les jeux. En bas : les ballons. Où sont les jeux ?",
+      "options": [
+        "entre les livres et les ballons",
+        "sous les ballons",
+        "sur les livres"
+      ],
+      "reponse": "entre les livres et les ballons",
+      "indice": "Au milieu.",
+      "explication": "Entre les livres et les ballons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

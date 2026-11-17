@@ -428,6 +428,21 @@
         "MA-C2-CE2-GEO-02"
       ],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01",
+      "titre": "Tableaux et diagrammes",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Lire un tableau à double entrée et un diagramme en barres avec une échelle.",
+      "exemple": "Une graduation vaut 5 : une barre de 4 graduations représente 20.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 38,
+        "extrait": "Lire et interpréter les données d’un tableau à double entrée"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

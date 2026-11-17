@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-CM1-DATA-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM1-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "8 h : 8 °C, 14 h : 15 °C. De combien la température a-t-elle augmenté ?",
+      "options": [
+        "7 °C",
+        "23 °C",
+        "6 °C"
+      ],
+      "reponse": "7 °C",
+      "indice": "15 − 8.",
+      "explication": "15 − 8 = 7.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une courbe descend. La valeur…",
+      "options": [
+        "diminue",
+        "augmente",
+        "reste égale"
+      ],
+      "reponse": "diminue",
+      "indice": "Elle baisse.",
+      "explication": "Elle diminue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur un graphique du temps, l’axe horizontal représente souvent…",
+      "options": [
+        "le temps",
+        "la température",
+        "la quantité"
+      ],
+      "reponse": "le temps",
+      "indice": "Les heures, les jours.",
+      "explication": "Le temps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Livres empruntés : janvier 120, février 95, mars 140. Total du trimestre ?",
+      "options": [
+        "355",
+        "345",
+        "335"
+      ],
+      "reponse": "355",
+      "indice": "Additionne.",
+      "explication": "120 + 95 + 140 = 355.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Janvier 120, février 95, mars 140. Quel mois a la plus forte baisse par rapport au précédent ?",
+      "options": [
+        "février",
+        "mars",
+        "janvier"
+      ],
+      "reponse": "février",
+      "indice": "Compare mois par mois.",
+      "explication": "De 120 à 95 : baisse de 25.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Tableau double entrée : CM1 filles 14, garçons 11 ; CM2 filles 12, garçons 15. Combien de garçons au total ?",
+      "options": [
+        "26",
+        "25",
+        "27"
+      ],
+      "reponse": "26",
+      "indice": "11 + 15.",
+      "explication": "11 + 15 = 26.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une plante mesure 2 cm le 1er mai, 5 cm le 8 mai, 9 cm le 15 mai. Combien a-t-elle poussé en deux semaines ?",
+      "options": [
+        "7 cm",
+        "9 cm",
+        "4 cm"
+      ],
+      "reponse": "7 cm",
+      "indice": "9 − 2.",
+      "explication": "9 − 2 = 7 cm.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Même plante. Quelle semaine a-t-elle le plus poussé ?",
+      "options": [
+        "la deuxième",
+        "la première",
+        "les deux pareil"
+      ],
+      "reponse": "la deuxième",
+      "indice": "3 cm puis 4 cm.",
+      "explication": "+3 puis +4 : la deuxième.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

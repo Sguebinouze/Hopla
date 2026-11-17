@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C2-CE2-DATA-01",
+  "exercices": [
+    {
+      "id": "MA-C2-CE2-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tableau : CE2 A, filles 12, garçons 13. Combien de garçons en CE2 A ?",
+      "options": [
+        "13",
+        "12",
+        "25"
+      ],
+      "reponse": "13",
+      "indice": "Croise la ligne et la colonne.",
+      "explication": "13 garçons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tableau : CE2 A, filles 12, garçons 13. Combien d’élèves en CE2 A ?",
+      "options": [
+        "25",
+        "24",
+        "13"
+      ],
+      "reponse": "25",
+      "indice": "Filles + garçons.",
+      "explication": "12 + 13 = 25.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une graduation vaut 2. Une barre a 5 graduations. Elle vaut…",
+      "options": [
+        "10",
+        "7",
+        "5"
+      ],
+      "reponse": "10",
+      "indice": "5 × 2.",
+      "explication": "5 × 2 = 10.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une graduation vaut 5. Une barre monte à 7 graduations. Elle vaut…",
+      "options": [
+        "35",
+        "12",
+        "57"
+      ],
+      "reponse": "35",
+      "indice": "7 × 5.",
+      "explication": "7 × 5 = 35.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Ventes : lundi 45, mardi 60, mercredi 30. Total des ventes ?",
+      "options": [
+        "135",
+        "125",
+        "145"
+      ],
+      "reponse": "135",
+      "indice": "Additionne.",
+      "explication": "45 + 60 + 30 = 135.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Ventes : lundi 45, mardi 60. Écart entre mardi et lundi ?",
+      "options": [
+        "15",
+        "105",
+        "25"
+      ],
+      "reponse": "15",
+      "indice": "60 − 45.",
+      "explication": "60 − 45 = 15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Classe A : 12 filles, 14 garçons. Classe B : 15 filles, 11 garçons. Quelle classe a le plus d’élèves ?",
+      "options": [
+        "les deux ont 26 élèves",
+        "la classe A",
+        "la classe B"
+      ],
+      "reponse": "les deux ont 26 élèves",
+      "indice": "Calcule chaque total.",
+      "explication": "12 + 14 = 26 et 15 + 11 = 26.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE2-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Graduation de 10 en 10. Une barre s’arrête entre 40 et 50, au milieu. Valeur ?",
+      "options": [
+        "45",
+        "40",
+        "50"
+      ],
+      "reponse": "45",
+      "indice": "Au milieu de 40 et 50.",
+      "explication": "45.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

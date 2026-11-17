@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-PROBA-01",
+  "exemple": "Dans un sac : 9 billes rouges et 1 bleue. Tirer une rouge est très probable.",
+  "regle": "Un évènement est **impossible** s’il ne peut pas arriver, **certain** s’il arrive toujours, **possible** sinon. Il est **probable** s’il a beaucoup de chances, **peu probable** s’il en a peu. Pile ou face : **une chance sur deux**.",
+  "piege": "Deux issues ne font pas forcément une chance sur deux. Avec 9 rouges et 1 bleue, les chances diffèrent.",
+  "essai": {
+    "consigne": "Obtenir un nombre plus petit que 7 avec un dé à six faces est…",
+    "options": [
+      "certain",
+      "impossible",
+      "peu probable"
+    ],
+    "reponse": "certain",
+    "explication": "Toutes les faces vont de 1 à 6."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

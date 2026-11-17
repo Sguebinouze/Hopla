@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-CM1-ANG-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM1-ANG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un angle plus petit qu’un angle droit est…",
+      "options": [
+        "aigu",
+        "obtus",
+        "plat"
+      ],
+      "reponse": "aigu",
+      "indice": "Il est fermé.",
+      "explication": "Aigu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un angle plus grand qu’un angle droit est…",
+      "options": [
+        "obtus",
+        "aigu",
+        "droit"
+      ],
+      "reponse": "obtus",
+      "indice": "Il est ouvert.",
+      "explication": "Obtus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quel instrument vérifie-t-on un angle droit ?",
+      "options": [
+        "l’équerre",
+        "le compas",
+        "la règle"
+      ],
+      "reponse": "l’équerre",
+      "indice": "Il a un coin droit.",
+      "explication": "L’équerre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le sommet de l’angle RST ?",
+      "options": [
+        "S",
+        "R",
+        "T"
+      ],
+      "reponse": "S",
+      "indice": "Lettre du milieu.",
+      "explication": "S.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À 3 h, les aiguilles d’une horloge forment un angle…",
+      "options": [
+        "droit",
+        "aigu",
+        "obtus"
+      ],
+      "reponse": "droit",
+      "indice": "Un quart de tour.",
+      "explication": "Un quart de tour : angle droit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À 1 h, les aiguilles forment un angle…",
+      "options": [
+        "aigu",
+        "droit",
+        "obtus"
+      ],
+      "reponse": "aigu",
+      "indice": "Elles sont proches.",
+      "explication": "Angle aigu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "On allonge les côtés d’un angle. Sa mesure…",
+      "options": [
+        "ne change pas",
+        "augmente",
+        "diminue"
+      ],
+      "reponse": "ne change pas",
+      "indice": "C’est l’ouverture qui compte.",
+      "explication": "La longueur des côtés ne compte pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ANG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "À 5 h, les aiguilles forment un angle…",
+      "options": [
+        "obtus",
+        "droit",
+        "aigu"
+      ],
+      "reponse": "obtus",
+      "indice": "Plus qu’un quart de tour.",
+      "explication": "Plus ouvert qu’un angle droit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

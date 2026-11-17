@@ -335,6 +335,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01",
+      "titre": "Lire un diagramme en barres",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Organisation et gestion de données",
+      "attendu": "Lire un tableau ou un diagramme en barres et répondre à une question.",
+      "exemple": "La barre « chat » monte jusqu’à 8 : 8 élèves ont un chat.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 38,
+        "extrait": "Lire et interpréter les données d’un diagramme en barres"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C2-CE1-ESP-01",
+      "titre": "Se repérer : devant, derrière, entre",
+      "domaine": "Espace et géométrie",
+      "theme": "Se repérer et se déplacer",
+      "attendu": "Utiliser le vocabulaire des positions : à gauche, à droite, sur, sous, entre, devant, derrière, près, loin.",
+      "exemple": "Le chat est sous la table, entre la chaise et le canapé.",
+      "source": {
+        "id": "bo41-2024-maths-c2",
+        "page": 34,
+        "extrait": "Connaitre et utiliser le vocabulaire lié aux positions relatives"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

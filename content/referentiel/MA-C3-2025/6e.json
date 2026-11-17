@@ -408,6 +408,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-6E-FRAC-04",
+      "titre": "La fraction quotient",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Comprendre que a/b est le nombre qui, multiplié par b, donne a ; le placer sur une demi-droite.",
+      "exemple": "7/4 est le nombre tel que 4 × 7/4 = 7. 7/4 = 1,75.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 15,
+        "extrait": "Relier une fraction au résultat exact de la division de son numérateur par son dénominateur"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-6E-FRAC-05",
+      "titre": "Comparer et encadrer des fractions",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Les fractions",
+      "attendu": "Comparer des fractions, les ranger et les encadrer entre deux entiers.",
+      "exemple": "3/5 < 4/5 ; 2/3 = 4/6 ; 7/3 est entre 2 et 3.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 16,
+        "extrait": "Comparer et encadrer des fractions"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-6E-ALG-01",
+      "titre": "Motifs et suites",
+      "domaine": "Nombres, calcul et résolution de problèmes",
+      "theme": "Résoudre des problèmes mettant en jeu des nombres inconnus",
+      "attendu": "Repérer la régularité d’un motif qui évolue et prévoir une étape suivante.",
+      "exemple": "Étape 1 : 3 allumettes, étape 2 : 5, étape 3 : 7. On ajoute 2 à chaque étape.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 16,
+        "extrait": "Identifier la structure d’un motif évolutif"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01",
+      "titre": "Séquences d’instructions",
+      "domaine": "Espace et géométrie",
+      "theme": "Initiation à la programmation",
+      "attendu": "Lire, exécuter et écrire une séquence d’instructions, avec une boucle « répéter ».",
+      "exemple": "Répéter 4 fois : avancer de 50, tourner de 90° → un carré.",
+      "source": {
+        "id": "bo16-2025-maths-c3",
+        "page": 28,
+        "extrait": "Produire et exécuter une séquence d’instructions"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

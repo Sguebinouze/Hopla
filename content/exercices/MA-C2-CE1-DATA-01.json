@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C2-CE1-DATA-01",
+  "exercices": [
+    {
+      "id": "MA-C2-CE1-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Fruits préférés : pomme 7, banane 4, fraise 9. Quel fruit est le préféré ?",
+      "options": [
+        "la fraise",
+        "la pomme",
+        "la banane"
+      ],
+      "reponse": "la fraise",
+      "indice": "Le plus grand nombre.",
+      "explication": "9 est le plus grand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pomme 7, banane 4, fraise 9. Combien aiment la banane ?",
+      "options": [
+        "4",
+        "7",
+        "9"
+      ],
+      "reponse": "4",
+      "indice": "Lis la ligne « banane ».",
+      "explication": "4 élèves.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une barre est la plus haute. Que veut dire cela ?",
+      "options": [
+        "C’est le plus grand nombre.",
+        "C’est le plus petit nombre.",
+        "Rien."
+      ],
+      "reponse": "C’est le plus grand nombre.",
+      "indice": "Haute = grand.",
+      "explication": "La barre la plus haute est la plus grande.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Vélo 5, bus 12, voiture 8. Combien d’élèves en tout ?",
+      "options": [
+        "25",
+        "20",
+        "17"
+      ],
+      "reponse": "25",
+      "indice": "Additionne tout.",
+      "explication": "5 + 12 + 8 = 25.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Vélo 5, bus 12, voiture 8. Combien de plus en bus qu’en voiture ?",
+      "options": [
+        "4",
+        "20",
+        "7"
+      ],
+      "reponse": "4",
+      "indice": "12 − 8.",
+      "explication": "12 − 8 = 4.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Rouge 6, bleu 6, vert 2. Quelles couleurs sont à égalité ?",
+      "options": [
+        "rouge et bleu",
+        "bleu et vert",
+        "rouge et vert"
+      ],
+      "reponse": "rouge et bleu",
+      "indice": "Même nombre.",
+      "explication": "Rouge et bleu : 6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Lundi 10 livres prêtés, mardi 15, mercredi 5. Quel jour en a le moins ?",
+      "options": [
+        "mercredi",
+        "lundi",
+        "mardi"
+      ],
+      "reponse": "mercredi",
+      "indice": "Le plus petit nombre.",
+      "explication": "5 est le plus petit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C2-CE1-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Foot 9, danse 7, judo 4. Combien d’élèves ne font pas de foot ?",
+      "options": [
+        "11",
+        "9",
+        "20"
+      ],
+      "reponse": "11",
+      "indice": "Danse + judo.",
+      "explication": "7 + 4 = 11.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

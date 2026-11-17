@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-DATA-01",
+  "exemple": "Sur 40 élèves, un demi-disque « vélo » représente 20 élèves.",
+  "regle": "Un **diagramme circulaire** partage un disque en **secteurs**. Le disque entier représente le **total**. Un demi-disque représente la **moitié**, un quart de disque le **quart**.",
+  "piege": "Un secteur plus grand représente une part plus grande, pas forcément un nombre précis : il faut connaitre le total.",
+  "essai": {
+    "consigne": "Sur 40 élèves, un quart du disque représente…",
+    "options": [
+      "10 élèves",
+      "4 élèves",
+      "25 élèves"
+    ],
+    "reponse": "10 élèves",
+    "explication": "40 ÷ 4 = 10."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

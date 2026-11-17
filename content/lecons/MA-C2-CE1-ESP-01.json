@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C2-CE1-ESP-01",
+  "exemple": "Tom est assis entre Léa et Max. Le cartable est sous sa chaise.",
+  "regle": "Je situe un objet par rapport à un **autre**. J’utilise : sur, sous, devant, derrière. J’utilise aussi : à gauche, à droite, **entre**, près, loin.",
+  "piege": "Ma gauche n’est pas la gauche de la personne en face.",
+  "essai": {
+    "consigne": "Le livre est posé en haut du bureau. Il est…",
+    "options": [
+      "sur le bureau",
+      "sous le bureau",
+      "derrière le bureau"
+    ],
+    "reponse": "sur le bureau",
+    "explication": "En haut, posé dessus : sur."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

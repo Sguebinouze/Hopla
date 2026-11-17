@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-6E-ALGO-01",
+  "exercices": [
+    {
+      "id": "MA-C3-6E-ALGO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Répéter 4 fois : avancer de 50, tourner de 90°. » Quelle figure ?",
+      "options": [
+        "un carré",
+        "un triangle",
+        "un cercle"
+      ],
+      "reponse": "un carré",
+      "indice": "4 côtés égaux, angles droits.",
+      "explication": "Un carré de côté 50.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle instruction évite de recopier plusieurs fois la même chose ?",
+      "options": [
+        "répéter",
+        "avancer",
+        "attendre"
+      ],
+      "reponse": "répéter",
+      "indice": "Une boucle.",
+      "explication": "La boucle « répéter ».",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les instructions d’un programme s’exécutent…",
+      "options": [
+        "dans l’ordre",
+        "au hasard",
+        "toutes en même temps"
+      ],
+      "reponse": "dans l’ordre",
+      "indice": "L’une après l’autre.",
+      "explication": "Dans l’ordre écrit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "De combien tourner pour tracer un triangle équilatéral ?",
+      "options": [
+        "120°",
+        "60°",
+        "90°"
+      ],
+      "reponse": "120°",
+      "indice": "360 ÷ 3.",
+      "explication": "120° à chaque sommet extérieur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "De combien tourner pour tracer un hexagone régulier ?",
+      "options": [
+        "60°",
+        "120°",
+        "45°"
+      ],
+      "reponse": "60°",
+      "indice": "360 ÷ 6.",
+      "explication": "60°.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "« Répéter 5 fois : avancer de 20. » Distance totale ?",
+      "options": [
+        "100",
+        "25",
+        "20"
+      ],
+      "reponse": "100",
+      "indice": "5 × 20.",
+      "explication": "100.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une variable « score » vaut 0. « Répéter 4 fois : ajouter 3 à score. » Score final ?",
+      "options": [
+        "12",
+        "7",
+        "3"
+      ],
+      "reponse": "12",
+      "indice": "4 × 3.",
+      "explication": "0 + 3 + 3 + 3 + 3 = 12.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALGO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Répéter 8 fois : avancer de 30, tourner de 45°. » Quelle figure ?",
+      "options": [
+        "un octogone régulier",
+        "un carré",
+        "un hexagone"
+      ],
+      "reponse": "un octogone régulier",
+      "indice": "8 côtés.",
+      "explication": "360 ÷ 8 = 45 : octogone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

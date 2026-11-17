@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-6E-ALG-01",
+  "exercices": [
+    {
+      "id": "MA-C3-6E-ALG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Suite 2, 4, 6, 8… Terme suivant ?",
+      "options": [
+        "10",
+        "9",
+        "12"
+      ],
+      "reponse": "10",
+      "indice": "+2.",
+      "explication": "8 + 2 = 10.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Suite 5, 10, 15, 20… Terme suivant ?",
+      "options": [
+        "25",
+        "30",
+        "21"
+      ],
+      "reponse": "25",
+      "indice": "+5.",
+      "explication": "20 + 5 = 25.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Suite 1, 2, 4, 8… Terme suivant ?",
+      "options": [
+        "16",
+        "10",
+        "12"
+      ],
+      "reponse": "16",
+      "indice": "On double.",
+      "explication": "8 × 2 = 16.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Étape 1 : 3 allumettes ; on ajoute 2 à chaque étape. Étape 5 ?",
+      "options": [
+        "11",
+        "10",
+        "15"
+      ],
+      "reponse": "11",
+      "indice": "3 + 2 × 4.",
+      "explication": "3 + 8 = 11.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Suite 50, 45, 40, 35… Terme suivant ?",
+      "options": [
+        "30",
+        "25",
+        "31"
+      ],
+      "reponse": "30",
+      "indice": "−5.",
+      "explication": "35 − 5 = 30.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Suite 1, 4, 9, 16… Terme suivant ?",
+      "options": [
+        "25",
+        "20",
+        "23"
+      ],
+      "reponse": "25",
+      "indice": "Carrés : 1×1, 2×2…",
+      "explication": "5 × 5 = 25.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Carrés en frise : 4, 7, 10… allumettes. Combien pour 10 carrés ?",
+      "options": [
+        "31",
+        "30",
+        "40"
+      ],
+      "reponse": "31",
+      "indice": "4 + 3 × 9.",
+      "explication": "4 + 27 = 31.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-6E-ALG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Étape n : 2 × n + 1 jetons. Étape 20 ?",
+      "options": [
+        "41",
+        "40",
+        "42"
+      ],
+      "reponse": "41",
+      "indice": "2 × 20 + 1.",
+      "explication": "41.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

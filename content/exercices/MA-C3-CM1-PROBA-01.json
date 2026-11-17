@@ -1,0 +1,140 @@
+{
+  "competence": "MA-C3-CM1-PROBA-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM1-PROBA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Obtenir 8 avec un dé à six faces est…",
+      "options": [
+        "impossible",
+        "certain",
+        "probable"
+      ],
+      "reponse": "impossible",
+      "indice": "Les faces vont de 1 à 6.",
+      "explication": "Aucune face ne porte 8.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Obtenir pile en lançant une pièce, c’est…",
+      "options": [
+        "une chance sur deux",
+        "certain",
+        "impossible"
+      ],
+      "reponse": "une chance sur deux",
+      "indice": "Pile ou face.",
+      "explication": "Deux issues équiprobables.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Obtenir 3 avec un dé est…",
+      "options": [
+        "possible",
+        "certain",
+        "impossible"
+      ],
+      "reponse": "possible",
+      "indice": "Une face porte 3.",
+      "explication": "Possible, mais pas certain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sac : 9 billes rouges, 1 bleue. Tirer une bille bleue est…",
+      "options": [
+        "peu probable",
+        "certain",
+        "très probable"
+      ],
+      "reponse": "peu probable",
+      "indice": "Une seule bleue.",
+      "explication": "Une chance sur dix.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sac : 5 rouges, 5 vertes. Tirer une rouge est…",
+      "options": [
+        "une chance sur deux",
+        "impossible",
+        "certain"
+      ],
+      "reponse": "une chance sur deux",
+      "indice": "Il y a autant de billes de chaque couleur.",
+      "explication": "5 sur 10, soit une chance sur deux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sac : seulement des billes jaunes. Tirer une jaune est…",
+      "options": [
+        "certain",
+        "possible seulement",
+        "impossible"
+      ],
+      "reponse": "certain",
+      "indice": "Il n’y a que du jaune.",
+      "explication": "C’est certain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Sac : 9 rouges et 1 bleue. Il y a deux couleurs. Est-ce une chance sur deux de tirer bleu ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "Compte les billes.",
+      "explication": "Une chance sur dix seulement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-PROBA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Avec un dé, quel évènement est le plus probable ?",
+      "options": [
+        "obtenir un nombre pair",
+        "obtenir 6",
+        "obtenir 1"
+      ],
+      "reponse": "obtenir un nombre pair",
+      "indice": "Combien de faces conviennent ?",
+      "explication": "Trois faces paires contre une seule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

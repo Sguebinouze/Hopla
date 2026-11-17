@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-DATA-01",
+  "exemple": "Températures : 8 h → 8 °C, 11 h → 12 °C, 14 h → 15 °C, 17 h → 11 °C.",
+  "regle": "Une **courbe** montre une évolution dans le temps : elle **monte** quand la valeur augmente, **descend** quand elle diminue. Je lis l’axe horizontal (le temps) puis l’axe vertical (la valeur).",
+  "piege": "Le point le plus haut d’une courbe donne la valeur maximale.",
+  "essai": {
+    "consigne": "Dans l’exemple, à quelle heure fait-il le plus chaud ?",
+    "options": [
+      "14 h",
+      "17 h",
+      "8 h"
+    ],
+    "reponse": "14 h",
+    "explication": "15 °C est la valeur la plus haute."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

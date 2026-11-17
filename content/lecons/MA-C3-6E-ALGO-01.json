@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-6E-ALGO-01",
+  "exemple": "Un lutin exécute : « Répéter 3 fois : avancer de 100, tourner à gauche de 120°. » Il trace un triangle équilatéral.",
+  "regle": "Un **programme** est une suite d’**instructions** exécutées dans l’**ordre**. Une **boucle** « répéter n fois » évite de recopier les mêmes instructions. Pour un polygone régulier à n côtés, on tourne de **360° ÷ n**.",
+  "piege": "Changer l’ordre des instructions change le résultat.",
+  "essai": {
+    "consigne": "Combien de degrés tourner pour tracer un carré ?",
+    "options": [
+      "90°",
+      "60°",
+      "120°"
+    ],
+    "reponse": "90°",
+    "explication": "360 ÷ 4 = 90."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM2-ESP-01",
+  "exemple": "Un pavé de 3 cubes de long, 2 de large et 2 de haut contient 3 × 2 × 2 = 12 cubes.",
+  "regle": "Pour compter les cubes d’un assemblage, je compte **étage par étage**, sans oublier les cubes **cachés** dessous. Pour un **pavé**, je multiplie longueur × largeur × hauteur.",
+  "piege": "Un cube en hauteur repose toujours sur un autre cube.",
+  "essai": {
+    "consigne": "Un pavé de 4 × 2 × 3 cubes contient…",
+    "options": [
+      "24 cubes",
+      "9 cubes",
+      "20 cubes"
+    ],
+    "reponse": "24 cubes",
+    "explication": "4 × 2 × 3 = 24."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

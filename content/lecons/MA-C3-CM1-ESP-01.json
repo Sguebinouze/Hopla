@@ -1,0 +1,19 @@
+{
+  "competence": "MA-C3-CM1-ESP-01",
+  "exemple": "Un robot regarde vers le haut. « Avance 2, tourne à droite, avance 1. » Il finit 2 cases plus haut et 1 case à droite.",
+  "regle": "Une suite d’**instructions** décrit un trajet : **avance**, **tourne à droite**, **tourne à gauche** (quart de tour), **recule**. Tourner change la **direction**, pas la position.",
+  "piege": "À droite ou à gauche dépend de la direction où regarde le robot.",
+  "essai": {
+    "consigne": "Un robot regarde vers le haut et tourne à droite. Il regarde…",
+    "options": [
+      "vers la droite",
+      "vers le bas",
+      "vers la gauche"
+    ],
+    "reponse": "vers la droite",
+    "explication": "Un quart de tour vers la droite."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

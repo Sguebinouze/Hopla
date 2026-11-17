@@ -1,0 +1,141 @@
+{
+  "competence": "MA-C3-CM1-ESP-01",
+  "exercices": [
+    {
+      "id": "MA-C3-CM1-ESP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un robot regarde vers le haut et tourne à gauche. Il regarde…",
+      "options": [
+        "vers la gauche",
+        "vers la droite",
+        "vers le bas"
+      ],
+      "reponse": "vers la gauche",
+      "indice": "Quart de tour.",
+      "explication": "Vers la gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tourner deux fois à droite fait…",
+      "options": [
+        "un demi-tour",
+        "un tour complet",
+        "rien"
+      ],
+      "reponse": "un demi-tour",
+      "indice": "Deux quarts de tour.",
+      "explication": "Deux quarts de tour = un demi-tour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tourner sur place change…",
+      "options": [
+        "la direction",
+        "la position",
+        "les deux"
+      ],
+      "reponse": "la direction",
+      "indice": "Le robot ne bouge pas de case.",
+      "explication": "Seule la direction change.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le robot en A1 regarde vers la droite. Il avance de 3. Où arrive-t-il ?",
+      "options": [
+        "D1",
+        "A4",
+        "C1"
+      ],
+      "reponse": "D1",
+      "indice": "3 colonnes à droite.",
+      "explication": "A → B → C → D.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le robot regarde vers le bas. Il tourne à droite. Il regarde…",
+      "options": [
+        "vers la gauche",
+        "vers la droite",
+        "vers le haut"
+      ],
+      "reponse": "vers la gauche",
+      "indice": "Imagine-toi à sa place.",
+      "explication": "Face au bas, sa droite est à gauche de l’écran.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel programme fait faire un carré ?",
+      "options": [
+        "4 fois : avance 2, tourne à droite",
+        "2 fois : avance 2, tourne à droite",
+        "4 fois : avance 2"
+      ],
+      "reponse": "4 fois : avance 2, tourne à droite",
+      "indice": "Quatre côtés, quatre virages.",
+      "explication": "Quatre côtés égaux avec quatre quarts de tour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le robot regarde vers le haut. « Tourne à droite, tourne à droite, tourne à droite. » Il regarde…",
+      "options": [
+        "vers la gauche",
+        "vers la droite",
+        "vers le bas"
+      ],
+      "reponse": "vers la gauche",
+      "indice": "Trois quarts de tour.",
+      "explication": "Trois quarts de tour à droite = un quart à gauche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "MA-C3-CM1-ESP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le robot part de C3, regarde vers le haut (ligne 3 vers ligne 1). « Avance 2, tourne à droite, avance 1. » Arrivée ?",
+      "options": [
+        "D1",
+        "B1",
+        "D5"
+      ],
+      "reponse": "D1",
+      "indice": "Monte de 2, puis 1 vers la droite.",
+      "explication": "C3 → C1, puis D1.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
