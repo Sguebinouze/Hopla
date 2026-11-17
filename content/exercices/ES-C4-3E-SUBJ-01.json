@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-SUBJ-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-SUBJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Subjonctif de « hablar » (yo) ?",
+      "options": [
+        "hable",
+        "hablo",
+        "habla"
+      ],
+      "reponse": "hable",
+      "indice": "-ar → -e.",
+      "explication": "Hable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Subjonctif de « comer » (tú) ?",
+      "options": [
+        "comas",
+        "comes",
+        "comás"
+      ],
+      "reponse": "comas",
+      "indice": "-er → -a.",
+      "explication": "Comas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Subjonctif de « tener » (él) ?",
+      "options": [
+        "tenga",
+        "tiene",
+        "tena"
+      ],
+      "reponse": "tenga",
+      "indice": "Tengo → tenga.",
+      "explication": "Tenga.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ojalá … sol mañana. » (hacer)",
+      "options": [
+        "haga",
+        "hace",
+        "hará"
+      ],
+      "reponse": "haga",
+      "indice": "Hago → haga.",
+      "explication": "Ojalá haga sol.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Espero que vosotros … bien. » (estar)",
+      "options": [
+        "estéis",
+        "estáis",
+        "estar"
+      ],
+      "reponse": "estéis",
+      "indice": "Irrégulier : esté.",
+      "explication": "Estéis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Quiero ir al cine.",
+        "Quiero que voy al cine.",
+        "Quiero que yo vaya al cine."
+      ],
+      "reponse": "Quiero ir al cine.",
+      "indice": "Même sujet : infinitif.",
+      "explication": "Quiero ir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que veulent ses parents ?",
+      "options": [
+        "qu’il étudie plus",
+        "qu’il sorte plus",
+        "qu’il dorme plus"
+      ],
+      "reponse": "qu’il étudie plus",
+      "indice": "estudie.",
+      "explication": "« Quieren que estudie más. »",
+      "ecoute": {
+        "texte": "Mis padres quieren que estudie más.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « El profesor quiere que nosotros … los deberes. » (hacer)",
+      "options": [
+        "hagamos",
+        "hacemos",
+        "hagáis"
+      ],
+      "reponse": "hagamos",
+      "indice": "Nosotros.",
+      "explication": "Hagamos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

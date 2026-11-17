@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-4E-QUANT-01",
+  "exemple": "« Ich trinke viel Wasser und esse wenig Zucker. Alle Schüler sind da. »",
+  "regle": "**Viel** et **wenig** + nom **indénombrable** au singulier (viel Wasser, wenig Zeit). **Viele** et **wenige** + nom au **pluriel** (viele Bücher). **Einige** et **ein paar** : quelques. **Alle** : tous.",
+  "piege": "Viel Geld, mais viele Euro.",
+  "essai": {
+    "consigne": "Complète : « Er hat … Bücher. »",
+    "options": [
+      "viele",
+      "viel",
+      "wenig"
+    ],
+    "reponse": "viele",
+    "explication": "Bücher est au pluriel."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

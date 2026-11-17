@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-IND-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-IND-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où va le verbe dans « Ich weiß nicht, wo er … » ?",
+      "options": [
+        "à la fin : wohnt",
+        "en 2e position",
+        "au début"
+      ],
+      "reponse": "à la fin : wohnt",
+      "indice": "Subordonnée.",
+      "explication": "Ich weiß nicht, wo er wohnt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot traduit « si » dans « Je ne sais pas s’il vient » ?",
+      "options": [
+        "ob",
+        "wenn",
+        "als"
+      ],
+      "reponse": "ob",
+      "indice": "Question indirecte.",
+      "explication": "Ob.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Sie sagt, … sie müde ist. »",
+      "options": [
+        "dass",
+        "ob",
+        "wo"
+      ],
+      "reponse": "dass",
+      "indice": "Discours rapporté.",
+      "explication": "Dass.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Weißt du, wann der Film beginnt?",
+        "Weißt du, wann beginnt der Film?",
+        "Weißt du, beginnt wann der Film?"
+      ],
+      "reponse": "Weißt du, wann der Film beginnt?",
+      "indice": "Verbe à la fin.",
+      "explication": "Beginnt à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Rapporte : « Kommst du? » → Er fragt, …",
+      "options": [
+        "ob ich komme",
+        "dass ich komme",
+        "wo ich komme"
+      ],
+      "reponse": "ob ich komme",
+      "indice": "Oui/non.",
+      "explication": "Ob ich komme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande-t-il ?",
+      "options": [
+        "où est la gare",
+        "quelle heure il est",
+        "combien coûte le billet"
+      ],
+      "reponse": "où est la gare",
+      "indice": "Bahnhof.",
+      "explication": "« Wo der Bahnhof ist. »",
+      "ecoute": {
+        "texte": "Können Sie mir sagen, wo der Bahnhof ist?",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Rapporte : « Warum lachst du? » → Sie fragt, …",
+      "options": [
+        "warum ich lache",
+        "ob ich lache",
+        "warum lache ich"
+      ],
+      "reponse": "warum ich lache",
+      "indice": "Mot interrogatif + verbe final.",
+      "explication": "Warum ich lache.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-IND-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Rapporte : « Ich bin krank. » → Er sagt, …",
+      "options": [
+        "dass er krank ist",
+        "ob er krank ist",
+        "dass er ist krank"
+      ],
+      "reponse": "dass er krank ist",
+      "indice": "Dass + verbe final.",
+      "explication": "Dass er krank ist.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-4E-PRON-01",
+  "exemple": "« Kennst du Paul? Ja, ich kenne ihn. Ich schreibe ihm oft. »",
+  "regle": "Accusatif : **mich, dich, ihn, sie, es, uns, euch, sie**. Datif : **mir, dir, ihm, ihr, ihm, uns, euch, ihnen**. Le verbe décide du cas : **sehen, kennen, lieben** + accusatif ; **helfen, danken, gefallen, schreiben (à qqn)** + datif.",
+  "piege": "Helfen se construit avec le datif : ich helfe **dir**, pas dich.",
+  "essai": {
+    "consigne": "Complète : « Ich helfe … . » (toi)",
+    "options": [
+      "dir",
+      "dich",
+      "du"
+    ],
+    "reponse": "dir",
+    "explication": "Helfen + datif."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

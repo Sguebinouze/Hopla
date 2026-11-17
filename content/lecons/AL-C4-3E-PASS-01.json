@@ -1,0 +1,19 @@
+{
+  "competence": "AL-C4-3E-PASS-01",
+  "exemple": "« Die Berliner Mauer wurde 1961 gebaut und 1989 geöffnet. »",
+  "regle": "Le **passif** : **werden** conjugué en 2e position + **participe passé** à la fin. Présent : das Auto **wird** repariert. Prétérit : das Auto **wurde** repariert. L’auteur de l’action est introduit par **von** + datif.",
+  "piege": "Au passif, on utilise werden, pas sein.",
+  "essai": {
+    "consigne": "Complète : « Das Fenster … geöffnet. » (est ouvert, maintenant)",
+    "options": [
+      "wird",
+      "wurde",
+      "ist"
+    ],
+    "reponse": "wird",
+    "explication": "Passif présent : wird."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

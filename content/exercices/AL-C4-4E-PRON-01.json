@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-PRON-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-PRON-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich liebe … . » (toi)",
+      "options": [
+        "dich",
+        "dir",
+        "du"
+      ],
+      "reponse": "dich",
+      "indice": "Lieben + accusatif.",
+      "explication": "Dich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Kennst du Anna? Ja, ich kenne … . »",
+      "options": [
+        "sie",
+        "ihr",
+        "ihn"
+      ],
+      "reponse": "sie",
+      "indice": "Anna, accusatif féminin.",
+      "explication": "Sie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Das Buch gefällt … . » (moi)",
+      "options": [
+        "mir",
+        "mich",
+        "ich"
+      ],
+      "reponse": "mir",
+      "indice": "Gefallen + datif.",
+      "explication": "Mir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ich danke … . » (lui)",
+      "options": [
+        "ihm",
+        "ihn",
+        "er"
+      ],
+      "reponse": "ihm",
+      "indice": "Danken + datif.",
+      "explication": "Ihm.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Siehst du den Hund? Ja, ich sehe … . »",
+      "options": [
+        "ihn",
+        "ihm",
+        "es"
+      ],
+      "reponse": "ihn",
+      "indice": "Der Hund, accusatif.",
+      "explication": "Ihn.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À qui écrit-elle ?",
+      "options": [
+        "à ses grands-parents",
+        "à son frère",
+        "à son professeur"
+      ],
+      "reponse": "à ses grands-parents",
+      "indice": "Großeltern.",
+      "explication": "« Ich schreibe meinen Großeltern. »",
+      "ecoute": {
+        "texte": "Ich schreibe meinen Großeltern einen Brief.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Kannst du … helfen? » (nous)",
+      "options": [
+        "uns",
+        "euch",
+        "ihnen"
+      ],
+      "reponse": "uns",
+      "indice": "Wir → uns.",
+      "explication": "Uns.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-PRON-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich gebe … das Heft. » (à elle)",
+      "options": [
+        "ihr",
+        "sie",
+        "ihm"
+      ],
+      "reponse": "ihr",
+      "indice": "Datif féminin.",
+      "explication": "Ihr.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

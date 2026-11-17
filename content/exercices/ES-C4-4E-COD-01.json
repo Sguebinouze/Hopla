@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-COD-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-COD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « ¿El bocadillo? … como ahora. »",
+      "options": [
+        "Lo",
+        "La",
+        "Le"
+      ],
+      "reponse": "Lo",
+      "indice": "Masculin.",
+      "explication": "Lo como.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « ¿Las fotos? … miro. »",
+      "options": [
+        "Las",
+        "Los",
+        "Les"
+      ],
+      "reponse": "Las",
+      "indice": "Féminin pluriel.",
+      "explication": "Las miro.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … escribo a mi abuela. »",
+      "options": [
+        "Le",
+        "La",
+        "Lo"
+      ],
+      "reponse": "Le",
+      "indice": "À quelqu’un : COI.",
+      "explication": "Le escribo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Quiero comprar… » (le, el libro)",
+      "options": [
+        "comprarlo",
+        "lo comprar",
+        "comprarle"
+      ],
+      "reponse": "comprarlo",
+      "indice": "Soudé à l’infinitif.",
+      "explication": "Comprarlo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Impératif : « ¡Cómpra…! » (la camiseta)",
+      "options": [
+        "¡Cómprala!",
+        "¡La compra!",
+        "¡Cómprale!"
+      ],
+      "reponse": "¡Cómprala!",
+      "indice": "Soudé à l’impératif.",
+      "explication": "Cómprala.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Remplace : « Doy el regalo a Pedro. »",
+      "options": [
+        "Se lo doy.",
+        "Le lo doy.",
+        "Lo le doy."
+      ],
+      "reponse": "Se lo doy.",
+      "indice": "Le + lo → se lo.",
+      "explication": "Se lo doy.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. A-t-il les billets ?",
+      "options": [
+        "oui",
+        "non",
+        "il les a perdus"
+      ],
+      "reponse": "oui",
+      "indice": "Sí, las tengo.",
+      "explication": "« Sí, las tengo. »",
+      "ecoute": {
+        "texte": "¿Las entradas? Sí, las tengo aquí.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-COD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Estoy leyéndo… » (el periódico)",
+      "options": [
+        "leyéndolo",
+        "lo leyendo",
+        "leyéndole"
+      ],
+      "reponse": "leyéndolo",
+      "indice": "Soudé au gérondif.",
+      "explication": "Estoy leyéndolo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

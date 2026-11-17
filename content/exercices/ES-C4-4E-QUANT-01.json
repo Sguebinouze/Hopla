@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-QUANT-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-QUANT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Hay … gente. »",
+      "options": [
+        "mucha",
+        "mucho",
+        "muchos"
+      ],
+      "reponse": "mucha",
+      "indice": "Gente : féminin singulier.",
+      "explication": "Mucha gente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Es … simpático. »",
+      "options": [
+        "muy",
+        "mucho",
+        "muchos"
+      ],
+      "reponse": "muy",
+      "indice": "Devant un adjectif.",
+      "explication": "Muy simpático.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « demasiado » ?",
+      "options": [
+        "trop",
+        "assez",
+        "peu"
+      ],
+      "reponse": "trop",
+      "indice": "Excès.",
+      "explication": "Trop.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Estudio … . »",
+      "options": [
+        "mucho",
+        "muy",
+        "muchos"
+      ],
+      "reponse": "mucho",
+      "indice": "Après un verbe.",
+      "explication": "Estudio mucho.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Tengo … ganas de salir. » (peu)",
+      "options": [
+        "pocas",
+        "poco",
+        "pocos"
+      ],
+      "reponse": "pocas",
+      "indice": "Ganas : féminin pluriel.",
+      "explication": "Pocas ganas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Pourquoi ne va-t-il pas à la plage ?",
+      "options": [
+        "il fait trop chaud",
+        "il pleut",
+        "il y a trop de vent"
+      ],
+      "reponse": "il fait trop chaud",
+      "indice": "demasiado calor.",
+      "explication": "« Hace demasiado calor. »",
+      "ecoute": {
+        "texte": "No voy a la playa, hace demasiado calor.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « No tenemos … tiempo. » (assez)",
+      "options": [
+        "bastante",
+        "bastantes",
+        "muy"
+      ],
+      "reponse": "bastante",
+      "indice": "Tiempo : singulier.",
+      "explication": "Bastante tiempo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-QUANT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Hay … coches en la ciudad. » (trop)",
+      "options": [
+        "demasiados",
+        "demasiado",
+        "demasiadas"
+      ],
+      "reponse": "demasiados",
+      "indice": "Coches : masculin pluriel.",
+      "explication": "Demasiados coches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

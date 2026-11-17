@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-KONN-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-KONN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « trotzdem » ?",
+      "options": [
+        "malgré tout",
+        "c’est pourquoi",
+        "parce que"
+      ],
+      "reponse": "malgré tout",
+      "indice": "Opposition.",
+      "explication": "Malgré tout.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « deshalb » ?",
+      "options": [
+        "c’est pourquoi",
+        "malgré tout",
+        "ou bien"
+      ],
+      "reponse": "c’est pourquoi",
+      "indice": "Conséquence.",
+      "explication": "C’est pourquoi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich komme nicht, … ich bin krank. »",
+      "options": [
+        "denn",
+        "deshalb",
+        "trotzdem"
+      ],
+      "reponse": "denn",
+      "indice": "Cause, sujet puis verbe.",
+      "explication": "Denn.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Es ist kalt, deshalb trage ich eine Jacke.",
+        "Es ist kalt, deshalb ich trage eine Jacke.",
+        "Es ist kalt, deshalb eine Jacke ich trage."
+      ],
+      "reponse": "Es ist kalt, deshalb trage ich eine Jacke.",
+      "indice": "Verbe après deshalb.",
+      "explication": "Deshalb trage ich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Das ist nicht rot, … blau. »",
+      "options": [
+        "sondern",
+        "aber",
+        "denn"
+      ],
+      "reponse": "sondern",
+      "indice": "Après une négation.",
+      "explication": "Sondern.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que font-ils malgré la pluie ?",
+      "options": [
+        "ils jouent au foot",
+        "ils restent à la maison",
+        "ils vont au cinéma"
+      ],
+      "reponse": "ils jouent au foot",
+      "indice": "trotzdem.",
+      "explication": "« Trotzdem spielen wir Fußball. »",
+      "ecoute": {
+        "texte": "Es regnet, trotzdem spielen wir Fußball.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme avec weil : « Ich bleibe zu Hause, denn ich bin krank. »",
+      "options": [
+        "Ich bleibe zu Hause, weil ich krank bin.",
+        "Ich bleibe zu Hause, weil ich bin krank.",
+        "Ich bleibe zu Hause, weil bin ich krank."
+      ],
+      "reponse": "Ich bleibe zu Hause, weil ich krank bin.",
+      "indice": "Weil : verbe à la fin.",
+      "explication": "Weil ich krank bin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-KONN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Er ist müde, … arbeitet er weiter. »",
+      "options": [
+        "trotzdem",
+        "deshalb",
+        "denn"
+      ],
+      "reponse": "trotzdem",
+      "indice": "Opposition + inversion.",
+      "explication": "Trotzdem arbeitet er.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

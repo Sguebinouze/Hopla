@@ -121,6 +121,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-PRON-01",
+      "titre": "Pronoms à l’accusatif et au datif",
+      "domaine": "Grammaire",
+      "theme": "Nom et groupe nominal",
+      "attendu": "Choisir le pronom personnel complément à l’accusatif (mich, ihn) ou au datif (mir, ihm) selon le verbe.",
+      "exemple": "Ich sehe ihn. Ich helfe ihm.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Genre, pronoms personnels compléments et réfléchis"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01",
+      "titre": "Viel, viele, wenig, alle",
+      "domaine": "Grammaire",
+      "theme": "Détermination",
+      "attendu": "Exprimer la quantité avec viel, viele, wenig, wenige, einige, ein paar, alle.",
+      "exemple": "Ich habe viele Freunde, aber wenig Zeit.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Articles, quantifieurs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

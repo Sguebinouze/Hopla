@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-QUANT-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-QUANT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich habe … Zeit. » (peu)",
+      "options": [
+        "wenig",
+        "wenige",
+        "viele"
+      ],
+      "reponse": "wenig",
+      "indice": "Zeit : indénombrable.",
+      "explication": "Wenig Zeit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Wir trinken … Milch. » (beaucoup)",
+      "options": [
+        "viel",
+        "viele",
+        "alle"
+      ],
+      "reponse": "viel",
+      "indice": "Milch : indénombrable.",
+      "explication": "Viel Milch.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « ein paar Freunde » ?",
+      "options": [
+        "quelques amis",
+        "deux amis exactement",
+        "aucun ami"
+      ],
+      "reponse": "quelques amis",
+      "indice": "Ein paar : quelques.",
+      "explication": "Quelques amis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … Schüler haben Ferien. » (tous les)",
+      "options": [
+        "Alle",
+        "Viel",
+        "Wenig"
+      ],
+      "reponse": "Alle",
+      "indice": "Tous.",
+      "explication": "Alle Schüler.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Es gibt … Autos in Berlin. » (beaucoup)",
+      "options": [
+        "viele",
+        "viel",
+        "wenig"
+      ],
+      "reponse": "viele",
+      "indice": "Pluriel.",
+      "explication": "Viele Autos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Combien d’argent a-t-il ?",
+      "options": [
+        "peu",
+        "beaucoup",
+        "aucun"
+      ],
+      "reponse": "peu",
+      "indice": "wenig.",
+      "explication": "« Ich habe wenig Geld. »",
+      "ecoute": {
+        "texte": "Ich habe leider wenig Geld.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Nur … Leute kommen. » (peu de)",
+      "options": [
+        "wenige",
+        "wenig",
+        "viel"
+      ],
+      "reponse": "wenige",
+      "indice": "Leute : pluriel.",
+      "explication": "Wenige Leute.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-QUANT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Ich habe … Fragen. » (quelques)",
+      "options": [
+        "einige",
+        "viel",
+        "alle"
+      ],
+      "reponse": "einige",
+      "indice": "Quelques.",
+      "explication": "Einige Fragen.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

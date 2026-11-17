@@ -121,6 +121,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-PASS-01",
+      "titre": "Le passif",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Former le passif avec werden + participe passé et le complément d’agent avec von.",
+      "exemple": "Das Haus wird gebaut. Der Brief wurde von Anna geschrieben.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Modaux. Passif. Construction des verbes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-IND-01",
+      "titre": "Interrogation indirecte",
+      "domaine": "Grammaire",
+      "theme": "Énoncés simples et complexes",
+      "attendu": "Rapporter une question avec ob ou un mot interrogatif, verbe conjugué à la fin.",
+      "exemple": "Er fragt, ob ich komme. Weißt du, wo der Bahnhof ist?",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Discours indirect. Interrogation indirecte"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-3E-KONN-01",
+      "titre": "Deshalb, trotzdem, denn",
+      "domaine": "Grammaire",
+      "theme": "Énoncés simples et complexes",
+      "attendu": "Relier deux idées avec des connecteurs et respecter la place du verbe : denn, aber, deshalb, trotzdem.",
+      "exemple": "Ich bin müde, deshalb gehe ich ins Bett.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Connecteurs"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

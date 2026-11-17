@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-PASS-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-PASS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel verbe forme le passif ?",
+      "options": [
+        "ser",
+        "estar",
+        "haber"
+      ],
+      "reponse": "ser",
+      "indice": "Comme en français « être ».",
+      "explication": "Ser + participe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « El puente fue … en 1990. »",
+      "options": [
+        "construido",
+        "construida",
+        "construidos"
+      ],
+      "reponse": "construido",
+      "indice": "El puente : masculin.",
+      "explication": "Construido.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Se habla inglés » ?",
+      "options": [
+        "On parle anglais.",
+        "Il parle anglais.",
+        "Parle anglais !"
+      ],
+      "reponse": "On parle anglais.",
+      "indice": "Se impersonnel.",
+      "explication": "On parle anglais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « El cuadro fue pintado … Velázquez. »",
+      "options": [
+        "por",
+        "para",
+        "de"
+      ],
+      "reponse": "por",
+      "indice": "Auteur de l’action.",
+      "explication": "Por Velázquez.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Se … pisos. »",
+      "options": [
+        "venden",
+        "vende",
+        "vendo"
+      ],
+      "reponse": "venden",
+      "indice": "Pisos : pluriel.",
+      "explication": "Se venden pisos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui a peint le Guernica ?",
+      "options": [
+        "Picasso",
+        "Dalí",
+        "Goya"
+      ],
+      "reponse": "Picasso",
+      "indice": "por…",
+      "explication": "« Fue pintado por Picasso. »",
+      "ecoute": {
+        "texte": "El Guernica fue pintado por Picasso en 1937.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Mets au passif : « Los alumnos limpian las mesas. »",
+      "options": [
+        "Las mesas son limpiadas por los alumnos.",
+        "Las mesas es limpiado por los alumnos.",
+        "Las mesas son limpiado para los alumnos."
+      ],
+      "reponse": "Las mesas son limpiadas por los alumnos.",
+      "indice": "Ser au pluriel, participe féminin pluriel.",
+      "explication": "Son limpiadas por…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-PASS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « En este restaurante se … muy bien. »",
+      "options": [
+        "come",
+        "comen",
+        "como"
+      ],
+      "reponse": "come",
+      "indice": "Pas de nom pluriel : singulier.",
+      "explication": "Se come bien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-3E-PASS-01",
+  "exemple": "« El Guernica fue pintado por Picasso en 1937. En México se habla español. »",
+  "regle": "Le **passif** : **ser** + **participe passé accordé** avec le sujet (la casa fue construid**a**). L’auteur est introduit par **por**. L’espagnol préfère souvent le **se** : **se vende** piso, **se venden** pisos (le verbe s’accorde avec le nom).",
+  "piege": "Se venden casas : verbe au pluriel car casas est au pluriel.",
+  "essai": {
+    "consigne": "Complète : « Las cartas fueron … por Ana. »",
+    "options": [
+      "escritas",
+      "escrito",
+      "escritos"
+    ],
+    "reponse": "escritas",
+    "explication": "Accord avec las cartas."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

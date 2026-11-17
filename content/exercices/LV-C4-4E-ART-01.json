@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-4E-ART-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-ART-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « She is … engineer. »",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "reponse": "an",
+      "indice": "Son voyelle.",
+      "explication": "An engineer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Wait … hour. »",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "reponse": "an",
+      "indice": "Le h ne se prononce pas.",
+      "explication": "An hour.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « He goes to … university. »",
+      "options": [
+        "a",
+        "an",
+        "rien"
+      ],
+      "reponse": "a",
+      "indice": "Son « you ».",
+      "explication": "A university.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « I love … chocolate. » (en général)",
+      "options": [
+        "rien",
+        "the",
+        "a"
+      ],
+      "reponse": "rien",
+      "indice": "Généralité.",
+      "explication": "I love chocolate.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Pass me … salt, please. »",
+      "options": [
+        "the",
+        "a",
+        "rien"
+      ],
+      "reponse": "the",
+      "indice": "Le sel sur la table.",
+      "explication": "The salt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « We have … lunch at noon. »",
+      "options": [
+        "rien",
+        "a",
+        "the"
+      ],
+      "reponse": "rien",
+      "indice": "Repas.",
+      "explication": "Have lunch.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « … United States is a big country. »",
+      "options": [
+        "The",
+        "rien",
+        "A"
+      ],
+      "reponse": "The",
+      "indice": "Nom de pays pluriel.",
+      "explication": "The United States.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-ART-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’aime-t-elle ?",
+      "options": [
+        "les animaux en général",
+        "un animal précis",
+        "le zoo"
+      ],
+      "reponse": "les animaux en général",
+      "indice": "Pas d’article.",
+      "explication": "« I love animals. »",
+      "ecoute": {
+        "texte": "I love animals, especially cats.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

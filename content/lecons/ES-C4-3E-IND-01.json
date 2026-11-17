@@ -1,0 +1,19 @@
+{
+  "competence": "ES-C4-3E-IND-01",
+  "exemple": "Ana : « Tengo hambre. » → Ana dice que tiene hambre. Pablo : « ¿Vienes? » → Pablo me pregunta si voy.",
+  "regle": "Pour rapporter une affirmation : **decir que**. Pour une question fermée : **preguntar si**. Pour une question ouverte : on garde le mot interrogatif avec son accent (**preguntar dónde, cuándo, por qué**). On adapte les **pronoms** et les **possessifs** (yo → él, mi → su). Au passé, le présent devient imparfait : **dijo que estaba** cansado.",
+  "piege": "Le « si » de la question indirecte ne prend pas d’accent.",
+  "essai": {
+    "consigne": "Rapporte : « Estoy cansado. » → Dice que …",
+    "options": [
+      "está cansado",
+      "estoy cansado",
+      "estás cansado"
+    ],
+    "reponse": "está cansado",
+    "explication": "Yo devient él."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C4-4E-PRON-01",
+  "exercices": [
+    {
+      "id": "LV-C4-4E-PRON-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Can you help … ? » (moi)",
+      "options": [
+        "me",
+        "I",
+        "myself"
+      ],
+      "reponse": "me",
+      "indice": "Complément.",
+      "explication": "Help me.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « I know your parents. I like … . »",
+      "options": [
+        "them",
+        "they",
+        "themselves"
+      ],
+      "reponse": "them",
+      "indice": "Pluriel complément.",
+      "explication": "Them.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « He cut … with a knife. »",
+      "options": [
+        "himself",
+        "him",
+        "herself"
+      ],
+      "reponse": "himself",
+      "indice": "Il se coupe lui-même.",
+      "explication": "Himself.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « We enjoyed … at the party. »",
+      "options": [
+        "ourselves",
+        "us",
+        "themselves"
+      ],
+      "reponse": "ourselves",
+      "indice": "We.",
+      "explication": "Ourselves.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « This present is for … . » (lui)",
+      "options": [
+        "him",
+        "he",
+        "his"
+      ],
+      "reponse": "him",
+      "indice": "Après une préposition.",
+      "explication": "For him.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui s’est fait mal ?",
+      "options": [
+        "la petite fille",
+        "le garçon",
+        "le chien"
+      ],
+      "reponse": "la petite fille",
+      "indice": "herself.",
+      "explication": "« She hurt herself. »",
+      "ecoute": {
+        "texte": "The little girl fell and hurt herself.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Tom and Lisa love … . » (l’un l’autre)",
+      "options": [
+        "each other",
+        "themselves",
+        "them"
+      ],
+      "reponse": "each other",
+      "indice": "Réciproque.",
+      "explication": "Each other.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-4E-PRON-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Did you make it … ? » (toi-même)",
+      "options": [
+        "yourself",
+        "you",
+        "your"
+      ],
+      "reponse": "yourself",
+      "indice": "Toi-même.",
+      "explication": "Yourself.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

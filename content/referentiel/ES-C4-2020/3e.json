@@ -121,6 +121,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-3E-PASS-01",
+      "titre": "Le passif et le se impersonnel",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Former le passif avec ser + participe accordé, et employer se pour une tournure impersonnelle.",
+      "exemple": "La Alhambra fue construida en el siglo XIII. Se habla español.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Modaux. Passif. Construction des verbes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-3E-IND-01",
+      "titre": "Le discours indirect",
+      "domaine": "Grammaire",
+      "theme": "Énoncés simples et complexes",
+      "attendu": "Rapporter des paroles et des questions avec decir que, preguntar si, preguntar dónde, et changer les pronoms.",
+      "exemple": "Dice que está cansado. Me pregunta si quiero venir.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Discours indirect. Interrogation indirecte"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-3E-SUBJ-01",
+      "titre": "Le subjonctif présent",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Former le subjonctif présent et l’employer après querer que, esperar que, ojalá.",
+      "exemple": "Quiero que vengas. Ojalá haga sol.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Modaux. Passif. Construction des verbes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }
