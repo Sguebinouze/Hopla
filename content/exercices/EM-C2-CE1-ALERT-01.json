@@ -1,0 +1,141 @@
+{
+  "competence": "EM-C2-CE1-ALERT-01",
+  "exercices": [
+    {
+      "id": "EM-C2-CE1-ALERT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel numéro pour un blessé ?",
+      "options": [
+        "le 15",
+        "le 17",
+        "le 3018"
+      ],
+      "reponse": "le 15",
+      "indice": "Le SAMU.",
+      "explication": "Le 15 : le SAMU.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel numéro pour la police ?",
+      "options": [
+        "le 17",
+        "le 18",
+        "le 15"
+      ],
+      "reponse": "le 17",
+      "indice": "Police secours.",
+      "explication": "Le 17.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel numéro marche partout en Europe ?",
+      "options": [
+        "le 112",
+        "le 18",
+        "le 17"
+      ],
+      "reponse": "le 112",
+      "indice": "Trois chiffres.",
+      "explication": "Le 112.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que faut-il dire au téléphone ?",
+      "options": [
+        "qui on est, où on est, ce qui se passe",
+        "seulement son prénom",
+        "rien, on raccroche"
+      ],
+      "reponse": "qui on est, où on est, ce qui se passe",
+      "indice": "Trois informations.",
+      "explication": "Qui, où, quoi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que faire avant d’alerter ?",
+      "options": [
+        "se mettre en sécurité",
+        "courir vers le danger",
+        "prendre une photo"
+      ],
+      "reponse": "se mettre en sécurité",
+      "indice": "Se protéger.",
+      "explication": "D’abord se protéger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quand raccrocher ?",
+      "options": [
+        "quand la personne le dit",
+        "tout de suite",
+        "après un mot"
+      ],
+      "reponse": "quand la personne le dit",
+      "indice": "Elle peut poser des questions.",
+      "explication": "On attend qu’elle le dise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un camarade s’ouvre le genou dans la cour. Que fais-tu d’abord ?",
+      "options": [
+        "je préviens un adulte",
+        "je rentre chez moi",
+        "je ne dis rien"
+      ],
+      "reponse": "je préviens un adulte",
+      "indice": "À l’école.",
+      "explication": "On prévient un adulte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "De la fumée sort d’une maison. Quel numéro ?",
+      "options": [
+        "le 18",
+        "le 17",
+        "le 115"
+      ],
+      "reponse": "le 18",
+      "indice": "Un feu.",
+      "explication": "Les pompiers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

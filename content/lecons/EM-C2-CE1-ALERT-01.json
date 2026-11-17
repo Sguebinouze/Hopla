@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE1-ALERT-01",
+  "exemple": "Mamie est tombée et ne se relève pas. Léa appelle le 15.",
+  "regle": "En cas de danger, on **se protège**, puis on **alerte**. Le **15** : le SAMU, pour un malade ou un blessé. Le **17** : la police. Le **18** : les pompiers. Le **112** : partout en Europe. On dit **qui** on est et **où** on est. On dit **ce qui** se passe.",
+  "piege": "On ne raccroche pas avant que la personne le dise.",
+  "essai": {
+    "consigne": "Quel numéro appeler pour un feu ?",
+    "options": [
+      "le 18",
+      "le 17",
+      "le 15"
+    ],
+    "reponse": "le 18",
+    "explication": "Le 18, ce sont les pompiers."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

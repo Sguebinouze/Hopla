@@ -91,6 +91,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CE1-ALERT-01",
+      "titre": "Donner l’alerte",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Règles collectives et prise d’initiative",
+      "attendu": "Reconnaître une situation dangereuse, connaître les numéros d’urgence et passer un message d’alerte.",
+      "exemple": "Le 15 pour un malade. Le 18 pour un feu.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 12,
+        "extrait": "savoir où trouver les numéros d’urgence"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CE1-HARC-01",
+      "titre": "Le harcèlement",
+      "domaine": "Enseignement moral et civique",
+      "theme": "Altérité et sociabilité",
+      "attendu": "Reconnaître une situation de harcèlement, distinguer auteur, cible et témoin, et savoir en parler.",
+      "exemple": "Se moquer de quelqu’un tous les jours, c’est du harcèlement.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 12,
+        "extrait": "les situations de harcèlement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -76,6 +76,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CE2-VOTE-01",
+      "titre": "Décider ensemble",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’engagement pour le bien commun",
+      "attendu": "Prendre une décision collective à la majorité lors d’un conseil d’élèves et respecter le résultat.",
+      "exemple": "Jardin : 15 voix. Fresque : 10 voix. Le jardin gagne.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "Expérimenter la prise de décision à la majorité dans la classe"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "EM-C2-CE2-ECO-01",
+      "titre": "Les éco-gestes",
+      "domaine": "Enseignement moral et civique",
+      "theme": "L’engagement pour le bien commun",
+      "attendu": "Adopter des gestes simples pour protéger l’environnement, bien commun à tous.",
+      "exemple": "Éteindre la lumière, fermer le robinet, trier le papier.",
+      "source": {
+        "id": "bo24-2024-emc",
+        "page": 13,
+        "extrait": "éco-gestes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

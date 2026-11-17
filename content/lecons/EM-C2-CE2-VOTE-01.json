@@ -1,0 +1,19 @@
+{
+  "competence": "EM-C2-CE2-VOTE-01",
+  "exemple": "Au conseil d’élèves, la classe choisit son projet. Chacun donne son avis, puis on vote.",
+  "regle": "Au **conseil d’élèves**, chacun peut **donner son avis**. On **écoute** les autres. Puis on **vote**. Le choix qui a le **plus de voix** gagne : c’est la **majorité**. Même si on a perdu, on **respecte** le résultat.",
+  "piege": "Voter, c’est choisir pour le groupe, pas seulement pour soi.",
+  "essai": {
+    "consigne": "25 élèves votent. 14 choisissent le jardin. Le jardin a-t-il la majorité ?",
+    "options": [
+      "oui",
+      "non",
+      "on ne sait pas"
+    ],
+    "reponse": "oui",
+    "explication": "14 est plus que la moitié de 25."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
