@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C3-6E-GRAM-10",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-10-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Où est le chat ?",
+      "options": [
+        "sous la table",
+        "sur la table",
+        "dans la boite"
+      ],
+      "reponse": "sous la table",
+      "indice": "Under.",
+      "explication": "« Under the table » : sous la table.",
+      "ecoute": {
+        "texte": "The cat is under the table.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « in » ?",
+      "options": [
+        "dans",
+        "sur",
+        "sous"
+      ],
+      "reponse": "dans",
+      "indice": "In the box.",
+      "explication": "In : dans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « on » ?",
+      "options": [
+        "sur",
+        "sous",
+        "derrière"
+      ],
+      "reponse": "sur",
+      "indice": "On the desk.",
+      "explication": "On : sur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Où est le chien ?",
+      "options": [
+        "derrière la maison",
+        "devant la maison",
+        "dans la maison"
+      ],
+      "reponse": "derrière la maison",
+      "indice": "Behind.",
+      "explication": "« Behind the house » : derrière.",
+      "ecoute": {
+        "texte": "The dog is behind the house.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « entre Tom et Ana » ?",
+      "options": [
+        "between Tom and Ana",
+        "behind Tom and Ana",
+        "next Tom and Ana"
+      ],
+      "reponse": "between Tom and Ana",
+      "indice": "Between.",
+      "explication": "Between : entre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « à côté de l’école » ?",
+      "options": [
+        "next to the school",
+        "in the school",
+        "under the school"
+      ],
+      "reponse": "next to the school",
+      "indice": "Next to.",
+      "explication": "Next to : à côté de.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Où est le bus ?",
+      "options": [
+        "devant le cinéma",
+        "derrière le cinéma",
+        "dans le cinéma"
+      ],
+      "reponse": "devant le cinéma",
+      "indice": "In front of.",
+      "explication": "« In front of » : devant.",
+      "ecoute": {
+        "texte": "The bus is in front of the cinema.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« The lamp is above the bed. » La lampe…",
+      "options": [
+        "est au-dessus du lit, sans le toucher",
+        "est posée sur le lit",
+        "est sous le lit"
+      ],
+      "reponse": "est au-dessus du lit, sans le toucher",
+      "indice": "Above.",
+      "explication": "Above : au-dessus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

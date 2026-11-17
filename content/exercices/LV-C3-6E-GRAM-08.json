@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C3-6E-GRAM-08",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-08-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « I … reading. »",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "reponse": "am",
+      "indice": "I am.",
+      "explication": "I am reading.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « They … playing. »",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "reponse": "are",
+      "indice": "They are.",
+      "explication": "They are playing.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que fait le garçon ?",
+      "options": [
+        "il nage",
+        "il court",
+        "il dort"
+      ],
+      "reponse": "il nage",
+      "indice": "Swimming.",
+      "explication": "« He is swimming » : il nage.",
+      "ecoute": {
+        "texte": "The boy is swimming.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase décrit une action en cours ?",
+      "options": [
+        "She is eating an apple.",
+        "She eats apples every day.",
+        "She ate an apple."
+      ],
+      "reponse": "She is eating an apple.",
+      "indice": "Be + -ing.",
+      "explication": "Is eating : en ce moment.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait la fille ?",
+      "options": [
+        "elle porte un chapeau",
+        "elle achète un chapeau",
+        "elle perd son chapeau"
+      ],
+      "reponse": "elle porte un chapeau",
+      "indice": "Wearing.",
+      "explication": "« She is wearing a hat. »",
+      "ecoute": {
+        "texte": "She is wearing a hat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment s’écrit « run » + -ing ?",
+      "options": [
+        "running",
+        "runing",
+        "runeing"
+      ],
+      "reponse": "running",
+      "indice": "Le n double.",
+      "explication": "Running.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« I’m visiting my grandma this weekend. » Cette phrase parle…",
+      "options": [
+        "d’un projet proche",
+        "d’une habitude",
+        "du passé"
+      ],
+      "reponse": "d’un projet proche",
+      "indice": "This weekend.",
+      "explication": "Be + -ing pour un futur proche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que préparent-ils ?",
+      "options": [
+        "une tarte",
+        "une soupe",
+        "un gâteau au chocolat"
+      ],
+      "reponse": "une tarte",
+      "indice": "Pie.",
+      "explication": "« They are making a pie. »",
+      "ecoute": {
+        "texte": "They are making a blueberry pie.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

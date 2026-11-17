@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-6E-VOC-06",
+  "exemple": "« For breakfast, I have cereal and orange juice. I’m thirsty: can I have some water? »",
+  "regle": "Repas : **breakfast** (petit déjeuner), **lunch** (déjeuner), **dinner** (diner). Aliments : **bread**, **cheese**, **meat**, **vegetables**, **fruit**, **cake**. Besoins : **I’m hungry** (j’ai faim), **I’m thirsty** (j’ai soif), **I’m cold**, **I’m tired**.",
+  "piege": "En anglais, on dit « I’m hungry » : on « est » affamé, on n’« a » pas faim.",
+  "essai": {
+    "consigne": "Comment dit-on « j’ai soif » ?",
+    "options": [
+      "I’m thirsty.",
+      "I have thirsty.",
+      "I’m hungry."
+    ],
+    "reponse": "I’m thirsty.",
+    "explication": "Be + thirsty."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C3-6E-VOC-05",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-VOC-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Quel vêtement ?",
+      "options": [
+        "un manteau",
+        "une jupe",
+        "un chapeau"
+      ],
+      "reponse": "un manteau",
+      "indice": "Coat.",
+      "explication": "« Coat » : manteau.",
+      "ecoute": {
+        "texte": "A coat.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « trousers » ?",
+      "options": [
+        "un pantalon",
+        "des chaussettes",
+        "une chemise"
+      ],
+      "reponse": "un pantalon",
+      "indice": "Pour les jambes.",
+      "explication": "Trousers : pantalon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « la tête » ?",
+      "options": [
+        "the head",
+        "the hand",
+        "the hair"
+      ],
+      "reponse": "the head",
+      "indice": "H…",
+      "explication": "Head.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel est le pluriel de « foot » ?",
+      "options": [
+        "feet",
+        "foots",
+        "feets"
+      ],
+      "reponse": "feet",
+      "indice": "Irrégulier.",
+      "explication": "Feet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. De quelle couleur est la jupe ?",
+      "options": [
+        "rouge",
+        "bleue",
+        "verte"
+      ],
+      "reponse": "rouge",
+      "indice": "Red.",
+      "explication": "« A red skirt ».",
+      "ecoute": {
+        "texte": "She is wearing a red skirt.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « ears » ?",
+      "options": [
+        "les oreilles",
+        "les yeux",
+        "les bras"
+      ],
+      "reponse": "les oreilles",
+      "indice": "Pour entendre.",
+      "explication": "Ears : oreilles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel est le pluriel de « tooth » ?",
+      "options": [
+        "teeth",
+        "tooths",
+        "teeths"
+      ],
+      "reponse": "teeth",
+      "indice": "Comme foot/feet.",
+      "explication": "Teeth.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment est-il ?",
+      "options": [
+        "cheveux courts, yeux bleus",
+        "cheveux longs, yeux verts",
+        "cheveux bruns, yeux noirs"
+      ],
+      "reponse": "cheveux courts, yeux bleus",
+      "indice": "Short hair, blue eyes.",
+      "explication": "« Short hair and blue eyes ».",
+      "ecoute": {
+        "texte": "He has got short hair and blue eyes.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

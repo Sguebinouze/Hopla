@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C3-6E-VOC-06",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-VOC-06-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « breakfast » ?",
+      "options": [
+        "le petit déjeuner",
+        "le diner",
+        "le gouter"
+      ],
+      "reponse": "le petit déjeuner",
+      "indice": "Le matin.",
+      "explication": "Breakfast : petit déjeuner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que ressent l’enfant ?",
+      "options": [
+        "il a faim",
+        "il a soif",
+        "il a froid"
+      ],
+      "reponse": "il a faim",
+      "indice": "Hungry.",
+      "explication": "« I’m hungry » : j’ai faim.",
+      "ecoute": {
+        "texte": "I’m hungry!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « du pain » ?",
+      "options": [
+        "bread",
+        "butter",
+        "beans"
+      ],
+      "reponse": "bread",
+      "indice": "B…",
+      "explication": "Bread.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que demande l’enfant ?",
+      "options": [
+        "de l’eau",
+        "du lait",
+        "du jus"
+      ],
+      "reponse": "de l’eau",
+      "indice": "Water.",
+      "explication": "« Some water ».",
+      "ecoute": {
+        "texte": "Can I have some water, please?",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I’m cold » ?",
+      "options": [
+        "J’ai froid.",
+        "J’ai chaud.",
+        "Je suis malade."
+      ],
+      "reponse": "J’ai froid.",
+      "indice": "Cold : froid.",
+      "explication": "J’ai froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel repas prend-on le soir ?",
+      "options": [
+        "dinner",
+        "breakfast",
+        "lunch"
+      ],
+      "reponse": "dinner",
+      "indice": "Le soir.",
+      "explication": "Dinner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que mange-t-il au petit déjeuner ?",
+      "options": [
+        "des céréales",
+        "des œufs",
+        "des tartines"
+      ],
+      "reponse": "des céréales",
+      "indice": "Cereal.",
+      "explication": "« Cereal and orange juice ».",
+      "ecoute": {
+        "texte": "For breakfast, I have cereal and orange juice.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-VOC-06-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Watch out! » ?",
+      "options": [
+        "Attention !",
+        "Regarde ta montre !",
+        "Sors !"
+      ],
+      "reponse": "Attention !",
+      "indice": "Une alerte.",
+      "explication": "Watch out : attention.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

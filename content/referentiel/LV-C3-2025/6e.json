@@ -166,6 +166,96 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07",
+      "titre": "L’impératif",
+      "domaine": "Outils linguistiques",
+      "theme": "Le verbe : premières conjugaisons",
+      "attendu": "Comprendre et donner des consignes à l’impératif, affirmatif et négatif.",
+      "exemple": "Open your book! Don’t run!",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 12,
+        "extrait": "L’impératif : reconnaitre quelques formes courantes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-GRAM-08",
+      "titre": "Le présent be + -ing",
+      "domaine": "Outils linguistiques",
+      "theme": "Le verbe : premières conjugaisons",
+      "attendu": "Reconnaitre le présent be + -ing pour décrire une action en cours.",
+      "exemple": "He is wearing a kilt. They are making a pie.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 12,
+        "extrait": "Le présent be + ing : reconnaitre quelques formes courantes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-GRAM-09",
+      "titre": "Pronoms et démonstratifs",
+      "domaine": "Outils linguistiques",
+      "theme": "Les pronoms",
+      "attendu": "Utiliser les pronoms compléments (me, him, her, them) et les démonstratifs (this, that, these, those).",
+      "exemple": "I like her. These shoes are mine.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 12,
+        "extrait": "Utiliser les pronoms personnels compléments"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-GRAM-10",
+      "titre": "Où est-il ? Les prépositions",
+      "domaine": "Outils linguistiques",
+      "theme": "Les adverbes et les groupes prépositionnels pour situer dans le temps et dans l’espace",
+      "attendu": "Situer un objet ou une personne : in, on, under, between, next to, in front of, behind.",
+      "exemple": "The cat is under the table.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 13,
+        "extrait": "Utiliser quelques prépositions permettant des repérages dans l’espace"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-VOC-05",
+      "titre": "Vêtements et corps",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique en lien avec les axes culturels",
+      "attendu": "Nommer les vêtements de base et les parties du corps.",
+      "exemple": "She is wearing a red skirt and black shoes.",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 11,
+        "extrait": "Les vêtements de base"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C3-6E-VOC-06",
+      "titre": "La nourriture et les besoins",
+      "domaine": "Outils linguistiques",
+      "theme": "Lexique en lien avec les axes culturels",
+      "attendu": "Nommer les repas et quelques aliments ; exprimer ses besoins (I’m hungry, I’m thirsty).",
+      "exemple": "I’m hungry. Can I have a sandwich, please?",
+      "source": {
+        "id": "bo22-2025-anglais-college",
+        "page": 11,
+        "extrait": "Les aliments et habitudes alimentaires"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,153 @@
+{
+  "competence": "LV-C3-6E-GRAM-07",
+  "exercices": [
+    {
+      "id": "LV-C3-6E-GRAM-07-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "ouvrir la fenêtre",
+        "fermer la porte",
+        "écrire"
+      ],
+      "reponse": "ouvrir la fenêtre",
+      "indice": "Open.",
+      "explication": "« Open the window! » : ouvre la fenêtre.",
+      "ecoute": {
+        "texte": "Open the window, please!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Que dois-tu faire ?",
+      "options": [
+        "écouter",
+        "regarder",
+        "chanter"
+      ],
+      "reponse": "écouter",
+      "indice": "Listen.",
+      "explication": "« Listen! » : écoute.",
+      "ecoute": {
+        "texte": "Listen!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est un ordre ?",
+      "options": [
+        "Sit down!",
+        "I sit down.",
+        "She sits down."
+      ],
+      "reponse": "Sit down!",
+      "indice": "Pas de sujet.",
+      "explication": "Le verbe seul : impératif.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « N’oublie pas ton livre ! » ?",
+      "options": [
+        "Don’t forget your book!",
+        "Not forget your book!",
+        "You don’t forget your book!"
+      ],
+      "reponse": "Don’t forget your book!",
+      "indice": "Don’t + verbe.",
+      "explication": "Don’t forget…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’est-il interdit de faire ?",
+      "options": [
+        "marcher sur la pelouse",
+        "courir",
+        "parler"
+      ],
+      "reponse": "marcher sur la pelouse",
+      "indice": "Grass : herbe.",
+      "explication": "« Don’t walk on the grass! »",
+      "ecoute": {
+        "texte": "Don’t walk on the grass!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Mind the gap! » dans le métro de Londres ?",
+      "options": [
+        "Attention à la marche !",
+        "Ferme la porte !",
+        "Achète un ticket !"
+      ],
+      "reponse": "Attention à la marche !",
+      "indice": "L’espace entre le quai et le train.",
+      "explication": "Attention à l’espace.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « No cheating! » ?",
+      "options": [
+        "Pas de triche !",
+        "Pas de bruit !",
+        "Pas de chat !"
+      ],
+      "reponse": "Pas de triche !",
+      "indice": "Cheat : tricher.",
+      "explication": "Interdiction de tricher.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-6E-GRAM-07-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Come to the board!",
+        "You come to the board!",
+        "Comes to the board!"
+      ],
+      "reponse": "Come to the board!",
+      "indice": "Verbe seul.",
+      "explication": "Impératif : verbe seul.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
