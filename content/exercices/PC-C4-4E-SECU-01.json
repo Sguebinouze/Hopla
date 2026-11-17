@@ -14,9 +14,9 @@
       "reponse": "230 V",
       "indice": "Prises de la maison.",
       "explication": "230 V.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-002",
@@ -31,9 +31,9 @@
       "reponse": "une intensité très grande",
       "indice": "Pas de résistance.",
       "explication": "L’intensité devient très grande.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-003",
@@ -48,9 +48,9 @@
       "reponse": "protéger des chocs électriques",
       "indice": "Fil vert et jaune.",
       "explication": "Elle évacue les fuites de courant.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-004",
@@ -65,9 +65,9 @@
       "reponse": "les intensités s’additionnent",
       "indice": "Dérivation.",
       "explication": "Surintensité.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-005",
@@ -82,9 +82,9 @@
       "reponse": "il fond et coupe le circuit",
       "indice": "Fusion.",
       "explication": "Il fond.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-006",
@@ -99,9 +99,9 @@
       "reponse": "couper le courant",
       "indice": "Sécurité.",
       "explication": "Couper le courant.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-007",
@@ -116,9 +116,9 @@
       "reponse": "l’eau favorise le passage du courant dans le corps",
       "indice": "Conduction.",
       "explication": "Le risque d’électrisation augmente.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "PC-C4-4E-SECU-01-008",
@@ -133,9 +133,9 @@
       "reponse": "environ 19,6 A : trop",
       "indice": "I = P / U, puis additionner.",
       "explication": "4 500 / 230 ≈ 19,6 A > 16 A.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

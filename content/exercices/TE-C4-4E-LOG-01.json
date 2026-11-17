@@ -14,9 +14,9 @@
       "reponse": "stocker une valeur qui peut changer",
       "indice": "Mémoire.",
       "explication": "Stocker une valeur.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-002",
@@ -31,9 +31,9 @@
       "reponse": "vrai",
       "indice": "Les deux vrais.",
       "explication": "Vrai.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-003",
@@ -48,9 +48,9 @@
       "reponse": "faux",
       "indice": "Inversion.",
       "explication": "Faux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-004",
@@ -65,9 +65,9 @@
       "reponse": "vrai",
       "indice": "Au moins un.",
       "explication": "Vrai.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-005",
@@ -82,9 +82,9 @@
       "reponse": "faux",
       "indice": "Aucun vrai.",
       "explication": "Faux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-006",
@@ -99,9 +99,9 @@
       "reponse": "sonne",
       "indice": "OU.",
       "explication": "Elle sonne.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-007",
@@ -116,9 +116,9 @@
       "reponse": "ne démarre pas",
       "indice": "NON pluie est faux.",
       "explication": "Faux ET vrai = faux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-4E-LOG-01-008",
@@ -133,9 +133,9 @@
       "reponse": "6",
       "indice": "0 + 2 + 2 + 2.",
       "explication": "6.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }

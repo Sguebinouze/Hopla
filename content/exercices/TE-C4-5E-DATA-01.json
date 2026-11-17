@@ -14,9 +14,9 @@
       "reponse": "nombre",
       "indice": "On peut calculer avec.",
       "explication": "Nombre.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-002",
@@ -31,9 +31,9 @@
       "reponse": "chaîne de caractères",
       "indice": "Un mot.",
       "explication": "Chaîne de caractères.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-003",
@@ -48,9 +48,9 @@
       "reponse": "deux valeurs : vrai ou faux",
       "indice": "Oui/non.",
       "explication": "Vrai ou faux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-004",
@@ -65,9 +65,9 @@
       "reponse": "une colonne",
       "indice": "Le même pour tous les objets.",
       "explication": "Une colonne.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-005",
@@ -82,9 +82,9 @@
       "reponse": "un ensemble d’objets décrits par les mêmes descripteurs",
       "indice": "Liste.",
       "explication": "Un ensemble structuré.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-006",
@@ -99,9 +99,9 @@
       "reponse": "texte",
       "indice": "On ne calcule pas avec.",
       "explication": "En texte, le 0 initial est gardé.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-007",
@@ -116,9 +116,9 @@
       "reponse": "« Pliable »",
       "indice": "Oui ou non.",
       "explication": "Pliable : vrai ou faux.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     },
     {
       "id": "TE-C4-5E-DATA-01-008",
@@ -133,9 +133,9 @@
       "reponse": "pour pouvoir trier, calculer et filtrer correctement",
       "indice": "Traitement.",
       "explication": "Le type permet le bon traitement.",
-      "statut": "brouillon",
+      "statut": "publie",
       "auteur": "ia",
-      "relu_par": null
+      "relu_par": "Laurent (validation globale)"
     }
   ]
 }
