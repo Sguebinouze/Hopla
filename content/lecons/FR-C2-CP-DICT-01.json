@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-DICT-01",
+  "exemple": "Octave dit « lune ». J’entends [l], [u], [n]. J’écris l-u-n-e.",
+  "regle": "Pour écrire un mot, je dis le mot **lentement**. J’écris **chaque son** dans l’ordre.",
+  "piege": "Certains sons s’écrivent avec deux lettres : ou, on, ch.",
+  "essai": {
+    "consigne": "Octave dit « vélo ». Quel mot est bien écrit ?",
+    "options": [
+      "vélo",
+      "véla",
+      "valo"
+    ],
+    "reponse": "vélo",
+    "explication": "J’entends [v], [é], [l], [o]."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

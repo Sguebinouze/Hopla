@@ -166,6 +166,111 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02",
+      "titre": "Sons proches",
+      "domaine": "Lecture",
+      "theme": "Identifier les mots de manière de plus en plus aisée",
+      "attendu": "Distinguer à l’oral et à l’écrit les sons proches : p/b, t/d, f/v, ch/j, s/z.",
+      "exemple": "pain et bain ne veulent pas dire la même chose.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 6,
+        "extrait": "Avoir mémorisé l’ensemble des CGP dans tous les types d’écriture, en particulier celles des sons proches"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-LECT-03",
+      "titre": "Conte, fable, poème, documentaire",
+      "domaine": "Lecture",
+      "theme": "Devenir lecteur",
+      "attendu": "Reconnaitre les grands genres de textes : conte, fable, poème, documentaire.",
+      "exemple": "« Il était une fois… » : c’est le début d’un conte.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 7,
+        "extrait": "Se familiariser aux différents genres et types de textes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01",
+      "titre": "Écouter et retenir",
+      "domaine": "Langage oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Écouter un message et retenir les informations importantes, dans l’ordre.",
+      "exemple": "« D’abord tu tailles ton crayon, puis tu écris la date. » En premier : tailler le crayon.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 14,
+        "extrait": "Maintenir une attention active pendant quelques minutes pour repérer, mémoriser, classer ou ordonner les informations importantes entendues à l’oral"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01",
+      "titre": "D’abord, puis, enfin",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits",
+      "attendu": "Utiliser des connecteurs pour enchainer des phrases : d’abord, puis, ensuite, enfin, mais, car.",
+      "exemple": "D’abord, je mets mes chaussettes. Puis, je mets mes chaussures.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 11,
+        "extrait": "Insérer des connecteurs pour rendre cohérent l’enchainement de plusieurs phrases"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-ORTH-03",
+      "titre": "c, g, s : deux sons",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Savoir quand c, g et s changent de son : c/ç, g/ge, s/ss.",
+      "exemple": "un garçon, un glaçon ; une girafe, un gâteau ; une rose, une tasse.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 18,
+        "extrait": "Classer par analogie et mémoriser les mots les plus fréquents comportant des graphèmes à prononciation variable"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-ORTH-04",
+      "titre": "La lettre muette finale",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Trouver la lettre muette à la fin d’un mot grâce à un mot de la même famille.",
+      "exemple": "blanc → blanche : le c s’entend dans blanche.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 18,
+        "extrait": "Être capable d’anticiper une lettre muette finale à l’aide d’un mot de la même famille"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-VOC-05",
+      "titre": "Éviter les répétitions",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Remplacer un mot répété par un synonyme ou un mot plus général.",
+      "exemple": "la voiture, l’automobile, le véhicule.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 18,
+        "extrait": "Mobiliser les mots rencontrés en contexte"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

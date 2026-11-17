@@ -1,0 +1,158 @@
+{
+  "competence": "FR-C2-CE2-ECR-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CE2-ECR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Le chien aboie.",
+        "le chien aboie.",
+        "Le chien aboie"
+      ],
+      "reponse": "Le chien aboie.",
+      "indice": "Majuscule et point.",
+      "explication": "Majuscule au début, point à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où est l’erreur : « Les chat dorment. » ?",
+      "options": [
+        "chat",
+        "Les",
+        "dorment"
+      ],
+      "reponse": "chat",
+      "indice": "Les → pluriel.",
+      "explication": "Les chats : il manque le s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot manque : « Le garçon … une glace. » ?",
+      "options": [
+        "mange",
+        "grand",
+        "avec"
+      ],
+      "reponse": "mange",
+      "indice": "Il manque l’action.",
+      "explication": "Le garçon mange une glace.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où est l’erreur : « Mes amis arrive. » ?",
+      "options": [
+        "arrive",
+        "Mes",
+        "amis"
+      ],
+      "reponse": "arrive",
+      "indice": "Accord du verbe.",
+      "explication": "Mes amis arrivent : verbe au pluriel.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où est l’erreur : « Elle a une robe vertes. » ?",
+      "options": [
+        "vertes",
+        "Elle",
+        "robe"
+      ],
+      "reponse": "vertes",
+      "indice": "Une robe : singulier.",
+      "explication": "Une robe verte : pas de s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Nous jouons dehors.",
+        "Nous jouont dehors.",
+        "Nous jouon dehors."
+      ],
+      "reponse": "Nous jouons dehors.",
+      "indice": "Avec nous : -ons.",
+      "explication": "Nous jouons.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Où est l’erreur : « Les fleurs du jardin pousse vite. » ?",
+      "options": [
+        "pousse",
+        "fleurs",
+        "jardin"
+      ],
+      "reponse": "pousse",
+      "indice": "Le sujet est « les fleurs ».",
+      "explication": "Les fleurs poussent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Hier, Léo est allé au parc.",
+        "Hier, léo est allé au parc.",
+        "Hier, Léo est allé au parc"
+      ],
+      "reponse": "Hier, Léo est allé au parc.",
+      "indice": "Prénom et point.",
+      "explication": "Majuscule au prénom, point à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Où est l’erreur : « Il mangent une pomme. » ?",
+      "options": [
+        "mangent",
+        "Il",
+        "pomme"
+      ],
+      "reponse": "mangent",
+      "indice": "Il : singulier.",
+      "explication": "Il mange : pas de -nt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "competence": "FR-C2-CP-VOC-02",
+  "exercices": [
+    {
+      "id": "FR-C2-CP-VOC-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre vient après a ?",
+      "options": [
+        "b",
+        "c",
+        "d"
+      ],
+      "reponse": "b",
+      "indice": "Récite l’alphabet.",
+      "explication": "a, b : après a vient b.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre vient avant g ?",
+      "options": [
+        "f",
+        "h",
+        "e"
+      ],
+      "reponse": "f",
+      "indice": "Récite : e, f, g.",
+      "explication": "e, f, g : avant g vient f.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre vient après m ?",
+      "options": [
+        "n",
+        "l",
+        "o"
+      ],
+      "reponse": "n",
+      "indice": "Récite : l, m, n.",
+      "explication": "l, m, n : après m vient n.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot vient en premier dans le dictionnaire ?",
+      "options": [
+        "ballon",
+        "chat",
+        "domino"
+      ],
+      "reponse": "ballon",
+      "indice": "Regarde la première lettre.",
+      "explication": "b vient avant c et d.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot vient en premier dans le dictionnaire ?",
+      "options": [
+        "fusée",
+        "lapin",
+        "tigre"
+      ],
+      "reponse": "fusée",
+      "indice": "Regarde la première lettre.",
+      "explication": "f vient avant l et t.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot vient en dernier dans le dictionnaire ?",
+      "options": [
+        "zèbre",
+        "avion",
+        "robot"
+      ],
+      "reponse": "zèbre",
+      "indice": "z est la dernière lettre.",
+      "explication": "z vient après a et r.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot vient en premier ?",
+      "options": [
+        "cabane",
+        "citron",
+        "cube"
+      ],
+      "reponse": "cabane",
+      "indice": "Même première lettre : regarde la deuxième.",
+      "explication": "a vient avant i et u.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot vient en premier ?",
+      "options": [
+        "pelle",
+        "pomme",
+        "pirate"
+      ],
+      "reponse": "pelle",
+      "indice": "Regarde la deuxième lettre.",
+      "explication": "e vient avant i et o.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-02-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle liste est bien rangée ?",
+      "options": [
+        "ami, bal, col",
+        "bal, ami, col",
+        "col, bal, ami"
+      ],
+      "reponse": "ami, bal, col",
+      "indice": "Regarde a, b, c.",
+      "explication": "a, puis b, puis c.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-ECOU-01",
+  "exemple": "Octave dit : « Range tes feutres dans la boite bleue. »",
+  "regle": "J’**écoute** jusqu’au bout. Je retiens **ce qu’il faut faire**. Je retiens aussi **les détails** : couleur, nombre, lieu.",
+  "piege": "Ne réponds pas trop vite : écoute la phrase entière.",
+  "essai": {
+    "consigne": "Octave dit : « Dessine trois étoiles. » Combien d’étoiles ?",
+    "options": [
+      "trois",
+      "deux",
+      "quatre"
+    ],
+    "reponse": "trois",
+    "explication": "Octave a dit trois étoiles."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

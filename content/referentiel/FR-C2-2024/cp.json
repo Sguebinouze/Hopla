@@ -121,6 +121,111 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-LECT-03",
+      "titre": "Comprendre une petite histoire",
+      "domaine": "Lecture",
+      "theme": "Comprendre un texte",
+      "attendu": "Lire une ou deux phrases et répondre à une question : qui, où, quoi.",
+      "exemple": "« Léo joue au ballon dans le jardin. » Où joue Léo ? Dans le jardin.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 5,
+        "extrait": "Dégager le sens global d’un texte entendu ou lu de façon autonome"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01",
+      "titre": "Écouter une consigne",
+      "domaine": "Langage oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Écouter un message court et retenir l’information importante.",
+      "exemple": "Octave dit : « Prends ton crayon rouge. » Tu prends le crayon rouge.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 13,
+        "extrait": "Comprendre un message entendu de quelques minutes et mémoriser quelques informations importantes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-VOC-02",
+      "titre": "L’ordre alphabétique",
+      "domaine": "Vocabulaire",
+      "theme": "Enrichir son vocabulaire dans tous les enseignements",
+      "attendu": "Connaitre l’ordre des lettres et ranger des mots selon leur première lettre.",
+      "exemple": "ane, bol, chat : a vient avant b, b avant c.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 16,
+        "extrait": "Commencer à mobiliser l’ordre alphabétique pour utiliser un dictionnaire adapté"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-VOC-03",
+      "titre": "Ranger les mots par catégorie",
+      "domaine": "Vocabulaire",
+      "theme": "Réemployer le vocabulaire étudié",
+      "attendu": "Reconnaitre des mots d’une même catégorie : fruits, animaux, meubles, vêtements.",
+      "exemple": "pomme, poire, banane : ce sont des fruits.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 16,
+        "extrait": "Réemployer et mémoriser le vocabulaire appris en maternelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-DICT-01",
+      "titre": "Écrire un mot entendu",
+      "domaine": "Écriture",
+      "theme": "Encoder puis écrire sous dictée",
+      "attendu": "Écouter un mot et retrouver son écriture, son par son.",
+      "exemple": "Octave dit « moto » : m-o-t-o.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 9,
+        "extrait": "Encoder des syllabes simples puis des mots selon la progression des CGP"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-ECR-01",
+      "titre": "Remettre les mots en ordre",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits",
+      "attendu": "Composer une phrase avec des mots donnés : majuscule au début, point à la fin.",
+      "exemple": "chat / Le / dort. → Le chat dort.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 10,
+        "extrait": "L’élève compose des phrases à l’aide d’étiquettes mobiles qu’il sait déchiffrer"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-LECT-04",
+      "titre": "Les personnages des contes",
+      "domaine": "Lecture",
+      "theme": "Devenir lecteur",
+      "attendu": "Reconnaitre les personnages types des contes : le loup, la fée, la sorcière, le roi, l’ogre.",
+      "exemple": "Dans les contes, le loup est souvent méchant et rusé.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 6,
+        "extrait": "Repérer et reconnaitre des types de personnages"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

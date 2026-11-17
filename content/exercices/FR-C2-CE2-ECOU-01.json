@@ -1,0 +1,194 @@
+{
+  "competence": "FR-C2-CE2-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CE2-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Que fabriquent les abeilles ?",
+      "options": [
+        "du miel",
+        "du lait",
+        "de la soie"
+      ],
+      "reponse": "du miel",
+      "indice": "Écoute la fin.",
+      "explication": "Les abeilles fabriquent du miel.",
+      "ecoute": {
+        "texte": "Les abeilles butinent les fleurs. Elles fabriquent du miel.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Où vit le manchot ?",
+      "options": [
+        "au pôle Sud",
+        "dans le désert",
+        "en forêt"
+      ],
+      "reponse": "au pôle Sud",
+      "indice": "Écoute le lieu.",
+      "explication": "Le manchot vit au pôle Sud.",
+      "ecoute": {
+        "texte": "Le manchot vit au pôle Sud. Il ne vole pas mais il nage très bien.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Que sait très bien faire le manchot ?",
+      "options": [
+        "nager",
+        "voler",
+        "grimper"
+      ],
+      "reponse": "nager",
+      "indice": "Écoute la deuxième phrase.",
+      "explication": "Il nage très bien.",
+      "ecoute": {
+        "texte": "Le manchot vit au pôle Sud. Il ne vole pas mais il nage très bien.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Pourquoi Lili pleure-t-elle ?",
+      "options": [
+        "Elle a perdu son chat.",
+        "Elle est tombée.",
+        "Elle a faim."
+      ],
+      "reponse": "Elle a perdu son chat.",
+      "indice": "Relie les deux phrases.",
+      "explication": "Son chat a disparu.",
+      "ecoute": {
+        "texte": "Lili pleure dans sa chambre. Son chat a disparu depuis hier.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Depuis quand le chat a-t-il disparu ?",
+      "options": [
+        "depuis hier",
+        "depuis ce matin",
+        "depuis une semaine"
+      ],
+      "reponse": "depuis hier",
+      "indice": "Écoute la fin.",
+      "explication": "Depuis hier.",
+      "ecoute": {
+        "texte": "Lili pleure dans sa chambre. Son chat a disparu depuis hier.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que mange la chenille ?",
+      "options": [
+        "des feuilles",
+        "des insectes",
+        "des graines"
+      ],
+      "reponse": "des feuilles",
+      "indice": "Écoute ce qu’elle mange.",
+      "explication": "La chenille mange des feuilles.",
+      "ecoute": {
+        "texte": "La chenille mange des feuilles. Puis elle devient un papillon.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que devient la chenille ?",
+      "options": [
+        "un papillon",
+        "une abeille",
+        "une fourmi"
+      ],
+      "reponse": "un papillon",
+      "indice": "Écoute la deuxième phrase.",
+      "explication": "Elle devient un papillon.",
+      "ecoute": {
+        "texte": "La chenille mange des feuilles. Puis elle devient un papillon.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Pourquoi le renard n’a-t-il pas mangé ?",
+      "options": [
+        "Les poules étaient enfermées.",
+        "Il n’avait pas faim.",
+        "Il dormait."
+      ],
+      "reponse": "Les poules étaient enfermées.",
+      "indice": "Relie les deux informations.",
+      "explication": "Le poulailler était fermé.",
+      "ecoute": {
+        "texte": "Le renard rôde autour du poulailler. Mais la porte est fermée à clé.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Combien de temps vit une tortue géante ?",
+      "options": [
+        "plus de cent ans",
+        "dix ans",
+        "un an"
+      ],
+      "reponse": "plus de cent ans",
+      "indice": "Écoute le nombre.",
+      "explication": "Plus de cent ans.",
+      "ecoute": {
+        "texte": "Une tortue géante peut vivre plus de cent ans.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

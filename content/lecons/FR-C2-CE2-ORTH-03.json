@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-ORTH-03",
+  "exemple": "L’**é**cole, la m**è**re, la f**ê**te.",
+  "regle": "L’accent **aigu (é)** fait le son [é] : été. L’accent **grave (è)** fait le son [è] : mère. L’accent **circonflexe (ê)** aussi : tête.",
+  "piege": "Un accent change le sens : « a » (avoir) et « à » (lieu).",
+  "essai": {
+    "consigne": "Quel mot est bien écrit ?",
+    "options": [
+      "la rivière",
+      "la riviére",
+      "la rivìere"
+    ],
+    "reponse": "la rivière",
+    "explication": "On entend [è] : accent grave."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

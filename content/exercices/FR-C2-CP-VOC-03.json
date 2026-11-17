@@ -1,0 +1,158 @@
+{
+  "competence": "FR-C2-CP-VOC-03",
+  "exercices": [
+    {
+      "id": "FR-C2-CP-VOC-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est un fruit ?",
+      "options": [
+        "la poire",
+        "la chaise",
+        "le chat"
+      ],
+      "reponse": "la poire",
+      "indice": "Un fruit se mange.",
+      "explication": "La poire est un fruit.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est un vêtement ?",
+      "options": [
+        "le pull",
+        "le lit",
+        "la carotte"
+      ],
+      "reponse": "le pull",
+      "indice": "Un vêtement se porte.",
+      "explication": "Le pull est un vêtement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot est un meuble ?",
+      "options": [
+        "l’armoire",
+        "la banane",
+        "le cheval"
+      ],
+      "reponse": "l’armoire",
+      "indice": "Un meuble est dans la maison.",
+      "explication": "L’armoire est un meuble.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot n’est pas un animal ?",
+      "options": [
+        "le vélo",
+        "la vache",
+        "le canard"
+      ],
+      "reponse": "le vélo",
+      "indice": "Cherche l’intrus.",
+      "explication": "Le vélo n’est pas un animal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot n’est pas un fruit ?",
+      "options": [
+        "le pantalon",
+        "la cerise",
+        "le kiwi"
+      ],
+      "reponse": "le pantalon",
+      "indice": "Cherche l’intrus.",
+      "explication": "Le pantalon est un vêtement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Voiture, bus, camion : ce sont des…",
+      "options": [
+        "véhicules",
+        "meubles",
+        "animaux"
+      ],
+      "reponse": "véhicules",
+      "indice": "Ils roulent sur la route.",
+      "explication": "Voiture, bus et camion sont des véhicules.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Marteau, scie, tournevis : ce sont des…",
+      "options": [
+        "outils",
+        "jouets",
+        "légumes"
+      ],
+      "reponse": "outils",
+      "indice": "Ils servent à bricoler.",
+      "explication": "Ce sont des outils.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Rose, tulipe, marguerite : ce sont des…",
+      "options": [
+        "fleurs",
+        "fruits",
+        "arbres"
+      ],
+      "reponse": "fleurs",
+      "indice": "On les met dans un vase.",
+      "explication": "Ce sont des fleurs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-VOC-03-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot va avec « chaussette, bonnet, gant » ?",
+      "options": [
+        "l’écharpe",
+        "le gâteau",
+        "le chien"
+      ],
+      "reponse": "l’écharpe",
+      "indice": "Ce sont des vêtements.",
+      "explication": "L’écharpe est aussi un vêtement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

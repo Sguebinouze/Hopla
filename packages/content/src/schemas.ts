@@ -15,7 +15,7 @@ export const PREFIXE: Record<Matiere, string> = {
   'langues-vivantes': 'LV', allemand: 'AL', espagnol: 'ES', emc: 'EM',
 };
 /** Langues des phrases d'écoute (synthèse vocale de l'appareil). */
-export const LANGUES_ECOUTE = ['en-GB', 'de-DE', 'es-ES'] as const;
+export const LANGUES_ECOUTE = ['fr-FR', 'en-GB', 'de-DE', 'es-ES'] as const;
 
 export type Classe = (typeof CLASSES)[number];
 export type Matiere = (typeof MATIERES)[number];

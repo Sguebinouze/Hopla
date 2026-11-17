@@ -1,0 +1,194 @@
+{
+  "competence": "FR-C2-CP-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CP-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Que faut-il prendre ?",
+      "options": [
+        "un crayon",
+        "un livre",
+        "un ballon"
+      ],
+      "reponse": "un crayon",
+      "indice": "Écoute le nom de l’objet.",
+      "explication": "Octave a dit : prends ton crayon.",
+      "ecoute": {
+        "texte": "Prends ton crayon.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quelle couleur ?",
+      "options": [
+        "vert",
+        "rouge",
+        "bleu"
+      ],
+      "reponse": "vert",
+      "indice": "Écoute la couleur.",
+      "explication": "Octave a dit : colorie le soleil en vert.",
+      "ecoute": {
+        "texte": "Colorie le soleil en vert.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Combien de pommes ?",
+      "options": [
+        "deux",
+        "trois",
+        "cinq"
+      ],
+      "reponse": "deux",
+      "indice": "Écoute le nombre.",
+      "explication": "Octave a dit : dessine deux pommes.",
+      "ecoute": {
+        "texte": "Dessine deux pommes.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Où faut-il ranger le livre ?",
+      "options": [
+        "dans le cartable",
+        "sur la table",
+        "sous la chaise"
+      ],
+      "reponse": "dans le cartable",
+      "indice": "Écoute le lieu.",
+      "explication": "Octave a dit : dans le cartable.",
+      "ecoute": {
+        "texte": "Range ton livre dans le cartable.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Qui a perdu son doudou ?",
+      "options": [
+        "Léa",
+        "Paul",
+        "Octave"
+      ],
+      "reponse": "Léa",
+      "indice": "Écoute le prénom.",
+      "explication": "Octave a dit : Léa a perdu son doudou.",
+      "ecoute": {
+        "texte": "Léa a perdu son doudou dans le parc.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que faut-il faire en premier ?",
+      "options": [
+        "se laver les mains",
+        "manger",
+        "s’asseoir"
+      ],
+      "reponse": "se laver les mains",
+      "indice": "Écoute le mot « d’abord ».",
+      "explication": "D’abord, on se lave les mains.",
+      "ecoute": {
+        "texte": "D’abord, lave-toi les mains. Ensuite, assieds-toi.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quel jour est la sortie ?",
+      "options": [
+        "mardi",
+        "lundi",
+        "jeudi"
+      ],
+      "reponse": "mardi",
+      "indice": "Écoute le jour.",
+      "explication": "Octave a dit : la sortie est mardi.",
+      "ecoute": {
+        "texte": "La sortie au zoo est mardi. Prends un gouter.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que faut-il apporter ?",
+      "options": [
+        "un gouter",
+        "un maillot",
+        "un livre"
+      ],
+      "reponse": "un gouter",
+      "indice": "Écoute ce qu’il faut prendre.",
+      "explication": "Octave a dit : prends un gouter.",
+      "ecoute": {
+        "texte": "La sortie au zoo est mardi. Prends un gouter.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-ECOU-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Combien de cubes rouges ?",
+      "options": [
+        "trois",
+        "deux",
+        "cinq"
+      ],
+      "reponse": "trois",
+      "indice": "Il y a deux couleurs. Écoute bien.",
+      "explication": "Trois cubes rouges et deux cubes bleus.",
+      "ecoute": {
+        "texte": "Pose trois cubes rouges et deux cubes bleus.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

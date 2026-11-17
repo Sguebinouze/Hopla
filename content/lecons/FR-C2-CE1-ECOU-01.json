@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-ECOU-01",
+  "exemple": "Octave dit : « Mets ton manteau, puis prends ton cartable. »",
+  "regle": "J’écoute **toutes** les informations. Les mots **d’abord, puis, ensuite, enfin** donnent l’ordre des actions.",
+  "piege": "L’ordre dans lequel on dit les actions compte.",
+  "essai": {
+    "consigne": "Octave dit : « Ouvre ton cahier, puis écris ton prénom. » Que fais-tu en premier ?",
+    "options": [
+      "J’ouvre mon cahier.",
+      "J’écris mon prénom.",
+      "Je ferme mon cahier."
+    ],
+    "reponse": "J’ouvre mon cahier.",
+    "explication": "Le mot « puis » indique la deuxième action."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

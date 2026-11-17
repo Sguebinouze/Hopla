@@ -1,0 +1,159 @@
+{
+  "competence": "FR-C2-CE2-LECT-05",
+  "exercices": [
+    {
+      "id": "FR-C2-CE2-LECT-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre est muette dans « le chat » ?",
+      "options": [
+        "t",
+        "c",
+        "a"
+      ],
+      "reponse": "t",
+      "indice": "Dis le mot à voix haute.",
+      "explication": "Le t ne se prononce pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre est muette dans « un loup » ?",
+      "options": [
+        "p",
+        "l",
+        "u"
+      ],
+      "reponse": "p",
+      "indice": "Dis le mot à voix haute.",
+      "explication": "Le p ne se prononce pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle lettre est muette dans « le riz » ?",
+      "options": [
+        "z",
+        "r",
+        "i"
+      ],
+      "reponse": "z",
+      "indice": "Dis le mot à voix haute.",
+      "explication": "Le z ne se prononce pas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Fait-on la liaison dans « les enfants » ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "Le deuxième mot commence par une voyelle.",
+      "explication": "On dit [lézanfan].",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Fait-on la liaison dans « les haricots » ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "Le h est aspiré.",
+      "explication": "On dit « les / haricots », sans liaison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans « elles parlent », que ne prononce-t-on pas ?",
+      "options": [
+        "ent",
+        "elles",
+        "par"
+      ],
+      "reponse": "ent",
+      "indice": "La fin du verbe.",
+      "explication": "-ent est muet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle phrase a-t-il lue ?",
+      "options": [
+        "Les oiseaux chantent.",
+        "Les oiseau chante.",
+        "Les oiseaux chante."
+      ],
+      "reponse": "Les oiseaux chantent.",
+      "indice": "Pluriel partout.",
+      "explication": "Les oiseaux chantent.",
+      "ecoute": {
+        "texte": "Les oiseaux chantent.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Fait-on la liaison dans « un petit ami » ?",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "reponse": "oui",
+      "indice": "Le t est suivi d’une voyelle.",
+      "explication": "On dit [petitami].",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle lettre muette aide à écrire « grand » ?",
+      "options": [
+        "d",
+        "t",
+        "s"
+      ],
+      "reponse": "d",
+      "indice": "Pense à « grande ».",
+      "explication": "Grande : le d s’entend.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

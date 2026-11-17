@@ -1,0 +1,170 @@
+{
+  "competence": "FR-C2-CE1-LECT-02",
+  "exercices": [
+    {
+      "id": "FR-C2-CE1-LECT-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot entends-tu ?",
+      "options": [
+        "bain",
+        "pain",
+        "main"
+      ],
+      "reponse": "bain",
+      "indice": "La gorge vibre-t-elle ?",
+      "explication": "Octave a dit « bain ».",
+      "ecoute": {
+        "texte": "bain",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot entends-tu ?",
+      "options": [
+        "tache",
+        "dache",
+        "tage"
+      ],
+      "reponse": "tache",
+      "indice": "Écoute le premier son.",
+      "explication": "Octave a dit « tache ».",
+      "ecoute": {
+        "texte": "tache",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot entends-tu ?",
+      "options": [
+        "vent",
+        "faon",
+        "banc"
+      ],
+      "reponse": "vent",
+      "indice": "Écoute le premier son.",
+      "explication": "Octave a dit « vent ».",
+      "ecoute": {
+        "texte": "vent",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot complète la phrase : « Je mange du … » ?",
+      "options": [
+        "pain",
+        "bain",
+        "daim"
+      ],
+      "reponse": "pain",
+      "indice": "Cela se mange.",
+      "explication": "On mange du pain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot complète la phrase : « Le … souffle fort. » ?",
+      "options": [
+        "vent",
+        "fond",
+        "banc"
+      ],
+      "reponse": "vent",
+      "indice": "Il souffle dehors.",
+      "explication": "Le vent souffle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel mot complète la phrase : « Je … avec mon chien. » ?",
+      "options": [
+        "joue",
+        "choue",
+        "joute"
+      ],
+      "reponse": "joue",
+      "indice": "Ch ou j ?",
+      "explication": "Je joue avec mon chien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot s’écrit avec un seul s qui fait [z] ?",
+      "options": [
+        "une rose",
+        "une rosse",
+        "une roze"
+      ],
+      "reponse": "une rose",
+      "indice": "Un s entre deux voyelles fait [z].",
+      "explication": "Rose : le s entre o et e fait [z].",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot complète : « Il boit un verre de … » ?",
+      "options": [
+        "jus",
+        "chu",
+        "zus"
+      ],
+      "reponse": "jus",
+      "indice": "Cela se boit.",
+      "explication": "Il boit un verre de jus.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-LECT-02-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel mot complète : « Le … nage dans l’eau. » ?",
+      "options": [
+        "poisson",
+        "poison",
+        "boisson"
+      ],
+      "reponse": "poisson",
+      "indice": "C’est un animal.",
+      "explication": "Le poisson nage. Deux s font [s].",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

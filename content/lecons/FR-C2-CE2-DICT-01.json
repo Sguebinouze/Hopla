@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-DICT-01",
+  "exemple": "Le son [o] s’écrit **o** (vélo), **au** (jaune) ou **eau** (gâteau).",
+  "regle": "Un son peut s’écrire **de plusieurs façons**. J’apprends les mots par **familles de sons** : bateau, chapeau, château.",
+  "piege": "À la fin d’un nom, [o] s’écrit souvent eau.",
+  "essai": {
+    "consigne": "Octave dit « un oiseau ». Quel mot est bien écrit ?",
+    "options": [
+      "un oiseau",
+      "un oiso",
+      "un oisau"
+    ],
+    "reponse": "un oiseau",
+    "explication": "Oiseau finit par eau."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

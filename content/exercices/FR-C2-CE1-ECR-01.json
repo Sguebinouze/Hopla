@@ -1,0 +1,158 @@
+{
+  "competence": "FR-C2-CE1-ECR-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CE1-ECR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel mot annonce la première action ?",
+      "options": [
+        "d’abord",
+        "enfin",
+        "ensuite"
+      ],
+      "reponse": "d’abord",
+      "indice": "Le début.",
+      "explication": "« D’abord » ouvre la liste des actions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … , je me lave. Puis, je m’habille. »",
+      "options": [
+        "D’abord",
+        "Enfin",
+        "Mais"
+      ],
+      "reponse": "D’abord",
+      "indice": "C’est la première action.",
+      "explication": "D’abord, je me lave.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Je me lève. … , je déjeune. »",
+      "options": [
+        "Ensuite",
+        "D’abord",
+        "Car"
+      ],
+      "reponse": "Ensuite",
+      "indice": "C’est l’action suivante.",
+      "explication": "Ensuite, je déjeune.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Je veux sortir, … il pleut. »",
+      "options": [
+        "mais",
+        "puis",
+        "d’abord"
+      ],
+      "reponse": "mais",
+      "indice": "Les deux idées s’opposent.",
+      "explication": "« Mais » marque l’opposition.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Je mets un pull … j’ai froid. »",
+      "options": [
+        "car",
+        "mais",
+        "enfin"
+      ],
+      "reponse": "car",
+      "indice": "Le mot donne la raison.",
+      "explication": "« Car » donne la raison : j’ai froid.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase vient en dernier ?",
+      "options": [
+        "Enfin, je range mes affaires.",
+        "D’abord, je sors mon cahier.",
+        "Puis, j’écris."
+      ],
+      "reponse": "Enfin, je range mes affaires.",
+      "indice": "Cherche « enfin ».",
+      "explication": "« Enfin » annonce la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Le lapin court vite, … la tortue gagne. »",
+      "options": [
+        "mais",
+        "car",
+        "puis"
+      ],
+      "reponse": "mais",
+      "indice": "C’est surprenant.",
+      "explication": "« Mais » oppose les deux idées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Je ne vais pas à l’école … je suis malade. »",
+      "options": [
+        "car",
+        "mais",
+        "ensuite"
+      ],
+      "reponse": "car",
+      "indice": "Pourquoi ?",
+      "explication": "« Car » donne la raison.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECR-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel ordre est juste ?",
+      "options": [
+        "D’abord, puis, enfin",
+        "Enfin, puis, d’abord",
+        "Puis, enfin, d’abord"
+      ],
+      "reponse": "D’abord, puis, enfin",
+      "indice": "Le début, le milieu, la fin.",
+      "explication": "D’abord, puis, enfin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

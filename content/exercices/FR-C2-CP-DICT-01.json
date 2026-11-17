@@ -1,0 +1,194 @@
+{
+  "competence": "FR-C2-CP-DICT-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CP-DICT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "moto",
+        "mato",
+        "motu"
+      ],
+      "reponse": "moto",
+      "indice": "Écoute chaque son.",
+      "explication": "Octave a dit « moto ».",
+      "ecoute": {
+        "texte": "moto",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "lune",
+        "lame",
+        "lino"
+      ],
+      "reponse": "lune",
+      "indice": "Écoute chaque son.",
+      "explication": "Octave a dit « lune ».",
+      "ecoute": {
+        "texte": "lune",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "papa",
+        "pipe",
+        "pape"
+      ],
+      "reponse": "papa",
+      "indice": "Écoute chaque son.",
+      "explication": "Octave a dit « papa ».",
+      "ecoute": {
+        "texte": "papa",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "chat",
+        "sa",
+        "cha"
+      ],
+      "reponse": "chat",
+      "indice": "Le son [ch] s’écrit avec deux lettres.",
+      "explication": "Octave a dit « chat ».",
+      "ecoute": {
+        "texte": "un chat",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "roue",
+        "ru",
+        "rou"
+      ],
+      "reponse": "roue",
+      "indice": "Le son [ou] s’écrit o-u.",
+      "explication": "Octave a dit « roue ».",
+      "ecoute": {
+        "texte": "une roue",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "ballon",
+        "balon",
+        "bilan"
+      ],
+      "reponse": "ballon",
+      "indice": "Le son [on] s’écrit o-n.",
+      "explication": "Octave a dit « ballon ».",
+      "ecoute": {
+        "texte": "un ballon",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "maison",
+        "méson",
+        "maizon"
+      ],
+      "reponse": "maison",
+      "indice": "Le son [è] s’écrit ai ici.",
+      "explication": "Octave a dit « maison ».",
+      "ecoute": {
+        "texte": "une maison",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quel mot a-t-il dit ?",
+      "options": [
+        "lapin",
+        "lapain",
+        "lapun"
+      ],
+      "reponse": "lapin",
+      "indice": "Le son [in] s’écrit i-n.",
+      "explication": "Octave a dit « lapin ».",
+      "ecoute": {
+        "texte": "un lapin",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CP-DICT-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle phrase a-t-il dite ?",
+      "options": [
+        "Tom a un vélo.",
+        "Tom à un vélo.",
+        "Tom a un velo."
+      ],
+      "reponse": "Tom a un vélo.",
+      "indice": "Il a : sans accent.",
+      "explication": "Tom a un vélo.",
+      "ecoute": {
+        "texte": "Tom a un vélo.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

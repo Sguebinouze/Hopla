@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-ECR-01",
+  "exemple": "mange / Léo / une pomme. → Léo mange une pomme.",
+  "regle": "Une phrase **a du sens**. Elle commence par une **majuscule**. Elle finit par un **point**.",
+  "piege": "Le mot avec la majuscule se place au début.",
+  "essai": {
+    "consigne": "Quelle phrase est bien construite ?",
+    "options": [
+      "Le chien court.",
+      "Court le chien.",
+      "chien Le court."
+    ],
+    "reponse": "Le chien court.",
+    "explication": "La phrase a du sens et commence par une majuscule."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

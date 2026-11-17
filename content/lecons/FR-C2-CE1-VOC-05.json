@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-VOC-05",
+  "exemple": "Le chien aboie. L’animal court vers le portail.",
+  "regle": "Pour ne pas répéter un mot, j’utilise un **synonyme**. C’est un mot de même sens. J’utilise aussi un **mot plus général** : chien → animal.",
+  "piege": "Le mot qui remplace doit garder le sens de la phrase.",
+  "essai": {
+    "consigne": "Quel mot peut remplacer « la voiture » ?",
+    "options": [
+      "le véhicule",
+      "le vélo",
+      "la route"
+    ],
+    "reponse": "le véhicule",
+    "explication": "Une voiture est un véhicule."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-ECR-01",
+  "exemple": "D’abord, le chat se réveille. Puis, il boit son lait. Enfin, il se rendort.",
+  "regle": "Les mots **d’abord, puis, ensuite, enfin** donnent l’ordre des actions. Le mot **mais** marque une opposition. Le mot **car** donne une raison.",
+  "piege": "« Enfin » annonce la dernière action, pas la première.",
+  "essai": {
+    "consigne": "Quel mot annonce la dernière action ?",
+    "options": [
+      "enfin",
+      "d’abord",
+      "puis"
+    ],
+    "reponse": "enfin",
+    "explication": "« Enfin » vient à la fin."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

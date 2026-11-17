@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-ORTH-04",
+  "exemple": "Un chat gris, une chatte grise. Le **s** muet s’entend dans « grise ».",
+  "regle": "Je cherche **un mot de la même famille** ou **le féminin**. La lettre muette s’y entend.",
+  "piege": "Parfois, aucun mot de la famille n’aide. On apprend alors le mot.",
+  "essai": {
+    "consigne": "Quelle est la lettre muette de « chant » ?",
+    "options": [
+      "t",
+      "d",
+      "s"
+    ],
+    "reponse": "t",
+    "explication": "Chanter : on entend le t."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

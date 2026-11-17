@@ -1,0 +1,194 @@
+{
+  "competence": "FR-C2-CE1-ECOU-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CE1-ECOU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel animal a-t-il vu ?",
+      "options": [
+        "un hérisson",
+        "un écureuil",
+        "un renard"
+      ],
+      "reponse": "un hérisson",
+      "indice": "Écoute le nom de l’animal.",
+      "explication": "Octave a vu un hérisson.",
+      "ecoute": {
+        "texte": "Ce matin, j’ai vu un hérisson dans le jardin.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Où a-t-il vu l’animal ?",
+      "options": [
+        "dans le jardin",
+        "dans la forêt",
+        "sur la route"
+      ],
+      "reponse": "dans le jardin",
+      "indice": "Écoute le lieu.",
+      "explication": "Dans le jardin.",
+      "ecoute": {
+        "texte": "Ce matin, j’ai vu un hérisson dans le jardin.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel est le premier ingrédient ?",
+      "options": [
+        "la farine",
+        "le sucre",
+        "le lait"
+      ],
+      "reponse": "la farine",
+      "indice": "Écoute le mot « d’abord ».",
+      "explication": "D’abord la farine.",
+      "ecoute": {
+        "texte": "D’abord, verse la farine. Ensuite, ajoute le sucre.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Que faut-il faire après la farine ?",
+      "options": [
+        "ajouter le sucre",
+        "casser les œufs",
+        "cuire le gâteau"
+      ],
+      "reponse": "ajouter le sucre",
+      "indice": "Écoute « ensuite ».",
+      "explication": "Ensuite, on ajoute le sucre.",
+      "ecoute": {
+        "texte": "D’abord, verse la farine. Ensuite, ajoute le sucre.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. À quelle heure part le car ?",
+      "options": [
+        "à huit heures",
+        "à neuf heures",
+        "à midi"
+      ],
+      "reponse": "à huit heures",
+      "indice": "Écoute l’heure.",
+      "explication": "Le car part à huit heures.",
+      "ecoute": {
+        "texte": "Le car part à huit heures. Ne sois pas en retard.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. De quoi la plante a-t-elle besoin ?",
+      "options": [
+        "d’eau et de lumière",
+        "de sable et de vent",
+        "de lait et de pain"
+      ],
+      "reponse": "d’eau et de lumière",
+      "indice": "Il y a deux choses.",
+      "explication": "Une plante a besoin d’eau et de lumière.",
+      "ecoute": {
+        "texte": "Une plante a besoin d’eau et de lumière pour grandir.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Combien de joueurs par équipe ?",
+      "options": [
+        "cinq",
+        "deux",
+        "dix"
+      ],
+      "reponse": "cinq",
+      "indice": "Écoute le nombre.",
+      "explication": "Cinq joueurs dans chaque équipe.",
+      "ecoute": {
+        "texte": "Faites deux équipes de cinq joueurs. Le ballon reste au sol.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle est la règle ?",
+      "options": [
+        "Le ballon reste au sol.",
+        "On lance le ballon en l’air.",
+        "On joue seul."
+      ],
+      "reponse": "Le ballon reste au sol.",
+      "indice": "Écoute la deuxième phrase.",
+      "explication": "Le ballon reste au sol.",
+      "ecoute": {
+        "texte": "Faites deux équipes de cinq joueurs. Le ballon reste au sol.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE1-ECOU-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Que fait-il en dernier ?",
+      "options": [
+        "Il se brosse les dents.",
+        "Il dine.",
+        "Il prend son bain."
+      ],
+      "reponse": "Il se brosse les dents.",
+      "indice": "Écoute « enfin ».",
+      "explication": "Enfin, il se brosse les dents.",
+      "ecoute": {
+        "texte": "Je prends mon bain, puis je dine. Enfin, je me brosse les dents.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

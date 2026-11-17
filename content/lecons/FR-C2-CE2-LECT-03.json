@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-LECT-03",
+  "exemple": "« Emma a un chiot. Elle le promène chaque soir. » Elle = Emma, le = le chiot.",
+  "regle": "Un texte **reprend** les noms pour éviter les répétitions. Il utilise un **pronom** : il, elle, le, la. Il utilise aussi un **autre nom** : le lion → le fauve.",
+  "piege": "« Il » remplace souvent le dernier nom masculin. Vérifie avec le sens.",
+  "essai": {
+    "consigne": "« Le loup voit le lapin. Il s’enfuit. » Qui s’enfuit ?",
+    "options": [
+      "le lapin",
+      "le loup",
+      "le chasseur"
+    ],
+    "reponse": "le lapin",
+    "explication": "C’est le lapin qui a peur du loup."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

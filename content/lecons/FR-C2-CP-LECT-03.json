@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-LECT-03",
+  "exemple": "« Mila mange une pomme. Elle est assise sur un banc. »",
+  "regle": "Pour comprendre, je cherche **qui** fait l’action. Puis je cherche **ce qu’il fait** et **où**.",
+  "piege": "« Elle » remplace un nom déjà écrit. Ici, « elle », c’est Mila.",
+  "essai": {
+    "consigne": "« Tom lit un livre dans son lit. » Que fait Tom ?",
+    "options": [
+      "Il lit.",
+      "Il dort.",
+      "Il joue."
+    ],
+    "reponse": "Il lit.",
+    "explication": "Le texte dit : Tom lit un livre."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

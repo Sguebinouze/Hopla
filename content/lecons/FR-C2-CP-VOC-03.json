@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-VOC-03",
+  "exemple": "La pomme, la fraise et la cerise sont des fruits.",
+  "regle": "Des mots vont **ensemble** : des fruits, des animaux, des meubles. Le mot **fruit** regroupe tous les fruits.",
+  "piege": "La tomate est un fruit. On la range souvent avec les légumes.",
+  "essai": {
+    "consigne": "Quel mot est un animal ?",
+    "options": [
+      "lapin",
+      "table",
+      "robe"
+    ],
+    "reponse": "lapin",
+    "explication": "Le lapin est un animal."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

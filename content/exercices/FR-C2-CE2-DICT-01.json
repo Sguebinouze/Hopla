@@ -1,0 +1,194 @@
+{
+  "competence": "FR-C2-CE2-DICT-01",
+  "exercices": [
+    {
+      "id": "FR-C2-CE2-DICT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "un gâteau",
+        "un gâto",
+        "un gâtau"
+      ],
+      "reponse": "un gâteau",
+      "indice": "Fin d’un nom : eau.",
+      "explication": "Gâteau finit par eau.",
+      "ecoute": {
+        "texte": "un gâteau",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "jaune",
+        "jone",
+        "jeaune"
+      ],
+      "reponse": "jaune",
+      "indice": "[o] s’écrit au ici.",
+      "explication": "Jaune s’écrit avec au.",
+      "ecoute": {
+        "texte": "jaune",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "un enfant",
+        "un anfant",
+        "un enfan"
+      ],
+      "reponse": "un enfant",
+      "indice": "en puis an.",
+      "explication": "Enfant : en puis an, et un t muet.",
+      "ecoute": {
+        "texte": "un enfant",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "le nez",
+        "le né",
+        "le ner"
+      ],
+      "reponse": "le nez",
+      "indice": "[é] s’écrit ez ici.",
+      "explication": "Nez s’écrit avec ez.",
+      "ecoute": {
+        "texte": "le nez",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "la tempête",
+        "la tampête",
+        "la tenpête"
+      ],
+      "reponse": "la tempête",
+      "indice": "Devant p, on écrit em.",
+      "explication": "Tempête : em devant p.",
+      "ecoute": {
+        "texte": "la tempête",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute Octave. Quel mot est bien écrit ?",
+      "options": [
+        "le soleil",
+        "le solèil",
+        "le solei"
+      ],
+      "reponse": "le soleil",
+      "indice": "[èy] s’écrit eil.",
+      "explication": "Soleil finit par eil.",
+      "ecoute": {
+        "texte": "le soleil",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle phrase est bien écrite ?",
+      "options": [
+        "Il fait beau ce matin.",
+        "Il fait bo ce matin.",
+        "Il fait bau ce matin."
+      ],
+      "reponse": "Il fait beau ce matin.",
+      "indice": "Beau s’écrit avec eau.",
+      "explication": "Il fait beau ce matin.",
+      "ecoute": {
+        "texte": "Il fait beau ce matin.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle phrase est bien écrite ?",
+      "options": [
+        "Vous chantez fort.",
+        "Vous chanter fort.",
+        "Vous chanté fort."
+      ],
+      "reponse": "Vous chantez fort.",
+      "indice": "Avec vous, le verbe finit par ez.",
+      "explication": "Vous chantez : terminaison ez.",
+      "ecoute": {
+        "texte": "Vous chantez fort.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01-009",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute Octave. Quelle phrase est bien écrite ?",
+      "options": [
+        "Le maçon construit un mur.",
+        "Le macon construit un mur.",
+        "Le masson construit un mur."
+      ],
+      "reponse": "Le maçon construit un mur.",
+      "indice": "ç devant o.",
+      "explication": "Maçon : ç devant o.",
+      "ecoute": {
+        "texte": "Le maçon construit un mur.",
+        "langue": "fr-FR"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

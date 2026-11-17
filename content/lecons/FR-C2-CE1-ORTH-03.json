@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE1-ORTH-03",
+  "exemple": "Le **c** de « citron » fait [s]. Le **c** de « carotte » fait [k].",
+  "regle": "Devant **e, i, y**, c fait [s] et g fait [j]. Devant **a, o, u**, j’écris **ç** pour [s]. J’écris **ge** pour [j]. Entre deux voyelles, **s** fait [z] et **ss** fait [s].",
+  "piege": "Garçon s’écrit avec ç : sans cédille, on lirait [k].",
+  "essai": {
+    "consigne": "Comment écrit-on le mot ?",
+    "options": [
+      "un glaçon",
+      "un glacon",
+      "un glasson"
+    ],
+    "reponse": "un glaçon",
+    "explication": "Devant o, on met une cédille pour faire [s]."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

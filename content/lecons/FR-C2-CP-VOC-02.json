@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CP-VOC-02",
+  "exemple": "« Arbre » est avant « bateau » dans le dictionnaire.",
+  "regle": "L’**alphabet** a 26 lettres, de a à z. Pour ranger des mots, je regarde **la première lettre**.",
+  "piege": "Même première lettre ? Je regarde la deuxième lettre.",
+  "essai": {
+    "consigne": "Quelle lettre vient après d ?",
+    "options": [
+      "e",
+      "c",
+      "f"
+    ],
+    "reponse": "e",
+    "explication": "a, b, c, d, e : après d vient e."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

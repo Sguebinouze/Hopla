@@ -1,0 +1,19 @@
+{
+  "competence": "FR-C2-CE2-ECR-01",
+  "exemple": "« la fille mange des pommes » → « La fille mange des pommes. »",
+  "regle": "Je relis **une phrase à la fois**. Je vérifie la **majuscule** et le **point**. Je vérifie les **accords** et les mots oubliés.",
+  "piege": "Le verbe s’accorde avec le sujet, même s’il est loin.",
+  "essai": {
+    "consigne": "Où est l’erreur : « Les enfant jouent. » ?",
+    "options": [
+      "enfant",
+      "Les",
+      "jouent"
+    ],
+    "reponse": "enfant",
+    "explication": "Les enfants : il faut un s."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

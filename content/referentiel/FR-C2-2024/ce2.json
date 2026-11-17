@@ -178,6 +178,156 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-LECT-01",
+      "titre": "Récit, documentaire, texte qui explique",
+      "domaine": "Lecture",
+      "theme": "Comprendre un texte",
+      "attendu": "Différencier un récit, un texte informatif et un texte qui dit comment faire.",
+      "exemple": "Une recette dit comment faire. Un récit raconte une histoire.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 7,
+        "extrait": "Différencier le type narratif du type informatif et prescriptif"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-LECT-02",
+      "titre": "Lire entre les lignes",
+      "domaine": "Lecture",
+      "theme": "Comprendre un texte",
+      "attendu": "Comprendre ce que le texte ne dit pas directement, grâce aux indices.",
+      "exemple": "« Il ouvre son parapluie. » On comprend qu’il pleut.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 8,
+        "extrait": "Comprendre ce qui est implicite (inférences) en s’appuyant sur des indices explicites"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-LECT-03",
+      "titre": "Qui est « il » ? Les reprises",
+      "domaine": "Lecture",
+      "theme": "Comprendre un texte",
+      "attendu": "Retrouver qui désigne un pronom ou un autre nom dans un texte.",
+      "exemple": "« Le lion rugit. Le roi des animaux a faim. » Le roi des animaux, c’est le lion.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 7,
+        "extrait": "Se repérer dans la chaine anaphorique"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-ECOU-01",
+      "titre": "Écouter un récit ou un documentaire",
+      "domaine": "Langage oral",
+      "theme": "Écouter pour comprendre",
+      "attendu": "Écouter un message plus long, relier les informations et en retenir l’essentiel.",
+      "exemple": "Octave lit une phrase sur les abeilles : on retient ce qu’elles fabriquent.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 15,
+        "extrait": "Repérer, mémoriser et relier entre elles plusieurs informations importantes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-ORTH-03",
+      "titre": "Les accents : é, è, ê",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Placer le bon accent sur le e : é, è, ê.",
+      "exemple": "un éléphant, une flèche, une fête.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 19,
+        "extrait": "Tenir compte des accents"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-ORTH-04",
+      "titre": "Écrire un mot grâce à sa famille",
+      "domaine": "Vocabulaire",
+      "theme": "Mémoriser l’orthographe des mots",
+      "attendu": "Utiliser le radical, le préfixe ou le suffixe pour écrire un mot.",
+      "exemple": "beau → beauté ; dent → dentiste.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 19,
+        "extrait": "S’appuyer sur des critères morphologiques (radical, préfixe et suffixe) et analogiques pour orthographier correctement les mots"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-DICT-01",
+      "titre": "Un son, plusieurs écritures",
+      "domaine": "Écriture",
+      "theme": "Encoder puis écrire sous dictée",
+      "attendu": "Choisir la bonne écriture d’un son : o/au/eau, é/er/ez, an/en, s/ss/c/ç.",
+      "exemple": "un bateau, un chapeau, une auto.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 12,
+        "extrait": "Il transcrit correctement les phonèmes pouvant s’écrire à l’aide de plusieurs graphèmes"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-ECR-01",
+      "titre": "Relire et corriger",
+      "domaine": "Écriture",
+      "theme": "Produire des écrits",
+      "attendu": "Relire une phrase et trouver l’erreur : majuscule, point, accord, mot oublié.",
+      "exemple": "« les chats dort. » → « Les chats dorment. »",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 12,
+        "extrait": "de relire son texte méthodiquement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-LECT-04",
+      "titre": "Poésie, théâtre, récit",
+      "domaine": "Lecture",
+      "theme": "Devenir lecteur",
+      "attendu": "Reconnaitre un poème, une pièce de théâtre et un récit d’aventure ou policier.",
+      "exemple": "Une pièce de théâtre est écrite pour être jouée.",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 8,
+        "extrait": "Il différencie les caractéristiques des genres et types les plus courants"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-LECT-05",
+      "titre": "Lettres muettes et liaisons",
+      "domaine": "Lecture",
+      "theme": "Identifier les mots de manière de plus en plus aisée",
+      "attendu": "Repérer les lettres muettes et faire les liaisons à l’oral.",
+      "exemple": "« les amis » se lit [lézami].",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 7,
+        "extrait": "Repérer les lettres muettes et décoder les mots inconnus"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }
