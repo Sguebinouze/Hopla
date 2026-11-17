@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-OBJ-02",
+  "exemple": "En classe, on utilise des piles. On ne touche jamais au courant de la prise.",
+  "regle": "Le courant de la **prise** est **dangereux**. Je ne mets **rien** dans une prise. Je ne touche pas un appareil avec des **mains mouillées**. Une **pile** plate est sans danger pour les expériences.",
+  "piege": "L’eau conduit l’électricité.",
+  "essai": {
+    "consigne": "Avec quoi fait-on les expériences en classe ?",
+    "options": [
+      "une pile",
+      "la prise",
+      "un câble électrique"
+    ],
+    "reponse": "une pile",
+    "explication": "La pile est sans danger."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE1-TPS-03",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-TPS-03-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qui est le plus âgé ?",
+      "options": [
+        "mon grand-père",
+        "mon père",
+        "mon frère"
+      ],
+      "reponse": "mon grand-père",
+      "indice": "La plus vieille génération.",
+      "explication": "Le grand-père est le plus âgé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le frère de mon père est…",
+      "options": [
+        "mon oncle",
+        "mon cousin",
+        "mon grand-père"
+      ],
+      "reponse": "mon oncle",
+      "indice": "Même génération que papa.",
+      "explication": "C’est mon oncle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le fils de mon oncle est…",
+      "options": [
+        "mon cousin",
+        "mon frère",
+        "mon neveu"
+      ],
+      "reponse": "mon cousin",
+      "indice": "Ma génération.",
+      "explication": "C’est mon cousin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Combien de générations : moi, mes parents, mes grands-parents ?",
+      "options": [
+        "trois",
+        "deux",
+        "quatre"
+      ],
+      "reponse": "trois",
+      "indice": "Compte les niveaux.",
+      "explication": "Trois générations.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un arbre généalogique, où sont les plus anciens ?",
+      "options": [
+        "en haut",
+        "en bas",
+        "au milieu"
+      ],
+      "reponse": "en haut",
+      "indice": "Les racines de la famille.",
+      "explication": "Les ancêtres sont en haut.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Les parents de mes grands-parents sont…",
+      "options": [
+        "mes arrière-grands-parents",
+        "mes oncles",
+        "mes parents"
+      ],
+      "reponse": "mes arrière-grands-parents",
+      "indice": "Arrière.",
+      "explication": "Mes arrière-grands-parents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Mamie avait 10 ans en 1965. Quand est-elle née ?",
+      "options": [
+        "en 1955",
+        "en 1975",
+        "en 1965"
+      ],
+      "reponse": "en 1955",
+      "indice": "1965 − 10.",
+      "explication": "1965 − 10 = 1955.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-TPS-03-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Qui est de ma génération ?",
+      "options": [
+        "ma cousine",
+        "ma tante",
+        "ma grand-mère"
+      ],
+      "reponse": "ma cousine",
+      "indice": "Née vers mon âge.",
+      "explication": "Ma cousine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

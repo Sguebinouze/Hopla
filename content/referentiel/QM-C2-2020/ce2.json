@@ -151,6 +151,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "QM-C2-CE2-CART-01",
+      "titre": "Lire une carte",
+      "domaine": "Questionner l’espace et le temps",
+      "theme": "Situer un lieu sur une carte ou un globe",
+      "attendu": "Repérer le titre, la légende, l’échelle et l’orientation d’une carte.",
+      "exemple": "La flèche du nord montre le haut de la carte.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 79,
+        "extrait": "Éléments constitutifs d’une carte : titre, échelle"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "QM-C2-CE2-HYG-01",
+      "titre": "Bouger pour sa santé",
+      "domaine": "Questionner le monde du vivant, de la matière et des objets",
+      "theme": "Comment reconnaitre le monde vivant ?",
+      "attendu": "Connaitre les effets positifs de l’activité physique et l’importance du repos.",
+      "exemple": "Après une course, mon cœur bat plus vite.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 77,
+        "extrait": "Effets positifs d’une pratique physique"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

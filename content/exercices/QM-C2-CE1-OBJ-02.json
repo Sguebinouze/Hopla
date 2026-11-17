@@ -1,0 +1,140 @@
+{
+  "competence": "QM-C2-CE1-OBJ-02",
+  "exercices": [
+    {
+      "id": "QM-C2-CE1-OBJ-02-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Peut-on mettre un objet dans une prise ?",
+      "options": [
+        "non",
+        "oui"
+      ],
+      "reponse": "non",
+      "indice": "C’est dangereux.",
+      "explication": "Jamais rien dans une prise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avec quelles mains touche-t-on un appareil électrique ?",
+      "options": [
+        "des mains sèches",
+        "des mains mouillées",
+        "des mains savonneuses"
+      ],
+      "reponse": "des mains sèches",
+      "indice": "L’eau conduit le courant.",
+      "explication": "Des mains bien sèches.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel objet est sans danger pour une expérience ?",
+      "options": [
+        "une pile plate",
+        "une prise",
+        "un fil de la maison"
+      ],
+      "reponse": "une pile plate",
+      "indice": "En classe.",
+      "explication": "La pile plate.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un fil électrique est abimé. Que fais-tu ?",
+      "options": [
+        "Je préviens un adulte.",
+        "Je le touche.",
+        "Je le répare seul."
+      ],
+      "reponse": "Je préviens un adulte.",
+      "indice": "Danger.",
+      "explication": "Un adulte doit s’en occuper.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi ne pas utiliser un sèche-cheveux dans le bain ?",
+      "options": [
+        "l’eau conduit l’électricité",
+        "il fait froid",
+        "il fait du bruit"
+      ],
+      "reponse": "l’eau conduit l’électricité",
+      "indice": "Eau et courant.",
+      "explication": "Risque d’électrocution.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que signifie ce symbole : un éclair dans un triangle jaune ?",
+      "options": [
+        "danger électrique",
+        "orage",
+        "sortie"
+      ],
+      "reponse": "danger électrique",
+      "indice": "Éclair.",
+      "explication": "Danger électrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne pas grimper sur un pylône électrique ?",
+      "options": [
+        "risque d’électrocution",
+        "il est trop haut seulement",
+        "c’est privé"
+      ],
+      "reponse": "risque d’électrocution",
+      "indice": "Haute tension.",
+      "explication": "Les lignes sont mortelles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE1-OBJ-02-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que faire de piles usagées ?",
+      "options": [
+        "les rapporter au bac de collecte",
+        "les jeter dans la nature",
+        "les ouvrir"
+      ],
+      "reponse": "les rapporter au bac de collecte",
+      "indice": "Elles polluent.",
+      "explication": "On les recycle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

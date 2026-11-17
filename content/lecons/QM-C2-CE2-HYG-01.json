@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE2-HYG-01",
+  "exemple": "Après la récréation, Nina a chaud. Son cœur bat vite.",
+  "regle": "Bouger renforce le **cœur** et les **muscles**. Pendant l’effort, je **respire** plus vite. Après, je me **repose** et je **bois** de l’eau. Il faut une heure d’activité par jour.",
+  "piege": "Le repos fait aussi partie d’une bonne hygiène de vie.",
+  "essai": {
+    "consigne": "Que fait le cœur pendant un effort ?",
+    "options": [
+      "Il bat plus vite.",
+      "Il s’arrête.",
+      "Il bat plus lentement."
+    ],
+    "reponse": "Il bat plus vite.",
+    "explication": "Les muscles ont besoin de plus de sang."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "QM-C2-CE1-TPS-03",
+  "exemple": "Sur l’arbre de Léo, ses grands-parents sont en haut. Léo est en bas.",
+  "regle": "Une **génération** regroupe les personnes nées à peu près en même temps. Les **grands-parents** sont les parents de mes parents. Un **arbre généalogique** montre les générations d’une famille.",
+  "piege": "Mon cousin est de ma génération, mon oncle non.",
+  "essai": {
+    "consigne": "Qui sont les parents de ma mère ?",
+    "options": [
+      "mes grands-parents",
+      "mes oncles",
+      "mes cousins"
+    ],
+    "reponse": "mes grands-parents",
+    "explication": "Ce sont mes grands-parents."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

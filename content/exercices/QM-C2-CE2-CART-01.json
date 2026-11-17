@@ -1,0 +1,141 @@
+{
+  "competence": "QM-C2-CE2-CART-01",
+  "exercices": [
+    {
+      "id": "QM-C2-CE2-CART-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’indique le titre d’une carte ?",
+      "options": [
+        "ce qu’elle montre",
+        "les distances",
+        "le nord"
+      ],
+      "reponse": "ce qu’elle montre",
+      "indice": "Il est en haut.",
+      "explication": "Le sujet de la carte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel élément indique le nord ?",
+      "options": [
+        "la rose des vents",
+        "la légende",
+        "le titre"
+      ],
+      "reponse": "la rose des vents",
+      "indice": "N, S, E, O.",
+      "explication": "La rose des vents.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur une carte, de quelle couleur est souvent la mer ?",
+      "options": [
+        "bleu",
+        "rouge",
+        "jaune"
+      ],
+      "reponse": "bleu",
+      "indice": "L’eau.",
+      "explication": "La mer est en bleu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel élément permet de calculer une distance ?",
+      "options": [
+        "l’échelle",
+        "la légende",
+        "le titre"
+      ],
+      "reponse": "l’échelle",
+      "indice": "1 cm = …",
+      "explication": "L’échelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quels sont les quatre points cardinaux ?",
+      "options": [
+        "nord, sud, est, ouest",
+        "haut, bas, gauche, droite",
+        "devant, derrière, côté, centre"
+      ],
+      "reponse": "nord, sud, est, ouest",
+      "indice": "Rose des vents.",
+      "explication": "Nord, sud, est, ouest.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le soleil se lève à…",
+      "options": [
+        "l’est",
+        "l’ouest",
+        "au nord"
+      ],
+      "reponse": "l’est",
+      "indice": "Le matin.",
+      "explication": "À l’est.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Échelle : 1 cm = 1 km. Deux villages sont à 3 cm. Distance réelle ?",
+      "options": [
+        "3 km",
+        "1 km",
+        "30 km"
+      ],
+      "reponse": "3 km",
+      "indice": "3 × 1 km.",
+      "explication": "3 km.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "QM-C2-CE2-CART-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Marseille est au sud de la France. Lille est…",
+      "options": [
+        "au nord",
+        "au sud",
+        "à l’est"
+      ],
+      "reponse": "au nord",
+      "indice": "Près de la Belgique.",
+      "explication": "Lille est au nord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
