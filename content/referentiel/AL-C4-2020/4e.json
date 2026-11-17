@@ -91,6 +91,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-REFL-01",
+      "titre": "Les verbes pronominaux",
+      "domaine": "Grammaire",
+      "theme": "Nom et groupe nominal",
+      "attendu": "Conjuguer les verbes pronominaux avec le pronom réfléchi à l’accusatif (mich, dich, sich…).",
+      "exemple": "Ich wasche mich. Er zieht sich an.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Genre, pronoms personnels compléments et réfléchis"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "AL-C4-4E-FUT-01",
+      "titre": "Le futur avec werden",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Exprimer l’avenir avec le présent + indicateur de temps ou avec werden + infinitif.",
+      "exemple": "Morgen fahre ich nach Berlin. Ich werde Arzt werden.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

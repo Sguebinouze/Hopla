@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-3E-REL-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-REL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Das Kind, … spielt, ist mein Bruder. »",
+      "options": [
+        "das",
+        "der",
+        "die"
+      ],
+      "reponse": "das",
+      "indice": "das Kind.",
+      "explication": "Das.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Der Hund, … bellt, heißt Rex. »",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "reponse": "der",
+      "indice": "der Hund.",
+      "explication": "Der.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où se place le verbe dans la relative ?",
+      "options": [
+        "à la fin",
+        "en 2e position",
+        "au début"
+      ],
+      "reponse": "à la fin",
+      "indice": "Subordonnée.",
+      "explication": "À la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Das ist der Film, der mir gefällt.",
+        "Das ist der Film, der gefällt mir.",
+        "Das ist der Film, gefällt der mir."
+      ],
+      "reponse": "Das ist der Film, der mir gefällt.",
+      "indice": "Verbe à la fin.",
+      "explication": "Gefällt à la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Die Schüler, … Deutsch lernen, fahren nach Köln. »",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "reponse": "die",
+      "indice": "Pluriel.",
+      "explication": "Die.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qui habite à Berlin ?",
+      "options": [
+        "l’homme",
+        "la femme",
+        "l’enfant"
+      ],
+      "reponse": "l’homme",
+      "indice": "der Mann.",
+      "explication": "« Der Mann, der in Berlin wohnt. »",
+      "ecoute": {
+        "texte": "Das ist der Mann, der in Berlin wohnt.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Der Lehrer, … ich gestern gesehen habe, ist nett. »",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "reponse": "den",
+      "indice": "Accusatif masculin.",
+      "explication": "Den (complément d’objet).",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-REL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Das ist das Haus, in … ich wohne. »",
+      "options": [
+        "dem",
+        "das",
+        "den"
+      ],
+      "reponse": "dem",
+      "indice": "in + datif neutre.",
+      "explication": "In dem.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

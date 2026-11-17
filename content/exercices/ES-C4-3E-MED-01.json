@@ -1,0 +1,149 @@
+{
+  "competence": "ES-C4-3E-MED-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-MED-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « el medio ambiente » ?",
+      "options": [
+        "l’environnement",
+        "la moitié",
+        "le milieu de la ville"
+      ],
+      "reponse": "l’environnement",
+      "indice": "Écologie.",
+      "explication": "L’environnement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « la basura » ?",
+      "options": [
+        "les déchets",
+        "la base",
+        "le bus"
+      ],
+      "reponse": "les déchets",
+      "indice": "La poubelle.",
+      "explication": "Les déchets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « ahorrar agua » ?",
+      "options": [
+        "économiser l’eau",
+        "boire de l’eau",
+        "chauffer l’eau"
+      ],
+      "reponse": "économiser l’eau",
+      "indice": "ahorrar.",
+      "explication": "Économiser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « la sequía » ?",
+      "options": [
+        "la sécheresse",
+        "la mer",
+        "la sécurité"
+      ],
+      "reponse": "la sécheresse",
+      "indice": "Seco : sec.",
+      "explication": "La sécheresse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que faut-il faire ?",
+      "options": [
+        "éteindre la lumière",
+        "ouvrir la fenêtre",
+        "acheter un ordinateur"
+      ],
+      "reponse": "éteindre la lumière",
+      "indice": "apagar la luz.",
+      "explication": "« Hay que apagar la luz. »",
+      "ecoute": {
+        "texte": "Hay que apagar la luz para ahorrar energía.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « la pollution » ?",
+      "options": [
+        "la contaminación",
+        "la polución verde",
+        "la limpieza"
+      ],
+      "reponse": "la contaminación",
+      "indice": "contaminar.",
+      "explication": "La contaminación.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment va-t-elle au collège ?",
+      "options": [
+        "en vélo",
+        "en voiture",
+        "en bus"
+      ],
+      "reponse": "en vélo",
+      "indice": "bici.",
+      "explication": "« Voy al colegio en bici. »",
+      "ecoute": {
+        "texte": "Para no contaminar, voy al colegio en bici.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-MED-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Debemos … los plásticos. » (recycler)",
+      "options": [
+        "reciclar",
+        "reciclamos",
+        "reciclado"
+      ],
+      "reponse": "reciclar",
+      "indice": "Deber + infinitif.",
+      "explication": "Reciclar.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

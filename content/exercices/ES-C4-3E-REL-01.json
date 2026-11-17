@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-3E-REL-01",
+  "exercices": [
+    {
+      "id": "ES-C4-3E-REL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « El chico … canta es mi primo. »",
+      "options": [
+        "que",
+        "donde",
+        "cuando"
+      ],
+      "reponse": "que",
+      "indice": "Une personne.",
+      "explication": "Que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « No voy a la playa … llueve. »",
+      "options": [
+        "porque",
+        "por qué",
+        "donde"
+      ],
+      "reponse": "porque",
+      "indice": "Cause.",
+      "explication": "Porque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « ¿ … no vienes? »",
+      "options": [
+        "Por qué",
+        "Porque",
+        "Donde"
+      ],
+      "reponse": "Por qué",
+      "indice": "Question.",
+      "explication": "¿Por qué?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Me gusta la casa … vive mi abuela. »",
+      "options": [
+        "donde",
+        "cuando",
+        "que"
+      ],
+      "reponse": "donde",
+      "indice": "Lieu.",
+      "explication": "Donde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … era pequeño, vivía en Madrid. »",
+      "options": [
+        "Cuando",
+        "Donde",
+        "Porque"
+      ],
+      "reponse": "Cuando",
+      "indice": "Temps.",
+      "explication": "Cuando.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Pourquoi reste-t-il à la maison ?",
+      "options": [
+        "il est malade",
+        "il pleut",
+        "il a des devoirs"
+      ],
+      "reponse": "il est malade",
+      "indice": "estoy enfermo.",
+      "explication": "« Me quedo en casa porque estoy enfermo. »",
+      "ecoute": {
+        "texte": "Me quedo en casa porque estoy enfermo.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Es el libro … más me gusta. »",
+      "options": [
+        "que",
+        "donde",
+        "cuando"
+      ],
+      "reponse": "que",
+      "indice": "Une chose.",
+      "explication": "Que.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-3E-REL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Traduis : « Le pays où je voudrais vivre. »",
+      "options": [
+        "El país donde me gustaría vivir.",
+        "El país que me gustaría vivir.",
+        "El país cuando me gustaría vivir."
+      ],
+      "reponse": "El país donde me gustaría vivir.",
+      "indice": "Lieu.",
+      "explication": "Donde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

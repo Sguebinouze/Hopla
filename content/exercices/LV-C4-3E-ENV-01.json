@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C4-3E-ENV-01",
+  "exercices": [
+    {
+      "id": "LV-C4-3E-ENV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « waste » ?",
+      "options": [
+        "les déchets",
+        "l’eau",
+        "le vent"
+      ],
+      "reponse": "les déchets",
+      "indice": "Poubelle.",
+      "explication": "Les déchets.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « climate change » ?",
+      "options": [
+        "le changement climatique",
+        "la météo",
+        "le changement d’heure"
+      ],
+      "reponse": "le changement climatique",
+      "indice": "Climate.",
+      "explication": "Le changement climatique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « recycler » ?",
+      "options": [
+        "to recycle",
+        "to reuse",
+        "to throw"
+      ],
+      "reponse": "to recycle",
+      "indice": "Re + cycle.",
+      "explication": "To recycle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle énergie est renouvelable ?",
+      "options": [
+        "wind power",
+        "coal",
+        "oil"
+      ],
+      "reponse": "wind power",
+      "indice": "Le vent.",
+      "explication": "L’énergie éolienne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Quel conseil donne-t-elle ?",
+      "options": [
+        "prendre des douches courtes",
+        "prendre l’avion",
+        "acheter plus"
+      ],
+      "reponse": "prendre des douches courtes",
+      "indice": "shorter showers.",
+      "explication": "« We should take shorter showers. »",
+      "ecoute": {
+        "texte": "We should take shorter showers to save water.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « We … reduce plastic. » (devrions)",
+      "options": [
+        "should",
+        "shouldn’t",
+        "can’t"
+      ],
+      "reponse": "should",
+      "indice": "Conseil.",
+      "explication": "Should.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fait l’école ?",
+      "options": [
+        "elle a un conseil écologique",
+        "elle ferme",
+        "elle construit un parking"
+      ],
+      "reponse": "elle a un conseil écologique",
+      "indice": "eco-council.",
+      "explication": "« Our school has an eco-council. »",
+      "ecoute": {
+        "texte": "Our school has an eco-council that organises recycling.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C4-3E-ENV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « There is too … waste in the ocean. »",
+      "options": [
+        "much",
+        "many",
+        "few"
+      ],
+      "reponse": "much",
+      "indice": "Waste : indénombrable.",
+      "explication": "Too much waste.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

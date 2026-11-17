@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-PERF-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-PERF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Participe de « hablar » ?",
+      "options": [
+        "hablado",
+        "hablido",
+        "hablo"
+      ],
+      "reponse": "hablado",
+      "indice": "-ar → -ado.",
+      "explication": "Hablado.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Participe de « comer » ?",
+      "options": [
+        "comido",
+        "comado",
+        "comí"
+      ],
+      "reponse": "comido",
+      "indice": "-er → -ido.",
+      "explication": "Comido.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « ¿Tú … terminado? »",
+      "options": [
+        "has",
+        "he",
+        "ha"
+      ],
+      "reponse": "has",
+      "indice": "Tú.",
+      "explication": "Has terminado.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Participe de « hacer » ?",
+      "options": [
+        "hecho",
+        "hacido",
+        "hacho"
+      ],
+      "reponse": "hecho",
+      "indice": "Irrégulier.",
+      "explication": "Hecho.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’a-t-elle fait ce matin ?",
+      "options": [
+        "elle est allée au collège",
+        "elle a dormi",
+        "elle a cuisiné"
+      ],
+      "reponse": "elle est allée au collège",
+      "indice": "ido al colegio.",
+      "explication": "« He ido al colegio. »",
+      "ecoute": {
+        "texte": "Esta mañana he ido al colegio.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Participe de « ver » ?",
+      "options": [
+        "visto",
+        "vido",
+        "veído"
+      ],
+      "reponse": "visto",
+      "indice": "Irrégulier.",
+      "explication": "Visto.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Nosotros … escrito una carta. »",
+      "options": [
+        "hemos",
+        "han",
+        "habéis"
+      ],
+      "reponse": "hemos",
+      "indice": "Nosotros.",
+      "explication": "Hemos escrito.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PERF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Avec quel marqueur emploie-t-on le passé composé ?",
+      "options": [
+        "hoy",
+        "ayer",
+        "el año pasado"
+      ],
+      "reponse": "hoy",
+      "indice": "Lié au présent.",
+      "explication": "Hoy, esta mañana…",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

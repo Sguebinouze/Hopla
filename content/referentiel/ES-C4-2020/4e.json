@@ -91,6 +91,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-PRON-01",
+      "titre": "Les verbes pronominaux",
+      "domaine": "Grammaire",
+      "theme": "Nom et groupe nominal",
+      "attendu": "Conjuguer les verbes pronominaux (levantarse, llamarse) et placer le pronom réfléchi.",
+      "exemple": "Me levanto a las siete. ¿Cómo te llamas?",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Genre, pronoms personnels compléments et réfléchis"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "ES-C4-4E-PERF-01",
+      "titre": "Le passé composé",
+      "domaine": "Grammaire",
+      "theme": "Groupe verbal",
+      "attendu": "Former le passé composé (haber + participe en -ado / -ido) pour un passé récent.",
+      "exemple": "Hoy he comido paella. ¿Has visto la película?",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 45,
+        "extrait": "Expression du présent, du passé, de l’avenir"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

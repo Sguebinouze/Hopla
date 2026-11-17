@@ -1,0 +1,149 @@
+{
+  "competence": "AL-C4-3E-UMW-01",
+  "exercices": [
+    {
+      "id": "AL-C4-3E-UMW-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « die Umwelt » ?",
+      "options": [
+        "l’environnement",
+        "le monde",
+        "la ville"
+      ],
+      "reponse": "l’environnement",
+      "indice": "Um + Welt.",
+      "explication": "L’environnement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « das Fahrrad » ?",
+      "options": [
+        "le vélo",
+        "la voiture",
+        "le train"
+      ],
+      "reponse": "le vélo",
+      "indice": "Deux roues.",
+      "explication": "Le vélo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Energie sparen » ?",
+      "options": [
+        "économiser l’énergie",
+        "produire de l’énergie",
+        "acheter de l’énergie"
+      ],
+      "reponse": "économiser l’énergie",
+      "indice": "sparen.",
+      "explication": "Économiser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qu’est-ce que le Pfand ?",
+      "options": [
+        "une consigne sur les bouteilles",
+        "une amende",
+        "un parc"
+      ],
+      "reponse": "une consigne sur les bouteilles",
+      "indice": "On rapporte les bouteilles.",
+      "explication": "Une consigne remboursée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait-il pour l’environnement ?",
+      "options": [
+        "il prend le vélo",
+        "il prend l’avion",
+        "il prend la voiture"
+      ],
+      "reponse": "il prend le vélo",
+      "indice": "Fahrrad.",
+      "explication": "« Ich fahre mit dem Fahrrad zur Schule. »",
+      "ecoute": {
+        "texte": "Ich fahre mit dem Fahrrad zur Schule.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Man … Wasser sparen. »",
+      "options": [
+        "muss",
+        "musst",
+        "müssen"
+      ],
+      "reponse": "muss",
+      "indice": "man = il / on.",
+      "explication": "Man muss.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel geste propose-t-elle ?",
+      "options": [
+        "éteindre la lumière",
+        "acheter plus",
+        "jeter le plastique"
+      ],
+      "reponse": "éteindre la lumière",
+      "indice": "Licht ausmachen.",
+      "explication": "« Mach das Licht aus! »",
+      "ecoute": {
+        "texte": "Mach bitte das Licht aus, wir müssen Energie sparen.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-3E-UMW-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « les énergies renouvelables » ?",
+      "options": [
+        "erneuerbare Energien",
+        "alte Energien",
+        "große Energien"
+      ],
+      "reponse": "erneuerbare Energien",
+      "indice": "erneuern : renouveler.",
+      "explication": "Erneuerbare Energien.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

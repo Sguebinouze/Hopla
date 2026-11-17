@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-REFL-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-REFL-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Du wäschst … . »",
+      "options": [
+        "dich",
+        "mich",
+        "sich"
+      ],
+      "reponse": "dich",
+      "indice": "Du → ?",
+      "explication": "Dich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Er zieht … an. »",
+      "options": [
+        "sich",
+        "ihn",
+        "mich"
+      ],
+      "reponse": "sich",
+      "indice": "3e personne.",
+      "explication": "Sich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Ich interessiere mich für Musik » ?",
+      "options": [
+        "Je m’intéresse à la musique.",
+        "J’écoute de la musique.",
+        "Je fais de la musique."
+      ],
+      "reponse": "Je m’intéresse à la musique.",
+      "indice": "sich interessieren.",
+      "explication": "S’intéresser à.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir treffen … im Park. »",
+      "options": [
+        "uns",
+        "sich",
+        "euch"
+      ],
+      "reponse": "uns",
+      "indice": "Wir → ?",
+      "explication": "Uns.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Ihr beeilt … ! »",
+      "options": [
+        "euch",
+        "uns",
+        "sich"
+      ],
+      "reponse": "euch",
+      "indice": "Ihr → ?",
+      "explication": "Euch.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fait-il le matin ?",
+      "options": [
+        "il se lave et s’habille",
+        "il prend le bus",
+        "il mange"
+      ],
+      "reponse": "il se lave et s’habille",
+      "indice": "waschen, anziehen.",
+      "explication": "« Ich wasche mich und ziehe mich an. »",
+      "ecoute": {
+        "texte": "Ich wasche mich und ziehe mich an.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Die Kinder freuen … auf Weihnachten. »",
+      "options": [
+        "sich",
+        "uns",
+        "ihnen"
+      ],
+      "reponse": "sich",
+      "indice": "Die Kinder = sie.",
+      "explication": "Sich.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-REFL-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Beeil dich! » ?",
+      "options": [
+        "Dépêche-toi !",
+        "Repose-toi !",
+        "Lave-toi !"
+      ],
+      "reponse": "Dépêche-toi !",
+      "indice": "sich beeilen.",
+      "explication": "Sich beeilen : se dépêcher.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

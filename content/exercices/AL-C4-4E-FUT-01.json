@@ -1,0 +1,145 @@
+{
+  "competence": "AL-C4-4E-FUT-01",
+  "exercices": [
+    {
+      "id": "AL-C4-4E-FUT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ich … nach Spanien fahren. »",
+      "options": [
+        "werde",
+        "wird",
+        "werdet"
+      ],
+      "reponse": "werde",
+      "indice": "Ich.",
+      "explication": "Ich werde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Du … das schaffen! »",
+      "options": [
+        "wirst",
+        "werde",
+        "wird"
+      ],
+      "reponse": "wirst",
+      "indice": "Du.",
+      "explication": "Du wirst.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « morgen » ?",
+      "options": [
+        "demain",
+        "hier",
+        "ce matin"
+      ],
+      "reponse": "demain",
+      "indice": "Le jour suivant.",
+      "explication": "Morgen : demain.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où se place l’infinitif au futur ?",
+      "options": [
+        "à la fin",
+        "en 2e position",
+        "au début"
+      ],
+      "reponse": "à la fin",
+      "indice": "Comme avec les modaux.",
+      "explication": "À la fin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Que fera-t-elle l’an prochain ?",
+      "options": [
+        "étudier en Allemagne",
+        "travailler en France",
+        "voyager en Italie"
+      ],
+      "reponse": "étudier en Allemagne",
+      "indice": "studieren.",
+      "explication": "« Ich werde in Deutschland studieren. »",
+      "ecoute": {
+        "texte": "Nächstes Jahr werde ich in Deutschland studieren.",
+        "langue": "de-DE"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Wir … im Sommer ans Meer fahren. »",
+      "options": [
+        "werden",
+        "wird",
+        "werdet"
+      ],
+      "reponse": "werden",
+      "indice": "Wir.",
+      "explication": "Wir werden.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que veut dire « Ich werde Ingenieur » ?",
+      "options": [
+        "Je deviens ingénieur.",
+        "Je serai ingénieur demain.",
+        "J’étais ingénieur."
+      ],
+      "reponse": "Je deviens ingénieur.",
+      "indice": "Werden seul.",
+      "explication": "Werden : devenir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "AL-C4-4E-FUT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle phrase exprime l’avenir sans werden ?",
+      "options": [
+        "Morgen spiele ich Tennis.",
+        "Gestern spielte ich Tennis.",
+        "Ich habe Tennis gespielt."
+      ],
+      "reponse": "Morgen spiele ich Tennis.",
+      "indice": "Présent + morgen.",
+      "explication": "Présent + indicateur futur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "ES-C4-4E-PRON-01",
+  "exercices": [
+    {
+      "id": "ES-C4-4E-PRON-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « ¿Cómo … llamas? »",
+      "options": [
+        "te",
+        "me",
+        "se"
+      ],
+      "reponse": "te",
+      "indice": "Tú.",
+      "explication": "Te llamas.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « Ella … ducha por la mañana. »",
+      "options": [
+        "se",
+        "me",
+        "te"
+      ],
+      "reponse": "se",
+      "indice": "3e personne.",
+      "explication": "Se ducha.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « me acuesto » ?",
+      "options": [
+        "je me couche",
+        "je me lève",
+        "je me lave"
+      ],
+      "reponse": "je me couche",
+      "indice": "acostarse.",
+      "explication": "Je me couche.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Nosotros … vestimos. »",
+      "options": [
+        "nos",
+        "os",
+        "se"
+      ],
+      "reponse": "nos",
+      "indice": "Nosotros.",
+      "explication": "Nos vestimos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. À quelle heure se lève-t-elle ?",
+      "options": [
+        "à sept heures",
+        "à huit heures",
+        "à six heures"
+      ],
+      "reponse": "à sept heures",
+      "indice": "siete.",
+      "explication": "« Me levanto a las siete. »",
+      "ecoute": {
+        "texte": "Me levanto a las siete.",
+        "langue": "es-ES"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Impératif de « levantarse » (tú) ?",
+      "options": [
+        "levántate",
+        "te levanta",
+        "levantas"
+      ],
+      "reponse": "levántate",
+      "indice": "Pronom soudé.",
+      "explication": "¡Levántate!",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Vosotros … divertís mucho. »",
+      "options": [
+        "os",
+        "nos",
+        "se"
+      ],
+      "reponse": "os",
+      "indice": "Vosotros.",
+      "explication": "Os divertís.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "ES-C4-4E-PRON-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Complète : « Voy a … » (ducharse, yo)",
+      "options": [
+        "ducharme",
+        "me ducho",
+        "ducharse"
+      ],
+      "reponse": "ducharme",
+      "indice": "Infinitif + pronom soudé.",
+      "explication": "Voy a ducharme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
