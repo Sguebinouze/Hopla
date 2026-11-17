@@ -151,6 +151,36 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-SON-01",
+      "titre": "Le son se propage",
+      "domaine": "Des signaux pour observer et communiquer",
+      "theme": "Signaux sonores",
+      "attendu": "Décrire les conditions de propagation du son, sa vitesse dans l’air et les sons audibles ; connaitre les risques auditifs.",
+      "exemple": "On voit l’éclair avant d’entendre le tonnerre.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 104,
+        "extrait": "Décrire les conditions de propagation d’un son"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-4E-SECU-01",
+      "titre": "Électricité et sécurité",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "Réaliser des circuits électriques simples et exploiter les lois de l’électricité",
+      "attendu": "Relier les lois de l’électricité aux règles de sécurité : court-circuit, surintensité, fusible, disjoncteur, prise de terre.",
+      "exemple": "Une multiprise surchargée chauffe : l’intensité est trop grande.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 103,
+        "extrait": "Mettre en relation les lois de l’électricité et les règles de sécurité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-5E-PHYS-01",
+  "exercices": [
+    {
+      "id": "PC-C4-5E-PHYS-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La glace fond. C’est…",
+      "options": [
+        "une transformation physique",
+        "une transformation chimique",
+        "une combustion"
+      ],
+      "reponse": "une transformation physique",
+      "indice": "Toujours de l’eau.",
+      "explication": "Changement d’état.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une bougie brûle. C’est…",
+      "options": [
+        "une transformation chimique",
+        "une transformation physique",
+        "une dissolution"
+      ],
+      "reponse": "une transformation chimique",
+      "indice": "Nouveaux produits.",
+      "explication": "Combustion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le sel dissous dans l’eau, c’est…",
+      "options": [
+        "une transformation physique",
+        "une transformation chimique",
+        "une combustion"
+      ],
+      "reponse": "une transformation physique",
+      "indice": "On peut récupérer le sel.",
+      "explication": "Dissolution.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel indice signale une transformation chimique ?",
+      "options": [
+        "un gaz nouveau se dégage",
+        "l’objet change de forme",
+        "le liquide est versé"
+      ],
+      "reponse": "un gaz nouveau se dégage",
+      "indice": "Nouvelle espèce.",
+      "explication": "Un dégagement gazeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’eau bout à 100 °C. Que devient-elle ?",
+      "options": [
+        "de la vapeur d’eau",
+        "du dihydrogène",
+        "du dioxygène"
+      ],
+      "reponse": "de la vapeur d’eau",
+      "indice": "Changement d’état.",
+      "explication": "Toujours de l’eau, à l’état gazeux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le vinaigre versé sur du calcaire fait des bulles. C’est…",
+      "options": [
+        "une transformation chimique",
+        "une évaporation",
+        "une fusion"
+      ],
+      "reponse": "une transformation chimique",
+      "indice": "Gaz produit.",
+      "explication": "Du dioxyde de carbone apparaît.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la cuisson d’un œuf est-elle chimique ?",
+      "options": [
+        "de nouvelles espèces se forment et on ne revient pas en arrière",
+        "il change de température",
+        "il devient solide comme la glace"
+      ],
+      "reponse": "de nouvelles espèces se forment et on ne revient pas en arrière",
+      "indice": "Irréversible.",
+      "explication": "Les espèces sont transformées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-5E-PHYS-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Lors d’une fusion, la masse…",
+      "options": [
+        "se conserve",
+        "diminue",
+        "augmente"
+      ],
+      "reponse": "se conserve",
+      "indice": "Même matière.",
+      "explication": "La masse se conserve.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

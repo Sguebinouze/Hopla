@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-UNIT-01",
+  "exemple": "Un radiateur de 1 000 W qui fonctionne 1 heure consomme 1 kWh, soit 3,6 millions de joules.",
+  "regle": "L’unité d’énergie du système international est le **joule (J)**. Les factures d’électricité utilisent le **kilowattheure (kWh)** : l’énergie d’un appareil de **1 000 W** pendant **1 h**. **1 kWh = 3 600 000 J**. Les étiquettes alimentaires utilisent le **kilojoule** et la kilocalorie.",
+  "piege": "Le watt (W) mesure une puissance, pas une énergie.",
+  "essai": {
+    "consigne": "Combien de joules dans 1 kWh ?",
+    "options": [
+      "3 600 000 J",
+      "1 000 J",
+      "3 600 J"
+    ],
+    "reponse": "3 600 000 J",
+    "explication": "1 000 W × 3 600 s."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

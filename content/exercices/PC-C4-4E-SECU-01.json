@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-4E-SECU-01",
+  "exercices": [
+    {
+      "id": "PC-C4-4E-SECU-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est la tension du secteur en France ?",
+      "options": [
+        "230 V",
+        "12 V",
+        "4,5 V"
+      ],
+      "reponse": "230 V",
+      "indice": "Prises de la maison.",
+      "explication": "230 V.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un court-circuit provoque…",
+      "options": [
+        "une intensité très grande",
+        "une intensité nulle",
+        "une tension nulle partout"
+      ],
+      "reponse": "une intensité très grande",
+      "indice": "Pas de résistance.",
+      "explication": "L’intensité devient très grande.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert la prise de terre ?",
+      "options": [
+        "protéger des chocs électriques",
+        "augmenter la tension",
+        "éclairer"
+      ],
+      "reponse": "protéger des chocs électriques",
+      "indice": "Fil vert et jaune.",
+      "explication": "Elle évacue les fuites de courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi trop d’appareils sur une multiprise est dangereux ?",
+      "options": [
+        "les intensités s’additionnent",
+        "la tension augmente",
+        "les appareils s’éteignent"
+      ],
+      "reponse": "les intensités s’additionnent",
+      "indice": "Dérivation.",
+      "explication": "Surintensité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que fait un fusible quand l’intensité est trop grande ?",
+      "options": [
+        "il fond et coupe le circuit",
+        "il augmente la tension",
+        "il s’allume"
+      ],
+      "reponse": "il fond et coupe le circuit",
+      "indice": "Fusion.",
+      "explication": "Il fond.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avant de changer une ampoule, il faut…",
+      "options": [
+        "couper le courant",
+        "mouiller ses mains",
+        "garder l’interrupteur allumé"
+      ],
+      "reponse": "couper le courant",
+      "indice": "Sécurité.",
+      "explication": "Couper le courant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ne jamais toucher un appareil électrique les mains mouillées ?",
+      "options": [
+        "l’eau favorise le passage du courant dans le corps",
+        "l’appareil rouille",
+        "l’eau coupe le courant"
+      ],
+      "reponse": "l’eau favorise le passage du courant dans le corps",
+      "indice": "Conduction.",
+      "explication": "Le risque d’électrisation augmente.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-4E-SECU-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un radiateur de 2 000 W et un four de 2 500 W sur une prise de 16 A (230 V). Intensité totale ?",
+      "options": [
+        "environ 19,6 A : trop",
+        "environ 10 A : sans risque",
+        "environ 2 A"
+      ],
+      "reponse": "environ 19,6 A : trop",
+      "indice": "I = P / U, puis additionner.",
+      "explication": "4 500 / 230 ≈ 19,6 A > 16 A.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

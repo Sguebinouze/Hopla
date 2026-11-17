@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-ELEM-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-ELEM-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "De quoi est surtout fait le Soleil ?",
+      "options": [
+        "d’hydrogène et d’hélium",
+        "de fer",
+        "de roches"
+      ],
+      "reponse": "d’hydrogène et d’hélium",
+      "indice": "Une étoile.",
+      "explication": "Hydrogène et hélium.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où sont fabriqués les éléments lourds comme le fer ?",
+      "options": [
+        "dans les étoiles",
+        "dans les océans",
+        "dans les volcans"
+      ],
+      "reponse": "dans les étoiles",
+      "indice": "Fusion nucléaire.",
+      "explication": "Dans les étoiles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La matière des étoiles est-elle différente de celle de la Terre ?",
+      "options": [
+        "non, ce sont les mêmes éléments",
+        "oui, totalement",
+        "on ne sait pas"
+      ],
+      "reponse": "non, ce sont les mêmes éléments",
+      "indice": "Mêmes lois.",
+      "explication": "Mêmes éléments.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel élément est le plus abondant dans la croûte terrestre ?",
+      "options": [
+        "l’oxygène",
+        "l’or",
+        "l’hélium"
+      ],
+      "reponse": "l’oxygène",
+      "indice": "Dans les roches et l’eau.",
+      "explication": "L’oxygène.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi parle-t-on de « terres rares » ?",
+      "options": [
+        "ces éléments sont peu concentrés et difficiles à extraire",
+        "ce sont des planètes",
+        "elles viennent de la Lune"
+      ],
+      "reponse": "ces éléments sont peu concentrés et difficiles à extraire",
+      "indice": "Ressources.",
+      "explication": "Peu abondants en gisements.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment connaît-on la composition d’une étoile lointaine ?",
+      "options": [
+        "en analysant sa lumière",
+        "en y envoyant une sonde",
+        "en la pesant"
+      ],
+      "reponse": "en analysant sa lumière",
+      "indice": "Spectre.",
+      "explication": "Par l’analyse de sa lumière.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel élément, présent dans les téléphones, vient de ressources limitées ?",
+      "options": [
+        "les terres rares",
+        "l’hydrogène",
+        "le diazote"
+      ],
+      "reponse": "les terres rares",
+      "indice": "Électronique.",
+      "explication": "Les terres rares.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "« Nous sommes des poussières d’étoiles ». Pourquoi ?",
+      "options": [
+        "nos atomes lourds ont été formés dans des étoiles",
+        "nous brillons la nuit",
+        "nous venons du Soleil directement"
+      ],
+      "reponse": "nos atomes lourds ont été formés dans des étoiles",
+      "indice": "Origine des éléments.",
+      "explication": "Carbone, oxygène, fer viennent des étoiles.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

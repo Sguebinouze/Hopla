@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-SON-01",
+  "exemple": "Pendant un orage, on compte 3 secondes entre l’éclair et le tonnerre : l’orage est à environ 1 km.",
+  "regle": "Le son est une **vibration** qui a besoin d’un **milieu matériel** (air, eau, solide) : il ne se propage **pas dans le vide**. Dans l’air, sa vitesse est d’environ **340 m/s** ; elle est plus grande dans l’eau et les solides. L’oreille humaine entend de **20 Hz à 20 000 Hz**. Au-delà de **85 dB**, une exposition longue abîme l’audition.",
+  "piege": "La lumière va bien plus vite que le son : on voit l’éclair avant d’entendre le tonnerre.",
+  "essai": {
+    "consigne": "Le son se propage-t-il dans le vide ?",
+    "options": [
+      "non",
+      "oui",
+      "seulement la nuit"
+    ],
+    "reponse": "non",
+    "explication": "Il lui faut un milieu matériel."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

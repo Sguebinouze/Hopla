@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-4E-SECU-01",
+  "exemple": "On branche radiateur, bouilloire et four sur une seule multiprise : les fils chauffent.",
+  "regle": "Dans des branchements en **dérivation**, les intensités **s’additionnent** : trop d’appareils sur une prise provoquent une **surintensité** qui fait chauffer les fils. Un **court-circuit** relie directement les bornes : l’intensité devient très grande. Le **fusible** et le **disjoncteur** coupent le courant. La **prise de terre** protège des chocs électriques.",
+  "piege": "Le courant du secteur (230 V) est dangereux pour le corps humain.",
+  "essai": {
+    "consigne": "Quel appareil coupe le courant en cas de surintensité ?",
+    "options": [
+      "le disjoncteur",
+      "l’interrupteur",
+      "la lampe"
+    ],
+    "reponse": "le disjoncteur",
+    "explication": "Il protège l’installation."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

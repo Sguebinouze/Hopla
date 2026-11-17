@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-3E-RAYO-01",
+  "exemple": "Une caméra thermique voit la chaleur d’une maison mal isolée : les fenêtres apparaissent en rouge.",
+  "regle": "Tout objet **émet un rayonnement** qui dépend de sa température (infrarouge pour les objets courants). Un objet qui **absorbe** un rayonnement **reçoit de l’énergie** et se réchauffe : c’est un **transfert par rayonnement**. La Terre reçoit le rayonnement du Soleil et émet un rayonnement infrarouge. Les **gaz à effet de serre** absorbent une partie de ce rayonnement terrestre, ce qui réchauffe l’atmosphère.",
+  "piege": "Un objet sombre absorbe plus de rayonnement qu’un objet clair.",
+  "essai": {
+    "consigne": "Comment l’énergie du Soleil arrive-t-elle sur Terre ?",
+    "options": [
+      "par rayonnement",
+      "par conduction",
+      "par le vent"
+    ],
+    "reponse": "par rayonnement",
+    "explication": "Elle traverse le vide spatial."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

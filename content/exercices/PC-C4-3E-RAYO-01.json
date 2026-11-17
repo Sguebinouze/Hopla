@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-RAYO-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-RAYO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une caméra thermique détecte…",
+      "options": [
+        "le rayonnement infrarouge",
+        "les sons",
+        "les ondes radio"
+      ],
+      "reponse": "le rayonnement infrarouge",
+      "indice": "Chaleur.",
+      "explication": "L’infrarouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un objet qui absorbe un rayonnement…",
+      "options": [
+        "se réchauffe",
+        "se refroidit",
+        "ne change pas"
+      ],
+      "reponse": "se réchauffe",
+      "indice": "Il reçoit de l’énergie.",
+      "explication": "Il se réchauffe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle couleur absorbe le plus le rayonnement solaire ?",
+      "options": [
+        "le noir",
+        "le blanc",
+        "l’argenté"
+      ],
+      "reponse": "le noir",
+      "indice": "Les vêtements d’été sont clairs.",
+      "explication": "Le noir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel gaz à effet de serre est produit par les combustions ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le diazote",
+        "le dioxygène"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "indice": "CO₂.",
+      "explication": "Le dioxyde de carbone.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que font les gaz à effet de serre ?",
+      "options": [
+        "ils absorbent une partie du rayonnement infrarouge terrestre",
+        "ils bloquent toute la lumière du Soleil",
+        "ils refroidissent la Terre"
+      ],
+      "reponse": "ils absorbent une partie du rayonnement infrarouge terrestre",
+      "indice": "Rayonnement de la Terre.",
+      "explication": "Ils le retiennent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le rayonnement peut-il traverser le vide ?",
+      "options": [
+        "oui",
+        "non",
+        "seulement la nuit"
+      ],
+      "reponse": "oui",
+      "indice": "Soleil → Terre.",
+      "explication": "Oui, contrairement au son.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un pare-soleil réfléchissant garde la voiture plus fraîche ?",
+      "options": [
+        "il renvoie le rayonnement au lieu de l’absorber",
+        "il produit du froid",
+        "il bloque l’air"
+      ],
+      "reponse": "il renvoie le rayonnement au lieu de l’absorber",
+      "indice": "Réflexion.",
+      "explication": "Moins d’énergie absorbée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Que montrent les fenêtres rouges sur une image thermique d’une maison ?",
+      "options": [
+        "des pertes d’énergie",
+        "une bonne isolation",
+        "un incendie"
+      ],
+      "reponse": "des pertes d’énergie",
+      "indice": "Chaud = rouge.",
+      "explication": "La chaleur s’échappe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

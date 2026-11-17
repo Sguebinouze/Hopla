@@ -1,0 +1,19 @@
+{
+  "competence": "PC-C4-5E-PHYS-01",
+  "exemple": "Le chocolat fond au soleil : c’est toujours du chocolat. Le gâteau cuit : la pâte devient une autre matière.",
+  "regle": "Dans une **transformation physique**, l’espèce chimique **reste la même** : changement d’état (fusion, vaporisation), dissolution, broyage. Dans une **transformation chimique**, des **réactifs disparaissent** et de **nouvelles espèces** (produits) **apparaissent** : combustion, cuisson, rouille. Indices : gaz dégagé, changement de couleur, chaleur, précipité.",
+  "piege": "Dissoudre du sucre est une transformation physique : on récupère le sucre en évaporant l’eau.",
+  "essai": {
+    "consigne": "Le fer qui rouille, c’est…",
+    "options": [
+      "une transformation chimique",
+      "une transformation physique",
+      "un mélange"
+    ],
+    "reponse": "une transformation chimique",
+    "explication": "La rouille est une nouvelle espèce."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

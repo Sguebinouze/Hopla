@@ -136,6 +136,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-RAYO-01",
+      "titre": "Rayonnement et effet de serre",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "L’énergie, ses transferts et ses conversions",
+      "attendu": "Associer l’émission et l’absorption d’un rayonnement à un transfert d’énergie, et expliquer le rôle des gaz à effet de serre.",
+      "exemple": "Une voiture sombre au soleil chauffe plus qu’une voiture blanche.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 103,
+        "extrait": "Associer l’émission et l’absorption d’un rayonnement à un transfert d’énergie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-ELEM-01",
+      "titre": "Les éléments dans l’Univers",
+      "domaine": "Organisation et transformations de la matière",
+      "theme": "Décrire l’organisation de la matière dans l’Univers",
+      "attendu": "Savoir que la matière est partout de même nature, que l’hydrogène et l’hélium dominent l’Univers et que les éléments lourds viennent des étoiles.",
+      "exemple": "Le fer de notre sang a été formé dans une étoile.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 100,
+        "extrait": "Les éléments sur Terre et dans l’Univers"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01",
+      "titre": "Unités d’énergie",
+      "domaine": "L’énergie et ses conversions",
+      "theme": "L’énergie, ses transferts et ses conversions",
+      "attendu": "Utiliser le joule et le kilowattheure, convertir de l’un à l’autre et comparer des ordres de grandeur.",
+      "exemple": "1 kWh = 3 600 000 J.",
+      "source": {
+        "id": "eduscol-cycle-4-2020",
+        "page": 103,
+        "extrait": "Unités d’énergie"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

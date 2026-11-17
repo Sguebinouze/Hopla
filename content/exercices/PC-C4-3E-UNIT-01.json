@@ -1,0 +1,141 @@
+{
+  "competence": "PC-C4-3E-UNIT-01",
+  "exercices": [
+    {
+      "id": "PC-C4-3E-UNIT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle est l’unité internationale d’énergie ?",
+      "options": [
+        "le joule",
+        "le watt",
+        "le volt"
+      ],
+      "reponse": "le joule",
+      "indice": "J.",
+      "explication": "Le joule.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle unité trouve-t-on sur une facture d’électricité ?",
+      "options": [
+        "le kWh",
+        "le volt",
+        "l’ampère"
+      ],
+      "reponse": "le kWh",
+      "indice": "Kilowattheure.",
+      "explication": "Le kWh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le watt mesure…",
+      "options": [
+        "une puissance",
+        "une énergie",
+        "une tension"
+      ],
+      "reponse": "une puissance",
+      "indice": "W.",
+      "explication": "Une puissance.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une lampe de 10 W allumée 100 h consomme…",
+      "options": [
+        "1 kWh",
+        "10 kWh",
+        "0,1 kWh"
+      ],
+      "reponse": "1 kWh",
+      "indice": "10 × 100 = 1 000 Wh.",
+      "explication": "1 000 Wh = 1 kWh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Convertis 2 kWh en joules.",
+      "options": [
+        "7 200 000 J",
+        "2 000 J",
+        "7 200 J"
+      ],
+      "reponse": "7 200 000 J",
+      "indice": "× 3 600 000.",
+      "explication": "2 × 3 600 000.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que mesure le kilojoule sur une étiquette alimentaire ?",
+      "options": [
+        "l’énergie apportée par l’aliment",
+        "sa masse",
+        "son prix"
+      ],
+      "reponse": "l’énergie apportée par l’aliment",
+      "indice": "Énergie.",
+      "explication": "L’énergie de l’aliment.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un four de 2 000 W fonctionne 30 min. Énergie ?",
+      "options": [
+        "1 kWh",
+        "2 kWh",
+        "60 kWh"
+      ],
+      "reponse": "1 kWh",
+      "indice": "2 kW × 0,5 h.",
+      "explication": "1 kWh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "PC-C4-3E-UNIT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "À 0,25 € le kWh, combien coûte 4 kWh ?",
+      "options": [
+        "1 €",
+        "4 €",
+        "0,25 €"
+      ],
+      "reponse": "1 €",
+      "indice": "4 × 0,25.",
+      "explication": "1 €.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}
