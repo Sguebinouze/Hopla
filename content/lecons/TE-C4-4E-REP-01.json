@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-REP-01",
+  "exemple": "Avant de percer une pièce, Inès met ses lunettes, attache ses cheveux et serre la pièce dans l’étau.",
+  "regle": "Les **équipements de protection individuelle** (EPI) protègent l’usager : **lunettes**, **gants** adaptés, **casque antibruit**. On **fixe** la pièce (étau, serre-joint), on **attache** les cheveux, on retire écharpes et bijoux. On utilise une machine seulement **après autorisation** et on connaît l’**arrêt d’urgence**.",
+  "piege": "Pas de gants près d’un outil qui tourne : ils peuvent être happés.",
+  "essai": {
+    "consigne": "Quel EPI protège les yeux ?",
+    "options": [
+      "les lunettes de protection",
+      "le casque antibruit",
+      "les gants"
+    ],
+    "reponse": "les lunettes de protection",
+    "explication": "Contre les copeaux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

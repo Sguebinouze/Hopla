@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-MAT-01",
+  "exemple": "Une casserole : un fond en métal qui conduit la chaleur, un manche en plastique qui ne brûle pas la main.",
+  "regle": "Familles de matériaux : **métalliques** (acier, aluminium, cuivre), **organiques** (bois, plastiques, papier), **céramiques** (verre, porcelaine), **composites** (fibre de carbone). Propriétés : **masse**, **résistance**, **conductivité électrique** et **thermique**, **recyclabilité**. Le choix dépend de la fonction.",
+  "piege": "Le cuivre conduit bien l’électricité : on l’utilise dans les câbles.",
+  "essai": {
+    "consigne": "Pourquoi le manche d’une casserole est-il en plastique ?",
+    "options": [
+      "il conduit mal la chaleur",
+      "il conduit bien l’électricité",
+      "il est plus lourd"
+    ],
+    "reponse": "il conduit mal la chaleur",
+    "explication": "C’est un isolant thermique."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

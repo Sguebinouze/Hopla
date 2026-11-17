@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-TEST-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-TEST-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "À quoi sert un protocole de tests ?",
+      "options": [
+        "vérifier qu’une solution respecte les exigences",
+        "dessiner la solution",
+        "acheter des pièces"
+      ],
+      "reponse": "vérifier qu’une solution respecte les exigences",
+      "indice": "Validation.",
+      "explication": "Vérifier les exigences.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une simulation permet de…",
+      "options": [
+        "tester sur ordinateur avant de fabriquer",
+        "fabriquer plus vite",
+        "peindre l’objet"
+      ],
+      "reponse": "tester sur ordinateur avant de fabriquer",
+      "indice": "Modèle numérique.",
+      "explication": "Tester virtuellement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un écart, c’est…",
+      "options": [
+        "la différence entre le résultat et l’exigence",
+        "une erreur de frappe",
+        "une pièce cassée"
+      ],
+      "reponse": "la différence entre le résultat et l’exigence",
+      "indice": "Différence.",
+      "explication": "Résultat − exigence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Exigence : 2 h d’autonomie. Mesure : 1 h 40. Écart ?",
+      "options": [
+        "20 min",
+        "40 min",
+        "1 h"
+      ],
+      "reponse": "20 min",
+      "indice": "2 h − 1 h 40.",
+      "explication": "20 minutes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi répéter un test ?",
+      "options": [
+        "tenir compte des erreurs de mesure",
+        "user le prototype",
+        "perdre du temps"
+      ],
+      "reponse": "tenir compte des erreurs de mesure",
+      "indice": "Précision.",
+      "explication": "Fiabiliser le résultat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le résultat respecte l’exigence. On dit que la solution est…",
+      "options": [
+        "conforme",
+        "défectueuse",
+        "abandonnée"
+      ],
+      "reponse": "conforme",
+      "indice": "Conforme au cahier des charges.",
+      "explication": "Conforme.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Le prototype met 12 s au lieu de moins de 10 s. Que faire ?",
+      "options": [
+        "chercher la cause et modifier la solution",
+        "changer l’exigence sans raison",
+        "livrer quand même"
+      ],
+      "reponse": "chercher la cause et modifier la solution",
+      "indice": "Amélioration.",
+      "explication": "Corriger puis retester.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-TEST-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle exigence peut-on tester avec une balance ?",
+      "options": [
+        "« masse inférieure à 500 g »",
+        "« couleur bleue »",
+        "« facile à utiliser »"
+      ],
+      "reponse": "« masse inférieure à 500 g »",
+      "indice": "Mesure.",
+      "explication": "La masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

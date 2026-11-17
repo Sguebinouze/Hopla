@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-DATA-01",
+  "exemple": "Une station météo du collège enregistre la température toutes les heures dans un fichier CSV.",
+  "regle": "Dans un **tableur**, une **ligne** = un enregistrement, une **colonne** = un descripteur. On peut **calculer** (=MOYENNE(B2:B25), =MAX), **trier** (ordre croissant ou décroissant) et **filtrer** (n’afficher que les lignes qui respectent une condition). Le format **CSV** stocke un tableau en texte, valeurs séparées par des virgules ou points-virgules.",
+  "piege": "Une formule de tableur commence toujours par le signe =.",
+  "essai": {
+    "consigne": "Quelle formule calcule la moyenne de B2 à B10 ?",
+    "options": [
+      "=MOYENNE(B2:B10)",
+      "MOYENNE B2-B10",
+      "=B2+B10"
+    ],
+    "reponse": "=MOYENNE(B2:B10)",
+    "explication": "Fonction MOYENNE et plage."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

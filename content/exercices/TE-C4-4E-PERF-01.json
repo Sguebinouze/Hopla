@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-PERF-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-PERF-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel appareil mesure un niveau sonore ?",
+      "options": [
+        "le sonomètre",
+        "le thermomètre",
+        "la balance"
+      ],
+      "reponse": "le sonomètre",
+      "indice": "Son.",
+      "explication": "Le sonomètre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’autonomie d’un appareil, c’est…",
+      "options": [
+        "sa durée de fonctionnement sans recharge",
+        "sa vitesse",
+        "sa masse"
+      ],
+      "reponse": "sa durée de fonctionnement sans recharge",
+      "indice": "Batterie.",
+      "explication": "La durée sans recharge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Pour mesurer une vitesse, il faut…",
+      "options": [
+        "une distance et une durée",
+        "une masse",
+        "une température"
+      ],
+      "reponse": "une distance et une durée",
+      "indice": "v = d / t.",
+      "explication": "Distance et durée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un robot parcourt 6 m en 4 s. Vitesse ?",
+      "options": [
+        "1,5 m/s",
+        "24 m/s",
+        "0,67 m/s"
+      ],
+      "reponse": "1,5 m/s",
+      "indice": "6 ÷ 4.",
+      "explication": "1,5 m/s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi faire plusieurs essais ?",
+      "options": [
+        "pour fiabiliser la mesure",
+        "pour user l’objet",
+        "ce n’est pas utile"
+      ],
+      "reponse": "pour fiabiliser la mesure",
+      "indice": "Erreurs de mesure.",
+      "explication": "Moyenne plus fiable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour comparer deux batteries, on doit…",
+      "options": [
+        "les tester dans les mêmes conditions",
+        "les tester sur des parcours différents",
+        "changer de robot"
+      ],
+      "reponse": "les tester dans les mêmes conditions",
+      "indice": "Un seul paramètre change.",
+      "explication": "Mêmes conditions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un appareil de 50 W fonctionne 2 h. Énergie consommée ?",
+      "options": [
+        "100 Wh",
+        "25 Wh",
+        "52 Wh"
+      ],
+      "reponse": "100 Wh",
+      "indice": "E = P × t.",
+      "explication": "50 × 2 = 100 Wh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-PERF-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel critère de performance compte pour un casque audio sans fil ?",
+      "options": [
+        "l’autonomie",
+        "la couleur de la boîte",
+        "le nom du vendeur"
+      ],
+      "reponse": "l’autonomie",
+      "indice": "Mesurable.",
+      "explication": "L’autonomie en heures.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

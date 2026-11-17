@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-MVT-01",
+  "exemple": "Sur un vélo, le grand plateau entraîne un petit pignon : la roue tourne plus vite que les pédales.",
+  "regle": "Une **transmission** garde le même type de mouvement (rotation → rotation) : **engrenages**, **poulies et courroie**, **pignons et chaîne**. Une **transformation** change le type de mouvement : **pignon-crémaillère** (rotation → translation). Une **grande roue** qui entraîne une **petite** fait tourner la petite **plus vite**.",
+  "piege": "Deux roues dentées en contact tournent en sens inverse ; avec une chaîne, elles tournent dans le même sens.",
+  "essai": {
+    "consigne": "Quel mécanisme transforme une rotation en translation ?",
+    "options": [
+      "le pignon-crémaillère",
+      "l’engrenage",
+      "la courroie"
+    ],
+    "reponse": "le pignon-crémaillère",
+    "explication": "La crémaillère avance en ligne droite."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

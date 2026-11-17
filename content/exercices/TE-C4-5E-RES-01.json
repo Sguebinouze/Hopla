@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-RES-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-RES-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une tablette connectée au réseau est…",
+      "options": [
+        "un terminal",
+        "un commutateur",
+        "un câble"
+      ],
+      "reponse": "un terminal",
+      "indice": "Point d’entrée.",
+      "explication": "Un terminal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le Wi-Fi est une liaison…",
+      "options": [
+        "sans fil",
+        "filaire",
+        "électrique"
+      ],
+      "reponse": "sans fil",
+      "indice": "Ondes radio.",
+      "explication": "Sans fil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel câble sert souvent dans un réseau local ?",
+      "options": [
+        "le câble Ethernet",
+        "le câble HDMI",
+        "le câble d’alimentation"
+      ],
+      "reponse": "le câble Ethernet",
+      "indice": "RJ45.",
+      "explication": "Ethernet.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi chaque terminal a-t-il une adresse ?",
+      "options": [
+        "pour que les données arrivent au bon destinataire",
+        "pour le reconnaître visuellement",
+        "pour aller plus vite"
+      ],
+      "reponse": "pour que les données arrivent au bon destinataire",
+      "indice": "Destinataire.",
+      "explication": "Identification.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel composant permet à un ordinateur de se connecter au réseau ?",
+      "options": [
+        "la carte réseau",
+        "la carte graphique",
+        "le clavier"
+      ],
+      "reponse": "la carte réseau",
+      "indice": "Interface réseau.",
+      "explication": "La carte réseau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel appareil relie le réseau local à Internet ?",
+      "options": [
+        "le routeur (la box)",
+        "le commutateur",
+        "la souris"
+      ],
+      "reponse": "le routeur (la box)",
+      "indice": "Entre réseaux.",
+      "explication": "Le routeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une imprimante n’imprime plus depuis un poste. Première vérification ?",
+      "options": [
+        "la liaison réseau et l’adresse de l’imprimante",
+        "la couleur de l’encre",
+        "le système d’exploitation du voisin"
+      ],
+      "reponse": "la liaison réseau et l’adresse de l’imprimante",
+      "indice": "Communication.",
+      "explication": "Liaison et adresse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-RES-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un serveur, dans un réseau, sert à…",
+      "options": [
+        "fournir des services ou stocker des fichiers",
+        "afficher les images",
+        "refroidir les ordinateurs"
+      ],
+      "reponse": "fournir des services ou stocker des fichiers",
+      "indice": "Services.",
+      "explication": "Il partage des ressources.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

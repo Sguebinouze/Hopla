@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-LOG-01",
+  "exemple": "Un éclairage de jardin : si quelqu’un passe ET qu’il fait nuit, la lampe s’allume.",
+  "regle": "Une **variable** stocke une valeur (nombre, mot ou booléen) qui peut changer. Dans une **condition**, **A ET B** est vrai si **les deux** sont vrais. **A OU B** est vrai si **au moins un** est vrai. **NON A** inverse la valeur. On combine ces opérateurs pour décrire le comportement voulu.",
+  "piege": "Avec ET, un seul « faux » suffit pour que tout soit faux.",
+  "essai": {
+    "consigne": "Présence = vrai, nuit = faux. « présence ET nuit » vaut…",
+    "options": [
+      "faux",
+      "vrai",
+      "impossible"
+    ],
+    "reponse": "faux",
+    "explication": "Il faut les deux vrais."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

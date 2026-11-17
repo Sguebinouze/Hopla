@@ -91,6 +91,66 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-3E-MAT-01",
+      "titre": "Choisir un matériau et un procédé",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Matériaux et procédés",
+      "attendu": "Justifier le choix d’un matériau et de son procédé de mise en forme selon les sollicitations, les contraintes techniques et environnementales.",
+      "exemple": "Une étagère en flexion : bois ou acier plié plutôt que plastique fin.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 13,
+        "extrait": "Les modes de sollicitation des matériaux (flexion, torsion)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-3E-DD-01",
+      "titre": "Réparabilité et étiquette énergie",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "Le choix d’un objet ou système technique dans un contexte de développement durable",
+      "attendu": "Évaluer un objet selon des critères identifiés (performance, coût, indice de réparabilité, indice énergétique) et argumenter un choix avec les trois piliers du développement durable.",
+      "exemple": "Deux lave-linge : 8,5/10 et classe A, ou 5/10 et classe D.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 9,
+        "extrait": "L’indice énergétique et l’indice de réparabilité"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01",
+      "titre": "Gérer un projet technique",
+      "domaine": "Création, conception, réalisation, innovations",
+      "theme": "La gestion de projet technique",
+      "attendu": "Planifier un projet avec un diagramme des tâches, connaître ses étapes, le rôle d’une revue de projet et l’écoconception.",
+      "exemple": "Planning : recherche d’idées (1 semaine), modélisation (2), fabrication (2), tests (1).",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 16,
+        "extrait": "Le diagramme de planification des tâches"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-3E-TEST-01",
+      "titre": "Valider une solution par des tests",
+      "domaine": "Création, conception, réalisation, innovations",
+      "theme": "Le prototypage de solutions",
+      "attendu": "Valider une solution par une simulation ou un protocole de tests, comparer aux exigences du cahier des charges et identifier les écarts.",
+      "exemple": "Exigence : autonomie de 2 h. Mesure : 1 h 40. Écart : 20 min.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 15,
+        "extrait": "Valider les solutions techniques par des simulations ou par des protocoles de tests"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

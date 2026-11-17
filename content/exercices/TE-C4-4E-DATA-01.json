@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-DATA-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Trier, c’est…",
+      "options": [
+        "ranger les lignes dans un ordre",
+        "cacher des lignes",
+        "supprimer des colonnes"
+      ],
+      "reponse": "ranger les lignes dans un ordre",
+      "indice": "Ordre.",
+      "explication": "Ranger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Filtrer, c’est…",
+      "options": [
+        "afficher seulement les lignes qui respectent une condition",
+        "tout supprimer",
+        "ajouter des couleurs"
+      ],
+      "reponse": "afficher seulement les lignes qui respectent une condition",
+      "indice": "Condition.",
+      "explication": "Afficher une sélection.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Par quel signe commence une formule ?",
+      "options": [
+        "=",
+        "#",
+        "@"
+      ],
+      "reponse": "=",
+      "indice": "Égal.",
+      "explication": "Le signe =.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle formule donne la valeur la plus grande de C2 à C20 ?",
+      "options": [
+        "=MAX(C2:C20)",
+        "=MIN(C2:C20)",
+        "=SOMME(C2:C20)"
+      ],
+      "reponse": "=MAX(C2:C20)",
+      "indice": "Maximum.",
+      "explication": "MAX.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que contient un fichier CSV ?",
+      "options": [
+        "un tableau en texte, valeurs séparées par un séparateur",
+        "une image",
+        "un son"
+      ],
+      "reponse": "un tableau en texte, valeurs séparées par un séparateur",
+      "indice": "Comma Separated Values.",
+      "explication": "Un tableau texte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour n’afficher que les jours au-dessus de 25 °C, on…",
+      "options": [
+        "filtre",
+        "trie",
+        "imprime"
+      ],
+      "reponse": "filtre",
+      "indice": "Condition.",
+      "explication": "On filtre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Relevés : 12, 15, 18, 15. Moyenne ?",
+      "options": [
+        "15",
+        "18",
+        "60"
+      ],
+      "reponse": "15",
+      "indice": "Somme ÷ 4.",
+      "explication": "60 ÷ 4 = 15.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel graphique montre l’évolution de la température dans la journée ?",
+      "options": [
+        "une courbe",
+        "un camembert",
+        "un tableau seul"
+      ],
+      "reponse": "une courbe",
+      "indice": "Évolution dans le temps.",
+      "explication": "Une courbe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

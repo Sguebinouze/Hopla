@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-MVT-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-MVT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Sur un vélo, la rotation est transmise par…",
+      "options": [
+        "une chaîne",
+        "une courroie plate",
+        "une crémaillère"
+      ],
+      "reponse": "une chaîne",
+      "indice": "Pignons.",
+      "explication": "Pignons et chaîne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une rotation qui reste une rotation : c’est…",
+      "options": [
+        "une transmission",
+        "une transformation",
+        "une conversion d’énergie"
+      ],
+      "reponse": "une transmission",
+      "indice": "Même type.",
+      "explication": "Transmission.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Deux engrenages en contact tournent…",
+      "options": [
+        "en sens inverse",
+        "dans le même sens",
+        "sans bouger"
+      ],
+      "reponse": "en sens inverse",
+      "indice": "Dents en prise.",
+      "explication": "En sens inverse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une grande roue entraîne une petite. La petite tourne…",
+      "options": [
+        "plus vite",
+        "moins vite",
+        "à la même vitesse"
+      ],
+      "reponse": "plus vite",
+      "indice": "Moins de dents.",
+      "explication": "Plus vite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Où trouve-t-on un pignon-crémaillère ?",
+      "options": [
+        "dans un portail coulissant",
+        "dans un vélo",
+        "dans un ventilateur"
+      ],
+      "reponse": "dans un portail coulissant",
+      "indice": "Mouvement en ligne droite.",
+      "explication": "Le portail coulissant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Avec une chaîne, les deux pignons tournent…",
+      "options": [
+        "dans le même sens",
+        "en sens inverse",
+        "en translation"
+      ],
+      "reponse": "dans le même sens",
+      "indice": "La chaîne fait le tour.",
+      "explication": "Même sens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Plateau de 48 dents, pignon de 16 dents. Combien de tours de roue pour un tour de pédale ?",
+      "options": [
+        "3",
+        "16",
+        "0,33"
+      ],
+      "reponse": "3",
+      "indice": "48 ÷ 16.",
+      "explication": "3 tours.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-MVT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi une courroie peut-elle glisser ?",
+      "options": [
+        "elle n’a pas de dents",
+        "elle est trop dentée",
+        "elle tourne à l’envers"
+      ],
+      "reponse": "elle n’a pas de dents",
+      "indice": "Adhérence.",
+      "explication": "Transmission par frottement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

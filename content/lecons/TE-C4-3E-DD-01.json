@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-DD-01",
+  "exemple": "Deux smartphones au même prix : l’un a un indice de réparabilité de 8/10, l’autre de 4/10.",
+  "regle": "L’**indice de réparabilité** (note sur 10) indique si un objet se répare facilement : démontage, pièces détachées, documentation. L’**étiquette énergie** (A à G) classe la consommation. On argumente un choix avec les **trois piliers** du développement durable : **environnemental**, **économique**, **social**, sur tout le **cycle de vie**.",
+  "piege": "L’objet le moins cher à l’achat peut coûter plus sur toute sa durée de vie.",
+  "essai": {
+    "consigne": "Sur combien est noté l’indice de réparabilité ?",
+    "options": [
+      "10",
+      "5",
+      "100"
+    ],
+    "reponse": "10",
+    "explication": "Une note de 0 à 10."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -91,6 +91,96 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-CONT-01",
+      "titre": "Contraintes et cahier des charges",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "L’OST dans son environnement",
+      "attendu": "Repérer les contraintes et exigences prises en compte (normes, cahier des charges, labels) pour répondre aux attentes des utilisateurs.",
+      "exemple": "Un jouet doit porter le marquage CE et ne pas contenir de petites pièces avant 3 ans.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 8,
+        "extrait": "Les contraintes : prise en compte des exigences issues des normes ou d’un cahier des charges"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-PERF-01",
+      "titre": "Mesurer une performance",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "La performance des OST",
+      "attendu": "Choisir l’appareil de mesure adapté pour mesurer une performance d’un objet (vitesse, autonomie, consommation) en suivant un protocole.",
+      "exemple": "Autonomie d’un robot : chronomètre et batterie chargée à 100 %.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 9,
+        "extrait": "Les critères de performance d’un OST"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-DATA-01",
+      "titre": "Trier et filtrer dans un tableur",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Structuration et traitement des données",
+      "attendu": "Mettre en forme et traiter des données dans un tableur : calculs, tri, filtre, pour analyser le comportement d’un objet.",
+      "exemple": "Relevés d’un capteur de température triés du plus chaud au plus froid.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 12,
+        "extrait": "Traitement des données : mise en forme et traitement de données (calculs, filtre, tri)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-MVT-01",
+      "titre": "Engrenages, courroies, chaînes",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Fonctions, solutions, constituants de la chaine d’énergie",
+      "attendu": "Identifier les mécanismes de transmission et de transformation de mouvement : engrenages, poulies-courroie, pignons-chaîne, pignon-crémaillère.",
+      "exemple": "Sur un vélo, la chaîne transmet la rotation du pédalier à la roue arrière.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 11,
+        "extrait": "Les mécanismes de transmission et de transformation de mouvements (engrenages, courroies, chaînes)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-LOG-01",
+      "titre": "Variables, ET, OU, NON",
+      "domaine": "La programmation",
+      "theme": "La programmation d’une nouvelle fonctionnalité",
+      "attendu": "Utiliser des variables et les opérateurs logiques ET, OU, NON dans une condition de programme.",
+      "exemple": "Si (présence ET nuit) alors allumer la lampe.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 14,
+        "extrait": "opérateurs arithmétiques et logiques (ET, OU, NON)"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-4E-REP-01",
+      "titre": "Sécurité à l’atelier",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Le dépannage et la réparation",
+      "attendu": "Appliquer les règles de sécurité de l’atelier de fabrication : équipements de protection individuelle, outillage, machines.",
+      "exemple": "Lunettes de protection pour la perceuse, cheveux attachés.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 13,
+        "extrait": "Les règles usuelles de sécurité et de mise en œuvre des moyens de réalisation"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

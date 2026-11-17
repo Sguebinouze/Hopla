@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-DATA-01",
+  "exemple": "Une collection de vélos dans un tableur : une ligne par vélo, une colonne par descripteur.",
+  "regle": "Un **objet** est décrit par des **descripteurs** (marque, masse, prix). Chaque descripteur a un **type** : **chaîne de caractères** (mot), **nombre**, **booléen** (vrai ou faux). Un ensemble d’objets décrits de la même façon forme une **collection** : ce sont des **données structurées**.",
+  "piege": "Un code postal se range en texte : on ne fait pas de calcul avec.",
+  "essai": {
+    "consigne": "« Électrique : oui ou non » est une donnée de type…",
+    "options": [
+      "booléen",
+      "nombre",
+      "chaîne de caractères"
+    ],
+    "reponse": "booléen",
+    "explication": "Deux valeurs : vrai ou faux."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

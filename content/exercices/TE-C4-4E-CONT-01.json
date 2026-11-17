@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-CONT-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-CONT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un cahier des charges décrit…",
+      "options": [
+        "ce que l’objet doit faire et ses contraintes",
+        "le mode d’emploi",
+        "le prix de vente final"
+      ],
+      "reponse": "ce que l’objet doit faire et ses contraintes",
+      "indice": "Avant de concevoir.",
+      "explication": "Besoins et contraintes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "« Peser moins de 300 g » est…",
+      "options": [
+        "une contrainte",
+        "un interacteur",
+        "une solution"
+      ],
+      "reponse": "une contrainte",
+      "indice": "Exigence.",
+      "explication": "Une contrainte de masse.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une norme est…",
+      "options": [
+        "une règle commune à respecter",
+        "une marque de fabricant",
+        "un défaut"
+      ],
+      "reponse": "une règle commune à respecter",
+      "indice": "Règle.",
+      "explication": "Une règle reconnue.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi interdire les petites pièces dans les jouets pour bébés ?",
+      "options": [
+        "risque d’étouffement",
+        "pour le prix",
+        "pour la couleur"
+      ],
+      "reponse": "risque d’étouffement",
+      "indice": "Sécurité.",
+      "explication": "Contrainte de sécurité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel critère mesure la fiabilité ?",
+      "options": [
+        "la durée de fonctionnement sans panne",
+        "la couleur",
+        "le poids de l’emballage"
+      ],
+      "reponse": "la durée de fonctionnement sans panne",
+      "indice": "Pannes.",
+      "explication": "Durée sans panne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "L’étiquette énergie (A à G) informe sur…",
+      "options": [
+        "la consommation d’énergie",
+        "la solidité",
+        "la taille"
+      ],
+      "reponse": "la consommation d’énergie",
+      "indice": "Énergie.",
+      "explication": "L’efficacité énergétique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment vérifier « garder l’eau froide 12 h » ?",
+      "options": [
+        "mesurer la température après 12 h",
+        "regarder la couleur",
+        "peser la gourde"
+      ],
+      "reponse": "mesurer la température après 12 h",
+      "indice": "Critère mesurable.",
+      "explication": "Mesure de température.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-CONT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle contrainte est environnementale ?",
+      "options": [
+        "être recyclable à 80 %",
+        "tenir dans la main",
+        "coûter moins de 20 €"
+      ],
+      "reponse": "être recyclable à 80 %",
+      "indice": "Environnement.",
+      "explication": "La recyclabilité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

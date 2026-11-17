@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-PROJ-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-PROJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le diagramme de planification montre…",
+      "options": [
+        "les tâches dans le temps",
+        "le schéma électrique",
+        "le prix"
+      ],
+      "reponse": "les tâches dans le temps",
+      "indice": "Planning.",
+      "explication": "Les tâches, durées et liens.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle étape vient avant la réalisation ?",
+      "options": [
+        "la conception",
+        "les tests finaux",
+        "le bilan"
+      ],
+      "reponse": "la conception",
+      "indice": "On conçoit d’abord.",
+      "explication": "La conception.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’écoconception vise à…",
+      "options": [
+        "réduire l’impact environnemental dès la conception",
+        "faire joli",
+        "aller plus vite"
+      ],
+      "reponse": "réduire l’impact environnemental dès la conception",
+      "indice": "Éco.",
+      "explication": "Penser l’environnement dès le départ.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Tâches : idées 1 sem., modélisation 2, fabrication 2, tests 1. Durée totale si elles se suivent ?",
+      "options": [
+        "6 semaines",
+        "4 semaines",
+        "2 semaines"
+      ],
+      "reponse": "6 semaines",
+      "indice": "Additionner.",
+      "explication": "1 + 2 + 2 + 1 = 6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une contrainte entre tâches signifie…",
+      "options": [
+        "une tâche doit attendre la fin d’une autre",
+        "deux tâches se font en même temps",
+        "une tâche est annulée"
+      ],
+      "reponse": "une tâche doit attendre la fin d’une autre",
+      "indice": "Antériorité.",
+      "explication": "Ordre imposé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Qui valide les choix lors d’une revue de projet ?",
+      "options": [
+        "l’équipe avec le professeur",
+        "un seul élève au hasard",
+        "personne"
+      ],
+      "reponse": "l’équipe avec le professeur",
+      "indice": "Collectif.",
+      "explication": "L’équipe et l’enseignant.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "La fabrication prend 1 semaine de retard. Conséquence si les tests la suivent ?",
+      "options": [
+        "les tests sont décalés d’1 semaine",
+        "les tests sont annulés",
+        "aucune"
+      ],
+      "reponse": "les tests sont décalés d’1 semaine",
+      "indice": "Contrainte.",
+      "explication": "Tout ce qui suit est décalé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-PROJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel choix relève de l’écoconception ?",
+      "options": [
+        "réduire le nombre de matériaux différents pour faciliter le recyclage",
+        "ajouter un emballage plastique",
+        "coller toutes les pièces"
+      ],
+      "reponse": "réduire le nombre de matériaux différents pour faciliter le recyclage",
+      "indice": "Fin de vie.",
+      "explication": "Faciliter le recyclage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

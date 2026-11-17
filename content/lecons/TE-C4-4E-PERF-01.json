@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-PERF-01",
+  "exemple": "Pour comparer deux trottinettes, on mesure la vitesse maximale et l’autonomie sur le même parcours.",
+  "regle": "Une **performance** est une **grandeur mesurable** : **vitesse**, **autonomie**, **consommation**, **niveau sonore**, **masse**. On la mesure avec l’**appareil adapté** (chronomètre, wattmètre, sonomètre, balance) en suivant un **protocole** : mêmes conditions pour comparer, plusieurs essais, unité notée.",
+  "piege": "Pour comparer deux objets, on ne change qu’un seul paramètre à la fois.",
+  "essai": {
+    "consigne": "Quel appareil mesure une consommation électrique ?",
+    "options": [
+      "un wattmètre",
+      "un sonomètre",
+      "un chronomètre"
+    ],
+    "reponse": "un wattmètre",
+    "explication": "Il mesure la puissance consommée."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-ENV-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-ENV-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Qu’est-ce qu’un interacteur ?",
+      "options": [
+        "un élément extérieur en relation avec l’objet",
+        "une pièce interne",
+        "le prix de l’objet"
+      ],
+      "reponse": "un élément extérieur en relation avec l’objet",
+      "indice": "Extérieur.",
+      "explication": "Usager, données, objets, environnement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’ergonomie concerne…",
+      "options": [
+        "l’adaptation de l’objet à l’utilisateur",
+        "la couleur de l’objet",
+        "le recyclage"
+      ],
+      "reponse": "l’adaptation de l’objet à l’utilisateur",
+      "indice": "Confort d’usage.",
+      "explication": "Adapter à l’usage et au corps.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel élément protège l’usager d’un ventilateur ?",
+      "options": [
+        "la grille",
+        "le moteur",
+        "le câble"
+      ],
+      "reponse": "la grille",
+      "indice": "Les pales.",
+      "explication": "La grille.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour une montre connectée, lequel n’est pas un interacteur extérieur ?",
+      "options": [
+        "la batterie interne",
+        "le poignet de l’utilisateur",
+        "le téléphone associé"
+      ],
+      "reponse": "la batterie interne",
+      "indice": "Interne.",
+      "explication": "La batterie est un constituant interne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les boutons d’une télécommande pour senior sont-ils gros ?",
+      "options": [
+        "pour faciliter l’usage",
+        "pour économiser l’énergie",
+        "pour la solidité seulement"
+      ],
+      "reponse": "pour faciliter l’usage",
+      "indice": "Ergonomie.",
+      "explication": "Ils sont plus faciles à lire et à presser.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un objet d’extérieur doit résister à la pluie. La pluie est…",
+      "options": [
+        "un interacteur de l’environnement",
+        "un usager",
+        "une donnée"
+      ],
+      "reponse": "un interacteur de l’environnement",
+      "indice": "Milieu.",
+      "explication": "Un élément de l’environnement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi un mixeur ne démarre-t-il que couvercle fermé ?",
+      "options": [
+        "par sécurité, pour protéger les doigts",
+        "pour économiser l’énergie",
+        "pour tourner plus vite"
+      ],
+      "reponse": "par sécurité, pour protéger les doigts",
+      "indice": "Sécurité.",
+      "explication": "Un capteur empêche le démarrage.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-ENV-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel choix relève d’un objectif de développement durable ?",
+      "options": [
+        "des vis plutôt que de la colle pour pouvoir réparer",
+        "une couleur à la mode",
+        "un emballage plus grand"
+      ],
+      "reponse": "des vis plutôt que de la colle pour pouvoir réparer",
+      "indice": "Réparabilité.",
+      "explication": "Démontable donc réparable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

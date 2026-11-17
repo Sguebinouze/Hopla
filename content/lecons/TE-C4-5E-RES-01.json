@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-RES-01",
+  "exemple": "Dans la salle de technologie, 15 ordinateurs et une imprimante sont reliés par câbles à un commutateur.",
+  "regle": "Un **réseau local** relie des **terminaux** (ordinateurs, imprimantes, tablettes) dans un même lieu. Chaque terminal a une **carte réseau**. Les **liaisons** sont **filaires** (câble Ethernet) ou **sans fil** (Wi-Fi). Le **commutateur** (switch) relie les terminaux entre eux. Chaque terminal a une **adresse** pour recevoir les bonnes données.",
+  "piege": "Le commutateur relie les terminaux d’un réseau local ; le routeur relie des réseaux entre eux.",
+  "essai": {
+    "consigne": "Quel appareil relie les ordinateurs d’un réseau local ?",
+    "options": [
+      "le commutateur",
+      "l’imprimante",
+      "l’écran"
+    ],
+    "reponse": "le commutateur",
+    "explication": "Le switch."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

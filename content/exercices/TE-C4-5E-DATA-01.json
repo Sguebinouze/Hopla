@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-DATA-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-DATA-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La masse d’un vélo (12,5) est de type…",
+      "options": [
+        "nombre",
+        "booléen",
+        "chaîne de caractères"
+      ],
+      "reponse": "nombre",
+      "indice": "On peut calculer avec.",
+      "explication": "Nombre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La marque d’un téléphone est de type…",
+      "options": [
+        "chaîne de caractères",
+        "nombre",
+        "booléen"
+      ],
+      "reponse": "chaîne de caractères",
+      "indice": "Un mot.",
+      "explication": "Chaîne de caractères.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un booléen peut prendre…",
+      "options": [
+        "deux valeurs : vrai ou faux",
+        "n’importe quel nombre",
+        "un mot"
+      ],
+      "reponse": "deux valeurs : vrai ou faux",
+      "indice": "Oui/non.",
+      "explication": "Vrai ou faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans un tableur, un descripteur correspond à…",
+      "options": [
+        "une colonne",
+        "une ligne",
+        "une cellule vide"
+      ],
+      "reponse": "une colonne",
+      "indice": "Le même pour tous les objets.",
+      "explication": "Une colonne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une collection, c’est…",
+      "options": [
+        "un ensemble d’objets décrits par les mêmes descripteurs",
+        "un seul objet",
+        "un fichier image"
+      ],
+      "reponse": "un ensemble d’objets décrits par les mêmes descripteurs",
+      "indice": "Liste.",
+      "explication": "Un ensemble structuré.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le numéro de téléphone « 0612345678 » est rangé en…",
+      "options": [
+        "texte",
+        "nombre à additionner",
+        "booléen"
+      ],
+      "reponse": "texte",
+      "indice": "On ne calcule pas avec.",
+      "explication": "En texte, le 0 initial est gardé.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quel descripteur est un booléen ?",
+      "options": [
+        "« Pliable »",
+        "« Prix »",
+        "« Couleur »"
+      ],
+      "reponse": "« Pliable »",
+      "indice": "Oui ou non.",
+      "explication": "Pliable : vrai ou faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-DATA-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi choisir le bon type de donnée ?",
+      "options": [
+        "pour pouvoir trier, calculer et filtrer correctement",
+        "pour la couleur du tableur",
+        "ce n’est pas utile"
+      ],
+      "reponse": "pour pouvoir trier, calculer et filtrer correctement",
+      "indice": "Traitement.",
+      "explication": "Le type permet le bon traitement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

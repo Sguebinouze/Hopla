@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-MAT-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Tordre une clé dans une serrure, c’est…",
+      "options": [
+        "de la torsion",
+        "de la flexion",
+        "de la compression"
+      ],
+      "reponse": "de la torsion",
+      "indice": "Rotation autour de l’axe.",
+      "explication": "Torsion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’impression 3D est un procédé…",
+      "options": [
+        "par ajout de matière",
+        "par enlèvement de matière",
+        "par pliage"
+      ],
+      "reponse": "par ajout de matière",
+      "indice": "Couche par couche.",
+      "explication": "Fabrication additive.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "La découpe laser est un procédé…",
+      "options": [
+        "par enlèvement de matière",
+        "par ajout de matière",
+        "d’assemblage"
+      ],
+      "reponse": "par enlèvement de matière",
+      "indice": "On retire.",
+      "explication": "Enlèvement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un assemblage par rivets est…",
+      "options": [
+        "fixe",
+        "démontable",
+        "magnétique"
+      ],
+      "reponse": "fixe",
+      "indice": "On ne le défait pas sans casser.",
+      "explication": "Fixe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le thermoformage consiste à…",
+      "options": [
+        "chauffer une plaque de plastique puis la mouler",
+        "couper du métal",
+        "coller du bois"
+      ],
+      "reponse": "chauffer une plaque de plastique puis la mouler",
+      "indice": "Thermo : chaleur.",
+      "explication": "Mise en forme à chaud.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pour un boîtier facile à réparer, on choisit…",
+      "options": [
+        "un assemblage par vis",
+        "la colle forte",
+        "la soudure"
+      ],
+      "reponse": "un assemblage par vis",
+      "indice": "Démontable.",
+      "explication": "Les vis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi préférer un matériau local et recyclé ?",
+      "options": [
+        "réduire l’empreinte carbone",
+        "augmenter la masse",
+        "il est toujours plus solide"
+      ],
+      "reponse": "réduire l’empreinte carbone",
+      "indice": "Transport, extraction.",
+      "explication": "Moins d’émissions.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pièce unique sur mesure pour réparer un objet : procédé adapté ?",
+      "options": [
+        "l’impression 3D",
+        "le moulage industriel en série",
+        "le pliage"
+      ],
+      "reponse": "l’impression 3D",
+      "indice": "Sur mesure.",
+      "explication": "L’impression 3D.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-INFO-01",
+  "exemple": "Un thermostat mesure la température, la compare à la consigne et allume le chauffage.",
+  "regle": "La **chaîne d’information** **acquiert** (capteurs : température, présence, distance), **traite** (le **microcontrôleur** exécute le programme) et **communique** (écran, voyant, ordre envoyé à la chaîne d’énergie). L’**IHM** (interface humain-machine) permet à l’usager d’agir et de lire : **boutons**, **afficheurs**.",
+  "piege": "Le bouton est un constituant de l’IHM qui acquiert une information donnée par l’usager.",
+  "essai": {
+    "consigne": "Quel constituant traite l’information ?",
+    "options": [
+      "le microcontrôleur",
+      "le capteur",
+      "le moteur"
+    ],
+    "reponse": "le microcontrôleur",
+    "explication": "Il exécute le programme."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

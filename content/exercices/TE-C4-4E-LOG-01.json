@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-LOG-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-LOG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une variable sert à…",
+      "options": [
+        "stocker une valeur qui peut changer",
+        "afficher une image",
+        "brancher un capteur"
+      ],
+      "reponse": "stocker une valeur qui peut changer",
+      "indice": "Mémoire.",
+      "explication": "Stocker une valeur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "A = vrai, B = vrai. « A ET B » vaut…",
+      "options": [
+        "vrai",
+        "faux",
+        "rien"
+      ],
+      "reponse": "vrai",
+      "indice": "Les deux vrais.",
+      "explication": "Vrai.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "NON vrai vaut…",
+      "options": [
+        "faux",
+        "vrai",
+        "zéro et un"
+      ],
+      "reponse": "faux",
+      "indice": "Inversion.",
+      "explication": "Faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "A = faux, B = vrai. « A OU B » vaut…",
+      "options": [
+        "vrai",
+        "faux",
+        "indéfini"
+      ],
+      "reponse": "vrai",
+      "indice": "Au moins un.",
+      "explication": "Vrai.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "A = faux, B = faux. « A OU B » vaut…",
+      "options": [
+        "faux",
+        "vrai",
+        "les deux"
+      ],
+      "reponse": "faux",
+      "indice": "Aucun vrai.",
+      "explication": "Faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Alarme : sonner si porte ouverte OU fenêtre ouverte. Porte fermée, fenêtre ouverte : l’alarme…",
+      "options": [
+        "sonne",
+        "ne sonne pas",
+        "se coupe"
+      ],
+      "reponse": "sonne",
+      "indice": "OU.",
+      "explication": "Elle sonne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Arrosage : si NON pluie ET heure = 20 h. Il pleut à 20 h : l’arrosage…",
+      "options": [
+        "ne démarre pas",
+        "démarre",
+        "démarre deux fois"
+      ],
+      "reponse": "ne démarre pas",
+      "indice": "NON pluie est faux.",
+      "explication": "Faux ET vrai = faux.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-LOG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "compteur ← 0, puis 3 fois compteur ← compteur + 2. Valeur finale ?",
+      "options": [
+        "6",
+        "2",
+        "3"
+      ],
+      "reponse": "6",
+      "indice": "0 + 2 + 2 + 2.",
+      "explication": "6.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

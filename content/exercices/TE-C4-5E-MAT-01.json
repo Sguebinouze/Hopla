@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-MAT-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-MAT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’aluminium appartient à la famille…",
+      "options": [
+        "des métaux",
+        "des plastiques",
+        "des céramiques"
+      ],
+      "reponse": "des métaux",
+      "indice": "Canette.",
+      "explication": "Métal.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le verre est…",
+      "options": [
+        "une céramique",
+        "un métal",
+        "un bois"
+      ],
+      "reponse": "une céramique",
+      "indice": "Minéral.",
+      "explication": "Une céramique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel matériau conduit bien l’électricité ?",
+      "options": [
+        "le cuivre",
+        "le bois",
+        "le verre"
+      ],
+      "reponse": "le cuivre",
+      "indice": "Fils électriques.",
+      "explication": "Le cuivre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi un vélo de course est-il en fibre de carbone ?",
+      "options": [
+        "léger et résistant",
+        "conducteur",
+        "transparent"
+      ],
+      "reponse": "léger et résistant",
+      "indice": "Composite.",
+      "explication": "Très léger et rigide.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le bois est un matériau…",
+      "options": [
+        "organique",
+        "métallique",
+        "céramique"
+      ],
+      "reponse": "organique",
+      "indice": "Vient du vivant.",
+      "explication": "Organique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel matériau est le plus facilement recyclable à l’infini ?",
+      "options": [
+        "le verre",
+        "un composite",
+        "un plastique mélangé"
+      ],
+      "reponse": "le verre",
+      "indice": "Bouteilles.",
+      "explication": "Le verre.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi les gaines de câbles sont-elles en plastique ?",
+      "options": [
+        "isolant électrique",
+        "conducteur thermique",
+        "aimanté"
+      ],
+      "reponse": "isolant électrique",
+      "indice": "Sécurité.",
+      "explication": "Le plastique isole.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-MAT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pour une poêle, quelle propriété cherche-t-on pour le fond ?",
+      "options": [
+        "bonne conductivité thermique",
+        "transparence",
+        "isolation électrique"
+      ],
+      "reponse": "bonne conductivité thermique",
+      "indice": "Chauffer vite.",
+      "explication": "Bonne conduction de la chaleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

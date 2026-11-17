@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-3E-DD-01",
+  "exercices": [
+    {
+      "id": "TE-C4-3E-DD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’étiquette énergie va de…",
+      "options": [
+        "A à G",
+        "1 à 5",
+        "rouge à bleu"
+      ],
+      "reponse": "A à G",
+      "indice": "Lettres.",
+      "explication": "De A (sobre) à G.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un indice de réparabilité de 9/10 signifie…",
+      "options": [
+        "facile à réparer",
+        "impossible à réparer",
+        "très consommateur"
+      ],
+      "reponse": "facile à réparer",
+      "indice": "Note élevée.",
+      "explication": "Facilement réparable.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quels sont les trois piliers du développement durable ?",
+      "options": [
+        "environnemental, économique, social",
+        "rapide, beau, cher",
+        "local, national, mondial"
+      ],
+      "reponse": "environnemental, économique, social",
+      "indice": "Trois piliers.",
+      "explication": "Environnement, économie, social.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un critère de l’indice de réparabilité ?",
+      "options": [
+        "la disponibilité des pièces détachées",
+        "la couleur",
+        "le poids du carton"
+      ],
+      "reponse": "la disponibilité des pièces détachées",
+      "indice": "Réparer.",
+      "explication": "Les pièces détachées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Choisir un appareil classe A plutôt que D réduit surtout…",
+      "options": [
+        "la consommation d’énergie",
+        "la taille",
+        "le bruit uniquement"
+      ],
+      "reponse": "la consommation d’énergie",
+      "indice": "Étiquette énergie.",
+      "explication": "La consommation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel argument relève du pilier social ?",
+      "options": [
+        "des conditions de fabrication respectueuses des travailleurs",
+        "un faible prix",
+        "une faible consommation"
+      ],
+      "reponse": "des conditions de fabrication respectueuses des travailleurs",
+      "indice": "Humains.",
+      "explication": "Le pilier social.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Appareil A : 300 € et 50 €/an d’électricité. B : 250 € et 80 €/an. Coût sur 5 ans ?",
+      "options": [
+        "A : 550 €, B : 650 €",
+        "A : 650 €, B : 550 €",
+        "identiques"
+      ],
+      "reponse": "A : 550 €, B : 650 €",
+      "indice": "Prix + 5 × consommation.",
+      "explication": "300 + 250 = 550 ; 250 + 400 = 650.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-3E-DD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi raisonner sur tout le cycle de vie ?",
+      "options": [
+        "l’impact vient aussi de la fabrication et de la fin de vie",
+        "seul l’usage compte",
+        "pour choisir la couleur"
+      ],
+      "reponse": "l’impact vient aussi de la fabrication et de la fin de vie",
+      "indice": "Extraction à fin de vie.",
+      "explication": "Toutes les étapes comptent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

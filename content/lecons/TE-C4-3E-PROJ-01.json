@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-PROJ-01",
+  "exemple": "L’équipe doit livrer un prototype de mangeoire connectée en 6 semaines.",
+  "regle": "Un **projet** suit des **étapes** : besoin, cahier des charges, recherche de solutions, conception, réalisation, tests, bilan. Le **diagramme de planification** place les **tâches** dans le temps avec leur **durée** et leurs **contraintes** (une tâche attend la fin d’une autre). La **revue de projet** fait le point et valide les choix. L’**écoconception** réduit l’impact dès la conception.",
+  "piege": "On ne fabrique pas avant d’avoir validé la conception.",
+  "essai": {
+    "consigne": "À quoi sert une revue de projet ?",
+    "options": [
+      "faire le point et valider l’avancement",
+      "acheter le matériel",
+      "tester le produit fini seulement"
+    ],
+    "reponse": "faire le point et valider l’avancement",
+    "explication": "Point d’étape."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

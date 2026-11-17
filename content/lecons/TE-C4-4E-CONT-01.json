@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-4E-CONT-01",
+  "exemple": "Cahier des charges d’une gourde : contenir 50 cl, garder l’eau froide 12 h, passer au lave-vaisselle, peser moins de 300 g.",
+  "regle": "Le **cahier des charges** liste ce que l’objet doit faire et les **contraintes** à respecter : **sécurité**, **coût**, **masse**, **incidences environnementales**, **ergonomie**, **fiabilité**. Des **normes** et des **labels** imposent ou garantissent certaines exigences (marquage **CE**, étiquette énergie).",
+  "piege": "Une contrainte se vérifie : elle a souvent un critère et une valeur (moins de 300 g).",
+  "essai": {
+    "consigne": "Quel marquage atteste qu’un produit respecte les exigences européennes ?",
+    "options": [
+      "CE",
+      "XL",
+      "HD"
+    ],
+    "reponse": "CE",
+    "explication": "Conformité européenne."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

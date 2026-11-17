@@ -76,6 +76,81 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-5E-ENV-01",
+      "titre": "Interacteurs, ergonomie, sécurité",
+      "domaine": "Les objets et systèmes techniques et leurs usages",
+      "theme": "L’OST dans son environnement",
+      "attendu": "Lister les interacteurs extérieurs d’un objet et expliquer des choix de conception liés à l’ergonomie et à la sécurité.",
+      "exemple": "Une trottinette électrique interagit avec l’utilisateur, la route, la pluie et le chargeur.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 8,
+        "extrait": "Les interacteurs extérieurs : usagers, données, autres objets, éléments de l’environnement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-5E-DATA-01",
+      "titre": "Décrire un objet par des données",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Structuration et traitement des données",
+      "attendu": "Décrire des objets par des descripteurs et des types de données : chaîne de caractères, nombre, booléen.",
+      "exemple": "Vélo : marque (texte), masse en kg (nombre), électrique (booléen : vrai ou faux).",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 12,
+        "extrait": "Vocabulaire des données"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-5E-RES-01",
+      "titre": "Le réseau local",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "La circulation de l’information dans un réseau informatique",
+      "attendu": "Identifier les composants d’un réseau local (terminaux, commutateur, liaisons filaires et Wi-Fi) et la nécessité d’identifier chaque terminal.",
+      "exemple": "Les ordinateurs de la salle de technologie sont reliés à un commutateur.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 12,
+        "extrait": "Le rôle d’un terminal, d’une carte réseau, des liaisons (filaires ou non filaires), d’un commutateur, d’un routeur, d’un serveur"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-5E-INFO-01",
+      "titre": "Capteurs, microcontrôleur, IHM",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Fonctions, solutions, constituants de la chaine d’information",
+      "attendu": "Identifier les constituants d’une chaîne d’information : capteurs, microcontrôleur, interface humain-machine.",
+      "exemple": "Thermostat : capteur de température, microcontrôleur, écran et boutons.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 12,
+        "extrait": "Les fonctions des constituants suivants : capteurs (température, présence, distance, etc.), microcontrôleur"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "TE-C4-5E-MAT-01",
+      "titre": "Les familles de matériaux",
+      "domaine": "Organisation interne des objets et systèmes techniques",
+      "theme": "Matériaux et procédés",
+      "attendu": "Identifier les principaux matériaux d’un objet et leurs propriétés : métaux, plastiques, bois, verre, composites.",
+      "exemple": "Une casserole en inox (métal) avec un manche en plastique isolant.",
+      "source": {
+        "id": "bo9-2024-technologie-c4",
+        "page": 11,
+        "extrait": "Les caractéristiques et les propriétés des principaux matériaux"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-4E-REP-01",
+  "exercices": [
+    {
+      "id": "TE-C4-4E-REP-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que signifie EPI ?",
+      "options": [
+        "équipement de protection individuelle",
+        "élément pour imprimer",
+        "essai de pièce industrielle"
+      ],
+      "reponse": "équipement de protection individuelle",
+      "indice": "Protection.",
+      "explication": "Équipement de protection individuelle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Avant de percer, la pièce doit être…",
+      "options": [
+        "fixée dans un étau",
+        "tenue à la main",
+        "posée sur les genoux"
+      ],
+      "reponse": "fixée dans un étau",
+      "indice": "Immobile.",
+      "explication": "Fixée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les cheveux longs doivent être…",
+      "options": [
+        "attachés",
+        "détachés",
+        "mouillés"
+      ],
+      "reponse": "attachés",
+      "indice": "Machine qui tourne.",
+      "explication": "Attachés.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "À quoi sert le bouton coup-de-poing rouge ?",
+      "options": [
+        "l’arrêt d’urgence",
+        "la mise en marche",
+        "régler la vitesse"
+      ],
+      "reponse": "l’arrêt d’urgence",
+      "indice": "Urgence.",
+      "explication": "Arrêt d’urgence.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Peut-on porter des gants près d’une perceuse en marche ?",
+      "options": [
+        "non, ils peuvent être happés",
+        "oui, toujours",
+        "oui, s’ils sont en laine"
+      ],
+      "reponse": "non, ils peuvent être happés",
+      "indice": "Rotation.",
+      "explication": "Risque d’entraînement.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel EPI pour une découpe laser bruyante et fumée ?",
+      "options": [
+        "aucun contact, capot fermé et aspiration",
+        "tenir la pièce à la main",
+        "ouvrir le capot pendant la coupe"
+      ],
+      "reponse": "aucun contact, capot fermé et aspiration",
+      "indice": "Machine fermée.",
+      "explication": "On n’ouvre jamais pendant la coupe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Une imprimante 3D a une buse à 200 °C. Règle ?",
+      "options": [
+        "ne pas toucher la buse pendant et après l’impression",
+        "la nettoyer en marche",
+        "souffler dessus"
+      ],
+      "reponse": "ne pas toucher la buse pendant et après l’impression",
+      "indice": "Brûlure.",
+      "explication": "Risque de brûlure.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-4E-REP-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi ranger l’outillage après usage ?",
+      "options": [
+        "éviter les accidents et le retrouver",
+        "pour décorer",
+        "ce n’est pas utile"
+      ],
+      "reponse": "éviter les accidents et le retrouver",
+      "indice": "Atelier partagé.",
+      "explication": "Sécurité et organisation.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

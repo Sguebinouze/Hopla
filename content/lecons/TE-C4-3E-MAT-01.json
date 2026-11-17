@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-3E-MAT-01",
+  "exemple": "Une étagère chargée de livres se courbe : elle travaille en flexion.",
+  "regle": "Une pièce subit des **sollicitations** : **flexion** (elle se courbe), **torsion** (elle se tord), traction, compression. Le matériau est choisi selon ces efforts, ses **conductibilités** et son **empreinte carbone**. Le **procédé** dépend de la forme : **enlèvement de matière** (perçage, découpe laser), **ajout de matière** (impression 3D). On peut aussi **mettre en forme** (pliage, thermoformage) et **assembler** (fixe ou démontable).",
+  "piege": "Un assemblage démontable (vis) facilite la réparation et le recyclage.",
+  "essai": {
+    "consigne": "Une planche qui se courbe sous une charge subit…",
+    "options": [
+      "de la flexion",
+      "de la torsion",
+      "de la traction"
+    ],
+    "reponse": "de la flexion",
+    "explication": "Elle se courbe."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "TE-C4-5E-INFO-01",
+  "exercices": [
+    {
+      "id": "TE-C4-5E-INFO-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un capteur de distance sert à…",
+      "options": [
+        "acquérir une information",
+        "traiter une information",
+        "produire un mouvement"
+      ],
+      "reponse": "acquérir une information",
+      "indice": "Il mesure.",
+      "explication": "Acquérir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Un afficheur sert à…",
+      "options": [
+        "communiquer une information à l’usager",
+        "mesurer la température",
+        "stocker l’énergie"
+      ],
+      "reponse": "communiquer une information à l’usager",
+      "indice": "Afficher.",
+      "explication": "Communiquer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que signifie IHM ?",
+      "options": [
+        "interface humain-machine",
+        "information haute mémoire",
+        "interrupteur haute marche"
+      ],
+      "reponse": "interface humain-machine",
+      "indice": "Humain-machine.",
+      "explication": "Interface humain-machine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Dans une porte automatique, le détecteur de présence…",
+      "options": [
+        "acquiert",
+        "traite",
+        "distribue l’énergie"
+      ],
+      "reponse": "acquiert",
+      "indice": "Il détecte.",
+      "explication": "Il acquiert l’information.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Le programme est stocké et exécuté dans…",
+      "options": [
+        "le microcontrôleur",
+        "le capteur",
+        "la batterie"
+      ],
+      "reponse": "le microcontrôleur",
+      "indice": "Petit ordinateur.",
+      "explication": "Le microcontrôleur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Un bouton poussoir fait partie…",
+      "options": [
+        "de l’IHM",
+        "de la chaîne d’énergie",
+        "de la structure"
+      ],
+      "reponse": "de l’IHM",
+      "indice": "L’usager appuie.",
+      "explication": "De l’interface humain-machine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Ordre des fonctions de la chaîne d’information ?",
+      "options": [
+        "acquérir, traiter, communiquer",
+        "traiter, acquérir, communiquer",
+        "communiquer, traiter, acquérir"
+      ],
+      "reponse": "acquérir, traiter, communiquer",
+      "indice": "Mesurer d’abord.",
+      "explication": "Acquérir, traiter, communiquer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "TE-C4-5E-INFO-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Un capteur de luminosité permet à un lampadaire de…",
+      "options": [
+        "s’allumer à la tombée de la nuit",
+        "consommer plus",
+        "changer de couleur"
+      ],
+      "reponse": "s’allumer à la tombée de la nuit",
+      "indice": "Il mesure la lumière.",
+      "explication": "Le programme décide d’allumer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "TE-C4-5E-ENV-01",
+  "exemple": "Un sèche-cheveux a une poignée moulée pour la main et une grille qui empêche de toucher la résistance.",
+  "regle": "Un objet technique est en relation avec des **interacteurs** extérieurs : les **usagers**, des **données**, d’**autres objets**, l’**environnement** (pluie, chaleur, sol). L’**ergonomie** adapte l’objet au corps et à l’usage (prise en main, lisibilité). Les choix de **sécurité** protègent l’usager (grille, carter, double isolation).",
+  "piege": "L’environnement est aussi un interacteur : l’eau, la poussière, la température agissent sur l’objet.",
+  "essai": {
+    "consigne": "Pourquoi la poignée d’un outil est-elle souvent moulée ?",
+    "options": [
+      "pour l’ergonomie : une meilleure prise en main",
+      "pour la couleur",
+      "pour réduire le prix uniquement"
+    ],
+    "reponse": "pour l’ergonomie : une meilleure prise en main",
+    "explication": "Elle s’adapte à la main."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
