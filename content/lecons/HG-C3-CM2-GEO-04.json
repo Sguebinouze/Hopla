@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM2-GEO-04",
+  "exemple": "À Strasbourg, des pistes cyclables et un tramway permettent d’aller au travail sans voiture.",
+  "regle": "Les transports **polluent** et émettent des **gaz à effet de serre**. La **voiture** seule et l’**avion** émettent le plus par voyageur. Le **train**, le **tramway**, le **bus**, le **vélo** et la **marche** polluent peu. Les villes aménagent des **pistes cyclables**, des **voies réservées** et encouragent le **covoiturage**.",
+  "piege": "Partager une voiture à quatre divise la pollution par voyageur.",
+  "essai": {
+    "consigne": "Quel moyen de transport pollue le moins ?",
+    "options": [
+      "le vélo",
+      "l’avion",
+      "la voiture seule"
+    ],
+    "reponse": "le vélo",
+    "explication": "Il n’émet aucun gaz."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

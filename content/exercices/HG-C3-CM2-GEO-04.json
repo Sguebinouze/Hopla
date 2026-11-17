@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-CM2-GEO-04",
+  "exercices": [
+    {
+      "id": "HG-C3-CM2-GEO-04-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Le covoiturage, c’est…",
+      "options": [
+        "partager une voiture pour un même trajet",
+        "louer un vélo",
+        "prendre l’avion"
+      ],
+      "reponse": "partager une voiture pour un même trajet",
+      "indice": "Co : ensemble.",
+      "explication": "Partager la voiture.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel transport est un transport en commun ?",
+      "options": [
+        "le tramway",
+        "le vélo personnel",
+        "la trottinette"
+      ],
+      "reponse": "le tramway",
+      "indice": "Plusieurs voyageurs.",
+      "explication": "Le tramway.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel transport émet le plus de CO₂ par voyageur ?",
+      "options": [
+        "l’avion",
+        "le train",
+        "le bus"
+      ],
+      "reponse": "l’avion",
+      "indice": "Kérosène.",
+      "explication": "L’avion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les villes créent-elles des pistes cyclables ?",
+      "options": [
+        "pour encourager le vélo en sécurité",
+        "pour les voitures",
+        "pour les camions"
+      ],
+      "reponse": "pour encourager le vélo en sécurité",
+      "indice": "Mobilité douce.",
+      "explication": "Le vélo en sécurité.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Paris-Marseille : quel choix est le plus durable ?",
+      "options": [
+        "le TGV",
+        "l’avion",
+        "la voiture seul"
+      ],
+      "reponse": "le TGV",
+      "indice": "Électrique.",
+      "explication": "Le train émet très peu.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Une « mobilité douce », c’est…",
+      "options": [
+        "marcher ou rouler à vélo",
+        "conduire lentement",
+        "prendre un taxi"
+      ],
+      "reponse": "marcher ou rouler à vélo",
+      "indice": "Sans moteur.",
+      "explication": "Marche et vélo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi la voiture reste-t-elle indispensable dans certaines campagnes ?",
+      "options": [
+        "il y a peu de transports en commun",
+        "les routes sont fermées",
+        "le vélo est interdit"
+      ],
+      "reponse": "il y a peu de transports en commun",
+      "indice": "Faible densité.",
+      "explication": "Peu de bus et de trains.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quatre personnes covoiturent au lieu de prendre chacune leur voiture. Nombre de voitures ?",
+      "options": [
+        "1 au lieu de 4",
+        "2 au lieu de 4",
+        "4"
+      ],
+      "reponse": "1 au lieu de 4",
+      "indice": "Une seule voiture.",
+      "explication": "Trois voitures en moins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

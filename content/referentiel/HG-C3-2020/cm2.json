@@ -151,6 +151,51 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-04",
+      "titre": "Se déplacer durablement",
+      "domaine": "Géographie",
+      "theme": "Se déplacer",
+      "attendu": "Comparer les modes de transport selon leur pollution et identifier des mobilités durables : vélo, transports en commun, covoiturage.",
+      "exemple": "Un trajet en TGV émet beaucoup moins de CO₂ que le même trajet en avion.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 75,
+        "extrait": "On étudie les déplacements dans le cadre du développement"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05",
+      "titre": "Inégalement connectés",
+      "domaine": "Géographie",
+      "theme": "Communiquer d’un bout à l’autre du monde grâce à l’Internet",
+      "attendu": "Constater les inégalités d’accès à Internet en France et dans le monde, et connaître ses infrastructures.",
+      "exemple": "Des câbles sous-marins relient les continents.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 76,
+        "extrait": "On constate les inégalités d’accès à l’Internet en France et dans le monde"
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "HG-C3-CM2-GEO-06",
+      "titre": "Habiter un écoquartier",
+      "domaine": "Géographie",
+      "theme": "Mieux habiter",
+      "attendu": "Décrire un écoquartier : bâtiments économes, nature en ville, circulations douces, recyclage.",
+      "exemple": "Toits végétalisés, panneaux solaires, pistes cyclables, composteurs partagés.",
+      "source": {
+        "id": "eduscol-cycle-3-2023",
+        "page": 76,
+        "extrait": "l’aménagement d’un écoquartier"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

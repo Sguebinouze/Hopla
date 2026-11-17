@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-CM2-GEO-05",
+  "exercices": [
+    {
+      "id": "HG-C3-CM2-GEO-05-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Une zone blanche est…",
+      "options": [
+        "un lieu mal couvert par le réseau",
+        "un lieu enneigé",
+        "un désert"
+      ],
+      "reponse": "un lieu mal couvert par le réseau",
+      "indice": "Pas de réseau.",
+      "explication": "Une zone sans bonne connexion.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Où sont stockées les données d’Internet ?",
+      "options": [
+        "dans des centres de données",
+        "dans les câbles",
+        "dans les antennes seulement"
+      ],
+      "reponse": "dans des centres de données",
+      "indice": "Data centers.",
+      "explication": "Dans des centres de données.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Les câbles sous-marins sont posés…",
+      "options": [
+        "au fond des océans",
+        "sur les routes",
+        "dans l’espace"
+      ],
+      "reponse": "au fond des océans",
+      "indice": "Sous-marin.",
+      "explication": "Au fond des océans.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Environ quelle part de l’humanité n’a pas accès à Internet ?",
+      "options": [
+        "un habitant sur trois",
+        "un habitant sur cent",
+        "personne"
+      ],
+      "reponse": "un habitant sur trois",
+      "indice": "Inégalités.",
+      "explication": "Environ un tiers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Pourquoi les campagnes sont-elles parfois mal connectées ?",
+      "options": [
+        "installer le réseau coûte cher pour peu d’habitants",
+        "Internet y est interdit",
+        "il y a trop de monde"
+      ],
+      "reponse": "installer le réseau coûte cher pour peu d’habitants",
+      "indice": "Faible densité.",
+      "explication": "Coût élevé pour peu d’usagers.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel continent compte le plus d’habitants non connectés ?",
+      "options": [
+        "l’Afrique",
+        "l’Europe",
+        "l’Amérique du Nord"
+      ],
+      "reponse": "l’Afrique",
+      "indice": "Pays en développement.",
+      "explication": "L’Afrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Pourquoi Internet donne-t-il l’impression d’un monde « proche » ?",
+      "options": [
+        "on communique instantanément à distance",
+        "les pays se rapprochent",
+        "les avions vont plus vite"
+      ],
+      "reponse": "on communique instantanément à distance",
+      "indice": "Immédiateté.",
+      "explication": "La distance compte moins.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "HG-C3-CM2-GEO-05-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Quelle solution aide les zones isolées à se connecter ?",
+      "options": [
+        "l’Internet par satellite",
+        "un câble sous-marin",
+        "un fax"
+      ],
+      "reponse": "l’Internet par satellite",
+      "indice": "Depuis l’espace.",
+      "explication": "Le satellite.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

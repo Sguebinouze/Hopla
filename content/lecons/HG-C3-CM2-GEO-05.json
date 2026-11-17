@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C3-CM2-GEO-05",
+  "exemple": "Au fond des océans, des câbles en fibre optique transportent les messages d’un continent à l’autre.",
+  "regle": "Internet repose sur des **infrastructures** : **câbles sous-marins**, **antennes**, **satellites**, **centres de données**. L’accès est **inégal**. Environ **un habitant sur trois** dans le monde n’est pas connecté, surtout en **Afrique** et dans les **campagnes**. En France, il reste des **zones blanches** mal couvertes.",
+  "piege": "Internet n’est pas « dans les nuages » : il passe surtout par des câbles.",
+  "essai": {
+    "consigne": "Comment passent la plupart des données entre continents ?",
+    "options": [
+      "par des câbles sous-marins",
+      "par la poste",
+      "par les nuages"
+    ],
+    "reponse": "par des câbles sous-marins",
+    "explication": "Des câbles en fibre optique."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
