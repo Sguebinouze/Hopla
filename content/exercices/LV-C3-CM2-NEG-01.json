@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C3-CM2-NEG-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-NEG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « … you like chocolate? »",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "reponse": "Do",
+      "indice": "You.",
+      "explication": "Do you like…?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « I … like milk. »",
+      "options": [
+        "don’t",
+        "doesn’t",
+        "not"
+      ],
+      "reponse": "don’t",
+      "indice": "I.",
+      "explication": "I don’t like.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « She … eat meat. »",
+      "options": [
+        "doesn’t",
+        "don’t",
+        "isn’t"
+      ],
+      "reponse": "doesn’t",
+      "indice": "She.",
+      "explication": "She doesn’t eat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "He doesn’t play the guitar.",
+        "He doesn’t plays the guitar.",
+        "He don’t play the guitar."
+      ],
+      "reponse": "He doesn’t play the guitar.",
+      "indice": "Pas de -s après doesn’t.",
+      "explication": "Doesn’t play.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réponse courte à « Do you have a pet? » (non)",
+      "options": [
+        "No, I don’t.",
+        "No, I doesn’t.",
+        "No, I not."
+      ],
+      "reponse": "No, I don’t.",
+      "indice": "Reprendre do.",
+      "explication": "No, I don’t.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « … your parents speak English? »",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "reponse": "Do",
+      "indice": "Parents = they.",
+      "explication": "Do your parents…?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Aime-t-il les épinards ?",
+      "options": [
+        "non",
+        "oui",
+        "un peu"
+      ],
+      "reponse": "non",
+      "indice": "I don’t.",
+      "explication": "« No, I don’t. »",
+      "ecoute": {
+        "texte": "Do you like spinach? No, I don’t.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-NEG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Transforme à la forme négative : « Tom likes cats. »",
+      "options": [
+        "Tom doesn’t like cats.",
+        "Tom don’t like cats.",
+        "Tom doesn’t likes cats."
+      ],
+      "reponse": "Tom doesn’t like cats.",
+      "indice": "Doesn’t + verbe sans -s.",
+      "explication": "Tom doesn’t like cats.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

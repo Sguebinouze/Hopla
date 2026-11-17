@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C2-CE2-SPORT-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-SPORT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "le football",
+        "le tennis",
+        "la natation"
+      ],
+      "reponse": "le football",
+      "indice": "Avec un ballon et des buts.",
+      "explication": "« football » veut dire le football.",
+      "ecoute": {
+        "texte": "football",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "le tennis",
+        "le basket",
+        "le vélo"
+      ],
+      "reponse": "le tennis",
+      "indice": "Avec une raquette.",
+      "explication": "« tennis » veut dire le tennis.",
+      "ecoute": {
+        "texte": "tennis",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « swim » ?",
+      "options": [
+        "nager",
+        "courir",
+        "sauter"
+      ],
+      "reponse": "nager",
+      "indice": "Dans la piscine.",
+      "explication": "Swim : nager.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I can’t dance » ?",
+      "options": [
+        "Je ne sais pas danser.",
+        "Je sais danser.",
+        "Je veux danser."
+      ],
+      "reponse": "Je ne sais pas danser.",
+      "indice": "Can’t : ne pas savoir.",
+      "explication": "Can’t : ne pas pouvoir, ne pas savoir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « je joue au basket » ?",
+      "options": [
+        "I play basketball.",
+        "I can basketball.",
+        "I like basket."
+      ],
+      "reponse": "I play basketball.",
+      "indice": "Play.",
+      "explication": "I play basketball.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « ride a bike » ?",
+      "options": [
+        "faire du vélo",
+        "faire du cheval",
+        "faire du ski"
+      ],
+      "reponse": "faire du vélo",
+      "indice": "Bike.",
+      "explication": "Ride a bike : faire du vélo.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel sport fait-elle ?",
+      "options": [
+        "le tennis",
+        "le football",
+        "la natation"
+      ],
+      "reponse": "le tennis",
+      "indice": "Tennis.",
+      "explication": "« I play tennis. »",
+      "ecoute": {
+        "texte": "I play tennis on Saturday.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que sait-il faire ?",
+      "options": [
+        "nager",
+        "danser",
+        "faire du vélo"
+      ],
+      "reponse": "nager",
+      "indice": "Swim.",
+      "explication": "« I can swim. »",
+      "ecoute": {
+        "texte": "I can swim very well.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

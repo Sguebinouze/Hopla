@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CE2-FOOD-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-FOOD-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "du pain",
+        "du lait",
+        "du beurre"
+      ],
+      "reponse": "du pain",
+      "indice": "Chez le boulanger.",
+      "explication": "« bread » veut dire du pain.",
+      "ecoute": {
+        "texte": "bread",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "du lait",
+        "de l’eau",
+        "du jus"
+      ],
+      "reponse": "du lait",
+      "indice": "C’est blanc.",
+      "explication": "« milk » veut dire du lait.",
+      "ecoute": {
+        "texte": "milk",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "une pomme",
+        "une banane",
+        "une orange"
+      ],
+      "reponse": "une pomme",
+      "indice": "Un fruit rouge ou vert.",
+      "explication": "« an apple » veut dire une pomme.",
+      "ecoute": {
+        "texte": "an apple",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « une banane » ?",
+      "options": [
+        "a banana",
+        "an banana",
+        "a bananas"
+      ],
+      "reponse": "a banana",
+      "indice": "Commence par b.",
+      "explication": "A banana.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « water » ?",
+      "options": [
+        "de l’eau",
+        "du vin",
+        "du lait"
+      ],
+      "reponse": "de l’eau",
+      "indice": "On en boit beaucoup.",
+      "explication": "Water : eau.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I don’t like fish » ?",
+      "options": [
+        "Je n’aime pas le poisson.",
+        "J’aime le poisson.",
+        "Je pêche un poisson."
+      ],
+      "reponse": "Je n’aime pas le poisson.",
+      "indice": "Don’t like.",
+      "explication": "Je n’aime pas le poisson.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que met-on dans le sandwich ?",
+      "options": [
+        "du fromage et de la tomate",
+        "du poulet",
+        "de la confiture"
+      ],
+      "reponse": "du fromage et de la tomate",
+      "indice": "Cheese, tomato.",
+      "explication": "« Cheese and tomato. »",
+      "ecoute": {
+        "texte": "A sandwich with cheese and tomato.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Qu’aime-t-il ?",
+      "options": [
+        "la pizza",
+        "la soupe",
+        "le poisson"
+      ],
+      "reponse": "la pizza",
+      "indice": "Pizza.",
+      "explication": "« I like pizza. »",
+      "ecoute": {
+        "texte": "I like pizza!",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

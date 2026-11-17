@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C3-CM2-ADJ-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-ADJ-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « un chat noir » ?",
+      "options": [
+        "a black cat",
+        "a cat black",
+        "a blacks cat"
+      ],
+      "reponse": "a black cat",
+      "indice": "Adjectif avant.",
+      "explication": "A black cat.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « deux grandes maisons » ?",
+      "options": [
+        "two big houses",
+        "two bigs houses",
+        "two houses big"
+      ],
+      "reponse": "two big houses",
+      "indice": "Pas de -s à l’adjectif.",
+      "explication": "Two big houses.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "L’adjectif anglais prend-il un -s au pluriel ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement les couleurs"
+      ],
+      "reponse": "non",
+      "indice": "Invariable.",
+      "explication": "Non, jamais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "I like small dogs.",
+        "I like smalls dogs.",
+        "I like dogs smalls."
+      ],
+      "reponse": "I like small dogs.",
+      "indice": "Invariable, avant le nom.",
+      "explication": "Small dogs.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « un petit oiseau jaune » ?",
+      "options": [
+        "a small yellow bird",
+        "a yellow small bird",
+        "a bird small yellow"
+      ],
+      "reponse": "a small yellow bird",
+      "indice": "Taille puis couleur.",
+      "explication": "A small yellow bird.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « une belle journée » ?",
+      "options": [
+        "a beautiful day",
+        "a day beautiful",
+        "a beautifuls day"
+      ],
+      "reponse": "a beautiful day",
+      "indice": "Avant le nom.",
+      "explication": "A beautiful day.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel animal a-t-il ?",
+      "options": [
+        "un gros chien noir",
+        "un petit chat blanc",
+        "un gros chat noir"
+      ],
+      "reponse": "un gros chien noir",
+      "indice": "Big black dog.",
+      "explication": "« A big black dog. »",
+      "ecoute": {
+        "texte": "I have got a big black dog.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-ADJ-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Corrige : « She has got two blues bikes. »",
+      "options": [
+        "She has got two blue bikes.",
+        "She has got two bikes blues.",
+        "She has got two blue bike."
+      ],
+      "reponse": "She has got two blue bikes.",
+      "indice": "Adjectif invariable, nom au pluriel.",
+      "explication": "Two blue bikes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C2-CE2-JOUR-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-JOUR-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « in the morning » ?",
+      "options": [
+        "le matin",
+        "le soir",
+        "la nuit"
+      ],
+      "reponse": "le matin",
+      "indice": "Au réveil.",
+      "explication": "Le matin.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « I get up » ?",
+      "options": [
+        "Je me lève.",
+        "Je me couche.",
+        "Je mange."
+      ],
+      "reponse": "Je me lève.",
+      "indice": "Up : en haut.",
+      "explication": "Je me lève.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « breakfast » ?",
+      "options": [
+        "le petit déjeuner",
+        "le dîner",
+        "le goûter"
+      ],
+      "reponse": "le petit déjeuner",
+      "indice": "Le matin.",
+      "explication": "Le petit déjeuner.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « I go to school » ?",
+      "options": [
+        "Je vais à l’école.",
+        "Je rentre chez moi.",
+        "Je vais au parc."
+      ],
+      "reponse": "Je vais à l’école.",
+      "indice": "School.",
+      "explication": "Je vais à l’école.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « in the evening » ?",
+      "options": [
+        "le soir",
+        "le matin",
+        "à midi"
+      ],
+      "reponse": "le soir",
+      "indice": "Après l’école.",
+      "explication": "Le soir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « le déjeuner » ?",
+      "options": [
+        "lunch",
+        "breakfast",
+        "dinner"
+      ],
+      "reponse": "lunch",
+      "indice": "À midi.",
+      "explication": "Lunch.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que fait-il le matin ?",
+      "options": [
+        "il se lève",
+        "il se couche",
+        "il joue"
+      ],
+      "reponse": "il se lève",
+      "indice": "Get up.",
+      "explication": "« I get up. »",
+      "ecoute": {
+        "texte": "In the morning, I get up at seven.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quand va-t-elle au lit ?",
+      "options": [
+        "le soir",
+        "le matin",
+        "l’après-midi"
+      ],
+      "reponse": "le soir",
+      "indice": "Evening.",
+      "explication": "« In the evening. »",
+      "ecoute": {
+        "texte": "In the evening, I go to bed.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

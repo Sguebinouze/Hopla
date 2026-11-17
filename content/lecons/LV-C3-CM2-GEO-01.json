@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM2-GEO-01",
+  "exemple": "Londres est la capitale de l’Angleterre et du Royaume-Uni. Édimbourg est la capitale de l’Écosse.",
+  "regle": "Le **Royaume-Uni** (**the United Kingdom**) a quatre pays : **England** (Londres), **Scotland** (Édimbourg), **Wales** (Cardiff), **Northern Ireland** (Belfast). On parle aussi anglais aux **États-Unis**, au **Canada**, en **Australie**, en **Irlande**.",
+  "piege": "L’Angleterre n’est qu’un des quatre pays du Royaume-Uni.",
+  "essai": {
+    "consigne": "Quelle est la capitale de l’Écosse ?",
+    "options": [
+      "Édimbourg",
+      "Cardiff",
+      "Belfast"
+    ],
+    "reponse": "Édimbourg",
+    "explication": "Edinburgh."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM2-ADJ-01",
+  "exemple": "« I have got a big black dog and two small cats. »",
+  "regle": "En anglais, l’**adjectif** se place **avant le nom** : a **red** car. Il ne prend **jamais de -s** au pluriel : two **red** cars. Avec deux adjectifs, la **taille** vient avant la **couleur** : a **big black** dog.",
+  "piege": "On dit « two red cars », jamais « two reds cars ».",
+  "essai": {
+    "consigne": "Comment dit-on « une voiture rouge » ?",
+    "options": [
+      "a red car",
+      "a car red",
+      "a reds car"
+    ],
+    "reponse": "a red car",
+    "explication": "Adjectif avant le nom."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

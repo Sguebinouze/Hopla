@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C3-CM2-GEN-01",
+  "exemple": "« This is Lucy’s bag. That is my brother’s bike. »",
+  "regle": "Pour dire **à qui** est un objet, on écrit le **possesseur**, puis **’s**, puis l’**objet**. **Tom’s** bike : le vélo de Tom. Après un pluriel en -s, on ajoute seulement l’**apostrophe** : my **parents’** house.",
+  "piege": "L’ordre est inversé par rapport au français : Tom’s bike = le vélo de Tom.",
+  "essai": {
+    "consigne": "Comment dit-on « le chien de Sam » ?",
+    "options": [
+      "Sam’s dog",
+      "the dog’s Sam",
+      "Sam dog’s"
+    ],
+    "reponse": "Sam’s dog",
+    "explication": "Possesseur + ’s + objet."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

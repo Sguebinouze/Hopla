@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C3-CM2-PORT-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-PORT-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « tall » ?",
+      "options": [
+        "grand",
+        "petit",
+        "gros"
+      ],
+      "reponse": "grand",
+      "indice": "Le contraire de short.",
+      "explication": "Tall : grand.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « funny » ?",
+      "options": [
+        "drôle",
+        "triste",
+        "méchant"
+      ],
+      "reponse": "drôle",
+      "indice": "Il fait rire.",
+      "explication": "Funny : drôle.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « kind » ?",
+      "options": [
+        "gentil",
+        "timide",
+        "rapide"
+      ],
+      "reponse": "gentil",
+      "indice": "Il aide les autres.",
+      "explication": "Kind : gentil.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « She … got long hair. »",
+      "options": [
+        "has",
+        "have",
+        "is"
+      ],
+      "reponse": "has",
+      "indice": "She.",
+      "explication": "She has got.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « des yeux bleus » ?",
+      "options": [
+        "blue eyes",
+        "eyes blue",
+        "blues eyes"
+      ],
+      "reponse": "blue eyes",
+      "indice": "Adjectif avant, invariable.",
+      "explication": "Blue eyes.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « clever » ?",
+      "options": [
+        "intelligent",
+        "paresseux",
+        "bruyant"
+      ],
+      "reponse": "intelligent",
+      "indice": "Bon à l’école.",
+      "explication": "Clever : intelligent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Comment est son amie ?",
+      "options": [
+        "grande avec des cheveux bruns",
+        "petite et blonde",
+        "grande et rousse"
+      ],
+      "reponse": "grande avec des cheveux bruns",
+      "indice": "Tall, brown hair.",
+      "explication": "« She is tall with brown hair. »",
+      "ecoute": {
+        "texte": "My friend Emma is tall. She has got long brown hair.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-PORT-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Quel est son caractère ?",
+      "options": [
+        "drôle et gentil",
+        "timide et triste",
+        "méchant"
+      ],
+      "reponse": "drôle et gentil",
+      "indice": "Funny, kind.",
+      "explication": "« He is funny and kind. »",
+      "ecoute": {
+        "texte": "My brother is funny and kind.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

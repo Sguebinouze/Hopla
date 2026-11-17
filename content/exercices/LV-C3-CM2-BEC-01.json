@@ -1,0 +1,149 @@
+{
+  "competence": "LV-C3-CM2-BEC-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-BEC-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « why » ?",
+      "options": [
+        "pourquoi",
+        "parce que",
+        "quand"
+      ],
+      "reponse": "pourquoi",
+      "indice": "Question.",
+      "explication": "Why : pourquoi.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « but » ?",
+      "options": [
+        "mais",
+        "et",
+        "ou"
+      ],
+      "reponse": "mais",
+      "indice": "Opposition.",
+      "explication": "But : mais.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Complète : « I’m happy … it’s my birthday. »",
+      "options": [
+        "because",
+        "why",
+        "but"
+      ],
+      "reponse": "because",
+      "indice": "La raison.",
+      "explication": "Because.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « I like cats … I don’t like dogs. »",
+      "options": [
+        "but",
+        "because",
+        "or"
+      ],
+      "reponse": "but",
+      "indice": "Opposition.",
+      "explication": "But.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Complète : « Do you want tea … juice? »",
+      "options": [
+        "or",
+        "and",
+        "because"
+      ],
+      "reponse": "or",
+      "indice": "Choix.",
+      "explication": "Or.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Réponds : « Why do you wear a coat? »",
+      "options": [
+        "Because it’s cold.",
+        "Because it’s hot.",
+        "Why it’s cold."
+      ],
+      "reponse": "Because it’s cold.",
+      "indice": "Manteau.",
+      "explication": "Because it’s cold.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi aime-t-elle samedi ?",
+      "options": [
+        "il n’y a pas école",
+        "il y a piscine",
+        "c’est son anniversaire"
+      ],
+      "reponse": "il n’y a pas école",
+      "indice": "No school.",
+      "explication": "« Because there is no school. »",
+      "ecoute": {
+        "texte": "I like Saturday because there is no school.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-BEC-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Pourquoi est-il fatigué ?",
+      "options": [
+        "il a joué au foot",
+        "il a lu",
+        "il a regardé la télé"
+      ],
+      "reponse": "il a joué au foot",
+      "indice": "Football.",
+      "explication": "« Because I played football. »",
+      "ecoute": {
+        "texte": "I’m tired because I played football.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

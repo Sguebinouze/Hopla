@@ -1,0 +1,145 @@
+{
+  "competence": "LV-C3-CM2-GEN-01",
+  "exercices": [
+    {
+      "id": "LV-C3-CM2-GEN-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « Anna’s cat » ?",
+      "options": [
+        "le chat d’Anna",
+        "Anna est un chat",
+        "les chats d’Anna"
+      ],
+      "reponse": "le chat d’Anna",
+      "indice": "’s.",
+      "explication": "Le chat d’Anna.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « le livre de Paul » ?",
+      "options": [
+        "Paul’s book",
+        "the book’s Paul",
+        "book Paul’s"
+      ],
+      "reponse": "Paul’s book",
+      "indice": "Possesseur d’abord.",
+      "explication": "Paul’s book.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Comment dit-on « la voiture de mon père » ?",
+      "options": [
+        "my father’s car",
+        "my car’s father",
+        "the car of my father’s"
+      ],
+      "reponse": "my father’s car",
+      "indice": "Father’s.",
+      "explication": "My father’s car.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « la maison de mes parents » ?",
+      "options": [
+        "my parents’ house",
+        "my parents’s house",
+        "my parent house"
+      ],
+      "reponse": "my parents’ house",
+      "indice": "Pluriel en -s : apostrophe seule.",
+      "explication": "Parents’ house.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « my sister’s room » ?",
+      "options": [
+        "la chambre de ma sœur",
+        "ma sœur est dans la chambre",
+        "les chambres de mes sœurs"
+      ],
+      "reponse": "la chambre de ma sœur",
+      "indice": "’s.",
+      "explication": "La chambre de ma sœur.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment dit-on « le jouet du chien » ?",
+      "options": [
+        "the dog’s toy",
+        "the toy’s dog",
+        "the dog toy’s"
+      ],
+      "reponse": "the dog’s toy",
+      "indice": "Possesseur : the dog.",
+      "explication": "The dog’s toy.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. À qui est le sac ?",
+      "options": [
+        "à Lucy",
+        "à Tom",
+        "à sa mère"
+      ],
+      "reponse": "à Lucy",
+      "indice": "Lucy’s.",
+      "explication": "« This is Lucy’s bag. »",
+      "ecoute": {
+        "texte": "This is Lucy’s bag.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C3-CM2-GEN-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « les jouets des enfants » ?",
+      "options": [
+        "the children’s toys",
+        "the childrens’ toys",
+        "the toys’ children"
+      ],
+      "reponse": "the children’s toys",
+      "indice": "Children ne finit pas par s.",
+      "explication": "Children’s : on ajoute ’s.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

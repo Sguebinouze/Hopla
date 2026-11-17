@@ -1,0 +1,157 @@
+{
+  "competence": "LV-C2-CE2-MAG-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-MAG-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "le parc",
+        "la piscine",
+        "la gare"
+      ],
+      "reponse": "le parc",
+      "indice": "On y joue dehors.",
+      "explication": "« the park » veut dire le parc.",
+      "ecoute": {
+        "texte": "the park",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "la boulangerie",
+        "la bibliothèque",
+        "le parc"
+      ],
+      "reponse": "la boulangerie",
+      "indice": "On y achète du pain.",
+      "explication": "« the bakery » veut dire la boulangerie.",
+      "ecoute": {
+        "texte": "the bakery",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Que veut dire « the library » ?",
+      "options": [
+        "la bibliothèque",
+        "la librairie",
+        "le lycée"
+      ],
+      "reponse": "la bibliothèque",
+      "indice": "On emprunte des livres.",
+      "explication": "La bibliothèque.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « the supermarket » ?",
+      "options": [
+        "le supermarché",
+        "le marché aux puces",
+        "le musée"
+      ],
+      "reponse": "le supermarché",
+      "indice": "Super.",
+      "explication": "Le supermarché.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Comment demander un prix ?",
+      "options": [
+        "How much is it?",
+        "How old are you?",
+        "Where is it?"
+      ],
+      "reponse": "How much is it?",
+      "indice": "How much.",
+      "explication": "How much is it?",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « It’s two pounds » ?",
+      "options": [
+        "Ça coûte deux livres.",
+        "Il est deux heures.",
+        "J’ai deux ans."
+      ],
+      "reponse": "Ça coûte deux livres.",
+      "indice": "La monnaie anglaise.",
+      "explication": "Deux livres sterling.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Où va-t-elle ?",
+      "options": [
+        "à la boulangerie",
+        "au parc",
+        "à la bibliothèque"
+      ],
+      "reponse": "à la boulangerie",
+      "indice": "Bakery.",
+      "explication": "« I go to the bakery. »",
+      "ecoute": {
+        "texte": "I go to the bakery.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Combien coûte la pomme ?",
+      "options": [
+        "une livre",
+        "deux livres",
+        "cinq livres"
+      ],
+      "reponse": "une livre",
+      "indice": "One pound.",
+      "explication": "« It’s one pound. »",
+      "ecoute": {
+        "texte": "The apple is one pound.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

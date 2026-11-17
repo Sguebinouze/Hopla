@@ -1,0 +1,161 @@
+{
+  "competence": "LV-C2-CE2-ECOLE-01",
+  "exercices": [
+    {
+      "id": "LV-C2-CE2-ECOLE-01-001",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un crayon",
+        "une règle",
+        "un cartable"
+      ],
+      "reponse": "un crayon",
+      "indice": "Pour écrire.",
+      "explication": "« a pencil » veut dire un crayon.",
+      "ecoute": {
+        "texte": "a pencil",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-002",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "une gomme",
+        "un stylo",
+        "un livre"
+      ],
+      "reponse": "une gomme",
+      "indice": "Pour effacer.",
+      "explication": "« a rubber » veut dire une gomme.",
+      "ecoute": {
+        "texte": "a rubber",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-003",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un livre",
+        "un cahier",
+        "une trousse"
+      ],
+      "reponse": "un livre",
+      "indice": "On le lit.",
+      "explication": "« a book » veut dire un livre.",
+      "ecoute": {
+        "texte": "a book",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-004",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Écoute. Qu’entends-tu ?",
+      "options": [
+        "un cartable",
+        "une règle",
+        "un crayon"
+      ],
+      "reponse": "un cartable",
+      "indice": "Sur le dos.",
+      "explication": "« a schoolbag » veut dire un cartable.",
+      "ecoute": {
+        "texte": "a schoolbag",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-005",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Open your book » ?",
+      "options": [
+        "Ouvre ton livre.",
+        "Ferme ton livre.",
+        "Lis ton livre."
+      ],
+      "reponse": "Ouvre ton livre.",
+      "indice": "Open : ouvrir.",
+      "explication": "Open : ouvrir.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-006",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Que veut dire « Put away your pen » ?",
+      "options": [
+        "Range ton stylo.",
+        "Sors ton stylo.",
+        "Prête ton stylo."
+      ],
+      "reponse": "Range ton stylo.",
+      "indice": "Put away : ranger.",
+      "explication": "Put away : ranger.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-007",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Écoute. Que doit-il sortir ?",
+      "options": [
+        "sa règle",
+        "sa gomme",
+        "son livre"
+      ],
+      "reponse": "sa règle",
+      "indice": "Ruler.",
+      "explication": "« Ruler » veut dire règle.",
+      "ecoute": {
+        "texte": "Take out your ruler, please.",
+        "langue": "en-GB"
+      },
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01-008",
+      "gabarit": "qcm",
+      "difficulte": 3,
+      "consigne": "Comment dit-on « une gomme » ?",
+      "options": [
+        "a rubber",
+        "a ruler",
+        "a pen"
+      ],
+      "reponse": "a rubber",
+      "indice": "Pour effacer.",
+      "explication": "A rubber.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null
+    }
+  ]
+}

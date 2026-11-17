@@ -136,6 +136,96 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-ECOLE-01",
+      "titre": "Les objets de la classe",
+      "domaine": "Comprendre l’oral",
+      "theme": "Les activités scolaires",
+      "attendu": "Nommer les objets de la classe et comprendre des consignes simples.",
+      "exemple": "a pencil, a rubber, a ruler, a schoolbag",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Les activités scolaires."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-SPORT-01",
+      "titre": "Sports et loisirs",
+      "domaine": "Comprendre l’oral",
+      "theme": "Le sport",
+      "attendu": "Dire quel sport on pratique avec « I play » ou « I can ».",
+      "exemple": "I play football. I can swim.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Le sport."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-JOUR-01",
+      "titre": "Ma journée",
+      "domaine": "Comprendre l’oral",
+      "theme": "L’organisation de la journée",
+      "attendu": "Comprendre les moments de la journée et quelques actions quotidiennes.",
+      "exemple": "I get up. I go to school. I go to bed.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "L’organisation de la journée."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-MAG-01",
+      "titre": "Au magasin",
+      "domaine": "Comprendre l’oral",
+      "theme": "La vie quotidienne, les commerces, les lieux publics",
+      "attendu": "Nommer quelques commerces et lieux publics, et demander un prix.",
+      "exemple": "the bakery, the park, the library. How much is it?",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "les lieux publics."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-DRAP-01",
+      "titre": "Drapeaux et monnaies",
+      "domaine": "Comprendre l’oral",
+      "theme": "Les drapeaux et monnaies",
+      "attendu": "Reconnaître le drapeau et la monnaie du Royaume-Uni et des États-Unis.",
+      "exemple": "The Union Jack. The pound. The dollar.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Les drapeaux et monnaies."
+      },
+      "prerequis": [],
+      "statut": "verifie"
+    },
+    {
+      "id": "LV-C2-CE2-FOOD-01",
+      "titre": "La nourriture",
+      "domaine": "Comprendre l’oral",
+      "theme": "Les recettes",
+      "attendu": "Nommer quelques aliments et dire ce que l’on aime manger.",
+      "exemple": "bread, milk, an apple, cheese. I like pizza.",
+      "source": {
+        "id": "bo31-2020-cycles-2-3-4",
+        "page": 52,
+        "extrait": "Les recettes."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

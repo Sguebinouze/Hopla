@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-FOOD-01",
+  "exemple": "« For a sandwich: bread, cheese and tomato. Yummy! »",
+  "regle": "**Bread** : du pain. **Milk** : du lait. **Cheese** : du fromage. **An apple** : une pomme. **A banana** : une banane. **Water** : de l’eau. **I like pizza** : j’aime la pizza.",
+  "piege": "On dit **an apple** car apple commence par une voyelle.",
+  "essai": {
+    "consigne": "Que veut dire « cheese » ?",
+    "options": [
+      "du fromage",
+      "du lait",
+      "du pain"
+    ],
+    "reponse": "du fromage",
+    "explication": "Cheese : fromage."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

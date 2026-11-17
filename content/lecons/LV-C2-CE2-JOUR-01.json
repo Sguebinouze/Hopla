@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-JOUR-01",
+  "exemple": "« In the morning, I get up and I have breakfast. »",
+  "regle": "**In the morning** : le matin. **In the afternoon** : l’après-midi. **In the evening** : le soir. **I get up** : je me lève. **I have breakfast** : je prends mon petit déjeuner. **I go to bed** : je vais me coucher.",
+  "piege": "**Breakfast** est le petit déjeuner, **lunch** le déjeuner.",
+  "essai": {
+    "consigne": "Que veut dire « I go to bed » ?",
+    "options": [
+      "Je vais me coucher.",
+      "Je me lève.",
+      "Je vais à l’école."
+    ],
+    "reponse": "Je vais me coucher.",
+    "explication": "Bed : lit."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

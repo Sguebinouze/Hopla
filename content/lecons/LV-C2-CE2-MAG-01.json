@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-MAG-01",
+  "exemple": "« How much is the apple? » « It’s one pound. »",
+  "regle": "**The bakery** : la boulangerie. **The supermarket** : le supermarché. **The park** : le parc. **The library** : la bibliothèque. **How much is it?** : combien ça coûte ?",
+  "piege": "**Library** veut dire bibliothèque, pas librairie.",
+  "essai": {
+    "consigne": "Que veut dire « How much is it? » ?",
+    "options": [
+      "Combien ça coûte ?",
+      "Où est-ce ?",
+      "Qu’est-ce que c’est ?"
+    ],
+    "reponse": "Combien ça coûte ?",
+    "explication": "On demande un prix."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

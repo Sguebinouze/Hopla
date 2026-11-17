@@ -1,0 +1,19 @@
+{
+  "competence": "LV-C2-CE2-DRAP-01",
+  "exemple": "Au Royaume-Uni, on paie en livres. Aux États-Unis, on paie en dollars.",
+  "regle": "Le drapeau du Royaume-Uni s’appelle **the Union Jack**. Il est **bleu, blanc et rouge**. Sa monnaie est **la livre** (**the pound**). Le drapeau américain a des **étoiles** et des **rayures**. Sa monnaie est **le dollar**.",
+  "piege": "Le Royaume-Uni n’utilise pas l’euro.",
+  "essai": {
+    "consigne": "Quelle est la monnaie du Royaume-Uni ?",
+    "options": [
+      "la livre",
+      "l’euro",
+      "le dollar"
+    ],
+    "reponse": "la livre",
+    "explication": "The pound."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
