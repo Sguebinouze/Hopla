@@ -1,0 +1,19 @@
+{
+  "competence": "HG-C4-4E-GEO-05",
+  "exemple": "Londres compte six aéroports, une grande bourse et les sièges de nombreuses entreprises mondiales.",
+  "regle": "Les **métropoles mondiales** (New York, Londres, Tokyo, Paris) concentrent les **fonctions de commandement** : sièges d’entreprises, bourses, universités, institutions. Elles sont reliées par des **hubs** (aéroports, ports) et des réseaux numériques. D’autres villes restent **en marge** de la mondialisation.",
+  "piege": "Une ville très peuplée n’est pas forcément une métropole mondiale : Kinshasa est immense mais peu connectée.",
+  "essai": {
+    "consigne": "Quelle ville est une métropole mondiale ?",
+    "options": [
+      "Londres",
+      "Rodez",
+      "Tombouctou"
+    ],
+    "reponse": "Londres",
+    "explication": "Elle concentre finance, sièges et transports."
+  },
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
