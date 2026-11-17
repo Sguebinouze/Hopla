@@ -31,11 +31,11 @@ export function Profils() {
     })();
   }, [naviguer]);
 
-  if (connecte === null) return <main className="ecran" aria-busy="true" />;
+  if (connecte === null) return <main className="ecran ecran--etroit" aria-busy="true" />;
 
   if (!connecte) {
     return (
-      <main className="ecran ouverture">
+      <main className="ecran ecran--etroit ouverture">
         <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
         <div className="ouverture__corps">
           <Octave taille={120} />
@@ -56,7 +56,7 @@ export function Profils() {
   }
 
   return (
-    <main className="ecran">
+    <main className="ecran ecran--etroit">
       <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
       <div className="hp-bubble">
         <Octave taille={88} />

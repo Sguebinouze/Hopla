@@ -15,7 +15,7 @@ export function Appairer() {
   const [enCours, setEnCours] = useState(false);
 
   return (
-    <main className="ecran">
+    <main className="ecran ecran--etroit">
       <div className="ligne">
         <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
         <h1 className="titre-2 pousse">Associer cet appareil</h1>

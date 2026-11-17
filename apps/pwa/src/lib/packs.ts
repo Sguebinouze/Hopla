@@ -160,8 +160,26 @@ const melanger = <T>(liste: T[]): T[] => {
   return copie;
 };
 
-/** Une série d'items pour une compétence, de difficulté croissante, sans doublon. */
-export function seriePour(c: CompetencePack, n: number): ItemPack[] {
+/** Clé d'une question, indépendante de l'ordre des options (le générateur les mélange). */
+export const cleItem = (it: Item) =>
+  `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${[...(it.options ?? [])].sort().join('|')}`;
+
+/** Texte support d'une question : long passage entre guillemets en tête de consigne (texte à lire, par exemple). */
+export const supportDe = (consigne: string) => consigne.match(/^« ([^»]{25,}) »/)?.[1] ?? null;
+
+/** Marques d'une série, à retenir pour ne pas la reproposer tout de suite. */
+export const marquesDe = (items: Item[]) =>
+  items.flatMap((it) => {
+    const s = supportDe(it.consigne);
+    return s ? [cleItem(it), `support:${s}`] : [cleItem(it)];
+  });
+
+/**
+ * Une série d'items pour une compétence, de difficulté croissante, sans doublon.
+ * On évite aussi de reprendre deux fois le même texte support dans la série,
+ * et ce qui a été vu dans les séries récentes (`recentes`), tant que la banque le permet.
+ */
+export function seriePour(c: CompetencePack, n: number, recentes: ReadonlySet<string> = new Set()): ItemPack[] {
   const rediges: ItemPack[] = c.exercices
     .filter((e) => e.gabarit === 'qcm' || e.gabarit === 'saisie')
     .map((e) => ({
@@ -179,12 +197,21 @@ export function seriePour(c: CompetencePack, n: number): ItemPack[] {
       ecoute: e.ecoute,
     }));
   const graine = Math.floor(Math.random() * 1e9);
-  const cle = (it: Item) => `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${(it.options ?? []).join('|')}`;
   const vus = new Set<string>();
+  const supports = new Set<string>();
   const items: ItemPack[] = [];
-  for (let k = 0; items.length < n && k < n * 30; k++) {
+  // Exigence décroissante : d'abord rien de récent ni de texte déjà lu, puis seulement pas de texte déjà lu, puis pas de doublon.
+  const refuse = (it: Item, k: number) => {
+    const cle = cleItem(it);
+    if (vus.has(cle)) return true;
+    const s = supportDe(it.consigne);
+    if (k < n * 30 && s && supports.has(s)) return true;
+    if (k < n * 15 && (recentes.has(cle) || (s !== null && recentes.has(`support:${s}`)))) return true;
+    return false;
+  };
+  for (let k = 0; items.length < n && k < n * 40; k++) {
     const d = PALIERS[Math.min(items.length, PALIERS.length - 1)]!;
-    const libres = rediges.filter((e) => !vus.has(cle(e)));
+    const libres = rediges.filter((e) => !refuse(e, k));
     const auPalier = libres.filter((e) => e.difficulte === d);
     const prendreRedige = libres.length > 0 && (c.generateurs.length === 0 || (auPalier.length > 0 && Math.random() < 0.3));
     const item = prendreRedige
@@ -192,12 +219,39 @@ export function seriePour(c: CompetencePack, n: number): ItemPack[] {
       : c.generateurs.length
         ? serie(hasard(c.generateurs), 1, graine + k * 7_919, d)[0]
         : undefined;
-    if (!item) break;
-    if (vus.has(cle(item))) continue;
-    vus.add(cle(item));
+    if (!item) {
+      if (c.generateurs.length === 0 && libres.length === 0 && k < n * 30) continue;
+      break;
+    }
+    if (refuse(item, k)) continue;
+    vus.add(cleItem(item));
+    const s = supportDe(item.consigne);
+    if (s) supports.add(s);
     items.push(item);
   }
   return items;
+}
+
+// Séries récentes, par enfant et par notion, gardées sur l'appareil.
+const CLE_RECENTES = 'hopla.recentes';
+const MAX_RECENTES = 40;
+export function questionsRecentes(enfant: string, competence: string): Set<string> {
+  try {
+    const t = JSON.parse(localStorage.getItem(CLE_RECENTES) ?? '{}') as Record<string, string[]>;
+    return new Set(t[`${enfant}/${competence}`] ?? []);
+  } catch {
+    return new Set();
+  }
+}
+export function noterRecentes(enfant: string, competence: string, items: Item[]): void {
+  try {
+    const t = JSON.parse(localStorage.getItem(CLE_RECENTES) ?? '{}') as Record<string, string[]>;
+    const cle = `${enfant}/${competence}`;
+    t[cle] = [...marquesDe(items), ...(t[cle] ?? [])].slice(0, MAX_RECENTES);
+    localStorage.setItem(CLE_RECENTES, JSON.stringify(t));
+  } catch {
+    /* stockage indisponible : seule la série en cours évite les répétitions */
+  }
 }
 
 /** Pack sans les matières masquées par le parent. */

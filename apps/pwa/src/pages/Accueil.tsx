@@ -123,6 +123,7 @@ export function Accueil() {
           </div>
         </div>
       ) : null}
+      <div className="accueil-haut">
       <section className="hp-mission" style={{ width: 'auto' }}>
         <div className="ligne">
           <Octave taille={46} />
@@ -142,6 +143,7 @@ export function Accueil() {
         )}
       </section>
 
+      <div className="accueil-cote">
       <DefiFamille />
 
       {pack && (jeuxActifs || cultureActive) && (
@@ -161,6 +163,8 @@ export function Accueil() {
           )}
         </section>
       )}
+      </div>
+      </div>
 
       {pack && (
         <>
@@ -187,7 +191,7 @@ export function Accueil() {
       )}
 
       {pack && pack.defis.length > 0 && (
-        <section className="liste-notions">
+        <section className="liste-notions liste-defis">
           <h2 className="titre-2">Défis chrono</h2>
           {pack.defis.map((d) => (
             <Link key={d.id} to={`/defi/${d.id}`} className="hp-skill notion">
@@ -203,6 +207,7 @@ export function Accueil() {
         </section>
       )}
 
+      <div className="raccourcis">
       <Link to="/controle" className="hp-skill notion">
         <span className="hp-skill__main">
           <span className="hp-skill__name">{prevu ? `Contrôle ${dateLisible(prevu.date)}` : 'Un contrôle bientôt ?'}</span>
@@ -228,6 +233,7 @@ export function Accueil() {
         </span>
         <span className="hp-chip hp-chip--sun"><Icone nom="cahier" taille={16} />{cahier ? 'Continuer' : 'Ouvrir'}</span>
       </Link>
+      </div>
 
       <div className="pousse" />
       {voixDisponible() && voixAuto !== null && (

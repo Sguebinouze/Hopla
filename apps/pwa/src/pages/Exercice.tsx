@@ -8,7 +8,7 @@ import { Visuel } from '../composants/Visuel';
 import { api } from '../lib/donnees';
 import { tempsEcoule } from '../lib/temps';
 import { FinDuJour } from '../composants/FinDuJour';
-import { chargerPack, competencesJouables, seriePour, type ItemPack } from '../lib/packs';
+import { chargerPack, competencesJouables, noterRecentes, questionsRecentes, seriePour, supportDe, type ItemPack } from '../lib/packs';
 import { dire, lectureAuto, taire, voixPour } from '../lib/voix';
 
 const TAILLE_SERIE = 5;
@@ -38,7 +38,9 @@ export function Exercice() {
         if (!c) return naviguer('/accueil');
         setALecon(c.lecon !== null && c.lecon !== undefined);
         setCycle(pack.cycle);
-        setItems(seriePour(c, TAILLE_SERIE));
+        const serieDuJour = seriePour(c, TAILLE_SERIE, questionsRecentes(enfant.id, c.id));
+        noterRecentes(enfant.id, c.id, serieDuJour);
+        setItems(serieDuJour);
       } catch {
         naviguer('/accueil');
       }
@@ -46,6 +48,9 @@ export function Exercice() {
   }, [competence, naviguer]);
 
   const item = items[rang];
+  // Un texte à lire en tête de consigne s'affiche à part, la question en dessous.
+  const support = item ? supportDe(item.consigne) : null;
+  const question = item && support ? item.consigne.slice(item.consigne.indexOf('»') + 1).trim() : '';
 
   // Au cycle 2, Octave lit chaque consigne (réglable) : un enfant de CP ne lit pas encore seul.
   // Langue vivante : la phrase à comprendre est dite en anglais, après la consigne si elle est lue.
@@ -115,10 +120,20 @@ export function Exercice() {
 
       <div className="exercice">
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-          <div className="consigne">
-            <h1 className="titre-1 pousse">{item.consigne}</h1>
-            <BoutonVoix texte={item.consigne} label="Écouter la consigne" />
-          </div>
+          {support ? (
+            <>
+              <div className="support">
+                <p className="support__texte pousse">{support}</p>
+                <BoutonVoix texte={item.consigne} label="Écouter le texte et la question" />
+              </div>
+              <h1 className="titre-1">{question}</h1>
+            </>
+          ) : (
+            <div className="consigne">
+              <h1 className="titre-1 pousse">{item.consigne}</h1>
+              <BoutonVoix texte={item.consigne} label="Écouter la consigne" />
+            </div>
+          )}
           {item.ecoute && (
             <div className="ecoute">
               {voixPour(item.ecoute.langue) ? (

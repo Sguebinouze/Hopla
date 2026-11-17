@@ -36,7 +36,7 @@ export function Demarrer() {
     })();
   }, [naviguer, params]);
 
-  if (!etape) return <main className="ecran" aria-busy="true" />;
+  if (!etape) return <main className="ecran ecran--etroit" aria-busy="true" />;
   const n = NUMERO[etape];
   const suite = (e: Etape) => { setMessage(''); setEtape(e); window.scrollTo(0, 0); };
 

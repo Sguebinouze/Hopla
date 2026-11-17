@@ -17,7 +17,10 @@ function choisirVoix() {
     const debut = langue.slice(0, 2);
     const proches = toutes.filter((v) => v.lang.toLowerCase().startsWith(debut));
     const exacte = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-') === langue;
-    voix[langue] = proches.find((v) => exacte(v) && v.localService) ?? proches.find(exacte) ?? proches[0] ?? null;
+    // Les voix « améliorées » ou « premium » (iPad, Mac) sont bien plus naturelles que les voix compactes.
+    const soignee = (v: SpeechSynthesisVoice) => /premium|enhanced|amélioré|natural|neural/i.test(v.name);
+    voix[langue] = proches.find((v) => exacte(v) && soignee(v)) ?? proches.find((v) => exacte(v) && v.localService)
+      ?? proches.find(exacte) ?? proches[0] ?? null;
   }
 }
 
@@ -32,20 +35,39 @@ if (voixDisponible()) {
   speechSynthesis.addEventListener?.('voiceschanged', choisirVoix);
 }
 
+/**
+ * Découpe un texte en phrases, lues l'une après l'autre : la synthèse vocale de certains appareils
+ * (iPad notamment) enchaine les phrases sans marquer les points. Chaque phrase garde sa ponctuation finale.
+ */
+export function phrases(texte: string): string[] {
+  return texte
+    .split(/(?<=[.!?…:;])\s+|\n+/)
+    .map((p) => p.trim())
+    .filter((p) => /[\p{L}\p{N}]/u.test(p));
+}
+
 /** Lit un texte à voix haute ; coupe la lecture en cours, sauf si `ensuite` (le texte suit la lecture en cours). */
 export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
   if (!voixDisponible() || !texte.trim()) return;
   if (!ensuite) speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(langue === 'fr-FR' ? pourLaVoix(texte) : texte);
-  u.lang = langue;
-  u.rate = langue === 'fr-FR' ? 0.92 : 0.8;
-  const v = voix[langue];
-  if (v) u.voice = v;
-  if (surFin) {
-    u.onend = surFin;
-    u.onerror = surFin;
-  }
-  speechSynthesis.speak(u);
+  const morceaux = phrases(langue === 'fr-FR' ? pourLaVoix(texte) : texte);
+  let fini = false;
+  const terminer = () => {
+    if (fini) return;
+    fini = true;
+    surFin?.();
+  };
+  morceaux.forEach((m, i) => {
+    const u = new SpeechSynthesisUtterance(m);
+    u.lang = langue;
+    u.rate = langue === 'fr-FR' ? 0.9 : 0.8;
+    const v = voix[langue];
+    if (v) u.voice = v;
+    if (i === morceaux.length - 1) u.onend = terminer;
+    u.onerror = terminer;
+    speechSynthesis.speak(u);
+  });
+  if (morceaux.length === 0) terminer();
 }
 
 export function taire() {

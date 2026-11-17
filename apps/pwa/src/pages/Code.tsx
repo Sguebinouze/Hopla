@@ -29,11 +29,11 @@ export function Code() {
     })();
   }, [saisie, id, naviguer]);
 
-  if (!profil) return <main className="ecran" aria-busy="true" />;
+  if (!profil) return <main className="ecran ecran--etroit" aria-busy="true" />;
   const pictos = profil.code_type === 'pictos';
 
   return (
-    <main className="ecran" style={{ alignItems: 'center' }}>
+    <main className="ecran ecran--etroit" style={{ alignItems: 'center' }}>
       <Link to="/" className="hp-iconbtn" aria-label="Retour au choix du profil" style={{ alignSelf: 'flex-start' }}><Icone nom="retour" /></Link>
       <Avatar teinte={profil.avatar} taille={88} />
       <h1 className="titre-1">Bonjour {profil.prenom}</h1>

@@ -50,6 +50,30 @@ a { color: var(--primary); }
 .formulaire label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; font-weight: 600; }
 .formulaire input, .formulaire select { min-height: var(--target-min); border: 2px solid var(--line); border-radius: var(--radius-sm); padding: 0 var(--space-3); font: inherit; font-weight: 400; background: var(--surface-1); color: var(--ink); }
 
+/* Texte à lire d'un exercice (compréhension) : à part, au-dessus de la question. */
+.support { display: flex; align-items: flex-start; gap: var(--space-2); padding: var(--space-3) var(--space-4); background: var(--surface-1); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); border-left: 4px solid var(--octave); }
+.support__texte { margin: 0; font-size: 20px; line-height: 1.5; }
+
+/* Accueil : blocs regroupés, mis côte à côte sur tablette. */
+.accueil-haut, .accueil-cote, .raccourcis { display: flex; flex-direction: column; gap: var(--space-3); }
+
+/* Tablette : on profite de la largeur, sauf pour les formulaires courts (connexion, code, appairage). */
+@media (min-width: 760px) {
+  .ecran { max-width: 940px; padding: var(--space-5) var(--space-6); }
+  .ecran--etroit { max-width: 560px; }
+  .titre-1 { font-size: 30px; }
+  .titre-2 { font-size: 21px; }
+  .accueil-haut { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: start; }
+  .grille-matieres { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-3); }
+  .liste-defis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .liste-defis > .titre-2 { grid-column: 1 / -1; }
+  .raccourcis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); }
+  .raccourcis .hp-skill { flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; gap: var(--space-2); }
+  .raccourcis .hp-skill__main { flex: 1 1 auto; }
+  .liste-jeux { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .controle__pied { max-width: 940px; padding-left: var(--space-6); padding-right: var(--space-6); }
+}
+
 @media (min-width: 900px) {
   .exercice { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: var(--space-5); align-items: start; }
   .grille-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }

@@ -7,7 +7,7 @@ export const CONTACT = 'hopla.news@gmail.com';
 export function Confidentialite() {
   const naviguer = useNavigate();
   return (
-    <main className="ecran confidentialite">
+    <main className="ecran ecran--etroit confidentialite">
       <div className="ligne">
         <button type="button" className="hp-iconbtn" aria-label="Retour" onClick={() => naviguer(-1)}><Icone nom="retour" /></button>
         <h1 className="titre-2 pousse">Confidentialité</h1>

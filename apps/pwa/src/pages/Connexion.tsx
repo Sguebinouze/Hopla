@@ -32,7 +32,7 @@ export function Connexion() {
   };
 
   return (
-    <main className="ecran">
+    <main className="ecran ecran--etroit">
       <div className="ligne">
         <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
         <span className="pousse" />
