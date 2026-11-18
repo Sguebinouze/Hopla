@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { CompetencePack } from './packs';
-import { indexer, normaliser, ranger, rechercher } from './recherche';
+import type { Suivi } from './progression';
+import { aFaire, indexer, normaliser, ranger, rechercher } from './recherche';
 
 const notion = (id: string, titre: string, domaine: string, theme: string, attendu = ''): CompetencePack => ({
   id, titre, domaine, theme, attendu, exemple: '', statut: 'verifie', source: { id: 's', page: 1 }, generateurs: [], lecon: null, exercices: [],
@@ -48,5 +49,22 @@ describe('rangement', () => {
       ['La géométrie plane', ['a', 'd', 'f']],
       ['Les solides', ['e']],
     ]);
+  });
+});
+
+describe('à faire maintenant', () => {
+  const lecon = { titre: 't', regle: 'r', exemple: 'e' } as unknown as CompetencePack['lecon'];
+  const avecLecon = N.map((c) => ({ ...c, lecon }));
+  const vu = (prochaineRevision: string): Suivi => ({ score: 0.5, nbEssais: 2, prochaineRevision, reussitesEspacees: 0, derniereReussite: null });
+  it('rien de travaillé : la première notion du programme rangé', () => {
+    expect(aFaire(avecLecon, {}, '2026-11-18')).toEqual({ aRevoir: [], suivante: avecLecon[0] });
+  });
+  it('les révisions dues d’abord, la plus ancienne en tête, puis la suivante jamais vue', () => {
+    const r = aFaire(avecLecon, { a: vu('2026-11-17'), d: vu('2026-11-10'), f: vu('2026-12-01') }, '2026-11-18');
+    expect(r.aRevoir.map((c) => c.id)).toEqual(['d', 'a']);
+    expect(r.suivante?.id).toBe('e');
+  });
+  it('ignore les notions sans leçon ni exercice', () => {
+    expect(aFaire(N, {}, '2026-11-18').suivante).toBeNull();
   });
 });

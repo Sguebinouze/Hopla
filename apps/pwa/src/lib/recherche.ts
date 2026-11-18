@@ -1,4 +1,5 @@
 import type { CompetencePack } from './packs';
+import { aujourdhui, etat, type Suivi } from './progression';
 
 /** Minuscules, sans accents ni ponctuation : « Théorème de Pythagore » → « theoreme de pythagore ». */
 export const normaliser = (s: string) =>
@@ -71,4 +72,19 @@ export function ranger(competences: CompetencePack[]): { domaine: string; themes
     d.set(c.theme, [...(d.get(c.theme) ?? []), c]);
   }
   return [...domaines].map(([domaine, t]) => ({ domaine, themes: [...t].map(([theme, notions]) => ({ theme, notions })) }));
+}
+
+/**
+ * Ce que l'élève a intérêt à ouvrir en arrivant sur la matière : les notions dont la révision est due
+ * (les plus anciennes d'abord, 3 au plus), puis la première notion jamais travaillée dans l'ordre du programme.
+ */
+export function aFaire(competences: CompetencePack[], suivi: Record<string, Suivi>, jour = aujourdhui()): { aRevoir: CompetencePack[]; suivante: CompetencePack | null } {
+  const ouvrable = (c: CompetencePack) => !!c.lecon || c.generateurs.length > 0 || c.exercices.length > 0;
+  const aRevoir = competences
+    .filter((c) => etat(suivi[c.id], jour) === 'a-revoir')
+    .sort((a, b) => suivi[a.id]!.prochaineRevision.localeCompare(suivi[b.id]!.prochaineRevision))
+    .slice(0, 3);
+  const ordre = ranger(competences).flatMap((d) => d.themes.flatMap((t) => t.notions));
+  const suivante = ordre.find((c) => ouvrable(c) && etat(suivi[c.id], jour) === 'nouveau') ?? null;
+  return { aRevoir, suivante };
 }

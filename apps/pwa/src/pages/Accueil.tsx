@@ -15,13 +15,8 @@ import { chargerPack, competencesJouables, missionDuJour, NOMS_MATIERES, sansMat
 import { aujourdhui, bilan, etat, type Suivi } from '../lib/progression';
 import { dateLisible } from '../lib/entrainement';
 import { missionFaite } from '../jeux/regles';
+import { COULEUR_MATIERE } from '../lib/couleurs';
 import type { Cahier, ControlePrevu } from '../lib/donnees';
-
-const COULEUR_MATIERE: Record<string, string> = {
-  francais: 'hp-subj-francais', mathematiques: 'hp-subj-maths', 'questionner-le-monde': 'hp-subj-histgeo',
-  'histoire-geographie': 'hp-subj-histgeo', 'sciences-technologie': 'hp-subj-sciences', svt: 'hp-subj-sciences',
-  'physique-chimie': 'hp-subj-physique', technologie: 'hp-subj-techno', 'langues-vivantes': 'hp-subj-langues', allemand: 'hp-subj-langues', espagnol: 'hp-subj-langues', emc: 'hp-subj-emc',
-};
 
 export function Accueil() {
   const naviguer = useNavigate();
