@@ -77,8 +77,8 @@ async function synthetiser(t: TexteLu, chemin: string) {
       return;
     }
     // Quota par minute dépassé ou erreur passagère : on attend et on réessaie.
-    if ((r.status === 429 || r.status >= 500) && essai < 6) {
-      await new Promise((ok) => setTimeout(ok, 2000 * essai));
+    if ((r.status === 429 || r.status >= 500) && essai < 8) {
+      await new Promise((ok) => setTimeout(ok, 5000 * essai));
       continue;
     }
     throw new Error(`${chemin} : ${r.status} ${await r.text()}`);
