@@ -7,4 +7,5 @@
 - Un générateur doit prouver la justesse de ses réponses dans ses tests et passer les règles de rédaction de son cycle.
 - Données enfants : rien de plus que prénom, avatar et classe. Toute nouvelle table utilisateur a la RLS activée et un test d'isolation dans `supabase/tests`.
 - Interface : tokens et classes `hp-*` de `@hopla/ds`, pas de valeurs de couleur en dur hors illustrations.
+- Marque : « Hopla. » avec le point quand le nom est seul, sans le point dans une phrase ; logo par le composant `Marque`. Règles complètes dans `docs/marque.md`.
 - Avant de livrer : `pnpm content:check && pnpm test && pnpm typecheck && pnpm build`.

@@ -49,8 +49,8 @@ export function lignesEnfant(b: BilanEnfant): string[] {
 export function composerBilan(enfants: BilanEnfant[], urlApp: string): { sujet: string; texte: string; html: string } {
   const prenoms = enfants.map((e) => e.prenom);
   const sujet = enfants.length === 0
-    ? 'Hopla : le bilan de la semaine'
-    : `Hopla : la semaine de ${prenoms.length > 1 ? `${prenoms.slice(0, -1).join(', ')} et ${prenoms.at(-1)}` : prenoms[0]}`;
+    ? 'Hopla. Le bilan de la semaine'
+    : `Hopla. La semaine de ${prenoms.length > 1 ? `${prenoms.slice(0, -1).join(', ')} et ${prenoms.at(-1)}` : prenoms[0]}`;
   const lien = `${urlApp.replace(/\/$/, '')}/parent`;
   const texte = [
     'Bonjour,',

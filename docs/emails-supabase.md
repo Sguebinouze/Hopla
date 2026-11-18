@@ -58,7 +58,7 @@ Sujet : `Bienvenue sur Hopla : confirmez votre adresse`
         </tr></table>
       </td></tr>
       <tr><td style="background:#FFFFFF;border-radius:20px;border-bottom:2px solid #DCE0EE;padding:24px">
-        <p style="margin:0 0 12px;font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;line-height:28px;font-weight:600;color:#1A1D3A">Bienvenue sur Hopla</p>
+        <p style="margin:0 0 12px;font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;line-height:28px;font-weight:600;color:#1A1D3A">Bienvenue sur Hopla.</p>
         <p style="margin:0 0 12px;font-family:'Lexend',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#1A1D3A">Bonjour,</p><p style="margin:0 0 12px;font-family:'Lexend',Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#1A1D3A">Confirmez votre adresse pour ouvrir votre espace parent et créer les profils de vos enfants.</p>
         <table role="presentation" cellpadding="0" cellspacing="0" style="margin:8px 0 4px"><tr>
           <td style="background:#4B3FD1;border-radius:14px;border-bottom:3px solid #362BA8">

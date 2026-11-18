@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icone.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Hopla',
-        short_name: 'Hopla',
+        name: 'Hopla.',
+        short_name: 'Hopla.',
         description: 'Réviser du CP à la 3e, avec Octave.',
         lang: 'fr',
         theme_color: '#4B3FD1',

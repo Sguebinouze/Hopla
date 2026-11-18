@@ -23,11 +23,11 @@ describe('bilan du dimanche', () => {
 
   it('sujet, lien vers l’espace parent, prénoms échappés dans le HTML', () => {
     const m = composerBilan([lea, tom], 'https://exemple.fr/');
-    expect(m.sujet).toBe('Hopla : la semaine de Léa et Tom <b>');
+    expect(m.sujet).toBe('Hopla. La semaine de Léa et Tom <b>');
     expect(m.texte).toContain('https://exemple.fr/parent');
     expect(m.html).toContain('Tom &lt;b&gt;');
     expect(m.html).not.toContain('Tom <b>');
-    expect(composerBilan([lea], 'https://exemple.fr').sujet).toBe('Hopla : la semaine de Léa');
+    expect(composerBilan([lea], 'https://exemple.fr').sujet).toBe('Hopla. La semaine de Léa');
   });
 
   it('pas de tiret cadratin ni d’identifiant de notion', () => {
