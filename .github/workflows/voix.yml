@@ -39,8 +39,11 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Packs publiés (exercices relus seulement)
         run: pnpm content:packs
+      # Sans accès au bucket, on s'arrête avant d'envoyer quoi que ce soit à Google.
+      - name: Accès au bucket
+        run: aws s3api head-bucket --bucket hopla-voix $R2
       - name: Fichiers déjà en ligne
-        run: aws s3 ls $BUCKET --recursive $R2 > existants.txt || touch existants.txt
+        run: aws s3 ls $BUCKET --recursive $R2 > existants.txt || true
       - name: Génération des fichiers manquants
         run: packages/content/node_modules/.bin/tsx scripts/voix/generer.mts
         env:
