@@ -75,11 +75,36 @@ a { color: var(--primary); }
   .controle__pied { max-width: 940px; padding-left: var(--space-6); padding-right: var(--space-6); }
 }
 
+.exercice { display: flex; flex-direction: column; gap: var(--space-4); }
 @media (min-width: 900px) {
   .exercice { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: var(--space-5); align-items: start; }
   .grille-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .grille-options--texte { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* Série en cours : une case par question. */
+.serie { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--space-1); }
+.serie__case { flex: 1; height: 10px; border-radius: var(--radius-pill); background: var(--surface-2); transition: background .2s; }
+.serie__case--courante { background: var(--octave); }
+.serie__case--juste { background: var(--success); }
+.serie__case--faux { background: var(--attention); }
+
+/* Grand écran : une seule question à la fois, mais en scène. La carte occupe le centre de l'écran,
+   le texte et les réponses grandissent, plus de vide sous la question. */
+@media (min-width: 760px) and (min-height: 640px) {
+  .ecran--exercice { min-height: 100dvh; }
+  .ecran--exercice .exercice { display: flex; flex-direction: column; gap: var(--space-5); }
+  .ecran--exercice .grille-options--texte { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ecran--exercice .exercice { margin-block: auto; padding: var(--space-6); background: var(--surface-1); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); animation: entree-question .25s ease-out; }
+  .ecran--exercice .exercice .support { box-shadow: none; background: var(--surface-2); }
+  .ecran--exercice .titre-1 { font-size: 34px; }
+  .ecran--exercice .hp-option { min-height: 88px; font-size: 26px; }
+  .ecran--exercice .hp-option.option-texte { font-size: 20px; line-height: 26px; }
+  .ecran--exercice .hp-bubble, .ecran--exercice .hp-feedback { box-shadow: none; }
+}
+@media (min-width: 900px) and (min-height: 640px) { .ecran--exercice .exercice { display: grid; } }
+@keyframes entree-question { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .ecran--exercice .exercice { animation: none; } .serie__case { transition: none; } }
 
 /* Tableau de bord parent */
 .suivi { display: flex; flex-direction: column; gap: var(--space-3); }

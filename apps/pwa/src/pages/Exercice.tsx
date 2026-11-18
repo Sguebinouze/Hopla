@@ -22,6 +22,7 @@ export function Exercice() {
   const [saisie, setSaisie] = useState('');
   const [indice, setIndice] = useState(false);
   const [justes, setJustes] = useState(0);
+  const [bilans, setBilans] = useState<boolean[]>([]);
   const [aLecon, setALecon] = useState(false);
   const [cycle, setCycle] = useState(3);
   const debut = useRef(Date.now());
@@ -73,6 +74,7 @@ export function Exercice() {
     setChoix(r);
     const ok = r === item.reponse;
     if (ok) setJustes((n) => n + 1);
+    setBilans((b) => [...b, ok]);
     try {
       await api.enregistrer({
         competence: item.competence, contenu: item.id, reussi: ok, indice, dureeMs: Date.now() - debut.current,
@@ -108,17 +110,19 @@ export function Exercice() {
   };
 
   return (
-    <main className="ecran ecran--large">
+    <main className="ecran ecran--large ecran--exercice">
       <div className="ligne">
         <Link to="/accueil" className="hp-iconbtn" aria-label="Quitter l'exercice"><Icone nom="fermer" /></Link>
-        <div className="hp-progress pousse" style={{ background: 'var(--surface-2)' }} role="progressbar"
-          aria-valuenow={rang + 1} aria-valuemin={1} aria-valuemax={items.length}>
-          <span style={{ width: `${((rang + (repondu ? 1 : 0)) / items.length) * 100}%`, background: 'var(--octave)' }} />
-        </div>
+        {/* Une case par question : verte si juste, orange sinon, la question en cours mise en avant. */}
+        <ol className="serie pousse" aria-label={`Question ${rang + 1} sur ${items.length}`}>
+          {items.map((_, i) => (
+            <li key={i} className={`serie__case${i in bilans ? (bilans[i] ? ' serie__case--juste' : ' serie__case--faux') : i === rang ? ' serie__case--courante' : ''}`} />
+          ))}
+        </ol>
         <span className="muet">{rang + 1} / {items.length}</span>
       </div>
 
-      <div className="exercice">
+      <div className="exercice" key={rang}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
           {support ? (
             <>
