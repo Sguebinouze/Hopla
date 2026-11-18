@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { BoutonTheme } from '../composants/BoutonTheme';
 import { Icone } from '../composants/Icone';
+import { Marque } from '../composants/Marque';
 import { Octave } from '../composants/Octave';
 import { MentionProgrammes } from '../composants/Programmes';
 import { api, surAppareilEnfant, type Profil } from '../lib/donnees';
@@ -36,7 +37,7 @@ export function Profils() {
   if (!connecte) {
     return (
       <main className="ecran ecran--etroit ouverture">
-        <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
+        <div className="ligne"><Marque /><BoutonTheme /></div>
         <div className="ouverture__corps">
           <Octave taille={120} />
           <h1 className="titre-1">Réviser un peu chaque jour, à son rythme</h1>
@@ -57,7 +58,7 @@ export function Profils() {
 
   return (
     <main className="ecran ecran--etroit">
-      <div className="ligne"><div className="marque pousse"><img src="/icone.svg" width={36} height={36} alt="" />Hopla</div><BoutonTheme /></div>
+      <div className="ligne"><Marque /><BoutonTheme /></div>
       <div className="hp-bubble">
         <Octave taille={88} />
         <div className="hp-bubble__text"><span className="hp-bubble__name">Octave</span>

@@ -11,7 +11,9 @@ a { color: var(--primary); }
 .muet { color: var(--ink-muted); font-size: 13px; margin: 0; }
 .ligne { display: flex; align-items: center; gap: var(--space-2); }
 .pousse { flex-grow: 1; }
-.marque { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; font-size: 22px; }
+.marque { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; font-size: 22px; color: var(--ink); }
+/* Le point de « Hopla. » : signature de la marque, en primary comme l'icône. */
+.marque__point { display: inline-block; width: 0.19em; height: 0.19em; margin-left: 0.05em; border-radius: 50%; background: var(--primary); }
 
 .grille-profils { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-3); }
 .grille-eq { display: flex; flex-direction: column; }

@@ -80,7 +80,7 @@ export function composerBilan(enfants: BilanEnfant[], urlApp: string): { sujet: 
       <tr><td style="padding:0 4px 16px">
         <table role="presentation" cellpadding="0" cellspacing="0"><tr>
           <td style="padding-right:8px"><img src="${echapper(base)}/icone-192.png" width="32" height="32" alt="" style="display:block;border-radius:10px"></td>
-          <td style="${titre};font-size:22px">Hopla</td>
+          <td style="${titre};font-size:22px">Hopla<span style="color:#4B3FD1">.</span></td>
         </tr></table>
       </td></tr>
       <tr><td style="padding:0 4px 16px;${titre};font-size:22px;line-height:28px">La semaine en bref</td></tr>

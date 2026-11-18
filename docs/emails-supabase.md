@@ -20,7 +20,7 @@ Sujet : `Votre lien de connexion à Hopla`
       <tr><td style="padding:0 4px 16px">
         <table role="presentation" cellpadding="0" cellspacing="0"><tr>
           <td style="padding-right:8px"><img src="{{ .SiteURL }}/icone-192.png" width="32" height="32" alt="" style="display:block;border-radius:10px"></td>
-          <td style="font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;color:#1A1D3A">Hopla</td>
+          <td style="font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;color:#1A1D3A">Hopla<span style="color:#4B3FD1">.</span></td>
         </tr></table>
       </td></tr>
       <tr><td style="background:#FFFFFF;border-radius:20px;border-bottom:2px solid #DCE0EE;padding:24px">
@@ -54,7 +54,7 @@ Sujet : `Bienvenue sur Hopla : confirmez votre adresse`
       <tr><td style="padding:0 4px 16px">
         <table role="presentation" cellpadding="0" cellspacing="0"><tr>
           <td style="padding-right:8px"><img src="{{ .SiteURL }}/icone-192.png" width="32" height="32" alt="" style="display:block;border-radius:10px"></td>
-          <td style="font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;color:#1A1D3A">Hopla</td>
+          <td style="font-family:'Fredoka','Lexend',Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;color:#1A1D3A">Hopla<span style="color:#4B3FD1">.</span></td>
         </tr></table>
       </td></tr>
       <tr><td style="background:#FFFFFF;border-radius:20px;border-bottom:2px solid #DCE0EE;padding:24px">
