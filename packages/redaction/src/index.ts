@@ -117,3 +117,4 @@ export function verifierTexte(texte: string, cycle: Cycle): Probleme[] {
 }
 
 export { cleVoix, pourLaVoix } from './oral';
+export { decouperLangues, motsDuLexique, type LangueEtudiee, type LangueLue, type Lexique, type Passage } from './langues';

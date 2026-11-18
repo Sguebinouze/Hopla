@@ -15,7 +15,10 @@ export const voixDisponible = () => lecteur !== null || syntheseDisponible();
 
 /** Textes qui ont un fichier audio (ceux du pack chargé), par chemin. Un fichier introuvable en sort. */
 const enregistres = new Set<string>();
-export function connaitreTextes(textes: TexteLu[]) {
+/** Textes de langue vivante découpés en passages : chacun est lu avec la voix de sa langue. */
+const passagesDe = new Map<string, TexteLu[]>();
+export function connaitreTextes(textes: TexteLu[], decoupes: Record<string, TexteLu[]> = {}) {
+  for (const [texte, passages] of Object.entries(decoupes)) passagesDe.set(texte, passages);
   if (!lecteur) return;
   for (const t of textes) enregistres.add(cheminAudio(t.langue, t.texte));
 }
@@ -100,6 +103,14 @@ let file: { texte: string; langue: Langue; surFin?: () => void }[] = [];
 let enCours = false;
 let tour = 0;
 
+/** Passages d'un texte découpé : le fichier suivant est demandé pendant la lecture, sans blanc entre deux voix. */
+function prechargerSuivant() {
+  const p = file[0];
+  if (!p) return;
+  const chemin = cheminAudio(p.langue, p.texte);
+  if (enregistres.has(chemin)) void fetch(`${BASE_AUDIO}/${chemin}`, { mode: 'no-cors' }).catch(() => undefined);
+}
+
 function suivant() {
   const m = file.shift();
   if (!m) { enCours = false; return; }
@@ -125,6 +136,7 @@ function suivant() {
   lecteur.onended = fin;
   lecteur.onerror = () => repli(true);
   lecteur.src = `${BASE_AUDIO}/${chemin}`;
+  prechargerSuivant();
   lecteur.play().catch((e: unknown) => {
     if ((e as { name?: string })?.name !== 'AbortError') repli(false);
   });
@@ -134,7 +146,9 @@ function suivant() {
 export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
   if (!voixDisponible() || !texte.trim()) return;
   if (!ensuite) taire();
-  file.push({ texte, langue, surFin });
+  const passages = langue === 'fr-FR' ? passagesDe.get(texte) : undefined;
+  if (passages) passages.forEach((p, i) => file.push({ ...p, surFin: i === passages.length - 1 ? surFin : undefined }));
+  else file.push({ texte, langue, surFin });
   if (!enCours) suivant();
 }
 

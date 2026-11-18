@@ -1,8 +1,8 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { anneeScolaire } from './annees';
 import { RACINE_DEPOT, chargerContenu } from './charger';
-import { construirePacks } from './packs';
+import { construirePacks, type LexiqueVoix } from './packs';
 import { construireRelecture } from './relecture';
 import { verifierContenu } from './verifier';
 
@@ -23,7 +23,9 @@ if (bloquants.length) {
   process.exit(1);
 }
 
-const packs = construirePacks(contenu, annee, { brouillons });
+// Lexique des langues vivantes (scripts/voix/lexique.py) : découpe les textes par langue pour la voix.
+const lexique = JSON.parse(readFileSync(join(RACINE_DEPOT, 'packages', 'content', 'voix', 'lexique.json'), 'utf8')) as LexiqueVoix;
+const packs = construirePacks(contenu, annee, { brouillons, lexique });
 const dossier = join(sortie, annee);
 mkdirSync(dossier, { recursive: true });
 for (const pack of packs) writeFileSync(join(dossier, `${pack.classe}.json`), JSON.stringify(pack));

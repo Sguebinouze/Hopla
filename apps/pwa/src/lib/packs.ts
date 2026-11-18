@@ -67,6 +67,8 @@ export interface Pack {
     programme: { id: string; intitule: string; reference: string; verifie: boolean };
     competences: CompetencePack[];
   }[];
+  /** Langues vivantes : textes mêlant français et langue étudiée, découpés en passages lus chacun dans sa langue. */
+  voix?: Record<string, { langue: Langue; texte: string }[]>;
 }
 
 export const NOMS_MATIERES: Record<string, string> = {
@@ -96,7 +98,7 @@ export async function chargerPack(classe: Classe): Promise<Pack> {
   if (!r.ok) throw new Error(`Pack introuvable pour ${classe}`);
   const pack = (await r.json()) as Pack;
   // Les textes du pack ont leur fichier audio : Octave les lit avec sa voix plutôt que celle de l'appareil.
-  connaitreTextes(textesLus(pack));
+  connaitreTextes(textesLus(pack), pack.voix);
   return pack;
 }
 

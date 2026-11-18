@@ -8,14 +8,20 @@ export const VOIX_OCTAVE = 'algenib';
 export interface TexteLu { langue: Langue; texte: string }
 
 /**
- * Tout ce qu'Octave peut lire dans un pack, tel que l'appli le passe à dire() :
+ * Tout ce qu'Octave peut lire dans un pack, tel que dire() le lit :
  * consignes, indices et explications des banques, phrases d'écoute, leçons, quiz de culture.
  * Les questions des générateurs (nombres tirés au hasard) n'y sont pas : elles gardent la voix de l'appareil.
  * Sert au script de génération des fichiers audio et à l'appli pour savoir lesquels existent.
  */
-export function textesLus(pack: Pick<Pack, 'matieres' | 'culture'>): TexteLu[] {
+export function textesLus(pack: Pick<Pack, 'matieres' | 'culture' | 'voix'>): TexteLu[] {
   const out: TexteLu[] = [];
-  const fr = (texte: string | null | undefined) => { if (texte?.trim()) out.push({ langue: 'fr-FR', texte }); };
+  // Un texte de langue vivante découpé se lit passage par passage : un fichier par passage.
+  const fr = (texte: string | null | undefined) => {
+    if (!texte?.trim()) return;
+    const passages = pack.voix?.[texte];
+    if (passages) out.push(...passages);
+    else out.push({ langue: 'fr-FR', texte });
+  };
   for (const m of pack.matieres) {
     for (const c of m.competences) {
       for (const e of c.exercices) {

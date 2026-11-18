@@ -1,4 +1,5 @@
 import { GENERATEURS } from '@hopla/generateurs';
+import { decouperLangues, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
 import type { Contenu } from './charger';
 import { CLASSES, CYCLE_DE, type Classe, type Defi, type Exercice, type Lecon, type QuestionCulture } from './schemas';
 import { programmesApplicables } from './verifier';
@@ -29,18 +30,53 @@ export interface Pack {
   }[];
   /** Culture générale (hors programme) du cycle de la classe. */
   culture: Pick<QuestionCulture, 'id' | 'theme' | 'question' | 'options' | 'reponse' | 'explication'>[];
+  /**
+   * Langues vivantes : textes qui mêlent français et langue étudiée, découpés en passages
+   * pour que la voix lise chacun dans sa langue. Clé : le texte tel qu'il est affiché.
+   */
+  voix: Record<string, Passage[]>;
+}
+
+/** Langue étudiée par matière, et sa clé dans le lexique (packages/content/voix/lexique.json). */
+export const LANGUE_DE_MATIERE: Record<string, { langue: LangueEtudiee; lexique: 'en' | 'de' | 'es' }> = {
+  'langues-vivantes': { langue: 'en-GB', lexique: 'en' },
+  allemand: { langue: 'de-DE', lexique: 'de' },
+  espagnol: { langue: 'es-ES', lexique: 'es' },
+};
+export type LexiqueVoix = Record<'en' | 'de' | 'es', Lexique>;
+
+/** Textes d'une matière lus par Octave, dans l'ordre de textesLus côté appli. */
+function textesDeLangue(competences: Pack['matieres'][number]['competences']): string[] {
+  return competences.flatMap((c) => [
+    ...c.exercices.flatMap((e) => [e.consigne, e.indice, e.explication]),
+    ...(c.lecon ? [c.lecon.exemple, c.lecon.regle, c.lecon.piege, c.lecon.essai.consigne] : []),
+  ]).filter((t): t is string => Boolean(t?.trim()));
+}
+
+function decoupes(matieres: Pack['matieres'], lexique: LexiqueVoix | undefined): Pack['voix'] {
+  const voix: Pack['voix'] = {};
+  if (!lexique) return voix;
+  for (const m of matieres) {
+    const l = LANGUE_DE_MATIERE[m.matiere];
+    if (!l) continue;
+    for (const t of textesDeLangue(m.competences)) {
+      const passages = decouperLangues(t, l.langue, lexique[l.lexique]);
+      if (passages.some((p) => p.langue !== 'fr-FR')) voix[t] = passages;
+    }
+  }
+  return voix;
 }
 
 export function construirePacks(
-  contenu: Contenu, annee: string, options: { brouillons: boolean } = { brouillons: false },
+  contenu: Contenu, annee: string, options: { brouillons: boolean; lexique?: LexiqueVoix } = { brouillons: false },
 ): Pack[] {
   const statuts = new Set<Exercice['statut']>(options.brouillons ? ['brouillon', 'relu', 'publie'] : ['publie']);
   const banques = new Map(contenu.banques.map((b) => [b.competence, b.exercices]));
   const lecons = new Map(contenu.lecons.filter((l) => statuts.has(l.statut)).map((l) => [l.competence, l]));
 
-  return CLASSES.map((classe) => {
+  return CLASSES.map((classe): Pack => {
     const programmes = programmesApplicables(contenu.programmes, classe, annee);
-    return {
+    const pack: Omit<Pack, 'voix'> = {
       version: 1 as const,
       annee,
       classe,
@@ -77,5 +113,6 @@ export function construirePacks(
         };
       }),
     };
+    return { ...pack, voix: decoupes(pack.matieres, options.lexique) };
   });
 }

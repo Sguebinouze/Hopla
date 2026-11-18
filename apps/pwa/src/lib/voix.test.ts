@@ -37,4 +37,14 @@ describe('fichiers audio d’Octave', () => {
       { langue: 'fr-FR', texte: 'Capitale ?' },
     ]);
   });
+  it('un texte de langue vivante découpé donne un fichier par passage, dans sa langue', () => {
+    const t = textesLus({
+      voix: { 'Open : ouvrir.': [{ langue: 'en-GB', texte: 'Open' }, { langue: 'fr-FR', texte: 'ouvrir.' }] },
+      matieres: [{ matiere: 'langues-vivantes', programme: { id: '', intitule: '', reference: '', verifie: true }, competences: [{
+        id: 'c', titre: '', domaine: '', theme: '', attendu: '', exemple: '', statut: '', source: { id: '', page: 1 }, generateurs: [],
+        lecon: null, exercices: [{ id: 'e', gabarit: 'qcm', difficulte: 1, consigne: 'Choisis.', reponse: 'a', indice: '', explication: 'Open : ouvrir.' }],
+      }] }],
+    });
+    expect(t).toEqual([{ langue: 'fr-FR', texte: 'Choisis.' }, { langue: 'en-GB', texte: 'Open' }, { langue: 'fr-FR', texte: 'ouvrir.' }]);
+  });
 });
