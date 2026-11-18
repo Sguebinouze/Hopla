@@ -37,3 +37,17 @@ describe('verifierTexte', () => {
     expect(compterMots('On arrive à −3.')).toBe(4);
   });
 });
+
+describe('tics relevés par Humanizer', () => {
+  it('alerte sur l’importance gonflée', () => {
+    const p = verifierTexte('L’opinion publique joue un rôle capital.', 3);
+    expect(p.some((x) => x.niveau === 'alerte' && x.message.includes('joue un rôle capital'))).toBe(true);
+  });
+  it('bloque une phrase qui parle de la leçon', () => {
+    expect(verifierTexte('Dans cette leçon, tu apprends les fractions.', 3).some((x) => x.niveau === 'erreur')).toBe(true);
+    expect(verifierTexte('Nous allons voir les fractions.', 3).some((x) => x.niveau === 'erreur')).toBe(true);
+  });
+  it('laisse passer une traduction ordinaire', () => {
+    expect(verifierTexte('I hope you can come : j’espère que tu pourras venir.', 4)).toEqual([]);
+  });
+});

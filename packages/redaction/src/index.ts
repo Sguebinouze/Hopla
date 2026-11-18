@@ -37,6 +37,17 @@ const INTERDITS: Interdit[] = [
   { motif: /\bc'est parti\b/i, niveau: 'erreur' },
   { motif: /\bsuper travail\b/i, niveau: 'erreur' },
   { motif: /\btu es prêt/i, niveau: 'erreur' },
+  // Tics relevés par Humanizer (github.com/blader/humanizer), transposés en français.
+  // Importance gonflée, formule qui sonne profond, vente, autorité sans nom, texte qui parle de lui-même :
+  // alerte seulement, un historien peut écrire « marque un tournant » à bon escient.
+  { motif: /\bjoue un rôle (capital|clé|majeur|essentiel|central|déterminant|primordial|fondamental)/i, niveau: 'alerte', note: 'dire ce que la chose fait' },
+  { motif: /\b(témoigne|souligne|illustre) (de )?l[’']importance\b/i, niveau: 'alerte', note: 'dire le fait' },
+  { motif: /\b(héritage|empreinte) (durable|indélébile)/i, niveau: 'alerte', note: 'dire le fait' },
+  { motif: /\b(la vraie question|au fond, ce qui compte|le cœur du problème)\b/i, niveau: 'alerte', note: 'énoncer l’idée précise' },
+  { motif: /\b(niché|à couper le souffle|riche patrimoine|cadre idyllique)\b/i, niveau: 'alerte', note: 'ton publicitaire' },
+  { motif: /\b(les|des|certains) (experts|spécialistes|observateurs) (disent|pensent|estiment|affirment|soulignent)\b/i, niveau: 'alerte', note: 'nommer la source ou dire le fait' },
+  { motif: /\b(dans|avec) cette (leçon|fiche|activité)\b|\b(nous allons|on va) (voir|découvrir|apprendre)\b/i, niveau: 'erreur' },
+  { motif: /\b(voyons|regardons) ensemble\b|\bn[’']hésite pas\b/i, niveau: 'erreur' },
   // Notions légitimes en géographie (« paysage ») et en grammaire (« phrase complexe ») :
   // on alerte sans bloquer, le relecteur tranche.
   { motif: /\bpaysage/i, niveau: 'alerte', note: 'légitime en géographie, à éviter ailleurs' },
