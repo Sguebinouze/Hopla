@@ -50,3 +50,21 @@ export function pourLaVoix(texte: string): string {
   t = t.replace(/J\.-C\./g, 'Jésus-Christ');
   return t.replace(/\s+/g, ' ').replace(/\s+([,.?!])/g, '$1').trim();
 }
+
+/**
+ * Empreinte d'un texte lu par Octave, pour nommer son fichier audio : même résultat dans l'appli
+ * et dans le script de génération. Calcul synchrone (cyrb53) : la lecture part dans le geste de l'enfant.
+ */
+export function cleVoix(langue: string, texte: string): string {
+  const s = `${langue}|${texte.normalize('NFC')}`;
+  let h1 = 0xdeadbeef;
+  let h2 = 0x41c6ce57;
+  for (let i = 0; i < s.length; i++) {
+    const c = s.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 2654435761);
+    h2 = Math.imul(h2 ^ c, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+}

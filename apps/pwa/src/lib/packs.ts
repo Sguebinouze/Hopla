@@ -1,7 +1,8 @@
 import { serie, type Difficulte, type Item } from '@hopla/generateurs';
 import { anneeScolaire } from './annee';
 import type { Classe } from './donnees';
-import type { Langue } from './voix';
+import { connaitreTextes, type Langue } from './voix';
+import { textesLus } from './textesLus';
 import { aujourdhui, etat, type Suivi } from './progression';
 
 // Forme produite par @hopla/content (pnpm content:packs).
@@ -93,7 +94,10 @@ export const masqueesPourLv2 = (lv2: Lv2): string[] => LV2.filter((l) => l !== l
 export async function chargerPack(classe: Classe): Promise<Pack> {
   const r = await fetch(`/packs/${anneeScolaire()}/${classe}.json`);
   if (!r.ok) throw new Error(`Pack introuvable pour ${classe}`);
-  return (await r.json()) as Pack;
+  const pack = (await r.json()) as Pack;
+  // Les textes du pack ont leur fichier audio : Octave les lit avec sa voix plutôt que celle de l'appareil.
+  connaitreTextes(textesLus(pack));
+  return pack;
 }
 
 /**

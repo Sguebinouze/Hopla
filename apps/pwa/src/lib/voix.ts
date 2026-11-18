@@ -1,17 +1,41 @@
 import { pourLaVoix } from '@hopla/redaction';
+import { cheminAudio, type TexteLu } from './textesLus';
 
-// Voix d'Octave : synthèse vocale du navigateur (Web Speech), en français,
-// et dans la langue étudiée pour les questions d'écoute (anglais, allemand, espagnol).
-// Aucune donnée ne quitte l'appareil : la voix est produite localement par le système.
+// Voix d'Octave. Les textes rédigés (consignes, indices, explications, leçons) ont un fichier audio
+// enregistré à l'avance avec la voix Algenib (Google Chirp 3 HD), servi par le stockage public
+// (VITE_VOIX_URL). Les autres (questions tirées au hasard) et le hors connexion passent par la
+// synthèse vocale de l'appareil. Rien ne part de l'appareil : la lecture télécharge un fichier.
 
 const CLE_AUTO = 'hopla.voix-auto';
 
-export const voixDisponible = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
+const syntheseDisponible = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
+const BASE_AUDIO = (import.meta.env.VITE_VOIX_URL as string | undefined)?.replace(/\/$/, '') ?? '';
+const lecteur: HTMLAudioElement | null = BASE_AUDIO && typeof Audio !== 'undefined' ? new Audio() : null;
+export const voixDisponible = () => lecteur !== null || syntheseDisponible();
+
+/** Textes qui ont un fichier audio (ceux du pack chargé), par chemin. Un fichier introuvable en sort. */
+const enregistres = new Set<string>();
+export function connaitreTextes(textes: TexteLu[]) {
+  if (!lecteur) return;
+  for (const t of textes) enregistres.add(cheminAudio(t.langue, t.texte));
+}
+
+// iPad, iPhone : un élément audio ne joue seul qu'après une première lecture lancée par un geste.
+// On le débloque au premier toucher, avec un silence, pour les lectures automatiques du cycle 2.
+const SILENCE = 'data:audio/wav;base64,UklGRkQDAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YSADAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==';
+if (lecteur && typeof document !== 'undefined') {
+  const debloquer = () => {
+    lecteur.src = SILENCE;
+    lecteur.play().catch(() => {});
+    document.removeEventListener('pointerdown', debloquer, true);
+  };
+  document.addEventListener('pointerdown', debloquer, true);
+}
 
 export type Langue = 'fr-FR' | 'en-GB' | 'de-DE' | 'es-ES';
 const voix: Partial<Record<Langue, SpeechSynthesisVoice | null>> = {};
 function choisirVoix() {
-  if (!voixDisponible()) return;
+  if (!syntheseDisponible()) return;
   const toutes = speechSynthesis.getVoices();
   for (const langue of ['fr-FR', 'en-GB', 'de-DE', 'es-ES'] as const) {
     const debut = langue.slice(0, 2);
@@ -26,11 +50,12 @@ function choisirVoix() {
 
 /** Vrai si l'appareil a une voix pour cette langue (les voix arrivent parfois après le chargement). */
 export function voixPour(langue: Langue): boolean {
-  if (!voixDisponible()) return false;
+  if (lecteur) return true;
+  if (!syntheseDisponible()) return false;
   if (voix[langue] === undefined) choisirVoix();
   return Boolean(voix[langue]) || speechSynthesis.getVoices().length === 0;
 }
-if (voixDisponible()) {
+if (syntheseDisponible()) {
   choisirVoix();
   speechSynthesis.addEventListener?.('voiceschanged', choisirVoix);
 }
@@ -46,16 +71,15 @@ export function phrases(texte: string): string[] {
     .filter((p) => /[\p{L}\p{N}]/u.test(p));
 }
 
-/** Lit un texte à voix haute ; coupe la lecture en cours, sauf si `ensuite` (le texte suit la lecture en cours). */
-export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
-  if (!voixDisponible() || !texte.trim()) return;
-  if (!ensuite) speechSynthesis.cancel();
+/** Synthèse de l'appareil, phrase par phrase ; `fin` est appelé une fois, à la fin ou en cas d'erreur. */
+function parler(texte: string, langue: Langue, fin: () => void) {
+  if (!syntheseDisponible()) return fin();
   const morceaux = phrases(langue === 'fr-FR' ? pourLaVoix(texte) : texte);
   let fini = false;
   const terminer = () => {
     if (fini) return;
     fini = true;
-    surFin?.();
+    fin();
   };
   morceaux.forEach((m, i) => {
     const u = new SpeechSynthesisUtterance(m);
@@ -70,8 +94,60 @@ export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR
   if (morceaux.length === 0) terminer();
 }
 
+// File de lecture : un texte après l'autre (consigne puis phrase d'écoute). `tour` invalide
+// les rappels d'une lecture interrompue.
+let file: { texte: string; langue: Langue; surFin?: () => void }[] = [];
+let enCours = false;
+let tour = 0;
+
+function suivant() {
+  const m = file.shift();
+  if (!m) { enCours = false; return; }
+  enCours = true;
+  const ce = tour;
+  let fini = false;
+  const fin = () => {
+    if (fini || ce !== tour) return;
+    fini = true;
+    m.surFin?.();
+    suivant();
+  };
+  const chemin = cheminAudio(m.langue, m.texte);
+  if (!lecteur || !enregistres.has(chemin)) return parler(m.texte, m.langue, fin);
+  // Fichier absent ou lecture refusée : la voix de l'appareil prend le relais.
+  let relais = false;
+  const repli = (absent: boolean) => {
+    if (relais || fini || ce !== tour) return;
+    relais = true;
+    if (absent) enregistres.delete(chemin);
+    parler(m.texte, m.langue, fin);
+  };
+  lecteur.onended = fin;
+  lecteur.onerror = () => repli(true);
+  lecteur.src = `${BASE_AUDIO}/${chemin}`;
+  lecteur.play().catch((e: unknown) => {
+    if ((e as { name?: string })?.name !== 'AbortError') repli(false);
+  });
+}
+
+/** Lit un texte à voix haute ; coupe la lecture en cours, sauf si `ensuite` (le texte suit la lecture en cours). */
+export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
+  if (!voixDisponible() || !texte.trim()) return;
+  if (!ensuite) taire();
+  file.push({ texte, langue, surFin });
+  if (!enCours) suivant();
+}
+
 export function taire() {
-  if (voixDisponible()) speechSynthesis.cancel();
+  tour++;
+  file = [];
+  enCours = false;
+  if (lecteur) {
+    lecteur.onended = null;
+    lecteur.onerror = null;
+    lecteur.pause();
+  }
+  if (syntheseDisponible()) speechSynthesis.cancel();
 }
 
 /** Lecture automatique des consignes : activée par défaut au cycle 2, réglable par l'enfant. */

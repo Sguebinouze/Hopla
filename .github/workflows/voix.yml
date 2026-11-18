@@ -1,0 +1,55 @@
+name: Voix d'Octave
+
+# Génère les fichiers audio des textes nouveaux ou modifiés et les envoie sur R2.
+# Un texte déjà enregistré n'est jamais renvoyé à Google : il n'est payé qu'une fois.
+on:
+  workflow_dispatch:
+    inputs:
+      max_caracteres:
+        description: Plafond de caractères envoyés à Google pour ce passage
+        default: '1200000'
+  push:
+    branches: [main]
+    paths: ['content/exercices/**', 'content/lecons/**', 'content/culture/**', 'apps/pwa/src/lib/textesLus.ts']
+
+concurrency:
+  group: voix
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  generer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2: --endpoint-url ${{ secrets.R2_ENDPOINT }}
+      BUCKET: s3://hopla-voix
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Packs publiés (exercices relus seulement)
+        run: pnpm content:packs
+      - name: Fichiers déjà en ligne
+        run: aws s3 ls $BUCKET --recursive $R2 > existants.txt || touch existants.txt
+      - name: Génération des fichiers manquants
+        run: packages/content/node_modules/.bin/tsx scripts/voix/generer.mts
+        env:
+          GOOGLE_TTS_CLE: ${{ secrets.GOOGLE_TTS_CLE }}
+          EXISTANTS: existants.txt
+          MAX_CARACTERES: ${{ inputs.max_caracteres || '1200000' }}
+      - name: Envoi sur R2
+        run: |
+          if [ -d voix-a-envoyer ]; then
+            aws s3 cp voix-a-envoyer $BUCKET --recursive $R2 --only-show-errors \
+              --content-type audio/mpeg --cache-control "public, max-age=31536000, immutable"
+          fi
