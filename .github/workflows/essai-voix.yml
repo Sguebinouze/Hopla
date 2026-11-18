@@ -1,0 +1,24 @@
+name: Essai des voix
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/voix/essai.mjs
+        env:
+          GOOGLE_TTS_CLE: ${{ secrets.GOOGLE_TTS_CLE }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: essai-voix
+          path: essai-voix
+          retention-days: 7
