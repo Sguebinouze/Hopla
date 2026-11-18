@@ -48,8 +48,8 @@ export function DefiFamille({ parent = false }: { parent?: boolean }) {
         <span style={{ width: `${part * 100}%` }} />
       </div>
       <p className="muet" style={{ margin: 0 }}>
-        {reste === 0 ? 'Défi réussi, bravo !' : `${defi.total} sur ${defi.objectif} : encore ${reste} ${s.unite}.`}
-        {!parent && !seul && defi.ma_part !== null && reste > 0 && (defi.ma_part > 0 ? ` Ta part : ${defi.ma_part}.` : ' À toi de jouer !')}
+        {reste === 0 ? 'Défi réussi.' : `${defi.total} sur ${defi.objectif} : encore ${reste} ${s.unite}.`}
+        {!parent && !seul && defi.ma_part !== null && reste > 0 && (defi.ma_part > 0 ? ` Ta part : ${defi.ma_part}.` : ' Ta part : 0.')}
         {parent && reste > 0 && ` ${s.aide}`}
       </p>
     </section>

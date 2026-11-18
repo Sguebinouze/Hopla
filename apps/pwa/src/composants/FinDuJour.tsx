@@ -9,7 +9,7 @@ export function FinDuJour({ minutes }: { minutes: number }) {
         <div className="ligne">
           <Octave humeur="reussite" taille={64} />
           <p className="pousse" style={{ margin: 0 }}>
-            Bravo ! Tu as fait tes {minutes} minutes de travail prévues aujourd’hui. On reprend demain.
+            Tes {minutes} minutes de travail sont faites. On reprend demain.
           </p>
         </div>
         <Link to="/accueil" className="hp-btn hp-btn--primary hp-btn--block">Retour à l’accueil</Link>

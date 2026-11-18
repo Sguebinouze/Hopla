@@ -164,7 +164,7 @@ export function Defi() {
           <div className="ligne">
             <Octave humeur={nouveauRecord ? 'reussite' : 'accueil'} taille={56} />
             <p className="pousse" style={{ margin: 0 }}>
-              {nouveauRecord ? 'Nouveau record !' : 'Bien joué.'} {justes} bonne{justes > 1 ? 's' : ''} réponse{justes > 1 ? 's' : ''}
+              {nouveauRecord ? 'Nouveau record : ' : ''}{justes} bonne{justes > 1 ? 's' : ''} réponse{justes > 1 ? 's' : ''}
               {faux > 0 ? `, ${faux} erreur${faux > 1 ? 's' : ''}` : ''}.
             </p>
           </div>

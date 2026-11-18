@@ -111,7 +111,7 @@ export function Accueil() {
         <div className="temps-jour" role="status">
           <span className="muet pousse">
             {minutes >= enfant.minutes_par_jour
-              ? 'Temps prévu atteint pour aujourd’hui : bravo, on reprend demain !'
+              ? 'Temps prévu atteint. On reprend demain.'
               : `Aujourd’hui : ${Math.round(minutes)} min sur ${enfant.minutes_par_jour}`}
           </span>
           <div className="hp-progress hp-progress--sm" aria-hidden="true">

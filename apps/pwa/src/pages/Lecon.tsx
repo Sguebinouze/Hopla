@@ -121,7 +121,7 @@ export function Lecon() {
               <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'}`} style={{ maxWidth: 'none' }} role="status">
                 <Octave humeur={juste ? 'reussite' : 'oups'} taille={48} />
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                  <span className="hp-feedback__title">{juste ? 'Bien joué, tu as compris.' : 'Pas tout à fait.'}</span>
+                  <span className="hp-feedback__title">{juste ? 'Juste.' : 'Pas tout à fait.'}</span>
                   <span className="hp-feedback__text">{l.essai.explication}</span>
                 </div>
               </div>

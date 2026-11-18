@@ -108,12 +108,12 @@ export function Cahier() {
       {e.fini ? (
         <section className="hp-card cahier__intro">
           <Octave humeur="reussite" taille={72} />
-          <p style={{ margin: 0 }}>Bravo {enfant.prenom}, tu as fini ton cahier ! Toute ton année est révisée.</p>
+          <p style={{ margin: 0 }}>{enfant.prenom}, ton cahier est fini : toute ton année est révisée.</p>
         </section>
       ) : e.pageDuJourFaite ? (
         <section className="hp-card cahier__intro">
           <Octave humeur="reussite" taille={64} />
-          <p style={{ margin: 0 }}>Page du jour faite, bravo ! La suivante t’attend demain.</p>
+          <p style={{ margin: 0 }}>Page du jour faite. La suivante t’attend demain.</p>
         </section>
       ) : page && (
         <section className="liste-notions">
