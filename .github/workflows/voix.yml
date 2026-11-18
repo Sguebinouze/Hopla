@@ -44,13 +44,17 @@ jobs:
         run: aws s3api head-bucket --bucket hopla-voix $R2
       - name: Fichiers déjà en ligne
         run: aws s3 ls $BUCKET --recursive $R2 > existants.txt || true
+      # Plafonnée en durée : ce qui est déjà généré est envoyé quand même, le reste au passage suivant.
       - name: Génération des fichiers manquants
+        timeout-minutes: 100
+        continue-on-error: true
         run: packages/content/node_modules/.bin/tsx scripts/voix/generer.mts
         env:
           GOOGLE_TTS_CLE: ${{ secrets.GOOGLE_TTS_CLE }}
           EXISTANTS: existants.txt
           MAX_CARACTERES: ${{ inputs.max_caracteres || '1200000' }}
       - name: Envoi sur R2
+        if: always()
         run: |
           if [ -d voix-a-envoyer ]; then
             aws s3 cp voix-a-envoyer $BUCKET --recursive $R2 --only-show-errors \
