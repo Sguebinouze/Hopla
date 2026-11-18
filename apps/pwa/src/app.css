@@ -35,14 +35,65 @@ a { color: var(--primary); }
 .bouton-voix { flex-shrink: 0; }
 .bouton-voix[aria-pressed="true"] { color: var(--octave-ink); background: var(--octave-soft); }
 .consigne { display: flex; gap: var(--space-2); align-items: flex-start; }
-.lecon__bloc { background: var(--surface-1); border-radius: var(--radius-lg); padding: var(--space-3) var(--space-4); box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: var(--space-1); }
-.lecon__bloc--regle { box-shadow: inset 4px 0 0 var(--primary), var(--shadow-card); }
-.lecon__bloc--piege { background: var(--attention-soft); box-shadow: none; }
+/* Leçon : un parcours en étapes (découvre, retiens, piège, à toi), révélées une à une le long d'un fil. */
+.lecon { --lecon-accent: var(--subj, var(--primary)); --lecon-doux: color-mix(in srgb, var(--subj, var(--primary)) 16%, var(--surface-1)); }
+.lecon__mise { display: flex; flex-direction: column; gap: var(--space-4); }
+.lecon__entete { display: flex; flex-direction: column; gap: var(--space-3); }
+.lecon__matiere { font-size: 13px; font-weight: 600; color: var(--ink-muted); }
+.lecon__accroche { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); background: var(--lecon-doux); }
+.lecon__titres { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.lecon__titre { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 26px; line-height: 1.15; text-wrap: balance; }
+.lecon__progression { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.lecon__progression li { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--ink-muted); }
+.lecon__progression li.courante, .lecon__progression li.faite { color: var(--ink); }
+.lecon__pastille { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--ink-muted); }
+.lecon__progression li.courante .lecon__pastille { background: var(--lecon-accent); color: var(--surface-1); }
+.lecon__progression li.faite .lecon__pastille { background: var(--success); color: var(--surface-1); }
+
+/* Le fil : un repère par étape, reliés par une ligne. */
+.parcours { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.etape { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: var(--space-3); position: relative; padding-bottom: var(--space-4); }
+.etape::before { content: ""; position: absolute; left: 19px; top: 40px; bottom: 0; width: 2px; background: var(--line); }
+.etape:last-child { padding-bottom: 0; }
+.etape:last-child::before { display: none; }
+.etape--faite::before { background: var(--success); }
+.etape__repere { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--lecon-accent); color: var(--surface-1); box-shadow: 0 0 0 4px var(--lecon-doux); z-index: 1; }
+.etape--faite .etape__repere { background: var(--success); box-shadow: none; }
+.etape--avenir .etape__repere { background: var(--surface-2); color: var(--ink-muted); box-shadow: none; }
+.etape__carte { background: var(--surface-1); border-radius: var(--radius-lg); padding: var(--space-3) var(--space-4) var(--space-4); box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; animation: etape-entree .3s ease-out; }
+.etape--avenir .etape__carte { background: none; box-shadow: none; border: 2px dashed var(--line); padding-block: var(--space-2); animation: none; }
+.etape__titre { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 19px; }
+.etape--avenir .etape__titre { color: var(--ink-muted); font-size: 16px; }
+.etape__suite { align-self: flex-start; }
+.etape--piege .etape__carte { background: var(--attention-soft); box-shadow: none; }
+.etape--piege .etape__titre { color: var(--attention); }
+.etape--avenir.etape--piege .etape__carte { background: none; }
+.etape--avenir.etape--piege .etape__titre { color: var(--ink-muted); }
 .lecon__tete { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); }
-.lecon__etiquette { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-muted); }
-.lecon__bloc--piege .lecon__etiquette { color: var(--attention); }
-.lecon__texte { margin: 0; font-size: 17px; line-height: 26px; }
-.lecon__essai { display: flex; flex-direction: column; gap: var(--space-3); }
+.lecon__texte { margin: 0; font-size: 17px; line-height: 28px; }
+.lecon__texte--grand { font-size: 19px; line-height: 32px; }
+.lecon__texte strong { background: linear-gradient(transparent 55%, var(--lecon-doux) 55%); padding: 0 2px; }
+.citation { quotes: "«\00a0" "\00a0»"; font-weight: 600; background: var(--lecon-doux); border-radius: var(--radius-sm); padding: 1px 6px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.lecon__cles { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.lecon__cles li { font-size: 14px; font-weight: 700; padding: 4px 12px; border-radius: var(--radius-pill); background: var(--lecon-doux); color: var(--ink); }
+.lecon__piege { display: flex; gap: var(--space-3); align-items: flex-start; }
+.lecon__question { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 21px; line-height: 1.25; }
+.lecon__fin { display: flex; flex-direction: column; gap: var(--space-2); }
+@keyframes etape-entree { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .etape__carte { animation: none; } }
+
+/* Tablette et ordinateur : l'en-tête reste à gauche, le parcours défile à droite. */
+@media (min-width: 900px) {
+  .lecon__mise { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: var(--space-5) var(--space-6); align-items: start; }
+  .lecon__entete { position: sticky; top: var(--space-5); }
+  .lecon__accroche { flex-direction: column; align-items: flex-start; padding: var(--space-4); }
+  .lecon__titre { font-size: 30px; }
+  .lecon__progression { flex-direction: column; gap: var(--space-2); }
+  .lecon__fin { grid-column: 2; flex-direction: row; }
+  .lecon__fin > * { flex: 1; }
+  .lecon__texte { font-size: 18px; line-height: 30px; }
+  .lecon__texte--grand { font-size: 21px; line-height: 34px; }
+}
 .lien-lecon { font-size: 14px; font-weight: 600; color: var(--primary); margin-top: 4px; }
 .reglage { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; color: var(--ink-muted); justify-content: center; }
 .reglage input { width: 20px; height: 20px; accent-color: var(--primary); }
