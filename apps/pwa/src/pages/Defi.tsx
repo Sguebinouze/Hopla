@@ -1,6 +1,7 @@
 import { normaliserReponse, serie, type Item } from '@hopla/generateurs';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Clavier } from '../composants/Clavier';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
@@ -35,7 +36,6 @@ export function Defi() {
   const [flash, setFlash] = useState<'juste' | 'faux' | null>(null);
   const [record, setRecord] = useState(0);
   const [nouveauRecord, setNouveauRecord] = useState(false);
-  const champ = useRef<HTMLInputElement>(null);
   const debut = useRef(0);
   const debutItem = useRef(0);
 
@@ -91,7 +91,6 @@ export function Defi() {
     debut.current = Date.now();
     debutItem.current = Date.now();
     setPhase('en-cours');
-    setTimeout(() => champ.current?.focus(), 50);
   };
 
   const valider = () => {
@@ -111,7 +110,6 @@ export function Defi() {
     debutItem.current = Date.now();
     setItem(nouvelItem(defi, item));
     setSaisie('');
-    champ.current?.focus();
   };
 
   const objectif = defi.objectif;
@@ -151,11 +149,7 @@ export function Defi() {
           <p className={`defi__calcul${flash ? ` defi__calcul--${flash}` : ''}`} aria-live="polite">
             {item.consigne.replace(/^Complète : /, '')}
           </p>
-          <form className="ligne" onSubmit={(e) => { e.preventDefault(); valider(); }}>
-            <input ref={champ} className="saisie pousse" inputMode="numeric" autoComplete="off" aria-label="Ta réponse"
-              value={saisie} onChange={(e) => setSaisie(e.target.value)} />
-            <button className="hp-btn hp-btn--primary hp-btn--lg" disabled={!saisie.trim()}>OK</button>
-          </form>
+          <Clavier valeur={saisie} onChange={setSaisie} onValider={valider} mode="chiffres" bascule={false} libelleValider="OK" />
         </section>
       )}
 

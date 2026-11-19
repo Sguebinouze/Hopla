@@ -2,9 +2,11 @@ import { normaliserReponse, type Item } from '@hopla/generateurs';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { BoutonVoix } from '../composants/BoutonVoix';
+import { Clavier } from '../composants/Clavier';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { Visuel } from '../composants/Visuel';
+import { modeClavier } from '../lib/clavier';
 import { api } from '../lib/donnees';
 import { tempsEcoule } from '../lib/temps';
 import { FinDuJour } from '../composants/FinDuJour';
@@ -165,14 +167,8 @@ export function Exercice() {
             </div>
           )}
           {item.gabarit === 'saisie' && (
-            <form className="ligne" onSubmit={(e) => { e.preventDefault(); void valider(saisie); }}>
-              <label className="pousse">
-                <span className="muet">Ta réponse</span>
-                <input className="saisie" inputMode="decimal" autoComplete="off" value={saisie}
-                  onChange={(e) => setSaisie(e.target.value)} disabled={repondu} />
-              </label>
-              {!repondu && <button className="hp-btn hp-btn--primary hp-btn--lg" disabled={!saisie.trim()}>Vérifier</button>}
-            </form>
+            <Clavier valeur={saisie} onChange={setSaisie} onValider={() => void valider(saisie)}
+              mode={modeClavier(item.reponse)} desactive={repondu} />
           )}
 
           {!repondu && (

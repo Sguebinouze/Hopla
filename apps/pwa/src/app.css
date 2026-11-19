@@ -444,3 +444,29 @@ a.hp-chip { text-decoration: none; }
   border-radius: var(--radius-lg); background: var(--surface-1); color: var(--ink); box-shadow: var(--shadow-lift); }
 .mise-a-jour__texte { flex: 1; margin: 0; font-size: 15px; line-height: 20px; font-weight: 600; }
 
+/* Clavier de réponse intégré : le clavier du système ne s'ouvre pas. Touches pressables du DS. */
+.clavier { display: flex; flex-direction: column; gap: var(--space-3); width: 100%; max-width: 560px; align-self: center; }
+.clavier__ecran { min-height: var(--target-kid); box-sizing: border-box; display: flex; align-items: center; padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--primary); border-radius: var(--radius-md); background: var(--surface-1); color: var(--ink);
+  font-family: var(--font-display); font-weight: 600; font-size: 28px; line-height: 32px; overflow-wrap: anywhere; }
+.clavier__indication { color: var(--ink-muted); font-family: var(--font-text); font-weight: 400; font-size: 17px; margin-left: var(--space-2); }
+.clavier__curseur { flex: none; width: 3px; height: 30px; margin-left: 2px; border-radius: 2px; background: var(--primary); animation: clignote 1s steps(1) infinite; }
+@keyframes clignote { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .clavier__curseur { animation: none; } }
+.clavier__touches--chiffres { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2); }
+.clavier__touches--lettres { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 6px; }
+.clavier__touche { min-width: 0; min-height: var(--target-kid); padding: 0; display: flex; align-items: center; justify-content: center;
+  border: 2px solid var(--line); border-radius: var(--radius-md); background: var(--surface-1); color: var(--ink); box-shadow: var(--shadow-press);
+  font-family: var(--font-display); font-weight: 600; font-size: 24px; cursor: pointer; user-select: none; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.clavier__touche:active { transform: translateY(3px); box-shadow: none; }
+.clavier__touches--lettres .clavier__touche { min-height: 48px; border-radius: var(--radius-sm); font-size: 20px; }
+.clavier__touche--action { background: var(--surface-2); font-family: var(--font-text); font-size: 15px; }
+.clavier__touches--lettres .clavier__touche--action { font-size: 15px; }
+.clavier__touche--valider { background: var(--primary); border-color: var(--primary); color: var(--on-primary); box-shadow: 0 3px 0 var(--primary-strong); font-family: var(--font-text); font-size: 17px; }
+.clavier__touches--lettres .clavier__touche--valider { font-size: 17px; }
+.clavier__touche--valider:disabled { opacity: .45; cursor: default; transform: none; box-shadow: 0 3px 0 var(--primary-strong); }
+.clavier__large2, .clavier__large3 { display: grid; }
+.clavier__large2 { grid-column: span 2; }
+.clavier__large3 { grid-column: span 3; }
+.clavier__large5 { grid-column: span 5; }
+
