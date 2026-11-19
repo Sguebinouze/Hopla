@@ -10,6 +10,7 @@ import './app.css';
 import { lazy, StrictMode, Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { MiseAJour } from './composants/MiseAJour';
 import { Accueil } from './pages/Accueil';
 import { Code } from './pages/Code';
 import { Exercice } from './pages/Exercice';
@@ -66,6 +67,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/admin/relecture" element={<Suspense fallback={<main className="ecran" aria-busy="true" />}><Relecture /></Suspense>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <MiseAJour />
     </BrowserRouter>
   </StrictMode>,
 );

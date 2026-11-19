@@ -43,6 +43,9 @@ importers:
       tesseract.js:
         specifier: 7.0.0
         version: 7.0.0
+      workbox-window:
+        specifier: ^7.4.1
+        version: 7.4.1
     devDependencies:
       '@tesseract.js-data/fra':
         specifier: 1.0.0

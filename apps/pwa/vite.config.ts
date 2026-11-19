@@ -9,7 +9,8 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // Une nouvelle version attend le clic de l'utilisateur (composant MiseAJour) : pas de rechargement en plein exercice.
+      registerType: 'prompt',
       includeAssets: ['icone.svg', 'apple-touch-icon.png'],
       manifest: {
         name: 'Hopla.',
