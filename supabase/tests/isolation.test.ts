@@ -182,6 +182,12 @@ describe('sessions et isolation', () => {
       `insert into public.relectures (type, element_id, decision, par) values ('lecon', 'QM-C2-CE1-ESP-01', 'ok', '${PARENT_B}')`)).rejects.toThrow(/row-level security/);
     await expect(en({ parent: PARENT_A, parentMode: modeA },
       `insert into public.relectures (type, element_id, decision) values ('lecon', 'pas un id', 'ok')`)).rejects.toThrow(/check constraint/);
+    // Dictée : identifiant de fichier ; une notion ne prend pas un identifiant de dictée, ni l'inverse.
+    await en({ parent: PARENT_A, parentMode: modeA }, `insert into public.relectures (type, element_id, decision) values ('dictee', 'ce1-merle', 'ok')`);
+    await expect(en({ parent: PARENT_A, parentMode: modeA },
+      `insert into public.relectures (type, element_id, decision) values ('notion', 'ce1-merle', 'ok')`)).rejects.toThrow(/check constraint/);
+    await expect(en({ parent: PARENT_A, parentMode: modeA },
+      `insert into public.relectures (type, element_id, decision) values ('dictee', 'Ce1 Merle', 'ok')`)).rejects.toThrow(/check constraint/);
     // La table des admins ne se modifie pas depuis l'app.
     await expect(en({ parent: PARENT_B }, `insert into public.admins (user_id) values ('${PARENT_B}')`)).rejects.toThrow(/permission denied/);
   });

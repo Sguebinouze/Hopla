@@ -197,10 +197,10 @@ export function Dictee() {
             })}
           </p>
 
-          <p className="dictee__source muet">
+          {dictee.source !== 'Hopla' && <p className="dictee__source muet">
             {dictee.credit?.startsWith(dictee.source) ? <>Texte : {dictee.credit}.</>
               : <>Texte : {dictee.source}.{dictee.credit && <> D’après {dictee.credit}.</>}</>}
-          </p>
+          </p>}
 
           <div className="dictee__actions">
             <button type="button" className="hp-btn hp-btn--secondary hp-btn--lg" onClick={recommencer}>Recommencer</button>

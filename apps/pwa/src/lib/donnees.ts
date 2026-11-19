@@ -104,7 +104,7 @@ export interface ErreurFrequente {
 }
 
 export interface DecisionRelecture {
-  type: 'notion' | 'lecon' | 'question';
+  type: 'notion' | 'lecon' | 'question' | 'dictee';
   element_id: string;
   decision: 'ok' | 'corriger';
   commentaire: string;

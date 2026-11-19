@@ -30,6 +30,17 @@ export interface NotionRelecture {
   source: { titre: string; page: number; extrait: string };
   lecon: { exemple: string; regle: string; piege: string | null; essai: { consigne: string; options: string[]; reponse: string; explication: string } } | null;
   questions: QuestionRelecture[];
+  dictees: DicteeRelecture[];
+}
+
+export interface DicteeRelecture {
+  id: string;
+  titre: string;
+  texte: string;
+  /** Auteur et œuvre, ou référence. */
+  source: string;
+  licence: string;
+  url: string | null;
 }
 
 /** Notions qui ont encore quelque chose à relire : la notion, sa leçon en brouillon ou des questions rédigées en brouillon. */
@@ -37,6 +48,13 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
   const titres = new Map(contenu.sources.map((s) => [s.id, s.titre]));
   const lecons = new Map(contenu.lecons.map((l) => [l.competence, l]));
   const banques = new Map(contenu.banques.map((b) => [b.competence, b]));
+  const dicteesDe = new Map<string, DicteeRelecture[]>();
+  for (const d of contenu.dictees ?? []) {
+    if (d.statut !== 'brouillon') continue;
+    const source = [d.source.auteur, d.source.oeuvre].filter(Boolean).join(', ') || d.source.reference;
+    dicteesDe.set(d.competence, [...(dicteesDe.get(d.competence) ?? []),
+      { id: d.id, titre: d.titre, texte: d.texte, source, licence: d.licence, url: d.source.url }]);
+  }
   const notions: NotionRelecture[] = [];
   for (const ref of contenu.referentiels) {
     for (const c of ref.competences) {
@@ -50,12 +68,14 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
           indice: e.indice, explication: e.explication, ...(e.ecoute ? { ecoute: e.ecoute.texte } : {}),
         }));
       const verifiee = c.statut === 'verifie';
-      if (verifiee && !lecon && questions.length === 0) continue;
+      const dictees = dicteesDe.get(c.id) ?? [];
+      if (verifiee && !lecon && questions.length === 0 && dictees.length === 0) continue;
       notions.push({
         id: c.id, classe: ref.classe, titre: c.titre, theme: c.theme, attendu: c.attendu, verifiee,
         source: { titre: titres.get(c.source.id) ?? c.source.id, page: c.source.page, extrait: c.source.extrait },
         lecon: lecon ? { exemple: lecon.exemple, regle: lecon.regle, piege: lecon.piege, essai: lecon.essai } : null,
         questions,
+        dictees,
       });
     }
   }
@@ -71,7 +91,7 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
 }
 
 export interface Decision {
-  type: 'notion' | 'lecon' | 'question';
+  type: 'notion' | 'lecon' | 'question' | 'dictee';
   element_id: string;
   decision: 'ok' | 'corriger';
   commentaire: string;
@@ -85,7 +105,7 @@ export interface BilanApplication {
 }
 
 /**
- * Applique les décisions « ok » : question et leçon passent en `publie` avec `relu_par`,
+ * Applique les décisions « ok » : question, leçon et dictée passent en `publie` avec `relu_par`,
  * la notion passe en `verifie`. Les décisions « corriger » sont seulement listées.
  * Seul un humain prend ces décisions (espace admin) ; ce code ne fait que les reporter.
  */
@@ -104,6 +124,11 @@ export function appliquerRelecture(contenu: Contenu, decisions: Decision[], par:
       const e = b && charger<{ exercices: { id: string; statut: string; relu_par: string | null }[] }>(b.fichier).exercices.find((x) => x.id === d.element_id);
       if (!e) { bilan.introuvables.push(d); continue; }
       if (e.statut !== 'publie') { e.statut = 'publie'; e.relu_par = par; bilan.publies.push(d.element_id); }
+    } else if (d.type === 'dictee') {
+      const f = contenu.dictees?.find((x) => x.id === d.element_id);
+      const brut = f && charger<{ statut: string; relu_par: string | null }>(f.fichier);
+      if (!brut) { bilan.introuvables.push(d); continue; }
+      if (brut.statut !== 'publie') { brut.statut = 'publie'; brut.relu_par = par; bilan.publies.push(`dictée ${d.element_id}`); }
     } else if (d.type === 'lecon') {
       const l = contenu.lecons.find((x) => x.competence === d.element_id);
       const brut = l && charger<{ statut: string; relu_par: string | null }>(l.fichier);

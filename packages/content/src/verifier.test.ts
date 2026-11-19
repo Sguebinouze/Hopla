@@ -76,6 +76,21 @@ describe('intégrité des références', () => {
     expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['XX-C2-CE1-ABC-01-001']);
   });
 
+  it('relecture : les dictées en brouillon se relisent sous leur notion, et une décision « ok » les publie', () => {
+    const avecDictee: Contenu = {
+      ...contenu, dictees: (contenu.dictees ?? []).map((d) => ({ ...d, statut: 'brouillon' as const, relu_par: null })),
+    };
+    const n = construireRelecture(avecDictee).find((x) => x.id === 'FR-C2-CE1-DICT-01')!;
+    expect(n.dictees.map((d) => d.id)).toContain('ce1-merle');
+    expect(n.dictees.find((d) => d.id === 'ce1-merle')!.source).toBe('Jules Renard, Histoires naturelles');
+    const bilan = appliquerRelecture(avecDictee, [
+      { type: 'dictee', element_id: 'ce1-merle', decision: 'ok', commentaire: '' },
+      { type: 'dictee', element_id: 'inconnue', decision: 'ok', commentaire: '' },
+    ], 'Laurent', false);
+    expect(bilan.publies).toEqual(['dictée ce1-merle']);
+    expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['inconnue']);
+  });
+
   it('refuse un défi de fluence dont le générateur ne couvre pas la compétence', () => {
     const d = contenu.defis.find((x) => x.id === 'tables-addition-ce1')!;
     const faux = { ...contenu, defis: [...contenu.defis, { ...d, id: 'defi-faux', generateur: 'tables-addition-cp' }] };

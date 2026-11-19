@@ -24,7 +24,8 @@ Bilan : rien n'interdit la vente. Deux vérifications restent à faire (section 
 | Source | Licence | Vente | Obligation |
 |---|---|---|---|
 | Dictées Classetto, CE1 au CM2 (data.gouv.fr), 36 textes importés | CC BY 4.0 | Oui | Crédit affiché sous chaque dictée et sur la page Crédits. |
-| Extraits d'auteurs du domaine public, recopiés depuis Wikisource | Domaine public | Oui | Aucune. Ne pas reprendre les numérisations de Gallica : la BnF fait payer leur usage commercial. |
+| Extraits d'auteurs du domaine public, recopiés depuis Wikisource : 17 passages, 6e à 3e (Daudet, Renard, Verne, Gautier, Maupassant, Zola, Hugo, Alain-Fournier) | Domaine public | Oui | Aucune. Ne pas reprendre les numérisations de Gallica : la BnF fait payer leur usage commercial. |
+| Phrases de CP écrites pour l'appli : 10 | Hopla | Oui | Aucune. |
 | Vikidia | CC BY-SA 3.0 | Oui, mais partage à l'identique | Écartée. |
 | Manulex | Pas de licence claire | Non en l'état | Écartée. |
 

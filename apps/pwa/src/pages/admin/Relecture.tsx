@@ -15,6 +15,8 @@ interface Notion {
   source: { titre: string; page: number; extrait: string };
   lecon: { exemple: string; regle: string; piege: string | null; essai: { consigne: string; options: string[]; reponse: string; explication: string } } | null;
   questions: Question[];
+  /** Absent d'un fichier de relecture construit avant les dictées. */
+  dictees?: { id: string; titre: string; texte: string; source: string; licence: string; url: string | null }[];
 }
 type Type = DecisionRelecture['type'];
 type Element = { type: Type; id: string };
@@ -32,6 +34,7 @@ const elements = (n: Notion): Element[] => [
   ...(n.verifiee ? [] : [{ type: 'notion' as const, id: n.id }]),
   ...(n.lecon ? [{ type: 'lecon' as const, id: n.id }] : []),
   ...n.questions.map((q) => ({ type: 'question' as const, id: q.id })),
+  ...(n.dictees ?? []).map((d) => ({ type: 'dictee' as const, id: d.id })),
 ];
 
 function Options({ options, reponse }: { options: string[]; reponse: string }) {
@@ -222,6 +225,18 @@ function PageRelecture() {
                 <p className="muet"><strong>Indice :</strong> {q.indice}</p>
                 <p className="muet"><strong>Explication :</strong> {q.explication}</p>
                 <Decision el={{ type: 'question', id: q.id }} d={decision({ type: 'question', id: q.id })} onDecider={decider} />
+              </section>
+            ))}
+
+            {(n.dictees ?? []).map((d) => (
+              <section key={d.id} className="hp-card relecture__carte">
+                <p className="muet">Dictée · {d.id} · {d.licence === 'hopla' ? 'texte écrit pour l’appli' : d.licence === 'domaine-public' ? 'domaine public' : 'CC BY 4.0'}</p>
+                <h3 className="titre-3">{d.titre}</h3>
+                <p style={{ margin: 0 }}>{d.texte}</p>
+                <p className="muet">
+                  {d.source}{d.url && <> · <a href={d.url} target="_blank" rel="noreferrer">texte source</a></>} · {d.texte.split(/\s+/).length} mots
+                </p>
+                <Decision el={{ type: 'dictee', id: d.id }} d={decision({ type: 'dictee', id: d.id })} onDecider={decider} />
               </section>
             ))}
           </article>
