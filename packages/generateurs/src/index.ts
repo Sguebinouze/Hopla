@@ -26,7 +26,7 @@ import type { Difficulte, Generateur, Item } from './types';
 export type { Difficulte, ElementFigure, Gabarit, Generateur, Item, Point, Visuel } from './types';
 export { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 export { enLettres } from './lettres';
-export { ERREURS } from './erreurs';
+export { ERREURS, ERREURS_DICTEE } from './erreurs';
 
 export const GENERATEURS: Generateur[] = [
   // CP

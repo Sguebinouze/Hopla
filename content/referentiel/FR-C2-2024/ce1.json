@@ -271,6 +271,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE1-DICT-01",
+      "titre": "Dictée de phrases",
+      "domaine": "Écriture",
+      "theme": "Encoder puis écrire sous dictée",
+      "attendu": "Écrire sous la dictée un texte court en accordant le groupe nominal et le verbe.",
+      "exemple": "« Les petites sœurs jouent. »",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 11,
+        "extrait": "Il réalise des dictées en lien avec l’étude de la langue."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

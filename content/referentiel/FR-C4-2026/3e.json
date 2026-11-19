@@ -211,6 +211,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C4-3E-DICT-01",
+      "titre": "Dictée",
+      "domaine": "Vocabulaire et orthographe lexicale",
+      "theme": "Écrire sous la dictée",
+      "attendu": "Écrire sous la dictée un texte d’auteur en réemployant le vocabulaire et les accords étudiés.",
+      "exemple": "Une dictée tirée d’un conte de Maupassant.",
+      "source": {
+        "id": "bo10-2026-francais-maths-c4",
+        "page": 27,
+        "extrait": "Des dictées de modalités diverses et des copies, réemployant le vocabulaire étudié"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

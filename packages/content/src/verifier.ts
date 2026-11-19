@@ -34,6 +34,13 @@ export function programmesApplicables(
   );
 }
 
+/** Ce que le clavier intégré permet de taper : lettres (majuscules comprises), accents, chiffres, ponctuation. */
+const CARACTERES_DICTEE = /[a-zA-ZéèêàâçùûîôœïÉÈÊÀÂÇÙÛÎÔŒÏ0-9 \u00a0,.;:?!…«»’'\-]/g;
+/** Longueur d'une dictée, en mots, selon la classe. */
+const MOTS_DICTEE: Record<string, [number, number]> = {
+  cp: [2, 12], ce1: [12, 50], ce2: [20, 80], cm1: [30, 110], cm2: [40, 130], '6e': [50, 150], '5e': [60, 170], '4e': [70, 180], '3e': [80, 200],
+};
+
 export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT): Constat[] {
   const constats: Constat[] = [];
   const erreur = (ou: string, message: string) => constats.push({ niveau: 'erreur', ou, message });
@@ -215,7 +222,25 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
   }
   unicite(idsCulture, 'question de culture');
 
-  const couvertes = new Set([...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences)]);
+  // Dictées : licence compatible avec la vente (le schéma la restreint), compétence de la classe,
+  // texte tapable sur le clavier intégré, longueur adaptée à la classe.
+  const idsDictees: string[] = [];
+  for (const d of contenu.dictees ?? []) {
+    idsDictees.push(d.id);
+    const c = competences.get(d.competence);
+    if (!c) erreur(d.fichier, `compétence inconnue : ${d.competence}`);
+    else if (!d.competence.includes(`-${d.classe.toUpperCase()}-`)) erreur(d.fichier, `la compétence ${d.competence} n'est pas de la classe ${d.classe}`);
+    const horsClavier = [...new Set(d.texte.replace(CARACTERES_DICTEE, ''))];
+    if (horsClavier.length) erreur(d.fichier, `caractères absents du clavier intégré : ${horsClavier.map((x) => JSON.stringify(x)).join(' ')}`);
+    const mots = d.texte.split(/\s+/).filter((m) => /\p{L}/u.test(m)).length;
+    const [min, max] = MOTS_DICTEE[d.classe] ?? [1, 300];
+    if (mots < min || mots > max) alerte(d.fichier, `${mots} mots : attendu de ${min} à ${max} en ${d.classe}`);
+  }
+  unicite(idsDictees, 'dictée');
+
+  const couvertes = new Set([
+    ...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences), ...(contenu.dictees ?? []).map((d) => d.competence),
+  ]);
   for (const id of competences.keys()) if (!couvertes.has(id)) alerte(id, 'aucun exercice ni générateur');
 
   return constats;

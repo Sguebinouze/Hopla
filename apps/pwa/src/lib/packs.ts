@@ -34,6 +34,18 @@ export interface CompetencePack {
     erreurs?: Record<string, string>;
     ecoute?: Ecoute;
   }[];
+  /** Dictées de la notion (absentes des packs construits avant elles). */
+  dictees?: DicteePack[];
+}
+
+/** Dictée : texte, groupes à dicter, auteur et œuvre, crédit à afficher si la licence l'exige. */
+export interface DicteePack {
+  id: string;
+  titre: string;
+  texte: string;
+  groupes: string[];
+  source: string;
+  credit: string | null;
 }
 
 /** Langues vivantes : phrase dite à l'élève dans la langue étudiée. */

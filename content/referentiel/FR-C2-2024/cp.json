@@ -226,6 +226,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CP-DICT-02",
+      "titre": "Écrire une phrase dictée",
+      "domaine": "Écriture",
+      "theme": "Encoder puis écrire sous dictée",
+      "attendu": "Écouter une phrase courte et l’écrire, mot après mot.",
+      "exemple": "« Le chat dort. »",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 10,
+        "extrait": "Écrire sous la dictée des mots et des phrases."
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

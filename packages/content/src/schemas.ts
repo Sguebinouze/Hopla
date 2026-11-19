@@ -169,3 +169,34 @@ export const defiSchema = z.object({
   message: 'un objectif chiffré cite sa source, et seulement dans ce cas',
 });
 export type Defi = z.infer<typeof defiSchema>;
+
+// Dictée : un texte réel (auteur du domaine public, jeu de données sous licence libre) ou une phrase
+// construite pour le CP. La licence doit permettre la vente de l'appli sur les stores ; une licence
+// CC BY impose le crédit, affiché dans l'appli. Voir docs/licences.md.
+export const LICENCES_DICTEE = ['domaine-public', 'CC-BY-4.0', 'hopla'] as const;
+export const dicteeSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+    classe: z.enum(CLASSES),
+    competence: z.string(),
+    titre: z.string().min(1).max(60),
+    texte: z.string().min(5).max(1500),
+    source: z.object({
+      auteur: z.string().nullable(),
+      oeuvre: z.string().nullable(),
+      passage: z.string().nullable(),
+      reference: z.string().min(3),
+      url: z.string().url().nullable(),
+    }),
+    licence: z.enum(LICENCES_DICTEE),
+    credit: z.string().nullable(),
+    // Points d'orthographe à observer (accords, terminaisons, lettres muettes), quand la source les donne.
+    points: z.array(z.string()),
+    statut: z.enum(['brouillon', 'relu', 'publie']),
+    auteur: z.enum(['humain', 'ia']),
+    relu_par: z.string().nullable(),
+  })
+  .refine((d) => d.licence !== 'CC-BY-4.0' || (d.credit?.length ?? 0) > 5, { message: 'une dictée sous CC BY doit indiquer son crédit' })
+  .refine((d) => d.statut === 'brouillon' || d.relu_par !== null, { message: 'une dictée relue ou publiée doit indiquer relu_par' });
+export type Dictee = z.infer<typeof dicteeSchema>;
+

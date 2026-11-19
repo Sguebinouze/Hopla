@@ -451,6 +451,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-6E-DICT-01",
+      "titre": "Dictée",
+      "domaine": "Écriture",
+      "theme": "Écrire sous la dictée",
+      "attendu": "Écrire sous la dictée un texte d’auteur en appliquant les accords et l’orthographe étudiés.",
+      "exemple": "Une dictée tirée des Lettres de mon moulin.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 8,
+        "extrait": "les différentes formes de dictées qui sont également pratiquées"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

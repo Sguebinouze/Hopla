@@ -12,6 +12,7 @@
     "typecheck": "pnpm -r --if-present typecheck",
     "content:check": "pnpm --filter @hopla/content check",
     "content:packs": "pnpm --filter @hopla/content packs",
+    "licences": "node scripts/licences/generer.mjs",
     "content:hash": "pnpm --filter @hopla/content hash",
     "ds:build": "pnpm --filter @hopla/ds build",
     "content:extraits": "pnpm --filter @hopla/content extraits",

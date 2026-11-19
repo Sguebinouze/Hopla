@@ -328,6 +328,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C2-CE2-DICT-02",
+      "titre": "Dictée de texte",
+      "domaine": "Écriture",
+      "theme": "Encoder puis écrire sous dictée",
+      "attendu": "Écrire sous la dictée un texte court en appliquant les accords étudiés.",
+      "exemple": "« Les oiseaux chantaient dans les arbres. »",
+      "source": {
+        "id": "bo41-2024-francais-c2",
+        "page": 12,
+        "extrait": "réalise des dictées en lien avec l’étude de la langue"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

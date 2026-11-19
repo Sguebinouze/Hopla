@@ -51,6 +51,7 @@ export function Profils() {
             Première visite ? Commencez par « Je suis parent » : vous créerez les profils de vos enfants en quelques minutes.
           </p>
           <Link to="/confidentialite" className="muet lien-discret" style={{ textAlign: 'center' }}>Confidentialité : ce que Hopla garde, et ce qu’il ne garde pas</Link>
+          <Link to="/credits" className="muet lien-discret" style={{ textAlign: 'center' }}>Crédits et licences</Link>
         </div>
       </main>
     );

@@ -10,9 +10,10 @@ import { aFaire, indexer, ranger, rechercher } from '../lib/recherche';
 
 function Notion({ c, suivi, contexte }: { c: CompetencePack; suivi?: Suivi; contexte?: boolean }) {
   const jouable = c.generateurs.length > 0 || c.exercices.length > 0;
+  const dictee = (c.dictees?.length ?? 0) > 0;
   const e = etat(suivi);
   return (
-    <div className="hp-skill notion" aria-disabled={!jouable && !c.lecon}>
+    <div className="hp-skill notion" aria-disabled={!jouable && !dictee && !c.lecon}>
       <span className="hp-skill__main">
         {contexte && <span className="notion__contexte">{c.domaine} · {c.theme}</span>}
         <span className="hp-skill__name">{c.titre}</span>
@@ -22,7 +23,8 @@ function Notion({ c, suivi, contexte }: { c: CompetencePack; suivi?: Suivi; cont
         {e !== 'nouveau' && <span className={`hp-chip ${CHIP_ETAT[e]}`}>{LIBELLE_ETAT[e]}</span>}
         {c.lecon && <Link to={`/lecon/${c.id}`} className="hp-chip hp-chip--neutral"><Icone nom="livre" taille={16} />Leçon</Link>}
         {jouable && <Link to={`/exercice/${c.id}`} className="hp-chip hp-chip--primary">S’entrainer</Link>}
-        {!jouable && !c.lecon && <span className="hp-chip hp-chip--neutral">Bientôt</span>}
+        {dictee && <Link to={`/dictee/${c.id}`} className="hp-chip hp-chip--primary"><Icone nom="plume" taille={16} />Dictée</Link>}
+        {!jouable && !dictee && !c.lecon && <span className="hp-chip hp-chip--neutral">Bientôt</span>}
       </span>
     </div>
   );

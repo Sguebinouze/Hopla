@@ -375,6 +375,21 @@
       },
       "prerequis": [],
       "statut": "verifie"
+    },
+    {
+      "id": "FR-C3-CM1-DICT-01",
+      "titre": "Dictée",
+      "domaine": "Écriture",
+      "theme": "Écrire sous la dictée",
+      "attendu": "Écrire sous la dictée un texte d’auteur en appliquant les accords et l’orthographe étudiés.",
+      "exemple": "Une dictée de Jules Renard ou d’Alphonse Daudet.",
+      "source": {
+        "id": "bo16-2025-francais-c3",
+        "page": 17,
+        "extrait": "dont des dictées"
+      },
+      "prerequis": [],
+      "statut": "verifie"
     }
   ]
 }

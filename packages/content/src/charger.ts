@@ -3,8 +3,8 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { z } from 'zod';
 import {
-  banqueCultureSchema, banqueSchema, defiSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
-  type Banque, type BanqueCulture, type Defi, type Lecon, type Programme, type Referentiel, type Source,
+  banqueCultureSchema, banqueSchema, defiSchema, dicteeSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
+  type Banque, type BanqueCulture, type Defi, type Dictee, type Lecon, type Programme, type Referentiel, type Source,
 } from './schemas';
 
 export const RACINE_DEPOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
@@ -18,6 +18,7 @@ export interface Contenu {
   lecons: (Lecon & { fichier: string })[];
   defis: Defi[];
   culture: (BanqueCulture & { fichier: string })[];
+  dictees?: (Dictee & { fichier: string })[];
 }
 
 export interface ErreurChargement {
@@ -81,5 +82,10 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     return b ? [{ ...b, fichier: relative(racine, f) }] : [];
   });
 
-  return { contenu: { sources, programmes, referentiels, banques, lecons, defis, culture }, erreurs };
+  const dictees = fichiersJson(join(racine, 'dictees')).flatMap((f) => {
+    const d = lire(f, dicteeSchema);
+    return d ? [{ ...d, fichier: relative(racine, f) }] : [];
+  });
+
+  return { contenu: { sources, programmes, referentiels, banques, lecons, defis, culture, dictees }, erreurs };
 }

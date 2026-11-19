@@ -2,13 +2,13 @@
 
 État au 19 novembre 2026. Objectif : vendre Hopla sur l'App Store et Google Play. Chaque élément de l'appli est classé selon ce que sa licence permet pour une appli payante.
 
-Bilan : rien n'interdit la vente. Trois obligations restent à remplir (section « À faire »).
+Bilan : rien n'interdit la vente. Deux vérifications restent à faire (section « À faire »).
 
 ## Ce que l'appli embarque
 
 | Élément | Licence | Vente | Obligation |
 |---|---|---|---|
-| Code tiers de l'appli : React, React Router, client Supabase, Workbox, qrcode, idb-keyval, tslib et leurs dépendances | MIT, ISC, BSD-2-Clause, 0BSD | Oui | Reproduire les mentions de copyright et de licence (page Crédits). |
+| Code tiers de l'appli : React, React Router, client Supabase, Workbox, qrcode, idb-keyval, tslib et leurs dépendances | MIT, ISC, BSD-2-Clause, 0BSD | Oui | Mentions de copyright et de licence : page Crédits et `licences.txt` (`pnpm licences` après un changement de dépendance). |
 | Lecture des photos de leçon : tesseract.js, tesseract.js-core, wasm-feature-detect | Apache-2.0 | Oui | Mentions de licence ; signaler toute modification de leur code (aucune). |
 | Données de langue française de l'OCR (`@tesseract.js-data/fra`, fichier `fra.traineddata`) | MIT pour le paquet, Apache-2.0 pour les données Tesseract d'origine | Oui | Mentions de licence. |
 | Polices Fredoka et Lexend (`@fontsource`) | SIL Open Font License 1.1 | Oui | Licence jointe ; interdit de vendre les polices seules (ce que Hopla ne fait pas). |
@@ -19,11 +19,11 @@ Bilan : rien n'interdit la vente. Trois obligations restent à remplir (section 
 | Voix d'Octave : fichiers audio générés par Google Cloud Text-to-Speech (Chirp 3 HD, voix Algenib) | Conditions de Google Cloud | Oui, à confirmer | Pas d'attribution exigée d'après le forum Google Cloud. Relire les conditions Google Cloud propres au service avant la sortie. |
 | Voix de l'appareil (relais) | Synthèse vocale du système | Oui | Aucune : rien n'est embarqué. |
 
-## Contenus à venir : dictées
+## Dictées
 
 | Source | Licence | Vente | Obligation |
 |---|---|---|---|
-| Dictées Classetto, CE1 au CM2 (data.gouv.fr) | CC BY 4.0 | Oui | Citer Classetto et `https://classetto.com/sources/#donnees-ouvertes`. |
+| Dictées Classetto, CE1 au CM2 (data.gouv.fr), 36 textes importés | CC BY 4.0 | Oui | Crédit affiché sous chaque dictée et sur la page Crédits. |
 | Extraits d'auteurs du domaine public, recopiés depuis Wikisource | Domaine public | Oui | Aucune. Ne pas reprendre les numérisations de Gallica : la BnF fait payer leur usage commercial. |
 | Vikidia | CC BY-SA 3.0 | Oui, mais partage à l'identique | Écartée. |
 | Manulex | Pas de licence claire | Non en l'état | Écartée. |
@@ -40,8 +40,9 @@ Chaque dictée porte sa licence et sa source ; `pnpm content:check` refuse une l
 
 ## À faire avant les stores
 
-1. **Page Crédits dans l'appli** : mentions de licence du code tiers, des polices, de l'OCR, et crédit Classetto dès l'import des dictées.
-2. **Conditions Google Cloud** : confirmer dans les conditions propres au service Text-to-Speech que les fichiers générés peuvent être diffusés dans une appli payante.
-3. **Marque** : vérifier à l'INPI et à l'EUIPO que « Hopla » est disponible dans les classes logiciels et éducation (9, 41), puis la déposer. Des homonymes existent dans d'autres secteurs.
+Fait : page Crédits (`/credits`), liée depuis l'accueil et l'espace parent.
+
+1. **Conditions Google Cloud** : confirmer dans les conditions propres au service Text-to-Speech que les fichiers générés peuvent être diffusés dans une appli payante.
+2. **Marque** : vérifier à l'INPI et à l'EUIPO que « Hopla » est disponible dans les classes logiciels et éducation (9, 41), puis la déposer. Des homonymes existent dans d'autres secteurs.
 
 Hors licences, pour mémoire : une PWA n'entre pas telle quelle sur l'App Store. Il faudra l'emballer en appli native (Capacitor, par exemple) et respecter les règles de la catégorie Enfants : pas de publicité ni d'outil de mesure tiers, contrôle parental avant tout lien externe ou achat, politique de confidentialité (la page existe déjà).

@@ -32,6 +32,8 @@ import { Profils } from './pages/Profils';
 import { Resultat } from './pages/Resultat';
 import { Culture } from './pages/Culture';
 import { Jeu, Jeux } from './pages/Jeux';
+import { Credits } from './pages/Credits';
+import { Dictee } from './pages/Dictee';
 
 // Espace admin : module séparé, chargé seulement quand on ouvre /admin.
 const Relecture = lazy(() => import('./pages/admin/Relecture'));
@@ -60,6 +62,8 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/connexion" element={<Connexion />} />
         <Route path="/demarrer" element={<Demarrer />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
+        <Route path="/dictee/:competence" element={<Dictee />} />
+        <Route path="/credits" element={<Credits />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />
         <Route path="/parent/enfant/:id" element={<FicheEnfant />} />

@@ -1,4 +1,4 @@
-import { cleVoix } from '@hopla/redaction';
+import { cleVoix, groupeLu } from '@hopla/redaction';
 import type { Pack } from './packs';
 import type { Langue } from './voix';
 
@@ -9,7 +9,7 @@ export interface TexteLu { langue: Langue; texte: string }
 
 /**
  * Tout ce qu'Octave peut lire dans un pack, tel que dire() le lit :
- * consignes, indices et explications des banques, phrases d'écoute, leçons, quiz de culture.
+ * consignes, indices et explications des banques, phrases d'écoute, leçons, dictées, quiz de culture.
  * Les questions des générateurs (nombres tirés au hasard) n'y sont pas : elles gardent la voix de l'appareil.
  * Sert au script de génération des fichiers audio et à l'appli pour savoir lesquels existent.
  */
@@ -35,6 +35,11 @@ export function textesLus(pack: Pick<Pack, 'matieres' | 'culture' | 'voix'>): Te
         fr(c.lecon.regle);
         fr(c.lecon.piege);
         fr(c.lecon.essai.consigne);
+      }
+      // Dictée : le texte entier (première écoute, relecture), puis chaque groupe avec sa ponctuation nommée.
+      for (const d of c.dictees ?? []) {
+        fr(d.texte);
+        for (const g of d.groupes) fr(groupeLu(g));
       }
     }
   }

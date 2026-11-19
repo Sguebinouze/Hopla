@@ -1,4 +1,4 @@
-import { ERREURS } from '@hopla/generateurs';
+import { ERREURS, ERREURS_DICTEE } from '@hopla/generateurs';
 
 // Suivi d'une notion. Même règle que app.apres_resultat et app.intervalle
 // (supabase/migrations/20261116000000_suivi.sql) : la démo calcule ici, Supabase en base.
@@ -79,7 +79,8 @@ export function bilan(ids: string[], suivi: Record<string, Suivi>, jour = aujour
 
 /** Code d'erreur → libellé du dictionnaire ERREURS, ou code mis en forme s'il n'y figure pas. */
 export function libelleErreur(code: string): string {
-  if (ERREURS[code]) return ERREURS[code];
+  const libelle = ERREURS[code] ?? ERREURS_DICTEE[code];
+  if (libelle) return libelle;
   const t = code.replace(/-/g, ' ');
   return t.charAt(0).toUpperCase() + t.slice(1);
 }

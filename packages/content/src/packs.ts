@@ -1,7 +1,7 @@
 import { GENERATEURS } from '@hopla/generateurs';
-import { decouperLangues, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
+import { decouperDictee, decouperLangues, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
 import type { Contenu } from './charger';
-import { CLASSES, CYCLE_DE, type Classe, type Defi, type Exercice, type Lecon, type QuestionCulture } from './schemas';
+import { CLASSES, CYCLE_DE, type Classe, type Defi, type Dictee, type Exercice, type Lecon, type QuestionCulture } from './schemas';
 import { programmesApplicables } from './verifier';
 
 export interface Pack {
@@ -26,6 +26,7 @@ export interface Pack {
       generateurs: string[];
       exercices: Exercice[];
       lecon: Pick<Lecon, 'exemple' | 'regle' | 'piege' | 'essai' | 'statut'> | null;
+      dictees: DicteePack[];
     }[];
   }[];
   /** Culture générale (hors programme) du cycle de la classe. */
@@ -36,6 +37,19 @@ export interface Pack {
    */
   voix: Record<string, Passage[]>;
 }
+
+/** Dictée telle que l'appli la joue : texte, groupes à dicter, source et crédit à afficher. */
+export interface DicteePack {
+  id: string;
+  titre: string;
+  texte: string;
+  groupes: string[];
+  source: string;
+  credit: string | null;
+}
+
+const sourceDictee = (d: Dictee) =>
+  [d.source.auteur, d.source.oeuvre].filter(Boolean).join(', ') || d.source.reference;
 
 /** Langue étudiée par matière, et sa clé dans le lexique (packages/content/voix/lexique.json). */
 export const LANGUE_DE_MATIERE: Record<string, { langue: LangueEtudiee; lexique: 'en' | 'de' | 'es' }> = {
@@ -73,6 +87,7 @@ export function construirePacks(
   const statuts = new Set<Exercice['statut']>(options.brouillons ? ['brouillon', 'relu', 'publie'] : ['publie']);
   const banques = new Map(contenu.banques.map((b) => [b.competence, b.exercices]));
   const lecons = new Map(contenu.lecons.filter((l) => statuts.has(l.statut)).map((l) => [l.competence, l]));
+  const dictees = (contenu.dictees ?? []).filter((d) => statuts.has(d.statut));
 
   return CLASSES.map((classe): Pack => {
     const programmes = programmesApplicables(contenu.programmes, classe, annee);
@@ -109,6 +124,9 @@ export function construirePacks(
               const l = lecons.get(c.id);
               return l ? { exemple: l.exemple, regle: l.regle, piege: l.piege, essai: l.essai, statut: l.statut } : null;
             })(),
+            dictees: dictees.filter((d) => d.competence === c.id && d.classe === classe).map((d) => ({
+              id: d.id, titre: d.titre, texte: d.texte, groupes: decouperDictee(d.texte), source: sourceDictee(d), credit: d.credit,
+            })),
           })),
         };
       }),
