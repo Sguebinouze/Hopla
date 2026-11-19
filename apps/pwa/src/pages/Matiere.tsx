@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { ChampTactile } from '../composants/ChampTactile';
 import { Icone } from '../composants/Icone';
 import { COULEUR_MATIERE } from '../lib/couleurs';
 import { api } from '../lib/donnees';
@@ -89,7 +90,7 @@ export function Matiere() {
       </div>
       <label className="recherche">
         <Icone nom="loupe" taille={20} />
-        <input type="search" value={requete} onChange={(e) => setRequete(e.target.value)}
+        <ChampTactile type="search" value={requete} onChange={setRequete}
           placeholder={`Chercher en ${nom.toLowerCase()} : un mot, une leçon`} aria-label={`Chercher une notion en ${nom}`} enterKeyHint="search" />
       </label>
 

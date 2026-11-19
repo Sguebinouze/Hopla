@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { ChampTactile } from '../composants/ChampTactile';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Enfant } from '../lib/donnees';
@@ -127,7 +128,7 @@ export function PhotoLecon() {
         {etape.proposees.length > 0 && <div className="liste-notions">{etape.proposees.map((id) => ligneNotion(id, 'garder', etape.image))}</div>}
         <label className="photo__recherche">
           <span className="muet">{etape.proposees.length > 0 ? 'Une autre ? Cherche-la :' : 'Cherche-la dans ton programme :'}</span>
-          <input type="search" value={recherche} placeholder="Par exemple : fractions" onChange={(e) => setRecherche(e.target.value)} />
+          <ChampTactile type="search" value={recherche} placeholder="Par exemple : fractions" onChange={setRecherche} />
         </label>
         {autres.length > 0 && <div className="liste-notions">{autres.map((c) => ligneNotion(c.id, 'garder', etape.image))}</div>}
         {filtre.length >= 2 && autres.length === 0 && <p className="muet">Aucune notion de ta classe ne s’appelle ainsi.</p>}

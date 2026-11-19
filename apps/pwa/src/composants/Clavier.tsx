@@ -21,29 +21,37 @@ interface Props {
   libelleValider?: string;
   /** Réponse envoyée : seul l'écran reste, les touches disparaissent. */
   desactive?: boolean;
+  /** Le texte s'affiche ailleurs (champ de recherche) : pas d'écran au-dessus des touches. */
+  sansEcran?: boolean;
+  /** La touche de validation reste active sur un texte vide (fermer le clavier d'une recherche). */
+  valideVide?: boolean;
 }
 
 /**
  * Clavier de réponse intégré, aux couleurs du DS : le clavier du téléphone ou de la tablette ne
  * s'ouvre pas et ne cache pas la question. Un clavier physique (ordinateur) fonctionne aussi.
  */
-export function Clavier({ valeur, onChange, onValider, mode, bascule = true, libelleValider = 'Vérifier', desactive = false }: Props) {
+export function Clavier({
+  valeur, onChange, onValider, mode, bascule = true, libelleValider = 'Vérifier', desactive = false, sansEcran = false, valideVide = false,
+}: Props) {
   const [courant, setCourant] = useState(mode);
   useEffect(() => setCourant(mode), [mode]);
 
   // Le clavier physique passe par les mêmes règles que les touches à l'écran.
-  const etat = useRef({ valeur, onChange, onValider });
-  etat.current = { valeur, onChange, onValider };
+  const etat = useRef({ valeur, onChange, onValider, valideVide });
+  etat.current = { valeur, onChange, onValider, valideVide };
   useEffect(() => {
     if (desactive) return;
     const surTouche = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
-      if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable]')) return;
+      // Un autre champ modifiable a la main ; un champ en lecture seule (recherche tactile) passe par ce clavier.
+      const cible = e.target instanceof HTMLElement ? e.target.closest('input, textarea, select, [contenteditable]') : null;
+      if (cible && !(cible instanceof HTMLInputElement && cible.readOnly)) return;
       const t = toucheDuClavierPhysique(e.key);
       if (!t) return;
       e.preventDefault();
       const { valeur: v, onChange: changer, onValider: valider } = etat.current;
-      if (t === 'valider') { if (v.trim()) valider(); return; }
+      if (t === 'valider') { if (v.trim() || etat.current.valideVide) valider(); return; }
       changer(appliquerTouche(v, t));
     };
     window.addEventListener('keydown', surTouche);
@@ -59,7 +67,7 @@ export function Clavier({ valeur, onChange, onValider, mode, bascule = true, lib
     </button>
   );
   const valider = (
-    <button type="button" className="clavier__touche clavier__touche--valider" disabled={!valeur.trim()} onClick={onValider}>
+    <button type="button" className="clavier__touche clavier__touche--valider" disabled={!valideVide && !valeur.trim()} onClick={onValider}>
       {libelleValider}
     </button>
   );
@@ -72,11 +80,13 @@ export function Clavier({ valeur, onChange, onValider, mode, bascule = true, lib
 
   return (
     <div className="clavier">
-      <div className="clavier__ecran" role="textbox" aria-readonly="true" aria-label="Ta réponse">
-        <span>{valeur}</span>
-        {!desactive && <span className="clavier__curseur" aria-hidden="true" />}
-        {!valeur && <span className="clavier__indication">Ta réponse</span>}
-      </div>
+      {!sansEcran && (
+        <div className="clavier__ecran" role="textbox" aria-readonly="true" aria-label="Ta réponse">
+          <span>{valeur}</span>
+          {!desactive && <span className="clavier__curseur" aria-hidden="true" />}
+          {!valeur && <span className="clavier__indication">Ta réponse</span>}
+        </div>
+      )}
       {!desactive && (courant === 'chiffres' ? (
         <div className="clavier__touches clavier__touches--chiffres">
           {CHIFFRES.map(touche)}

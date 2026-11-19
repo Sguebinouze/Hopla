@@ -470,3 +470,10 @@ a.hp-chip { text-decoration: none; }
 .clavier__large3 { grid-column: span 3; }
 .clavier__large5 { grid-column: span 5; }
 
+/* Clavier lettres d'un champ libre (recherche) sur écran tactile : tiroir en bas de l'écran. */
+.clavier-tiroir { position: fixed; z-index: 40; left: 0; right: 0; bottom: 0; display: flex; justify-content: center;
+  padding: var(--space-3) var(--space-3) calc(var(--space-3) + env(safe-area-inset-bottom));
+  background: var(--surface-0); border-top: 2px solid var(--line); box-shadow: var(--shadow-lift); }
+body.avec-clavier main { padding-bottom: 340px; }
+.recherche:has(.champ-tactile--actif) { border-color: var(--primary); }
+
