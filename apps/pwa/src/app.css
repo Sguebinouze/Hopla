@@ -476,4 +476,12 @@ a.hp-chip { text-decoration: none; }
   background: var(--surface-0); border-top: 2px solid var(--line); box-shadow: var(--shadow-lift); }
 body.avec-clavier main { padding-bottom: 340px; }
 .recherche:has(.champ-tactile--actif) { border-color: var(--primary); }
+/* Recherche : rangée de chiffres au-dessus des lettres quand l'écran le permet (tablette), sinon touche « 123 ». */
+.clavier--chiffres-si-place .clavier__chiffre-haut { display: none; }
+@media (min-width: 600px) and (min-height: 700px) {
+  .clavier--chiffres-si-place .clavier__chiffre-haut { display: flex; }
+  .clavier--chiffres-si-place .clavier__bascule { display: none; }
+  .clavier--chiffres-si-place .clavier__large5 { grid-column: span 7; }
+  body.avec-clavier main { padding-bottom: 400px; }
+}
 

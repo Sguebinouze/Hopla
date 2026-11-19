@@ -25,6 +25,11 @@ interface Props {
   sansEcran?: boolean;
   /** La touche de validation reste active sur un texte vide (fermer le clavier d'une recherche). */
   valideVide?: boolean;
+  /**
+   * Clavier lettres : sur un écran assez grand, une rangée de chiffres au-dessus des lettres remplace
+   * la touche « 123 ». Sur un petit écran, la touche « 123 » reste.
+   */
+  chiffresSiPlace?: boolean;
 }
 
 /**
@@ -33,6 +38,7 @@ interface Props {
  */
 export function Clavier({
   valeur, onChange, onValider, mode, bascule = true, libelleValider = 'Vérifier', desactive = false, sansEcran = false, valideVide = false,
+  chiffresSiPlace = false,
 }: Props) {
   const [courant, setCourant] = useState(mode);
   useEffect(() => setCourant(mode), [mode]);
@@ -59,8 +65,8 @@ export function Clavier({
   }, [desactive]);
 
   const taper = (t: Touche) => onChange(appliquerTouche(valeur, t));
-  const touche = (t: string) => (
-    <button key={t} type="button" className={`clavier__touche${t === 'effacer' ? ' clavier__touche--action' : ''}`}
+  const touche = (t: string, classe = '') => (
+    <button key={t} type="button" className={`clavier__touche${t === 'effacer' ? ' clavier__touche--action' : ''}${classe}`}
       aria-label={t === 'effacer' ? 'Effacer' : t === '−' ? 'Moins' : t === '/' ? 'Barre de fraction' : undefined}
       onClick={() => taper(t)}>
       {t === 'effacer' ? <Icone nom="effacer" taille={24} /> : t}
@@ -79,7 +85,7 @@ export function Clavier({
   );
 
   return (
-    <div className="clavier">
+    <div className={`clavier${chiffresSiPlace ? ' clavier--chiffres-si-place' : ''}`}>
       {!sansEcran && (
         <div className="clavier__ecran" role="textbox" aria-readonly="true" aria-label="Ta réponse">
           <span>{valeur}</span>
@@ -89,7 +95,7 @@ export function Clavier({
       )}
       {!desactive && (courant === 'chiffres' ? (
         <div className="clavier__touches clavier__touches--chiffres">
-          {CHIFFRES.map(touche)}
+          {CHIFFRES.map((t) => touche(t))}
           {touche(',')}
           {touche('0')}
           {bascule ? basculer('lettres') : <span aria-hidden="true" />}
@@ -97,12 +103,13 @@ export function Clavier({
         </div>
       ) : (
         <div className="clavier__touches clavier__touches--lettres">
-          {LETTRES[0]!.map(touche)}
-          {LETTRES[1]!.map(touche)}
-          {LETTRES[2]!.map(touche)}
+          {chiffresSiPlace && ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].map((c) => touche(c, ' clavier__chiffre-haut'))}
+          {LETTRES[0]!.map((t) => touche(t))}
+          {LETTRES[1]!.map((t) => touche(t))}
+          {LETTRES[2]!.map((t) => touche(t))}
           <span className="clavier__large2">{touche('effacer')}</span>
-          {LETTRES[3]!.map(touche)}
-          <span className="clavier__large2">{bascule ? basculer('chiffres') : <span aria-hidden="true" />}</span>
+          {LETTRES[3]!.map((t) => touche(t))}
+          <span className="clavier__large2 clavier__bascule">{bascule ? basculer('chiffres') : <span aria-hidden="true" />}</span>
           <button type="button" className="clavier__touche clavier__touche--action clavier__large5" onClick={() => taper('espace')}>espace</button>
           <span className="clavier__large3">{valider}</span>
         </div>

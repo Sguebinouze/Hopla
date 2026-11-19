@@ -42,7 +42,7 @@ export function ChampTactile({ value, onChange, ...attributs }: Props) {
         className={`${attributs.className ?? ''}${ouvert ? ' champ-tactile--actif' : ''}`} onClick={() => setOuvert(true)} />
       {ouvert && (
         <div ref={tiroir} className="clavier-tiroir" role="dialog" aria-label="Clavier">
-          <Clavier valeur={value} onChange={onChange} onValider={() => setOuvert(false)} mode="lettres" libelleValider="OK" sansEcran valideVide />
+          <Clavier valeur={value} onChange={onChange} onValider={() => setOuvert(false)} mode="lettres" libelleValider="OK" sansEcran valideVide chiffresSiPlace />
         </div>
       )}
     </>
