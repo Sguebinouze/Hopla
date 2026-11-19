@@ -8,7 +8,8 @@
     "./tokens.css": "./dist/tokens.css",
     "./components.css": "./components.css",
     "./octave.svg": "./octave.svg",
-    "./hopla-mark.svg": "./hopla-mark.svg"
+    "./hopla-mark.svg": "./hopla-mark.svg",
+    "./marque/*": "./marque/*"
   },
   "scripts": {
     "build": "node scripts/build-css.mjs"
