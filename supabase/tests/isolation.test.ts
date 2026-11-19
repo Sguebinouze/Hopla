@@ -84,7 +84,8 @@ describe('sessions et isolation', () => {
     const profils = await en({ parent: PARENT_A }, `select * from public.liste_profils()`);
     expect(profils.map((p) => p.prenom)).toEqual(['Léa', 'Tom']);
     expect(Object.keys(profils[0]!).sort()).toEqual(['avatar', 'code_type', 'id', 'prenom']);
-    expect(profils.map((p) => p.code_type)).toEqual(['pictos', 'chiffres']);
+    // Code en 4 chiffres pour tous, primaire compris.
+    expect(profils.map((p) => p.code_type)).toEqual(['chiffres', 'chiffres']);
   });
 
   it('sans session, le JWT parent ne lit aucune progression', async () => {

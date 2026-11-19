@@ -347,8 +347,11 @@ function Reglages({ suivi, pack, appareils, onChange, onSupprime }: {
       </form>
 
       <form className="hp-card formulaire" onSubmit={(e) => { e.preventDefault(); void essayer(async () => { await api.changerCodeEnfant(enfant.id, code); setCode(''); }, 'Code changé.'); }}>
-        <label>Nouveau code secret ({enfant.code_type === 'pictos' ? '4 chiffres de 0 à 7 : étoile, lune, cœur, feuille, goutte, soleil, poisson, nuage' : '4 chiffres'})
-          <input inputMode="numeric" pattern={enfant.code_type === 'pictos' ? '[0-7]{4}' : '[0-9]{4}'} maxLength={4} required value={code} onChange={(e) => setCode(e.target.value)} />
+        {enfant.code_type === 'pictos' && (
+          <p className="muet" style={{ margin: 0 }}>{enfant.prenom} a encore un code en images. Le nouveau code sera en 4 chiffres, comme pour tous les enfants.</p>
+        )}
+        <label>Nouveau code secret (4 chiffres)
+          <input inputMode="numeric" pattern="[0-9]{4}" maxLength={4} required value={code} onChange={(e) => setCode(e.target.value)} />
         </label>
         <button className="hp-btn hp-btn--secondary" style={{ alignSelf: 'flex-start' }}>Changer le code</button>
       </form>

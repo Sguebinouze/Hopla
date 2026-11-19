@@ -400,7 +400,7 @@ function apiSupabase(url: string, cle: string): Api {
         return null;
       }
       const { data: ligne } = await client.from('enfants').select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave').eq('id', e.enfant_id).maybeSingle();
-      return (ligne as Enfant | null) ?? ({ id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'pictos' } as Enfant);
+      return (ligne as Enfant | null) ?? ({ id: e.enfant_id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, xp: e.xp, serie: e.serie, code_type: 'chiffres' } as Enfant);
     },
     async lierAppareil(code) {
       const { data, error } = await client.rpc('lier_appareil', { p_code: code, p_nom: nomAppareil() });
@@ -409,7 +409,7 @@ function apiSupabase(url: string, cle: string): Api {
       localStorage.setItem(CLE_APPAREIL, l.jeton);
       sessionStorage.removeItem(CLE_SESSION);
       sessionStorage.removeItem(CLE_PARENT);
-      return { id: l.enfant_id, prenom: l.prenom, avatar: l.avatar, classe: l.classe, xp: 0, serie: 0, code_type: 'pictos' } as Enfant;
+      return { id: l.enfant_id, prenom: l.prenom, avatar: l.avatar, classe: l.classe, xp: 0, serie: 0, code_type: 'chiffres' } as Enfant;
     },
     async membresFamille() {
       const { data, error } = await client.rpc('membres_de_ma_famille');
@@ -642,7 +642,7 @@ function ecrireDemo(cle: string, valeur: unknown) {
 
 const CODE_DEMO = '1111';
 const ENFANTS_DEMO: Enfant[] = [
-  { id: 'demo-ce1', prenom: 'Élève de CE1', avatar: 'orange', code_type: 'pictos', classe: 'ce1', xp: 0, serie: 0 },
+  { id: 'demo-ce1', prenom: 'Élève de CE1', avatar: 'orange', code_type: 'chiffres', classe: 'ce1', xp: 0, serie: 0 },
   { id: 'demo-6e', prenom: 'Élève de 6e', avatar: 'violet', code_type: 'chiffres', classe: '6e', xp: 0, serie: 0 },
 ];
 
@@ -924,8 +924,7 @@ function apiDemo(): Api {
     },
     async creerEnfant(e) {
       const id = `demo-${Date.now()}`;
-      const code_type = ['cp', 'ce1', 'ce2', 'cm1', 'cm2'].includes(e.classe) ? 'pictos' : 'chiffres';
-      ecrire([...lire(), { id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, code_type, xp: 0, serie: 0 }]);
+      ecrire([...lire(), { id, prenom: e.prenom, avatar: e.avatar, classe: e.classe, code_type: 'chiffres', xp: 0, serie: 0 }]);
       return id;
     },
   };

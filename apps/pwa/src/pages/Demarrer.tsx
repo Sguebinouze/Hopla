@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { ChoixAvatar } from '../composants/ChoixAvatar';
-import { ClavierCode, CodeVisible, codeEnPictos } from '../composants/ClavierCode';
+import { ClavierCode, CodeVisible } from '../composants/ClavierCode';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Classe, type Profil } from '../lib/donnees';
@@ -151,7 +151,6 @@ function EtapeEnfants({ enfants, onAjout, onSuite }: {
   const [f, setF] = useState(vide);
   const [message, setMessage] = useState('');
   const [enCours, setEnCours] = useState(false);
-  const pictos = codeEnPictos(f.classe);
   const pret = f.prenom.trim().length > 0 && f.code.length === 4;
 
   const creer = async () => {
@@ -164,7 +163,7 @@ function EtapeEnfants({ enfants, onAjout, onSuite }: {
           prenom: f.prenom.trim(), avatar: f.avatar, classe: f.classe, matieres_masquees: masqueesPourLv2(f.lv2), minutes_par_jour: null,
         });
       }
-      onAjout({ id, prenom: f.prenom.trim(), avatar: f.avatar, classe: f.classe, code_type: pictos ? 'pictos' : 'chiffres', ou: 'partage' });
+      onAjout({ id, prenom: f.prenom.trim(), avatar: f.avatar, classe: f.classe, code_type: 'chiffres', ou: 'partage' });
       setF(vide);
       setOuvert(false);
     } catch (e) {
@@ -213,14 +212,12 @@ function EtapeEnfants({ enfants, onAjout, onSuite }: {
           <ChoixAvatar valeur={f.avatar} taille={44} onChange={(avatar) => setF({ ...f, avatar })} />
           <span className="demarrer__libelle">Son code secret</span>
           <p className="muet" style={{ margin: 0 }}>
-            {pictos
-              ? 'En primaire, le code se compose de 4 images. Touchez-les dans l’ordre de votre choix.'
-              : 'Au collège, le code se compose de 4 chiffres.'}
+            Le code se compose de 4 chiffres.
             {' '}{f.prenom.trim() || 'Votre enfant'} le tapera au début de chaque séance sur l’appareil partagé.
           </p>
-          <ClavierCode pictos={pictos} saisie={f.code} masquer={false} onSaisie={(code) => setF({ ...f, code })} />
+          <ClavierCode pictos={false} saisie={f.code} masquer={false} onSaisie={(code) => setF({ ...f, code })} />
           {f.code.length === 4 && (
-            <p className="demarrer__code">Son code : <CodeVisible code={f.code} pictos={pictos} /> Montrez-le-lui, ou notez-le.</p>
+            <p className="demarrer__code">Son code : <CodeVisible code={f.code} pictos={false} /> Montrez-le-lui, ou notez-le.</p>
           )}
           {message && <p className="erreur" role="alert">{message}</p>}
           <button className="hp-btn hp-btn--primary hp-btn--lg" disabled={!pret || enCours}>

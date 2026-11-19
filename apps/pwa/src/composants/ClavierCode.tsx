@@ -14,8 +14,6 @@ export const PICTOS: { nom: string; dessin: ReactNode }[] = [
   { nom: 'Nuage', dessin: <path d="M7 18a4 4 0 01-.5-8A6 6 0 0118 9a4.5 4.5 0 01-.5 9z" fill="#74A7FF" /> },
 ];
 
-export const codeEnPictos = (classe: string) => ['cp', 'ce1', 'ce2', 'cm1', 'cm2'].includes(classe);
-
 function Picto({ i, taille = 30 }: { i: number; taille?: number }) {
   return <svg width={taille} height={taille} viewBox="0 0 24 24" aria-hidden="true">{PICTOS[i]!.dessin}</svg>;
 }
