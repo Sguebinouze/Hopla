@@ -101,7 +101,12 @@
       "explication": "Au milieu du drapeau, il y a le blanc.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "blanc": "emoji-white-circle",
+        "rouge": "emoji-red-circle",
+        "bleu": "emoji-blue-circle"
+      }
     },
     {
       "id": "EM-C2-CP-REP-01-007",

@@ -84,7 +84,12 @@
       "explication": "Le lapin mange des plantes. Il est herbivore.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "le lapin": "emoji-rabbit",
+        "le requin": "emoji-shark",
+        "le loup": "emoji-wolf"
+      }
     },
     {
       "id": "QM-C2-CE1-VIV-02-006",
@@ -118,7 +123,12 @@
       "explication": "L’oiseau mange la chenille. C’est une chaîne alimentaire.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "la salade": "emoji-leafy-green",
+        "la feuille": "emoji-fallen-leaf",
+        "l’oiseau": "emoji-bird"
+      }
     },
     {
       "id": "QM-C2-CE1-VIV-02-008",

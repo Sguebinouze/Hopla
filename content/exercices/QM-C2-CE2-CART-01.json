@@ -50,7 +50,12 @@
       "explication": "La mer est en bleu.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "bleu": "emoji-blue-circle",
+        "rouge": "emoji-red-circle",
+        "jaune": "emoji-yellow-circle"
+      }
     },
     {
       "id": "QM-C2-CE2-CART-01-004",

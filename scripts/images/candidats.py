@@ -17,11 +17,19 @@ API = 'https://commons.wikimedia.org/w/api.php?'
 
 # Cible : identifiant de la future image, question(s) concernée(s), recherche Commons.
 CIBLES = [
-    ('pont-du-gard', ['HG-C3-6E-HIST-03-003'], 'Pont du Gard'),
-    ('cathedrale-gothique', ['HG-C3-CM1-HIST-01-007', 'HG-C4-5E-HIST-07-002'], 'Amiens Cathedral west facade'),
-    ('eglise-romane', ['HG-C3-CM1-HIST-01-008'], 'Romanesque church exterior France'),
-    ('classe-1900', ['HG-C3-CM2-HIST-04-002'], 'salle de classe école élèves 1900 photographie'),
-    ('course-antique', ['HG-C3-6E-HIST-02-006'], 'Panathenaic amphora runners Metropolitan Museum'),
+    ('voie-lactee', ['PC-C4-3E-UNIV-01-002'], 'Milky Way night sky photograph'),
+    ('soleil-nasa', ['PC-C4-3E-UNIV-01-001'], 'Sun Solar Dynamics Observatory full disk'),
+    ('fossile-ammonite', ['SV-C4-3E-EVO-01-001'], 'ammonite fossil'),
+    ('eoliennes', ['ST-C3-6E-NRJ-01-003'], 'wind turbines wind farm'),
+    ('panneaux-solaires', ['ST-C3-6E-NRJ-01-006'], 'solar panels photovoltaic array'),
+    ('arbres-automne', ['ST-C3-6E-ECO-01-002'], 'autumn trees leaves forest'),
+    ('terre-vue-espace', ['ST-C3-6E-MVT-01-002', 'QM-C2-CE1-ESP-02-007'], 'Blue Marble Earth NASA'),
+    ('engrenages', ['TE-C4-4E-MVT-01-003'], 'gears mechanism metal'),
+    ('rouget-de-lisle-pils', ['EM-C2-CE1-REP-01-003'], 'Rouget de Lisle chantant la Marseillaise Pils'),
+    ('isoloir', ['EM-C2-CE2-VOTE-01-006'], 'isoloir bureau de vote'),
+    ('pont-du-gard-hubert-robert', ['HG-C3-6E-HIST-03-003'], 'Hubert Robert Pont du Gard'),
+    ('amphore-panathenaique', ['HG-C3-6E-HIST-02-006'], 'Panathenaic prize amphora'),
+    ('classe-geoffroy', ['HG-C3-CM2-HIST-04-002'], 'Henri Jules Jean Geoffroy école classe'),
 ]
 PAR_CIBLE = 8
 

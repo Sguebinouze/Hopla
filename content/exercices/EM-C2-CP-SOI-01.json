@@ -16,7 +16,12 @@
       "explication": "Léo sourit : il ressent de la joie.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "de la joie": "emoji-grinning-face",
+        "de la tristesse": "emoji-disappointed-face",
+        "de la peur": "emoji-fearful-face"
+      }
     },
     {
       "id": "EM-C2-CP-SOI-01-002",
@@ -33,7 +38,12 @@
       "explication": "Inès pleure : elle est triste.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "de la tristesse": "emoji-disappointed-face",
+        "de la joie": "emoji-grinning-face",
+        "de la surprise": "emoji-astonished-face"
+      }
     },
     {
       "id": "EM-C2-CP-SOI-01-003",
@@ -50,7 +60,12 @@
       "explication": "Tom tremble : il a peur.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "de la peur": "emoji-fearful-face",
+        "de la joie": "emoji-grinning-face",
+        "de la colère": "emoji-angry-face"
+      }
     },
     {
       "id": "EM-C2-CP-SOI-01-004",

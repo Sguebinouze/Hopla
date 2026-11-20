@@ -1,4 +1,6 @@
-"""Réponses en images pour l'anglais du CP au CM2 : emojis Fluent (Microsoft, licence MIT).
+"""Réponses en images pour les petites classes : emojis Fluent (Microsoft, licence MIT).
+
+Anglais du CP au CM2, Questionner le monde, Sciences et technologie du cycle 3, EMC du cycle 2.
 
     python3 scripts/images/emojis.py chemin/vers/fluentui-emoji
 
@@ -66,6 +68,59 @@ LEXIQUE = {
     'vert': ('Green circle', 'Un rond vert'), 'verte': ('Green circle', 'Un rond vert'), 'jaune': ('Yellow circle', 'Un rond jaune'),
     'noir': ('Black circle', 'Un rond noir'), 'blanc': ('White circle', 'Un rond blanc'),
 }
+# Ajouts : sciences, vivant, alimentation, transports, matériaux.
+LEXIQUE.update({
+    'thermomètre': ('Thermometer', 'Un thermomètre'), 'eau': ('Droplet', 'Une goutte d’eau'), 'bois': ('Wood', 'Des bûches de bois'),
+    'lune': ('Crescent moon', 'Un croissant de lune'), 'cœur': ('Anatomical heart', 'Un cœur'), 'cerveau': ('Brain', 'Un cerveau'),
+    'poumons': ('Lungs', 'Des poumons'), 'poumon': ('Lungs', 'Des poumons'), 'plumes': ('Feather', 'Une plume'),
+    'pétrole': ('Oil drum', 'Un baril de pétrole'), 'soda': ('Cup with straw', 'Un gobelet avec une paille'),
+    'escargot': ('Snail', 'Un escargot'), 'étoile': ('Star', 'Une étoile'), 'planète': ('Ringed planet', 'Une planète avec un anneau'),
+    'imprimante': ('Printer', 'Une imprimante'), 'vache': ('Cow', 'Une vache'), 'herbe': ('Herb', 'Un brin d’herbe'),
+    'viande': ('Cut of meat', 'Un morceau de viande'), 'feuille': ('Fallen leaf', 'Une feuille d’arbre'),
+    'pile': ('Battery', 'Une pile'), 'batterie': ('Battery', 'Une pile'), 'désert': ('Desert', 'Un désert'),
+    'ville': ('Cityscape', 'Des immeubles'), 'renard': ('Fox', 'Une tête de renard'), 'chronomètre': ('Stopwatch', 'Un chronomètre'),
+    'sel': ('Salt', 'Une salière'), 'virus': ('Microbe', 'Un microbe'), 'nuage': ('Cloud', 'Un nuage'),
+    'satellite': ('Satellite', 'Un satellite'), 'clavier': ('Keyboard', 'Un clavier'), 'écran': ('Desktop computer', 'Un écran d’ordinateur'),
+    'haut-parleur': ('Speaker high volume', 'Un haut-parleur'), 'salade': ('Leafy green', 'Une salade'),
+    'pompiers': ('Fire engine', 'Un camion de pompiers'), 'carton': ('Package', 'Un carton'), 'téléphone': ('Mobile phone', 'Un téléphone portable'),
+    'montagne': ('Mountain', 'Une montagne'), 'aimant': ('Magnet', 'Un aimant'), 'boussole': ('Compass', 'Une boussole'),
+    'laine': ('Yarn', 'Une pelote de laine'), 'grenouille': ('Frog', 'Une grenouille'), 'fleur': ('Blossom', 'Une fleur'),
+    'chêne': ('Deciduous tree', 'Un arbre'), 'arbre': ('Deciduous tree', 'Un arbre'), 'bonbons': ('Candy', 'Un bonbon'),
+    'hiver': ('Snowman', 'Un bonhomme de neige'), 'été': ('Sun', 'Le soleil'), 'printemps': ('Cherry blossom', 'Une fleur de cerisier'),
+    'automne': ('Fallen leaf', 'Une feuille d’arbre'), 'poussin': ('Baby chick', 'Un poussin'), 'chenille': ('Bug', 'Une chenille'),
+    'ours polaire': ('Polar bear', 'Un ours blanc'), 'chameau': ('Two-hump camel', 'Un chameau à deux bosses'),
+    'dromadaire': ('Camel', 'Un dromadaire à une bosse'), 'perroquet': ('Parrot', 'Un perroquet'), 'papillon': ('Butterfly', 'Un papillon'),
+    'abeille': ('Honeybee', 'Une abeille'), 'dents': ('Tooth', 'Une dent'), 'dent': ('Tooth', 'Une dent'), 'os': ('Bone', 'Un os'),
+    'sang': ('Drop of blood', 'Une goutte de sang'), 'feu': ('Fire', 'Une flamme'), 'poule': ('Chicken', 'Une poule'),
+    'cochon': ('Pig', 'Un cochon'), 'mouton': ('Ewe', 'Un mouton'), 'chèvre': ('Goat', 'Une chèvre'), 'canard': ('Duck', 'Un canard'),
+    'fourmi': ('Ant', 'Une fourmi'), 'araignée': ('Spider', 'Une araignée'), 'serpent': ('Snake', 'Un serpent'),
+    'tortue': ('Turtle', 'Une tortue'), 'loup': ('Wolf', 'Une tête de loup'), 'éléphant': ('Elephant', 'Un éléphant'),
+    'girafe': ('Giraffe', 'Une tête de girafe'), 'singe': ('Monkey', 'Un singe'), 'baleine': ('Spouting whale', 'Une baleine'),
+    'requin': ('Shark', 'Un requin'), 'dauphin': ('Dolphin', 'Un dauphin'), 'coccinelle': ('Lady beetle', 'Une coccinelle'),
+    'ver de terre': ('Worm', 'Un ver de terre'), 'crocodile': ('Crocodile', 'Un crocodile'), 'manchot': ('Penguin', 'Un manchot'),
+    'pingouin': ('Penguin', 'Un manchot'), 'chouette': ('Owl', 'Une chouette'), 'hibou': ('Owl', 'Une chouette'), 'tigre': ('Tiger', 'Un tigre'),
+    'zèbre': ('Zebra', 'Un zèbre'), 'hérisson': ('Hedgehog', 'Un hérisson'), 'chauve-souris': ('Bat', 'Une chauve-souris'),
+    'lézard': ('Lizard', 'Un lézard'), 'pieuvre': ('Octopus', 'Une pieuvre'), 'crabe': ('Crab', 'Un crabe'), 'rat': ('Rat', 'Un rat'),
+    'carotte': ('Carrot', 'Une carotte'), 'carottes': ('Carrot', 'Une carotte'), 'tomate': ('Tomato', 'Une tomate'),
+    'tomates': ('Tomato', 'Une tomate'), 'fromage': ('Cheese wedge', 'Un morceau de fromage'), 'riz': ('Cooked rice', 'Un bol de riz'),
+    'pâtes': ('Spaghetti', 'Une assiette de pâtes'), 'brocoli': ('Broccoli', 'Un brocoli'), 'œuf': ('Egg', 'Un œuf'),
+    'raisin': ('Grapes', 'Une grappe de raisin'), 'cerises': ('Cherries', 'Des cerises'), 'poire': ('Pear', 'Une poire'),
+    'citron': ('Lemon', 'Un citron'), 'ananas': ('Pineapple', 'Un ananas'), 'pomme de terre': ('Potato', 'Une pomme de terre'),
+    'maïs': ('Ear of corn', 'Un épi de maïs'), 'champignon': ('Mushroom', 'Un champignon'), 'cactus': ('Cactus', 'Un cactus'),
+    'tournesol': ('Sunflower', 'Un tournesol'), 'tulipe': ('Tulip', 'Une tulipe'), 'palmier': ('Palm tree', 'Un palmier'),
+    'sapin': ('Evergreen tree', 'Un sapin'), 'voiture': ('Automobile', 'Une voiture'), 'bus': ('Bus', 'Un bus'),
+    'train': ('Locomotive', 'Une locomotive'), 'avion': ('Airplane', 'Un avion'), 'bateau': ('Sailboat', 'Un voilier'),
+    'métro': ('Metro', 'Un métro'), 'tramway': ('Tram', 'Un tramway'), 'fusée': ('Rocket', 'Une fusée'),
+    'hélicoptère': ('Helicopter', 'Un hélicoptère'), 'volcan': ('Volcano', 'Un volcan'), 'arc-en-ciel': ('Rainbow', 'Un arc-en-ciel'),
+    'orage': ('Cloud with lightning and rain', 'Un nuage d’orage'), 'marteau': ('Hammer', 'Un marteau'), 'tournevis': ('Screwdriver', 'Un tournevis'),
+    'loupe': ('Magnifying glass tilted left', 'Une loupe'), 'balance': ('Balance scale', 'Une balance à plateaux'),
+    'savon': ('Soap', 'Un savon'), 'brosse à dents': ('Toothbrush', 'Une brosse à dents'), 'réveil': ('Alarm clock', 'Un réveil'),
+    'calendrier': ('Calendar', 'Un calendrier'), 'œil': ('Eye', 'Un œil'), 'langue': ('Tongue', 'Une langue'),
+})
+# Sens différent hors de l'anglais : la glace des sciences est de l'eau gelée.
+SCIENCES = {'glace': ('Ice', 'Un glaçon')}
+FICHIERS = ['LV-C2-*', 'LV-C3-CM*', 'QM-*', 'ST-C3-*', 'EM-C2-*']
+
 DETERMINANTS = re.compile(r"^(un|une|le|la|les|des|du|de la|de l’|l’|ta|ton|tes|mon|ma|mes|je suis|il est|elle est|faire du|faire de la)\s*", re.I)
 
 
@@ -92,22 +147,23 @@ def svg_de(nom):
 
 utilises = {}
 questions = 0
-for f in sorted(glob.glob(os.path.join(RACINE, 'content', 'exercices', 'LV-C2-*.json')) + glob.glob(os.path.join(RACINE, 'content', 'exercices', 'LV-C3-CM*.json'))):
+for f in sorted(x for motif in FICHIERS for x in glob.glob(os.path.join(RACINE, 'content', 'exercices', f'{motif}.json'))):
     banque = json.load(open(f, encoding='utf-8'))
+    lexique = LEXIQUE if os.path.basename(f).startswith('LV-') else {**LEXIQUE, **SCIENCES}
     modifie = False
     for e in banque['exercices']:
         options = e.get('options') or []
         if e['gabarit'] != 'qcm' or len(options) < 2 or 'anglais' in e['consigne'].lower():
             continue
         cles = [normaliser(o) for o in options]
-        if not all(c in LEXIQUE for c in cles):
+        if e.get('images_options') or not all(c in lexique for c in cles):
             continue
-        emojis = [LEXIQUE[c][0] for c in cles]
+        emojis = [lexique[c][0] for c in cles]
         if len(set(emojis)) != len(emojis):
             continue
-        e['images_options'] = {o: ident(LEXIQUE[c][0]) for o, c in zip(options, cles)}
+        e['images_options'] = {o: ident(lexique[c][0]) for o, c in zip(options, cles)}
         for c in cles:
-            utilises[ident(LEXIQUE[c][0])] = LEXIQUE[c]
+            utilises.setdefault(ident(lexique[c][0]), lexique[c])
         modifie = True
         questions += 1
     if modifie:

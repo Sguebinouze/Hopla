@@ -135,7 +135,12 @@
       "explication": "La grenouille : fécondation dans l’eau.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "la grenouille": "emoji-frog",
+        "le chat": "emoji-cat",
+        "la vache": "emoji-cow"
+      }
     }
   ]
 }
