@@ -4,7 +4,7 @@
   "name": "hopla",
   "compatibility_date": "2026-11-01",
   // Adresse publique : hopla-edu.fr. www.hopla-edu.fr n'est pas branché sur le Worker : un
-  // enregistrement DNS proxifié (AAAA 100::) et une règle de redirection de la zone hopla-edu.fr
+  // enregistrement DNS proxifié (A 192.0.2.1, adresse fictive) et une règle de redirection de la zone hopla-edu.fr
   // l'envoient vers hopla-edu.fr, comme hopla-edu.com et hopla-edu.net (leurs propres zones).
   // Une seule origine : la session et les liens de connexion restent sur hopla-edu.fr.
   "routes": [
