@@ -1,0 +1,110 @@
+{
+  "competence": "FR-C2-CE1-DICT-01",
+  "duree": 7,
+  "essentiel": "En dictée, j’écoute toute la phrase avant d’écrire.\nJ’accorde le groupe du nom : des petites sœurs.\nJ’accorde le verbe avec son sujet : elles jouent.\nJe relis une fois pour chaque accord.",
+  "parties": [
+    {
+      "titre": "Avant d’écrire",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pendant la dictée",
+          "etapes": [
+            "Écoute toute la phrase.",
+            "Répète-la dans ta tête.",
+            "Écris groupe de mots par groupe de mots."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que fais-tu en premier ?",
+          "options": [
+            "écouter toute la phrase",
+            "écrire le premier mot",
+            "relire"
+          ],
+          "reponse": "écouter toute la phrase",
+          "explication": "Écouter d’abord aide à comprendre la phrase."
+        }
+      ]
+    },
+    {
+      "titre": "Relire pour accorder",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les petites sœurs jouent. »",
+          "etapes": [
+            "Les annonce un pluriel : petites, sœurs.",
+            "Sœurs est féminin : petites prend un e.",
+            "Qui joue ? Les sœurs : jouent."
+          ],
+          "conclusion": "Les petites sœurs jouent."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour relire",
+          "etapes": [
+            "Relis le groupe du nom : s, e ?",
+            "Relis le verbe : qui fait l’action ?",
+            "Vérifie les majuscules et les points."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relit tout en une seule fois.",
+          "correction": "Relis plusieurs fois, en cherchant une chose à chaque fois."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est bien écrite ?",
+      "options": [
+        "Les grands chiens aboient.",
+        "Les grand chiens aboie.",
+        "Les grands chien aboient."
+      ],
+      "reponse": "Les grands chiens aboient.",
+      "explication": "Grands, chiens au pluriel ; aboient avec -nt."
+    },
+    {
+      "consigne": "Quelle phrase est bien écrite ?",
+      "options": [
+        "Mes amies sont gentilles.",
+        "Mes amie sont gentille.",
+        "Mes amies est gentilles."
+      ],
+      "reponse": "Mes amies sont gentilles.",
+      "explication": "Féminin pluriel : amies, gentilles. Elles sont."
+    },
+    {
+      "consigne": "Quand je relis, je vérifie :",
+      "options": [
+        "les accords, les majuscules et les points",
+        "seulement le premier mot",
+        "la couleur du stylo"
+      ],
+      "reponse": "les accords, les majuscules et les points",
+      "explication": "On relit pour chaque accord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 11,
+      "extrait": "Il réalise des dictées en lien avec l’étude de la langue.",
+      "appui": "Dictées au CE1"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 11,
+      "extrait": "Réaliser des accords en genre et en nombre dans le",
+      "appui": "Accords à réaliser"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

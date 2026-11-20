@@ -1,0 +1,136 @@
+{
+  "competence": "FR-C2-CE1-ECR-01",
+  "duree": 7,
+  "essentiel": "Les mots **d’abord**, **puis**, **ensuite**, **enfin** relient les phrases dans l’ordre.\n**Mais** annonce une opposition. **Car** donne une raison.",
+  "parties": [
+    {
+      "titre": "Raconter dans l’ordre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis ces phrases.",
+          "exemples": [
+            "D’abord, je mets mes chaussettes.",
+            "Puis, je mets mes chaussures.",
+            "Enfin, je fais mes lacets."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Ces petits mots s’appellent des **connecteurs**. Ils montrent l’ordre des actions."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot va au début d’un récit ?",
+          "options": [
+            "d’abord",
+            "enfin",
+            "ensuite"
+          ],
+          "reponse": "d’abord",
+          "explication": "D’abord ouvre le récit."
+        }
+      ]
+    },
+    {
+      "titre": "Mais et car",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux connecteurs utiles",
+          "colonnes": [
+            "Mot",
+            "Sert à",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "mais",
+              "opposer",
+              "Il fait beau, mais il fait froid."
+            ],
+            [
+              "car",
+              "expliquer",
+              "Je mets un bonnet car il fait froid."
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour écrire un petit texte",
+          "etapes": [
+            "Écris tes actions dans l’ordre.",
+            "Commence chaque phrase par un connecteur.",
+            "Relis : l’ordre est-il clair ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répète « et puis » à chaque phrase.",
+          "correction": "Varie : d’abord, puis, ensuite, enfin."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : je reste à la maison … je suis malade.",
+          "options": [
+            "car",
+            "mais",
+            "d’abord"
+          ],
+          "reponse": "car",
+          "explication": "Car donne la raison."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : j’ai couru vite, … j’ai raté le bus.",
+      "options": [
+        "mais",
+        "car",
+        "d’abord"
+      ],
+      "reponse": "mais",
+      "explication": "Mais montre une opposition."
+    },
+    {
+      "consigne": "Quel mot annonce la fin ?",
+      "options": [
+        "enfin",
+        "puis",
+        "car"
+      ],
+      "reponse": "enfin",
+      "explication": "Enfin termine le récit."
+    },
+    {
+      "consigne": "Range : Ensuite… / D’abord… / Enfin…",
+      "options": [
+        "D’abord, ensuite, enfin",
+        "Enfin, d’abord, ensuite",
+        "Ensuite, enfin, d’abord"
+      ],
+      "reponse": "D’abord, ensuite, enfin",
+      "explication": "D’abord, puis ensuite, et enfin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 11,
+      "extrait": "Insérer des connecteurs pour rendre cohérent",
+      "appui": "Connecteurs"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 14,
+      "extrait": "Il utilise des termes comme d’abord, pour commencer,",
+      "appui": "Exemples de connecteurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

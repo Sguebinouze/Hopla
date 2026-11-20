@@ -1,0 +1,130 @@
+{
+  "competence": "FR-C2-CE1-VOC-05",
+  "duree": 6,
+  "essentiel": "Pour éviter une répétition, prends un **synonyme** ou un mot plus général.\nLa voiture, l’automobile, le véhicule.\nOn peut aussi utiliser un pronom : elle.",
+  "parties": [
+    {
+      "titre": "Remplacer un mot",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Synonyme",
+              "definition": "Mot qui a presque le même sens qu’un autre mot."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Lis ce texte.",
+          "exemples": [
+            "Le chien court. Le chien saute. Le chien aboie.",
+            "Mieux : Le chien court. L’animal saute. Il aboie."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot remplace « la maison » ?",
+          "options": [
+            "l’habitation",
+            "la rue",
+            "le toit"
+          ],
+          "reponse": "l’habitation",
+          "explication": "Une maison est une habitation."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le bon mot",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour éviter une répétition",
+          "etapes": [
+            "Repère le mot répété.",
+            "Cherche un synonyme, un mot plus général ou un pronom.",
+            "Relis : le sens reste-t-il le même ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend un mot qui change le sens : le chien, le chat.",
+          "correction": "Le chat est un autre animal. Dis plutôt : l’animal."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des mots pour remplacer",
+          "colonnes": [
+            "Mot",
+            "Pour le remplacer"
+          ],
+          "lignes": [
+            [
+              "la voiture",
+              "l’automobile, le véhicule"
+            ],
+            [
+              "le garçon",
+              "l’enfant, il"
+            ],
+            [
+              "dire",
+              "demander, répondre, expliquer"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot remplace « le vélo » ?",
+      "options": [
+        "la bicyclette",
+        "la moto",
+        "la roue"
+      ],
+      "reponse": "la bicyclette",
+      "explication": "Vélo et bicyclette veulent dire la même chose."
+    },
+    {
+      "consigne": "« La fillette joue. La fillette rit. » Par quoi remplacer le 2e « la fillette » ?",
+      "options": [
+        "Elle",
+        "Il",
+        "Le garçon"
+      ],
+      "reponse": "Elle",
+      "explication": "Elle remplace la fillette."
+    },
+    {
+      "consigne": "Quel mot est plus général que « tulipe » ?",
+      "options": [
+        "fleur",
+        "rose",
+        "jardin"
+      ],
+      "reponse": "fleur",
+      "explication": "Une tulipe est une fleur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "Mobiliser les mots rencontrés en contexte en fonction des",
+      "appui": "Réemployer le vocabulaire"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "répétitions grâce à l’emploi de synonymes ou de termes",
+      "appui": "Éviter les répétitions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

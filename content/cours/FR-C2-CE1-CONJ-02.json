@@ -1,0 +1,127 @@
+{
+  "competence": "FR-C2-CE1-CONJ-02",
+  "duree": 7,
+  "essentiel": "L’**infinitif** est le nom du verbe. On le trouve dans le dictionnaire.\nPour le trouver, dis « il faut » devant le verbe.\nTu chantes : il faut chanter. L’infinitif est chanter.",
+  "parties": [
+    {
+      "titre": "Radical et terminaison",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Infinitif",
+              "definition": "Forme du verbe qu’on trouve dans le dictionnaire : chanter, finir."
+            },
+            {
+              "mot": "Radical",
+              "definition": "Début du verbe, qui ne change pas : chant- dans chanter."
+            },
+            {
+              "mot": "Terminaison",
+              "definition": "Fin du verbe, qui change avec le sujet et le temps."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Regarde le verbe plier à plusieurs moments.",
+          "exemples": [
+            "Ils plieront.",
+            "Tu as plié.",
+            "Vous pliez.",
+            "Le radical pli- ne change pas."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le radical de « nous dansons » ?",
+          "options": [
+            "dans-",
+            "-ons",
+            "dansons"
+          ],
+          "reponse": "dans-",
+          "explication": "Danser : on garde dans- et on change la fin."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver l’infinitif",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver l’infinitif",
+          "etapes": [
+            "Repère le verbe conjugué : vous pliez.",
+            "Dis « il faut » devant : il faut plier.",
+            "Écris l’infinitif : plier."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Quel est l’infinitif de « elles regardaient » ?",
+          "etapes": [
+            "Le radical est regard-.",
+            "Il faut regarder."
+          ],
+          "conclusion": "L’infinitif est regarder."
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde la terminaison : l’infinitif de « tu joues » serait joues.",
+          "correction": "L’infinitif finit par -er : jouer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est l’infinitif de « nous mangeons » ?",
+      "options": [
+        "manger",
+        "mangeons",
+        "mange"
+      ],
+      "reponse": "manger",
+      "explication": "Il faut manger."
+    },
+    {
+      "consigne": "Quel est l’infinitif de « tu as sauté » ?",
+      "options": [
+        "sauter",
+        "avoir",
+        "sauté"
+      ],
+      "reponse": "sauter",
+      "explication": "Le verbe qui dit l’action est sauter."
+    },
+    {
+      "consigne": "Quel est l’infinitif de « ils dessineront » ?",
+      "options": [
+        "dessiner",
+        "dessineront",
+        "dessin"
+      ],
+      "reponse": "dessiner",
+      "explication": "Il faut dessiner."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Identifier le radical et la terminaison d’un verbe du",
+      "appui": "Radical et terminaison"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Exemple : ils plieront, tu as plié, vous pliez, elles plièrent,",
+      "appui": "Exemple du verbe plier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

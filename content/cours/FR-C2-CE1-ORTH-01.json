@@ -1,0 +1,122 @@
+{
+  "competence": "FR-C2-CE1-ORTH-01",
+  "duree": 8,
+  "essentiel": "Dans le groupe du nom, le déterminant, le nom et l’adjectif s’accordent.\nAu pluriel, on ajoute souvent un **s** : des chats noirs.\nAu féminin, on ajoute souvent un **e** : une petite poule.",
+  "parties": [
+    {
+      "titre": "Le pluriel",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "un chat noir",
+            "des chats noirs",
+            "Le s ne s’entend pas, mais il s’écrit."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le déterminant donne le signal : des, les, mes, trois. Alors le nom et l’adjectif prennent un **s**."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on « des ballon rouge » ?",
+          "options": [
+            "des ballons rouges",
+            "des ballons rouge",
+            "des ballon rouges"
+          ],
+          "reponse": "des ballons rouges",
+          "explication": "Des annonce le pluriel : ballons et rouges prennent un s."
+        }
+      ]
+    },
+    {
+      "titre": "Le féminin",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "un petit lapin",
+            "une petite lapine",
+            "L’adjectif prend un e."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour accorder le groupe du nom",
+          "etapes": [
+            "Regarde le déterminant : masculin ou féminin ?",
+            "Singulier ou pluriel ?",
+            "Accorde le nom et l’adjectif."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le e qui ne s’entend pas : une robe bleu.",
+          "correction": "La robe est féminine : une robe bleue."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Je suis bleue. Suis-je la mer ou l’océan ?",
+          "etapes": [
+            "Bleue a un e : c’est un féminin.",
+            "On dit la mer, mais un océan."
+          ],
+          "conclusion": "Je suis la mer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : les fleurs …",
+      "options": [
+        "jaunes",
+        "jaune",
+        "jaunent"
+      ],
+      "reponse": "jaunes",
+      "explication": "Les fleurs : pluriel, donc jaunes."
+    },
+    {
+      "consigne": "Complète : une … souris",
+      "options": [
+        "petite",
+        "petit",
+        "petits"
+      ],
+      "reponse": "petite",
+      "explication": "Une souris : féminin, donc petite."
+    },
+    {
+      "consigne": "Quel groupe est bien écrit ?",
+      "options": [
+        "des amis gentils",
+        "des ami gentils",
+        "des amis gentil"
+      ],
+      "reponse": "des amis gentils",
+      "explication": "Ami et gentil prennent un s au pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "pluriel en –s, féminin en –e",
+      "appui": "Marques d’accord"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Il résout des devinettes orthographiques comme Je suis",
+      "appui": "Devinette orthographique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

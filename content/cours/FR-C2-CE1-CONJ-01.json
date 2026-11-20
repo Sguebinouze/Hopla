@@ -1,0 +1,190 @@
+{
+  "competence": "FR-C2-CE1-CONJ-01",
+  "duree": 9,
+  "essentiel": "Au présent, le verbe change avec le sujet.\nÊtre : je suis, tu es, il est.\nNous sommes, vous êtes, ils sont.\nAvoir : j’ai, tu as, il a.\nNous avons, vous avez, ils ont.\nChanter : je chante, tu chantes, il chante.\nNous chantons, vous chantez, ils chantent.",
+  "parties": [
+    {
+      "titre": "Être et avoir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le présent dit ce qui se passe maintenant.",
+          "exemples": [
+            "Aujourd’hui, je suis content.",
+            "Maintenant, nous avons faim.",
+            "En ce moment, ils sont à la piscine."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Être et avoir au présent",
+          "colonnes": [
+            "Sujet",
+            "Être",
+            "Avoir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "suis",
+              "ai"
+            ],
+            [
+              "tu",
+              "es",
+              "as"
+            ],
+            [
+              "il, elle, on",
+              "est",
+              "a"
+            ],
+            [
+              "nous",
+              "sommes",
+              "avons"
+            ],
+            [
+              "vous",
+              "êtes",
+              "avez"
+            ],
+            [
+              "ils, elles",
+              "sont",
+              "ont"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : nous … en classe.",
+          "options": [
+            "sommes",
+            "sont",
+            "êtes"
+          ],
+          "reponse": "sommes",
+          "explication": "Avec nous, être fait sommes."
+        }
+      ]
+    },
+    {
+      "titre": "Les verbes en -er",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les verbes comme chanter, jouer, parler finissent par **-er**. On garde le radical, on change la terminaison."
+        },
+        {
+          "type": "tableau",
+          "titre": "Chanter au présent",
+          "colonnes": [
+            "Sujet",
+            "Verbe",
+            "Terminaison"
+          ],
+          "lignes": [
+            [
+              "je",
+              "chante",
+              "-e"
+            ],
+            [
+              "tu",
+              "chantes",
+              "-es"
+            ],
+            [
+              "il, elle, on",
+              "chante",
+              "-e"
+            ],
+            [
+              "nous",
+              "chantons",
+              "-ons"
+            ],
+            [
+              "vous",
+              "chantez",
+              "-ez"
+            ],
+            [
+              "ils, elles",
+              "chantent",
+              "-ent"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour conjuguer un verbe en -er",
+          "etapes": [
+            "Enlève -er : jouer donne jou-.",
+            "Ajoute la terminaison du sujet : nous jouons."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « tu joue ».",
+          "correction": "Avec tu, le verbe prend un s : tu joues."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : vous … au ballon.",
+          "options": [
+            "jouez",
+            "jouent",
+            "jouons"
+          ],
+          "reponse": "jouez",
+          "explication": "Avec vous, la terminaison est -ez."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : ils … un chat.",
+      "options": [
+        "ont",
+        "sont",
+        "avons"
+      ],
+      "reponse": "ont",
+      "explication": "Avoir avec ils : ils ont."
+    },
+    {
+      "consigne": "Complète : tu … une chanson.",
+      "options": [
+        "chantes",
+        "chante",
+        "chantent"
+      ],
+      "reponse": "chantes",
+      "explication": "Avec tu, on ajoute -es."
+    },
+    {
+      "consigne": "Complète : elles … dans la cour.",
+      "options": [
+        "parlent",
+        "parles",
+        "parlez"
+      ],
+      "reponse": "parlent",
+      "explication": "Avec elles, la terminaison est -ent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Apprendre à conjuguer au présent, à l’imparfait, au futur",
+      "appui": "Conjuguer être, avoir et les verbes en -er"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

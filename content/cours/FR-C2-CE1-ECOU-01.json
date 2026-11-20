@@ -1,0 +1,98 @@
+{
+  "competence": "FR-C2-CE1-ECOU-01",
+  "duree": 6,
+  "essentiel": "Pour bien écouter, je regarde celui qui parle.\nJe repère les mots importants et l’ordre des étapes.\nLes mots d’abord, puis, ensuite, enfin m’aident à retenir l’ordre.",
+  "parties": [
+    {
+      "titre": "Repérer l’important",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Écoute la consigne lue par l’adulte.",
+          "exemples": [
+            "« D’abord, tu tailles ton crayon. »",
+            "« Puis, tu écris la date. »",
+            "« Enfin, tu soulignes le titre. »"
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour retenir une consigne",
+          "etapes": [
+            "Regarde la personne qui parle.",
+            "Compte les étapes sur tes doigts.",
+            "Redis la consigne dans ta tête."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que faut-il faire en premier ?",
+          "options": [
+            "tailler son crayon",
+            "écrire la date",
+            "souligner le titre"
+          ],
+          "reponse": "tailler son crayon",
+          "explication": "D’abord annonce la première étape."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre des étapes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les mots **d’abord**, **puis**, **ensuite**, **enfin** donnent l’ordre. Écoute-les bien."
+        },
+        {
+          "type": "piege",
+          "erreur": "On commence par la dernière chose entendue.",
+          "correction": "Cherche le mot d’abord. Il dit par où commencer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« D’abord mets ton manteau, puis prends ton sac. » Que fais-tu en dernier ?",
+      "options": [
+        "prendre son sac",
+        "mettre son manteau",
+        "fermer la porte"
+      ],
+      "reponse": "prendre son sac",
+      "explication": "Puis vient après d’abord."
+    },
+    {
+      "consigne": "Quel mot annonce la dernière étape ?",
+      "options": [
+        "enfin",
+        "d’abord",
+        "puis"
+      ],
+      "reponse": "enfin",
+      "explication": "Enfin annonce la fin."
+    },
+    {
+      "consigne": "Pour bien écouter, je :",
+      "options": [
+        "regarde celui qui parle",
+        "range mon cartable",
+        "parle à mon voisin"
+      ],
+      "reponse": "regarde celui qui parle",
+      "explication": "Regarder aide à rester attentif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 14,
+      "extrait": "Maintenir une attention active pendant quelques minutes",
+      "appui": "Écouter pour comprendre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

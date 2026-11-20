@@ -1,0 +1,126 @@
+{
+  "competence": "FR-C2-CE1-VOC-01",
+  "duree": 6,
+  "essentiel": "Certains mots sont **généraux** : animal, fruit, meuble.\nD’autres sont **précis** : chien, pomme, chaise.\nOn les range du plus général au plus précis.",
+  "parties": [
+    {
+      "titre": "Des boites de mots",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ces mots vont dans la même boite.",
+          "exemples": [
+            "pomme, banane, cerise : des fruits.",
+            "chaise, table, lit : des meubles.",
+            "chien, chat, lapin : des animaux."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot range « tulipe, rose, marguerite » ?",
+          "options": [
+            "fleurs",
+            "fruits",
+            "arbres"
+          ],
+          "reponse": "fleurs",
+          "explication": "Ce sont trois sortes de fleurs."
+        }
+      ]
+    },
+    {
+      "titre": "Du général au précis",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du plus général au plus précis",
+          "colonnes": [
+            "Général",
+            "Plus précis",
+            "Très précis"
+          ],
+          "lignes": [
+            [
+              "aliment",
+              "laitage",
+              "fromage"
+            ],
+            [
+              "animal",
+              "oiseau",
+              "moineau"
+            ],
+            [
+              "véhicule",
+              "voiture",
+              "taxi"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour ranger des mots",
+          "etapes": [
+            "Cherche le mot qui contient tous les autres.",
+            "Puis celui qui contient le dernier.",
+            "Finis par le mot le plus précis."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On met « fruit » dans la boite « pomme ».",
+          "correction": "La pomme est un fruit. Le fruit est la grande boite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Range du plus général au plus précis.",
+      "options": [
+        "vêtement, chaussure, botte",
+        "botte, chaussure, vêtement",
+        "chaussure, vêtement, botte"
+      ],
+      "reponse": "vêtement, chaussure, botte",
+      "explication": "Une botte est une chaussure, qui est un vêtement."
+    },
+    {
+      "consigne": "Quel mot est le plus précis ?",
+      "options": [
+        "sardine",
+        "poisson",
+        "animal"
+      ],
+      "reponse": "sardine",
+      "explication": "La sardine est une sorte de poisson."
+    },
+    {
+      "consigne": "Quel mot ne va pas avec les autres ?",
+      "options": [
+        "carotte",
+        "fraise",
+        "prune"
+      ],
+      "reponse": "carotte",
+      "explication": "La carotte est un légume, les autres sont des fruits."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Percevoir de grandes catégories et hiérarchiser les termes",
+      "appui": "Classer les mots"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "L’élève perçoit le lien entre les mots aliment > laitage >",
+      "appui": "Exemple aliment, laitage, fromage"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

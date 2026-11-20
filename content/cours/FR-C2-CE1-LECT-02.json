@@ -1,0 +1,130 @@
+{
+  "competence": "FR-C2-CE1-LECT-02",
+  "duree": 7,
+  "essentiel": "Ces sons se ressemblent : p/b, t/d, f/v, ch/j, s/z.\nUne seule lettre change le sens : pain, bain.\nMain sur la gorge : avec b, d, v, j, z, elle vibre.",
+  "parties": [
+    {
+      "titre": "Des sons jumeaux",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dis ces mots à voix haute.",
+          "exemples": [
+            "pain, bain",
+            "toit, doigt",
+            "chou, joue"
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Sons proches",
+          "colonnes": [
+            "Son",
+            "Son proche",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "p",
+              "b",
+              "pain, bain"
+            ],
+            [
+              "t",
+              "d",
+              "toit, doigt"
+            ],
+            [
+              "f",
+              "v",
+              "fer, ver"
+            ],
+            [
+              "ch",
+              "j",
+              "chou, joue"
+            ],
+            [
+              "s",
+              "z",
+              "poisson, poison"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot désigne ce qu’on prend pour se laver ?",
+          "options": [
+            "bain",
+            "pain",
+            "main"
+          ],
+          "reponse": "bain",
+          "explication": "Bain commence par b."
+        }
+      ]
+    },
+    {
+      "titre": "Bien les distinguer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour ne pas confondre",
+          "etapes": [
+            "Pose la main sur ta gorge.",
+            "Dis le son lentement.",
+            "Si la gorge vibre, c’est b, d, v, j ou z."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « poisson » pour un produit dangereux.",
+          "correction": "Le poison est dangereux, avec un s qui chante z. Le poisson nage."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot désigne un animal qui vit dans la terre ?",
+      "options": [
+        "ver",
+        "fer",
+        "vert"
+      ],
+      "reponse": "ver",
+      "explication": "Le ver de terre. Il commence par v."
+    },
+    {
+      "consigne": "Quel mot complète : je mange une … de pain ?",
+      "options": [
+        "tranche",
+        "trange",
+        "dranche"
+      ],
+      "reponse": "tranche",
+      "explication": "Une tranche de pain."
+    },
+    {
+      "consigne": "Quel mot désigne une partie du visage ?",
+      "options": [
+        "joue",
+        "chou",
+        "jour"
+      ],
+      "reponse": "joue",
+      "explication": "La joue, avec j."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 6,
+      "extrait": "Avoir mémorisé l’ensemble des CGP dans tous les types",
+      "appui": "Sons proches"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

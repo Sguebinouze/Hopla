@@ -1,0 +1,136 @@
+{
+  "competence": "FR-C2-CE1-GRAM-02",
+  "duree": 7,
+  "essentiel": "La phrase **déclarative** raconte ou informe. Elle finit par un point.\nLa phrase **interrogative** pose une question. Elle finit par un point d’interrogation.\nLa phrase **impérative** donne un ordre ou un conseil.",
+  "parties": [
+    {
+      "titre": "Trois types de phrases",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis ces trois phrases.",
+          "exemples": [
+            "Le chien court dans le jardin.",
+            "Le chien court-il dans le jardin ?",
+            "Cours dans le jardin !"
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les types de phrases",
+          "colonnes": [
+            "Type",
+            "Elle sert à",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "déclarative",
+              "dire, raconter",
+              "Il pleut."
+            ],
+            [
+              "interrogative",
+              "poser une question",
+              "Pleut-il ?"
+            ],
+            [
+              "impérative",
+              "donner un ordre",
+              "Ferme la fenêtre."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ferme la porte. » est une phrase :",
+          "options": [
+            "impérative",
+            "interrogative",
+            "déclarative"
+          ],
+          "reponse": "impérative",
+          "explication": "Elle donne un ordre."
+        }
+      ]
+    },
+    {
+      "titre": "Reconnaitre le type",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver le type d’une phrase",
+          "etapes": [
+            "Regarde le signe à la fin.",
+            "Un point d’interrogation ? Elle est interrogative.",
+            "Un ordre, sans sujet devant le verbe ? Elle est impérative.",
+            "Sinon, elle est déclarative."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une phrase impérative finit toujours par un point d’exclamation.",
+          "correction": "Elle peut finir par un point : « Range ta chambre. »"
+        },
+        {
+          "type": "explique",
+          "texte": "Une phrase peut aussi être **négative** : « Il ne pleut pas. » Les mots ne et pas entourent le verbe."
+        },
+        {
+          "type": "question",
+          "consigne": "« Où habites-tu ? » est une phrase :",
+          "options": [
+            "interrogative",
+            "impérative",
+            "déclarative"
+          ],
+          "reponse": "interrogative",
+          "explication": "Elle pose une question et finit par un point d’interrogation."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les oiseaux chantent le matin. » est une phrase :",
+      "options": [
+        "déclarative",
+        "interrogative",
+        "impérative"
+      ],
+      "reponse": "déclarative",
+      "explication": "Elle donne une information."
+    },
+    {
+      "consigne": "Quelle phrase est impérative ?",
+      "options": [
+        "Lave-toi les mains.",
+        "Tu te laves les mains.",
+        "Te laves-tu les mains ?"
+      ],
+      "reponse": "Lave-toi les mains.",
+      "explication": "Elle donne un ordre, sans sujet devant le verbe."
+    },
+    {
+      "consigne": "Quelle phrase est négative ?",
+      "options": [
+        "Je ne dors pas.",
+        "Je dors.",
+        "Dors-tu ?"
+      ],
+      "reponse": "Je ne dors pas.",
+      "explication": "Ne et pas entourent le verbe dors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Reconnaitre et utiliser les trois types de phrases, en lien",
+      "appui": "Types de phrases au CE1"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

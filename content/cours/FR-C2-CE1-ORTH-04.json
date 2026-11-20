@@ -1,0 +1,130 @@
+{
+  "competence": "FR-C2-CE1-ORTH-04",
+  "duree": 6,
+  "essentiel": "Beaucoup de mots finissent par une lettre muette : on l’écrit sans l’entendre.\nPour la trouver, je cherche un mot de la même famille.\nBlanc, blanche. Chat, chaton. Gros, grossir.",
+  "parties": [
+    {
+      "titre": "La lettre qui ne s’entend pas",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dis ces mots.",
+          "exemples": [
+            "un chat : le t ne s’entend pas.",
+            "un chaton : le t s’entend."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver la lettre muette",
+          "etapes": [
+            "Cherche un mot de la même famille.",
+            "Écoute la lettre qui s’entend.",
+            "Écris-la à la fin du premier mot."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la lettre muette de « gran… » ?",
+          "options": [
+            "d",
+            "t",
+            "s"
+          ],
+          "reponse": "d",
+          "explication": "Grande : on entend le d."
+        }
+      ]
+    },
+    {
+      "titre": "Des familles pour s’aider",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mot de la famille",
+          "colonnes": [
+            "Mot",
+            "Mot de la famille",
+            "Lettre muette"
+          ],
+          "lignes": [
+            [
+              "blanc",
+              "blanche",
+              "c"
+            ],
+            [
+              "chant",
+              "chanter",
+              "t"
+            ],
+            [
+              "surpris",
+              "surprise",
+              "s"
+            ],
+            [
+              "sang",
+              "sanguin",
+              "g"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « un camion » avec un t.",
+          "correction": "Certains mots n’ont pas de lettre muette. Vérifie avec la famille."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle est la lettre muette de « lai… » (boisson) ?",
+      "options": [
+        "t",
+        "s",
+        "d"
+      ],
+      "reponse": "t",
+      "explication": "Laitier, laitage : on entend le t."
+    },
+    {
+      "consigne": "Quel mot aide à écrire « gros » ?",
+      "options": [
+        "grossir",
+        "grand",
+        "gras"
+      ],
+      "reponse": "grossir",
+      "explication": "Grossir est de la même famille."
+    },
+    {
+      "consigne": "Comment écrit-on le contraire de « court » ?",
+      "options": [
+        "long",
+        "lon",
+        "lont"
+      ],
+      "reponse": "long",
+      "explication": "Longue : on entend le g."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "Être capable d’anticiper une lettre muette finale à l’aide",
+      "appui": "Lettre muette finale"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "chant/chanter, surpris/surprise, etc.",
+      "appui": "Exemples de familles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

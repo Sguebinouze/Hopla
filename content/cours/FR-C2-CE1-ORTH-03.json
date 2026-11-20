@@ -1,0 +1,157 @@
+{
+  "competence": "FR-C2-CE1-ORTH-03",
+  "duree": 8,
+  "essentiel": "Le **c** fait ss devant e, i, y. Ailleurs, il fait k. Le **ç** fait ss devant a, o, u.\nLe **g** fait j devant e, i, y. Ailleurs, il fait g. Le **ge** fait j devant a, o.\nLe **s** entre deux voyelles fait z. Pour faire ss, on double le s.",
+  "parties": [
+    {
+      "titre": "La lettre c",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Écoute le c.",
+          "exemples": [
+            "un cadeau, un cube : k.",
+            "une cerise, un citron : ss.",
+            "un garçon, un glaçon : ss avec ç."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Devant **a**, **o**, **u**, on met une cédille pour entendre ss : ç."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on le mot ? un ma…on",
+          "options": [
+            "maçon",
+            "macon",
+            "masson"
+          ],
+          "reponse": "maçon",
+          "explication": "Devant o, on écrit ç pour entendre ss."
+        }
+      ]
+    },
+    {
+      "titre": "La lettre g",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Écoute le g.",
+          "exemples": [
+            "un gâteau, une gomme : g.",
+            "une girafe, un genou : j.",
+            "un pigeon : ge devant o."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans quel mot le g fait-il j ?",
+          "options": [
+            "gilet",
+            "gare",
+            "gourde"
+          ],
+          "reponse": "gilet",
+          "explication": "Devant i, le g fait j."
+        }
+      ]
+    },
+    {
+      "titre": "La lettre s",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le s",
+          "colonnes": [
+            "Écriture",
+            "Son",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "s entre deux voyelles",
+              "z",
+              "une rose"
+            ],
+            [
+              "ss entre deux voyelles",
+              "ss",
+              "une tasse"
+            ],
+            [
+              "s au début",
+              "ss",
+              "le soleil"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « poison » pour l’animal qui nage.",
+          "correction": "Pour entendre ss entre deux voyelles, on double le s : poisson."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on le mot ? une cai…e",
+          "options": [
+            "caisse",
+            "caise",
+            "caice"
+          ],
+          "reponse": "caisse",
+          "explication": "Entre deux voyelles, ss fait ss."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans quel mot le c fait-il ss ?",
+      "options": [
+        "ciel",
+        "carte",
+        "col"
+      ],
+      "reponse": "ciel",
+      "explication": "Devant i, le c fait ss."
+    },
+    {
+      "consigne": "Comment écrit-on ? nous man…ons",
+      "options": [
+        "mangeons",
+        "mangons",
+        "manjons"
+      ],
+      "reponse": "mangeons",
+      "explication": "Pour entendre j devant o, on écrit ge."
+    },
+    {
+      "consigne": "Dans quel mot le s fait-il z ?",
+      "options": [
+        "maison",
+        "masse",
+        "sac"
+      ],
+      "reponse": "maison",
+      "explication": "Un s entre deux voyelles fait z."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "Classer par analogie et mémoriser les mots les plus",
+      "appui": "Lettres à plusieurs sons"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "variable : s prononcé –ss ou –z, c prononcé –ss ou –k, g",
+      "appui": "Les lettres s, c, g"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,204 @@
+{
+  "competence": "FR-C2-CE1-GRAM-01",
+  "duree": 9,
+  "essentiel": "Dans une phrase, chaque mot a une classe.\nLe **déterminant** est devant le nom : le, une, des.\nLe **nom** désigne une personne, un animal ou une chose.\nL’**adjectif** dit comment est le nom. Le **verbe** dit ce que fait le sujet.\nLe **pronom** remplace un nom : il, elle, ils, elles.",
+  "parties": [
+    {
+      "titre": "Le groupe du nom",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis la phrase : « Le petit chat dort. »",
+          "exemples": [
+            "« Le » est un déterminant.",
+            "« petit » est un adjectif.",
+            "« chat » est un nom.",
+            "« dort » est un verbe."
+          ]
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Déterminant",
+              "definition": "Petit mot placé devant le nom : le, une, des, mon, cette."
+            },
+            {
+              "mot": "Nom",
+              "definition": "Mot qui désigne une personne, un animal, une chose ou une idée."
+            },
+            {
+              "mot": "Adjectif",
+              "definition": "Mot qui dit comment est le nom : petit, rouge, gentil."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Un **nom propre** commence par une majuscule. Il désigne une personne ou un lieu précis : Léa, Marseille."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « une robe rouge », quel mot est un adjectif ?",
+          "options": [
+            "rouge",
+            "une",
+            "robe"
+          ],
+          "reponse": "rouge",
+          "explication": "Rouge dit comment est la robe."
+        }
+      ]
+    },
+    {
+      "titre": "Le verbe et le pronom",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Verbe",
+              "definition": "Mot qui dit ce que fait le sujet. Il change avec le temps."
+            },
+            {
+              "mot": "Pronom",
+              "definition": "Mot qui remplace un nom : il, elle, ils, elles."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver le verbe",
+          "etapes": [
+            "Change le moment : aujourd’hui, hier, demain.",
+            "Le mot qui change est le verbe.",
+            "Exemple : il dort, il dormait, il dormira."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver un nom",
+          "etapes": [
+            "Cherche un mot qu’on peut mettre après « le », « la » ou « un ».",
+            "Le chat, la table, un ami : ce sont des noms."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « il » est un nom.",
+          "correction": "« Il » remplace un nom. C’est un pronom."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Elle chante », quel mot est un pronom ?",
+          "options": [
+            "Elle",
+            "chante",
+            "aucun"
+          ],
+          "reponse": "Elle",
+          "explication": "Elle remplace le nom d’une fille ou d’une femme."
+        }
+      ]
+    },
+    {
+      "titre": "Trier les mots",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les classes de mots",
+          "colonnes": [
+            "Classe",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "déterminant",
+              "le, la, un, des, mon, cette"
+            ],
+            [
+              "nom commun",
+              "chat, maison, joie"
+            ],
+            [
+              "nom propre",
+              "Tom, Paris, la Loire"
+            ],
+            [
+              "adjectif",
+              "petit, rouge, joyeux"
+            ],
+            [
+              "verbe",
+              "manger, courir, être"
+            ],
+            [
+              "pronom",
+              "je, tu, il, elle, nous, vous, ils, elles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot est un nom propre ?",
+          "options": [
+            "Lyon",
+            "ville",
+            "grande"
+          ],
+          "reponse": "Lyon",
+          "explication": "Lyon désigne une ville précise. Il a une majuscule."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Le vieux chien aboie », quel mot est le verbe ?",
+      "options": [
+        "aboie",
+        "chien",
+        "vieux"
+      ],
+      "reponse": "aboie",
+      "explication": "Hier, il aboyait : aboie change avec le temps."
+    },
+    {
+      "consigne": "Dans « mes bottes vertes », quel mot est un déterminant ?",
+      "options": [
+        "mes",
+        "bottes",
+        "vertes"
+      ],
+      "reponse": "mes",
+      "explication": "Mes est placé devant le nom bottes."
+    },
+    {
+      "consigne": "Quel mot est un adjectif ?",
+      "options": [
+        "gentil",
+        "garçon",
+        "courir"
+      ],
+      "reponse": "gentil",
+      "explication": "Gentil dit comment est quelqu’un."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Différencier et nommer les principales classes de mots : le",
+      "appui": "Classes de mots au CE1"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "désignent une personne, un lieu en particulier : Astérix,",
+      "appui": "Le nom propre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

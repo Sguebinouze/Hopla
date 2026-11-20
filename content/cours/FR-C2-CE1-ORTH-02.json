@@ -1,0 +1,118 @@
+{
+  "competence": "FR-C2-CE1-ORTH-02",
+  "duree": 8,
+  "essentiel": "Le verbe s’accorde avec son sujet.\nSujet au pluriel : le verbe finit souvent par **-nt**.\nLe chat joue. Les chats jouent.",
+  "parties": [
+    {
+      "titre": "Trouver le sujet",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Sujet",
+              "definition": "Mot ou groupe de mots qui dit qui fait l’action."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver le sujet",
+          "etapes": [
+            "Trouve le verbe : jouent.",
+            "Pose la question : qui est-ce qui joue ?",
+            "La réponse est le sujet : les enfants."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Ma sœur lit un livre », quel est le sujet ?",
+          "options": [
+            "Ma sœur",
+            "un livre",
+            "lit"
+          ],
+          "reponse": "Ma sœur",
+          "explication": "Qui est-ce qui lit ? Ma sœur."
+        }
+      ]
+    },
+    {
+      "titre": "Accorder le verbe",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Écoute : le verbe se dit pareil.",
+          "exemples": [
+            "Un enfant chante.",
+            "Des enfants chantent.",
+            "On n’entend pas -nt, mais on l’écrit."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Deux sujets reliés par **et** font un pluriel. Léa et Tom chantent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le mot voisin : les fleurs du jardin pousse.",
+          "correction": "Qui pousse ? Les fleurs. Donc : les fleurs du jardin poussent."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : Lucas et Inès …",
+          "options": [
+            "dansent",
+            "danse",
+            "danses"
+          ],
+          "reponse": "dansent",
+          "explication": "Deux sujets : le verbe prend -nt."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : les oiseaux …",
+      "options": [
+        "chantent",
+        "chante",
+        "chantes"
+      ],
+      "reponse": "chantent",
+      "explication": "Les oiseaux : pluriel, donc -nt."
+    },
+    {
+      "consigne": "Complète : le bébé …",
+      "options": [
+        "pleure",
+        "pleurent",
+        "pleures"
+      ],
+      "reponse": "pleure",
+      "explication": "Le bébé : un seul, donc pleure."
+    },
+    {
+      "consigne": "Quelle phrase est bien écrite ?",
+      "options": [
+        "Les élèves écoutent.",
+        "Les élèves écoute.",
+        "Les élève écoutent."
+      ],
+      "reponse": "Les élèves écoutent.",
+      "explication": "Élèves prend un s, écoutent prend -nt."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 11,
+      "extrait": "verbal (marque de pluriel des verbes = nt).",
+      "appui": "Pluriel des verbes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

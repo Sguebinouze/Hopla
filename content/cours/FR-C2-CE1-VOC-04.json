@@ -1,0 +1,125 @@
+{
+  "competence": "FR-C2-CE1-VOC-04",
+  "duree": 6,
+  "essentiel": "Au **sens propre**, les mots disent exactement ce qui se passe.\nAu **sens figuré**, ils forment une image.\n« Avoir une faim de loup » veut dire avoir très faim.",
+  "parties": [
+    {
+      "titre": "Deux sens pour une expression",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "Le loup a faim : sens propre.",
+            "J’ai une faim de loup : j’ai très faim."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des expressions imagées",
+          "colonnes": [
+            "Expression",
+            "Ce qu’elle veut dire"
+          ],
+          "lignes": [
+            [
+              "avoir une peur bleue",
+              "avoir très peur"
+            ],
+            [
+              "prendre ses jambes à son cou",
+              "partir en courant"
+            ],
+            [
+              "donner sa langue au chat",
+              "renoncer à trouver"
+            ],
+            [
+              "avoir la tête dans les nuages",
+              "être distrait"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il pleut des cordes » veut dire :",
+          "options": [
+            "il pleut très fort",
+            "des cordes tombent du ciel",
+            "il fait beau"
+          ],
+          "reponse": "il pleut très fort",
+          "explication": "C’est une image : la pluie est forte."
+        }
+      ]
+    },
+    {
+      "titre": "Comprendre une image",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour comprendre une expression",
+          "etapes": [
+            "Demande-toi si c’est possible pour de vrai.",
+            "Si non, cherche l’image.",
+            "Relis la phrase pour vérifier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend l’expression au pied de la lettre.",
+          "correction": "Une peur bleue n’a pas de couleur. C’est une grande peur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Être muet comme une carpe » veut dire :",
+      "options": [
+        "ne rien dire",
+        "être un poisson",
+        "parler fort"
+      ],
+      "reponse": "ne rien dire",
+      "explication": "La carpe ne parle pas : on ne dit rien."
+    },
+    {
+      "consigne": "Quelle phrase est au sens propre ?",
+      "options": [
+        "Le chat boit du lait.",
+        "J’ai un chat dans la gorge.",
+        "Il n’y a pas un chat."
+      ],
+      "reponse": "Le chat boit du lait.",
+      "explication": "Le chat boit vraiment du lait."
+    },
+    {
+      "consigne": "« Tomber dans les pommes » veut dire :",
+      "options": [
+        "s’évanouir",
+        "cueillir des pommes",
+        "trébucher"
+      ],
+      "reponse": "s’évanouir",
+      "explication": "C’est une expression imagée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Comprendre la différence entre sens propre/sens figuré.",
+      "appui": "Sens propre et sens figuré"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Il comprend que le sens de ces expressions n’est pas",
+      "appui": "Expressions imagées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

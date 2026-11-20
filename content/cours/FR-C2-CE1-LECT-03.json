@@ -1,0 +1,128 @@
+{
+  "competence": "FR-C2-CE1-LECT-03",
+  "duree": 7,
+  "essentiel": "Le **conte** commence souvent par « Il était une fois ». Il y a de la magie.\nLa **fable** raconte une histoire d’animaux et donne une leçon.\nLe **poème** a des vers et souvent des rimes.\nLe **documentaire** donne des informations vraies.",
+  "parties": [
+    {
+      "titre": "Quatre genres de textes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les genres",
+          "colonnes": [
+            "Genre",
+            "Comment le reconnaitre"
+          ],
+          "lignes": [
+            [
+              "conte",
+              "Il était une fois, des fées, des ogres"
+            ],
+            [
+              "fable",
+              "des animaux qui parlent, une leçon à la fin"
+            ],
+            [
+              "poème",
+              "des lignes courtes, des rimes"
+            ],
+            [
+              "documentaire",
+              "des faits vrais, des photos, des titres"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il était une fois une princesse… » est le début :",
+          "options": [
+            "d’un conte",
+            "d’un documentaire",
+            "d’une recette"
+          ],
+          "reponse": "d’un conte",
+          "explication": "Il était une fois : c’est un conte."
+        }
+      ]
+    },
+    {
+      "titre": "Reconnaitre le genre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver le genre d’un texte",
+          "etapes": [
+            "Regarde sa forme : lignes courtes, titres, images ?",
+            "Lis le début.",
+            "Demande-toi : c’est vrai ou inventé ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un texte sur des animaux est toujours une fable.",
+          "correction": "Un texte vrai sur les loups est un documentaire."
+        },
+        {
+          "type": "question",
+          "consigne": "« Le lion vit en Afrique. Il mange de la viande. » C’est :",
+          "options": [
+            "un documentaire",
+            "un conte",
+            "une fable"
+          ],
+          "reponse": "un documentaire",
+          "explication": "Ce sont des informations vraies."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un renard parle, et le texte finit par une leçon. C’est :",
+      "options": [
+        "une fable",
+        "un documentaire",
+        "une recette"
+      ],
+      "reponse": "une fable",
+      "explication": "Animaux qui parlent et leçon : une fable."
+    },
+    {
+      "consigne": "Un texte avec des rimes, en lignes courtes, est :",
+      "options": [
+        "un poème",
+        "un conte",
+        "un documentaire"
+      ],
+      "reponse": "un poème",
+      "explication": "Les vers et les rimes font le poème."
+    },
+    {
+      "consigne": "Dans quel texte trouve-t-on des fées et un ogre ?",
+      "options": [
+        "un conte",
+        "un documentaire",
+        "une fable"
+      ],
+      "reponse": "un conte",
+      "explication": "La magie est dans les contes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 7,
+      "extrait": "Se familiariser aux différents genres et types de textes.",
+      "appui": "Genres de textes"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 7,
+      "extrait": "L’élève reconnait, lors des lectures orales d’un adulte, les",
+      "appui": "Conte, fable, poème"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

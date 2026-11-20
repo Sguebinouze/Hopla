@@ -1,0 +1,133 @@
+{
+  "competence": "FR-C2-CE1-LECT-01",
+  "duree": 8,
+  "essentiel": "Pour comprendre un texte, je cherche qui, où, quand, quoi.\nJe trouve qui un pronom remplace.\nJe devine ce que le texte ne dit pas, grâce aux indices.\nJe vérifie ma réponse en relisant le texte.",
+  "parties": [
+    {
+      "titre": "Retrouver une information",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Le lundi, Nina va à la piscine avec sa tante. »",
+          "exemples": [
+            "Qui ? Nina et sa tante.",
+            "Où ? À la piscine.",
+            "Quand ? Le lundi."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec qui Nina va-t-elle à la piscine ?",
+          "options": [
+            "avec sa tante",
+            "avec sa mère",
+            "toute seule"
+          ],
+          "reponse": "avec sa tante",
+          "explication": "Le texte dit : « avec sa tante »."
+        }
+      ]
+    },
+    {
+      "titre": "Qui est « il » ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Paul a un chien. Il l’emmène au parc. »",
+          "exemples": [
+            "« Il » remplace Paul.",
+            "« l’ » remplace le chien."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour savoir qui un pronom remplace",
+          "etapes": [
+            "Cherche les noms dans la phrase d’avant.",
+            "Remplace le pronom par chaque nom.",
+            "Garde celui qui a du sens."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Léa appelle son frère. Il arrive vite. » Qui arrive ?",
+          "options": [
+            "le frère",
+            "Léa",
+            "on ne sait pas"
+          ],
+          "reponse": "le frère",
+          "explication": "Il remplace un nom masculin : le frère."
+        }
+      ]
+    },
+    {
+      "titre": "Deviner ce qui n’est pas écrit",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Tom met son bonnet. Dehors, il neige. » En quelle saison est-on ?",
+          "etapes": [
+            "Indice 1 : un bonnet.",
+            "Indice 2 : il neige."
+          ],
+          "conclusion": "On est en hiver. Le texte ne le dit pas, les indices le montrent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond avec ce qu’on imagine, sans indice.",
+          "correction": "Chaque réponse s’appuie sur un mot du texte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Sami ouvre son parapluie. » Quel temps fait-il ?",
+      "options": [
+        "Il pleut.",
+        "Il fait chaud.",
+        "Il neige."
+      ],
+      "reponse": "Il pleut.",
+      "explication": "On ouvre un parapluie quand il pleut."
+    },
+    {
+      "consigne": "« La maitresse sourit à Tom. Elle l’aide. » Qui aide ?",
+      "options": [
+        "la maitresse",
+        "Tom",
+        "personne"
+      ],
+      "reponse": "la maitresse",
+      "explication": "Elle remplace la maitresse, qui fait l’action."
+    },
+    {
+      "consigne": "« Max bâille et ferme les yeux. » Comment est Max ?",
+      "options": [
+        "fatigué",
+        "en colère",
+        "affamé"
+      ],
+      "reponse": "fatigué",
+      "explication": "Bâiller et fermer les yeux : Max a sommeil."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 7,
+      "extrait": "Comprendre ce qui est implicite dans le texte (inférences)",
+      "appui": "Inférences"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 5,
+      "extrait": "Se repérer dans la chaine anaphorique (qui relie un nom à",
+      "appui": "Reprises par un pronom"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

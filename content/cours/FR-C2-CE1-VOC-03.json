@@ -1,0 +1,163 @@
+{
+  "competence": "FR-C2-CE1-VOC-03",
+  "duree": 7,
+  "essentiel": "Un mot peut être formé d’un autre mot.\nCelui qui chante est un chanteur. Celui qui fait le pain est un boulanger.\nUn parapluie protège de la pluie.",
+  "parties": [
+    {
+      "titre": "Les métiers en -eur et -er",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Suffixe",
+              "definition": "Morceau placé à la fin d’un mot pour former un autre mot."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Il ou elle…",
+            "C’est"
+          ],
+          "lignes": [
+            [
+              "chante",
+              "un chanteur, une chanteuse"
+            ],
+            [
+              "coiffe",
+              "un coiffeur, une coiffeuse"
+            ],
+            [
+              "fait le pain",
+              "un boulanger, une boulangère"
+            ],
+            [
+              "vend la viande",
+              "un boucher, une bouchère"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Celui qui danse est :",
+          "options": [
+            "un danseur",
+            "un dansier",
+            "un dansage"
+          ],
+          "reponse": "un danseur",
+          "explication": "Danser, danseur : on ajoute -eur."
+        }
+      ]
+    },
+    {
+      "titre": "Les mots en para-, anti-, multi-",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois préfixes",
+          "colonnes": [
+            "Préfixe",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "para-",
+              "qui protège de",
+              "un parapluie"
+            ],
+            [
+              "anti-",
+              "contre",
+              "un antivol"
+            ],
+            [
+              "multi-",
+              "plusieurs",
+              "multicolore"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour comprendre un mot nouveau",
+          "etapes": [
+            "Cherche un mot que tu connais dedans.",
+            "Regarde le début et la fin du mot.",
+            "Devine le sens, puis vérifie dans le dictionnaire."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un parasol protège de la pluie.",
+          "correction": "Para- veut dire « qui protège de ». Le parasol protège du soleil."
+        },
+        {
+          "type": "question",
+          "consigne": "Un ballon multicolore a :",
+          "options": [
+            "plusieurs couleurs",
+            "une seule couleur",
+            "aucune couleur"
+          ],
+          "reponse": "plusieurs couleurs",
+          "explication": "Multi- veut dire plusieurs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Celui qui nage est :",
+      "options": [
+        "un nageur",
+        "un nagier",
+        "un nageant"
+      ],
+      "reponse": "un nageur",
+      "explication": "Nager, nageur."
+    },
+    {
+      "consigne": "Un antivol sert :",
+      "options": [
+        "contre le vol",
+        "à voler",
+        "à rouler vite"
+      ],
+      "reponse": "contre le vol",
+      "explication": "Anti- veut dire contre."
+    },
+    {
+      "consigne": "Celle qui jardine est :",
+      "options": [
+        "une jardinière",
+        "une jardineuse",
+        "une jardinante"
+      ],
+      "reponse": "une jardinière",
+      "explication": "Le jardinier, la jardinière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Il enrichit sa connaissance des principaux affixes",
+      "appui": "Préfixes et suffixes"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "(parapluie), multi (multicolore), anti (antivol), etc. eur/euse",
+      "appui": "Exemples d’affixes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

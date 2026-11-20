@@ -1,0 +1,128 @@
+{
+  "competence": "FR-C2-CE1-VOC-02",
+  "duree": 6,
+  "essentiel": "On forme un contraire avec **in-** ou **dé-** au début du mot.\nVisible, invisible. Ranger, déranger.\nDevant b, m ou p, in- devient im- : possible, impossible.",
+  "parties": [
+    {
+      "titre": "Les préfixes in- et dé-",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Contraire",
+              "definition": "Mot qui a le sens opposé : grand et petit."
+            },
+            {
+              "mot": "Préfixe",
+              "definition": "Morceau placé au début d’un mot pour former un autre mot."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Regarde ce qui change.",
+          "exemples": [
+            "visible → invisible",
+            "monter → démonter",
+            "coller → décoller"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le contraire de « faire » ?",
+          "options": [
+            "défaire",
+            "infaire",
+            "refaire"
+          ],
+          "reponse": "défaire",
+          "explication": "Dé- forme le contraire : défaire."
+        }
+      ]
+    },
+    {
+      "titre": "in- devient im-",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Devant **b**, **m** ou **p**, on écrit **im-** : impossible, immobile, imbuvable."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour former un contraire",
+          "etapes": [
+            "Essaie in- ou dé- devant le mot.",
+            "Vérifie que le mot existe.",
+            "Devant b, m, p, écris im-."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les mots en in- sont des contraires.",
+          "correction": "« Inviter » n’est pas le contraire de « viter ». Ce mot n’existe pas."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le contraire de « patient » ?",
+          "options": [
+            "impatient",
+            "inpatient",
+            "dépatient"
+          ],
+          "reponse": "impatient",
+          "explication": "Devant p, on écrit im-."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est le contraire de « boucher » ?",
+      "options": [
+        "déboucher",
+        "imboucher",
+        "reboucher"
+      ],
+      "reponse": "déboucher",
+      "explication": "Dé- forme le contraire : déboucher."
+    },
+    {
+      "consigne": "Quel est le contraire de « connu » ?",
+      "options": [
+        "inconnu",
+        "déconnu",
+        "imconnu"
+      ],
+      "reponse": "inconnu",
+      "explication": "In- forme le contraire : inconnu."
+    },
+    {
+      "consigne": "Quel est le contraire de « mobile » ?",
+      "options": [
+        "immobile",
+        "inmobile",
+        "démobile"
+      ],
+      "reponse": "immobile",
+      "explication": "Devant m, in- devient im-."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Il identifie des contraires construits avec les préfixes in- ou",
+      "appui": "Contraires avec in- et dé-"
+    },
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "dé- (visible/invisible, ranger/déranger, monter/démonter)",
+      "appui": "Exemples de contraires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
