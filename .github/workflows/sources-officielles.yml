@@ -1,0 +1,27 @@
+name: Sources officielles
+
+# Télécharge les ressources d'accompagnement listées dans scripts/sources/a-archiver.json.
+# Le résultat va sur la branche sources-officielles, jamais sur main : chaque document y est identifié
+# avant d'entrer dans content/sources/archive.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/sources/a-archiver.json]
+
+permissions:
+  contents: write
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/sources/archiver.py sources-officielles
+      - run: |
+          cd sources-officielles
+          git init -q -b sources-officielles
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Sources officielles"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" sources-officielles
