@@ -137,6 +137,120 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "l’Afrique subsaharienne",
+        "le Maghreb",
+        "l’Asie du Sud",
+        "l’Amérique latine"
+      ],
+      "reponse": "l’Afrique subsaharienne",
+      "indice": "Elle se trouve au sud du désert du Sahara.",
+      "explication": "C’est l’Afrique subsaharienne, au sud du Sahara.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-afrique-subsaharienne"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-010",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "le Maghreb",
+        "l’Afrique subsaharienne",
+        "le Moyen-Orient",
+        "l’Europe"
+      ],
+      "reponse": "le Maghreb",
+      "indice": "Ces pays bordent la Méditerranée, au nord de l’Afrique.",
+      "explication": "C’est le Maghreb : le Maroc, l’Algérie et la Tunisie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-maghreb"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-011",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "l’Amérique du Nord",
+        "l’Amérique latine",
+        "l’Europe",
+        "l’Asie de l’Est"
+      ],
+      "reponse": "l’Amérique du Nord",
+      "indice": "Elle occupe le nord du continent américain.",
+      "explication": "C’est l’Amérique du Nord : le Canada et les États-Unis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-amerique-du-nord"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-012",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "l’Amérique latine",
+        "l’Amérique du Nord",
+        "l’Afrique subsaharienne",
+        "l’Asie du Sud"
+      ],
+      "reponse": "l’Amérique latine",
+      "indice": "On y parle surtout espagnol et portugais.",
+      "explication": "C’est l’Amérique latine, du Mexique à la pointe sud de l’Amérique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-amerique-latine"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "l’Asie de l’Est",
+        "l’Asie du Sud",
+        "l’Océanie",
+        "l’Europe"
+      ],
+      "reponse": "l’Asie de l’Est",
+      "indice": "Elle borde l’océan Pacifique, au nord-est de l’Inde.",
+      "explication": "C’est l’Asie de l’Est, avec la Chine, la Corée et le Japon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-asie-de-l-est"
+    },
+    {
+      "id": "HG-C3-CM1-GEO-02-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle grande aire régionale est coloriée sur le planisphère ?",
+      "options": [
+        "l’Asie du Sud",
+        "l’Asie de l’Est",
+        "le Maghreb",
+        "l’Afrique subsaharienne"
+      ],
+      "reponse": "l’Asie du Sud",
+      "indice": "Elle s’avance dans l’océan Indien.",
+      "explication": "C’est l’Asie du Sud, avec l’Inde, le Pakistan et le Bangladesh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-aire-asie-du-sud"
     }
   ]
 }

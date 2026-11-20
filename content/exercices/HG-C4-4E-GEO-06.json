@@ -137,6 +137,101 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C4-4E-GEO-06-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle ville des États-Unis est marquée d’un point jaune ?",
+      "options": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Houston"
+      ],
+      "reponse": "New York",
+      "indice": "Elle est sur la façade atlantique, au nord-est.",
+      "explication": "C’est New York, au cœur de la mégalopole du Nord-Est.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-usa-new-york"
+    },
+    {
+      "id": "HG-C4-4E-GEO-06-010",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle ville des États-Unis est marquée d’un point jaune ?",
+      "options": [
+        "Los Angeles",
+        "New York",
+        "Chicago",
+        "Miami"
+      ],
+      "reponse": "Los Angeles",
+      "indice": "Elle est sur la façade pacifique, en Californie.",
+      "explication": "C’est Los Angeles, sur la façade pacifique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-usa-los-angeles"
+    },
+    {
+      "id": "HG-C4-4E-GEO-06-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle ville des États-Unis est marquée d’un point jaune ?",
+      "options": [
+        "Chicago",
+        "Houston",
+        "Los Angeles",
+        "Washington"
+      ],
+      "reponse": "Chicago",
+      "indice": "Elle est au bord des Grands Lacs.",
+      "explication": "C’est Chicago, au bord du lac Michigan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-usa-chicago"
+    },
+    {
+      "id": "HG-C4-4E-GEO-06-012",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle ville des États-Unis est marquée d’un point jaune ?",
+      "options": [
+        "Houston",
+        "Chicago",
+        "New York",
+        "Seattle"
+      ],
+      "reponse": "Houston",
+      "indice": "Elle est au Texas, près du golfe du Mexique.",
+      "explication": "C’est Houston, au Texas, dans la Sun Belt.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-usa-houston"
+    },
+    {
+      "id": "HG-C4-4E-GEO-06-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle ville des États-Unis est marquée d’un point jaune ?",
+      "options": [
+        "Washington",
+        "New York",
+        "Chicago",
+        "Los Angeles"
+      ],
+      "reponse": "Washington",
+      "indice": "Elle est au sud de New York, sur la façade atlantique.",
+      "explication": "C’est Washington, la capitale fédérale.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-usa-washington"
     }
   ]
 }

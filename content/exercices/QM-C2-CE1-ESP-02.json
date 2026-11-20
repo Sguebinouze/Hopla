@@ -158,6 +158,215 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-010",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Afrique",
+        "l’Europe",
+        "l’Asie",
+        "l’Amérique"
+      ],
+      "reponse": "l’Afrique",
+      "indice": "Il est au sud de l’Europe.",
+      "explication": "C’est l’Afrique, au sud de l’Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-afrique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Amérique",
+        "l’Afrique",
+        "l’Océanie",
+        "l’Asie"
+      ],
+      "reponse": "l’Amérique",
+      "indice": "Il est à gauche sur le planisphère.",
+      "explication": "C’est l’Amérique, de l’autre côté de l’océan Atlantique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-amerique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-012",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Asie",
+        "l’Europe",
+        "l’Amérique",
+        "l’Océanie"
+      ],
+      "reponse": "l’Asie",
+      "indice": "C’est le plus grand continent.",
+      "explication": "C’est l’Asie, le plus grand continent.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-asie"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Europe",
+        "l’Afrique",
+        "l’Océanie",
+        "l’Asie"
+      ],
+      "reponse": "l’Europe",
+      "indice": "La France est sur ce continent.",
+      "explication": "C’est l’Europe. La France est en Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-europe"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Océanie",
+        "l’Amérique",
+        "l’Afrique",
+        "l’Antarctique"
+      ],
+      "reponse": "l’Océanie",
+      "indice": "Il est en bas à droite, entouré d’océans.",
+      "explication": "C’est l’Océanie, avec l’Australie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-oceanie"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-015",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, quel continent est en violet ?",
+      "options": [
+        "l’Antarctique",
+        "l’Europe",
+        "l’Asie",
+        "l’Océanie"
+      ],
+      "reponse": "l’Antarctique",
+      "indice": "Il est tout en bas, au pôle Sud.",
+      "explication": "C’est l’Antarctique, couvert de glace.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-continent-antarctique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-016",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, comment s’appelle l’océan marqué d’un point ?",
+      "options": [
+        "l’océan Atlantique",
+        "l’océan Pacifique",
+        "l’océan Indien",
+        "l’océan Arctique"
+      ],
+      "reponse": "l’océan Atlantique",
+      "indice": "Il borde la France à l’ouest.",
+      "explication": "C’est l’océan Atlantique, entre l’Europe et l’Amérique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ocean-atlantique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-017",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, comment s’appelle l’océan marqué d’un point ?",
+      "options": [
+        "l’océan Pacifique",
+        "l’océan Atlantique",
+        "l’océan Arctique",
+        "l’océan Indien"
+      ],
+      "reponse": "l’océan Pacifique",
+      "indice": "C’est le plus grand océan.",
+      "explication": "C’est l’océan Pacifique, le plus grand océan.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ocean-pacifique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-018",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, comment s’appelle l’océan marqué d’un point ?",
+      "options": [
+        "l’océan Indien",
+        "l’océan Pacifique",
+        "l’océan Atlantique",
+        "l’océan Austral"
+      ],
+      "reponse": "l’océan Indien",
+      "indice": "Il est au sud de l’Asie.",
+      "explication": "C’est l’océan Indien, entre l’Afrique et l’Australie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ocean-indien"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-019",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, comment s’appelle l’océan marqué d’un point ?",
+      "options": [
+        "l’océan Arctique",
+        "l’océan Austral",
+        "l’océan Indien",
+        "l’océan Pacifique"
+      ],
+      "reponse": "l’océan Arctique",
+      "indice": "Il est tout en haut, au pôle Nord.",
+      "explication": "C’est l’océan Arctique, autour du pôle Nord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ocean-arctique"
+    },
+    {
+      "id": "QM-C2-CE1-ESP-02-020",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Sur ce planisphère, comment s’appelle l’océan marqué d’un point ?",
+      "options": [
+        "l’océan Austral",
+        "l’océan Arctique",
+        "l’océan Atlantique",
+        "l’océan Indien"
+      ],
+      "reponse": "l’océan Austral",
+      "indice": "Il entoure l’Antarctique.",
+      "explication": "C’est l’océan Austral, autour de l’Antarctique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ocean-austral"
     }
   ]
 }

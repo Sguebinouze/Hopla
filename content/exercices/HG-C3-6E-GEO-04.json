@@ -136,6 +136,63 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C3-6E-GEO-04-009",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel grand foyer de population est colorié sur le planisphère ?",
+      "options": [
+        "l’Asie de l’Est",
+        "l’Asie du Sud",
+        "l’Europe",
+        "l’Afrique de l’Ouest"
+      ],
+      "reponse": "l’Asie de l’Est",
+      "indice": "Ce foyer borde l’océan Pacifique.",
+      "explication": "C’est l’Asie de l’Est : la Chine, le Japon et la Corée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-foyer-asie-de-l-est"
+    },
+    {
+      "id": "HG-C3-6E-GEO-04-010",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel grand foyer de population est colorié sur le planisphère ?",
+      "options": [
+        "l’Asie du Sud",
+        "l’Asie de l’Est",
+        "l’Europe",
+        "l’Afrique de l’Ouest"
+      ],
+      "reponse": "l’Asie du Sud",
+      "indice": "Ce foyer s’avance dans l’océan Indien.",
+      "explication": "C’est l’Asie du Sud : l’Inde, le Pakistan et le Bangladesh.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-foyer-asie-du-sud"
+    },
+    {
+      "id": "HG-C3-6E-GEO-04-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel grand foyer de population est colorié sur le planisphère ?",
+      "options": [
+        "l’Europe",
+        "l’Asie de l’Est",
+        "l’Asie du Sud",
+        "l’Amérique du Nord"
+      ],
+      "reponse": "l’Europe",
+      "indice": "C’est le troisième foyer de population du monde.",
+      "explication": "C’est l’Europe, troisième grand foyer de population.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-foyer-europe"
     }
   ]
 }

@@ -138,6 +138,120 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-009",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "la Guadeloupe",
+        "la Martinique",
+        "la Guyane",
+        "Saint-Pierre-et-Miquelon"
+      ],
+      "reponse": "la Guadeloupe",
+      "indice": "Cette île est au nord de la Martinique.",
+      "explication": "C’est la Guadeloupe, dans les Antilles, au nord de la Martinique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-guadeloupe"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-010",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "la Martinique",
+        "la Guadeloupe",
+        "la Guyane",
+        "La Réunion"
+      ],
+      "reponse": "la Martinique",
+      "indice": "Cette île est au sud de la Guadeloupe.",
+      "explication": "C’est la Martinique, dans les Antilles, au sud de la Guadeloupe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-martinique"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-011",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "Mayotte",
+        "La Réunion",
+        "la Nouvelle-Calédonie",
+        "la Polynésie française"
+      ],
+      "reponse": "Mayotte",
+      "indice": "Cette île est entre Madagascar et l’Afrique.",
+      "explication": "C’est Mayotte, dans l’océan Indien, entre Madagascar et l’Afrique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-mayotte"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-012",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "la Nouvelle-Calédonie",
+        "la Polynésie française",
+        "Mayotte",
+        "la Martinique"
+      ],
+      "reponse": "la Nouvelle-Calédonie",
+      "indice": "Elle se trouve à l’est de l’Australie.",
+      "explication": "C’est la Nouvelle-Calédonie, dans l’océan Pacifique, à l’est de l’Australie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-nouvelle-caledonie"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-013",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "la Polynésie française",
+        "la Nouvelle-Calédonie",
+        "La Réunion",
+        "la Guadeloupe"
+      ],
+      "reponse": "la Polynésie française",
+      "indice": "Ses îles sont au milieu de l’océan Pacifique.",
+      "explication": "C’est la Polynésie française, au milieu de l’océan Pacifique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-polynesie"
+    },
+    {
+      "id": "HG-C4-3E-GEO-05-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel territoire ultramarin français est marqué d’un point jaune ?",
+      "options": [
+        "Saint-Pierre-et-Miquelon",
+        "la Guadeloupe",
+        "la Guyane",
+        "Mayotte"
+      ],
+      "reponse": "Saint-Pierre-et-Miquelon",
+      "indice": "Ces îles sont au large du Canada.",
+      "explication": "C’est Saint-Pierre-et-Miquelon, dans l’Atlantique Nord, au large du Canada.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-outremer-saint-pierre"
     }
   ]
 }

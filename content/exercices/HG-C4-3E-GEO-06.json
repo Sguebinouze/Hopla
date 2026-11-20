@@ -137,6 +137,139 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "l’Allemagne",
+        "la Pologne",
+        "la France",
+        "l’Autriche"
+      ],
+      "reponse": "l’Allemagne",
+      "indice": "C’est le pays le plus peuplé de l’Union européenne.",
+      "explication": "C’est l’Allemagne, voisine de la France à l’est.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-allemagne"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-010",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "l’Espagne",
+        "le Portugal",
+        "l’Italie",
+        "la France"
+      ],
+      "reponse": "l’Espagne",
+      "indice": "Il est au sud-ouest de la France, de l’autre côté des Pyrénées.",
+      "explication": "C’est l’Espagne, séparée de la France par les Pyrénées.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-espagne"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-011",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "l’Italie",
+        "la Grèce",
+        "l’Espagne",
+        "la Croatie"
+      ],
+      "reponse": "l’Italie",
+      "indice": "Il a la forme d’une botte.",
+      "explication": "C’est l’Italie, une péninsule en forme de botte.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-italie"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-012",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "la Pologne",
+        "l’Allemagne",
+        "la Roumanie",
+        "la Suède"
+      ],
+      "reponse": "la Pologne",
+      "indice": "Il est à l’est de l’Allemagne, au bord de la mer Baltique.",
+      "explication": "C’est la Pologne, entre l’Allemagne et l’Ukraine.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-pologne"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "la Suède",
+        "la Finlande",
+        "la Pologne",
+        "le Danemark"
+      ],
+      "reponse": "la Suède",
+      "indice": "Ce pays du nord de l’Europe borde la mer Baltique à l’ouest.",
+      "explication": "C’est la Suède, en Scandinavie.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-suede"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "la Belgique",
+        "les Pays-Bas",
+        "le Luxembourg",
+        "l’Autriche"
+      ],
+      "reponse": "la Belgique",
+      "indice": "Il est au nord de la France. Sa capitale accueille des institutions européennes.",
+      "explication": "C’est la Belgique. Bruxelles accueille la Commission européenne.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-belgique"
+    },
+    {
+      "id": "HG-C4-3E-GEO-06-015",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays de l’Union européenne est colorié sur la carte ?",
+      "options": [
+        "la Grèce",
+        "l’Italie",
+        "la Bulgarie",
+        "Chypre"
+      ],
+      "reponse": "la Grèce",
+      "indice": "Il est au sud-est de l’Europe et compte de nombreuses îles.",
+      "explication": "C’est la Grèce, au sud-est de l’Europe.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-ue-grece"
     }
   ]
 }

@@ -136,6 +136,120 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "New York",
+        "Londres",
+        "Tokyo",
+        "Shanghai"
+      ],
+      "reponse": "New York",
+      "indice": "Elle est sur la côte est des États-Unis.",
+      "explication": "C’est New York, sur la façade atlantique des États-Unis.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-new-york"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-010",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "Tokyo",
+        "Shanghai",
+        "Singapour",
+        "New York"
+      ],
+      "reponse": "Tokyo",
+      "indice": "Elle est sur une île, à l’est de l’Asie.",
+      "explication": "C’est Tokyo, capitale du Japon.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-tokyo"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "Shanghai",
+        "Tokyo",
+        "Singapour",
+        "Londres"
+      ],
+      "reponse": "Shanghai",
+      "indice": "Elle est sur la côte de la Chine.",
+      "explication": "C’est Shanghai, premier port du monde, sur la côte chinoise.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-shanghai"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-012",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "Singapour",
+        "Shanghai",
+        "Tokyo",
+        "New York"
+      ],
+      "reponse": "Singapour",
+      "indice": "Elle est tout près de l’équateur, au sud-est de l’Asie.",
+      "explication": "C’est Singapour, au bord du détroit de Malacca.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-singapour"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-013",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "Londres",
+        "Paris",
+        "Bruxelles",
+        "Amsterdam"
+      ],
+      "reponse": "Londres",
+      "indice": "Elle se trouve en Grande-Bretagne.",
+      "explication": "C’est Londres, capitale du Royaume-Uni.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-londres"
+    },
+    {
+      "id": "HG-C4-4E-GEO-05-014",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quelle métropole mondiale est marquée d’un point jaune ?",
+      "options": [
+        "Paris",
+        "Londres",
+        "Berlin",
+        "Madrid"
+      ],
+      "reponse": "Paris",
+      "indice": "Elle est traversée par la Seine.",
+      "explication": "C’est Paris, au nord de la France.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-metropole-paris"
     }
   ]
 }

@@ -221,8 +221,8 @@ const melanger = <T>(liste: T[]): T[] => {
 };
 
 /** Clé d'une question, indépendante de l'ordre des options (le générateur les mélange). */
-export const cleItem = (it: Item) =>
-  `${it.consigne}#${JSON.stringify(it.visuel ?? null)}#${[...(it.options ?? [])].sort().join('|')}`;
+export const cleItem = (it: Item & { illustration?: Illustration }) =>
+  `${it.consigne}#${JSON.stringify(it.visuel ?? it.illustration?.src ?? null)}#${[...(it.options ?? [])].sort().join('|')}`;
 
 /** Texte support d'une question : long passage entre guillemets en tête de consigne (texte à lire, par exemple). */
 export const supportDe = (consigne: string) => consigne.match(/^« ([^»]{25,}) »/)?.[1] ?? null;
@@ -234,10 +234,10 @@ export const texteComparable = (t: string) =>
 /**
  * Empreinte d'une question : sa consigne à la ponctuation près, son dessin et ses options.
  * Deux consignes génériques identiques (« Quelle heure indique l'horloge ? ») avec deux horloges
- * différentes sont deux questions ; la même consigne et les mêmes options, une seule.
+ * différentes, ou deux cartes différentes, sont deux questions ; même consigne et mêmes options, une seule.
  */
-export const empreinteQuestion = (q: { consigne: string; options?: string[]; visuel?: unknown }) =>
-  `q:${texteComparable(q.consigne)}#${q.visuel ? JSON.stringify(q.visuel) : ''}#${(q.options ?? []).map(texteComparable).sort().join('|')}`;
+export const empreinteQuestion = (q: { consigne: string; options?: string[]; visuel?: unknown; illustration?: Illustration }) =>
+  `q:${texteComparable(q.consigne)}#${q.visuel ? JSON.stringify(q.visuel) : q.illustration?.src ?? ''}#${(q.options ?? []).map(texteComparable).sort().join('|')}`;
 
 /**
  * Empreintes de la question « À toi » d'une leçon : sa consigne, et chaque passage cité de trois mots ou plus.
@@ -252,7 +252,7 @@ export function empreintesEssai(q: { consigne: string; options: string[] }): str
 }
 
 /** Empreintes à comparer à celles d'un essai ou d'une question déjà posée. */
-function empreintesItem(it: Item): string[] {
+function empreintesItem(it: ItemPack): string[] {
   const cites = [...it.consigne.matchAll(/«\s*([^»]+?)\s*»/g)].map((m) => `cite:${texteComparable(m[1]!)}`);
   return [empreinteQuestion(it), ...cites];
 }

@@ -137,6 +137,120 @@
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)",
       "image": "carte-mali-niger-fleuve"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "le Nigeria",
+        "le Ghana",
+        "le Niger",
+        "le Sénégal"
+      ],
+      "reponse": "le Nigeria",
+      "indice": "C’est le pays le plus peuplé d’Afrique.",
+      "explication": "C’est le Nigeria. Sa plus grande ville est Lagos.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-nigeria"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-010",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "le Sénégal",
+        "le Mali",
+        "la Côte d’Ivoire",
+        "le Ghana"
+      ],
+      "reponse": "le Sénégal",
+      "indice": "Il est à l’extrémité ouest du continent africain.",
+      "explication": "C’est le Sénégal. Sa capitale, Dakar, est au bord de l’Atlantique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-senegal"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "la Côte d’Ivoire",
+        "le Ghana",
+        "le Sénégal",
+        "le Nigeria"
+      ],
+      "reponse": "la Côte d’Ivoire",
+      "indice": "Il borde le golfe de Guinée, à l’ouest du Ghana.",
+      "explication": "C’est la Côte d’Ivoire, sur le golfe de Guinée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-cote-d-ivoire"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-012",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "le Ghana",
+        "la Côte d’Ivoire",
+        "le Nigeria",
+        "le Mali"
+      ],
+      "reponse": "le Ghana",
+      "indice": "Il borde le golfe de Guinée, entre la Côte d’Ivoire et le Togo.",
+      "explication": "C’est le Ghana, sur le golfe de Guinée.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-ghana"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "le Mali",
+        "le Niger",
+        "le Sénégal",
+        "le Nigeria"
+      ],
+      "reponse": "le Mali",
+      "indice": "Sa capitale est Bamako.",
+      "explication": "C’est le Mali, un grand pays sans accès à la mer.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-mali"
+    },
+    {
+      "id": "HG-C4-4E-GEO-07-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel pays d’Afrique de l’Ouest est colorié sur la carte ?",
+      "options": [
+        "le Niger",
+        "le Mali",
+        "le Nigeria",
+        "le Tchad"
+      ],
+      "reponse": "le Niger",
+      "indice": "Ce pays sans accès à la mer est au nord du Nigeria.",
+      "explication": "C’est le Niger, au nord du Nigeria.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-afrique-ouest-niger"
     }
   ]
 }

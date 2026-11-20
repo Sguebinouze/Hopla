@@ -138,6 +138,120 @@
       "statut": "publie",
       "auteur": "ia",
       "relu_par": "Laurent (validation globale)"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-009",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le détroit de Gibraltar",
+        "le détroit d’Ormuz",
+        "le détroit de Malacca",
+        "le canal de Suez"
+      ],
+      "reponse": "le détroit de Gibraltar",
+      "indice": "Il relie la Méditerranée à l’océan Atlantique.",
+      "explication": "C’est le détroit de Gibraltar, entre l’Espagne et le Maroc.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-gibraltar"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-010",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le détroit d’Ormuz",
+        "le détroit de Gibraltar",
+        "le détroit de Malacca",
+        "le canal de Suez"
+      ],
+      "reponse": "le détroit d’Ormuz",
+      "indice": "Le pétrole du golfe Persique passe par là.",
+      "explication": "C’est le détroit d’Ormuz, à la sortie du golfe Persique.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-ormuz"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-011",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le détroit de Malacca",
+        "le détroit d’Ormuz",
+        "le canal de Suez",
+        "le détroit de Gibraltar"
+      ],
+      "reponse": "le détroit de Malacca",
+      "indice": "Il longe la Malaisie, entre l’océan Indien et la mer de Chine.",
+      "explication": "C’est le détroit de Malacca, l’un des plus fréquentés du monde.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-malacca"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-012",
+      "gabarit": "qcm",
+      "difficulte": 1,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le pas de Calais",
+        "le détroit de Gibraltar",
+        "le Bosphore",
+        "le détroit d’Ormuz"
+      ],
+      "reponse": "le pas de Calais",
+      "indice": "Il sépare la France du Royaume-Uni.",
+      "explication": "C’est le pas de Calais, entre la Manche et la mer du Nord.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-pas-de-calais"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-013",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le détroit de Bab-el-Mandeb",
+        "le détroit d’Ormuz",
+        "le canal de Suez",
+        "le détroit de Gibraltar"
+      ],
+      "reponse": "le détroit de Bab-el-Mandeb",
+      "indice": "Il relie la mer Rouge à l’océan Indien.",
+      "explication": "C’est le détroit de Bab-el-Mandeb, au sud de la mer Rouge.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-bab-el-mandeb"
+    },
+    {
+      "id": "HG-C4-4E-GEO-04-014",
+      "gabarit": "qcm",
+      "difficulte": 2,
+      "consigne": "Quel passage maritime est marqué d’un point jaune ?",
+      "options": [
+        "le Bosphore",
+        "le détroit de Gibraltar",
+        "le pas de Calais",
+        "le détroit de Malacca"
+      ],
+      "reponse": "le Bosphore",
+      "indice": "Il traverse Istanbul, entre la mer Noire et la Méditerranée.",
+      "explication": "C’est le Bosphore, qui traverse Istanbul.",
+      "statut": "brouillon",
+      "auteur": "ia",
+      "relu_par": null,
+      "image": "carte-passage-bosphore"
     }
   ]
 }
