@@ -1,0 +1,121 @@
+{
+  "competence": "ST-C3-6E-CLIM-01",
+  "duree": 8,
+  "essentiel": "Les mesures montrent que la température moyenne de la Terre augmente depuis plus d’un siècle.\nLa cause principale : les gaz à effet de serre émis par les activités humaines, surtout le dioxyde de carbone.\nConséquences : fonte des glaciers, montée du niveau de la mer, vagues de chaleur.",
+  "parties": [
+    {
+      "titre": "L’effet de serre",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Effet de serre",
+              "definition": "Phénomène par lequel certains gaz de l’atmosphère retiennent la chaleur de la Terre."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Sans effet de serre naturel, la Terre serait très froide. Mais les humains ajoutent des gaz qui retiennent trop de chaleur."
+        },
+        {
+          "type": "tableau",
+          "titre": "D’où viennent les émissions ?",
+          "colonnes": [
+            "Activité",
+            "Gaz"
+          ],
+          "lignes": [
+            [
+              "brûler du charbon, du pétrole, du gaz",
+              "dioxyde de carbone"
+            ],
+            [
+              "élevage, rizières",
+              "méthane"
+            ],
+            [
+              "déforestation",
+              "dioxyde de carbone libéré"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel gaz à effet de serre est le plus émis par les humains ?",
+          "options": [
+            "le dioxyde de carbone",
+            "le dioxygène",
+            "le diazote"
+          ],
+          "reponse": "le dioxyde de carbone",
+          "explication": "Il vient surtout des énergies fossiles."
+        }
+      ]
+    },
+    {
+      "titre": "Argumenter avec des données",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour construire un argument",
+          "etapes": [
+            "Lis la source des données : qui a mesuré, quand ?",
+            "Décris la tendance d’un graphique sur longue durée.",
+            "Relie-la à une cause, avec un fait mesuré.",
+            "Ne confonds pas une journée froide et le climat."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "« Il a neigé cet hiver, donc le climat ne se réchauffe pas. »",
+          "correction": "La météo décrit un jour. Le climat se mesure sur des dizaines d’années."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle différence entre météo et climat ?",
+      "options": [
+        "la météo décrit un jour, le climat des dizaines d’années",
+        "il n’y a aucune différence",
+        "le climat change chaque heure"
+      ],
+      "reponse": "la météo décrit un jour, le climat des dizaines d’années",
+      "explication": "Le climat est une moyenne sur longue durée."
+    },
+    {
+      "consigne": "Quelle conséquence du réchauffement ?",
+      "options": [
+        "la fonte des glaciers",
+        "la baisse du niveau de la mer",
+        "plus de glace aux pôles"
+      ],
+      "reponse": "la fonte des glaciers",
+      "explication": "Les glaciers reculent partout."
+    },
+    {
+      "consigne": "Quelle action réduit les émissions ?",
+      "options": [
+        "utiliser le vélo plutôt que la voiture",
+        "laisser les lumières allumées",
+        "déboiser"
+      ],
+      "reponse": "utiliser le vélo plutôt que la voiture",
+      "explication": "Moins d’énergie fossile brûlée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 96,
+      "extrait": "Construire une argumentation relative au réchauffement climatique récent",
+      "appui": "Réchauffement climatique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

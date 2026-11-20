@@ -1,0 +1,120 @@
+{
+  "competence": "ST-C3-6E-VEG-01",
+  "duree": 8,
+  "essentiel": "Les végétaux verts fabriquent leur propre matière : ce sont des producteurs primaires.\nIls ont besoin de lumière, d’eau, de sels minéraux et de dioxyde de carbone.\nIls sont à la base des chaines alimentaires.",
+  "parties": [
+    {
+      "titre": "Les besoins des plantes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Expérience : trois pots de haricots.",
+          "exemples": [
+            "Pot 1 : lumière et eau. Le haricot grandit bien.",
+            "Pot 2 : sans lumière. Il jaunit et s’affaiblit.",
+            "Pot 3 : sans eau. Il fane."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour tester un besoin",
+          "etapes": [
+            "Ne change qu’un seul facteur à la fois.",
+            "Garde un pot témoin dans les bonnes conditions.",
+            "Compare les résultats après quelques jours."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi garde-t-on un pot témoin ?",
+          "options": [
+            "pour comparer",
+            "pour décorer",
+            "pour arroser deux fois"
+          ],
+          "reponse": "pour comparer",
+          "explication": "Il montre ce qui se passe dans les bonnes conditions."
+        }
+      ]
+    },
+    {
+      "titre": "À la base des chaines alimentaires",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les feuilles captent la lumière et le dioxyde de carbone de l’air. Les racines puisent l’eau et les sels minéraux du sol."
+        },
+        {
+          "type": "tableau",
+          "titre": "Une chaine alimentaire",
+          "colonnes": [
+            "Maillon",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "producteur",
+              "herbe"
+            ],
+            [
+              "consommateur 1",
+              "lapin"
+            ],
+            [
+              "consommateur 2",
+              "renard"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la plante mange la terre.",
+          "correction": "Elle prend dans le sol seulement de l’eau et des sels minéraux. Sa matière vient surtout du dioxyde de carbone de l’air."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel gaz de l’air la plante utilise-t-elle pour produire sa matière ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le diazote",
+        "l’hélium"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "explication": "Grâce à la lumière."
+    },
+    {
+      "consigne": "Par où la plante puise-t-elle l’eau ?",
+      "options": [
+        "par les racines",
+        "par les fleurs",
+        "par les fruits"
+      ],
+      "reponse": "par les racines",
+      "explication": "Avec les sels minéraux du sol."
+    },
+    {
+      "consigne": "Au début d’une chaine alimentaire, on trouve :",
+      "options": [
+        "un végétal",
+        "un carnivore",
+        "un décomposeur"
+      ],
+      "reponse": "un végétal",
+      "explication": "C’est le producteur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 97,
+      "extrait": "production primaire",
+      "appui": "Production primaire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

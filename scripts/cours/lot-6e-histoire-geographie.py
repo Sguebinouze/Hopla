@@ -24,7 +24,7 @@ COURS = {
             ('Les débuts de l’humanité', [
                 vocabulaire(3, 'Préhistoire', 'Nomade'),
                 {'type': 'explique', 'texte': 'Les plus anciens fossiles d’Homo sapiens ont été trouvés en Afrique. Notre espèce quitte ensuite l’Afrique et se répand en Asie, en Europe, en Australie, puis en Amérique.'},
-                {'type': 'explique', 'texte': 'Les humains taillent des outils de pierre, maitrisent le feu et peignent les parois des grottes, comme à Chauvet ou à Lascaux.'},
+                {'type': 'explique', 'texte': 'Les humains taillent des outils de pierre et maitrisent le feu. Ils peignent les parois des grottes, comme à Chauvet ou à Lascaux.'},
                 bq('Sur quel continent apparait Homo sapiens ?', ['l’Afrique', 'l’Europe', 'l’Asie'], 'Les plus anciens fossiles de notre espèce y ont été découverts.'),
             ]),
             ('Des chasseurs-cueilleurs aux agriculteurs', [

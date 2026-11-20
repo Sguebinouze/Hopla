@@ -1,0 +1,133 @@
+{
+  "competence": "ST-C3-6E-ALIM-01",
+  "duree": 7,
+  "essentiel": "Des microorganismes transforment les aliments : levures pour le pain, bactéries pour le yaourt et le fromage.\nD’autres les abiment. Pour conserver, on limite leur développement.\nFroid, chaleur, salage, séchage et conserves empêchent les microorganismes de se multiplier.",
+  "parties": [
+    {
+      "titre": "Des microorganismes utiles",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Microorganisme",
+              "definition": "Être vivant si petit qu’on ne le voit qu’au microscope : bactérie, levure."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Fabrication",
+          "colonnes": [
+            "Aliment",
+            "Microorganisme",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "pain",
+              "levure",
+              "fait lever la pâte"
+            ],
+            [
+              "yaourt",
+              "bactéries lactiques",
+              "transforment le lait"
+            ],
+            [
+              "fromage",
+              "bactéries, moisissures",
+              "donnent goût et texture"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qu’est-ce qui fait lever la pâte à pain ?",
+          "options": [
+            "la levure",
+            "le sel",
+            "le four"
+          ],
+          "reponse": "la levure",
+          "explication": "Elle produit un gaz qui gonfle la pâte."
+        }
+      ]
+    },
+    {
+      "titre": "Conserver les aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Techniques de conservation",
+          "colonnes": [
+            "Technique",
+            "Principe"
+          ],
+          "lignes": [
+            [
+              "réfrigérateur, congélateur",
+              "le froid ralentit ou stoppe les microorganismes"
+            ],
+            [
+              "stérilisation, pasteurisation",
+              "la chaleur les détruit"
+            ],
+            [
+              "séchage, salage",
+              "l’eau manque, ils ne se développent plus"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le congélateur tue tous les microorganismes.",
+          "correction": "Il les endort. Une fois décongelé, l’aliment doit être consommé vite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le yaourt est fabriqué grâce à :",
+      "options": [
+        "des bactéries",
+        "des virus",
+        "du sucre seul"
+      ],
+      "reponse": "des bactéries",
+      "explication": "Les bactéries lactiques transforment le lait."
+    },
+    {
+      "consigne": "Le saucisson sec se conserve grâce :",
+      "options": [
+        "au séchage et au sel",
+        "au congélateur",
+        "à la lumière"
+      ],
+      "reponse": "au séchage et au sel",
+      "explication": "Sans eau, les microorganismes ne se développent pas."
+    },
+    {
+      "consigne": "Pourquoi mettre le lait ouvert au réfrigérateur ?",
+      "options": [
+        "le froid ralentit les microorganismes",
+        "pour qu’il soit sucré",
+        "pour qu’il change de couleur"
+      ],
+      "reponse": "le froid ralentit les microorganismes",
+      "explication": "Il se conserve plus longtemps."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 89,
+      "extrait": "Production et conservation des aliments",
+      "appui": "Production et conservation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

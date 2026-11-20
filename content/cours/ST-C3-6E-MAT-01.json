@@ -1,0 +1,154 @@
+{
+  "competence": "ST-C3-6E-MAT-01",
+  "duree": 8,
+  "essentiel": "La matière existe à l’état solide, liquide ou gazeux.\nL’eau pure gèle à 0 °C et bout à 100 °C, sous la pression atmosphérique normale.\nPendant un changement d’état d’un corps pur, la température reste constante.",
+  "parties": [
+    {
+      "titre": "Trois états",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les états de la matière",
+          "colonnes": [
+            "État",
+            "Forme",
+            "Volume",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "solide",
+              "propre",
+              "propre",
+              "glaçon, fer"
+            ],
+            [
+              "liquide",
+              "prend la forme du récipient",
+              "propre",
+              "eau, huile"
+            ],
+            [
+              "gazeux",
+              "occupe tout l’espace",
+              "variable",
+              "vapeur d’eau, air"
+            ]
+          ]
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Changement d’état",
+              "definition": "Passage d’un état de la matière à un autre : solide, liquide ou gazeux."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Noms des changements d’état",
+          "colonnes": [
+            "Passage",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "solide → liquide",
+              "fusion"
+            ],
+            [
+              "liquide → solide",
+              "solidification"
+            ],
+            [
+              "liquide → gaz",
+              "vaporisation"
+            ],
+            [
+              "gaz → liquide",
+              "liquéfaction"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un glaçon qui fond subit :",
+          "options": [
+            "une fusion",
+            "une solidification",
+            "une vaporisation"
+          ],
+          "reponse": "une fusion",
+          "explication": "Solide vers liquide."
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer une température de changement d’état",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Expérience : chauffer de la glace",
+          "etapes": [
+            "Place de la glace pilée dans un tube avec un thermomètre.",
+            "Relève la température toutes les minutes.",
+            "Trace la courbe : un palier apparait à 0 °C pendant la fusion."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la température monte pendant que la glace fond.",
+          "correction": "Pour l’eau pure, elle reste à 0 °C tant qu’il reste de la glace."
+        },
+        {
+          "type": "explique",
+          "texte": "On classe aussi les matériaux selon leurs propriétés : conduire la chaleur, flotter, être attiré par un aimant, résister."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À quelle température l’eau pure bout-elle ?",
+      "options": [
+        "100 °C",
+        "0 °C",
+        "50 °C"
+      ],
+      "reponse": "100 °C",
+      "explication": "Sous la pression atmosphérique normale."
+    },
+    {
+      "consigne": "La buée sur un miroir est :",
+      "options": [
+        "une liquéfaction",
+        "une fusion",
+        "une solidification"
+      ],
+      "reponse": "une liquéfaction",
+      "explication": "La vapeur d’eau redevient liquide."
+    },
+    {
+      "consigne": "Un liquide prend :",
+      "options": [
+        "la forme de son récipient",
+        "toujours la même forme",
+        "tout l’espace disponible"
+      ],
+      "reponse": "la forme de son récipient",
+      "explication": "Il a un volume propre mais pas de forme propre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 82,
+      "extrait": "Mesurer des températures de changement",
+      "appui": "Changements d’état"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

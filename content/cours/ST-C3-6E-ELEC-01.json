@@ -1,0 +1,140 @@
+{
+  "competence": "ST-C3-6E-ELEC-01",
+  "duree": 8,
+  "essentiel": "Un circuit électrique simple forme une boucle fermée : pile, fils, interrupteur, lampe.\nSi la boucle est ouverte, le courant ne circule pas.\nUn signal transporte une information : lumière d’un phare, son d’une sirène, onde radio.",
+  "parties": [
+    {
+      "titre": "Le circuit à une boucle",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour réaliser un circuit",
+          "etapes": [
+            "Relie une borne de la pile à la lampe.",
+            "Relie la lampe à l’interrupteur.",
+            "Relie l’interrupteur à l’autre borne de la pile.",
+            "Ferme l’interrupteur : la lampe brille."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Conducteurs et isolants",
+          "colonnes": [
+            "Conducteurs",
+            "Isolants"
+          ],
+          "lignes": [
+            [
+              "cuivre, fer, aluminium",
+              "plastique, bois sec, verre, caoutchouc"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relie les deux fils de la lampe à la même borne de la pile.",
+          "correction": "Le courant doit faire une boucle complète, d’une borne à l’autre."
+        },
+        {
+          "type": "question",
+          "consigne": "L’interrupteur ouvert, la lampe :",
+          "options": [
+            "est éteinte",
+            "brille plus fort",
+            "brille pareil"
+          ],
+          "reponse": "est éteinte",
+          "explication": "La boucle est coupée."
+        }
+      ]
+    },
+    {
+      "titre": "Signaux et information",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Signal",
+              "definition": "Phénomène qui transporte une information : lumière, son, onde radio."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des signaux",
+          "colonnes": [
+            "Signal",
+            "Nature",
+            "Information"
+          ],
+          "lignes": [
+            [
+              "feu tricolore",
+              "lumineux",
+              "s’arrêter ou passer"
+            ],
+            [
+              "sirène",
+              "sonore",
+              "danger, alerte"
+            ],
+            [
+              "télécommande",
+              "infrarouge",
+              "changer de chaine"
+            ],
+            [
+              "téléphone",
+              "onde radio",
+              "voix, messages"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel matériau est un isolant ?",
+      "options": [
+        "le plastique",
+        "le cuivre",
+        "le fer"
+      ],
+      "reponse": "le plastique",
+      "explication": "Il ne laisse pas passer le courant."
+    },
+    {
+      "consigne": "Un feu rouge transmet un signal :",
+      "options": [
+        "lumineux",
+        "sonore",
+        "olfactif"
+      ],
+      "reponse": "lumineux",
+      "explication": "Il se voit."
+    },
+    {
+      "consigne": "Pour que le courant passe, le circuit doit être :",
+      "options": [
+        "fermé",
+        "ouvert",
+        "coupé"
+      ],
+      "reponse": "fermé",
+      "explication": "Une boucle complète."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 87,
+      "extrait": "Identifier différents signaux pour",
+      "appui": "Signaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

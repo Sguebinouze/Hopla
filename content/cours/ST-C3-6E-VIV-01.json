@@ -1,0 +1,131 @@
+{
+  "competence": "ST-C3-6E-VIV-01",
+  "duree": 9,
+  "essentiel": "Tous les êtres vivants sont faits de cellules : c’est l’unité du vivant.\nOn classe les êtres vivants selon les caractères qu’ils partagent, et non selon où ils vivent.\nLes groupes sont emboités : les mammifères font partie des vertébrés.",
+  "parties": [
+    {
+      "titre": "La cellule",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cellule",
+              "definition": "Plus petite unité qui compose un être vivant."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Au microscope, on observe des cellules : celles de l’oignon, de la joue, d’une feuille. Certains êtres vivants n’ont qu’une seule cellule, comme les bactéries."
+        },
+        {
+          "type": "question",
+          "consigne": "Qu’ont en commun tous les êtres vivants ?",
+          "options": [
+            "ils sont faits de cellules",
+            "ils ont des poumons",
+            "ils ont des feuilles"
+          ],
+          "reponse": "ils sont faits de cellules",
+          "explication": "La cellule est l’unité du vivant."
+        }
+      ]
+    },
+    {
+      "titre": "Classer en groupes emboités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Caractères partagés",
+          "colonnes": [
+            "Groupe",
+            "Caractère",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "vertébrés",
+              "squelette interne avec colonne vertébrale",
+              "chat, truite, grenouille, aigle"
+            ],
+            [
+              "mammifères",
+              "poils, mamelles",
+              "chat, baleine, chauve-souris"
+            ],
+            [
+              "oiseaux",
+              "plumes",
+              "aigle, manchot"
+            ],
+            [
+              "insectes",
+              "six pattes",
+              "abeille, fourmi"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On range la baleine avec les poissons parce qu’elle vit dans l’eau.",
+          "correction": "La baleine a des mamelles et des poils à la naissance : c’est un mammifère."
+        },
+        {
+          "type": "question",
+          "consigne": "La chauve-souris est :",
+          "options": [
+            "un mammifère",
+            "un oiseau",
+            "un insecte"
+          ],
+          "reponse": "un mammifère",
+          "explication": "Elle a des poils et allaite ses petits."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel caractère partagent tous les oiseaux ?",
+      "options": [
+        "les plumes",
+        "le vol",
+        "le bec rouge"
+      ],
+      "reponse": "les plumes",
+      "explication": "Le manchot a des plumes mais ne vole pas."
+    },
+    {
+      "consigne": "Une araignée a :",
+      "options": [
+        "huit pattes",
+        "six pattes",
+        "quatre pattes"
+      ],
+      "reponse": "huit pattes",
+      "explication": "Ce n’est pas un insecte."
+    },
+    {
+      "consigne": "On classe les êtres vivants selon :",
+      "options": [
+        "les caractères qu’ils partagent",
+        "l’endroit où ils vivent",
+        "leur taille"
+      ],
+      "reponse": "les caractères qu’ils partagent",
+      "explication": "C’est la classification scientifique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 88,
+      "extrait": "Lire et interpréter des arbres de parenté",
+      "appui": "Classification"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

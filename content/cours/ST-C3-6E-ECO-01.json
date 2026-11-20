@@ -1,0 +1,110 @@
+{
+  "competence": "ST-C3-6E-ECO-01",
+  "duree": 7,
+  "essentiel": "Le peuplement d’un milieu change au fil des saisons.\nCertains animaux migrent, hibernent ou changent de pelage ; certaines plantes perdent leurs feuilles.\nCes changements sont liés à la température, à la lumière et à la nourriture disponible.",
+  "parties": [
+    {
+      "titre": "S’adapter aux saisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comportements en hiver",
+          "colonnes": [
+            "Être vivant",
+            "Comportement"
+          ],
+          "lignes": [
+            [
+              "hirondelle",
+              "migre vers l’Afrique"
+            ],
+            [
+              "marmotte, hérisson",
+              "hibernent"
+            ],
+            [
+              "lièvre variable",
+              "pelage blanc en hiver"
+            ],
+            [
+              "chêne",
+              "perd ses feuilles"
+            ],
+            [
+              "plantes annuelles",
+              "passent l’hiver sous forme de graines"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que fait l’hirondelle à l’automne ?",
+          "options": [
+            "elle migre vers des pays chauds",
+            "elle hiberne",
+            "elle change de plumes"
+          ],
+          "reponse": "elle migre vers des pays chauds",
+          "explication": "Elle suit les insectes dont elle se nourrit."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi ces changements ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En hiver, il fait froid, les jours sont courts et la nourriture manque. Chaque espèce répond à sa façon."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les animaux absents en hiver sont morts.",
+          "correction": "Beaucoup ont migré, se cachent ou hibernent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un animal qui hiberne :",
+      "options": [
+        "dort et ralentit son corps tout l’hiver",
+        "part à l’étranger",
+        "change de couleur"
+      ],
+      "reponse": "dort et ralentit son corps tout l’hiver",
+      "explication": "Comme la marmotte."
+    },
+    {
+      "consigne": "Pourquoi beaucoup d’arbres perdent-ils leurs feuilles ?",
+      "options": [
+        "pour limiter les pertes d’eau en hiver",
+        "parce qu’ils meurent",
+        "pour faire de la place"
+      ],
+      "reponse": "pour limiter les pertes d’eau en hiver",
+      "explication": "Ils entrent en vie ralentie."
+    },
+    {
+      "consigne": "Le peuplement d’un milieu en hiver est :",
+      "options": [
+        "différent de celui de l’été",
+        "identique toute l’année",
+        "toujours vide"
+      ],
+      "reponse": "différent de celui de l’été",
+      "explication": "Il varie avec les saisons."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 97,
+      "extrait": "Suivre les changements de peuplement au cours des saisons",
+      "appui": "Saisons et peuplement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

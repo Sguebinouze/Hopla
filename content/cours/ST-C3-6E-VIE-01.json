@@ -1,0 +1,106 @@
+{
+  "competence": "ST-C3-6E-VIE-01",
+  "duree": 7,
+  "essentiel": "La vie est possible sur Terre grâce à l’eau liquide, à une atmosphère et à des températures modérées.\nLa Terre est à une bonne distance du Soleil : ni trop chaude, ni trop froide.\nL’atmosphère contient du dioxygène et nous protège d’une partie des rayons du Soleil.",
+  "parties": [
+    {
+      "titre": "Une planète particulière",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer trois planètes",
+          "colonnes": [
+            "Planète",
+            "Eau liquide",
+            "Température moyenne"
+          ],
+          "lignes": [
+            [
+              "Vénus",
+              "non",
+              "environ 460 °C"
+            ],
+            [
+              "Terre",
+              "oui",
+              "environ 15 °C"
+            ],
+            [
+              "Mars",
+              "non en surface aujourd’hui",
+              "environ −60 °C"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi l’eau n’est-elle pas liquide sur Vénus ?",
+          "options": [
+            "il y fait beaucoup trop chaud",
+            "il y fait trop froid",
+            "il n’y a pas de Soleil"
+          ],
+          "reponse": "il y fait beaucoup trop chaud",
+          "explication": "Environ 460 °C en moyenne."
+        }
+      ]
+    },
+    {
+      "titre": "Le rôle de l’atmosphère",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’atmosphère garde une partie de la chaleur et filtre une partie des rayons ultraviolets grâce à la couche d’ozone."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la vie a besoin seulement d’oxygène.",
+          "correction": "Il faut d’abord de l’eau liquide. Certains microorganismes vivent sans dioxygène."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle condition est indispensable à la vie connue ?",
+      "options": [
+        "l’eau liquide",
+        "la glace",
+        "le sable"
+      ],
+      "reponse": "l’eau liquide",
+      "explication": "Toute la vie connue en dépend."
+    },
+    {
+      "consigne": "La couche d’ozone filtre :",
+      "options": [
+        "une partie des ultraviolets",
+        "la pluie",
+        "les sons"
+      ],
+      "reponse": "une partie des ultraviolets",
+      "explication": "Elle protège les êtres vivants."
+    },
+    {
+      "consigne": "La température moyenne de la Terre est d’environ :",
+      "options": [
+        "15 °C",
+        "100 °C",
+        "−100 °C"
+      ],
+      "reponse": "15 °C",
+      "explication": "Elle permet l’eau liquide."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 96,
+      "extrait": "Décrire les conditions qui permettent la présence de la vie sur Terre",
+      "appui": "Conditions de la vie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-6E-RESS-01",
+  "duree": 7,
+  "essentiel": "Les humains exploitent des ressources : eau, sols, forêts, poissons, minerais.\nUne exploitation raisonnée prélève sans épuiser et laisse la ressource se renouveler.\nDes aménagements favorisent la biodiversité : haies, mares, prairies fleuries, passages pour la faune.",
+  "parties": [
+    {
+      "titre": "Prélever sans épuiser",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Exemples",
+          "colonnes": [
+            "Ressource",
+            "Surexploitation",
+            "Exploitation raisonnée"
+          ],
+          "lignes": [
+            [
+              "poissons",
+              "pêche trop intensive, stocks effondrés",
+              "quotas, tailles minimales"
+            ],
+            [
+              "forêts",
+              "coupes rases sans replanter",
+              "gestion durable, replantation"
+            ],
+            [
+              "eau",
+              "gaspillage, nappes vidées",
+              "irrigation économe, récupération de pluie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi fixer des quotas de pêche ?",
+          "options": [
+            "pour laisser les poissons se reproduire",
+            "pour vendre plus cher",
+            "pour polluer moins les bateaux"
+          ],
+          "reponse": "pour laisser les poissons se reproduire",
+          "explication": "La ressource se renouvelle."
+        }
+      ]
+    },
+    {
+      "titre": "Aménager pour la biodiversité",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour concevoir un aménagement",
+          "etapes": [
+            "Observe le lieu : quelles espèces, quels manques ?",
+            "Choisis un aménagement : haie, mare, nichoir, hôtel à insectes.",
+            "Prévois son entretien et le suivi des espèces."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un hôtel à insectes suffit à protéger la biodiversité.",
+          "correction": "Il faut aussi des plantes variées, sans pesticides, et des milieux reliés entre eux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une haie favorise la biodiversité car :",
+      "options": [
+        "elle abrite oiseaux et insectes",
+        "elle bloque la pluie",
+        "elle chasse les animaux"
+      ],
+      "reponse": "elle abrite oiseaux et insectes",
+      "explication": "C’est un refuge et un couloir."
+    },
+    {
+      "consigne": "Une exploitation raisonnée :",
+      "options": [
+        "préserve la ressource pour l’avenir",
+        "prélève tout le plus vite possible",
+        "interdit toute exploitation"
+      ],
+      "reponse": "préserve la ressource pour l’avenir",
+      "explication": "On prélève sans épuiser."
+    },
+    {
+      "consigne": "Quelle action économise l’eau ?",
+      "options": [
+        "récupérer l’eau de pluie",
+        "laisser couler le robinet",
+        "arroser à midi en été"
+      ],
+      "reponse": "récupérer l’eau de pluie",
+      "explication": "L’eau de pluie sert à arroser."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 98,
+      "extrait": "Justifier la nécessité d’une exploitation raisonnée des ressources",
+      "appui": "Exploitation raisonnée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

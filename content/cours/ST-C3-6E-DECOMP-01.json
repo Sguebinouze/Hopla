@@ -1,0 +1,124 @@
+{
+  "competence": "ST-C3-6E-DECOMP-01",
+  "duree": 7,
+  "essentiel": "Après leur mort, les êtres vivants sont décomposés par des êtres vivants du sol : vers de terre, champignons, bactéries.\nLa matière est transformée en éléments minéraux.\nLes plantes réutilisent ces éléments : la matière circule en cycle.",
+  "parties": [
+    {
+      "titre": "Les décomposeurs",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Décomposeur",
+              "definition": "Être vivant qui transforme la matière des êtres morts en éléments minéraux."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Dans la litière d’une forêt.",
+          "exemples": [
+            "En surface, des feuilles entières.",
+            "Plus bas, des feuilles trouées et grignotées.",
+            "Encore plus bas, de l’humus sombre."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel être vivant aide à décomposer les feuilles mortes ?",
+          "options": [
+            "le ver de terre",
+            "le renard",
+            "le chêne"
+          ],
+          "reponse": "le ver de terre",
+          "explication": "Il mange et brasse la litière."
+        }
+      ]
+    },
+    {
+      "titre": "Le cycle de la matière",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un cycle",
+          "colonnes": [
+            "Étape",
+            "Ce qui se passe"
+          ],
+          "lignes": [
+            [
+              "1",
+              "la plante produit de la matière"
+            ],
+            [
+              "2",
+              "des animaux la mangent"
+            ],
+            [
+              "3",
+              "à leur mort, les décomposeurs transforment la matière"
+            ],
+            [
+              "4",
+              "les sels minéraux retournent au sol et nourrissent la plante"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les feuilles mortes disparaissent toutes seules.",
+          "correction": "Ce sont des êtres vivants du sol qui les transforment."
+        },
+        {
+          "type": "explique",
+          "texte": "Le compost utilise ce cycle : les restes de cuisine deviennent un engrais naturel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’humus est :",
+      "options": [
+        "de la matière décomposée du sol",
+        "une roche",
+        "un insecte"
+      ],
+      "reponse": "de la matière décomposée du sol",
+      "explication": "Il est riche en éléments minéraux."
+    },
+    {
+      "consigne": "Les champignons du sol sont des :",
+      "options": [
+        "décomposeurs",
+        "producteurs",
+        "prédateurs"
+      ],
+      "reponse": "décomposeurs",
+      "explication": "Ils transforment la matière morte."
+    },
+    {
+      "consigne": "Pourquoi faire un compost ?",
+      "options": [
+        "pour recycler les déchets en engrais",
+        "pour attirer les loups",
+        "pour polluer"
+      ],
+      "reponse": "pour recycler les déchets en engrais",
+      "explication": "La matière retourne au sol."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 97,
+      "extrait": "décomposée après leur mort (exemple du sol)",
+      "appui": "Décomposition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

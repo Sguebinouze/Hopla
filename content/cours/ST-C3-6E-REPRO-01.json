@@ -1,0 +1,114 @@
+{
+  "competence": "ST-C3-6E-REPRO-01",
+  "duree": 8,
+  "essentiel": "Chez l’être humain, la fécondation est interne : elle a lieu dans le corps de la femme.\nUn ovule et un spermatozoïde s’unissent pour former une cellule-œuf.\nL’embryon se développe dans l’utérus pendant environ neuf mois, nourri par le placenta.",
+  "parties": [
+    {
+      "titre": "Les cellules reproductrices",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Organes et cellules",
+          "colonnes": [
+            "Comparer",
+            "Femme",
+            "Homme"
+          ],
+          "lignes": [
+            [
+              "organes producteurs",
+              "ovaires",
+              "testicules"
+            ],
+            [
+              "cellules reproductrices",
+              "ovules",
+              "spermatozoïdes"
+            ]
+          ]
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Fécondation",
+              "definition": "Rencontre et fusion d’une cellule reproductrice mâle et d’une cellule reproductrice femelle."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où sont produits les ovules ?",
+          "options": [
+            "dans les ovaires",
+            "dans l’utérus",
+            "dans le cœur"
+          ],
+          "reponse": "dans les ovaires",
+          "explication": "Les ovaires produisent les ovules."
+        }
+      ]
+    },
+    {
+      "titre": "Le développement de l’embryon",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La cellule-œuf se divise et s’installe dans l’utérus. Le placenta et le cordon ombilical apportent nourriture et dioxygène, et évacuent les déchets."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le bébé respire de l’air dans l’utérus.",
+          "correction": "Il reçoit le dioxygène du sang de sa mère par le placenta."
+        },
+        {
+          "type": "explique",
+          "texte": "L’être humain est **vivipare** : le petit se développe dans le corps de la mère et nait vivant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où se développe l’embryon ?",
+      "options": [
+        "dans l’utérus",
+        "dans l’estomac",
+        "dans un œuf pondu"
+      ],
+      "reponse": "dans l’utérus",
+      "explication": "L’être humain est vivipare."
+    },
+    {
+      "consigne": "Que forme l’union d’un ovule et d’un spermatozoïde ?",
+      "options": [
+        "une cellule-œuf",
+        "un placenta",
+        "un ovaire"
+      ],
+      "reponse": "une cellule-œuf",
+      "explication": "C’est la fécondation."
+    },
+    {
+      "consigne": "Combien de temps dure environ une grossesse ?",
+      "options": [
+        "9 mois",
+        "3 mois",
+        "18 mois"
+      ],
+      "reponse": "9 mois",
+      "explication": "Environ 9 mois."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 91,
+      "extrait": "fécondation interne et le développement vivipare",
+      "appui": "Reproduction humaine"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

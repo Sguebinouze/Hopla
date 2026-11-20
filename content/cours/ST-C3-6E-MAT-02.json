@@ -1,0 +1,174 @@
+{
+  "competence": "ST-C3-6E-MAT-02",
+  "duree": 8,
+  "essentiel": "La masse se mesure en kilogrammes, le volume en litres ou en m³ : 1 L = 1 dm³.\nOn sépare un mélange par décantation, filtration ou évaporation.\nL’air est un mélange : environ 78 % de diazote et 21 % de dioxygène.",
+  "parties": [
+    {
+      "titre": "Masse et volume",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités",
+          "colonnes": [
+            "Grandeur",
+            "Unités",
+            "Relations"
+          ],
+          "lignes": [
+            [
+              "masse",
+              "kg, g, mg",
+              "1 kg = 1 000 g"
+            ],
+            [
+              "volume",
+              "L, mL, m³, dm³, cm³",
+              "1 L = 1 dm³ ; 1 mL = 1 cm³"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond masse et volume : un kilo de plumes prend la même place qu’un kilo de plomb.",
+          "correction": "Même masse, mais les plumes occupent un volume bien plus grand."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mL dans 1 L ?",
+          "options": [
+            "1 000",
+            "100",
+            "10"
+          ],
+          "reponse": "1 000",
+          "explication": "1 L = 1 000 mL."
+        }
+      ]
+    },
+    {
+      "titre": "Séparer un mélange",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mélange",
+              "definition": "Matière formée de plusieurs constituants."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Techniques de séparation",
+          "colonnes": [
+            "Technique",
+            "Principe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "décantation",
+              "on laisse reposer, le solide tombe au fond",
+              "eau boueuse"
+            ],
+            [
+              "filtration",
+              "un filtre retient les particules solides",
+              "café"
+            ],
+            [
+              "évaporation",
+              "l’eau s’évapore, le solide dissous reste",
+              "marais salants"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "L’eau salée est un mélange homogène : on ne distingue pas le sel. La filtration ne le retient pas ; l’évaporation, si."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment récupérer le sel de l’eau de mer ?",
+          "options": [
+            "par évaporation",
+            "par filtration",
+            "par décantation"
+          ],
+          "reponse": "par évaporation",
+          "explication": "Le sel dissous traverse le filtre."
+        }
+      ]
+    },
+    {
+      "titre": "L’air",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Composition de l’air sec",
+          "colonnes": [
+            "Gaz",
+            "Proportion"
+          ],
+          "lignes": [
+            [
+              "diazote",
+              "environ 78 %"
+            ],
+            [
+              "dioxygène",
+              "environ 21 %"
+            ],
+            [
+              "autres gaz",
+              "environ 1 %"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel gaz est le plus abondant dans l’air ?",
+      "options": [
+        "le diazote",
+        "le dioxygène",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le diazote",
+      "explication": "Environ 78 %."
+    },
+    {
+      "consigne": "Pour séparer du sable et de l’eau, on peut :",
+      "options": [
+        "filtrer",
+        "évaporer seulement",
+        "congeler"
+      ],
+      "reponse": "filtrer",
+      "explication": "Le filtre retient le sable."
+    },
+    {
+      "consigne": "Combien de cm³ dans 1 L ?",
+      "options": [
+        "1 000",
+        "100",
+        "10"
+      ],
+      "reponse": "1 000",
+      "explication": "1 L = 1 dm³ = 1 000 cm³."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 83,
+      "extrait": "Rechercher et exploiter des informations",
+      "appui": "Masse, volume, mélanges"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

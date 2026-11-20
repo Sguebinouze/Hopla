@@ -1,0 +1,153 @@
+{
+  "competence": "ST-C3-6E-NRJ-01",
+  "duree": 8,
+  "essentiel": "L’énergie existe sous plusieurs formes : thermique, électrique, lumineuse, de mouvement, chimique.\nUn objet convertit une forme d’énergie en une autre : une lampe convertit l’énergie électrique en lumière et en chaleur.\nLes ressources renouvelables se reconstituent vite ; les fossiles (pétrole, charbon, gaz) s’épuisent.",
+  "parties": [
+    {
+      "titre": "Formes et conversions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Conversions d’énergie",
+          "colonnes": [
+            "Objet",
+            "Énergie reçue",
+            "Énergie produite"
+          ],
+          "lignes": [
+            [
+              "lampe",
+              "électrique",
+              "lumineuse et thermique"
+            ],
+            [
+              "éolienne",
+              "de mouvement (vent)",
+              "électrique"
+            ],
+            [
+              "panneau solaire",
+              "lumineuse",
+              "électrique"
+            ],
+            [
+              "muscle",
+              "chimique (aliments)",
+              "de mouvement et thermique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une éolienne convertit l’énergie du vent en énergie :",
+          "options": [
+            "électrique",
+            "chimique",
+            "lumineuse"
+          ],
+          "reponse": "électrique",
+          "explication": "Le vent fait tourner un alternateur."
+        }
+      ]
+    },
+    {
+      "titre": "Ressources renouvelables ou non",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Énergie renouvelable",
+              "definition": "Énergie dont la source se reconstitue rapidement : soleil, vent, eau, bois."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Ressources",
+          "colonnes": [
+            "Renouvelables",
+            "Non renouvelables"
+          ],
+          "lignes": [
+            [
+              "soleil",
+              "pétrole"
+            ],
+            [
+              "vent",
+              "charbon"
+            ],
+            [
+              "eau des barrages",
+              "gaz naturel"
+            ],
+            [
+              "bois",
+              "uranium"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’électricité est une source d’énergie.",
+          "correction": "L’électricité est produite à partir d’une ressource : charbon, uranium, vent, eau, soleil."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle ressource n’est pas renouvelable ?",
+          "options": [
+            "le charbon",
+            "le vent",
+            "le soleil"
+          ],
+          "reponse": "le charbon",
+          "explication": "Il a mis des millions d’années à se former."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un radiateur électrique produit surtout de l’énergie :",
+      "options": [
+        "thermique",
+        "lumineuse",
+        "de mouvement"
+      ],
+      "reponse": "thermique",
+      "explication": "Il chauffe."
+    },
+    {
+      "consigne": "Le pétrole est une énergie :",
+      "options": [
+        "fossile, non renouvelable",
+        "renouvelable",
+        "inépuisable"
+      ],
+      "reponse": "fossile, non renouvelable",
+      "explication": "Ses réserves s’épuisent."
+    },
+    {
+      "consigne": "Quelle énergie stockent les aliments ?",
+      "options": [
+        "chimique",
+        "électrique",
+        "lumineuse"
+      ],
+      "reponse": "chimique",
+      "explication": "Le corps la libère par la digestion et la respiration."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 85,
+      "extrait": "Identifier différentes formes d’énergie",
+      "appui": "Formes d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

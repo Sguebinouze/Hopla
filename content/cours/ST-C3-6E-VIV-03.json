@@ -1,0 +1,113 @@
+{
+  "competence": "ST-C3-6E-VIV-03",
+  "duree": 7,
+  "essentiel": "La pollinisation est le transport du pollen d’une fleur à une autre de la même espèce.\nLe pollen est transporté par les insectes ou par le vent.\nAprès la fécondation, la fleur se transforme en fruit qui contient des graines.",
+  "parties": [
+    {
+      "titre": "De la fleur au fruit",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Pollinisation",
+              "definition": "Transport du pollen d’une fleur vers une autre fleur de la même espèce."
+            },
+            {
+              "mot": "Fécondation",
+              "definition": "Rencontre et fusion d’une cellule reproductrice mâle et d’une cellule reproductrice femelle."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Suis une fleur de cerisier au printemps.",
+          "exemples": [
+            "Une abeille transporte le pollen d’une fleur à l’autre.",
+            "Les pétales tombent.",
+            "Le pistil grossit et devient une cerise, avec un noyau qui contient la graine."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que devient la fleur après la fécondation ?",
+          "options": [
+            "un fruit",
+            "une racine",
+            "une feuille"
+          ],
+          "reponse": "un fruit",
+          "explication": "Le fruit protège les graines."
+        }
+      ]
+    },
+    {
+      "titre": "Le rôle des pollinisateurs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les abeilles, bourdons et papillons sont des pollinisateurs. Sans eux, beaucoup de plantes cultivées donneraient peu de fruits."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’abeille fabrique le fruit.",
+          "correction": "Elle transporte le pollen. C’est la plante qui forme le fruit après la fécondation."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel autre agent transporte le pollen ?",
+          "options": [
+            "le vent",
+            "la lune",
+            "le sol"
+          ],
+          "reponse": "le vent",
+          "explication": "Le blé et les graminées sont pollinisés par le vent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Qu’est-ce que la pollinisation ?",
+      "options": [
+        "le transport du pollen",
+        "la chute des feuilles",
+        "la germination"
+      ],
+      "reponse": "le transport du pollen",
+      "explication": "D’une fleur à une autre."
+    },
+    {
+      "consigne": "Où se trouvent les graines ?",
+      "options": [
+        "dans le fruit",
+        "dans les racines",
+        "dans les pétales"
+      ],
+      "reponse": "dans le fruit",
+      "explication": "Le fruit vient de la fleur."
+    },
+    {
+      "consigne": "Pourquoi protéger les abeilles ?",
+      "options": [
+        "elles pollinisent les cultures",
+        "elles mangent les fruits",
+        "elles chassent les oiseaux"
+      ],
+      "reponse": "elles pollinisent les cultures",
+      "explication": "Elles permettent la formation des fruits."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 90,
+      "extrait": "pollinisation dans la transformation de la",
+      "appui": "Pollinisation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

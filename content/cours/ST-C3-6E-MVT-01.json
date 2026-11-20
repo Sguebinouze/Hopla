@@ -1,0 +1,128 @@
+{
+  "competence": "ST-C3-6E-MVT-01",
+  "duree": 8,
+  "essentiel": "La vitesse moyenne est la distance parcourue divisée par la durée : v = d ÷ t.\nUne voiture qui parcourt 150 km en 2 h roule à 75 km/h en moyenne.\nLa Terre tourne sur elle-même en un jour et autour du Soleil en une année.",
+  "parties": [
+    {
+      "titre": "Calculer une vitesse moyenne",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Vitesse",
+              "definition": "Distance parcourue pendant une durée donnée, par exemple en kilomètres par heure."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour calculer une vitesse moyenne",
+          "etapes": [
+            "Repère la distance et la durée.",
+            "Vérifie les unités : km et h donnent des km/h.",
+            "Divise la distance par la durée."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un cycliste parcourt 30 km en 1 h 30 min.",
+          "etapes": [
+            "1 h 30 min = 1,5 h.",
+            "30 ÷ 1,5 = 20."
+          ],
+          "conclusion": "Sa vitesse moyenne est 20 km/h."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 1 h 30 min = 1,3 h.",
+          "correction": "30 min, c’est une demi-heure : 1,5 h."
+        },
+        {
+          "type": "question",
+          "consigne": "Un train fait 600 km en 3 h. Vitesse moyenne ?",
+          "options": [
+            "200 km/h",
+            "1 800 km/h",
+            "603 km/h"
+          ],
+          "reponse": "200 km/h",
+          "explication": "600 ÷ 3 = 200."
+        }
+      ]
+    },
+    {
+      "titre": "Les mouvements de la Terre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux mouvements",
+          "colonnes": [
+            "Mouvement",
+            "Durée",
+            "Conséquence"
+          ],
+          "lignes": [
+            [
+              "rotation sur elle-même",
+              "environ 24 h",
+              "jour et nuit"
+            ],
+            [
+              "révolution autour du Soleil",
+              "environ 365 jours et un quart",
+              "l’année"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le quart de jour de chaque année s’accumule : tous les quatre ans, on ajoute le 29 février. C’est une année bissextile."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une voiture roule 2 h à 90 km/h. Distance ?",
+      "options": [
+        "180 km",
+        "45 km",
+        "92 km"
+      ],
+      "reponse": "180 km",
+      "explication": "d = v × t = 90 × 2."
+    },
+    {
+      "consigne": "Que dure une rotation de la Terre sur elle-même ?",
+      "options": [
+        "environ 24 h",
+        "environ 365 jours",
+        "environ 1 mois"
+      ],
+      "reponse": "environ 24 h",
+      "explication": "C’est un jour."
+    },
+    {
+      "consigne": "Un piéton fait 5 km en 1 h. Sa vitesse ?",
+      "options": [
+        "5 km/h",
+        "50 km/h",
+        "0,5 km/h"
+      ],
+      "reponse": "5 km/h",
+      "explication": "5 ÷ 1 = 5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 84,
+      "extrait": "Calculer la valeur de la vitesse à partir de la",
+      "appui": "Vitesse moyenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

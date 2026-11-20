@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-6E-VIV-02",
+  "duree": 8,
+  "essentiel": "Un fossile est un reste ou une trace d’être vivant conservé dans une roche.\nLes fossiles montrent que la biodiversité a changé : des espèces sont apparues, d’autres ont disparu.\nIl y a environ 66 millions d’années, une crise a fait disparaitre les dinosaures non aviens.",
+  "parties": [
+    {
+      "titre": "Les fossiles, témoins du passé",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Fossile",
+              "definition": "Reste ou trace d’un être vivant du passé, conservé dans une roche."
+            },
+            {
+              "mot": "Biodiversité",
+              "definition": "Diversité des êtres vivants et des milieux où ils vivent."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les ammonites, les trilobites et les dinosaures ne vivent plus aujourd’hui. On les connait par leurs fossiles."
+        },
+        {
+          "type": "question",
+          "consigne": "Un fossile se trouve le plus souvent :",
+          "options": [
+            "dans une roche",
+            "dans l’air",
+            "dans un arbre vivant"
+          ],
+          "reponse": "dans une roche",
+          "explication": "Il est conservé dans les couches de roches."
+        }
+      ]
+    },
+    {
+      "titre": "Des crises de la biodiversité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux grandes crises",
+          "colonnes": [
+            "Date",
+            "Évènement"
+          ],
+          "lignes": [
+            [
+              "il y a environ 252 millions d’années",
+              "la plus grande extinction : disparition des trilobites"
+            ],
+            [
+              "il y a environ 66 millions d’années",
+              "disparition des dinosaures non aviens et des ammonites"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les dinosaures ont disparu.",
+          "correction": "Les oiseaux descendent de dinosaures : ce sont des dinosaures aviens."
+        },
+        {
+          "type": "explique",
+          "texte": "Aujourd’hui, les activités humaines font disparaitre des espèces à un rythme très rapide."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand les dinosaures non aviens disparaissent-ils ?",
+      "options": [
+        "il y a environ 66 millions d’années",
+        "il y a 10 000 ans",
+        "il y a 2 000 ans"
+      ],
+      "reponse": "il y a environ 66 millions d’années",
+      "explication": "Lors d’une grande crise."
+    },
+    {
+      "consigne": "Les ammonites sont :",
+      "options": [
+        "des animaux disparus connus par leurs fossiles",
+        "des plantes actuelles",
+        "des roches"
+      ],
+      "reponse": "des animaux disparus connus par leurs fossiles",
+      "explication": "Elles ont disparu avec les dinosaures."
+    },
+    {
+      "consigne": "Quels animaux actuels descendent de dinosaures ?",
+      "options": [
+        "les oiseaux",
+        "les chats",
+        "les poissons"
+      ],
+      "reponse": "les oiseaux",
+      "explication": "Ce sont des dinosaures aviens."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 88,
+      "extrait": "Biodiversité actuelle et passée",
+      "appui": "Biodiversité actuelle et passée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-6E-SIG-01",
+  "duree": 8,
+  "essentiel": "La Terre tourne sur elle-même : la moitié éclairée par le Soleil est dans le jour, l’autre dans la nuit.\nL’axe de la Terre est incliné : au fil de l’année, la durée du jour change.\nEn France, les jours sont longs en été et courts en hiver.",
+  "parties": [
+    {
+      "titre": "Le jour et la nuit",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "On éclaire un globe avec une lampe et on le fait tourner.",
+          "exemples": [
+            "Une moitié du globe est toujours éclairée.",
+            "Quand le globe tourne, un point passe du côté éclairé au côté sombre.",
+            "Le Soleil semble se lever à l’est et se coucher à l’ouest."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Soleil tourne autour de la Terre en un jour.",
+          "correction": "C’est la Terre qui tourne sur elle-même. Le mouvement du Soleil n’est qu’apparent."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi y a-t-il des jours et des nuits ?",
+          "options": [
+            "la Terre tourne sur elle-même",
+            "le Soleil s’éteint la nuit",
+            "la Lune cache le Soleil"
+          ],
+          "reponse": "la Terre tourne sur elle-même",
+          "explication": "Rotation en environ 24 h."
+        }
+      ]
+    },
+    {
+      "titre": "Les saisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En France",
+          "colonnes": [
+            "Moment",
+            "Durée du jour"
+          ],
+          "lignes": [
+            [
+              "solstice d’été (vers le 21 juin)",
+              "le plus long jour de l’année"
+            ],
+            [
+              "équinoxes (vers le 21 mars et le 22 septembre)",
+              "jour et nuit à peu près égaux"
+            ],
+            [
+              "solstice d’hiver (vers le 21 décembre)",
+              "le plus court jour de l’année"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les saisons viennent de l’inclinaison de l’axe de la Terre. Elles ne viennent pas de la distance au Soleil."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand le jour est-il le plus long en France ?",
+      "options": [
+        "au solstice d’été",
+        "au solstice d’hiver",
+        "à l’équinoxe"
+      ],
+      "reponse": "au solstice d’été",
+      "explication": "Vers le 21 juin."
+    },
+    {
+      "consigne": "De quel côté le Soleil semble-t-il se lever ?",
+      "options": [
+        "à l’est",
+        "à l’ouest",
+        "au nord"
+      ],
+      "reponse": "à l’est",
+      "explication": "La Terre tourne vers l’est."
+    },
+    {
+      "consigne": "Les saisons sont dues :",
+      "options": [
+        "à l’inclinaison de l’axe de la Terre",
+        "à la distance Terre-Soleil",
+        "à la Lune"
+      ],
+      "reponse": "à l’inclinaison de l’axe de la Terre",
+      "explication": "L’axe reste incliné tout au long de l’orbite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 86,
+      "extrait": "Interpréter l’alternance du jour et de la nuit",
+      "appui": "Jour et nuit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
