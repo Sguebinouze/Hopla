@@ -1,0 +1,131 @@
+{
+  "competence": "FR-C3-6E-ECR-02",
+  "duree": 8,
+  "essentiel": "Réviser son texte, c’est le relire pour l’améliorer et le corriger.\nJe vérifie le sens, puis la ponctuation, les accords, la conjugaison et les homophones.\nJe remplace les répétitions par des reprises ou des synonymes.",
+  "parties": [
+    {
+      "titre": "Relire en plusieurs passages",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Grille de relecture",
+          "colonnes": [
+            "Passage",
+            "Je vérifie"
+          ],
+          "lignes": [
+            [
+              "sens",
+              "mon texte répond à la consigne et se comprend"
+            ],
+            [
+              "phrases",
+              "majuscules, points, virgules"
+            ],
+            [
+              "accords",
+              "groupes nominaux, sujet et verbe"
+            ],
+            [
+              "verbes",
+              "temps cohérents, terminaisons"
+            ],
+            [
+              "mots",
+              "homophones, répétitions"
+            ]
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Corrige : « les enfant mange dans la cantine il on faim »",
+          "etapes": [
+            "Majuscule et point : Les… cantine. Ils…",
+            "Accords : enfants, mangent.",
+            "Homophone : ils ont faim (avaient)."
+          ],
+          "conclusion": "Les enfants mangent à la cantine. Ils ont faim."
+        }
+      ]
+    },
+    {
+      "titre": "Améliorer le style",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour améliorer une phrase",
+          "etapes": [
+            "Repère les mots répétés.",
+            "Remplace par un pronom, un synonyme ou une reprise nominale.",
+            "Choisis un verbe précis plutôt que faire, dire, mettre."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relit une seule fois, rapidement.",
+          "correction": "On relit plusieurs fois, en cherchant un seul type d’erreur à chaque passage."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel verbe est plus précis que « dire » dans « Il dit à voix basse » ?",
+          "options": [
+            "chuchoter",
+            "parler",
+            "faire"
+          ],
+          "reponse": "chuchoter",
+          "explication": "Chuchoter contient l’idée de voix basse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Les oiseaux chantent dans les arbres.",
+        "Les oiseau chante dans les arbre.",
+        "Les oiseaux chante dans les arbres."
+      ],
+      "reponse": "Les oiseaux chantent dans les arbres.",
+      "explication": "Pluriel du groupe nominal et du verbe."
+    },
+    {
+      "consigne": "Que vérifie-t-on en premier ?",
+      "options": [
+        "que le texte a du sens et répond à la consigne",
+        "les accents",
+        "la longueur"
+      ],
+      "reponse": "que le texte a du sens et répond à la consigne",
+      "explication": "Le sens d’abord."
+    },
+    {
+      "consigne": "Par quoi remplacer le second « le chevalier » dans « Le chevalier entra. Le chevalier salua le roi. » ?",
+      "options": [
+        "Il",
+        "Elle",
+        "Le roi"
+      ],
+      "reponse": "Il",
+      "explication": "Un pronom évite la répétition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Prendre en compte les normes de l’écrit pour réviser un texte",
+      "appui": "Réviser un texte"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Améliorer tout ou partie de son texte à partir de son autoévaluation et/ou de pistes données par l’enseignant et ses pairs",
+      "appui": "Améliorer son texte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

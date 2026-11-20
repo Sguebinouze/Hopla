@@ -1,0 +1,149 @@
+{
+  "competence": "FR-C3-6E-LITT-03",
+  "duree": 9,
+  "essentiel": "Au théâtre, le texte est fait de répliques et de didascalies. La pièce se découpe en actes et en scènes.\nDans une comédie, la ruse fait avancer l’action et fait rire.\nDans Les Fourberies de Scapin, de Molière, le valet Scapin trompe Géronte pour lui soutirer de l’argent.",
+  "parties": [
+    {
+      "titre": "Le vocabulaire du théâtre",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Réplique",
+              "definition": "Ce que dit un personnage de théâtre en une seule fois."
+            },
+            {
+              "mot": "Didascalie",
+              "definition": "Indication de l’auteur sur le décor, les gestes ou le ton, souvent en italique."
+            },
+            {
+              "mot": "Aparté",
+              "definition": "Réplique qu’un personnage dit pour lui-même ou pour le public, sans que les autres l’entendent."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Autres mots du théâtre",
+          "colonnes": [
+            "Mot",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "acte",
+              "grande partie de la pièce"
+            ],
+            [
+              "scène",
+              "partie d’un acte, qui change à chaque entrée ou sortie d’un personnage"
+            ],
+            [
+              "monologue",
+              "longue réplique d’un personnage seul en scène"
+            ],
+            [
+              "dialogue",
+              "échange de répliques entre personnages"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une indication sur le ton ou les gestes, écrite par l’auteur, est :",
+          "options": [
+            "une didascalie",
+            "une réplique",
+            "un aparté"
+          ],
+          "reponse": "une didascalie",
+          "explication": "Elle n’est pas prononcée par les acteurs."
+        }
+      ]
+    },
+    {
+      "titre": "La ruse en action",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les Fourberies de Scapin, comédie de Molière (1671).",
+          "exemples": [
+            "Scapin, valet rusé, aide son jeune maitre Léandre.",
+            "Il fait croire à Géronte que son fils est retenu sur une galère turque.",
+            "Géronte, avare, répète : « Que diable allait-il faire dans cette galère ? »",
+            "Il finit par payer la rançon inventée."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le comique naît du décalage : le spectateur connait la ruse, la victime ne la voit pas. On parle de comique de situation et de comique de répétition."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour analyser une ruse au théâtre",
+          "etapes": [
+            "Qui trompe, et qui est trompé ?",
+            "Quel est le but de la ruse ?",
+            "Quels moyens : mensonge, déguisement, cachette ?",
+            "Qu’est-ce qui fait rire le spectateur ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Scapin est le fils de Géronte.",
+          "correction": "Scapin est le valet de Léandre. Léandre est le fils de Géronte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Qui a écrit Les Fourberies de Scapin ?",
+      "options": [
+        "Molière",
+        "Jules Verne",
+        "Charles Perrault"
+      ],
+      "reponse": "Molière",
+      "explication": "Comédie de Molière, 1671."
+    },
+    {
+      "consigne": "Un personnage parle seul en scène longuement : c’est :",
+      "options": [
+        "un monologue",
+        "un dialogue",
+        "une didascalie"
+      ],
+      "reponse": "un monologue",
+      "explication": "Mono : un seul."
+    },
+    {
+      "consigne": "Pourquoi Scapin invente-t-il l’histoire de la galère ?",
+      "options": [
+        "pour obtenir de l’argent de Géronte",
+        "pour partir en voyage",
+        "pour sauver Géronte"
+      ],
+      "reponse": "pour obtenir de l’argent de Géronte",
+      "explication": "La rançon sert à aider Léandre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 1,
+      "extrait": "Se masquer, jouer, déjouer : ruses en action (théâtre)",
+      "appui": "Entrée du programme"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 7,
+      "extrait": "et comique que constitue la ruse, à s’interroger sur les modalités et les enjeux de sa mise en scène, et sur les valeurs qui sous-",
+      "appui": "Ressort comique de la ruse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

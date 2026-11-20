@@ -1,0 +1,105 @@
+{
+  "competence": "FR-C3-6E-ECR-01",
+  "duree": 8,
+  "essentiel": "Résumer, c’est réduire un texte en gardant l’essentiel, dans l’ordre.\nOn supprime les détails, les descriptions et les dialogues.\nOn reformule avec ses propres mots, au présent, sans donner son avis.",
+  "parties": [
+    {
+      "titre": "Garder l’essentiel",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Résumé",
+              "definition": "Texte court qui garde l’essentiel d’un texte, dans l’ordre, avec ses propres mots."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Les étapes du résumé",
+          "etapes": [
+            "Lis le texte en entier et repère le sujet.",
+            "Découpe-le en étapes et donne un titre à chacune.",
+            "Pour chaque étape, écris une phrase : qui fait quoi ?",
+            "Relie les phrases avec des connecteurs, sans ajouter d’avis."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On recopie des phrases du texte.",
+          "correction": "Un résumé reformule. On garde seulement les noms propres et les mots clés."
+        }
+      ]
+    },
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Résume en trois phrases Le Petit Chaperon rouge, de Perrault.",
+          "etapes": [
+            "Une fillette traverse le bois pour porter une galette à sa mère-grand.",
+            "Elle renseigne le loup, qui arrive avant elle et dévore la grand-mère.",
+            "Le loup, couché dans le lit, dévore aussi la fillette."
+          ],
+          "conclusion": "Trois phrases, dans l’ordre, sans dialogues ni détails."
+        },
+        {
+          "type": "question",
+          "consigne": "Que supprime-t-on dans un résumé ?",
+          "options": [
+            "les dialogues et les détails",
+            "les personnages principaux",
+            "l’ordre des évènements"
+          ],
+          "reponse": "les dialogues et les détails",
+          "explication": "On garde l’essentiel, dans l’ordre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À quel temps rédige-t-on souvent un résumé ?",
+      "options": [
+        "au présent",
+        "au futur",
+        "au conditionnel"
+      ],
+      "reponse": "au présent",
+      "explication": "Le présent rend le résumé clair."
+    },
+    {
+      "consigne": "Un résumé contient-il l’avis de celui qui l’écrit ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement à la fin"
+      ],
+      "reponse": "non",
+      "explication": "Le résumé reste fidèle au texte."
+    },
+    {
+      "consigne": "Quelle phrase résume le mieux « Le lièvre et la tortue » ?",
+      "options": [
+        "Une tortue lente gagne une course contre un lièvre trop sûr de lui.",
+        "Le lièvre a de grandes oreilles.",
+        "J’adore cette fable."
+      ],
+      "reponse": "Une tortue lente gagne une course contre un lièvre trop sûr de lui.",
+      "explication": "Elle dit l’essentiel de l’histoire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Écrire pour résumer et/ou synthétiser",
+      "appui": "Résumer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

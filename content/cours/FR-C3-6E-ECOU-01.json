@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-6E-ECOU-01",
+  "duree": 7,
+  "essentiel": "Reformuler, c’est redire avec ses propres mots ce qu’on a entendu, sans changer le sens.\nOn reformule ce qui est dit (explicite) et ce qui est sous-entendu (implicite).\n« Il reste trois places » peut se reformuler : la salle est presque pleine.",
+  "parties": [
+    {
+      "titre": "Écouter activement",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pendant l’écoute",
+          "etapes": [
+            "Écoute en sachant pourquoi : quelle information chercher ?",
+            "Note quelques mots clés, pas des phrases.",
+            "Repère les connecteurs : d’abord, mais, donc."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant l’écoute, je note :",
+          "options": [
+            "des mots clés",
+            "tout, mot à mot",
+            "rien"
+          ],
+          "reponse": "des mots clés",
+          "explication": "Les mots clés aident à reformuler ensuite."
+        }
+      ]
+    },
+    {
+      "titre": "Reformuler",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dit et sous-entendu",
+          "colonnes": [
+            "On entend",
+            "Reformulation"
+          ],
+          "lignes": [
+            [
+              "« Il reste trois places. »",
+              "La salle est presque pleine."
+            ],
+            [
+              "« Prenez vos parapluies cet après-midi. »",
+              "Il va pleuvoir."
+            ],
+            [
+              "« Le train aura vingt minutes de retard. »",
+              "Nous arriverons plus tard que prévu."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répète la phrase entendue mot pour mot.",
+          "correction": "Reformuler, c’est changer les mots en gardant le sens."
+        },
+        {
+          "type": "explique",
+          "texte": "Pour vérifier sa compréhension, on peut commencer par : « Si j’ai bien compris… »"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La cantine sera fermée jeudi. » Reformulation correcte ?",
+      "options": [
+        "Jeudi, on ne pourra pas déjeuner à la cantine.",
+        "La cantine ferme tous les jours.",
+        "Jeudi, la cantine sert des frites."
+      ],
+      "reponse": "Jeudi, on ne pourra pas déjeuner à la cantine.",
+      "explication": "Même sens, autres mots."
+    },
+    {
+      "consigne": "« N’oubliez pas vos gants demain. » Ce qui est sous-entendu :",
+      "options": [
+        "il fera froid",
+        "il fera chaud",
+        "il y aura un match"
+      ],
+      "reponse": "il fera froid",
+      "explication": "On prend des gants quand il fait froid."
+    },
+    {
+      "consigne": "Reformuler, c’est :",
+      "options": [
+        "redire avec ses mots sans changer le sens",
+        "répéter mot pour mot",
+        "donner son avis"
+      ],
+      "reponse": "redire avec ses mots sans changer le sens",
+      "explication": "Le sens est gardé."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 12,
+      "extrait": "Montrer sa compréhension notamment en reformulant avec ses mots des informations explicites et implicites d’un texte",
+      "appui": "Reformuler"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

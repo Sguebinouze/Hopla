@@ -1,0 +1,120 @@
+{
+  "competence": "FR-C3-6E-LECT-01",
+  "duree": 8,
+  "essentiel": "Pour rattacher un texte à un genre, on observe les personnages, le cadre, la structure et le style.\nLe conte merveilleux a de la magie, la fable une morale, le mythe des dieux.\nLe théâtre est fait de répliques, la poésie de vers et d’images.",
+  "parties": [
+    {
+      "titre": "Les indices du genre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre un genre",
+          "colonnes": [
+            "Genre",
+            "Indices"
+          ],
+          "lignes": [
+            [
+              "conte merveilleux",
+              "Il était une fois, lieu et temps flous, magie, fin heureuse"
+            ],
+            [
+              "fable",
+              "récit court, souvent des animaux, une morale"
+            ],
+            [
+              "mythe",
+              "dieux et héros, explication du monde"
+            ],
+            [
+              "récit d’aventure",
+              "voyage, épreuves, héros courageux"
+            ],
+            [
+              "théâtre",
+              "noms des personnages, répliques, didascalies"
+            ],
+            [
+              "poésie",
+              "vers, strophes, rimes, images"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un texte en vers, avec des animaux, qui finit par une morale, est :",
+          "options": [
+            "une fable",
+            "un mythe",
+            "un conte merveilleux"
+          ],
+          "reponse": "une fable",
+          "explication": "La morale est la marque de la fable."
+        }
+      ]
+    },
+    {
+      "titre": "Justifier sa réponse",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour rattacher un texte à un genre",
+          "etapes": [
+            "Observe la forme : prose, vers, répliques ?",
+            "Repère les personnages et le cadre.",
+            "Cherche la structure : morale, schéma narratif, scènes.",
+            "Cite deux indices précis du texte pour justifier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On se fie à un seul indice : il y a un animal, donc c’est une fable.",
+          "correction": "Un conte ou un récit d’aventure peut avoir des animaux. Cherche plusieurs indices."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il était une fois une fée… » annonce :",
+      "options": [
+        "un conte merveilleux",
+        "un documentaire",
+        "une pièce de théâtre"
+      ],
+      "reponse": "un conte merveilleux",
+      "explication": "Formule d’ouverture et magie."
+    },
+    {
+      "consigne": "Un texte présenté avec le nom des personnages devant chaque réplique est :",
+      "options": [
+        "du théâtre",
+        "un poème",
+        "un mythe"
+      ],
+      "reponse": "du théâtre",
+      "explication": "Les répliques sont la marque du théâtre."
+    },
+    {
+      "consigne": "Un récit qui explique pourquoi les saisons existent, avec des dieux, est :",
+      "options": [
+        "un mythe",
+        "une fable",
+        "un récit d’aventure"
+      ],
+      "reponse": "un mythe",
+      "explication": "Dieux et explication du monde."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Dégager les principales caractéristiques d’un texte et le rattacher à un genre",
+      "appui": "Rattacher un texte à un genre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,140 @@
+{
+  "competence": "FR-C3-6E-LITT-01",
+  "duree": 9,
+  "essentiel": "Les récits des origines racontent comment le monde, les êtres ou les choses sont apparus.\nOn trouve des textes fondateurs comme la Genèse, des mythes grecs et des contes étiologiques.\nCes récits ne cherchent pas à prouver : ils donnent du sens et transmettent des valeurs.",
+  "parties": [
+    {
+      "titre": "Des récits pour expliquer le monde",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mythe",
+              "definition": "Récit très ancien qui met en scène des dieux ou des héros et explique l’origine du monde ou des choses."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Trois sortes de récits des origines",
+          "colonnes": [
+            "Récit",
+            "Exemple",
+            "Ce qu’il explique"
+          ],
+          "lignes": [
+            [
+              "texte fondateur",
+              "la Genèse, premier livre de la Bible",
+              "la création du monde en six jours, puis le repos"
+            ],
+            [
+              "mythe grec",
+              "Prométhée vole le feu aux dieux",
+              "comment les humains ont reçu le feu"
+            ],
+            [
+              "conte étiologique",
+              "Kipling, « Comment le léopard eut ses taches »",
+              "l’origine d’un trait d’animal"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Étiologique vient du grec aitia, la cause. Un conte étiologique invente une cause à ce que l’on observe."
+        },
+        {
+          "type": "question",
+          "consigne": "Un récit qui explique pourquoi le zèbre a des rayures est :",
+          "options": [
+            "un conte étiologique",
+            "un documentaire",
+            "une fable"
+          ],
+          "reponse": "un conte étiologique",
+          "explication": "Il invente une origine à un trait d’animal."
+        }
+      ]
+    },
+    {
+      "titre": "Comparer les récits",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans les Métamorphoses, Ovide raconte des transformations.",
+          "exemples": [
+            "Arachné défie Athéna au tissage et devient araignée.",
+            "Narcisse, amoureux de son reflet, devient une fleur.",
+            "Le récit explique un nom et punit un excès d’orgueil."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux récits des origines",
+          "etapes": [
+            "Repère ce que chaque récit explique.",
+            "Repère les personnages : dieux, héros, animaux.",
+            "Cherche la valeur transmise : obéissance, modestie, ruse…",
+            "Note les ressemblances et les différences."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit un mythe comme un récit historique.",
+          "correction": "Un mythe ne raconte pas des faits vérifiés. Il propose une explication symbolique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans le mythe, que vole Prométhée aux dieux ?",
+      "options": [
+        "le feu",
+        "la foudre",
+        "l’eau"
+      ],
+      "reponse": "le feu",
+      "explication": "Il donne le feu aux humains."
+    },
+    {
+      "consigne": "En quoi Arachné est-elle transformée ?",
+      "options": [
+        "en araignée",
+        "en fleur",
+        "en oiseau"
+      ],
+      "reponse": "en araignée",
+      "explication": "D’où le nom de la classe des arachnides."
+    },
+    {
+      "consigne": "Un conte étiologique raconte :",
+      "options": [
+        "l’origine inventée d’une chose",
+        "une enquête policière",
+        "la vie d’un savant"
+      ],
+      "reponse": "l’origine inventée d’une chose",
+      "explication": "Aitia : la cause."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 1,
+      "extrait": "Créer, recréer le monde : récits des origines (récit, fiction)",
+      "appui": "Entrée du programme"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 7,
+      "extrait": "découvre au moins un texte fondateur (issu notamment des religions monothéistes) et quelques mythes et contes étiologiques",
+      "appui": "Textes fondateurs, mythes, contes étiologiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

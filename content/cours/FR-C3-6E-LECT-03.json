@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C3-6E-LECT-03",
+  "duree": 7,
+  "essentiel": "Avant d’utiliser un document, j’identifie sa nature : article, photographie, carte, extrait de roman…\nJ’identifie aussi sa source : auteur, date, éditeur ou site.\nUn document signé, daté et publié par un organisme reconnu est plus fiable.",
+  "parties": [
+    {
+      "titre": "Nature et source",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions à poser",
+          "colonnes": [
+            "Question",
+            "Où trouver la réponse"
+          ],
+          "lignes": [
+            [
+              "Qu’est-ce que c’est ?",
+              "la forme : texte, image, graphique, carte"
+            ],
+            [
+              "Qui l’a écrit ?",
+              "le nom de l’auteur, sous le titre ou à la fin"
+            ],
+            [
+              "Quand ?",
+              "la date de publication"
+            ],
+            [
+              "Où est-il publié ?",
+              "le journal, le livre, le site"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour savoir qui a écrit un article, je cherche :",
+          "options": [
+            "la signature",
+            "la photo",
+            "le titre"
+          ],
+          "reponse": "la signature",
+          "explication": "L’auteur signe son article."
+        }
+      ]
+    },
+    {
+      "titre": "Juger la fiabilité",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour juger si un document est fiable",
+          "etapes": [
+            "L’auteur est-il connu, compétent sur le sujet ?",
+            "Le document est-il daté et récent si le sujet évolue ?",
+            "La publication est-elle sérieuse : encyclopédie, journal, institution ?",
+            "Les informations sont-elles confirmées par une autre source ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit une information parce qu’elle est partagée des milliers de fois.",
+          "correction": "Le nombre de partages ne prouve rien. On vérifie la source."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Deux documents sur les volcans : un message anonyme sur un réseau social, un article d’encyclopédie signé par un géologue.",
+          "etapes": [
+            "Le premier n’a ni auteur ni date.",
+            "Le second est signé par un spécialiste et publié par un éditeur reconnu."
+          ],
+          "conclusion": "L’article d’encyclopédie est plus fiable."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel document est le plus fiable sur la santé ?",
+      "options": [
+        "une brochure du ministère de la Santé",
+        "un message anonyme",
+        "une publicité"
+      ],
+      "reponse": "une brochure du ministère de la Santé",
+      "explication": "Source officielle, identifiée."
+    },
+    {
+      "consigne": "Que vérifier en premier sur une photo trouvée sur internet ?",
+      "options": [
+        "sa source et sa date",
+        "ses couleurs",
+        "sa taille"
+      ],
+      "reponse": "sa source et sa date",
+      "explication": "Une photo peut être sortie de son contexte."
+    },
+    {
+      "consigne": "Un extrait de roman est un document :",
+      "options": [
+        "de fiction",
+        "scientifique",
+        "statistique"
+      ],
+      "reponse": "de fiction",
+      "explication": "Il raconte une histoire inventée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Identifier la nature et la source des documents",
+      "appui": "Nature et source des documents"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

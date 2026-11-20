@@ -1,0 +1,185 @@
+{
+  "competence": "FR-C3-6E-LITT-02",
+  "duree": 9,
+  "essentiel": "Un poème est souvent écrit en vers, regroupés en strophes. Les rimes font revenir un même son en fin de vers.\nLa comparaison rapproche deux éléments avec un outil (comme, tel). La métaphore les rapproche sans outil.\nLa personnification donne des traits humains à ce qui ne l’est pas.",
+  "parties": [
+    {
+      "titre": "La forme du poème",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Vers",
+              "definition": "Ligne d’un poème."
+            },
+            {
+              "mot": "Strophe",
+              "definition": "Groupe de vers séparé des autres par un blanc."
+            },
+            {
+              "mot": "Rime",
+              "definition": "Retour du même son à la fin de deux vers ou plus."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Disposition des rimes",
+          "colonnes": [
+            "Nom",
+            "Schéma",
+            "Exemple de sons"
+          ],
+          "lignes": [
+            [
+              "rimes plates",
+              "AABB",
+              "jour, amour, nuit, bruit"
+            ],
+            [
+              "rimes croisées",
+              "ABAB",
+              "jour, nuit, amour, bruit"
+            ],
+            [
+              "rimes embrassées",
+              "ABBA",
+              "jour, nuit, bruit, amour"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une strophe de quatre vers s’appelle :",
+          "options": [
+            "un quatrain",
+            "un tercet",
+            "un distique"
+          ],
+          "reponse": "un quatrain",
+          "explication": "Quatre vers : quatrain. Trois : tercet. Deux : distique."
+        }
+      ]
+    },
+    {
+      "titre": "Les images poétiques",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Comparaison",
+              "definition": "Image qui rapproche deux éléments grâce à un outil : comme, tel, pareil à."
+            },
+            {
+              "mot": "Métaphore",
+              "definition": "Image qui rapproche deux éléments sans outil de comparaison."
+            },
+            {
+              "mot": "Personnification",
+              "definition": "Image qui donne des traits humains à un animal, un objet ou une idée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre une image",
+          "colonnes": [
+            "Image",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "comparaison",
+              "La lune, comme un ballon d’argent, flotte sur la ville."
+            ],
+            [
+              "métaphore",
+              "La lune est un ballon d’argent."
+            ],
+            [
+              "personnification",
+              "Le vent chante dans les arbres."
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour identifier une image",
+          "etapes": [
+            "Repère les deux éléments rapprochés.",
+            "Cherche un outil : comme, tel, pareil à, ressembler. S’il y en a un, c’est une comparaison.",
+            "Sans outil, c’est une métaphore.",
+            "Une chose agit comme un humain ? C’est une personnification."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un poème doit toujours rimer.",
+          "correction": "Le vers libre existe. La poésie tient d’abord à ses images et à son rythme."
+        },
+        {
+          "type": "question",
+          "consigne": "« La mer gronde de colère » est :",
+          "options": [
+            "une personnification",
+            "une comparaison",
+            "une rime"
+          ],
+          "reponse": "une personnification",
+          "explication": "La mer reçoit un sentiment humain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ses yeux brillaient comme des étoiles » est :",
+      "options": [
+        "une comparaison",
+        "une métaphore",
+        "une personnification"
+      ],
+      "reponse": "une comparaison",
+      "explication": "L’outil comme est présent."
+    },
+    {
+      "consigne": "« Ce chemin est un serpent de pierre » est :",
+      "options": [
+        "une métaphore",
+        "une comparaison",
+        "une rime"
+      ],
+      "reponse": "une métaphore",
+      "explication": "Rapprochement sans outil."
+    },
+    {
+      "consigne": "Rimes AABB : ce sont des rimes :",
+      "options": [
+        "plates",
+        "croisées",
+        "embrassées"
+      ],
+      "reponse": "plates",
+      "explication": "Deux à deux, à la suite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 1,
+      "extrait": "Chanter et enchanter le monde : mots et merveilles (poésie)",
+      "appui": "Entrée du programme"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 7,
+      "extrait": "etc.), la force de la poésie réside dans ses images et son pouvoir d’évocation.",
+      "appui": "Force des images"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,134 @@
+{
+  "competence": "FR-C3-6E-LECT-02",
+  "duree": 8,
+  "essentiel": "Un texte ne dit pas tout : il faut repérer l’implicite grâce aux indices.\nLes connecteurs marquent les liens logiques : cause (car, parce que), conséquence (donc, si bien que), opposition (mais, pourtant).\nUn personnage peut être repris par d’autres noms : Hercule, le héros, le fils de Zeus.",
+  "parties": [
+    {
+      "titre": "Les reprises nominales",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Hercule s’avança. Le héros leva sa massue. Le fils de Zeus n’avait peur de rien. »",
+          "exemples": [
+            "« Le héros » reprend Hercule.",
+            "« Le fils de Zeus » reprend aussi Hercule.",
+            "Les reprises évitent la répétition et apportent une information."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le Petit Poucet ramassa des cailloux. Le garçon les mit dans sa poche. » « Le garçon » désigne :",
+          "options": [
+            "le Petit Poucet",
+            "un autre enfant",
+            "le père"
+          ],
+          "reponse": "le Petit Poucet",
+          "explication": "C’est une reprise nominale."
+        }
+      ]
+    },
+    {
+      "titre": "Les liens logiques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Connecteurs logiques",
+          "colonnes": [
+            "Lien",
+            "Connecteurs",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "cause",
+              "car, parce que, puisque",
+              "Il fuit, car il a peur."
+            ],
+            [
+              "conséquence",
+              "donc, alors, si bien que",
+              "Il a peur, donc il fuit."
+            ],
+            [
+              "opposition",
+              "mais, pourtant, cependant",
+              "Il a peur, pourtant il avance."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond cause et conséquence.",
+          "correction": "La cause vient avant dans le temps : il a peur (cause), il fuit (conséquence)."
+        }
+      ]
+    },
+    {
+      "titre": "L’implicite",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Quand Lou rentra, ses bottes laissèrent des traces de boue sur le carrelage. »",
+          "etapes": [
+            "Le texte ne dit pas le temps qu’il faisait.",
+            "Indice : de la boue sur les bottes."
+          ],
+          "conclusion": "Il a sans doute plu, ou Lou a marché dans la terre mouillée."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire l’implicite",
+          "etapes": [
+            "Repère les indices : gestes, objets, paroles.",
+            "Formule une déduction.",
+            "Vérifie qu’elle ne contredit rien dans le texte."
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il était épuisé, si bien qu’il s’endormit aussitôt. » Le lien est :",
+      "options": [
+        "de conséquence",
+        "de cause",
+        "d’opposition"
+      ],
+      "reponse": "de conséquence",
+      "explication": "Si bien que introduit la conséquence."
+    },
+    {
+      "consigne": "« Elle était riche, pourtant elle vivait simplement. » Le lien est :",
+      "options": [
+        "d’opposition",
+        "de cause",
+        "de conséquence"
+      ],
+      "reponse": "d’opposition",
+      "explication": "Le connecteur pourtant marque l’opposition."
+    },
+    {
+      "consigne": "« Le roi… Le souverain… Le vieil homme… » Ces mots :",
+      "options": [
+        "désignent le même personnage",
+        "désignent trois personnages",
+        "sont des lieux"
+      ],
+      "reponse": "désignent le même personnage",
+      "explication": "Ce sont des reprises nominales."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Repérer les informations explicites et implicites, les liens logiques, les reprises nominales",
+      "appui": "Implicite, liens logiques, reprises"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

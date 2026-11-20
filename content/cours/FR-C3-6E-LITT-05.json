@@ -1,0 +1,132 @@
+{
+  "competence": "FR-C3-6E-LITT-05",
+  "duree": 9,
+  "essentiel": "Le monstre inspire la peur par son corps, sa force ou sa cruauté.\nIl peut aussi inspirer la pitié : sa différence cache parfois une part d’humanité.\nLe récit de monstre transmet souvent une leçon sur la peur, l’apparence ou le courage.",
+  "parties": [
+    {
+      "titre": "Des monstres célèbres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Monstres et héros",
+          "colonnes": [
+            "Monstre",
+            "Récit",
+            "Héros"
+          ],
+          "lignes": [
+            [
+              "le Cyclope Polyphème",
+              "l’Odyssée d’Homère",
+              "Ulysse, qui l’aveugle par la ruse"
+            ],
+            [
+              "le Minotaure",
+              "mythe grec",
+              "Thésée, aidé du fil d’Ariane"
+            ],
+            [
+              "Méduse",
+              "mythe grec",
+              "Persée, qui évite son regard grâce à un bouclier"
+            ],
+            [
+              "le loup",
+              "Le Petit Chaperon rouge, de Perrault",
+              "aucun : la fillette est dévorée"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel héros affronte le Minotaure ?",
+          "options": [
+            "Thésée",
+            "Ulysse",
+            "Persée"
+          ],
+          "reponse": "Thésée",
+          "explication": "Il sort du labyrinthe grâce au fil d’Ariane."
+        }
+      ]
+    },
+    {
+      "titre": "Derrière le monstre, un être humain",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "La Belle et la Bête, conte de Madame Leprince de Beaumont (1757).",
+          "exemples": [
+            "La Bête effraie par son apparence.",
+            "Elle se montre bonne et généreuse envers la Belle.",
+            "L’amour de la Belle la délivre : elle redevient un prince."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour dégager la leçon d’un récit de monstre",
+          "etapes": [
+            "Décris le monstre : corps, comportement.",
+            "Repère ce qu’éprouvent les autres personnages : peur, dégout, pitié.",
+            "Observe ce qui change à la fin.",
+            "Formule la leçon en une phrase."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les monstres sont méchants.",
+          "correction": "La Bête est bonne. Le récit apprend à ne pas juger sur l’apparence."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle est la leçon de La Belle et la Bête ?",
+      "options": [
+        "ne pas juger sur l’apparence",
+        "se méfier des inconnus",
+        "obéir à ses parents"
+      ],
+      "reponse": "ne pas juger sur l’apparence",
+      "explication": "La bonté compte plus que l’apparence."
+    },
+    {
+      "consigne": "Comment Persée échappe-t-il au regard de Méduse ?",
+      "options": [
+        "grâce à un bouclier",
+        "en fermant les yeux pour toujours",
+        "grâce au fil d’Ariane"
+      ],
+      "reponse": "grâce à un bouclier",
+      "explication": "Il regarde son reflet dans le bouclier."
+    },
+    {
+      "consigne": "Qui aveugle le Cyclope Polyphème ?",
+      "options": [
+        "Ulysse",
+        "Thésée",
+        "Hercule"
+      ],
+      "reponse": "Ulysse",
+      "explication": "Épisode de l’Odyssée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 1,
+      "extrait": "Rencontrer des monstres : expérience de l’autre, expérience de soi (récit, fiction)",
+      "appui": "Entrée du programme"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 7,
+      "extrait": "lectures cursives, l’élève est invité à découvrir la part d’humanité d’un personnage monstrueux inspirant la peur ou la",
+      "appui": "Part d’humanité du monstre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

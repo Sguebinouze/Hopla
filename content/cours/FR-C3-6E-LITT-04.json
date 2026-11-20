@@ -1,0 +1,120 @@
+{
+  "competence": "FR-C3-6E-LITT-04",
+  "duree": 9,
+  "essentiel": "Un récit d’aventure lance un héros loin de chez lui, face à des épreuves.\nLe schéma narratif : situation initiale, élément déclencheur, péripéties, résolution, situation finale.\nLe Tour du monde en quatre-vingts jours, de Jules Verne, en est un exemple célèbre.",
+  "parties": [
+    {
+      "titre": "Le schéma narratif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le Tour du monde en quatre-vingts jours (Jules Verne, 1872)",
+          "colonnes": [
+            "Étape",
+            "Dans le roman"
+          ],
+          "lignes": [
+            [
+              "situation initiale",
+              "Phileas Fogg, gentleman anglais, mène une vie réglée à Londres."
+            ],
+            [
+              "élément déclencheur",
+              "Il parie qu’il fera le tour du monde en quatre-vingts jours."
+            ],
+            [
+              "péripéties",
+              "Avec son domestique Passepartout, il traverse mers et continents, poursuivi par l’inspecteur Fix."
+            ],
+            [
+              "résolution",
+              "Il croit avoir perdu, mais il a gagné un jour en voyageant vers l’est."
+            ],
+            [
+              "situation finale",
+              "Il gagne son pari et épouse Aouda."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est l’élément déclencheur ?",
+          "options": [
+            "le pari de Phileas Fogg",
+            "la vie réglée à Londres",
+            "le mariage avec Aouda"
+          ],
+          "reponse": "le pari de Phileas Fogg",
+          "explication": "C’est lui qui lance l’aventure."
+        }
+      ]
+    },
+    {
+      "titre": "Le héros et ses épreuves",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le héros d’aventure quitte un monde connu. Ses épreuves le révèlent : courage, ruse, fidélité. Ulysse dans l’Odyssée et Robinson Crusoé sont d’autres héros célèbres."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour analyser un récit d’aventure",
+          "etapes": [
+            "Repère le départ et sa cause.",
+            "Liste les épreuves dans l’ordre.",
+            "Note ce que le héros apprend ou montre.",
+            "Compare la situation finale à la situation initiale."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond péripéties et élément déclencheur.",
+          "correction": "L’élément déclencheur arrive une fois, au début. Les péripéties sont les épreuves qui suivent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Qui est le domestique de Phileas Fogg ?",
+      "options": [
+        "Passepartout",
+        "Fix",
+        "Vendredi"
+      ],
+      "reponse": "Passepartout",
+      "explication": "Vendredi est le compagnon de Robinson Crusoé."
+    },
+    {
+      "consigne": "Quelle étape termine le schéma narratif ?",
+      "options": [
+        "la situation finale",
+        "les péripéties",
+        "l’élément déclencheur"
+      ],
+      "reponse": "la situation finale",
+      "explication": "Elle montre ce qui a changé."
+    },
+    {
+      "consigne": "Pourquoi Fogg gagne-t-il un jour ?",
+      "options": [
+        "il voyage vers l’est",
+        "il prend un raccourci",
+        "il triche"
+      ],
+      "reponse": "il voyage vers l’est",
+      "explication": "Il voyage vers l’est et traverse les fuseaux horaires : il gagne un jour."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 1,
+      "extrait": "Partir à l’aventure ! (récit, fiction)",
+      "appui": "Entrée du programme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
