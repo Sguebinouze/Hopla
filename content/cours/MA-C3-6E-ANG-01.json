@@ -1,0 +1,196 @@
+{
+  "competence": "MA-C3-6E-ANG-01",
+  "duree": 9,
+  "essentiel": "Un angle aigu mesure moins de 90°, un angle obtus entre 90° et 180°.\nUn angle droit mesure 90°, un angle plat 180°, un angle plein 360°.\nDeux angles supplémentaires ont une somme de 180°. Deux angles opposés par le sommet sont égaux.",
+  "parties": [
+    {
+      "titre": "Nommer un angle selon sa mesure",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les angles",
+          "colonnes": [
+            "Angle",
+            "Mesure"
+          ],
+          "lignes": [
+            [
+              "nul",
+              "0°"
+            ],
+            [
+              "aigu",
+              "entre 0° et 90°"
+            ],
+            [
+              "droit",
+              "90°"
+            ],
+            [
+              "obtus",
+              "entre 90° et 180°"
+            ],
+            [
+              "plat",
+              "180°"
+            ],
+            [
+              "plein",
+              "360°"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour mesurer un angle au rapporteur",
+          "etapes": [
+            "Place le centre du rapporteur sur le sommet.",
+            "Aligne le zéro sur un côté de l’angle.",
+            "Lis la mesure sur la graduation qui part de ce zéro."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit 130° pour un angle visiblement aigu.",
+          "correction": "Le rapporteur a deux graduations. Vérifie : un angle aigu mesure moins de 90°."
+        },
+        {
+          "type": "question",
+          "consigne": "Un angle de 135° est :",
+          "options": [
+            "obtus",
+            "aigu",
+            "plat"
+          ],
+          "reponse": "obtus",
+          "explication": "135° est entre 90° et 180°."
+        }
+      ]
+    },
+    {
+      "titre": "Angles qui vont par deux",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Angles adjacents",
+              "definition": "Deux angles qui ont le même sommet et un côté commun, situés de part et d’autre de ce côté."
+            },
+            {
+              "mot": "Angles supplémentaires",
+              "definition": "Deux angles dont la somme des mesures est égale à 180°."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 10,
+            "hauteur": 6,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  0.5,
+                  5
+                ],
+                "a": [
+                  9.5,
+                  5
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  5,
+                  5
+                ],
+                "a": [
+                  7.5,
+                  0.8
+                ],
+                "accent": true
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  5
+                ],
+                "nom": "O"
+              }
+            ]
+          },
+          "legende": "Les deux angles de sommet O sont adjacents. Ensemble, ils forment un angle plat : ils sont supplémentaires."
+        },
+        {
+          "type": "explique",
+          "texte": "Deux droites sécantes forment deux paires d’**angles opposés par le sommet**. Les angles d’une même paire ont la même mesure."
+        },
+        {
+          "type": "question",
+          "consigne": "Un angle mesure 65°. Son supplémentaire mesure :",
+          "options": [
+            "115°",
+            "25°",
+            "295°"
+          ],
+          "reponse": "115°",
+          "explication": "180 − 65 = 115."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un angle de 90° est :",
+      "options": [
+        "droit",
+        "aigu",
+        "obtus"
+      ],
+      "reponse": "droit",
+      "explication": "L’angle droit mesure exactement 90°."
+    },
+    {
+      "consigne": "Deux angles opposés par le sommet mesurent 40° et … ?",
+      "options": [
+        "40°",
+        "140°",
+        "50°"
+      ],
+      "reponse": "40°",
+      "explication": "Ils sont égaux."
+    },
+    {
+      "consigne": "Deux angles adjacents forment un angle plat. L’un mesure 72°. L’autre ?",
+      "options": [
+        "108°",
+        "18°",
+        "72°"
+      ],
+      "reponse": "108°",
+      "explication": "180 − 72 = 108."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître et utiliser les angles ainsi que le lexique et les notations qui s’y rapportent : angle droit, angle plat, angle plein, angle",
+      "appui": "Lexique des angles"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Mesurer un angle",
+      "appui": "Mesurer un angle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

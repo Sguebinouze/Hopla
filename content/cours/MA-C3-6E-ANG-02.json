@@ -1,0 +1,163 @@
+{
+  "competence": "MA-C3-6E-ANG-02",
+  "duree": 7,
+  "essentiel": "La bissectrice d’un angle est la demi-droite qui le partage en deux angles de même mesure.\nElle part du sommet de l’angle.\nLa bissectrice d’un angle de 70° forme deux angles de 35°.",
+  "parties": [
+    {
+      "titre": "Définition",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Bissectrice",
+              "definition": "Demi-droite qui partage un angle en deux angles de même mesure."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 10,
+            "hauteur": 7,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  6
+                ],
+                "a": [
+                  9.5,
+                  6
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  6
+                ],
+                "a": [
+                  7.5,
+                  0.6
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  6
+                ],
+                "a": [
+                  9,
+                  3.11
+                ],
+                "accent": true
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  6
+                ],
+                "nom": "O"
+              }
+            ]
+          },
+          "legende": "En couleur, la bissectrice : elle partage l’angle en deux angles égaux."
+        },
+        {
+          "type": "question",
+          "consigne": "La bissectrice d’un angle de 120° forme deux angles de :",
+          "options": [
+            "60°",
+            "120°",
+            "240°"
+          ],
+          "reponse": "60°",
+          "explication": "120 ÷ 2 = 60."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer et construire",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour construire une bissectrice au rapporteur",
+          "etapes": [
+            "Mesure l’angle : 84°.",
+            "Calcule la moitié : 42°.",
+            "Trace la demi-droite à 42° d’un côté, depuis le sommet."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "[Ox) est la bissectrice de l’angle AOB. L’angle AOx mesure 28°. Combien mesure l’angle AOB ?",
+          "etapes": [
+            "La bissectrice partage l’angle en deux angles égaux.",
+            "AOB = 2 × 28°."
+          ],
+          "conclusion": "L’angle AOB mesure 56°."
+        },
+        {
+          "type": "piege",
+          "erreur": "On trace une demi-droite qui ne part pas du sommet.",
+          "correction": "La bissectrice part toujours du sommet de l’angle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Bissectrice d’un angle de 90°. Chaque angle mesure :",
+      "options": [
+        "45°",
+        "90°",
+        "30°"
+      ],
+      "reponse": "45°",
+      "explication": "90 ÷ 2 = 45."
+    },
+    {
+      "consigne": "La bissectrice forme deux angles de 37°. L’angle mesure :",
+      "options": [
+        "74°",
+        "37°",
+        "18,5°"
+      ],
+      "reponse": "74°",
+      "explication": "2 × 37 = 74."
+    },
+    {
+      "consigne": "D’où part la bissectrice ?",
+      "options": [
+        "du sommet de l’angle",
+        "du milieu d’un côté",
+        "de n’importe quel point"
+      ],
+      "reponse": "du sommet de l’angle",
+      "explication": "C’est une demi-droite issue du sommet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître la définition de la bissectrice d’un angle saillant",
+      "appui": "Bissectrice"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Utiliser la définition de la bissectrice d’un angle pour effectuer des constructions et résoudre des problèmes",
+      "appui": "Utiliser la bissectrice"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

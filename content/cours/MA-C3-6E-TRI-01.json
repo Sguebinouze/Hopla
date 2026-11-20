@@ -1,0 +1,171 @@
+{
+  "competence": "MA-C3-6E-TRI-01",
+  "duree": 9,
+  "essentiel": "Dans un triangle, la somme des mesures des trois angles est égale à 180°.\nTriangle équilatéral : trois angles de 60°. Triangle isocèle : deux angles égaux.\nTriangle rectangle : un angle droit, les deux autres font 90° ensemble.",
+  "parties": [
+    {
+      "titre": "La somme des angles",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Découpe les trois coins d’un triangle en papier et place-les côte à côte.",
+          "exemples": [
+            "Les trois angles forment un angle plat.",
+            "Un angle plat mesure 180°."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour calculer le troisième angle",
+          "etapes": [
+            "Ajoute les deux angles connus : 50° + 60° = 110°.",
+            "Retire de 180° : 180° − 110° = 70°."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Deux angles d’un triangle mesurent 30° et 100°. Le troisième ?",
+          "options": [
+            "50°",
+            "70°",
+            "130°"
+          ],
+          "reponse": "50°",
+          "explication": "180 − 130 = 50."
+        }
+      ]
+    },
+    {
+      "titre": "Les triangles particuliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Angles des triangles particuliers",
+          "colonnes": [
+            "Triangle",
+            "Côtés",
+            "Angles"
+          ],
+          "lignes": [
+            [
+              "équilatéral",
+              "3 côtés égaux",
+              "3 angles de 60°"
+            ],
+            [
+              "isocèle",
+              "2 côtés égaux",
+              "2 angles égaux, à la base"
+            ],
+            [
+              "rectangle",
+              "",
+              "1 angle droit, les 2 autres font 90° ensemble"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 10,
+            "hauteur": 6,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5.5
+                  ],
+                  [
+                    9,
+                    5.5
+                  ],
+                  [
+                    5,
+                    0.7
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un triangle isocèle : ses deux angles à la base sont égaux."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un triangle isocèle a un angle principal de 40°. Combien mesurent les deux autres ?",
+          "etapes": [
+            "180° − 40° = 140°.",
+            "Les deux angles de la base sont égaux : 140° ÷ 2."
+          ],
+          "conclusion": "Chacun mesure 70°."
+        }
+      ]
+    },
+    {
+      "titre": "Un triangle n’existe pas toujours",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec des côtés de 2 cm, 3 cm et 7 cm, aucun triangle n’est possible. En effet, 2 + 3 est plus petit que 7."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un triangle peut avoir deux angles obtus.",
+          "correction": "Deux angles obtus dépassent déjà 180°. C’est impossible."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un triangle rectangle a un angle de 35°. Le troisième angle ?",
+      "options": [
+        "55°",
+        "145°",
+        "65°"
+      ],
+      "reponse": "55°",
+      "explication": "90 − 35 = 55."
+    },
+    {
+      "consigne": "Les angles d’un triangle équilatéral mesurent :",
+      "options": [
+        "60°",
+        "90°",
+        "45°"
+      ],
+      "reponse": "60°",
+      "explication": "180 ÷ 3 = 60."
+    },
+    {
+      "consigne": "Peut-on construire un triangle de côtés 4 cm, 5 cm, 12 cm ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement s’il est rectangle"
+      ],
+      "reponse": "non",
+      "explication": "4 + 5 = 9, plus petit que 12."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître la valeur de la somme des mesures des angles d’un triangle",
+      "appui": "Somme des angles"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître et utiliser les propriétés angulaires des triangles particuliers : triangle rectangle, triangle isocèle, triangle équilatéral",
+      "appui": "Triangles particuliers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

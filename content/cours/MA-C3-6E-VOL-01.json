@@ -1,0 +1,131 @@
+{
+  "competence": "MA-C3-6E-VOL-01",
+  "duree": 7,
+  "essentiel": "Le volume mesure la place occupée par un solide.\n1 cm³ est le volume d’un cube de 1 cm d’arête.\nPour un pavé rempli de cubes de 1 cm³, on compte : couches × rangées × cubes par rangée.",
+  "parties": [
+    {
+      "titre": "Le centimètre cube",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Volume",
+              "definition": "Mesure de la place occupée par un solide."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cube"
+          },
+          "legende": "Un cube de 1 cm d’arête a un volume de 1 cm³."
+        },
+        {
+          "type": "explique",
+          "texte": "Un morceau de sucre a un volume d’environ 1 cm³. Un dé à jouer aussi."
+        }
+      ]
+    },
+    {
+      "titre": "Dénombrer des cubes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un pavé est fait de cubes de 1 cm³.",
+          "exemples": [
+            "Chaque rangée a 4 cubes.",
+            "Chaque couche a 3 rangées : 12 cubes.",
+            "Il y a 2 couches : 24 cubes.",
+            "Volume : 24 cm³."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pave"
+          },
+          "legende": "Un pavé de 4 cm sur 3 cm sur 2 cm contient 24 cubes de 1 cm³."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver le volume d’un assemblage",
+          "etapes": [
+            "Compte les cubes d’une rangée.",
+            "Compte les rangées d’une couche.",
+            "Compte les couches.",
+            "Multiplie les trois nombres."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ne compte que les cubes visibles.",
+          "correction": "Les cubes cachés à l’intérieur comptent aussi. On calcule couche par couche."
+        },
+        {
+          "type": "question",
+          "consigne": "Un pavé de 5 cubes sur 2 cubes sur 3 cubes. Volume ?",
+          "options": [
+            "30 cm³",
+            "10 cm³",
+            "15 cm³"
+          ],
+          "reponse": "30 cm³",
+          "explication": "5 × 2 × 3 = 30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un cube de 3 cubes d’arête. Combien de cubes de 1 cm³ ?",
+      "options": [
+        "27",
+        "9",
+        "12"
+      ],
+      "reponse": "27",
+      "explication": "3 × 3 × 3 = 27."
+    },
+    {
+      "consigne": "Quel solide a le plus grand volume ?",
+      "options": [
+        "20 cubes de 1 cm³",
+        "18 cubes de 1 cm³",
+        "2 cubes de 1 cm³"
+      ],
+      "reponse": "20 cubes de 1 cm³",
+      "explication": "On compare le nombre de cubes."
+    },
+    {
+      "consigne": "Une couche de 6 cubes, 4 couches. Volume ?",
+      "options": [
+        "24 cm³",
+        "10 cm³",
+        "64 cm³"
+      ],
+      "reponse": "24 cm³",
+      "explication": "6 × 4 = 24."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Connaître l’unité centimètre cube",
+      "appui": "Centimètre cube"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Déterminer un volume",
+      "appui": "Déterminer un volume"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,195 @@
+{
+  "competence": "MA-C3-6E-GEO-02",
+  "duree": 8,
+  "essentiel": "Le cercle de centre O et de rayon r est l’ensemble des points à la distance r de O.\nLe disque est l’ensemble des points à une distance de O inférieure ou égale à r.\nLe diamètre mesure deux rayons : d = 2 × r.",
+  "parties": [
+    {
+      "titre": "Le vocabulaire",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cercle",
+              "definition": "Ensemble des points situés à une même distance d’un point appelé centre."
+            },
+            {
+              "mot": "Disque",
+              "definition": "Ensemble des points dont la distance au centre est inférieure ou égale au rayon."
+            },
+            {
+              "mot": "Rayon",
+              "definition": "Distance entre le centre et un point du cercle. C’est aussi le segment qui les joint."
+            },
+            {
+              "mot": "Diamètre",
+              "definition": "Corde qui passe par le centre. Sa longueur vaut deux rayons."
+            },
+            {
+              "mot": "Corde",
+              "definition": "Segment qui joint deux points d’un cercle."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 9,
+            "hauteur": 8,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "cercle",
+                "centre": [
+                  4.5,
+                  4
+                ],
+                "rayon": 3
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4.5,
+                  4
+                ],
+                "nom": "O"
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1.5,
+                  4
+                ],
+                "a": [
+                  7.5,
+                  4
+                ],
+                "accent": true
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  6,
+                  1.4
+                ],
+                "a": [
+                  6,
+                  6.6
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  6,
+                  1.4
+                ],
+                "nom": "C"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  6,
+                  6.6
+                ],
+                "nom": "D"
+              }
+            ]
+          },
+          "legende": "En couleur, un diamètre. [CD] est une corde."
+        },
+        {
+          "type": "question",
+          "consigne": "Un cercle a un rayon de 3 cm. Son diamètre ?",
+          "options": [
+            "6 cm",
+            "1,5 cm",
+            "9 cm"
+          ],
+          "reponse": "6 cm",
+          "explication": "d = 2 × 3 = 6."
+        }
+      ]
+    },
+    {
+      "titre": "Situer un point",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour savoir où est un point M",
+          "etapes": [
+            "Mesure OM.",
+            "OM = r : M est sur le cercle.",
+            "OM < r : M est dans le disque, à l’intérieur du cercle.",
+            "OM > r : M est à l’extérieur."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond cercle et disque.",
+          "correction": "Le cercle est la ligne. Le disque est toute la surface, cercle compris."
+        },
+        {
+          "type": "question",
+          "consigne": "Cercle de centre O, rayon 4 cm. OM = 2 cm. Où est M ?",
+          "options": [
+            "dans le disque",
+            "sur le cercle",
+            "à l’extérieur"
+          ],
+          "reponse": "dans le disque",
+          "explication": "2 < 4."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Diamètre 9 cm. Rayon ?",
+      "options": [
+        "4,5 cm",
+        "18 cm",
+        "9 cm"
+      ],
+      "reponse": "4,5 cm",
+      "explication": "r = d ÷ 2."
+    },
+    {
+      "consigne": "Quelle est la plus longue corde d’un cercle ?",
+      "options": [
+        "un diamètre",
+        "un rayon",
+        "toutes ont la même longueur"
+      ],
+      "reponse": "un diamètre",
+      "explication": "Le diamètre passe par le centre."
+    },
+    {
+      "consigne": "Tous les points à 5 cm de A forment :",
+      "options": [
+        "le cercle de centre A et de rayon 5 cm",
+        "le disque de rayon 10 cm",
+        "un segment"
+      ],
+      "reponse": "le cercle de centre A et de rayon 5 cm",
+      "explication": "C’est la définition du cercle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître les définitions d’un cercle, d’un disque, d’un rayon, d’un diamètre, d’une corde",
+      "appui": "Cercle et disque"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Comprendre la définition d’un cercle et celle d’un disque sous la forme d’ensembles de points",
+      "appui": "Ensembles de points"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

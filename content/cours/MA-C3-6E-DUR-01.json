@@ -1,0 +1,152 @@
+{
+  "competence": "MA-C3-6E-DUR-01",
+  "duree": 8,
+  "essentiel": "1 h = 60 min et 1 min = 60 s. 1 jour = 24 h.\nPour convertir 150 min, on cherche combien de fois 60 : 150 = 2 × 60 + 30, soit 2 h 30 min.\nPour calculer une durée, on avance par étapes jusqu’à l’heure ronde.",
+  "parties": [
+    {
+      "titre": "Convertir des durées",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relations entre unités",
+          "colonnes": [
+            "Unité",
+            "Vaut"
+          ],
+          "lignes": [
+            [
+              "1 jour",
+              "24 h"
+            ],
+            [
+              "1 h",
+              "60 min"
+            ],
+            [
+              "1 min",
+              "60 s"
+            ],
+            [
+              "1 an",
+              "365 jours, 366 si bissextile"
+            ],
+            [
+              "1 siècle",
+              "100 ans"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour convertir 150 min en heures et minutes",
+          "etapes": [
+            "Divise par 60 : 150 = 2 × 60 + 30.",
+            "Le quotient donne les heures : 2 h.",
+            "Le reste donne les minutes : 30 min."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 1,5 h = 1 h 50 min.",
+          "correction": "0,5 h est une demi-heure, soit 30 min. Donc 1,5 h = 1 h 30 min."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 3 h 15 min en minutes ?",
+          "options": [
+            "195 min",
+            "315 min",
+            "180 min"
+          ],
+          "reponse": "195 min",
+          "explication": "3 × 60 + 15 = 195."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer une durée ou un horaire",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un film commence à 20 h 45 et dure 1 h 50 min. À quelle heure finit-il ?",
+          "etapes": [
+            "20 h 45 + 1 h = 21 h 45.",
+            "21 h 45 + 15 min = 22 h.",
+            "Il reste 35 min : 22 h 35."
+          ],
+          "conclusion": "Le film finit à 22 h 35."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Durée entre 9 h 40 et 11 h 15 ?",
+          "etapes": [
+            "De 9 h 40 à 10 h : 20 min.",
+            "De 10 h à 11 h : 1 h.",
+            "De 11 h à 11 h 15 : 15 min."
+          ],
+          "conclusion": "1 h 35 min."
+        },
+        {
+          "type": "question",
+          "consigne": "Il est 14 h 50. Quelle heure sera-t-il dans 25 min ?",
+          "options": [
+            "15 h 15",
+            "14 h 75",
+            "15 h 25"
+          ],
+          "reponse": "15 h 15",
+          "explication": "14 h 50 + 10 min = 15 h, puis 15 min."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 200 s en minutes et secondes ?",
+      "options": [
+        "3 min 20 s",
+        "2 min 00 s",
+        "3 min 33 s"
+      ],
+      "reponse": "3 min 20 s",
+      "explication": "200 = 3 × 60 + 20."
+    },
+    {
+      "consigne": "Durée entre 8 h 25 et 10 h 10 ?",
+      "options": [
+        "1 h 45 min",
+        "2 h 15 min",
+        "1 h 85 min"
+      ],
+      "reponse": "1 h 45 min",
+      "explication": "35 min + 1 h + 10 min."
+    },
+    {
+      "consigne": "Combien d’heures dans 3 jours ?",
+      "options": [
+        "72 h",
+        "36 h",
+        "60 h"
+      ],
+      "reponse": "72 h",
+      "explication": "3 × 24 = 72."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Effectuer des calculs sur des horaires et des durées",
+      "appui": "Horaires et durées"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Convertir des durées",
+      "appui": "Convertir des durées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

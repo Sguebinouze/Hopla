@@ -1,0 +1,161 @@
+{
+  "competence": "MA-C3-6E-LONG-01",
+  "duree": 8,
+  "essentiel": "Les unités de longueur vont de 10 en 10 : km, hm, dam, m, dm, cm, mm.\nKilo veut dire mille, centi veut dire centième, milli veut dire millième.\n3,5 m = 350 cm, car 1 m = 100 cm.",
+  "parties": [
+    {
+      "titre": "Les préfixes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le mètre, ses multiples et ses sous-multiples",
+          "colonnes": [
+            "Unité",
+            "Préfixe",
+            "En mètres"
+          ],
+          "lignes": [
+            [
+              "km",
+              "kilo = mille",
+              "1 000 m"
+            ],
+            [
+              "hm",
+              "hecto = cent",
+              "100 m"
+            ],
+            [
+              "dam",
+              "déca = dix",
+              "10 m"
+            ],
+            [
+              "m",
+              "",
+              "1 m"
+            ],
+            [
+              "dm",
+              "déci = dixième",
+              "0,1 m"
+            ],
+            [
+              "cm",
+              "centi = centième",
+              "0,01 m"
+            ],
+            [
+              "mm",
+              "milli = millième",
+              "0,001 m"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "D’une unité à la suivante, on multiplie ou on divise par 10. Ainsi 1 dm = 10 cm et 1 cm = 0,1 dm."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mètres dans 1 hm ?",
+          "options": [
+            "100",
+            "10",
+            "1 000"
+          ],
+          "reponse": "100",
+          "explication": "Hecto veut dire cent."
+        }
+      ]
+    },
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour convertir 3,5 m en cm",
+          "etapes": [
+            "Écris la relation : 1 m = 100 cm.",
+            "Multiplie : 3,5 × 100 = 350.",
+            "3,5 m = 350 cm."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Convertis 2 450 mm en mètres.",
+          "etapes": [
+            "1 mm = 0,001 m, donc on divise par 1 000.",
+            "2 450 ÷ 1 000 = 2,45."
+          ],
+          "conclusion": "2 450 mm = 2,45 m"
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie quand on passe à une unité plus grande : 2 450 mm = 2 450 000 m.",
+          "correction": "Une unité plus grande donne un nombre plus petit. On divise."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 0,8 km en mètres ?",
+          "options": [
+            "800 m",
+            "80 m",
+            "8 000 m"
+          ],
+          "reponse": "800 m",
+          "explication": "0,8 × 1 000 = 800."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 45 cm en mètres ?",
+      "options": [
+        "0,45 m",
+        "4,5 m",
+        "4 500 m"
+      ],
+      "reponse": "0,45 m",
+      "explication": "45 ÷ 100 = 0,45."
+    },
+    {
+      "consigne": "Combien font 1,2 m en millimètres ?",
+      "options": [
+        "1 200 mm",
+        "120 mm",
+        "12 mm"
+      ],
+      "reponse": "1 200 mm",
+      "explication": "1,2 × 1 000 = 1 200."
+    },
+    {
+      "consigne": "Quelle longueur est la plus grande ?",
+      "options": [
+        "3 km",
+        "2 500 m",
+        "29 hm"
+      ],
+      "reponse": "3 km",
+      "explication": "3 km = 3 000 m ; 29 hm = 2 900 m."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 19,
+      "extrait": "L’élève sait convertir en mètre une longueur donnée dans une autre unité, multiple ou sous-multiple du mètre.",
+      "appui": "Convertir en mètre"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 19,
+      "extrait": "L’élève connaît les significations des préfixes allant du kilo- au milli-, ainsi que les relations entre le mètre, ses multiples et ses",
+      "appui": "Préfixes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

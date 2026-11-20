@@ -1,0 +1,152 @@
+{
+  "competence": "MA-C3-6E-ESP-01",
+  "duree": 7,
+  "essentiel": "Un prisme droit a deux bases polygonales identiques et parallèles, reliées par des faces rectangulaires.\nUn prisme droit à base triangulaire a 5 faces, 9 arêtes et 6 sommets.\nPour compter les cubes d’un assemblage, on compte étage par étage, sans oublier les cubes cachés.",
+  "parties": [
+    {
+      "titre": "Reconnaitre les solides",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Prisme droit",
+              "definition": "Solide qui a deux bases polygonales identiques et parallèles, reliées par des faces rectangulaires."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "prisme-triangulaire"
+          },
+          "legende": "Un prisme droit à base triangulaire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Faces, arêtes, sommets",
+          "colonnes": [
+            "Solide",
+            "Faces",
+            "Arêtes",
+            "Sommets"
+          ],
+          "lignes": [
+            [
+              "cube",
+              "6",
+              "12",
+              "8"
+            ],
+            [
+              "pavé droit",
+              "6",
+              "12",
+              "8"
+            ],
+            [
+              "prisme droit à base triangulaire",
+              "5",
+              "9",
+              "6"
+            ],
+            [
+              "pyramide à base carrée",
+              "5",
+              "8",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un pavé droit est-il un prisme droit ?",
+          "options": [
+            "oui",
+            "non",
+            "seulement si c’est un cube"
+          ],
+          "reponse": "oui",
+          "explication": "Ses bases sont des rectangles identiques et parallèles."
+        }
+      ]
+    },
+    {
+      "titre": "Assemblages de cubes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour dénombrer les cubes d’un assemblage",
+          "etapes": [
+            "Compte les cubes de l’étage du bas, y compris ceux cachés.",
+            "Fais de même pour chaque étage.",
+            "Ajoute les résultats."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte les faces visibles au lieu des cubes.",
+          "correction": "Un cube peut montrer trois faces. On compte des cubes, pas des carrés."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un escalier : 3 cubes en bas, 2 au milieu, 1 en haut, sur une seule rangée.",
+          "etapes": [
+            "3 + 2 + 1 = 6."
+          ],
+          "conclusion": "L’escalier compte 6 cubes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’arêtes a un prisme droit à base triangulaire ?",
+      "options": [
+        "9",
+        "6",
+        "12"
+      ],
+      "reponse": "9",
+      "explication": "3 + 3 sur les bases, 3 latérales."
+    },
+    {
+      "consigne": "Les faces latérales d’un prisme droit sont des :",
+      "options": [
+        "rectangles",
+        "triangles",
+        "cercles"
+      ],
+      "reponse": "rectangles",
+      "explication": "Elles relient les deux bases."
+    },
+    {
+      "consigne": "Un cube de 2 cubes d’arête contient combien de petits cubes ?",
+      "options": [
+        "8",
+        "4",
+        "6"
+      ],
+      "reponse": "8",
+      "explication": "2 × 2 × 2 = 8."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 24,
+      "extrait": "Voir dans l’espace des assemblages de cubes",
+      "appui": "Assemblages de cubes"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 24,
+      "extrait": "L’élève identifie dans un ensemble de solides lesquels sont des pyramides, des boules, des cubes, des cylindres, des pavés, des",
+      "appui": "Solides usuels"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

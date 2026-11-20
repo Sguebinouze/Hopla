@@ -1,0 +1,190 @@
+{
+  "competence": "MA-C3-6E-LONG-02",
+  "duree": 9,
+  "essentiel": "Le périmètre est la longueur du contour.\nCarré de côté c : P = 4 × c. Rectangle : P = 2 × (L + l).\nDisque de diamètre d : P = π × d, avec π ≈ 3,14.",
+  "parties": [
+    {
+      "titre": "Carré et rectangle",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Périmètre",
+              "definition": "Longueur du contour d’une figure."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Formules",
+          "colonnes": [
+            "Figure",
+            "Périmètre",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "carré de côté 5 cm",
+              "4 × c",
+              "4 × 5 = 20 cm"
+            ],
+            [
+              "rectangle 7 cm sur 3 cm",
+              "2 × (L + l)",
+              "2 × (7 + 3) = 20 cm"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Périmètre d’un carré de côté 2,5 cm ?",
+          "options": [
+            "10 cm",
+            "6,25 cm",
+            "5 cm"
+          ],
+          "reponse": "10 cm",
+          "explication": "4 × 2,5 = 10."
+        }
+      ]
+    },
+    {
+      "titre": "Le disque",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 9,
+            "hauteur": 7,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "cercle",
+                "centre": [
+                  4.5,
+                  3.5
+                ],
+                "rayon": 3
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1.5,
+                  3.5
+                ],
+                "a": [
+                  7.5,
+                  3.5
+                ],
+                "accent": true
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4.5,
+                  3.5
+                ],
+                "nom": "O"
+              }
+            ]
+          },
+          "legende": "Le diamètre traverse le disque en passant par le centre O."
+        },
+        {
+          "type": "explique",
+          "texte": "Le périmètre d’un disque est proportionnel à son diamètre. Le coefficient s’appelle **π** (pi). Il vaut environ 3,14."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour calculer le périmètre d’un disque",
+          "etapes": [
+            "Trouve le diamètre. Si on te donne le rayon, double-le.",
+            "Multiplie par π ≈ 3,14.",
+            "Diamètre 10 cm : 10 × 3,14 = 31,4 cm environ."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie le rayon par 3,14.",
+          "correction": "La formule utilise le diamètre. Avec le rayon, on calcule 2 × π × r."
+        },
+        {
+          "type": "question",
+          "consigne": "Périmètre d’un disque de rayon 5 cm ?",
+          "options": [
+            "31,4 cm environ",
+            "15,7 cm environ",
+            "78,5 cm environ"
+          ],
+          "reponse": "31,4 cm environ",
+          "explication": "Diamètre 10 cm, donc 10 × 3,14."
+        }
+      ]
+    },
+    {
+      "titre": "Figures composées",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un demi-disque de diamètre 4 cm. Quel est son périmètre ?",
+          "etapes": [
+            "Arc : moitié du cercle, 4 × 3,14 ÷ 2 = 6,28 cm.",
+            "On ajoute le diamètre : 6,28 + 4."
+          ],
+          "conclusion": "Le périmètre est 10,28 cm environ."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Périmètre d’un rectangle de 8 cm sur 2 cm ?",
+      "options": [
+        "20 cm",
+        "16 cm",
+        "10 cm"
+      ],
+      "reponse": "20 cm",
+      "explication": "2 × (8 + 2) = 20."
+    },
+    {
+      "consigne": "Périmètre d’un disque de diamètre 2 m ?",
+      "options": [
+        "6,28 m environ",
+        "3,14 m environ",
+        "12,56 m environ"
+      ],
+      "reponse": "6,28 m environ",
+      "explication": "2 × 3,14 = 6,28."
+    },
+    {
+      "consigne": "Un carré a un périmètre de 36 cm. Son côté ?",
+      "options": [
+        "9 cm",
+        "6 cm",
+        "18 cm"
+      ],
+      "reponse": "9 cm",
+      "explication": "36 ÷ 4 = 9."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 19,
+      "extrait": "Calculer le périmètre d’un disque",
+      "appui": "Périmètre du disque"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 19,
+      "extrait": "Savoir que le périmètre du disque est proportionnel à son diamètre",
+      "appui": "Proportionnalité au diamètre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

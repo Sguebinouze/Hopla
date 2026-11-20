@@ -1,0 +1,162 @@
+{
+  "competence": "MA-C3-6E-STAT-01",
+  "duree": 7,
+  "essentiel": "Un tableau range des données en lignes et en colonnes.\nFiltrer, c’est ne garder que les données qui respectent un critère.\nOn lit le titre, les unités et les en-têtes avant de répondre.",
+  "parties": [
+    {
+      "titre": "Lire un tableau",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Températures à midi (°C)",
+          "colonnes": [
+            "Jour",
+            "Température"
+          ],
+          "lignes": [
+            [
+              "lundi",
+              "12"
+            ],
+            [
+              "mardi",
+              "15"
+            ],
+            [
+              "mercredi",
+              "18"
+            ],
+            [
+              "jeudi",
+              "9"
+            ],
+            [
+              "vendredi",
+              "16"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire un tableau",
+          "etapes": [
+            "Lis le titre et l’unité.",
+            "Repère la ligne et la colonne qui répondent à la question.",
+            "Lis la valeur à leur croisement."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle température mardi ?",
+          "options": [
+            "15 °C",
+            "12 °C",
+            "18 °C"
+          ],
+          "reponse": "15 °C",
+          "explication": "Ligne mardi : 15."
+        }
+      ]
+    },
+    {
+      "titre": "Filtrer selon un critère",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Quels jours la température dépasse-t-elle 14 °C ?",
+          "etapes": [
+            "Critère : plus de 14.",
+            "On garde 15, 18 et 16. On écarte 12 et 9."
+          ],
+          "conclusion": "Mardi, mercredi et vendredi : 3 jours."
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte 14 °C dans « dépasse 14 °C ».",
+          "correction": "Dépasser veut dire strictement plus grand. 14 n’est pas retenu."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Températures à midi",
+            "unite": "°C",
+            "pas": 2,
+            "barres": [
+              {
+                "nom": "lun",
+                "valeur": 12
+              },
+              {
+                "nom": "mar",
+                "valeur": 15
+              },
+              {
+                "nom": "mer",
+                "valeur": 18
+              },
+              {
+                "nom": "jeu",
+                "valeur": 9
+              },
+              {
+                "nom": "ven",
+                "valeur": 16
+              }
+            ]
+          },
+          "legende": "Les mêmes données en diagramme en barres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel jour a été le plus froid ?",
+      "options": [
+        "jeudi",
+        "lundi",
+        "mardi"
+      ],
+      "reponse": "jeudi",
+      "explication": "9 °C est la plus petite valeur."
+    },
+    {
+      "consigne": "Combien de jours sous 13 °C ?",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "reponse": "2",
+      "explication": "Lundi (12) et jeudi (9)."
+    },
+    {
+      "consigne": "Écart entre le jour le plus chaud et le plus froid ?",
+      "options": [
+        "9 °C",
+        "18 °C",
+        "6 °C"
+      ],
+      "reponse": "9 °C",
+      "explication": "18 − 9 = 9."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 26,
+      "extrait": "Faire un choix en filtrant les données d’un tableau selon un critère",
+      "appui": "Filtrer des données"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 26,
+      "extrait": "Construire un tableau simple pour présenter des données (observations, caractères)",
+      "appui": "Tableau de données"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,173 @@
+{
+  "competence": "MA-C3-6E-GEO-01",
+  "duree": 7,
+  "essentiel": "La distance entre A et B est la longueur du segment [AB], notée AB.\nLe milieu I de [AB] est le point de [AB] tel que AI = IB.\nSi AB = 8 cm, alors AI = IB = 4 cm.",
+  "parties": [
+    {
+      "titre": "Distance et milieu",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Distance",
+              "definition": "Longueur du segment qui joint deux points."
+            },
+            {
+              "mot": "Milieu",
+              "definition": "Point d’un segment situé à la même distance de ses deux extrémités."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 10,
+            "hauteur": 3,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  1.5
+                ],
+                "a": [
+                  9,
+                  1.5
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  1.5
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  9,
+                  1.5
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  1.5
+                ],
+                "nom": "I"
+              }
+            ]
+          },
+          "legende": "I est sur [AB] et à la même distance de A et de B."
+        },
+        {
+          "type": "tableau",
+          "titre": "Notations",
+          "colonnes": [
+            "Écriture",
+            "Se lit"
+          ],
+          "lignes": [
+            [
+              "[AB]",
+              "le segment d’extrémités A et B"
+            ],
+            [
+              "AB",
+              "la longueur du segment [AB]"
+            ],
+            [
+              "(AB)",
+              "la droite qui passe par A et B"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "I est le milieu de [CD] et CD = 10 cm. Combien mesure CI ?",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "reponse": "5 cm",
+          "explication": "Le milieu partage le segment en deux longueurs égales."
+        }
+      ]
+    },
+    {
+      "titre": "Attention aux deux conditions",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "M est à 3 cm de A et à 3 cm de B, donc M est le milieu de [AB].",
+          "correction": "Il faut aussi que M soit sur [AB]. Sinon, M est seulement à égale distance."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour placer le milieu d’un segment",
+          "etapes": [
+            "Mesure le segment : 7 cm.",
+            "Divise par 2 : 3,5 cm.",
+            "Place I sur le segment à 3,5 cm de A."
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "AB = 6,4 cm. I est le milieu de [AB]. IB = ?",
+      "options": [
+        "3,2 cm",
+        "6,4 cm",
+        "12,8 cm"
+      ],
+      "reponse": "3,2 cm",
+      "explication": "6,4 ÷ 2 = 3,2."
+    },
+    {
+      "consigne": "Que désigne AB ?",
+      "options": [
+        "la longueur du segment [AB]",
+        "la droite (AB)",
+        "le milieu de [AB]"
+      ],
+      "reponse": "la longueur du segment [AB]",
+      "explication": "Sans crochets ni parenthèses : une longueur."
+    },
+    {
+      "consigne": "I est le milieu de [EF] et EI = 4 cm. EF = ?",
+      "options": [
+        "8 cm",
+        "4 cm",
+        "2 cm"
+      ],
+      "reponse": "8 cm",
+      "explication": "EF = 2 × EI."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître et utiliser la définition du milieu d’un segment",
+      "appui": "Milieu d’un segment"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître et utiliser la définition de la distance entre deux points",
+      "appui": "Distance entre deux points"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

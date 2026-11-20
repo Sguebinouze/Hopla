@@ -1,0 +1,207 @@
+{
+  "competence": "MA-C3-6E-GEO-03",
+  "duree": 8,
+  "essentiel": "La médiatrice d’un segment est la droite perpendiculaire à ce segment qui passe par son milieu.\nSi M est sur la médiatrice de [AB], alors MA = MB.\nSi MA = MB, alors M est sur la médiatrice de [AB].",
+  "parties": [
+    {
+      "titre": "La définition",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Médiatrice",
+              "definition": "Droite perpendiculaire à un segment, qui passe par son milieu."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 10,
+            "hauteur": 8,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  2,
+                  6
+                ],
+                "a": [
+                  8,
+                  6
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  2,
+                  6
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  8,
+                  6
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  6
+                ],
+                "nom": "I"
+              },
+              {
+                "forme": "droite",
+                "de": [
+                  5,
+                  0.5
+                ],
+                "a": [
+                  5,
+                  7.5
+                ],
+                "nom": "d"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  2
+                ],
+                "nom": "M"
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  5,
+                  2
+                ],
+                "a": [
+                  2,
+                  6
+                ],
+                "accent": true
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  5,
+                  2
+                ],
+                "a": [
+                  8,
+                  6
+                ],
+                "accent": true
+              }
+            ]
+          },
+          "legende": "La droite d est la médiatrice de [AB]. M est sur d, donc MA = MB."
+        },
+        {
+          "type": "question",
+          "consigne": "La médiatrice de [AB] passe par :",
+          "options": [
+            "le milieu de [AB]",
+            "le point A",
+            "le point B"
+          ],
+          "reponse": "le milieu de [AB]",
+          "explication": "Elle passe par le milieu et coupe [AB] à angle droit."
+        }
+      ]
+    },
+    {
+      "titre": "La propriété caractéristique",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Tous les points de la médiatrice sont à égale distance de A et de B. Et seuls ces points le sont."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour tracer la médiatrice au compas",
+          "etapes": [
+            "Prends un écartement plus grand que la moitié de AB.",
+            "Trace deux arcs de centre A, de part et d’autre du segment.",
+            "Garde l’écartement et trace deux arcs de centre B.",
+            "Les deux points d’intersection sont à égale distance de A et B. Relie-les."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On trace une perpendiculaire à [AB] n’importe où.",
+          "correction": "La médiatrice doit passer par le milieu. Sinon, MA ≠ MB."
+        },
+        {
+          "type": "question",
+          "consigne": "M est sur la médiatrice de [EF] et ME = 7 cm. MF = ?",
+          "options": [
+            "7 cm",
+            "14 cm",
+            "3,5 cm"
+          ],
+          "reponse": "7 cm",
+          "explication": "Tout point de la médiatrice est à égale distance de E et F."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "PA = PB = 5 cm. Que peut-on dire de P ?",
+      "options": [
+        "P est sur la médiatrice de [AB]",
+        "P est le milieu de [AB]",
+        "P est sur [AB]"
+      ],
+      "reponse": "P est sur la médiatrice de [AB]",
+      "explication": "C’est la propriété caractéristique."
+    },
+    {
+      "consigne": "La médiatrice et le segment forment un angle :",
+      "options": [
+        "droit",
+        "aigu",
+        "plat"
+      ],
+      "reponse": "droit",
+      "explication": "Elle est perpendiculaire au segment."
+    },
+    {
+      "consigne": "Combien de médiatrices a un segment ?",
+      "options": [
+        "une seule",
+        "deux",
+        "une infinité"
+      ],
+      "reponse": "une seule",
+      "explication": "Une seule droite est perpendiculaire en son milieu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Connaître la définition de la médiatrice d’un segment",
+      "appui": "Médiatrice"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 23,
+      "extrait": "Comprendre et utiliser la propriété caractéristique de la médiatrice d’un segment",
+      "appui": "Propriété caractéristique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
