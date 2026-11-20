@@ -7,13 +7,13 @@ import { Appareils } from '../composants/Appareils';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import {
-  api, type Appareil, type Classe, type Cahier, type ControlePrevu, type Enfant, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
+  api, CLASSES, type Appareil, type Classe, type Cahier, type ControlePrevu, type Enfant, type FicheEnfant as Fiche, type ReglagesEnfant, type SuiviEnfant,
 } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, sansMatieres, type Pack } from '../lib/packs';
 import { prochainVendredi } from '../lib/entrainement';
 import { aujourdhui, bilan, CHIP_ETAT, etat, LIBELLE_ETAT, libelleErreur } from '../lib/progression';
 
-const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
+
 const LIMITES = [null, 15, 20, 30, 45, 60, 90, 120];
 const ONGLETS = ['Progression', 'Séances', 'Leçons', 'Contrôle', 'Réglages'] as const;
 type Onglet = (typeof ONGLETS)[number];

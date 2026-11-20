@@ -28,6 +28,14 @@ Tous les contrôles d'accès sont en base (RLS et fonctions), testés dans `supa
 
 ## Espaces
 
+**Comptes et conservation** (20 novembre 2026, migration `comptes_conservation`) :
+- Code parent oublié : un code reçu par e-mail (connexion de moins de 10 minutes, `app.connexion_recente`) autorise à redéfinir le code parent.
+- Contrôle parental : tout lien vers l'extérieur ou e-mail, depuis un écran visible par l'enfant, passe par le code d'un parent de la famille (`public.controle_parental`, 5 essais par 10 minutes), sur l'appareil familial comme sur l'appareil de l'enfant.
+- Appareils : 5 au plus par enfant, nom modifiable par le parent, retirés après 6 mois sans usage.
+- Passage de classe : `enfants.classe_annee` date la classe ; à la rentrée (1er septembre), l'espace parent propose la classe suivante, que le parent confirme (`public.confirmer_classe`).
+- Conservation : `public.appliquer_conservation()` chaque nuit (pg_cron) : détail du travail au-delà d'un an, appareils dormants, codes et sessions expirés, familles sans activité depuis un an.
+- Page publique `/supprimer-mon-compte` (exigée par Google Play). Documents RGPD : `docs/rgpd/`.
+
 **Ouverture et démarrage** : `/` présente Hopla et ouvre deux portes, « Je suis parent » (`/connexion` : e-mail puis code à 8 chiffres reçu par e-mail, saisi dans l'app ; le lien de l'e-mail marche aussi hors app installée) et « Je suis un enfant, j'ai un code » (`/appairer`). Un parent connecté sans enfant arrive dans l'assistant `/demarrer` : code parent, enfants (prénom, classe, avatar, code choisi sur le clavier en pictogrammes ou chiffres), appareil de chaque enfant (partagé, ou le sien avec son code d'appairage), installation selon l'appareil, puis récapitulatif. L'espace parent y renvoie pour ajouter un enfant ou un appareil (`/demarrer?etape=enfants`).
 
 **Parent** (`/parent`) : famille et invitations, résumé par enfant, création de profils, export de toutes les données (JSON), suppression du compte (les enfants restent si un autre parent est membre). Fiche enfant (`/parent/enfant/:id`) : progression par matière et par notion, séances des 60 derniers jours, leçons consultées, erreurs fréquentes, défis, contrôle (le parent le prévoit, le modifie ou l'annule), réglages et appareils. « Cette semaine » : bilan des 7 derniers jours par enfant (`public.bilan_semaine`), le même que l'e-mail du dimanche.

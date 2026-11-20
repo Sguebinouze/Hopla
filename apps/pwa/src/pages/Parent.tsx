@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { Icone } from '../composants/Icone';
 import { Famille } from '../composants/Famille';
-import { api, type Classe, type SuiviEnfant } from '../lib/donnees';
+import { anneeScolaire } from '../lib/annee';
+import { api, CLASSES, type Classe, type Enfant, type SuiviEnfant } from '../lib/donnees';
 import { chargerPack, competencesJouables, NOMS_MATIERES, type Pack } from '../lib/packs';
 import { bilan, libelleErreur } from '../lib/progression';
 
@@ -63,6 +64,89 @@ function TableauEnfant({ suivi, pack }: { suivi: SuiviEnfant; pack: Pack | undef
   );
 }
 
+/** À la rentrée, la classe de chaque enfant est confirmée par un parent : la suivante, la même, ou une autre. */
+function PassageClasse({ enfants, onChange }: { enfants: Enfant[]; onChange: () => void }) {
+  const annee = anneeScolaire();
+  const [message, setMessage] = useState('');
+  const aConfirmer = enfants.filter((e) => e.classe_annee && e.classe_annee < annee);
+  if (aConfirmer.length === 0) return null;
+  const confirmer = async (e: Enfant, classe: Classe) => {
+    setMessage('');
+    try { await api.confirmerClasse(e.id, classe); onChange(); } catch (err) { setMessage((err as Error).message); }
+  };
+  return (
+    <section className="hp-card fiche__bloc">
+      <h2 className="titre-2">Nouvelle année scolaire</h2>
+      {aConfirmer.map((e) => {
+        const suivante = CLASSES[CLASSES.indexOf(e.classe) + 1];
+        return (
+          <div key={e.id} className="passage">
+            <p style={{ margin: 0 }}>
+              {suivante
+                ? <>{e.prenom} passe en <strong>{suivante.toUpperCase()}</strong> ?</>
+                : <>{e.prenom} termine la 3e : Hopla s’arrête là. Tu peux garder son profil en 3e.</>}
+            </p>
+            <div className="ligne passage__choix">
+              {suivante && <button type="button" className="hp-btn hp-btn--primary" onClick={() => void confirmer(e, suivante)}>Oui, en {suivante.toUpperCase()}</button>}
+              <button type="button" className="hp-btn hp-btn--secondary" onClick={() => void confirmer(e, e.classe)}>
+                {suivante ? `Reste en ${e.classe.toUpperCase()}` : 'Garder en 3e'}
+              </button>
+              <select aria-label={`Autre classe pour ${e.prenom}`} value="" onChange={(x) => x.target.value && void confirmer(e, x.target.value as Classe)}>
+                <option value="">Autre classe…</option>
+                {CLASSES.map((c) => <option key={c} value={c}>{c.toUpperCase()}</option>)}
+              </select>
+            </div>
+          </div>
+        );
+      })}
+      {message && <p className="muet" role="status">{message}</p>}
+    </section>
+  );
+}
+
+/**
+ * Code parent oublié : un code reçu par e-mail prouve l'accès à la boîte du parent ;
+ * la base accepte alors un nouveau code parent pendant 10 minutes.
+ */
+function CodeParentOublie({ onFait }: { onFait: () => void }) {
+  const [email, setEmail] = useState<string | null>(null);
+  const [etape, setEtape] = useState<'envoi' | 'code-email' | 'nouveau'>('envoi');
+  const [saisie, setSaisie] = useState('');
+  const [message, setMessage] = useState('');
+  useEffect(() => { void api.emailConnecte().then(setEmail); }, []);
+  const agir = async (action: () => Promise<void>) => {
+    setMessage('');
+    try { await action(); } catch (e) { setMessage((e as Error).message); }
+  };
+  if (!email) return <p className="muet">Connecte-toi d’abord avec ton adresse e-mail.</p>;
+  return (
+    <form className="formulaire" onSubmit={(e) => {
+      e.preventDefault();
+      void agir(async () => {
+        if (etape === 'envoi') { await api.envoyerLienParent(email); setEtape('code-email'); }
+        else if (etape === 'code-email') { await api.verifierCodeParent(email, saisie); setSaisie(''); setEtape('nouveau'); }
+        else { await api.definirCodeParent(saisie); if (await api.ouvrirModeParent(saisie)) onFait(); }
+      });
+    }}>
+      {etape === 'envoi' && <p className="muet" style={{ margin: 0 }}>Hopla envoie un code à <strong>{email}</strong>. Il permet de choisir un nouveau code parent pendant 10 minutes.</p>}
+      {etape === 'code-email' && (
+        <label>Code reçu par e-mail
+          <input className="code-saisie" inputMode="numeric" autoComplete="one-time-code" required pattern="[0-9 ]{6,10}" value={saisie} onChange={(e) => setSaisie(e.target.value)} />
+        </label>
+      )}
+      {etape === 'nouveau' && (
+        <label>Nouveau code parent (4 chiffres)
+          <input inputMode="numeric" pattern="[0-9]{4}" maxLength={4} required value={saisie} onChange={(e) => setSaisie(e.target.value)} />
+        </label>
+      )}
+      <button className="hp-btn hp-btn--primary" style={{ alignSelf: 'flex-start' }}>
+        {etape === 'envoi' ? 'Recevoir un code par e-mail' : etape === 'code-email' ? 'Valider' : 'Enregistrer et ouvrir'}
+      </button>
+      {message && <p className="muet" role="status">{message}</p>}
+    </form>
+  );
+}
+
 export function Parent() {
   const [ouvert, setOuvert] = useState(false);
   const [code, setCode] = useState('');
@@ -72,6 +156,7 @@ export function Parent() {
   const [version, setVersion] = useState(0);
   const [admin, setAdmin] = useState(false);
   const [confirmer, setConfirmer] = useState(false);
+  const [oublie, setOublie] = useState(false);
 
   // Mode parent encore ouvert dans cet onglet (retour depuis une fiche) : pas besoin de redemander le code.
   useEffect(() => {
@@ -111,7 +196,7 @@ export function Parent() {
         <BoutonTheme />
       </div>
 
-      {!ouvert ? (
+      {!ouvert ? (<>
         <form className="formulaire hp-card" onSubmit={(e) => {
           e.preventDefault();
           void essayer(async () => {
@@ -130,8 +215,15 @@ export function Parent() {
             })}>Créer ce code</button>
           </div>
           {api.mode === 'demo' && <p className="bandeau-demo">Démo : le code parent est 1111.</p>}
+          {!oublie && <button type="button" className="hp-btn hp-btn--ghost" style={{ alignSelf: 'flex-start' }} onClick={() => setOublie(true)}>Code parent oublié ?</button>}
         </form>
-      ) : (
+        {oublie && (
+          <section className="hp-card formulaire">
+            <h2 className="titre-3">Code parent oublié</h2>
+            <CodeParentOublie onFait={() => setOuvert(true)} />
+          </section>
+        )}
+      </>) : (
         <>
         {admin && (
           <Link to="/admin" className="hp-skill notion">
@@ -142,6 +234,7 @@ export function Parent() {
             <Icone nom="eclair" />
           </Link>
         )}
+        <PassageClasse enfants={suivis.map((s) => s.enfant)} onChange={() => setVersion((v) => v + 1)} />
         <BilanSemaine key={`bilan-${version}`} />
         <DefiFamille parent key={`defi-${version}`} />
         {suivis.map((s) => (

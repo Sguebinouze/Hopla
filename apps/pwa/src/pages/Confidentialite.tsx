@@ -1,5 +1,6 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
+import { LienParent } from '../composants/LienParent';
 
 export const CONTACT = 'hopla.news@gmail.com';
 
@@ -12,13 +13,13 @@ export function Confidentialite() {
         <button type="button" className="hp-iconbtn" aria-label="Retour" onClick={() => naviguer(-1)}><Icone nom="retour" /></button>
         <h1 className="titre-2 pousse">Confidentialité</h1>
       </div>
-      <p className="muet">Mise à jour le 16 novembre 2026.</p>
+      <p className="muet">Mise à jour le 20 novembre 2026.</p>
 
       <section>
         <h2 className="titre-3">Qui est responsable</h2>
         <p>
           Hopla est un projet personnel et non commercial de Laurent, en phase de test auprès de quelques familles.
-          Pour toute question ou demande : <a href={`mailto:${CONTACT}`}>{CONTACT}</a>.
+          Pour toute question ou demande : <LienParent href={`mailto:${CONTACT}`}>{CONTACT}</LienParent>.
         </p>
       </section>
 
@@ -69,10 +70,15 @@ export function Confidentialite() {
 
       <section>
         <h2 className="titre-3">Combien de temps</h2>
+        <ul>
+          <li><strong>Le détail du travail</strong> (chaque réponse, leçons consultées, parties de jeux) : 1 an. La progression par notion reste tant que le compte existe.</li>
+          <li><strong>Un appareil appairé</strong> qui ne sert plus pendant 6 mois est retiré ; il suffit de l’associer à nouveau.</li>
+          <li><strong>Une famille sans aucune activité pendant 1 an</strong> : les comptes parents, les profils des enfants et leur travail sont supprimés.</li>
+        </ul>
         <p>
-          Tant que le compte existe. Le parent peut supprimer à tout moment le profil d’un enfant (fiche de l’enfant, onglet
-          Réglages) ou son compte entier (espace parent, Mes données) : les données sont alors effacées de la base.
-          Si un second parent est membre de la famille, les profils des enfants restent pour lui.
+          Le parent peut supprimer à tout moment le profil d’un enfant (fiche de l’enfant, onglet Réglages) ou son compte
+          entier (espace parent, Mes données) : les données sont alors effacées de la base. Si un second parent est membre
+          de la famille, les profils des enfants restent pour lui. <Link to="/supprimer-mon-compte">Comment supprimer son compte</Link>.
         </p>
       </section>
 
@@ -81,8 +87,8 @@ export function Confidentialite() {
         <p>
           Vous pouvez accéder à vos données, les corriger, les effacer, les récupérer ou vous opposer à leur traitement.
           L’espace parent permet de télécharger toutes les données de la famille, de modifier les profils et de tout supprimer.
-          Pour le reste, écrivez à <a href={`mailto:${CONTACT}`}>{CONTACT}</a>. Vous pouvez aussi saisir la CNIL
-          (<a href="https://www.cnil.fr" target="_blank" rel="noreferrer">cnil.fr</a>).
+          Pour le reste, écrivez à <LienParent href={`mailto:${CONTACT}`}>{CONTACT}</LienParent>. Vous pouvez aussi saisir la CNIL
+          (<LienParent href="https://www.cnil.fr">cnil.fr</LienParent>).
         </p>
       </section>
     </main>

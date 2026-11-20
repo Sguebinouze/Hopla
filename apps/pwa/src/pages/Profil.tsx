@@ -131,6 +131,14 @@ export function Profil() {
           ))}
         </div>
       </section>
+
+      <section className="hp-card profil__section">
+        <h2 className="titre-3">Ce que voient tes parents</h2>
+        <p style={{ margin: 0 }}>
+          Tes parents voient ton travail dans Hopla. Ils voient tes réponses, tes erreurs et le temps passé.
+          Ça les aide à t’aider. Personne d’autre ne voit ton travail.
+        </p>
+      </section>
     </main>
   );
 }

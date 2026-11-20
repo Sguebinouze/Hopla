@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
+import { LienParent } from '../composants/LienParent';
 
 // Crédits : sources des textes, voix, polices et code tiers, avec les mentions que leurs licences demandent.
 export function Credits() {
@@ -30,8 +31,8 @@ export function Credits() {
         <ul>
           <li>
             Dictées du CE1 au CM2 : Classetto, « Quarante dictées pour l’école élémentaire »,{' '}
-            <a href="https://classetto.com/sources/#donnees-ouvertes" target="_blank" rel="noreferrer">classetto.com</a>,
-            licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noreferrer">CC BY 4.0</a>.
+            <LienParent href="https://classetto.com/sources/#donnees-ouvertes">classetto.com</LienParent>,
+            licence <LienParent href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</LienParent>.
             Hopla découpe les textes en groupes à dicter.
           </li>
           <li>Extraits d’auteurs du domaine public, recopiés depuis Wikisource. L’auteur et l’œuvre s’affichent sous chaque dictée.</li>
@@ -56,7 +57,7 @@ export function Credits() {
         <h2 className="titre-3">Polices</h2>
         <p>
           Fredoka (The Fredoka Project Authors) et Lexend (The Lexend Project Authors), sous licence{' '}
-          <a href="https://openfontlicense.org" target="_blank" rel="noreferrer">SIL Open Font License 1.1</a>.
+          <LienParent href="https://openfontlicense.org">SIL Open Font License 1.1</LienParent>.
         </p>
       </section>
 

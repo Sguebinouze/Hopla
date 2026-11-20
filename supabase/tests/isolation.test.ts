@@ -51,7 +51,7 @@ beforeAll(async () => {
     create role service_role nologin;
     create schema auth;
     create schema extensions;
-    create table auth.users (id uuid primary key, email text);
+    create table auth.users (id uuid primary key, email text, last_sign_in_at timestamptz);
     create function auth.uid() returns uuid language sql stable as
       $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
     grant usage on schema public, auth, extensions to anon, authenticated, service_role;
@@ -410,5 +410,83 @@ describe('sessions et isolation', () => {
     await expect(en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876')`, [tom])).resolves.toBeDefined();
     await en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '0000')`, [tom]);
     await expect(en({ parent: PARENT_A }, `select public.ouvrir_session_enfant($1, '9876')`, [tom])).rejects.toThrow(/Trop d'essais/);
+  });
+});
+
+describe('comptes, appareils, classe et conservation', () => {
+  const PARENT_E = '55555555-5555-5555-5555-555555555555';
+  const PARENT_F = '66666666-6666-6666-6666-666666666666';
+  let modeE: string;
+  let noe: string;
+  let jeton: string;
+  const appairer = async (nom: string) => {
+    const code = (await une<string>({ parent: PARENT_E, parentMode: modeE }, `select public.creer_appairage($1) as c`, [noe]))!.c!;
+    return (await surAppareil<{ jeton: string }>(null, `select * from public.lier_appareil($1, $2)`, [code, nom]))[0]!.jeton;
+  };
+
+  it('code parent oublié : redéfini seulement juste après une connexion par e-mail', async () => {
+    await db.query(`insert into auth.users (id, email, last_sign_in_at) values ($1, 'e@exemple.fr', now() - interval '1 hour')`, [PARENT_E]);
+    await en({ parent: PARENT_E }, `select public.definir_code_parent('1111')`);
+    await expect(en({ parent: PARENT_E }, `select public.definir_code_parent('2222')`)).rejects.toThrow(/Mode parent requis/);
+    await db.query(`update auth.users set last_sign_in_at = now() where id = $1`, [PARENT_E]);
+    await en({ parent: PARENT_E }, `select public.definir_code_parent('2222')`);
+    modeE = (await une<string>({ parent: PARENT_E }, `select public.ouvrir_mode_parent('2222') as j`))!.j!;
+    expect(modeE).toMatch(/^[a-f0-9]{64}$/);
+    noe = (await une<string>({ parent: PARENT_E, parentMode: modeE }, `select public.creer_enfant('Noé', 'vert', 'ce1', '1357') as id`))!.id!;
+  });
+
+  it('contrôle parental : le code d’un parent de la famille, sur l’appareil de l’enfant comme sur l’appareil familial', async () => {
+    jeton = await appairer('Tablette');
+    const essai = (code: string, j: string | null = jeton) => surAppareil<{ ok: boolean }>(j, `select public.controle_parental($1) as ok`, [code]);
+    await expect(essai('2222', null)).rejects.toThrow(/Aucune famille/);
+    expect((await essai('9999'))[0]!.ok).toBe(false);
+    expect((await essai('4242'))[0]!.ok).toBe(false); // code parent d'une autre famille
+    expect((await essai('2222'))[0]!.ok).toBe(true);
+    expect((await une<boolean>({ parent: PARENT_E }, `select public.controle_parental('2222') as ok`))?.ok).toBe(true);
+    for (let i = 0; i < 3; i++) await essai('0000');
+    await expect(essai('2222')).rejects.toThrow(/Trop d'essais/);
+  });
+
+  it('5 appareils au plus par enfant ; le parent de la famille change leur nom', async () => {
+    for (const nom of ['Téléphone', 'Ordinateur', 'Liseuse', 'Console']) await appairer(nom);
+    await expect(appairer('Sixième')).rejects.toThrow(/déjà 5 appareils/);
+    const appareil = (await une<string>({ parent: PARENT_E, parentMode: modeE }, `select id from public.appareils where nom = 'Tablette'`))!.id!;
+    await expect(en({ parent: PARENT_A }, `select public.renommer_appareil($1, 'Piratée')`, [appareil])).rejects.toThrow(/Mode parent requis/);
+    await en({ parent: PARENT_E, parentMode: modeE }, `select public.renommer_appareil($1, 'Tablette de Noé')`, [appareil]);
+    expect((await en({ parent: PARENT_E, parentMode: modeE }, `select nom from public.appareils where id = $1`, [appareil]))[0]).toEqual({ nom: 'Tablette de Noé' });
+  });
+
+  it('passage de classe : la classe est datée par année scolaire, le parent la confirme à la rentrée', async () => {
+    expect((await db.query(`select app.annee_scolaire('2026-08-31') as a, app.annee_scolaire('2026-09-01') as b`)).rows[0]).toEqual({ a: '2025-2026', b: '2026-2027' });
+    const actuelle = (await db.query<{ a: string }>(`select app.annee_scolaire() as a`)).rows[0]!.a;
+    await db.query(`update public.enfants set classe_annee = '2020-2021' where id = $1`, [noe]);
+    const modeAutre = (await une<string>({ parent: PARENT_A }, `select public.ouvrir_mode_parent('4242') as j`))!.j!;
+    await expect(en({ parent: PARENT_A, parentMode: modeAutre }, `select public.confirmer_classe($1, 'ce2')`, [noe])).rejects.toThrow(/Mode parent requis/);
+    await en({ parent: PARENT_E, parentMode: modeE }, `select public.confirmer_classe($1, 'ce2')`, [noe]);
+    expect((await db.query(`select classe, classe_annee from public.enfants where id = $1`, [noe])).rows[0]).toEqual({ classe: 'ce2', classe_annee: actuelle });
+  });
+
+  it('conservation : détail de plus d’un an, appareils dormants et familles inactives depuis un an supprimés', async () => {
+    await expect(en({ parent: PARENT_E, parentMode: modeE }, `select public.appliquer_conservation()`)).rejects.toThrow(/permission denied/);
+    const ins = `insert into public.resultats (enfant_id, competence_id, contenu_id, annee_scolaire, reussi, le) values ($1, 'MA-C2-CE2-FRAC-01', $2, '2025-2026', true, $3)`;
+    await db.query(ins, [noe, 'ancien', new Date(Date.now() - 400 * 864e5)]);
+    await db.query(ins, [noe, 'recent', new Date()]);
+    await db.query(`update public.appareils set vu_le = now() - interval '7 months' where nom = 'Console'`);
+
+    await db.query(`insert into auth.users (id, email, last_sign_in_at) values ($1, 'f@exemple.fr', now())`, [PARENT_F]);
+    await en({ parent: PARENT_F }, `select public.definir_code_parent('8888')`);
+    const modeF = (await une<string>({ parent: PARENT_F }, `select public.ouvrir_mode_parent('8888') as j`))!.j!;
+    const ines = (await une<string>({ parent: PARENT_F, parentMode: modeF }, `select public.creer_enfant('Inès', 'rose', 'cm1', '2468') as id`))!.id!;
+    await db.query(`update auth.users set last_sign_in_at = now() - interval '13 months' where id = $1`, [PARENT_F]);
+    await db.query(`update public.familles set cree_le = now() - interval '2 years' where id = (select famille_id from public.enfants where id = $1)`, [ines]);
+
+    await db.query(`select public.appliquer_conservation()`);
+    const etat = (await db.query(`select
+      (select array_agg(contenu_id) from public.resultats where enfant_id = $1) as resultats,
+      (select count(*)::int from public.appareils where enfant_id = $1) as appareils,
+      (select count(*)::int from auth.users where id = $2) as parent_f,
+      (select count(*)::int from public.enfants where id = $3) as ines,
+      (select count(*)::int from auth.users where id = $4) as parent_e`, [noe, PARENT_F, ines, PARENT_E])).rows[0];
+    expect(etat).toEqual({ resultats: ['recent'], appareils: 4, parent_f: 0, ines: 0, parent_e: 1 });
   });
 });

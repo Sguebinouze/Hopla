@@ -5,6 +5,7 @@ import { anneeScolaire } from './annee';
 import { majSuivi, type Suivi } from './progression';
 
 export type Classe = 'cp' | 'ce1' | 'ce2' | 'cm1' | 'cm2' | '6e' | '5e' | '4e' | '3e';
+export const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
 
 export interface Profil {
   id: string;
@@ -23,6 +24,8 @@ export interface Enfant extends Profil {
   minutes_par_jour?: number | null;
   /** Apparence d'Octave choisie par l'enfant (« couleur.accessoire ») ; null : d'origine. */
   octave?: string | null;
+  /** Année scolaire pour laquelle la classe a été donnée ou confirmée (« 2026-2027 »). */
+  classe_annee?: string;
 }
 
 export const AVATARS = ['orange', 'violet', 'teal', 'framboise'] as const;
@@ -143,6 +146,8 @@ export interface Api {
   envoyerLienParent(email: string): Promise<void>;
   /** Connexion par le code reçu (8 chiffres) de l'e-mail : indispensable pour l'app installée sur iPhone et iPad, où le lien s'ouvre dans Safari. */
   verifierCodeParent(email: string, code: string): Promise<void>;
+  /** Adresse du compte parent connecté (code parent oublié : nouveau code envoyé à cette adresse). */
+  emailConnecte(): Promise<string | null>;
   /** Connexion parent par Apple ou Google (si le fournisseur est activé dans Supabase). */
   connecterAvec(fournisseur: 'apple' | 'google'): Promise<void>;
   listeProfils(): Promise<Profil[]>;
@@ -171,6 +176,11 @@ export interface Api {
   creerAppairage(enfant: string): Promise<string>;
   appareils(): Promise<Appareil[]>;
   retirerAppareil(id: string): Promise<void>;
+  renommerAppareil(id: string, nom: string): Promise<void>;
+  /** Contrôle parental : code d'un parent de la famille (appareil familial ou appareil de l'enfant). */
+  controleParental(code: string): Promise<boolean>;
+  /** Rentrée : classe confirmée par le parent (la suivante, la même ou une autre). */
+  confirmerClasse(enfant: string, classe: Classe): Promise<void>;
   // Défis et contrôle de l'enfant en session (ou d'un enfant en mode parent).
   records(): Promise<Record<string, number>>;
   /** Vrai si c'est un nouveau record. */
@@ -372,7 +382,7 @@ function apiSupabase(url: string, cle: string): Api {
     },
     async suiviParent() {
       const { data: enfants, error } = await client.from('enfants')
-        .select('id, prenom, avatar, classe, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave').order('cree_le');
+        .select('id, prenom, avatar, classe, classe_annee, code_type, xp, serie, matieres_masquees, minutes_par_jour, octave').order('cree_le');
       if (error) throw error;
       const { data: lignes, error: e2 } = await client.from('progression_competences')
         .select(`enfant_id, ${COLONNES_PROGRESSION}`);
@@ -411,6 +421,10 @@ function apiSupabase(url: string, cle: string): Api {
       sessionStorage.removeItem(CLE_PARENT);
       return { id: l.enfant_id, prenom: l.prenom, avatar: l.avatar, classe: l.classe, xp: 0, serie: 0, code_type: 'chiffres' } as Enfant;
     },
+    async emailConnecte() {
+      const { data } = await client.auth.getUser();
+      return data.user?.email ?? null;
+    },
     async membresFamille() {
       const { data, error } = await client.rpc('membres_de_ma_famille');
       if (error) throw error;
@@ -437,6 +451,19 @@ function apiSupabase(url: string, cle: string): Api {
     },
     async retirerAppareil(id) {
       const { error } = await client.from('appareils').delete().eq('id', id);
+      if (error) throw error;
+    },
+    async renommerAppareil(id, nom) {
+      const { error } = await client.rpc('renommer_appareil', { p_appareil: id, p_nom: nom });
+      if (error) throw error;
+    },
+    async controleParental(code) {
+      const { data, error } = await client.rpc('controle_parental', { p_code: code });
+      if (error) throw error;
+      return data === true;
+    },
+    async confirmerClasse(enfant, classe) {
+      const { error } = await client.rpc('confirmer_classe', { p_enfant: enfant, p_classe: classe });
       if (error) throw error;
     },
     async records() {
@@ -560,7 +587,7 @@ function apiSupabase(url: string, cle: string): Api {
       return {
         exporte_le: new Date().toISOString(),
         famille: await this.membresFamille(),
-        enfants: await tout('enfants', 'id, prenom, avatar, classe, xp, serie, derniere_activite, cree_le, matieres_masquees, minutes_par_jour, octave'),
+        enfants: await tout('enfants', 'id, prenom, avatar, classe, classe_annee, xp, serie, derniere_activite, cree_le, matieres_masquees, minutes_par_jour, octave'),
         resultats: await tout('resultats', 'enfant_id, competence_id, contenu_id, annee_scolaire, reussi, indice, duree_ms, reponse, erreur, le'),
         progression: await tout('progression_competences', 'enfant_id, competence_id, score, nb_essais, prochaine_revision, maj_le'),
         lecons_vues: await tout('lecons_vues', 'enfant_id, competence_id, vues, derniere_vue'),
@@ -682,6 +709,7 @@ function apiDemo(): Api {
     connecterAvec: async () => { throw new Error('Pas de connexion externe en mode démo.'); },
     envoyerLienParent: async () => undefined,
     verifierCodeParent: async () => undefined,
+    emailConnecte: async () => 'parent@demo',
     listeProfils: async () => lire().map(({ id, prenom, avatar, code_type }) => ({ id, prenom, avatar, code_type })),
     async ouvrirSession(enfant, code) {
       if (code !== CODE_DEMO) return false;
@@ -768,6 +796,13 @@ function apiDemo(): Api {
     appareils: async () => lireDemo<Appareil[]>('hopla.demo-appareils', []),
     async retirerAppareil(id) {
       ecrireDemo('hopla.demo-appareils', lireDemo<Appareil[]>('hopla.demo-appareils', []).filter((a) => a.id !== id));
+    },
+    async renommerAppareil(id, nom) {
+      ecrireDemo('hopla.demo-appareils', lireDemo<Appareil[]>('hopla.demo-appareils', []).map((a) => (a.id === id ? { ...a, nom } : a)));
+    },
+    controleParental: async (code) => code === CODE_DEMO,
+    async confirmerClasse(enfant, classe) {
+      ecrire(lire().map((e) => (e.id === enfant ? { ...e, classe, classe_annee: anneeScolaire() } : e)));
     },
     async records() {
       const id = (await this.enfantCourant())?.id;

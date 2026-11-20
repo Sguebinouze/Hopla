@@ -18,6 +18,7 @@ import { FicheEnfant } from './pages/FicheEnfant';
 import { Lecon } from './pages/Lecon';
 import { Appairer } from './pages/Appairer';
 import { Confidentialite } from './pages/Confidentialite';
+import { SupprimerCompte } from './pages/SupprimerCompte';
 import { PhotoLecon } from './pages/PhotoLecon';
 import { Cahier } from './pages/Cahier';
 import { Profil } from './pages/Profil';
@@ -60,6 +61,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/jeux/:jeu" element={<Jeu />} />
         <Route path="/culture" element={<Culture />} />
         <Route path="/confidentialite" element={<Confidentialite />} />
+        <Route path="/supprimer-mon-compte" element={<SupprimerCompte />} />
         <Route path="/connexion" element={<Connexion />} />
         <Route path="/demarrer" element={<Demarrer />} />
         <Route path="/exercice/:competence" element={<Exercice />} />
