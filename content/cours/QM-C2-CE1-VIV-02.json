@@ -1,0 +1,122 @@
+{
+  "competence": "QM-C2-CE1-VIV-02",
+  "duree": 6,
+  "essentiel": "Chaque animal a son régime alimentaire.\nHerbivore : mange des plantes. Carnivore : mange d’autres animaux. Omnivore : mange de tout.\nUne chaine alimentaire montre qui mange qui.",
+  "parties": [
+    {
+      "titre": "Trois régimes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui mange quoi ?",
+          "colonnes": [
+            "Régime",
+            "Il mange",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "herbivore",
+              "des plantes",
+              "lapin, vache"
+            ],
+            [
+              "carnivore",
+              "des animaux",
+              "loup, chouette"
+            ],
+            [
+              "omnivore",
+              "de tout",
+              "ours, sanglier, humain"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La vache est :",
+          "options": [
+            "herbivore",
+            "carnivore",
+            "omnivore"
+          ],
+          "reponse": "herbivore",
+          "explication": "Elle mange de l’herbe."
+        }
+      ]
+    },
+    {
+      "titre": "Les chaines alimentaires",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis la chaine de gauche à droite.",
+          "exemples": [
+            "herbe → lapin → renard",
+            "Le lapin mange l’herbe.",
+            "Le renard mange le lapin."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit la flèche « est mangé par » à l’envers.",
+          "correction": "La flèche va de celui qui est mangé vers celui qui mange."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « feuille → chenille → mésange », qui mange la chenille ?",
+          "options": [
+            "la mésange",
+            "la feuille",
+            "personne"
+          ],
+          "reponse": "la mésange",
+          "explication": "La flèche va vers la mésange."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le loup est :",
+      "options": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "reponse": "carnivore",
+      "explication": "Il mange d’autres animaux."
+    },
+    {
+      "consigne": "Un animal qui mange de tout est :",
+      "options": [
+        "omnivore",
+        "herbivore",
+        "carnivore"
+      ],
+      "reponse": "omnivore",
+      "explication": "Comme l’ours."
+    },
+    {
+      "consigne": "Au début d’une chaine alimentaire, on trouve :",
+      "options": [
+        "une plante",
+        "un loup",
+        "un aigle"
+      ],
+      "reponse": "une plante",
+      "explication": "Les plantes nourrissent les herbivores."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Régimes alimentaires de quelques animaux.",
+      "appui": "Régimes alimentaires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

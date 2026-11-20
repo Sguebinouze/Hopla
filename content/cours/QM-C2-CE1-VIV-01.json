@@ -1,0 +1,121 @@
+{
+  "competence": "QM-C2-CE1-VIV-01",
+  "duree": 7,
+  "essentiel": "Un être vivant nait, grandit, se nourrit, se reproduit et meurt.\nLes animaux et les végétaux sont vivants. Un caillou ne l’est pas.\nDe la graine à la plante : c’est un cycle de vie.",
+  "parties": [
+    {
+      "titre": "Est-ce vivant ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trier",
+          "colonnes": [
+            "Animal",
+            "Végétal",
+            "Minéral"
+          ],
+          "lignes": [
+            [
+              "chat, abeille",
+              "arbre, fleur",
+              "caillou, sable"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour savoir si c’est vivant",
+          "etapes": [
+            "Est-ce que ça nait ?",
+            "Est-ce que ça grandit et se nourrit ?",
+            "Est-ce que ça se reproduit et meurt ?"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un arbre est-il vivant ?",
+          "options": [
+            "oui",
+            "non",
+            "seulement l’été"
+          ],
+          "reponse": "oui",
+          "explication": "Il nait d’une graine, grandit et meurt."
+        }
+      ]
+    },
+    {
+      "titre": "Le cycle de vie",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le cycle de vie de la grenouille.",
+          "exemples": [
+            "La grenouille pond des œufs dans l’eau.",
+            "Un têtard sort de l’œuf.",
+            "Le têtard perd sa queue et devient grenouille."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une plante n’est pas vivante, car elle ne bouge pas.",
+          "correction": "Une plante grandit, se nourrit et fait des graines. Elle est vivante."
+        },
+        {
+          "type": "question",
+          "consigne": "Que devient un têtard ?",
+          "options": [
+            "une grenouille",
+            "un poisson",
+            "un serpent"
+          ],
+          "reponse": "une grenouille",
+          "explication": "C’est une étape du cycle de vie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Lequel n’est pas vivant ?",
+      "options": [
+        "un caillou",
+        "un champignon",
+        "une fourmi"
+      ],
+      "reponse": "un caillou",
+      "explication": "Un caillou ne nait pas et ne grandit pas."
+    },
+    {
+      "consigne": "De quoi sort un poussin ?",
+      "options": [
+        "d’un œuf",
+        "d’une graine",
+        "d’une fleur"
+      ],
+      "reponse": "d’un œuf",
+      "explication": "La poule pond des œufs."
+    },
+    {
+      "consigne": "Que plante-t-on pour avoir une fleur ?",
+      "options": [
+        "une graine",
+        "un caillou",
+        "une feuille morte"
+      ],
+      "reponse": "une graine",
+      "explication": "La graine germe et donne une plante."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Le cycle de vie des êtres vivants.",
+      "appui": "Cycle de vie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

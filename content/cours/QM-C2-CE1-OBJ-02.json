@@ -1,0 +1,104 @@
+{
+  "competence": "QM-C2-CE1-OBJ-02",
+  "duree": 5,
+  "essentiel": "Une prise de courant est dangereuse : elle peut électriser ou tuer.\nOn ne met jamais les doigts ou un objet dans une prise.\nOn ne touche pas un appareil électrique avec les mains mouillées.",
+  "parties": [
+    {
+      "titre": "Pile ou prise",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux sources d’électricité",
+          "colonnes": [
+            "Source",
+            "Danger"
+          ],
+          "lignes": [
+            [
+              "pile plate de classe",
+              "sans danger pour les expériences"
+            ],
+            [
+              "prise de la maison",
+              "très dangereuse"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Peut-on faire des expériences avec une prise ?",
+          "options": [
+            "non, jamais",
+            "oui, seul",
+            "oui, avec les mains mouillées"
+          ],
+          "reponse": "non, jamais",
+          "explication": "Le courant de la prise peut tuer."
+        }
+      ]
+    },
+    {
+      "titre": "Les règles de sécurité",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Je reste en sécurité",
+          "etapes": [
+            "Je ne touche pas une prise ou un fil abimé.",
+            "Je n’utilise pas d’appareil près de l’eau.",
+            "Je ne grimpe pas sur un poteau électrique.",
+            "J’appelle un adulte en cas de problème."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un fil dénudé est sans danger s’il est petit.",
+          "correction": "Un fil abimé peut électriser. Préviens un adulte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec les mains mouillées, on peut toucher un sèche-cheveux branché ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement s’il est éteint"
+      ],
+      "reponse": "non",
+      "explication": "L’eau conduit le courant."
+    },
+    {
+      "consigne": "Que faire devant un fil électrique abimé ?",
+      "options": [
+        "prévenir un adulte",
+        "le toucher",
+        "le réparer seul"
+      ],
+      "reponse": "prévenir un adulte",
+      "explication": "Un adulte coupe le courant."
+    },
+    {
+      "consigne": "Quelle source est sans danger pour une expérience ?",
+      "options": [
+        "une pile plate",
+        "une prise",
+        "un poteau électrique"
+      ],
+      "reponse": "une pile plate",
+      "explication": "La pile a une faible tension."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 78,
+      "extrait": "Règles élémentaires de sécurité",
+      "appui": "Sécurité électrique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

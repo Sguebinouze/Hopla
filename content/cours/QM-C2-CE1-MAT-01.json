@@ -1,0 +1,122 @@
+{
+  "competence": "QM-C2-CE1-MAT-01",
+  "duree": 6,
+  "essentiel": "L’eau peut être liquide, solide ou gazeuse.\nQuand il fait très froid, l’eau gèle : elle devient de la glace.\nQuand la glace chauffe, elle fond : elle redevient liquide.",
+  "parties": [
+    {
+      "titre": "Liquide ou solide",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Mets un glaçon dans une assiette.",
+          "exemples": [
+            "Au début, le glaçon est dur : c’est de l’eau solide.",
+            "Peu à peu, il fond.",
+            "À la fin, il reste une flaque d’eau liquide."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les états de l’eau",
+          "colonnes": [
+            "État",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "solide",
+              "glaçon, neige, grêle"
+            ],
+            [
+              "liquide",
+              "pluie, eau du robinet"
+            ],
+            [
+              "gazeux",
+              "vapeur d’eau, invisible"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La neige est de l’eau :",
+          "options": [
+            "solide",
+            "liquide",
+            "gazeuse"
+          ],
+          "reponse": "solide",
+          "explication": "La neige est faite de petits cristaux de glace."
+        }
+      ]
+    },
+    {
+      "titre": "Dans la vie de tous les jours",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’eau gèle quand il fait moins de 0 °C. Au-dessus, la glace fond."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’eau disparait quand une flaque sèche.",
+          "correction": "Elle devient de la vapeur d’eau, invisible, dans l’air."
+        },
+        {
+          "type": "question",
+          "consigne": "Que fait un bonhomme de neige au soleil ?",
+          "options": [
+            "il fond",
+            "il gèle",
+            "il grandit"
+          ],
+          "reponse": "il fond",
+          "explication": "La chaleur transforme la neige en eau liquide."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans le congélateur, l’eau devient :",
+      "options": [
+        "de la glace",
+        "de la vapeur",
+        "du lait"
+      ],
+      "reponse": "de la glace",
+      "explication": "Le congélateur est très froid."
+    },
+    {
+      "consigne": "À quelle température l’eau gèle-t-elle ?",
+      "options": [
+        "0 °C",
+        "20 °C",
+        "100 °C"
+      ],
+      "reponse": "0 °C",
+      "explication": "Sous 0 °C, l’eau devient glace."
+    },
+    {
+      "consigne": "La pluie est de l’eau :",
+      "options": [
+        "liquide",
+        "solide",
+        "gazeuse"
+      ],
+      "reponse": "liquide",
+      "explication": "Elle coule et forme des flaques."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 76,
+      "extrait": "Identifier un changement d’état de l’eau dans un phénomène de la vie quotidienne.",
+      "appui": "Changement d’état de l’eau"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

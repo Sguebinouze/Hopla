@@ -1,0 +1,113 @@
+{
+  "competence": "QM-C2-CE1-ESP-02",
+  "duree": 7,
+  "essentiel": "La Terre a cinq océans et six continents.\nLes continents : Afrique, Amérique, Antarctique, Asie, Europe, Océanie.\nLa France est en Europe. Le globe est une petite Terre.",
+  "parties": [
+    {
+      "titre": "Continents et océans",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sur le globe",
+          "colonnes": [
+            "Continents",
+            "Océans"
+          ],
+          "lignes": [
+            [
+              "Afrique, Amérique, Antarctique",
+              "Atlantique, Pacifique, Indien"
+            ],
+            [
+              "Asie, Europe, Océanie",
+              "Arctique, Austral"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Sur une carte, l’eau des océans est en bleu. Les terres sont en vert ou en jaune."
+        },
+        {
+          "type": "question",
+          "consigne": "Sur quel continent est la France ?",
+          "options": [
+            "l’Europe",
+            "l’Afrique",
+            "l’Asie"
+          ],
+          "reponse": "l’Europe",
+          "explication": "La France est un pays d’Europe."
+        }
+      ]
+    },
+    {
+      "titre": "Situer la France",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La France touche la Manche, la Méditerranée et l’océan Atlantique."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond pays et continent.",
+          "correction": "La France est un pays. L’Europe est un continent avec beaucoup de pays."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel océan borde l’ouest de la France ?",
+          "options": [
+            "l’océan Atlantique",
+            "l’océan Pacifique",
+            "l’océan Indien"
+          ],
+          "reponse": "l’océan Atlantique",
+          "explication": "Il est à l’ouest de la France."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’océans compte la Terre ?",
+      "options": [
+        "5",
+        "2",
+        "10"
+      ],
+      "reponse": "5",
+      "explication": "Atlantique, Pacifique, Indien, Arctique, Austral."
+    },
+    {
+      "consigne": "L’Antarctique est :",
+      "options": [
+        "un continent couvert de glace",
+        "un océan",
+        "un pays"
+      ],
+      "reponse": "un continent couvert de glace",
+      "explication": "Il est au pôle Sud."
+    },
+    {
+      "consigne": "Sur une carte, les océans sont :",
+      "options": [
+        "en bleu",
+        "en rouge",
+        "en noir"
+      ],
+      "reponse": "en bleu",
+      "explication": "Le bleu montre l’eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 80,
+      "extrait": "Repérer la position de sa région, de la France,",
+      "appui": "Situer la France"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

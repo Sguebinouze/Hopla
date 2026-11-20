@@ -1,0 +1,111 @@
+{
+  "competence": "QM-C2-CE1-TPS-02",
+  "duree": 6,
+  "essentiel": "Autrefois, pas de télévision, peu de voitures, pas de portable.\nPhotos, objets et souvenirs des grands-parents nous le racontent.\nCertaines choses ont changé, d’autres sont restées.",
+  "parties": [
+    {
+      "titre": "Comparer hier et aujourd’hui",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Il y a longtemps et aujourd’hui",
+          "colonnes": [
+            "Autrefois",
+            "Aujourd’hui"
+          ],
+          "lignes": [
+            [
+              "lettre par la poste",
+              "message sur un téléphone"
+            ],
+            [
+              "lavage du linge à la main",
+              "machine à laver"
+            ],
+            [
+              "éclairage à la bougie",
+              "lampe électrique"
+            ],
+            [
+              "école avec un encrier",
+              "école avec des tablettes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Autrefois, pour écrire à l’école, on utilisait :",
+          "options": [
+            "une plume et un encrier",
+            "une tablette",
+            "un ordinateur"
+          ],
+          "reponse": "une plume et un encrier",
+          "explication": "On trempait la plume dans l’encre."
+        }
+      ]
+    },
+    {
+      "titre": "Chercher des traces",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour savoir comment on vivait",
+          "etapes": [
+            "Regarde de vieilles photos.",
+            "Observe des objets anciens.",
+            "Interroge tes grands-parents."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout a changé.",
+          "correction": "On mange encore du pain, on joue encore à la marelle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Qui peut raconter la vie d’autrefois ?",
+      "options": [
+        "les grands-parents",
+        "un bébé",
+        "un robot"
+      ],
+      "reponse": "les grands-parents",
+      "explication": "Ils ont vécu ces changements."
+    },
+    {
+      "consigne": "Quel objet n’existait pas pour tes arrière-grands-parents enfants ?",
+      "options": [
+        "le téléphone portable",
+        "la bougie",
+        "le livre"
+      ],
+      "reponse": "le téléphone portable",
+      "explication": "Il est récent."
+    },
+    {
+      "consigne": "Une vieille photo est :",
+      "options": [
+        "une trace du passé",
+        "une invention",
+        "un jeu vidéo"
+      ],
+      "reponse": "une trace du passé",
+      "explication": "Elle montre comment on vivait."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 83,
+      "extrait": "Au CE1 : les élèves étudient l'évolution des modes de vie et des événements remarquables à",
+      "appui": "Évolution des modes de vie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "QM-C2-CE1-TPS-03",
+  "duree": 5,
+  "essentiel": "Une famille compte plusieurs générations : enfants, parents, grands-parents.\nMes parents sont nés avant moi. Mes grands-parents sont nés avant mes parents.\nUn arbre généalogique montre les générations.",
+  "parties": [
+    {
+      "titre": "Les générations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois générations",
+          "colonnes": [
+            "Génération",
+            "Qui ?"
+          ],
+          "lignes": [
+            [
+              "1re",
+              "les grands-parents"
+            ],
+            [
+              "2e",
+              "les parents, les oncles et tantes"
+            ],
+            [
+              "3e",
+              "les enfants, les cousins"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui est né en premier ?",
+          "options": [
+            "le grand-père",
+            "le père",
+            "l’enfant"
+          ],
+          "reponse": "le grand-père",
+          "explication": "Il appartient à la génération la plus ancienne."
+        }
+      ]
+    },
+    {
+      "titre": "L’arbre généalogique",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un arbre généalogique, les plus anciens sont en haut. Les plus jeunes sont en bas."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les cousins sont d’une autre génération.",
+          "correction": "Les cousins sont de la même génération que toi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le père de ma mère est :",
+      "options": [
+        "mon grand-père",
+        "mon oncle",
+        "mon cousin"
+      ],
+      "reponse": "mon grand-père",
+      "explication": "C’est la génération des grands-parents."
+    },
+    {
+      "consigne": "Mes cousins sont :",
+      "options": [
+        "de ma génération",
+        "de la génération de mes parents",
+        "de la génération de mes grands-parents"
+      ],
+      "reponse": "de ma génération",
+      "explication": "Ce sont les enfants de mes oncles et tantes."
+    },
+    {
+      "consigne": "Dans un arbre généalogique, les plus anciens sont :",
+      "options": [
+        "en haut",
+        "en bas",
+        "au milieu"
+      ],
+      "reponse": "en haut",
+      "explication": "On descend vers les plus jeunes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 81,
+      "extrait": "Les générations vivantes et la mémoire familiale",
+      "appui": "Générations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

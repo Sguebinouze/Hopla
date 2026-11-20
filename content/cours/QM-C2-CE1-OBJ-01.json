@@ -1,0 +1,118 @@
+{
+  "competence": "QM-C2-CE1-OBJ-01",
+  "duree": 6,
+  "essentiel": "Un circuit électrique simple : une pile, des fils, une lampe.\nPour que la lampe brille, le circuit doit être fermé.\nLes métaux conduisent le courant. Le plastique et le bois ne le conduisent pas.",
+  "parties": [
+    {
+      "titre": "Allumer une lampe",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour allumer une lampe",
+          "etapes": [
+            "Relie un fil à une borne de la pile.",
+            "Relie ce fil à la lampe.",
+            "Relie un autre fil de la lampe à l’autre borne."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relie la lampe à une seule borne.",
+          "correction": "Le courant doit faire le tour : une borne, la lampe, l’autre borne."
+        },
+        {
+          "type": "question",
+          "consigne": "La lampe s’éteint si le circuit est :",
+          "options": [
+            "ouvert",
+            "fermé",
+            "neuf"
+          ],
+          "reponse": "ouvert",
+          "explication": "Le courant ne passe plus."
+        }
+      ]
+    },
+    {
+      "titre": "Conducteur ou isolant ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tester des objets",
+          "colonnes": [
+            "Conducteur",
+            "Isolant"
+          ],
+          "lignes": [
+            [
+              "clé en métal",
+              "règle en plastique"
+            ],
+            [
+              "trombone",
+              "gomme"
+            ],
+            [
+              "papier aluminium",
+              "crayon en bois"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un trombone est :",
+          "options": [
+            "conducteur",
+            "isolant",
+            "vivant"
+          ],
+          "reponse": "conducteur",
+          "explication": "Il est en métal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une gomme est :",
+      "options": [
+        "isolante",
+        "conductrice",
+        "électrique"
+      ],
+      "reponse": "isolante",
+      "explication": "Le courant ne passe pas."
+    },
+    {
+      "consigne": "Que faut-il pour allumer une lampe ?",
+      "options": [
+        "une pile, des fils, un circuit fermé",
+        "seulement une lampe",
+        "de l’eau"
+      ],
+      "reponse": "une pile, des fils, un circuit fermé",
+      "explication": "Le circuit fait une boucle."
+    },
+    {
+      "consigne": "Un interrupteur sert à :",
+      "options": [
+        "ouvrir ou fermer le circuit",
+        "changer la pile",
+        "colorer la lumière"
+      ],
+      "reponse": "ouvrir ou fermer le circuit",
+      "explication": "Il allume et éteint."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 78,
+      "extrait": "Exemples de bon conducteurs et d’isolants.",
+      "appui": "Conducteurs et isolants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

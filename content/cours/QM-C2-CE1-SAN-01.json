@@ -1,0 +1,116 @@
+{
+  "competence": "QM-C2-CE1-SAN-01",
+  "duree": 6,
+  "essentiel": "On mange varié : fruits, légumes, féculents, laitages, viande ou poisson.\nOn boit de l’eau. On limite le sucre et le gras.\nOn dort bien, on bouge chaque jour, on se lave les mains.",
+  "parties": [
+    {
+      "titre": "Les familles d’aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Familles d’aliments",
+          "colonnes": [
+            "Famille",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "fruits et légumes",
+              "pomme, carotte"
+            ],
+            [
+              "féculents",
+              "pain, pâtes, riz"
+            ],
+            [
+              "produits laitiers",
+              "lait, yaourt, fromage"
+            ],
+            [
+              "viande, poisson, œufs",
+              "poulet, sardine"
+            ],
+            [
+              "sucres et graisses",
+              "bonbons, beurre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les pâtes sont des :",
+          "options": [
+            "féculents",
+            "fruits",
+            "produits laitiers"
+          ],
+          "reponse": "féculents",
+          "explication": "Elles donnent de l’énergie."
+        }
+      ]
+    },
+    {
+      "titre": "Prendre soin de soi",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Une bonne journée",
+          "etapes": [
+            "Prends un petit déjeuner.",
+            "Bois de l’eau quand tu as soif.",
+            "Bouge au moins une heure.",
+            "Couche-toi tôt pour bien dormir."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le jus de fruit remplace l’eau.",
+          "correction": "Il contient beaucoup de sucre. La seule boisson indispensable est l’eau."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle boisson est indispensable ?",
+      "options": [
+        "l’eau",
+        "le soda",
+        "le sirop"
+      ],
+      "reponse": "l’eau",
+      "explication": "Le corps a besoin d’eau chaque jour."
+    },
+    {
+      "consigne": "Le yaourt est un :",
+      "options": [
+        "produit laitier",
+        "féculent",
+        "légume"
+      ],
+      "reponse": "produit laitier",
+      "explication": "Il est fait avec du lait."
+    },
+    {
+      "consigne": "Quand faut-il se laver les mains ?",
+      "options": [
+        "avant de manger",
+        "seulement le dimanche",
+        "jamais"
+      ],
+      "reponse": "avant de manger",
+      "explication": "Pour éliminer les microbes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Catégories d’aliments, leur origine.",
+      "appui": "Catégories d’aliments"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

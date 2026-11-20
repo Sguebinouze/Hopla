@@ -1,0 +1,116 @@
+{
+  "competence": "QM-C2-CE1-ESP-03",
+  "duree": 6,
+  "essentiel": "Il existe plusieurs paysages : littoral, montagne, campagne, ville, désert.\nOn les reconnait au relief, à l’eau, aux plantes, aux constructions.\nLes humains transforment les paysages : routes, champs, maisons.",
+  "parties": [
+    {
+      "titre": "Reconnaitre un paysage",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des paysages",
+          "colonnes": [
+            "Paysage",
+            "Ce qu’on voit"
+          ],
+          "lignes": [
+            [
+              "littoral",
+              "la mer, une plage, un port"
+            ],
+            [
+              "montagne",
+              "des sommets, des pentes, de la neige"
+            ],
+            [
+              "campagne",
+              "des champs, des fermes, des villages"
+            ],
+            [
+              "ville",
+              "des immeubles, des rues, beaucoup de monde"
+            ],
+            [
+              "désert",
+              "du sable ou des cailloux, très peu de plantes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un port et une plage sont dans un paysage de :",
+          "options": [
+            "littoral",
+            "montagne",
+            "désert"
+          ],
+          "reponse": "littoral",
+          "explication": "Le littoral est au bord de la mer."
+        }
+      ]
+    },
+    {
+      "titre": "Observer une photo",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour décrire un paysage",
+          "etapes": [
+            "Regarde le premier plan, en bas de la photo.",
+            "Puis le second plan, au milieu.",
+            "Puis l’arrière-plan, au fond.",
+            "Cherche ce que les humains ont construit."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un champ est naturel.",
+          "correction": "Un champ est cultivé par les humains."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Des sommets enneigés appartiennent à :",
+      "options": [
+        "la montagne",
+        "la ville",
+        "le littoral"
+      ],
+      "reponse": "la montagne",
+      "explication": "La neige reste en altitude."
+    },
+    {
+      "consigne": "Beaucoup d’immeubles et de rues, c’est :",
+      "options": [
+        "la ville",
+        "la campagne",
+        "le désert"
+      ],
+      "reponse": "la ville",
+      "explication": "Beaucoup de monde y vit."
+    },
+    {
+      "consigne": "Une route est :",
+      "options": [
+        "construite par les humains",
+        "naturelle",
+        "un animal"
+      ],
+      "reponse": "construite par les humains",
+      "explication": "Les humains aménagent les paysages."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 82,
+      "extrait": "Reconnaître différents paysages : les littoraux,",
+      "appui": "Différents paysages"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,104 @@
+{
+  "competence": "QM-C2-CE1-ESP-01",
+  "duree": 6,
+  "essentiel": "Mots de position : devant, derrière, à gauche, à droite, entre, près.\nUn plan montre un lieu vu de dessus.\nLa légende explique les dessins du plan.",
+  "parties": [
+    {
+      "titre": "Lire un plan",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Imagine le plan de ta classe, vu du plafond.",
+          "exemples": [
+            "Les tables sont des rectangles.",
+            "La porte est un trait ouvert.",
+            "Le tableau est un trait épais."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire un plan",
+          "etapes": [
+            "Lis le titre.",
+            "Regarde la légende.",
+            "Repère un point connu, comme la porte."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un plan montre un lieu vu :",
+          "options": [
+            "de dessus",
+            "de côté",
+            "de dessous"
+          ],
+          "reponse": "de dessus",
+          "explication": "Comme un oiseau qui vole au-dessus."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire un trajet",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Va de la porte au bureau de la maitresse.",
+          "etapes": [
+            "Avance tout droit jusqu’au tableau.",
+            "Tourne à gauche.",
+            "Le bureau est devant toi."
+          ],
+          "conclusion": "Un trajet se décrit pas à pas."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie que la gauche dépend du sens de marche.",
+          "correction": "Tourne le plan dans ton sens, ou imagine-toi dedans."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À quoi sert la légende d’un plan ?",
+      "options": [
+        "à expliquer les dessins",
+        "à décorer",
+        "à écrire son nom"
+      ],
+      "reponse": "à expliquer les dessins",
+      "explication": "Elle dit ce que montre chaque dessin."
+    },
+    {
+      "consigne": "Le contraire de « près » est :",
+      "options": [
+        "loin",
+        "devant",
+        "sous"
+      ],
+      "reponse": "loin",
+      "explication": "Près et loin vont ensemble."
+    },
+    {
+      "consigne": "Sur un plan, une table est souvent :",
+      "options": [
+        "un rectangle",
+        "un rond rouge",
+        "une flèche"
+      ],
+      "reponse": "un rectangle",
+      "explication": "Vue de dessus, une table est un rectangle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 79,
+      "extrait": "Vocabulaire permettant de définir des positions",
+      "appui": "Vocabulaire des positions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

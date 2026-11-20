@@ -1,0 +1,115 @@
+{
+  "competence": "QM-C2-CE1-TPS-01",
+  "duree": 6,
+  "essentiel": "Une semaine a 7 jours. Une année a 12 mois et 4 saisons.\nLes saisons : printemps, été, automne, hiver.\nUne journée dure 24 heures. Une heure dure 60 minutes.",
+  "parties": [
+    {
+      "titre": "Jours, mois, saisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le calendrier",
+          "colonnes": [
+            "Unité",
+            "Combien ?"
+          ],
+          "lignes": [
+            [
+              "jours dans une semaine",
+              "7"
+            ],
+            [
+              "mois dans une année",
+              "12"
+            ],
+            [
+              "saisons dans une année",
+              "4"
+            ],
+            [
+              "jours dans une année",
+              "365, parfois 366"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mois dans une année ?",
+          "options": [
+            "12",
+            "7",
+            "4"
+          ],
+          "reponse": "12",
+          "explication": "De janvier à décembre."
+        }
+      ]
+    },
+    {
+      "titre": "Tout revient",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Jours, semaines et saisons reviennent toujours dans le même ordre. On dit que le temps est **cyclique**."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire un calendrier",
+          "etapes": [
+            "Trouve le mois.",
+            "Trouve la ligne de la semaine.",
+            "Lis le jour et la date."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les mois ont 30 jours.",
+          "correction": "Février a 28 ou 29 jours. D’autres mois ont 31 jours."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle saison vient après l’hiver ?",
+      "options": [
+        "le printemps",
+        "l’été",
+        "l’automne"
+      ],
+      "reponse": "le printemps",
+      "explication": "Puis l’été, puis l’automne."
+    },
+    {
+      "consigne": "Quel jour vient après mardi ?",
+      "options": [
+        "mercredi",
+        "lundi",
+        "jeudi"
+      ],
+      "reponse": "mercredi",
+      "explication": "Lundi, mardi, mercredi."
+    },
+    {
+      "consigne": "Combien de jours dans une semaine ?",
+      "options": [
+        "7",
+        "5",
+        "10"
+      ],
+      "reponse": "7",
+      "explication": "Du lundi au dimanche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 80,
+      "extrait": "Le caractère cyclique des jours, des semaines,",
+      "appui": "Le temps cyclique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
