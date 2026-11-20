@@ -1,0 +1,214 @@
+{
+  "competence": "MA-C2-CE1-GEO-01",
+  "duree": 8,
+  "essentiel": "Le cube, le pavé et la pyramide ont des faces plates.\nUn cube a 6 faces carrées, 12 arêtes et 8 sommets.\nUne pyramide à base carrée a 5 faces, 8 arêtes, 5 sommets.",
+  "parties": [
+    {
+      "titre": "Reconnaitre les solides",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des solides se cachent autour de toi.",
+          "exemples": [
+            "Une boite à chaussures a la forme d’un pavé.",
+            "Une boite de conserve a la forme d’un cylindre.",
+            "Une balle de tennis a la forme d’une boule."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les solides",
+          "colonnes": [
+            "Solide",
+            "Un objet qui lui ressemble"
+          ],
+          "lignes": [
+            [
+              "le cube",
+              "un dé"
+            ],
+            [
+              "le pavé",
+              "une boite à chaussures"
+            ],
+            [
+              "la pyramide",
+              "une tente de camping"
+            ],
+            [
+              "le cylindre",
+              "une boite de conserve"
+            ],
+            [
+              "le cône",
+              "un cornet de glace"
+            ],
+            [
+              "la boule",
+              "une balle"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une brique de lait a la forme :",
+          "options": [
+            "d’un pavé",
+            "d’une boule",
+            "d’un cône"
+          ],
+          "reponse": "d’un pavé",
+          "explication": "Ses faces sont des rectangles : c’est un pavé."
+        }
+      ]
+    },
+    {
+      "titre": "Faces, arêtes et sommets",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Face",
+              "definition": "Surface plate d’un solide."
+            },
+            {
+              "mot": "Arête",
+              "definition": "Trait où deux faces d’un solide se touchent."
+            },
+            {
+              "mot": "Sommet",
+              "definition": "Coin d’une figure ou d’un solide, où des traits se rejoignent."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cube"
+          },
+          "legende": "Un cube. Les traits en pointillés sont les arêtes cachées."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour compter les faces d’un cube",
+          "etapes": [
+            "Compte la face du dessus et celle du dessous : 2.",
+            "Compte les faces de devant et de derrière : 2.",
+            "Compte les faces de gauche et de droite : 2.",
+            "2 + 2 + 2 = 6 faces."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte seulement les faces qu’on voit : 3.",
+          "correction": "Certaines faces sont cachées. Un cube a 6 faces."
+        }
+      ]
+    },
+    {
+      "titre": "Cube, pavé, pyramide",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois solides",
+          "colonnes": [
+            "Solide",
+            "Faces",
+            "Arêtes",
+            "Sommets"
+          ],
+          "lignes": [
+            [
+              "cube",
+              "6 carrés",
+              "12",
+              "8"
+            ],
+            [
+              "pavé",
+              "6 rectangles",
+              "12",
+              "8"
+            ],
+            [
+              "pyramide à base carrée",
+              "1 carré et 4 triangles",
+              "8",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pyramide"
+          },
+          "legende": "Une pyramide à base carrée."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de sommets a une pyramide à base carrée ?",
+          "options": [
+            "5",
+            "4",
+            "8"
+          ],
+          "reponse": "5",
+          "explication": "4 sommets autour du carré, et 1 en haut."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’arêtes a un cube ?",
+      "options": [
+        "12",
+        "6",
+        "8"
+      ],
+      "reponse": "12",
+      "explication": "4 en haut, 4 en bas, 4 sur les côtés."
+    },
+    {
+      "consigne": "Les faces d’un pavé sont des :",
+      "options": [
+        "rectangles",
+        "triangles",
+        "cercles"
+      ],
+      "reponse": "rectangles",
+      "explication": "Un pavé a 6 faces rectangulaires."
+    },
+    {
+      "consigne": "Quel solide n’a pas de face plate ?",
+      "options": [
+        "la boule",
+        "le cube",
+        "la pyramide"
+      ],
+      "reponse": "la boule",
+      "explication": "La boule est toute ronde."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 33,
+      "extrait": "décrire ses faces (carrés, rectangles, triangles) et donner le nombre de ses arêtes et de",
+      "appui": "Décrire un cube, un pavé, une pyramide"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 32,
+      "extrait": "qu’une boite à chaussures a la forme d’un pavé, qu’une boite de conserve a la forme d’un",
+      "appui": "Solides dans l’environnement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

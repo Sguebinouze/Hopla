@@ -1,0 +1,161 @@
+{
+  "competence": "MA-C2-CE1-DUR-01",
+  "duree": 7,
+  "essentiel": "1 heure = 60 minutes.\n1 demi-heure = 30 minutes.\n1 quart d’heure = 15 minutes.\nUne durée, c’est le temps entre le début et la fin.",
+  "parties": [
+    {
+      "titre": "Heures et minutes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les durées à savoir",
+          "colonnes": [
+            "Durée",
+            "En minutes"
+          ],
+          "lignes": [
+            [
+              "1 heure",
+              "60 min"
+            ],
+            [
+              "1 demi-heure",
+              "30 min"
+            ],
+            [
+              "1 quart d’heure",
+              "15 min"
+            ],
+            [
+              "3 quarts d’heure",
+              "45 min"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Deux quarts d’heure font **une demi-heure**. Quatre quarts d’heure font **une heure**."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de minutes dure une demi-heure ?",
+          "options": [
+            "30",
+            "50",
+            "15"
+          ],
+          "reponse": "30",
+          "explication": "Une heure, c’est 60 minutes. La moitié, c’est 30."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer une durée",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le dessin animé va de 8 h 30 à 8 h 45.",
+          "exemples": [
+            "Les heures sont pareilles : 8 h.",
+            "Les minutes vont de 30 à 45.",
+            "45 − 30 = 15 minutes."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver une durée",
+          "etapes": [
+            "Pars de l’heure de début.",
+            "Avance jusqu’à l’heure pile suivante.",
+            "Avance ensuite jusqu’à l’heure de fin.",
+            "Ajoute les deux morceaux."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Durée entre 15 h 45 et 16 h 15 ?",
+          "etapes": [
+            "De 15 h 45 à 16 h : 15 minutes.",
+            "De 16 h à 16 h 15 : 15 minutes.",
+            "15 + 15 = 30."
+          ],
+          "conclusion": "La durée est 30 minutes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On calcule 16 h 15 − 15 h 45 comme 1615 − 1545.",
+          "correction": "Une heure a 60 minutes, pas 100. Passe par l’heure pile."
+        }
+      ]
+    },
+    {
+      "titre": "Comparer des durées",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Quelle est la plus longue : 2 heures ou 130 minutes ?",
+          "etapes": [
+            "2 heures = 60 + 60 = 120 minutes.",
+            "130 est plus grand que 120."
+          ],
+          "conclusion": "130 minutes, c’est plus long que 2 heures."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un quart d’heure et une demi-heure font :",
+      "options": [
+        "45 minutes",
+        "35 minutes",
+        "1 heure"
+      ],
+      "reponse": "45 minutes",
+      "explication": "15 + 30 = 45 minutes."
+    },
+    {
+      "consigne": "Le film va de 14 h à 15 h 30. Il dure :",
+      "options": [
+        "1 heure et demie",
+        "1 heure",
+        "30 minutes"
+      ],
+      "reponse": "1 heure et demie",
+      "explication": "De 14 h à 15 h : 1 heure. Puis 30 minutes."
+    },
+    {
+      "consigne": "Quelle durée est la plus courte ?",
+      "options": [
+        "50 minutes",
+        "1 heure",
+        "3 quarts d’heure et 10 minutes"
+      ],
+      "reponse": "50 minutes",
+      "explication": "1 heure = 60 min. 3 quarts d’heure et 10 min = 55 min."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 29,
+      "extrait": "1 heure = 60 minutes ; 1 demi-heure = 30 minutes",
+      "appui": "Relations entre unités"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 29,
+      "extrait": "L’élève sait déterminer la durée qui s’écoule entre 8 h 30 min et 8 h 45 min et celle entre",
+      "appui": "Calculer une durée"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 29,
+      "extrait": "L’élève sait comparer des durées comme 2 heures et 130 minutes.",
+      "appui": "Comparer des durées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

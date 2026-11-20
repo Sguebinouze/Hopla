@@ -1,0 +1,264 @@
+{
+  "competence": "MA-C2-CE1-GEO-02",
+  "duree": 9,
+  "essentiel": "Un rectangle a 4 côtés et 4 angles droits. Ses côtés opposés ont la même longueur.\nUn carré a 4 angles droits et 4 côtés de même longueur.\nUn triangle a 3 côtés. Un triangle rectangle a un angle droit.",
+  "parties": [
+    {
+      "titre": "L’angle droit",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Côté",
+              "definition": "Trait droit qui borde une figure."
+            },
+            {
+              "mot": "Sommet",
+              "definition": "Coin d’une figure ou d’un solide, où des traits se rejoignent."
+            },
+            {
+              "mot": "Angle droit",
+              "definition": "Coin carré, comme le coin d’une feuille. On le vérifie avec l’équerre."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Un angle plus petit qu’un angle droit est **aigu**. Un angle plus grand est **obtus**."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour vérifier un angle droit",
+          "etapes": [
+            "Pose le coin de l’équerre sur le sommet.",
+            "Colle un bord de l’équerre sur un côté.",
+            "Regarde si l’autre côté suit l’autre bord."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un angle plus grand qu’un angle droit est :",
+          "options": [
+            "obtus",
+            "aigu",
+            "droit"
+          ],
+          "reponse": "obtus",
+          "explication": "Obtus : plus ouvert que l’angle droit."
+        }
+      ]
+    },
+    {
+      "titre": "Le carré et le rectangle",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 13,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    1,
+                    5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    9,
+                    1
+                  ],
+                  [
+                    12,
+                    1
+                  ],
+                  [
+                    12,
+                    4
+                  ],
+                  [
+                    9,
+                    4
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un rectangle et un carré, tracés sur le quadrillage."
+        },
+        {
+          "type": "tableau",
+          "titre": "Carré et rectangle",
+          "colonnes": [
+            "Figure",
+            "Côtés",
+            "Angles"
+          ],
+          "lignes": [
+            [
+              "rectangle",
+              "4 côtés, opposés de même longueur",
+              "4 angles droits"
+            ],
+            [
+              "carré",
+              "4 côtés de même longueur",
+              "4 angles droits"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit qu’une figure est un rectangle sans vérifier ses angles.",
+          "correction": "Vérifie les 4 angles avec l’équerre. Un seul angle non droit suffit."
+        },
+        {
+          "type": "question",
+          "consigne": "Une figure a 4 côtés, mais un angle n’est pas droit. C’est :",
+          "options": [
+            "ni un carré ni un rectangle",
+            "un rectangle",
+            "un carré"
+          ],
+          "reponse": "ni un carré ni un rectangle",
+          "explication": "Le carré et le rectangle ont 4 angles droits."
+        }
+      ]
+    },
+    {
+      "titre": "Le triangle",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 13,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    6,
+                    5
+                  ],
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    8,
+                    1
+                  ],
+                  [
+                    8,
+                    5
+                  ],
+                  [
+                    12,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un triangle, puis un triangle rectangle."
+        },
+        {
+          "type": "explique",
+          "texte": "Un triangle a **3 côtés** et **3 sommets**. S’il a un angle droit, c’est un **triangle rectangle**."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de sommets a un triangle ?",
+          "options": [
+            "3",
+            "4",
+            "2"
+          ],
+          "reponse": "3",
+          "explication": "Un triangle a 3 côtés et 3 sommets."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’angles droits a un rectangle ?",
+      "options": [
+        "4",
+        "2",
+        "1"
+      ],
+      "reponse": "4",
+      "explication": "Les 4 angles d’un rectangle sont droits."
+    },
+    {
+      "consigne": "Quel outil vérifie un angle droit ?",
+      "options": [
+        "l’équerre",
+        "le compas",
+        "la gomme"
+      ],
+      "reponse": "l’équerre",
+      "explication": "Le coin de l’équerre est un angle droit."
+    },
+    {
+      "consigne": "Un triangle a un angle droit. C’est :",
+      "options": [
+        "un triangle rectangle",
+        "un rectangle",
+        "un carré"
+      ],
+      "reponse": "un triangle rectangle",
+      "explication": "Un triangle avec un angle droit est un triangle rectangle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 34,
+      "extrait": "L’élève sait dire qu’un rectangle a quatre sommets, quatre angles droits, quatre côtés et",
+      "appui": "Décrire le rectangle"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 34,
+      "extrait": "Il sait alors dire si l’angle est aigu (plus petit qu’un angle droit) ou obtus (plus grand",
+      "appui": "Angle aigu, angle obtus"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

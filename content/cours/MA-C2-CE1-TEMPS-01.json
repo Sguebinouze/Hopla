@@ -1,0 +1,175 @@
+{
+  "competence": "MA-C2-CE1-TEMPS-01",
+  "duree": 8,
+  "essentiel": "La petite aiguille montre les heures. La grande aiguille montre les minutes.\nGrande aiguille sur le 3 : et quart. Sur le 6 : et demie.\nL’après-midi, 2 heures se dit aussi 14 heures.",
+  "parties": [
+    {
+      "titre": "Les deux aiguilles",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde l’horloge.",
+          "exemples": [
+            "La petite aiguille est juste après le 2.",
+            "La grande aiguille est sur le 3.",
+            "Il est 2 heures et quart."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 14,
+            "minutes": 15
+          },
+          "legende": "2 heures et quart, ou 14 h 15 l’après-midi."
+        },
+        {
+          "type": "tableau",
+          "titre": "Où est la grande aiguille ?",
+          "colonnes": [
+            "Grande aiguille",
+            "On dit",
+            "Minutes"
+          ],
+          "lignes": [
+            [
+              "sur le 12",
+              "heure pile",
+              "0"
+            ],
+            [
+              "sur le 3",
+              "et quart",
+              "15"
+            ],
+            [
+              "sur le 6",
+              "et demie",
+              "30"
+            ],
+            [
+              "sur le 9",
+              "moins le quart",
+              "45"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La grande aiguille est sur le 6. On dit :",
+          "options": [
+            "et demie",
+            "et quart",
+            "pile"
+          ],
+          "reponse": "et demie",
+          "explication": "Sur le 6, la grande aiguille a fait un demi-tour."
+        }
+      ]
+    },
+    {
+      "titre": "Le matin et l’après-midi",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une journée dure **24 heures**. La petite aiguille fait deux tours. Après midi, on compte 13, 14, 15…"
+        },
+        {
+          "type": "tableau",
+          "titre": "Après midi",
+          "colonnes": [
+            "On dit",
+            "On écrit"
+          ],
+          "lignes": [
+            [
+              "1 heure de l’après-midi",
+              "13 h"
+            ],
+            [
+              "3 heures de l’après-midi",
+              "15 h"
+            ],
+            [
+              "7 heures du soir",
+              "19 h"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour l’heure de l’après-midi",
+          "etapes": [
+            "Lis l’heure sur l’horloge : 3 heures.",
+            "Ajoute 12 : 3 + 12 = 15.",
+            "Il est 15 heures."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit la grande aiguille comme les heures.",
+          "correction": "La petite aiguille donne l’heure. La grande donne les minutes."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 9,
+            "minutes": 30
+          },
+          "legende": "9 heures et demie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Il est 4 heures de l’après-midi. On écrit :",
+      "options": [
+        "16 h",
+        "4 h",
+        "14 h"
+      ],
+      "reponse": "16 h",
+      "explication": "4 + 12 = 16. Il est 16 h."
+    },
+    {
+      "consigne": "La grande aiguille est sur le 3, la petite après le 8. Il est :",
+      "options": [
+        "8 heures et quart",
+        "3 heures et 8",
+        "8 heures et demie"
+      ],
+      "reponse": "8 heures et quart",
+      "explication": "Petite aiguille : 8 heures. Grande sur le 3 : et quart."
+    },
+    {
+      "consigne": "Une horloge digitale affiche 14 : 15. Il est :",
+      "options": [
+        "2 heures et quart de l’après-midi",
+        "14 heures du matin",
+        "4 heures et quart"
+      ],
+      "reponse": "2 heures et quart de l’après-midi",
+      "explication": "14 h, c’est 2 heures de l’après-midi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 28,
+      "extrait": "L’élève comprend et utilise les expressions « trois heures du matin », « trois heures de",
+      "appui": "Matin et après-midi"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 28,
+      "extrait": "qu’il est « 2 heures et quart » ou « 14 heures et 15 minutes » et il sait que sur une horloge",
+      "appui": "Lire l’heure sur une horloge à aiguilles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

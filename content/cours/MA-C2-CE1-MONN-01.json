@@ -1,0 +1,179 @@
+{
+  "competence": "MA-C2-CE1-MONN-01",
+  "duree": 8,
+  "essentiel": "1 € = 100 centimes.\nAvec une virgule : 2 € et 5 centimes s’écrit 2,05 €.\nAvant la virgule, les euros. Après la virgule, les centimes.",
+  "parties": [
+    {
+      "titre": "Euros et centimes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde ces pièces et ces billets.",
+          "exemples": [
+            "Les billets : 5 €, 10 €, 20 €…",
+            "Les grosses pièces : 1 € et 2 €.",
+            "Les petites pièces : les centimes."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "monnaie",
+            "valeurs": [
+              2,
+              1,
+              0.5,
+              0.2,
+              0.05
+            ]
+          },
+          "legende": "2 € + 1 € + 50 c + 20 c + 5 c = 3 € et 75 centimes."
+        },
+        {
+          "type": "explique",
+          "texte": "Une pièce de **1 €** vaut autant que **100 pièces** de 1 centime."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de centimes dans 1 € ?",
+          "options": [
+            "100",
+            "10",
+            "1 000"
+          ],
+          "reponse": "100",
+          "explication": "1 € = 100 centimes."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire une somme avec une virgule",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Écrire une somme",
+          "colonnes": [
+            "Somme",
+            "Avec la virgule"
+          ],
+          "lignes": [
+            [
+              "2 € et 5 centimes",
+              "2,05 €"
+            ],
+            [
+              "2 € et 50 centimes",
+              "2,50 €"
+            ],
+            [
+              "85 centimes",
+              "0,85 €"
+            ],
+            [
+              "17 €",
+              "17,00 €"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour écrire une somme",
+          "etapes": [
+            "Écris les euros, puis une virgule.",
+            "Écris les centimes avec deux chiffres.",
+            "Ajoute le signe €."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 2,5 € pour 2 € et 5 centimes.",
+          "correction": "Les centimes ont toujours deux chiffres : 2,05 €."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on 4 € et 8 centimes ?",
+          "options": [
+            "4,08 €",
+            "4,8 €",
+            "48 €"
+          ],
+          "reponse": "4,08 €",
+          "explication": "8 centimes s’écrivent 08 après la virgule."
+        }
+      ]
+    },
+    {
+      "titre": "Comparer des sommes",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Quel prix est le plus cher : 3,45 € ou 3,09 € ?",
+          "etapes": [
+            "Les euros sont pareils : 3 €.",
+            "Compare les centimes : 45 et 9."
+          ],
+          "conclusion": "3,45 € est le plus cher."
+        },
+        {
+          "type": "explique",
+          "texte": "345 centimes, c’est 3 € et 45 centimes. On écrit 3,45 €."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on 6 € et 30 centimes ?",
+      "options": [
+        "6,30 €",
+        "6,3 c",
+        "630 €"
+      ],
+      "reponse": "6,30 €",
+      "explication": "6 euros, une virgule, puis 30 centimes."
+    },
+    {
+      "consigne": "Que vaut 0,75 € ?",
+      "options": [
+        "75 centimes",
+        "7 € et 5 centimes",
+        "75 €"
+      ],
+      "reponse": "75 centimes",
+      "explication": "Aucun euro, et 75 centimes."
+    },
+    {
+      "consigne": "Quel prix est le moins cher ?",
+      "options": [
+        "1,90 €",
+        "2,05 €",
+        "2,50 €"
+      ],
+      "reponse": "1,90 €",
+      "explication": "1 € est moins que 2 €. 1,90 € est le moins cher."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 28,
+      "extrait": "L’élève doit savoir qu’une pièce d’un euro a la même valeur que cent pièces d’un",
+      "appui": "Lien entre euros et centimes"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 28,
+      "extrait": "2 € et 5 centimes s’écrit 2,05 €",
+      "appui": "Écriture à virgule"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 28,
+      "extrait": "85 centimes = 0,85 €",
+      "appui": "Moins d’un euro"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

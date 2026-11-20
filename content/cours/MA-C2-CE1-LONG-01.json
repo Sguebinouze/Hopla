@@ -1,0 +1,192 @@
+{
+  "competence": "MA-C2-CE1-LONG-01",
+  "duree": 8,
+  "essentiel": "On mesure les longueurs en mètres (m), centimètres (cm) et kilomètres (km).\n1 m = 100 cm. 1 km = 1 000 m.\nPour mesurer avec une règle, on part du 0.",
+  "parties": [
+    {
+      "titre": "Trois unités de longueur",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Chaque unité sert pour une taille d’objet.",
+          "exemples": [
+            "Une gomme mesure environ 4 cm.",
+            "Une porte mesure environ 2 m.",
+            "La piscine est à 3 km de l’école."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les unités",
+          "colonnes": [
+            "Unité",
+            "Symbole",
+            "Pour mesurer"
+          ],
+          "lignes": [
+            [
+              "le centimètre",
+              "cm",
+              "un crayon, un livre"
+            ],
+            [
+              "le mètre",
+              "m",
+              "une classe, un arbre"
+            ],
+            [
+              "le kilomètre",
+              "km",
+              "un trajet en voiture"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Dans **1 m**, il y a **100 cm**. Dans **1 km**, il y a **1 000 m**."
+        },
+        {
+          "type": "question",
+          "consigne": "Une trousse mesure plutôt :",
+          "options": [
+            "20 cm",
+            "2 cm",
+            "2 m"
+          ],
+          "reponse": "20 cm",
+          "explication": "Une trousse tient dans le cartable. Elle mesure environ 20 cm."
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer avec une règle",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "regle",
+            "graduations": 12,
+            "debut": 0,
+            "fin": 7
+          },
+          "legende": "Le trait part du 0 et finit au 7. Il mesure 7 cm."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour mesurer un trait",
+          "etapes": [
+            "Place le 0 de la règle au début du trait.",
+            "Lis le nombre à la fin du trait.",
+            "Écris l’unité : cm."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On place le bord de la règle au début du trait.",
+          "correction": "Le bord n’est pas toujours le 0. Cherche le 0 sur la règle."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "regle",
+            "graduations": 12,
+            "debut": 2,
+            "fin": 9
+          },
+          "legende": "Ce trait va de 2 à 9. Il mesure 9 − 2 = 7 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "Un trait va de 3 à 8 sur la règle. Il mesure :",
+          "options": [
+            "5 cm",
+            "8 cm",
+            "11 cm"
+          ],
+          "reponse": "5 cm",
+          "explication": "8 − 3 = 5. Le trait mesure 5 cm."
+        }
+      ]
+    },
+    {
+      "titre": "Changer d’unité",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 1 m 46 cm en centimètres.",
+          "etapes": [
+            "1 m, c’est 100 cm.",
+            "On ajoute les 46 cm : 100 + 46 = 146."
+          ],
+          "conclusion": "1 m 46 cm = 146 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mètres dans 2 km ?",
+          "options": [
+            "2 000 m",
+            "200 m",
+            "20 m"
+          ],
+          "reponse": "2 000 m",
+          "explication": "1 km = 1 000 m. Donc 2 km = 2 000 m."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de centimètres dans 1 m ?",
+      "options": [
+        "100",
+        "10",
+        "1 000"
+      ],
+      "reponse": "100",
+      "explication": "1 m = 100 cm."
+    },
+    {
+      "consigne": "Écris 1 m 20 cm en centimètres.",
+      "options": [
+        "120 cm",
+        "102 cm",
+        "1 020 cm"
+      ],
+      "reponse": "120 cm",
+      "explication": "100 cm + 20 cm = 120 cm."
+    },
+    {
+      "consigne": "La distance entre deux villes se mesure plutôt en :",
+      "options": [
+        "km",
+        "cm",
+        "m"
+      ],
+      "reponse": "km",
+      "explication": "Les longs trajets se mesurent en kilomètres."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "L’élève sait que 1 m = 100 cm et 1 km = 1 000 m.",
+      "appui": "Unités et relations"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "L’élève sait dire si la longueur d’une trousse est plutôt 2 cm, 20 cm ou 2 m.",
+      "appui": "Longueurs de référence"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "L’élève sait encadrer la longueur d’un segment par deux nombres entiers de centimètres.",
+      "appui": "Mesurer avec une règle graduée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

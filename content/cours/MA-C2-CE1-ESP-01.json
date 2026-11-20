@@ -1,0 +1,134 @@
+{
+  "competence": "MA-C2-CE1-ESP-01",
+  "duree": 6,
+  "essentiel": "Pour situer un objet, on utilise des mots de position.\nSur, sous, devant, derrière, entre, à gauche, à droite, près, loin.",
+  "parties": [
+    {
+      "titre": "Les mots de position",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Imagine la chambre de Lina.",
+          "exemples": [
+            "Le chat dort sous le lit.",
+            "La lampe est sur la table.",
+            "Le tapis est entre le lit et l’armoire."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des mots qui vont par deux",
+          "colonnes": [
+            "Mot",
+            "Son contraire"
+          ],
+          "lignes": [
+            [
+              "sur",
+              "sous"
+            ],
+            [
+              "devant",
+              "derrière"
+            ],
+            [
+              "à gauche",
+              "à droite"
+            ],
+            [
+              "au-dessus",
+              "en dessous"
+            ],
+            [
+              "près",
+              "loin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le contraire de « devant » est :",
+          "options": [
+            "derrière",
+            "sous",
+            "loin"
+          ],
+          "reponse": "derrière",
+          "explication": "Devant et derrière vont ensemble."
+        }
+      ]
+    },
+    {
+      "titre": "Gauche et droite",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La **gauche** et la **droite** dépendent de celui qui regarde. Lève la main qui tient ton crayon."
+        },
+        {
+          "type": "piege",
+          "erreur": "Face à face, on croit avoir la même droite.",
+          "correction": "Face à toi, ma droite est de ton côté gauche."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Trois enfants sont en rang : Léo, Sam, Mia. Qui est entre les deux autres ?",
+          "etapes": [
+            "Léo est au début. Mia est à la fin.",
+            "Sam est au milieu."
+          ],
+          "conclusion": "Sam est entre Léo et Mia."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le chat est sous la table. La table est :",
+      "options": [
+        "au-dessus du chat",
+        "sous le chat",
+        "derrière le chat"
+      ],
+      "reponse": "au-dessus du chat",
+      "explication": "Si le chat est sous la table, la table est au-dessus."
+    },
+    {
+      "consigne": "Le contraire de « près » est :",
+      "options": [
+        "loin",
+        "entre",
+        "sur"
+      ],
+      "reponse": "loin",
+      "explication": "Près et loin vont ensemble."
+    },
+    {
+      "consigne": "Rang : Tom, Ana, Zoé. Qui est entre Tom et Zoé ?",
+      "options": [
+        "Ana",
+        "Tom",
+        "Zoé"
+      ],
+      "reponse": "Ana",
+      "explication": "Ana est au milieu du rang."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 33,
+      "extrait": "Connaitre et utiliser le vocabulaire lié aux positions relatives",
+      "appui": "Vocabulaire des positions"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 34,
+      "extrait": "sur, sous, entre, devant, derrière, au-dessus, en dessous ;",
+      "appui": "Liste des mots de position"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

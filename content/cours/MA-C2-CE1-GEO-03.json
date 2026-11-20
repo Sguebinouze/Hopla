@@ -1,0 +1,163 @@
+{
+  "competence": "MA-C2-CE1-GEO-03",
+  "duree": 6,
+  "essentiel": "Le cercle est une ligne ronde et fermée. Le disque est la surface à l’intérieur.\nLe centre est au milieu. On trace un cercle avec un compas.",
+  "parties": [
+    {
+      "titre": "Cercle ou disque ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde une pièce de monnaie.",
+          "exemples": [
+            "Son bord est un cercle.",
+            "La pièce entière est un disque."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 12,
+            "hauteur": 7,
+            "elements": [
+              {
+                "forme": "cercle",
+                "centre": [
+                  3,
+                  3.5
+                ],
+                "rayon": 2.5
+              },
+              {
+                "forme": "point",
+                "en": [
+                  3,
+                  3.5
+                ],
+                "nom": "O"
+              },
+              {
+                "forme": "cercle",
+                "centre": [
+                  9,
+                  3.5
+                ],
+                "rayon": 2.5,
+                "plein": true
+              }
+            ]
+          },
+          "legende": "À gauche, un cercle de centre O. À droite, un disque."
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cercle",
+              "definition": "Ligne ronde et fermée. Tous ses points sont à la même distance du centre."
+            },
+            {
+              "mot": "Disque",
+              "definition": "Surface ronde, limitée par un cercle."
+            },
+            {
+              "mot": "Centre",
+              "definition": "Point au milieu exact d’un cercle ou d’un disque."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une assiette posée sur la table a la forme :",
+          "options": [
+            "d’un disque",
+            "d’un cercle",
+            "d’un carré"
+          ],
+          "reponse": "d’un disque",
+          "explication": "L’assiette est pleine : c’est un disque. Son bord est un cercle."
+        }
+      ]
+    },
+    {
+      "titre": "Tracer un cercle",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour tracer un cercle au compas",
+          "etapes": [
+            "Marque le centre avec une croix.",
+            "Plante la pointe du compas sur le centre.",
+            "Tourne le compas sans changer son écartement."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On bouge la pointe pendant le tracé.",
+          "correction": "La pointe reste sur le centre. Sinon, le cercle n’est pas rond."
+        },
+        {
+          "type": "question",
+          "consigne": "Où plante-t-on la pointe du compas ?",
+          "options": [
+            "sur le centre",
+            "sur le cercle",
+            "n’importe où"
+          ],
+          "reponse": "sur le centre",
+          "explication": "La pointe reste sur le centre du cercle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le bord d’une roue est :",
+      "options": [
+        "un cercle",
+        "un disque",
+        "un carré"
+      ],
+      "reponse": "un cercle",
+      "explication": "Le bord est une ligne : c’est un cercle."
+    },
+    {
+      "consigne": "Quel outil sert à tracer un cercle ?",
+      "options": [
+        "le compas",
+        "l’équerre",
+        "la règle"
+      ],
+      "reponse": "le compas",
+      "explication": "On trace un cercle avec un compas."
+    },
+    {
+      "consigne": "Comment s’appelle le point au milieu d’un cercle ?",
+      "options": [
+        "le centre",
+        "le sommet",
+        "le côté"
+      ],
+      "reponse": "le centre",
+      "explication": "C’est le centre du cercle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 34,
+      "extrait": "disque, cercle, centre",
+      "appui": "Vocabulaire du cercle"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 34,
+      "extrait": "L’élève sait tracer un cercle avec un compas.",
+      "appui": "Tracer au compas"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

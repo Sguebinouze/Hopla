@@ -1,0 +1,159 @@
+{
+  "competence": "MA-C2-CE1-MAS-01",
+  "duree": 7,
+  "essentiel": "On mesure les masses en grammes (g) et en kilogrammes (kg).\n1 kg = 1 000 g.\nUn paquet de sucre pèse 1 kg.",
+  "parties": [
+    {
+      "titre": "Lourd ou léger",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Pèse ces objets dans ta tête.",
+          "exemples": [
+            "Un sachet de levure pèse environ 10 g.",
+            "Un paquet de sucre pèse 1 kg.",
+            "Un grand chien pèse environ 30 kg."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Pour les objets légers, on utilise le **gramme**. Pour les objets lourds, on utilise le **kilogramme**."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des masses à connaitre",
+          "colonnes": [
+            "Objet",
+            "Masse"
+          ],
+          "lignes": [
+            [
+              "un sachet de levure",
+              "environ 10 g"
+            ],
+            [
+              "une pomme",
+              "environ 150 g"
+            ],
+            [
+              "un paquet de sucre",
+              "1 kg"
+            ],
+            [
+              "un enfant de CE1",
+              "environ 25 kg"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une pomme pèse plutôt :",
+          "options": [
+            "150 g",
+            "150 kg",
+            "1 g"
+          ],
+          "reponse": "150 g",
+          "explication": "Une pomme est légère. On la pèse en grammes."
+        }
+      ]
+    },
+    {
+      "titre": "Grammes et kilogrammes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans **1 kg**, il y a **1 000 g**. Mille grammes pèsent autant qu’un paquet de sucre."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 1 kg 300 g en grammes.",
+          "etapes": [
+            "1 kg, c’est 1 000 g.",
+            "On ajoute 300 g : 1 000 + 300 = 1 300."
+          ],
+          "conclusion": "1 kg 300 g = 1 300 g."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux masses",
+          "etapes": [
+            "Écris les deux masses en grammes.",
+            "Compare les deux nombres."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 900 g est plus lourd que 1 kg.",
+          "correction": "1 kg = 1 000 g. Et 1 000 est plus grand que 900."
+        },
+        {
+          "type": "question",
+          "consigne": "Range du plus léger au plus lourd.",
+          "options": [
+            "1 000 g ; 1 kg 300 g ; 2 kg",
+            "2 kg ; 1 000 g ; 1 kg 300 g",
+            "1 kg 300 g ; 1 000 g ; 2 kg"
+          ],
+          "reponse": "1 000 g ; 1 kg 300 g ; 2 kg",
+          "explication": "En grammes : 1 000, 1 300, 2 000."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de grammes dans 1 kg ?",
+      "options": [
+        "1 000",
+        "100",
+        "10"
+      ],
+      "reponse": "1 000",
+      "explication": "1 kg = 1 000 g."
+    },
+    {
+      "consigne": "Quel est le plus lourd ?",
+      "options": [
+        "2 kg",
+        "1 500 g",
+        "900 g"
+      ],
+      "reponse": "2 kg",
+      "explication": "2 kg = 2 000 g. C’est le plus lourd."
+    },
+    {
+      "consigne": "Un cartable pèse plutôt :",
+      "options": [
+        "3 kg",
+        "3 g",
+        "300 kg"
+      ],
+      "reponse": "3 kg",
+      "explication": "Un cartable se porte sur le dos. Il pèse quelques kilogrammes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "L’élève connait la masse de quelques objets du quotidien.",
+      "appui": "Masses de référence"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "sucre pèse 1 kg et un sachet de levure pèse environ 10 g.",
+      "appui": "Paquet de sucre et sachet de levure"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 27,
+      "extrait": "L’élève sait ordonner quatre masses exprimées en gramme ou en kilogramme.",
+      "appui": "Ranger des masses"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

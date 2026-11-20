@@ -1,0 +1,142 @@
+{
+  "competence": "MA-C2-CE1-DATA-01",
+  "duree": 6,
+  "essentiel": "Dans un diagramme en barres, chaque barre montre un nombre.\nPlus la barre est haute, plus le nombre est grand.\nLis le nombre sur l’axe, en face du haut de la barre.",
+  "parties": [
+    {
+      "titre": "Lire un diagramme",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une classe a voté pour son fruit préféré.",
+          "exemples": [
+            "4 élèves aiment l’orange.",
+            "12 élèves aiment la fraise.",
+            "8 élèves aiment la banane.",
+            "2 élèves aiment le kiwi."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Fruit préféré",
+            "unite": "élèves",
+            "pas": 2,
+            "barres": [
+              {
+                "nom": "orange",
+                "valeur": 4
+              },
+              {
+                "nom": "fraise",
+                "valeur": 12
+              },
+              {
+                "nom": "banane",
+                "valeur": 8
+              },
+              {
+                "nom": "kiwi",
+                "valeur": 2
+              }
+            ]
+          },
+          "legende": "Le fruit préféré des élèves de la classe."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire une barre",
+          "etapes": [
+            "Trouve la barre du fruit.",
+            "Suis le haut de la barre jusqu’à l’axe.",
+            "Lis le nombre sur l’axe."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien d’élèves aiment la banane ?",
+          "options": [
+            "8",
+            "12",
+            "4"
+          ],
+          "reponse": "8",
+          "explication": "La barre « banane » monte jusqu’à 8."
+        }
+      ]
+    },
+    {
+      "titre": "Répondre à une question",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le fruit **le plus aimé** a la barre la plus haute. Ici, c’est la fraise."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Combien d’élèves de plus aiment la fraise que la banane ?",
+          "etapes": [
+            "Fraise : 12. Banane : 8.",
+            "On cherche l’écart : 12 − 8 = 4."
+          ],
+          "conclusion": "4 élèves de plus aiment la fraise."
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte les traits de l’axe au lieu de lire les nombres.",
+          "correction": "L’axe va de 2 en 2. Lis le nombre écrit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel fruit est le moins aimé ?",
+      "options": [
+        "le kiwi",
+        "l’orange",
+        "la fraise"
+      ],
+      "reponse": "le kiwi",
+      "explication": "La barre du kiwi est la plus basse : 2."
+    },
+    {
+      "consigne": "Combien d’élèves aiment l’orange ?",
+      "options": [
+        "4",
+        "2",
+        "8"
+      ],
+      "reponse": "4",
+      "explication": "La barre « orange » monte jusqu’à 4."
+    },
+    {
+      "consigne": "Combien d’élèves ont voté en tout ?",
+      "options": [
+        "26",
+        "24",
+        "12"
+      ],
+      "reponse": "26",
+      "explication": "4 + 12 + 8 + 2 = 26."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 38,
+      "extrait": "Lire et interpréter les données d’un diagramme en barres",
+      "appui": "Lire un diagramme en barres"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 38,
+      "extrait": "L’élève sait répondre à des questions dont les réponses se lisent sur un diagramme en",
+      "appui": "Répondre à une question"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

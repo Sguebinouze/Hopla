@@ -4,30 +4,7 @@
 
 Phrases de 12 mots au plus (cycle 2). Les pages des extraits sont retrouvées ensuite dans les PDF archivés.
 """
-import json, os
-
-RACINE = os.path.normpath(os.path.join(os.path.dirname(__file__), '..', '..'))
-BO = 'bo41-2024-maths-c2'
-LIVRET = 'eduscol-livret-maths-ce1-2025'
-FRAC = 'eduscol-fractions-ce1-cm2-2025'
-
-
-def q(consigne, options, explication):
-    """Question : la première option est la bonne réponse."""
-    return {'consigne': consigne, 'options': options, 'reponse': options[0], 'explication': explication}
-
-
-def bq(consigne, options, explication):
-    return {'type': 'question', **q(consigne, options, explication)}
-
-
-def src(id_, extrait, appui, page=None):
-    return {'id': id_, 'page': page, 'extrait': extrait, 'appui': appui}
-
-
-def barres(*b):
-    return {'type': 'fractions', 'barres': [{'parts': p, 'coloriees': c, 'nom': f'{c}/{p}'} for p, c in b]}
-
+from commun import BO, FRAC, LIVRET, barres, bq, ecrire, q, src
 
 COURS = {
     'MA-C2-CE1-NUM-01': dict(duree=8, essentiel=
@@ -423,15 +400,4 @@ COURS = {
 }
 
 
-for competence, c in COURS.items():
-    cours = {
-        'competence': competence, 'duree': c['duree'], 'essentiel': c['essentiel'],
-        'parties': [{'titre': t, 'blocs': b} for t, b in c['parties']],
-        'a_toi': c['a_toi'], 'sources': c['sources'],
-        'statut': 'brouillon', 'auteur': 'ia', 'relu_par': None,
-    }
-    chemin = os.path.join(RACINE, 'content', 'cours', f'{competence}.json')
-    with open(chemin, 'w', encoding='utf-8') as f:
-        json.dump(cours, f, ensure_ascii=False, indent=2)
-        f.write('\n')
-print(len(COURS), 'cours écrits')
+ecrire(COURS)

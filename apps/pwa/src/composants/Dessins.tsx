@@ -5,6 +5,7 @@ import { dessinSolide, type CouleurBoule, type NomSolide, type Visuel as V } fro
 const POLICE = { fontFamily: 'var(--font-text)', fontWeight: 600 } as const;
 const OR = '#E2B23C';
 const ARGENT = '#C9CED6';
+const CUIVRE = '#C2703D';
 const ENCRE_OBJET = '#1A1D3A';
 const BILLETS: Record<number, string> = { 5: '#A3A9B3', 10: '#E07A68', 20: '#5B8FDB', 50: '#F0954A', 100: '#5BB37A' };
 const BOULES: Record<CouleurBoule, string> = { rouge: '#E5484D', bleue: '#3E7BFA', verte: '#30A46C', jaune: '#FFC53D', noire: '#2B2E3A' };
@@ -36,6 +37,9 @@ export function Horloge({ heures, minutes }: Extract<V, { type: 'horloge' }>) {
   );
 }
 
+/** Diamètre d'une pièce (centimes : 0,50 € à 0,01 €, plus petites que l'euro). */
+const DIAMETRES: Record<number, number> = { 2: 46, 1: 42, 0.5: 40, 0.2: 36, 0.1: 32, 0.05: 34, 0.02: 30, 0.01: 26 };
+
 /** Pièces et billets : les billets d'abord, puis les pièces, rangés en lignes. */
 export function Monnaie({ valeurs }: Extract<V, { type: 'monnaie' }>) {
   const largeur = 352;
@@ -47,7 +51,8 @@ export function Monnaie({ valeurs }: Extract<V, { type: 'monnaie' }>) {
   let billet = true;
   for (const v of tries) {
     const estBillet = v >= 5;
-    const [l, h] = estBillet ? [86, 48] : v === 2 ? [46, 46] : [42, 42];
+    const d = DIAMETRES[v] ?? 42;
+    const [l, h] = estBillet ? [86, 48] : [d, d];
     if (billet && !estBillet && x > 0) { x = 0; y += hLigne + 10; hLigne = 0; }
     billet = estBillet;
     if (x + l > largeur) { x = 0; y += hLigne + 10; hLigne = 0; }
@@ -56,23 +61,36 @@ export function Monnaie({ valeurs }: Extract<V, { type: 'monnaie' }>) {
     hLigne = Math.max(hLigne, h);
   }
   const hauteur = y + hLigne;
+  const centimes = valeurs.some((v) => v < 1);
   return (
-    <svg width="100%" viewBox={`-2 -2 ${largeur + 4} ${hauteur + 4}`} role="img" aria-label="Des pièces et des billets en euros" style={{ maxWidth: largeur }}>
-      {places.map(({ v, x: px, y: py, l, h }, i) =>
-        v >= 5 ? (
+    <svg width="100%" viewBox={`-2 -2 ${largeur + 4} ${hauteur + 4}`} role="img" aria-label={centimes ? 'Des pièces et des billets en euros et en centimes' : 'Des pièces et des billets en euros'} style={{ maxWidth: largeur }}>
+      {places.map(({ v, x: px, y: py, l, h }, i) => {
+        if (v >= 5) return (
           <g key={i}>
             <rect x={px} y={py} width={l} height={h} rx={5} fill={BILLETS[v]} stroke={ENCRE_OBJET} strokeOpacity={0.35} strokeWidth={1.5} />
             <rect x={px + 6} y={py + 6} width={l - 12} height={h - 12} rx={3} fill="none" stroke="#FFFFFF" strokeOpacity={0.5} />
             <text x={px + l / 2} y={py + h / 2 + 7} textAnchor="middle" fontSize={20} fill={ENCRE_OBJET} {...POLICE}>{v} €</text>
           </g>
-        ) : (
+        );
+        const cx = px + l / 2;
+        const cy = py + h / 2;
+        if (v < 1) {
+          const c = Math.round(v * 100);
+          return (
+            <g key={i}>
+              <circle cx={cx} cy={cy} r={l / 2 - 1} fill={c >= 10 ? OR : CUIVRE} stroke={ENCRE_OBJET} strokeOpacity={0.35} strokeWidth={1.5} />
+              <text x={cx} y={cy + 5} textAnchor="middle" fontSize={l > 30 ? 13 : 11} fill={ENCRE_OBJET} {...POLICE}>{c} c</text>
+            </g>
+          );
+        }
+        return (
           <g key={i}>
-            <circle cx={px + l / 2} cy={py + h / 2} r={l / 2 - 1} fill={v === 2 ? OR : ARGENT} stroke={ENCRE_OBJET} strokeOpacity={0.35} strokeWidth={1.5} />
-            <circle cx={px + l / 2} cy={py + h / 2} r={l / 2 - 8} fill={v === 2 ? ARGENT : OR} />
-            <text x={px + l / 2} y={py + h / 2 + 6} textAnchor="middle" fontSize={17} fill={ENCRE_OBJET} {...POLICE}>{v}</text>
+            <circle cx={cx} cy={cy} r={l / 2 - 1} fill={v === 2 ? OR : ARGENT} stroke={ENCRE_OBJET} strokeOpacity={0.35} strokeWidth={1.5} />
+            <circle cx={cx} cy={cy} r={l / 2 - 8} fill={v === 2 ? ARGENT : OR} />
+            <text x={cx} y={cy + 6} textAnchor="middle" fontSize={17} fill={ENCRE_OBJET} {...POLICE}>{v}</text>
           </g>
-        ),
-      )}
+        );
+      })}
     </svg>
   );
 }
