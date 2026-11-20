@@ -1,0 +1,20 @@
+[
+  {"id": "versailles-cour-de-marbre", "cible": "versailles-chateau", "candidate": 1, "questions": ["HG-C3-CM1-HIST-02-001"],
+   "alt": "Façade d’un château aux toits d’ardoise et aux ornements dorés, une horloge au sommet"},
+  {"id": "versailles-patel-1668", "cible": "versailles-patel-1668", "candidate": 1, "questions": ["HG-C4-5E-HIST-11-005"],
+   "alt": "Tableau : vue d’ensemble d’un grand château, de ses jardins et des routes qui y mènent, peinte en 1668"},
+  {"id": "louis-xiv-rigaud", "cible": "louis-xiv-rigaud", "candidate": 3, "questions": ["HG-C4-5E-HIST-11-008"],
+   "alt": "Portrait d’un roi en manteau bleu semé de fleurs de lys et doublé d’hermine, perruque bouclée"},
+  {"id": "sacre-napoleon-david", "cible": "sacre-napoleon-david", "candidate": 1, "questions": ["HG-C4-4E-HIST-03-003"],
+   "alt": "Tableau : dans une cathédrale, un homme en manteau de sacre pose une couronne sur la tête d’une femme agenouillée"},
+  {"id": "couronnement-charlemagne-raphael", "cible": "couronnement-charlemagne", "candidate": 7, "questions": ["HG-C4-5E-HIST-04-001"],
+   "alt": "Fresque : un roi agenouillé reçoit une couronne, entouré d’évêques en blanc"},
+  {"id": "declaration-1789-le-barbier", "cible": "declaration-1789-le-barbier", "candidate": 2, "questions": ["HG-C3-CM1-HIST-04-008"],
+   "alt": "Tableau : un long texte gravé sur deux tables de pierre, entre une femme assise et un ange"},
+  {"id": "joconde", "cible": "joconde", "candidate": 2, "questions": ["HG-C4-5E-HIST-09-008"],
+   "alt": "Portrait d’une femme au sourire discret, les mains croisées, devant un paysage de montagnes"},
+  {"id": "nil-vu-espace", "cible": "nil-vu-espace", "candidate": 1, "questions": ["HG-C3-6E-HIST-01-008"],
+   "alt": "Photo prise depuis l’espace : un fleuve bordé de vert traverse le désert jusqu’à la mer"},
+  {"id": "foret-amazonienne", "cible": "foret-amazonienne", "candidate": 3, "questions": ["HG-C3-6E-GEO-06-006"],
+   "alt": "Vue aérienne d’une forêt tropicale très dense, traversée par un fleuve"}
+]

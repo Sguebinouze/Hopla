@@ -17,18 +17,11 @@ API = 'https://commons.wikimedia.org/w/api.php?'
 
 # Cible : identifiant de la future image, question(s) concernée(s), recherche Commons.
 CIBLES = [
-    ('versailles-chateau', ['HG-C3-CM1-HIST-02-001'], 'Château de Versailles façade cour de marbre'),
-    ('versailles-patel-1668', ['HG-C4-5E-HIST-11-005'], 'Pierre Patel Versailles 1668'),
-    ('louis-xiv-rigaud', ['HG-C4-5E-HIST-11-008'], 'Louis XIV Rigaud 1701 portrait Louvre'),
-    ('sacre-napoleon-david', ['HG-C4-4E-HIST-03-003'], 'Jacques-Louis David Sacre de Napoléon'),
-    ('couronnement-charlemagne', ['HG-C4-5E-HIST-04-001'], 'Coronation of Charlemagne painting'),
-    ('declaration-1789-le-barbier', ['HG-C3-CM1-HIST-04-008'], 'Déclaration des droits de l’homme et du citoyen Le Barbier Carnavalet'),
-    ('joconde', ['HG-C4-5E-HIST-09-008'], 'Mona Lisa Leonardo da Vinci Louvre'),
-    ('pont-du-gard', ['HG-C3-6E-HIST-03-003'], 'Pont du Gard aqueduc'),
-    ('cathedrale-gothique', ['HG-C3-CM1-HIST-01-007', 'HG-C4-5E-HIST-07-002'], 'Cathédrale gothique façade Amiens'),
-    ('eglise-romane', ['HG-C3-CM1-HIST-01-008'], 'Église romane France'),
-    ('nil-vu-espace', ['HG-C3-6E-HIST-01-008'], 'Nile river from space NASA'),
-    ('foret-amazonienne', ['HG-C3-6E-GEO-06-006'], 'Amazon rainforest aerial'),
+    ('pont-du-gard', ['HG-C3-6E-HIST-03-003'], 'Pont du Gard'),
+    ('cathedrale-gothique', ['HG-C3-CM1-HIST-01-007', 'HG-C4-5E-HIST-07-002'], 'Amiens Cathedral west facade'),
+    ('eglise-romane', ['HG-C3-CM1-HIST-01-008'], 'Romanesque church exterior France'),
+    ('classe-1900', ['HG-C3-CM2-HIST-04-002'], 'salle de classe école élèves 1900 photographie'),
+    ('course-antique', ['HG-C3-6E-HIST-02-006'], 'Panathenaic amphora runners Metropolitan Museum'),
 ]
 PAR_CIBLE = 8
 
