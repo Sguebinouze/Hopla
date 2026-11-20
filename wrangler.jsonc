@@ -3,11 +3,12 @@
 {
   "name": "hopla",
   "compatibility_date": "2026-11-01",
-  // Adresse publique : hopla-edu.fr. www.hopla-edu.fr est redirigé vers hopla-edu.fr par une règle
-  // Cloudflare (zone hopla-edu.fr), comme hopla-edu.com et hopla-edu.net (leurs propres zones).
+  // Adresse publique : hopla-edu.fr. www.hopla-edu.fr n'est pas branché sur le Worker : un
+  // enregistrement DNS proxifié (AAAA 100::) et une règle de redirection de la zone hopla-edu.fr
+  // l'envoient vers hopla-edu.fr, comme hopla-edu.com et hopla-edu.net (leurs propres zones).
+  // Une seule origine : la session et les liens de connexion restent sur hopla-edu.fr.
   "routes": [
-    { "pattern": "hopla-edu.fr", "custom_domain": true },
-    { "pattern": "www.hopla-edu.fr", "custom_domain": true }
+    { "pattern": "hopla-edu.fr", "custom_domain": true }
   ],
   // Ancienne adresse gardée le temps de la transition (liens de connexion déjà envoyés).
   "workers_dev": true,
