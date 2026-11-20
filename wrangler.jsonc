@@ -3,6 +3,13 @@
 {
   "name": "hopla",
   "compatibility_date": "2026-11-01",
+  // Adresse publique : hopla-edu.fr. www.hopla-edu.fr est redirigé vers hopla-edu.fr par une règle
+  // Cloudflare (zone hopla-edu.fr), comme hopla-edu.com et hopla-edu.net (leurs propres zones).
+  "routes": [
+    { "pattern": "hopla-edu.fr", "custom_domain": true },
+    { "pattern": "www.hopla-edu.fr", "custom_domain": true }
+  ],
+  // Ancienne adresse gardée le temps de la transition (liens de connexion déjà envoyés).
   "workers_dev": true,
   // Pas d'adresse de prévisualisation par version : une seule adresse publique.
   "preview_urls": false,
