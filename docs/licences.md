@@ -17,7 +17,6 @@ Bilan : rien n'interdit la vente. Deux vérifications restent à faire (section 
 | Générateurs d'exercices | Code du projet | Oui | Aucune. |
 | Références et extraits des programmes officiels (BO, Eduscol) | Informations publiques : réutilisation libre, commerciale comprise (code des relations entre le public et l'administration, articles L321-1 et suivants) | Oui | Citer la source et la date, ne pas dénaturer. Hopla affiche déjà « BO n°… du … » sous chaque notion. |
 | Voix d'Octave : fichiers audio générés par Google Cloud Text-to-Speech (Chirp 3 HD, voix Algenib) | Conditions de Google Cloud | Oui, à confirmer | Pas d'attribution exigée d'après le forum Google Cloud. Relire les conditions Google Cloud propres au service avant la sortie. |
-| Voix de l'appareil (relais) | Synthèse vocale du système | Oui | Aucune : rien n'est embarqué. |
 
 ## Dictées
 

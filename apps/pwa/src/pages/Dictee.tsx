@@ -9,7 +9,7 @@ import { corriger, erreurDominante, type Correction, type MotCorrige, type TypeE
 import { api } from '../lib/donnees';
 import { competenceDuPack, type DicteePack } from '../lib/packs';
 import { tempsEcoule } from '../lib/temps';
-import { dire, taire } from '../lib/voix';
+import { aUneVoix, dire, taire } from '../lib/voix';
 
 type Etape = 'ecoute' | 'dictee' | 'correction';
 
@@ -34,6 +34,9 @@ function noterFaite(enfant: string, id: string) {
     /* stockage indisponible : l'ordre repart du début */
   }
 }
+/** Une dictée se fait à l'oreille : seulement celles dont le texte et chaque groupe ont leur voix enregistrée. */
+export const dicteeAudible = (d: DicteePack) => aUneVoix(d.texte) && d.groupes.every((g) => aUneVoix(groupeLu(g)));
+
 export function dicteeSuivante(dictees: DicteePack[], deja: string[]): DicteePack | undefined {
   return dictees.find((d) => !deja.includes(d.id)) ?? [...dictees].sort((a, b) => deja.indexOf(a.id) - deja.indexOf(b.id))[0];
 }
@@ -64,7 +67,7 @@ export function Dictee() {
         if (!e) return naviguer('/');
         if (await tempsEcoule(e)) return setStop(e.minutes_par_jour ?? 0);
         const trouve = await competenceDuPack(e.classe, competence);
-        const d = trouve && dicteeSuivante(trouve.competence.dictees ?? [], faites(e.id));
+        const d = trouve && dicteeSuivante((trouve.competence.dictees ?? []).filter(dicteeAudible), faites(e.id));
         if (!d) return naviguer('/accueil');
         setEnfant(e.id);
         setDictee(d);

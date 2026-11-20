@@ -34,7 +34,7 @@ export function Credits() {
 
       <section>
         <h2 className="titre-3">Voix d’Octave</h2>
-        <p>Synthèse vocale Google Cloud Text-to-Speech, voix Chirp 3 HD. Sans connexion, la voix de l’appareil prend le relais.</p>
+        <p>Synthèse vocale Google Cloud Text-to-Speech, voix Chirp 3 HD. Un texte sans voix enregistrée n’est pas lu.</p>
       </section>
 
       <section>

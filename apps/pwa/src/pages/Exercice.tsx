@@ -1,6 +1,6 @@
 import { normaliserReponse, type Item } from '@hopla/generateurs';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { BoutonVoix } from '../composants/BoutonVoix';
 import { Clavier } from '../composants/Clavier';
 import { Icone } from '../composants/Icone';
@@ -10,14 +10,31 @@ import { modeClavier } from '../lib/clavier';
 import { api } from '../lib/donnees';
 import { tempsEcoule } from '../lib/temps';
 import { FinDuJour } from '../composants/FinDuJour';
-import { chargerPack, competencesJouables, noterRecentes, questionsRecentes, seriePour, supportDe, type ItemPack } from '../lib/packs';
-import { dire, lectureAuto, taire, voixPour } from '../lib/voix';
+import {
+  chargerPack, competencesJouables, empreinteConsigne, empreintesEssai, noterRecentes, questionsRecentes, seriePour, supportDe,
+  type CompetencePack, type ItemPack,
+} from '../lib/packs';
+import { aUneVoix, dire, lectureAuto, taire } from '../lib/voix';
 
 const TAILLE_SERIE = 5;
+
+/** Suite d'une série (« Encore 5 questions ») : les questions déjà posées pendant la séance ne reviennent pas. */
+export interface SuiteSerie {
+  items: ItemPack[];
+  /** Empreintes des consignes déjà posées dans la séance. */
+  posees: string[];
+}
+
+/** Questions à écarter : la question « À toi » de la leçon et celles déjà posées pendant la séance. */
+export function aEviter(c: Pick<CompetencePack, 'lecon'>, posees: string[]): Set<string> {
+  return new Set([...(c.lecon ? empreintesEssai(c.lecon.essai.consigne) : []), ...posees]);
+}
 
 export function Exercice() {
   const { competence = '' } = useParams();
   const naviguer = useNavigate();
+  const suite = (useLocation().state as { suite?: SuiteSerie } | null)?.suite;
+  const notion = useRef<{ c: CompetencePack; enfant: string; posees: string[] } | null>(null);
   const [items, setItems] = useState<ItemPack[]>([]);
   const [rang, setRang] = useState(0);
   const [choix, setChoix] = useState<string | null>(null);
@@ -41,14 +58,16 @@ export function Exercice() {
         if (!c) return naviguer('/accueil');
         setALecon(c.lecon !== null && c.lecon !== undefined);
         setCycle(pack.cycle);
-        const serieDuJour = seriePour(c, TAILLE_SERIE, questionsRecentes(enfant.id, c.id));
+        const posees = suite?.posees ?? [];
+        const serieDuJour = suite?.items.length ? suite.items : seriePour(c, TAILLE_SERIE, questionsRecentes(enfant.id, c.id), aEviter(c, posees));
         noterRecentes(enfant.id, c.id, serieDuJour);
+        notion.current = { c, enfant: enfant.id, posees: [...posees, ...serieDuJour.map((it) => empreinteConsigne(it.consigne))] };
         setItems(serieDuJour);
       } catch {
         naviguer('/accueil');
       }
     })();
-  }, [competence, naviguer]);
+  }, [competence, naviguer, suite]);
 
   const item = items[rang];
   // Un texte à lire en tête de consigne s'affiche à part, la question en dessous.
@@ -91,7 +110,15 @@ export function Exercice() {
 
   const suivant = () => {
     if (rang + 1 >= items.length) {
-      naviguer('/resultat', { state: { justes: justes, total: items.length, retour: retourSur(location.search) } });
+      // Série suivante préparée maintenant : le bouton « Encore » ne s'affiche que s'il reste des questions nouvelles.
+      const n = notion.current;
+      const prochaine = n ? seriePour(n.c, TAILLE_SERIE, questionsRecentes(n.enfant, n.c.id), aEviter(n.c, n.posees)) : [];
+      naviguer('/resultat', {
+        state: {
+          justes: justes, total: items.length, retour: retourSur(location.search),
+          suite: prochaine.length ? { competence, recherche: location.search, items: prochaine, posees: n!.posees } : null,
+        },
+      });
       return;
     }
     setRang(rang + 1);
@@ -142,7 +169,7 @@ export function Exercice() {
           )}
           {item.ecoute && (
             <div className="ecoute">
-              {voixPour(item.ecoute.langue) ? (
+              {aUneVoix(item.ecoute.texte, item.ecoute.langue) ? (
                 <button type="button" className="hp-btn hp-btn--secondary hp-btn--lg"
                   onClick={() => dire(item.ecoute!.texte, undefined, item.ecoute!.langue)}>
                   <Icone nom="haut-parleur" />Écouter Octave
@@ -150,7 +177,7 @@ export function Exercice() {
               ) : (
                 <p className="ecoute__texte" lang={item.ecoute.langue}>« {item.ecoute.texte} »</p>
               )}
-              {repondu && voixPour(item.ecoute.langue) && <p className="ecoute__texte" lang={item.ecoute.langue}>« {item.ecoute.texte} »</p>}
+              {repondu && aUneVoix(item.ecoute.texte, item.ecoute.langue) && <p className="ecoute__texte" lang={item.ecoute.langue}>« {item.ecoute.texte} »</p>}
             </div>
           )}
           {item.visuel && <div className="visuel"><Visuel visuel={item.visuel} revele={repondu} /></div>}

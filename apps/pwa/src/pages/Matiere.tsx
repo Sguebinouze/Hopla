@@ -7,10 +7,11 @@ import { api } from '../lib/donnees';
 import { chargerPack, NOMS_MATIERES, type CompetencePack, type Pack } from '../lib/packs';
 import { CHIP_ETAT, etat, LIBELLE_ETAT, type Suivi } from '../lib/progression';
 import { aFaire, indexer, ranger, rechercher } from '../lib/recherche';
+import { dicteeAudible } from './Dictee';
 
 function Notion({ c, suivi, contexte }: { c: CompetencePack; suivi?: Suivi; contexte?: boolean }) {
   const jouable = c.generateurs.length > 0 || c.exercices.length > 0;
-  const dictee = (c.dictees?.length ?? 0) > 0;
+  const dictee = (c.dictees ?? []).some(dicteeAudible);
   const e = etat(suivi);
   return (
     <div className="hp-skill notion" aria-disabled={!jouable && !dictee && !c.lecon}>

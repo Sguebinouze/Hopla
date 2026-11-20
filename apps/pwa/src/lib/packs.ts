@@ -185,6 +185,31 @@ export const cleItem = (it: Item) =>
 /** Texte support d'une question : long passage entre guillemets en tête de consigne (texte à lire, par exemple). */
 export const supportDe = (consigne: string) => consigne.match(/^« ([^»]{25,}) »/)?.[1] ?? null;
 
+/** Texte comparable : minuscules, sans ponctuation ni guillemets, espaces réduits. */
+export const texteComparable = (t: string) =>
+  t.toLowerCase().replace(/[«»"“”.,;:!?()’']/g, ' ').replace(/\s+/g, ' ').trim();
+
+/** Empreinte d'une consigne : deux consignes qui ne diffèrent que par la ponctuation sont la même question. */
+export const empreinteConsigne = (consigne: string) => `q:${texteComparable(consigne)}`;
+
+/**
+ * Empreintes de la question « À toi » d'une leçon : sa consigne, et chaque passage cité de trois mots ou plus.
+ * La série d'entraînement ne reprend ni la question ni sa phrase d'exemple (« Nous partirons demain »),
+ * même posée autrement par un générateur.
+ */
+export function empreintesEssai(consigne: string): string[] {
+  const cites = [...consigne.matchAll(/«\s*([^»]+?)\s*»/g)]
+    .map((m) => texteComparable(m[1]!))
+    .filter((x) => x.split(' ').length >= 3);
+  return [empreinteConsigne(consigne), ...cites.map((c) => `cite:${c}`)];
+}
+
+/** Empreintes à comparer à celles d'un essai ou d'une question déjà posée. */
+function empreintesItem(consigne: string): string[] {
+  const cites = [...consigne.matchAll(/«\s*([^»]+?)\s*»/g)].map((m) => `cite:${texteComparable(m[1]!)}`);
+  return [empreinteConsigne(consigne), ...cites];
+}
+
 /** Marques d'une série, à retenir pour ne pas la reproposer tout de suite. */
 export const marquesDe = (items: Item[]) =>
   items.flatMap((it) => {
@@ -196,8 +221,13 @@ export const marquesDe = (items: Item[]) =>
  * Une série d'items pour une compétence, de difficulté croissante, sans doublon.
  * On évite aussi de reprendre deux fois le même texte support dans la série,
  * et ce qui a été vu dans les séries récentes (`recentes`), tant que la banque le permet.
+ * `evites` est une exclusion stricte, jamais relâchée : la question « À toi » de la leçon
+ * (`empreintesEssai`) et les questions déjà posées pendant la séance (`empreinteConsigne`).
+ * La série peut alors compter moins de `n` questions, voire aucune.
  */
-export function seriePour(c: CompetencePack, n: number, recentes: ReadonlySet<string> = new Set()): ItemPack[] {
+export function seriePour(
+  c: CompetencePack, n: number, recentes: ReadonlySet<string> = new Set(), evites: ReadonlySet<string> = new Set(),
+): ItemPack[] {
   const rediges: ItemPack[] = c.exercices
     .filter((e) => e.gabarit === 'qcm' || e.gabarit === 'saisie')
     .map((e) => ({
@@ -221,7 +251,8 @@ export function seriePour(c: CompetencePack, n: number, recentes: ReadonlySet<st
   // Exigence décroissante : d'abord rien de récent ni de texte déjà lu, puis seulement pas de texte déjà lu, puis pas de doublon.
   const refuse = (it: Item, k: number) => {
     const cle = cleItem(it);
-    if (vus.has(cle)) return true;
+    if (vus.has(cle) || vus.has(empreinteConsigne(it.consigne))) return true;
+    if (empreintesItem(it.consigne).some((e) => evites.has(e))) return true;
     const s = supportDe(it.consigne);
     if (k < n * 30 && s && supports.has(s)) return true;
     if (k < n * 15 && (recentes.has(cle) || (s !== null && recentes.has(`support:${s}`)))) return true;
@@ -243,6 +274,7 @@ export function seriePour(c: CompetencePack, n: number, recentes: ReadonlySet<st
     }
     if (refuse(item, k)) continue;
     vus.add(cleItem(item));
+    vus.add(empreinteConsigne(item.consigne));
     const s = supportDe(item.consigne);
     if (s) supports.add(s);
     items.push(item);
