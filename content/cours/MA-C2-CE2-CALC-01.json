@@ -1,0 +1,129 @@
+{
+  "competence": "MA-C2-CE2-CALC-01",
+  "duree": 7,
+  "essentiel": "On connait les tables de multiplication par cœur, de 2 à 9.\n6 × 7 = 42 et 7 × 6 = 42.\nOn les utilise dans les deux sens : 42 = 6 × 7.",
+  "parties": [
+    {
+      "titre": "Retenir les tables",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Résultats difficiles",
+          "colonnes": [
+            "Calcul",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "6 × 7",
+              "42"
+            ],
+            [
+              "7 × 8",
+              "56"
+            ],
+            [
+              "6 × 8",
+              "48"
+            ],
+            [
+              "8 × 9",
+              "72"
+            ],
+            [
+              "7 × 9",
+              "63"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour retrouver un résultat",
+          "etapes": [
+            "Pars d’un résultat connu : 5 × 8 = 40.",
+            "Ajoute un 8 : 6 × 8 = 48."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 9 × 6 ?",
+          "options": [
+            "54",
+            "45",
+            "56"
+          ],
+          "reponse": "54",
+          "explication": "10 × 6 = 60, moins 6."
+        }
+      ]
+    },
+    {
+      "titre": "Dans les deux sens",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Savoir 7 × 8 = 56, c’est aussi savoir que 56 = 7 × 8."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond 7 × 8 et 7 + 8.",
+          "correction": "7 × 8, c’est 8 fois 7 : 56. 7 + 8 = 15."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : 36 = … × 9",
+          "options": [
+            "4",
+            "3",
+            "6"
+          ],
+          "reponse": "4",
+          "explication": "4 × 9 = 36."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 8 × 8 ?",
+      "options": [
+        "64",
+        "56",
+        "48"
+      ],
+      "reponse": "64",
+      "explication": "Huit fois huit."
+    },
+    {
+      "consigne": "Complète : … × 7 = 49",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "7 × 7 = 49."
+    },
+    {
+      "consigne": "Combien font 3 × 9 ?",
+      "options": [
+        "27",
+        "24",
+        "39"
+      ],
+      "reponse": "27",
+      "explication": "9 + 9 + 9."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 22,
+      "extrait": "À la fin du CE2, l’élève peut compléter douze égalités de ce type en une minute.",
+      "appui": "Tables de multiplication"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

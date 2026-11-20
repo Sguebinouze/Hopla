@@ -1,0 +1,131 @@
+{
+  "competence": "MA-C2-CE2-FRAC-01",
+  "duree": 6,
+  "essentiel": "Une fraction dit combien de parts égales on prend.\nDans 3/4, on coupe en 4 parts égales. On en prend 3.\nAu CE2, le nombre du bas va jusqu’à 12.",
+  "parties": [
+    {
+      "titre": "Lire et écrire",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 4,
+                "coloriees": 3,
+                "nom": "3/4"
+              }
+            ]
+          },
+          "legende": "3 parts coloriées sur 4 : trois quarts."
+        },
+        {
+          "type": "tableau",
+          "titre": "Lire une fraction",
+          "colonnes": [
+            "Fraction",
+            "Se lit"
+          ],
+          "lignes": [
+            [
+              "1/2",
+              "un demi"
+            ],
+            [
+              "2/3",
+              "deux tiers"
+            ],
+            [
+              "3/4",
+              "trois quarts"
+            ],
+            [
+              "5/12",
+              "cinq douzièmes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment lit-on 7/10 ?",
+          "options": [
+            "sept dixièmes",
+            "sept dix",
+            "dix septièmes"
+          ],
+          "reponse": "sept dixièmes",
+          "explication": "10 parts : des dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Toutes les parts",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On compte seulement les parts blanches en bas.",
+          "correction": "Le nombre du bas compte toutes les parts."
+        },
+        {
+          "type": "explique",
+          "texte": "Si toutes les parts sont coloriées, la fraction vaut 1 : 4/4 = 1."
+        },
+        {
+          "type": "question",
+          "consigne": "Une bande coupée en 6, toute coloriée. Quelle fraction ?",
+          "options": [
+            "6/6",
+            "1/6",
+            "0/6"
+          ],
+          "reponse": "6/6",
+          "explication": "Toutes les parts : 6/6 = 1."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une pizza en 8 parts. Tom en mange 3. Quelle fraction ?",
+      "options": [
+        "3/8",
+        "8/3",
+        "5/8"
+      ],
+      "reponse": "3/8",
+      "explication": "3 parts sur 8."
+    },
+    {
+      "consigne": "Que vaut 9/9 ?",
+      "options": [
+        "1",
+        "9",
+        "0"
+      ],
+      "reponse": "1",
+      "explication": "Toutes les parts."
+    },
+    {
+      "consigne": "Comment lit-on 2/5 ?",
+      "options": [
+        "deux cinquièmes",
+        "deux cinq",
+        "cinq demis"
+      ],
+      "reponse": "deux cinquièmes",
+      "explication": "5 parts : des cinquièmes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 20,
+      "extrait": "Les fractions rencontrées au CE2 ont un dénominateur inférieur ou égal à douze et sont tou",
+      "appui": "Fractions au CE2"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

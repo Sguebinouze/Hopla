@@ -1,0 +1,129 @@
+{
+  "competence": "MA-C2-CE2-CALC-04",
+  "duree": 7,
+  "essentiel": "Pour ajouter 9, j’ajoute 10 puis j’enlève 1.\nPour multiplier par 4, je double puis je double encore.\n23 × 7 = 20 × 7 + 3 × 7 = 140 + 21 = 161.",
+  "parties": [
+    {
+      "titre": "Ajouter ou retirer 9, 19, 29…",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Astuces",
+          "colonnes": [
+            "Pour…",
+            "Je fais…",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "+ 9",
+              "+ 10 − 1",
+              "47 + 9 = 56"
+            ],
+            [
+              "+ 39",
+              "+ 40 − 1",
+              "25 + 39 = 64"
+            ],
+            [
+              "− 19",
+              "− 20 + 1",
+              "83 − 19 = 64"
+            ],
+            [
+              "+ 8",
+              "+ 10 − 2",
+              "36 + 8 = 44"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 64 − 29 ?",
+          "options": [
+            "35",
+            "33",
+            "93"
+          ],
+          "reponse": "35",
+          "explication": "64 − 30 = 34, puis + 1."
+        }
+      ]
+    },
+    {
+      "titre": "Multiplier vite",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 4 × 37",
+          "etapes": [
+            "Double : 2 × 37 = 74.",
+            "Double encore : 2 × 74 = 148."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Pour multiplier par 8, on double trois fois."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 23 × 7.",
+          "etapes": [
+            "20 × 7 = 140.",
+            "3 × 7 = 21.",
+            "140 + 21 = 161."
+          ],
+          "conclusion": "23 × 7 = 161"
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour − 19, on enlève 20 et on enlève encore 1.",
+          "correction": "On a enlevé 1 de trop. On rajoute 1."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 56 + 19 ?",
+      "options": [
+        "75",
+        "74",
+        "76"
+      ],
+      "reponse": "75",
+      "explication": "56 + 20 = 76, puis − 1."
+    },
+    {
+      "consigne": "Combien font 4 × 25 ?",
+      "options": [
+        "100",
+        "50",
+        "125"
+      ],
+      "reponse": "100",
+      "explication": "2 × 25 = 50, puis 2 × 50."
+    },
+    {
+      "consigne": "Combien font 12 × 6 ?",
+      "options": [
+        "72",
+        "62",
+        "66"
+      ],
+      "reponse": "72",
+      "explication": "10 × 6 + 2 × 6 = 60 + 12."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 23,
+      "extrait": "L’élève sait que multiplier par 4 revient à multiplier par 2 et encore par 2.",
+      "appui": "Multiplier par 4"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

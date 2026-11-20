@@ -1,0 +1,122 @@
+{
+  "competence": "MA-C2-CE2-NUM-02",
+  "duree": 6,
+  "essentiel": "On écrit les nombres en lettres avec des traits d’union.\n4 635 s’écrit quatre-mille-six-cent-trente-cinq.\nMille ne prend jamais de s.",
+  "parties": [
+    {
+      "titre": "Écrire en lettres",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire un nombre en lettres",
+          "etapes": [
+            "Lis les milliers : quatre-mille.",
+            "Lis le reste : six-cent-trente-cinq.",
+            "Relie tous les mots par des traits d’union."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Règles d’accord",
+          "colonnes": [
+            "Mot",
+            "Règle",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "mille",
+              "jamais de s",
+              "trois-mille"
+            ],
+            [
+              "cent",
+              "s à la fin seulement",
+              "deux-cents, deux-cent-un"
+            ],
+            [
+              "vingt",
+              "s dans quatre-vingts seul",
+              "quatre-vingts, quatre-vingt-un"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on 3 000 ?",
+          "options": [
+            "trois-mille",
+            "trois-milles",
+            "trois mille s"
+          ],
+          "reponse": "trois-mille",
+          "explication": "Mille est invariable."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un nombre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit 4 600 pour « quatre-mille-six ».",
+          "correction": "Quatre-mille-six, c’est 4 006. Les zéros gardent les places."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on « deux-mille-quarante » ?",
+          "options": [
+            "2 040",
+            "2 400",
+            "240"
+          ],
+          "reponse": "2 040",
+          "explication": "2 milliers et 4 dizaines."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on 800 ?",
+      "options": [
+        "huit-cents",
+        "huit-cent",
+        "huit-centes"
+      ],
+      "reponse": "huit-cents",
+      "explication": "Cent prend un s à la fin du nombre."
+    },
+    {
+      "consigne": "Quel nombre est « cinq-mille-trois-cent-dix » ?",
+      "options": [
+        "5 310",
+        "5 301",
+        "53 010"
+      ],
+      "reponse": "5 310",
+      "explication": "5 milliers, 3 centaines, 1 dizaine."
+    },
+    {
+      "consigne": "Comment écrit-on 80 ?",
+      "options": [
+        "quatre-vingts",
+        "quatre-vingt",
+        "huitante"
+      ],
+      "reponse": "quatre-vingts",
+      "explication": "Quatre-vingts prend un s."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 4,
+      "extrait": "L’élève sait écrire en chiffres un nombre dicté.",
+      "appui": "Écrire un nombre dicté"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

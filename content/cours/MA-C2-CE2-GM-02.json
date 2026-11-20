@@ -1,0 +1,129 @@
+{
+  "competence": "MA-C2-CE2-GM-02",
+  "duree": 7,
+  "essentiel": "Masses : 1 t = 1 000 kg et 1 kg = 1 000 g.\nContenances : 1 L = 10 dL = 100 cL.\n780 cL = 7 L et 80 cL.",
+  "parties": [
+    {
+      "titre": "Les masses",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités de masse",
+          "colonnes": [
+            "Unité",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "tonne (t)",
+              "une voiture pèse environ 1 t"
+            ],
+            [
+              "kilogramme (kg)",
+              "un sac de pommes de terre"
+            ],
+            [
+              "gramme (g)",
+              "une feuille de papier"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de g dans 3 kg ?",
+          "options": [
+            "3 000",
+            "300",
+            "30"
+          ],
+          "reponse": "3 000",
+          "explication": "1 kg = 1 000 g."
+        }
+      ]
+    },
+    {
+      "titre": "Les contenances",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités de contenance",
+          "colonnes": [
+            "Unité",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "litre (L)",
+              "une grande bouteille d’eau"
+            ],
+            [
+              "décilitre (dL)",
+              "un petit verre"
+            ],
+            [
+              "centilitre (cL)",
+              "une cuillère à soupe, environ 1 cL"
+            ]
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 780 cL en litres et centilitres.",
+          "etapes": [
+            "100 cL = 1 L.",
+            "780 cL = 700 cL + 80 cL."
+          ],
+          "conclusion": "780 cL = 7 L et 80 cL."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 1 L = 10 cL.",
+          "correction": "1 L = 10 dL = 100 cL."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de cL dans 2 L ?",
+      "options": [
+        "200",
+        "20",
+        "2 000"
+      ],
+      "reponse": "200",
+      "explication": "1 L = 100 cL."
+    },
+    {
+      "consigne": "Combien de kg dans 2 t ?",
+      "options": [
+        "2 000",
+        "200",
+        "20"
+      ],
+      "reponse": "2 000",
+      "explication": "1 t = 1 000 kg."
+    },
+    {
+      "consigne": "Une canette contient plutôt :",
+      "options": [
+        "33 cL",
+        "33 L",
+        "3 cL"
+      ],
+      "reponse": "33 cL",
+      "explication": "Une canette fait 33 cL."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 30,
+      "extrait": "L’élève sait convertir entre les unités gramme et kilogramme :",
+      "appui": "Masses et contenances"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

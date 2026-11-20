@@ -1,0 +1,88 @@
+{
+  "competence": "MA-C2-CE2-CALC-05",
+  "duree": 5,
+  "essentiel": "Les tables d’addition se savent par cœur, dans les deux sens.\n8 + 7 = 15, donc 15 − 7 = 8.\nOn complète vite : 4 + … = 12.",
+  "parties": [
+    {
+      "titre": "Calculer sans compter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Passer par 10",
+          "etapes": [
+            "8 + 7 : ajoute 2 pour faire 10.",
+            "Il reste 5 à ajouter : 15."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 9 + 6 ?",
+          "options": [
+            "15",
+            "14",
+            "16"
+          ],
+          "reponse": "15",
+          "explication": "9 + 1 = 10, puis + 5."
+        }
+      ]
+    },
+    {
+      "titre": "Dans les deux sens",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Si 6 + 7 = 13, alors 13 − 7 = 6 et 13 − 6 = 7."
+        },
+        {
+          "type": "piege",
+          "erreur": "Dans 10 = 7 + …, on ajoute 10 et 7.",
+          "correction": "On cherche ce qui manque à 7 pour faire 10 : 3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : 5 + … = 13",
+      "options": [
+        "8",
+        "18",
+        "7"
+      ],
+      "reponse": "8",
+      "explication": "5 + 8 = 13."
+    },
+    {
+      "consigne": "Combien font 14 − 6 ?",
+      "options": [
+        "8",
+        "7",
+        "20"
+      ],
+      "reponse": "8",
+      "explication": "6 + 8 = 14."
+    },
+    {
+      "consigne": "Complète : 11 = 4 + …",
+      "options": [
+        "7",
+        "15",
+        "6"
+      ],
+      "reponse": "7",
+      "explication": "4 + 7 = 11."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 22,
+      "extrait": "À la fin du CE2, l’élève peut compléter quinze égalités de ce type en une minute.",
+      "appui": "Tables d’addition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

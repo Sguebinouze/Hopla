@@ -1,0 +1,108 @@
+{
+  "competence": "MA-C2-CE2-GM-03",
+  "duree": 7,
+  "essentiel": "Un prix s’écrit avec une virgule : 2,05 € = 2 € et 5 centimes.\nPour rendre la monnaie, on complète jusqu’à la somme donnée.\n3,68 € payés avec 5 € : on rend 1,32 €.",
+  "parties": [
+    {
+      "titre": "Écrire et ajouter des prix",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "monnaie",
+            "valeurs": [
+              2,
+              0.5,
+              0.2,
+              0.05
+            ]
+          },
+          "legende": "2 € + 50 c + 20 c + 5 c = 2,75 €."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour ajouter deux prix",
+          "etapes": [
+            "Ajoute les euros.",
+            "Ajoute les centimes.",
+            "100 centimes font 1 € de plus."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 1,50 € + 2,70 € ?",
+          "options": [
+            "4,20 €",
+            "3,20 €",
+            "3,120 €"
+          ],
+          "reponse": "4,20 €",
+          "explication": "3 € + 120 c = 4,20 €."
+        }
+      ]
+    },
+    {
+      "titre": "Rendre la monnaie",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un livre coute 3,68 €. On paie avec 5 €.",
+          "etapes": [
+            "De 3,68 € à 3,70 € : 2 c.",
+            "De 3,70 € à 4 € : 30 c.",
+            "De 4 € à 5 € : 1 €."
+          ],
+          "conclusion": "On rend 1 € + 30 c + 2 c = 1,32 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 2,5 € pour 2 € et 5 centimes.",
+          "correction": "Les centimes s’écrivent avec deux chiffres : 2,05 €."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "On paie 2,40 € avec 5 €. Monnaie ?",
+      "options": [
+        "2,60 €",
+        "3,60 €",
+        "2,40 €"
+      ],
+      "reponse": "2,60 €",
+      "explication": "2,40 + 2,60 = 5."
+    },
+    {
+      "consigne": "Comment écrit-on 7 € et 9 centimes ?",
+      "options": [
+        "7,09 €",
+        "7,9 €",
+        "79 €"
+      ],
+      "reponse": "7,09 €",
+      "explication": "Deux chiffres après la virgule."
+    },
+    {
+      "consigne": "Combien font 0,75 € + 0,25 € ?",
+      "options": [
+        "1 €",
+        "0,100 €",
+        "0,95 €"
+      ],
+      "reponse": "1 €",
+      "explication": "75 c + 25 c = 100 c."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 30,
+      "extrait": "L’élève sait rendre la monnaie en procédant par ajouts successifs",
+      "appui": "Rendre la monnaie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

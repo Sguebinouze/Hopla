@@ -1,0 +1,113 @@
+{
+  "competence": "MA-C2-CE2-PB-03",
+  "duree": 7,
+  "essentiel": "Je cherche le tout : je multiplie. 6 boites de 12, c’est 6 × 12 = 72.\nJe cherche une part : je divise. 72 € pour 6 livres : 72 ÷ 6 = 12 €.\nJe cherche le nombre de parts : combien de fois 12 dans 72 ?",
+  "parties": [
+    {
+      "titre": "Trois questions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Même situation, trois questions",
+          "colonnes": [
+            "On cherche",
+            "Calcul",
+            "Réponse"
+          ],
+          "lignes": [
+            [
+              "le prix total de 6 livres à 12 €",
+              "6 × 12",
+              "72 €"
+            ],
+            [
+              "le prix d’un livre si 6 livres coutent 72 €",
+              "72 ÷ 6",
+              "12 €"
+            ],
+            [
+              "le nombre de livres à 12 € pour 72 €",
+              "72 ÷ 12",
+              "6 livres"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "8 rangées de 9 chaises. Combien de chaises ?",
+          "options": [
+            "72",
+            "17",
+            "81"
+          ],
+          "reponse": "72",
+          "explication": "8 × 9."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On multiplie dès qu’on voit deux nombres.",
+          "correction": "Si on connait le total, on divise."
+        },
+        {
+          "type": "question",
+          "consigne": "45 élèves en équipes de 5. Combien d’équipes ?",
+          "options": [
+            "9",
+            "50",
+            "40"
+          ],
+          "reponse": "9",
+          "explication": "5 × 9 = 45."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "4 paquets de 25 feuilles. Combien de feuilles ?",
+      "options": [
+        "100",
+        "29",
+        "75"
+      ],
+      "reponse": "100",
+      "explication": "4 × 25."
+    },
+    {
+      "consigne": "63 € partagés entre 7 amis. Chacun reçoit :",
+      "options": [
+        "9 €",
+        "56 €",
+        "70 €"
+      ],
+      "reponse": "9 €",
+      "explication": "63 ÷ 7."
+    },
+    {
+      "consigne": "Un stylo coute 3 €. Combien de stylos pour 27 € ?",
+      "options": [
+        "9",
+        "24",
+        "30"
+      ],
+      "reponse": "9",
+      "explication": "27 ÷ 3."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 24,
+      "extrait": "conduit à étendre le champ numérique sur lequel portent les problèmes multiplicatifs",
+      "appui": "Problèmes multiplicatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

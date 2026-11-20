@@ -1,0 +1,110 @@
+{
+  "competence": "MA-C2-CE2-PB-01",
+  "duree": 7,
+  "essentiel": "Je cherche le tout : j’ajoute les parties.\nJe cherche une partie : je retire l’autre partie au tout.\nUn schéma en barres m’aide à choisir.",
+  "parties": [
+    {
+      "titre": "Chercher le tout ou une partie",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une ville a 3 817 habitants. 1 292 habitants arrivent. Combien d’habitants maintenant ?",
+          "etapes": [
+            "On cherche le tout.",
+            "3 817 + 1 292 = 5 109."
+          ],
+          "conclusion": "La ville a 5 109 habitants."
+        },
+        {
+          "type": "tableau",
+          "titre": "Schéma en barres",
+          "colonnes": [
+            "Tout",
+            "Partie 1",
+            "Partie 2"
+          ],
+          "lignes": [
+            [
+              "?",
+              "3 817",
+              "1 292"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un stade a 8 000 places. 6 450 sont occupées. Places libres ?",
+          "options": [
+            "1 550",
+            "14 450",
+            "2 550"
+          ],
+          "reponse": "1 550",
+          "explication": "8 000 − 6 450."
+        }
+      ]
+    },
+    {
+      "titre": "Vérifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour vérifier sa réponse",
+          "etapes": [
+            "Estime : 3 800 + 1 300, c’est environ 5 100.",
+            "Compare avec ton calcul.",
+            "Écris une phrase réponse."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute tous les nombres de l’énoncé.",
+          "correction": "Repère d’abord ce qu’on cherche : le tout ou une partie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un livre a 320 pages. Lou en a lu 145. Combien en reste-t-il ?",
+      "options": [
+        "175",
+        "465",
+        "185"
+      ],
+      "reponse": "175",
+      "explication": "320 − 145."
+    },
+    {
+      "consigne": "2 classes : 27 et 28 élèves. Combien en tout ?",
+      "options": [
+        "55",
+        "1",
+        "45"
+      ],
+      "reponse": "55",
+      "explication": "27 + 28."
+    },
+    {
+      "consigne": "Un vélo coute 1 250 €. Paul a 980 €. Combien lui manque-t-il ?",
+      "options": [
+        "270 €",
+        "2 230 €",
+        "370 €"
+      ],
+      "reponse": "270 €",
+      "explication": "1 250 − 980."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 24,
+      "extrait": "des problèmes en une étape avec des nombres entiers supérieurs à 1 000 ;",
+      "appui": "Problèmes additifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C2-CE2-GM-01",
+  "duree": 7,
+  "essentiel": "Les unités de longueur : km, m, dm, cm, mm.\n1 m = 10 dm = 100 cm = 1 000 mm. 1 cm = 10 mm. 1 km = 1 000 m.\n3 cm 4 mm = 34 mm.",
+  "parties": [
+    {
+      "titre": "Les unités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relations",
+          "colonnes": [
+            "Unité",
+            "Vaut"
+          ],
+          "lignes": [
+            [
+              "1 km",
+              "1 000 m"
+            ],
+            [
+              "1 m",
+              "10 dm = 100 cm"
+            ],
+            [
+              "1 dm",
+              "10 cm"
+            ],
+            [
+              "1 cm",
+              "10 mm"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "regle",
+            "graduations": 6,
+            "debut": 0,
+            "fin": 3.4
+          },
+          "legende": "Le trait mesure 3 cm et 4 mm, soit 34 mm."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mm dans 5 cm ?",
+          "options": [
+            "50",
+            "5",
+            "500"
+          ],
+          "reponse": "50",
+          "explication": "1 cm = 10 mm."
+        }
+      ]
+    },
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 5 km 750 m en mètres.",
+          "etapes": [
+            "5 km = 5 000 m.",
+            "5 000 + 750 = 5 750."
+          ],
+          "conclusion": "5 km 750 m = 5 750 m."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 2 m 5 cm = 25 cm.",
+          "correction": "2 m = 200 cm. Donc 2 m 5 cm = 205 cm."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de cm dans 3 m ?",
+      "options": [
+        "300",
+        "30",
+        "3 000"
+      ],
+      "reponse": "300",
+      "explication": "1 m = 100 cm."
+    },
+    {
+      "consigne": "Écris 1 m 7 cm en cm.",
+      "options": [
+        "107 cm",
+        "17 cm",
+        "170 cm"
+      ],
+      "reponse": "107 cm",
+      "explication": "100 + 7."
+    },
+    {
+      "consigne": "Quelle unité pour mesurer une fourmi ?",
+      "options": [
+        "le mm",
+        "le km",
+        "le m"
+      ],
+      "reponse": "le mm",
+      "explication": "Elle est minuscule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 29,
+      "extrait": "L’élève sait que 1 cm = 10 mm et 1 m = 1 000 mm.",
+      "appui": "Unités de longueur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

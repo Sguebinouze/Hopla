@@ -1,0 +1,113 @@
+{
+  "competence": "MA-C2-CE2-GEO-01",
+  "duree": 7,
+  "essentiel": "Un cube a 6 faces carrées, 12 arêtes et 8 sommets.\nUn pavé a 6 faces rectangulaires, 12 arêtes et 8 sommets.\nLes faces d’une pyramide sont des triangles, sauf la base.",
+  "parties": [
+    {
+      "titre": "Décrire un solide",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Face",
+              "definition": "Surface plate d’un solide."
+            },
+            {
+              "mot": "Arête",
+              "definition": "Trait où deux faces d’un solide se touchent."
+            },
+            {
+              "mot": "Sommet",
+              "definition": "Coin d’une figure ou d’un solide, où des traits se rejoignent."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pave"
+          },
+          "legende": "Un pavé : les arêtes cachées sont en pointillés."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de sommets a un pavé ?",
+          "options": [
+            "8",
+            "6",
+            "12"
+          ],
+          "reponse": "8",
+          "explication": "4 en haut, 4 en bas."
+        }
+      ]
+    },
+    {
+      "titre": "La pyramide",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pyramide-triangulaire"
+          },
+          "legende": "Une pyramide à base triangulaire : 4 faces triangulaires."
+        },
+        {
+          "type": "explique",
+          "texte": "Les faces triangulaires d’une pyramide se rejoignent en un sommet. La base peut être un triangle, un carré…"
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte seulement les faces visibles.",
+          "correction": "Sur un dessin, les traits en pointillés montrent ce qui est caché."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’arêtes a un cube ?",
+      "options": [
+        "12",
+        "8",
+        "6"
+      ],
+      "reponse": "12",
+      "explication": "4 + 4 + 4."
+    },
+    {
+      "consigne": "Les faces d’un cube sont des :",
+      "options": [
+        "carrés",
+        "triangles",
+        "rectangles non carrés"
+      ],
+      "reponse": "carrés",
+      "explication": "Toutes pareilles."
+    },
+    {
+      "consigne": "Une pyramide à base carrée a combien de faces ?",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "reponse": "5",
+      "explication": "1 carré et 4 triangles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 35,
+      "extrait": "justifier sa nature en indiquant le nombre et la nature de ses faces",
+      "appui": "Décrire un solide"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

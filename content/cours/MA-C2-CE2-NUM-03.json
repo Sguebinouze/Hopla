@@ -1,0 +1,99 @@
+{
+  "competence": "MA-C2-CE2-NUM-03",
+  "duree": 6,
+  "essentiel": "Pour comparer deux nombres, on compare d’abord le nombre de chiffres.\nPuis on compare les milliers, les centaines, les dizaines, les unités.\n4 618 est entre 4 610 et 4 620.",
+  "parties": [
+    {
+      "titre": "Comparer et ranger",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux nombres",
+          "etapes": [
+            "Plus de chiffres : le nombre est plus grand.",
+            "Même nombre de chiffres : compare de gauche à droite.",
+            "Le premier chiffre différent décide."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range dans l’ordre croissant : 6 243 ; 6 234 ; 6 239.",
+          "etapes": [
+            "Mêmes milliers, mêmes centaines.",
+            "Dizaines : 4, 3, 3.",
+            "Pour 6 234 et 6 239, unités : 4 et 9."
+          ],
+          "conclusion": "6 234 < 6 239 < 6 243"
+        },
+        {
+          "type": "question",
+          "consigne": "Quel nombre est le plus grand ?",
+          "options": [
+            "7 002",
+            "6 999",
+            "999"
+          ],
+          "reponse": "7 002",
+          "explication": "7 milliers contre 6."
+        }
+      ]
+    },
+    {
+      "titre": "Encadrer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "4 618 a 461 dizaines. Il est entre **4 610** et **4 620**."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 999 > 1 000.",
+          "correction": "999 a 3 chiffres, 1 000 en a 4. 1 000 est plus grand."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe va entre 5 304 et 5 340 ?",
+      "options": [
+        "<",
+        ">",
+        "="
+      ],
+      "reponse": "<",
+      "explication": "0 dizaine contre 4 dizaines."
+    },
+    {
+      "consigne": "4 725 est entre quelles centaines ?",
+      "options": [
+        "4 700 et 4 800",
+        "4 000 et 5 000",
+        "4 720 et 4 730"
+      ],
+      "reponse": "4 700 et 4 800",
+      "explication": "47 centaines."
+    },
+    {
+      "consigne": "Range dans l’ordre croissant : 3 100 ; 1 300 ; 3 010.",
+      "options": [
+        "1 300 ; 3 010 ; 3 100",
+        "3 100 ; 3 010 ; 1 300",
+        "3 010 ; 1 300 ; 3 100"
+      ],
+      "reponse": "1 300 ; 3 010 ; 3 100",
+      "explication": "Compare les milliers, puis les centaines."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 11,
+      "extrait": "L’élève sait ordonner dans l’ordre croissant ou décroissant un ensemble pouvant aller",
+      "appui": "Ranger des nombres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

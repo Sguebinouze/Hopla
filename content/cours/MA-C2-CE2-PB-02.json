@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C2-CE2-PB-02",
+  "duree": 8,
+  "essentiel": "Un problème en deux étapes demande deux calculs.\nJe trouve d’abord le résultat intermédiaire.\nPuis je l’utilise pour répondre à la question.",
+  "parties": [
+    {
+      "titre": "Deux étapes",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Léo a 188 billes. Lucie en a 75 de plus. Combien en ont-ils ensemble ?",
+          "etapes": [
+            "Étape 1 : Lucie a 188 + 75 = 263 billes.",
+            "Étape 2 : ensemble, 188 + 263 = 451."
+          ],
+          "conclusion": "Ils ont 451 billes ensemble."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour un problème en deux étapes",
+          "etapes": [
+            "Lis la question finale.",
+            "Cherche ce qu’il faut savoir d’abord.",
+            "Calcule ce résultat intermédiaire.",
+            "Utilise-le pour répondre."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un cahier coute 3 €. J’en achète 4 et je paie avec 20 €. Monnaie rendue ?",
+          "options": [
+            "8 €",
+            "12 €",
+            "17 €"
+          ],
+          "reponse": "8 €",
+          "explication": "4 × 3 = 12, puis 20 − 12."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas s’arrêter trop tôt",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On répond 263, le nombre de billes de Lucie.",
+          "correction": "Relis la question : on demande le total des deux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Tom a 50 €. Il achète un livre à 12 € et un jeu à 25 €. Il lui reste :",
+      "options": [
+        "13 €",
+        "37 €",
+        "38 €"
+      ],
+      "reponse": "13 €",
+      "explication": "12 + 25 = 37, puis 50 − 37."
+    },
+    {
+      "consigne": "3 boites de 12 œufs et 5 œufs de plus. Combien d’œufs ?",
+      "options": [
+        "41",
+        "36",
+        "20"
+      ],
+      "reponse": "41",
+      "explication": "3 × 12 = 36, puis + 5."
+    },
+    {
+      "consigne": "Mia a 40 images, Sam 15 de moins. Ensemble ?",
+      "options": [
+        "65",
+        "25",
+        "55"
+      ],
+      "reponse": "65",
+      "explication": "Sam : 25. Puis 40 + 25."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 24,
+      "extrait": "L’élève rencontre des problèmes de comparaison qui se traitent en deux étapes.",
+      "appui": "Problèmes en deux étapes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

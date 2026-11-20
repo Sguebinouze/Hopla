@@ -1,0 +1,101 @@
+{
+  "competence": "MA-C2-CE2-OPE-01",
+  "duree": 8,
+  "essentiel": "Pour poser une addition, on aligne les unités sous les unités.\nOn calcule de droite à gauche, sans oublier les retenues.\nLe résultat d’une addition est une somme. Celui d’une soustraction est une différence.",
+  "parties": [
+    {
+      "titre": "L’addition posée",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 3 721 + 4 054.",
+          "etapes": [
+            "Unités : 1 + 4 = 5.",
+            "Dizaines : 2 + 5 = 7.",
+            "Centaines : 7 + 0 = 7.",
+            "Milliers : 3 + 4 = 7."
+          ],
+          "conclusion": "La somme est 7 775."
+        },
+        {
+          "type": "piege",
+          "erreur": "On aligne les nombres à gauche.",
+          "correction": "On aligne à droite : unités sous unités."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 2 468 + 1 352 ?",
+          "options": [
+            "3 820",
+            "3 710",
+            "3 810"
+          ],
+          "reponse": "3 820",
+          "explication": "Attention aux retenues."
+        }
+      ]
+    },
+    {
+      "titre": "La soustraction posée",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour poser 602 − 375",
+          "etapes": [
+            "Unités : 2 − 5, impossible. Prends une dizaine.",
+            "Il n’y a pas de dizaine : prends une centaine.",
+            "Calcule rang par rang. Résultat : 227.",
+            "Vérifie : 227 + 375 = 602."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La **différence** entre 60 et 37 est 23."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 5 000 − 1 250 ?",
+      "options": [
+        "3 750",
+        "4 250",
+        "3 850"
+      ],
+      "reponse": "3 750",
+      "explication": "Vérifie : 3 750 + 1 250 = 5 000."
+    },
+    {
+      "consigne": "La somme de 1 500 et 2 700 est :",
+      "options": [
+        "4 200",
+        "1 200",
+        "3 200"
+      ],
+      "reponse": "4 200",
+      "explication": "1 500 + 2 700."
+    },
+    {
+      "consigne": "Comment vérifier une soustraction ?",
+      "options": [
+        "par une addition",
+        "par une multiplication",
+        "on ne peut pas"
+      ],
+      "reponse": "par une addition",
+      "explication": "Différence + nombre retiré = nombre de départ."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 21,
+      "extrait": "L’élève sait traiter les additions et les soustractions posées avec des nombres entiers",
+      "appui": "Opérations posées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

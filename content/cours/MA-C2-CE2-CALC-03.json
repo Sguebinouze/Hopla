@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C2-CE2-CALC-03",
+  "duree": 6,
+  "essentiel": "Multiplier par 10 : chaque unité devient une dizaine. 724 × 10 = 7 240.\nMultiplier par 100 : chaque unité devient une centaine. 36 × 100 = 3 600.",
+  "parties": [
+    {
+      "titre": "Par 10",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 724 × 10.",
+          "exemples": [
+            "7 centaines deviennent 7 milliers.",
+            "2 dizaines deviennent 2 centaines.",
+            "4 unités deviennent 4 dizaines.",
+            "Résultat : 7 240."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 58 × 10 ?",
+          "options": [
+            "580",
+            "5 800",
+            "68"
+          ],
+          "reponse": "580",
+          "explication": "Chaque chiffre gagne un rang."
+        }
+      ]
+    },
+    {
+      "titre": "Par 100",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Multiplier par 100, c’est multiplier par 10, puis encore par 10."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute 100 : 36 × 100 = 136.",
+          "correction": "Multiplier n’est pas ajouter. 36 × 100 = 3 600."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 45 × 100 ?",
+      "options": [
+        "4 500",
+        "450",
+        "145"
+      ],
+      "reponse": "4 500",
+      "explication": "45 centaines."
+    },
+    {
+      "consigne": "Combien font 10 × 306 ?",
+      "options": [
+        "3 060",
+        "316",
+        "30 600"
+      ],
+      "reponse": "3 060",
+      "explication": "306 dizaines."
+    },
+    {
+      "consigne": "Complète : … × 10 = 920",
+      "options": [
+        "92",
+        "9 200",
+        "910"
+      ],
+      "reponse": "92",
+      "explication": "92 dizaines = 920."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 15,
+      "extrait": "lors d’une multiplication par 10, une unité devient une dizaine",
+      "appui": "Multiplier par 10"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

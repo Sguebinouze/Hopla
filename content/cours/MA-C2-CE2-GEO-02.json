@@ -1,0 +1,172 @@
+{
+  "competence": "MA-C2-CE2-GEO-02",
+  "duree": 6,
+  "essentiel": "Un polygone est une figure fermée faite de segments.\nOn le nomme selon son nombre de côtés.\n3 côtés : triangle. 4 : quadrilatère. 5 : pentagone. 6 : hexagone.",
+  "parties": [
+    {
+      "titre": "Nommer un polygone",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les polygones",
+          "colonnes": [
+            "Côtés",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "3",
+              "triangle"
+            ],
+            [
+              "4",
+              "quadrilatère"
+            ],
+            [
+              "5",
+              "pentagone"
+            ],
+            [
+              "6",
+              "hexagone"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 12,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    4,
+                    5.5
+                  ],
+                  [
+                    2,
+                    5.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    7,
+                    3
+                  ],
+                  [
+                    8.5,
+                    1
+                  ],
+                  [
+                    10.5,
+                    1
+                  ],
+                  [
+                    11.5,
+                    3
+                  ],
+                  [
+                    10.5,
+                    5
+                  ],
+                  [
+                    8.5,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un pentagone, puis un hexagone."
+        },
+        {
+          "type": "question",
+          "consigne": "Un polygone à 5 côtés est :",
+          "options": [
+            "un pentagone",
+            "un hexagone",
+            "un triangle"
+          ],
+          "reponse": "un pentagone",
+          "explication": "Penta veut dire cinq."
+        }
+      ]
+    },
+    {
+      "titre": "Polygone ou pas ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un disque est un polygone.",
+          "correction": "Un disque a un bord rond. Un polygone n’a que des côtés droits."
+        },
+        {
+          "type": "explique",
+          "texte": "Le carré, le rectangle et le losange sont des **quadrilatères**."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un hexagone a combien de côtés ?",
+      "options": [
+        "6",
+        "5",
+        "8"
+      ],
+      "reponse": "6",
+      "explication": "Hexa veut dire six."
+    },
+    {
+      "consigne": "Un carré est un :",
+      "options": [
+        "quadrilatère",
+        "pentagone",
+        "triangle"
+      ],
+      "reponse": "quadrilatère",
+      "explication": "Il a 4 côtés."
+    },
+    {
+      "consigne": "Quelle figure n’est pas un polygone ?",
+      "options": [
+        "le cercle",
+        "le triangle",
+        "le rectangle"
+      ],
+      "reponse": "le cercle",
+      "explication": "Le cercle n’a pas de côté droit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 36,
+      "extrait": "polygone, triangle, quadrilatère, pentagone et hexagone",
+      "appui": "Polygones"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

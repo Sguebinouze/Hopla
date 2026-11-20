@@ -1,0 +1,127 @@
+{
+  "competence": "MA-C2-CE2-PB-04",
+  "duree": 7,
+  "essentiel": "« 4 fois plus » : je multiplie par 4.\n« 4 fois moins » : je divise par 4.\n« 4 de plus » : j’ajoute 4. Attention à ne pas confondre.",
+  "parties": [
+    {
+      "titre": "Fois plus, de plus",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un casque coute 32 €. La trottinette coute 4 fois plus cher.",
+          "etapes": [
+            "4 fois plus : 4 × 32.",
+            "4 × 32 = 128."
+          ],
+          "conclusion": "La trottinette coute 128 €."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ne pas confondre",
+          "colonnes": [
+            "Expression",
+            "Calcul",
+            "Avec 20"
+          ],
+          "lignes": [
+            [
+              "3 fois plus",
+              "× 3",
+              "60"
+            ],
+            [
+              "3 de plus",
+              "+ 3",
+              "23"
+            ],
+            [
+              "3 fois moins",
+              "÷ 3",
+              "20 ÷ 3 ne tombe pas juste"
+            ],
+            [
+              "4 fois moins",
+              "÷ 4",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Léa a 6 ans. Son père a 6 fois plus. Âge du père ?",
+          "options": [
+            "36 ans",
+            "12 ans",
+            "42 ans"
+          ],
+          "reponse": "36 ans",
+          "explication": "6 × 6."
+        }
+      ]
+    },
+    {
+      "titre": "Fois moins",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "« 5 fois moins que 40 » : 40 − 5 = 35.",
+          "correction": "Fois moins : on divise. 40 ÷ 5 = 8."
+        },
+        {
+          "type": "question",
+          "consigne": "Un chat pèse 4 kg. Une souris pèse 100 fois moins… Que fait-on ?",
+          "options": [
+            "on divise",
+            "on multiplie",
+            "on ajoute"
+          ],
+          "reponse": "on divise",
+          "explication": "Fois moins : division."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un crayon coute 2 €. Un livre coute 7 fois plus. Prix du livre ?",
+      "options": [
+        "14 €",
+        "9 €",
+        "5 €"
+      ],
+      "reponse": "14 €",
+      "explication": "7 × 2."
+    },
+    {
+      "consigne": "Tom a 24 billes. Sami en a 3 fois moins. Sami a :",
+      "options": [
+        "8 billes",
+        "21 billes",
+        "72 billes"
+      ],
+      "reponse": "8 billes",
+      "explication": "24 ÷ 3."
+    },
+    {
+      "consigne": "Ana a 10 €. Zoé a 5 € de plus. Zoé a :",
+      "options": [
+        "15 €",
+        "50 €",
+        "2 €"
+      ],
+      "reponse": "15 €",
+      "explication": "De plus : on ajoute."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 25,
+      "extrait": "L’élève comprend le sens des locutions « fois plus » et « fois moins » et les distingue de",
+      "appui": "Fois plus, fois moins"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

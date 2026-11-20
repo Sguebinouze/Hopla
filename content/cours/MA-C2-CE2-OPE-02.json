@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C2-CE2-OPE-02",
+  "duree": 8,
+  "essentiel": "Pour multiplier par un nombre à deux chiffres, on décompose.\n548 × 16 = 548 × 6 + 548 × 10.\n3 288 + 5 480 = 8 768.",
+  "parties": [
+    {
+      "titre": "Par un chiffre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 548 × 6.",
+          "etapes": [
+            "6 × 8 = 48 : j’écris 8, je retiens 4.",
+            "6 × 4 = 24, + 4 = 28 : j’écris 8, je retiens 2.",
+            "6 × 5 = 30, + 2 = 32."
+          ],
+          "conclusion": "548 × 6 = 3 288"
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 123 × 3 ?",
+          "options": [
+            "369",
+            "366",
+            "126"
+          ],
+          "reponse": "369",
+          "explication": "3 × 3, 3 × 2, 3 × 1."
+        }
+      ]
+    },
+    {
+      "titre": "Par deux chiffres",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour poser 548 × 16",
+          "etapes": [
+            "Ligne 1 : 548 × 6 = 3 288.",
+            "Ligne 2 : 548 × 10 = 5 480. Le 0 se place au rang des unités.",
+            "Ajoute les deux lignes : 8 768."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le 0 de la deuxième ligne.",
+          "correction": "On multiplie par 1 dizaine : on décale d’un rang."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 25 × 12 ?",
+      "options": [
+        "300",
+        "250",
+        "275"
+      ],
+      "reponse": "300",
+      "explication": "25 × 10 + 25 × 2 = 250 + 50."
+    },
+    {
+      "consigne": "Combien font 34 × 5 ?",
+      "options": [
+        "170",
+        "150",
+        "39"
+      ],
+      "reponse": "170",
+      "explication": "30 × 5 + 4 × 5."
+    },
+    {
+      "consigne": "Dans 46 × 13, la deuxième ligne vaut :",
+      "options": [
+        "460",
+        "46",
+        "138"
+      ],
+      "reponse": "460",
+      "explication": "46 × 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 21,
+      "extrait": "Par exemple, l’élève sait calculer 16 × 548 ou 548 × 16 en posant l’opération avec le",
+      "appui": "Multiplication posée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

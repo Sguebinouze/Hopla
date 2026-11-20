@@ -1,0 +1,118 @@
+{
+  "competence": "MA-C2-CE2-NUM-01",
+  "duree": 7,
+  "essentiel": "Un nombre à 4 chiffres a milliers, centaines, dizaines et unités.\n4 635 = 4 000 + 600 + 30 + 5.\n1 millier = 10 centaines = 100 dizaines = 1 000 unités.",
+  "parties": [
+    {
+      "titre": "Le millier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le nombre 4 635",
+          "colonnes": [
+            "Milliers",
+            "Centaines",
+            "Dizaines",
+            "Unités"
+          ],
+          "lignes": [
+            [
+              "4",
+              "6",
+              "3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Dix paquets de cent font **un millier**. On écrit 1 000."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 7 248, que vaut le 7 ?",
+          "options": [
+            "7 milliers",
+            "7 centaines",
+            "7 unités"
+          ],
+          "reponse": "7 milliers",
+          "explication": "Il est au rang des milliers : 7 000."
+        }
+      ]
+    },
+    {
+      "titre": "Décomposer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour décomposer un nombre",
+          "etapes": [
+            "Lis chaque chiffre avec son rang.",
+            "Écris la valeur de chaque chiffre.",
+            "Ajoute : 4 000 + 600 + 30 + 5."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Dans 3 045, on oublie le 0.",
+          "correction": "3 045 = 3 000 + 40 + 5. Il n’y a pas de centaine."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel nombre fait 2 milliers et 9 unités ?",
+          "options": [
+            "2 009",
+            "209",
+            "2 900"
+          ],
+          "reponse": "2 009",
+          "explication": "Le 0 garde la place des centaines et des dizaines."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de centaines dans 1 millier ?",
+      "options": [
+        "10",
+        "100",
+        "1 000"
+      ],
+      "reponse": "10",
+      "explication": "10 × 100 = 1 000."
+    },
+    {
+      "consigne": "Quel nombre est égal à 5 000 + 300 + 7 ?",
+      "options": [
+        "5 307",
+        "5 370",
+        "537"
+      ],
+      "reponse": "5 307",
+      "explication": "Pas de dizaine : 0 au rang des dizaines."
+    },
+    {
+      "consigne": "Dans 6 512, combien de dizaines en tout ?",
+      "options": [
+        "651",
+        "1",
+        "65"
+      ],
+      "reponse": "651",
+      "explication": "6 512 = 651 dizaines et 2 unités."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 19,
+      "extrait": "Les connaissances et savoir-faire attendus concernent les nombres jusqu’à 10 000.",
+      "appui": "Nombres jusqu’à 10 000"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

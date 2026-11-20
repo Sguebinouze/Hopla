@@ -1,0 +1,148 @@
+{
+  "competence": "MA-C2-CE2-GEO-03",
+  "duree": 6,
+  "essentiel": "Tous les points d’un cercle sont à la même distance du centre.\nCette distance est le rayon.\nLe diamètre passe par le centre. Il mesure deux rayons.",
+  "parties": [
+    {
+      "titre": "Centre, rayon, diamètre",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 9,
+            "hauteur": 8,
+            "elements": [
+              {
+                "forme": "cercle",
+                "centre": [
+                  4.5,
+                  4
+                ],
+                "rayon": 3
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4.5,
+                  4
+                ],
+                "nom": "O"
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1.5,
+                  4
+                ],
+                "a": [
+                  7.5,
+                  4
+                ],
+                "accent": true
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  4.5,
+                  4
+                ],
+                "a": [
+                  4.5,
+                  1
+                ]
+              }
+            ]
+          },
+          "legende": "En couleur, un diamètre. Le trait vertical est un rayon."
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cercle",
+              "definition": "Ligne ronde et fermée. Tous ses points sont à la même distance du centre."
+            },
+            {
+              "mot": "Centre",
+              "definition": "Point au milieu exact d’un cercle ou d’un disque."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le rayon mesure 4 cm. Le diamètre mesure :",
+          "options": [
+            "8 cm",
+            "2 cm",
+            "4 cm"
+          ],
+          "reponse": "8 cm",
+          "explication": "Deux rayons."
+        }
+      ]
+    },
+    {
+      "titre": "Tracer au compas",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour tracer un cercle de rayon 3 cm",
+          "etapes": [
+            "Écarte le compas de 3 cm sur la règle.",
+            "Plante la pointe sur le centre.",
+            "Tourne sans changer l’écartement."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écarte le compas de la longueur du diamètre.",
+          "correction": "L’écartement du compas est le rayon."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Diamètre 10 cm. Rayon ?",
+      "options": [
+        "5 cm",
+        "20 cm",
+        "10 cm"
+      ],
+      "reponse": "5 cm",
+      "explication": "La moitié."
+    },
+    {
+      "consigne": "Le diamètre passe par :",
+      "options": [
+        "le centre",
+        "un seul point du cercle",
+        "nulle part"
+      ],
+      "reponse": "le centre",
+      "explication": "Il traverse le cercle par le centre."
+    },
+    {
+      "consigne": "L’écartement du compas correspond :",
+      "options": [
+        "au rayon",
+        "au diamètre",
+        "au centre"
+      ],
+      "reponse": "au rayon",
+      "explication": "Du centre au bord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 36,
+      "extrait": "disque, cercle, centre, rayon, diamètre",
+      "appui": "Vocabulaire du cercle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,144 @@
+{
+  "competence": "MA-C2-CE2-DATA-01",
+  "duree": 6,
+  "essentiel": "Dans un tableau à double entrée, on croise ligne et colonne.\nDans un diagramme, une graduation peut valoir plus que 1.\nJe lis l’échelle avant de lire les barres.",
+  "parties": [
+    {
+      "titre": "Le tableau à double entrée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comment viennent les élèves",
+          "colonnes": [
+            "Transport",
+            "Filles",
+            "Garçons"
+          ],
+          "lignes": [
+            [
+              "à pied",
+              "77",
+              "65"
+            ],
+            [
+              "en vélo",
+              "29",
+              "18"
+            ],
+            [
+              "en voiture",
+              "24",
+              "24"
+            ],
+            [
+              "en bus",
+              "18",
+              "27"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour lire une case",
+          "etapes": [
+            "Trouve la ligne : en vélo.",
+            "Trouve la colonne : garçons.",
+            "Lis la case au croisement : 18."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de filles viennent à pied ?",
+          "options": [
+            "77",
+            "65",
+            "142"
+          ],
+          "reponse": "77",
+          "explication": "Ligne « à pied », colonne « filles »."
+        }
+      ]
+    },
+    {
+      "titre": "Le diagramme avec une échelle",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Livres empruntés",
+            "unite": "livres",
+            "pas": 5,
+            "barres": [
+              {
+                "nom": "lundi",
+                "valeur": 20
+              },
+              {
+                "nom": "mardi",
+                "valeur": 35
+              },
+              {
+                "nom": "jeudi",
+                "valeur": 15
+              },
+              {
+                "nom": "vendredi",
+                "valeur": 25
+              }
+            ]
+          },
+          "legende": "Chaque graduation vaut 5 livres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte les graduations : mardi, 7 livres.",
+          "correction": "Une graduation vaut 5. 7 × 5 = 35 livres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de garçons viennent en bus ?",
+      "options": [
+        "27",
+        "18",
+        "45"
+      ],
+      "reponse": "27",
+      "explication": "Ligne « en bus », colonne « garçons »."
+    },
+    {
+      "consigne": "Combien de livres le vendredi ?",
+      "options": [
+        "25",
+        "5",
+        "20"
+      ],
+      "reponse": "25",
+      "explication": "La barre monte à 25."
+    },
+    {
+      "consigne": "Quel jour a eu le plus d’emprunts ?",
+      "options": [
+        "mardi",
+        "lundi",
+        "jeudi"
+      ],
+      "reponse": "mardi",
+      "explication": "35 livres."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 38,
+      "extrait": "Lire et interpréter les données d’un tableau à double entrée",
+      "appui": "Tableau à double entrée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,108 @@
+{
+  "competence": "MA-C2-CE2-FRAC-03",
+  "duree": 7,
+  "essentiel": "Même nombre du bas : le plus grand nombre du haut gagne.\nMême nombre du haut : les plus grandes parts gagnent.\n5/12 < 7/12. 5/12 < 5/8.",
+  "parties": [
+    {
+      "titre": "Même dénominateur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 12,
+                "coloriees": 5,
+                "nom": "5/12"
+              },
+              {
+                "parts": 12,
+                "coloriees": 7,
+                "nom": "7/12"
+              }
+            ]
+          },
+          "legende": "5/12 colorie moins que 7/12."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fraction est la plus grande ?",
+          "options": [
+            "4/5",
+            "2/5",
+            "3/5"
+          ],
+          "reponse": "4/5",
+          "explication": "Même taille de parts : 4 parts, c’est le plus."
+        }
+      ]
+    },
+    {
+      "titre": "Même numérateur",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un huitième est plus grand qu’un douzième. Donc 5 huitièmes dépassent 5 douzièmes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1/12 > 1/8, car 12 > 8.",
+          "correction": "Plus on coupe en parts, plus elles sont petites."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Compare 5/6 et 7/12.",
+          "etapes": [
+            "12 = 2 × 6, donc 5/6 = 10/12.",
+            "10/12 > 7/12."
+          ],
+          "conclusion": "5/6 > 7/12"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe va entre 3/10 et 7/10 ?",
+      "options": [
+        "<",
+        ">",
+        "="
+      ],
+      "reponse": "<",
+      "explication": "3 dixièmes, moins que 7 dixièmes."
+    },
+    {
+      "consigne": "Quel signe va entre 2/3 et 2/6 ?",
+      "options": [
+        ">",
+        "<",
+        "="
+      ],
+      "reponse": ">",
+      "explication": "Les tiers sont plus grands que les sixièmes."
+    },
+    {
+      "consigne": "Quelle fraction est la plus petite ?",
+      "options": [
+        "1/10",
+        "1/4",
+        "1/2"
+      ],
+      "reponse": "1/10",
+      "explication": "Les dixièmes sont les plus petites parts."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 21,
+      "extrait": "L’élève sait comparer des fractions ayant le même numérateur et justifier sa réponse",
+      "appui": "Comparer des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

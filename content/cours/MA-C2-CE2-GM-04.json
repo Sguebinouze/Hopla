@@ -1,0 +1,102 @@
+{
+  "competence": "MA-C2-CE2-GM-04",
+  "duree": 7,
+  "essentiel": "1 h = 60 min. 2 h 20 min = 120 + 20 = 140 min.\nPour une durée, je passe par l’heure pile.\nDe 15 h 40 à 16 h 05, il passe 25 min.",
+  "parties": [
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour convertir 2 h 20 min",
+          "etapes": [
+            "2 h = 2 × 60 = 120 min.",
+            "Ajoute 20 min : 140 min."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de minutes dans 1 h 15 min ?",
+          "options": [
+            "75",
+            "115",
+            "65"
+          ],
+          "reponse": "75",
+          "explication": "60 + 15."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer une durée ou un horaire",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 15,
+            "minutes": 40
+          },
+          "legende": "Il est 15 h 40."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Le film commence à 15 h 40 et dure 45 min. À quelle heure finit-il ?",
+          "etapes": [
+            "De 15 h 40 à 16 h : 20 min.",
+            "Il reste 25 min."
+          ],
+          "conclusion": "Le film finit à 16 h 25."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 15 h 40 + 45 min = 15 h 85.",
+          "correction": "Une heure a 60 minutes. On passe à 16 h."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Durée de 9 h 50 à 10 h 20 ?",
+      "options": [
+        "30 min",
+        "70 min",
+        "20 min"
+      ],
+      "reponse": "30 min",
+      "explication": "10 min + 20 min."
+    },
+    {
+      "consigne": "Combien de minutes dans 3 h ?",
+      "options": [
+        "180",
+        "300",
+        "90"
+      ],
+      "reponse": "180",
+      "explication": "3 × 60."
+    },
+    {
+      "consigne": "Il est 11 h 45. Dans 30 min, il sera :",
+      "options": [
+        "12 h 15",
+        "11 h 75",
+        "12 h 45"
+      ],
+      "reponse": "12 h 15",
+      "explication": "15 min jusqu’à midi, puis 15 min."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 31,
+      "extrait": "L’élève sait déterminer le nombre de minutes qu’il y a dans deux heures et vingt minutes.",
+      "appui": "Heures et minutes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

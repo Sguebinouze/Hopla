@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CE2-OPE-03",
+  "duree": 7,
+  "essentiel": "La division est l’inverse de la multiplication.\n7 × 13 = 91, donc 91 ÷ 7 = 13 et 91 ÷ 13 = 7.\nDiviser, c’est chercher combien de fois un nombre est dans un autre.",
+  "parties": [
+    {
+      "titre": "Le signe ÷",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "On partage 24 bonbons entre 4 enfants.",
+          "exemples": [
+            "Chacun reçoit le même nombre.",
+            "4 × 6 = 24.",
+            "Donc 24 ÷ 4 = 6."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 35 ÷ 5 ?",
+          "options": [
+            "7",
+            "30",
+            "40"
+          ],
+          "reponse": "7",
+          "explication": "5 × 7 = 35."
+        }
+      ]
+    },
+    {
+      "titre": "S’appuyer sur les tables",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 56 ÷ 8",
+          "etapes": [
+            "Cherche dans la table de 8.",
+            "8 × 7 = 56.",
+            "Donc 56 ÷ 8 = 7."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 8 ÷ 56 = 7.",
+          "correction": "On écrit d’abord le nombre partagé : 56 ÷ 8."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 42 ÷ 6 ?",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "6 × 7 = 42."
+    },
+    {
+      "consigne": "Si 9 × 12 = 108, combien font 108 ÷ 9 ?",
+      "options": [
+        "12",
+        "9",
+        "117"
+      ],
+      "reponse": "12",
+      "explication": "Opération inverse."
+    },
+    {
+      "consigne": "Combien font 81 ÷ 9 ?",
+      "options": [
+        "9",
+        "8",
+        "72"
+      ],
+      "reponse": "9",
+      "explication": "9 × 9 = 81."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 21,
+      "extrait": "L’élève comprend que la division est l’opération inverse de la multiplication.",
+      "appui": "Sens de la division"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
