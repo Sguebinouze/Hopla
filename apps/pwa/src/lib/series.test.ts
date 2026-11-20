@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { aEviter } from '../pages/Exercice';
-import { cleItem, empreinteConsigne, empreintesEssai, marquesDe, seriePour, supportDe, type CompetencePack } from './packs';
+import { cleItem, empreinteQuestion, empreintesEssai, marquesDe, seriePour, supportDe, type CompetencePack } from './packs';
 
 const lecture = {
   id: 'FR-C2-CE1-LECT-01', titre: 'Comprendre un texte', generateurs: ['lecture-ce1'], exercices: [],
@@ -62,7 +62,7 @@ describe('séries de questions', () => {
   } as unknown as CompetencePack;
 
   it('la série ne reprend jamais la question « À toi » de la leçon, même reformulée par un générateur', () => {
-    expect(empreintesEssai(ESSAI)).toContain('cite:nous partirons demain');
+    expect(empreintesEssai({ consigne: ESSAI, options: [] })).toContain('cite:nous partirons demain');
     for (let i = 0; i < 300; i++) {
       const s = seriePour(fonctions, 5, new Set(), aEviter(fonctions, []));
       expect(s.length).toBeGreaterThan(0);
@@ -77,14 +77,30 @@ describe('séries de questions', () => {
       const s = seriePour(fonctions, 5, new Set(), aEviter(fonctions, posees));
       if (s.length === 0) break;
       for (const it of s) {
-        expect(posees).not.toContain(empreinteConsigne(it.consigne));
+        expect(posees).not.toContain(empreinteQuestion(it));
         expect(it.consigne).not.toMatch(/Nous partirons demain/);
       }
-      posees = [...posees, ...s.map((it) => empreinteConsigne(it.consigne))];
+      posees = [...posees, ...s.map(empreinteQuestion)];
       total += s.length;
     }
     // 24 phrases dans le générateur, moins celle de l'essai : la séance s'arrête quand tout a été posé.
     expect(total).toBeGreaterThan(15);
     expect(seriePour(fonctions, 5, new Set(), aEviter(fonctions, posees)).length).toBeLessThan(5);
+  });
+});
+
+describe('consignes génériques', () => {
+  it('une même consigne avec des dessins ou des options différents donne des questions distinctes', () => {
+    const fractions = {
+      id: 'MA-C2-CE1-FRAC-02', titre: 'Comparer des fractions', generateurs: ['fractions-comparer-ce1'], exercices: [],
+      lecon: { exemple: '', regle: '', piege: null, essai: { consigne: 'Quelle fraction est la plus grande ?', options: ['1/4', '1/2', '1/10'], reponse: '1/2', explication: '' } },
+    } as unknown as CompetencePack;
+    const heures = { id: 'MA-C2-CP-TEMPS-01', titre: 'Heures', generateurs: ['heures-cp'], exercices: [], lecon: null } as unknown as CompetencePack;
+    for (let i = 0; i < 50; i++) {
+      expect(seriePour(fractions, 5, new Set(), aEviter(fractions, []))).toHaveLength(5);
+      const s = seriePour(heures, 5);
+      expect(s).toHaveLength(5);
+      expect(new Set(s.map(empreinteQuestion)).size).toBe(5);
+    }
   });
 });

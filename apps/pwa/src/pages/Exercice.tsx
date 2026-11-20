@@ -8,10 +8,11 @@ import { Octave } from '../composants/Octave';
 import { Visuel } from '../composants/Visuel';
 import { modeClavier } from '../lib/clavier';
 import { api } from '../lib/donnees';
+import { questionsDuCours } from '../lib/cours';
 import { tempsEcoule } from '../lib/temps';
 import { FinDuJour } from '../composants/FinDuJour';
 import {
-  chargerPack, competencesJouables, empreinteConsigne, empreintesEssai, noterRecentes, questionsRecentes, seriePour, supportDe,
+  chargerPack, competencesJouables, empreinteQuestion, empreintesEssai, noterRecentes, questionsRecentes, seriePour, supportDe,
   type CompetencePack, type ItemPack,
 } from '../lib/packs';
 import { aUneVoix, dire, lectureAuto, taire } from '../lib/voix';
@@ -26,8 +27,13 @@ export interface SuiteSerie {
 }
 
 /** Questions à écarter : la question « À toi » de la leçon et celles déjà posées pendant la séance. */
-export function aEviter(c: Pick<CompetencePack, 'lecon'>, posees: string[]): Set<string> {
-  return new Set([...(c.lecon ? empreintesEssai(c.lecon.essai.consigne) : []), ...posees]);
+/** Questions de la leçon et du cours, et questions déjà posées : la série n'en reprend aucune. */
+export function aEviter(c: Pick<CompetencePack, 'lecon' | 'cours'>, posees: string[]): Set<string> {
+  return new Set([
+    ...(c.lecon ? empreintesEssai(c.lecon.essai) : []),
+    ...(c.cours ? questionsDuCours(c.cours).flatMap(empreintesEssai) : []),
+    ...posees,
+  ]);
 }
 
 export function Exercice() {
@@ -61,7 +67,7 @@ export function Exercice() {
         const posees = suite?.posees ?? [];
         const serieDuJour = suite?.items.length ? suite.items : seriePour(c, TAILLE_SERIE, questionsRecentes(enfant.id, c.id), aEviter(c, posees));
         noterRecentes(enfant.id, c.id, serieDuJour);
-        notion.current = { c, enfant: enfant.id, posees: [...posees, ...serieDuJour.map((it) => empreinteConsigne(it.consigne))] };
+        notion.current = { c, enfant: enfant.id, posees: [...posees, ...serieDuJour.map(empreinteQuestion)] };
         setItems(serieDuJour);
       } catch {
         naviguer('/accueil');

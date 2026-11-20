@@ -518,3 +518,46 @@ body.avec-clavier main { padding-bottom: 340px; }
 .hp-option.option-image img { width: 72px; height: 72px; object-fit: contain; }
 .hp-option.option-image span { font-size: 20px; line-height: 24px; }
 .relecture__image { display: block; max-width: 100%; max-height: 240px; border-radius: var(--radius-md); background: var(--surface-0); object-fit: contain; }
+
+/* Cours complet : parties numérotées, blocs typés. */
+.lecon__vues { display: inline-flex; gap: 4px; padding: 4px; border-radius: var(--radius-pill); background: var(--surface-2); align-self: flex-start; }
+.lecon__vues button { border: 0; background: none; font: inherit; font-size: 14px; font-weight: 700; color: var(--ink-muted); padding: 6px 14px; border-radius: var(--radius-pill); cursor: pointer; min-height: 36px; }
+.lecon__vues button[aria-pressed="true"] { background: var(--surface-1); color: var(--ink); box-shadow: var(--shadow-card); }
+.cours { display: flex; flex-direction: column; gap: var(--space-4); }
+.cours__partie { background: var(--surface-1); border-radius: var(--radius-lg); padding: var(--space-4); box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.cours__titre { margin: 0; display: flex; align-items: center; gap: var(--space-2); font-family: var(--font-display); font-weight: 600; font-size: 21px; line-height: 1.2; }
+.cours__numero { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--lecon-accent); color: var(--surface-1); font-size: 15px; margin-right: var(--space-2); }
+.cours__titre .cours__numero { margin-right: 0; }
+.cours__bloc { margin: 0; }
+.cours__etiquette { margin: 0 0 4px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--lecon-accent); }
+.cours__consigne { margin: 0 0 var(--space-2); font-weight: 600; font-size: 17px; line-height: 26px; }
+.cours__observe, .cours__resolu { border-left: 4px solid var(--lecon-accent); padding: var(--space-1) 0 var(--space-1) var(--space-3); }
+.cours__exemples { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 17px; line-height: 28px; }
+.cours__methode { background: var(--lecon-doux); border-radius: var(--radius-md); padding: var(--space-3); }
+.cours__etapes { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; font-size: 17px; line-height: 26px; }
+.cours__conclusion { margin: var(--space-2) 0 0; font-weight: 700; font-size: 17px; line-height: 26px; }
+.cours__piege { display: flex; gap: var(--space-3); align-items: flex-start; background: var(--attention-soft); border-radius: var(--radius-md); padding: var(--space-3); }
+.cours__piege .cours__etiquette { color: var(--attention); }
+.cours__piege .lecon__texte + .lecon__texte { margin-top: 4px; }
+.cours__tableau { overflow-x: auto; }
+.cours__tableau table { border-collapse: collapse; width: 100%; font-size: 15px; line-height: 22px; }
+.cours__tableau caption { text-align: left; font-weight: 700; padding-bottom: var(--space-2); }
+.cours__tableau th, .cours__tableau td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.cours__tableau thead th { background: var(--lecon-doux); }
+.cours__vocabulaire { display: flex; flex-direction: column; gap: var(--space-2); }
+.cours__vocabulaire div { display: flex; flex-direction: column; gap: 2px; }
+.cours__vocabulaire dt { font-weight: 700; }
+.cours__vocabulaire dd { margin: 0; color: var(--ink-muted); line-height: 22px; }
+.cours__figure { display: flex; flex-direction: column; gap: var(--space-2); }
+.cours__figure img { width: 100%; height: auto; max-height: 360px; object-fit: contain; border-radius: var(--radius-md); background: var(--surface-2); }
+.cours__figure figcaption { font-size: 14px; line-height: 20px; color: var(--ink-muted); }
+.cours__frise { list-style: none; margin: 0; padding: 0 0 0 var(--space-3); border-left: 3px solid var(--lecon-accent); display: flex; flex-direction: column; gap: var(--space-2); }
+.cours__frise li { display: flex; flex-direction: column; gap: 2px; position: relative; font-size: 16px; line-height: 22px; }
+.cours__frise li::before { content: ""; position: absolute; left: calc(-1 * var(--space-3) - 8px); top: 5px; width: 13px; height: 13px; border-radius: 50%; background: var(--lecon-accent); }
+.cours__date { font-weight: 700; color: var(--lecon-accent); }
+.cours__question { display: flex; flex-direction: column; gap: var(--space-3); }
+.cours__question + .cours__question { border-top: 1px solid var(--line); padding-top: var(--space-3); }
+.cours__essentiel { background: var(--lecon-doux); box-shadow: none; }
+.lecon__corps { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
+.relecture__appuis { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; line-height: 20px; }
+.relecture__a-verifier { color: var(--attention); font-weight: 700; }

@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { BoutonVoix } from '../composants/BoutonVoix';
+import { Cours } from '../composants/Cours';
 import { Icone, type NomIcone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
-import { TexteRiche } from '../composants/TexteRiche';
+import { AvecCitations } from '../composants/TexteRiche';
 import { COULEUR_MATIERE } from '../lib/couleurs';
 import { api } from '../lib/donnees';
 import { competenceDuPack, NOMS_MATIERES, type CompetencePack } from '../lib/packs';
@@ -18,12 +19,6 @@ const melanger = <T,>(l: T[]) => {
   return c;
 };
 
-/** Les passages entre « » deviennent des citations surlignées : on voit tout de suite les phrases étudiées. */
-function AvecCitations({ texte }: { texte: string }) {
-  const morceaux = texte.split(/(«[^»]*»)/g);
-  return <>{morceaux.map((m, i) => (m.startsWith('«') ? <q key={i} className="citation">{m.slice(1, -1).trim()}</q> : <TexteRiche key={i} texte={m} />))}</>;
-}
-
 /** Notions en gras dans la règle : affichées en étiquettes au-dessus, comme les mots à retenir. */
 const motsCles = (regle: string) => [...new Set(regle.split('**').filter((_, i) => i % 2 === 1).map((m) => m.trim()))].slice(0, 6);
 
@@ -37,6 +32,7 @@ export function Lecon() {
   const [options, setOptions] = useState<string[]>([]);
   const [choix, setChoix] = useState<string | null>(null);
   const [ouvertes, setOuvertes] = useState(1);
+  const [vue, setVue] = useState<'essentiel' | 'cours'>('essentiel');
   const etapesRef = useRef<(HTMLLIElement | null)[]>([]);
 
   useEffect(() => {
@@ -143,19 +139,31 @@ export function Lecon() {
             <Octave humeur={terminee ? (juste ? 'reussite' : 'oups') : 'accueil'} taille={72} />
             <div className="lecon__titres">
               <h1 className="lecon__titre">{c.titre}</h1>
-              <p className="muet">{terminee ? 'Leçon terminée. Tu peux t’entrainer ou la relire.' : `${etapes.length} étapes, environ 2 minutes.`}</p>
+              <p className="muet">{vue === 'cours' && c.cours ? `Le cours complet, environ ${c.cours.duree} minutes.` : terminee ? 'Leçon terminée. Tu peux t’entrainer ou la relire.' : `${etapes.length} étapes, environ 2 minutes.`}</p>
             </div>
           </div>
-          <ol className="lecon__progression" aria-label="Étapes de la leçon">
+          {c.cours && (
+            <div className="lecon__vues" role="group" aria-label="Version de la leçon">
+              <button type="button" aria-pressed={vue === 'essentiel'} onClick={() => setVue('essentiel')}>L’essentiel</button>
+              <button type="button" aria-pressed={vue === 'cours'} onClick={() => setVue('cours')}>Le cours complet</button>
+            </div>
+          )}
+          {vue === 'essentiel' && <ol className="lecon__progression" aria-label="Étapes de la leçon">
             {etapes.map((e, i) => (
               <li key={e.cle} className={i < faites ? 'faite' : i < ouvertes ? 'courante' : ''}>
                 <span className="lecon__pastille" aria-hidden="true"><Icone nom={i < faites ? 'coche' : e.icone} taille={16} /></span>
                 <span>{e.titre}</span>
               </li>
             ))}
-          </ol>
+          </ol>}
         </header>
 
+        {vue === 'cours' && c.cours ? (
+          <div className="lecon__corps">
+            <Cours cours={c.cours} />
+            {jouable && <Link to={`/exercice/${c.id}`} className="hp-btn hp-btn--primary hp-btn--lg hp-btn--block">S’entrainer sur cette notion</Link>}
+          </div>
+        ) : <>
         <ol className="parcours">
           {etapes.map((e, i) => {
             const ouverte = i < ouvertes;
@@ -180,6 +188,11 @@ export function Lecon() {
           })}
         </ol>
 
+        {terminee && c.cours && (
+          <button type="button" className="hp-btn hp-btn--secondary hp-btn--block" onClick={() => { setVue('cours'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+            Lire le cours complet
+          </button>
+        )}
         {terminee && (
           <div className="lecon__fin">
             {jouable && <Link to={`/exercice/${c.id}`} className="hp-btn hp-btn--primary hp-btn--lg hp-btn--block">S’entrainer sur cette notion</Link>}
@@ -187,6 +200,7 @@ export function Lecon() {
               onClick={() => etapesRef.current[0]?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Relire la leçon</button>
           </div>
         )}
+        </>}
       </div>
     </main>
   );

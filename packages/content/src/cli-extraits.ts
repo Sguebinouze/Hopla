@@ -50,6 +50,20 @@ for (const ref of contenu.referentiels) {
   }
 }
 
+for (const k of contenu.cours) {
+  for (const { id, page, extrait } of k.sources) {
+    if (page === null || extrait === null) {
+      sansExtrait++;
+      continue;
+    }
+    const source = contenu.sources.find((s) => s.id === id);
+    const fichier = source?.archive ? join(DOSSIER_CONTENU, source.archive) : null;
+    if (!fichier || !existsSync(fichier)) echecs.push(`cours ${k.competence} : source ${id} non archivée`);
+    else if (textePage(fichier, page).includes(normaliser(extrait))) verifies++;
+    else echecs.push(`cours ${k.competence} : extrait introuvable page ${page} de ${id} : « ${extrait} »`);
+  }
+}
+
 for (const d of contenu.defis) {
   if (!d.source) continue;
   const source = contenu.sources.find((s) => s.id === d.source!.id);

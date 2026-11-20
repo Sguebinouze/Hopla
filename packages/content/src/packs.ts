@@ -1,7 +1,7 @@
 import { GENERATEURS } from '@hopla/generateurs';
 import { decouperDictee, decouperLangues, nomsPropres, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
 import type { Contenu } from './charger';
-import { CLASSES, CYCLE_DE, type Classe, type Defi, type Dictee, type Exercice, type Lecon, type QuestionCulture } from './schemas';
+import { CLASSES, CYCLE_DE, type Classe, type Cours, type Defi, type Dictee, type Exercice, type Lecon, type QuestionCulture } from './schemas';
 import { programmesApplicables } from './verifier';
 
 export interface Pack {
@@ -26,6 +26,8 @@ export interface Pack {
       generateurs: string[];
       exercices: Exercice[];
       lecon: Pick<Lecon, 'exemple' | 'regle' | 'piege' | 'essai' | 'statut'> | null;
+      /** Cours complet ; ses images publiées sont dans `medias`, les autres sont retirées. */
+      cours: CoursPack | null;
       dictees: DicteePack[];
     }[];
   }[];
@@ -41,6 +43,8 @@ export interface Pack {
   /** Crédits des images que leur licence oblige à citer (page Crédits). */
   credits: string[];
 }
+
+export type CoursPack = Pick<Cours, 'duree' | 'essentiel' | 'parties' | 'a_toi' | 'statut'>;
 
 /** Dictée telle que l'appli la joue : texte, groupes à dicter, source et crédit à afficher. */
 export interface DicteePack {
@@ -95,6 +99,7 @@ export function construirePacks(
   const statuts = new Set<Exercice['statut']>(options.brouillons ? ['brouillon', 'relu', 'publie'] : ['publie']);
   const banques = new Map(contenu.banques.map((b) => [b.competence, b.exercices]));
   const lecons = new Map(contenu.lecons.filter((l) => statuts.has(l.statut)).map((l) => [l.competence, l]));
+  const cours = new Map((contenu.cours ?? []).filter((k) => statuts.has(k.statut)).map((k) => [k.competence, k]));
   const dictees = (contenu.dictees ?? []).filter((d) => statuts.has(d.statut));
   const medias = new Map((contenu.medias ?? []).filter((m) => statuts.has(m.statut)).map((m) => [m.id, m]));
   // Une image pas encore relue n'apparaît pas : la question reste, sans image (ou avec ses réponses en texte).
@@ -103,6 +108,12 @@ export function construirePacks(
     const options = images_options && Object.values(images_options).every((id) => medias.has(id)) ? images_options : undefined;
     return { ...reste, ...(image && medias.has(image) ? { image } : {}), ...(options ? { images_options: options } : {}) };
   };
+
+  // Une image du cours pas encore publiée : le bloc disparait, le reste du cours s'affiche.
+  const coursPack = (k: Cours): CoursPack => ({
+    duree: k.duree, essentiel: k.essentiel, a_toi: k.a_toi, statut: k.statut,
+    parties: k.parties.map((p) => ({ ...p, blocs: p.blocs.filter((b) => b.type !== 'image' || medias.has(b.media)) })),
+  });
 
   return CLASSES.map((classe): Pack => {
     const programmes = programmesApplicables(contenu.programmes, classe, annee);
@@ -139,6 +150,7 @@ export function construirePacks(
               const l = lecons.get(c.id);
               return l ? { exemple: l.exemple, regle: l.regle, piege: l.piege, essai: l.essai, statut: l.statut } : null;
             })(),
+            cours: cours.has(c.id) ? coursPack(cours.get(c.id)!) : null,
             dictees: dictees.filter((d) => d.competence === c.id && d.classe === classe).map((d) => ({
               id: d.id, titre: d.titre, texte: d.texte, groupes: decouperDictee(d.texte), source: sourceDictee(d), credit: d.credit, points: d.points,
               tableau: d.tableau ?? nomsPropres(d.texte),
@@ -147,8 +159,10 @@ export function construirePacks(
         };
       }),
     };
-    const utilisees = new Set(pack.matieres.flatMap((m) => m.competences.flatMap((c) => c.exercices.flatMap((e) =>
-      [e.image, ...Object.values(e.images_options ?? {})].filter((x): x is string => Boolean(x))))));
+    const utilisees = new Set(pack.matieres.flatMap((m) => m.competences.flatMap((c) => [
+      ...c.exercices.flatMap((e) => [e.image, ...Object.values(e.images_options ?? {})].filter((x): x is string => Boolean(x))),
+      ...(c.cours?.parties.flatMap((p) => p.blocs.flatMap((b) => (b.type === 'image' ? [b.media] : []))) ?? []),
+    ])));
     const images = [...utilisees].sort().map((id) => medias.get(id)!);
     return {
       ...pack,

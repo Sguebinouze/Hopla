@@ -131,6 +131,62 @@ export const leconSchema = z
   });
 export type Lecon = z.infer<typeof leconSchema>;
 
+// Cours complet d'une notion : la leçon courte reste « l'essentiel » ; le cours déroule la notion en parties,
+// chacune faite de blocs typés (observer, expliquer, méthode, exemple résolu, piège, tableau, image…).
+// Chaque cours cite ses appuis : une source du registre, avec page et extrait vérifiés avant publication.
+const texteCours = z.string().min(1);
+export const questionCoursSchema = z.object({
+  consigne: texteCours,
+  options: z.array(z.string().min(1)).min(2).max(4),
+  reponse: texteCours,
+  explication: texteCours,
+});
+export const blocCoursSchema = z.discriminatedUnion('type', [
+  /** Corpus d'exemples à observer avant toute règle. */
+  z.object({ type: z.literal('observe'), consigne: texteCours, exemples: z.array(texteCours).min(2).max(8) }),
+  z.object({ type: z.literal('explique'), texte: texteCours }),
+  /** Procédure numérotée, réutilisable sur n'importe quel exemple. */
+  z.object({ type: z.literal('methode'), titre: texteCours, etapes: z.array(texteCours).min(2).max(6) }),
+  z.object({ type: z.literal('exemple-resolu'), enonce: texteCours, etapes: z.array(texteCours).min(1).max(5), conclusion: texteCours }),
+  z.object({ type: z.literal('piege'), erreur: texteCours, correction: texteCours }),
+  z.object({ type: z.literal('tableau'), titre: texteCours.nullable(), colonnes: z.array(texteCours).min(2).max(5), lignes: z.array(z.array(z.string())).min(1) }),
+  z.object({ type: z.literal('vocabulaire'), mots: z.array(z.object({ mot: texteCours, definition: texteCours })).min(1) }),
+  z.object({ type: z.literal('image'), media: z.string().regex(ID_MEDIA), legende: texteCours }),
+  /** Dessin des générateurs de maths (horloge, barres de fractions, solide…). */
+  z.object({ type: z.literal('visuel'), visuel: z.object({ type: z.string() }).passthrough(), legende: texteCours }),
+  z.object({ type: z.literal('frise'), reperes: z.array(z.object({ annee: z.number().int(), date: texteCours, evenement: texteCours })).min(2) }),
+  /** Question intercalée : on vérifie qu'une étape est comprise avant la suivante. */
+  questionCoursSchema.extend({ type: z.literal('question') }),
+]);
+export const coursSchema = z
+  .object({
+    competence: z.string(),
+    /** Durée de lecture estimée, en minutes. */
+    duree: z.number().int().min(3).max(30),
+    /** Trace écrite : ce que l'élève copie dans son cahier. */
+    essentiel: texteCours,
+    parties: z.array(z.object({ titre: texteCours, blocs: z.array(blocCoursSchema).min(1) })).min(1).max(6),
+    a_toi: z.array(questionCoursSchema).min(2).max(4),
+    sources: z.array(z.object({
+      id: z.string(),
+      /** Page imprimée du document archivé et extrait exact : contrôlés par content:extraits. */
+      page: z.number().int().positive().nullable(),
+      extrait: z.string().min(1).nullable(),
+      /** Ce que la source appuie dans le cours. */
+      appui: texteCours,
+    })).min(1),
+    statut: z.enum(['brouillon', 'relu', 'publie']),
+    auteur: z.enum(['humain', 'ia']),
+    relu_par: z.string().nullable(),
+  })
+  .refine((c) => c.statut === 'brouillon' || c.relu_par !== null, { message: 'un cours relu ou publié doit indiquer relu_par' })
+  .refine((c) => c.statut !== 'publie' || c.sources.every((s) => s.page !== null && s.extrait !== null), {
+    message: 'un cours publié cite chaque source avec sa page et son extrait',
+  });
+export type BlocCours = z.infer<typeof blocCoursSchema>;
+export type QuestionCours = z.infer<typeof questionCoursSchema>;
+export type Cours = z.infer<typeof coursSchema>;
+
 // Culture générale (hors programme) : une banque de questions par cycle, quiz de 5 questions par jour.
 export const THEMES_CULTURE = [
   'geographie', 'histoire', 'sciences', 'nature', 'espace', 'arts', 'langue', 'sport', 'inventions', 'monde',

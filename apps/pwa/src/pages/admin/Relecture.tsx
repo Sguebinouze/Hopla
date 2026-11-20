@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Cours } from '../../composants/Cours';
 import { TexteRiche } from '../../composants/TexteRiche';
+import type { CoursPack } from '../../lib/cours';
 import { api, type DecisionRelecture } from '../../lib/donnees';
 import { GardeAdmin } from './Admin';
 
@@ -14,6 +16,8 @@ interface Notion {
   id: string; classe: string; titre: string; theme: string; attendu: string; verifiee: boolean;
   source: { titre: string; page: number; extrait: string };
   lecon: { exemple: string; regle: string; piege: string | null; essai: { consigne: string; options: string[]; reponse: string; explication: string } } | null;
+  /** Cours complet en brouillon (absent des fichiers construits avant les cours). */
+  cours?: (CoursPack & { sources: { titre: string; page: number | null; extrait: string | null; appui: string }[] }) | null;
   questions: Question[];
   /** Absent d'un fichier de relecture construit avant les dictées. */
   dictees?: { id: string; titre: string; texte: string; source: string; licence: string; url: string | null }[];
@@ -219,6 +223,25 @@ function PageRelecture() {
                   </dd>
                 </dl>
                 <Decision el={{ type: 'lecon', id: n.id }} d={decision({ type: 'lecon', id: n.id })} onDecider={decider} />
+              </section>
+            )}
+
+            {n.cours && (
+              <section className="hp-card relecture__carte lecon">
+                <h3 className="titre-3">Cours complet · environ {n.cours.duree} minutes</h3>
+                <p className="muet">Tel que l’élève le verra. Pilote : la décision se donne à Claude dans la conversation.</p>
+                <Cours cours={n.cours} />
+                <h4 className="titre-3">Appuis</h4>
+                <ul className="relecture__appuis">
+                  {n.cours.sources.map((s, i) => (
+                    <li key={i}>
+                      <strong>{s.appui}</strong> : {s.titre}
+                      {s.page !== null && s.extrait !== null
+                        ? <>, p. {s.page}, « {s.extrait} »</>
+                        : <span className="relecture__a-verifier"> · page et extrait à vérifier</span>}
+                    </li>
+                  ))}
+                </ul>
               </section>
             )}
 

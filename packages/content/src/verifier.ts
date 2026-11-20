@@ -193,6 +193,62 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
     }
   }
 
+  // Cours complets : un par notion, sources du registre, images connues, questions cohérentes, rédaction du cycle.
+  const vusCours = new Set<string>();
+  const TYPES_VISUELS = new Set(['grille', 'droite', 'figure', 'horloge', 'monnaie', 'fractions', 'diagramme', 'solide', 'urne', 'regle']);
+  for (const k of contenu.cours) {
+    const c = competences.get(k.competence);
+    if (!c) {
+      erreur(k.fichier, `compétence inconnue : ${k.competence}`);
+      continue;
+    }
+    if (vusCours.has(k.competence)) erreur(k.fichier, `deux cours pour ${k.competence}`);
+    vusCours.add(k.competence);
+    for (const s of k.sources) if (!contenu.sources.some((x) => x.id === s.id)) erreur(k.fichier, `source inconnue : ${s.id}`);
+    const textes: [string, string][] = [['essentiel', k.essentiel]];
+    const question = (ici: string, q: { consigne: string; options: string[]; reponse: string; explication: string }) => {
+      if (new Set(q.options).size !== q.options.length) erreur(k.fichier, `${ici} : options en double`);
+      if (!q.options.includes(q.reponse)) erreur(k.fichier, `${ici} : la réponse ne fait pas partie des options`);
+      textes.push([`${ici}.consigne`, q.consigne], [`${ici}.explication`, q.explication]);
+    };
+    k.parties.forEach((p, i) => {
+      textes.push([`partie ${i + 1}`, p.titre]);
+      p.blocs.forEach((b, j) => {
+        const ici = `partie ${i + 1}, bloc ${j + 1} (${b.type})`;
+        switch (b.type) {
+          case 'observe': textes.push([ici, b.consigne], ...b.exemples.map((e): [string, string] => [ici, e])); break;
+          case 'explique': textes.push([ici, b.texte]); break;
+          case 'methode': textes.push([ici, b.titre], ...b.etapes.map((e): [string, string] => [ici, e])); break;
+          case 'exemple-resolu': textes.push([ici, b.enonce], ...b.etapes.map((e): [string, string] => [ici, e]), [ici, b.conclusion]); break;
+          case 'piege': textes.push([ici, b.erreur], [ici, b.correction]); break;
+          case 'tableau':
+            if (b.lignes.some((l) => l.length !== b.colonnes.length)) erreur(k.fichier, `${ici} : lignes de longueur différente des colonnes`);
+            break;
+          case 'vocabulaire': textes.push(...b.mots.map((m): [string, string] => [ici, m.definition])); break;
+          case 'image':
+            if (!contenu.medias?.some((m) => m.id === b.media)) erreur(k.fichier, `${ici} : image inconnue ${b.media}`);
+            textes.push([ici, b.legende]);
+            break;
+          case 'visuel':
+            if (!TYPES_VISUELS.has(b.visuel.type)) erreur(k.fichier, `${ici} : visuel inconnu ${b.visuel.type}`);
+            textes.push([ici, b.legende]);
+            break;
+          case 'frise':
+            if (b.reperes.some((r, n) => n > 0 && r.annee < b.reperes[n - 1]!.annee)) erreur(k.fichier, `${ici} : repères dans le désordre`);
+            textes.push(...b.reperes.map((r): [string, string] => [ici, r.evenement]));
+            break;
+          case 'question': question(ici, b); break;
+        }
+      });
+    });
+    k.a_toi.forEach((q, i) => question(`à toi ${i + 1}`, q));
+    for (const [champ, texte] of textes) {
+      for (const pb of verifierTexte(texte.replace(/\*\*/g, ''), c.cycle)) {
+        (pb.niveau === 'erreur' ? erreur : alerte)(`cours ${k.competence} (${champ})`, pb.message);
+      }
+    }
+  }
+
   // Défis de fluence : compétence de la classe, générateur qui la couvre, identifiants uniques.
   const vusDefis = new Set<string>();
   for (const d of contenu.defis) {

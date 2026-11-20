@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { isAbsolute, join } from 'node:path';
 import { DOSSIER_CONTENU, type Contenu } from './charger';
+import type { CoursPack } from './packs';
 
 // Relecture humaine : ce qui reste à relire (pour l'espace admin de la PWA),
 // et application des décisions prises dans l'espace admin aux fichiers du dépôt.
@@ -29,10 +30,17 @@ export interface NotionRelecture {
   verifiee: boolean;
   source: { titre: string; page: number; extrait: string };
   lecon: { exemple: string; regle: string; piege: string | null; essai: { consigne: string; options: string[]; reponse: string; explication: string } } | null;
+  /** Cours complet en brouillon, avec ses appuis et les images qu'il montre (même non publiées). */
+  cours: CoursRelecture | null;
   questions: QuestionRelecture[];
   dictees: DicteeRelecture[];
   medias: MediaRelecture[];
 }
+
+export type CoursRelecture = CoursPack & {
+  sources: { titre: string; page: number | null; extrait: string | null; appui: string }[];
+  images: Record<string, { src: string; alt: string }>;
+};
 
 export interface MediaRelecture {
   id: string;
@@ -92,6 +100,15 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
       if (!c.source || c.source.page === null || c.source.extrait === null) continue;
       const l = lecons.get(c.id);
       const lecon = l && l.statut === 'brouillon' ? l : null;
+      const k = (contenu.cours ?? []).find((x) => x.competence === c.id && x.statut === 'brouillon');
+      const cours: CoursRelecture | null = k ? {
+        duree: k.duree, essentiel: k.essentiel, parties: k.parties, a_toi: k.a_toi, statut: k.statut,
+        sources: k.sources.map((s) => ({ titre: titres.get(s.id) ?? s.id, page: s.page, extrait: s.extrait, appui: s.appui })),
+        images: Object.fromEntries(k.parties.flatMap((p) => p.blocs.flatMap((b) => {
+          const m = b.type === 'image' ? contenu.medias?.find((x) => x.id === b.media) : undefined;
+          return m ? [[m.id, { src: `/images/${m.fichier}`, alt: m.alt }]] : [];
+        }))),
+      } : null;
       const questions = (banques.get(c.id)?.exercices ?? [])
         .filter((e) => e.statut === 'brouillon' && e.gabarit === 'qcm' && e.options)
         .map((e) => ({
@@ -101,11 +118,12 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
       const verifiee = c.statut === 'verifie';
       const dictees = dicteesDe.get(c.id) ?? [];
       const medias = mediasDe(banques.get(c.id)?.exercices ?? []);
-      if (verifiee && !lecon && questions.length === 0 && dictees.length === 0 && medias.length === 0) continue;
+      if (verifiee && !lecon && !cours && questions.length === 0 && dictees.length === 0 && medias.length === 0) continue;
       notions.push({
         id: c.id, classe: ref.classe, titre: c.titre, theme: c.theme, attendu: c.attendu, verifiee,
         source: { titre: titres.get(c.source.id) ?? c.source.id, page: c.source.page, extrait: c.source.extrait },
         lecon: lecon ? { exemple: lecon.exemple, regle: lecon.regle, piege: lecon.piege, essai: lecon.essai } : null,
+        cours,
         questions,
         dictees,
         medias,

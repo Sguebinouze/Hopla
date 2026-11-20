@@ -4,6 +4,7 @@ import type { Classe } from './donnees';
 import { connaitreTextes, type Langue } from './voix';
 import { textesLus } from './textesLus';
 import { aujourdhui, etat, type Suivi } from './progression';
+import type { CoursPack } from './cours';
 
 // Forme produite par @hopla/content (pnpm content:packs).
 export interface CompetencePack {
@@ -41,6 +42,8 @@ export interface CompetencePack {
   }[];
   /** Dictées de la notion (absentes des packs construits avant elles). */
   dictees?: DicteePack[];
+  /** Cours complet (absent des packs construits avant lui). */
+  cours?: CoursPack | null;
 }
 
 /** Dictée : texte, groupes à dicter, auteur et œuvre, crédit à afficher si la licence l'exige. */
@@ -138,6 +141,10 @@ export function illustrer(pack: Pack): void {
   const m = pack.medias ?? {};
   for (const mat of pack.matieres) {
     for (const c of mat.competences) {
+      if (c.cours) {
+        const ids = c.cours.parties.flatMap((p) => p.blocs.flatMap((b) => (b.type === 'image' ? [b.media] : [])));
+        c.cours.images = Object.fromEntries(ids.filter((id) => m[id]).map((id) => [id, m[id]!]));
+      }
       for (const e of c.exercices) {
         if (e.image && m[e.image]) e.illustration = m[e.image];
         const opts = e.images_options;
@@ -224,25 +231,30 @@ export const supportDe = (consigne: string) => consigne.match(/^« ([^»]{25,}) 
 export const texteComparable = (t: string) =>
   t.toLowerCase().replace(/[«»"“”.,;:!?()’']/g, ' ').replace(/\s+/g, ' ').trim();
 
-/** Empreinte d'une consigne : deux consignes qui ne diffèrent que par la ponctuation sont la même question. */
-export const empreinteConsigne = (consigne: string) => `q:${texteComparable(consigne)}`;
+/**
+ * Empreinte d'une question : sa consigne à la ponctuation près, son dessin et ses options.
+ * Deux consignes génériques identiques (« Quelle heure indique l'horloge ? ») avec deux horloges
+ * différentes sont deux questions ; la même consigne et les mêmes options, une seule.
+ */
+export const empreinteQuestion = (q: { consigne: string; options?: string[]; visuel?: unknown }) =>
+  `q:${texteComparable(q.consigne)}#${q.visuel ? JSON.stringify(q.visuel) : ''}#${(q.options ?? []).map(texteComparable).sort().join('|')}`;
 
 /**
  * Empreintes de la question « À toi » d'une leçon : sa consigne, et chaque passage cité de trois mots ou plus.
  * La série d'entraînement ne reprend ni la question ni sa phrase d'exemple (« Nous partirons demain »),
  * même posée autrement par un générateur.
  */
-export function empreintesEssai(consigne: string): string[] {
-  const cites = [...consigne.matchAll(/«\s*([^»]+?)\s*»/g)]
+export function empreintesEssai(q: { consigne: string; options: string[] }): string[] {
+  const cites = [...q.consigne.matchAll(/«\s*([^»]+?)\s*»/g)]
     .map((m) => texteComparable(m[1]!))
     .filter((x) => x.split(' ').length >= 3);
-  return [empreinteConsigne(consigne), ...cites.map((c) => `cite:${c}`)];
+  return [empreinteQuestion(q), ...cites.map((c) => `cite:${c}`)];
 }
 
 /** Empreintes à comparer à celles d'un essai ou d'une question déjà posée. */
-function empreintesItem(consigne: string): string[] {
-  const cites = [...consigne.matchAll(/«\s*([^»]+?)\s*»/g)].map((m) => `cite:${texteComparable(m[1]!)}`);
-  return [empreinteConsigne(consigne), ...cites];
+function empreintesItem(it: Item): string[] {
+  const cites = [...it.consigne.matchAll(/«\s*([^»]+?)\s*»/g)].map((m) => `cite:${texteComparable(m[1]!)}`);
+  return [empreinteQuestion(it), ...cites];
 }
 
 /** Marques d'une série, à retenir pour ne pas la reproposer tout de suite. */
@@ -257,7 +269,7 @@ export const marquesDe = (items: Item[]) =>
  * On évite aussi de reprendre deux fois le même texte support dans la série,
  * et ce qui a été vu dans les séries récentes (`recentes`), tant que la banque le permet.
  * `evites` est une exclusion stricte, jamais relâchée : la question « À toi » de la leçon
- * (`empreintesEssai`) et les questions déjà posées pendant la séance (`empreinteConsigne`).
+ * (`empreintesEssai`) et les questions déjà posées pendant la séance (`empreinteQuestion`).
  * La série peut alors compter moins de `n` questions, voire aucune.
  */
 export function seriePour(
@@ -288,8 +300,8 @@ export function seriePour(
   // Exigence décroissante : d'abord rien de récent ni de texte déjà lu, puis seulement pas de texte déjà lu, puis pas de doublon.
   const refuse = (it: Item, k: number) => {
     const cle = cleItem(it);
-    if (vus.has(cle) || vus.has(empreinteConsigne(it.consigne))) return true;
-    if (empreintesItem(it.consigne).some((e) => evites.has(e))) return true;
+    if (vus.has(cle) || vus.has(empreinteQuestion(it))) return true;
+    if (empreintesItem(it).some((e) => evites.has(e))) return true;
     const s = supportDe(it.consigne);
     if (k < n * 30 && s && supports.has(s)) return true;
     if (k < n * 15 && (recentes.has(cle) || (s !== null && recentes.has(`support:${s}`)))) return true;
@@ -311,7 +323,7 @@ export function seriePour(
     }
     if (refuse(item, k)) continue;
     vus.add(cleItem(item));
-    vus.add(empreinteConsigne(item.consigne));
+    vus.add(empreinteQuestion(item));
     const s = supportDe(item.consigne);
     if (s) supports.add(s);
     items.push(item);
