@@ -1,0 +1,121 @@
+{
+  "competence": "HG-C3-6E-GEO-03",
+  "duree": 8,
+  "essentiel": "Les littoraux attirent de plus en plus d’habitants et d’activités.\nUn littoral industrialo-portuaire accueille un grand port et des usines : Rotterdam, Shanghai, Le Havre.\nUn littoral touristique accueille plages, hôtels et ports de plaisance : la Côte d’Azur, Cancún.",
+  "parties": [
+    {
+      "titre": "Deux types de littoraux",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Littoral",
+              "definition": "Espace de contact entre la terre et la mer."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Comparer",
+            "Industrialo-portuaire",
+            "Touristique"
+          ],
+          "lignes": [
+            [
+              "exemples",
+              "Rotterdam, Shanghai, Le Havre",
+              "Côte d’Azur, Cancún, Baléares"
+            ],
+            [
+              "aménagements",
+              "quais, grues, conteneurs, raffineries",
+              "plages, hôtels, marinas, promenades"
+            ],
+            [
+              "habitants",
+              "dockers, ouvriers",
+              "touristes, saisonniers, résidents"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel port est le premier d’Europe ?",
+          "options": [
+            "Rotterdam",
+            "Marseille",
+            "Brest"
+          ],
+          "reponse": "Rotterdam",
+          "explication": "Aux Pays-Bas, à l’embouchure du Rhin."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi s’installer au bord de la mer ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La mer permet le commerce mondial par porte-conteneurs. Elle attire aussi les touristes pour le climat et les loisirs."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un littoral n’a qu’une seule activité.",
+          "correction": "Marseille est à la fois un grand port industriel et une ville touristique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un littoral avec grues et conteneurs est :",
+      "options": [
+        "industrialo-portuaire",
+        "touristique",
+        "agricole"
+      ],
+      "reponse": "industrialo-portuaire",
+      "explication": "Les conteneurs servent au commerce maritime."
+    },
+    {
+      "consigne": "Un port de plaisance accueille :",
+      "options": [
+        "des bateaux de loisir",
+        "des pétroliers",
+        "des sous-marins"
+      ],
+      "reponse": "des bateaux de loisir",
+      "explication": "Il sert au tourisme."
+    },
+    {
+      "consigne": "Pourquoi le commerce mondial passe-t-il par la mer ?",
+      "options": [
+        "les navires transportent beaucoup à faible coût",
+        "les avions sont interdits",
+        "les routes n’existent pas"
+      ],
+      "reponse": "les navires transportent beaucoup à faible coût",
+      "explication": "Un porte-conteneurs emporte des milliers de boites."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Thème 3 - Habiter les littoraux",
+      "appui": "Thème du programme"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "sur les espaces littoraux à vocation industrialo-portuaire et/ou",
+      "appui": "Industrialo-portuaire et touristique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

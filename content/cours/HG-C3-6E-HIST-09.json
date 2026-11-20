@@ -1,0 +1,152 @@
+{
+  "competence": "HG-C3-6E-HIST-09",
+  "duree": 9,
+  "essentiel": "Le christianisme naît en Judée, dans l’Empire romain, au Ier siècle. Les chrétiens croient que Jésus est le fils de Dieu.\nIls refusent le culte de l’empereur et sont parfois persécutés, sous Néron puis sous Dioclétien.\nEn 313, Constantin autorise le christianisme. En 380, Théodose en fait la religion officielle.",
+  "parties": [
+    {
+      "titre": "Jésus et les premiers chrétiens",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Jésus est un Juif de Galilée. Il prêche vers l’an 30 et meurt crucifié à Jérusalem sous le gouverneur romain Ponce Pilate."
+        },
+        {
+          "type": "explique",
+          "texte": "Ses disciples affirment qu’il est ressuscité. Les apôtres, comme Paul de Tarse, diffusent ce message dans le monde grec et romain. Leurs textes forment le Nouveau Testament."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans quelle région naît le christianisme ?",
+          "options": [
+            "en Judée",
+            "en Gaule",
+            "en Égypte"
+          ],
+          "reponse": "en Judée",
+          "explication": "Une province de l’Empire romain."
+        }
+      ]
+    },
+    {
+      "titre": "Persécutés, puis reconnus",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les chrétiens et le pouvoir romain",
+          "colonnes": [
+            "Date",
+            "Évènement"
+          ],
+          "lignes": [
+            [
+              "64",
+              "Persécution sous Néron, après l’incendie de Rome"
+            ],
+            [
+              "303",
+              "Grande persécution sous Dioclétien"
+            ],
+            [
+              "313",
+              "Constantin autorise le culte chrétien (édit de Milan)"
+            ],
+            [
+              "380",
+              "Théodose fait du christianisme la religion officielle"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les chrétiens ont été persécutés sans interruption pendant trois siècles.",
+          "correction": "Les persécutions sont ponctuelles, souvent locales, avec deux grandes vagues."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi les chrétiens sont-ils persécutés ?",
+          "options": [
+            "ils refusent le culte de l’empereur",
+            "ils refusent de payer le pain",
+            "ils parlent grec"
+          ],
+          "reponse": "ils refusent le culte de l’empereur",
+          "explication": "Pour Rome, c’est un refus d’obéir."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 30,
+              "date": "vers 30",
+              "evenement": "Crucifixion de Jésus à Jérusalem."
+            },
+            {
+              "annee": 313,
+              "date": "313",
+              "evenement": "Constantin autorise le christianisme."
+            },
+            {
+              "annee": 380,
+              "date": "380",
+              "evenement": "Le christianisme devient religion officielle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel empereur autorise le christianisme en 313 ?",
+      "options": [
+        "Constantin",
+        "Néron",
+        "Auguste"
+      ],
+      "reponse": "Constantin",
+      "explication": "Il se convertit lui-même."
+    },
+    {
+      "consigne": "Le Nouveau Testament réunit :",
+      "options": [
+        "des textes sur Jésus et les premiers chrétiens",
+        "les lois de Rome",
+        "les récits d’Homère"
+      ],
+      "reponse": "des textes sur Jésus et les premiers chrétiens",
+      "explication": "Évangiles et lettres des apôtres."
+    },
+    {
+      "consigne": "En quelle année le christianisme devient-il religion officielle ?",
+      "options": [
+        "380",
+        "64",
+        "27 av. J.-C."
+      ],
+      "reponse": "380",
+      "explication": "Sous Théodose."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Des chrétiens dans l’empire",
+      "appui": "Des chrétiens dans l’empire"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Le christianisme issu du judaïsme se développe dans le",
+      "appui": "Naissance du christianisme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

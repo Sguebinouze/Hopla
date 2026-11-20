@@ -1,0 +1,123 @@
+{
+  "competence": "HG-C3-6E-GEO-07",
+  "duree": 7,
+  "essentiel": "Les littoraux concentrent une part croissante de la population mondiale : c’est la littoralisation.\nIls sont vulnérables : érosion, tempêtes, montée du niveau de la mer, pollution.\nEn France, la loi Littoral de 1986 et le Conservatoire du littoral protègent les côtes.",
+  "parties": [
+    {
+      "titre": "Des espaces attractifs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ports, industries, tourisme et cadre de vie attirent populations et activités. Les côtes se couvrent de constructions."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment appelle-t-on la concentration croissante sur les côtes ?",
+          "options": [
+            "la littoralisation",
+            "la désertification",
+            "la métropolisation"
+          ],
+          "reponse": "la littoralisation",
+          "explication": "Le mot vient de littoral."
+        }
+      ]
+    },
+    {
+      "titre": "Des espaces fragiles et protégés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Menaces et réponses",
+          "colonnes": [
+            "Menace",
+            "Réponse"
+          ],
+          "lignes": [
+            [
+              "érosion des plages et des falaises",
+              "reculer les constructions, replanter les dunes"
+            ],
+            [
+              "montée du niveau de la mer",
+              "digues, relocalisation de quartiers"
+            ],
+            [
+              "bétonnage",
+              "loi Littoral (1986) : limiter les constructions près du rivage"
+            ],
+            [
+              "disparition des espaces naturels",
+              "achat de terrains par le Conservatoire du littoral (créé en 1975)"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une digue règle tout.",
+          "correction": "Une digue protège un lieu mais peut aggraver l’érosion plus loin. Il faut parfois reculer."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel organisme achète des terrains pour protéger les côtes françaises ?",
+          "options": [
+            "le Conservatoire du littoral",
+            "le Sénat",
+            "l’Office du tourisme"
+          ],
+          "reponse": "le Conservatoire du littoral",
+          "explication": "Créé en 1975."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle loi limite les constructions près du rivage en France ?",
+      "options": [
+        "la loi Littoral",
+        "la loi Montagne",
+        "le Code de la route"
+      ],
+      "reponse": "la loi Littoral",
+      "explication": "Votée en 1986."
+    },
+    {
+      "consigne": "Quel risque menace les littoraux avec le réchauffement climatique ?",
+      "options": [
+        "la montée du niveau de la mer",
+        "la sécheresse des glaciers",
+        "les avalanches"
+      ],
+      "reponse": "la montée du niveau de la mer",
+      "explication": "Les eaux montent et les côtes reculent."
+    },
+    {
+      "consigne": "Replanter une dune sert à :",
+      "options": [
+        "retenir le sable",
+        "construire un port",
+        "attirer les voitures"
+      ],
+      "reponse": "retenir le sable",
+      "explication": "Les plantes fixent le sable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Les littoraux concentrent une part accrue de la population",
+      "appui": "Littoralisation"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "d’aménagement, les conditions naturelles, leur vulnérabilité",
+      "appui": "Vulnérabilité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

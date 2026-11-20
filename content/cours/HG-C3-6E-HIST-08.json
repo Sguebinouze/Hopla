@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-6E-HIST-08",
+  "duree": 9,
+  "essentiel": "Les Hébreux sont un peuple du Proche-Orient. Dans un monde polythéiste, ils croient en un dieu unique : c’est le monothéisme.\nLeurs croyances et leur histoire sont racontées dans la Bible hébraïque.\nAprès la destruction du Temple de Jérusalem en 587 avant J.-C., l’exil à Babylone renforce cette foi.",
+  "parties": [
+    {
+      "titre": "Un dieu unique",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Monothéisme",
+              "definition": "Croyance en un dieu unique."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La Bible hébraïque raconte l’alliance entre Dieu et le peuple hébreu, avec Abraham puis Moïse. La Torah en forme les cinq premiers livres."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment appelle-t-on la croyance en un dieu unique ?",
+          "options": [
+            "le monothéisme",
+            "le polythéisme",
+            "la mythologie"
+          ],
+          "reponse": "le monothéisme",
+          "explication": "Mono : un seul."
+        }
+      ]
+    },
+    {
+      "titre": "Récit biblique et histoire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que disent les sources",
+          "colonnes": [
+            "Récit biblique",
+            "Ce qu’apportent l’histoire et l’archéologie"
+          ],
+          "lignes": [
+            [
+              "les rois David et Salomon règnent sur Jérusalem",
+              "une inscription du IXe siècle av. J.-C. mentionne la « maison de David »"
+            ],
+            [
+              "le Temple de Jérusalem est détruit",
+              "Nabuchodonosor, roi de Babylone, prend Jérusalem en 587 av. J.-C."
+            ],
+            [
+              "le peuple part en exil",
+              "une partie des habitants est déportée à Babylone"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Beaucoup de textes bibliques sont écrits entre le VIIIe et le VIe siècle avant J.-C. Plusieurs le sont pendant ou après l’exil."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Bible a été écrite en une seule fois, par un seul auteur.",
+          "correction": "C’est un ensemble de textes écrits sur plusieurs siècles."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": -1000,
+              "date": "vers 1000 av. J.-C.",
+              "evenement": "Règne de David selon la Bible."
+            },
+            {
+              "annee": -587,
+              "date": "587 av. J.-C.",
+              "evenement": "Destruction du Temple de Jérusalem et exil à Babylone."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel roi détruit le Temple de Jérusalem en 587 av. J.-C. ?",
+      "options": [
+        "Nabuchodonosor",
+        "Hammurabi",
+        "Auguste"
+      ],
+      "reponse": "Nabuchodonosor",
+      "explication": "Roi de Babylone."
+    },
+    {
+      "consigne": "Comment s’appellent les cinq premiers livres de la Bible hébraïque ?",
+      "options": [
+        "la Torah",
+        "le Coran",
+        "l’Odyssée"
+      ],
+      "reponse": "la Torah",
+      "explication": "Ils racontent notamment Abraham et Moïse."
+    },
+    {
+      "consigne": "Les peuples voisins des Hébreux étaient surtout :",
+      "options": [
+        "polythéistes",
+        "monothéistes",
+        "chrétiens"
+      ],
+      "reponse": "polythéistes",
+      "explication": "Ils croyaient en plusieurs dieux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "La naissance du monothéisme juif dans un monde polythéiste",
+      "appui": "Monothéisme juif"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Les récits mythiques et bibliques sont mis en relation avec les",
+      "appui": "Récits et archéologie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

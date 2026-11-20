@@ -1,0 +1,122 @@
+{
+  "competence": "HG-C3-6E-GEO-05",
+  "duree": 7,
+  "essentiel": "La ville de demain doit loger plus d’habitants tout en polluant moins.\nOn imagine des transports moins polluants, des bâtiments économes, plus de nature et des circuits courts.\nC’est un exercice de prospective : on envisage plusieurs futurs possibles.",
+  "parties": [
+    {
+      "titre": "Les défis de la ville",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Problèmes et réponses",
+          "colonnes": [
+            "Problème",
+            "Réponse possible"
+          ],
+          "lignes": [
+            [
+              "embouteillages, pollution",
+              "tramway, pistes cyclables, covoiturage"
+            ],
+            [
+              "chaleur en été",
+              "arbres, parcs, toits végétalisés"
+            ],
+            [
+              "approvisionnement lointain",
+              "jardins partagés, agriculture urbaine, circuits courts"
+            ],
+            [
+              "consommation d’énergie",
+              "bâtiments isolés, panneaux solaires"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel moyen de transport pollue le moins en ville ?",
+          "options": [
+            "le vélo",
+            "la voiture individuelle",
+            "le camion"
+          ],
+          "reponse": "le vélo",
+          "explication": "Il ne rejette aucun gaz."
+        }
+      ]
+    },
+    {
+      "titre": "Imaginer et débattre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour imaginer la ville du futur",
+          "etapes": [
+            "Pars d’un problème réel de ta ville.",
+            "Propose une solution précise.",
+            "Demande-toi qui en profite et ce qu’elle coûte.",
+            "Compare avec d’autres propositions."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Un **écoquartier** combine logements économes, transports doux, espaces verts et mixité des habitants."
+        },
+        {
+          "type": "piege",
+          "erreur": "On imagine seulement des gadgets : voitures volantes, robots.",
+          "correction": "La ville durable repose surtout sur des choix simples : se déplacer, se loger, se nourrir autrement."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un toit végétalisé sert à :",
+      "options": [
+        "rafraichir le bâtiment et accueillir la nature",
+        "garer des voitures",
+        "faire du bruit"
+      ],
+      "reponse": "rafraichir le bâtiment et accueillir la nature",
+      "explication": "La végétation limite la chaleur."
+    },
+    {
+      "consigne": "Un circuit court, c’est :",
+      "options": [
+        "acheter des produits venus de près, avec peu d’intermédiaires",
+        "un trajet en voiture",
+        "une piste de course"
+      ],
+      "reponse": "acheter des produits venus de près, avec peu d’intermédiaires",
+      "explication": "Cela réduit les transports."
+    },
+    {
+      "consigne": "Un écoquartier cherche à :",
+      "options": [
+        "réduire son impact sur l’environnement",
+        "augmenter le trafic",
+        "supprimer les parcs"
+      ],
+      "reponse": "réduire son impact sur l’environnement",
+      "explication": "C’est un quartier durable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "La ville de demain",
+      "appui": "La ville de demain"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "la prospective territoriale, à imaginer la ville du futur : comment",
+      "appui": "Prospective territoriale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

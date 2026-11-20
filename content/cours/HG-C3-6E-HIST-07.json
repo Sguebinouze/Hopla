@@ -1,0 +1,141 @@
+{
+  "competence": "HG-C3-6E-HIST-07",
+  "duree": 8,
+  "essentiel": "Selon la légende, Romulus fonde Rome en 753 avant J.-C., après avoir tué son frère Rémus.\nL’archéologie montre des villages sur la colline du Palatin dès le VIIIe siècle avant J.-C.\nRome utilise ce mythe pour affirmer sa grandeur et sa domination.",
+  "parties": [
+    {
+      "titre": "La légende de la fondation",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le récit raconté par les auteurs romains.",
+          "exemples": [
+            "Les jumeaux Romulus et Rémus sont abandonnés sur le Tibre.",
+            "Une louve les nourrit.",
+            "Devenus adultes, ils fondent une ville. Romulus tue Rémus et donne son nom à Rome."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les Romains font aussi descendre leur peuple du héros troyen Énée, chanté par le poète Virgile."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel animal nourrit Romulus et Rémus selon la légende ?",
+          "options": [
+            "une louve",
+            "une ourse",
+            "une chèvre"
+          ],
+          "reponse": "une louve",
+          "explication": "La louve est devenue un symbole de Rome."
+        }
+      ]
+    },
+    {
+      "titre": "Ce que dit l’histoire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mythe et histoire",
+          "colonnes": [
+            "Le mythe dit",
+            "Les historiens savent"
+          ],
+          "lignes": [
+            [
+              "Romulus fonde Rome en 753 av. J.-C.",
+              "Des villages existent sur le Palatin au VIIIe siècle av. J.-C."
+            ],
+            [
+              "Rome est fondée d’un coup",
+              "Les villages se regroupent peu à peu"
+            ],
+            [
+              "Romulus est le premier roi",
+              "Rome est gouvernée par des rois, dont des Étrusques, avant la République en 509 av. J.-C."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la date de 753 avant J.-C. a été prouvée par les fouilles.",
+          "correction": "Elle a été calculée par des auteurs romains bien plus tard. C’est une date légendaire."
+        },
+        {
+          "type": "explique",
+          "texte": "Le mythe est mis en scène sur des monnaies, des statues et des fresques. La louve devient un emblème du pouvoir romain."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": -753,
+              "date": "753 av. J.-C.",
+              "evenement": "Date légendaire de la fondation de Rome."
+            },
+            {
+              "annee": -509,
+              "date": "509 av. J.-C.",
+              "evenement": "Début de la République romaine."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Sur quelle colline trouve-t-on les premiers villages de Rome ?",
+      "options": [
+        "le Palatin",
+        "l’Olympe",
+        "l’Acropole"
+      ],
+      "reponse": "le Palatin",
+      "explication": "Les fouilles y montrent des cabanes du VIIIe siècle."
+    },
+    {
+      "consigne": "Quel héros troyen les Romains donnent-ils pour ancêtre ?",
+      "options": [
+        "Énée",
+        "Ulysse",
+        "Achille"
+      ],
+      "reponse": "Énée",
+      "explication": "Virgile raconte son histoire dans l’Énéide."
+    },
+    {
+      "consigne": "Pourquoi Rome met-elle en scène sa légende ?",
+      "options": [
+        "pour affirmer sa grandeur",
+        "pour amuser les enfants",
+        "pour vendre des statues"
+      ],
+      "reponse": "pour affirmer sa grandeur",
+      "explication": "Le mythe justifie sa domination."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Rome du mythe à l’histoire",
+      "appui": "Rome du mythe à l’histoire"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "permet-il à Rome d’asseoir sa domination et comment est-il",
+      "appui": "Usage du mythe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

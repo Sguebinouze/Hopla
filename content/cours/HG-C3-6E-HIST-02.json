@@ -1,0 +1,134 @@
+{
+  "competence": "HG-C3-6E-HIST-02",
+  "duree": 9,
+  "essentiel": "Au Ier millénaire avant J.-C., trois peuples de la Méditerranée laissent un héritage commun.\nLes Grecs vivent en cités rivales mais partagent une langue, des dieux et des jeux. Athènes invente la démocratie.\nRome raconte sa fondation par un mythe. Les Hébreux croient en un dieu unique.",
+  "parties": [
+    {
+      "titre": "Trois peuples, trois héritages",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Héritages de l’Antiquité",
+          "colonnes": [
+            "Peuple",
+            "Lieu",
+            "Héritage"
+          ],
+          "lignes": [
+            [
+              "Grecs",
+              "Athènes, Sparte, les cités",
+              "démocratie, Jeux olympiques, théâtre"
+            ],
+            [
+              "Romains",
+              "Rome",
+              "mythe de fondation, droit, latin"
+            ],
+            [
+              "Hébreux",
+              "Jérusalem",
+              "monothéisme, Bible hébraïque"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel peuple croit en un dieu unique ?",
+          "options": [
+            "les Hébreux",
+            "les Grecs",
+            "les Romains"
+          ],
+          "reponse": "les Hébreux",
+          "explication": "Les Grecs et les Romains sont polythéistes."
+        }
+      ]
+    },
+    {
+      "titre": "Histoire ou fiction ?",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Archéologie",
+              "definition": "Science qui étudie le passé à partir des traces matérielles retrouvées dans le sol."
+            },
+            {
+              "mot": "Mythe",
+              "definition": "Récit très ancien qui met en scène des dieux ou des héros et explique l’origine du monde ou des choses."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les récits anciens mêlent faits et légendes. L’archéologie permet de confronter ces récits aux traces matérielles."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour distinguer histoire et fiction",
+          "etapes": [
+            "Repère qui raconte et à quelle époque.",
+            "Cherche ce que les fouilles confirment ou non.",
+            "Sépare ce qui est prouvé de ce qui est cru."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend Romulus et Rémus pour des personnages historiques prouvés.",
+          "correction": "C’est une légende. Les fouilles montrent des villages sur le Palatin au VIIIe siècle avant J.-C."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans quelle cité naît la démocratie ?",
+      "options": [
+        "Athènes",
+        "Sparte",
+        "Rome"
+      ],
+      "reponse": "Athènes",
+      "explication": "Au VIe siècle avant J.-C."
+    },
+    {
+      "consigne": "Quelle science étudie les traces matérielles du passé ?",
+      "options": [
+        "l’archéologie",
+        "l’astronomie",
+        "la géologie"
+      ],
+      "reponse": "l’archéologie",
+      "explication": "Elle confronte récits et vestiges."
+    },
+    {
+      "consigne": "Les Grecs et les Romains sont :",
+      "options": [
+        "polythéistes",
+        "monothéistes",
+        "sans religion"
+      ],
+      "reponse": "polythéistes",
+      "explication": "Ils croient en plusieurs dieux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Thème 2 - Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique",
+      "appui": "Thème du programme"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "confronter à plusieurs reprises faits historiques et croyances.",
+      "appui": "Faits et croyances"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

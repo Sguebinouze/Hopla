@@ -1,0 +1,147 @@
+{
+  "competence": "HG-C3-6E-GEO-01",
+  "duree": 9,
+  "essentiel": "Une métropole est une grande ville qui concentre habitants, activités et pouvoirs.\nElle a des fonctions économiques, politiques et culturelles, et attire des flux de personnes et de marchandises.\nRésidents, travailleurs qui font la navette, touristes : chacun l’habite à sa façon.",
+  "parties": [
+    {
+      "titre": "Qu’est-ce qu’une métropole ?",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Métropole",
+              "definition": "Grande ville qui concentre des habitants, des activités et des pouvoirs, et qui rayonne loin autour d’elle."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les espaces d’une métropole",
+          "colonnes": [
+            "Espace",
+            "Caractéristiques"
+          ],
+          "lignes": [
+            [
+              "centre",
+              "monuments, commerces, bureaux, sièges du pouvoir"
+            ],
+            [
+              "quartier des affaires",
+              "tours de bureaux, sièges d’entreprises"
+            ],
+            [
+              "banlieues",
+              "logements, zones d’activités, centres commerciaux"
+            ],
+            [
+              "espace périurbain",
+              "lotissements au contact de la campagne"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fonction joue une métropole capitale ?",
+          "options": [
+            "politique",
+            "agricole",
+            "aucune"
+          ],
+          "reponse": "politique",
+          "explication": "Elle accueille le gouvernement."
+        }
+      ]
+    },
+    {
+      "titre": "Habiter et circuler",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Chaque jour, des habitants font la navette entre leur domicile en périphérie et leur travail au centre. Ce sont les **migrations pendulaires**."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux métropoles",
+          "colonnes": [
+            "Comparer",
+            "Pays développé",
+            "Pays en développement"
+          ],
+          "lignes": [
+            [
+              "exemple",
+              "Paris",
+              "Lagos (Nigeria)"
+            ],
+            [
+              "atouts",
+              "emplois, transports, culture",
+              "emplois, croissance rapide"
+            ],
+            [
+              "difficultés",
+              "embouteillages, prix des logements",
+              "quartiers informels, manque d’eau et de transports"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une métropole s’arrête à la limite de sa commune.",
+          "correction": "La métropole s’étend bien au-delà, avec ses banlieues et son espace périurbain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les trajets quotidiens domicile-travail s’appellent :",
+      "options": [
+        "des migrations pendulaires",
+        "des migrations saisonnières",
+        "des voyages"
+      ],
+      "reponse": "des migrations pendulaires",
+      "explication": "Comme le balancier d’une pendule."
+    },
+    {
+      "consigne": "Où se trouvent souvent les tours de bureaux ?",
+      "options": [
+        "dans le quartier des affaires",
+        "dans l’espace rural",
+        "dans les ports de pêche"
+      ],
+      "reponse": "dans le quartier des affaires",
+      "explication": "Les sièges d’entreprises s’y regroupent."
+    },
+    {
+      "consigne": "Quelle difficulté touche beaucoup de métropoles des pays en développement ?",
+      "options": [
+        "les quartiers informels",
+        "le manque d’habitants",
+        "l’absence de commerce"
+      ],
+      "reponse": "les quartiers informels",
+      "explication": "La croissance est plus rapide que les équipements."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "Thème 1 - Habiter une métropole",
+      "appui": "Thème du programme"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "Il s’agit de caractériser ce qu’est une métropole, en insistant",
+      "appui": "Caractériser une métropole"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

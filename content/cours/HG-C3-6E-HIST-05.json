@@ -1,0 +1,166 @@
+{
+  "competence": "HG-C3-6E-HIST-05",
+  "duree": 9,
+  "essentiel": "En Mésopotamie et en Égypte naissent les premiers États, dirigés par des rois.\nVers 3300 avant J.-C., l’écriture cunéiforme est inventée en Mésopotamie, sur des tablettes d’argile.\nEn Égypte, le pharaon règne sur un royaume unifié. Les scribes écrivent en hiéroglyphes.",
+  "parties": [
+    {
+      "titre": "Des États au bord des fleuves",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "État",
+              "definition": "Territoire et population gouvernés par un pouvoir unique qui fait les lois, lève l’impôt et dispose d’une armée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux civilisations",
+          "colonnes": [
+            "Comparer",
+            "Mésopotamie",
+            "Égypte"
+          ],
+          "lignes": [
+            [
+              "fleuves",
+              "Tigre et Euphrate",
+              "Nil"
+            ],
+            [
+              "pouvoir",
+              "rois de cités-États, puis empires",
+              "pharaon, roi-dieu"
+            ],
+            [
+              "écriture",
+              "cunéiforme",
+              "hiéroglyphes"
+            ],
+            [
+              "monuments",
+              "ziggourats",
+              "pyramides, temples"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel fleuve traverse l’Égypte ?",
+          "options": [
+            "le Nil",
+            "le Tigre",
+            "le Rhône"
+          ],
+          "reponse": "le Nil",
+          "explication": "Ses crues fertilisent les terres."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi écrire ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les premiers écrits servent à compter : récoltes, impôts, troupeaux. L’écriture sert ensuite aux lois, aux prières et aux récits."
+        },
+        {
+          "type": "explique",
+          "texte": "Vers 1750 avant J.-C., le roi Hammurabi de Babylone fait graver un recueil de lois sur une stèle."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les hiéroglyphes ont toujours été compris.",
+          "correction": "Leur sens fut oublié. Champollion les a déchiffrés en 1822 grâce à la pierre de Rosette."
+        },
+        {
+          "type": "question",
+          "consigne": "Sur quoi écrit-on en Mésopotamie ?",
+          "options": [
+            "des tablettes d’argile",
+            "du papier",
+            "des tablettes numériques"
+          ],
+          "reponse": "des tablettes d’argile",
+          "explication": "On les marque avec un roseau taillé en coin."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": -3300,
+              "date": "vers 3300 av. J.-C.",
+              "evenement": "Écriture cunéiforme en Mésopotamie."
+            },
+            {
+              "annee": -3100,
+              "date": "vers 3100 av. J.-C.",
+              "evenement": "Unification de l’Égypte."
+            },
+            {
+              "annee": -1750,
+              "date": "vers 1750 av. J.-C.",
+              "evenement": "Code de Hammurabi à Babylone."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment s’appelle le roi de l’Égypte ancienne ?",
+      "options": [
+        "le pharaon",
+        "l’empereur",
+        "le consul"
+      ],
+      "reponse": "le pharaon",
+      "explication": "Il est considéré comme un dieu."
+    },
+    {
+      "consigne": "À quoi servent d’abord les premiers écrits ?",
+      "options": [
+        "à compter et gérer",
+        "à écrire des romans",
+        "à envoyer des lettres d’amour"
+      ],
+      "reponse": "à compter et gérer",
+      "explication": "Récoltes, impôts, troupeaux."
+    },
+    {
+      "consigne": "Qui a déchiffré les hiéroglyphes ?",
+      "options": [
+        "Champollion",
+        "Hammurabi",
+        "Ramsès II"
+      ],
+      "reponse": "Champollion",
+      "explication": "En 1822, grâce à la pierre de Rosette."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 72,
+      "extrait": "Premiers États, premières écritures",
+      "appui": "Premiers États, premières écritures"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "dans le cadre de l’Orient ancien et peut concerner l’Égypte ou",
+      "appui": "Égypte et Mésopotamie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,125 @@
+{
+  "competence": "HG-C3-6E-GEO-04",
+  "duree": 8,
+  "essentiel": "La Terre compte plus de 8 milliards d’habitants, très inégalement répartis.\nTrois grands foyers rassemblent l’essentiel de la population : l’Asie de l’Est, l’Asie du Sud et l’Europe.\nLes déserts, les montagnes et les régions froides sont presque vides. Plus de la moitié des humains vivent en ville.",
+  "parties": [
+    {
+      "titre": "Où vivent les humains ?",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Foyer de population",
+              "definition": "Grande région où vit une très forte concentration d’habitants."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Grands foyers et vides",
+          "colonnes": [
+            "Foyers de population",
+            "Espaces presque vides"
+          ],
+          "lignes": [
+            [
+              "Asie de l’Est (Chine, Japon)",
+              "Sahara"
+            ],
+            [
+              "Asie du Sud (Inde, Bangladesh)",
+              "Sibérie, Grand Nord canadien"
+            ],
+            [
+              "Europe",
+              "Amazonie"
+            ],
+            [
+              "foyers secondaires : nord-est des États-Unis, golfe de Guinée",
+              "Himalaya, Antarctique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le grand foyer de population de l’Inde ?",
+          "options": [
+            "l’Asie du Sud",
+            "l’Asie de l’Est",
+            "l’Europe"
+          ],
+          "reponse": "l’Asie du Sud",
+          "explication": "L’Inde est le pays le plus peuplé du monde."
+        }
+      ]
+    },
+    {
+      "titre": "Expliquer l’inégale répartition",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les foyers anciens se trouvent dans des plaines fertiles, près des fleuves et des côtes, au climat favorable. L’histoire compte aussi : ces régions sont peuplées depuis des millénaires."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le climat explique tout.",
+          "correction": "L’histoire, l’économie et les choix des sociétés comptent autant que le climat."
+        },
+        {
+          "type": "explique",
+          "texte": "Depuis 2007 environ, plus de la moitié de l’humanité vit en ville. Les grandes villes grandissent surtout en Asie et en Afrique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’habitants compte la Terre aujourd’hui ?",
+      "options": [
+        "plus de 8 milliards",
+        "environ 1 milliard",
+        "environ 80 millions"
+      ],
+      "reponse": "plus de 8 milliards",
+      "explication": "Le cap des 8 milliards a été franchi fin 2022."
+    },
+    {
+      "consigne": "Quel espace est presque vide d’habitants ?",
+      "options": [
+        "le Sahara",
+        "la vallée du Gange",
+        "la plaine de Chine du Nord"
+      ],
+      "reponse": "le Sahara",
+      "explication": "Le désert offre peu d’eau."
+    },
+    {
+      "consigne": "Où vit aujourd’hui plus de la moitié de l’humanité ?",
+      "options": [
+        "en ville",
+        "à la campagne",
+        "en montagne"
+      ],
+      "reponse": "en ville",
+      "explication": "Depuis 2007 environ."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Thème 4 - Le monde habité",
+      "appui": "Thème du programme"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Où sont les femmes et les hommes sur la Terre ? Comment",
+      "appui": "Répartition de la population"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,219 @@
+{
+  "competence": "HG-C3-6E-HIST-06",
+  "duree": 10,
+  "essentiel": "Les Grecs vivent dans des cités indépendantes et souvent rivales, comme Athènes et Sparte.\nIls partagent une langue, les dieux de l’Olympe, les récits d’Homère et les Jeux olympiques, créés en 776 avant J.-C.\nÀ Athènes, à la fin du VIe siècle avant J.-C., naît la démocratie. Seuls les hommes libres nés de parents athéniens sont citoyens.",
+  "parties": [
+    {
+      "titre": "Un monde de cités",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cité",
+              "definition": "Dans la Grèce antique, ville et territoire indépendants, avec leurs lois et leurs dieux."
+            },
+            {
+              "mot": "Polythéisme",
+              "definition": "Croyance en plusieurs dieux."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Chaque cité a ses lois, son armée et ses dieux protecteurs. Athéna protège Athènes. Les Grecs fondent aussi des colonies, comme Marseille vers 600 avant J.-C."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment s’appelle le dieu principal des Grecs ?",
+          "options": [
+            "Zeus",
+            "Jupiter",
+            "Osiris"
+          ],
+          "reponse": "Zeus",
+          "explication": "Jupiter est son équivalent romain."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui unit les Grecs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une culture commune",
+          "colonnes": [
+            "Élément",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "langue",
+              "le grec"
+            ],
+            [
+              "dieux",
+              "Zeus, Héra, Athéna, Apollon, sur l’Olympe"
+            ],
+            [
+              "récits",
+              "l’Iliade et l’Odyssée, attribuées à Homère"
+            ],
+            [
+              "sanctuaires",
+              "Olympie, Delphes"
+            ],
+            [
+              "jeux",
+              "Jeux olympiques en l’honneur de Zeus, dès 776 avant J.-C."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Grèce antique formait un seul pays.",
+          "correction": "Les cités étaient indépendantes et se faisaient parfois la guerre."
+        }
+      ]
+    },
+    {
+      "titre": "La démocratie athénienne",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Démocratie",
+              "definition": "Régime politique où le pouvoir appartient aux citoyens."
+            },
+            {
+              "mot": "Citoyen",
+              "definition": "Membre d’une cité ou d’un État qui participe à la vie politique."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Vers 508 avant J.-C., Clisthène donne le pouvoir aux citoyens. Ils votent les lois à l’Ecclésia, l’assemblée réunie sur la colline de la Pnyx."
+        },
+        {
+          "type": "tableau",
+          "titre": "Qui est citoyen à Athènes ?",
+          "colonnes": [
+            "Habitant",
+            "Citoyen ?"
+          ],
+          "lignes": [
+            [
+              "homme libre, majeur, de parents athéniens",
+              "oui"
+            ],
+            [
+              "femme",
+              "non"
+            ],
+            [
+              "étranger (métèque)",
+              "non"
+            ],
+            [
+              "esclave",
+              "non"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les femmes d’Athènes sont-elles citoyennes ?",
+          "options": [
+            "non",
+            "oui",
+            "seulement à Sparte"
+          ],
+          "reponse": "non",
+          "explication": "Elles sont exclues de la vie politique."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": -776,
+              "date": "776 av. J.-C.",
+              "evenement": "Premiers Jeux olympiques."
+            },
+            {
+              "annee": -600,
+              "date": "vers 600 av. J.-C.",
+              "evenement": "Fondation de Marseille par des Grecs."
+            },
+            {
+              "annee": -508,
+              "date": "vers 508 av. J.-C.",
+              "evenement": "Réformes de Clisthène à Athènes."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où se tiennent les Jeux olympiques antiques ?",
+      "options": [
+        "à Olympie",
+        "à Athènes",
+        "à Rome"
+      ],
+      "reponse": "à Olympie",
+      "explication": "Dans le sanctuaire de Zeus."
+    },
+    {
+      "consigne": "L’Ecclésia est :",
+      "options": [
+        "l’assemblée des citoyens",
+        "un temple",
+        "une armée"
+      ],
+      "reponse": "l’assemblée des citoyens",
+      "explication": "Les citoyens y votent les lois."
+    },
+    {
+      "consigne": "Qui protège Athènes ?",
+      "options": [
+        "Athéna",
+        "Zeus",
+        "Poséidon"
+      ],
+      "reponse": "Athéna",
+      "explication": "Son temple est le Parthénon."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Le monde des cités grecques",
+      "appui": "Le monde des cités grecques"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "Que sait-on de l’univers culturel commun des Grecs vivant",
+      "appui": "Culture commune"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 73,
+      "extrait": "dans des cités rivales ? Dans quelles conditions la démocratie",
+      "appui": "Naissance de la démocratie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

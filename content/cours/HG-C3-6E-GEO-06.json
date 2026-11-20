@@ -1,0 +1,128 @@
+{
+  "competence": "HG-C3-6E-GEO-06",
+  "duree": 8,
+  "essentiel": "Certains espaces imposent de fortes contraintes : chaleur et sécheresse, froid, altitude, forêt dense.\nLes sociétés s’y adaptent selon leurs traditions et leurs moyens techniques.\nCes espaces sont souvent riches en biodiversité et fragiles.",
+  "parties": [
+    {
+      "titre": "Des contraintes et des adaptations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "S’adapter",
+          "colonnes": [
+            "Espace",
+            "Contrainte",
+            "Adaptation"
+          ],
+          "lignes": [
+            [
+              "désert chaud",
+              "manque d’eau, chaleur",
+              "oasis, irrigation, élevage nomade"
+            ],
+            [
+              "haute montagne",
+              "pentes, froid, altitude",
+              "cultures en terrasses, élevage, stations de ski"
+            ],
+            [
+              "milieu polaire",
+              "froid, nuit polaire",
+              "habitat isolé, chasse, pêche"
+            ],
+            [
+              "forêt équatoriale",
+              "végétation dense, humidité",
+              "clairières cultivées, cueillette"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une oasis permet de vivre dans le désert grâce à :",
+          "options": [
+            "l’eau",
+            "le vent",
+            "la neige"
+          ],
+          "reponse": "l’eau",
+          "explication": "Une source ou une nappe d’eau permet de cultiver."
+        }
+      ]
+    },
+    {
+      "titre": "Représentations et dynamiques",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ces espaces sont parfois vus comme hostiles, ou comme des lieux sauvages à préserver. Ils attirent aujourd’hui touristes, mines et projets de protection."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que ces espaces sont vides d’humains.",
+          "correction": "Ils sont peu peuplés, mais des sociétés y vivent depuis longtemps."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi protège-t-on la forêt amazonienne ?",
+          "options": [
+            "pour sa biodiversité très riche",
+            "pour ses autoroutes",
+            "pour ses métropoles"
+          ],
+          "reponse": "pour sa biodiversité très riche",
+          "explication": "Elle abrite une multitude d’espèces."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les cultures en terrasses répondent à quelle contrainte ?",
+      "options": [
+        "la pente",
+        "le froid",
+        "la sécheresse"
+      ],
+      "reponse": "la pente",
+      "explication": "Elles créent des surfaces planes."
+    },
+    {
+      "consigne": "Quel espace est à forte contrainte de froid ?",
+      "options": [
+        "le Grand Nord",
+        "le Sahara",
+        "la vallée du Nil"
+      ],
+      "reponse": "le Grand Nord",
+      "explication": "Le froid limite les cultures."
+    },
+    {
+      "consigne": "Un éleveur nomade du désert :",
+      "options": [
+        "se déplace avec ses troupeaux",
+        "vit dans un immeuble",
+        "cultive du riz"
+      ],
+      "reponse": "se déplace avec ses troupeaux",
+      "explication": "Il suit les points d’eau et les pâturages."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Certains espaces présentent des contraintes particulières pour",
+      "appui": "Espaces à fortes contraintes"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "l’occupation humaine. Les sociétés, suivant leurs traditions",
+      "appui": "Adaptation des sociétés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,126 @@
+{
+  "competence": "HG-C3-6E-GEO-02",
+  "duree": 8,
+  "essentiel": "Un espace de faible densité compte peu d’habitants au kilomètre carré.\nCe sont des espaces à fortes contraintes (désert, haute montagne, grand froid, forêt dense) ou des campagnes agricoles.\nCertains sont riches et liés aux villes, d’autres se vident.",
+  "parties": [
+    {
+      "titre": "Mesurer le peuplement",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Densité de population",
+              "definition": "Nombre moyen d’habitants par kilomètre carré."
+            }
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une commune de 50 km² compte 500 habitants. Quelle est sa densité ?",
+          "etapes": [
+            "Densité = habitants ÷ superficie.",
+            "500 ÷ 50 = 10."
+          ],
+          "conclusion": "10 habitants par km² : c’est une faible densité."
+        },
+        {
+          "type": "question",
+          "consigne": "Un espace de faible densité a :",
+          "options": [
+            "peu d’habitants par km²",
+            "beaucoup d’habitants par km²",
+            "aucun habitant"
+          ],
+          "reponse": "peu d’habitants par km²",
+          "explication": "Il est peu peuplé."
+        }
+      ]
+    },
+    {
+      "titre": "Deux sortes d’espaces peu peuplés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Espaces de faible densité",
+          "colonnes": [
+            "Type",
+            "Exemples",
+            "Activités"
+          ],
+          "lignes": [
+            [
+              "espace à fortes contraintes",
+              "Sahara, Grand Nord, Himalaya, Amazonie",
+              "élevage nomade, tourisme, mines"
+            ],
+            [
+              "campagne agricole riche",
+              "grandes plaines du Middle West américain",
+              "grandes exploitations mécanisées"
+            ],
+            [
+              "campagne en déprise",
+              "certaines régions rurales isolées",
+              "peu d’emplois, départ des jeunes"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que faible densité veut dire pauvreté.",
+          "correction": "Certaines campagnes peu peuplées sont très riches grâce à une agriculture moderne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel espace est de faible densité ?",
+      "options": [
+        "le Sahara",
+        "Tokyo",
+        "Paris"
+      ],
+      "reponse": "le Sahara",
+      "explication": "Le désert est très peu peuplé."
+    },
+    {
+      "consigne": "Densité d’un territoire de 100 km² avec 2 000 habitants ?",
+      "options": [
+        "20 hab./km²",
+        "200 hab./km²",
+        "2 hab./km²"
+      ],
+      "reponse": "20 hab./km²",
+      "explication": "2 000 ÷ 100 = 20."
+    },
+    {
+      "consigne": "Une campagne « en déprise » :",
+      "options": [
+        "perd des habitants et des activités",
+        "gagne des habitants",
+        "devient une métropole"
+      ],
+      "reponse": "perd des habitants et des activités",
+      "explication": "Les jeunes partent, les services ferment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "Thème 2 - Habiter un espace de faible densité",
+      "appui": "Thème du programme"
+    },
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 77,
+      "extrait": "tout autant des espaces riches intégrés aux dynamiques",
+      "appui": "Espaces agricoles riches ou en déprise"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
