@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { normaliserReponse, serie, type Item } from '@hopla/generateurs';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -43,7 +44,7 @@ export function Defi() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         if (await tempsEcoule(e)) return setStop(e.minutes_par_jour ?? 0);
         const d = (await chargerPack(e.classe)).defis.find((x) => x.id === id);
         if (!d) return naviguer('/accueil');

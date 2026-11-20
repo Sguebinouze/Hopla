@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { GrilleEquilibree } from '../composants/Grille';
@@ -27,7 +28,7 @@ function useAcces() {
   const naviguer = useNavigate();
   const [acces, setAcces] = useState<AccesJeux | null>(null);
   useEffect(() => {
-    void chargerAcces().then((a) => (a ? setAcces(a) : naviguer('/')));
+    void chargerAcces().then((a) => (a ? setAcces(a) : naviguer(ENTREE)));
   }, [naviguer]);
   return acces;
 }

@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ChampTactile } from '../composants/ChampTactile';
@@ -40,7 +41,7 @@ export function PhotoLecon() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         setEnfant(e);
         setNotions(competencesJouables(sansMatieres(await chargerPack(e.classe), e.matieres_masquees)));
         setPhotos(await mesPhotos(e.id).catch(() => []));

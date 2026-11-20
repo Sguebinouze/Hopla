@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
@@ -28,7 +29,7 @@ export function Cahier() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         setEnfant(e);
         setPack(sansMatieres(await chargerPack(e.classe), e.matieres_masquees));
         const c = await api.cahier();

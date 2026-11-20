@@ -1,6 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { LienParent } from '../composants/LienParent';
+import { PiedDePage } from '../composants/PiedDePage';
+import { BoutonRetour } from './Legal';
 
 export const CONTACT = 'hopla.news@gmail.com';
 
@@ -8,9 +10,10 @@ export const CONTACT = 'hopla.news@gmail.com';
 export function Confidentialite() {
   const naviguer = useNavigate();
   return (
+    <>
     <main className="ecran ecran--etroit confidentialite">
       <div className="ligne">
-        <button type="button" className="hp-iconbtn" aria-label="Retour" onClick={() => naviguer(-1)}><Icone nom="retour" /></button>
+        <BoutonRetour />
         <h1 className="titre-2 pousse">Confidentialité</h1>
       </div>
       <p className="muet">Mise à jour le 20 novembre 2026.</p>
@@ -92,5 +95,7 @@ export function Confidentialite() {
         </p>
       </section>
     </main>
+    <PiedDePage />
+    </>
   );
 }

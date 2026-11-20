@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { BlocProgrammes } from '../composants/Programmes';
 import { DefiFamille } from '../composants/DefiFamille';
 import { BilanSemaine } from '../composants/BilanSemaine';
@@ -191,7 +192,7 @@ export function Parent() {
   return (
     <main className="ecran">
       <div className="ligne">
-        <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
+        <Link to={ENTREE} className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
         <h1 className="titre-1 pousse">Espace parent</h1>
         <BoutonTheme />
       </div>
@@ -273,7 +274,7 @@ export function Parent() {
               <div className="ligne">
                 <button type="button" className="hp-btn hp-btn--primary" onClick={() => void essayer(async () => {
                   await api.supprimerMonCompte();
-                  location.assign('/');
+                  location.assign(ENTREE);
                 })}>Supprimer définitivement</button>
                 <button type="button" className="hp-btn hp-btn--ghost" onClick={() => setConfirmer(false)}>Annuler</button>
               </div>

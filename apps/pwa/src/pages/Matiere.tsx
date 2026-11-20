@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ChampTactile } from '../composants/ChampTactile';
@@ -50,7 +51,7 @@ export function Matiere() {
     void (async () => {
       try {
         const enfant = await api.enfantCourant();
-        if (!enfant) return naviguer('/');
+        if (!enfant) return naviguer(ENTREE);
         const pack = await chargerPack(enfant.classe);
         const m = pack.matieres.find((x) => x.matiere === matiere);
         if (!m || enfant.matieres_masquees?.includes(m.matiere)) return naviguer('/accueil');

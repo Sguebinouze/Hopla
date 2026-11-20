@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { normaliserReponse, type Item } from '@hopla/generateurs';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
@@ -57,7 +58,7 @@ export function Exercice() {
     void (async () => {
       try {
         const enfant = await api.enfantCourant();
-        if (!enfant) return naviguer('/');
+        if (!enfant) return naviguer(ENTREE);
         if (await tempsEcoule(enfant)) return setStop(enfant.minutes_par_jour ?? 0);
         const pack = await chargerPack(enfant.classe);
         const c = competencesJouables(pack).find((x) => x.id === competence);

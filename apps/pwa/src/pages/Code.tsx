@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
@@ -34,7 +35,7 @@ export function Code() {
 
   return (
     <main className="ecran ecran--etroit" style={{ alignItems: 'center' }}>
-      <Link to="/" className="hp-iconbtn" aria-label="Retour au choix du profil" style={{ alignSelf: 'flex-start' }}><Icone nom="retour" /></Link>
+      <Link to={ENTREE} className="hp-iconbtn" aria-label="Retour au choix du profil" style={{ alignSelf: 'flex-start' }}><Icone nom="retour" /></Link>
       <Avatar teinte={profil.avatar} taille={88} />
       <h1 className="titre-1">Bonjour {profil.prenom}</h1>
       <p className="muet">Tape ton code secret</p>

@@ -1,8 +1,10 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
 import { ChoixAvatar } from '../composants/ChoixAvatar';
 import { ClavierCode, CodeVisible } from '../composants/ClavierCode';
+import { InstructionsInstallation } from '../composants/Installation';
 import { Icone } from '../composants/Icone';
 import { Octave } from '../composants/Octave';
 import { api, type Classe, type Profil } from '../lib/donnees';
@@ -43,7 +45,7 @@ export function Demarrer() {
   return (
     <main className="ecran demarrer">
       <div className="ligne">
-        <Link to="/" className="hp-iconbtn" aria-label="Quitter l’assistant"><Icone nom="fermer" /></Link>
+        <Link to={ENTREE} className="hp-iconbtn" aria-label="Quitter l’assistant"><Icone nom="fermer" /></Link>
         <div className="etapes pousse" aria-label={`Étape ${n} sur 5`}>
           <span className="etapes__nom">Étape {n} sur 5 · {etape === 'fin' ? 'C’est prêt' : ETAPES[n - 1]}</span>
           <div className="hp-progress hp-progress--sm" aria-hidden="true"><span style={{ width: `${(etape === 'fin' ? 1 : (n - 1) / 5) * 100}%` }} /></div>
@@ -304,26 +306,7 @@ function EtapeInstaller({ enfantAvecAppareil, onSuite }: { enfantAvecAppareil: b
             <button type="button" className="hp-btn hp-btn--primary hp-btn--lg hp-btn--block"
               onClick={() => void installer().then((ok) => ok && setInstallee(true))}>Installer Hopla</button>
           ) : (
-            <ol className="hp-card demarrer__instructions">
-              {p === 'ios' ? (
-                <>
-                  <li>Dans Safari, touchez <strong>Partager</strong> (le carré avec une flèche vers le haut).</li>
-                  <li>Choisissez <strong>Sur l’écran d’accueil</strong>, puis <strong>Ajouter</strong>.</li>
-                  <li>Ouvrez Hopla depuis sa nouvelle icône. Sur iPhone et iPad, l’app installée ne partage pas la connexion de Safari : reconnectez-vous une fois avec votre e-mail et le code reçu.</li>
-                </>
-              ) : p === 'android' ? (
-                <>
-                  <li>Dans Chrome, touchez le menu <strong>⋮</strong> en haut à droite.</li>
-                  <li>Choisissez <strong>Installer l’application</strong> (ou <strong>Ajouter à l’écran d’accueil</strong>).</li>
-                  <li>Ouvrez Hopla depuis sa nouvelle icône.</li>
-                </>
-              ) : (
-                <>
-                  <li>Dans Chrome ou Edge, cliquez sur l’icône d’installation à droite de la barre d’adresse.</li>
-                  <li>Sur un ordinateur, vous pouvez aussi garder Hopla dans un onglet : tout fonctionne de la même façon.</li>
-                </>
-              )}
-            </ol>
+            <InstructionsInstallation plateforme={p} className="hp-card demarrer__instructions" />
           )}
         </>
       )}

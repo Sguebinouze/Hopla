@@ -2,15 +2,18 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { LienParent } from '../composants/LienParent';
 import { CONTACT } from './Confidentialite';
+import { PiedDePage } from '../composants/PiedDePage';
+import { BoutonRetour } from './Legal';
 
 // Page publique, sans compte : comment supprimer son compte et ce qui est effacé.
 // Adresse à déclarer dans la fiche Google Play (suppression de compte depuis le Web).
 export function SupprimerCompte() {
   const naviguer = useNavigate();
   return (
+    <>
     <main className="ecran ecran--etroit confidentialite">
       <div className="ligne">
-        <button type="button" className="hp-iconbtn" aria-label="Retour" onClick={() => naviguer(-1)}><Icone nom="retour" /></button>
+        <BoutonRetour />
         <h1 className="titre-2 pousse">Supprimer son compte</h1>
       </div>
       <section>
@@ -35,5 +38,7 @@ export function SupprimerCompte() {
         <p>Écrivez à <LienParent href={`mailto:${CONTACT}`}>{CONTACT}</LienParent> en indiquant l’adresse du compte.</p>
       </section>
     </main>
+    <PiedDePage />
+    </>
   );
 }

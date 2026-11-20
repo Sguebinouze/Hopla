@@ -3,6 +3,7 @@ import { definirApparence } from './apparence';
 import { avecHorsLigne } from './horsLigne';
 import { anneeScolaire } from './annee';
 import { majSuivi, type Suivi } from './progression';
+import { ENTREE } from './routes';
 
 export type Classe = 'cp' | 'ce1' | 'ce2' | 'cm1' | 'cm2' | '6e' | '5e' | '4e' | '3e';
 export const CLASSES: Classe[] = ['cp', 'ce1', 'ce2', 'cm1', 'cm2', '6e', '5e', '4e', '3e'];
@@ -300,7 +301,7 @@ function apiSupabase(url: string, cle: string): Api {
       return data.session !== null;
     },
     async envoyerLienParent(email) {
-      const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin } });
+      const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + ENTREE } });
       if (error) throw error;
     },
     async verifierCodeParent(email, code) {
@@ -308,7 +309,7 @@ function apiSupabase(url: string, cle: string): Api {
       if (error) throw error;
     },
     async connecterAvec(fournisseur) {
-      const { error } = await client.auth.signInWithOAuth({ provider: fournisseur, options: { redirectTo: location.origin } });
+      const { error } = await client.auth.signInWithOAuth({ provider: fournisseur, options: { redirectTo: location.origin + ENTREE } });
       if (error) throw error;
     },
     async listeProfils() {

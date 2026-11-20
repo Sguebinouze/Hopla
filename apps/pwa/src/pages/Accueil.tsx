@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { etatCahier, planCahier } from '../lib/cahier';
 import { DefiFamille } from '../composants/DefiFamille';
 import { EtatReseau } from '../composants/EtatReseau';
@@ -36,7 +37,7 @@ export function Accueil() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         setEnfant(e);
         const p = sansMatieres(await chargerPack(e.classe), e.matieres_masquees);
         setPack(p);
@@ -68,7 +69,7 @@ export function Accueil() {
         {erreur && (
           <>
             <p className="erreur" role="alert">{erreur}</p>
-            <button className="hp-btn hp-btn--secondary" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
+            <button className="hp-btn hp-btn--secondary" onClick={async () => { await api.fermerSession(); naviguer(ENTREE); }}>
               Revenir au choix du profil
             </button>
           </>
@@ -242,7 +243,7 @@ export function Accueil() {
         </label>
       )}
       {!surAppareilEnfant() && (
-        <button className="hp-btn hp-btn--ghost" onClick={async () => { await api.fermerSession(); naviguer('/'); }}>
+        <button className="hp-btn hp-btn--ghost" onClick={async () => { await api.fermerSession(); naviguer(ENTREE); }}>
           <Icone nom="cadenas" />Quitter ma session
         </button>
       )}

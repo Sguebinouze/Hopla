@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
@@ -17,7 +18,7 @@ export function Appairer() {
   return (
     <main className="ecran ecran--etroit">
       <div className="ligne">
-        <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
+        <Link to={ENTREE} className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
         <h1 className="titre-2 pousse">Associer cet appareil</h1>
       </div>
       <div className="hp-bubble">

@@ -35,6 +35,9 @@ import { Culture } from './pages/Culture';
 import { Jeu, Jeux } from './pages/Jeux';
 import { Credits } from './pages/Credits';
 import { Dictee } from './pages/Dictee';
+import { Presentation } from './pages/Presentation';
+import { Accessibilite, Cgu, Cgv, Cookies, MentionsLegales } from './pages/Legal';
+import { ENTREE } from './lib/routes';
 
 // Espace admin : module séparé, chargé seulement quand on ouvre /admin.
 const Relecture = lazy(() => import('./pages/admin/Relecture'));
@@ -46,7 +49,8 @@ createRoot(document.getElementById('racine')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Profils />} />
+        <Route path="/" element={<Presentation />} />
+        <Route path={ENTREE} element={<Profils />} />
         <Route path="/code/:id" element={<Code />} />
         <Route path="/appairer" element={<Appairer />} />
         <Route path="/accueil" element={<Accueil />} />
@@ -67,6 +71,11 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/exercice/:competence" element={<Exercice />} />
         <Route path="/dictee/:competence" element={<Dictee />} />
         <Route path="/credits" element={<Credits />} />
+        <Route path="/mentions-legales" element={<MentionsLegales />} />
+        <Route path="/cgu" element={<Cgu />} />
+        <Route path="/cgv" element={<Cgv />} />
+        <Route path="/cookies" element={<Cookies />} />
+        <Route path="/accessibilite" element={<Accessibilite />} />
         <Route path="/resultat" element={<Resultat />} />
         <Route path="/parent" element={<Parent />} />
         <Route path="/parent/enfant/:id" element={<FicheEnfant />} />

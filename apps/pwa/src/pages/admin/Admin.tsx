@@ -1,3 +1,4 @@
+import { ENTREE } from '../../lib/routes';
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Icone } from '../../composants/Icone';
@@ -24,7 +25,7 @@ export function GardeAdmin({ children }: { children: ReactNode }) {
           <p style={{ margin: 0 }}>Cet espace est réservé au compte administrateur, avec le mode parent ouvert dans cet onglet.</p>
           {erreur && <p className="muet" role="alert">{erreur}</p>}
           <Link to="/parent" className="hp-btn hp-btn--primary">Ouvrir le mode parent</Link>
-          <Link to="/" className="hp-btn hp-btn--ghost">Retour</Link>
+          <Link to={ENTREE} className="hp-btn hp-btn--ghost">Retour</Link>
         </section>
       </main>
     );

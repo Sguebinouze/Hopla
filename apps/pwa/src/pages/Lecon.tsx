@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { BoutonVoix } from '../composants/BoutonVoix';
@@ -39,7 +40,7 @@ export function Lecon() {
     void (async () => {
       try {
         const enfant = await api.enfantCourant();
-        if (!enfant) return naviguer('/');
+        if (!enfant) return naviguer(ENTREE);
         const r = await competenceDuPack(enfant.classe, competence);
         if (!r?.competence.lecon) return naviguer('/accueil');
         setC(r.competence);

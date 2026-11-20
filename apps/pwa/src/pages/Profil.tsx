@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Avatar } from '../composants/Avatar';
@@ -23,7 +24,7 @@ export function Profil() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         setEnfant(e);
         setAvatar(e.avatar);
         setApparence(lireApparence(e.octave));

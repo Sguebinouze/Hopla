@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { BoutonVoix } from '../composants/BoutonVoix';
@@ -20,7 +21,7 @@ export function Culture() {
 
   useEffect(() => {
     void chargerAcces().then((a) => {
-      if (!a) return naviguer('/');
+      if (!a) return naviguer(ENTREE);
       setAcces(a);
       const deja = quizFait(a.enfant.id, jour);
       if (deja !== null) setFin({ score: deja, xp: null });

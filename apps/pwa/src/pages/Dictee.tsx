@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { groupeLu, nomsPropres } from '@hopla/redaction';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -78,7 +79,7 @@ export function Dictee() {
     void (async () => {
       try {
         const e = await api.enfantCourant();
-        if (!e) return naviguer('/');
+        if (!e) return naviguer(ENTREE);
         if (await tempsEcoule(e)) return setStop(e.minutes_par_jour ?? 0);
         const trouve = await competenceDuPack(e.classe, competence);
         const d = trouve && dicteeSuivante((trouve.competence.dictees ?? []).filter(dicteeAudible), faites(e.id));

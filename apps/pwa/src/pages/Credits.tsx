@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 import { LienParent } from '../composants/LienParent';
+import { PiedDePage } from '../composants/PiedDePage';
+import { BoutonRetour } from './Legal';
 
 // Crédits : sources des textes, voix, polices et code tiers, avec les mentions que leurs licences demandent.
 export function Credits() {
@@ -12,9 +14,10 @@ export function Credits() {
     fetch('/packs/credits.json').then((r) => (r.ok ? r.json() : [])).then((c: string[]) => setCredits(c)).catch(() => undefined);
   }, []);
   return (
+    <>
     <main className="ecran ecran--etroit confidentialite">
       <div className="ligne">
-        <button type="button" className="hp-iconbtn" aria-label="Retour" onClick={() => naviguer(-1)}><Icone nom="retour" /></button>
+        <BoutonRetour />
         <h1 className="titre-2 pousse">Crédits</h1>
       </div>
 
@@ -75,5 +78,7 @@ export function Credits() {
         <p>Logo, Octave, avatars, illustrations, leçons et exercices : créations du projet.</p>
       </section>
     </main>
+    <PiedDePage />
+    </>
   );
 }

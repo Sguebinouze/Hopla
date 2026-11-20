@@ -1,3 +1,4 @@
+import { ENTREE } from '../lib/routes';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { BoutonTheme } from '../composants/BoutonTheme';
@@ -34,7 +35,7 @@ export function Connexion() {
   return (
     <main className="ecran ecran--etroit">
       <div className="ligne">
-        <Link to="/" className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
+        <Link to={ENTREE} className="hp-iconbtn" aria-label="Retour"><Icone nom="retour" /></Link>
         <span className="pousse" />
         <BoutonTheme />
       </div>
@@ -59,7 +60,7 @@ export function Connexion() {
       ) : (
         <form className="formulaire" onSubmit={(e) => {
           e.preventDefault();
-          void agir(async () => { await api.verifierCodeParent(email, code); naviguer('/', { replace: true }); },
+          void agir(async () => { await api.verifierCodeParent(email, code); naviguer(ENTREE, { replace: true }); },
             () => 'Ce code ne fonctionne pas : il a peut-être expiré ou déjà servi. Demandez un nouvel e-mail.');
         }}>
           <p style={{ margin: 0 }}>Un e-mail est parti à <strong>{email}</strong>. Saisissez le code à 8 chiffres qu’il contient.</p>

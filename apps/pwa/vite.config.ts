@@ -21,7 +21,8 @@ export default defineConfig({
         background_color: '#F4F5FA',
         display: 'standalone',
         orientation: 'any',
-        start_url: '/',
+        // L'icône ouvre l'app, pas la page de présentation.
+        start_url: '/app',
         icons: [
           { src: 'icone-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icone-512.png', sizes: '512x512', type: 'image/png' },
