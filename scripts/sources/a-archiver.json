@@ -1,18 +1,109 @@
 {
   "note": "Ressources officielles à télécharger par le workflow « Sources officielles ». Chaque fichier est identifié à la lecture (titre, éditeur, date) avant d'entrer dans content/sources/sources.json.",
   "documents": [
-    { "id": "eduscol-grammaire-cp-6e", "url": "https://eduscol.education.fr/document/45262/download" },
-    { "id": "candidat-hg-16756", "url": "https://eduscol.education.fr/document/16756/download" },
-    { "id": "candidat-hg-16753", "url": "https://eduscol.education.fr/document/16753/download" },
-    { "id": "candidat-ma-69017", "url": "https://eduscol.education.fr/document/69017/download" },
-    { "id": "candidat-ma-67770", "url": "https://eduscol.education.fr/document/67770/download" },
-    { "id": "candidat-ma-60471", "url": "https://eduscol.education.fr/document/60471/download" },
-    { "id": "candidat-ma-65649", "url": "https://eduscol.education.fr/document/65649/download" },
-    { "id": "candidat-ma-65618", "url": "https://eduscol.education.fr/document/65618/download" },
-    { "id": "candidat-ma-65186", "url": "https://eduscol.education.fr/document/65186/download" },
-    { "id": "candidat-ma-60952", "url": "https://eduscol.education.fr/document/60952/download" },
-    { "id": "candidat-ma-60439", "url": "https://eduscol.education.fr/document/60439/download" },
-    { "id": "candidat-ma-60548", "url": "https://eduscol.education.fr/document/60548/download" },
-    { "id": "candidat-ma-page-c2", "url": "https://eduscol.education.gouv.fr/4746/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-2" }
+    {
+      "id": "candidat-64878",
+      "url": "https://eduscol.education.fr/document/64878/download"
+    },
+    {
+      "id": "candidat-61764",
+      "url": "https://eduscol.education.fr/document/61764/download"
+    },
+    {
+      "id": "candidat-67203",
+      "url": "https://eduscol.education.fr/document/67203/download"
+    },
+    {
+      "id": "candidat-67186",
+      "url": "https://eduscol.education.fr/document/67186/download"
+    },
+    {
+      "id": "candidat-67216",
+      "url": "https://eduscol.education.fr/document/67216/download"
+    },
+    {
+      "id": "candidat-67176",
+      "url": "https://eduscol.education.fr/document/67176/download"
+    },
+    {
+      "id": "candidat-60364",
+      "url": "https://eduscol.education.fr/document/60364/download"
+    },
+    {
+      "id": "candidat-67234",
+      "url": "https://eduscol.education.fr/document/67234/download"
+    },
+    {
+      "id": "candidat-41584",
+      "url": "https://eduscol.education.fr/document/41584/download"
+    },
+    {
+      "id": "candidat-58416",
+      "url": "https://eduscol.education.fr/document/58416/download"
+    },
+    {
+      "id": "candidat-69507",
+      "url": "https://eduscol.education.fr/document/69507/download"
+    },
+    {
+      "id": "candidat-66051",
+      "url": "https://eduscol.education.fr/document/66051/download"
+    },
+    {
+      "id": "candidat-65624",
+      "url": "https://eduscol.education.fr/document/65624/download"
+    },
+    {
+      "id": "candidat-65626",
+      "url": "https://eduscol.education.fr/document/65626/download"
+    },
+    {
+      "id": "candidat-65715",
+      "url": "https://eduscol.education.fr/document/65715/download"
+    },
+    {
+      "id": "candidat-65603",
+      "url": "https://eduscol.education.fr/document/65603/download"
+    },
+    {
+      "id": "candidat-66862",
+      "url": "https://eduscol.education.fr/document/66862/download"
+    },
+    {
+      "id": "candidat-69079",
+      "url": "https://eduscol.education.fr/document/69079/download"
+    },
+    {
+      "id": "candidat-67180",
+      "url": "https://eduscol.education.fr/document/67180/download"
+    },
+    {
+      "id": "candidat-64863",
+      "url": "https://eduscol.education.fr/document/64863/download"
+    },
+    {
+      "id": "candidat-60176",
+      "url": "https://eduscol.education.fr/document/60176/download"
+    },
+    {
+      "id": "candidat-50990",
+      "url": "https://eduscol.education.fr/document/50990/download"
+    },
+    {
+      "id": "candidat-livret-francais-ce2",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/livret-accompagnement-programme-francais-ce2-127643.pdf"
+    },
+    {
+      "id": "page-francais-c3",
+      "url": "https://eduscol.education.gouv.fr/4800/ressources-d-accompagnement-du-programme-de-francais-au-cycle-3"
+    },
+    {
+      "id": "page-francais-c2",
+      "url": "https://eduscol.education.gouv.fr/3859/francais-cycle-2"
+    },
+    {
+      "id": "page-maths-c3",
+      "url": "https://eduscol.education.gouv.fr/4783/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-3"
+    }
   ]
 }
