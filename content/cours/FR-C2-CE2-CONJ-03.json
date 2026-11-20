@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C2-CE2-CONJ-03",
+  "duree": 9,
+  "essentiel": "Le passé composé a deux mots : un auxiliaire et un participe passé.\nAvec avoir : nous avons joué.\nAvec être, le participe s’accorde avec le sujet : elle est allée.",
+  "parties": [
+    {
+      "titre": "Avoir ou être",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Participe passé",
+              "definition": "Forme du verbe après être ou avoir : joué, allé, fini."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Passé composé",
+          "colonnes": [
+            "Sujet",
+            "jouer (avoir)",
+            "aller (être)"
+          ],
+          "lignes": [
+            [
+              "je",
+              "ai joué",
+              "suis allé(e)"
+            ],
+            [
+              "tu",
+              "as joué",
+              "es allé(e)"
+            ],
+            [
+              "il / elle",
+              "a joué",
+              "est allé / allée"
+            ],
+            [
+              "nous",
+              "avons joué",
+              "sommes allé(e)s"
+            ],
+            [
+              "vous",
+              "avez joué",
+              "êtes allé(e)s"
+            ],
+            [
+              "ils / elles",
+              "ont joué",
+              "sont allés / allées"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : j’… mangé une pomme.",
+          "options": [
+            "ai",
+            "suis",
+            "a"
+          ],
+          "reponse": "ai",
+          "explication": "Manger se conjugue avec avoir."
+        }
+      ]
+    },
+    {
+      "titre": "Accorder avec être",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec être, le participe s’accorde comme un adjectif : elles sont **parties**."
+        },
+        {
+          "type": "piege",
+          "erreur": "« Elles ont parties. »",
+          "correction": "Partir se conjugue avec être : elles sont parties."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : Lisa est …",
+          "options": [
+            "venue",
+            "venu",
+            "venus"
+          ],
+          "reponse": "venue",
+          "explication": "Lisa : féminin singulier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : nous … fini.",
+      "options": [
+        "avons",
+        "sommes",
+        "ont"
+      ],
+      "reponse": "avons",
+      "explication": "Finir se conjugue avec avoir."
+    },
+    {
+      "consigne": "Complète : les garçons sont …",
+      "options": [
+        "arrivés",
+        "arrivé",
+        "arrivées"
+      ],
+      "reponse": "arrivés",
+      "explication": "Masculin pluriel."
+    },
+    {
+      "consigne": "Quel est l’auxiliaire dans « il est tombé » ?",
+      "options": [
+        "être",
+        "avoir",
+        "tomber"
+      ],
+      "reponse": "être",
+      "explication": "Est vient du verbe être."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "et au passé composé de l’indicatif être et avoir, les verbes",
+      "appui": "Passé composé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

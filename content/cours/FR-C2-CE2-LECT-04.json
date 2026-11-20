@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C2-CE2-LECT-04",
+  "duree": 6,
+  "essentiel": "Un poème est écrit en vers, souvent avec des rimes.\nUne pièce de théâtre est écrite pour être jouée.\nUn récit d’aventure ou policier raconte une histoire pleine de suspense.",
+  "parties": [
+    {
+      "titre": "Reconnaitre le genre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Genres",
+          "colonnes": [
+            "Genre",
+            "Indices"
+          ],
+          "lignes": [
+            [
+              "poème",
+              "lignes courtes, rimes"
+            ],
+            [
+              "théâtre",
+              "noms des personnages, répliques"
+            ],
+            [
+              "récit d’aventure",
+              "voyage, dangers, héros"
+            ],
+            [
+              "récit policier",
+              "enquête, indices, coupable"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un texte avec des noms de personnages avant chaque réplique est :",
+          "options": [
+            "du théâtre",
+            "un poème",
+            "un documentaire"
+          ],
+          "reponse": "du théâtre",
+          "explication": "Il est écrit pour être joué."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un genre",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un récit policier, un enquêteur cherche des indices. Il trouve le coupable."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un poème doit toujours rimer.",
+          "correction": "Certains poèmes n’ont pas de rimes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un détective cherche un voleur. C’est un récit :",
+      "options": [
+        "policier",
+        "documentaire",
+        "poétique"
+      ],
+      "reponse": "policier",
+      "explication": "Il y a une enquête."
+    },
+    {
+      "consigne": "Un texte en vers est :",
+      "options": [
+        "un poème",
+        "une recette",
+        "une affiche"
+      ],
+      "reponse": "un poème",
+      "explication": "Les vers sont des lignes de poème."
+    },
+    {
+      "consigne": "Une pièce de théâtre est faite pour :",
+      "options": [
+        "être jouée",
+        "être chantée seulement",
+        "informer"
+      ],
+      "reponse": "être jouée",
+      "explication": "Des acteurs la jouent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 8,
+      "extrait": "Il différencie les caractéristiques des genres et types les plus courants",
+      "appui": "Genres de textes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

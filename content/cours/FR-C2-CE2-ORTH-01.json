@@ -1,0 +1,103 @@
+{
+  "competence": "FR-C2-CE2-ORTH-01",
+  "duree": 7,
+  "essentiel": "Le verbe s’accorde avec son sujet.\nJe trouve le sujet en demandant : qui est-ce qui ?\nSujet au pluriel : le verbe prend souvent -nt. Les enfants jouent.",
+  "parties": [
+    {
+      "titre": "Trouver le sujet",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Sujet",
+              "definition": "Mot ou groupe de mots qui dit qui fait l’action."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour accorder le verbe",
+          "etapes": [
+            "Trouve le verbe.",
+            "Demande : qui est-ce qui fait l’action ?",
+            "Accorde le verbe avec la réponse."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Mes amis chantent », le sujet est :",
+          "options": [
+            "Mes amis",
+            "chantent",
+            "amis seulement"
+          ],
+          "reponse": "Mes amis",
+          "explication": "Qui est-ce qui chante ? Mes amis."
+        }
+      ]
+    },
+    {
+      "titre": "Changer de personne",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le verbe change avec le sujet.",
+          "exemples": [
+            "Tu parles à Léa.",
+            "Léo parle à Léa.",
+            "Ils parlent à Léa."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit -nt après « il ».",
+          "correction": "Il est singulier : il parle. Ils est pluriel : ils parlent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : les chats …",
+      "options": [
+        "miaulent",
+        "miaule",
+        "miaules"
+      ],
+      "reponse": "miaulent",
+      "explication": "Pluriel : -nt."
+    },
+    {
+      "consigne": "Complète : tu …",
+      "options": [
+        "ris",
+        "rit",
+        "rient"
+      ],
+      "reponse": "ris",
+      "explication": "Avec tu : s."
+    },
+    {
+      "consigne": "Complète : Léa et Tom …",
+      "options": [
+        "dansent",
+        "danse",
+        "danses"
+      ],
+      "reponse": "dansent",
+      "explication": "Deux sujets : pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "Identifier, dans des situations simples, la relation sujet-",
+      "appui": "Relation sujet-verbe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

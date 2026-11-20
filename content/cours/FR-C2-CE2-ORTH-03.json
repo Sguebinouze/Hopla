@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C2-CE2-ORTH-03",
+  "duree": 6,
+  "essentiel": "L’accent aigu é se prononce [é] : un éléphant.\nL’accent grave è se prononce [è] : une flèche.\nL’accent circonflexe ê se prononce aussi [è] : une fête.",
+  "parties": [
+    {
+      "titre": "Trois accents",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les accents sur le e",
+          "colonnes": [
+            "Accent",
+            "Son",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "é (aigu)",
+              "[é]",
+              "été, école"
+            ],
+            [
+              "è (grave)",
+              "[è]",
+              "mère, élève"
+            ],
+            [
+              "ê (circonflexe)",
+              "[è]",
+              "tête, forêt"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot a un accent grave ?",
+          "options": [
+            "frère",
+            "été",
+            "fête"
+          ],
+          "reponse": "frère",
+          "explication": "Le è de frère."
+        }
+      ]
+    },
+    {
+      "titre": "Quand mettre un accent ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pas d’accent sur le e devant deux consonnes : **belle**, **terre**. Pas d’accent devant un x : **exercice**."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « bèlle ».",
+          "correction": "Devant deux consonnes, le e n’a pas d’accent : belle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on ce mot ? une f…te",
+      "options": [
+        "fête",
+        "fète",
+        "féte"
+      ],
+      "reponse": "fête",
+      "explication": "Accent circonflexe."
+    },
+    {
+      "consigne": "Comment écrit-on ce mot ? l’…cole",
+      "options": [
+        "école",
+        "ècole",
+        "êcole"
+      ],
+      "reponse": "école",
+      "explication": "Accent aigu."
+    },
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "terre",
+        "tèrre",
+        "térre"
+      ],
+      "reponse": "terre",
+      "explication": "Pas d’accent devant deux consonnes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "Tenir compte des accents",
+      "appui": "Accents"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

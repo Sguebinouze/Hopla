@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C2-CE2-ORTH-04",
+  "duree": 6,
+  "essentiel": "Pour écrire un mot, je pense à sa famille.\nBeau → beauté. Dent → dentiste.\nLe radical s’écrit de la même façon dans toute la famille.",
+  "parties": [
+    {
+      "titre": "S’aider de la famille",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Familles",
+          "colonnes": [
+            "Mot connu",
+            "Mot à écrire"
+          ],
+          "lignes": [
+            [
+              "beau",
+              "beauté"
+            ],
+            [
+              "dent",
+              "dentiste"
+            ],
+            [
+              "coiffer",
+              "coiffeur"
+            ],
+            [
+              "lait",
+              "laitier"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on le métier de celui qui vend le lait ?",
+          "options": [
+            "laitier",
+            "létier",
+            "laitié"
+          ],
+          "reponse": "laitier",
+          "explication": "Lait garde son ai."
+        }
+      ]
+    },
+    {
+      "titre": "Préfixes et suffixes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire un mot long",
+          "etapes": [
+            "Cherche le radical.",
+            "Repère le préfixe ou le suffixe.",
+            "Écris chaque morceau avec son orthographe."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « dantiste ».",
+          "correction": "Dentiste vient de dent : en, pas an."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on une petite fille ?",
+      "options": [
+        "une fillette",
+        "une fiette",
+        "une filette"
+      ],
+      "reponse": "une fillette",
+      "explication": "Fille + -ette."
+    },
+    {
+      "consigne": "Quel mot aide à écrire « grandir » ?",
+      "options": [
+        "grand",
+        "gras",
+        "gland"
+      ],
+      "reponse": "grand",
+      "explication": "Même famille."
+    },
+    {
+      "consigne": "Comment écrit-on le contraire de « faire » avec dé- ?",
+      "options": [
+        "défaire",
+        "déffaire",
+        "défère"
+      ],
+      "reponse": "défaire",
+      "explication": "Dé + faire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 19,
+      "extrait": "S’appuyer sur des critères morphologiques (radical, préfixe et suffixe) et analogiques pou",
+      "appui": "Écrire grâce à la famille"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

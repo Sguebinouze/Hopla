@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C2-CE2-GRAM-03",
+  "duree": 6,
+  "essentiel": "À la forme négative, deux mots entourent le verbe : ne… pas.\nOn utilise aussi ne… jamais, ne… plus, ne… rien.\nDevant une voyelle, ne devient n’ : il n’aime pas.",
+  "parties": [
+    {
+      "titre": "Transformer une phrase",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "Jean, ferme la porte.",
+            "Jean, ne ferme pas la porte.",
+            "Ne et pas entourent le verbe."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Forme négative de « Je mange » ?",
+          "options": [
+            "Je ne mange pas.",
+            "Je mange pas.",
+            "Je ne pas mange."
+          ],
+          "reponse": "Je ne mange pas.",
+          "explication": "Ne avant le verbe, pas après."
+        }
+      ]
+    },
+    {
+      "titre": "Les autres négations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Négations",
+          "colonnes": [
+            "Phrase",
+            "Négation"
+          ],
+          "lignes": [
+            [
+              "Il pleut.",
+              "Il ne pleut pas."
+            ],
+            [
+              "Il joue toujours.",
+              "Il ne joue jamais."
+            ],
+            [
+              "Il dort encore.",
+              "Il ne dort plus."
+            ],
+            [
+              "Il voit tout.",
+              "Il ne voit rien."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le ne : « Je veux pas ».",
+          "correction": "À l’écrit, on met les deux mots : je ne veux pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Forme négative de « Elle aime le lait » ?",
+      "options": [
+        "Elle n’aime pas le lait.",
+        "Elle ne aime pas le lait.",
+        "Elle aime pas le lait."
+      ],
+      "reponse": "Elle n’aime pas le lait.",
+      "explication": "Devant une voyelle : n’."
+    },
+    {
+      "consigne": "Contraire de « Il rit toujours » ?",
+      "options": [
+        "Il ne rit jamais.",
+        "Il ne rit pas toujours.",
+        "Il rit jamais."
+      ],
+      "reponse": "Il ne rit jamais.",
+      "explication": "Toujours → ne… jamais."
+    },
+    {
+      "consigne": "Quelle phrase est négative ?",
+      "options": [
+        "Nous ne partons plus.",
+        "Nous partons.",
+        "Partons !"
+      ],
+      "reponse": "Nous ne partons plus.",
+      "explication": "Ne… plus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "Il transforme des phrases de différents types à la forme",
+      "appui": "Forme négative"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

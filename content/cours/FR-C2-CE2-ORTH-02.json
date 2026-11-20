@@ -1,0 +1,137 @@
+{
+  "competence": "FR-C2-CE2-ORTH-02",
+  "duree": 8,
+  "essentiel": "Au pluriel, la plupart des noms prennent un s.\nLes noms en -eau prennent un x : des bateaux.\nLes noms en -al deviennent -aux : un cheval, des chevaux.",
+  "parties": [
+    {
+      "titre": "Pluriels particuliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pluriels",
+          "colonnes": [
+            "Singulier",
+            "Pluriel",
+            "Règle"
+          ],
+          "lignes": [
+            [
+              "un chat",
+              "des chats",
+              "+ s"
+            ],
+            [
+              "un bateau",
+              "des bateaux",
+              "-eau → + x"
+            ],
+            [
+              "un cheval",
+              "des chevaux",
+              "-al → -aux"
+            ],
+            [
+              "un bijou",
+              "des bijoux",
+              "7 noms en -ou prennent x"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Sept noms en -ou prennent un x. Ce sont : bijou, caillou, chou, genou, hibou, joujou, pou."
+        },
+        {
+          "type": "question",
+          "consigne": "Pluriel de « journal » ?",
+          "options": [
+            "journaux",
+            "journals",
+            "journaus"
+          ],
+          "reponse": "journaux",
+          "explication": "-al devient -aux."
+        }
+      ]
+    },
+    {
+      "titre": "Le féminin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Féminins qui s’entendent",
+          "colonnes": [
+            "Masculin",
+            "Féminin"
+          ],
+          "lignes": [
+            [
+              "un lecteur",
+              "une lectrice"
+            ],
+            [
+              "un chanteur",
+              "une chanteuse"
+            ],
+            [
+              "un lion",
+              "une lionne"
+            ],
+            [
+              "un boulanger",
+              "une boulangère"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Des trous → des troux.",
+          "correction": "Trou n’est pas dans la liste des sept : des trous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pluriel de « gâteau » ?",
+      "options": [
+        "gâteaux",
+        "gâteaus",
+        "gâtaux"
+      ],
+      "reponse": "gâteaux",
+      "explication": "-eau prend un x."
+    },
+    {
+      "consigne": "Pluriel de « genou » ?",
+      "options": [
+        "genoux",
+        "genous",
+        "genaux"
+      ],
+      "reponse": "genoux",
+      "explication": "Un des 7 noms en -ou avec x."
+    },
+    {
+      "consigne": "Féminin de « directeur » ?",
+      "options": [
+        "directrice",
+        "directeuse",
+        "directeure"
+      ],
+      "reponse": "directrice",
+      "explication": "Comme lecteur, lectrice."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "des marques d’accord de pluriels irréguliers pour les noms",
+      "appui": "Pluriels irréguliers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

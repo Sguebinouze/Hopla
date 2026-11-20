@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C2-CE2-DICT-02",
+  "duree": 6,
+  "essentiel": "En dictée, j’écoute toute la phrase avant d’écrire.\nJe pense aux accords du nom et du verbe.\nJe relis pour vérifier chaque accord.",
+  "parties": [
+    {
+      "titre": "Pendant la dictée",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les oiseaux chantaient dans les arbres. »",
+          "etapes": [
+            "Les oiseaux : pluriel en -x.",
+            "Ils chantaient : imparfait, -aient.",
+            "Les arbres : pluriel en -s."
+          ],
+          "conclusion": "Chaque accord se justifie."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on ? Les enfants … (jouer, imparfait).",
+          "options": [
+            "jouaient",
+            "jouait",
+            "jouais"
+          ],
+          "reponse": "jouaient",
+          "explication": "Ils : -aient."
+        }
+      ]
+    },
+    {
+      "titre": "Relire",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Après la dictée",
+          "etapes": [
+            "Relis les groupes du nom.",
+            "Relis les verbes et leurs sujets.",
+            "Relis les majuscules et les points."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit les mots comme on les entend : « les oiso chant ».",
+          "correction": "On pense aux lettres muettes et aux accords."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Les chevaux galopaient.",
+        "Les chevals galopait.",
+        "Les chevaux galopait."
+      ],
+      "reponse": "Les chevaux galopaient.",
+      "explication": "Chevaux, galopaient."
+    },
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Nous serons à l’heure.",
+        "Nous seront à l’heure.",
+        "Nous serrons à l’heure."
+      ],
+      "reponse": "Nous serons à l’heure.",
+      "explication": "Futur avec nous : -rons."
+    },
+    {
+      "consigne": "Que vérifie-t-on en relisant ?",
+      "options": [
+        "les accords et la ponctuation",
+        "la couleur de l’encre",
+        "la longueur"
+      ],
+      "reponse": "les accords et la ponctuation",
+      "explication": "Une chose à la fois."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 11,
+      "extrait": "réalise des dictées en lien avec l’étude de la langue",
+      "appui": "Dictées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

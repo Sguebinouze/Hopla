@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C2-CE2-ECR-01",
+  "duree": 6,
+  "essentiel": "Après avoir écrit, je relis mon texte.\nJe vérifie les majuscules, les points, les accords et les mots oubliés.\nJe relis une fois pour chaque vérification.",
+  "parties": [
+    {
+      "titre": "Relire méthodiquement",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour relire",
+          "etapes": [
+            "Une majuscule au début, un point à la fin ?",
+            "Les noms et adjectifs sont-ils accordés ?",
+            "Les verbes sont-ils accordés avec le sujet ?",
+            "Manque-t-il un mot ?"
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Corrige : « les chats dort. »",
+          "etapes": [
+            "Majuscule : Les.",
+            "Les chats : pluriel, donc dorment."
+          ],
+          "conclusion": "Les chats dorment."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle phrase est correcte ?",
+          "options": [
+            "Mes sœurs jouent.",
+            "mes sœurs jouent.",
+            "Mes sœur joue."
+          ],
+          "reponse": "Mes sœurs jouent.",
+          "explication": "Majuscule et accords."
+        }
+      ]
+    },
+    {
+      "titre": "Corriger",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On relit en lisant vite, comme une histoire.",
+          "correction": "On relit lentement, mot par mot."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Le vent souffle fort.",
+        "le vent souffle fort",
+        "Le vent soufflent fort."
+      ],
+      "reponse": "Le vent souffle fort.",
+      "explication": "Majuscule, point, accord."
+    },
+    {
+      "consigne": "Que manque-t-il ? « Le chat sur le lit. »",
+      "options": [
+        "un verbe",
+        "un point",
+        "une majuscule"
+      ],
+      "reponse": "un verbe",
+      "explication": "Le chat dort sur le lit."
+    },
+    {
+      "consigne": "Combien de fois relire ?",
+      "options": [
+        "une fois par vérification",
+        "jamais",
+        "une seule fois vite"
+      ],
+      "reponse": "une fois par vérification",
+      "explication": "Une chose à la fois."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 12,
+      "extrait": "de relire son texte méthodiquement",
+      "appui": "Relire son texte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

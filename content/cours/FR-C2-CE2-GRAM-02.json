@@ -1,0 +1,114 @@
+{
+  "competence": "FR-C2-CE2-GRAM-02",
+  "duree": 6,
+  "essentiel": "Le groupe sujet dit qui fait l’action.\nOn peut le remplacer par un pronom : il, elle, ils, elles.\nLes enfants jouent → Ils jouent.",
+  "parties": [
+    {
+      "titre": "Repérer le groupe sujet",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver le groupe sujet",
+          "etapes": [
+            "Encadre avec « c’est… qui » : ce sont les enfants qui jouent.",
+            "Le groupe encadré est le sujet."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Le petit chien aboie », le groupe sujet est :",
+          "options": [
+            "Le petit chien",
+            "aboie",
+            "petit"
+          ],
+          "reponse": "Le petit chien",
+          "explication": "C’est le petit chien qui aboie."
+        }
+      ]
+    },
+    {
+      "titre": "Le remplacer par un pronom",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Remplacer",
+          "colonnes": [
+            "Groupe sujet",
+            "Pronom"
+          ],
+          "lignes": [
+            [
+              "Le chat",
+              "il"
+            ],
+            [
+              "Ma sœur",
+              "elle"
+            ],
+            [
+              "Les garçons",
+              "ils"
+            ],
+            [
+              "Léa et Zoé",
+              "elles"
+            ],
+            [
+              "Tom et Léa",
+              "ils"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Tom et Léa → elles.",
+          "correction": "Un garçon et une fille : ils."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par quel pronom remplacer « Les filles » ?",
+      "options": [
+        "elles",
+        "ils",
+        "elle"
+      ],
+      "reponse": "elles",
+      "explication": "Féminin pluriel."
+    },
+    {
+      "consigne": "Par quel pronom remplacer « Mon oncle » ?",
+      "options": [
+        "il",
+        "elle",
+        "ils"
+      ],
+      "reponse": "il",
+      "explication": "Masculin singulier."
+    },
+    {
+      "consigne": "Dans « Les oiseaux du parc chantent », le groupe sujet est :",
+      "options": [
+        "Les oiseaux du parc",
+        "du parc",
+        "chantent"
+      ],
+      "reponse": "Les oiseaux du parc",
+      "explication": "Ce sont les oiseaux du parc qui chantent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "Il substitue à un groupe nominal sujet un pronom",
+      "appui": "Remplacer le sujet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

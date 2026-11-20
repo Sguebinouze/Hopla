@@ -1,0 +1,115 @@
+{
+  "competence": "FR-C2-CE2-LEX-03",
+  "duree": 6,
+  "essentiel": "Pour éviter de répéter, on utilise un synonyme ou un mot générique.\nLa voiture, l’automobile, le véhicule.\nPomme, poire et cerise sont des fruits.",
+  "parties": [
+    {
+      "titre": "Synonymes",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Synonyme",
+              "definition": "Mot qui a presque le même sens qu’un autre mot."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Synonymes",
+          "colonnes": [
+            "Mot",
+            "Synonyme"
+          ],
+          "lignes": [
+            [
+              "content",
+              "joyeux"
+            ],
+            [
+              "commencer",
+              "débuter"
+            ],
+            [
+              "un bateau",
+              "un navire"
+            ],
+            [
+              "rapide",
+              "vif"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Synonyme de « effrayé » ?",
+          "options": [
+            "apeuré",
+            "joyeux",
+            "calme"
+          ],
+          "reponse": "apeuré",
+          "explication": "Les deux disent avoir peur."
+        }
+      ]
+    },
+    {
+      "titre": "Mots génériques",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un mot générique regroupe d’autres mots : **outil** pour marteau, scie et pince."
+        },
+        {
+          "type": "piege",
+          "erreur": "On remplace « le chien » par « le chat ».",
+          "correction": "Ce n’est pas le même animal. Dis plutôt : l’animal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mot générique pour « violon, piano, flûte » ?",
+      "options": [
+        "instruments",
+        "meubles",
+        "animaux"
+      ],
+      "reponse": "instruments",
+      "explication": "Ce sont des instruments de musique."
+    },
+    {
+      "consigne": "Synonyme de « débuter » ?",
+      "options": [
+        "commencer",
+        "finir",
+        "courir"
+      ],
+      "reponse": "commencer",
+      "explication": "Même sens."
+    },
+    {
+      "consigne": "« Le loup… Le loup… » Par quoi remplacer le second ?",
+      "options": [
+        "L’animal",
+        "Le mouton",
+        "La forêt"
+      ],
+      "reponse": "L’animal",
+      "explication": "Mot générique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 19,
+      "extrait": "L’élève mobilise des synonymes, termes génériques ou",
+      "appui": "Synonymes et génériques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

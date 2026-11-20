@@ -1,0 +1,180 @@
+{
+  "competence": "FR-C2-CE2-CONJ-02",
+  "duree": 9,
+  "essentiel": "L’imparfait raconte le passé : je jouais, nous jouions.\nTerminaisons : -ais, -ais, -ait, -ions, -iez, -aient.\nLe futur raconte l’avenir : je jouerai, nous jouerons.\nTerminaisons : -rai, -ras, -ra, -rons, -rez, -ront.",
+  "parties": [
+    {
+      "titre": "L’imparfait",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Imparfait",
+          "colonnes": [
+            "Sujet",
+            "jouer",
+            "être",
+            "avoir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "jouais",
+              "étais",
+              "avais"
+            ],
+            [
+              "tu",
+              "jouais",
+              "étais",
+              "avais"
+            ],
+            [
+              "il, elle, on",
+              "jouait",
+              "était",
+              "avait"
+            ],
+            [
+              "nous",
+              "jouions",
+              "étions",
+              "avions"
+            ],
+            [
+              "vous",
+              "jouiez",
+              "étiez",
+              "aviez"
+            ],
+            [
+              "ils, elles",
+              "jouaient",
+              "étaient",
+              "avaient"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : hier, nous … dans le jardin.",
+          "options": [
+            "jouions",
+            "jouerons",
+            "jouons"
+          ],
+          "reponse": "jouions",
+          "explication": "Hier : imparfait, -ions."
+        }
+      ]
+    },
+    {
+      "titre": "Le futur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Futur",
+          "colonnes": [
+            "Sujet",
+            "jouer",
+            "être",
+            "avoir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "jouerai",
+              "serai",
+              "aurai"
+            ],
+            [
+              "tu",
+              "joueras",
+              "seras",
+              "auras"
+            ],
+            [
+              "il, elle, on",
+              "jouera",
+              "sera",
+              "aura"
+            ],
+            [
+              "nous",
+              "jouerons",
+              "serons",
+              "aurons"
+            ],
+            [
+              "vous",
+              "jouerez",
+              "serez",
+              "aurez"
+            ],
+            [
+              "ils, elles",
+              "joueront",
+              "seront",
+              "auront"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour le futur d’un verbe en -er",
+          "etapes": [
+            "Garde l’infinitif : jouer.",
+            "Ajoute la terminaison : -ai, -as, -a, -ons, -ez, -ont."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le e : je jourai.",
+          "correction": "On garde l’infinitif entier : je jouerai."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : demain, tu … à l’école.",
+      "options": [
+        "seras",
+        "étais",
+        "es"
+      ],
+      "reponse": "seras",
+      "explication": "Demain : futur."
+    },
+    {
+      "consigne": "Complète : autrefois, ils … une ferme.",
+      "options": [
+        "avaient",
+        "auront",
+        "ont"
+      ],
+      "reponse": "avaient",
+      "explication": "Autrefois : imparfait."
+    },
+    {
+      "consigne": "Complète : vous … une chanson demain.",
+      "options": [
+        "chanterez",
+        "chantiez",
+        "chantez"
+      ],
+      "reponse": "chanterez",
+      "explication": "Futur avec vous : -rez."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 21,
+      "extrait": "Apprendre à conjuguer au présent, à l’imparfait, au futur",
+      "appui": "Imparfait et futur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

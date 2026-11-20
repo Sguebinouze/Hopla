@@ -1,0 +1,93 @@
+{
+  "competence": "FR-C2-CE2-LECT-03",
+  "duree": 6,
+  "essentiel": "Dans un texte, un personnage peut être désigné par plusieurs mots.\nLe lion, il, le roi des animaux : c’est le même personnage.\nJe relis la phrase d’avant pour savoir qui est désigné.",
+  "parties": [
+    {
+      "titre": "Les pronoms",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Zoé appelle son chat. Elle le cherche partout. »",
+          "exemples": [
+            "Elle désigne Zoé.",
+            "Le désigne le chat."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Max a perdu sa balle. Il la cherche. » Que désigne « la » ?",
+          "options": [
+            "la balle",
+            "Max",
+            "le chat"
+          ],
+          "reponse": "la balle",
+          "explication": "Il cherche sa balle."
+        }
+      ]
+    },
+    {
+      "titre": "Les autres noms",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Le lion rugit. Le roi des animaux a faim. »",
+          "etapes": [
+            "On cherche qui est le roi des animaux.",
+            "C’est un autre nom pour le lion."
+          ],
+          "conclusion": "Le roi des animaux désigne le lion."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un nouveau nom est un nouveau personnage.",
+          "correction": "Vérifie : souvent, c’est le même personnage, dit autrement."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La sorcière prit son balai. La vieille femme s’envola. » Qui s’envole ?",
+      "options": [
+        "la sorcière",
+        "une autre femme",
+        "le balai"
+      ],
+      "reponse": "la sorcière",
+      "explication": "La vieille femme est la sorcière."
+    },
+    {
+      "consigne": "« Tom donne un os au chien. Celui-ci le mange. » Qui mange ?",
+      "options": [
+        "le chien",
+        "Tom",
+        "l’os"
+      ],
+      "reponse": "le chien",
+      "explication": "Celui-ci désigne le chien."
+    },
+    {
+      "consigne": "« Les élèves entrent. Ils s’assoient. » Qui s’assoit ?",
+      "options": [
+        "les élèves",
+        "la maitresse",
+        "on ne sait pas"
+      ],
+      "reponse": "les élèves",
+      "explication": "Ils reprend les élèves."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 5,
+      "extrait": "Se repérer dans la chaine anaphorique",
+      "appui": "Reprises"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

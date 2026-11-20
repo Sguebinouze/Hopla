@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C2-CE2-LECT-01",
+  "duree": 6,
+  "essentiel": "Un récit raconte une histoire.\nUn texte informatif donne des informations vraies.\nUn texte prescriptif dit comment faire : recette, règle du jeu.",
+  "parties": [
+    {
+      "titre": "Trois types de textes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre un texte",
+          "colonnes": [
+            "Type",
+            "Il sert à",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "récit",
+              "raconter",
+              "un conte, une histoire"
+            ],
+            [
+              "informatif",
+              "informer",
+              "un documentaire"
+            ],
+            [
+              "prescriptif",
+              "dire comment faire",
+              "une recette, une notice"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une règle du jeu est un texte :",
+          "options": [
+            "prescriptif",
+            "récit",
+            "informatif"
+          ],
+          "reponse": "prescriptif",
+          "explication": "Elle dit comment jouer."
+        }
+      ]
+    },
+    {
+      "titre": "Les indices",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour reconnaitre le type",
+          "etapes": [
+            "Des personnages et une histoire ? Récit.",
+            "Des faits vrais, des titres, des photos ? Informatif.",
+            "Des étapes et des verbes d’ordre ? Prescriptif."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un texte sur un animal est toujours un récit.",
+          "correction": "S’il donne des faits vrais, c’est un documentaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Mélange la farine et les œufs. » vient :",
+      "options": [
+        "d’une recette",
+        "d’un conte",
+        "d’un poème"
+      ],
+      "reponse": "d’une recette",
+      "explication": "C’est un texte prescriptif."
+    },
+    {
+      "consigne": "« Le guépard court à 100 km/h. » vient :",
+      "options": [
+        "d’un documentaire",
+        "d’une recette",
+        "d’un conte"
+      ],
+      "reponse": "d’un documentaire",
+      "explication": "Information vraie."
+    },
+    {
+      "consigne": "« Il était une fois un roi… » est :",
+      "options": [
+        "un récit",
+        "une notice",
+        "un texte informatif"
+      ],
+      "reponse": "un récit",
+      "explication": "Il raconte une histoire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 7,
+      "extrait": "Différencier le type narratif du type informatif et prescriptif",
+      "appui": "Types de textes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

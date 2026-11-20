@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C2-CE2-LECT-02",
+  "duree": 6,
+  "essentiel": "Un texte ne dit pas tout.\nJe cherche des indices pour comprendre ce qui n’est pas écrit.\n« Il ouvre son parapluie. » : on comprend qu’il pleut.",
+  "parties": [
+    {
+      "titre": "Chercher les indices",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour lire entre les lignes",
+          "etapes": [
+            "Repère les mots importants.",
+            "Demande-toi ce qu’ils montrent.",
+            "Vérifie avec le reste du texte."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Nina souffle les bougies. Tout le monde chante. »",
+          "etapes": [
+            "Indice 1 : des bougies à souffler.",
+            "Indice 2 : tout le monde chante."
+          ],
+          "conclusion": "C’est l’anniversaire de Nina."
+        },
+        {
+          "type": "question",
+          "consigne": "« Paul grelotte et met son écharpe. » Il fait :",
+          "options": [
+            "froid",
+            "chaud",
+            "nuit"
+          ],
+          "reponse": "froid",
+          "explication": "Grelotter : trembler de froid."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas inventer",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On imagine une réponse sans indice.",
+          "correction": "Chaque idée doit s’appuyer sur un mot du texte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Lou bâille et se frotte les yeux. » Lou est :",
+      "options": [
+        "fatiguée",
+        "en colère",
+        "affamée"
+      ],
+      "reponse": "fatiguée",
+      "explication": "Bâiller montre la fatigue."
+    },
+    {
+      "consigne": "« Le chien remue la queue en voyant son maitre. » Le chien est :",
+      "options": [
+        "content",
+        "triste",
+        "malade"
+      ],
+      "reponse": "content",
+      "explication": "Remuer la queue montre la joie."
+    },
+    {
+      "consigne": "« Max essuie la sueur de son front. » Il fait :",
+      "options": [
+        "chaud",
+        "froid",
+        "nuit"
+      ],
+      "reponse": "chaud",
+      "explication": "On transpire quand il fait chaud."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 8,
+      "extrait": "Comprendre ce qui est implicite (inférences) en s’appuyant sur des indices explicites",
+      "appui": "Inférences"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

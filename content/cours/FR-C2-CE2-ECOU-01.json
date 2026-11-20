@@ -1,0 +1,93 @@
+{
+  "competence": "FR-C2-CE2-ECOU-01",
+  "duree": 5,
+  "essentiel": "Pour retenir un message long, je repère les informations importantes.\nJe les relie entre elles.\nÀ la fin, je redis l’essentiel avec mes mots.",
+  "parties": [
+    {
+      "titre": "Écouter avec un but",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pendant l’écoute",
+          "etapes": [
+            "Sache ce que tu cherches avant d’écouter.",
+            "Retiens les mots clés.",
+            "Relie-les : qui, quoi, où, quand, pourquoi."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant l’écoute, je retiens :",
+          "options": [
+            "les mots clés",
+            "tous les mots",
+            "rien"
+          ],
+          "reponse": "les mots clés",
+          "explication": "Les mots clés suffisent."
+        }
+      ]
+    },
+    {
+      "titre": "Redire l’essentiel",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Tu entends : « Les abeilles butinent les fleurs. Elles fabriquent le miel dans la ruche. »",
+          "etapes": [
+            "Mots clés : abeilles, fleurs, miel, ruche."
+          ],
+          "conclusion": "Les abeilles butinent les fleurs pour faire le miel."
+        },
+        {
+          "type": "piege",
+          "erreur": "On retient seulement la dernière phrase.",
+          "correction": "Relie toutes les informations importantes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour bien écouter, je :",
+      "options": [
+        "sais ce que je cherche",
+        "parle en même temps",
+        "regarde ailleurs"
+      ],
+      "reponse": "sais ce que je cherche",
+      "explication": "L’écoute est active."
+    },
+    {
+      "consigne": "Redire l’essentiel, c’est :",
+      "options": [
+        "dire les idées importantes avec ses mots",
+        "tout répéter",
+        "inventer"
+      ],
+      "reponse": "dire les idées importantes avec ses mots",
+      "explication": "On garde le sens."
+    },
+    {
+      "consigne": "Quels mots aident à relier les informations ?",
+      "options": [
+        "qui, quoi, où, quand",
+        "oui, non",
+        "bonjour"
+      ],
+      "reponse": "qui, quoi, où, quand",
+      "explication": "Ce sont des questions utiles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 15,
+      "extrait": "Repérer, mémoriser et relier entre elles plusieurs informations importantes",
+      "appui": "Écouter et relier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C2-CE2-DICT-01",
+  "duree": 7,
+  "essentiel": "Un même son peut s’écrire de plusieurs façons.\nLe son [o] : o, au, eau. Le son [é] : é, er, ez.\nLe son [s] : s, ss, c, ç.",
+  "parties": [
+    {
+      "titre": "Plusieurs écritures",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sons et écritures",
+          "colonnes": [
+            "Son",
+            "Écritures",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "[o]",
+              "o, au, eau",
+              "vélo, auto, bateau"
+            ],
+            [
+              "[é]",
+              "é, er, ez",
+              "été, chanter, nez"
+            ],
+            [
+              "[an]",
+              "an, en, am, em",
+              "maman, dent, jambe, temps"
+            ],
+            [
+              "[s]",
+              "s, ss, c, ç",
+              "sac, tasse, ciel, garçon"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on ? un chap…",
+          "options": [
+            "chapeau",
+            "chapo",
+            "chapau"
+          ],
+          "reponse": "chapeau",
+          "explication": "Famille des mots en -eau."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir la bonne écriture",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir",
+          "etapes": [
+            "Pense à un mot de la même famille.",
+            "Cherche un mot qui rime et que tu sais écrire.",
+            "Vérifie dans le dictionnaire."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « anpoule ».",
+          "correction": "Devant p ou b, on écrit m : ampoule."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on ? une …mpe",
+      "options": [
+        "lampe",
+        "lanpe",
+        "lempe"
+      ],
+      "reponse": "lampe",
+      "explication": "Devant p : am."
+    },
+    {
+      "consigne": "Comment écrit-on ? un garç…",
+      "options": [
+        "garçon",
+        "garcon",
+        "garsson"
+      ],
+      "reponse": "garçon",
+      "explication": "Ç devant o."
+    },
+    {
+      "consigne": "Comment écrit-on ? un oi…",
+      "options": [
+        "oiseau",
+        "oisau",
+        "oiso"
+      ],
+      "reponse": "oiseau",
+      "explication": "Oiseau finit par -eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 12,
+      "extrait": "Il transcrit correctement les phonèmes pouvant s’écrire à l’aide de plusieurs graphèmes",
+      "appui": "Un son, plusieurs écritures"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

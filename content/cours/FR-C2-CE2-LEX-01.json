@@ -1,0 +1,120 @@
+{
+  "competence": "FR-C2-CE2-LEX-01",
+  "duree": 6,
+  "essentiel": "Un préfixe se place au début d’un mot et change son sens.\nDé-, in-, im-, mal- donnent souvent un sens contraire.\nImmobile : pas mobile. Malhabile : pas habile.",
+  "parties": [
+    {
+      "titre": "Des préfixes négatifs",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Préfixe",
+              "definition": "Morceau placé au début d’un mot pour former un autre mot."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Préfixes",
+          "colonnes": [
+            "Préfixe",
+            "Exemple",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "dé-",
+              "défaire",
+              "le contraire de faire"
+            ],
+            [
+              "in-",
+              "inutile",
+              "pas utile"
+            ],
+            [
+              "im-",
+              "impossible",
+              "pas possible"
+            ],
+            [
+              "mal-",
+              "malheureux",
+              "pas heureux"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que veut dire « inconnu » ?",
+          "options": [
+            "pas connu",
+            "très connu",
+            "connu de tous"
+          ],
+          "reponse": "pas connu",
+          "explication": "In- donne un sens contraire."
+        }
+      ]
+    },
+    {
+      "titre": "D’autres préfixes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "**Re-** veut dire « encore » : refaire, relire. **Pré-** veut dire « avant » : préhistoire."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « indien » contient le préfixe in-.",
+          "correction": "« dien » n’existe pas. Ce n’est pas un préfixe ici."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Que veut dire « relire » ?",
+      "options": [
+        "lire encore",
+        "ne pas lire",
+        "lire avant"
+      ],
+      "reponse": "lire encore",
+      "explication": "Re- : encore."
+    },
+    {
+      "consigne": "Contraire de « honnête » ?",
+      "options": [
+        "malhonnête",
+        "déhonnête",
+        "inhonnête"
+      ],
+      "reponse": "malhonnête",
+      "explication": "Avec mal-."
+    },
+    {
+      "consigne": "Contraire de « coller » ?",
+      "options": [
+        "décoller",
+        "incoller",
+        "malcoller"
+      ],
+      "reponse": "décoller",
+      "explication": "Avec dé-."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 18,
+      "extrait": "L’élève identifie un sens négatif dans les préfixes dé-, mal-,",
+      "appui": "Préfixes négatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

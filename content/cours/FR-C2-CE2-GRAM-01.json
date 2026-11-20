@@ -1,0 +1,115 @@
+{
+  "competence": "FR-C2-CE2-GRAM-01",
+  "duree": 8,
+  "essentiel": "Les classes de mots : déterminant, nom, adjectif, verbe, pronom, adverbe.\nL’adverbe précise un verbe ou un adjectif : très, vite, souvent.\nIl ne change jamais.",
+  "parties": [
+    {
+      "titre": "Classer les mots",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Déterminant",
+              "definition": "Petit mot placé devant le nom : le, une, des, mon, cette."
+            },
+            {
+              "mot": "Adjectif",
+              "definition": "Mot qui dit comment est le nom : petit, rouge, gentil."
+            },
+            {
+              "mot": "Pronom",
+              "definition": "Mot qui remplace un nom : il, elle, ils, elles."
+            },
+            {
+              "mot": "Adverbe",
+              "definition": "Mot invariable qui précise un verbe ou un adjectif : vite, très."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Lis : « Léa court très vite. »",
+          "exemples": [
+            "Léa : nom propre.",
+            "court : verbe.",
+            "très, vite : adverbes."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Il parle doucement », « doucement » est :",
+          "options": [
+            "un adverbe",
+            "un adjectif",
+            "un nom"
+          ],
+          "reponse": "un adverbe",
+          "explication": "Il précise comment il parle."
+        }
+      ]
+    },
+    {
+      "titre": "Adjectif ou adverbe ?",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour les distinguer",
+          "etapes": [
+            "L’adjectif accompagne un nom et s’accorde.",
+            "L’adverbe précise un verbe ou un adjectif.",
+            "L’adverbe ne s’accorde jamais."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde l’adverbe : elles courent vites.",
+          "correction": "Vite est un adverbe : elles courent vite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot est un adverbe ?",
+      "options": [
+        "souvent",
+        "soleil",
+        "souriant"
+      ],
+      "reponse": "souvent",
+      "explication": "Il est invariable."
+    },
+    {
+      "consigne": "Dans « une très belle fleur », « belle » est :",
+      "options": [
+        "un adjectif",
+        "un adverbe",
+        "un verbe"
+      ],
+      "reponse": "un adjectif",
+      "explication": "Il précise le nom fleur."
+    },
+    {
+      "consigne": "Dans « Nous mangeons », « Nous » est :",
+      "options": [
+        "un pronom",
+        "un nom",
+        "un déterminant"
+      ],
+      "reponse": "un pronom",
+      "explication": "Il remplace des personnes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "verbe, le pronom personnel sujet et l’adverbe.",
+      "appui": "Classes de mots au CE2"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

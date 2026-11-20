@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C2-CE2-LECT-05",
+  "duree": 6,
+  "essentiel": "Certaines lettres s’écrivent mais ne s’entendent pas : ils chantent, le lait.\nÀ l’oral, on fait parfois une liaison : les amis se dit « lé-z-amis ».\nLa liaison se fait devant une voyelle.",
+  "parties": [
+    {
+      "titre": "Les lettres muettes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis à voix haute.",
+          "exemples": [
+            "Ils chantent : on n’entend pas -ent.",
+            "Le lait : on n’entend pas le t.",
+            "Un chat : on n’entend pas le t."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « ils jouent », on entend :",
+          "options": [
+            "jou",
+            "jouent",
+            "jou-ent"
+          ],
+          "reponse": "jou",
+          "explication": "Le -ent est muet."
+        }
+      ]
+    },
+    {
+      "titre": "Les liaisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Liaisons",
+          "colonnes": [
+            "Écrit",
+            "On dit"
+          ],
+          "lignes": [
+            [
+              "les amis",
+              "lé-z-amis"
+            ],
+            [
+              "un enfant",
+              "un-n-enfant"
+            ],
+            [
+              "petit ours",
+              "peti-t-ours"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On fait la liaison devant une consonne : les-z-chats.",
+          "correction": "Pas de liaison devant une consonne : les chats."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où fait-on une liaison ?",
+      "options": [
+        "les oiseaux",
+        "les chiens",
+        "les tables"
+      ],
+      "reponse": "les oiseaux",
+      "explication": "Oiseaux commence par une voyelle."
+    },
+    {
+      "consigne": "Quelle lettre de « chat » est muette ?",
+      "options": [
+        "t",
+        "c",
+        "h"
+      ],
+      "reponse": "t",
+      "explication": "Le t ne s’entend pas."
+    },
+    {
+      "consigne": "Comment se dit « deux enfants » ?",
+      "options": [
+        "deu-z-enfants",
+        "deu-enfants",
+        "deu-t-enfants"
+      ],
+      "reponse": "deu-z-enfants",
+      "explication": "Le x se prononce z."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 7,
+      "extrait": "Repérer les lettres muettes et décoder les mots inconnus",
+      "appui": "Lettres muettes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

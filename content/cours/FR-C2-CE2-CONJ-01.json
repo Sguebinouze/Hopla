@@ -1,0 +1,197 @@
+{
+  "competence": "FR-C2-CE2-CONJ-01",
+  "duree": 9,
+  "essentiel": "Au présent, la terminaison change avec le sujet.\nFaire : je fais, nous faisons, vous faites, ils font.\nAller : je vais, nous allons, ils vont.\nPrendre : je prends, nous prenons, ils prennent.",
+  "parties": [
+    {
+      "titre": "Des verbes à connaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent de verbes fréquents",
+          "colonnes": [
+            "Sujet",
+            "faire",
+            "aller",
+            "dire",
+            "venir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "fais",
+              "vais",
+              "dis",
+              "viens"
+            ],
+            [
+              "tu",
+              "fais",
+              "vas",
+              "dis",
+              "viens"
+            ],
+            [
+              "il, elle, on",
+              "fait",
+              "va",
+              "dit",
+              "vient"
+            ],
+            [
+              "nous",
+              "faisons",
+              "allons",
+              "disons",
+              "venons"
+            ],
+            [
+              "vous",
+              "faites",
+              "allez",
+              "dites",
+              "venez"
+            ],
+            [
+              "ils, elles",
+              "font",
+              "vont",
+              "disent",
+              "viennent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : vous … vos devoirs.",
+          "options": [
+            "faites",
+            "faisez",
+            "fait"
+          ],
+          "reponse": "faites",
+          "explication": "Vous faites, comme vous dites."
+        }
+      ]
+    },
+    {
+      "titre": "Pouvoir, voir, vouloir, prendre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent",
+          "colonnes": [
+            "Sujet",
+            "pouvoir",
+            "voir",
+            "vouloir",
+            "prendre"
+          ],
+          "lignes": [
+            [
+              "je",
+              "peux",
+              "vois",
+              "veux",
+              "prends"
+            ],
+            [
+              "tu",
+              "peux",
+              "vois",
+              "veux",
+              "prends"
+            ],
+            [
+              "il, elle, on",
+              "peut",
+              "voit",
+              "veut",
+              "prend"
+            ],
+            [
+              "nous",
+              "pouvons",
+              "voyons",
+              "voulons",
+              "prenons"
+            ],
+            [
+              "vous",
+              "pouvez",
+              "voyez",
+              "voulez",
+              "prenez"
+            ],
+            [
+              "ils, elles",
+              "peuvent",
+              "voient",
+              "veulent",
+              "prennent"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je peut » ou « tu veut ».",
+          "correction": "Avec je et tu : je peux, tu veux. Le t est pour il."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : ils … le bus.",
+          "options": [
+            "prennent",
+            "prenent",
+            "prends"
+          ],
+          "reponse": "prennent",
+          "explication": "Deux n : ils prennent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : nous … au cinéma.",
+      "options": [
+        "allons",
+        "vont",
+        "allez"
+      ],
+      "reponse": "allons",
+      "explication": "Aller avec nous."
+    },
+    {
+      "consigne": "Complète : elle … la vérité.",
+      "options": [
+        "dit",
+        "dis",
+        "disent"
+      ],
+      "reponse": "dit",
+      "explication": "Avec elle : dit."
+    },
+    {
+      "consigne": "Complète : je … venir.",
+      "options": [
+        "veux",
+        "veut",
+        "voulons"
+      ],
+      "reponse": "veux",
+      "explication": "Avec je : veux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 22,
+      "extrait": "(faire, aller, dire, venir, pouvoir, voir, vouloir, prendre).",
+      "appui": "Verbes du 3e groupe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

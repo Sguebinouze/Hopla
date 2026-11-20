@@ -1,0 +1,123 @@
+{
+  "competence": "FR-C2-CE2-LEX-02",
+  "duree": 6,
+  "essentiel": "Une famille de mots partage le même radical.\nObservation, observer, observable : un nom, un verbe, un adjectif.\nLa famille aide à comprendre et à écrire un mot.",
+  "parties": [
+    {
+      "titre": "Trouver la partie commune",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Famille de mots",
+              "definition": "Mots formés à partir du même radical : dent, dentiste, dentier."
+            },
+            {
+              "mot": "Radical",
+              "definition": "Début du verbe, qui ne change pas : chant- dans chanter."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Regarde ces mots.",
+          "exemples": [
+            "dent, dentiste, dentifrice",
+            "La partie commune est dent."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot est de la famille de « terre » ?",
+          "options": [
+            "terrain",
+            "tarte",
+            "tirer"
+          ],
+          "reponse": "terrain",
+          "explication": "Même radical : terr-."
+        }
+      ]
+    },
+    {
+      "titre": "Classer la famille",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une famille",
+          "colonnes": [
+            "Nom",
+            "Verbe",
+            "Adjectif"
+          ],
+          "lignes": [
+            [
+              "observation",
+              "observer",
+              "observable"
+            ],
+            [
+              "la danse",
+              "danser",
+              "dansant"
+            ],
+            [
+              "la peinture",
+              "peindre",
+              "peint"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On met « chapeau » dans la famille de « chat ».",
+          "correction": "Le sens n’a rien à voir. Une famille partage aussi le sens."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot n’est pas de la famille de « fleur » ?",
+      "options": [
+        "flèche",
+        "fleuriste",
+        "fleurir"
+      ],
+      "reponse": "flèche",
+      "explication": "Flèche n’a pas le même sens."
+    },
+    {
+      "consigne": "Le verbe de la famille de « jardin » est :",
+      "options": [
+        "jardiner",
+        "jardinier",
+        "jardinage"
+      ],
+      "reponse": "jardiner",
+      "explication": "Jardiner est un verbe."
+    },
+    {
+      "consigne": "Quel est le radical de « chanteur » ?",
+      "options": [
+        "chant",
+        "eur",
+        "chanteu"
+      ],
+      "reponse": "chant",
+      "explication": "Le radical chant- se retrouve dans chanter et chanson."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 19,
+      "extrait": "Il opère des dérivations en identifiant la partie commune",
+      "appui": "Familles de mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
