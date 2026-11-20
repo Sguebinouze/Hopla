@@ -21,14 +21,18 @@ LICENCES = {'domaine-public': 'domaine public', 'CC0': 'CC0', 'CC-BY-2.0': 'CC B
 
 
 def webp(source, destination):
-    image = Image.open(source).convert('RGB')
-    image.thumbnail((960, 960))
-    for qualite in (80, 72, 64, 56, 48):
-        tampon = io.BytesIO()
-        image.save(tampon, 'WEBP', quality=qualite, method=6)
-        if tampon.tell() <= 150 * 1024:
-            break
-    open(destination, 'wb').write(tampon.getvalue())
+    """WebP de 150 Ko au plus : qualité d'abord, puis taille si la photo est très détaillée."""
+    origine = Image.open(source).convert('RGB')
+    for cote in (960, 800, 640):
+        image = origine.copy()
+        image.thumbnail((cote, cote))
+        for qualite in (80, 72, 64, 56):
+            tampon = io.BytesIO()
+            image.save(tampon, 'WEBP', quality=qualite, method=6)
+            if tampon.tell() <= 150 * 1024:
+                open(destination, 'wb').write(tampon.getvalue())
+                return
+    sys.exit(f'{destination} : trop lourde même réduite')
 
 
 par_question = {}

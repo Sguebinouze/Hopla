@@ -36,9 +36,10 @@ Une fiche par image dans `content/medias` : source, auteur, licence, texte alter
 
 | Source | Licence | Vente | Obligation |
 |---|---|---|---|
-| Fluent Emoji (Microsoft), réponses en images de l'anglais CP-CM2 : 63 images | MIT | Oui | Licence jointe (`/images/licence-fluent-emoji.txt`), liée depuis la page Crédits. |
+| Fluent Emoji (Microsoft), réponses en images : anglais CP-CM2, Questionner le monde, sciences du cycle 3, EMC du cycle 2 | MIT | Oui | Licence jointe (`/images/licence-fluent-emoji.txt`), liée depuis la page Crédits. |
 | Wikimedia Commons, musées en accès ouvert (Paris Musées, Met, Smithsonian, Rijksmuseum) | Domaine public, CC0, CC BY | Oui | Crédit sur la page Crédits pour CC BY. Licences SA, NC et ND écartées par le script de recherche. |
-| Natural Earth, IGN | Domaine public, Licence Ouverte 2.0 | Oui | Mention de la source pour l'IGN. |
+| Natural Earth : cartes de géographie dessinées par le dépôt (`scripts/images/cartes.py`) | Domaine public | Oui | Aucune. |
+| IGN | Licence Ouverte 2.0 | Oui | Mention de la source. Pas encore utilisé. |
 | Pexels, Unsplash, Pixabay | Licences propres, usage commercial sans crédit | Oui | Ni marque ni personne reconnaissable mise en avant. |
 | Gallica (BnF) | Réutilisation commerciale payante | Non | Écartée. |
 
