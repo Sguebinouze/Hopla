@@ -1,0 +1,214 @@
+{
+  "competence": "MA-C2-CE1-FRAC-02",
+  "duree": 8,
+  "essentiel": "Même dénominateur : le plus grand **numérateur** donne la plus grande fraction. 4/5 est plus grand que 2/5.\nNumérateur 1 : plus on coupe, plus la part est petite. 1/2 est plus grand que 1/4. 1/4 est plus grand que 1/8.",
+  "parties": [
+    {
+      "titre": "Le même nombre de parts",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ces deux barres sont coupées en 5 parts égales.",
+          "exemples": [
+            "La barre du haut a 2 parts coloriées. C’est 2/5.",
+            "La barre du bas a 4 parts coloriées. C’est 4/5."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 5,
+                "coloriees": 2,
+                "nom": "2/5"
+              },
+              {
+                "parts": 5,
+                "coloriees": 4,
+                "nom": "4/5"
+              }
+            ]
+          },
+          "legende": "Les parts ont toutes la même taille."
+        },
+        {
+          "type": "explique",
+          "texte": "Le **dénominateur** est le même : 5. Les parts ont donc la même taille. On compte les parts coloriées. 4 parts, c’est plus que 2 parts. **4/5 est plus grand que 2/5.**"
+        },
+        {
+          "type": "methode",
+          "titre": "Même dénominateur",
+          "etapes": [
+            "Regarde les dénominateurs : ils sont pareils.",
+            "Compare les **numérateurs**.",
+            "Le plus grand numérateur donne la plus grande fraction."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fraction est la plus grande : 3/8 ou 5/8 ?",
+          "options": [
+            "3/8",
+            "5/8"
+          ],
+          "reponse": "5/8",
+          "explication": "Les parts ont la même taille. 5 parts, c’est plus que 3 parts."
+        }
+      ]
+    },
+    {
+      "titre": "Une seule part",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trois amis ont chacun une pizza de même taille.",
+          "exemples": [
+            "Lina coupe sa pizza en 2 parts égales.",
+            "Sam coupe sa pizza en 4 parts égales.",
+            "Noé coupe sa pizza en 8 parts égales."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Chacun mange une part. Lina mange 1/2 de pizza. Sam mange 1/4 de pizza. Noé mange 1/8 de pizza."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 2,
+                "coloriees": 1,
+                "nom": "1/2"
+              },
+              {
+                "parts": 4,
+                "coloriees": 1,
+                "nom": "1/4"
+              },
+              {
+                "parts": 8,
+                "coloriees": 1,
+                "nom": "1/8"
+              }
+            ]
+          },
+          "legende": "Plus on coupe, plus la part est petite."
+        },
+        {
+          "type": "explique",
+          "texte": "La part de Lina est la plus grosse. **1/2 est plus grand que 1/4.** **1/4 est plus grand que 1/8.**"
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1/8 est plus grand que 1/2. Car 8 est plus grand que 2.",
+          "correction": "Le 8 dit qu’on a coupé en 8 parts. Les parts sont donc plus petites."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fraction est la plus petite : 1/3 ou 1/6 ?",
+          "options": [
+            "1/3",
+            "1/6"
+          ],
+          "reponse": "1/6",
+          "explication": "En 6 parts, les parts sont plus petites qu’en 3 parts."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger des fractions",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range du plus petit au plus grand : 3/6, 1/6, 5/6.",
+          "etapes": [
+            "Les dénominateurs sont tous 6.",
+            "On compare les numérateurs : 1, puis 3, puis 5."
+          ],
+          "conclusion": "1/6 < 3/6 < 5/6"
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range du plus grand au plus petit : 1/5, 1/2, 1/10.",
+          "etapes": [
+            "Les numérateurs sont tous 1.",
+            "Moins on coupe, plus la part est grande.",
+            "On coupe en 2, puis en 5, puis en 10."
+          ],
+          "conclusion": "1/2 > 1/5 > 1/10"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle fraction est la plus grande : 2/6, 5/6 ou 4/6 ?",
+      "options": [
+        "2/6",
+        "5/6",
+        "4/6"
+      ],
+      "reponse": "5/6",
+      "explication": "Les parts ont la même taille. 5 parts, c’est le plus de parts."
+    },
+    {
+      "consigne": "Quelle fraction est la plus grande : 1/10, 1/3 ou 1/5 ?",
+      "options": [
+        "1/10",
+        "1/3",
+        "1/5"
+      ],
+      "reponse": "1/3",
+      "explication": "En 3 parts, les parts sont les plus grosses."
+    },
+    {
+      "consigne": "Tom mange 1/4 du gâteau. Léa mange 1/8 du même gâteau. Qui mange le plus ?",
+      "options": [
+        "Tom",
+        "Léa",
+        "Autant tous les deux"
+      ],
+      "reponse": "Tom",
+      "explication": "Un quart, c’est une part sur 4. Un huitième est plus petit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 13,
+      "extrait": "Comparer des fractions ayant le même dénominateur.",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "eduscol-fractions-ce1-cm2-2025",
+      "page": 3,
+      "extrait": "Dès la période 4, les élèves apprennent à comparer des fractions dans des cas simples",
+      "appui": "Comparer en s’appuyant sur des parts dessinées"
+    },
+    {
+      "id": "eduscol-fractions-ce1-cm2-2025",
+      "page": 3,
+      "extrait": "qui se concentrent sur l’inégalité 3 < 6",
+      "appui": "Piège : 1/3 et 1/6"
+    },
+    {
+      "id": "eduscol-fractions-ce1-cm2-2025",
+      "page": 3,
+      "extrait": "Les fractions rencontrées au CE1 ont un dénominateur égal à 2, 3, 4, 5, 6, 8 ou 10.",
+      "appui": "Dénominateurs utilisés au CE1"
+    },
+    {
+      "id": "eduscol-fractions-ce1-cm2-2025",
+      "page": 4,
+      "extrait": "le dénominateur indique le nombre total de parts égales",
+      "appui": "Sens du dénominateur et du numérateur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

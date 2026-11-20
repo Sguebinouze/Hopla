@@ -1,0 +1,309 @@
+{
+  "competence": "FR-C3-6E-GRAM-01",
+  "duree": 12,
+  "essentiel": "Le **COD** complète le verbe sans préposition. Il ne se déplace pas. On le remplace par le, la, l’ ou les : « Léa le lit ».\nLe **COI** complète le verbe avec une préposition, souvent à ou de. On le remplace par lui ou leur : « Noé lui parle ».\nL’**attribut du sujet** suit un verbe d’état : être, sembler, rester. Il donne une caractéristique du sujet et s’accorde avec lui : « Ces pommes semblent mûres ».",
+  "parties": [
+    {
+      "titre": "Le complément d’objet direct (COD)",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans chaque phrase, un groupe complète le verbe. Il désigne ce qui subit l’action.",
+          "exemples": [
+            "« Le chat attrape une souris. »",
+            "« Nous préparons un gâteau. »",
+            "« Tom regarde ses amis. »"
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le **complément d’objet direct** (COD) complète le verbe **sans préposition**. Il désigne en général ce qui subit l’action. Dans « Le chat attrape une souris », il y a deux éléments distincts : le chat, qui agit, et la souris."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour vérifier qu’un groupe est COD",
+          "etapes": [
+            "Trouve le verbe et son sujet.",
+            "Pose la question « qu’est-ce que » ou « qui est-ce que » : « Qu’est-ce que le chat attrape ? » Une souris.",
+            "Essaie de déplacer le groupe en tête de phrase : « Une souris le chat attrape » ne se dit pas. Le COD ne se déplace pas.",
+            "Remplace-le par **le**, **la**, **l’** ou **les**, placé avant le verbe : « Le chat l’attrape »."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Chaque matin, Léa nourrit ses poules. »",
+          "etapes": [
+            "Le verbe est nourrit. Son sujet est Léa.",
+            "« Chaque matin » se déplace : « Léa nourrit ses poules chaque matin ». C’est un complément circonstanciel.",
+            "« ses poules » ne se déplace pas. On peut dire « Léa les nourrit »."
+          ],
+          "conclusion": "« ses poules » est COD du verbe nourrit."
+        },
+        {
+          "type": "piege",
+          "erreur": "On cherche le COD avec la question « quoi » : « Le chat attrape quoi ? ».",
+          "correction": "Cette question marche aussi avec un attribut : « Elle est quoi ? Médecin. » Vérifie toujours le verbe, puis remplace par le, la ou les."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Mon frère range sa chambre », quel groupe est COD ?",
+          "options": [
+            "sa chambre",
+            "mon frère",
+            "range"
+          ],
+          "reponse": "sa chambre",
+          "explication": "On dit « Mon frère la range ». Le groupe suit le verbe, sans préposition."
+        }
+      ]
+    },
+    {
+      "titre": "Le complément d’objet indirect (COI)",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ces groupes complètent aussi le verbe. Regarde le petit mot qui les introduit.",
+          "exemples": [
+            "« Noé parle à sa sœur. »",
+            "« Les enfants pensent à leurs vacances. »",
+            "« Mia se souvient de cette histoire. »"
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le **complément d’objet indirect** (COI) complète le verbe à l’aide d’une **préposition**, le plus souvent **à** ou **de**. Les mots au et aux contiennent la préposition à. Le mot du contient la préposition de."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour reconnaitre un COI",
+          "etapes": [
+            "Repère la préposition juste après le verbe : à, de, au, du…",
+            "Pose la question avec la préposition : « À qui parle Noé ? » À sa sœur.",
+            "Vérifie que le groupe ne se déplace pas : « À sa sœur Noé parle » ne se dit pas.",
+            "Pour une personne, remplace-le par **lui** ou **leur** : « Noé lui parle »."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Julie prête son vélo à son cousin. »",
+          "etapes": [
+            "On prête quelque chose à quelqu’un : le verbe a deux compléments d’objet.",
+            "« son vélo » suit le verbe sans préposition. On dit « Julie le prête » : c’est le COD.",
+            "« à son cousin » commence par à. On dit « Julie lui prête son vélo » : c’est le COI."
+          ],
+          "conclusion": "Un même verbe peut avoir un COD et un COI."
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend tout groupe qui commence par « à » pour un COI : « Nous déjeunons à midi ».",
+          "correction": "« À midi » se déplace : « À midi, nous déjeunons ». C’est un complément circonstanciel de temps."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Léo téléphone à sa grand-mère », quelle est la fonction de « à sa grand-mère » ?",
+          "options": [
+            "COI",
+            "COD",
+            "complément circonstanciel"
+          ],
+          "reponse": "COI",
+          "explication": "Le groupe commence par à et ne se déplace pas. On dit « Léo lui téléphone »."
+        }
+      ]
+    },
+    {
+      "titre": "L’attribut du sujet",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ici, le groupe après le verbe ne désigne pas un nouvel élément. Il parle du sujet.",
+          "exemples": [
+            "« Mon oncle est boulanger. »",
+            "« Ces pommes semblent mûres. »",
+            "« Le chemin reste glissant. »"
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "L’**attribut du sujet** dit ce qu’est le sujet, ou comment il est. Il suit un **verbe d’état** : en 6e, **être**, **sembler** et **rester**. Dans « Mon oncle est boulanger », il n’y a qu’une personne : mon oncle est le boulanger."
+        },
+        {
+          "type": "explique",
+          "texte": "L’attribut peut être un adjectif, comme « mûres », ou un nom, comme « boulanger ». Il **s’accorde avec le sujet** : dans « Ces pommes semblent mûres », mûres est au féminin pluriel, comme pommes."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour reconnaitre un attribut du sujet",
+          "etapes": [
+            "Regarde le verbe : être, sembler ou rester ?",
+            "Compte les éléments : le sujet et le groupe désignent-ils la même chose ? Si oui, c’est un attribut.",
+            "Essaie de supprimer le groupe : « Le chemin reste » ne veut plus rien dire. Un attribut ne se supprime pas."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On voit un COD dans « Mon oncle est boulanger ».",
+          "correction": "Être est un verbe d’état. Boulanger désigne le même homme que le sujet : c’est un attribut du sujet."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Ces élèves semblent fatigués », pourquoi écrit-on fatigués avec -s ?",
+          "options": [
+            "Il s’accorde avec le sujet ces élèves",
+            "Il s’accorde avec le verbe semblent",
+            "C’est un COD au pluriel"
+          ],
+          "reponse": "Il s’accorde avec le sujet ces élèves",
+          "explication": "Fatigués est attribut du sujet. Il prend le genre et le nombre de ces élèves : masculin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Distinguer les trois fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois fonctions dans le groupe verbal",
+          "colonnes": [
+            "Fonction",
+            "Après quel verbe ?",
+            "Préposition ?",
+            "Pour vérifier"
+          ],
+          "lignes": [
+            [
+              "COD",
+              "un verbe qui n’est pas d’état",
+              "non",
+              "le, la, les : « Léa le lit »"
+            ],
+            [
+              "COI",
+              "un verbe qui n’est pas d’état",
+              "oui : à, de…",
+              "lui, leur : « Noé lui parle »"
+            ],
+            [
+              "Attribut du sujet",
+              "être, sembler, rester",
+              "non",
+              "il s’accorde avec le sujet : « Elles semblent mûres »"
+            ]
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Pendant l’orage, le chien reste calme. »",
+          "etapes": [
+            "Le verbe est reste : c’est un verbe d’état.",
+            "« Pendant l’orage » se déplace : « Le chien reste calme pendant l’orage ». C’est un complément circonstanciel.",
+            "« calme » dit comment est le chien. Il n’y a qu’un élément : le chien."
+          ],
+          "conclusion": "« calme » est attribut du sujet le chien."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Les enfants ressemblent à leur père », quelle est la fonction de « à leur père » ?",
+          "options": [
+            "COI",
+            "attribut du sujet",
+            "COD"
+          ],
+          "reponse": "COI",
+          "explication": "Ressembler n’est pas un verbe d’état. On ressemble à quelqu’un : « Ils lui ressemblent ». C’est un COI."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Mes parents achètent une voiture », quelle est la fonction de « une voiture » ?",
+      "options": [
+        "COD",
+        "COI",
+        "attribut du sujet"
+      ],
+      "reponse": "COD",
+      "explication": "Il n’y a pas de préposition. On peut dire « Mes parents l’achètent ». C’est un COD."
+    },
+    {
+      "consigne": "Dans « Cette histoire semble étrange », quelle est la fonction de « étrange » ?",
+      "options": [
+        "attribut du sujet",
+        "COD",
+        "COI"
+      ],
+      "reponse": "attribut du sujet",
+      "explication": "Sembler est un verbe d’état. Étrange dit comment est l’histoire : c’est un attribut du sujet."
+    },
+    {
+      "consigne": "Dans « Nous discutons de nos projets », quelle est la fonction de « de nos projets » ?",
+      "options": [
+        "COI",
+        "COD",
+        "complément circonstanciel"
+      ],
+      "reponse": "COI",
+      "explication": "Le groupe commence par de et ne se déplace pas. On discute de quelque chose : c’est un COI."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Opposer et distinguer attribut du sujet et complément d’objet direct (COD)",
+      "appui": "Ce que l’élève de 6e doit savoir faire"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 33,
+      "extrait": "on se limitera au cycle 3 à être, rester et sembler",
+      "appui": "Verbes d’état étudiés en 6e"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 36,
+      "extrait": "l’attribut du sujet n’introduit pas de nouvelle entité",
+      "appui": "Attribut : un seul élément, COD : deux éléments"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 37,
+      "extrait": "le COD peut être un groupe nominal (Lisa mange un gâteau) ou un pronom",
+      "appui": "Remplacement du COD par un pronom"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 33,
+      "extrait": "le COI peut être un groupe nominal prépositionnel",
+      "appui": "COI avec préposition, remplacé par lui ou leur"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 37,
+      "extrait": "l’attribut du sujet s’accorde en genre et en nombre avec le sujet",
+      "appui": "Accord de l’attribut"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 38,
+      "extrait": "Contrairement aux CC, ils ne peuvent pas être facilement déplacés",
+      "appui": "Test du déplacement"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 39,
+      "extrait": "doit être évitée ou maniée avec prudence",
+      "appui": "Piège de la question « quoi »"
+    },
+    {
+      "id": "eduscol-grammaire-cp-6e",
+      "page": 39,
+      "extrait": "les attributs du sujet ne sont pas effaçables",
+      "appui": "Test de la suppression pour l’attribut"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

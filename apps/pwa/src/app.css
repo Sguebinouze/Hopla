@@ -561,3 +561,13 @@ body.avec-clavier main { padding-bottom: 340px; }
 .lecon__corps { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
 .relecture__appuis { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; line-height: 20px; }
 .relecture__a-verifier { color: var(--attention); font-weight: 700; }
+/* Sur téléphone, chaque ligne du tableau devient une fiche : plus de défilement horizontal. */
+@media (max-width: 560px) {
+  .cours__tableau thead { display: none; }
+  .cours__tableau table, .cours__tableau tbody, .cours__tableau tr, .cours__tableau th, .cours__tableau td { display: block; width: 100%; }
+  .cours__tableau tr { border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+  .cours__tableau tr + tr { margin-top: var(--space-2); }
+  .cours__tableau th, .cours__tableau td { border: 0; }
+  .cours__tableau tbody th { background: var(--lecon-doux); }
+  .cours__tableau td::before { content: attr(data-col); display: block; font-size: 12px; font-weight: 700; color: var(--ink-muted); }
+}

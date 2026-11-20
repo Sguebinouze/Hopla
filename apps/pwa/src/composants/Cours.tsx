@@ -90,7 +90,9 @@ function Bloc({ b, images }: { b: BlocCours; images: CoursPack['images'] }) {
           <table>
             {b.titre && <caption>{b.titre}</caption>}
             <thead><tr>{b.colonnes.map((c) => <th key={c} scope="col">{c}</th>)}</tr></thead>
-            <tbody>{b.lignes.map((l, i) => <tr key={i}>{l.map((x, j) => (j === 0 ? <th key={j} scope="row"><TexteRiche texte={x} /></th> : <td key={j}><AvecCitations texte={x} /></td>))}</tr>)}</tbody>
+            <tbody>{b.lignes.map((l, i) => <tr key={i}>{l.map((x, j) => (j === 0
+              ? <th key={j} scope="row"><TexteRiche texte={x} /></th>
+              : <td key={j} data-col={b.colonnes[j]}><AvecCitations texte={x} /></td>))}</tr>)}</tbody>
           </table>
         </div>
       );

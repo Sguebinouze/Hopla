@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { anneeScolaire, couvre } from './annees';
 import { chargerContenu, type Contenu } from './charger';
 import { construirePacks } from './packs';
-import { mediaSchema } from './schemas';
+import { coursSchema, mediaSchema } from './schemas';
 import { programmesApplicables, verifierContenu } from './verifier';
 
 const { contenu, erreurs } = chargerContenu();
@@ -99,6 +99,28 @@ describe('intégrité des références', () => {
     expect(appliquerRelecture(contenu, [{ type: 'media', element_id: image.id, decision: 'ok', commentaire: '' }], 'Laurent', false)
       .publies).toEqual(image.statut === 'publie' ? [] : [`image ${image.id}`]);
     expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['inconnue']);
+  });
+
+  it('cours complets : relus en brouillon, absents des packs tant qu’ils ne sont pas publiés, sources exigées', () => {
+    const k = structuredClone(contenu.cours[0]!);
+    const brouillon: Contenu = { ...contenu, cours: [{ ...k, statut: 'brouillon', relu_par: null }] };
+    const n = construireRelecture(brouillon).find((x) => x.id === k.competence)!;
+    expect(n.cours!.parties.length).toBe(k.parties.length);
+    expect(n.cours!.sources.every((s) => s.titre.length > 0)).toBe(true);
+    const classe = (id: string) => construirePacks(id === 'brouillon' ? brouillon : publie, '2026-2027');
+    const publie: Contenu = { ...contenu, cours: [{ ...k, statut: 'publie', relu_par: 'Laurent' }] };
+    const trouver = (packs: ReturnType<typeof construirePacks>) =>
+      packs.flatMap((p) => p.matieres.flatMap((m) => m.competences)).find((c) => c.id === k.competence);
+    expect(trouver(classe('brouillon'))?.cours ?? null).toBeNull();
+    expect(trouver(classe('publie'))?.cours?.parties.length).toBe(k.parties.length);
+    // Une source inconnue, une réponse hors des options : refusées.
+    const faux = structuredClone(k);
+    faux.sources.push({ id: 'source-inconnue', page: null, extrait: null, appui: 'test' });
+    faux.a_toi[0]!.reponse = 'hors options';
+    const messages = erreursDe({ ...contenu, cours: [faux] }).map((e) => e.message).join('\n');
+    expect(messages).toMatch(/source inconnue : source-inconnue/);
+    expect(messages).toMatch(/la réponse ne fait pas partie des options/);
+    expect(coursSchema.safeParse({ ...k, statut: 'publie', relu_par: 'Laurent', sources: [{ ...k.sources[0]!, page: null }] }).success).toBe(false);
   });
 
   it('refuse un défi de fluence dont le générateur ne couvre pas la compétence', () => {
