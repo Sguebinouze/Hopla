@@ -72,3 +72,27 @@ export function groupeLu(groupe: string): string {
   const texte = `${avant}${mots.trim()}`;
   return fin.length ? `${texte}, ${fin.join(', ')}.` : `${texte}.`;
 }
+
+const ABREVIATIONS = /^(M|Mme|Mlle|Mgr|Dr|St|Ste)\.$/;
+
+/**
+ * Mots écrits au tableau avant la dictée, comme en classe : les noms propres, qu'on ne devine pas
+ * à l'oreille. Repérés par leur majuscule hors début de phrase (« M. Seguin » compris) ; un nom propre
+ * en début de phrase ne se repère pas ainsi : la fiche de la dictée le donne dans `tableau`.
+ */
+export function nomsPropres(texte: string): string[] {
+  const mots = texte.replace(/[\u00a0\u202f]/g, ' ').split(/\s+/).filter(Boolean);
+  const noms: string[] = [];
+  mots.forEach((brut, i) => {
+    const mot = brut.replace(/^[«"(]+|[»",.;:!?…)]+$/g, '');
+    // Le mot d'avant, guillemet fermant sauté : « … ! » Puis…
+    const precedent = (mots[i - 1] === '»' ? mots[i - 2] : mots[i - 1]) ?? '';
+    const apresAbreviation = ABREVIATIONS.test(precedent);
+    const debutPhrase = !apresAbreviation && (i === 0 || /[.!?…:]»?$/.test(precedent) || precedent === '«' || /^«/.test(brut));
+    if (debutPhrase || !/^\p{Lu}/u.test(mot)) return;
+    const nom = apresAbreviation ? `${precedent} ${mot}` : mot;
+    if (!noms.includes(nom)) noms.push(nom);
+  });
+  return noms;
+}
+

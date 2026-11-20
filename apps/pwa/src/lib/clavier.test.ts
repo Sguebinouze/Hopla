@@ -1,6 +1,6 @@
 import { normaliserReponse } from '@hopla/generateurs';
 import { describe, expect, it } from 'vitest';
-import { appliquerTouche, LONGUEUR_MAX, LONGUEUR_MAX_TEXTE, modeClavier, toucheDuClavierPhysique } from './clavier';
+import { appliquerTouche, LONGUEUR_MAX, modeClavier, toucheDuClavierPhysique } from './clavier';
 
 const taper = (touches: string[]) => touches.reduce((v, t) => appliquerTouche(v, t), '');
 
@@ -31,17 +31,5 @@ describe('clavier intégré', () => {
     expect(toucheDuClavierPhysique('A')).toBe('a');
     expect(toucheDuClavierPhysique('Enter')).toBe('valider');
     expect(toucheDuClavierPhysique('Shift')).toBeNull();
-  });
-  it('mode texte : majuscules, ponctuation, trait d’union, longueur de dictée', () => {
-    const t = (touches: string[]) => touches.reduce((v, x) => appliquerTouche(v, x, true), '');
-    expect(t(['I', 'l', 'espace', 'p', 'l', 'e', 'u', 't', '.'])).toBe('Il pleut.');
-    expect(t(['a', '−', 't', '−', 'i', 'l'])).toBe('a-t-il');
-    expect(t(Array(LONGUEUR_MAX + 5).fill('a'))).toHaveLength(LONGUEUR_MAX + 5);
-    expect(t(Array(LONGUEUR_MAX_TEXTE + 5).fill('a'))).toHaveLength(LONGUEUR_MAX_TEXTE);
-    expect(toucheDuClavierPhysique('A', true)).toBe('A');
-    expect(toucheDuClavierPhysique('.', true)).toBe('.');
-    expect(toucheDuClavierPhysique('-', true)).toBe('-');
-    expect(toucheDuClavierPhysique("'", true)).toBe('’');
-    expect(toucheDuClavierPhysique('Shift', true)).toBeNull();
   });
 });

@@ -1,5 +1,5 @@
 import { GENERATEURS } from '@hopla/generateurs';
-import { decouperDictee, decouperLangues, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
+import { decouperDictee, decouperLangues, nomsPropres, type LangueEtudiee, type Lexique, type Passage } from '@hopla/redaction';
 import type { Contenu } from './charger';
 import { CLASSES, CYCLE_DE, type Classe, type Defi, type Dictee, type Exercice, type Lecon, type QuestionCulture } from './schemas';
 import { programmesApplicables } from './verifier';
@@ -50,6 +50,10 @@ export interface DicteePack {
   groupes: string[];
   source: string;
   credit: string | null;
+  /** Points à vérifier à la correction (« Accords : petit(s) »). */
+  points: string[];
+  /** Mots écrits au tableau avant la dictée : noms propres. */
+  tableau: string[];
 }
 
 const sourceDictee = (d: Dictee) =>
@@ -136,7 +140,8 @@ export function construirePacks(
               return l ? { exemple: l.exemple, regle: l.regle, piege: l.piege, essai: l.essai, statut: l.statut } : null;
             })(),
             dictees: dictees.filter((d) => d.competence === c.id && d.classe === classe).map((d) => ({
-              id: d.id, titre: d.titre, texte: d.texte, groupes: decouperDictee(d.texte), source: sourceDictee(d), credit: d.credit,
+              id: d.id, titre: d.titre, texte: d.texte, groupes: decouperDictee(d.texte), source: sourceDictee(d), credit: d.credit, points: d.points,
+              tableau: d.tableau ?? nomsPropres(d.texte),
             })),
           })),
         };

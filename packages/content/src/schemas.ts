@@ -197,6 +197,8 @@ export const dicteeSchema = z
     licence: z.enum(LICENCES_DICTEE),
     credit: z.string().nullable(),
     // Points d'orthographe à observer (accords, terminaisons, lettres muettes), quand la source les donne.
+    /** Mots écrits au tableau (noms propres) ; absent : repérés dans le texte (nomsPropres). */
+    tableau: z.array(z.string().min(1)).optional(),
     points: z.array(z.string()),
     statut: z.enum(['brouillon', 'relu', 'publie']),
     auteur: z.enum(['humain', 'ia']),

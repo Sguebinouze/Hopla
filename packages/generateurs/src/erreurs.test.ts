@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { ERREURS, ERREURS_DICTEE } from './erreurs';
+import { ERREURS } from './erreurs';
 import { GENERATEURS } from './index';
 import { DIFFICULTES } from './oracles';
 
@@ -21,13 +21,6 @@ describe('dictionnaire des erreurs', () => {
       expect(libelle.length, libelle).toBeLessThanOrEqual(60);
       expect(libelle).not.toMatch(/—/);
       expect(utilises.has(code), `${code} n’est utilisé par aucun générateur`).toBe(true);
-    }
-  });
-  it('les codes de dictée sont courts et distincts de ceux des générateurs', () => {
-    for (const [code, libelle] of Object.entries(ERREURS_DICTEE)) {
-      expect(code).toMatch(/^dictee(-[a-z0-9]+)+$/);
-      expect(libelle.length, libelle).toBeLessThanOrEqual(60);
-      expect(code in ERREURS).toBe(false);
     }
   });
 });

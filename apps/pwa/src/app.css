@@ -485,21 +485,32 @@ body.avec-clavier main { padding-bottom: 340px; }
   body.avec-clavier main { padding-bottom: 400px; }
 }
 
-/* Dictée : écran de plusieurs lignes, majuscule active, rangée de ponctuation. */
-.clavier__ecran--texte { display: block; min-height: 120px; max-height: 30vh; overflow-y: auto; align-items: initial;
-  font-family: var(--font-text); font-weight: 400; font-size: 20px; line-height: 30px; white-space: pre-wrap; }
-.clavier__ecran--texte .clavier__curseur { display: inline-block; height: 22px; vertical-align: -4px; }
-.clavier__touche--active { background: var(--primary-soft); border-color: var(--primary); color: var(--primary-strong); }
-.clavier__touches--lettres .clavier__touche--ponctuation { background: var(--surface-2); }
+/* Dictée sur papier : tableau (titre, noms propres), réglages, état de la lecture, texte de correction. */
 .dictee { gap: var(--space-3); }
-.dictee__debut, .dictee__correction { display: flex; flex-direction: column; gap: var(--space-3); }
-.dictee__actions { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-.dictee__types { display: flex; flex-wrap: wrap; gap: var(--space-1); }
-.dictee__texte { margin: 0; padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-1);
-  font-size: 20px; line-height: 34px; }
-.dictee__ecrit { color: var(--ink-muted); text-decoration-color: var(--attention); text-decoration-thickness: 2px; }
-.dictee__bon { padding: 0 1px; border-radius: 4px; background: var(--attention-soft); color: var(--ink); font-weight: 600; }
+.dictee__bloc { display: flex; flex-direction: column; gap: var(--space-3); }
+.dictee__tableau { display: flex; flex-direction: column; gap: var(--space-1); }
+.dictee__tableau .titre-2 { margin: 0; }
+.dictee__noms { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 20px; }
+.dictee__reglage { margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.dictee__reglage legend { padding: 0; margin-bottom: var(--space-2); font-family: var(--font-display); font-weight: 600; font-size: 18px; }
+.dictee__choix { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-2); }
+.dictee__choix .hp-option { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-1); min-height: 0; padding: var(--space-3); }
+.dictee__choix .hp-option .muet { font-family: var(--font-text); font-weight: 400; font-size: 15px; line-height: 21px; }
+.dictee__etat { font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 40px; text-align: center; padding: var(--space-4) 0; }
+.dictee__temps { height: 10px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.dictee__temps span { display: block; height: 100%; background: var(--primary); transform-origin: left; animation: dictee-temps linear forwards; }
+@keyframes dictee-temps { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+.dictee__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
+.dictee__texte { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-1); }
+.dictee__texte .titre-3 { margin: 0 0 var(--space-2); text-align: center; }
+.dictee__texte p { margin: 0; font-size: 20px; line-height: 32px; }
+.dictee__points dl { margin: 0; display: flex; flex-direction: column; gap: var(--space-1); }
+.dictee__points dt { font-weight: 600; }
+.dictee__points dd { margin: 0; }
+.dictee__compte { display: grid; grid-template-columns: repeat(auto-fit, minmax(64px, 1fr)); gap: var(--space-2); }
+.dictee__compte .hp-option { min-width: 0; padding: 0 var(--space-2); }
 .dictee__source { margin: 0; font-size: 13px; line-height: 18px; }
+@media (prefers-reduced-motion: reduce) { .dictee__temps { display: none; } }
 /* Images des questions : une illustration sous la consigne, ou une image par réponse. */
 .illustration { margin: 0; display: flex; justify-content: center; }
 .illustration img { display: block; max-width: 100%; max-height: 32vh; border-radius: var(--radius-md); object-fit: contain; background: var(--surface-1); }

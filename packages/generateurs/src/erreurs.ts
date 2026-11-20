@@ -1,16 +1,6 @@
 // Erreurs typiques repérées par les options piège des QCM : code stable (kebab-case) → libellé court pour le
 // parent (60 caractères au plus). L'espace parent affiche ce libellé à la place du code.
 // Un code ajouté dans un générateur doit figurer ici ; le test `erreurs.test.ts` le vérifie.
-// Erreurs relevées par la correction d'une dictée (mot à mot), hors générateurs.
-export const ERREURS_DICTEE: Record<string, string> = {
-  'dictee-accords': 'Oublie des accords ou des terminaisons en dictée',
-  'dictee-accents': 'Oublie ou se trompe d’accents en dictée',
-  'dictee-majuscules': 'Oublie des majuscules en dictée',
-  'dictee-orthographe': 'Écrit des mots de façon erronée en dictée',
-  'dictee-oublis': 'Oublie ou ajoute des mots en dictée',
-  'dictee-ponctuation': 'Oublie la ponctuation en dictée',
-};
-
 export const ERREURS: Record<string, string> = {
   // Géométrie plane et solides (CE1 à CM2)
   'cercle-disque-confondus': 'Confond le cercle (le bord) et le disque',

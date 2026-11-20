@@ -17,7 +17,8 @@ const CHEMINS = {
   ),
   coche: <path d="M5 12l5 5 9-10" />,
   plus: <path d="M12 5v14M5 12h14" />,
-  majuscule: <path d="M12 4l-7 8h4v7h6v-7h4l-7-8z" />,
+  pause: <path d="M9 5v14M15 5v14" />,
+  lecture: <path d="M7 4.5l12 7.5-12 7.5v-15z" />,
   'haut-parleur': (
     <>
       <path d="M4 9v6h4l5 4V5L8 9H4z" />

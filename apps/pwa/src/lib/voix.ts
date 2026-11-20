@@ -44,6 +44,12 @@ export function aUneVoix(texte: string, langue: Langue = 'fr-FR'): boolean {
     : enregistres.has(cheminAudio(langue, texte));
 }
 
+/** Vitesse de lecture (1 : normale). Le ton de la voix ne change pas. */
+let vitesse = 1;
+export function reglerVitesse(v: number) {
+  vitesse = v;
+}
+
 // File de lecture : un texte après l'autre (consigne puis phrase d'écoute). `tour` invalide
 // les rappels d'une lecture interrompue.
 let file: { texte: string; langue: Langue; surFin?: () => void }[] = [];
@@ -79,6 +85,8 @@ function suivant() {
     fin();
   };
   lecteur.src = `${BASE_AUDIO}/${chemin}`;
+  lecteur.defaultPlaybackRate = vitesse;
+  lecteur.playbackRate = vitesse;
   prechargerSuivant();
   lecteur.play().catch((e: unknown) => {
     if ((e as { name?: string })?.name !== 'AbortError') fin();
@@ -87,10 +95,14 @@ function suivant() {
 
 /**
  * Lit un texte à voix haute ; coupe la lecture en cours, sauf si `ensuite` (le texte suit la lecture en cours).
- * Sans voix enregistrée, rien n'est lu.
+ * Sans voix enregistrée, rien n'est lu ; `surFin` est appelé quand même, pour qu'un enchainement
+ * (dictée) ne reste pas bloqué sur un fichier manquant.
  */
 export function dire(texte: string, surFin?: () => void, langue: Langue = 'fr-FR', ensuite = false) {
-  if (!aUneVoix(texte, langue)) return;
+  if (!aUneVoix(texte, langue)) {
+    if (surFin) window.setTimeout(surFin, 0);
+    return;
+  }
   if (!ensuite) taire();
   const passages = langue === 'fr-FR' ? passagesDe.get(texte) : undefined;
   if (passages) passages.forEach((p, i) => file.push({ ...p, surFin: i === passages.length - 1 ? surFin : undefined }));

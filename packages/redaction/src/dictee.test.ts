@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { decouperDictee, groupeLu } from './dictee';
+import { decouperDictee, groupeLu, nomsPropres } from './dictee';
 
 const TEXTE = 'Elles étaient parfaitement heureuses, ces bonnes petites sœurs, et leur maman les aimait tendrement ; toutes les personnes qui les connaissaient les aimaient aussi.';
 
@@ -32,3 +32,13 @@ describe('groupeLu', () => {
     expect(groupeLu('« Bonjour ! »')).toBe('ouvrez les guillemets, Bonjour, point d’exclamation, fermez les guillemets.');
   });
 });
+
+describe('nomsPropres', () => {
+  it('écrit au tableau les noms propres, pas les débuts de phrase', () => {
+    expect(nomsPropres('Ce matin, Tom enfile son bonnet et retrouve Lou dehors. Ensemble, ils jouent avec Tom.')).toEqual(['Tom', 'Lou']);
+    expect(nomsPropres('Il dit : « Bonjour, Marie ! » Puis il part.')).toEqual(['Marie']);
+    expect(nomsPropres('M. Seguin avait une chèvre. Le chat dort.')).toEqual(['M. Seguin']);
+    expect(nomsPropres('Le chat dort.')).toEqual([]);
+  });
+});
+

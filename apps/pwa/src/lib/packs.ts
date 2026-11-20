@@ -51,6 +51,10 @@ export interface DicteePack {
   groupes: string[];
   source: string;
   credit: string | null;
+  /** Points à vérifier à la correction ; absents des packs construits avant eux. */
+  points?: string[];
+  /** Mots écrits au tableau avant la dictée (noms propres). */
+  tableau?: string[];
 }
 
 /** Langues vivantes : phrase dite à l'élève dans la langue étudiée. */
