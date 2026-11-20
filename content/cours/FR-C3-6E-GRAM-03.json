@@ -1,0 +1,152 @@
+{
+  "competence": "FR-C3-6E-GRAM-03",
+  "duree": 8,
+  "essentiel": "Les conjonctions de coordination sont : mais, ou, et, donc, or, ni, car.\nElles relient deux éléments de même rang, qui pourraient exister seuls.\nLes conjonctions de subordination (quand, parce que, si, comme, lorsque, que…) introduisent une proposition qui dépend d’une autre.",
+  "parties": [
+    {
+      "titre": "Coordination",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Conjonction de coordination",
+              "definition": "Mot invariable qui relie deux mots ou deux propositions de même rang : mais, ou, et, donc, or, ni, car."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Supprime la conjonction : chaque partie tient-elle seule ?",
+          "exemples": [
+            "« Il pleut, mais je sors. » → « Il pleut. » / « Je sors. »",
+            "Les deux propositions restent des phrases : elles sont de même rang."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Pour retenir la liste : **mais, ou, et, donc, or, ni, car**."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot est une conjonction de coordination ?",
+          "options": [
+            "donc",
+            "quand",
+            "parce que"
+          ],
+          "reponse": "donc",
+          "explication": "Donc fait partie de la liste."
+        }
+      ]
+    },
+    {
+      "titre": "Subordination",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Conjonction de subordination",
+              "definition": "Mot invariable qui introduit une proposition subordonnée : quand, parce que, si, comme, lorsque, que."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Supprime la partie introduite par « parce que ».",
+          "exemples": [
+            "« Je reste parce qu’il pleut. » → « Je reste. » tient seule.",
+            "« Parce qu’il pleut. » ne tient pas seule : c’est une subordonnée."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Même sens, deux constructions",
+          "colonnes": [
+            "Conjonction",
+            "Type",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "car",
+              "coordination",
+              "Je reste, car il pleut."
+            ],
+            [
+              "parce que",
+              "subordination",
+              "Je reste parce qu’il pleut."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « car » et « parce que » ont le même rôle grammatical.",
+          "correction": "Le sens est proche, la construction diffère : car coordonne, parce que subordonne."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Si tu veux, nous jouerons », « si » est :",
+          "options": [
+            "une conjonction de subordination",
+            "une conjonction de coordination",
+            "un adverbe"
+          ],
+          "reponse": "une conjonction de subordination",
+          "explication": "Si introduit une proposition qui dépend de la principale."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle conjonction n’est pas de coordination ?",
+      "options": [
+        "lorsque",
+        "or",
+        "ni"
+      ],
+      "reponse": "lorsque",
+      "explication": "Lorsque introduit une subordonnée."
+    },
+    {
+      "consigne": "Dans « Il est fatigué, donc il se couche », « donc » est :",
+      "options": [
+        "une conjonction de coordination",
+        "une conjonction de subordination",
+        "un verbe"
+      ],
+      "reponse": "une conjonction de coordination",
+      "explication": "Donc est dans la liste mais, ou, et, donc, or, ni, car."
+    },
+    {
+      "consigne": "Quelle phrase contient une subordonnée ?",
+      "options": [
+        "Je sais que tu viendras.",
+        "Tu viens et je pars.",
+        "Viens, je pars."
+      ],
+      "reponse": "Je sais que tu viendras.",
+      "explication": "Que introduit une proposition subordonnée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Distinguer le rôle de la conjonction de coordination et celui de la conjonction de subordination",
+      "appui": "Conjonctions"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Approfondir les notions de juxtaposition, de coordination, de subordination",
+      "appui": "Juxtaposition, coordination, subordination"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

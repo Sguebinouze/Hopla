@@ -1,0 +1,135 @@
+{
+  "competence": "FR-C3-6E-VOC-01",
+  "duree": 6,
+  "essentiel": "Un antonyme est un mot de sens contraire, de la même classe grammaticale.\nRapide (adjectif) → lent (adjectif). Rapidement (adverbe) → lentement (adverbe).\nUn synonyme a un sens proche, lui aussi de la même classe.",
+  "parties": [
+    {
+      "titre": "Respecter la classe du mot",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Antonyme",
+              "definition": "Mot de sens contraire, de la même classe grammaticale."
+            },
+            {
+              "mot": "Synonyme",
+              "definition": "Mot de même classe grammaticale et de sens très proche."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Antonymes de même classe",
+          "colonnes": [
+            "Mot",
+            "Classe",
+            "Antonyme"
+          ],
+          "lignes": [
+            [
+              "monter",
+              "verbe",
+              "descendre"
+            ],
+            [
+              "la joie",
+              "nom",
+              "la tristesse"
+            ],
+            [
+              "généreux",
+              "adjectif",
+              "avare"
+            ],
+            [
+              "souvent",
+              "adverbe",
+              "rarement"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Le contraire de « rapide » serait « lentement ».",
+          "correction": "Rapide est un adjectif, lentement un adverbe. L’antonyme est lent."
+        },
+        {
+          "type": "question",
+          "consigne": "Antonyme de « la victoire » ?",
+          "options": [
+            "la défaite",
+            "perdre",
+            "vaincu"
+          ],
+          "reponse": "la défaite",
+          "explication": "Un nom pour un nom."
+        }
+      ]
+    },
+    {
+      "titre": "Former un antonyme",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Certains antonymes se forment avec un préfixe : **in-** (inutile), **im-** (impossible), **dés-** (désordre), **mal-** (malhonnête)."
+        },
+        {
+          "type": "question",
+          "consigne": "Antonyme de « honnête » ?",
+          "options": [
+            "malhonnête",
+            "inhonnête",
+            "déshonnête"
+          ],
+          "reponse": "malhonnête",
+          "explication": "Le préfixe mal- forme ce contraire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Antonyme de « accepter » ?",
+      "options": [
+        "refuser",
+        "refus",
+        "accord"
+      ],
+      "reponse": "refuser",
+      "explication": "Un verbe pour un verbe."
+    },
+    {
+      "consigne": "Synonyme de « effrayé » ?",
+      "options": [
+        "apeuré",
+        "peur",
+        "effrayer"
+      ],
+      "reponse": "apeuré",
+      "explication": "Un adjectif pour un adjectif."
+    },
+    {
+      "consigne": "Antonyme de « légal » ?",
+      "options": [
+        "illégal",
+        "inlégal",
+        "délégal"
+      ],
+      "reponse": "illégal",
+      "explication": "Devant l, in- devient il-."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Donner des exemples de synonymes et d’antonymes qui respectent la classe grammaticale du mot cible",
+      "appui": "Synonymes et antonymes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

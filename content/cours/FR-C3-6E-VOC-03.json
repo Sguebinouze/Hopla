@@ -1,0 +1,134 @@
+{
+  "competence": "FR-C3-6E-VOC-03",
+  "duree": 7,
+  "essentiel": "Un mot simple ne peut pas être découpé : terre.\nUn mot dérivé est formé d’un radical et d’un préfixe ou d’un suffixe : terrain, déterrer.\nUn mot composé réunit plusieurs mots : pomme de terre, porte-monnaie.",
+  "parties": [
+    {
+      "titre": "Trois sortes de mots",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mot dérivé",
+              "definition": "Mot formé en ajoutant un préfixe ou un suffixe à un radical : terrain, déterrer."
+            },
+            {
+              "mot": "Mot composé",
+              "definition": "Mot formé de plusieurs mots : pomme de terre, porte-monnaie."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Simple, dérivé, composé",
+          "colonnes": [
+            "Mot",
+            "Sorte",
+            "Formation"
+          ],
+          "lignes": [
+            [
+              "terre",
+              "simple",
+              "un seul élément"
+            ],
+            [
+              "terrain",
+              "dérivé",
+              "terr- + -ain"
+            ],
+            [
+              "enterrer",
+              "dérivé",
+              "en- + terr- + -er"
+            ],
+            [
+              "pomme de terre",
+              "composé",
+              "pomme + de + terre"
+            ],
+            [
+              "arc-en-ciel",
+              "composé",
+              "arc + en + ciel"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Malheureux » est un mot :",
+          "options": [
+            "dérivé",
+            "simple",
+            "composé"
+          ],
+          "reponse": "dérivé",
+          "explication": "Mal- + heureux."
+        }
+      ]
+    },
+    {
+      "titre": "Décomposer pour comprendre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour analyser un mot",
+          "etapes": [
+            "Cherche le radical, la partie qui porte le sens.",
+            "Repère un préfixe au début, un suffixe à la fin.",
+            "Plusieurs mots réunis, avec ou sans trait d’union : mot composé."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « table » est dérivé, à cause du -able.",
+          "correction": "On ne peut pas enlever -able : « t » n’est pas un mot. Table est un mot simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Chou-fleur » est un mot :",
+      "options": [
+        "composé",
+        "dérivé",
+        "simple"
+      ],
+      "reponse": "composé",
+      "explication": "Deux noms réunis."
+    },
+    {
+      "consigne": "Quel mot est dérivé de « dent » ?",
+      "options": [
+        "dentiste",
+        "dentelle",
+        "accident"
+      ],
+      "reponse": "dentiste",
+      "explication": "Dentiste : dent + -iste."
+    },
+    {
+      "consigne": "« Soleil » est un mot :",
+      "options": [
+        "simple",
+        "dérivé",
+        "composé"
+      ],
+      "reponse": "simple",
+      "explication": "On ne peut pas le découper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Différencier les mots simples, dérivés et composés",
+      "appui": "Mots simples, dérivés, composés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

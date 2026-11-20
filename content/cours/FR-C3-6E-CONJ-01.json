@@ -1,0 +1,170 @@
+{
+  "competence": "FR-C3-6E-CONJ-01",
+  "duree": 8,
+  "essentiel": "L’impératif sert à donner un ordre, un conseil ou une consigne.\nIl n’a que trois personnes et pas de sujet : chante, chantons, chantez.\nLes verbes en -er ne prennent pas de s à la 2e personne du singulier : chante, va.",
+  "parties": [
+    {
+      "titre": "Former l’impératif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Impératif présent",
+          "colonnes": [
+            "Verbe",
+            "2e sing.",
+            "1re plur.",
+            "2e plur."
+          ],
+          "lignes": [
+            [
+              "chanter",
+              "chante",
+              "chantons",
+              "chantez"
+            ],
+            [
+              "finir",
+              "finis",
+              "finissons",
+              "finissez"
+            ],
+            [
+              "prendre",
+              "prends",
+              "prenons",
+              "prenez"
+            ],
+            [
+              "être",
+              "sois",
+              "soyons",
+              "soyez"
+            ],
+            [
+              "avoir",
+              "aie",
+              "ayons",
+              "ayez"
+            ],
+            [
+              "aller",
+              "va",
+              "allons",
+              "allez"
+            ],
+            [
+              "faire",
+              "fais",
+              "faisons",
+              "faites"
+            ],
+            [
+              "dire",
+              "dis",
+              "disons",
+              "dites"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "L’impératif se forme comme le présent de l’indicatif, sans sujet. Mais les verbes en -er perdent leur s : tu chantes devient **chante**."
+        },
+        {
+          "type": "question",
+          "consigne": "Impératif de « finir » à la 2e personne du pluriel ?",
+          "options": [
+            "finissez",
+            "finisez",
+            "finirez"
+          ],
+          "reponse": "finissez",
+          "explication": "Vous finissez → finissez."
+        }
+      ]
+    },
+    {
+      "titre": "Pièges",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « Manges ta soupe ».",
+          "correction": "Verbe en -er : pas de s. Mange ta soupe."
+        },
+        {
+          "type": "explique",
+          "texte": "Devant en et y, on ajoute un s pour faire la liaison : **vas-y**, **manges-en**."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour reconnaitre l’impératif",
+          "etapes": [
+            "Cherche le sujet : il n’y en a pas.",
+            "Vérifie la personne : tu, nous ou vous.",
+            "Le sens : ordre, conseil, consigne."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle forme est correcte ?",
+          "options": [
+            "Va au tableau.",
+            "Vas au tableau.",
+            "Vat au tableau."
+          ],
+          "reponse": "Va au tableau.",
+          "explication": "Aller fait va à l’impératif."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Impératif de « être » à la 2e personne du pluriel ?",
+      "options": [
+        "soyez",
+        "êtes",
+        "soyiez"
+      ],
+      "reponse": "soyez",
+      "explication": "Être : sois, soyons, soyez."
+    },
+    {
+      "consigne": "Impératif de « regarder », 2e personne du singulier ?",
+      "options": [
+        "regarde",
+        "regardes",
+        "regardez"
+      ],
+      "reponse": "regarde",
+      "explication": "Pas de s pour un verbe en -er."
+    },
+    {
+      "consigne": "Quelle phrase est à l’impératif ?",
+      "options": [
+        "Prenez vos cahiers.",
+        "Vous prenez vos cahiers.",
+        "Prendrez-vous vos cahiers ?"
+      ],
+      "reponse": "Prenez vos cahiers.",
+      "explication": "Pas de sujet : impératif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Conjugaisons à mémoriser et à maîtriser : impératif présent, conditionnel présent des verbes être et avoir, des verbes des",
+      "appui": "Impératif présent"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Identifier les marques de temps pour le conditionnel présent et l’impératif présent",
+      "appui": "Marques de l’impératif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

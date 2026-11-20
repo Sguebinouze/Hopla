@@ -1,0 +1,149 @@
+{
+  "competence": "FR-C3-6E-GRAM-05",
+  "duree": 8,
+  "essentiel": "L’adjectif épithète est placé à côté du nom et s’accorde avec lui : une robe rouge.\nLe complément du nom est un groupe nominal introduit par une préposition : une robe de soirée.\nLes deux précisent le nom, et on peut les supprimer.",
+  "parties": [
+    {
+      "titre": "L’épithète",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Épithète",
+              "definition": "Fonction de l’adjectif placé directement à côté du nom qu’il qualifie."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Observe le groupe nominal.",
+          "exemples": [
+            "une petite maison blanche",
+            "« petite » et « blanche » sont des adjectifs épithètes.",
+            "Ils s’accordent avec maison : féminin singulier."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « un vieux château », « vieux » est :",
+          "options": [
+            "épithète",
+            "complément du nom",
+            "attribut"
+          ],
+          "reponse": "épithète",
+          "explication": "Adjectif placé à côté du nom."
+        }
+      ]
+    },
+    {
+      "titre": "Le complément du nom",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Complément du nom",
+              "definition": "Groupe introduit le plus souvent par une préposition, qui précise un nom : une robe de soirée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Groupe nominal",
+            "Expansion",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "une robe rouge",
+              "rouge (adjectif)",
+              "épithète"
+            ],
+            [
+              "une robe de soirée",
+              "de soirée (préposition + nom)",
+              "complément du nom"
+            ],
+            [
+              "un verre à pied",
+              "à pied",
+              "complément du nom"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour distinguer",
+          "etapes": [
+            "Regarde la nature du mot : adjectif ou groupe nominal ?",
+            "Cherche une préposition devant : de, à, en, sans, pour…",
+            "Adjectif seul : épithète. Préposition + nom : complément du nom."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend « de soirée » pour un adjectif épithète.",
+          "correction": "Soirée est un nom, introduit par la préposition de : c’est un complément du nom."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « une tasse en porcelaine », « en porcelaine » est :",
+          "options": [
+            "complément du nom",
+            "épithète",
+            "COD"
+          ],
+          "reponse": "complément du nom",
+          "explication": "Préposition en + nom."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « des chaussures de sport neuves », « neuves » est :",
+      "options": [
+        "épithète",
+        "complément du nom",
+        "COD"
+      ],
+      "reponse": "épithète",
+      "explication": "Adjectif accordé avec chaussures."
+    },
+    {
+      "consigne": "Dans « un moulin à vent », « à vent » est :",
+      "options": [
+        "complément du nom",
+        "épithète",
+        "attribut"
+      ],
+      "reponse": "complément du nom",
+      "explication": "Préposition à + nom vent."
+    },
+    {
+      "consigne": "Quel groupe contient un complément du nom ?",
+      "options": [
+        "la porte du jardin",
+        "la porte verte",
+        "la grande porte"
+      ],
+      "reponse": "la porte du jardin",
+      "explication": "Du = de + le : préposition + nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Identifier et différencier sans ambigüité adjectif/groupe adjectival de fonction épithète et groupe nominal prépositionnel de",
+      "appui": "Épithète et complément du nom"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

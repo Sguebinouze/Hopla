@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C3-6E-ORTH-05",
+  "duree": 8,
+  "essentiel": "Avec l’auxiliaire avoir, le participe passé ne s’accorde jamais avec le sujet.\nIl s’accorde avec le COD si celui-ci est placé avant le verbe : « Ces fleurs, je les ai cueillies. »\nSi le COD est après, pas d’accord : j’ai cueilli des fleurs.",
+  "parties": [
+    {
+      "titre": "Où est le COD ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "J’ai cueilli des fleurs. → COD après : cueilli.",
+            "Je les ai cueillies. → les = les fleurs, placé avant : cueillies."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour accorder le participe passé avec avoir",
+          "etapes": [
+            "Pose la question « quoi ? » après le participe : j’ai cueilli quoi ?",
+            "Le COD est-il avant le verbe ? Le plus souvent, c’est un pronom : l’, la, les.",
+            "Si oui, accorde avec ce COD. Sinon, n’accorde pas."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : ces lettres, je les ai …",
+          "options": [
+            "écrites",
+            "écrit",
+            "écrits"
+          ],
+          "reponse": "écrites",
+          "explication": "Les = ces lettres, féminin pluriel, placé avant."
+        }
+      ]
+    },
+    {
+      "titre": "Pièges",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "« Elles ont mangées. »",
+          "correction": "Avec avoir, jamais d’accord avec le sujet : elles ont mangé."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "La robe ? Ma tante l’a cousue.",
+          "etapes": [
+            "L’ reprend la robe : féminin singulier.",
+            "Le COD est avant l’auxiliaire avoir."
+          ],
+          "conclusion": "On écrit cousue."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : les gâteaux, nous les avons …",
+      "options": [
+        "mangés",
+        "mangé",
+        "mangées"
+      ],
+      "reponse": "mangés",
+      "explication": "Les = les gâteaux, masculin pluriel, avant."
+    },
+    {
+      "consigne": "Complète : Léa a … une histoire.",
+      "options": [
+        "raconté",
+        "racontée",
+        "racontés"
+      ],
+      "reponse": "raconté",
+      "explication": "COD après le verbe : pas d’accord."
+    },
+    {
+      "consigne": "Complète : ta chanson, je l’ai …",
+      "options": [
+        "entendue",
+        "entendu",
+        "entendues"
+      ],
+      "reponse": "entendue",
+      "explication": "L’ = ta chanson, féminin singulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Accorder le participe passé avec le complément d’objet direct (COD) pour les verbes étudiés et conjugués avec l’auxiliaire",
+      "appui": "Participe passé avec avoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,146 @@
+{
+  "competence": "FR-C3-6E-VOC-04",
+  "duree": 7,
+  "essentiel": "L’étymologie est l’origine d’un mot. Beaucoup de mots français viennent du latin ou du grec.\nGéographie vient du grec gê (la terre) et graphein (écrire).\nLe sens d’un mot peut évoluer au fil des siècles.",
+  "parties": [
+    {
+      "titre": "Des racines grecques et latines",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Étymologie",
+              "definition": "Origine d’un mot et histoire de sa formation."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques racines",
+          "colonnes": [
+            "Racine",
+            "Origine",
+            "Sens",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "géo-",
+              "grec",
+              "terre",
+              "géographie, géologie"
+            ],
+            [
+              "bio-",
+              "grec",
+              "vie",
+              "biologie"
+            ],
+            [
+              "-graphe",
+              "grec",
+              "écrire",
+              "autographe"
+            ],
+            [
+              "aqua-",
+              "latin",
+              "eau",
+              "aquarium, aquatique"
+            ],
+            [
+              "télé-",
+              "grec",
+              "loin",
+              "téléphone, télescope"
+            ],
+            [
+              "-cide",
+              "latin",
+              "qui tue",
+              "insecticide"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que signifie « hydro- » dans « hydravion » ?",
+          "options": [
+            "eau",
+            "air",
+            "feu"
+          ],
+          "reponse": "eau",
+          "explication": "Du grec hudôr, l’eau : un avion qui se pose sur l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Le sens évolue",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Étonner » vient du latin et voulait dire frapper comme le tonnerre. Aujourd’hui, il signifie surprendre."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour utiliser l’étymologie",
+          "etapes": [
+            "Repère une racine connue dans le mot.",
+            "Rapproche-le de mots de la même famille.",
+            "Vérifie dans un dictionnaire qui donne l’étymologie."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les mots en -graphe ont un rapport avec les graphiques.",
+          "correction": "Graphe vient du grec « écrire » : un autographe est une signature écrite de sa propre main."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Que signifie « bio- » ?",
+      "options": [
+        "vie",
+        "livre",
+        "terre"
+      ],
+      "reponse": "vie",
+      "explication": "Biologie : science de la vie."
+    },
+    {
+      "consigne": "Un « télescope » permet de voir :",
+      "options": [
+        "loin",
+        "petit",
+        "sous l’eau"
+      ],
+      "reponse": "loin",
+      "explication": "Télé- : loin."
+    },
+    {
+      "consigne": "« Aquatique » a un rapport avec :",
+      "options": [
+        "l’eau",
+        "l’air",
+        "la terre"
+      ],
+      "reponse": "l’eau",
+      "explication": "Aqua : eau en latin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Se sensibiliser à l’étymologie et à l’évolution du sens des mots",
+      "appui": "Étymologie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

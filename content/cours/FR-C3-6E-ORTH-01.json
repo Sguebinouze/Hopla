@@ -1,0 +1,123 @@
+{
+  "competence": "FR-C3-6E-ORTH-01",
+  "duree": 8,
+  "essentiel": "Avec l’auxiliaire être, le participe passé s’accorde en genre et en nombre avec le sujet.\nElle est partie. Ils sont partis. Elles sont parties.\nSi les sujets sont masculin et féminin, on accorde au masculin pluriel : Tom et Léa sont arrivés.",
+  "parties": [
+    {
+      "titre": "Accorder avec le sujet",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Participe passé",
+              "definition": "Forme du verbe utilisée avec un auxiliaire dans les temps composés : chanté, fini, pris."
+            },
+            {
+              "mot": "Auxiliaire",
+              "definition": "Verbe être ou avoir qui sert à former les temps composés."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Compare.",
+          "exemples": [
+            "Le train est parti.",
+            "La voiture est partie.",
+            "Les trains sont partis.",
+            "Les voitures sont parties."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour accorder le participe passé avec être",
+          "etapes": [
+            "Repère l’auxiliaire être : est, sont, était, sera…",
+            "Trouve le sujet : qui est-ce qui est parti ?",
+            "Accorde : + e au féminin, + s au pluriel."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : mes sœurs sont …",
+          "options": [
+            "arrivées",
+            "arrivés",
+            "arrivé"
+          ],
+          "reponse": "arrivées",
+          "explication": "Sujet féminin pluriel : -ées."
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le mot le plus proche : la mère et le fils sont venue.",
+          "correction": "Sujets de genres différents : masculin pluriel, venus."
+        },
+        {
+          "type": "explique",
+          "texte": "Pour entendre l’accord, remplace par un verbe comme prendre. Elle est **prise** : on entend le e, donc elle est **partie**."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : Nina et Paul sont …",
+          "options": [
+            "tombés",
+            "tombées",
+            "tombé"
+          ],
+          "reponse": "tombés",
+          "explication": "Un garçon et une fille : masculin pluriel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : la neige est …",
+      "options": [
+        "tombée",
+        "tombé",
+        "tombés"
+      ],
+      "reponse": "tombée",
+      "explication": "La neige : féminin singulier."
+    },
+    {
+      "consigne": "Complète : les enfants sont …",
+      "options": [
+        "sortis",
+        "sorti",
+        "sorties"
+      ],
+      "reponse": "sortis",
+      "explication": "Les enfants : masculin pluriel."
+    },
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Les fleurs sont fanées.",
+        "Les fleurs sont fané.",
+        "Les fleurs sont fanés."
+      ],
+      "reponse": "Les fleurs sont fanées.",
+      "explication": "Féminin pluriel : fanées."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Maîtriser l’accord du participe passé employé avec l’auxiliaire être",
+      "appui": "Participe passé avec être"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,151 @@
+{
+  "competence": "FR-C3-6E-ORTH-02",
+  "duree": 9,
+  "essentiel": "Des homophones se prononcent pareil mais n’ont ni la même nature ni la même orthographe.\nPour choisir, on remplace : a par avait, est par était, sont par étaient, ont par avaient.\nCes = ceux-ci ; ses = les siens. Où indique le lieu ; ou = ou bien.",
+  "parties": [
+    {
+      "titre": "Les verbes et les autres mots",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Homophones",
+              "definition": "Mots qui se prononcent de la même façon mais s’écrivent différemment."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Remplacer pour choisir",
+          "colonnes": [
+            "Homophones",
+            "Astuce",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "a / à",
+              "a → avait",
+              "Il a faim. Il va à l’école."
+            ],
+            [
+              "est / et",
+              "est → était",
+              "Le ciel est bleu et calme."
+            ],
+            [
+              "sont / son",
+              "sont → étaient",
+              "Ils sont là avec son chien."
+            ],
+            [
+              "ont / on",
+              "ont → avaient ; on → il",
+              "Ils ont froid. On rentre."
+            ],
+            [
+              "ces / ses",
+              "ces → ceux-ci ; ses → les siens",
+              "Ces livres sont à lui : ce sont ses livres."
+            ],
+            [
+              "ou / où",
+              "ou → ou bien",
+              "Tu viens ou pas ? Où vas-tu ?"
+            ],
+            [
+              "ce / se",
+              "se devant un verbe pronominal",
+              "Ce chat se lave."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : il … parti … la plage.",
+          "options": [
+            "est, à",
+            "et, a",
+            "est, a"
+          ],
+          "reponse": "est, à",
+          "explication": "Il était parti (est), vers la plage (à)."
+        }
+      ]
+    },
+    {
+      "titre": "S’entrainer à raisonner",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir le bon homophone",
+          "etapes": [
+            "Repère le mot douteux dans la phrase.",
+            "Essaie la substitution : avait, était, étaient, avaient, ou bien.",
+            "Si la phrase garde son sens, c’est le verbe ou le mot testé."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "« Ils on gagné. »",
+          "correction": "Ils avaient gagné : c’est le verbe avoir, ils ont gagné."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : … amis viennent avec … parents.",
+          "options": [
+            "Ses, leurs",
+            "Ces, leurs",
+            "Ses, leur"
+          ],
+          "reponse": "Ses, leurs",
+          "explication": "Les siens : ses. Les parents d’eux : leurs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : … vas-tu ?",
+      "options": [
+        "Où",
+        "Ou",
+        "Oû"
+      ],
+      "reponse": "Où",
+      "explication": "Question sur le lieu."
+    },
+    {
+      "consigne": "Complète : les élèves … fini leur travail.",
+      "options": [
+        "ont",
+        "on",
+        "onts"
+      ],
+      "reponse": "ont",
+      "explication": "Les élèves avaient fini : ont."
+    },
+    {
+      "consigne": "Complète : Léo … Max … partis.",
+      "options": [
+        "et, sont",
+        "est, son",
+        "et, son"
+      ],
+      "reponse": "et, sont",
+      "explication": "Léo et Max étaient partis."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Améliorer son orthographe grammaticale dans le cadre de la production d’écrits ou d’exercices d’entraînement",
+      "appui": "Orthographe grammaticale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,108 @@
+{
+  "competence": "FR-C3-6E-ORTH-04",
+  "duree": 8,
+  "essentiel": "Le verbe s’accorde avec le noyau du groupe sujet, même éloigné ou placé après lui.\nPlusieurs sujets : le verbe est au pluriel.\nAvec « qui », le verbe s’accorde avec l’antécédent : les enfants qui jouent ; c’est moi qui suis.",
+  "parties": [
+    {
+      "titre": "Sujet inversé ou éloigné",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trouve le sujet.",
+          "exemples": [
+            "« Dans la forêt vivent des loups. » Qui vit ? des loups : sujet inversé.",
+            "« Les chiens de mon voisin aboient. » Qui aboie ? les chiens, pas mon voisin."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver le sujet",
+          "etapes": [
+            "Pose la question « qui est-ce qui ? » devant le verbe.",
+            "Encadre la réponse par « c’est… qui » : ce sont des loups qui vivent.",
+            "Repère le nom noyau du groupe et accorde avec lui."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : les feuilles de l’arbre …",
+          "options": [
+            "tombent",
+            "tombe",
+            "tombes"
+          ],
+          "reponse": "tombent",
+          "explication": "Le noyau est feuilles : pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs sujets et « qui »",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec plusieurs sujets, le verbe est au pluriel : le chat et le chien **dorment**. Avec toi et moi, on accorde avec nous : toi et moi **partons**."
+        },
+        {
+          "type": "piege",
+          "erreur": "« C’est moi qui est le plus grand. »",
+          "correction": "Qui reprend moi : c’est moi qui suis le plus grand."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : ce sont mes amis qui …",
+          "options": [
+            "chantent",
+            "chante",
+            "chantes"
+          ],
+          "reponse": "chantent",
+          "explication": "Qui reprend mes amis : pluriel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : au loin … les cloches.",
+      "options": [
+        "sonnent",
+        "sonne",
+        "sonnes"
+      ],
+      "reponse": "sonnent",
+      "explication": "Sujet inversé : les cloches."
+    },
+    {
+      "consigne": "Complète : ma sœur et moi … au cinéma.",
+      "options": [
+        "allons",
+        "vont",
+        "va"
+      ],
+      "reponse": "allons",
+      "explication": "Ma sœur et moi = nous."
+    },
+    {
+      "consigne": "Complète : c’est toi qui … raison.",
+      "options": [
+        "as",
+        "a",
+        "ont"
+      ],
+      "reponse": "as",
+      "explication": "Qui reprend toi : tu as."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Identifier le groupe sujet et raisonner sur l’accord sujet/verbe",
+      "appui": "Accord sujet-verbe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

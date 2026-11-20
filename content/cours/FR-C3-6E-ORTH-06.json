@@ -1,0 +1,109 @@
+{
+  "competence": "FR-C3-6E-ORTH-06",
+  "duree": 7,
+  "essentiel": "Dans le groupe nominal, le déterminant et les adjectifs s’accordent avec le nom noyau.\nLes adjectifs éloignés aussi : de vieilles maisons blanches aux volets bleus.\nJe cherche le nom noyau, son genre et son nombre, puis j’accorde chaque mot qui en dépend.",
+  "parties": [
+    {
+      "titre": "La chaine d’accords",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Repère les accords.",
+          "exemples": [
+            "de vieilles maisons blanches aux volets bleus",
+            "vieilles et blanches → maisons : féminin pluriel.",
+            "bleus → volets : masculin pluriel."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour accorder un groupe nominal",
+          "etapes": [
+            "Trouve chaque nom noyau.",
+            "Relie chaque adjectif à son nom, même s’il est loin.",
+            "Accorde en genre et en nombre."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : des chemins … et …",
+          "options": [
+            "étroits, sinueux",
+            "étroites, sinueuses",
+            "étroit, sinueux"
+          ],
+          "reponse": "étroits, sinueux",
+          "explication": "Chemins : masculin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Cas délicats",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "« Une veste et un pantalon noir » quand les deux sont noirs.",
+          "correction": "L’adjectif qui qualifie deux noms se met au pluriel, au masculin s’ils sont de genres différents : noirs."
+        },
+        {
+          "type": "explique",
+          "texte": "Les adjectifs de couleur tirés d’un nom ne s’accordent pas : des yeux **marron**, des robes **orange**."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel groupe est bien accordé ?",
+          "options": [
+            "des chaussettes marron",
+            "des chaussettes marrons",
+            "des chaussette marron"
+          ],
+          "reponse": "des chaussettes marron",
+          "explication": "Marron est un nom employé comme adjectif."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : de … nuits …",
+      "options": [
+        "longues, froides",
+        "longs, froids",
+        "longue, froide"
+      ],
+      "reponse": "longues, froides",
+      "explication": "Nuits : féminin pluriel."
+    },
+    {
+      "consigne": "Complète : une table et une chaise …",
+      "options": [
+        "neuves",
+        "neufs",
+        "neuve"
+      ],
+      "reponse": "neuves",
+      "explication": "Deux noms féminins : féminin pluriel."
+    },
+    {
+      "consigne": "Quel groupe est bien accordé ?",
+      "options": [
+        "les grandes voiles blanches du navire",
+        "les grandes voile blanche du navire",
+        "les grands voiles blancs du navire"
+      ],
+      "reponse": "les grandes voiles blanches du navire",
+      "explication": "Voile de bateau est féminin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Maîtriser la chaîne d’accords dans le groupe nominal, en lien avec l’analyse grammaticale",
+      "appui": "Chaîne d’accords"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

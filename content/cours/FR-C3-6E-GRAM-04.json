@@ -1,0 +1,145 @@
+{
+  "competence": "FR-C3-6E-GRAM-04",
+  "duree": 8,
+  "essentiel": "Un pronom personnel remplace un nom ou un groupe nominal : son antécédent.\nLe, la, l’, les sont COD. Lui, leur sont COI (à quelqu’un).\nPour trouver l’antécédent, je remplace le pronom par le groupe nominal et je vérifie le sens.",
+  "parties": [
+    {
+      "titre": "Pronom et antécédent",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Antécédent",
+              "definition": "Mot ou groupe de mots qu’un pronom reprend."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Lis : « Le roi parla à ses soldats et leur donna des ordres. »",
+          "exemples": [
+            "« leur » reprend « à ses soldats ».",
+            "On vérifie : le roi donna des ordres à ses soldats."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Léa a perdu sa clé. Elle la cherche. » Que remplace « la » ?",
+          "options": [
+            "sa clé",
+            "Léa",
+            "elle"
+          ],
+          "reponse": "sa clé",
+          "explication": "Elle cherche sa clé."
+        }
+      ]
+    },
+    {
+      "titre": "La fonction du pronom",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pronoms personnels et fonctions",
+          "colonnes": [
+            "Fonction",
+            "Pronoms",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "sujet",
+              "je, tu, il, elle, on, nous, vous, ils, elles",
+              "Ils partent."
+            ],
+            [
+              "COD",
+              "me, te, le, la, l’, nous, vous, les",
+              "Je les vois."
+            ],
+            [
+              "COI",
+              "me, te, lui, nous, vous, leur",
+              "Je leur parle."
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver la fonction d’un pronom",
+          "etapes": [
+            "Remplace le pronom par son antécédent.",
+            "Pose la question : qui ? quoi ? à qui ?",
+            "Qui fait l’action : sujet. Quoi ou qui après le verbe : COD. À qui : COI."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute un s à « leur » devant un verbe : je leurs parle.",
+          "correction": "Le pronom leur est invariable : je leur parle."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Je lui écris », la fonction de « lui » est :",
+          "options": [
+            "COI",
+            "COD",
+            "sujet"
+          ],
+          "reponse": "COI",
+          "explication": "J’écris à quelqu’un : lui est COI."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les enfants ont vu les cygnes et les ont nourris. » Que remplace le second « les » ?",
+      "options": [
+        "les cygnes",
+        "les enfants",
+        "nourris"
+      ],
+      "reponse": "les cygnes",
+      "explication": "Ils ont nourri les cygnes."
+    },
+    {
+      "consigne": "Dans « Nous la regardons », « la » est :",
+      "options": [
+        "COD",
+        "COI",
+        "sujet"
+      ],
+      "reponse": "COD",
+      "explication": "Nous regardons quoi ? La : COD."
+    },
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Je leur ai dit bonjour.",
+        "Je leurs ai dit bonjour.",
+        "Je leurent ai dit bonjour."
+      ],
+      "reponse": "Je leur ai dit bonjour.",
+      "explication": "Leur pronom ne prend jamais de s."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Mettre en relation un pronom personnel avec son antécédent",
+      "appui": "Pronom et antécédent"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Identifier aisément les pronoms personnels et préciser leur fonction",
+      "appui": "Fonction des pronoms"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

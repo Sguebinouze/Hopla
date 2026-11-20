@@ -1,0 +1,149 @@
+{
+  "competence": "FR-C3-6E-GRAM-02",
+  "duree": 9,
+  "essentiel": "Une proposition est organisée autour d’un verbe conjugué.\nUne phrase simple a un seul verbe conjugué. Une phrase complexe en a plusieurs.\nLes propositions peuvent être juxtaposées (virgule), coordonnées (mais, et, car…) ou subordonnées (quand, parce que…).",
+  "parties": [
+    {
+      "titre": "Compter les propositions",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Proposition",
+              "definition": "Partie de phrase organisée autour d’un verbe conjugué."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Compte les verbes conjugués.",
+          "exemples": [
+            "« Les élèves sortent. » : un verbe, une proposition.",
+            "« Quand la cloche sonne, les élèves sortent. » : deux verbes, deux propositions."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Phrase simple ou phrase complexe ?",
+          "etapes": [
+            "Souligne les verbes conjugués. Un infinitif ne compte pas.",
+            "Un seul verbe conjugué : phrase simple.",
+            "Plusieurs : phrase complexe, avec autant de propositions que de verbes conjugués."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "« Il veut partir » compte deux propositions.",
+          "correction": "« Partir » est à l’infinitif. Il n’y a qu’un verbe conjugué : c’est une phrase simple."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de propositions dans « Le chien aboie, le chat s’enfuit et la poule caquette » ?",
+          "options": [
+            "trois",
+            "deux",
+            "une"
+          ],
+          "reponse": "trois",
+          "explication": "Trois verbes conjugués : aboie, s’enfuit, caquette."
+        }
+      ]
+    },
+    {
+      "titre": "Relier les propositions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois façons de relier",
+          "colonnes": [
+            "Mode",
+            "Outil",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "juxtaposition",
+              "une virgule, un point-virgule",
+              "Il pleut, je reste."
+            ],
+            [
+              "coordination",
+              "mais, ou, et, donc, or, ni, car",
+              "Il pleut, donc je reste."
+            ],
+            [
+              "subordination",
+              "quand, parce que, si, comme…",
+              "Je reste parce qu’il pleut."
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Dans la subordination, une proposition dépend de l’autre. La **subordonnée** ne peut pas vivre seule : « parce qu’il pleut » n’est pas une phrase."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Je mange car j’ai faim », les propositions sont :",
+          "options": [
+            "coordonnées",
+            "juxtaposées",
+            "subordonnées"
+          ],
+          "reponse": "coordonnées",
+          "explication": "Car est une conjonction de coordination."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Le soleil se lève sur la mer. » est une phrase :",
+      "options": [
+        "simple",
+        "complexe",
+        "nominale"
+      ],
+      "reponse": "simple",
+      "explication": "Un seul verbe conjugué : se lève."
+    },
+    {
+      "consigne": "« Lorsque tu arriveras, nous partirons. » Les propositions sont :",
+      "options": [
+        "subordonnée et principale",
+        "juxtaposées",
+        "coordonnées"
+      ],
+      "reponse": "subordonnée et principale",
+      "explication": "Lorsque introduit une subordonnée."
+    },
+    {
+      "consigne": "Combien de propositions dans « Elle ouvre la porte, regarde dehors et sourit » ?",
+      "options": [
+        "trois",
+        "une",
+        "deux"
+      ],
+      "reponse": "trois",
+      "explication": "Ouvre, regarde, sourit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Distinguer phrase simple et phrase complexe à partir du repérage des propositions",
+      "appui": "Phrase simple et complexe"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Comprendre la notion de proposition",
+      "appui": "Notion de proposition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

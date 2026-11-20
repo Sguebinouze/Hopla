@@ -48,10 +48,10 @@ const INTERDITS: Interdit[] = [
   { motif: /\b(les|des|certains) (experts|spécialistes|observateurs) (disent|pensent|estiment|affirment|soulignent)\b/i, niveau: 'alerte', note: 'nommer la source ou dire le fait' },
   { motif: /\b(dans|avec) cette (leçon|fiche|activité)\b|\b(nous allons|on va) (voir|découvrir|apprendre)\b/i, niveau: 'erreur' },
   { motif: /\b(voyons|regardons) ensemble\b|\bn[’']hésite pas\b/i, niveau: 'erreur' },
-  // Notions légitimes en géographie (« paysage ») et en grammaire (« phrase complexe ») :
-  // on alerte sans bloquer, le relecteur tranche.
+  // Notion légitime en géographie (« paysage ») : on alerte sans bloquer, le relecteur tranche.
+  // « Phrase complexe » est le terme de grammaire du programme : il n'est pas signalé.
   { motif: /\bpaysage/i, niveau: 'alerte', note: 'légitime en géographie, à éviter ailleurs' },
-  { motif: /\bcomplexe/i, niveau: 'alerte', note: 'légitime pour « phrase complexe », à éviter ailleurs' },
+  { motif: /(?<!phrases?\s)\bcomplexes?\b/i, niveau: 'alerte', note: 'légitime pour « phrase complexe », à éviter ailleurs' },
 ];
 
 // Longueur maximale d'une phrase (en mots) selon le cycle.

@@ -47,6 +47,11 @@ describe('tics relevés par Humanizer', () => {
     expect(verifierTexte('Dans cette leçon, tu apprends les fractions.', 3).some((x) => x.niveau === 'erreur')).toBe(true);
     expect(verifierTexte('Nous allons voir les fractions.', 3).some((x) => x.niveau === 'erreur')).toBe(true);
   });
+  it('signale « complexe », sauf dans le terme de grammaire « phrase complexe »', () => {
+    expect(verifierTexte('Une phrase complexe a plusieurs propositions.', 3)).toEqual([]);
+    expect(verifierTexte('Les phrases complexes sont longues.', 3)).toEqual([]);
+    expect(verifierTexte('Ce calcul est complexe.', 3).some((x) => x.niveau === 'alerte')).toBe(true);
+  });
   it('laisse passer une traduction ordinaire', () => {
     expect(verifierTexte('I hope you can come : j’espère que tu pourras venir.', 4)).toEqual([]);
   });

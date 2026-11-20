@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-6E-DICT-01",
+  "duree": 7,
+  "essentiel": "Avant d’écrire, j’écoute la phrase entière et je repère les groupes de mots.\nPendant que j’écris, je pense aux accords : groupe nominal, sujet et verbe, participe passé.\nJe relis plusieurs fois, en cherchant une seule chose à chaque relecture.",
+  "parties": [
+    {
+      "titre": "Pendant la dictée",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pendant la dictée",
+          "etapes": [
+            "Écoute la phrase entière avant d’écrire.",
+            "Écris par groupes de mots, sans te presser.",
+            "Laisse une ligne sur deux pour corriger."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les vieilles maisons que nous avons visitées étaient abandonnées. »",
+          "etapes": [
+            "vieilles maisons : féminin pluriel.",
+            "que = les maisons, COD placé avant avoir : visitées.",
+            "étaient : le sujet est les maisons.",
+            "abandonnées : attribut accordé avec maisons."
+          ],
+          "conclusion": "Chaque accord se justifie par une règle."
+        }
+      ]
+    },
+    {
+      "titre": "Relire avec méthode",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une relecture pour chaque point",
+          "colonnes": [
+            "Relecture",
+            "Je vérifie"
+          ],
+          "lignes": [
+            [
+              "1",
+              "les groupes nominaux : déterminant, nom, adjectifs"
+            ],
+            [
+              "2",
+              "les verbes : sujet, temps, terminaison"
+            ],
+            [
+              "3",
+              "les participes passés : être, avoir et COD"
+            ],
+            [
+              "4",
+              "les homophones, la ponctuation, les majuscules"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relit une seule fois, vite, en lisant le sens.",
+          "correction": "On relit lentement, une fois par type d’erreur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Les lettres que j’ai reçues sont arrivées.",
+        "Les lettres que j’ai reçu sont arrivés.",
+        "Les lettres que j’ai reçues sont arrivé."
+      ],
+      "reponse": "Les lettres que j’ai reçues sont arrivées.",
+      "explication": "Que = les lettres, avant avoir ; sont arrivées avec être."
+    },
+    {
+      "consigne": "Quelle phrase est correcte ?",
+      "options": [
+        "Les oiseaux migrateurs repartent.",
+        "Les oiseaux migrateur repartent.",
+        "Les oiseaux migrateurs repart."
+      ],
+      "reponse": "Les oiseaux migrateurs repartent.",
+      "explication": "Groupe nominal et verbe au pluriel."
+    },
+    {
+      "consigne": "Que vérifie-t-on en relisant les verbes ?",
+      "options": [
+        "le sujet, le temps, la terminaison",
+        "les majuscules",
+        "la longueur des phrases"
+      ],
+      "reponse": "le sujet, le temps, la terminaison",
+      "explication": "Une relecture pour chaque point."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Prendre en compte les normes de l’écrit pour réviser un texte",
+      "appui": "Normes de l’écrit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

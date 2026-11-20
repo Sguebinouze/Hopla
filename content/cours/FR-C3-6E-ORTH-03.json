@@ -1,0 +1,115 @@
+{
+  "competence": "FR-C3-6E-ORTH-03",
+  "duree": 6,
+  "essentiel": "Les mots invariables ne changent jamais : ni genre, ni nombre, ni conjugaison.\nOn les apprend par cœur, par familles : parmi, malgré, désormais, autrefois, néanmoins, longtemps, beaucoup, toujours.\nBeaucoup de mots en -ment sont des adverbes invariables.",
+  "parties": [
+    {
+      "titre": "Des mots à connaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mots invariables fréquents",
+          "colonnes": [
+            "Sens",
+            "Mots"
+          ],
+          "lignes": [
+            [
+              "temps",
+              "autrefois, désormais, longtemps, toujours, aussitôt, bientôt, jamais"
+            ],
+            [
+              "lieu",
+              "ailleurs, dehors, partout, parmi"
+            ],
+            [
+              "quantité",
+              "beaucoup, trop, assez, davantage"
+            ],
+            [
+              "opposition",
+              "malgré, néanmoins, pourtant, cependant"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Certains se ressemblent : aussitôt, bientôt, plutôt, tôt prennent tous un **ô**."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment s’écrit le mot ?",
+          "options": [
+            "malgré",
+            "malgrés",
+            "malgrè"
+          ],
+          "reponse": "malgré",
+          "explication": "Malgré : invariable, accent aigu."
+        }
+      ]
+    },
+    {
+      "titre": "Pièges fréquents",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « parmis » ou « toujour ».",
+          "correction": "Parmi n’a pas de s. Toujours en a toujours un."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour mémoriser",
+          "etapes": [
+            "Regroupe les mots par famille de sons : tôt, bientôt, aussitôt.",
+            "Repère la lettre difficile.",
+            "Écris-les dans une phrase à toi."
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle orthographe est correcte ?",
+      "options": [
+        "désormais",
+        "dorénavent",
+        "désormait"
+      ],
+      "reponse": "désormais",
+      "explication": "Désormais se termine par -ais."
+    },
+    {
+      "consigne": "Quelle orthographe est correcte ?",
+      "options": [
+        "longtemps",
+        "longtemp",
+        "lontemps"
+      ],
+      "reponse": "longtemps",
+      "explication": "Longtemps : g et ps."
+    },
+    {
+      "consigne": "Quel mot est invariable ?",
+      "options": [
+        "ailleurs",
+        "ailés",
+        "aimable"
+      ],
+      "reponse": "ailleurs",
+      "explication": "Ailleurs est un adverbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Écrire correctement les mots fréquents en situation autonome",
+      "appui": "Mots fréquents"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

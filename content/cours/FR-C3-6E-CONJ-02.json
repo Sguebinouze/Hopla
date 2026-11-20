@@ -1,0 +1,193 @@
+{
+  "competence": "FR-C3-6E-CONJ-02",
+  "duree": 9,
+  "essentiel": "Le conditionnel présent exprime un souhait, une demande polie ou un fait imaginé.\nOn prend le radical du futur et on ajoute les terminaisons de l’imparfait : -ais, -ais, -ait, -ions, -iez, -aient.\nJe chanterais, nous irions, ils prendraient.",
+  "parties": [
+    {
+      "titre": "Former le conditionnel",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare futur et conditionnel.",
+          "exemples": [
+            "Futur : je chanterai.",
+            "Conditionnel : je chanterais.",
+            "Même radical chanter-, terminaison de l’imparfait."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Conditionnel présent",
+          "colonnes": [
+            "Sujet",
+            "chanter",
+            "être",
+            "avoir",
+            "aller"
+          ],
+          "lignes": [
+            [
+              "je",
+              "chanterais",
+              "serais",
+              "aurais",
+              "irais"
+            ],
+            [
+              "tu",
+              "chanterais",
+              "serais",
+              "aurais",
+              "irais"
+            ],
+            [
+              "il, elle, on",
+              "chanterait",
+              "serait",
+              "aurait",
+              "irait"
+            ],
+            [
+              "nous",
+              "chanterions",
+              "serions",
+              "aurions",
+              "irions"
+            ],
+            [
+              "vous",
+              "chanteriez",
+              "seriez",
+              "auriez",
+              "iriez"
+            ],
+            [
+              "ils, elles",
+              "chanteraient",
+              "seraient",
+              "auraient",
+              "iraient"
+            ]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Radicaux irréguliers",
+          "colonnes": [
+            "Verbe",
+            "Conditionnel"
+          ],
+          "lignes": [
+            [
+              "faire",
+              "je ferais"
+            ],
+            [
+              "venir",
+              "je viendrais"
+            ],
+            [
+              "pouvoir",
+              "je pourrais"
+            ],
+            [
+              "voir",
+              "je verrais"
+            ],
+            [
+              "vouloir",
+              "je voudrais"
+            ],
+            [
+              "dire",
+              "je dirais"
+            ],
+            [
+              "prendre",
+              "je prendrais"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Futur ou conditionnel ?",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir entre -rai et -rais",
+          "etapes": [
+            "Remplace « je » par « nous ».",
+            "Nous chanterons : c’est le futur, on écrit -rai.",
+            "Nous chanterions : c’est le conditionnel, on écrit -rais."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "« Si j’étais riche, j’achèterai un bateau. »",
+          "correction": "C’est une situation imaginée : j’achèterais (nous achèterions)."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : je … bien un gâteau.",
+          "options": [
+            "mangerais",
+            "mangerai",
+            "mangeais"
+          ],
+          "reponse": "mangerais",
+          "explication": "Souhait : nous mangerions → conditionnel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Conditionnel de « pouvoir » avec « vous » ?",
+      "options": [
+        "vous pourriez",
+        "vous pourrez",
+        "vous pouviez"
+      ],
+      "reponse": "vous pourriez",
+      "explication": "Radical pourr- + -iez."
+    },
+    {
+      "consigne": "« Pourriez-vous m’aider ? » exprime :",
+      "options": [
+        "une demande polie",
+        "une action passée",
+        "un ordre"
+      ],
+      "reponse": "une demande polie",
+      "explication": "Le conditionnel adoucit la demande."
+    },
+    {
+      "consigne": "Complète : s’il faisait beau, nous … à la plage.",
+      "options": [
+        "irions",
+        "irons",
+        "allions"
+      ],
+      "reponse": "irions",
+      "explication": "Situation imaginée : conditionnel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Identifier les marques de temps pour le conditionnel présent et l’impératif présent",
+      "appui": "Marques du conditionnel"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "premier et deuxième groupes, des verbes irréguliers du troisième groupe : faire, aller, dire, venir, pouvoir, voir, vouloir, prendre",
+      "appui": "Verbes à conjuguer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

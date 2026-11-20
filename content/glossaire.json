@@ -31,6 +31,24 @@
       }
     },
     {
+      "terme": "Antonyme",
+      "definitions": {
+        "3": "Mot de sens contraire, de la même classe grammaticale."
+      }
+    },
+    {
+      "terme": "Antécédent",
+      "definitions": {
+        "3": "Mot ou groupe de mots qu’un pronom reprend."
+      }
+    },
+    {
+      "terme": "Aparté",
+      "definitions": {
+        "3": "Réplique qu’un personnage dit pour lui-même ou pour le public, sans que les autres l’entendent."
+      }
+    },
+    {
       "terme": "Arrondi",
       "definitions": {
         "3": "Valeur la plus proche du nombre, avec la précision demandée."
@@ -40,6 +58,12 @@
       "terme": "Arête",
       "definitions": {
         "2": "Trait où deux faces d’un solide se touchent."
+      }
+    },
+    {
+      "terme": "Auxiliaire",
+      "definitions": {
+        "3": "Verbe être ou avoir qui sert à former les temps composés."
       }
     },
     {
@@ -69,6 +93,30 @@
       }
     },
     {
+      "terme": "Comparaison",
+      "definitions": {
+        "3": "Image qui rapproche deux éléments grâce à un outil : comme, tel, pareil à."
+      }
+    },
+    {
+      "terme": "Complément du nom",
+      "definitions": {
+        "3": "Groupe introduit le plus souvent par une préposition, qui précise un nom : une robe de soirée."
+      }
+    },
+    {
+      "terme": "Conjonction de coordination",
+      "definitions": {
+        "3": "Mot invariable qui relie deux mots ou deux propositions de même rang : mais, ou, et, donc, or, ni, car."
+      }
+    },
+    {
+      "terme": "Conjonction de subordination",
+      "definitions": {
+        "3": "Mot invariable qui introduit une proposition subordonnée : quand, parce que, si, comme, lorsque, que."
+      }
+    },
+    {
       "terme": "Contraire",
       "definitions": {
         "2": "Mot qui a le sens opposé : grand et petit."
@@ -90,6 +138,12 @@
       "terme": "Diamètre",
       "definitions": {
         "3": "Corde qui passe par le centre. Sa longueur vaut deux rayons."
+      }
+    },
+    {
+      "terme": "Didascalie",
+      "definitions": {
+        "3": "Indication de l’auteur sur le décor, les gestes ou le ton, souvent en italique."
       }
     },
     {
@@ -142,6 +196,12 @@
       }
     },
     {
+      "terme": "Homophones",
+      "definitions": {
+        "3": "Mots qui se prononcent de la même façon mais s’écrivent différemment."
+      }
+    },
+    {
       "terme": "Infinitif",
       "definitions": {
         "2": "Forme du verbe qu’on trouve dans le dictionnaire : chanter, finir."
@@ -154,9 +214,33 @@
       }
     },
     {
+      "terme": "Mot composé",
+      "definitions": {
+        "3": "Mot formé de plusieurs mots : pomme de terre, porte-monnaie."
+      }
+    },
+    {
+      "terme": "Mot dérivé",
+      "definitions": {
+        "3": "Mot formé en ajoutant un préfixe ou un suffixe à un radical : terrain, déterrer."
+      }
+    },
+    {
+      "terme": "Mythe",
+      "definitions": {
+        "3": "Récit très ancien qui met en scène des dieux ou des héros et explique l’origine du monde ou des choses."
+      }
+    },
+    {
       "terme": "Médiatrice",
       "definitions": {
         "3": "Droite perpendiculaire à un segment, qui passe par son milieu."
+      }
+    },
+    {
+      "terme": "Métaphore",
+      "definitions": {
+        "3": "Image qui rapproche deux éléments sans outil de comparaison."
       }
     },
     {
@@ -175,6 +259,18 @@
       "terme": "Paix romaine",
       "definitions": {
         "3": "Longue période sans guerre à l’intérieur des frontières de l’empire, appelée pax romana en latin."
+      }
+    },
+    {
+      "terme": "Participe passé",
+      "definitions": {
+        "3": "Forme du verbe utilisée avec un auxiliaire dans les temps composés : chanté, fini, pris."
+      }
+    },
+    {
+      "terme": "Personnification",
+      "definitions": {
+        "3": "Image qui donne des traits humains à un animal, un objet ou une idée."
       }
     },
     {
@@ -199,6 +295,12 @@
       "terme": "Pronom",
       "definitions": {
         "2": "Mot qui remplace un nom : il, elle, ils, elles."
+      }
+    },
+    {
+      "terme": "Proposition",
+      "definitions": {
+        "3": "Partie de phrase organisée autour d’un verbe conjugué."
       }
     },
     {
@@ -238,15 +340,45 @@
       }
     },
     {
+      "terme": "Registre de langue",
+      "definitions": {
+        "3": "Manière de s’exprimer adaptée à la situation : familier, courant ou soutenu."
+      }
+    },
+    {
       "terme": "Reste",
       "definitions": {
         "3": "Ce qui reste dans une division euclidienne. Il est toujours plus petit que le diviseur."
       }
     },
     {
+      "terme": "Rime",
+      "definitions": {
+        "3": "Retour du même son à la fin de deux vers ou plus."
+      }
+    },
+    {
+      "terme": "Réplique",
+      "definitions": {
+        "3": "Ce que dit un personnage de théâtre en une seule fois."
+      }
+    },
+    {
+      "terme": "Résumé",
+      "definitions": {
+        "3": "Texte court qui garde l’essentiel d’un texte, dans l’ordre, avec ses propres mots."
+      }
+    },
+    {
       "terme": "Sommet",
       "definitions": {
         "2": "Coin d’une figure ou d’un solide, où des traits se rejoignent."
+      }
+    },
+    {
+      "terme": "Strophe",
+      "definitions": {
+        "3": "Groupe de vers séparé des autres par un blanc."
       }
     },
     {
@@ -264,7 +396,8 @@
     {
       "terme": "Synonyme",
       "definitions": {
-        "2": "Mot qui a presque le même sens qu’un autre mot."
+        "2": "Mot qui a presque le même sens qu’un autre mot.",
+        "3": "Mot de même classe grammaticale et de sens très proche."
       }
     },
     {
@@ -280,9 +413,27 @@
       }
     },
     {
+      "terme": "Vers",
+      "definitions": {
+        "3": "Ligne d’un poème."
+      }
+    },
+    {
       "terme": "Volume",
       "definitions": {
         "3": "Mesure de la place occupée par un solide."
+      }
+    },
+    {
+      "terme": "Épithète",
+      "definitions": {
+        "3": "Fonction de l’adjectif placé directement à côté du nom qu’il qualifie."
+      }
+    },
+    {
+      "terme": "Étymologie",
+      "definitions": {
+        "3": "Origine d’un mot et histoire de sa formation."
       }
     }
   ]

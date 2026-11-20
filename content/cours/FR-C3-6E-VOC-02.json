@@ -1,0 +1,117 @@
+{
+  "competence": "FR-C3-6E-VOC-02",
+  "duree": 7,
+  "essentiel": "Face à un mot inconnu, j’ai trois stratégies.\nDéduire le sens grâce au contexte ; analyser sa formation (radical, préfixe, suffixe) ; vérifier dans le dictionnaire.\nJe choisis la stratégie la plus efficace, puis je vérifie que le sens trouvé convient à la phrase.",
+  "parties": [
+    {
+      "titre": "Trois stratégies",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comprendre un mot inconnu",
+          "colonnes": [
+            "Stratégie",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "le contexte",
+              "« Affamé, il dévora son repas en un instant. » Dévorer : manger très vite."
+            ],
+            [
+              "la formation du mot",
+              "Incassable : in- (pas) + cass- + -able (qui peut) : qui ne peut pas casser."
+            ],
+            [
+              "le dictionnaire",
+              "Pour vérifier, ou quand les deux autres ne suffisent pas."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le chemin était si étroit qu’on y passait à peine. » « étroit » veut dire :",
+          "options": [
+            "peu large",
+            "très long",
+            "en pente"
+          ],
+          "reponse": "peu large",
+          "explication": "On y passait à peine : il est peu large."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir et vérifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Devant un mot inconnu",
+          "etapes": [
+            "Relis la phrase et celle d’avant : le contexte aide-t-il ?",
+            "Cherche un mot connu à l’intérieur.",
+            "Propose un sens, remplace le mot et relis.",
+            "Vérifie dans le dictionnaire, en choisissant le sens qui convient."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend la première définition du dictionnaire.",
+          "correction": "Un mot a souvent plusieurs sens. Choisis celui qui convient à la phrase."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Le chat est nyctalope. »",
+          "etapes": [
+            "Nyct- vient du grec : la nuit.",
+            "-ope vient d’un mot grec lié à la vue."
+          ],
+          "conclusion": "Un nyctalope voit la nuit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Impardonnable » veut dire :",
+      "options": [
+        "qu’on ne peut pas pardonner",
+        "qu’on pardonne vite",
+        "qui pardonne"
+      ],
+      "reponse": "qu’on ne peut pas pardonner",
+      "explication": "Im- (pas) + pardonn- + -able."
+    },
+    {
+      "consigne": "Quelle stratégie utiliser en premier pour un mot dans un texte ?",
+      "options": [
+        "relire le contexte",
+        "sauter le mot",
+        "demander la réponse"
+      ],
+      "reponse": "relire le contexte",
+      "explication": "Le contexte donne souvent la clé."
+    },
+    {
+      "consigne": "Dans « une mine de crayon », « mine » désigne :",
+      "options": [
+        "la pointe qui écrit",
+        "un visage",
+        "un lieu d’extraction"
+      ],
+      "reponse": "la pointe qui écrit",
+      "explication": "Le contexte choisit le sens."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Choisir, de manière autonome, les stratégies les plus efficaces pour comprendre un mot inconnu en prenant l’initiative de",
+      "appui": "Stratégies face au mot inconnu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

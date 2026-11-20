@@ -1,0 +1,131 @@
+{
+  "competence": "FR-C3-6E-VOC-05",
+  "duree": 6,
+  "essentiel": "Il existe trois registres de langue : familier, courant et soutenu.\nUne bagnole (familier), une voiture (courant), une automobile (soutenu).\nOn choisit le registre selon la situation et la personne à qui l’on s’adresse.",
+  "parties": [
+    {
+      "titre": "Trois registres",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Registre de langue",
+              "definition": "Manière de s’exprimer adaptée à la situation : familier, courant ou soutenu."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les registres",
+          "colonnes": [
+            "Familier",
+            "Courant",
+            "Soutenu"
+          ],
+          "lignes": [
+            [
+              "une bagnole",
+              "une voiture",
+              "une automobile"
+            ],
+            [
+              "bosser",
+              "travailler",
+              "œuvrer"
+            ],
+            [
+              "T’as vu ?",
+              "Tu as vu ?",
+              "Avez-vous vu ?"
+            ],
+            [
+              "Ça caille.",
+              "Il fait froid.",
+              "La température est fort basse."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Avoir la frousse » appartient au registre :",
+          "options": [
+            "familier",
+            "courant",
+            "soutenu"
+          ],
+          "reponse": "familier",
+          "explication": "En registre courant : avoir peur."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le bon registre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir",
+          "etapes": [
+            "À qui je parle ou j’écris ? Un ami, un adulte, une institution ?",
+            "Dans quelle situation ? À l’oral entre amis, en classe, dans une lettre officielle ?",
+            "En classe, à l’écrit : registre courant au minimum."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « T’inquiète » dans une rédaction.",
+          "correction": "À l’écrit scolaire, on écrit : Ne t’inquiète pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot appartient au registre soutenu ?",
+      "options": [
+        "demeure",
+        "baraque",
+        "maison"
+      ],
+      "reponse": "demeure",
+      "explication": "Demeure est soutenu, maison courant, baraque familier."
+    },
+    {
+      "consigne": "Équivalent courant de « bouquin » ?",
+      "options": [
+        "livre",
+        "ouvrage",
+        "bouquiner"
+      ],
+      "reponse": "livre",
+      "explication": "Bouquin est familier ; ouvrage est soutenu."
+    },
+    {
+      "consigne": "Dans une lettre au maire, j’utilise le registre :",
+      "options": [
+        "soutenu ou courant",
+        "familier",
+        "n’importe lequel"
+      ],
+      "reponse": "soutenu ou courant",
+      "explication": "Situation officielle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "durablement, en respectant le registre de langue",
+      "appui": "Registre de langue"
+    },
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "À l’oral et à l’écrit, utiliser à bon escient le vocabulaire spécifique issus de différents univers de référence et se l’approprier",
+      "appui": "Vocabulaire et registre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,141 @@
+{
+  "competence": "FR-C3-6E-CONJ-03",
+  "duree": 9,
+  "essentiel": "Dans un récit au passé, l’imparfait sert au décor, aux descriptions et aux habitudes.\nLe passé simple sert aux actions de premier plan, qui font avancer l’histoire.\nLe présent peut exprimer une vérité générale ou rendre un récit plus vivant.",
+  "parties": [
+    {
+      "titre": "Imparfait et passé simple",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Il pleuvait depuis le matin quand le chevalier arriva au château. »",
+          "exemples": [
+            "« pleuvait » : imparfait, le décor, une action longue.",
+            "« arriva » : passé simple, une action brève qui fait avancer le récit."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Valeurs des temps du récit",
+          "colonnes": [
+            "Temps",
+            "Valeur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "imparfait",
+              "description, décor",
+              "La forêt était sombre."
+            ],
+            [
+              "imparfait",
+              "habitude",
+              "Chaque soir, il lisait."
+            ],
+            [
+              "passé simple",
+              "action ponctuelle de premier plan",
+              "Soudain, il ouvrit la porte."
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour choisir le temps",
+          "etapes": [
+            "L’action fait-elle avancer l’histoire ? Passé simple.",
+            "Décrit-elle le décor, un personnage, une habitude ? Imparfait.",
+            "Les mots soudain, tout à coup annoncent souvent le passé simple."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le vent soufflait. Tout à coup, une porte claqua. » « claqua » exprime :",
+          "options": [
+            "une action soudaine",
+            "une description",
+            "une habitude"
+          ],
+          "reponse": "une action soudaine",
+          "explication": "Tout à coup : action ponctuelle."
+        }
+      ]
+    },
+    {
+      "titre": "Les valeurs du présent",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le présent",
+          "colonnes": [
+            "Valeur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "ce qui se passe maintenant",
+              "Je lis ce cours."
+            ],
+            [
+              "vérité générale",
+              "La Terre tourne autour du Soleil."
+            ],
+            [
+              "présent de narration",
+              "Il avance. Soudain, un loup surgit !"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On mélange présent et passé simple dans le même récit.",
+          "correction": "On choisit un système de temps et on le garde : présent, ou imparfait et passé simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Chaque été, nous allions à la mer. » L’imparfait exprime :",
+      "options": [
+        "une habitude",
+        "une action soudaine",
+        "une vérité générale"
+      ],
+      "reponse": "une habitude",
+      "explication": "Chaque été : action répétée."
+    },
+    {
+      "consigne": "« L’eau bout à 100 °C. » Ce présent exprime :",
+      "options": [
+        "une vérité générale",
+        "une action passée",
+        "un ordre"
+      ],
+      "reponse": "une vérité générale",
+      "explication": "C’est toujours vrai."
+    },
+    {
+      "consigne": "Quel temps convient ? « Le loup … sur la chèvre. »",
+      "options": [
+        "se jeta",
+        "se jetait",
+        "se jettera"
+      ],
+      "reponse": "se jeta",
+      "explication": "Action brève de premier plan : passé simple."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 21,
+      "extrait": "Initier à la notion de valeurs des temps par observation, comparaison, opposition de phrases et textes rencontrés : des temps",
+      "appui": "Valeurs des temps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
