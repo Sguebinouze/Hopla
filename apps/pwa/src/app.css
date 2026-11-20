@@ -590,3 +590,4 @@ body.avec-clavier main { padding-bottom: 340px; }
 .passage__choix select { min-height: var(--target-min); border: 2px solid var(--line); border-radius: var(--radius-sm); padding: 0 var(--space-3); font: inherit; background: var(--surface-1); color: var(--ink); }
 .controle-parental { border: 0; max-width: min(360px, calc(100vw - 32px)); padding: var(--space-4); color: var(--ink); }
 .controle-parental::backdrop { background: rgb(0 0 0 / .45); }
+.cours__adulte { margin: 0; padding: var(--space-3); border-radius: var(--radius-md); background: var(--sun-soft); font-size: 16px; line-height: 24px; }

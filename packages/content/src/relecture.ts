@@ -142,7 +142,7 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
 }
 
 export interface Decision {
-  type: 'notion' | 'lecon' | 'question' | 'dictee' | 'media';
+  type: 'notion' | 'lecon' | 'question' | 'dictee' | 'media' | 'cours';
   element_id: string;
   decision: 'ok' | 'corriger';
   commentaire: string;
@@ -156,7 +156,7 @@ export interface BilanApplication {
 }
 
 /**
- * Applique les décisions « ok » : question, leçon, dictée et image passent en `publie` avec `relu_par`,
+ * Applique les décisions « ok » : question, leçon, cours, dictée et image passent en `publie` avec `relu_par`,
  * la notion passe en `verifie`. Les décisions « corriger » sont seulement listées.
  * Seul un humain prend ces décisions (espace admin) ; ce code ne fait que les reporter.
  */
@@ -185,6 +185,16 @@ export function appliquerRelecture(contenu: Contenu, decisions: Decision[], par:
       const brut = f && charger<{ statut: string; relu_par: string | null }>(f.fichier);
       if (!brut) { bilan.introuvables.push(d); continue; }
       if (brut.statut !== 'publie') { brut.statut = 'publie'; brut.relu_par = par; bilan.publies.push(`dictée ${d.element_id}`); }
+    } else if (d.type === 'cours') {
+      const k = contenu.cours?.find((x) => x.competence === d.element_id);
+      const brut = k && charger<{ statut: string; relu_par: string | null; sources: { page: number | null; extrait: string | null }[] }>(k.fichier);
+      if (!brut) { bilan.introuvables.push(d); continue; }
+      // Un cours publié cite chaque source avec page et extrait : sinon il reste en brouillon.
+      if (brut.sources.some((s) => s.page === null || s.extrait === null)) {
+        bilan.aCorriger.push({ ...d, commentaire: 'source sans page ni extrait' });
+        continue;
+      }
+      if (brut.statut !== 'publie') { brut.statut = 'publie'; brut.relu_par = par; bilan.publies.push(`cours ${d.element_id}`); }
     } else if (d.type === 'lecon') {
       const l = contenu.lecons.find((x) => x.competence === d.element_id);
       const brut = l && charger<{ statut: string; relu_par: string | null }>(l.fichier);

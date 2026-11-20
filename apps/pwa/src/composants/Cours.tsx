@@ -130,10 +130,16 @@ function Bloc({ b, images }: { b: BlocCours; images: CoursPack['images'] }) {
   }
 }
 
+/** CP et CE1 : l'enfant ne lit pas seul un cours complet, et Hopla n'a pas de voix pour le cours. */
+export const aLireAvecUnAdulte = (notion: string) => /^[A-Z]{2}-C2-(CP|CE1)-/.test(notion);
+
 /** Cours complet : parties, puis ce qu'on retient, puis les questions « À toi ». */
-export function Cours({ cours }: { cours: CoursPack }) {
+export function Cours({ cours, notion }: { cours: CoursPack; notion: string }) {
   return (
     <div className="cours">
+      {aLireAvecUnAdulte(notion) && (
+        <p className="cours__adulte"><strong>À lire avec un adulte.</strong> Il lit le cours à voix haute, tu réponds aux questions.</p>
+      )}
       {cours.parties.map((p, i) => (
         <section key={i} className="cours__partie" aria-labelledby={`partie-${i}`}>
           <h2 id={`partie-${i}`} className="cours__titre"><span className="cours__numero">{i + 1}</span>{p.titre}</h2>

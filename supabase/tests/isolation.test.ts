@@ -185,6 +185,7 @@ describe('sessions et isolation', () => {
     // Dictée et image : identifiant de fichier ; une notion ne prend pas un identifiant de dictée, ni l'inverse.
     await en({ parent: PARENT_A, parentMode: modeA }, `insert into public.relectures (type, element_id, decision) values ('dictee', 'ce1-merle', 'ok')`);
     await en({ parent: PARENT_A, parentMode: modeA }, `insert into public.relectures (type, element_id, decision) values ('media', 'emoji-pomme', 'ok')`);
+    await en({ parent: PARENT_A, parentMode: modeA }, `insert into public.relectures (type, element_id, decision) values ('cours', 'FR-C3-6E-GRAM-01', 'ok')`);
     await expect(en({ parent: PARENT_A, parentMode: modeA },
       `insert into public.relectures (type, element_id, decision) values ('notion', 'ce1-merle', 'ok')`)).rejects.toThrow(/check constraint/);
     await expect(en({ parent: PARENT_A, parentMode: modeA },

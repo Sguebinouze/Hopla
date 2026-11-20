@@ -161,7 +161,7 @@ export function Lecon() {
 
         {vue === 'cours' && c.cours ? (
           <div className="lecon__corps">
-            <Cours cours={c.cours} />
+            <Cours cours={c.cours} notion={c.id} />
             {jouable && <Link to={`/exercice/${c.id}`} className="hp-btn hp-btn--primary hp-btn--lg hp-btn--block">S’entrainer sur cette notion</Link>}
           </div>
         ) : <>

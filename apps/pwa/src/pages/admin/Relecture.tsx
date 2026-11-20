@@ -42,6 +42,7 @@ const matiere = (id: string) => MATIERES[id.slice(0, 2)] ?? id.slice(0, 2);
 const elements = (n: Notion): Element[] => [
   ...(n.verifiee ? [] : [{ type: 'notion' as const, id: n.id }]),
   ...(n.lecon ? [{ type: 'lecon' as const, id: n.id }] : []),
+  ...(n.cours ? [{ type: 'cours' as const, id: n.id }] : []),
   ...n.questions.map((q) => ({ type: 'question' as const, id: q.id })),
   ...(n.dictees ?? []).map((d) => ({ type: 'dictee' as const, id: d.id })),
   ...(n.medias ?? []).map((m) => ({ type: 'media' as const, id: m.id })),
@@ -229,8 +230,8 @@ function PageRelecture() {
             {n.cours && (
               <section className="hp-card relecture__carte lecon">
                 <h3 className="titre-3">Cours complet · environ {n.cours.duree} minutes</h3>
-                <p className="muet">Tel que l’élève le verra. Pilote : la décision se donne à Claude dans la conversation.</p>
-                <Cours cours={n.cours} />
+                <p className="muet">Tel que l’élève le verra. Un cours se publie seulement si chaque appui a sa page et son extrait.</p>
+                <Cours cours={n.cours} notion={n.id} />
                 <h4 className="titre-3">Appuis</h4>
                 <ul className="relecture__appuis">
                   {n.cours.sources.map((s, i) => (
@@ -242,6 +243,7 @@ function PageRelecture() {
                     </li>
                   ))}
                 </ul>
+                <Decision el={{ type: 'cours', id: n.id }} d={decision({ type: 'cours', id: n.id })} onDecider={decider} />
               </section>
             )}
 
