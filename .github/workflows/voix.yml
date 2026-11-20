@@ -10,7 +10,7 @@ on:
         default: '1200000'
   push:
     branches: [main]
-    paths: ['content/exercices/**', 'content/lecons/**', 'content/culture/**', 'apps/pwa/src/lib/textesLus.ts']
+    paths: ['content/exercices/**', 'content/lecons/**', 'content/culture/**', 'content/dictees/**', 'apps/pwa/src/lib/textesLus.ts']
 
 concurrency:
   group: voix
