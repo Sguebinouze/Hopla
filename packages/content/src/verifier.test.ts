@@ -88,12 +88,16 @@ describe('intégrité des références', () => {
       { type: 'dictee', element_id: 'ce1-merle', decision: 'ok', commentaire: '' },
       { type: 'dictee', element_id: 'inconnue', decision: 'ok', commentaire: '' },
     ], 'Laurent', false);
-    expect(bilan.publies).toEqual(['dictée ce1-merle']);
+    // Une dictée déjà publiée dans le dépôt ne l'est pas une seconde fois.
+    const merle = contenu.dictees!.find((x) => x.id === 'ce1-merle')!;
+    expect(bilan.publies).toEqual(merle.statut === 'publie' ? [] : ['dictée ce1-merle']);
     // Les images en brouillon se relisent sous la notion de leurs questions.
-    const avecImages = construireRelecture(contenu).find((x) => x.medias.length > 0)!;
+    const enBrouillon: Contenu = { ...contenu, medias: (contenu.medias ?? []).map((m) => ({ ...m, statut: 'brouillon' as const, relu_par: null })) };
+    const avecImages = construireRelecture(enBrouillon).find((x) => x.medias.length > 0)!;
     expect(avecImages.medias[0]!.usages.length).toBeGreaterThan(0);
-    expect(appliquerRelecture(contenu, [{ type: 'media', element_id: avecImages.medias[0]!.id, decision: 'ok', commentaire: '' }], 'Laurent', false)
-      .publies).toEqual([`image ${avecImages.medias[0]!.id}`]);
+    const image = contenu.medias!.find((m) => m.id === avecImages.medias[0]!.id)!;
+    expect(appliquerRelecture(contenu, [{ type: 'media', element_id: image.id, decision: 'ok', commentaire: '' }], 'Laurent', false)
+      .publies).toEqual(image.statut === 'publie' ? [] : [`image ${image.id}`]);
     expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['inconnue']);
   });
 
