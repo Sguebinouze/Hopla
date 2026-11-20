@@ -1,0 +1,123 @@
+{
+  "competence": "MA-C3-6E-DEC-04",
+  "duree": 7,
+  "essentiel": "Arrondir, c’est remplacer un nombre par la valeur la plus proche à la précision demandée.\nOn regarde le chiffre suivant : de 0 à 4, on garde ; de 5 à 9, on ajoute 1.\nL’arrondi au dixième de 3,476 est 3,5.",
+  "parties": [
+    {
+      "titre": "La valeur la plus proche",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Arrondi",
+              "definition": "Valeur la plus proche du nombre, avec la précision demandée."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Arrondis 3,476 au dixième.",
+          "exemples": [
+            "3,476 est entre 3,4 et 3,5.",
+            "Le chiffre des centièmes est 7.",
+            "7 ≥ 5 : on arrondit à 3,5."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour arrondir",
+          "etapes": [
+            "Repère le rang de la précision demandée.",
+            "Regarde le chiffre juste à sa droite.",
+            "De 0 à 4 : on garde le chiffre. De 5 à 9 : on ajoute 1.",
+            "On efface les chiffres suivants."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est l’arrondi à l’unité de 12,6 ?",
+          "options": [
+            "13",
+            "12",
+            "12,6"
+          ],
+          "reponse": "13",
+          "explication": "Le chiffre des dixièmes est 6 : on arrondit à 13."
+        }
+      ]
+    },
+    {
+      "titre": "Cas délicats",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Arrondis 4,98 au dixième.",
+          "etapes": [
+            "Le chiffre des centièmes est 8, on augmente le dixième.",
+            "9 dixièmes + 1 dixième = 10 dixièmes = 1 unité."
+          ],
+          "conclusion": "L’arrondi au dixième de 4,98 est 5,0."
+        },
+        {
+          "type": "piege",
+          "erreur": "On tronque : l’arrondi de 2,68 au dixième serait 2,6.",
+          "correction": "2,68 est plus proche de 2,7 que de 2,6. L’arrondi est 2,7."
+        },
+        {
+          "type": "explique",
+          "texte": "Certains nombres ne sont pas décimaux. On utilise leur arrondi : 1/3 ≈ 0,33 au centième."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Arrondi au centième de 7,253 ?",
+      "options": [
+        "7,25",
+        "7,26",
+        "7,3"
+      ],
+      "reponse": "7,25",
+      "explication": "Le millième est 3 : on garde 7,25."
+    },
+    {
+      "consigne": "Arrondi à l’unité de 0,5 ?",
+      "options": [
+        "1",
+        "0",
+        "0,5"
+      ],
+      "reponse": "1",
+      "explication": "Le dixième est 5 : on augmente, l’arrondi est 1."
+    },
+    {
+      "consigne": "Arrondi au dixième de 9,96 ?",
+      "options": [
+        "10,0",
+        "9,9",
+        "9,10"
+      ],
+      "reponse": "10,0",
+      "explication": "9,9 + 0,1 = 10,0."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Donner la valeur arrondie à l’unité, au dixième ou au centième, d’un nombre décimal",
+      "appui": "Arrondir un décimal"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Déterminer ou connaître la valeur arrondie de certains nombres non décimaux",
+      "appui": "Arrondi d’un nombre non décimal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

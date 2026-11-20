@@ -1,0 +1,118 @@
+{
+  "competence": "MA-C3-6E-FRAC-02",
+  "duree": 8,
+  "essentiel": "Pour prendre une fraction d’un nombre, on divise par le dénominateur puis on multiplie par le numérateur.\n2/3 de 12 : 12 ÷ 3 = 4, puis 2 × 4 = 8.\nOn peut aussi écrire 2/3 × 12 = 8.",
+  "parties": [
+    {
+      "titre": "Fraction d’une quantité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule les 2/3 de 12 œufs.",
+          "exemples": [
+            "Un tiers de 12 œufs : 12 ÷ 3 = 4 œufs.",
+            "Deux tiers : 2 × 4 = 8 œufs."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 3,
+            "colonnes": 4,
+            "coloriees": 8
+          },
+          "legende": "12 œufs en 3 rangées de 4 : 2 rangées sur 3, soit 8 œufs."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font les 3/4 de 20 € ?",
+          "options": [
+            "15 €",
+            "5 €",
+            "60 €"
+          ],
+          "reponse": "15 €",
+          "explication": "20 ÷ 4 = 5, puis 3 × 5 = 15."
+        }
+      ]
+    },
+    {
+      "titre": "La fraction comme opérateur",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Prendre les 2/3 de 12, c’est calculer 2/3 × 12. On peut aussi faire 2 × 12 = 24, puis 24 ÷ 3 = 8."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour calculer a/b de N",
+          "etapes": [
+            "Divise N par b.",
+            "Multiplie le résultat par a.",
+            "Si N ÷ b ne tombe pas juste, multiplie d’abord par a."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie par le dénominateur : 2/3 de 12 = 36.",
+          "correction": "Une fraction plus petite que 1 donne une partie, donc un résultat plus petit que 12."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font les 3/4 de 10 m ?",
+          "options": [
+            "7,5 m",
+            "7 m",
+            "13,3 m"
+          ],
+          "reponse": "7,5 m",
+          "explication": "3 × 10 = 30, puis 30 ÷ 4 = 7,5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les 2/5 de 25 ?",
+      "options": [
+        "10",
+        "5",
+        "50"
+      ],
+      "reponse": "10",
+      "explication": "25 ÷ 5 = 5, puis 2 × 5 = 10."
+    },
+    {
+      "consigne": "Les 5/6 d’une classe de 24 élèves sont demi-pensionnaires. Combien ?",
+      "options": [
+        "20",
+        "4",
+        "29"
+      ],
+      "reponse": "20",
+      "explication": "24 ÷ 6 = 4, puis 5 × 4 = 20."
+    },
+    {
+      "consigne": "Combien font 1/3 × 21 ?",
+      "options": [
+        "7",
+        "63",
+        "24"
+      ],
+      "reponse": "7",
+      "explication": "Un tiers de 21 : 21 ÷ 3 = 7."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 15,
+      "extrait": "Utiliser une multiplication pour appliquer une fraction à un nombre entier",
+      "appui": "Fraction d’un nombre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

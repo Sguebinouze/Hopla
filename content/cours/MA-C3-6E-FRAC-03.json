@@ -1,0 +1,123 @@
+{
+  "competence": "MA-C3-6E-FRAC-03",
+  "duree": 9,
+  "essentiel": "Pour additionner ou soustraire deux fractions, on les écrit avec le même dénominateur.\nOn ajoute ou on soustrait les numérateurs, on garde le dénominateur.\n1/3 + 5/6 = 2/6 + 5/6 = 7/6.",
+  "parties": [
+    {
+      "titre": "Même dénominateur",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 3/7 + 2/7.",
+          "exemples": [
+            "Ce sont des septièmes.",
+            "3 septièmes + 2 septièmes = 5 septièmes.",
+            "3/7 + 2/7 = 5/7."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 9/10 − 4/10 ?",
+          "options": [
+            "5/10",
+            "5/0",
+            "13/10"
+          ],
+          "reponse": "5/10",
+          "explication": "9 dixièmes − 4 dixièmes = 5 dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Dénominateurs différents",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 1/3 + 5/6",
+          "etapes": [
+            "Cherche si un dénominateur est un multiple de l’autre : 6 = 2 × 3.",
+            "Transforme : 1/3 = 2/6 (on multiplie haut et bas par 2).",
+            "Ajoute : 2/6 + 5/6 = 7/6."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "1/3 + 5/6 = 6/9.",
+          "correction": "On n’ajoute jamais les dénominateurs. On ramène au même dénominateur."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 3/4 − 3/8.",
+          "etapes": [
+            "8 = 2 × 4, donc 3/4 = 6/8.",
+            "6/8 − 3/8 = 3/8."
+          ],
+          "conclusion": "3/4 − 3/8 = 3/8"
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 1/2 + 3/10 ?",
+          "options": [
+            "8/10",
+            "4/12",
+            "4/10"
+          ],
+          "reponse": "8/10",
+          "explication": "1/2 = 5/10, et 5/10 + 3/10 = 8/10."
+        }
+      ]
+    },
+    {
+      "titre": "Avec un entier",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un entier s’écrit comme une fraction : 2 = 10/5. Donc 2 + 1/5 = 10/5 + 1/5 = 11/5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 2/9 + 5/9 ?",
+      "options": [
+        "7/9",
+        "7/18",
+        "10/9"
+      ],
+      "reponse": "7/9",
+      "explication": "Même dénominateur : 2 + 5 = 7."
+    },
+    {
+      "consigne": "Combien font 5/6 − 1/3 ?",
+      "options": [
+        "3/6",
+        "4/3",
+        "4/6"
+      ],
+      "reponse": "3/6",
+      "explication": "1/3 = 2/6, puis 5/6 − 2/6 = 3/6."
+    },
+    {
+      "consigne": "Combien font 1 + 3/4 ?",
+      "options": [
+        "7/4",
+        "4/4",
+        "4/5"
+      ],
+      "reponse": "7/4",
+      "explication": "1 = 4/4, puis 4/4 + 3/4 = 7/4."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Additionner et soustraire des fractions",
+      "appui": "Additionner des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

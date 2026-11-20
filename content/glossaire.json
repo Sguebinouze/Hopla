@@ -7,9 +7,33 @@
       }
     },
     {
+      "terme": "Aire",
+      "definitions": {
+        "3": "Mesure de la surface d’une figure."
+      }
+    },
+    {
       "terme": "Angle droit",
       "definitions": {
         "2": "Coin carré, comme le coin d’une feuille. On le vérifie avec l’équerre."
+      }
+    },
+    {
+      "terme": "Angles adjacents",
+      "definitions": {
+        "3": "Deux angles qui ont le même sommet et un côté commun, situés de part et d’autre de ce côté."
+      }
+    },
+    {
+      "terme": "Angles supplémentaires",
+      "definitions": {
+        "3": "Deux angles dont la somme des mesures est égale à 180°."
+      }
+    },
+    {
+      "terme": "Arrondi",
+      "definitions": {
+        "3": "Valeur la plus proche du nombre, avec la précision demandée."
       }
     },
     {
@@ -19,15 +43,29 @@
       }
     },
     {
+      "terme": "Axe de symétrie",
+      "definitions": {
+        "3": "Droite qui partage une figure en deux parties qui se superposent par pliage."
+      }
+    },
+    {
+      "terme": "Bissectrice",
+      "definitions": {
+        "3": "Demi-droite qui partage un angle en deux angles de même mesure."
+      }
+    },
+    {
       "terme": "Centre",
       "definitions": {
-        "2": "Point au milieu exact d’un cercle ou d’un disque."
+        "2": "Point au milieu exact d’un cercle ou d’un disque.",
+        "3": "Point situé à la même distance de tous les points d’un cercle."
       }
     },
     {
       "terme": "Cercle",
       "definitions": {
-        "2": "Ligne ronde et fermée. Tous ses points sont à la même distance du centre."
+        "2": "Ligne ronde et fermée. Tous ses points sont à la même distance du centre.",
+        "3": "Ensemble des points situés à une même distance d’un point appelé centre."
       }
     },
     {
@@ -37,15 +75,52 @@
       }
     },
     {
+      "terme": "Corde",
+      "definitions": {
+        "3": "Segment qui joint deux points d’un cercle."
+      }
+    },
+    {
       "terme": "Côté",
       "definitions": {
         "2": "Trait droit qui borde une figure."
       }
     },
     {
+      "terme": "Diamètre",
+      "definitions": {
+        "3": "Corde qui passe par le centre. Sa longueur vaut deux rayons."
+      }
+    },
+    {
       "terme": "Disque",
       "definitions": {
-        "2": "Surface ronde, limitée par un cercle."
+        "2": "Surface ronde, limitée par un cercle.",
+        "3": "Ensemble des points dont la distance au centre est inférieure ou égale au rayon."
+      }
+    },
+    {
+      "terme": "Distance",
+      "definitions": {
+        "3": "Longueur du segment qui joint deux points."
+      }
+    },
+    {
+      "terme": "Dividende",
+      "definitions": {
+        "3": "Nombre que l’on divise."
+      }
+    },
+    {
+      "terme": "Diviseur",
+      "definitions": {
+        "3": "Nombre par lequel on divise."
+      }
+    },
+    {
+      "terme": "Dénominateur",
+      "definitions": {
+        "3": "Nombre écrit sous le trait de fraction. Il ne peut pas être égal à 0."
       }
     },
     {
@@ -73,15 +148,51 @@
       }
     },
     {
+      "terme": "Milieu",
+      "definitions": {
+        "3": "Point d’un segment situé à la même distance de ses deux extrémités."
+      }
+    },
+    {
+      "terme": "Médiatrice",
+      "definitions": {
+        "3": "Droite perpendiculaire à un segment, qui passe par son milieu."
+      }
+    },
+    {
       "terme": "Nom",
       "definitions": {
         "2": "Mot qui désigne une personne, un animal, une chose ou une idée."
       }
     },
     {
+      "terme": "Numérateur",
+      "definitions": {
+        "3": "Nombre écrit au-dessus du trait de fraction."
+      }
+    },
+    {
       "terme": "Paix romaine",
       "definitions": {
         "3": "Longue période sans guerre à l’intérieur des frontières de l’empire, appelée pax romana en latin."
+      }
+    },
+    {
+      "terme": "Pourcentage",
+      "definitions": {
+        "3": "Proportion exprimée sur 100 : 25 % signifie 25 sur 100."
+      }
+    },
+    {
+      "terme": "Prisme droit",
+      "definitions": {
+        "3": "Solide qui a deux bases polygonales identiques et parallèles, reliées par des faces rectangulaires."
+      }
+    },
+    {
+      "terme": "Probabilité",
+      "definitions": {
+        "3": "Nombre compris entre 0 et 1 qui mesure la chance qu’un évènement se produise."
       }
     },
     {
@@ -103,9 +214,33 @@
       }
     },
     {
+      "terme": "Périmètre",
+      "definitions": {
+        "3": "Longueur du contour d’une figure."
+      }
+    },
+    {
+      "terme": "Quotient",
+      "definitions": {
+        "3": "Résultat d’une division. Dans la division euclidienne, c’est un nombre entier."
+      }
+    },
+    {
       "terme": "Radical",
       "definitions": {
         "2": "Début du verbe, qui ne change pas : chant- dans chanter."
+      }
+    },
+    {
+      "terme": "Rayon",
+      "definitions": {
+        "3": "Distance entre le centre et un point du cercle. C’est aussi le segment qui les joint."
+      }
+    },
+    {
+      "terme": "Reste",
+      "definitions": {
+        "3": "Ce qui reste dans une division euclidienne. Il est toujours plus petit que le diviseur."
       }
     },
     {
@@ -142,6 +277,12 @@
       "terme": "Verbe",
       "definitions": {
         "2": "Mot qui dit ce que fait le sujet. Il change avec le temps."
+      }
+    },
+    {
+      "terme": "Volume",
+      "definitions": {
+        "3": "Mesure de la place occupée par un solide."
       }
     }
   ]

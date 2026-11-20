@@ -1,0 +1,152 @@
+{
+  "competence": "MA-C3-6E-PROP-01",
+  "duree": 9,
+  "essentiel": "Deux grandeurs sont proportionnelles si l’on passe de l’une à l’autre en multipliant toujours par le même nombre.\nLinéarité : si la quantité est multipliée par 4, le prix est multiplié par 4.\nRetour à l’unité : on calcule d’abord le prix d’un objet.",
+  "parties": [
+    {
+      "titre": "Reconnaitre une situation de proportionnalité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des pommes coûtent 2 € le kilo.",
+          "exemples": [
+            "1 kg coûte 2 €.",
+            "3 kg coûtent 6 €.",
+            "5 kg coûtent 10 €.",
+            "Le prix au kilo est toujours 2 € : c’est proportionnel."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Prix des pommes",
+          "colonnes": [
+            "Masse (kg)",
+            "Prix (€)"
+          ],
+          "lignes": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "3",
+              "6"
+            ],
+            [
+              "5",
+              "10"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’âge et la taille sont proportionnels.",
+          "correction": "À 10 ans on ne mesure pas deux fois sa taille de 5 ans. Ce n’est pas proportionnel."
+        },
+        {
+          "type": "question",
+          "consigne": "Un taxi prend 3 € de départ, puis 1 € par km. Le prix est-il proportionnel à la distance ?",
+          "options": [
+            "non",
+            "oui",
+            "parfois"
+          ],
+          "reponse": "non",
+          "explication": "Pour 0 km, on paie déjà 3 €. Ce n’est pas proportionnel."
+        }
+      ]
+    },
+    {
+      "titre": "Trois procédures",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Linéarité multiplicative",
+          "etapes": [
+            "3 kg coûtent 6 €.",
+            "12 kg, c’est 4 fois plus.",
+            "Le prix est 4 fois plus grand : 4 × 6 = 24 €."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Linéarité additive",
+          "etapes": [
+            "3 kg coûtent 6 € et 5 kg coûtent 10 €.",
+            "8 kg = 3 kg + 5 kg.",
+            "Prix : 6 + 10 = 16 €."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Retour à l’unité",
+          "etapes": [
+            "4 cahiers coûtent 10 €.",
+            "1 cahier coûte 10 ÷ 4 = 2,50 €.",
+            "7 cahiers coûtent 7 × 2,50 = 17,50 €."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "6 croissants coûtent 7,20 €. Combien coûtent 3 croissants ?",
+          "options": [
+            "3,60 €",
+            "4,20 €",
+            "14,40 €"
+          ],
+          "reponse": "3,60 €",
+          "explication": "3, c’est la moitié de 6 : 7,20 ÷ 2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "5 m de tissu coûtent 40 €. Combien coûtent 15 m ?",
+      "options": [
+        "120 €",
+        "50 €",
+        "80 €"
+      ],
+      "reponse": "120 €",
+      "explication": "15 = 3 × 5, donc 3 × 40."
+    },
+    {
+      "consigne": "Une recette pour 4 personnes demande 200 g de farine. Pour 6 personnes ?",
+      "options": [
+        "300 g",
+        "400 g",
+        "250 g"
+      ],
+      "reponse": "300 g",
+      "explication": "1 personne : 50 g. 6 × 50 = 300."
+    },
+    {
+      "consigne": "Un robinet remplit 12 L en 3 min. Combien en 5 min ?",
+      "options": [
+        "20 L",
+        "15 L",
+        "36 L"
+      ],
+      "reponse": "20 L",
+      "explication": "1 min : 4 L. 5 × 4 = 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 27,
+      "extrait": "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication",
+      "appui": "Procédures de proportionnalité"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 27,
+      "extrait": "Identifier si une situation relève du « modèle » de la proportionnalité",
+      "appui": "Reconnaitre la proportionnalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,147 @@
+{
+  "competence": "MA-C3-6E-DEC-03",
+  "duree": 8,
+  "essentiel": "Une fraction décimale a pour dénominateur 10, 100, 1 000…\n1/10 = 0,1 ; 1/100 = 0,01 ; 1/1 000 = 0,001.\n4 107/1 000 = 4 + 107/1 000 = 4 + 1/10 + 7/1 000 = 4,107.",
+  "parties": [
+    {
+      "titre": "Fractions décimales et écriture à virgule",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Numérateur",
+              "definition": "Nombre écrit au-dessus du trait de fraction."
+            },
+            {
+              "mot": "Dénominateur",
+              "definition": "Nombre écrit sous le trait de fraction. Il ne peut pas être égal à 0."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les rangs après la virgule",
+          "colonnes": [
+            "Rang",
+            "Fraction",
+            "Écriture à virgule"
+          ],
+          "lignes": [
+            [
+              "dixième",
+              "1/10",
+              "0,1"
+            ],
+            [
+              "centième",
+              "1/100",
+              "0,01"
+            ],
+            [
+              "millième",
+              "1/1 000",
+              "0,001"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment s’écrit 37/100 ?",
+          "options": [
+            "0,37",
+            "3,7",
+            "0,037"
+          ],
+          "reponse": "0,37",
+          "explication": "37 centièmes : 0,37."
+        }
+      ]
+    },
+    {
+      "titre": "D’une écriture à l’autre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 4 + 1/10 + 7/1 000 avec une virgule.",
+          "etapes": [
+            "4 unités.",
+            "1 dixième : chiffre 1 au rang des dixièmes.",
+            "0 centième.",
+            "7 millièmes : chiffre 7 au rang des millièmes."
+          ],
+          "conclusion": "4 + 1/10 + 7/1 000 = 4,107"
+        },
+        {
+          "type": "methode",
+          "titre": "Pour passer de 4,107 à une fraction décimale",
+          "etapes": [
+            "Compte les chiffres après la virgule : 3.",
+            "Le dénominateur est donc 1 000.",
+            "Le numérateur est le nombre sans virgule : 4 107.",
+            "4,107 = 4 107/1 000."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 7/1 000 = 0,7.",
+          "correction": "7 millièmes s’écrit au troisième rang : 0,007."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fraction est égale à 2,3 ?",
+          "options": [
+            "23/10",
+            "23/100",
+            "2/3"
+          ],
+          "reponse": "23/10",
+          "explication": "Un chiffre après la virgule : dénominateur 10."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment s’écrit 5 + 4/100 ?",
+      "options": [
+        "5,04",
+        "5,4",
+        "5,004"
+      ],
+      "reponse": "5,04",
+      "explication": "4 centièmes : deuxième rang après la virgule."
+    },
+    {
+      "consigne": "Quelle fraction est égale à 0,019 ?",
+      "options": [
+        "19/1 000",
+        "19/100",
+        "19/10"
+      ],
+      "reponse": "19/1 000",
+      "explication": "Trois chiffres après la virgule : 1 000."
+    },
+    {
+      "consigne": "Que vaut 125/100 ?",
+      "options": [
+        "1,25",
+        "12,5",
+        "0,125"
+      ],
+      "reponse": "1,25",
+      "explication": "125 centièmes = 1 unité et 25 centièmes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 13,
+      "extrait": "L’élève passe de manière automatique d’une écriture sous forme de fraction décimale ou de somme de fractions décimales à",
+      "appui": "Fractions décimales et écriture à virgule"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

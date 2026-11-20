@@ -1,0 +1,146 @@
+{
+  "competence": "MA-C3-6E-DEC-01",
+  "duree": 8,
+  "essentiel": "Pour comparer deux décimaux, on compare d’abord les parties entières.\nSi elles sont égales, on compare les dixièmes, puis les centièmes, puis les millièmes.\n2,5 > 2,45 car 5 dixièmes est plus grand que 4 dixièmes.",
+  "parties": [
+    {
+      "titre": "Comparer chiffre par chiffre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare 2,5 et 2,45.",
+          "exemples": [
+            "Parties entières : 2 et 2, elles sont égales.",
+            "Dixièmes : 5 et 4. Or 5 > 4.",
+            "Donc 2,5 > 2,45, même si 45 > 5."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux nombres rangés par rang",
+          "colonnes": [
+            "Nombre",
+            "Unités",
+            "Dixièmes",
+            "Centièmes"
+          ],
+          "lignes": [
+            [
+              "2,5",
+              "2",
+              "5",
+              "0"
+            ],
+            [
+              "2,45",
+              "2",
+              "4",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux nombres décimaux",
+          "etapes": [
+            "Compare les parties entières.",
+            "Si elles sont égales, compare les chiffres des dixièmes.",
+            "Continue rang par rang jusqu’à trouver deux chiffres différents.",
+            "Tu peux ajouter des zéros à droite : 2,5 = 2,50."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 2,45 > 2,5 parce que 45 > 5.",
+          "correction": "On ne compare pas les parties décimales comme des entiers. On compare rang par rang : 2,50 > 2,45."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel nombre est le plus grand ?",
+          "options": [
+            "3,7",
+            "3,68",
+            "3,069"
+          ],
+          "reponse": "3,7",
+          "explication": "Dixièmes : 7, 6 et 0. Le plus grand est 3,7."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger des décimaux",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range dans l’ordre croissant : 4,08 ; 4,8 ; 4,1 ; 4,018.",
+          "etapes": [
+            "Toutes les parties entières valent 4.",
+            "On écrit avec trois décimales : 4,080 ; 4,800 ; 4,100 ; 4,018.",
+            "On compare 80, 800, 100 et 18 millièmes."
+          ],
+          "conclusion": "4,018 < 4,08 < 4,1 < 4,8"
+        },
+        {
+          "type": "question",
+          "consigne": "Quel nombre est compris entre 1,2 et 1,3 ?",
+          "options": [
+            "1,25",
+            "1,35",
+            "1,195"
+          ],
+          "reponse": "1,25",
+          "explication": "1,20 < 1,25 < 1,30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe va entre 0,7 et 0,69 ?",
+      "options": [
+        ">",
+        "<",
+        "="
+      ],
+      "reponse": ">",
+      "explication": "0,70 > 0,69 : 7 dixièmes contre 6 dixièmes."
+    },
+    {
+      "consigne": "Range dans l’ordre décroissant : 5,3 ; 5,03 ; 5,33.",
+      "options": [
+        "5,33 ; 5,3 ; 5,03",
+        "5,03 ; 5,3 ; 5,33",
+        "5,3 ; 5,33 ; 5,03"
+      ],
+      "reponse": "5,33 ; 5,3 ; 5,03",
+      "explication": "En centièmes : 533, 530, 503."
+    },
+    {
+      "consigne": "Quel nombre est égal à 6,40 ?",
+      "options": [
+        "6,4",
+        "6,04",
+        "64"
+      ],
+      "reponse": "6,4",
+      "explication": "Un zéro à droite de la partie décimale ne change pas le nombre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Comparer deux nombres décimaux",
+      "appui": "Comparer des décimaux en 6e"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Ordonner une liste de nombres décimaux",
+      "appui": "Ranger des décimaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

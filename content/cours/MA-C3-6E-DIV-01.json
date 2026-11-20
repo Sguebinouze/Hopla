@@ -1,0 +1,147 @@
+{
+  "competence": "MA-C3-6E-DIV-01",
+  "duree": 9,
+  "essentiel": "Diviser a par b, c’est trouver q et r tels que a = b × q + r avec r < b.\na est le dividende, b le diviseur, q le quotient, r le reste.\n347 = 12 × 28 + 11 et 11 < 12.",
+  "parties": [
+    {
+      "titre": "Le vocabulaire",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Dividende",
+              "definition": "Nombre que l’on divise."
+            },
+            {
+              "mot": "Diviseur",
+              "definition": "Nombre par lequel on divise."
+            },
+            {
+              "mot": "Quotient",
+              "definition": "Résultat d’une division. Dans la division euclidienne, c’est un nombre entier."
+            },
+            {
+              "mot": "Reste",
+              "definition": "Ce qui reste dans une division euclidienne. Il est toujours plus petit que le diviseur."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "On range 347 œufs dans des boites de 12.",
+          "exemples": [
+            "On remplit 28 boites : 12 × 28 = 336.",
+            "Il reste 347 − 336 = 11 œufs.",
+            "On écrit 347 = 12 × 28 + 11."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 50 = 7 × 7 + 1, quel est le reste ?",
+          "options": [
+            "1",
+            "7",
+            "50"
+          ],
+          "reponse": "1",
+          "explication": "Le reste est 1, et 1 < 7."
+        }
+      ]
+    },
+    {
+      "titre": "Poser la division",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour diviser 347 par 12",
+          "etapes": [
+            "Prends assez de chiffres : 34 ÷ 12 = 2, reste 10.",
+            "Abaisse le 7 : 107 ÷ 12 = 8, reste 11.",
+            "Le quotient est 28, le reste est 11.",
+            "Vérifie : 12 × 28 + 11 = 347 et 11 < 12."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 347 = 12 × 27 + 23.",
+          "correction": "C’est vrai, mais 23 > 12 : on peut encore remplir une boite. Le reste doit être plus petit que le diviseur."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le quotient de 100 par 8 ?",
+          "options": [
+            "12",
+            "12,5",
+            "4"
+          ],
+          "reponse": "12",
+          "explication": "8 × 12 = 96, reste 4."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir la bonne réponse au problème",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "130 élèves partent en sortie. Un car a 48 places. Combien faut-il de cars ?",
+          "etapes": [
+            "130 = 48 × 2 + 34.",
+            "Deux cars ne suffisent pas : il reste 34 élèves."
+          ],
+          "conclusion": "Il faut 3 cars."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est le reste de 75 divisé par 9 ?",
+      "options": [
+        "3",
+        "8",
+        "0"
+      ],
+      "reponse": "3",
+      "explication": "9 × 8 = 72, 75 − 72 = 3."
+    },
+    {
+      "consigne": "Quelle égalité traduit la division euclidienne de 60 par 7 ?",
+      "options": [
+        "60 = 7 × 8 + 4",
+        "60 = 7 × 7 + 11",
+        "60 = 8 × 7 + 5"
+      ],
+      "reponse": "60 = 7 × 8 + 4",
+      "explication": "Le reste 4 est plus petit que 7."
+    },
+    {
+      "consigne": "200 billes en sachets de 15. Combien de sachets pleins ?",
+      "options": [
+        "13",
+        "14",
+        "15"
+      ],
+      "reponse": "13",
+      "explication": "15 × 13 = 195, reste 5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Effectuer la division euclidienne d’un nombre entier par un nombre entier inférieur à 100",
+      "appui": "Division euclidienne"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Résoudre des problèmes mettant en jeu des divisions euclidiennes",
+      "appui": "Problèmes de division euclidienne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

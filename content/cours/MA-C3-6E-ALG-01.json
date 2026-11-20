@@ -1,0 +1,132 @@
+{
+  "competence": "MA-C3-6E-ALG-01",
+  "duree": 7,
+  "essentiel": "Un motif évolutif change d’une étape à l’autre selon une règle.\nOn cherche ce qui reste fixe et ce qui s’ajoute à chaque étape.\nÉtapes de 3, 5, 7 allumettes : on ajoute 2. À l’étape n, il y a 2 × n + 1 allumettes.",
+  "parties": [
+    {
+      "titre": "Repérer la régularité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une frise de triangles en allumettes.",
+          "exemples": [
+            "Étape 1 : 3 allumettes.",
+            "Étape 2 : 5 allumettes.",
+            "Étape 3 : 7 allumettes.",
+            "Chaque nouveau triangle ajoute 2 allumettes."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Nombre d’allumettes",
+          "colonnes": [
+            "Étape",
+            "Allumettes",
+            "Calcul"
+          ],
+          "lignes": [
+            [
+              "1",
+              "3",
+              "1 + 2 × 1"
+            ],
+            [
+              "2",
+              "5",
+              "1 + 2 × 2"
+            ],
+            [
+              "3",
+              "7",
+              "1 + 2 × 3"
+            ],
+            [
+              "10",
+              "21",
+              "1 + 2 × 10"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien d’allumettes à l’étape 4 ?",
+          "options": [
+            "9",
+            "8",
+            "12"
+          ],
+          "reponse": "9",
+          "explication": "7 + 2 = 9."
+        }
+      ]
+    },
+    {
+      "titre": "Prévoir une étape lointaine",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver une étape lointaine",
+          "etapes": [
+            "Repère ce qui est présent dès le départ : 1 allumette.",
+            "Repère ce qui s’ajoute à chaque étape : 2 allumettes.",
+            "Écris le calcul pour l’étape voulue : 1 + 2 × 50 = 101."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On calcule l’étape 10 en doublant l’étape 5 : 2 × 11 = 22.",
+          "correction": "Le départ fixe n’est compté qu’une fois. Étape 10 : 1 + 2 × 10 = 21."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Suite 4, 7, 10, 13… Quel nombre suit ?",
+      "options": [
+        "16",
+        "15",
+        "17"
+      ],
+      "reponse": "16",
+      "explication": "On ajoute 3 à chaque fois."
+    },
+    {
+      "consigne": "Un motif a 5 carrés à l’étape 1 et gagne 4 carrés par étape. Étape 3 ?",
+      "options": [
+        "13",
+        "12",
+        "15"
+      ],
+      "reponse": "13",
+      "explication": "5 + 4 + 4 = 13."
+    },
+    {
+      "consigne": "Avec la règle 1 + 2 × n, combien d’allumettes à l’étape 100 ?",
+      "options": [
+        "201",
+        "200",
+        "102"
+      ],
+      "reponse": "201",
+      "explication": "1 + 200 = 201."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 16,
+      "extrait": "Identifier la structure d’un motif évolutif en repérant une régularité et en identifiant une structure",
+      "appui": "Motifs évolutifs"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 13,
+      "extrait": "Trouver le nombre d’éléments pour une étape donnée dans une suite de motifs évolutive",
+      "appui": "Étape donnée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,153 @@
+{
+  "competence": "MA-C3-6E-FRAC-01",
+  "duree": 7,
+  "essentiel": "À connaitre par cœur : 1/4 = 0,25 ; 1/2 = 0,5 ; 3/4 = 0,75.\n3/2 = 1,5 ; 4/2 = 2 ; 5/2 = 2,5.\n1/4 + 1/4 = 1/2 ; 1/2 + 1/4 = 3/4 ; 1 − 1/4 = 3/4.",
+  "parties": [
+    {
+      "titre": "Fractions et décimaux usuels",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les écritures à connaitre",
+          "colonnes": [
+            "Fraction",
+            "Écriture décimale"
+          ],
+          "lignes": [
+            [
+              "1/4",
+              "0,25"
+            ],
+            [
+              "1/2",
+              "0,5"
+            ],
+            [
+              "3/4",
+              "0,75"
+            ],
+            [
+              "3/2",
+              "1,5"
+            ],
+            [
+              "4/2",
+              "2"
+            ],
+            [
+              "5/2",
+              "2,5"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 4,
+                "coloriees": 1,
+                "nom": "1/4"
+              },
+              {
+                "parts": 2,
+                "coloriees": 1,
+                "nom": "1/2"
+              },
+              {
+                "parts": 4,
+                "coloriees": 3,
+                "nom": "3/4"
+              }
+            ]
+          },
+          "legende": "Un quart, un demi et trois quarts de la même bande."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle écriture est égale à 0,75 ?",
+          "options": [
+            "3/4",
+            "7/5",
+            "1/75"
+          ],
+          "reponse": "3/4",
+          "explication": "3 quarts : 0,25 + 0,25 + 0,25 = 0,75."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer avec des quarts et des demis",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 1/2 + 1/4",
+          "etapes": [
+            "Écris le demi en quarts : 1/2 = 2/4.",
+            "Ajoute les quarts : 2/4 + 1/4 = 3/4."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute numérateurs et dénominateurs : 1/2 + 1/4 = 2/6.",
+          "correction": "On ajoute des parts de même taille. 1/2 = 2/4, donc 1/2 + 1/4 = 3/4."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 1 − 1/2 ?",
+          "options": [
+            "1/2",
+            "0",
+            "1/4"
+          ],
+          "reponse": "1/2",
+          "explication": "Un entier, c’est deux demis. 2/2 − 1/2 = 1/2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 1/4 + 1/4 ?",
+      "options": [
+        "1/2",
+        "2/8",
+        "1/8"
+      ],
+      "reponse": "1/2",
+      "explication": "2/4 = 1/2."
+    },
+    {
+      "consigne": "Comment s’écrit 5/2 en décimal ?",
+      "options": [
+        "2,5",
+        "5,2",
+        "0,52"
+      ],
+      "reponse": "2,5",
+      "explication": "5 demis = 2 unités et 1 demi."
+    },
+    {
+      "consigne": "Combien font 3/4 − 1/2 ?",
+      "options": [
+        "1/4",
+        "2/2",
+        "1/2"
+      ],
+      "reponse": "1/4",
+      "explication": "3/4 − 2/4 = 1/4."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 15,
+      "extrait": "L’élève sait passer de manière automatique d’une écriture fractionnaire à une écriture décimale, et inversement, dans les cas",
+      "appui": "Fractions usuelles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

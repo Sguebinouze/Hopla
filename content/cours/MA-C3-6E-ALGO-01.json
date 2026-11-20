@@ -1,0 +1,104 @@
+{
+  "competence": "MA-C3-6E-ALGO-01",
+  "duree": 7,
+  "essentiel": "Un programme est une suite d’instructions exécutées dans l’ordre.\nUne boucle « répéter n fois » évite d’écrire n fois les mêmes instructions.\nRépéter 4 fois : avancer de 50, tourner de 90°. On obtient un carré.",
+  "parties": [
+    {
+      "titre": "Exécuter une séquence",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le lutin part en regardant vers la droite.",
+          "exemples": [
+            "Avancer de 50 pas.",
+            "Tourner de 90° vers la gauche.",
+            "Avancer de 50 pas.",
+            "Il a tracé deux côtés d’un carré."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour exécuter un programme",
+          "etapes": [
+            "Lis les instructions une par une, dans l’ordre.",
+            "Note la position et l’orientation après chacune.",
+            "Dans une boucle, refais le bloc le nombre de fois indiqué."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de côtés trace « répéter 3 fois : avancer de 60, tourner de 120° » ?",
+          "options": [
+            "3",
+            "6",
+            "120"
+          ],
+          "reponse": "3",
+          "explication": "Chaque tour de boucle trace un côté : un triangle équilatéral."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire une boucle",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris un programme pour tracer un carré de côté 50.",
+          "etapes": [
+            "Un carré a 4 côtés égaux et 4 angles droits.",
+            "Le bloc à répéter : avancer de 50, tourner de 90°."
+          ],
+          "conclusion": "Répéter 4 fois : avancer de 50, tourner de 90°."
+        },
+        {
+          "type": "piege",
+          "erreur": "On place « tourner » hors de la boucle.",
+          "correction": "Le lutin avancerait 4 fois tout droit. Le virage doit être répété avec le côté."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Que trace « répéter 6 fois : avancer de 40, tourner de 60° » ?",
+      "options": [
+        "un hexagone",
+        "un carré",
+        "un triangle"
+      ],
+      "reponse": "un hexagone",
+      "explication": "6 côtés égaux : un hexagone."
+    },
+    {
+      "consigne": "Quel bloc trace un carré ?",
+      "options": [
+        "répéter 4 fois : avancer 30, tourner 90°",
+        "répéter 2 fois : avancer 30, tourner 90°",
+        "répéter 4 fois : avancer 30, tourner 60°"
+      ],
+      "reponse": "répéter 4 fois : avancer 30, tourner 90°",
+      "explication": "4 côtés et 4 angles droits."
+    },
+    {
+      "consigne": "Une boucle sert à :",
+      "options": [
+        "répéter des instructions",
+        "effacer le dessin",
+        "changer de couleur"
+      ],
+      "reponse": "répéter des instructions",
+      "explication": "Elle répète un bloc d’instructions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 28,
+      "extrait": "Produire et exécuter une séquence d’instructions",
+      "appui": "Séquences d’instructions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

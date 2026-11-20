@@ -1,0 +1,158 @@
+{
+  "competence": "MA-C3-6E-DEC-02",
+  "duree": 8,
+  "essentiel": "Multiplier par 10, 100 ou 1 000 : chaque chiffre prend une valeur 10, 100 ou 1 000 fois plus grande.\nDiviser par 10, 100 ou 1 000 : chaque chiffre prend une valeur 10, 100 ou 1 000 fois plus petite.\nMultiplier par 0,1, c’est diviser par 10. Multiplier par 0,01, c’est diviser par 100.",
+  "parties": [
+    {
+      "titre": "Multiplier par 10, 100, 1 000",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 3,45 × 100.",
+          "exemples": [
+            "3 unités deviennent 3 centaines.",
+            "4 dixièmes deviennent 4 dizaines.",
+            "5 centièmes deviennent 5 unités.",
+            "3,45 × 100 = 345."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Ce n’est pas la virgule qui se déplace : ce sont les chiffres qui changent de rang. Le résultat est le même que si la virgule glissait vers la droite."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute des zéros à droite : 3,45 × 100 = 3,4500.",
+          "correction": "3,4500 = 3,45. Ajouter des zéros après la virgule ne multiplie pas. Le bon résultat est 345."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 0,6 × 1 000 ?",
+          "options": [
+            "600",
+            "0,6000",
+            "6"
+          ],
+          "reponse": "600",
+          "explication": "6 dixièmes × 1 000 = 6 centaines."
+        }
+      ]
+    },
+    {
+      "titre": "Diviser par 10, 100, 1 000",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour diviser par 10, 100 ou 1 000",
+          "etapes": [
+            "Compte les zéros du diviseur : 1, 2 ou 3.",
+            "Chaque chiffre recule d’autant de rangs vers la droite.",
+            "Complète par des zéros si besoin : 72,1 ÷ 1 000 = 0,0721."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 58 ÷ 100 ?",
+          "options": [
+            "0,58",
+            "5,8",
+            "5 800"
+          ],
+          "reponse": "0,58",
+          "explication": "5 dizaines deviennent 5 dixièmes : 0,58."
+        }
+      ]
+    },
+    {
+      "titre": "Multiplier par 0,1, 0,01, 0,001",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "0,1 est un dixième. Prendre un dixième d’un nombre, c’est le diviser par 10. Ainsi 45 × 0,01 = 45 ÷ 100 = 0,45."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux écritures du même calcul",
+          "colonnes": [
+            "Multiplier par",
+            "C’est diviser par"
+          ],
+          "lignes": [
+            [
+              "0,1",
+              "10"
+            ],
+            [
+              "0,01",
+              "100"
+            ],
+            [
+              "0,001",
+              "1 000"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 7 × 0,1 ?",
+          "options": [
+            "0,7",
+            "70",
+            "7,1"
+          ],
+          "reponse": "0,7",
+          "explication": "7 × 0,1 = 7 ÷ 10 = 0,7."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 2,07 × 10 ?",
+      "options": [
+        "20,7",
+        "2,070",
+        "207"
+      ],
+      "reponse": "20,7",
+      "explication": "Chaque chiffre gagne un rang : 20,7."
+    },
+    {
+      "consigne": "Combien font 4,5 ÷ 1 000 ?",
+      "options": [
+        "0,0045",
+        "0,045",
+        "4 500"
+      ],
+      "reponse": "0,0045",
+      "explication": "Chaque chiffre recule de trois rangs."
+    },
+    {
+      "consigne": "Combien font 360 × 0,01 ?",
+      "options": [
+        "3,6",
+        "36",
+        "0,36"
+      ],
+      "reponse": "3,6",
+      "explication": "360 ÷ 100 = 3,6."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 13,
+      "extrait": "L’élève applique de manière automatique la procédure de multiplication d’un nombre décimal par 1, par 10, par 100 ou par 1 000,",
+      "appui": "Multiplier par 10, 100, 1 000"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Multiplier un nombre entier ou un nombre décimal par 0,1, par 0,01, et par 0,001",
+      "appui": "Multiplier par 0,1, 0,01, 0,001"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

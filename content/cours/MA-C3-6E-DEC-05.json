@@ -1,0 +1,125 @@
+{
+  "competence": "MA-C3-6E-DEC-05",
+  "duree": 9,
+  "essentiel": "Pour multiplier deux décimaux, on multiplie sans tenir compte des virgules.\nLe résultat a autant de chiffres après la virgule que les deux facteurs réunis.\nOn vérifie avec un ordre de grandeur.",
+  "parties": [
+    {
+      "titre": "Un nouveau sens de la multiplication",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un rectangle mesure 2,5 cm sur 0,4 cm.",
+          "exemples": [
+            "Son aire est 2,5 × 0,4 cm².",
+            "Ce n’est plus une addition répétée : on ne peut pas ajouter 2,5 « 0,4 fois ».",
+            "2,5 × 0,4 = 1 : l’aire est 1 cm²."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Multiplier par un nombre plus petit que 1 donne un résultat **plus petit** que le nombre de départ."
+        },
+        {
+          "type": "question",
+          "consigne": "2,5 × 0,4 est-il plus petit que 2,5 ?",
+          "options": [
+            "oui",
+            "non",
+            "on ne peut pas savoir"
+          ],
+          "reponse": "oui",
+          "explication": "0,4 < 1, donc le produit est plus petit que 2,5."
+        }
+      ]
+    },
+    {
+      "titre": "La technique",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 3,6 × 1,25",
+          "etapes": [
+            "Calcule sans les virgules : 36 × 125 = 4 500.",
+            "Compte les décimales : 1 dans 3,6 et 2 dans 1,25, soit 3.",
+            "Place la virgule : 4,500 = 4,5.",
+            "Ordre de grandeur : 4 × 1 = 4. Le résultat est cohérent."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On aligne les virgules comme pour une addition.",
+          "correction": "Pour multiplier, on aligne les chiffres à droite et on place la virgule à la fin."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 0,3 × 0,2.",
+          "etapes": [
+            "3 × 2 = 6.",
+            "Deux décimales en tout."
+          ],
+          "conclusion": "0,3 × 0,2 = 0,06"
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 1,2 × 0,5 ?",
+          "options": [
+            "0,6",
+            "6",
+            "0,06"
+          ],
+          "reponse": "0,6",
+          "explication": "12 × 5 = 60, deux décimales : 0,60."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 4,5 × 2 ?",
+      "options": [
+        "9",
+        "8,10",
+        "0,9"
+      ],
+      "reponse": "9",
+      "explication": "45 × 2 = 90, une décimale : 9,0."
+    },
+    {
+      "consigne": "Combien font 0,7 × 0,8 ?",
+      "options": [
+        "0,56",
+        "5,6",
+        "0,056"
+      ],
+      "reponse": "0,56",
+      "explication": "7 × 8 = 56, deux décimales."
+    },
+    {
+      "consigne": "Ordre de grandeur de 19,8 × 3,1 ?",
+      "options": [
+        "60",
+        "6",
+        "600"
+      ],
+      "reponse": "60",
+      "explication": "20 × 3 = 60."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Calculer le produit de deux nombres décimaux",
+      "appui": "Multiplier deux décimaux"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Contrôler les résultats à l’aide d’ordres de grandeur",
+      "appui": "Ordre de grandeur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

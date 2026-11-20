@@ -1,0 +1,153 @@
+{
+  "competence": "MA-C3-6E-PCT-01",
+  "duree": 8,
+  "essentiel": "Un pourcentage est une proportion sur 100 : 25 % = 25/100.\nPrendre 25 % de 80, c’est calculer 25/100 × 80 = 20.\nÀ connaitre : 50 % = la moitié, 25 % = le quart, 10 % = le dixième.",
+  "parties": [
+    {
+      "titre": "Le sens d’un pourcentage",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Pourcentage",
+              "definition": "Proportion exprimée sur 100 : 25 % signifie 25 sur 100."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "40 % des élèves d’un collège viennent à pied.",
+          "exemples": [
+            "Sur 100 élèves, 40 viennent à pied.",
+            "Sur 200 élèves, 80 viennent à pied.",
+            "La proportion reste la même : 40 sur 100."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Pourcentages usuels",
+          "colonnes": [
+            "Pourcentage",
+            "Fraction",
+            "Calcul"
+          ],
+          "lignes": [
+            [
+              "50 %",
+              "1/2",
+              "diviser par 2"
+            ],
+            [
+              "25 %",
+              "1/4",
+              "diviser par 4"
+            ],
+            [
+              "75 %",
+              "3/4",
+              "diviser par 4, multiplier par 3"
+            ],
+            [
+              "10 %",
+              "1/10",
+              "diviser par 10"
+            ],
+            [
+              "100 %",
+              "1",
+              "le tout"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 50 % de 36 ?",
+          "options": [
+            "18",
+            "50",
+            "72"
+          ],
+          "reponse": "18",
+          "explication": "50 %, c’est la moitié."
+        }
+      ]
+    },
+    {
+      "titre": "Appliquer un pourcentage",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 30 % de 70 €",
+          "etapes": [
+            "Calcule 10 % : 70 ÷ 10 = 7 €.",
+            "30 %, c’est 3 fois 10 % : 3 × 7 = 21 €."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un jeu coûte 40 €. Il est soldé à −25 %. Quel est son nouveau prix ?",
+          "etapes": [
+            "25 % de 40 € = 40 ÷ 4 = 10 €.",
+            "Nouveau prix : 40 − 10 = 30 €."
+          ],
+          "conclusion": "Le jeu coûte 30 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On soustrait le pourcentage directement : 40 − 25 = 15 €.",
+          "correction": "25 % n’est pas 25 €. On calcule d’abord 25 % de 40 €."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 10 % de 250 ?",
+      "options": [
+        "25",
+        "2,5",
+        "240"
+      ],
+      "reponse": "25",
+      "explication": "250 ÷ 10 = 25."
+    },
+    {
+      "consigne": "Combien font 75 % de 60 ?",
+      "options": [
+        "45",
+        "15",
+        "75"
+      ],
+      "reponse": "45",
+      "explication": "60 ÷ 4 = 15, puis 3 × 15 = 45."
+    },
+    {
+      "consigne": "Sur 20 élèves, 5 portent des lunettes. Quel pourcentage ?",
+      "options": [
+        "25 %",
+        "5 %",
+        "20 %"
+      ],
+      "reponse": "25 %",
+      "explication": "5/20 = 25/100."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 16,
+      "extrait": "Appliquer un pourcentage à une grandeur ou à un nombre",
+      "appui": "Appliquer un pourcentage"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 16,
+      "extrait": "Comprendre le sens d’un pourcentage",
+      "appui": "Sens d’un pourcentage"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

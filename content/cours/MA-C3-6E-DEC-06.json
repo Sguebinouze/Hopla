@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C3-6E-DEC-06",
+  "duree": 8,
+  "essentiel": "Pour diviser un décimal par un entier, on pose la division.\nOn place la virgule au quotient au moment où l’on abaisse le chiffre des dixièmes.\nOn vérifie par une multiplication : 7,5 ÷ 3 = 2,5 car 2,5 × 3 = 7,5.",
+  "parties": [
+    {
+      "titre": "Partager une quantité décimale",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trois amis se partagent 7,50 € à parts égales.",
+          "exemples": [
+            "7 € ÷ 3 : 2 € chacun, il reste 1 €.",
+            "1 € = 10 dixièmes. Avec les 5 dixièmes, cela fait 15 dixièmes.",
+            "15 dixièmes ÷ 3 = 5 dixièmes. Chacun a 2,50 €."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 8,4 ÷ 2 ?",
+          "options": [
+            "4,2",
+            "4,02",
+            "42"
+          ],
+          "reponse": "4,2",
+          "explication": "8 ÷ 2 = 4 et 4 dixièmes ÷ 2 = 2 dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "La division posée",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour poser 9,36 ÷ 4",
+          "etapes": [
+            "Divise la partie entière : 9 ÷ 4 = 2, reste 1.",
+            "Abaisse le 3 et place la virgule au quotient : 2,…",
+            "13 ÷ 4 = 3, reste 1. Abaisse le 6 : 16 ÷ 4 = 4.",
+            "9,36 ÷ 4 = 2,34. Vérifie : 2,34 × 4 = 9,36."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Si la division ne s’arrête pas, on ajoute des zéros au dividende : 1 = 1,0 = 1,00. On continue jusqu’à la précision voulue."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie la virgule au quotient : 9,36 ÷ 4 = 234.",
+          "correction": "Ordre de grandeur : 9 ÷ 4 ≈ 2. Le quotient est 2,34."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 3 ÷ 4 ?",
+          "options": [
+            "0,75",
+            "1,33",
+            "0,34"
+          ],
+          "reponse": "0,75",
+          "explication": "3 = 3,00. 300 centièmes ÷ 4 = 75 centièmes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 6,3 ÷ 3 ?",
+      "options": [
+        "2,1",
+        "2,01",
+        "21"
+      ],
+      "reponse": "2,1",
+      "explication": "6 ÷ 3 = 2 et 3 dixièmes ÷ 3 = 1 dixième."
+    },
+    {
+      "consigne": "Combien font 12,5 ÷ 5 ?",
+      "options": [
+        "2,5",
+        "2,05",
+        "25"
+      ],
+      "reponse": "2,5",
+      "explication": "2,5 × 5 = 12,5."
+    },
+    {
+      "consigne": "5 cahiers coûtent 8,50 €. Prix d’un cahier ?",
+      "options": [
+        "1,70 €",
+        "1,07 €",
+        "3,50 €"
+      ],
+      "reponse": "1,70 €",
+      "explication": "8,50 ÷ 5 = 1,70."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Diviser un nombre décimal par un nombre entier non nul inférieur à 10",
+      "appui": "Division décimale"
+    },
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 14,
+      "extrait": "Résoudre des problèmes mettant en jeu des divisions décimales",
+      "appui": "Problèmes de division décimale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
