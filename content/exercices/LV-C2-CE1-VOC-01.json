@@ -20,7 +20,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "vert": "emoji-green-circle",
+        "rouge": "emoji-red-circle",
+        "bleu": "emoji-blue-circle"
+      }
     },
     {
       "id": "LV-C2-CE1-VOC-01-002",
@@ -41,7 +46,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "jaune": "emoji-yellow-circle",
+        "bleu": "emoji-blue-circle",
+        "rouge": "emoji-red-circle"
+      }
     },
     {
       "id": "LV-C2-CE1-VOC-01-003",
@@ -104,7 +114,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "un oiseau": "emoji-bird",
+        "un chat": "emoji-cat",
+        "un chien": "emoji-dog"
+      }
     },
     {
       "id": "LV-C2-CE1-VOC-01-006",
@@ -125,7 +140,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "un lapin": "emoji-rabbit",
+        "un chien": "emoji-dog",
+        "un chat": "emoji-cat"
+      }
     },
     {
       "id": "LV-C2-CE1-VOC-01-007",

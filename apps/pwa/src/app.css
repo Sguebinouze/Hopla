@@ -500,3 +500,10 @@ body.avec-clavier main { padding-bottom: 340px; }
 .dictee__ecrit { color: var(--ink-muted); text-decoration-color: var(--attention); text-decoration-thickness: 2px; }
 .dictee__bon { padding: 0 1px; border-radius: 4px; background: var(--attention-soft); color: var(--ink); font-weight: 600; }
 .dictee__source { margin: 0; font-size: 13px; line-height: 18px; }
+/* Images des questions : une illustration sous la consigne, ou une image par réponse. */
+.illustration { margin: 0; display: flex; justify-content: center; }
+.illustration img { display: block; max-width: 100%; max-height: 32vh; border-radius: var(--radius-md); object-fit: contain; background: var(--surface-1); }
+.hp-option.option-image { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-1); padding: var(--space-2); }
+.hp-option.option-image img { width: 72px; height: 72px; object-fit: contain; }
+.hp-option.option-image span { font-size: 20px; line-height: 24px; }
+.relecture__image { display: block; max-width: 100%; max-height: 240px; border-radius: var(--radius-md); background: var(--surface-0); object-fit: contain; }

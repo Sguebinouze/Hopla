@@ -36,6 +36,10 @@ export interface Pack {
    * pour que la voix lise chacun dans sa langue. Clé : le texte tel qu'il est affiché.
    */
   voix: Record<string, Passage[]>;
+  /** Images des questions de la classe : chemin sous /images/ et texte alternatif. */
+  medias: Record<string, { src: string; alt: string }>;
+  /** Crédits des images que leur licence oblige à citer (page Crédits). */
+  credits: string[];
 }
 
 /** Dictée telle que l'appli la joue : texte, groupes à dicter, source et crédit à afficher. */
@@ -88,10 +92,17 @@ export function construirePacks(
   const banques = new Map(contenu.banques.map((b) => [b.competence, b.exercices]));
   const lecons = new Map(contenu.lecons.filter((l) => statuts.has(l.statut)).map((l) => [l.competence, l]));
   const dictees = (contenu.dictees ?? []).filter((d) => statuts.has(d.statut));
+  const medias = new Map((contenu.medias ?? []).filter((m) => statuts.has(m.statut)).map((m) => [m.id, m]));
+  // Une image pas encore relue n'apparaît pas : la question reste, sans image (ou avec ses réponses en texte).
+  const avecImages = (e: Exercice): Exercice => {
+    const { image, images_options, ...reste } = e;
+    const options = images_options && Object.values(images_options).every((id) => medias.has(id)) ? images_options : undefined;
+    return { ...reste, ...(image && medias.has(image) ? { image } : {}), ...(options ? { images_options: options } : {}) };
+  };
 
   return CLASSES.map((classe): Pack => {
     const programmes = programmesApplicables(contenu.programmes, classe, annee);
-    const pack: Omit<Pack, 'voix'> = {
+    const pack: Omit<Pack, 'voix' | 'medias' | 'credits'> = {
       version: 1 as const,
       annee,
       classe,
@@ -119,7 +130,7 @@ export function construirePacks(
             statut: c.statut,
             source: { id: c.source.id, page: c.source.page },
             generateurs: GENERATEURS.filter((g) => g.competences.includes(c.id)).map((g) => g.id),
-            exercices: (banques.get(c.id) ?? []).filter((e) => statuts.has(e.statut)),
+            exercices: (banques.get(c.id) ?? []).filter((e) => statuts.has(e.statut)).map(avecImages),
             lecon: (() => {
               const l = lecons.get(c.id);
               return l ? { exemple: l.exemple, regle: l.regle, piege: l.piege, essai: l.essai, statut: l.statut } : null;
@@ -131,6 +142,14 @@ export function construirePacks(
         };
       }),
     };
-    return { ...pack, voix: decoupes(pack.matieres, options.lexique) };
+    const utilisees = new Set(pack.matieres.flatMap((m) => m.competences.flatMap((c) => c.exercices.flatMap((e) =>
+      [e.image, ...Object.values(e.images_options ?? {})].filter((x): x is string => Boolean(x))))));
+    const images = [...utilisees].sort().map((id) => medias.get(id)!);
+    return {
+      ...pack,
+      voix: decoupes(pack.matieres, options.lexique),
+      medias: Object.fromEntries(images.map((m) => [m.id, { src: `/images/${m.fichier}`, alt: m.alt }])),
+      credits: [...new Set(images.filter((m) => m.credit).map((m) => m.credit!))].sort(),
+    };
   });
 }

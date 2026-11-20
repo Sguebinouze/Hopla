@@ -62,7 +62,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "La gare.": "emoji-station",
+        "Le cinéma.": "emoji-cinema",
+        "La poste.": "emoji-post-office"
+      }
     },
     {
       "id": "LV-C3-CM2-VILLE-01-004",

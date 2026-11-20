@@ -20,7 +20,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Il fait beau.": "emoji-sun",
+        "Il pleut.": "emoji-cloud-with-rain",
+        "Il neige.": "emoji-snowflake"
+      }
     },
     {
       "id": "LV-C2-CE2-METEO-01-002",
@@ -41,7 +46,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Il pleut.": "emoji-cloud-with-rain",
+        "Il fait chaud.": "emoji-hot-face",
+        "Il y a du vent.": "emoji-leaf-fluttering-in-wind"
+      }
     },
     {
       "id": "LV-C2-CE2-METEO-01-003",
@@ -62,7 +72,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Il neige.": "emoji-snowflake",
+        "Il fait beau.": "emoji-sun",
+        "Il pleut.": "emoji-cloud-with-rain"
+      }
     },
     {
       "id": "LV-C2-CE2-METEO-01-004",
@@ -83,7 +98,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Il fait froid.": "emoji-cold-face",
+        "Il fait chaud.": "emoji-hot-face",
+        "Il fait beau.": "emoji-sun"
+      }
     },
     {
       "id": "LV-C2-CE2-METEO-01-005",
@@ -104,7 +124,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Il y a du vent.": "emoji-leaf-fluttering-in-wind",
+        "Il neige.": "emoji-snowflake",
+        "Il fait nuit.": "emoji-crescent-moon"
+      }
     },
     {
       "id": "LV-C2-CE2-METEO-01-006",

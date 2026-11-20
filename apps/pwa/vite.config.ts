@@ -31,13 +31,20 @@ export default defineConfig({
       workbox: {
         // Les packs de contenu restent disponibles hors connexion.
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
-        // Lecture de texte des photos de leçon : chargée à la première photo, puis gardée pour le hors connexion.
-        globIgnores: ['ocr/**'],
+        // Lecture de texte des photos de leçon et images des questions : chargées à la demande, puis gardées
+        // pour le hors connexion, pas téléchargées à l'installation.
+        globIgnores: ['ocr/**', 'images/**'],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/ocr/'),
             handler: 'CacheFirst',
             options: { cacheName: 'hopla-ocr', expiration: { maxEntries: 10 } },
+          },
+          {
+            // Images des questions : gardées sur l'appareil une fois vues, pour le hors connexion.
+            urlPattern: ({ url }) => url.pathname.startsWith('/images/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'hopla-images', expiration: { maxEntries: 800, maxAgeSeconds: 31536000 } },
           },
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/packs/'),

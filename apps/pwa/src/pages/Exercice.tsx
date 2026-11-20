@@ -181,16 +181,27 @@ export function Exercice() {
             </div>
           )}
           {item.visuel && <div className="visuel"><Visuel visuel={item.visuel} revele={repondu} /></div>}
+          {item.illustration && (
+            <figure className="illustration">
+              <img src={item.illustration.src} alt={item.illustration.alt} decoding="async" />
+            </figure>
+          )}
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
           {item.gabarit === 'qcm' && item.options && (
             <div className={`grille-options${optionsLongues ? ' grille-options--texte' : ''}`}>
-              {item.options.map((o) => (
-                <button key={o} className={`${classeOption(o)}${optionsLongues ? ' option-texte' : ''}`} onClick={() => void valider(o)} disabled={repondu && o !== choix && o !== item.reponse}>
-                  {o}
-                </button>
-              ))}
+              {item.options.map((o) => {
+                const image = item.illustrationsOptions?.[o];
+                return (
+                  <button key={o} className={`${classeOption(o)}${optionsLongues ? ' option-texte' : ''}${image ? ' option-image' : ''}`}
+                    onClick={() => void valider(o)} disabled={repondu && o !== choix && o !== item.reponse}>
+                    {/* L'image aide à lire ; le mot reste écrit dessous. */}
+                    {image && <img src={image.src} alt="" decoding="async" />}
+                    <span>{o}</span>
+                  </button>
+                );
+              })}
             </div>
           )}
           {item.gabarit === 'saisie' && (

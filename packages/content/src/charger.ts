@@ -3,12 +3,14 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { z } from 'zod';
 import {
-  banqueCultureSchema, banqueSchema, defiSchema, dicteeSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
-  type Banque, type BanqueCulture, type Defi, type Dictee, type Lecon, type Programme, type Referentiel, type Source,
+  banqueCultureSchema, banqueSchema, defiSchema, dicteeSchema, mediaSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
+  type Banque, type BanqueCulture, type Defi, type Dictee, type Lecon, type Media, type Programme, type Referentiel, type Source,
 } from './schemas';
 
 export const RACINE_DEPOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
 export const DOSSIER_CONTENU = join(RACINE_DEPOT, 'content');
+/** Images des questions, servies par l'appli sous /images/. */
+export const DOSSIER_IMAGES = join(RACINE_DEPOT, 'apps', 'pwa', 'public', 'images');
 
 export interface Contenu {
   sources: Source[];
@@ -19,6 +21,7 @@ export interface Contenu {
   defis: Defi[];
   culture: (BanqueCulture & { fichier: string })[];
   dictees?: (Dictee & { fichier: string })[];
+  medias?: (Media & { fiche: string })[];
 }
 
 export interface ErreurChargement {
@@ -87,5 +90,10 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     return d ? [{ ...d, fichier: relative(racine, f) }] : [];
   });
 
-  return { contenu: { sources, programmes, referentiels, banques, lecons, defis, culture, dictees }, erreurs };
+  const medias = fichiersJson(join(racine, 'medias')).flatMap((f) => {
+    const m = lire(f, mediaSchema);
+    return m ? [{ ...m, fiche: relative(racine, f) }] : [];
+  });
+
+  return { contenu: { sources, programmes, referentiels, banques, lecons, defis, culture, dictees, medias }, erreurs };
 }

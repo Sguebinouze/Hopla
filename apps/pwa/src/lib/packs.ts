@@ -33,6 +33,11 @@ export interface CompetencePack {
     explication: string;
     erreurs?: Record<string, string>;
     ecoute?: Ecoute;
+    /** Identifiants d'images (`Pack.medias`), remplacés au chargement par `illustration`. */
+    image?: string;
+    images_options?: Record<string, string>;
+    illustration?: Illustration;
+    illustrationsOptions?: Record<string, Illustration>;
   }[];
   /** Dictées de la notion (absentes des packs construits avant elles). */
   dictees?: DicteePack[];
@@ -53,7 +58,12 @@ export interface Ecoute {
   texte: string;
   langue: Langue;
 }
-export type ItemPack = Item & { ecoute?: Ecoute };
+/** Image d'une question ou d'une réponse : chemin servi par l'appli et texte alternatif. */
+export interface Illustration {
+  src: string;
+  alt: string;
+}
+export type ItemPack = Item & { ecoute?: Ecoute; illustration?: Illustration; illustrationsOptions?: Record<string, Illustration> };
 
 export interface Defi {
   id: string;
@@ -81,6 +91,10 @@ export interface Pack {
   }[];
   /** Langues vivantes : textes mêlant français et langue étudiée, découpés en passages lus chacun dans sa langue. */
   voix?: Record<string, { langue: Langue; texte: string }[]>;
+  /** Images relues des questions, par identifiant. */
+  medias?: Record<string, Illustration>;
+  /** Crédits que la licence de certaines images impose (page Crédits). */
+  credits?: string[];
 }
 
 export const NOMS_MATIERES: Record<string, string> = {
@@ -109,9 +123,26 @@ export async function chargerPack(classe: Classe): Promise<Pack> {
   const r = await fetch(`/packs/${anneeScolaire()}/${classe}.json`);
   if (!r.ok) throw new Error(`Pack introuvable pour ${classe}`);
   const pack = (await r.json()) as Pack;
+  illustrer(pack);
   // Les textes du pack ont leur fichier audio : Octave les lit avec sa voix plutôt que celle de l'appareil.
   connaitreTextes(textesLus(pack), pack.voix);
   return pack;
+}
+
+/** Remplace les identifiants d'images des questions par leur chemin et leur texte alternatif. */
+export function illustrer(pack: Pack): void {
+  const m = pack.medias ?? {};
+  for (const mat of pack.matieres) {
+    for (const c of mat.competences) {
+      for (const e of c.exercices) {
+        if (e.image && m[e.image]) e.illustration = m[e.image];
+        const opts = e.images_options;
+        if (opts && Object.values(opts).every((id) => m[id])) {
+          e.illustrationsOptions = Object.fromEntries(Object.entries(opts).map(([o, id]) => [o, m[id]!]));
+        }
+      }
+    }
+  }
 }
 
 /**
@@ -243,6 +274,8 @@ export function seriePour(
       difficulte: e.difficulte,
       erreurs: e.erreurs,
       ecoute: e.ecoute,
+      illustration: e.illustration,
+      illustrationsOptions: e.illustrationsOptions,
     }));
   const graine = Math.floor(Math.random() * 1e9);
   const vus = new Set<string>();

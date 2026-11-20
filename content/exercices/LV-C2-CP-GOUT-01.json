@@ -102,7 +102,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Le vert.": "emoji-green-circle",
+        "Le rouge.": "emoji-red-circle",
+        "Le jaune.": "emoji-yellow-circle"
+      }
     },
     {
       "id": "LV-C2-CP-GOUT-01-006",
@@ -123,7 +128,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Le chocolat.": "emoji-chocolate-bar",
+        "Le poisson.": "emoji-fish",
+        "La soupe.": "emoji-pot-of-food"
+      }
     },
     {
       "id": "LV-C2-CP-GOUT-01-007",

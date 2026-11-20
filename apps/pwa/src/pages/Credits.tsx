@@ -1,9 +1,15 @@
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Icone } from '../composants/Icone';
 
 // Crédits : sources des textes, voix, polices et code tiers, avec les mentions que leurs licences demandent.
 export function Credits() {
   const naviguer = useNavigate();
+  // Images dont la licence demande de citer l'auteur (CC BY, Licence Ouverte).
+  const [credits, setCredits] = useState<string[]>([]);
+  useEffect(() => {
+    fetch('/packs/credits.json').then((r) => (r.ok ? r.json() : [])).then((c: string[]) => setCredits(c)).catch(() => undefined);
+  }, []);
   return (
     <main className="ecran ecran--etroit confidentialite">
       <div className="ligne">
@@ -30,6 +36,15 @@ export function Credits() {
           </li>
           <li>Extraits d’auteurs du domaine public, recopiés depuis Wikisource. L’auteur et l’œuvre s’affichent sous chaque dictée.</li>
         </ul>
+      </section>
+
+      <section>
+        <h2 className="titre-3">Images</h2>
+        <p>
+          Emojis Fluent (Microsoft, <a href="/images/licence-fluent-emoji.txt" target="_blank" rel="noreferrer">licence MIT</a>), œuvres et documents des musées en accès ouvert et de Wikimedia Commons
+          (domaine public, CC0 ou CC BY), cartes Natural Earth (domaine public). La source de chaque image est relevée dans le dépôt.
+        </p>
+        {credits.length > 0 && <ul>{credits.map((c) => <li key={c}>{c}</li>)}</ul>}
       </section>
 
       <section>

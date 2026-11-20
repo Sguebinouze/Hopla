@@ -69,6 +69,8 @@ export const referentielSchema = z.object({
   competences: z.array(competenceSchema).min(1),
 });
 
+const ID_MEDIA = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+
 export const exerciceSchema = z
   .object({
     id: z.string().regex(/^[A-Z]{2}-C[234]-[A-Z0-9]{2,3}-[A-Z]{2,6}-\d{2}-\d{3}$/),
@@ -83,6 +85,10 @@ export const exerciceSchema = z
     erreurs: z.record(z.string(), z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).optional(),
     /** Langues vivantes : phrase dite à l'élève dans la langue étudiée, avant de répondre. */
     ecoute: z.object({ texte: z.string().min(1).max(120), langue: z.enum(LANGUES_ECOUTE) }).optional(),
+    /** Illustration de la question (identifiant d'un média de content/medias), affichée sous la consigne. */
+    image: z.string().regex(ID_MEDIA).optional(),
+    /** Réponses en images : une image par option (option → identifiant de média). */
+    images_options: z.record(z.string(), z.string().regex(ID_MEDIA)).optional(),
     statut: z.enum(['brouillon', 'relu', 'publie']),
     auteur: z.enum(['humain', 'ia']),
     relu_par: z.string().nullable(),
@@ -200,3 +206,34 @@ export const dicteeSchema = z
   .refine((d) => d.statut === 'brouillon' || d.relu_par !== null, { message: 'une dictée relue ou publiée doit indiquer relu_par' });
 export type Dictee = z.infer<typeof dicteeSchema>;
 
+// Images des questions. Le fichier est dans apps/pwa/public/images ; la fiche dit d'où il vient,
+// sous quelle licence, et ce qu'il montre (texte lu par les lecteurs d'écran).
+// Licences retenues : usage commercial permis, sans partage à l'identique ni clause non commerciale.
+export const LICENCES_MEDIA = [
+  'domaine-public', 'CC0', 'CC-BY-4.0', 'CC-BY-3.0', 'CC-BY-2.0', 'MIT', 'Apache-2.0', 'licence-ouverte-2.0',
+  'pexels', 'unsplash', 'pixabay', 'hopla',
+] as const;
+/** Licences qui obligent à créditer l'auteur : le crédit s'affiche sur la page Crédits. */
+export const LICENCES_A_CREDITER: readonly string[] = ['CC-BY-4.0', 'CC-BY-3.0', 'CC-BY-2.0', 'licence-ouverte-2.0'];
+export const mediaSchema = z
+  .object({
+    id: z.string().regex(ID_MEDIA).max(60),
+    fichier: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*\.(svg|webp)$/),
+    /** Ce que montre l'image, sans donner la réponse. */
+    alt: z.string().min(3).max(140),
+    licence: z.enum(LICENCES_MEDIA),
+    source: z.object({
+      nom: z.string().min(1),
+      auteur: z.string().nullable(),
+      titre: z.string().nullable(),
+      url: z.string().url(),
+    }),
+    credit: z.string().nullable(),
+    statut: z.enum(['brouillon', 'relu', 'publie']),
+    auteur: z.enum(['humain', 'ia']),
+    relu_par: z.string().nullable(),
+  })
+  .refine((m) => !LICENCES_A_CREDITER.includes(m.licence) || Boolean(m.credit), { message: 'cette licence exige un crédit' })
+  .refine((m) => m.statut === 'brouillon' || m.relu_par !== null, { message: 'une image relue ou publiée doit indiquer relu_par' });
+
+export type Media = z.infer<typeof mediaSchema>;

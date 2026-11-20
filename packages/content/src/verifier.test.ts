@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { anneeScolaire, couvre } from './annees';
 import { chargerContenu, type Contenu } from './charger';
 import { construirePacks } from './packs';
+import { mediaSchema } from './schemas';
 import { programmesApplicables, verifierContenu } from './verifier';
 
 const { contenu, erreurs } = chargerContenu();
@@ -88,6 +89,11 @@ describe('intégrité des références', () => {
       { type: 'dictee', element_id: 'inconnue', decision: 'ok', commentaire: '' },
     ], 'Laurent', false);
     expect(bilan.publies).toEqual(['dictée ce1-merle']);
+    // Les images en brouillon se relisent sous la notion de leurs questions.
+    const avecImages = construireRelecture(contenu).find((x) => x.medias.length > 0)!;
+    expect(avecImages.medias[0]!.usages.length).toBeGreaterThan(0);
+    expect(appliquerRelecture(contenu, [{ type: 'media', element_id: avecImages.medias[0]!.id, decision: 'ok', commentaire: '' }], 'Laurent', false)
+      .publies).toEqual([`image ${avecImages.medias[0]!.id}`]);
     expect(bilan.introuvables.map((d) => d.element_id)).toEqual(['inconnue']);
   });
 
@@ -141,5 +147,26 @@ describe('packs', () => {
     expect(construirePacks(enBrouillon, '2026-2027').find((p) => p.classe === 'ce2')!
       .matieres.flatMap((m) => m.competences).reduce((n, c) => n + c.exercices.length, 0)).toBe(0);
     expect(ce2(false).matieres.map((m) => m.programme.id).sort()).toEqual(['EM-C2-2024', 'FR-C2-2024', 'LV-C2-2020', 'MA-C2-2024', 'QM-C2-2020']);
+  });
+
+  it('images : une image s’affiche seulement relue, une référence inconnue ou une licence à créditer sans crédit est refusée', () => {
+    const q = contenu.banques.flatMap((b) => b.exercices).find((e) => e.images_options)!;
+    const ids = Object.values(q.images_options!);
+    const enBrouillon = construirePacks(contenu, '2026-2027');
+    const sans = enBrouillon.flatMap((p) => p.matieres.flatMap((m) => m.competences.flatMap((c) => c.exercices))).find((e) => e.id === q.id)!;
+    // Images encore en brouillon dans le dépôt : la question part sans images.
+    if ((contenu.medias ?? []).filter((m) => ids.includes(m.id)).some((m) => m.statut !== 'publie')) expect(sans.images_options).toBeUndefined();
+
+    const relues: Contenu = { ...contenu, medias: (contenu.medias ?? []).map((m) => ({ ...m, statut: 'publie' as const, relu_par: 'Laurent' })) };
+    const pack = construirePacks(relues, '2026-2027').find((p) => p.matieres.some((m) => m.competences.some((c) => c.exercices.some((e) => e.id === q.id))))!;
+    const avec = pack.matieres.flatMap((m) => m.competences.flatMap((c) => c.exercices)).find((e) => e.id === q.id)!;
+    expect(avec.images_options).toEqual(q.images_options);
+    for (const id of ids) expect(pack.medias[id]!.src).toMatch(/^\/images\/.+\.svg$/);
+
+    const c = clone();
+    c.banques.find((b) => b.exercices.some((e) => e.id === q.id))!.exercices.find((e) => e.id === q.id)!.image = 'inconnue';
+    expect(erreursDe(c).some((e) => e.message.includes('image inconnue'))).toBe(true);
+    expect(mediaSchema.safeParse({ ...contenu.medias![0], licence: 'CC-BY-4.0', credit: null }).success).toBe(false);
+    expect(mediaSchema.safeParse({ ...contenu.medias![0], licence: 'CC-BY-SA-4.0' }).success).toBe(false);
   });
 });

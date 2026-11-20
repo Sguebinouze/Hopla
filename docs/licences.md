@@ -30,6 +30,18 @@ Bilan : rien n'interdit la vente. Deux vérifications restent à faire (section 
 
 Chaque dictée porte sa licence et sa source ; `pnpm content:check` refuse une licence non compatible avec la vente.
 
+## Images des questions
+
+Une fiche par image dans `content/medias` : source, auteur, licence, texte alternatif. Le fichier est dans `apps/pwa/public/images`. `pnpm content:check` refuse une licence hors liste, une licence CC BY sans crédit, une image de plus de 150 Ko. Une image ne s'affiche qu'une fois relue dans l'espace admin.
+
+| Source | Licence | Vente | Obligation |
+|---|---|---|---|
+| Fluent Emoji (Microsoft), réponses en images de l'anglais CP-CM2 : 63 images | MIT | Oui | Licence jointe (`/images/licence-fluent-emoji.txt`), liée depuis la page Crédits. |
+| Wikimedia Commons, musées en accès ouvert (Paris Musées, Met, Smithsonian, Rijksmuseum) | Domaine public, CC0, CC BY | Oui | Crédit sur la page Crédits pour CC BY. Licences SA, NC et ND écartées par le script de recherche. |
+| Natural Earth, IGN | Domaine public, Licence Ouverte 2.0 | Oui | Mention de la source pour l'IGN. |
+| Pexels, Unsplash, Pixabay | Licences propres, usage commercial sans crédit | Oui | Ni marque ni personne reconnaissable mise en avant. |
+| Gallica (BnF) | Réutilisation commerciale payante | Non | Écartée. |
+
 ## Services (contrats, pas licences)
 
 | Service | Usage | Point d'attention |

@@ -17,6 +17,11 @@ interface Notion {
   questions: Question[];
   /** Absent d'un fichier de relecture construit avant les dictées. */
   dictees?: { id: string; titre: string; texte: string; source: string; licence: string; url: string | null }[];
+  medias?: {
+    id: string; src: string; alt: string; licence: string; credit: string | null;
+    source: { nom: string; auteur: string | null; titre: string | null; url: string };
+    usages: { question: string; consigne: string; option: string | null }[];
+  }[];
 }
 type Type = DecisionRelecture['type'];
 type Element = { type: Type; id: string };
@@ -35,6 +40,7 @@ const elements = (n: Notion): Element[] => [
   ...(n.lecon ? [{ type: 'lecon' as const, id: n.id }] : []),
   ...n.questions.map((q) => ({ type: 'question' as const, id: q.id })),
   ...(n.dictees ?? []).map((d) => ({ type: 'dictee' as const, id: d.id })),
+  ...(n.medias ?? []).map((m) => ({ type: 'media' as const, id: m.id })),
 ];
 
 function Options({ options, reponse }: { options: string[]; reponse: string }) {
@@ -237,6 +243,24 @@ function PageRelecture() {
                   {d.source}{d.url && <> · <a href={d.url} target="_blank" rel="noreferrer">texte source</a></>} · {d.texte.split(/\s+/).length} mots
                 </p>
                 <Decision el={{ type: 'dictee', id: d.id }} d={decision({ type: 'dictee', id: d.id })} onDecider={decider} />
+              </section>
+            ))}
+
+            {(n.medias ?? []).map((m) => (
+              <section key={m.id} className="hp-card relecture__carte">
+                <p className="muet">Image · {m.id} · {m.licence}</p>
+                <img src={m.src} alt={m.alt} className="relecture__image" />
+                <p style={{ margin: 0 }}><strong>Texte lu à la place de l’image :</strong> {m.alt}</p>
+                <ul className="muet" style={{ margin: 0 }}>
+                  {m.usages.map((u) => (
+                    <li key={`${u.question}-${u.option ?? ''}`}>{u.consigne}{u.option && <> · réponse « {u.option} »</>}</li>
+                  ))}
+                </ul>
+                <p className="muet">
+                  {[m.source.nom, m.source.auteur, m.source.titre].filter(Boolean).join(' · ')} · <a href={m.source.url} target="_blank" rel="noreferrer">source</a>
+                  {m.credit && <> · crédit : {m.credit}</>}
+                </p>
+                <Decision el={{ type: 'media', id: m.id }} d={decision({ type: 'media', id: m.id })} onDecider={decider} />
               </section>
             ))}
           </article>

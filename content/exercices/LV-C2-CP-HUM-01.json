@@ -20,7 +20,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Content.": "emoji-grinning-face",
+        "Triste.": "emoji-disappointed-face",
+        "En colère.": "emoji-angry-face"
+      }
     },
     {
       "id": "LV-C2-CP-HUM-01-002",
@@ -41,7 +46,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Triste.": "emoji-disappointed-face",
+        "Content.": "emoji-grinning-face",
+        "Fatigué.": "emoji-tired-face"
+      }
     },
     {
       "id": "LV-C2-CP-HUM-01-003",
@@ -83,7 +93,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "Fatigué.": "emoji-tired-face",
+        "Content.": "emoji-grinning-face",
+        "Surpris.": "emoji-astonished-face"
+      }
     },
     {
       "id": "LV-C2-CP-HUM-01-005",

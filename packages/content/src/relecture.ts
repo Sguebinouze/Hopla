@@ -31,6 +31,18 @@ export interface NotionRelecture {
   lecon: { exemple: string; regle: string; piege: string | null; essai: { consigne: string; options: string[]; reponse: string; explication: string } } | null;
   questions: QuestionRelecture[];
   dictees: DicteeRelecture[];
+  medias: MediaRelecture[];
+}
+
+export interface MediaRelecture {
+  id: string;
+  src: string;
+  alt: string;
+  licence: string;
+  source: { nom: string; auteur: string | null; titre: string | null; url: string };
+  credit: string | null;
+  /** Questions qui l'utilisent, et l'option qu'elle illustre le cas échéant. */
+  usages: { question: string; consigne: string; option: string | null }[];
 }
 
 export interface DicteeRelecture {
@@ -55,6 +67,25 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
     dicteesDe.set(d.competence, [...(dicteesDe.get(d.competence) ?? []),
       { id: d.id, titre: d.titre, texte: d.texte, source, licence: d.licence, url: d.source.url }]);
   }
+  // Images en brouillon, rattachées aux notions dont les questions les utilisent.
+  const brouillonsMedia = new Map((contenu.medias ?? []).filter((m) => m.statut === 'brouillon').map((m) => [m.id, m]));
+  const mediasDe = (exercices: { id: string; consigne: string; image?: string; images_options?: Record<string, string> }[]) => {
+    const parId = new Map<string, MediaRelecture>();
+    const noter = (id: string | undefined, e: { id: string; consigne: string }, option: string | null) => {
+      const m = id ? brouillonsMedia.get(id) : undefined;
+      if (!m) return;
+      const r = parId.get(m.id) ?? {
+        id: m.id, src: `/images/${m.fichier}`, alt: m.alt, licence: m.licence, source: m.source, credit: m.credit, usages: [],
+      };
+      r.usages.push({ question: e.id, consigne: e.consigne, option });
+      parId.set(m.id, r);
+    };
+    for (const e of exercices) {
+      noter(e.image, e, null);
+      for (const [o, id] of Object.entries(e.images_options ?? {})) noter(id, e, o);
+    }
+    return [...parId.values()];
+  };
   const notions: NotionRelecture[] = [];
   for (const ref of contenu.referentiels) {
     for (const c of ref.competences) {
@@ -69,13 +100,15 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
         }));
       const verifiee = c.statut === 'verifie';
       const dictees = dicteesDe.get(c.id) ?? [];
-      if (verifiee && !lecon && questions.length === 0 && dictees.length === 0) continue;
+      const medias = mediasDe(banques.get(c.id)?.exercices ?? []);
+      if (verifiee && !lecon && questions.length === 0 && dictees.length === 0 && medias.length === 0) continue;
       notions.push({
         id: c.id, classe: ref.classe, titre: c.titre, theme: c.theme, attendu: c.attendu, verifiee,
         source: { titre: titres.get(c.source.id) ?? c.source.id, page: c.source.page, extrait: c.source.extrait },
         lecon: lecon ? { exemple: lecon.exemple, regle: lecon.regle, piege: lecon.piege, essai: lecon.essai } : null,
         questions,
         dictees,
+        medias,
       });
     }
   }
@@ -91,7 +124,7 @@ export function construireRelecture(contenu: Contenu): NotionRelecture[] {
 }
 
 export interface Decision {
-  type: 'notion' | 'lecon' | 'question' | 'dictee';
+  type: 'notion' | 'lecon' | 'question' | 'dictee' | 'media';
   element_id: string;
   decision: 'ok' | 'corriger';
   commentaire: string;
@@ -105,7 +138,7 @@ export interface BilanApplication {
 }
 
 /**
- * Applique les décisions « ok » : question, leçon et dictée passent en `publie` avec `relu_par`,
+ * Applique les décisions « ok » : question, leçon, dictée et image passent en `publie` avec `relu_par`,
  * la notion passe en `verifie`. Les décisions « corriger » sont seulement listées.
  * Seul un humain prend ces décisions (espace admin) ; ce code ne fait que les reporter.
  */
@@ -124,6 +157,11 @@ export function appliquerRelecture(contenu: Contenu, decisions: Decision[], par:
       const e = b && charger<{ exercices: { id: string; statut: string; relu_par: string | null }[] }>(b.fichier).exercices.find((x) => x.id === d.element_id);
       if (!e) { bilan.introuvables.push(d); continue; }
       if (e.statut !== 'publie') { e.statut = 'publie'; e.relu_par = par; bilan.publies.push(d.element_id); }
+    } else if (d.type === 'media') {
+      const f = contenu.medias?.find((x) => x.id === d.element_id);
+      const brut = f && charger<{ statut: string; relu_par: string | null }>(f.fiche);
+      if (!brut) { bilan.introuvables.push(d); continue; }
+      if (brut.statut !== 'publie') { brut.statut = 'publie'; brut.relu_par = par; bilan.publies.push(`image ${d.element_id}`); }
     } else if (d.type === 'dictee') {
       const f = contenu.dictees?.find((x) => x.id === d.element_id);
       const brut = f && charger<{ statut: string; relu_par: string | null }>(f.fichier);

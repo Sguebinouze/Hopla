@@ -20,7 +20,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "du pain": "emoji-bread",
+        "du lait": "emoji-glass-of-milk",
+        "du beurre": "emoji-butter"
+      }
     },
     {
       "id": "LV-C2-CE2-FOOD-01-002",
@@ -155,7 +160,12 @@
       },
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "la pizza": "emoji-pizza",
+        "la soupe": "emoji-pot-of-food",
+        "le poisson": "emoji-fish"
+      }
     }
   ]
 }

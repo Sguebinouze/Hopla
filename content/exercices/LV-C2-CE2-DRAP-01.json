@@ -118,7 +118,12 @@
       "explication": "Un dragon rouge.",
       "statut": "publie",
       "auteur": "ia",
-      "relu_par": "Laurent (validation globale)"
+      "relu_par": "Laurent (validation globale)",
+      "images_options": {
+        "un dragon": "emoji-dragon",
+        "un lion": "emoji-lion",
+        "un aigle": "emoji-eagle"
+      }
     },
     {
       "id": "LV-C2-CE2-DRAP-01-008",

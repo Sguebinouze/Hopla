@@ -1,8 +1,13 @@
 import { GENERATEURS, type Generateur } from '@hopla/generateurs';
 import { verifierTexte } from '@hopla/redaction';
 import { anneeDe, couvre, debutAnnee } from './annees';
-import type { Contenu } from './charger';
+import { existsSync, statSync } from 'node:fs';
+import { join } from 'node:path';
+import { DOSSIER_IMAGES, type Contenu } from './charger';
 import { CLASSES, CYCLE_DE, PREFIXE, type Classe, type Competence, type Programme } from './schemas';
+
+/** Poids maximal d'une image : elle part sur des téléphones, parfois hors connexion. */
+export const TAILLE_MAX_IMAGE = 150 * 1024;
 
 export interface Constat {
   niveau: 'erreur' | 'alerte';
@@ -237,6 +242,31 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
     if (mots < min || mots > max) alerte(d.fichier, `${mots} mots : attendu de ${min} à ${max} en ${d.classe}`);
   }
   unicite(idsDictees, 'dictée');
+
+  // Images : fichier présent et léger, chaque référence d'une question pointe vers une image connue,
+  // une image par option quand les réponses sont en images.
+  const medias = new Map((contenu.medias ?? []).map((m) => [m.id, m]));
+  unicite((contenu.medias ?? []).map((m) => m.id), 'image');
+  for (const m of contenu.medias ?? []) {
+    const f = join(DOSSIER_IMAGES, m.fichier);
+    if (!existsSync(f)) erreur(m.fiche, `fichier absent : apps/pwa/public/images/${m.fichier}`);
+    else if (statSync(f).size > TAILLE_MAX_IMAGE) erreur(m.fiche, `${m.fichier} pèse ${Math.round(statSync(f).size / 1024)} Ko : ${TAILLE_MAX_IMAGE / 1024} Ko au plus`);
+    const motsReponse = /^(c'est|voici)\b/i.test(m.alt);
+    if (motsReponse) alerte(m.fiche, 'texte alternatif : décrire ce qu’on voit, sans « c’est » ni « voici »');
+  }
+  for (const b of contenu.banques) {
+    for (const e of b.exercices) {
+      const refs = [e.image, ...Object.values(e.images_options ?? {})].filter((x): x is string => Boolean(x));
+      for (const r of refs) if (!medias.has(r)) erreur(b.fichier, `${e.id} : image inconnue « ${r} »`);
+      if (e.images_options) {
+        const cles = Object.keys(e.images_options);
+        const options = e.options ?? [];
+        if (cles.length !== options.length || !options.every((o) => cles.includes(o))) {
+          erreur(b.fichier, `${e.id} : une image par option, ni plus ni moins`);
+        }
+      }
+    }
+  }
 
   const couvertes = new Set([
     ...contenu.banques.map((b) => b.competence), ...generateurs.flatMap((g) => g.competences), ...(contenu.dictees ?? []).map((d) => d.competence),

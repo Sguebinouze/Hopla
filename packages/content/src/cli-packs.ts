@@ -33,6 +33,8 @@ writeFileSync(
   join(sortie, 'index.json'),
   JSON.stringify({ annee, brouillons, classes: packs.map((p) => p.classe), genere_le: new Date().toISOString() }),
 );
+// Crédits des images à citer, toutes classes confondues (page Crédits, sans compte).
+writeFileSync(join(sortie, 'credits.json'), JSON.stringify([...new Set(packs.flatMap((p) => p.credits))].sort()));
 // Ce qui reste à relire, pour l'espace admin (contenu pédagogique seulement).
 writeFileSync(join(sortie, 'relecture.json'), JSON.stringify(construireRelecture(contenu)));
 const resume = packs

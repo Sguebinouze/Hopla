@@ -1,0 +1,24 @@
+name: Images candidates
+
+# Cherche sur Wikimedia Commons des images sous licence compatible avec la vente (domaine public, CC0, CC BY)
+# pour les questions listées dans scripts/images/candidats.py. Le résultat va sur la branche images-candidats,
+# jamais sur main : on y choisit les images, qui entrent ensuite dans le dépôt en brouillon.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  candidats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/images/candidats.py images-candidats
+      - run: |
+          cd images-candidats
+          git init -q -b images-candidats
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Images candidates"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" images-candidats
