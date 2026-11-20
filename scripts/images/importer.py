@@ -2,6 +2,8 @@
 
     python3 scripts/images/importer.py scripts/images/choix-hg.json chemin/vers/images-candidats
 
+Un fichier de choix par passage du workflow : ses numéros de candidates renvoient à ce passage-là.
+
 Pour chaque choix : la vignette devient un WebP de 960 px au plus et de 150 Ko au plus
 (apps/pwa/public/images), sa fiche est écrite en brouillon (content/medias/commons) avec la licence
 et l'auteur lus sur Commons, et les questions désignées reçoivent l'image.
