@@ -184,6 +184,17 @@ export const coursSchema = z
     message: 'un cours publié cite chaque source avec sa page et son extrait',
   });
 export type BlocCours = z.infer<typeof blocCoursSchema>;
+
+// Glossaire commun : une seule définition par terme et par cycle, reprise mot pour mot par tous les cours
+// (bloc « vocabulaire »). Les cours d'un même cycle ne peuvent donc pas se contredire.
+export const glossaireSchema = z.object({
+  termes: z.array(z.object({
+    terme: z.string().min(1),
+    /** Définition par cycle ; un cycle absent : le terme n'y est pas défini. */
+    definitions: z.object({ '2': z.string().min(1).optional(), '3': z.string().min(1).optional(), '4': z.string().min(1).optional() }),
+  })),
+});
+export type Glossaire = z.infer<typeof glossaireSchema>;
 export type QuestionCours = z.infer<typeof questionCoursSchema>;
 export type Cours = z.infer<typeof coursSchema>;
 

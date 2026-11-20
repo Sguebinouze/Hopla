@@ -1,0 +1,132 @@
+{
+  "competence": "MA-C2-CE1-CALC-05",
+  "duree": 8,
+  "essentiel": "Pour ajouter 19, ajoute 20 puis enlève 1.\nPour ajouter 29, ajoute 30 puis enlève 1.\nLe nombre finit par 0 ou 1 ? Ajoute directement : 40 + 19 = 59.",
+  "parties": [
+    {
+      "titre": "Ajouter 9, 19 ou 29",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 58 + 19 en deux étapes.",
+          "exemples": [
+            "19, c’est 20 moins 1.",
+            "58 + 20 = 78.",
+            "78 − 1 = 77."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "droite",
+            "min": 56,
+            "max": 80,
+            "depart": 58,
+            "saut": 19
+          },
+          "legende": "De 58, on avance de 19 : on arrive à 77."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour ajouter 19",
+          "etapes": [
+            "Ajoute 2 dizaines.",
+            "Enlève 1 unité.",
+            "Pour 9, ajoute 10 et enlève 1. Pour 29, ajoute 30 et enlève 1."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 47 + 19 ?",
+          "options": [
+            "66",
+            "67",
+            "76"
+          ],
+          "reponse": "66",
+          "explication": "47 + 20 = 67. Puis 67 − 1 = 66."
+        }
+      ]
+    },
+    {
+      "titre": "Quand ce n’est pas utile",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec 40 + 19, il n’y a pas de retenue. On ajoute directement : **59**."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie d’enlever 1 : 58 + 19 = 78.",
+          "correction": "On a ajouté 20, soit 1 de trop. On enlève 1 : 77."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 61 + 29 ?",
+          "options": [
+            "90",
+            "91",
+            "80"
+          ],
+          "reponse": "90",
+          "explication": "61 + 30 = 91. Puis 91 − 1 = 90."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 35 + 9 ?",
+      "options": [
+        "44",
+        "45",
+        "34"
+      ],
+      "reponse": "44",
+      "explication": "35 + 10 = 45. Puis 45 − 1 = 44."
+    },
+    {
+      "consigne": "Combien font 126 + 29 ?",
+      "options": [
+        "155",
+        "156",
+        "145"
+      ],
+      "reponse": "155",
+      "explication": "126 + 30 = 156. Puis 156 − 1 = 155."
+    },
+    {
+      "consigne": "Combien font 80 + 19 ?",
+      "options": [
+        "99",
+        "98",
+        "100"
+      ],
+      "reponse": "99",
+      "explication": "80 finit par 0 : on ajoute directement. 99."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 15,
+      "extrait": "L’élève sait ajouter 9, 19 ou 29 à un nombre en ajoutant 10, 20 ou 30, puis en",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "eduscol-livret-maths-ce1-2025",
+      "page": 24,
+      "extrait": "pour ajouter 19 à 58, je peux ajouter 20 et soustraire",
+      "appui": "Exemple 58 + 19"
+    },
+    {
+      "id": "eduscol-livret-maths-ce1-2025",
+      "page": 23,
+      "extrait": "lorsque le chiffre des unités du nombre initial est 0 ou 1",
+      "appui": "Quand la procédure n’est pas utile"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

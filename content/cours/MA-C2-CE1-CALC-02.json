@@ -1,0 +1,125 @@
+{
+  "competence": "MA-C2-CE1-CALC-02",
+  "duree": 8,
+  "essentiel": "4 × 3, c’est 4 fois 3. 4 × 3 = 3 × 4 = 12.\nUne table connue aide à trouver une autre table. 7 × 7 = 6 × 7 + 7.",
+  "parties": [
+    {
+      "titre": "Plusieurs fois le même nombre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un potager a 4 rangs de 3 salades.",
+          "exemples": [
+            "3 + 3 + 3 + 3 = 12.",
+            "On écrit 4 × 3 = 12.",
+            "On lit : 4 fois 3."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 4,
+            "colonnes": 3,
+            "coloriees": 12
+          },
+          "legende": "4 rangs de 3 : 12 salades."
+        },
+        {
+          "type": "explique",
+          "texte": "On peut aussi compter 3 colonnes de 4. **3 × 4 = 4 × 3**. Le résultat ne change pas."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 5 × 2 ?",
+          "options": [
+            "10",
+            "7",
+            "52"
+          ],
+          "reponse": "10",
+          "explication": "2 + 2 + 2 + 2 + 2 = 10."
+        }
+      ]
+    },
+    {
+      "titre": "Retrouver un résultat",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour retrouver 7 × 7",
+          "etapes": [
+            "Pars d’un résultat connu : 6 × 7 = 42.",
+            "Ajoute encore un 7 : 42 + 7.",
+            "Tu trouves 7 × 7 = 49."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute au lieu de multiplier : 4 × 3 = 7.",
+          "correction": "4 × 3, c’est 4 fois 3, pas 4 plus 3. Cela fait 12."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : 4 × … = 12",
+          "options": [
+            "3",
+            "8",
+            "16"
+          ],
+          "reponse": "3",
+          "explication": "4 × 3 = 12."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 3 × 7 ?",
+      "options": [
+        "21",
+        "10",
+        "24"
+      ],
+      "reponse": "21",
+      "explication": "3 × 7 = 7 × 3 = 21."
+    },
+    {
+      "consigne": "Complète : … × 5 = 30",
+      "options": [
+        "6",
+        "25",
+        "35"
+      ],
+      "reponse": "6",
+      "explication": "6 × 5 = 30."
+    },
+    {
+      "consigne": "Combien font 8 × 7 ?",
+      "options": [
+        "56",
+        "54",
+        "15"
+      ],
+      "reponse": "56",
+      "explication": "7 × 7 = 49. Puis 49 + 7 = 56."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "L’élève peut ainsi compléter des « égalités à trou » du type : 4 × … = 12 ; 5 × 3 = … ;",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "eduscol-livret-maths-ce1-2025",
+      "page": 3,
+      "extrait": "La construction de la table de 7 s’opère en prenant appui sur la commutativité",
+      "appui": "Retrouver une table avec une table connue"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

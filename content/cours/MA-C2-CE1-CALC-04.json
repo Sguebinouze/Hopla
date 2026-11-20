@@ -1,0 +1,118 @@
+{
+  "competence": "MA-C2-CE1-CALC-04",
+  "duree": 6,
+  "essentiel": "Pour ajouter des dizaines, change seulement le chiffre des dizaines. 234 + 60 = 294.\nMultiplier par 10, c’est changer les unités en dizaines. 72 × 10 = 720.",
+  "parties": [
+    {
+      "titre": "Ajouter ou retirer des dizaines",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 234 + 60.",
+          "exemples": [
+            "60, c’est 6 dizaines.",
+            "234 a 3 dizaines. 3 + 6 = 9 dizaines.",
+            "Les centaines et les unités ne bougent pas : 294."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour ajouter des dizaines ou des centaines",
+          "etapes": [
+            "Trouve le chiffre qui change : dizaines ou centaines.",
+            "Ajoute ou retire sur ce chiffre seulement.",
+            "Recopie les autres chiffres."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 458 − 30 ?",
+          "options": [
+            "428",
+            "455",
+            "158"
+          ],
+          "reponse": "428",
+          "explication": "5 dizaines moins 3 dizaines : 2 dizaines. 428."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 315 + 200 ?",
+          "options": [
+            "515",
+            "335",
+            "317"
+          ],
+          "reponse": "515",
+          "explication": "3 centaines plus 2 centaines : 5 centaines. 515."
+        }
+      ]
+    },
+    {
+      "titre": "Multiplier par 10",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "10 fois une unité, c’est une dizaine. Chaque chiffre avance d’un rang. On écrit un **0** à droite."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 72 × 10.",
+          "etapes": [
+            "72, c’est 7 dizaines et 2 unités.",
+            "Fois 10 : 7 centaines et 2 dizaines."
+          ],
+          "conclusion": "72 × 10 = 720."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 72 × 10 = 82.",
+          "correction": "On a ajouté 10 au lieu de multiplier. 72 × 10 = 720."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 624 + 50 ?",
+      "options": [
+        "674",
+        "629",
+        "1124"
+      ],
+      "reponse": "674",
+      "explication": "2 dizaines plus 5 dizaines : 7 dizaines. 674."
+    },
+    {
+      "consigne": "Combien font 36 × 10 ?",
+      "options": [
+        "360",
+        "46",
+        "306"
+      ],
+      "reponse": "360",
+      "explication": "36 × 10 = 360."
+    },
+    {
+      "consigne": "Combien font 780 − 400 ?",
+      "options": [
+        "380",
+        "740",
+        "776"
+      ],
+      "reponse": "380",
+      "explication": "7 centaines moins 4 centaines : 3 centaines. 380."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 15,
+      "extrait": "L’élève s’appuie sur la numération pour effectuer rapidement et mentalement des",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

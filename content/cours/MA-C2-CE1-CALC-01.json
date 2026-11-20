@@ -1,0 +1,120 @@
+{
+  "competence": "MA-C2-CE1-CALC-01",
+  "duree": 7,
+  "essentiel": "Les tables d’addition se savent par cœur, dans les deux sens.\n8 + 5 = 13. Donc 8 + … = 13 se complète avec 5.",
+  "parties": [
+    {
+      "titre": "Passer par 10",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Calcule 8 + 5 en deux sauts.",
+          "exemples": [
+            "8 + 2 = 10.",
+            "Il reste 3 à ajouter.",
+            "10 + 3 = 13."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "droite",
+            "min": 6,
+            "max": 15,
+            "depart": 8,
+            "saut": 5
+          },
+          "legende": "De 8, on avance de 5 : on arrive à 13."
+        },
+        {
+          "type": "explique",
+          "texte": "Passer par **10** aide à trouver vite. Ensuite, le résultat doit venir sans compter."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 7 + 6 ?",
+          "options": [
+            "13",
+            "12",
+            "14"
+          ],
+          "reponse": "13",
+          "explication": "7 + 3 = 10. Puis 10 + 3 = 13."
+        }
+      ]
+    },
+    {
+      "titre": "Dans les deux sens",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour compléter 4 + … = 12",
+          "etapes": [
+            "Cherche ce qu’il manque à 4 pour aller à 12.",
+            "Pense à la table : 4 + 8 = 12.",
+            "Écris 8."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute les deux nombres : 4 + 12 = 16.",
+          "correction": "Le 12 est le total. On cherche ce qui manque : 8."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : 10 = 7 + …",
+          "options": [
+            "3",
+            "17",
+            "4"
+          ],
+          "reponse": "3",
+          "explication": "7 + 3 = 10."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien font 9 + 4 ?",
+      "options": [
+        "13",
+        "14",
+        "12"
+      ],
+      "reponse": "13",
+      "explication": "9 + 1 = 10. Puis 10 + 3 = 13."
+    },
+    {
+      "consigne": "Complète : 6 + … = 11",
+      "options": [
+        "5",
+        "17",
+        "6"
+      ],
+      "reponse": "5",
+      "explication": "6 + 5 = 11."
+    },
+    {
+      "consigne": "Complète : … + 7 = 15",
+      "options": [
+        "8",
+        "22",
+        "7"
+      ],
+      "reponse": "8",
+      "explication": "8 + 7 = 15."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "L’élève sait compléter des « égalités à trou » du type : 4 + … = 12 ; 5 + 3 = … ; 10 = 7 + …",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

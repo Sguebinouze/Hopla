@@ -1,0 +1,147 @@
+{
+  "competence": "MA-C2-CE1-NUM-01",
+  "duree": 8,
+  "essentiel": "Un nombre à 3 chiffres a des **centaines**, des **dizaines**, des **unités**.\n635, c’est 6 centaines, 3 dizaines et 5 unités.\n635 = 600 + 30 + 5.\nOn l’écrit six-cent-trente-cinq.",
+  "parties": [
+    {
+      "titre": "Centaines, dizaines, unités",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde comment on range 635 dans le tableau.",
+          "exemples": [
+            "6 paquets de cent.",
+            "3 paquets de dix.",
+            "5 unités toutes seules."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Le nombre 635",
+          "colonnes": [
+            "Centaines",
+            "Dizaines",
+            "Unités"
+          ],
+          "lignes": [
+            [
+              "6",
+              "3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Chaque chiffre a une place. Le **6** vaut 6 centaines, donc 600. Le **3** vaut 3 dizaines, donc 30. Le **5** vaut 5 unités."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 482, que vaut le chiffre 8 ?",
+          "options": [
+            "8 dizaines",
+            "8 unités",
+            "8 centaines"
+          ],
+          "reponse": "8 dizaines",
+          "explication": "Le 8 est à la place des dizaines. Il vaut 80."
+        }
+      ]
+    },
+    {
+      "titre": "Décomposer un nombre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour décomposer un nombre",
+          "etapes": [
+            "Lis le chiffre des centaines : 6, donc 600.",
+            "Lis le chiffre des dizaines : 3, donc 30.",
+            "Lis le chiffre des unités : 5.",
+            "Écris la somme : 635 = 600 + 30 + 5."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Dans 407, on oublie le 0.",
+          "correction": "407, c’est 4 centaines, 0 dizaine et 7 unités. 407 = 400 + 7."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle écriture est égale à 352 ?",
+          "options": [
+            "300 + 50 + 2",
+            "3 + 5 + 2",
+            "300 + 5 + 2"
+          ],
+          "reponse": "300 + 50 + 2",
+          "explication": "3 centaines, 5 dizaines, 2 unités : 300 + 50 + 2."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire le nombre en lettres",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 635 en lettres.",
+          "etapes": [
+            "600 se dit six-cents. Devant un autre nombre, on écrit six-cent.",
+            "35 se dit trente-cinq.",
+            "On relie les mots par des traits d’union."
+          ],
+          "conclusion": "635 s’écrit six-cent-trente-cinq."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de centaines dans 728 ?",
+      "options": [
+        "7",
+        "2",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "728 = 700 + 20 + 8. Il y a 7 centaines."
+    },
+    {
+      "consigne": "Quel nombre fait 5 centaines, 0 dizaine et 9 unités ?",
+      "options": [
+        "509",
+        "59",
+        "590"
+      ],
+      "reponse": "509",
+      "explication": "500 + 9 = 509. Le 0 garde la place des dizaines."
+    },
+    {
+      "consigne": "Comment écrit-on 240 en lettres ?",
+      "options": [
+        "deux-cent-quarante",
+        "deux-cents-quarante",
+        "vingt-quatre"
+      ],
+      "reponse": "deux-cent-quarante",
+      "explication": "Deux-cent prend un s seulement à la fin du nombre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 11,
+      "extrait": "L’élève sait écrire en chiffres un nombre dicté. Il sait également lire un nombre écrit en chiffres et l’écrire en lettres.",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 11,
+      "extrait": "décomposition additive sous la forme 600 + 30 + 5",
+      "appui": "Décomposer un nombre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

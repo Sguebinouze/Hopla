@@ -1,0 +1,114 @@
+{
+  "competence": "MA-C2-CE1-PB-03",
+  "duree": 8,
+  "essentiel": "Pour trouver le tout, multiplie.\n8 paquets de 7, c’est 8 × 7 = 56.\nPour partager, cherche dans la table : 56 = 8 × 7.",
+  "parties": [
+    {
+      "titre": "Chercher le tout",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Il y a 8 paquets de 7 biscuits.",
+          "exemples": [
+            "Chaque paquet a 7 biscuits.",
+            "On a 8 fois 7 biscuits.",
+            "8 × 7 = 56."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 8,
+            "colonnes": 7,
+            "coloriees": 56
+          },
+          "legende": "8 rangs de 7 : 56 biscuits."
+        },
+        {
+          "type": "question",
+          "consigne": "5 boites de 6 œufs. Combien d’œufs ?",
+          "options": [
+            "30",
+            "11",
+            "36"
+          ],
+          "reponse": "30",
+          "explication": "5 × 6 = 30."
+        }
+      ]
+    },
+    {
+      "titre": "Chercher le nombre de parts ou une part",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour un partage",
+          "etapes": [
+            "Repère le tout : 56 biscuits.",
+            "Repère ce qu’on connait : 7 par paquet.",
+            "Cherche dans la table : … × 7 = 56.",
+            "Réponds : 8 paquets."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "On partage 24 bonbons entre 4 enfants. Combien chacun ?",
+          "etapes": [
+            "Chaque enfant a la même part.",
+            "4 × … = 24. Dans la table de 4 : 4 × 6 = 24."
+          ],
+          "conclusion": "Chaque enfant a 6 bonbons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute 24 et 4.",
+          "correction": "C’est un partage en parts égales. On cherche 4 × … = 24."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "3 rangées de 9 chaises. Combien de chaises ?",
+      "options": [
+        "27",
+        "12",
+        "39"
+      ],
+      "reponse": "27",
+      "explication": "3 × 9 = 27."
+    },
+    {
+      "consigne": "20 crayons en paquets de 5. Combien de paquets ?",
+      "options": [
+        "4",
+        "25",
+        "15"
+      ],
+      "reponse": "4",
+      "explication": "4 × 5 = 20."
+    },
+    {
+      "consigne": "On partage 18 billes entre 3 amis. Combien chacun ?",
+      "options": [
+        "6",
+        "15",
+        "21"
+      ],
+      "reponse": "6",
+      "explication": "3 × 6 = 18."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 18,
+      "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur du",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

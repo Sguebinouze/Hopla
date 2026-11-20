@@ -1,0 +1,178 @@
+{
+  "competence": "MA-C2-CE1-FRAC-01",
+  "duree": 8,
+  "essentiel": "Une fraction dit combien de parts égales on prend.\nDans 3/8, le **dénominateur** 8 dit en combien de parts on coupe. Le **numérateur** 3 dit combien de parts on prend.",
+  "parties": [
+    {
+      "titre": "Des parts égales",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Cette barre est coupée en 8 parts égales.",
+          "exemples": [
+            "3 parts sont coloriées.",
+            "On écrit 3/8.",
+            "On lit : trois huitièmes."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 8,
+                "coloriees": 3,
+                "nom": "3/8"
+              }
+            ]
+          },
+          "legende": "3 parts coloriées sur 8 parts égales."
+        },
+        {
+          "type": "explique",
+          "texte": "Les parts doivent être **égales**. Sinon, ce n’est pas une fraction."
+        },
+        {
+          "type": "question",
+          "consigne": "Une barre est coupée en 4 parts égales. 1 part est coloriée. Quelle fraction ?",
+          "options": [
+            "1/4",
+            "4/1",
+            "1/3"
+          ],
+          "reponse": "1/4",
+          "explication": "On coupe en 4. On prend 1 part : 1/4."
+        }
+      ]
+    },
+    {
+      "titre": "Lire une fraction",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les noms des parts",
+          "colonnes": [
+            "Fraction",
+            "Se lit"
+          ],
+          "lignes": [
+            [
+              "1/2",
+              "un demi"
+            ],
+            [
+              "1/3",
+              "un tiers"
+            ],
+            [
+              "1/4",
+              "un quart"
+            ],
+            [
+              "2/5",
+              "deux cinquièmes"
+            ],
+            [
+              "3/10",
+              "trois dixièmes"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour écrire une fraction",
+          "etapes": [
+            "Compte toutes les parts : c’est le nombre du bas.",
+            "Compte les parts coloriées : c’est le nombre du haut."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "2 parts sont coloriées, 3 sont blanches. On écrit 2/3.",
+          "correction": "Le nombre du bas compte toutes les parts. Ici, 2/5."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 5,
+                "coloriees": 2,
+                "nom": "2/5"
+              }
+            ]
+          },
+          "legende": "2 parts coloriées sur 5 parts en tout : 2/5."
+        },
+        {
+          "type": "question",
+          "consigne": "Comment lit-on 3/4 ?",
+          "options": [
+            "trois quarts",
+            "trois quatre",
+            "quatre tiers"
+          ],
+          "reponse": "trois quarts",
+          "explication": "4 parts : des quarts. On en prend 3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une pizza est coupée en 6 parts égales. Tom en mange 5. Quelle fraction ?",
+      "options": [
+        "5/6",
+        "6/5",
+        "1/6"
+      ],
+      "reponse": "5/6",
+      "explication": "6 parts en tout. Tom en prend 5 : 5/6."
+    },
+    {
+      "consigne": "Que dit le nombre du bas d’une fraction ?",
+      "options": [
+        "En combien de parts on coupe",
+        "Combien de parts on prend",
+        "Combien il reste"
+      ],
+      "reponse": "En combien de parts on coupe",
+      "explication": "C’est le dénominateur : le nombre de parts égales."
+    },
+    {
+      "consigne": "Comment écrit-on un demi ?",
+      "options": [
+        "1/2",
+        "2/1",
+        "1/3"
+      ],
+      "reponse": "1/2",
+      "explication": "Une part sur deux parts égales : 1/2."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 12,
+      "extrait": "Les fractions rencontrées au CE1 ont un dénominateur égal à 2, 3, 4, 5, 6, 8 ou 10.",
+      "appui": "Dénominateurs utilisés au CE1"
+    },
+    {
+      "id": "eduscol-livret-maths-ce1-2025",
+      "page": 3,
+      "extrait": "les fractions rencontrées sont les fractions d’un tout",
+      "appui": "Fractions d’un tout, en parts égales"
+    },
+    {
+      "id": "eduscol-fractions-ce1-cm2-2025",
+      "page": 4,
+      "extrait": "le dénominateur indique le nombre total de parts égales",
+      "appui": "Sens du dénominateur et du numérateur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,172 @@
+{
+  "competence": "MA-C2-CE1-CALC-03",
+  "duree": 7,
+  "essentiel": "Le **double** d’un nombre, c’est 2 fois ce nombre. Le double de 25 est 50.\nLa **moitié**, c’est partager en 2 parts égales. La moitié de 70 est 35.",
+  "parties": [
+    {
+      "titre": "Le double",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le double, c’est le nombre ajouté à lui-même.",
+          "exemples": [
+            "Le double de 7 : 7 + 7 = 14.",
+            "Le double de 25 : 25 + 25 = 50.",
+            "Le double de 30 : 30 + 30 = 60."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Doubles à savoir",
+          "colonnes": [
+            "Nombre",
+            "Double"
+          ],
+          "lignes": [
+            [
+              "15",
+              "30"
+            ],
+            [
+              "25",
+              "50"
+            ],
+            [
+              "35",
+              "70"
+            ],
+            [
+              "40",
+              "80"
+            ],
+            [
+              "50",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le double de 45 ?",
+          "options": [
+            "90",
+            "80",
+            "47"
+          ],
+          "reponse": "90",
+          "explication": "45 + 45 = 90."
+        }
+      ]
+    },
+    {
+      "titre": "La moitié",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La moitié fait le chemin inverse. Le double de 35 est 70. Donc la **moitié** de 70 est 35."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour trouver la moitié de 70",
+          "etapes": [
+            "Coupe 70 en 60 et 10.",
+            "La moitié de 60 est 30.",
+            "La moitié de 10 est 5.",
+            "30 + 5 = 35."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond la moitié et le double. On trouve 80 pour 40.",
+          "correction": "La moitié est plus petite. La moitié de 40 est 20."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la moitié de 90 ?",
+          "options": [
+            "45",
+            "180",
+            "40"
+          ],
+          "reponse": "45",
+          "explication": "45 + 45 = 90. La moitié de 90 est 45."
+        }
+      ]
+    },
+    {
+      "titre": "Compter par 25",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les **multiples de 25** sont utiles. On compte par 25 : 25, 50, 75, 100."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien font 3 × 25 ?",
+          "options": [
+            "75",
+            "50",
+            "100"
+          ],
+          "reponse": "75",
+          "explication": "25 + 25 + 25 = 75."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est le double de 12 ?",
+      "options": [
+        "24",
+        "22",
+        "14"
+      ],
+      "reponse": "24",
+      "explication": "12 + 12 = 24."
+    },
+    {
+      "consigne": "Quelle est la moitié de 100 ?",
+      "options": [
+        "50",
+        "200",
+        "25"
+      ],
+      "reponse": "50",
+      "explication": "50 + 50 = 100."
+    },
+    {
+      "consigne": "Combien font 4 × 25 ?",
+      "options": [
+        "100",
+        "75",
+        "125"
+      ],
+      "reponse": "100",
+      "explication": "25, 50, 75, 100."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "les doubles des nombres de 1 à 15 ;",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "les moitiés des dizaines entières 40, 50, 60, 70, 80, 90 et 100 ;",
+      "appui": "Moitiés à connaitre"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 14,
+      "extrait": "L’élève connait les multiples de 25 suivants",
+      "appui": "Multiples de 25"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

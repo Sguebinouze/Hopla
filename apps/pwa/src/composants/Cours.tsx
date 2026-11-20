@@ -115,7 +115,7 @@ function Bloc({ b, images }: { b: BlocCours; images: CoursPack['images'] }) {
     case 'visuel':
       return (
         <figure className="cours__bloc cours__figure">
-          <div className="visuel"><Visuel visuel={b.visuel} /></div>
+          <div className="visuel"><Visuel visuel={b.visuel} revele /></div>
           <figcaption><TexteRiche texte={b.legende} /></figcaption>
         </figure>
       );

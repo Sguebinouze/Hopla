@@ -1,0 +1,108 @@
+{
+  "competence": "MA-C2-CE1-PB-02",
+  "duree": 7,
+  "essentiel": "« 75 de plus » ou « 75 de moins » : c’est un problème de comparaison.\nPour trouver le plus grand, ajoute l’écart. Pour trouver le plus petit, retire l’écart.",
+  "parties": [
+    {
+      "titre": "De plus, de moins",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis le problème.",
+          "exemples": [
+            "Léo a 188 billes.",
+            "Lucie en a 75 de plus que Léo.",
+            "Combien de billes a Lucie ?"
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Lucie a **plus** que Léo. On ajoute l’écart : 188 + 75 = 263."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de billes a Lucie ?",
+          "options": [
+            "263",
+            "113",
+            "188"
+          ],
+          "reponse": "263",
+          "explication": "188 + 75 = 263."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver l’écart",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour un problème de comparaison",
+          "etapes": [
+            "Repère les deux personnes.",
+            "Repère l’écart : de plus ou de moins.",
+            "Qui a le plus ? Ajoute l’écart à l’autre.",
+            "Qui a le moins ? Retire l’écart à l’autre."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "« De moins » fait toujours retirer.",
+          "correction": "« Paul a 12 de moins que Zoé, il a 30 ». Zoé a plus : 30 + 12."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Sam a 54 €. Mia a 39 €. Combien Sam a-t-il de plus ?",
+          "etapes": [
+            "On cherche l’écart.",
+            "54 − 39 = 15."
+          ],
+          "conclusion": "Sam a 15 € de plus que Mia."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Ana a 120 images. Noé en a 30 de moins. Combien en a Noé ?",
+      "options": [
+        "90",
+        "150",
+        "30"
+      ],
+      "reponse": "90",
+      "explication": "Noé a moins : 120 − 30 = 90."
+    },
+    {
+      "consigne": "Une tour mesure 45 m. Une autre mesure 20 m de plus. Combien ?",
+      "options": [
+        "65 m",
+        "25 m",
+        "20 m"
+      ],
+      "reponse": "65 m",
+      "explication": "45 + 20 = 65."
+    },
+    {
+      "consigne": "Lou a 8 ans. Sa sœur a 13 ans. Combien d’années d’écart ?",
+      "options": [
+        "5",
+        "21",
+        "13"
+      ],
+      "reponse": "5",
+      "explication": "13 − 8 = 5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 17,
+      "extrait": "L’élève sait résoudre des problèmes additifs de comparaison lorsque deux des trois",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,138 @@
+{
+  "competence": "MA-C2-CE1-PB-01",
+  "duree": 9,
+  "essentiel": "Dans un problème, cherche le **tout** et les **parties**.\nSi tu cherches le tout, ajoute les parties. Si tu cherches une partie, retire l’autre partie au tout.",
+  "parties": [
+    {
+      "titre": "Le tout et les parties",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis le problème.",
+          "exemples": [
+            "J’ai 227 billes en tout.",
+            "113 billes sont dans le coffre vert.",
+            "Les autres sont dans le coffre rouge.",
+            "Combien de billes dans le coffre rouge ?"
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Le schéma en barres",
+          "colonnes": [
+            "Tout",
+            "Partie 1",
+            "Partie 2"
+          ],
+          "lignes": [
+            [
+              "227 billes",
+              "113 billes",
+              "?"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "On cherche une **partie**. On retire l’autre partie au tout : 227 − 113 = 114."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de billes dans le coffre rouge ?",
+          "options": [
+            "114",
+            "340",
+            "113"
+          ],
+          "reponse": "114",
+          "explication": "227 − 113 = 114. Vérifie : 113 + 114 = 227."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le calcul",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour résoudre un problème",
+          "etapes": [
+            "Lis et trouve ce qu’on cherche.",
+            "Dessine le tout et les parties.",
+            "Choisis : ajouter ou retirer.",
+            "Calcule, puis fais une phrase réponse."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Lina a 35 cartes. Elle en gagne 18. Combien en a-t-elle ?",
+          "etapes": [
+            "Les parties : 35 et 18.",
+            "On cherche le tout : on ajoute.",
+            "35 + 18 = 53."
+          ],
+          "conclusion": "Lina a 53 cartes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute tous les nombres de l’énoncé.",
+          "correction": "Regarde ce qu’on cherche. Pour une partie, on retire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un bus a 42 places. 27 sont prises. Combien de places libres ?",
+      "options": [
+        "15",
+        "69",
+        "25"
+      ],
+      "reponse": "15",
+      "explication": "On cherche une partie : 42 − 27 = 15."
+    },
+    {
+      "consigne": "Tom a 64 billes. Il en perd 20. Combien lui en reste-t-il ?",
+      "options": [
+        "44",
+        "84",
+        "40"
+      ],
+      "reponse": "44",
+      "explication": "On retire : 64 − 20 = 44."
+    },
+    {
+      "consigne": "Une classe a 13 filles et 14 garçons. Combien d’élèves ?",
+      "options": [
+        "27",
+        "1",
+        "17"
+      ],
+      "reponse": "27",
+      "explication": "On cherche le tout : 13 + 14 = 27."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 9,
+      "extrait": "Les élèves doivent traiter au moins dix problèmes par semaine",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    },
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 17,
+      "extrait": "sur un schéma en barre pour modéliser",
+      "appui": "Schéma en barres"
+    },
+    {
+      "id": "eduscol-livret-maths-ce1-2025",
+      "page": 3,
+      "extrait": "représenter à l’aide d’un schéma en barres",
+      "appui": "Problèmes parties-tout et schéma en barres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

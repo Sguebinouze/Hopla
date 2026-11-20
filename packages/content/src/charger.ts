@@ -3,8 +3,8 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { z } from 'zod';
 import {
-  banqueCultureSchema, banqueSchema, coursSchema, defiSchema, dicteeSchema, mediaSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
-  type Banque, type BanqueCulture, type Cours, type Defi, type Dictee, type Lecon, type Media, type Programme, type Referentiel, type Source,
+  banqueCultureSchema, banqueSchema, coursSchema, defiSchema, dicteeSchema, glossaireSchema, mediaSchema, leconSchema, programmeSchema, referentielSchema, sourceSchema,
+  type Banque, type BanqueCulture, type Cours, type Defi, type Dictee, type Glossaire, type Lecon, type Media, type Programme, type Referentiel, type Source,
 } from './schemas';
 
 export const RACINE_DEPOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
@@ -19,6 +19,7 @@ export interface Contenu {
   banques: (Banque & { fichier: string })[];
   lecons: (Lecon & { fichier: string })[];
   cours: (Cours & { fichier: string })[];
+  glossaire?: Glossaire;
   defis: Defi[];
   culture: (BanqueCulture & { fichier: string })[];
   dictees?: (Dictee & { fichier: string })[];
@@ -77,6 +78,9 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     return l ? [{ ...l, fichier: relative(racine, f) }] : [];
   });
 
+  const fichierGlossaire = join(racine, 'glossaire.json');
+  const glossaire = existsSync(fichierGlossaire) ? lire(fichierGlossaire, glossaireSchema) : undefined;
+
   const cours = fichiersJson(join(racine, 'cours')).flatMap((f) => {
     const c = lire(f, coursSchema);
     return c ? [{ ...c, fichier: relative(racine, f) }] : [];
@@ -101,5 +105,5 @@ export function chargerContenu(racine = DOSSIER_CONTENU): { contenu: Contenu; er
     return m ? [{ ...m, fiche: relative(racine, f) }] : [];
   });
 
-  return { contenu: { sources, programmes, referentiels, banques, lecons, cours, defis, culture, dictees, medias }, erreurs };
+  return { contenu: { sources, programmes, referentiels, banques, lecons, cours, glossaire, defis, culture, dictees, medias }, erreurs };
 }

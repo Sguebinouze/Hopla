@@ -1,0 +1,145 @@
+{
+  "competence": "MA-C2-CE1-NUM-02",
+  "duree": 7,
+  "essentiel": "Pour comparer deux nombres, regarde d’abord les centaines.\nPuis compare les dizaines, puis les unités.\n234 < 239 : mêmes centaines, mêmes dizaines, 4 est plus petit que 9.",
+  "parties": [
+    {
+      "titre": "Comparer deux nombres",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compare les chiffres de gauche à droite.",
+          "exemples": [
+            "412 et 398 : 4 centaines contre 3 centaines.",
+            "256 et 263 : mêmes centaines, 5 dizaines contre 6.",
+            "734 et 731 : seules les unités changent."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux nombres",
+          "etapes": [
+            "Compare les centaines. La plus grande gagne.",
+            "Si elles sont égales, compare les dizaines.",
+            "Si elles sont encore égales, compare les unités."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les signes",
+          "colonnes": [
+            "Signe",
+            "Se lit",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "<",
+              "est plus petit que",
+              "398 < 412"
+            ],
+            [
+              ">",
+              "est plus grand que",
+              "263 > 256"
+            ],
+            [
+              "=",
+              "est égal à",
+              "500 = 500"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 98 est plus grand que 120. On regarde le 9.",
+          "correction": "98 n’a pas de centaines. 120 a une centaine. 120 est plus grand."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel nombre est le plus grand ?",
+          "options": [
+            "503",
+            "499",
+            "350"
+          ],
+          "reponse": "503",
+          "explication": "503 a 5 centaines. C’est le plus de centaines."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger et encadrer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range du plus petit au plus grand : 243, 234, 239.",
+          "etapes": [
+            "Les trois nombres ont 2 centaines.",
+            "Dizaines : 3, 3 et 4. 243 est le plus grand.",
+            "Pour 234 et 239, compare les unités : 4 puis 9."
+          ],
+          "conclusion": "234 < 239 < 243"
+        },
+        {
+          "type": "explique",
+          "texte": "**Encadrer**, c’est trouver le nombre juste avant et juste après. 727 est entre 720 et 730."
+        },
+        {
+          "type": "question",
+          "consigne": "727 est entre quelles dizaines ?",
+          "options": [
+            "720 et 730",
+            "700 et 800",
+            "727 et 728"
+          ],
+          "reponse": "720 et 730",
+          "explication": "72 dizaines, c’est 720. La dizaine suivante est 730."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe va entre 645 et 654 ?",
+      "options": [
+        "<",
+        ">",
+        "="
+      ],
+      "reponse": "<",
+      "explication": "Mêmes centaines. 4 dizaines contre 5 dizaines : 645 < 654."
+    },
+    {
+      "consigne": "Range du plus grand au plus petit : 812, 821, 128.",
+      "options": [
+        "821, 812, 128",
+        "128, 812, 821",
+        "812, 821, 128"
+      ],
+      "reponse": "821, 812, 128",
+      "explication": "821 > 812 > 128."
+    },
+    {
+      "consigne": "Quel nombre est entre 360 et 370 ?",
+      "options": [
+        "365",
+        "356",
+        "376"
+      ],
+      "reponse": "365",
+      "explication": "365 a 36 dizaines, comme 360."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 11,
+      "extrait": "L’élève sait ordonner dans l’ordre croissant ou décroissant un ensemble pouvant aller",
+      "appui": "Ce que l’élève de CE1 doit savoir faire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

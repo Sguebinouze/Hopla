@@ -224,7 +224,15 @@ export function verifierContenu(contenu: Contenu, options = OPTIONS_PAR_DEFAUT):
           case 'tableau':
             if (b.lignes.some((l) => l.length !== b.colonnes.length)) erreur(k.fichier, `${ici} : lignes de longueur différente des colonnes`);
             break;
-          case 'vocabulaire': textes.push(...b.mots.map((m): [string, string] => [ici, m.definition])); break;
+          case 'vocabulaire':
+            textes.push(...b.mots.map((m): [string, string] => [ici, m.definition]));
+            // Terme du glossaire : sa définition du cycle, mot pour mot.
+            for (const m of b.mots) {
+              const g = contenu.glossaire?.termes.find((t) => t.terme.toLowerCase() === m.mot.toLowerCase());
+              const attendue = g?.definitions[String(c.cycle) as '2' | '3' | '4'];
+              if (attendue && attendue !== m.definition) erreur(k.fichier, `${ici} : « ${m.mot} » diffère du glossaire (cycle ${c.cycle})`);
+            }
+            break;
           case 'image':
             if (!contenu.medias?.some((m) => m.id === b.media)) erreur(k.fichier, `${ici} : image inconnue ${b.media}`);
             textes.push([ici, b.legende]);
