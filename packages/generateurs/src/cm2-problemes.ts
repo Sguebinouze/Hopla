@@ -3,6 +3,7 @@
 // Au cours moyen, la proportionnalité se traite par la linéarité seulement : ni tableau, ni coefficient, ni produit en croix.
 import { depuisEntier } from './decimaux';
 import { creerGenerateur, fr, frDecimal, type Aleatoire } from './outils';
+import type { CouleurBoule, Visuel } from './types';
 
 const PRENOMS = ['Léa', 'Tom', 'Inès', 'Hugo', 'Nora', 'Sami', 'Jade', 'Malik'];
 
@@ -284,6 +285,11 @@ function evenementDe(a: Aleatoire): Evenement {
   ]);
 }
 
+/** Urne dessinée : couleurs au pluriel (« rouges ») et nombre de boules de chaque couleur. */
+export const urne = (couleurs: string[], nombres: number[]): Visuel => ({
+  type: 'urne', boules: couleurs.map((c, i) => ({ couleur: c.slice(0, -1) as CouleurBoule, nombre: nombres[i]! })),
+});
+
 export const probabilitesCm2 = creerGenerateur({
   id: 'probabilites-cm2',
   competence: 'MA-C3-CM2-PROBA-01',
@@ -313,6 +319,7 @@ export const probabilitesCm2 = creerGenerateur({
       return {
         gabarit: 'saisie',
         consigne: `Une urne contient ${liste[0]}, ${liste[1]} et ${liste[2]}. On tire une boule au hasard. Combien de chances sur ${total} a-t-on de ${contraire ? 'ne pas tirer' : 'tirer'} une boule ${coul} ?`,
+        visuel: urne(couleurs, nombres),
         reponse: String(favorables),
         indice: 'Compte toutes les boules, puis celles qui réalisent l’évènement.',
         explication: `Il y a ${nombres.join(' + ')} = ${total} boules. ${contraire ? `Les boules qui ne sont pas ${couleurs[i]} sont au nombre de ${total} − ${nombres[i]} = ${favorables}.` : `Il y a ${favorables} boule${favorables > 1 ? 's' : ''} ${favorables > 1 ? couleurs[i] : coul}.`} On a ${favorables} chance${favorables > 1 ? 's' : ''} sur ${total}.`,

@@ -1,19 +1,61 @@
 // 6e, organisation et gestion de données, probabilités.
 // Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), p. 25 et 26.
 import { depuisEntier } from './decimaux';
-import { choix, creerGenerateur, erreursDe, frDecimal } from './outils';
+import { urne } from './cm2-problemes';
+import { choix, creerGenerateur, erreursDe, frDecimal, type Aleatoire } from './outils';
+import type { Item } from './types';
 
 // ─────────── Lire et filtrer des données
 
 const JOURS = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi'];
-type Releve = { titre: string; etiquettes: string[]; unite: string; min: number; max: number; plus: string; moins: string; critere: (seuil: number) => string };
+type Releve = { titre: string; etiquettes: string[]; unite: string; min: number; max: number; plus: string; moins: string; critere: (seuil: number) => string; lire: (e: string) => string };
 const RELEVES: Releve[] = [
-  { titre: 'Températures relevées à midi', etiquettes: JOURS, unite: '°C', min: 6, max: 24, plus: 'Quel jour a-t-il fait le plus chaud ?', moins: 'Quel jour a-t-il fait le plus froid ?', critere: (s) => `Combien de jours la température a-t-elle dépassé ${s} °C ?` },
-  { titre: 'Livres empruntés à la bibliothèque', etiquettes: JOURS, unite: 'livres', min: 12, max: 60, plus: 'Quel jour a-t-on emprunté le plus de livres ?', moins: 'Quel jour a-t-on emprunté le moins de livres ?', critere: (s) => `Combien de jours a-t-on emprunté plus de ${s} livres ?` },
-  { titre: 'Repas servis à la cantine', etiquettes: JOURS, unite: 'repas', min: 150, max: 320, plus: 'Quel jour a-t-on servi le plus de repas ?', moins: 'Quel jour a-t-on servi le moins de repas ?', critere: (s) => `Combien de jours a-t-on servi plus de ${s} repas ?` },
-  { titre: 'Hauteur de pluie tombée', etiquettes: JOURS, unite: 'mm', min: 0, max: 30, plus: 'Quel jour a-t-il le plus plu ?', moins: 'Quel jour a-t-il le moins plu ?', critere: (s) => `Combien de jours est-il tombé plus de ${s} mm de pluie ?` },
-  { titre: 'Élèves inscrits aux clubs du midi', etiquettes: ['échecs', 'chorale', 'théâtre', 'jardinage', 'robotique'], unite: 'élèves', min: 5, max: 32, plus: 'Quel club a le plus d’inscrits ?', moins: 'Quel club a le moins d’inscrits ?', critere: (s) => `Combien de clubs ont plus de ${s} inscrits ?` },
+  { titre: 'Températures relevées à midi', etiquettes: JOURS, unite: '°C', min: 6, max: 24, plus: 'Quel jour a-t-il fait le plus chaud ?', moins: 'Quel jour a-t-il fait le plus froid ?', critere: (s) => `Combien de jours la température a-t-elle dépassé ${s} °C ?`, lire: (e) => `Quelle température a-t-on relevée ${e} ?` },
+  { titre: 'Livres empruntés à la bibliothèque', etiquettes: JOURS, unite: 'livres', min: 12, max: 60, plus: 'Quel jour a-t-on emprunté le plus de livres ?', moins: 'Quel jour a-t-on emprunté le moins de livres ?', critere: (s) => `Combien de jours a-t-on emprunté plus de ${s} livres ?`, lire: (e) => `Combien de livres a-t-on empruntés ${e} ?` },
+  { titre: 'Repas servis à la cantine', etiquettes: JOURS, unite: 'repas', min: 150, max: 320, plus: 'Quel jour a-t-on servi le plus de repas ?', moins: 'Quel jour a-t-on servi le moins de repas ?', critere: (s) => `Combien de jours a-t-on servi plus de ${s} repas ?`, lire: (e) => `Combien de repas a-t-on servis ${e} ?` },
+  { titre: 'Hauteur de pluie tombée', etiquettes: JOURS, unite: 'mm', min: 0, max: 30, plus: 'Quel jour a-t-il le plus plu ?', moins: 'Quel jour a-t-il le moins plu ?', critere: (s) => `Combien de jours est-il tombé plus de ${s} mm de pluie ?`, lire: (e) => `Combien de millimètres de pluie sont tombés ${e} ?` },
+  { titre: 'Élèves inscrits aux clubs du midi', etiquettes: ['échecs', 'chorale', 'théâtre', 'jardinage', 'robotique'], unite: 'élèves', min: 5, max: 32, plus: 'Quel club a le plus d’inscrits ?', moins: 'Quel club a le moins d’inscrits ?', critere: (s) => `Combien de clubs ont plus de ${s} inscrits ?`, lire: (e) => `Combien d’élèves sont inscrits au club « ${e} » ?` },
 ];
+
+const PAS = [1, 2, 5, 10, 20, 25, 50, 100];
+
+/**
+ * Diagramme en barres : chaque valeur tombe sur une graduation, elles sont toutes différentes.
+ * On cherche la plus grande ou la plus petite (`extremum`), ou on lit une valeur.
+ */
+export function diagramme(a: Aleatoire, r: Releve, extremum: boolean): Omit<Item, 'id' | 'competence' | 'difficulte'> {
+  const pas = PAS.find((p) => p >= r.max / 8)!;
+  const haut = Math.ceil(r.max / pas) * pas;
+  let bas = Math.max(pas, Math.floor(r.min / pas) * pas);
+  while ((haut - bas) / pas + 1 < 5) bas -= pas;
+  const valeurs = a.melanger(Array.from({ length: (haut - bas) / pas + 1 }, (_, i) => bas + i * pas)).slice(0, 5);
+  const visuel = { type: 'diagramme', titre: r.titre, unite: r.unite, pas, barres: r.etiquettes.map((nom, i) => ({ nom, valeur: valeurs[i]! })) } as const;
+  if (extremum) {
+    const plus = a.suivant() < 0.5;
+    const cible = plus ? Math.max(...valeurs) : Math.min(...valeurs);
+    const reponse = r.etiquettes[valeurs.indexOf(cible)]!;
+    const opts = a.melanger([reponse, ...a.melanger(r.etiquettes.filter((e) => e !== reponse)).slice(0, 3)]);
+    return {
+      gabarit: 'qcm',
+      consigne: `Regarde le diagramme. ${plus ? r.plus : r.moins}`,
+      visuel,
+      options: opts,
+      erreurs: erreursDe(opts, reponse, [[r.etiquettes[valeurs.indexOf(plus ? Math.min(...valeurs) : Math.max(...valeurs))]!, 'plus-grand-plus-petit-confondus']]),
+      reponse,
+      indice: `Cherche la barre la plus ${plus ? 'haute' : 'basse'}.`,
+      explication: `La barre la plus ${plus ? 'haute' : 'basse'} est celle de ${reponse} : ${cible} ${r.unite}.`,
+    };
+  }
+  const i = a.entier(0, 4);
+  return {
+    gabarit: 'saisie',
+    consigne: `Regarde le diagramme. ${r.lire(r.etiquettes[i]!)}`,
+    visuel,
+    reponse: String(valeurs[i]),
+    indice: `Suis le haut de la barre jusqu’à l’axe gradué. Les graduations vont de ${pas} en ${pas}.`,
+    explication: `La barre ${r.etiquettes[i]} s’arrête à la graduation ${valeurs[i]} : ${valeurs[i]} ${r.unite}.`,
+  };
+}
 
 export const donnees6e = creerGenerateur({
   id: 'donnees-6e',
@@ -22,6 +64,7 @@ export const donnees6e = creerGenerateur({
   description: 'Lire un tableau de données, le filtrer selon un critère, lire un diagramme circulaire.',
   generer(a, d) {
     const r = a.choisir(RELEVES);
+    if (d !== 3 && a.suivant() < 0.5) return diagramme(a, r, d === 1);
     // Valeurs toutes différentes : un seul maximum, un seul minimum.
     const valeurs: number[] = [];
     while (valeurs.length < 5) {
@@ -106,6 +149,7 @@ export const probabilites6e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `Une urne contient ${x} boule${x > 1 ? 's' : ''} ${x > 1 ? couleurs[0] : couleurs[0].slice(0, -1)} et ${y} boule${y > 1 ? 's' : ''} ${y > 1 ? couleurs[1] : couleurs[1].slice(0, -1)}. On tire une boule au hasard. Quelle est la probabilité qu’elle soit ${couleurs[0].slice(0, -1)} ?`,
+        visuel: urne(couleurs, [x, y]),
         ...choix(a, reponse, [[`${x}/${y}`, 'probabilite-favorables-sur-autres'], [`${y}/${total}`, 'evenement-contraire'], [`${total}/${x}`, 'probabilite-superieure-a-1']], () => `${a.entier(1, total)}/${total + 1}`, { numerique: true }),
         reponse,
         indice: 'Probabilité = nombre de cas favorables ÷ nombre total de cas.',

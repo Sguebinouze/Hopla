@@ -1,6 +1,7 @@
 // 6e, volumes et vision dans l'espace : volume en cm³ par dénombrement de cubes, solides usuels et prisme droit.
 // Source : programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025), p. 19, 20, 23 et 24.
 import { choix, creerGenerateur, erreursDe, qte, type Piege } from './outils';
+import type { NomSolide } from './types';
 
 // ─────────── Volumes : dénombrer des cubes de 1 cm³
 
@@ -67,6 +68,11 @@ const DESCRIPTIONS: [string, string][] = [
   ['Il a deux bases hexagonales identiques et six faces rectangulaires.', 'un prisme droit'],
 ];
 const SOLIDES = ['un prisme droit', 'un cylindre', 'un cône', 'un cube', 'une pyramide', 'une boule', 'un pavé droit'];
+/** Solides dessinés : le dessin du prisme droit a des bases triangulaires. */
+export const DESSINS_6E: [NomSolide, string][] = [
+  ['prisme-triangulaire', 'un prisme droit'], ['cylindre', 'un cylindre'], ['cone', 'un cône'], ['cube', 'un cube'],
+  ['pyramide', 'une pyramide'], ['boule', 'une boule'], ['pave', 'un pavé droit'],
+];
 /** Un cube est un pavé droit, et un pavé droit est un prisme droit : jamais ensemble dans les options. */
 const INCLUS: Record<string, string[]> = {
   'un cube': ['un pavé droit', 'un prisme droit'], 'un pavé droit': ['un cube', 'un prisme droit'], 'un prisme droit': ['un cube', 'un pavé droit'],
@@ -88,6 +94,18 @@ export const solides6e = creerGenerateur({
   cycle: 3,
   description: 'Reconnaitre les solides usuels dont le prisme droit, compter faces, arêtes, sommets, dénombrer un assemblage de cubes.',
   generer(a, d) {
+    if (d === 1 && a.suivant() < 0.4) {
+      const [dessin, solide] = a.choisir(DESSINS_6E);
+      return {
+        gabarit: 'qcm',
+        consigne: 'Quel est ce solide ?',
+        visuel: { type: 'solide', solide: dessin },
+        ...choix(a, solide, a.melanger(SOLIDES.filter((s) => s !== solide && !(INCLUS[solide] ?? []).includes(s))).slice(0, 3).map((s): Piege => [s, 'solides-confondus']), () => 'une sphère creuse'),
+        reponse: solide,
+        indice: 'Regarde la forme des bases et des autres faces. Les pointillés montrent les arêtes cachées.',
+        explication: `C’est ${solide}.`,
+      };
+    }
     if (d === 1) {
       const [description, solide] = a.choisir(DESCRIPTIONS);
       return {

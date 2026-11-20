@@ -152,10 +152,13 @@ export const fractionsComparerCe1 = creerGenerateur({
       const den = a.choisir([5, 6, 8, 10]);
       const nums = a.melanger(Array.from({ length: den - 1 }, (_, i) => i + 1)).slice(0, 4);
       const cible = plusGrande ? Math.max(...nums) : Math.min(...nums);
+      const options = a.melanger(nums.map((n) => `${n}/${den}`));
       return {
         gabarit: 'qcm',
         consigne: `Quelle fraction est la plus ${mot} ?`,
-        options: a.melanger(nums.map((n) => `${n}/${den}`)),
+        // Au premier niveau, les barres partagées aident à voir les parts.
+        ...(d === 1 ? { visuel: { type: 'fractions', barres: options.map((o) => ({ parts: den, coloriees: Number(o.split('/')[0]), nom: o })) } as const } : {}),
+        options,
         erreurs: { [`${plusGrande ? Math.min(...nums) : Math.max(...nums)}/${den}`]: 'plus-grand-plus-petit-confondus' },
         reponse: `${cible}/${den}`,
         indice: 'Les parts ont toutes la même taille. Compte les parts.',

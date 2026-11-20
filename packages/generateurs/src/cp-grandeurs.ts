@@ -1,6 +1,7 @@
 // CP, grandeurs et mesures, espace et géométrie, données.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024).
 import { choix, creerGenerateur, erreursDe, qte } from './outils';
+import type { NomSolide } from './types';
 
 const PRENOMS = ['Léa', 'Anna', 'Mia', 'Paul', 'Jan', 'Aaron', 'Hugo', 'Zoé'];
 const FILLES = ['Léa', 'Anna', 'Mia', 'Zoé'];
@@ -29,6 +30,25 @@ export const longueursCp = creerGenerateur({
   cycle: 2,
   description: 'Choisir une longueur plausible, comparer des longueurs en m et cm, résoudre un problème de longueurs.',
   generer(a, d) {
+    if (d !== 3 && a.suivant() < 0.4) {
+      // Mesurer un trait posé sur la règle : depuis le 0, ou à partir d'une autre graduation.
+      const longueur = a.entier(2, d === 1 ? 12 : 10);
+      const debut = d === 1 ? 0 : a.entier(1, 4);
+      const fin = debut + longueur;
+      return {
+        gabarit: 'saisie',
+        consigne: debut === 0
+          ? 'Mesure le trait avec la règle. Combien de centimètres mesure-t-il ?'
+          : 'Le trait ne commence pas au 0 de la règle. Combien de centimètres mesure-t-il ?',
+        visuel: { type: 'regle', graduations: 15, debut, fin },
+        ...(debut > 0 ? { erreurs: { [String(fin)]: 'mesure-sans-partir-de-zero' } } : {}),
+        reponse: String(longueur),
+        indice: debut === 0 ? 'Le trait part du 0. Regarde le nombre au bout du trait.' : `Le trait part du ${debut}. Compte les centimètres jusqu’au bout du trait.`,
+        explication: debut === 0
+          ? `Le trait va du 0 au ${fin}. Il mesure ${longueur} cm.`
+          : `Le trait va du ${debut} au ${fin}. ${fin} − ${debut} = ${longueur}. Il mesure ${longueur} cm.`,
+      };
+    }
     if (d === 1) {
       const [objet, juste, pieges] = a.choisir(LONGUEURS_REPERES);
       return {
@@ -135,6 +155,16 @@ export const monnaieCp = creerGenerateur({
       nombres = moyens.map(() => a.entier(1, d === 1 ? 9 : 4));
     } while (moyens.reduce((s, m, i) => s + m.valeur * nombres[i]!, 0) > 100);
     const total = moyens.reduce((s, m, i) => s + m.valeur * nombres[i]!, 0);
+    if (a.suivant() < 0.5) {
+      return {
+        gabarit: 'saisie',
+        consigne: 'Combien d’euros y a-t-il en tout ?',
+        visuel: { type: 'monnaie', valeurs: moyens.flatMap((m, i) => Array<number>(nombres[i]!).fill(m.valeur)) },
+        reponse: String(total),
+        indice: 'Compte d’abord les billets. Puis ajoute les pièces.',
+        explication: `${moyens.map((m, i) => `${ecrireMoyen(nombres[i]!, m)} : ${m.valeur * nombres[i]!} €`).join('. ')}. En tout : ${total} €.`,
+      };
+    }
     const morceaux = moyens.map((m, i) => ecrireMoyen(nombres[i]!, m));
     const elle = FILLES.includes(qui);
     const avoir = morceaux.length === 2
@@ -187,9 +217,11 @@ export const heuresCp = creerGenerateur({
     const phrases = [`La petite aiguille est sur le ${n}.`, 'La grande aiguille est sur le 12.'];
     if (d === 3) phrases.reverse();
     const voisines = [n === 11 ? 1 : n + 1, n === 1 ? 11 : n - 1].map(heures);
+    const dessin = a.suivant() < 0.5;
     return {
       gabarit: 'qcm',
-      consigne: `${phrases.join(' ')} Quelle heure est-il ?`,
+      consigne: dessin ? 'Quelle heure indique l’horloge ?' : `${phrases.join(' ')} Quelle heure est-il ?`,
+      ...(dessin ? { visuel: { type: 'horloge', heures: n, minutes: 0 } as const } : {}),
       ...choix(a, heures(n), [[heures(12), 'aiguilles-inversees'], ...voisines.map((x): [string] => [x])], () => heures(a.entier(1, 11))),
       reponse: heures(n),
       indice: 'La petite aiguille montre les heures.',
@@ -208,6 +240,8 @@ const SOLIDES_OBJETS: [string, string][] = [
   ['un cornet de glace', 'cône'], ['un chapeau de clown', 'cône'],
 ];
 const SOLIDES = ['cube', 'pavé', 'boule', 'cylindre', 'cône'];
+/** Nom du solide dans le dessin (visuel « solide »). */
+export const DESSINS_SOLIDES: Record<string, NomSolide> = { cube: 'cube', pavé: 'pave', boule: 'boule', cylindre: 'cylindre', cône: 'cone', pyramide: 'pyramide' };
 
 export const solidesCp = creerGenerateur({
   id: 'solides-cp',
@@ -241,6 +275,18 @@ export const solidesCp = creerGenerateur({
     }
     // Difficulté 1 : cube, boule, cylindre seulement ; difficulté 2 : les cinq solides.
     const permis = d === 1 ? ['cube', 'boule', 'cylindre'] : SOLIDES;
+    if (a.suivant() < 0.4) {
+      const solide = a.choisir(permis);
+      return {
+        gabarit: 'qcm',
+        consigne: 'Comment s’appelle ce solide ?',
+        visuel: { type: 'solide', solide: DESSINS_SOLIDES[solide]! },
+        ...choix(a, solide, a.melanger(permis.filter((s) => s !== solide)).map((s) => [s, 'solides-confondus'] as const), () => a.choisir(permis), { taille: d === 1 ? 3 : 4 }),
+        reponse: solide,
+        indice: 'Regarde s’il a des faces plates, des coins, s’il peut rouler.',
+        explication: `C’est un${solide === 'boule' ? 'e' : ''} ${solide}.`,
+      };
+    }
     const [objet, solide] = a.choisir(SOLIDES_OBJETS.filter(([, s]) => permis.includes(s)));
     return {
       gabarit: 'qcm',

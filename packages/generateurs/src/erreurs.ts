@@ -218,6 +218,7 @@ export const ERREURS: Record<string, string> = {
   'unite-confondue': 'Choisit le bon nombre avec une mauvaise unité',
   'estimation-longueur': 'Choisit une longueur invraisemblable',
   'unites-non-converties': 'Compare des mesures sans convertir les unités',
+  'mesure-sans-partir-de-zero': 'Mesure un trait sans partir du zéro de la règle',
   'solides-confondus': 'Confond deux solides',
   'faces-aretes-sommets': 'Confond faces, arêtes et sommets',
   'carre-rectangle-confondus': 'Confond carré et rectangle',

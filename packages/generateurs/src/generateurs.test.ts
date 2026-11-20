@@ -131,6 +131,11 @@ describe('justesse CE1 mathématiques', () => {
       const attendu = item.consigne.includes('grande') ? Math.max(...v) : Math.min(...v);
       expect(val(item.reponse)).toBe(attendu);
       for (const o of item.options!) expect([2, 3, 4, 5, 6, 8, 10]).toContain(Number(o.split('/')[1]));
+      // Barres dessinées : une par option, chacune coloriée selon sa fraction.
+      if (item.visuel?.type === 'fractions') {
+        expect(item.visuel.barres.map((b) => b.nom)).toEqual(item.options);
+        for (const b of item.visuel.barres) expect(`${b.coloriees}/${b.parts}`).toBe(b.nom);
+      }
     });
   });
 

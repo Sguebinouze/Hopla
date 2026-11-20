@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { GENERATEURS_CE1 } from './ce1';
 import { DIFFICULTES, GRAINES, partout } from './oracles';
 import { generateur } from './index';
+import { compter } from './solides';
 
 const entier = (s: string) => Number(s.replace(/[\s\u00a0\u202f]/g, ''));
 
@@ -103,6 +104,12 @@ describe('justesse CE1 grandeurs', () => {
     const MINUTES: Record<string, number> = { 'et quart': 15, 'et demie': 30, 'moins le quart': -15 };
     partout('heures-ce1', (item, d) => {
       const c = item.consigne;
+      if (d === 2 && item.visuel?.type === 'horloge') {
+        const { heures: h, minutes: m } = item.visuel;
+        expect([15, 30, 45]).toContain(m);
+        expect(item.reponse).toBe(`${h} h ${m}`);
+        return;
+      }
       if (d === 2) {
         const [, h, g] = c.match(/entre le (\d+) et .+ sur le (\d+)\./)!;
         expect(item.reponse).toBe(`${h} h ${String(Number(g) * 5).padStart(2, '0')}`);
@@ -155,9 +162,16 @@ describe('justesse CE1 géométrie', () => {
       'une pyramide à base carrée': { faces: 5, arêtes: 8, sommets: 5 },
     };
     const FACES: Record<string, string> = { 'un cube': '6 carrés', 'un pavé': '6 rectangles', 'une pyramide à base carrée': '1 carré et 4 triangles' };
+    const ELEMENT = { faces: 'faces', arêtes: 'aretes', sommets: 'sommets' } as const;
+    const NOM: Record<string, string> = { cube: 'un cube', pave: 'un pavé', pyramide: 'une pyramide', boule: 'une boule', cylindre: 'un cylindre', cone: 'un cône' };
     partout('solides-ce1', (item, d) => {
       const c = item.consigne;
-      if (d === 1) expect(item.reponse).toBe(FORME.find(([re]) => re.test(c))![1]);
+      const v = item.visuel;
+      if (v?.type === 'solide') {
+        // Compté sur le modèle 3D qui sert au dessin, pas sur la table du générateur.
+        if (d === 1) expect(item.reponse).toBe(NOM[v.solide]);
+        else expect(Number(item.reponse)).toBe(compter(v.solide)![ELEMENT[c.match(/Combien (?:de |d’)(\p{L}+)/u)![1] as keyof typeof ELEMENT]]);
+      } else if (d === 1) expect(item.reponse).toBe(FORME.find(([re]) => re.test(c))![1]);
       else if (d === 2) {
         const [, element, solide] = c.match(/Combien (?:de |d’)(\p{L}+) a (.+) \?/u)!;
         expect(Number(item.reponse)).toBe(COMPTES[solide!]![element!]);

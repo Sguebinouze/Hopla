@@ -1,4 +1,5 @@
 import { ecrireRelatif, type ElementFigure, type Point, type Visuel as V } from '@hopla/generateurs';
+import { Diagramme, Fractions, Horloge, Monnaie, Regle, Solide, Urne } from './Dessins';
 
 type VFigure = Extract<V, { type: 'figure' }>;
 const LETTRES = 'ABCDEFGHIJKLMNOP';
@@ -90,7 +91,16 @@ function Figure({ visuel }: { visuel: VFigure }) {
 
 /** `revele` : après la réponse, la droite graduée montre le saut jusqu'au résultat. */
 export function Visuel({ visuel, revele = false }: { visuel: V; revele?: boolean }) {
-  if (visuel.type === 'figure') return <Figure visuel={visuel} />;
+  switch (visuel.type) {
+    case 'figure': return <Figure visuel={visuel} />;
+    case 'horloge': return <Horloge {...visuel} />;
+    case 'monnaie': return <Monnaie {...visuel} />;
+    case 'fractions': return <Fractions {...visuel} />;
+    case 'diagramme': return <Diagramme {...visuel} />;
+    case 'solide': return <Solide solide={visuel.solide} />;
+    case 'urne': return <Urne {...visuel} />;
+    case 'regle': return <Regle {...visuel} />;
+  }
   if (visuel.type === 'grille') {
     const { lignes, colonnes, coloriees } = visuel;
     const c = 48;

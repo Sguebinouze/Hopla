@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { GENERATEURS_CE2 } from './ce2';
 import { enLettres, serie } from './index';
 import { DIFFICULTES, GRAINES, calculJuste, egaliteVraie, partout, proche, val } from './oracles';
+import { compter } from './solides';
 
 /** Nombres d'un texte écrit à la française (« 4 635 » compte pour un seul nombre). */
 const nombres = (texte: string): number[] =>
@@ -317,8 +318,17 @@ describe('justesse CE2 mathématiques : grandeurs et solides', () => {
       'pyramide à base carrée': { faces: 1 + 4, sommets: 4 + 1, arêtes: 4 + 4 },
       'pyramide à base triangulaire': { faces: 1 + 3, sommets: 3 + 1, arêtes: 3 + 3 },
     };
+    const NOM = { cube: 'cube', pave: 'pavé', pyramide: 'pyramide à base carrée', 'pyramide-triangulaire': 'pyramide à base triangulaire' } as Record<string, string>;
     partout('solides-ce2', (item) => {
       const c = item.consigne;
+      if (item.visuel?.type === 'solide') {
+        // Compté sur le modèle 3D du dessin, et comparé à la règle de la base.
+        const element = c.match(/Combien (?:de |d’)(faces|sommets|arêtes)/)![1] as 'faces' | 'sommets' | 'arêtes';
+        const modele = compter(item.visuel.solide)!;
+        expect(Number(item.reponse)).toBe({ faces: modele.faces, sommets: modele.sommets, arêtes: modele.aretes }[element]);
+        expect(Number(item.reponse)).toBe(attendus[NOM[item.visuel.solide]!]![element]);
+        return;
+      }
       const solide = c.match(/(?:un|une) (cube|pavé|pyramide à base \p{L}+)/u)![1]!;
       const ref = attendus[solide]!;
       expect(ref.faces + ref.sommets - ref.arêtes).toBe(2);

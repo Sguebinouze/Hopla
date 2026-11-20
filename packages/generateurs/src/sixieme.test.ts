@@ -128,7 +128,12 @@ describe('justesse 6e volumes et espace', () => {
   it('solides : description, faces, arêtes, sommets (Euler), assemblages', () => {
     partout('solides-6e', (item, d) => {
       const c = item.consigne;
-      if (d === 1) {
+      if (d === 1 && item.visuel?.type === 'solide') {
+        const NOM: Record<string, string> = { 'prisme-triangulaire': 'un prisme droit', cylindre: 'un cylindre', cone: 'un cône', cube: 'un cube', pyramide: 'une pyramide', boule: 'une boule', pave: 'un pavé droit' };
+        expect(item.reponse).toBe(NOM[item.visuel.solide]);
+        const famille = ['un cube', 'un pavé droit', 'un prisme droit'];
+        if (famille.includes(item.reponse)) expect(item.options!.filter((o) => famille.includes(o))).toEqual([item.reponse]);
+      } else if (d === 1) {
         const attendu = /triangulaires identiques et trois|hexagonales/.test(c) ? 'un prisme droit' : /deux bases en forme de disque/.test(c) ? 'un cylindre'
           : /une base en forme de disque/.test(c) ? 'un cône' : /six faces carrées/.test(c) ? 'un cube' : /base carrée et quatre/.test(c) ? 'une pyramide'
             : /aucune face plane/.test(c) ? 'une boule' : 'un pavé droit';
@@ -161,6 +166,22 @@ describe('justesse 6e données et probabilités', () => {
         const total = nombres(c)[0]!;
         const part = Object.keys(PARTS).find((p) => c.includes(`occupe ${p}`))!;
         expect(Number(item.reponse) * PARTS[part]!).toBe(total);
+        return;
+      }
+      if (item.visuel?.type === 'diagramme') {
+        const { pas, barres } = item.visuel;
+        const valeurs = barres.map((b) => b.valeur);
+        // Chaque barre s'arrête sur une graduation ; toutes différentes : un seul maximum, un seul minimum.
+        for (const v of valeurs) expect(v % pas).toBe(0);
+        expect(new Set(valeurs).size).toBe(5);
+        const question = c.split('. ').at(-1)!;
+        if (d === 1) {
+          const plus = /plus (chaud|plu|de|d’)/.test(question) && !/moins/.test(question);
+          expect(item.reponse).toBe(barres.find((b) => b.valeur === (plus ? Math.max(...valeurs) : Math.min(...valeurs)))!.nom);
+        } else {
+          const barre = barres.find((b) => question.includes(` ${b.nom} `) || question.includes(`« ${b.nom} »`))!;
+          expect(Number(item.reponse)).toBe(barre.valeur);
+        }
         return;
       }
       const paires = [...c.matchAll(/(\p{L}+) : (\d+)/gu)].map((m) => [m[1]!, Number(m[2])] as const);

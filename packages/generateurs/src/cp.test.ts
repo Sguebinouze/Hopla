@@ -3,6 +3,7 @@
 // QCM, rédaction, séries variées) sont vérifiées par generateurs.test.ts.
 import { describe, expect, it } from 'vitest';
 import { GENERATEURS_CP } from './cp';
+import { DESSINS_SOLIDES } from './cp-grandeurs';
 import { generateur } from './index';
 import { DIFFICULTES, GRAINES, calculJuste, calculer, egaliteVraie, partout } from './oracles';
 import type { Difficulte, Item } from './types';
@@ -298,7 +299,13 @@ describe('justesse CP mathématiques : grandeurs, géométrie, données', () => 
     partout('longueurs-cp', (item) => {
       const c = item.consigne;
       const n = nombres(c);
-      if (c.includes('à peu près')) {
+      const v = item.visuel;
+      if (v?.type === 'regle') {
+        // Le trait tient sur la règle ; sa longueur est l'écart entre ses deux graduations.
+        expect(v.fin).toBeLessThanOrEqual(v.graduations);
+        expect(r(item)).toBe(v.fin - v.debut);
+        expect(c.includes('ne commence pas au 0')).toBe(v.debut > 0);
+      } else if (c.includes('à peu près')) {
         const [, min, max] = PLAUSIBLE.find(([motif]) => motif.test(c))!;
         expect(item.options!.filter((o) => enCm(o) >= min && enCm(o) <= max)).toEqual([item.reponse]);
       } else if (c.includes('Quelle longueur est la plus')) {
@@ -317,7 +324,10 @@ describe('justesse CP mathématiques : grandeurs, géométrie, données', () => 
       const c = item.consigne;
       const rendu = c.match(/coute (\d+) €\. Tu payes avec un billet de (\d+) €/);
       if (rendu) expect(r(item)).toBe(Number(rendu[2]) - Number(rendu[1]));
-      else {
+      else if (item.visuel?.type === 'monnaie') {
+        expect(item.visuel.valeurs.every((x) => [1, 2, 5, 10, 20].includes(x))).toBe(true);
+        expect(r(item)).toBe(item.visuel.valeurs.reduce((s, x) => s + x, 0));
+      } else {
         const total = [...c.matchAll(/(\d+) (?:billet|pièce)s? de (\d+) €/g)].reduce((s, m) => s + Number(m[1]) * Number(m[2]), 0);
         expect(r(item)).toBe(total);
       }
@@ -332,7 +342,11 @@ describe('justesse CP mathématiques : grandeurs, géométrie, données', () => 
       const petite = c.match(/La petite aiguille est sur le (\d+)\./);
       const il = c.match(/^Il est (\d+) heures?\. Sur quel nombre est la (petite|grande) aiguille/);
       if (c.includes('Les deux aiguilles sont sur le 12') && c.includes('milieu de la journée')) expect(item.reponse).toBe('midi');
-      else if (petite) {
+      else if (item.visuel?.type === 'horloge') {
+        const { heures: h, minutes } = item.visuel;
+        expect(minutes).toBe(0);
+        expect(item.reponse).toBe(`${h} heure${h > 1 ? 's' : ''}`);
+      } else if (petite) {
         expect(c).toContain('La grande aiguille est sur le 12.');
         const h = Number(petite[1]);
         expect(item.reponse).toBe(`${h} heure${h > 1 ? 's' : ''}`);
@@ -348,7 +362,8 @@ describe('justesse CP mathématiques : grandeurs, géométrie, données', () => 
     ];
     partout('solides-cp', (item) => {
       const c = item.consigne;
-      if (c.startsWith('Combien de faces')) expect(item.reponse).toBe('6');
+      if (item.visuel?.type === 'solide') expect(DESSINS_SOLIDES[item.reponse]).toBe(item.visuel.solide);
+      else if (c.startsWith('Combien de faces')) expect(item.reponse).toBe('6');
       else if (c.includes('forme des faces')) expect(item.reponse).toBe(c.includes('cube') ? 'des carrés' : 'des rectangles');
       else expect(item.reponse).toBe(FORMES.find(([m]) => m.test(c))![1]);
     });

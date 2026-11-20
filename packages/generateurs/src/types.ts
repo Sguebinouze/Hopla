@@ -24,7 +24,25 @@ export type Visuel =
       quadrillage?: boolean;
       reperes?: boolean;
       elements: ElementFigure[];
-    };
+    }
+  /** Horloge à aiguilles (cadran de 12 heures). */
+  | { type: 'horloge'; heures: number; minutes: number }
+  /** Pièces et billets en euros, posés côte à côte. */
+  | { type: 'monnaie'; valeurs: number[] }
+  /** Barres de même longueur partagées en parts égales, avec leur nom. */
+  | { type: 'fractions'; barres: { parts: number; coloriees: number; nom: string }[] }
+  /** Diagramme en barres : axe gradué de `pas` en `pas` à partir de 0. */
+  | { type: 'diagramme'; titre: string; unite: string; pas: number; barres: { nom: string; valeur: number }[] }
+  /** Solide en perspective cavalière, arêtes cachées en pointillés. */
+  | { type: 'solide'; solide: NomSolide }
+  /** Urne vue de face : boules de couleur. */
+  | { type: 'urne'; boules: { couleur: CouleurBoule; nombre: number }[] }
+  /** Trait posé au-dessus d'une règle graduée en centimètres. */
+  | { type: 'regle'; graduations: number; debut: number; fin: number };
+
+export type NomSolide =
+  | 'cube' | 'pave' | 'pyramide' | 'pyramide-triangulaire' | 'prisme-triangulaire' | 'cylindre' | 'cone' | 'boule';
+export type CouleurBoule = 'rouge' | 'bleue' | 'verte' | 'jaune' | 'noire';
 
 export interface Item {
   /** Identifiant stable : générateur, difficulté et graine. */

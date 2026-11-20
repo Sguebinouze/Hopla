@@ -1,6 +1,7 @@
 // 5e, statistiques, probabilités, proportionnalité et fonctions.
 // Source : programme de mathématiques du cycle 4 (arrêté du 18 février 2026, BO n°10 du 5 mars 2026), p. 49 à 52.
 import { depuisEntier } from './decimaux';
+import { urne as dessinUrne } from './cm2-problemes';
 import { choix, creerGenerateur, fr, frDecimal, optionsNumeriques } from './outils';
 
 const dec = (n: number, chiffres: number) => frDecimal(depuisEntier(n, chiffres));
@@ -100,6 +101,7 @@ export const probabilites5e = creerGenerateur({
       return {
         gabarit: 'qcm',
         consigne: `${urne} On tire une boule au hasard. Quelle est la probabilité de tirer une boule ${sing(couleurs[0])} ?`,
+        visuel: dessinUrne(couleurs, nb),
         ...choix(a, reponse, [[`${nb[0]}/${total - nb[0]!}`, 'probabilite-favorables-sur-autres'], [`1/3`, 'equiprobabilite-des-couleurs'], [`${total - nb[0]!}/${total}`, 'evenement-contraire']], () => `${a.entier(1, total)}/${total + 2}`, { numerique: true }),
         reponse,
         indice: 'Compte toutes les boules, puis celles de la couleur demandée.',
@@ -111,6 +113,7 @@ export const probabilites5e = creerGenerateur({
     return {
       gabarit: 'qcm',
       consigne: `${urne} On tire une boule au hasard. Quelle est la probabilité de ne pas tirer une boule ${sing(couleurs[0])} ?`,
+      visuel: dessinUrne(couleurs, nb),
       ...choix(a, reponse, [[`${nb[0]}/${total}`, 'evenement-contraire'], [`${nb[1]}/${total}`], [`${total - nb[0]!}/${nb[0]}`, 'probabilite-favorables-sur-autres']], () => `${a.entier(1, total)}/${total + 1}`, { numerique: true }),
       reponse,
       indice: 'Probabilité du contraire = 1 − probabilité de l’évènement.',

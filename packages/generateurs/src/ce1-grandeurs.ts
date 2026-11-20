@@ -304,10 +304,14 @@ export const heuresCe1 = creerGenerateur({
     const grande = m / 5;
     if (d === 2) {
       const reponse = hm(h, m);
+      const dessin = a.suivant() < 0.5;
       // Pièges : prendre l'heure suivante, lire le nombre de la grande aiguille comme des minutes, inverser les aiguilles.
       return {
         gabarit: 'qcm',
-        consigne: `La petite aiguille est entre le ${h} et le ${h + 1}. La grande aiguille est sur le ${grande}. Quelle heure est-il ?`,
+        consigne: dessin
+          ? 'Quelle heure indique l’horloge ?'
+          : `La petite aiguille est entre le ${h} et le ${h + 1}. La grande aiguille est sur le ${grande}. Quelle heure est-il ?`,
+        ...(dessin ? { visuel: { type: 'horloge', heures: h, minutes: m } as const } : {}),
         ...choix(a, reponse, [[hm(h + 1, m), 'heure-suivante'], [hm(h, grande), 'minutes-lues-sur-cadran'], [hm(grande, h * 5 % 60), 'aiguilles-inversees']], () => hm(h, (m + 15) % 60)),
         reponse,
         indice: 'La grande aiguille sur le 3 : 15 minutes. Sur le 6 : 30 minutes.',

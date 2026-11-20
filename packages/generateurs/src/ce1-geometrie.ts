@@ -1,6 +1,7 @@
 // CE1, géométrie : solides usuels, figures planes, angles.
 // Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 33 et 34.
 import { choix, creerGenerateur, type Piege } from './outils';
+import type { NomSolide } from './types';
 /** La même étiquette pour toutes les options fausses. */
 const tous = (opts: readonly string[], reponse: string, code: string) => Object.fromEntries(opts.filter((o) => o !== reponse).map((o) => [o, code]));
 
@@ -20,13 +21,15 @@ const OBJETS: [string, Solide][] = [
   ['une tente pointue à base carrée', 'pyramide'],
 ];
 const ARTICLE: Record<Solide, string> = { cube: 'un cube', pavé: 'un pavé', pyramide: 'une pyramide', boule: 'une boule', cylindre: 'un cylindre', cône: 'un cône' };
+const DESSIN: Record<Solide, NomSolide> = { cube: 'cube', pavé: 'pave', pyramide: 'pyramide', boule: 'boule', cylindre: 'cylindre', cône: 'cone' };
 
 // Nombre de faces, d'arêtes et de sommets.
-const POLYEDRES: { nom: string; faces: number; aretes: number; sommets: number; natureFaces: string }[] = [
-  { nom: 'un cube', faces: 6, aretes: 12, sommets: 8, natureFaces: '6 carrés' },
-  { nom: 'un pavé', faces: 6, aretes: 12, sommets: 8, natureFaces: '6 rectangles' },
-  { nom: 'une pyramide à base carrée', faces: 5, aretes: 8, sommets: 5, natureFaces: '1 carré et 4 triangles' },
+export const POLYEDRES_CE1: { nom: string; dessin: NomSolide; faces: number; aretes: number; sommets: number; natureFaces: string }[] = [
+  { nom: 'un cube', dessin: 'cube', faces: 6, aretes: 12, sommets: 8, natureFaces: '6 carrés' },
+  { nom: 'un pavé', dessin: 'pave', faces: 6, aretes: 12, sommets: 8, natureFaces: '6 rectangles' },
+  { nom: 'une pyramide à base carrée', dessin: 'pyramide', faces: 5, aretes: 8, sommets: 5, natureFaces: '1 carré et 4 triangles' },
 ];
+const POLYEDRES = POLYEDRES_CE1;
 const ELEMENTS = [
   { mot: 'faces', cle: 'faces', aide: 'Une face est une surface plate.' },
   { mot: 'arêtes', cle: 'aretes', aide: 'Une arête est un bord, là où deux faces se touchent.' },
@@ -42,25 +45,29 @@ export const solidesCe1 = creerGenerateur({
     if (d === 1) {
       const [objet, solide] = a.choisir(OBJETS);
       const reponse = ARTICLE[solide];
+      const dessin = a.suivant() < 0.4;
       return {
         gabarit: 'qcm',
-        consigne: `Quelle est la forme d’${objet} ?`,
+        consigne: dessin ? 'Comment s’appelle ce solide ?' : `Quelle est la forme d’${objet} ?`,
+        ...(dessin ? { visuel: { type: 'solide', solide: DESSIN[solide] } as const } : {}),
         ...choix(a, reponse, a.melanger(SOLIDES.filter((s) => s !== solide)).slice(0, 3).map((s): Piege => [ARTICLE[s], 'solides-confondus']), () => ARTICLE[a.choisir(SOLIDES)]),
         reponse,
-        indice: 'Imagine l’objet. Roule-t-il ? A-t-il des faces plates ?',
-        explication: `${objet[0]!.toUpperCase()}${objet.slice(1)} a la forme d’${reponse}.`,
+        indice: dessin ? 'Regarde ses faces. Roule-t-il ? A-t-il un sommet pointu ?' : 'Imagine l’objet. Roule-t-il ? A-t-il des faces plates ?',
+        explication: dessin ? `C’est ${reponse}.` : `${objet[0]!.toUpperCase()}${objet.slice(1)} a la forme d’${reponse}.`,
       };
     }
     const p = a.choisir(POLYEDRES);
     if (d === 2) {
       const e = a.choisir(ELEMENTS);
       const n = p[e.cle];
+      const dessin = a.suivant() < 0.5;
       return {
         gabarit: 'qcm',
-        consigne: `Combien ${/^[aeéiou]/.test(e.mot) ? 'd’' : 'de '}${e.mot} a ${p.nom} ?`,
+        consigne: `Combien ${/^[aeéiou]/.test(e.mot) ? 'd’' : 'de '}${e.mot} a ${dessin ? 'ce solide' : p.nom} ?`,
+        ...(dessin ? { visuel: { type: 'solide', solide: p.dessin } as const } : {}),
         ...choix(a, String(n), ([[String(p.faces), 'faces-aretes-sommets'], [String(p.aretes), 'faces-aretes-sommets'], [String(p.sommets), 'faces-aretes-sommets'], [String(n + 2)]] as Piege[]).filter(([x]) => x !== String(n)), () => String(a.entier(3, 14))),
         reponse: String(n),
-        indice: e.aide,
+        indice: dessin ? `${e.aide} Les pointillés montrent ce qui est caché.` : e.aide,
         explication: `${p.nom[0]!.toUpperCase()}${p.nom.slice(1)} : ${p.faces} faces, ${p.aretes} arêtes, ${p.sommets} sommets.`,
       };
     }

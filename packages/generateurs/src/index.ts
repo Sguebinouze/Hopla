@@ -23,7 +23,8 @@ import { GENERATEURS_QUATRIEME } from './quatrieme';
 import { GENERATEURS_TROISIEME } from './troisieme';
 import type { Difficulte, Generateur, Item } from './types';
 
-export type { Difficulte, ElementFigure, Gabarit, Generateur, Item, Point, Visuel } from './types';
+export type { CouleurBoule, Difficulte, ElementFigure, Gabarit, Generateur, Item, NomSolide, Point, Visuel } from './types';
+export { dessinSolide, type DessinSolide, type LigneSolide } from './solides';
 export { ecrireRelatif, ecrireTerme } from './relatifs-c4';
 export { enLettres } from './lettres';
 export { ERREURS } from './erreurs';

@@ -1,14 +1,16 @@
 // CE2, les solides : cube, pavé, pyramide. Source : programme de mathématiques du cycle 2 (BO n°41 du 31 octobre 2024), p. 35.
 import { choix, creerGenerateur, type Piege } from './outils';
+import type { NomSolide } from './types';
 
 type Element = 'faces' | 'sommets' | 'arêtes';
 
-const SOLIDES: { nom: string; le: string; faces: number; sommets: number; aretes: number; formes: string }[] = [
-  { nom: 'cube', le: 'un cube', faces: 6, sommets: 8, aretes: 12, formes: 'des carrés' },
-  { nom: 'pavé', le: 'un pavé', faces: 6, sommets: 8, aretes: 12, formes: 'des rectangles' },
-  { nom: 'pyramide à base carrée', le: 'une pyramide à base carrée', faces: 5, sommets: 5, aretes: 8, formes: 'des triangles et un carré' },
-  { nom: 'pyramide à base triangulaire', le: 'une pyramide à base triangulaire', faces: 4, sommets: 4, aretes: 6, formes: 'des triangles' },
+export const SOLIDES_CE2: { nom: string; le: string; dessin: NomSolide; faces: number; sommets: number; aretes: number; formes: string }[] = [
+  { nom: 'cube', le: 'un cube', dessin: 'cube', faces: 6, sommets: 8, aretes: 12, formes: 'des carrés' },
+  { nom: 'pavé', le: 'un pavé', dessin: 'pave', faces: 6, sommets: 8, aretes: 12, formes: 'des rectangles' },
+  { nom: 'pyramide à base carrée', le: 'une pyramide à base carrée', dessin: 'pyramide', faces: 5, sommets: 5, aretes: 8, formes: 'des triangles et un carré' },
+  { nom: 'pyramide à base triangulaire', le: 'une pyramide à base triangulaire', dessin: 'pyramide-triangulaire', faces: 4, sommets: 4, aretes: 6, formes: 'des triangles' },
 ];
+const SOLIDES = SOLIDES_CE2;
 const FORMES = ['des carrés', 'des rectangles', 'des triangles et un carré', 'des triangles', 'des disques'];
 
 export const solidesCe2 = creerGenerateur({
@@ -33,12 +35,14 @@ export const solidesCe2 = creerGenerateur({
     const valeur = element === 'faces' ? solide.faces : element === 'sommets' ? solide.sommets : solide.aretes;
     const pieges: Piege[] = [[String(solide.faces), 'faces-aretes-sommets'], [String(solide.sommets), 'faces-aretes-sommets'], [String(solide.aretes), 'faces-aretes-sommets'], [String(valeur + 2)], [String(valeur - 2)]];
     const definition = { faces: 'Une face est une surface plate.', sommets: 'Un sommet est un coin du solide.', arêtes: 'Une arête est un bord entre deux faces.' }[element];
+    const dessin = d !== 1 && a.suivant() < 0.5;
     return {
       gabarit: 'qcm',
-      consigne: `Combien ${element === 'arêtes' ? 'd’arêtes' : `de ${element}`} a ${solide.le} ?`,
+      consigne: `Combien ${element === 'arêtes' ? 'd’arêtes' : `de ${element}`} a ${dessin ? 'ce solide' : solide.le} ?`,
+      ...(dessin ? { visuel: { type: 'solide', solide: solide.dessin } as const } : {}),
       ...choix(a, String(valeur), pieges, () => String(a.entier(3, 14)), { numerique: true }),
       reponse: String(valeur),
-      indice: definition,
+      indice: dessin ? `${definition} Les pointillés montrent ce qui est caché.` : definition,
       explication: `${definition} ${solide.le.charAt(0).toUpperCase()}${solide.le.slice(1)} a ${valeur} ${element}.`,
     };
   },
