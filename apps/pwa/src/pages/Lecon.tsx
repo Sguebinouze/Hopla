@@ -156,6 +156,7 @@ export function Lecon() {
               </li>
             ))}
           </ol>}
+          <p className="lecon__ref">Réf. {c.id}</p>
         </header>
 
         {vue === 'cours' && c.cours ? (

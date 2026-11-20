@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { anneeScolaire } from './annees';
 import { RACINE_DEPOT, chargerContenu } from './charger';
 import { construirePacks, type LexiqueVoix } from './packs';
+import { construireReferences } from './references';
 import { construireRelecture } from './relecture';
 import { verifierContenu } from './verifier';
 
@@ -37,6 +38,8 @@ writeFileSync(
 writeFileSync(join(sortie, 'credits.json'), JSON.stringify([...new Set(packs.flatMap((p) => p.credits))].sort()));
 // Ce qui reste à relire, pour l'espace admin (contenu pédagogique seulement).
 writeFileSync(join(sortie, 'relecture.json'), JSON.stringify(construireRelecture(contenu)));
+// Table des références de toutes les notions, pour l'espace admin.
+writeFileSync(join(sortie, 'references.json'), JSON.stringify(construireReferences(contenu, annee)));
 const resume = packs
   .map((p) => `${p.classe}:${p.matieres.reduce((n, m) => n + m.competences.length, 0)}`)
   .join(' ');

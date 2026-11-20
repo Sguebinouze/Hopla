@@ -37,6 +37,7 @@ import { Dictee } from './pages/Dictee';
 
 // Espace admin : module séparé, chargé seulement quand on ouvre /admin.
 const Relecture = lazy(() => import('./pages/admin/Relecture'));
+const References = lazy(() => import('./pages/admin/References'));
 
 ecouterInstallation();
 
@@ -69,6 +70,7 @@ createRoot(document.getElementById('racine')!).render(
         <Route path="/parent/enfant/:id" element={<FicheEnfant />} />
         <Route path="/admin" element={<Navigate to="/admin/relecture" replace />} />
         <Route path="/admin/relecture" element={<Suspense fallback={<main className="ecran" aria-busy="true" />}><Relecture /></Suspense>} />
+        <Route path="/admin/references" element={<Suspense fallback={<main className="ecran" aria-busy="true" />}><References /></Suspense>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <MiseAJour />

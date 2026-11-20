@@ -6,7 +6,7 @@ import { api } from '../../lib/donnees';
 // Espace admin : chargé à part (import dynamique), jamais téléchargé par une session enfant.
 // L'accès est contrôlé en base (public.est_admin) : compte inscrit comme admin et mode parent ouvert.
 
-const RUBRIQUES = [{ chemin: '/admin/relecture', libelle: 'Relecture' }];
+const RUBRIQUES = [{ chemin: '/admin/relecture', libelle: 'Relecture' }, { chemin: '/admin/references', libelle: 'Références' }];
 
 export function GardeAdmin({ children }: { children: ReactNode }) {
   const [acces, setAcces] = useState<'attente' | 'oui' | 'non'>('attente');

@@ -571,3 +571,16 @@ body.avec-clavier main { padding-bottom: 340px; }
   .cours__tableau tbody th { background: var(--lecon-doux); }
   .cours__tableau td::before { content: attr(data-col); display: block; font-size: 12px; font-weight: 700; color: var(--ink-muted); }
 }
+.lecon__ref { margin: 0; font-size: 12px; color: var(--ink-muted); letter-spacing: .02em; }
+.references { display: flex; flex-direction: column; gap: var(--space-3); }
+.references__legende summary { cursor: pointer; font-weight: 700; }
+.references__legende p { margin: var(--space-2) 0 0; font-size: 14px; }
+.references__filtres { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--space-2); align-items: end; }
+.references__case { flex-direction: row !important; align-items: center; gap: var(--space-2) !important; min-height: var(--target-min); }
+.references__case input { min-height: 0; }
+.references__table { overflow-x: auto; }
+.references__table table { border-collapse: collapse; width: 100%; font-size: 14px; line-height: 20px; }
+.references__table th, .references__table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+.references__table thead th { font-size: 12px; color: var(--ink-muted); }
+.references__table tbody th { white-space: nowrap; font-weight: 600; }
+.references__alerte { color: var(--attention); font-size: 12px; font-weight: 700; }
