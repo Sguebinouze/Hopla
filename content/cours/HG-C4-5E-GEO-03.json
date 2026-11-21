@@ -1,0 +1,107 @@
+{
+  "competence": "HG-C4-5E-GEO-03",
+  "duree": 7,
+  "essentiel": "Le climat de la Terre se réchauffe, surtout à cause des gaz à effet de serre rejetés par les activités humaines.\nLe niveau de la mer monte, les sécheresses et les canicules deviennent plus fréquentes.\nLes sociétés réduisent leurs émissions et s’adaptent pour se protéger des risques.",
+  "parties": [
+    {
+      "titre": "Des effets",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Effets du changement climatique",
+          "colonnes": [
+            "Effet",
+            "Conséquence"
+          ],
+          "lignes": [
+            [
+              "montée du niveau de la mer",
+              "érosion des côtes, littoraux menacés"
+            ],
+            [
+              "canicules plus fréquentes",
+              "danger pour la santé, récoltes abimées"
+            ],
+            [
+              "fonte des glaciers",
+              "moins d’eau douce en été"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle activité rejette beaucoup de gaz à effet de serre ?",
+          "options": [
+            "bruler du pétrole ou du charbon",
+            "planter des arbres",
+            "faire du vélo"
+          ],
+          "reponse": "bruler du pétrole ou du charbon",
+          "explication": "La combustion rejette du CO₂."
+        }
+      ]
+    },
+    {
+      "titre": "Prévenir et s’adapter",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des réponses.",
+          "exemples": [
+            "réduire les émissions : transports en commun, énergies renouvelables",
+            "adapter les villes : arbres, toits clairs",
+            "reculer les habitations menacées par la mer"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond une journée froide et le climat.",
+          "correction": "Le climat est une moyenne sur au moins 30 ans. Une journée froide relève de la météo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "S’adapter au changement climatique, c’est par exemple :",
+      "options": [
+        "planter des arbres en ville contre la chaleur",
+        "construire au bord de la mer",
+        "rejeter plus de CO₂"
+      ],
+      "reponse": "planter des arbres en ville contre la chaleur",
+      "explication": "Les arbres font de l’ombre et rafraichissent."
+    },
+    {
+      "consigne": "La montée du niveau de la mer menace surtout :",
+      "options": [
+        "les littoraux",
+        "les montagnes",
+        "les déserts"
+      ],
+      "reponse": "les littoraux",
+      "explication": "Les côtes basses peuvent être inondées."
+    },
+    {
+      "consigne": "Les gaz à effet de serre :",
+      "options": [
+        "retiennent la chaleur autour de la Terre",
+        "refroidissent la Terre",
+        "protègent des séismes"
+      ],
+      "reponse": "retiennent la chaleur autour de la Terre",
+      "explication": "Leur augmentation réchauffe le climat."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 88,
+      "extrait": "Ce thème doit permettre aux élèves d’aborder la question du",
+      "appui": "Climat et risques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

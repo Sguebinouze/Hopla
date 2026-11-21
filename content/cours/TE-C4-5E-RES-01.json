@@ -1,0 +1,110 @@
+{
+  "competence": "TE-C4-5E-RES-01",
+  "duree": 6,
+  "essentiel": "Un réseau local relie des terminaux : ordinateurs, imprimantes, tablettes.\nIls sont reliés à un commutateur par des câbles, ou à un point d’accès par Wi-Fi.\nChaque terminal a une adresse qui l’identifie, comme une adresse postale.",
+  "parties": [
+    {
+      "titre": "Les composants",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le réseau de la salle de technologie",
+          "colonnes": [
+            "Composant",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "terminaux",
+              "envoient et reçoivent des données"
+            ],
+            [
+              "commutateur",
+              "relie les terminaux et dirige les données"
+            ],
+            [
+              "câbles réseau",
+              "liaison filaire"
+            ],
+            [
+              "point d’accès Wi-Fi",
+              "liaison sans fil"
+            ],
+            [
+              "box ou routeur",
+              "relie le réseau local à Internet"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le commutateur sert à :",
+          "options": [
+            "relier les terminaux entre eux",
+            "imprimer",
+            "stocker l’électricité"
+          ],
+          "reponse": "relier les terminaux entre eux",
+          "explication": "Il dirige les données vers le bon terminal."
+        }
+      ]
+    },
+    {
+      "titre": "Identifier chaque terminal",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour qu’un document parte vers la bonne imprimante, chaque appareil a une adresse IP unique sur le réseau."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Wi-Fi est Internet.",
+          "correction": "Le Wi-Fi relie les appareils au réseau local. C’est la box qui donne accès à Internet."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une imprimante en réseau est :",
+      "options": [
+        "un terminal",
+        "un commutateur",
+        "un câble"
+      ],
+      "reponse": "un terminal",
+      "explication": "Elle reçoit des données."
+    },
+    {
+      "consigne": "Une liaison Wi-Fi est :",
+      "options": [
+        "sans fil",
+        "filaire",
+        "impossible au collège"
+      ],
+      "reponse": "sans fil",
+      "explication": "Elle passe par les ondes."
+    },
+    {
+      "consigne": "Pourquoi chaque terminal a-t-il une adresse ?",
+      "options": [
+        "pour recevoir les données qui lui sont destinées",
+        "pour décorer",
+        "pour consommer moins"
+      ],
+      "reponse": "pour recevoir les données qui lui sont destinées",
+      "explication": "Comme une adresse postale."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Le rôle d’un terminal, d’une carte réseau, des liaisons (filaires ou non filaires), d’un commutateur, d’un routeur, d’un serveur",
+      "appui": "Le réseau local"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

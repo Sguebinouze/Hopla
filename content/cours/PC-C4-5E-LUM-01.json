@@ -1,0 +1,102 @@
+{
+  "competence": "PC-C4-5E-LUM-01",
+  "duree": 6,
+  "essentiel": "Une source primaire produit sa propre lumière : le Soleil, une flamme, une lampe allumée.\nUn objet diffusant renvoie la lumière qu’il reçoit : la Lune, un livre, un mur.\nLa lumière se propage en ligne droite : derrière un objet opaque se forme une ombre.",
+  "parties": [
+    {
+      "titre": "Produire ou renvoyer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Classer",
+          "colonnes": [
+            "Sources primaires",
+            "Objets diffusants"
+          ],
+          "lignes": [
+            [
+              "Soleil, étoiles",
+              "Lune, planètes"
+            ],
+            [
+              "flamme d’une bougie",
+              "feuille de papier"
+            ],
+            [
+              "écran allumé",
+              "écran éteint"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Lune est :",
+          "options": [
+            "un objet diffusant",
+            "une source primaire",
+            "une étoile"
+          ],
+          "reponse": "un objet diffusant",
+          "explication": "Elle renvoie la lumière du Soleil."
+        }
+      ]
+    },
+    {
+      "titre": "Propagation et ombres",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans le vide, la lumière se déplace à environ 300 000 km/s. On représente son trajet par un rayon : une droite fléchée."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on voit un objet parce que l’œil envoie de la lumière.",
+          "correction": "On voit un objet parce qu’il envoie, ou renvoie, de la lumière qui entre dans l’œil."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour voir un livre dans le noir complet, il faut :",
+      "options": [
+        "l’éclairer",
+        "le regarder fixement",
+        "fermer les yeux"
+      ],
+      "reponse": "l’éclairer",
+      "explication": "Un objet diffusant doit recevoir de la lumière."
+    },
+    {
+      "consigne": "Le trajet de la lumière se représente par :",
+      "options": [
+        "une droite fléchée",
+        "un cercle",
+        "une ligne courbe"
+      ],
+      "reponse": "une droite fléchée",
+      "explication": "La lumière se propage en ligne droite."
+    },
+    {
+      "consigne": "Une bougie allumée est :",
+      "options": [
+        "une source primaire",
+        "un objet diffusant",
+        "un objet opaque seulement"
+      ],
+      "reponse": "une source primaire",
+      "explication": "Elle produit sa lumière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 104,
+      "extrait": "Distinguer une source primaire (objet lumineux) d’un objet diffusant.",
+      "appui": "Sources de lumière"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

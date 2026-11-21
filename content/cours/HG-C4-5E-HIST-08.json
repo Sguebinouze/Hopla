@@ -1,0 +1,127 @@
+{
+  "competence": "HG-C4-5E-HIST-08",
+  "duree": 7,
+  "essentiel": "Du XIIe au XVe siècle, les rois capétiens puis valois agrandissent leur domaine et imposent leur autorité aux seigneurs.\nPhilippe Auguste remporte la bataille de Bouvines en 1214.\nPendant la guerre de Cent Ans (1337-1453), les rois de France l’emportent finalement sur les Anglais.",
+  "parties": [
+    {
+      "titre": "Des rois de plus en plus puissants",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 987,
+              "date": "987",
+              "evenement": "Hugues Capet devient roi."
+            },
+            {
+              "annee": 1214,
+              "date": "1214",
+              "evenement": "Victoire de Philippe Auguste à Bouvines."
+            },
+            {
+              "annee": 1337,
+              "date": "1337",
+              "evenement": "Début de la guerre de Cent Ans."
+            },
+            {
+              "annee": 1453,
+              "date": "1453",
+              "evenement": "Fin de la guerre de Cent Ans."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui gagne la bataille de Bouvines en 1214 ?",
+          "options": [
+            "Philippe Auguste",
+            "Louis XIV",
+            "Charlemagne"
+          ],
+          "reponse": "Philippe Auguste",
+          "explication": "Il bat une coalition menée par l’empereur."
+        }
+      ]
+    },
+    {
+      "titre": "Les moyens du pouvoir",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comment le roi s’impose",
+          "colonnes": [
+            "Moyen",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "la guerre",
+              "Bouvines, guerre de Cent Ans"
+            ],
+            [
+              "la justice",
+              "Saint Louis rend la justice"
+            ],
+            [
+              "l’impôt",
+              "des impôts réguliers à la fin du Moyen Âge"
+            ],
+            [
+              "l’administration",
+              "des baillis représentent le roi"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la guerre de Cent Ans dure exactement cent ans, sans pause.",
+          "correction": "Elle dure 116 ans, avec des trêves entre les combats."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Jeanne d’Arc combat pendant :",
+      "options": [
+        "la guerre de Cent Ans",
+        "les croisades",
+        "les guerres de Religion"
+      ],
+      "reponse": "la guerre de Cent Ans",
+      "explication": "Elle délivre Orléans en 1429."
+    },
+    {
+      "consigne": "La guerre de Cent Ans oppose la France à :",
+      "options": [
+        "l’Angleterre",
+        "l’Espagne",
+        "l’Empire ottoman"
+      ],
+      "reponse": "l’Angleterre",
+      "explication": "De 1337 à 1453."
+    },
+    {
+      "consigne": "Les baillis sont :",
+      "options": [
+        "des représentants du roi",
+        "des paysans",
+        "des moines"
+      ],
+      "reponse": "des représentants du roi",
+      "explication": "Ils appliquent ses décisions dans les provinces."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "L’affirmation de l’État monarchique dans le Royaume des Capétiens et des Valois",
+      "appui": "Capétiens et Valois"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

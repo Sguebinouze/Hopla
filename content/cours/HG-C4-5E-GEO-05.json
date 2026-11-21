@@ -1,0 +1,107 @@
+{
+  "competence": "HG-C4-5E-GEO-05",
+  "duree": 6,
+  "essentiel": "Plus de 2 milliards de personnes n’ont pas accès à une eau potable gérée en toute sécurité.\nL’accès à l’énergie est aussi inégal : des centaines de millions de personnes vivent sans électricité, surtout en Afrique subsaharienne.\nMieux utiliser l’eau et l’énergie permet d’en consommer moins.",
+  "parties": [
+    {
+      "titre": "Un accès inégal",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des écarts",
+          "colonnes": [
+            "Ressource",
+            "Pays riches",
+            "Pays pauvres"
+          ],
+          "lignes": [
+            [
+              "eau",
+              "au robinet, potable",
+              "puits, rivières, parfois loin"
+            ],
+            [
+              "énergie",
+              "électricité partout",
+              "coupures, ou pas de réseau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où l’accès à l’électricité est-il le plus faible ?",
+          "options": [
+            "en Afrique subsaharienne",
+            "en Europe",
+            "en Amérique du Nord"
+          ],
+          "reponse": "en Afrique subsaharienne",
+          "explication": "Beaucoup de villages ne sont pas raccordés."
+        }
+      ]
+    },
+    {
+      "titre": "Mieux utiliser",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des solutions.",
+          "exemples": [
+            "irrigation au goutte-à-goutte",
+            "récupération de l’eau de pluie",
+            "panneaux solaires dans les villages isolés",
+            "isolation des bâtiments"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’eau potable est gratuite et illimitée.",
+          "correction": "La rendre potable et l’acheminer coute de l’énergie et de l’argent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’irrigation au goutte-à-goutte permet :",
+      "options": [
+        "d’économiser l’eau",
+        "de gaspiller l’eau",
+        "de produire de l’électricité"
+      ],
+      "reponse": "d’économiser l’eau",
+      "explication": "L’eau va directement aux racines."
+    },
+    {
+      "consigne": "Dans un village isolé sans réseau, une solution pour l’électricité :",
+      "options": [
+        "des panneaux solaires",
+        "une centrale nucléaire",
+        "un câble sous-marin"
+      ],
+      "reponse": "des panneaux solaires",
+      "explication": "Ils produisent sur place."
+    },
+    {
+      "consigne": "Rendre l’eau potable demande :",
+      "options": [
+        "de l’énergie et de l’argent",
+        "rien du tout",
+        "seulement de la pluie"
+      ],
+      "reponse": "de l’énergie et de l’argent",
+      "explication": "Il faut la traiter et la transporter."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 87,
+      "extrait": "L’énergie, l’eau : des ressources à ménager et à mieux utiliser",
+      "appui": "L’eau et l’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

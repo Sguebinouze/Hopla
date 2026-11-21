@@ -1,0 +1,102 @@
+{
+  "competence": "SV-C4-5E-ECO-01",
+  "duree": 7,
+  "essentiel": "Un écosystème réunit un milieu et les êtres vivants qui y vivent, reliés par des relations alimentaires.\nDans une mare, l’algue est mangée par le têtard, lui-même mangé par la libellule.\nLes activités humaines modifient les écosystèmes : pollution, destruction des milieux, espèces introduites.",
+  "parties": [
+    {
+      "titre": "Les relations alimentaires",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les rôles dans un écosystème",
+          "colonnes": [
+            "Rôle",
+            "Exemples dans une mare"
+          ],
+          "lignes": [
+            [
+              "producteurs",
+              "algues, plantes aquatiques"
+            ],
+            [
+              "consommateurs",
+              "têtard, libellule, poisson, héron"
+            ],
+            [
+              "décomposeurs",
+              "bactéries, champignons, vers"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « algue → têtard → libellule », la flèche signifie :",
+          "options": [
+            "est mangé par",
+            "mange",
+            "vit avec"
+          ],
+          "reponse": "est mangé par",
+          "explication": "Elle suit le trajet de la matière."
+        }
+      ]
+    },
+    {
+      "titre": "L’effet des activités humaines",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Des engrais emportés par la pluie font proliférer les algues. En se décomposant, elles privent l’eau de dioxygène : les poissons meurent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une espèce introduite enrichit toujours l’écosystème.",
+          "correction": "Certaines deviennent envahissantes et menacent les espèces locales."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les décomposeurs :",
+      "options": [
+        "transforment la matière morte en matière minérale",
+        "produisent de la lumière",
+        "mangent les prédateurs"
+      ],
+      "reponse": "transforment la matière morte en matière minérale",
+      "explication": "Ils recyclent la matière."
+    },
+    {
+      "consigne": "Si les algues d’une mare disparaissent, les têtards :",
+      "options": [
+        "manquent de nourriture",
+        "ne sont pas touchés",
+        "se multiplient"
+      ],
+      "reponse": "manquent de nourriture",
+      "explication": "Tout le réseau est relié."
+    },
+    {
+      "consigne": "Un exemple d’activité humaine qui modifie un écosystème :",
+      "options": [
+        "la pollution d’une rivière",
+        "le cycle des saisons",
+        "la pluie"
+      ],
+      "reponse": "la pollution d’une rivière",
+      "explication": "Elle change le milieu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 111,
+      "extrait": "L'exploration peut débuter au niveau local ou au niveau régional par l'étude du fonctionnement",
+      "appui": "Les écosystèmes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

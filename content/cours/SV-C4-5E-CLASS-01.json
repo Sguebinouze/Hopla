@@ -1,0 +1,107 @@
+{
+  "competence": "SV-C4-5E-CLASS-01",
+  "duree": 6,
+  "essentiel": "On classe les êtres vivants selon les caractères qu’ils possèdent en commun, pas selon leur mode de vie.\nLes groupes s’emboitent : les mammifères, qui ont poils et mamelles, sont inclus dans les vertébrés, qui ont un squelette interne.\nLa chauve-souris a des poils et des mamelles : elle est rangée avec les mammifères, pas avec les oiseaux.",
+  "parties": [
+    {
+      "titre": "Des groupes emboités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Caractères partagés",
+          "colonnes": [
+            "Groupe",
+            "Caractère",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "vertébrés",
+              "squelette interne",
+              "truite, grenouille, poule, chat"
+            ],
+            [
+              "tétrapodes",
+              "quatre membres",
+              "grenouille, poule, chat"
+            ],
+            [
+              "oiseaux",
+              "plumes",
+              "poule, pigeon"
+            ],
+            [
+              "mammifères",
+              "poils, mamelles",
+              "chat, chauve-souris, baleine"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La baleine est rangée avec :",
+          "options": [
+            "les mammifères",
+            "les poissons",
+            "les oiseaux"
+          ],
+          "reponse": "les mammifères",
+          "explication": "Elle a des poils et allaite ses petits."
+        }
+      ]
+    },
+    {
+      "titre": "Classer sans se tromper",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On range la chauve-souris avec les oiseaux, car elle vole.",
+          "correction": "Voler est un mode de vie. On classe selon les caractères : poils et mamelles, donc mammifère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un squelette interne caractérise :",
+      "options": [
+        "les vertébrés",
+        "les insectes",
+        "les plantes"
+      ],
+      "reponse": "les vertébrés",
+      "explication": "Os et colonne vertébrale."
+    },
+    {
+      "consigne": "La poule et le chat partagent :",
+      "options": [
+        "quatre membres et un squelette interne",
+        "des plumes",
+        "des poils"
+      ],
+      "reponse": "quatre membres et un squelette interne",
+      "explication": "Ce sont des tétrapodes."
+    },
+    {
+      "consigne": "On classe les êtres vivants selon :",
+      "options": [
+        "les caractères qu’ils possèdent",
+        "leur lieu de vie",
+        "leur taille"
+      ],
+      "reponse": "les caractères qu’ils possèdent",
+      "explication": "Les attributs partagés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "Caractères partagés et classification.",
+      "appui": "Classer les êtres vivants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

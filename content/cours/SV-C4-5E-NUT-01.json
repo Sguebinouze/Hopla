@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-5E-NUT-01",
+  "duree": 7,
+  "essentiel": "Tous les êtres vivants ont besoin de matière et d’énergie. Ils respirent : ils prélèvent du dioxygène et rejettent du dioxyde de carbone.\nLes animaux prélèvent leur nourriture dans leur milieu.\nLes plantes vertes produisent leur matière à partir de lumière, d’eau, de sels minéraux et de dioxyde de carbone.",
+  "parties": [
+    {
+      "titre": "Animaux et végétaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les besoins nutritifs",
+          "colonnes": [
+            "Besoin",
+            "Animaux",
+            "Plantes vertes"
+          ],
+          "lignes": [
+            [
+              "matière",
+              "nourriture prélevée",
+              "produite à partir de matière minérale"
+            ],
+            [
+              "énergie",
+              "tirée des aliments",
+              "lumière du Soleil"
+            ],
+            [
+              "respiration",
+              "oui",
+              "oui, jour et nuit"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une plante verte produit sa matière grâce :",
+          "options": [
+            "à la lumière",
+            "à la nourriture qu’elle mange",
+            "au sucre du sol"
+          ],
+          "reponse": "à la lumière",
+          "explication": "Elle utilise aussi eau, sels minéraux et CO₂."
+        }
+      ]
+    },
+    {
+      "titre": "Producteurs et consommateurs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les plantes vertes sont des producteurs : toute la matière des chaines alimentaires vient d’elles. Les animaux sont des consommateurs."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les plantes ne respirent pas.",
+          "correction": "Elles respirent jour et nuit, comme les animaux. Le jour, elles produisent aussi de la matière."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Tous les êtres vivants rejettent en respirant :",
+      "options": [
+        "du dioxyde de carbone",
+        "du dioxygène seulement",
+        "de l’azote"
+      ],
+      "reponse": "du dioxyde de carbone",
+      "explication": "Ils prélèvent du dioxygène."
+    },
+    {
+      "consigne": "Les plantes vertes sont des :",
+      "options": [
+        "producteurs",
+        "consommateurs",
+        "décomposeurs"
+      ],
+      "reponse": "producteurs",
+      "explication": "Elles fabriquent leur matière."
+    },
+    {
+      "consigne": "Une plante verte prélève dans le sol :",
+      "options": [
+        "de l’eau et des sels minéraux",
+        "du sucre",
+        "du dioxygène seulement"
+      ],
+      "reponse": "de l’eau et des sels minéraux",
+      "explication": "Par ses racines."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "La nutrition des organismes : on passe progressivement de l'organisation fonctionnelle à",
+      "appui": "La nutrition des organismes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

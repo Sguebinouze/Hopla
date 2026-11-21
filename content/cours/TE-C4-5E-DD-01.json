@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-5E-DD-01",
+  "duree": 6,
+  "essentiel": "Le cycle de vie d’un objet compte cinq étapes : extraction des matières premières, fabrication, transport, utilisation, fin de vie.\nPour choisir un objet durable, on regarde sa consommation, sa durée de vie, sa réparabilité et son recyclage.\nUne note de réparabilité indique s’il sera facile à réparer.",
+  "parties": [
+    {
+      "titre": "Des critères de choix",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer deux smartphones",
+          "colonnes": [
+            "Critère",
+            "Modèle A",
+            "Modèle B"
+          ],
+          "lignes": [
+            [
+              "réparabilité",
+              "batterie remplaçable",
+              "batterie collée"
+            ],
+            [
+              "durée des mises à jour",
+              "longue",
+              "courte"
+            ],
+            [
+              "matériaux recyclés",
+              "oui",
+              "non"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel modèle est le plus durable ?",
+          "options": [
+            "le modèle A",
+            "le modèle B",
+            "aucune différence"
+          ],
+          "reponse": "le modèle A",
+          "explication": "Il se répare et reste à jour plus longtemps."
+        }
+      ]
+    },
+    {
+      "titre": "À chaque étape",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Limiter l’impact.",
+          "exemples": [
+            "extraction : utiliser des matériaux recyclés",
+            "utilisation : choisir un appareil économe",
+            "fin de vie : réparer, donner, puis recycler"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’utilisation est toujours l’étape qui pollue le plus.",
+          "correction": "Pour un smartphone, la fabrication pèse souvent le plus : le garder longtemps compte beaucoup."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La première étape du cycle de vie est :",
+      "options": [
+        "l’extraction des matières premières",
+        "le recyclage",
+        "l’utilisation"
+      ],
+      "reponse": "l’extraction des matières premières",
+      "explication": "Il faut d’abord des matériaux."
+    },
+    {
+      "consigne": "Un objet facile à réparer :",
+      "options": [
+        "dure plus longtemps",
+        "pollue davantage",
+        "coute toujours plus cher à l’usage"
+      ],
+      "reponse": "dure plus longtemps",
+      "explication": "On évite d’en racheter un."
+    },
+    {
+      "consigne": "En fin de vie, l’ordre à privilégier :",
+      "options": [
+        "réparer, réutiliser, recycler",
+        "jeter, acheter, oublier",
+        "recycler d’abord"
+      ],
+      "reponse": "réparer, réutiliser, recycler",
+      "explication": "Le recyclage vient en dernier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 9,
+      "extrait": "Identifier les étapes du cycle de vie",
+      "appui": "Choisir un objet durable"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

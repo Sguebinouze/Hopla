@@ -1,0 +1,116 @@
+{
+  "competence": "PC-C4-5E-TEST-01",
+  "duree": 6,
+  "essentiel": "Un test caractéristique permet d’identifier une espèce chimique.\nLe sulfate de cuivre anhydre blanc devient bleu au contact de l’eau. L’eau de chaux se trouble avec le dioxyde de carbone.\nUne bûchette incandescente se rallume dans le dioxygène. Le dihydrogène produit une petite détonation près d’une flamme.",
+  "parties": [
+    {
+      "titre": "Quatre tests",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tests caractéristiques",
+          "colonnes": [
+            "Espèce",
+            "Réactif ou test",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "eau",
+              "sulfate de cuivre anhydre",
+              "blanc → bleu"
+            ],
+            [
+              "dioxyde de carbone",
+              "eau de chaux",
+              "trouble blanc"
+            ],
+            [
+              "dioxygène",
+              "bûchette incandescente",
+              "elle se rallume"
+            ],
+            [
+              "dihydrogène",
+              "flamme",
+              "petite détonation"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une bûchette incandescente se rallume dans un tube. Le tube contient :",
+          "options": [
+            "du dioxygène",
+            "du dioxyde de carbone",
+            "de l’eau"
+          ],
+          "reponse": "du dioxygène",
+          "explication": "Le dioxygène ravive la combustion."
+        }
+      ]
+    },
+    {
+      "titre": "Utiliser un test",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un liquide incolore est-il de l’eau ?",
+          "etapes": [
+            "On dépose une goutte sur du sulfate de cuivre anhydre.",
+            "Il devient bleu."
+          ],
+          "conclusion": "Le liquide contient de l’eau."
+        },
+        {
+          "type": "piege",
+          "erreur": "On conclut qu’un liquide est de l’eau pure parce que le test est positif.",
+          "correction": "Le test montre seulement la présence d’eau : le liquide peut être un mélange."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le sulfate de cuivre anhydre bleuit. Cela prouve la présence :",
+      "options": [
+        "d’eau",
+        "de dioxygène",
+        "de sel"
+      ],
+      "reponse": "d’eau",
+      "explication": "C’est le test de l’eau."
+    },
+    {
+      "consigne": "On souffle dans de l’eau de chaux : elle se trouble. L’air expiré contient :",
+      "options": [
+        "du dioxyde de carbone",
+        "du dihydrogène",
+        "du sucre"
+      ],
+      "reponse": "du dioxyde de carbone",
+      "explication": "Produit par la respiration."
+    },
+    {
+      "consigne": "Le dihydrogène est mis en évidence par :",
+      "options": [
+        "une petite détonation près d’une flamme",
+        "l’eau de chaux",
+        "le sulfate de cuivre"
+      ],
+      "reponse": "une petite détonation près d’une flamme",
+      "explication": "Un « aboiement » caractéristique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Mettre en œuvre des tests caractéristiques d’espèces chimiques à partir d’une banque fournie",
+      "appui": "Tests caractéristiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

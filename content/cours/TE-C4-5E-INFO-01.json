@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-5E-INFO-01",
+  "duree": 6,
+  "essentiel": "La chaine d’information d’un objet acquiert, traite et communique des informations.\nUn capteur acquiert ; un microcontrôleur traite grâce à un programme ; une interface humain-machine communique.\nThermostat : capteur de température, microcontrôleur, écran et boutons.",
+  "parties": [
+    {
+      "titre": "Trois fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le thermostat",
+          "colonnes": [
+            "Fonction",
+            "Composant"
+          ],
+          "lignes": [
+            [
+              "acquérir",
+              "capteur de température"
+            ],
+            [
+              "traiter",
+              "microcontrôleur et son programme"
+            ],
+            [
+              "communiquer",
+              "écran, voyant"
+            ],
+            [
+              "recevoir une consigne",
+              "boutons"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans un thermostat, le microcontrôleur sert à :",
+          "options": [
+            "traiter l’information",
+            "mesurer la température",
+            "afficher l’heure seulement"
+          ],
+          "reponse": "traiter l’information",
+          "explication": "Il compare la mesure à la consigne."
+        }
+      ]
+    },
+    {
+      "titre": "L’interface humain-machine",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’IHM permet à l’utilisateur de donner des ordres à l’objet et d’en recevoir des informations : boutons, écran tactile, voyants, sons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond capteur et actionneur.",
+          "correction": "Le capteur prend une information. L’actionneur agit : moteur, lampe, résistance chauffante."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un détecteur de mouvement est :",
+      "options": [
+        "un capteur",
+        "un microcontrôleur",
+        "un actionneur"
+      ],
+      "reponse": "un capteur",
+      "explication": "Il acquiert une information."
+    },
+    {
+      "consigne": "Un écran tactile fait partie de :",
+      "options": [
+        "l’interface humain-machine",
+        "la chaine d’énergie",
+        "la batterie"
+      ],
+      "reponse": "l’interface humain-machine",
+      "explication": "Il permet de dialoguer avec l’objet."
+    },
+    {
+      "consigne": "La fonction « traiter » est assurée par :",
+      "options": [
+        "le microcontrôleur",
+        "le capteur",
+        "le boitier"
+      ],
+      "reponse": "le microcontrôleur",
+      "explication": "Il exécute le programme."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Les fonctions des constituants suivants : capteurs (température, présence, distance, etc.), microcontrôleur",
+      "appui": "Capteurs, microcontrôleur, IHM"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "PC-C4-5E-MVT-01",
+  "duree": 7,
+  "essentiel": "La trajectoire d’un objet peut être rectiligne, circulaire ou curviligne.\nSa vitesse moyenne est v = d ÷ t : un cycliste qui parcourt 30 km en 2 h roule en moyenne à 15 km/h.\nLe mouvement est uniforme si la vitesse est constante, accéléré si elle augmente, ralenti si elle diminue.",
+  "parties": [
+    {
+      "titre": "Calculer une vitesse",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un train parcourt 450 km en 1,5 h. Quelle est sa vitesse moyenne ?",
+          "etapes": [
+            "v = d ÷ t.",
+            "v = 450 ÷ 1,5 = 300."
+          ],
+          "conclusion": "Le train roule en moyenne à 300 km/h."
+        },
+        {
+          "type": "question",
+          "consigne": "Une coureuse parcourt 100 m en 20 s. Sa vitesse moyenne :",
+          "options": [
+            "5 m/s",
+            "2 000 m/s",
+            "0,2 m/s"
+          ],
+          "reponse": "5 m/s",
+          "explication": "100 ÷ 20 = 5."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire le mouvement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trajectoire et vitesse",
+          "colonnes": [
+            "Objet",
+            "Trajectoire",
+            "Vitesse"
+          ],
+          "lignes": [
+            [
+              "voiture qui démarre en ligne droite",
+              "rectiligne",
+              "accélérée"
+            ],
+            [
+              "nacelle d’une grande roue",
+              "circulaire",
+              "uniforme"
+            ],
+            [
+              "balle lancée",
+              "curviligne",
+              "variable"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On utilise des unités qui ne vont pas ensemble : 30 km en 30 min donne 1 km/h.",
+          "correction": "30 min = 0,5 h. v = 30 ÷ 0,5 = 60 km/h."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une voiture roule 120 km en 2 h. Vitesse moyenne :",
+      "options": [
+        "60 km/h",
+        "240 km/h",
+        "122 km/h"
+      ],
+      "reponse": "60 km/h",
+      "explication": "120 ÷ 2 = 60."
+    },
+    {
+      "consigne": "Un objet dont la vitesse diminue a un mouvement :",
+      "options": [
+        "ralenti",
+        "accéléré",
+        "uniforme"
+      ],
+      "reponse": "ralenti",
+      "explication": "Comme une voiture qui freine."
+    },
+    {
+      "consigne": "La trajectoire d’une bille qui tombe verticalement est :",
+      "options": [
+        "rectiligne",
+        "circulaire",
+        "curviligne"
+      ],
+      "reponse": "rectiligne",
+      "explication": "Elle suit une ligne droite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 102,
+      "extrait": "Le concept de vitesse est réinvesti et approfondi dès le",
+      "appui": "Mouvement et vitesse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

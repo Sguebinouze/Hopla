@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-5E-ENER-01",
+  "duree": 6,
+  "essentiel": "La chaine d’énergie d’un objet comporte quatre fonctions : alimenter, distribuer, convertir, transmettre.\nDans une trottinette électrique : la batterie alimente, le variateur distribue, le moteur convertit, la roue transmet.\nL’énergie entre sous une forme et sort sous une autre : électrique en entrée, mécanique en sortie.",
+  "parties": [
+    {
+      "titre": "Quatre fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La trottinette électrique",
+          "colonnes": [
+            "Fonction",
+            "Composant",
+            "Énergie"
+          ],
+          "lignes": [
+            [
+              "alimenter",
+              "batterie",
+              "électrique"
+            ],
+            [
+              "distribuer",
+              "variateur",
+              "électrique"
+            ],
+            [
+              "convertir",
+              "moteur",
+              "électrique → mécanique"
+            ],
+            [
+              "transmettre",
+              "roue",
+              "mécanique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans la chaine d’énergie, le moteur sert à :",
+          "options": [
+            "convertir",
+            "alimenter",
+            "distribuer"
+          ],
+          "reponse": "convertir",
+          "explication": "Il transforme l’énergie électrique en énergie mécanique."
+        }
+      ]
+    },
+    {
+      "titre": "Un autre exemple",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un sèche-cheveux, la prise alimente, l’interrupteur distribue, la résistance convertit en chaleur et le ventilateur souffle l’air chaud."
+        },
+        {
+          "type": "piege",
+          "erreur": "On place l’interrupteur dans la chaine d’information.",
+          "correction": "Il laisse passer ou coupe l’énergie : il distribue, dans la chaine d’énergie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La batterie d’un vélo électrique sert à :",
+      "options": [
+        "alimenter",
+        "convertir",
+        "transmettre"
+      ],
+      "reponse": "alimenter",
+      "explication": "Elle stocke et fournit l’énergie."
+    },
+    {
+      "consigne": "Le variateur sert à :",
+      "options": [
+        "distribuer l’énergie selon la demande",
+        "stocker l’énergie",
+        "faire tourner la roue"
+      ],
+      "reponse": "distribuer l’énergie selon la demande",
+      "explication": "Il dose l’énergie envoyée au moteur."
+    },
+    {
+      "consigne": "En sortie d’un moteur, l’énergie est :",
+      "options": [
+        "mécanique",
+        "chimique",
+        "lumineuse"
+      ],
+      "reponse": "mécanique",
+      "explication": "Elle met en mouvement."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Identifier des constituants de la chaîne",
+      "appui": "La chaine d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

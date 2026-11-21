@@ -1,0 +1,107 @@
+{
+  "competence": "TE-C4-5E-DATA-01",
+  "duree": 5,
+  "essentiel": "Un objet peut être décrit par des descripteurs : marque, masse, électrique ou non.\nChaque descripteur a un type de donnée : chaine de caractères pour un texte, nombre, ou booléen pour vrai ou faux.\nVélo : marque (texte), masse en kg (nombre), électrique (booléen).",
+  "parties": [
+    {
+      "titre": "Trois types de données",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Décrire un vélo",
+          "colonnes": [
+            "Descripteur",
+            "Valeur",
+            "Type"
+          ],
+          "lignes": [
+            [
+              "marque",
+              "Rapido",
+              "chaine de caractères"
+            ],
+            [
+              "masse (kg)",
+              "14,5",
+              "nombre"
+            ],
+            [
+              "nombre de vitesses",
+              "7",
+              "nombre"
+            ],
+            [
+              "électrique",
+              "faux",
+              "booléen"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Possède un antivol : vrai » est une donnée de type :",
+          "options": [
+            "booléen",
+            "nombre",
+            "chaine de caractères"
+          ],
+          "reponse": "booléen",
+          "explication": "Elle ne peut valoir que vrai ou faux."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le bon type",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On enregistre une masse comme texte : « quatorze kilos ».",
+          "correction": "Un nombre permet de comparer et de calculer : 14,5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La couleur d’un vélo est une donnée de type :",
+      "options": [
+        "chaine de caractères",
+        "booléen",
+        "nombre"
+      ],
+      "reponse": "chaine de caractères",
+      "explication": "C’est un texte : rouge, bleu…"
+    },
+    {
+      "consigne": "Un booléen peut valoir :",
+      "options": [
+        "vrai ou faux",
+        "n’importe quel nombre",
+        "un mot"
+      ],
+      "reponse": "vrai ou faux",
+      "explication": "Deux valeurs seulement."
+    },
+    {
+      "consigne": "Le prix d’un objet est une donnée de type :",
+      "options": [
+        "nombre",
+        "booléen",
+        "chaine de caractères"
+      ],
+      "reponse": "nombre",
+      "explication": "On peut le comparer et calculer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Vocabulaire des données",
+      "appui": "Décrire un objet par des données"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,105 @@
+{
+  "competence": "HG-C4-5E-HIST-09",
+  "duree": 7,
+  "essentiel": "Les humanistes, comme Érasme, étudient les textes antiques et placent l’être humain au centre de leur réflexion.\nL’imprimerie, mise au point par Gutenberg vers 1450, diffuse rapidement leurs idées.\nAprès la Réforme de Luther (1517), la France connait les guerres de Religion, jusqu’à l’édit de Nantes en 1598.",
+  "parties": [
+    {
+      "titre": "Humanisme et imprimerie",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avant l’imprimerie, chaque livre est copié à la main. Avec les caractères mobiles, on imprime des centaines d’exemplaires."
+        },
+        {
+          "type": "question",
+          "consigne": "Qui met au point l’imprimerie à caractères mobiles en Europe ?",
+          "options": [
+            "Gutenberg",
+            "Luther",
+            "Érasme"
+          ],
+          "reponse": "Gutenberg",
+          "explication": "Vers 1450, à Mayence."
+        }
+      ]
+    },
+    {
+      "titre": "Réformes et guerres de Religion",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1517,
+              "date": "1517",
+              "evenement": "Luther critique l’Église."
+            },
+            {
+              "annee": 1562,
+              "date": "1562",
+              "evenement": "Début des guerres de Religion en France."
+            },
+            {
+              "annee": 1572,
+              "date": "1572",
+              "evenement": "Massacre de la Saint-Barthélemy."
+            },
+            {
+              "annee": 1598,
+              "date": "1598",
+              "evenement": "Édit de Nantes."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’édit de Nantes rend la France protestante.",
+          "correction": "Le catholicisme reste la religion du roi. L’édit accorde aux protestants la liberté de culte, dans certaines limites."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’édit de Nantes est signé par :",
+      "options": [
+        "Henri IV",
+        "François Ier",
+        "Louis XIV"
+      ],
+      "reponse": "Henri IV",
+      "explication": "En 1598."
+    },
+    {
+      "consigne": "Les protestants sont des chrétiens qui :",
+      "options": [
+        "suivent les idées de la Réforme",
+        "obéissent au pape",
+        "sont musulmans"
+      ],
+      "reponse": "suivent les idées de la Réforme",
+      "explication": "Ils rejettent l’autorité du pape."
+    },
+    {
+      "consigne": "La Saint-Barthélemy, en 1572, est :",
+      "options": [
+        "un massacre de protestants",
+        "une victoire royale",
+        "une découverte"
+      ],
+      "reponse": "un massacre de protestants",
+      "explication": "À Paris, puis dans d’autres villes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "Humanisme, réformes et conflits religieux",
+      "appui": "Humanisme et réformes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

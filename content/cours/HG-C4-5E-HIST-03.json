@@ -1,0 +1,105 @@
+{
+  "competence": "HG-C4-5E-HIST-03",
+  "duree": 7,
+  "essentiel": "Aux XVe et XVIe siècles, les humanistes redécouvrent les textes antiques, et l’imprimerie diffuse les livres.\nEn 1517, Luther critique l’Église : c’est le début de la Réforme protestante.\nLe pouvoir des rois de France se renforce jusqu’à Louis XIV, roi absolu.",
+  "parties": [
+    {
+      "titre": "Une frise",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1450,
+              "date": "vers 1450",
+              "evenement": "Gutenberg met au point l’imprimerie."
+            },
+            {
+              "annee": 1517,
+              "date": "1517",
+              "evenement": "Luther critique l’Église."
+            },
+            {
+              "annee": 1598,
+              "date": "1598",
+              "evenement": "Édit de Nantes."
+            },
+            {
+              "annee": 1661,
+              "date": "1661",
+              "evenement": "Louis XIV gouverne seul."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui lance la Réforme protestante en 1517 ?",
+          "options": [
+            "Luther",
+            "Louis XIV",
+            "Gutenberg"
+          ],
+          "reponse": "Luther",
+          "explication": "Il critique notamment la vente des indulgences."
+        }
+      ]
+    },
+    {
+      "titre": "Deux grands empires",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Au XVIe siècle, Charles Quint règne sur l’Espagne, le Saint-Empire et des terres d’Amérique. Soliman le Magnifique dirige l’Empire ottoman."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Renaissance invente tout à partir de rien.",
+          "correction": "Les humanistes s’inspirent des auteurs de l’Antiquité grecque et romaine."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’imprimerie est mise au point vers :",
+      "options": [
+        "1450",
+        "1789",
+        "800"
+      ],
+      "reponse": "1450",
+      "explication": "Par Gutenberg, à Mayence."
+    },
+    {
+      "consigne": "Un humaniste :",
+      "options": [
+        "étudie les textes antiques et place l’humain au centre",
+        "refuse de lire",
+        "combat dans les croisades"
+      ],
+      "reponse": "étudie les textes antiques et place l’humain au centre",
+      "explication": "Comme Érasme."
+    },
+    {
+      "consigne": "Soliman le Magnifique dirige :",
+      "options": [
+        "l’Empire ottoman",
+        "le Saint-Empire",
+        "la France"
+      ],
+      "reponse": "l’Empire ottoman",
+      "explication": "Au XVIe siècle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "Aux XVe et XVIe siècles s’accomplit une première",
+      "appui": "Renaissance, réformes et roi absolu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

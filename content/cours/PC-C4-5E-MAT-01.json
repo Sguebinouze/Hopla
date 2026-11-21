@@ -1,0 +1,116 @@
+{
+  "competence": "PC-C4-5E-MAT-01",
+  "duree": 8,
+  "essentiel": "Un corps pur contient une seule espèce chimique ; un mélange en contient plusieurs.\nLors d’un changement d’état, la masse se conserve, mais le volume change : quand l’eau gèle, son volume augmente.\nUn corps pur change d’état à température constante : l’eau pure fond à 0 °C et bout à 100 °C.",
+  "parties": [
+    {
+      "titre": "Les changements d’état",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Noms des changements d’état",
+          "colonnes": [
+            "De",
+            "Vers",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "solide",
+              "liquide",
+              "fusion"
+            ],
+            [
+              "liquide",
+              "solide",
+              "solidification"
+            ],
+            [
+              "liquide",
+              "gaz",
+              "vaporisation"
+            ],
+            [
+              "gaz",
+              "liquide",
+              "liquéfaction"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La buée sur une vitre froide est due à :",
+          "options": [
+            "une liquéfaction",
+            "une fusion",
+            "une solidification"
+          ],
+          "reponse": "une liquéfaction",
+          "explication": "La vapeur d’eau de l’air devient liquide."
+        }
+      ]
+    },
+    {
+      "titre": "Masse et volume",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "On congèle 500 g d’eau liquide. Quelle est la masse de la glace obtenue ?",
+          "etapes": [
+            "La masse se conserve lors d’un changement d’état.",
+            "Le volume augmente : la bouteille peut éclater."
+          ],
+          "conclusion": "La glace pèse 500 g."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la glace est plus lourde que l’eau, car elle prend plus de place.",
+          "correction": "Le volume augmente, la masse ne change pas. C’est pourquoi la glace flotte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’eau minérale est :",
+      "options": [
+        "un mélange",
+        "un corps pur",
+        "un gaz"
+      ],
+      "reponse": "un mélange",
+      "explication": "Elle contient de l’eau et des sels minéraux."
+    },
+    {
+      "consigne": "Le passage de l’état solide à l’état liquide s’appelle :",
+      "options": [
+        "la fusion",
+        "la vaporisation",
+        "la liquéfaction"
+      ],
+      "reponse": "la fusion",
+      "explication": "Comme un glaçon qui fond."
+    },
+    {
+      "consigne": "Pendant l’ébullition de l’eau pure, la température :",
+      "options": [
+        "reste constante",
+        "augmente sans cesse",
+        "diminue"
+      ],
+      "reponse": "reste constante",
+      "explication": "Elle reste à 100 °C tant que l’eau bout."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Dès la classe de 5e, les activités proposées permettent de consolider les notions d'espèce",
+      "appui": "États de la matière, mélanges"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

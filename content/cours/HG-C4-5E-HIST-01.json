@@ -1,0 +1,114 @@
+{
+  "competence": "HG-C4-5E-HIST-01",
+  "duree": 7,
+  "essentiel": "Au Moyen Âge, trois mondes se partagent la Méditerranée : l’Empire byzantin, l’Occident chrétien et le monde musulman.\nIls se combattent, comme lors des croisades à partir de 1095, mais ils échangent aussi des marchandises et des savoirs.\nLe papier et les chiffres dits arabes arrivent ainsi en Europe.",
+  "parties": [
+    {
+      "titre": "Trois mondes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Autour de la Méditerranée",
+          "colonnes": [
+            "Monde",
+            "Capitale",
+            "Souverain",
+            "Religion"
+          ],
+          "lignes": [
+            [
+              "Empire byzantin",
+              "Constantinople",
+              "empereur",
+              "chrétiens orthodoxes"
+            ],
+            [
+              "Occident chrétien",
+              "Aix-la-Chapelle sous Charlemagne",
+              "empereur, puis rois",
+              "chrétiens catholiques"
+            ],
+            [
+              "monde musulman",
+              "Bagdad sous les Abbassides",
+              "calife",
+              "musulmans"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En 800, Charlemagne est couronné empereur à :",
+          "options": [
+            "Rome",
+            "Bagdad",
+            "Constantinople"
+          ],
+          "reponse": "Rome",
+          "explication": "Par le pape Léon III."
+        }
+      ]
+    },
+    {
+      "titre": "Guerres et échanges",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En 1095, le pape Urbain II appelle à la croisade pour prendre Jérusalem. Les croisés la conquièrent en 1099."
+        },
+        {
+          "type": "explique",
+          "texte": "Les marchands de Venise et de Gênes commercent avec les ports musulmans et byzantins : épices, soie, papier."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que ces trois mondes n’ont connu que la guerre.",
+          "correction": "Ils commercent, traduisent les livres des uns et des autres, et partagent des savoirs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le souverain du monde musulman s’appelle :",
+      "options": [
+        "le calife",
+        "le pape",
+        "le basileus"
+      ],
+      "reponse": "le calife",
+      "explication": "Il est chef politique et religieux."
+    },
+    {
+      "consigne": "La première croisade est lancée en :",
+      "options": [
+        "1095",
+        "800",
+        "1492"
+      ],
+      "reponse": "1095",
+      "explication": "Par le pape Urbain II."
+    },
+    {
+      "consigne": "Quel savoir arrive en Europe par le monde musulman ?",
+      "options": [
+        "les chiffres dits arabes",
+        "l’imprimerie",
+        "la boussole électrique"
+      ],
+      "reponse": "les chiffres dits arabes",
+      "explication": "Ils viennent de l’Inde, transmis par les savants arabes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "La période qui s’étend du VIe au XIIIe siècle, de Justinien à la",
+      "appui": "Chrétientés et islam"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

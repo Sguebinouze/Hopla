@@ -1,0 +1,112 @@
+{
+  "competence": "TE-C4-5E-MAT-01",
+  "duree": 6,
+  "essentiel": "Les matériaux se regroupent en familles : métaux, plastiques, bois, verre, composites.\nOn les choisit selon leurs propriétés : résistance, masse, conduction de la chaleur et de l’électricité, prix, recyclage.\nUne casserole en inox conduit la chaleur ; son manche en plastique isole.",
+  "parties": [
+    {
+      "titre": "Familles et propriétés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des familles de matériaux",
+          "colonnes": [
+            "Famille",
+            "Exemples",
+            "Propriétés"
+          ],
+          "lignes": [
+            [
+              "métaux",
+              "acier, aluminium, cuivre",
+              "résistants, conducteurs"
+            ],
+            [
+              "plastiques",
+              "PVC, polypropylène",
+              "légers, isolants, faciles à mouler"
+            ],
+            [
+              "bois",
+              "chêne, pin",
+              "renouvelable, isolant"
+            ],
+            [
+              "verre",
+              "verre de vitre",
+              "transparent, fragile"
+            ],
+            [
+              "composites",
+              "fibre de carbone",
+              "très légers et résistants"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi le manche d’une casserole est-il en plastique ?",
+          "options": [
+            "parce qu’il isole de la chaleur",
+            "parce qu’il conduit l’électricité",
+            "parce qu’il est transparent"
+          ],
+          "reponse": "parce qu’il isole de la chaleur",
+          "explication": "On peut la saisir sans se bruler."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir un matériau",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On choisit un matériau sur un seul critère.",
+          "correction": "On compare plusieurs propriétés : un cadre de vélo en carbone est léger, mais cher et difficile à recycler."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les fils électriques sont en cuivre car il est :",
+      "options": [
+        "conducteur",
+        "isolant",
+        "transparent"
+      ],
+      "reponse": "conducteur",
+      "explication": "Il laisse passer le courant."
+    },
+    {
+      "consigne": "Un matériau composite associe :",
+      "options": [
+        "plusieurs matériaux",
+        "un seul métal",
+        "du verre seulement"
+      ],
+      "reponse": "plusieurs matériaux",
+      "explication": "Comme la fibre de carbone et une résine."
+    },
+    {
+      "consigne": "Le bois est un matériau :",
+      "options": [
+        "renouvelable",
+        "fossile",
+        "métallique"
+      ],
+      "reponse": "renouvelable",
+      "explication": "Les arbres repoussent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Les caractéristiques et les propriétés des principaux matériaux",
+      "appui": "Les familles de matériaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

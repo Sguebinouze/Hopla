@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-HIST-07",
+  "duree": 6,
+  "essentiel": "À partir du XIe siècle, les villes grandissent grâce au commerce et à l’artisanat.\nLes habitants des villes, les bourgeois, obtiennent des seigneurs des chartes de franchise qui leur donnent des libertés.\nLes foires de Champagne attirent les marchands de toute l’Europe.",
+  "parties": [
+    {
+      "titre": "Marchands et artisans",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La ville médiévale",
+          "colonnes": [
+            "Qui ?",
+            "Ce qu’ils font"
+          ],
+          "lignes": [
+            [
+              "marchands",
+              "achètent et revendent, parfois très loin"
+            ],
+            [
+              "artisans",
+              "fabriquent : drapiers, forgerons, boulangers"
+            ],
+            [
+              "métiers",
+              "regroupent les artisans d’une même profession, avec des règles"
+            ],
+            [
+              "bourgeois",
+              "gouvernent parfois leur ville"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une charte de franchise donne aux habitants d’une ville :",
+          "options": [
+            "des libertés",
+            "un château",
+            "une armée"
+          ],
+          "reponse": "des libertés",
+          "explication": "Le seigneur leur accorde des droits."
+        }
+      ]
+    },
+    {
+      "titre": "Les foires",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans les foires de Champagne, les marchands italiens et flamands échangent draps, épices et soieries."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’au Moyen Âge, la majorité de la population vit en ville.",
+          "correction": "Les villes grandissent, mais l’immense majorité vit toujours à la campagne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les habitants des villes au Moyen Âge sont appelés :",
+      "options": [
+        "les bourgeois",
+        "les serfs",
+        "les vassaux"
+      ],
+      "reponse": "les bourgeois",
+      "explication": "Ils vivent dans le bourg, la ville."
+    },
+    {
+      "consigne": "Les foires de Champagne sont :",
+      "options": [
+        "de grands marchés",
+        "des batailles",
+        "des fêtes religieuses"
+      ],
+      "reponse": "de grands marchés",
+      "explication": "Des marchands de toute l’Europe s’y retrouvent."
+    },
+    {
+      "consigne": "Un métier, au Moyen Âge, regroupe :",
+      "options": [
+        "les artisans d’une même profession",
+        "tous les paysans",
+        "les chevaliers"
+      ],
+      "reponse": "les artisans d’une même profession",
+      "explication": "Il fixe des règles de travail."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "L’émergence d’une nouvelle société urbaine",
+      "appui": "Les villes au Moyen Âge"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

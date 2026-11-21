@@ -1,0 +1,101 @@
+{
+  "competence": "PC-C4-5E-TRANS-01",
+  "duree": 7,
+  "essentiel": "Lors d’une transformation chimique, des réactifs disparaissent et de nouveaux produits apparaissent.\nUne combustion a besoin d’un combustible, du dioxygène de l’air et d’une source de chaleur pour démarrer.\nLe carbone brule dans le dioxygène : il se forme du dioxyde de carbone, qui trouble l’eau de chaux.",
+  "parties": [
+    {
+      "titre": "Réactifs et produits",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux combustions",
+          "colonnes": [
+            "Combustion",
+            "Réactifs",
+            "Produits"
+          ],
+          "lignes": [
+            [
+              "du carbone",
+              "carbone, dioxygène",
+              "dioxyde de carbone"
+            ],
+            [
+              "du méthane, gaz de cuisine",
+              "méthane, dioxygène",
+              "dioxyde de carbone, eau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lors d’une combustion, le dioxygène est :",
+          "options": [
+            "un réactif",
+            "un produit",
+            "absent"
+          ],
+          "reponse": "un réactif",
+          "explication": "Il est consommé."
+        }
+      ]
+    },
+    {
+      "titre": "Le triangle du feu",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour éteindre un feu, on supprime un des trois éléments : le combustible, le dioxygène ou la chaleur."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le bois disparait sans rien produire en brulant.",
+          "correction": "Il se transforme : il se forme du dioxyde de carbone, de l’eau et des cendres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel gaz trouble l’eau de chaux ?",
+      "options": [
+        "le dioxyde de carbone",
+        "le dioxygène",
+        "le diazote"
+      ],
+      "reponse": "le dioxyde de carbone",
+      "explication": "C’est son test caractéristique."
+    },
+    {
+      "consigne": "Couvrir une casserole en feu avec un couvercle supprime :",
+      "options": [
+        "le dioxygène",
+        "le combustible",
+        "la chaleur"
+      ],
+      "reponse": "le dioxygène",
+      "explication": "L’air ne peut plus arriver."
+    },
+    {
+      "consigne": "Dans une transformation chimique, les produits :",
+      "options": [
+        "apparaissent",
+        "disparaissent",
+        "restent identiques aux réactifs"
+      ],
+      "reponse": "apparaissent",
+      "explication": "De nouvelles espèces se forment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 101,
+      "extrait": "transformations chimiques dès la classe de 5e, avec des liens possibles avec l'histoire des",
+      "appui": "Les transformations chimiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

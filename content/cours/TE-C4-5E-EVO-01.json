@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-5E-EVO-01",
+  "duree": 6,
+  "essentiel": "Pour une même fonction, plusieurs principes techniques se succèdent.\nPour éclairer, on est passé de la bougie à la lampe à incandescence, puis à la lampe fluocompacte et à la DEL.\nLes objets évoluent avec les besoins, les matériaux, les énergies disponibles et les progrès techniques.",
+  "parties": [
+    {
+      "titre": "L’évolution de l’éclairage",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une même fonction : éclairer",
+          "colonnes": [
+            "Solution",
+            "Principe",
+            "Limite"
+          ],
+          "lignes": [
+            [
+              "bougie",
+              "combustion de la cire",
+              "faible lumière, risque d’incendie"
+            ],
+            [
+              "lampe à incandescence",
+              "filament chauffé par le courant",
+              "beaucoup de chaleur perdue"
+            ],
+            [
+              "DEL",
+              "composant électronique qui émet de la lumière",
+              "consomme peu, dure longtemps"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle lampe consomme le moins d’énergie pour la même lumière ?",
+          "options": [
+            "la DEL",
+            "la lampe à incandescence",
+            "la bougie"
+          ],
+          "reponse": "la DEL",
+          "explication": "Elle perd peu d’énergie en chaleur."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi les objets évoluent",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des raisons.",
+          "exemples": [
+            "un nouveau besoin : éclairer sans flamme",
+            "un nouveau matériau ou composant",
+            "des contraintes : consommer moins, polluer moins"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un objet nouveau est toujours meilleur sur tous les plans.",
+          "correction": "On compare selon des critères : cout, consommation, durée de vie, recyclage."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La lampe à incandescence perd beaucoup d’énergie sous forme de :",
+      "options": [
+        "chaleur",
+        "son",
+        "mouvement"
+      ],
+      "reponse": "chaleur",
+      "explication": "Le filament chauffe."
+    },
+    {
+      "consigne": "DEL signifie :",
+      "options": [
+        "diode électroluminescente",
+        "détecteur électrique local",
+        "dynamo électrique légère"
+      ],
+      "reponse": "diode électroluminescente",
+      "explication": "Un composant électronique."
+    },
+    {
+      "consigne": "Pour comparer deux solutions techniques, on utilise :",
+      "options": [
+        "des critères",
+        "la couleur seulement",
+        "le hasard"
+      ],
+      "reponse": "des critères",
+      "explication": "Cout, consommation, durée de vie…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 7,
+      "extrait": "Comparer des principes techniques",
+      "appui": "L’évolution des objets"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

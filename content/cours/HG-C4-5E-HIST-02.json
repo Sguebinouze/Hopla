@@ -1,0 +1,107 @@
+{
+  "competence": "HG-C4-5E-HIST-02",
+  "duree": 7,
+  "essentiel": "Dans l’Occident féodal, un vassal prête hommage à un seigneur plus puissant. Il reçoit un fief en échange de sa fidélité.\nLes paysans vivent dans la seigneurie et travaillent pour le seigneur.\nÀ partir du XIe siècle, les villes se développent et les rois capétiens renforcent leur pouvoir.",
+  "parties": [
+    {
+      "titre": "Seigneurs et vassaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’hommage",
+          "colonnes": [
+            "Le vassal",
+            "Le seigneur"
+          ],
+          "lignes": [
+            [
+              "jure fidélité",
+              "protège son vassal"
+            ],
+            [
+              "l’aide à la guerre",
+              "lui donne un fief, souvent une terre"
+            ],
+            [
+              "le conseille",
+              "rend la justice"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le fief est :",
+          "options": [
+            "une terre donnée au vassal",
+            "un impôt payé au roi",
+            "une arme"
+          ],
+          "reponse": "une terre donnée au vassal",
+          "explication": "Il est donné en échange de la fidélité."
+        }
+      ]
+    },
+    {
+      "titre": "Une société en mouvement",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trois évolutions du XIe au XIIIe siècle.",
+          "exemples": [
+            "Les paysans défrichent des forêts pour cultiver.",
+            "Les villes grandissent autour des marchés.",
+            "Le roi capétien impose peu à peu son autorité aux seigneurs."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le roi commande directement tout le royaume dès 987.",
+          "correction": "Au début, les Capétiens contrôlent un petit domaine. Les grands seigneurs sont parfois plus puissants qu’eux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Prêter hommage, c’est :",
+      "options": [
+        "jurer fidélité à un seigneur",
+        "payer une taxe",
+        "partir en croisade"
+      ],
+      "reponse": "jurer fidélité à un seigneur",
+      "explication": "Le vassal devient « l’homme » du seigneur."
+    },
+    {
+      "consigne": "Les Capétiens règnent à partir de :",
+      "options": [
+        "987",
+        "1789",
+        "800"
+      ],
+      "reponse": "987",
+      "explication": "Avec Hugues Capet."
+    },
+    {
+      "consigne": "Défricher, c’est :",
+      "options": [
+        "couper la forêt pour cultiver",
+        "construire un château",
+        "fonder une ville"
+      ],
+      "reponse": "couper la forêt pour cultiver",
+      "explication": "Les terres cultivées s’étendent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "La société féodale, empreinte des valeurs religieuses du",
+      "appui": "L’Occident féodal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

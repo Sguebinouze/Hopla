@@ -1,0 +1,98 @@
+{
+  "competence": "HG-C4-5E-GEO-04",
+  "duree": 7,
+  "essentiel": "La richesse est très inégalement répartie : le PIB par habitant de la Suisse dépasse plus de 100 fois celui du Burundi.\nLe PIB mesure la richesse produite. L’IDH ajoute la santé et l’éducation.\nLes inégalités existent aussi à l’intérieur des pays, entre quartiers ou régions.",
+  "parties": [
+    {
+      "titre": "Deux indicateurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mesurer le développement",
+          "colonnes": [
+            "Indicateur",
+            "Ce qu’il mesure"
+          ],
+          "lignes": [
+            [
+              "PIB par habitant",
+              "la richesse produite dans un pays, divisée par le nombre d’habitants"
+            ],
+            [
+              "IDH, entre 0 et 1",
+              "espérance de vie, durée de scolarisation et revenu"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’IDH prend en compte :",
+          "options": [
+            "la santé, l’éducation et le revenu",
+            "seulement la richesse",
+            "la superficie du pays"
+          ],
+          "reponse": "la santé, l’éducation et le revenu",
+          "explication": "Il est plus complet que le PIB."
+        }
+      ]
+    },
+    {
+      "titre": "À toutes les échelles",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans une grande ville comme Rio de Janeiro, des quartiers très riches côtoient des favelas, quartiers pauvres construits sans autorisation."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les habitants d’un pays riche sont riches.",
+          "correction": "Le PIB par habitant est une moyenne : il cache les écarts entre habitants."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un IDH proche de 1 indique :",
+      "options": [
+        "un développement élevé",
+        "un pays très pauvre",
+        "un pays sans habitants"
+      ],
+      "reponse": "un développement élevé",
+      "explication": "L’IDH va de 0 à 1."
+    },
+    {
+      "consigne": "Le PIB par habitant est :",
+      "options": [
+        "une moyenne",
+        "le salaire de chaque habitant",
+        "le nombre d’habitants"
+      ],
+      "reponse": "une moyenne",
+      "explication": "Il ne montre pas les écarts."
+    },
+    {
+      "consigne": "Une favela est :",
+      "options": [
+        "un quartier pauvre",
+        "un quartier d’affaires",
+        "une plage"
+      ],
+      "reponse": "un quartier pauvre",
+      "explication": "Construite souvent sans autorisation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 87,
+      "extrait": "Répartition de la richesse et de la pauvreté dans le monde",
+      "appui": "Richesse et pauvreté dans le monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

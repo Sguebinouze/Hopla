@@ -1,0 +1,123 @@
+{
+  "competence": "SV-C4-5E-PLANT-01",
+  "duree": 7,
+  "essentiel": "Les racines prélèvent l’eau et les sels minéraux, qui montent dans la sève brute.\nLes feuilles prélèvent le dioxyde de carbone de l’air et produisent des sucres à la lumière.\nLa sève élaborée transporte ces sucres vers les organes de stockage, comme la pomme de terre.",
+  "parties": [
+    {
+      "titre": "Prélever, produire, stocker",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les organes de la plante",
+          "colonnes": [
+            "Organe",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "racines",
+              "prélèvent eau et sels minéraux"
+            ],
+            [
+              "feuilles",
+              "prélèvent le CO₂ et produisent les sucres à la lumière"
+            ],
+            [
+              "tiges",
+              "transportent les sèves"
+            ],
+            [
+              "tubercule, graine, fruit",
+              "stockent des réserves"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où la plante produit-elle ses sucres ?",
+          "options": [
+            "dans les feuilles",
+            "dans les racines",
+            "dans le tubercule"
+          ],
+          "reponse": "dans les feuilles",
+          "explication": "Les feuilles vertes captent la lumière."
+        }
+      ]
+    },
+    {
+      "titre": "Deux sèves",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sève brute et sève élaborée",
+          "colonnes": [
+            "Sève",
+            "Contenu",
+            "Trajet"
+          ],
+          "lignes": [
+            [
+              "brute",
+              "eau et sels minéraux",
+              "des racines vers les feuilles"
+            ],
+            [
+              "élaborée",
+              "eau et sucres",
+              "des feuilles vers tous les organes"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la plante puise sa nourriture toute faite dans le sol.",
+          "correction": "Elle prélève de la matière minérale et fabrique elle-même sa matière organique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La sève brute contient :",
+      "options": [
+        "de l’eau et des sels minéraux",
+        "des sucres",
+        "du dioxygène seulement"
+      ],
+      "reponse": "de l’eau et des sels minéraux",
+      "explication": "Elle part des racines."
+    },
+    {
+      "consigne": "La pomme de terre est :",
+      "options": [
+        "un organe de stockage",
+        "une racine qui absorbe l’eau",
+        "une feuille"
+      ],
+      "reponse": "un organe de stockage",
+      "explication": "Un tubercule riche en réserves."
+    },
+    {
+      "consigne": "Les feuilles prélèvent dans l’air :",
+      "options": [
+        "du dioxyde de carbone",
+        "du diazote",
+        "des sels minéraux"
+      ],
+      "reponse": "du dioxyde de carbone",
+      "explication": "Pour produire les sucres."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 111,
+      "extrait": "Relier les besoins des cellules d’une plante chlorophyllienne",
+      "appui": "Nutrition de la plante verte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "SV-C4-5E-CLIM-01",
+  "duree": 6,
+  "essentiel": "La météo décrit le temps qu’il fait à un moment donné. Le climat décrit le temps moyen d’une région sur au moins 30 ans.\nOn distingue des zones chaudes, tempérées et froides.\nChaque zone climatique abrite des êtres vivants adaptés : forêt équatoriale, savane, désert, forêt tempérée, toundra.",
+  "parties": [
+    {
+      "titre": "Zones climatiques et milieux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des climats et leurs milieux",
+          "colonnes": [
+            "Climat",
+            "Caractères",
+            "Milieu"
+          ],
+          "lignes": [
+            [
+              "équatorial",
+              "chaud et humide toute l’année",
+              "forêt dense"
+            ],
+            [
+              "désertique",
+              "très sec",
+              "désert, plantes rares"
+            ],
+            [
+              "tempéré",
+              "saisons marquées, températures modérées",
+              "forêt de feuillus, prairies"
+            ],
+            [
+              "polaire",
+              "très froid",
+              "toundra, banquise"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il pleut à Brest aujourd’hui. » C’est :",
+          "options": [
+            "la météo",
+            "le climat",
+            "une zone climatique"
+          ],
+          "reponse": "la météo",
+          "explication": "Le temps d’un jour."
+        }
+      ]
+    },
+    {
+      "titre": "Des êtres vivants adaptés",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le cactus stocke l’eau dans sa tige et ses épines limitent les pertes. L’ours polaire a une épaisse couche de graisse."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le climat change d’une année à l’autre.",
+          "correction": "Une année peut être plus chaude : c’est une variation. Le climat se calcule sur au moins 30 ans."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le climat se calcule sur :",
+      "options": [
+        "au moins 30 ans",
+        "un jour",
+        "une semaine"
+      ],
+      "reponse": "au moins 30 ans",
+      "explication": "C’est une moyenne."
+    },
+    {
+      "consigne": "La forêt dense pousse sous un climat :",
+      "options": [
+        "équatorial",
+        "polaire",
+        "désertique"
+      ],
+      "reponse": "équatorial",
+      "explication": "Chaud et humide."
+    },
+    {
+      "consigne": "Les épines du cactus :",
+      "options": [
+        "limitent les pertes d’eau",
+        "attirent la pluie",
+        "produisent des graines"
+      ],
+      "reponse": "limitent les pertes d’eau",
+      "explication": "Une adaptation au climat sec."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 109,
+      "extrait": "Différence entre météo et climat",
+      "appui": "Météo et climat"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

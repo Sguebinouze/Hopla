@@ -1,0 +1,111 @@
+{
+  "competence": "HG-C4-5E-HIST-11",
+  "duree": 7,
+  "essentiel": "De François Ier à Louis XIV, le pouvoir royal se renforce.\nEn 1539, l’ordonnance de Villers-Cotterêts impose le français dans les actes officiels.\nLouis XIV gouverne seul à partir de 1661 : il est un monarque absolu de droit divin et fait de Versailles le symbole de son pouvoir.",
+  "parties": [
+    {
+      "titre": "Les étapes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des rois et leurs actes",
+          "colonnes": [
+            "Roi",
+            "Règne",
+            "Acte"
+          ],
+          "lignes": [
+            [
+              "François Ier",
+              "1515-1547",
+              "ordonnance de Villers-Cotterêts (1539)"
+            ],
+            [
+              "Henri IV",
+              "1589-1610",
+              "édit de Nantes (1598)"
+            ],
+            [
+              "Louis XIII",
+              "1610-1643",
+              "gouverne avec Richelieu"
+            ],
+            [
+              "Louis XIV",
+              "1643-1715",
+              "Versailles, monarchie absolue"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’ordonnance de Villers-Cotterêts impose :",
+          "options": [
+            "le français dans les actes officiels",
+            "la religion protestante",
+            "l’école obligatoire"
+          ],
+          "reponse": "le français dans les actes officiels",
+          "explication": "À la place du latin."
+        }
+      ]
+    },
+    {
+      "titre": "La monarchie absolue",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le roi absolu concentre tous les pouvoirs : il fait les lois, rend la justice, lève les impôts. Il dit tenir son pouvoir de Dieu."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Louis XIV gouverne seul dès 1643.",
+          "correction": "Il devient roi enfant. Il gouverne seul à partir de 1661, à la mort de Mazarin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un roi « de droit divin » :",
+      "options": [
+        "dit tenir son pouvoir de Dieu",
+        "est élu par le peuple",
+        "n’a aucun pouvoir"
+      ],
+      "reponse": "dit tenir son pouvoir de Dieu",
+      "explication": "Personne ne peut contester son autorité."
+    },
+    {
+      "consigne": "Louis XIV gouverne seul à partir de :",
+      "options": [
+        "1661",
+        "1643",
+        "1715"
+      ],
+      "reponse": "1661",
+      "explication": "À la mort de Mazarin."
+    },
+    {
+      "consigne": "Le roi absolu :",
+      "options": [
+        "fait les lois, rend la justice et lève les impôts",
+        "partage son pouvoir avec une assemblée élue",
+        "obéit aux seigneurs"
+      ],
+      "reponse": "fait les lois, rend la justice et lève les impôts",
+      "explication": "Il concentre les pouvoirs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "Du Prince de la Renaissance au roi absolu",
+      "appui": "De François Ier au roi absolu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,105 @@
+{
+  "competence": "HG-C4-5E-HIST-05",
+  "duree": 7,
+  "essentiel": "Au VIIe siècle, en Arabie, Mahomet prêche une nouvelle religion monothéiste : l’islam. Son départ pour Médine, en 622, ouvre le calendrier musulman.\nSes successeurs, les califes, conquièrent un vaste empire, de l’Espagne à l’Inde.\nBagdad, capitale des Abbassides, devient un grand centre de savoir jusqu’à sa prise par les Mongols en 1258.",
+  "parties": [
+    {
+      "titre": "Naissance et expansion",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 622,
+              "date": "622",
+              "evenement": "Hégire : départ de Mahomet pour Médine."
+            },
+            {
+              "annee": 711,
+              "date": "711",
+              "evenement": "Les armées arabes entrent en Espagne."
+            },
+            {
+              "annee": 762,
+              "date": "762",
+              "evenement": "Fondation de Bagdad."
+            },
+            {
+              "annee": 1258,
+              "date": "1258",
+              "evenement": "Prise de Bagdad par les Mongols."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le livre sacré des musulmans est :",
+          "options": [
+            "le Coran",
+            "la Bible",
+            "la Torah"
+          ],
+          "reponse": "le Coran",
+          "explication": "Les musulmans le considèrent comme la parole de Dieu."
+        }
+      ]
+    },
+    {
+      "titre": "Bagdad, ville de savoir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les savants de Bagdad traduisent en arabe des textes grecs, persans et indiens. Ils font progresser les mathématiques, l’astronomie et la médecine."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’empire arabe est uniquement peuplé de musulmans.",
+          "correction": "Des chrétiens et des juifs y vivent aussi : ils paient un impôt particulier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’année 622 marque :",
+      "options": [
+        "le début du calendrier musulman",
+        "la fondation de Bagdad",
+        "la mort de Charlemagne"
+      ],
+      "reponse": "le début du calendrier musulman",
+      "explication": "C’est l’Hégire."
+    },
+    {
+      "consigne": "Les Abbassides ont pour capitale :",
+      "options": [
+        "Bagdad",
+        "La Mecque",
+        "Cordoue"
+      ],
+      "reponse": "Bagdad",
+      "explication": "Fondée en 762."
+    },
+    {
+      "consigne": "Bagdad est prise en 1258 par :",
+      "options": [
+        "les Mongols",
+        "les croisés",
+        "les Byzantins"
+      ],
+      "reponse": "les Mongols",
+      "explication": "La ville est en grande partie détruite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "De la naissance de l'islam à la prise de Bagdad par les Mongols",
+      "appui": "De la naissance de l’islam à Bagdad"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

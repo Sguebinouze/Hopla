@@ -1,0 +1,112 @@
+{
+  "competence": "SV-C4-5E-CORPS-01",
+  "duree": 7,
+  "essentiel": "Pendant un effort, les muscles consomment plus de dioxygène et de nutriments.\nLe cœur bat plus vite et la respiration s’accélère : le sang apporte davantage de dioxygène aux muscles.\nLe système nerveux commande les muscles : le cerveau envoie des messages par la moelle épinière et les nerfs.",
+  "parties": [
+    {
+      "titre": "Ce qui change pendant l’effort",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au repos et pendant une course",
+          "colonnes": [
+            "Mesure",
+            "Au repos",
+            "Pendant la course"
+          ],
+          "lignes": [
+            [
+              "fréquence cardiaque",
+              "environ 70 battements par minute",
+              "jusqu’à 180 ou plus"
+            ],
+            [
+              "fréquence respiratoire",
+              "environ 15 mouvements par minute",
+              "plus de 30"
+            ],
+            [
+              "besoin des muscles en dioxygène",
+              "faible",
+              "élevé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi le cœur bat-il plus vite pendant un effort ?",
+          "options": [
+            "pour apporter plus de dioxygène aux muscles",
+            "pour refroidir le corps",
+            "pour digérer"
+          ],
+          "reponse": "pour apporter plus de dioxygène aux muscles",
+          "explication": "Le sang transporte le dioxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Un effort bien mené",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des règles de santé.",
+          "exemples": [
+            "s’échauffer avant l’effort",
+            "boire de l’eau",
+            "récupérer après l’effort",
+            "le dopage est dangereux et interdit"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les poumons envoient directement l’air aux muscles.",
+          "correction": "Le dioxygène passe des poumons dans le sang, et le sang le transporte jusqu’aux muscles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le message qui commande un muscle part :",
+      "options": [
+        "du cerveau",
+        "de l’estomac",
+        "du cœur"
+      ],
+      "reponse": "du cerveau",
+      "explication": "Il passe par la moelle épinière et les nerfs."
+    },
+    {
+      "consigne": "Pendant un effort, la fréquence respiratoire :",
+      "options": [
+        "augmente",
+        "diminue",
+        "ne change pas"
+      ],
+      "reponse": "augmente",
+      "explication": "On respire plus vite."
+    },
+    {
+      "consigne": "Après l’effort, le cœur :",
+      "options": [
+        "revient peu à peu à son rythme de repos",
+        "reste rapide pour toujours",
+        "s’arrête"
+      ],
+      "reponse": "revient peu à peu à son rythme de repos",
+      "explication": "C’est la récupération."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 114,
+      "extrait": "respiratoire permet dès le début du cycle de découvrir l'organisation fonctionnelle du système",
+      "appui": "Effort physique et organisme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

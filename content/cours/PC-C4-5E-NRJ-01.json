@@ -1,0 +1,125 @@
+{
+  "competence": "PC-C4-5E-NRJ-01",
+  "duree": 7,
+  "essentiel": "L’énergie existe sous plusieurs formes : cinétique, liée au mouvement ; électrique ; thermique ; lumineuse ; chimique, stockée dans les aliments ou les carburants.\nUn convertisseur transforme une forme en une autre. Une partie est toujours perdue, souvent en chaleur.\nL’énergie se mesure en joules (J).",
+  "parties": [
+    {
+      "titre": "Des conversions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Convertisseurs",
+          "colonnes": [
+            "Convertisseur",
+            "Énergie reçue",
+            "Énergie utile"
+          ],
+          "lignes": [
+            [
+              "éolienne",
+              "cinétique du vent",
+              "électrique"
+            ],
+            [
+              "panneau photovoltaïque",
+              "lumineuse",
+              "électrique"
+            ],
+            [
+              "moteur électrique",
+              "électrique",
+              "cinétique"
+            ],
+            [
+              "radiateur",
+              "électrique",
+              "thermique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans une éolienne, l’énergie du vent est :",
+          "options": [
+            "cinétique",
+            "chimique",
+            "lumineuse"
+          ],
+          "reponse": "cinétique",
+          "explication": "Elle est liée au mouvement de l’air."
+        }
+      ]
+    },
+    {
+      "titre": "Sources d’énergie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Renouvelables ou non",
+          "colonnes": [
+            "Renouvelables",
+            "Non renouvelables"
+          ],
+          "lignes": [
+            [
+              "solaire, éolien, hydraulique",
+              "pétrole, gaz naturel, charbon"
+            ],
+            [
+              "biomasse, géothermie",
+              "uranium"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit qu’un appareil « produit » de l’énergie à partir de rien.",
+          "correction": "Il la convertit : l’énergie reçue est égale à l’énergie utile plus les pertes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un moteur électrique convertit l’énergie électrique en énergie :",
+      "options": [
+        "cinétique",
+        "chimique",
+        "nucléaire"
+      ],
+      "reponse": "cinétique",
+      "explication": "Il met un objet en mouvement."
+    },
+    {
+      "consigne": "L’unité de l’énergie est :",
+      "options": [
+        "le joule",
+        "le watt",
+        "le volt"
+      ],
+      "reponse": "le joule",
+      "explication": "Symbole J."
+    },
+    {
+      "consigne": "Une ampoule chauffe en éclairant. Cette chaleur est :",
+      "options": [
+        "une perte",
+        "l’énergie utile",
+        "impossible"
+      ],
+      "reponse": "une perte",
+      "explication": "L’énergie utile est la lumière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 103,
+      "extrait": "L'étude du thème de l'énergie gagne à être présente chaque année. La classe de 5e est",
+      "appui": "Sources et conversions d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,117 @@
+{
+  "competence": "TE-C4-5E-NUM-01",
+  "duree": 7,
+  "essentiel": "Les données sont enregistrées dans des fichiers, rangés dans des dossiers. L’extension indique le type : .jpg pour une image, .mp3 pour un son.\nL’unité d’information est le bit ; un octet vaut 8 bits. On compte en kilooctets, mégaoctets, gigaoctets.\nPour se protéger : mots de passe robustes, mises à jour, méfiance envers les messages suspects.",
+  "parties": [
+    {
+      "titre": "Fichiers et unités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités d’information",
+          "colonnes": [
+            "Unité",
+            "Valeur approchée",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "octet (o)",
+              "8 bits",
+              "un caractère"
+            ],
+            [
+              "kilooctet (ko)",
+              "environ mille octets",
+              "un court texte"
+            ],
+            [
+              "mégaoctet (Mo)",
+              "environ un million d’octets",
+              "une photo"
+            ],
+            [
+              "gigaoctet (Go)",
+              "environ un milliard d’octets",
+              "un film"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« vacances.jpg » est probablement :",
+          "options": [
+            "une image",
+            "un son",
+            "un texte"
+          ],
+          "reponse": "une image",
+          "explication": "L’extension .jpg désigne une image."
+        }
+      ]
+    },
+    {
+      "titre": "Cybersécurité",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les bons réflexes",
+          "etapes": [
+            "Choisis un mot de passe long, différent pour chaque compte.",
+            "Installe les mises à jour.",
+            "N’ouvre pas les pièces jointes ni les liens d’un message inattendu.",
+            "Sauvegarde tes fichiers importants."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On utilise le même mot de passe partout.",
+          "correction": "Si un site est piraté, tous les comptes deviennent accessibles : un mot de passe par compte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un octet vaut :",
+      "options": [
+        "8 bits",
+        "10 bits",
+        "1 000 bits"
+      ],
+      "reponse": "8 bits",
+      "explication": "C’est l’unité de base du stockage."
+    },
+    {
+      "consigne": "Un message qui demande ton mot de passe « en urgence » est souvent :",
+      "options": [
+        "une tentative d’hameçonnage",
+        "un message fiable",
+        "une mise à jour"
+      ],
+      "reponse": "une tentative d’hameçonnage",
+      "explication": "On ne donne jamais son mot de passe."
+    },
+    {
+      "consigne": "Un film pèse plutôt :",
+      "options": [
+        "plusieurs gigaoctets",
+        "quelques octets",
+        "quelques kilooctets"
+      ],
+      "reponse": "plusieurs gigaoctets",
+      "explication": "Une vidéo contient beaucoup de données."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 7,
+      "extrait": "Identifier des règles permettant de",
+      "appui": "Données et cybersécurité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

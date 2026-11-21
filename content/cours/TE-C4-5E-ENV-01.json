@@ -1,0 +1,112 @@
+{
+  "competence": "TE-C4-5E-ENV-01",
+  "duree": 6,
+  "essentiel": "Les interacteurs d’un objet sont les éléments extérieurs avec lesquels il est en relation : utilisateur, sol, météo, énergie.\nL’ergonomie adapte l’objet à l’utilisateur : poignée à la bonne hauteur, commandes faciles d’accès.\nLa sécurité protège l’utilisateur et les autres : freins, éclairage, protections.",
+  "parties": [
+    {
+      "titre": "Les interacteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La trottinette électrique",
+          "colonnes": [
+            "Interacteur",
+            "Contrainte pour la conception"
+          ],
+          "lignes": [
+            [
+              "utilisateur",
+              "guidon réglable, commandes simples"
+            ],
+            [
+              "route",
+              "roues adaptées aux bosses"
+            ],
+            [
+              "pluie",
+              "composants étanches"
+            ],
+            [
+              "chargeur",
+              "prise compatible, charge sûre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un guidon réglable en hauteur répond à une exigence :",
+          "options": [
+            "d’ergonomie",
+            "de recyclage",
+            "d’esthétique seulement"
+          ],
+          "reponse": "d’ergonomie",
+          "explication": "Il s’adapte à la taille de l’utilisateur."
+        }
+      ]
+    },
+    {
+      "titre": "Ergonomie et sécurité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des choix de conception.",
+          "exemples": [
+            "frein à portée de main",
+            "feu avant et arrière",
+            "bords arrondis",
+            "béquille stable"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ne pense qu’à l’utilisateur.",
+          "correction": "On liste tous les interacteurs : sol, météo, piétons, énergie. Chacun impose des contraintes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La pluie est, pour une trottinette :",
+      "options": [
+        "un interacteur",
+        "un composant",
+        "une fonction"
+      ],
+      "reponse": "un interacteur",
+      "explication": "Un élément extérieur qui impose l’étanchéité."
+    },
+    {
+      "consigne": "Un feu arrière répond à une exigence de :",
+      "options": [
+        "sécurité",
+        "ergonomie",
+        "recyclage"
+      ],
+      "reponse": "sécurité",
+      "explication": "Être vu des autres usagers."
+    },
+    {
+      "consigne": "L’ergonomie cherche à :",
+      "options": [
+        "adapter l’objet à l’utilisateur",
+        "réduire le prix",
+        "changer la couleur"
+      ],
+      "reponse": "adapter l’objet à l’utilisateur",
+      "explication": "Confort et facilité d’usage."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 8,
+      "extrait": "Les interacteurs extérieurs : usagers, données, autres objets, éléments de l’environnement",
+      "appui": "Interacteurs, ergonomie, sécurité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

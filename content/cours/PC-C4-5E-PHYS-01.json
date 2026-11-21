@@ -1,0 +1,112 @@
+{
+  "competence": "PC-C4-5E-PHYS-01",
+  "duree": 6,
+  "essentiel": "Lors d’une transformation physique, l’espèce chimique reste la même : la glace qui fond reste de l’eau.\nLors d’un mélange, les espèces sont réunies sans changer.\nLors d’une transformation chimique, de nouvelles espèces apparaissent : le bois qui brule donne du dioxyde de carbone.",
+  "parties": [
+    {
+      "titre": "Classer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois situations",
+          "colonnes": [
+            "Situation",
+            "Type",
+            "Pourquoi"
+          ],
+          "lignes": [
+            [
+              "un glaçon fond",
+              "transformation physique",
+              "toujours de l’eau"
+            ],
+            [
+              "du sel dans l’eau",
+              "mélange",
+              "eau et sel, toujours présents"
+            ],
+            [
+              "une bougie brule",
+              "transformation chimique",
+              "dioxyde de carbone et eau apparaissent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Du fer qui rouille subit :",
+          "options": [
+            "une transformation chimique",
+            "une transformation physique",
+            "un mélange"
+          ],
+          "reponse": "une transformation chimique",
+          "explication": "La rouille est une nouvelle espèce."
+        }
+      ]
+    },
+    {
+      "titre": "Des indices",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Signes d’une transformation chimique.",
+          "exemples": [
+            "un gaz se dégage",
+            "une couleur change",
+            "de la chaleur ou de la lumière est produite",
+            "un test caractéristique devient positif"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une dissolution est une transformation chimique, car le sucre disparait.",
+          "correction": "Le sucre est toujours là : on le goute. C’est un mélange."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’eau qui bout subit :",
+      "options": [
+        "une transformation physique",
+        "une transformation chimique",
+        "un mélange"
+      ],
+      "reponse": "une transformation physique",
+      "explication": "La vapeur reste de l’eau."
+    },
+    {
+      "consigne": "Un gâteau qui cuit subit :",
+      "options": [
+        "une transformation chimique",
+        "une transformation physique",
+        "un mélange"
+      ],
+      "reponse": "une transformation chimique",
+      "explication": "De nouvelles espèces se forment."
+    },
+    {
+      "consigne": "Mélanger du sable et des cailloux, c’est :",
+      "options": [
+        "un mélange",
+        "une transformation chimique",
+        "une fusion"
+      ],
+      "reponse": "un mélange",
+      "explication": "Rien ne change de nature."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Distinguer transformation chimique et mélange, transformation chimique et transformation physique",
+      "appui": "Transformation physique ou chimique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

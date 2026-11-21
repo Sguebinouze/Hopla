@@ -1,0 +1,111 @@
+{
+  "competence": "HG-C4-5E-HIST-06",
+  "duree": 6,
+  "essentiel": "La seigneurie est le domaine d’un seigneur, autour de son château.\nLes paysans lui paient des taxes, comme la taille, et lui doivent des corvées. Ils paient aussi pour utiliser son moulin ou son four.\nDu XIe au XIIIe siècle, les paysans défrichent et produisent davantage.",
+  "parties": [
+    {
+      "titre": "Les droits du seigneur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que doivent les paysans",
+          "colonnes": [
+            "Obligation",
+            "Contenu"
+          ],
+          "lignes": [
+            [
+              "taille",
+              "une taxe en argent ou en nature"
+            ],
+            [
+              "corvée",
+              "des jours de travail gratuit sur les terres du seigneur"
+            ],
+            [
+              "banalités",
+              "payer pour utiliser le moulin, le four, le pressoir"
+            ],
+            [
+              "dime",
+              "une part des récoltes pour l’Église"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les banalités sont des taxes pour :",
+          "options": [
+            "utiliser le moulin ou le four du seigneur",
+            "aller à la messe",
+            "se marier"
+          ],
+          "reponse": "utiliser le moulin ou le four du seigneur",
+          "explication": "Le seigneur possède ces équipements."
+        }
+      ]
+    },
+    {
+      "titre": "Produire plus",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des progrès agricoles.",
+          "exemples": [
+            "la charrue, qui retourne mieux la terre",
+            "le collier d’épaule, qui permet au cheval de tirer plus fort",
+            "les moulins à eau et à vent"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les paysans sont des serfs.",
+          "correction": "Beaucoup sont libres : les serfs, eux, ne peuvent pas quitter la seigneurie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La corvée est :",
+      "options": [
+        "un travail gratuit pour le seigneur",
+        "une taxe en argent",
+        "une fête"
+      ],
+      "reponse": "un travail gratuit pour le seigneur",
+      "explication": "Les paysans travaillent sur la réserve du seigneur."
+    },
+    {
+      "consigne": "Un serf :",
+      "options": [
+        "ne peut pas quitter la seigneurie",
+        "est un seigneur",
+        "est un marchand"
+      ],
+      "reponse": "ne peut pas quitter la seigneurie",
+      "explication": "Il est attaché à la terre."
+    },
+    {
+      "consigne": "La charrue sert à :",
+      "options": [
+        "retourner la terre",
+        "moudre le grain",
+        "tisser"
+      ],
+      "reponse": "retourner la terre",
+      "explication": "Elle prépare les champs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "L’ordre seigneurial : la formation et la domination des campagnes",
+      "appui": "Seigneurs et paysans"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

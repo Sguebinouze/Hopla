@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-GEO-02",
+  "duree": 6,
+  "essentiel": "L’eau douce, l’énergie et les terres agricoles sont des ressources limitées.\nUne population en croissance en a besoin de plus en plus.\nQuand l’eau disponible ne suffit pas aux besoins, on parle de stress hydrique.",
+  "parties": [
+    {
+      "titre": "Trois ressources",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des ressources sous pression",
+          "colonnes": [
+            "Ressource",
+            "Problème",
+            "Solution possible"
+          ],
+          "lignes": [
+            [
+              "eau douce",
+              "manque dans les régions sèches",
+              "irrigation économe, recyclage des eaux usées"
+            ],
+            [
+              "énergie",
+              "pétrole, gaz et charbon s’épuisent et polluent",
+              "énergies renouvelables, sobriété"
+            ],
+            [
+              "terres agricoles",
+              "grignotées par les villes",
+              "agriculture plus productive et durable"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le stress hydrique, c’est :",
+          "options": [
+            "un manque d’eau par rapport aux besoins",
+            "une inondation",
+            "une eau trop salée seulement"
+          ],
+          "reponse": "un manque d’eau par rapport aux besoins",
+          "explication": "Les besoins dépassent l’eau disponible."
+        }
+      ]
+    },
+    {
+      "titre": "Ménager les ressources",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un développement durable répond aux besoins d’aujourd’hui sans empêcher les générations futures de répondre aux leurs."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’eau ne manque que dans les déserts.",
+          "correction": "Des régions d’Espagne ou du sud de la France connaissent aussi des sécheresses."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une énergie qui ne s’épuise pas est dite :",
+      "options": [
+        "renouvelable",
+        "fossile",
+        "nucléaire"
+      ],
+      "reponse": "renouvelable",
+      "explication": "Soleil, vent, eau."
+    },
+    {
+      "consigne": "Le développement durable cherche à :",
+      "options": [
+        "préserver les ressources pour l’avenir",
+        "consommer le plus possible",
+        "arrêter toute production"
+      ],
+      "reponse": "préserver les ressources pour l’avenir",
+      "explication": "Il pense aux générations futures."
+    },
+    {
+      "consigne": "Le pétrole est une énergie :",
+      "options": [
+        "fossile",
+        "renouvelable",
+        "inépuisable"
+      ],
+      "reponse": "fossile",
+      "explication": "Formée en millions d’années."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 87,
+      "extrait": "La question des ressources est aujourd’hui une des plus",
+      "appui": "Des ressources limitées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

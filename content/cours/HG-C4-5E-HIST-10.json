@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-HIST-10",
+  "duree": 7,
+  "essentiel": "En 1492, Christophe Colomb atteint l’Amérique. Les Espagnols et les Portugais conquièrent de vastes territoires.\nAu XVIe siècle, Charles Quint règne sur un empire immense, de l’Espagne à l’Amérique.\nEn face, Soliman le Magnifique dirige l’Empire ottoman, qui assiège Vienne en 1529.",
+  "parties": [
+    {
+      "titre": "Deux empires rivaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au XVIe siècle",
+          "colonnes": [
+            "Critère",
+            "Charles Quint",
+            "Soliman le Magnifique"
+          ],
+          "lignes": [
+            [
+              "empire",
+              "Espagne, Saint-Empire, Pays-Bas, Amérique",
+              "Empire ottoman"
+            ],
+            [
+              "capitale",
+              "pas de capitale fixe",
+              "Istanbul"
+            ],
+            [
+              "religion",
+              "catholique",
+              "musulman"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En 1529, l’armée de Soliman assiège :",
+          "options": [
+            "Vienne",
+            "Paris",
+            "Rome"
+          ],
+          "reponse": "Vienne",
+          "explication": "Elle ne parvient pas à prendre la ville."
+        }
+      ]
+    },
+    {
+      "titre": "Les conquêtes en Amérique",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Cortés détruit l’Empire aztèque en 1521, Pizarro l’Empire inca à partir de 1532. Les populations amérindiennes sont décimées par la guerre et les maladies."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Colomb voulait découvrir un nouveau continent.",
+          "correction": "Il cherchait une route vers l’Asie par l’ouest."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’Empire aztèque est détruit par :",
+      "options": [
+        "Cortés",
+        "Pizarro",
+        "Magellan"
+      ],
+      "reponse": "Cortés",
+      "explication": "En 1521."
+    },
+    {
+      "consigne": "Charles Quint règne notamment sur :",
+      "options": [
+        "l’Espagne",
+        "l’Empire ottoman",
+        "l’Angleterre"
+      ],
+      "reponse": "l’Espagne",
+      "explication": "Et sur le Saint-Empire."
+    },
+    {
+      "consigne": "Pourquoi les Amérindiens meurent-ils en grand nombre ?",
+      "options": [
+        "à cause de la guerre et des maladies venues d’Europe",
+        "à cause du froid seulement",
+        "ils ne meurent pas"
+      ],
+      "reponse": "à cause de la guerre et des maladies venues d’Europe",
+      "explication": "Ils n’ont aucune défense contre ces maladies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "Le monde au temps de Charles Quint et Soliman le Magnifique",
+      "appui": "Charles Quint, Soliman, découvertes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

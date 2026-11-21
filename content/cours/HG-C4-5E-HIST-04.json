@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-HIST-04",
+  "duree": 7,
+  "essentiel": "L’Empire byzantin, héritier de l’Empire romain d’Orient, a pour capitale Constantinople. Son empereur est aussi le protecteur de l’Église.\nEn Occident, Charlemagne est couronné empereur à Rome en 800 par le pape.\nDans les deux empires, le souverain s’appuie sur la religion chrétienne.",
+  "parties": [
+    {
+      "titre": "Byzance",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’Empire byzantin",
+          "colonnes": [
+            "Repère",
+            "À retenir"
+          ],
+          "lignes": [
+            [
+              "capitale",
+              "Constantinople, aujourd’hui Istanbul"
+            ],
+            [
+              "langue",
+              "le grec"
+            ],
+            [
+              "empereur célèbre",
+              "Justinien, au VIe siècle"
+            ],
+            [
+              "monument",
+              "la basilique Sainte-Sophie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La capitale de l’Empire byzantin est :",
+          "options": [
+            "Constantinople",
+            "Rome",
+            "Aix-la-Chapelle"
+          ],
+          "reponse": "Constantinople",
+          "explication": "Aujourd’hui Istanbul."
+        }
+      ]
+    },
+    {
+      "titre": "Charlemagne",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Charlemagne contrôle son empire grâce aux comtes et aux missi dominici, envoyés qui vérifient que ses ordres sont appliqués."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Charlemagne a inventé l’école.",
+          "correction": "Il développe les écoles dans les monastères et les cathédrales, mais elles existaient déjà."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Charlemagne est couronné empereur en :",
+      "options": [
+        "800",
+        "1515",
+        "476"
+      ],
+      "reponse": "800",
+      "explication": "À Rome, par le pape."
+    },
+    {
+      "consigne": "Les missi dominici sont :",
+      "options": [
+        "des envoyés de Charlemagne",
+        "des moines byzantins",
+        "des marchands"
+      ],
+      "reponse": "des envoyés de Charlemagne",
+      "explication": "Ils contrôlent les comtes."
+    },
+    {
+      "consigne": "À Byzance, on parle surtout :",
+      "options": [
+        "grec",
+        "latin",
+        "arabe"
+      ],
+      "reponse": "grec",
+      "explication": "Le grec est la langue de l’Empire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 82,
+      "extrait": "Byzance et l'Europe carolingienne",
+      "appui": "Byzance et l’Europe carolingienne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

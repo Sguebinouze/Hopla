@@ -1,0 +1,126 @@
+{
+  "competence": "PC-C4-5E-ELEC-01",
+  "duree": 8,
+  "essentiel": "Dans un circuit en série, les dipôles forment une seule boucle : si une lampe est dévissée, tout s’éteint.\nDans un circuit en dérivation, il y a plusieurs boucles : chaque branche fonctionne indépendamment.\nL’intensité du courant se mesure en ampères (A) ; la tension, en volts (V).",
+  "parties": [
+    {
+      "titre": "Série ou dérivation ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Critère",
+            "Série",
+            "Dérivation"
+          ],
+          "lignes": [
+            [
+              "nombre de boucles",
+              "une seule",
+              "plusieurs"
+            ],
+            [
+              "une lampe dévissée",
+              "tout s’éteint",
+              "les autres branches restent allumées"
+            ],
+            [
+              "exemple",
+              "guirlande ancienne",
+              "prises d’une maison"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les lampes d’une maison sont branchées :",
+          "options": [
+            "en dérivation",
+            "en série",
+            "au hasard"
+          ],
+          "reponse": "en dérivation",
+          "explication": "On peut éteindre une pièce sans éteindre les autres."
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux grandeurs",
+          "colonnes": [
+            "Grandeur",
+            "Unité",
+            "Appareil",
+            "Branchement"
+          ],
+          "lignes": [
+            [
+              "intensité",
+              "ampère (A)",
+              "ampèremètre",
+              "en série"
+            ],
+            [
+              "tension",
+              "volt (V)",
+              "voltmètre",
+              "en dérivation, aux bornes du dipôle"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la première lampe d’une série « use » le courant et brille plus.",
+          "correction": "En série, l’intensité est la même en tout point du circuit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un voltmètre se branche :",
+      "options": [
+        "en dérivation",
+        "en série",
+        "sans fil"
+      ],
+      "reponse": "en dérivation",
+      "explication": "Aux bornes du dipôle."
+    },
+    {
+      "consigne": "Dans un circuit en série, on dévisse une lampe. Les autres :",
+      "options": [
+        "s’éteignent",
+        "brillent plus",
+        "ne changent pas"
+      ],
+      "reponse": "s’éteignent",
+      "explication": "La boucle est ouverte."
+    },
+    {
+      "consigne": "L’intensité s’exprime en :",
+      "options": [
+        "ampères",
+        "volts",
+        "joules"
+      ],
+      "reponse": "ampères",
+      "explication": "Symbole A."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 104,
+      "extrait": "Dès la classe de 5e, la mise en œuvre de circuits simples visant à réaliser des fonctions",
+      "appui": "Circuits électriques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

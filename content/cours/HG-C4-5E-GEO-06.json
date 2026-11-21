@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-GEO-06",
+  "duree": 7,
+  "essentiel": "Environ 700 millions de personnes souffrent de la faim dans le monde.\nL’agriculture productive produit beaucoup grâce aux machines et aux engrais, mais elle peut épuiser les sols et polluer l’eau.\nL’agriculture durable cherche à bien nourrir sans abimer l’environnement.",
+  "parties": [
+    {
+      "titre": "Nourrir plus de 8 milliards de personnes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux agricultures",
+          "colonnes": [
+            "Critère",
+            "Agriculture productive",
+            "Agriculture durable"
+          ],
+          "lignes": [
+            [
+              "moyens",
+              "machines, engrais chimiques, pesticides",
+              "rotation des cultures, engrais naturels"
+            ],
+            [
+              "avantages",
+              "rendements élevés",
+              "sols et eau préservés"
+            ],
+            [
+              "limites",
+              "pollution, sols épuisés",
+              "rendements parfois plus faibles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La sous-alimentation, c’est :",
+          "options": [
+            "ne pas manger assez",
+            "manger trop",
+            "manger équilibré"
+          ],
+          "reponse": "ne pas manger assez",
+          "explication": "Le corps manque d’énergie."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi la faim ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La planète produit assez de nourriture. La faim vient surtout de la pauvreté, des guerres et des catastrophes climatiques."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la faim vient d’un manque de nourriture sur Terre.",
+          "correction": "Elle vient surtout de l’impossibilité d’acheter ou de produire assez, à cause de la pauvreté ou des conflits."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’agriculture productive utilise beaucoup :",
+      "options": [
+        "de machines et d’engrais",
+        "de chevaux",
+        "de main-d’œuvre sans outils"
+      ],
+      "reponse": "de machines et d’engrais",
+      "explication": "Pour des rendements élevés."
+    },
+    {
+      "consigne": "Une cause principale de la faim est :",
+      "options": [
+        "la pauvreté",
+        "l’excès de nourriture",
+        "la pluie"
+      ],
+      "reponse": "la pauvreté",
+      "explication": "Les familles ne peuvent pas acheter assez."
+    },
+    {
+      "consigne": "L’agriculture durable cherche à :",
+      "options": [
+        "nourrir sans abimer l’environnement",
+        "produire sans limite",
+        "abandonner les cultures"
+      ],
+      "reponse": "nourrir sans abimer l’environnement",
+      "explication": "Elle préserve sols et eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 87,
+      "extrait": "L’alimentation : comment nourrir une humanité en croissance démographique",
+      "appui": "Nourrir l’humanité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

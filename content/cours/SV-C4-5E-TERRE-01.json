@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-5E-TERRE-01",
+  "duree": 7,
+  "essentiel": "La Terre est la troisième planète du système solaire. Elle s’est formée il y a environ 4,6 milliards d’années.\nLes géologues découpent son histoire en grandes périodes, grâce aux roches et aux fossiles.\nLes dinosaures disparaissent il y a 66 millions d’années ; notre espèce apparait il y a environ 300 000 ans.",
+  "parties": [
+    {
+      "titre": "Le temps des géologues",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques repères",
+          "colonnes": [
+            "Il y a environ",
+            "Évènement"
+          ],
+          "lignes": [
+            [
+              "4,6 milliards d’années",
+              "formation de la Terre"
+            ],
+            [
+              "3,5 milliards d’années",
+              "premières traces de vie"
+            ],
+            [
+              "66 millions d’années",
+              "disparition des dinosaures"
+            ],
+            [
+              "300 000 ans",
+              "apparition d’Homo sapiens"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Terre s’est formée il y a environ :",
+          "options": [
+            "4,6 milliards d’années",
+            "6 000 ans",
+            "66 millions d’années"
+          ],
+          "reponse": "4,6 milliards d’années",
+          "explication": "Les roches les plus anciennes permettent de le dater."
+        }
+      ]
+    },
+    {
+      "titre": "Les fossiles",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un fossile est un reste ou une trace d’être vivant conservé dans une roche. Il renseigne sur les espèces et les milieux du passé."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les humains ont vécu à l’époque des dinosaures.",
+          "correction": "Plus de 60 millions d’années séparent la fin des dinosaures et l’apparition des humains."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les dinosaures ont disparu il y a environ :",
+      "options": [
+        "66 millions d’années",
+        "66 000 ans",
+        "4,6 milliards d’années"
+      ],
+      "reponse": "66 millions d’années",
+      "explication": "Bien avant l’apparition des humains."
+    },
+    {
+      "consigne": "Un fossile est :",
+      "options": [
+        "une trace d’être vivant conservée dans une roche",
+        "une roche volcanique",
+        "un minéral précieux"
+      ],
+      "reponse": "une trace d’être vivant conservée dans une roche",
+      "explication": "Il témoigne du passé."
+    },
+    {
+      "consigne": "La Terre est la … planète à partir du Soleil.",
+      "options": [
+        "troisième",
+        "première",
+        "cinquième"
+      ],
+      "reponse": "troisième",
+      "explication": "Après Mercure et Vénus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 109,
+      "extrait": "La Terre dans le système solaire",
+      "appui": "La Terre et les temps géologiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

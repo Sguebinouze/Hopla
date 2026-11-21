@@ -1,0 +1,116 @@
+{
+  "competence": "SV-C4-5E-REPRO-01",
+  "duree": 7,
+  "essentiel": "La reproduction sexuée fait intervenir deux gamètes, un mâle et un femelle, qui fusionnent lors de la fécondation.\nLa reproduction asexuée se fait à partir d’un seul individu, sans fécondation : bouture, stolon, tubercule.\nLe fraisier se reproduit par ses graines, et aussi par ses stolons.",
+  "parties": [
+    {
+      "titre": "Sexuée ou asexuée ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux modes",
+          "colonnes": [
+            "Critère",
+            "Sexuée",
+            "Asexuée"
+          ],
+          "lignes": [
+            [
+              "nombre de parents",
+              "deux",
+              "un seul"
+            ],
+            [
+              "fécondation",
+              "oui",
+              "non"
+            ],
+            [
+              "descendants",
+              "différents des parents",
+              "identiques au parent"
+            ],
+            [
+              "exemples",
+              "graines, œufs",
+              "stolons, boutures, tubercules"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une pomme de terre qui germe et donne une nouvelle plante :",
+          "options": [
+            "reproduction asexuée",
+            "reproduction sexuée",
+            "fécondation"
+          ],
+          "reponse": "reproduction asexuée",
+          "explication": "Un tubercule, un seul parent."
+        }
+      ]
+    },
+    {
+      "titre": "La rencontre des gamètes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des modalités de rencontre.",
+          "exemples": [
+            "fécondation externe, dans l’eau : la truite, la grenouille",
+            "fécondation interne : les mammifères, les oiseaux",
+            "chez les plantes, le pollen est transporté par le vent ou les insectes"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les plantes n’ont pas de reproduction sexuée.",
+          "correction": "La fleur produit des gamètes : après la pollinisation et la fécondation, elle donne des graines."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Lors de la fécondation, fusionnent :",
+      "options": [
+        "un gamète mâle et un gamète femelle",
+        "deux plantes",
+        "deux œufs"
+      ],
+      "reponse": "un gamète mâle et un gamète femelle",
+      "explication": "Elle forme une cellule-œuf."
+    },
+    {
+      "consigne": "Une bouture donne une plante :",
+      "options": [
+        "identique à la plante de départ",
+        "différente",
+        "sans feuilles"
+      ],
+      "reponse": "identique à la plante de départ",
+      "explication": "Reproduction asexuée."
+    },
+    {
+      "consigne": "Chez la truite, la fécondation est :",
+      "options": [
+        "externe",
+        "interne",
+        "absente"
+      ],
+      "reponse": "externe",
+      "explication": "Elle a lieu dans l’eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "La dynamique des populations : on passe progressivement de l'étude de la diversité des",
+      "appui": "Modes de reproduction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

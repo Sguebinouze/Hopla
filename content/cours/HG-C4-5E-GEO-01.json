@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-5E-GEO-01",
+  "duree": 7,
+  "essentiel": "La Terre compte plus de 8 milliards d’habitants. La population augmente surtout en Afrique et en Asie du Sud.\nEn Europe et au Japon, elle vieillit et augmente peu.\nLa croissance de la population pose des défis : nourrir, loger, soigner, scolariser.",
+  "parties": [
+    {
+      "titre": "Des dynamiques différentes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux situations",
+          "colonnes": [
+            "Critère",
+            "Afrique subsaharienne",
+            "Europe"
+          ],
+          "lignes": [
+            [
+              "naissances",
+              "nombreuses",
+              "peu nombreuses"
+            ],
+            [
+              "population",
+              "jeune, en forte croissance",
+              "vieillissante, en faible croissance"
+            ],
+            [
+              "défis",
+              "écoles, emplois",
+              "retraites, soins des personnes âgées"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pays le plus peuplé du monde est :",
+          "options": [
+            "l’Inde",
+            "la France",
+            "le Brésil"
+          ],
+          "reponse": "l’Inde",
+          "explication": "Plus de 1,4 milliard d’habitants."
+        }
+      ]
+    },
+    {
+      "titre": "Croissance et développement",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Quand un pays se développe, la mortalité baisse d’abord, puis la natalité. La population augmente vite entre les deux."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la population augmente partout au même rythme.",
+          "correction": "Elle baisse déjà dans certains pays, comme le Japon, et augmente vite dans d’autres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une population vieillissante compte :",
+      "options": [
+        "de plus en plus de personnes âgées",
+        "beaucoup d’enfants",
+        "peu d’adultes"
+      ],
+      "reponse": "de plus en plus de personnes âgées",
+      "explication": "Comme en Europe."
+    },
+    {
+      "consigne": "La population mondiale est d’environ :",
+      "options": [
+        "8 milliards",
+        "800 millions",
+        "80 milliards"
+      ],
+      "reponse": "8 milliards",
+      "explication": "Plus de 8 milliards aujourd’hui."
+    },
+    {
+      "consigne": "Où la population augmente-t-elle le plus vite ?",
+      "options": [
+        "en Afrique subsaharienne",
+        "en Europe",
+        "au Japon"
+      ],
+      "reponse": "en Afrique subsaharienne",
+      "explication": "Les naissances y sont nombreuses."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 87,
+      "extrait": "L’objectif de cette première partie du cycle est de sensibiliser les",
+      "appui": "Démographie et développement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

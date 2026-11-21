@@ -1,0 +1,111 @@
+{
+  "competence": "PC-C4-5E-SOL-01",
+  "duree": 7,
+  "essentiel": "Un solide soluble se dissout dans un liquide, le solvant : on obtient une solution. Le sucre est soluble dans l’eau.\nQuand on ne peut plus dissoudre de soluté, la solution est saturée.\nDeux liquides miscibles se mélangent ; l’huile et l’eau sont non miscibles. Lors d’une dissolution, la masse se conserve.",
+  "parties": [
+    {
+      "titre": "Dissolution",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vocabulaire",
+          "colonnes": [
+            "Mot",
+            "Exemple dans l’eau sucrée"
+          ],
+          "lignes": [
+            [
+              "soluté",
+              "le sucre"
+            ],
+            [
+              "solvant",
+              "l’eau"
+            ],
+            [
+              "solution",
+              "l’eau sucrée"
+            ],
+            [
+              "saturée",
+              "du sucre reste au fond malgré l’agitation"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "On dissout 5 g de sel dans 100 g d’eau. La masse de la solution :",
+          "options": [
+            "105 g",
+            "100 g",
+            "95 g"
+          ],
+          "reponse": "105 g",
+          "explication": "La masse se conserve."
+        }
+      ]
+    },
+    {
+      "titre": "Miscibilité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Mélanger deux liquides.",
+          "exemples": [
+            "eau et sirop : miscibles, un seul liquide",
+            "eau et huile : non miscibles, deux couches",
+            "l’huile, moins dense, reste au-dessus"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit que le sucre « fond » dans le thé.",
+          "correction": "Il se dissout. La fusion est le passage du solide au liquide sous l’effet de la chaleur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans l’eau salée, le sel est :",
+      "options": [
+        "le soluté",
+        "le solvant",
+        "la solution"
+      ],
+      "reponse": "le soluté",
+      "explication": "C’est lui qu’on dissout."
+    },
+    {
+      "consigne": "L’eau et l’huile sont :",
+      "options": [
+        "non miscibles",
+        "miscibles",
+        "solubles"
+      ],
+      "reponse": "non miscibles",
+      "explication": "Elles forment deux couches."
+    },
+    {
+      "consigne": "Une solution saturée :",
+      "options": [
+        "ne peut plus dissoudre de soluté",
+        "ne contient pas de soluté",
+        "est forcément chaude"
+      ],
+      "reponse": "ne peut plus dissoudre de soluté",
+      "explication": "Le surplus reste au fond."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Les notions de miscibilité et de solubilité peuvent être introduites expérimentalement dès le début du cycle.",
+      "appui": "Solubilité et miscibilité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

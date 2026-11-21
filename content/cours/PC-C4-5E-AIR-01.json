@@ -1,0 +1,102 @@
+{
+  "competence": "PC-C4-5E-AIR-01",
+  "duree": 5,
+  "essentiel": "L’air est un mélange de gaz : environ 78 % de diazote et 21 % de dioxygène.\nLe reste, environ 1 %, est formé d’autres gaz, dont l’argon et le dioxyde de carbone.\nL’air a une masse : 1 L d’air pèse environ 1,2 g.",
+  "parties": [
+    {
+      "titre": "La composition",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dans 100 L d’air",
+          "colonnes": [
+            "Gaz",
+            "Volume"
+          ],
+          "lignes": [
+            [
+              "diazote",
+              "environ 78 L"
+            ],
+            [
+              "dioxygène",
+              "environ 21 L"
+            ],
+            [
+              "autres gaz",
+              "environ 1 L"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le gaz le plus abondant dans l’air est :",
+          "options": [
+            "le diazote",
+            "le dioxygène",
+            "le dioxyde de carbone"
+          ],
+          "reponse": "le diazote",
+          "explication": "Environ 78 %."
+        }
+      ]
+    },
+    {
+      "titre": "L’air a une masse",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un ballon gonflé à la pompe pèse un peu plus lourd qu’avant : on y a ajouté de l’air, qui a une masse."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’air est formé surtout de dioxygène.",
+          "correction": "Le dioxygène ne représente qu’environ un cinquième de l’air."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans l’air, le dioxygène représente environ :",
+      "options": [
+        "21 %",
+        "78 %",
+        "50 %"
+      ],
+      "reponse": "21 %",
+      "explication": "Environ un cinquième."
+    },
+    {
+      "consigne": "L’air est :",
+      "options": [
+        "un mélange",
+        "un corps pur",
+        "un liquide"
+      ],
+      "reponse": "un mélange",
+      "explication": "Il contient plusieurs gaz."
+    },
+    {
+      "consigne": "2 L d’air pèsent environ :",
+      "options": [
+        "2,4 g",
+        "24 g",
+        "0 g"
+      ],
+      "reponse": "2,4 g",
+      "explication": "1 L pèse environ 1,2 g."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Composition de l’air",
+      "appui": "La composition de l’air"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

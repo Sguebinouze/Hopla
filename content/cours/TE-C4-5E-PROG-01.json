@@ -1,0 +1,95 @@
+{
+  "competence": "TE-C4-5E-PROG-01",
+  "duree": 6,
+  "essentiel": "Un programme associe une action à une condition, souvent avec un paramètre : un seuil, une durée, une vitesse.\nModifier ce paramètre change le comportement de l’objet sans changer le programme.\nSi l’on augmente le seuil de luminosité, la lampe s’allume plus tôt le soir.",
+  "parties": [
+    {
+      "titre": "Lire le programme",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Éclairage automatique",
+          "etapes": [
+            "Répéter indéfiniment :",
+            "si la luminosité mesurée est inférieure à 300, allumer la lampe ;",
+            "sinon, éteindre la lampe."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "On remplace 300 par 400. Le soir, la lampe s’allume :",
+          "options": [
+            "plus tôt",
+            "plus tard",
+            "jamais"
+          ],
+          "reponse": "plus tôt",
+          "explication": "La luminosité passe sous 400 avant de passer sous 300."
+        }
+      ]
+    },
+    {
+      "titre": "Tester les modifications",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour modifier un paramètre",
+          "etapes": [
+            "Repère le paramètre dans le programme.",
+            "Change une seule valeur à la fois.",
+            "Teste et observe le résultat.",
+            "Garde la valeur qui répond au besoin."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On change plusieurs paramètres à la fois.",
+          "correction": "On ne saurait plus lequel a produit l’effet observé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un seuil dans un programme est :",
+      "options": [
+        "une valeur qui déclenche une action",
+        "un capteur",
+        "un fil électrique"
+      ],
+      "reponse": "une valeur qui déclenche une action",
+      "explication": "Au-dessus ou en dessous, l’action change."
+    },
+    {
+      "consigne": "Pour que le ventilateur tourne plus longtemps, on modifie :",
+      "options": [
+        "la durée dans le programme",
+        "la couleur du boitier",
+        "le capteur de lumière"
+      ],
+      "reponse": "la durée dans le programme",
+      "explication": "C’est un paramètre."
+    },
+    {
+      "consigne": "Quand on teste une modification, on change :",
+      "options": [
+        "une seule valeur à la fois",
+        "tout le programme",
+        "tous les paramètres ensemble"
+      ],
+      "reponse": "une seule valeur à la fois",
+      "explication": "Pour identifier l’effet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 14,
+      "extrait": "Modifier les paramètres d’un programme",
+      "appui": "Modifier un programme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
