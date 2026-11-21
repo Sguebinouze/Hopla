@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C3-CM1-NUM-03",
+  "duree": 6,
+  "essentiel": "Le nombre qui a le plus de chiffres est le plus grand.\nS’ils ont autant de chiffres, on compare de gauche à droite.\n45 280 < 45 820 : mêmes milliers, puis 2 centaines contre 8.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux grands nombres",
+          "etapes": [
+            "Compte les chiffres de chaque nombre.",
+            "S’ils en ont autant, compare le premier chiffre à gauche.",
+            "S’il est égal, passe au chiffre suivant."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 98 765 > 102 000, car 9 > 1.",
+          "correction": "102 000 a six chiffres, 98 765 en a cinq. Donc 98 765 < 102 000."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre 504 300 et 540 300 ?",
+          "options": [
+            "<",
+            ">",
+            "="
+          ],
+          "reponse": "<",
+          "explication": "Mêmes centaines de mille, puis 0 dizaine de mille contre 4."
+        }
+      ]
+    },
+    {
+      "titre": "Encadrer et intercaler",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Placer un nombre entre deux autres.",
+          "exemples": [
+            "Entre deux milliers : 47 000 < 47 650 < 48 000.",
+            "Entre deux dizaines de mille : 40 000 < 47 650 < 50 000.",
+            "Un nombre entre 39 998 et 40 001 : 39 999 ou 40 000."
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Range du plus petit au plus grand.",
+      "options": [
+        "7 210 < 70 210 < 72 010",
+        "70 210 < 7 210 < 72 010",
+        "72 010 < 70 210 < 7 210"
+      ],
+      "reponse": "7 210 < 70 210 < 72 010",
+      "explication": "7 210 n’a que quatre chiffres."
+    },
+    {
+      "consigne": "Encadre 365 820 entre deux centaines de mille.",
+      "options": [
+        "300 000 et 400 000",
+        "360 000 et 370 000",
+        "365 000 et 366 000"
+      ],
+      "reponse": "300 000 et 400 000",
+      "explication": "Le chiffre des centaines de mille est 3."
+    },
+    {
+      "consigne": "Quel nombre est entre 99 990 et 100 000 ?",
+      "options": [
+        "99 995",
+        "100 005",
+        "99 985"
+      ],
+      "reponse": "99 995",
+      "explication": "99 990 < 99 995 < 100 000."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 5,
+      "extrait": "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >",
+      "appui": "Comparer, encadrer, intercaler"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

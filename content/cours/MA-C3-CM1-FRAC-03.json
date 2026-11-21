@@ -1,0 +1,109 @@
+{
+  "competence": "MA-C3-CM1-FRAC-03",
+  "duree": 6,
+  "essentiel": "Pour additionner des fractions de même dénominateur, on additionne les numérateurs.\nOn garde le dénominateur : 3/7 + 2/7 = 5/7.\nPour soustraire, on soustrait les numérateurs : 9/10 − 4/10 = 5/10.",
+  "parties": [
+    {
+      "titre": "Additionner",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 7,
+                "coloriees": 3,
+                "nom": "3/7"
+              },
+              {
+                "parts": 7,
+                "coloriees": 2,
+                "nom": "2/7"
+              },
+              {
+                "parts": 7,
+                "coloriees": 5,
+                "nom": "5/7"
+              }
+            ]
+          },
+          "legende": "3 septièmes plus 2 septièmes : 5 septièmes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On additionne aussi les dénominateurs : 3/7 + 2/7 = 5/14.",
+          "correction": "On compte toujours des septièmes : 5/7."
+        },
+        {
+          "type": "question",
+          "consigne": "2/9 + 5/9 = ?",
+          "options": [
+            "7/9",
+            "7/18",
+            "10/9"
+          ],
+          "reponse": "7/9",
+          "explication": "2 + 5 = 7 neuvièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Au-delà de 1",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 5/6 + 4/6.",
+          "etapes": [
+            "5 + 4 = 9 : on obtient 9/6.",
+            "9/6 = 6/6 + 3/6 = 1 + 3/6."
+          ],
+          "conclusion": "5/6 + 4/6 = 9/6, soit 1 + 3/6."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "11/12 − 7/12 = ?",
+      "options": [
+        "4/12",
+        "4/0",
+        "18/12"
+      ],
+      "reponse": "4/12",
+      "explication": "11 − 7 = 4 douzièmes."
+    },
+    {
+      "consigne": "3/5 + 4/5 = ?",
+      "options": [
+        "7/5",
+        "7/10",
+        "12/5"
+      ],
+      "reponse": "7/5",
+      "explication": "3 + 4 = 7 cinquièmes."
+    },
+    {
+      "consigne": "1 − 3/8 = ?",
+      "options": [
+        "5/8",
+        "2/8",
+        "3/8"
+      ],
+      "reponse": "5/8",
+      "explication": "1 = 8/8, et 8 − 3 = 5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Additionner et soustraire des fractions",
+      "appui": "Additionner et soustraire des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

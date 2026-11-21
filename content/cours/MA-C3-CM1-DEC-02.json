@@ -1,0 +1,113 @@
+{
+  "competence": "MA-C3-CM1-DEC-02",
+  "duree": 6,
+  "essentiel": "On compare d’abord les parties entières.\nSi elles sont égales, on compare les dixièmes, puis les centièmes.\n3,7 > 3,65 : 7 dixièmes contre 6 dixièmes.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "3,7 ou 3,65 ?",
+          "colonnes": [
+            "Nombre",
+            "unités",
+            "dixièmes",
+            "centièmes"
+          ],
+          "lignes": [
+            [
+              "3,7",
+              "3",
+              "7",
+              "0"
+            ],
+            [
+              "3,65",
+              "3",
+              "6",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 3,65 > 3,7, car 65 > 7.",
+          "correction": "Écris 3,70 : 70 centièmes contre 65 centièmes. Donc 3,7 > 3,65."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre 12,08 et 12,8 ?",
+          "options": [
+            "<",
+            ">",
+            "="
+          ],
+          "reponse": "<",
+          "explication": "0 dixième contre 8 dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger et intercaler",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range dans l’ordre croissant : 2,5 ; 2,05 ; 2,45.",
+          "etapes": [
+            "Même partie entière : 2.",
+            "Dixièmes : 5, 0 et 4."
+          ],
+          "conclusion": "2,05 < 2,45 < 2,5."
+        },
+        {
+          "type": "explique",
+          "texte": "Entre 4,3 et 4,4, on trouve 4,35 : on passe aux centièmes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est le plus grand nombre ?",
+      "options": [
+        "0,9",
+        "0,85",
+        "0,19"
+      ],
+      "reponse": "0,9",
+      "explication": "9 dixièmes, c’est le plus de dixièmes."
+    },
+    {
+      "consigne": "Un nombre entre 7,1 et 7,2 :",
+      "options": [
+        "7,15",
+        "7,25",
+        "7,05"
+      ],
+      "reponse": "7,15",
+      "explication": "7,10 < 7,15 < 7,20."
+    },
+    {
+      "consigne": "Range dans l’ordre décroissant : 1,4 ; 1,04 ; 1,44.",
+      "options": [
+        "1,44 > 1,4 > 1,04",
+        "1,04 > 1,4 > 1,44",
+        "1,4 > 1,44 > 1,04"
+      ],
+      "reponse": "1,44 > 1,4 > 1,04",
+      "explication": "1,44 = 144 centièmes, 1,4 = 140, 1,04 = 104."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Comparer, encadrer, intercaler, ordonner, par ordre croissant ou décroissant, des nombres décimaux donnés par leur écriture à",
+      "appui": "Comparer et ranger des décimaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

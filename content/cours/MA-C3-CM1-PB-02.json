@@ -1,0 +1,93 @@
+{
+  "competence": "MA-C3-CM1-PB-02",
+  "duree": 6,
+  "essentiel": "« 3 fois plus » : on multiplie. Léa a 4 billes, Tom 3 fois plus : 12 billes.\n« 3 fois moins » : on divise. 12 ÷ 3 = 4.\n« Combien de fois » : on cherche le facteur. 12 = 4 × 3, donc 3 fois.",
+  "parties": [
+    {
+      "titre": "Fois plus, fois moins",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un pull coûte 30 €. Un manteau coûte 4 fois plus. Quel est le prix du manteau ?",
+          "etapes": [
+            "« 4 fois plus » : on multiplie par 4.",
+            "30 × 4 = 120."
+          ],
+          "conclusion": "Le manteau coûte 120 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « 3 fois plus » et « 3 de plus ».",
+          "correction": "4 et 3 de plus : 7. 4 et 3 fois plus : 12."
+        }
+      ]
+    },
+    {
+      "titre": "Combien de fois ?",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une baguette coûte 1 €, un gâteau 6 €. Combien de fois plus cher est le gâteau ?",
+          "etapes": [
+            "Je cherche 1 × ? = 6."
+          ],
+          "conclusion": "Le gâteau est 6 fois plus cher."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de fois 7 dans 56 ?",
+          "options": [
+            "8",
+            "49",
+            "63"
+          ],
+          "reponse": "8",
+          "explication": "7 × 8 = 56."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un chat pèse 5 kg, un chien 6 fois plus. Combien pèse le chien ?",
+      "options": [
+        "30 kg",
+        "11 kg",
+        "1 kg"
+      ],
+      "reponse": "30 kg",
+      "explication": "5 × 6 = 30."
+    },
+    {
+      "consigne": "Une tour mesure 80 m, une maison 10 fois moins. La maison mesure :",
+      "options": [
+        "8 m",
+        "70 m",
+        "800 m"
+      ],
+      "reponse": "8 m",
+      "explication": "80 ÷ 10 = 8."
+    },
+    {
+      "consigne": "Ali a 9 ans, son père 36 ans. Combien de fois plus âgé est le père ?",
+      "options": [
+        "4",
+        "27",
+        "45"
+      ],
+      "reponse": "4",
+      "explication": "9 × 4 = 36."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 8,
+      "extrait": "Résoudre des problèmes de comparaison multiplicative",
+      "appui": "Comparaison multiplicative"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

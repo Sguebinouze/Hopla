@@ -1,0 +1,125 @@
+{
+  "competence": "MA-C3-CM1-DEC-03",
+  "duree": 5,
+  "essentiel": "La partie entière de 8,73 est 8.\nL’arrondi à l’unité est l’entier le plus proche : l’arrondi de 8,73 est 9.\nSi le chiffre des dixièmes est 5 ou plus, on arrondit à l’entier du dessus.",
+  "parties": [
+    {
+      "titre": "Partie entière et arrondi",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Arrondi",
+              "definition": "Valeur la plus proche du nombre, avec la précision demandée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemples",
+          "colonnes": [
+            "Nombre",
+            "Partie entière",
+            "Arrondi à l’unité"
+          ],
+          "lignes": [
+            [
+              "8,73",
+              "8",
+              "9"
+            ],
+            [
+              "12,4",
+              "12",
+              "12"
+            ],
+            [
+              "5,5",
+              "5",
+              "6"
+            ],
+            [
+              "0,38",
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est l’arrondi de 14,6 ?",
+          "options": [
+            "15",
+            "14",
+            "14,6"
+          ],
+          "reponse": "15",
+          "explication": "6 dixièmes : on passe au-dessus."
+        }
+      ]
+    },
+    {
+      "titre": "Regarder les dixièmes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour arrondir à l’unité",
+          "etapes": [
+            "Lis le chiffre des dixièmes.",
+            "De 0 à 4 : garde la partie entière.",
+            "De 5 à 9 : ajoute 1 à la partie entière."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’arrondi de 6,49 est 7.",
+          "correction": "Le chiffre des dixièmes est 4 : l’arrondi est 6."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle est la partie entière de 9,99 ?",
+      "options": [
+        "9",
+        "10",
+        "99"
+      ],
+      "reponse": "9",
+      "explication": "On lit ce qui est avant la virgule."
+    },
+    {
+      "consigne": "Quel est l’arrondi de 3,25 ?",
+      "options": [
+        "3",
+        "4",
+        "3,3"
+      ],
+      "reponse": "3",
+      "explication": "2 dixièmes : on garde 3."
+    },
+    {
+      "consigne": "Quel est l’arrondi de 19,5 ?",
+      "options": [
+        "20",
+        "19",
+        "19,5"
+      ],
+      "reponse": "20",
+      "explication": "5 dixièmes : on passe à 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Savoir donner la partie entière et l’arrondi à l’entier d’un nombre décimal",
+      "appui": "Partie entière et arrondi"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

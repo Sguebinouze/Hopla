@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C3-CM1-ALG-01",
+  "duree": 5,
+  "essentiel": "Une égalité à trous cache un nombre : 25 + … = 63.\nPour le trouver, on utilise l’opération inverse : 63 − 25 = 38.\nLes deux membres d’une égalité ont toujours la même valeur.",
+  "parties": [
+    {
+      "titre": "L’opération inverse",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Chaque trou se trouve avec l’opération inverse.",
+          "exemples": [
+            "25 + … = 63 : 63 − 25 = 38",
+            "… − 17 = 30 : 30 + 17 = 47",
+            "7 × … = 56 : 56 ÷ 7 = 8"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "6 × … = 42 ?",
+          "options": [
+            "7",
+            "36",
+            "48"
+          ],
+          "reponse": "7",
+          "explication": "42 ÷ 6 = 7."
+        }
+      ]
+    },
+    {
+      "titre": "Un calcul de chaque côté",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Complète : 12 + 8 = … + 15.",
+          "etapes": [
+            "Le membre de gauche vaut 20.",
+            "… + 15 = 20, donc … = 5."
+          ],
+          "conclusion": "12 + 8 = 5 + 15."
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour 12 + 8 = … + 15, on écrit 20.",
+          "correction": "Le trou n’est pas le résultat. Les deux côtés valent 20 : le trou vaut 5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "… − 17 = 30 ?",
+      "options": [
+        "47",
+        "13",
+        "30"
+      ],
+      "reponse": "47",
+      "explication": "30 + 17 = 47."
+    },
+    {
+      "consigne": "40 + 5 = 30 + … ?",
+      "options": [
+        "15",
+        "45",
+        "5"
+      ],
+      "reponse": "15",
+      "explication": "Les deux côtés valent 45."
+    },
+    {
+      "consigne": "… × 9 = 72 ?",
+      "options": [
+        "8",
+        "63",
+        "81"
+      ],
+      "reponse": "8",
+      "explication": "72 ÷ 9 = 8."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 9,
+      "extrait": "Trouver le nombre manquant dans une égalité à trous",
+      "appui": "Égalités à trous"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,108 @@
+{
+  "competence": "MA-C3-CM1-NUM-01",
+  "duree": 7,
+  "essentiel": "Un grand nombre se lit par classes de trois chiffres : les mille, puis les unités.\nDans 482 615, le chiffre 8 vaut 8 dizaines de mille, soit 80 000.\n1 centaine de mille = 10 dizaines de mille = 100 000 unités.",
+  "parties": [
+    {
+      "titre": "Le tableau de numération",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le nombre 482 615, classe par classe",
+          "colonnes": [
+            "Classe",
+            "centaines",
+            "dizaines",
+            "unités"
+          ],
+          "lignes": [
+            [
+              "des mille",
+              "4",
+              "8",
+              "2"
+            ],
+            [
+              "des unités",
+              "6",
+              "1",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "482 615 = 400 000 + 80 000 + 2 000 + 600 + 10 + 5."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 735 209, que vaut le chiffre 3 ?",
+          "options": [
+            "30 000",
+            "3 000",
+            "300"
+          ],
+          "reponse": "30 000",
+          "explication": "Le 3 est au rang des dizaines de mille."
+        }
+      ]
+    },
+    {
+      "titre": "Chiffre de ou nombre de ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans 482 615, le chiffre des centaines est 6. Le nombre de centaines est 4 826 : on lit tout ce qui est à gauche, centaines comprises."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond le chiffre des centaines et le nombre de centaines.",
+          "correction": "Le chiffre est un seul chiffre. Le nombre compte toutes les centaines : 4 826."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de dizaines de mille dans 100 000 ?",
+      "options": [
+        "10",
+        "100",
+        "1 000"
+      ],
+      "reponse": "10",
+      "explication": "10 × 10 000 = 100 000."
+    },
+    {
+      "consigne": "Quel est le nombre de milliers dans 56 700 ?",
+      "options": [
+        "56",
+        "6",
+        "567"
+      ],
+      "reponse": "56",
+      "explication": "On lit tout ce qui est à gauche du rang des milliers, lui compris."
+    },
+    {
+      "consigne": "300 000 + 4 000 + 50 + 2 = ?",
+      "options": [
+        "304 052",
+        "340 052",
+        "300 452"
+      ],
+      "reponse": "304 052",
+      "explication": "3 centaines de mille, 4 unités de mille, 5 dizaines, 2 unités."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 5,
+      "extrait": "Connaître la valeur des chiffres en fonction de leur position dans un nombre",
+      "appui": "Valeur des chiffres selon leur position"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

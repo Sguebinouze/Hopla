@@ -1,0 +1,106 @@
+{
+  "competence": "MA-C3-CM1-CALC-01",
+  "duree": 6,
+  "essentiel": "Ajouter 29, c’est ajouter 30 puis retirer 1.\nMultiplier par 4, c’est doubler deux fois.\nMultiplier par 5, c’est multiplier par 10 puis prendre la moitié.",
+  "parties": [
+    {
+      "titre": "Ajouter ou retirer 9, 19, 29…",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "On arrondit à la dizaine, puis on corrige.",
+          "exemples": [
+            "147 + 29 = 147 + 30 − 1 = 176",
+            "85 − 19 = 85 − 20 + 1 = 66",
+            "63 + 38 = 63 + 40 − 2 = 101"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour 85 − 19, on retire 20 puis encore 1.",
+          "correction": "On a retiré 1 de trop : on rajoute 1. 85 − 19 = 66."
+        },
+        {
+          "type": "question",
+          "consigne": "64 + 38 = ?",
+          "options": [
+            "102",
+            "101",
+            "92"
+          ],
+          "reponse": "102",
+          "explication": "64 + 40 = 104, puis 104 − 2 = 102."
+        }
+      ]
+    },
+    {
+      "titre": "Multiplier par 4, 5, 8",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des chemins plus courts.",
+          "exemples": [
+            "23 × 4 : 23 × 2 = 46, puis 46 × 2 = 92",
+            "36 × 5 : 36 × 10 = 360, puis 360 ÷ 2 = 180",
+            "7 × 8 : 14, 28, 56 (trois doubles)",
+            "6 × 300 = 6 × 3 × 100 = 1 800"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "18 × 5 = ?",
+          "options": [
+            "90",
+            "85",
+            "180"
+          ],
+          "reponse": "90",
+          "explication": "18 × 10 = 180, puis la moitié : 90."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "125 − 39 = ?",
+      "options": [
+        "86",
+        "84",
+        "96"
+      ],
+      "reponse": "86",
+      "explication": "125 − 40 = 85, puis 85 + 1 = 86."
+    },
+    {
+      "consigne": "4 × 700 = ?",
+      "options": [
+        "2 800",
+        "280",
+        "28 000"
+      ],
+      "reponse": "2 800",
+      "explication": "4 × 7 = 28, puis × 100."
+    },
+    {
+      "consigne": "15 × 4 = ?",
+      "options": [
+        "60",
+        "19",
+        "45"
+      ],
+      "reponse": "60",
+      "explication": "15 × 2 = 30, puis 30 × 2 = 60."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 7,
+      "extrait": "Ajouter ou soustraire 8, 9, 18, 19, 28, 29, 38 ou 39, à un nombre",
+      "appui": "Procédures de calcul mental"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

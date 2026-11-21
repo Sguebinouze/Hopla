@@ -1,0 +1,85 @@
+{
+  "competence": "MA-C3-CM1-PB-01",
+  "duree": 7,
+  "essentiel": "Un problème peut demander deux ou trois calculs.\nChaque calcul donne un résultat intermédiaire utile pour la suite.\nÀ la fin, on vérifie qu’on répond bien à la question posée.",
+  "parties": [
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Léo achète 3 cahiers à 2,50 € et une trousse à 8 €. Il paie avec 20 €. Combien lui rend-on ?",
+          "etapes": [
+            "Les cahiers : 3 × 2,50 = 7,50 €.",
+            "Le total : 7,50 + 8 = 15,50 €.",
+            "La monnaie : 20 − 15,50 = 4,50 €."
+          ],
+          "conclusion": "On lui rend 4,50 €."
+        }
+      ]
+    },
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour un problème en plusieurs étapes",
+          "etapes": [
+            "Lis tout l’énoncé, puis la question.",
+            "Cherche ce qu’il faut savoir avant de répondre.",
+            "Calcule chaque étape et écris ce qu’elle donne.",
+            "Réponds par une phrase."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne le résultat d’une étape intermédiaire.",
+          "correction": "Relis la question : 15,50 € est le prix, pas la monnaie rendue."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un car transporte 48 élèves. 15 descendent, puis 9 montent. Combien d’élèves ?",
+      "options": [
+        "42",
+        "72",
+        "24"
+      ],
+      "reponse": "42",
+      "explication": "48 − 15 = 33, puis 33 + 9 = 42."
+    },
+    {
+      "consigne": "4 places à 7 € et 2 boissons à 3 €. Quel est le total ?",
+      "options": [
+        "34 €",
+        "14 €",
+        "40 €"
+      ],
+      "reponse": "34 €",
+      "explication": "28 + 6 = 34."
+    },
+    {
+      "consigne": "Une classe a 120 € et achète 5 livres à 18 €. Que reste-t-il ?",
+      "options": [
+        "30 €",
+        "90 €",
+        "102 €"
+      ],
+      "reponse": "30 €",
+      "explication": "5 × 18 = 90, puis 120 − 90 = 30."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 8,
+      "extrait": "Résoudre des problèmes mixtes en deux ou trois étapes",
+      "appui": "Problèmes en plusieurs étapes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

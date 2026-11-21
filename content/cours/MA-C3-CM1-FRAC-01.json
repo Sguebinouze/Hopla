@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C3-CM1-FRAC-01",
+  "duree": 7,
+  "essentiel": "Une fraction est plus grande que 1 quand son numérateur dépasse son dénominateur.\n7/4 = 4/4 + 3/4 = 1 + 3/4.\n7/4 est donc entre 1 et 2.",
+  "parties": [
+    {
+      "titre": "Plus d’une unité",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Numérateur",
+              "definition": "Nombre écrit au-dessus du trait de fraction."
+            },
+            {
+              "mot": "Dénominateur",
+              "definition": "Nombre écrit sous le trait de fraction. Il ne peut pas être égal à 0."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 4,
+                "coloriees": 4,
+                "nom": "4/4"
+              },
+              {
+                "parts": 4,
+                "coloriees": 3,
+                "nom": "3/4"
+              }
+            ]
+          },
+          "legende": "7/4, c’est 4 quarts et encore 3 quarts : 1 + 3/4."
+        },
+        {
+          "type": "question",
+          "consigne": "5/3 est :",
+          "options": [
+            "plus grand que 1",
+            "plus petit que 1",
+            "égal à 1"
+          ],
+          "reponse": "plus grand que 1",
+          "explication": "5 dépasse 3."
+        }
+      ]
+    },
+    {
+      "titre": "Décomposer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 17/5 comme un entier plus une fraction plus petite que 1.",
+          "etapes": [
+            "Dans 17, il y a 3 fois 5, soit 15, et il reste 2.",
+            "17/5 = 15/5 + 2/5 = 3 + 2/5."
+          ],
+          "conclusion": "17/5 = 3 + 2/5. Elle est entre 3 et 4."
+        },
+        {
+          "type": "explique",
+          "texte": "Dans l’autre sens : 2 + 1/3 = 6/3 + 1/3 = 7/3."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit 7/4 comme 7 + 4.",
+          "correction": "7/4 veut dire 7 quarts : 1 + 3/4."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "9/2 = ?",
+      "options": [
+        "4 + 1/2",
+        "9 + 2",
+        "2 + 1/9"
+      ],
+      "reponse": "4 + 1/2",
+      "explication": "9 demis : 8 demis font 4, il reste 1/2."
+    },
+    {
+      "consigne": "Entre quels entiers se trouve 11/3 ?",
+      "options": [
+        "3 et 4",
+        "11 et 12",
+        "1 et 2"
+      ],
+      "reponse": "3 et 4",
+      "explication": "11/3 = 3 + 2/3."
+    },
+    {
+      "consigne": "1 + 2/5 = ?",
+      "options": [
+        "7/5",
+        "3/5",
+        "12/5"
+      ],
+      "reponse": "7/5",
+      "explication": "1 = 5/5, et 5/5 + 2/5 = 7/5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Savoir écrire une fraction supérieure à 1 comme la somme d’un entier et d’une fraction inférieure à 1",
+      "appui": "Fractions supérieures à 1"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

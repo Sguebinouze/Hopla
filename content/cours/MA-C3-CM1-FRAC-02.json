@@ -1,0 +1,114 @@
+{
+  "competence": "MA-C3-CM1-FRAC-02",
+  "duree": 6,
+  "essentiel": "Même dénominateur : la plus grande fraction a le plus grand numérateur. 5/8 > 3/8.\nMême numérateur : la plus grande a le plus petit dénominateur. 2/3 > 2/5.\n7/6 > 1, car 7 > 6.",
+  "parties": [
+    {
+      "titre": "Même dénominateur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 8,
+                "coloriees": 5,
+                "nom": "5/8"
+              },
+              {
+                "parts": 8,
+                "coloriees": 3,
+                "nom": "3/8"
+              }
+            ]
+          },
+          "legende": "5 huitièmes contre 3 huitièmes : 5/8 > 3/8."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle fraction est la plus grande ?",
+          "options": [
+            "7/10",
+            "3/10",
+            "5/10"
+          ],
+          "reponse": "7/10",
+          "explication": "Même dénominateur : 7 est le plus grand numérateur."
+        }
+      ]
+    },
+    {
+      "titre": "Même numérateur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 3,
+                "coloriees": 2,
+                "nom": "2/3"
+              },
+              {
+                "parts": 5,
+                "coloriees": 2,
+                "nom": "2/5"
+              }
+            ]
+          },
+          "legende": "Les tiers sont plus grands que les cinquièmes : 2/3 > 2/5."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1/5 > 1/3, car 5 > 3.",
+          "correction": "Plus on partage, plus les parts sont petites : 1/5 < 1/3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe entre 3/4 et 3/8 ?",
+      "options": [
+        ">",
+        "<",
+        "="
+      ],
+      "reponse": ">",
+      "explication": "Les quarts sont plus grands que les huitièmes."
+    },
+    {
+      "consigne": "Quelle fraction est plus petite que 1 ?",
+      "options": [
+        "5/6",
+        "6/5",
+        "9/4"
+      ],
+      "reponse": "5/6",
+      "explication": "Son numérateur est plus petit que son dénominateur."
+    },
+    {
+      "consigne": "Range du plus petit au plus grand : 2/9, 7/9, 4/9.",
+      "options": [
+        "2/9 < 4/9 < 7/9",
+        "7/9 < 4/9 < 2/9",
+        "4/9 < 2/9 < 7/9"
+      ],
+      "reponse": "2/9 < 4/9 < 7/9",
+      "explication": "Même dénominateur : on range les numérateurs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Comparer des fractions",
+      "appui": "Comparer des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

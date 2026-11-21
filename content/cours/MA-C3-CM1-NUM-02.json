@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C3-CM1-NUM-02",
+  "duree": 7,
+  "essentiel": "On relie tous les mots d’un nombre par des traits d’union.\nMille ne prend jamais de s.\nCent et vingt prennent un s s’ils sont multipliés et terminent le nombre : deux-cents, quatre-vingts.",
+  "parties": [
+    {
+      "titre": "Écrire en lettres",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris 245 380 en lettres.",
+          "etapes": [
+            "Je lis la classe des mille : 245, deux-cent-quarante-cinq-mille.",
+            "Je lis la classe des unités : 380, trois-cent-quatre-vingts."
+          ],
+          "conclusion": "deux-cent-quarante-cinq-mille-trois-cent-quatre-vingts"
+        },
+        {
+          "type": "question",
+          "consigne": "Comment écrit-on 80 ?",
+          "options": [
+            "quatre-vingts",
+            "quatre-vingt",
+            "quatres-vingts"
+          ],
+          "reponse": "quatre-vingts",
+          "explication": "Vingt est multiplié par 4 et termine le nombre : il prend un s."
+        }
+      ]
+    },
+    {
+      "titre": "Le s de cent et de vingt",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avec ou sans s",
+          "colonnes": [
+            "Avec s",
+            "Sans s"
+          ],
+          "lignes": [
+            [
+              "deux-cents (200)",
+              "deux-cent-un (201)"
+            ],
+            [
+              "quatre-vingts (80)",
+              "quatre-vingt-trois (83)"
+            ],
+            [
+              "six-cents (600)",
+              "six-cent-mille (600 000)"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit trois-cents-mille.",
+          "correction": "Devant mille, cent reste sans s : trois-cent-mille."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1 000 s’écrit :",
+      "options": [
+        "mille",
+        "milles",
+        "un-mille"
+      ],
+      "reponse": "mille",
+      "explication": "Mille est invariable."
+    },
+    {
+      "consigne": "700 s’écrit :",
+      "options": [
+        "sept-cents",
+        "sept-cent",
+        "septs-cents"
+      ],
+      "reponse": "sept-cents",
+      "explication": "Cent est multiplié et termine le nombre."
+    },
+    {
+      "consigne": "Quel nombre s’écrit soixante-douze-mille-quatre ?",
+      "options": [
+        "72 004",
+        "72 400",
+        "720 004"
+      ],
+      "reponse": "72 004",
+      "explication": "72 mille et 4 unités."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 5,
+      "extrait": "Connaître la suite écrite et la suite orale des nombres jusqu’à 999 999",
+      "appui": "Écrire les nombres en lettres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

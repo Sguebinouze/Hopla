@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C3-CM1-OPE-02",
+  "duree": 8,
+  "essentiel": "On multiplie par les unités, puis par les dizaines en décalant d’un rang.\nOn additionne les produits partiels.\nPour un décimal, on calcule sans la virgule, puis on la replace.",
+  "parties": [
+    {
+      "titre": "Deux entiers",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 236 × 14.",
+          "etapes": [
+            "236 × 4 = 944.",
+            "236 × 10 = 2 360 : c’est la ligne décalée.",
+            "944 + 2 360 = 3 304."
+          ],
+          "conclusion": "236 × 14 = 3 304."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le zéro de décalage sur la deuxième ligne.",
+          "correction": "Le 1 de 14 vaut 1 dizaine : on multiplie par 10."
+        },
+        {
+          "type": "question",
+          "consigne": "45 × 12 = ?",
+          "options": [
+            "540",
+            "450",
+            "135"
+          ],
+          "reponse": "540",
+          "explication": "45 × 2 = 90 et 45 × 10 = 450. 90 + 450 = 540."
+        }
+      ]
+    },
+    {
+      "titre": "Un décimal par un entier",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 3,25 × 6.",
+          "etapes": [
+            "Sans la virgule : 325 × 6 = 1 950.",
+            "3,25 a deux chiffres après la virgule : le résultat aussi."
+          ],
+          "conclusion": "3,25 × 6 = 19,50, soit 19,5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1,4 × 3 = ?",
+      "options": [
+        "4,2",
+        "42",
+        "0,42"
+      ],
+      "reponse": "4,2",
+      "explication": "14 × 3 = 42, avec un chiffre après la virgule."
+    },
+    {
+      "consigne": "312 × 20 = ?",
+      "options": [
+        "6 240",
+        "624",
+        "6 024"
+      ],
+      "reponse": "6 240",
+      "explication": "312 × 2 = 624, puis × 10."
+    },
+    {
+      "consigne": "125 × 8 = ?",
+      "options": [
+        "1 000",
+        "800",
+        "1 250"
+      ],
+      "reponse": "1 000",
+      "explication": "125 × 8 = 1 000."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 7,
+      "extrait": "Poser et effectuer des multiplications de deux nombres entiers",
+      "appui": "Poser une multiplication"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

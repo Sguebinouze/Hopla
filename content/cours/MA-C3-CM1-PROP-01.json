@@ -1,0 +1,98 @@
+{
+  "competence": "MA-C3-CM1-PROP-01",
+  "duree": 7,
+  "essentiel": "Deux quantités sont proportionnelles si l’une s’obtient toujours en multipliant l’autre par le même nombre.\nSi 3 cahiers coûtent 6 €, 6 cahiers coûtent 2 fois plus : 12 €.\n9 cahiers = 3 cahiers + 6 cahiers, donc 6 € + 12 € = 18 €.",
+  "parties": [
+    {
+      "titre": "Fois plus, fois moins",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "4 croissants coûtent 5 €. Combien coûtent 12 croissants ?",
+          "etapes": [
+            "12, c’est 3 fois 4.",
+            "Le prix aussi est multiplié par 3 : 5 × 3 = 15."
+          ],
+          "conclusion": "12 croissants coûtent 15 €."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Pour 6 personnes, il faut 300 g de farine. Combien pour 2 personnes ?",
+          "etapes": [
+            "2, c’est 3 fois moins que 6.",
+            "300 ÷ 3 = 100."
+          ],
+          "conclusion": "Il faut 100 g de farine."
+        }
+      ]
+    },
+    {
+      "titre": "Additionner des quantités",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On peut aussi décomposer : 5 kg = 2 kg + 3 kg. Le prix de 5 kg est la somme des deux prix."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute au lieu de multiplier : 4 devient 12, donc 5 € devient 13 €.",
+          "correction": "12 est 3 fois 4 : le prix est aussi multiplié par 3."
+        },
+        {
+          "type": "question",
+          "consigne": "2 kg de pommes coûtent 6 €. Combien coûtent 6 kg ?",
+          "options": [
+            "18 €",
+            "10 €",
+            "12 €"
+          ],
+          "reponse": "18 €",
+          "explication": "6 kg, c’est 3 fois 2 kg : 6 × 3 = 18."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "5 stylos coûtent 4 €. Combien coûtent 15 stylos ?",
+      "options": [
+        "12 €",
+        "14 €",
+        "8 €"
+      ],
+      "reponse": "12 €",
+      "explication": "15 = 3 × 5, donc 4 × 3 = 12."
+    },
+    {
+      "consigne": "En 2 h, un randonneur fait 8 km. En 5 h, à la même allure ?",
+      "options": [
+        "20 km",
+        "11 km",
+        "16 km"
+      ],
+      "reponse": "20 km",
+      "explication": "4 h : 16 km, 1 h : 4 km, donc 5 h : 20 km."
+    },
+    {
+      "consigne": "3 places coûtent 21 €. Combien coûte 1 place ?",
+      "options": [
+        "7 €",
+        "18 €",
+        "63 €"
+      ],
+      "reponse": "7 €",
+      "explication": "21 ÷ 3 = 7."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 26,
+      "extrait": "Savoir résoudre un problème de proportionnalité",
+      "appui": "Proportionnalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C3-CM1-OPE-01",
+  "duree": 7,
+  "essentiel": "On aligne les virgules les unes sous les autres.\nOn complète avec des zéros si besoin : 12,5 = 12,50.\nOn calcule comme avec des entiers, puis on place la virgule du résultat.",
+  "parties": [
+    {
+      "titre": "Addition",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 12,5 + 7,86.",
+          "etapes": [
+            "J’écris 12,50 au-dessus de 7,86, virgule sous virgule.",
+            "Centièmes : 0 + 6 = 6. Dixièmes : 5 + 8 = 13, je pose 3 et je retiens 1.",
+            "Unités : 2 + 7 + 1 = 10, je pose 0 et je retiens 1. Dizaines : 1 + 1 = 2."
+          ],
+          "conclusion": "12,5 + 7,86 = 20,36."
+        },
+        {
+          "type": "piege",
+          "erreur": "On aligne les derniers chiffres au lieu des virgules.",
+          "correction": "Virgule sous virgule : les dixièmes restent sous les dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Soustraction",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 15 − 3,45.",
+          "etapes": [
+            "J’écris 15,00 au-dessus de 3,45.",
+            "Je soustrais rang par rang, avec les retenues."
+          ],
+          "conclusion": "15 − 3,45 = 11,55."
+        },
+        {
+          "type": "question",
+          "consigne": "10 − 2,4 = ?",
+          "options": [
+            "7,6",
+            "8,4",
+            "7,4"
+          ],
+          "reponse": "7,6",
+          "explication": "10,0 − 2,4 = 7,6."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "4,7 + 2,15 = ?",
+      "options": [
+        "6,85",
+        "6,22",
+        "2,62"
+      ],
+      "reponse": "6,85",
+      "explication": "4,70 + 2,15 = 6,85."
+    },
+    {
+      "consigne": "Avant de poser 9,3 + 1,25, on écrit 9,3 :",
+      "options": [
+        "9,30",
+        "93",
+        "9,03"
+      ],
+      "reponse": "9,30",
+      "explication": "Même nombre de chiffres après la virgule."
+    },
+    {
+      "consigne": "8,4 − 3,75 = ?",
+      "options": [
+        "4,65",
+        "5,35",
+        "4,75"
+      ],
+      "reponse": "4,65",
+      "explication": "8,40 − 3,75 = 4,65."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 7,
+      "extrait": "Poser en colonnes et effectuer des additions et des soustractions de nombres décimaux",
+      "appui": "Additionner et soustraire des décimaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

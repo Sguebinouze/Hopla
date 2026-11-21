@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C3-CM1-OPE-03",
+  "duree": 8,
+  "essentiel": "Dans 47 ÷ 5, 47 est le dividende et 5 le diviseur.\n47 = 5 × 9 + 2 : le quotient est 9 et le reste est 2.\nLe reste est toujours plus petit que le diviseur.",
+  "parties": [
+    {
+      "titre": "Le vocabulaire",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Dividende",
+              "definition": "Nombre que l’on divise."
+            },
+            {
+              "mot": "Diviseur",
+              "definition": "Nombre par lequel on divise."
+            },
+            {
+              "mot": "Quotient",
+              "definition": "Résultat d’une division. Dans la division euclidienne, c’est un nombre entier."
+            },
+            {
+              "mot": "Reste",
+              "definition": "Ce qui reste dans une division euclidienne. Il est toujours plus petit que le diviseur."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 36 = 5 × 7 + 1, quel est le reste ?",
+          "options": [
+            "1",
+            "7",
+            "5"
+          ],
+          "reponse": "1",
+          "explication": "Le reste est ce qui ne peut plus être partagé."
+        }
+      ]
+    },
+    {
+      "titre": "Poser la division",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 857 ÷ 4.",
+          "etapes": [
+            "Dans 8 centaines : 2 fois 4, soit 8. Reste 0.",
+            "J’abaisse 5 dizaines : 1 fois 4. Reste 1.",
+            "J’abaisse 7 : dans 17 unités, 4 fois 4, soit 16. Reste 1."
+          ],
+          "conclusion": "857 = 4 × 214 + 1. Le quotient est 214, le reste est 1."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour vérifier",
+          "etapes": [
+            "Calcule diviseur × quotient + reste.",
+            "Tu dois retrouver le dividende.",
+            "Vérifie que le reste est plus petit que le diviseur."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde un reste plus grand que le diviseur.",
+          "correction": "S’il reste 6 quand on divise par 5, on peut encore mettre 5 une fois."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "53 ÷ 6 : quotient et reste ?",
+      "options": [
+        "8, reste 5",
+        "9, reste 1",
+        "8, reste 6"
+      ],
+      "reponse": "8, reste 5",
+      "explication": "6 × 8 = 48 et 53 − 48 = 5."
+    },
+    {
+      "consigne": "Quel est le reste de 100 ÷ 7 ?",
+      "options": [
+        "2",
+        "3",
+        "14"
+      ],
+      "reponse": "2",
+      "explication": "7 × 14 = 98 et 100 − 98 = 2."
+    },
+    {
+      "consigne": "Quel est le quotient de 96 ÷ 3 ?",
+      "options": [
+        "32",
+        "33",
+        "31"
+      ],
+      "reponse": "32",
+      "explication": "3 × 32 = 96, le reste est 0."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 7,
+      "extrait": "Poser et effectuer des divisions euclidiennes avec un diviseur à un chiffre",
+      "appui": "Division euclidienne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
