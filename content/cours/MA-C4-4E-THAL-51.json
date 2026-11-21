@@ -1,0 +1,171 @@
+{
+  "competence": "MA-C4-4E-THAL-51",
+  "duree": 8,
+  "essentiel": "Dans un triangle ABC, M est sur [AB] et N sur [AC]. Si (MN) est parallèle à (BC), alors AM/AB = AN/AC = MN/BC.\nC’est le théorème de Thalès : il sert à calculer des longueurs.\nSa réciproque prouve un parallélisme : si AM/AB = AN/AC, alors (MN) et (BC) sont parallèles.",
+  "parties": [
+    {
+      "titre": "Calculer une longueur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 8,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    4,
+                    1
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    7,
+                    7
+                  ]
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  2.5,
+                  4
+                ],
+                "a": [
+                  5.5,
+                  4
+                ],
+                "accent": true
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4,
+                  1
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  7
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  7,
+                  7
+                ],
+                "nom": "C"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  2.5,
+                  4
+                ],
+                "nom": "M"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5.5,
+                  4
+                ],
+                "nom": "N"
+              }
+            ]
+          },
+          "legende": "(MN) est parallèle à (BC) : AM/AB = AN/AC = MN/BC."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "AM = 3 cm, AB = 6 cm, BC = 8 cm et (MN) // (BC). Calcule MN.",
+          "etapes": [
+            "Les droites (MN) et (BC) sont parallèles : on applique le théorème de Thalès.",
+            "AM/AB = MN/BC, soit 3/6 = MN/8.",
+            "MN = 8 × 3 ÷ 6 = 4."
+          ],
+          "conclusion": "MN = 4 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "Même figure : AN = 2,5 cm. AC = ?",
+          "options": [
+            "5 cm",
+            "1,25 cm",
+            "3 cm"
+          ],
+          "reponse": "5 cm",
+          "explication": "AN/AC = 3/6, donc AC = 2,5 × 6 ÷ 3."
+        }
+      ]
+    },
+    {
+      "titre": "La réciproque",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "AM = 2, AB = 5, AN = 3, AC = 7,5. AM/AB = 0,4 et AN/AC = 0,4. Les points sont dans le même ordre : (MN) // (BC)."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit AM/MB = MN/BC.",
+          "correction": "On compare les côtés des deux triangles AMN et ABC : AM/AB, pas AM/MB."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le théorème de Thalès s’applique si :",
+      "options": [
+        "(MN) est parallèle à (BC)",
+        "le triangle est rectangle",
+        "M est le milieu de [AB]"
+      ],
+      "reponse": "(MN) est parallèle à (BC)",
+      "explication": "C’est l’hypothèse du théorème."
+    },
+    {
+      "consigne": "AM/AB = 2/5 et BC = 10 cm, avec (MN) // (BC). MN = ?",
+      "options": [
+        "4 cm",
+        "25 cm",
+        "5 cm"
+      ],
+      "reponse": "4 cm",
+      "explication": "10 × 2 ÷ 5."
+    },
+    {
+      "consigne": "Pour prouver que deux droites sont parallèles, on utilise :",
+      "options": [
+        "la réciproque du théorème de Thalès",
+        "le théorème de Pythagore",
+        "la médiane"
+      ],
+      "reponse": "la réciproque du théorème de Thalès",
+      "explication": "On compare les quotients."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 10,
+      "extrait": "Le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés sont énoncés et utilisés",
+      "appui": "Thalès, triangles emboîtés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

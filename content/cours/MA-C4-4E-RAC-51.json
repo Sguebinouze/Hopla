@@ -1,0 +1,103 @@
+{
+  "competence": "MA-C4-4E-RAC-51",
+  "duree": 6,
+  "essentiel": "La racine carrée d’un nombre positif a est le nombre positif dont le carré vaut a : √81 = 9, car 9² = 81.\nLes carrés parfaits de 1 à 144 ont une racine entière.\nSinon, on encadre : √50 est compris entre 7 et 8, car 49 < 50 < 64.",
+  "parties": [
+    {
+      "titre": "Carrés parfaits",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Racines à connaitre",
+          "colonnes": [
+            "a",
+            "1 ; 4 ; 9 ; 16",
+            "25 ; 36 ; 49 ; 64",
+            "81 ; 100 ; 121 ; 144"
+          ],
+          "lignes": [
+            [
+              "√a",
+              "1 ; 2 ; 3 ; 4",
+              "5 ; 6 ; 7 ; 8",
+              "9 ; 10 ; 11 ; 12"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "√121 = ?",
+          "options": [
+            "11",
+            "60,5",
+            "12"
+          ],
+          "reponse": "11",
+          "explication": "11² = 121."
+        }
+      ]
+    },
+    {
+      "titre": "Encadrer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Entre quels entiers consécutifs se trouve √30 ?",
+          "etapes": [
+            "Les carrés autour de 30 sont 25 et 36.",
+            "25 < 30 < 36, donc 5 < √30 < 6."
+          ],
+          "conclusion": "√30 est compris entre 5 et 6."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que √50 = 25, la moitié de 50.",
+          "correction": "La racine carrée n’est pas la moitié : 25² = 625. √50 ≈ 7,07."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "√144 = ?",
+      "options": [
+        "12",
+        "72",
+        "14"
+      ],
+      "reponse": "12",
+      "explication": "12 × 12 = 144."
+    },
+    {
+      "consigne": "√70 est compris entre :",
+      "options": [
+        "8 et 9",
+        "7 et 8",
+        "35 et 36"
+      ],
+      "reponse": "8 et 9",
+      "explication": "64 < 70 < 81."
+    },
+    {
+      "consigne": "Un carré a une aire de 49 cm². Son côté mesure :",
+      "options": [
+        "7 cm",
+        "24,5 cm",
+        "12,25 cm"
+      ],
+      "reponse": "7 cm",
+      "explication": "√49 = 7."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "La racine carrée est introduite, en lien avec des situations géométriques (théorème de Pythagore, agrandissement des aires) et à l’appui de la connaissance des carrés parfaits de 1 à 144",
+      "appui": "Racine carrée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

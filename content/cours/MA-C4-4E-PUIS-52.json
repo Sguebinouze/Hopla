@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C4-4E-PUIS-52",
+  "duree": 6,
+  "essentiel": "aⁿ désigne le produit de n facteurs égaux à a : 3⁴ = 3 × 3 × 3 × 3 = 81.\nPour multiplier deux puissances d’un même nombre, on additionne les exposants : 2³ × 2⁴ = 2⁷.\nAttention aux signes : (−2)⁴ = 16, mais −2⁴ = −16.",
+  "parties": [
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des puissances",
+          "colonnes": [
+            "Expression",
+            "Produit",
+            "Valeur"
+          ],
+          "lignes": [
+            [
+              "3⁴",
+              "3 × 3 × 3 × 3",
+              "81"
+            ],
+            [
+              "(−2)³",
+              "(−2) × (−2) × (−2)",
+              "−8"
+            ],
+            [
+              "(−2)⁴",
+              "(−2) × (−2) × (−2) × (−2)",
+              "16"
+            ],
+            [
+              "−2⁴",
+              "−(2 × 2 × 2 × 2)",
+              "−16"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "5³ = ?",
+          "options": [
+            "125",
+            "15",
+            "25"
+          ],
+          "reponse": "125",
+          "explication": "5 × 5 × 5."
+        }
+      ]
+    },
+    {
+      "titre": "Produit de puissances",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "2³ × 2⁴ = (2 × 2 × 2) × (2 × 2 × 2 × 2) : sept facteurs 2, donc 2⁷ = 128."
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie les exposants : 2³ × 2⁴ = 2¹².",
+          "correction": "On compte les facteurs : 3 + 4 = 7. 2³ × 2⁴ = 2⁷."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "(−3)² = ?",
+      "options": [
+        "9",
+        "−9",
+        "−6"
+      ],
+      "reponse": "9",
+      "explication": "(−3) × (−3) = 9."
+    },
+    {
+      "consigne": "10² × 10³ = ?",
+      "options": [
+        "10⁵",
+        "10⁶",
+        "100⁵"
+      ],
+      "reponse": "10⁵",
+      "explication": "2 + 3 = 5."
+    },
+    {
+      "consigne": "−3² = ?",
+      "options": [
+        "−9",
+        "9",
+        "6"
+      ],
+      "reponse": "−9",
+      "explication": "Le carré porte sur 3 seulement."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "Les puissances de base quelconque d’exposants positifs sont introduites pour simplifier l’écriture de produits.",
+      "appui": "Puissances d’un nombre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

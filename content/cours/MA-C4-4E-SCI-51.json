@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-4E-SCI-51",
+  "duree": 6,
+  "essentiel": "La notation scientifique d’un nombre est a × 10ⁿ, avec a compris entre 1 et 10 (10 exclu) et n entier.\n5 600 000 = 5,6 × 10⁶ ; 0,0042 = 4,2 × 10⁻³.\nElle sert à écrire les très grands et les très petits nombres.",
+  "parties": [
+    {
+      "titre": "Écrire en notation scientifique",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire 0,0042",
+          "etapes": [
+            "Place la virgule après le premier chiffre non nul : 4,2.",
+            "Compte de combien de rangs la virgule a bougé : 3.",
+            "Vers la droite : exposant négatif. 0,0042 = 4,2 × 10⁻³."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "380 000 en notation scientifique :",
+          "options": [
+            "3,8 × 10⁵",
+            "38 × 10⁴",
+            "3,8 × 10⁴"
+          ],
+          "reponse": "3,8 × 10⁵",
+          "explication": "La virgule recule de 5 rangs."
+        }
+      ]
+    },
+    {
+      "titre": "Des exemples en sciences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ordres de grandeur",
+          "colonnes": [
+            "Grandeur",
+            "Valeur"
+          ],
+          "lignes": [
+            [
+              "distance Terre-Soleil",
+              "environ 1,5 × 10⁸ km"
+            ],
+            [
+              "vitesse de la lumière",
+              "environ 3 × 10⁵ km/s"
+            ],
+            [
+              "taille d’une cellule",
+              "environ 1 × 10⁻⁵ m"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 38 × 10⁴ et on dit que c’est la notation scientifique.",
+          "correction": "Le nombre devant doit être entre 1 et 10 : 3,8 × 10⁵."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "0,000 7 en notation scientifique :",
+      "options": [
+        "7 × 10⁻⁴",
+        "7 × 10⁴",
+        "0,7 × 10⁻³"
+      ],
+      "reponse": "7 × 10⁻⁴",
+      "explication": "La virgule avance de 4 rangs."
+    },
+    {
+      "consigne": "2,1 × 10³ = ?",
+      "options": [
+        "2 100",
+        "210",
+        "0,002 1"
+      ],
+      "reponse": "2 100",
+      "explication": "La virgule avance de 3 rangs vers la droite."
+    },
+    {
+      "consigne": "Laquelle est une notation scientifique ?",
+      "options": [
+        "6,02 × 10²³",
+        "60,2 × 10²²",
+        "0,602 × 10²⁴"
+      ],
+      "reponse": "6,02 × 10²³",
+      "explication": "Le premier nombre est entre 1 et 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "la notation scientifique. Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de grandeurs",
+      "appui": "Notation scientifique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

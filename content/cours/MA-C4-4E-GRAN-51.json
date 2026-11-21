@@ -1,0 +1,106 @@
+{
+  "competence": "MA-C4-4E-GRAN-51",
+  "duree": 7,
+  "essentiel": "Une vitesse moyenne est une distance divisée par une durée : 150 km en 2 h donnent 75 km/h.\nUn débit est un volume divisé par une durée : 120 L en 4 min donnent 30 L/min.\nPour passer des km/h aux m/s, on divise par 3,6 : 36 km/h = 10 m/s.",
+  "parties": [
+    {
+      "titre": "Vitesse",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois calculs",
+          "colonnes": [
+            "On cherche",
+            "Formule",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "la vitesse",
+              "v = d ÷ t",
+              "150 km en 2 h : 75 km/h"
+            ],
+            [
+              "la distance",
+              "d = v × t",
+              "80 km/h pendant 1,5 h : 120 km"
+            ],
+            [
+              "la durée",
+              "t = d ÷ v",
+              "200 km à 80 km/h : 2,5 h = 2 h 30 min"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "90 km/h = ? m/s",
+          "options": [
+            "25 m/s",
+            "324 m/s",
+            "9 m/s"
+          ],
+          "reponse": "25 m/s",
+          "explication": "90 ÷ 3,6 = 25."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi 3,6 ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "1 km/h, c’est 1 000 m en 3 600 s, soit 1 000 ÷ 3 600 m/s. Donc on divise par 3,6."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit 2,5 h comme 2 h 50 min.",
+          "correction": "0,5 h = 30 min. 2,5 h = 2 h 30 min."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un robinet a un débit de 12 L/min. En 5 min, il coule :",
+      "options": [
+        "60 L",
+        "17 L",
+        "2,4 L"
+      ],
+      "reponse": "60 L",
+      "explication": "12 × 5."
+    },
+    {
+      "consigne": "10 m/s = ? km/h",
+      "options": [
+        "36 km/h",
+        "10 km/h",
+        "2,8 km/h"
+      ],
+      "reponse": "36 km/h",
+      "explication": "10 × 3,6."
+    },
+    {
+      "consigne": "Une course de 21 km en 1 h 30 min. Vitesse moyenne :",
+      "options": [
+        "14 km/h",
+        "19,5 km/h",
+        "7 km/h"
+      ],
+      "reponse": "14 km/h",
+      "explication": "21 ÷ 1,5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 8,
+      "extrait": "des grandeurs quotients (par exemple vitesse, débit, concentration, masse volumique) sont introduites à travers la résolution de problèmes.",
+      "appui": "Vitesse et débit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

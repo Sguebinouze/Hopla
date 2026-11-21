@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C4-4E-COS-51",
+  "duree": 7,
+  "essentiel": "Dans un triangle rectangle, le cosinus d’un angle aigu est le quotient du côté adjacent par l’hypoténuse.\nABC rectangle en A : cos(ABC) = AB/BC.\nLe cosinus est toujours compris entre 0 et 1. On le calcule à la calculatrice, réglée en degrés.",
+  "parties": [
+    {
+      "titre": "Calculer un côté adjacent",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "ABC est rectangle en A, BC = 10 cm et l’angle ABC mesure 60°. Calcule AB.",
+          "etapes": [
+            "cos(ABC) = AB/BC.",
+            "cos(60°) = AB/10.",
+            "AB = 10 × cos(60°) = 10 × 0,5 = 5."
+          ],
+          "conclusion": "AB = 5 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "cos(ABC) = AB/BC. AB est :",
+          "options": [
+            "le côté adjacent à l’angle B",
+            "l’hypoténuse",
+            "le côté opposé à l’angle B"
+          ],
+          "reponse": "le côté adjacent à l’angle B",
+          "explication": "Il touche l’angle B et n’est pas l’hypoténuse."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer l’hypoténuse",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "AB = 4 cm et l’angle B mesure 60°. cos(60°) = 4/BC, donc BC = 4 ÷ cos(60°) = 4 ÷ 0,5 = 8 cm."
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend le côté opposé à l’angle au numérateur.",
+          "correction": "Le cosinus utilise le côté adjacent, celui qui forme l’angle avec l’hypoténuse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "ABC rectangle en A, BC = 20 cm, cos(B) = 0,6. AB = ?",
+      "options": [
+        "12 cm",
+        "33,3 cm",
+        "0,03 cm"
+      ],
+      "reponse": "12 cm",
+      "explication": "20 × 0,6 = 12."
+    },
+    {
+      "consigne": "Le cosinus d’un angle aigu est :",
+      "options": [
+        "compris entre 0 et 1",
+        "plus grand que 1",
+        "négatif"
+      ],
+      "reponse": "compris entre 0 et 1",
+      "explication": "Le côté adjacent est plus court que l’hypoténuse."
+    },
+    {
+      "consigne": "Pour calculer cos(35°), la calculatrice doit être réglée en :",
+      "options": [
+        "degrés",
+        "radians",
+        "grades"
+      ],
+      "reponse": "degrés",
+      "explication": "Les angles sont donnés en degrés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 10,
+      "extrait": "La définition du cosinus d’un angle d’un triangle rectangle découle, grâce au théorème de Thalès, de l’indépendance du rapport des longueurs le définissant.",
+      "appui": "Cosinus d’un angle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

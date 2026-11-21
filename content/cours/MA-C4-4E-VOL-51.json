@@ -1,0 +1,109 @@
+{
+  "competence": "MA-C4-4E-VOL-51",
+  "duree": 7,
+  "essentiel": "Volume d’une pyramide : aire de la base × hauteur ÷ 3.\nVolume d’un cône de révolution : π × r² × h ÷ 3.\nUne pyramide occupe le tiers du volume d’un prisme de même base et de même hauteur.",
+  "parties": [
+    {
+      "titre": "Pyramide et cône",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux formules",
+          "colonnes": [
+            "Solide",
+            "Formule",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "pyramide",
+              "B × h ÷ 3",
+              "B = 12 cm², h = 5 cm : 20 cm³"
+            ],
+            [
+              "cône",
+              "π × r² × h ÷ 3",
+              "r = 3 cm, h = 4 cm : 12π ≈ 37,7 cm³"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cone"
+          },
+          "legende": "Un cône de révolution : une base en disque et un sommet."
+        },
+        {
+          "type": "question",
+          "consigne": "Pyramide de base 9 cm² et de hauteur 10 cm. Volume :",
+          "options": [
+            "30 cm³",
+            "90 cm³",
+            "19 cm³"
+          ],
+          "reponse": "30 cm³",
+          "explication": "9 × 10 ÷ 3."
+        }
+      ]
+    },
+    {
+      "titre": "Le tiers",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On remplit un cylindre avec le contenu d’un cône de même base et de même hauteur : il faut trois cônes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie de diviser par 3.",
+          "correction": "B × h donne le volume du prisme ou du cylindre. La pyramide et le cône en font le tiers."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un cylindre a un volume de 90 cm³. Un cône de même base et même hauteur a un volume de :",
+      "options": [
+        "30 cm³",
+        "90 cm³",
+        "270 cm³"
+      ],
+      "reponse": "30 cm³",
+      "explication": "Le tiers."
+    },
+    {
+      "consigne": "Pyramide de base carrée de 6 cm de côté et de hauteur 5 cm. Volume :",
+      "options": [
+        "60 cm³",
+        "180 cm³",
+        "30 cm³"
+      ],
+      "reponse": "60 cm³",
+      "explication": "36 × 5 ÷ 3 = 60."
+    },
+    {
+      "consigne": "Dans la formule du cône, r désigne :",
+      "options": [
+        "le rayon de la base",
+        "la hauteur",
+        "le diamètre"
+      ],
+      "reponse": "le rayon de la base",
+      "explication": "La base est un disque."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 8,
+      "extrait": "Le lexique des formules s’étend au volume des pyramides et du cône.",
+      "appui": "Volume pyramide et cône"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,89 @@
+{
+  "competence": "MA-C4-4E-FRAC-51",
+  "duree": 6,
+  "essentiel": "Simplifier une fraction, c’est diviser son numérateur et son dénominateur par un même nombre.\n18/24 = 9/12 = 3/4 : on a divisé par 2, puis par 3.\nUne fraction est irréductible quand on ne peut plus la simplifier.",
+  "parties": [
+    {
+      "titre": "Simplifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour simplifier 45/60",
+          "etapes": [
+            "45 et 60 sont divisibles par 5 : 45/60 = 9/12.",
+            "9 et 12 sont divisibles par 3 : 9/12 = 3/4.",
+            "3 et 4 n’ont plus de diviseur commun autre que 1."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Simplifie 14/35.",
+          "options": [
+            "2/5",
+            "7/5",
+            "14/5"
+          ],
+          "reponse": "2/5",
+          "explication": "On divise par 7."
+        }
+      ]
+    },
+    {
+      "titre": "Utiliser les critères de divisibilité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour 126/84, la somme des chiffres de chacun est divisible par 3. On peut donc diviser par 3 : 42/28, puis par 14 : 3/2."
+        },
+        {
+          "type": "piege",
+          "erreur": "On soustrait le même nombre en haut et en bas : 18/24 = 15/21.",
+          "correction": "On divise par le même nombre, on ne soustrait pas. 15/21 ne vaut pas 18/24."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Simplifie 30/45.",
+      "options": [
+        "2/3",
+        "6/9",
+        "3/5"
+      ],
+      "reponse": "2/3",
+      "explication": "On divise par 15 ; 6/9 n’est pas irréductible."
+    },
+    {
+      "consigne": "Quelle fraction est irréductible ?",
+      "options": [
+        "7/9",
+        "6/9",
+        "10/15"
+      ],
+      "reponse": "7/9",
+      "explication": "7 et 9 n’ont que 1 comme diviseur commun."
+    },
+    {
+      "consigne": "Simplifie 48/64.",
+      "options": [
+        "3/4",
+        "6/8",
+        "4/3"
+      ],
+      "reponse": "3/4",
+      "explication": "On divise par 16."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "reconnaître et produire des fractions égales, simplifier des fractions.",
+      "appui": "Simplifier une fraction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

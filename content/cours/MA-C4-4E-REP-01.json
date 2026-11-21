@@ -1,0 +1,110 @@
+{
+  "competence": "MA-C4-4E-REP-01",
+  "duree": 6,
+  "essentiel": "Dans un pavé droit, on repère un point par trois coordonnées : abscisse, ordonnée et altitude.\nL’origine est un sommet du pavé, de coordonnées (0 ; 0 ; 0).\nDans un cube de côté 1, le sommet opposé à l’origine a pour coordonnées (1 ; 1 ; 1).",
+  "parties": [
+    {
+      "titre": "Trois axes",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pave"
+          },
+          "legende": "Les trois arêtes issues de l’origine portent les trois axes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Pavé de longueur 4, largeur 3, hauteur 2",
+          "colonnes": [
+            "Point",
+            "Coordonnées"
+          ],
+          "lignes": [
+            [
+              "origine",
+              "(0 ; 0 ; 0)"
+            ],
+            [
+              "sommet sur l’axe des abscisses",
+              "(4 ; 0 ; 0)"
+            ],
+            [
+              "sommet au-dessus de l’origine",
+              "(0 ; 0 ; 2)"
+            ],
+            [
+              "sommet opposé à l’origine",
+              "(4 ; 3 ; 2)"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans ce pavé, le centre de la face du dessus a pour coordonnées :",
+          "options": [
+            "(2 ; 1,5 ; 2)",
+            "(4 ; 3 ; 2)",
+            "(2 ; 1,5 ; 0)"
+          ],
+          "reponse": "(2 ; 1,5 ; 2)",
+          "explication": "Milieu en longueur et en largeur, altitude maximale."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre compte",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit l’altitude en premier.",
+          "correction": "L’ordre est toujours abscisse, ordonnée, altitude."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un point d’altitude 0 est :",
+      "options": [
+        "sur la face du dessous",
+        "sur la face du dessus",
+        "au centre du pavé"
+      ],
+      "reponse": "sur la face du dessous",
+      "explication": "La face qui contient l’origine."
+    },
+    {
+      "consigne": "Dans un cube de côté 1, le point (1 ; 0 ; 1) est :",
+      "options": [
+        "un sommet",
+        "le centre",
+        "hors du cube"
+      ],
+      "reponse": "un sommet",
+      "explication": "Chaque coordonnée vaut 0 ou 1."
+    },
+    {
+      "consigne": "Combien de coordonnées pour repérer un point dans l’espace ?",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "reponse": "3",
+      "explication": "Abscisse, ordonnée, altitude."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 9,
+      "extrait": "Le repérage se fait dans un pavé droit",
+      "appui": "Se repérer dans un pavé droit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

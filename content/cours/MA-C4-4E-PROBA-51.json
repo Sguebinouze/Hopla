@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C4-4E-PROBA-51",
+  "duree": 6,
+  "essentiel": "La probabilité de l’évènement contraire de A est 1 − P(A).\nLa somme des probabilités de toutes les issues vaut 1.\nDans une situation non équiprobable, comme une roue aux secteurs inégaux, chaque issue a sa propre probabilité.",
+  "parties": [
+    {
+      "titre": "L’évènement contraire",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "La probabilité qu’il pleuve demain est 0,3. Quelle est la probabilité qu’il ne pleuve pas ?",
+          "etapes": [
+            "« Ne pas pleuvoir » est le contraire de « pleuvoir ».",
+            "1 − 0,3 = 0,7."
+          ],
+          "conclusion": "La probabilité est 0,7."
+        },
+        {
+          "type": "question",
+          "consigne": "P(A) = 0,35. P(non A) = ?",
+          "options": [
+            "0,65",
+            "0,35",
+            "1,35"
+          ],
+          "reponse": "0,65",
+          "explication": "1 − 0,35."
+        }
+      ]
+    },
+    {
+      "titre": "Situation non équiprobable",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une roue : rouge sur une moitié, bleu et vert sur un quart chacun",
+          "colonnes": [
+            "Couleur",
+            "Probabilité"
+          ],
+          "lignes": [
+            [
+              "rouge",
+              "1/2"
+            ],
+            [
+              "bleu",
+              "1/4"
+            ],
+            [
+              "vert",
+              "1/4"
+            ],
+            [
+              "total",
+              "1"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Trois couleurs, donc une chance sur trois pour chacune.",
+          "correction": "Les secteurs n’ont pas la même taille : les issues ne sont pas équiprobables."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec cette roue, P(ne pas obtenir rouge) = ?",
+      "options": [
+        "1/2",
+        "2/3",
+        "1/4"
+      ],
+      "reponse": "1/2",
+      "explication": "1 − 1/2."
+    },
+    {
+      "consigne": "Un sac contient 4 billes rouges et 6 bleues. P(bleue) = ?",
+      "options": [
+        "0,6",
+        "0,4",
+        "6"
+      ],
+      "reponse": "0,6",
+      "explication": "6 ÷ 10."
+    },
+    {
+      "consigne": "Les probabilités des issues d’une expérience ont pour somme :",
+      "options": [
+        "1",
+        "0",
+        "100"
+      ],
+      "reponse": "1",
+      "explication": "Une issue se réalise forcément."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 6,
+      "extrait": "Le lien est fait entre les probabilités de deux événements contraires.",
+      "appui": "Évènement contraire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

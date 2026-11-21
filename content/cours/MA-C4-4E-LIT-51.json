@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-4E-LIT-51",
+  "duree": 7,
+  "essentiel": "Développer, c’est transformer un produit en une somme : k(a + b) = ka + kb. 3(2x + 5) = 6x + 15.\nFactoriser, c’est l’inverse : on met en évidence un facteur commun. 4x² + 9x = x(4x + 9).\nRéduire, c’est regrouper les termes de même nature : 3x² + 2x − x² + 5x = 2x² + 7x.",
+  "parties": [
+    {
+      "titre": "Développer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des développements",
+          "colonnes": [
+            "Produit",
+            "Somme"
+          ],
+          "lignes": [
+            [
+              "3(2x + 5)",
+              "6x + 15"
+            ],
+            [
+              "−2(x − 4)",
+              "−2x + 8"
+            ],
+            [
+              "x(x + 3)",
+              "x² + 3x"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Développe 5(2x − 3).",
+          "options": [
+            "10x − 15",
+            "10x − 3",
+            "7x − 15"
+          ],
+          "reponse": "10x − 15",
+          "explication": "5 × 2x − 5 × 3."
+        }
+      ]
+    },
+    {
+      "titre": "Factoriser et réduire",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Factorise 6x + 9.",
+          "etapes": [
+            "Facteur commun à 6x et 9 : 3.",
+            "6x + 9 = 3 × 2x + 3 × 3 = 3(2x + 3)."
+          ],
+          "conclusion": "6x + 9 = 3(2x + 3)."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit −2(x − 4) = −2x − 8.",
+          "correction": "On multiplie −2 par −4 : (−2) × (−4) = +8. Donc −2x + 8."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Factorise 7x + 14.",
+      "options": [
+        "7(x + 2)",
+        "7(x + 14)",
+        "21x"
+      ],
+      "reponse": "7(x + 2)",
+      "explication": "14 = 7 × 2."
+    },
+    {
+      "consigne": "Réduis 4x + 3 − x + 2.",
+      "options": [
+        "3x + 5",
+        "5x + 5",
+        "8x"
+      ],
+      "reponse": "3x + 5",
+      "explication": "4x − x = 3x et 3 + 2 = 5."
+    },
+    {
+      "consigne": "Développe −(x + 6).",
+      "options": [
+        "−x − 6",
+        "−x + 6",
+        "x − 6"
+      ],
+      "reponse": "−x − 6",
+      "explication": "Le signe moins change chaque signe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 4,
+      "extrait": "La propriété de distributivité simple est formalisée et est utilisée pour développer un produit, factoriser une somme, réduire une expression littérale.",
+      "appui": "Développer et factoriser"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

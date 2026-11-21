@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C4-4E-DIV-51",
+  "duree": 7,
+  "essentiel": "Un nombre premier a exactement deux diviseurs : 1 et lui-même. 2, 3, 5, 7, 11, 13 sont premiers ; 1 ne l’est pas.\nTout entier supérieur à 1 se décompose en produit de facteurs premiers.\n60 = 2 × 2 × 3 × 5 = 2² × 3 × 5.",
+  "parties": [
+    {
+      "titre": "Décomposer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Décomposer 84",
+          "etapes": [
+            "Divise par le plus petit nombre premier possible : 84 ÷ 2 = 42.",
+            "Recommence : 42 ÷ 2 = 21.",
+            "21 n’est pas pair : 21 ÷ 3 = 7.",
+            "7 est premier : on s’arrête. 84 = 2² × 3 × 7."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Décompose 90.",
+          "options": [
+            "2 × 3² × 5",
+            "2 × 45",
+            "9 × 10"
+          ],
+          "reponse": "2 × 3² × 5",
+          "explication": "90 = 2 × 45 = 2 × 3 × 15 = 2 × 3 × 3 × 5."
+        }
+      ]
+    },
+    {
+      "titre": "Simplifier grâce aux facteurs premiers",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "84/126 = (2² × 3 × 7)/(2 × 3² × 7). On barre les facteurs communs 2, 3 et 7 : il reste 2/3."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1 est un nombre premier.",
+          "correction": "1 n’a qu’un seul diviseur. Un nombre premier en a exactement deux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Lequel est premier ?",
+      "options": [
+        "29",
+        "27",
+        "33"
+      ],
+      "reponse": "29",
+      "explication": "27 = 3 × 9 et 33 = 3 × 11."
+    },
+    {
+      "consigne": "La décomposition de 126 est :",
+      "options": [
+        "2 × 3² × 7",
+        "2 × 63",
+        "6 × 21"
+      ],
+      "reponse": "2 × 3² × 7",
+      "explication": "Seuls des facteurs premiers."
+    },
+    {
+      "consigne": "Les nombres premiers inférieurs à 20 sont au nombre de :",
+      "options": [
+        "8",
+        "10",
+        "6"
+      ],
+      "reponse": "8",
+      "explication": "2, 3, 5, 7, 11, 13, 17, 19."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "Les élèves déterminent la liste des nombres premiers inférieurs ou égaux à 100 et l’utilisent pour décomposer des nombres en facteurs premiers",
+      "appui": "Décomposer en facteurs premiers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

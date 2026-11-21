@@ -1,0 +1,128 @@
+{
+  "competence": "MA-C4-4E-STAT-51",
+  "duree": 7,
+  "essentiel": "La médiane partage une série rangée dans l’ordre croissant en deux parties de même effectif.\nAvec un nombre impair de valeurs, c’est la valeur du milieu : 4 ; 7 ; 9 ; 12 ; 15 a pour médiane 9.\nAvec un nombre pair, on prend la moyenne des deux valeurs du milieu.",
+  "parties": [
+    {
+      "titre": "Trouver la médiane",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux séries rangées",
+          "colonnes": [
+            "Série",
+            "Effectif",
+            "Médiane"
+          ],
+          "lignes": [
+            [
+              "4 ; 7 ; 9 ; 12 ; 15",
+              "5",
+              "9, la 3e valeur"
+            ],
+            [
+              "3 ; 5 ; 8 ; 10",
+              "4",
+              "(5 + 8) ÷ 2 = 6,5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Médiane de 12 ; 3 ; 8 ; 15 ; 6 :",
+          "options": [
+            "8",
+            "6",
+            "12"
+          ],
+          "reponse": "8",
+          "explication": "On range d’abord : 3 ; 6 ; 8 ; 12 ; 15."
+        }
+      ]
+    },
+    {
+      "titre": "Avec un tableau d’effectifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Notes de 15 élèves",
+          "colonnes": [
+            "Note",
+            "8",
+            "10",
+            "12",
+            "15"
+          ],
+          "lignes": [
+            [
+              "Effectif",
+              "3",
+              "5",
+              "4",
+              "3"
+            ],
+            [
+              "Effectif cumulé",
+              "3",
+              "8",
+              "12",
+              "15"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "15 valeurs : la médiane est la 8e. L’effectif cumulé atteint 8 à la note 10 : la médiane est 10."
+        },
+        {
+          "type": "piege",
+          "erreur": "On cherche le milieu sans ranger la série.",
+          "correction": "La médiane n’a de sens que sur une série rangée dans l’ordre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Médiane de 2 ; 4 ; 6 ; 8 ; 10 ; 12 :",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "(6 + 8) ÷ 2 = 7."
+    },
+    {
+      "consigne": "Dans une série de 21 valeurs rangées, la médiane est :",
+      "options": [
+        "la 11e valeur",
+        "la 10e valeur",
+        "la moyenne"
+      ],
+      "reponse": "la 11e valeur",
+      "explication": "10 valeurs de chaque côté."
+    },
+    {
+      "consigne": "Série 1 ; 1 ; 2 ; 50. Médiane :",
+      "options": [
+        "1,5",
+        "13,5",
+        "2"
+      ],
+      "reponse": "1,5",
+      "explication": "(1 + 2) ÷ 2. La moyenne serait 13,5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 6,
+      "extrait": "Un nouvel indicateur de position est introduit : la médiane.",
+      "appui": "Médiane"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

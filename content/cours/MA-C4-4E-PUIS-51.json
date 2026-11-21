@@ -1,0 +1,147 @@
+{
+  "competence": "MA-C4-4E-PUIS-51",
+  "duree": 6,
+  "essentiel": "10ⁿ, avec n positif, s’écrit 1 suivi de n zéros : 10⁴ = 10 000.\n10⁻ⁿ s’écrit 0, suivi de n − 1 zéros, puis 1 : 10⁻³ = 0,001. Par convention, 10⁰ = 1.\nLes préfixes indiquent des puissances de 10 : kilo = 10³, milli = 10⁻³.",
+  "parties": [
+    {
+      "titre": "Écriture décimale",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Puissances de 10",
+          "colonnes": [
+            "Puissance",
+            "Écriture décimale"
+          ],
+          "lignes": [
+            [
+              "10⁶",
+              "1 000 000"
+            ],
+            [
+              "10²",
+              "100"
+            ],
+            [
+              "10⁰",
+              "1"
+            ],
+            [
+              "10⁻²",
+              "0,01"
+            ],
+            [
+              "10⁻⁶",
+              "0,000 001"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "10⁻⁴ = ?",
+          "options": [
+            "0,000 1",
+            "−10 000",
+            "0,000 01"
+          ],
+          "reponse": "0,000 1",
+          "explication": "Le 1 est au 4e rang après la virgule."
+        }
+      ]
+    },
+    {
+      "titre": "Les préfixes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "De nano à giga",
+          "colonnes": [
+            "Préfixe",
+            "Symbole",
+            "Puissance"
+          ],
+          "lignes": [
+            [
+              "giga",
+              "G",
+              "10⁹"
+            ],
+            [
+              "méga",
+              "M",
+              "10⁶"
+            ],
+            [
+              "kilo",
+              "k",
+              "10³"
+            ],
+            [
+              "milli",
+              "m",
+              "10⁻³"
+            ],
+            [
+              "micro",
+              "µ",
+              "10⁻⁶"
+            ],
+            [
+              "nano",
+              "n",
+              "10⁻⁹"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 10⁻³ est un nombre négatif.",
+          "correction": "10⁻³ = 0,001 : c’est un nombre positif, plus petit que 1."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1 km = ?",
+      "options": [
+        "10³ m",
+        "10⁻³ m",
+        "10² m"
+      ],
+      "reponse": "10³ m",
+      "explication": "Kilo signifie 10³."
+    },
+    {
+      "consigne": "1 mm = ?",
+      "options": [
+        "10⁻³ m",
+        "10³ m",
+        "10⁻² m"
+      ],
+      "reponse": "10⁻³ m",
+      "explication": "Milli signifie 10⁻³."
+    },
+    {
+      "consigne": "Un gigaoctet vaut :",
+      "options": [
+        "10⁹ octets",
+        "10⁶ octets",
+        "10³ octets"
+      ],
+      "reponse": "10⁹ octets",
+      "explication": "Giga signifie 10⁹."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "Les puissances de 10 sont d’abord introduites avec des exposants positifs, puis négatifs, afin de définir les préfixes de nano à giga",
+      "appui": "Puissances de 10 et préfixes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

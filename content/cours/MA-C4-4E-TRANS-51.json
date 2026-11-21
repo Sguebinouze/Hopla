@@ -1,0 +1,152 @@
+{
+  "competence": "MA-C4-4E-TRANS-51",
+  "duree": 7,
+  "essentiel": "La translation qui transforme A en B fait glisser la figure comme de A vers B : même direction, même sens, même longueur.\nSi cette translation transforme C en D, alors ABDC est un parallélogramme.\nUne translation conserve les longueurs, les angles, les aires et le parallélisme.",
+  "parties": [
+    {
+      "titre": "Construire une image",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 7,
+            "hauteur": 7,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  4
+                ],
+                "a": [
+                  4,
+                  2
+                ],
+                "accent": true
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  2,
+                  6
+                ],
+                "a": [
+                  5,
+                  4
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  4
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4,
+                  2
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  2,
+                  6
+                ],
+                "nom": "C"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  4
+                ],
+                "nom": "D"
+              }
+            ]
+          },
+          "legende": "De A à B : 3 carreaux à droite, 2 vers le haut. On fait le même glissement depuis C pour obtenir D."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire l’image D de C",
+          "etapes": [
+            "Repère le glissement de A vers B.",
+            "Applique le même glissement à partir de C.",
+            "Vérifie que ABDC est un parallélogramme."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La translation qui transforme A en B transforme C en D. Alors :",
+          "options": [
+            "ABDC est un parallélogramme",
+            "ABCD est un carré",
+            "A, B, C, D sont alignés"
+          ],
+          "reponse": "ABDC est un parallélogramme",
+          "explication": "Les segments [AB] et [CD] sont parallèles et de même longueur."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui est conservé",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit ABCD au lieu de ABDC pour le parallélogramme.",
+          "correction": "L’ordre des sommets compte : A va en B et C va en D, donc les sommets se suivent A, B, D, C."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par une translation, un segment de 6 cm a pour image un segment de :",
+      "options": [
+        "6 cm",
+        "12 cm",
+        "3 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "Les longueurs sont conservées."
+    },
+    {
+      "consigne": "Une translation est un :",
+      "options": [
+        "glissement",
+        "demi-tour",
+        "pliage"
+      ],
+      "reponse": "glissement",
+      "explication": "Sans rotation ni retournement."
+    },
+    {
+      "consigne": "L’image d’une droite par une translation est :",
+      "options": [
+        "une droite parallèle",
+        "une droite perpendiculaire",
+        "un point"
+      ],
+      "reponse": "une droite parallèle",
+      "explication": "La direction est conservée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 11,
+      "extrait": "le lien est alors fait entre translation et parallélogramme.",
+      "appui": "Translations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

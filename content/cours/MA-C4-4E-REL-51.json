@@ -1,0 +1,117 @@
+{
+  "competence": "MA-C4-4E-REL-51",
+  "duree": 7,
+  "essentiel": "Le produit ou le quotient de deux nombres de même signe est positif ; de signes contraires, il est négatif.\n(−3) × (+4) = −12 ; (−20) ÷ (−5) = 4.\nPour un produit de plusieurs facteurs, on compte les facteurs négatifs : un nombre pair donne un résultat positif.",
+  "parties": [
+    {
+      "titre": "La règle des signes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Signe d’un produit ou d’un quotient",
+          "colonnes": [
+            "Signes des deux nombres",
+            "Signe du résultat",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "+ et +",
+              "+",
+              "(+3) × (+4) = 12"
+            ],
+            [
+              "− et −",
+              "+",
+              "(−3) × (−4) = 12"
+            ],
+            [
+              "+ et −",
+              "−",
+              "(+3) × (−4) = −12"
+            ],
+            [
+              "− et +",
+              "−",
+              "(−20) ÷ (+5) = −4"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "(−6) × (−7) = ?",
+          "options": [
+            "42",
+            "−42",
+            "−13"
+          ],
+          "reponse": "42",
+          "explication": "Deux facteurs négatifs : le produit est positif."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs facteurs",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Quel est le signe de (−2) × (+5) × (−1) × (−3) ?",
+          "etapes": [
+            "On compte les facteurs négatifs : 3.",
+            "3 est impair : le produit est négatif.",
+            "2 × 5 × 1 × 3 = 30."
+          ],
+          "conclusion": "Le produit vaut −30."
+        },
+        {
+          "type": "piege",
+          "erreur": "On applique la règle des signes à l’addition : (−3) + (−4) = 7.",
+          "correction": "La règle des signes vaut pour × et ÷ seulement. (−3) + (−4) = −7."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "(−36) ÷ (+4) = ?",
+      "options": [
+        "−9",
+        "9",
+        "−32"
+      ],
+      "reponse": "−9",
+      "explication": "Signes contraires : quotient négatif."
+    },
+    {
+      "consigne": "(−1) × (−1) × (−1) × (−1) = ?",
+      "options": [
+        "1",
+        "−1",
+        "−4"
+      ],
+      "reponse": "1",
+      "explication": "Quatre facteurs négatifs : nombre pair."
+    },
+    {
+      "consigne": "(−2,5) × 4 = ?",
+      "options": [
+        "−10",
+        "10",
+        "1,5"
+      ],
+      "reponse": "−10",
+      "explication": "Signes contraires."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 1,
+      "extrait": "Le produit et le quotient de décimaux relatifs sont abordés.",
+      "appui": "Multiplier, diviser des relatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

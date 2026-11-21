@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C4-4E-AGR-51",
+  "duree": 6,
+  "essentiel": "Dans un agrandissement ou une réduction de rapport k, les longueurs sont multipliées par k.\nLes aires sont multipliées par k², les volumes par k³. Les angles ne changent pas.\nRapport 3 : longueurs × 3, aires × 9, volumes × 27.",
+  "parties": [
+    {
+      "titre": "L’effet du rapport",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Rapport k",
+          "colonnes": [
+            "Grandeur",
+            "Multipliée par",
+            "k = 2",
+            "k = 0,5"
+          ],
+          "lignes": [
+            [
+              "longueur",
+              "k",
+              "× 2",
+              "× 0,5"
+            ],
+            [
+              "aire",
+              "k²",
+              "× 4",
+              "× 0,25"
+            ],
+            [
+              "volume",
+              "k³",
+              "× 8",
+              "× 0,125"
+            ],
+            [
+              "angle",
+              "inchangé",
+              "=",
+              "="
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un carré de 5 cm² est agrandi de rapport 2. Sa nouvelle aire :",
+          "options": [
+            "20 cm²",
+            "10 cm²",
+            "25 cm²"
+          ],
+          "reponse": "20 cm²",
+          "explication": "5 × 2² = 20."
+        }
+      ]
+    },
+    {
+      "titre": "Agrandissement ou réduction ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Si k > 1, c’est un agrandissement. Si 0 < k < 1, c’est une réduction : une maquette au 1/100 a pour rapport 0,01."
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie l’aire par k, comme les longueurs.",
+          "correction": "Un carré dont le côté double a une aire quatre fois plus grande : k² = 4."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un cube de 80 cm³ est réduit de rapport 0,5. Nouveau volume :",
+      "options": [
+        "10 cm³",
+        "40 cm³",
+        "20 cm³"
+      ],
+      "reponse": "10 cm³",
+      "explication": "80 × 0,5³ = 80 × 0,125."
+    },
+    {
+      "consigne": "Rapport 3 : un angle de 40° devient :",
+      "options": [
+        "40°",
+        "120°",
+        "360°"
+      ],
+      "reponse": "40°",
+      "explication": "Les angles sont conservés."
+    },
+    {
+      "consigne": "Un rapport de 1,5 correspond à :",
+      "options": [
+        "un agrandissement",
+        "une réduction",
+        "aucun changement"
+      ],
+      "reponse": "un agrandissement",
+      "explication": "1,5 > 1."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 8,
+      "extrait": "Les élèves connaissent et utilisent l’effet d’un agrandissement ou d’une réduction sur les longueurs, les aires et les volumes.",
+      "appui": "Agrandissement et réduction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

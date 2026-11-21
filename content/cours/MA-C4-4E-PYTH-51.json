@@ -1,0 +1,160 @@
+{
+  "competence": "MA-C4-4E-PYTH-51",
+  "duree": 8,
+  "essentiel": "Dans un triangle rectangle, le carré de l’hypoténuse est égal à la somme des carrés des deux autres côtés.\nABC rectangle en A : BC² = AB² + AC².\nRéciproquement, si BC² = AB² + AC², alors le triangle est rectangle en A.",
+  "parties": [
+    {
+      "titre": "Calculer une longueur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 6,
+            "hauteur": 5,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  4
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  5,
+                  4
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  1
+                ],
+                "nom": "C"
+              }
+            ]
+          },
+          "legende": "AB = 4, AC = 3 : BC² = 16 + 9 = 25, donc BC = 5."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "ABC est rectangle en A, BC = 13 cm, AB = 5 cm. Calcule AC.",
+          "etapes": [
+            "BC² = AB² + AC², soit 169 = 25 + AC².",
+            "AC² = 169 − 25 = 144.",
+            "AC = √144 = 12."
+          ],
+          "conclusion": "AC = 12 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "Triangle rectangle de côtés de l’angle droit 6 cm et 8 cm. Hypoténuse :",
+          "options": [
+            "10 cm",
+            "14 cm",
+            "48 cm"
+          ],
+          "reponse": "10 cm",
+          "explication": "36 + 64 = 100."
+        }
+      ]
+    },
+    {
+      "titre": "Prouver qu’un triangle est rectangle ou non",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "On compare le carré du plus grand côté à la somme des deux autres",
+          "colonnes": [
+            "Côtés",
+            "Calcul",
+            "Conclusion"
+          ],
+          "lignes": [
+            [
+              "6 ; 8 ; 10",
+              "100 = 36 + 64",
+              "rectangle"
+            ],
+            [
+              "5 ; 6 ; 8",
+              "64 ≠ 25 + 36 = 61",
+              "pas rectangle"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit BC = AB + AC.",
+          "correction": "Ce sont les carrés qui s’additionnent : 3 + 4 ≠ 5, mais 9 + 16 = 25."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’hypoténuse est :",
+      "options": [
+        "le côté opposé à l’angle droit",
+        "le plus petit côté",
+        "un côté de l’angle droit"
+      ],
+      "reponse": "le côté opposé à l’angle droit",
+      "explication": "C’est aussi le plus long."
+    },
+    {
+      "consigne": "Hypoténuse 10 cm, un côté 6 cm. L’autre côté :",
+      "options": [
+        "8 cm",
+        "4 cm",
+        "16 cm"
+      ],
+      "reponse": "8 cm",
+      "explication": "100 − 36 = 64."
+    },
+    {
+      "consigne": "Un triangle de côtés 7, 24 et 25 est-il rectangle ?",
+      "options": [
+        "oui",
+        "non",
+        "on ne peut pas savoir"
+      ],
+      "reponse": "oui",
+      "explication": "49 + 576 = 625 = 25²."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 10,
+      "extrait": "ainsi que le théorème de Pythagore (plusieurs démonstrations possibles) et sa réciproque.",
+      "appui": "Théorème de Pythagore"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

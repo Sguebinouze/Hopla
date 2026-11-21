@@ -1,0 +1,102 @@
+{
+  "competence": "MA-C4-4E-PROP-51",
+  "duree": 7,
+  "essentiel": "Dans un tableau de proportionnalité, la quatrième proportionnelle se calcule par le produit en croix.\nSi 3 kg coutent 12 €, alors 5 kg coutent 5 × 12 ÷ 3 = 20 €.\nPartager selon un rapport 2 : 3, c’est partager en 5 parts égales : 2 pour l’un, 3 pour l’autre.",
+  "parties": [
+    {
+      "titre": "Le produit en croix",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Masse et prix",
+          "colonnes": [
+            "Masse (kg)",
+            "3",
+            "5"
+          ],
+          "lignes": [
+            [
+              "Prix (€)",
+              "12",
+              "x = 5 × 12 ÷ 3 = 20"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "4 L d’essence coutent 7 €. 10 L coutent :",
+          "options": [
+            "17,50 €",
+            "13 €",
+            "28 €"
+          ],
+          "reponse": "17,50 €",
+          "explication": "10 × 7 ÷ 4 = 17,5."
+        }
+      ]
+    },
+    {
+      "titre": "Partager selon un rapport",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Partage 35 € entre Léa et Tom selon le rapport 2 : 3.",
+          "etapes": [
+            "2 + 3 = 5 parts.",
+            "Une part : 35 ÷ 5 = 7 €.",
+            "Léa : 2 × 7 = 14 €. Tom : 3 × 7 = 21 €."
+          ],
+          "conclusion": "Léa reçoit 14 €, Tom 21 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour le rapport 2 : 3, on divise par 2 puis par 3.",
+          "correction": "On additionne les parts : 5 parts en tout."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "5 cahiers coutent 7 €. 8 cahiers coutent :",
+      "options": [
+        "11,20 €",
+        "10 €",
+        "5,60 €"
+      ],
+      "reponse": "11,20 €",
+      "explication": "8 × 7 ÷ 5 = 11,2."
+    },
+    {
+      "consigne": "Partage 60 bonbons selon le rapport 1 : 2 :",
+      "options": [
+        "20 et 40",
+        "30 et 30",
+        "15 et 45"
+      ],
+      "reponse": "20 et 40",
+      "explication": "3 parts de 20."
+    },
+    {
+      "consigne": "Une recette : 150 g de farine pour 4 personnes. Pour 6 personnes :",
+      "options": [
+        "225 g",
+        "200 g",
+        "100 g"
+      ],
+      "reponse": "225 g",
+      "explication": "6 × 150 ÷ 4 = 225."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 7,
+      "extrait": "Le calcul d’une quatrième proportionnelle est systématisé",
+      "appui": "Quatrième proportionnelle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

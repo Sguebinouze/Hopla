@@ -1,0 +1,91 @@
+{
+  "competence": "MA-C4-4E-EQ-51",
+  "duree": 8,
+  "essentiel": "On peut ajouter ou soustraire un même nombre aux deux membres d’une équation. On peut aussi les multiplier ou les diviser par un même nombre non nul.\n3x + 4 = 19 donne 3x = 15, puis x = 5.\nOn regroupe les termes en x dans un membre, les nombres dans l’autre.",
+  "parties": [
+    {
+      "titre": "Résoudre pas à pas",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Résous 5x − 7 = 2x + 8.",
+          "etapes": [
+            "Je soustrais 2x aux deux membres : 3x − 7 = 8.",
+            "J’ajoute 7 : 3x = 15.",
+            "Je divise par 3 : x = 5.",
+            "Vérification : 5 × 5 − 7 = 18 et 2 × 5 + 8 = 18."
+          ],
+          "conclusion": "La solution est 5."
+        },
+        {
+          "type": "question",
+          "consigne": "Résous 4x − 3 = 9.",
+          "options": [
+            "x = 3",
+            "x = 1,5",
+            "x = 12"
+          ],
+          "reponse": "x = 3",
+          "explication": "4x = 12, puis x = 3."
+        }
+      ]
+    },
+    {
+      "titre": "Avec des parenthèses",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "2(x + 3) = 14. On développe : 2x + 6 = 14. Puis 2x = 8, donc x = 4."
+        },
+        {
+          "type": "piege",
+          "erreur": "On passe un terme de l’autre côté sans changer son signe.",
+          "correction": "On fait la même opération des deux côtés : soustraire 2x, ajouter 7. Le signe change de lui-même."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Résous 7x + 2 = 3x + 18.",
+      "options": [
+        "x = 4",
+        "x = 2",
+        "x = 5"
+      ],
+      "reponse": "x = 4",
+      "explication": "4x = 16."
+    },
+    {
+      "consigne": "Résous −2x = 10.",
+      "options": [
+        "x = −5",
+        "x = 5",
+        "x = 12"
+      ],
+      "reponse": "x = −5",
+      "explication": "On divise par −2."
+    },
+    {
+      "consigne": "Le double d’un nombre augmenté de 5 vaut 17. Ce nombre est :",
+      "options": [
+        "6",
+        "11",
+        "8,5"
+      ],
+      "reponse": "6",
+      "explication": "2x + 5 = 17, donc x = 6."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 5,
+      "extrait": "Elles permettent d’aborder la mise en équation d’un problème et la résolution algébrique d’une équation du premier degré.",
+      "appui": "Équations du premier degré"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
