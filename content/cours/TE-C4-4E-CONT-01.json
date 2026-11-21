@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-4E-CONT-01",
+  "duree": 6,
+  "essentiel": "Un cahier des charges décrit ce que doit faire un objet et les contraintes à respecter : cout, sécurité, environnement, normes.\nLes normes et labels garantissent certaines qualités.\nUn jouet vendu en Europe doit porter le marquage CE et ne pas contenir de petites pièces avant 3 ans.",
+  "parties": [
+    {
+      "titre": "Contraintes et exigences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un jouet pour enfant de 2 ans",
+          "colonnes": [
+            "Contrainte",
+            "Exigence"
+          ],
+          "lignes": [
+            [
+              "sécurité",
+              "pas de petites pièces, pas de bords coupants"
+            ],
+            [
+              "santé",
+              "peinture sans substances toxiques"
+            ],
+            [
+              "réglementation",
+              "marquage CE"
+            ],
+            [
+              "cout",
+              "prix de vente maximal"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le marquage CE indique que le produit :",
+          "options": [
+            "respecte les exigences européennes",
+            "est fabriqué en Europe",
+            "est gratuit"
+          ],
+          "reponse": "respecte les exigences européennes",
+          "explication": "Il ne dit pas où il a été fabriqué."
+        }
+      ]
+    },
+    {
+      "titre": "Normes et labels",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une norme fixe des règles communes, par exemple la forme d’une prise. Un label signale une qualité, comme un faible impact environnemental."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que CE signifie « fabriqué en Europe ».",
+          "correction": "C’est une déclaration de conformité aux règles européennes, quel que soit le pays de fabrication."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un cahier des charges décrit :",
+      "options": [
+        "les fonctions et les contraintes d’un objet",
+        "le mode d’emploi seulement",
+        "le prix de vente seulement"
+      ],
+      "reponse": "les fonctions et les contraintes d’un objet",
+      "explication": "Il guide la conception."
+    },
+    {
+      "consigne": "Une norme sert à :",
+      "options": [
+        "fixer des règles communes",
+        "faire de la publicité",
+        "augmenter le prix"
+      ],
+      "reponse": "fixer des règles communes",
+      "explication": "Par exemple la forme des prises."
+    },
+    {
+      "consigne": "Les petites pièces sont interdites dans les jouets avant 3 ans à cause du risque :",
+      "options": [
+        "d’étouffement",
+        "d’incendie",
+        "d’électrocution"
+      ],
+      "reponse": "d’étouffement",
+      "explication": "Les jeunes enfants les portent à la bouche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 8,
+      "extrait": "Les contraintes : prise en compte des exigences issues des normes ou d’un cahier des charges",
+      "appui": "Contraintes et cahier des charges"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

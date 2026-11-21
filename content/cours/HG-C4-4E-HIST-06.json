@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-HIST-06",
+  "duree": 7,
+  "essentiel": "En 1848, le suffrage universel masculin est instauré : tous les hommes de plus de 21 ans peuvent voter.\nAprès le Second Empire, la IIIe République, née en 1870, s’enracine grâce aux lois sur les libertés, l’école et la laïcité.\nLes femmes restent exclues du vote jusqu’en 1944.",
+  "parties": [
+    {
+      "titre": "Une République qui s’enracine",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les grandes lois",
+          "colonnes": [
+            "Année",
+            "Loi"
+          ],
+          "lignes": [
+            [
+              "1881",
+              "liberté de la presse, liberté de réunion"
+            ],
+            [
+              "1881-1882",
+              "école gratuite, laïque et obligatoire"
+            ],
+            [
+              "1884",
+              "liberté syndicale"
+            ],
+            [
+              "1905",
+              "séparation des Églises et de l’État"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La loi de 1905 établit :",
+          "options": [
+            "la séparation des Églises et de l’État",
+            "le vote des femmes",
+            "l’école obligatoire"
+          ],
+          "reponse": "la séparation des Églises et de l’État",
+          "explication": "L’État ne reconnait ni ne finance aucun culte."
+        }
+      ]
+    },
+    {
+      "titre": "L’affaire Dreyfus",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En 1894, le capitaine Dreyfus, juif, est condamné à tort pour trahison. L’affaire divise la France jusqu’à sa réhabilitation en 1906."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le suffrage de 1848 est vraiment universel.",
+          "correction": "Il exclut les femmes : il est seulement masculin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La IIIe République est proclamée en :",
+      "options": [
+        "1870",
+        "1848",
+        "1958"
+      ],
+      "reponse": "1870",
+      "explication": "Après la défaite contre la Prusse."
+    },
+    {
+      "consigne": "Les femmes votent en France grâce à une ordonnance de :",
+      "options": [
+        "1944",
+        "1848",
+        "1905"
+      ],
+      "reponse": "1944",
+      "explication": "Elles votent pour la première fois en 1945."
+    },
+    {
+      "consigne": "Dreyfus est :",
+      "options": [
+        "un officier condamné à tort",
+        "un président",
+        "un philosophe des Lumières"
+      ],
+      "reponse": "un officier condamné à tort",
+      "explication": "Il est réhabilité en 1906."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 84,
+      "extrait": "De 1815 à 1870, des Français votent : qui vote ? pour élire qui ?",
+      "appui": "Voter et la IIIe République"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

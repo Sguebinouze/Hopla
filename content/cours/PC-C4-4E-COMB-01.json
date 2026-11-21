@@ -1,0 +1,112 @@
+{
+  "competence": "PC-C4-4E-COMB-01",
+  "duree": 7,
+  "essentiel": "Une combustion consomme un combustible et du dioxygène.\nComplète, elle donne du dioxyde de carbone et de l’eau, avec une flamme bleue.\nIncomplète, par manque de dioxygène, elle donne une flamme jaune, de la suie et du monoxyde de carbone, un gaz mortel et inodore.",
+  "parties": [
+    {
+      "titre": "Réactifs et produits",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Combustion du gaz de cuisine",
+          "colonnes": [
+            "Critère",
+            "Complète",
+            "Incomplète"
+          ],
+          "lignes": [
+            [
+              "flamme",
+              "bleue",
+              "jaune, fumée"
+            ],
+            [
+              "produits",
+              "dioxyde de carbone, eau",
+              "monoxyde de carbone, carbone (suie), dioxyde de carbone, eau"
+            ],
+            [
+              "danger",
+              "faible",
+              "intoxication au monoxyde de carbone"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une flamme jaune qui noircit la casserole indique :",
+          "options": [
+            "une combustion incomplète",
+            "une combustion complète",
+            "l’absence de combustion"
+          ],
+          "reponse": "une combustion incomplète",
+          "explication": "La suie est du carbone non brulé."
+        }
+      ]
+    },
+    {
+      "titre": "Se protéger",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Contre le monoxyde de carbone.",
+          "exemples": [
+            "aérer chaque jour",
+            "faire entretenir chaudières et poêles",
+            "installer un détecteur de monoxyde de carbone",
+            "ne jamais faire tourner un moteur dans un local fermé"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on sentirait un gaz dangereux.",
+          "correction": "Le monoxyde de carbone est inodore et invisible : seul un détecteur le repère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le monoxyde de carbone a pour formule :",
+      "options": [
+        "CO",
+        "CO₂",
+        "O₂"
+      ],
+      "reponse": "CO",
+      "explication": "Un seul atome d’oxygène."
+    },
+    {
+      "consigne": "Pour tester la présence de dioxyde de carbone, on utilise :",
+      "options": [
+        "l’eau de chaux",
+        "le sulfate de cuivre",
+        "une flamme"
+      ],
+      "reponse": "l’eau de chaux",
+      "explication": "Elle se trouble."
+    },
+    {
+      "consigne": "Une combustion incomplète est due à :",
+      "options": [
+        "un manque de dioxygène",
+        "un excès de dioxygène",
+        "trop d’eau"
+      ],
+      "reponse": "un manque de dioxygène",
+      "explication": "Le combustible ne brule pas entièrement."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Combustions dans l’air.",
+      "appui": "Les combustions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

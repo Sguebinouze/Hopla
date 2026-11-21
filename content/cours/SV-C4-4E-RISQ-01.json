@@ -1,0 +1,128 @@
+{
+  "competence": "SV-C4-4E-RISQ-01",
+  "duree": 6,
+  "essentiel": "Un aléa est un phénomène naturel possible : séisme, inondation, éruption. Les enjeux sont les personnes et les biens exposés.\nLe risque existe quand un aléa menace des enjeux. Un séisme dans un désert vide ne crée pas de risque majeur.\nOn réduit le risque par la prévision, la prévention et la protection.",
+  "parties": [
+    {
+      "titre": "Aléa, enjeux, risque",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Situation",
+            "Aléa",
+            "Enjeux",
+            "Risque"
+          ],
+          "lignes": [
+            [
+              "séisme dans un désert",
+              "fort",
+              "très faibles",
+              "faible"
+            ],
+            [
+              "séisme sous une grande ville",
+              "fort",
+              "très forts",
+              "majeur"
+            ],
+            [
+              "crue dans une vallée habitée",
+              "moyen",
+              "forts",
+              "élevé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les enjeux désignent :",
+          "options": [
+            "les personnes et les biens exposés",
+            "la force du séisme",
+            "la météo"
+          ],
+          "reponse": "les personnes et les biens exposés",
+          "explication": "Ce qui peut être touché."
+        }
+      ]
+    },
+    {
+      "titre": "Réduire le risque",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois types de mesures",
+          "colonnes": [
+            "Mesure",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "prévision",
+              "surveiller un volcan, vigilance météo"
+            ],
+            [
+              "prévention",
+              "interdire de construire en zone inondable, exercices"
+            ],
+            [
+              "protection",
+              "digues, bâtiments parasismiques"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut supprimer l’aléa.",
+          "correction": "On ne peut pas empêcher un séisme. On agit sur les enjeux : leur exposition et leur vulnérabilité."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Construire une digue est une mesure de :",
+      "options": [
+        "protection",
+        "prévision",
+        "prévention seulement"
+      ],
+      "reponse": "protection",
+      "explication": "Elle protège des inondations."
+    },
+    {
+      "consigne": "Surveiller un volcan avec des capteurs, c’est de la :",
+      "options": [
+        "prévision",
+        "protection",
+        "reconstruction"
+      ],
+      "reponse": "prévision",
+      "explication": "On anticipe l’éruption."
+    },
+    {
+      "consigne": "Un risque majeur suppose :",
+      "options": [
+        "un aléa et des enjeux importants",
+        "un aléa seul",
+        "des enjeux sans aléa"
+      ],
+      "reponse": "un aléa et des enjeux importants",
+      "explication": "Les deux ensemble."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 110,
+      "extrait": "Notions d’aléas, de vulnérabilité et de risque en lien avec les phénomènes naturels ; prévisions.",
+      "appui": "Aléas et risques naturels"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

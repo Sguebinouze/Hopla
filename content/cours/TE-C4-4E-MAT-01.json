@@ -1,0 +1,107 @@
+{
+  "competence": "TE-C4-4E-MAT-01",
+  "duree": 6,
+  "essentiel": "La forme d’une pièce dépend de son procédé de fabrication et de son matériau.\nLe plastique se moule ou s’imprime en 3D ; le bois se découpe et s’assemble ; le métal se plie, se perce ou se moule.\nUne coque de téléphone en plastique est obtenue par moulage.",
+  "parties": [
+    {
+      "titre": "Procédés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Matériaux et procédés",
+          "colonnes": [
+            "Procédé",
+            "Principe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "moulage",
+              "matière chaude injectée dans un moule",
+              "coque en plastique"
+            ],
+            [
+              "découpe",
+              "on enlève la matière en trop",
+              "support en bois"
+            ],
+            [
+              "pliage",
+              "on déforme une tôle",
+              "boitier en aluminium"
+            ],
+            [
+              "impression 3D",
+              "on ajoute la matière couche par couche",
+              "prototype en plastique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une pièce fabriquée couche par couche est obtenue par :",
+          "options": [
+            "impression 3D",
+            "moulage",
+            "pliage"
+          ],
+          "reponse": "impression 3D",
+          "explication": "C’est une fabrication additive."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On choisit un procédé sans penser à la quantité à produire.",
+          "correction": "Un moule coute cher : il est rentable pour des milliers de pièces. Pour un prototype, l’impression 3D convient mieux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour fabriquer des milliers de coques identiques, on choisit :",
+      "options": [
+        "le moulage",
+        "l’impression 3D",
+        "la découpe à la main"
+      ],
+      "reponse": "le moulage",
+      "explication": "Rapide une fois le moule fait."
+    },
+    {
+      "consigne": "La découpe est un procédé :",
+      "options": [
+        "par enlèvement de matière",
+        "par ajout de matière",
+        "par fusion"
+      ],
+      "reponse": "par enlèvement de matière",
+      "explication": "On retire ce qui dépasse."
+    },
+    {
+      "consigne": "L’impression 3D est particulièrement adaptée pour :",
+      "options": [
+        "un prototype",
+        "un million de pièces",
+        "une poutre en acier"
+      ],
+      "reponse": "un prototype",
+      "explication": "Peu de pièces, forme libre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Mettre en relation la forme d’une pièce",
+      "appui": "Matériaux et procédés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

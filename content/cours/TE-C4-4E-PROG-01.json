@@ -1,0 +1,112 @@
+{
+  "competence": "TE-C4-4E-PROG-01",
+  "duree": 6,
+  "essentiel": "Pour ajouter une fonctionnalité, on analyse les données du capteur, puis on complète le programme.\nSerre automatique : si la température dépasse 30 °C, alors le ventilateur se met en marche.\nOn teste ensuite dans plusieurs situations pour valider la modification.",
+  "parties": [
+    {
+      "titre": "Compléter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Programme de la serre",
+          "etapes": [
+            "Répéter indéfiniment :",
+            "lire la température ;",
+            "si la température > 30, alors allumer le ventilateur ;",
+            "sinon, éteindre le ventilateur."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La température est de 28 °C. Le ventilateur est :",
+          "options": [
+            "éteint",
+            "allumé",
+            "cassé"
+          ],
+          "reponse": "éteint",
+          "explication": "28 n’est pas supérieur à 30."
+        }
+      ]
+    },
+    {
+      "titre": "Tester et valider",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Plan de test",
+          "colonnes": [
+            "Température simulée",
+            "Attendu",
+            "Observé"
+          ],
+          "lignes": [
+            [
+              "25 °C",
+              "ventilateur éteint",
+              "à noter"
+            ],
+            [
+              "30 °C",
+              "ventilateur éteint",
+              "à noter"
+            ],
+            [
+              "32 °C",
+              "ventilateur allumé",
+              "à noter"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On teste seulement un cas qui marche.",
+          "correction": "On teste aussi la valeur limite, ici 30 °C, et les cas opposés."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La valeur 30 °C est, pour le programme :",
+      "options": [
+        "un seuil",
+        "un capteur",
+        "un actionneur"
+      ],
+      "reponse": "un seuil",
+      "explication": "Elle déclenche le changement."
+    },
+    {
+      "consigne": "Pour valider un programme, on :",
+      "options": [
+        "le teste dans plusieurs situations",
+        "le relit une fois",
+        "le copie"
+      ],
+      "reponse": "le teste dans plusieurs situations",
+      "explication": "Y compris les cas limites."
+    },
+    {
+      "consigne": "Pour allumer le ventilateur dès 28 °C, on modifie :",
+      "options": [
+        "le seuil",
+        "le capteur",
+        "le ventilateur"
+      ],
+      "reponse": "le seuil",
+      "explication": "On remplace 30 par 28."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 14,
+      "extrait": "Compléter un programme pour répondre",
+      "appui": "Compléter et tester un programme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,128 @@
+{
+  "competence": "HG-C4-4E-HIST-03",
+  "duree": 8,
+  "essentiel": "La Révolution française met fin à la monarchie absolue et à la société d’ordres. Le 26 aout 1789, l’Assemblée adopte la Déclaration des droits de l’homme et du citoyen.\nLa République est proclamée en 1792.\nNapoléon Bonaparte prend le pouvoir en 1799 et devient empereur en 1804. Il conserve certains acquis : le Code civil, l’égalité devant la loi.",
+  "parties": [
+    {
+      "titre": "Les grandes étapes",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1789,
+              "date": "1789",
+              "evenement": "États généraux, prise de la Bastille, Déclaration des droits."
+            },
+            {
+              "annee": 1792,
+              "date": "1792",
+              "evenement": "Proclamation de la République."
+            },
+            {
+              "annee": 1799,
+              "date": "1799",
+              "evenement": "Coup d’État de Bonaparte."
+            },
+            {
+              "annee": 1804,
+              "date": "1804",
+              "evenement": "Napoléon empereur ; Code civil."
+            },
+            {
+              "annee": 1815,
+              "date": "1815",
+              "evenement": "Défaite de Waterloo."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La République est proclamée en :",
+          "options": [
+            "1792",
+            "1789",
+            "1804"
+          ],
+          "reponse": "1792",
+          "explication": "Après la chute de la monarchie."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui reste de cette période",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des héritages",
+          "colonnes": [
+            "Domaine",
+            "Héritage"
+          ],
+          "lignes": [
+            [
+              "politique",
+              "souveraineté nationale, droits de l’homme"
+            ],
+            [
+              "société",
+              "fin des privilèges, égalité devant la loi"
+            ],
+            [
+              "administration",
+              "départements, préfets, lycées, Code civil"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Napoléon prolonge la République démocratique.",
+          "correction": "Il gouverne de façon autoritaire : censure, pouvoir personnel. Il garde certains acquis de 1789."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Code civil de 1804 :",
+      "options": [
+        "rassemble les lois civiles de la France",
+        "rétablit les privilèges",
+        "crée les départements"
+      ],
+      "reponse": "rassemble les lois civiles de la France",
+      "explication": "Il fixe l’égalité devant la loi."
+    },
+    {
+      "consigne": "Les préfets, créés en 1800, représentent :",
+      "options": [
+        "l’État dans chaque département",
+        "les paysans",
+        "l’Église"
+      ],
+      "reponse": "l’État dans chaque département",
+      "explication": "Une administration centralisée."
+    },
+    {
+      "consigne": "Napoléon est battu définitivement à :",
+      "options": [
+        "Waterloo",
+        "Austerlitz",
+        "Bouvines"
+      ],
+      "reponse": "Waterloo",
+      "explication": "En 1815."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "On caractérise les apports de la Révolution française, dans",
+      "appui": "La Révolution et l’Empire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

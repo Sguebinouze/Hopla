@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-4E-DATA-01",
+  "duree": 6,
+  "essentiel": "Un tableur range les données dans des cellules repérées par une colonne et une ligne : A1, B3.\nUne formule commence par = : =MOYENNE(B2:B10) calcule la moyenne des cellules B2 à B10.\nTrier range les lignes dans un ordre ; filtrer n’affiche que celles qui respectent une condition.",
+  "parties": [
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des formules",
+          "colonnes": [
+            "Formule",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "=SOMME(B2:B10)",
+              "somme des valeurs"
+            ],
+            [
+              "=MOYENNE(B2:B10)",
+              "moyenne"
+            ],
+            [
+              "=MAX(B2:B10)",
+              "plus grande valeur"
+            ],
+            [
+              "=MIN(B2:B10)",
+              "plus petite valeur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour trouver la température la plus élevée relevée, on utilise :",
+          "options": [
+            "=MAX(…)",
+            "=MIN(…)",
+            "=SOMME(…)"
+          ],
+          "reponse": "=MAX(…)",
+          "explication": "MAX renvoie la plus grande valeur."
+        }
+      ]
+    },
+    {
+      "titre": "Trier et filtrer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Trier les relevés du plus chaud au plus froid montre les extrêmes. Filtrer « > 25 » n’affiche que les moments où il a fait plus de 25 °C."
+        },
+        {
+          "type": "piege",
+          "erreur": "On trie une seule colonne et les données se mélangent.",
+          "correction": "On trie toutes les colonnes ensemble pour que chaque heure garde sa température."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une formule de tableur commence par :",
+      "options": [
+        "=",
+        "+",
+        "#"
+      ],
+      "reponse": "=",
+      "explication": "Sinon c’est du texte."
+    },
+    {
+      "consigne": "Filtrer des données, c’est :",
+      "options": [
+        "n’afficher que celles qui respectent une condition",
+        "les supprimer toutes",
+        "les colorier"
+      ],
+      "reponse": "n’afficher que celles qui respectent une condition",
+      "explication": "Les autres sont masquées, pas effacées."
+    },
+    {
+      "consigne": "La cellule C4 se trouve :",
+      "options": [
+        "colonne C, ligne 4",
+        "colonne 4, ligne C",
+        "feuille C, page 4"
+      ],
+      "reponse": "colonne C, ligne 4",
+      "explication": "Lettre pour la colonne, nombre pour la ligne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Traitement des données : mise en forme et traitement de données (calculs, filtre, tri)",
+      "appui": "Trier et filtrer dans un tableur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

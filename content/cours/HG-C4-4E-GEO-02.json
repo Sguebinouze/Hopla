@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-02",
+  "duree": 7,
+  "essentiel": "Environ 300 millions de personnes vivent dans un autre pays que celui où elles sont nées.\nOn migre pour travailler, étudier, rejoindre sa famille, fuir une guerre ou une catastrophe.\nUne grande partie des migrations se fait entre pays du Sud, pas seulement du Sud vers le Nord.",
+  "parties": [
+    {
+      "titre": "Des migrations variées",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Types de migrants",
+          "colonnes": [
+            "Type",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "migrant de travail",
+              "un ouvrier indien dans les pays du Golfe"
+            ],
+            [
+              "réfugié",
+              "une famille syrienne qui fuit la guerre"
+            ],
+            [
+              "étudiant",
+              "un étudiant espagnol en Italie avec Erasmus"
+            ],
+            [
+              "migrant climatique",
+              "des paysans chassés par la sécheresse"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un réfugié est une personne qui :",
+          "options": [
+            "fuit une guerre ou des persécutions",
+            "part en vacances",
+            "change de région dans son pays"
+          ],
+          "reponse": "fuit une guerre ou des persécutions",
+          "explication": "Elle demande la protection d’un autre pays."
+        }
+      ]
+    },
+    {
+      "titre": "Des effets dans les deux pays",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les migrants envoient souvent de l’argent à leur famille. Ces envois comptent beaucoup dans l’économie de certains pays de départ."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les migrants vont vers l’Europe ou l’Amérique du Nord.",
+          "correction": "Beaucoup migrent vers un pays voisin, par exemple en Afrique de l’Ouest ou en Asie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un étudiant Erasmus qui part un an à l’étranger effectue :",
+      "options": [
+        "une mobilité internationale",
+        "une migration interne",
+        "un exode rural"
+      ],
+      "reponse": "une mobilité internationale",
+      "explication": "Il franchit une frontière."
+    },
+    {
+      "consigne": "Les pays du Golfe attirent surtout :",
+      "options": [
+        "des migrants de travail",
+        "des réfugiés climatiques",
+        "des retraités"
+      ],
+      "reponse": "des migrants de travail",
+      "explication": "Pour les chantiers et les services."
+    },
+    {
+      "consigne": "Les migrations entre pays du Sud sont :",
+      "options": [
+        "très nombreuses",
+        "inexistantes",
+        "interdites"
+      ],
+      "reponse": "très nombreuses",
+      "explication": "Elles représentent une grande part des migrations."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 89,
+      "extrait": "Les migrations transnationales, dont les motivations peuvent",
+      "appui": "Un monde de migrants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

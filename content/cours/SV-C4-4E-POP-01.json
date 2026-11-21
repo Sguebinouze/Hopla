@@ -1,0 +1,102 @@
+{
+  "competence": "SV-C4-4E-POP-01",
+  "duree": 6,
+  "essentiel": "L’effectif d’une population varie selon les naissances, les morts, les arrivées et les départs.\nLes ressources disponibles et les prédateurs influencent ces variations.\nQuand les lynx sont nombreux, les lièvres diminuent ; puis les lynx, privés de nourriture, diminuent à leur tour.",
+  "parties": [
+    {
+      "titre": "Ce qui fait varier une population",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Facteurs",
+          "colonnes": [
+            "L’effectif augmente si…",
+            "L’effectif diminue si…"
+          ],
+          "lignes": [
+            [
+              "les naissances sont nombreuses",
+              "les morts sont nombreuses"
+            ],
+            [
+              "la nourriture abonde",
+              "la nourriture manque"
+            ],
+            [
+              "les prédateurs sont rares",
+              "les prédateurs sont nombreux"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les lièvres deviennent rares. Les lynx vont :",
+          "options": [
+            "diminuer",
+            "augmenter",
+            "rester stables"
+          ],
+          "reponse": "diminuer",
+          "explication": "Leur nourriture manque."
+        }
+      ]
+    },
+    {
+      "titre": "Des cycles",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les effectifs des lynx et des lièvres du Canada varient en cycles d’une dizaine d’années, les pics des lynx suivant ceux des lièvres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les prédateurs finissent par faire disparaitre leurs proies.",
+          "correction": "Quand les proies se raréfient, les prédateurs diminuent aussi : les proies peuvent se reconstituer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’effectif d’une population est :",
+      "options": [
+        "le nombre d’individus",
+        "la taille des individus",
+        "leur âge moyen"
+      ],
+      "reponse": "le nombre d’individus",
+      "explication": "On compte les individus."
+    },
+    {
+      "consigne": "Une population augmente si :",
+      "options": [
+        "les naissances dépassent les morts",
+        "les morts dépassent les naissances",
+        "la nourriture manque"
+      ],
+      "reponse": "les naissances dépassent les morts",
+      "explication": "Le solde est positif."
+    },
+    {
+      "consigne": "Dans le cycle lynx-lièvres, le pic des lynx arrive :",
+      "options": [
+        "après celui des lièvres",
+        "avant celui des lièvres",
+        "au hasard"
+      ],
+      "reponse": "après celui des lièvres",
+      "explication": "Ils ont d’abord besoin de proies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "Dynamique des populations et paramètres",
+      "appui": "Dynamique des populations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

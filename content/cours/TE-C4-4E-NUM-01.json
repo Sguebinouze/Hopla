@@ -1,0 +1,102 @@
+{
+  "competence": "TE-C4-4E-NUM-01",
+  "duree": 6,
+  "essentiel": "Tout ce que l’on publie et laisse en ligne forme notre identité numérique.\nLes cookies, ou témoins de connexion, enregistrent notre navigation ; la géolocalisation révèle où nous sommes.\nLes œuvres en ligne sont protégées par le droit d’auteur : on vérifie leur licence avant de les réutiliser.",
+  "parties": [
+    {
+      "titre": "Maitriser ses traces",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des réglages utiles",
+          "colonnes": [
+            "Situation",
+            "Bon réflexe"
+          ],
+          "lignes": [
+            [
+              "bandeau de cookies",
+              "refuser les cookies non nécessaires"
+            ],
+            [
+              "application qui demande la position",
+              "autoriser seulement pendant l’utilisation, si c’est utile"
+            ],
+            [
+              "profil sur un réseau social",
+              "compte privé, peu d’informations personnelles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Accepter tous les cookies d’un site permet :",
+          "options": [
+            "de suivre ta navigation",
+            "de protéger ton ordinateur",
+            "d’accélérer Internet"
+          ],
+          "reponse": "de suivre ta navigation",
+          "explication": "Ils servent souvent à la publicité ciblée."
+        }
+      ]
+    },
+    {
+      "titre": "Respecter les auteurs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une image sous licence Creative Commons peut être réutilisée en respectant ses conditions, par exemple en citant l’auteur."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une image trouvée sur Internet est libre de droits.",
+          "correction": "Par défaut, elle appartient à son auteur. On vérifie la licence ou on demande l’autorisation."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Ton identité numérique comprend :",
+      "options": [
+        "tout ce que tu publies et ce qu’on publie sur toi",
+        "seulement ton mot de passe",
+        "ton adresse postale seulement"
+      ],
+      "reponse": "tout ce que tu publies et ce qu’on publie sur toi",
+      "explication": "Elle se construit au fil du temps."
+    },
+    {
+      "consigne": "Les cookies sont :",
+      "options": [
+        "des fichiers qui enregistrent ta navigation",
+        "des virus",
+        "des mots de passe"
+      ],
+      "reponse": "des fichiers qui enregistrent ta navigation",
+      "explication": "Ils sont aussi appelés témoins de connexion."
+    },
+    {
+      "consigne": "Pour réutiliser une photo trouvée en ligne, on vérifie :",
+      "options": [
+        "sa licence",
+        "sa taille",
+        "sa couleur"
+      ],
+      "reponse": "sa licence",
+      "explication": "Le droit d’auteur s’applique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 7,
+      "extrait": "Identifier et appliquer les règles pour",
+      "appui": "Usage raisonné du numérique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

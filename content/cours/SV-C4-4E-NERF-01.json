@@ -1,0 +1,90 @@
+{
+  "competence": "SV-C4-4E-NERF-01",
+  "duree": 8,
+  "essentiel": "Un organe des sens capte une information et envoie un message nerveux, par un nerf, vers un centre nerveux : le cerveau ou la moelle épinière.\nLe centre nerveux élabore une réponse, transmise par un nerf jusqu’aux muscles.\nLes messages circulent dans des cellules spécialisées, les neurones, reliés par des synapses.",
+  "parties": [
+    {
+      "titre": "Le trajet du message",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Je touche un objet brulant",
+          "etapes": [
+            "La peau capte la chaleur : c’est le récepteur.",
+            "Un nerf sensitif conduit le message vers la moelle épinière.",
+            "La moelle épinière élabore une réponse immédiate : c’est un réflexe.",
+            "Un nerf moteur commande les muscles : je retire la main."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans un réflexe de retrait, le centre nerveux est :",
+          "options": [
+            "la moelle épinière",
+            "l’estomac",
+            "le cœur"
+          ],
+          "reponse": "la moelle épinière",
+          "explication": "La réponse est très rapide."
+        }
+      ]
+    },
+    {
+      "titre": "Neurones et synapses",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Au niveau d’une synapse, le message passe d’un neurone à l’autre grâce à des molécules chimiques. Alcool, cannabis et nicotine perturbent ce passage."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les nerfs prennent des décisions.",
+          "correction": "Les nerfs transportent les messages. Ce sont les centres nerveux qui élaborent les réponses."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un neurone est :",
+      "options": [
+        "une cellule nerveuse",
+        "un muscle",
+        "un os"
+      ],
+      "reponse": "une cellule nerveuse",
+      "explication": "Il transmet le message nerveux."
+    },
+    {
+      "consigne": "Le nerf qui conduit le message vers un muscle est :",
+      "options": [
+        "moteur",
+        "sensitif",
+        "digestif"
+      ],
+      "reponse": "moteur",
+      "explication": "Il commande le mouvement."
+    },
+    {
+      "consigne": "L’alcool agit sur le système nerveux au niveau :",
+      "options": [
+        "des synapses",
+        "des os",
+        "des poumons"
+      ],
+      "reponse": "des synapses",
+      "explication": "Il perturbe le passage des messages."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 114,
+      "extrait": "cellulaire et le fonctionnement cérébral ne seront développés qu'à partir de la 4e",
+      "appui": "Système nerveux et cerveau"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

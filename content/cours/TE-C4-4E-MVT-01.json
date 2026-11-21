@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-4E-MVT-01",
+  "duree": 7,
+  "essentiel": "Les mécanismes de transmission transmettent un mouvement de rotation : engrenages, poulies-courroie, pignons-chaîne.\nLe système pignon-crémaillère transforme une rotation en translation.\nSur un vélo, la chaîne transmet la rotation du pédalier à la roue arrière.",
+  "parties": [
+    {
+      "titre": "Transmettre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des mécanismes",
+          "colonnes": [
+            "Mécanisme",
+            "Mouvement",
+            "Sens de rotation"
+          ],
+          "lignes": [
+            [
+              "engrenage",
+              "rotation → rotation",
+              "inversé"
+            ],
+            [
+              "poulies-courroie",
+              "rotation → rotation",
+              "identique"
+            ],
+            [
+              "pignons-chaîne",
+              "rotation → rotation",
+              "identique"
+            ],
+            [
+              "pignon-crémaillère",
+              "rotation → translation",
+              "sans objet"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Deux roues dentées en contact tournent :",
+          "options": [
+            "en sens inverse",
+            "dans le même sens",
+            "sans tourner"
+          ],
+          "reponse": "en sens inverse",
+          "explication": "Les dents poussent dans l’autre sens."
+        }
+      ]
+    },
+    {
+      "titre": "Le rapport de vitesse",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un pédalier de 48 dents entraine un pignon de 16 dents : la roue fait 3 tours quand le pédalier en fait 1."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un grand plateau fait tourner la roue moins vite.",
+          "correction": "Plus le plateau a de dents par rapport au pignon, plus la roue tourne vite à chaque tour de pédale."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une porte de garage qui monte grâce à un moteur peut utiliser :",
+      "options": [
+        "un pignon et une crémaillère",
+        "une seule poulie",
+        "un ressort seul"
+      ],
+      "reponse": "un pignon et une crémaillère",
+      "explication": "La rotation devient translation."
+    },
+    {
+      "consigne": "Plateau de 40 dents, pignon de 20 dents. Pour 1 tour de pédalier, la roue fait :",
+      "options": [
+        "2 tours",
+        "0,5 tour",
+        "20 tours"
+      ],
+      "reponse": "2 tours",
+      "explication": "40 ÷ 20."
+    },
+    {
+      "consigne": "Avec une courroie, les deux poulies tournent :",
+      "options": [
+        "dans le même sens",
+        "en sens inverse",
+        "de façon aléatoire"
+      ],
+      "reponse": "dans le même sens",
+      "explication": "La courroie les entraine pareil."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Les mécanismes de transmission et de transformation de mouvements (engrenages, courroies, chaînes)",
+      "appui": "Engrenages, courroies, chaînes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

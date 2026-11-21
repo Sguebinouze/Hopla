@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-4E-REP-01",
+  "duree": 5,
+  "essentiel": "À l’atelier, on porte les équipements de protection individuelle adaptés : lunettes, blouse, chaussures fermées.\nCheveux attachés, pas de bijoux ni d’écharpe près d’une machine qui tourne.\nOn utilise un outil en bon état, et on connait l’emplacement de l’arrêt d’urgence.",
+  "parties": [
+    {
+      "titre": "Les règles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Machines et protections",
+          "colonnes": [
+            "Situation",
+            "Protection"
+          ],
+          "lignes": [
+            [
+              "perceuse",
+              "lunettes, cheveux attachés, pièce fixée dans un étau"
+            ],
+            [
+              "scie",
+              "lunettes, mains loin de la lame"
+            ],
+            [
+              "colle chaude",
+              "attention aux brulures, support adapté"
+            ],
+            [
+              "machine qui tourne",
+              "pas de gants, pas de manches flottantes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "À la perceuse, on porte :",
+          "options": [
+            "des lunettes de protection",
+            "des gants en laine",
+            "une écharpe"
+          ],
+          "reponse": "des lunettes de protection",
+          "explication": "Contre les projections de copeaux."
+        }
+      ]
+    },
+    {
+      "titre": "En cas de problème",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les bons réflexes",
+          "etapes": [
+            "Appuie sur l’arrêt d’urgence.",
+            "Préviens immédiatement l’enseignant.",
+            "Ne touche pas une machine en panne."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On porte des gants sur une perceuse pour se protéger.",
+          "correction": "Un gant peut être happé par la pièce qui tourne et entrainer la main."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pourquoi attacher ses cheveux près d’une machine qui tourne ?",
+      "options": [
+        "pour éviter qu’ils soient happés",
+        "pour mieux voir",
+        "pour le style"
+      ],
+      "reponse": "pour éviter qu’ils soient happés",
+      "explication": "Une machine peut les entrainer."
+    },
+    {
+      "consigne": "L’arrêt d’urgence sert à :",
+      "options": [
+        "couper immédiatement la machine",
+        "la démarrer",
+        "la nettoyer"
+      ],
+      "reponse": "couper immédiatement la machine",
+      "explication": "Un gros bouton rouge."
+    },
+    {
+      "consigne": "Pour percer une pièce, on la tient :",
+      "options": [
+        "dans un étau",
+        "à la main",
+        "avec le pied"
+      ],
+      "reponse": "dans un étau",
+      "explication": "Elle ne doit pas tourner avec le foret."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 13,
+      "extrait": "Les règles usuelles de sécurité et de mise en œuvre des moyens de réalisation",
+      "appui": "Sécurité à l’atelier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

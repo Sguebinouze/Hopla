@@ -1,0 +1,124 @@
+{
+  "competence": "HG-C4-4E-GEO-03",
+  "duree": 6,
+  "essentiel": "Le tourisme international représente plus d’un milliard d’arrivées chaque année. La France est le pays le plus visité au monde.\nLe tourisme crée des emplois et des revenus, mais il peut abimer les milieux et faire monter les prix.\nChaque été, la population des stations balnéaires de la Méditerranée est multipliée.",
+  "parties": [
+    {
+      "titre": "Des espaces touristiques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Types de tourisme",
+          "colonnes": [
+            "Tourisme",
+            "Espaces"
+          ],
+          "lignes": [
+            [
+              "balnéaire",
+              "littoraux : Côte d’Azur, Baléares"
+            ],
+            [
+              "de montagne",
+              "stations de ski, randonnée"
+            ],
+            [
+              "urbain et culturel",
+              "Paris, Rome, Venise"
+            ],
+            [
+              "vert",
+              "campagnes, parcs naturels"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une station balnéaire est située :",
+          "options": [
+            "au bord de la mer",
+            "en haute montagne",
+            "en centre-ville"
+          ],
+          "reponse": "au bord de la mer",
+          "explication": "Pour les bains de mer."
+        }
+      ]
+    },
+    {
+      "titre": "Effets positifs et négatifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les effets du tourisme",
+          "colonnes": [
+            "Positifs",
+            "Négatifs"
+          ],
+          "lignes": [
+            [
+              "emplois, revenus",
+              "emplois saisonniers et précaires"
+            ],
+            [
+              "équipements : routes, aéroports",
+              "littoraux bétonnés, pollution"
+            ],
+            [
+              "échanges culturels",
+              "surfréquentation, hausse des loyers"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le tourisme profite toujours aux habitants.",
+          "correction": "À Venise, la surfréquentation pousse des habitants à partir, chassés par les prix."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le pays le plus visité au monde est :",
+      "options": [
+        "la France",
+        "le Japon",
+        "le Brésil"
+      ],
+      "reponse": "la France",
+      "explication": "Paris, la Côte d’Azur, les Alpes…"
+    },
+    {
+      "consigne": "La surfréquentation touristique provoque :",
+      "options": [
+        "l’usure des sites et la gêne des habitants",
+        "la baisse des prix",
+        "la fermeture des hôtels"
+      ],
+      "reponse": "l’usure des sites et la gêne des habitants",
+      "explication": "Trop de visiteurs au même endroit."
+    },
+    {
+      "consigne": "Un emploi saisonnier dure :",
+      "options": [
+        "une partie de l’année",
+        "toute la vie",
+        "un jour"
+      ],
+      "reponse": "une partie de l’année",
+      "explication": "Le temps de la saison touristique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 89,
+      "extrait": "Quant au tourisme international, il constitue désormais le",
+      "appui": "Le tourisme et ses espaces"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

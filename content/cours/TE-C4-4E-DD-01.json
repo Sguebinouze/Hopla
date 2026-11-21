@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-4E-DD-01",
+  "duree": 6,
+  "essentiel": "Pour choisir entre plusieurs objets qui répondent au même besoin, on les compare selon des critères.\nCritères possibles : consommation d’énergie, durée de vie, bilan carbone, prix, recyclage.\nUne lampe à DEL consomme beaucoup moins et dure beaucoup plus longtemps qu’une lampe halogène.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Éclairer la classe",
+          "colonnes": [
+            "Critère",
+            "Lampe à DEL",
+            "Lampe halogène"
+          ],
+          "lignes": [
+            [
+              "puissance pour un même éclairage",
+              "faible",
+              "élevée"
+            ],
+            [
+              "durée de vie",
+              "très longue",
+              "courte"
+            ],
+            [
+              "prix d’achat",
+              "plus élevé",
+              "plus faible"
+            ],
+            [
+              "cout sur plusieurs années",
+              "plus faible",
+              "plus élevé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sur plusieurs années, la lampe la plus économique est :",
+          "options": [
+            "la lampe à DEL",
+            "la lampe halogène",
+            "aucune différence"
+          ],
+          "reponse": "la lampe à DEL",
+          "explication": "Elle consomme peu et dure longtemps."
+        }
+      ]
+    },
+    {
+      "titre": "Le bilan carbone",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le bilan carbone additionne les gaz à effet de serre émis à toutes les étapes du cycle de vie de l’objet."
+        },
+        {
+          "type": "piege",
+          "erreur": "On choisit seulement selon le prix d’achat.",
+          "correction": "Un objet moins cher peut couter plus à l’usage et durer moins longtemps."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’étiquette énergie classe les appareils de :",
+      "options": [
+        "A à G",
+        "1 à 100",
+        "rouge à bleu sans lettres"
+      ],
+      "reponse": "A à G",
+      "explication": "A est le plus économe."
+    },
+    {
+      "consigne": "Le bilan carbone d’un objet tient compte :",
+      "options": [
+        "de tout son cycle de vie",
+        "de sa couleur",
+        "de son seul transport"
+      ],
+      "reponse": "de tout son cycle de vie",
+      "explication": "De l’extraction à la fin de vie."
+    },
+    {
+      "consigne": "Pour comparer deux objets, on utilise :",
+      "options": [
+        "les mêmes critères pour chacun",
+        "des critères différents",
+        "son intuition"
+      ],
+      "reponse": "les mêmes critères pour chacun",
+      "explication": "Une comparaison juste."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 9,
+      "extrait": "Identifier les caractéristiques à prendre",
+      "appui": "Comparer des objets"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,116 @@
+{
+  "competence": "TE-C4-4E-LOG-01",
+  "duree": 6,
+  "essentiel": "Une condition peut combiner plusieurs tests avec ET, OU, NON.\nA ET B est vrai si les deux sont vrais. A OU B est vrai si au moins l’un est vrai. NON A inverse A.\nSi (présence ET nuit) alors allumer la lampe.",
+  "parties": [
+    {
+      "titre": "Trois opérateurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tables de vérité",
+          "colonnes": [
+            "présence",
+            "nuit",
+            "présence ET nuit",
+            "présence OU nuit"
+          ],
+          "lignes": [
+            [
+              "faux",
+              "faux",
+              "faux",
+              "faux"
+            ],
+            [
+              "vrai",
+              "faux",
+              "faux",
+              "vrai"
+            ],
+            [
+              "faux",
+              "vrai",
+              "faux",
+              "vrai"
+            ],
+            [
+              "vrai",
+              "vrai",
+              "vrai",
+              "vrai"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Il fait jour et quelqu’un passe. « présence ET nuit » est :",
+          "options": [
+            "faux",
+            "vrai",
+            "impossible"
+          ],
+          "reponse": "faux",
+          "explication": "Nuit est faux."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le bon opérateur",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une alarme sonne si la porte s’ouvre OU si la fenêtre s’ouvre. Une ouverture suffit."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met ET là où une seule condition suffit.",
+          "correction": "Avec ET, l’alarme ne sonnerait que si porte et fenêtre s’ouvraient en même temps."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "NON(vrai) vaut :",
+      "options": [
+        "faux",
+        "vrai",
+        "vrai et faux"
+      ],
+      "reponse": "faux",
+      "explication": "NON inverse la valeur."
+    },
+    {
+      "consigne": "Vrai OU faux vaut :",
+      "options": [
+        "vrai",
+        "faux",
+        "rien"
+      ],
+      "reponse": "vrai",
+      "explication": "Il suffit qu’un des deux soit vrai."
+    },
+    {
+      "consigne": "Un arrosage se déclenche si le sol est sec ET s’il ne pleut pas. On écrit :",
+      "options": [
+        "sec ET NON pluie",
+        "sec OU pluie",
+        "NON sec ET pluie"
+      ],
+      "reponse": "sec ET NON pluie",
+      "explication": "Les deux conditions doivent être vraies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 14,
+      "extrait": "opérateurs arithmétiques et logiques (ET, OU, NON)",
+      "appui": "Variables, ET, OU, NON"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

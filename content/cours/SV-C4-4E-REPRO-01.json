@@ -1,0 +1,115 @@
+{
+  "competence": "SV-C4-4E-REPRO-01",
+  "duree": 7,
+  "essentiel": "À partir de la puberté, sous l’action d’hormones, les testicules produisent des spermatozoïdes en continu.\nLes ovaires libèrent en général un ovule par cycle d’environ 28 jours. Sans fécondation, la muqueuse de l’utérus s’élimine : ce sont les règles.\nDes moyens de contraception permettent de choisir le moment d’avoir un enfant ; le préservatif protège aussi des infections sexuellement transmissibles.",
+  "parties": [
+    {
+      "titre": "Le fonctionnement des appareils reproducteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À partir de la puberté",
+          "colonnes": [
+            "Appareil",
+            "Organe producteur",
+            "Cellules produites"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "testicules",
+              "spermatozoïdes, en continu"
+            ],
+            [
+              "féminin",
+              "ovaires",
+              "un ovule environ tous les 28 jours"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les règles correspondent à :",
+          "options": [
+            "l’élimination de la muqueuse de l’utérus",
+            "la libération d’un ovule",
+            "la fécondation"
+          ],
+          "reponse": "l’élimination de la muqueuse de l’utérus",
+          "explication": "Elles ont lieu en l’absence de fécondation."
+        }
+      ]
+    },
+    {
+      "titre": "Des comportements responsables",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Contraception et protection",
+          "colonnes": [
+            "Moyen",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "préservatif",
+              "empêche la rencontre des gamètes et protège des IST"
+            ],
+            [
+              "pilule",
+              "empêche l’ovulation, ne protège pas des IST"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la pilule protège des infections sexuellement transmissibles.",
+          "correction": "Seul le préservatif protège des IST. Le respect du consentement de chacun est indispensable."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les spermatozoïdes sont produits par :",
+      "options": [
+        "les testicules",
+        "les ovaires",
+        "l’utérus"
+      ],
+      "reponse": "les testicules",
+      "explication": "En continu à partir de la puberté."
+    },
+    {
+      "consigne": "Le seul moyen qui protège des IST est :",
+      "options": [
+        "le préservatif",
+        "la pilule",
+        "le stérilet"
+      ],
+      "reponse": "le préservatif",
+      "explication": "Il fait barrière."
+    },
+    {
+      "consigne": "Un cycle menstruel dure en moyenne :",
+      "options": [
+        "28 jours",
+        "7 jours",
+        "1 an"
+      ],
+      "reponse": "28 jours",
+      "explication": "Il peut varier selon les personnes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 114,
+      "extrait": "L'explication des mécanismes de la reproduction se construit au cours du cycle 4, du",
+      "appui": "Puberté et reproduction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

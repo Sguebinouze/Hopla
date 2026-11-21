@@ -1,0 +1,117 @@
+{
+  "competence": "TE-C4-4E-PERF-01",
+  "duree": 6,
+  "essentiel": "Pour mesurer une performance, on choisit l’appareil adapté et on suit un protocole précis.\nVitesse : mètre et chronomètre. Autonomie : chronomètre, batterie chargée à 100 %. Consommation : wattmètre.\nOn répète la mesure et on note les résultats dans un tableau.",
+  "parties": [
+    {
+      "titre": "Choisir l’appareil",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Performances et appareils",
+          "colonnes": [
+            "Performance",
+            "Appareil",
+            "Unité"
+          ],
+          "lignes": [
+            [
+              "vitesse",
+              "mètre et chronomètre",
+              "m/s"
+            ],
+            [
+              "autonomie",
+              "chronomètre",
+              "h, min"
+            ],
+            [
+              "consommation électrique",
+              "wattmètre",
+              "W, Wh"
+            ],
+            [
+              "masse",
+              "balance",
+              "g, kg"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour mesurer l’énergie consommée par un appareil branché, on utilise :",
+          "options": [
+            "un wattmètre",
+            "un chronomètre seul",
+            "un thermomètre"
+          ],
+          "reponse": "un wattmètre",
+          "explication": "Il se branche entre la prise et l’appareil."
+        }
+      ]
+    },
+    {
+      "titre": "Suivre un protocole",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Mesurer l’autonomie d’un robot",
+          "etapes": [
+            "Charge la batterie à 100 %.",
+            "Lance le robot sur un parcours défini et démarre le chronomètre.",
+            "Arrête le chronomètre quand le robot s’arrête.",
+            "Recommence trois fois et calcule la moyenne."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On compare deux robots testés dans des conditions différentes.",
+          "correction": "Même parcours, même charge de départ : sinon la comparaison n’a pas de sens."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un robot parcourt 6 m en 3 s. Sa vitesse :",
+      "options": [
+        "2 m/s",
+        "18 m/s",
+        "0,5 m/s"
+      ],
+      "reponse": "2 m/s",
+      "explication": "6 ÷ 3."
+    },
+    {
+      "consigne": "Pourquoi répéter une mesure ?",
+      "options": [
+        "pour limiter l’effet des erreurs",
+        "pour perdre du temps",
+        "pour changer d’unité"
+      ],
+      "reponse": "pour limiter l’effet des erreurs",
+      "explication": "On calcule une moyenne."
+    },
+    {
+      "consigne": "Un protocole est :",
+      "options": [
+        "une suite d’étapes précises à suivre",
+        "un appareil de mesure",
+        "un résultat"
+      ],
+      "reponse": "une suite d’étapes précises à suivre",
+      "explication": "Il permet de reproduire la mesure."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 9,
+      "extrait": "Les critères de performance d’un OST",
+      "appui": "Mesurer une performance"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

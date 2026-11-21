@@ -1,0 +1,115 @@
+{
+  "competence": "PC-C4-4E-MAT-01",
+  "duree": 7,
+  "essentiel": "La masse volumique d’une substance est sa masse divisée par son volume : ρ = m ÷ V.\n1 L d’eau a une masse de 1 kg : la masse volumique de l’eau est 1 kg/L, soit 1 g/cm³.\nUn objet flotte sur un liquide si sa masse volumique est plus petite que celle du liquide.",
+  "parties": [
+    {
+      "titre": "Calculer et identifier",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un cube de métal a une masse de 54 g et un volume de 20 cm³. De quel métal s’agit-il ?",
+          "etapes": [
+            "ρ = 54 ÷ 20 = 2,7 g/cm³.",
+            "On compare au tableau : l’aluminium a une masse volumique de 2,7 g/cm³."
+          ],
+          "conclusion": "Le cube est en aluminium."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques masses volumiques",
+          "colonnes": [
+            "Substance",
+            "ρ (g/cm³)"
+          ],
+          "lignes": [
+            [
+              "huile",
+              "environ 0,92"
+            ],
+            [
+              "eau",
+              "1"
+            ],
+            [
+              "aluminium",
+              "2,7"
+            ],
+            [
+              "fer",
+              "environ 7,9"
+            ],
+            [
+              "or",
+              "environ 19,3"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un objet de 30 g et de 60 cm³, placé dans l’eau :",
+          "options": [
+            "flotte",
+            "coule",
+            "se dissout"
+          ],
+          "reponse": "flotte",
+          "explication": "ρ = 0,5 g/cm³, moins que l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Unités",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On divise le volume par la masse.",
+          "correction": "ρ = m ÷ V : la masse au numérateur. L’unité le rappelle : g/cm³."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’huile flotte sur l’eau car :",
+      "options": [
+        "sa masse volumique est plus petite",
+        "elle est plus lourde",
+        "elle est chaude"
+      ],
+      "reponse": "sa masse volumique est plus petite",
+      "explication": "0,92 < 1."
+    },
+    {
+      "consigne": "Un bloc de fer de 10 cm³ a une masse d’environ :",
+      "options": [
+        "79 g",
+        "7,9 g",
+        "790 g"
+      ],
+      "reponse": "79 g",
+      "explication": "m = ρ × V = 7,9 × 10."
+    },
+    {
+      "consigne": "1 g/cm³ = ?",
+      "options": [
+        "1 kg/L",
+        "1 000 kg/L",
+        "1 g/L"
+      ],
+      "reponse": "1 kg/L",
+      "explication": "1 L = 1 000 cm³, 1 kg = 1 000 g."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "L'introduction de la grandeur quotient masse volumique se fait progressivement à",
+      "appui": "La masse volumique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

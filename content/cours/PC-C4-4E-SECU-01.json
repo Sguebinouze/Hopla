@@ -1,0 +1,107 @@
+{
+  "competence": "PC-C4-4E-SECU-01",
+  "duree": 6,
+  "essentiel": "Un court-circuit ou un trop grand nombre d’appareils branchés provoque une surintensité : les fils chauffent et peuvent prendre feu.\nLe fusible fond et le disjoncteur coupe le courant pour protéger l’installation.\nLa prise de terre et le disjoncteur différentiel protègent les personnes de l’électrocution.",
+  "parties": [
+    {
+      "titre": "Protéger l’installation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dangers et protections",
+          "colonnes": [
+            "Danger",
+            "Protection"
+          ],
+          "lignes": [
+            [
+              "surintensité : multiprise surchargée",
+              "fusible, disjoncteur"
+            ],
+            [
+              "court-circuit",
+              "fusible, disjoncteur"
+            ],
+            [
+              "contact avec un appareil défectueux",
+              "prise de terre, disjoncteur différentiel"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une multiprise surchargée chauffe car :",
+          "options": [
+            "l’intensité est trop grande",
+            "la tension est nulle",
+            "les appareils sont éteints"
+          ],
+          "reponse": "l’intensité est trop grande",
+          "explication": "C’est une surintensité."
+        }
+      ]
+    },
+    {
+      "titre": "Les bons gestes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des règles.",
+          "exemples": [
+            "ne pas brancher de multiprises les unes sur les autres",
+            "couper le disjoncteur avant toute intervention",
+            "éloigner les appareils électriques de l’eau"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On remplace un fusible grillé par un fusible plus gros pour qu’il ne fonde plus.",
+          "correction": "Il ne protégerait plus : les fils pourraient chauffer jusqu’à l’incendie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le rôle d’un fusible est de :",
+      "options": [
+        "couper le courant en cas de surintensité",
+        "augmenter la tension",
+        "éclairer"
+      ],
+      "reponse": "couper le courant en cas de surintensité",
+      "explication": "Il fond."
+    },
+    {
+      "consigne": "La prise de terre protège surtout :",
+      "options": [
+        "les personnes",
+        "les ampoules",
+        "les piles"
+      ],
+      "reponse": "les personnes",
+      "explication": "Elle évacue le courant de fuite."
+    },
+    {
+      "consigne": "Avant de changer une prise, on :",
+      "options": [
+        "coupe le disjoncteur",
+        "garde le courant pour vérifier",
+        "mouille ses mains"
+      ],
+      "reponse": "coupe le disjoncteur",
+      "explication": "On travaille hors tension."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 103,
+      "extrait": "Mettre en relation les lois de l’électricité et les règles de sécurité",
+      "appui": "Électricité et sécurité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

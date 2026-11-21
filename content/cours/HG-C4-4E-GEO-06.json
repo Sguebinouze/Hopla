@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-06",
+  "duree": 7,
+  "essentiel": "Les États-Unis sont la première puissance économique mondiale.\nLeur territoire s’organise autour de façades maritimes : la Mégalopolis de Boston à Washington sur l’Atlantique, la Californie sur le Pacifique.\nLe Sud et l’Ouest, la Sun Belt, attirent habitants et entreprises ; le Nord-Est industriel a connu un déclin.",
+  "parties": [
+    {
+      "titre": "Les espaces moteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Organisation du territoire",
+          "colonnes": [
+            "Espace",
+            "Caractères"
+          ],
+          "lignes": [
+            [
+              "Mégalopolis",
+              "chapelet de métropoles de Boston à Washington, dont New York"
+            ],
+            [
+              "Californie",
+              "Silicon Valley, Los Angeles, ports du Pacifique"
+            ],
+            [
+              "Sun Belt",
+              "Sud et Ouest ensoleillés, en forte croissance"
+            ],
+            [
+              "Nord-Est des Grands Lacs",
+              "ancienne région industrielle, la Rust Belt"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Silicon Valley concentre :",
+          "options": [
+            "les géants du numérique",
+            "les mines de charbon",
+            "les champs de coton"
+          ],
+          "reponse": "les géants du numérique",
+          "explication": "En Californie, près de San Francisco."
+        }
+      ]
+    },
+    {
+      "titre": "Ouverts sur le monde",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les grands ports, comme Los Angeles et New York, et les aéroports relient les États-Unis à l’Asie et à l’Europe."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout le territoire américain est riche et dynamique.",
+          "correction": "Certaines régions rurales et anciennes villes industrielles connaissent pauvreté et déclin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Mégalopolis américaine s’étend :",
+      "options": [
+        "de Boston à Washington",
+        "de Los Angeles à San Diego",
+        "du Texas à la Floride"
+      ],
+      "reponse": "de Boston à Washington",
+      "explication": "Sur la façade atlantique."
+    },
+    {
+      "consigne": "La Sun Belt désigne :",
+      "options": [
+        "le Sud et l’Ouest des États-Unis",
+        "le Nord industriel",
+        "l’Alaska"
+      ],
+      "reponse": "le Sud et l’Ouest des États-Unis",
+      "explication": "La « ceinture du soleil »."
+    },
+    {
+      "consigne": "Une façade maritime est :",
+      "options": [
+        "un littoral ouvert sur le monde, avec de grands ports",
+        "une plage touristique",
+        "une frontière terrestre"
+      ],
+      "reponse": "un littoral ouvert sur le monde, avec de grands ports",
+      "explication": "Elle concentre activités et échanges."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "L’adaptation du territoire des États-Unis aux nouvelles conditions de la mondialisation",
+      "appui": "Les États-Unis et la mondialisation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

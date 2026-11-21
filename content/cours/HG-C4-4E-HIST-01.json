@@ -1,0 +1,115 @@
+{
+  "competence": "HG-C4-4E-HIST-01",
+  "duree": 8,
+  "essentiel": "Aux XVIIe et XVIIIe siècles, des navires partis des ports européens échangent en Afrique des marchandises contre des captifs.\nLes captifs sont déportés vers les plantations d’Amérique et réduits en esclavage. Sucre, café et coton reviennent en Europe : c’est le commerce triangulaire.\nEn France, l’esclavage est aboli en 1794, rétabli en 1802, puis aboli définitivement en 1848.",
+  "parties": [
+    {
+      "titre": "Le commerce triangulaire",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les trois étapes",
+          "etapes": [
+            "Départ d’Europe, de Nantes ou Bordeaux : tissus, armes, alcool.",
+            "Sur les côtes d’Afrique : ces marchandises sont échangées contre des captifs.",
+            "Traversée de l’Atlantique : les captifs sont vendus aux planteurs d’Amérique.",
+            "Retour en Europe : sucre, café, coton, tabac."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel port français s’enrichit le plus de la traite au XVIIIe siècle ?",
+          "options": [
+            "Nantes",
+            "Strasbourg",
+            "Lyon"
+          ],
+          "reponse": "Nantes",
+          "explication": "Premier port négrier français."
+        }
+      ]
+    },
+    {
+      "titre": "L’esclavage dans les colonies",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "À Saint-Domingue, les esclaves travaillent dans les plantations de canne à sucre. Le Code noir de 1685 les considère comme des biens."
+        },
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1685,
+              "date": "1685",
+              "evenement": "Code noir."
+            },
+            {
+              "annee": 1794,
+              "date": "1794",
+              "evenement": "Première abolition."
+            },
+            {
+              "annee": 1804,
+              "date": "1804",
+              "evenement": "Indépendance d’Haïti."
+            },
+            {
+              "annee": 1848,
+              "date": "1848",
+              "evenement": "Abolition définitive, avec Victor Schœlcher."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les esclaves ont accepté leur sort sans résister.",
+          "correction": "Ils résistent : fuites, révoltes. En 1791, la révolte de Saint-Domingue mène à l’indépendance d’Haïti."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Code noir de 1685 :",
+      "options": [
+        "encadre l’esclavage dans les colonies françaises",
+        "abolit l’esclavage",
+        "crée la République"
+      ],
+      "reponse": "encadre l’esclavage dans les colonies françaises",
+      "explication": "Il traite les esclaves comme des biens."
+    },
+    {
+      "consigne": "L’esclavage est aboli définitivement en France en :",
+      "options": [
+        "1848",
+        "1794",
+        "1685"
+      ],
+      "reponse": "1848",
+      "explication": "Après un rétablissement en 1802."
+    },
+    {
+      "consigne": "Que rapportent les navires en Europe ?",
+      "options": [
+        "du sucre, du café, du coton",
+        "des captifs",
+        "des armes"
+      ],
+      "reponse": "du sucre, du café, du coton",
+      "explication": "Des produits des plantations."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "L’étude des échanges liés au développement de l’économie de",
+      "appui": "Traites négrières et esclavage"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

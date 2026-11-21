@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C4-4E-HIST-04",
+  "duree": 8,
+  "essentiel": "L’industrialisation commence au Royaume-Uni à la fin du XVIIIe siècle, puis gagne l’Europe au XIXe siècle.\nMachines à vapeur, charbon, acier et chemin de fer transforment la production, les villes et les campagnes.\nUne nouvelle classe sociale apparait, les ouvriers, et de nouvelles idées : le socialisme, le syndicalisme.",
+  "parties": [
+    {
+      "titre": "Produire autrement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les moteurs de l’industrialisation",
+          "colonnes": [
+            "Facteur",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "énergie",
+              "charbon, vapeur, puis électricité et pétrole"
+            ],
+            [
+              "innovations",
+              "machines textiles, hauts fourneaux"
+            ],
+            [
+              "transports",
+              "chemins de fer, bateaux à vapeur"
+            ],
+            [
+              "capitaux",
+              "banques et sociétés par actions"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’industrialisation commence d’abord :",
+          "options": [
+            "au Royaume-Uni",
+            "en Chine",
+            "aux États-Unis"
+          ],
+          "reponse": "au Royaume-Uni",
+          "explication": "À la fin du XVIIIe siècle."
+        }
+      ]
+    },
+    {
+      "titre": "Une société transformée",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les ouvriers, hommes, femmes et enfants, travaillent de longues journées pour de bas salaires. Ils s’organisent en syndicats, autorisés en France en 1884."
+        },
+        {
+          "type": "explique",
+          "texte": "En 1848, Karl Marx et Friedrich Engels publient le Manifeste du Parti communiste."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’industrialisation touche toute l’Europe en même temps.",
+          "correction": "Elle se diffuse par étapes : Royaume-Uni, puis Belgique, France, Allemagne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le prolétariat désigne :",
+      "options": [
+        "les ouvriers qui vendent leur force de travail",
+        "les patrons d’usine",
+        "les paysans propriétaires"
+      ],
+      "reponse": "les ouvriers qui vendent leur force de travail",
+      "explication": "Ils ne possèdent pas les moyens de production."
+    },
+    {
+      "consigne": "Les syndicats sont autorisés en France en :",
+      "options": [
+        "1884",
+        "1789",
+        "1944"
+      ],
+      "reponse": "1884",
+      "explication": "Par la loi Waldeck-Rousseau."
+    },
+    {
+      "consigne": "Une région industrielle du XIXe siècle comporte :",
+      "options": [
+        "usines, cheminées, terrils, cités ouvrières",
+        "châteaux forts",
+        "champs sans villages"
+      ],
+      "reponse": "usines, cheminées, terrils, cités ouvrières",
+      "explication": "Comme dans le bassin minier du Nord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 84,
+      "extrait": "Nouvelle organisation de la production, nouveaux lieux de",
+      "appui": "La révolution industrielle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

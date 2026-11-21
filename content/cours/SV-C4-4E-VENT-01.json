@@ -1,0 +1,105 @@
+{
+  "competence": "SV-C4-4E-VENT-01",
+  "duree": 6,
+  "essentiel": "Le Soleil chauffe inégalement la Terre : plus à l’équateur qu’aux pôles.\nCes différences de température créent des mouvements de l’air, les vents, et de l’eau des océans, les courants.\nLe Gulf Stream apporte des eaux chaudes vers l’Europe de l’Ouest et adoucit son climat.",
+  "parties": [
+    {
+      "titre": "Les vents",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’air chaud, plus léger, s’élève : la pression baisse au sol. L’air plus froid arrive pour le remplacer : c’est le vent."
+        },
+        {
+          "type": "tableau",
+          "titre": "Brise de mer et brise de terre",
+          "colonnes": [
+            "Moment",
+            "Plus chaud",
+            "Le vent souffle"
+          ],
+          "lignes": [
+            [
+              "journée",
+              "la terre",
+              "de la mer vers la terre"
+            ],
+            [
+              "nuit",
+              "la mer",
+              "de la terre vers la mer"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le vent souffle des zones de :",
+          "options": [
+            "hautes pressions vers les basses pressions",
+            "basses vers hautes pressions",
+            "pressions égales"
+          ],
+          "reponse": "hautes pressions vers les basses pressions",
+          "explication": "L’air va combler le vide relatif."
+        }
+      ]
+    },
+    {
+      "titre": "Les courants océaniques",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les courants transportent la chaleur des régions tropicales vers les hautes latitudes. Les eaux froides et denses plongent près des pôles."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’hiver doux de Brest s’explique seulement par sa latitude.",
+          "correction": "À la même latitude, le Canada est bien plus froid : le Gulf Stream réchauffe l’Europe de l’Ouest."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La journée, au bord de la mer, la brise souffle :",
+      "options": [
+        "de la mer vers la terre",
+        "de la terre vers la mer",
+        "verticalement"
+      ],
+      "reponse": "de la mer vers la terre",
+      "explication": "La terre se réchauffe plus vite."
+    },
+    {
+      "consigne": "Le Gulf Stream est :",
+      "options": [
+        "un courant océanique chaud",
+        "un vent froid",
+        "une montagne sous-marine"
+      ],
+      "reponse": "un courant océanique chaud",
+      "explication": "Il part du golfe du Mexique."
+    },
+    {
+      "consigne": "Le moteur des vents et des courants est :",
+      "options": [
+        "l’énergie du Soleil",
+        "la rotation de la Lune",
+        "les volcans"
+      ],
+      "reponse": "l’énergie du Soleil",
+      "explication": "Il chauffe inégalement la Terre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 109,
+      "extrait": "dynamique des masses d’air et des masses d’eau",
+      "appui": "Vents et courants océaniques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

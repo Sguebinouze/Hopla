@@ -1,0 +1,128 @@
+{
+  "competence": "PC-C4-4E-FORCE-01",
+  "duree": 7,
+  "essentiel": "Une action mécanique peut s’exercer par contact, comme la main qui pousse une porte, ou à distance, comme la Terre qui attire la Lune.\nOn la modélise par une force, représentée par une flèche.\nUne force a un point d’application, une direction, un sens et une valeur en newtons (N), mesurée au dynamomètre.",
+  "parties": [
+    {
+      "titre": "Contact ou distance ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des interactions",
+          "colonnes": [
+            "Situation",
+            "Type"
+          ],
+          "lignes": [
+            [
+              "la main pousse une porte",
+              "contact"
+            ],
+            [
+              "le pied frappe un ballon",
+              "contact"
+            ],
+            [
+              "la Terre attire un objet qui tombe",
+              "à distance"
+            ],
+            [
+              "un aimant attire un trombone",
+              "à distance"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un aimant attire un clou sans le toucher. C’est une action :",
+          "options": [
+            "à distance",
+            "de contact",
+            "impossible"
+          ],
+          "reponse": "à distance",
+          "explication": "Il n’y a pas de contact."
+        }
+      ]
+    },
+    {
+      "titre": "Représenter une force",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Caractéristiques d’une force",
+          "colonnes": [
+            "Caractéristique",
+            "Sur la flèche"
+          ],
+          "lignes": [
+            [
+              "point d’application",
+              "origine de la flèche"
+            ],
+            [
+              "direction",
+              "la droite qui porte la flèche"
+            ],
+            [
+              "sens",
+              "la pointe"
+            ],
+            [
+              "valeur",
+              "la longueur, selon une échelle"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond direction et sens.",
+          "correction": "La direction est la droite, verticale par exemple. Le sens précise vers le haut ou vers le bas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La valeur d’une force s’exprime en :",
+      "options": [
+        "newtons",
+        "kilogrammes",
+        "joules"
+      ],
+      "reponse": "newtons",
+      "explication": "Symbole N."
+    },
+    {
+      "consigne": "La Terre attire un objet vers :",
+      "options": [
+        "le bas, vers son centre",
+        "le haut",
+        "le côté"
+      ],
+      "reponse": "le bas, vers son centre",
+      "explication": "Direction verticale, sens vers le bas."
+    },
+    {
+      "consigne": "Pour mesurer une force, on utilise :",
+      "options": [
+        "un dynamomètre",
+        "une balance",
+        "un thermomètre"
+      ],
+      "reponse": "un dynamomètre",
+      "explication": "Un ressort gradué."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 102,
+      "extrait": "Progressivement et si possible dès la classe de 4e, ces interactions sont modélisées par la",
+      "appui": "Interactions et forces"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

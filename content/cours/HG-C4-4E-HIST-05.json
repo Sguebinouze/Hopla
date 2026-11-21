@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C4-4E-HIST-05",
+  "duree": 8,
+  "essentiel": "Au XIXe siècle, les puissances européennes conquièrent de vastes territoires en Afrique et en Asie.\nLa conquête de l’Algérie commence en 1830. À la fin du siècle, l’empire colonial français s’étend de l’Afrique de l’Ouest à l’Indochine.\nDans les colonies, colons et colonisés n’ont pas les mêmes droits.",
+  "parties": [
+    {
+      "titre": "Pourquoi coloniser ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les motivations",
+          "colonnes": [
+            "Motivation",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "économique",
+              "matières premières, débouchés pour l’industrie"
+            ],
+            [
+              "stratégique",
+              "ports et escales pour la flotte"
+            ],
+            [
+              "politique",
+              "puissance et prestige national"
+            ],
+            [
+              "idéologique",
+              "prétendue « mission civilisatrice »"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La conquête de l’Algérie commence en :",
+          "options": [
+            "1830",
+            "1885",
+            "1962"
+          ],
+          "reponse": "1830",
+          "explication": "Elle dure plusieurs décennies."
+        }
+      ]
+    },
+    {
+      "titre": "La société coloniale",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En Algérie, le code de l’indigénat impose aux colonisés des règles et des punitions spéciales. Ils sont privés de la plupart des droits politiques."
+        },
+        {
+          "type": "explique",
+          "texte": "La colonisation rencontre des résistances, comme celle de l’émir Abd el-Kader en Algérie."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la « mission civilisatrice » décrit la réalité.",
+          "correction": "C’est un discours qui justifie la domination. Les colonisés subissent violences et inégalités."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un colon est :",
+      "options": [
+        "un Européen installé dans une colonie",
+        "un habitant colonisé",
+        "un soldat ennemi"
+      ],
+      "reponse": "un Européen installé dans une colonie",
+      "explication": "Il bénéficie de droits que les colonisés n’ont pas."
+    },
+    {
+      "consigne": "L’Indochine est une colonie française située en :",
+      "options": [
+        "Asie",
+        "Afrique",
+        "Amérique"
+      ],
+      "reponse": "Asie",
+      "explication": "Le Vietnam, le Laos et le Cambodge actuels."
+    },
+    {
+      "consigne": "Le code de l’indigénat :",
+      "options": [
+        "impose des règles spéciales aux colonisés",
+        "donne le droit de vote à tous",
+        "abolit la colonisation"
+      ],
+      "reponse": "impose des règles spéciales aux colonisés",
+      "explication": "Il institue l’inégalité."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 84,
+      "extrait": "De nouvelles conquêtes coloniales renforcent la domination",
+      "appui": "Conquêtes et sociétés coloniales"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

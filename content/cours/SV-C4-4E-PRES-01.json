@@ -1,0 +1,112 @@
+{
+  "competence": "SV-C4-4E-PRES-01",
+  "duree": 6,
+  "essentiel": "Les activités humaines fragmentent et dégradent les milieux : routes, villes, pollution.\nDes solutions existent : trames vertes et bleues, zones protégées, stations d’épuration.\nUn passage à faune sous une autoroute reconnecte deux forêts et permet aux animaux de circuler.",
+  "parties": [
+    {
+      "titre": "Des solutions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Préserver et restaurer",
+          "colonnes": [
+            "Solution",
+            "Effet"
+          ],
+          "lignes": [
+            [
+              "trame verte : haies, bois reliés",
+              "les espèces terrestres circulent"
+            ],
+            [
+              "trame bleue : rivières sans barrage infranchissable",
+              "les poissons remontent les cours d’eau"
+            ],
+            [
+              "parc national, réserve naturelle",
+              "les espèces et milieux sont protégés"
+            ],
+            [
+              "station d’épuration",
+              "les eaux usées sont nettoyées avant de rejoindre les rivières"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une passe à poissons permet de :",
+          "options": [
+            "franchir un barrage",
+            "pêcher plus",
+            "arrêter les poissons"
+          ],
+          "reponse": "franchir un barrage",
+          "explication": "Elle rétablit la continuité de la rivière."
+        }
+      ]
+    },
+    {
+      "titre": "Argumenter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour défendre une solution",
+          "etapes": [
+            "Décris le problème : quel milieu, quelle espèce menacée ?",
+            "Présente la solution.",
+            "Explique son effet, preuves à l’appui.",
+            "Indique ses limites, comme son cout."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une zone protégée isolée suffit.",
+          "correction": "Si elle n’est reliée à rien, les populations s’isolent : il faut aussi des corridors."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La fragmentation d’un milieu, c’est :",
+      "options": [
+        "son découpage par des routes ou des villes",
+        "sa protection",
+        "sa pollution sonore seulement"
+      ],
+      "reponse": "son découpage par des routes ou des villes",
+      "explication": "Les populations sont séparées."
+    },
+    {
+      "consigne": "Replanter des haies entre les champs, c’est :",
+      "options": [
+        "restaurer une trame verte",
+        "construire une digue",
+        "traiter les eaux usées"
+      ],
+      "reponse": "restaurer une trame verte",
+      "explication": "Les animaux circulent d’un bois à l’autre."
+    },
+    {
+      "consigne": "Une station d’épuration :",
+      "options": [
+        "nettoie les eaux usées",
+        "produit de l’eau de mer",
+        "pompe l’eau des nappes"
+      ],
+      "reponse": "nettoie les eaux usées",
+      "explication": "Avant le rejet dans la nature."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 110,
+      "extrait": "solutions de préservation ou de restauration de l’environnement",
+      "appui": "Préserver et restaurer les milieux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

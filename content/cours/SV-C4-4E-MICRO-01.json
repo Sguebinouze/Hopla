@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-4E-MICRO-01",
+  "duree": 7,
+  "essentiel": "Les micro-organismes sont partout : dans l’air, le sol, l’eau et dans notre corps. La plupart sont inoffensifs ou utiles.\nNotre intestin abrite des milliards de bactéries, le microbiote, qui aident la digestion.\nLes antibiotiques tuent les bactéries, mais ils n’ont aucun effet sur les virus.",
+  "parties": [
+    {
+      "titre": "Utiles ou pathogènes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des micro-organismes",
+          "colonnes": [
+            "Micro-organisme",
+            "Effet"
+          ],
+          "lignes": [
+            [
+              "bactéries du yaourt",
+              "transforment le lait"
+            ],
+            [
+              "levures",
+              "font lever le pain"
+            ],
+            [
+              "bactéries du microbiote",
+              "aident la digestion"
+            ],
+            [
+              "virus de la grippe",
+              "provoque une maladie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un micro-organisme qui provoque une maladie est dit :",
+          "options": [
+            "pathogène",
+            "utile",
+            "inoffensif"
+          ],
+          "reponse": "pathogène",
+          "explication": "Il cause une infection."
+        }
+      ]
+    },
+    {
+      "titre": "Les antibiotiques",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Utiliser des antibiotiques sans raison favorise des bactéries résistantes. On les prend seulement sur prescription, jusqu’au bout du traitement."
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend un antibiotique contre un rhume ou une grippe.",
+          "correction": "Ce sont des maladies dues à des virus : les antibiotiques n’agissent pas sur eux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les antibiotiques agissent sur :",
+      "options": [
+        "les bactéries",
+        "les virus",
+        "tous les micro-organismes"
+      ],
+      "reponse": "les bactéries",
+      "explication": "Pas sur les virus."
+    },
+    {
+      "consigne": "Le microbiote intestinal :",
+      "options": [
+        "aide la digestion",
+        "provoque toujours des maladies",
+        "n’existe pas"
+      ],
+      "reponse": "aide la digestion",
+      "explication": "Des milliards de bactéries utiles."
+    },
+    {
+      "consigne": "Prendre des antibiotiques sans raison favorise :",
+      "options": [
+        "des bactéries résistantes",
+        "une meilleure santé",
+        "la disparition des virus"
+      ],
+      "reponse": "des bactéries résistantes",
+      "explication": "Les bactéries s’adaptent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 113,
+      "extrait": "Relier le monde microbien hébergé par notre organisme et son fonctionnement.",
+      "appui": "Le monde microbien"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

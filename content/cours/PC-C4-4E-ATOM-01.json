@@ -1,0 +1,111 @@
+{
+  "competence": "PC-C4-4E-ATOM-01",
+  "duree": 7,
+  "essentiel": "La matière est faite d’atomes, minuscules : environ un dix-milliardième de mètre.\nLes atomes s’assemblent en molécules. La formule d’une molécule indique ses atomes et leur nombre.\nH₂O contient 2 atomes d’hydrogène et 1 atome d’oxygène.",
+  "parties": [
+    {
+      "titre": "Lire une formule",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des molécules",
+          "colonnes": [
+            "Molécule",
+            "Formule",
+            "Atomes"
+          ],
+          "lignes": [
+            [
+              "eau",
+              "H₂O",
+              "2 H, 1 O"
+            ],
+            [
+              "dioxygène",
+              "O₂",
+              "2 O"
+            ],
+            [
+              "dioxyde de carbone",
+              "CO₂",
+              "1 C, 2 O"
+            ],
+            [
+              "méthane",
+              "CH₄",
+              "1 C, 4 H"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien d’atomes contient une molécule de CO₂ ?",
+          "options": [
+            "3",
+            "2",
+            "1"
+          ],
+          "reponse": "3",
+          "explication": "1 carbone et 2 oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Corps purs simples et composés",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le dioxygène O₂ n’a qu’une sorte d’atome : c’est un corps pur simple. L’eau H₂O en a deux sortes : c’est un corps pur composé."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit le chiffre en indice comme s’appliquant à tous les atomes : H₂O aurait 2 O.",
+          "correction": "L’indice s’applique à l’atome juste avant : H₂ signifie 2 atomes d’hydrogène."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans CH₄, il y a :",
+      "options": [
+        "1 atome de carbone et 4 d’hydrogène",
+        "4 atomes de carbone",
+        "1 atome de chaque"
+      ],
+      "reponse": "1 atome de carbone et 4 d’hydrogène",
+      "explication": "L’indice 4 porte sur H."
+    },
+    {
+      "consigne": "Le symbole de l’oxygène est :",
+      "options": [
+        "O",
+        "Ox",
+        "Og"
+      ],
+      "reponse": "O",
+      "explication": "Une seule lettre majuscule."
+    },
+    {
+      "consigne": "Le dioxygène est un corps pur :",
+      "options": [
+        "simple",
+        "composé",
+        "mélangé"
+      ],
+      "reponse": "simple",
+      "explication": "Une seule sorte d’atome."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 101,
+      "extrait": "Le tableau périodique est considéré à partir de la classe de 4e comme un outil de classement",
+      "appui": "Atomes et molécules"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

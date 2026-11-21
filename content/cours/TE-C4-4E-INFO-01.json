@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-4E-INFO-01",
+  "duree": 6,
+  "essentiel": "La chaine d’information d’un objet assure trois fonctions : acquérir, traiter, communiquer.\nDans un éclairage automatique, le détecteur de présence acquiert, le microcontrôleur traite, le signal commande la lampe.\nChaque constituant correspond à une fonction.",
+  "parties": [
+    {
+      "titre": "Associer constituants et fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des objets",
+          "colonnes": [
+            "Objet",
+            "Acquérir",
+            "Traiter",
+            "Communiquer"
+          ],
+          "lignes": [
+            [
+              "éclairage automatique",
+              "détecteur de présence",
+              "microcontrôleur",
+              "signal vers la lampe"
+            ],
+            [
+              "alarme",
+              "capteur d’ouverture",
+              "carte programmable",
+              "sirène, message"
+            ],
+            [
+              "station météo",
+              "capteurs de température",
+              "microcontrôleur",
+              "écran"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans une alarme, le capteur d’ouverture de porte :",
+          "options": [
+            "acquiert une information",
+            "traite l’information",
+            "communique"
+          ],
+          "reponse": "acquiert une information",
+          "explication": "Il détecte l’ouverture."
+        }
+      ]
+    },
+    {
+      "titre": "Information et énergie",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond chaine d’information et chaine d’énergie.",
+          "correction": "La chaine d’information décide ; la chaine d’énergie agit : alimenter, distribuer, convertir, transmettre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La fonction « traiter » est assurée par :",
+      "options": [
+        "le microcontrôleur",
+        "le capteur",
+        "la lampe"
+      ],
+      "reponse": "le microcontrôleur",
+      "explication": "Il exécute le programme."
+    },
+    {
+      "consigne": "Un écran qui affiche la température :",
+      "options": [
+        "communique",
+        "acquiert",
+        "convertit l’énergie"
+      ],
+      "reponse": "communique",
+      "explication": "Il transmet l’information à l’utilisateur."
+    },
+    {
+      "consigne": "Les trois fonctions de la chaine d’information sont :",
+      "options": [
+        "acquérir, traiter, communiquer",
+        "alimenter, distribuer, convertir",
+        "mesurer, couper, coller"
+      ],
+      "reponse": "acquérir, traiter, communiquer",
+      "explication": "Dans cet ordre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Identifier les constituants de la chaîne",
+      "appui": "La chaine d’information"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

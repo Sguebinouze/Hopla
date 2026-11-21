@@ -1,0 +1,114 @@
+{
+  "competence": "PC-C4-4E-PERIO-01",
+  "duree": 6,
+  "essentiel": "Le tableau périodique range tous les éléments chimiques connus, dans l’ordre de leur numéro atomique.\nChaque élément a un symbole : une majuscule, parfois suivie d’une minuscule. H pour l’hydrogène, Fe pour le fer.\nUne formule chimique se lit en atomes : H₂O, deux atomes d’hydrogène et un atome d’oxygène.",
+  "parties": [
+    {
+      "titre": "Des symboles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Éléments courants",
+          "colonnes": [
+            "Élément",
+            "Symbole"
+          ],
+          "lignes": [
+            [
+              "hydrogène",
+              "H"
+            ],
+            [
+              "carbone",
+              "C"
+            ],
+            [
+              "azote",
+              "N"
+            ],
+            [
+              "oxygène",
+              "O"
+            ],
+            [
+              "fer",
+              "Fe"
+            ],
+            [
+              "cuivre",
+              "Cu"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le symbole du cuivre est :",
+          "options": [
+            "Cu",
+            "C",
+            "Cr"
+          ],
+          "reponse": "Cu",
+          "explication": "Du latin cuprum."
+        }
+      ]
+    },
+    {
+      "titre": "Un tableau organisé",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le chimiste Mendeleïev propose le premier tableau périodique en 1869. Les éléments d’une même colonne ont des propriétés voisines."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit les symboles à deux lettres avec deux majuscules : CU.",
+          "correction": "Seule la première lettre est une majuscule : Cu. CO désigne autre chose : carbone et oxygène."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "N est le symbole de :",
+      "options": [
+        "l’azote",
+        "le sodium",
+        "le néon"
+      ],
+      "reponse": "l’azote",
+      "explication": "Du latin nitrogenium."
+    },
+    {
+      "consigne": "NH₃ contient :",
+      "options": [
+        "1 atome d’azote et 3 d’hydrogène",
+        "3 atomes d’azote",
+        "1 atome de chaque"
+      ],
+      "reponse": "1 atome d’azote et 3 d’hydrogène",
+      "explication": "L’indice 3 porte sur H."
+    },
+    {
+      "consigne": "Les éléments sont rangés selon :",
+      "options": [
+        "leur numéro atomique",
+        "leur couleur",
+        "leur date de découverte"
+      ],
+      "reponse": "leur numéro atomique",
+      "explication": "De 1, l’hydrogène, à 118."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Associer leurs symboles aux éléments à l’aide de la classification périodique",
+      "appui": "Le tableau périodique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-07",
+  "duree": 7,
+  "essentiel": "L’Afrique de l’Ouest connait une forte croissance de sa population et de ses villes.\nLagos, au Nigeria, est l’une des plus grandes villes d’Afrique. Le Nigeria est le pays le plus peuplé du continent.\nLa région exporte des ressources, comme le pétrole et le cacao, par ses ports : Lagos, Abidjan, Dakar, Lomé.",
+  "parties": [
+    {
+      "titre": "Ressources et ports",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques ressources",
+          "colonnes": [
+            "Pays",
+            "Ressource"
+          ],
+          "lignes": [
+            [
+              "Nigeria",
+              "pétrole"
+            ],
+            [
+              "Côte d’Ivoire",
+              "cacao, premier producteur mondial"
+            ],
+            [
+              "Ghana",
+              "or, cacao"
+            ],
+            [
+              "Niger",
+              "uranium"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Côte d’Ivoire est le premier producteur mondial de :",
+          "options": [
+            "cacao",
+            "pétrole",
+            "café"
+          ],
+          "reponse": "cacao",
+          "explication": "Le cacao sert à fabriquer le chocolat."
+        }
+      ]
+    },
+    {
+      "titre": "Une intégration inégale",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les ports et les capitales littorales sont reliés au monde. L’intérieur, comme le Sahel, reste plus isolé et plus pauvre."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’Afrique de l’Ouest exporte surtout des produits fabriqués.",
+          "correction": "Elle exporte surtout des matières premières, peu transformées sur place."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le pays le plus peuplé d’Afrique est :",
+      "options": [
+        "le Nigeria",
+        "le Sénégal",
+        "le Mali"
+      ],
+      "reponse": "le Nigeria",
+      "explication": "Plus de 200 millions d’habitants."
+    },
+    {
+      "consigne": "Le Sahel est une région :",
+      "options": [
+        "semi-aride, au sud du Sahara",
+        "littorale et humide",
+        "montagneuse et enneigée"
+      ],
+      "reponse": "semi-aride, au sud du Sahara",
+      "explication": "Une bande sèche entre désert et savane."
+    },
+    {
+      "consigne": "Abidjan est :",
+      "options": [
+        "un grand port de Côte d’Ivoire",
+        "une capitale enclavée",
+        "une ville du Nigeria"
+      ],
+      "reponse": "un grand port de Côte d’Ivoire",
+      "explication": "Sur le golfe de Guinée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "Les dynamiques d’un grand ensemble géographique africain",
+      "appui": "L’Afrique de l’Ouest"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

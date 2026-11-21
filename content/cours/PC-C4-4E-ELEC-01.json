@@ -1,0 +1,106 @@
+{
+  "competence": "PC-C4-4E-ELEC-01",
+  "duree": 8,
+  "essentiel": "En série, l’intensité est la même partout, et la tension du générateur est la somme des tensions des dipôles.\nEn dérivation, la tension est la même aux bornes de chaque branche, et l’intensité principale est la somme des intensités des branches.\nLa loi d’Ohm relie tension, résistance et intensité : U = R × I.",
+  "parties": [
+    {
+      "titre": "Les lois d’additivité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Série et dérivation",
+          "colonnes": [
+            "Grandeur",
+            "Série",
+            "Dérivation"
+          ],
+          "lignes": [
+            [
+              "intensité",
+              "la même partout",
+              "I = I₁ + I₂"
+            ],
+            [
+              "tension",
+              "U = U₁ + U₂",
+              "la même aux bornes de chaque branche"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En dérivation, I₁ = 0,2 A et I₂ = 0,3 A. Intensité principale :",
+          "options": [
+            "0,5 A",
+            "0,1 A",
+            "0,06 A"
+          ],
+          "reponse": "0,5 A",
+          "explication": "I = I₁ + I₂."
+        }
+      ]
+    },
+    {
+      "titre": "La loi d’Ohm",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une résistance de 100 Ω est traversée par un courant de 0,05 A. Quelle est la tension à ses bornes ?",
+          "etapes": [
+            "U = R × I.",
+            "U = 100 × 0,05 = 5."
+          ],
+          "conclusion": "U = 5 V."
+        },
+        {
+          "type": "piege",
+          "erreur": "On utilise des milliampères dans la loi d’Ohm : U = 100 × 50.",
+          "correction": "L’intensité doit être en ampères : 50 mA = 0,05 A."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En série, U générateur = 6 V et U₁ = 4 V. U₂ = ?",
+      "options": [
+        "2 V",
+        "10 V",
+        "6 V"
+      ],
+      "reponse": "2 V",
+      "explication": "6 = 4 + U₂."
+    },
+    {
+      "consigne": "R = 200 Ω et I = 0,03 A. U = ?",
+      "options": [
+        "6 V",
+        "600 V",
+        "0,6 V"
+      ],
+      "reponse": "6 V",
+      "explication": "200 × 0,03."
+    },
+    {
+      "consigne": "La résistance s’exprime en :",
+      "options": [
+        "ohms",
+        "volts",
+        "ampères"
+      ],
+      "reponse": "ohms",
+      "explication": "Symbole Ω."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 104,
+      "extrait": "En classes de 4e et de 3e, les différentes lois de l'électricité peuvent être abordées sans",
+      "appui": "Lois de l’électricité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

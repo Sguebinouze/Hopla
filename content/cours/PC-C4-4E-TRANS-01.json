@@ -1,0 +1,107 @@
+{
+  "competence": "PC-C4-4E-TRANS-01",
+  "duree": 7,
+  "essentiel": "Lors d’une transformation chimique, les atomes des réactifs se réarrangent pour former les produits.\nOn l’écrit par une équation de réaction : réactifs → produits. La combustion du carbone s’écrit C + O₂ → CO₂.\nLes atomes se conservent : il y en a autant de chaque sorte des deux côtés de la flèche.",
+  "parties": [
+    {
+      "titre": "Écrire une équation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des équations ajustées",
+          "colonnes": [
+            "Réaction",
+            "Équation"
+          ],
+          "lignes": [
+            [
+              "combustion du carbone",
+              "C + O₂ → CO₂"
+            ],
+            [
+              "combustion du méthane",
+              "CH₄ + 2 O₂ → CO₂ + 2 H₂O"
+            ],
+            [
+              "formation de l’eau",
+              "2 H₂ + O₂ → 2 H₂O"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans C + O₂ → CO₂, les réactifs sont :",
+          "options": [
+            "C et O₂",
+            "CO₂",
+            "C et CO₂"
+          ],
+          "reponse": "C et O₂",
+          "explication": "Ils sont à gauche de la flèche."
+        }
+      ]
+    },
+    {
+      "titre": "Compter les atomes",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Vérifie l’équation CH₄ + 2 O₂ → CO₂ + 2 H₂O.",
+          "etapes": [
+            "À gauche : 1 C, 4 H, 4 O.",
+            "À droite : 1 C, 4 H, 2 + 2 = 4 O."
+          ],
+          "conclusion": "Chaque atome est conservé : l’équation est ajustée."
+        },
+        {
+          "type": "piege",
+          "erreur": "On change une formule pour équilibrer : H₂O devient H₂O₂.",
+          "correction": "On ne touche pas aux formules. On ajoute des nombres devant les molécules."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans 2 H₂ + O₂ → 2 H₂O, combien d’atomes d’hydrogène à droite ?",
+      "options": [
+        "4",
+        "2",
+        "1"
+      ],
+      "reponse": "4",
+      "explication": "2 molécules de 2 atomes."
+    },
+    {
+      "consigne": "Lors d’une transformation chimique, les atomes :",
+      "options": [
+        "se conservent",
+        "disparaissent",
+        "se multiplient"
+      ],
+      "reponse": "se conservent",
+      "explication": "Ils se réarrangent."
+    },
+    {
+      "consigne": "Le produit de la combustion du carbone est :",
+      "options": [
+        "CO₂",
+        "O₂",
+        "H₂O"
+      ],
+      "reponse": "CO₂",
+      "explication": "Le dioxyde de carbone."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 101,
+      "extrait": "de réaction pour modéliser les transformations peut être initiée en classe de 4e dans des cas",
+      "appui": "Équations de réaction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

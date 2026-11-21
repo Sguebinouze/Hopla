@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-04",
+  "duree": 7,
+  "essentiel": "Les océans couvrent environ 70 % de la surface de la Terre. La grande majorité des marchandises échangées dans le monde voyage par mer.\nLes mers fournissent des ressources : poissons, pétrole, gaz. Chaque État contrôle une zone économique exclusive de 200 milles marins.\nCes espaces sont aussi des sources de tensions et des milieux fragiles.",
+  "parties": [
+    {
+      "titre": "Des routes maritimes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Passages stratégiques",
+          "colonnes": [
+            "Passage",
+            "Relie"
+          ],
+          "lignes": [
+            [
+              "canal de Suez",
+              "Méditerranée et mer Rouge"
+            ],
+            [
+              "canal de Panama",
+              "Atlantique et Pacifique"
+            ],
+            [
+              "détroit de Malacca",
+              "océan Indien et mer de Chine"
+            ],
+            [
+              "détroit d’Ormuz",
+              "golfe Persique et océan Indien"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un porte-conteneurs entre Shanghai et Rotterdam passe souvent par :",
+          "options": [
+            "le canal de Suez",
+            "le canal de Panama",
+            "le détroit de Béring"
+          ],
+          "reponse": "le canal de Suez",
+          "explication": "Le plus court chemin entre l’Asie et l’Europe."
+        }
+      ]
+    },
+    {
+      "titre": "Ressources et fragilité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Grâce à ses territoires d’outre-mer, la France possède l’une des plus grandes zones économiques exclusives du monde."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les ressources de la mer sont inépuisables.",
+          "correction": "La surpêche fait reculer de nombreuses espèces. La pollution plastique menace les milieux marins."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une ZEE s’étend jusqu’à :",
+      "options": [
+        "200 milles marins des côtes",
+        "12 km",
+        "l’autre rive de l’océan"
+      ],
+      "reponse": "200 milles marins des côtes",
+      "explication": "Environ 370 km."
+    },
+    {
+      "consigne": "Le canal de Panama relie :",
+      "options": [
+        "l’Atlantique et le Pacifique",
+        "la Méditerranée et la mer Rouge",
+        "la Manche et la mer du Nord"
+      ],
+      "reponse": "l’Atlantique et le Pacifique",
+      "explication": "À travers l’Amérique centrale."
+    },
+    {
+      "consigne": "Le principal moyen de transport des marchandises mondiales est :",
+      "options": [
+        "le bateau",
+        "l’avion",
+        "le camion"
+      ],
+      "reponse": "le bateau",
+      "explication": "Les porte-conteneurs transportent d’énormes volumes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "Les mers et les océans sont des espaces emblématiques de ces",
+      "appui": "Mers et océans"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

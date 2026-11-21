@@ -1,0 +1,116 @@
+{
+  "competence": "PC-C4-4E-PH-01",
+  "duree": 7,
+  "essentiel": "Le pH d’une solution est un nombre entre 0 et 14. On le mesure au papier pH ou au pH-mètre.\npH < 7 : solution acide. pH = 7 : neutre. pH > 7 : basique.\nDiluer une solution acide ou basique rapproche son pH de 7.",
+  "parties": [
+    {
+      "titre": "Classer les solutions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des pH courants",
+          "colonnes": [
+            "Solution",
+            "pH environ",
+            "Caractère"
+          ],
+          "lignes": [
+            [
+              "jus de citron",
+              "2",
+              "acide"
+            ],
+            [
+              "vinaigre",
+              "3",
+              "acide"
+            ],
+            [
+              "eau pure",
+              "7",
+              "neutre"
+            ],
+            [
+              "eau savonneuse",
+              "9 à 10",
+              "basique"
+            ],
+            [
+              "déboucheur",
+              "13 à 14",
+              "basique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une solution de pH 11 est :",
+          "options": [
+            "basique",
+            "acide",
+            "neutre"
+          ],
+          "reponse": "basique",
+          "explication": "11 > 7."
+        }
+      ]
+    },
+    {
+      "titre": "Dilution et sécurité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On ajoute de l’eau au vinaigre : son pH augmente et se rapproche de 7, sans jamais le dépasser."
+        },
+        {
+          "type": "piege",
+          "erreur": "On verse l’eau dans un acide concentré.",
+          "correction": "On verse toujours l’acide dans l’eau, doucement, avec lunettes et gants : le mélange peut projeter."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une solution de pH 2 est :",
+      "options": [
+        "très acide",
+        "neutre",
+        "basique"
+      ],
+      "reponse": "très acide",
+      "explication": "Bien en dessous de 7."
+    },
+    {
+      "consigne": "On dilue une solution basique de pH 12. Son pH :",
+      "options": [
+        "diminue vers 7",
+        "augmente vers 14",
+        "devient acide"
+      ],
+      "reponse": "diminue vers 7",
+      "explication": "Il se rapproche de 7."
+    },
+    {
+      "consigne": "L’eau pure a un pH de :",
+      "options": [
+        "7",
+        "0",
+        "14"
+      ],
+      "reponse": "7",
+      "explication": "Elle est neutre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Identifier le caractère acide ou basique d’une solution par mesure de pH.",
+      "appui": "Acide, neutre ou basique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "SV-C4-4E-HYG-01",
+  "duree": 6,
+  "essentiel": "Le cerveau a besoin de sommeil pour fixer les apprentissages : le manque de sommeil réduit l’attention et la mémorisation.\nLes écrans le soir retardent l’endormissement.\nL’alcool, le tabac et le cannabis perturbent le fonctionnement des neurones et peuvent entrainer une dépendance.",
+  "parties": [
+    {
+      "titre": "Le sommeil",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce qui aide ou gêne",
+          "colonnes": [
+            "Aide le sommeil",
+            "Gêne le sommeil"
+          ],
+          "lignes": [
+            [
+              "horaires réguliers",
+              "écrans juste avant de dormir"
+            ],
+            [
+              "chambre calme et sombre",
+              "boissons excitantes : soda, café"
+            ],
+            [
+              "activité physique dans la journée",
+              "notifications la nuit"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le manque de sommeil diminue :",
+          "options": [
+            "l’attention et la mémoire",
+            "la taille",
+            "la vue"
+          ],
+          "reponse": "l’attention et la mémoire",
+          "explication": "Le cerveau récupère et trie pendant le sommeil."
+        }
+      ]
+    },
+    {
+      "titre": "Les substances",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le cerveau des adolescents est encore en développement. Il est plus sensible aux effets de l’alcool, du tabac et du cannabis."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut rattraper toutes ses nuits courtes le week-end.",
+          "correction": "Le rythme irrégulier dérègle l’horloge du corps : la régularité compte autant que la durée."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La lumière des écrans le soir :",
+      "options": [
+        "retarde l’endormissement",
+        "aide à dormir",
+        "n’a aucun effet"
+      ],
+      "reponse": "retarde l’endormissement",
+      "explication": "Elle trompe l’horloge du corps."
+    },
+    {
+      "consigne": "Une dépendance, c’est :",
+      "options": [
+        "ne plus pouvoir se passer d’une substance",
+        "un bon sommeil",
+        "une allergie"
+      ],
+      "reponse": "ne plus pouvoir se passer d’une substance",
+      "explication": "Le cerveau réclame la substance."
+    },
+    {
+      "consigne": "Pendant le sommeil, le cerveau :",
+      "options": [
+        "consolide les souvenirs",
+        "s’arrête complètement",
+        "oublie tout"
+      ],
+      "reponse": "consolide les souvenirs",
+      "explication": "Il fixe ce qu’on a appris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 113,
+      "extrait": "Activité cérébrale ; hygiène de vie",
+      "appui": "Cerveau et hygiène de vie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

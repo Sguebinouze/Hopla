@@ -1,0 +1,112 @@
+{
+  "competence": "TE-C4-4E-RES-01",
+  "duree": 7,
+  "essentiel": "Sur un réseau local, chaque appareil a une adresse IP unique, formée de quatre nombres entre 0 et 255 : 192.168.1.20.\nLes appareils d’un même réseau local partagent le début de leur adresse, par exemple 192.168.1.\nPour ajouter un objet, on lui donne une adresse libre du même réseau.",
+  "parties": [
+    {
+      "titre": "Paramétrer une adresse",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le réseau de la classe",
+          "colonnes": [
+            "Appareil",
+            "Adresse IP"
+          ],
+          "lignes": [
+            [
+              "box",
+              "192.168.1.1"
+            ],
+            [
+              "ordinateur 1",
+              "192.168.1.10"
+            ],
+            [
+              "ordinateur 2",
+              "192.168.1.11"
+            ],
+            [
+              "nouvelle imprimante",
+              "192.168.1.20"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle adresse donner à un nouvel ordinateur de ce réseau ?",
+          "options": [
+            "192.168.1.30",
+            "192.168.2.30",
+            "192.168.1.10"
+          ],
+          "reponse": "192.168.1.30",
+          "explication": "Même début, nombre final libre."
+        }
+      ]
+    },
+    {
+      "titre": "Résoudre un problème",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un appareil ne communique pas",
+          "etapes": [
+            "Vérifie le câble ou la connexion Wi-Fi.",
+            "Vérifie que l’adresse commence comme les autres.",
+            "Vérifie qu’aucun autre appareil n’a la même adresse.",
+            "Teste la liaison avec la commande ping."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne à deux appareils la même adresse IP.",
+          "correction": "Les données ne savent plus où aller : chaque adresse doit être unique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle adresse IP est invalide ?",
+      "options": [
+        "192.168.1.300",
+        "192.168.1.30",
+        "10.0.0.1"
+      ],
+      "reponse": "192.168.1.300",
+      "explication": "Chaque nombre va de 0 à 255."
+    },
+    {
+      "consigne": "La commande ping sert à :",
+      "options": [
+        "tester si un appareil répond",
+        "imprimer",
+        "changer de mot de passe"
+      ],
+      "reponse": "tester si un appareil répond",
+      "explication": "Elle envoie un message et attend la réponse."
+    },
+    {
+      "consigne": "Deux appareils d’un même réseau local ont :",
+      "options": [
+        "le même début d’adresse",
+        "la même adresse complète",
+        "des adresses sans rapport"
+      ],
+      "reponse": "le même début d’adresse",
+      "explication": "Seul le dernier nombre change."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Paramétrer une adresse IP fixe pour",
+      "appui": "Réseau local et adresse IP"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

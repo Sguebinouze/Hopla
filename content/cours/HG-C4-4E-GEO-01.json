@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-01",
+  "duree": 7,
+  "essentiel": "Depuis 2007, plus de la moitié de l’humanité vit en ville.\nUne ville s’organise du centre vers les périphéries : centre-ville, banlieues, espaces périurbains.\nDans les pays pauvres, une partie des habitants vit dans des quartiers précaires, les bidonvilles.",
+  "parties": [
+    {
+      "titre": "Du centre aux périphéries",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les espaces d’une ville",
+          "colonnes": [
+            "Espace",
+            "Caractères"
+          ],
+          "lignes": [
+            [
+              "centre",
+              "commerces, monuments, bureaux, forte densité"
+            ],
+            [
+              "banlieue",
+              "quartiers résidentiels, grands ensembles, zones d’activités"
+            ],
+            [
+              "périurbain",
+              "maisons individuelles en campagne, longs trajets"
+            ],
+            [
+              "bidonville",
+              "habitat précaire, sans services de base"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le périurbain, c’est :",
+          "options": [
+            "des espaces à la campagne où vivent des citadins",
+            "le centre historique",
+            "un quartier d’affaires"
+          ],
+          "reponse": "des espaces à la campagne où vivent des citadins",
+          "explication": "On y vit, mais on travaille souvent en ville."
+        }
+      ]
+    },
+    {
+      "titre": "L’étalement urbain",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les villes grandissent en occupant de plus en plus d’espace. Cet étalement grignote les terres agricoles et allonge les déplacements."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que toutes les grandes villes sont dans les pays riches.",
+          "correction": "Beaucoup des plus grandes agglomérations sont en Asie, en Afrique et en Amérique latine."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Depuis 2007, la majorité de l’humanité vit :",
+      "options": [
+        "en ville",
+        "à la campagne",
+        "sur les côtes"
+      ],
+      "reponse": "en ville",
+      "explication": "C’est l’urbanisation du monde."
+    },
+    {
+      "consigne": "Un bidonville est :",
+      "options": [
+        "un quartier d’habitat précaire",
+        "un quartier d’affaires",
+        "une ville nouvelle"
+      ],
+      "reponse": "un quartier d’habitat précaire",
+      "explication": "Souvent sans eau courante ni égouts."
+    },
+    {
+      "consigne": "L’étalement urbain a pour conséquence :",
+      "options": [
+        "la réduction des terres agricoles",
+        "la baisse des déplacements",
+        "la disparition des banlieues"
+      ],
+      "reponse": "la réduction des terres agricoles",
+      "explication": "La ville avance sur la campagne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 89,
+      "extrait": "Le monde s’urbanise à grande vitesse depuis 1945. Plus de la",
+      "appui": "L’urbanisation du monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

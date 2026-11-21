@@ -1,0 +1,102 @@
+{
+  "competence": "HG-C4-4E-HIST-07",
+  "duree": 6,
+  "essentiel": "Au XIXe siècle, le Code civil de 1804 place la femme mariée sous l’autorité de son mari.\nBeaucoup de femmes travaillent : à la ferme, à l’usine, comme domestiques. Leurs salaires sont plus bas que ceux des hommes.\nPeu à peu, elles obtiennent des droits : lycées publics pour les filles en 1880, libre disposition de leur salaire en 1907.",
+  "parties": [
+    {
+      "titre": "Des droits limités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La femme mariée selon le Code civil",
+          "colonnes": [
+            "Domaine",
+            "Situation"
+          ],
+          "lignes": [
+            [
+              "autorité",
+              "elle doit obéissance à son mari"
+            ],
+            [
+              "argent",
+              "elle ne gère pas ses biens"
+            ],
+            [
+              "politique",
+              "elle ne vote pas"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En 1907, les femmes mariées obtiennent :",
+          "options": [
+            "le droit de disposer de leur salaire",
+            "le droit de vote",
+            "le droit d’être élues députées"
+          ],
+          "reponse": "le droit de disposer de leur salaire",
+          "explication": "Elles peuvent gérer l’argent qu’elles gagnent."
+        }
+      ]
+    },
+    {
+      "titre": "Des combats",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Hubertine Auclert milite pour le vote des femmes dès les années 1870. Marie Curie reçoit deux prix Nobel, en 1903 et 1911."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les femmes ne travaillaient pas au XIXe siècle.",
+          "correction": "Elles travaillent beaucoup, mais leur travail est moins payé et peu reconnu."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Code civil de 1804 place la femme mariée sous l’autorité :",
+      "options": [
+        "de son mari",
+        "du préfet",
+        "du maire"
+      ],
+      "reponse": "de son mari",
+      "explication": "Elle lui doit obéissance."
+    },
+    {
+      "consigne": "Hubertine Auclert milite pour :",
+      "options": [
+        "le droit de vote des femmes",
+        "la monarchie",
+        "la colonisation"
+      ],
+      "reponse": "le droit de vote des femmes",
+      "explication": "Elle est une figure du féminisme."
+    },
+    {
+      "consigne": "Marie Curie est :",
+      "options": [
+        "une scientifique deux fois prix Nobel",
+        "une reine",
+        "une philosophe des Lumières"
+      ],
+      "reponse": "une scientifique deux fois prix Nobel",
+      "explication": "En physique puis en chimie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 84,
+      "extrait": "Conditions féminines dans une société en mutation",
+      "appui": "Les femmes au XIXe siècle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

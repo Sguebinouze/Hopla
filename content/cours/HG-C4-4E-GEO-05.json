@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-4E-GEO-05",
+  "duree": 6,
+  "essentiel": "Les métropoles mondiales, comme New York, Londres, Tokyo ou Paris, concentrent les sièges sociaux, les bourses et les grands aéroports.\nElles commandent les flux de marchandises, de capitaux et d’informations : ce sont des centres de la mondialisation.\nD’autres villes sont moins connectées et restent à l’écart.",
+  "parties": [
+    {
+      "titre": "Ce que concentre une métropole",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fonctions d’une métropole mondiale",
+          "colonnes": [
+            "Fonction",
+            "Exemple à Londres"
+          ],
+          "lignes": [
+            [
+              "finance",
+              "la City, la Bourse"
+            ],
+            [
+              "transport",
+              "aéroport d’Heathrow"
+            ],
+            [
+              "culture",
+              "musées, universités"
+            ],
+            [
+              "pouvoir",
+              "sièges de grandes entreprises"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un CBD est :",
+          "options": [
+            "un quartier d’affaires",
+            "un quartier pauvre",
+            "un parc"
+          ],
+          "reponse": "un quartier d’affaires",
+          "explication": "Central Business District : tours de bureaux."
+        }
+      ]
+    },
+    {
+      "titre": "Inégalement connectées",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Paris possède La Défense, deux grands aéroports et des lignes à grande vitesse. Une petite ville de l’intérieur de l’Afrique dispose de peu de liaisons internationales."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une métropole est seulement une ville très peuplée.",
+          "correction": "Ce qui compte, ce sont les fonctions de commandement et les connexions, pas seulement la population."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le quartier d’affaires de Paris s’appelle :",
+      "options": [
+        "La Défense",
+        "Montmartre",
+        "le Marais"
+      ],
+      "reponse": "La Défense",
+      "explication": "Il concentre les tours de bureaux."
+    },
+    {
+      "consigne": "Un hub est :",
+      "options": [
+        "un grand nœud de correspondances",
+        "un quartier résidentiel",
+        "un musée"
+      ],
+      "reponse": "un grand nœud de correspondances",
+      "explication": "Par exemple un grand aéroport."
+    },
+    {
+      "consigne": "Une métropole mondiale se définit surtout par :",
+      "options": [
+        "ses fonctions de commandement",
+        "sa superficie",
+        "son climat"
+      ],
+      "reponse": "ses fonctions de commandement",
+      "explication": "Finance, sièges, échanges."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 89,
+      "extrait": "Des villes inégalement connectées aux réseaux de la mondialisation",
+      "appui": "Villes connectées à la mondialisation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

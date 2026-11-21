@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-4E-GEOL-01",
+  "duree": 8,
+  "essentiel": "La surface de la Terre est découpée en plaques lithosphériques qui se déplacent de quelques centimètres par an.\nÀ leurs frontières, les mouvements provoquent des séismes et du volcanisme.\nAu Japon, à la frontière de plusieurs plaques, séismes et éruptions sont fréquents.",
+  "parties": [
+    {
+      "titre": "Les frontières de plaques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois mouvements",
+          "colonnes": [
+            "Mouvement",
+            "Ce qui se passe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "divergence",
+              "les plaques s’écartent, un nouveau plancher océanique se forme",
+              "dorsale de l’Atlantique, Islande"
+            ],
+            [
+              "convergence",
+              "une plaque plonge sous l’autre : séismes, volcans explosifs",
+              "Japon, Andes"
+            ],
+            [
+              "coulissage",
+              "les plaques glissent l’une contre l’autre : séismes",
+              "faille de San Andreas"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les plaques lithosphériques se déplacent d’environ :",
+          "options": [
+            "quelques centimètres par an",
+            "quelques mètres par jour",
+            "un kilomètre par an"
+          ],
+          "reponse": "quelques centimètres par an",
+          "explication": "Comme la croissance des ongles."
+        }
+      ]
+    },
+    {
+      "titre": "Un séisme",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un séisme naît d’une rupture des roches en profondeur, au foyer. L’épicentre est le point de la surface situé juste au-dessus."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les séismes se produisent n’importe où au hasard.",
+          "correction": "La plupart se situent aux frontières des plaques."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’épicentre d’un séisme est :",
+      "options": [
+        "le point de la surface au-dessus du foyer",
+        "le centre de la Terre",
+        "le cratère d’un volcan"
+      ],
+      "reponse": "le point de la surface au-dessus du foyer",
+      "explication": "Le foyer est en profondeur."
+    },
+    {
+      "consigne": "À une dorsale océanique, les plaques :",
+      "options": [
+        "s’écartent",
+        "se rapprochent",
+        "restent immobiles"
+      ],
+      "reponse": "s’écartent",
+      "explication": "Un nouveau plancher se forme."
+    },
+    {
+      "consigne": "Les volcans explosifs se trouvent surtout dans les zones de :",
+      "options": [
+        "convergence",
+        "divergence",
+        "plaine"
+      ],
+      "reponse": "convergence",
+      "explication": "Une plaque plonge sous l’autre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 110,
+      "extrait": "Les phénomènes géologiques liés au fonctionnement de la Terre / éléments de climatologie",
+      "appui": "Séismes, volcans et plaques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

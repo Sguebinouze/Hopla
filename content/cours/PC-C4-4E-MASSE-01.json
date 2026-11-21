@@ -1,0 +1,106 @@
+{
+  "competence": "PC-C4-4E-MASSE-01",
+  "duree": 6,
+  "essentiel": "Lors d’une transformation chimique, la masse totale se conserve : les atomes se réarrangent sans disparaitre.\n12 g de carbone et 32 g de dioxygène donnent 44 g de dioxyde de carbone.\nSi un gaz s’échappe d’un récipient ouvert, la balance indique une masse plus faible.",
+  "parties": [
+    {
+      "titre": "Masse des réactifs, masse des produits",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "On brule 12 g de carbone dans 32 g de dioxygène. Quelle masse de dioxyde de carbone obtient-on ?",
+          "etapes": [
+            "La masse totale se conserve.",
+            "12 + 32 = 44."
+          ],
+          "conclusion": "On obtient 44 g de dioxyde de carbone."
+        },
+        {
+          "type": "question",
+          "consigne": "6 g de réactifs réagissent entièrement. La masse des produits est :",
+          "options": [
+            "6 g",
+            "moins de 6 g",
+            "plus de 6 g"
+          ],
+          "reponse": "6 g",
+          "explication": "Les atomes se conservent."
+        }
+      ]
+    },
+    {
+      "titre": "Récipient ouvert ou fermé",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vinaigre et bicarbonate",
+          "colonnes": [
+            "Récipient",
+            "Masse lue",
+            "Explication"
+          ],
+          "lignes": [
+            [
+              "fermé",
+              "constante",
+              "le gaz produit reste dans le récipient"
+            ],
+            [
+              "ouvert",
+              "diminue",
+              "le dioxyde de carbone s’échappe dans l’air"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On conclut que la masse diminue lors de la réaction.",
+          "correction": "La masse ne disparait pas : le gaz est simplement parti dans l’air."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une bougie qui brule semble perdre de la masse car :",
+      "options": [
+        "les produits gazeux partent dans l’air",
+        "la matière disparait",
+        "la flamme est légère"
+      ],
+      "reponse": "les produits gazeux partent dans l’air",
+      "explication": "Dioxyde de carbone et vapeur d’eau s’échappent."
+    },
+    {
+      "consigne": "La conservation de la masse s’explique par :",
+      "options": [
+        "la conservation des atomes",
+        "la disparition des molécules",
+        "la chaleur"
+      ],
+      "reponse": "la conservation des atomes",
+      "explication": "Les atomes se réarrangent."
+    },
+    {
+      "consigne": "4 g de dihydrogène réagissent avec 32 g de dioxygène. Masse d’eau :",
+      "options": [
+        "36 g",
+        "28 g",
+        "128 g"
+      ],
+      "reponse": "36 g",
+      "explication": "4 + 32."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 99,
+      "extrait": "Conservation de la masse lors d’une",
+      "appui": "Conservation de la masse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

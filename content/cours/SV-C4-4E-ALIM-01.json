@@ -1,0 +1,110 @@
+{
+  "competence": "SV-C4-4E-ALIM-01",
+  "duree": 6,
+  "essentiel": "Les aliments apportent de l’énergie et des matériaux pour construire et entretenir le corps.\nLes féculents apportent l’énergie. Viandes, poissons, œufs et légumineuses apportent les protéines. Fruits et légumes apportent vitamines et fibres.\nLes besoins varient selon l’âge, la croissance et l’activité physique.",
+  "parties": [
+    {
+      "titre": "Les groupes d’aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Apports principaux",
+          "colonnes": [
+            "Groupe",
+            "Apport"
+          ],
+          "lignes": [
+            [
+              "féculents",
+              "énergie"
+            ],
+            [
+              "viandes, poissons, œufs, légumineuses",
+              "protéines"
+            ],
+            [
+              "produits laitiers",
+              "calcium, protéines"
+            ],
+            [
+              "fruits et légumes",
+              "vitamines, fibres"
+            ],
+            [
+              "matières grasses",
+              "énergie, à consommer avec modération"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le poisson apporte surtout :",
+          "options": [
+            "des protéines",
+            "des fibres",
+            "des sucres"
+          ],
+          "reponse": "des protéines",
+          "explication": "Elles construisent et réparent les muscles."
+        }
+      ]
+    },
+    {
+      "titre": "Des besoins variables",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un adolescent en croissance et une personne très active ont des besoins plus élevés qu’une personne âgée sédentaire."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un aliment suffit à lui seul.",
+          "correction": "Aucun aliment ne contient tout : la variété assure tous les apports."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le calcium, utile aux os, se trouve surtout dans :",
+      "options": [
+        "les produits laitiers",
+        "les pâtes",
+        "l’huile"
+      ],
+      "reponse": "les produits laitiers",
+      "explication": "Lait, yaourt, fromage."
+    },
+    {
+      "consigne": "Les besoins en énergie augmentent avec :",
+      "options": [
+        "l’activité physique",
+        "le sommeil",
+        "le froid seulement"
+      ],
+      "reponse": "l’activité physique",
+      "explication": "Les muscles consomment plus."
+    },
+    {
+      "consigne": "Les lentilles sont riches en :",
+      "options": [
+        "protéines",
+        "vitamine C",
+        "calcium"
+      ],
+      "reponse": "protéines",
+      "explication": "Ce sont des légumineuses."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 113,
+      "extrait": "Groupes d’aliments, besoins alimentaires, besoins nutritionnels et diversité des régimes alimentaires.",
+      "appui": "Besoins alimentaires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

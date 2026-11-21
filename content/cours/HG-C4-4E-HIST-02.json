@@ -1,0 +1,111 @@
+{
+  "competence": "HG-C4-4E-HIST-02",
+  "duree": 7,
+  "essentiel": "Au XVIIIe siècle, les philosophes des Lumières veulent éclairer les esprits par la raison.\nIls défendent la liberté, la tolérance et critiquent la monarchie absolue.\nLeurs idées circulent dans les livres, l’Encyclopédie, les salons et les cafés.",
+  "parties": [
+    {
+      "titre": "Des philosophes et leurs idées",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les Lumières",
+          "colonnes": [
+            "Philosophe",
+            "Œuvre",
+            "Idée"
+          ],
+          "lignes": [
+            [
+              "Montesquieu",
+              "De l’esprit des lois (1748)",
+              "séparer les pouvoirs législatif, exécutif et judiciaire"
+            ],
+            [
+              "Voltaire",
+              "Traité sur la tolérance (1763)",
+              "tolérance religieuse"
+            ],
+            [
+              "Rousseau",
+              "Du contrat social (1762)",
+              "la souveraineté appartient au peuple"
+            ],
+            [
+              "Diderot et d’Alembert",
+              "l’Encyclopédie",
+              "diffuser les savoirs"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui propose de séparer les pouvoirs ?",
+          "options": [
+            "Montesquieu",
+            "Voltaire",
+            "Louis XIV"
+          ],
+          "reponse": "Montesquieu",
+          "explication": "Dans De l’esprit des lois."
+        }
+      ]
+    },
+    {
+      "titre": "La diffusion des idées",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les livres critiques sont parfois interdits. Ils circulent malgré tout, imprimés à l’étranger et lus dans les salons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les philosophes des Lumières veulent tous supprimer le roi.",
+          "correction": "Beaucoup veulent limiter son pouvoir, pas forcément le supprimer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les Lumières font confiance avant tout à :",
+      "options": [
+        "la raison",
+        "la tradition",
+        "la force"
+      ],
+      "reponse": "la raison",
+      "explication": "Pour éclairer les esprits."
+    },
+    {
+      "consigne": "Voltaire défend :",
+      "options": [
+        "la tolérance religieuse",
+        "la monarchie absolue",
+        "la censure"
+      ],
+      "reponse": "la tolérance religieuse",
+      "explication": "Dans le Traité sur la tolérance."
+    },
+    {
+      "consigne": "L’Encyclopédie a pour but de :",
+      "options": [
+        "diffuser les connaissances",
+        "raconter la vie du roi",
+        "interdire les livres"
+      ],
+      "reponse": "diffuser les connaissances",
+      "explication": "Dirigée par Diderot et d’Alembert."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 83,
+      "extrait": "Le développement de l’esprit scientifique, l’ouverture vers des",
+      "appui": "L’Europe des Lumières"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

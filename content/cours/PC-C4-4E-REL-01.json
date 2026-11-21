@@ -1,0 +1,102 @@
+{
+  "competence": "PC-C4-4E-REL-01",
+  "duree": 5,
+  "essentiel": "Un mouvement se décrit toujours par rapport à un objet de référence : le référentiel.\nAssis dans un train, je suis immobile par rapport au wagon, mais en mouvement par rapport au quai.\nLa trajectoire aussi dépend du référentiel.",
+  "parties": [
+    {
+      "titre": "Choisir un référentiel",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un passager dans un train qui roule",
+          "colonnes": [
+            "Référentiel",
+            "Le passager est"
+          ],
+          "lignes": [
+            [
+              "le wagon",
+              "immobile"
+            ],
+            [
+              "le quai",
+              "en mouvement"
+            ],
+            [
+              "un autre train qui roule à la même vitesse, dans le même sens",
+              "immobile"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour un observateur au sol, un satellite géostationnaire semble :",
+          "options": [
+            "immobile",
+            "tourner très vite",
+            "tomber"
+          ],
+          "reponse": "immobile",
+          "explication": "Il tourne avec la Terre."
+        }
+      ]
+    },
+    {
+      "titre": "La trajectoire change",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La valve d’une roue de vélo décrit un cercle pour le cycliste. Pour un piéton immobile, elle décrit une suite d’arches."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit qu’un objet « bouge » sans préciser par rapport à quoi.",
+          "correction": "Un mouvement n’a de sens que par rapport à un référentiel choisi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par rapport à la route, un conducteur qui roule est :",
+      "options": [
+        "en mouvement",
+        "immobile",
+        "sans référentiel"
+      ],
+      "reponse": "en mouvement",
+      "explication": "Il se déplace par rapport à la route."
+    },
+    {
+      "consigne": "Par rapport à sa voiture, le même conducteur est :",
+      "options": [
+        "immobile",
+        "en mouvement",
+        "en chute libre"
+      ],
+      "reponse": "immobile",
+      "explication": "Il reste à sa place."
+    },
+    {
+      "consigne": "Un référentiel est :",
+      "options": [
+        "l’objet par rapport auquel on décrit le mouvement",
+        "une unité de vitesse",
+        "un instrument de mesure"
+      ],
+      "reponse": "l’objet par rapport auquel on décrit le mouvement",
+      "explication": "Le quai, le wagon, le sol…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 101,
+      "extrait": "Relativité du mouvement dans des cas simples",
+      "appui": "La relativité du mouvement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
