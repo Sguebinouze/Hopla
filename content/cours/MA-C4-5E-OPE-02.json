@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C4-5E-OPE-02",
+  "duree": 6,
+  "essentiel": "Pour tous nombres k, a et b : k × (a + b) = k × a + k × b. C’est la distributivité.\nElle sert à calculer mentalement : 7 × 102 = 7 × 100 + 7 × 2 = 714.\nDans l’autre sens, on factorise : 13 × 7 + 13 × 3 = 13 × 10 = 130.",
+  "parties": [
+    {
+      "titre": "Développer pour calculer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 9 × 98 sans poser l’opération.",
+          "etapes": [
+            "98 = 100 − 2.",
+            "9 × 98 = 9 × 100 − 9 × 2.",
+            "900 − 18 = 882."
+          ],
+          "conclusion": "9 × 98 = 882."
+        },
+        {
+          "type": "question",
+          "consigne": "15 × 11 = ?",
+          "options": [
+            "165",
+            "155",
+            "151"
+          ],
+          "reponse": "165",
+          "explication": "15 × 10 + 15 × 1 = 150 + 15."
+        }
+      ]
+    },
+    {
+      "titre": "Factoriser pour calculer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "25 × 17 + 25 × 3 : le facteur 25 est commun. On écrit 25 × (17 + 3) = 25 × 20 = 500."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 7 × (100 + 2) = 7 × 100 + 2.",
+          "correction": "On multiplie chaque terme de la parenthèse : 7 × 100 + 7 × 2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "8 × 103 = ?",
+      "options": [
+        "824",
+        "811",
+        "8 024"
+      ],
+      "reponse": "824",
+      "explication": "800 + 24."
+    },
+    {
+      "consigne": "6 × 99 = ?",
+      "options": [
+        "594",
+        "606",
+        "596"
+      ],
+      "reponse": "594",
+      "explication": "6 × 100 − 6 × 1 = 600 − 6."
+    },
+    {
+      "consigne": "25 × 17 + 25 × 3 = ?",
+      "options": [
+        "500",
+        "425",
+        "75"
+      ],
+      "reponse": "500",
+      "explication": "25 × (17 + 3) = 25 × 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 40,
+      "extrait": "Connaitre et utiliser la distributivité simple sur des exemples numériques.",
+      "appui": "Distributivité simple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

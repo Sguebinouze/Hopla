@@ -1,0 +1,110 @@
+{
+  "competence": "MA-C4-5E-DIV-01",
+  "duree": 6,
+  "essentiel": "Un nombre est divisible par 2 s’il se termine par 0, 2, 4, 6 ou 8. Par 5, s’il se termine par 0 ou 5. Par 10, s’il se termine par 0.\nIl est divisible par 3 si la somme de ses chiffres est divisible par 3.\nIl est divisible par 9 si la somme de ses chiffres est divisible par 9.",
+  "parties": [
+    {
+      "titre": "La somme des chiffres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tester 3 et 9",
+          "colonnes": [
+            "Nombre",
+            "Somme des chiffres",
+            "Divisible par 3",
+            "Divisible par 9"
+          ],
+          "lignes": [
+            [
+              "471",
+              "4 + 7 + 1 = 12",
+              "oui",
+              "non"
+            ],
+            [
+              "738",
+              "7 + 3 + 8 = 18",
+              "oui",
+              "oui"
+            ],
+            [
+              "512",
+              "5 + 1 + 2 = 8",
+              "non",
+              "non"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel est divisible par 9 ?",
+          "options": [
+            "4 653",
+            "4 652",
+            "1 234"
+          ],
+          "reponse": "4 653",
+          "explication": "4 + 6 + 5 + 3 = 18, divisible par 9."
+        }
+      ]
+    },
+    {
+      "titre": "Liens entre les critères",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un nombre divisible par 9 est aussi divisible par 3, car 9 = 3 × 3. L’inverse est faux : 12 est divisible par 3, pas par 9."
+        },
+        {
+          "type": "piege",
+          "erreur": "On regarde le dernier chiffre pour tester la divisibilité par 3 : « 471 finit par 1, donc non ».",
+          "correction": "Pour 3 et 9, on additionne tous les chiffres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "85 est divisible par :",
+      "options": [
+        "5",
+        "2",
+        "3"
+      ],
+      "reponse": "5",
+      "explication": "Il se termine par 5. 8 + 5 = 13 n’est pas divisible par 3."
+    },
+    {
+      "consigne": "2 340 est divisible par :",
+      "options": [
+        "2, 3, 5, 9 et 10",
+        "2 et 10 seulement",
+        "3 et 9 seulement"
+      ],
+      "reponse": "2, 3, 5, 9 et 10",
+      "explication": "Il finit par 0 et 2 + 3 + 4 + 0 = 9."
+    },
+    {
+      "consigne": "Un nombre divisible par 9 est toujours divisible par :",
+      "options": [
+        "3",
+        "2",
+        "5"
+      ],
+      "reponse": "3",
+      "explication": "9 = 3 × 3."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 40,
+      "extrait": "Connaitre les critères de divisibilité par 3 et par 9.",
+      "appui": "Critères de divisibilité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

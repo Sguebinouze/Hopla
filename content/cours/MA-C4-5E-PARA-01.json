@@ -1,0 +1,147 @@
+{
+  "competence": "MA-C4-5E-PARA-01",
+  "duree": 7,
+  "essentiel": "Un parallélogramme a ses côtés opposés parallèles et de même longueur, et ses diagonales qui se coupent en leur milieu.\nDiagonales de même longueur : rectangle. Diagonales perpendiculaires : losange. Les deux : carré.\nAire d’un parallélogramme : base × hauteur.",
+  "parties": [
+    {
+      "titre": "Les parallélogrammes particuliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Propriétés des diagonales",
+          "colonnes": [
+            "Quadrilatère",
+            "Diagonales"
+          ],
+          "lignes": [
+            [
+              "parallélogramme",
+              "se coupent en leur milieu"
+            ],
+            [
+              "rectangle",
+              "se coupent en leur milieu, même longueur"
+            ],
+            [
+              "losange",
+              "se coupent en leur milieu, perpendiculaires"
+            ],
+            [
+              "carré",
+              "même milieu, même longueur, perpendiculaires"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un parallélogramme dont les diagonales sont perpendiculaires est :",
+          "options": [
+            "un losange",
+            "un rectangle",
+            "un trapèze"
+          ],
+          "reponse": "un losange",
+          "explication": "C’est une propriété caractéristique du losange."
+        }
+      ]
+    },
+    {
+      "titre": "Aire",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 9,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    6,
+                    5
+                  ],
+                  [
+                    8,
+                    1
+                  ],
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  3,
+                  1
+                ],
+                "a": [
+                  3,
+                  5
+                ],
+                "accent": true
+              }
+            ]
+          },
+          "legende": "Base 5 carreaux, hauteur 4 carreaux : aire 20 carreaux."
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie les deux côtés : 5 × la longueur du côté oblique.",
+          "correction": "On multiplie la base par la hauteur, perpendiculaire à la base."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un parallélogramme dont les diagonales ont la même longueur est :",
+      "options": [
+        "un rectangle",
+        "un losange",
+        "un trapèze"
+      ],
+      "reponse": "un rectangle",
+      "explication": "Propriété caractéristique du rectangle."
+    },
+    {
+      "consigne": "Base 7 cm, hauteur 3 cm. Aire du parallélogramme :",
+      "options": [
+        "21 cm²",
+        "10,5 cm²",
+        "20 cm²"
+      ],
+      "reponse": "21 cm²",
+      "explication": "7 × 3 = 21."
+    },
+    {
+      "consigne": "Dans tout parallélogramme, les diagonales :",
+      "options": [
+        "se coupent en leur milieu",
+        "sont perpendiculaires",
+        "ont la même longueur"
+      ],
+      "reponse": "se coupent en leur milieu",
+      "explication": "Les deux autres propriétés sont particulières."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 46,
+      "extrait": "Connaitre les propriétés caractéristiques des côtés opposés et des diagonales.",
+      "appui": "Parallélogrammes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

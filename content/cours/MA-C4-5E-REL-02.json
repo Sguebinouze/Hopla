@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-5E-REL-02",
+  "duree": 6,
+  "essentiel": "Deux nombres opposés ont la même distance à zéro et des signes contraires : l’opposé de −7 est 7.\nUn nombre négatif est plus petit qu’un nombre positif.\nEntre deux négatifs, le plus petit est le plus éloigné de zéro : −5 < −2.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer deux relatifs",
+          "colonnes": [
+            "Cas",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "un négatif et un positif",
+              "−8 < 3"
+            ],
+            [
+              "deux positifs",
+              "2,5 < 4"
+            ],
+            [
+              "deux négatifs",
+              "−4 < −2,5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre −7 et −3 ?",
+          "options": [
+            "<",
+            ">",
+            "="
+          ],
+          "reponse": "<",
+          "explication": "−7 est plus loin de zéro, à gauche."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range dans l’ordre croissant : 0,5 ; −2 ; −3,5.",
+          "etapes": [
+            "Le seul positif est le plus grand : 0,5.",
+            "Entre −2 et −3,5, le plus loin de zéro est −3,5."
+          ],
+          "conclusion": "−3,5 < −2 < 0,5."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que −5 > −2, car 5 > 2.",
+          "correction": "Sur la droite graduée, −5 est à gauche de −2 : −5 < −2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’opposé de −4,2 est :",
+      "options": [
+        "4,2",
+        "−4,2",
+        "0"
+      ],
+      "reponse": "4,2",
+      "explication": "Même distance à zéro, signe contraire."
+    },
+    {
+      "consigne": "Range dans l’ordre croissant.",
+      "options": [
+        "−1,5 < −1 < 0,2",
+        "−1 < −1,5 < 0,2",
+        "0,2 < −1 < −1,5"
+      ],
+      "reponse": "−1,5 < −1 < 0,2",
+      "explication": "−1,5 est plus loin de zéro que −1."
+    },
+    {
+      "consigne": "Quel est le plus petit ?",
+      "options": [
+        "−9",
+        "−1",
+        "0"
+      ],
+      "reponse": "−9",
+      "explication": "Le plus éloigné de zéro, côté négatif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 41,
+      "extrait": "Comparer et ranger dans l’ordre croissant et décroissant des nombres décimaux relatifs.",
+      "appui": "Opposé, comparer des relatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,110 @@
+{
+  "competence": "MA-C4-5E-DEC-01",
+  "duree": 6,
+  "essentiel": "Pour diviser par un nombre décimal, on multiplie le dividende et le diviseur par 10, 100 ou 1 000 pour que le diviseur devienne entier.\nLe quotient ne change pas : 4,8 ÷ 0,6 = 48 ÷ 6 = 8.\nDiviser par un nombre plus petit que 1 donne un résultat plus grand.",
+  "parties": [
+    {
+      "titre": "Rendre le diviseur entier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des divisions",
+          "colonnes": [
+            "Division",
+            "On multiplie par",
+            "Division équivalente",
+            "Quotient"
+          ],
+          "lignes": [
+            [
+              "4,8 ÷ 0,6",
+              "10",
+              "48 ÷ 6",
+              "8"
+            ],
+            [
+              "7,5 ÷ 0,25",
+              "100",
+              "750 ÷ 25",
+              "30"
+            ],
+            [
+              "12 ÷ 0,4",
+              "10",
+              "120 ÷ 4",
+              "30"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "3,6 ÷ 0,9 = ?",
+          "options": [
+            "4",
+            "0,4",
+            "40"
+          ],
+          "reponse": "4",
+          "explication": "36 ÷ 9 = 4."
+        }
+      ]
+    },
+    {
+      "titre": "Un résultat plus grand",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "5 ÷ 0,5 = 10 : il y a 10 demis dans 5. Diviser par 0,5, c’est multiplier par 2."
+        },
+        {
+          "type": "piege",
+          "erreur": "On multiplie seulement le diviseur : 4,8 ÷ 0,6 devient 4,8 ÷ 6.",
+          "correction": "On multiplie les deux nombres par le même nombre : 48 ÷ 6."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "5 ÷ 0,5 = ?",
+      "options": [
+        "10",
+        "2,5",
+        "0,1"
+      ],
+      "reponse": "10",
+      "explication": "50 ÷ 5 = 10."
+    },
+    {
+      "consigne": "2,4 ÷ 0,08 = ?",
+      "options": [
+        "30",
+        "3",
+        "0,3"
+      ],
+      "reponse": "30",
+      "explication": "240 ÷ 8 = 30."
+    },
+    {
+      "consigne": "Diviser 6 par 0,2 donne un résultat :",
+      "options": [
+        "plus grand que 6",
+        "plus petit que 6",
+        "égal à 6"
+      ],
+      "reponse": "plus grand que 6",
+      "explication": "6 ÷ 0,2 = 30."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 40,
+      "extrait": "Diviser par un nombre décimal",
+      "appui": "Diviser par un décimal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

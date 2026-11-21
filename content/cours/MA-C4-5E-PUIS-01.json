@@ -1,0 +1,120 @@
+{
+  "competence": "MA-C4-5E-PUIS-01",
+  "duree": 6,
+  "essentiel": "Le carré d’un nombre est ce nombre multiplié par lui-même : 7² = 7 × 7 = 49.\nLe cube de 10 est 10³ = 10 × 10 × 10 = 1 000.\nDans un calcul, la puissance passe avant la multiplication : 2 × 3² = 2 × 9 = 18.",
+  "parties": [
+    {
+      "titre": "Les carrés à connaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Carrés de 0 à 12",
+          "colonnes": [
+            "n",
+            "0 à 4",
+            "5 à 8",
+            "9 à 12"
+          ],
+          "lignes": [
+            [
+              "n²",
+              "0 ; 1 ; 4 ; 9 ; 16",
+              "25 ; 36 ; 49 ; 64",
+              "81 ; 100 ; 121 ; 144"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "9² = ?",
+          "options": [
+            "81",
+            "18",
+            "99"
+          ],
+          "reponse": "81",
+          "explication": "9 × 9 = 81."
+        }
+      ]
+    },
+    {
+      "titre": "Priorité des puissances",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avec ou sans parenthèses",
+          "colonnes": [
+            "Expression",
+            "Calcul",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "2 × 3²",
+              "2 × 9",
+              "18"
+            ],
+            [
+              "(2 × 3)²",
+              "6²",
+              "36"
+            ],
+            [
+              "3 + 4²",
+              "3 + 16",
+              "19"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 7² = 14.",
+          "correction": "7² = 7 × 7 = 49. Le 2 ne multiplie pas : il dit combien de fois on écrit 7."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "12² = ?",
+      "options": [
+        "144",
+        "24",
+        "122"
+      ],
+      "reponse": "144",
+      "explication": "12 × 12 = 144."
+    },
+    {
+      "consigne": "3 + 4² = ?",
+      "options": [
+        "19",
+        "49",
+        "11"
+      ],
+      "reponse": "19",
+      "explication": "La puissance d’abord : 4² = 16."
+    },
+    {
+      "consigne": "2³ = ?",
+      "options": [
+        "8",
+        "6",
+        "9"
+      ],
+      "reponse": "8",
+      "explication": "2 × 2 × 2 = 8."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 41,
+      "extrait": "Connaitre les carrés des entiers de 0 à 12.",
+      "appui": "Carrés et cubes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,158 @@
+{
+  "competence": "MA-C4-5E-SYM-01",
+  "duree": 7,
+  "essentiel": "Le symétrique du point A par rapport au point O est le point A′ tel que O est le milieu de [AA′].\nLa symétrie centrale est un demi-tour autour de O.\nElle conserve les longueurs, les angles, les aires et l’alignement. L’image d’une droite est une droite parallèle.",
+  "parties": [
+    {
+      "titre": "Construire le symétrique d’un point",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  1
+                ],
+                "a": [
+                  7,
+                  5
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  1
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4,
+                  3
+                ],
+                "nom": "O"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  7,
+                  5
+                ],
+                "nom": "A′"
+              }
+            ]
+          },
+          "legende": "O est le milieu de [AA′] : 3 carreaux à droite et 2 vers le bas, deux fois."
+        },
+        {
+          "type": "methode",
+          "titre": "Avec la règle et le compas",
+          "etapes": [
+            "Trace la demi-droite [AO).",
+            "Reporte la longueur AO de l’autre côté de O, au compas.",
+            "Place A′ : OA′ = OA."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "A′ est le symétrique de A par rapport à O. Alors :",
+          "options": [
+            "O est le milieu de [AA′]",
+            "A est le milieu de [OA′]",
+            "AA′ = AO"
+          ],
+          "reponse": "O est le milieu de [AA′]",
+          "explication": "C’est la définition."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui est conservé",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Propriétés",
+          "colonnes": [
+            "Figure",
+            "Image par symétrie centrale"
+          ],
+          "lignes": [
+            [
+              "segment de 4 cm",
+              "segment de 4 cm"
+            ],
+            [
+              "angle de 35°",
+              "angle de 35°"
+            ],
+            [
+              "droite (d)",
+              "droite parallèle à (d)"
+            ],
+            [
+              "cercle de rayon 2 cm",
+              "cercle de rayon 2 cm"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond avec la symétrie axiale et on « plie ».",
+          "correction": "La symétrie centrale est un demi-tour autour d’un point, pas un pliage le long d’une droite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par symétrie centrale, un segment de 5 cm a pour image :",
+      "options": [
+        "un segment de 5 cm",
+        "un segment de 10 cm",
+        "un point"
+      ],
+      "reponse": "un segment de 5 cm",
+      "explication": "Les longueurs sont conservées."
+    },
+    {
+      "consigne": "Le symétrique de O par rapport à O est :",
+      "options": [
+        "O lui-même",
+        "aucun point",
+        "un point à 1 cm"
+      ],
+      "reponse": "O lui-même",
+      "explication": "Le centre ne bouge pas."
+    },
+    {
+      "consigne": "L’image d’une droite par une symétrie centrale est :",
+      "options": [
+        "une droite parallèle",
+        "une droite perpendiculaire",
+        "un cercle"
+      ],
+      "reponse": "une droite parallèle",
+      "explication": "Le demi-tour garde la direction."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 45,
+      "extrait": "Connaitre les propriétés du demi-tour.",
+      "appui": "Symétrie centrale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

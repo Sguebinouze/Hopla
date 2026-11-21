@@ -1,0 +1,123 @@
+{
+  "competence": "MA-C4-5E-PROBA-01",
+  "duree": 6,
+  "essentiel": "Une probabilité est un nombre compris entre 0 et 1. Un évènement impossible a pour probabilité 0, un évènement certain 1.\nQuand toutes les issues ont la même chance, p = nombre d’issues favorables ÷ nombre d’issues possibles.\nLa probabilité de l’évènement contraire est 1 − p.",
+  "parties": [
+    {
+      "titre": "Équiprobabilité",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "urne",
+            "boules": [
+              {
+                "couleur": "rouge",
+                "nombre": 3
+              },
+              {
+                "couleur": "bleue",
+                "nombre": 5
+              }
+            ]
+          },
+          "legende": "8 boules indiscernables au toucher."
+        },
+        {
+          "type": "tableau",
+          "titre": "On tire une boule au hasard",
+          "colonnes": [
+            "Évènement",
+            "Probabilité"
+          ],
+          "lignes": [
+            [
+              "tirer une rouge",
+              "3/8"
+            ],
+            [
+              "tirer une bleue",
+              "5/8"
+            ],
+            [
+              "tirer une verte",
+              "0"
+            ],
+            [
+              "tirer une rouge ou une bleue",
+              "1"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec un dé équilibré, P(obtenir 4) = ?",
+          "options": [
+            "1/6",
+            "4/6",
+            "1/4"
+          ],
+          "reponse": "1/6",
+          "explication": "Une issue favorable sur six."
+        }
+      ]
+    },
+    {
+      "titre": "L’évènement contraire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Ne pas obtenir 4 » est le contraire de « obtenir 4 ». Sa probabilité est 1 − 1/6 = 5/6."
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne une probabilité de 3/2.",
+          "correction": "Une probabilité ne dépasse jamais 1 : le nombre de cas favorables est au plus égal au nombre de cas possibles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec un dé équilibré, P(obtenir un nombre pair) = ?",
+      "options": [
+        "1/2",
+        "1/6",
+        "2/6"
+      ],
+      "reponse": "1/2",
+      "explication": "3 issues favorables sur 6."
+    },
+    {
+      "consigne": "P(A) = 0,3. P(contraire de A) = ?",
+      "options": [
+        "0,7",
+        "0,3",
+        "1,3"
+      ],
+      "reponse": "0,7",
+      "explication": "1 − 0,3 = 0,7."
+    },
+    {
+      "consigne": "Un évènement certain a pour probabilité :",
+      "options": [
+        "1",
+        "0",
+        "100"
+      ],
+      "reponse": "1",
+      "explication": "Il se réalise toujours."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 50,
+      "extrait": "Attribuer des probabilités dans des cas simples (équiprobabilité).",
+      "appui": "Probabilités simples"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

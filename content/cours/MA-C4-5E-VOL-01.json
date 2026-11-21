@@ -1,0 +1,137 @@
+{
+  "competence": "MA-C4-5E-VOL-01",
+  "duree": 8,
+  "essentiel": "Volume d’un pavé droit : longueur × largeur × hauteur. Volume d’un cube : côté × côté × côté.\nVolume d’un prisme droit ou d’un cylindre : aire de la base × hauteur. Pour le cylindre, l’aire de la base est π × r².\n1 dm³ = 1 L = 1 000 cm³ ; 1 cm³ = 1 mL.",
+  "parties": [
+    {
+      "titre": "Des formules",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Volumes",
+          "colonnes": [
+            "Solide",
+            "Formule",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "pavé droit",
+              "L × l × h",
+              "5 × 4 × 3 = 60 cm³"
+            ],
+            [
+              "cube",
+              "c × c × c",
+              "3 × 3 × 3 = 27 cm³"
+            ],
+            [
+              "prisme droit",
+              "aire de la base × h",
+              "6 cm² × 10 cm = 60 cm³"
+            ],
+            [
+              "cylindre",
+              "π × r² × h",
+              "π × 2² × 5 = 20π ≈ 62,8 cm³"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cylindre"
+          },
+          "legende": "Un cylindre : deux disques de même rayon et une hauteur."
+        },
+        {
+          "type": "question",
+          "consigne": "Volume d’un pavé de 10 cm × 5 cm × 2 cm :",
+          "options": [
+            "100 cm³",
+            "17 cm³",
+            "50 cm³"
+          ],
+          "reponse": "100 cm³",
+          "explication": "10 × 5 × 2 = 100."
+        }
+      ]
+    },
+    {
+      "titre": "Volumes et capacités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Correspondances",
+          "colonnes": [
+            "Volume",
+            "Capacité"
+          ],
+          "lignes": [
+            [
+              "1 m³",
+              "1 000 L"
+            ],
+            [
+              "1 dm³",
+              "1 L"
+            ],
+            [
+              "1 cm³",
+              "1 mL"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On convertit 1 dm³ en 10 cm³, comme 1 dm = 10 cm.",
+          "correction": "1 dm³ = 10 cm × 10 cm × 10 cm = 1 000 cm³."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Volume d’un cube de 3 cm de côté :",
+      "options": [
+        "27 cm³",
+        "9 cm³",
+        "18 cm³"
+      ],
+      "reponse": "27 cm³",
+      "explication": "3 × 3 × 3."
+    },
+    {
+      "consigne": "2,5 L = ?",
+      "options": [
+        "2 500 cm³",
+        "250 cm³",
+        "25 cm³"
+      ],
+      "reponse": "2 500 cm³",
+      "explication": "1 L = 1 000 cm³."
+    },
+    {
+      "consigne": "Un prisme droit a une base de 8 cm² et une hauteur de 5 cm. Son volume :",
+      "options": [
+        "40 cm³",
+        "13 cm³",
+        "80 cm³"
+      ],
+      "reponse": "40 cm³",
+      "explication": "Aire de la base × hauteur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 45,
+      "extrait": "Calculer le volume du cube, du pavé droit, du prisme droit.",
+      "appui": "Volumes et capacités"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,139 @@
+{
+  "competence": "MA-C4-5E-TRI-01",
+  "duree": 7,
+  "essentiel": "L’aire d’un triangle est égale à base × hauteur ÷ 2.\nUne hauteur est la droite qui passe par un sommet et qui est perpendiculaire au côté opposé.\nUne médiane joint un sommet au milieu du côté opposé. La médiatrice d’un côté est perpendiculaire à ce côté en son milieu.",
+  "parties": [
+    {
+      "titre": "L’aire",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  3,
+                  1
+                ],
+                "a": [
+                  3,
+                  5
+                ],
+                "accent": true
+              }
+            ]
+          },
+          "legende": "Base 6 carreaux, hauteur 4 carreaux : aire 6 × 4 ÷ 2 = 12 carreaux."
+        },
+        {
+          "type": "question",
+          "consigne": "Base 10 cm, hauteur 3 cm. Aire du triangle :",
+          "options": [
+            "15 cm²",
+            "30 cm²",
+            "13 cm²"
+          ],
+          "reponse": "15 cm²",
+          "explication": "10 × 3 ÷ 2 = 15."
+        }
+      ]
+    },
+    {
+      "titre": "Trois droites remarquables",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dans un triangle",
+          "colonnes": [
+            "Droite",
+            "Définition"
+          ],
+          "lignes": [
+            [
+              "hauteur",
+              "passe par un sommet, perpendiculaire au côté opposé"
+            ],
+            [
+              "médiane",
+              "passe par un sommet et le milieu du côté opposé"
+            ],
+            [
+              "médiatrice",
+              "perpendiculaire à un côté, en son milieu"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie de diviser par 2 : aire = base × hauteur.",
+          "correction": "Le triangle est la moitié d’un rectangle de mêmes base et hauteur : on divise par 2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Base 8 cm, hauteur 5 cm. Aire :",
+      "options": [
+        "20 cm²",
+        "40 cm²",
+        "13 cm²"
+      ],
+      "reponse": "20 cm²",
+      "explication": "8 × 5 ÷ 2 = 20."
+    },
+    {
+      "consigne": "La droite qui passe par un sommet et le milieu du côté opposé est :",
+      "options": [
+        "une médiane",
+        "une hauteur",
+        "une médiatrice"
+      ],
+      "reponse": "une médiane",
+      "explication": "Médiane : milieu."
+    },
+    {
+      "consigne": "Une hauteur est toujours :",
+      "options": [
+        "perpendiculaire au côté opposé",
+        "parallèle à un côté",
+        "de même longueur qu’un côté"
+      ],
+      "reponse": "perpendiculaire au côté opposé",
+      "explication": "Elle forme un angle droit avec la base."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 46,
+      "extrait": "Calculer l’aire d’un triangle.",
+      "appui": "Aire du triangle, hauteurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

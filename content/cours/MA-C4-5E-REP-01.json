@@ -1,0 +1,112 @@
+{
+  "competence": "MA-C4-5E-REP-01",
+  "duree": 6,
+  "essentiel": "Dans un repère, un point est repéré par deux nombres : son abscisse, lue sur l’axe horizontal, puis son ordonnée, sur l’axe vertical.\nA(3 ; −2) : abscisse 3, ordonnée −2.\nL’origine O a pour coordonnées (0 ; 0).",
+  "parties": [
+    {
+      "titre": "Lire et placer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour placer A(3 ; −2)",
+          "etapes": [
+            "Pars de l’origine O.",
+            "Avance de 3 vers la droite : c’est l’abscisse.",
+            "Descends de 2 : l’ordonnée est négative.",
+            "Place le point A."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le point B(−4 ; 1) a pour abscisse :",
+          "options": [
+            "−4",
+            "1",
+            "4"
+          ],
+          "reponse": "−4",
+          "explication": "L’abscisse est le premier nombre."
+        }
+      ]
+    },
+    {
+      "titre": "Des positions particulières",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Où est le point ?",
+          "colonnes": [
+            "Coordonnées",
+            "Position"
+          ],
+          "lignes": [
+            [
+              "(0 ; 0)",
+              "à l’origine"
+            ],
+            [
+              "(5 ; 0)",
+              "sur l’axe des abscisses"
+            ],
+            [
+              "(0 ; −3)",
+              "sur l’axe des ordonnées"
+            ],
+            [
+              "(−2 ; −1)",
+              "en bas à gauche de l’origine"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On inverse l’ordre : A(3 ; −2) placé à 3 en hauteur.",
+          "correction": "L’abscisse vient toujours en premier, sur l’axe horizontal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un point sur l’axe des abscisses a pour ordonnée :",
+      "options": [
+        "0",
+        "1",
+        "son abscisse"
+      ],
+      "reponse": "0",
+      "explication": "Il n’est ni au-dessus ni en dessous."
+    },
+    {
+      "consigne": "Le point C(−1 ; 4) est :",
+      "options": [
+        "à gauche de l’axe vertical, au-dessus de l’axe horizontal",
+        "à droite et en dessous",
+        "à l’origine"
+      ],
+      "reponse": "à gauche de l’axe vertical, au-dessus de l’axe horizontal",
+      "explication": "Abscisse négative, ordonnée positive."
+    },
+    {
+      "consigne": "Les coordonnées de l’origine sont :",
+      "options": [
+        "(0 ; 0)",
+        "(1 ; 1)",
+        "(0 ; 1)"
+      ],
+      "reponse": "(0 ; 0)",
+      "explication": "Le point de départ des deux axes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 45,
+      "extrait": "Dans le plan muni d’un repère orthogonal",
+      "appui": "Se repérer dans le plan"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

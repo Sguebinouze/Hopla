@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C4-5E-LIT-02",
+  "duree": 7,
+  "essentiel": "Réduire, c’est regrouper les termes de même nature : 5x + 2x = 7x.\nDévelopper, c’est appliquer la distributivité : 3(2x + 4) = 6x + 12.\nFactoriser, c’est faire l’inverse : 4x + 8 = 4(x + 2).",
+  "parties": [
+    {
+      "titre": "Réduire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Peut-on réduire ?",
+          "colonnes": [
+            "Expression",
+            "Réduite"
+          ],
+          "lignes": [
+            [
+              "5x + 2x",
+              "7x"
+            ],
+            [
+              "6x − 2x",
+              "4x"
+            ],
+            [
+              "3x + 4",
+              "déjà réduite"
+            ],
+            [
+              "2x + 3 + x + 1",
+              "3x + 4"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Réduis 9a − 4a.",
+          "options": [
+            "5a",
+            "5",
+            "13a"
+          ],
+          "reponse": "5a",
+          "explication": "9 − 4 = 5, on garde a."
+        }
+      ]
+    },
+    {
+      "titre": "Développer et factoriser",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Développe 2(x + 7), puis factorise 3x + 12.",
+          "etapes": [
+            "2(x + 7) = 2 × x + 2 × 7 = 2x + 14.",
+            "3x + 12 = 3 × x + 3 × 4 = 3(x + 4)."
+          ],
+          "conclusion": "Développer et factoriser sont deux sens de la même égalité."
+        },
+        {
+          "type": "piege",
+          "erreur": "On réduit 3x + 4 en 7x.",
+          "correction": "3x et 4 ne sont pas de même nature : on ne peut pas les additionner."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Développe 5(x + 3).",
+      "options": [
+        "5x + 15",
+        "5x + 3",
+        "8x"
+      ],
+      "reponse": "5x + 15",
+      "explication": "5 × x + 5 × 3."
+    },
+    {
+      "consigne": "Factorise 6x + 18.",
+      "options": [
+        "6(x + 3)",
+        "6(x + 18)",
+        "24x"
+      ],
+      "reponse": "6(x + 3)",
+      "explication": "18 = 6 × 3."
+    },
+    {
+      "consigne": "Réduis x + x + x.",
+      "options": [
+        "3x",
+        "x³",
+        "3 + x"
+      ],
+      "reponse": "3x",
+      "explication": "Trois fois x."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 42,
+      "extrait": "Exploiter les relations k(a + b) = ka + kb ou k(a – b) = ka – kb pour factoriser, ou développer une expression littérale.",
+      "appui": "Développer, factoriser, réduire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

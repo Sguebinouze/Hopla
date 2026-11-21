@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C4-5E-REL-03",
+  "duree": 7,
+  "essentiel": "Soustraire un nombre, c’est ajouter son opposé : a − b = a + (−b).\n(−3) − (−8) = (−3) + (+8) = 5.\nPour enchainer additions et soustractions, on transforme d’abord chaque soustraction en addition.",
+  "parties": [
+    {
+      "titre": "Ajouter l’opposé",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Transformer la soustraction",
+          "colonnes": [
+            "Soustraction",
+            "Addition",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "4 − 9",
+              "4 + (−9)",
+              "−5"
+            ],
+            [
+              "(−2) − (+6)",
+              "(−2) + (−6)",
+              "−8"
+            ],
+            [
+              "(−3) − (−8)",
+              "(−3) + (+8)",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "(−5) − (−2) = ?",
+          "options": [
+            "−3",
+            "−7",
+            "+3"
+          ],
+          "reponse": "−3",
+          "explication": "(−5) + (+2) = −3."
+        }
+      ]
+    },
+    {
+      "titre": "Enchainer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 5 − 8 + 2.",
+          "etapes": [
+            "5 − 8 = 5 + (−8) = −3.",
+            "−3 + 2 = −1."
+          ],
+          "conclusion": "5 − 8 + 2 = −1."
+        },
+        {
+          "type": "piege",
+          "erreur": "On change le signe du premier nombre aussi : (−3) − (−8) = 3 + 8.",
+          "correction": "Seul le nombre soustrait change de signe : (−3) + (+8)."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "(+3) − (+7) = ?",
+      "options": [
+        "−4",
+        "+4",
+        "+10"
+      ],
+      "reponse": "−4",
+      "explication": "3 + (−7) = −4."
+    },
+    {
+      "consigne": "(−1) − (−1) = ?",
+      "options": [
+        "0",
+        "−2",
+        "+2"
+      ],
+      "reponse": "0",
+      "explication": "(−1) + (+1) = 0."
+    },
+    {
+      "consigne": "2 − 10 + 3 = ?",
+      "options": [
+        "−5",
+        "−11",
+        "5"
+      ],
+      "reponse": "−5",
+      "explication": "2 − 10 = −8, puis −8 + 3 = −5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 41,
+      "extrait": "Soustraire deux nombres décimaux relatifs.",
+      "appui": "Soustraire des relatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

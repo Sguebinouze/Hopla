@@ -1,0 +1,115 @@
+{
+  "competence": "MA-C4-5E-ALGO-01",
+  "duree": 6,
+  "essentiel": "Un programme reçoit des entrées, effectue des instructions et produit des sorties.\nEntrée : un nombre. Instructions : le multiplier par 3, puis ajouter 2. Sortie pour 4 : 14.\nPour prévoir le résultat, on exécute les instructions une à une, dans l’ordre.",
+  "parties": [
+    {
+      "titre": "Entrées et sorties",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Programme : × 3, puis + 2",
+          "colonnes": [
+            "Entrée",
+            "Après × 3",
+            "Sortie"
+          ],
+          "lignes": [
+            [
+              "4",
+              "12",
+              "14"
+            ],
+            [
+              "0",
+              "0",
+              "2"
+            ],
+            [
+              "−1",
+              "−3",
+              "−1"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec ce programme, quelle est la sortie pour 10 ?",
+          "options": [
+            "32",
+            "30",
+            "36"
+          ],
+          "reponse": "32",
+          "explication": "10 × 3 = 30, puis 30 + 2 = 32."
+        }
+      ]
+    },
+    {
+      "titre": "Avec une condition",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Programme",
+          "etapes": [
+            "Demander un nombre n.",
+            "Si n est pair, dire n ÷ 2.",
+            "Sinon, dire 3 × n + 1."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Pour n = 6, le programme dit 3. Pour n = 5, il dit 16."
+        },
+        {
+          "type": "piege",
+          "erreur": "On applique les deux branches de la condition.",
+          "correction": "Une seule branche s’exécute : celle que le test désigne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec le programme pair ou impair, la sortie pour n = 7 est :",
+      "options": [
+        "22",
+        "3,5",
+        "21"
+      ],
+      "reponse": "22",
+      "explication": "7 est impair : 3 × 7 + 1 = 22."
+    },
+    {
+      "consigne": "Dans « demander un nombre », le nombre est :",
+      "options": [
+        "une entrée",
+        "une sortie",
+        "une boucle"
+      ],
+      "reponse": "une entrée",
+      "explication": "Le programme le reçoit."
+    },
+    {
+      "consigne": "Programme « + 5, puis × 2 ». Sortie pour 3 :",
+      "options": [
+        "16",
+        "11",
+        "13"
+      ],
+      "reponse": "16",
+      "explication": "3 + 5 = 8, puis 8 × 2 = 16."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 53,
+      "extrait": "Identifier les entrées et sorties d’un programme",
+      "appui": "Programmes : entrées et sorties"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

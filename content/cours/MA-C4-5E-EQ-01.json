@@ -1,0 +1,118 @@
+{
+  "competence": "MA-C4-5E-EQ-01",
+  "duree": 7,
+  "essentiel": "Résoudre une équation, c’est trouver la valeur de l’inconnue qui rend l’égalité vraie.\nPour x + b = c, on soustrait b : x = c − b. Pour ax = c, on divise par a : x = c ÷ a.\nOn vérifie toujours en remplaçant x par la solution.",
+  "parties": [
+    {
+      "titre": "Résoudre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux types d’équations",
+          "colonnes": [
+            "Équation",
+            "Opération",
+            "Solution"
+          ],
+          "lignes": [
+            [
+              "x + 7 = 15",
+              "15 − 7",
+              "x = 8"
+            ],
+            [
+              "x + 9 = 4",
+              "4 − 9",
+              "x = −5"
+            ],
+            [
+              "3x = 21",
+              "21 ÷ 3",
+              "x = 7"
+            ],
+            [
+              "4x = 10",
+              "10 ÷ 4",
+              "x = 2,5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Résous 5x = 35.",
+          "options": [
+            "x = 7",
+            "x = 30",
+            "x = 175"
+          ],
+          "reponse": "x = 7",
+          "explication": "35 ÷ 5 = 7. Vérification : 5 × 7 = 35."
+        }
+      ]
+    },
+    {
+      "titre": "Mettre un problème en équation",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Léa gagne 12 billes et en a maintenant 30. Combien en avait-elle ?",
+          "etapes": [
+            "Je note x le nombre de billes au départ.",
+            "x + 12 = 30.",
+            "x = 30 − 12 = 18.",
+            "Vérification : 18 + 12 = 30."
+          ],
+          "conclusion": "Léa avait 18 billes."
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour 3x = 21, on soustrait 3 : x = 18.",
+          "correction": "3x veut dire 3 × x : on divise par 3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Résous x + 9 = 4.",
+      "options": [
+        "x = −5",
+        "x = 13",
+        "x = 5"
+      ],
+      "reponse": "x = −5",
+      "explication": "4 − 9 = −5."
+    },
+    {
+      "consigne": "Résous 4x = 10.",
+      "options": [
+        "x = 2,5",
+        "x = 6",
+        "x = 40"
+      ],
+      "reponse": "x = 2,5",
+      "explication": "10 ÷ 4 = 2,5."
+    },
+    {
+      "consigne": "Trois cahiers identiques coutent 7,50 €. Quelle équation donne le prix x d’un cahier ?",
+      "options": [
+        "3x = 7,5",
+        "x + 3 = 7,5",
+        "x = 3 × 7,5"
+      ],
+      "reponse": "3x = 7,5",
+      "explication": "3 fois le prix d’un cahier donne 7,50 €."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 42,
+      "extrait": "Donner à la lettre le statut d’inconnue.",
+      "appui": "Équations x + b = c et ax = c"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

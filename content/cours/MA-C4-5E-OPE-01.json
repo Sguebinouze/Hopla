@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-5E-OPE-01",
+  "duree": 7,
+  "essentiel": "On effectue d’abord les calculs entre parenthèses.\nPuis les multiplications et les divisions, de gauche à droite.\nEnfin les additions et les soustractions, de gauche à droite. 3 + 4 × 5 = 3 + 20 = 23.",
+  "parties": [
+    {
+      "titre": "L’ordre des calculs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Expression",
+            "Étapes",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "3 + 4 × 5",
+              "3 + 20",
+              "23"
+            ],
+            [
+              "(3 + 4) × 5",
+              "7 × 5",
+              "35"
+            ],
+            [
+              "20 − 12 ÷ 4",
+              "20 − 3",
+              "17"
+            ],
+            [
+              "18 ÷ 3 × 2",
+              "6 × 2",
+              "12"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "30 − 6 × 2 + 1 = ?",
+          "options": [
+            "19",
+            "49",
+            "17"
+          ],
+          "reponse": "19",
+          "explication": "6 × 2 = 12, puis 30 − 12 + 1 = 19."
+        }
+      ]
+    },
+    {
+      "titre": "De gauche à droite",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On calcule 18 ÷ 3 × 2 en commençant par 3 × 2 : 18 ÷ 6 = 3.",
+          "correction": "Multiplication et division ont la même priorité : on va de gauche à droite. 18 ÷ 3 = 6, puis 6 × 2 = 12."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2 + 3 × 4 = ?",
+      "options": [
+        "14",
+        "20",
+        "24"
+      ],
+      "reponse": "14",
+      "explication": "La multiplication d’abord : 3 × 4 = 12."
+    },
+    {
+      "consigne": "(2 + 3) × 4 = ?",
+      "options": [
+        "20",
+        "14",
+        "9"
+      ],
+      "reponse": "20",
+      "explication": "La parenthèse d’abord : 5 × 4."
+    },
+    {
+      "consigne": "24 ÷ 4 × 2 = ?",
+      "options": [
+        "12",
+        "3",
+        "6"
+      ],
+      "reponse": "12",
+      "explication": "De gauche à droite : 24 ÷ 4 = 6, puis 6 × 2 = 12."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 40,
+      "extrait": "Connaitre et utiliser les priorités opératoires.",
+      "appui": "Priorités opératoires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,117 @@
+{
+  "competence": "MA-C4-5E-STAT-01",
+  "duree": 7,
+  "essentiel": "L’effectif d’une valeur est le nombre de fois où elle apparait. L’effectif total est la somme des effectifs.\nLa fréquence est l’effectif divisé par l’effectif total. Elle s’écrit en fraction, en décimal ou en pourcentage.\nLa moyenne est la somme des valeurs divisée par leur nombre : 12, 15, 9 et 16 donnent 52 ÷ 4 = 13.",
+  "parties": [
+    {
+      "titre": "Effectifs et fréquences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Moyen de transport de 25 élèves",
+          "colonnes": [
+            "Moyen",
+            "Effectif",
+            "Fréquence"
+          ],
+          "lignes": [
+            [
+              "à pied",
+              "10",
+              "10/25 = 0,4 = 40 %"
+            ],
+            [
+              "bus",
+              "8",
+              "8/25 = 0,32 = 32 %"
+            ],
+            [
+              "voiture",
+              "5",
+              "5/25 = 0,2 = 20 %"
+            ],
+            [
+              "vélo",
+              "2",
+              "2/25 = 0,08 = 8 %"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "6 élèves sur 24 viennent à vélo. Fréquence :",
+          "options": [
+            "25 %",
+            "6 %",
+            "4 %"
+          ],
+          "reponse": "25 %",
+          "explication": "6 ÷ 24 = 0,25 = 25 %."
+        }
+      ]
+    },
+    {
+      "titre": "La moyenne",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Notes de Tom : 12, 15, 9, 16. Quelle est sa moyenne ?",
+          "etapes": [
+            "Somme : 12 + 15 + 9 + 16 = 52.",
+            "Nombre de notes : 4.",
+            "52 ÷ 4 = 13."
+          ],
+          "conclusion": "La moyenne est 13."
+        },
+        {
+          "type": "piege",
+          "erreur": "On divise par le nombre de valeurs différentes.",
+          "correction": "On divise par le nombre total de valeurs, même si certaines se répètent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Moyenne de 8, 10 et 12 :",
+      "options": [
+        "10",
+        "30",
+        "9"
+      ],
+      "reponse": "10",
+      "explication": "30 ÷ 3 = 10."
+    },
+    {
+      "consigne": "La somme de toutes les fréquences vaut :",
+      "options": [
+        "1, soit 100 %",
+        "0",
+        "l’effectif total"
+      ],
+      "reponse": "1, soit 100 %",
+      "explication": "Chaque élève est compté une fois."
+    },
+    {
+      "consigne": "Moyenne de 5, 5, 5 et 9 :",
+      "options": [
+        "6",
+        "7",
+        "5"
+      ],
+      "reponse": "6",
+      "explication": "24 ÷ 4 = 6."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 49,
+      "extrait": "Calculer et interpréter la moyenne simple d’une série de données.",
+      "appui": "Fréquences et moyenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

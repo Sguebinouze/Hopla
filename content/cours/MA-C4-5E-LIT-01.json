@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-5E-LIT-01",
+  "duree": 6,
+  "essentiel": "Une expression littérale contient une ou plusieurs lettres qui représentent des nombres.\n3x signifie 3 × x. x² signifie x × x.\nPour calculer sa valeur, on remplace la lettre par le nombre donné : pour x = 4, 3x + 5 = 3 × 4 + 5 = 17.",
+  "parties": [
+    {
+      "titre": "Remplacer la lettre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pour x = 3",
+          "colonnes": [
+            "Expression",
+            "Calcul",
+            "Valeur"
+          ],
+          "lignes": [
+            [
+              "2x + 1",
+              "2 × 3 + 1",
+              "7"
+            ],
+            [
+              "x²",
+              "3 × 3",
+              "9"
+            ],
+            [
+              "4(x + 2)",
+              "4 × (3 + 2)",
+              "20"
+            ],
+            [
+              "10 − x",
+              "10 − 3",
+              "7"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour x = 5, 2x − 1 = ?",
+          "options": [
+            "9",
+            "24",
+            "4"
+          ],
+          "reponse": "9",
+          "explication": "2 × 5 − 1 = 9."
+        }
+      ]
+    },
+    {
+      "titre": "Le signe × caché",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "Pour x = 4, on lit 3x comme 34.",
+          "correction": "3x = 3 × x = 3 × 4 = 12. On rétablit le signe ×."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour x = 4, x² + 1 = ?",
+      "options": [
+        "17",
+        "9",
+        "81"
+      ],
+      "reponse": "17",
+      "explication": "4 × 4 + 1 = 17."
+    },
+    {
+      "consigne": "Pour a = 2, 5a = ?",
+      "options": [
+        "10",
+        "52",
+        "7"
+      ],
+      "reponse": "10",
+      "explication": "5 × 2 = 10."
+    },
+    {
+      "consigne": "Pour x = 0, 7x + 3 = ?",
+      "options": [
+        "3",
+        "10",
+        "73"
+      ],
+      "reponse": "3",
+      "explication": "7 × 0 + 3 = 3."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 41,
+      "extrait": "Calculer la valeur d’une expression littérale par substitution.",
+      "appui": "Substituer une valeur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,104 @@
+{
+  "competence": "MA-C4-5E-PROP-02",
+  "duree": 6,
+  "essentiel": "Un tableau est de proportionnalité si l’on passe de la première ligne à la seconde en multipliant toujours par le même nombre.\nCe nombre est le coefficient de proportionnalité.\n2 ; 3 ; 5 et 8 ; 12 ; 20 : chaque quotient vaut 4, le tableau est de proportionnalité.",
+  "parties": [
+    {
+      "titre": "Tester",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Proportionnel ?",
+          "colonnes": [
+            "Ligne 1",
+            "Ligne 2",
+            "Quotients",
+            "Conclusion"
+          ],
+          "lignes": [
+            [
+              "2 ; 3 ; 5",
+              "8 ; 12 ; 20",
+              "4 ; 4 ; 4",
+              "oui, coefficient 4"
+            ],
+            [
+              "1 ; 2 ; 3",
+              "5 ; 8 ; 11",
+              "5 ; 4 ; 3,67",
+              "non"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Masse (kg) : 2 ; 5. Prix (€) : 7 ; 17,50. Coefficient :",
+          "options": [
+            "3,5",
+            "5",
+            "2,5"
+          ],
+          "reponse": "3,5",
+          "explication": "7 ÷ 2 = 3,5 et 17,5 ÷ 5 = 3,5."
+        }
+      ]
+    },
+    {
+      "titre": "Utiliser le coefficient",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec un coefficient de 3,5 €/kg, 8 kg coutent 8 × 3,5 = 28 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On conclut à la proportionnalité en vérifiant une seule colonne.",
+          "correction": "Il faut que tous les quotients soient égaux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "3 ; 6 ; 9 et 4 ; 8 ; 12 : ce tableau est-il de proportionnalité ?",
+      "options": [
+        "oui",
+        "non",
+        "on ne peut pas savoir"
+      ],
+      "reponse": "oui",
+      "explication": "Chaque quotient vaut 4/3."
+    },
+    {
+      "consigne": "L’âge et la taille d’un enfant sont-ils proportionnels ?",
+      "options": [
+        "non",
+        "oui",
+        "toujours"
+      ],
+      "reponse": "non",
+      "explication": "À 10 ans, on ne mesure pas le double de sa taille à 5 ans."
+    },
+    {
+      "consigne": "Coefficient 1,5. Pour 6, on obtient :",
+      "options": [
+        "9",
+        "7,5",
+        "4"
+      ],
+      "reponse": "9",
+      "explication": "6 × 1,5 = 9."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 51,
+      "extrait": "Reconnaitre une situation de proportionnalité à partir d’un tableau ou d’un graphique.",
+      "appui": "Reconnaitre la proportionnalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

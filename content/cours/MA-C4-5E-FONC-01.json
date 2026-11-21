@@ -1,0 +1,100 @@
+{
+  "competence": "MA-C4-5E-FONC-01",
+  "duree": 6,
+  "essentiel": "Une formule exprime une grandeur en fonction d’une autre : P = 3 × m donne le prix P pour une masse m.\nPour calculer, on remplace la lettre par sa valeur : pour m = 5 kg, P = 3 × 5 = 15 €.\nUn tableau de valeurs rassemble plusieurs calculs.",
+  "parties": [
+    {
+      "titre": "Calculer avec une formule",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Périmètre d’un carré : P = 4 × c",
+          "colonnes": [
+            "c (cm)",
+            "1",
+            "2,5",
+            "5",
+            "8"
+          ],
+          "lignes": [
+            [
+              "P (cm)",
+              "4",
+              "10",
+              "20",
+              "32"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Aire d’un carré : A = c². Pour c = 6 cm, A = ?",
+          "options": [
+            "36 cm²",
+            "12 cm²",
+            "24 cm²"
+          ],
+          "reponse": "36 cm²",
+          "explication": "6 × 6 = 36."
+        }
+      ]
+    },
+    {
+      "titre": "Lire une formule",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une voiture roule à 80 km/h. La distance parcourue est d = 80 × t, où t est la durée en heures."
+        },
+        {
+          "type": "piege",
+          "erreur": "On remplace la lettre sans tenir compte des unités : t = 30 min, donc d = 80 × 30.",
+          "correction": "t est en heures : 30 min = 0,5 h, donc d = 80 × 0,5 = 40 km."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "d = 80 × t. Pour t = 2 h, d = ?",
+      "options": [
+        "160 km",
+        "82 km",
+        "40 km"
+      ],
+      "reponse": "160 km",
+      "explication": "80 × 2 = 160."
+    },
+    {
+      "consigne": "P = 4 × c. Pour c = 2,5 cm, P = ?",
+      "options": [
+        "10 cm",
+        "6,5 cm",
+        "8 cm"
+      ],
+      "reponse": "10 cm",
+      "explication": "4 × 2,5 = 10."
+    },
+    {
+      "consigne": "Prix = 2 × n + 3. Pour n = 4, prix = ?",
+      "options": [
+        "11",
+        "14",
+        "9"
+      ],
+      "reponse": "11",
+      "explication": "2 × 4 + 3 = 11."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 52,
+      "extrait": "Traduire la relation de dépendance entre deux grandeurs par un tableau de valeurs à partir d’une formule.",
+      "appui": "Formules et tableaux de valeurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

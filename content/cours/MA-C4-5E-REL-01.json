@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C4-5E-REL-01",
+  "duree": 7,
+  "essentiel": "Deux relatifs de même signe : on additionne leurs distances à zéro et on garde le signe. (−5) + (−3) = −8.\nDeux relatifs de signes contraires : on soustrait leurs distances à zéro.\nLe résultat prend le signe de celui qui est le plus loin de zéro. (−7) + (+4) = −3.",
+  "parties": [
+    {
+      "titre": "Sur la droite graduée",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Il fait −7 °C. La température monte de 4 degrés. Quelle température fait-il ?",
+          "etapes": [
+            "On part de −7 sur la droite graduée.",
+            "On avance de 4 vers la droite : −6, −5, −4, −3."
+          ],
+          "conclusion": "(−7) + (+4) = −3. Il fait −3 °C."
+        },
+        {
+          "type": "question",
+          "consigne": "(+6) + (−9) = ?",
+          "options": [
+            "−3",
+            "+3",
+            "−15"
+          ],
+          "reponse": "−3",
+          "explication": "Signes contraires : 9 − 6 = 3, signe de −9."
+        }
+      ]
+    },
+    {
+      "titre": "La règle",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Additionner deux relatifs",
+          "colonnes": [
+            "Calcul",
+            "Signes",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "(−5) + (−3)",
+              "mêmes",
+              "−8"
+            ],
+            [
+              "(+2) + (+7)",
+              "mêmes",
+              "+9"
+            ],
+            [
+              "(−7) + (+4)",
+              "contraires",
+              "−3"
+            ],
+            [
+              "(−2) + (+2)",
+              "contraires",
+              "0"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit (−5) + (−3) = +8 : « moins et moins font plus ».",
+          "correction": "Cette phrase ne vaut pas pour l’addition. Deux dettes de 5 € et 3 € font une dette de 8 € : −8."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "(−4) + (−6) = ?",
+      "options": [
+        "−10",
+        "+10",
+        "+2"
+      ],
+      "reponse": "−10",
+      "explication": "Même signe : 4 + 6, on garde le signe moins."
+    },
+    {
+      "consigne": "(+8) + (−3) = ?",
+      "options": [
+        "+5",
+        "−5",
+        "+11"
+      ],
+      "reponse": "+5",
+      "explication": "8 − 3 = 5, signe de +8."
+    },
+    {
+      "consigne": "(−12) + (+5) = ?",
+      "options": [
+        "−7",
+        "+7",
+        "−17"
+      ],
+      "reponse": "−7",
+      "explication": "12 − 5 = 7, signe de −12."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 41,
+      "extrait": "Additionner deux nombres décimaux relatifs.",
+      "appui": "Additionner des relatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

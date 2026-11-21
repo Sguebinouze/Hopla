@@ -1,0 +1,103 @@
+{
+  "competence": "MA-C4-5E-ANG-01",
+  "duree": 7,
+  "essentiel": "Deux droites coupées par une sécante forment des angles alternes-internes et des angles correspondants.\nSi les deux droites sont parallèles, ces angles sont égaux deux à deux.\nRéciproquement, si deux angles alternes-internes ou correspondants sont égaux, les droites sont parallèles.",
+  "parties": [
+    {
+      "titre": "Reconnaitre les angles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux droites (d) et (d′), une sécante (s)",
+          "colonnes": [
+            "Angles",
+            "Position"
+          ],
+          "lignes": [
+            [
+              "alternes-internes",
+              "de part et d’autre de (s), entre (d) et (d′)"
+            ],
+            [
+              "correspondants",
+              "du même côté de (s), l’un entre les droites, l’autre à l’extérieur, à la même place sur chaque droite"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "(d) et (d′) sont parallèles. Un angle mesure 65°. Son correspondant mesure :",
+          "options": [
+            "65°",
+            "115°",
+            "25°"
+          ],
+          "reponse": "65°",
+          "explication": "Droites parallèles : angles correspondants égaux."
+        }
+      ]
+    },
+    {
+      "titre": "Prouver un parallélisme",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Deux angles alternes-internes mesurent 48° et 48°. Les droites sont-elles parallèles ?",
+          "etapes": [
+            "Les angles alternes-internes sont égaux.",
+            "Propriété : si deux angles alternes-internes sont égaux, les droites sont parallèles."
+          ],
+          "conclusion": "Les droites sont parallèles."
+        },
+        {
+          "type": "piege",
+          "erreur": "On affirme que deux angles alternes-internes sont toujours égaux.",
+          "correction": "Ils ne sont égaux que si les droites sont parallèles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Deux angles alternes-internes mesurent 50° et 52°. Les droites sont :",
+      "options": [
+        "non parallèles",
+        "parallèles",
+        "perpendiculaires"
+      ],
+      "reponse": "non parallèles",
+      "explication": "Les angles ne sont pas égaux."
+    },
+    {
+      "consigne": "Des angles alternes-internes sont situés :",
+      "options": [
+        "de part et d’autre de la sécante, entre les deux droites",
+        "du même côté de la sécante",
+        "hors des deux droites"
+      ],
+      "reponse": "de part et d’autre de la sécante, entre les deux droites",
+      "explication": "Alternes : de part et d’autre. Internes : entre les droites."
+    },
+    {
+      "consigne": "Pour prouver que deux droites sont parallèles, on peut montrer que :",
+      "options": [
+        "deux angles correspondants sont égaux",
+        "elles se coupent",
+        "elles sont longues"
+      ],
+      "reponse": "deux angles correspondants sont égaux",
+      "explication": "C’est la réciproque de la propriété."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 46,
+      "extrait": "Caractériser le parallélisme par les angles : angles alternes internes, angles correspondants.",
+      "appui": "Angles et parallélisme"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

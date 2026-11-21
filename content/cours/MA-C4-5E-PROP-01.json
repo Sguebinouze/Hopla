@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C4-5E-PROP-01",
+  "duree": 6,
+  "essentiel": "Prendre t % d’une quantité, c’est la multiplier par t puis diviser par 100 : 20 % de 150 = 150 × 20 ÷ 100 = 30.\nPour exprimer une part en pourcentage, on divise la part par le total puis on multiplie par 100.\n12 élèves sur 30 : 12 ÷ 30 = 0,4, soit 40 %.",
+  "parties": [
+    {
+      "titre": "Appliquer un pourcentage",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un jeu coute 40 €. Il est soldé à −25 %. Quel est son nouveau prix ?",
+          "etapes": [
+            "Réduction : 40 × 25 ÷ 100 = 10 €.",
+            "Nouveau prix : 40 − 10 = 30 €."
+          ],
+          "conclusion": "Le jeu coute 30 €."
+        },
+        {
+          "type": "question",
+          "consigne": "10 % de 80 = ?",
+          "options": [
+            "8",
+            "10",
+            "0,8"
+          ],
+          "reponse": "8",
+          "explication": "80 × 10 ÷ 100 = 8."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer un pourcentage",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des pourcentages à connaitre",
+          "colonnes": [
+            "Pourcentage",
+            "Fraction",
+            "Exemple sur 60"
+          ],
+          "lignes": [
+            [
+              "50 %",
+              "1/2",
+              "30"
+            ],
+            [
+              "25 %",
+              "1/4",
+              "15"
+            ],
+            [
+              "10 %",
+              "1/10",
+              "6"
+            ],
+            [
+              "75 %",
+              "3/4",
+              "45"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une baisse de 20 % puis une hausse de 20 % ramènent au prix de départ.",
+          "correction": "100 € − 20 % = 80 €, puis 80 € + 20 % = 96 €. Les 20 % ne portent pas sur le même nombre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "50 % de 36 = ?",
+      "options": [
+        "18",
+        "50",
+        "3,6"
+      ],
+      "reponse": "18",
+      "explication": "La moitié de 36."
+    },
+    {
+      "consigne": "9 élèves sur 45 portent des lunettes. Pourcentage :",
+      "options": [
+        "20 %",
+        "9 %",
+        "45 %"
+      ],
+      "reponse": "20 %",
+      "explication": "9 ÷ 45 = 0,2."
+    },
+    {
+      "consigne": "Un pull à 60 € baisse de 10 %. Nouveau prix :",
+      "options": [
+        "54 €",
+        "50 €",
+        "59 €"
+      ],
+      "reponse": "54 €",
+      "explication": "10 % de 60 = 6, et 60 − 6 = 54."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 51,
+      "extrait": "Calculer, appliquer des proportions, des pourcentages.",
+      "appui": "Pourcentages"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
