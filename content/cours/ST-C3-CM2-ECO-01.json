@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM2-ECO-01",
+  "duree": 6,
+  "essentiel": "Un écosystème réunit un milieu de vie et les êtres vivants qui l’habitent.\nLes espèces ont des relations : la prédation, quand l’une mange l’autre ; la coopération, quand elles s’entraident.\nElles peuvent aussi être en compétition pour la nourriture ou la lumière.",
+  "parties": [
+    {
+      "titre": "Trois relations",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Biodiversité",
+              "definition": "Diversité des êtres vivants et des milieux où ils vivent."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les relations entre espèces",
+          "colonnes": [
+            "Relation",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "prédation",
+              "la grenouille mange la libellule"
+            ],
+            [
+              "coopération",
+              "l’abeille se nourrit de la fleur et transporte son pollen"
+            ],
+            [
+              "compétition",
+              "deux arbres poussent côte à côte vers la lumière"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le héron mange des poissons. C’est :",
+          "options": [
+            "de la prédation",
+            "de la coopération",
+            "de la compétition"
+          ],
+          "reponse": "de la prédation",
+          "explication": "Le héron est le prédateur."
+        }
+      ]
+    },
+    {
+      "titre": "La mare",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un écosystème de la mare.",
+          "exemples": [
+            "le milieu : l’eau, la vase, les pierres",
+            "les êtres vivants : plantes, grenouilles, libellules, escargots"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les prédateurs sont nuisibles pour l’écosystème.",
+          "correction": "Ils évitent que leurs proies se multiplient trop : ils participent à l’équilibre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’abeille et la fleur s’entraident. C’est :",
+      "options": [
+        "de la coopération",
+        "de la prédation",
+        "de la compétition"
+      ],
+      "reponse": "de la coopération",
+      "explication": "Chacune y gagne."
+    },
+    {
+      "consigne": "Un écosystème comprend :",
+      "options": [
+        "un milieu et des êtres vivants",
+        "seulement des animaux",
+        "seulement de l’eau"
+      ],
+      "reponse": "un milieu et des êtres vivants",
+      "explication": "Et leurs relations."
+    },
+    {
+      "consigne": "Deux oiseaux qui mangent les mêmes graines sont en :",
+      "options": [
+        "compétition",
+        "coopération",
+        "prédation"
+      ],
+      "reponse": "compétition",
+      "explication": "Ils se disputent la même nourriture."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 97,
+      "extrait": "Décrire plusieurs types de relations entre espèces au sein d’un écosystème",
+      "appui": "Les relations dans un écosystème"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

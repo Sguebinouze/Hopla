@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM2-MVT-01",
+  "duree": 6,
+  "essentiel": "Un mouvement est rectiligne quand la trajectoire est une ligne droite, circulaire quand c’est un cercle.\nUn objet peut être immobile pour un observateur et en mouvement pour un autre : tout dépend du point de vue.\nPour décrire un mouvement, on mesure aussi la distance parcourue et la durée.",
+  "parties": [
+    {
+      "titre": "Rectiligne ou circulaire ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des mouvements",
+          "colonnes": [
+            "Objet",
+            "Mouvement"
+          ],
+          "lignes": [
+            [
+              "nacelle d’une grande roue",
+              "circulaire"
+            ],
+            [
+              "bille qui roule sur une table droite",
+              "rectiligne"
+            ],
+            [
+              "aiguille d’une horloge",
+              "circulaire"
+            ],
+            [
+              "ascenseur",
+              "rectiligne"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La pointe d’une hélice qui tourne a un mouvement :",
+          "options": [
+            "circulaire",
+            "rectiligne",
+            "immobile"
+          ],
+          "reponse": "circulaire",
+          "explication": "Elle décrit un cercle."
+        }
+      ]
+    },
+    {
+      "titre": "Le point de vue",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un train, Léa est immobile par rapport à son siège. Pour Tom, resté sur le quai, elle se déplace."
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Vitesse",
+              "definition": "Distance parcourue pendant une durée donnée, par exemple en kilomètres par heure."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit qu’un objet bouge ou ne bouge pas, sans préciser.",
+          "correction": "On précise toujours par rapport à quoi : au quai, au siège, au sol."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par rapport au quai, un passager assis dans un train qui roule est :",
+      "options": [
+        "en mouvement",
+        "immobile",
+        "en mouvement circulaire"
+      ],
+      "reponse": "en mouvement",
+      "explication": "Il s’éloigne du quai."
+    },
+    {
+      "consigne": "Un ascenseur a un mouvement :",
+      "options": [
+        "rectiligne",
+        "circulaire",
+        "en zigzag"
+      ],
+      "reponse": "rectiligne",
+      "explication": "Il monte et descend en ligne droite."
+    },
+    {
+      "consigne": "Pour calculer une vitesse, il faut :",
+      "options": [
+        "une distance et une durée",
+        "une masse et un volume",
+        "une température"
+      ],
+      "reponse": "une distance et une durée",
+      "explication": "Par exemple, en kilomètres par heure."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 84,
+      "extrait": "Observer et identifier le mouvement rectiligne ou circulaire d’un objet",
+      "appui": "Décrire un mouvement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

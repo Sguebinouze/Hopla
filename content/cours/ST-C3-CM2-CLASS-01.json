@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM2-CLASS-01",
+  "duree": 7,
+  "essentiel": "Un organisme est un être vivant entier. Il est formé d’appareils, eux-mêmes formés d’organes.\nL’appareil digestif comprend l’estomac, l’intestin… Le cœur est un organe de l’appareil circulatoire.\nOn classe les êtres vivants selon les attributs qu’ils partagent.",
+  "parties": [
+    {
+      "titre": "Organisme, appareil, organe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du plus grand au plus petit",
+          "colonnes": [
+            "Niveau",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "organisme",
+              "un être humain"
+            ],
+            [
+              "appareil",
+              "l’appareil respiratoire"
+            ],
+            [
+              "organe",
+              "un poumon"
+            ],
+            [
+              "cellule",
+              "une cellule du poumon"
+            ]
+          ]
+        },
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cellule",
+              "definition": "Plus petite unité qui compose un être vivant."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’estomac est :",
+          "options": [
+            "un organe",
+            "un appareil",
+            "un organisme"
+          ],
+          "reponse": "un organe",
+          "explication": "Il fait partie de l’appareil digestif."
+        }
+      ]
+    },
+    {
+      "titre": "Des groupes emboités",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le chat et l’humain ont des poils et des mamelles : ce sont des mammifères. Avec la poule et la truite, ils ont un squelette interne : ce sont des vertébrés."
+        },
+        {
+          "type": "piege",
+          "erreur": "On classe la baleine avec les poissons, car elle vit dans l’eau.",
+          "correction": "Elle a des poils et allaite ses petits : c’est un mammifère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le cœur fait partie de l’appareil :",
+      "options": [
+        "circulatoire",
+        "digestif",
+        "respiratoire"
+      ],
+      "reponse": "circulatoire",
+      "explication": "Il fait circuler le sang."
+    },
+    {
+      "consigne": "Les mammifères ont :",
+      "options": [
+        "des poils et des mamelles",
+        "des plumes",
+        "des écailles et des nageoires"
+      ],
+      "reponse": "des poils et des mamelles",
+      "explication": "Ils allaitent leurs petits."
+    },
+    {
+      "consigne": "Un être vivant entier est :",
+      "options": [
+        "un organisme",
+        "un organe",
+        "un appareil"
+      ],
+      "reponse": "un organisme",
+      "explication": "Il est fait d’appareils et d’organes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 88,
+      "extrait": "Réaliser une classification en groupes emboités",
+      "appui": "Organiser et classer le vivant"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

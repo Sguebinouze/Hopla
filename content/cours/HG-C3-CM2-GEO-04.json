@@ -1,0 +1,124 @@
+{
+  "competence": "HG-C3-CM2-GEO-04",
+  "duree": 6,
+  "essentiel": "Les transports ne polluent pas tous autant.\nLa voiture et l’avion rejettent beaucoup de gaz à effet de serre ; le train en rejette beaucoup moins.\nLa marche et le vélo ne polluent pas et sont bons pour la santé.",
+  "parties": [
+    {
+      "titre": "Comparer les modes de transport",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Effet de serre",
+              "definition": "Phénomène par lequel certains gaz de l’atmosphère retiennent la chaleur de la Terre."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Pollution par voyageur, du moins au plus polluant",
+          "colonnes": [
+            "Mode",
+            "Pollution"
+          ],
+          "lignes": [
+            [
+              "marche, vélo",
+              "aucune"
+            ],
+            [
+              "train, métro, tramway",
+              "faible"
+            ],
+            [
+              "bus, covoiturage",
+              "moyenne"
+            ],
+            [
+              "voiture avec une seule personne",
+              "forte"
+            ],
+            [
+              "avion",
+              "très forte"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour un même trajet, lequel pollue le moins ?",
+          "options": [
+            "le TGV",
+            "l’avion",
+            "la voiture avec une seule personne"
+          ],
+          "reponse": "le TGV",
+          "explication": "Le train électrique rejette peu de CO₂."
+        }
+      ]
+    },
+    {
+      "titre": "Des mobilités durables",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des solutions.",
+          "exemples": [
+            "aller à l’école à pied ou à vélo",
+            "prendre le bus ou le tramway",
+            "partager une voiture : le covoiturage"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une voiture électrique ne pollue pas du tout.",
+          "correction": "Sa fabrication et sa batterie polluent. Elle pollue moins en roulant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le covoiturage, c’est :",
+      "options": [
+        "partager une voiture à plusieurs",
+        "conduire très vite",
+        "louer un vélo"
+      ],
+      "reponse": "partager une voiture à plusieurs",
+      "explication": "Moins de voitures sur la route."
+    },
+    {
+      "consigne": "Quel mode de transport ne rejette aucun gaz ?",
+      "options": [
+        "le vélo",
+        "le bus",
+        "l’avion"
+      ],
+      "reponse": "le vélo",
+      "explication": "On pédale avec ses jambes."
+    },
+    {
+      "consigne": "Les gaz à effet de serre :",
+      "options": [
+        "retiennent la chaleur autour de la Terre",
+        "refroidissent la Terre",
+        "n’existent pas"
+      ],
+      "reponse": "retiennent la chaleur autour de la Terre",
+      "explication": "Ils réchauffent le climat."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 75,
+      "extrait": "On étudie les déplacements dans le cadre du développement",
+      "appui": "Se déplacer durablement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

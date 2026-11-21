@@ -1,0 +1,107 @@
+{
+  "competence": "HG-C3-CM2-HIST-04",
+  "duree": 6,
+  "essentiel": "En 1881 et 1882, les lois Jules Ferry rendent l’école primaire gratuite, laïque et obligatoire.\nTous les enfants de 6 à 13 ans doivent aller à l’école.\nL’école apprend à lire, écrire, compter, et à aimer la République.",
+  "parties": [
+    {
+      "titre": "Gratuite, laïque, obligatoire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les lois Ferry",
+          "colonnes": [
+            "Mot",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "gratuite (1881)",
+              "les familles ne paient pas"
+            ],
+            [
+              "laïque (1882)",
+              "pas d’enseignement religieux à l’école publique"
+            ],
+            [
+              "obligatoire (1882)",
+              "tous les enfants de 6 à 13 ans"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’école laïque, c’est une école :",
+          "options": [
+            "sans enseignement religieux",
+            "payante",
+            "réservée aux garçons"
+          ],
+          "reponse": "sans enseignement religieux",
+          "explication": "La religion relève des familles."
+        }
+      ]
+    },
+    {
+      "titre": "Une journée de classe vers 1900",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans la classe.",
+          "exemples": [
+            "Le tableau noir, la carte de France, les plumes et l’encrier.",
+            "La leçon de morale le matin.",
+            "Le certificat d’études à la fin de l’école primaire."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’avant Jules Ferry, aucun enfant n’allait à l’école.",
+          "correction": "Beaucoup y allaient déjà, mais l’école n’était ni gratuite ni obligatoire pour tous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les lois Ferry rendent l’école :",
+      "options": [
+        "gratuite, laïque et obligatoire",
+        "payante et religieuse",
+        "facultative"
+      ],
+      "reponse": "gratuite, laïque et obligatoire",
+      "explication": "En 1881 et 1882."
+    },
+    {
+      "consigne": "Vers 1900, les élèves écrivent avec :",
+      "options": [
+        "une plume et de l’encre",
+        "un stylo à bille",
+        "une tablette"
+      ],
+      "reponse": "une plume et de l’encre",
+      "explication": "Ils trempent la plume dans l’encrier."
+    },
+    {
+      "consigne": "À la fin de l’école primaire, on passe :",
+      "options": [
+        "le certificat d’études",
+        "le baccalauréat",
+        "le permis"
+      ],
+      "reponse": "le certificat d’études",
+      "explication": "Un examen important à l’époque."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 71,
+      "extrait": "L’école primaire au temps de Jules Ferry",
+      "appui": "L’école de Jules Ferry"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,108 @@
+{
+  "competence": "HG-C3-CM2-GEO-03",
+  "duree": 6,
+  "essentiel": "Mieux habiter, c’est rendre son lieu de vie plus agréable et moins polluant.\nOn plante des arbres et des jardins en ville : ils rafraichissent l’air en été.\nOn trie ses déchets pour qu’ils soient recyclés.",
+  "parties": [
+    {
+      "titre": "La nature en ville",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des aménagements",
+          "colonnes": [
+            "Aménagement",
+            "Ce qu’il apporte"
+          ],
+          "lignes": [
+            [
+              "arbres, parcs",
+              "ombre et fraicheur, oiseaux et insectes"
+            ],
+            [
+              "jardins partagés",
+              "légumes, rencontres entre voisins"
+            ],
+            [
+              "toits végétalisés",
+              "isolation des bâtiments, eau de pluie retenue"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En été, les arbres en ville :",
+          "options": [
+            "rafraichissent l’air",
+            "réchauffent les rues",
+            "polluent l’air"
+          ],
+          "reponse": "rafraichissent l’air",
+          "explication": "Ils font de l’ombre et évaporent de l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Trier et recycler",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trier ses déchets",
+          "etapes": [
+            "Regarde les consignes de ta commune : les couleurs des bacs changent selon les villes.",
+            "Mets le verre dans le conteneur à verre.",
+            "Mets les emballages et les papiers dans le bac de tri.",
+            "Mets les épluchures au compost."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que recycler suffit.",
+          "correction": "Le mieux est de produire moins de déchets : réutiliser, réparer, éviter les emballages."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un jardin partagé est :",
+      "options": [
+        "un jardin cultivé par des voisins",
+        "un parc privé",
+        "un champ de blé"
+      ],
+      "reponse": "un jardin cultivé par des voisins",
+      "explication": "On y jardine ensemble."
+    },
+    {
+      "consigne": "Les épluchures de légumes vont :",
+      "options": [
+        "au compost",
+        "au conteneur à verre",
+        "dans le bac des papiers"
+      ],
+      "reponse": "au compost",
+      "explication": "Elles deviennent de la terre fertile."
+    },
+    {
+      "consigne": "Le meilleur déchet est celui :",
+      "options": [
+        "qu’on ne produit pas",
+        "qu’on brule",
+        "qu’on jette dans la rue"
+      ],
+      "reponse": "qu’on ne produit pas",
+      "explication": "Moins de déchets, moins de pollution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "Thème 3 - Mieux habiter",
+      "appui": "Mieux habiter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

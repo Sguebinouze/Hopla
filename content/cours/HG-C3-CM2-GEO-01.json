@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C3-CM2-GEO-01",
+  "duree": 6,
+  "essentiel": "Aller à l’école, au travail ou faire ses courses : ce sont les mobilités du quotidien.\nPour les longues distances, on prend le TGV, l’avion ou la voiture sur l’autoroute.\nEn France, les grands réseaux de transport partent de Paris, en étoile.",
+  "parties": [
+    {
+      "titre": "Le quotidien et les longues distances",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Se déplacer",
+          "colonnes": [
+            "Distance",
+            "Modes de transport",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "courte, en ville",
+              "marche, vélo, bus, tramway, métro",
+              "aller à l’école"
+            ],
+            [
+              "moyenne",
+              "voiture, train régional",
+              "aller travailler dans la ville voisine"
+            ],
+            [
+              "longue",
+              "TGV, avion, autoroute",
+              "Paris-Marseille en TGV : environ 3 heures"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour aller de Paris à Marseille rapidement en train, on prend :",
+          "options": [
+            "le TGV",
+            "le tramway",
+            "le métro"
+          ],
+          "reponse": "le TGV",
+          "explication": "Environ trois heures de trajet."
+        }
+      ]
+    },
+    {
+      "titre": "Un réseau en étoile",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les lignes de TGV et les autoroutes relient Paris aux grandes villes. Aller d’une région à une autre oblige parfois à passer par Paris."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’en ville, la voiture est toujours le plus rapide.",
+          "correction": "Avec les embouteillages, le métro ou le vélo vont souvent plus vite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Aller chaque jour à l’école, c’est une mobilité :",
+      "options": [
+        "du quotidien",
+        "internationale",
+        "exceptionnelle"
+      ],
+      "reponse": "du quotidien",
+      "explication": "Elle se répète tous les jours."
+    },
+    {
+      "consigne": "Le grand aéroport de Paris s’appelle :",
+      "options": [
+        "Roissy-Charles-de-Gaulle",
+        "gare de Lyon",
+        "port du Havre"
+      ],
+      "reponse": "Roissy-Charles-de-Gaulle",
+      "explication": "Le plus grand aéroport de France."
+    },
+    {
+      "consigne": "Le réseau des TGV en France est :",
+      "options": [
+        "en étoile autour de Paris",
+        "en cercle",
+        "sans centre"
+      ],
+      "reponse": "en étoile autour de Paris",
+      "explication": "Les lignes partent de Paris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 75,
+      "extrait": "Thème 1 - Se déplacer",
+      "appui": "Se déplacer en France et ailleurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

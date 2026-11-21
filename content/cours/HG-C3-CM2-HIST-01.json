@@ -1,0 +1,135 @@
+{
+  "competence": "HG-C3-CM2-HIST-01",
+  "duree": 8,
+  "essentiel": "La République est proclamée pour la première fois en 1792. La Ve République, celle d’aujourd’hui, date de 1958.\nÀ partir de 1870, la IIIe République s’installe durablement et diffuse ses symboles.\nElle développe l’école, les libertés et les droits des citoyens.",
+  "parties": [
+    {
+      "titre": "Les étapes de la République",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1792,
+              "date": "1792",
+              "evenement": "Ire République."
+            },
+            {
+              "annee": 1848,
+              "date": "1848",
+              "evenement": "IIe République : suffrage universel masculin, abolition de l’esclavage."
+            },
+            {
+              "annee": 1870,
+              "date": "1870",
+              "evenement": "IIIe République."
+            },
+            {
+              "annee": 1958,
+              "date": "1958",
+              "evenement": "Ve République."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sous quelle République vivons-nous aujourd’hui ?",
+          "options": [
+            "la Ve",
+            "la IIIe",
+            "la Ire"
+          ],
+          "reponse": "la Ve",
+          "explication": "La Ve République date de 1958."
+        }
+      ]
+    },
+    {
+      "titre": "Les symboles et les libertés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les symboles de la République",
+          "colonnes": [
+            "Symbole",
+            "Ce qu’il faut savoir"
+          ],
+          "lignes": [
+            [
+              "Marianne",
+              "la figure de la République"
+            ],
+            [
+              "le drapeau bleu, blanc, rouge",
+              "sur les bâtiments publics"
+            ],
+            [
+              "La Marseillaise",
+              "hymne national depuis 1879"
+            ],
+            [
+              "le 14 juillet",
+              "fête nationale depuis 1880"
+            ],
+            [
+              "Liberté, Égalité, Fraternité",
+              "la devise"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La IIIe République accorde des libertés : liberté de la presse en 1881, liberté de créer un syndicat en 1884."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la République existe sans interruption depuis 1792.",
+          "correction": "Des rois et des empereurs ont gouverné entre les Républiques, au XIXe siècle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La fête nationale française est le :",
+      "options": [
+        "14 juillet",
+        "11 novembre",
+        "1er mai"
+      ],
+      "reponse": "14 juillet",
+      "explication": "Fête nationale depuis 1880."
+    },
+    {
+      "consigne": "La devise de la République est :",
+      "options": [
+        "Liberté, Égalité, Fraternité",
+        "Travail, Famille, Patrie",
+        "Un pour tous, tous pour un"
+      ],
+      "reponse": "Liberté, Égalité, Fraternité",
+      "explication": "Elle est inscrite sur les mairies et les écoles."
+    },
+    {
+      "consigne": "L’hymne national est :",
+      "options": [
+        "La Marseillaise",
+        "Le Chant des partisans",
+        "Frère Jacques"
+      ],
+      "reponse": "La Marseillaise",
+      "explication": "Hymne national depuis 1879."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 71,
+      "extrait": "Thème 1 - Le temps de la République",
+      "appui": "Le temps de la République"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,131 @@
+{
+  "competence": "HG-C3-CM2-HIST-05",
+  "duree": 6,
+  "essentiel": "En 1848, le suffrage universel masculin est établi : tous les hommes de plus de 21 ans peuvent voter.\nEn 1944, les femmes obtiennent le droit de vote. Elles votent pour la première fois en 1945.\nDepuis 1974, on peut voter dès 18 ans.",
+  "parties": [
+    {
+      "titre": "La conquête du droit de vote",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Démocratie",
+              "definition": "Régime politique où le pouvoir appartient aux citoyens."
+            },
+            {
+              "mot": "Citoyen",
+              "definition": "Membre d’une cité ou d’un État qui participe à la vie politique."
+            }
+          ]
+        },
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1848,
+              "date": "1848",
+              "evenement": "Suffrage universel masculin."
+            },
+            {
+              "annee": 1944,
+              "date": "1944",
+              "evenement": "Droit de vote des femmes."
+            },
+            {
+              "annee": 1974,
+              "date": "1974",
+              "evenement": "Droit de vote à 18 ans."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En quelle année les femmes obtiennent-elles le droit de vote en France ?",
+          "options": [
+            "1944",
+            "1848",
+            "1789"
+          ],
+          "reponse": "1944",
+          "explication": "Près d’un siècle après les hommes."
+        }
+      ]
+    },
+    {
+      "titre": "Droits et devoirs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le citoyen",
+          "colonnes": [
+            "Droits",
+            "Devoirs"
+          ],
+          "lignes": [
+            [
+              "voter",
+              "respecter la loi"
+            ],
+            [
+              "s’exprimer librement",
+              "payer ses impôts"
+            ],
+            [
+              "être protégé par la justice",
+              "respecter les autres"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le suffrage universel de 1848 concerne tout le monde.",
+          "correction": "Il est seulement masculin : les femmes en sont exclues jusqu’en 1944."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le suffrage universel masculin date de :",
+      "options": [
+        "1848",
+        "1944",
+        "1958"
+      ],
+      "reponse": "1848",
+      "explication": "Sous la IIe République."
+    },
+    {
+      "consigne": "Aujourd’hui, on peut voter dès :",
+      "options": [
+        "18 ans",
+        "21 ans",
+        "16 ans"
+      ],
+      "reponse": "18 ans",
+      "explication": "Depuis 1974."
+    },
+    {
+      "consigne": "Respecter la loi est :",
+      "options": [
+        "un devoir du citoyen",
+        "un droit seulement",
+        "facultatif"
+      ],
+      "reponse": "un devoir du citoyen",
+      "explication": "Tous les citoyens doivent la respecter."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 71,
+      "extrait": "Des républiques, une démocratie : des libertés, des droits et des devoirs",
+      "appui": "Droits et devoirs du citoyen"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

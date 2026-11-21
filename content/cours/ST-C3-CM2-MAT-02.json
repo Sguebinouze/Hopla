@@ -1,0 +1,107 @@
+{
+  "competence": "ST-C3-CM2-MAT-02",
+  "duree": 6,
+  "essentiel": "La masse se mesure avec une balance, en grammes ou en kilogrammes.\nLe volume d’un liquide se mesure avec une éprouvette graduée, en litres ou en millilitres.\n1 L = 100 cL = 1 000 mL. 1 L d’eau a une masse d’environ 1 kg.",
+  "parties": [
+    {
+      "titre": "Mesurer un volume",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Lire une éprouvette graduée",
+          "etapes": [
+            "Pose l’éprouvette sur une table bien plate.",
+            "Place tes yeux à la hauteur du liquide.",
+            "Lis la graduation au niveau du liquide."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Unités de volume",
+          "colonnes": [
+            "Unité",
+            "Vaut"
+          ],
+          "lignes": [
+            [
+              "1 litre (L)",
+              "100 cL = 1 000 mL"
+            ],
+            [
+              "1 centilitre (cL)",
+              "10 mL"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "250 mL = ?",
+          "options": [
+            "25 cL",
+            "2,5 cL",
+            "250 cL"
+          ],
+          "reponse": "25 cL",
+          "explication": "10 mL = 1 cL."
+        }
+      ]
+    },
+    {
+      "titre": "Masse ou volume ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "250 mL d’eau ont une masse de 250 g. Mais 250 mL d’huile pèsent moins : l’huile est plus légère que l’eau."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que masse et volume sont la même chose.",
+          "correction": "Le volume est la place occupée, la masse se lit sur la balance."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1 L = ?",
+      "options": [
+        "1 000 mL",
+        "100 mL",
+        "10 mL"
+      ],
+      "reponse": "1 000 mL",
+      "explication": "1 L = 1 000 mL."
+    },
+    {
+      "consigne": "Pour mesurer le volume d’un liquide, on utilise :",
+      "options": [
+        "une éprouvette graduée",
+        "une balance",
+        "un thermomètre"
+      ],
+      "reponse": "une éprouvette graduée",
+      "explication": "Elle porte des graduations."
+    },
+    {
+      "consigne": "La masse s’exprime en :",
+      "options": [
+        "grammes",
+        "litres",
+        "mètres"
+      ],
+      "reponse": "grammes",
+      "explication": "Elle se lit sur la balance."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 82,
+      "extrait": "Mesurer la masse d’un solide ou d’un",
+      "appui": "Masse et volume"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,128 @@
+{
+  "competence": "ST-C3-CM2-MAT-01",
+  "duree": 6,
+  "essentiel": "Un matériau naturel existe dans la nature : bois, laine, pierre, coton.\nUn matériau fabriqué est produit par l’être humain : plastique, verre, acier.\nOn classe les matériaux selon leurs propriétés : dur ou souple, transparent ou opaque, conducteur ou non.",
+  "parties": [
+    {
+      "titre": "Naturel ou fabriqué ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des matériaux",
+          "colonnes": [
+            "Naturels",
+            "Fabriqués",
+            "Fabriqué à partir de"
+          ],
+          "lignes": [
+            [
+              "bois",
+              "papier",
+              "bois"
+            ],
+            [
+              "sable",
+              "verre",
+              "sable"
+            ],
+            [
+              "laine",
+              "plastique",
+              "pétrole"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le verre est un matériau :",
+          "options": [
+            "fabriqué",
+            "naturel",
+            "vivant"
+          ],
+          "reponse": "fabriqué",
+          "explication": "On l’obtient en chauffant du sable."
+        }
+      ]
+    },
+    {
+      "titre": "Des propriétés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trier selon une propriété",
+          "colonnes": [
+            "Propriété",
+            "Oui",
+            "Non"
+          ],
+          "lignes": [
+            [
+              "laisse passer le courant électrique",
+              "cuivre, fer",
+              "bois, plastique"
+            ],
+            [
+              "attiré par un aimant",
+              "fer",
+              "cuivre, aluminium"
+            ],
+            [
+              "flotte sur l’eau",
+              "bois, liège",
+              "pierre, fer"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les métaux sont attirés par un aimant.",
+          "correction": "Le fer l’est, mais pas le cuivre ni l’aluminium."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le plastique est fabriqué à partir :",
+      "options": [
+        "du pétrole",
+        "du sable",
+        "de la laine"
+      ],
+      "reponse": "du pétrole",
+      "explication": "Le pétrole est transformé en usine."
+    },
+    {
+      "consigne": "Quel matériau laisse passer le courant électrique ?",
+      "options": [
+        "le cuivre",
+        "le bois",
+        "le plastique"
+      ],
+      "reponse": "le cuivre",
+      "explication": "Les fils électriques sont en cuivre."
+    },
+    {
+      "consigne": "Le coton est un matériau :",
+      "options": [
+        "naturel",
+        "fabriqué",
+        "métallique"
+      ],
+      "reponse": "naturel",
+      "explication": "Il pousse sur une plante."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 82,
+      "extrait": "Distinguer les matériaux fabriqués ou",
+      "appui": "Matériaux naturels ou fabriqués"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

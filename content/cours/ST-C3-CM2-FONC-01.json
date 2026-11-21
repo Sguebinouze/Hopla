@@ -1,0 +1,106 @@
+{
+  "competence": "ST-C3-CM2-FONC-01",
+  "duree": 6,
+  "essentiel": "Un objet technique répond à un besoin : par exemple, s’éclairer dans le noir.\nPour cela, il assure des fonctions techniques : produire de la lumière, fournir de l’énergie.\nChaque fonction est réalisée par une solution technique : une LED, une pile.",
+  "parties": [
+    {
+      "titre": "Besoin, fonction, solution",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La lampe de poche",
+          "colonnes": [
+            "Fonction technique",
+            "Solution technique"
+          ],
+          "lignes": [
+            [
+              "produire de la lumière",
+              "LED ou ampoule"
+            ],
+            [
+              "fournir l’énergie",
+              "pile ou batterie"
+            ],
+            [
+              "commander l’allumage",
+              "interrupteur"
+            ],
+            [
+              "être tenue en main",
+              "boitier"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans une lampe de poche, l’interrupteur sert à :",
+          "options": [
+            "commander l’allumage",
+            "produire la lumière",
+            "fournir l’énergie"
+          ],
+          "reponse": "commander l’allumage",
+          "explication": "C’est sa fonction technique."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs solutions",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une même fonction peut avoir plusieurs solutions. Pour fournir l’énergie : une pile, une batterie, ou une dynamo qu’on tourne."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond la fonction et la solution : « la fonction est la pile ».",
+          "correction": "La fonction est un verbe : fournir l’énergie. La solution est l’objet : la pile."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Fournir l’énergie » est :",
+      "options": [
+        "une fonction technique",
+        "une solution technique",
+        "un besoin"
+      ],
+      "reponse": "une fonction technique",
+      "explication": "Elle commence par un verbe."
+    },
+    {
+      "consigne": "La pile est :",
+      "options": [
+        "une solution technique",
+        "une fonction",
+        "un besoin"
+      ],
+      "reponse": "une solution technique",
+      "explication": "C’est l’élément qui réalise la fonction."
+    },
+    {
+      "consigne": "Le besoin auquel répond un parapluie :",
+      "options": [
+        "se protéger de la pluie",
+        "mesurer la pluie",
+        "faire pleuvoir"
+      ],
+      "reponse": "se protéger de la pluie",
+      "explication": "Pourquoi a-t-on fabriqué cet objet ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 92,
+      "extrait": "Distinguer un besoin et les fonctions techniques réalisées par un objet",
+      "appui": "Besoin, fonction, solution"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

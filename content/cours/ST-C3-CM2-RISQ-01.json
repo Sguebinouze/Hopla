@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-CM2-RISQ-01",
+  "duree": 6,
+  "essentiel": "La Terre est active : séismes, éruptions volcaniques et tempêtes peuvent être dangereux.\nPendant un séisme, on s’abrite sous une table solide, loin des fenêtres.\nÀ l’école, on s’entraine aux bons gestes lors des exercices de sécurité.",
+  "parties": [
+    {
+      "titre": "Des phénomènes naturels",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Phénomènes et signes",
+          "colonnes": [
+            "Phénomène",
+            "Ce qui se passe"
+          ],
+          "lignes": [
+            [
+              "séisme",
+              "le sol tremble"
+            ],
+            [
+              "éruption volcanique",
+              "lave, cendres et gaz sortent du volcan"
+            ],
+            [
+              "tempête",
+              "vents très violents"
+            ],
+            [
+              "inondation",
+              "l’eau déborde et envahit les terres"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant un séisme, il faut :",
+          "options": [
+            "s’abriter sous une table solide",
+            "prendre l’ascenseur",
+            "se mettre près des fenêtres"
+          ],
+          "reponse": "s’abriter sous une table solide",
+          "explication": "La table protège des chutes d’objets."
+        }
+      ]
+    },
+    {
+      "titre": "Les bons gestes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "En cas de danger",
+          "etapes": [
+            "Écoute les consignes des adultes.",
+            "Applique le geste appris pendant les exercices.",
+            "Pour appeler les secours, compose le 112."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Pendant une inondation, on va chercher ses affaires à la cave.",
+          "correction": "On monte en hauteur, jamais à la cave ni au sous-sol."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En cas d’inondation, on :",
+      "options": [
+        "monte en hauteur",
+        "descend à la cave",
+        "traverse l’eau à pied"
+      ],
+      "reponse": "monte en hauteur",
+      "explication": "L’eau envahit d’abord les parties basses."
+    },
+    {
+      "consigne": "Le numéro d’urgence européen est le :",
+      "options": [
+        "112",
+        "118",
+        "100"
+      ],
+      "reponse": "112",
+      "explication": "Il fonctionne dans toute l’Europe."
+    },
+    {
+      "consigne": "Une éruption volcanique rejette :",
+      "options": [
+        "de la lave, des cendres et des gaz",
+        "de la neige",
+        "de l’eau de mer seulement"
+      ],
+      "reponse": "de la lave, des cendres et des gaz",
+      "explication": "Le magma sort du volcan."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 96,
+      "extrait": "Identifier un risque naturel à partir d’un exemple au choix",
+      "appui": "Séismes, volcans et risques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

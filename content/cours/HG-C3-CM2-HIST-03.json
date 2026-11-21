@@ -1,0 +1,113 @@
+{
+  "competence": "HG-C3-CM2-HIST-03",
+  "duree": 8,
+  "essentiel": "La Première Guerre mondiale dure de 1914 à 1918. Les soldats combattent dans des tranchées.\nLa Seconde Guerre mondiale dure de 1939 à 1945. La France est occupée, des Français entrent en Résistance.\nLes nazis organisent le génocide des Juifs : environ six millions sont assassinés.",
+  "parties": [
+    {
+      "titre": "Deux guerres mondiales",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1914,
+              "date": "1914",
+              "evenement": "Début de la Première Guerre mondiale."
+            },
+            {
+              "annee": 1918,
+              "date": "11 novembre 1918",
+              "evenement": "Armistice."
+            },
+            {
+              "annee": 1939,
+              "date": "1939",
+              "evenement": "Début de la Seconde Guerre mondiale."
+            },
+            {
+              "annee": 1945,
+              "date": "8 mai 1945",
+              "evenement": "Fin de la guerre en Europe."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "En 1916, la bataille de Verdun dure des mois. Les soldats français sont surnommés les poilus."
+        },
+        {
+          "type": "question",
+          "consigne": "Que commémore-t-on le 11 novembre ?",
+          "options": [
+            "la fin de la Première Guerre mondiale",
+            "la prise de la Bastille",
+            "la fin de la Seconde Guerre mondiale"
+          ],
+          "reponse": "la fin de la Première Guerre mondiale",
+          "explication": "L’armistice est signé le 11 novembre 1918."
+        }
+      ]
+    },
+    {
+      "titre": "Occupation, Résistance, génocide",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En 1940, l’Allemagne nazie occupe la France. Le 18 juin, le général de Gaulle appelle à continuer le combat depuis Londres."
+        },
+        {
+          "type": "explique",
+          "texte": "Les Juifs sont persécutés, déportés et assassinés dans des camps d’extermination, comme Auschwitz. C’est la Shoah."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les deux guerres mondiales se sont suivies sans pause.",
+          "correction": "Plus de vingt ans les séparent : de 1918 à 1939."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Seconde Guerre mondiale se termine en Europe le :",
+      "options": [
+        "8 mai 1945",
+        "11 novembre 1918",
+        "14 juillet 1789"
+      ],
+      "reponse": "8 mai 1945",
+      "explication": "C’est un jour férié en France."
+    },
+    {
+      "consigne": "Le 18 juin 1940, le général de Gaulle :",
+      "options": [
+        "appelle à résister depuis Londres",
+        "signe l’armistice",
+        "devient roi"
+      ],
+      "reponse": "appelle à résister depuis Londres",
+      "explication": "C’est l’appel du 18 juin."
+    },
+    {
+      "consigne": "Le génocide des Juifs s’appelle aussi :",
+      "options": [
+        "la Shoah",
+        "la Résistance",
+        "l’armistice"
+      ],
+      "reponse": "la Shoah",
+      "explication": "Environ six millions de Juifs sont assassinés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 72,
+      "extrait": "Thème 3 - La France, des guerres mondiales à l’Union européenne",
+      "appui": "Les deux guerres mondiales"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

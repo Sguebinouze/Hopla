@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C3-CM2-GEO-05",
+  "duree": 5,
+  "essentiel": "Des câbles sous-marins relient les continents et transportent la plupart des données d’Internet.\nEn France, la fibre arrive surtout dans les villes ; certaines campagnes et montagnes sont mal couvertes.\nDans le monde, une partie de l’Afrique subsaharienne reste peu connectée.",
+  "parties": [
+    {
+      "titre": "Les infrastructures",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce qui fait marcher Internet",
+          "colonnes": [
+            "Infrastructure",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "câbles sous-marins",
+              "relier les continents"
+            ],
+            [
+              "fibre optique",
+              "apporter un accès rapide aux logements"
+            ],
+            [
+              "antennes relais",
+              "connecter les téléphones"
+            ],
+            [
+              "satellites",
+              "connecter les lieux isolés"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qu’est-ce qui relie l’Europe à l’Amérique pour Internet ?",
+          "options": [
+            "des câbles sous-marins",
+            "des routes",
+            "des fleuves"
+          ],
+          "reponse": "des câbles sous-marins",
+          "explication": "Ils sont posés au fond de l’océan."
+        }
+      ]
+    },
+    {
+      "titre": "Des inégalités",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une zone blanche est un lieu où le téléphone portable ne capte pas, ou très mal."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout le monde a Internet chez soi.",
+          "correction": "Dans le monde, une partie des habitants n’y a pas encore accès."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une zone blanche est un lieu :",
+      "options": [
+        "mal couvert par le réseau",
+        "couvert de neige",
+        "sans habitants"
+      ],
+      "reponse": "mal couvert par le réseau",
+      "explication": "Le téléphone n’y capte pas bien."
+    },
+    {
+      "consigne": "En France, la fibre est surtout installée :",
+      "options": [
+        "dans les villes",
+        "en haute montagne",
+        "au milieu des forêts"
+      ],
+      "reponse": "dans les villes",
+      "explication": "Là où vivent beaucoup d’habitants."
+    },
+    {
+      "consigne": "Un satellite permet de connecter :",
+      "options": [
+        "des lieux isolés",
+        "seulement les grandes villes",
+        "les sous-marins"
+      ],
+      "reponse": "des lieux isolés",
+      "explication": "Il capte et renvoie le signal depuis l’espace."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "On constate les inégalités d’accès à l’Internet en France et dans le monde",
+      "appui": "Inégalement connectés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

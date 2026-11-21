@@ -1,0 +1,128 @@
+{
+  "competence": "ST-C3-CM2-LUM-01",
+  "duree": 6,
+  "essentiel": "La lumière se déplace en ligne droite depuis sa source.\nUn objet opaque l’arrête : derrière lui se forme une ombre.\nDans la journée, l’ombre d’un bâton change de direction et de longueur. Elle est la plus courte vers midi.",
+  "parties": [
+    {
+      "titre": "Transparent, translucide, opaque",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Classer les objets",
+          "colonnes": [
+            "Catégorie",
+            "La lumière…",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "transparent",
+              "passe, on voit à travers",
+              "vitre"
+            ],
+            [
+              "translucide",
+              "passe, mais on ne voit pas net",
+              "papier calque"
+            ],
+            [
+              "opaque",
+              "ne passe pas",
+              "mur, carton"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un mur est :",
+          "options": [
+            "opaque",
+            "transparent",
+            "translucide"
+          ],
+          "reponse": "opaque",
+          "explication": "Il arrête la lumière."
+        }
+      ]
+    },
+    {
+      "titre": "L’ombre du Soleil",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’ombre d’un bâton dans la journée",
+          "colonnes": [
+            "Moment",
+            "Soleil",
+            "Ombre"
+          ],
+          "lignes": [
+            [
+              "matin",
+              "bas, à l’est",
+              "longue, vers l’ouest"
+            ],
+            [
+              "vers midi",
+              "au plus haut",
+              "la plus courte"
+            ],
+            [
+              "soir",
+              "bas, à l’ouest",
+              "longue, vers l’est"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’ombre est toujours au même endroit.",
+          "correction": "Le Soleil semble se déplacer dans le ciel : l’ombre tourne avec lui, à l’opposé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La lumière se propage :",
+      "options": [
+        "en ligne droite",
+        "en zigzag",
+        "en cercle"
+      ],
+      "reponse": "en ligne droite",
+      "explication": "Une ombre a des bords nets pour cette raison."
+    },
+    {
+      "consigne": "Vers midi, l’ombre d’un bâton est :",
+      "options": [
+        "la plus courte",
+        "la plus longue",
+        "absente toute l’année"
+      ],
+      "reponse": "la plus courte",
+      "explication": "Le Soleil est au plus haut."
+    },
+    {
+      "consigne": "Le matin, le Soleil est à l’est. L’ombre est vers :",
+      "options": [
+        "l’ouest",
+        "l’est",
+        "le Soleil"
+      ],
+      "reponse": "l’ouest",
+      "explication": "À l’opposé de la source."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 86,
+      "extrait": "Observer et classer des objets selon qu’ils sont transparents, opaques à la lumière ou translucides",
+      "appui": "Lumière et ombres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

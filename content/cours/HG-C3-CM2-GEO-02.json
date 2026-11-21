@@ -1,0 +1,108 @@
+{
+  "competence": "HG-C3-CM2-GEO-02",
+  "duree": 6,
+  "essentiel": "Internet relie des milliards d’ordinateurs, de téléphones et de tablettes.\nLes données passent par des câbles, des antennes et des satellites, et sont stockées dans des centres de données.\nOn l’utilise pour communiquer, s’informer, apprendre ou acheter.",
+  "parties": [
+    {
+      "titre": "Comment ça marche ?",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Le trajet d’un message vidéo",
+          "etapes": [
+            "Ta tablette envoie l’image à la box ou à une antenne.",
+            "Les données voyagent par des câbles, parfois sous l’océan.",
+            "Elles passent par des centres de données remplis de serveurs.",
+            "Elles arrivent sur l’écran de ta cousine, au Canada."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où sont stockées les données d’Internet ?",
+          "options": [
+            "dans des centres de données",
+            "dans les nuages du ciel",
+            "dans les satellites seulement"
+          ],
+          "reponse": "dans des centres de données",
+          "explication": "Des bâtiments remplis d’ordinateurs, les serveurs."
+        }
+      ]
+    },
+    {
+      "titre": "Des usages et des précautions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Usages et précautions",
+          "colonnes": [
+            "Usage",
+            "Précaution"
+          ],
+          "lignes": [
+            [
+              "communiquer",
+              "ne pas donner son adresse ni ses mots de passe"
+            ],
+            [
+              "s’informer",
+              "vérifier la source"
+            ],
+            [
+              "jouer, regarder des vidéos",
+              "limiter son temps d’écran"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout ce qu’on lit sur Internet est vrai.",
+          "correction": "N’importe qui peut publier : on vérifie la source et on compare."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un serveur est :",
+      "options": [
+        "un ordinateur qui stocke et envoie des données",
+        "une personne au restaurant",
+        "un câble"
+      ],
+      "reponse": "un ordinateur qui stocke et envoie des données",
+      "explication": "Ils sont rassemblés dans des centres de données."
+    },
+    {
+      "consigne": "Avant de croire une information en ligne, on :",
+      "options": [
+        "vérifie la source",
+        "la partage vite",
+        "regarde les images"
+      ],
+      "reponse": "vérifie la source",
+      "explication": "Qui l’a écrite ? Est-ce sérieux ?"
+    },
+    {
+      "consigne": "Sur Internet, on ne donne jamais :",
+      "options": [
+        "ses mots de passe",
+        "son avis sur un livre",
+        "le nom de son école à son enseignant"
+      ],
+      "reponse": "ses mots de passe",
+      "explication": "Ils protègent tes comptes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "Thème 2 - Communiquer d’un bout à l’autre du monde grâce à l’Internet",
+      "appui": "Communiquer avec l’Internet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

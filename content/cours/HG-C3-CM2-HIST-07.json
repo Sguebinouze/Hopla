@@ -1,0 +1,109 @@
+{
+  "competence": "HG-C3-CM2-HIST-07",
+  "duree": 6,
+  "essentiel": "Après 1945, des pays d’Europe décident de s’unir pour ne plus se faire la guerre.\nEn 1951, six pays créent la CECA, pour mettre en commun le charbon et l’acier.\nAujourd’hui, l’Union européenne compte 27 pays. L’euro est la monnaie de la plupart d’entre eux.",
+  "parties": [
+    {
+      "titre": "Les étapes",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1951,
+              "date": "1951",
+              "evenement": "CECA : six pays."
+            },
+            {
+              "annee": 1957,
+              "date": "1957",
+              "evenement": "Traité de Rome : la Communauté économique européenne."
+            },
+            {
+              "annee": 1992,
+              "date": "1992",
+              "evenement": "Traité de Maastricht : l’Union européenne."
+            },
+            {
+              "annee": 2002,
+              "date": "2002",
+              "evenement": "Pièces et billets en euros."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi les pays d’Europe s’unissent-ils après 1945 ?",
+          "options": [
+            "pour garder la paix",
+            "pour faire la guerre",
+            "pour changer de langue"
+          ],
+          "reponse": "pour garder la paix",
+          "explication": "Ils sortent de deux guerres mondiales."
+        }
+      ]
+    },
+    {
+      "titre": "Les six pays fondateurs",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les pays de la CECA en 1951.",
+          "exemples": [
+            "France, Allemagne de l’Ouest, Italie",
+            "Belgique, Pays-Bas, Luxembourg"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les pays d’Europe sont dans l’Union européenne.",
+          "correction": "La Suisse ou la Norvège, par exemple, n’en font pas partie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de pays compte l’Union européenne aujourd’hui ?",
+      "options": [
+        "27",
+        "6",
+        "50"
+      ],
+      "reponse": "27",
+      "explication": "Elle s’est agrandie peu à peu."
+    },
+    {
+      "consigne": "Les pièces et billets en euros circulent depuis :",
+      "options": [
+        "2002",
+        "1951",
+        "1789"
+      ],
+      "reponse": "2002",
+      "explication": "Ils remplacent le franc en France."
+    },
+    {
+      "consigne": "La CECA met en commun :",
+      "options": [
+        "le charbon et l’acier",
+        "le blé et le vin",
+        "les armées"
+      ],
+      "reponse": "le charbon et l’acier",
+      "explication": "Les industries utiles pour faire la guerre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 72,
+      "extrait": "La construction européenne",
+      "appui": "La construction européenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

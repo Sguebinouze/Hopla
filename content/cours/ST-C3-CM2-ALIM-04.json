@@ -1,0 +1,137 @@
+{
+  "competence": "ST-C3-CM2-ALIM-04",
+  "duree": 6,
+  "essentiel": "Des microorganismes servent à fabriquer des aliments : les levures font lever le pain, des bactéries transforment le lait en yaourt.\nD’autres microbes abiment les aliments.\nPour conserver, on les ralentit ou on les détruit : froid, chaleur, séchage, sel, sucre.",
+  "parties": [
+    {
+      "titre": "Transformer",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Microorganisme",
+              "definition": "Être vivant si petit qu’on ne le voit qu’au microscope : bactérie, levure."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des transformations",
+          "colonnes": [
+            "Aliment de départ",
+            "Microorganisme",
+            "Aliment obtenu"
+          ],
+          "lignes": [
+            [
+              "pâte à pain",
+              "levure",
+              "pain"
+            ],
+            [
+              "lait",
+              "ferments, des bactéries",
+              "yaourt, fromage"
+            ],
+            [
+              "jus de raisin",
+              "levure",
+              "vin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qu’est-ce qui fait gonfler la pâte à pain ?",
+          "options": [
+            "la levure",
+            "le sel",
+            "le froid"
+          ],
+          "reponse": "la levure",
+          "explication": "Elle produit un gaz qui fait des bulles."
+        }
+      ]
+    },
+    {
+      "titre": "Conserver",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Procédés de conservation",
+          "colonnes": [
+            "Procédé",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "froid",
+              "réfrigérateur, congélateur"
+            ],
+            [
+              "chaleur",
+              "conserves, lait stérilisé"
+            ],
+            [
+              "séchage",
+              "fruits secs, pâtes"
+            ],
+            [
+              "sel ou sucre",
+              "jambon salé, confiture"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le réfrigérateur tue les microbes.",
+          "correction": "Le froid les ralentit seulement. Il faut respecter la date limite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le froid du réfrigérateur :",
+      "options": [
+        "ralentit les microbes",
+        "tue tous les microbes",
+        "fait pousser les microbes"
+      ],
+      "reponse": "ralentit les microbes",
+      "explication": "Il ne les détruit pas."
+    },
+    {
+      "consigne": "La confiture se conserve grâce :",
+      "options": [
+        "au sucre",
+        "au sel",
+        "à la levure"
+      ],
+      "reponse": "au sucre",
+      "explication": "Beaucoup de sucre empêche les microbes de se développer."
+    },
+    {
+      "consigne": "Le yaourt est fabriqué grâce à :",
+      "options": [
+        "des bactéries",
+        "du sable",
+        "du vinaigre"
+      ],
+      "reponse": "des bactéries",
+      "explication": "Des ferments transforment le lait."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 89,
+      "extrait": "Réaliser une transformation alimentaire (pain",
+      "appui": "Produire et conserver les aliments"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

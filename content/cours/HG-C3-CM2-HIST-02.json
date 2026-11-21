@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C3-CM2-HIST-02",
+  "duree": 8,
+  "essentiel": "Au XIXe siècle, la France entre dans l’âge industriel.\nLa machine à vapeur, qui fonctionne au charbon, fait tourner les usines et avancer les trains.\nBeaucoup de paysans quittent les campagnes pour travailler en ville : c’est l’exode rural.",
+  "parties": [
+    {
+      "titre": "Énergies et machines",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des énergies nouvelles",
+          "colonnes": [
+            "Énergie",
+            "Ce qu’elle permet"
+          ],
+          "lignes": [
+            [
+              "charbon",
+              "chauffer l’eau des machines à vapeur"
+            ],
+            [
+              "vapeur",
+              "faire tourner les usines, avancer les trains et les bateaux"
+            ],
+            [
+              "électricité, fin du XIXe siècle",
+              "éclairer, faire tourner des moteurs"
+            ],
+            [
+              "pétrole, fin du XIXe siècle",
+              "faire rouler les premières automobiles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle énergie fait fonctionner la machine à vapeur ?",
+          "options": [
+            "le charbon",
+            "le vent",
+            "l’électricité"
+          ],
+          "reponse": "le charbon",
+          "explication": "On brule le charbon pour chauffer l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Villes et campagnes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les villes grandissent autour des usines et des gares. Les campagnes perdent des habitants, mais les machines agricoles apparaissent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’au XIXe siècle, tous les Français vivent en ville.",
+          "correction": "Vers 1900, la majorité des Français vit encore à la campagne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’exode rural, c’est :",
+      "options": [
+        "le départ des paysans vers les villes",
+        "un voyage en train",
+        "une nouvelle machine"
+      ],
+      "reponse": "le départ des paysans vers les villes",
+      "explication": "Ils viennent travailler à l’usine."
+    },
+    {
+      "consigne": "Au XIXe siècle, quel moyen de transport se développe ?",
+      "options": [
+        "le chemin de fer",
+        "l’avion",
+        "la fusée"
+      ],
+      "reponse": "le chemin de fer",
+      "explication": "Les trains roulent grâce à la vapeur."
+    },
+    {
+      "consigne": "Le charbon est extrait :",
+      "options": [
+        "dans les mines",
+        "dans les forêts",
+        "dans la mer"
+      ],
+      "reponse": "dans les mines",
+      "explication": "Les mineurs creusent des galeries."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 72,
+      "extrait": "Thème 2 - L’âge industriel en France",
+      "appui": "L’âge industriel"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

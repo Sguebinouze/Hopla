@@ -1,0 +1,106 @@
+{
+  "competence": "ST-C3-CM2-ALIM-02",
+  "duree": 6,
+  "essentiel": "Le cœur est un muscle qui pompe le sang dans tout le corps.\nLe sang apporte aux organes les nutriments et le dioxygène.\nLes artères partent du cœur, les veines y reviennent.",
+  "parties": [
+    {
+      "titre": "Le transport par le sang",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que transporte le sang",
+          "colonnes": [
+            "Quoi ?",
+            "D’où ?",
+            "Vers où ?"
+          ],
+          "lignes": [
+            [
+              "nutriments",
+              "intestin grêle",
+              "tous les organes"
+            ],
+            [
+              "dioxygène",
+              "poumons",
+              "tous les organes"
+            ],
+            [
+              "dioxyde de carbone",
+              "tous les organes",
+              "poumons, puis rejeté"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le sang prend le dioxygène dans :",
+          "options": [
+            "les poumons",
+            "l’estomac",
+            "le cerveau"
+          ],
+          "reponse": "les poumons",
+          "explication": "L’air y entre à chaque inspiration."
+        }
+      ]
+    },
+    {
+      "titre": "Pendant un effort",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pendant une course, les muscles ont besoin de plus de dioxygène et de nutriments. Le cœur bat plus vite."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les artères ramènent le sang au cœur.",
+          "correction": "Les artères partent du cœur. Les veines ramènent le sang au cœur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le cœur est :",
+      "options": [
+        "un muscle",
+        "un os",
+        "un poumon"
+      ],
+      "reponse": "un muscle",
+      "explication": "Il se contracte pour pomper le sang."
+    },
+    {
+      "consigne": "Les veines :",
+      "options": [
+        "ramènent le sang au cœur",
+        "partent du cœur",
+        "transportent de l’air"
+      ],
+      "reponse": "ramènent le sang au cœur",
+      "explication": "Les artères partent du cœur."
+    },
+    {
+      "consigne": "Pendant un effort, le cœur :",
+      "options": [
+        "bat plus vite",
+        "s’arrête",
+        "bat moins vite"
+      ],
+      "reponse": "bat plus vite",
+      "explication": "Les muscles ont plus de besoins."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 89,
+      "extrait": "Identifier le rôle de la circulation sanguine",
+      "appui": "La circulation sanguine"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

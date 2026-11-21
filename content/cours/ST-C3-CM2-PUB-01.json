@@ -1,0 +1,102 @@
+{
+  "competence": "ST-C3-CM2-PUB-01",
+  "duree": 6,
+  "essentiel": "À la puberté, le corps se transforme : on grandit vite, des poils apparaissent, la voix change.\nLes organes reproducteurs deviennent capables de fonctionner.\nChez les filles arrivent les premières règles ; chez les garçons, les testicules produisent des spermatozoïdes.",
+  "parties": [
+    {
+      "titre": "Les changements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À la puberté",
+          "colonnes": [
+            "Filles",
+            "Garçons"
+          ],
+          "lignes": [
+            [
+              "les seins se développent",
+              "la voix devient plus grave : c’est la mue"
+            ],
+            [
+              "les hanches s’élargissent",
+              "les épaules s’élargissent"
+            ],
+            [
+              "premières règles",
+              "production de spermatozoïdes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La mue, chez les garçons, c’est :",
+          "options": [
+            "le changement de la voix",
+            "la perte des cheveux",
+            "la chute des dents"
+          ],
+          "reponse": "le changement de la voix",
+          "explication": "La voix devient plus grave."
+        }
+      ]
+    },
+    {
+      "titre": "Pouvoir se reproduire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Après la puberté, les ovaires libèrent des ovules et les testicules produisent des spermatozoïdes. Le corps devient capable de se reproduire."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la puberté arrive au même âge pour tous.",
+          "correction": "Elle commence souvent entre 8 et 14 ans : chacun a son rythme."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Chez les filles, les ovaires libèrent :",
+      "options": [
+        "des ovules",
+        "des spermatozoïdes",
+        "du lait"
+      ],
+      "reponse": "des ovules",
+      "explication": "Ce sont les cellules reproductrices féminines."
+    },
+    {
+      "consigne": "Les testicules produisent :",
+      "options": [
+        "des spermatozoïdes",
+        "des ovules",
+        "de la salive"
+      ],
+      "reponse": "des spermatozoïdes",
+      "explication": "Ce sont les cellules reproductrices masculines."
+    },
+    {
+      "consigne": "Les changements de la puberté sont :",
+      "options": [
+        "normaux",
+        "une maladie",
+        "rares"
+      ],
+      "reponse": "normaux",
+      "explication": "Tout le monde passe par là."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 90,
+      "extrait": "Décrire et identifier les changements du corps au moment de la puberté",
+      "appui": "Les changements de la puberté"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

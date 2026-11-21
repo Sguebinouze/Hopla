@@ -1,0 +1,94 @@
+{
+  "competence": "ST-C3-CM2-ALGO-01",
+  "duree": 6,
+  "essentiel": "Un algorithme est une suite d’instructions pour faire agir un robot.\nUne boucle répète des instructions : « répéter 4 fois ».\nUne condition fait choisir : « si un obstacle est devant, alors tourner, sinon avancer ».",
+  "parties": [
+    {
+      "titre": "Répéter",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Que trace le robot ? « Répéter 4 fois : avancer de 10, tourner à droite de 90°. »",
+          "etapes": [
+            "Il avance, puis tourne d’un quart de tour.",
+            "Après 4 fois, il a fait un tour complet et revient au départ."
+          ],
+          "conclusion": "Il trace un carré."
+        },
+        {
+          "type": "question",
+          "consigne": "Pour tracer un triangle équilatéral, on répète 3 fois : avancer, puis tourner de :",
+          "options": [
+            "120°",
+            "90°",
+            "60°"
+          ],
+          "reponse": "120°",
+          "explication": "3 × 120° = 360° : un tour complet."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir avec une condition",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un robot aspirateur",
+          "etapes": [
+            "Si le capteur détecte un obstacle, alors tourner.",
+            "Sinon, avancer.",
+            "Répéter tant que la batterie n’est pas vide."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit toutes les instructions une par une, même quand elles se répètent.",
+          "correction": "Une boucle rend le programme plus court et plus clair."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Si… alors… sinon » est :",
+      "options": [
+        "une condition",
+        "une boucle",
+        "un capteur"
+      ],
+      "reponse": "une condition",
+      "explication": "Elle fait choisir entre deux actions."
+    },
+    {
+      "consigne": "« Répéter 6 fois » est :",
+      "options": [
+        "une boucle",
+        "une condition",
+        "un actionneur"
+      ],
+      "reponse": "une boucle",
+      "explication": "Elle répète des instructions."
+    },
+    {
+      "consigne": "Un algorithme est :",
+      "options": [
+        "une suite d’instructions",
+        "un robot",
+        "un écran"
+      ],
+      "reponse": "une suite d’instructions",
+      "explication": "Le robot l’exécute."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 95,
+      "extrait": "Coder un algorithme simple agissant sur le comportement d’un objet technique",
+      "appui": "Programmer un robot"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

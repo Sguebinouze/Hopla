@@ -1,0 +1,105 @@
+{
+  "competence": "ST-C3-CM2-TERRE-01",
+  "duree": 6,
+  "essentiel": "Le Soleil est une étoile. Huit planètes tournent autour de lui ; la Terre est la troisième.\nLa Terre fait le tour du Soleil en un an. Elle tourne sur elle-même en 24 heures : c’est le jour et la nuit.\nLa Lune est le satellite de la Terre.",
+  "parties": [
+    {
+      "titre": "Le système solaire",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les huit planètes, de la plus proche à la plus éloignée du Soleil.",
+          "exemples": [
+            "Mercure, Vénus, Terre, Mars : petites et rocheuses.",
+            "Jupiter, Saturne, Uranus, Neptune : géantes et gazeuses."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Terre est la … planète à partir du Soleil.",
+          "options": [
+            "3e",
+            "1re",
+            "5e"
+          ],
+          "reponse": "3e",
+          "explication": "Après Mercure et Vénus."
+        }
+      ]
+    },
+    {
+      "titre": "Jour, nuit et année",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux mouvements de la Terre",
+          "colonnes": [
+            "Mouvement",
+            "Durée",
+            "Conséquence"
+          ],
+          "lignes": [
+            [
+              "tourner sur elle-même",
+              "24 heures",
+              "le jour et la nuit"
+            ],
+            [
+              "tourner autour du Soleil",
+              "environ 365 jours",
+              "une année"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Soleil tourne autour de la Terre.",
+          "correction": "C’est la Terre qui tourne sur elle-même : le Soleil semble se déplacer dans le ciel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Soleil est :",
+      "options": [
+        "une étoile",
+        "une planète",
+        "un satellite"
+      ],
+      "reponse": "une étoile",
+      "explication": "Il produit sa propre lumière."
+    },
+    {
+      "consigne": "La Terre tourne sur elle-même en :",
+      "options": [
+        "24 heures",
+        "1 an",
+        "1 mois"
+      ],
+      "reponse": "24 heures",
+      "explication": "D’où le jour et la nuit."
+    },
+    {
+      "consigne": "La Lune tourne autour :",
+      "options": [
+        "de la Terre",
+        "de Mars",
+        "de Jupiter"
+      ],
+      "reponse": "de la Terre",
+      "explication": "C’est notre satellite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 96,
+      "extrait": "Situer la terre dans le système solaire",
+      "appui": "La Terre dans le système solaire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,125 @@
+{
+  "competence": "ST-C3-CM2-MEL-01",
+  "duree": 7,
+  "essentiel": "On sépare un mélange par tamisage, décantation, filtration ou évaporation.\nL’évaporation permet de récupérer le sel dissous dans l’eau.\nLors d’une dissolution, la masse se conserve : 100 g d’eau et 10 g de sel donnent 110 g d’eau salée.",
+  "parties": [
+    {
+      "titre": "Quatre techniques",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mélange",
+              "definition": "Matière formée de plusieurs constituants."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Séparer",
+          "colonnes": [
+            "Technique",
+            "Ce qu’elle sépare",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "tamisage",
+              "des grains de tailles différentes",
+              "sable et cailloux"
+            ],
+            [
+              "décantation",
+              "un solide qui tombe au fond",
+              "eau boueuse"
+            ],
+            [
+              "filtration",
+              "un solide non dissous",
+              "eau et terre"
+            ],
+            [
+              "évaporation",
+              "un solide dissous",
+              "sel des marais salants"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour récupérer le sel dissous dans l’eau, on utilise :",
+          "options": [
+            "l’évaporation",
+            "la filtration",
+            "le tamisage"
+          ],
+          "reponse": "l’évaporation",
+          "explication": "L’eau s’évapore, le sel reste."
+        }
+      ]
+    },
+    {
+      "titre": "La masse se conserve",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "On dissout 10 g de sel dans 100 g d’eau. Quelle est la masse de l’eau salée ?",
+          "etapes": [
+            "Le sel ne disparait pas : il est dissous.",
+            "100 + 10 = 110."
+          ],
+          "conclusion": "L’eau salée pèse 110 g."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le sel dissous a disparu.",
+          "correction": "On ne le voit plus, mais il est toujours là : la balance le prouve, et l’eau est salée."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "On dissout 20 g de sucre dans 200 g d’eau. L’eau sucrée pèse :",
+      "options": [
+        "220 g",
+        "200 g",
+        "180 g"
+      ],
+      "reponse": "220 g",
+      "explication": "La masse se conserve : 200 + 20."
+    },
+    {
+      "consigne": "Pour retenir la terre de l’eau boueuse, on utilise :",
+      "options": [
+        "un filtre",
+        "un aimant",
+        "une loupe"
+      ],
+      "reponse": "un filtre",
+      "explication": "Le filtre retient la terre."
+    },
+    {
+      "consigne": "Dans les marais salants, le sel est récupéré par :",
+      "options": [
+        "évaporation",
+        "filtration",
+        "tamisage"
+      ],
+      "reponse": "évaporation",
+      "explication": "Le soleil et le vent évaporent l’eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 83,
+      "extrait": "Séparer les constituants d’un mélange de solides ou d’un mélange solide-liquide par tamisage, décantation, filtration",
+      "appui": "Séparer un mélange"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "ST-C3-CM2-METEO-01",
+  "duree": 5,
+  "essentiel": "La météo décrit le temps qu’il fait un jour donné, à un endroit.\nLe climat est le temps moyen d’une région, observé sur de longues années.\nEn France métropolitaine, le climat est surtout tempéré.",
+  "parties": [
+    {
+      "titre": "Météo ou climat ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux notions",
+          "colonnes": [
+            "Critère",
+            "Météo",
+            "Climat"
+          ],
+          "lignes": [
+            [
+              "durée",
+              "un jour, quelques jours",
+              "au moins 30 ans"
+            ],
+            [
+              "exemple",
+              "il pleut à Lille demain",
+              "les hivers sont doux en Bretagne"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Demain, il fera 25 °C à Nice. » C’est :",
+          "options": [
+            "la météo",
+            "le climat",
+            "une saison"
+          ],
+          "reponse": "la météo",
+          "explication": "Le temps d’un jour précis."
+        }
+      ]
+    },
+    {
+      "titre": "Des climats et des instruments",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Quelques climats du monde.",
+          "exemples": [
+            "polaire : très froid toute l’année",
+            "tropical : chaud, avec une saison des pluies",
+            "désertique : très sec"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un hiver froid prouve que le climat ne se réchauffe pas.",
+          "correction": "Un jour froid, c’est la météo. Le climat se mesure sur de longues années."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le climat se calcule sur :",
+      "options": [
+        "de longues années",
+        "une journée",
+        "une semaine"
+      ],
+      "reponse": "de longues années",
+      "explication": "C’est une moyenne."
+    },
+    {
+      "consigne": "Le pluviomètre mesure :",
+      "options": [
+        "la quantité de pluie",
+        "la température",
+        "le vent"
+      ],
+      "reponse": "la quantité de pluie",
+      "explication": "En millimètres."
+    },
+    {
+      "consigne": "Un climat très sec est :",
+      "options": [
+        "désertique",
+        "polaire",
+        "tempéré"
+      ],
+      "reponse": "désertique",
+      "explication": "Il pleut très rarement."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 95,
+      "extrait": "Distinguer la météorologie du climat",
+      "appui": "Météo et climat"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

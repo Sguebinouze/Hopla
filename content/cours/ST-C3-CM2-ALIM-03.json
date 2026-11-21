@@ -1,0 +1,117 @@
+{
+  "competence": "ST-C3-CM2-ALIM-03",
+  "duree": 6,
+  "essentiel": "Les aliments apportent l’énergie pour bouger et la matière pour grandir.\nUn repas équilibré associe des légumes, un féculent, une protéine, un produit laitier et un fruit.\nL’eau est la seule boisson indispensable. Les produits gras et sucrés sont à limiter.",
+  "parties": [
+    {
+      "titre": "Les familles d’aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Rôle des aliments",
+          "colonnes": [
+            "Famille",
+            "Exemples",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "fruits et légumes",
+              "pomme, carotte",
+              "vitamines, fibres"
+            ],
+            [
+              "féculents",
+              "pain, pâtes, riz",
+              "énergie"
+            ],
+            [
+              "viande, poisson, œufs, légumes secs",
+              "poulet, lentilles",
+              "construire les muscles"
+            ],
+            [
+              "produits laitiers",
+              "lait, yaourt, fromage",
+              "calcium pour les os"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les féculents apportent surtout :",
+          "options": [
+            "de l’énergie",
+            "du calcium",
+            "de l’eau"
+          ],
+          "reponse": "de l’énergie",
+          "explication": "Pain, pâtes et riz donnent de l’énergie."
+        }
+      ]
+    },
+    {
+      "titre": "De bonnes habitudes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des comportements favorables à la santé.",
+          "exemples": [
+            "prendre un petit déjeuner",
+            "boire de l’eau plutôt que des sodas",
+            "manger varié, à heures régulières",
+            "bouger chaque jour"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un aliment est bon ou mauvais en soi.",
+          "correction": "C’est l’équilibre sur la journée qui compte. Un gâteau de temps en temps n’est pas un problème."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les produits laitiers apportent :",
+      "options": [
+        "du calcium pour les os",
+        "surtout du sucre",
+        "des fibres"
+      ],
+      "reponse": "du calcium pour les os",
+      "explication": "Le calcium solidifie les os."
+    },
+    {
+      "consigne": "La seule boisson indispensable est :",
+      "options": [
+        "l’eau",
+        "le soda",
+        "le jus de fruits"
+      ],
+      "reponse": "l’eau",
+      "explication": "Le corps en a besoin chaque jour."
+    },
+    {
+      "consigne": "Les lentilles font partie de la famille :",
+      "options": [
+        "viande, poisson, œufs, légumes secs",
+        "produits laitiers",
+        "produits sucrés"
+      ],
+      "reponse": "viande, poisson, œufs, légumes secs",
+      "explication": "Ce sont des légumes secs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 89,
+      "extrait": "Citer quelques comportements alimentaires",
+      "appui": "Bien se nourrir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

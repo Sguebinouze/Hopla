@@ -1,0 +1,98 @@
+{
+  "competence": "HG-C3-CM2-HIST-06",
+  "duree": 7,
+  "essentiel": "Au XIXe siècle, les ouvriers travaillent souvent plus de 12 heures par jour, dans le bruit et le danger.\nLes mineurs descendent extraire le charbon dans des galeries étroites. Des enfants travaillent aussi.\nPeu à peu, des lois protègent les travailleurs, et les ouvriers s’organisent en syndicats.",
+  "parties": [
+    {
+      "titre": "À la mine et à l’usine",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les dangers",
+          "colonnes": [
+            "Lieu",
+            "Dangers"
+          ],
+          "lignes": [
+            [
+              "la mine",
+              "éboulements, coups de grisou, poussière qui abime les poumons"
+            ],
+            [
+              "l’usine",
+              "machines sans protection, bruit, longues journées"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le coup de grisou est :",
+          "options": [
+            "une explosion de gaz dans la mine",
+            "une grève",
+            "une machine"
+          ],
+          "reponse": "une explosion de gaz dans la mine",
+          "explication": "Le grisou est un gaz qui peut exploser."
+        }
+      ]
+    },
+    {
+      "titre": "Le travail des enfants",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Des enfants travaillent à la mine dès 10 ans. En 1841, une loi interdit le travail des moins de 8 ans dans les grandes usines."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la loi de 1841 met fin au travail des enfants.",
+          "correction": "Elle fixe seulement un âge minimum. D’autres lois, plus tard, le relèvent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les mineurs extraient :",
+      "options": [
+        "du charbon",
+        "du blé",
+        "du coton"
+      ],
+      "reponse": "du charbon",
+      "explication": "Pour alimenter les machines à vapeur."
+    },
+    {
+      "consigne": "Un syndicat sert à :",
+      "options": [
+        "défendre les droits des travailleurs",
+        "construire des usines",
+        "vendre du charbon"
+      ],
+      "reponse": "défendre les droits des travailleurs",
+      "explication": "Autorisé en France en 1884."
+    },
+    {
+      "consigne": "Au XIXe siècle, une journée d’ouvrier dure souvent :",
+      "options": [
+        "plus de 12 heures",
+        "4 heures",
+        "7 heures"
+      ],
+      "reponse": "plus de 12 heures",
+      "explication": "Les journées sont très longues."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 72,
+      "extrait": "Le travail à la mine, à l’usine, à l’atelier, au grand magasin",
+      "appui": "Travailler à la mine et à l’usine"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,114 @@
+{
+  "competence": "ST-C3-CM2-VIV-01",
+  "duree": 7,
+  "essentiel": "Une graine germe, la jeune plante pousse, puis elle fleurit.\nAprès la pollinisation, la fleur se transforme en fruit, qui contient des graines.\nCes graines sont dispersées et donnent de nouvelles plantes : le cycle recommence.",
+  "parties": [
+    {
+      "titre": "De la graine au fruit",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Pollinisation",
+              "definition": "Transport du pollen d’une fleur vers une autre fleur de la même espèce."
+            }
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Le cycle du haricot",
+          "etapes": [
+            "La graine germe : une racine, puis une tige sortent.",
+            "La plante pousse et fait des feuilles.",
+            "Elle fleurit.",
+            "Les fleurs pollinisées deviennent des gousses : ce sont les fruits.",
+            "Les gousses contiennent de nouvelles graines."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans quoi se trouvent les graines ?",
+          "options": [
+            "dans le fruit",
+            "dans la racine",
+            "dans les feuilles"
+          ],
+          "reponse": "dans le fruit",
+          "explication": "La fleur devient un fruit plein de graines."
+        }
+      ]
+    },
+    {
+      "titre": "Les besoins",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce dont la plante a besoin",
+          "colonnes": [
+            "Étape",
+            "Besoins"
+          ],
+          "lignes": [
+            [
+              "germination",
+              "eau, air, chaleur"
+            ],
+            [
+              "croissance",
+              "eau, lumière, sels minéraux du sol"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une graine a besoin de lumière pour germer.",
+          "correction": "Elle germe dans le noir si elle a de l’eau et de la chaleur. La plante a ensuite besoin de lumière."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Qui transporte souvent le pollen d’une fleur à l’autre ?",
+      "options": [
+        "les insectes",
+        "les poissons",
+        "les vers de terre"
+      ],
+      "reponse": "les insectes",
+      "explication": "Les abeilles, par exemple."
+    },
+    {
+      "consigne": "Après la pollinisation, la fleur devient :",
+      "options": [
+        "un fruit",
+        "une racine",
+        "une graine seule"
+      ],
+      "reponse": "un fruit",
+      "explication": "Le fruit contient les graines."
+    },
+    {
+      "consigne": "Pour germer, une graine a besoin :",
+      "options": [
+        "d’eau et de chaleur",
+        "de lumière seulement",
+        "de sel"
+      ],
+      "reponse": "d’eau et de chaleur",
+      "explication": "Et d’air."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 90,
+      "extrait": "Exploiter des observations issues de cultures",
+      "appui": "Le cycle d’une plante à fleurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

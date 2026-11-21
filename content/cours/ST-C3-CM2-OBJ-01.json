@@ -1,0 +1,103 @@
+{
+  "competence": "ST-C3-CM2-OBJ-01",
+  "duree": 5,
+  "essentiel": "Un objet technique est fabriqué par l’être humain pour répondre à un besoin. Un objet naturel ne l’est pas : un caillou, une plume.\nLes objets évoluent avec les besoins, les matériaux et les techniques.\nLe téléphone est passé du cadran au portable, puis au smartphone.",
+  "parties": [
+    {
+      "titre": "Technique ou naturel ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trier",
+          "colonnes": [
+            "Objets techniques",
+            "Objets naturels"
+          ],
+          "lignes": [
+            [
+              "un téléphone, une chaise",
+              "un caillou, une coquille"
+            ],
+            [
+              "un vélo, une paire de ciseaux",
+              "une branche, une plume"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel est un objet technique ?",
+          "options": [
+            "une paire de ciseaux",
+            "un coquillage",
+            "une pomme de pin"
+          ],
+          "reponse": "une paire de ciseaux",
+          "explication": "Il a été fabriqué pour couper."
+        }
+      ]
+    },
+    {
+      "titre": "L’évolution du téléphone",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Du XXe au XXIe siècle.",
+          "exemples": [
+            "téléphone fixe à cadran : on tourne un disque pour composer le numéro",
+            "téléphone portable, à partir des années 1990",
+            "smartphone : téléphone, appareil photo et Internet dans un seul objet"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un objet évolue seulement pour être plus beau.",
+          "correction": "Il évolue surtout pour répondre à de nouveaux besoins, avec de nouvelles techniques."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un caillou est un objet :",
+      "options": [
+        "naturel",
+        "technique",
+        "électrique"
+      ],
+      "reponse": "naturel",
+      "explication": "Personne ne l’a fabriqué."
+    },
+    {
+      "consigne": "Un objet technique répond à :",
+      "options": [
+        "un besoin",
+        "une saison",
+        "un hasard"
+      ],
+      "reponse": "un besoin",
+      "explication": "Il est fabriqué dans un but."
+    },
+    {
+      "consigne": "Le smartphone réunit :",
+      "options": [
+        "téléphone, appareil photo et Internet",
+        "seulement le téléphone",
+        "une radio et une télévision à cadran"
+      ],
+      "reponse": "téléphone, appareil photo et Internet",
+      "explication": "Plusieurs fonctions dans un objet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 91,
+      "extrait": "Distinguer un objet technique d’un objet naturel.",
+      "appui": "Objets techniques et besoins"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

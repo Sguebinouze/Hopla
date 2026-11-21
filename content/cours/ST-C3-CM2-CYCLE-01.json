@@ -1,0 +1,96 @@
+{
+  "competence": "ST-C3-CM2-CYCLE-01",
+  "duree": 6,
+  "essentiel": "Le cycle de vie d’un objet compte cinq étapes : extraction des matières premières, fabrication, transport, utilisation, fin de vie.\nChaque étape consomme de l’énergie et peut polluer.\nRéparer, réutiliser et recycler réduisent l’impact sur l’environnement.",
+  "parties": [
+    {
+      "titre": "Les étapes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Le cycle de vie d’un t-shirt en coton",
+          "etapes": [
+            "Extraction : on cultive le coton.",
+            "Fabrication : on file, on tisse, on teint, on coud.",
+            "Transport : le t-shirt voyage jusqu’au magasin.",
+            "Utilisation : on le porte et on le lave.",
+            "Fin de vie : on le donne, on le recycle ou on le jette."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la première étape du cycle de vie d’un objet ?",
+          "options": [
+            "l’extraction des matières premières",
+            "l’utilisation",
+            "le recyclage"
+          ],
+          "reponse": "l’extraction des matières premières",
+          "explication": "Il faut d’abord des matériaux."
+        }
+      ]
+    },
+    {
+      "titre": "Faire de bons choix",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des choix qui limitent l’impact.",
+          "exemples": [
+            "réparer plutôt que racheter",
+            "donner ou vendre ce qu’on n’utilise plus",
+            "choisir des objets durables, fabriqués près de chez soi"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que seule la fin de vie pollue.",
+          "correction": "La fabrication et le transport polluent souvent beaucoup plus."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Donner un vêtement trop petit, c’est :",
+      "options": [
+        "le réutiliser",
+        "le recycler en usine",
+        "l’extraire"
+      ],
+      "reponse": "le réutiliser",
+      "explication": "Il sert à quelqu’un d’autre."
+    },
+    {
+      "consigne": "Combien d’étapes compte le cycle de vie d’un objet ?",
+      "options": [
+        "5",
+        "2",
+        "10"
+      ],
+      "reponse": "5",
+      "explication": "Extraction, fabrication, transport, utilisation, fin de vie."
+    },
+    {
+      "consigne": "Réparer un vélo plutôt qu’en acheter un neuf :",
+      "options": [
+        "réduit l’impact sur l’environnement",
+        "pollue davantage",
+        "ne change rien"
+      ],
+      "reponse": "réduit l’impact sur l’environnement",
+      "explication": "Pas de nouvelle fabrication."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 94,
+      "extrait": "Identifier les différentes étapes du cycle de vie d’un objet technique",
+      "appui": "Cycle de vie d’un objet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

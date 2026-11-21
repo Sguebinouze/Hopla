@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-CM2-ELEC-01",
+  "duree": 7,
+  "essentiel": "Pour qu’une lampe brille, il faut un circuit fermé : une boucle sans coupure, de la pile à la lampe.\nL’interrupteur ouvre ou ferme le circuit.\nLe courant du secteur, celui des prises, est dangereux : on ne fait jamais d’expérience avec.",
+  "parties": [
+    {
+      "titre": "Le circuit en boucle",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les éléments",
+          "colonnes": [
+            "Élément",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "pile",
+              "fournit l’énergie électrique"
+            ],
+            [
+              "fils",
+              "conduisent le courant"
+            ],
+            [
+              "interrupteur",
+              "ouvre ou ferme le circuit"
+            ],
+            [
+              "lampe",
+              "transforme l’énergie en lumière"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Interrupteur ouvert : la lampe…",
+          "options": [
+            "ne brille pas",
+            "brille plus fort",
+            "brille quand même"
+          ],
+          "reponse": "ne brille pas",
+          "explication": "Le circuit est coupé : le courant ne passe plus."
+        }
+      ]
+    },
+    {
+      "titre": "La sécurité",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les règles de sécurité.",
+          "exemples": [
+            "Ne jamais introduire d’objet dans une prise.",
+            "Ne pas toucher un appareil électrique avec les mains mouillées.",
+            "Ne jamais relier directement les deux bornes d’une pile : c’est un court-circuit."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une prise est sans danger comme une pile.",
+          "correction": "Le courant des prises peut tuer. Les expériences se font seulement avec des piles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour qu’une lampe brille, le circuit doit être :",
+      "options": [
+        "fermé",
+        "ouvert",
+        "coupé"
+      ],
+      "reponse": "fermé",
+      "explication": "Le courant fait une boucle."
+    },
+    {
+      "consigne": "Relier les deux bornes d’une pile avec un fil seul, c’est :",
+      "options": [
+        "un court-circuit",
+        "un circuit normal",
+        "un interrupteur"
+      ],
+      "reponse": "un court-circuit",
+      "explication": "La pile chauffe et s’abime."
+    },
+    {
+      "consigne": "Les expériences électriques en classe se font avec :",
+      "options": [
+        "des piles",
+        "les prises de courant",
+        "des fils dénudés branchés au mur"
+      ],
+      "reponse": "des piles",
+      "explication": "Le courant du secteur est dangereux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 87,
+      "extrait": "Réaliser un circuit électrique à une boucle",
+      "appui": "Le circuit électrique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

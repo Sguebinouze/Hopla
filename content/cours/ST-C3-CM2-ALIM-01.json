@@ -1,0 +1,110 @@
+{
+  "competence": "ST-C3-CM2-ALIM-01",
+  "duree": 7,
+  "essentiel": "Les aliments traversent le tube digestif : bouche, œsophage, estomac, intestin grêle, gros intestin.\nIls sont broyés et transformés en nutriments.\nDans l’intestin grêle, les nutriments passent dans le sang. Les déchets sont rejetés.",
+  "parties": [
+    {
+      "titre": "Le trajet des aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le tube digestif",
+          "colonnes": [
+            "Organe",
+            "Ce qui s’y passe"
+          ],
+          "lignes": [
+            [
+              "bouche",
+              "les dents broient, la salive mouille"
+            ],
+            [
+              "œsophage",
+              "les aliments descendent"
+            ],
+            [
+              "estomac",
+              "les aliments sont brassés et transformés"
+            ],
+            [
+              "intestin grêle",
+              "les nutriments passent dans le sang"
+            ],
+            [
+              "gros intestin",
+              "les déchets s’accumulent avant d’être rejetés"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où les nutriments passent-ils dans le sang ?",
+          "options": [
+            "dans l’intestin grêle",
+            "dans la bouche",
+            "dans l’œsophage"
+          ],
+          "reponse": "dans l’intestin grêle",
+          "explication": "Sa paroi est très fine et très longue."
+        }
+      ]
+    },
+    {
+      "titre": "Des sucs digestifs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La salive, le suc de l’estomac et les sucs du foie et du pancréas transforment les aliments."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les aliments vont dans les poumons.",
+          "correction": "L’œsophage mène à l’estomac. La trachée, devant, mène aux poumons."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel organe suit la bouche ?",
+      "options": [
+        "l’œsophage",
+        "l’estomac",
+        "l’intestin grêle"
+      ],
+      "reponse": "l’œsophage",
+      "explication": "Il descend vers l’estomac."
+    },
+    {
+      "consigne": "Dans l’estomac, les aliments sont :",
+      "options": [
+        "brassés et transformés",
+        "rejetés",
+        "broyés par les dents"
+      ],
+      "reponse": "brassés et transformés",
+      "explication": "Le suc gastrique agit."
+    },
+    {
+      "consigne": "Les nutriments sont transportés vers les organes par :",
+      "options": [
+        "le sang",
+        "l’air",
+        "les os"
+      ],
+      "reponse": "le sang",
+      "explication": "Ils passent de l’intestin dans le sang."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 89,
+      "extrait": "Identifier et localiser la transformation des",
+      "appui": "La digestion"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-CM2-PROG-01",
+  "duree": 6,
+  "essentiel": "Un objet programmable reçoit des informations grâce à des capteurs.\nUn programme décide quoi faire.\nDes actionneurs agissent : une lampe s’allume, un moteur tourne, une sonnerie retentit.",
+  "parties": [
+    {
+      "titre": "Capteur, programme, actionneur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des objets programmables",
+          "colonnes": [
+            "Objet",
+            "Capteur",
+            "Actionneur"
+          ],
+          "lignes": [
+            [
+              "éclairage public",
+              "détecteur de présence",
+              "lampe"
+            ],
+            [
+              "porte automatique",
+              "détecteur de mouvement",
+              "moteur"
+            ],
+            [
+              "radiateur avec thermostat",
+              "capteur de température",
+              "résistance chauffante"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans une porte automatique, le moteur est :",
+          "options": [
+            "un actionneur",
+            "un capteur",
+            "un programme"
+          ],
+          "reponse": "un actionneur",
+          "explication": "Il fait bouger la porte."
+        }
+      ]
+    },
+    {
+      "titre": "La chaine",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Comment fonctionne l’éclairage automatique",
+          "etapes": [
+            "Le détecteur repère un passant : c’est l’information.",
+            "Le programme décide : allumer.",
+            "La lampe s’allume : c’est l’action."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la lampe « voit » le passant.",
+          "correction": "C’est le capteur qui détecte. La lampe ne fait qu’agir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un capteur sert à :",
+      "options": [
+        "recevoir une information",
+        "faire bouger un objet",
+        "décider"
+      ],
+      "reponse": "recevoir une information",
+      "explication": "Il détecte la lumière, un mouvement, la température…"
+    },
+    {
+      "consigne": "Dans un radiateur, le thermostat contient :",
+      "options": [
+        "un capteur de température",
+        "un moteur",
+        "une lampe"
+      ],
+      "reponse": "un capteur de température",
+      "explication": "Il mesure la température de la pièce."
+    },
+    {
+      "consigne": "Une sonnerie qui retentit est :",
+      "options": [
+        "un actionneur",
+        "un capteur",
+        "une information"
+      ],
+      "reponse": "un actionneur",
+      "explication": "Elle agit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 95,
+      "extrait": "Repérer les capteurs et les actionneurs",
+      "appui": "Capteurs et actionneurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

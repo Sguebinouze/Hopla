@@ -1,0 +1,134 @@
+{
+  "competence": "ST-C3-CM2-NRJ-01",
+  "duree": 7,
+  "essentiel": "L’énergie permet de chauffer, d’éclairer, de mettre en mouvement.\nUn dispositif convertit une forme d’énergie en une autre : l’éolienne transforme l’énergie du vent en électricité.\nLe soleil, le vent et l’eau sont renouvelables ; le charbon, le pétrole et le gaz ne le sont pas.",
+  "parties": [
+    {
+      "titre": "Des conversions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dispositifs et énergies",
+          "colonnes": [
+            "Dispositif",
+            "Énergie reçue",
+            "Énergie produite"
+          ],
+          "lignes": [
+            [
+              "éolienne",
+              "mouvement du vent",
+              "électrique"
+            ],
+            [
+              "panneau solaire",
+              "lumière",
+              "électrique"
+            ],
+            [
+              "lampe",
+              "électrique",
+              "lumière et chaleur"
+            ],
+            [
+              "muscles",
+              "chimique, des aliments",
+              "mouvement et chaleur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un panneau solaire transforme la lumière en :",
+          "options": [
+            "énergie électrique",
+            "vent",
+            "charbon"
+          ],
+          "reponse": "énergie électrique",
+          "explication": "Il produit de l’électricité."
+        }
+      ]
+    },
+    {
+      "titre": "Renouvelable ou non ?",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Énergie renouvelable",
+              "definition": "Énergie dont la source se reconstitue rapidement : soleil, vent, eau, bois."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les sources d’énergie",
+          "colonnes": [
+            "Renouvelables",
+            "Non renouvelables"
+          ],
+          "lignes": [
+            [
+              "soleil, vent",
+              "charbon, pétrole"
+            ],
+            [
+              "eau des barrages, bois",
+              "gaz naturel, uranium"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le pétrole se reforme vite.",
+          "correction": "Il met des millions d’années à se former : il n’est pas renouvelable."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle source d’énergie est renouvelable ?",
+      "options": [
+        "le vent",
+        "le charbon",
+        "le pétrole"
+      ],
+      "reponse": "le vent",
+      "explication": "Le vent souffle sans s’épuiser."
+    },
+    {
+      "consigne": "Une lampe allumée produit de la lumière et :",
+      "options": [
+        "de la chaleur",
+        "du vent",
+        "de l’eau"
+      ],
+      "reponse": "de la chaleur",
+      "explication": "Elle chauffe un peu."
+    },
+    {
+      "consigne": "Nos muscles fonctionnent grâce à l’énergie :",
+      "options": [
+        "des aliments",
+        "du vent",
+        "des piles"
+      ],
+      "reponse": "des aliments",
+      "explication": "L’énergie chimique des aliments."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 85,
+      "extrait": "Identifier différentes formes d’énergie :",
+      "appui": "Les formes d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

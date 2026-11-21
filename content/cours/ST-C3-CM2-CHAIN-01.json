@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM2-CHAIN-01",
+  "duree": 6,
+  "essentiel": "Une chaine alimentaire relie des êtres vivants par « est mangé par ».\nLes végétaux sont toujours au début : ils fabriquent leur matière grâce à la lumière.\nPlusieurs chaines reliées forment un réseau alimentaire. Les décomposeurs recyclent la matière morte.",
+  "parties": [
+    {
+      "titre": "Lire une chaine",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une chaine dans la prairie.",
+          "exemples": [
+            "herbe → criquet → grenouille → héron",
+            "La flèche signifie « est mangé par »."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « herbe → criquet → grenouille », qui mange le criquet ?",
+          "options": [
+            "la grenouille",
+            "l’herbe",
+            "personne"
+          ],
+          "reponse": "la grenouille",
+          "explication": "La flèche va du mangé vers le mangeur."
+        }
+      ]
+    },
+    {
+      "titre": "Producteurs, consommateurs, décomposeurs",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Décomposeur",
+              "definition": "Être vivant qui transforme la matière des êtres morts en éléments minéraux."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les rôles",
+          "colonnes": [
+            "Rôle",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "producteurs",
+              "herbe, algues, arbres"
+            ],
+            [
+              "consommateurs",
+              "criquet, grenouille, héron"
+            ],
+            [
+              "décomposeurs",
+              "vers de terre, champignons, bactéries"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On commence une chaine par un animal.",
+          "correction": "Une chaine commence toujours par un végétal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Au début d’une chaine alimentaire, on trouve :",
+      "options": [
+        "un végétal",
+        "un prédateur",
+        "un décomposeur"
+      ],
+      "reponse": "un végétal",
+      "explication": "Il produit sa propre matière."
+    },
+    {
+      "consigne": "Le ver de terre est :",
+      "options": [
+        "un décomposeur",
+        "un producteur",
+        "un prédateur du héron"
+      ],
+      "reponse": "un décomposeur",
+      "explication": "Il transforme les feuilles mortes."
+    },
+    {
+      "consigne": "Plusieurs chaines reliées forment :",
+      "options": [
+        "un réseau alimentaire",
+        "une seule chaine",
+        "un écosystème vide"
+      ],
+      "reponse": "un réseau alimentaire",
+      "explication": "Un animal mange souvent plusieurs espèces."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 97,
+      "extrait": "Repérer la place singulière des végétaux",
+      "appui": "Chaines et réseaux alimentaires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

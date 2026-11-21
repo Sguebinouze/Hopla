@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C3-CM2-GEO-06",
+  "duree": 6,
+  "essentiel": "Un écoquartier est un quartier conçu pour consommer moins d’énergie et laisser plus de place à la nature.\nSes bâtiments sont bien isolés, souvent équipés de panneaux solaires et de toits végétalisés.\nOn y circule à pied, à vélo ou en transport en commun.",
+  "parties": [
+    {
+      "titre": "Ce qu’on y trouve",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dans un écoquartier",
+          "colonnes": [
+            "Élément",
+            "But"
+          ],
+          "lignes": [
+            [
+              "bâtiments isolés",
+              "moins de chauffage"
+            ],
+            [
+              "panneaux solaires",
+              "produire de l’électricité"
+            ],
+            [
+              "récupérateurs d’eau de pluie",
+              "arroser sans gaspiller"
+            ],
+            [
+              "pistes cyclables, rues piétonnes",
+              "moins de voitures"
+            ],
+            [
+              "composteurs partagés",
+              "réduire les déchets"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les panneaux solaires servent à :",
+          "options": [
+            "produire de l’électricité",
+            "chauffer la rue",
+            "recycler le verre"
+          ],
+          "reponse": "produire de l’électricité",
+          "explication": "Ils transforment la lumière du Soleil."
+        }
+      ]
+    },
+    {
+      "titre": "Vivre ensemble",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un écoquartier mêle logements, commerces, écoles et espaces verts. Tout est proche : on se déplace moins loin."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un écoquartier est un quartier sans habitants, juste des jardins.",
+          "correction": "C’est un vrai quartier, avec des logements et des services."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans un écoquartier, on se déplace surtout :",
+      "options": [
+        "à pied, à vélo, en transport en commun",
+        "en avion",
+        "en voiture seulement"
+      ],
+      "reponse": "à pied, à vélo, en transport en commun",
+      "explication": "Les rues laissent peu de place aux voitures."
+    },
+    {
+      "consigne": "Un toit végétalisé est :",
+      "options": [
+        "couvert de plantes",
+        "couvert de neige",
+        "en métal"
+      ],
+      "reponse": "couvert de plantes",
+      "explication": "Il isole et retient l’eau de pluie."
+    },
+    {
+      "consigne": "Un bâtiment bien isolé :",
+      "options": [
+        "consomme moins d’énergie pour se chauffer",
+        "consomme plus d’électricité",
+        "n’a pas de fenêtres"
+      ],
+      "reponse": "consomme moins d’énergie pour se chauffer",
+      "explication": "La chaleur ne s’échappe pas."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-3-2023",
+      "page": 76,
+      "extrait": "l’aménagement d’un écoquartier",
+      "appui": "Habiter un écoquartier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
