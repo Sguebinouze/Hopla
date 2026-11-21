@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C4-3E-ALGO-01",
+  "duree": 7,
+  "essentiel": "Un long programme se décompose en sous-programmes, chacun chargé d’une tâche.\nUne boucle « répéter jusqu’à » s’arrête quand une condition devient vraie ; une condition « si… alors… sinon » choisit entre deux actions.\nRépéter jusqu’à n = 1 : si n est pair alors n ← n ÷ 2, sinon n ← 3n + 1.",
+  "parties": [
+    {
+      "titre": "Suivre le programme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Départ n = 6",
+          "colonnes": [
+            "Étape",
+            "n pair ?",
+            "Nouvelle valeur"
+          ],
+          "lignes": [
+            [
+              "1",
+              "oui",
+              "3"
+            ],
+            [
+              "2",
+              "non",
+              "10"
+            ],
+            [
+              "3",
+              "oui",
+              "5"
+            ],
+            [
+              "4",
+              "non",
+              "16"
+            ],
+            [
+              "5 à 8",
+              "oui",
+              "8, 4, 2, 1"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien d’étapes pour passer de 6 à 1 ?",
+          "options": [
+            "8",
+            "6",
+            "16"
+          ],
+          "reponse": "8",
+          "explication": "6, 3, 10, 5, 16, 8, 4, 2, 1."
+        }
+      ]
+    },
+    {
+      "titre": "Décomposer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Dessiner une rangée de maisons",
+          "etapes": [
+            "Écris un sous-programme « carré » et un sous-programme « triangle ».",
+            "Écris « maison » : carré, puis triangle posé dessus.",
+            "Programme principal : répéter 5 fois maison, puis avancer."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit une boucle « répéter jusqu’à » dont la condition ne devient jamais vraie.",
+          "correction": "La boucle tourne sans fin. On vérifie que la variable évolue vers la condition d’arrêt."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec ce programme, depuis n = 5, la valeur suivante est :",
+      "options": [
+        "16",
+        "2,5",
+        "15"
+      ],
+      "reponse": "16",
+      "explication": "5 est impair : 3 × 5 + 1."
+    },
+    {
+      "consigne": "Un sous-programme sert à :",
+      "options": [
+        "regrouper des instructions réutilisables",
+        "arrêter le programme",
+        "afficher une erreur"
+      ],
+      "reponse": "regrouper des instructions réutilisables",
+      "explication": "On l’appelle autant de fois que nécessaire."
+    },
+    {
+      "consigne": "« Répéter jusqu’à n = 1 » s’arrête :",
+      "options": [
+        "quand n vaut 1",
+        "au bout de 10 tours",
+        "jamais"
+      ],
+      "reponse": "quand n vaut 1",
+      "explication": "La condition devient vraie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 12,
+      "extrait": "boucles « répéter … fois », et « répéter jusqu’à … »",
+      "appui": "Boucles et conditions combinées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

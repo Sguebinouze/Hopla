@@ -1,0 +1,122 @@
+{
+  "competence": "MA-C4-3E-SECT-51",
+  "duree": 6,
+  "essentiel": "La sphère est formée des points situés à une même distance du centre ; la boule contient aussi tous les points intérieurs.\nUn plan coupe une sphère selon un cercle et une boule selon un disque.\nLa section d’un pavé par un plan parallèle à une face est un rectangle identique à cette face.",
+  "parties": [
+    {
+      "titre": "Nature des sections",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sections planes",
+          "colonnes": [
+            "Solide",
+            "Plan",
+            "Section"
+          ],
+          "lignes": [
+            [
+              "pavé",
+              "parallèle à une face",
+              "rectangle identique à la face"
+            ],
+            [
+              "pavé",
+              "parallèle à une arête",
+              "rectangle"
+            ],
+            [
+              "cylindre",
+              "perpendiculaire à l’axe",
+              "disque de même rayon"
+            ],
+            [
+              "cylindre",
+              "parallèle à l’axe",
+              "rectangle"
+            ],
+            [
+              "boule",
+              "quelconque",
+              "disque"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un plan perpendiculaire à l’axe d’un cylindre le coupe selon :",
+          "options": [
+            "un disque de même rayon",
+            "un rectangle",
+            "un triangle"
+          ],
+          "reponse": "un disque de même rayon",
+          "explication": "Comme une tranche de saucisson."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer le rayon d’une section",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une boule de centre O a un rayon de 5 cm. Un plan la coupe à 3 cm de O. Quel est le rayon de la section ?",
+          "etapes": [
+            "Le centre O, le centre H de la section et un point M du bord forment un triangle rectangle en H.",
+            "OM² = OH² + HM², soit 25 = 9 + HM².",
+            "HM² = 16, donc HM = 4."
+          ],
+          "conclusion": "La section est un disque de rayon 4 cm."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que toutes les sections d’une boule ont le même rayon.",
+          "correction": "Plus le plan est loin du centre, plus la section est petite. Elle est la plus grande quand le plan passe par le centre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un plan qui passe par le centre d’une sphère la coupe selon :",
+      "options": [
+        "un grand cercle",
+        "un point",
+        "un petit cercle"
+      ],
+      "reponse": "un grand cercle",
+      "explication": "Même rayon que la sphère."
+    },
+    {
+      "consigne": "Un plan parallèle à l’axe d’un cylindre le coupe selon :",
+      "options": [
+        "un rectangle",
+        "un disque",
+        "un cercle"
+      ],
+      "reponse": "un rectangle",
+      "explication": "Ses côtés sont la hauteur et une corde de la base."
+    },
+    {
+      "consigne": "La différence entre sphère et boule :",
+      "options": [
+        "la boule contient l’intérieur",
+        "la sphère est plus grande",
+        "aucune"
+      ],
+      "reponse": "la boule contient l’intérieur",
+      "explication": "La sphère est seulement la surface."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 9,
+      "extrait": "Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes.",
+      "appui": "Sphère, boule, sections"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

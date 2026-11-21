@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C4-3E-TRIG-51",
+  "duree": 8,
+  "essentiel": "Dans un triangle rectangle, pour un angle aigu : cosinus = adjacent ÷ hypoténuse ; sinus = opposé ÷ hypoténuse ; tangente = opposé ÷ adjacent.\nABC rectangle en A : sin(ABC) = AC/BC ; tan(ABC) = AC/AB.\nOn choisit la formule qui relie la longueur cherchée aux données.",
+  "parties": [
+    {
+      "titre": "Choisir la bonne formule",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Angle B, triangle rectangle en A",
+          "colonnes": [
+            "Rapport",
+            "Formule",
+            "Côtés"
+          ],
+          "lignes": [
+            [
+              "cosinus",
+              "AB/BC",
+              "adjacent sur hypoténuse"
+            ],
+            [
+              "sinus",
+              "AC/BC",
+              "opposé sur hypoténuse"
+            ],
+            [
+              "tangente",
+              "AC/AB",
+              "opposé sur adjacent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "On connait l’hypoténuse et l’angle B. On cherche le côté opposé à B. On utilise :",
+          "options": [
+            "le sinus",
+            "le cosinus",
+            "la tangente"
+          ],
+          "reponse": "le sinus",
+          "explication": "Opposé et hypoténuse."
+        }
+      ]
+    },
+    {
+      "titre": "Des calculs",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "On se place à 20 m d’un arbre. On voit son sommet sous un angle de 35°. Quelle est sa hauteur ?",
+          "etapes": [
+            "Le triangle est rectangle au pied de l’arbre.",
+            "tan(35°) = hauteur ÷ 20.",
+            "hauteur = 20 × tan(35°) ≈ 14,0."
+          ],
+          "conclusion": "L’arbre mesure environ 14 m."
+        },
+        {
+          "type": "explique",
+          "texte": "Pour trouver un angle, on utilise la touche inverse : si tan(B) = 3/4, alors B ≈ 36,9°."
+        },
+        {
+          "type": "piege",
+          "erreur": "On utilise une formule de trigonométrie dans un triangle qui n’est pas rectangle.",
+          "correction": "Ces formules ne valent que dans un triangle rectangle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "BC = 10 cm et l’angle B mesure 30°. AC = BC × sin(30°) = ?",
+      "options": [
+        "5 cm",
+        "8,66 cm",
+        "20 cm"
+      ],
+      "reponse": "5 cm",
+      "explication": "sin(30°) = 0,5."
+    },
+    {
+      "consigne": "La tangente d’un angle aigu est :",
+      "options": [
+        "opposé ÷ adjacent",
+        "adjacent ÷ hypoténuse",
+        "opposé ÷ hypoténuse"
+      ],
+      "reponse": "opposé ÷ adjacent",
+      "explication": "Elle n’utilise pas l’hypoténuse."
+    },
+    {
+      "consigne": "cos(B) = 0,5. L’angle B mesure :",
+      "options": [
+        "60°",
+        "30°",
+        "45°"
+      ],
+      "reponse": "60°",
+      "explication": "cos(60°) = 0,5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 10,
+      "extrait": "Les lignes trigonométriques (cosinus, sinus, tangente) dans le triangle rectangle sont utilisées pour calculer des longueurs ou des angles.",
+      "appui": "Trigonométrie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

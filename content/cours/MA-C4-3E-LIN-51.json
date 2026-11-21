@@ -1,0 +1,100 @@
+{
+  "competence": "MA-C4-3E-LIN-51",
+  "duree": 6,
+  "essentiel": "Une fonction linéaire s’écrit f(x) = ax ; a est son coefficient.\nElle traduit une situation de proportionnalité : a est le coefficient de proportionnalité. Sa représentation graphique est une droite qui passe par l’origine.\nf(x) = 3x : f(4) = 12. Si f(5) = 10, alors a = 10 ÷ 5 = 2.",
+  "parties": [
+    {
+      "titre": "Calculer et retrouver a",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "f(x) = 3x",
+          "colonnes": [
+            "x",
+            "−1",
+            "0",
+            "2",
+            "4"
+          ],
+          "lignes": [
+            [
+              "f(x)",
+              "−3",
+              "0",
+              "6",
+              "12"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "f est linéaire et f(6) = 15. Le coefficient a vaut :",
+          "options": [
+            "2,5",
+            "9",
+            "90"
+          ],
+          "reponse": "2,5",
+          "explication": "15 ÷ 6."
+        }
+      ]
+    },
+    {
+      "titre": "Pourcentages et fonctions linéaires",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Augmenter un prix de 20 %, c’est appliquer la fonction linéaire f(x) = 1,2x."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que f(x) = 2x + 3 est linéaire.",
+          "correction": "f(0) = 3 ≠ 0 : sa droite ne passe pas par l’origine. Elle est affine, pas linéaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La droite d’une fonction linéaire passe toujours par :",
+      "options": [
+        "l’origine du repère",
+        "le point (1 ; 1)",
+        "le point (0 ; 1)"
+      ],
+      "reponse": "l’origine du repère",
+      "explication": "f(0) = a × 0 = 0."
+    },
+    {
+      "consigne": "f(x) = −2x. f(−3) = ?",
+      "options": [
+        "6",
+        "−6",
+        "−5"
+      ],
+      "reponse": "6",
+      "explication": "(−2) × (−3)."
+    },
+    {
+      "consigne": "Une baisse de 10 % est traduite par :",
+      "options": [
+        "f(x) = 0,9x",
+        "f(x) = 0,1x",
+        "f(x) = x − 10"
+      ],
+      "reponse": "f(x) = 0,9x",
+      "explication": "Coefficient 1 − 0,1."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 7,
+      "extrait": "ainsi qu’entre la proportionnalité et les fonctions linéaires.",
+      "appui": "Fonctions linéaires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

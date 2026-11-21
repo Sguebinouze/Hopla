@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C4-3E-FRAC-51",
+  "duree": 6,
+  "essentiel": "Une fraction est irréductible quand son numérateur et son dénominateur n’ont plus de diviseur commun autre que 1.\nPour la rendre irréductible, on décompose numérateur et dénominateur en facteurs premiers, puis on simplifie les facteurs communs.\n84/126 = (2² × 3 × 7)/(2 × 3² × 7) = 2/3.",
+  "parties": [
+    {
+      "titre": "Avec les facteurs premiers",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Rends irréductible 120/144.",
+          "etapes": [
+            "120 = 2³ × 3 × 5 et 144 = 2⁴ × 3².",
+            "Facteurs communs : 2³ × 3 = 24.",
+            "120/144 = 5/6."
+          ],
+          "conclusion": "120/144 = 5/6, fraction irréductible."
+        },
+        {
+          "type": "question",
+          "consigne": "Rends irréductible 45/75.",
+          "options": [
+            "3/5",
+            "9/15",
+            "15/25"
+          ],
+          "reponse": "3/5",
+          "explication": "45 = 3² × 5 et 75 = 3 × 5² : on divise par 15."
+        }
+      ]
+    },
+    {
+      "titre": "Avec le plus grand diviseur commun",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Diviser numérateur et dénominateur par leur plus grand diviseur commun donne directement la fraction irréductible : 84 et 126 ont 42 pour plus grand diviseur commun."
+        },
+        {
+          "type": "piege",
+          "erreur": "On s’arrête à 42/63 en pensant avoir fini.",
+          "correction": "42 et 63 sont encore divisibles par 21 : 42/63 = 2/3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Rends irréductible 36/48.",
+      "options": [
+        "3/4",
+        "6/8",
+        "9/12"
+      ],
+      "reponse": "3/4",
+      "explication": "On divise par 12."
+    },
+    {
+      "consigne": "Quelle fraction est irréductible ?",
+      "options": [
+        "14/15",
+        "14/21",
+        "15/25"
+      ],
+      "reponse": "14/15",
+      "explication": "14 = 2 × 7 et 15 = 3 × 5."
+    },
+    {
+      "consigne": "Rends irréductible 210/330.",
+      "options": [
+        "7/11",
+        "21/33",
+        "70/110"
+      ],
+      "reponse": "7/11",
+      "explication": "On divise par 30."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "La notion de fraction irréductible est introduite.",
+      "appui": "Fraction irréductible"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

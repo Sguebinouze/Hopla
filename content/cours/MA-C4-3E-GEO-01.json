@@ -1,0 +1,123 @@
+{
+  "competence": "MA-C4-3E-GEO-01",
+  "duree": 6,
+  "essentiel": "Sur la Terre, un point est repéré par sa latitude et sa longitude.\nLa latitude mesure l’écart à l’équateur, de 0° à 90° Nord ou Sud. La longitude mesure l’écart au méridien de Greenwich, de 0° à 180° Est ou Ouest.\nParis est à environ 49° N et 2° E.",
+  "parties": [
+    {
+      "titre": "Parallèles et méridiens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les repères",
+          "colonnes": [
+            "Ligne",
+            "Ce qu’elle repère",
+            "Ligne de référence"
+          ],
+          "lignes": [
+            [
+              "parallèle",
+              "la latitude",
+              "l’équateur, 0°"
+            ],
+            [
+              "méridien",
+              "la longitude",
+              "le méridien de Greenwich, 0°"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pôle Nord a pour latitude :",
+          "options": [
+            "90° N",
+            "0°",
+            "180° E"
+          ],
+          "reponse": "90° N",
+          "explication": "Il est le plus loin possible de l’équateur, au nord."
+        }
+      ]
+    },
+    {
+      "titre": "Lire des coordonnées",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques villes",
+          "colonnes": [
+            "Ville",
+            "Latitude",
+            "Longitude"
+          ],
+          "lignes": [
+            [
+              "Paris",
+              "environ 49° N",
+              "environ 2° E"
+            ],
+            [
+              "Quito",
+              "environ 0°",
+              "environ 78° O"
+            ],
+            [
+              "Sydney",
+              "environ 34° S",
+              "environ 151° E"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On inverse latitude et longitude.",
+          "correction": "La latitude se lit nord ou sud, la longitude est ou ouest. On donne d’abord la latitude."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quito est presque sur l’équateur. Sa latitude est proche de :",
+      "options": [
+        "0°",
+        "90°",
+        "180°"
+      ],
+      "reponse": "0°",
+      "explication": "L’équateur a pour latitude 0°."
+    },
+    {
+      "consigne": "La longitude se mesure à partir :",
+      "options": [
+        "du méridien de Greenwich",
+        "de l’équateur",
+        "du pôle Sud"
+      ],
+      "reponse": "du méridien de Greenwich",
+      "explication": "Près de Londres."
+    },
+    {
+      "consigne": "Une ville à 34° S est située :",
+      "options": [
+        "dans l’hémisphère Sud",
+        "dans l’hémisphère Nord",
+        "sur l’équateur"
+      ],
+      "reponse": "dans l’hémisphère Sud",
+      "explication": "S comme Sud."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 9,
+      "extrait": "Le repérage s’étend à la sphère",
+      "appui": "Latitude et longitude"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

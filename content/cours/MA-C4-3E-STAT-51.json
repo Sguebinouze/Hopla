@@ -1,0 +1,104 @@
+{
+  "competence": "MA-C4-3E-STAT-51",
+  "duree": 6,
+  "essentiel": "L’étendue d’une série est la différence entre sa plus grande et sa plus petite valeur.\nSérie 4 ; 9 ; 15 ; 7 : étendue 15 − 4 = 11.\nElle mesure la dispersion : deux séries de même moyenne peuvent être plus ou moins dispersées.",
+  "parties": [
+    {
+      "titre": "Comparer deux séries",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Notes de deux élèves",
+          "colonnes": [
+            "Élève",
+            "Notes",
+            "Moyenne",
+            "Étendue"
+          ],
+          "lignes": [
+            [
+              "Léa",
+              "10 ; 10 ; 11 ; 9",
+              "10",
+              "2"
+            ],
+            [
+              "Tom",
+              "5 ; 8 ; 12 ; 15",
+              "10",
+              "10"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel élève a les résultats les plus réguliers ?",
+          "options": [
+            "Léa",
+            "Tom",
+            "aucun des deux"
+          ],
+          "reponse": "Léa",
+          "explication": "Son étendue est plus petite."
+        }
+      ]
+    },
+    {
+      "titre": "Moyenne, médiane, étendue",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La moyenne et la médiane donnent une valeur centrale. L’étendue renseigne sur l’écart entre les extrêmes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On calcule l’étendue avec la première et la dernière valeur de la liste.",
+          "correction": "On prend la plus grande et la plus petite valeur, où qu’elles soient."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Étendue de 12 ; 3 ; 18 ; 7 ; 10 :",
+      "options": [
+        "15",
+        "6",
+        "10"
+      ],
+      "reponse": "15",
+      "explication": "18 − 3."
+    },
+    {
+      "consigne": "Une étendue de 0 signifie :",
+      "options": [
+        "que toutes les valeurs sont égales",
+        "que la moyenne vaut 0",
+        "que la série est vide"
+      ],
+      "reponse": "que toutes les valeurs sont égales",
+      "explication": "Aucun écart."
+    },
+    {
+      "consigne": "Températures : −3 °C et 8 °C au minimum et au maximum. Étendue :",
+      "options": [
+        "11 °C",
+        "5 °C",
+        "8 °C"
+      ],
+      "reponse": "11 °C",
+      "explication": "8 − (−3) = 11."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 6,
+      "extrait": "Un indicateur de dispersion est introduit : l’étendue.",
+      "appui": "Étendue"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

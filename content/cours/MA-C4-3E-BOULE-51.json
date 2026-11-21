@@ -1,0 +1,114 @@
+{
+  "competence": "MA-C4-3E-BOULE-51",
+  "duree": 6,
+  "essentiel": "Le volume d’une boule de rayon r est V = 4/3 × π × r³.\nBoule de rayon 3 cm : 4/3 × π × 27 = 36π ≈ 113 cm³.\nL’aire de la sphère de rayon r est 4 × π × r².",
+  "parties": [
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Volumes de boules",
+          "colonnes": [
+            "Rayon",
+            "Calcul",
+            "Volume"
+          ],
+          "lignes": [
+            [
+              "3 cm",
+              "4/3 × π × 27",
+              "36π ≈ 113 cm³"
+            ],
+            [
+              "6 cm",
+              "4/3 × π × 216",
+              "288π ≈ 905 cm³"
+            ],
+            [
+              "1 m",
+              "4/3 × π × 1",
+              "≈ 4,19 m³"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "boule"
+          },
+          "legende": "Une boule : tous ses points sont à une distance du centre inférieure ou égale au rayon."
+        },
+        {
+          "type": "question",
+          "consigne": "Une balle a un diamètre de 10 cm. Le rayon à utiliser est :",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "reponse": "5 cm",
+          "explication": "Le rayon vaut la moitié du diamètre."
+        }
+      ]
+    },
+    {
+      "titre": "L’effet du rayon",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Quand le rayon double, le volume est multiplié par 2³ = 8. Une boule de rayon 6 cm contient 8 fois plus qu’une boule de rayon 3 cm."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met le rayon au carré dans la formule du volume.",
+          "correction": "Le volume utilise r³. Le carré r² sert pour l’aire de la sphère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Si le rayon d’une boule est multiplié par 3, son volume est multiplié par :",
+      "options": [
+        "27",
+        "9",
+        "3"
+      ],
+      "reponse": "27",
+      "explication": "3³ = 27."
+    },
+    {
+      "consigne": "Le volume d’une boule de rayon r est :",
+      "options": [
+        "4/3 × π × r³",
+        "4 × π × r²",
+        "π × r²"
+      ],
+      "reponse": "4/3 × π × r³",
+      "explication": "Le cube du rayon."
+    },
+    {
+      "consigne": "Volume exact d’une boule de rayon 3 cm :",
+      "options": [
+        "36π cm³",
+        "12π cm³",
+        "27π cm³"
+      ],
+      "reponse": "36π cm³",
+      "explication": "4/3 × 27 = 36."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 8,
+      "extrait": "La formule donnant le volume d’une boule est utilisée.",
+      "appui": "Volume de la boule"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

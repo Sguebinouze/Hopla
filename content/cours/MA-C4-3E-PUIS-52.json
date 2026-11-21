@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-3E-PUIS-52",
+  "duree": 7,
+  "essentiel": "Pour un même nombre a non nul et des exposants entiers relatifs m et n : aᵐ × aⁿ = aᵐ⁺ⁿ et aᵐ ÷ aⁿ = aᵐ⁻ⁿ.\nDe plus, (aᵐ)ⁿ = aᵐˣⁿ.\n10⁵ ÷ 10⁸ = 10⁻³ ; 2⁴ × 2⁻⁶ = 2⁻².",
+  "parties": [
+    {
+      "titre": "Trois règles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Calculer avec les exposants",
+          "colonnes": [
+            "Règle",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "aᵐ × aⁿ = aᵐ⁺ⁿ",
+              "10⁻² × 10⁷ = 10⁵"
+            ],
+            [
+              "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+              "3⁵ ÷ 3² = 3³"
+            ],
+            [
+              "(aᵐ)ⁿ = aᵐˣⁿ",
+              "(2³)² = 2⁶"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "10⁵ ÷ 10⁸ = ?",
+          "options": [
+            "10⁻³",
+            "10³",
+            "10¹³"
+          ],
+          "reponse": "10⁻³",
+          "explication": "5 − 8 = −3."
+        }
+      ]
+    },
+    {
+      "titre": "En notation scientifique",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule (3 × 10⁴) × (2 × 10⁻⁷).",
+          "etapes": [
+            "On regroupe : (3 × 2) × (10⁴ × 10⁻⁷).",
+            "= 6 × 10⁻³."
+          ],
+          "conclusion": "Le résultat est 6 × 10⁻³."
+        },
+        {
+          "type": "piege",
+          "erreur": "On applique la règle à des nombres différents : 2³ × 3⁴ = 6⁷.",
+          "correction": "Les règles ne valent que pour un même nombre. 2³ × 3⁴ = 8 × 81 = 648."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2⁴ × 2⁻⁶ = ?",
+      "options": [
+        "2⁻²",
+        "2¹⁰",
+        "4⁻²"
+      ],
+      "reponse": "2⁻²",
+      "explication": "4 + (−6) = −2."
+    },
+    {
+      "consigne": "(10²)³ = ?",
+      "options": [
+        "10⁶",
+        "10⁵",
+        "10⁸"
+      ],
+      "reponse": "10⁶",
+      "explication": "2 × 3 = 6."
+    },
+    {
+      "consigne": "7³ ÷ 7⁻¹ = ?",
+      "options": [
+        "7⁴",
+        "7²",
+        "7⁻³"
+      ],
+      "reponse": "7⁴",
+      "explication": "3 − (−1) = 4."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "utilisées pour simplifier des quotients.",
+      "appui": "Produits et quotients de puissances"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

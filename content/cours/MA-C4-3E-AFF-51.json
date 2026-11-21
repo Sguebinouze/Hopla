@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C4-3E-AFF-51",
+  "duree": 7,
+  "essentiel": "Une fonction affine s’écrit f(x) = ax + b. Sa représentation graphique est une droite.\na est le coefficient directeur : il donne la pente. b est l’ordonnée à l’origine : f(0) = b.\nf(x) = 2x − 3 : a = 2 et b = −3.",
+  "parties": [
+    {
+      "titre": "Reconnaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des fonctions",
+          "colonnes": [
+            "Fonction",
+            "a",
+            "b",
+            "Type"
+          ],
+          "lignes": [
+            [
+              "f(x) = 2x − 3",
+              "2",
+              "−3",
+              "affine"
+            ],
+            [
+              "g(x) = 5x",
+              "5",
+              "0",
+              "linéaire, donc affine"
+            ],
+            [
+              "h(x) = 4",
+              "0",
+              "4",
+              "constante, donc affine"
+            ],
+            [
+              "k(x) = x²",
+              "aucun",
+              "aucun",
+              "ni linéaire ni affine"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un taxi facture 4 € de prise en charge et 1,50 € par km. Le prix pour x km est :",
+          "options": [
+            "f(x) = 1,5x + 4",
+            "f(x) = 4x + 1,5",
+            "f(x) = 5,5x"
+          ],
+          "reponse": "f(x) = 1,5x + 4",
+          "explication": "a = 1,5 par km, b = 4 au départ."
+        }
+      ]
+    },
+    {
+      "titre": "Retrouver a et b",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "f est affine, f(1) = 5 et f(3) = 9. Trouve f(x).",
+          "etapes": [
+            "a = (9 − 5) ÷ (3 − 1) = 2.",
+            "f(1) = 2 × 1 + b = 5, donc b = 3."
+          ],
+          "conclusion": "f(x) = 2x + 3."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit b comme la valeur de f(1).",
+          "correction": "b est la valeur de f en 0 : là où la droite coupe l’axe des ordonnées."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "f(x) = −x + 6. Ordonnée à l’origine :",
+      "options": [
+        "6",
+        "−1",
+        "0"
+      ],
+      "reponse": "6",
+      "explication": "f(0) = 6."
+    },
+    {
+      "consigne": "Si a > 0, la droite d’une fonction affine :",
+      "options": [
+        "monte de gauche à droite",
+        "descend",
+        "est horizontale"
+      ],
+      "reponse": "monte de gauche à droite",
+      "explication": "La fonction est croissante."
+    },
+    {
+      "consigne": "f est affine, f(0) = 2 et f(2) = 8. Coefficient a :",
+      "options": [
+        "3",
+        "6",
+        "4"
+      ],
+      "reponse": "3",
+      "explication": "(8 − 2) ÷ 2."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 7,
+      "extrait": "Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques.",
+      "appui": "Fonctions affines"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

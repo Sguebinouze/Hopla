@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C4-3E-PUIS-51",
+  "duree": 6,
+  "essentiel": "Pour un nombre a non nul et un entier n positif, a⁻ⁿ est l’inverse de aⁿ : a⁻ⁿ = 1/aⁿ.\n2⁻³ = 1/2³ = 1/8 ; 10⁻² = 1/100 = 0,01.\nPar convention, a⁰ = 1.",
+  "parties": [
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Puissances d’exposant négatif",
+          "colonnes": [
+            "Puissance",
+            "Inverse",
+            "Valeur"
+          ],
+          "lignes": [
+            [
+              "2⁻³",
+              "1/2³",
+              "1/8 = 0,125"
+            ],
+            [
+              "5⁻¹",
+              "1/5",
+              "0,2"
+            ],
+            [
+              "10⁻⁴",
+              "1/10⁴",
+              "0,000 1"
+            ],
+            [
+              "(−2)⁻²",
+              "1/(−2)²",
+              "1/4"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "4⁻² = ?",
+          "options": [
+            "1/16",
+            "−16",
+            "−8"
+          ],
+          "reponse": "1/16",
+          "explication": "1/4² = 1/16."
+        }
+      ]
+    },
+    {
+      "titre": "Un exposant négatif ne rend pas négatif",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit 2⁻³ = −8.",
+          "correction": "Le signe moins de l’exposant indique l’inverse, pas l’opposé : 2⁻³ = 1/8, un nombre positif."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "3⁻² = ?",
+      "options": [
+        "1/9",
+        "−9",
+        "−6"
+      ],
+      "reponse": "1/9",
+      "explication": "1/3²."
+    },
+    {
+      "consigne": "10⁰ = ?",
+      "options": [
+        "1",
+        "0",
+        "10"
+      ],
+      "reponse": "1",
+      "explication": "Par convention."
+    },
+    {
+      "consigne": "Quelle écriture est égale à 0,001 ?",
+      "options": [
+        "10⁻³",
+        "10³",
+        "−10³"
+      ],
+      "reponse": "10⁻³",
+      "explication": "1/1 000."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 3,
+      "extrait": "Les puissances de base quelconque d’exposants négatifs sont introduites",
+      "appui": "Puissances d’exposant négatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

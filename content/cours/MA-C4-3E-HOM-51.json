@@ -1,0 +1,108 @@
+{
+  "competence": "MA-C4-3E-HOM-51",
+  "duree": 7,
+  "essentiel": "Une rotation fait tourner une figure autour d’un centre, d’un angle donné. Elle conserve les longueurs, les angles et les aires.\nUne homothétie de centre O et de rapport k agrandit ou réduit une figure : les longueurs sont multipliées par |k|, les aires par k².\nSi k < 0, l’image est de l’autre côté de O. Rapport −2 : longueurs × 2, aires × 4.",
+  "parties": [
+    {
+      "titre": "Rotation et homothétie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que conservent les transformations",
+          "colonnes": [
+            "Transformation",
+            "Longueurs",
+            "Angles",
+            "Aires"
+          ],
+          "lignes": [
+            [
+              "rotation",
+              "conservées",
+              "conservés",
+              "conservées"
+            ],
+            [
+              "homothétie de rapport k",
+              "× |k|",
+              "conservés",
+              "× k²"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Homothétie de rapport 0,5. Une aire de 20 cm² devient :",
+          "options": [
+            "5 cm²",
+            "10 cm²",
+            "40 cm²"
+          ],
+          "reponse": "5 cm²",
+          "explication": "20 × 0,5²."
+        }
+      ]
+    },
+    {
+      "titre": "Le signe du rapport",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec k = 3, l’image de A est sur la demi-droite [OA), trois fois plus loin. Avec k = −3, elle est de l’autre côté de O."
+        },
+        {
+          "type": "explique",
+          "texte": "La symétrie centrale est à la fois une rotation de 180° et une homothétie de rapport −1."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un rapport négatif réduit les longueurs.",
+          "correction": "Le signe indique le côté de O. C’est la valeur absolue qui agrandit ou réduit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une rotation de 90° transforme un segment de 4 cm en un segment de :",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "2 cm"
+      ],
+      "reponse": "4 cm",
+      "explication": "Les longueurs sont conservées."
+    },
+    {
+      "consigne": "Homothétie de rapport −3. Une longueur de 2 cm devient :",
+      "options": [
+        "6 cm",
+        "−6 cm",
+        "9 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "On multiplie par |−3| = 3."
+    },
+    {
+      "consigne": "Une homothétie conserve :",
+      "options": [
+        "les angles",
+        "les longueurs",
+        "les aires"
+      ],
+      "reponse": "les angles",
+      "explication": "Seule la taille change."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 11,
+      "extrait": "Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif).",
+      "appui": "Homothéties et rotations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

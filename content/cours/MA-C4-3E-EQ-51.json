@@ -1,0 +1,89 @@
+{
+  "competence": "MA-C4-3E-EQ-51",
+  "duree": 6,
+  "essentiel": "Un produit est nul si et seulement si l’un au moins de ses facteurs est nul.\n(x − 2)(x + 5) = 0 donne x − 2 = 0 ou x + 5 = 0, soit x = 2 ou x = −5.\nUne équation produit nul peut donc avoir deux solutions.",
+  "parties": [
+    {
+      "titre": "Résoudre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Résous (2x − 6)(x + 1) = 0.",
+          "etapes": [
+            "2x − 6 = 0 ou x + 1 = 0.",
+            "2x = 6, soit x = 3 ; ou x = −1."
+          ],
+          "conclusion": "Les solutions sont 3 et −1."
+        },
+        {
+          "type": "question",
+          "consigne": "Résous x(x − 7) = 0.",
+          "options": [
+            "x = 0 ou x = 7",
+            "x = 7 seulement",
+            "x = −7"
+          ],
+          "reponse": "x = 0 ou x = 7",
+          "explication": "Le facteur x peut être nul."
+        }
+      ]
+    },
+    {
+      "titre": "Se ramener à un produit nul",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour résoudre x² = 5x, on écrit x² − 5x = 0, puis on factorise : x(x − 5) = 0. Solutions : 0 et 5."
+        },
+        {
+          "type": "piege",
+          "erreur": "On divise les deux membres de x² = 5x par x et on trouve seulement x = 5.",
+          "correction": "Diviser par x suppose x non nul : on perd la solution 0."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Résous (x + 3)(x − 4) = 0.",
+      "options": [
+        "x = −3 ou x = 4",
+        "x = 3 ou x = −4",
+        "x = 12"
+      ],
+      "reponse": "x = −3 ou x = 4",
+      "explication": "Chaque facteur peut être nul."
+    },
+    {
+      "consigne": "Résous (3x − 9)(2x + 8) = 0.",
+      "options": [
+        "x = 3 ou x = −4",
+        "x = 9 ou x = −8",
+        "x = −3 ou x = 4"
+      ],
+      "reponse": "x = 3 ou x = −4",
+      "explication": "3x = 9 ; 2x = −8."
+    },
+    {
+      "consigne": "Un produit de deux facteurs est nul :",
+      "options": [
+        "si l’un au moins des facteurs est nul",
+        "si les deux sont égaux",
+        "jamais"
+      ],
+      "reponse": "si l’un au moins des facteurs est nul",
+      "explication": "C’est la propriété du produit nul."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 5,
+      "extrait": "permet de résoudre des équations produits se ramenant au premier degré",
+      "appui": "Équation produit nul"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

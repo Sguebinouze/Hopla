@@ -1,0 +1,120 @@
+{
+  "competence": "MA-C4-3E-PCT-51",
+  "duree": 7,
+  "essentiel": "Augmenter de t %, c’est multiplier par 1 + t/100. Baisser de t %, c’est multiplier par 1 − t/100.\nHausse de 20 % : × 1,2. Baisse de 15 % : × 0,85.\nDes évolutions successives se traduisent en multipliant les coefficients.",
+  "parties": [
+    {
+      "titre": "Appliquer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Coefficients multiplicateurs",
+          "colonnes": [
+            "Évolution",
+            "Coefficient",
+            "Sur 80 €"
+          ],
+          "lignes": [
+            [
+              "+ 20 %",
+              "1,2",
+              "96 €"
+            ],
+            [
+              "− 15 %",
+              "0,85",
+              "68 €"
+            ],
+            [
+              "+ 5 %",
+              "1,05",
+              "84 €"
+            ],
+            [
+              "− 50 %",
+              "0,5",
+              "40 €"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une baisse de 30 % correspond à un coefficient de :",
+          "options": [
+            "0,7",
+            "0,3",
+            "1,3"
+          ],
+          "reponse": "0,7",
+          "explication": "1 − 0,3."
+        }
+      ]
+    },
+    {
+      "titre": "Évolutions successives et retour en arrière",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un prix augmente de 10 %, puis baisse de 10 %. Quelle est l’évolution globale ?",
+          "etapes": [
+            "1,1 × 0,9 = 0,99.",
+            "Le prix est multiplié par 0,99."
+          ],
+          "conclusion": "Il baisse de 1 % au total."
+        },
+        {
+          "type": "explique",
+          "texte": "Après une hausse de 25 %, un objet coute 75 €. Son prix initial est 75 ÷ 1,25 = 60 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour retrouver le prix avant une hausse de 25 %, on retire 25 % de 75 €.",
+          "correction": "Les 25 % portaient sur le prix initial : on divise par 1,25."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une hausse de 3 % correspond à un coefficient de :",
+      "options": [
+        "1,03",
+        "1,3",
+        "0,03"
+      ],
+      "reponse": "1,03",
+      "explication": "1 + 0,03."
+    },
+    {
+      "consigne": "Deux hausses successives de 10 % font une hausse de :",
+      "options": [
+        "21 %",
+        "20 %",
+        "11 %"
+      ],
+      "reponse": "21 %",
+      "explication": "1,1 × 1,1 = 1,21."
+    },
+    {
+      "consigne": "Après une baisse de 20 %, un objet coute 40 €. Prix initial :",
+      "options": [
+        "50 €",
+        "48 €",
+        "32 €"
+      ],
+      "reponse": "50 €",
+      "explication": "40 ÷ 0,8."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 7,
+      "extrait": "Le lien est fait entre taux d’évolution et coefficient multiplicateur",
+      "appui": "Coefficient multiplicateur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,103 @@
+{
+  "competence": "MA-C4-3E-SEMB-51",
+  "duree": 7,
+  "essentiel": "Deux triangles sont semblables s’ils ont leurs angles deux à deux égaux.\nDe façon équivalente, leurs côtés sont proportionnels : 3, 4, 5 et 6, 8, 10 forment des triangles semblables, de rapport 2.\nOn utilise ce rapport pour calculer une longueur.",
+  "parties": [
+    {
+      "titre": "Reconnaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux critères",
+          "colonnes": [
+            "Critère",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "angles deux à deux égaux",
+              "40°, 60°, 80° et 40°, 60°, 80°"
+            ],
+            [
+              "côtés proportionnels",
+              "3, 4, 5 et 6, 8, 10 : rapport 2"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Deux triangles ont deux angles de 50° et 70°. Leurs troisièmes angles :",
+          "options": [
+            "sont égaux, les triangles sont semblables",
+            "sont différents",
+            "mesurent 50°"
+          ],
+          "reponse": "sont égaux, les triangles sont semblables",
+          "explication": "180 − 50 − 70 = 60° dans les deux."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "ABC et DEF sont semblables. AB = 4, BC = 6 ; DE = 6, côté homologue de AB. Calcule EF.",
+          "etapes": [
+            "Rapport : DE ÷ AB = 6 ÷ 4 = 1,5.",
+            "EF = BC × 1,5 = 6 × 1,5 = 9."
+          ],
+          "conclusion": "EF = 9."
+        },
+        {
+          "type": "piege",
+          "erreur": "On associe les côtés dans le désordre.",
+          "correction": "On associe les côtés homologues : ceux qui sont opposés aux angles égaux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Côtés 5, 7, 9 et 10, 14, 18 : les triangles sont :",
+      "options": [
+        "semblables",
+        "non semblables",
+        "identiques"
+      ],
+      "reponse": "semblables",
+      "explication": "Rapport 2 pour chaque côté."
+    },
+    {
+      "consigne": "Deux triangles semblables de rapport 3. Un côté de 2 cm devient :",
+      "options": [
+        "6 cm",
+        "5 cm",
+        "18 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "2 × 3."
+    },
+    {
+      "consigne": "Deux triangles semblables ont toujours :",
+      "options": [
+        "les mêmes angles",
+        "les mêmes côtés",
+        "la même aire"
+      ],
+      "reponse": "les mêmes angles",
+      "explication": "Leurs angles sont égaux deux à deux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 10,
+      "extrait": "Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés.",
+      "appui": "Triangles semblables"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

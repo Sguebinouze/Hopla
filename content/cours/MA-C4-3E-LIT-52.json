@@ -1,0 +1,112 @@
+{
+  "competence": "MA-C4-3E-LIT-52",
+  "duree": 7,
+  "essentiel": "Pour tous nombres a et b : a² − b² = (a − b)(a + b).\nx² − 9 = x² − 3² = (x − 3)(x + 3).\nCette factorisation permet de résoudre des équations comme x² − 16 = 0.",
+  "parties": [
+    {
+      "titre": "Reconnaitre une différence de deux carrés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Factoriser",
+          "colonnes": [
+            "Expression",
+            "a et b",
+            "Factorisation"
+          ],
+          "lignes": [
+            [
+              "x² − 9",
+              "x et 3",
+              "(x − 3)(x + 3)"
+            ],
+            [
+              "4x² − 25",
+              "2x et 5",
+              "(2x − 5)(2x + 5)"
+            ],
+            [
+              "49 − x²",
+              "7 et x",
+              "(7 − x)(7 + x)"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Factorise x² − 64.",
+          "options": [
+            "(x − 8)(x + 8)",
+            "(x − 8)²",
+            "(x − 32)(x + 32)"
+          ],
+          "reponse": "(x − 8)(x + 8)",
+          "explication": "64 = 8²."
+        }
+      ]
+    },
+    {
+      "titre": "Résoudre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Résous x² − 16 = 0.",
+          "etapes": [
+            "x² − 16 = (x − 4)(x + 4).",
+            "(x − 4)(x + 4) = 0 : un produit est nul si l’un de ses facteurs est nul.",
+            "x − 4 = 0 ou x + 4 = 0."
+          ],
+          "conclusion": "Les solutions sont 4 et −4."
+        },
+        {
+          "type": "piege",
+          "erreur": "On factorise x² + 9 en (x − 3)(x + 3).",
+          "correction": "La formule vaut pour une différence. (x − 3)(x + 3) = x² − 9."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Factorise 9x² − 1.",
+      "options": [
+        "(3x − 1)(3x + 1)",
+        "(9x − 1)(9x + 1)",
+        "(3x − 1)²"
+      ],
+      "reponse": "(3x − 1)(3x + 1)",
+      "explication": "9x² = (3x)²."
+    },
+    {
+      "consigne": "(x − 5)(x + 5) = ?",
+      "options": [
+        "x² − 25",
+        "x² + 25",
+        "x² − 10x − 25"
+      ],
+      "reponse": "x² − 25",
+      "explication": "C’est a² − b²."
+    },
+    {
+      "consigne": "Les solutions de x² − 100 = 0 sont :",
+      "options": [
+        "10 et −10",
+        "10 seulement",
+        "50 et −50"
+      ],
+      "reponse": "10 et −10",
+      "explication": "(x − 10)(x + 10) = 0."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 5,
+      "extrait": "La factorisation d’une expression du type a2 - b2 permet de résoudre des équations produits se ramenant au premier degré",
+      "appui": "Factoriser a² − b²"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

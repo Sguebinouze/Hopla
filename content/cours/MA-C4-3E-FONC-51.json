@@ -1,0 +1,106 @@
+{
+  "competence": "MA-C4-3E-FONC-51",
+  "duree": 7,
+  "essentiel": "Une fonction f associe à chaque nombre x un unique nombre f(x), son image.\nSi f(a) = b, on dit que b est l’image de a, et que a est un antécédent de b.\nAvec f(x) = 2x + 1 : l’image de 3 est 7 ; un antécédent de 9 est 4.",
+  "parties": [
+    {
+      "titre": "Image et antécédent",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "f(x) = x²",
+          "colonnes": [
+            "x",
+            "−3",
+            "0",
+            "2",
+            "3"
+          ],
+          "lignes": [
+            [
+              "f(x)",
+              "9",
+              "0",
+              "4",
+              "9"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec ce tableau, les antécédents de 9 par f sont :",
+          "options": [
+            "−3 et 3",
+            "81",
+            "3 seulement"
+          ],
+          "reponse": "−3 et 3",
+          "explication": "f(−3) = f(3) = 9."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "f(x) = 2x + 1. Trouve un antécédent de 9.",
+          "etapes": [
+            "On cherche x tel que 2x + 1 = 9.",
+            "2x = 8, donc x = 4.",
+            "Vérification : f(4) = 2 × 4 + 1 = 9."
+          ],
+          "conclusion": "4 est un antécédent de 9."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond image et antécédent : « l’image de 9 est 4 ».",
+          "correction": "L’image se calcule à partir de x : f(4) = 9. 9 est l’image de 4 ; 4 est un antécédent de 9."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "f(x) = 3x − 2. f(5) = ?",
+      "options": [
+        "13",
+        "15",
+        "1"
+      ],
+      "reponse": "13",
+      "explication": "3 × 5 − 2."
+    },
+    {
+      "consigne": "Un nombre a, par une fonction :",
+      "options": [
+        "une seule image",
+        "plusieurs images",
+        "aucune image"
+      ],
+      "reponse": "une seule image",
+      "explication": "C’est la définition d’une fonction."
+    },
+    {
+      "consigne": "f(x) = 5x. Un antécédent de 20 est :",
+      "options": [
+        "4",
+        "100",
+        "15"
+      ],
+      "reponse": "4",
+      "explication": "5 × 4 = 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 7,
+      "extrait": "Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées.",
+      "appui": "Image et antécédent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "MA-C4-3E-RAC-51",
+  "duree": 6,
+  "essentiel": "Si a > 0, l’équation x² = a a deux solutions : √a et −√a.\nSi a = 0, elle a une seule solution : 0. Si a < 0, elle n’a pas de solution, car un carré n’est jamais négatif.\nx² = 49 : x = 7 ou x = −7.",
+  "parties": [
+    {
+      "titre": "Trois cas",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Résoudre x² = a",
+          "colonnes": [
+            "Équation",
+            "Solutions"
+          ],
+          "lignes": [
+            [
+              "x² = 49",
+              "7 et −7"
+            ],
+            [
+              "x² = 10",
+              "√10 et −√10, environ 3,16 et −3,16"
+            ],
+            [
+              "x² = 0",
+              "0"
+            ],
+            [
+              "x² = −4",
+              "aucune"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Résous x² = 81.",
+          "options": [
+            "9 et −9",
+            "9 seulement",
+            "40,5"
+          ],
+          "reponse": "9 et −9",
+          "explication": "Deux nombres ont pour carré 81."
+        }
+      ]
+    },
+    {
+      "titre": "Dans un problème",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un carré a une aire de 50 cm². Son côté c vérifie c² = 50. Une longueur est positive : c = √50 ≈ 7,07 cm."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie la solution négative : x² = 25 donne seulement x = 5.",
+          "correction": "(−5)² = 25 aussi. Dans une équation, on garde les deux, sauf si le contexte l’interdit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de solutions a x² = −9 ?",
+      "options": [
+        "aucune",
+        "une",
+        "deux"
+      ],
+      "reponse": "aucune",
+      "explication": "Un carré est toujours positif ou nul."
+    },
+    {
+      "consigne": "Résous x² = 2.",
+      "options": [
+        "√2 et −√2",
+        "1 et −1",
+        "4"
+      ],
+      "reponse": "√2 et −√2",
+      "explication": "Environ 1,41 et −1,41."
+    },
+    {
+      "consigne": "Un carré a une aire de 64 m². Son côté mesure :",
+      "options": [
+        "8 m",
+        "−8 m",
+        "32 m"
+      ],
+      "reponse": "8 m",
+      "explication": "Une longueur est positive."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-maths-c4",
+      "page": 5,
+      "extrait": "équations du type x2 = a en lien avec la racine carrée",
+      "appui": "Résoudre x² = a"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
