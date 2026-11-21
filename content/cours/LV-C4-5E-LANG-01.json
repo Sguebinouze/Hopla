@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C4-5E-LANG-01",
+  "duree": 5,
+  "essentiel": "L’anglais se parle sur tous les continents, avec des accents et des mots différents.\nAnglais britannique et américain : flat / apartment, lift / elevator, biscuit / cookie, holiday / vacation.\nL’orthographe change aussi : colour / color, centre / center.",
+  "parties": [
+    {
+      "titre": "Deux variantes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Royaume-Uni et États-Unis",
+          "colonnes": [
+            "Français",
+            "British English",
+            "American English"
+          ],
+          "lignes": [
+            [
+              "appartement",
+              "flat",
+              "apartment"
+            ],
+            [
+              "ascenseur",
+              "lift",
+              "elevator"
+            ],
+            [
+              "vacances",
+              "holiday",
+              "vacation"
+            ],
+            [
+              "poubelle",
+              "bin",
+              "trash can"
+            ],
+            [
+              "football",
+              "football",
+              "soccer"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Elevator » est un mot :",
+          "options": [
+            "américain",
+            "britannique",
+            "australien"
+          ],
+          "reponse": "américain",
+          "explication": "Lift au Royaume-Uni."
+        }
+      ]
+    },
+    {
+      "titre": "Des traditions",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Thanksgiving se fête aux États-Unis, Burns Night en Écosse, Australia Day en Australie."
+        },
+        {
+          "type": "piege",
+          "erreur": "On pense qu’une seule version de l’anglais est correcte.",
+          "correction": "Les deux sont correctes. On reste cohérent dans un même texte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Colour » est l’orthographe :",
+      "options": [
+        "britannique",
+        "américaine",
+        "fautive"
+      ],
+      "reponse": "britannique",
+      "explication": "Color aux États-Unis."
+    },
+    {
+      "consigne": "« Vacation » veut dire :",
+      "options": [
+        "vacances",
+        "vaccination",
+        "vocation"
+      ],
+      "reponse": "vacances",
+      "explication": "Mot américain."
+    },
+    {
+      "consigne": "Aux États-Unis, le football européen s’appelle :",
+      "options": [
+        "soccer",
+        "football",
+        "rugby"
+      ],
+      "reponse": "soccer",
+      "explication": "Football y désigne un autre sport."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 1,
+      "extrait": "Axe 5. Des langues, des lieux, des histoires",
+      "appui": "Une langue, des pays"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

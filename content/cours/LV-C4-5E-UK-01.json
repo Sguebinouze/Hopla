@@ -1,0 +1,111 @@
+{
+  "competence": "LV-C4-5E-UK-01",
+  "duree": 6,
+  "essentiel": "Le Royaume-Uni réunit quatre nations : l’Angleterre, l’Écosse, le pays de Galles et l’Irlande du Nord.\nC’est une monarchie parlementaire : le roi Charles III règne, le Parlement de Westminster vote les lois.\nLe drapeau, l’Union Jack, superpose les croix de saint Georges, saint André et saint Patrick.",
+  "parties": [
+    {
+      "titre": "Quatre nations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les nations",
+          "colonnes": [
+            "Nation",
+            "Capitale",
+            "Symbole"
+          ],
+          "lignes": [
+            [
+              "England",
+              "London",
+              "la rose"
+            ],
+            [
+              "Scotland",
+              "Edinburgh",
+              "le chardon"
+            ],
+            [
+              "Wales",
+              "Cardiff",
+              "le poireau, la jonquille"
+            ],
+            [
+              "Northern Ireland",
+              "Belfast",
+              "le trèfle, le lin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Grande-Bretagne est :",
+          "options": [
+            "l’ile qui porte l’Angleterre, l’Écosse et le pays de Galles",
+            "le nom de l’Angleterre seule",
+            "le Royaume-Uni avec l’Irlande"
+          ],
+          "reponse": "l’ile qui porte l’Angleterre, l’Écosse et le pays de Galles",
+          "explication": "L’Irlande du Nord est sur une autre ile."
+        }
+      ]
+    },
+    {
+      "titre": "Les institutions",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le roi est le chef de l’État, mais il ne gouverne pas. Le gouvernement est dirigé par le Prime Minister, issu de la majorité à la House of Commons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On emploie England pour parler de tout le Royaume-Uni.",
+          "correction": "England est une seule nation. Le pays entier est the United Kingdom."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Parlement britannique siège à :",
+      "options": [
+        "Westminster",
+        "Buckingham",
+        "Édimbourg"
+      ],
+      "reponse": "Westminster",
+      "explication": "À Londres."
+    },
+    {
+      "consigne": "La croix de saint André représente :",
+      "options": [
+        "l’Écosse",
+        "l’Angleterre",
+        "le pays de Galles"
+      ],
+      "reponse": "l’Écosse",
+      "explication": "Une croix blanche en X sur fond bleu."
+    },
+    {
+      "consigne": "Au Royaume-Uni, le chef du gouvernement est :",
+      "options": [
+        "le Prime Minister",
+        "le roi",
+        "le maire de Londres"
+      ],
+      "reponse": "le Prime Minister",
+      "explication": "Le roi règne mais ne gouverne pas."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 14,
+      "extrait": "Pays voisin de la France, le Royaume-Uni a une histoire riche, parfois commune avec la France.",
+      "appui": "Le Royaume-Uni, ses nations et ses institutions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

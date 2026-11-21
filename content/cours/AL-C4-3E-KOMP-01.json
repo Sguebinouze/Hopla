@@ -1,0 +1,116 @@
+{
+  "competence": "AL-C4-3E-KOMP-01",
+  "duree": 5,
+  "essentiel": "Comparatif : -er + als. Superlatif : am …sten. schnell → schneller → am schnellsten.\nLes adjectifs courts prennent souvent un Umlaut : alt → älter → am ältesten, groß → größer → am größten.\nIrréguliers : gut → besser → am besten ; viel → mehr → am meisten ; gern → lieber → am liebsten.",
+  "parties": [
+    {
+      "titre": "Trois degrés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Degrés",
+          "colonnes": [
+            "Adjectif",
+            "Comparatif",
+            "Superlatif"
+          ],
+          "lignes": [
+            [
+              "klein",
+              "kleiner",
+              "am kleinsten"
+            ],
+            [
+              "alt",
+              "älter",
+              "am ältesten"
+            ],
+            [
+              "gut",
+              "besser",
+              "am besten"
+            ],
+            [
+              "viel",
+              "mehr",
+              "am meisten"
+            ],
+            [
+              "gern",
+              "lieber",
+              "am liebsten"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Die Zugspitze ist … Berg Deutschlands. »",
+          "options": [
+            "der höchste",
+            "der hochste",
+            "am höher"
+          ],
+          "reponse": "der höchste",
+          "explication": "Hoch → der höchste."
+        }
+      ]
+    },
+    {
+      "titre": "Égalité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Lisa ist so groß wie Tom. Lisa ist nicht so groß wie Tom."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « mehr schnell als ».",
+          "correction": "L’allemand ajoute -er : schneller als."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le superlatif de « gut » :",
+      "options": [
+        "am besten",
+        "am gutesten",
+        "am bessersten"
+      ],
+      "reponse": "am besten",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Er ist … als ich. » (âgé : alt)",
+      "options": [
+        "älter",
+        "alter",
+        "mehr alt"
+      ],
+      "reponse": "älter",
+      "explication": "Avec Umlaut."
+    },
+    {
+      "consigne": "« Am liebsten » exprime :",
+      "options": [
+        "la préférence la plus forte",
+        "l’égalité",
+        "l’obligation"
+      ],
+      "reponse": "la préférence la plus forte",
+      "explication": "Gern → lieber → am liebsten."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-reperes-lv-c4",
+      "page": 5,
+      "extrait": "Peut exprimer des préférences en s’appuyant sur des comparaisons, de façon simple et directe.",
+      "appui": "Comparer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

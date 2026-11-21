@@ -1,0 +1,133 @@
+{
+  "competence": "ES-C4-4E-VIAJ-01",
+  "duree": 5,
+  "essentiel": "L’espagnol est langue officielle en Espagne, dans la plupart des pays d’Amérique latine et en Guinée équatoriale.\nDes lieux : l’Alhambra à Grenade, la Sagrada Familia à Barcelone, le Machu Picchu au Pérou.\nVoyager : el billete (en Espagne), el boleto (en Amérique), la estación, el andén, ida y vuelta.",
+  "parties": [
+    {
+      "titre": "Lieux célèbres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Repères",
+          "colonnes": [
+            "Lieu",
+            "Ville, pays",
+            "Ce que c’est"
+          ],
+          "lignes": [
+            [
+              "la Alhambra",
+              "Granada, España",
+              "palais andalou"
+            ],
+            [
+              "la Sagrada Familia",
+              "Barcelona, España",
+              "basilique de Gaudí"
+            ],
+            [
+              "Machu Picchu",
+              "Perú",
+              "cité inca"
+            ],
+            [
+              "las cataratas del Iguazú",
+              "Argentina y Brasil",
+              "chutes d’eau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Sagrada Familia a été conçue par :",
+          "options": [
+            "Gaudí",
+            "Picasso",
+            "Dalí"
+          ],
+          "reponse": "Gaudí",
+          "explication": "Architecte catalan."
+        }
+      ]
+    },
+    {
+      "titre": "À la gare",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "El viaje",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "un billete de ida y vuelta",
+              "un aller-retour"
+            ],
+            [
+              "el andén",
+              "le quai"
+            ],
+            [
+              "la maleta",
+              "la valise"
+            ],
+            [
+              "el retraso",
+              "le retard"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on parle portugais au Mexique ou espagnol au Brésil.",
+          "correction": "Le Brésil parle portugais. Le Mexique, l’Argentine ou le Pérou parlent espagnol."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Machu Picchu se trouve au :",
+      "options": [
+        "Pérou",
+        "Mexique",
+        "Chili"
+      ],
+      "reponse": "Pérou",
+      "explication": "Cité inca."
+    },
+    {
+      "consigne": "« La maleta » est :",
+      "options": [
+        "la valise",
+        "la malle-poste",
+        "le billet"
+      ],
+      "reponse": "la valise",
+      "explication": "On y range ses affaires."
+    },
+    {
+      "consigne": "« Ida y vuelta » veut dire :",
+      "options": [
+        "aller-retour",
+        "aller simple",
+        "retour seul"
+      ],
+      "reponse": "aller-retour",
+      "explication": "Ida : aller."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Voyages scolaires, touristiques.",
+      "appui": "Voyager en pays hispanophone"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

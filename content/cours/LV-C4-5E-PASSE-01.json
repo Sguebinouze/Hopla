@@ -1,0 +1,128 @@
+{
+  "competence": "LV-C4-5E-PASSE-01",
+  "duree": 6,
+  "essentiel": "Le prétérit raconte une action terminée dans le passé : Yesterday, I visited my aunt.\nVerbes réguliers : -ed. Verbes irréguliers à apprendre : go → went, see → saw, have → had.\nNégation et question avec did : I didn’t go. Did you go?",
+  "parties": [
+    {
+      "titre": "Former le prétérit",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois formes",
+          "colonnes": [
+            "Forme",
+            "Régulier",
+            "Irrégulier"
+          ],
+          "lignes": [
+            [
+              "affirmative",
+              "I played.",
+              "I went."
+            ],
+            [
+              "négative",
+              "I didn’t play.",
+              "I didn’t go."
+            ],
+            [
+              "interrogative",
+              "Did you play?",
+              "Did you go?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Last summer, we … to Spain. »",
+          "options": [
+            "went",
+            "goed",
+            "go"
+          ],
+          "reponse": "went",
+          "explication": "Go est irrégulier."
+        }
+      ]
+    },
+    {
+      "titre": "Repères de temps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le passé",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "yesterday",
+              "hier"
+            ],
+            [
+              "last week",
+              "la semaine dernière"
+            ],
+            [
+              "two days ago",
+              "il y a deux jours"
+            ],
+            [
+              "in 2020",
+              "en 2020"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I didn’t went ».",
+          "correction": "Après did, le verbe reste à la base : I didn’t go."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le prétérit de « see » est :",
+      "options": [
+        "saw",
+        "seed",
+        "seen"
+      ],
+      "reponse": "saw",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Did you … the film? »",
+      "options": [
+        "like",
+        "liked",
+        "likes"
+      ],
+      "reponse": "like",
+      "explication": "Did + base verbale."
+    },
+    {
+      "consigne": "« Two days ago » veut dire :",
+      "options": [
+        "il y a deux jours",
+        "dans deux jours",
+        "depuis deux jours"
+      ],
+      "reponse": "il y a deux jours",
+      "explication": "Ago : il y a."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 16,
+      "extrait": "Raconter en relatant brièvement et de manière élémentaire",
+      "appui": "Raconter au passé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

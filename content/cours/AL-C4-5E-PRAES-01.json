@@ -1,0 +1,122 @@
+{
+  "competence": "AL-C4-5E-PRAES-01",
+  "duree": 6,
+  "essentiel": "Au présent, la terminaison change avec le sujet : ich wohne, du wohnst, er wohnt, wir wohnen, ihr wohnt, sie wohnen.\nSein et haben sont irréguliers : ich bin, du bist, er ist ; ich habe, du hast, er hat.\nSie avec une majuscule est le vouvoiement : Wohnen Sie hier?",
+  "parties": [
+    {
+      "titre": "Les terminaisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent",
+          "colonnes": [
+            "Sujet",
+            "wohnen",
+            "sein",
+            "haben"
+          ],
+          "lignes": [
+            [
+              "ich",
+              "wohne",
+              "bin",
+              "habe"
+            ],
+            [
+              "du",
+              "wohnst",
+              "bist",
+              "hast"
+            ],
+            [
+              "er, sie, es",
+              "wohnt",
+              "ist",
+              "hat"
+            ],
+            [
+              "wir",
+              "wohnen",
+              "sind",
+              "haben"
+            ],
+            [
+              "ihr",
+              "wohnt",
+              "seid",
+              "habt"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Du … einen Hund. »",
+          "options": [
+            "hast",
+            "hat",
+            "habe"
+          ],
+          "reponse": "hast",
+          "explication": "Du : -st."
+        }
+      ]
+    },
+    {
+      "titre": "Sie et sie",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "sie wohnt : elle habite. sie wohnen : ils habitent. Sie wohnen : vous habitez (politesse)."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « er habt ».",
+          "correction": "Haben est irrégulier : er hat."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wir … aus Deutschland. »",
+      "options": [
+        "sind",
+        "seid",
+        "ist"
+      ],
+      "reponse": "sind",
+      "explication": "Wir sind."
+    },
+    {
+      "consigne": "« Ihr … Fußball. » (spielen)",
+      "options": [
+        "spielt",
+        "spielen",
+        "spielst"
+      ],
+      "reponse": "spielt",
+      "explication": "Ihr : -t."
+    },
+    {
+      "consigne": "« Haben Sie Zeit? » est :",
+      "options": [
+        "une question polie",
+        "une question à un ami",
+        "un ordre"
+      ],
+      "reponse": "une question polie",
+      "explication": "Sie : vous."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "Le présent de l’indicatif : connaitre le présent des verbes les plus courants",
+      "appui": "Le présent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

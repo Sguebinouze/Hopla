@@ -1,0 +1,116 @@
+{
+  "competence": "ES-C4-3E-PASS-01",
+  "duree": 5,
+  "essentiel": "Le passif se forme avec ser + participe accordé avec le sujet : La casa fue construida en 1900.\nL’auteur est introduit par por : El Quijote fue escrito por Cervantes.\nLe se impersonnel remplace souvent le passif : Se habla español. Se venden pisos.",
+  "parties": [
+    {
+      "titre": "Le passif avec ser",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Actif et passif",
+          "colonnes": [
+            "Actif",
+            "Passif"
+          ],
+          "lignes": [
+            [
+              "Cervantes escribió el Quijote.",
+              "El Quijote fue escrito por Cervantes."
+            ],
+            [
+              "Gaudí diseñó la Sagrada Familia.",
+              "La Sagrada Familia fue diseñada por Gaudí."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Las cartas fueron … ayer. »",
+          "options": [
+            "enviadas",
+            "enviado",
+            "enviados"
+          ],
+          "reponse": "enviadas",
+          "explication": "Accord : féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Le se impersonnel",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tournures en se",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Se habla inglés.",
+              "On parle anglais."
+            ],
+            [
+              "Se venden bicicletas.",
+              "Vélos à vendre."
+            ],
+            [
+              "No se puede fumar.",
+              "Il est interdit de fumer."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « La ciudad fue fundado ».",
+          "correction": "Avec ser, le participe s’accorde : fue fundada."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans un passif, l’auteur est introduit par :",
+      "options": [
+        "por",
+        "para",
+        "de"
+      ],
+      "reponse": "por",
+      "explication": "Por Cervantes."
+    },
+    {
+      "consigne": "« Se alquila piso » veut dire :",
+      "options": [
+        "Appartement à louer.",
+        "Il loue son appartement.",
+        "L’appartement est loué."
+      ],
+      "reponse": "Appartement à louer.",
+      "explication": "Se impersonnel."
+    },
+    {
+      "consigne": "« El puente fue … en 1990. »",
+      "options": [
+        "construido",
+        "construida",
+        "construir"
+      ],
+      "reponse": "construido",
+      "explication": "Puente : masculin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Modaux. Passif. Construction des verbes",
+      "appui": "Le passif et le se impersonnel"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

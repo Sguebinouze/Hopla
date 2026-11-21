@@ -1,0 +1,102 @@
+{
+  "competence": "ES-C4-3E-CONN-01",
+  "duree": 5,
+  "essentiel": "Cause : porque, como (en début de phrase). Opposition : pero, sin embargo, aunque.\nTemps : cuando, luego, después, mientras.\nQue relie une relative : El libro que leo es genial.",
+  "parties": [
+    {
+      "titre": "Les connecteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relier",
+          "colonnes": [
+            "Sens",
+            "Connecteurs",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "cause",
+              "porque, como",
+              "Como llueve, me quedo en casa."
+            ],
+            [
+              "opposition",
+              "pero, aunque, sin embargo",
+              "Aunque estoy cansado, salgo."
+            ],
+            [
+              "temps",
+              "cuando, luego, mientras",
+              "Cuando llego, ceno."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« … no tengo dinero, no voy al cine. »",
+          "options": [
+            "Como",
+            "Porque",
+            "Pero"
+          ],
+          "reponse": "Como",
+          "explication": "Cause en tête : como."
+        }
+      ]
+    },
+    {
+      "titre": "Porque ou como",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On ouvre la phrase par porque pour la cause.",
+          "correction": "En tête de phrase : como. Après la principale : porque."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Aunque » veut dire :",
+      "options": [
+        "bien que, même si",
+        "parce que",
+        "quand"
+      ],
+      "reponse": "bien que, même si",
+      "explication": "Opposition."
+    },
+    {
+      "consigne": "« No salgo … llueve. »",
+      "options": [
+        "porque",
+        "como",
+        "cuando no"
+      ],
+      "reponse": "porque",
+      "explication": "Cause après la principale."
+    },
+    {
+      "consigne": "« Mientras » veut dire :",
+      "options": [
+        "pendant que",
+        "pourtant",
+        "ensuite"
+      ],
+      "reponse": "pendant que",
+      "explication": "Simultanéité."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Coordination. Subordination. Relatifs.",
+      "appui": "Relier ses idées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

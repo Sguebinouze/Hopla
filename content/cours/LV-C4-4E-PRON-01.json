@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C4-4E-PRON-01",
+  "duree": 5,
+  "essentiel": "Pronoms compléments : me, you, him, her, it, us, them. Ils se placent après le verbe ou la préposition.\nPronoms réfléchis : myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\nLe réfléchi s’emploie quand le sujet agit sur lui-même : She hurt herself.",
+  "parties": [
+    {
+      "titre": "Compléments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pronoms",
+          "colonnes": [
+            "Sujet",
+            "Complément",
+            "Réfléchi"
+          ],
+          "lignes": [
+            [
+              "I",
+              "me",
+              "myself"
+            ],
+            [
+              "he",
+              "him",
+              "himself"
+            ],
+            [
+              "she",
+              "her",
+              "herself"
+            ],
+            [
+              "we",
+              "us",
+              "ourselves"
+            ],
+            [
+              "they",
+              "them",
+              "themselves"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ask … ! » (les enfants)",
+          "options": [
+            "them",
+            "they",
+            "their"
+          ],
+          "reponse": "them",
+          "explication": "Complément pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Réfléchis",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Did you make this cake yourself? » « Enjoy yourselves! »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On traduit « je me lève » par « I get myself up ».",
+          "correction": "Beaucoup de verbes pronominaux français ne le sont pas en anglais : I get up."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« He cut … with a knife. »",
+      "options": [
+        "himself",
+        "him",
+        "hisself"
+      ],
+      "reponse": "himself",
+      "explication": "Il s’est coupé."
+    },
+    {
+      "consigne": "« Can you help … ? » (moi)",
+      "options": [
+        "me",
+        "I",
+        "myself"
+      ],
+      "reponse": "me",
+      "explication": "Complément."
+    },
+    {
+      "consigne": "« Je me lave » se dit le plus souvent :",
+      "options": [
+        "I wash.",
+        "I wash me.",
+        "I me wash."
+      ],
+      "reponse": "I wash.",
+      "explication": "Le réfléchi n’est pas utile ici."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Genre, pronoms personnels compléments et réfléchis",
+      "appui": "Pronoms compléments et réfléchis"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

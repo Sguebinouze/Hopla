@@ -1,0 +1,133 @@
+{
+  "competence": "AL-C4-3E-DAT-01",
+  "duree": 6,
+  "essentiel": "Après mit, bei, nach, von, zu, aus (et seit), on emploie toujours le datif.\nAu datif : der → dem, die → der, das → dem, pluriel die → den (+ -n au nom).\nContractions : zum (zu dem), zur (zu der), beim (bei dem), vom (von dem).",
+  "parties": [
+    {
+      "titre": "Les formes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Datif",
+          "colonnes": [
+            "Genre",
+            "Nominatif",
+            "Datif"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "der / ein Freund",
+              "dem / einem Freund"
+            ],
+            [
+              "féminin",
+              "die / eine Freundin",
+              "der / einer Freundin"
+            ],
+            [
+              "neutre",
+              "das / ein Kind",
+              "dem / einem Kind"
+            ],
+            [
+              "pluriel",
+              "die Freunde",
+              "den Freunden"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich fahre mit … Bus. »",
+          "options": [
+            "dem",
+            "den",
+            "der"
+          ],
+          "reponse": "dem",
+          "explication": "Mit + datif ; der Bus."
+        }
+      ]
+    },
+    {
+      "titre": "Prépositions et pronoms",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avec le datif",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "mit meiner Schwester",
+              "avec ma sœur"
+            ],
+            [
+              "bei meinen Großeltern",
+              "chez mes grands-parents"
+            ],
+            [
+              "nach der Schule",
+              "après l’école"
+            ],
+            [
+              "Kommst du mit mir?",
+              "Tu viens avec moi ?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « mit mein Vater ».",
+          "correction": "Mit + datif : mit meinem Vater."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ich wohne bei … Tante. »",
+      "options": [
+        "meiner",
+        "meine",
+        "meinem"
+      ],
+      "reponse": "meiner",
+      "explication": "Die Tante, datif : der → meiner."
+    },
+    {
+      "consigne": "« Zum » est la contraction de :",
+      "options": [
+        "zu dem",
+        "zu der",
+        "zu den"
+      ],
+      "reponse": "zu dem",
+      "explication": "Zum Bahnhof."
+    },
+    {
+      "consigne": "« Ich spiele mit … Kindern. »",
+      "options": [
+        "den",
+        "die",
+        "dem"
+      ],
+      "reponse": "den",
+      "explication": "Pluriel datif : den + -n."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Passif. Construction des verbes.",
+      "appui": "Le datif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,124 @@
+{
+  "competence": "ES-C4-3E-COMP-01",
+  "duree": 5,
+  "essentiel": "Comparatifs : más… que, menos… que, tan… como, tanto… como (avec un nom).\nSuperlatif : el / la más… de. Es el chico más alto de la clase. Le suffixe -ísimo renforce : altísimo.\nIrréguliers : mejor, peor, mayor (plus âgé), menor (plus jeune).",
+  "parties": [
+    {
+      "titre": "Superlatif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Degrés",
+          "colonnes": [
+            "Forme",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "superlatif relatif",
+              "el río más largo de España"
+            ],
+            [
+              "superlatif absolu",
+              "un libro interesantísimo"
+            ],
+            [
+              "égalité avec un nom",
+              "Tengo tantos libros como tú."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Es la ciudad más bonita … España. »",
+          "options": [
+            "de",
+            "que",
+            "en"
+          ],
+          "reponse": "de",
+          "explication": "Superlatif : de."
+        }
+      ]
+    },
+    {
+      "titre": "Irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparativos",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "mejor",
+              "meilleur, mieux"
+            ],
+            [
+              "peor",
+              "pire"
+            ],
+            [
+              "mayor",
+              "plus âgé, plus grand"
+            ],
+            [
+              "menor",
+              "plus jeune, plus petit"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « tan libros como ».",
+          "correction": "Devant un nom : tanto, accordé. Tantos libros como."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Mi hermano … » (plus âgé)",
+      "options": [
+        "mayor",
+        "menor",
+        "mejor"
+      ],
+      "reponse": "mayor",
+      "explication": "Mayor : plus âgé."
+    },
+    {
+      "consigne": "« Riquísimo » veut dire :",
+      "options": [
+        "très délicieux",
+        "très riche seulement",
+        "peu bon"
+      ],
+      "reponse": "très délicieux",
+      "explication": "Rico + -ísimo."
+    },
+    {
+      "consigne": "« Tengo … paciencia como tú. »",
+      "options": [
+        "tanta",
+        "tan",
+        "tanto"
+      ],
+      "reponse": "tanta",
+      "explication": "Paciencia : féminin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-reperes-lv-c4",
+      "page": 5,
+      "extrait": "Peut exprimer des préférences en s’appuyant sur des comparaisons, de façon simple et directe.",
+      "appui": "Comparer et le superlatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

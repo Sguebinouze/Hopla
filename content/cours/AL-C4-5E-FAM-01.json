@@ -1,0 +1,132 @@
+{
+  "competence": "AL-C4-5E-FAM-01",
+  "duree": 5,
+  "essentiel": "La famille : der Vater, die Mutter, die Eltern, der Bruder, die Schwester, die Großeltern.\nMein devant un nom masculin ou neutre, meine devant un nom féminin ou pluriel.\nDas ist mein Bruder. Das sind meine Eltern.",
+  "parties": [
+    {
+      "titre": "Les membres de la famille",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Familie",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "der Vater / die Mutter",
+              "le père / la mère"
+            ],
+            [
+              "die Eltern",
+              "les parents"
+            ],
+            [
+              "der Bruder / die Schwester",
+              "le frère / la sœur"
+            ],
+            [
+              "die Geschwister",
+              "les frères et sœurs"
+            ],
+            [
+              "der Onkel / die Tante",
+              "l’oncle / la tante"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Die Großeltern » sont :",
+          "options": [
+            "les grands-parents",
+            "les parents",
+            "les cousins"
+          ],
+          "reponse": "les grands-parents",
+          "explication": "Groß : grand."
+        }
+      ]
+    },
+    {
+      "titre": "Mein ou meine",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Possessif",
+          "colonnes": [
+            "Genre",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "mein Vater"
+            ],
+            [
+              "féminin",
+              "meine Mutter"
+            ],
+            [
+              "neutre",
+              "mein Pferd"
+            ],
+            [
+              "pluriel",
+              "meine Eltern"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « meine Vater ».",
+          "correction": "Vater est masculin : mein Vater."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … Schwester heißt Anna. »",
+      "options": [
+        "Meine",
+        "Mein",
+        "Meinen"
+      ],
+      "reponse": "Meine",
+      "explication": "Schwester est féminin."
+    },
+    {
+      "consigne": "« Die Geschwister » désigne :",
+      "options": [
+        "les frères et sœurs",
+        "les grands-parents",
+        "les enfants"
+      ],
+      "reponse": "les frères et sœurs",
+      "explication": "Un mot collectif."
+    },
+    {
+      "consigne": "« Das sind meine Eltern. » veut dire :",
+      "options": [
+        "Ce sont mes parents.",
+        "C’est mon père.",
+        "Ce sont mes amis."
+      ],
+      "reponse": "Ce sont mes parents.",
+      "explication": "Eltern : parents."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 22,
+      "extrait": "der Vater, die Mutter, die Eltern, der Bruder, die Schwester",
+      "appui": "La famille"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

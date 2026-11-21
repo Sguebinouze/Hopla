@@ -1,0 +1,106 @@
+{
+  "competence": "AL-C4-5E-PRES-01",
+  "duree": 5,
+  "essentiel": "Se présenter : Ich heiße Léa. Ich bin zwölf Jahre alt. Ich komme aus Frankreich. Ich wohne in Lyon.\nLes questions : Wie heißt du? Wie alt bist du? Woher kommst du? Wo wohnst du?\nEn allemand, tous les noms prennent une majuscule : das Jahr, die Stadt.",
+  "parties": [
+    {
+      "titre": "Se présenter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions et réponses",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Wie heißt du?",
+              "Comment t’appelles-tu ?"
+            ],
+            [
+              "Wie alt bist du?",
+              "Quel âge as-tu ?"
+            ],
+            [
+              "Woher kommst du?",
+              "D’où viens-tu ?"
+            ],
+            [
+              "Wo wohnst du?",
+              "Où habites-tu ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich bin dreizehn Jahre alt. » donne :",
+          "options": [
+            "l’âge",
+            "le nom",
+            "la ville"
+          ],
+          "reponse": "l’âge",
+          "explication": "Jahre alt : ans."
+        }
+      ]
+    },
+    {
+      "titre": "Wo ou woher ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Wo : où l’on est. Woher : d’où l’on vient. Ich wohne in Paris, aber ich komme aus Marseille."
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « Ich habe zwölf Jahre » pour l’âge.",
+          "correction": "L’âge se dit avec sein : Ich bin zwölf Jahre alt."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Woher kommst du? » veut dire :",
+      "options": [
+        "D’où viens-tu ?",
+        "Où habites-tu ?",
+        "Comment vas-tu ?"
+      ],
+      "reponse": "D’où viens-tu ?",
+      "explication": "Woher : d’où."
+    },
+    {
+      "consigne": "« J’habite à Nantes » se dit :",
+      "options": [
+        "Ich wohne in Nantes.",
+        "Ich komme in Nantes.",
+        "Ich bin aus Nantes."
+      ],
+      "reponse": "Ich wohne in Nantes.",
+      "explication": "Wohnen : habiter."
+    },
+    {
+      "consigne": "En allemand, les noms communs prennent :",
+      "options": [
+        "une majuscule",
+        "une minuscule",
+        "un accent"
+      ],
+      "reponse": "une majuscule",
+      "explication": "Das Haus, die Schule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 9,
+      "extrait": "(Se) présenter de manière très simple en indiquant son",
+      "appui": "Se présenter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

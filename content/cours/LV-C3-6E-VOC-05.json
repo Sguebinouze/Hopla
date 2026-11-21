@@ -1,0 +1,136 @@
+{
+  "competence": "LV-C3-6E-VOC-05",
+  "duree": 5,
+  "essentiel": "Vêtements : a T-shirt, a jumper, trousers, jeans, a skirt, shoes, trainers.\nCorps : head, arm, hand, leg, foot (feet), eyes, ears.\n« I’m wearing jeans. » « My leg hurts. » : j’ai mal à la jambe.",
+  "parties": [
+    {
+      "titre": "Les vêtements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vêtements",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a jumper",
+              "un pull"
+            ],
+            [
+              "trousers",
+              "un pantalon"
+            ],
+            [
+              "a coat",
+              "un manteau"
+            ],
+            [
+              "trainers",
+              "des baskets"
+            ],
+            [
+              "a cap",
+              "une casquette"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Trousers » est toujours :",
+          "options": [
+            "au pluriel",
+            "au singulier",
+            "féminin"
+          ],
+          "reponse": "au pluriel",
+          "explication": "Comme jeans."
+        }
+      ]
+    },
+    {
+      "titre": "Le corps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Corps",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "head",
+              "tête"
+            ],
+            [
+              "shoulder",
+              "épaule"
+            ],
+            [
+              "knee",
+              "genou"
+            ],
+            [
+              "foot / feet",
+              "pied / pieds"
+            ],
+            [
+              "My head hurts.",
+              "J’ai mal à la tête."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « I have mal at my head ».",
+          "correction": "On dit « My head hurts » ou « I’ve got a headache »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Knee » veut dire :",
+      "options": [
+        "genou",
+        "cou",
+        "nez"
+      ],
+      "reponse": "genou",
+      "explication": "Au milieu de la jambe."
+    },
+    {
+      "consigne": "« I’m wearing a coat. » veut dire :",
+      "options": [
+        "Je porte un manteau.",
+        "J’achète un manteau.",
+        "Je range un manteau."
+      ],
+      "reponse": "Je porte un manteau.",
+      "explication": "Wear : porter."
+    },
+    {
+      "consigne": "« J’ai mal au pied » se dit :",
+      "options": [
+        "My foot hurts.",
+        "My foot is mal.",
+        "I hurt foot."
+      ],
+      "reponse": "My foot hurts.",
+      "explication": "Hurt : faire mal."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 11,
+      "extrait": "Les vêtements de base",
+      "appui": "Vêtements et corps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

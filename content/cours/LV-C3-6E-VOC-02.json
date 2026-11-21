@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C3-6E-VOC-02",
+  "duree": 5,
+  "essentiel": "La journée au présent simple : I get up, I have breakfast, I go to school, I go to bed.\nLes pièces de la maison : kitchen, living room, bedroom, bathroom, garden.\nLes mots then, after that, finally ordonnent le récit.",
+  "parties": [
+    {
+      "titre": "Ma journée",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Raconter sa journée",
+          "etapes": [
+            "First, I get up at seven.",
+            "Then, I have breakfast in the kitchen.",
+            "After that, I go to school by bus.",
+            "Finally, I go to bed at nine."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I have a shower » se passe dans :",
+          "options": [
+            "the bathroom",
+            "the kitchen",
+            "the garden"
+          ],
+          "reponse": "the bathroom",
+          "explication": "Bathroom : salle de bains."
+        }
+      ]
+    },
+    {
+      "titre": "La maison",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les pièces",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "the kitchen",
+              "la cuisine"
+            ],
+            [
+              "the living room",
+              "le salon"
+            ],
+            [
+              "the bedroom",
+              "la chambre"
+            ],
+            [
+              "the bathroom",
+              "la salle de bains"
+            ],
+            [
+              "upstairs / downstairs",
+              "à l’étage / en bas"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I go at school ».",
+          "correction": "On dit « I go to school »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Living room » veut dire :",
+      "options": [
+        "salon",
+        "chambre",
+        "cuisine"
+      ],
+      "reponse": "salon",
+      "explication": "On y vit ensemble."
+    },
+    {
+      "consigne": "« After that » veut dire :",
+      "options": [
+        "ensuite",
+        "avant",
+        "enfin"
+      ],
+      "reponse": "ensuite",
+      "explication": "Pour enchainer."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "I go to school at eight.",
+        "I go at school at eight.",
+        "I go school at eight."
+      ],
+      "reponse": "I go to school at eight.",
+      "explication": "Go to school."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 11,
+      "extrait": "to sleep, to wake up, to get up, to eat, to have a shower",
+      "appui": "Journée et maison"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

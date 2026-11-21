@@ -1,0 +1,132 @@
+{
+  "competence": "LV-C3-6E-VOC-03",
+  "duree": 5,
+  "essentiel": "Les dizaines finissent par -ty : twenty, thirty, forty… jusqu’à one hundred.\nL’heure : six o’clock (6 h), quarter past six (6 h 15), half past six (6 h 30).\nQuarter to seven : 6 h 45.\nPast : après l’heure. To : avant l’heure suivante.",
+  "parties": [
+    {
+      "titre": "Compter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Nombres",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "thirteen / thirty",
+              "13 / 30"
+            ],
+            [
+              "fourteen / forty",
+              "14 / 40"
+            ],
+            [
+              "fifty-five",
+              "55"
+            ],
+            [
+              "ninety-nine",
+              "99"
+            ],
+            [
+              "one hundred",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Forty » s’écrit sans :",
+          "options": [
+            "u",
+            "r",
+            "t"
+          ],
+          "reponse": "u",
+          "explication": "Four, mais forty."
+        }
+      ]
+    },
+    {
+      "titre": "Dire l’heure",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelle heure est-il ?",
+          "colonnes": [
+            "Anglais",
+            "Heure"
+          ],
+          "lignes": [
+            [
+              "It’s nine o’clock.",
+              "9 h"
+            ],
+            [
+              "It’s quarter past nine.",
+              "9 h 15"
+            ],
+            [
+              "It’s half past nine.",
+              "9 h 30"
+            ],
+            [
+              "It’s quarter to ten.",
+              "9 h 45"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit « half past nine » comme 8 h 30.",
+          "correction": "Past : après. Half past nine, c’est 9 h 30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Quarter to eight » :",
+      "options": [
+        "7 h 45",
+        "8 h 15",
+        "8 h 45"
+      ],
+      "reponse": "7 h 45",
+      "explication": "Huit heures moins le quart."
+    },
+    {
+      "consigne": "« Sixty-three » :",
+      "options": [
+        "63",
+        "36",
+        "73"
+      ],
+      "reponse": "63",
+      "explication": "Sixty : 60."
+    },
+    {
+      "consigne": "Pour demander l’heure, on dit :",
+      "options": [
+        "What time is it?",
+        "How time is it?",
+        "What hour it is?"
+      ],
+      "reponse": "What time is it?",
+      "explication": "What time."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "les heures entières, demi-heures et quarts d’heure.",
+      "appui": "Nombres et heure"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

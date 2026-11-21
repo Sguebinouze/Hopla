@@ -1,0 +1,128 @@
+{
+  "competence": "LV-C4-4E-ART-01",
+  "duree": 5,
+  "essentiel": "A devant un son consonne (a dog), an devant un son voyelle (an apple, an hour).\nThe désigne une chose précise ou déjà connue : the dog in the garden.\nPas d’article pour une généralité, un repas, un sport ou la plupart des pays : I like dogs. I play tennis. France.",
+  "parties": [
+    {
+      "titre": "A, an, the",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Choisir l’article",
+          "colonnes": [
+            "Cas",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "son consonne",
+              "a book, a university"
+            ],
+            [
+              "son voyelle",
+              "an egg, an hour"
+            ],
+            [
+              "chose précise",
+              "the book on the table"
+            ],
+            [
+              "généralité",
+              "Books are useful."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« … hour ago »",
+          "options": [
+            "an",
+            "a",
+            "the"
+          ],
+          "reponse": "an",
+          "explication": "Le h ne se prononce pas."
+        }
+      ]
+    },
+    {
+      "titre": "Sans article",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pas d’article",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I have breakfast at seven.",
+              "repas"
+            ],
+            [
+              "She plays football.",
+              "sport"
+            ],
+            [
+              "Cats are cute.",
+              "généralité"
+            ],
+            [
+              "I live in France.",
+              "pays"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I love the chocolate » pour une généralité.",
+          "correction": "Généralité : pas d’article. I love chocolate."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« She is … engineer. »",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "reponse": "an",
+      "explication": "Son voyelle."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "I play basketball.",
+        "I play the basketball.",
+        "I play a basketball."
+      ],
+      "reponse": "I play basketball.",
+      "explication": "Sport : pas d’article."
+    },
+    {
+      "consigne": "Quel pays prend « the » ?",
+      "options": [
+        "the United States",
+        "the France",
+        "the Spain"
+      ],
+      "reponse": "the United States",
+      "explication": "Les noms au pluriel ou composés de United."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Articles, quantifieurs",
+      "appui": "A, an, the ou rien"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,127 @@
+{
+  "competence": "AL-C4-3E-GESCH-01",
+  "duree": 6,
+  "essentiel": "Le mur de Berlin est construit en 1961 par la RDA ; il sépare Berlin-Est de Berlin-Ouest.\nIl tombe le 9 novembre 1989. L’Allemagne est réunifiée le 3 octobre 1990, jour de la fête nationale.\nL’Allemagne est un État fédéral : 16 Länder, un Parlement fédéral (Bundestag), un chancelier.",
+  "parties": [
+    {
+      "titre": "Du mur à la réunification",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1949,
+              "date": "1949",
+              "evenement": "Deux États : RFA à l’ouest, RDA à l’est."
+            },
+            {
+              "annee": 1961,
+              "date": "13 aout 1961",
+              "evenement": "Construction du mur de Berlin."
+            },
+            {
+              "annee": 1989,
+              "date": "9 novembre 1989",
+              "evenement": "Chute du mur."
+            },
+            {
+              "annee": 1990,
+              "date": "3 octobre 1990",
+              "evenement": "Réunification."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le Tag der Deutschen Einheit célèbre :",
+          "options": [
+            "la réunification",
+            "la chute du mur",
+            "la construction du mur"
+          ],
+          "reponse": "la réunification",
+          "explication": "Le 3 octobre."
+        }
+      ]
+    },
+    {
+      "titre": "Le fédéralisme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Institutions",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "der Bundestag",
+              "le Parlement fédéral"
+            ],
+            [
+              "der Bundeskanzler / die Bundeskanzlerin",
+              "le chef du gouvernement"
+            ],
+            [
+              "das Bundesland",
+              "l’État fédéré (Land)"
+            ],
+            [
+              "die Hauptstadt Berlin",
+              "la capitale Berlin"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond la chute du mur (1989) et la réunification (1990).",
+          "correction": "Le mur tombe le 9 novembre 1989, la réunification a lieu le 3 octobre 1990."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le mur de Berlin est tombé en :",
+      "options": [
+        "1989",
+        "1961",
+        "1990"
+      ],
+      "reponse": "1989",
+      "explication": "Le 9 novembre."
+    },
+    {
+      "consigne": "L’Allemagne compte :",
+      "options": [
+        "16 Länder",
+        "13 régions",
+        "50 États"
+      ],
+      "reponse": "16 Länder",
+      "explication": "Bundesländer."
+    },
+    {
+      "consigne": "Le Bundestag est :",
+      "options": [
+        "le Parlement fédéral",
+        "le gouvernement d’un Land",
+        "la Cour suprême"
+      ],
+      "reponse": "le Parlement fédéral",
+      "explication": "À Berlin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Repères historiques et géographiques : Patrimoine historique, naturel et architectural.",
+      "appui": "Repères d’histoire allemande"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

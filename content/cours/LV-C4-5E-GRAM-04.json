@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C4-5E-GRAM-04",
+  "duree": 5,
+  "essentiel": "Should exprime un conseil : You should sleep more. Shouldn’t, un conseil de ne pas faire.\nCould exprime une suggestion : You could ask your teacher.\nComme tous les modaux, ils sont suivis du verbe sans to.",
+  "parties": [
+    {
+      "titre": "Conseiller",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Conseils",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "You should drink water.",
+              "Tu devrais boire de l’eau."
+            ],
+            [
+              "You shouldn’t eat so many sweets.",
+              "Tu ne devrais pas manger autant de bonbons."
+            ],
+            [
+              "You could take the bus.",
+              "Tu pourrais prendre le bus."
+            ],
+            [
+              "What should I do?",
+              "Que devrais-je faire ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« You should see a doctor. » est :",
+          "options": [
+            "un conseil",
+            "un ordre",
+            "une interdiction"
+          ],
+          "reponse": "un conseil",
+          "explication": "Should : conseil."
+        }
+      ]
+    },
+    {
+      "titre": "La construction",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « You should to rest ».",
+          "correction": "Pas de to après should : You should rest."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He should study more.",
+        "He shoulds study more.",
+        "He should to study more."
+      ],
+      "reponse": "He should study more.",
+      "explication": "Should + base."
+    },
+    {
+      "consigne": "« You could try again. » est :",
+      "options": [
+        "une suggestion",
+        "une obligation",
+        "une interdiction"
+      ],
+      "reponse": "une suggestion",
+      "explication": "Could : suggestion."
+    },
+    {
+      "consigne": "« Tu ne devrais pas crier » se dit :",
+      "options": [
+        "You shouldn’t shout.",
+        "You mustn’t shouting.",
+        "You don’t should shout."
+      ],
+      "reponse": "You shouldn’t shout.",
+      "explication": "Shouldn’t."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 19,
+      "extrait": "Les auxiliaires de modalité : should/shouldn’t, could/couldn’t",
+      "appui": "Conseiller avec should et could"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

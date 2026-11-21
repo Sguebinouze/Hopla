@@ -1,0 +1,98 @@
+{
+  "competence": "AL-C4-3E-IND-01",
+  "duree": 5,
+  "essentiel": "Une question rapportée sans mot interrogatif commence par ob (si) : Er fragt, ob ich komme.\nAvec un mot interrogatif, on le garde : Sie fragt, wo ich wohne.\nDans les deux cas, le verbe conjugué va à la fin.",
+  "parties": [
+    {
+      "titre": "Rapporter une question",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Direct et indirect",
+          "colonnes": [
+            "Question directe",
+            "Question indirecte"
+          ],
+          "lignes": [
+            [
+              "Kommst du?",
+              "Er fragt, ob ich komme."
+            ],
+            [
+              "Wo wohnst du?",
+              "Sie fragt, wo ich wohne."
+            ],
+            [
+              "Wann beginnt der Film?",
+              "Ich weiß nicht, wann der Film beginnt."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Hast du Hunger? » → Sie fragt, … ich Hunger habe.",
+          "options": [
+            "ob",
+            "dass",
+            "wenn"
+          ],
+          "reponse": "ob",
+          "explication": "Question fermée : ob."
+        }
+      ]
+    },
+    {
+      "titre": "Ob ou wenn",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On traduit « si » par wenn dans une question rapportée.",
+          "correction": "Question rapportée : ob. Wenn exprime une condition ou un moment."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Ich frage, wie spät es ist.",
+        "Ich frage, wie spät ist es.",
+        "Ich frage, ob wie spät es ist."
+      ],
+      "reponse": "Ich frage, wie spät es ist.",
+      "explication": "Verbe à la fin."
+    },
+    {
+      "consigne": "« Weißt du, ob er kommt? » veut dire :",
+      "options": [
+        "Sais-tu s’il vient ?",
+        "Sais-tu quand il vient ?",
+        "Sais-tu qu’il vient ?"
+      ],
+      "reponse": "Sais-tu s’il vient ?",
+      "explication": "Ob : si."
+    },
+    {
+      "consigne": "Dans une question indirecte, le verbe conjugué est :",
+      "options": [
+        "à la fin",
+        "en 1re position",
+        "en 2e position"
+      ],
+      "reponse": "à la fin",
+      "explication": "Comme dans toute subordonnée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Discours indirect. Interrogation indirecte",
+      "appui": "Interrogation indirecte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

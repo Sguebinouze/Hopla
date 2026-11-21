@@ -1,0 +1,97 @@
+{
+  "competence": "ES-C4-4E-OBLIG-01",
+  "duree": 4,
+  "essentiel": "Tener que + infinitif : obligation personnelle. Tengo que estudiar.\nHay que + infinitif : obligation générale, pour tout le monde. Hay que respetar las normas.\nTener se conjugue, hay ne change pas.",
+  "parties": [
+    {
+      "titre": "Deux obligations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Obligation",
+          "colonnes": [
+            "Forme",
+            "Pour qui",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "tener que",
+              "une personne précise",
+              "Tienes que ordenar tu cuarto."
+            ],
+            [
+              "hay que",
+              "tout le monde",
+              "Hay que llegar a la hora."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« En la biblioteca, … hablar bajo. »",
+          "options": [
+            "hay que",
+            "tengo que",
+            "tiene"
+          ],
+          "reponse": "hay que",
+          "explication": "Règle générale."
+        }
+      ]
+    },
+    {
+      "titre": "La construction",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « Tengo estudiar ».",
+          "correction": "Il faut que : Tengo que estudiar."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nosotros … que salir. »",
+      "options": [
+        "tenemos",
+        "hay",
+        "tienen"
+      ],
+      "reponse": "tenemos",
+      "explication": "Tener conjugué."
+    },
+    {
+      "consigne": "« Hay que reciclar » veut dire :",
+      "options": [
+        "Il faut recycler.",
+        "J’ai recyclé.",
+        "Il y a du recyclage."
+      ],
+      "reponse": "Il faut recycler.",
+      "explication": "Obligation générale."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Tienes que descansar.",
+        "Tienes descansar.",
+        "Hay que tú descansar."
+      ],
+      "reponse": "Tienes que descansar.",
+      "explication": "Tener que + infinitif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir. Modaux.",
+      "appui": "L’obligation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

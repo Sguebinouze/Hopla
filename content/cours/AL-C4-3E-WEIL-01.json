@@ -1,0 +1,120 @@
+{
+  "competence": "AL-C4-3E-WEIL-01",
+  "duree": 6,
+  "essentiel": "Weil (parce que) et dass (que) ouvrent une subordonnée : le verbe conjugué va à la fin.\nIch bleibe zu Hause, weil ich krank bin. Ich glaube, dass er recht hat.\nUne virgule sépare toujours la principale de la subordonnée.",
+  "parties": [
+    {
+      "titre": "Le verbe à la fin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Subordonnées",
+          "colonnes": [
+            "Principale",
+            "Subordonnée"
+          ],
+          "lignes": [
+            [
+              "Ich lerne Deutsch,",
+              "weil ich nach Berlin fahren möchte."
+            ],
+            [
+              "Ich finde,",
+              "dass Sport wichtig ist."
+            ],
+            [
+              "Sie sagt,",
+              "dass sie keine Zeit hat."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich komme nicht, weil ich … »",
+          "options": [
+            "keine Zeit habe",
+            "habe keine Zeit",
+            "keine habe Zeit"
+          ],
+          "reponse": "keine Zeit habe",
+          "explication": "Verbe conjugué à la fin."
+        }
+      ]
+    },
+    {
+      "titre": "Donner son avis",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Meinung",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Ich finde, dass…",
+              "Je trouve que…"
+            ],
+            [
+              "Ich glaube, dass…",
+              "Je crois que…"
+            ],
+            [
+              "Meiner Meinung nach…",
+              "À mon avis…"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde l’ordre de la principale : « weil ich bin müde ».",
+          "correction": "Dans une subordonnée, le verbe conjugué ferme la phrase : weil ich müde bin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Ich glaube, dass sie kommt.",
+        "Ich glaube, dass sie kommt nicht morgen.",
+        "Ich glaube, dass kommt sie."
+      ],
+      "reponse": "Ich glaube, dass sie kommt.",
+      "explication": "Verbe à la fin."
+    },
+    {
+      "consigne": "« Weil » veut dire :",
+      "options": [
+        "parce que",
+        "que",
+        "mais"
+      ],
+      "reponse": "parce que",
+      "explication": "Cause."
+    },
+    {
+      "consigne": "Avant weil ou dass, on met :",
+      "options": [
+        "une virgule",
+        "un point",
+        "rien"
+      ],
+      "reponse": "une virgule",
+      "explication": "Toujours une virgule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Coordination. Subordination. Relatifs.",
+      "appui": "Weil et dass"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

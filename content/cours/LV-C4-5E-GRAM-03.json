@@ -1,0 +1,124 @@
+{
+  "competence": "LV-C4-5E-GRAM-03",
+  "duree": 4,
+  "essentiel": "Adverbes de fréquence : always, usually, often, sometimes, rarely, never.\nIls se placent avant le verbe : I often play tennis.\nMais après be : She is always late.",
+  "parties": [
+    {
+      "titre": "Du plus au moins fréquent",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fréquence",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "always",
+              "toujours"
+            ],
+            [
+              "usually",
+              "d’habitude"
+            ],
+            [
+              "often",
+              "souvent"
+            ],
+            [
+              "sometimes",
+              "parfois"
+            ],
+            [
+              "never",
+              "jamais"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I never eat meat. » veut dire :",
+          "options": [
+            "Je ne mange jamais de viande.",
+            "Je mange souvent de la viande.",
+            "Je mange parfois de la viande."
+          ],
+          "reponse": "Je ne mange jamais de viande.",
+          "explication": "Never : jamais."
+        }
+      ]
+    },
+    {
+      "titre": "La place",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Où placer l’adverbe ?",
+          "colonnes": [
+            "Cas",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "avant le verbe",
+              "He often reads."
+            ],
+            [
+              "après be",
+              "He is often tired."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I play often tennis ».",
+          "correction": "L’adverbe se place avant le verbe : I often play tennis."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "She is never late.",
+        "She never is late.",
+        "She is late never."
+      ],
+      "reponse": "She is never late.",
+      "explication": "Après be."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "We usually walk to school.",
+        "We walk usually to school.",
+        "Usually we walks to school."
+      ],
+      "reponse": "We usually walk to school.",
+      "explication": "Avant le verbe."
+    },
+    {
+      "consigne": "« Sometimes » veut dire :",
+      "options": [
+        "parfois",
+        "souvent",
+        "toujours"
+      ],
+      "reponse": "parfois",
+      "explication": "De temps en temps."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 20,
+      "extrait": "Utiliser des adverbes de fréquence",
+      "appui": "Les adverbes de fréquence"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-4E-DIAL-01",
+  "duree": 5,
+  "essentiel": "Demander un chemin : Excuse me, how do I get to the station? Is it far?\nIndiquer : go straight on, turn left, take the second street on the right, it’s opposite the bank.\nDemander un prix ou un horaire : How much is a ticket? What time does the next bus leave?",
+  "parties": [
+    {
+      "titre": "Le chemin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Directions",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Go straight on.",
+              "Allez tout droit."
+            ],
+            [
+              "Turn left / right.",
+              "Tournez à gauche / droite."
+            ],
+            [
+              "Take the first street on the left.",
+              "Prenez la première rue à gauche."
+            ],
+            [
+              "It’s opposite the church.",
+              "C’est en face de l’église."
+            ],
+            [
+              "It’s on the corner.",
+              "C’est au coin."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Opposite » veut dire :",
+          "options": [
+            "en face de",
+            "à côté de",
+            "derrière"
+          ],
+          "reponse": "en face de",
+          "explication": "De l’autre côté."
+        }
+      ]
+    },
+    {
+      "titre": "Prix et horaire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Excuse me, how much is a return ticket to Bath? » « It’s twenty pounds. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On commence par « Hey you! » pour demander.",
+          "correction": "On attire l’attention poliment : Excuse me…"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Go straight on » veut dire :",
+      "options": [
+        "Allez tout droit.",
+        "Tournez à droite.",
+        "Faites demi-tour."
+      ],
+      "reponse": "Allez tout droit.",
+      "explication": "Straight : droit."
+    },
+    {
+      "consigne": "« A return ticket » est :",
+      "options": [
+        "un aller-retour",
+        "un aller simple",
+        "un remboursement"
+      ],
+      "reponse": "un aller-retour",
+      "explication": "Return : retour."
+    },
+    {
+      "consigne": "Pour demander poliment son chemin, on commence par :",
+      "options": [
+        "Excuse me",
+        "Sorry for you",
+        "Hello you"
+      ],
+      "reponse": "Excuse me",
+      "explication": "Excuse me."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 41,
+      "extrait": "Demander et fournir des renseignements.",
+      "appui": "Demander un renseignement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

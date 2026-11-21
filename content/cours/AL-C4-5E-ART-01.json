@@ -1,0 +1,121 @@
+{
+  "competence": "AL-C4-5E-ART-01",
+  "duree": 6,
+  "essentiel": "Chaque nom a un genre : der (masculin), die (féminin), das (neutre). Au pluriel : die.\nArticles indéfinis : ein (masculin, neutre), eine (féminin).\nKein, keine nient un nom : Ich habe keine Katze.",
+  "parties": [
+    {
+      "titre": "Les trois genres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Articles",
+          "colonnes": [
+            "Genre",
+            "Défini",
+            "Indéfini",
+            "Négatif"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "der Hund",
+              "ein Hund",
+              "kein Hund"
+            ],
+            [
+              "féminin",
+              "die Katze",
+              "eine Katze",
+              "keine Katze"
+            ],
+            [
+              "neutre",
+              "das Pferd",
+              "ein Pferd",
+              "kein Pferd"
+            ],
+            [
+              "pluriel",
+              "die Hunde",
+              "(pas d’article)",
+              "keine Hunde"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Das Mädchen » (la fille) est :",
+          "options": [
+            "neutre",
+            "féminin",
+            "masculin"
+          ],
+          "reponse": "neutre",
+          "explication": "Le genre ne suit pas toujours le sexe."
+        }
+      ]
+    },
+    {
+      "titre": "Apprendre le genre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Retenir",
+          "etapes": [
+            "Apprends chaque nom avec son article.",
+            "Note quelques indices : les noms en -ung, -heit, -keit sont féminins.",
+            "Les noms en -chen sont neutres."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne au nom le genre du mot français : « die Sonne » serait masculin.",
+          "correction": "Le genre allemand est indépendant : die Sonne, der Mond."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … Zeitung » (le journal, féminin)",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "reponse": "die",
+      "explication": "Les noms en -ung sont féminins."
+    },
+    {
+      "consigne": "« Ich habe … Bruder. » (pas de)",
+      "options": [
+        "keinen",
+        "nicht",
+        "kein"
+      ],
+      "reponse": "keinen",
+      "explication": "Kein devant un nom ; masculin complément : keinen."
+    },
+    {
+      "consigne": "Les noms en -chen sont :",
+      "options": [
+        "neutres",
+        "féminins",
+        "masculins"
+      ],
+      "reponse": "neutres",
+      "explication": "Das Brötchen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "utiliser les articles définis et indéfinis",
+      "appui": "Der, die, das et kein"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

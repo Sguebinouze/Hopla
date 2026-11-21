@@ -1,0 +1,116 @@
+{
+  "competence": "ES-C4-5E-IMPF-01",
+  "duree": 5,
+  "essentiel": "L’imparfait décrit une habitude ou une situation passée : Cuando era pequeño, jugaba en el parque.\nVerbes en -ar : -aba (hablaba). Verbes en -er et -ir : -ía (comía, vivía).\nNosotros prend un accent : hablábamos.",
+  "parties": [
+    {
+      "titre": "Les terminaisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Imparfait",
+          "colonnes": [
+            "Sujet",
+            "jugar",
+            "comer"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "jugaba",
+              "comía"
+            ],
+            [
+              "tú",
+              "jugabas",
+              "comías"
+            ],
+            [
+              "él, ella",
+              "jugaba",
+              "comía"
+            ],
+            [
+              "nosotros",
+              "jugábamos",
+              "comíamos"
+            ],
+            [
+              "ellos",
+              "jugaban",
+              "comían"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Antes, mis abuelos … en el campo. » (vivir)",
+          "options": [
+            "vivían",
+            "vivaban",
+            "viven"
+          ],
+          "reponse": "vivían",
+          "explication": "-ir : -ían."
+        }
+      ]
+    },
+    {
+      "titre": "Raconter son enfance",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Cuando tenía ocho años, iba a la escuela a pie y veía a mis amigos cada día."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met -aba à un verbe en -er : « comaba ».",
+          "correction": "-er et -ir prennent -ía : comía."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Yo … mucho de pequeño. » (leer)",
+      "options": [
+        "leía",
+        "leaba",
+        "leo"
+      ],
+      "reponse": "leía",
+      "explication": "-er : -ía."
+    },
+    {
+      "consigne": "L’imparfait sert à :",
+      "options": [
+        "décrire une habitude passée",
+        "raconter une action unique",
+        "parler du futur"
+      ],
+      "reponse": "décrire une habitude passée",
+      "explication": "Antes, cada día…"
+    },
+    {
+      "consigne": "« Hablábamos » correspond à :",
+      "options": [
+        "nosotros",
+        "ellos",
+        "yo"
+      ],
+      "reponse": "nosotros",
+      "explication": "-ábamos."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "L’imparfait : terminaisons verbales -aba et -ía",
+      "appui": "L’imparfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

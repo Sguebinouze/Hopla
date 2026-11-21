@@ -1,0 +1,106 @@
+{
+  "competence": "ES-C4-5E-FUT-01",
+  "duree": 5,
+  "essentiel": "Ir a + infinitif exprime un projet proche : Voy a visitar Madrid.\nMe gustaría + infinitif exprime un souhait : Me gustaría ser veterinaria.\nRepères : mañana, el fin de semana que viene, el año próximo.",
+  "parties": [
+    {
+      "titre": "Projets",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ir a + infinitif",
+          "colonnes": [
+            "Sujet",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "Voy a estudiar."
+            ],
+            [
+              "tú",
+              "Vas a viajar."
+            ],
+            [
+              "nosotros",
+              "Vamos a jugar."
+            ],
+            [
+              "ellos",
+              "Van a salir."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mañana … a ir a la playa. »",
+          "options": [
+            "voy",
+            "soy",
+            "tengo"
+          ],
+          "reponse": "voy",
+          "explication": "Ir a."
+        }
+      ]
+    },
+    {
+      "titre": "Souhaits",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Me gustaría aprender a surfear. » : j’aimerais apprendre à surfer."
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie a : « Voy comer ».",
+          "correction": "Il faut a : Voy a comer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Me gustaría » veut dire :",
+      "options": [
+        "j’aimerais",
+        "j’aime",
+        "je dois"
+      ],
+      "reponse": "j’aimerais",
+      "explication": "Souhait."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Vamos a cenar.",
+        "Vamos cenar.",
+        "Vamos de cenar."
+      ],
+      "reponse": "Vamos a cenar.",
+      "explication": "Ir a + infinitif."
+    },
+    {
+      "consigne": "« El año próximo » veut dire :",
+      "options": [
+        "l’année prochaine",
+        "l’année dernière",
+        "cette année"
+      ],
+      "reponse": "l’année prochaine",
+      "explication": "Próximo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 19,
+      "extrait": "Le futur proche : Vamos a cantar una canción",
+      "appui": "Le futur proche"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

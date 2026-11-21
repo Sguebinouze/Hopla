@@ -1,0 +1,138 @@
+{
+  "competence": "LV-C3-6E-VOC-04",
+  "duree": 5,
+  "essentiel": "Le Royaume-Uni réunit l’Angleterre, l’Écosse, le pays de Galles et l’Irlande du Nord.\nNationalités : English, Scottish, Welsh, Irish, British, American. Elles prennent une majuscule.\nFêtes : Bonfire Night le 5 novembre, Thanksgiving aux États-Unis, St Patrick’s Day le 17 mars.",
+  "parties": [
+    {
+      "titre": "Pays et nationalités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Royaume-Uni",
+          "colonnes": [
+            "Pays",
+            "Capitale",
+            "Nationalité"
+          ],
+          "lignes": [
+            [
+              "England",
+              "London",
+              "English"
+            ],
+            [
+              "Scotland",
+              "Edinburgh",
+              "Scottish"
+            ],
+            [
+              "Wales",
+              "Cardiff",
+              "Welsh"
+            ],
+            [
+              "Northern Ireland",
+              "Belfast",
+              "Northern Irish"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une personne du pays de Galles est :",
+          "options": [
+            "Welsh",
+            "Wales",
+            "Walish"
+          ],
+          "reponse": "Welsh",
+          "explication": "Wales → Welsh."
+        }
+      ]
+    },
+    {
+      "titre": "Les fêtes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Calendrier",
+          "colonnes": [
+            "Fête",
+            "Date",
+            "Où"
+          ],
+          "lignes": [
+            [
+              "St Patrick’s Day",
+              "17 mars",
+              "Irlande, et ailleurs"
+            ],
+            [
+              "Halloween",
+              "31 octobre",
+              "pays anglophones"
+            ],
+            [
+              "Bonfire Night",
+              "5 novembre",
+              "Royaume-Uni"
+            ],
+            [
+              "Thanksgiving",
+              "4e jeudi de novembre",
+              "États-Unis"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit les nationalités avec une minuscule : « french ».",
+          "correction": "En anglais, elles prennent une majuscule : French."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Bonfire Night a lieu le :",
+      "options": [
+        "5 novembre",
+        "31 octobre",
+        "25 décembre"
+      ],
+      "reponse": "5 novembre",
+      "explication": "Avec des feux de joie."
+    },
+    {
+      "consigne": "La capitale de l’Écosse est :",
+      "options": [
+        "Edinburgh",
+        "Glasgow",
+        "Cardiff"
+      ],
+      "reponse": "Edinburgh",
+      "explication": "Édimbourg."
+    },
+    {
+      "consigne": "Comment écrit-on « français » en anglais ?",
+      "options": [
+        "French",
+        "french",
+        "France"
+      ],
+      "reponse": "French",
+      "explication": "Avec une majuscule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 11,
+      "extrait": "Thanksgiving, Christmas Eve, Christmas Day, turkey, pudding, crackers, presents",
+      "appui": "Pays, nationalités et fêtes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

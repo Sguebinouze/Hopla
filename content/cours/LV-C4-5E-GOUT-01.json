@@ -1,0 +1,120 @@
+{
+  "competence": "LV-C4-5E-GOUT-01",
+  "duree": 5,
+  "essentiel": "Les verbes de gout se suivent de -ing : I love reading, I can’t stand waiting.\nDes adjectifs nuancent : great, awesome, boring, awful.\nL’exclamation renforce : What a great film! How boring!",
+  "parties": [
+    {
+      "titre": "Une échelle de gouts",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du plus au moins",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I’m crazy about…",
+              "je suis fou de…"
+            ],
+            [
+              "I love / I like…",
+              "j’adore / j’aime…"
+            ],
+            [
+              "I don’t mind…",
+              "ça ne me dérange pas…"
+            ],
+            [
+              "I can’t stand…",
+              "je ne supporte pas…"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I can’t stand rap. » veut dire :",
+          "options": [
+            "Je ne supporte pas le rap.",
+            "Je ne peux pas danser sur du rap.",
+            "J’aime bien le rap."
+          ],
+          "reponse": "Je ne supporte pas le rap.",
+          "explication": "Can’t stand : ne pas supporter."
+        }
+      ]
+    },
+    {
+      "titre": "L’exclamation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "What ou how ?",
+          "colonnes": [
+            "Structure",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "What a + adjectif + nom",
+              "What a nice day!"
+            ],
+            [
+              "How + adjectif",
+              "How funny!"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I like play football » sans -ing.",
+          "correction": "Après like, love, hate : verbe en -ing. I like playing football."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I love … books. »",
+      "options": [
+        "reading",
+        "read",
+        "to reads"
+      ],
+      "reponse": "reading",
+      "explication": "Love + -ing."
+    },
+    {
+      "consigne": "Quelle exclamation est juste ?",
+      "options": [
+        "What a beautiful house!",
+        "How a beautiful house!",
+        "What beautiful a house!"
+      ],
+      "reponse": "What a beautiful house!",
+      "explication": "What a + adjectif + nom."
+    },
+    {
+      "consigne": "« Boring » veut dire :",
+      "options": [
+        "ennuyeux",
+        "génial",
+        "effrayant"
+      ],
+      "reponse": "ennuyeux",
+      "explication": "Le contraire d’interesting."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 16,
+      "extrait": "Exprimer simplement ses gouts et ses préférences en",
+      "appui": "Gouts et préférences"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "AL-C4-5E-PERF-01",
+  "duree": 6,
+  "essentiel": "Le parfait raconte le passé à l’oral : haben conjugué + participe passé en fin de phrase.\nLe participe passé des verbes réguliers se forme avec ge- et -t : spielen → gespielt, machen → gemacht.\nGestern habe ich Fußball gespielt.",
+  "parties": [
+    {
+      "titre": "Former le parfait",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Participes réguliers",
+          "colonnes": [
+            "Infinitif",
+            "Participe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "spielen",
+              "gespielt",
+              "Ich habe Tennis gespielt."
+            ],
+            [
+              "kaufen",
+              "gekauft",
+              "Wir haben Brot gekauft."
+            ],
+            [
+              "hören",
+              "gehört",
+              "Er hat Musik gehört."
+            ],
+            [
+              "machen",
+              "gemacht",
+              "Hast du deine Hausaufgaben gemacht?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Am Wochenende habe ich ein Buch … »",
+          "options": [
+            "gekauft",
+            "kaufen",
+            "gekaufen"
+          ],
+          "reponse": "gekauft",
+          "explication": "Ge- + kauf + -t."
+        }
+      ]
+    },
+    {
+      "titre": "La place du participe",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Haben est en 2e position, le participe ferme la phrase : Ich habe gestern lange Musik gehört."
+        },
+        {
+          "type": "piege",
+          "erreur": "On place le participe juste après haben : « Ich habe gespielt Fußball ».",
+          "correction": "Le participe va à la fin : Ich habe Fußball gespielt."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le participe de « machen » est :",
+      "options": [
+        "gemacht",
+        "gemachen",
+        "machte"
+      ],
+      "reponse": "gemacht",
+      "explication": "Ge- -t."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Er hat Musik gehört.",
+        "Er hat gehört Musik.",
+        "Er gehört hat Musik."
+      ],
+      "reponse": "Er hat Musik gehört.",
+      "explication": "Participe à la fin."
+    },
+    {
+      "consigne": "« Gestern » veut dire :",
+      "options": [
+        "hier",
+        "demain",
+        "aujourd’hui"
+      ],
+      "reponse": "hier",
+      "explication": "Repère du passé."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "employer (sans explicitation détaillée) le parfait de quelques verbes faibles",
+      "appui": "Le parfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,114 @@
+{
+  "competence": "AL-C4-5E-SCHU-01",
+  "duree": 5,
+  "essentiel": "Les matières : Mathe, Deutsch, Englisch, Geschichte, Erdkunde (géographie), Biologie, Sport, Kunst, Musik.\nLes lieux : das Klassenzimmer, die Turnhalle, der Schulhof, die Mensa.\nEn Allemagne, les notes vont de 1 (sehr gut) à 6 (ungenügend) : 1 est la meilleure.",
+  "parties": [
+    {
+      "titre": "Matières et lieux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Die Schule",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "das Fach",
+              "la matière"
+            ],
+            [
+              "Erdkunde",
+              "géographie"
+            ],
+            [
+              "Kunst",
+              "arts plastiques"
+            ],
+            [
+              "die Turnhalle",
+              "le gymnase"
+            ],
+            [
+              "der Schulhof",
+              "la cour"
+            ],
+            [
+              "die Mensa",
+              "la cantine"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Erdkunde » est :",
+          "options": [
+            "la géographie",
+            "l’histoire",
+            "la physique"
+          ],
+          "reponse": "la géographie",
+          "explication": "Erde : la Terre."
+        }
+      ]
+    },
+    {
+      "titre": "La journée d’un élève",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les cours commencent souvent vers 8 h. Dans beaucoup d’écoles, ils finissent en début d’après-midi ; les écoles à journée complète se développent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un 6 est une bonne note.",
+          "correction": "En Allemagne, 1 est la meilleure note et 6 la plus mauvaise."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une note de 1 en Allemagne est :",
+      "options": [
+        "excellente",
+        "très mauvaise",
+        "moyenne"
+      ],
+      "reponse": "excellente",
+      "explication": "Sehr gut."
+    },
+    {
+      "consigne": "« Mein Lieblingsfach ist Kunst. » La matière préférée est :",
+      "options": [
+        "les arts plastiques",
+        "la musique",
+        "le sport"
+      ],
+      "reponse": "les arts plastiques",
+      "explication": "Kunst : art."
+    },
+    {
+      "consigne": "« Die Mensa » est :",
+      "options": [
+        "la cantine",
+        "la classe",
+        "la bibliothèque"
+      ],
+      "reponse": "la cantine",
+      "explication": "On y déjeune."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 22,
+      "extrait": "les disciplines scolaires, les lieux de l’école",
+      "appui": "L’école"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

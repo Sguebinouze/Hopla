@@ -1,0 +1,120 @@
+{
+  "competence": "LV-C3-6E-GRAM-06",
+  "duree": 5,
+  "essentiel": "Who : qui. What : quoi, quel. Where : où. When : quand. Why : pourquoi. How : comment.\nLe mot interrogatif ouvre la question, puis vient l’auxiliaire : Where do you live?\nHow se combine : how old, how many, how much, how often.",
+  "parties": [
+    {
+      "titre": "Les mots interrogatifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Who is your best friend?",
+              "Qui est ton meilleur ami ?"
+            ],
+            [
+              "What is your name?",
+              "Comment t’appelles-tu ?"
+            ],
+            [
+              "Where do you live?",
+              "Où habites-tu ?"
+            ],
+            [
+              "When is your birthday?",
+              "Quand est ton anniversaire ?"
+            ],
+            [
+              "Why are you late?",
+              "Pourquoi es-tu en retard ?"
+            ],
+            [
+              "How are you?",
+              "Comment vas-tu ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour demander un lieu, on utilise :",
+          "options": [
+            "where",
+            "when",
+            "who"
+          ],
+          "reponse": "where",
+          "explication": "Where : où."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre des mots",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Construire une question",
+          "etapes": [
+            "Mot interrogatif : Where",
+            "Auxiliaire : do / does, ou be",
+            "Sujet : you",
+            "Verbe : live ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Where you live? ».",
+          "correction": "Il faut l’auxiliaire : Where do you live?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … often do you play tennis? »",
+      "options": [
+        "How",
+        "What",
+        "Who"
+      ],
+      "reponse": "How",
+      "explication": "How often : combien de fois."
+    },
+    {
+      "consigne": "Quelle question est juste ?",
+      "options": [
+        "What time does the film start?",
+        "What time the film starts?",
+        "What time does the film starts?"
+      ],
+      "reponse": "What time does the film start?",
+      "explication": "Does + verbe nu."
+    },
+    {
+      "consigne": "« Why » appelle une réponse avec :",
+      "options": [
+        "because",
+        "but",
+        "when"
+      ],
+      "reponse": "because",
+      "explication": "Because : parce que."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Reconnaitre les mots interrogatifs usuels",
+      "appui": "Les mots interrogatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

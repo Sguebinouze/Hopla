@@ -1,0 +1,138 @@
+{
+  "competence": "AL-C4-4E-PRON-01",
+  "duree": 6,
+  "essentiel": "Accusatif : mich, dich, ihn, sie, es, uns, euch, sie. Datif : mir, dir, ihm, ihr, ihm, uns, euch, ihnen.\nCertains verbes demandent le datif : helfen, danken, gefallen, gehören.\nIch sehe ihn (accusatif). Ich helfe ihm (datif).",
+  "parties": [
+    {
+      "titre": "Deux séries",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pronoms compléments",
+          "colonnes": [
+            "Sujet",
+            "Accusatif",
+            "Datif"
+          ],
+          "lignes": [
+            [
+              "ich",
+              "mich",
+              "mir"
+            ],
+            [
+              "du",
+              "dich",
+              "dir"
+            ],
+            [
+              "er",
+              "ihn",
+              "ihm"
+            ],
+            [
+              "sie",
+              "sie",
+              "ihr"
+            ],
+            [
+              "wir",
+              "uns",
+              "uns"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Kannst du … helfen? » (moi)",
+          "options": [
+            "mir",
+            "mich",
+            "ich"
+          ],
+          "reponse": "mir",
+          "explication": "Helfen + datif."
+        }
+      ]
+    },
+    {
+      "titre": "Verbes au datif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avec le datif",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Das gefällt mir.",
+              "Ça me plait."
+            ],
+            [
+              "Ich danke dir.",
+              "Je te remercie."
+            ],
+            [
+              "Das Buch gehört ihm.",
+              "Le livre lui appartient."
+            ],
+            [
+              "Ich helfe ihnen.",
+              "Je les aide."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich helfe dich ».",
+          "correction": "Helfen se construit avec le datif : Ich helfe dir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ich liebe … » (lui)",
+      "options": [
+        "ihn",
+        "ihm",
+        "er"
+      ],
+      "reponse": "ihn",
+      "explication": "Lieben + accusatif."
+    },
+    {
+      "consigne": "« Gefällt … der Film? » (à toi)",
+      "options": [
+        "dir",
+        "dich",
+        "du"
+      ],
+      "reponse": "dir",
+      "explication": "Gefallen + datif."
+    },
+    {
+      "consigne": "« Ich danke … » (vous, tutoiement pluriel)",
+      "options": [
+        "euch",
+        "ihnen",
+        "sie"
+      ],
+      "reponse": "euch",
+      "explication": "Ihr → euch."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Genre, pronoms personnels compléments et réfléchis",
+      "appui": "Pronoms à l’accusatif et au datif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

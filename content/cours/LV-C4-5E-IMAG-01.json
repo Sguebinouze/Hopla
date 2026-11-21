@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C4-5E-IMAG-01",
+  "duree": 5,
+  "essentiel": "La littérature de langue anglaise a créé des personnages connus dans le monde entier.\nAlice (Lewis Carroll) entre au Pays des merveilles, Peter Pan (J. M. Barrie) vit au Pays imaginaire.\nSherlock Holmes (Arthur Conan Doyle) enquête dans un Londres bien réel.",
+  "parties": [
+    {
+      "titre": "Personnages et mondes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des héros",
+          "colonnes": [
+            "Personnage",
+            "Auteur",
+            "Monde"
+          ],
+          "lignes": [
+            [
+              "Alice",
+              "Lewis Carroll",
+              "imaginaire : Wonderland"
+            ],
+            [
+              "Peter Pan",
+              "J. M. Barrie",
+              "imaginaire : Neverland"
+            ],
+            [
+              "Sherlock Holmes",
+              "Arthur Conan Doyle",
+              "réel : Londres, Baker Street"
+            ],
+            [
+              "Oliver Twist",
+              "Charles Dickens",
+              "réel : Londres pauvre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Peter Pan vit à :",
+          "options": [
+            "Neverland",
+            "Wonderland",
+            "Baker Street"
+          ],
+          "reponse": "Neverland",
+          "explication": "Le pays où l’on ne grandit pas."
+        }
+      ]
+    },
+    {
+      "titre": "Réel ou imaginaire ?",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Situer un récit",
+          "etapes": [
+            "Repère les lieux : existent-ils vraiment ?",
+            "Repère les êtres : animaux qui parlent, fées ?",
+            "Conclus : monde réel, imaginaire, ou les deux."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Sherlock Holmes a existé.",
+          "correction": "C’est un personnage inventé, placé dans un Londres réel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Alice in Wonderland a été écrit par :",
+      "options": [
+        "Lewis Carroll",
+        "Charles Dickens",
+        "J. M. Barrie"
+      ],
+      "reponse": "Lewis Carroll",
+      "explication": "En 1865."
+    },
+    {
+      "consigne": "Sherlock Holmes est :",
+      "options": [
+        "un détective",
+        "un pirate",
+        "un magicien"
+      ],
+      "reponse": "un détective",
+      "explication": "Il enquête."
+    },
+    {
+      "consigne": "Un monde où les animaux parlent est :",
+      "options": [
+        "imaginaire",
+        "réel",
+        "historique"
+      ],
+      "reponse": "imaginaire",
+      "explication": "Il n’existe pas."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 1,
+      "extrait": "Axe 3. Le réel et l’imaginaire",
+      "appui": "Le réel et l’imaginaire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

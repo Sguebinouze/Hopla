@@ -1,0 +1,133 @@
+{
+  "competence": "AL-C4-4E-REISE-01",
+  "duree": 5,
+  "essentiel": "Quelques villes : Berlin, Hamburg, München, Köln en Allemagne ; Wien et Salzburg en Autriche ; Zürich en Suisse.\nDes lieux connus : la porte de Brandebourg à Berlin, le château de Neuschwanstein, le Rhin.\nLe train : der Bahnhof, das Gleis, die Fahrkarte, abfahren, ankommen, umsteigen.",
+  "parties": [
+    {
+      "titre": "Lieux et villes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Repères",
+          "colonnes": [
+            "Lieu",
+            "Pays",
+            "À savoir"
+          ],
+          "lignes": [
+            [
+              "das Brandenburger Tor",
+              "Allemagne",
+              "symbole de Berlin et de la réunification"
+            ],
+            [
+              "Schloss Neuschwanstein",
+              "Allemagne",
+              "château de Bavière"
+            ],
+            [
+              "Salzburg",
+              "Autriche",
+              "ville natale de Mozart"
+            ],
+            [
+              "der Rhein",
+              "Suisse, Allemagne, Pays-Bas…",
+              "grand fleuve d’Europe"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Mozart est né à :",
+          "options": [
+            "Salzbourg",
+            "Vienne",
+            "Berlin"
+          ],
+          "reponse": "Salzbourg",
+          "explication": "En Autriche."
+        }
+      ]
+    },
+    {
+      "titre": "Prendre le train",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Am Bahnhof",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "eine Fahrkarte nach Köln",
+              "un billet pour Cologne"
+            ],
+            [
+              "Der Zug fährt um 9 Uhr ab.",
+              "Le train part à 9 h."
+            ],
+            [
+              "auf Gleis 4",
+              "voie 4"
+            ],
+            [
+              "Ich muss in Mainz umsteigen.",
+              "Je dois changer à Mayence."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « abfahren » et « ankommen ».",
+          "correction": "Abfahren : partir. Ankommen : arriver."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Das Gleis » est :",
+      "options": [
+        "la voie, le quai",
+        "le billet",
+        "le guichet"
+      ],
+      "reponse": "la voie, le quai",
+      "explication": "Auf Gleis 3."
+    },
+    {
+      "consigne": "« Umsteigen » veut dire :",
+      "options": [
+        "changer de train",
+        "descendre",
+        "réserver"
+      ],
+      "reponse": "changer de train",
+      "explication": "Correspondance."
+    },
+    {
+      "consigne": "La porte de Brandebourg se trouve à :",
+      "options": [
+        "Berlin",
+        "Munich",
+        "Hambourg"
+      ],
+      "reponse": "Berlin",
+      "explication": "Brandenburger Tor."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Voyages scolaires, touristiques.",
+      "appui": "Voyager en pays germanophone"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

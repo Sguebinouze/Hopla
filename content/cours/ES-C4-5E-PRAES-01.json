@@ -1,0 +1,122 @@
+{
+  "competence": "ES-C4-5E-PRAES-01",
+  "duree": 6,
+  "essentiel": "Au présent, on enlève -ar, -er ou -ir et on ajoute la terminaison du sujet.\nHablar : hablo, hablas, habla, hablamos, habláis, hablan. Comer : como, comes, come…\nLe sujet est souvent omis : la terminaison suffit. Hablo español.",
+  "parties": [
+    {
+      "titre": "Trois groupes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent",
+          "colonnes": [
+            "Sujet",
+            "hablar",
+            "comer",
+            "vivir"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "hablo",
+              "como",
+              "vivo"
+            ],
+            [
+              "tú",
+              "hablas",
+              "comes",
+              "vives"
+            ],
+            [
+              "él, ella, usted",
+              "habla",
+              "come",
+              "vive"
+            ],
+            [
+              "nosotros",
+              "hablamos",
+              "comemos",
+              "vivimos"
+            ],
+            [
+              "ellos, ustedes",
+              "hablan",
+              "comen",
+              "viven"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Nosotros … en Madrid. » (vivir)",
+          "options": [
+            "vivimos",
+            "vivemos",
+            "viven"
+          ],
+          "reponse": "vivimos",
+          "explication": "-ir : -imos."
+        }
+      ]
+    },
+    {
+      "titre": "Sans pronom",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Comes mucho : tu manges beaucoup. La terminaison -es indique tú."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « yo hablo » partout.",
+          "correction": "Le pronom n’est utile que pour insister : Hablo español."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ellos … la televisión. » (mirar)",
+      "options": [
+        "miran",
+        "miras",
+        "miramos"
+      ],
+      "reponse": "miran",
+      "explication": "Ellos : -an."
+    },
+    {
+      "consigne": "« Bebes » correspond à :",
+      "options": [
+        "tú",
+        "yo",
+        "ella"
+      ],
+      "reponse": "tú",
+      "explication": "Terminaison -es."
+    },
+    {
+      "consigne": "« Escribo » veut dire :",
+      "options": [
+        "j’écris",
+        "il écrit",
+        "nous écrivons"
+      ],
+      "reponse": "j’écris",
+      "explication": "Terminaison -o : yo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "Le présent de l’indicatif : connaitre le présent de l’indicatif des verbes les plus courants",
+      "appui": "Le présent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,110 @@
+{
+  "competence": "AL-C4-3E-FUT-01",
+  "duree": 5,
+  "essentiel": "Pour un projet : Ich möchte Ingenieurin werden. Nach dem Abitur werde ich studieren.\nLe présent avec un repère de temps suffit souvent : Nächstes Jahr mache ich ein Praktikum.\nLes métiers ont une forme féminine en -in : der Lehrer, die Lehrerin.",
+  "parties": [
+    {
+      "titre": "Les métiers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Berufe",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "der Arzt / die Ärztin",
+              "le médecin"
+            ],
+            [
+              "der Lehrer / die Lehrerin",
+              "le professeur"
+            ],
+            [
+              "der Ingenieur / die Ingenieurin",
+              "l’ingénieur"
+            ],
+            [
+              "der Koch / die Köchin",
+              "le cuisinier"
+            ],
+            [
+              "das Praktikum",
+              "le stage"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La forme féminine de « der Informatiker » :",
+          "options": [
+            "die Informatikerin",
+            "die Informatikere",
+            "die Informatik"
+          ],
+          "reponse": "die Informatikerin",
+          "explication": "-in."
+        }
+      ]
+    },
+    {
+      "titre": "Parler de son avenir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Später möchte ich als Tierärztin arbeiten, weil ich Tiere liebe."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich möchte ein Arzt werden ».",
+          "correction": "Pas d’article devant un métier : Ich möchte Arzt werden."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Sie wird Lehrerin.",
+        "Sie wird eine Lehrerin werden sein.",
+        "Sie werdet Lehrerin."
+      ],
+      "reponse": "Sie wird Lehrerin.",
+      "explication": "Pas d’article."
+    },
+    {
+      "consigne": "« Das Praktikum » est :",
+      "options": [
+        "le stage",
+        "la pratique sportive",
+        "le bac"
+      ],
+      "reponse": "le stage",
+      "explication": "En entreprise."
+    },
+    {
+      "consigne": "« Später » veut dire :",
+      "options": [
+        "plus tard",
+        "avant",
+        "souvent"
+      ],
+      "reponse": "plus tard",
+      "explication": "Repère de futur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 42,
+      "extrait": "Se raconter : origine, famille, voyages, imaginaire, projets.",
+      "appui": "Projets et métiers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,138 @@
+{
+  "competence": "ES-C4-3E-FUT-01",
+  "duree": 6,
+  "essentiel": "Le futur simple ajoute à l’infinitif : -é, -ás, -á, -emos, -éis, -án. Hablaré, comeré, viviré.\nIrréguliers : tendré, haré, podré, saldré, diré, vendré, querré.\nIr a + infinitif exprime un projet proche : Voy a estudiar medicina.",
+  "parties": [
+    {
+      "titre": "Former le futur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Futur simple",
+          "colonnes": [
+            "Sujet",
+            "trabajar",
+            "tener"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "trabajaré",
+              "tendré"
+            ],
+            [
+              "tú",
+              "trabajarás",
+              "tendrás"
+            ],
+            [
+              "él, ella",
+              "trabajará",
+              "tendrá"
+            ],
+            [
+              "nosotros",
+              "trabajaremos",
+              "tendremos"
+            ],
+            [
+              "ellos",
+              "trabajarán",
+              "tendrán"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« En el futuro, … en Londres. » (vivir, yo)",
+          "options": [
+            "viviré",
+            "vivaré",
+            "vivo"
+          ],
+          "reponse": "viviré",
+          "explication": "Infinitif + -é."
+        }
+      ]
+    },
+    {
+      "titre": "Parler de son métier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Profesiones",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "médico / médica",
+              "médecin"
+            ],
+            [
+              "ingeniero / ingeniera",
+              "ingénieur"
+            ],
+            [
+              "abogado / abogada",
+              "avocat"
+            ],
+            [
+              "profesor / profesora",
+              "professeur"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « teneré ».",
+          "correction": "Tener est irrégulier : tendré."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le futur de « hacer » (yo) :",
+      "options": [
+        "haré",
+        "haceré",
+        "hice"
+      ],
+      "reponse": "haré",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Seré profesora » veut dire :",
+      "options": [
+        "Je serai professeure.",
+        "J’étais professeure.",
+        "Je suis professeure."
+      ],
+      "reponse": "Je serai professeure.",
+      "explication": "Futur de ser."
+    },
+    {
+      "consigne": "« Podremos » vient de :",
+      "options": [
+        "poder",
+        "poner",
+        "pedir"
+      ],
+      "reponse": "poder",
+      "explication": "Irrégulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 42,
+      "extrait": "Se raconter : origine, famille, voyages, imaginaire, projets.",
+      "appui": "Futur et projets"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

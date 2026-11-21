@@ -1,0 +1,125 @@
+{
+  "competence": "AL-C4-4E-MOD-01",
+  "duree": 5,
+  "essentiel": "Können : capacité. Müssen : obligation. Dürfen : permission. Wollen : volonté.\nNicht dürfen exprime l’interdiction ; nicht müssen, l’absence d’obligation.\nLe verbe de modalité est en 2e position, l’infinitif en fin de phrase.",
+  "parties": [
+    {
+      "titre": "Quatre sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Modalités",
+          "colonnes": [
+            "Verbe",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "können",
+              "capacité",
+              "Ich kann Gitarre spielen."
+            ],
+            [
+              "müssen",
+              "obligation",
+              "Du musst aufräumen."
+            ],
+            [
+              "dürfen",
+              "permission",
+              "Darf ich rausgehen?"
+            ],
+            [
+              "wollen",
+              "volonté",
+              "Wir wollen ans Meer fahren."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Darf ich das Fenster öffnen? » sert à :",
+          "options": [
+            "demander la permission",
+            "exprimer une capacité",
+            "donner un ordre"
+          ],
+          "reponse": "demander la permission",
+          "explication": "Dürfen."
+        }
+      ]
+    },
+    {
+      "titre": "Interdiction ou pas d’obligation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Attention",
+          "colonnes": [
+            "Phrase",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "Du darfst hier nicht rauchen.",
+              "c’est interdit"
+            ],
+            [
+              "Du musst nicht kommen.",
+              "ce n’est pas obligatoire"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On traduit « tu ne dois pas » par « du musst nicht ».",
+          "correction": "Pour interdire : du darfst nicht. Du musst nicht : tu n’es pas obligé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Tu n’as pas le droit de courir ici » :",
+      "options": [
+        "Du darfst hier nicht laufen.",
+        "Du musst hier nicht laufen.",
+        "Du kannst hier laufen."
+      ],
+      "reponse": "Du darfst hier nicht laufen.",
+      "explication": "Interdiction."
+    },
+    {
+      "consigne": "« Ich muss nicht arbeiten. » veut dire :",
+      "options": [
+        "Je ne suis pas obligé de travailler.",
+        "Je n’ai pas le droit de travailler.",
+        "Je ne veux pas travailler."
+      ],
+      "reponse": "Je ne suis pas obligé de travailler.",
+      "explication": "Absence d’obligation."
+    },
+    {
+      "consigne": "« Sie will Ärztin werden. » exprime :",
+      "options": [
+        "une volonté",
+        "une obligation",
+        "une permission"
+      ],
+      "reponse": "une volonté",
+      "explication": "Wollen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir. Modaux.",
+      "appui": "Les verbes de modalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

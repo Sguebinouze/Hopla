@@ -1,0 +1,101 @@
+{
+  "competence": "LV-C4-4E-PRES-01",
+  "duree": 5,
+  "essentiel": "Le présent simple exprime une habitude ou une vérité : I play tennis on Mondays.\nBe + -ing exprime une action en cours : I am playing tennis now.\nCertains verbes d’état restent au présent simple : like, know, want, understand.",
+  "parties": [
+    {
+      "titre": "Habitude ou action en cours",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux présents",
+          "colonnes": [
+            "Présent",
+            "Emploi",
+            "Marqueurs"
+          ],
+          "lignes": [
+            [
+              "simple",
+              "habitude, vérité",
+              "every day, usually, on Sundays"
+            ],
+            [
+              "be + -ing",
+              "action en cours",
+              "now, at the moment, look!"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Listen! Someone … the piano. »",
+          "options": [
+            "is playing",
+            "plays",
+            "play"
+          ],
+          "reponse": "is playing",
+          "explication": "Listen! : en ce moment."
+        }
+      ]
+    },
+    {
+      "titre": "Verbes d’état",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On dit I know the answer, et pas I am knowing the answer."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I am liking this song ».",
+          "correction": "Like est un verbe d’état : I like this song."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« She … to school by bike every day. »",
+      "options": [
+        "goes",
+        "is going",
+        "go"
+      ],
+      "reponse": "goes",
+      "explication": "Habitude."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "I understand you.",
+        "I am understanding you.",
+        "I understanding you."
+      ],
+      "reponse": "I understand you.",
+      "explication": "Verbe d’état."
+    },
+    {
+      "consigne": "« At the moment » appelle :",
+      "options": [
+        "be + -ing",
+        "le présent simple",
+        "le prétérit"
+      ],
+      "reponse": "be + -ing",
+      "explication": "En ce moment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir.",
+      "appui": "Présent simple ou be + -ing"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

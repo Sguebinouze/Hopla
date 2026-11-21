@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-6E-GRAM-10",
+  "duree": 4,
+  "essentiel": "Les prépositions situent : in (dans), on (sur), under (sous), behind (derrière), in front of (devant).\nNext to : à côté de. Between : entre deux choses.\nQuestion : Where is my bag? Réponse : It’s under your chair.",
+  "parties": [
+    {
+      "titre": "Situer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Prépositions",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "in",
+              "dans"
+            ],
+            [
+              "on",
+              "sur"
+            ],
+            [
+              "under",
+              "sous"
+            ],
+            [
+              "between",
+              "entre"
+            ],
+            [
+              "next to",
+              "à côté de"
+            ],
+            [
+              "in front of / behind",
+              "devant / derrière"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The bank is between the café and the shop. » La banque est :",
+          "options": [
+            "entre le café et le magasin",
+            "derrière le café",
+            "devant le magasin"
+          ],
+          "reponse": "entre le café et le magasin",
+          "explication": "Between : entre."
+        }
+      ]
+    },
+    {
+      "titre": "Où est-il ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « in front the school ».",
+          "correction": "Il faut of : in front of the school."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Behind » veut dire :",
+      "options": [
+        "derrière",
+        "devant",
+        "à côté"
+      ],
+      "reponse": "derrière",
+      "explication": "Le contraire de in front of."
+    },
+    {
+      "consigne": "« The cat is on the bed. » Le chat est :",
+      "options": [
+        "sur le lit",
+        "sous le lit",
+        "dans le lit"
+      ],
+      "reponse": "sur le lit",
+      "explication": "On : sur."
+    },
+    {
+      "consigne": "« Where are my keys? » « … the drawer. » (dans)",
+      "options": [
+        "In",
+        "On",
+        "At"
+      ],
+      "reponse": "In",
+      "explication": "In : dans."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 13,
+      "extrait": "Utiliser quelques prépositions permettant des repérages dans l’espace",
+      "appui": "Les prépositions de lieu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

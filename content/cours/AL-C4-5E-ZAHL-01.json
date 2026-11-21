@@ -1,0 +1,132 @@
+{
+  "competence": "AL-C4-5E-ZAHL-01",
+  "duree": 5,
+  "essentiel": "De 21 à 99, on dit l’unité avant la dizaine : einundzwanzig (21), fünfunddreißig (35).\nL’heure : acht Uhr (8 h), Viertel nach acht (8 h 15), Viertel vor neun (8 h 45).\nHalb neun veut dire 8 h 30 : la moitié de l’heure avant neuf heures.",
+  "parties": [
+    {
+      "titre": "Compter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Zahlen",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "zwanzig",
+              "20"
+            ],
+            [
+              "einundzwanzig",
+              "21"
+            ],
+            [
+              "dreißig",
+              "30"
+            ],
+            [
+              "siebenundvierzig",
+              "47"
+            ],
+            [
+              "hundert",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Dreiundsechzig » :",
+          "options": [
+            "63",
+            "36",
+            "73"
+          ],
+          "reponse": "63",
+          "explication": "Drei und sechzig : 3 et 60."
+        }
+      ]
+    },
+    {
+      "titre": "Dire l’heure",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Wie spät ist es?",
+          "colonnes": [
+            "Allemand",
+            "Heure"
+          ],
+          "lignes": [
+            [
+              "Es ist acht Uhr.",
+              "8 h"
+            ],
+            [
+              "Es ist Viertel nach acht.",
+              "8 h 15"
+            ],
+            [
+              "Es ist halb neun.",
+              "8 h 30"
+            ],
+            [
+              "Es ist Viertel vor neun.",
+              "8 h 45"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit « halb neun » comme 9 h 30.",
+          "correction": "Halb neun : la demie avant neuf heures, soit 8 h 30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Halb sieben » :",
+      "options": [
+        "6 h 30",
+        "7 h 30",
+        "7 h 15"
+      ],
+      "reponse": "6 h 30",
+      "explication": "La demie avant sept."
+    },
+    {
+      "consigne": "« Achtundzwanzig » :",
+      "options": [
+        "28",
+        "82",
+        "18"
+      ],
+      "reponse": "28",
+      "explication": "Acht und zwanzig."
+    },
+    {
+      "consigne": "« Viertel nach zwei » :",
+      "options": [
+        "2 h 15",
+        "1 h 45",
+        "2 h 45"
+      ],
+      "reponse": "2 h 15",
+      "explication": "Nach : après."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 22,
+      "extrait": "compter jusqu’à 100, les adjectifs ordinaux (erste, zweite, zwanzigste), l’heure",
+      "appui": "Nombres et heure"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

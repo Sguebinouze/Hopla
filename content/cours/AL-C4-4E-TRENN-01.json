@@ -1,0 +1,117 @@
+{
+  "competence": "AL-C4-4E-TRENN-01",
+  "duree": 5,
+  "essentiel": "Beaucoup de verbes ont une particule séparable : aufstehen, fernsehen, einkaufen, anfangen.\nAu présent, la particule part en fin de phrase : Ich stehe um sieben Uhr auf.\nL’heure se donne avec um : um acht Uhr, um halb neun.",
+  "parties": [
+    {
+      "titre": "La particule à la fin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Verbes séparables",
+          "colonnes": [
+            "Infinitif",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "aufstehen",
+              "se lever",
+              "Ich stehe um 7 Uhr auf."
+            ],
+            [
+              "fernsehen",
+              "regarder la télé",
+              "Er sieht abends fern."
+            ],
+            [
+              "einkaufen",
+              "faire les courses",
+              "Wir kaufen am Samstag ein."
+            ],
+            [
+              "anfangen",
+              "commencer",
+              "Die Schule fängt um 8 Uhr an."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich … um 7 Uhr … » (aufstehen)",
+          "options": [
+            "stehe … auf",
+            "aufstehe … ",
+            "stehe auf … "
+          ],
+          "reponse": "stehe … auf",
+          "explication": "La particule part à la fin."
+        }
+      ]
+    },
+    {
+      "titre": "Ma journée",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Raconter",
+          "etapes": [
+            "Um 7 Uhr stehe ich auf.",
+            "Dann frühstücke ich.",
+            "Um 8 Uhr fängt die Schule an.",
+            "Abends sehe ich fern."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich aufstehe ».",
+          "correction": "Au présent, on sépare : Ich stehe auf."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wann … der Film … ? » (anfangen)",
+      "options": [
+        "fängt … an",
+        "anfängt … ",
+        "fängt an …"
+      ],
+      "reponse": "fängt … an",
+      "explication": "Particule à la fin."
+    },
+    {
+      "consigne": "« À huit heures » se dit :",
+      "options": [
+        "um acht Uhr",
+        "an acht Uhr",
+        "in acht Uhr"
+      ],
+      "reponse": "um acht Uhr",
+      "explication": "Um + heure."
+    },
+    {
+      "consigne": "« Fernsehen » veut dire :",
+      "options": [
+        "regarder la télévision",
+        "voir de loin",
+        "téléphoner"
+      ],
+      "reponse": "regarder la télévision",
+      "explication": "Fern : loin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 42,
+      "extrait": "Peut décrire ou présenter simplement des gens, des conditions de vie, des activités quotidiennes",
+      "appui": "Ma journée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

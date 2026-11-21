@@ -1,0 +1,124 @@
+{
+  "competence": "AL-C4-3E-KONN-01",
+  "duree": 6,
+  "essentiel": "Denn (car) et aber (mais) ne changent pas l’ordre : le verbe reste en 2e position après le sujet.\nDeshalb (c’est pourquoi) et trotzdem (malgré tout) occupent la 1re place : le verbe vient juste après.\nWeil, au contraire, renvoie le verbe à la fin.",
+  "parties": [
+    {
+      "titre": "Trois comportements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Place du verbe",
+          "colonnes": [
+            "Connecteur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "denn, aber",
+              "Ich bleibe zu Hause, denn ich bin krank."
+            ],
+            [
+              "deshalb, trotzdem",
+              "Ich bin krank, deshalb bleibe ich zu Hause."
+            ],
+            [
+              "weil",
+              "Ich bleibe zu Hause, weil ich krank bin."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Es regnet, trotzdem … spazieren. »",
+          "options": [
+            "gehe ich",
+            "ich gehe",
+            "ich spazieren gehe"
+          ],
+          "reponse": "gehe ich",
+          "explication": "Trotzdem en 1re place : verbe puis sujet."
+        }
+      ]
+    },
+    {
+      "titre": "Le sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Konnektoren",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "denn",
+              "car"
+            ],
+            [
+              "aber",
+              "mais"
+            ],
+            [
+              "deshalb",
+              "c’est pourquoi"
+            ],
+            [
+              "trotzdem",
+              "malgré tout, quand même"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « deshalb ich bleibe ».",
+          "correction": "Après deshalb, le verbe passe avant le sujet : deshalb bleibe ich."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ich lerne viel, denn ich … gute Noten. »",
+      "options": [
+        "will",
+        "gute Noten will",
+        "will ich"
+      ],
+      "reponse": "will",
+      "explication": "Denn : ordre normal."
+    },
+    {
+      "consigne": "« Deshalb » exprime :",
+      "options": [
+        "une conséquence",
+        "une cause",
+        "une opposition"
+      ],
+      "reponse": "une conséquence",
+      "explication": "C’est pourquoi."
+    },
+    {
+      "consigne": "« Er ist müde, … spielt er weiter. »",
+      "options": [
+        "trotzdem",
+        "denn",
+        "weil"
+      ],
+      "reponse": "trotzdem",
+      "explication": "Malgré tout."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 21,
+      "extrait": "Connecteurs",
+      "appui": "Deshalb, trotzdem, denn"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

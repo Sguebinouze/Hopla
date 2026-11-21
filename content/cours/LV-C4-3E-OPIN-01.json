@@ -1,0 +1,112 @@
+{
+  "competence": "LV-C4-3E-OPIN-01",
+  "duree": 5,
+  "essentiel": "Donner son avis : I think that…, In my opinion…, As far as I’m concerned…\nAccord et désaccord : I agree with you. I totally disagree. I see your point, but…\nArgumenter : firstly, secondly, for example, that’s why.",
+  "parties": [
+    {
+      "titre": "Exprimer un avis",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Opinion",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "In my opinion,…",
+              "À mon avis,…"
+            ],
+            [
+              "I strongly believe that…",
+              "Je crois fermement que…"
+            ],
+            [
+              "I see your point, but…",
+              "Je comprends ton idée, mais…"
+            ],
+            [
+              "I totally disagree.",
+              "Je ne suis pas du tout d’accord."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I see your point, but… » sert à :",
+          "options": [
+            "nuancer avant de contredire",
+            "approuver totalement",
+            "changer de sujet"
+          ],
+          "reponse": "nuancer avant de contredire",
+          "explication": "On reconnait l’idée de l’autre."
+        }
+      ]
+    },
+    {
+      "titre": "Construire un argument",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un paragraphe argumenté",
+          "etapes": [
+            "Annonce ton avis : In my opinion, school uniforms are useful.",
+            "Donne une raison : Firstly, everybody looks the same.",
+            "Illustre : For example, nobody is judged on their clothes.",
+            "Conclus : That’s why I support them."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « According to me ».",
+          "correction": "On dit In my opinion ou I think."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« À mon avis » se dit :",
+      "options": [
+        "In my opinion",
+        "According to me",
+        "For my opinion"
+      ],
+      "reponse": "In my opinion",
+      "explication": "Tournure correcte."
+    },
+    {
+      "consigne": "« That’s why » introduit :",
+      "options": [
+        "une conséquence",
+        "un exemple",
+        "une opposition"
+      ],
+      "reponse": "une conséquence",
+      "explication": "C’est pourquoi."
+    },
+    {
+      "consigne": "Quelle phrase exprime un désaccord ?",
+      "options": [
+        "I don’t agree at all.",
+        "I couldn’t agree more.",
+        "You’re absolutely right."
+      ],
+      "reponse": "I don’t agree at all.",
+      "explication": "Pas du tout d’accord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 41,
+      "extrait": "Peut exprimer un avis, manifester un sentiment et donner quelques éléments simples de contexte sur un sujet abstrait ou culturel.",
+      "appui": "Donner son avis"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

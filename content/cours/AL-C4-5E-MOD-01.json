@@ -1,0 +1,116 @@
+{
+  "competence": "AL-C4-5E-MOD-01",
+  "duree": 6,
+  "essentiel": "Les verbes de modalité : können (pouvoir, savoir), müssen (devoir), wollen (vouloir), dürfen (avoir le droit), mögen (aimer), möchten (voudrais).\nAu singulier, ils changent de voyelle : ich kann, ich muss, ich will, ich darf.\nL’infinitif se place en fin de phrase : Ich kann gut schwimmen.",
+  "parties": [
+    {
+      "titre": "La conjugaison",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au présent",
+          "colonnes": [
+            "Sujet",
+            "können",
+            "müssen",
+            "wollen"
+          ],
+          "lignes": [
+            [
+              "ich",
+              "kann",
+              "muss",
+              "will"
+            ],
+            [
+              "du",
+              "kannst",
+              "musst",
+              "willst"
+            ],
+            [
+              "er, sie, es",
+              "kann",
+              "muss",
+              "will"
+            ],
+            [
+              "wir",
+              "können",
+              "müssen",
+              "wollen"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Er … heute nicht kommen. » (pouvoir)",
+          "options": [
+            "kann",
+            "könnt",
+            "können"
+          ],
+          "reponse": "kann",
+          "explication": "Er kann, sans terminaison."
+        }
+      ]
+    },
+    {
+      "titre": "L’infinitif à la fin",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ich möchte ein Eis essen. Du darfst hier nicht rauchen."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich will. » au sens de « je vais ».",
+          "correction": "Wollen exprime la volonté, pas le futur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ich möchte » veut dire :",
+      "options": [
+        "je voudrais",
+        "je dois",
+        "je peux"
+      ],
+      "reponse": "je voudrais",
+      "explication": "Souhait poli."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Ich muss jetzt gehen.",
+        "Ich muss gehen jetzt.",
+        "Ich gehen muss jetzt."
+      ],
+      "reponse": "Ich muss jetzt gehen.",
+      "explication": "Infinitif à la fin."
+    },
+    {
+      "consigne": "« Du darfst » exprime :",
+      "options": [
+        "une permission",
+        "une obligation",
+        "une capacité"
+      ],
+      "reponse": "une permission",
+      "explication": "Dürfen : avoir le droit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "les six verbes modaux : können, müssen, wollen, mögen, dürfen, sollen",
+      "appui": "Les verbes de modalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

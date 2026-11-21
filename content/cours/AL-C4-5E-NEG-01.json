@@ -1,0 +1,111 @@
+{
+  "competence": "AL-C4-5E-NEG-01",
+  "duree": 5,
+  "essentiel": "Kein nie un nom précédé de ein ou sans article : Ich habe einen Hund → Ich habe keinen Hund.\nNicht nie tout le reste : un verbe, un adjectif, un nom avec article défini.\nIch spiele nicht. Das ist nicht mein Buch.",
+  "parties": [
+    {
+      "titre": "Kein ou nicht",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Choisir",
+          "colonnes": [
+            "Phrase affirmative",
+            "Négation"
+          ],
+          "lignes": [
+            [
+              "Ich habe eine Katze.",
+              "Ich habe keine Katze."
+            ],
+            [
+              "Ich trinke Milch.",
+              "Ich trinke keine Milch."
+            ],
+            [
+              "Ich schwimme.",
+              "Ich schwimme nicht."
+            ],
+            [
+              "Das Buch ist teuer.",
+              "Das Buch ist nicht teuer."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich habe … Zeit. »",
+          "options": [
+            "keine",
+            "nicht",
+            "kein"
+          ],
+          "reponse": "keine",
+          "explication": "Nom sans article : kein ; Zeit est féminin."
+        }
+      ]
+    },
+    {
+      "titre": "Le bon réflexe",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Choisir",
+          "etapes": [
+            "Y a-t-il un nom avec ein ou sans article ?",
+            "Oui : kein, accordé comme ein.",
+            "Non : nicht."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich habe nicht einen Bruder ».",
+          "correction": "Devant ein + nom : Ich habe keinen Bruder."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ich spiele … Klavier. » (pas de piano)",
+      "options": [
+        "kein",
+        "nicht",
+        "keine"
+      ],
+      "reponse": "kein",
+      "explication": "Nom sans article, neutre : kein."
+    },
+    {
+      "consigne": "« Er ist … müde. »",
+      "options": [
+        "nicht",
+        "kein",
+        "keine"
+      ],
+      "reponse": "nicht",
+      "explication": "Adjectif : nicht."
+    },
+    {
+      "consigne": "« Wir kommen heute … . »",
+      "options": [
+        "nicht",
+        "kein",
+        "keinen"
+      ],
+      "reponse": "nicht",
+      "explication": "Verbe : nicht."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "utiliser le déterminant négateur kein",
+      "appui": "Nicht ou kein"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

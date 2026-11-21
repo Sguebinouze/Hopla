@@ -1,0 +1,132 @@
+{
+  "competence": "ES-C4-5E-GUST-01",
+  "duree": 5,
+  "essentiel": "Me gusta + nom singulier ou infinitif : me gusta el fútbol, me gusta leer.\nMe gustan + nom pluriel : me gustan los gatos. Me encanta : j’adore.\nLa préférence : prefiero la playa. No me gusta nada : je n’aime pas du tout.",
+  "parties": [
+    {
+      "titre": "Gusta ou gustan",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accord",
+          "colonnes": [
+            "Complément",
+            "Verbe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "singulier",
+              "gusta",
+              "Me gusta la música."
+            ],
+            [
+              "infinitif",
+              "gusta",
+              "Me gusta bailar."
+            ],
+            [
+              "pluriel",
+              "gustan",
+              "Me gustan las películas."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Me … los perros. »",
+          "options": [
+            "gustan",
+            "gusta",
+            "gusto"
+          ],
+          "reponse": "gustan",
+          "explication": "Perros est au pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Pour chacun",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Gustar",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "me gusta",
+              "j’aime"
+            ],
+            [
+              "te gusta",
+              "tu aimes"
+            ],
+            [
+              "le gusta",
+              "il, elle aime"
+            ],
+            [
+              "prefiero",
+              "je préfère"
+            ],
+            [
+              "me encanta",
+              "j’adore"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Yo gusto el chocolate ».",
+          "correction": "La chose plait à la personne : Me gusta el chocolate."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« ¿Te … el chocolate? »",
+      "options": [
+        "gusta",
+        "gustan",
+        "gustas"
+      ],
+      "reponse": "gusta",
+      "explication": "Singulier."
+    },
+    {
+      "consigne": "« Me encanta nadar. » veut dire :",
+      "options": [
+        "J’adore nager.",
+        "Je dois nager.",
+        "Je sais nager."
+      ],
+      "reponse": "J’adore nager.",
+      "explication": "Encantar."
+    },
+    {
+      "consigne": "« Prefiero » veut dire :",
+      "options": [
+        "je préfère",
+        "je prends",
+        "je prévois"
+      ],
+      "reponse": "je préfère",
+      "explication": "Preferir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 9,
+      "extrait": "Exprimer simplement ses gouts et préférences en",
+      "appui": "Gouts et préférences"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

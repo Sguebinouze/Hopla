@@ -1,0 +1,107 @@
+{
+  "competence": "AL-C4-5E-COMP-01",
+  "duree": 5,
+  "essentiel": "Le comparatif ajoute -er à l’adjectif et se suit de als : Berlin ist größer als Bonn.\nL’égalité se dit so… wie : Ich bin so groß wie mein Bruder.\nGut a un comparatif irrégulier : besser.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparatifs",
+          "colonnes": [
+            "Adjectif",
+            "Comparatif",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "schön",
+              "schöner",
+              "Der Park ist schöner als der Platz."
+            ],
+            [
+              "schnell",
+              "schneller",
+              "Das Auto ist schneller als das Rad."
+            ],
+            [
+              "alt",
+              "älter",
+              "Mein Opa ist älter als meine Oma."
+            ],
+            [
+              "gut",
+              "besser",
+              "Pizza ist besser als Suppe."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mathe ist … als Deutsch. » (difficile : schwer)",
+          "options": [
+            "schwerer",
+            "mehr schwer",
+            "schwerest"
+          ],
+          "reponse": "schwerer",
+          "explication": "Schwer + -er."
+        }
+      ]
+    },
+    {
+      "titre": "Als ou wie",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « größer wie ».",
+          "correction": "Après un comparatif : als. Pour l’égalité : so… wie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le comparatif de « gut » est :",
+      "options": [
+        "besser",
+        "guter",
+        "mehr gut"
+      ],
+      "reponse": "besser",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Ich bin so alt … du. »",
+      "options": [
+        "wie",
+        "als",
+        "dass"
+      ],
+      "reponse": "wie",
+      "explication": "Égalité : so… wie."
+    },
+    {
+      "consigne": "« Kleiner als » veut dire :",
+      "options": [
+        "plus petit que",
+        "aussi petit que",
+        "le plus petit"
+      ],
+      "reponse": "plus petit que",
+      "explication": "Comparatif + als."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 24,
+      "extrait": "Utiliser le comparatif de supériorité, d’égalité et d’infériorité de divers adjectifs",
+      "appui": "Comparer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

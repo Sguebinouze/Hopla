@@ -1,0 +1,138 @@
+{
+  "competence": "LV-C4-3E-MOD-01",
+  "duree": 6,
+  "essentiel": "Should : conseil. Must ou have to : obligation. Mustn’t : interdiction. Don’t have to : absence d’obligation.\nMay et might : possibilité. Must : forte probabilité. Can’t : impossibilité logique.\nLes modaux sont suivis de la base verbale, sans to.",
+  "parties": [
+    {
+      "titre": "Obligation et conseil",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Modaux",
+          "colonnes": [
+            "Modal",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "should",
+              "conseil",
+              "You should rest."
+            ],
+            [
+              "must / have to",
+              "obligation",
+              "You must wear a seatbelt."
+            ],
+            [
+              "mustn’t",
+              "interdiction",
+              "You mustn’t smoke here."
+            ],
+            [
+              "don’t have to",
+              "pas obligatoire",
+              "You don’t have to come."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« You don’t have to pay. » veut dire :",
+          "options": [
+            "Ce n’est pas obligatoire de payer.",
+            "Il est interdit de payer.",
+            "Tu dois payer."
+          ],
+          "reponse": "Ce n’est pas obligatoire de payer.",
+          "explication": "Absence d’obligation."
+        }
+      ]
+    },
+    {
+      "titre": "Probabilité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du moins au plus sûr",
+          "colonnes": [
+            "Modal",
+            "Degré",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "might",
+              "possible",
+              "It might rain."
+            ],
+            [
+              "may",
+              "possible",
+              "She may be at home."
+            ],
+            [
+              "must",
+              "très probable",
+              "He must be tired."
+            ],
+            [
+              "can’t",
+              "impossible",
+              "It can’t be true."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « mustn’t » et « don’t have to ».",
+          "correction": "Mustn’t : c’est interdit. Don’t have to : ce n’est pas nécessaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« He has run for hours. He … be exhausted. »",
+      "options": [
+        "must",
+        "mustn’t",
+        "shouldn’t"
+      ],
+      "reponse": "must",
+      "explication": "Déduction forte."
+    },
+    {
+      "consigne": "« Tu ne dois pas toucher ça » se dit :",
+      "options": [
+        "You mustn’t touch that.",
+        "You don’t have to touch that.",
+        "You might not touch that."
+      ],
+      "reponse": "You mustn’t touch that.",
+      "explication": "Interdiction."
+    },
+    {
+      "consigne": "« It might snow. » exprime :",
+      "options": [
+        "une possibilité",
+        "une certitude",
+        "une obligation"
+      ],
+      "reponse": "une possibilité",
+      "explication": "Might."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir. Modaux.",
+      "appui": "Les modaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

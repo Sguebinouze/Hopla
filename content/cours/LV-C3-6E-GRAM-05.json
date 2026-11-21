@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-6E-GRAM-05",
+  "duree": 5,
+  "essentiel": "There is + singulier, there are + pluriel : il y a.\nLe pluriel se forme le plus souvent avec -s : cats. Après -s, -sh, -ch, -x : -es (boxes).\nPluriels irréguliers : child → children, man → men, woman → women, foot → feet, tooth → teeth, mouse → mice.",
+  "parties": [
+    {
+      "titre": "There is, there are",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "There is a bed in my room. There are two windows. Is there a garden? No, there isn’t."
+        },
+        {
+          "type": "question",
+          "consigne": "« … three bedrooms in my house. »",
+          "options": [
+            "There are",
+            "There is",
+            "They are"
+          ],
+          "reponse": "There are",
+          "explication": "Pluriel : there are."
+        }
+      ]
+    },
+    {
+      "titre": "Les pluriels",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Irréguliers",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a child → children",
+              "enfant"
+            ],
+            [
+              "a man → men",
+              "homme"
+            ],
+            [
+              "a foot → feet",
+              "pied"
+            ],
+            [
+              "a tooth → teeth",
+              "dent"
+            ],
+            [
+              "a mouse → mice",
+              "souris"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « childs » ou « foots ».",
+          "correction": "Ces pluriels sont irréguliers : children, feet."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le pluriel de « box » est :",
+      "options": [
+        "boxes",
+        "boxs",
+        "boxen"
+      ],
+      "reponse": "boxes",
+      "explication": "Après -x : -es."
+    },
+    {
+      "consigne": "« … a cat on the sofa. »",
+      "options": [
+        "There is",
+        "There are",
+        "It are"
+      ],
+      "reponse": "There is",
+      "explication": "Un seul chat."
+    },
+    {
+      "consigne": "Le pluriel de « woman » est :",
+      "options": [
+        "women",
+        "womans",
+        "womens"
+      ],
+      "reponse": "women",
+      "explication": "Pluriel irrégulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Appliquer les règles d’accord élémentaires : there is/there are, foot/feet, child/children, woman/women",
+      "appui": "There is, there are et les pluriels"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

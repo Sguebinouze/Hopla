@@ -1,0 +1,118 @@
+{
+  "competence": "ES-C4-5E-DIPH-01",
+  "duree": 5,
+  "essentiel": "Certains verbes changent de voyelle quand l’accent tombe sur le radical : poder → puedo, empezar → empiezo, volver → vuelvo.\nLa diphtongue apparait à yo, tú, él et ellos.\nNosotros et vosotros gardent la voyelle de l’infinitif : podemos, empezamos.",
+  "parties": [
+    {
+      "titre": "Les diphtongues",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent",
+          "colonnes": [
+            "Sujet",
+            "poder",
+            "empezar",
+            "volver"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "puedo",
+              "empiezo",
+              "vuelvo"
+            ],
+            [
+              "tú",
+              "puedes",
+              "empiezas",
+              "vuelves"
+            ],
+            [
+              "él, ella",
+              "puede",
+              "empieza",
+              "vuelve"
+            ],
+            [
+              "nosotros",
+              "podemos",
+              "empezamos",
+              "volvemos"
+            ],
+            [
+              "ellos",
+              "pueden",
+              "empiezan",
+              "vuelven"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« La clase … a las ocho. » (empezar)",
+          "options": [
+            "empieza",
+            "empeza",
+            "empiezamos"
+          ],
+          "reponse": "empieza",
+          "explication": "E → ie."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On diphtongue aussi nosotros : « puedemos ».",
+          "correction": "Nosotros garde la voyelle : podemos."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« ¿… venir conmigo? » (poder, tú)",
+      "options": [
+        "Puedes",
+        "Podes",
+        "Pueden"
+      ],
+      "reponse": "Puedes",
+      "explication": "O → ue."
+    },
+    {
+      "consigne": "« Nosotros … a casa. » (volver)",
+      "options": [
+        "volvemos",
+        "vuelvemos",
+        "vuelven"
+      ],
+      "reponse": "volvemos",
+      "explication": "Pas de diphtongue."
+    },
+    {
+      "consigne": "« Quiero » vient de :",
+      "options": [
+        "querer",
+        "quedar",
+        "quitar"
+      ],
+      "reponse": "querer",
+      "explication": "E → ie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "des verbes à diphtongue courants : poder, empezar, volver",
+      "appui": "Verbes à diphtongue"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

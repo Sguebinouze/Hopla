@@ -1,0 +1,106 @@
+{
+  "competence": "AL-C4-5E-GOUT-01",
+  "duree": 5,
+  "essentiel": "Mögen + nom : Ich mag Pizza. Verbe + gern : Ich spiele gern Tennis.\nLieber marque la préférence, am liebsten le plus haut degré : Ich lese lieber. Am liebsten schwimme ich.\nLieblings- forme un nom : mein Lieblingsfach, meine Lieblingsfarbe.",
+  "parties": [
+    {
+      "titre": "Gern, lieber, am liebsten",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une échelle",
+          "colonnes": [
+            "Degré",
+            "Exemple",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "gern",
+              "Ich spiele gern Fußball.",
+              "j’aime jouer au foot"
+            ],
+            [
+              "lieber",
+              "Ich spiele lieber Tennis.",
+              "je préfère le tennis"
+            ],
+            [
+              "am liebsten",
+              "Am liebsten schwimme ich.",
+              "ce que je préfère, c’est nager"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich tanze nicht gern. » veut dire :",
+          "options": [
+            "Je n’aime pas danser.",
+            "Je danse souvent.",
+            "Je ne danse pas bien."
+          ],
+          "reponse": "Je n’aime pas danser.",
+          "explication": "Nicht gern."
+        }
+      ]
+    },
+    {
+      "titre": "Mögen et Lieblings-",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ich mag Hunde. Mein Lieblingstier ist der Hund."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich mag spielen Fußball ».",
+          "correction": "Avec un verbe, on emploie gern : Ich spiele gern Fußball."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Mon sport préféré » se dit :",
+      "options": [
+        "mein Lieblingssport",
+        "mein Sport lieber",
+        "mein gern Sport"
+      ],
+      "reponse": "mein Lieblingssport",
+      "explication": "Lieblings- + nom."
+    },
+    {
+      "consigne": "« Ich esse lieber Fisch. » exprime :",
+      "options": [
+        "une préférence",
+        "un dégout",
+        "une obligation"
+      ],
+      "reponse": "une préférence",
+      "explication": "Lieber."
+    },
+    {
+      "consigne": "« Ich mag … » se complète par :",
+      "options": [
+        "un nom",
+        "un verbe conjugué",
+        "gern"
+      ],
+      "reponse": "un nom",
+      "explication": "Ich mag Musik."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 9,
+      "extrait": "Exprimer simplement ses gouts et préférences en",
+      "appui": "Gouts et préférences"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

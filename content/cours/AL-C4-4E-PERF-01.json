@@ -1,0 +1,132 @@
+{
+  "competence": "AL-C4-4E-PERF-01",
+  "duree": 6,
+  "essentiel": "Le parfait se forme avec haben ou sein + participe passé en fin de phrase.\nSein s’emploie avec les verbes de déplacement ou de changement d’état : Ich bin nach Berlin gefahren.\nBeaucoup de participes sont irréguliers : gegessen, getrunken, gesehen, gegangen.",
+  "parties": [
+    {
+      "titre": "Haben ou sein",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Auxiliaire",
+          "colonnes": [
+            "Auxiliaire",
+            "Verbes",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "haben",
+              "la plupart des verbes",
+              "Ich habe Pizza gegessen."
+            ],
+            [
+              "sein",
+              "déplacement, changement",
+              "Wir sind ins Kino gegangen."
+            ],
+            [
+              "sein",
+              "sein, bleiben",
+              "Er ist zu Hause geblieben."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Letzten Sommer … wir nach Spanien geflogen. »",
+          "options": [
+            "sind",
+            "haben",
+            "ist"
+          ],
+          "reponse": "sind",
+          "explication": "Déplacement : sein."
+        }
+      ]
+    },
+    {
+      "titre": "Participes irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Partizipien",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "essen → gegessen",
+              "manger"
+            ],
+            [
+              "trinken → getrunken",
+              "boire"
+            ],
+            [
+              "sehen → gesehen",
+              "voir"
+            ],
+            [
+              "gehen → gegangen",
+              "aller"
+            ],
+            [
+              "aufstehen → aufgestanden",
+              "se lever"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich habe nach Paris gefahren ».",
+          "correction": "Fahren est un déplacement : Ich bin nach Paris gefahren."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le participe de « trinken » est :",
+      "options": [
+        "getrunken",
+        "getrinkt",
+        "trankt"
+      ],
+      "reponse": "getrunken",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Er … spät aufgestanden. »",
+      "options": [
+        "ist",
+        "hat",
+        "wird"
+      ],
+      "reponse": "ist",
+      "explication": "Changement d’état : sein."
+    },
+    {
+      "consigne": "« Hast du den Film … ? »",
+      "options": [
+        "gesehen",
+        "gesieht",
+        "sehen"
+      ],
+      "reponse": "gesehen",
+      "explication": "Sehen → gesehen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 43,
+      "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles.",
+      "appui": "Raconter au parfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,101 @@
+{
+  "competence": "ES-C4-5E-ART-01",
+  "duree": 5,
+  "essentiel": "Articles définis : el, la, los, las. Indéfinis : un, una, unos, unas.\nLe pluriel ajoute -s après une voyelle, -es après une consonne : libro → libros, ciudad → ciudades.\nL’adjectif s’accorde, et le nom de pays s’emploie sans article : Vivo en España.",
+  "parties": [
+    {
+      "titre": "Articles et pluriel",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Articles",
+          "colonnes": [
+            "Genre",
+            "Singulier",
+            "Pluriel"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "el / un chico",
+              "los / unos chicos"
+            ],
+            [
+              "féminin",
+              "la / una chica",
+              "las / unas chicas"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pluriel de « el país » est :",
+          "options": [
+            "los países",
+            "los paíss",
+            "las países"
+          ],
+          "reponse": "los países",
+          "explication": "Consonne : -es."
+        }
+      ]
+    },
+    {
+      "titre": "L’accord",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un chico alto, una chica alta, unos chicos altos, unas chicas altas."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Vivo en la Francia ».",
+          "correction": "La plupart des pays n’ont pas d’article : Vivo en Francia."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … casas » (les)",
+      "options": [
+        "las",
+        "los",
+        "la"
+      ],
+      "reponse": "las",
+      "explication": "Féminin pluriel."
+    },
+    {
+      "consigne": "« Una playa … » (bonita)",
+      "options": [
+        "bonita",
+        "bonito",
+        "bonitas"
+      ],
+      "reponse": "bonita",
+      "explication": "Accord au féminin singulier."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Vivo en México.",
+        "Vivo en el México.",
+        "Vivo a México."
+      ],
+      "reponse": "Vivo en México.",
+      "explication": "Pas d’article."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "Articles définis (el/la/los/las) ; deux formes d’articles indéfinis (un/una, unos/unas).",
+      "appui": "Articles, genre et pluriel"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

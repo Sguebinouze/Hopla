@@ -1,0 +1,106 @@
+{
+  "competence": "ES-C4-3E-HIST-01",
+  "duree": 6,
+  "essentiel": "1492 : prise de Grenade et premier voyage de Christophe Colomb vers l’Amérique pour les Rois catholiques.\nAu XVIe siècle, les Espagnols conquièrent les empires aztèque (Cortés) et inca (Pizarro). Au XIXe, l’Amérique espagnole devient indépendante.\nEn Espagne, la guerre civile (1936-1939) mène à la dictature de Franco, jusqu’en 1975 ; la démocratie revient avec la Constitution de 1978.",
+  "parties": [
+    {
+      "titre": "Une frise",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1492,
+              "date": "1492",
+              "evenement": "Prise de Grenade, Colomb atteint l’Amérique."
+            },
+            {
+              "annee": 1521,
+              "date": "1521",
+              "evenement": "Chute de Tenochtitlan, capitale aztèque."
+            },
+            {
+              "annee": 1810,
+              "date": "1810-1825",
+              "evenement": "Indépendances en Amérique (Bolívar, San Martín)."
+            },
+            {
+              "annee": 1936,
+              "date": "1936-1939",
+              "evenement": "Guerre civile espagnole."
+            },
+            {
+              "annee": 1978,
+              "date": "1978",
+              "evenement": "Constitution démocratique espagnole."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Simón Bolívar est connu pour :",
+          "options": [
+            "les indépendances d’Amérique du Sud",
+            "la conquête du Mexique",
+            "la guerre civile espagnole"
+          ],
+          "reponse": "les indépendances d’Amérique du Sud",
+          "explication": "El Libertador."
+        }
+      ]
+    },
+    {
+      "titre": "Situer les évènements",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que Franco a gouverné jusqu’à la Constitution de 1978.",
+          "correction": "Franco meurt en 1975 ; la transition aboutit à la Constitution de 1978."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En 1492, Christophe Colomb :",
+      "options": [
+        "atteint l’Amérique",
+        "conquiert le Pérou",
+        "fonde Madrid"
+      ],
+      "reponse": "atteint l’Amérique",
+      "explication": "Pour les Rois catholiques."
+    },
+    {
+      "consigne": "L’empire inca a été conquis par :",
+      "options": [
+        "Pizarro",
+        "Cortés",
+        "Bolívar"
+      ],
+      "reponse": "Pizarro",
+      "explication": "Au Pérou."
+    },
+    {
+      "consigne": "La guerre civile espagnole a eu lieu :",
+      "options": [
+        "de 1936 à 1939",
+        "de 1914 à 1918",
+        "de 1975 à 1978"
+      ],
+      "reponse": "de 1936 à 1939",
+      "explication": "Avant la Seconde Guerre mondiale."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Repères historiques et géographiques : Patrimoine historique, naturel et architectural.",
+      "appui": "Repères d’histoire hispanique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

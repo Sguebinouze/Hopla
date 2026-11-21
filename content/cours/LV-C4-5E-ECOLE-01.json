@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-5E-ECOLE-01",
+  "duree": 5,
+  "essentiel": "Les matières : maths, English, history, geography, science, PE (sport), art, music.\nBeaucoup d’établissements britanniques imposent un uniforme : blazer, tie, jumper.\nAprès les cours, les élèves rejoignent souvent des clubs : drama club, chess club, football team.",
+  "parties": [
+    {
+      "titre": "La vie scolaire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À l’école",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a timetable",
+              "un emploi du temps"
+            ],
+            [
+              "a subject",
+              "une matière"
+            ],
+            [
+              "PE",
+              "l’EPS"
+            ],
+            [
+              "a uniform",
+              "un uniforme"
+            ],
+            [
+              "break",
+              "la récréation"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« PE » désigne :",
+          "options": [
+            "l’éducation physique",
+            "la physique",
+            "l’anglais"
+          ],
+          "reponse": "l’éducation physique",
+          "explication": "Physical Education."
+        }
+      ]
+    },
+    {
+      "titre": "Les loisirs",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« I’m in the drama club. We meet on Wednesdays after school. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit les matières avec une majuscule partout, comme « History ».",
+          "correction": "Seules les langues prennent une majuscule : English, French, mais history."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Break » à l’école est :",
+      "options": [
+        "la récréation",
+        "la cantine",
+        "la sortie"
+      ],
+      "reponse": "la récréation",
+      "explication": "Une pause."
+    },
+    {
+      "consigne": "Quelle matière prend toujours une majuscule ?",
+      "options": [
+        "Spanish",
+        "maths",
+        "art"
+      ],
+      "reponse": "Spanish",
+      "explication": "Les langues."
+    },
+    {
+      "consigne": "« Drama club » est un club de :",
+      "options": [
+        "théâtre",
+        "cuisine",
+        "danse"
+      ],
+      "reponse": "théâtre",
+      "explication": "Drama : théâtre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 1,
+      "extrait": "Axe 4. École et loisirs",
+      "appui": "École et loisirs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

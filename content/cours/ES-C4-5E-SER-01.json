@@ -1,0 +1,142 @@
+{
+  "competence": "ES-C4-5E-SER-01",
+  "duree": 6,
+  "essentiel": "Ser : identité, caractère, origine, profession. Soy alto. Es francesa.\nEstar : lieu et état passager. Estoy en casa. Está cansado.\nTener : avoir (tengo, tienes, tiene). Ir : aller (voy, vas, va).",
+  "parties": [
+    {
+      "titre": "Quatre verbes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Présent",
+          "colonnes": [
+            "Sujet",
+            "ser",
+            "estar",
+            "tener",
+            "ir"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "soy",
+              "estoy",
+              "tengo",
+              "voy"
+            ],
+            [
+              "tú",
+              "eres",
+              "estás",
+              "tienes",
+              "vas"
+            ],
+            [
+              "él, ella",
+              "es",
+              "está",
+              "tiene",
+              "va"
+            ],
+            [
+              "nosotros",
+              "somos",
+              "estamos",
+              "tenemos",
+              "vamos"
+            ],
+            [
+              "ellos",
+              "son",
+              "están",
+              "tienen",
+              "van"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mi madre … en el jardín. »",
+          "options": [
+            "está",
+            "es",
+            "tiene"
+          ],
+          "reponse": "está",
+          "explication": "Un lieu : estar."
+        }
+      ]
+    },
+    {
+      "titre": "Ser ou estar",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Choisir",
+          "colonnes": [
+            "Ser",
+            "Estar"
+          ],
+          "lignes": [
+            [
+              "Soy simpático. (caractère)",
+              "Estoy contento. (état du moment)"
+            ],
+            [
+              "Es de Sevilla. (origine)",
+              "Está en Sevilla. (lieu)"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Soy en clase ».",
+          "correction": "Pour un lieu : Estoy en clase."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Hoy … cansada. »",
+      "options": [
+        "estoy",
+        "soy",
+        "tengo"
+      ],
+      "reponse": "estoy",
+      "explication": "État passager."
+    },
+    {
+      "consigne": "« Mi padre … médico. »",
+      "options": [
+        "es",
+        "está",
+        "tiene"
+      ],
+      "reponse": "es",
+      "explication": "Profession : ser."
+    },
+    {
+      "consigne": "« Nosotros … al cine. » (ir)",
+      "options": [
+        "vamos",
+        "van",
+        "vais"
+      ],
+      "reponse": "vamos",
+      "explication": "Ir : vamos."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "des verbes irréguliers : ser, estar, ir, tener",
+      "appui": "Ser, estar, tener, ir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

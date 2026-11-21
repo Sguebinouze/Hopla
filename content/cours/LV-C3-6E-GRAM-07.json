@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C3-6E-GRAM-07",
+  "duree": 4,
+  "essentiel": "L’impératif donne un ordre ou une consigne. Il n’a pas de sujet : Open your book!\nÀ la forme négative, on ajoute don’t : Don’t talk!\nLet’s + verbe propose de faire ensemble : Let’s go!",
+  "parties": [
+    {
+      "titre": "Consignes de classe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En classe",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Open your book.",
+              "Ouvre ton livre."
+            ],
+            [
+              "Listen and repeat.",
+              "Écoute et répète."
+            ],
+            [
+              "Don’t talk.",
+              "Ne parle pas."
+            ],
+            [
+              "Sit down, please.",
+              "Assieds-toi, s’il te plait."
+            ],
+            [
+              "Let’s start!",
+              "Commençons !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Don’t forget your homework! » veut dire :",
+          "options": [
+            "N’oublie pas tes devoirs !",
+            "Oublie tes devoirs !",
+            "Fais tes devoirs !"
+          ],
+          "reponse": "N’oublie pas tes devoirs !",
+          "explication": "Don’t : négatif."
+        }
+      ]
+    },
+    {
+      "titre": "La forme",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « You open your book! » pour un ordre.",
+          "correction": "L’impératif n’a pas de sujet : Open your book!"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Close the door! » est :",
+      "options": [
+        "un ordre",
+        "une question",
+        "une description"
+      ],
+      "reponse": "un ordre",
+      "explication": "Impératif."
+    },
+    {
+      "consigne": "« Ne cours pas ! » se dit :",
+      "options": [
+        "Don’t run!",
+        "Not run!",
+        "You don’t run!"
+      ],
+      "reponse": "Don’t run!",
+      "explication": "Don’t + verbe."
+    },
+    {
+      "consigne": "« Let’s play! » veut dire :",
+      "options": [
+        "Jouons !",
+        "Laisse-moi jouer !",
+        "Il joue !"
+      ],
+      "reponse": "Jouons !",
+      "explication": "Let’s : proposition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "L’impératif : reconnaitre quelques formes courantes",
+      "appui": "L’impératif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

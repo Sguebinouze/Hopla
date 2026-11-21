@@ -1,0 +1,134 @@
+{
+  "competence": "LV-C4-4E-CULT-01",
+  "duree": 5,
+  "essentiel": "Chaque pays anglophone a sa monnaie : la livre sterling au Royaume-Uni, le dollar aux États-Unis, l’euro en Irlande.\nDes lieux connus : la statue de la Liberté à New York, l’opéra de Sydney, les Highlands en Écosse.\nVoyager de façon responsable : prendre le train quand c’est possible, respecter les lieux et les habitants.",
+  "parties": [
+    {
+      "titre": "Repères",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pays anglophones",
+          "colonnes": [
+            "Pays",
+            "Capitale",
+            "Monnaie"
+          ],
+          "lignes": [
+            [
+              "United Kingdom",
+              "London",
+              "pound sterling"
+            ],
+            [
+              "Ireland",
+              "Dublin",
+              "euro"
+            ],
+            [
+              "United States",
+              "Washington, D.C.",
+              "US dollar"
+            ],
+            [
+              "Canada",
+              "Ottawa",
+              "Canadian dollar"
+            ],
+            [
+              "Australia",
+              "Canberra",
+              "Australian dollar"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En Irlande, on paie en :",
+          "options": [
+            "euros",
+            "livres sterling",
+            "dollars"
+          ],
+          "reponse": "euros",
+          "explication": "L’Irlande est dans la zone euro."
+        }
+      ]
+    },
+    {
+      "titre": "Voyager responsable",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Gestes",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Take the train.",
+              "Prends le train."
+            ],
+            [
+              "Respect local customs.",
+              "Respecte les coutumes locales."
+            ],
+            [
+              "Don’t leave litter.",
+              "Ne laisse pas de déchets."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la capitale de l’Australie est Sydney.",
+          "correction": "C’est Canberra. Sydney est la plus grande ville."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La capitale du Canada est :",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Montréal"
+      ],
+      "reponse": "Ottawa",
+      "explication": "Pas la plus grande ville."
+    },
+    {
+      "consigne": "La statue de la Liberté se trouve à :",
+      "options": [
+        "New York",
+        "Washington",
+        "Boston"
+      ],
+      "reponse": "New York",
+      "explication": "Offerte par la France."
+    },
+    {
+      "consigne": "« Litter » veut dire :",
+      "options": [
+        "des déchets",
+        "une lettre",
+        "une litière"
+      ],
+      "reponse": "des déchets",
+      "explication": "Don’t leave litter."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Voyages scolaires, touristiques. Le tourisme écoresponsable, l’empreinte carbone.",
+      "appui": "Voyages dans les pays anglophones"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

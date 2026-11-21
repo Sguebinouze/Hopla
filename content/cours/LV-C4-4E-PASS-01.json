@@ -1,0 +1,121 @@
+{
+  "competence": "LV-C4-4E-PASS-01",
+  "duree": 6,
+  "essentiel": "Le prétérit raconte un évènement terminé et daté : Last year, I went to Scotland.\nLe -ed se prononce /t/ (walked), /d/ (played) ou /ɪd/ après t ou d (visited, needed).\nDid forme la question et la négation, suivi de la base verbale.",
+  "parties": [
+    {
+      "titre": "Réguliers et irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Verbes irréguliers fréquents",
+          "colonnes": [
+            "Base",
+            "Prétérit",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "buy",
+              "bought",
+              "acheter"
+            ],
+            [
+              "eat",
+              "ate",
+              "manger"
+            ],
+            [
+              "take",
+              "took",
+              "prendre"
+            ],
+            [
+              "come",
+              "came",
+              "venir"
+            ],
+            [
+              "write",
+              "wrote",
+              "écrire"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Yesterday, I … a new phone. »",
+          "options": [
+            "bought",
+            "buyed",
+            "buy"
+          ],
+          "reponse": "bought",
+          "explication": "Buy est irrégulier."
+        }
+      ]
+    },
+    {
+      "titre": "Raconter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Récit au passé",
+          "etapes": [
+            "Situe le moment : last Saturday.",
+            "Enchaine : first, then, after that.",
+            "Conclus : in the end, it was great."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prononce « visited » sans syllabe en plus.",
+          "correction": "Après t ou d, -ed se prononce /ɪd/ : visit-id."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le prétérit de « take » est :",
+      "options": [
+        "took",
+        "taked",
+        "taken"
+      ],
+      "reponse": "took",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "Dans quel verbe -ed se prononce /ɪd/ ?",
+      "options": [
+        "wanted",
+        "played",
+        "walked"
+      ],
+      "reponse": "wanted",
+      "explication": "Après t."
+    },
+    {
+      "consigne": "« We didn’t … the film. »",
+      "options": [
+        "see",
+        "saw",
+        "seen"
+      ],
+      "reponse": "see",
+      "explication": "Did + base."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 43,
+      "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles.",
+      "appui": "Raconter au prétérit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

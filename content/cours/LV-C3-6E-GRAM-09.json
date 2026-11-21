@@ -1,0 +1,133 @@
+{
+  "competence": "LV-C3-6E-GRAM-09",
+  "duree": 5,
+  "essentiel": "Pronoms compléments : me, you, him, her, it, us, them. On les place après le verbe : I like him.\nThis (ceci, proche) et that (cela, loin) au singulier.\nThese (proches) et those (loin) au pluriel.",
+  "parties": [
+    {
+      "titre": "Pronoms compléments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sujet et complément",
+          "colonnes": [
+            "Sujet",
+            "Complément",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "I",
+              "me",
+              "Help me!"
+            ],
+            [
+              "he",
+              "him",
+              "I know him."
+            ],
+            [
+              "she",
+              "her",
+              "Call her."
+            ],
+            [
+              "we",
+              "us",
+              "Wait for us."
+            ],
+            [
+              "they",
+              "them",
+              "I love them."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I like Sam. I play with … »",
+          "options": [
+            "him",
+            "he",
+            "his"
+          ],
+          "reponse": "him",
+          "explication": "Complément : him."
+        }
+      ]
+    },
+    {
+      "titre": "This, that, these, those",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Démonstratifs",
+          "colonnes": [
+            "Distance",
+            "Singulier",
+            "Pluriel"
+          ],
+          "lignes": [
+            [
+              "proche",
+              "this book",
+              "these books"
+            ],
+            [
+              "loin",
+              "that car",
+              "those cars"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « this shoes ».",
+          "correction": "Au pluriel : these shoes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Look at … birds over there! » (loin)",
+      "options": [
+        "those",
+        "these",
+        "this"
+      ],
+      "reponse": "those",
+      "explication": "Pluriel, loin."
+    },
+    {
+      "consigne": "« Can you help … ? » (nous)",
+      "options": [
+        "us",
+        "we",
+        "our"
+      ],
+      "reponse": "us",
+      "explication": "Complément : us."
+    },
+    {
+      "consigne": "« I don’t know … » (elle)",
+      "options": [
+        "her",
+        "she",
+        "hers"
+      ],
+      "reponse": "her",
+      "explication": "Complément : her."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Utiliser les pronoms personnels compléments",
+      "appui": "Pronoms et démonstratifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

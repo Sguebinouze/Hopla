@@ -1,0 +1,128 @@
+{
+  "competence": "LV-C3-6E-GRAM-08",
+  "duree": 5,
+  "essentiel": "Le présent be + -ing décrit une action en cours : I am reading, she is running.\nOn l’emploie avec now, at the moment, look!\nOrthographe : swim → swimming, write → writing.",
+  "parties": [
+    {
+      "titre": "Former be + -ing",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En ce moment",
+          "colonnes": [
+            "Sujet",
+            "Forme",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "I",
+              "am + -ing",
+              "I am eating."
+            ],
+            [
+              "you, we, they",
+              "are + -ing",
+              "They are playing."
+            ],
+            [
+              "he, she, it",
+              "is + -ing",
+              "She is sleeping."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Look! The baby … »",
+          "options": [
+            "is crying",
+            "cries",
+            "cry"
+          ],
+          "reponse": "is crying",
+          "explication": "Look! : action en cours."
+        }
+      ]
+    },
+    {
+      "titre": "L’orthographe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "-ing",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "swim → swimming",
+              "consonne doublée"
+            ],
+            [
+              "run → running",
+              "consonne doublée"
+            ],
+            [
+              "write → writing",
+              "e final supprimé"
+            ],
+            [
+              "play → playing",
+              "sans changement"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie be : « She reading. »",
+          "correction": "Be est obligatoire : She is reading."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« We … dinner now. »",
+      "options": [
+        "are having",
+        "having",
+        "is having"
+      ],
+      "reponse": "are having",
+      "explication": "We : are."
+    },
+    {
+      "consigne": "Le -ing de « dance » est :",
+      "options": [
+        "dancing",
+        "danceing",
+        "dancting"
+      ],
+      "reponse": "dancing",
+      "explication": "Le e final tombe."
+    },
+    {
+      "consigne": "Be + -ing exprime :",
+      "options": [
+        "une action en cours",
+        "une habitude",
+        "une action passée"
+      ],
+      "reponse": "une action en cours",
+      "explication": "En ce moment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Le présent be + ing : reconnaitre quelques formes courantes",
+      "appui": "Le présent be + -ing"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

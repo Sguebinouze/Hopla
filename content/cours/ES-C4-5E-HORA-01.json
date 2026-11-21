@@ -1,0 +1,136 @@
+{
+  "competence": "ES-C4-5E-HORA-01",
+  "duree": 5,
+  "essentiel": "Les dizaines : veinte, treinta, cuarenta, cincuenta… cien. On relie avec y à partir de 31 : treinta y uno.\nL’heure : Es la una. Son las dos. Son las dos y cuarto, y media.\nSon las tres menos cuarto : 2 h 45.",
+  "parties": [
+    {
+      "titre": "Compter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Números",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "veintiuno",
+              "21"
+            ],
+            [
+              "treinta y cinco",
+              "35"
+            ],
+            [
+              "cuarenta y ocho",
+              "48"
+            ],
+            [
+              "setenta",
+              "70"
+            ],
+            [
+              "cien",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Sesenta y dos » :",
+          "options": [
+            "62",
+            "72",
+            "26"
+          ],
+          "reponse": "62",
+          "explication": "Sesenta : 60."
+        }
+      ]
+    },
+    {
+      "titre": "Dire l’heure",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "¿Qué hora es?",
+          "colonnes": [
+            "Espagnol",
+            "Heure"
+          ],
+          "lignes": [
+            [
+              "Es la una.",
+              "1 h"
+            ],
+            [
+              "Son las cinco.",
+              "5 h"
+            ],
+            [
+              "Son las cinco y cuarto.",
+              "5 h 15"
+            ],
+            [
+              "Son las cinco y media.",
+              "5 h 30"
+            ],
+            [
+              "Son las seis menos cuarto.",
+              "5 h 45"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Son la una ».",
+          "correction": "Une heure est au singulier : Es la una."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Son las ocho y media » :",
+      "options": [
+        "8 h 30",
+        "7 h 30",
+        "8 h 15"
+      ],
+      "reponse": "8 h 30",
+      "explication": "Y media : et demie."
+    },
+    {
+      "consigne": "« Setenta » :",
+      "options": [
+        "70",
+        "60",
+        "17"
+      ],
+      "reponse": "70",
+      "explication": "Siete → setenta."
+    },
+    {
+      "consigne": "« À dix heures » se dit :",
+      "options": [
+        "a las diez",
+        "en las diez",
+        "son las diez"
+      ],
+      "reponse": "a las diez",
+      "explication": "A las + heure."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 19,
+      "extrait": "las doce en punto, las seis apenas, y pico",
+      "appui": "Nombres et heure"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

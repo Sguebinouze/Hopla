@@ -1,0 +1,110 @@
+{
+  "competence": "AL-C4-3E-UMW-01",
+  "duree": 5,
+  "essentiel": "Die Umwelt : l’environnement. Der Müll : les déchets. Den Müll trennen : trier les déchets.\nEn Allemagne, beaucoup de bouteilles sont consignées : le Pfand est rendu quand on rapporte la bouteille.\nPour proposer : Man sollte… (on devrait), Wir können… (nous pouvons).",
+  "parties": [
+    {
+      "titre": "Vocabulaire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Umwelt",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "der Müll",
+              "les déchets"
+            ],
+            [
+              "den Müll trennen",
+              "trier les déchets"
+            ],
+            [
+              "das Pfand",
+              "la consigne"
+            ],
+            [
+              "erneuerbare Energien",
+              "les énergies renouvelables"
+            ],
+            [
+              "Energie sparen",
+              "économiser l’énergie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Den Müll trennen » veut dire :",
+          "options": [
+            "trier les déchets",
+            "jeter les déchets",
+            "bruler les déchets"
+          ],
+          "reponse": "trier les déchets",
+          "explication": "Trennen : séparer."
+        }
+      ]
+    },
+    {
+      "titre": "Proposer des gestes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Man sollte mit dem Fahrrad zur Schule fahren. Wir können weniger Plastik kaufen."
+        },
+        {
+          "type": "piege",
+          "erreur": "On place l’infinitif après « man sollte » : « Man sollte sparen Wasser ».",
+          "correction": "L’infinitif va à la fin : Man sollte Wasser sparen."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Das Pfand » est :",
+      "options": [
+        "la consigne",
+        "la poubelle",
+        "le recyclage"
+      ],
+      "reponse": "la consigne",
+      "explication": "Rendue au retour."
+    },
+    {
+      "consigne": "« Man sollte » veut dire :",
+      "options": [
+        "on devrait",
+        "on doit",
+        "on peut"
+      ],
+      "reponse": "on devrait",
+      "explication": "Un conseil."
+    },
+    {
+      "consigne": "« Energie sparen » veut dire :",
+      "options": [
+        "économiser l’énergie",
+        "produire de l’énergie",
+        "acheter de l’énergie"
+      ],
+      "reponse": "économiser l’énergie",
+      "explication": "Sparen : économiser."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Place de la question de l’environnement dans le quotidien des élèves des pays concernés",
+      "appui": "Environnement : die Umwelt"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

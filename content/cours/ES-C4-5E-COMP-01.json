@@ -1,0 +1,102 @@
+{
+  "competence": "ES-C4-5E-COMP-01",
+  "duree": 5,
+  "essentiel": "Supériorité : más… que. Infériorité : menos… que. Égalité : tan… como.\nMadrid es más grande que Sevilla. El tren es menos caro que el avión. Soy tan alto como tú.\nIrréguliers : mejor (meilleur), peor (pire).",
+  "parties": [
+    {
+      "titre": "Trois comparatifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Degré",
+            "Structure",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "supériorité",
+              "más + adj. + que",
+              "Ana es más alta que Luis."
+            ],
+            [
+              "infériorité",
+              "menos + adj. + que",
+              "El gato es menos rápido que el perro."
+            ],
+            [
+              "égalité",
+              "tan + adj. + como",
+              "Es tan simpático como su hermano."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Este libro es … interesante … el otro. » (égalité)",
+          "options": [
+            "tan … como",
+            "más … como",
+            "tan … que"
+          ],
+          "reponse": "tan … como",
+          "explication": "Égalité."
+        }
+      ]
+    },
+    {
+      "titre": "Mejor et peor",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « más bueno que » pour « meilleur ».",
+          "correction": "On dit mejor que : Esta pizza es mejor que la otra."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Moins cher que » se dit :",
+      "options": [
+        "menos caro que",
+        "más caro que",
+        "tan caro como"
+      ],
+      "reponse": "menos caro que",
+      "explication": "Menos… que."
+    },
+    {
+      "consigne": "« Peor » veut dire :",
+      "options": [
+        "pire",
+        "meilleur",
+        "pareil"
+      ],
+      "reponse": "pire",
+      "explication": "Comparatif de malo."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Soy más alto que mi padre.",
+        "Soy más alto como mi padre.",
+        "Soy tan alto que mi padre."
+      ],
+      "reponse": "Soy más alto que mi padre.",
+      "explication": "Más… que."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "Comparatifs de supériorité et d’infériorité",
+      "appui": "Comparer : más, menos, tan"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C3-6E-VOC-06",
+  "duree": 5,
+  "essentiel": "Les repas : breakfast (matin), lunch (midi), dinner (soir).\nLes besoins : I’m hungry (j’ai faim), I’m thirsty (j’ai soif), I’m tired (je suis fatigué).\nEn anglais, ces besoins se disent avec be, pas avec have.",
+  "parties": [
+    {
+      "titre": "Repas et aliments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À table",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "breakfast",
+              "petit déjeuner"
+            ],
+            [
+              "lunch",
+              "déjeuner"
+            ],
+            [
+              "dinner",
+              "diner"
+            ],
+            [
+              "bread / cheese",
+              "pain / fromage"
+            ],
+            [
+              "chicken / fish",
+              "poulet / poisson"
+            ],
+            [
+              "vegetables / fruit",
+              "légumes / fruits"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le repas du soir se dit :",
+          "options": [
+            "dinner",
+            "breakfast",
+            "lunch"
+          ],
+          "reponse": "dinner",
+          "explication": "Dinner."
+        }
+      ]
+    },
+    {
+      "titre": "Exprimer un besoin",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« I’m thirsty. Can I have some water, please? »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On traduit « j’ai faim » par « I have hungry ».",
+          "correction": "On dit I am hungry, avec be."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I’m thirsty » veut dire :",
+      "options": [
+        "J’ai soif.",
+        "J’ai faim.",
+        "J’ai froid."
+      ],
+      "reponse": "J’ai soif.",
+      "explication": "Thirsty : soif."
+    },
+    {
+      "consigne": "« J’ai froid » se dit :",
+      "options": [
+        "I’m cold.",
+        "I have cold.",
+        "I’m hot."
+      ],
+      "reponse": "I’m cold.",
+      "explication": "Avec be."
+    },
+    {
+      "consigne": "« Vegetables » veut dire :",
+      "options": [
+        "des légumes",
+        "des fruits",
+        "des gâteaux"
+      ],
+      "reponse": "des légumes",
+      "explication": "Carottes, haricots…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 11,
+      "extrait": "Les aliments et habitudes alimentaires",
+      "appui": "La nourriture et les besoins"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

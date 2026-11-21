@@ -1,0 +1,123 @@
+{
+  "competence": "LV-C3-6E-GRAM-02",
+  "duree": 6,
+  "essentiel": "Au présent simple, le verbe prend un -s avec he, she, it : she plays.\nAprès -s, -sh, -ch, -x, -o, on ajoute -es : he watches, she goes.\nNégation : I don’t play, she doesn’t play. Après doesn’t, le verbe n’a plus de -s.",
+  "parties": [
+    {
+      "titre": "Le -s de la 3e personne",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Present simple",
+          "colonnes": [
+            "Sujet",
+            "Affirmatif",
+            "Négatif"
+          ],
+          "lignes": [
+            [
+              "I, you, we, they",
+              "I play",
+              "I don’t play"
+            ],
+            [
+              "he, she, it",
+              "she plays",
+              "she doesn’t play"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« My brother … football every Sunday. »",
+          "options": [
+            "plays",
+            "play",
+            "playing"
+          ],
+          "reponse": "plays",
+          "explication": "He : -s."
+        }
+      ]
+    },
+    {
+      "titre": "-s ou -es ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Orthographe",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "watch → watches",
+              "regarder"
+            ],
+            [
+              "go → goes",
+              "aller"
+            ],
+            [
+              "do → does",
+              "faire"
+            ],
+            [
+              "study → studies",
+              "étudier"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « she doesn’t plays ».",
+          "correction": "Le -s est déjà dans does : she doesn’t play."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« He … TV in the evening. »",
+      "options": [
+        "watches",
+        "watchs",
+        "watch"
+      ],
+      "reponse": "watches",
+      "explication": "Après -ch : -es."
+    },
+    {
+      "consigne": "« We … like spinach. »",
+      "options": [
+        "don’t",
+        "doesn’t",
+        "aren’t"
+      ],
+      "reponse": "don’t",
+      "explication": "We : don’t."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Tom doesn’t eat meat.",
+        "Tom don’t eat meat.",
+        "Tom doesn’t eats meat."
+      ],
+      "reponse": "Tom doesn’t eat meat.",
+      "explication": "Doesn’t + verbe sans -s."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "La 3e personne du singulier : he sleeps, she rides her bike",
+      "appui": "Le -s du présent simple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

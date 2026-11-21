@@ -1,0 +1,111 @@
+{
+  "competence": "LV-C3-6E-GRAM-03",
+  "duree": 5,
+  "essentiel": "Can : savoir ou pouvoir. Can’t : ne pas savoir, ne pas avoir le droit.\nMust : obligation. Mustn’t : interdiction.\nCes verbes ne changent jamais et sont suivis du verbe sans to : she can swim.",
+  "parties": [
+    {
+      "titre": "Quatre sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Modaux",
+          "colonnes": [
+            "Modal",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "can",
+              "capacité, permission",
+              "I can swim. You can go."
+            ],
+            [
+              "can’t",
+              "incapacité, refus",
+              "You can’t use your phone."
+            ],
+            [
+              "must",
+              "obligation",
+              "You must wear a helmet."
+            ],
+            [
+              "mustn’t",
+              "interdiction",
+              "You mustn’t run."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« You mustn’t eat in class. » exprime :",
+          "options": [
+            "une interdiction",
+            "une obligation",
+            "une capacité"
+          ],
+          "reponse": "une interdiction",
+          "explication": "Mustn’t : défense de."
+        }
+      ]
+    },
+    {
+      "titre": "La construction",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pas de -s, pas de to : she can dance, he must go."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « she cans swim » ou « he must to go ».",
+          "correction": "Modal + verbe nu : she can swim, he must go."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Can I borrow your pen? » sert à :",
+      "options": [
+        "demander la permission",
+        "donner un ordre",
+        "interdire"
+      ],
+      "reponse": "demander la permission",
+      "explication": "Can : permission."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He can play the guitar.",
+        "He cans play the guitar.",
+        "He can to play the guitar."
+      ],
+      "reponse": "He can play the guitar.",
+      "explication": "Can + verbe nu."
+    },
+    {
+      "consigne": "« Tu dois faire tes devoirs » se dit :",
+      "options": [
+        "You must do your homework.",
+        "You mustn’t do your homework.",
+        "You can’t do your homework."
+      ],
+      "reponse": "You must do your homework.",
+      "explication": "Must : obligation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Les auxiliaires de modalité : can/can’t",
+      "appui": "Can, can’t, must, mustn’t"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

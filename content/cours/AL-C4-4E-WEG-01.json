@@ -1,0 +1,128 @@
+{
+  "competence": "AL-C4-4E-WEG-01",
+  "duree": 5,
+  "essentiel": "Demander : Entschuldigung, wie komme ich zum Bahnhof? Wo ist die Post?\nIndiquer : geradeaus, links, rechts, die erste Straße links, gegenüber von der Bank.\nZum (zu dem) devant un nom masculin ou neutre, zur (zu der) devant un nom féminin.",
+  "parties": [
+    {
+      "titre": "Le chemin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Wegbeschreibung",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Gehen Sie geradeaus.",
+              "Allez tout droit."
+            ],
+            [
+              "Biegen Sie links ab.",
+              "Tournez à gauche."
+            ],
+            [
+              "Nehmen Sie die zweite Straße rechts.",
+              "Prenez la deuxième rue à droite."
+            ],
+            [
+              "Das ist gegenüber vom Rathaus.",
+              "C’est en face de la mairie."
+            ],
+            [
+              "Ist es weit?",
+              "Est-ce loin ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Geradeaus » veut dire :",
+          "options": [
+            "tout droit",
+            "à droite",
+            "en face"
+          ],
+          "reponse": "tout droit",
+          "explication": "Gerade : droit."
+        }
+      ]
+    },
+    {
+      "titre": "Zum ou zur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Aller à",
+          "colonnes": [
+            "Nom",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "der Bahnhof",
+              "zum Bahnhof"
+            ],
+            [
+              "das Museum",
+              "zum Museum"
+            ],
+            [
+              "die Post",
+              "zur Post"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « rechts » et « links ».",
+          "correction": "Rechts : à droite. Links : à gauche."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wie komme ich … Schule? »",
+      "options": [
+        "zur",
+        "zum",
+        "zu der die"
+      ],
+      "reponse": "zur",
+      "explication": "Die Schule : zur."
+    },
+    {
+      "consigne": "« Links » veut dire :",
+      "options": [
+        "à gauche",
+        "à droite",
+        "tout droit"
+      ],
+      "reponse": "à gauche",
+      "explication": "Le contraire de rechts."
+    },
+    {
+      "consigne": "Pour aborder quelqu’un poliment :",
+      "options": [
+        "Entschuldigung",
+        "Tschüss",
+        "Hallo du"
+      ],
+      "reponse": "Entschuldigung",
+      "explication": "Excusez-moi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 41,
+      "extrait": "Demander et fournir des renseignements.",
+      "appui": "Demander son chemin"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

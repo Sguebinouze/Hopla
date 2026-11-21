@@ -1,0 +1,111 @@
+{
+  "competence": "ES-C4-5E-GER-01",
+  "duree": 5,
+  "essentiel": "Estar + gérondif décrit une action en cours : Estoy comiendo. Está lloviendo.\nLe gérondif : -ar → -ando (hablando), -er et -ir → -iendo (comiendo, viviendo).\nQuelques irréguliers : leer → leyendo, dormir → durmiendo.",
+  "parties": [
+    {
+      "titre": "Former le gérondif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Gérondif",
+          "colonnes": [
+            "Infinitif",
+            "Gérondif",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "hablar",
+              "hablando",
+              "Estoy hablando."
+            ],
+            [
+              "comer",
+              "comiendo",
+              "Estamos comiendo."
+            ],
+            [
+              "escribir",
+              "escribiendo",
+              "Está escribiendo."
+            ],
+            [
+              "leer",
+              "leyendo",
+              "Estás leyendo."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mi hermano está … » (dormir)",
+          "options": [
+            "durmiendo",
+            "dormiendo",
+            "dormido"
+          ],
+          "reponse": "durmiendo",
+          "explication": "Irrégulier."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire une image",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En la foto, los niños están jugando y una mujer está leyendo."
+        },
+        {
+          "type": "piege",
+          "erreur": "On emploie ser : « Soy comiendo ».",
+          "correction": "Toujours estar : Estoy comiendo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le gérondif de « bailar » :",
+      "options": [
+        "bailando",
+        "bailiendo",
+        "bailado"
+      ],
+      "reponse": "bailando",
+      "explication": "-ar → -ando."
+    },
+    {
+      "consigne": "« Está lloviendo » veut dire :",
+      "options": [
+        "Il est en train de pleuvoir.",
+        "Il a plu.",
+        "Il pleuvra."
+      ],
+      "reponse": "Il est en train de pleuvoir.",
+      "explication": "Action en cours."
+    },
+    {
+      "consigne": "« Nosotros … viendo una película. »",
+      "options": [
+        "estamos",
+        "somos",
+        "vamos"
+      ],
+      "reponse": "estamos",
+      "explication": "Estar + gérondif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 12,
+      "extrait": "Estar + gérondif",
+      "appui": "Estar + gérondif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

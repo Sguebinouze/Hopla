@@ -1,0 +1,124 @@
+{
+  "competence": "LV-C4-5E-INTER-01",
+  "duree": 5,
+  "essentiel": "Accord : I agree. You’re right. Désaccord : I don’t agree. I’m not sure.\nPermission : Can I…? May I…? Réponse : Yes, of course. Sorry, you can’t.\nAide : Can you help me, please? Could you repeat, please?",
+  "parties": [
+    {
+      "titre": "Accord et désaccord",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Réagir",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I agree with you.",
+              "Je suis d’accord avec toi."
+            ],
+            [
+              "I don’t agree.",
+              "Je ne suis pas d’accord."
+            ],
+            [
+              "You’re right.",
+              "Tu as raison."
+            ],
+            [
+              "I’m not sure.",
+              "Je ne suis pas sûr."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« You’re right » veut dire :",
+          "options": [
+            "Tu as raison.",
+            "Tu es à droite.",
+            "Tu écris."
+          ],
+          "reponse": "Tu as raison.",
+          "explication": "Right : juste."
+        }
+      ]
+    },
+    {
+      "titre": "Permission et aide",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En classe",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "May I open the window?",
+              "Puis-je ouvrir la fenêtre ?"
+            ],
+            [
+              "Could you repeat, please?",
+              "Pourriez-vous répéter ?"
+            ],
+            [
+              "How do you say « stylo » in English?",
+              "Comment dit-on « stylo » en anglais ?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « I am agree ».",
+          "correction": "Agree est un verbe : I agree, I don’t agree."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "I agree with you.",
+        "I am agree with you.",
+        "I agree you."
+      ],
+      "reponse": "I agree with you.",
+      "explication": "Agree with."
+    },
+    {
+      "consigne": "Pour demander poliment de répéter :",
+      "options": [
+        "Could you repeat, please?",
+        "Repeat!",
+        "You repeat?"
+      ],
+      "reponse": "Could you repeat, please?",
+      "explication": "Could… please."
+    },
+    {
+      "consigne": "« May I go out? » sert à :",
+      "options": [
+        "demander la permission",
+        "donner un ordre",
+        "exprimer un souhait"
+      ],
+      "reponse": "demander la permission",
+      "explication": "May : permission polie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 10,
+      "extrait": "Faire part très simplement de son accord ou de son",
+      "appui": "Accord, désaccord, aide"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

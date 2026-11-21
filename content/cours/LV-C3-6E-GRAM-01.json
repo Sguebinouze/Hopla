@@ -1,0 +1,128 @@
+{
+  "competence": "LV-C3-6E-GRAM-01",
+  "duree": 6,
+  "essentiel": "Be (être) au présent : I am, you are, he / she / it is, we are, they are.\nHave got (avoir) : I have got, he has got. À l’oral, on contracte : I’m, he’s, I’ve got.\nNégation : I’m not, he hasn’t got. Question : Are you…? Has she got…?",
+  "parties": [
+    {
+      "titre": "Be et have got",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au présent",
+          "colonnes": [
+            "Sujet",
+            "be",
+            "have got"
+          ],
+          "lignes": [
+            [
+              "I",
+              "am (I’m)",
+              "have got (I’ve got)"
+            ],
+            [
+              "you, we, they",
+              "are (you’re)",
+              "have got (we’ve got)"
+            ],
+            [
+              "he, she, it",
+              "is (he’s)",
+              "has got (she’s got)"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« She … eleven. »",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "reponse": "is",
+          "explication": "She : is."
+        }
+      ]
+    },
+    {
+      "titre": "Négation et question",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois formes",
+          "colonnes": [
+            "Forme",
+            "be",
+            "have got"
+          ],
+          "lignes": [
+            [
+              "affirmative",
+              "He is tired.",
+              "He has got a dog."
+            ],
+            [
+              "négative",
+              "He isn’t tired.",
+              "He hasn’t got a dog."
+            ],
+            [
+              "interrogative",
+              "Is he tired?",
+              "Has he got a dog?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On traduit « j’ai onze ans » par « I have eleven ».",
+          "correction": "Pour l’âge, on emploie be : I am eleven."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« They … got a big house. »",
+      "options": [
+        "have",
+        "has",
+        "are"
+      ],
+      "reponse": "have",
+      "explication": "They : have got."
+    },
+    {
+      "consigne": "La question de « You are French. » est :",
+      "options": [
+        "Are you French?",
+        "You are French?",
+        "Do you French?"
+      ],
+      "reponse": "Are you French?",
+      "explication": "Be passe devant le sujet."
+    },
+    {
+      "consigne": "« J’ai douze ans » se dit :",
+      "options": [
+        "I am twelve.",
+        "I have twelve.",
+        "I have got twelve."
+      ],
+      "reponse": "I am twelve.",
+      "explication": "L’âge se dit avec be."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Le présent simple : connaitre le présent des verbes les plus courants ainsi que les auxiliaires be et have",
+      "appui": "Be et have got au présent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

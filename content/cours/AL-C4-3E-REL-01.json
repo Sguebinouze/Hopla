@@ -1,0 +1,107 @@
+{
+  "competence": "AL-C4-3E-REL-01",
+  "duree": 6,
+  "essentiel": "Le pronom relatif reprend le genre du nom : der Mann, der… ; die Frau, die… ; das Kind, das…\nDans la relative, le verbe conjugué va à la fin : Das ist der Junge, der neben mir wohnt.\nSi le pronom est complément, il prend son cas : der Film, den ich gesehen habe.",
+  "parties": [
+    {
+      "titre": "Former une relative",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relatifs",
+          "colonnes": [
+            "Nom",
+            "Sujet",
+            "Complément (accusatif)"
+          ],
+          "lignes": [
+            [
+              "der Mann",
+              "der dort steht",
+              "den ich kenne"
+            ],
+            [
+              "die Frau",
+              "die dort steht",
+              "die ich kenne"
+            ],
+            [
+              "das Kind",
+              "das dort steht",
+              "das ich kenne"
+            ],
+            [
+              "die Leute",
+              "die dort stehen",
+              "die ich kenne"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Das ist das Buch, … ich lese. »",
+          "options": [
+            "das",
+            "der",
+            "den"
+          ],
+          "reponse": "das",
+          "explication": "Das Buch, neutre."
+        }
+      ]
+    },
+    {
+      "titre": "Le verbe à la fin",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « die Stadt, die ist schön ».",
+          "correction": "Verbe à la fin : die Stadt, die schön ist."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Der Hund, … du siehst, ist mein Hund. »",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "reponse": "den",
+      "explication": "Complément masculin."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Die Frau, die hier wohnt, ist Ärztin.",
+        "Die Frau, die wohnt hier, ist Ärztin.",
+        "Die Frau, wohnt hier, ist Ärztin."
+      ],
+      "reponse": "Die Frau, die hier wohnt, ist Ärztin.",
+      "explication": "Verbe à la fin."
+    },
+    {
+      "consigne": "Le relatif s’accorde en genre avec :",
+      "options": [
+        "le nom qu’il reprend",
+        "le sujet de la principale",
+        "le verbe"
+      ],
+      "reponse": "le nom qu’il reprend",
+      "explication": "Der Mann, der…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Coordination. Subordination. Relatifs",
+      "appui": "La relative"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

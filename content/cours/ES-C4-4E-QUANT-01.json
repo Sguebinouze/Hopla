@@ -1,0 +1,133 @@
+{
+  "competence": "ES-C4-4E-QUANT-01",
+  "duree": 5,
+  "essentiel": "Mucho, poco, bastante, demasiado s’accordent avec le nom : muchos amigos, poca agua.\nAprès un verbe, ils ne changent pas : trabajo mucho.\nMuy se place devant un adjectif ou un adverbe : muy alto, muy bien. Jamais « muy mucho ».",
+  "parties": [
+    {
+      "titre": "Accorder",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avec un nom",
+          "colonnes": [
+            "Mot",
+            "Masculin",
+            "Féminin"
+          ],
+          "lignes": [
+            [
+              "beaucoup",
+              "muchos libros",
+              "muchas casas"
+            ],
+            [
+              "peu",
+              "poco dinero",
+              "poca leche"
+            ],
+            [
+              "trop",
+              "demasiados coches",
+              "demasiada gente"
+            ],
+            [
+              "assez",
+              "bastantes chicos",
+              "bastantes chicas"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Hay … personas en la calle. »",
+          "options": [
+            "muchas",
+            "muchos",
+            "mucho"
+          ],
+          "reponse": "muchas",
+          "explication": "Personas : féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Mucho ou muy",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Choisir",
+          "colonnes": [
+            "Devant…",
+            "Mot",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "un nom",
+              "mucho",
+              "mucho tiempo"
+            ],
+            [
+              "un adjectif",
+              "muy",
+              "muy cansado"
+            ],
+            [
+              "après un verbe",
+              "mucho",
+              "Lee mucho."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Es mucho bonito ».",
+          "correction": "Devant un adjectif : Es muy bonito."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Estoy … contento. »",
+      "options": [
+        "muy",
+        "mucho",
+        "muchos"
+      ],
+      "reponse": "muy",
+      "explication": "Devant un adjectif."
+    },
+    {
+      "consigne": "« Hay … ruido. » (trop)",
+      "options": [
+        "demasiado",
+        "demasiada",
+        "muy"
+      ],
+      "reponse": "demasiado",
+      "explication": "Ruido : masculin."
+    },
+    {
+      "consigne": "« Duerme … » (beaucoup)",
+      "options": [
+        "mucho",
+        "muy",
+        "muchos"
+      ],
+      "reponse": "mucho",
+      "explication": "Après un verbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Articles, quantifieurs",
+      "appui": "Mucho, poco, demasiado"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

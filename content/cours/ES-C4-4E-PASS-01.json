@@ -1,0 +1,144 @@
+{
+  "competence": "ES-C4-4E-PASS-01",
+  "duree": 6,
+  "essentiel": "Le passé simple (pretérito indefinido) raconte une action terminée et datée : Ayer visité el museo.\n-ar : -é, -aste, -ó, -amos, -asteis, -aron. -er et -ir : -í, -iste, -ió, -imos, -isteis, -ieron.\nIrréguliers fréquents : ir et ser → fui, fue ; hacer → hice, hizo ; tener → tuve, tuvo.",
+  "parties": [
+    {
+      "titre": "Les terminaisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Indefinido",
+          "colonnes": [
+            "Sujet",
+            "visitar",
+            "comer",
+            "ir / ser"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "visité",
+              "comí",
+              "fui"
+            ],
+            [
+              "tú",
+              "visitaste",
+              "comiste",
+              "fuiste"
+            ],
+            [
+              "él, ella",
+              "visitó",
+              "comió",
+              "fue"
+            ],
+            [
+              "nosotros",
+              "visitamos",
+              "comimos",
+              "fuimos"
+            ],
+            [
+              "ellos",
+              "visitaron",
+              "comieron",
+              "fueron"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« El año pasado … a Perú. » (ir, nosotros)",
+          "options": [
+            "fuimos",
+            "íbamos",
+            "vamos"
+          ],
+          "reponse": "fuimos",
+          "explication": "Action terminée et datée."
+        }
+      ]
+    },
+    {
+      "titre": "Repères",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Marqueurs",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "ayer",
+              "hier"
+            ],
+            [
+              "anoche",
+              "hier soir"
+            ],
+            [
+              "el año pasado",
+              "l’année dernière"
+            ],
+            [
+              "hace dos días",
+              "il y a deux jours"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie l’accent : « hable » au lieu de « habló ».",
+          "correction": "L’accent écrit change le sens : habló (il parla), hablo (je parle)."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ayer … una pizza. » (comer, yo)",
+      "options": [
+        "comí",
+        "comía",
+        "como"
+      ],
+      "reponse": "comí",
+      "explication": "Indefinido."
+    },
+    {
+      "consigne": "« Hizo » vient de :",
+      "options": [
+        "hacer",
+        "ir",
+        "hablar"
+      ],
+      "reponse": "hacer",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Hace tres días » veut dire :",
+      "options": [
+        "il y a trois jours",
+        "dans trois jours",
+        "depuis trois jours"
+      ],
+      "reponse": "il y a trois jours",
+      "explication": "Hace : il y a."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 43,
+      "extrait": "Écrire une courte description d’un événement, d’activités passées et d’expériences personnelles.",
+      "appui": "Raconter au passé simple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

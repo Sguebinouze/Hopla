@@ -1,0 +1,142 @@
+{
+  "competence": "ES-C4-4E-PERF-01",
+  "duree": 5,
+  "essentiel": "Le passé composé (pretérito perfecto) se forme avec haber + participe : he comido.\nParticipe : -ar → -ado (hablado), -er et -ir → -ido (comido, vivido). Il ne s’accorde pas.\nEn Espagne, il sert pour un passé récent : hoy, esta mañana, este año, ya, todavía no.",
+  "parties": [
+    {
+      "titre": "Haber + participe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Passé composé",
+          "colonnes": [
+            "Sujet",
+            "haber",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "he",
+              "He terminado."
+            ],
+            [
+              "tú",
+              "has",
+              "¿Has comido?"
+            ],
+            [
+              "él, ella",
+              "ha",
+              "Ha llovido."
+            ],
+            [
+              "nosotros",
+              "hemos",
+              "Hemos visto la película."
+            ],
+            [
+              "ellos",
+              "han",
+              "Han salido."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Esta mañana … temprano. » (levantarse, yo)",
+          "options": [
+            "me he levantado",
+            "me levanté ayer",
+            "he me levantado"
+          ],
+          "reponse": "me he levantado",
+          "explication": "Passé récent ; pronom avant haber."
+        }
+      ]
+    },
+    {
+      "titre": "Participes irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Participios",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "hacer → hecho",
+              "fait"
+            ],
+            [
+              "decir → dicho",
+              "dit"
+            ],
+            [
+              "ver → visto",
+              "vu"
+            ],
+            [
+              "escribir → escrito",
+              "écrit"
+            ],
+            [
+              "volver → vuelto",
+              "revenu"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On emploie ser comme auxiliaire : « Soy llegado ».",
+          "correction": "L’espagnol emploie toujours haber : He llegado."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le participe de « hacer » :",
+      "options": [
+        "hecho",
+        "hacido",
+        "hizo"
+      ],
+      "reponse": "hecho",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« Todavía no he terminado » veut dire :",
+      "options": [
+        "Je n’ai pas encore fini.",
+        "J’ai déjà fini.",
+        "Je finirai."
+      ],
+      "reponse": "Je n’ai pas encore fini.",
+      "explication": "Todavía no : pas encore."
+    },
+    {
+      "consigne": "« Ellas … llegado. »",
+      "options": [
+        "han",
+        "son",
+        "hemos"
+      ],
+      "reponse": "han",
+      "explication": "Haber, sans accord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir",
+      "appui": "Le passé composé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

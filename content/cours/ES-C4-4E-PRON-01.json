@@ -1,0 +1,128 @@
+{
+  "competence": "ES-C4-4E-PRON-01",
+  "duree": 5,
+  "essentiel": "Un verbe pronominal se conjugue avec me, te, se, nos, os, se : me levanto, te llamas, se ducha.\nLe pronom se place avant le verbe conjugué : Me levanto temprano.\nIl se soude à l’infinitif, au gérondif et à l’impératif affirmatif : Voy a levantarme. ¡Levántate!",
+  "parties": [
+    {
+      "titre": "Conjuguer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Levantarse",
+          "colonnes": [
+            "Sujet",
+            "Forme"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "me levanto"
+            ],
+            [
+              "tú",
+              "te levantas"
+            ],
+            [
+              "él, ella",
+              "se levanta"
+            ],
+            [
+              "nosotros",
+              "nos levantamos"
+            ],
+            [
+              "ellos",
+              "se levantan"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« ¿Cómo … llamas? »",
+          "options": [
+            "te",
+            "se",
+            "me"
+          ],
+          "reponse": "te",
+          "explication": "Tú → te."
+        }
+      ]
+    },
+    {
+      "titre": "Placer le pronom",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avant ou soudé",
+          "colonnes": [
+            "Forme",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "verbe conjugué",
+              "Me acuesto tarde."
+            ],
+            [
+              "infinitif",
+              "Tengo que acostarme."
+            ],
+            [
+              "impératif affirmatif",
+              "¡Acuéstate!"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Levanto me ».",
+          "correction": "Avant le verbe conjugué : Me levanto."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nosotros … duchamos por la mañana. »",
+      "options": [
+        "nos",
+        "se",
+        "os"
+      ],
+      "reponse": "nos",
+      "explication": "Nosotros → nos."
+    },
+    {
+      "consigne": "« Voy a … » (acostarse, yo)",
+      "options": [
+        "acostarme",
+        "me acostar",
+        "acostarse"
+      ],
+      "reponse": "acostarme",
+      "explication": "Soudé à l’infinitif."
+    },
+    {
+      "consigne": "« Se llama Pablo » veut dire :",
+      "options": [
+        "Il s’appelle Pablo.",
+        "J’appelle Pablo.",
+        "On appelle Pablo."
+      ],
+      "reponse": "Il s’appelle Pablo.",
+      "explication": "Llamarse."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Genre, pronoms personnels compléments et réfléchis",
+      "appui": "Les verbes pronominaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

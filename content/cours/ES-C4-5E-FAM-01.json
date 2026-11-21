@@ -1,0 +1,127 @@
+{
+  "competence": "ES-C4-5E-FAM-01",
+  "duree": 5,
+  "essentiel": "La famille : el padre, la madre, los padres, el hermano, la hermana, los abuelos, el tío, la tía, el primo.\nMi, tu devant un nom singulier ; mis, tus devant un nom pluriel.\nMi hermana se llama Ana. Mis padres son simpáticos.",
+  "parties": [
+    {
+      "titre": "Les membres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La familia",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "los padres",
+              "les parents"
+            ],
+            [
+              "los hermanos",
+              "les frères et sœurs"
+            ],
+            [
+              "los abuelos",
+              "les grands-parents"
+            ],
+            [
+              "el tío / la tía",
+              "l’oncle / la tante"
+            ],
+            [
+              "el primo / la prima",
+              "le cousin / la cousine"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Los padres » désigne :",
+          "options": [
+            "le père et la mère",
+            "les pères",
+            "les grands-parents"
+          ],
+          "reponse": "le père et la mère",
+          "explication": "Les parents."
+        }
+      ]
+    },
+    {
+      "titre": "Mi ou mis",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Possessifs",
+          "colonnes": [
+            "Nombre",
+            "à moi",
+            "à toi"
+          ],
+          "lignes": [
+            [
+              "singulier",
+              "mi hermano",
+              "tu hermano"
+            ],
+            [
+              "pluriel",
+              "mis hermanos",
+              "tus hermanos"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « mi abuelos ».",
+          "correction": "Nom pluriel : mis abuelos."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … primos viven en Cádiz. »",
+      "options": [
+        "Mis",
+        "Mi",
+        "Mía"
+      ],
+      "reponse": "Mis",
+      "explication": "Pluriel."
+    },
+    {
+      "consigne": "« La tía » est :",
+      "options": [
+        "la tante",
+        "la grand-mère",
+        "la cousine"
+      ],
+      "reponse": "la tante",
+      "explication": "Tía : tante."
+    },
+    {
+      "consigne": "« ¿Tienes hermanos? » demande :",
+      "options": [
+        "si tu as des frères et sœurs",
+        "si tu as des cousins",
+        "si tu as des enfants"
+      ],
+      "reponse": "si tu as des frères et sœurs",
+      "explication": "Hermanos."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 10,
+      "extrait": "mi hermano mayor/menor, los tíos, mi prima Elena",
+      "appui": "La famille"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

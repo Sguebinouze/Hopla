@@ -1,0 +1,112 @@
+{
+  "competence": "LV-C4-3E-LIRE-01",
+  "duree": 5,
+  "essentiel": "Une lettre amicale commence par Dear… ou Hi… et se termine par Love, Best wishes ou See you soon.\nOn y repère le récit (au prétérit), les sentiments (I was so happy, I miss you) et les souhaits (I hope, I can’t wait to).\nLe contexte aide à comprendre les mots inconnus.",
+  "parties": [
+    {
+      "titre": "Lire une lettre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Dear Lou, last week we moved to Leeds. I miss you so much! I hope you can visit in July. I can’t wait to see you. Love, Mia »",
+          "etapes": [
+            "Récit : la famille de Mia a déménagé à Leeds.",
+            "Sentiment : Lou lui manque (I miss you).",
+            "Souhait : elle espère une visite en juillet."
+          ],
+          "conclusion": "Mia raconte son déménagement, dit que son amie lui manque et l’invite."
+        },
+        {
+          "type": "question",
+          "consigne": "« I miss you » veut dire :",
+          "options": [
+            "Tu me manques.",
+            "Je te rate.",
+            "Je t’attends."
+          ],
+          "reponse": "Tu me manques.",
+          "explication": "Attention au sens."
+        }
+      ]
+    },
+    {
+      "titre": "Exprimer des sentiments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sentiments et souhaits",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I was so excited.",
+              "J’étais très impatient."
+            ],
+            [
+              "I felt lonely.",
+              "Je me sentais seul."
+            ],
+            [
+              "I hope you’re well.",
+              "J’espère que tu vas bien."
+            ],
+            [
+              "I can’t wait to…",
+              "J’ai hâte de…"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On traduit « I miss you » par « je te manque ».",
+          "correction": "C’est l’inverse : tu me manques."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I can’t wait to see you » veut dire :",
+      "options": [
+        "J’ai hâte de te voir.",
+        "Je ne peux pas te voir.",
+        "Je ne veux pas attendre."
+      ],
+      "reponse": "J’ai hâte de te voir.",
+      "explication": "Impatience."
+    },
+    {
+      "consigne": "Une formule de fin de lettre amicale :",
+      "options": [
+        "Best wishes",
+        "Dear Sir",
+        "To whom it may concern"
+      ],
+      "reponse": "Best wishes",
+      "explication": "Les autres sont formelles."
+    },
+    {
+      "consigne": "« Lonely » veut dire :",
+      "options": [
+        "seul, isolé",
+        "joyeux",
+        "aimé"
+      ],
+      "reponse": "seul, isolé",
+      "explication": "Un sentiment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 40,
+      "extrait": "Comprendre un récit factuel, l’expression de sentiments et de souhaits dans une correspondance avec un pair.",
+      "appui": "Lettres et récits"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

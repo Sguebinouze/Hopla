@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-5E-QUOT-01",
+  "duree": 5,
+  "essentiel": "Les saisons : spring, summer, autumn (fall en anglais américain), winter.\nLes repas : breakfast, lunch, dinner. Au Royaume-Uni, le déjeuner est souvent rapide : un sandwich ou un packed lunch.\nPour décrire un mode de vie, on utilise le présent simple et les adverbes de fréquence.",
+  "parties": [
+    {
+      "titre": "Saisons et repas",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le quotidien",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "in spring",
+              "au printemps"
+            ],
+            [
+              "in autumn",
+              "en automne"
+            ],
+            [
+              "a packed lunch",
+              "un repas apporté de la maison"
+            ],
+            [
+              "a school bus",
+              "un bus scolaire"
+            ],
+            [
+              "the weekend",
+              "le weekend"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Fall » est le mot américain pour :",
+          "options": [
+            "autumn",
+            "winter",
+            "spring"
+          ],
+          "reponse": "autumn",
+          "explication": "Les feuilles tombent."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire une journée",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« In winter, Sam usually takes the bus to school. He has a packed lunch and gets home at four. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « in the summer of » partout, ou « on spring ».",
+          "correction": "Avec une saison, on emploie in : in spring, in summer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Lunch » est le repas de :",
+      "options": [
+        "midi",
+        "du matin",
+        "du soir"
+      ],
+      "reponse": "midi",
+      "explication": "Le déjeuner."
+    },
+    {
+      "consigne": "Quelle forme est juste ?",
+      "options": [
+        "in winter",
+        "on winter",
+        "at winter"
+      ],
+      "reponse": "in winter",
+      "explication": "In + saison."
+    },
+    {
+      "consigne": "« He usually walks to school. » décrit :",
+      "options": [
+        "une habitude",
+        "une action en cours",
+        "un projet"
+      ],
+      "reponse": "une habitude",
+      "explication": "Présent simple + usually."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 1,
+      "extrait": "Axe 2. Le quotidien : lieux, rythmes, saisons",
+      "appui": "Le quotidien et les saisons"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

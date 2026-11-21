@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-6E-VOC-01",
+  "duree": 5,
+  "essentiel": "La famille : parents, brother, sister, grandparents, uncle, aunt, cousin.\nLe portrait physique : tall, short, slim, long hair, blue eyes.\nLe caractère : kind, funny, shy, clever, lazy.",
+  "parties": [
+    {
+      "titre": "La famille",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ma famille",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "my parents",
+              "mes parents"
+            ],
+            [
+              "my grandparents",
+              "mes grands-parents"
+            ],
+            [
+              "my uncle / my aunt",
+              "mon oncle / ma tante"
+            ],
+            [
+              "my cousin",
+              "mon cousin, ma cousine"
+            ],
+            [
+              "an only child",
+              "un enfant unique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« My mother’s brother » est :",
+          "options": [
+            "my uncle",
+            "my cousin",
+            "my grandfather"
+          ],
+          "reponse": "my uncle",
+          "explication": "Le frère de ma mère."
+        }
+      ]
+    },
+    {
+      "titre": "Le portrait",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« My sister is tall and slim. She has got long brown hair. She is funny but a bit lazy. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « parents » et « relatives ».",
+          "correction": "Parents : le père et la mère. Relatives : les membres de la famille."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Shy » veut dire :",
+      "options": [
+        "timide",
+        "drôle",
+        "paresseux"
+      ],
+      "reponse": "timide",
+      "explication": "Il parle peu."
+    },
+    {
+      "consigne": "« She has got curly hair. » Ses cheveux sont :",
+      "options": [
+        "bouclés",
+        "raides",
+        "courts"
+      ],
+      "reponse": "bouclés",
+      "explication": "Curly : bouclé."
+    },
+    {
+      "consigne": "« My aunt’s daughter » est :",
+      "options": [
+        "my cousin",
+        "my sister",
+        "my niece"
+      ],
+      "reponse": "my cousin",
+      "explication": "La fille de ma tante."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 10,
+      "extrait": "family, parents, mother, father, brother, sister, uncle, aunt, cousin",
+      "appui": "Famille et portrait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

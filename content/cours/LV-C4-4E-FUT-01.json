@@ -1,0 +1,101 @@
+{
+  "competence": "LV-C4-4E-FUT-01",
+  "duree": 5,
+  "essentiel": "Be going to exprime un projet déjà décidé : I’m going to visit my cousins this summer.\nWill exprime une décision prise sur le moment ou une prédiction : I’ll answer the phone.\nBe going to sert aussi quand un indice annonce la suite : Look at the clouds, it’s going to rain.",
+  "parties": [
+    {
+      "titre": "Going to ou will",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux futurs",
+          "colonnes": [
+            "Forme",
+            "Emploi",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "be going to",
+              "projet décidé, indice présent",
+              "I’m going to learn the guitar."
+            ],
+            [
+              "will",
+              "décision immédiate, prédiction",
+              "I’ll help you. People will live on Mars."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le téléphone sonne : « I … get it! »",
+          "options": [
+            "’ll",
+            "’m going to",
+            "am"
+          ],
+          "reponse": "’ll",
+          "explication": "Décision sur le moment."
+        }
+      ]
+    },
+    {
+      "titre": "Parler de ses projets",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Next year, I’m going to join a football club. I think I’ll love it. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie be : « I going to travel ».",
+          "correction": "Be est obligatoire : I am going to travel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« She … study medicine. » (projet décidé)",
+      "options": [
+        "is going to",
+        "will to",
+        "goes to"
+      ],
+      "reponse": "is going to",
+      "explication": "Be going to."
+    },
+    {
+      "consigne": "« I think it will snow. » est :",
+      "options": [
+        "une prédiction",
+        "un projet décidé",
+        "une habitude"
+      ],
+      "reponse": "une prédiction",
+      "explication": "Will : prédiction."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "We are going to move.",
+        "We going to move.",
+        "We are going move."
+      ],
+      "reponse": "We are going to move.",
+      "explication": "Be + going to + base."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-reperes-lv-c4",
+      "page": 5,
+      "extrait": "en prenant appui sur ses actions et ses projets.",
+      "appui": "Parler de ses projets"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

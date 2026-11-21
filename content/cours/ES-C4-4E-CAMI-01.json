@@ -1,0 +1,114 @@
+{
+  "competence": "ES-C4-4E-CAMI-01",
+  "duree": 5,
+  "essentiel": "Demander : Perdone, ¿dónde está la estación? ¿Por dónde se va al museo?\nIndiquer : siga todo recto, gire a la derecha, tome la primera calle a la izquierda, está enfrente del banco.\nAl = a + el, del = de + el.",
+  "parties": [
+    {
+      "titre": "Le chemin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Indicaciones",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "todo recto",
+              "tout droit"
+            ],
+            [
+              "a la derecha",
+              "à droite"
+            ],
+            [
+              "a la izquierda",
+              "à gauche"
+            ],
+            [
+              "enfrente de",
+              "en face de"
+            ],
+            [
+              "al lado de",
+              "à côté de"
+            ],
+            [
+              "cerca / lejos",
+              "près / loin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Gire a la izquierda » veut dire :",
+          "options": [
+            "Tournez à gauche.",
+            "Tournez à droite.",
+            "Allez tout droit."
+          ],
+          "reponse": "Tournez à gauche.",
+          "explication": "Izquierda : gauche."
+        }
+      ]
+    },
+    {
+      "titre": "Al et del",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Voy al parque (a + el). La farmacia está enfrente del hotel (de + el). Mais : a la playa, de la plaza."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « a el museo ».",
+          "correction": "A + el se contracte : al museo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« ¿Está lejos? » demande :",
+      "options": [
+        "si c’est loin",
+        "si c’est ouvert",
+        "si c’est cher"
+      ],
+      "reponse": "si c’est loin",
+      "explication": "Lejos : loin."
+    },
+    {
+      "consigne": "« Je vais au marché » :",
+      "options": [
+        "Voy al mercado.",
+        "Voy a el mercado.",
+        "Voy en mercado."
+      ],
+      "reponse": "Voy al mercado.",
+      "explication": "Contraction."
+    },
+    {
+      "consigne": "Pour aborder quelqu’un poliment :",
+      "options": [
+        "Perdone",
+        "Hasta luego",
+        "Oye tú"
+      ],
+      "reponse": "Perdone",
+      "explication": "Excusez-moi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 41,
+      "extrait": "Demander et fournir des renseignements.",
+      "appui": "Demander son chemin"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,120 @@
+{
+  "competence": "AL-C4-4E-FUT-01",
+  "duree": 5,
+  "essentiel": "Pour parler de l’avenir, l’allemand emploie souvent le présent avec un repère de temps : Morgen fahre ich nach Wien.\nLe futur se forme aussi avec werden + infinitif en fin de phrase : Ich werde Arzt werden.\nWerden : ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden.",
+  "parties": [
+    {
+      "titre": "Deux façons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’avenir",
+          "colonnes": [
+            "Forme",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "présent + repère",
+              "Nächste Woche besuche ich meine Oma."
+            ],
+            [
+              "werden + infinitif",
+              "Im Sommer werde ich viel lesen."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Du … bestimmt Erfolg haben. »",
+          "options": [
+            "wirst",
+            "wird",
+            "werdest"
+          ],
+          "reponse": "wirst",
+          "explication": "Du wirst."
+        }
+      ]
+    },
+    {
+      "titre": "Repères de temps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Zeitangaben",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "morgen",
+              "demain"
+            ],
+            [
+              "nächste Woche",
+              "la semaine prochaine"
+            ],
+            [
+              "in zwei Jahren",
+              "dans deux ans"
+            ],
+            [
+              "später",
+              "plus tard"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich werde morgen gehen ins Kino ».",
+          "correction": "L’infinitif ferme la phrase : Ich werde morgen ins Kino gehen."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Morgen spiele ich Tennis. » parle :",
+      "options": [
+        "de l’avenir",
+        "du passé",
+        "d’une habitude"
+      ],
+      "reponse": "de l’avenir",
+      "explication": "Morgen : demain."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Wir werden nächstes Jahr umziehen.",
+        "Wir werden umziehen nächstes Jahr.",
+        "Wir umziehen werden nächstes Jahr."
+      ],
+      "reponse": "Wir werden nächstes Jahr umziehen.",
+      "explication": "Infinitif à la fin."
+    },
+    {
+      "consigne": "« In zwei Jahren » veut dire :",
+      "options": [
+        "dans deux ans",
+        "il y a deux ans",
+        "depuis deux ans"
+      ],
+      "reponse": "dans deux ans",
+      "explication": "In : dans."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir",
+      "appui": "Le futur avec werden"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

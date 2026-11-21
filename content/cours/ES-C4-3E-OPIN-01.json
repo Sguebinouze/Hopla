@@ -1,0 +1,116 @@
+{
+  "competence": "ES-C4-3E-OPIN-01",
+  "duree": 5,
+  "essentiel": "Donner son avis : Creo que…, Pienso que…, En mi opinión…, Para mí…\nAccord : Estoy de acuerdo contigo. Tienes razón. Désaccord : No estoy de acuerdo.\nNuancer : Depende. Es verdad, pero… Por un lado… por otro lado…",
+  "parties": [
+    {
+      "titre": "Exprimer un avis",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Opinar",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "En mi opinión,…",
+              "À mon avis,…"
+            ],
+            [
+              "Estoy de acuerdo.",
+              "Je suis d’accord."
+            ],
+            [
+              "Tienes razón.",
+              "Tu as raison."
+            ],
+            [
+              "Por un lado… por otro lado…",
+              "D’un côté… de l’autre…"
+            ],
+            [
+              "Depende.",
+              "Ça dépend."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Tienes razón » veut dire :",
+          "options": [
+            "Tu as raison.",
+            "Tu as une raison.",
+            "Tu raisonnes."
+          ],
+          "reponse": "Tu as raison.",
+          "explication": "Tener razón."
+        }
+      ]
+    },
+    {
+      "titre": "Argumenter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un avis argumenté",
+          "etapes": [
+            "Pienso que las redes sociales son útiles.",
+            "Primero, permiten hablar con amigos lejanos.",
+            "Sin embargo, hay que limitar el tiempo.",
+            "Por eso, creo que hay que usarlas con cuidado."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « Soy de acuerdo ».",
+          "correction": "On dit Estoy de acuerdo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "Estoy de acuerdo contigo.",
+        "Soy de acuerdo contigo.",
+        "Tengo de acuerdo contigo."
+      ],
+      "reponse": "Estoy de acuerdo contigo.",
+      "explication": "Estar de acuerdo."
+    },
+    {
+      "consigne": "« Sin embargo » introduit :",
+      "options": [
+        "une opposition",
+        "une cause",
+        "un exemple"
+      ],
+      "reponse": "une opposition",
+      "explication": "Cependant."
+    },
+    {
+      "consigne": "« Para mí » veut dire :",
+      "options": [
+        "pour moi",
+        "par moi",
+        "avec moi"
+      ],
+      "reponse": "pour moi",
+      "explication": "Avis personnel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 41,
+      "extrait": "Peut exprimer un avis, manifester un sentiment et donner quelques éléments simples de contexte sur un sujet abstrait ou culturel.",
+      "appui": "Donner son avis"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

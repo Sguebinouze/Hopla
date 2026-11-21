@@ -1,0 +1,128 @@
+{
+  "competence": "AL-C4-5E-VERB-01",
+  "duree": 6,
+  "essentiel": "Dans la phrase déclarative, le verbe conjugué est toujours en 2e position : Heute spiele ich Fußball.\nQuestion avec mot interrogatif : le mot, puis le verbe. Wo wohnst du?\nQuestion fermée (oui ou non) : le verbe en tête. Spielst du Tennis?",
+  "parties": [
+    {
+      "titre": "Le verbe en 2e position",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Position 2",
+          "colonnes": [
+            "Position 1",
+            "Verbe",
+            "Suite"
+          ],
+          "lignes": [
+            [
+              "Ich",
+              "spiele",
+              "heute Fußball."
+            ],
+            [
+              "Heute",
+              "spiele",
+              "ich Fußball."
+            ],
+            [
+              "Am Samstag",
+              "gehe",
+              "ich ins Kino."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle phrase est juste ?",
+          "options": [
+            "Morgen fahre ich nach Berlin.",
+            "Morgen ich fahre nach Berlin.",
+            "Morgen ich nach Berlin fahre."
+          ],
+          "reponse": "Morgen fahre ich nach Berlin.",
+          "explication": "Le verbe reste 2e."
+        }
+      ]
+    },
+    {
+      "titre": "Les questions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions",
+          "colonnes": [
+            "Allemand",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Was machst du?",
+              "Que fais-tu ?"
+            ],
+            [
+              "Wann beginnt der Film?",
+              "Quand commence le film ?"
+            ],
+            [
+              "Warum lachst du?",
+              "Pourquoi ris-tu ?"
+            ],
+            [
+              "Hast du einen Hund?",
+              "As-tu un chien ?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde l’ordre français après un complément : « Heute ich spiele ».",
+          "correction": "Si un complément ouvre la phrase, le sujet passe après le verbe : Heute spiele ich."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wo … du? » (wohnen)",
+      "options": [
+        "wohnst",
+        "du wohnst",
+        "wohnen"
+      ],
+      "reponse": "wohnst",
+      "explication": "Mot interrogatif + verbe + sujet."
+    },
+    {
+      "consigne": "Une question fermée commence par :",
+      "options": [
+        "le verbe",
+        "le sujet",
+        "un mot interrogatif"
+      ],
+      "reponse": "le verbe",
+      "explication": "Kommst du?"
+    },
+    {
+      "consigne": "« Nach der Schule … ich Hausaufgaben. »",
+      "options": [
+        "mache",
+        "ich mache",
+        "machen"
+      ],
+      "reponse": "mache",
+      "explication": "Le verbe en 2e position."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 24,
+      "extrait": "repérer la place du verbe, en particulier lorsque la première position n’est pas occupée par le sujet",
+      "appui": "Verbe en 2e position et questions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

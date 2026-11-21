@@ -1,0 +1,102 @@
+{
+  "competence": "ES-C4-3E-IND-01",
+  "duree": 5,
+  "essentiel": "Rapporter des paroles : Dice que está cansado. Rapporter une question fermée : Pregunta si quiero venir.\nAvec un mot interrogatif, on le garde avec son accent : Pregunta dónde vivo.\nLes pronoms et possessifs changent : « Te quiero » → Dice que me quiere.",
+  "parties": [
+    {
+      "titre": "Rapporter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Direct et indirect",
+          "colonnes": [
+            "Direct",
+            "Indirect"
+          ],
+          "lignes": [
+            [
+              "« Estoy cansado. »",
+              "Dice que está cansado."
+            ],
+            [
+              "« ¿Quieres venir? »",
+              "Pregunta si quiero venir."
+            ],
+            [
+              "« ¿Dónde vives? »",
+              "Pregunta dónde vivo."
+            ],
+            [
+              "« Mi casa es grande. »",
+              "Dice que su casa es grande."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« ¿Tienes hambre? » → Me pregunta … tengo hambre.",
+          "options": [
+            "si",
+            "que",
+            "cuando"
+          ],
+          "reponse": "si",
+          "explication": "Question fermée : si."
+        }
+      ]
+    },
+    {
+      "titre": "Changer les personnes",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On garde le pronom de départ : « Dice que te quiero ».",
+          "correction": "On adapte au point de vue : Dice que me quiere."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Vengo mañana », dice Ana. → Ana dice que … mañana.",
+      "options": [
+        "viene",
+        "vengo",
+        "vienes"
+      ],
+      "reponse": "viene",
+      "explication": "Troisième personne."
+    },
+    {
+      "consigne": "« ¿Cuándo llegas? » → Pregunta … llego.",
+      "options": [
+        "cuándo",
+        "si",
+        "que"
+      ],
+      "reponse": "cuándo",
+      "explication": "Le mot interrogatif reste."
+    },
+    {
+      "consigne": "« Pregunta si » veut dire :",
+      "options": [
+        "il demande si",
+        "il répond que",
+        "il dit que"
+      ],
+      "reponse": "il demande si",
+      "explication": "Question rapportée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Discours indirect. Interrogation indirecte",
+      "appui": "Le discours indirect"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

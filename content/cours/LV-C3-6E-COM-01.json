@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-6E-COM-01",
+  "duree": 5,
+  "essentiel": "Saluer : Hello! Hi! Good morning! Prendre congé : Goodbye! See you later!\nDemander des nouvelles : How are you? Répondre : I’m fine, thanks. And you?\nDemander de l’aide : Can you help me, please? Remercier : Thank you very much.",
+  "parties": [
+    {
+      "titre": "Échanger",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Formules",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "How are you?",
+              "Comment vas-tu ?"
+            ],
+            [
+              "I’m fine, thanks.",
+              "Bien, merci."
+            ],
+            [
+              "Nice to meet you.",
+              "Enchanté."
+            ],
+            [
+              "Can you help me, please?",
+              "Peux-tu m’aider ?"
+            ],
+            [
+              "You’re welcome.",
+              "De rien."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "On répond à « Thank you! » par :",
+          "options": [
+            "You’re welcome.",
+            "Nice to meet you.",
+            "Goodbye."
+          ],
+          "reponse": "You’re welcome.",
+          "explication": "De rien."
+        }
+      ]
+    },
+    {
+      "titre": "Se présenter",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Hi! My name is Léo. I’m eleven. I live in Lyon. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « I’m fine » à « How old are you? ».",
+          "correction": "How old : quel âge. On répond I’m eleven."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« See you later! » veut dire :",
+      "options": [
+        "À plus tard !",
+        "Bonjour !",
+        "Merci !"
+      ],
+      "reponse": "À plus tard !",
+      "explication": "Pour prendre congé."
+    },
+    {
+      "consigne": "Pour demander de l’aide, on dit :",
+      "options": [
+        "Can you help me, please?",
+        "Help you me?",
+        "I help you."
+      ],
+      "reponse": "Can you help me, please?",
+      "explication": "Can you… please."
+    },
+    {
+      "consigne": "« Nice to meet you » se dit :",
+      "options": [
+        "quand on rencontre quelqu’un",
+        "pour remercier",
+        "pour s’excuser"
+      ],
+      "reponse": "quand on rencontre quelqu’un",
+      "explication": "Enchanté."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 10,
+      "extrait": "Demander des nouvelles et réagir de manière stéréotypée",
+      "appui": "Saluer, demander, remercier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

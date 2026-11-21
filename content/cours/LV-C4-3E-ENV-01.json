@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-3E-ENV-01",
+  "duree": 5,
+  "essentiel": "Pour parler d’environnement : climate change, pollution, waste, recycling, renewable energy.\nDes gestes : reduce, reuse, recycle ; save energy ; use public transport.\nPour proposer : We should…, Why don’t we…?, It’s important to…",
+  "parties": [
+    {
+      "titre": "Le vocabulaire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Environnement",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "climate change",
+              "changement climatique"
+            ],
+            [
+              "waste",
+              "déchets, gaspillage"
+            ],
+            [
+              "renewable energy",
+              "énergie renouvelable"
+            ],
+            [
+              "plastic bottles",
+              "bouteilles en plastique"
+            ],
+            [
+              "to save energy",
+              "économiser l’énergie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Reduce, reuse, recycle » veut dire :",
+          "options": [
+            "réduire, réutiliser, recycler",
+            "réparer, revendre, recycler",
+            "refuser, ranger, recycler"
+          ],
+          "reponse": "réduire, réutiliser, recycler",
+          "explication": "Les trois R."
+        }
+      ]
+    },
+    {
+      "titre": "Proposer des actions",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Why don’t we start a recycling club at school? We should also turn off the lights when we leave. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « the pollution is a problem » pour une généralité.",
+          "correction": "Généralité : pas d’article. Pollution is a problem."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Waste » veut dire :",
+      "options": [
+        "déchets, gaspillage",
+        "eau",
+        "vent"
+      ],
+      "reponse": "déchets, gaspillage",
+      "explication": "Don’t waste water."
+    },
+    {
+      "consigne": "« Why don’t we…? » sert à :",
+      "options": [
+        "proposer",
+        "interdire",
+        "raconter"
+      ],
+      "reponse": "proposer",
+      "explication": "Une suggestion."
+    },
+    {
+      "consigne": "L’énergie solaire est :",
+      "options": [
+        "renewable",
+        "polluting",
+        "wasteful"
+      ],
+      "reponse": "renewable",
+      "explication": "Renouvelable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Place de la question de l’environnement dans le quotidien des élèves des pays concernés",
+      "appui": "The environment"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

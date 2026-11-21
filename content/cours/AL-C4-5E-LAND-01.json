@@ -1,0 +1,111 @@
+{
+  "competence": "AL-C4-5E-LAND-01",
+  "duree": 5,
+  "essentiel": "On parle allemand en Allemagne (Berlin), en Autriche (Vienne), en Suisse (Berne, avec d’autres langues) et au Liechtenstein (Vaduz).\nL’allemand est aussi une langue officielle au Luxembourg et en Belgique.\nLes points cardinaux : der Norden, der Süden, der Osten, der Westen.",
+  "parties": [
+    {
+      "titre": "Les pays germanophones",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pays et capitales",
+          "colonnes": [
+            "Pays",
+            "En allemand",
+            "Capitale"
+          ],
+          "lignes": [
+            [
+              "Allemagne",
+              "Deutschland",
+              "Berlin"
+            ],
+            [
+              "Autriche",
+              "Österreich",
+              "Wien"
+            ],
+            [
+              "Suisse",
+              "die Schweiz",
+              "Bern"
+            ],
+            [
+              "Liechtenstein",
+              "Liechtenstein",
+              "Vaduz"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La capitale de l’Autriche est :",
+          "options": [
+            "Vienne",
+            "Berne",
+            "Munich"
+          ],
+          "reponse": "Vienne",
+          "explication": "Wien."
+        }
+      ]
+    },
+    {
+      "titre": "Situer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Hamburg liegt im Norden von Deutschland. München liegt im Süden."
+        },
+        {
+          "type": "piege",
+          "erreur": "On pense que tous les Suisses parlent allemand.",
+          "correction": "La Suisse a quatre langues nationales : allemand, français, italien, romanche."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Der Osten » est :",
+      "options": [
+        "l’est",
+        "l’ouest",
+        "le sud"
+      ],
+      "reponse": "l’est",
+      "explication": "Osten : est."
+    },
+    {
+      "consigne": "« Österreich » est :",
+      "options": [
+        "l’Autriche",
+        "l’Australie",
+        "l’Allemagne de l’Est"
+      ],
+      "reponse": "l’Autriche",
+      "explication": "Capitale : Wien."
+    },
+    {
+      "consigne": "« München liegt im Süden. » Munich est :",
+      "options": [
+        "au sud",
+        "au nord",
+        "à l’ouest"
+      ],
+      "reponse": "au sud",
+      "explication": "Süden : sud."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-allemand-college",
+      "page": 23,
+      "extrait": "les points cardinaux, les DACH-Länder",
+      "appui": "Les pays germanophones"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

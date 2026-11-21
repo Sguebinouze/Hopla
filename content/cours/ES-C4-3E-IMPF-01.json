@@ -1,0 +1,139 @@
+{
+  "competence": "ES-C4-3E-IMPF-01",
+  "duree": 6,
+  "essentiel": "L’imparfait décrit le décor et les habitudes du passé : -aba pour -ar, -ía pour -er et -ir.\nTrois verbes irréguliers : ser (era), ir (iba), ver (veía).\nLe passé simple raconte une action ponctuelle : Llovía cuando salí.",
+  "parties": [
+    {
+      "titre": "Les irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Imparfait irrégulier",
+          "colonnes": [
+            "Sujet",
+            "ser",
+            "ir",
+            "ver"
+          ],
+          "lignes": [
+            [
+              "yo",
+              "era",
+              "iba",
+              "veía"
+            ],
+            [
+              "tú",
+              "eras",
+              "ibas",
+              "veías"
+            ],
+            [
+              "él, ella",
+              "era",
+              "iba",
+              "veía"
+            ],
+            [
+              "nosotros",
+              "éramos",
+              "íbamos",
+              "veíamos"
+            ],
+            [
+              "ellos",
+              "eran",
+              "iban",
+              "veían"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Cuando … pequeña, vivía en Málaga. »",
+          "options": [
+            "era",
+            "fui",
+            "estaba"
+          ],
+          "reponse": "era",
+          "explication": "Description : imparfait de ser."
+        }
+      ]
+    },
+    {
+      "titre": "Imparfait ou passé simple",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux passés",
+          "colonnes": [
+            "Temps",
+            "Rôle",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "imparfait",
+              "décor, habitude",
+              "Hacía sol. Siempre íbamos a la playa."
+            ],
+            [
+              "indefinido",
+              "action unique",
+              "Un día, encontré una cartera."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On met tout le récit à l’imparfait.",
+          "correction": "Les actions qui font avancer l’histoire sont au passé simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Todos los veranos … a casa de mis abuelos. »",
+      "options": [
+        "íbamos",
+        "fuimos",
+        "vamos"
+      ],
+      "reponse": "íbamos",
+      "explication": "Habitude."
+    },
+    {
+      "consigne": "« Veía » vient de :",
+      "options": [
+        "ver",
+        "venir",
+        "vivir"
+      ],
+      "reponse": "ver",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« … las diez cuando llegó. »",
+      "options": [
+        "Eran",
+        "Fueron",
+        "Son"
+      ],
+      "reponse": "Eran",
+      "explication": "Le décor : imparfait."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Expression du présent, du passé, de l’avenir.",
+      "appui": "L’imparfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

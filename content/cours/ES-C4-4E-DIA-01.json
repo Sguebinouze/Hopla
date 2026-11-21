@@ -1,0 +1,117 @@
+{
+  "competence": "ES-C4-4E-DIA-01",
+  "duree": 5,
+  "essentiel": "La journée se raconte avec des verbes pronominaux : me levanto, me ducho, me visto, me acuesto.\nL’heure se donne avec a las : a las siete, a las ocho y media.\nLes moments : por la mañana, por la tarde, por la noche.",
+  "parties": [
+    {
+      "titre": "Mon emploi du temps",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un día normal",
+          "etapes": [
+            "Me levanto a las siete.",
+            "Desayuno y me visto.",
+            "Voy al instituto a las ocho.",
+            "Por la tarde, hago los deberes.",
+            "Me acuesto a las diez."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Me acuesto » veut dire :",
+          "options": [
+            "je me couche",
+            "je me lève",
+            "je me lave"
+          ],
+          "reponse": "je me couche",
+          "explication": "Acostarse."
+        }
+      ]
+    },
+    {
+      "titre": "Les moments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "El día",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "por la mañana",
+              "le matin"
+            ],
+            [
+              "por la tarde",
+              "l’après-midi"
+            ],
+            [
+              "por la noche",
+              "le soir, la nuit"
+            ],
+            [
+              "el instituto",
+              "le collège, le lycée"
+            ],
+            [
+              "los deberes",
+              "les devoirs"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « en la mañana ».",
+          "correction": "En Espagne, on dit por la mañana."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Me ducho » veut dire :",
+      "options": [
+        "je me douche",
+        "je m’habille",
+        "je déjeune"
+      ],
+      "reponse": "je me douche",
+      "explication": "Ducharse."
+    },
+    {
+      "consigne": "« À sept heures » :",
+      "options": [
+        "a las siete",
+        "en las siete",
+        "son las siete"
+      ],
+      "reponse": "a las siete",
+      "explication": "A las."
+    },
+    {
+      "consigne": "« Los deberes » sont :",
+      "options": [
+        "les devoirs",
+        "les droits",
+        "les cours"
+      ],
+      "reponse": "les devoirs",
+      "explication": "À la maison."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 42,
+      "extrait": "Peut décrire ou présenter simplement des gens, des conditions de vie, des activités quotidiennes",
+      "appui": "Ma journée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

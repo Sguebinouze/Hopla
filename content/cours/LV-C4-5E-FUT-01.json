@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C4-5E-FUT-01",
+  "duree": 5,
+  "essentiel": "I would like to + verbe exprime un souhait : I would like to visit New York.\nWill + verbe exprime une décision ou une prédiction : I’ll help you. It will rain tomorrow.\nLes marqueurs : tomorrow, next week, one day, in the future.",
+  "parties": [
+    {
+      "titre": "Souhait et futur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Projets",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I’d like to be a vet.",
+              "J’aimerais être vétérinaire."
+            ],
+            [
+              "I’ll call you tomorrow.",
+              "Je t’appellerai demain."
+            ],
+            [
+              "One day, I will travel.",
+              "Un jour, je voyagerai."
+            ],
+            [
+              "Will you come?",
+              "Viendras-tu ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I’ll » est la contraction de :",
+          "options": [
+            "I will",
+            "I would",
+            "I all"
+          ],
+          "reponse": "I will",
+          "explication": "Will."
+        }
+      ]
+    },
+    {
+      "titre": "Will ne change pas",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « She wills come » ou « I will to come ».",
+          "correction": "Will + base verbale, sans -s ni to : she will come."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I would like to learn Japanese. » exprime :",
+      "options": [
+        "un souhait",
+        "une obligation",
+        "un regret"
+      ],
+      "reponse": "un souhait",
+      "explication": "Would like."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He will be late.",
+        "He wills be late.",
+        "He will to be late."
+      ],
+      "reponse": "He will be late.",
+      "explication": "Will + base."
+    },
+    {
+      "consigne": "« Next week » veut dire :",
+      "options": [
+        "la semaine prochaine",
+        "la semaine dernière",
+        "cette semaine"
+      ],
+      "reponse": "la semaine prochaine",
+      "explication": "Next : prochain."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 9,
+      "extrait": "Exprimer simplement un souhait, une intention ou une",
+      "appui": "Souhaits et projets"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

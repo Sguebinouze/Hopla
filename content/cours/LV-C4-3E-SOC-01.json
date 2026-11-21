@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-3E-SOC-01",
+  "duree": 5,
+  "essentiel": "Au Royaume-Uni, beaucoup d’élèves portent un uniforme ; le collège français correspond à peu près à secondary school.\nAux États-Unis, les classes s’appellent grades : middle school puis high school, souvent avec un bus scolaire jaune.\nComparer des systèmes, c’est repérer ressemblances et différences, sans juger.",
+  "parties": [
+    {
+      "titre": "Trois écoles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Critère",
+            "France",
+            "Royaume-Uni",
+            "États-Unis"
+          ],
+          "lignes": [
+            [
+              "après le primaire",
+              "collège puis lycée",
+              "secondary school",
+              "middle school puis high school"
+            ],
+            [
+              "tenue",
+              "libre en général",
+              "uniforme fréquent",
+              "libre en général, parfois uniforme"
+            ],
+            [
+              "repas",
+              "cantine",
+              "school dinner ou packed lunch",
+              "cafeteria"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Aux États-Unis, une classe s’appelle :",
+          "options": [
+            "a grade",
+            "a year",
+            "a form"
+          ],
+          "reponse": "a grade",
+          "explication": "Seventh grade, eighth grade…"
+        }
+      ]
+    },
+    {
+      "titre": "Comparer à l’oral",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« In France, we don’t wear a uniform, whereas many British pupils do. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On généralise : « All American pupils take the yellow bus. »",
+          "correction": "On nuance : many, most, often."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Whereas » exprime :",
+      "options": [
+        "une opposition",
+        "une cause",
+        "un lieu"
+      ],
+      "reponse": "une opposition",
+      "explication": "Alors que."
+    },
+    {
+      "consigne": "« High school » correspond plutôt au :",
+      "options": [
+        "lycée",
+        "primaire",
+        "collège seul"
+      ],
+      "reponse": "lycée",
+      "explication": "Les dernières années."
+    },
+    {
+      "consigne": "Pour nuancer une comparaison, on dit :",
+      "options": [
+        "many pupils",
+        "all pupils",
+        "every pupil"
+      ],
+      "reponse": "many pupils",
+      "explication": "Pas de généralité abusive."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Comparaison des systèmes scolaires.",
+      "appui": "École et société"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

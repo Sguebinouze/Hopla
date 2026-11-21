@@ -1,0 +1,106 @@
+{
+  "competence": "ES-C4-5E-PRES-01",
+  "duree": 5,
+  "essentiel": "Se présenter : Me llamo Hugo. Tengo doce años. Soy francés. Vivo en Lyon.\nLes questions : ¿Cómo te llamas? ¿Cuántos años tienes? ¿De dónde eres? ¿Dónde vives?\nEn espagnol, une question s’ouvre par ¿ et une exclamation par ¡.",
+  "parties": [
+    {
+      "titre": "Questions et réponses",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Presentarse",
+          "colonnes": [
+            "Espagnol",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "¿Cómo te llamas?",
+              "Comment t’appelles-tu ?"
+            ],
+            [
+              "¿Cuántos años tienes?",
+              "Quel âge as-tu ?"
+            ],
+            [
+              "¿De dónde eres?",
+              "D’où es-tu ?"
+            ],
+            [
+              "¿Dónde vives?",
+              "Où habites-tu ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Tengo trece años. » donne :",
+          "options": [
+            "l’âge",
+            "le nom",
+            "la ville"
+          ],
+          "reponse": "l’âge",
+          "explication": "Años : ans."
+        }
+      ]
+    },
+    {
+      "titre": "L’âge avec tener",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Comme en français, l’âge se dit avec « avoir » : tengo doce años."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit la question sans ¿ au début.",
+          "correction": "L’espagnol encadre la question : ¿Dónde vives?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« ¿De dónde eres? » veut dire :",
+      "options": [
+        "D’où es-tu ?",
+        "Où vas-tu ?",
+        "Qui es-tu ?"
+      ],
+      "reponse": "D’où es-tu ?",
+      "explication": "Origine."
+    },
+    {
+      "consigne": "« J’habite à Paris » se dit :",
+      "options": [
+        "Vivo en París.",
+        "Soy en París.",
+        "Tengo París."
+      ],
+      "reponse": "Vivo en París.",
+      "explication": "Vivir : habiter."
+    },
+    {
+      "consigne": "Une question espagnole commence par :",
+      "options": [
+        "¿",
+        "?",
+        "¡"
+      ],
+      "reponse": "¿",
+      "explication": "Point d’interrogation renversé."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 8,
+      "extrait": "(Se) présenter de manière très simple en indiquant son",
+      "appui": "Se présenter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

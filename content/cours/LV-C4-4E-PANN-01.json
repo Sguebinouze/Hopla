@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C4-4E-PANN-01",
+  "duree": 4,
+  "essentiel": "Les panneaux publics sont courts : un ordre, une interdiction ou une information.\nExit (sortie), No entry (entrée interdite), Wet floor (sol glissant), Out of order (en panne).\nÀ Londres, « Mind the gap » invite à faire attention à l’espace entre le quai et le métro.",
+  "parties": [
+    {
+      "titre": "Panneaux courants",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Signes",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Exit / Way out",
+              "Sortie"
+            ],
+            [
+              "No entry",
+              "Entrée interdite"
+            ],
+            [
+              "Push / Pull",
+              "Poussez / Tirez"
+            ],
+            [
+              "Out of order",
+              "En panne"
+            ],
+            [
+              "Keep off the grass",
+              "Pelouse interdite"
+            ],
+            [
+              "Mind the gap",
+              "Attention à la marche"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Out of order » sur une machine veut dire :",
+          "options": [
+            "en panne",
+            "en ordre",
+            "en vente"
+          ],
+          "reponse": "en panne",
+          "explication": "Elle ne marche pas."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un panneau",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « Push » et « Pull ».",
+          "correction": "Push : pousser. Pull : tirer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« No entry » veut dire :",
+      "options": [
+        "Entrée interdite",
+        "Pas d’entrée payante",
+        "Entrée libre"
+      ],
+      "reponse": "Entrée interdite",
+      "explication": "Interdiction."
+    },
+    {
+      "consigne": "« Wet floor » prévient d’un :",
+      "options": [
+        "sol glissant",
+        "sol sale",
+        "sol fragile"
+      ],
+      "reponse": "sol glissant",
+      "explication": "Wet : mouillé."
+    },
+    {
+      "consigne": "« Keep off the grass » veut dire :",
+      "options": [
+        "Ne marchez pas sur la pelouse.",
+        "Gardez l’herbe.",
+        "Tondez la pelouse."
+      ],
+      "reponse": "Ne marchez pas sur la pelouse.",
+      "explication": "Keep off : rester à l’écart."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 40,
+      "extrait": "Comprendre les signes et les panneaux courants dans les lieux publics, à l’école, pour l’orientation, les instructions, la sécurité.",
+      "appui": "Panneaux et signes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

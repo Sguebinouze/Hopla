@@ -1,0 +1,137 @@
+{
+  "competence": "LV-C4-3E-REL-01",
+  "duree": 6,
+  "essentiel": "Les relatifs : who pour une personne, which pour une chose, where pour un lieu, whose pour la possession.\nLes connecteurs : because (cause), so (conséquence), but et although (opposition), however (cependant).\nIls relient les idées et rendent un texte plus clair.",
+  "parties": [
+    {
+      "titre": "Les relatifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relier deux phrases",
+          "colonnes": [
+            "Relatif",
+            "Pour",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "who",
+              "une personne",
+              "the girl who lives next door"
+            ],
+            [
+              "which",
+              "une chose",
+              "the book which I read"
+            ],
+            [
+              "where",
+              "un lieu",
+              "the town where I was born"
+            ],
+            [
+              "whose",
+              "la possession",
+              "the boy whose dog is lost"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The woman … car is red is my aunt. »",
+          "options": [
+            "whose",
+            "who",
+            "which"
+          ],
+          "reponse": "whose",
+          "explication": "La voiture de la femme."
+        }
+      ]
+    },
+    {
+      "titre": "Les connecteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relier des idées",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "because",
+              "parce que"
+            ],
+            [
+              "so",
+              "donc"
+            ],
+            [
+              "although",
+              "bien que"
+            ],
+            [
+              "however",
+              "cependant"
+            ],
+            [
+              "as a result",
+              "par conséquent"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On emploie which pour une personne.",
+          "correction": "Pour une personne : who. The teacher who…"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« This is the house … I grew up. »",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "reponse": "where",
+      "explication": "Un lieu."
+    },
+    {
+      "consigne": "« It was raining, … we stayed home. »",
+      "options": [
+        "so",
+        "because",
+        "although"
+      ],
+      "reponse": "so",
+      "explication": "Conséquence."
+    },
+    {
+      "consigne": "« … it was late, she kept working. »",
+      "options": [
+        "Although",
+        "Because",
+        "So"
+      ],
+      "reponse": "Although",
+      "explication": "Opposition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Coordination. Subordination. Relatifs.",
+      "appui": "Relatifs et connecteurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

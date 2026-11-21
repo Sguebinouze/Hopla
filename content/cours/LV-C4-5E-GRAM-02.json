@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C4-5E-GRAM-02",
+  "duree": 6,
+  "essentiel": "Adjectif court : -er than, the -est. tall → taller than → the tallest.\nAdjectif long : more… than, the most… famous → more famous than → the most famous.\nÉgalité : as… as. Irréguliers : good → better → the best, bad → worse → the worst.",
+  "parties": [
+    {
+      "titre": "Comparatif et superlatif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Adjectif",
+            "Comparatif",
+            "Superlatif"
+          ],
+          "lignes": [
+            [
+              "tall",
+              "taller than",
+              "the tallest"
+            ],
+            [
+              "big",
+              "bigger than",
+              "the biggest"
+            ],
+            [
+              "happy",
+              "happier than",
+              "the happiest"
+            ],
+            [
+              "famous",
+              "more famous than",
+              "the most famous"
+            ],
+            [
+              "good",
+              "better than",
+              "the best"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The Nile is … river in Africa. »",
+          "options": [
+            "the longest",
+            "the most long",
+            "longer"
+          ],
+          "reponse": "the longest",
+          "explication": "Adjectif court : -est."
+        }
+      ]
+    },
+    {
+      "titre": "L’égalité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« My brother is as tall as my father. » Ils ont la même taille."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « more tall » ou « gooder ».",
+          "correction": "Adjectif court : taller. Irrégulier : better."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le comparatif de « bad » est :",
+      "options": [
+        "worse",
+        "badder",
+        "more bad"
+      ],
+      "reponse": "worse",
+      "explication": "Irrégulier."
+    },
+    {
+      "consigne": "« This film is … than the book. »",
+      "options": [
+        "more interesting",
+        "interestinger",
+        "most interesting"
+      ],
+      "reponse": "more interesting",
+      "explication": "Adjectif long."
+    },
+    {
+      "consigne": "« As fast as » exprime :",
+      "options": [
+        "l’égalité",
+        "la supériorité",
+        "l’infériorité"
+      ],
+      "reponse": "l’égalité",
+      "explication": "Aussi… que."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 20,
+      "extrait": "Établir des comparaisons en utilisant des adjectifs connus associés à des comparatifs et des superlatifs",
+      "appui": "Comparatif et superlatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

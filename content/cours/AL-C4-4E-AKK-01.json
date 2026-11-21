@@ -1,0 +1,116 @@
+{
+  "competence": "AL-C4-4E-AKK-01",
+  "duree": 6,
+  "essentiel": "Le complément d’objet direct est à l’accusatif.\nSeul le masculin change : der → den, ein → einen, kein → keinen, mein → meinen.\nLe féminin, le neutre et le pluriel ne changent pas : Ich sehe die Katze, das Haus, die Kinder.",
+  "parties": [
+    {
+      "titre": "Le masculin à l’accusatif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Nominatif et accusatif",
+          "colonnes": [
+            "Genre",
+            "Nominatif",
+            "Accusatif"
+          ],
+          "lignes": [
+            [
+              "masculin",
+              "der / ein Hund",
+              "den / einen Hund"
+            ],
+            [
+              "féminin",
+              "die / eine Katze",
+              "die / eine Katze"
+            ],
+            [
+              "neutre",
+              "das / ein Pferd",
+              "das / ein Pferd"
+            ],
+            [
+              "pluriel",
+              "die Hunde",
+              "die Hunde"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ich habe … Bruder. »",
+          "options": [
+            "einen",
+            "ein",
+            "eine"
+          ],
+          "reponse": "einen",
+          "explication": "Complément masculin."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer le complément",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Trouver l’accusatif",
+          "etapes": [
+            "Trouve le verbe : Ich kaufe…",
+            "Demande « quoi ? » : un pull.",
+            "Pull se dit der Pullover : masculin, donc einen Pullover."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Ich sehe der Mann ».",
+          "correction": "Complément masculin : Ich sehe den Mann."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wir besuchen … Onkel. »",
+      "options": [
+        "unseren",
+        "unser",
+        "unsere"
+      ],
+      "reponse": "unseren",
+      "explication": "Onkel masculin, complément."
+    },
+    {
+      "consigne": "« Ich esse … Apfel. »",
+      "options": [
+        "einen",
+        "ein",
+        "eine"
+      ],
+      "reponse": "einen",
+      "explication": "Der Apfel."
+    },
+    {
+      "consigne": "Au féminin, l’accusatif :",
+      "options": [
+        "ne change pas",
+        "devient den",
+        "devient dem"
+      ],
+      "reponse": "ne change pas",
+      "explication": "Die reste die."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 45,
+      "extrait": "Articles, quantifieurs.",
+      "appui": "L’accusatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

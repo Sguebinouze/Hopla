@@ -1,0 +1,115 @@
+{
+  "competence": "LV-C4-4E-LIRE-01",
+  "duree": 5,
+  "essentiel": "Dans un document de la vie courante, on cherche une information précise sans tout traduire.\nUn menu : starters, main courses, desserts. Un horaire : departure, arrival, platform.\nUne annonce : for sale, free, opening hours.",
+  "parties": [
+    {
+      "titre": "Repérer l’information",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Horaire : « Train to York, departure 10:15, platform 4, arrival 12:40. » À quelle heure arrive le train ?",
+          "etapes": [
+            "Je cherche le mot qui veut dire arrivée : arrival.",
+            "Je lis l’heure à côté : 12:40."
+          ],
+          "conclusion": "Le train arrive à York à 12 h 40."
+        },
+        {
+          "type": "question",
+          "consigne": "« Opening hours » indique :",
+          "options": [
+            "les heures d’ouverture",
+            "le prix",
+            "l’adresse"
+          ],
+          "reponse": "les heures d’ouverture",
+          "explication": "Open : ouvrir."
+        }
+      ]
+    },
+    {
+      "titre": "Mots utiles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Documents",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "starter",
+              "entrée"
+            ],
+            [
+              "main course",
+              "plat principal"
+            ],
+            [
+              "departure",
+              "départ"
+            ],
+            [
+              "for sale",
+              "à vendre"
+            ],
+            [
+              "free",
+              "gratuit, libre"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit « free » comme « frais ».",
+          "correction": "Free veut dire gratuit ou libre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Main course » est :",
+      "options": [
+        "le plat principal",
+        "le cours principal",
+        "le dessert"
+      ],
+      "reponse": "le plat principal",
+      "explication": "Au restaurant."
+    },
+    {
+      "consigne": "« Departure » veut dire :",
+      "options": [
+        "départ",
+        "arrivée",
+        "retard"
+      ],
+      "reponse": "départ",
+      "explication": "Le train part."
+    },
+    {
+      "consigne": "« Free entry » veut dire :",
+      "options": [
+        "entrée gratuite",
+        "entrée fraiche",
+        "sortie libre"
+      ],
+      "reponse": "entrée gratuite",
+      "explication": "Free : gratuit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 40,
+      "extrait": "Trouver un renseignement spécifique et prévisible dans des documents simples tels que prospectus, menus, annonces, horaires.",
+      "appui": "Documents de la vie courante"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

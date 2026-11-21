@@ -1,0 +1,101 @@
+{
+  "competence": "LV-C4-5E-GRAM-01",
+  "duree": 5,
+  "essentiel": "Au présent simple, la question et la négation se forment avec do, ou does pour he, she, it.\nDo you like cats? Does she like cats? I don’t like cats. She doesn’t like cats.\nAprès does et doesn’t, le verbe perd son -s.",
+  "parties": [
+    {
+      "titre": "Do ou does",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Question et négation",
+          "colonnes": [
+            "Sujet",
+            "Question",
+            "Négation"
+          ],
+          "lignes": [
+            [
+              "I, you, we, they",
+              "Do you play?",
+              "We don’t play."
+            ],
+            [
+              "he, she, it",
+              "Does he play?",
+              "He doesn’t play."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« … your parents work on Saturdays? »",
+          "options": [
+            "Do",
+            "Does",
+            "Are"
+          ],
+          "reponse": "Do",
+          "explication": "Parents : they."
+        }
+      ]
+    },
+    {
+      "titre": "Réponses courtes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Does she speak German? Yes, she does. / No, she doesn’t."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Does he likes music? ».",
+          "correction": "Le -s est porté par does : Does he like music?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« My cat … eat fish. »",
+      "options": [
+        "doesn’t",
+        "don’t",
+        "isn’t"
+      ],
+      "reponse": "doesn’t",
+      "explication": "It : doesn’t."
+    },
+    {
+      "consigne": "Réponse courte à « Do you swim? » :",
+      "options": [
+        "Yes, I do.",
+        "Yes, I swim.",
+        "Yes, I am."
+      ],
+      "reponse": "Yes, I do.",
+      "explication": "Reprise de do."
+    },
+    {
+      "consigne": "Quelle question est juste ?",
+      "options": [
+        "Where does she live?",
+        "Where does she lives?",
+        "Where she lives?"
+      ],
+      "reponse": "Where does she live?",
+      "explication": "Does + base."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 19,
+      "extrait": "Le présent simple : forme affirmative, négative et interrogative",
+      "appui": "Do, does : négation et question"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

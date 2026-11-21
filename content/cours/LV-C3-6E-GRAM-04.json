@@ -1,0 +1,139 @@
+{
+  "competence": "LV-C3-6E-GRAM-04",
+  "duree": 5,
+  "essentiel": "Le possessif dépend du possesseur : his pour un garçon, her pour une fille, its pour un objet ou un animal.\nLe génitif : possesseur + ’s + objet. Tom’s bike, le vélo de Tom.\nAvec un pluriel en -s, on met seulement l’apostrophe : my parents’ car.",
+  "parties": [
+    {
+      "titre": "Les possessifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Déterminants possessifs",
+          "colonnes": [
+            "Sujet",
+            "Possessif",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "I",
+              "my",
+              "my sister"
+            ],
+            [
+              "you",
+              "your",
+              "your room"
+            ],
+            [
+              "he",
+              "his",
+              "his mother"
+            ],
+            [
+              "she",
+              "her",
+              "her father"
+            ],
+            [
+              "it",
+              "its",
+              "its tail"
+            ],
+            [
+              "we / they",
+              "our / their",
+              "our school, their dog"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Paul loves … grandmother. »",
+          "options": [
+            "his",
+            "her",
+            "its"
+          ],
+          "reponse": "his",
+          "explication": "Le possesseur est Paul."
+        }
+      ]
+    },
+    {
+      "titre": "Le génitif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "’s",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Emma’s cat",
+              "le chat d’Emma"
+            ],
+            [
+              "my brother’s room",
+              "la chambre de mon frère"
+            ],
+            [
+              "the girls’ bags",
+              "les sacs des filles"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « the bike of Tom ».",
+          "correction": "Pour une personne, on utilise le génitif : Tom’s bike."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Lisa and … brother » :",
+      "options": [
+        "her",
+        "his",
+        "its"
+      ],
+      "reponse": "her",
+      "explication": "La possesseure est Lisa."
+    },
+    {
+      "consigne": "« La voiture de mon père » se dit :",
+      "options": [
+        "my father’s car",
+        "the car of my father’s",
+        "my car’s father"
+      ],
+      "reponse": "my father’s car",
+      "explication": "Possesseur + ’s."
+    },
+    {
+      "consigne": "« The dog wags … tail. »",
+      "options": [
+        "its",
+        "it’s",
+        "his"
+      ],
+      "reponse": "its",
+      "explication": "Its : son, pour un animal. It’s = it is."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-anglais-college",
+      "page": 12,
+      "extrait": "Utiliser le déterminant possessif : my father, your mother",
+      "appui": "Possessifs et génitif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

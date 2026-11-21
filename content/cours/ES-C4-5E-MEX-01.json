@@ -1,0 +1,110 @@
+{
+  "competence": "ES-C4-5E-MEX-01",
+  "duree": 6,
+  "essentiel": "Le Mexique est le pays où vivent le plus d’hispanophones. Sa capitale est Mexico (Ciudad de México), la monnaie le peso.\nAvant la conquête espagnole vivaient les Mayas et les Aztèques, dont la capitale était Tenochtitlan.\nLe Día de Muertos, début novembre, honore les défunts avec des autels colorés.",
+  "parties": [
+    {
+      "titre": "Repères",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le Mexique",
+          "colonnes": [
+            "Thème",
+            "Repère"
+          ],
+          "lignes": [
+            [
+              "capitale",
+              "Ciudad de México"
+            ],
+            [
+              "civilisations anciennes",
+              "Mayas (Chichén Itzá), Aztèques (Tenochtitlan)"
+            ],
+            [
+              "conquête",
+              "Hernán Cortés, 1519-1521"
+            ],
+            [
+              "indépendance",
+              "appel de 1810, obtenue en 1821"
+            ],
+            [
+              "artiste",
+              "Frida Kahlo, peintre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La capitale aztèque était :",
+          "options": [
+            "Tenochtitlan",
+            "Chichén Itzá",
+            "Cuzco"
+          ],
+          "reponse": "Tenochtitlan",
+          "explication": "Mexico est construite dessus."
+        }
+      ]
+    },
+    {
+      "titre": "Le Día de Muertos",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les 1er et 2 novembre, les familles dressent un autel avec des photos, des fleurs orange et des têtes de mort en sucre."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond le Día de Muertos avec Halloween.",
+          "correction": "C’est une fête familiale pour se souvenir des défunts, pas une fête pour faire peur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La monnaie du Mexique est :",
+      "options": [
+        "le peso",
+        "l’euro",
+        "le dollar"
+      ],
+      "reponse": "le peso",
+      "explication": "El peso mexicano."
+    },
+    {
+      "consigne": "Chichén Itzá est une cité :",
+      "options": [
+        "maya",
+        "aztèque",
+        "inca"
+      ],
+      "reponse": "maya",
+      "explication": "Dans le Yucatán."
+    },
+    {
+      "consigne": "Frida Kahlo était :",
+      "options": [
+        "peintre",
+        "reine",
+        "conquistador"
+      ],
+      "reponse": "peintre",
+      "explication": "Artiste mexicaine."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2025-espagnol-college",
+      "page": 13,
+      "extrait": "Premier pays dans le monde en termes de locuteurs hispanophones",
+      "appui": "Le Mexique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

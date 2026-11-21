@@ -1,0 +1,128 @@
+{
+  "competence": "LV-C4-3E-PERF-01",
+  "duree": 6,
+  "essentiel": "Le present perfect (have + participe passé) relie le passé au présent : I have visited London.\nIl sert à parler d’une expérience (ever, never) ou d’une durée avec since (point de départ) et for (durée).\nSi le moment est daté (yesterday, in 2020), on emploie le prétérit.",
+  "parties": [
+    {
+      "titre": "Former le present perfect",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Have + participe passé",
+          "colonnes": [
+            "Forme",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "affirmative",
+              "She has seen this film."
+            ],
+            [
+              "négative",
+              "I haven’t finished."
+            ],
+            [
+              "interrogative",
+              "Have you ever been to Ireland?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I … my keys! » (je ne les ai plus)",
+          "options": [
+            "have lost",
+            "lost",
+            "am losing"
+          ],
+          "reponse": "have lost",
+          "explication": "Conséquence dans le présent."
+        }
+      ]
+    },
+    {
+      "titre": "Since ou for",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Depuis",
+          "colonnes": [
+            "Mot",
+            "Suivi de",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "since",
+              "un point de départ",
+              "since 2022, since Monday"
+            ],
+            [
+              "for",
+              "une durée",
+              "for three years, for a week"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « I live here since 2020 ».",
+          "correction": "Avec since, on emploie le present perfect : I have lived here since 2020."
+        }
+      ]
+    },
+    {
+      "titre": "Present perfect ou prétérit",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "I have been to Rome (expérience, sans date). I went to Rome last year (moment précis)."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« She has worked here … ten years. »",
+      "options": [
+        "for",
+        "since",
+        "during"
+      ],
+      "reponse": "for",
+      "explication": "Une durée."
+    },
+    {
+      "consigne": "« We … to Spain in 2023. »",
+      "options": [
+        "went",
+        "have gone",
+        "have been"
+      ],
+      "reponse": "went",
+      "explication": "Date précise : prétérit."
+    },
+    {
+      "consigne": "« Have you ever … sushi? »",
+      "options": [
+        "eaten",
+        "ate",
+        "eat"
+      ],
+      "reponse": "eaten",
+      "explication": "Participe passé."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 42,
+      "extrait": "Présenter, décrire : événements, activités passées, expériences personnelles.",
+      "appui": "Le present perfect"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
