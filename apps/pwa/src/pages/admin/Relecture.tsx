@@ -31,7 +31,7 @@ type Type = DecisionRelecture['type'];
 type Element = { type: Type; id: string };
 
 const MATIERES: Record<string, string> = {
-  FR: 'Français', MA: 'Maths', QM: 'Questionner le monde', EM: 'EMC', HG: 'Histoire-géo', ST: 'Sciences', LV: 'Anglais',
+  FR: 'Français', MA: 'Maths', QM: 'Questionner le monde', EM: 'EMC', HG: 'Histoire-géo', ST: 'Sciences', LV: 'Anglais', PC: 'Physique-chimie', SV: 'SVT', TE: 'Technologie',
 };
 const CLASSES: Record<string, string> = { cp: 'CP', ce1: 'CE1', ce2: 'CE2', cm1: 'CM1', cm2: 'CM2', '6e': '6e', '5e': '5e', '4e': '4e', '3e': '3e' };
 const ETATS = ['À relire', 'À corriger', 'Validées', 'Tout'] as const;
