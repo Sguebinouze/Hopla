@@ -617,10 +617,11 @@ body.avec-clavier main { padding-bottom: 340px; }
 .pied .titre-3 { margin: 0 0 2px; font-size: 11px; }
 .pied__colonne a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .pied__colonne a:hover { color: var(--primary); text-decoration: underline; }
-.pied p.pied__bas { max-width: 1160px; margin: 0 auto; padding: var(--space-3) var(--space-4) var(--space-4); border-top: 1px solid var(--line); font-size: 12px; }
+/* Le filet du bas s'arrête aux mêmes bords que le contenu. */
+.pied p.pied__bas { width: calc(100% - 2 * var(--space-4)); max-width: calc(1160px - 2 * var(--space-4)); margin: 0 auto; padding: var(--space-3) 0 var(--space-4); border-top: 1px solid var(--line); font-size: 12px; }
 @media (min-width: 760px) {
   .pied__corps { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 1fr); grid-template-areas: "marque hopla legal contact"; padding-left: var(--space-6); padding-right: var(--space-6); }
-  .pied p.pied__bas { padding-left: var(--space-6); padding-right: var(--space-6); }
+  .pied p.pied__bas { width: calc(100% - 2 * var(--space-6)); max-width: calc(1160px - 2 * var(--space-6)); }
 }
 @media (min-width: 1000px) {
   .pied__corps { grid-template-columns: minmax(0, 1.2fr) minmax(0, .9fr) minmax(0, 2fr) minmax(0, 1fr); }
@@ -635,7 +636,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine [id] { scroll-margin-top: 72px; }
 .vitrine p { margin: 0; line-height: 1.5; }
 .vitrine ol, .vitrine ul { margin: 0; padding: 0; list-style: none; }
-.vitrine__cadre { max-width: 1160px; margin: 0 auto; padding: 0 var(--space-4); width: 100%; }
+.vitrine__cadre { max-width: 1160px; margin: 0 auto; padding-inline: var(--space-4); width: 100%; }
 .vitrine__entete { position: sticky; top: 0; z-index: 2; background: var(--surface-0); border-bottom: 1px solid var(--line); }
 .vitrine__barre { display: flex; align-items: center; gap: var(--space-3); min-height: 60px; }
 .vitrine__logo { flex-grow: 1; text-decoration: none; display: flex; }
@@ -653,7 +654,7 @@ body.avec-clavier main { padding-bottom: 340px; }
     radial-gradient(34% 40% at 88% 22%, color-mix(in srgb, var(--octave) 22%, transparent), transparent 70%),
     radial-gradient(40% 45% at 70% 95%, color-mix(in srgb, var(--primary) 20%, transparent), transparent 70%);
   animation: vitrine-derive 18s ease-in-out infinite alternate; }
-.vitrine__hero { display: grid; gap: var(--space-5); padding-top: var(--space-5); padding-bottom: var(--space-5); align-items: center; }
+.vitrine__hero { display: grid; gap: var(--space-5); padding-top: var(--space-5); padding-bottom: var(--space-5); align-items: stretch; }
 .vitrine__hero-texte { display: flex; flex-direction: column; gap: var(--space-3); align-items: flex-start; }
 .vitrine__hero-texte > * { animation: vitrine-entree .5s ease-out both; }
 .vitrine__hero-texte > :nth-child(2) { animation-delay: .06s; }
@@ -677,16 +678,19 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__octave { display: inline-flex; animation: vitrine-flotte 3s ease-in-out infinite alternate; }
 
 /* Questions d'exemple. */
-.essai { display: flex; flex-direction: column; gap: var(--space-3); animation: vitrine-entree .6s .15s ease-out both; }
-.essai__entete { display: flex; align-items: center; gap: var(--space-2); }
-.essai__invite { font-family: var(--font-display); font-weight: 600; font-size: 18px; }
-.essai__carte { position: relative; display: flex; flex-direction: column; gap: var(--space-3); border-top: 6px solid var(--subj); animation: vitrine-entree .35s ease-out both; }
+.essai { display: flex; flex-direction: column; gap: var(--space-3); align-self: stretch; animation: vitrine-entree .6s .15s ease-out both; }
+.essai__haut { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2); }
+.essai__invite { font-size: 13px; font-weight: 600; color: var(--ink-muted); }
+/* La carte prend la hauteur de l'accroche ; l'espace restant se répartit entre les blocs. */
+.essai__carte { position: relative; flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-3); border-top: 6px solid var(--subj); animation: vitrine-entree .35s ease-out both; }
 .essai__matiere { align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 4px 10px; border-radius: var(--radius-pill); color: var(--subj); background: color-mix(in srgb, var(--subj) 14%, transparent); }
-.essai__question { font-family: var(--font-display); font-weight: 600; font-size: 22px; line-height: 1.2; }
+.essai__question { font-family: var(--font-display); font-weight: 600; font-size: 24px; line-height: 1.2; }
 .essai__options { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .essai__options .hp-option { min-width: 0; flex: 1 1 100px; min-height: 52px; font-size: 18px; }
 .essai__options .hp-option:disabled { cursor: default; }
-.essai__retour { animation: vitrine-entree .3s ease-out both; }
+.essai__octave { display: flex; align-items: center; gap: var(--space-3); min-height: 72px; }
+.essai__bulle { margin: 0; }
+.essai__retour { flex: 1; max-width: none; animation: vitrine-entree .3s ease-out both; }
 .essai__retour p { margin: 0; }
 .essai__points { display: flex; justify-content: center; gap: 8px; }
 .essai__point { width: 10px; height: 10px; padding: 0; border: 0; border-radius: var(--radius-pill); background: var(--line); cursor: pointer; transition: width .25s, background .25s; }
@@ -698,14 +702,16 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__section--teinte { background: var(--surface-1); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .vitrine__section--teinte .hp-segment button { background: var(--surface-0); }
 .vitrine__section--teinte .hp-segment button[aria-pressed="true"] { background: var(--ink); }
-.vitrine__duo { display: grid; gap: var(--space-4); align-items: start; }
+/* Colonnes de même hauteur : les tuiles s'étirent jusqu'au bas de la carte d'installation. */
+.vitrine__duo { display: grid; gap: var(--space-4); align-items: stretch; }
+.vitrine__programme { display: flex; flex-direction: column; }
 .vitrine__titre-section { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 24px; line-height: 1.15; text-wrap: balance; }
 .vitrine__tete { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2); margin-bottom: var(--space-3); }
 .vitrine__note { margin-top: var(--space-3) !important; font-size: 13px; }
 
 /* Tuiles : titre et pictogramme de couleur ; au survol (ou au focus), la description prend la place.
    Sur écran tactile, pas de survol : tout est affiché d'emblée. */
-.vitrine__tuiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }
+.vitrine__tuiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: var(--space-2); flex: 1; }
 .tuile { position: relative; background: var(--surface-0); border-radius: var(--radius-md); padding: var(--space-3); box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: var(--space-2); border-bottom: 3px solid var(--subj); animation: vitrine-entree .4s ease-out both; animation-delay: calc(var(--i, 0) * 50ms); }
 .tuile:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
 .tuile__face { display: flex; flex-direction: column; gap: var(--space-2); }
@@ -714,7 +720,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .tuile__texte { font-size: 13px; color: var(--ink-muted); }
 .tuile__indice { display: none; }
 @media (hover: hover) and (min-width: 760px) {
-  .tuile { height: 116px; overflow: hidden; transition: transform .2s ease-out, box-shadow .2s ease-out, background .2s; cursor: default; }
+  .tuile { min-height: 116px; overflow: hidden; transition: transform .2s ease-out, box-shadow .2s ease-out, background .2s; cursor: default; }
   .tuile__face, .tuile__texte { position: absolute; inset: var(--space-3); transition: opacity .22s ease-out, transform .22s ease-out; }
   .tuile__face { justify-content: flex-end; }
   .tuile__texte { display: flex; align-items: center; font-size: 14px; line-height: 1.4; color: var(--ink); opacity: 0; transform: translateY(10px); }
@@ -750,7 +756,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 }
 
 @media (min-width: 760px) {
-  .vitrine__cadre { padding: 0 var(--space-6); }
+  .vitrine__cadre { padding-inline: var(--space-6); }
   .vitrine__nav { display: flex; }
   .vitrine__titre { font-size: 40px; }
   .vitrine__actions .hp-btn { flex: 0 0 auto; }
@@ -758,6 +764,12 @@ body.avec-clavier main { padding-bottom: 340px; }
   .vitrine__qr { display: flex; }
   .vitrine__tuiles--enfant { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .vitrine__tuiles--parents { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 760px) and (max-width: 999px) {
+  .vitrine__installer { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--space-5); align-items: start; }
+  .vitrine__installer > * { grid-column: 1; }
+  .vitrine__installer > .vitrine__installer-bas { grid-column: 2; grid-row: 1 / span 5; flex-direction: column; align-items: center; }
+  .vitrine__installer-bas .vitrine__qr { flex-direction: column; text-align: center; }
 }
 @media (min-width: 1000px) {
   .vitrine__hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: var(--space-6); padding-top: var(--space-6); padding-bottom: var(--space-6); }

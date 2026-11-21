@@ -163,7 +163,7 @@ export function Presentation() {
                   </li>
                 ))}
               </ul>
-              <p className="muet vitrine__note">Conçu d’après les programmes officiels de l’Éducation nationale. Hopla complète la classe, il ne la remplace pas.</p>
+              <p className="muet vitrine__note">Conçu d’après les programmes officiels. Hopla complète la classe, il ne la remplace pas.</p>
             </div>
             <Installer />
           </div>
@@ -196,12 +196,11 @@ function Essai() {
   return (
     <div className="essai" onMouseEnter={() => setPause(true)} onMouseLeave={() => setPause(false)}
       onFocus={() => setPause(true)} onBlur={() => setPause(false)}>
-      <div className="essai__entete">
-        <span className="vitrine__octave"><Octave taille={52} humeur={choix ? (juste ? 'reussite' : 'oups') : 'accueil'} /></span>
-        <p className="essai__invite">Essaie une question de Hopla.</p>
-      </div>
       <div key={i} className={`hp-card essai__carte hp-subj-${ex.subj}`} aria-live="polite">
-        <span className="essai__matiere">{ex.matiere} · {ex.classe}</span>
+        <div className="essai__haut">
+          <span className="essai__matiere">{ex.matiere} · {ex.classe}</span>
+          <span className="essai__invite">Essaie une question de Hopla</span>
+        </div>
         <p className="essai__question">{ex.question}</p>
         <div className="essai__options">
           {ex.options.map((o) => (
@@ -210,21 +209,26 @@ function Essai() {
               onClick={() => setChoix(o)}>{o}</button>
           ))}
         </div>
-        {choix !== null && (
-          <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'} essai__retour`}>
-            <Icone nom={juste ? 'coche' : 'ampoule'} />
-            <div>
-              <p className="hp-feedback__title">{juste ? 'Bravo !' : `C’était : ${ex.reponse}`}</p>
-              <p className="hp-feedback__text">{ex.bravo}</p>
+        {/* Octave occupe la même place avant et après la réponse : la carte ne change pas de hauteur. */}
+        <div className="essai__octave">
+          <span className="vitrine__octave"><Octave taille={56} humeur={choix ? (juste ? 'reussite' : 'oups') : 'accueil'} /></span>
+          {choix === null ? (
+            <p className="hp-bubble__text essai__bulle">À toi ! Choisis une réponse.</p>
+          ) : (
+            <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'} essai__retour`}>
+              <div>
+                <p className="hp-feedback__title">{juste ? 'Bravo !' : `C’était : ${ex.reponse}`}</p>
+                <p className="hp-feedback__text">{ex.bravo}</p>
+              </div>
             </div>
-          </div>
-        )}
-      </div>
-      <div className="essai__points" role="group" aria-label="Choisir une question">
-        {EXEMPLES.map((e, n) => (
-          <button key={n} type="button" aria-label={`Question ${n + 1} : ${e.matiere}, ${e.classe}`} aria-current={n === i}
-            className="essai__point" onClick={() => aller(n)} />
-        ))}
+          )}
+        </div>
+        <div className="essai__points" role="group" aria-label="Choisir une question">
+          {EXEMPLES.map((e, n) => (
+            <button key={n} type="button" aria-label={`Question ${n + 1} : ${e.matiere}, ${e.classe}`} aria-current={n === i}
+              className="essai__point" onClick={() => aller(n)} />
+          ))}
+        </div>
       </div>
     </div>
   );
