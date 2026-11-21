@@ -1,0 +1,127 @@
+{
+  "competence": "MA-C3-CM1-LONG-02",
+  "duree": 6,
+  "essentiel": "Le périmètre d’un polygone est la longueur de son contour.\nOn additionne les longueurs de tous ses côtés.\nLes côtés doivent être exprimés dans la même unité.",
+  "parties": [
+    {
+      "titre": "Calculer un périmètre",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Périmètre",
+              "definition": "Longueur du contour d’une figure."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    1,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Rectangle de 6 cm sur 4 cm : 6 + 4 + 6 + 4 = 20 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "Un carré a des côtés de 5 cm. Quel est son périmètre ?",
+          "options": [
+            "20 cm",
+            "25 cm",
+            "10 cm"
+          ],
+          "reponse": "20 cm",
+          "explication": "5 + 5 + 5 + 5 = 20."
+        }
+      ]
+    },
+    {
+      "titre": "Retrouver un côté",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un triangle a un périmètre de 24 cm. Deux côtés mesurent 7 cm et 9 cm. Et le troisième ?",
+          "etapes": [
+            "7 + 9 = 16 cm.",
+            "24 − 16 = 8 cm."
+          ],
+          "conclusion": "Le troisième côté mesure 8 cm."
+        },
+        {
+          "type": "piege",
+          "erreur": "On additionne des centimètres et des mètres.",
+          "correction": "Convertis d’abord : 1 m 20 cm = 120 cm."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Rectangle de 8 m sur 3 m. Périmètre ?",
+      "options": [
+        "22 m",
+        "24 m",
+        "11 m"
+      ],
+      "reponse": "22 m",
+      "explication": "8 + 3 + 8 + 3 = 22."
+    },
+    {
+      "consigne": "Un carré a un périmètre de 28 cm. Son côté mesure :",
+      "options": [
+        "7 cm",
+        "14 cm",
+        "4 cm"
+      ],
+      "reponse": "7 cm",
+      "explication": "28 ÷ 4 = 7."
+    },
+    {
+      "consigne": "Triangle de côtés 5 cm, 7 cm et 8 cm. Périmètre ?",
+      "options": [
+        "20 cm",
+        "15 cm",
+        "280 cm"
+      ],
+      "reponse": "20 cm",
+      "explication": "5 + 7 + 8 = 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Résoudre des problèmes mettant en jeu les longueurs des côtés d’un polygone et son périmètre",
+      "appui": "Périmètre d’un polygone"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

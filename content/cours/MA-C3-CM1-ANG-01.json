@@ -1,0 +1,148 @@
+{
+  "competence": "MA-C3-CM1-ANG-01",
+  "duree": 6,
+  "essentiel": "Un angle droit se vérifie avec l’équerre.\nUn angle aigu est plus petit qu’un angle droit. Un angle obtus est plus grand.\nLa taille d’un angle dépend de son ouverture, pas de la longueur de ses côtés.",
+  "parties": [
+    {
+      "titre": "Aigu, droit, obtus",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  5
+                ],
+                "a": [
+                  7,
+                  5
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  5
+                ],
+                "a": [
+                  6,
+                  1
+                ]
+              }
+            ]
+          },
+          "legende": "Un angle aigu : plus fermé qu’un angle droit."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  4,
+                  5
+                ],
+                "a": [
+                  8,
+                  5
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  4,
+                  5
+                ],
+                "a": [
+                  1,
+                  1
+                ]
+              }
+            ]
+          },
+          "legende": "Un angle obtus : plus ouvert qu’un angle droit."
+        },
+        {
+          "type": "question",
+          "consigne": "Un angle plus grand qu’un angle droit est :",
+          "options": [
+            "obtus",
+            "aigu",
+            "droit"
+          ],
+          "reponse": "obtus",
+          "explication": "Obtus : plus ouvert."
+        }
+      ]
+    },
+    {
+      "titre": "Nommer et comparer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On nomme un angle avec trois lettres, le sommet au milieu. L’angle ABC a pour sommet B."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un angle aux longs côtés est plus grand.",
+          "correction": "Seule l’ouverture compte. On peut prolonger les côtés sans changer l’angle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans l’angle ABC, le sommet est :",
+      "options": [
+        "B",
+        "A",
+        "C"
+      ],
+      "reponse": "B",
+      "explication": "La lettre du milieu."
+    },
+    {
+      "consigne": "Un angle aigu est :",
+      "options": [
+        "plus petit qu’un angle droit",
+        "plus grand qu’un angle droit",
+        "toujours droit"
+      ],
+      "reponse": "plus petit qu’un angle droit",
+      "explication": "Aigu : plus fermé."
+    },
+    {
+      "consigne": "Le coin d’une feuille forme un angle :",
+      "options": [
+        "droit",
+        "aigu",
+        "obtus"
+      ],
+      "reponse": "droit",
+      "explication": "L’équerre s’y ajuste exactement."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Utiliser le lexique spécifique associé aux angles",
+      "appui": "Les angles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

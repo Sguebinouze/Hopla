@@ -1,0 +1,186 @@
+{
+  "competence": "MA-C3-CM1-GEO-03",
+  "duree": 7,
+  "essentiel": "Triangle rectangle : un angle droit. Isocèle : deux côtés égaux. Équilatéral : trois côtés égaux.\nRectangle : quatre angles droits. Losange : quatre côtés égaux.\nCarré : quatre côtés égaux et quatre angles droits.",
+  "parties": [
+    {
+      "titre": "Les triangles",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 7,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    6,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un triangle rectangle : un angle droit en bas à gauche."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les triangles",
+          "colonnes": [
+            "Triangle",
+            "Il a"
+          ],
+          "lignes": [
+            [
+              "rectangle",
+              "un angle droit"
+            ],
+            [
+              "isocèle",
+              "deux côtés de même longueur"
+            ],
+            [
+              "équilatéral",
+              "trois côtés de même longueur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un triangle avec trois côtés égaux est :",
+          "options": [
+            "équilatéral",
+            "rectangle",
+            "isocèle seulement"
+          ],
+          "reponse": "équilatéral",
+          "explication": "Équi : égal. Latéral : côté."
+        }
+      ]
+    },
+    {
+      "titre": "Les quadrilatères",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 8,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    4,
+                    1
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    4,
+                    7
+                  ],
+                  [
+                    2,
+                    4
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un losange : quatre côtés de même longueur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les quadrilatères",
+          "colonnes": [
+            "Figure",
+            "Côtés",
+            "Angles"
+          ],
+          "lignes": [
+            [
+              "rectangle",
+              "opposés de même longueur",
+              "4 angles droits"
+            ],
+            [
+              "losange",
+              "4 côtés égaux",
+              "pas forcément droits"
+            ],
+            [
+              "carré",
+              "4 côtés égaux",
+              "4 angles droits"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un carré n’est pas un rectangle.",
+          "correction": "Un carré a 4 angles droits : c’est un rectangle particulier. C’est aussi un losange."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un quadrilatère à quatre côtés égaux est :",
+      "options": [
+        "un losange",
+        "un rectangle",
+        "un triangle"
+      ],
+      "reponse": "un losange",
+      "explication": "C’est la définition du losange."
+    },
+    {
+      "consigne": "Un rectangle a toujours :",
+      "options": [
+        "4 angles droits",
+        "4 côtés égaux",
+        "3 côtés"
+      ],
+      "reponse": "4 angles droits",
+      "explication": "C’est la définition du rectangle."
+    },
+    {
+      "consigne": "Un triangle avec deux côtés égaux est :",
+      "options": [
+        "isocèle",
+        "équilatéral",
+        "rectangle"
+      ],
+      "reponse": "isocèle",
+      "explication": "Iso veut dire égal."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Reconnaître et nommer les figures suivantes en faisant référence à leur définition",
+      "appui": "Triangles et quadrilatères"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,132 @@
+{
+  "competence": "MA-C3-CM1-LONG-01",
+  "duree": 6,
+  "essentiel": "1 km = 1 000 m. 1 m = 100 cm = 1 000 mm. 1 cm = 10 mm.\nChaque unité vaut 10 fois l’unité juste plus petite.\nPour convertir, on s’appuie sur ces relations.",
+  "parties": [
+    {
+      "titre": "Les unités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités de longueur",
+          "colonnes": [
+            "Unité",
+            "En mètres"
+          ],
+          "lignes": [
+            [
+              "kilomètre (km)",
+              "1 000 m"
+            ],
+            [
+              "hectomètre (hm)",
+              "100 m"
+            ],
+            [
+              "décamètre (dam)",
+              "10 m"
+            ],
+            [
+              "mètre (m)",
+              "1 m"
+            ],
+            [
+              "décimètre (dm)",
+              "0,1 m"
+            ],
+            [
+              "centimètre (cm)",
+              "0,01 m"
+            ],
+            [
+              "millimètre (mm)",
+              "0,001 m"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1 km = 100 m.",
+          "correction": "Kilo veut dire mille : 1 km = 1 000 m."
+        }
+      ]
+    },
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Convertis 3 km 250 m en mètres.",
+          "etapes": [
+            "3 km = 3 000 m.",
+            "3 000 m + 250 m = 3 250 m."
+          ],
+          "conclusion": "3 km 250 m = 3 250 m."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Convertis 45 mm en centimètres.",
+          "etapes": [
+            "10 mm = 1 cm.",
+            "45 mm, c’est 4 cm et 5 mm."
+          ],
+          "conclusion": "45 mm = 4,5 cm."
+        },
+        {
+          "type": "question",
+          "consigne": "2,5 m = … cm ?",
+          "options": [
+            "250",
+            "25",
+            "2 500"
+          ],
+          "reponse": "250",
+          "explication": "1 m = 100 cm, donc 2,5 m = 250 cm."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1 200 m = … km ?",
+      "options": [
+        "1,2",
+        "12",
+        "120"
+      ],
+      "reponse": "1,2",
+      "explication": "1 000 m = 1 km, il reste 200 m, soit 0,2 km."
+    },
+    {
+      "consigne": "7 cm = … mm ?",
+      "options": [
+        "70",
+        "700",
+        "0,7"
+      ],
+      "reponse": "70",
+      "explication": "1 cm = 10 mm."
+    },
+    {
+      "consigne": "Quelle longueur est la plus grande ?",
+      "options": [
+        "1 km",
+        "900 m",
+        "9 000 cm"
+      ],
+      "reponse": "1 km",
+      "explication": "9 000 cm = 90 m et 1 km = 1 000 m."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Connaître les relations entre les unités de longueur",
+      "appui": "Unités de longueur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,135 @@
+{
+  "competence": "MA-C3-CM1-SOL-01",
+  "duree": 7,
+  "essentiel": "Un prisme droit a deux bases identiques et des faces latérales rectangulaires.\nUne pyramide a une base et des faces triangulaires qui se rejoignent au sommet.\nUn patron du cube est formé de 6 carrés qui, une fois pliés, ferment le cube.",
+  "parties": [
+    {
+      "titre": "Prismes et pyramides",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Prisme droit",
+              "definition": "Solide qui a deux bases polygonales identiques et parallèles, reliées par des faces rectangulaires."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "prisme-triangulaire"
+          },
+          "legende": "Un prisme droit à base triangulaire."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pyramide"
+          },
+          "legende": "Une pyramide à base carrée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Faces, arêtes, sommets",
+          "colonnes": [
+            "Solide",
+            "Faces",
+            "Arêtes",
+            "Sommets"
+          ],
+          "lignes": [
+            [
+              "cube",
+              "6",
+              "12",
+              "8"
+            ],
+            [
+              "prisme à base triangulaire",
+              "5",
+              "9",
+              "6"
+            ],
+            [
+              "pyramide à base carrée",
+              "5",
+              "8",
+              "5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le patron du cube",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un patron se découpe et se plie pour fabriquer le solide. Le cube a 11 patrons différents."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 6 carrés collés font toujours un patron du cube.",
+          "correction": "Six carrés en ligne, par exemple, ne se referment pas."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de carrés dans un patron du cube ?",
+          "options": [
+            "6",
+            "4",
+            "8"
+          ],
+          "reponse": "6",
+          "explication": "Un carré par face."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’arêtes a un cube ?",
+      "options": [
+        "12",
+        "8",
+        "6"
+      ],
+      "reponse": "12",
+      "explication": "4 en haut, 4 en bas, 4 verticales."
+    },
+    {
+      "consigne": "Les faces latérales d’une pyramide sont des :",
+      "options": [
+        "triangles",
+        "rectangles",
+        "cercles"
+      ],
+      "reponse": "triangles",
+      "explication": "Elles se rejoignent au sommet."
+    },
+    {
+      "consigne": "Un prisme à base triangulaire a :",
+      "options": [
+        "5 faces",
+        "6 faces",
+        "3 faces"
+      ],
+      "reponse": "5 faces",
+      "explication": "2 bases et 3 faces latérales."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 21,
+      "extrait": "Connaître la nature des faces d’un prisme droit",
+      "appui": "Prismes, pyramides, patrons"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

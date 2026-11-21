@@ -1,0 +1,131 @@
+{
+  "competence": "MA-C3-CM1-AIRE-01",
+  "duree": 6,
+  "essentiel": "L’aire d’une figure mesure la surface qu’elle occupe.\nUn carré de 1 cm de côté a une aire de 1 cm².\nPour trouver l’aire, on compte les carreaux de 1 cm² qui la recouvrent.",
+  "parties": [
+    {
+      "titre": "Compter les carreaux",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Aire",
+              "definition": "Mesure de la surface d’une figure."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 5,
+            "hauteur": 5,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "plein": true,
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    4,
+                    1
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    3,
+                    2
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    1,
+                    4
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Cette figure recouvre 7 carreaux de 1 cm² : son aire est 7 cm²."
+        },
+        {
+          "type": "question",
+          "consigne": "Un rectangle couvre 5 carreaux sur 2. Son aire ?",
+          "options": [
+            "10 cm²",
+            "7 cm²",
+            "14 cm²"
+          ],
+          "reponse": "10 cm²",
+          "explication": "2 rangées de 5 carreaux."
+        }
+      ]
+    },
+    {
+      "titre": "Aire ou périmètre ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’aire compte les carreaux à l’intérieur. Le périmètre mesure le tour. Deux figures peuvent avoir la même aire et des périmètres différents."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond aire et périmètre.",
+          "correction": "L’aire s’écrit en cm², le périmètre en cm."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un carré de 1 cm de côté a une aire de :",
+      "options": [
+        "1 cm²",
+        "4 cm²",
+        "1 cm"
+      ],
+      "reponse": "1 cm²",
+      "explication": "C’est l’unité d’aire."
+    },
+    {
+      "consigne": "Deux figures recouvrent chacune 8 carreaux. Elles ont :",
+      "options": [
+        "la même aire",
+        "forcément le même périmètre",
+        "des aires différentes"
+      ],
+      "reponse": "la même aire",
+      "explication": "Même nombre de carreaux, même aire."
+    },
+    {
+      "consigne": "Un rectangle de 4 carreaux sur 3 a une aire de :",
+      "options": [
+        "12 cm²",
+        "14 cm²",
+        "7 cm²"
+      ],
+      "reponse": "12 cm²",
+      "explication": "3 rangées de 4."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Connaître et utiliser les centimètres carrés pour exprimer des aires",
+      "appui": "Aires en centimètres carrés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

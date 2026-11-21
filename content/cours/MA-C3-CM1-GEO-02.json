@@ -1,0 +1,157 @@
+{
+  "competence": "MA-C3-CM1-GEO-02",
+  "duree": 6,
+  "essentiel": "Deux droites perpendiculaires se coupent en formant un angle droit.\nDeux droites parallèles ne se coupent jamais : leur écart reste le même.\nOn vérifie un angle droit avec l’équerre.",
+  "parties": [
+    {
+      "titre": "Perpendiculaires",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "droite",
+                "de": [
+                  0,
+                  4
+                ],
+                "a": [
+                  8,
+                  4
+                ],
+                "nom": "d"
+              },
+              {
+                "forme": "droite",
+                "de": [
+                  4,
+                  0
+                ],
+                "a": [
+                  4,
+                  6
+                ],
+                "nom": "e"
+              }
+            ]
+          },
+          "legende": "Les droites d et e sont perpendiculaires : elles forment un angle droit."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour vérifier avec l’équerre",
+          "etapes": [
+            "Place l’angle droit de l’équerre au point où les droites se coupent.",
+            "Pose un côté de l’équerre le long d’une droite.",
+            "Si l’autre droite suit l’autre côté, l’angle est droit."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Parallèles",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 5,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "droite",
+                "de": [
+                  0,
+                  1
+                ],
+                "a": [
+                  8,
+                  1
+                ],
+                "nom": "d"
+              },
+              {
+                "forme": "droite",
+                "de": [
+                  0,
+                  4
+                ],
+                "a": [
+                  8,
+                  4
+                ],
+                "nom": "f"
+              }
+            ]
+          },
+          "legende": "Les droites d et f sont parallèles : l’écart reste de 3 carreaux."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que deux droites qui ne se coupent pas sur le dessin sont parallèles.",
+          "correction": "Prolonge-les : elles se coupent peut-être plus loin."
+        },
+        {
+          "type": "question",
+          "consigne": "Les rails d’un train sont :",
+          "options": [
+            "parallèles",
+            "perpendiculaires",
+            "sécants"
+          ],
+          "reponse": "parallèles",
+          "explication": "Leur écart reste le même."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Deux droites perpendiculaires forment :",
+      "options": [
+        "un angle droit",
+        "aucun angle",
+        "un angle aigu"
+      ],
+      "reponse": "un angle droit",
+      "explication": "C’est la définition."
+    },
+    {
+      "consigne": "Pour vérifier un angle droit, on utilise :",
+      "options": [
+        "l’équerre",
+        "le compas",
+        "la gomme"
+      ],
+      "reponse": "l’équerre",
+      "explication": "L’équerre a un angle droit."
+    },
+    {
+      "consigne": "Deux bords opposés d’une feuille sont :",
+      "options": [
+        "parallèles",
+        "perpendiculaires",
+        "sécants"
+      ],
+      "reponse": "parallèles",
+      "explication": "Ils ne se coupent jamais."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Reconnaître et utiliser la notion de perpendicularité",
+      "appui": "Perpendiculaires et parallèles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

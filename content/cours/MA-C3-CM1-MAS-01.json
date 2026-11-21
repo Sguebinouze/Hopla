@@ -1,0 +1,123 @@
+{
+  "competence": "MA-C3-CM1-MAS-01",
+  "duree": 5,
+  "essentiel": "1 t = 1 000 kg. 1 kg = 1 000 g. 1 g = 1 000 mg.\nUn litre d’eau pèse environ 1 kg. Une petite voiture pèse environ 1 t.\nPour convertir, on s’appuie sur ces relations.",
+  "parties": [
+    {
+      "titre": "Les unités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités de masse",
+          "colonnes": [
+            "Unité",
+            "Équivaut à"
+          ],
+          "lignes": [
+            [
+              "1 tonne (t)",
+              "1 000 kg"
+            ],
+            [
+              "1 kilogramme (kg)",
+              "1 000 g"
+            ],
+            [
+              "1 hectogramme (hg)",
+              "100 g"
+            ],
+            [
+              "1 décagramme (dag)",
+              "10 g"
+            ],
+            [
+              "1 gramme (g)",
+              "1 000 mg"
+            ],
+            [
+              "1 décigramme (dg)",
+              "100 mg"
+            ],
+            [
+              "1 centigramme (cg)",
+              "10 mg"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1 kg = 100 g.",
+          "correction": "Kilo veut dire mille : 1 kg = 1 000 g."
+        }
+      ]
+    },
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des conversions.",
+          "exemples": [
+            "2,4 kg = 2 400 g",
+            "3 500 kg = 3,5 t",
+            "750 g = 0,75 kg"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "500 g = … kg ?",
+          "options": [
+            "0,5",
+            "5",
+            "50"
+          ],
+          "reponse": "0,5",
+          "explication": "500 g, c’est la moitié de 1 000 g."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2 t = … kg ?",
+      "options": [
+        "2 000",
+        "200",
+        "20 000"
+      ],
+      "reponse": "2 000",
+      "explication": "1 t = 1 000 kg."
+    },
+    {
+      "consigne": "1 g = … mg ?",
+      "options": [
+        "1 000",
+        "100",
+        "10"
+      ],
+      "reponse": "1 000",
+      "explication": "Milli veut dire un millième."
+    },
+    {
+      "consigne": "Quelle masse convient pour un cartable ?",
+      "options": [
+        "3 kg",
+        "3 g",
+        "3 t"
+      ],
+      "reponse": "3 kg",
+      "explication": "Un cartable pèse quelques kilogrammes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Connaître les relations entre les unités de masse",
+      "appui": "Unités de masse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

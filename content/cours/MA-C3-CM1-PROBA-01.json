@@ -1,0 +1,126 @@
+{
+  "competence": "MA-C3-CM1-PROBA-01",
+  "duree": 5,
+  "essentiel": "Un évènement impossible ne peut pas arriver. Un évènement certain arrive à coup sûr.\nUn évènement possible peut arriver ou non.\nAvec une pièce, « pile » a une chance sur deux.",
+  "parties": [
+    {
+      "titre": "Impossible, possible, certain",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Probabilité",
+              "definition": "Nombre compris entre 0 et 1 qui mesure la chance qu’un évènement se produise."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "urne",
+            "boules": [
+              {
+                "couleur": "rouge",
+                "nombre": 3
+              },
+              {
+                "couleur": "bleue",
+                "nombre": 1
+              }
+            ]
+          },
+          "legende": "3 boules rouges et 1 bleue."
+        },
+        {
+          "type": "tableau",
+          "titre": "On tire une boule de cette urne",
+          "colonnes": [
+            "Évènement",
+            "Il est"
+          ],
+          "lignes": [
+            [
+              "tirer une boule verte",
+              "impossible"
+            ],
+            [
+              "tirer une boule rouge ou bleue",
+              "certain"
+            ],
+            [
+              "tirer une boule rouge",
+              "possible et probable"
+            ],
+            [
+              "tirer une boule bleue",
+              "possible, peu probable"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le dé et la pièce",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Avec un dé de 1 à 6.",
+          "exemples": [
+            "Obtenir 7 : impossible.",
+            "Obtenir un nombre pair : une chance sur deux.",
+            "Obtenir moins de 7 : certain."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’après trois « face », « pile » est plus probable.",
+          "correction": "La pièce n’a pas de mémoire : toujours une chance sur deux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Obtenir 0 avec un dé de 1 à 6 est :",
+      "options": [
+        "impossible",
+        "possible",
+        "certain"
+      ],
+      "reponse": "impossible",
+      "explication": "Le 0 n’est sur aucune face."
+    },
+    {
+      "consigne": "Obtenir 6 avec ce dé est :",
+      "options": [
+        "possible",
+        "certain",
+        "impossible"
+      ],
+      "reponse": "possible",
+      "explication": "Une face sur six."
+    },
+    {
+      "consigne": "Dans l’urne, tirer une rouge est :",
+      "options": [
+        "plus probable que tirer une bleue",
+        "moins probable",
+        "impossible"
+      ],
+      "reponse": "plus probable que tirer une bleue",
+      "explication": "3 rouges contre 1 bleue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 24,
+      "extrait": "Comprendre et utiliser le vocabulaire approprié",
+      "appui": "Vocabulaire des probabilités"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

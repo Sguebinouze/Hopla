@@ -1,0 +1,134 @@
+{
+  "competence": "MA-C3-CM1-DATA-01",
+  "duree": 7,
+  "essentiel": "Un tableau à double entrée se lit au croisement d’une ligne et d’une colonne.\nDans un diagramme en barres, la hauteur de chaque barre donne la valeur.\nUne courbe montre comment une grandeur évolue, par exemple au fil des heures.",
+  "parties": [
+    {
+      "titre": "Tableau à double entrée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les élèves de CM1",
+          "colonnes": [
+            "Classe",
+            "Filles",
+            "Garçons"
+          ],
+          "lignes": [
+            [
+              "CM1 A",
+              "13",
+              "12"
+            ],
+            [
+              "CM1 B",
+              "11",
+              "14"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de garçons en CM1 B ?",
+          "options": [
+            "14",
+            "11",
+            "25"
+          ],
+          "reponse": "14",
+          "explication": "Ligne CM1 B, colonne Garçons."
+        }
+      ]
+    },
+    {
+      "titre": "Diagramme en barres",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Livres empruntés à la bibliothèque",
+            "unite": "livres",
+            "pas": 2,
+            "barres": [
+              {
+                "nom": "lundi",
+                "valeur": 12
+              },
+              {
+                "nom": "mardi",
+                "valeur": 8
+              },
+              {
+                "nom": "jeudi",
+                "valeur": 15
+              },
+              {
+                "nom": "vendredi",
+                "valeur": 10
+              }
+            ]
+          },
+          "legende": "Chaque barre donne le nombre de livres du jour."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Combien de livres de plus le jeudi que le mardi ?",
+          "etapes": [
+            "Jeudi : 15. Mardi : 8.",
+            "15 − 8 = 7."
+          ],
+          "conclusion": "7 livres de plus le jeudi."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit la barre sans regarder les graduations.",
+          "correction": "Vérifie de combien en combien avance l’axe : ici de 2 en 2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’élèves en CM1 A ?",
+      "options": [
+        "25",
+        "24",
+        "13"
+      ],
+      "reponse": "25",
+      "explication": "13 + 12 = 25."
+    },
+    {
+      "consigne": "Quel jour compte le plus d’emprunts ?",
+      "options": [
+        "jeudi",
+        "lundi",
+        "mardi"
+      ],
+      "reponse": "jeudi",
+      "explication": "C’est la barre la plus haute."
+    },
+    {
+      "consigne": "Lundi et vendredi ensemble :",
+      "options": [
+        "22",
+        "20",
+        "27"
+      ],
+      "reponse": "22",
+      "explication": "12 + 10 = 22."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 24,
+      "extrait": "Lire et interpréter les données d’un tableau à simple ou double entrée, d’un diagramme en barres ou d’une courbe",
+      "appui": "Tableaux, diagrammes, courbes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,115 @@
+{
+  "competence": "MA-C3-CM1-CONT-01",
+  "duree": 5,
+  "essentiel": "1 L = 10 dL = 100 cL = 1 000 mL.\n1 hL = 100 L et 1 daL = 10 L.\nUne canette contient 33 cL. Une bouteille d’eau contient souvent 1,5 L.",
+  "parties": [
+    {
+      "titre": "Les unités",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Unités de contenance",
+          "colonnes": [
+            "Unité",
+            "Équivaut à"
+          ],
+          "lignes": [
+            [
+              "1 hectolitre (hL)",
+              "100 L"
+            ],
+            [
+              "1 décalitre (daL)",
+              "10 L"
+            ],
+            [
+              "1 litre (L)",
+              "1 000 mL"
+            ],
+            [
+              "1 décilitre (dL)",
+              "100 mL"
+            ],
+            [
+              "1 centilitre (cL)",
+              "10 mL"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1 L = 100 mL.",
+          "correction": "1 L = 1 000 mL. C’est 1 L = 100 cL."
+        }
+      ]
+    },
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des conversions.",
+          "exemples": [
+            "75 cL = 0,75 L",
+            "2,5 hL = 250 L",
+            "1,5 L = 150 cL"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "1 L = … cL ?",
+          "options": [
+            "100",
+            "10",
+            "1 000"
+          ],
+          "reponse": "100",
+          "explication": "Centi veut dire un centième."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une canette contient environ :",
+      "options": [
+        "33 cL",
+        "33 L",
+        "33 mL"
+      ],
+      "reponse": "33 cL",
+      "explication": "33 cL = 0,33 L."
+    },
+    {
+      "consigne": "3 hL = … L ?",
+      "options": [
+        "300",
+        "30",
+        "3 000"
+      ],
+      "reponse": "300",
+      "explication": "1 hL = 100 L."
+    },
+    {
+      "consigne": "250 mL = … L ?",
+      "options": [
+        "0,25",
+        "2,5",
+        "25"
+      ],
+      "reponse": "0,25",
+      "explication": "1 000 mL = 1 L."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 17,
+      "extrait": "Connaître les relations entre les unités de contenance",
+      "appui": "Unités de contenance"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,104 @@
+{
+  "competence": "MA-C3-CM1-DUR-01",
+  "duree": 7,
+  "essentiel": "1 h = 60 min et 1 min = 60 s.\n135 min = 120 min + 15 min = 2 h 15 min.\nPour une durée, on compte de l’heure de début jusqu’à l’heure de fin.",
+  "parties": [
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une heure compte 60 minutes, pas 100.",
+          "exemples": [
+            "90 min = 1 h 30 min",
+            "135 min = 2 h 15 min",
+            "1 h 45 min = 105 min"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On calcule 16 h 20 − 14 h 45 comme 16,20 − 14,45.",
+          "correction": "Une heure a 60 minutes : on compte par étapes."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer une durée",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 14,
+            "minutes": 45
+          },
+          "legende": "Le film commence à 14 h 45."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un film commence à 14 h 45 et finit à 16 h 20. Quelle est sa durée ?",
+          "etapes": [
+            "De 14 h 45 à 15 h : 15 min.",
+            "De 15 h à 16 h 20 : 1 h 20 min.",
+            "15 min + 1 h 20 min = 1 h 35 min."
+          ],
+          "conclusion": "Le film dure 1 h 35 min."
+        },
+        {
+          "type": "question",
+          "consigne": "Départ à 9 h 50, trajet de 1 h 25 min. Arrivée ?",
+          "options": [
+            "11 h 15",
+            "10 h 75",
+            "10 h 15"
+          ],
+          "reponse": "11 h 15",
+          "explication": "9 h 50 + 10 min = 10 h, puis + 1 h 15 min."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2 h = … min ?",
+      "options": [
+        "120",
+        "200",
+        "60"
+      ],
+      "reponse": "120",
+      "explication": "2 × 60 = 120."
+    },
+    {
+      "consigne": "De 10 h 40 à 11 h 15, combien de temps ?",
+      "options": [
+        "35 min",
+        "75 min",
+        "45 min"
+      ],
+      "reponse": "35 min",
+      "explication": "20 min jusqu’à 11 h, puis 15 min."
+    },
+    {
+      "consigne": "Départ 8 h 30, trajet 45 min. Arrivée ?",
+      "options": [
+        "9 h 15",
+        "8 h 75",
+        "9 h 05"
+      ],
+      "reponse": "9 h 15",
+      "explication": "8 h 30 + 30 min = 9 h, puis + 15 min."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 18,
+      "extrait": "Résoudre des problèmes à une ou deux étapes impliquant des durées",
+      "appui": "Durées en heures et minutes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
