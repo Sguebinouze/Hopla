@@ -1,0 +1,110 @@
+{
+  "competence": "FR-C4-5E-ECR-03",
+  "duree": 6,
+  "essentiel": "Réviser un texte, c’est le relire et l’améliorer selon des critères précis.\nOn vérifie la consigne, la cohérence, les répétitions, la ponctuation, puis l’orthographe.\nOn relit une fois par critère.",
+  "parties": [
+    {
+      "titre": "Une grille de révision",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Critères",
+          "colonnes": [
+            "Critère",
+            "Question à se poser"
+          ],
+          "lignes": [
+            [
+              "consigne",
+              "Ai-je fait tout ce qui était demandé ?"
+            ],
+            [
+              "cohérence",
+              "L’histoire se suit-elle sans contradiction ?"
+            ],
+            [
+              "répétitions",
+              "Ai-je répété des mots ?"
+            ],
+            [
+              "ponctuation",
+              "Chaque phrase a-t-elle une majuscule et un point ?"
+            ],
+            [
+              "orthographe",
+              "Les accords sont-ils justes ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour éviter de répéter « il » cinq fois, on peut écrire :",
+          "options": [
+            "le chevalier, Perceval, le jeune homme",
+            "il, il, il",
+            "lui, lui, lui"
+          ],
+          "reponse": "le chevalier, Perceval, le jeune homme",
+          "explication": "On varie les reprises nominales."
+        }
+      ]
+    },
+    {
+      "titre": "Varier les reprises",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Perceval quitte sa mère. Le jeune homme rêve d’armures. Le futur chevalier part vers la cour du roi."
+        },
+        {
+          "type": "piege",
+          "erreur": "On corrige seulement l’orthographe.",
+          "correction": "Un texte sans faute peut être incohérent ou hors sujet : on vérifie tous les critères."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Relire une fois par critère permet :",
+      "options": [
+        "de repérer plus d’erreurs",
+        "d’aller plus vite",
+        "d’éviter de relire"
+      ],
+      "reponse": "de repérer plus d’erreurs",
+      "explication": "L’attention se concentre sur un point."
+    },
+    {
+      "consigne": "Vérifier que l’histoire ne se contredit pas, c’est vérifier :",
+      "options": [
+        "la cohérence",
+        "la ponctuation",
+        "l’orthographe"
+      ],
+      "reponse": "la cohérence",
+      "explication": "Un personnage mort ne revient pas sans explication."
+    },
+    {
+      "consigne": "Une reprise nominale de « le loup » :",
+      "options": [
+        "l’animal",
+        "il",
+        "le"
+      ],
+      "reponse": "l’animal",
+      "explication": "Un nom remplace un autre nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 24,
+      "extrait": "Réviser un écrit en suivant les consignes des professeurs",
+      "appui": "Réviser son texte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

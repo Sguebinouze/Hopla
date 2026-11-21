@@ -1,0 +1,96 @@
+{
+  "competence": "FR-C4-5E-DICT-01",
+  "duree": 6,
+  "essentiel": "Une dictée d’auteur demande d’écouter chaque phrase en entier avant d’écrire.\nOn relit ensuite plusieurs fois, en cherchant une difficulté à la fois.\nLes points à surveiller en 5e : accords sujet-verbe éloignés, participes passés, radicaux variables, lettres muettes.",
+  "parties": [
+    {
+      "titre": "Relire par étapes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour relire une dictée",
+          "etapes": [
+            "Relis pour le sens : aucun mot ne manque.",
+            "Relis les verbes : trouve le noyau du sujet.",
+            "Relis les participes passés : être, avoir et place du COD.",
+            "Relis les groupes nominaux : genre et nombre.",
+            "Relis les mots invariables et les lettres muettes."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relit tout d’un coup, une seule fois.",
+          "correction": "Une relecture par difficulté permet de repérer davantage d’erreurs."
+        }
+      ]
+    },
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les branches que le vent avait arrachées jonchaient le chemin. »",
+          "etapes": [
+            "Arrachées : avoir, COD que, mis pour branches, placé avant : féminin pluriel.",
+            "Jonchaient : le sujet est les branches, au pluriel."
+          ],
+          "conclusion": "Chaque accord se justifie."
+        },
+        {
+          "type": "question",
+          "consigne": "« Le cri des mouettes … le silence. » (troubler, imparfait)",
+          "options": [
+            "troublait",
+            "troublaient",
+            "troublais"
+          ],
+          "reponse": "troublait",
+          "explication": "Le noyau du sujet est cri."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les maisons que nous avons … » (visiter)",
+      "options": [
+        "visitées",
+        "visité",
+        "visités"
+      ],
+      "reponse": "visitées",
+      "explication": "COD que, placé avant, mis pour maisons."
+    },
+    {
+      "consigne": "« Ils … leur chemin. » (reprendre, présent)",
+      "options": [
+        "reprennent",
+        "reprenent",
+        "reprendent"
+      ],
+      "reponse": "reprennent",
+      "explication": "Radical reprenn- à la 3e personne du pluriel."
+    },
+    {
+      "consigne": "Pour relire un participe passé, on regarde d’abord :",
+      "options": [
+        "l’auxiliaire",
+        "la longueur du mot",
+        "la première lettre"
+      ],
+      "reponse": "l’auxiliaire",
+      "explication": "Être ou avoir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 27,
+      "extrait": "Des dictées de modalités diverses et des copies, réemployant le vocabulaire étudié",
+      "appui": "Dictée et relecture"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

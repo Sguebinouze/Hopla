@@ -1,0 +1,113 @@
+{
+  "competence": "FR-C4-5E-LECT-02",
+  "duree": 7,
+  "essentiel": "Le héros d’un récit de chevalerie quitte son monde, affronte des épreuves et revient transformé.\nIl défend des valeurs : courage, loyauté, courtoisie, protection des plus faibles.\nDans le roman de Chrétien de Troyes, Perceval, jeune naïf, devient chevalier au fil de ses épreuves.",
+  "parties": [
+    {
+      "titre": "Le parcours du héros",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Analyser le parcours",
+          "etapes": [
+            "Situation de départ : qui est le héros, que lui manque-t-il ?",
+            "Départ : pourquoi quitte-t-il son monde ?",
+            "Épreuves : combats, tentations, quêtes.",
+            "Aides et obstacles : qui l’aide, qui s’oppose à lui ?",
+            "Retour : qu’a-t-il appris, comment a-t-il changé ?"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un personnage qui aide le héros s’appelle :",
+          "options": [
+            "un adjuvant",
+            "un opposant",
+            "un narrateur"
+          ],
+          "reponse": "un adjuvant",
+          "explication": "Celui qui fait obstacle est un opposant."
+        }
+      ]
+    },
+    {
+      "titre": "Les valeurs du chevalier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Valeurs chevaleresques",
+          "colonnes": [
+            "Valeur",
+            "Ce qu’elle demande"
+          ],
+          "lignes": [
+            [
+              "courage",
+              "affronter le danger"
+            ],
+            [
+              "loyauté",
+              "rester fidèle à son seigneur et à sa parole"
+            ],
+            [
+              "courtoisie",
+              "être poli et respectueux, surtout envers les dames"
+            ],
+            [
+              "charité",
+              "protéger les faibles"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le héros est parfait dès le début.",
+          "correction": "Il commet des erreurs et apprend : Perceval se trompe souvent avant de devenir un vrai chevalier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Chrétien de Troyes a écrit ses romans au :",
+      "options": [
+        "XIIe siècle",
+        "XVIIe siècle",
+        "XIXe siècle"
+      ],
+      "reponse": "XIIe siècle",
+      "explication": "Au Moyen Âge."
+    },
+    {
+      "consigne": "La loyauté consiste à :",
+      "options": [
+        "rester fidèle à sa parole",
+        "combattre sans règles",
+        "s’enrichir"
+      ],
+      "reponse": "rester fidèle à sa parole",
+      "explication": "Une valeur du chevalier."
+    },
+    {
+      "consigne": "À la fin de son parcours, le héros est souvent :",
+      "options": [
+        "transformé",
+        "exactement le même",
+        "oublié"
+      ],
+      "reponse": "transformé",
+      "explication": "Les épreuves l’ont fait grandir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 18,
+      "extrait": "Comprendre et interpréter le parcours d’un ou de plusieurs personnages",
+      "appui": "Héros et chevaliers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

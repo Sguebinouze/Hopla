@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C4-5E-ECOU-01",
+  "duree": 5,
+  "essentiel": "Pour retenir une présentation orale, on repère le sujet, le plan et les informations clés.\nOn note des mots-clés, pas des phrases entières.\nDes abréviations et des symboles font gagner du temps.",
+  "parties": [
+    {
+      "titre": "Prendre des notes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Abréviations utiles",
+          "colonnes": [
+            "Abréviation",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "ex.",
+              "exemple"
+            ],
+            [
+              "→",
+              "entraine, conséquence"
+            ],
+            [
+              "=",
+              "égal, signifie"
+            ],
+            [
+              "+",
+              "plus, et"
+            ],
+            [
+              "qqch",
+              "quelque chose"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant un exposé, on note :",
+          "options": [
+            "des mots-clés",
+            "chaque phrase en entier",
+            "rien du tout"
+          ],
+          "reponse": "des mots-clés",
+          "explication": "On garde l’essentiel."
+        }
+      ]
+    },
+    {
+      "titre": "Écouter activement",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pendant une présentation sur les volcans",
+          "etapes": [
+            "Note le sujet annoncé au début.",
+            "Repère les mots qui annoncent les parties : d’abord, ensuite.",
+            "Note le nom, le lieu, la cause.",
+            "Relis tes notes juste après pour les compléter."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On essaie de tout écrire et on perd le fil.",
+          "correction": "On écoute d’abord, puis on note le mot-clé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le symbole → signifie :",
+      "options": [
+        "entraine",
+        "égal",
+        "moins"
+      ],
+      "reponse": "entraine",
+      "explication": "Il marque une conséquence."
+    },
+    {
+      "consigne": "Les mots « d’abord, ensuite, enfin » annoncent :",
+      "options": [
+        "les parties de la présentation",
+        "un exemple",
+        "une question"
+      ],
+      "reponse": "les parties de la présentation",
+      "explication": "Ils structurent l’exposé."
+    },
+    {
+      "consigne": "Juste après l’écoute, on :",
+      "options": [
+        "relit et complète ses notes",
+        "jette ses notes",
+        "recopie au hasard"
+      ],
+      "reponse": "relit et complète ses notes",
+      "explication": "Les souvenirs sont encore frais."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 26,
+      "extrait": "Écouter une production orale et en mémoriser les principaux éléments",
+      "appui": "Écouter et mémoriser"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

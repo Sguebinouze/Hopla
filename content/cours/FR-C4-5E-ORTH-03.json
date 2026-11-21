@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C4-5E-ORTH-03",
+  "duree": 6,
+  "essentiel": "Certaines lettres muettes s’expliquent par l’origine du mot.\nLe p de « temps » vient du latin tempus : on le retrouve dans « temporel ».\nUn mot de la même famille aide à trouver la lettre muette : long, longueur.",
+  "parties": [
+    {
+      "titre": "Des familles de mots",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La lettre muette s’entend ailleurs",
+          "colonnes": [
+            "Mot",
+            "Lettre muette",
+            "Mot de la famille"
+          ],
+          "lignes": [
+            [
+              "temps",
+              "p",
+              "temporel"
+            ],
+            [
+              "corps",
+              "p",
+              "corporel"
+            ],
+            [
+              "doigt",
+              "g",
+              "digital"
+            ],
+            [
+              "sang",
+              "g",
+              "sanguin"
+            ],
+            [
+              "grand",
+              "d",
+              "grandeur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle lettre muette termine « long » ?",
+          "options": [
+            "g",
+            "d",
+            "t"
+          ],
+          "reponse": "g",
+          "explication": "Longueur, allonger."
+        }
+      ]
+    },
+    {
+      "titre": "Utiliser la famille",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire la fin d’un mot",
+          "etapes": [
+            "Cherche un mot de la même famille.",
+            "Écoute si la lettre s’y prononce.",
+            "Vérifie dans le dictionnaire."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « le tems ».",
+          "correction": "Le p vient du latin tempus : temps, temporel, temporaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Corps » s’écrit avec un p, comme dans :",
+      "options": [
+        "corporel",
+        "correct",
+        "cordon"
+      ],
+      "reponse": "corporel",
+      "explication": "Même famille, du latin corpus."
+    },
+    {
+      "consigne": "Quelle lettre muette termine « sang » ?",
+      "options": [
+        "g",
+        "t",
+        "d"
+      ],
+      "reponse": "g",
+      "explication": "Sanguin."
+    },
+    {
+      "consigne": "Le mot « digital » est de la famille de :",
+      "options": [
+        "doigt",
+        "dire",
+        "digne"
+      ],
+      "reponse": "doigt",
+      "explication": "Du latin digitus, le doigt."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 28,
+      "extrait": "Utiliser sa connaissance de l’étymologie pour orthographier des mots ayant le même radical",
+      "appui": "Étymologie et orthographe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

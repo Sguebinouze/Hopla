@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C4-5E-VOC-04",
+  "duree": 6,
+  "essentiel": "Pour comprendre un mot inconnu, on s’appuie sur le contexte : les mots autour donnent des indices.\nOn s’appuie aussi sur sa formation : radical, préfixe, suffixe, origine latine ou grecque.\nOn vérifie ensuite dans le dictionnaire.",
+  "parties": [
+    {
+      "titre": "Par la formation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des racines",
+          "colonnes": [
+            "Racine",
+            "Origine et sens",
+            "Mot"
+          ],
+          "lignes": [
+            [
+              "bell-",
+              "latin bellum, la guerre",
+              "belliqueux : qui aime la guerre"
+            ],
+            [
+              "aqua-",
+              "latin aqua, l’eau",
+              "aquatique"
+            ],
+            [
+              "chrono-",
+              "grec khronos, le temps",
+              "chronomètre"
+            ],
+            [
+              "-phone",
+              "grec phônê, la voix",
+              "téléphone"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Un animal aquatique » vit :",
+          "options": [
+            "dans l’eau",
+            "dans les arbres",
+            "dans le désert"
+          ],
+          "reponse": "dans l’eau",
+          "explication": "Aqua- vient du latin aqua, l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Par le contexte",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Affamé, le loup dévora le repas en un instant. » Que signifie « dévora » ?",
+          "etapes": [
+            "Indice : le loup est affamé.",
+            "Indice : en un instant."
+          ],
+          "conclusion": "Dévorer signifie manger très vite, avec avidité."
+        },
+        {
+          "type": "piege",
+          "erreur": "On devine le sens et on ne vérifie pas.",
+          "correction": "Le dictionnaire confirme ou corrige l’hypothèse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un « chronomètre » mesure :",
+      "options": [
+        "le temps",
+        "la température",
+        "la longueur"
+      ],
+      "reponse": "le temps",
+      "explication": "Khronos : le temps ; mètre : mesure."
+    },
+    {
+      "consigne": "« Il resta impassible malgré les cris. » Impassible signifie :",
+      "options": [
+        "calme, sans réaction",
+        "en colère",
+        "très bruyant"
+      ],
+      "reponse": "calme, sans réaction",
+      "explication": "Malgré les cris : il ne réagit pas."
+    },
+    {
+      "consigne": "Après avoir deviné le sens d’un mot, on :",
+      "options": [
+        "le vérifie dans le dictionnaire",
+        "l’oublie",
+        "le remplace au hasard"
+      ],
+      "reponse": "le vérifie dans le dictionnaire",
+      "explication": "On confirme l’hypothèse."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 27,
+      "extrait": "Savoir déduire, vérifier ou rechercher le sens d’un mot",
+      "appui": "Déduire le sens d’un mot"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

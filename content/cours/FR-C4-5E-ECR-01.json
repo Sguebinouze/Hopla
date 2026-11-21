@@ -1,0 +1,86 @@
+{
+  "competence": "FR-C4-5E-ECR-01",
+  "duree": 6,
+  "essentiel": "L’idée principale est ce que l’auteur veut dire dans un paragraphe.\nLes autres phrases l’expliquent ou l’illustrent par des exemples.\nOn la formule en une phrase, avec ses propres mots.",
+  "parties": [
+    {
+      "titre": "La repérer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver l’idée principale",
+          "etapes": [
+            "Lis le paragraphe en entier.",
+            "Demande-toi : de quoi parle-t-il ? Qu’en dit-il ?",
+            "Mets de côté les exemples et les détails.",
+            "Formule l’idée en une phrase."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un paragraphe parle des écrans le soir, de la lumière bleue et des nuits plus courtes. L’idée principale :",
+          "options": [
+            "Les écrans le soir nuisent au sommeil.",
+            "La lumière est bleue.",
+            "Les nuits sont courtes."
+          ],
+          "reponse": "Les écrans le soir nuisent au sommeil.",
+          "explication": "Les détails servent cette idée."
+        }
+      ]
+    },
+    {
+      "titre": "Idée ou exemple ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On recopie la première phrase du paragraphe.",
+          "correction": "L’idée principale n’est pas toujours au début. On la reformule avec ses mots."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’idée principale d’un paragraphe :",
+      "options": [
+        "dit l’essentiel en une phrase",
+        "cite tous les exemples",
+        "est toujours la dernière phrase"
+      ],
+      "reponse": "dit l’essentiel en une phrase",
+      "explication": "On garde l’essentiel."
+    },
+    {
+      "consigne": "« Par exemple, les abeilles pollinisent les fleurs. » Cette phrase est :",
+      "options": [
+        "un exemple",
+        "l’idée principale",
+        "une conclusion"
+      ],
+      "reponse": "un exemple",
+      "explication": "Par exemple annonce une illustration."
+    },
+    {
+      "consigne": "Pour formuler l’idée principale, on utilise :",
+      "options": [
+        "ses propres mots",
+        "les mots exacts du texte seulement",
+        "des abréviations"
+      ],
+      "reponse": "ses propres mots",
+      "explication": "On reformule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 23,
+      "extrait": "Repérer l’idée principale d’un message écrit ou oral",
+      "appui": "L’idée principale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

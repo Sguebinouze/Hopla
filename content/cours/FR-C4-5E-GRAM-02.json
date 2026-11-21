@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-5E-GRAM-02",
+  "duree": 7,
+  "essentiel": "Une phrase simple a un seul verbe conjugué ; une phrase complexe en a plusieurs. Une phrase non verbale n’en a aucun.\nLes propositions d’une phrase complexe sont juxtaposées, coordonnées ou subordonnées.\n« Il pleut, nous restons. » : deux propositions juxtaposées, séparées par une virgule.",
+  "parties": [
+    {
+      "titre": "Trois façons de relier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relier des propositions",
+          "colonnes": [
+            "Lien",
+            "Outil",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "juxtaposition",
+              "virgule, point-virgule, deux-points",
+              "Il pleut, nous restons."
+            ],
+            [
+              "coordination",
+              "mais, ou, et, donc, or, ni, car",
+              "Il pleut, donc nous restons."
+            ],
+            [
+              "subordination",
+              "quand, parce que, si, qui, que…",
+              "Nous restons parce qu’il pleut."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je lis car j’aime les histoires. » Les propositions sont :",
+          "options": [
+            "coordonnées",
+            "juxtaposées",
+            "subordonnées"
+          ],
+          "reponse": "coordonnées",
+          "explication": "Car est une conjonction de coordination."
+        }
+      ]
+    },
+    {
+      "titre": "La phrase non verbale",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des phrases sans verbe conjugué.",
+          "exemples": [
+            "Silence !",
+            "Quelle belle journée !",
+            "Défense de fumer."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte un infinitif comme verbe conjugué : « Il veut partir » serait une phrase complexe.",
+          "correction": "Partir est à l’infinitif. La phrase a un seul verbe conjugué : elle est simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Quand la nuit tombe, les chouettes chassent. » contient :",
+      "options": [
+        "une subordination",
+        "une juxtaposition",
+        "aucun verbe"
+      ],
+      "reponse": "une subordination",
+      "explication": "Quand introduit une proposition subordonnée."
+    },
+    {
+      "consigne": "« Attention, chien méchant ! » est une phrase :",
+      "options": [
+        "non verbale",
+        "simple",
+        "complexe"
+      ],
+      "reponse": "non verbale",
+      "explication": "Aucun verbe conjugué."
+    },
+    {
+      "consigne": "« Le vent souffle ; la mer se creuse. » Les propositions sont :",
+      "options": [
+        "juxtaposées",
+        "coordonnées",
+        "subordonnées"
+      ],
+      "reponse": "juxtaposées",
+      "explication": "Un point-virgule les sépare."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 30,
+      "extrait": "Comprendre et expliciter la différence entre phrase simple, phrase complexe, phrase non verbale.",
+      "appui": "Phrase simple, complexe, non verbale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

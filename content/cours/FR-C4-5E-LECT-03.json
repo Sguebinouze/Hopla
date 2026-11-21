@@ -1,0 +1,127 @@
+{
+  "competence": "FR-C4-5E-LECT-03",
+  "duree": 6,
+  "essentiel": "Au Moyen Âge, on récite les chansons de geste, comme la Chanson de Roland, à la fin du XIe siècle.\nAu XVIIe siècle, La Fontaine écrit ses Fables et Molière ses comédies.\nAu XIXe siècle, Victor Hugo, Jules Verne et Maupassant publient romans, poèmes et nouvelles.",
+  "parties": [
+    {
+      "titre": "Une frise des œuvres",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1090,
+              "date": "fin du XIe siècle",
+              "evenement": "La Chanson de Roland."
+            },
+            {
+              "annee": 1180,
+              "date": "XIIe siècle",
+              "evenement": "Romans de Chrétien de Troyes."
+            },
+            {
+              "annee": 1668,
+              "date": "1668",
+              "evenement": "Premières Fables de La Fontaine."
+            },
+            {
+              "annee": 1862,
+              "date": "1862",
+              "evenement": "Les Misérables, Victor Hugo."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les Fables de La Fontaine datent du :",
+          "options": [
+            "XVIIe siècle",
+            "Moyen Âge",
+            "XIXe siècle"
+          ],
+          "reponse": "XVIIe siècle",
+          "explication": "Les premières paraissent en 1668."
+        }
+      ]
+    },
+    {
+      "titre": "Trois époques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Auteurs et genres",
+          "colonnes": [
+            "Époque",
+            "Auteurs",
+            "Genres"
+          ],
+          "lignes": [
+            [
+              "Moyen Âge",
+              "auteur anonyme de la Chanson de Roland, Chrétien de Troyes",
+              "chanson de geste, roman de chevalerie"
+            ],
+            [
+              "XVIIe siècle",
+              "La Fontaine, Molière, Perrault",
+              "fable, comédie, conte"
+            ],
+            [
+              "XIXe siècle",
+              "Hugo, Verne, Maupassant",
+              "roman, poésie, nouvelle"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On place Molière au Moyen Âge, car ses pièces sont anciennes.",
+          "correction": "Molière vit au XVIIe siècle, sous Louis XIV."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Molière écrit des :",
+      "options": [
+        "comédies",
+        "chansons de geste",
+        "romans de science-fiction"
+      ],
+      "reponse": "comédies",
+      "explication": "Des pièces de théâtre comiques."
+    },
+    {
+      "consigne": "Jules Verne vit au :",
+      "options": [
+        "XIXe siècle",
+        "XVIIe siècle",
+        "Moyen Âge"
+      ],
+      "reponse": "XIXe siècle",
+      "explication": "Le Tour du monde en 80 jours paraît en 1872."
+    },
+    {
+      "consigne": "La Chanson de Roland est :",
+      "options": [
+        "une chanson de geste",
+        "une fable",
+        "une comédie"
+      ],
+      "reponse": "une chanson de geste",
+      "explication": "Elle raconte des exploits guerriers."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 18,
+      "extrait": "Se constituer des repères dans l’histoire littéraire",
+      "appui": "Repères d’histoire littéraire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

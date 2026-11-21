@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-5E-ORTH-01",
+  "duree": 6,
+  "essentiel": "Le verbe s’accorde avec le noyau du sujet, même si un complément les sépare : le bruit des vagues berce les campeurs.\nPlusieurs noms sujets coordonnés valent un pluriel : Léa et Tom partent.\nLe sujet peut aussi être placé après le verbe.",
+  "parties": [
+    {
+      "titre": "Le noyau du sujet",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Le bruit des vagues berc… les campeurs. »",
+          "etapes": [
+            "Qu’est-ce qui berce ? Le bruit des vagues.",
+            "Le noyau est bruit, au singulier. Des vagues complète bruit."
+          ],
+          "conclusion": "Le bruit des vagues berce les campeurs."
+        },
+        {
+          "type": "question",
+          "consigne": "« Les feuilles de cet arbre … en automne. » (tomber, présent)",
+          "options": [
+            "tombent",
+            "tombe",
+            "tombes"
+          ],
+          "reponse": "tombent",
+          "explication": "Le noyau est feuilles, au pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs sujets",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Cas particuliers",
+          "colonnes": [
+            "Sujet",
+            "Accord",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "deux noms coordonnés",
+              "pluriel",
+              "Le chat et le chien dorment."
+            ],
+            [
+              "toi et moi",
+              "1re personne du pluriel",
+              "Toi et moi partirons."
+            ],
+            [
+              "sujet inversé",
+              "avec le sujet placé après",
+              "Au loin brillent les phares."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le nom le plus proche : « Le bruit des vagues bercent ».",
+          "correction": "On cherche le noyau du sujet : bruit, au singulier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La voix de mes amis … » (résonner, présent)",
+      "options": [
+        "résonne",
+        "résonnent",
+        "résonnes"
+      ],
+      "reponse": "résonne",
+      "explication": "Le noyau est voix."
+    },
+    {
+      "consigne": "« Ma sœur et moi … au cinéma. » (aller, présent)",
+      "options": [
+        "allons",
+        "vont",
+        "va"
+      ],
+      "reponse": "allons",
+      "explication": "Ma sœur et moi = nous."
+    },
+    {
+      "consigne": "« Dans la cour … les élèves. » (jouer, présent)",
+      "options": [
+        "jouent",
+        "joue",
+        "joues"
+      ],
+      "reponse": "jouent",
+      "explication": "Sujet inversé au pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Maitriser les cas complexes de l’accord sujet-verbe (sujet séparé du verbe par un complément, sujet comportant plusieurs",
+      "appui": "Accord sujet-verbe complexe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

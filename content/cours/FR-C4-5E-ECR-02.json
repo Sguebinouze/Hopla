@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-5E-ECR-02",
+  "duree": 7,
+  "essentiel": "La thèse est l’opinion défendue. Un argument est une raison qui la soutient. Un exemple illustre l’argument par un fait précis.\nThèse : il faut lire. Argument : la lecture enrichit le vocabulaire. Exemple : les romans font découvrir des mots rares.\nChaque argument gagne à être suivi d’un exemple.",
+  "parties": [
+    {
+      "titre": "Thèse, argument, exemple",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Défendre une thèse",
+          "colonnes": [
+            "Élément",
+            "Question",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "thèse",
+              "que penses-tu ?",
+              "Le vélo est le meilleur moyen d’aller au collège."
+            ],
+            [
+              "argument",
+              "pourquoi ?",
+              "Il est bon pour la santé."
+            ],
+            [
+              "exemple",
+              "par exemple ?",
+              "Vingt minutes de vélo par jour suffisent pour faire de l’exercice."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Les jeux vidéo développent les réflexes. » est :",
+          "options": [
+            "un argument",
+            "une thèse",
+            "un exemple"
+          ],
+          "reponse": "un argument",
+          "explication": "C’est une raison qui soutient une opinion."
+        }
+      ]
+    },
+    {
+      "titre": "Relier",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des connecteurs utiles.",
+          "exemples": [
+            "pour annoncer un argument : d’abord, de plus, enfin",
+            "pour annoncer un exemple : par exemple, ainsi",
+            "pour conclure : donc, c’est pourquoi"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne un exemple sans dire quelle idée il prouve.",
+          "correction": "L’argument vient d’abord, l’exemple le prouve ensuite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je pense qu’il faut interdire les portables en classe. » est :",
+      "options": [
+        "une thèse",
+        "un exemple",
+        "un argument"
+      ],
+      "reponse": "une thèse",
+      "explication": "C’est l’opinion défendue."
+    },
+    {
+      "consigne": "« Ainsi, mon frère a appris l’anglais grâce aux séries. » est :",
+      "options": [
+        "un exemple",
+        "une thèse",
+        "une conclusion"
+      ],
+      "reponse": "un exemple",
+      "explication": "Un fait précis qui illustre."
+    },
+    {
+      "consigne": "Pour ajouter un argument, on écrit :",
+      "options": [
+        "de plus",
+        "par exemple",
+        "donc"
+      ],
+      "reponse": "de plus",
+      "explication": "De plus annonce une nouvelle raison."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 24,
+      "extrait": "Écrire un texte à visée argumentative à partir de consignes simples et explicitées",
+      "appui": "Argument et exemple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

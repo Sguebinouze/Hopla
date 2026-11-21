@@ -1,0 +1,110 @@
+{
+  "competence": "FR-C4-5E-VOC-03",
+  "duree": 6,
+  "essentiel": "Des synonymes ont un sens proche : rapide, véloce. Des antonymes ont un sens contraire : monter, descendre.\nDes homonymes se prononcent de la même façon mais ont des sens différents : ver, verre, vert, vers.\nUn mot générique englobe des mots spécifiques : fleur englobe rose, tulipe, iris.",
+  "parties": [
+    {
+      "titre": "Cinq relations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relations de sens",
+          "colonnes": [
+            "Relation",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "synonymie",
+              "effrayé, apeuré"
+            ],
+            [
+              "antonymie",
+              "ouvrir, fermer"
+            ],
+            [
+              "homonymie",
+              "sain, saint, sein, cinq"
+            ],
+            [
+              "générique",
+              "outil"
+            ],
+            [
+              "spécifiques",
+              "marteau, scie, tournevis"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mer » et « mère » sont :",
+          "options": [
+            "des homonymes",
+            "des synonymes",
+            "des antonymes"
+          ],
+          "reponse": "des homonymes",
+          "explication": "Même prononciation, sens différents."
+        }
+      ]
+    },
+    {
+      "titre": "Éviter les répétitions",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour ne pas répéter « le chien », on écrit « l’animal » : on remplace un mot spécifique par un générique."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que deux synonymes s’emploient toujours l’un pour l’autre.",
+          "correction": "Le sens est proche, pas identique : on dit « un vieil ami », pas « un âgé ami »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’antonyme de « généreux » est :",
+      "options": [
+        "avare",
+        "gentil",
+        "riche"
+      ],
+      "reponse": "avare",
+      "explication": "Sens contraire, même classe : adjectif."
+    },
+    {
+      "consigne": "« Meuble » par rapport à « armoire » est un mot :",
+      "options": [
+        "générique",
+        "spécifique",
+        "antonyme"
+      ],
+      "reponse": "générique",
+      "explication": "Il englobe armoire, table, chaise."
+    },
+    {
+      "consigne": "Un synonyme de « débuter » est :",
+      "options": [
+        "commencer",
+        "terminer",
+        "durer"
+      ],
+      "reponse": "commencer",
+      "explication": "Sens proche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 27,
+      "extrait": "Reconnaitre et savoir nommer les relations de sens entre les mots.",
+      "appui": "Relations de sens"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

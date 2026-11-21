@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-5E-GRAM-06",
+  "duree": 5,
+  "essentiel": "L’oral familier et l’écrit normé ne construisent pas les phrases de la même façon.\nÀ l’oral, on omet souvent le ne de la négation ; à l’écrit, il est obligatoire.\nÀ l’oral, on pose une question par l’intonation ; à l’écrit, on préfère l’inversion ou « est-ce que ».",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Oral familier, écrit normé",
+          "colonnes": [
+            "Tournure",
+            "Oral familier",
+            "Écrit normé"
+          ],
+          "lignes": [
+            [
+              "négation",
+              "Je sais pas.",
+              "Je ne sais pas."
+            ],
+            [
+              "interrogation",
+              "Tu viens ?",
+              "Viens-tu ?"
+            ],
+            [
+              "reprise",
+              "Mon frère, il joue au foot.",
+              "Mon frère joue au football."
+            ],
+            [
+              "pronom",
+              "On y va.",
+              "Nous y allons."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "À l’écrit, « Je comprends pas » devient :",
+          "options": [
+            "Je ne comprends pas.",
+            "Je comprends pas.",
+            "Comprends pas."
+          ],
+          "reponse": "Je ne comprends pas.",
+          "explication": "Le ne est obligatoire à l’écrit."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’oral familier est faux.",
+          "correction": "Il convient à la conversation. Dans une rédaction, on emploie l’écrit normé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À l’écrit normé, « Tu vas où ? » devient :",
+      "options": [
+        "Où vas-tu ?",
+        "Tu vas où ?",
+        "Où tu vas ?"
+      ],
+      "reponse": "Où vas-tu ?",
+      "explication": "Inversion du sujet."
+    },
+    {
+      "consigne": "« Ma mère, elle travaille tard » contient :",
+      "options": [
+        "une reprise par un pronom",
+        "une négation",
+        "une inversion"
+      ],
+      "reponse": "une reprise par un pronom",
+      "explication": "Elle reprend ma mère."
+    },
+    {
+      "consigne": "À l’écrit, « On est partis » devient plutôt :",
+      "options": [
+        "Nous sommes partis.",
+        "On est partis.",
+        "Nous est partis."
+      ],
+      "reponse": "Nous sommes partis.",
+      "explication": "Nous remplace on."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Découvrir et comprendre les différences entre grammaire de l’écrit et grammaire de l’oral",
+      "appui": "Grammaire de l’oral et de l’écrit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

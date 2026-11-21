@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-5E-GRAM-05",
+  "duree": 7,
+  "essentiel": "Au discours direct, on rapporte les paroles telles quelles, entre guillemets : Léa dit : « Je viens. »\nAu discours indirect, on les intègre dans une subordonnée : Léa dit qu’elle vient.\nPour passer de l’un à l’autre, on adapte les pronoms, la ponctuation et parfois les temps.",
+  "parties": [
+    {
+      "titre": "Passer de l’un à l’autre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Transformer",
+          "colonnes": [
+            "Discours direct",
+            "Discours indirect"
+          ],
+          "lignes": [
+            [
+              "Léa dit : « Je viens. »",
+              "Léa dit qu’elle vient."
+            ],
+            [
+              "Tom demande : « Viens-tu ? »",
+              "Tom demande si je viens."
+            ],
+            [
+              "Il demande : « Où vas-tu ? »",
+              "Il demande où je vais."
+            ],
+            [
+              "Elle lui dit : « Range ta chambre. »",
+              "Elle lui dit de ranger sa chambre."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le guide annonce : “Nous partons.” » au discours indirect :",
+          "options": [
+            "Le guide annonce qu’ils partent.",
+            "Le guide annonce : nous partons.",
+            "Le guide annonce si nous partons."
+          ],
+          "reponse": "Le guide annonce qu’ils partent.",
+          "explication": "Que introduit la subordonnée ; nous devient ils."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui change",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour passer au discours indirect",
+          "etapes": [
+            "Supprime les guillemets et les deux-points.",
+            "Introduis la subordonnée par que, si ou un mot interrogatif.",
+            "Adapte les pronoms et les possessifs.",
+            "Transforme l’impératif en de + infinitif."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde les pronoms : « Léa dit qu’je viens ».",
+          "correction": "Le je de Léa devient elle : Léa dit qu’elle vient."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il me demande : “Es-tu prêt ?” » au discours indirect :",
+      "options": [
+        "Il me demande si je suis prêt.",
+        "Il me demande que je suis prêt.",
+        "Il me demande es-tu prêt."
+      ],
+      "reponse": "Il me demande si je suis prêt.",
+      "explication": "Une question fermée devient si + proposition."
+    },
+    {
+      "consigne": "Au discours direct, les paroles sont placées :",
+      "options": [
+        "entre guillemets",
+        "dans une subordonnée",
+        "entre parenthèses"
+      ],
+      "reponse": "entre guillemets",
+      "explication": "On les rapporte telles quelles."
+    },
+    {
+      "consigne": "« Ferme la fenêtre », lui dit-elle. Au discours indirect :",
+      "options": [
+        "Elle lui dit de fermer la fenêtre.",
+        "Elle lui dit qu’il ferme la fenêtre ?",
+        "Elle lui dit : ferme."
+      ],
+      "reponse": "Elle lui dit de fermer la fenêtre.",
+      "explication": "L’impératif devient de + infinitif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Identifier des paroles rapportées aux discours direct et indirect.",
+      "appui": "Discours direct et indirect"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

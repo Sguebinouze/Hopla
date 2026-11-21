@@ -1,0 +1,148 @@
+{
+  "competence": "FR-C4-5E-VOC-01",
+  "duree": 6,
+  "essentiel": "Un mot construit est formé d’un radical, parfois d’un préfixe avant, et d’un suffixe après.\nLe préfixe pré- signifie « avant » : préhistoire. Le suffixe -able signifie « qui peut être » : lavable.\nConnaitre le sens des préfixes et des suffixes aide à comprendre un mot nouveau.",
+  "parties": [
+    {
+      "titre": "Préfixes fréquents",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des préfixes",
+          "colonnes": [
+            "Préfixe",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "pré-",
+              "avant",
+              "préhistoire"
+            ],
+            [
+              "re-, ré-",
+              "de nouveau",
+              "relire"
+            ],
+            [
+              "in-, im-, il-, ir-",
+              "contraire",
+              "impossible, illisible"
+            ],
+            [
+              "anti-",
+              "contre",
+              "antivol"
+            ],
+            [
+              "sous-, sub-",
+              "sous",
+              "sous-marin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Irréparable » signifie :",
+          "options": [
+            "qui ne peut pas être réparé",
+            "qui est réparé",
+            "qui répare"
+          ],
+          "reponse": "qui ne peut pas être réparé",
+          "explication": "ir- : contraire ; -able : qui peut être."
+        }
+      ]
+    },
+    {
+      "titre": "Suffixes fréquents",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des suffixes",
+          "colonnes": [
+            "Suffixe",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "-able, -ible",
+              "qui peut être",
+              "lavable, lisible"
+            ],
+            [
+              "-eur, -euse",
+              "qui fait l’action",
+              "nageur"
+            ],
+            [
+              "-ette",
+              "petit",
+              "fillette"
+            ],
+            [
+              "-ment",
+              "manière (adverbe)",
+              "lentement"
+            ],
+            [
+              "-age",
+              "action",
+              "lavage"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout mot qui commence par re- a un préfixe : « regarder », « renard ».",
+          "correction": "On vérifie qu’il reste un mot de base : relire = re + lire. Renard n’est pas construit ainsi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « fillette », le suffixe -ette signifie :",
+      "options": [
+        "petit",
+        "contraire",
+        "avant"
+      ],
+      "reponse": "petit",
+      "explication": "Une petite fille."
+    },
+    {
+      "consigne": "Quel mot contient un préfixe de sens contraire ?",
+      "options": [
+        "impatient",
+        "important",
+        "imprimer"
+      ],
+      "reponse": "impatient",
+      "explication": "Impatient = qui n’est pas patient."
+    },
+    {
+      "consigne": "Un « antidouleur » sert :",
+      "options": [
+        "contre la douleur",
+        "avant la douleur",
+        "à augmenter la douleur"
+      ],
+      "reponse": "contre la douleur",
+      "explication": "Anti- signifie contre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 28,
+      "extrait": "Connaitre le sens des préfixes et suffixes les plus fréquents.",
+      "appui": "Préfixes et suffixes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,124 @@
+{
+  "competence": "FR-C4-5E-LECT-01",
+  "duree": 7,
+  "essentiel": "Le narrateur est celui qui raconte. Il peut être un personnage de l’histoire ou rester extérieur.\nLe point de vue est interne quand on voit par les yeux d’un personnage ; omniscient quand le narrateur sait tout.\nLes figures de style créent des images : comparaison, métaphore, personnification.",
+  "parties": [
+    {
+      "titre": "Narrateur et point de vue",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois points de vue",
+          "colonnes": [
+            "Point de vue",
+            "Ce qu’on sait",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "interne",
+              "ce que voit et pense un personnage",
+              "Je sentis mon cœur s’emballer."
+            ],
+            [
+              "externe",
+              "seulement ce qu’on peut observer",
+              "Un homme entra et s’assit."
+            ],
+            [
+              "omniscient",
+              "tout, y compris les pensées de chacun",
+              "Chacun, en silence, redoutait la suite."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je n’osais pas ouvrir la porte. » Le narrateur est :",
+          "options": [
+            "un personnage de l’histoire",
+            "extérieur à l’histoire",
+            "absent"
+          ],
+          "reponse": "un personnage de l’histoire",
+          "explication": "Il dit je et vit l’action."
+        }
+      ]
+    },
+    {
+      "titre": "Trois figures de style",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des images",
+          "colonnes": [
+            "Figure",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "comparaison, avec un outil : comme, tel",
+              "La lune brillait comme une pièce d’argent."
+            ],
+            [
+              "métaphore, sans outil",
+              "La lune, pièce d’argent, brillait."
+            ],
+            [
+              "personnification",
+              "Le vent hurlait sa colère."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond l’auteur et le narrateur.",
+          "correction": "L’auteur écrit le livre. Le narrateur raconte l’histoire : ce peut être un personnage inventé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ses yeux étaient deux étoiles. » est :",
+      "options": [
+        "une métaphore",
+        "une comparaison",
+        "une personnification"
+      ],
+      "reponse": "une métaphore",
+      "explication": "Pas d’outil de comparaison."
+    },
+    {
+      "consigne": "« La maison dormait. » est :",
+      "options": [
+        "une personnification",
+        "une comparaison",
+        "une métaphore"
+      ],
+      "reponse": "une personnification",
+      "explication": "Une maison ne dort pas : on lui prête un comportement humain."
+    },
+    {
+      "consigne": "Un narrateur qui connait les pensées de tous les personnages adopte un point de vue :",
+      "options": [
+        "omniscient",
+        "interne",
+        "externe"
+      ],
+      "reponse": "omniscient",
+      "explication": "Il sait tout."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 18,
+      "extrait": "Apprendre à recourir à quelques outils d’analyse pertinents pour lire les textes rencontrés",
+      "appui": "Outils d’analyse d’un texte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-5E-CONJ-03",
+  "duree": 7,
+  "essentiel": "Dans un récit au passé, le passé simple raconte les actions principales, brèves et successives.\nL’imparfait décrit le décor, les personnages et les habitudes.\nLe plus-que-parfait exprime une action antérieure aux autres.",
+  "parties": [
+    {
+      "titre": "Trois temps, trois rôles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Valeurs des temps du récit",
+          "colonnes": [
+            "Temps",
+            "Valeur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "plus-que-parfait",
+              "antériorité",
+              "Il avait plu toute la nuit."
+            ],
+            [
+              "imparfait",
+              "description",
+              "Le chemin était boueux."
+            ],
+            [
+              "passé simple",
+              "action de premier plan",
+              "Le cheval glissa."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Chaque matin, il se levait à l’aube. » L’imparfait exprime :",
+          "options": [
+            "une habitude",
+            "une action brève",
+            "une antériorité"
+          ],
+          "reponse": "une habitude",
+          "explication": "Chaque matin : une action répétée."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire un récit",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Mets les verbes au bon temps : « La nuit (tomber) depuis une heure. Il (faire) froid. Soudain, un cri (retentir). »",
+          "etapes": [
+            "Tomber : antérieur aux autres faits, plus-que-parfait : était tombée.",
+            "Faire : description, imparfait : faisait.",
+            "Retentir : action soudaine, passé simple : retentit."
+          ],
+          "conclusion": "La nuit était tombée depuis une heure. Il faisait froid. Soudain, un cri retentit."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met toutes les actions à l’imparfait.",
+          "correction": "Les actions qui font avancer l’histoire sont au passé simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Après « soudain », on emploie souvent :",
+      "options": [
+        "le passé simple",
+        "l’imparfait",
+        "le présent"
+      ],
+      "reponse": "le passé simple",
+      "explication": "Une action brève qui surgit."
+    },
+    {
+      "consigne": "« Le ciel était gris. » L’imparfait sert à :",
+      "options": [
+        "décrire",
+        "raconter une action brève",
+        "exprimer l’antériorité"
+      ],
+      "reponse": "décrire",
+      "explication": "C’est le décor."
+    },
+    {
+      "consigne": "« Il retrouva la clé qu’il avait perdue. » « avait perdue » exprime :",
+      "options": [
+        "une antériorité",
+        "une description",
+        "une habitude"
+      ],
+      "reponse": "une antériorité",
+      "explication": "Il l’a perdue avant de la retrouver."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Approfondir sa maitrise des valeurs temporelles et aspectuelles des temps simples et composés",
+      "appui": "Valeurs des temps du récit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

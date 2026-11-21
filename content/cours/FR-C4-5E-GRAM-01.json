@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-5E-GRAM-01",
+  "duree": 6,
+  "essentiel": "Une phrase a un type : déclarative, interrogative ou injonctive.\nElle a aussi des formes : affirmative ou négative, et parfois exclamative.\n« Ne parle pas si fort ! » est injonctive, négative et exclamative.",
+  "parties": [
+    {
+      "titre": "Type et formes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Analyser une phrase",
+          "colonnes": [
+            "Phrase",
+            "Type",
+            "Formes"
+          ],
+          "lignes": [
+            [
+              "Le train part à midi.",
+              "déclarative",
+              "affirmative"
+            ],
+            [
+              "Ne vient-il pas ?",
+              "interrogative",
+              "négative"
+            ],
+            [
+              "Ferme la porte !",
+              "injonctive",
+              "affirmative, exclamative"
+            ],
+            [
+              "Comme il fait froid !",
+              "déclarative",
+              "affirmative, exclamative"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« N’oublie jamais ton sac. » est :",
+          "options": [
+            "injonctive et négative",
+            "interrogative et négative",
+            "déclarative et affirmative"
+          ],
+          "reponse": "injonctive et négative",
+          "explication": "Un ordre, avec la négation ne… jamais."
+        }
+      ]
+    },
+    {
+      "titre": "L’exclamation est une forme",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On classe « Range ta chambre ! » dans un type « exclamatif ».",
+          "correction": "Le type est injonctif : c’est un ordre. Le point d’exclamation ajoute la forme exclamative."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Personne n’est venu. » est à la forme :",
+      "options": [
+        "négative",
+        "affirmative",
+        "interrogative"
+      ],
+      "reponse": "négative",
+      "explication": "Ne… personne est une négation."
+    },
+    {
+      "consigne": "« Viens-tu demain ? » est de type :",
+      "options": [
+        "interrogatif",
+        "injonctif",
+        "déclaratif"
+      ],
+      "reponse": "interrogatif",
+      "explication": "Elle pose une question."
+    },
+    {
+      "consigne": "« Quelle chance nous avons ! » est :",
+      "options": [
+        "déclarative et exclamative",
+        "injonctive",
+        "interrogative"
+      ],
+      "reponse": "déclarative et exclamative",
+      "explication": "Elle constate un fait avec émotion."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 30,
+      "extrait": "Identifier trois types de phrases et analyser leurs effets dans un texte.",
+      "appui": "Types et formes de phrases"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

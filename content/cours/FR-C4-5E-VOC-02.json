@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-5E-VOC-02",
+  "duree": 5,
+  "essentiel": "On adapte sa façon de parler à la situation : c’est le registre de langue.\nLe registre familier s’emploie entre proches ; le registre courant, dans la plupart des situations ; le registre soutenu, à l’écrit ou dans un cadre officiel.\nUne bagnole, une voiture, une automobile désignent le même objet dans trois registres.",
+  "parties": [
+    {
+      "titre": "Trois registres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un même sens",
+          "colonnes": [
+            "Familier",
+            "Courant",
+            "Soutenu"
+          ],
+          "lignes": [
+            [
+              "une bagnole",
+              "une voiture",
+              "une automobile"
+            ],
+            [
+              "un bouquin",
+              "un livre",
+              "un ouvrage"
+            ],
+            [
+              "bosser",
+              "travailler",
+              "œuvrer"
+            ],
+            [
+              "T’as vu ?",
+              "Tu as vu ?",
+              "As-tu vu ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je suis crevé » appartient au registre :",
+          "options": [
+            "familier",
+            "courant",
+            "soutenu"
+          ],
+          "reponse": "familier",
+          "explication": "En registre courant : je suis fatigué."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le bon registre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que le registre familier est une faute.",
+          "correction": "Il convient entre amis. Il est mal choisi dans une lettre officielle ou une rédaction."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans une lettre au principal, on écrit :",
+      "options": [
+        "Je vous prie de bien vouloir m’excuser.",
+        "Désolé, j’ai zappé.",
+        "Excuse, j’ai oublié."
+      ],
+      "reponse": "Je vous prie de bien vouloir m’excuser.",
+      "explication": "Le registre soutenu convient."
+    },
+    {
+      "consigne": "« Un ouvrage » appartient au registre :",
+      "options": [
+        "soutenu",
+        "familier",
+        "courant"
+      ],
+      "reponse": "soutenu",
+      "explication": "En registre courant : un livre."
+    },
+    {
+      "consigne": "« Il a pas compris » appartient au registre :",
+      "options": [
+        "familier",
+        "soutenu",
+        "courant"
+      ],
+      "reponse": "familier",
+      "explication": "Le ne de la négation manque."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 28,
+      "extrait": "Distinguer les registres de langue et les utiliser en s’ajustant au contexte, à l’écrit comme à l’oral.",
+      "appui": "Registres de langue"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

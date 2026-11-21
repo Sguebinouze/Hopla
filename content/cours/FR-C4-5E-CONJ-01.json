@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C4-5E-CONJ-01",
+  "duree": 8,
+  "essentiel": "Chaque temps simple de l’indicatif a son temps composé : l’auxiliaire est au temps simple correspondant.\nPassé simple : il chanta ; passé antérieur : il eut chanté.\nFutur : il chantera ; futur antérieur : il aura chanté.",
+  "parties": [
+    {
+      "titre": "Temps simples et temps composés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’indicatif",
+          "colonnes": [
+            "Temps simple",
+            "Exemple",
+            "Temps composé",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "présent",
+              "il chante",
+              "passé composé",
+              "il a chanté"
+            ],
+            [
+              "imparfait",
+              "il chantait",
+              "plus-que-parfait",
+              "il avait chanté"
+            ],
+            [
+              "passé simple",
+              "il chanta",
+              "passé antérieur",
+              "il eut chanté"
+            ],
+            [
+              "futur",
+              "il chantera",
+              "futur antérieur",
+              "il aura chanté"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Elle fut partie » est au :",
+          "options": [
+            "passé antérieur",
+            "plus-que-parfait",
+            "passé simple"
+          ],
+          "reponse": "passé antérieur",
+          "explication": "Auxiliaire être au passé simple, puis le participe passé."
+        }
+      ]
+    },
+    {
+      "titre": "Identifier un temps composé",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour nommer le temps",
+          "etapes": [
+            "Repère l’auxiliaire et le participe passé.",
+            "Donne le temps de l’auxiliaire seul.",
+            "Cherche le temps composé qui lui correspond."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit que « il a chanté » est au présent, car a est au présent.",
+          "correction": "L’auxiliaire est au présent, donc le verbe est au passé composé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nous aurons fini » est au :",
+      "options": [
+        "futur antérieur",
+        "futur",
+        "passé composé"
+      ],
+      "reponse": "futur antérieur",
+      "explication": "Auxiliaire au futur + participe passé."
+    },
+    {
+      "consigne": "« Ils avaient compris » est au :",
+      "options": [
+        "plus-que-parfait",
+        "passé antérieur",
+        "imparfait"
+      ],
+      "reponse": "plus-que-parfait",
+      "explication": "Auxiliaire à l’imparfait."
+    },
+    {
+      "consigne": "Le passé antérieur de « il arrive » est :",
+      "options": [
+        "il fut arrivé",
+        "il était arrivé",
+        "il sera arrivé"
+      ],
+      "reponse": "il fut arrivé",
+      "explication": "Être au passé simple : il fut."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Comprendre la morphologie des temps simples (présent, futur simple, imparfait, passé simple de l’indicatif, conditionnel et",
+      "appui": "Identifier un temps de l’indicatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

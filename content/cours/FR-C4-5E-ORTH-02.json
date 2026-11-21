@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-5E-ORTH-02",
+  "duree": 8,
+  "essentiel": "Avec être, le participe passé s’accorde avec le sujet : elles sont parties.\nAvec avoir, il s’accorde avec le COD seulement si celui-ci est placé avant : ces lettres, je les ai écrites.\nIl ne s’accorde jamais avec un COI : je leur ai écrit.",
+  "parties": [
+    {
+      "titre": "COD avant, COD après, COI",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accorder avec avoir",
+          "colonnes": [
+            "Phrase",
+            "Complément",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "J’ai écrit des lettres.",
+              "COD après",
+              "non"
+            ],
+            [
+              "Ces lettres, je les ai écrites.",
+              "COD les, avant",
+              "oui : écrites"
+            ],
+            [
+              "Les lettres que j’ai écrites…",
+              "COD que, avant",
+              "oui : écrites"
+            ],
+            [
+              "Mes amies ? Je leur ai écrit.",
+              "COI leur",
+              "non"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ses cousines, il les a … » (inviter)",
+          "options": [
+            "invitées",
+            "invité",
+            "invités"
+          ],
+          "reponse": "invitées",
+          "explication": "Les, COD placé avant, remplace cousines."
+        }
+      ]
+    },
+    {
+      "titre": "Distinguer COD et COI",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On écrit à quelqu’un : leur est COI. On écrit quelque chose : les est COD."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec leur : « Je leur ai écrits ».",
+          "correction": "Leur est un COI : le participe passé reste invariable."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les histoires qu’il a … » (raconter)",
+      "options": [
+        "racontées",
+        "raconté",
+        "racontés"
+      ],
+      "reponse": "racontées",
+      "explication": "Que, COD placé avant, remplace histoires."
+    },
+    {
+      "consigne": "« Mes parents ? Je leur ai … » (téléphoner)",
+      "options": [
+        "téléphoné",
+        "téléphonés",
+        "téléphonées"
+      ],
+      "reponse": "téléphoné",
+      "explication": "Leur est un COI."
+    },
+    {
+      "consigne": "« Elles se sont … tôt. » (lever)",
+      "options": [
+        "levées",
+        "levé",
+        "levés"
+      ],
+      "reponse": "levées",
+      "explication": "Accord avec le sujet, qui est aussi le COD se."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Justifier à l'oral ou à l'écrit l'accord du participe passé employé avec l'auxiliaire être et avec l'auxiliaire avoir (COD antéposé",
+      "appui": "Accord du participe passé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

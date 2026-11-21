@@ -1,0 +1,138 @@
+{
+  "competence": "FR-C4-5E-GRAM-03",
+  "duree": 8,
+  "essentiel": "Le sujet commande l’accord du verbe. Le COD et le COI complètent le verbe ; l’attribut suit un verbe d’état.\nLes compléments circonstanciels précisent le lieu, le temps, la cause ou la manière. On peut souvent les déplacer.\n« Le skieur descend avec prudence » : « avec prudence » est CC de manière.",
+  "parties": [
+    {
+      "titre": "Les fonctions autour du verbe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Repérer les fonctions",
+          "colonnes": [
+            "Fonction",
+            "Question",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "sujet",
+              "qui est-ce qui ?",
+              "Le skieur descend."
+            ],
+            [
+              "COD",
+              "verbe + qui ? quoi ?",
+              "Il dévale la piste."
+            ],
+            [
+              "COI",
+              "verbe + à qui ? de quoi ?",
+              "Il pense à sa course."
+            ],
+            [
+              "attribut du sujet",
+              "après un verbe d’état",
+              "Il semble confiant."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Elle reste calme », « calme » est :",
+          "options": [
+            "attribut du sujet",
+            "COD",
+            "CC de manière"
+          ],
+          "reponse": "attribut du sujet",
+          "explication": "Rester est un verbe d’état."
+        }
+      ]
+    },
+    {
+      "titre": "Les compléments circonstanciels",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quatre circonstances",
+          "colonnes": [
+            "CC",
+            "Question",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "de lieu",
+              "où ?",
+              "sur la piste"
+            ],
+            [
+              "de temps",
+              "quand ?",
+              "ce matin"
+            ],
+            [
+              "de cause",
+              "pourquoi ?",
+              "à cause du brouillard"
+            ],
+            [
+              "de manière",
+              "comment ?",
+              "avec prudence, prudemment"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend « à sa course » pour un CC de lieu.",
+          "correction": "On ne peut ni le supprimer ni le déplacer sans changer le sens : c’est un COI de penser."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Il parle doucement », « doucement » est :",
+      "options": [
+        "CC de manière",
+        "COD",
+        "attribut du sujet"
+      ],
+      "reponse": "CC de manière",
+      "explication": "Comment parle-t-il ?"
+    },
+    {
+      "consigne": "Dans « Nous rentrons à cause de l’orage », le CC est de :",
+      "options": [
+        "cause",
+        "temps",
+        "manière"
+      ],
+      "reponse": "cause",
+      "explication": "Pourquoi rentrons-nous ?"
+    },
+    {
+      "consigne": "Dans « Tom offre un livre à sa sœur », « à sa sœur » est :",
+      "options": [
+        "COI",
+        "COD",
+        "CC de lieu"
+      ],
+      "reponse": "COI",
+      "explication": "Il offre à qui ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 30,
+      "extrait": "Identifier le sujet, les compléments d’objet direct et indirect, l’attribut du sujet, les compléments circonstanciels de lieu, de",
+      "appui": "Fonctions dans la phrase"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

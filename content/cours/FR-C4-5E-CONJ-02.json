@@ -1,0 +1,142 @@
+{
+  "competence": "FR-C4-5E-CONJ-02",
+  "duree": 7,
+  "essentiel": "Le radical de certains verbes change selon la personne ou le temps.\nManger garde un e devant a et o : nous mangeons. Commencer prend une cédille : nous commençons.\nAppeler et jeter doublent la consonne : j’appelle, je jette. Acheter prend un accent : j’achète.",
+  "parties": [
+    {
+      "titre": "Verbes en -er à radical variable",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au présent",
+          "colonnes": [
+            "Verbe",
+            "je",
+            "nous"
+          ],
+          "lignes": [
+            [
+              "manger",
+              "je mange",
+              "nous mangeons"
+            ],
+            [
+              "commencer",
+              "je commence",
+              "nous commençons"
+            ],
+            [
+              "appeler",
+              "j’appelle",
+              "nous appelons"
+            ],
+            [
+              "jeter",
+              "je jette",
+              "nous jetons"
+            ],
+            [
+              "acheter",
+              "j’achète",
+              "nous achetons"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Nous … nos affaires. » (ranger, présent)",
+          "options": [
+            "rangeons",
+            "rangons",
+            "rangeont"
+          ],
+          "reponse": "rangeons",
+          "explication": "On garde le e pour que le g se prononce [ʒ]."
+        }
+      ]
+    },
+    {
+      "titre": "Verbes du 3e groupe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois radicaux au présent",
+          "colonnes": [
+            "Verbe",
+            "je",
+            "nous",
+            "ils"
+          ],
+          "lignes": [
+            [
+              "venir",
+              "je viens",
+              "nous venons",
+              "ils viennent"
+            ],
+            [
+              "prendre",
+              "je prends",
+              "nous prenons",
+              "ils prennent"
+            ],
+            [
+              "boire",
+              "je bois",
+              "nous buvons",
+              "ils boivent"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « ils prenent ».",
+          "correction": "Le n est doublé : ils prennent, comme ils viennent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Tu … ton frère. » (appeler, présent)",
+      "options": [
+        "appelles",
+        "appeles",
+        "appèles"
+      ],
+      "reponse": "appelles",
+      "explication": "Appeler double le l devant un e muet."
+    },
+    {
+      "consigne": "« Nous … la leçon. » (commencer, présent)",
+      "options": [
+        "commençons",
+        "commencons",
+        "commenceons"
+      ],
+      "reponse": "commençons",
+      "explication": "La cédille garde le son [s]."
+    },
+    {
+      "consigne": "« Ils … demain. » (venir, présent)",
+      "options": [
+        "viennent",
+        "venent",
+        "vienent"
+      ],
+      "reponse": "viennent",
+      "explication": "Radical vienn- à la 3e personne du pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Consolider la conjugaison des verbes réguliers et des principaux verbes irréguliers en fonction de la variation de leur radical.",
+      "appui": "Radicaux des verbes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,129 @@
+{
+  "competence": "FR-C4-5E-GRAM-04",
+  "duree": 7,
+  "essentiel": "Un déterminant accompagne un nom : le chat. Un pronom remplace un nom ou un groupe nominal : je le vois.\nLes pronoms personnels désignent les personnes : je, tu, il, le, lui, leur…\nLes pronoms démonstratifs montrent : celui-ci, cela. Les pronoms indéfinis restent vagues : quelqu’un, rien, chacun.",
+  "parties": [
+    {
+      "titre": "Pronom ou déterminant ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le même mot, deux classes",
+          "colonnes": [
+            "Phrase",
+            "Mot",
+            "Classe"
+          ],
+          "lignes": [
+            [
+              "Le chat dort.",
+              "le",
+              "déterminant, devant un nom"
+            ],
+            [
+              "Je le vois.",
+              "le",
+              "pronom, devant un verbe"
+            ],
+            [
+              "Leur maison est grande.",
+              "leur",
+              "déterminant"
+            ],
+            [
+              "Je leur parle.",
+              "leur",
+              "pronom"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Ces fleurs, je les arrose », « les » est :",
+          "options": [
+            "un pronom",
+            "un déterminant",
+            "un nom"
+          ],
+          "reponse": "un pronom",
+          "explication": "Il remplace « ces fleurs » devant le verbe."
+        }
+      ]
+    },
+    {
+      "titre": "Trois familles de pronoms",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pronoms",
+          "colonnes": [
+            "Famille",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "personnels",
+              "je, tu, il, nous, me, te, le, la, lui, leur, eux"
+            ],
+            [
+              "démonstratifs",
+              "celui, celle, ceux, celles, ce, ceci, cela, ça"
+            ],
+            [
+              "indéfinis",
+              "on, quelqu’un, personne, rien, chacun, tout"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je leurs parle ».",
+          "correction": "Leur pronom est invariable. Seul le déterminant prend un s : leurs livres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Chacun a reçu un cadeau », « chacun » est un pronom :",
+      "options": [
+        "indéfini",
+        "démonstratif",
+        "personnel"
+      ],
+      "reponse": "indéfini",
+      "explication": "Il désigne des personnes de façon vague."
+    },
+    {
+      "consigne": "Dans « Prends celui-ci », « celui-ci » est un pronom :",
+      "options": [
+        "démonstratif",
+        "indéfini",
+        "personnel"
+      ],
+      "reponse": "démonstratif",
+      "explication": "Il montre un objet."
+    },
+    {
+      "consigne": "Dans « La porte grince », « la » est :",
+      "options": [
+        "un déterminant",
+        "un pronom",
+        "un adverbe"
+      ],
+      "reponse": "un déterminant",
+      "explication": "Il accompagne le nom porte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo10-2026-francais-maths-c4",
+      "page": 31,
+      "extrait": "Distinguer les déterminants et les pronoms.",
+      "appui": "Déterminant ou pronom"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
