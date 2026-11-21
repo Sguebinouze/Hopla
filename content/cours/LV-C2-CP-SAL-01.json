@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CP-SAL-01",
+  "duree": 4,
+  "essentiel": "« Hello! » veut dire bonjour.\n« Goodbye! » veut dire au revoir.\nLe matin, on peut dire « Good morning! ».",
+  "parties": [
+    {
+      "titre": "Dire bonjour",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Saluer",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Hello!",
+              "Bonjour !"
+            ],
+            [
+              "Hi!",
+              "Salut !"
+            ],
+            [
+              "Good morning!",
+              "Bonjour ! (le matin)"
+            ],
+            [
+              "Goodbye! Bye!",
+              "Au revoir !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment dit-on « au revoir » ?",
+          "options": [
+            "Goodbye!",
+            "Hello!",
+            "Thank you!"
+          ],
+          "reponse": "Goodbye!",
+          "explication": "Goodbye, ou Bye."
+        }
+      ]
+    },
+    {
+      "titre": "En classe",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La maitresse dit « Hello, children! ». Les élèves répondent « Hello! »."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « Good morning » le soir.",
+          "correction": "Morning, c’est le matin. Le soir, on dit « Hello »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Hello! » veut dire :",
+      "options": [
+        "Bonjour !",
+        "Merci !",
+        "Au revoir !"
+      ],
+      "reponse": "Bonjour !",
+      "explication": "On le dit en arrivant."
+    },
+    {
+      "consigne": "« Hi! » veut dire :",
+      "options": [
+        "Salut !",
+        "Pardon !",
+        "Oui !"
+      ],
+      "reponse": "Salut !",
+      "explication": "C’est familier."
+    },
+    {
+      "consigne": "Le matin, on peut dire :",
+      "options": [
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "reponse": "Good morning!",
+      "explication": "Morning : le matin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 17,
+      "extrait": "Repérer quelques mots du champ lexical de la prise de",
+      "appui": "Saluer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

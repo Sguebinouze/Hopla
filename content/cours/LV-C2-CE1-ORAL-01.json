@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE1-ORAL-01",
+  "duree": 4,
+  "essentiel": "En classe d’anglais, on entend des consignes.\n« Stand up! » : lève-toi. « Sit down! » : assieds-toi.\n« Listen! » : écoute. « Look! » : regarde.",
+  "parties": [
+    {
+      "titre": "Les consignes de la classe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Consignes",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Listen!",
+              "Écoute !"
+            ],
+            [
+              "Look!",
+              "Regarde !"
+            ],
+            [
+              "Open your book!",
+              "Ouvre ton livre !"
+            ],
+            [
+              "Close your book!",
+              "Ferme ton livre !"
+            ],
+            [
+              "Be quiet!",
+              "Silence !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Listen! » veut dire :",
+          "options": [
+            "Écoute !",
+            "Regarde !",
+            "Écris !"
+          ],
+          "reponse": "Écoute !",
+          "explication": "Avec les oreilles."
+        }
+      ]
+    },
+    {
+      "titre": "Ouvrir, fermer",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « open » et « close ».",
+          "correction": "Open : ouvre. Close : ferme."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Close your book! » veut dire :",
+      "options": [
+        "Ferme ton livre !",
+        "Ouvre ton livre !",
+        "Lis ton livre !"
+      ],
+      "reponse": "Ferme ton livre !",
+      "explication": "Close : fermer."
+    },
+    {
+      "consigne": "« Be quiet! » veut dire :",
+      "options": [
+        "Silence !",
+        "Chante !",
+        "Viens !"
+      ],
+      "reponse": "Silence !",
+      "explication": "On ne parle plus."
+    },
+    {
+      "consigne": "« Look! » veut dire :",
+      "options": [
+        "Regarde !",
+        "Écoute !",
+        "Assieds-toi !"
+      ],
+      "reponse": "Regarde !",
+      "explication": "Avec les yeux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "ils peuvent comprendre une dizaine de consignes",
+      "appui": "Consignes de classe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

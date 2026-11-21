@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C2-CE1-NUM-01",
+  "duree": 4,
+  "essentiel": "De 11 à 20, il faut retenir chaque nombre.\nEleven, twelve, thirteen, fourteen, fifteen.\nSixteen, seventeen, eighteen, nineteen, twenty.",
+  "parties": [
+    {
+      "titre": "De 11 à 20",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les nombres",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "eleven",
+              "11"
+            ],
+            [
+              "twelve",
+              "12"
+            ],
+            [
+              "thirteen",
+              "13"
+            ],
+            [
+              "fifteen",
+              "15"
+            ],
+            [
+              "eighteen",
+              "18"
+            ],
+            [
+              "twenty",
+              "20"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Twelve » veut dire :",
+          "options": [
+            "12",
+            "20",
+            "2"
+          ],
+          "reponse": "12",
+          "explication": "Après eleven."
+        }
+      ]
+    },
+    {
+      "titre": "La fin en -teen",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "De 13 à 19, les nombres finissent par -teen : thirteen, fourteen…"
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « thirteen » et « thirty ».",
+          "correction": "Thirteen : 13. Thirty : 30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Fifteen » veut dire :",
+      "options": [
+        "15",
+        "50",
+        "5"
+      ],
+      "reponse": "15",
+      "explication": "Five + teen."
+    },
+    {
+      "consigne": "Comment dit-on 20 ?",
+      "options": [
+        "twenty",
+        "twelve",
+        "two"
+      ],
+      "reponse": "twenty",
+      "explication": "Twenty."
+    },
+    {
+      "consigne": "« Nineteen » veut dire :",
+      "options": [
+        "19",
+        "9",
+        "90"
+      ],
+      "reponse": "19",
+      "explication": "Nine + teen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les nombres.",
+      "appui": "Compter jusqu’à 20"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

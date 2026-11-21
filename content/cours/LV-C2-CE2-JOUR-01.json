@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-JOUR-01",
+  "duree": 4,
+  "essentiel": "« I get up. » : je me lève.\n« I go to school. » : je vais à l’école.\n« I go to bed. » : je vais au lit.",
+  "parties": [
+    {
+      "titre": "Ma journée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les moments de la journée",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "in the morning",
+              "le matin"
+            ],
+            [
+              "I get up.",
+              "Je me lève."
+            ],
+            [
+              "I have breakfast.",
+              "Je prends mon petit déjeuner."
+            ],
+            [
+              "I go to school.",
+              "Je vais à l’école."
+            ],
+            [
+              "in the evening",
+              "le soir"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I go to bed. » veut dire :",
+          "options": [
+            "Je vais au lit.",
+            "Je me lève.",
+            "Je vais à l’école."
+          ],
+          "reponse": "Je vais au lit.",
+          "explication": "Bed : lit."
+        }
+      ]
+    },
+    {
+      "titre": "Dans l’ordre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « get up » et « go to bed ».",
+          "correction": "Get up : se lever, le matin. Go to bed : se coucher, le soir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I get up. » veut dire :",
+      "options": [
+        "Je me lève.",
+        "Je me couche.",
+        "Je mange."
+      ],
+      "reponse": "Je me lève.",
+      "explication": "Le matin."
+    },
+    {
+      "consigne": "« Breakfast » veut dire :",
+      "options": [
+        "le petit déjeuner",
+        "le diner",
+        "le gouter"
+      ],
+      "reponse": "le petit déjeuner",
+      "explication": "Le premier repas."
+    },
+    {
+      "consigne": "« In the evening » veut dire :",
+      "options": [
+        "le soir",
+        "le matin",
+        "à midi"
+      ],
+      "reponse": "le soir",
+      "explication": "Après l’école."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "L’organisation de la journée.",
+      "appui": "Ma journée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

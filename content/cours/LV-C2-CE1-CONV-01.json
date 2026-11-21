@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C2-CE1-CONV-01",
+  "duree": 4,
+  "essentiel": "« How are you? » : comment vas-tu ?\n« I’m fine, thank you. » : je vais bien, merci.\nPour partir, on dit « Goodbye! » ou « See you! ».",
+  "parties": [
+    {
+      "titre": "Demander des nouvelles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Petite conversation",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "How are you?",
+              "Comment vas-tu ?"
+            ],
+            [
+              "I’m fine, thank you.",
+              "Je vais bien, merci."
+            ],
+            [
+              "Thank you!",
+              "Merci !"
+            ],
+            [
+              "See you!",
+              "À bientôt !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« How are you? » veut dire :",
+          "options": [
+            "Comment vas-tu ?",
+            "Quel âge as-tu ?",
+            "Où habites-tu ?"
+          ],
+          "reponse": "Comment vas-tu ?",
+          "explication": "On demande des nouvelles."
+        }
+      ]
+    },
+    {
+      "titre": "Répondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On répond « I’m six » à « How are you? ».",
+          "correction": "On dit comment on va : I’m fine."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Thank you! » veut dire :",
+      "options": [
+        "Merci !",
+        "Bonjour !",
+        "Pardon !"
+      ],
+      "reponse": "Merci !",
+      "explication": "Pour remercier."
+    },
+    {
+      "consigne": "« I’m fine. » veut dire :",
+      "options": [
+        "Je vais bien.",
+        "Je suis triste.",
+        "J’ai faim."
+      ],
+      "reponse": "Je vais bien.",
+      "explication": "Fine : bien."
+    },
+    {
+      "consigne": "« See you! » veut dire :",
+      "options": [
+        "À bientôt !",
+        "Regarde !",
+        "Bonjour !"
+      ],
+      "reponse": "À bientôt !",
+      "explication": "Pour partir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 54,
+      "extrait": "Au CE1, ils commencent à dialoguer en demandant des nouvelles et en réagissant.",
+      "appui": "Saluer, demander des nouvelles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

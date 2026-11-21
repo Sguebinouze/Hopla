@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE1-VOC-01",
+  "duree": 4,
+  "essentiel": "On reconnait des mots familiers en anglais.\nDes couleurs : red, blue. Des nombres : one, two.\nDe la famille : mum, dad. Des animaux : cat, dog.",
+  "parties": [
+    {
+      "titre": "Quatre familles de mots",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trier les mots",
+          "colonnes": [
+            "Couleurs",
+            "Nombres",
+            "Famille",
+            "Animaux"
+          ],
+          "lignes": [
+            [
+              "red",
+              "one",
+              "mum",
+              "cat"
+            ],
+            [
+              "blue",
+              "two",
+              "dad",
+              "dog"
+            ],
+            [
+              "green",
+              "three",
+              "sister",
+              "bird"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Red » veut dire :",
+          "options": [
+            "rouge",
+            "lit",
+            "roue"
+          ],
+          "reponse": "rouge",
+          "explication": "Une couleur."
+        }
+      ]
+    },
+    {
+      "titre": "Bien écouter",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un mot anglais se lit comme en français.",
+          "correction": "On écoute d’abord le mot. Sa prononciation est souvent différente."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Dog » est :",
+      "options": [
+        "un animal",
+        "une couleur",
+        "un nombre"
+      ],
+      "reponse": "un animal",
+      "explication": "Un chien."
+    },
+    {
+      "consigne": "« Two » est :",
+      "options": [
+        "un nombre",
+        "un animal",
+        "une couleur"
+      ],
+      "reponse": "un nombre",
+      "explication": "2."
+    },
+    {
+      "consigne": "« Mum » fait partie de :",
+      "options": [
+        "la famille",
+        "des couleurs",
+        "des animaux"
+      ],
+      "reponse": "la famille",
+      "explication": "Maman."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Utiliser quelques mots familiers et quelques expressions très courantes.",
+      "appui": "Premiers mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

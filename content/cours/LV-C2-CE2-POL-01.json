@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-POL-01",
+  "duree": 4,
+  "essentiel": "« Sorry! » : pardon.\n« That’s OK. » : ce n’est pas grave.\n« Please » et « thank you » rendent une demande polie.",
+  "parties": [
+    {
+      "titre": "S’excuser",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Politesse",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Sorry!",
+              "Pardon !"
+            ],
+            [
+              "That’s OK.",
+              "Ce n’est pas grave."
+            ],
+            [
+              "Excuse me.",
+              "Excusez-moi."
+            ],
+            [
+              "You’re welcome.",
+              "De rien."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Tu bouscules quelqu’un. Tu dis :",
+          "options": [
+            "Sorry!",
+            "Hello!",
+            "Yes!"
+          ],
+          "reponse": "Sorry!",
+          "explication": "Pour s’excuser."
+        }
+      ]
+    },
+    {
+      "titre": "Répondre",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Thank you! » « You’re welcome. » : merci, de rien."
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « Thank you » à « Thank you ».",
+          "correction": "On répond « You’re welcome » : de rien."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« You’re welcome. » veut dire :",
+      "options": [
+        "De rien.",
+        "Bienvenue chez moi.",
+        "Merci."
+      ],
+      "reponse": "De rien.",
+      "explication": "Après un merci."
+    },
+    {
+      "consigne": "« That’s OK. » veut dire :",
+      "options": [
+        "Ce n’est pas grave.",
+        "C’est fini.",
+        "C’est l’heure."
+      ],
+      "reponse": "Ce n’est pas grave.",
+      "explication": "On accepte l’excuse."
+    },
+    {
+      "consigne": "Pour demander pardon à un adulte, on dit :",
+      "options": [
+        "Excuse me.",
+        "Bye!",
+        "Look!"
+      ],
+      "reponse": "Excuse me.",
+      "explication": "Excuse me."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 54,
+      "extrait": "d’utiliser des formules simples de politesse, de présenter des excuses,",
+      "appui": "Politesse et excuses"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,98 @@
+{
+  "competence": "LV-C2-CP-GOUT-01",
+  "duree": 4,
+  "essentiel": "« I like » veut dire j’aime.\n« I don’t like » veut dire je n’aime pas.\n« I like apples. » : j’aime les pommes.",
+  "parties": [
+    {
+      "titre": "J’aime",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mes gouts",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I like apples.",
+              "J’aime les pommes."
+            ],
+            [
+              "I like cats.",
+              "J’aime les chats."
+            ],
+            [
+              "I don’t like carrots.",
+              "Je n’aime pas les carottes."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I like bananas. » veut dire :",
+          "options": [
+            "J’aime les bananes.",
+            "Je n’aime pas les bananes.",
+            "Je mange une banane."
+          ],
+          "reponse": "J’aime les bananes.",
+          "explication": "I like : j’aime."
+        }
+      ]
+    },
+    {
+      "titre": "Je n’aime pas",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « I like » et « I don’t like ».",
+          "correction": "Don’t ajoute la négation : je n’aime pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I don’t like milk. » veut dire :",
+      "options": [
+        "Je n’aime pas le lait.",
+        "J’aime le lait.",
+        "Je bois du lait."
+      ],
+      "reponse": "Je n’aime pas le lait.",
+      "explication": "Don’t : la négation."
+    },
+    {
+      "consigne": "Pour dire « j’aime les chats », on dit :",
+      "options": [
+        "I like cats.",
+        "I don’t like cats.",
+        "Where is the cat?"
+      ],
+      "reponse": "I like cats.",
+      "explication": "I like."
+    },
+    {
+      "consigne": "« I like » veut dire :",
+      "options": [
+        "j’aime",
+        "je veux",
+        "je vois"
+      ],
+      "reponse": "j’aime",
+      "explication": "Pour ses gouts."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 18,
+      "extrait": "Identifier les verbes permettant d’exprimer le gout et le",
+      "appui": "J’aime, je n’aime pas"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

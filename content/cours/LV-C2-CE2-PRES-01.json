@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-PRES-01",
+  "duree": 4,
+  "essentiel": "« This is my friend Sam. » : voici mon ami Sam.\n« He is nine. » : il a neuf ans. Pour une fille, on dit « she ».\n« She lives in Lille. » : elle habite à Lille.",
+  "parties": [
+    {
+      "titre": "Présenter quelqu’un",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "He et she",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "This is my friend Sam.",
+              "Voici mon ami Sam."
+            ],
+            [
+              "He is nine.",
+              "Il a neuf ans."
+            ],
+            [
+              "This is my sister Lou.",
+              "Voici ma sœur Lou."
+            ],
+            [
+              "She is six.",
+              "Elle a six ans."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour présenter une fille, on dit :",
+          "options": [
+            "She is…",
+            "He is…",
+            "I am…"
+          ],
+          "reponse": "She is…",
+          "explication": "She : elle."
+        }
+      ]
+    },
+    {
+      "titre": "Le -s de lives",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "I live, mais he lives, she lives : on ajoute un s."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « he are nine ».",
+          "correction": "Avec he ou she, on dit « is » : he is nine."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« He is ten. » veut dire :",
+      "options": [
+        "Il a dix ans.",
+        "Elle a dix ans.",
+        "J’ai dix ans."
+      ],
+      "reponse": "Il a dix ans.",
+      "explication": "He : il."
+    },
+    {
+      "consigne": "Complète : « She … in Paris. »",
+      "options": [
+        "lives",
+        "live",
+        "living"
+      ],
+      "reponse": "lives",
+      "explication": "Avec she, on ajoute un s."
+    },
+    {
+      "consigne": "« This is my friend. » veut dire :",
+      "options": [
+        "Voici mon ami.",
+        "J’ai un ami.",
+        "Mon ami est là-bas."
+      ],
+      "reponse": "Voici mon ami.",
+      "explication": "This is : voici."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "se présentent ou présentent quelqu'un, posent à une personne des questions simples la",
+      "appui": "Présenter quelqu’un"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

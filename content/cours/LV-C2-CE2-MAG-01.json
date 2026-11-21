@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CE2-MAG-01",
+  "duree": 4,
+  "essentiel": "Des lieux de la ville : the bakery, the park, the library.\n« How much is it? » : combien ça coute ?\n« It’s two pounds. » : ça coute deux livres.",
+  "parties": [
+    {
+      "titre": "Les lieux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En ville",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "the bakery",
+              "la boulangerie"
+            ],
+            [
+              "the park",
+              "le parc"
+            ],
+            [
+              "the library",
+              "la bibliothèque"
+            ],
+            [
+              "the supermarket",
+              "le supermarché"
+            ],
+            [
+              "the post office",
+              "la poste"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The bakery » veut dire :",
+          "options": [
+            "la boulangerie",
+            "la bibliothèque",
+            "le parc"
+          ],
+          "reponse": "la boulangerie",
+          "explication": "On y achète du pain."
+        }
+      ]
+    },
+    {
+      "titre": "Demander un prix",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« How much is the cake? » « It’s three pounds. » : il coute trois livres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « library » veut dire librairie.",
+          "correction": "Library : bibliothèque. Une librairie se dit « bookshop »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« How much is it? » veut dire :",
+      "options": [
+        "Combien ça coute ?",
+        "Où est-ce ?",
+        "Qu’est-ce que c’est ?"
+      ],
+      "reponse": "Combien ça coute ?",
+      "explication": "Pour un prix."
+    },
+    {
+      "consigne": "« The library » veut dire :",
+      "options": [
+        "la bibliothèque",
+        "la librairie",
+        "la boulangerie"
+      ],
+      "reponse": "la bibliothèque",
+      "explication": "On y emprunte des livres."
+    },
+    {
+      "consigne": "« The park » veut dire :",
+      "options": [
+        "le parc",
+        "la poste",
+        "le parking"
+      ],
+      "reponse": "le parc",
+      "explication": "Avec des arbres et des jeux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "les lieux publics.",
+      "appui": "Au magasin"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,97 @@
+{
+  "competence": "LV-C2-CE2-DRAP-01",
+  "duree": 4,
+  "essentiel": "Le drapeau du Royaume-Uni s’appelle l’Union Jack.\nAu Royaume-Uni, on paie en livres : the pound.\nAux États-Unis, on paie en dollars : the dollar.",
+  "parties": [
+    {
+      "titre": "Drapeaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux pays",
+          "colonnes": [
+            "Pays",
+            "Drapeau",
+            "Monnaie"
+          ],
+          "lignes": [
+            [
+              "Royaume-Uni",
+              "Union Jack : bleu, blanc, rouge, avec des croix",
+              "pound"
+            ],
+            [
+              "États-Unis",
+              "Stars and Stripes : étoiles et bandes",
+              "dollar"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le drapeau américain a :",
+          "options": [
+            "des étoiles et des bandes",
+            "une feuille d’érable",
+            "trois bandes verticales"
+          ],
+          "reponse": "des étoiles et des bandes",
+          "explication": "Stars and Stripes."
+        }
+      ]
+    },
+    {
+      "titre": "Monnaies",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on paie en euros à Londres.",
+          "correction": "Au Royaume-Uni, on paie en livres sterling."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Aux États-Unis, on paie en :",
+      "options": [
+        "dollars",
+        "livres",
+        "euros"
+      ],
+      "reponse": "dollars",
+      "explication": "The dollar."
+    },
+    {
+      "consigne": "Le drapeau du Royaume-Uni s’appelle :",
+      "options": [
+        "l’Union Jack",
+        "Stars and Stripes",
+        "le tricolore"
+      ],
+      "reponse": "l’Union Jack",
+      "explication": "Avec des croix."
+    },
+    {
+      "consigne": "« Pound » veut dire :",
+      "options": [
+        "livre, la monnaie",
+        "dollar",
+        "euro"
+      ],
+      "reponse": "livre, la monnaie",
+      "explication": "Au Royaume-Uni."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les drapeaux et monnaies.",
+      "appui": "Drapeaux et monnaies"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

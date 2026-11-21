@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CE2-ECOLE-01",
+  "duree": 4,
+  "essentiel": "Les objets de la classe : a pencil, a rubber, a ruler.\nLe cartable : a schoolbag.\n« Take your ruler! » : prends ta règle !",
+  "parties": [
+    {
+      "titre": "Ma trousse",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Objets de la classe",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a pencil",
+              "un crayon"
+            ],
+            [
+              "a pen",
+              "un stylo"
+            ],
+            [
+              "a rubber",
+              "une gomme"
+            ],
+            [
+              "a ruler",
+              "une règle"
+            ],
+            [
+              "a schoolbag",
+              "un cartable"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A ruler » veut dire :",
+          "options": [
+            "une règle",
+            "une gomme",
+            "un crayon"
+          ],
+          "reponse": "une règle",
+          "explication": "Pour tracer droit."
+        }
+      ]
+    },
+    {
+      "titre": "Des consignes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Take your pencil! » : prends ton crayon. « Put it in your schoolbag! » : mets-le dans ton cartable."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « pen » et « pencil ».",
+          "correction": "Pen : stylo. Pencil : crayon."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« A rubber » veut dire :",
+      "options": [
+        "une gomme",
+        "une règle",
+        "un stylo"
+      ],
+      "reponse": "une gomme",
+      "explication": "Pour effacer."
+    },
+    {
+      "consigne": "« A schoolbag » veut dire :",
+      "options": [
+        "un cartable",
+        "une trousse",
+        "un livre"
+      ],
+      "reponse": "un cartable",
+      "explication": "On y range ses affaires."
+    },
+    {
+      "consigne": "« A pen » veut dire :",
+      "options": [
+        "un stylo",
+        "un crayon",
+        "une gomme"
+      ],
+      "reponse": "un stylo",
+      "explication": "Il écrit à l’encre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les activités scolaires.",
+      "appui": "Les objets de la classe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

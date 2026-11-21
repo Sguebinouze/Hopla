@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C2-CE2-EPEL-01",
+  "duree": 5,
+  "essentiel": "L’alphabet anglais a les mêmes lettres, mais elles se disent autrement.\nPour épeler, on dit chaque lettre : « Tom : T-O-M. »\n« How do you spell it? » : comment ça s’écrit ?",
+  "parties": [
+    {
+      "titre": "Des lettres pièges",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Lettres qui sonnent différemment",
+          "colonnes": [
+            "Lettre",
+            "Se dit à peu près"
+          ],
+          "lignes": [
+            [
+              "A",
+              "éï"
+            ],
+            [
+              "E",
+              "i"
+            ],
+            [
+              "I",
+              "aï"
+            ],
+            [
+              "J",
+              "djéï"
+            ],
+            [
+              "G",
+              "dji"
+            ],
+            [
+              "R",
+              "ar"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La lettre I se dit à peu près :",
+          "options": [
+            "aï",
+            "i",
+            "é"
+          ],
+          "reponse": "aï",
+          "explication": "Comme dans « I like »."
+        }
+      ]
+    },
+    {
+      "titre": "Épeler son prénom",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« My name is Léa. L-E-A. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond les lettres E et I.",
+          "correction": "E se dit « i ». I se dit « aï »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« How do you spell it? » veut dire :",
+      "options": [
+        "Comment ça s’écrit ?",
+        "Comment tu vas ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Comment ça s’écrit ?",
+      "explication": "Spell : épeler."
+    },
+    {
+      "consigne": "La lettre E se dit à peu près :",
+      "options": [
+        "i",
+        "eu",
+        "aï"
+      ],
+      "reponse": "i",
+      "explication": "Comme dans « tea »."
+    },
+    {
+      "consigne": "C-A-T s’écrit :",
+      "options": [
+        "cat",
+        "kat",
+        "cate"
+      ],
+      "reponse": "cat",
+      "explication": "Un chat."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 54,
+      "extrait": "d’épeler des mots simples et transparents et de répondre à quelques questions pour",
+      "appui": "Épeler"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

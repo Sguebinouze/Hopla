@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C2-CP-COUL-01",
+  "duree": 4,
+  "essentiel": "Les couleurs : red, blue, green, yellow.\nEn anglais, la couleur se place avant le nom.\n« A red apple » : une pomme rouge.",
+  "parties": [
+    {
+      "titre": "Les couleurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Couleurs",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "red",
+              "rouge"
+            ],
+            [
+              "blue",
+              "bleu"
+            ],
+            [
+              "green",
+              "vert"
+            ],
+            [
+              "yellow",
+              "jaune"
+            ],
+            [
+              "black",
+              "noir"
+            ],
+            [
+              "white",
+              "blanc"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Yellow » veut dire :",
+          "options": [
+            "jaune",
+            "vert",
+            "bleu"
+          ],
+          "reponse": "jaune",
+          "explication": "Comme le soleil."
+        }
+      ]
+    },
+    {
+      "titre": "Avant le nom",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« A yellow sun » : un soleil jaune. La couleur vient avant."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « an apple red ».",
+          "correction": "La couleur vient avant le nom : a red apple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« A blue car » veut dire :",
+      "options": [
+        "une voiture bleue",
+        "une voiture rouge",
+        "un ciel bleu"
+      ],
+      "reponse": "une voiture bleue",
+      "explication": "Blue : bleu."
+    },
+    {
+      "consigne": "Comment dit-on « vert » ?",
+      "options": [
+        "green",
+        "red",
+        "white"
+      ],
+      "reponse": "green",
+      "explication": "Comme l’herbe."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "a black cat",
+        "a cat black",
+        "black a cat"
+      ],
+      "reponse": "a black cat",
+      "explication": "La couleur avant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 25,
+      "extrait": "il peut décrire très brièvement des personnes, des objets ou des animaux familiers",
+      "appui": "Les couleurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

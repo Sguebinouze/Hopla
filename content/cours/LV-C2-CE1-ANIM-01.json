@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CE1-ANIM-01",
+  "duree": 4,
+  "essentiel": "Des animaux familiers : a cat, a dog, a bird.\nD’autres : a fish, a rabbit, a mouse.\n« I have got a dog. » : j’ai un chien.",
+  "parties": [
+    {
+      "titre": "Nommer les animaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les animaux",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a cat",
+              "un chat"
+            ],
+            [
+              "a dog",
+              "un chien"
+            ],
+            [
+              "a mouse",
+              "une souris"
+            ],
+            [
+              "a horse",
+              "un cheval"
+            ],
+            [
+              "a cow",
+              "une vache"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A horse » veut dire :",
+          "options": [
+            "un cheval",
+            "une maison",
+            "une vache"
+          ],
+          "reponse": "un cheval",
+          "explication": "On peut le monter."
+        }
+      ]
+    },
+    {
+      "titre": "Avoir un animal",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« I have got a cat. » : j’ai un chat."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « mouse » et « house ».",
+          "correction": "Mouse : souris. House : maison."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« A mouse » veut dire :",
+      "options": [
+        "une souris",
+        "une maison",
+        "un oiseau"
+      ],
+      "reponse": "une souris",
+      "explication": "Elle est petite."
+    },
+    {
+      "consigne": "« A cow » veut dire :",
+      "options": [
+        "une vache",
+        "un chat",
+        "un cochon"
+      ],
+      "reponse": "une vache",
+      "explication": "Elle donne du lait."
+    },
+    {
+      "consigne": "« I have got a fish. » veut dire :",
+      "options": [
+        "J’ai un poisson.",
+        "Je mange un poisson.",
+        "Je vois un poisson."
+      ],
+      "reponse": "J’ai un poisson.",
+      "explication": "Have got : avoir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les animaux.",
+      "appui": "Les animaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

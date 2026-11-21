@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CP-FAM-01",
+  "duree": 4,
+  "essentiel": "« This is my mum. » : voici ma maman.\nLa famille : mum, dad, brother, sister.\nOn présente sa famille avec « This is my… ».",
+  "parties": [
+    {
+      "titre": "Ma famille",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La famille",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "mum",
+              "maman"
+            ],
+            [
+              "dad",
+              "papa"
+            ],
+            [
+              "brother",
+              "frère"
+            ],
+            [
+              "sister",
+              "sœur"
+            ],
+            [
+              "grandma",
+              "mamie"
+            ],
+            [
+              "grandpa",
+              "papi"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« This is my sister. » veut dire :",
+          "options": [
+            "Voici ma sœur.",
+            "Voici mon frère.",
+            "Voici ma maman."
+          ],
+          "reponse": "Voici ma sœur.",
+          "explication": "Sister : sœur."
+        }
+      ]
+    },
+    {
+      "titre": "Présenter",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « brother » et « sister ».",
+          "correction": "Brother : frère. Sister : sœur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Dad » veut dire :",
+      "options": [
+        "papa",
+        "maman",
+        "frère"
+      ],
+      "reponse": "papa",
+      "explication": "Le père."
+    },
+    {
+      "consigne": "Pour présenter ton frère, tu dis :",
+      "options": [
+        "This is my brother.",
+        "This is my sister.",
+        "This is my dad."
+      ],
+      "reponse": "This is my brother.",
+      "explication": "Brother : frère."
+    },
+    {
+      "consigne": "« Grandma » veut dire :",
+      "options": [
+        "mamie",
+        "papi",
+        "tante"
+      ],
+      "reponse": "mamie",
+      "explication": "La grand-mère."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 14,
+      "extrait": "Échanger des informations simples",
+      "appui": "Ma famille"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

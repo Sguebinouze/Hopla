@@ -1,0 +1,124 @@
+{
+  "competence": "LV-C2-CE2-DATE-01",
+  "duree": 5,
+  "essentiel": "Les jours de la semaine prennent une majuscule en anglais.\n« Today is Monday. » : aujourd’hui, c’est lundi.\n« The third of May » : le trois mai.",
+  "parties": [
+    {
+      "titre": "Les jours",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La semaine",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Monday",
+              "lundi"
+            ],
+            [
+              "Tuesday",
+              "mardi"
+            ],
+            [
+              "Wednesday",
+              "mercredi"
+            ],
+            [
+              "Thursday",
+              "jeudi"
+            ],
+            [
+              "Friday",
+              "vendredi"
+            ],
+            [
+              "Saturday",
+              "samedi"
+            ],
+            [
+              "Sunday",
+              "dimanche"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Friday » veut dire :",
+          "options": [
+            "vendredi",
+            "samedi",
+            "lundi"
+          ],
+          "reponse": "vendredi",
+          "explication": "Avant le week-end."
+        }
+      ]
+    },
+    {
+      "titre": "Les mois",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des mois.",
+          "exemples": [
+            "January : janvier",
+            "May : mai",
+            "July : juillet",
+            "December : décembre"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit les jours sans majuscule : monday.",
+          "correction": "En anglais, jours et mois prennent une majuscule : Monday, May."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Sunday » veut dire :",
+      "options": [
+        "dimanche",
+        "samedi",
+        "lundi"
+      ],
+      "reponse": "dimanche",
+      "explication": "Le dernier jour de la semaine."
+    },
+    {
+      "consigne": "Comment dit-on « mercredi » ?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Tuesday"
+      ],
+      "reponse": "Wednesday",
+      "explication": "Le jour sans école en France."
+    },
+    {
+      "consigne": "« Today is Tuesday. » veut dire :",
+      "options": [
+        "Aujourd’hui, c’est mardi.",
+        "Demain, c’est mardi.",
+        "Hier, c’était mardi."
+      ],
+      "reponse": "Aujourd’hui, c’est mardi.",
+      "explication": "Today : aujourd’hui."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 54,
+      "extrait": "Au CE2, ils reproduisent la date, de courtes comptines, des chants, des poèmes.",
+      "appui": "La date"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

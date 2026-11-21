@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CP-CORPS-01",
+  "duree": 4,
+  "essentiel": "« Head » veut dire tête.\nLa comptine « Head, Shoulders, Knees and Toes » nomme les parties du corps.\nOn touche chaque partie en chantant.",
+  "parties": [
+    {
+      "titre": "Les parties du corps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le corps",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "head",
+              "tête"
+            ],
+            [
+              "shoulders",
+              "épaules"
+            ],
+            [
+              "knees",
+              "genoux"
+            ],
+            [
+              "toes",
+              "orteils"
+            ],
+            [
+              "eyes",
+              "yeux"
+            ],
+            [
+              "nose",
+              "nez"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Knees » veut dire :",
+          "options": [
+            "genoux",
+            "épaules",
+            "yeux"
+          ],
+          "reponse": "genoux",
+          "explication": "On les touche en chantant."
+        }
+      ]
+    },
+    {
+      "titre": "Chanter et toucher",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que « toes » veut dire doigts.",
+          "correction": "Toes : orteils, les doigts de pied."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Head » veut dire :",
+      "options": [
+        "tête",
+        "main",
+        "pied"
+      ],
+      "reponse": "tête",
+      "explication": "En haut du corps."
+    },
+    {
+      "consigne": "« Nose » veut dire :",
+      "options": [
+        "nez",
+        "bouche",
+        "oreille"
+      ],
+      "reponse": "nez",
+      "explication": "Au milieu du visage."
+    },
+    {
+      "consigne": "« Eyes » veut dire :",
+      "options": [
+        "yeux",
+        "oreilles",
+        "genoux"
+      ],
+      "reponse": "yeux",
+      "explication": "Pour voir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 19,
+      "extrait": "Reconnaitre les mots familiers pour parler de soi, de sa",
+      "appui": "Les parties du corps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

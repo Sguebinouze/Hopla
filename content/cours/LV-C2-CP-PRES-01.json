@@ -1,0 +1,98 @@
+{
+  "competence": "LV-C2-CP-PRES-01",
+  "duree": 4,
+  "essentiel": "« I’m six. » veut dire j’ai six ans.\n« My favourite colour is green. » : ma couleur préférée est le vert.\n« I like cats. » : j’aime les chats.",
+  "parties": [
+    {
+      "titre": "Parler de moi",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Me présenter",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I’m six.",
+              "J’ai six ans."
+            ],
+            [
+              "My favourite colour is blue.",
+              "Ma couleur préférée est le bleu."
+            ],
+            [
+              "I like dogs.",
+              "J’aime les chiens."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I’m seven. » veut dire :",
+          "options": [
+            "J’ai sept ans.",
+            "Je suis le septième.",
+            "J’aime le sept."
+          ],
+          "reponse": "J’ai sept ans.",
+          "explication": "On dit son âge."
+        }
+      ]
+    },
+    {
+      "titre": "L’âge",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On traduit mot à mot : « I have six ».",
+          "correction": "En anglais, on dit « I’m six » : je suis six."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour dire « j’ai six ans », on dit :",
+      "options": [
+        "I’m six.",
+        "I have six.",
+        "I like six."
+      ],
+      "reponse": "I’m six.",
+      "explication": "Avec I’m."
+    },
+    {
+      "consigne": "« My favourite colour is red. » veut dire :",
+      "options": [
+        "Ma couleur préférée est le rouge.",
+        "J’ai une voiture rouge.",
+        "Je n’aime pas le rouge."
+      ],
+      "reponse": "Ma couleur préférée est le rouge.",
+      "explication": "Favourite : préféré."
+    },
+    {
+      "consigne": "« Favourite » veut dire :",
+      "options": [
+        "préféré",
+        "couleur",
+        "joli"
+      ],
+      "reponse": "préféré",
+      "explication": "Ce qu’on aime le plus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 25,
+      "extrait": "Parler de soi ou de son environnement familier en",
+      "appui": "Parler de soi"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

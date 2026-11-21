@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-METEO-01",
+  "duree": 4,
+  "essentiel": "« What’s the weather like? » : quel temps fait-il ?\n« It’s sunny. » : il fait soleil.\n« It’s raining. » : il pleut.",
+  "parties": [
+    {
+      "titre": "Le temps qu’il fait",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La météo",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "It’s sunny.",
+              "Il fait soleil."
+            ],
+            [
+              "It’s raining.",
+              "Il pleut."
+            ],
+            [
+              "It’s cold.",
+              "Il fait froid."
+            ],
+            [
+              "It’s hot.",
+              "Il fait chaud."
+            ],
+            [
+              "It’s windy.",
+              "Il y a du vent."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« It’s cold. » veut dire :",
+          "options": [
+            "Il fait froid.",
+            "Il fait chaud.",
+            "Il pleut."
+          ],
+          "reponse": "Il fait froid.",
+          "explication": "On met un manteau."
+        }
+      ]
+    },
+    {
+      "titre": "Dire « il fait »",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On traduit « il fait » par « he makes ».",
+          "correction": "Pour la météo, on dit « It’s… » : it’s sunny."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« It’s windy. » veut dire :",
+      "options": [
+        "Il y a du vent.",
+        "Il neige.",
+        "Il fait chaud."
+      ],
+      "reponse": "Il y a du vent.",
+      "explication": "Wind : vent."
+    },
+    {
+      "consigne": "Il pleut. On dit :",
+      "options": [
+        "It’s raining.",
+        "It’s sunny.",
+        "It’s hot."
+      ],
+      "reponse": "It’s raining.",
+      "explication": "Rain : pluie."
+    },
+    {
+      "consigne": "« It’s hot. » veut dire :",
+      "options": [
+        "Il fait chaud.",
+        "Il fait froid.",
+        "Il pleut."
+      ],
+      "reponse": "Il fait chaud.",
+      "explication": "L’été."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Climat et météo.",
+      "appui": "La météo"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

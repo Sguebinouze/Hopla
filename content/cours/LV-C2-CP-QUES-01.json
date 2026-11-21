@@ -1,0 +1,107 @@
+{
+  "competence": "LV-C2-CP-QUES-01",
+  "duree": 4,
+  "essentiel": "« Who? » veut dire qui ?\n« What? » veut dire quoi ? « Where? » veut dire où ?\n« Where is the cat? » : où est le chat ?",
+  "parties": [
+    {
+      "titre": "Trois mots de question",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Who?",
+              "Qui ?"
+            ],
+            [
+              "What?",
+              "Quoi ? Qu’est-ce que ?"
+            ],
+            [
+              "Where?",
+              "Où ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Where is the dog? » veut dire :",
+          "options": [
+            "Où est le chien ?",
+            "Qui est le chien ?",
+            "C’est un chien ?"
+          ],
+          "reponse": "Où est le chien ?",
+          "explication": "Where : où."
+        }
+      ]
+    },
+    {
+      "titre": "Écouter la question",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des questions.",
+          "exemples": [
+            "Who is it? : qui est-ce ?",
+            "What is it? : qu’est-ce que c’est ?",
+            "Where is Tom? : où est Tom ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « who » et « where ».",
+          "correction": "Who : qui. Where : où."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Who? » veut dire :",
+      "options": [
+        "Qui ?",
+        "Où ?",
+        "Quoi ?"
+      ],
+      "reponse": "Qui ?",
+      "explication": "Pour une personne."
+    },
+    {
+      "consigne": "« What is it? » veut dire :",
+      "options": [
+        "Qu’est-ce que c’est ?",
+        "Où est-ce ?",
+        "Qui est-ce ?"
+      ],
+      "reponse": "Qu’est-ce que c’est ?",
+      "explication": "What : quoi."
+    },
+    {
+      "consigne": "Pour demander où est le chat, on dit :",
+      "options": [
+        "Where is the cat?",
+        "Who is the cat?",
+        "What is the cat?"
+      ],
+      "reponse": "Where is the cat?",
+      "explication": "Where : où."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 17,
+      "extrait": "Reconnaitre les pronoms interrogatifs usuels",
+      "appui": "Qui, quoi, où ?"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,130 @@
+{
+  "competence": "LV-C2-CP-NOMB-01",
+  "duree": 4,
+  "essentiel": "On compte de 1 à 10 en anglais.\nOne, two, three, four, five.\nSix, seven, eight, nine, ten.",
+  "parties": [
+    {
+      "titre": "De 1 à 10",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les nombres",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "one",
+              "1"
+            ],
+            [
+              "two",
+              "2"
+            ],
+            [
+              "three",
+              "3"
+            ],
+            [
+              "four",
+              "4"
+            ],
+            [
+              "five",
+              "5"
+            ],
+            [
+              "six",
+              "6"
+            ],
+            [
+              "seven",
+              "7"
+            ],
+            [
+              "eight",
+              "8"
+            ],
+            [
+              "nine",
+              "9"
+            ],
+            [
+              "ten",
+              "10"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Three » veut dire :",
+          "options": [
+            "3",
+            "2",
+            "10"
+          ],
+          "reponse": "3",
+          "explication": "One, two, three."
+        }
+      ]
+    },
+    {
+      "titre": "Une comptine",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« One, two, buckle my shoe » aide à retenir les nombres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « two » et « ten ».",
+          "correction": "Two : 2. Ten : 10."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Five » veut dire :",
+      "options": [
+        "5",
+        "4",
+        "9"
+      ],
+      "reponse": "5",
+      "explication": "One, two, three, four, five."
+    },
+    {
+      "consigne": "Comment dit-on 8 ?",
+      "options": [
+        "eight",
+        "six",
+        "nine"
+      ],
+      "reponse": "eight",
+      "explication": "Seven, eight, nine."
+    },
+    {
+      "consigne": "« Ten » veut dire :",
+      "options": [
+        "10",
+        "2",
+        "7"
+      ],
+      "reponse": "10",
+      "explication": "Le dernier nombre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 18,
+      "extrait": "Reconnaitre certaines lettres de l’alphabet et les chiffres.",
+      "appui": "Les nombres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CP-ACT-01",
+  "duree": 4,
+  "essentiel": "Une consigne dit ce qu’il faut faire.\n« Clap your hands! » : on tape dans ses mains.\nDans « Simon says », on obéit seulement si Simon le dit.",
+  "parties": [
+    {
+      "titre": "Des consignes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Agir",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Clap your hands!",
+              "Tape dans tes mains !"
+            ],
+            [
+              "Jump!",
+              "Saute !"
+            ],
+            [
+              "Sit down!",
+              "Assieds-toi !"
+            ],
+            [
+              "Stand up!",
+              "Lève-toi !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Jump! » veut dire :",
+          "options": [
+            "Saute !",
+            "Assieds-toi !",
+            "Tourne !"
+          ],
+          "reponse": "Saute !",
+          "explication": "On saute."
+        }
+      ]
+    },
+    {
+      "titre": "Le jeu « Simon says »",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Simon says jump! » : on saute. « Jump! » tout seul : on ne bouge pas."
+        },
+        {
+          "type": "piege",
+          "erreur": "On obéit à toutes les consignes.",
+          "correction": "On obéit seulement quand on entend « Simon says »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Sit down! » veut dire :",
+      "options": [
+        "Assieds-toi !",
+        "Lève-toi !",
+        "Saute !"
+      ],
+      "reponse": "Assieds-toi !",
+      "explication": "Sur ta chaise."
+    },
+    {
+      "consigne": "« Stand up! » veut dire :",
+      "options": [
+        "Lève-toi !",
+        "Assieds-toi !",
+        "Cours !"
+      ],
+      "reponse": "Lève-toi !",
+      "explication": "Debout."
+    },
+    {
+      "consigne": "« Simon says clap your hands! » Tu :",
+      "options": [
+        "tapes dans tes mains",
+        "ne bouges pas",
+        "sautes"
+      ],
+      "reponse": "tapes dans tes mains",
+      "explication": "Simon l’a dit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 19,
+      "extrait": "Agir en suivant les indications données par des verbes",
+      "appui": "Comprendre et agir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

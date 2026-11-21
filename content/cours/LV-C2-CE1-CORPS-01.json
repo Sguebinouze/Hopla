@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE1-CORPS-01",
+  "duree": 4,
+  "essentiel": "On suit des consignes qui parlent du corps.\n« Clap your hands! » : tape dans tes mains.\n« Touch your nose! » : touche ton nez.",
+  "parties": [
+    {
+      "titre": "Gestes et corps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Consignes",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Clap your hands!",
+              "Tape dans tes mains !"
+            ],
+            [
+              "Touch your nose!",
+              "Touche ton nez !"
+            ],
+            [
+              "Stamp your feet!",
+              "Tape des pieds !"
+            ],
+            [
+              "Turn around!",
+              "Tourne-toi !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Touch your head! » veut dire :",
+          "options": [
+            "Touche ta tête !",
+            "Tourne la tête !",
+            "Lève la tête !"
+          ],
+          "reponse": "Touche ta tête !",
+          "explication": "Touch : touche. Head : tête."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs consignes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Stand up, clap your hands, sit down! » : trois gestes, dans l’ordre."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « hands » et « feet ».",
+          "correction": "Hands : mains. Feet : pieds."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Stamp your feet! » veut dire :",
+      "options": [
+        "Tape des pieds !",
+        "Tape dans tes mains !",
+        "Saute !"
+      ],
+      "reponse": "Tape des pieds !",
+      "explication": "Feet : pieds."
+    },
+    {
+      "consigne": "« Turn around! » veut dire :",
+      "options": [
+        "Tourne-toi !",
+        "Assieds-toi !",
+        "Cours !"
+      ],
+      "reponse": "Tourne-toi !",
+      "explication": "On fait un tour."
+    },
+    {
+      "consigne": "« Hands » veut dire :",
+      "options": [
+        "mains",
+        "pieds",
+        "genoux"
+      ],
+      "reponse": "mains",
+      "explication": "Pour applaudir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "Ils peuvent suivre 3 ou 4 instructions relatives aux gestes et mouvement du corps",
+      "appui": "Gestes et corps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE1-VET-01",
+  "duree": 4,
+  "essentiel": "Des vêtements : a hat, a coat, a T-shirt.\nLes chaussures : shoes.\n« A red hat » : un chapeau rouge.",
+  "parties": [
+    {
+      "titre": "Les vêtements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "S’habiller",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a hat",
+              "un chapeau"
+            ],
+            [
+              "a coat",
+              "un manteau"
+            ],
+            [
+              "a T-shirt",
+              "un tee-shirt"
+            ],
+            [
+              "shoes",
+              "des chaussures"
+            ],
+            [
+              "socks",
+              "des chaussettes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A coat » veut dire :",
+          "options": [
+            "un manteau",
+            "un chapeau",
+            "un chat"
+          ],
+          "reponse": "un manteau",
+          "explication": "Pour l’hiver."
+        }
+      ]
+    },
+    {
+      "titre": "Avec une couleur",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On dit « a hat blue ».",
+          "correction": "La couleur vient avant : a blue hat."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Shoes » veut dire :",
+      "options": [
+        "des chaussures",
+        "des chaussettes",
+        "un chapeau"
+      ],
+      "reponse": "des chaussures",
+      "explication": "Aux pieds."
+    },
+    {
+      "consigne": "« A hat » veut dire :",
+      "options": [
+        "un chapeau",
+        "un chat",
+        "un manteau"
+      ],
+      "reponse": "un chapeau",
+      "explication": "Sur la tête."
+    },
+    {
+      "consigne": "Comment dit-on « un tee-shirt vert » ?",
+      "options": [
+        "a green T-shirt",
+        "a T-shirt green",
+        "green a T-shirt"
+      ],
+      "reponse": "a green T-shirt",
+      "explication": "Couleur avant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Soi, le corps, les vêtements.",
+      "appui": "Les vêtements"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

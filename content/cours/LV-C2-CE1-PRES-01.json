@@ -1,0 +1,107 @@
+{
+  "competence": "LV-C2-CE1-PRES-01",
+  "duree": 4,
+  "essentiel": "« My name is Léa. » : je m’appelle Léa.\n« I’m eight. » : j’ai huit ans.\n« I live in Lyon. » : j’habite à Lyon.",
+  "parties": [
+    {
+      "titre": "Se présenter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois informations",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "My name is Tom.",
+              "Je m’appelle Tom."
+            ],
+            [
+              "I’m eight.",
+              "J’ai huit ans."
+            ],
+            [
+              "I live in Paris.",
+              "J’habite à Paris."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I live in Nantes. » veut dire :",
+          "options": [
+            "J’habite à Nantes.",
+            "J’aime Nantes.",
+            "Je vais à Nantes."
+          ],
+          "reponse": "J’habite à Nantes.",
+          "explication": "Live : habiter."
+        }
+      ]
+    },
+    {
+      "titre": "Poser les questions",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les questions.",
+          "exemples": [
+            "What’s your name? : comment t’appelles-tu ?",
+            "How old are you? : quel âge as-tu ?",
+            "Where do you live? : où habites-tu ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « I’m Lyon » pour dire où on habite.",
+          "correction": "On dit « I live in Lyon »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« What’s your name? » veut dire :",
+      "options": [
+        "Comment t’appelles-tu ?",
+        "Quel âge as-tu ?",
+        "Où habites-tu ?"
+      ],
+      "reponse": "Comment t’appelles-tu ?",
+      "explication": "Name : nom."
+    },
+    {
+      "consigne": "« How old are you? » veut dire :",
+      "options": [
+        "Quel âge as-tu ?",
+        "Comment vas-tu ?",
+        "Qui es-tu ?"
+      ],
+      "reponse": "Quel âge as-tu ?",
+      "explication": "Old : âgé."
+    },
+    {
+      "consigne": "Pour dire « je m’appelle Sam », on dit :",
+      "options": [
+        "My name is Sam.",
+        "I live in Sam.",
+        "I’m Sam years."
+      ],
+      "reponse": "My name is Sam.",
+      "explication": "My name is…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 54,
+      "extrait": "Ils se présentent de manière autonome en disant leur nom, prénom, âge et lieu d’habitation.",
+      "appui": "Se présenter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

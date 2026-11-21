@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-FETE-01",
+  "duree": 4,
+  "essentiel": "Les pays anglophones fêtent Halloween, Christmas et Thanksgiving.\n« Happy Halloween! Trick or treat? » : des bonbons ou un sort ?\n« Merry Christmas! » : joyeux Noël !",
+  "parties": [
+    {
+      "titre": "Des fêtes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fêtes des pays anglophones",
+          "colonnes": [
+            "Fête",
+            "Date",
+            "Formule"
+          ],
+          "lignes": [
+            [
+              "Halloween",
+              "31 octobre",
+              "Trick or treat?"
+            ],
+            [
+              "Christmas",
+              "25 décembre",
+              "Merry Christmas!"
+            ],
+            [
+              "Thanksgiving",
+              "fin novembre, aux États-Unis",
+              "Happy Thanksgiving!"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Merry Christmas! » veut dire :",
+          "options": [
+            "Joyeux Noël !",
+            "Bonne année !",
+            "Joyeux anniversaire !"
+          ],
+          "reponse": "Joyeux Noël !",
+          "explication": "Le 25 décembre."
+        }
+      ]
+    },
+    {
+      "titre": "Bon anniversaire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Happy birthday! » : joyeux anniversaire !"
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Thanksgiving se fête en France.",
+          "correction": "C’est une fête des États-Unis et du Canada."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Trick or treat? » se dit à :",
+      "options": [
+        "Halloween",
+        "Noël",
+        "Pâques"
+      ],
+      "reponse": "Halloween",
+      "explication": "Les enfants demandent des bonbons."
+    },
+    {
+      "consigne": "« Happy birthday! » veut dire :",
+      "options": [
+        "Joyeux anniversaire !",
+        "Joyeux Noël !",
+        "Bonne journée !"
+      ],
+      "reponse": "Joyeux anniversaire !",
+      "explication": "Pour un anniversaire."
+    },
+    {
+      "consigne": "Halloween a lieu le :",
+      "options": [
+        "31 octobre",
+        "25 décembre",
+        "1er janvier"
+      ],
+      "reponse": "31 octobre",
+      "explication": "Fin octobre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les grandes fêtes et coutumes.",
+      "appui": "Fêtes et coutumes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

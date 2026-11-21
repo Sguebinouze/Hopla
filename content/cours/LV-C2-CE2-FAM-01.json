@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CE2-FAM-01",
+  "duree": 4,
+  "essentiel": "La maison a des pièces : kitchen, bedroom, bathroom.\n« My mum is in the kitchen. » : ma maman est dans la cuisine.\n« In » veut dire dans.",
+  "parties": [
+    {
+      "titre": "Les pièces",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La maison",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "the kitchen",
+              "la cuisine"
+            ],
+            [
+              "the bedroom",
+              "la chambre"
+            ],
+            [
+              "the bathroom",
+              "la salle de bain"
+            ],
+            [
+              "the living room",
+              "le salon"
+            ],
+            [
+              "the garden",
+              "le jardin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The bedroom » veut dire :",
+          "options": [
+            "la chambre",
+            "la cuisine",
+            "le salon"
+          ],
+          "reponse": "la chambre",
+          "explication": "Bed : lit."
+        }
+      ]
+    },
+    {
+      "titre": "Qui est où ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« My dad is in the garden. » : papa est dans le jardin."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « bedroom » et « bathroom ».",
+          "correction": "Bedroom : chambre, avec un lit. Bathroom : salle de bain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« The kitchen » veut dire :",
+      "options": [
+        "la cuisine",
+        "le jardin",
+        "la chambre"
+      ],
+      "reponse": "la cuisine",
+      "explication": "On y cuisine."
+    },
+    {
+      "consigne": "« My sister is in the bathroom. » veut dire :",
+      "options": [
+        "Ma sœur est dans la salle de bain.",
+        "Ma sœur est dans la chambre.",
+        "Ma sœur est au jardin."
+      ],
+      "reponse": "Ma sœur est dans la salle de bain.",
+      "explication": "Bath : bain."
+    },
+    {
+      "consigne": "« The garden » veut dire :",
+      "options": [
+        "le jardin",
+        "le garage",
+        "le salon"
+      ],
+      "reponse": "le jardin",
+      "explication": "Dehors, avec des fleurs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "Utiliser des expressions et des phrases simples pour se décrire, décrire le lieu d'habitation",
+      "appui": "La famille et la maison"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

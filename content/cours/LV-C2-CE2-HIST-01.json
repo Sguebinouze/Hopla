@@ -1,0 +1,111 @@
+{
+  "competence": "LV-C2-CE2-HIST-01",
+  "duree": 4,
+  "essentiel": "Pour suivre une histoire, on regarde les images.\nOn repère les mots connus.\n« The bear is hungry. He eats honey. » : l’ours a faim, il mange du miel.",
+  "parties": [
+    {
+      "titre": "Comprendre une histoire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mots de l’histoire",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "the bear",
+              "l’ours"
+            ],
+            [
+              "hungry",
+              "affamé"
+            ],
+            [
+              "he eats",
+              "il mange"
+            ],
+            [
+              "honey",
+              "du miel"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The bear is hungry. » veut dire :",
+          "options": [
+            "L’ours a faim.",
+            "L’ours dort.",
+            "L’ours est triste."
+          ],
+          "reponse": "L’ours a faim.",
+          "explication": "Hungry : faim."
+        }
+      ]
+    },
+    {
+      "titre": "Les aides",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour suivre une histoire",
+          "etapes": [
+            "Je regarde les images.",
+            "J’écoute les mots que je connais.",
+            "Je devine le reste."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On abandonne si on ne comprend pas tous les mots.",
+          "correction": "Les mots connus et les images suffisent souvent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« He eats » veut dire :",
+      "options": [
+        "il mange",
+        "il boit",
+        "il dort"
+      ],
+      "reponse": "il mange",
+      "explication": "Eat : manger."
+    },
+    {
+      "consigne": "Pour comprendre une histoire, j’utilise :",
+      "options": [
+        "les images et les mots connus",
+        "seulement le titre",
+        "rien"
+      ],
+      "reponse": "les images et les mots connus",
+      "explication": "Ce sont des aides."
+    },
+    {
+      "consigne": "« Honey » veut dire :",
+      "options": [
+        "du miel",
+        "du lait",
+        "du pain"
+      ],
+      "reponse": "du miel",
+      "explication": "Les ours l’adorent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "Ils suivent le fil d’une histoire simple",
+      "appui": "Suivre une histoire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

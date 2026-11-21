@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C2-CE1-SENT-01",
+  "duree": 4,
+  "essentiel": "« I’m happy. » : je suis content.\n« I’m tired. » : je suis fatigué.\n« I like apples. » : j’aime les pommes.",
+  "parties": [
+    {
+      "titre": "Comment je me sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mes sentiments",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I’m happy.",
+              "Je suis content."
+            ],
+            [
+              "I’m sad.",
+              "Je suis triste."
+            ],
+            [
+              "I’m tired.",
+              "Je suis fatigué."
+            ],
+            [
+              "I’m hungry.",
+              "J’ai faim."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I’m tired. » veut dire :",
+          "options": [
+            "Je suis fatigué.",
+            "Je suis content.",
+            "J’ai faim."
+          ],
+          "reponse": "Je suis fatigué.",
+          "explication": "On a envie de dormir."
+        }
+      ]
+    },
+    {
+      "titre": "Ce que j’aime",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On traduit « I’m hungry » par « je suis faim ».",
+          "correction": "En français, on dit « j’ai faim »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I’m hungry. » veut dire :",
+      "options": [
+        "J’ai faim.",
+        "Je suis triste.",
+        "Je suis fatigué."
+      ],
+      "reponse": "J’ai faim.",
+      "explication": "On veut manger."
+    },
+    {
+      "consigne": "Pour dire « je suis content », on dit :",
+      "options": [
+        "I’m happy.",
+        "I’m sad.",
+        "I’m tired."
+      ],
+      "reponse": "I’m happy.",
+      "explication": "Happy : content."
+    },
+    {
+      "consigne": "« I like bananas. » veut dire :",
+      "options": [
+        "J’aime les bananes.",
+        "J’ai une banane.",
+        "Je n’aime pas les bananes."
+      ],
+      "reponse": "J’aime les bananes.",
+      "explication": "I like : j’aime."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Sensations, goûts et sentiments.",
+      "appui": "Dire comment on se sent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

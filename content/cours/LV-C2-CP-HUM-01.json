@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CP-HUM-01",
+  "duree": 4,
+  "essentiel": "« I’m happy! » veut dire je suis content.\n« I’m sad. » veut dire je suis triste.\nOn peut aussi être « angry », en colère.",
+  "parties": [
+    {
+      "titre": "Les émotions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comment je me sens",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "happy",
+              "content"
+            ],
+            [
+              "sad",
+              "triste"
+            ],
+            [
+              "angry",
+              "en colère"
+            ],
+            [
+              "surprised",
+              "surpris"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I’m sad. » veut dire :",
+          "options": [
+            "Je suis triste.",
+            "Je suis content.",
+            "Je suis surpris."
+          ],
+          "reponse": "Je suis triste.",
+          "explication": "Sad : triste."
+        }
+      ]
+    },
+    {
+      "titre": "Le visage aide",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Regarde le visage : un sourire, c’est happy. Des larmes, c’est sad."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « happy » et « angry ».",
+          "correction": "Happy : content. Angry : en colère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Happy » veut dire :",
+      "options": [
+        "content",
+        "triste",
+        "fatigué"
+      ],
+      "reponse": "content",
+      "explication": "Avec un grand sourire."
+    },
+    {
+      "consigne": "« Angry » veut dire :",
+      "options": [
+        "en colère",
+        "content",
+        "surpris"
+      ],
+      "reponse": "en colère",
+      "explication": "Les sourcils froncés."
+    },
+    {
+      "consigne": "Un cadeau inattendu. Tu es :",
+      "options": [
+        "surprised",
+        "sad",
+        "angry"
+      ],
+      "reponse": "surprised",
+      "explication": "Surpris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 18,
+      "extrait": "Identifier l’humeur de ses interlocuteurs (tristesse, joie,",
+      "appui": "Les émotions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

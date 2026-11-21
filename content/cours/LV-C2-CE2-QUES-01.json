@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CE2-QUES-01",
+  "duree": 4,
+  "essentiel": "« Where do you live? » : où habites-tu ?\n« Have you got a brother? » : as-tu un frère ?\nOn répond « Yes, I have » ou « No, I haven’t ».",
+  "parties": [
+    {
+      "titre": "Des questions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions et réponses",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Where do you live?",
+              "Où habites-tu ?"
+            ],
+            [
+              "I live in Lyon.",
+              "J’habite à Lyon."
+            ],
+            [
+              "Have you got a pet?",
+              "As-tu un animal ?"
+            ],
+            [
+              "Yes, I have.",
+              "Oui."
+            ],
+            [
+              "No, I haven’t.",
+              "Non."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Have you got a sister? » veut dire :",
+          "options": [
+            "As-tu une sœur ?",
+            "Où est ta sœur ?",
+            "Qui est ta sœur ?"
+          ],
+          "reponse": "As-tu une sœur ?",
+          "explication": "Have you got : as-tu."
+        }
+      ]
+    },
+    {
+      "titre": "Répondre court",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On répond seulement « Yes » ou « No ».",
+          "correction": "On ajoute : « Yes, I have » ou « No, I haven’t »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Where do you live? » veut dire :",
+      "options": [
+        "Où habites-tu ?",
+        "Comment vas-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "reponse": "Où habites-tu ?",
+      "explication": "Where : où."
+    },
+    {
+      "consigne": "Tu as un chien. Tu réponds :",
+      "options": [
+        "Yes, I have.",
+        "No, I haven’t.",
+        "I’m a dog."
+      ],
+      "reponse": "Yes, I have.",
+      "explication": "Oui."
+    },
+    {
+      "consigne": "« A pet » veut dire :",
+      "options": [
+        "un animal de compagnie",
+        "un petit",
+        "un ami"
+      ],
+      "reponse": "un animal de compagnie",
+      "explication": "Chat, chien, lapin…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 53,
+      "extrait": "peuvent répondre au même type de questions.",
+      "appui": "Poser des questions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

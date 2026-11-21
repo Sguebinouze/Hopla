@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C2-CE2-FOOD-01",
+  "duree": 4,
+  "essentiel": "Des aliments : bread, milk, an apple, cheese.\n« I like pizza. » : j’aime la pizza.\n« I don’t like fish. » : je n’aime pas le poisson.",
+  "parties": [
+    {
+      "titre": "La nourriture",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Aliments",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "bread",
+              "du pain"
+            ],
+            [
+              "milk",
+              "du lait"
+            ],
+            [
+              "cheese",
+              "du fromage"
+            ],
+            [
+              "an apple",
+              "une pomme"
+            ],
+            [
+              "chicken",
+              "du poulet"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Cheese » veut dire :",
+          "options": [
+            "du fromage",
+            "du poulet",
+            "du pain"
+          ],
+          "reponse": "du fromage",
+          "explication": "On le mange avec du pain."
+        }
+      ]
+    },
+    {
+      "titre": "Mes gouts",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Do you like milk? » « Yes, I do. » ou « No, I don’t. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « a apple ».",
+          "correction": "Devant une voyelle, on dit « an » : an apple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Bread » veut dire :",
+      "options": [
+        "du pain",
+        "du beurre",
+        "du lait"
+      ],
+      "reponse": "du pain",
+      "explication": "À la boulangerie."
+    },
+    {
+      "consigne": "Quelle forme est juste ?",
+      "options": [
+        "an apple",
+        "a apple",
+        "an banana"
+      ],
+      "reponse": "an apple",
+      "explication": "An devant une voyelle."
+    },
+    {
+      "consigne": "« Do you like milk? » « Yes, I do. » veut dire :",
+      "options": [
+        "Oui, j’aime le lait.",
+        "Non, je n’aime pas le lait.",
+        "J’ai du lait."
+      ],
+      "reponse": "Oui, j’aime le lait.",
+      "explication": "Yes : oui."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Les recettes.",
+      "appui": "La nourriture"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

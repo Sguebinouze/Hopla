@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C2-CP-ANIM-01",
+  "duree": 4,
+  "essentiel": "« Look! A dog. » : regarde, un chien.\nLes animaux familiers : a cat, a dog, a fish, a bird.\nOn montre l’animal en disant son nom.",
+  "parties": [
+    {
+      "titre": "Les animaux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Animaux familiers",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a cat",
+              "un chat"
+            ],
+            [
+              "a dog",
+              "un chien"
+            ],
+            [
+              "a fish",
+              "un poisson"
+            ],
+            [
+              "a bird",
+              "un oiseau"
+            ],
+            [
+              "a rabbit",
+              "un lapin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A rabbit » veut dire :",
+          "options": [
+            "un lapin",
+            "un chat",
+            "un oiseau"
+          ],
+          "reponse": "un lapin",
+          "explication": "Il a de grandes oreilles."
+        }
+      ]
+    },
+    {
+      "titre": "Regarde !",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « fish » et « bird ».",
+          "correction": "Fish : poisson, dans l’eau. Bird : oiseau, dans le ciel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« A cat » veut dire :",
+      "options": [
+        "un chat",
+        "un chien",
+        "un poisson"
+      ],
+      "reponse": "un chat",
+      "explication": "Il miaule."
+    },
+    {
+      "consigne": "Comment dit-on « un chien » ?",
+      "options": [
+        "a dog",
+        "a bird",
+        "a cat"
+      ],
+      "reponse": "a dog",
+      "explication": "Il aboie."
+    },
+    {
+      "consigne": "« Look! » veut dire :",
+      "options": [
+        "Regarde !",
+        "Écoute !",
+        "Saute !"
+      ],
+      "reponse": "Regarde !",
+      "explication": "On montre quelque chose."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 43,
+      "extrait": "Utiliser quelques expressions indiquant ce que l’on veut",
+      "appui": "Les animaux familiers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C2-CE2-SPORT-01",
+  "duree": 4,
+  "essentiel": "« I play football. » : je joue au football.\n« I can swim. » : je sais nager.\n« Can you ride a bike? » : sais-tu faire du vélo ?",
+  "parties": [
+    {
+      "titre": "Play et can",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sports",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I play football.",
+              "Je joue au football."
+            ],
+            [
+              "I play tennis.",
+              "Je joue au tennis."
+            ],
+            [
+              "I can swim.",
+              "Je sais nager."
+            ],
+            [
+              "I can’t skate.",
+              "Je ne sais pas patiner."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I can swim. » veut dire :",
+          "options": [
+            "Je sais nager.",
+            "Je veux nager.",
+            "J’aime nager."
+          ],
+          "reponse": "Je sais nager.",
+          "explication": "Can : savoir, pouvoir."
+        }
+      ]
+    },
+    {
+      "titre": "Can’t",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « can » et « can’t ».",
+          "correction": "Can : je sais. Can’t : je ne sais pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I play tennis. » veut dire :",
+      "options": [
+        "Je joue au tennis.",
+        "Je regarde le tennis.",
+        "Je sais jouer au tennis."
+      ],
+      "reponse": "Je joue au tennis.",
+      "explication": "Play : jouer."
+    },
+    {
+      "consigne": "« I can’t swim. » veut dire :",
+      "options": [
+        "Je ne sais pas nager.",
+        "Je sais nager.",
+        "J’aime nager."
+      ],
+      "reponse": "Je ne sais pas nager.",
+      "explication": "Can’t : la négation."
+    },
+    {
+      "consigne": "« Can you ride a bike? » veut dire :",
+      "options": [
+        "Sais-tu faire du vélo ?",
+        "As-tu un vélo ?",
+        "Où est ton vélo ?"
+      ],
+      "reponse": "Sais-tu faire du vélo ?",
+      "explication": "Ride a bike : faire du vélo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 52,
+      "extrait": "Le sport.",
+      "appui": "Sports et loisirs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

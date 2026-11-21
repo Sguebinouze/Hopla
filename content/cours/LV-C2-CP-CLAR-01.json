@@ -1,0 +1,98 @@
+{
+  "competence": "LV-C2-CP-CLAR-01",
+  "duree": 4,
+  "essentiel": "« Sorry, I don’t understand. » : pardon, je ne comprends pas.\n« Can you repeat, please? » : tu peux répéter, s’il te plait ?\nDemander de répéter est normal quand on apprend.",
+  "parties": [
+    {
+      "titre": "Demander de l’aide",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Phrases utiles",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I don’t understand.",
+              "Je ne comprends pas."
+            ],
+            [
+              "Can you repeat, please?",
+              "Tu peux répéter, s’il te plait ?"
+            ],
+            [
+              "Slowly, please.",
+              "Lentement, s’il te plait."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Tu ne comprends pas. Tu dis :",
+          "options": [
+            "Sorry, I don’t understand.",
+            "Hello!",
+            "I like apples."
+          ],
+          "reponse": "Sorry, I don’t understand.",
+          "explication": "Pour demander de l’aide."
+        }
+      ]
+    },
+    {
+      "titre": "Oser demander",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On a honte de dire qu’on ne comprend pas.",
+          "correction": "Demander, c’est la bonne façon d’apprendre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Please » veut dire :",
+      "options": [
+        "s’il te plait",
+        "merci",
+        "pardon"
+      ],
+      "reponse": "s’il te plait",
+      "explication": "Pour demander poliment."
+    },
+    {
+      "consigne": "« Can you repeat? » veut dire :",
+      "options": [
+        "Tu peux répéter ?",
+        "Tu peux venir ?",
+        "Tu peux chanter ?"
+      ],
+      "reponse": "Tu peux répéter ?",
+      "explication": "Repeat : répéter."
+    },
+    {
+      "consigne": "« Slowly » veut dire :",
+      "options": [
+        "lentement",
+        "vite",
+        "fort"
+      ],
+      "reponse": "lentement",
+      "explication": "Pour mieux comprendre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 32,
+      "extrait": "L’élève peut signifier son incompréhension",
+      "appui": "Je ne comprends pas"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
