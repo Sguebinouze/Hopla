@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-4E-GRAM-57",
+  "duree": 5,
+  "essentiel": "À la forme impersonnelle, le pronom il ne désigne personne et ne remplace rien.\nCertains verbes ne s’emploient qu’ainsi : il pleut, il neige, il faut.\nD’autres peuvent l’être : « il est arrivé un accident ». Le sujet réel est alors placé après le verbe.",
+  "parties": [
+    {
+      "titre": "Reconnaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Il désigne-t-il quelqu’un ?",
+          "colonnes": [
+            "Phrase",
+            "Il",
+            "Forme"
+          ],
+          "lignes": [
+            [
+              "Il pleut.",
+              "ne désigne personne",
+              "impersonnelle"
+            ],
+            [
+              "Il faut partir.",
+              "ne désigne personne",
+              "impersonnelle"
+            ],
+            [
+              "Il manque deux élèves.",
+              "ne désigne personne",
+              "impersonnelle"
+            ],
+            [
+              "Il arrive en retard.",
+              "désigne un garçon",
+              "personnelle"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Il est interdit de fumer », la forme est :",
+          "options": [
+            "impersonnelle",
+            "personnelle",
+            "passive"
+          ],
+          "reponse": "impersonnelle",
+          "explication": "Il ne représente personne."
+        }
+      ]
+    },
+    {
+      "titre": "Le sujet réel",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Il manque deux élèves » signifie « deux élèves manquent ». Il est le sujet grammatical ; deux élèves est le sujet réel."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde le verbe avec le sujet réel : « Il manquent deux élèves ».",
+          "correction": "Le verbe s’accorde avec il : il manque, au singulier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il … trois jours avant les vacances. » (rester, présent)",
+      "options": [
+        "reste",
+        "restent",
+        "restes"
+      ],
+      "reponse": "reste",
+      "explication": "Accord avec il."
+    },
+    {
+      "consigne": "Lequel est à la forme impersonnelle ?",
+      "options": [
+        "Il neige depuis ce matin.",
+        "Il chante bien.",
+        "Il mange une pomme."
+      ],
+      "reponse": "Il neige depuis ce matin.",
+      "explication": "Il ne désigne personne."
+    },
+    {
+      "consigne": "Dans « Il faut lire », il est :",
+      "options": [
+        "un pronom impersonnel",
+        "un pronom qui remplace un garçon",
+        "un déterminant"
+      ],
+      "reponse": "un pronom impersonnel",
+      "explication": "Falloir ne s’emploie qu’à la forme impersonnelle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils consolident leur connaissance des trois types et des trois formes de phrase déjà abordés précédemment et identifient la forme impersonnelle.",
+      "appui": "Forme impersonnelle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

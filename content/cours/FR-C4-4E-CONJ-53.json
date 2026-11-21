@@ -1,0 +1,153 @@
+{
+  "competence": "FR-C4-4E-CONJ-53",
+  "duree": 8,
+  "essentiel": "Le subjonctif présent s’emploie après des verbes de volonté, d’obligation ou de sentiment : il faut que, je veux que, je doute que.\nTerminaisons : -e, -es, -e, -ions, -iez, -ent. Que je chante, que nous finissions.\nPlusieurs verbes sont irréguliers : que tu ailles, que nous fassions, qu’il veuille, que je sois, que j’aie.",
+  "parties": [
+    {
+      "titre": "Verbes réguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au subjonctif présent",
+          "colonnes": [
+            "Personne",
+            "chanter",
+            "finir"
+          ],
+          "lignes": [
+            [
+              "que je",
+              "chante",
+              "finisse"
+            ],
+            [
+              "que tu",
+              "chantes",
+              "finisses"
+            ],
+            [
+              "qu’il",
+              "chante",
+              "finisse"
+            ],
+            [
+              "que nous",
+              "chantions",
+              "finissions"
+            ],
+            [
+              "qu’ils",
+              "chantent",
+              "finissent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il faut que nous … » (finir)",
+          "options": [
+            "finissions",
+            "finissons",
+            "finirons"
+          ],
+          "reponse": "finissions",
+          "explication": "Subjonctif : -ions."
+        }
+      ]
+    },
+    {
+      "titre": "Verbes irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À retenir",
+          "colonnes": [
+            "Verbe",
+            "que je",
+            "que nous"
+          ],
+          "lignes": [
+            [
+              "être",
+              "sois",
+              "soyons"
+            ],
+            [
+              "avoir",
+              "aie",
+              "ayons"
+            ],
+            [
+              "aller",
+              "aille",
+              "allions"
+            ],
+            [
+              "faire",
+              "fasse",
+              "fassions"
+            ],
+            [
+              "vouloir",
+              "veuille",
+              "voulions"
+            ],
+            [
+              "pouvoir",
+              "puisse",
+              "puissions"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « que nous soyions » ou « que nous ayions ».",
+          "correction": "Pas de i après le y : que nous soyons, que nous ayons."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je veux que tu … là. » (être)",
+      "options": [
+        "sois",
+        "es",
+        "serais"
+      ],
+      "reponse": "sois",
+      "explication": "Vouloir que + subjonctif."
+    },
+    {
+      "consigne": "« Il faut que j’… à la gare. » (aller)",
+      "options": [
+        "aille",
+        "alle",
+        "irai"
+      ],
+      "reponse": "aille",
+      "explication": "Radical irrégulier aill-."
+    },
+    {
+      "consigne": "« Bien qu’il … fatigué, il continue. » (être)",
+      "options": [
+        "soit",
+        "est",
+        "était"
+      ],
+      "reponse": "soit",
+      "explication": "Bien que entraine le subjonctif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "Ils consolident leur connaissance de tous les temps de l’indicatif, de l’impératif présent, du conditionnel présent et du subjonctif présent",
+      "appui": "Subjonctif présent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

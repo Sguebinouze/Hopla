@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-4E-VOC-52",
+  "duree": 6,
+  "essentiel": "La dérivation peut changer la classe d’un mot : rapide (adjectif) donne rapidement (adverbe) et rapidité (nom).\nLes adjectifs en -ant donnent des adverbes en -amment ; ceux en -ent, des adverbes en -emment.\nPrudent donne prudemment ; puissant donne puissamment.",
+  "parties": [
+    {
+      "titre": "Changer de classe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une famille, plusieurs classes",
+          "colonnes": [
+            "Adjectif",
+            "Adverbe",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "rapide",
+              "rapidement",
+              "rapidité"
+            ],
+            [
+              "doux",
+              "doucement",
+              "douceur"
+            ],
+            [
+              "prudent",
+              "prudemment",
+              "prudence"
+            ],
+            [
+              "puissant",
+              "puissamment",
+              "puissance"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’adverbe formé sur « évident » est :",
+          "options": [
+            "évidemment",
+            "évidamment",
+            "évidentement"
+          ],
+          "reponse": "évidemment",
+          "explication": "-ent donne -emment."
+        }
+      ]
+    },
+    {
+      "titre": "Les pièges d’orthographe",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "-emment et -amment se prononcent de la même façon. On regarde l’adjectif : prudent avec e, puissant avec a."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « gentillement ».",
+          "correction": "L’adverbe de gentil est gentiment, sans double l."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’adverbe formé sur « bruyant » est :",
+      "options": [
+        "bruyamment",
+        "bruyemment",
+        "bruyantement"
+      ],
+      "reponse": "bruyamment",
+      "explication": "-ant donne -amment."
+    },
+    {
+      "consigne": "Le nom formé sur « libre » est :",
+      "options": [
+        "liberté",
+        "librement",
+        "libérer"
+      ],
+      "reponse": "liberté",
+      "explication": "Librement est un adverbe, libérer un verbe."
+    },
+    {
+      "consigne": "« Lentement » est :",
+      "options": [
+        "un adverbe",
+        "un adjectif",
+        "un nom"
+      ],
+      "reponse": "un adverbe",
+      "explication": "Formé sur lent avec -ment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 11,
+      "extrait": "Ils mettent en évidence les changements de catégorie induits par la dérivation et leurs incidences orthographiques.",
+      "appui": "Dérivation et classe des mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

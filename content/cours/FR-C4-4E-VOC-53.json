@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-4E-VOC-53",
+  "duree": 5,
+  "essentiel": "Un mot polysémique a plusieurs sens. L’ensemble de ces sens forme son champ sémantique.\n« Pièce » désigne une partie d’un logement, une monnaie, une œuvre de théâtre.\nC’est le contexte qui indique le sens.",
+  "parties": [
+    {
+      "titre": "Plusieurs sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le mot « pièce »",
+          "colonnes": [
+            "Contexte",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "Cette maison a cinq pièces.",
+              "partie d’un logement"
+            ],
+            [
+              "Il a trouvé une pièce de deux euros.",
+              "monnaie"
+            ],
+            [
+              "Nous avons vu une pièce de Molière.",
+              "œuvre de théâtre"
+            ],
+            [
+              "Il manque une pièce au puzzle.",
+              "élément d’un ensemble"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le chef d’orchestre lève sa baguette. » Ici, baguette désigne :",
+          "options": [
+            "un bâton pour diriger",
+            "un pain",
+            "un outil de magie"
+          ],
+          "reponse": "un bâton pour diriger",
+          "explication": "Le contexte musical décide."
+        }
+      ]
+    },
+    {
+      "titre": "Champ sémantique ou champ lexical ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond champ sémantique et champ lexical.",
+          "correction": "Le champ sémantique regroupe les sens d’un mot. Le champ lexical regroupe des mots liés à un même thème."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le champ sémantique d’un mot, c’est :",
+      "options": [
+        "les différents sens d’un même mot",
+        "les mots d’un même thème",
+        "l’origine d’un mot"
+      ],
+      "reponse": "les différents sens d’un même mot",
+      "explication": "Il concerne un seul mot."
+    },
+    {
+      "consigne": "« La souris de l’ordinateur » : souris désigne :",
+      "options": [
+        "un appareil",
+        "un animal",
+        "un fromage"
+      ],
+      "reponse": "un appareil",
+      "explication": "Le contexte informatique."
+    },
+    {
+      "consigne": "« Mer, vague, sable, plage » forment :",
+      "options": [
+        "un champ lexical",
+        "un champ sémantique",
+        "une famille de mots"
+      ],
+      "reponse": "un champ lexical",
+      "explication": "Des mots liés au thème de la mer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 11,
+      "extrait": "Ils mettent en réseau des mots (groupements par champ lexical et par champ sémantique)",
+      "appui": "Champ sémantique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

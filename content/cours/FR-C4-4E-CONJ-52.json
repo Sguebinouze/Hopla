@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-4E-CONJ-52",
+  "duree": 7,
+  "essentiel": "À la voix active, le sujet fait l’action. À la voix passive, le sujet la subit.\nLe COD de la phrase active devient sujet ; le sujet devient complément d’agent, introduit par par ou de.\nLe verbe se construit avec être, conjugué au temps de la phrase active, et le participe passé accordé avec le sujet.",
+  "parties": [
+    {
+      "titre": "Transformer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Même temps, deux voix",
+          "colonnes": [
+            "Temps",
+            "Voix active",
+            "Voix passive"
+          ],
+          "lignes": [
+            [
+              "présent",
+              "Le chat mange la souris.",
+              "La souris est mangée par le chat."
+            ],
+            [
+              "passé composé",
+              "Le chat a mangé la souris.",
+              "La souris a été mangée par le chat."
+            ],
+            [
+              "futur",
+              "Le chat mangera la souris.",
+              "La souris sera mangée par le chat."
+            ],
+            [
+              "imparfait",
+              "Tous admiraient la chanteuse.",
+              "La chanteuse était admirée de tous."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le jury a choisi les gagnantes » à la voix passive :",
+          "options": [
+            "Les gagnantes ont été choisies par le jury.",
+            "Les gagnantes sont choisies par le jury.",
+            "Le jury a été choisi par les gagnantes."
+          ],
+          "reponse": "Les gagnantes ont été choisies par le jury.",
+          "explication": "Passé composé : a été + participe passé accordé."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que « Elle est partie » est au passif.",
+          "correction": "Partir n’a pas de COD : c’est un passé composé avec être, à la voix active."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À la voix passive, le complément d’agent est souvent introduit par :",
+      "options": [
+        "par",
+        "à",
+        "que"
+      ],
+      "reponse": "par",
+      "explication": "Ou parfois par de."
+    },
+    {
+      "consigne": "« La lettre sera lue par Tom. » La phrase active est :",
+      "options": [
+        "Tom lira la lettre.",
+        "Tom lit la lettre.",
+        "Tom a lu la lettre."
+      ],
+      "reponse": "Tom lira la lettre.",
+      "explication": "Sera lue : futur."
+    },
+    {
+      "consigne": "Seuls peuvent passer au passif les verbes qui ont :",
+      "options": [
+        "un COD",
+        "un COI",
+        "un attribut"
+      ],
+      "reponse": "un COD",
+      "explication": "Le COD devient sujet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "Ils construisent la voix passive et identifient la forme impersonnelle.",
+      "appui": "Voix passive"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

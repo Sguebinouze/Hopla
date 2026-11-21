@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-4E-LITT-54",
+  "duree": 6,
+  "essentiel": "Un fait peut se vérifier ; une opinion est un avis.\nPour vérifier une information, on cherche qui la publie et quand, puis on la recoupe avec d’autres sources.\nUne photo sortie de son contexte peut faire croire à un évènement inventé.",
+  "parties": [
+    {
+      "titre": "Fait ou opinion ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Distinguer",
+          "colonnes": [
+            "Phrase",
+            "Nature"
+          ],
+          "lignes": [
+            [
+              "Le collège compte 600 élèves.",
+              "fait"
+            ],
+            [
+              "Ce collège est le meilleur de la ville.",
+              "opinion"
+            ],
+            [
+              "Il a plu 40 mm hier à Lyon.",
+              "fait"
+            ],
+            [
+              "Il fait un temps horrible.",
+              "opinion"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ce film est le plus réussi de l’année. » C’est :",
+          "options": [
+            "une opinion",
+            "un fait",
+            "une source"
+          ],
+          "reponse": "une opinion",
+          "explication": "C’est un jugement."
+        }
+      ]
+    },
+    {
+      "titre": "Vérifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Avant de partager une information",
+          "etapes": [
+            "Qui l’a publiée ? Un média connu, un inconnu ?",
+            "Quand ? L’information est-elle récente ?",
+            "D’autres sources sérieuses disent-elles la même chose ?",
+            "Pour une image, cherche son origine par une recherche d’image inversée."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit une information parce qu’elle est beaucoup partagée.",
+          "correction": "Le nombre de partages ne prouve rien. Seules des sources fiables et recoupées comptent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Recouper une information, c’est :",
+      "options": [
+        "la comparer avec d’autres sources",
+        "la partager",
+        "la réécrire"
+      ],
+      "reponse": "la comparer avec d’autres sources",
+      "explication": "Plusieurs sources indépendantes."
+    },
+    {
+      "consigne": "« Le match a été remporté 2 à 1. » C’est :",
+      "options": [
+        "un fait",
+        "une opinion",
+        "une rumeur"
+      ],
+      "reponse": "un fait",
+      "explication": "Il se vérifie."
+    },
+    {
+      "consigne": "Une recherche d’image inversée permet :",
+      "options": [
+        "de retrouver l’origine d’une photo",
+        "de modifier une photo",
+        "d’agrandir une photo"
+      ],
+      "reponse": "de retrouver l’origine d’une photo",
+      "explication": "On voit où et quand elle a été publiée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 31,
+      "extrait": "comprendre l’importance de la vérification et du recoupement des sources",
+      "appui": "Informer, s’informer, déformer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

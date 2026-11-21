@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-4E-GRAM-58",
+  "duree": 6,
+  "essentiel": "Le sujet peut être éloigné du verbe par des compléments, ou placé après lui.\nPour le trouver, on pose la question « qui est-ce qui ? » ou « qu’est-ce qui ? » devant le verbe.\n« Dans la forêt vivaient des loups » : le sujet de vivaient est « des loups ».",
+  "parties": [
+    {
+      "titre": "Repérer le sujet",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des sujets difficiles à voir",
+          "colonnes": [
+            "Phrase",
+            "Verbe",
+            "Sujet"
+          ],
+          "lignes": [
+            [
+              "Dans la forêt vivaient des loups.",
+              "vivaient",
+              "des loups"
+            ],
+            [
+              "Les enfants, chaque matin, courent au parc.",
+              "courent",
+              "les enfants"
+            ],
+            [
+              "Les feuilles que le vent emporte tourbillonnent.",
+              "tourbillonnent",
+              "les feuilles"
+            ],
+            [
+              "Que disent les élèves ?",
+              "disent",
+              "les élèves"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Au bout du chemin se dressaient deux tours. » Le sujet est :",
+          "options": [
+            "deux tours",
+            "le chemin",
+            "au bout"
+          ],
+          "reponse": "deux tours",
+          "explication": "Qu’est-ce qui se dressait ?"
+        }
+      ]
+    },
+    {
+      "titre": "Accorder",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "Dans « Les feuilles que le vent emporte », on écrit « emportent ».",
+          "correction": "Le sujet d’emporte est le vent : singulier. Celui de tourbillonnent est les feuilles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Sur la place … les musiciens. » (jouer, présent)",
+      "options": [
+        "jouent",
+        "joue",
+        "jouons"
+      ],
+      "reponse": "jouent",
+      "explication": "Le sujet inversé est les musiciens."
+    },
+    {
+      "consigne": "« Les lettres que m’envoie ma sœur … » Le sujet de « envoie » est :",
+      "options": [
+        "ma sœur",
+        "les lettres",
+        "que"
+      ],
+      "reponse": "ma sœur",
+      "explication": "Qui est-ce qui envoie ?"
+    },
+    {
+      "consigne": "Pour trouver le sujet, on pose la question :",
+      "options": [
+        "qui est-ce qui… ?",
+        "à qui… ?",
+        "où… ?"
+      ],
+      "reponse": "qui est-ce qui… ?",
+      "explication": "Devant le verbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 7,
+      "extrait": "Dans une phrase simple, les élèves reconnaissent le sujet même dans les cas complexes où il est éloigné du verbe par plusieurs compléments.",
+      "appui": "Sujet éloigné du verbe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

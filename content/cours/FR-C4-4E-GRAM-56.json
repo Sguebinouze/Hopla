@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-4E-GRAM-56",
+  "duree": 5,
+  "essentiel": "Le comparatif compare deux éléments : plus grand que, aussi grand que, moins grand que.\nLe superlatif relatif place un élément au-dessus ou au-dessous de tous : le plus grand, le moins grand.\nCertains adjectifs ont des formes particulières : bon donne meilleur, le meilleur.",
+  "parties": [
+    {
+      "titre": "Les degrés de l’adjectif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparatif et superlatif",
+          "colonnes": [
+            "Degré",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "comparatif de supériorité",
+              "Léa est plus rapide que Tom."
+            ],
+            [
+              "comparatif d’égalité",
+              "Léa est aussi rapide que Tom."
+            ],
+            [
+              "comparatif d’infériorité",
+              "Léa est moins rapide que Tom."
+            ],
+            [
+              "superlatif relatif",
+              "Léa est la plus rapide de la classe."
+            ],
+            [
+              "superlatif absolu",
+              "Léa est très rapide."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« C’est le sommet le plus haut des Alpes. » C’est :",
+          "options": [
+            "un superlatif",
+            "un comparatif",
+            "une apposition"
+          ],
+          "reponse": "un superlatif",
+          "explication": "Le plus haut de tous."
+        }
+      ]
+    },
+    {
+      "titre": "Formes particulières",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « plus bon que ».",
+          "correction": "Bon a un comparatif particulier : meilleur que. Le superlatif est le meilleur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ce gâteau est … que l’autre. » (bon, supériorité)",
+      "options": [
+        "meilleur",
+        "plus bon",
+        "le meilleur"
+      ],
+      "reponse": "meilleur",
+      "explication": "Comparatif irrégulier."
+    },
+    {
+      "consigne": "« Il est très calme. » C’est un :",
+      "options": [
+        "superlatif absolu",
+        "comparatif d’égalité",
+        "superlatif relatif"
+      ],
+      "reponse": "superlatif absolu",
+      "explication": "Très, sans comparaison."
+    },
+    {
+      "consigne": "« Ce film est aussi long que le premier. » C’est un comparatif :",
+      "options": [
+        "d’égalité",
+        "de supériorité",
+        "d’infériorité"
+      ],
+      "reponse": "d’égalité",
+      "explication": "Aussi… que."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "les degrés de l’adjectif (comparatif et superlatif).",
+      "appui": "Comparatif et superlatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

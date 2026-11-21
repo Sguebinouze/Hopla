@@ -1,0 +1,128 @@
+{
+  "competence": "FR-C4-4E-ORTH-52",
+  "duree": 6,
+  "essentiel": "Avec le pronom relatif sujet qui, le verbe s’accorde avec l’antécédent : « C’est moi qui suis venu. »\nPlusieurs sujets de personnes différentes : la 1re personne l’emporte sur les autres, la 2e sur la 3e.\n« Toi et moi partirons » ; « Léa et toi partirez ».",
+  "parties": [
+    {
+      "titre": "Le relatif qui",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accord avec l’antécédent",
+          "colonnes": [
+            "Phrase",
+            "Antécédent",
+            "Personne"
+          ],
+          "lignes": [
+            [
+              "C’est moi qui suis venu.",
+              "moi",
+              "1re du singulier"
+            ],
+            [
+              "C’est toi qui as gagné.",
+              "toi",
+              "2e du singulier"
+            ],
+            [
+              "C’est nous qui avons fini.",
+              "nous",
+              "1re du pluriel"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« C’est vous qui … raison. » (avoir)",
+          "options": [
+            "avez",
+            "a",
+            "ont"
+          ],
+          "reponse": "avez",
+          "explication": "L’antécédent est vous."
+        }
+      ]
+    },
+    {
+      "titre": "Plusieurs personnes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui l’emporte ?",
+          "colonnes": [
+            "Sujets",
+            "Équivaut à",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "toi et moi",
+              "nous",
+              "Toi et moi partirons."
+            ],
+            [
+              "Léa et toi",
+              "vous",
+              "Léa et toi partirez."
+            ],
+            [
+              "Léa et lui",
+              "ils",
+              "Léa et lui partiront."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « C’est moi qui a gagné ».",
+          "correction": "Qui reprend moi : le verbe est à la 1re personne. C’est moi qui ai gagné."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« C’est moi qui … le gâteau. » (faire, passé composé)",
+      "options": [
+        "ai fait",
+        "a fait",
+        "as fait"
+      ],
+      "reponse": "ai fait",
+      "explication": "1re personne du singulier."
+    },
+    {
+      "consigne": "« Ton frère et toi … invités. » (être, présent)",
+      "options": [
+        "êtes",
+        "sont",
+        "sommes"
+      ],
+      "reponse": "êtes",
+      "explication": "Ton frère et toi = vous."
+    },
+    {
+      "consigne": "« Ma mère et moi … » (sortir, présent)",
+      "options": [
+        "sortons",
+        "sortent",
+        "sort"
+      ],
+      "reponse": "sortons",
+      "explication": "Ma mère et moi = nous."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "l’accord du verbe dans les cas complexes.",
+      "appui": "Accord du verbe, cas complexes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

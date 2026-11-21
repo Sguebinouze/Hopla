@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-4E-CONJ-51",
+  "duree": 7,
+  "essentiel": "Le subjonctif passé se forme avec l’auxiliaire au subjonctif présent et le participe passé : qu’il ait fini, qu’elle soit partie.\nLe conditionnel passé se forme avec l’auxiliaire au conditionnel présent : il aurait fini, elle serait partie.\nLe conditionnel passé exprime souvent un regret ou une action qui ne s’est pas réalisée.",
+  "parties": [
+    {
+      "titre": "Former",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux temps composés",
+          "colonnes": [
+            "Personne",
+            "Subjonctif passé",
+            "Conditionnel passé"
+          ],
+          "lignes": [
+            [
+              "je",
+              "que j’aie fini",
+              "j’aurais fini"
+            ],
+            [
+              "il, elle",
+              "qu’il ait fini",
+              "il aurait fini"
+            ],
+            [
+              "nous",
+              "que nous soyons partis",
+              "nous serions partis"
+            ],
+            [
+              "ils, elles",
+              "qu’ils soient partis",
+              "ils seraient partis"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il aurait aimé venir » est au :",
+          "options": [
+            "conditionnel passé",
+            "subjonctif passé",
+            "plus-que-parfait"
+          ],
+          "reponse": "conditionnel passé",
+          "explication": "Avoir au conditionnel présent + participe passé."
+        }
+      ]
+    },
+    {
+      "titre": "Les emplois",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Si j’avais su, je serais venu » : le conditionnel passé exprime une action qui ne s’est pas produite."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « j’aurais » (conditionnel) et « j’aurai » (futur).",
+          "correction": "Remplace par il : « il aurait » au conditionnel, « il aura » au futur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je doute qu’elle … partie. »",
+      "options": [
+        "soit",
+        "est",
+        "serait"
+      ],
+      "reponse": "soit",
+      "explication": "Douter que entraine le subjonctif."
+    },
+    {
+      "consigne": "« Si tu m’avais prévenu, je t’… attendu. »",
+      "options": [
+        "aurais",
+        "aurai",
+        "avais"
+      ],
+      "reponse": "aurais",
+      "explication": "Conditionnel passé : action non réalisée."
+    },
+    {
+      "consigne": "« qu’ils aient compris » est au :",
+      "options": [
+        "subjonctif passé",
+        "conditionnel passé",
+        "passé composé"
+      ],
+      "reponse": "subjonctif passé",
+      "explication": "Avoir au subjonctif présent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "En plus des temps déjà maîtrisés, les élèves identifient le passé du subjonctif et le passé du conditionnel.",
+      "appui": "Passés du subjonctif et du conditionnel"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

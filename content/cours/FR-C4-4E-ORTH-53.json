@@ -1,0 +1,115 @@
+{
+  "competence": "FR-C4-4E-ORTH-53",
+  "duree": 6,
+  "essentiel": "Les participes passés se terminent par -é (chanté), -i (fini), -u (vendu), ou par une consonne muette : -s, -t.\nPour trouver la consonne muette, on met le participe au féminin : pris, prise ; fait, faite ; offert, offerte.\nPour distinguer -é et -er, on remplace par vendu ou vendre.",
+  "parties": [
+    {
+      "titre": "La consonne muette",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le féminin révèle la fin",
+          "colonnes": [
+            "Féminin",
+            "Masculin"
+          ],
+          "lignes": [
+            [
+              "prise",
+              "pris"
+            ],
+            [
+              "faite",
+              "fait"
+            ],
+            [
+              "offerte",
+              "offert"
+            ],
+            [
+              "assise",
+              "assis"
+            ],
+            [
+              "écrite",
+              "écrit"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Participe passé de « conduire » au masculin :",
+          "options": [
+            "conduit",
+            "conduis",
+            "conduie"
+          ],
+          "reponse": "conduit",
+          "explication": "Au féminin : conduite."
+        }
+      ]
+    },
+    {
+      "titre": "-é ou -er ?",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir",
+          "etapes": [
+            "Remplace le verbe par vendre ou vendu.",
+            "Si vendu convient : participe passé, -é.",
+            "Si vendre convient : infinitif, -er."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Il a mangé » et « Il va mangé ».",
+          "correction": "« Il va vendre » : infinitif, il va manger. « Il a vendu » : participe, il a mangé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il a … la vérité. » (dire)",
+      "options": [
+        "dit",
+        "dis",
+        "di"
+      ],
+      "reponse": "dit",
+      "explication": "Au féminin : dite."
+    },
+    {
+      "consigne": "« Elle a … sa veste sur la chaise. » (mettre)",
+      "options": [
+        "mis",
+        "mit",
+        "mi"
+      ],
+      "reponse": "mis",
+      "explication": "Avec avoir, pas d’accord ici. Au féminin : mise."
+    },
+    {
+      "consigne": "« Je vais … le repas. » (préparer)",
+      "options": [
+        "préparer",
+        "préparé",
+        "préparez"
+      ],
+      "reponse": "préparer",
+      "explication": "Je vais vendre : infinitif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "Ils construisent les temps composés et connaissent les formes du participe passé des verbes (é, i, u et formes avec consonne finale).",
+      "appui": "Participes passés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

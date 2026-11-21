@@ -1,0 +1,101 @@
+{
+  "competence": "FR-C4-4E-GRAM-55",
+  "duree": 6,
+  "essentiel": "Un déterminant accompagne un nom ; un pronom le remplace.\nLe pronom possessif indique à qui appartient la chose : le mien, la tienne, les leurs. « Mon vélo est rouge, le tien est bleu. »\nLe pronom démonstratif désigne en montrant : celui, celle-ci, ceux-là, ce, cela.",
+  "parties": [
+    {
+      "titre": "Pronom ou déterminant ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Possessifs et démonstratifs",
+          "colonnes": [
+            "Classe",
+            "Déterminant",
+            "Pronom"
+          ],
+          "lignes": [
+            [
+              "possessif",
+              "mon vélo, leurs livres",
+              "le mien, les leurs"
+            ],
+            [
+              "démonstratif",
+              "ce vélo, ces livres",
+              "celui-ci, ceux-là"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Ta trousse est pleine, la mienne est vide », « la mienne » est :",
+          "options": [
+            "un pronom possessif",
+            "un déterminant possessif",
+            "un pronom démonstratif"
+          ],
+          "reponse": "un pronom possessif",
+          "explication": "Il remplace « ma trousse »."
+        }
+      ]
+    },
+    {
+      "titre": "Accorder",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le pronom possessif s’accorde avec la chose possédée et varie selon le possesseur : le sien, la sienne, les siens, les siennes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « le leurs ».",
+          "correction": "Le leur (une chose), les leurs (plusieurs choses)."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Prends celle-là », « celle-là » est :",
+      "options": [
+        "un pronom démonstratif",
+        "un déterminant démonstratif",
+        "un pronom possessif"
+      ],
+      "reponse": "un pronom démonstratif",
+      "explication": "Il désigne en montrant."
+    },
+    {
+      "consigne": "« Nos places sont prises, mais … sont libres. » (à vous)",
+      "options": [
+        "les vôtres",
+        "vos",
+        "les votres"
+      ],
+      "reponse": "les vôtres",
+      "explication": "Pronom possessif pluriel, avec accent circonflexe."
+    },
+    {
+      "consigne": "Dans « cette maison », « cette » est :",
+      "options": [
+        "un déterminant démonstratif",
+        "un pronom démonstratif",
+        "un pronom possessif"
+      ],
+      "reponse": "un déterminant démonstratif",
+      "explication": "Il accompagne le nom maison."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils identifient les pronoms démonstratifs et possessifs",
+      "appui": "Démonstratifs et possessifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

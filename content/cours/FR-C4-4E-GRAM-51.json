@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C4-4E-GRAM-51",
+  "duree": 7,
+  "essentiel": "La subordonnée relative complète un nom, son antécédent. Elle commence par un pronom relatif : qui, que, dont, où, lequel.\nLa subordonnée conjonctive complète souvent un verbe. Elle commence par la conjonction que, qui n’a pas d’antécédent.\n« Le livre que je lis » : relative. « Je sais que tu viens » : conjonctive.",
+  "parties": [
+    {
+      "titre": "Deux « que »",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relative ou conjonctive ?",
+          "colonnes": [
+            "Phrase",
+            "Que complète",
+            "Subordonnée"
+          ],
+          "lignes": [
+            [
+              "Le livre que je lis est épais.",
+              "le nom livre, son antécédent",
+              "relative"
+            ],
+            [
+              "Je sais que tu viens.",
+              "le verbe sais",
+              "conjonctive"
+            ],
+            [
+              "La ville où je suis né est loin.",
+              "le nom ville",
+              "relative"
+            ],
+            [
+              "Il pense que la pluie cessera.",
+              "le verbe pense",
+              "conjonctive"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« L’ami dont je te parle arrive. » La subordonnée est :",
+          "options": [
+            "relative",
+            "conjonctive",
+            "interrogative"
+          ],
+          "reponse": "relative",
+          "explication": "Dont reprend l’antécédent ami."
+        }
+      ]
+    },
+    {
+      "titre": "Le test",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour distinguer",
+          "etapes": [
+            "Cherche un nom juste avant que : c’est peut-être l’antécédent.",
+            "Remplace que par ce nom : « je lis le livre ». Si ça marche, que est un pronom relatif.",
+            "Sinon, que est une conjonction : la subordonnée est conjonctive."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que toute subordonnée qui commence par que est relative.",
+          "correction": "Après un verbe comme penser, savoir ou dire, que est le plus souvent une conjonction."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je crois qu’il a raison. » La subordonnée est :",
+      "options": [
+        "conjonctive",
+        "relative",
+        "indépendante"
+      ],
+      "reponse": "conjonctive",
+      "explication": "Que complète le verbe crois."
+    },
+    {
+      "consigne": "Dans « La maison qui brule », l’antécédent est :",
+      "options": [
+        "maison",
+        "brule",
+        "qui"
+      ],
+      "reponse": "maison",
+      "explication": "Qui reprend le nom maison."
+    },
+    {
+      "consigne": "Lequel est un pronom relatif ?",
+      "options": [
+        "dont",
+        "parce que",
+        "si"
+      ],
+      "reponse": "dont",
+      "explication": "Dont reprend un antécédent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils différencient la proposition subordonnée relative de la proposition subordonnée conjonctive.",
+      "appui": "Relative ou conjonctive"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

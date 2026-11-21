@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-4E-ORTH-51",
+  "duree": 7,
+  "essentiel": "Avec avoir, le participe passé s’accorde avec le COD placé avant le verbe.\nC’est souvent le cas quand le COD est un pronom personnel : « Ces fleurs, je les ai cueillies. »\nPour accorder, on cherche ce que le pronom remplace : son genre et son nombre décident.",
+  "parties": [
+    {
+      "titre": "Le pronom COD",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accorder avec le, la, l’, les, me, te, nous, vous",
+          "colonnes": [
+            "Phrase",
+            "Le pronom remplace",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "Ces fleurs, je les ai cueillies.",
+              "ces fleurs, féminin pluriel",
+              "cueillies"
+            ],
+            [
+              "Ta lettre ? Je l’ai lue.",
+              "ta lettre, féminin singulier",
+              "lue"
+            ],
+            [
+              "Léa dit : « Tom m’a aidée. »",
+              "Léa, féminin singulier",
+              "aidée"
+            ],
+            [
+              "Les garçons ? Je les ai vus.",
+              "les garçons, masculin pluriel",
+              "vus"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mes clés ? Je les ai … » (perdre)",
+          "options": [
+            "perdues",
+            "perdu",
+            "perdus"
+          ],
+          "reponse": "perdues",
+          "explication": "Les remplace mes clés, féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Pas d’accord",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le pronom COI : « Mes sœurs ? Je leur ai parlées. »",
+          "correction": "Leur est COI : pas d’accord. Je leur ai parlé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ces chansons, nous les avons … » (chanter)",
+      "options": [
+        "chantées",
+        "chanté",
+        "chantés"
+      ],
+      "reponse": "chantées",
+      "explication": "Les : chansons, féminin pluriel."
+    },
+    {
+      "consigne": "Une fille écrit : « Mes parents m’ont … » (appeler)",
+      "options": [
+        "appelée",
+        "appelé",
+        "appelés"
+      ],
+      "reponse": "appelée",
+      "explication": "M’ désigne la fille."
+    },
+    {
+      "consigne": "« Nous avons … des pommes. » (acheter)",
+      "options": [
+        "acheté",
+        "achetées",
+        "achetés"
+      ],
+      "reponse": "acheté",
+      "explication": "Le COD est après le verbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "l’accord du participe passé avec avoir quand le COD est antéposé et quand le COD est un pronom personnel",
+      "appui": "Participe passé avec avoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

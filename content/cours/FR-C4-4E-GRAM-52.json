@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-4E-GRAM-52",
+  "duree": 6,
+  "essentiel": "Une interrogative indirecte pose une question à l’intérieur d’une phrase, après un verbe comme demander, savoir ou ignorer.\nElle commence par si, qui, ce que, où, quand, comment ou pourquoi.\nElle ne garde ni l’inversion du sujet ni le point d’interrogation : « Où vas-tu ? » devient « Je me demande où tu vas. »",
+  "parties": [
+    {
+      "titre": "Transformer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Interrogation directe et indirecte",
+          "colonnes": [
+            "Directe",
+            "Indirecte"
+          ],
+          "lignes": [
+            [
+              "Viens-tu ?",
+              "Je me demande si tu viens."
+            ],
+            [
+              "Qui a appelé ?",
+              "Dis-moi qui a appelé."
+            ],
+            [
+              "Que veux-tu ?",
+              "Je ne sais pas ce que tu veux."
+            ],
+            [
+              "Pourquoi pleure-t-il ?",
+              "J’ignore pourquoi il pleure."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Quand partez-vous ? » à l’interrogation indirecte :",
+          "options": [
+            "Je vous demande quand vous partez.",
+            "Je vous demande quand partez-vous ?",
+            "Je vous demande que vous partez."
+          ],
+          "reponse": "Je vous demande quand vous partez.",
+          "explication": "Pas d’inversion, pas de point d’interrogation."
+        }
+      ]
+    },
+    {
+      "titre": "Les erreurs fréquentes",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « Je me demande qu’est-ce que tu fais ».",
+          "correction": "« Qu’est-ce que » devient « ce que » : je me demande ce que tu fais."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Est-il prêt ? » à l’interrogation indirecte :",
+      "options": [
+        "Je me demande s’il est prêt.",
+        "Je me demande est-il prêt.",
+        "Je me demande qu’il est prêt."
+      ],
+      "reponse": "Je me demande s’il est prêt.",
+      "explication": "Une question fermée devient si."
+    },
+    {
+      "consigne": "Une interrogative indirecte se termine par :",
+      "options": [
+        "un point",
+        "un point d’interrogation",
+        "des guillemets"
+      ],
+      "reponse": "un point",
+      "explication": "La phrase entière n’est pas une question."
+    },
+    {
+      "consigne": "« J’ignore comment il a fait. » La subordonnée est :",
+      "options": [
+        "interrogative indirecte",
+        "relative",
+        "conjonctive de cause"
+      ],
+      "reponse": "interrogative indirecte",
+      "explication": "Elle dépend du verbe ignorer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils identifient la proposition subordonnée interrogative indirecte.",
+      "appui": "Interrogative indirecte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

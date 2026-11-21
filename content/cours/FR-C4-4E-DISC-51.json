@@ -1,0 +1,124 @@
+{
+  "competence": "FR-C4-4E-DISC-51",
+  "duree": 6,
+  "essentiel": "Au discours indirect, les paroles sont intégrées dans une subordonnée, sans guillemets.\nOn adapte les pronoms, les possessifs et, si le verbe introducteur est au passé, les temps.\nHugo répond : « Je suis fatigué. » devient « Hugo répond qu’il est fatigué. »",
+  "parties": [
+    {
+      "titre": "La concordance des temps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Verbe introducteur au passé",
+          "colonnes": [
+            "Discours direct",
+            "Discours indirect"
+          ],
+          "lignes": [
+            [
+              "Il dit : « Je suis fatigué. »",
+              "Il a dit qu’il était fatigué."
+            ],
+            [
+              "Il dit : « J’ai fini. »",
+              "Il a dit qu’il avait fini."
+            ],
+            [
+              "Il dit : « Je viendrai. »",
+              "Il a dit qu’il viendrait."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Elle a annoncé : « Je partirai demain. » Au discours indirect :",
+          "options": [
+            "Elle a annoncé qu’elle partirait le lendemain.",
+            "Elle a annoncé qu’elle partirai demain.",
+            "Elle a annoncé : je partirai."
+          ],
+          "reponse": "Elle a annoncé qu’elle partirait le lendemain.",
+          "explication": "Futur → conditionnel ; demain → le lendemain."
+        }
+      ]
+    },
+    {
+      "titre": "Les repères de temps et de lieu",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ils changent aussi",
+          "colonnes": [
+            "Direct",
+            "Indirect, au passé"
+          ],
+          "lignes": [
+            [
+              "aujourd’hui",
+              "ce jour-là"
+            ],
+            [
+              "demain",
+              "le lendemain"
+            ],
+            [
+              "hier",
+              "la veille"
+            ],
+            [
+              "ici",
+              "là"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On garde « demain » au discours indirect passé.",
+          "correction": "Le moment de référence a changé : demain devient le lendemain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Il a affirmé : « J’ai tout compris. » Au discours indirect :",
+      "options": [
+        "Il a affirmé qu’il avait tout compris.",
+        "Il a affirmé qu’il a tout compris.",
+        "Il a affirmé : il avait tout compris."
+      ],
+      "reponse": "Il a affirmé qu’il avait tout compris.",
+      "explication": "Passé composé → plus-que-parfait."
+    },
+    {
+      "consigne": "Au discours indirect passé, « hier » devient :",
+      "options": [
+        "la veille",
+        "le lendemain",
+        "ce jour-là"
+      ],
+      "reponse": "la veille",
+      "explication": "Le jour d’avant."
+    },
+    {
+      "consigne": "Le discours indirect se reconnait à :",
+      "options": [
+        "une subordonnée sans guillemets",
+        "des guillemets et des tirets",
+        "un point d’exclamation"
+      ],
+      "reponse": "une subordonnée sans guillemets",
+      "explication": "Les paroles sont intégrées au récit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 12,
+      "extrait": "Ils reconnaissent et utilisent les paroles rapportées indirectement.",
+      "appui": "Paroles rapportées indirectement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

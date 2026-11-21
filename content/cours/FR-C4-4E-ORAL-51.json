@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-4E-ORAL-51",
+  "duree": 5,
+  "essentiel": "Un discours oral a une visée : informer, convaincre, émouvoir ou divertir.\nUne publicité radio cherche à persuader d’acheter.\nCe qui est dit clairement est explicite ; ce qui est suggéré sans être dit est implicite.",
+  "parties": [
+    {
+      "titre": "Quatre visées",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre la visée",
+          "colonnes": [
+            "Visée",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "informer",
+              "un bulletin météo"
+            ],
+            [
+              "convaincre",
+              "un débat, une publicité"
+            ],
+            [
+              "émouvoir",
+              "un témoignage"
+            ],
+            [
+              "divertir",
+              "un sketch"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un candidat explique pourquoi il faut voter pour lui. Visée :",
+          "options": [
+            "convaincre",
+            "divertir",
+            "informer seulement"
+          ],
+          "reponse": "convaincre",
+          "explication": "Il cherche à faire adhérer."
+        }
+      ]
+    },
+    {
+      "titre": "Explicite et implicite",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Tu as vu l’heure ? » ne demande pas l’heure : la phrase suggère que la personne est en retard. C’est implicite."
+        },
+        {
+          "type": "piege",
+          "erreur": "On ne retient que les mots prononcés.",
+          "correction": "Le ton, la musique et ce qui est sous-entendu comptent aussi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un journal radio du matin a pour visée principale :",
+      "options": [
+        "informer",
+        "divertir",
+        "émouvoir"
+      ],
+      "reponse": "informer",
+      "explication": "Il rapporte des faits."
+    },
+    {
+      "consigne": "« Il fait froid ici… » pour demander de fermer la fenêtre : la demande est :",
+      "options": [
+        "implicite",
+        "explicite",
+        "absente"
+      ],
+      "reponse": "implicite",
+      "explication": "Elle est suggérée."
+    },
+    {
+      "consigne": "Un humoriste sur scène veut surtout :",
+      "options": [
+        "divertir",
+        "informer",
+        "convaincre"
+      ],
+      "reponse": "divertir",
+      "explication": "Faire rire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 14,
+      "extrait": "Identifier les visées d’un discours oral",
+      "appui": "Visées d’un discours oral"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

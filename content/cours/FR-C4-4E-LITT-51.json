@@ -1,0 +1,132 @@
+{
+  "competence": "FR-C4-4E-LITT-51",
+  "duree": 7,
+  "essentiel": "La poésie lyrique exprime les sentiments du poète, souvent à la première personne.\nLa poésie amoureuse traverse les époques : Ronsard et Louise Labé au XVIe siècle, Victor Hugo au XIXe, Apollinaire au XXe.\nSes procédés : le je, l’apostrophe à l’être aimé, les images, le rythme et les rimes.",
+  "parties": [
+    {
+      "titre": "Les procédés lyriques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre le lyrisme",
+          "colonnes": [
+            "Procédé",
+            "Effet"
+          ],
+          "lignes": [
+            [
+              "première personne",
+              "le poète parle de lui"
+            ],
+            [
+              "apostrophe",
+              "il s’adresse directement à l’être aimé"
+            ],
+            [
+              "champ lexical des sentiments",
+              "amour, souffrance, manque"
+            ],
+            [
+              "images",
+              "comparaisons et métaphores, souvent tirées de la nature"
+            ],
+            [
+              "rythme, rimes",
+              "musicalité du poème"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ô toi que j’aime » contient :",
+          "options": [
+            "une apostrophe",
+            "une comparaison",
+            "une interrogation indirecte"
+          ],
+          "reponse": "une apostrophe",
+          "explication": "Le poète s’adresse directement à quelqu’un."
+        }
+      ]
+    },
+    {
+      "titre": "À travers les siècles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques poètes",
+          "colonnes": [
+            "Siècle",
+            "Poète",
+            "Thème fréquent"
+          ],
+          "lignes": [
+            [
+              "XVIe",
+              "Ronsard, Louise Labé",
+              "la beauté qui passe, la rose, le temps"
+            ],
+            [
+              "XIXe",
+              "Victor Hugo, Marceline Desbordes-Valmore",
+              "l’amour, le souvenir"
+            ],
+            [
+              "XXe",
+              "Apollinaire",
+              "l’amour perdu, le temps qui s’écoule"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le je du poème est toujours le poète lui-même.",
+          "correction": "Le je lyrique peut être un personnage ou une voix inventée : on parle de « je lyrique »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La poésie lyrique exprime surtout :",
+      "options": [
+        "des sentiments",
+        "des faits scientifiques",
+        "des consignes"
+      ],
+      "reponse": "des sentiments",
+      "explication": "Elle vient de la lyre, l’instrument du poète."
+    },
+    {
+      "consigne": "Ronsard écrit au :",
+      "options": [
+        "XVIe siècle",
+        "XIXe siècle",
+        "Moyen Âge"
+      ],
+      "reponse": "XVIe siècle",
+      "explication": "C’est un poète de la Renaissance."
+    },
+    {
+      "consigne": "Un poème lyrique est souvent écrit à la :",
+      "options": [
+        "première personne",
+        "troisième personne seulement",
+        "deuxième personne seulement"
+      ],
+      "reponse": "première personne",
+      "explication": "Le poète dit je."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 30,
+      "extrait": "découvrir des poèmes de différentes époques exprimant les variations du discours amoureux",
+      "appui": "Dire l’amour"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

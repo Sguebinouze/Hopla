@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-4E-GRAM-54",
+  "duree": 7,
+  "essentiel": "Le complément circonstanciel de conséquence exprime le résultat d’une action.\nIl est introduit par si bien que, de sorte que, si… que, tellement… que, au point de.\nLa cause répond à « pourquoi ? » ; le but, à « dans quelle intention ? » ; la conséquence, à « avec quel résultat ? ».",
+  "parties": [
+    {
+      "titre": "Cause, conséquence, but",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois relations",
+          "colonnes": [
+            "Relation",
+            "Outils",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "cause",
+              "parce que, car, puisque, comme",
+              "Les routes sont bloquées parce qu’il a neigé."
+            ],
+            [
+              "conséquence",
+              "si bien que, de sorte que, tellement… que",
+              "Il a neigé, si bien que les routes sont bloquées."
+            ],
+            [
+              "but",
+              "pour que, afin que, pour, afin de",
+              "On sale les routes pour qu’elles restent praticables."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il a tellement couru qu’il est épuisé. » La subordonnée exprime :",
+          "options": [
+            "la conséquence",
+            "la cause",
+            "le but"
+          ],
+          "reponse": "la conséquence",
+          "explication": "Épuisé est le résultat de la course."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond but et conséquence : « Il travaille pour réussir » serait une conséquence.",
+          "correction": "Pour réussir exprime une intention, pas un résultat obtenu : c’est un but."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il pleuvait si fort que le match fut annulé. » C’est :",
+      "options": [
+        "une conséquence",
+        "une cause",
+        "un but"
+      ],
+      "reponse": "une conséquence",
+      "explication": "Si… que : le résultat de la pluie."
+    },
+    {
+      "consigne": "« Je me dépêche afin d’arriver à l’heure. » C’est :",
+      "options": [
+        "un but",
+        "une conséquence",
+        "une cause"
+      ],
+      "reponse": "un but",
+      "explication": "Une intention."
+    },
+    {
+      "consigne": "« Comme il était malade, il resta au lit. » C’est :",
+      "options": [
+        "une cause",
+        "une conséquence",
+        "un but"
+      ],
+      "reponse": "une cause",
+      "explication": "Comme introduit la cause en tête de phrase."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 7,
+      "extrait": "les compléments circonstanciels de conséquence.",
+      "appui": "Complément de conséquence"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-4E-IMG-51",
+  "duree": 6,
+  "essentiel": "Analyser une image, c’est décrire ce qu’on voit, puis expliquer les choix de l’auteur.\nOn observe le cadrage, le plan, l’angle de vue, la composition, la lumière et les couleurs.\nUne contre-plongée grandit le personnage et lui donne de la puissance.",
+  "parties": [
+    {
+      "titre": "Les outils",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vocabulaire de l’image",
+          "colonnes": [
+            "Notion",
+            "Exemples et effets"
+          ],
+          "lignes": [
+            [
+              "plan",
+              "plan d’ensemble : décor ; gros plan : émotion du visage"
+            ],
+            [
+              "angle de vue",
+              "plongée : écrase ; contre-plongée : grandit"
+            ],
+            [
+              "composition",
+              "lignes de force, premier plan, arrière-plan"
+            ],
+            [
+              "couleurs",
+              "chaudes : énergie ; froides : calme ou tristesse"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un personnage photographié d’en haut paraît :",
+          "options": [
+            "petit, vulnérable",
+            "puissant",
+            "immense"
+          ],
+          "reponse": "petit, vulnérable",
+          "explication": "C’est une plongée."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire puis interpréter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour analyser une affiche",
+          "etapes": [
+            "Identifie : auteur, date, nature de l’image.",
+            "Décris : personnages, décor, texte, couleurs.",
+            "Analyse : plan, angle, composition.",
+            "Interprète : quelle intention, quel effet sur le spectateur ?"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne son avis avant d’avoir décrit l’image.",
+          "correction": "On part de ce qu’on voit : chaque interprétation s’appuie sur un élément visible."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un gros plan sur un visage sert surtout à montrer :",
+      "options": [
+        "une émotion",
+        "le décor",
+        "la foule"
+      ],
+      "reponse": "une émotion",
+      "explication": "On voit l’expression de près."
+    },
+    {
+      "consigne": "Un plan d’ensemble montre :",
+      "options": [
+        "le décor et la situation",
+        "un détail",
+        "les yeux d’un personnage"
+      ],
+      "reponse": "le décor et la situation",
+      "explication": "Vue large."
+    },
+    {
+      "consigne": "Des couleurs froides créent souvent une impression de :",
+      "options": [
+        "calme ou tristesse",
+        "colère",
+        "chaleur"
+      ],
+      "reponse": "calme ou tristesse",
+      "explication": "Bleus, verts, gris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 16,
+      "extrait": "Savoir décrire et analyser l’image fixe",
+      "appui": "Analyser une image fixe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

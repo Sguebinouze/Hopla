@@ -1,0 +1,133 @@
+{
+  "competence": "FR-C4-4E-LITT-52",
+  "duree": 7,
+  "essentiel": "Au XVIIe siècle, la tragédie et la comédie mettent en scène des conflits entre l’individu et la société.\nDans Le Cid de Corneille (1637), Rodrigue doit choisir entre son amour pour Chimène et l’honneur de sa famille.\nMolière, dans ses comédies, se moque des défauts : l’avarice, la vanité, l’hypocrisie.",
+  "parties": [
+    {
+      "titre": "Tragédie et comédie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Critère",
+            "Tragédie",
+            "Comédie"
+          ],
+          "lignes": [
+            [
+              "personnages",
+              "rois, héros, nobles",
+              "bourgeois, valets"
+            ],
+            [
+              "conflit",
+              "devoir contre passion",
+              "défaut ridicule contre bon sens"
+            ],
+            [
+              "dénouement",
+              "souvent malheureux",
+              "heureux, souvent un mariage"
+            ],
+            [
+              "but",
+              "émouvoir",
+              "faire rire et corriger les mœurs"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le dilemme de Rodrigue oppose :",
+          "options": [
+            "l’amour et l’honneur",
+            "l’argent et la santé",
+            "la ville et la campagne"
+          ],
+          "reponse": "l’amour et l’honneur",
+          "explication": "Venger son père, c’est blesser Chimène."
+        }
+      ]
+    },
+    {
+      "titre": "Des comédies de Molière",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois pièces",
+          "colonnes": [
+            "Pièce",
+            "Date",
+            "Défaut moqué"
+          ],
+          "lignes": [
+            [
+              "L’Avare",
+              "1668",
+              "l’avarice d’Harpagon"
+            ],
+            [
+              "Le Bourgeois gentilhomme",
+              "1670",
+              "la vanité de M. Jourdain"
+            ],
+            [
+              "Les Fourberies de Scapin",
+              "1671",
+              "l’autorité ridicule des pères"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une comédie ne parle de rien de sérieux.",
+          "correction": "Elle fait rire pour faire réfléchir aux défauts de la société."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un dilemme est :",
+      "options": [
+        "un choix difficile entre deux exigences",
+        "une dispute",
+        "un monologue"
+      ],
+      "reponse": "un choix difficile entre deux exigences",
+      "explication": "Comme celui de Rodrigue."
+    },
+    {
+      "consigne": "Harpagon, dans L’Avare, est :",
+      "options": [
+        "avare",
+        "généreux",
+        "courageux"
+      ],
+      "reponse": "avare",
+      "explication": "Molière se moque de son avarice."
+    },
+    {
+      "consigne": "Le dénouement d’une comédie est souvent :",
+      "options": [
+        "heureux",
+        "tragique",
+        "absent"
+      ],
+      "reponse": "heureux",
+      "explication": "Souvent un mariage."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 30,
+      "extrait": "la confrontation des valeurs portées par les personnages",
+      "appui": "Individu et société"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

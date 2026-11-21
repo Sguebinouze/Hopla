@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-4E-GRAM-53",
+  "duree": 6,
+  "essentiel": "L’apposition apporte une précision sur un nom ou un pronom. Elle en est séparée par une virgule ou par deux-points.\nElle peut être un groupe nominal, un adjectif ou un participe : « Paris, capitale de la France, attire les touristes. »\nL’apposition désigne la même réalité que le nom ; on peut la supprimer sans rendre la phrase fausse.",
+  "parties": [
+    {
+      "titre": "Apposition, épithète, complément du nom",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Exemple",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "Paris, capitale de la France, attire les touristes.",
+              "apposition"
+            ],
+            [
+              "Une ville immense",
+              "épithète, sans virgule"
+            ],
+            [
+              "La capitale de la France",
+              "complément du nom, sans virgule"
+            ],
+            [
+              "Épuisé, le coureur s’assit.",
+              "apposition, détachée en tête"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Léa, fatiguée, s’endormit », « fatiguée » est :",
+          "options": [
+            "apposé",
+            "épithète",
+            "attribut du sujet"
+          ],
+          "reponse": "apposé",
+          "explication": "Il est détaché par des virgules."
+        }
+      ]
+    },
+    {
+      "titre": "La virgule change le sens",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Les élèves, fatigués, sont rentrés » : tous les élèves sont fatigués. « Les élèves fatigués sont rentrés » : seulement ceux qui l’étaient."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond apposition et complément du nom : « la tour Eiffel, monument de Paris ».",
+          "correction": "Monument de Paris désigne la tour Eiffel elle-même, et la virgule le détache : c’est une apposition."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Victor Hugo, écrivain célèbre, est né en 1802 », « écrivain célèbre » est :",
+      "options": [
+        "une apposition",
+        "un complément du nom",
+        "un COD"
+      ],
+      "reponse": "une apposition",
+      "explication": "Il désigne Victor Hugo et il est détaché."
+    },
+    {
+      "consigne": "Une apposition est généralement séparée du nom par :",
+      "options": [
+        "une virgule",
+        "une préposition",
+        "rien"
+      ],
+      "reponse": "une virgule",
+      "explication": "Ou par deux-points."
+    },
+    {
+      "consigne": "Dans « une robe de soie », « de soie » est :",
+      "options": [
+        "un complément du nom",
+        "une apposition",
+        "un attribut"
+      ],
+      "reponse": "un complément du nom",
+      "explication": "Pas de virgule, une préposition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 7,
+      "extrait": "Ils élargissent leurs connaissances des fonctions grammaticales en identifiant l’apposition et en distinguant cette fonction de l’épithète et du complément du nom.",
+      "appui": "L’apposition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

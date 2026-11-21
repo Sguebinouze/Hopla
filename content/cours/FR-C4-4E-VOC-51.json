@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-4E-VOC-51",
+  "duree": 5,
+  "essentiel": "Des mots de sens voisin peuvent exprimer une même idée avec plus ou moins de force.\nOn les classe par degré d’intensité : tiède < chaud < brulant.\nChoisir le bon degré rend l’expression précise.",
+  "parties": [
+    {
+      "titre": "Graduer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du plus faible au plus fort",
+          "colonnes": [
+            "Idée",
+            "Gradation"
+          ],
+          "lignes": [
+            [
+              "température",
+              "tiède, chaud, brulant"
+            ],
+            [
+              "peur",
+              "inquiétude, peur, terreur"
+            ],
+            [
+              "colère",
+              "agacement, colère, fureur"
+            ],
+            [
+              "joie",
+              "contentement, joie, euphorie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel exprime la peur la plus forte ?",
+          "options": [
+            "l’épouvante",
+            "l’inquiétude",
+            "la crainte"
+          ],
+          "reponse": "l’épouvante",
+          "explication": "L’épouvante est une peur extrême."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir le mot juste",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On emploie toujours le mot le plus fort pour faire de l’effet.",
+          "correction": "Un mot trop fort sonne faux : un léger retard ne provoque pas une fureur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Range du plus faible au plus fort :",
+      "options": [
+        "murmurer, parler, crier",
+        "crier, parler, murmurer",
+        "parler, crier, murmurer"
+      ],
+      "reponse": "murmurer, parler, crier",
+      "explication": "Le volume augmente."
+    },
+    {
+      "consigne": "Lequel est le plus fort ?",
+      "options": [
+        "adorer",
+        "aimer",
+        "apprécier"
+      ],
+      "reponse": "adorer",
+      "explication": "Adorer est le degré le plus élevé."
+    },
+    {
+      "consigne": "Un degré plus faible que « froid » :",
+      "options": [
+        "frais",
+        "glacial",
+        "gelé"
+      ],
+      "reponse": "frais",
+      "explication": "Frais < froid < glacial."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 11,
+      "extrait": "organisent leur classement par degré d'intensité et de généralité.",
+      "appui": "Degrés d’intensité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

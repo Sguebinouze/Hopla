@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C4-4E-LITT-53",
+  "duree": 7,
+  "essentiel": "Le récit réaliste du XIXe siècle décrit le monde tel qu’il est, avec précision : Balzac, Maupassant. Zola pousse cette démarche dans le naturalisme.\nLe récit fantastique fait surgir un évènement étrange dans un cadre réaliste.\nLe lecteur hésite entre une explication rationnelle et une explication surnaturelle, comme dans Le Horla de Maupassant (1887).",
+  "parties": [
+    {
+      "titre": "Réaliste ou fantastique ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux types de récits",
+          "colonnes": [
+            "Critère",
+            "Réaliste",
+            "Fantastique"
+          ],
+          "lignes": [
+            [
+              "cadre",
+              "vrai, précis, daté",
+              "réaliste au départ"
+            ],
+            [
+              "évènement",
+              "possible",
+              "étrange, inexpliqué"
+            ],
+            [
+              "effet",
+              "faire voir la société",
+              "faire douter, inquiéter"
+            ],
+            [
+              "exemples",
+              "Boule de suif, Maupassant",
+              "Le Horla, Maupassant ; La Vénus d’Ille, Mérimée"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans un récit fantastique, le lecteur :",
+          "options": [
+            "hésite entre deux explications",
+            "sait tout de suite que c’est de la magie",
+            "lit un conte de fées"
+          ],
+          "reponse": "hésite entre deux explications",
+          "explication": "Est-ce réel ou imaginaire ?"
+        }
+      ]
+    },
+    {
+      "titre": "Les marques du doute",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des indices du fantastique.",
+          "exemples": [
+            "un narrateur souvent à la première personne",
+            "des modalisateurs : il me sembla, peut-être, je crus voir",
+            "la nuit, la solitude, un objet étrange"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On classe dans le fantastique un récit où les fées existent sans surprise.",
+          "correction": "C’est du merveilleux. Le fantastique repose sur le doute."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il me sembla que la statue avait bougé. » Cette phrase marque :",
+      "options": [
+        "le doute",
+        "une certitude",
+        "une description réaliste"
+      ],
+      "reponse": "le doute",
+      "explication": "Il me sembla : un modalisateur."
+    },
+    {
+      "consigne": "Zola est un écrivain :",
+      "options": [
+        "naturaliste",
+        "fantastique",
+        "du Moyen Âge"
+      ],
+      "reponse": "naturaliste",
+      "explication": "Il pousse loin la démarche réaliste."
+    },
+    {
+      "consigne": "Le Horla a été écrit par :",
+      "options": [
+        "Maupassant",
+        "Molière",
+        "Ronsard"
+      ],
+      "reponse": "Maupassant",
+      "explication": "En 1887."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 31,
+      "extrait": "comprendre quelles sont les ambitions du roman réaliste ou naturaliste",
+      "appui": "Réalisme et fantastique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

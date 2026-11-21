@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-4E-LECT-51",
+  "duree": 6,
+  "essentiel": "Pour justifier une interprétation, on cite le texte entre guillemets, puis on explique ce que la citation montre.\nUne citation seule ne prouve rien : il faut faire le lien avec l’idée.\n« Il serrait les poings » : la citation montre sa colère retenue.",
+  "parties": [
+    {
+      "titre": "Idée, citation, explication",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Construire une justification",
+          "etapes": [
+            "Énonce ton idée : le personnage est en colère.",
+            "Cite le texte : « il serrait les poings ».",
+            "Explique : ce geste montre une colère qu’il retient."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Après une citation, il faut :",
+          "options": [
+            "expliquer ce qu’elle montre",
+            "passer à autre chose",
+            "la recopier deux fois"
+          ],
+          "reponse": "expliquer ce qu’elle montre",
+          "explication": "L’explication fait le lien avec l’idée."
+        }
+      ]
+    },
+    {
+      "titre": "Bien citer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les règles",
+          "colonnes": [
+            "Règle",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "citer exactement, entre guillemets",
+              "« il serrait les poings »"
+            ],
+            [
+              "couper avec […]",
+              "« il serrait […] les poings »"
+            ],
+            [
+              "intégrer à sa phrase",
+              "Le narrateur précise qu’« il serrait les poings »."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On cite un long passage sans dire quels mots comptent.",
+          "correction": "On choisit quelques mots précis et on les commente."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Elle baissa les yeux et rougit. » Cette citation montre plutôt :",
+      "options": [
+        "sa gêne",
+        "sa colère",
+        "sa joie bruyante"
+      ],
+      "reponse": "sa gêne",
+      "explication": "Baisser les yeux, rougir : des signes de gêne."
+    },
+    {
+      "consigne": "Pour supprimer des mots dans une citation, on utilise :",
+      "options": [
+        "[…]",
+        "( )",
+        "< >"
+      ],
+      "reponse": "[…]",
+      "explication": "Les crochets signalent une coupure."
+    },
+    {
+      "consigne": "Une interprétation solide s’appuie sur :",
+      "options": [
+        "des citations commentées",
+        "une impression",
+        "le résumé du livre"
+      ],
+      "reponse": "des citations commentées",
+      "explication": "Idée, citation, explication."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 16,
+      "extrait": "Être capable de justifier son interprétation",
+      "appui": "Justifier son interprétation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
