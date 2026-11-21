@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C2-CE2-DEV-01",
+  "duree": 4,
+  "essentiel": "La devise de la République est « Liberté, Égalité, Fraternité ».\nLes trois mots vont ensemble.\nMa liberté s’arrête là où commence celle des autres.",
+  "parties": [
+    {
+      "titre": "Trois mots",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comprendre la devise",
+          "colonnes": [
+            "Mot",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "Liberté",
+              "Je peux dire ce que je pense, sans blesser."
+            ],
+            [
+              "Égalité",
+              "Filles et garçons ont les mêmes droits."
+            ],
+            [
+              "Fraternité",
+              "J’aide un camarade en difficulté."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Filles et garçons ont les mêmes droits. » C’est :",
+          "options": [
+            "l’égalité",
+            "la liberté",
+            "la fraternité"
+          ],
+          "reponse": "l’égalité",
+          "explication": "Les mêmes droits pour tous."
+        }
+      ]
+    },
+    {
+      "titre": "Des liens",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la liberté permet de tout faire.",
+          "correction": "Ma liberté ne doit pas blesser les autres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Aider un camarade, c’est :",
+      "options": [
+        "la fraternité",
+        "l’égalité",
+        "la liberté"
+      ],
+      "reponse": "la fraternité",
+      "explication": "S’entraider."
+    },
+    {
+      "consigne": "La devise est écrite sur :",
+      "options": [
+        "la façade de l’école",
+        "les voitures",
+        "les arbres"
+      ],
+      "reponse": "la façade de l’école",
+      "explication": "Et sur les mairies."
+    },
+    {
+      "consigne": "La liberté permet :",
+      "options": [
+        "de penser et de parler sans blesser",
+        "de tout faire",
+        "de taper"
+      ],
+      "reponse": "de penser et de parler sans blesser",
+      "explication": "Elle a des limites."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 13,
+      "extrait": "entre les différents éléments de la devise de la République : la liberté",
+      "appui": "Liberté, Égalité, Fraternité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

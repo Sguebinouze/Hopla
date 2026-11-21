@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C2-CP-REG-01",
+  "duree": 5,
+  "essentiel": "À l’école, des règles nous permettent de bien vivre ensemble.\nJ’ai des droits : apprendre, être protégé, être respecté.\nJ’ai des devoirs : respecter les autres et les règles.",
+  "parties": [
+    {
+      "titre": "Les règles de la classe",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Droits et devoirs",
+          "colonnes": [
+            "J’ai le droit de…",
+            "Je dois…"
+          ],
+          "lignes": [
+            [
+              "apprendre",
+              "écouter la maitresse ou le maitre"
+            ],
+            [
+              "parler",
+              "lever la main"
+            ],
+            [
+              "jouer",
+              "respecter les autres"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour parler en classe, je :",
+          "options": [
+            "lève la main",
+            "crie mon idée",
+            "coupe la parole"
+          ],
+          "reponse": "lève la main",
+          "explication": "Chacun parle à son tour."
+        }
+      ]
+    },
+    {
+      "titre": "Les adultes de l’école",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les adultes de l’école m’aident et me protègent. Je peux leur parler."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les règles servent à punir.",
+          "correction": "Les règles protègent chacun. Elles aident à apprendre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "À l’école, j’ai le droit :",
+      "options": [
+        "d’apprendre",
+        "de taper",
+        "de casser"
+      ],
+      "reponse": "d’apprendre",
+      "explication": "C’est un droit pour tous."
+    },
+    {
+      "consigne": "Si un camarade me fait mal, je :",
+      "options": [
+        "le dis à un adulte",
+        "le tape",
+        "ne dis rien"
+      ],
+      "reponse": "le dis à un adulte",
+      "explication": "Les adultes me protègent."
+    },
+    {
+      "consigne": "Les règles servent à :",
+      "options": [
+        "bien vivre ensemble",
+        "punir",
+        "rien"
+      ],
+      "reponse": "bien vivre ensemble",
+      "explication": "Elles protègent chacun."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Les règles collectives et l’autonomie",
+      "appui": "Les règles de l’école"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

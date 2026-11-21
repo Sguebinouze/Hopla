@@ -1,0 +1,89 @@
+{
+  "competence": "EM-C2-CP-REP-01",
+  "duree": 4,
+  "essentiel": "Le drapeau français est bleu, blanc, rouge.\nL’hymne national est La Marseillaise.\nCe sont des symboles de la République française.",
+  "parties": [
+    {
+      "titre": "Le drapeau",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Où voit-on le drapeau ?",
+          "exemples": [
+            "sur la mairie",
+            "sur l’école",
+            "lors des fêtes nationales"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les couleurs du drapeau français sont :",
+          "options": [
+            "bleu, blanc, rouge",
+            "vert, blanc, rouge",
+            "bleu, jaune, rouge"
+          ],
+          "reponse": "bleu, blanc, rouge",
+          "explication": "Dans cet ordre, de gauche à droite."
+        }
+      ]
+    },
+    {
+      "titre": "L’hymne",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La Marseillaise se chante lors des fêtes nationales. On l’écoute debout, avec respect."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’hymne est une chanson comme les autres.",
+          "correction": "C’est le chant de la République. On le respecte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’hymne national s’appelle :",
+      "options": [
+        "La Marseillaise",
+        "Frère Jacques",
+        "Au clair de la lune"
+      ],
+      "reponse": "La Marseillaise",
+      "explication": "Le chant de la République."
+    },
+    {
+      "consigne": "Le drapeau flotte souvent sur :",
+      "options": [
+        "la mairie",
+        "la boulangerie",
+        "le parc"
+      ],
+      "reponse": "la mairie",
+      "explication": "Un bâtiment public."
+    },
+    {
+      "consigne": "Quelle couleur est au milieu du drapeau ?",
+      "options": [
+        "blanc",
+        "bleu",
+        "rouge"
+      ],
+      "reponse": "blanc",
+      "explication": "Bleu, blanc, rouge."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Être élève à l’école de la République",
+      "appui": "Le drapeau et la Marseillaise"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

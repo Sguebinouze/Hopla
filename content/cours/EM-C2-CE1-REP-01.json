@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C2-CE1-REP-01",
+  "duree": 4,
+  "essentiel": "La devise de la République est « Liberté, Égalité, Fraternité ».\nOn la lit sur les mairies et les écoles.\nLe drapeau, La Marseillaise et Marianne sont d’autres symboles.",
+  "parties": [
+    {
+      "titre": "Les symboles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les symboles de la République",
+          "colonnes": [
+            "Symbole",
+            "À retenir"
+          ],
+          "lignes": [
+            [
+              "drapeau",
+              "bleu, blanc, rouge"
+            ],
+            [
+              "hymne",
+              "La Marseillaise"
+            ],
+            [
+              "devise",
+              "Liberté, Égalité, Fraternité"
+            ],
+            [
+              "Marianne",
+              "une femme qui représente la République"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La devise de la République est :",
+          "options": [
+            "Liberté, Égalité, Fraternité",
+            "Un pour tous, tous pour un",
+            "Travail, Jeu, Repos"
+          ],
+          "reponse": "Liberté, Égalité, Fraternité",
+          "explication": "Elle est sur les mairies."
+        }
+      ]
+    },
+    {
+      "titre": "Comprendre la devise",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Liberté : je peux penser et parler. Égalité : on a tous les mêmes droits. Fraternité : on s’entraide."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Marianne est une vraie personne célèbre.",
+          "correction": "Marianne est un symbole. Elle représente la République."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Marianne représente :",
+      "options": [
+        "la République",
+        "une reine",
+        "une actrice"
+      ],
+      "reponse": "la République",
+      "explication": "Son buste est dans les mairies."
+    },
+    {
+      "consigne": "Fraternité veut dire :",
+      "options": [
+        "s’entraider",
+        "se disputer",
+        "être seul"
+      ],
+      "reponse": "s’entraider",
+      "explication": "Comme des frères et sœurs."
+    },
+    {
+      "consigne": "Égalité veut dire :",
+      "options": [
+        "les mêmes droits pour tous",
+        "la même taille pour tous",
+        "les mêmes vêtements"
+      ],
+      "reponse": "les mêmes droits pour tous",
+      "explication": "Devant la loi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Principes et symboles de la République",
+      "appui": "Les symboles de la République"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

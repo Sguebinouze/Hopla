@@ -1,0 +1,85 @@
+{
+  "competence": "EM-C2-CE1-ALT-01",
+  "duree": 5,
+  "essentiel": "Je fais attention aux émotions des autres.\nJe propose mon aide à un camarade seul ou triste.\nJe refuse les moqueries.",
+  "parties": [
+    {
+      "titre": "S’entraider",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des gestes d’entraide.",
+          "exemples": [
+            "Je propose à un camarade seul de jouer.",
+            "J’aide un ami à ramasser ses affaires.",
+            "J’explique une consigne à un voisin."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un camarade pleure dans la cour. Je :",
+          "options": [
+            "lui demande ce qui ne va pas",
+            "me moque de lui",
+            "fais comme si de rien n’était"
+          ],
+          "reponse": "lui demande ce qui ne va pas",
+          "explication": "Je fais attention à lui."
+        }
+      ]
+    },
+    {
+      "titre": "Refuser les moqueries",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que se moquer, c’est juste pour rire.",
+          "correction": "La moquerie blesse. On peut rire avec quelqu’un, pas de quelqu’un."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un nouvel élève est seul. Je :",
+      "options": [
+        "l’invite à jouer",
+        "l’ignore",
+        "me moque de lui"
+      ],
+      "reponse": "l’invite à jouer",
+      "explication": "Je l’accueille."
+    },
+    {
+      "consigne": "Se moquer de quelqu’un :",
+      "options": [
+        "le blesse",
+        "le fait rire",
+        "n’a aucun effet"
+      ],
+      "reponse": "le blesse",
+      "explication": "La moquerie fait mal."
+    },
+    {
+      "consigne": "S’entraider, c’est :",
+      "options": [
+        "s’aider les uns les autres",
+        "s’ignorer",
+        "se disputer"
+      ],
+      "reponse": "s’aider les uns les autres",
+      "explication": "Chacun aide l’autre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Altérité et sociabilité",
+      "appui": "Respecter les autres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

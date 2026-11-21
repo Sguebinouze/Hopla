@@ -1,0 +1,112 @@
+{
+  "competence": "EM-C2-CE1-ALERT-01",
+  "duree": 5,
+  "essentiel": "Devant un danger, je me protège d’abord.\nPuis j’alerte : j’appelle le bon numéro.\nJe dis mon nom, le lieu et ce qui se passe.",
+  "parties": [
+    {
+      "titre": "Passer un message d’alerte",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Au téléphone",
+          "etapes": [
+            "Je donne mon nom.",
+            "Je dis où je suis.",
+            "Je dis ce qui se passe.",
+            "Je ne raccroche pas avant qu’on me le dise."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Au téléphone avec les secours, je dis d’abord :",
+          "options": [
+            "qui je suis et où je suis",
+            "mon jeu préféré",
+            "rien"
+          ],
+          "reponse": "qui je suis et où je suis",
+          "explication": "Les secours doivent me trouver."
+        }
+      ]
+    },
+    {
+      "titre": "Le bon numéro",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Numéros d’urgence",
+          "colonnes": [
+            "Numéro",
+            "Situation"
+          ],
+          "lignes": [
+            [
+              "15",
+              "une personne malade ou blessée"
+            ],
+            [
+              "17",
+              "une bagarre, un vol"
+            ],
+            [
+              "18",
+              "un feu"
+            ],
+            [
+              "112",
+              "toute urgence"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On raccroche très vite.",
+          "correction": "On attend que les secours aient tout compris."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mamie ne se réveille pas. J’appelle le :",
+      "options": [
+        "15",
+        "17",
+        "18"
+      ],
+      "reponse": "15",
+      "explication": "Le SAMU soigne."
+    },
+    {
+      "consigne": "Je vois de la fumée dans un immeuble. J’appelle le :",
+      "options": [
+        "18",
+        "15",
+        "17"
+      ],
+      "reponse": "18",
+      "explication": "Les pompiers."
+    },
+    {
+      "consigne": "Avant d’alerter, je :",
+      "options": [
+        "me mets en sécurité",
+        "m’approche du danger",
+        "filme"
+      ],
+      "reponse": "me mets en sécurité",
+      "explication": "Je me protège d’abord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 12,
+      "extrait": "savoir où trouver les numéros d’urgence",
+      "appui": "Donner l’alerte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

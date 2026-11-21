@@ -1,0 +1,90 @@
+{
+  "competence": "EM-C2-CE2-BIEN-01",
+  "duree": 5,
+  "essentiel": "Le bien commun appartient à tous : le parc, l’école, la rivière.\nJ’en prends soin pour que chacun en profite.\nProtéger l’environnement, c’est aussi protéger le bien commun.",
+  "parties": [
+    {
+      "titre": "Prendre soin",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des biens communs.",
+          "exemples": [
+            "le parc de la ville",
+            "la bibliothèque",
+            "la rivière",
+            "l’air que nous respirons"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le parc appartient :",
+          "options": [
+            "à tous",
+            "au jardinier seul",
+            "à personne"
+          ],
+          "reponse": "à tous",
+          "explication": "Chacun en profite."
+        }
+      ]
+    },
+    {
+      "titre": "Intérêt de chacun, intérêt de tous",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Je pourrais jeter mon papier par terre. Mais le parc serait sale pour tous."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un bien commun n’est à personne.",
+          "correction": "Il est à tout le monde. Chacun doit le respecter."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Au parc, mon papier va :",
+      "options": [
+        "dans la poubelle",
+        "par terre",
+        "dans l’herbe"
+      ],
+      "reponse": "dans la poubelle",
+      "explication": "Le parc reste propre."
+    },
+    {
+      "consigne": "L’air que nous respirons est :",
+      "options": [
+        "un bien commun",
+        "à une seule personne",
+        "à vendre"
+      ],
+      "reponse": "un bien commun",
+      "explication": "Il est à tous."
+    },
+    {
+      "consigne": "Abimer un banc public, c’est :",
+      "options": [
+        "abimer le bien de tous",
+        "sans importance",
+        "autorisé"
+      ],
+      "reponse": "abimer le bien de tous",
+      "explication": "Il sert à tout le monde."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "L’engagement pour le bien commun",
+      "appui": "Le bien commun"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

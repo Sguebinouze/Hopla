@@ -1,0 +1,115 @@
+{
+  "competence": "EM-C2-CP-SOI-01",
+  "duree": 5,
+  "essentiel": "Je peux ressentir de la joie, de la tristesse, de la peur.\nJe peux aussi ressentir de la colère ou de la surprise.\nJe dis ce que je ressens avec des mots, sans taper.",
+  "parties": [
+    {
+      "titre": "Nommer mes émotions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Cinq émotions",
+          "colonnes": [
+            "Émotion",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "joie",
+              "Je ris avec mes amis."
+            ],
+            [
+              "tristesse",
+              "Mon doudou est perdu."
+            ],
+            [
+              "peur",
+              "L’orage gronde."
+            ],
+            [
+              "colère",
+              "On a cassé mon dessin."
+            ],
+            [
+              "surprise",
+              "Un cadeau inattendu !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Ton ami a cassé ton jouet. Que fais-tu ?",
+          "options": [
+            "Je dis que je suis en colère.",
+            "Je le tape.",
+            "Je crie très fort."
+          ],
+          "reponse": "Je dis que je suis en colère.",
+          "explication": "Les mots aident à se calmer."
+        }
+      ]
+    },
+    {
+      "titre": "Se calmer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Quand je suis en colère",
+          "etapes": [
+            "Je respire lentement.",
+            "Je compte jusqu’à cinq.",
+            "Je dis ce qui ne va pas."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la colère est interdite.",
+          "correction": "Toutes les émotions sont normales. On apprend à les dire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Tu pleures car ton chat est malade. Tu ressens :",
+      "options": [
+        "de la tristesse",
+        "de la joie",
+        "de la surprise"
+      ],
+      "reponse": "de la tristesse",
+      "explication": "Tu as du chagrin."
+    },
+    {
+      "consigne": "Pour dire ta colère, tu utilises :",
+      "options": [
+        "des mots",
+        "tes poings",
+        "des cris"
+      ],
+      "reponse": "des mots",
+      "explication": "Les mots, sans violence."
+    },
+    {
+      "consigne": "Les émotions sont :",
+      "options": [
+        "normales",
+        "interdites",
+        "rares"
+      ],
+      "reponse": "normales",
+      "explication": "Tout le monde en ressent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Connaissance et maîtrise de soi",
+      "appui": "Mes émotions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,104 @@
+{
+  "competence": "EM-C2-CE2-VOTE-01",
+  "duree": 5,
+  "essentiel": "En conseil d’élèves, on décide ensemble par un vote.\nLe projet qui a le plus de voix gagne : c’est la majorité.\nJe respecte le résultat, même si j’ai voté autrement.",
+  "parties": [
+    {
+      "titre": "Voter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le vote de la classe",
+          "colonnes": [
+            "Projet",
+            "Voix"
+          ],
+          "lignes": [
+            [
+              "jardin",
+              "15"
+            ],
+            [
+              "fresque",
+              "10"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel projet gagne ?",
+          "options": [
+            "le jardin",
+            "la fresque",
+            "aucun"
+          ],
+          "reponse": "le jardin",
+          "explication": "15 voix, c’est plus que 10."
+        }
+      ]
+    },
+    {
+      "titre": "Respecter le résultat",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour un vote juste",
+          "etapes": [
+            "Chacun présente son idée.",
+            "On écoute tout le monde.",
+            "Chacun vote une seule fois.",
+            "On compte les voix."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On boude quand son projet perd.",
+          "correction": "La majorité décide. On participe quand même au projet choisi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans un vote, chaque élève vote :",
+      "options": [
+        "une seule fois",
+        "autant qu’il veut",
+        "jamais"
+      ],
+      "reponse": "une seule fois",
+      "explication": "Une voix par personne."
+    },
+    {
+      "consigne": "La majorité, c’est :",
+      "options": [
+        "le plus grand nombre de voix",
+        "le plus petit nombre",
+        "l’avis du maitre"
+      ],
+      "reponse": "le plus grand nombre de voix",
+      "explication": "Le plus de voix."
+    },
+    {
+      "consigne": "Mon projet a perdu. Je :",
+      "options": [
+        "respecte le résultat",
+        "boude",
+        "refuse de participer"
+      ],
+      "reponse": "respecte le résultat",
+      "explication": "C’est la règle du vote."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 13,
+      "extrait": "Expérimenter la prise de décision à la majorité dans la classe",
+      "appui": "Décider ensemble"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

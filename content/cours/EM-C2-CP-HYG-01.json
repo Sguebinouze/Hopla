@@ -1,0 +1,90 @@
+{
+  "competence": "EM-C2-CP-HYG-01",
+  "duree": 4,
+  "essentiel": "Je me lave les mains avant de manger et après les toilettes.\nJe me brosse les dents matin et soir.\nJe tousse ou j’éternue dans mon coude.",
+  "parties": [
+    {
+      "titre": "Se laver les mains",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Bien se laver les mains",
+          "etapes": [
+            "Je mouille mes mains.",
+            "Je mets du savon.",
+            "Je frotte partout, entre les doigts.",
+            "Je rince et je sèche."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Je me lave les mains :",
+          "options": [
+            "avant de manger",
+            "seulement le dimanche",
+            "jamais"
+          ],
+          "reponse": "avant de manger",
+          "explication": "Pour enlever les microbes."
+        }
+      ]
+    },
+    {
+      "titre": "Protéger les autres",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les microbes passent d’une personne à l’autre. Le coude les arrête."
+        },
+        {
+          "type": "piege",
+          "erreur": "On tousse dans sa main.",
+          "correction": "La main touche tout ensuite. On tousse dans son coude."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand j’éternue, je mets :",
+      "options": [
+        "mon coude",
+        "ma main",
+        "rien"
+      ],
+      "reponse": "mon coude",
+      "explication": "Le coude arrête les microbes."
+    },
+    {
+      "consigne": "Je me brosse les dents :",
+      "options": [
+        "matin et soir",
+        "une fois par semaine",
+        "jamais"
+      ],
+      "reponse": "matin et soir",
+      "explication": "Pour garder des dents saines."
+    },
+    {
+      "consigne": "Après les toilettes, je :",
+      "options": [
+        "me lave les mains",
+        "joue tout de suite",
+        "mange"
+      ],
+      "reponse": "me lave les mains",
+      "explication": "Avec du savon."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 11,
+      "extrait": "connaître et appliquer les règles élémentaires d’hygiène personnelle",
+      "appui": "Prendre soin de son corps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

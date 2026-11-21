@@ -1,0 +1,111 @@
+{
+  "competence": "EM-C2-CE1-REG-01",
+  "duree": 5,
+  "essentiel": "Les règles de la vie collective protègent chacun.\nJe repère un danger et je préviens un adulte.\nEn cas d’urgence, j’appelle le 15, le 17 ou le 18.",
+  "parties": [
+    {
+      "titre": "Des règles pour tous",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans la cour.",
+          "exemples": [
+            "Je ne pousse pas.",
+            "Je joue sans faire mal.",
+            "Je respecte les jeux des autres."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un camarade est tombé et saigne. Je :",
+          "options": [
+            "préviens un adulte",
+            "le laisse",
+            "continue de jouer"
+          ],
+          "reponse": "préviens un adulte",
+          "explication": "L’adulte va l’aider."
+        }
+      ]
+    },
+    {
+      "titre": "Les numéros d’urgence",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui appeler ?",
+          "colonnes": [
+            "Numéro",
+            "Pour quoi ?"
+          ],
+          "lignes": [
+            [
+              "15",
+              "un malade, un blessé"
+            ],
+            [
+              "17",
+              "la police"
+            ],
+            [
+              "18",
+              "un feu, un accident"
+            ],
+            [
+              "112",
+              "une urgence, partout en Europe"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On appelle les secours pour jouer.",
+          "correction": "Les numéros d’urgence servent seulement en cas de danger."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour un feu, j’appelle le :",
+      "options": [
+        "18",
+        "15",
+        "17"
+      ],
+      "reponse": "18",
+      "explication": "Ce sont les pompiers."
+    },
+    {
+      "consigne": "Pour un malade, j’appelle le :",
+      "options": [
+        "15",
+        "18",
+        "17"
+      ],
+      "reponse": "15",
+      "explication": "C’est le SAMU."
+    },
+    {
+      "consigne": "Je vois un danger dans la cour. Je :",
+      "options": [
+        "préviens un adulte",
+        "ne dis rien",
+        "me cache"
+      ],
+      "reponse": "préviens un adulte",
+      "explication": "L’adulte peut agir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Règles collectives et prise d’initiative",
+      "appui": "Les règles et la sécurité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

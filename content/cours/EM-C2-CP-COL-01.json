@@ -1,0 +1,85 @@
+{
+  "competence": "EM-C2-CP-COL-01",
+  "duree": 4,
+  "essentiel": "Le matériel de la classe appartient à tous.\nJ’en prends soin pour que chacun puisse l’utiliser.\nJe range après avoir utilisé un livre ou un jeu.",
+  "parties": [
+    {
+      "titre": "Prendre soin",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le matériel commun.",
+          "exemples": [
+            "les livres de la bibliothèque",
+            "les jeux de la cour",
+            "les feutres de la classe"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Après avoir lu un livre de la classe, je :",
+          "options": [
+            "le range",
+            "le laisse par terre",
+            "le garde"
+          ],
+          "reponse": "le range",
+          "explication": "Un autre pourra le lire."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que le matériel commun n’est à personne.",
+          "correction": "Il est à tout le monde. On en prend soin ensemble."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un feutre de la classe sans bouchon, je :",
+      "options": [
+        "remets le bouchon",
+        "le jette",
+        "le laisse sécher"
+      ],
+      "reponse": "remets le bouchon",
+      "explication": "Il servira encore."
+    },
+    {
+      "consigne": "Le matériel de la classe est :",
+      "options": [
+        "à tout le monde",
+        "à personne",
+        "à moi seul"
+      ],
+      "reponse": "à tout le monde",
+      "explication": "On le partage."
+    },
+    {
+      "consigne": "Après un jeu, je :",
+      "options": [
+        "range les pièces",
+        "les éparpille",
+        "les cache"
+      ],
+      "reponse": "range les pièces",
+      "explication": "Pour les prochains joueurs."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 11,
+      "extrait": "respecter les équipements de la collectivité",
+      "appui": "Respecter le matériel commun"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

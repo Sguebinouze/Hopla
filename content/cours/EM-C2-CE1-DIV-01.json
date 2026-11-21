@@ -1,0 +1,86 @@
+{
+  "competence": "EM-C2-CE1-DIV-01",
+  "duree": 4,
+  "essentiel": "Nous sommes tous différents.\nCes différences sont une richesse.\nJe refuse de me moquer de quelqu’un pour sa différence.",
+  "parties": [
+    {
+      "titre": "Tous différents",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des différences.",
+          "exemples": [
+            "Inès porte des lunettes.",
+            "Léo est petit.",
+            "Sami parle deux langues.",
+            "Emma est en fauteuil roulant."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Inès porte des lunettes. C’est :",
+          "options": [
+            "une différence, pas une raison de se moquer",
+            "une raison de rire",
+            "interdit"
+          ],
+          "reponse": "une différence, pas une raison de se moquer",
+          "explication": "On la respecte."
+        }
+      ]
+    },
+    {
+      "titre": "Refuser les préjugés",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que les filles ne jouent pas au foot.",
+          "correction": "C’est un préjugé. Chacun peut jouer à ce qu’il aime."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les différences entre nous sont :",
+      "options": [
+        "une richesse",
+        "un problème",
+        "interdites"
+      ],
+      "reponse": "une richesse",
+      "explication": "On apprend des autres."
+    },
+    {
+      "consigne": "« Les garçons ne dansent pas » est :",
+      "options": [
+        "un préjugé",
+        "une vérité",
+        "une règle"
+      ],
+      "reponse": "un préjugé",
+      "explication": "Chacun peut danser."
+    },
+    {
+      "consigne": "Un camarade parle une autre langue à la maison. C’est :",
+      "options": [
+        "une richesse",
+        "une faute",
+        "interdit"
+      ],
+      "reponse": "une richesse",
+      "explication": "Il connait deux langues."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 12,
+      "extrait": "reconnaitre la diversité comme richesse",
+      "appui": "La différence, une richesse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

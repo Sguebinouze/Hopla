@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C2-CP-CIDE-01",
+  "duree": 4,
+  "essentiel": "Tous les enfants du monde ont des droits.\nIls ont le droit d’être protégés et soignés.\nIls ont le droit d’aller à l’école et de jouer.\nPresque tous les pays ont signé le texte de ces droits.",
+  "parties": [
+    {
+      "titre": "Des droits pour tous les enfants",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques droits",
+          "colonnes": [
+            "Droit",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "être protégé",
+              "personne ne doit me faire de mal"
+            ],
+            [
+              "être soigné",
+              "je vais chez le médecin"
+            ],
+            [
+              "aller à l’école",
+              "j’apprends à lire"
+            ],
+            [
+              "jouer",
+              "je joue à la récréation"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Tous les enfants ont le droit :",
+          "options": [
+            "d’aller à l’école",
+            "de conduire une voiture",
+            "de voter"
+          ],
+          "reponse": "d’aller à l’école",
+          "explication": "Pour apprendre."
+        }
+      ]
+    },
+    {
+      "titre": "Un texte important",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La Convention des droits de l’enfant date de 1989. On la fête le 20 novembre."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que ces droits concernent seulement les enfants français.",
+          "correction": "Ils concernent tous les enfants du monde."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Jouer est :",
+      "options": [
+        "un droit de l’enfant",
+        "interdit",
+        "réservé aux adultes"
+      ],
+      "reponse": "un droit de l’enfant",
+      "explication": "Les enfants ont le droit de jouer."
+    },
+    {
+      "consigne": "Les droits de l’enfant concernent :",
+      "options": [
+        "tous les enfants du monde",
+        "seulement les enfants riches",
+        "seulement les grands"
+      ],
+      "reponse": "tous les enfants du monde",
+      "explication": "Chaque enfant."
+    },
+    {
+      "consigne": "La journée des droits de l’enfant est le :",
+      "options": [
+        "20 novembre",
+        "14 juillet",
+        "1er janvier"
+      ],
+      "reponse": "20 novembre",
+      "explication": "Chaque année."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 11,
+      "extrait": "savoir que les enfants ont des droits",
+      "appui": "Les droits de l’enfant"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

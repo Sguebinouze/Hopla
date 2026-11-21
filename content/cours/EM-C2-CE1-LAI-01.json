@@ -1,0 +1,84 @@
+{
+  "competence": "EM-C2-CE1-LAI-01",
+  "duree": 4,
+  "essentiel": "Chacun est libre de croire ou de ne pas croire.\nÀ l’école publique, chacun est respecté, quelle que soit sa religion.\nLe français est la langue de la République.",
+  "parties": [
+    {
+      "titre": "La liberté de croire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "À l’école, on n’impose pas de religion. On respecte les croyances de chacun."
+        },
+        {
+          "type": "question",
+          "consigne": "À l’école publique, chacun est respecté :",
+          "options": [
+            "quelle que soit sa religion",
+            "s’il a la même religion que les autres",
+            "jamais"
+          ],
+          "reponse": "quelle que soit sa religion",
+          "explication": "C’est la laïcité."
+        }
+      ]
+    },
+    {
+      "titre": "Une langue commune",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "À l’école, on apprend en français. On peut aussi parler d’autres langues à la maison."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on doit avoir la même religion pour être amis.",
+          "correction": "On peut être amis et croire différemment."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Chacun est libre :",
+      "options": [
+        "de croire ou de ne pas croire",
+        "d’imposer sa religion",
+        "de se moquer des autres"
+      ],
+      "reponse": "de croire ou de ne pas croire",
+      "explication": "C’est une liberté."
+    },
+    {
+      "consigne": "La langue de la République est :",
+      "options": [
+        "le français",
+        "l’anglais",
+        "le latin"
+      ],
+      "reponse": "le français",
+      "explication": "On apprend en français."
+    },
+    {
+      "consigne": "Un ami a une autre religion que moi. Je :",
+      "options": [
+        "le respecte",
+        "me moque",
+        "l’ignore"
+      ],
+      "reponse": "le respecte",
+      "explication": "Chacun est libre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 12,
+      "extrait": "aborder le principe de la liberté de conscience",
+      "appui": "Laïcité et langue française"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C2-CE2-ECO-01",
+  "duree": 4,
+  "essentiel": "Des gestes simples protègent l’environnement.\nJ’éteins la lumière et je ferme le robinet.\nJe trie le papier et je ne gaspille pas.",
+  "parties": [
+    {
+      "titre": "Des éco-gestes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Gestes et effets",
+          "colonnes": [
+            "Geste",
+            "Ce qu’il économise"
+          ],
+          "lignes": [
+            [
+              "éteindre la lumière",
+              "l’électricité"
+            ],
+            [
+              "fermer le robinet",
+              "l’eau"
+            ],
+            [
+              "trier le papier",
+              "des arbres"
+            ],
+            [
+              "finir son assiette",
+              "la nourriture"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En me brossant les dents, je :",
+          "options": [
+            "ferme le robinet",
+            "laisse couler l’eau",
+            "ouvre deux robinets"
+          ],
+          "reponse": "ferme le robinet",
+          "explication": "L’eau ne coule pas pour rien."
+        }
+      ]
+    },
+    {
+      "titre": "Ensemble",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un seul geste ne sert à rien.",
+          "correction": "Si chacun le fait, cela fait une grande différence."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Je quitte la classe vide. Je :",
+      "options": [
+        "éteins la lumière",
+        "laisse tout allumé",
+        "ouvre la fenêtre"
+      ],
+      "reponse": "éteins la lumière",
+      "explication": "J’économise l’électricité."
+    },
+    {
+      "consigne": "Le papier usagé va :",
+      "options": [
+        "au bac de tri",
+        "par terre",
+        "dans le lavabo"
+      ],
+      "reponse": "au bac de tri",
+      "explication": "Il sera recyclé."
+    },
+    {
+      "consigne": "Gaspiller, c’est :",
+      "options": [
+        "utiliser plus que nécessaire",
+        "économiser",
+        "recycler"
+      ],
+      "reponse": "utiliser plus que nécessaire",
+      "explication": "On jette sans besoin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 13,
+      "extrait": "éco-gestes",
+      "appui": "Les éco-gestes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

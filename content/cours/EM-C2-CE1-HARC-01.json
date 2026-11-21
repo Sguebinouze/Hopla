@@ -1,0 +1,108 @@
+{
+  "competence": "EM-C2-CE1-HARC-01",
+  "duree": 5,
+  "essentiel": "Le harcèlement, c’est être blessé souvent par les mêmes personnes.\nIl y a l’auteur, la cible et les témoins.\nSi je suis cible ou témoin, j’en parle à un adulte.",
+  "parties": [
+    {
+      "titre": "Reconnaitre le harcèlement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois rôles",
+          "colonnes": [
+            "Rôle",
+            "Ce qu’il fait"
+          ],
+          "lignes": [
+            [
+              "auteur",
+              "il se moque ou fait mal, encore et encore"
+            ],
+            [
+              "cible",
+              "elle subit les moqueries ou les coups"
+            ],
+            [
+              "témoin",
+              "il voit ce qui se passe"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Se moquer de quelqu’un tous les jours, c’est :",
+          "options": [
+            "du harcèlement",
+            "un jeu",
+            "normal"
+          ],
+          "reponse": "du harcèlement",
+          "explication": "C’est répété et blessant."
+        }
+      ]
+    },
+    {
+      "titre": "Agir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ce que je peux faire.",
+          "exemples": [
+            "Je refuse de rire avec l’auteur.",
+            "Je reste avec la cible.",
+            "J’en parle à un adulte.",
+            "Le 3018 aide aussi, gratuitement."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que parler à un adulte, c’est rapporter.",
+          "correction": "Parler protège la cible. C’est courageux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Je vois un camarade harcelé. Je :",
+      "options": [
+        "en parle à un adulte",
+        "ris avec les autres",
+        "ne dis rien"
+      ],
+      "reponse": "en parle à un adulte",
+      "explication": "Le témoin peut aider."
+    },
+    {
+      "consigne": "Le harcèlement est :",
+      "options": [
+        "répété",
+        "arrivé une seule fois",
+        "un jeu"
+      ],
+      "reponse": "répété",
+      "explication": "Il se répète."
+    },
+    {
+      "consigne": "Parler du harcèlement, c’est :",
+      "options": [
+        "protéger la cible",
+        "rapporter",
+        "interdit"
+      ],
+      "reponse": "protéger la cible",
+      "explication": "C’est courageux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 7,
+      "extrait": "les situations de harcèlement",
+      "appui": "Le harcèlement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

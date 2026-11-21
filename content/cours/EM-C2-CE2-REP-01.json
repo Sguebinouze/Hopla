@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C2-CE2-REP-01",
+  "duree": 5,
+  "essentiel": "Le président de la République est élu par les citoyens.\nLe maire dirige la commune avec le conseil municipal.\nLe maire s’occupe des écoles et célèbre les mariages.",
+  "parties": [
+    {
+      "titre": "Le maire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que fait le maire",
+          "colonnes": [
+            "Rôle",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "écoles",
+              "il entretient les bâtiments"
+            ],
+            [
+              "état civil",
+              "il célèbre les mariages"
+            ],
+            [
+              "sécurité",
+              "il prend des décisions pour la commune"
+            ],
+            [
+              "projets",
+              "parcs, piscines, routes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui célèbre les mariages ?",
+          "options": [
+            "le maire",
+            "le président",
+            "le boulanger"
+          ],
+          "reponse": "le maire",
+          "explication": "À la mairie."
+        }
+      ]
+    },
+    {
+      "titre": "Des élus",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les habitants votent pour le conseil municipal. Le conseil choisit le maire."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le maire est choisi par le président.",
+          "correction": "Il est élu par le conseil municipal, lui-même élu par les habitants."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le maire travaille à :",
+      "options": [
+        "la mairie",
+        "l’hôpital",
+        "la gare"
+      ],
+      "reponse": "la mairie",
+      "explication": "C’est le bâtiment de la commune."
+    },
+    {
+      "consigne": "Le président de la République est :",
+      "options": [
+        "élu par les citoyens",
+        "nommé par le maire",
+        "choisi au hasard"
+      ],
+      "reponse": "élu par les citoyens",
+      "explication": "Par un vote."
+    },
+    {
+      "consigne": "Les bâtiments de l’école sont entretenus par :",
+      "options": [
+        "la commune",
+        "les élèves",
+        "le président"
+      ],
+      "reponse": "la commune",
+      "explication": "Le maire s’en occupe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "La République et son fonctionnement",
+      "appui": "Le maire et le président"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

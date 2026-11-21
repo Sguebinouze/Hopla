@@ -1,0 +1,90 @@
+{
+  "competence": "EM-C2-CP-DRO-01",
+  "duree": 5,
+  "essentiel": "Mon corps m’appartient.\nPersonne n’a le droit de me toucher si je ne veux pas.\nSi quelque chose me gêne, j’en parle à un adulte de confiance.",
+  "parties": [
+    {
+      "titre": "Je respecte mon corps",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Je peux dire non. Je respecte aussi le corps des autres."
+        },
+        {
+          "type": "question",
+          "consigne": "Un adulte me demande de garder un secret qui me gêne. Je :",
+          "options": [
+            "en parle à un adulte de confiance",
+            "garde le secret",
+            "n’en parle à personne"
+          ],
+          "reponse": "en parle à un adulte de confiance",
+          "explication": "Un secret qui fait mal doit être dit."
+        }
+      ]
+    },
+    {
+      "titre": "À qui parler ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des adultes de confiance.",
+          "exemples": [
+            "mes parents",
+            "ma maitresse ou mon maitre",
+            "l’infirmière de l’école",
+            "le 119, un numéro gratuit"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on sera grondé si on parle.",
+          "correction": "Ce n’est jamais la faute de l’enfant. Parler, c’est se protéger."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mon corps :",
+      "options": [
+        "m’appartient",
+        "appartient à tout le monde",
+        "n’est pas à moi"
+      ],
+      "reponse": "m’appartient",
+      "explication": "Je décide pour mon corps."
+    },
+    {
+      "consigne": "Un secret qui me rend triste, je :",
+      "options": [
+        "le dis à un adulte de confiance",
+        "le garde pour moi",
+        "l’oublie"
+      ],
+      "reponse": "le dis à un adulte de confiance",
+      "explication": "Parler me protège."
+    },
+    {
+      "consigne": "Le 119 est un numéro pour :",
+      "options": [
+        "les enfants en danger",
+        "commander une pizza",
+        "appeler un ami"
+      ],
+      "reponse": "les enfants en danger",
+      "explication": "Il est gratuit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Règles d’hygiène et exigence d’intimité",
+      "appui": "Mon corps, mes droits"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C2-CE1-CIV-01",
+  "duree": 4,
+  "essentiel": "Je dis bonjour, s’il te plait, merci et pardon.\nJ’écoute quand quelqu’un parle.\nLa politesse aide à bien vivre ensemble.",
+  "parties": [
+    {
+      "titre": "Les mots magiques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quand les dire ?",
+          "colonnes": [
+            "Mot",
+            "Quand ?"
+          ],
+          "lignes": [
+            [
+              "bonjour",
+              "j’arrive"
+            ],
+            [
+              "s’il te plait",
+              "je demande"
+            ],
+            [
+              "merci",
+              "on m’aide"
+            ],
+            [
+              "pardon",
+              "je bouscule quelqu’un"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un camarade me prête sa gomme. Je dis :",
+          "options": [
+            "merci",
+            "pardon",
+            "au revoir"
+          ],
+          "reponse": "merci",
+          "explication": "Je le remercie."
+        }
+      ]
+    },
+    {
+      "titre": "Écouter",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On coupe la parole pour aller plus vite.",
+          "correction": "On attend son tour. Chacun a le droit de finir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Je bouscule quelqu’un sans le faire exprès. Je dis :",
+      "options": [
+        "pardon",
+        "merci",
+        "bonjour"
+      ],
+      "reponse": "pardon",
+      "explication": "Je m’excuse."
+    },
+    {
+      "consigne": "Pour demander un crayon, je dis :",
+      "options": [
+        "s’il te plait",
+        "donne",
+        "vite"
+      ],
+      "reponse": "s’il te plait",
+      "explication": "Je demande poliment."
+    },
+    {
+      "consigne": "Quand quelqu’un parle, je :",
+      "options": [
+        "l’écoute",
+        "parle plus fort",
+        "pars"
+      ],
+      "reponse": "l’écoute",
+      "explication": "J’attends mon tour."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 12,
+      "extrait": "les règles élémentaires de vie, de communication et d’échange en collectivité",
+      "appui": "La politesse et la civilité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

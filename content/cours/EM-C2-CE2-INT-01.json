@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C2-CE2-INT-01",
+  "duree": 4,
+  "essentiel": "L’intérêt particulier sert une seule personne.\nL’intérêt général sert tout le monde.\nUne piste cyclable sert à tous les habitants : c’est l’intérêt général.",
+  "parties": [
+    {
+      "titre": "Pour une personne ou pour tous ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trier",
+          "colonnes": [
+            "Intérêt particulier",
+            "Intérêt général"
+          ],
+          "lignes": [
+            [
+              "ma piscine",
+              "la piscine municipale"
+            ],
+            [
+              "mon jardin",
+              "le parc de la ville"
+            ],
+            [
+              "mon vélo",
+              "la piste cyclable"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une bibliothèque municipale sert :",
+          "options": [
+            "l’intérêt général",
+            "l’intérêt d’une seule personne",
+            "personne"
+          ],
+          "reponse": "l’intérêt général",
+          "explication": "Tout le monde peut y aller."
+        }
+      ]
+    },
+    {
+      "titre": "Faire des choix",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’intérêt général, c’est ce que je préfère.",
+          "correction": "C’est ce qui est bon pour tous. Même si cela me gêne un peu."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Construire une école sert :",
+      "options": [
+        "l’intérêt général",
+        "une seule famille",
+        "personne"
+      ],
+      "reponse": "l’intérêt général",
+      "explication": "Tous les enfants en profitent."
+    },
+    {
+      "consigne": "Mon cadeau d’anniversaire relève de :",
+      "options": [
+        "l’intérêt particulier",
+        "l’intérêt général",
+        "la République"
+      ],
+      "reponse": "l’intérêt particulier",
+      "explication": "Il est à moi."
+    },
+    {
+      "consigne": "L’intérêt général sert :",
+      "options": [
+        "tout le monde",
+        "le maire seul",
+        "les riches"
+      ],
+      "reponse": "tout le monde",
+      "explication": "Tous les habitants."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 13,
+      "extrait": "aborder des enjeux d’intérêt collectif",
+      "appui": "L’intérêt général"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

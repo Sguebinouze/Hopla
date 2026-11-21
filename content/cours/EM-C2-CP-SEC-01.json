@@ -1,0 +1,96 @@
+{
+  "competence": "EM-C2-CP-SEC-01",
+  "duree": 5,
+  "essentiel": "Dans la rue, je traverse sur le passage piéton.\nJ’attends que le bonhomme soit vert.\nÀ la maison, je ne touche pas aux prises.",
+  "parties": [
+    {
+      "titre": "Dans la rue",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour traverser",
+          "etapes": [
+            "Je m’arrête au bord du trottoir.",
+            "J’attends le bonhomme vert.",
+            "Je regarde à gauche, puis à droite.",
+            "Je traverse sans courir."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le bonhomme est rouge. Je :",
+          "options": [
+            "m’arrête",
+            "traverse vite",
+            "cours"
+          ],
+          "reponse": "m’arrête",
+          "explication": "Rouge veut dire stop."
+        }
+      ]
+    },
+    {
+      "titre": "À la maison",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des dangers à éviter.",
+          "exemples": [
+            "les prises électriques",
+            "les produits ménagers",
+            "les médicaments",
+            "la cuisinière chaude"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un produit coloré est un jus.",
+          "correction": "On ne goute jamais un produit inconnu. On demande à un adulte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour traverser, je vais :",
+      "options": [
+        "au passage piéton",
+        "entre deux voitures",
+        "n’importe où"
+      ],
+      "reponse": "au passage piéton",
+      "explication": "C’est l’endroit prévu."
+    },
+    {
+      "consigne": "Une prise électrique, je :",
+      "options": [
+        "n’y touche pas",
+        "y mets un doigt",
+        "y mets une fourchette"
+      ],
+      "reponse": "n’y touche pas",
+      "explication": "Le courant est dangereux."
+    },
+    {
+      "consigne": "Un médicament trouvé par terre, je :",
+      "options": [
+        "le donne à un adulte",
+        "le goute",
+        "le garde"
+      ],
+      "reponse": "le donne à un adulte",
+      "explication": "Il peut être dangereux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 11,
+      "extrait": "identifier les risques et les dangers de son environnement immédiat",
+      "appui": "Les dangers autour de moi"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

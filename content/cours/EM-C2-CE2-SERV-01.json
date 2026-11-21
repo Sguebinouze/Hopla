@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C2-CE2-SERV-01",
+  "duree": 5,
+  "essentiel": "Des services publics aident tout le monde.\nLes pompiers, la police, l’hôpital et l’école sont au service de tous.\nDes associations aident aussi les personnes.",
+  "parties": [
+    {
+      "titre": "Au service de tous",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Service",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "pompiers (18)",
+              "éteindre les feux, secourir"
+            ],
+            [
+              "police (17)",
+              "protéger les personnes"
+            ],
+            [
+              "hôpital",
+              "soigner"
+            ],
+            [
+              "école",
+              "instruire tous les enfants"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les pompiers viennent :",
+          "options": [
+            "quand il y a un incendie",
+            "pour livrer les colis",
+            "pour faire les courses"
+          ],
+          "reponse": "quand il y a un incendie",
+          "explication": "Leur numéro est le 18."
+        }
+      ]
+    },
+    {
+      "titre": "Les associations",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Des bénévoles distribuent des repas ou aident des personnes malades."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’école publique est payante.",
+          "correction": "Elle est gratuite pour tous les enfants."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour soigner un malade, on va :",
+      "options": [
+        "à l’hôpital",
+        "à la mairie",
+        "à la poste"
+      ],
+      "reponse": "à l’hôpital",
+      "explication": "Un service public de santé."
+    },
+    {
+      "consigne": "Un bénévole :",
+      "options": [
+        "aide sans être payé",
+        "est toujours payé",
+        "est un policier"
+      ],
+      "reponse": "aide sans être payé",
+      "explication": "Il donne de son temps."
+    },
+    {
+      "consigne": "L’école publique est :",
+      "options": [
+        "gratuite",
+        "payante",
+        "réservée aux riches"
+      ],
+      "reponse": "gratuite",
+      "explication": "Pour tous les enfants."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 13,
+      "extrait": "Présenter une institution ou une association servant l’intérêt général",
+      "appui": "Les services publics"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
