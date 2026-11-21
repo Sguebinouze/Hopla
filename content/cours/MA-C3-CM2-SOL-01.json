@@ -1,0 +1,231 @@
+{
+  "competence": "MA-C3-CM2-SOL-01",
+  "duree": 6,
+  "essentiel": "Le patron d’un pavé est formé de 6 rectangles qui, une fois pliés, ferment le pavé.\nLes faces opposées du pavé sont identiques : il y a 3 paires de rectangles pareils.\nDeux côtés qui se touchent au pliage ont la même longueur.",
+  "parties": [
+    {
+      "titre": "Le pavé et son patron",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pave"
+          },
+          "legende": "Un pavé : 6 faces rectangulaires."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 7,
+            "hauteur": 7,
+            "quadrillage": false,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    2,
+                    0.5
+                  ],
+                  [
+                    5,
+                    0.5
+                  ],
+                  [
+                    5,
+                    1.5
+                  ],
+                  [
+                    2,
+                    1.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    2,
+                    1.5
+                  ],
+                  [
+                    5,
+                    1.5
+                  ],
+                  [
+                    5,
+                    3.5
+                  ],
+                  [
+                    2,
+                    3.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    2,
+                    3.5
+                  ],
+                  [
+                    5,
+                    3.5
+                  ],
+                  [
+                    5,
+                    4.5
+                  ],
+                  [
+                    2,
+                    4.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    2,
+                    4.5
+                  ],
+                  [
+                    5,
+                    4.5
+                  ],
+                  [
+                    5,
+                    6.5
+                  ],
+                  [
+                    2,
+                    6.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1.5
+                  ],
+                  [
+                    2,
+                    1.5
+                  ],
+                  [
+                    2,
+                    3.5
+                  ],
+                  [
+                    1,
+                    3.5
+                  ]
+                ]
+              },
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    5,
+                    1.5
+                  ],
+                  [
+                    6,
+                    1.5
+                  ],
+                  [
+                    6,
+                    3.5
+                  ],
+                  [
+                    5,
+                    3.5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un patron de pavé : 3 paires de rectangles identiques."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de faces compte un patron de pavé ?",
+          "options": [
+            "6",
+            "4",
+            "8"
+          ],
+          "reponse": "6",
+          "explication": "Une par face du pavé."
+        }
+      ]
+    },
+    {
+      "titre": "Vérifier un patron",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour savoir si c’est un patron de pavé",
+          "etapes": [
+            "Compte les rectangles : il en faut 6.",
+            "Cherche les 3 paires de rectangles identiques.",
+            "Imagine le pliage : aucune face ne doit se superposer à une autre."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 6 rectangles assemblés font toujours un patron.",
+          "correction": "Si deux faces se retrouvent au même endroit au pliage, le pavé ne se ferme pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans un patron de pavé, combien de paires de faces identiques ?",
+      "options": [
+        "3",
+        "2",
+        "6"
+      ],
+      "reponse": "3",
+      "explication": "Dessus et dessous, devant et derrière, gauche et droite."
+    },
+    {
+      "consigne": "Deux faces opposées d’un pavé sont :",
+      "options": [
+        "identiques",
+        "toujours carrées",
+        "de tailles différentes"
+      ],
+      "reponse": "identiques",
+      "explication": "Elles ont les mêmes dimensions."
+    },
+    {
+      "consigne": "Un cube est :",
+      "options": [
+        "un pavé particulier",
+        "une pyramide",
+        "un prisme à base triangulaire"
+      ],
+      "reponse": "un pavé particulier",
+      "explication": "Ses 6 faces sont des carrés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 22,
+      "extrait": "Reconnaître un patron d’un pavé",
+      "appui": "Patron d’un pavé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

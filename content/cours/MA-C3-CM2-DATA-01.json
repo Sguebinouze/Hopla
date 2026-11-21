@@ -1,0 +1,128 @@
+{
+  "competence": "MA-C3-CM2-DATA-01",
+  "duree": 7,
+  "essentiel": "Un tableau, un diagramme en barres, un diagramme circulaire ou une courbe présentent des données.\nOn lit le titre, les axes et les unités avant de répondre.\nUne courbe montre comment une grandeur évolue dans le temps.",
+  "parties": [
+    {
+      "titre": "Diagramme en barres",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Sports préférés des élèves de CM2",
+            "unite": "élèves",
+            "pas": 2,
+            "barres": [
+              {
+                "nom": "football",
+                "valeur": 14
+              },
+              {
+                "nom": "danse",
+                "valeur": 10
+              },
+              {
+                "nom": "natation",
+                "valeur": 8
+              },
+              {
+                "nom": "judo",
+                "valeur": 6
+              }
+            ]
+          },
+          "legende": "38 élèves ont répondu."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien d’élèves de plus préfèrent le football à la natation ?",
+          "options": [
+            "6",
+            "22",
+            "8"
+          ],
+          "reponse": "6",
+          "explication": "14 − 8 = 6."
+        }
+      ]
+    },
+    {
+      "titre": "Diagramme circulaire et courbe",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un diagramme circulaire, le disque entier représente le total. Un demi-disque, c’est la moitié ; un quart de disque, le quart."
+        },
+        {
+          "type": "tableau",
+          "titre": "Températures d’une journée, pour tracer une courbe",
+          "colonnes": [
+            "Heure",
+            "8 h",
+            "12 h",
+            "16 h",
+            "20 h"
+          ],
+          "lignes": [
+            [
+              "Température (°C)",
+              "9",
+              "16",
+              "18",
+              "12"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit une valeur sans regarder les graduations.",
+          "correction": "Vérifie de combien en combien avance l’axe avant de lire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans le diagramme, quel sport a 10 élèves ?",
+      "options": [
+        "la danse",
+        "le judo",
+        "le football"
+      ],
+      "reponse": "la danse",
+      "explication": "La barre de la danse arrive à 10."
+    },
+    {
+      "consigne": "Dans un diagramme circulaire, un quart de disque représente :",
+      "options": [
+        "le quart du total",
+        "la moitié",
+        "4 personnes"
+      ],
+      "reponse": "le quart du total",
+      "explication": "Le disque entier, c’est le total."
+    },
+    {
+      "consigne": "D’après le tableau, la température la plus haute est à :",
+      "options": [
+        "16 h",
+        "12 h",
+        "20 h"
+      ],
+      "reponse": "16 h",
+      "explication": "18 °C à 16 h."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 25,
+      "extrait": "Lire et interpréter les données d’un tableau, d’un diagramme en barres, d’un diagramme circulaire ou d’une courbe",
+      "appui": "Tableaux, diagrammes, courbes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

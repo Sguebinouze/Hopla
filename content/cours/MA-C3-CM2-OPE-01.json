@@ -1,0 +1,93 @@
+{
+  "competence": "MA-C3-CM2-OPE-01",
+  "duree": 6,
+  "essentiel": "Dans un calcul avec des parenthèses, on calcule d’abord ce qui est entre parenthèses.\n3 × (4 + 5) = 3 × 9 = 27.\nAvec deux paires : (20 − 8) − (3 + 2) = 12 − 5 = 7.",
+  "parties": [
+    {
+      "titre": "D’abord les parenthèses",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer (12 − 2) × (3 + 1)",
+          "etapes": [
+            "Calcule la première parenthèse : 12 − 2 = 10.",
+            "Calcule la seconde : 3 + 1 = 4.",
+            "Termine : 10 × 4 = 40."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "(6 + 4) × 5 = ?",
+          "options": [
+            "50",
+            "26",
+            "30"
+          ],
+          "reponse": "50",
+          "explication": "6 + 4 = 10, puis 10 × 5 = 50."
+        }
+      ]
+    },
+    {
+      "titre": "Les parenthèses changent le résultat",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les mêmes nombres, des parenthèses à des places différentes.",
+          "exemples": [
+            "(10 − 4) − 2 = 6 − 2 = 4",
+            "10 − (4 − 2) = 10 − 2 = 8"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On calcule 3 × (4 + 5) comme 3 × 4, puis + 5.",
+          "correction": "La parenthèse se calcule d’abord : 3 × 9 = 27."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "30 − (10 + 5) = ?",
+      "options": [
+        "15",
+        "25",
+        "35"
+      ],
+      "reponse": "15",
+      "explication": "10 + 5 = 15, puis 30 − 15 = 15."
+    },
+    {
+      "consigne": "(12 − 2) × (3 + 1) = ?",
+      "options": [
+        "40",
+        "37",
+        "14"
+      ],
+      "reponse": "40",
+      "explication": "10 × 4 = 40."
+    },
+    {
+      "consigne": "(8 + 2) × (7 − 7) = ?",
+      "options": [
+        "0",
+        "10",
+        "80"
+      ],
+      "reponse": "0",
+      "explication": "10 × 0 = 0."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 11,
+      "extrait": "Savoir réaliser un calcul contenant une ou deux paires de parenthèses",
+      "appui": "Calculs avec parenthèses"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

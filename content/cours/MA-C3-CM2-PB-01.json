@@ -1,0 +1,96 @@
+{
+  "competence": "MA-C3-CM2-PB-01",
+  "duree": 7,
+  "essentiel": "Un problème en plusieurs étapes demande plusieurs calculs.\nOn cherche d’abord ce qu’il faut connaitre pour répondre : c’est une question intermédiaire.\nOn peut mélanger addition, soustraction, multiplication et division.",
+  "parties": [
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Lina achète 3 cahiers à 2,40 € et un stylo à 1,50 €. Elle paie avec 10 €. Combien lui rend-on ?",
+          "etapes": [
+            "Prix des cahiers : 3 × 2,40 = 7,20 €.",
+            "Prix total : 7,20 + 1,50 = 8,70 €.",
+            "Monnaie : 10 − 8,70 = 1,30 €."
+          ],
+          "conclusion": "On lui rend 1,30 €."
+        },
+        {
+          "type": "question",
+          "consigne": "3 cars de 52 places emmènent 140 élèves. Combien de places restent libres ?",
+          "options": [
+            "16",
+            "36",
+            "88"
+          ],
+          "reponse": "16",
+          "explication": "3 × 52 = 156, puis 156 − 140 = 16."
+        }
+      ]
+    },
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour résoudre",
+          "etapes": [
+            "Lis tout l’énoncé et repère la question.",
+            "Demande-toi : que dois-je savoir avant ?",
+            "Calcule étape par étape, en écrivant ce que tu trouves.",
+            "Vérifie que ta réponse a du sens."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On utilise tous les nombres de l’énoncé, dans l’ordre où ils viennent.",
+          "correction": "On choisit les calculs selon la question, pas selon l’ordre des nombres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "4 packs de 6 bouteilles. On en boit 9. Combien en reste-t-il ?",
+      "options": [
+        "15",
+        "1",
+        "19"
+      ],
+      "reponse": "15",
+      "explication": "4 × 6 = 24, puis 24 − 9 = 15."
+    },
+    {
+      "consigne": "3 livres à 12 €, avec une réduction de 5 € sur le total. On paie :",
+      "options": [
+        "31 €",
+        "41 €",
+        "21 €"
+      ],
+      "reponse": "31 €",
+      "explication": "3 × 12 = 36, puis 36 − 5 = 31."
+    },
+    {
+      "consigne": "96 billes partagées entre 4 enfants. Chacun en donne 5. Il en garde :",
+      "options": [
+        "19",
+        "24",
+        "91"
+      ],
+      "reponse": "19",
+      "explication": "96 ÷ 4 = 24, puis 24 − 5 = 19."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 12,
+      "extrait": "Résoudre des problèmes mixtes en plusieurs étapes",
+      "appui": "Problèmes en plusieurs étapes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

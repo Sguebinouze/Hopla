@@ -1,0 +1,98 @@
+{
+  "competence": "MA-C3-CM2-CALC-01",
+  "duree": 5,
+  "essentiel": "Multiplier par 10, c’est rendre chaque chiffre 10 fois plus grand : il avance d’un rang vers la gauche.\n3,47 × 10 = 34,7. 3,47 × 100 = 347. 3,47 × 1 000 = 3 470.\nSi un rang est vide, on écrit un 0.",
+  "parties": [
+    {
+      "titre": "Les chiffres changent de rang",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "3,47 multiplié",
+          "colonnes": [
+            "Calcul",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "3,47 × 10",
+              "34,7"
+            ],
+            [
+              "3,47 × 100",
+              "347"
+            ],
+            [
+              "3,47 × 1 000",
+              "3 470"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "0,6 × 100 = ?",
+          "options": [
+            "60",
+            "0,600",
+            "6"
+          ],
+          "reponse": "60",
+          "explication": "Les 6 dixièmes deviennent 6 dizaines."
+        }
+      ]
+    },
+    {
+      "titre": "Attention au zéro",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On ajoute un 0 à droite : 3,47 × 10 = 3,470.",
+          "correction": "3,470 = 3,47. Chaque chiffre doit avancer d’un rang : 34,7."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2,05 × 10 = ?",
+      "options": [
+        "20,5",
+        "2,050",
+        "205"
+      ],
+      "reponse": "20,5",
+      "explication": "Chaque chiffre avance d’un rang."
+    },
+    {
+      "consigne": "4,3 × 1 000 = ?",
+      "options": [
+        "4 300",
+        "4,3000",
+        "430"
+      ],
+      "reponse": "4 300",
+      "explication": "Trois rangs vers la gauche."
+    },
+    {
+      "consigne": "0,25 × 100 = ?",
+      "options": [
+        "25",
+        "2,5",
+        "250"
+      ],
+      "reponse": "25",
+      "explication": "Deux rangs vers la gauche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 11,
+      "extrait": "Multiplier un nombre décimal par 10, 100 ou 1 000",
+      "appui": "Multiplier un décimal par 10, 100, 1 000"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

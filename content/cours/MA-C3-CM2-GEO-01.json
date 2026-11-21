@@ -1,0 +1,167 @@
+{
+  "competence": "MA-C3-CM2-GEO-01",
+  "duree": 6,
+  "essentiel": "Le cercle de centre O et de rayon 3 cm contient tous les points situés à 3 cm de O.\nLe disque est formé de tous les points situés à 3 cm de O, ou moins.\nLe diamètre mesure deux rayons : 6 cm.",
+  "parties": [
+    {
+      "titre": "Cercle et disque",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Cercle",
+              "definition": "Ensemble des points situés à une même distance d’un point appelé centre."
+            },
+            {
+              "mot": "Disque",
+              "definition": "Ensemble des points dont la distance au centre est inférieure ou égale au rayon."
+            },
+            {
+              "mot": "Rayon",
+              "definition": "Distance entre le centre et un point du cercle. C’est aussi le segment qui les joint."
+            },
+            {
+              "mot": "Diamètre",
+              "definition": "Corde qui passe par le centre. Sa longueur vaut deux rayons."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 8,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "cercle",
+                "centre": [
+                  4,
+                  4
+                ],
+                "rayon": 3
+              },
+              {
+                "forme": "point",
+                "en": [
+                  4,
+                  4
+                ],
+                "nom": "O"
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  4,
+                  4
+                ],
+                "a": [
+                  7,
+                  4
+                ],
+                "accent": true
+              },
+              {
+                "forme": "point",
+                "en": [
+                  7,
+                  4
+                ],
+                "nom": "A"
+              }
+            ]
+          },
+          "legende": "[OA] est un rayon : OA = 3 carreaux."
+        },
+        {
+          "type": "question",
+          "consigne": "Le rayon d’un cercle mesure 4 cm. Son diamètre mesure :",
+          "options": [
+            "8 cm",
+            "2 cm",
+            "4 cm"
+          ],
+          "reponse": "8 cm",
+          "explication": "Deux rayons : 4 × 2 = 8."
+        }
+      ]
+    },
+    {
+      "titre": "Sur le cercle ou dans le disque ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Cercle de centre O, de rayon 5 cm",
+          "colonnes": [
+            "Distance à O",
+            "Le point est"
+          ],
+          "lignes": [
+            [
+              "5 cm",
+              "sur le cercle, et dans le disque"
+            ],
+            [
+              "2 cm",
+              "dans le disque, pas sur le cercle"
+            ],
+            [
+              "7 cm",
+              "ni sur le cercle, ni dans le disque"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le centre est sur le cercle.",
+          "correction": "Le centre est dans le disque, mais pas sur le cercle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un point est à 5 cm du centre d’un cercle de rayon 5 cm. Il est :",
+      "options": [
+        "sur le cercle",
+        "hors du disque",
+        "au centre"
+      ],
+      "reponse": "sur le cercle",
+      "explication": "Sa distance au centre égale le rayon."
+    },
+    {
+      "consigne": "Un point est à 2 cm du centre d’un cercle de rayon 5 cm. Il est :",
+      "options": [
+        "dans le disque, pas sur le cercle",
+        "sur le cercle",
+        "hors du disque"
+      ],
+      "reponse": "dans le disque, pas sur le cercle",
+      "explication": "2 cm < 5 cm."
+    },
+    {
+      "consigne": "Un diamètre mesure 10 cm. Le rayon mesure :",
+      "options": [
+        "5 cm",
+        "20 cm",
+        "10 cm"
+      ],
+      "reponse": "5 cm",
+      "explication": "10 ÷ 2 = 5."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 20,
+      "extrait": "Décrire et reconnaître un cercle et un disque comme un ensemble de points caractérisés par leur distance à un point donné",
+      "appui": "Cercle et disque"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

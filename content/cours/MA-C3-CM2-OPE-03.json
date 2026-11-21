@@ -1,0 +1,103 @@
+{
+  "competence": "MA-C3-CM2-OPE-03",
+  "duree": 8,
+  "essentiel": "On peut continuer une division après les unités : on écrit la virgule au quotient.\nLe reste est alors changé en dixièmes, puis en centièmes.\n17 ÷ 4 = 4,25, car 4 × 4,25 = 17.",
+  "parties": [
+    {
+      "titre": "Continuer après la virgule",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Dividende",
+              "definition": "Nombre que l’on divise."
+            },
+            {
+              "mot": "Diviseur",
+              "definition": "Nombre par lequel on divise."
+            }
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 17 ÷ 4.",
+          "etapes": [
+            "17 ÷ 4 = 4, reste 1. J’écris 4 et la virgule.",
+            "1 unité = 10 dixièmes. 10 ÷ 4 = 2, reste 2.",
+            "2 dixièmes = 20 centièmes. 20 ÷ 4 = 5, reste 0."
+          ],
+          "conclusion": "17 ÷ 4 = 4,25."
+        },
+        {
+          "type": "question",
+          "consigne": "9 ÷ 2 = ?",
+          "options": [
+            "4,5",
+            "4,1",
+            "4"
+          ],
+          "reponse": "4,5",
+          "explication": "9 ÷ 2 = 4 reste 1, et 10 dixièmes ÷ 2 = 5 dixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Quand ça ne s’arrête pas",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "10 ÷ 3 = 3,333… Le reste vaut toujours 1 : on s’arrête à la précision demandée."
+        },
+        {
+          "type": "piege",
+          "erreur": "On s’arrête au reste : 17 ÷ 4 = 4 reste 1.",
+          "correction": "C’est juste en division euclidienne. Si on demande un quotient décimal, on continue : 4,25."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "21 ÷ 4 = ?",
+      "options": [
+        "5,25",
+        "5,1",
+        "5,4"
+      ],
+      "reponse": "5,25",
+      "explication": "5 reste 1 ; 10 ÷ 4 = 2 reste 2 ; 20 ÷ 4 = 5."
+    },
+    {
+      "consigne": "3 ÷ 5 = ?",
+      "options": [
+        "0,6",
+        "0,5",
+        "1,6"
+      ],
+      "reponse": "0,6",
+      "explication": "3 unités = 30 dixièmes, 30 ÷ 5 = 6."
+    },
+    {
+      "consigne": "Pour vérifier 17 ÷ 4 = 4,25, on calcule :",
+      "options": [
+        "4 × 4,25",
+        "17 × 4",
+        "4,25 ÷ 17"
+      ],
+      "reponse": "4 × 4,25",
+      "explication": "4 × 4,25 doit redonner 17."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 11,
+      "extrait": "Poser et effectuer des divisions décimales avec un dividende entier et un diviseur à un chiffre",
+      "appui": "Division décimale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

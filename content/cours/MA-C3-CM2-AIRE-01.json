@@ -1,0 +1,139 @@
+{
+  "competence": "MA-C3-CM2-AIRE-01",
+  "duree": 6,
+  "essentiel": "L’aire d’un rectangle est égale à sa longueur multipliée par sa largeur.\nL’aire d’un carré est égale à son côté multiplié par lui-même.\nUn rectangle de 6 cm sur 4 cm a une aire de 6 × 4 = 24 cm².",
+  "parties": [
+    {
+      "titre": "Compter les carreaux, puis calculer",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Aire",
+              "definition": "Mesure de la surface d’une figure."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    1,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "6 carreaux sur 4 rangées : 6 × 4 = 24 carreaux."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est l’aire d’un carré de 5 cm de côté ?",
+          "options": [
+            "25 cm²",
+            "20 cm²",
+            "10 cm²"
+          ],
+          "reponse": "25 cm²",
+          "explication": "5 × 5 = 25."
+        }
+      ]
+    },
+    {
+      "titre": "Aire ou périmètre ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Rectangle de 6 cm sur 4 cm",
+          "colonnes": [
+            "Grandeur",
+            "Calcul",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "aire",
+              "6 × 4",
+              "24 cm²"
+            ],
+            [
+              "périmètre",
+              "6 + 4 + 6 + 4",
+              "20 cm"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute les côtés pour trouver l’aire.",
+          "correction": "Ajouter les côtés donne le périmètre, en cm. L’aire se calcule par un produit, en cm²."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Aire d’un rectangle de 8 m sur 3 m :",
+      "options": [
+        "24 m²",
+        "22 m²",
+        "11 m²"
+      ],
+      "reponse": "24 m²",
+      "explication": "8 × 3 = 24."
+    },
+    {
+      "consigne": "Un rectangle a une aire de 30 cm² et une largeur de 5 cm. Sa longueur :",
+      "options": [
+        "6 cm",
+        "25 cm",
+        "150 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "6 × 5 = 30."
+    },
+    {
+      "consigne": "L’aire se mesure en :",
+      "options": [
+        "cm²",
+        "cm",
+        "cm³"
+      ],
+      "reponse": "cm²",
+      "explication": "Des carrés de 1 cm de côté."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 18,
+      "extrait": "Déterminer l’aire d’un carré ou d’un rectangle",
+      "appui": "Aire du carré et du rectangle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,149 @@
+{
+  "competence": "MA-C3-CM2-GEO-03",
+  "duree": 7,
+  "essentiel": "Un programme de construction donne, dans l’ordre, les étapes pour tracer une figure.\nIl utilise le vocabulaire précis : segment, droite, perpendiculaire, parallèle, cercle, centre, rayon.\nPour l’écrire, on nomme les points et on part d’un élément simple.",
+  "parties": [
+    {
+      "titre": "Suivre un programme",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un programme",
+          "etapes": [
+            "Trace un segment [AB] de 6 cm.",
+            "Trace la droite perpendiculaire à (AB) passant par A.",
+            "Place le point C sur cette droite, à 4 cm de A.",
+            "Trace le segment [BC]."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  5
+                ],
+                "nom": "A"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  7,
+                  5
+                ],
+                "nom": "B"
+              },
+              {
+                "forme": "point",
+                "en": [
+                  1,
+                  1
+                ],
+                "nom": "C"
+              }
+            ]
+          },
+          "legende": "On obtient un triangle rectangle en A."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans ce programme, quel angle est droit ?",
+          "options": [
+            "l’angle en A",
+            "l’angle en B",
+            "l’angle en C"
+          ],
+          "reponse": "l’angle en A",
+          "explication": "La droite tracée est perpendiculaire à (AB) en A."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire un programme",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire un programme",
+          "etapes": [
+            "Nomme tous les points de la figure.",
+            "Commence par un segment ou un cercle.",
+            "Écris une seule action par étape, avec les mesures.",
+            "Fais tracer la figure par un camarade pour vérifier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « trace un trait à côté ».",
+          "correction": "Chaque mot doit être précis : « trace la droite parallèle à (AB) passant par C »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Trace un cercle de centre O et de rayon 3 cm, puis un diamètre [AB]. » AB mesure :",
+      "options": [
+        "6 cm",
+        "3 cm",
+        "9 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "Un diamètre vaut deux rayons."
+    },
+    {
+      "consigne": "« Perpendiculaire » veut dire :",
+      "options": [
+        "qui forme un angle droit",
+        "qui ne se coupe jamais",
+        "qui a la même longueur"
+      ],
+      "reponse": "qui forme un angle droit",
+      "explication": "Deux droites perpendiculaires se coupent à angle droit."
+    },
+    {
+      "consigne": "Dans un programme, l’ordre des étapes :",
+      "options": [
+        "compte",
+        "ne compte pas",
+        "est au hasard"
+      ],
+      "reponse": "compte",
+      "explication": "On ne peut pas placer C avant d’avoir tracé la droite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 22,
+      "extrait": "Élaborer un programme de construction",
+      "appui": "Programme de construction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

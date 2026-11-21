@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C3-CM2-ESP-01",
+  "duree": 6,
+  "essentiel": "Pour compter les cubes d’un assemblage, on compte étage par étage, sans oublier les cubes cachés.\nUn pavé de 4 cubes sur 3, sur 2 étages, contient 4 × 3 × 2 = 24 cubes.\nUne vue de dessus montre les colonnes, pas leur hauteur.",
+  "parties": [
+    {
+      "titre": "Compter par étages",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cube"
+          },
+          "legende": "Chaque assemblage est fait de cubes identiques."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une pyramide de cubes : 9 cubes en bas, 4 au milieu, 1 en haut. Combien de cubes ?",
+          "etapes": [
+            "1er étage : 3 × 3 = 9.",
+            "2e étage : 2 × 2 = 4.",
+            "3e étage : 1.",
+            "9 + 4 + 1 = 14."
+          ],
+          "conclusion": "La pyramide compte 14 cubes."
+        },
+        {
+          "type": "question",
+          "consigne": "Un escalier de 3 marches : 1, 2 puis 3 cubes de haut, sur une rangée. Combien de cubes ?",
+          "options": [
+            "6",
+            "3",
+            "9"
+          ],
+          "reponse": "6",
+          "explication": "1 + 2 + 3 = 6."
+        }
+      ]
+    },
+    {
+      "titre": "Les cubes cachés",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On compte seulement les cubes visibles sur le dessin.",
+          "correction": "Sous chaque cube du haut, il y a des cubes qui le portent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un pavé de 4 cubes sur 3, sur 2 étages :",
+      "options": [
+        "24 cubes",
+        "9 cubes",
+        "14 cubes"
+      ],
+      "reponse": "24 cubes",
+      "explication": "4 × 3 × 2 = 24."
+    },
+    {
+      "consigne": "Une tour de 5 cubes empilés, vue de dessus, montre :",
+      "options": [
+        "1 carré",
+        "5 carrés",
+        "un rectangle"
+      ],
+      "reponse": "1 carré",
+      "explication": "Les cubes sont les uns sur les autres."
+    },
+    {
+      "consigne": "Un cube de 3 cubes de côté contient :",
+      "options": [
+        "27 cubes",
+        "9 cubes",
+        "12 cubes"
+      ],
+      "reponse": "27 cubes",
+      "explication": "3 × 3 × 3 = 27."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 21,
+      "extrait": "Résoudre des problèmes portant sur des assemblages de cubes",
+      "appui": "Assemblages de cubes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,145 @@
+{
+  "competence": "MA-C3-CM2-ANG-01",
+  "duree": 5,
+  "essentiel": "Un angle droit mesure 90°. C’est un quart de tour.\nUn angle aigu mesure moins de 90°. Un angle obtus mesure entre 90° et 180°.\nUn demi-tour mesure 180°, un tour complet 360°.",
+  "parties": [
+    {
+      "titre": "L’angle droit",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 7,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  5
+                ],
+                "a": [
+                  6,
+                  5
+                ]
+              },
+              {
+                "forme": "segment",
+                "de": [
+                  1,
+                  5
+                ],
+                "a": [
+                  1,
+                  1
+                ]
+              }
+            ]
+          },
+          "legende": "Un angle droit : 90°. On le vérifie avec l’équerre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Trois sortes d’angles",
+          "colonnes": [
+            "Angle",
+            "Mesure",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "aigu",
+              "moins de 90°",
+              "45°"
+            ],
+            [
+              "droit",
+              "90°",
+              "coin d’une feuille"
+            ],
+            [
+              "obtus",
+              "entre 90° et 180°",
+              "120°"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un angle de 60° est :",
+          "options": [
+            "aigu",
+            "droit",
+            "obtus"
+          ],
+          "reponse": "aigu",
+          "explication": "60° < 90°."
+        }
+      ]
+    },
+    {
+      "titre": "Tours et degrés",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une aiguille qui tourne.",
+          "exemples": [
+            "un quart de tour : 90°",
+            "un demi-tour : 180°",
+            "un tour complet : 360°"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un angle est plus grand si ses côtés sont plus longs.",
+          "correction": "La mesure dépend de l’ouverture, pas de la longueur des côtés."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un quart de tour mesure :",
+      "options": [
+        "90°",
+        "45°",
+        "180°"
+      ],
+      "reponse": "90°",
+      "explication": "360° ÷ 4 = 90°."
+    },
+    {
+      "consigne": "Un angle de 120° est :",
+      "options": [
+        "obtus",
+        "aigu",
+        "droit"
+      ],
+      "reponse": "obtus",
+      "explication": "Entre 90° et 180°."
+    },
+    {
+      "consigne": "Deux angles droits côte à côte font :",
+      "options": [
+        "180°",
+        "90°",
+        "360°"
+      ],
+      "reponse": "180°",
+      "explication": "90° + 90° = 180°."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 18,
+      "extrait": "Savoir qu’un angle droit mesure 90°",
+      "appui": "L’angle droit mesure 90°"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

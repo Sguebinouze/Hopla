@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C3-CM2-ENT-03",
+  "duree": 6,
+  "essentiel": "Le nombre qui a le plus de chiffres est le plus grand.\nS’ils ont autant de chiffres, on compare de gauche à droite.\n3 450 000 < 3 504 000 : mêmes millions, puis 4 centaines de mille contre 5.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour comparer deux grands nombres",
+          "etapes": [
+            "Compte les chiffres de chaque nombre.",
+            "S’ils en ont autant, compare le premier chiffre à gauche.",
+            "S’il est égal, passe au chiffre suivant."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 987 654 > 1 002 000, car 9 > 1.",
+          "correction": "1 002 000 a sept chiffres, 987 654 en a six. Donc 987 654 < 1 002 000."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre 12 700 000 et 12 070 000 ?",
+          "options": [
+            ">",
+            "<",
+            "="
+          ],
+          "reponse": ">",
+          "explication": "Mêmes millions, puis 7 centaines de mille contre 0."
+        }
+      ]
+    },
+    {
+      "titre": "Encadrer et intercaler",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Placer 6 750 400 entre deux autres nombres.",
+          "exemples": [
+            "Entre deux millions : 6 000 000 < 6 750 400 < 7 000 000.",
+            "Entre deux centaines de mille : 6 700 000 < 6 750 400 < 6 800 000.",
+            "Un nombre intercalé : 6 750 399 < 6 750 400 < 6 750 401."
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Encadre 52 380 000 entre deux dizaines de millions.",
+      "options": [
+        "50 000 000 et 60 000 000",
+        "52 000 000 et 53 000 000",
+        "5 000 000 et 6 000 000"
+      ],
+      "reponse": "50 000 000 et 60 000 000",
+      "explication": "Le chiffre des dizaines de millions est 5."
+    },
+    {
+      "consigne": "Quel nombre est entre 4 999 998 et 5 000 001 ?",
+      "options": [
+        "4 999 999",
+        "5 000 002",
+        "4 999 997"
+      ],
+      "reponse": "4 999 999",
+      "explication": "4 999 998 < 4 999 999 < 5 000 001."
+    },
+    {
+      "consigne": "Range du plus petit au plus grand.",
+      "options": [
+        "890 000 < 8 900 000 < 9 800 000",
+        "8 900 000 < 890 000 < 9 800 000",
+        "9 800 000 < 8 900 000 < 890 000"
+      ],
+      "reponse": "890 000 < 8 900 000 < 9 800 000",
+      "explication": "890 000 n’a que six chiffres."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 5,
+      "extrait": "Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >",
+      "appui": "Comparer, encadrer, intercaler"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

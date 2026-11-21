@@ -1,0 +1,107 @@
+{
+  "competence": "MA-C3-CM2-ALG-01",
+  "duree": 5,
+  "essentiel": "Pour trouver le nombre manquant, on utilise l’opération inverse.\n25 + … = 63 : on calcule 63 − 25 = 38.\n… × 7 = 56 : on calcule 56 ÷ 7 = 8.",
+  "parties": [
+    {
+      "titre": "L’opération inverse",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des égalités à trous",
+          "colonnes": [
+            "Égalité",
+            "Calcul",
+            "Nombre manquant"
+          ],
+          "lignes": [
+            [
+              "25 + … = 63",
+              "63 − 25",
+              "38"
+            ],
+            [
+              "100 − … = 37",
+              "100 − 37",
+              "63"
+            ],
+            [
+              "… × 7 = 56",
+              "56 ÷ 7",
+              "8"
+            ],
+            [
+              "… − 15 = 40",
+              "40 + 15",
+              "55"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "9 × … = 72",
+          "options": [
+            "8",
+            "63",
+            "81"
+          ],
+          "reponse": "8",
+          "explication": "72 ÷ 9 = 8."
+        }
+      ]
+    },
+    {
+      "titre": "Toujours vérifier",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "Pour 100 − … = 37, on calcule 100 + 37.",
+          "correction": "On cherche ce qu’on enlève à 100 : 100 − 37 = 63. Vérifie : 100 − 63 = 37."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "… − 15 = 40",
+      "options": [
+        "55",
+        "25",
+        "45"
+      ],
+      "reponse": "55",
+      "explication": "40 + 15 = 55."
+    },
+    {
+      "consigne": "4,5 + … = 10",
+      "options": [
+        "5,5",
+        "6,5",
+        "14,5"
+      ],
+      "reponse": "5,5",
+      "explication": "10 − 4,5 = 5,5."
+    },
+    {
+      "consigne": "… ÷ 6 = 7",
+      "options": [
+        "42",
+        "13",
+        "1"
+      ],
+      "reponse": "42",
+      "explication": "7 × 6 = 42."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 9,
+      "extrait": "Trouver le nombre manquant dans une égalité à trous",
+      "appui": "Égalités à trous"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

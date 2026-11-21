@@ -1,0 +1,168 @@
+{
+  "competence": "MA-C3-CM2-GEO-02",
+  "duree": 6,
+  "essentiel": "Un trapèze est un quadrilatère qui a deux côtés opposés parallèles.\nUn trapèze rectangle a en plus deux angles droits.\nUn pentagone a 5 côtés, un hexagone a 6 côtés.",
+  "parties": [
+    {
+      "titre": "Les trapèzes",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    3,
+                    2
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un trapèze : le côté du haut et celui du bas sont parallèles."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 8,
+            "hauteur": 6,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    1,
+                    2
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un trapèze rectangle : deux angles droits, à gauche."
+        },
+        {
+          "type": "question",
+          "consigne": "Un trapèze rectangle a :",
+          "options": [
+            "deux angles droits",
+            "quatre angles droits",
+            "aucun angle droit"
+          ],
+          "reponse": "deux angles droits",
+          "explication": "Les deux angles du côté perpendiculaire aux bases."
+        }
+      ]
+    },
+    {
+      "titre": "Pentagone et hexagone",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Nommer selon le nombre de côtés",
+          "colonnes": [
+            "Côtés",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "3",
+              "triangle"
+            ],
+            [
+              "4",
+              "quadrilatère"
+            ],
+            [
+              "5",
+              "pentagone"
+            ],
+            [
+              "6",
+              "hexagone"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un hexagone a 8 côtés.",
+          "correction": "Hexa veut dire six. Le polygone à 8 côtés est l’octogone."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un pentagone a :",
+      "options": [
+        "5 côtés",
+        "6 côtés",
+        "8 côtés"
+      ],
+      "reponse": "5 côtés",
+      "explication": "Penta veut dire cinq."
+    },
+    {
+      "consigne": "Un hexagone a :",
+      "options": [
+        "6 côtés",
+        "5 côtés",
+        "7 côtés"
+      ],
+      "reponse": "6 côtés",
+      "explication": "Hexa veut dire six."
+    },
+    {
+      "consigne": "Un trapèze a toujours :",
+      "options": [
+        "deux côtés opposés parallèles",
+        "quatre côtés égaux",
+        "un angle droit"
+      ],
+      "reponse": "deux côtés opposés parallèles",
+      "explication": "C’est sa définition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 21,
+      "extrait": "trapèze, trapèze rectangle, pentagone et hexagone",
+      "appui": "Trapèzes, pentagone, hexagone"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

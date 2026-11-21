@@ -1,0 +1,98 @@
+{
+  "competence": "MA-C3-CM2-PB-02",
+  "duree": 6,
+  "essentiel": "« 3 fois plus » : on multiplie. Tom a 12 billes, Léa en a 3 fois plus : 12 × 3 = 36.\n« 4 fois moins » : on divise. 36 ÷ 4 = 9.\n« Combien de fois plus ? » : on divise le grand nombre par le petit. 45 ÷ 9 = 5 fois.",
+  "parties": [
+    {
+      "titre": "Fois plus, fois moins",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois questions",
+          "colonnes": [
+            "On lit",
+            "On calcule"
+          ],
+          "lignes": [
+            [
+              "3 fois plus que 12",
+              "12 × 3 = 36"
+            ],
+            [
+              "4 fois moins que 36",
+              "36 ÷ 4 = 9"
+            ],
+            [
+              "45, combien de fois 9 ?",
+              "45 ÷ 9 = 5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un vélo coute 120 €, une trottinette 3 fois moins. La trottinette coute :",
+          "options": [
+            "40 €",
+            "360 €",
+            "117 €"
+          ],
+          "reponse": "40 €",
+          "explication": "120 ÷ 3 = 40."
+        }
+      ]
+    },
+    {
+      "titre": "Fois plus ou de plus ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « 3 fois plus » et « 3 de plus ».",
+          "correction": "3 fois plus que 12 : 36. 3 de plus que 12 : 15."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Ana a 8 €, son frère 4 fois plus. Il a :",
+      "options": [
+        "32 €",
+        "12 €",
+        "2 €"
+      ],
+      "reponse": "32 €",
+      "explication": "8 × 4 = 32."
+    },
+    {
+      "consigne": "Un trajet de 60 km, un autre 3 fois moins long. Il mesure :",
+      "options": [
+        "20 km",
+        "57 km",
+        "180 km"
+      ],
+      "reponse": "20 km",
+      "explication": "60 ÷ 3 = 20."
+    },
+    {
+      "consigne": "42 est combien de fois plus grand que 7 ?",
+      "options": [
+        "6 fois",
+        "35 fois",
+        "49 fois"
+      ],
+      "reponse": "6 fois",
+      "explication": "42 ÷ 7 = 6."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 8,
+      "extrait": "Résoudre des problèmes de comparaison multiplicative",
+      "appui": "Comparaison multiplicative"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

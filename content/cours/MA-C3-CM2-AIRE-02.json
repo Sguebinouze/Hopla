@@ -1,0 +1,110 @@
+{
+  "competence": "MA-C3-CM2-AIRE-02",
+  "duree": 7,
+  "essentiel": "1 dm² est un carré de 10 cm de côté : il contient 10 × 10 = 100 cm².\nEntre deux unités d’aire qui se suivent, on multiplie ou on divise par 100.\n1 m² = 100 dm² = 10 000 cm². 1 cm² = 100 mm².",
+  "parties": [
+    {
+      "titre": "Les unités d’aire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "De 100 en 100",
+          "colonnes": [
+            "Unité",
+            "Vaut"
+          ],
+          "lignes": [
+            [
+              "1 m²",
+              "100 dm²"
+            ],
+            [
+              "1 dm²",
+              "100 cm²"
+            ],
+            [
+              "1 cm²",
+              "100 mm²"
+            ],
+            [
+              "1 hectare (ha)",
+              "10 000 m²"
+            ],
+            [
+              "1 km²",
+              "1 000 000 m²"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "3 m² = ?",
+          "options": [
+            "300 dm²",
+            "30 dm²",
+            "3 000 dm²"
+          ],
+          "reponse": "300 dm²",
+          "explication": "1 m² = 100 dm²."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi 100 ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un carré de 1 m de côté mesure 10 dm sur 10 dm. Il contient 10 rangées de 10 dm² : 100 dm²."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 1 m² = 100 cm², comme 1 m = 100 cm.",
+          "correction": "1 m² = 100 cm × 100 cm = 10 000 cm²."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "500 cm² = ?",
+      "options": [
+        "5 dm²",
+        "50 dm²",
+        "0,5 dm²"
+      ],
+      "reponse": "5 dm²",
+      "explication": "100 cm² = 1 dm²."
+    },
+    {
+      "consigne": "2 cm² = ?",
+      "options": [
+        "200 mm²",
+        "20 mm²",
+        "2 000 mm²"
+      ],
+      "reponse": "200 mm²",
+      "explication": "1 cm² = 100 mm²."
+    },
+    {
+      "consigne": "1 m² = ?",
+      "options": [
+        "10 000 cm²",
+        "100 cm²",
+        "1 000 cm²"
+      ],
+      "reponse": "10 000 cm²",
+      "explication": "100 × 100 = 10 000."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 18,
+      "extrait": "Convertir des aires entre différentes unités",
+      "appui": "Conversions d’aires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

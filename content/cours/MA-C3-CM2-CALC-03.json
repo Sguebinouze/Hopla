@@ -1,0 +1,86 @@
+{
+  "competence": "MA-C3-CM2-CALC-03",
+  "duree": 5,
+  "essentiel": "Le double d’un nombre, c’est ce nombre ajouté à lui-même, ou multiplié par 2.\nPour un décimal, on double la partie entière et la partie décimale : double de 3,6 = 6 + 1,2 = 7,2.\nDouble de 2,5 = 5. Double de 0,75 = 1,5.",
+  "parties": [
+    {
+      "titre": "Doubler en deux morceaux",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule le double de 3,6.",
+          "etapes": [
+            "Double de 3 : 6.",
+            "Double de 0,6 : 1,2.",
+            "6 + 1,2 = 7,2."
+          ],
+          "conclusion": "Le double de 3,6 est 7,2."
+        },
+        {
+          "type": "question",
+          "consigne": "Le double de 1,4 est :",
+          "options": [
+            "2,8",
+            "2,4",
+            "1,8"
+          ],
+          "reponse": "2,8",
+          "explication": "Double de 1 : 2. Double de 0,4 : 0,8."
+        }
+      ]
+    },
+    {
+      "titre": "Les dixièmes qui débordent",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit : double de 3,6 = 6,12.",
+          "correction": "12 dixièmes, c’est 1 unité et 2 dixièmes. Le double est 7,2."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le double de 4,5 est :",
+      "options": [
+        "9",
+        "8,10",
+        "8,5"
+      ],
+      "reponse": "9",
+      "explication": "4,5 + 4,5 = 9."
+    },
+    {
+      "consigne": "Le double de 1,7 est :",
+      "options": [
+        "3,4",
+        "2,14",
+        "3,7"
+      ],
+      "reponse": "3,4",
+      "explication": "2 + 1,4 = 3,4."
+    },
+    {
+      "consigne": "Le double de 0,25 est :",
+      "options": [
+        "0,5",
+        "0,050",
+        "0,45"
+      ],
+      "reponse": "0,5",
+      "explication": "25 centièmes × 2 = 50 centièmes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 11,
+      "extrait": "Calculer le double d’un nombre décimal dans des cas simples",
+      "appui": "Double d’un nombre décimal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C3-CM2-DEC-02",
+  "duree": 7,
+  "essentiel": "On compare d’abord les parties entières.\nSi elles sont égales, on compare les dixièmes, puis les centièmes, puis les millièmes.\n3,8 > 3,75 : même partie entière, puis 8 dixièmes contre 7.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour comparer 3,8 et 3,75",
+          "etapes": [
+            "Parties entières : 3 et 3, égales.",
+            "Dixièmes : 8 et 7. 8 > 7.",
+            "Donc 3,8 > 3,75."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 3,75 > 3,8, car 75 > 8.",
+          "correction": "On compare rang par rang : 3,8 = 3,80, et 80 centièmes > 75 centièmes."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre 2,09 et 2,1 ?",
+          "options": [
+            "<",
+            ">",
+            "="
+          ],
+          "reponse": "<",
+          "explication": "0 dixième contre 1 dixième."
+        }
+      ]
+    },
+    {
+      "titre": "Encadrer, intercaler, ranger",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Autour de 7,46.",
+          "exemples": [
+            "Entre deux entiers : 7 < 7,46 < 8.",
+            "Entre deux dixièmes : 7,4 < 7,46 < 7,5.",
+            "Entre 7,4 et 7,5, il y a aussi 7,41, 7,45, 7,499…"
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Range dans l’ordre croissant.",
+      "options": [
+        "2,09 < 2,1 < 2,25",
+        "2,1 < 2,09 < 2,25",
+        "2,25 < 2,1 < 2,09"
+      ],
+      "reponse": "2,09 < 2,1 < 2,25",
+      "explication": "2,09 = 2,090 ; 2,1 = 2,100 ; 2,25 = 2,250."
+    },
+    {
+      "consigne": "Encadre 7,46 entre deux dixièmes.",
+      "options": [
+        "7,4 et 7,5",
+        "7 et 8",
+        "7,45 et 7,47"
+      ],
+      "reponse": "7,4 et 7,5",
+      "explication": "Le chiffre des dixièmes est 4."
+    },
+    {
+      "consigne": "Quel nombre est entre 4,5 et 4,6 ?",
+      "options": [
+        "4,55",
+        "4,65",
+        "4,05"
+      ],
+      "reponse": "4,55",
+      "explication": "4,50 < 4,55 < 4,60."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 10,
+      "extrait": "Comparer, encadrer, intercaler, ordonner par ordre croissant ou décroissant des nombres décimaux",
+      "appui": "Comparer et ranger des décimaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

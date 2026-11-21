@@ -1,0 +1,109 @@
+{
+  "competence": "MA-C3-CM2-FRAC-03",
+  "duree": 6,
+  "essentiel": "Pour additionner deux fractions de même dénominateur, on additionne les numérateurs : 3/8 + 4/8 = 7/8.\nOn garde le dénominateur : on compte des huitièmes.\nOn soustrait de la même façon : 9/10 − 4/10 = 5/10.",
+  "parties": [
+    {
+      "titre": "Même dénominateur",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 8,
+                "coloriees": 3,
+                "nom": "3/8"
+              },
+              {
+                "parts": 8,
+                "coloriees": 4,
+                "nom": "4/8"
+              },
+              {
+                "parts": 8,
+                "coloriees": 7,
+                "nom": "7/8"
+              }
+            ]
+          },
+          "legende": "3 huitièmes plus 4 huitièmes font 7 huitièmes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 2/5 + 1/5 = 3/10.",
+          "correction": "On ajoute des cinquièmes : 2/5 + 1/5 = 3/5."
+        },
+        {
+          "type": "question",
+          "consigne": "5/6 − 2/6 = ?",
+          "options": [
+            "3/6",
+            "3/0",
+            "7/6"
+          ],
+          "reponse": "3/6",
+          "explication": "5 sixièmes moins 2 sixièmes."
+        }
+      ]
+    },
+    {
+      "titre": "Avec des demis et des quarts",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 1/2 + 1/4.",
+          "etapes": [
+            "1/2 = 2/4.",
+            "2/4 + 1/4 = 3/4."
+          ],
+          "conclusion": "1/2 + 1/4 = 3/4."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "3/8 + 4/8 = ?",
+      "options": [
+        "7/8",
+        "7/16",
+        "12/8"
+      ],
+      "reponse": "7/8",
+      "explication": "On ajoute les numérateurs."
+    },
+    {
+      "consigne": "9/10 − 4/10 = ?",
+      "options": [
+        "5/10",
+        "5/0",
+        "13/10"
+      ],
+      "reponse": "5/10",
+      "explication": "On garde les dixièmes."
+    },
+    {
+      "consigne": "1/2 + 1/4 = ?",
+      "options": [
+        "3/4",
+        "2/6",
+        "1/6"
+      ],
+      "reponse": "3/4",
+      "explication": "1/2 = 2/4."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Additionner et soustraire des fractions",
+      "appui": "Additionner et soustraire des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

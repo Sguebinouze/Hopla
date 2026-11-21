@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C3-CM2-ENT-02",
+  "duree": 6,
+  "essentiel": "La valeur d’un chiffre dépend de son rang.\nDans 586 304 127, le chiffre 8 est au rang des dizaines de millions : il vaut 80 000 000.\nSon nombre de milliers est 586 304 : on lit tout ce qui est à gauche, milliers compris.",
+  "parties": [
+    {
+      "titre": "Rang et valeur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les chiffres de 586 304 127",
+          "colonnes": [
+            "Chiffre",
+            "Rang",
+            "Valeur"
+          ],
+          "lignes": [
+            [
+              "5",
+              "centaines de millions",
+              "500 000 000"
+            ],
+            [
+              "8",
+              "dizaines de millions",
+              "80 000 000"
+            ],
+            [
+              "6",
+              "millions",
+              "6 000 000"
+            ],
+            [
+              "3",
+              "centaines de mille",
+              "300 000"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 241 786 053, que vaut le chiffre 4 ?",
+          "options": [
+            "40 000 000",
+            "4 000 000",
+            "400 000"
+          ],
+          "reponse": "40 000 000",
+          "explication": "Le 4 est au rang des dizaines de millions."
+        }
+      ]
+    },
+    {
+      "titre": "Chiffre de ou nombre de ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans 586 304 127, le chiffre des milliers est 4. Le nombre de milliers est 586 304."
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond 4 quand on demande le nombre de milliers.",
+          "correction": "Le nombre de milliers compte tous les milliers : 586 304."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans 73 652 910, quel est le chiffre des centaines de mille ?",
+      "options": [
+        "6",
+        "3",
+        "5"
+      ],
+      "reponse": "6",
+      "explication": "7 dizaines de millions, 3 millions, 6 centaines de mille."
+    },
+    {
+      "consigne": "Combien de dizaines de mille dans 1 000 000 ?",
+      "options": [
+        "100",
+        "10",
+        "1 000"
+      ],
+      "reponse": "100",
+      "explication": "100 × 10 000 = 1 000 000."
+    },
+    {
+      "consigne": "Quel est le nombre de millions dans 47 300 000 ?",
+      "options": [
+        "47",
+        "7",
+        "473"
+      ],
+      "reponse": "47",
+      "explication": "On lit tout ce qui est à gauche du rang des millions, lui compris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 5,
+      "extrait": "Connaître la valeur des chiffres en fonction de leur position dans un nombre",
+      "appui": "Valeur des chiffres selon leur position"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "MA-C3-CM2-ALG-02",
+  "duree": 6,
+  "essentiel": "Un programme de calcul est une suite d’étapes à appliquer à un nombre de départ.\n« Choisis un nombre, multiplie-le par 3, ajoute 5. » Avec 4 : 4 × 3 = 12, puis 12 + 5 = 17.\nPour retrouver le départ, on remonte les étapes avec les opérations inverses.",
+  "parties": [
+    {
+      "titre": "Exécuter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Multiplie par 3, puis ajoute 5",
+          "colonnes": [
+            "Départ",
+            "× 3",
+            "+ 5"
+          ],
+          "lignes": [
+            [
+              "4",
+              "12",
+              "17"
+            ],
+            [
+              "10",
+              "30",
+              "35"
+            ],
+            [
+              "0",
+              "0",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ajoute 4, puis multiplie par 2. » Avec 6, on obtient :",
+          "options": [
+            "20",
+            "16",
+            "14"
+          ],
+          "reponse": "20",
+          "explication": "6 + 4 = 10, puis 10 × 2 = 20."
+        }
+      ]
+    },
+    {
+      "titre": "Remonter le programme",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Avec « × 3, puis + 5 », on obtient 20. Quel était le nombre de départ ?",
+          "etapes": [
+            "J’enlève 5 : 20 − 5 = 15.",
+            "Je divise par 3 : 15 ÷ 3 = 5."
+          ],
+          "conclusion": "Le nombre de départ est 5."
+        },
+        {
+          "type": "piege",
+          "erreur": "On remonte dans le même ordre : 20 ÷ 3, puis − 5.",
+          "correction": "On défait la dernière étape en premier : − 5, puis ÷ 3."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« × 3, puis + 5 ». Avec 7, on obtient :",
+      "options": [
+        "26",
+        "36",
+        "15"
+      ],
+      "reponse": "26",
+      "explication": "7 × 3 = 21, puis 21 + 5 = 26."
+    },
+    {
+      "consigne": "« × 3, puis + 5 ». On obtient 23. Le départ était :",
+      "options": [
+        "6",
+        "9",
+        "84"
+      ],
+      "reponse": "6",
+      "explication": "23 − 5 = 18, puis 18 ÷ 3 = 6."
+    },
+    {
+      "consigne": "« Enlève 2, puis divise par 4. » Avec 30, on obtient :",
+      "options": [
+        "7",
+        "28",
+        "5,5"
+      ],
+      "reponse": "7",
+      "explication": "30 − 2 = 28, puis 28 ÷ 4 = 7."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 13,
+      "extrait": "Exécuter ou produire un programme de calcul",
+      "appui": "Programmes de calcul"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

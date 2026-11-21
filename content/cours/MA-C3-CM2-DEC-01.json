@@ -1,0 +1,102 @@
+{
+  "competence": "MA-C3-CM2-DEC-01",
+  "duree": 6,
+  "essentiel": "Une fraction décimale a pour dénominateur 10, 100 ou 1 000.\n347/100 = 3,47 : 3 unités, 4 dixièmes, 7 centièmes.\n3 + 4/10 + 7/100 s’écrit aussi 3,47.",
+  "parties": [
+    {
+      "titre": "Fraction et virgule",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux écritures du même nombre",
+          "colonnes": [
+            "Avec des fractions",
+            "Avec une virgule"
+          ],
+          "lignes": [
+            [
+              "25/10",
+              "2,5"
+            ],
+            [
+              "347/100",
+              "3,47"
+            ],
+            [
+              "3 + 4/10 + 7/100",
+              "3,47"
+            ],
+            [
+              "5 + 8/1 000",
+              "5,008"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "4 + 6/100 = ?",
+          "options": [
+            "4,06",
+            "4,6",
+            "4,006"
+          ],
+          "reponse": "4,06",
+          "explication": "6 centièmes : le 6 est au 2e rang après la virgule."
+        }
+      ]
+    },
+    {
+      "titre": "Le bon rang",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit 5 + 8/1 000 = 5,8.",
+          "correction": "8 millièmes : le 8 va au 3e rang. 5,008."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "25/10 = ?",
+      "options": [
+        "2,5",
+        "25,10",
+        "0,25"
+      ],
+      "reponse": "2,5",
+      "explication": "25 dixièmes = 2 unités et 5 dixièmes."
+    },
+    {
+      "consigne": "1 234/1 000 = ?",
+      "options": [
+        "1,234",
+        "12,34",
+        "123,4"
+      ],
+      "reponse": "1,234",
+      "explication": "1 234 millièmes."
+    },
+    {
+      "consigne": "7 + 3/10 + 5/100 = ?",
+      "options": [
+        "7,35",
+        "7,53",
+        "7,035"
+      ],
+      "reponse": "7,35",
+      "explication": "3 dixièmes, 5 centièmes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 10,
+      "extrait": "Passer d’une écriture sous forme d’une fraction décimale ou de la somme de fractions décimales à une écriture à virgule",
+      "appui": "Des fractions décimales à l’écriture à virgule"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

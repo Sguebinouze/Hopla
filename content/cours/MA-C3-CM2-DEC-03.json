@@ -1,0 +1,116 @@
+{
+  "competence": "MA-C3-CM2-DEC-03",
+  "duree": 5,
+  "essentiel": "La partie entière de 7,6 est 7 : c’est ce qui est avant la virgule.\nL’arrondi à l’entier de 7,6 est 8 : c’est l’entier le plus proche.\nSi le chiffre des dixièmes est 5 ou plus, on arrondit à l’entier au-dessus.",
+  "parties": [
+    {
+      "titre": "Partie entière et arrondi",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Arrondi",
+              "definition": "Valeur la plus proche du nombre, avec la précision demandée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques nombres",
+          "colonnes": [
+            "Nombre",
+            "Partie entière",
+            "Arrondi à l’entier"
+          ],
+          "lignes": [
+            [
+              "7,6",
+              "7",
+              "8"
+            ],
+            [
+              "7,2",
+              "7",
+              "7"
+            ],
+            [
+              "7,5",
+              "7",
+              "8"
+            ],
+            [
+              "12,09",
+              "12",
+              "12"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’arrondi à l’entier de 4,49 est :",
+          "options": [
+            "4",
+            "5",
+            "4,5"
+          ],
+          "reponse": "4",
+          "explication": "4 dixièmes : on reste à 4."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’arrondi de 7,6 est 7.",
+          "correction": "7 est la partie entière. 7,6 est plus près de 8 : l’arrondi est 8."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La partie entière de 12,9 est :",
+      "options": [
+        "12",
+        "13",
+        "9"
+      ],
+      "reponse": "12",
+      "explication": "Ce qui est avant la virgule."
+    },
+    {
+      "consigne": "L’arrondi à l’entier de 12,9 est :",
+      "options": [
+        "13",
+        "12",
+        "12,9"
+      ],
+      "reponse": "13",
+      "explication": "12,9 est tout près de 13."
+    },
+    {
+      "consigne": "L’arrondi à l’entier de 3,5 est :",
+      "options": [
+        "4",
+        "3",
+        "3,5"
+      ],
+      "reponse": "4",
+      "explication": "Dixièmes à 5 : on arrondit au-dessus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Savoir donner la partie entière et l’arrondi à l’entier d’un nombre décimal",
+      "appui": "Partie entière et arrondi"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

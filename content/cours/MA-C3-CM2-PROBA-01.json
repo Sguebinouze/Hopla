@@ -1,0 +1,124 @@
+{
+  "competence": "MA-C3-CM2-PROBA-01",
+  "duree": 6,
+  "essentiel": "Dans une urne de 3 boules rouges et 2 bleues, on a 3 chances sur 5 de tirer une rouge.\nOn compte les cas favorables, puis tous les cas possibles.\nAvec un dé, obtenir 6 : 1 chance sur 6.",
+  "parties": [
+    {
+      "titre": "a chances sur b",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Probabilité",
+              "definition": "Nombre compris entre 0 et 1 qui mesure la chance qu’un évènement se produise."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "urne",
+            "boules": [
+              {
+                "couleur": "rouge",
+                "nombre": 3
+              },
+              {
+                "couleur": "bleue",
+                "nombre": 2
+              }
+            ]
+          },
+          "legende": "5 boules en tout, dont 3 rouges."
+        },
+        {
+          "type": "tableau",
+          "titre": "On tire une boule de cette urne",
+          "colonnes": [
+            "Évènement",
+            "Chances"
+          ],
+          "lignes": [
+            [
+              "tirer une rouge",
+              "3 chances sur 5"
+            ],
+            [
+              "tirer une bleue",
+              "2 chances sur 5"
+            ],
+            [
+              "tirer une verte",
+              "0 chance sur 5"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec un dé, obtenir un nombre pair :",
+          "options": [
+            "3 chances sur 6",
+            "1 chance sur 6",
+            "2 chances sur 6"
+          ],
+          "reponse": "3 chances sur 6",
+          "explication": "2, 4 et 6 : 3 cas sur 6."
+        }
+      ]
+    },
+    {
+      "titre": "Compter tous les cas",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "Avec 3 rouges et 2 bleues, on dit « 3 chances sur 2 ».",
+          "correction": "On compare au nombre total de boules : 3 chances sur 5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une urne de 4 boules vertes et 1 jaune. Tirer la jaune :",
+      "options": [
+        "1 chance sur 5",
+        "1 chance sur 4",
+        "4 chances sur 5"
+      ],
+      "reponse": "1 chance sur 5",
+      "explication": "1 cas favorable, 5 boules en tout."
+    },
+    {
+      "consigne": "Avec un dé, obtenir moins de 3 :",
+      "options": [
+        "2 chances sur 6",
+        "3 chances sur 6",
+        "1 chance sur 6"
+      ],
+      "reponse": "2 chances sur 6",
+      "explication": "1 ou 2 : 2 cas sur 6."
+    },
+    {
+      "consigne": "10 billes, dont 7 noires. Tirer une noire :",
+      "options": [
+        "7 chances sur 10",
+        "3 chances sur 10",
+        "7 chances sur 3"
+      ],
+      "reponse": "7 chances sur 10",
+      "explication": "7 cas favorables sur 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 25,
+      "extrait": "exprimer la probabilité d’un évènement sous la forme « a chances sur b »",
+      "appui": "Probabilité « a chances sur b »"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

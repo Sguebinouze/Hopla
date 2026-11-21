@@ -1,0 +1,96 @@
+{
+  "competence": "MA-C3-CM2-CALC-02",
+  "duree": 5,
+  "essentiel": "Ajouter 9, c’est ajouter 10, puis enlever 1. Ajouter 19, c’est ajouter 20, puis enlever 1.\nAjouter 8 ou 28 : on ajoute 10 ou 30, puis on enlève 2.\nPour soustraire, on fait l’inverse : − 19, c’est − 20, puis + 1.",
+  "parties": [
+    {
+      "titre": "Arrondir puis corriger",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "droite",
+            "min": 45,
+            "max": 70,
+            "depart": 47,
+            "saut": 19
+          },
+          "legende": "De 47, on avance de 19 : on arrive à 66."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 47 + 19.",
+          "etapes": [
+            "47 + 20 = 67.",
+            "67 − 1 = 66."
+          ],
+          "conclusion": "47 + 19 = 66."
+        },
+        {
+          "type": "question",
+          "consigne": "83 − 28 = ?",
+          "options": [
+            "55",
+            "51",
+            "65"
+          ],
+          "reponse": "55",
+          "explication": "83 − 30 = 53, puis 53 + 2 = 55."
+        }
+      ]
+    },
+    {
+      "titre": "Dans quel sens corriger ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "Pour 74 − 19, on fait 74 − 20 − 1.",
+          "correction": "On a enlevé 1 de trop : on le rajoute. 74 − 20 + 1 = 55."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "56 + 29 = ?",
+      "options": [
+        "85",
+        "75",
+        "86"
+      ],
+      "reponse": "85",
+      "explication": "56 + 30 = 86, puis 86 − 1 = 85."
+    },
+    {
+      "consigne": "74 − 19 = ?",
+      "options": [
+        "55",
+        "53",
+        "45"
+      ],
+      "reponse": "55",
+      "explication": "74 − 20 = 54, puis 54 + 1 = 55."
+    },
+    {
+      "consigne": "125 − 8 = ?",
+      "options": [
+        "117",
+        "113",
+        "127"
+      ],
+      "reponse": "117",
+      "explication": "125 − 10 = 115, puis 115 + 2 = 117."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 7,
+      "extrait": "Ajouter ou soustraire 8, 9, 18, 19, 28, 29",
+      "appui": "Ajouter ou soustraire 8, 9, 18, 19, 28, 29"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

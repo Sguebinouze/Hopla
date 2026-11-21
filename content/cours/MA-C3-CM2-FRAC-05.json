@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C3-CM2-FRAC-05",
+  "duree": 6,
+  "essentiel": "Pour prendre 2/3 de 12 €, on partage 12 € en 3 parts égales, puis on prend 2 parts.\n12 ÷ 3 = 4, et 4 × 2 = 8 : 2/3 de 12 €, c’est 8 €.\n3/4 de 100 m : 100 ÷ 4 = 25, et 25 × 3 = 75 m.",
+  "parties": [
+    {
+      "titre": "Partager puis prendre",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 3,
+            "colonnes": 4,
+            "coloriees": 8
+          },
+          "legende": "12 jetons en 3 rangées : 2 rangées sur 3, c’est 8 jetons."
+        },
+        {
+          "type": "question",
+          "consigne": "3/5 de 20 = ?",
+          "options": [
+            "12",
+            "4",
+            "15"
+          ],
+          "reponse": "12",
+          "explication": "20 ÷ 5 = 4, et 4 × 3 = 12."
+        }
+      ]
+    },
+    {
+      "titre": "Avec des grandeurs",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des fractions de grandeurs.",
+          "exemples": [
+            "1/4 d’heure = 60 min ÷ 4 = 15 min.",
+            "3/4 d’heure = 15 min × 3 = 45 min.",
+            "1/2 kg = 1 000 g ÷ 2 = 500 g."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On divise par le numérateur : 2/3 de 12 = 12 ÷ 2.",
+          "correction": "On divise par le dénominateur, puis on multiplie par le numérateur."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2/3 de 30 élèves = ?",
+      "options": [
+        "20",
+        "10",
+        "15"
+      ],
+      "reponse": "20",
+      "explication": "30 ÷ 3 = 10, et 10 × 2 = 20."
+    },
+    {
+      "consigne": "3/4 d’une heure = ?",
+      "options": [
+        "45 min",
+        "30 min",
+        "34 min"
+      ],
+      "reponse": "45 min",
+      "explication": "60 ÷ 4 = 15, et 15 × 3 = 45."
+    },
+    {
+      "consigne": "1/5 de 100 € = ?",
+      "options": [
+        "20 €",
+        "5 €",
+        "50 €"
+      ],
+      "reponse": "20 €",
+      "explication": "100 ÷ 5 = 20."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 10,
+      "extrait": "au CM2, les élèves apprennent à calculer des fractions de quantités ou de grandeurs comme deux tiers de 12 € ou trois quarts de 100 mètres",
+      "appui": "Fraction d’une quantité ou d’une grandeur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

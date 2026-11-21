@@ -1,0 +1,90 @@
+{
+  "competence": "MA-C3-CM2-ENT-04",
+  "duree": 7,
+  "essentiel": "Un diviseur de 24 est un nombre qui divise 24 sans reste.\n24 = 4 × 6 : 4 et 6 sont des diviseurs de 24.\nLes diviseurs de 24 sont 1, 2, 3, 4, 6, 8, 12 et 24. 1 et le nombre lui-même sont toujours des diviseurs.",
+  "parties": [
+    {
+      "titre": "Chercher par paires",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Trouver tous les diviseurs de 36",
+          "etapes": [
+            "Cherche les produits égaux à 36 : 1 × 36, 2 × 18, 3 × 12, 4 × 9, 6 × 6.",
+            "Essaie 5 : 36 n’est pas dans la table de 5.",
+            "Arrête-toi quand les paires se répètent.",
+            "Les diviseurs : 1, 2, 3, 4, 6, 9, 12, 18, 36."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel est un diviseur de 36 ?",
+          "options": [
+            "9",
+            "5",
+            "8"
+          ],
+          "reponse": "9",
+          "explication": "36 = 9 × 4."
+        }
+      ]
+    },
+    {
+      "titre": "Diviseur ou multiple ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "30 = 6 × 5. On dit que 6 est un diviseur de 30, et que 30 est un multiple de 6."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit que 30 est un diviseur de 6.",
+          "correction": "Le diviseur est le plus petit des deux : 6 divise 30."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quels sont les diviseurs de 18 ?",
+      "options": [
+        "1, 2, 3, 6, 9, 18",
+        "1, 2, 3, 6, 9",
+        "2, 3, 6, 9"
+      ],
+      "reponse": "1, 2, 3, 6, 9, 18",
+      "explication": "1 × 18, 2 × 9, 3 × 6."
+    },
+    {
+      "consigne": "Combien de diviseurs a 7 ?",
+      "options": [
+        "2",
+        "1",
+        "7"
+      ],
+      "reponse": "2",
+      "explication": "Seulement 1 et 7."
+    },
+    {
+      "consigne": "Lequel n’est pas un diviseur de 100 ?",
+      "options": [
+        "30",
+        "25",
+        "20"
+      ],
+      "reponse": "30",
+      "explication": "100 = 25 × 4 = 20 × 5, mais 100 n’est pas dans la table de 30."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 9,
+      "extrait": "Déterminer des diviseurs d’un nombre entier inférieur ou égal à 100",
+      "appui": "Diviseurs d’un nombre entier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

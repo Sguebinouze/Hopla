@@ -1,0 +1,87 @@
+{
+  "competence": "MA-C3-CM2-OPE-02",
+  "duree": 7,
+  "essentiel": "Pour calculer 4,35 × 6, on pose 435 × 6 sans s’occuper de la virgule : 2 610.\n4,35 a deux chiffres après la virgule : le résultat aussi. 4,35 × 6 = 26,10 = 26,1.\nUn ordre de grandeur permet de vérifier : 4 × 6 = 24.",
+  "parties": [
+    {
+      "titre": "Poser l’opération",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 4,35 × 6.",
+          "etapes": [
+            "6 × 5 = 30 : j’écris 0, je retiens 3.",
+            "6 × 3 = 18, plus 3 = 21 : j’écris 1, je retiens 2.",
+            "6 × 4 = 24, plus 2 = 26 : j’écris 26. J’obtiens 2 610.",
+            "Deux chiffres après la virgule : 26,10."
+          ],
+          "conclusion": "4,35 × 6 = 26,1."
+        },
+        {
+          "type": "question",
+          "consigne": "1,25 × 3 = ?",
+          "options": [
+            "3,75",
+            "37,5",
+            "0,375"
+          ],
+          "reponse": "3,75",
+          "explication": "125 × 3 = 375, deux chiffres après la virgule."
+        }
+      ]
+    },
+    {
+      "titre": "Vérifier",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On place la virgule au hasard : 4,35 × 6 = 261.",
+          "correction": "Ordre de grandeur : 4 × 6 = 24. Le résultat est proche de 24, donc 26,1."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2,5 × 4 = ?",
+      "options": [
+        "10",
+        "8,20",
+        "1"
+      ],
+      "reponse": "10",
+      "explication": "25 × 4 = 100, un chiffre après la virgule : 10,0."
+    },
+    {
+      "consigne": "12,4 × 5 = ?",
+      "options": [
+        "62",
+        "6,2",
+        "620"
+      ],
+      "reponse": "62",
+      "explication": "124 × 5 = 620, un chiffre après la virgule : 62,0."
+    },
+    {
+      "consigne": "Un ordre de grandeur de 9,8 × 7 :",
+      "options": [
+        "70",
+        "7",
+        "700"
+      ],
+      "reponse": "70",
+      "explication": "9,8 est proche de 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 11,
+      "extrait": "Poser et effectuer la multiplication d’un nombre décimal par un nombre entier",
+      "appui": "Multiplication posée d’un décimal par un entier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

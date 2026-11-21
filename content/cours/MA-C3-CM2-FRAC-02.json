@@ -1,0 +1,117 @@
+{
+  "competence": "MA-C3-CM2-FRAC-02",
+  "duree": 7,
+  "essentiel": "Même dénominateur : la plus grande fraction a le plus grand numérateur. 5/8 > 3/8.\nMême numérateur : la plus grande a le plus petit dénominateur. 2/3 > 2/5.\nSinon, on écrit les fractions avec le même dénominateur : 2/3 = 4/6, donc 2/3 < 5/6.",
+  "parties": [
+    {
+      "titre": "Comparer à 1",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Plus petite, égale ou plus grande que 1",
+          "colonnes": [
+            "Fraction",
+            "Comparée à 1"
+          ],
+          "lignes": [
+            [
+              "3/4",
+              "plus petite : numérateur < dénominateur"
+            ],
+            [
+              "5/5",
+              "égale : numérateur = dénominateur"
+            ],
+            [
+              "7/5",
+              "plus grande : numérateur > dénominateur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe entre 7/5 et 1 ?",
+          "options": [
+            ">",
+            "<",
+            "="
+          ],
+          "reponse": ">",
+          "explication": "7 > 5 : la fraction dépasse 1."
+        }
+      ]
+    },
+    {
+      "titre": "Des dénominateurs différents",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "fractions",
+            "barres": [
+              {
+                "parts": 3,
+                "coloriees": 2,
+                "nom": "2/3"
+              },
+              {
+                "parts": 6,
+                "coloriees": 5,
+                "nom": "5/6"
+              }
+            ]
+          },
+          "legende": "2/3, c’est 4 sixièmes : moins que 5/6."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 2/9 > 2/7, car 9 > 7.",
+          "correction": "Les neuvièmes sont plus petits que les septièmes : 2/9 < 2/7."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel signe entre 3/4 et 5/8 ?",
+      "options": [
+        ">",
+        "<",
+        "="
+      ],
+      "reponse": ">",
+      "explication": "3/4 = 6/8, et 6/8 > 5/8."
+    },
+    {
+      "consigne": "Quel signe entre 2/7 et 2/9 ?",
+      "options": [
+        ">",
+        "<",
+        "="
+      ],
+      "reponse": ">",
+      "explication": "Même numérateur : les septièmes sont plus grands."
+    },
+    {
+      "consigne": "Laquelle est la plus grande ?",
+      "options": [
+        "5/6",
+        "2/3",
+        "1/2"
+      ],
+      "reponse": "5/6",
+      "explication": "5/6, 4/6 et 3/6."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 6,
+      "extrait": "Comparer des fractions",
+      "appui": "Comparer des fractions"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

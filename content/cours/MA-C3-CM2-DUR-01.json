@@ -1,0 +1,122 @@
+{
+  "competence": "MA-C3-CM2-DUR-01",
+  "duree": 7,
+  "essentiel": "1 minute = 60 secondes. 1 heure = 60 minutes = 3 600 secondes.\nLes durées se comptent de 60 en 60, pas de 100 en 100.\n2 min 15 s = 120 s + 15 s = 135 s.",
+  "parties": [
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des conversions",
+          "colonnes": [
+            "Durée",
+            "En secondes ou minutes"
+          ],
+          "lignes": [
+            [
+              "3 min",
+              "180 s"
+            ],
+            [
+              "2 min 15 s",
+              "135 s"
+            ],
+            [
+              "200 s",
+              "3 min 20 s"
+            ],
+            [
+              "1 h 30 min",
+              "90 min"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "150 s = ?",
+          "options": [
+            "2 min 30 s",
+            "1 min 50 s",
+            "15 min"
+          ],
+          "reponse": "2 min 30 s",
+          "explication": "120 s = 2 min, il reste 30 s."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer une durée",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 10,
+            "minutes": 45
+          },
+          "legende": "Le départ est à 10 h 45."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Départ à 10 h 45, arrivée à 12 h 20. Combien de temps dure le trajet ?",
+          "etapes": [
+            "De 10 h 45 à 11 h : 15 min.",
+            "De 11 h à 12 h : 1 h.",
+            "De 12 h à 12 h 20 : 20 min.",
+            "15 min + 1 h + 20 min = 1 h 35 min."
+          ],
+          "conclusion": "Le trajet dure 1 h 35 min."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 1,5 h = 1 h 50 min.",
+          "correction": "0,5 h, c’est une demi-heure : 30 min. Donc 1,5 h = 1 h 30 min."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "3 min = ?",
+      "options": [
+        "180 s",
+        "300 s",
+        "30 s"
+      ],
+      "reponse": "180 s",
+      "explication": "3 × 60 = 180."
+    },
+    {
+      "consigne": "1 h = ?",
+      "options": [
+        "3 600 s",
+        "600 s",
+        "360 s"
+      ],
+      "reponse": "3 600 s",
+      "explication": "60 × 60 = 3 600."
+    },
+    {
+      "consigne": "De 8 h 50 à 9 h 25, il s’écoule :",
+      "options": [
+        "35 min",
+        "75 min",
+        "25 min"
+      ],
+      "reponse": "35 min",
+      "explication": "10 min jusqu’à 9 h, puis 25 min."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 18,
+      "extrait": "la compréhension du système sexagésimal (base soixante) utilisé pour les unités de durée s’étend avec l’introduction des secondes",
+      "appui": "Durées : heures, minutes, secondes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

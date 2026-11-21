@@ -1,0 +1,100 @@
+{
+  "competence": "MA-C3-CM2-PROP-01",
+  "duree": 7,
+  "essentiel": "Deux grandeurs sont proportionnelles quand on passe de l’une à l’autre en multipliant toujours par le même nombre.\nSi 3 croissants coutent 2,70 €, 6 croissants coutent le double : 5,40 €.\n9 croissants, c’est 3 + 6 : 2,70 + 5,40 = 8,10 €.",
+  "parties": [
+    {
+      "titre": "Multiplier ou ajouter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Prix des croissants",
+          "colonnes": [
+            "Croissants",
+            "3",
+            "6",
+            "9",
+            "12"
+          ],
+          "lignes": [
+            [
+              "Prix (€)",
+              "2,70",
+              "5,40",
+              "8,10",
+              "10,80"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "6 = 3 × 2, donc le prix est multiplié par 2. 9 = 3 + 6, donc on ajoute les prix."
+        },
+        {
+          "type": "question",
+          "consigne": "4 cahiers coutent 6 €. 8 cahiers coutent :",
+          "options": [
+            "12 €",
+            "10 €",
+            "24 €"
+          ],
+          "reponse": "12 €",
+          "explication": "8 = 4 × 2 : le prix double."
+        }
+      ]
+    },
+    {
+      "titre": "Proportionnel ou pas ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la taille d’un enfant est proportionnelle à son âge.",
+          "correction": "À 4 ans, on ne mesure pas le double de sa taille à 2 ans. Ce n’est pas proportionnel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "2 kg de pommes coutent 5 €. 6 kg coutent :",
+      "options": [
+        "15 €",
+        "9 €",
+        "30 €"
+      ],
+      "reponse": "15 €",
+      "explication": "6 = 2 × 3, donc 5 × 3 = 15."
+    },
+    {
+      "consigne": "250 g de farine pour 4 personnes. Pour 12 personnes :",
+      "options": [
+        "750 g",
+        "258 g",
+        "1 000 g"
+      ],
+      "reponse": "750 g",
+      "explication": "12 = 4 × 3."
+    },
+    {
+      "consigne": "5 places de cinéma coutent 40 €, 2 places coutent 16 €. 7 places coutent :",
+      "options": [
+        "56 €",
+        "47 €",
+        "280 €"
+      ],
+      "reponse": "56 €",
+      "explication": "7 = 5 + 2, donc 40 + 16 = 56."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-maths-c3",
+      "page": 27,
+      "extrait": "Seuls des raisonnements fondés sur les propriétés de linéarité pour la multiplication et pour l’addition sont attendus",
+      "appui": "Proportionnalité par linéarité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
