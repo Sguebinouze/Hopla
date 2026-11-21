@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C3-CM1-ECOU-01",
+  "duree": 5,
+  "essentiel": "J’écoute en me demandant : de quoi parle-t-on, qui parle, pour quoi faire ?\nJe note quelques mots clés, pas des phrases entières.\nÀ la fin, je redis l’essentiel en une ou deux phrases.",
+  "parties": [
+    {
+      "titre": "Une annonce",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Annonce : « Le train de 14 h 20 pour Lyon partira avec 15 minutes de retard, voie 3. »",
+          "exemples": [
+            "Quoi ? Un retard.",
+            "Quel train ? Celui de 14 h 20, pour Lyon.",
+            "Où ? Voie 3."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Ce train partira à :",
+          "options": [
+            "14 h 35",
+            "14 h 20",
+            "15 h 20"
+          ],
+          "reponse": "14 h 35",
+          "explication": "14 h 20 + 15 min = 14 h 35."
+        }
+      ]
+    },
+    {
+      "titre": "Bien écouter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour retenir un message",
+          "etapes": [
+            "Écoute le début : il annonce souvent le sujet.",
+            "Note qui, quoi, où, quand.",
+            "Redis l’essentiel avec tes mots."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On veut tout retenir mot à mot.",
+          "correction": "Retiens les mots clés : qui, quoi, où, quand."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour retenir un message, je note :",
+      "options": [
+        "des mots clés",
+        "tout le message",
+        "rien"
+      ],
+      "reponse": "des mots clés",
+      "explication": "Quelques mots suffisent."
+    },
+    {
+      "consigne": "Un reportage sert surtout à :",
+      "options": [
+        "informer",
+        "vendre un produit",
+        "raconter un conte"
+      ],
+      "reponse": "informer",
+      "explication": "Il présente des faits."
+    },
+    {
+      "consigne": "Une consigne orale se retient mieux si je :",
+      "options": [
+        "la redis dans ma tête",
+        "regarde ailleurs",
+        "parle en même temps"
+      ],
+      "reponse": "la redis dans ma tête",
+      "explication": "Reformuler aide à mémoriser."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 11,
+      "extrait": "Comprendre un message oral provenant d’un tiers ou d’un média",
+      "appui": "Comprendre un message oral"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

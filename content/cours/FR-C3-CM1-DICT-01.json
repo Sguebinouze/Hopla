@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C3-CM1-DICT-01",
+  "duree": 6,
+  "essentiel": "Avant d’écrire, j’écoute la phrase en entier.\nJ’écris, puis je relis plusieurs fois, en cherchant une chose à la fois.\nJe vérifie les accords : le verbe avec son sujet, puis chaque groupe nominal.",
+  "parties": [
+    {
+      "titre": "Relire une chose à la fois",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour relire une dictée",
+          "etapes": [
+            "Relis pour le sens : il ne manque aucun mot.",
+            "Relis les verbes : trouve leur sujet.",
+            "Relis les groupes nominaux : genre et nombre.",
+            "Relis les homophones : a ou à, et ou est, son ou sont."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On relit une seule fois, d’un coup.",
+          "correction": "Une relecture par vérification : on repère mieux les erreurs."
+        }
+      ]
+    },
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les oiseaux du parc chantaient sous les branches fleuries. »",
+          "etapes": [
+            "Chantaient : le sujet est les oiseaux, au pluriel, donc -aient.",
+            "Les branches fleuries : féminin pluriel, donc -es."
+          ],
+          "conclusion": "Les accords sont vérifiés un par un."
+        },
+        {
+          "type": "question",
+          "consigne": "« Il … parti à l’école. »",
+          "options": [
+            "est",
+            "et",
+            "ai"
+          ],
+          "reponse": "est",
+          "explication": "On peut dire « il était parti » : c’est le verbe être."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand on relit un verbe, on vérifie :",
+      "options": [
+        "son accord avec le sujet",
+        "sa couleur",
+        "sa longueur"
+      ],
+      "reponse": "son accord avec le sujet",
+      "explication": "Le sujet commande le verbe."
+    },
+    {
+      "consigne": "« Les … fleuries »",
+      "options": [
+        "branches",
+        "branche",
+        "branchent"
+      ],
+      "reponse": "branches",
+      "explication": "Après les : un nom au pluriel."
+    },
+    {
+      "consigne": "« Elle … à Paris. »",
+      "options": [
+        "est",
+        "a",
+        "et"
+      ],
+      "reponse": "est",
+      "explication": "On peut dire « elle était à Paris » : verbe être."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "dont des dictées",
+      "appui": "Dictée et relecture"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

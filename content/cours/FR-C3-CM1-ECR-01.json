@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM1-ECR-01",
+  "duree": 7,
+  "essentiel": "Un texte cohérent suit un ordre logique.\nDes connecteurs relient les phrases : d’abord, ensuite, puis, enfin, mais, car, donc.\nOn évite les répétitions avec des pronoms ou des synonymes, et on garde le même temps.",
+  "parties": [
+    {
+      "titre": "Relier et reprendre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Améliore : « Le loup sort. Le loup voit une chèvre. Le loup court. »",
+          "etapes": [
+            "Je relie avec des connecteurs : soudain, aussitôt.",
+            "Je remplace « le loup » par il, puis par l’animal."
+          ],
+          "conclusion": "Le loup sort de la forêt. Soudain, il aperçoit une chèvre. Aussitôt, l’animal se met à courir."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des connecteurs",
+          "colonnes": [
+            "Pour…",
+            "Connecteurs"
+          ],
+          "lignes": [
+            [
+              "ordonner",
+              "d’abord, ensuite, puis, enfin"
+            ],
+            [
+              "opposer",
+              "mais, pourtant"
+            ],
+            [
+              "expliquer",
+              "car, parce que"
+            ],
+            [
+              "conclure",
+              "donc, alors"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Garder le même temps",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On change de temps sans raison : « il marchait quand il voit un chat ».",
+          "correction": "On garde le passé : il marchait quand il a vu un chat."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel connecteur exprime la cause ?",
+          "options": [
+            "car",
+            "ensuite",
+            "enfin"
+          ],
+          "reponse": "car",
+          "explication": "Car explique pourquoi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour éviter de répéter « la fusée », j’écris :",
+      "options": [
+        "elle",
+        "il",
+        "les fusées"
+      ],
+      "reponse": "elle",
+      "explication": "Fusée est féminin singulier."
+    },
+    {
+      "consigne": "Quel connecteur termine une suite d’actions ?",
+      "options": [
+        "enfin",
+        "d’abord",
+        "mais"
+      ],
+      "reponse": "enfin",
+      "explication": "Enfin annonce la dernière étape."
+    },
+    {
+      "consigne": "Quel connecteur oppose deux idées ?",
+      "options": [
+        "mais",
+        "puis",
+        "donc"
+      ],
+      "reponse": "mais",
+      "explication": "Il est fatigué, mais il continue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 9,
+      "extrait": "Prendre conscience des composantes de la cohérence textuelle",
+      "appui": "Cohérence d’un texte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,105 @@
+{
+  "competence": "FR-C3-CM1-GRAM-05",
+  "duree": 6,
+  "essentiel": "La nature, ou classe, d’un mot ne change pas : nom, verbe, adjectif, déterminant, pronom…\nLa fonction dit le rôle du mot dans la phrase : sujet, complément…\nUn même nom peut être sujet dans une phrase et complément dans une autre.",
+  "parties": [
+    {
+      "titre": "Nature et fonction",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le mot souris dans deux phrases.",
+          "exemples": [
+            "Le chat mange la souris : souris est un nom, complément du verbe.",
+            "La souris mange le fromage : souris est un nom, sujet du verbe."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "« Le petit chat dort. »",
+          "colonnes": [
+            "Groupe",
+            "Nature",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "le petit chat",
+              "groupe nominal",
+              "sujet"
+            ],
+            [
+              "dort",
+              "verbe",
+              "verbe de la phrase"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On répond « sujet » quand on demande la nature.",
+          "correction": "Sujet est une fonction. La nature, c’est nom, verbe, adjectif…"
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la nature de « rapide » ?",
+          "options": [
+            "adjectif",
+            "sujet",
+            "verbe"
+          ],
+          "reponse": "adjectif",
+          "explication": "Rapide décrit un nom."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Paul court », la fonction de Paul est :",
+      "options": [
+        "sujet",
+        "nom",
+        "verbe"
+      ],
+      "reponse": "sujet",
+      "explication": "Paul fait l’action : il est sujet."
+    },
+    {
+      "consigne": "La nature d’un mot change-t-elle selon la phrase ?",
+      "options": [
+        "non",
+        "oui",
+        "seulement au pluriel"
+      ],
+      "reponse": "non",
+      "explication": "Seule la fonction change."
+    },
+    {
+      "consigne": "Dans « Je lis un livre », la nature de « livre » est :",
+      "options": [
+        "nom",
+        "COD",
+        "verbe"
+      ],
+      "reponse": "nom",
+      "explication": "COD est sa fonction ; sa nature est nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "Se familiariser avec les notions de nature et fonction",
+      "appui": "Nature et fonction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

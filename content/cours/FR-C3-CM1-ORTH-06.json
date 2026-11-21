@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C3-CM1-ORTH-06",
+  "duree": 5,
+  "essentiel": "Les noms, déterminants, adjectifs et pronoms varient en genre et en nombre.\nLe verbe varie en personne, en nombre et en temps.\nLes adverbes, prépositions et conjonctions sont invariables : très, avec, et.",
+  "parties": [
+    {
+      "titre": "Qui varie ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Classes de mots",
+          "colonnes": [
+            "Classe",
+            "Varie selon",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "nom",
+              "nombre, parfois genre",
+              "un ami, des amies"
+            ],
+            [
+              "adjectif",
+              "genre et nombre",
+              "grand, grandes"
+            ],
+            [
+              "déterminant",
+              "genre et nombre",
+              "le, la, les"
+            ],
+            [
+              "verbe",
+              "personne, nombre, temps",
+              "je chante, ils chantaient"
+            ],
+            [
+              "adverbe, préposition",
+              "ne varie pas",
+              "très, avec"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot varie en genre et en nombre ?",
+          "options": [
+            "petit",
+            "souvent",
+            "avec"
+          ],
+          "reponse": "petit",
+          "explication": "C’est un adjectif."
+        }
+      ]
+    },
+    {
+      "titre": "Adjectif ou adverbe ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’adjectif est invariable, comme l’adverbe.",
+          "correction": "L’adjectif s’accorde : des robes rouges. L’adverbe non : des robes très belles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le verbe varie selon :",
+      "options": [
+        "la personne, le nombre et le temps",
+        "le genre seulement",
+        "rien"
+      ],
+      "reponse": "la personne, le nombre et le temps",
+      "explication": "Je chante, nous chantions…"
+    },
+    {
+      "consigne": "Quel mot est invariable ?",
+      "options": [
+        "avec",
+        "beau",
+        "chanter"
+      ],
+      "reponse": "avec",
+      "explication": "Avec est une préposition."
+    },
+    {
+      "consigne": "Dans « des chats très doux », quel mot ne varie pas ?",
+      "options": [
+        "très",
+        "chats",
+        "doux"
+      ],
+      "reponse": "très",
+      "explication": "Très est un adverbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Identifier, classer et repérer les critères de variations (genre, nombre, personne, temps)",
+      "appui": "Mots variables et invariables"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

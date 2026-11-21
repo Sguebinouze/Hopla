@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C3-CM1-VOC-01",
+  "duree": 5,
+  "essentiel": "Un synonyme a un sens proche : content, joyeux.\nUn antonyme a un sens contraire : grand, petit.\nLe synonyme ou l’antonyme est de la même classe que le mot : un adjectif pour un adjectif.",
+  "parties": [
+    {
+      "titre": "Sens proche, sens contraire",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Synonyme",
+              "definition": "Mot de même classe grammaticale et de sens très proche."
+            },
+            {
+              "mot": "Antonyme",
+              "definition": "Mot de sens contraire, de la même classe grammaticale."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Un synonyme et un antonyme pour chaque mot.",
+          "exemples": [
+            "beau : joli (synonyme), laid (antonyme)",
+            "commencer : débuter (synonyme), finir (antonyme)",
+            "la joie : le bonheur (synonyme), la tristesse (antonyme)"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est un synonyme de « effrayé » ?",
+          "options": [
+            "apeuré",
+            "courageux",
+            "effrayer"
+          ],
+          "reponse": "apeuré",
+          "explication": "Même sens, même classe : adjectif."
+        }
+      ]
+    },
+    {
+      "titre": "Avec un préfixe",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Certains antonymes se forment avec un préfixe : possible, impossible ; faire, défaire ; lisible, illisible."
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne un mot d’une autre classe : rapide, lentement.",
+          "correction": "Rapide est un adjectif : son antonyme est lent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est l’antonyme de « monter » ?",
+      "options": [
+        "descendre",
+        "grimper",
+        "montée"
+      ],
+      "reponse": "descendre",
+      "explication": "Un verbe de sens contraire."
+    },
+    {
+      "consigne": "Quel est l’antonyme de « possible » ?",
+      "options": [
+        "impossible",
+        "probable",
+        "possiblement"
+      ],
+      "reponse": "impossible",
+      "explication": "Le préfixe im- donne le contraire."
+    },
+    {
+      "consigne": "Quel est un synonyme de « débuter » ?",
+      "options": [
+        "commencer",
+        "terminer",
+        "début"
+      ],
+      "reponse": "commencer",
+      "explication": "Même sens, et un verbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "Comprendre et utiliser les notions de synonymie et antonymie",
+      "appui": "Synonymes et antonymes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

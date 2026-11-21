@@ -1,0 +1,109 @@
+{
+  "competence": "FR-C3-CM1-ORTH-02",
+  "duree": 7,
+  "essentiel": "Dans le groupe nominal, le déterminant et l’adjectif s’accordent avec le nom.\nUn petit chat noir, des petits chats noirs, une petite chatte noire.\nAu pluriel, on ajoute souvent -s, parfois -x : des jeux, des chevaux.",
+  "parties": [
+    {
+      "titre": "Genre et nombre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Transformer un groupe nominal",
+          "colonnes": [
+            "Masculin singulier",
+            "Féminin singulier",
+            "Masculin pluriel",
+            "Féminin pluriel"
+          ],
+          "lignes": [
+            [
+              "un ami fidèle",
+              "une amie fidèle",
+              "des amis fidèles",
+              "des amies fidèles"
+            ],
+            [
+              "le grand lion",
+              "la grande lionne",
+              "les grands lions",
+              "les grandes lionnes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Au féminin : « un voisin gentil » devient :",
+          "options": [
+            "une voisine gentille",
+            "une voisine gentil",
+            "une voisin gentille"
+          ],
+          "reponse": "une voisine gentille",
+          "explication": "Le déterminant, le nom et l’adjectif changent."
+        }
+      ]
+    },
+    {
+      "titre": "Pluriels en -x",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des pluriels à connaitre.",
+          "exemples": [
+            "un jeu, des jeux ; un gâteau, des gâteaux",
+            "un cheval, des chevaux ; un journal, des journaux",
+            "bijou, caillou, chou, genou, hibou, joujou, pou : -oux"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « des chevals ».",
+          "correction": "Les noms en -al font -aux, sauf bal, carnaval, chacal, festival, récital, régal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pluriel de « un beau château » :",
+      "options": [
+        "de beaux châteaux",
+        "des beau châteaus",
+        "des beaux château"
+      ],
+      "reponse": "de beaux châteaux",
+      "explication": "Beau devient beaux, château devient châteaux."
+    },
+    {
+      "consigne": "Pluriel de « un genou » :",
+      "options": [
+        "des genoux",
+        "des genous",
+        "des genouxs"
+      ],
+      "reponse": "des genoux",
+      "explication": "Genou fait partie des sept noms en -oux."
+    },
+    {
+      "consigne": "Pluriel de « un festival » :",
+      "options": [
+        "des festivals",
+        "des festivaux",
+        "des festivales"
+      ],
+      "reponse": "des festivals",
+      "explication": "Festival est une exception : il prend un s."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Transformer le genre et le nombre de groupes nominaux simples isolés puis inscrits dans des phrases simples",
+      "appui": "Accords dans le groupe nominal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

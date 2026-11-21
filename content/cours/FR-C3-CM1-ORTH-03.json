@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM1-ORTH-03",
+  "duree": 6,
+  "essentiel": "Avec l’auxiliaire être, le participe passé s’accorde avec le sujet.\nIl est parti. Elle est partie. Ils sont partis. Elles sont parties.\nPour vérifier, remplace par un adjectif : elle est grande, elle est partie.",
+  "parties": [
+    {
+      "titre": "Accorder avec le sujet",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Participe passé",
+              "definition": "Forme du verbe utilisée avec un auxiliaire dans les temps composés : chanté, fini, pris."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Partir au passé composé",
+          "colonnes": [
+            "Sujet",
+            "Verbe",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "il",
+              "est parti",
+              "masculin singulier"
+            ],
+            [
+              "elle",
+              "est partie",
+              "féminin singulier : -e"
+            ],
+            [
+              "ils",
+              "sont partis",
+              "masculin pluriel : -s"
+            ],
+            [
+              "elles",
+              "sont parties",
+              "féminin pluriel : -es"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les filles sont (arrivé).",
+          "options": [
+            "arrivées",
+            "arrivés",
+            "arrivé"
+          ],
+          "reponse": "arrivées",
+          "explication": "Sujet féminin pluriel : -es."
+        }
+      ]
+    },
+    {
+      "titre": "Être ou avoir ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On accorde aussi avec avoir : « elles ont mangées ».",
+          "correction": "Avec avoir, on n’accorde pas avec le sujet : elles ont mangé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mon frère est (tombé).",
+      "options": [
+        "tombé",
+        "tombée",
+        "tombés"
+      ],
+      "reponse": "tombé",
+      "explication": "Sujet masculin singulier."
+    },
+    {
+      "consigne": "Nous avons (chanté).",
+      "options": [
+        "chanté",
+        "chantés",
+        "chantées"
+      ],
+      "reponse": "chanté",
+      "explication": "Auxiliaire avoir : pas d’accord avec le sujet."
+    },
+    {
+      "consigne": "Mes cousines sont (venu).",
+      "options": [
+        "venues",
+        "venus",
+        "venu"
+      ],
+      "reponse": "venues",
+      "explication": "Sujet féminin pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Accorder le participe passé avec le sujet dans le cas de l’emploi avec l’auxiliaire être",
+      "appui": "Participe passé avec être"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM1-GRAM-04",
+  "duree": 6,
+  "essentiel": "Trois types de phrases : déclarative, interrogative, impérative.\nUne phrase peut aussi être exclamative, pour exprimer une émotion.\nForme négative : ne… pas, ne… jamais, ne… plus, ne… rien.",
+  "parties": [
+    {
+      "titre": "Les types",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Types de phrases",
+          "colonnes": [
+            "Type",
+            "Elle sert à",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "déclarative",
+              "dire, informer",
+              "Il pleut."
+            ],
+            [
+              "interrogative",
+              "poser une question",
+              "Pleut-il ?"
+            ],
+            [
+              "impérative",
+              "donner un ordre, un conseil",
+              "Prends ton parapluie."
+            ],
+            [
+              "exclamative",
+              "exprimer une émotion",
+              "Quelle pluie !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ferme la porte. » est une phrase :",
+          "options": [
+            "impérative",
+            "interrogative",
+            "exclamative"
+          ],
+          "reponse": "impérative",
+          "explication": "Elle donne un ordre."
+        }
+      ]
+    },
+    {
+      "titre": "Transformer",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une phrase, plusieurs formes.",
+          "exemples": [
+            "Tu viens. Viens-tu ? Est-ce que tu viens ?",
+            "Il mange encore. Il ne mange plus.",
+            "Je vois quelque chose. Je ne vois rien."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le ne à l’écrit : « je sais pas ».",
+          "correction": "À l’écrit, on met les deux mots : je ne sais pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Forme négative de « Il a encore faim » :",
+      "options": [
+        "Il n’a plus faim.",
+        "Il a pas faim.",
+        "Il n’a encore faim."
+      ],
+      "reponse": "Il n’a plus faim.",
+      "explication": "Encore devient ne… plus."
+    },
+    {
+      "consigne": "Quelle phrase est interrogative ?",
+      "options": [
+        "Viens-tu demain ?",
+        "Viens demain.",
+        "Quel beau jour !"
+      ],
+      "reponse": "Viens-tu demain ?",
+      "explication": "Elle pose une question."
+    },
+    {
+      "consigne": "Quelle phrase est exclamative ?",
+      "options": [
+        "Comme il est grand !",
+        "Il est grand.",
+        "Est-il grand ?"
+      ],
+      "reponse": "Comme il est grand !",
+      "explication": "Elle exprime une émotion."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "Identifier les trois types de phrases (déclaratif, interrogatif, impératif ou injonctif)",
+      "appui": "Types et formes de phrases"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

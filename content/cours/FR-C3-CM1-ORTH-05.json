@@ -1,0 +1,86 @@
+{
+  "competence": "FR-C3-CM1-ORTH-05",
+  "duree": 5,
+  "essentiel": "Certains noms et verbes se ressemblent : le travail, il travaille.\nAprès un déterminant, c’est un nom. Après un pronom sujet, c’est un verbe.\nLe nom prend -s au pluriel. Le verbe prend -nt avec ils ou elles.",
+  "parties": [
+    {
+      "titre": "Nom ou verbe ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le mot avant aide à choisir.",
+          "exemples": [
+            "un appel, j’appelle",
+            "le réveil, il se réveille",
+            "le conseil, je conseille",
+            "des portes, ils portent"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Ils … la table. (ranger)",
+          "options": [
+            "rangent",
+            "ranges",
+            "rangé"
+          ],
+          "reponse": "rangent",
+          "explication": "Après ils, c’est un verbe : -nt."
+        }
+      ]
+    },
+    {
+      "titre": "Les marques du pluriel",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « ils portes ».",
+          "correction": "Après ils, c’est un verbe : ils portent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les … du jardin. (fleur)",
+      "options": [
+        "fleurs",
+        "fleurent",
+        "fleure"
+      ],
+      "reponse": "fleurs",
+      "explication": "Après les, c’est un nom : -s."
+    },
+    {
+      "consigne": "Le … sonne à 7 heures.",
+      "options": [
+        "réveil",
+        "réveille",
+        "réveilles"
+      ],
+      "reponse": "réveil",
+      "explication": "Après le, c’est un nom."
+    },
+    {
+      "consigne": "Elles … leurs amies. (appeler)",
+      "options": [
+        "appellent",
+        "appels",
+        "appelles"
+      ],
+      "reponse": "appellent",
+      "explication": "Après elles, c’est un verbe : -nt."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Distinguer les variations morphologiques du verbe de celles du nom",
+      "appui": "Distinguer le nom et le verbe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

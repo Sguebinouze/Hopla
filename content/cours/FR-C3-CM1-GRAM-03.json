@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C3-CM1-GRAM-03",
+  "duree": 8,
+  "essentiel": "Le complément d’objet complète le verbe : on ne peut ni le supprimer ni le déplacer.\nLe complément circonstanciel dit où, quand, comment : on peut le supprimer ou le déplacer.\nCOD : sans préposition, je mange une pomme. COI : avec préposition, je parle à Léa.",
+  "parties": [
+    {
+      "titre": "Objet ou circonstanciel ?",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Analyse : « Ce matin, Léo écrit une lettre à sa grand-mère. »",
+          "etapes": [
+            "Ce matin : on peut le déplacer. C’est un complément circonstanciel de temps.",
+            "Une lettre : il écrit quoi ? C’est un COD.",
+            "À sa grand-mère : il écrit à qui ? C’est un COI."
+          ],
+          "conclusion": "Un complément circonstanciel, un COD et un COI."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout groupe après le verbe est un COD.",
+          "correction": "« Il dort dans son lit » : dans son lit dit où. C’est un complément circonstanciel."
+        }
+      ]
+    },
+    {
+      "titre": "COD ou COI ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les questions à poser",
+          "colonnes": [
+            "Complément",
+            "Question",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "COD",
+              "verbe + quoi ? qui ?",
+              "Je mange une pomme."
+            ],
+            [
+              "COI",
+              "verbe + à quoi ? de qui ?…",
+              "Je parle à Léa."
+            ],
+            [
+              "circonstanciel",
+              "où ? quand ? comment ?",
+              "Je pars demain."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Nous regardons un film », un film est :",
+          "options": [
+            "un COD",
+            "un COI",
+            "le sujet"
+          ],
+          "reponse": "un COD",
+          "explication": "Nous regardons quoi ? Sans préposition."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Je pense à mes vacances », à mes vacances est :",
+      "options": [
+        "un COI",
+        "un COD",
+        "un complément circonstanciel"
+      ],
+      "reponse": "un COI",
+      "explication": "Je pense à quoi ? Avec la préposition à."
+    },
+    {
+      "consigne": "Dans « Elle chante le soir », le soir est :",
+      "options": [
+        "un complément circonstanciel de temps",
+        "un COD",
+        "un COI"
+      ],
+      "reponse": "un complément circonstanciel de temps",
+      "explication": "On peut le déplacer : le soir, elle chante."
+    },
+    {
+      "consigne": "Dans « Il se souvient de son voyage », de son voyage est :",
+      "options": [
+        "un COI",
+        "un COD",
+        "le sujet"
+      ],
+      "reponse": "un COI",
+      "explication": "Il se souvient de quoi ? Préposition de."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "Distinguer le complément d’objet du complément circonstanciel",
+      "appui": "Compléments du verbe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

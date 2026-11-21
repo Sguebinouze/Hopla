@@ -1,0 +1,164 @@
+{
+  "competence": "FR-C3-CM1-CONJ-01",
+  "duree": 8,
+  "essentiel": "Le présent dit ce qui se passe maintenant. L’imparfait raconte le passé. Le futur annonce ce qui arrivera.\nImparfait : -ais, -ais, -ait, -ions, -iez, -aient.\nFutur : -rai, -ras, -ra, -rons, -rez, -ront.",
+  "parties": [
+    {
+      "titre": "Trois temps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À la première personne",
+          "colonnes": [
+            "Verbe",
+            "Présent",
+            "Imparfait",
+            "Futur"
+          ],
+          "lignes": [
+            [
+              "chanter",
+              "je chante",
+              "je chantais",
+              "je chanterai"
+            ],
+            [
+              "finir",
+              "je finis",
+              "je finissais",
+              "je finirai"
+            ],
+            [
+              "être",
+              "je suis",
+              "j’étais",
+              "je serai"
+            ],
+            [
+              "avoir",
+              "j’ai",
+              "j’avais",
+              "j’aurai"
+            ],
+            [
+              "aller",
+              "je vais",
+              "j’allais",
+              "j’irai"
+            ],
+            [
+              "faire",
+              "je fais",
+              "je faisais",
+              "je ferai"
+            ],
+            [
+              "dire",
+              "je dis",
+              "je disais",
+              "je dirai"
+            ],
+            [
+              "venir",
+              "je viens",
+              "je venais",
+              "je viendrai"
+            ],
+            [
+              "pouvoir",
+              "je peux",
+              "je pouvais",
+              "je pourrai"
+            ],
+            [
+              "voir",
+              "je vois",
+              "je voyais",
+              "je verrai"
+            ],
+            [
+              "vouloir",
+              "je veux",
+              "je voulais",
+              "je voudrai"
+            ],
+            [
+              "prendre",
+              "je prends",
+              "je prenais",
+              "je prendrai"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Demain, nous (finir) le livre.",
+          "options": [
+            "finirons",
+            "finissons",
+            "finissions"
+          ],
+          "reponse": "finirons",
+          "explication": "Demain : futur, terminaison -rons."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « nous chantions » pour parler de maintenant.",
+          "correction": "Au présent : nous chantons. La terminaison -ions est celle de l’imparfait."
+        },
+        {
+          "type": "explique",
+          "texte": "Au futur, plusieurs verbes changent de radical : j’irai, je ferai, je viendrai, je pourrai, je verrai, je voudrai."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Hier, il (faire) beau.",
+      "options": [
+        "faisait",
+        "fera",
+        "fait"
+      ],
+      "reponse": "faisait",
+      "explication": "Hier : imparfait."
+    },
+    {
+      "consigne": "Demain, vous (venir) avec nous.",
+      "options": [
+        "viendrez",
+        "venez",
+        "veniez"
+      ],
+      "reponse": "viendrez",
+      "explication": "Futur de venir : radical viendr-."
+    },
+    {
+      "consigne": "Ils (prendre) le bus chaque jour.",
+      "options": [
+        "prennent",
+        "prenaient",
+        "prendront"
+      ],
+      "reponse": "prennent",
+      "explication": "Une habitude actuelle : présent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Conjugaisons à mémoriser et à maîtriser : présent de l’indicatif, imparfait, futur, passé composé des verbes être et avoir, des",
+      "appui": "Présent, imparfait, futur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C3-CM1-LECT-03",
+  "duree": 5,
+  "essentiel": "Avant de lire un document, je cherche sa nature : article, carte, affiche, graphique, photo…\nJe cherche sa source : qui l’a produit, où et quand.\nPuis j’y prélève l’information qui répond à ma question.",
+  "parties": [
+    {
+      "titre": "Nature",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quel document pour quoi ?",
+          "colonnes": [
+            "Nature",
+            "On y trouve"
+          ],
+          "lignes": [
+            [
+              "article de journal",
+              "un fait, une date"
+            ],
+            [
+              "carte",
+              "un lieu, une distance"
+            ],
+            [
+              "affiche",
+              "un évènement, une date"
+            ],
+            [
+              "graphique",
+              "une évolution, des chiffres"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour savoir où se trouve une ville, on utilise :",
+          "options": [
+            "une carte",
+            "une recette",
+            "un poème"
+          ],
+          "reponse": "une carte",
+          "explication": "Une carte situe les lieux."
+        }
+      ]
+    },
+    {
+      "titre": "Source",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour lire un document",
+          "etapes": [
+            "Lis le titre.",
+            "Cherche la source, souvent en bas.",
+            "Repère la date.",
+            "Cherche l’information demandée."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit un document sans regarder sa source.",
+          "correction": "Une source connue et datée permet de vérifier l’information."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La source d’un document indique :",
+      "options": [
+        "d’où il vient",
+        "sa couleur",
+        "sa longueur"
+      ],
+      "reponse": "d’où il vient",
+      "explication": "Qui l’a produit, où et quand."
+    },
+    {
+      "consigne": "Un document daté de 1990 parle :",
+      "options": [
+        "de cette époque",
+        "forcément d’aujourd’hui",
+        "de l’avenir"
+      ],
+      "reponse": "de cette époque",
+      "explication": "La date situe l’information."
+    },
+    {
+      "consigne": "Pour montrer comment une température change, on utilise :",
+      "options": [
+        "un graphique",
+        "une affiche",
+        "un conte"
+      ],
+      "reponse": "un graphique",
+      "explication": "Il montre une évolution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 4,
+      "extrait": "Donner la nature et la source d’un document",
+      "appui": "Nature et source d’un document"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

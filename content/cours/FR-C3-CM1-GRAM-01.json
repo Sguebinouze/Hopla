@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C3-CM1-GRAM-01",
+  "duree": 6,
+  "essentiel": "Le déterminant se place devant le nom et en indique le genre et le nombre.\nArticles définis : le, la, l’, les. Articles indéfinis : un, une, des.\nPossessifs : mon, ton, son, notre, votre, leur… Démonstratifs : ce, cet, cette, ces.",
+  "parties": [
+    {
+      "titre": "Les familles de déterminants",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les déterminants",
+          "colonnes": [
+            "Famille",
+            "Déterminants",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "article défini",
+              "le, la, l’, les",
+              "le livre"
+            ],
+            [
+              "article indéfini",
+              "un, une, des",
+              "une pomme"
+            ],
+            [
+              "possessif",
+              "mon, ma, mes, ton, son, notre, votre, leur…",
+              "notre classe"
+            ],
+            [
+              "démonstratif",
+              "ce, cet, cette, ces",
+              "cet arbre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « cette maison », cette est :",
+          "options": [
+            "un démonstratif",
+            "un possessif",
+            "un article indéfini"
+          ],
+          "reponse": "un démonstratif",
+          "explication": "Il montre la maison."
+        }
+      ]
+    },
+    {
+      "titre": "Ces ou ses ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond ces et ses.",
+          "correction": "Ces montre : ces arbres-là. Ses dit à qui : ses jouets, les jouets de Léo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Notre » est un déterminant :",
+      "options": [
+        "possessif",
+        "démonstratif",
+        "défini"
+      ],
+      "reponse": "possessif",
+      "explication": "Il indique à qui appartient la chose."
+    },
+    {
+      "consigne": "Quel article est indéfini ?",
+      "options": [
+        "une",
+        "la",
+        "les"
+      ],
+      "reponse": "une",
+      "explication": "Une pomme : pas une pomme précise."
+    },
+    {
+      "consigne": "Léo range … affaires.",
+      "options": [
+        "ses",
+        "ces",
+        "c’est"
+      ],
+      "reponse": "ses",
+      "explication": "Les affaires de Léo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "Identifier et nommer les déterminants suivants : articles définis, indéfinis, déterminants possessifs et démonstratifs",
+      "appui": "Les déterminants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

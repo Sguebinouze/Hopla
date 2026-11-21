@@ -1,0 +1,84 @@
+{
+  "competence": "FR-C3-CM1-ECR-02",
+  "duree": 5,
+  "essentiel": "Avant de chercher, je relis la question pour savoir ce que je cherche.\nJe surligne seulement les passages qui y répondent.\nJe laisse de côté les informations intéressantes mais inutiles pour cette question.",
+  "parties": [
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Question : que mange le hérisson ? Texte : « Le hérisson vit dans les haies. Il mange des insectes, des vers et des escargots. Il hiberne en hiver. »",
+          "etapes": [
+            "Utile : il mange des insectes, des vers et des escargots.",
+            "Inutile ici : il vit dans les haies, il hiberne."
+          ],
+          "conclusion": "Le hérisson mange des insectes, des vers et des escargots."
+        }
+      ]
+    },
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trier les informations",
+          "etapes": [
+            "Relis la question.",
+            "Cherche ses mots clés dans le texte.",
+            "Surligne la réponse.",
+            "Écris-la avec tes mots."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On recopie tout le paragraphe.",
+          "correction": "On garde seulement ce qui répond à la question."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Question : où vit le hérisson ? Réponse utile :",
+      "options": [
+        "dans les haies",
+        "il hiberne",
+        "il mange des vers"
+      ],
+      "reponse": "dans les haies",
+      "explication": "Seule cette phrase dit où."
+    },
+    {
+      "consigne": "Pour trier, je commence par :",
+      "options": [
+        "relire la question",
+        "recopier le texte",
+        "lire la fin"
+      ],
+      "reponse": "relire la question",
+      "explication": "Je sais ainsi ce que je cherche."
+    },
+    {
+      "consigne": "Une information hors sujet :",
+      "options": [
+        "je la laisse de côté",
+        "je la recopie",
+        "je l’invente"
+      ],
+      "reponse": "je la laisse de côté",
+      "explication": "Elle ne répond pas à la question."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 9,
+      "extrait": "Écrire pour repérer et trier les informations pertinentes",
+      "appui": "Trier les informations utiles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

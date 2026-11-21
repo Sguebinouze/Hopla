@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C3-CM1-LECT-01",
+  "duree": 6,
+  "essentiel": "Une information explicite est écrite dans le texte.\nUne information implicite n’est pas écrite : on la déduit grâce à des indices.\nPour justifier une déduction, on cite les mots du texte qui l’appuient.",
+  "parties": [
+    {
+      "titre": "Dit ou pas dit ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Léa enleva ses bottes pleines de boue et secoua son parapluie. »",
+          "exemples": [
+            "Explicite : Léa enlève ses bottes.",
+            "Implicite : il pleut, ou il a plu.",
+            "Indices : boue, parapluie."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Tom souffla les dix bougies de son gâteau. » Que comprend-on ?",
+          "options": [
+            "c’est son anniversaire",
+            "il a froid",
+            "il fait la cuisine"
+          ],
+          "reponse": "c’est son anniversaire",
+          "explication": "Indices : bougies, gâteau, dix."
+        }
+      ]
+    },
+    {
+      "titre": "Justifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver l’implicite",
+          "etapes": [
+            "Lis la question.",
+            "Cherche des indices dans le texte.",
+            "Déduis ce qu’ils montrent.",
+            "Cite les mots qui appuient ta réponse."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On invente une information sans indice.",
+          "correction": "Chaque déduction s’appuie sur des mots du texte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Le chien grognait devant la porte, poils hérissés. » Le chien est sans doute :",
+      "options": [
+        "inquiet",
+        "endormi",
+        "joyeux"
+      ],
+      "reponse": "inquiet",
+      "explication": "Indices : grognait, poils hérissés."
+    },
+    {
+      "consigne": "Une information explicite est :",
+      "options": [
+        "écrite dans le texte",
+        "devinée",
+        "inventée"
+      ],
+      "reponse": "écrite dans le texte",
+      "explication": "On la lit directement."
+    },
+    {
+      "consigne": "« Elle claquait des dents et remonta son écharpe. » Il fait :",
+      "options": [
+        "froid",
+        "chaud",
+        "nuit"
+      ],
+      "reponse": "froid",
+      "explication": "Indices : claquer des dents, écharpe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 4,
+      "extrait": "Repérer, dans un texte, les informations explicites et pointer des informations implicites",
+      "appui": "Explicite et implicite"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

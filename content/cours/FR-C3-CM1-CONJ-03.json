@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C3-CM1-CONJ-03",
+  "duree": 7,
+  "essentiel": "Verbes en -cer : ç devant a et o. Nous lançons.\nVerbes en -ger : e après g devant a et o. Nous mangeons.\nAppeler et jeter doublent la consonne devant un e muet : j’appelle, je jette.",
+  "parties": [
+    {
+      "titre": "Le radical change",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des verbes du premier groupe",
+          "colonnes": [
+            "Verbe",
+            "Ce qui change",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "lancer",
+              "ç devant a, o",
+              "nous lançons, il lançait"
+            ],
+            [
+              "manger",
+              "ge devant a, o",
+              "nous mangeons, je mangeais"
+            ],
+            [
+              "appeler",
+              "ll devant e muet",
+              "j’appelle, nous appelons"
+            ],
+            [
+              "jeter",
+              "tt devant e muet",
+              "je jette, nous jetons"
+            ],
+            [
+              "acheter, lever",
+              "è devant e muet",
+              "j’achète, je lève"
+            ],
+            [
+              "nettoyer, essuyer",
+              "i devant e muet",
+              "je nettoie, il essuie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Nous (placer) les chaises.",
+          "options": [
+            "plaçons",
+            "placons",
+            "placeons"
+          ],
+          "reponse": "plaçons",
+          "explication": "Devant o, la cédille garde le son « s »."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ces changements gardent le même son au radical : « s » dans lancer, « j » dans manger."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « nous mangons ».",
+          "correction": "Pour garder le son « j », on ajoute un e : nous mangeons."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "J’(appeler) mon frère.",
+      "options": [
+        "appelle",
+        "apelle",
+        "appele"
+      ],
+      "reponse": "appelle",
+      "explication": "Devant e muet, appeler double le l."
+    },
+    {
+      "consigne": "Il (essuyer) la table.",
+      "options": [
+        "essuie",
+        "essuye",
+        "essuit"
+      ],
+      "reponse": "essuie",
+      "explication": "Le y devient i devant e muet."
+    },
+    {
+      "consigne": "Nous (nager) vite.",
+      "options": [
+        "nageons",
+        "nagons",
+        "nagions"
+      ],
+      "reponse": "nageons",
+      "explication": "Un e garde le son « j » devant o."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Mettre en évidence les variations du radical pour certains verbes du premier groupe",
+      "appui": "Verbes du premier groupe à radical variable"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

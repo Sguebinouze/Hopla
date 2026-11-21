@@ -1,0 +1,89 @@
+{
+  "competence": "FR-C3-CM1-ORTH-04",
+  "duree": 5,
+  "essentiel": "Les mots invariables ne changent jamais : toujours, souvent, beaucoup, aussi, avec.\nOn les apprend par cœur, en s’aidant des familles de mots et des régularités.\nLes adverbes en -ment se forment souvent sur le féminin : doux, douce, doucement.",
+  "parties": [
+    {
+      "titre": "Des régularités",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des mots qui se ressemblent.",
+          "exemples": [
+            "Adverbes en -ment : lentement, rapidement, doucement.",
+            "Mots invariables fréquents : avant, après, depuis, malgré, toujours.",
+            "Mots en -tion : la récréation, la punition, l’addition."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel adverbe est formé sur « doux » ?",
+          "options": [
+            "doucement",
+            "doussement",
+            "douxment"
+          ],
+          "reponse": "doucement",
+          "explication": "Féminin douce, puis -ment."
+        }
+      ]
+    },
+    {
+      "titre": "Familles de mots",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les mots d’une même famille gardent le même radical : grand, grandir, grandeur."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met beaucoup au pluriel : « beaucoups ».",
+          "correction": "Beaucoup est invariable : il ne prend jamais de s."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot est invariable ?",
+      "options": [
+        "souvent",
+        "souvenir",
+        "grand"
+      ],
+      "reponse": "souvent",
+      "explication": "Un adverbe ne varie pas."
+    },
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "toujours",
+        "toujour",
+        "toujoure"
+      ],
+      "reponse": "toujours",
+      "explication": "Toujours prend un s."
+    },
+    {
+      "consigne": "Quel mot est de la famille de « grand » ?",
+      "options": [
+        "grandeur",
+        "grenier",
+        "garder"
+      ],
+      "reponse": "grandeur",
+      "explication": "Même radical : grand."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "Écrire correctement les mots les plus fréquents de la langue en s’appuyant sur les régularités et la formation",
+      "appui": "Mots fréquents et invariables"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

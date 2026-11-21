@@ -1,0 +1,123 @@
+{
+  "competence": "FR-C3-CM1-LECT-02",
+  "duree": 6,
+  "essentiel": "Un récit raconte une histoire, en paragraphes, avec un narrateur.\nUn poème s’écrit en vers, souvent avec des rimes, regroupés en strophes.\nUne pièce de théâtre donne les répliques des personnages, avec leur nom et des didascalies.",
+  "parties": [
+    {
+      "titre": "Reconnaitre à la mise en page",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Vers",
+              "definition": "Ligne d’un poème."
+            },
+            {
+              "mot": "Strophe",
+              "definition": "Groupe de vers séparé des autres par un blanc."
+            },
+            {
+              "mot": "Réplique",
+              "definition": "Ce que dit un personnage de théâtre en une seule fois."
+            },
+            {
+              "mot": "Didascalie",
+              "definition": "Indication de l’auteur sur le décor, les gestes ou le ton, souvent en italique."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Trois façons d’écrire",
+          "colonnes": [
+            "Genre",
+            "Mise en page",
+            "Indice"
+          ],
+          "lignes": [
+            [
+              "récit",
+              "des paragraphes",
+              "un narrateur raconte"
+            ],
+            [
+              "poème",
+              "des vers et des strophes",
+              "des retours à la ligne, souvent des rimes"
+            ],
+            [
+              "théâtre",
+              "des répliques",
+              "le nom du personnage avant chaque réplique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« MARIE (en riant). Tu es en retard ! » Cet extrait vient :",
+          "options": [
+            "d’une pièce de théâtre",
+            "d’un poème",
+            "d’un récit"
+          ],
+          "reponse": "d’une pièce de théâtre",
+          "explication": "Le nom du personnage, puis sa réplique."
+        }
+      ]
+    },
+    {
+      "titre": "Attention",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un poème rime toujours.",
+          "correction": "Certains poèmes n’ont pas de rimes. Ce qui compte, c’est l’écriture en vers."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un texte écrit en vers est :",
+      "options": [
+        "un poème",
+        "une recette",
+        "un article"
+      ],
+      "reponse": "un poème",
+      "explication": "Chaque vers va à la ligne."
+    },
+    {
+      "consigne": "Les indications pour les acteurs s’appellent des :",
+      "options": [
+        "didascalies",
+        "strophes",
+        "paragraphes"
+      ],
+      "reponse": "didascalies",
+      "explication": "Souvent en italique ou entre parenthèses."
+    },
+    {
+      "consigne": "Un groupe de vers s’appelle :",
+      "options": [
+        "une strophe",
+        "une réplique",
+        "un chapitre"
+      ],
+      "reponse": "une strophe",
+      "explication": "Une strophe est séparée par une ligne blanche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 4,
+      "extrait": "Distinguer, par la mise en page et les caractéristiques d’écriture spécifiques, un extrait de théâtre, un poème, un texte narratif",
+      "appui": "Théâtre, poème, récit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

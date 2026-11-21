@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C3-CM1-GRAM-02",
+  "duree": 6,
+  "essentiel": "Un pronom remplace un nom ou un groupe nominal, pour éviter une répétition.\nPronoms sujets : je, tu, il, elle, on, nous, vous, ils, elles.\nPronoms objets : le, la, l’, les, lui, leur. Léa lit le livre : elle le lit.",
+  "parties": [
+    {
+      "titre": "Remplacer le sujet",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le groupe sujet devient un pronom.",
+          "exemples": [
+            "Mes parents préparent le repas : ils préparent le repas.",
+            "La maîtresse explique : elle explique.",
+            "Tom et moi jouons : nous jouons."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Remplace : « Les oiseaux chantent. »",
+          "options": [
+            "Ils chantent.",
+            "Elles chantent.",
+            "Il chante."
+          ],
+          "reponse": "Ils chantent.",
+          "explication": "Oiseaux est masculin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Remplacer le complément",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le complément devient un pronom placé avant le verbe.",
+          "exemples": [
+            "Je regarde le film : je le regarde.",
+            "Tom parle à sa sœur : Tom lui parle.",
+            "Je donne la pomme à Paul : je la lui donne."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que « le » est toujours un déterminant.",
+          "correction": "Devant un verbe, « le » est un pronom : je le vois."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Je les regarde », les est :",
+      "options": [
+        "un pronom",
+        "un déterminant",
+        "un verbe"
+      ],
+      "reponse": "un pronom",
+      "explication": "Il est placé devant le verbe."
+    },
+    {
+      "consigne": "« Nous écrivons à nos amis » devient : nous … écrivons.",
+      "options": [
+        "leur",
+        "les",
+        "lui"
+      ],
+      "reponse": "leur",
+      "explication": "À nos amis : pluriel, pronom leur."
+    },
+    {
+      "consigne": "« Léa et Inès dansent » devient :",
+      "options": [
+        "Elles dansent.",
+        "Ils dansent.",
+        "Elle danse."
+      ],
+      "reponse": "Elles dansent.",
+      "explication": "Deux filles : elles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "Remplacer un groupe nominal sujet par un pronom personnel sujet",
+      "appui": "Remplacer par un pronom"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,120 @@
+{
+  "competence": "FR-C3-CM1-GRAM-06",
+  "duree": 5,
+  "essentiel": "Un groupe nominal est organisé autour d’un nom : le nom noyau.\nLe déterminant est devant le nom. L’adjectif peut être avant ou après.\nDans « la belle maison blanche », maison est le nom noyau.",
+  "parties": [
+    {
+      "titre": "Trouver le noyau",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Trouve le nom noyau de « un gros chien noir ».",
+          "etapes": [
+            "Je retire ce qui peut partir : gros, noir.",
+            "Il reste un chien."
+          ],
+          "conclusion": "Le nom noyau est chien."
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend l’adjectif pour le noyau.",
+          "correction": "Le noyau est le nom qu’on ne peut pas supprimer."
+        }
+      ]
+    },
+    {
+      "titre": "Les éléments du groupe",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Épithète",
+              "definition": "Fonction de l’adjectif placé directement à côté du nom qu’il qualifie."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "« la belle maison blanche »",
+          "colonnes": [
+            "Mot",
+            "Nature"
+          ],
+          "lignes": [
+            [
+              "la",
+              "déterminant"
+            ],
+            [
+              "belle",
+              "adjectif"
+            ],
+            [
+              "maison",
+              "nom noyau"
+            ],
+            [
+              "blanche",
+              "adjectif"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel est le nom noyau de « les jolies fleurs rouges » ?",
+          "options": [
+            "fleurs",
+            "jolies",
+            "rouges"
+          ],
+          "reponse": "fleurs",
+          "explication": "Jolies et rouges peuvent être retirés."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « un vieux livre », vieux est :",
+      "options": [
+        "un adjectif",
+        "un nom",
+        "un déterminant"
+      ],
+      "reponse": "un adjectif",
+      "explication": "Il décrit le livre."
+    },
+    {
+      "consigne": "Quel groupe est un groupe nominal ?",
+      "options": [
+        "ma petite sœur",
+        "courir vite",
+        "très lentement"
+      ],
+      "reponse": "ma petite sœur",
+      "explication": "Il est organisé autour du nom sœur."
+    },
+    {
+      "consigne": "Dans « cette longue route », le déterminant est :",
+      "options": [
+        "cette",
+        "longue",
+        "route"
+      ],
+      "reponse": "cette",
+      "explication": "Il est placé devant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Repérer et nommer le nom noyau dans le groupe nominal",
+      "appui": "Le groupe nominal"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,86 @@
+{
+  "competence": "FR-C3-CM1-VOC-03",
+  "duree": 5,
+  "essentiel": "Un mot polysémique a plusieurs sens.\nLe contexte, ou la matière étudiée, permet de choisir le bon sens.\nEn maths, une opération est un calcul. À l’hôpital, c’est une intervention.",
+  "parties": [
+    {
+      "titre": "Plusieurs sens",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un même mot, des sens différents.",
+          "exemples": [
+            "la souris du chat, la souris de l’ordinateur",
+            "la règle du jeu, la règle pour tracer",
+            "la carte de géographie, la carte à jouer",
+            "le côté d’un carré, le côté gauche"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En maths, « le volume d’une boite » désigne :",
+          "options": [
+            "la place qu’elle occupe",
+            "le son",
+            "un livre"
+          ],
+          "reponse": "la place qu’elle occupe",
+          "explication": "Le contexte des maths donne le sens."
+        }
+      ]
+    },
+    {
+      "titre": "Selon la matière",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On garde le sens courant dans une autre matière.",
+          "correction": "En géométrie, une droite est une ligne sans fin, pas le contraire de gauche."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La règle de grammaire » est :",
+      "options": [
+        "une loi à suivre",
+        "un objet pour tracer",
+        "un dessin"
+      ],
+      "reponse": "une loi à suivre",
+      "explication": "Le contexte parle de langue."
+    },
+    {
+      "consigne": "En musique, une « note » est :",
+      "options": [
+        "un son",
+        "une appréciation",
+        "un message"
+      ],
+      "reponse": "un son",
+      "explication": "Do, ré, mi…"
+    },
+    {
+      "consigne": "« La souris » dans « clique avec la souris » est :",
+      "options": [
+        "un appareil",
+        "un animal",
+        "un fromage"
+      ],
+      "reponse": "un appareil",
+      "explication": "On parle d’ordinateur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "utiliser à bon escient les mots polysémiques dans différents contextes disciplinaires",
+      "appui": "Mots polysémiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

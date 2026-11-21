@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C3-CM1-ORTH-01",
+  "duree": 7,
+  "essentiel": "Le verbe s’accorde avec son sujet.\nPour trouver le sujet, on pose la question « qui est-ce qui ? » devant le verbe.\nDans un groupe nominal sujet, c’est le nom noyau qui commande : les fleurs du jardin poussent.",
+  "parties": [
+    {
+      "titre": "Trouver le sujet",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour accorder le verbe",
+          "etapes": [
+            "Trouve le verbe.",
+            "Pose « qui est-ce qui ? » devant lui.",
+            "Dans le groupe sujet, repère le nom noyau.",
+            "Accorde le verbe avec ce noyau."
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "Accorde : « Le chien des voisins (aboyer). »",
+          "etapes": [
+            "Qui est-ce qui aboie ? Le chien des voisins.",
+            "Le noyau est chien, au singulier."
+          ],
+          "conclusion": "Le chien des voisins aboie."
+        }
+      ]
+    },
+    {
+      "titre": "Le piège du nom le plus proche",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le nom le plus proche : « le chat des voisins dorment ».",
+          "correction": "Le noyau est chat : le chat des voisins dort."
+        },
+        {
+          "type": "question",
+          "consigne": "La boite de crayons (être) pleine.",
+          "options": [
+            "est",
+            "sont",
+            "es"
+          ],
+          "reponse": "est",
+          "explication": "Le noyau est boite, au singulier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les élèves de CM1 (partir) en sortie.",
+      "options": [
+        "partent",
+        "part",
+        "partes"
+      ],
+      "reponse": "partent",
+      "explication": "Le noyau est élèves, au pluriel."
+    },
+    {
+      "consigne": "Quel est le sujet de « Dans la mare nagent les canards » ?",
+      "options": [
+        "les canards",
+        "la mare",
+        "nagent"
+      ],
+      "reponse": "les canards",
+      "explication": "Qui est-ce qui nage ? Les canards."
+    },
+    {
+      "consigne": "Le bruit des vagues (calmer) les enfants.",
+      "options": [
+        "calme",
+        "calment",
+        "calmes"
+      ],
+      "reponse": "calme",
+      "explication": "Le noyau est bruit, au singulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Repérer le sujet du verbe : notamment le nom noyau dans le cas d’un groupe nominal",
+      "appui": "Accord du verbe avec le sujet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,136 @@
+{
+  "competence": "FR-C3-CM1-VOC-02",
+  "duree": 6,
+  "essentiel": "Le contexte aide à deviner le sens d’un mot inconnu.\nLa formation du mot aide aussi : un préfixe, un radical, un suffixe.\nOn vérifie ensuite dans le dictionnaire.",
+  "parties": [
+    {
+      "titre": "Découper le mot",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mot dérivé",
+              "definition": "Mot formé en ajoutant un préfixe ou un suffixe à un radical : terrain, déterrer."
+            }
+          ]
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "« Il trouva la porte infranchissable et dut faire demi-tour. » Que veut dire infranchissable ?",
+          "etapes": [
+            "in- : le contraire.",
+            "franchir : passer.",
+            "-able : qu’on peut."
+          ],
+          "conclusion": "Infranchissable : qu’on ne peut pas passer. Le contexte le confirme : il fait demi-tour."
+        },
+        {
+          "type": "tableau",
+          "titre": "Préfixes et suffixes",
+          "colonnes": [
+            "Élément",
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "re-",
+              "de nouveau",
+              "refaire"
+            ],
+            [
+              "dé-",
+              "le contraire",
+              "défaire"
+            ],
+            [
+              "pré-",
+              "avant",
+              "prévoir"
+            ],
+            [
+              "-eur",
+              "celui qui fait",
+              "chanteur"
+            ],
+            [
+              "-ette",
+              "petit",
+              "maisonnette"
+            ],
+            [
+              "-able",
+              "qu’on peut",
+              "lavable"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Attention",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que « re » au début est toujours un préfixe.",
+          "correction": "Dans renard ou regarder, re ne veut pas dire « de nouveau »."
+        },
+        {
+          "type": "question",
+          "consigne": "« Illisible » veut dire :",
+          "options": [
+            "qu’on ne peut pas lire",
+            "qu’on lit vite",
+            "qu’on lit deux fois"
+          ],
+          "reponse": "qu’on ne peut pas lire",
+          "explication": "il- : le contraire ; -ible : qu’on peut."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le suffixe -ette indique souvent :",
+      "options": [
+        "quelque chose de petit",
+        "le contraire",
+        "une action"
+      ],
+      "reponse": "quelque chose de petit",
+      "explication": "Une fillette, une maisonnette."
+    },
+    {
+      "consigne": "« Prévoir », c’est voir :",
+      "options": [
+        "avant",
+        "de nouveau",
+        "mal"
+      ],
+      "reponse": "avant",
+      "explication": "Le préfixe pré- veut dire avant."
+    },
+    {
+      "consigne": "Un « nageur » est :",
+      "options": [
+        "celui qui nage",
+        "un petit nage",
+        "le contraire de nager"
+      ],
+      "reponse": "celui qui nage",
+      "explication": "Le suffixe -eur : celui qui fait."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "Identifier les mots inconnus, lors de ses différentes lectures, et rechercher leur signification en s’appuyant sur la morphologie",
+      "appui": "Comprendre un mot inconnu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

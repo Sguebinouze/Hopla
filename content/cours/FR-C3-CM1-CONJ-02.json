@@ -1,0 +1,143 @@
+{
+  "competence": "FR-C3-CM1-CONJ-02",
+  "duree": 7,
+  "essentiel": "Le passé composé a deux parties : l’auxiliaire avoir ou être au présent, et le participe passé.\nJ’ai mangé. Elle est partie.\nÀ la forme négative, ne et pas encadrent l’auxiliaire : je n’ai pas mangé.",
+  "parties": [
+    {
+      "titre": "Deux parties",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Auxiliaire",
+              "definition": "Verbe être ou avoir qui sert à former les temps composés."
+            },
+            {
+              "mot": "Participe passé",
+              "definition": "Forme du verbe utilisée avec un auxiliaire dans les temps composés : chanté, fini, pris."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des participes passés",
+          "colonnes": [
+            "Infinitif",
+            "Participe passé"
+          ],
+          "lignes": [
+            [
+              "chanter",
+              "chanté"
+            ],
+            [
+              "finir",
+              "fini"
+            ],
+            [
+              "prendre",
+              "pris"
+            ],
+            [
+              "faire",
+              "fait"
+            ],
+            [
+              "venir",
+              "venu"
+            ],
+            [
+              "voir",
+              "vu"
+            ],
+            [
+              "dire",
+              "dit"
+            ],
+            [
+              "pouvoir",
+              "pu"
+            ],
+            [
+              "vouloir",
+              "voulu"
+            ],
+            [
+              "aller",
+              "allé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Tu (finir) ton travail.",
+          "options": [
+            "as fini",
+            "es fini",
+            "as finis"
+          ],
+          "reponse": "as fini",
+          "explication": "Auxiliaire avoir et participe fini."
+        }
+      ]
+    },
+    {
+      "titre": "Retrouver l’infinitif et la négation",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans « nous avons vu », le participe est vu : l’infinitif est voir."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je n’ai mangé pas ».",
+          "correction": "La négation encadre l’auxiliaire : je n’ai pas mangé."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est l’infinitif de « ils ont pris » ?",
+      "options": [
+        "prendre",
+        "prier",
+        "pris"
+      ],
+      "reponse": "prendre",
+      "explication": "Pris est le participe passé de prendre."
+    },
+    {
+      "consigne": "Forme négative de « elle est venue » :",
+      "options": [
+        "elle n’est pas venue",
+        "elle n’est venue pas",
+        "elle pas est venue"
+      ],
+      "reponse": "elle n’est pas venue",
+      "explication": "Ne et pas autour de l’auxiliaire."
+    },
+    {
+      "consigne": "Nous (voir) un film.",
+      "options": [
+        "avons vu",
+        "sommes vus",
+        "avons voir"
+      ],
+      "reponse": "avons vu",
+      "explication": "Auxiliaire avoir et participe vu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Connaître la composition du passé composé en deux parties (auxiliaire + participe passé) ; retrouver la forme infinitive du",
+      "appui": "Le passé composé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
