@@ -1,0 +1,120 @@
+{
+  "competence": "FR-C3-CM2-LECT-02",
+  "duree": 5,
+  "essentiel": "Un document composite mêle textes et images : une page de manuel, un article, une affiche.\nOn y repère le titre, les intertitres, les légendes, les encadrés, les schémas et la source.\nChaque élément a un rôle : on ne lit pas forcément de haut en bas.",
+  "parties": [
+    {
+      "titre": "Les éléments",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le rôle de chaque élément",
+          "colonnes": [
+            "Élément",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "titre",
+              "annonce le sujet"
+            ],
+            [
+              "intertitre",
+              "annonce une partie"
+            ],
+            [
+              "légende",
+              "explique une image"
+            ],
+            [
+              "encadré",
+              "met en valeur une information"
+            ],
+            [
+              "schéma",
+              "montre comment ça marche"
+            ],
+            [
+              "source",
+              "dit d’où vient le document"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le petit texte sous une photo s’appelle :",
+          "options": [
+            "une légende",
+            "un intertitre",
+            "une source"
+          ],
+          "reponse": "une légende",
+          "explication": "Il explique ce que montre la photo."
+        }
+      ]
+    },
+    {
+      "titre": "Lire avec méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour lire une page documentaire",
+          "etapes": [
+            "Lis le titre et regarde les images.",
+            "Lis les intertitres pour voir les parties.",
+            "Va à la partie qui répond à ta question.",
+            "Vérifie la source."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit seulement le texte principal.",
+          "correction": "Les légendes et les encadrés contiennent souvent l’information cherchée."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’intertitre annonce :",
+      "options": [
+        "une partie du document",
+        "le nom de l’auteur",
+        "la date"
+      ],
+      "reponse": "une partie du document",
+      "explication": "Il découpe le document."
+    },
+    {
+      "consigne": "Pour savoir d’où vient un document, on lit :",
+      "options": [
+        "la source",
+        "le titre",
+        "la légende"
+      ],
+      "reponse": "la source",
+      "explication": "Elle donne l’auteur, le site ou le livre."
+    },
+    {
+      "consigne": "Un schéma sert à :",
+      "options": [
+        "montrer comment ça marche",
+        "donner une opinion",
+        "raconter une histoire"
+      ],
+      "reponse": "montrer comment ça marche",
+      "explication": "Un dessin simplifié avec des flèches."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Reconnaître et nommer les caractéristiques des différents éléments d’un document composite",
+      "appui": "Lire un document composite"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

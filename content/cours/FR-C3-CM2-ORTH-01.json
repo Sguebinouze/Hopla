@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-ORTH-01",
+  "duree": 7,
+  "essentiel": "Avec l’auxiliaire être, le participe passé s’accorde avec le sujet, en genre et en nombre.\nLes filles sont parties. Le chat est rentré.\nPour bien accorder, on repère le nom noyau du groupe sujet.",
+  "parties": [
+    {
+      "titre": "Accorder avec le sujet",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le participe passé de partir",
+          "colonnes": [
+            "Sujet",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "Le garçon est",
+              "parti"
+            ],
+            [
+              "La fille est",
+              "partie"
+            ],
+            [
+              "Les garçons sont",
+              "partis"
+            ],
+            [
+              "Les filles sont",
+              "parties"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mes cousines sont … hier. » (arriver)",
+          "options": [
+            "arrivées",
+            "arrivé",
+            "arrivés"
+          ],
+          "reponse": "arrivées",
+          "explication": "Le sujet est féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Le nom noyau",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "« La mère des enfants est parti… »",
+          "etapes": [
+            "Qui est parti ? La mère des enfants.",
+            "Le nom noyau est mère : féminin singulier."
+          ],
+          "conclusion": "La mère des enfants est partie."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le nom le plus proche : « est partis », à cause d’enfants.",
+          "correction": "On accorde avec le noyau du sujet, mère : partie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les feuilles sont … » (tomber)",
+      "options": [
+        "tombées",
+        "tombés",
+        "tombé"
+      ],
+      "reponse": "tombées",
+      "explication": "Feuilles : féminin pluriel."
+    },
+    {
+      "consigne": "« Le chien des voisins est … » (sortir)",
+      "options": [
+        "sorti",
+        "sortis",
+        "sortie"
+      ],
+      "reponse": "sorti",
+      "explication": "Le noyau est chien : masculin singulier."
+    },
+    {
+      "consigne": "« Léa et Inès sont … en retard. » (venir)",
+      "options": [
+        "venues",
+        "venu",
+        "venus"
+      ],
+      "reponse": "venues",
+      "explication": "Deux filles : féminin pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Accorder le participe passé avec le sujet dans le cas de l’auxiliaire être",
+      "appui": "Participe passé avec être"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,182 @@
+{
+  "competence": "FR-C3-CM2-CONJ-01",
+  "duree": 8,
+  "essentiel": "Le passé simple sert aux actions brèves d’un récit au passé.\n1er groupe : je chantai, il chanta, ils chantèrent. 2e groupe : je finis, il finit, ils finirent.\nÊtre : il fut, ils furent. Avoir : il eut, ils eurent.",
+  "parties": [
+    {
+      "titre": "Les terminaisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au passé simple",
+          "colonnes": [
+            "Personne",
+            "chanter",
+            "finir",
+            "être",
+            "avoir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "chantai",
+              "finis",
+              "fus",
+              "eus"
+            ],
+            [
+              "tu",
+              "chantas",
+              "finis",
+              "fus",
+              "eus"
+            ],
+            [
+              "il, elle",
+              "chanta",
+              "finit",
+              "fut",
+              "eut"
+            ],
+            [
+              "nous",
+              "chantâmes",
+              "finîmes",
+              "fûmes",
+              "eûmes"
+            ],
+            [
+              "vous",
+              "chantâtes",
+              "finîtes",
+              "fûtes",
+              "eûtes"
+            ],
+            [
+              "ils, elles",
+              "chantèrent",
+              "finirent",
+              "furent",
+              "eurent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Ils … la porte. » (ouvrir, 3e personne du pluriel)",
+          "options": [
+            "ouvrirent",
+            "ouvrèrent",
+            "ouvraient"
+          ],
+          "reponse": "ouvrirent",
+          "explication": "Ouvrir se conjugue comme les verbes en -ir : ils ouvrirent."
+        }
+      ]
+    },
+    {
+      "titre": "Des verbes à retenir",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À la 3e personne",
+          "colonnes": [
+            "Verbe",
+            "il, elle",
+            "ils, elles"
+          ],
+          "lignes": [
+            [
+              "faire",
+              "fit",
+              "firent"
+            ],
+            [
+              "aller",
+              "alla",
+              "allèrent"
+            ],
+            [
+              "dire",
+              "dit",
+              "dirent"
+            ],
+            [
+              "venir",
+              "vint",
+              "vinrent"
+            ],
+            [
+              "pouvoir",
+              "put",
+              "purent"
+            ],
+            [
+              "voir",
+              "vit",
+              "virent"
+            ],
+            [
+              "vouloir",
+              "voulut",
+              "voulurent"
+            ],
+            [
+              "prendre",
+              "prit",
+              "prirent"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je chanta » ou « il chantat ».",
+          "correction": "Je chantai, avec -ai. Il chanta, sans t pour les verbes du 1er groupe."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nous … contents. » (être, passé simple)",
+      "options": [
+        "fûmes",
+        "étions",
+        "furent"
+      ],
+      "reponse": "fûmes",
+      "explication": "Être au passé simple : nous fûmes."
+    },
+    {
+      "consigne": "« Elle … son manteau. » (prendre, passé simple)",
+      "options": [
+        "prit",
+        "prenait",
+        "prenda"
+      ],
+      "reponse": "prit",
+      "explication": "Prendre : il prit, elle prit."
+    },
+    {
+      "consigne": "« Les enfants … vers la mer. » (aller, passé simple)",
+      "options": [
+        "allèrent",
+        "allirent",
+        "allaient"
+      ],
+      "reponse": "allèrent",
+      "explication": "Aller est du 3e groupe, mais se conjugue en -a au passé simple : ils allèrent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Conjugaisons à mémoriser et à maîtriser : passé simple, plus-que-parfait des verbes être et avoir",
+      "appui": "Le passé simple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

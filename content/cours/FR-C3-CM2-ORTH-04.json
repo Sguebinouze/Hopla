@@ -1,0 +1,119 @@
+{
+  "competence": "FR-C3-CM2-ORTH-04",
+  "duree": 5,
+  "essentiel": "Les noms féminins en -tion sont très nombreux : la récréation, la natation.\nLes noms féminins en -ée prennent un e, sauf ceux en -té : la journée, mais la liberté.\nLes noms masculins finissent par -ail, -eil, -euil ; les féminins par -aille, -eille, -euille.",
+  "parties": [
+    {
+      "titre": "-ée ou -té ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Noms féminins",
+          "colonnes": [
+            "Finale",
+            "Exemples",
+            "À retenir"
+          ],
+          "lignes": [
+            [
+              "-ée",
+              "la journée, l’année, la fusée",
+              "presque toujours un e"
+            ],
+            [
+              "-té",
+              "la liberté, la beauté, la santé",
+              "sauf la dictée, la montée, la jetée, la portée, la pâtée"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot est bien écrit ?",
+          "options": [
+            "la liberté",
+            "la libertée",
+            "la libertét"
+          ],
+          "reponse": "la liberté",
+          "explication": "Les noms féminins en -té ne prennent pas de e."
+        }
+      ]
+    },
+    {
+      "titre": "-ail ou -aille ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Masculin ou féminin",
+          "colonnes": [
+            "Masculin",
+            "Féminin"
+          ],
+          "lignes": [
+            [
+              "le travail, l’éventail",
+              "la bataille, la paille"
+            ],
+            [
+              "le soleil, le réveil",
+              "l’abeille, la bouteille"
+            ],
+            [
+              "le fauteuil, l’écureuil",
+              "la feuille"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « le travaille ».",
+          "correction": "Travail est masculin : -ail, sans le e final."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "l’abeille",
+        "l’abeil",
+        "l’abeill"
+      ],
+      "reponse": "l’abeille",
+      "explication": "Nom féminin : -eille."
+    },
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "la dictée",
+        "la dicté",
+        "la dictét"
+      ],
+      "reponse": "la dictée",
+      "explication": "Une exception : la dictée prend un e."
+    },
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "le fauteuil",
+        "le fauteuille",
+        "le fauteil"
+      ],
+      "reponse": "le fauteuil",
+      "explication": "Nom masculin : -euil."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "Écrire correctement les mots fréquents en s’appuyant sur les régularités et la formation",
+      "appui": "Finales de noms fréquentes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

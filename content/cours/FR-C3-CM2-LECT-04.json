@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM2-LECT-04",
+  "duree": 6,
+  "essentiel": "Certains personnages sont si connus qu’ils servent de références.\nUn héros qui revient chez lui après un long voyage rappelle Ulysse, dans l’Odyssée d’Homère.\nRelier un texte à une autre œuvre aide à mieux le comprendre.",
+  "parties": [
+    {
+      "titre": "Des personnages célèbres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques références",
+          "colonnes": [
+            "Personnage",
+            "Œuvre",
+            "Ce qu’on retient"
+          ],
+          "lignes": [
+            [
+              "Ulysse",
+              "l’Odyssée, Homère",
+              "un long voyage de retour, plein d’épreuves"
+            ],
+            [
+              "Robinson Crusoé",
+              "Daniel Defoe",
+              "un naufragé seul sur une ile"
+            ],
+            [
+              "Phileas Fogg",
+              "Le Tour du monde en 80 jours, Jules Verne",
+              "un pari et une course contre la montre"
+            ],
+            [
+              "Pinocchio",
+              "Carlo Collodi",
+              "un pantin dont le nez s’allonge quand il ment"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un naufragé qui survit seul sur une ile rappelle :",
+          "options": [
+            "Robinson Crusoé",
+            "Pinocchio",
+            "Phileas Fogg"
+          ],
+          "reponse": "Robinson Crusoé",
+          "explication": "C’est l’histoire de Daniel Defoe."
+        }
+      ]
+    },
+    {
+      "titre": "Faire des liens",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour relier deux œuvres",
+          "etapes": [
+            "Repère le personnage, le lieu, l’action.",
+            "Cherche une œuvre qui leur ressemble.",
+            "Dis ce qui est pareil et ce qui change."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que deux histoires semblables sont identiques.",
+          "correction": "Un auteur reprend souvent une idée connue pour raconter autre chose."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’Odyssée a été écrite par :",
+      "options": [
+        "Homère",
+        "Jules Verne",
+        "La Fontaine"
+      ],
+      "reponse": "Homère",
+      "explication": "Un poète de la Grèce antique."
+    },
+    {
+      "consigne": "Un pantin dont le nez s’allonge quand il ment :",
+      "options": [
+        "Pinocchio",
+        "Ulysse",
+        "Robinson"
+      ],
+      "reponse": "Pinocchio",
+      "explication": "Le personnage de Carlo Collodi."
+    },
+    {
+      "consigne": "Un pari pour faire le tour du monde en 80 jours :",
+      "options": [
+        "Phileas Fogg",
+        "Ulysse",
+        "Pinocchio"
+      ],
+      "reponse": "Phileas Fogg",
+      "explication": "Le héros de Jules Verne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Mettre en relation le texte lu avec une autre œuvre ou une autre référence culturelle",
+      "appui": "Mettre en relation avec d’autres œuvres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

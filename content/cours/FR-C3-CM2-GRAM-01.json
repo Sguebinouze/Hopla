@@ -1,0 +1,110 @@
+{
+  "competence": "FR-C3-CM2-GRAM-01",
+  "duree": 8,
+  "essentiel": "L’attribut du sujet suit un verbe d’état : être, paraitre, sembler, devenir, rester. Il donne une qualité au sujet.\nLe COD suit directement le verbe, sans préposition. Le COI est introduit par à ou de.\nMa sœur devient pilote : attribut. Il mange une pomme : COD. Il parle à son voisin : COI.",
+  "parties": [
+    {
+      "titre": "Attribut ou COD ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Phrase",
+            "Verbe",
+            "Fonction du mot souligné"
+          ],
+          "lignes": [
+            [
+              "Ma sœur devient pilote.",
+              "devenir, verbe d’état",
+              "pilote : attribut du sujet"
+            ],
+            [
+              "Ma sœur rencontre une pilote.",
+              "rencontrer, verbe d’action",
+              "une pilote : COD"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "L’attribut désigne le sujet lui-même : ma sœur = pilote. Le COD désigne autre chose que le sujet."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Le ciel reste gris », « gris » est :",
+          "options": [
+            "attribut du sujet",
+            "COD",
+            "COI"
+          ],
+          "reponse": "attribut du sujet",
+          "explication": "Rester est un verbe d’état."
+        }
+      ]
+    },
+    {
+      "titre": "COD ou COI ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Avec ou sans préposition.",
+          "exemples": [
+            "Tom regarde la mer : la mer, COD, sans préposition.",
+            "Tom pense à la mer : à la mer, COI, avec à.",
+            "Tom parle de son voyage : de son voyage, COI, avec de."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout groupe après le verbe est un COD.",
+          "correction": "Après un verbe d’état, c’est un attribut. Avec à ou de, c’est souvent un COI."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Il parle à son voisin », « à son voisin » est :",
+      "options": [
+        "COI",
+        "COD",
+        "attribut du sujet"
+      ],
+      "reponse": "COI",
+      "explication": "Il est introduit par à."
+    },
+    {
+      "consigne": "Dans « Ces fruits semblent mûrs », « mûrs » est :",
+      "options": [
+        "attribut du sujet",
+        "COD",
+        "COI"
+      ],
+      "reponse": "attribut du sujet",
+      "explication": "Sembler est un verbe d’état."
+    },
+    {
+      "consigne": "Dans « Léa lit un roman », « un roman » est :",
+      "options": [
+        "COD",
+        "COI",
+        "attribut du sujet"
+      ],
+      "reponse": "COD",
+      "explication": "Léa lit quoi ? Un roman, sans préposition."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Différencier attribut du sujet et complément d’objet",
+      "appui": "Attribut du sujet, COD, COI"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

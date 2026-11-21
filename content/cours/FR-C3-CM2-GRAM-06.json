@@ -1,0 +1,101 @@
+{
+  "competence": "FR-C3-CM2-GRAM-06",
+  "duree": 6,
+  "essentiel": "Pour éviter une répétition, on remplace le COD par le, la, l’ ou les, placé devant le verbe.\nOn remplace un COI introduit par à par lui ou leur.\nLéa regarde les oiseaux. → Léa les regarde. Tom parle à sa sœur. → Tom lui parle.",
+  "parties": [
+    {
+      "titre": "COD ou COI ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les pronoms compléments",
+          "colonnes": [
+            "Complément",
+            "Singulier",
+            "Pluriel"
+          ],
+          "lignes": [
+            [
+              "COD",
+              "le, la, l’",
+              "les"
+            ],
+            [
+              "COI introduit par à",
+              "lui",
+              "leur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« J’écris à mes grands-parents. » → « Je … écris. »",
+          "options": [
+            "leur",
+            "les",
+            "lui"
+          ],
+          "reponse": "leur",
+          "explication": "COI au pluriel, introduit par à : leur."
+        }
+      ]
+    },
+    {
+      "titre": "Leur ou leurs ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Devant un verbe, leur est un pronom : il ne prend jamais de s. Je leur parle."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je leurs parle ».",
+          "correction": "Leur pronom est invariable. Leurs avec s se place devant un nom : leurs livres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Tom range sa chambre. » → « Tom … range. »",
+      "options": [
+        "la",
+        "lui",
+        "leur"
+      ],
+      "reponse": "la",
+      "explication": "COD féminin singulier : la."
+    },
+    {
+      "consigne": "« Je téléphone à mon ami. » → « Je … téléphone. »",
+      "options": [
+        "lui",
+        "le",
+        "leur"
+      ],
+      "reponse": "lui",
+      "explication": "COI singulier, introduit par à : lui."
+    },
+    {
+      "consigne": "« Nous regardons les étoiles. » → « Nous … regardons. »",
+      "options": [
+        "les",
+        "leur",
+        "la"
+      ],
+      "reponse": "les",
+      "explication": "COD au pluriel : les."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Identifier les pronoms personnels compléments d’objet",
+      "appui": "Pronoms compléments d’objet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

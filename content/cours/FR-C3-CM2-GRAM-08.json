@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-08",
+  "duree": 6,
+  "essentiel": "Une phrase peut être déclarative, interrogative, exclamative ou injonctive.\nElle peut être à la forme affirmative ou négative.\nOn peut transformer une phrase sans changer son sens : « Vous avez visité ce musée. » → « Avez-vous visité ce musée ? »",
+  "parties": [
+    {
+      "titre": "Transformer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une phrase, plusieurs types",
+          "colonnes": [
+            "Type",
+            "Phrase"
+          ],
+          "lignes": [
+            [
+              "déclaratif",
+              "Vous avez déjà visité ce musée."
+            ],
+            [
+              "interrogatif",
+              "Avez-vous déjà visité ce musée ?"
+            ],
+            [
+              "exclamatif",
+              "Comme vous avez aimé ce musée !"
+            ],
+            [
+              "injonctif",
+              "Visitez ce musée."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle phrase est interrogative ?",
+          "options": [
+            "Est-ce que tu viens demain ?",
+            "Viens demain.",
+            "Tu viens demain."
+          ],
+          "reponse": "Est-ce que tu viens demain ?",
+          "explication": "Elle pose une question et finit par un point d’interrogation."
+        }
+      ]
+    },
+    {
+      "titre": "Avec des phrases longues",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Mets à la forme négative : « Les élèves de CM2 ont visité le château avec leur maitresse. »",
+          "etapes": [
+            "Le verbe est « ont visité », au passé composé.",
+            "Ne et pas encadrent l’auxiliaire ont."
+          ],
+          "conclusion": "Les élèves de CM2 n’ont pas visité le château avec leur maitresse."
+        },
+        {
+          "type": "piege",
+          "erreur": "Dans une question avec inversion, on oublie le trait d’union : « Avez vous ».",
+          "correction": "Le verbe et le pronom inversé sont reliés par un trait d’union : avez-vous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ferme la fenêtre. » est une phrase :",
+      "options": [
+        "injonctive",
+        "interrogative",
+        "exclamative"
+      ],
+      "reponse": "injonctive",
+      "explication": "Elle donne un ordre."
+    },
+    {
+      "consigne": "Transforme en question : « Il a fini son livre. »",
+      "options": [
+        "A-t-il fini son livre ?",
+        "Il a fini son livre !",
+        "Il n’a pas fini son livre."
+      ],
+      "reponse": "A-t-il fini son livre ?",
+      "explication": "On inverse le sujet : a-t-il."
+    },
+    {
+      "consigne": "« Quel beau voyage nous avons fait ! » est une phrase :",
+      "options": [
+        "exclamative",
+        "déclarative",
+        "injonctive"
+      ],
+      "reponse": "exclamative",
+      "explication": "Elle exprime un sentiment fort."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 18,
+      "extrait": "Consolider les objectifs du CM1 avec des corpus de plus en plus complexes",
+      "appui": "Types et formes de phrases"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C3-CM2-LECT-03",
+  "duree": 6,
+  "essentiel": "Une réponse se trouve parfois dans plusieurs passages, ou dans un texte et une image.\nOn prélève chaque information, puis on les relie.\nFaire une inférence, c’est comprendre ce que le texte ne dit pas directement, grâce aux indices.",
+  "parties": [
+    {
+      "titre": "Croiser les indices",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Le texte dit : « Il a neigé toute la nuit. » L’image montre des skis devant la porte. Que va faire la famille ?",
+          "etapes": [
+            "Indice du texte : il y a de la neige.",
+            "Indice de l’image : des skis sont prêts."
+          ],
+          "conclusion": "La famille va skier."
+        },
+        {
+          "type": "question",
+          "consigne": "« Léo enfila son maillot et attrapa sa serviette. » Où va Léo ?",
+          "options": [
+            "à la piscine",
+            "à l’école",
+            "au cinéma"
+          ],
+          "reponse": "à la piscine",
+          "explication": "Maillot et serviette sont des indices."
+        }
+      ]
+    },
+    {
+      "titre": "Justifier",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour répondre",
+          "etapes": [
+            "Relis la question.",
+            "Souligne les indices dans chaque passage.",
+            "Relie-les pour répondre.",
+            "Cite les indices pour justifier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond avec ce qu’on imagine, sans indice.",
+          "correction": "Chaque réponse doit s’appuyer sur des mots du texte ou de l’image."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Elle grelottait et ses doigts étaient bleus. » Elle a :",
+      "options": [
+        "froid",
+        "chaud",
+        "faim"
+      ],
+      "reponse": "froid",
+      "explication": "Grelotter et doigts bleus : des indices."
+    },
+    {
+      "consigne": "Faire une inférence, c’est :",
+      "options": [
+        "comprendre ce qui n’est pas écrit, grâce aux indices",
+        "recopier une phrase",
+        "inventer une suite"
+      ],
+      "reponse": "comprendre ce qui n’est pas écrit, grâce aux indices",
+      "explication": "On relie les indices."
+    },
+    {
+      "consigne": "Pour justifier une réponse, on :",
+      "options": [
+        "cite des mots du texte",
+        "dit « je le sens »",
+        "regarde le titre seulement"
+      ],
+      "reponse": "cite des mots du texte",
+      "explication": "Les indices prouvent la réponse."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "prélever des informations (en faisant des inférences si nécessaire)",
+      "appui": "Prélever et croiser des informations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

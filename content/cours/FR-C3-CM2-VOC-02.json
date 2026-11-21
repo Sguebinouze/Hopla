@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C3-CM2-VOC-02",
+  "duree": 6,
+  "essentiel": "Un mot polysémique a plusieurs sens.\nLe sens propre est le sens premier, concret. Le sens figuré est une image.\n« Un cœur de pierre » : au sens figuré, une personne insensible.",
+  "parties": [
+    {
+      "titre": "Propre ou figuré ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Sens propre",
+            "Sens figuré"
+          ],
+          "lignes": [
+            [
+              "une pierre dure",
+              "un cœur de pierre : insensible"
+            ],
+            [
+              "une montagne haute",
+              "une montagne de devoirs : beaucoup"
+            ],
+            [
+              "un sommet glacé",
+              "un accueil glacé : froid, peu aimable"
+            ],
+            [
+              "dévorer un gâteau",
+              "dévorer un livre : le lire avec passion"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il a dévoré ce roman. » Le verbe est employé au sens :",
+          "options": [
+            "figuré",
+            "propre",
+            "inconnu"
+          ],
+          "reponse": "figuré",
+          "explication": "Il ne l’a pas mangé : il l’a lu avec passion."
+        }
+      ]
+    },
+    {
+      "titre": "Le contexte décide",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On prend toujours le premier sens du dictionnaire.",
+          "correction": "C’est la phrase qui dit quel sens choisir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Elle a une mémoire d’éléphant. » Cela veut dire :",
+      "options": [
+        "elle se souvient de tout",
+        "elle est très grosse",
+        "elle a une trompe"
+      ],
+      "reponse": "elle se souvient de tout",
+      "explication": "Sens figuré : une très bonne mémoire."
+    },
+    {
+      "consigne": "« Le chat a grimpé dans l’arbre. » Le mot « arbre » est au sens :",
+      "options": [
+        "propre",
+        "figuré",
+        "imagé"
+      ],
+      "reponse": "propre",
+      "explication": "C’est un vrai arbre."
+    },
+    {
+      "consigne": "« Il pleut des cordes » signifie :",
+      "options": [
+        "il pleut très fort",
+        "des cordes tombent",
+        "il fait beau"
+      ],
+      "reponse": "il pleut très fort",
+      "explication": "Une image pour une pluie forte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "Approfondir sa compréhension de la notion de polysémie",
+      "appui": "Sens propre et sens figuré"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

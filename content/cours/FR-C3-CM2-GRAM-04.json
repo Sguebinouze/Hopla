@@ -1,0 +1,123 @@
+{
+  "competence": "FR-C3-CM2-GRAM-04",
+  "duree": 7,
+  "essentiel": "Les prépositions, les conjonctions et les adverbes sont des mots invariables.\nLa préposition introduit un complément : à, de, dans, par, pour, avec, sans, sous, sur, chez.\nLes conjonctions relient. Les adverbes modifient le sens d’un verbe, d’un adjectif ou d’un autre adverbe.",
+  "parties": [
+    {
+      "titre": "Quatre classes de mots invariables",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Conjonction de coordination",
+              "definition": "Mot invariable qui relie deux mots ou deux propositions de même rang : mais, ou, et, donc, or, ni, car."
+            },
+            {
+              "mot": "Conjonction de subordination",
+              "definition": "Mot invariable qui introduit une proposition subordonnée : quand, parce que, si, comme, lorsque, que."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Classe",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "préposition",
+              "à, de, dans, par, pour, avec, sans, sous, sur, chez, vers"
+            ],
+            [
+              "conjonction de coordination",
+              "mais, ou, et, donc, or, ni, car"
+            ],
+            [
+              "conjonction de subordination",
+              "quand, parce que, si, comme, lorsque, que"
+            ],
+            [
+              "adverbe",
+              "vite, souvent, très, hier, bien, lentement"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Il part avec son frère », « avec » est :",
+          "options": [
+            "une préposition",
+            "une conjonction",
+            "un adverbe"
+          ],
+          "reponse": "une préposition",
+          "explication": "Avec introduit le groupe « son frère »."
+        }
+      ]
+    },
+    {
+      "titre": "Les reconnaitre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Une phrase, quatre mots invariables.",
+          "exemples": [
+            "Hier, Léa marchait très vite dans la rue, car elle était en retard.",
+            "Hier, très, vite : adverbes. Dans : préposition. Car : conjonction de coordination."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « des enfants très sages » avec « très » au pluriel.",
+          "correction": "Un adverbe est invariable : très ne prend jamais de s."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Je reste car il pleut », « car » est :",
+      "options": [
+        "une conjonction de coordination",
+        "une préposition",
+        "un adverbe"
+      ],
+      "reponse": "une conjonction de coordination",
+      "explication": "Car fait partie de mais, ou, et, donc, or, ni, car."
+    },
+    {
+      "consigne": "Dans « Il parle doucement », « doucement » est :",
+      "options": [
+        "un adverbe",
+        "un adjectif",
+        "une préposition"
+      ],
+      "reponse": "un adverbe",
+      "explication": "Il précise comment il parle."
+    },
+    {
+      "consigne": "Dans « Quand la cloche sonne, on sort », « quand » est :",
+      "options": [
+        "une conjonction de subordination",
+        "une préposition",
+        "un nom"
+      ],
+      "reponse": "une conjonction de subordination",
+      "explication": "Il introduit une proposition subordonnée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Identifier et nommer les prépositions",
+      "appui": "Prépositions, conjonctions, adverbes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

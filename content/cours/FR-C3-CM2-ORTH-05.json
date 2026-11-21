@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-ORTH-05",
+  "duree": 6,
+  "essentiel": "Au féminin, certains adjectifs changent de finale : heureux, heureuse ; neuf, neuve ; léger, légère.\nD’autres doublent la consonne : cruel, cruelle ; bon, bonne.\nLes adjectifs en -al font leur pluriel en -aux : normal, normaux.",
+  "parties": [
+    {
+      "titre": "Former le féminin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les finales qui changent",
+          "colonnes": [
+            "Masculin",
+            "Féminin"
+          ],
+          "lignes": [
+            [
+              "-eux : heureux",
+              "-euse : heureuse"
+            ],
+            [
+              "-f : neuf",
+              "-ve : neuve"
+            ],
+            [
+              "-er : léger",
+              "-ère : légère"
+            ],
+            [
+              "-el : cruel",
+              "-elle : cruelle"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le féminin de « sportif » est :",
+          "options": [
+            "sportive",
+            "sportife",
+            "sportiffe"
+          ],
+          "reponse": "sportive",
+          "explication": "-f devient -ve."
+        }
+      ]
+    },
+    {
+      "titre": "Former le pluriel",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les adjectifs en -al.",
+          "exemples": [
+            "un résultat normal, des résultats normaux",
+            "un conseil amical, des conseils amicaux",
+            "mais : des chantiers navals, des moments banals"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « des fleurs normaux ».",
+          "correction": "Au féminin pluriel, on ajoute -es : des fleurs normales."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le féminin de « curieux » est :",
+      "options": [
+        "curieuse",
+        "curieuxe",
+        "curieusse"
+      ],
+      "reponse": "curieuse",
+      "explication": "-eux devient -euse."
+    },
+    {
+      "consigne": "Le masculin pluriel de « principal » est :",
+      "options": [
+        "principaux",
+        "principals",
+        "principales"
+      ],
+      "reponse": "principaux",
+      "explication": "-al devient -aux."
+    },
+    {
+      "consigne": "Le féminin de « premier » est :",
+      "options": [
+        "première",
+        "premiere",
+        "premièr"
+      ],
+      "reponse": "première",
+      "explication": "-er devient -ère, avec un accent grave."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Consolider les capacités à identifier, classer et repérer les variations des classes de mots",
+      "appui": "Féminin et pluriel des adjectifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

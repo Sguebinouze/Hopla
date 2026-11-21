@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-ECR-01",
+  "duree": 7,
+  "essentiel": "Dans un récit, un dialogue rapporte les paroles des personnages.\nOn ouvre les guillemets, on met un tiret à chaque changement de personnage, puis on ferme les guillemets.\nUn verbe de parole dit qui parle et comment : demanda, répondit, murmura, s’écria.",
+  "parties": [
+    {
+      "titre": "La ponctuation du dialogue",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris le dialogue entre Léa et Tom.",
+          "etapes": [
+            "« Tu viens ? demanda Léa.",
+            "– J’arrive ! répondit Tom. »"
+          ],
+          "conclusion": "Guillemets au début et à la fin, tiret quand Tom prend la parole."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe marque un changement de personnage dans un dialogue ?",
+          "options": [
+            "le tiret",
+            "la virgule",
+            "les parenthèses"
+          ],
+          "reponse": "le tiret",
+          "explication": "Chaque nouvelle réplique commence par un tiret."
+        }
+      ]
+    },
+    {
+      "titre": "Varier les verbes de parole",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Au lieu de « dit »",
+          "colonnes": [
+            "Le personnage…",
+            "Verbe"
+          ],
+          "lignes": [
+            [
+              "pose une question",
+              "demanda"
+            ],
+            [
+              "répond",
+              "répondit"
+            ],
+            [
+              "parle tout bas",
+              "murmura, chuchota"
+            ],
+            [
+              "crie",
+              "s’écria, hurla"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répète « dit » à chaque réplique.",
+          "correction": "Un verbe précis montre le ton : murmura, s’exclama."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un dialogue commence par :",
+      "options": [
+        "des guillemets ouvrants",
+        "un point",
+        "un tiret seulement"
+      ],
+      "reponse": "des guillemets ouvrants",
+      "explication": "On ouvre les guillemets."
+    },
+    {
+      "consigne": "« Chut ! … Inès. » Quel verbe convient ?",
+      "options": [
+        "chuchota",
+        "hurla",
+        "demanda"
+      ],
+      "reponse": "chuchota",
+      "explication": "Chut : on parle tout bas."
+    },
+    {
+      "consigne": "Dans « “Où vas-tu ?” demanda Tom », le sujet de « demanda » est :",
+      "options": [
+        "Tom",
+        "tu",
+        "où"
+      ],
+      "reponse": "Tom",
+      "explication": "Le sujet est inversé après la réplique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Découvrir et manipuler des situations variées d’écriture : décrire, dialoguer",
+      "appui": "Écrire un dialogue"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

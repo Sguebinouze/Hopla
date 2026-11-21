@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C3-CM2-ECOU-01",
+  "duree": 5,
+  "essentiel": "À l’oral, on reconnait plusieurs genres de discours : un récit, une explication, une consigne, un point de vue.\nChaque genre a ses mots repères.\n« À mon avis » annonce un point de vue ; « d’abord, ensuite » organisent une consigne ou un récit.",
+  "parties": [
+    {
+      "titre": "Les mots repères",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre à l’écoute",
+          "colonnes": [
+            "Genre",
+            "But",
+            "Mots repères"
+          ],
+          "lignes": [
+            [
+              "récit",
+              "raconter",
+              "il était une fois, un jour, soudain"
+            ],
+            [
+              "explication",
+              "faire comprendre",
+              "parce que, c’est pourquoi"
+            ],
+            [
+              "consigne",
+              "faire faire",
+              "verbes à l’impératif, d’abord, ensuite"
+            ],
+            [
+              "point de vue",
+              "donner son avis",
+              "je pense que, à mon avis"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je pense que les écrans devraient être interdits le soir. » C’est :",
+          "options": [
+            "un point de vue",
+            "un récit",
+            "une consigne"
+          ],
+          "reponse": "un point de vue",
+          "explication": "Je pense que : la personne donne son avis."
+        }
+      ]
+    },
+    {
+      "titre": "Écouter activement",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un point de vue est une vérité.",
+          "correction": "C’est un avis : une autre personne peut penser autrement."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Découpe le carton, puis colle-le sur la feuille. » C’est :",
+      "options": [
+        "une consigne",
+        "un récit",
+        "un point de vue"
+      ],
+      "reponse": "une consigne",
+      "explication": "Des verbes à l’impératif."
+    },
+    {
+      "consigne": "« Un soir d’hiver, un loup frappa à la porte. » C’est :",
+      "options": [
+        "un récit",
+        "une explication",
+        "une consigne"
+      ],
+      "reponse": "un récit",
+      "explication": "Il raconte une histoire."
+    },
+    {
+      "consigne": "« Les feuilles tombent parce que l’arbre manque de lumière. » C’est :",
+      "options": [
+        "une explication",
+        "un récit",
+        "un point de vue"
+      ],
+      "reponse": "une explication",
+      "explication": "Parce que : on fait comprendre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 11,
+      "extrait": "Identifier les caractéristiques des différents genres de discours",
+      "appui": "Les genres de discours"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

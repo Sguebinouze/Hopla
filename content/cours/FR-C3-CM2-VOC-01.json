@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM2-VOC-01",
+  "duree": 5,
+  "essentiel": "Les mots du dictionnaire sont rangés dans l’ordre alphabétique, lettre après lettre.\nLes mots repères, en haut de page, indiquent le premier et le dernier mot de la page.\nL’article donne la classe du mot, ses sens numérotés et des exemples.",
+  "parties": [
+    {
+      "titre": "Trouver le mot",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour chercher « boussole »",
+          "etapes": [
+            "Ouvre le dictionnaire à la lettre B.",
+            "Regarde les mots repères en haut des pages.",
+            "Compare lettre par lettre : bou… après bon….",
+            "Lis tout l’article."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel vient en premier dans le dictionnaire ?",
+          "options": [
+            "bouclier",
+            "boussole",
+            "bouteille"
+          ],
+          "reponse": "bouclier",
+          "explication": "b-o-u-c avant b-o-u-s et b-o-u-t."
+        }
+      ]
+    },
+    {
+      "titre": "Lire l’article",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les abréviations",
+          "colonnes": [
+            "Abréviation",
+            "Sens"
+          ],
+          "lignes": [
+            [
+              "n. m.",
+              "nom masculin"
+            ],
+            [
+              "n. f.",
+              "nom féminin"
+            ],
+            [
+              "adj.",
+              "adjectif"
+            ],
+            [
+              "v.",
+              "verbe"
+            ],
+            [
+              "adv.",
+              "adverbe"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit seulement le premier sens.",
+          "correction": "Un mot a souvent plusieurs sens numérotés : on choisit celui qui convient à la phrase."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« adj. » signifie :",
+      "options": [
+        "adjectif",
+        "adverbe",
+        "article"
+      ],
+      "reponse": "adjectif",
+      "explication": "Comme « joli, adj. »."
+    },
+    {
+      "consigne": "Dans le dictionnaire, on cherche un verbe conjugué à :",
+      "options": [
+        "l’infinitif",
+        "l’imparfait",
+        "la 3e personne"
+      ],
+      "reponse": "l’infinitif",
+      "explication": "« Courait » se cherche à « courir »."
+    },
+    {
+      "consigne": "Les mots repères en haut de page servent à :",
+      "options": [
+        "savoir quels mots sont sur la page",
+        "donner la définition",
+        "écrire le mot"
+      ],
+      "reponse": "savoir quels mots sont sur la page",
+      "explication": "Premier et dernier mot de la page."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 14,
+      "extrait": "Utiliser des dictionnaires",
+      "appui": "Utiliser le dictionnaire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C3-CM2-CONJ-03",
+  "duree": 6,
+  "essentiel": "Aux temps composés, la négation encadre l’auxiliaire : ne devant, pas après.\nLéa a fini. → Léa n’a pas fini.\nAvec un pronom complément, ne se place devant le pronom : Tom l’a vu. → Tom ne l’a pas vu.",
+  "parties": [
+    {
+      "titre": "Encadrer l’auxiliaire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Forme affirmative et forme négative",
+          "colonnes": [
+            "Affirmative",
+            "Négative"
+          ],
+          "lignes": [
+            [
+              "Léa a fini ses exercices.",
+              "Léa n’a pas fini ses exercices."
+            ],
+            [
+              "Il était venu.",
+              "Il n’était jamais venu."
+            ],
+            [
+              "Tom l’a vu.",
+              "Tom ne l’a pas vu."
+            ],
+            [
+              "Nous avions encore faim.",
+              "Nous n’avions plus faim."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Mets à la forme négative : « Ils sont partis. »",
+          "options": [
+            "Ils ne sont pas partis.",
+            "Ils ne sont partis pas.",
+            "Ils sont ne pas partis."
+          ],
+          "reponse": "Ils ne sont pas partis.",
+          "explication": "Ne et pas encadrent l’auxiliaire."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas oublier ne",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "À l’écrit, on oublie ne : « Il a pas compris ».",
+          "correction": "À l’écrit, la négation a deux mots : il n’a pas compris."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mets à la forme négative : « Elle les a appelés. »",
+      "options": [
+        "Elle ne les a pas appelés.",
+        "Elle les n’a pas appelés.",
+        "Elle ne les a appelés pas."
+      ],
+      "reponse": "Elle ne les a pas appelés.",
+      "explication": "Ne avant le pronom, pas après l’auxiliaire."
+    },
+    {
+      "consigne": "« Il avait déjà mangé. » À la forme négative avec jamais :",
+      "options": [
+        "Il n’avait jamais mangé.",
+        "Il avait jamais mangé.",
+        "Il n’avait mangé jamais."
+      ],
+      "reponse": "Il n’avait jamais mangé.",
+      "explication": "Jamais se place après l’auxiliaire."
+    },
+    {
+      "consigne": "Dans « Je n’ai pas dormi », l’auxiliaire est :",
+      "options": [
+        "ai",
+        "dormi",
+        "pas"
+      ],
+      "reponse": "ai",
+      "explication": "Ne et pas l’encadrent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Effectuer la transformation à la forme négative d’un verbe aux temps composés en plaçant les adverbes de négation au bon emplacement",
+      "appui": "Forme négative aux temps composés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

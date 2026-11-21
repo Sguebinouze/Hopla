@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C3-CM2-DICT-01",
+  "duree": 6,
+  "essentiel": "Avant d’écrire, j’écoute la phrase en entier.\nJe relis plusieurs fois, en cherchant une chose à la fois : les verbes, les groupes nominaux, les participes passés.\nPour chaque participe passé, je regarde l’auxiliaire : être ou avoir.",
+  "parties": [
+    {
+      "titre": "Relire les participes passés",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour relire une dictée de CM2",
+          "etapes": [
+            "Relis pour le sens : il ne manque aucun mot.",
+            "Relis les verbes : trouve leur sujet, même inversé.",
+            "Relis les participes passés : être ou avoir ?",
+            "Relis les groupes nominaux : genre et nombre."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde un participe passé avec avoir comme avec être.",
+          "correction": "Avec avoir, on cherche le COD placé avant. Avec être, on accorde avec le sujet."
+        }
+      ]
+    },
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Les hirondelles étaient revenues, et les enfants les avaient aperçues. »",
+          "etapes": [
+            "Revenues : auxiliaire être, sujet les hirondelles, féminin pluriel.",
+            "Aperçues : auxiliaire avoir, COD les, mis pour hirondelles, placé avant."
+          ],
+          "conclusion": "Les deux participes passés s’accordent au féminin pluriel."
+        },
+        {
+          "type": "question",
+          "consigne": "« Les lettres que j’ai … » (écrire)",
+          "options": [
+            "écrites",
+            "écrit",
+            "écrits"
+          ],
+          "reponse": "écrites",
+          "explication": "Que remplace lettres, placé avant : féminin pluriel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Elles sont … tôt. » (partir)",
+      "options": [
+        "parties",
+        "parti",
+        "partis"
+      ],
+      "reponse": "parties",
+      "explication": "Avec être : accord avec le sujet."
+    },
+    {
+      "consigne": "« Ils ont … la porte. » (fermer)",
+      "options": [
+        "fermé",
+        "fermés",
+        "fermée"
+      ],
+      "reponse": "fermé",
+      "explication": "Le COD est après : pas d’accord."
+    },
+    {
+      "consigne": "Quand tu relis un verbe, tu vérifies :",
+      "options": [
+        "son accord avec le sujet",
+        "sa longueur",
+        "sa première lettre"
+      ],
+      "reponse": "son accord avec le sujet",
+      "explication": "Le sujet commande le verbe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 17,
+      "extrait": "dont des dictées",
+      "appui": "Dictée et relecture"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

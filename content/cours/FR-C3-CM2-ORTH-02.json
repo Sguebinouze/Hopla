@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM2-ORTH-02",
+  "duree": 8,
+  "essentiel": "Avec l’auxiliaire avoir, le participe passé ne s’accorde jamais avec le sujet.\nIl s’accorde avec le COD seulement si le COD est placé avant le verbe.\nLéa a cueilli des fleurs. Les fleurs que Léa a cueillies sont sur la table.",
+  "parties": [
+    {
+      "titre": "Où est le COD ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accord ou pas ?",
+          "colonnes": [
+            "Phrase",
+            "COD",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "Elles ont mangé.",
+              "aucun",
+              "non : mangé"
+            ],
+            [
+              "Léa a cueilli des fleurs.",
+              "après le verbe",
+              "non : cueilli"
+            ],
+            [
+              "Les fleurs que Léa a cueillies…",
+              "que, mis pour fleurs, avant",
+              "oui : cueillies"
+            ],
+            [
+              "Ces lettres, je les ai lues.",
+              "les, mis pour lettres, avant",
+              "oui : lues"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mes sœurs ont … un gâteau. » (préparer)",
+          "options": [
+            "préparé",
+            "préparées",
+            "préparés"
+          ],
+          "reponse": "préparé",
+          "explication": "Avec avoir, pas d’accord avec le sujet. Le COD est après."
+        }
+      ]
+    },
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour accorder avec avoir",
+          "etapes": [
+            "Cherche le COD : verbe + qui ? ou quoi ?",
+            "S’il est après le verbe, ou absent : pas d’accord.",
+            "S’il est avant : accorde avec ce qu’il remplace."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le sujet : « Elles ont chantées ».",
+          "correction": "Avec avoir, jamais d’accord avec le sujet : elles ont chanté."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Les images que tu as … » (dessiner)",
+      "options": [
+        "dessinées",
+        "dessiné",
+        "dessinés"
+      ],
+      "reponse": "dessinées",
+      "explication": "Que remplace images, placé avant : féminin pluriel."
+    },
+    {
+      "consigne": "« Ils ont … toute la nuit. » (dormir)",
+      "options": [
+        "dormi",
+        "dormis",
+        "dormie"
+      ],
+      "reponse": "dormi",
+      "explication": "Pas de COD : pas d’accord."
+    },
+    {
+      "consigne": "« Ta veste, je l’ai … » (trouver)",
+      "options": [
+        "trouvée",
+        "trouvé",
+        "trouvés"
+      ],
+      "reponse": "trouvée",
+      "explication": "L’ remplace veste, placé avant : féminin singulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Accorder le participe passé avec le COD pour les verbes étudiés et conjugués avec l’auxiliaire avoir",
+      "appui": "Participe passé avec avoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,134 @@
+{
+  "competence": "FR-C3-CM2-CONJ-02",
+  "duree": 6,
+  "essentiel": "Le plus-que-parfait est un temps composé : auxiliaire à l’imparfait, suivi du participe passé.\nJ’avais fini. Nous étions partis.\nIl exprime une action passée qui a eu lieu avant une autre action passée.",
+  "parties": [
+    {
+      "titre": "Former le plus-que-parfait",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Auxiliaire",
+              "definition": "Verbe être ou avoir qui sert à former les temps composés."
+            },
+            {
+              "mot": "Participe passé",
+              "definition": "Forme du verbe utilisée avec un auxiliaire dans les temps composés : chanté, fini, pris."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Au plus-que-parfait",
+          "colonnes": [
+            "Personne",
+            "finir (avoir)",
+            "venir (être)"
+          ],
+          "lignes": [
+            [
+              "je",
+              "avais fini",
+              "étais venu, venue"
+            ],
+            [
+              "tu",
+              "avais fini",
+              "étais venu, venue"
+            ],
+            [
+              "il, elle",
+              "avait fini",
+              "était venu, venue"
+            ],
+            [
+              "nous",
+              "avions fini",
+              "étions venus, venues"
+            ],
+            [
+              "vous",
+              "aviez fini",
+              "étiez venus, venues"
+            ],
+            [
+              "ils, elles",
+              "avaient fini",
+              "étaient venus, venues"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Elles … venues. » (plus-que-parfait)",
+          "options": [
+            "étaient",
+            "avaient",
+            "sont"
+          ],
+          "reponse": "étaient",
+          "explication": "Venir se conjugue avec être, à l’imparfait : étaient."
+        }
+      ]
+    },
+    {
+      "titre": "Avant une autre action",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Quand Léa arriva, le film avait commencé. Le film a commencé avant l’arrivée de Léa."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met l’auxiliaire au présent : « il a fini » au lieu de « il avait fini ».",
+          "correction": "Au plus-que-parfait, l’auxiliaire est à l’imparfait."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nous … fini nos devoirs. » (plus-que-parfait)",
+      "options": [
+        "avions",
+        "avons",
+        "étions"
+      ],
+      "reponse": "avions",
+      "explication": "Avoir à l’imparfait : nous avions."
+    },
+    {
+      "consigne": "Le plus-que-parfait est formé de :",
+      "options": [
+        "l’auxiliaire à l’imparfait et le participe passé",
+        "l’auxiliaire au présent et le participe passé",
+        "un seul mot"
+      ],
+      "reponse": "l’auxiliaire à l’imparfait et le participe passé",
+      "explication": "C’est un temps composé."
+    },
+    {
+      "consigne": "« Quand je suis arrivé, il … parti. »",
+      "options": [
+        "était",
+        "est",
+        "sera"
+      ],
+      "reponse": "était",
+      "explication": "Il est parti avant mon arrivée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 20,
+      "extrait": "Connaître la composition en deux parties (auxiliaire + participe passé) des temps composés",
+      "appui": "Le plus-que-parfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

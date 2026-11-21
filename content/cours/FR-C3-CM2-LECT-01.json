@@ -1,0 +1,118 @@
+{
+  "competence": "FR-C3-CM2-LECT-01",
+  "duree": 6,
+  "essentiel": "On reconnait un genre littéraire à des critères : sa forme, ses personnages, sa façon de raconter.\nUne fable met en scène des animaux et finit par une morale. Le théâtre est écrit pour être joué.\nUn récit policier raconte une enquête ; la science-fiction imagine un futur ou d’autres mondes.",
+  "parties": [
+    {
+      "titre": "Des critères",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les principaux genres",
+          "colonnes": [
+            "Genre",
+            "Critères"
+          ],
+          "lignes": [
+            [
+              "conte",
+              "il était une fois, merveilleux, épreuves, fin heureuse"
+            ],
+            [
+              "fable",
+              "souvent en vers, animaux, morale"
+            ],
+            [
+              "roman",
+              "récit long, en chapitres"
+            ],
+            [
+              "poésie",
+              "vers, rimes, images"
+            ],
+            [
+              "théâtre",
+              "répliques, didascalies, pour être joué"
+            ],
+            [
+              "bande dessinée",
+              "cases, bulles, dessins"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un texte avec des répliques et des didascalies est :",
+          "options": [
+            "une pièce de théâtre",
+            "un conte",
+            "une fable"
+          ],
+          "reponse": "une pièce de théâtre",
+          "explication": "Il est écrit pour être joué."
+        }
+      ]
+    },
+    {
+      "titre": "Récit policier et science-fiction",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Deux genres de récits.",
+          "exemples": [
+            "Récit policier : un mystère, des indices, un enquêteur, un coupable.",
+            "Science-fiction : des robots, des voyages dans l’espace, un futur inventé."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un texte avec des animaux est forcément une fable.",
+          "correction": "Il faut aussi une morale. Un roman ou un conte peuvent avoir des animaux."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un texte qui se termine par une morale est souvent :",
+      "options": [
+        "une fable",
+        "un roman policier",
+        "une bande dessinée"
+      ],
+      "reponse": "une fable",
+      "explication": "La morale donne une leçon."
+    },
+    {
+      "consigne": "Un texte avec des indices et un enquêteur est :",
+      "options": [
+        "un récit policier",
+        "un poème",
+        "un conte"
+      ],
+      "reponse": "un récit policier",
+      "explication": "Il raconte une enquête."
+    },
+    {
+      "consigne": "Un texte avec des cases et des bulles est :",
+      "options": [
+        "une bande dessinée",
+        "une pièce de théâtre",
+        "une fable"
+      ],
+      "reponse": "une bande dessinée",
+      "explication": "Les bulles contiennent les paroles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 5,
+      "extrait": "Reconnaître et nommer les principaux genres littéraires à l’aide de critères travaillés en classe",
+      "appui": "Les genres littéraires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

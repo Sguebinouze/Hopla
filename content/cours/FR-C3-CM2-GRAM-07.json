@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-07",
+  "duree": 6,
+  "essentiel": "L’adjectif épithète est placé à côté du nom : un chat noir.\nL’adjectif attribut du sujet est relié au sujet par un verbe d’état : le chat est noir.\nLe complément du nom précise le nom, souvent après de ou à : le chat de Léa.",
+  "parties": [
+    {
+      "titre": "Trois fonctions",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Épithète",
+              "definition": "Fonction de l’adjectif placé directement à côté du nom qu’il qualifie."
+            },
+            {
+              "mot": "Complément du nom",
+              "definition": "Groupe introduit le plus souvent par une préposition, qui précise un nom : une robe de soirée."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Groupe",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "un chat noir",
+              "noir : épithète de chat"
+            ],
+            [
+              "le chat est noir",
+              "noir : attribut du sujet"
+            ],
+            [
+              "le chat de Léa",
+              "de Léa : complément du nom chat"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « une robe de soirée », « de soirée » est :",
+          "options": [
+            "complément du nom",
+            "épithète",
+            "attribut du sujet"
+          ],
+          "reponse": "complément du nom",
+          "explication": "Il précise le nom robe, introduit par de."
+        }
+      ]
+    },
+    {
+      "titre": "Le verbe d’état",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’adjectif est épithète dans « la mer semble calme ».",
+          "correction": "Sembler est un verbe d’état : calme est attribut du sujet."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Les enfants sont joyeux », « joyeux » est :",
+      "options": [
+        "attribut du sujet",
+        "épithète",
+        "complément du nom"
+      ],
+      "reponse": "attribut du sujet",
+      "explication": "Relié au sujet par être."
+    },
+    {
+      "consigne": "Dans « une grande maison », « grande » est :",
+      "options": [
+        "épithète",
+        "attribut du sujet",
+        "complément du nom"
+      ],
+      "reponse": "épithète",
+      "explication": "Il est à côté du nom."
+    },
+    {
+      "consigne": "Dans « un verre à pied », « à pied » est :",
+      "options": [
+        "complément du nom",
+        "épithète",
+        "COI"
+      ],
+      "reponse": "complément du nom",
+      "explication": "Il précise le nom verre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Différencier épithète et attribut du sujet",
+      "appui": "Épithète, attribut, complément du nom"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

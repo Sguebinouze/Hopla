@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C3-CM2-ECR-02",
+  "duree": 6,
+  "essentiel": "Comparer deux documents, c’est chercher leurs points communs, leurs différences, et ce qu’ils apportent chacun.\nOn présente la comparaison dans un tableau, puis dans un texte court.\nDes mots aident à comparer : tous les deux, alors que, en revanche, de plus.",
+  "parties": [
+    {
+      "titre": "Organiser la comparaison",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une photo et un texte sur un volcan",
+          "colonnes": [
+            "Critère",
+            "Photo",
+            "Texte"
+          ],
+          "lignes": [
+            [
+              "ce qu’on apprend",
+              "la couleur de la lave, la fumée",
+              "la température de la lave, la date"
+            ],
+            [
+              "point commun",
+              "le même volcan",
+              "le même volcan"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour opposer deux documents, on peut écrire :",
+          "options": [
+            "alors que",
+            "de plus",
+            "tous les deux"
+          ],
+          "reponse": "alors que",
+          "explication": "Alors que marque une différence."
+        }
+      ]
+    },
+    {
+      "titre": "Rédiger",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire la comparaison",
+          "etapes": [
+            "Présente les deux documents : nature, titre, auteur.",
+            "Écris leurs points communs.",
+            "Écris leurs différences.",
+            "Dis ce que l’un apporte à l’autre."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On décrit un document, puis l’autre, sans les relier.",
+          "correction": "Comparer, c’est mettre les informations face à face."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour dire ce qu’ont les deux documents, on écrit :",
+      "options": [
+        "tous les deux",
+        "en revanche",
+        "alors que"
+      ],
+      "reponse": "tous les deux",
+      "explication": "Il annonce un point commun."
+    },
+    {
+      "consigne": "Deux documents qui se complètent :",
+      "options": [
+        "apportent chacun des informations différentes",
+        "disent exactement la même chose",
+        "se contredisent"
+      ],
+      "reponse": "apportent chacun des informations différentes",
+      "explication": "L’un ajoute à l’autre."
+    },
+    {
+      "consigne": "Avant de comparer, on :",
+      "options": [
+        "présente les deux documents",
+        "donne son avis",
+        "recopie le premier"
+      ],
+      "reponse": "présente les deux documents",
+      "explication": "Nature, titre, auteur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 10,
+      "extrait": "Écrire pour comparer deux documents",
+      "appui": "Écrire pour comparer deux documents"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

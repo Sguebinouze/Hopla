@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-05",
+  "duree": 6,
+  "essentiel": "Une phrase simple contient un seul verbe conjugué.\nUne phrase complexe contient plusieurs verbes conjugués : elle a plusieurs propositions.\nQuand la cloche sonne, les élèves sortent : deux verbes conjugués, deux propositions.",
+  "parties": [
+    {
+      "titre": "Compter les verbes conjugués",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Proposition",
+              "definition": "Partie de phrase organisée autour d’un verbe conjugué."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Simple ou complexe ?",
+          "colonnes": [
+            "Phrase",
+            "Verbes conjugués",
+            "Type"
+          ],
+          "lignes": [
+            [
+              "Les élèves sortent dans la cour.",
+              "sortent",
+              "simple"
+            ],
+            [
+              "Quand la cloche sonne, les élèves sortent.",
+              "sonne, sortent",
+              "complexe"
+            ],
+            [
+              "Il pleut, nous restons à l’abri et nous lisons.",
+              "pleut, restons, lisons",
+              "complexe"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de propositions dans « Léa chante et Tom danse » ?",
+          "options": [
+            "2",
+            "1",
+            "3"
+          ],
+          "reponse": "2",
+          "explication": "Deux verbes conjugués : chante et danse."
+        }
+      ]
+    },
+    {
+      "titre": "Attention à l’infinitif",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On compte « jouer » dans « Il aime jouer » comme un verbe conjugué.",
+          "correction": "Jouer est à l’infinitif. La phrase a un seul verbe conjugué, aime : elle est simple."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Le soleil brille sur la plage. » est une phrase :",
+      "options": [
+        "simple",
+        "complexe",
+        "sans verbe"
+      ],
+      "reponse": "simple",
+      "explication": "Un seul verbe conjugué : brille."
+    },
+    {
+      "consigne": "« Je pense que tu as raison. » est une phrase :",
+      "options": [
+        "complexe",
+        "simple",
+        "sans verbe"
+      ],
+      "reponse": "complexe",
+      "explication": "Deux verbes conjugués : pense, as."
+    },
+    {
+      "consigne": "Une proposition est organisée autour :",
+      "options": [
+        "d’un verbe conjugué",
+        "d’un nom",
+        "d’un adjectif"
+      ],
+      "reponse": "d’un verbe conjugué",
+      "explication": "Il y a une proposition par verbe conjugué."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Distinguer phrase simple et phrase complexe à partir du repérage des verbes conjugués",
+      "appui": "Phrase simple et phrase complexe"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-09",
+  "duree": 7,
+  "essentiel": "La nature, ou classe, dit ce qu’est un mot : nom, verbe, adjectif, pronom, déterminant…\nLes groupes ont aussi une nature : groupe nominal, groupe verbal, groupe prépositionnel.\nLa fonction dit le rôle du mot ou du groupe dans la phrase : sujet, COD, complément circonstanciel…",
+  "parties": [
+    {
+      "titre": "Nature des groupes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois groupes",
+          "colonnes": [
+            "Groupe",
+            "Il est construit autour",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "groupe nominal",
+              "d’un nom",
+              "le petit chat"
+            ],
+            [
+              "groupe verbal",
+              "d’un verbe",
+              "mange sa pâtée"
+            ],
+            [
+              "groupe prépositionnel",
+              "d’une préposition",
+              "dans le jardin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« dans le jardin » est :",
+          "options": [
+            "un groupe prépositionnel",
+            "un groupe nominal",
+            "un groupe verbal"
+          ],
+          "reponse": "un groupe prépositionnel",
+          "explication": "Il commence par la préposition dans."
+        }
+      ]
+    },
+    {
+      "titre": "Nature ou fonction ?",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dans « Le chat dort dans le jardin », analyse « dans le jardin ».",
+          "etapes": [
+            "Nature : groupe prépositionnel.",
+            "Fonction : complément circonstanciel de lieu."
+          ],
+          "conclusion": "Un même groupe a une nature et une fonction."
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « sujet » quand on demande la nature.",
+          "correction": "Sujet est une fonction. La nature serait groupe nominal ou pronom."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle est la nature de « elle » ?",
+      "options": [
+        "pronom",
+        "nom",
+        "sujet"
+      ],
+      "reponse": "pronom",
+      "explication": "Sujet est sa fonction, pronom sa nature."
+    },
+    {
+      "consigne": "« les grandes vacances » est :",
+      "options": [
+        "un groupe nominal",
+        "un groupe prépositionnel",
+        "un groupe verbal"
+      ],
+      "reponse": "un groupe nominal",
+      "explication": "Il est construit autour du nom vacances."
+    },
+    {
+      "consigne": "Dans « Tom lit », la fonction de « Tom » est :",
+      "options": [
+        "sujet",
+        "nom propre",
+        "groupe nominal"
+      ],
+      "reponse": "sujet",
+      "explication": "Nom propre est sa nature."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Distinguer les natures/classes grammaticales de mots et les natures des groupes fonctionnels",
+      "appui": "Nature des mots et des groupes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

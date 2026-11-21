@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C3-CM2-VOC-03",
+  "duree": 5,
+  "essentiel": "Chaque discipline a ses mots précis.\nEn géographie, un fleuve se jette dans la mer, une rivière dans un autre cours d’eau.\nEmployer le mot juste rend le propos clair et exact.",
+  "parties": [
+    {
+      "titre": "Des mots par univers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le mot juste",
+          "colonnes": [
+            "Univers",
+            "Mot courant",
+            "Mot précis"
+          ],
+          "lignes": [
+            [
+              "géographie",
+              "grande rivière qui va à la mer",
+              "fleuve"
+            ],
+            [
+              "sciences",
+              "combien ça pèse",
+              "masse, en grammes"
+            ],
+            [
+              "histoire",
+              "cent ans",
+              "siècle"
+            ],
+            [
+              "arts",
+              "tableau qui montre une personne",
+              "portrait"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Loire se jette dans l’océan Atlantique. C’est :",
+          "options": [
+            "un fleuve",
+            "une rivière",
+            "un ruisseau"
+          ],
+          "reponse": "un fleuve",
+          "explication": "Elle rejoint l’océan."
+        }
+      ]
+    },
+    {
+      "titre": "Choisir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On emploie des mots vagues : « le truc », « la chose ».",
+          "correction": "On cherche le mot exact, dans la leçon ou le dictionnaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En arts, une œuvre en volume, taillée ou modelée, s’appelle :",
+      "options": [
+        "une sculpture",
+        "un portrait",
+        "un dessin"
+      ],
+      "reponse": "une sculpture",
+      "explication": "On peut en faire le tour."
+    },
+    {
+      "consigne": "En histoire, une période de cent ans est :",
+      "options": [
+        "un siècle",
+        "un millénaire",
+        "une décennie"
+      ],
+      "reponse": "un siècle",
+      "explication": "Un millénaire dure mille ans."
+    },
+    {
+      "consigne": "En sciences, une balance mesure :",
+      "options": [
+        "la masse",
+        "la longueur",
+        "la durée"
+      ],
+      "reponse": "la masse",
+      "explication": "En grammes ou en kilogrammes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 15,
+      "extrait": "À l’oral et à l’écrit, utiliser précisément le vocabulaire de différents univers de référence",
+      "appui": "Le mot juste selon l’univers de référence"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

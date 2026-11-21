@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C3-CM2-ORTH-03",
+  "duree": 6,
+  "essentiel": "Les noms en -al font leur pluriel en -aux : un cheval, des chevaux.\nLes noms en -eu et -eau prennent un x : des jeux, des bateaux. Sept noms en -ou prennent un x.\nCertains féminins sont irréguliers : beau, belle ; vieux, vieille ; le roi, la reine.",
+  "parties": [
+    {
+      "titre": "Les pluriels en x",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pluriels particuliers",
+          "colonnes": [
+            "Finale",
+            "Règle",
+            "Exceptions"
+          ],
+          "lignes": [
+            [
+              "-al",
+              "des chevaux, des journaux",
+              "bals, carnavals, festivals, récitals"
+            ],
+            [
+              "-eu, -eau",
+              "des jeux, des bateaux",
+              "pneus, bleus"
+            ],
+            [
+              "-ou",
+              "des clous, des trous",
+              "bijoux, cailloux, choux, genoux, hiboux, joujoux, poux"
+            ],
+            [
+              "-ail",
+              "des rails, des détails",
+              "travaux, vitraux, coraux, émaux"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pluriel de « un caillou » est :",
+          "options": [
+            "des cailloux",
+            "des caillous",
+            "des caillaux"
+          ],
+          "reponse": "des cailloux",
+          "explication": "Caillou fait partie des sept noms en -oux."
+        }
+      ]
+    },
+    {
+      "titre": "Des féminins irréguliers",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le féminin change beaucoup.",
+          "exemples": [
+            "beau, belle ; nouveau, nouvelle ; vieux, vieille",
+            "fou, folle ; doux, douce ; long, longue",
+            "le roi, la reine ; le héros, l’héroïne"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « des festivaux ».",
+          "correction": "Festival est une exception : des festivals."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le pluriel de « un journal » est :",
+      "options": [
+        "des journaux",
+        "des journals",
+        "des journauxs"
+      ],
+      "reponse": "des journaux",
+      "explication": "-al devient -aux."
+    },
+    {
+      "consigne": "Le pluriel de « un genou » est :",
+      "options": [
+        "des genoux",
+        "des genous",
+        "des genaux"
+      ],
+      "reponse": "des genoux",
+      "explication": "Un des sept noms en -oux."
+    },
+    {
+      "consigne": "Le féminin de « vieux » est :",
+      "options": [
+        "vieille",
+        "vieuse",
+        "vieuxe"
+      ],
+      "reponse": "vieille",
+      "explication": "Un féminin irrégulier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Rencontrer quelques variations particulières en contexte",
+      "appui": "Pluriels et féminins particuliers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

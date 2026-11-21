@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-03",
+  "duree": 5,
+  "essentiel": "Le sujet est parfois placé après le verbe : c’est un sujet inversé.\nOn le trouve dans une question, après un dialogue, ou après un complément de lieu.\nSur la colline se dresse un château : le sujet de « se dresse » est « un château ».",
+  "parties": [
+    {
+      "titre": "Où le trouver ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des sujets inversés",
+          "colonnes": [
+            "Situation",
+            "Exemple",
+            "Sujet"
+          ],
+          "lignes": [
+            [
+              "une question",
+              "Où vas-tu ?",
+              "tu"
+            ],
+            [
+              "après un dialogue",
+              "« Viens ! » cria Léa.",
+              "Léa"
+            ],
+            [
+              "après un CC de lieu",
+              "Dans le jardin poussent des roses.",
+              "des roses"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Au loin brillaient les lumières du port », le sujet est :",
+          "options": [
+            "les lumières du port",
+            "au loin",
+            "le port"
+          ],
+          "reponse": "les lumières du port",
+          "explication": "Qui est-ce qui brillait ? Les lumières du port."
+        }
+      ]
+    },
+    {
+      "titre": "Accorder le verbe",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver le sujet",
+          "etapes": [
+            "Repère le verbe conjugué.",
+            "Demande : qui est-ce qui… ? ou qu’est-ce qui… ?",
+            "Accorde le verbe avec la réponse, même si elle est après."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « Dans le jardin pousse des roses ».",
+          "correction": "Le sujet est des roses, au pluriel : poussent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Que veulent les élèves ? », le sujet est :",
+      "options": [
+        "les élèves",
+        "que",
+        "veulent"
+      ],
+      "reponse": "les élèves",
+      "explication": "Qui est-ce qui veut ? Les élèves."
+    },
+    {
+      "consigne": "« Sur la branche … deux oiseaux. » (chanter, présent)",
+      "options": [
+        "chantent",
+        "chante",
+        "chantes"
+      ],
+      "reponse": "chantent",
+      "explication": "Le sujet deux oiseaux est au pluriel."
+    },
+    {
+      "consigne": "Dans « “J’ai gagné !” s’écria Tom », le sujet de « s’écria » est :",
+      "options": [
+        "Tom",
+        "je",
+        "gagné"
+      ],
+      "reponse": "Tom",
+      "explication": "Qui s’écria ? Tom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Identifier le sujet inversé dans des cas simples",
+      "appui": "Le sujet inversé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

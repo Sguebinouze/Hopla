@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C3-CM2-GRAM-02",
+  "duree": 6,
+  "essentiel": "Les compléments circonstanciels donnent des précisions sur l’action. On peut souvent les déplacer ou les supprimer.\nLe CC de temps répond à quand ? Le CC de lieu répond à où ?\nLe CC de cause répond à pourquoi ? Il commence souvent par parce que, à cause de, grâce à.",
+  "parties": [
+    {
+      "titre": "Trois questions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les compléments circonstanciels",
+          "colonnes": [
+            "Complément",
+            "Question",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "de temps",
+              "quand ?",
+              "Hier soir, il a neigé."
+            ],
+            [
+              "de lieu",
+              "où ?",
+              "Il a neigé sur la montagne."
+            ],
+            [
+              "de cause",
+              "pourquoi ?",
+              "Le match est annulé à cause de l’orage."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Elle reste à la maison parce qu’elle est malade », le CC de cause est :",
+          "options": [
+            "parce qu’elle est malade",
+            "à la maison",
+            "elle reste"
+          ],
+          "reponse": "parce qu’elle est malade",
+          "explication": "Pourquoi reste-t-elle ? Parce qu’elle est malade."
+        }
+      ]
+    },
+    {
+      "titre": "Déplacer, supprimer",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Un CC peut bouger dans la phrase.",
+          "exemples": [
+            "À cause de la pluie, la sortie est annulée.",
+            "La sortie est annulée à cause de la pluie.",
+            "La sortie est annulée."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond CC de lieu et COI : « Il pense à la mer ».",
+          "correction": "On ne peut pas supprimer « à la mer » : c’est un COI. Un CC peut se supprimer."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Pendant les vacances, nous irons à Lyon », « pendant les vacances » est :",
+      "options": [
+        "CC de temps",
+        "CC de lieu",
+        "CC de cause"
+      ],
+      "reponse": "CC de temps",
+      "explication": "Quand irons-nous ? Pendant les vacances."
+    },
+    {
+      "consigne": "Dans « Grâce à toi, j’ai réussi », « grâce à toi » est :",
+      "options": [
+        "CC de cause",
+        "CC de temps",
+        "COD"
+      ],
+      "reponse": "CC de cause",
+      "explication": "Pourquoi ai-je réussi ? Grâce à toi."
+    },
+    {
+      "consigne": "Dans « Les enfants jouent dans la cour », le CC de lieu est :",
+      "options": [
+        "dans la cour",
+        "les enfants",
+        "jouent"
+      ],
+      "reponse": "dans la cour",
+      "explication": "Où jouent-ils ? Dans la cour."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo16-2025-francais-c3",
+      "page": 19,
+      "extrait": "Différencier les compléments circonstanciels de temps, de lieu, de cause",
+      "appui": "Compléments circonstanciels de temps, de lieu, de cause"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
