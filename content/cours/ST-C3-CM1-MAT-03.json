@@ -1,0 +1,93 @@
+{
+  "competence": "ST-C3-CM1-MAT-03",
+  "duree": 5,
+  "essentiel": "La balance mesure la masse d’un objet, en grammes ou en kilogrammes.\nPour peser un liquide, on pose d’abord le récipient vide, puis on appuie sur « tare » : la balance affiche 0.\nSans tare, on soustrait la masse du récipient vide à celle du récipient plein.",
+  "parties": [
+    {
+      "titre": "Utiliser la tare",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Peser 200 g d’eau",
+          "etapes": [
+            "Pose le verre vide sur la balance.",
+            "Appuie sur « tare » : elle affiche 0 g.",
+            "Verse l’eau jusqu’à lire 200 g."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La touche « tare » sert à :",
+          "options": [
+            "ne pas compter le récipient",
+            "allumer la balance",
+            "changer d’unité"
+          ],
+          "reponse": "ne pas compter le récipient",
+          "explication": "La balance repart de 0."
+        }
+      ]
+    },
+    {
+      "titre": "Par le calcul",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un bocal vide pèse 150 g. Plein de riz, il pèse 650 g. Quelle est la masse du riz ?",
+          "etapes": [
+            "650 − 150 = 500."
+          ],
+          "conclusion": "Le riz pèse 500 g."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit la masse du bocal plein comme celle du riz.",
+          "correction": "Il faut retirer la masse du bocal."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un seau vide pèse 1 kg, plein il pèse 6 kg. Le contenu pèse :",
+      "options": [
+        "5 kg",
+        "7 kg",
+        "6 kg"
+      ],
+      "reponse": "5 kg",
+      "explication": "6 − 1 = 5."
+    },
+    {
+      "consigne": "Après la tare, la balance affiche :",
+      "options": [
+        "0",
+        "la masse du récipient",
+        "100"
+      ],
+      "reponse": "0",
+      "explication": "Le récipient n’est plus compté."
+    },
+    {
+      "consigne": "La masse se mesure avec :",
+      "options": [
+        "une balance",
+        "un chronomètre",
+        "une règle"
+      ],
+      "reponse": "une balance",
+      "explication": "En grammes ou kilogrammes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 19,
+      "extrait": "Mesurer la masse d’un solide ou d’un liquide à l’aide d’une balance",
+      "appui": "Mesurer une masse"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

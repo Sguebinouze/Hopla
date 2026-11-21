@@ -1,0 +1,114 @@
+{
+  "competence": "HG-C3-CM1-GEO-03",
+  "duree": 5,
+  "essentiel": "Pour se déplacer, on marche, on roule à vélo, ou on prend la voiture, le train, le bateau, l’avion.\nChaque mode de transport a ses infrastructures : route, gare, station, port, aéroport.\nOn mesure un déplacement en kilomètres ou en temps de trajet.",
+  "parties": [
+    {
+      "titre": "Modes et infrastructures",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui va avec quoi ?",
+          "colonnes": [
+            "Mode de transport",
+            "Infrastructure"
+          ],
+          "lignes": [
+            [
+              "vélo",
+              "voie cyclable"
+            ],
+            [
+              "voiture",
+              "route"
+            ],
+            [
+              "métro",
+              "station"
+            ],
+            [
+              "train",
+              "gare"
+            ],
+            [
+              "bateau",
+              "port"
+            ],
+            [
+              "avion",
+              "aéroport"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un avion décolle :",
+          "options": [
+            "d’un aéroport",
+            "d’un port",
+            "d’une gare"
+          ],
+          "reponse": "d’un aéroport",
+          "explication": "L’aéroport a des pistes."
+        }
+      ]
+    },
+    {
+      "titre": "Distance en kilomètres ou en temps",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Paris-Lyon, c’est environ 400 km par la route. En TGV, cela prend environ 2 heures."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que plus c’est loin, plus c’est long.",
+          "correction": "Un trajet court en ville peut durer plus longtemps qu’un trajet long en TGV."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "On peut mesurer un trajet :",
+      "options": [
+        "en kilomètres ou en temps",
+        "seulement en kilomètres",
+        "en litres"
+      ],
+      "reponse": "en kilomètres ou en temps",
+      "explication": "Deux façons de mesurer."
+    },
+    {
+      "consigne": "Un bateau accoste dans :",
+      "options": [
+        "un port",
+        "une gare",
+        "une station"
+      ],
+      "reponse": "un port",
+      "explication": "Le port est au bord de l’eau."
+    },
+    {
+      "consigne": "Quel mode de transport ne rejette pas de fumée ?",
+      "options": [
+        "la marche",
+        "la voiture à essence",
+        "l’avion"
+      ],
+      "reponse": "la marche",
+      "explication": "On se déplace avec ses jambes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 3 : Se déplacer (1 période)",
+      "appui": "Se déplacer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

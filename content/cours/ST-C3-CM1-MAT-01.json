@@ -1,0 +1,133 @@
+{
+  "competence": "ST-C3-CM1-MAT-01",
+  "duree": 7,
+  "essentiel": "Un mélange est homogène si on ne distingue plus ses constituants, hétérogène si on les voit.\nOn sépare un mélange par tamisage, décantation ou filtration.\nLe sel et le sucre se dissolvent dans l’eau ; au-delà d’une certaine quantité, ils ne se dissolvent plus.",
+  "parties": [
+    {
+      "titre": "Homogène ou hétérogène ?",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Mélange",
+              "definition": "Matière formée de plusieurs constituants."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des mélanges",
+          "colonnes": [
+            "Homogène",
+            "Hétérogène"
+          ],
+          "lignes": [
+            [
+              "eau sucrée",
+              "eau et sable"
+            ],
+            [
+              "sirop dilué",
+              "huile et eau"
+            ],
+            [
+              "eau salée",
+              "cailloux et gravier"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’eau salée est un mélange :",
+          "options": [
+            "homogène",
+            "hétérogène",
+            "impossible"
+          ],
+          "reponse": "homogène",
+          "explication": "On ne voit plus le sel."
+        }
+      ]
+    },
+    {
+      "titre": "Séparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois techniques",
+          "colonnes": [
+            "Technique",
+            "Comment",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "tamisage",
+              "des tamis, des plus larges aux plus fins",
+              "cailloux, gravier, sable"
+            ],
+            [
+              "décantation",
+              "on attend que le solide tombe au fond",
+              "eau boueuse"
+            ],
+            [
+              "filtration",
+              "un filtre retient le solide",
+              "eau et terre, filtre à café"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut récupérer le sel dissous avec un filtre.",
+          "correction": "Le sel dissous traverse le filtre. C’est même le signe qu’il est dissous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour séparer des cailloux du sable, on utilise :",
+      "options": [
+        "un tamis",
+        "un aimant",
+        "un thermomètre"
+      ],
+      "reponse": "un tamis",
+      "explication": "Le sable passe, les cailloux restent."
+    },
+    {
+      "consigne": "Lequel se dissout dans l’eau ?",
+      "options": [
+        "le sucre",
+        "le sable",
+        "le gravier"
+      ],
+      "reponse": "le sucre",
+      "explication": "On ne le voit plus."
+    },
+    {
+      "consigne": "Si on ajoute trop de sel, il :",
+      "options": [
+        "ne se dissout plus",
+        "disparait toujours",
+        "devient du sucre"
+      ],
+      "reponse": "ne se dissout plus",
+      "explication": "L’eau est saturée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 19,
+      "extrait": "Distinguer des mélanges homogènes et des mélanges",
+      "appui": "Mélanges et séparations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,120 @@
+{
+  "competence": "HG-C3-CM1-HIST-03",
+  "duree": 8,
+  "essentiel": "Grâce à la caravelle, à la boussole et à de meilleures cartes, les Européens explorent le monde.\n1492 : Christophe Colomb débarque en Amérique. 1519-1522 : l’expédition de Magellan fait le tour du monde.\nLes Européens fondent des empires coloniaux et organisent la traite des esclaves africains.",
+  "parties": [
+    {
+      "titre": "Naviguer au grand large",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des inventions",
+          "colonnes": [
+            "Invention",
+            "À quoi elle sert"
+          ],
+          "lignes": [
+            [
+              "caravelle",
+              "un navire rapide qui remonte le vent"
+            ],
+            [
+              "boussole",
+              "indiquer le nord"
+            ],
+            [
+              "astrolabe",
+              "se repérer avec les étoiles"
+            ],
+            [
+              "cartes",
+              "tracer et suivre les routes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel instrument indique le nord ?",
+          "options": [
+            "la boussole",
+            "la caravelle",
+            "le gouvernail"
+          ],
+          "reponse": "la boussole",
+          "explication": "Son aiguille pointe vers le nord."
+        }
+      ]
+    },
+    {
+      "titre": "Conquêtes et traite",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En Amérique, les populations amérindiennes sont massacrées, réduites en esclavage, et décimées par des maladies venues d’Europe."
+        },
+        {
+          "type": "explique",
+          "texte": "Des Africains sont déportés vers les plantations d’Amérique : c’est la traite. Le Code noir de 1685 encadre l’esclavage dans les colonies françaises."
+        },
+        {
+          "type": "observe",
+          "consigne": "Des produits venus des colonies.",
+          "exemples": [
+            "la tomate",
+            "le chocolat",
+            "la pomme de terre",
+            "le sucre de canne"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Colomb savait qu’il arrivait sur un nouveau continent.",
+          "correction": "Il pensait avoir atteint les Indes, en Asie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En quelle année Colomb débarque-t-il en Amérique ?",
+      "options": [
+        "1492",
+        "1515",
+        "1789"
+      ],
+      "reponse": "1492",
+      "explication": "C’est aussi la fin du Moyen Âge."
+    },
+    {
+      "consigne": "La traite, c’est :",
+      "options": [
+        "le commerce d’esclaves africains",
+        "une route maritime",
+        "un impôt"
+      ],
+      "reponse": "le commerce d’esclaves africains",
+      "explication": "Des Africains sont déportés vers l’Amérique."
+    },
+    {
+      "consigne": "Quel produit vient d’Amérique ?",
+      "options": [
+        "la pomme de terre",
+        "le blé",
+        "le raisin"
+      ],
+      "reponse": "la pomme de terre",
+      "explication": "Elle arrive en Europe après les conquêtes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 3 : Explorations et conquêtes par les Européens du XVe au XVIIe siècle (quatrième période)",
+      "appui": "Explorations et conquêtes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

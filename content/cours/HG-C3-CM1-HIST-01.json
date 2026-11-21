@@ -1,0 +1,127 @@
+{
+  "competence": "HG-C3-CM1-HIST-01",
+  "duree": 8,
+  "essentiel": "Au Moyen Âge (476-1492), les campagnes sont organisées en seigneuries.\nLe seigneur protège les paysans dans son château ; en échange, ils lui doivent des taxes et des corvées.\nL’Église encadre la vie de chacun, aide les pauvres et les malades, et fait bâtir églises romanes puis gothiques.",
+  "parties": [
+    {
+      "titre": "La seigneurie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Groupe",
+            "Rôle",
+            "Obligations"
+          ],
+          "lignes": [
+            [
+              "le seigneur",
+              "protège et rend la justice",
+              "combat pour son suzerain"
+            ],
+            [
+              "les paysannes et paysans",
+              "cultivent la terre",
+              "taxes et corvées pour le seigneur, dime pour l’Église"
+            ],
+            [
+              "le clergé",
+              "prie, soigne, enseigne",
+              "encadre la paroisse"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le château protège les habitants, loge le seigneur et montre sa puissance."
+        },
+        {
+          "type": "question",
+          "consigne": "La corvée, c’est :",
+          "options": [
+            "un travail gratuit pour le seigneur",
+            "un impôt payé au roi",
+            "une fête au village"
+          ],
+          "reponse": "un travail gratuit pour le seigneur",
+          "explication": "Les paysans travaillent sur les terres du seigneur sans être payés."
+        }
+      ]
+    },
+    {
+      "titre": "Art roman et art gothique",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux styles d’églises",
+          "colonnes": [
+            "Style",
+            "Murs et fenêtres",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "roman (XIe-XIIe s.)",
+              "murs épais, petites fenêtres, arcs arrondis",
+              "abbaye de Cluny"
+            ],
+            [
+              "gothique (XIIe-XIIIe s.)",
+              "murs plus fins, grands vitraux, arcs brisés, grande hauteur",
+              "Notre-Dame de Paris"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Moyen Âge est une période figée.",
+          "correction": "Il dure près de mille ans : villes, foires et cathédrales s’y développent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La dime est versée :",
+      "options": [
+        "à l’Église",
+        "au roi",
+        "aux marchands"
+      ],
+      "reponse": "à l’Église",
+      "explication": "C’est une part des récoltes."
+    },
+    {
+      "consigne": "Notre-Dame de Paris est de style :",
+      "options": [
+        "gothique",
+        "roman",
+        "moderne"
+      ],
+      "reponse": "gothique",
+      "explication": "Grands vitraux et grande hauteur."
+    },
+    {
+      "consigne": "Le Moyen Âge va de :",
+      "options": [
+        "476 à 1492",
+        "1492 à 1789",
+        "52 av. J.-C. à 476"
+      ],
+      "reponse": "476 à 1492",
+      "explication": "De la fin de l’Empire romain d’Occident à Christophe Colomb."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 1 : La vie quotidienne au Moyen Âge (XIe - XIIIe siècles) (première et deuxième période)",
+      "appui": "La vie quotidienne au Moyen Âge"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

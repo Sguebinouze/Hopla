@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C3-CM1-GEO-02",
+  "duree": 6,
+  "essentiel": "Dans le monde, tout le monde n’a pas le même accès à l’eau potable, à la santé ou à l’école.\nCes inégalités séparent des pays riches et des pays en développement, et existent aussi à l’intérieur d’un pays.\nOn décrit le monde par grandes aires régionales : Europe, Afrique subsaharienne, Asie de l’Est…",
+  "parties": [
+    {
+      "titre": "Les aires régionales",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les aires régionales du programme",
+          "colonnes": [
+            "Continent",
+            "Aires"
+          ],
+          "lignes": [
+            [
+              "Afrique",
+              "Afrique subsaharienne, Maghreb"
+            ],
+            [
+              "Amérique",
+              "Amérique du Nord, Amérique du Sud"
+            ],
+            [
+              "Asie",
+              "Asie du Sud-Est, Asie de l’Est"
+            ],
+            [
+              "Europe",
+              "Europe"
+            ],
+            [
+              "Océanie",
+              "Océanie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le Maroc, l’Algérie et la Tunisie forment :",
+          "options": [
+            "le Maghreb",
+            "l’Asie de l’Est",
+            "l’Océanie"
+          ],
+          "reponse": "le Maghreb",
+          "explication": "Le Maghreb est au nord de l’Afrique."
+        }
+      ]
+    },
+    {
+      "titre": "L’accès à l’eau",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans certaines régions, il faut marcher longtemps pour chercher de l’eau. Ailleurs, elle coule au robinet."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les inégalités existent seulement entre pays.",
+          "correction": "Dans un même pays, des quartiers ou des régions sont plus favorisés que d’autres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’eau potable est une eau :",
+      "options": [
+        "qu’on peut boire sans danger",
+        "salée",
+        "gelée"
+      ],
+      "reponse": "qu’on peut boire sans danger",
+      "explication": "Elle est propre et sûre."
+    },
+    {
+      "consigne": "Le Japon et la Chine sont en :",
+      "options": [
+        "Asie de l’Est",
+        "Asie du Sud-Est",
+        "Océanie"
+      ],
+      "reponse": "Asie de l’Est",
+      "explication": "Deux pays de l’Asie de l’Est."
+    },
+    {
+      "consigne": "Les inégalités d’accès à l’école existent :",
+      "options": [
+        "entre pays et à l’intérieur des pays",
+        "seulement en Europe",
+        "nulle part"
+      ],
+      "reponse": "entre pays et à l’intérieur des pays",
+      "explication": "Elles se voient à plusieurs échelles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 2 : Les inégalités dans le monde (1 ou 2 périodes au choix)",
+      "appui": "Les inégalités dans le monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

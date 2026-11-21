@@ -1,0 +1,124 @@
+{
+  "competence": "ST-C3-CM1-CORPS-01",
+  "duree": 6,
+  "essentiel": "Le cerveau est un organe protégé par le crâne.\nIl reçoit les informations des sens, commande les mouvements, permet de parler, de mémoriser et de ressentir des émotions.\nPour bien apprendre : se concentrer sur une tâche, répéter souvent, et bien dormir.",
+  "parties": [
+    {
+      "titre": "Ce que fait le cerveau",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les grandes fonctions",
+          "colonnes": [
+            "Fonction",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "percevoir",
+              "voir, entendre, sentir"
+            ],
+            [
+              "commander",
+              "bouger la main"
+            ],
+            [
+              "parler",
+              "trouver ses mots"
+            ],
+            [
+              "mémoriser",
+              "retenir une poésie"
+            ],
+            [
+              "ressentir",
+              "la joie, la peur"
+            ],
+            [
+              "rêver",
+              "pendant le sommeil"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les illusions d’optique montrent que le cerveau interprète ce que voient nos yeux : il peut se tromper."
+        },
+        {
+          "type": "question",
+          "consigne": "Où se trouve le cerveau ?",
+          "options": [
+            "dans le crâne",
+            "dans le ventre",
+            "dans la poitrine"
+          ],
+          "reponse": "dans le crâne",
+          "explication": "Le crâne le protège."
+        }
+      ]
+    },
+    {
+      "titre": "Mieux apprendre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour mémoriser une leçon",
+          "etapes": [
+            "Éloigne les écrans et les bruits.",
+            "Lis, puis cache et redis avec tes mots.",
+            "Recommence le lendemain, puis quelques jours plus tard.",
+            "Dors bien : le sommeil range les souvenirs."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on apprend mieux en faisant deux choses à la fois.",
+          "correction": "L’attention marche mieux sur une seule tâche."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand on révise plusieurs fois, espacé dans le temps :",
+      "options": [
+        "on retient mieux",
+        "on oublie plus vite",
+        "ça ne change rien"
+      ],
+      "reponse": "on retient mieux",
+      "explication": "La mémoire se renforce."
+    },
+    {
+      "consigne": "Une illusion d’optique montre que :",
+      "options": [
+        "le cerveau interprète ce qu’on voit",
+        "les yeux sont malades",
+        "la lumière ment"
+      ],
+      "reponse": "le cerveau interprète ce qu’on voit",
+      "explication": "Il peut se tromper."
+    },
+    {
+      "consigne": "Quelle fonction n’est pas commandée par le cerveau ?",
+      "options": [
+        "aucune de ces fonctions",
+        "parler",
+        "bouger"
+      ],
+      "reponse": "aucune de ces fonctions",
+      "explication": "Il commande toutes ces fonctions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 29,
+      "extrait": "Localiser le cerveau et l’identifier comme un organe",
+      "appui": "Le cerveau"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

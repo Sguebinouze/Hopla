@@ -1,0 +1,98 @@
+{
+  "competence": "ST-C3-CM1-ECO-01",
+  "duree": 7,
+  "essentiel": "Un écosystème, c’est un milieu de vie, les êtres vivants qui l’habitent et leurs relations.\nUn réseau alimentaire relie qui mange qui ; la flèche va du mangé vers le mangeur.\nSi une espèce disparait ou se multiplie, tout le réseau est touché.",
+  "parties": [
+    {
+      "titre": "Le réseau alimentaire",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Biodiversité",
+              "definition": "Diversité des êtres vivants et des milieux où ils vivent."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Dans une mare.",
+          "exemples": [
+            "algues → têtard → libellule",
+            "algues → escargot → poisson",
+            "libellule → grenouille → héron"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On met la flèche du mangeur vers le mangé.",
+          "correction": "La flèche suit la matière : du mangé vers le mangeur."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « algues → escargot », qui mange qui ?",
+          "options": [
+            "l’escargot mange les algues",
+            "les algues mangent l’escargot",
+            "personne"
+          ],
+          "reponse": "l’escargot mange les algues",
+          "explication": "La flèche va vers le mangeur."
+        }
+      ]
+    },
+    {
+      "titre": "Les actions humaines",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La surpêche fait disparaitre des poissons : leurs prédateurs manquent de nourriture. Une espèce invasive, comme le frelon asiatique, mange des abeilles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un écosystème comprend :",
+      "options": [
+        "un milieu, des êtres vivants et leurs relations",
+        "seulement des animaux",
+        "seulement des plantes"
+      ],
+      "reponse": "un milieu, des êtres vivants et leurs relations",
+      "explication": "Les trois ensemble."
+    },
+    {
+      "consigne": "Si les poissons d’un lac disparaissent, le héron :",
+      "options": [
+        "manque de nourriture",
+        "n’est pas touché",
+        "mange des pierres"
+      ],
+      "reponse": "manque de nourriture",
+      "explication": "Tout le réseau est relié."
+    },
+    {
+      "consigne": "Au début d’un réseau alimentaire, on trouve :",
+      "options": [
+        "des végétaux",
+        "des prédateurs",
+        "des humains"
+      ],
+      "reponse": "des végétaux",
+      "explication": "Ils produisent leur propre matière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 26,
+      "extrait": "Définir un écosystème comme un ensemble d’êtres vivants,",
+      "appui": "Écosystèmes et réseaux alimentaires"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

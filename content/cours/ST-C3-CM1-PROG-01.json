@@ -1,0 +1,95 @@
+{
+  "competence": "ST-C3-CM1-PROG-01",
+  "duree": 6,
+  "essentiel": "Un programme est une suite d’instructions, exécutées dans l’ordre.\nUne boucle répète des instructions : « répéter 4 fois ».\nTraduire un programme en langage naturel, c’est dire avec des mots ce qu’il fait.",
+  "parties": [
+    {
+      "titre": "Lire un programme",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Programme : « Quand le drapeau est cliqué, répéter 4 fois : avancer de 50 pas, tourner de 90° à droite. »",
+          "etapes": [
+            "Le personnage avance, puis tourne d’un quart de tour.",
+            "Il le fait 4 fois : il revient à son point de départ."
+          ],
+          "conclusion": "Il trace un carré."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de fois s’exécute « avancer » dans ce programme ?",
+          "options": [
+            "4 fois",
+            "1 fois",
+            "50 fois"
+          ],
+          "reponse": "4 fois",
+          "explication": "La boucle répète 4 fois."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire un programme",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour programmer un déplacement",
+          "etapes": [
+            "Décris le trajet avec des mots.",
+            "Découpe-le en actions simples.",
+            "Repère ce qui se répète : c’est une boucle.",
+            "Teste, puis corrige."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’ordre des instructions n’a pas d’importance.",
+          "correction": "Tourner puis avancer ne donne pas le même trajet qu’avancer puis tourner."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une boucle sert à :",
+      "options": [
+        "répéter des instructions",
+        "arrêter le programme",
+        "changer de couleur"
+      ],
+      "reponse": "répéter des instructions",
+      "explication": "Répéter 4 fois, répéter jusqu’à…"
+    },
+    {
+      "consigne": "Pour tracer un triangle équilatéral, on répète 3 fois avancer et tourner de :",
+      "options": [
+        "120°",
+        "90°",
+        "60°"
+      ],
+      "reponse": "120°",
+      "explication": "3 × 120° = 360° : un tour complet."
+    },
+    {
+      "consigne": "Un programme s’exécute :",
+      "options": [
+        "dans l’ordre des instructions",
+        "au hasard",
+        "à l’envers"
+      ],
+      "reponse": "dans l’ordre des instructions",
+      "explication": "Une instruction après l’autre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 32,
+      "extrait": "Traduire un programme simple en langage naturel.",
+      "appui": "Programmer un objet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

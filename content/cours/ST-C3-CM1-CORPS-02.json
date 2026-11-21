@@ -1,0 +1,106 @@
+{
+  "competence": "ST-C3-CM1-CORPS-02",
+  "duree": 5,
+  "essentiel": "La puberté est la période où le corps de l’enfant devient progressivement celui d’un adulte.\nLa taille et la masse augmentent vite, des poils apparaissent, les seins se développent, les hanches s’élargissent.\nElle ne commence pas au même âge pour tous : ces différences sont normales.",
+  "parties": [
+    {
+      "titre": "Les changements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À la puberté",
+          "colonnes": [
+            "Changement",
+            "Chez qui ?"
+          ],
+          "lignes": [
+            [
+              "taille et masse augmentent vite",
+              "filles et garçons"
+            ],
+            [
+              "poils sous les bras et au pubis",
+              "filles et garçons"
+            ],
+            [
+              "seins qui se développent, hanches qui s’élargissent",
+              "surtout les filles"
+            ],
+            [
+              "organes génitaux qui se développent",
+              "filles et garçons"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant la puberté, la taille :",
+          "options": [
+            "augmente vite",
+            "diminue",
+            "ne change pas"
+          ],
+          "reponse": "augmente vite",
+          "explication": "Les courbes de croissance montrent une forte hausse."
+        }
+      ]
+    },
+    {
+      "titre": "Chacun son rythme",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La puberté commence le plus souvent entre 8 et 14 ans. Certains changent tôt, d’autres plus tard."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un enfant qui change plus tard est anormal.",
+          "correction": "Chacun a son rythme. On respecte le corps des autres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La puberté commence :",
+      "options": [
+        "à des âges différents",
+        "le même jour pour tous",
+        "à 18 ans"
+      ],
+      "reponse": "à des âges différents",
+      "explication": "Chacun a son rythme."
+    },
+    {
+      "consigne": "Ces changements sont :",
+      "options": [
+        "normaux",
+        "des maladies",
+        "rares"
+      ],
+      "reponse": "normaux",
+      "explication": "Tout le monde passe par la puberté."
+    },
+    {
+      "consigne": "Face aux changements des autres, on :",
+      "options": [
+        "les respecte",
+        "se moque",
+        "les montre du doigt"
+      ],
+      "reponse": "les respecte",
+      "explication": "Le respect du corps de chacun."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 30,
+      "extrait": "Décrire et identifier les changements morphologiques du",
+      "appui": "La puberté"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,116 @@
+{
+  "competence": "ST-C3-CM1-MVT-01",
+  "duree": 5,
+  "essentiel": "Pour décrire un déplacement, on mesure la distance parcourue et la durée.\nLa distance se mesure avec un mètre ou un décamètre, en mètres ou en kilomètres.\nLa durée se mesure avec un chronomètre, entre l’instant de départ et l’instant d’arrivée.",
+  "parties": [
+    {
+      "titre": "Mesurer",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Distance",
+              "definition": "Longueur du segment qui joint deux points."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Instruments et unités",
+          "colonnes": [
+            "Grandeur",
+            "Instrument",
+            "Unités"
+          ],
+          "lignes": [
+            [
+              "distance",
+              "mètre, décamètre",
+              "m, km"
+            ],
+            [
+              "durée",
+              "chronomètre",
+              "s, min"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour mesurer la durée d’une course, on utilise :",
+          "options": [
+            "un chronomètre",
+            "une balance",
+            "un thermomètre"
+          ],
+          "reponse": "un chronomètre",
+          "explication": "Il mesure le temps écoulé."
+        }
+      ]
+    },
+    {
+      "titre": "Une expérience",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Mesurer le trajet d’une petite voiture",
+          "etapes": [
+            "Marque le point de départ et le point d’arrivée.",
+            "Mesure la distance entre les deux.",
+            "Chronomètre le trajet.",
+            "Recommence pour vérifier ta mesure."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On fait une seule mesure et on la croit exacte.",
+          "correction": "On répète la mesure : les résultats varient un peu."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une distance s’exprime en :",
+      "options": [
+        "mètres",
+        "secondes",
+        "grammes"
+      ],
+      "reponse": "mètres",
+      "explication": "C’est une longueur."
+    },
+    {
+      "consigne": "Une durée se mesure entre :",
+      "options": [
+        "deux instants",
+        "deux points",
+        "deux masses"
+      ],
+      "reponse": "deux instants",
+      "explication": "Le départ et l’arrivée."
+    },
+    {
+      "consigne": "Pourquoi répéter une mesure ?",
+      "options": [
+        "pour vérifier le résultat",
+        "pour perdre du temps",
+        "pour changer d’unité"
+      ],
+      "reponse": "pour vérifier le résultat",
+      "explication": "Une mesure peut varier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 19,
+      "extrait": "Mesurer une distance lors du déplacement d’un objet.",
+      "appui": "Mesurer distances et durées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

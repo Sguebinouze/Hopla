@@ -1,0 +1,108 @@
+{
+  "competence": "HG-C3-CM1-GEO-01",
+  "duree": 6,
+  "essentiel": "On ne mange pas de la même façon partout : la ration est très riche dans certains pays, insuffisante ailleurs.\nUn produit agricole sort de la ferme ; un produit transformé passe par une usine.\nDe la ferme au magasin, un aliment suit une chaine de production.",
+  "parties": [
+    {
+      "titre": "Des différences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Se nourrir dans le monde",
+          "colonnes": [
+            "Situation",
+            "Exemples de pays"
+          ],
+          "lignes": [
+            [
+              "ration très riche",
+              "États-Unis, France"
+            ],
+            [
+              "ration insuffisante",
+              "Haïti, Madagascar"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La sous-nutrition, c’est ne pas manger assez. La malnutrition, c’est manger mal : trop peu ou trop, sans équilibre."
+        },
+        {
+          "type": "question",
+          "consigne": "Ne pas manger assez, c’est :",
+          "options": [
+            "la sous-nutrition",
+            "la suralimentation",
+            "un régime"
+          ],
+          "reponse": "la sous-nutrition",
+          "explication": "Le corps manque d’énergie."
+        }
+      ]
+    },
+    {
+      "titre": "La chaine d’un yaourt",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Du lait au yaourt",
+          "etapes": [
+            "À la ferme, on trait les vaches : le lait est un produit agricole.",
+            "À l’usine, on ajoute des ferments : le yaourt est un produit transformé.",
+            "Des camions frigorifiques le transportent.",
+            "Le magasin le vend."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un aliment acheté au magasin est forcément transformé.",
+          "correction": "Une pomme ou une carotte restent des produits agricoles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Lequel est un produit transformé ?",
+      "options": [
+        "un biscuit",
+        "une pomme",
+        "un œuf frais"
+      ],
+      "reponse": "un biscuit",
+      "explication": "Il est fabriqué en usine."
+    },
+    {
+      "consigne": "Le lait sorti de la ferme est :",
+      "options": [
+        "un produit agricole",
+        "un produit transformé",
+        "un produit minéral"
+      ],
+      "reponse": "un produit agricole",
+      "explication": "Il n’a pas encore été transformé."
+    },
+    {
+      "consigne": "La malnutrition, c’est :",
+      "options": [
+        "une alimentation déséquilibrée",
+        "un repas de fête",
+        "une recette"
+      ],
+      "reponse": "une alimentation déséquilibrée",
+      "explication": "Trop peu ou trop, sans équilibre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 1 : Se nourrir (1 ou 2 périodes au choix)",
+      "appui": "Se nourrir dans le monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

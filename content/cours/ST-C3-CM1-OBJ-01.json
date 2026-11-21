@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM1-OBJ-01",
+  "duree": 6,
+  "essentiel": "Un objet technique est fait de composants qui assurent chacun une fonction.\nDans une lampe torche : la pile fournit l’énergie, l’interrupteur commande, la LED éclaire, le boitier protège.\nUn croquis légendé montre ces composants et leur rôle.",
+  "parties": [
+    {
+      "titre": "Composants et fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La lampe torche",
+          "colonnes": [
+            "Composant",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "pile",
+              "fournir l’énergie"
+            ],
+            [
+              "interrupteur",
+              "allumer et éteindre"
+            ],
+            [
+              "LED",
+              "produire la lumière"
+            ],
+            [
+              "réflecteur",
+              "diriger la lumière"
+            ],
+            [
+              "boitier",
+              "protéger et tenir en main"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans la lampe torche, qui fournit l’énergie ?",
+          "options": [
+            "la pile",
+            "le boitier",
+            "le réflecteur"
+          ],
+          "reponse": "la pile",
+          "explication": "Sans pile, rien ne s’allume."
+        }
+      ]
+    },
+    {
+      "titre": "Le croquis",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour faire un croquis",
+          "etapes": [
+            "Dessine l’objet simplement, au crayon.",
+            "Trace un trait vers chaque composant.",
+            "Écris son nom et sa fonction."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dessine tous les détails, comme une photo.",
+          "correction": "Un croquis est simple : il montre seulement ce qui sert à comprendre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’interrupteur sert à :",
+      "options": [
+        "allumer et éteindre",
+        "protéger",
+        "produire la lumière"
+      ],
+      "reponse": "allumer et éteindre",
+      "explication": "Il ouvre ou ferme le circuit."
+    },
+    {
+      "consigne": "Un croquis légendé indique :",
+      "options": [
+        "les composants et leur rôle",
+        "le prix de l’objet",
+        "la couleur exacte"
+      ],
+      "reponse": "les composants et leur rôle",
+      "explication": "C’est un dessin qui explique."
+    },
+    {
+      "consigne": "Sur un vélo, quelle partie sert à freiner ?",
+      "options": [
+        "les freins",
+        "la selle",
+        "la sonnette"
+      ],
+      "reponse": "les freins",
+      "explication": "Chaque composant a une fonction."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 32,
+      "extrait": "Identifier les fonctions assurées par les différents",
+      "appui": "Fonctionnement d’un objet technique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

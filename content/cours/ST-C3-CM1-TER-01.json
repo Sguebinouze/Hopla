@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-CM1-TER-01",
+  "duree": 6,
+  "essentiel": "Le thermomètre mesure la température en degrés Celsius (°C).\nLe pluviomètre mesure la pluie en millimètres (mm) ; l’anémomètre mesure la vitesse du vent.\nOn note les mesures chaque jour dans un tableau, puis on les représente par un graphique.",
+  "parties": [
+    {
+      "titre": "Des capteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les instruments de la station météo",
+          "colonnes": [
+            "Instrument",
+            "Il mesure",
+            "Unité"
+          ],
+          "lignes": [
+            [
+              "thermomètre",
+              "la température",
+              "°C"
+            ],
+            [
+              "pluviomètre",
+              "la quantité de pluie",
+              "mm"
+            ],
+            [
+              "anémomètre",
+              "la vitesse du vent",
+              "km/h"
+            ],
+            [
+              "girouette",
+              "la direction du vent",
+              "nord, sud, est, ouest"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour mesurer la pluie, on utilise :",
+          "options": [
+            "un pluviomètre",
+            "un anémomètre",
+            "une girouette"
+          ],
+          "reponse": "un pluviomètre",
+          "explication": "Il recueille l’eau de pluie."
+        }
+      ]
+    },
+    {
+      "titre": "Suivre les variations",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "1 mm de pluie, c’est 1 litre d’eau tombé sur 1 mètre carré."
+        },
+        {
+          "type": "piege",
+          "erreur": "On mesure la température en plein soleil.",
+          "correction": "On la mesure à l’ombre, toujours au même endroit et à la même heure."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La vitesse du vent se mesure avec :",
+      "options": [
+        "un anémomètre",
+        "un thermomètre",
+        "un pluviomètre"
+      ],
+      "reponse": "un anémomètre",
+      "explication": "Ses coupelles tournent avec le vent."
+    },
+    {
+      "consigne": "La pluie se mesure en :",
+      "options": [
+        "millimètres",
+        "degrés",
+        "kilogrammes"
+      ],
+      "reponse": "millimètres",
+      "explication": "Hauteur d’eau tombée."
+    },
+    {
+      "consigne": "Pour comparer les températures d’une semaine, on fait :",
+      "options": [
+        "un graphique",
+        "une recette",
+        "une carte de France"
+      ],
+      "reponse": "un graphique",
+      "explication": "Il montre l’évolution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 26,
+      "extrait": "Réaliser et exploiter des mesures météorologiques en",
+      "appui": "Mesures météorologiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

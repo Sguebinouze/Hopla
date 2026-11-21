@@ -1,0 +1,115 @@
+{
+  "competence": "ST-C3-CM1-VIV-01",
+  "duree": 7,
+  "essentiel": "Une espèce regroupe des êtres vivants qui peuvent se reproduire ensemble et avoir des petits eux-mêmes féconds.\nOn classe les êtres vivants en groupes emboités, selon les attributs qu’ils possèdent.\nUne clé de détermination aide à identifier une espèce par une suite de questions.",
+  "parties": [
+    {
+      "titre": "Classer selon ce qu’ils ont",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quatre animaux, leurs attributs",
+          "colonnes": [
+            "Attribut",
+            "Qui le possède ?"
+          ],
+          "lignes": [
+            [
+              "squelette interne",
+              "chat, poule, truite"
+            ],
+            [
+              "quatre membres",
+              "chat, poule"
+            ],
+            [
+              "poils",
+              "chat"
+            ],
+            [
+              "plumes",
+              "poule"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les groupes s’emboitent : chat et poule ont quatre membres ; avec la truite, ils ont tous un squelette interne. L’escargot n’en a pas."
+        },
+        {
+          "type": "question",
+          "consigne": "Qui est le plus proche du chat ?",
+          "options": [
+            "la poule",
+            "la truite",
+            "l’escargot"
+          ],
+          "reponse": "la poule",
+          "explication": "Ils partagent le plus d’attributs."
+        }
+      ]
+    },
+    {
+      "titre": "La clé de détermination",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Utiliser une clé",
+          "etapes": [
+            "Lis la première question : a-t-il des plumes ?",
+            "Suis la flèche oui ou non.",
+            "Continue jusqu’au nom de l’espèce."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On classe selon ce que l’animal n’a pas, ou selon son lieu de vie.",
+          "correction": "On classe selon les attributs qu’il possède : la baleine a des poils et allaite, comme le chat."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une espèce regroupe des individus qui :",
+      "options": [
+        "peuvent se reproduire ensemble",
+        "vivent au même endroit",
+        "ont la même couleur"
+      ],
+      "reponse": "peuvent se reproduire ensemble",
+      "explication": "Et leurs petits sont féconds."
+    },
+    {
+      "consigne": "Le chat et la poule ont tous les deux :",
+      "options": [
+        "quatre membres et un squelette interne",
+        "des plumes",
+        "des poils"
+      ],
+      "reponse": "quatre membres et un squelette interne",
+      "explication": "Ils sont dans les mêmes groupes emboités."
+    },
+    {
+      "consigne": "Une clé de détermination sert à :",
+      "options": [
+        "identifier une espèce",
+        "ouvrir une porte",
+        "mesurer un animal"
+      ],
+      "reponse": "identifier une espèce",
+      "explication": "Par une suite de questions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 24,
+      "extrait": "Définir une espèce comme un ensemble d’individus",
+      "appui": "Classer les êtres vivants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

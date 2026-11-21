@@ -1,0 +1,125 @@
+{
+  "competence": "ST-C3-CM1-VIV-02",
+  "duree": 7,
+  "essentiel": "Chez les animaux, la vie commence par une fécondation, interne ou externe.\nLes ovipares pondent des œufs : l’embryon s’y développe. Les vivipares portent le petit dans leur ventre.\nUne fécondation externe donne toujours des ovipares ; une fécondation interne, des ovipares ou des vivipares.",
+  "parties": [
+    {
+      "titre": "Fécondation interne ou externe",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Fécondation",
+              "definition": "Rencontre et fusion d’une cellule reproductrice mâle et d’une cellule reproductrice femelle."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Animal",
+            "Fécondation",
+            "Reproduction"
+          ],
+          "lignes": [
+            [
+              "grenouille",
+              "externe, dans l’eau",
+              "ovipare"
+            ],
+            [
+              "truite",
+              "externe, dans l’eau",
+              "ovipare"
+            ],
+            [
+              "poule",
+              "interne",
+              "ovipare"
+            ],
+            [
+              "chatte",
+              "interne",
+              "vivipare"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La poule pond des œufs : elle est :",
+          "options": [
+            "ovipare",
+            "vivipare",
+            "végétale"
+          ],
+          "reponse": "ovipare",
+          "explication": "L’embryon se développe dans l’œuf."
+        }
+      ]
+    },
+    {
+      "titre": "Les étapes du développement",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "De la fécondation à la naissance",
+          "etapes": [
+            "Fécondation : un embryon commence à se former.",
+            "Développement de l’embryon, dans l’œuf ou dans le ventre de la mère.",
+            "Éclosion ou naissance du petit ou de la larve."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les animaux à fécondation interne sont vivipares.",
+          "correction": "La poule a une fécondation interne, mais elle pond des œufs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un animal qui porte son petit dans son ventre est :",
+      "options": [
+        "vivipare",
+        "ovipare",
+        "carnivore"
+      ],
+      "reponse": "vivipare",
+      "explication": "Comme les mammifères."
+    },
+    {
+      "consigne": "Chez la grenouille, la fécondation est :",
+      "options": [
+        "externe",
+        "interne",
+        "absente"
+      ],
+      "reponse": "externe",
+      "explication": "Elle a lieu dans l’eau."
+    },
+    {
+      "consigne": "Que sort-il de l’œuf de grenouille ?",
+      "options": [
+        "un têtard",
+        "une grenouille adulte",
+        "un poisson"
+      ],
+      "reponse": "un têtard",
+      "explication": "C’est une larve."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 26,
+      "extrait": "Mettre en relation le type de fécondation (interne ou",
+      "appui": "Ovipares et vivipares"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,121 @@
+{
+  "competence": "ST-C3-CM1-SIG-01",
+  "duree": 7,
+  "essentiel": "Un matériau transparent laisse passer la lumière, un translucide la laisse passer en partie, un opaque l’arrête.\nUn objet opaque éclairé a une ombre propre, sur sa partie non éclairée. Il projette une ombre portée sur un écran.\nL’ombre portée est toujours à l’opposé de la source de lumière.",
+  "parties": [
+    {
+      "titre": "Laisser passer la lumière",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Signal",
+              "definition": "Phénomène qui transporte une information : lumière, son, onde radio."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Trier les matériaux",
+          "colonnes": [
+            "Transparent",
+            "Translucide",
+            "Opaque"
+          ],
+          "lignes": [
+            [
+              "vitre",
+              "papier calque",
+              "carton"
+            ],
+            [
+              "eau claire",
+              "verre dépoli",
+              "bois"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le papier calque est :",
+          "options": [
+            "translucide",
+            "opaque",
+            "transparent"
+          ],
+          "reponse": "translucide",
+          "explication": "La lumière passe, mais on ne voit pas net au travers."
+        }
+      ]
+    },
+    {
+      "titre": "Les ombres",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Plus l’objet est proche de la lampe, plus son ombre portée est grande."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’ombre est du côté de la lampe.",
+          "correction": "L’ombre portée est à l’opposé de la source, derrière l’objet."
+        },
+        {
+          "type": "question",
+          "consigne": "Le matin, le Soleil est à l’est. L’ombre d’un arbre est vers :",
+          "options": [
+            "l’ouest",
+            "l’est",
+            "le Soleil"
+          ],
+          "reponse": "l’ouest",
+          "explication": "Elle est à l’opposé de la source."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un matériau qui arrête la lumière est :",
+      "options": [
+        "opaque",
+        "transparent",
+        "translucide"
+      ],
+      "reponse": "opaque",
+      "explication": "Il fait de l’ombre."
+    },
+    {
+      "consigne": "La partie non éclairée de l’objet est :",
+      "options": [
+        "l’ombre propre",
+        "l’ombre portée",
+        "la source"
+      ],
+      "reponse": "l’ombre propre",
+      "explication": "Elle est sur l’objet lui-même."
+    },
+    {
+      "consigne": "Pour agrandir l’ombre portée, on approche l’objet :",
+      "options": [
+        "de la lampe",
+        "de l’écran",
+        "du sol"
+      ],
+      "reponse": "de la lampe",
+      "explication": "Plus près de la source, ombre plus grande."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 20,
+      "extrait": "Produire expérimentalement une ombre (déficit de lumière",
+      "appui": "Lumière et ombres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

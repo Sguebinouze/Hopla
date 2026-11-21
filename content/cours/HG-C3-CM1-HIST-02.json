@@ -1,0 +1,145 @@
+{
+  "competence": "HG-C3-CM1-HIST-02",
+  "duree": 8,
+  "essentiel": "François Ier (1515-1547) est un roi mécène : il accueille Léonard de Vinci et diffuse la Renaissance.\nHenri IV (1589-1610) ramène la paix entre catholiques et protestants avec l’édit de Nantes (1598).\nLouis XIV (1643-1715) gouverne seul : Versailles montre son pouvoir absolu.",
+  "parties": [
+    {
+      "titre": "Trois rois",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1515,
+              "date": "1515",
+              "evenement": "François Ier devient roi."
+            },
+            {
+              "annee": 1598,
+              "date": "1598",
+              "evenement": "Édit de Nantes signé par Henri IV."
+            },
+            {
+              "annee": 1643,
+              "date": "1643",
+              "evenement": "Début du règne de Louis XIV."
+            },
+            {
+              "annee": 1715,
+              "date": "1715",
+              "evenement": "Mort de Louis XIV."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comment chacun incarne le pouvoir",
+          "colonnes": [
+            "Roi",
+            "Ce qu’il fait"
+          ],
+          "lignes": [
+            [
+              "François Ier",
+              "protège les artistes, comme Léonard de Vinci, mort en France en 1519"
+            ],
+            [
+              "Henri IV",
+              "met fin aux guerres de religion"
+            ],
+            [
+              "Louis XIV",
+              "gouverne seul, depuis le château de Versailles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel roi signe l’édit de Nantes ?",
+          "options": [
+            "Henri IV",
+            "Louis XIV",
+            "François Ier"
+          ],
+          "reponse": "Henri IV",
+          "explication": "En 1598, pour apaiser catholiques et protestants."
+        }
+      ]
+    },
+    {
+      "titre": "La société d’ordres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois ordres",
+          "colonnes": [
+            "Ordre",
+            "Qui ?"
+          ],
+          "lignes": [
+            [
+              "clergé",
+              "les hommes et femmes d’Église"
+            ],
+            [
+              "noblesse",
+              "les nobles, qui ont des privilèges"
+            ],
+            [
+              "tiers état",
+              "tous les autres, surtout des paysans"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le tiers état est le plus petit ordre.",
+          "correction": "C’est l’immense majorité de la population."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un mécène est quelqu’un qui :",
+      "options": [
+        "aide et protège des artistes",
+        "fait la guerre",
+        "collecte les impôts"
+      ],
+      "reponse": "aide et protège des artistes",
+      "explication": "Comme François Ier avec Léonard de Vinci."
+    },
+    {
+      "consigne": "Le château de Versailles montre :",
+      "options": [
+        "le pouvoir absolu du roi",
+        "la puissance de l’Église",
+        "la vie des paysans"
+      ],
+      "reponse": "le pouvoir absolu du roi",
+      "explication": "Louis XIV y vit avec sa Cour."
+    },
+    {
+      "consigne": "Les paysans appartiennent :",
+      "options": [
+        "au tiers état",
+        "à la noblesse",
+        "au clergé"
+      ],
+      "reponse": "au tiers état",
+      "explication": "Le tiers état regroupe la majorité."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 2 : La monarchie en France (XVIe – XVIIe siècles) (deuxième et troisième périodes)",
+      "appui": "La monarchie en France"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

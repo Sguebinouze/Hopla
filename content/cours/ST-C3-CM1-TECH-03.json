@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C3-CM1-TECH-03",
+  "duree": 5,
+  "essentiel": "Un objet technique évolue avec les époques, les lieux et les besoins.\nLe train est passé de la locomotive à vapeur aux trains électriques et au TGV.\nLes vêtements sont passés des peaux de bêtes à la laine, au coton, puis aux fibres synthétiques.",
+  "parties": [
+    {
+      "titre": "L’évolution du train",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du XIXe siècle à aujourd’hui",
+          "colonnes": [
+            "Époque",
+            "Train",
+            "Énergie"
+          ],
+          "lignes": [
+            [
+              "XIXe siècle",
+              "locomotive à vapeur",
+              "charbon"
+            ],
+            [
+              "XXe siècle",
+              "locomotive diesel ou électrique",
+              "gazole, électricité"
+            ],
+            [
+              "depuis 1981",
+              "TGV",
+              "électricité"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La première énergie des trains était :",
+          "options": [
+            "le charbon",
+            "l’électricité",
+            "le vent"
+          ],
+          "reponse": "le charbon",
+          "explication": "Il chauffait l’eau de la machine à vapeur."
+        }
+      ]
+    },
+    {
+      "titre": "L’évolution des textiles",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des matières pour s’habiller.",
+          "exemples": [
+            "Préhistoire : peaux de bêtes.",
+            "Puis laine et lin, tissés.",
+            "Coton, puis fibres synthétiques au XXe siècle."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un objet nouveau remplace partout l’ancien.",
+          "correction": "Selon les lieux et les besoins, plusieurs versions existent en même temps."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le TGV fonctionne à :",
+      "options": [
+        "l’électricité",
+        "la vapeur",
+        "la voile"
+      ],
+      "reponse": "l’électricité",
+      "explication": "Il prend le courant par la caténaire."
+    },
+    {
+      "consigne": "Les premiers vêtements étaient en :",
+      "options": [
+        "peaux de bêtes",
+        "nylon",
+        "coton synthétique"
+      ],
+      "reponse": "peaux de bêtes",
+      "explication": "À la Préhistoire."
+    },
+    {
+      "consigne": "Un objet évolue pour :",
+      "options": [
+        "répondre à de nouveaux besoins",
+        "changer de nom",
+        "rester identique"
+      ],
+      "reponse": "répondre à de nouveaux besoins",
+      "explication": "Nouvelles exigences, nouvelles technologies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 32,
+      "extrait": "Repérer les évolutions d’un objet dans différents contextes",
+      "appui": "Évolution d’un objet technique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

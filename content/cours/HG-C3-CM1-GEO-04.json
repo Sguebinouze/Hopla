@@ -1,0 +1,102 @@
+{
+  "competence": "HG-C3-CM1-GEO-04",
+  "duree": 5,
+  "essentiel": "Internet relie des ordinateurs du monde entier.\nLes données voyagent surtout par des câbles, sous les océans et sur les continents, et aussi par satellite.\nL’accès à Internet est inégal : très bon en Europe ou en Amérique du Nord, faible dans une partie de l’Afrique.",
+  "parties": [
+    {
+      "titre": "Comment ça marche ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Ton message part de ta box et rejoint de grands câbles. Il traverse parfois l’océan par un câble sous-marin."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’Internet passe surtout par les satellites.",
+          "correction": "La plupart des données passent par des câbles sous-marins."
+        },
+        {
+          "type": "question",
+          "consigne": "Entre l’Europe et l’Amérique, les données passent surtout par :",
+          "options": [
+            "des câbles sous-marins",
+            "des pigeons",
+            "des avions"
+          ],
+          "reponse": "des câbles sous-marins",
+          "explication": "Des câbles posés au fond de l’Atlantique."
+        }
+      ]
+    },
+    {
+      "titre": "Un accès inégal",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accès à Internet",
+          "colonnes": [
+            "Aire régionale",
+            "Accès"
+          ],
+          "lignes": [
+            [
+              "Europe, Amérique du Nord",
+              "très bien reliées"
+            ],
+            [
+              "Afrique subsaharienne",
+              "faiblement reliée"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "En France aussi, la 5G arrive d’abord dans les villes, plus tard dans les campagnes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Internet repose sur :",
+      "options": [
+        "des câbles et des satellites",
+        "des fils de laine",
+        "la radio seulement"
+      ],
+      "reponse": "des câbles et des satellites",
+      "explication": "Un réseau mondial."
+    },
+    {
+      "consigne": "Une aire faiblement reliée à Internet :",
+      "options": [
+        "une partie de l’Afrique subsaharienne",
+        "l’Europe",
+        "l’Amérique du Nord"
+      ],
+      "reponse": "une partie de l’Afrique subsaharienne",
+      "explication": "Les câbles et les antennes y sont moins nombreux."
+    },
+    {
+      "consigne": "En France, la 5G est d’abord installée :",
+      "options": [
+        "dans les villes",
+        "en haute montagne",
+        "en mer"
+      ],
+      "reponse": "dans les villes",
+      "explication": "Là où vivent beaucoup d’habitants."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 4 : Communiquer dans le monde avec Internet (1 période)",
+      "appui": "Communiquer avec Internet"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

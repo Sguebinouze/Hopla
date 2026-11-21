@@ -1,0 +1,137 @@
+{
+  "competence": "HG-C3-CM1-HIST-05",
+  "duree": 7,
+  "essentiel": "Les philosophes des Lumières défendent la liberté, l’égalité et la raison.\nEn 1789, la société d’ordres disparait : tous sont égaux devant la loi.\nLe pouvoir n’appartient plus au roi seul : il vient de la nation. C’est la souveraineté nationale.",
+  "parties": [
+    {
+      "titre": "Les idées des Lumières",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des philosophes",
+          "colonnes": [
+            "Philosophe",
+            "Une idée"
+          ],
+          "lignes": [
+            [
+              "Montesquieu",
+              "séparer les pouvoirs pour éviter qu’un seul décide de tout"
+            ],
+            [
+              "Voltaire",
+              "tolérer toutes les religions"
+            ],
+            [
+              "Rousseau",
+              "le peuple doit décider des lois"
+            ],
+            [
+              "Diderot",
+              "diffuser les savoirs dans l’Encyclopédie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Montesquieu propose de :",
+          "options": [
+            "séparer les pouvoirs",
+            "garder un roi absolu",
+            "supprimer les lois"
+          ],
+          "reponse": "séparer les pouvoirs",
+          "explication": "Personne ne doit avoir tous les pouvoirs."
+        }
+      ]
+    },
+    {
+      "titre": "De nouveaux principes",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Citoyen",
+              "definition": "Membre d’une cité ou d’un État qui participe à la vie politique."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La Déclaration du 26 aout 1789 commence ainsi : « Les hommes naissent et demeurent libres et égaux en droits. »"
+        },
+        {
+          "type": "tableau",
+          "titre": "Avant et après 1789",
+          "colonnes": [
+            "Ancien Régime",
+            "Après 1789"
+          ],
+          "lignes": [
+            [
+              "trois ordres, des privilèges",
+              "égalité devant la loi"
+            ],
+            [
+              "le roi décide seul",
+              "le pouvoir vient de la nation"
+            ],
+            [
+              "sujets du roi",
+              "citoyens"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous obtiennent les mêmes droits politiques dès 1789.",
+          "correction": "Les femmes et les plus pauvres n’ont pas encore le droit de vote."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La souveraineté nationale veut dire que le pouvoir vient :",
+      "options": [
+        "de la nation",
+        "du roi seul",
+        "de l’Église"
+      ],
+      "reponse": "de la nation",
+      "explication": "Les citoyens et leurs représentants décident."
+    },
+    {
+      "consigne": "Après 1789, devant la loi, tous sont :",
+      "options": [
+        "égaux",
+        "classés en trois ordres",
+        "privilégiés"
+      ],
+      "reponse": "égaux",
+      "explication": "Les privilèges sont abolis."
+    },
+    {
+      "consigne": "L’Encyclopédie est dirigée par :",
+      "options": [
+        "Diderot",
+        "Louis XIV",
+        "Colomb"
+      ],
+      "reponse": "Diderot",
+      "explication": "Elle rassemble les savoirs de l’époque."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 68,
+      "extrait": "1789, fin de la monarchie absolue et de l’Ancien Régime",
+      "appui": "Fin de l’Ancien Régime et nouveaux principes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

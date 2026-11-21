@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C3-CM1-HIST-04",
+  "duree": 7,
+  "essentiel": "En 1789, le royaume connait une crise : le pain est cher et l’État manque d’argent.\nAu printemps, les Français rédigent des cahiers de doléances et les États généraux se réunissent.\n14 juillet : prise de la Bastille. 4 aout : abolition des privilèges. 26 aout : Déclaration des droits.",
+  "parties": [
+    {
+      "titre": "Les évènements de 1789",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’année 1789",
+          "colonnes": [
+            "Date",
+            "Évènement"
+          ],
+          "lignes": [
+            [
+              "printemps",
+              "cahiers de doléances et réunion des États généraux"
+            ],
+            [
+              "14 juillet",
+              "prise de la Bastille"
+            ],
+            [
+              "nuit du 4 aout",
+              "abolition des privilèges"
+            ],
+            [
+              "26 aout",
+              "Déclaration des droits de l’homme et du citoyen"
+            ],
+            [
+              "5 et 6 octobre",
+              "marche des femmes sur Versailles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Que se passe-t-il le 14 juillet 1789 ?",
+          "options": [
+            "la prise de la Bastille",
+            "la mort de Louis XIV",
+            "l’édit de Nantes"
+          ],
+          "reponse": "la prise de la Bastille",
+          "explication": "C’est aujourd’hui la fête nationale."
+        }
+      ]
+    },
+    {
+      "titre": "Les femmes en 1789",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les 5 et 6 octobre, des Parisiennes marchent jusqu’à Versailles pour réclamer du pain. Elles ramènent le roi à Paris."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Révolution met fin à la royauté dès 1789.",
+          "correction": "En 1789, le roi reste en place, mais son pouvoir n’est plus absolu."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans les cahiers de doléances, les Français écrivent :",
+      "options": [
+        "leurs plaintes et leurs souhaits",
+        "des recettes",
+        "des poèmes"
+      ],
+      "reponse": "leurs plaintes et leurs souhaits",
+      "explication": "Ils sont rédigés avant les États généraux."
+    },
+    {
+      "consigne": "La nuit du 4 aout 1789, on abolit :",
+      "options": [
+        "les privilèges",
+        "la monarchie",
+        "l’Église"
+      ],
+      "reponse": "les privilèges",
+      "explication": "Les nobles et le clergé perdent leurs avantages."
+    },
+    {
+      "consigne": "Pourquoi les femmes marchent-elles sur Versailles ?",
+      "options": [
+        "pour réclamer du pain",
+        "pour une fête",
+        "pour visiter le château"
+      ],
+      "reponse": "pour réclamer du pain",
+      "explication": "Le pain est très cher."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 63,
+      "extrait": "Thème 4 : 1789, une année révolutionnaire en France (cinquième période)",
+      "appui": "1789, une année révolutionnaire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
