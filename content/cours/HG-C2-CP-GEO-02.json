@@ -1,0 +1,122 @@
+{
+  "competence": "HG-C2-CP-GEO-02",
+  "duree": 5,
+  "essentiel": "La Terre est couverte surtout d’océans.\nLes terres forment six continents.\nLa France est en Europe.",
+  "parties": [
+    {
+      "titre": "Continents et océans",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les six continents",
+          "colonnes": [
+            "Continent",
+            "Un pays"
+          ],
+          "lignes": [
+            [
+              "Afrique",
+              "Maroc"
+            ],
+            [
+              "Amérique",
+              "Brésil"
+            ],
+            [
+              "Antarctique",
+              "aucun pays"
+            ],
+            [
+              "Asie",
+              "Chine"
+            ],
+            [
+              "Europe",
+              "France"
+            ],
+            [
+              "Océanie",
+              "Australie"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Les trois plus grands océans sont le Pacifique, l’Atlantique et l’océan Indien."
+        },
+        {
+          "type": "question",
+          "consigne": "Sur quel continent est la France ?",
+          "options": [
+            "l’Europe",
+            "l’Asie",
+            "l’Afrique"
+          ],
+          "reponse": "l’Europe",
+          "explication": "La France est en Europe."
+        }
+      ]
+    },
+    {
+      "titre": "Globe et planisphère",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le globe est rond comme la Terre. Le planisphère est une carte plate du monde."
+        },
+        {
+          "type": "explique",
+          "texte": "Des territoires français sont aussi sur d’autres océans, comme La Réunion."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les océans sont séparés.",
+          "correction": "Ils se touchent tous. Le globe le montre bien."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel est le plus grand océan ?",
+      "options": [
+        "le Pacifique",
+        "l’Atlantique",
+        "l’océan Indien"
+      ],
+      "reponse": "le Pacifique",
+      "explication": "C’est le plus grand du monde."
+    },
+    {
+      "consigne": "Une carte plate du monde s’appelle :",
+      "options": [
+        "un planisphère",
+        "un globe",
+        "un plan"
+      ],
+      "reponse": "un planisphère",
+      "explication": "Le globe, lui, est rond."
+    },
+    {
+      "consigne": "Combien de continents ?",
+      "options": [
+        "6",
+        "3",
+        "12"
+      ],
+      "reponse": "6",
+      "explication": "Afrique, Amérique, Antarctique, Asie, Europe, Océanie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 55,
+      "extrait": "Thème 2 : Des représentations du monde (deux périodes)",
+      "appui": "Continents et océans"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

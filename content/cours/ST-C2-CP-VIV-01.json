@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C2-CP-VIV-01",
+  "duree": 5,
+  "essentiel": "Un être vivant se nourrit, grandit et meurt.\nUn caillou n’est pas vivant.\nLe miel et le nid sont fabriqués par des êtres vivants.",
+  "parties": [
+    {
+      "titre": "Trier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois groupes",
+          "colonnes": [
+            "Vivant",
+            "Non vivant",
+            "Fabriqué par un vivant"
+          ],
+          "lignes": [
+            [
+              "chat",
+              "caillou",
+              "miel"
+            ],
+            [
+              "arbre",
+              "eau",
+              "nid"
+            ],
+            [
+              "champignon",
+              "sable",
+              "toile d’araignée"
+            ]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour savoir si c’est vivant",
+          "etapes": [
+            "Est-ce que ça se nourrit ?",
+            "Est-ce que ça grandit ?",
+            "Est-ce que ça meurt ?"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le nid de l’oiseau est :",
+          "options": [
+            "fabriqué par un vivant",
+            "vivant",
+            "un caillou"
+          ],
+          "reponse": "fabriqué par un vivant",
+          "explication": "L’oiseau l’a construit."
+        }
+      ]
+    },
+    {
+      "titre": "Attention",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que tout ce qui bouge est vivant.",
+          "correction": "Le vent bouge, mais il n’est pas vivant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une fleur est :",
+      "options": [
+        "vivante",
+        "non vivante",
+        "fabriquée"
+      ],
+      "reponse": "vivante",
+      "explication": "Elle se nourrit et grandit."
+    },
+    {
+      "consigne": "Le miel est fabriqué par :",
+      "options": [
+        "les abeilles",
+        "les vaches",
+        "les arbres"
+      ],
+      "reponse": "les abeilles",
+      "explication": "Avec le nectar des fleurs."
+    },
+    {
+      "consigne": "Un caillou :",
+      "options": [
+        "n’est pas vivant",
+        "grandit",
+        "se nourrit"
+      ],
+      "reponse": "n’est pas vivant",
+      "explication": "Il ne nait pas et ne meurt pas."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "Unité et diversité du vivant",
+      "appui": "Vivant, non vivant"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,122 @@
+{
+  "competence": "HG-C2-CP-HIST-01",
+  "duree": 5,
+  "essentiel": "La Terre tourne sur elle-même.\nLe côté éclairé par le Soleil a le jour. L’autre a la nuit.\nIl y a quatre saisons : printemps, été, automne, hiver.",
+  "parties": [
+    {
+      "titre": "Le jour et la nuit",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans le noir, éclaire un globe avec une lampe.",
+          "exemples": [
+            "Un côté est éclairé : il y fait jour.",
+            "L’autre côté est sombre : il y fait nuit.",
+            "Fais tourner le globe : la nuit avance."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Soleil s’éteint la nuit.",
+          "correction": "Le Soleil brille toujours. C’est la Terre qui tourne."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi fait-il nuit ?",
+          "options": [
+            "notre côté de la Terre est à l’ombre",
+            "le Soleil s’éteint",
+            "la Lune cache le Soleil"
+          ],
+          "reponse": "notre côté de la Terre est à l’ombre",
+          "explication": "La Terre tourne sur elle-même."
+        }
+      ]
+    },
+    {
+      "titre": "Les saisons",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les quatre saisons en France",
+          "colonnes": [
+            "Saison",
+            "Ce qu’on voit"
+          ],
+          "lignes": [
+            [
+              "printemps",
+              "des fleurs et des bourgeons"
+            ],
+            [
+              "été",
+              "de la chaleur, de longues journées"
+            ],
+            [
+              "automne",
+              "des feuilles qui tombent"
+            ],
+            [
+              "hiver",
+              "du froid, des journées courtes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En quelle saison fait-il le plus chaud ?",
+          "options": [
+            "en été",
+            "en hiver",
+            "en automne"
+          ],
+          "reponse": "en été",
+          "explication": "Les journées sont longues et chaudes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En quelle saison les feuilles tombent-elles ?",
+      "options": [
+        "en automne",
+        "au printemps",
+        "en été"
+      ],
+      "reponse": "en automne",
+      "explication": "Les arbres perdent leurs feuilles."
+    },
+    {
+      "consigne": "Combien y a-t-il de saisons ?",
+      "options": [
+        "4",
+        "2",
+        "12"
+      ],
+      "reponse": "4",
+      "explication": "Printemps, été, automne, hiver."
+    },
+    {
+      "consigne": "La nuit, le Soleil :",
+      "options": [
+        "éclaire l’autre côté de la Terre",
+        "s’éteint",
+        "tombe dans la mer"
+      ],
+      "reponse": "éclaire l’autre côté de la Terre",
+      "explication": "Il ne s’éteint jamais."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 55,
+      "extrait": "Thème 1 : Les manifestations naturelles du temps",
+      "appui": "Jour, nuit et saisons"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

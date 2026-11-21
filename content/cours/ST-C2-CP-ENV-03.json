@@ -1,0 +1,102 @@
+{
+  "competence": "ST-C2-CP-ENV-03",
+  "duree": 4,
+  "essentiel": "Je trie mes déchets : chacun dans la bonne poubelle.\nJe ferme le robinet. J’éteins la lumière en sortant.\nLes piles usées vont dans une boite spéciale.",
+  "parties": [
+    {
+      "titre": "Des gestes simples",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pourquoi ?",
+          "colonnes": [
+            "Geste",
+            "Il sert à"
+          ],
+          "lignes": [
+            [
+              "fermer le robinet",
+              "économiser l’eau"
+            ],
+            [
+              "éteindre la lumière",
+              "économiser l’énergie"
+            ],
+            [
+              "trier les déchets",
+              "recycler"
+            ],
+            [
+              "rapporter les piles",
+              "ne pas polluer"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une bouteille en plastique vide va :",
+          "options": [
+            "au tri",
+            "par terre",
+            "dans la rivière"
+          ],
+          "reponse": "au tri",
+          "explication": "On la recycle."
+        }
+      ]
+    },
+    {
+      "titre": "Les piles",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On jette les piles à la poubelle.",
+          "correction": "Les piles polluent. On les rapporte dans un bac de collecte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand je me brosse les dents, je :",
+      "options": [
+        "ferme le robinet",
+        "laisse couler l’eau",
+        "prends un bain"
+      ],
+      "reponse": "ferme le robinet",
+      "explication": "J’économise l’eau."
+    },
+    {
+      "consigne": "Quand je quitte une pièce, j’éteins :",
+      "options": [
+        "la lumière",
+        "le frigo",
+        "le chauffe-eau"
+      ],
+      "reponse": "la lumière",
+      "explication": "J’économise l’énergie."
+    },
+    {
+      "consigne": "Où va une pile usée ?",
+      "options": [
+        "dans un bac de collecte",
+        "dans la poubelle",
+        "dans la rivière"
+      ],
+      "reponse": "dans un bac de collecte",
+      "explication": "Elle pollue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 9,
+      "extrait": "Identifier et mettre en œuvre quelques gestes simples favorables à la protection de l’environnement",
+      "appui": "Gestes pour l’environnement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

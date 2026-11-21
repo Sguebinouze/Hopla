@@ -1,0 +1,136 @@
+{
+  "competence": "ST-C2-CP-CORPS-01",
+  "duree": 5,
+  "essentiel": "Les aliments se rangent en familles.\nFruits et légumes, féculents, produits laitiers, viandes et poissons…\nUn aliment est d’origine animale, végétale ou minérale.",
+  "parties": [
+    {
+      "titre": "Les familles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les familles d’aliments",
+          "colonnes": [
+            "Famille",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "fruits et légumes",
+              "pomme, carotte"
+            ],
+            [
+              "viandes, poissons, œufs",
+              "poulet, sardine"
+            ],
+            [
+              "produits laitiers",
+              "lait, yaourt"
+            ],
+            [
+              "féculents et céréales",
+              "pâtes, riz"
+            ],
+            [
+              "matières grasses",
+              "beurre, huile"
+            ],
+            [
+              "boissons",
+              "eau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les pâtes sont des :",
+          "options": [
+            "féculents",
+            "produits laitiers",
+            "fruits"
+          ],
+          "reponse": "féculents",
+          "explication": "Comme le riz et le pain."
+        }
+      ]
+    },
+    {
+      "titre": "D’où viennent-ils ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’origine",
+          "colonnes": [
+            "Origine",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "animale",
+              "lait, œuf, viande"
+            ],
+            [
+              "végétale",
+              "pomme, carotte, riz"
+            ],
+            [
+              "minérale",
+              "sel, eau"
+            ],
+            [
+              "produit transformé",
+              "pain, gâteau"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le pain pousse dans les champs.",
+          "correction": "Le blé pousse. Avec sa farine, on fabrique le pain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le fromage est un :",
+      "options": [
+        "produit laitier",
+        "féculent",
+        "légume"
+      ],
+      "reponse": "produit laitier",
+      "explication": "Il est fait avec du lait."
+    },
+    {
+      "consigne": "Le sel est d’origine :",
+      "options": [
+        "minérale",
+        "animale",
+        "végétale"
+      ],
+      "reponse": "minérale",
+      "explication": "Il vient de la mer ou du sol."
+    },
+    {
+      "consigne": "Le lait est d’origine :",
+      "options": [
+        "animale",
+        "végétale",
+        "minérale"
+      ],
+      "reponse": "animale",
+      "explication": "Il vient de la vache."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 11,
+      "extrait": "Découvrir et nommer les catégories d’aliments et leur",
+      "appui": "Catégories et origine des aliments"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

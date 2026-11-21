@@ -1,0 +1,111 @@
+{
+  "competence": "ST-C2-CP-ENV-01",
+  "duree": 5,
+  "essentiel": "Autour de l’école vivent des animaux et des plantes.\nChacun vit dans un milieu : la mare, le jardin, la forêt.\nOn les observe sans leur faire de mal.",
+  "parties": [
+    {
+      "titre": "Qui vit où ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des milieux proches",
+          "colonnes": [
+            "Milieu",
+            "Des êtres vivants"
+          ],
+          "lignes": [
+            [
+              "mare",
+              "grenouille, nénuphar"
+            ],
+            [
+              "jardin",
+              "ver de terre, rosier"
+            ],
+            [
+              "forêt",
+              "écureuil, chêne"
+            ],
+            [
+              "prairie",
+              "papillon, herbe"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où vit la grenouille ?",
+          "options": [
+            "dans la mare",
+            "dans le désert",
+            "sur le toit"
+          ],
+          "reponse": "dans la mare",
+          "explication": "Elle a besoin d’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Observer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour observer",
+          "etapes": [
+            "Regarde de près, sans toucher.",
+            "Dessine ce que tu vois.",
+            "Note le lieu et la date."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On emporte l’animal pour l’observer.",
+          "correction": "On l’observe là où il vit, puis on le laisse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le ver de terre vit :",
+      "options": [
+        "dans la terre",
+        "dans la mer",
+        "dans les arbres"
+      ],
+      "reponse": "dans la terre",
+      "explication": "Il creuse des galeries."
+    },
+    {
+      "consigne": "L’écureuil vit souvent :",
+      "options": [
+        "dans la forêt",
+        "dans la mare",
+        "dans la mer"
+      ],
+      "reponse": "dans la forêt",
+      "explication": "Il grimpe aux arbres."
+    },
+    {
+      "consigne": "Quand on observe un animal :",
+      "options": [
+        "on ne lui fait pas de mal",
+        "on l’emporte",
+        "on le réveille"
+      ],
+      "reponse": "on ne lui fait pas de mal",
+      "explication": "On le respecte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "Observer et décrire son environnement proche",
+      "appui": "Observer son environnement proche"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

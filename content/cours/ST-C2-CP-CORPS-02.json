@@ -1,0 +1,107 @@
+{
+  "competence": "ST-C2-CP-CORPS-02",
+  "duree": 5,
+  "essentiel": "Mon squelette est fait d’os.\nLes os se rejoignent aux articulations : épaule, coude, genou.\nLes articulations me permettent de bouger.",
+  "parties": [
+    {
+      "titre": "Les articulations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Où sont-elles ?",
+          "colonnes": [
+            "Partie du corps",
+            "Articulations"
+          ],
+          "lignes": [
+            [
+              "bras",
+              "épaule, coude, poignet"
+            ],
+            [
+              "jambe",
+              "hanche, genou, cheville"
+            ],
+            [
+              "tête",
+              "cou"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle articulation est au milieu du bras ?",
+          "options": [
+            "le coude",
+            "le genou",
+            "la cheville"
+          ],
+          "reponse": "le coude",
+          "explication": "Il plie le bras."
+        }
+      ]
+    },
+    {
+      "titre": "Plier ou tourner",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Bouge doucement.",
+          "exemples": [
+            "Le coude plie et déplie le bras.",
+            "Le genou plie et déplie la jambe.",
+            "L’épaule, le poignet et la cheville tournent."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le genou peut tourner dans tous les sens.",
+          "correction": "Le genou plie et déplie. Il ne tourne pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle articulation relie la main au bras ?",
+      "options": [
+        "le poignet",
+        "la cheville",
+        "le genou"
+      ],
+      "reponse": "le poignet",
+      "explication": "Il fait tourner la main."
+    },
+    {
+      "consigne": "Le genou est dans :",
+      "options": [
+        "la jambe",
+        "le bras",
+        "le cou"
+      ],
+      "reponse": "la jambe",
+      "explication": "Au milieu de la jambe."
+    },
+    {
+      "consigne": "Les os forment :",
+      "options": [
+        "le squelette",
+        "les cheveux",
+        "la peau"
+      ],
+      "reponse": "le squelette",
+      "explication": "Le squelette soutient le corps."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "Croissance et mouvement",
+      "appui": "Croissance et mouvement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

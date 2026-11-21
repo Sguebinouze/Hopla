@@ -1,0 +1,94 @@
+{
+  "competence": "HG-C2-CP-GEO-01",
+  "duree": 5,
+  "essentiel": "Pour dire où est une chose, j’utilise des mots de position.\nÀ gauche, à droite, devant, derrière, au-dessus, en dessous.\nUn plan montre un lieu vu du dessus.",
+  "parties": [
+    {
+      "titre": "Les mots de position",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dans la classe.",
+          "exemples": [
+            "Le tableau est devant les élèves.",
+            "La fenêtre est à gauche de la porte.",
+            "Le cartable est sous la table."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le chat est sur le lit. » Le lit est :",
+          "options": [
+            "sous le chat",
+            "sur le chat",
+            "derrière le chat"
+          ],
+          "reponse": "sous le chat",
+          "explication": "Le chat est au-dessus."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un plan",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour suivre un trajet sur un plan",
+          "etapes": [
+            "Trouve l’endroit où tu es.",
+            "Trouve l’endroit où tu vas.",
+            "Suis le chemin avec ton doigt."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un plan montre les choses de face.",
+          "correction": "Le plan montre tout vu du dessus, comme un oiseau."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un plan montre un lieu vu :",
+      "options": [
+        "du dessus",
+        "de face",
+        "de dos"
+      ],
+      "reponse": "du dessus",
+      "explication": "Comme un oiseau qui vole."
+    },
+    {
+      "consigne": "Le contraire de « devant » :",
+      "options": [
+        "derrière",
+        "dessus",
+        "à gauche"
+      ],
+      "reponse": "derrière",
+      "explication": "Devant, derrière."
+    },
+    {
+      "consigne": "« Le ballon est sous la table. » La table est :",
+      "options": [
+        "au-dessus du ballon",
+        "sous le ballon",
+        "dans le ballon"
+      ],
+      "reponse": "au-dessus du ballon",
+      "explication": "Sous, au-dessus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 55,
+      "extrait": "Thème 1 : Autour de l’école (trois périodes)",
+      "appui": "Se repérer autour de l’école"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

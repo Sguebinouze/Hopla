@@ -1,0 +1,85 @@
+{
+  "competence": "ST-C2-CP-ENV-02",
+  "duree": 4,
+  "essentiel": "Les humains transforment leur environnement.\nIls construisent des routes. Ils plantent des parcs.\nJe respecte la nature : je ne jette rien par terre.",
+  "parties": [
+    {
+      "titre": "Des changements",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ce que font les humains.",
+          "exemples": [
+            "Un champ devient un parking.",
+            "Des déchets salissent une plage.",
+            "Un parc est planté d’arbres."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel geste aide la nature ?",
+          "options": [
+            "jeter ses déchets à la poubelle",
+            "arracher des fleurs",
+            "laisser un papier par terre"
+          ],
+          "reponse": "jeter ses déchets à la poubelle",
+          "explication": "Les déchets ne restent pas dans la nature."
+        }
+      ]
+    },
+    {
+      "titre": "Respecter la nature",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un petit papier par terre ne gêne pas.",
+          "correction": "Un animal peut l’avaler. Il met longtemps à disparaitre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Construire une route :",
+      "options": [
+        "transforme l’environnement",
+        "ne change rien",
+        "fait pousser des arbres"
+      ],
+      "reponse": "transforme l’environnement",
+      "explication": "Les champs et les bois reculent."
+    },
+    {
+      "consigne": "En forêt, on :",
+      "options": [
+        "garde ses déchets",
+        "casse les branches",
+        "arrache les fleurs"
+      ],
+      "reponse": "garde ses déchets",
+      "explication": "On les jette plus tard dans une poubelle."
+    },
+    {
+      "consigne": "Planter un arbre :",
+      "options": [
+        "aide la nature",
+        "abime la nature",
+        "salit la rue"
+      ],
+      "reponse": "aide la nature",
+      "explication": "L’arbre abrite des animaux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "Agir pour protéger l’environnement",
+      "appui": "Agir pour l’environnement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

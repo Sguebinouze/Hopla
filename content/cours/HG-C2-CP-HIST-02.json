@@ -1,0 +1,172 @@
+{
+  "competence": "HG-C2-CP-HIST-02",
+  "duree": 5,
+  "essentiel": "Une année a 12 mois.\nUne semaine a 7 jours.\nUne journée a 24 heures.",
+  "parties": [
+    {
+      "titre": "Les jours de la semaine",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La semaine",
+          "colonnes": [
+            "Ordre",
+            "Jour"
+          ],
+          "lignes": [
+            [
+              "1",
+              "lundi"
+            ],
+            [
+              "2",
+              "mardi"
+            ],
+            [
+              "3",
+              "mercredi"
+            ],
+            [
+              "4",
+              "jeudi"
+            ],
+            [
+              "5",
+              "vendredi"
+            ],
+            [
+              "6",
+              "samedi"
+            ],
+            [
+              "7",
+              "dimanche"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel jour vient après mercredi ?",
+          "options": [
+            "jeudi",
+            "mardi",
+            "vendredi"
+          ],
+          "reponse": "jeudi",
+          "explication": "Mercredi, jeudi."
+        }
+      ]
+    },
+    {
+      "titre": "Les mois de l’année",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’année",
+          "colonnes": [
+            "Mois",
+            "Nom"
+          ],
+          "lignes": [
+            [
+              "1",
+              "janvier"
+            ],
+            [
+              "2",
+              "février"
+            ],
+            [
+              "3",
+              "mars"
+            ],
+            [
+              "4",
+              "avril"
+            ],
+            [
+              "5",
+              "mai"
+            ],
+            [
+              "6",
+              "juin"
+            ],
+            [
+              "7",
+              "juillet"
+            ],
+            [
+              "8",
+              "août"
+            ],
+            [
+              "9",
+              "septembre"
+            ],
+            [
+              "10",
+              "octobre"
+            ],
+            [
+              "11",
+              "novembre"
+            ],
+            [
+              "12",
+              "décembre"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la semaine commence le dimanche.",
+          "correction": "Sur nos calendriers, elle commence le lundi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de mois dans une année ?",
+      "options": [
+        "12",
+        "7",
+        "24"
+      ],
+      "reponse": "12",
+      "explication": "De janvier à décembre."
+    },
+    {
+      "consigne": "Quel mois vient après mars ?",
+      "options": [
+        "avril",
+        "mai",
+        "février"
+      ],
+      "reponse": "avril",
+      "explication": "Mars, avril."
+    },
+    {
+      "consigne": "Combien d’heures dans une journée ?",
+      "options": [
+        "24",
+        "12",
+        "7"
+      ],
+      "reponse": "24",
+      "explication": "Le jour et la nuit ensemble."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 55,
+      "extrait": "Thème 2 : Les représentations humaines du temps",
+      "appui": "Le calendrier"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

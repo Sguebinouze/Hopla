@@ -1,0 +1,94 @@
+{
+  "competence": "ST-C2-CP-MAT-01",
+  "duree": 5,
+  "essentiel": "Pour comparer des masses, on utilise une balance.\nLe plateau qui porte l’objet le plus lourd descend.\nLe thermomètre mesure la température, en degrés Celsius (°C).",
+  "parties": [
+    {
+      "titre": "Lourd ou léger ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Soupèse des objets.",
+          "exemples": [
+            "Un gros ballon peut être léger.",
+            "Une petite bille en verre peut être lourde.",
+            "Gros ne veut pas dire lourd."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sur la balance, le plateau qui descend porte l’objet :",
+          "options": [
+            "le plus lourd",
+            "le plus léger",
+            "le plus gros"
+          ],
+          "reponse": "le plus lourd",
+          "explication": "L’objet lourd fait descendre son plateau."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un thermomètre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour lire la température",
+          "etapes": [
+            "Tiens le thermomètre par le haut.",
+            "Mets ton œil au niveau du liquide.",
+            "Lis le nombre, par exemple 20 °C."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On tient le thermomètre par le bas.",
+          "correction": "La main le réchauffe. Tiens-le par le haut."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La température se mesure avec :",
+      "options": [
+        "un thermomètre",
+        "une balance",
+        "une règle"
+      ],
+      "reponse": "un thermomètre",
+      "explication": "Il s’exprime en °C."
+    },
+    {
+      "consigne": "Un objet gros est-il toujours lourd ?",
+      "options": [
+        "pas toujours",
+        "toujours",
+        "jamais"
+      ],
+      "reponse": "pas toujours",
+      "explication": "Un ballon est gros et léger."
+    },
+    {
+      "consigne": "°C veut dire :",
+      "options": [
+        "degré Celsius",
+        "centimètre",
+        "cuillère"
+      ],
+      "reponse": "degré Celsius",
+      "explication": "C’est l’unité de température."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "Masse, volumes et mesure de température",
+      "appui": "Masses et température"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

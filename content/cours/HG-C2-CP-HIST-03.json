@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C2-CP-HIST-03",
+  "duree": 5,
+  "essentiel": "Hier est passé. Aujourd’hui, c’est maintenant. Demain viendra.\nUne frise range les évènements dans l’ordre.\nMes grands-parents sont nés avant mes parents.",
+  "parties": [
+    {
+      "titre": "Hier, aujourd’hui, demain",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les temps",
+          "colonnes": [
+            "Hier",
+            "Aujourd’hui",
+            "Demain"
+          ],
+          "lignes": [
+            [
+              "j’ai joué",
+              "je joue",
+              "je jouerai"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Si aujourd’hui est lundi, demain sera :",
+          "options": [
+            "mardi",
+            "dimanche",
+            "mercredi"
+          ],
+          "reponse": "mardi",
+          "explication": "Lundi, mardi."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger dans l’ordre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ma journée, dans l’ordre.",
+          "exemples": [
+            "Le matin, je me lève.",
+            "À midi, je mange.",
+            "Le soir, je me couche."
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Ma famille, des plus âgés aux plus jeunes.",
+          "exemples": [
+            "Mes grands-parents.",
+            "Mes parents, mes oncles et mes tantes.",
+            "Moi, mes frères, mes sœurs et mes cousins."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le temps passé peut revenir.",
+          "correction": "Le temps passé ne revient jamais."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Hier, nous … au parc.",
+      "options": [
+        "sommes allés",
+        "allons",
+        "irons"
+      ],
+      "reponse": "sommes allés",
+      "explication": "Hier, c’est le passé."
+    },
+    {
+      "consigne": "Qui est né en premier ?",
+      "options": [
+        "ma grand-mère",
+        "ma mère",
+        "moi"
+      ],
+      "reponse": "ma grand-mère",
+      "explication": "Les grands-parents sont les plus âgés."
+    },
+    {
+      "consigne": "Que fais-tu en premier le matin ?",
+      "options": [
+        "je me lève",
+        "je me couche",
+        "je dine"
+      ],
+      "reponse": "je me lève",
+      "explication": "La journée commence au lever."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 55,
+      "extrait": "Thème 3 : Situer des évènements dans le temps",
+      "appui": "Situer des évènements dans le temps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

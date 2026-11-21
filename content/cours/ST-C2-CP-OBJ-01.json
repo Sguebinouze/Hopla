@@ -1,0 +1,120 @@
+{
+  "competence": "ST-C2-CP-OBJ-01",
+  "duree": 4,
+  "essentiel": "Un objet technique est fabriqué par les humains.\nIl répond à un besoin : écrire, s’habiller, se déplacer.\nUne branche n’est pas un objet technique. Un stylo, si.",
+  "parties": [
+    {
+      "titre": "Fabriqué ou naturel ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "De la matière à l’objet",
+          "colonnes": [
+            "Matière",
+            "Objet"
+          ],
+          "lignes": [
+            [
+              "bois",
+              "cuillère"
+            ],
+            [
+              "argile",
+              "tuile"
+            ],
+            [
+              "laine de mouton",
+              "pull"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lequel est un objet technique ?",
+          "options": [
+            "une gomme",
+            "une feuille d’arbre",
+            "un caillou"
+          ],
+          "reponse": "une gomme",
+          "explication": "Quelqu’un l’a fabriquée."
+        }
+      ]
+    },
+    {
+      "titre": "Un objet pour un besoin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À quoi ça sert ?",
+          "colonnes": [
+            "Besoin",
+            "Objets"
+          ],
+          "lignes": [
+            [
+              "rester au sec",
+              "parapluie, imperméable"
+            ],
+            [
+              "se déplacer",
+              "vélo, trottinette"
+            ],
+            [
+              "écrire",
+              "crayon, stylo"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tout objet utile est un objet technique.",
+          "correction": "Une branche peut servir. Mais personne ne l’a fabriquée."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Avec la laine du mouton, on fabrique :",
+      "options": [
+        "un pull",
+        "une tuile",
+        "une cuillère"
+      ],
+      "reponse": "un pull",
+      "explication": "On tricote la laine."
+    },
+    {
+      "consigne": "Pour venir à l’école, on peut utiliser :",
+      "options": [
+        "un vélo",
+        "une gomme",
+        "une tuile"
+      ],
+      "reponse": "un vélo",
+      "explication": "C’est un objet pour se déplacer."
+    },
+    {
+      "consigne": "Une feuille d’arbre est :",
+      "options": [
+        "un objet naturel",
+        "un objet technique",
+        "un outil"
+      ],
+      "reponse": "un objet naturel",
+      "explication": "Elle pousse sur l’arbre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 13,
+      "extrait": "Identifier qu’un objet technique est obtenu par",
+      "appui": "Les objets techniques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

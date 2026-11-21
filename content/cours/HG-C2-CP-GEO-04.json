@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C2-CP-GEO-04",
+  "duree": 4,
+  "essentiel": "Les quatre points cardinaux : nord, sud, est, ouest.\nSur une carte, le nord est souvent en haut.\nLe Soleil se lève à l’est et se couche à l’ouest.",
+  "parties": [
+    {
+      "titre": "Sur une carte",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Carte avec le nord en haut",
+          "colonnes": [
+            "Position",
+            "Point cardinal"
+          ],
+          "lignes": [
+            [
+              "en haut",
+              "nord"
+            ],
+            [
+              "en bas",
+              "sud"
+            ],
+            [
+              "à droite",
+              "est"
+            ],
+            [
+              "à gauche",
+              "ouest"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sur une carte, en bas, c’est souvent :",
+          "options": [
+            "le sud",
+            "le nord",
+            "l’est"
+          ],
+          "reponse": "le sud",
+          "explication": "Le nord est en haut, le sud en bas."
+        }
+      ]
+    },
+    {
+      "titre": "Avec le Soleil",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le matin, le Soleil se lève à l’est. Le soir, il se couche à l’ouest."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond l’est et l’ouest.",
+          "correction": "Sur la carte, l’ouest est à gauche, l’est à droite."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où se lève le Soleil ?",
+      "options": [
+        "à l’est",
+        "à l’ouest",
+        "au sud"
+      ],
+      "reponse": "à l’est",
+      "explication": "Il se couche à l’ouest."
+    },
+    {
+      "consigne": "Le contraire du nord :",
+      "options": [
+        "le sud",
+        "l’est",
+        "l’ouest"
+      ],
+      "reponse": "le sud",
+      "explication": "Nord et sud sont opposés."
+    },
+    {
+      "consigne": "Combien de points cardinaux ?",
+      "options": [
+        "4",
+        "2",
+        "8"
+      ],
+      "reponse": "4",
+      "explication": "Nord, sud, est, ouest."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 60,
+      "extrait": "Nord/Sud/Est/Ouest",
+      "appui": "Points cardinaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

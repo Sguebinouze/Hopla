@@ -1,0 +1,112 @@
+{
+  "competence": "ST-C2-CP-SANTE-01",
+  "duree": 5,
+  "essentiel": "Pour être en forme, je dors bien et je bouge chaque jour.\nJe mange varié. Je me lave les mains et les dents.\nJe limite le temps passé devant les écrans.",
+  "parties": [
+    {
+      "titre": "Ma journée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une bonne journée",
+          "colonnes": [
+            "Moment",
+            "Ce qui m’aide"
+          ],
+          "lignes": [
+            [
+              "matin",
+              "petit déjeuner, brossage des dents"
+            ],
+            [
+              "journée",
+              "jeux, sport, récréation"
+            ],
+            [
+              "soir",
+              "calme, pas d’écran avant de dormir"
+            ],
+            [
+              "nuit",
+              "une longue nuit de sommeil"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avant de dormir, il vaut mieux :",
+          "options": [
+            "lire une histoire",
+            "jouer sur une tablette",
+            "regarder la télé"
+          ],
+          "reponse": "lire une histoire",
+          "explication": "Les écrans gênent le sommeil."
+        }
+      ]
+    },
+    {
+      "titre": "Se laver les mains",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour bien se laver les mains",
+          "etapes": [
+            "Mouille tes mains.",
+            "Frotte avec du savon, entre les doigts aussi.",
+            "Rince.",
+            "Sèche."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On se lave les mains seulement si elles sont sales.",
+          "correction": "Les microbes sont invisibles. Lave-les avant de manger."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand se brosse-t-on les dents ?",
+      "options": [
+        "après les repas",
+        "une fois par semaine",
+        "jamais le soir"
+      ],
+      "reponse": "après les repas",
+      "explication": "Matin et soir au moins."
+    },
+    {
+      "consigne": "Un enfant a besoin :",
+      "options": [
+        "de longues nuits",
+        "de peu de sommeil",
+        "de dormir le jour seulement"
+      ],
+      "reponse": "de longues nuits",
+      "explication": "Le sommeil aide à grandir."
+    },
+    {
+      "consigne": "Bouger chaque jour, c’est :",
+      "options": [
+        "bon pour la santé",
+        "dangereux",
+        "inutile"
+      ],
+      "reponse": "bon pour la santé",
+      "explication": "Le corps devient plus fort."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 12,
+      "extrait": "Identifier quelques règles d’hygiène de vie au quotidien et les relier à sa santé",
+      "appui": "Hygiène de vie et santé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

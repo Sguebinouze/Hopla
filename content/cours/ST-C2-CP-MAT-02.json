@@ -1,0 +1,113 @@
+{
+  "competence": "ST-C2-CP-MAT-02",
+  "duree": 4,
+  "essentiel": "L’eau peut être liquide : pluie, rivière, mer.\nL’eau peut être solide : glace, neige, grêle.\nLes nuages sont faits de minuscules gouttes d’eau.",
+  "parties": [
+    {
+      "titre": "Dans la nature",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’eau autour de nous",
+          "colonnes": [
+            "Liquide",
+            "Solide"
+          ],
+          "lignes": [
+            [
+              "pluie",
+              "neige"
+            ],
+            [
+              "rivière",
+              "glacier"
+            ],
+            [
+              "mer",
+              "banquise"
+            ],
+            [
+              "cascade",
+              "grêle"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La grêle, c’est de l’eau :",
+          "options": [
+            "solide",
+            "liquide",
+            "chaude"
+          ],
+          "reponse": "solide",
+          "explication": "Ce sont des billes de glace."
+        }
+      ]
+    },
+    {
+      "titre": "Elle change",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la neige n’est pas de l’eau.",
+          "correction": "La neige est de l’eau solide. Au chaud, elle fond."
+        },
+        {
+          "type": "question",
+          "consigne": "Un glacier est fait d’eau :",
+          "options": [
+            "solide",
+            "liquide",
+            "sucrée"
+          ],
+          "reponse": "solide",
+          "explication": "C’est de la glace."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La pluie est de l’eau :",
+      "options": [
+        "liquide",
+        "solide",
+        "gelée"
+      ],
+      "reponse": "liquide",
+      "explication": "Elle coule."
+    },
+    {
+      "consigne": "Que devient la neige au soleil ?",
+      "options": [
+        "de l’eau liquide",
+        "du sable",
+        "de la grêle"
+      ],
+      "reponse": "de l’eau liquide",
+      "explication": "Elle fond."
+    },
+    {
+      "consigne": "La banquise, c’est :",
+      "options": [
+        "de la mer gelée",
+        "une rivière",
+        "un nuage"
+      ],
+      "reponse": "de la mer gelée",
+      "explication": "On la trouve près des pôles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2026-sciences-c2-c3",
+      "page": 4,
+      "extrait": "États physiques de la matière",
+      "appui": "L’eau solide et liquide"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

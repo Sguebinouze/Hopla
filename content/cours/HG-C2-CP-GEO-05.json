@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C2-CP-GEO-05",
+  "duree": 4,
+  "essentiel": "Des êtres humains vivent sur presque tous les continents.\nIls sont très nombreux à certains endroits, comme en Asie.\nL’Antarctique, très froid, n’a pas d’habitants permanents.",
+  "parties": [
+    {
+      "titre": "Beaucoup ou peu d’habitants",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Où vivent les humains ?",
+          "colonnes": [
+            "Endroit",
+            "Habitants"
+          ],
+          "lignes": [
+            [
+              "Chine, Inde",
+              "très nombreux"
+            ],
+            [
+              "Europe",
+              "nombreux"
+            ],
+            [
+              "désert du Sahara",
+              "très peu"
+            ],
+            [
+              "Antarctique",
+              "aucun habitant permanent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où vivent beaucoup de gens ?",
+          "options": [
+            "en Asie",
+            "au Sahara",
+            "en Antarctique"
+          ],
+          "reponse": "en Asie",
+          "explication": "La Chine et l’Inde sont très peuplées."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les humains vivent plus nombreux près de l’eau. Ils aiment les climats doux."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les humains sont répartis partout pareil.",
+          "correction": "Ils sont nombreux à certains endroits et rares ailleurs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel continent n’a pas d’habitants permanents ?",
+      "options": [
+        "l’Antarctique",
+        "l’Europe",
+        "l’Afrique"
+      ],
+      "reponse": "l’Antarctique",
+      "explication": "Il y fait trop froid."
+    },
+    {
+      "consigne": "Dans un désert, il y a :",
+      "options": [
+        "peu d’habitants",
+        "beaucoup d’habitants",
+        "des villes partout"
+      ],
+      "reponse": "peu d’habitants",
+      "explication": "Il y a très peu d’eau."
+    },
+    {
+      "consigne": "Les humains vivent plus nombreux près :",
+      "options": [
+        "de l’eau",
+        "des glaciers",
+        "des volcans"
+      ],
+      "reponse": "de l’eau",
+      "explication": "L’eau est indispensable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 60,
+      "extrait": "Comprendre que le monde est peuplé",
+      "appui": "Le monde est peuplé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

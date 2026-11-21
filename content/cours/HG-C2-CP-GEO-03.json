@@ -1,0 +1,119 @@
+{
+  "competence": "HG-C2-CP-GEO-03",
+  "duree": 4,
+  "essentiel": "Chaque lieu de l’école a un usage.\nOn apprend en classe. On joue dans la cour.\nOn mange au réfectoire.",
+  "parties": [
+    {
+      "titre": "Les lieux et leur usage",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dans l’école",
+          "colonnes": [
+            "Lieu",
+            "On y"
+          ],
+          "lignes": [
+            [
+              "la classe",
+              "apprend"
+            ],
+            [
+              "la cour",
+              "joue à la récréation"
+            ],
+            [
+              "le réfectoire",
+              "mange"
+            ],
+            [
+              "les sanitaires",
+              "se lave les mains"
+            ],
+            [
+              "le préau",
+              "s’abrite de la pluie"
+            ],
+            [
+              "le portail",
+              "entre et sort"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où mange-t-on à midi ?",
+          "options": [
+            "au réfectoire",
+            "dans la cour",
+            "au portail"
+          ],
+          "reponse": "au réfectoire",
+          "explication": "C’est la cantine."
+        }
+      ]
+    },
+    {
+      "titre": "Se déplacer dans l’école",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le matin, mon trajet.",
+          "exemples": [
+            "Je passe le portail.",
+            "Je traverse la cour.",
+            "J’entre dans ma classe."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut courir partout.",
+          "correction": "Dans les couloirs, on marche. C’est plus sûr."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où joue-t-on à la récréation ?",
+      "options": [
+        "dans la cour",
+        "au réfectoire",
+        "aux sanitaires"
+      ],
+      "reponse": "dans la cour",
+      "explication": "La cour sert à jouer."
+    },
+    {
+      "consigne": "Où se lave-t-on les mains ?",
+      "options": [
+        "aux sanitaires",
+        "dans la cour",
+        "au portail"
+      ],
+      "reponse": "aux sanitaires",
+      "explication": "Il y a des lavabos."
+    },
+    {
+      "consigne": "Par où entre-t-on dans l’école ?",
+      "options": [
+        "par le portail",
+        "par la fenêtre",
+        "par le préau"
+      ],
+      "reponse": "par le portail",
+      "explication": "Il s’ouvre le matin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 60,
+      "extrait": "Décrire l’usage des différents lieux de l’école",
+      "appui": "Les lieux de l’école"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

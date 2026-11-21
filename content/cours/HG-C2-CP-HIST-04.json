@@ -1,0 +1,115 @@
+{
+  "competence": "HG-C2-CP-HIST-04",
+  "duree": 4,
+  "essentiel": "Pour mesurer le temps, on utilise des outils.\nLe sablier mesure une courte durée.\nLa montre, la pendule et le réveil donnent l’heure.",
+  "parties": [
+    {
+      "titre": "Des outils",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À quoi ça sert ?",
+          "colonnes": [
+            "Outil",
+            "Il sert à"
+          ],
+          "lignes": [
+            [
+              "sablier",
+              "mesurer quelques minutes"
+            ],
+            [
+              "pendule",
+              "lire l’heure à la maison"
+            ],
+            [
+              "montre",
+              "lire l’heure partout"
+            ],
+            [
+              "réveil",
+              "sonner à l’heure choisie"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 7,
+            "minutes": 0
+          },
+          "legende": "Le réveil sonne à 7 heures."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel outil sonne le matin ?",
+          "options": [
+            "le réveil",
+            "le sablier",
+            "le calendrier"
+          ],
+          "reponse": "le réveil",
+          "explication": "On choisit son heure."
+        }
+      ]
+    },
+    {
+      "titre": "Aiguilles ou chiffres",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une montre à aiguilles est analogique. Une montre à chiffres est numérique."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le sablier donne l’heure.",
+          "correction": "Il mesure une durée. Il ne dit pas l’heure."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quand tout le sable est tombé :",
+      "options": [
+        "la durée est finie",
+        "il est midi",
+        "le jour se lève"
+      ],
+      "reponse": "la durée est finie",
+      "explication": "Le sablier mesure une durée."
+    },
+    {
+      "consigne": "Une montre à chiffres est :",
+      "options": [
+        "numérique",
+        "analogique",
+        "un sablier"
+      ],
+      "reponse": "numérique",
+      "explication": "Elle affiche des chiffres."
+    },
+    {
+      "consigne": "Pour lire l’heure au poignet, on a :",
+      "options": [
+        "une montre",
+        "une pendule",
+        "un sablier"
+      ],
+      "reponse": "une montre",
+      "explication": "On la porte sur soi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2026-histoire-geo-c2-c3",
+      "page": 57,
+      "extrait": "Observer et utiliser des outils de mesure du temps",
+      "appui": "Outils de mesure du temps"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
