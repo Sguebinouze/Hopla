@@ -182,20 +182,36 @@ export function Presentation() {
 function Essai() {
   const [i, setI] = useState(0);
   const [choix, setChoix] = useState<string | null>(null);
-  const [pause, setPause] = useState(false);
+  // Pause tant que la souris est sur la carte ou que le clavier y est (focus).
+  const [survol, setSurvol] = useState(false);
+  const [focus, setFocus] = useState(false);
+  const pause = survol || focus;
   const ex = EXEMPLES[i]!;
-  const aller = (n: number) => { setI((n + EXEMPLES.length) % EXEMPLES.length); setChoix(null); };
+  const aller = (n: number) => {
+    setI((n + EXEMPLES.length) % EXEMPLES.length);
+    setChoix(null);
+    // Le bouton répondu est désactivé : le navigateur lui retire le focus sans toujours émettre blur.
+    setFocus(false);
+  };
 
   useEffect(() => {
-    if (moinsDAnimations() || pause) return;
-    const t = setTimeout(() => aller(i + 1), choix ? 3500 : 6000);
+    if (moinsDAnimations()) return;
+    // Après une réponse, on passe à la suivante au bout de 3,5 s, même sous la souris :
+    // la pause ne vaut que pour laisser le temps de lire et de répondre.
+    if (choix) {
+      const t = setTimeout(() => aller(i + 1), 3500);
+      return () => clearTimeout(t);
+    }
+    if (pause) return;
+    const t = setTimeout(() => aller(i + 1), 6000);
     return () => clearTimeout(t);
   }, [i, choix, pause]);
 
   const juste = choix === ex.reponse;
   return (
-    <div className="essai" onMouseEnter={() => setPause(true)} onMouseLeave={() => setPause(false)}
-      onFocus={() => setPause(true)} onBlur={() => setPause(false)}>
+    <div className="essai" onMouseEnter={() => setSurvol(true)} onMouseLeave={() => setSurvol(false)}
+      onFocus={() => setFocus(true)}
+      onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setFocus(false); }}>
       <div key={i} className={`hp-card essai__carte hp-subj-${ex.subj}`} aria-live="polite">
         <div className="essai__haut">
           <span className="essai__matiere">{ex.matiere} · {ex.classe}</span>
