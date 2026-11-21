@@ -4,6 +4,7 @@ import { BoutonTheme } from '../composants/BoutonTheme';
 import { Icone, type NomIcone } from '../composants/Icone';
 import { InstructionsInstallation, LIENS_STORES } from '../composants/Installation';
 import { Marque } from '../composants/Marque';
+import { Octave } from '../composants/Octave';
 import { PiedDePage } from '../composants/PiedDePage';
 import { QrCode } from '../composants/QrCode';
 import { surAppareilEnfant } from '../lib/donnees';
@@ -12,41 +13,50 @@ import { ENTREE } from '../lib/routes';
 
 // Page de présentation, à la racine du site. L'app commence à ENTREE.
 // N'est jamais montrée dans l'app installée ni sur l'appareil d'un enfant : on va directement à l'app.
-// Animations sobres (apparition au défilement, tuiles qui se retournent au survol), coupées si
-// l'appareil demande moins d'animations.
+// Tenue en deux écrans : l'accroche avec des questions d'exemple à essayer, puis le programme et
+// l'installation côte à côte. Couleurs des matières du DS ; animations coupées si l'appareil le demande.
 
 const ETAPES = [
-  { titre: 'Le parent crée l’espace famille', texte: 'Un e-mail, puis un prénom, un avatar et une classe par enfant.' },
-  { titre: 'L’enfant entre avec son code', texte: 'Sur l’appareil de la famille ou sur le sien.' },
-  { titre: 'Un peu chaque jour', texte: 'Une mission courte, une leçon s’il bloque, Octave pour l’encourager.' },
+  { titre: 'Le parent crée l’espace', texte: 'Un prénom, un avatar et une classe par enfant.', couleur: 'primary' },
+  { titre: 'L’enfant entre avec son code', texte: 'Sur l’appareil de la famille ou le sien.', couleur: 'sun' },
+  { titre: 'Un peu chaque jour', texte: 'Une mission courte, et Octave pour encourager.', couleur: 'octave' },
 ];
 
-type Tuile = { icone: NomIcone; titre: string; texte: string };
+/** Questions d'exemple, tirées des cours de Hopla. La bonne réponse est `reponse`. */
+const EXEMPLES: { classe: string; matiere: string; subj: string; question: string; options: string[]; reponse: string; bravo: string }[] = [
+  { classe: 'CP', matiere: 'Maths', subj: 'maths', question: 'Quel est le double de 8 ?', options: ['10', '16', '4'], reponse: '16', bravo: '8 + 8 = 16.' },
+  { classe: 'CE1', matiere: 'Français', subj: 'francais', question: 'Un cheval, des… ?', options: ['chevals', 'chevaux', 'chevale'], reponse: 'chevaux', bravo: 'Les noms en -al font leur pluriel en -aux.' },
+  { classe: 'CE2', matiere: 'Sciences', subj: 'sciences', question: 'À quelle température l’eau bout-elle ?', options: ['0 °C', '37 °C', '100 °C'], reponse: '100 °C', bravo: 'Elle devient alors vapeur.' },
+  { classe: '6e', matiere: 'Maths', subj: 'maths', question: 'Quelle est la moitié de 0,5 ?', options: ['0,25', '0,05', '1'], reponse: '0,25', bravo: '0,25 + 0,25 = 0,5.' },
+  { classe: 'CP', matiere: 'Géographie', subj: 'histgeo', question: 'Quel est le plus grand océan ?', options: ['l’Atlantique', 'le Pacifique', 'l’océan Indien'], reponse: 'le Pacifique', bravo: 'C’est le plus grand du monde.' },
+];
+
+type Tuile = { icone: NomIcone; titre: string; texte: string; subj: string };
 
 const ONGLETS: Record<'enfant' | 'parents', { libelle: string; tuiles: Tuile[] }> = {
   enfant: {
     libelle: 'Pour l’enfant',
     tuiles: [
-      { icone: 'livre', titre: 'Des leçons en étapes', texte: 'Découvrir, retenir, éviter le piège, puis s’exercer.' },
-      { icone: 'eclair', titre: 'Le défi chrono', texte: 'Le plus de bonnes réponses en une minute, pour gagner en aisance.' },
-      { icone: 'cahier', titre: 'Le contrôle à préparer', texte: 'Il choisit les notions et la date. La mission du jour les fait réviser jusque-là.' },
-      { icone: 'appareil', titre: 'La photo de leçon', texte: 'Il photographie sa leçon, Hopla propose les exercices qui vont avec. La photo reste sur l’appareil.' },
-      { icone: 'haut-parleur', titre: 'Les dictées', texte: 'Hopla lit la dictée comme en classe, puis montre le texte pour se corriger.' },
-      { icone: 'coupe', titre: 'Jeux et quiz', texte: 'Des jeux de réflexion et un quiz de culture du jour, pour souffler.' },
+      { icone: 'livre', subj: 'francais', titre: 'Des leçons en étapes', texte: 'Découvrir, retenir, éviter le piège, puis s’exercer.' },
+      { icone: 'eclair', subj: 'maths', titre: 'Le défi chrono', texte: 'Le plus de bonnes réponses en une minute, pour gagner en aisance.' },
+      { icone: 'cahier', subj: 'sciences', titre: 'Le contrôle à préparer', texte: 'Il choisit les notions et la date. La mission du jour les fait réviser.' },
+      { icone: 'appareil', subj: 'histgeo', titre: 'La photo de leçon', texte: 'Il photographie sa leçon, Hopla propose les exercices qui vont avec.' },
+      { icone: 'haut-parleur', subj: 'langues', titre: 'Les dictées', texte: 'Hopla lit la dictée comme en classe, puis montre le texte.' },
+      { icone: 'coupe', subj: 'physique', titre: 'Jeux et quiz', texte: 'Des jeux de réflexion et un quiz de culture du jour.' },
     ],
   },
   parents: {
     libelle: 'Pour les parents',
     tuiles: [
-      { icone: 'famille', titre: 'Le suivi de chaque enfant', texte: 'Le temps passé, les notions acquises et celles à revoir.' },
-      { icone: 'cadenas', titre: 'Le minimum de données', texte: 'Un prénom, un avatar et une classe. Ni publicité, ni mesure d’audience, ni traceur.' },
-      { icone: 'nuage', titre: 'Même sans réseau', texte: 'Le travail continue hors connexion, à la maison comme en voiture.' },
-      { icone: 'appareil', titre: 'Partagé ou personnel', texte: 'Un appareil pour toute la famille, ou celui de l’enfant. Chacun entre avec son code.' },
+      { icone: 'famille', subj: 'emc', titre: 'Le suivi de chaque enfant', texte: 'Le temps passé, les notions acquises et celles à revoir.' },
+      { icone: 'cadenas', subj: 'maths', titre: 'Le minimum de données', texte: 'Un prénom, un avatar, une classe. Ni publicité, ni traceur.' },
+      { icone: 'nuage', subj: 'sciences', titre: 'Même sans réseau', texte: 'Le travail continue hors connexion, à la maison comme en voiture.' },
+      { icone: 'appareil', subj: 'langues', titre: 'Partagé ou personnel', texte: 'Un appareil pour la famille, ou celui de l’enfant, avec son code.' },
     ],
   },
 };
 
-const NOMS_PLATEFORMES: Record<Plateforme, string> = { ios: 'iPhone et iPad', android: 'Android', autre: 'Ordinateur' };
+const NOMS_PLATEFORMES: Record<Plateforme, string> = { ios: 'iPhone, iPad', android: 'Android', autre: 'Ordinateur' };
 
 const moinsDAnimations = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -104,67 +114,118 @@ export function Presentation() {
       </header>
 
       <main>
-        <section className="vitrine__cadre vitrine__hero">
-          <div className="vitrine__hero-texte">
-            <span className="hp-chip hp-chip--primary">Du CP à la 3e</span>
-            <h1 className="vitrine__titre">Réviser un peu chaque jour, à son rythme</h1>
-            <p className="vitrine__chapo">
-              Des séances courtes, des leçons claires et un compagnon, Octave, pour avancer pas à pas.
-              Chaque notion suit le programme officiel de la classe.
-            </p>
-            <div className="vitrine__actions">
-              <Link to="/connexion" className="hp-btn hp-btn--primary hp-btn--lg">Créer l’espace famille</Link>
-              <Link to="/appairer" className="hp-btn hp-btn--secondary hp-btn--lg">J’ai un code enfant</Link>
+        <section className="vitrine__une">
+          <div className="vitrine__cadre vitrine__hero">
+            <div className="vitrine__hero-texte">
+              <span className="hp-chip hp-chip--sun">Du CP à la 3e</span>
+              <h1 className="vitrine__titre">Réviser un peu chaque jour, <span className="vitrine__surligne">à son rythme</span></h1>
+              <p className="vitrine__chapo">Des séances courtes, des leçons claires et Octave pour avancer pas à pas. Chaque notion suit le programme officiel.</p>
+              <div className="vitrine__actions">
+                <Link to="/connexion" className="hp-btn hp-btn--primary hp-btn--lg">Créer l’espace famille</Link>
+                <Link to="/appairer" className="hp-btn hp-btn--secondary hp-btn--lg">J’ai un code enfant</Link>
+              </div>
+              <ol id="fonctionnement" className="vitrine__etapes" aria-label="Comment ça marche">
+                {ETAPES.map((e, i) => (
+                  <li key={e.titre} className={`vitrine__etape vitrine__etape--${e.couleur}`}>
+                    <span className="vitrine__numero" aria-hidden="true">{i + 1}</span>
+                    <div>
+                      <h2 className="vitrine__etape-titre">{e.titre}</h2>
+                      <p>{e.texte}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
             </div>
+            <Essai />
           </div>
-        </section>
-
-        <section id="fonctionnement" className="vitrine__cadre vitrine__fonctionnement" aria-label="Comment ça marche">
-          <ol className="vitrine__etapes">
-            {ETAPES.map((e, i) => (
-              <li key={e.titre} className="vitrine__etape" data-apparition style={{ '--i': i } as CSSProperties}>
-                <span className="vitrine__numero" aria-hidden="true">{i + 1}</span>
-                <div>
-                  <h2 className="vitrine__etape-titre">{e.titre}</h2>
-                  <p>{e.texte}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
         </section>
 
         <section id="decouvrir" className="vitrine__section vitrine__section--teinte">
-          <div className="vitrine__cadre">
-            <div className="vitrine__tete" data-apparition>
-              <h2 className="vitrine__titre-section">Tout le programme, du CP à la 3e</h2>
-              <div className="hp-segment" role="group" aria-label="Afficher">
-                {(Object.keys(ONGLETS) as (keyof typeof ONGLETS)[]).map((o) => (
-                  <button key={o} type="button" aria-pressed={onglet === o} onClick={() => setOnglet(o)}>{ONGLETS[o].libelle}</button>
-                ))}
+          <div className="vitrine__cadre vitrine__duo">
+            <div className="vitrine__programme" data-apparition>
+              <div className="vitrine__tete">
+                <h2 className="vitrine__titre-section">Tout le programme, du CP à la 3e</h2>
+                <div className="hp-segment" role="group" aria-label="Afficher">
+                  {(Object.keys(ONGLETS) as (keyof typeof ONGLETS)[]).map((o) => (
+                    <button key={o} type="button" aria-pressed={onglet === o} onClick={() => setOnglet(o)}>{ONGLETS[o].libelle}</button>
+                  ))}
+                </div>
               </div>
+              <ul key={onglet} className={`vitrine__tuiles vitrine__tuiles--${onglet}`}>
+                {ONGLETS[onglet].tuiles.map((t, i) => (
+                  <li key={t.titre} className={`tuile hp-subj-${t.subj}`} tabIndex={0} style={{ '--i': i } as CSSProperties}>
+                    <div className="tuile__face">
+                      <span className="tuile__icone"><Icone nom={t.icone} taille={22} /></span>
+                      <h3 className="tuile__titre">{t.titre}</h3>
+                    </div>
+                    <span className="tuile__indice" aria-hidden="true"><Icone nom="plus" taille={14} /></span>
+                    <p className="tuile__texte">{t.texte}</p>
+                  </li>
+                ))}
+              </ul>
+              <p className="muet vitrine__note">Conçu d’après les programmes officiels de l’Éducation nationale. Hopla complète la classe, il ne la remplace pas.</p>
             </div>
-            <ul key={onglet} className={`vitrine__tuiles vitrine__tuiles--${onglet}`}>
-              {ONGLETS[onglet].tuiles.map((t, i) => (
-                <li key={t.titre} className="tuile" tabIndex={0} style={{ '--i': i } as CSSProperties}>
-                  <div className="tuile__face">
-                    <span className="tuile__icone"><Icone nom={t.icone} taille={28} /></span>
-                    <h3 className="tuile__titre">{t.titre}</h3>
-                  </div>
-                  <span className="tuile__indice" aria-hidden="true"><Icone nom="plus" taille={16} /></span>
-                  <p className="tuile__texte">{t.texte}</p>
-                </li>
-              ))}
-            </ul>
-            <p className="muet vitrine__note" data-apparition>
-              Conçu d’après les programmes officiels de l’Éducation nationale. Hopla complète le travail fait en classe, il ne le remplace pas.
-            </p>
+            <Installer />
           </div>
         </section>
-
-        <Installer />
       </main>
 
       <PiedDePage />
+    </div>
+  );
+}
+
+/**
+ * Questions d'exemple à essayer : une carte par question, avec la matière et la classe.
+ * Défile seule toutes les 6 secondes, sauf si le visiteur la survole ou vient de répondre.
+ */
+function Essai() {
+  const [i, setI] = useState(0);
+  const [choix, setChoix] = useState<string | null>(null);
+  const [pause, setPause] = useState(false);
+  const ex = EXEMPLES[i]!;
+  const aller = (n: number) => { setI((n + EXEMPLES.length) % EXEMPLES.length); setChoix(null); };
+
+  useEffect(() => {
+    if (moinsDAnimations() || pause) return;
+    const t = setTimeout(() => aller(i + 1), choix ? 3500 : 6000);
+    return () => clearTimeout(t);
+  }, [i, choix, pause]);
+
+  const juste = choix === ex.reponse;
+  return (
+    <div className="essai" onMouseEnter={() => setPause(true)} onMouseLeave={() => setPause(false)}
+      onFocus={() => setPause(true)} onBlur={() => setPause(false)}>
+      <div className="essai__entete">
+        <span className="vitrine__octave"><Octave taille={52} humeur={choix ? (juste ? 'reussite' : 'oups') : 'accueil'} /></span>
+        <p className="essai__invite">Essaie une question de Hopla.</p>
+      </div>
+      <div key={i} className={`hp-card essai__carte hp-subj-${ex.subj}`} aria-live="polite">
+        <span className="essai__matiere">{ex.matiere} · {ex.classe}</span>
+        <p className="essai__question">{ex.question}</p>
+        <div className="essai__options">
+          {ex.options.map((o) => (
+            <button key={o} type="button" disabled={choix !== null}
+              className={`hp-option${choix !== null && o === ex.reponse ? ' hp-option--correct' : ''}${choix === o && !juste ? ' hp-option--wrong' : ''}`}
+              onClick={() => setChoix(o)}>{o}</button>
+          ))}
+        </div>
+        {choix !== null && (
+          <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'} essai__retour`}>
+            <Icone nom={juste ? 'coche' : 'ampoule'} />
+            <div>
+              <p className="hp-feedback__title">{juste ? 'Bravo !' : `C’était : ${ex.reponse}`}</p>
+              <p className="hp-feedback__text">{ex.bravo}</p>
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="essai__points" role="group" aria-label="Choisir une question">
+        {EXEMPLES.map((e, n) => (
+          <button key={n} type="button" aria-label={`Question ${n + 1} : ${e.matiere}, ${e.classe}`} aria-current={n === i}
+            className="essai__point" onClick={() => aller(n)} />
+        ))}
+      </div>
     </div>
   );
 }
@@ -181,37 +242,36 @@ function Installer() {
   }, []);
 
   return (
-    <section id="installer" className="vitrine__section">
-      <div className="vitrine__cadre vitrine__installer">
-        <div className="vitrine__installer-texte" data-apparition>
-          <h2 className="vitrine__titre-section">Installer Hopla</h2>
-          <p>Hopla s’installe depuis le navigateur, sans store : une icône sur l’écran d’accueil, et le travail continue sans réseau.</p>
-          {installee ? (
-            <p className="hp-card"><Icone nom="coche" /> Hopla est installé sur cet appareil.</p>
-          ) : direct ? (
-            <button type="button" className="hp-btn hp-btn--primary hp-btn--lg"
-              onClick={() => void installer().then((ok) => { setInstallee(ok); setDirect(false); })}>Installer Hopla</button>
-          ) : null}
-          {(LIENS_STORES.appStore || LIENS_STORES.googlePlay) && (
-            <div className="vitrine__stores">
-              {LIENS_STORES.appStore && <a className="hp-btn hp-btn--secondary" href={LIENS_STORES.appStore}>App Store</a>}
-              {LIENS_STORES.googlePlay && <a className="hp-btn hp-btn--secondary" href={LIENS_STORES.googlePlay}>Google Play</a>}
-            </div>
-          )}
-          <div className="vitrine__qr">
-            <QrCode taille={128} label="QR code : ouvrir Hopla sur un téléphone ou une tablette" />
-            <p className="muet">Scannez avec le téléphone ou la tablette de l’enfant pour y ouvrir Hopla.</p>
-          </div>
-        </div>
-        <div className="hp-card vitrine__plateforme" data-apparition>
-          <div className="hp-segment" role="group" aria-label="Appareil">
-            {(['ios', 'android', 'autre'] as const).map((x) => (
-              <button key={x} type="button" aria-pressed={p === x} onClick={() => setP(x)}>{NOMS_PLATEFORMES[x]}</button>
-            ))}
-          </div>
-          <InstructionsInstallation key={p} plateforme={p} className="vitrine__instructions" />
-        </div>
+    <aside id="installer" className="vitrine__installer" data-apparition>
+      <div className="vitrine__installer-tete">
+        <span className="tuile__icone vitrine__installer-icone"><Icone nom="appareil" taille={22} /></span>
+        <h2 className="vitrine__titre-carte">Installer Hopla</h2>
       </div>
-    </section>
+      <p>Depuis le navigateur, sans store. Le travail continue sans réseau.</p>
+      <div className="hp-segment" role="group" aria-label="Appareil">
+        {(['ios', 'android', 'autre'] as const).map((x) => (
+          <button key={x} type="button" aria-pressed={p === x} onClick={() => setP(x)}>{NOMS_PLATEFORMES[x]}</button>
+        ))}
+      </div>
+      <InstructionsInstallation key={p} plateforme={p} className="vitrine__instructions" />
+      {(LIENS_STORES.appStore || LIENS_STORES.googlePlay) && (
+        <div className="vitrine__stores">
+          {LIENS_STORES.appStore && <a className="hp-btn hp-btn--secondary" href={LIENS_STORES.appStore}>App Store</a>}
+          {LIENS_STORES.googlePlay && <a className="hp-btn hp-btn--secondary" href={LIENS_STORES.googlePlay}>Google Play</a>}
+        </div>
+      )}
+      <div className="vitrine__installer-bas">
+        <div className="vitrine__qr">
+          <QrCode taille={96} label="QR code : ouvrir Hopla sur un téléphone ou une tablette" />
+          <p className="muet">Scannez avec le téléphone ou la tablette de l’enfant.</p>
+        </div>
+        {installee ? (
+          <p className="muet"><Icone nom="coche" taille={16} /> Installé sur cet appareil.</p>
+        ) : direct ? (
+          <button type="button" className="hp-btn hp-btn--primary"
+            onClick={() => void installer().then((ok) => { setInstallee(ok); setDirect(false); })}>Installer</button>
+        ) : null}
+      </div>
+    </aside>
   );
 }
