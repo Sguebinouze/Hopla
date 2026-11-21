@@ -1,0 +1,96 @@
+{
+  "competence": "FR-C2-CP-GRAM-01",
+  "duree": 4,
+  "essentiel": "Une phrase commence par une majuscule.\nElle finit par un point.\nUne question finit par un point d’interrogation : ?",
+  "parties": [
+    {
+      "titre": "Reconnaitre une phrase",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde le début et la fin.",
+          "exemples": [
+            "Le chat dort.",
+            "Où est mon ballon ?",
+            "Il fait beau !"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle phrase est bien écrite ?",
+          "options": [
+            "Le chien aboie.",
+            "le chien aboie.",
+            "Le chien aboie"
+          ],
+          "reponse": "Le chien aboie.",
+          "explication": "Majuscule au début, point à la fin."
+        }
+      ]
+    },
+    {
+      "titre": "La question",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On oublie la majuscule après un point.",
+          "correction": "Après un point, une nouvelle phrase commence : majuscule."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle phrase est une question ?",
+          "options": [
+            "Tu viens ?",
+            "Tu viens.",
+            "Viens !"
+          ],
+          "reponse": "Tu viens ?",
+          "explication": "Elle finit par ?."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une phrase commence par :",
+      "options": [
+        "une majuscule",
+        "un point",
+        "une virgule"
+      ],
+      "reponse": "une majuscule",
+      "explication": "Comme le L de « Le chat dort. »."
+    },
+    {
+      "consigne": "« Il pleut. Je reste ici. » Combien de phrases ?",
+      "options": [
+        "2",
+        "1",
+        "5"
+      ],
+      "reponse": "2",
+      "explication": "Deux points, deux phrases."
+    },
+    {
+      "consigne": "« Quel âge as-tu » finit par :",
+      "options": [
+        "?",
+        ".",
+        "!"
+      ],
+      "reponse": "?",
+      "explication": "C’est une question."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 20,
+      "extrait": "S’approprier progressivement la notion de phrase simple",
+      "appui": "La phrase simple"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,125 @@
+{
+  "competence": "FR-C2-CP-LECT-01",
+  "duree": 5,
+  "essentiel": "Les lettres écrivent les sons.\nUn son peut s’écrire avec plusieurs lettres : ou, on, ch.\nLe son « o » s’écrit o, au ou eau.",
+  "parties": [
+    {
+      "titre": "Des lettres pour un son",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Écoute le son « ou ».",
+          "exemples": [
+            "loup",
+            "roue",
+            "mouton"
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des sons et leurs lettres",
+          "colonnes": [
+            "Son",
+            "Lettres",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "« ou »",
+              "ou",
+              "loup"
+            ],
+            [
+              "« on »",
+              "on",
+              "pont"
+            ],
+            [
+              "« ch »",
+              "ch",
+              "chat"
+            ],
+            [
+              "« o »",
+              "o, au, eau",
+              "vélo, chaud, bateau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « chat », quel son entends-tu au début ?",
+          "options": [
+            "« ch »",
+            "« s »",
+            "« c »"
+          ],
+          "reponse": "« ch »",
+          "explication": "c et h ensemble font « ch »."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver le son",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver un son",
+          "etapes": [
+            "Dis le mot lentement.",
+            "Écoute chaque son.",
+            "Cherche les lettres de ce son."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit o puis u dans « ou ».",
+          "correction": "o et u ensemble font un seul son : « ou »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot contient le son « on » ?",
+      "options": [
+        "ballon",
+        "bulle",
+        "balai"
+      ],
+      "reponse": "ballon",
+      "explication": "bal-lon : on entend « on »."
+    },
+    {
+      "consigne": "Dans « bateau », le son « o » s’écrit :",
+      "options": [
+        "eau",
+        "o",
+        "au"
+      ],
+      "reponse": "eau",
+      "explication": "ba-teau."
+    },
+    {
+      "consigne": "Combien de lettres pour le son « ch » ?",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "reponse": "2",
+      "explication": "c et h."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 5,
+      "extrait": "Décoder et encoder de 25 à 30 CGP.",
+      "appui": "Associer lettres et sons"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C2-CP-ORTH-02",
+  "duree": 6,
+  "essentiel": "Devant m, b ou p, on écrit m : jambe, pompe.\nEntre deux voyelles, s fait le son « z » : rose.\nPour entendre « s » entre deux voyelles, on écrit ss : tasse.",
+  "parties": [
+    {
+      "titre": "m devant m, b, p",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde la lettre avant m, b ou p.",
+          "exemples": [
+            "chambre",
+            "tambour",
+            "pompier"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « janbe ».",
+          "correction": "Devant b, on écrit m : jambe."
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : une la…pe",
+          "options": [
+            "m",
+            "n"
+          ],
+          "reponse": "m",
+          "explication": "Devant p, on écrit m : lampe."
+        }
+      ]
+    },
+    {
+      "titre": "s ou ss",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Écoute la différence",
+          "colonnes": [
+            "s : son « z »",
+            "ss : son « s »"
+          ],
+          "lignes": [
+            [
+              "rose",
+              "tasse"
+            ],
+            [
+              "poison",
+              "poisson"
+            ],
+            [
+              "désert",
+              "dessert"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « cousin », le s se lit :",
+          "options": [
+            "« z »",
+            "« s »",
+            "« ch »"
+          ],
+          "reponse": "« z »",
+          "explication": "Il est entre deux voyelles : ou et i."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot est bien écrit ?",
+      "options": [
+        "tambour",
+        "tanbour",
+        "tammbour"
+      ],
+      "reponse": "tambour",
+      "explication": "Devant b, on écrit m."
+    },
+    {
+      "consigne": "Complète : une ca…erole (son « s »)",
+      "options": [
+        "ss",
+        "s",
+        "z"
+      ],
+      "reponse": "ss",
+      "explication": "Entre deux voyelles, ss fait « s »."
+    },
+    {
+      "consigne": "Complète : une po…me",
+      "options": [
+        "m",
+        "n"
+      ],
+      "reponse": "m",
+      "explication": "Devant m, on écrit m : pomme."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Connaitre la valeur sonore de certaines lettres (s – c – g)",
+      "appui": "m devant m, b, p ; valeur du s"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

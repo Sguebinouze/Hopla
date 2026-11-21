@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C2-CP-DICT-01",
+  "duree": 4,
+  "essentiel": "Je dis le mot lentement.\nJ’écris chaque son, dans l’ordre.\nJe relis : est-ce bien le mot entendu ?",
+  "parties": [
+    {
+      "titre": "Son par son",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Écris le mot « moto ».",
+          "etapes": [
+            "J’entends « m », « o », « t », « o ».",
+            "J’écris m, o, t, o."
+          ],
+          "conclusion": "moto"
+        }
+      ]
+    },
+    {
+      "titre": "Syllabe par syllabe",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire un mot long",
+          "etapes": [
+            "Découpe le mot en syllabes : ca-na-pé.",
+            "Écris chaque syllabe.",
+            "Relis le mot en entier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie un son du milieu.",
+          "correction": "Relis en suivant avec le doigt."
+        },
+        {
+          "type": "question",
+          "consigne": "On entend « lu-ne ». Comment s’écrit ce mot ?",
+          "options": [
+            "lune",
+            "lunne",
+            "lnue"
+          ],
+          "reponse": "lune",
+          "explication": "lu, puis ne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot entends-tu : ra-di-o ?",
+      "options": [
+        "radio",
+        "rado",
+        "raido"
+      ],
+      "reponse": "radio",
+      "explication": "ra, di, o."
+    },
+    {
+      "consigne": "Il manque une syllabe : ca … pé. Laquelle ?",
+      "options": [
+        "na",
+        "pa",
+        "ca"
+      ],
+      "reponse": "na",
+      "explication": "ca-na-pé."
+    },
+    {
+      "consigne": "Que fais-tu après avoir écrit ?",
+      "options": [
+        "je relis",
+        "je cache",
+        "j’efface tout"
+      ],
+      "reponse": "je relis",
+      "explication": "Je vérifie chaque son."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 9,
+      "extrait": "Encoder des syllabes simples puis des mots selon la progression des CGP",
+      "appui": "Encoder des mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

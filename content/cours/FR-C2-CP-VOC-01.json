@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C2-CP-VOC-01",
+  "duree": 5,
+  "essentiel": "Les mots d’une même famille se ressemblent.\nIls parlent de la même chose.\njardin, jardiner, jardinier.",
+  "parties": [
+    {
+      "titre": "Des familles",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Famille de mots",
+              "definition": "Mots formés à partir du même radical : dent, dentiste, dentier."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Chaque ligne est une famille.",
+          "exemples": [
+            "dent, dentiste, dentifrice",
+            "fleur, fleurir, fleuriste",
+            "la danse, danser, le danseur"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot est de la famille de « dent » ?",
+          "options": [
+            "dentiste",
+            "dans",
+            "danse"
+          ],
+          "reponse": "dentiste",
+          "explication": "Le dentiste soigne les dents."
+        }
+      ]
+    },
+    {
+      "titre": "Attention aux faux amis",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que « lait » et « laid » sont de la même famille.",
+          "correction": "Ils se ressemblent, mais leur sens est différent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel verbe va avec « la danse » ?",
+      "options": [
+        "danser",
+        "dent",
+        "dessin"
+      ],
+      "reponse": "danser",
+      "explication": "La danse, danser."
+    },
+    {
+      "consigne": "Quel mot n’est pas de la famille de « fleur » ?",
+      "options": [
+        "flûte",
+        "fleuriste",
+        "fleurir"
+      ],
+      "reponse": "flûte",
+      "explication": "La flûte ne parle pas de fleurs."
+    },
+    {
+      "consigne": "Le jardinier travaille dans le :",
+      "options": [
+        "jardin",
+        "garage",
+        "grenier"
+      ],
+      "reponse": "jardin",
+      "explication": "Jardin, jardinier."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 16,
+      "extrait": "Il sait associer le nom et le verbe d’une même famille de",
+      "appui": "Familles de mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

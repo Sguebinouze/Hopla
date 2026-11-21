@@ -1,0 +1,103 @@
+{
+  "competence": "FR-C2-CP-ORTH-01",
+  "duree": 5,
+  "essentiel": "Certaines lettres ne s’entendent pas : ce sont des lettres muettes.\nPour les trouver, je cherche un mot de la même famille.\nlait, laitier : on entend le t.",
+  "parties": [
+    {
+      "titre": "Entendre la lettre muette",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Famille de mots",
+              "definition": "Mots formés à partir du même radical : dent, dentiste, dentier."
+            }
+          ]
+        },
+        {
+          "type": "observe",
+          "consigne": "Le mot de la famille fait entendre la lettre.",
+          "exemples": [
+            "chat, chaton : t",
+            "grand, grande : d",
+            "gris, grise : s"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la lettre muette de « petit » ?",
+          "options": [
+            "t",
+            "e",
+            "s"
+          ],
+          "reponse": "t",
+          "explication": "On dit petite : on entend le t."
+        }
+      ]
+    },
+    {
+      "titre": "Méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour trouver une lettre muette",
+          "etapes": [
+            "Cherche un mot de la même famille.",
+            "Dis-le à voix haute.",
+            "Écoute la lettre de la fin."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le t de « dent ».",
+          "correction": "Pense à dentiste : on entend le t."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Bavard » finit par un d car on dit :",
+      "options": [
+        "bavarder",
+        "bave",
+        "bateau"
+      ],
+      "reponse": "bavarder",
+      "explication": "Dans bavarder, on entend le d."
+    },
+    {
+      "consigne": "Quelle lettre finit « tapis » ? Pense à tapisser.",
+      "options": [
+        "s",
+        "t",
+        "d"
+      ],
+      "reponse": "s",
+      "explication": "Dans tapisser, on entend le s."
+    },
+    {
+      "consigne": "Quelle lettre muette finit « rang » ? Pense à ranger.",
+      "options": [
+        "g",
+        "t",
+        "s"
+      ],
+      "reponse": "g",
+      "explication": "Dans ranger, on entend le g."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 17,
+      "extrait": "Être capable de comprendre la présence d’une lettre",
+      "appui": "Lettres muettes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

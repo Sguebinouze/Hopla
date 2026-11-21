@@ -1,0 +1,95 @@
+{
+  "competence": "FR-C2-CP-ECOU-01",
+  "duree": 4,
+  "essentiel": "J’écoute jusqu’au bout avant d’agir.\nJe retiens les mots importants : quoi faire, avec quoi.\nSi je n’ai pas compris, je demande de répéter.",
+  "parties": [
+    {
+      "titre": "Les mots importants",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Consigne : « Prends ton crayon bleu et entoure le chat. »",
+          "exemples": [
+            "Quoi faire ? Entourer.",
+            "Avec quoi ? Le crayon bleu.",
+            "Quoi entourer ? Le chat."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Colorie la maison en rouge. » Quelle couleur ?",
+          "options": [
+            "rouge",
+            "bleu",
+            "vert"
+          ],
+          "reponse": "rouge",
+          "explication": "Le mot important : rouge."
+        }
+      ]
+    },
+    {
+      "titre": "Bien écouter",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour bien écouter",
+          "etapes": [
+            "Regarde la personne qui parle.",
+            "Écoute jusqu’au bout.",
+            "Redis la consigne dans ta tête.",
+            "Puis agis."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On commence avant la fin de la consigne.",
+          "correction": "Attends la fin : il manque peut-être une information."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Que fais-tu si tu n’as pas compris ?",
+      "options": [
+        "je demande de répéter",
+        "je devine",
+        "je ne fais rien"
+      ],
+      "reponse": "je demande de répéter",
+      "explication": "On a le droit de demander."
+    },
+    {
+      "consigne": "« Range ton cahier dans ton cartable. » Où ?",
+      "options": [
+        "dans le cartable",
+        "sur la table",
+        "dans la trousse"
+      ],
+      "reponse": "dans le cartable",
+      "explication": "Le lieu : le cartable."
+    },
+    {
+      "consigne": "Quand faut-il commencer ?",
+      "options": [
+        "à la fin de la consigne",
+        "au premier mot",
+        "avant la consigne"
+      ],
+      "reponse": "à la fin de la consigne",
+      "explication": "On écoute tout d’abord."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 13,
+      "extrait": "Comprendre un message entendu de quelques minutes et mémoriser quelques informations importantes",
+      "appui": "Comprendre un message entendu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,85 @@
+{
+  "competence": "FR-C2-CP-ECR-01",
+  "duree": 4,
+  "essentiel": "Les mots d’une phrase vont dans le bon ordre.\nLe premier mot prend une majuscule.\nLa phrase finit par un point.",
+  "parties": [
+    {
+      "titre": "Remettre en ordre",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range les mots : dort / chat / le",
+          "etapes": [
+            "Qui ? le chat.",
+            "Que fait-il ? Il dort."
+          ],
+          "conclusion": "Le chat dort."
+        },
+        {
+          "type": "question",
+          "consigne": "Range : mange / Léo / une pomme",
+          "options": [
+            "Léo mange une pomme.",
+            "Une pomme mange Léo.",
+            "Mange Léo une pomme."
+          ],
+          "reponse": "Léo mange une pomme.",
+          "explication": "Qui ? Léo. Que fait-il ? Il mange une pomme."
+        }
+      ]
+    },
+    {
+      "titre": "Majuscule et point",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On oublie la majuscule du premier mot.",
+          "correction": "Au début, « le » devient « Le »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Range : saute / la grenouille",
+      "options": [
+        "La grenouille saute.",
+        "Saute la grenouille.",
+        "la grenouille saute"
+      ],
+      "reponse": "La grenouille saute.",
+      "explication": "Qui saute ? La grenouille."
+    },
+    {
+      "consigne": "Range : joue / Zoé / au ballon",
+      "options": [
+        "Zoé joue au ballon.",
+        "Au ballon Zoé joue.",
+        "Joue Zoé au ballon."
+      ],
+      "reponse": "Zoé joue au ballon.",
+      "explication": "Qui ? Zoé. Que fait-elle ? Elle joue."
+    },
+    {
+      "consigne": "Le premier mot d’une phrase prend :",
+      "options": [
+        "une majuscule",
+        "un point",
+        "un s"
+      ],
+      "reponse": "une majuscule",
+      "explication": "Le point va à la fin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 10,
+      "extrait": "L’élève compose des phrases à l’aide d’étiquettes mobiles qu’il sait déchiffrer",
+      "appui": "Composer une phrase"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

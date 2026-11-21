@@ -1,0 +1,115 @@
+{
+  "competence": "FR-C2-CP-LECT-04",
+  "duree": 5,
+  "essentiel": "Dans les contes, on retrouve souvent les mêmes personnages.\nLe loup et l’ogre sont méchants. La fée aide.\nLe roi et la reine vivent dans un château.",
+  "parties": [
+    {
+      "titre": "Les personnages",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Personnage",
+            "Souvent"
+          ],
+          "lignes": [
+            [
+              "le loup",
+              "il est rusé et veut manger"
+            ],
+            [
+              "la fée",
+              "elle aide avec sa baguette"
+            ],
+            [
+              "la sorcière",
+              "elle jette des sorts"
+            ],
+            [
+              "l’ogre",
+              "il est grand et fait peur"
+            ],
+            [
+              "le roi, la reine",
+              "ils vivent au château"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Qui a une baguette magique ?",
+          "options": [
+            "la fée",
+            "le loup",
+            "l’ogre"
+          ],
+          "reponse": "la fée",
+          "explication": "La fée aide grâce à la magie."
+        }
+      ]
+    },
+    {
+      "titre": "Dans quels contes ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des contes et leurs personnages.",
+          "exemples": [
+            "Le Petit Chaperon rouge : le loup.",
+            "Le Petit Poucet : l’ogre.",
+            "Cendrillon : la fée."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les personnages sont gentils.",
+          "correction": "Un conte oppose souvent un héros à un méchant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans quel conte trouve-t-on un ogre ?",
+      "options": [
+        "Le Petit Poucet",
+        "Cendrillon",
+        "Boucle d’or"
+      ],
+      "reponse": "Le Petit Poucet",
+      "explication": "Poucet trompe l’ogre."
+    },
+    {
+      "consigne": "Où vit souvent le roi ?",
+      "options": [
+        "dans un château",
+        "dans une grotte",
+        "dans un terrier"
+      ],
+      "reponse": "dans un château",
+      "explication": "Avec la reine."
+    },
+    {
+      "consigne": "Le loup du Petit Chaperon rouge est :",
+      "options": [
+        "méchant",
+        "gentil",
+        "magique"
+      ],
+      "reponse": "méchant",
+      "explication": "Il veut manger la fillette."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 6,
+      "extrait": "Repérer et reconnaitre des types de personnages",
+      "appui": "Personnages types des contes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

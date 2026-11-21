@@ -1,0 +1,94 @@
+{
+  "competence": "FR-C2-CP-LECT-03",
+  "duree": 5,
+  "essentiel": "Pour comprendre, je cherche qui, où et quoi.\nQui ? Le personnage. Où ? Le lieu.\nQuoi ? Ce que fait le personnage.",
+  "parties": [
+    {
+      "titre": "Qui, où, quoi ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Lis : « Tom joue au ballon dans le jardin. »",
+          "exemples": [
+            "Qui ? Tom.",
+            "Où ? Dans le jardin.",
+            "Quoi ? Il joue au ballon."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Mila lit un livre dans sa chambre. » Où est Mila ?",
+          "options": [
+            "dans sa chambre",
+            "dans le jardin",
+            "à l’école"
+          ],
+          "reponse": "dans sa chambre",
+          "explication": "C’est écrit dans la phrase."
+        }
+      ]
+    },
+    {
+      "titre": "Méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour répondre à une question",
+          "etapes": [
+            "Lis la phrase.",
+            "Lis la question.",
+            "Cherche la réponse dans la phrase."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond avec une idée à soi.",
+          "correction": "La réponse est écrite dans le texte."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Le chat dort sur le lit. » Qui dort ?",
+      "options": [
+        "le chat",
+        "le lit",
+        "le chien"
+      ],
+      "reponse": "le chat",
+      "explication": "Le chat est le personnage."
+    },
+    {
+      "consigne": "« Papa fait une soupe. » Que fait papa ?",
+      "options": [
+        "une soupe",
+        "un gâteau",
+        "la sieste"
+      ],
+      "reponse": "une soupe",
+      "explication": "C’est écrit dans la phrase."
+    },
+    {
+      "consigne": "« Le chien court au parc. » Où court-il ?",
+      "options": [
+        "au parc",
+        "à la plage",
+        "au lit"
+      ],
+      "reponse": "au parc",
+      "explication": "Le lieu : au parc."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 5,
+      "extrait": "Dégager le sens global d’un texte entendu ou lu de façon autonome",
+      "appui": "Comprendre un texte lu"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

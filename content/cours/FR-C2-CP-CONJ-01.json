@@ -1,0 +1,137 @@
+{
+  "competence": "FR-C2-CP-CONJ-01",
+  "duree": 6,
+  "essentiel": "Être et avoir sont deux verbes très utiles.\nJe suis content. J’ai un chat.\nNous sommes à l’école. Nous avons un livre.",
+  "parties": [
+    {
+      "titre": "Les deux verbes",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Verbe",
+              "definition": "Mot qui dit ce que fait le sujet. Il change avec le temps."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Au présent",
+          "colonnes": [
+            "Qui ?",
+            "être",
+            "avoir"
+          ],
+          "lignes": [
+            [
+              "je",
+              "suis",
+              "ai (j’ai)"
+            ],
+            [
+              "tu",
+              "es",
+              "as"
+            ],
+            [
+              "il, elle",
+              "est",
+              "a"
+            ],
+            [
+              "nous",
+              "sommes",
+              "avons"
+            ],
+            [
+              "vous",
+              "êtes",
+              "avez"
+            ],
+            [
+              "ils, elles",
+              "sont",
+              "ont"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Nous … contents.",
+          "options": [
+            "sommes",
+            "avons",
+            "sont"
+          ],
+          "reponse": "sommes",
+          "explication": "Être avec nous : nous sommes."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « tu a ».",
+          "correction": "Avec tu, on écrit tu as. Avec il, on écrit il a."
+        },
+        {
+          "type": "question",
+          "consigne": "Tu … un vélo.",
+          "options": [
+            "as",
+            "a",
+            "es"
+          ],
+          "reponse": "as",
+          "explication": "Avoir avec tu : tu as."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Ils … petits.",
+      "options": [
+        "sont",
+        "ont",
+        "est"
+      ],
+      "reponse": "sont",
+      "explication": "Être avec ils : ils sont."
+    },
+    {
+      "consigne": "J’… froid.",
+      "options": [
+        "ai",
+        "suis",
+        "a"
+      ],
+      "reponse": "ai",
+      "explication": "Avoir avec je : j’ai."
+    },
+    {
+      "consigne": "Vous … gentils.",
+      "options": [
+        "êtes",
+        "avez",
+        "sont"
+      ],
+      "reponse": "êtes",
+      "explication": "Être avec vous : vous êtes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 20,
+      "extrait": "Apprendre à conjuguer être et avoir au présent de",
+      "appui": "Être et avoir au présent"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

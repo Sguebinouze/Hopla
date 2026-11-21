@@ -1,0 +1,96 @@
+{
+  "competence": "FR-C2-CP-VOC-02",
+  "duree": 5,
+  "essentiel": "L’alphabet a 26 lettres, de A à Z.\nPour ranger des mots, je regarde leur première lettre.\nbateau vient avant chat, car b vient avant c.",
+  "parties": [
+    {
+      "titre": "L’alphabet",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Dis l’alphabet dans l’ordre.",
+          "exemples": [
+            "A B C D E F G",
+            "H I J K L M N",
+            "O P Q R S T U",
+            "V W X Y Z"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle lettre vient après M ?",
+          "options": [
+            "N",
+            "L",
+            "O"
+          ],
+          "reponse": "N",
+          "explication": "L, M, N."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger des mots",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range : lion, âne, tigre.",
+          "etapes": [
+            "âne commence par a.",
+            "lion commence par l.",
+            "tigre commence par t."
+          ],
+          "conclusion": "âne, lion, tigre."
+        },
+        {
+          "type": "piege",
+          "erreur": "On range les mots du plus court au plus long.",
+          "correction": "On range selon la première lettre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel mot vient en premier ?",
+      "options": [
+        "arbre",
+        "zèbre",
+        "maison"
+      ],
+      "reponse": "arbre",
+      "explication": "a vient avant m et z."
+    },
+    {
+      "consigne": "Quelle lettre vient avant D ?",
+      "options": [
+        "C",
+        "E",
+        "B"
+      ],
+      "reponse": "C",
+      "explication": "B, C, D."
+    },
+    {
+      "consigne": "Range : pomme, cerise, fraise. Le 2e mot est :",
+      "options": [
+        "fraise",
+        "pomme",
+        "cerise"
+      ],
+      "reponse": "fraise",
+      "explication": "cerise, fraise, pomme."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 16,
+      "extrait": "Commencer à mobiliser l’ordre alphabétique pour utiliser un dictionnaire adapté",
+      "appui": "L’ordre alphabétique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

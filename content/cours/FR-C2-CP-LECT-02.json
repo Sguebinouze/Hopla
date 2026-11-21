@@ -1,0 +1,105 @@
+{
+  "competence": "FR-C2-CP-LECT-02",
+  "duree": 5,
+  "essentiel": "Un mot se découpe en syllabes.\nOn tape une fois dans les mains par syllabe.\nla-pin : 2 syllabes. pa-pi-llon : 3 syllabes.",
+  "parties": [
+    {
+      "titre": "Compter les syllabes",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Tape dans tes mains à chaque syllabe.",
+          "exemples": [
+            "chat : 1 syllabe",
+            "vé-lo : 2 syllabes",
+            "é-lé-phant : 3 syllabes"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de syllabes dans « papillon » ?",
+          "options": [
+            "3",
+            "2",
+            "8"
+          ],
+          "reponse": "3",
+          "explication": "pa-pi-llon."
+        }
+      ]
+    },
+    {
+      "titre": "Première et dernière syllabe",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Trouve la première et la dernière syllabe de « moto ».",
+          "etapes": [
+            "Je découpe : mo-to.",
+            "La première est mo. La dernière est to."
+          ],
+          "conclusion": "mo, puis to."
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte les lettres au lieu des syllabes.",
+          "correction": "Une syllabe, c’est un coup dans les mains."
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle est la première syllabe de « lapin » ?",
+          "options": [
+            "la",
+            "pin",
+            "l"
+          ],
+          "reponse": "la",
+          "explication": "la-pin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle est la dernière syllabe de « canard » ?",
+      "options": [
+        "nard",
+        "ca",
+        "d"
+      ],
+      "reponse": "nard",
+      "explication": "ca-nard."
+    },
+    {
+      "consigne": "Quel mot a une seule syllabe ?",
+      "options": [
+        "pain",
+        "lapin",
+        "tortue"
+      ],
+      "reponse": "pain",
+      "explication": "On tape une seule fois."
+    },
+    {
+      "consigne": "Combien de syllabes dans « vélo » ?",
+      "options": [
+        "2",
+        "1",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "vé-lo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 5,
+      "extrait": "Déchiffrer des syllabes, des mots puis des phrases en",
+      "appui": "Déchiffrer des syllabes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

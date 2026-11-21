@@ -1,0 +1,96 @@
+{
+  "competence": "FR-C2-CP-DICT-02",
+  "duree": 5,
+  "essentiel": "J’écoute toute la phrase.\nJ’écris mot après mot, avec un espace entre deux mots.\nMajuscule au début, point à la fin. Puis je relis.",
+  "parties": [
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour écrire une phrase dictée",
+          "etapes": [
+            "Écoute la phrase en entier.",
+            "Répète-la dans ta tête.",
+            "Écris le premier mot avec une majuscule.",
+            "Écris les autres mots, séparés par un espace.",
+            "Mets le point, puis relis."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Dictée : « Le lapin mange. »",
+          "etapes": [
+            "Le : une majuscule.",
+            "lapin, mange : je laisse un espace entre les mots."
+          ],
+          "conclusion": "Le lapin mange."
+        },
+        {
+          "type": "piege",
+          "erreur": "On colle les mots : « lelapin ».",
+          "correction": "Laisse un espace entre deux mots."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de mots dans « Il fait beau. » ?",
+          "options": [
+            "3",
+            "2",
+            "9"
+          ],
+          "reponse": "3",
+          "explication": "Il, fait, beau."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Entre deux mots, je laisse :",
+      "options": [
+        "un espace",
+        "un point",
+        "une majuscule"
+      ],
+      "reponse": "un espace",
+      "explication": "Les mots ne se touchent pas."
+    },
+    {
+      "consigne": "Quelle phrase est bien écrite ?",
+      "options": [
+        "Le bébé dort.",
+        "lebébé dort.",
+        "Le bébé dort"
+      ],
+      "reponse": "Le bébé dort.",
+      "explication": "Majuscule, espaces et point."
+    },
+    {
+      "consigne": "À la fin de la dictée, je :",
+      "options": [
+        "relis",
+        "déchire",
+        "recopie tout"
+      ],
+      "reponse": "relis",
+      "explication": "Je vérifie chaque mot."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 10,
+      "extrait": "Écrire sous la dictée des mots et des phrases.",
+      "appui": "Écrire sous la dictée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

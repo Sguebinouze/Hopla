@@ -1,0 +1,126 @@
+{
+  "competence": "FR-C2-CP-ORTH-03",
+  "duree": 5,
+  "essentiel": "Au pluriel, on ajoute souvent un s : un chat, des chats.\nAu féminin, l’adjectif prend souvent un e : petit, petite.\nCe s et ce e ne s’entendent pas toujours.",
+  "parties": [
+    {
+      "titre": "Le pluriel",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Nom",
+              "definition": "Mot qui désigne une personne, un animal, une chose ou une idée."
+            },
+            {
+              "mot": "Adjectif",
+              "definition": "Mot qui dit comment est le nom : petit, rouge, gentil."
+            }
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Un ou plusieurs",
+          "colonnes": [
+            "Singulier",
+            "Pluriel"
+          ],
+          "lignes": [
+            [
+              "un ballon rouge",
+              "des ballons rouges"
+            ],
+            [
+              "le vélo",
+              "les vélos"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie le s, car on ne l’entend pas.",
+          "correction": "Après des ou les, pense au s."
+        },
+        {
+          "type": "question",
+          "consigne": "Au pluriel, « une fleur » devient :",
+          "options": [
+            "des fleurs",
+            "des fleur",
+            "une fleurs"
+          ],
+          "reponse": "des fleurs",
+          "explication": "Plusieurs fleurs : un s."
+        }
+      ]
+    },
+    {
+      "titre": "Le féminin",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "L’adjectif change avec le nom.",
+          "exemples": [
+            "un petit garçon, une petite fille",
+            "un chat gris, une souris grise"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Au féminin, « grand » devient :",
+          "options": [
+            "grande",
+            "grands",
+            "grand"
+          ],
+          "reponse": "grande",
+          "explication": "On ajoute un e."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel groupe est au pluriel ?",
+      "options": [
+        "les vélos",
+        "le vélo",
+        "un vélo"
+      ],
+      "reponse": "les vélos",
+      "explication": "Les : plusieurs vélos."
+    },
+    {
+      "consigne": "Complète : des pomme… vertes",
+      "options": [
+        "s",
+        "e",
+        "x"
+      ],
+      "reponse": "s",
+      "explication": "Des pommes : plusieurs."
+    },
+    {
+      "consigne": "Une robe vert… ?",
+      "options": [
+        "e",
+        "s",
+        "t"
+      ],
+      "reponse": "e",
+      "explication": "Robe est féminin : verte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 20,
+      "extrait": "Comprendre les notions de singulier et de pluriel",
+      "appui": "Singulier, pluriel, féminin"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

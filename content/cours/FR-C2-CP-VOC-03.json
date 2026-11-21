@@ -1,0 +1,113 @@
+{
+  "competence": "FR-C2-CP-VOC-03",
+  "duree": 4,
+  "essentiel": "On peut ranger les mots par catégorie.\nPomme, poire, banane : ce sont des fruits.\nChaise, table, lit : ce sont des meubles.",
+  "parties": [
+    {
+      "titre": "Des catégories",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ranger les mots",
+          "colonnes": [
+            "Catégorie",
+            "Des mots"
+          ],
+          "lignes": [
+            [
+              "fruits",
+              "pomme, poire"
+            ],
+            [
+              "animaux",
+              "chien, lion"
+            ],
+            [
+              "meubles",
+              "chaise, lit"
+            ],
+            [
+              "vêtements",
+              "pull, jupe"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pantalon est :",
+          "options": [
+            "un vêtement",
+            "un fruit",
+            "un meuble"
+          ],
+          "reponse": "un vêtement",
+          "explication": "On le porte sur soi."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver l’intrus",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On range un mot avec ceux qui lui ressemblent à l’écrit.",
+          "correction": "On range selon le sens : la poule est un animal."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel mot n’est pas un animal ?",
+          "options": [
+            "table",
+            "chat",
+            "lapin"
+          ],
+          "reponse": "table",
+          "explication": "La table est un meuble."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Chaussette, bonnet, robe sont des :",
+      "options": [
+        "vêtements",
+        "fruits",
+        "meubles"
+      ],
+      "reponse": "vêtements",
+      "explication": "On les porte."
+    },
+    {
+      "consigne": "Quel mot est un fruit ?",
+      "options": [
+        "la cerise",
+        "la chaise",
+        "la chemise"
+      ],
+      "reponse": "la cerise",
+      "explication": "La cerise se mange."
+    },
+    {
+      "consigne": "Trouve l’intrus : lion, tigre, armoire.",
+      "options": [
+        "armoire",
+        "lion",
+        "tigre"
+      ],
+      "reponse": "armoire",
+      "explication": "L’armoire est un meuble."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-francais-c2",
+      "page": 16,
+      "extrait": "Réemployer et mémoriser le vocabulaire appris en maternelle",
+      "appui": "Catégories de mots"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
