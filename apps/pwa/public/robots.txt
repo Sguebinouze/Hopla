@@ -1,0 +1,4 @@
+# Exploration autorisée pour que les moteurs lisent la consigne noindex
+# (en-tête X-Robots-Tag et balise robots). Bloquer ici les empêcherait de la voir.
+User-agent: *
+Allow: /

@@ -1,4 +1,7 @@
+# Pas d'indexation par les moteurs de recherche tant que le site n'est pas ouvert au public.
+# Pour ouvrir : retirer X-Robots-Tag ici et la balise robots de index.html.
 /*
+  X-Robots-Tag: noindex, nofollow
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), geolocation=()
