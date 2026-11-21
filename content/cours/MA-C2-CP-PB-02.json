@@ -1,0 +1,95 @@
+{
+  "competence": "MA-C2-CP-PB-02",
+  "duree": 6,
+  "essentiel": "Certains problèmes se font en deux calculs.\nJe trouve d’abord un résultat utile.\nPuis je m’en sers pour répondre.",
+  "parties": [
+    {
+      "titre": "Un exemple",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un bus transporte 18 enfants. 6 descendent, puis 4 montent. Combien d’enfants maintenant ?",
+          "etapes": [
+            "18 − 6 = 12.",
+            "12 + 4 = 16."
+          ],
+          "conclusion": "Il y a 16 enfants dans le bus."
+        }
+      ]
+    },
+    {
+      "titre": "La méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour un problème en deux étapes",
+          "etapes": [
+            "Lis tout le problème.",
+            "Trouve ce qu’on demande.",
+            "Fais le premier calcul.",
+            "Utilise son résultat pour le deuxième."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond après le premier calcul.",
+          "correction": "Relis la question. A-t-on vraiment répondu ?"
+        },
+        {
+          "type": "question",
+          "consigne": "Lina a 9 billes rouges et 7 bleues. Elle en donne 5. Combien lui en reste-t-il ?",
+          "options": [
+            "11",
+            "16",
+            "21"
+          ],
+          "reponse": "11",
+          "explication": "9 + 7 = 16, puis 16 − 5 = 11."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "J’ai 10 images. J’en reçois 8, puis j’en donne 3. Combien en ai-je ?",
+      "options": [
+        "15",
+        "21",
+        "5"
+      ],
+      "reponse": "15",
+      "explication": "10 + 8 = 18, puis 18 − 3 = 15."
+    },
+    {
+      "consigne": "Un panier a 12 pommes et 9 poires. On mange 6 fruits. Combien en reste-t-il ?",
+      "options": [
+        "15",
+        "27",
+        "21"
+      ],
+      "reponse": "15",
+      "explication": "12 + 9 = 21, puis 21 − 6 = 15."
+    },
+    {
+      "consigne": "Il y a 25 places. 11 enfants s’assoient, puis 6 autres. Combien de places libres ?",
+      "options": [
+        "8",
+        "14",
+        "19"
+      ],
+      "reponse": "8",
+      "explication": "11 + 6 = 17, puis 25 − 17 = 8."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 9,
+      "extrait": "Il y avait 29 enfants dans un bus.",
+      "appui": "Problèmes en deux étapes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

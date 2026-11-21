@@ -1,0 +1,131 @@
+{
+  "competence": "MA-C2-CP-CALC-04",
+  "duree": 5,
+  "essentiel": "Les compléments à 10 se savent par cœur : 3 + 7 = 10.\nDe 37 à 40, il faut 3.\nCar 7 + 3 = 10.",
+  "parties": [
+    {
+      "titre": "Les compléments à 10",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pour faire 10",
+          "colonnes": [
+            "Nombre",
+            "Complément à 10"
+          ],
+          "lignes": [
+            [
+              "1",
+              "9"
+            ],
+            [
+              "2",
+              "8"
+            ],
+            [
+              "3",
+              "7"
+            ],
+            [
+              "4",
+              "6"
+            ],
+            [
+              "5",
+              "5"
+            ],
+            [
+              "6",
+              "4"
+            ],
+            [
+              "7",
+              "3"
+            ],
+            [
+              "8",
+              "2"
+            ],
+            [
+              "9",
+              "1"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "6 + … = 10 ?",
+          "options": [
+            "4",
+            "5",
+            "16"
+          ],
+          "reponse": "4",
+          "explication": "6 + 4 = 10."
+        }
+      ]
+    },
+    {
+      "titre": "Jusqu’à la dizaine",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Combien ajouter à 64 pour arriver à 70 ?",
+          "etapes": [
+            "Regarde les unités : 4.",
+            "4 + 6 = 10."
+          ],
+          "conclusion": "Il faut ajouter 6 : 64 + 6 = 70."
+        },
+        {
+          "type": "piege",
+          "erreur": "On cherche le complément à 100.",
+          "correction": "La dizaine juste après 64, c’est 70."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "28 + … = 30 ?",
+      "options": [
+        "2",
+        "8",
+        "12"
+      ],
+      "reponse": "2",
+      "explication": "8 + 2 = 10."
+    },
+    {
+      "consigne": "53 + … = 60 ?",
+      "options": [
+        "7",
+        "3",
+        "17"
+      ],
+      "reponse": "7",
+      "explication": "3 + 7 = 10."
+    },
+    {
+      "consigne": "Quelle est la dizaine juste après 46 ?",
+      "options": [
+        "50",
+        "40",
+        "47"
+      ],
+      "reponse": "50",
+      "explication": "46, 47, 48, 49, 50."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "pour trouver le complément d’un nombre à la dizaine supérieure",
+      "appui": "Compléter à la dizaine supérieure"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

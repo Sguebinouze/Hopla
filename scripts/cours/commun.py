@@ -60,3 +60,15 @@ def vocabulaire(cycle, *termes):
     with open(os.path.join(RACINE, 'content', 'glossaire.json'), encoding='utf-8') as f:
         glossaire = {t['terme']: t['definitions'] for t in json.load(f)['termes']}
     return {'type': 'vocabulaire', 'mots': [{'mot': t, 'definition': glossaire[t][str(cycle)]} for t in termes]}
+
+
+def source_referentiel(competence, appui):
+    """Source d'un cours : l'extrait déjà vérifié de la compétence dans le référentiel (id, page, extrait)."""
+    import glob
+    for chemin in glob.glob(os.path.join(RACINE, 'content', 'referentiel', '*', '*.json')):
+        with open(chemin, encoding='utf-8') as f:
+            for c in json.load(f)['competences']:
+                if c['id'] == competence:
+                    s = c['source']
+                    return src(s['id'], s['extrait'], appui, s.get('page'))
+    raise KeyError(competence)

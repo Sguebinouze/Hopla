@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C2-CP-NUM-05",
+  "duree": 4,
+  "essentiel": "Les nombres ordinaux donnent une place dans une file.\npremier (1er), deuxième (2e), troisième (3e)… vingtième (20e).",
+  "parties": [
+    {
+      "titre": "La place dans la file",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "La course est finie.",
+          "exemples": [
+            "Léo arrive le premier.",
+            "Inès arrive deuxième.",
+            "Sam arrive troisième."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les ordinaux",
+          "colonnes": [
+            "Nombre",
+            "Ordinal",
+            "En abrégé"
+          ],
+          "lignes": [
+            [
+              "1",
+              "premier",
+              "1er"
+            ],
+            [
+              "2",
+              "deuxième",
+              "2e"
+            ],
+            [
+              "3",
+              "troisième",
+              "3e"
+            ],
+            [
+              "10",
+              "dixième",
+              "10e"
+            ],
+            [
+              "20",
+              "vingtième",
+              "20e"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les enfants font la file : A, B, C, D. Place de C ?",
+          "options": [
+            "troisième",
+            "deuxième",
+            "quatrième"
+          ],
+          "reponse": "troisième",
+          "explication": "On compte depuis le début : A, B, C."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire en abrégé",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit 1e pour premier.",
+          "correction": "On écrit 1er pour premier et 1re pour première."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le 5e, c’est le :",
+      "options": [
+        "cinquième",
+        "cinq",
+        "quinze"
+      ],
+      "reponse": "cinquième",
+      "explication": "On ajoute -ième à cinq."
+    },
+    {
+      "consigne": "Quel est le premier mois de l’année ?",
+      "options": [
+        "janvier",
+        "mars",
+        "décembre"
+      ],
+      "reponse": "janvier",
+      "explication": "L’année commence en janvier."
+    },
+    {
+      "consigne": "Rond, carré, rond, carré. La 4e forme est :",
+      "options": [
+        "un carré",
+        "un rond",
+        "un triangle"
+      ],
+      "reponse": "un carré",
+      "explication": "1er rond, 2e carré, 3e rond, 4e carré."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 4,
+      "extrait": "L’élève utilise les nombres ordinaux pour indiquer une position dans une liste",
+      "appui": "Nombres ordinaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

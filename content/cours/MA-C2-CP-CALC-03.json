@@ -1,0 +1,105 @@
+{
+  "competence": "MA-C2-CP-CALC-03",
+  "duree": 5,
+  "essentiel": "Ajouter 10, c’est ajouter une dizaine : 34 + 10 = 44.\nLes unités ne changent pas.\nAjouter 30, c’est ajouter 3 dizaines : 25 + 30 = 55.",
+  "parties": [
+    {
+      "titre": "Ajouter des dizaines",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Seules les dizaines changent.",
+          "exemples": [
+            "34 + 10 = 44",
+            "34 + 20 = 54",
+            "34 − 10 = 24"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour 23 + 10, on change le chiffre des unités.",
+          "correction": "On change le chiffre des dizaines : 33."
+        },
+        {
+          "type": "question",
+          "consigne": "56 + 10 = ?",
+          "options": [
+            "66",
+            "57",
+            "76"
+          ],
+          "reponse": "66",
+          "explication": "Une dizaine de plus."
+        }
+      ]
+    },
+    {
+      "titre": "Ajouter 1 ou 2",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Attention au passage de la dizaine.",
+          "exemples": [
+            "39 + 1 = 40",
+            "48 + 2 = 50",
+            "60 − 1 = 59"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "71 − 20 = ?",
+          "options": [
+            "51",
+            "69",
+            "91"
+          ],
+          "reponse": "51",
+          "explication": "On retire 2 dizaines."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "45 + 30 = ?",
+      "options": [
+        "75",
+        "48",
+        "85"
+      ],
+      "reponse": "75",
+      "explication": "4 dizaines plus 3 dizaines : 7 dizaines."
+    },
+    {
+      "consigne": "59 + 1 = ?",
+      "options": [
+        "60",
+        "510",
+        "58"
+      ],
+      "reponse": "60",
+      "explication": "On passe à la dizaine suivante."
+    },
+    {
+      "consigne": "88 − 10 = ?",
+      "options": [
+        "78",
+        "87",
+        "98"
+      ],
+      "reponse": "78",
+      "explication": "Une dizaine de moins."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "L’élève sait qu’ajouter 10 à un nombre, c’est ajouter une dizaine",
+      "appui": "Ajouter 10, c’est ajouter une dizaine"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,115 @@
+{
+  "competence": "MA-C2-CP-NUM-02",
+  "duree": 5,
+  "essentiel": "Les dizaines : dix, vingt, trente, quarante, cinquante.\n21 s’écrit vingt-et-un. 34 s’écrit trente-quatre.\nOn relie les mots par des traits d’union.",
+  "parties": [
+    {
+      "titre": "Les dizaines",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les dizaines en lettres",
+          "colonnes": [
+            "Nombre",
+            "En lettres"
+          ],
+          "lignes": [
+            [
+              "10",
+              "dix"
+            ],
+            [
+              "20",
+              "vingt"
+            ],
+            [
+              "30",
+              "trente"
+            ],
+            [
+              "40",
+              "quarante"
+            ],
+            [
+              "50",
+              "cinquante"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "40 s’écrit :",
+          "options": [
+            "quarante",
+            "quatorze",
+            "quatre"
+          ],
+          "reponse": "quarante",
+          "explication": "Quarante, c’est 4 dizaines."
+        }
+      ]
+    },
+    {
+      "titre": "De onze à dix-neuf",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "De 11 à 16, chaque nombre a son nom.",
+          "exemples": [
+            "onze (11), douze (12), treize (13)",
+            "quatorze (14), quinze (15), seize (16)",
+            "puis dix-sept (17), dix-huit (18), dix-neuf (19)"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit dix-un pour 11.",
+          "correction": "11 s’écrit onze. On dit dix-sept seulement à partir de 17."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Comment écrit-on 25 ?",
+      "options": [
+        "vingt-cinq",
+        "deux-cinq",
+        "vingt-quinze"
+      ],
+      "reponse": "vingt-cinq",
+      "explication": "2 dizaines, vingt, et 5, cinq."
+    },
+    {
+      "consigne": "Quatorze, c’est :",
+      "options": [
+        "14",
+        "40",
+        "4"
+      ],
+      "reponse": "14",
+      "explication": "Quatorze est entre treize et quinze."
+    },
+    {
+      "consigne": "31 s’écrit :",
+      "options": [
+        "trente-et-un",
+        "treize-et-un",
+        "trente-un-un"
+      ],
+      "reponse": "trente-et-un",
+      "explication": "Trente, et un."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 4,
+      "extrait": "À la fin du CP, l’élève maitrise l’écriture en lettres des nombres jusqu’à cinquante.",
+      "appui": "Écrire les nombres en lettres jusqu’à 50"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

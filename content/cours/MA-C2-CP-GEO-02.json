@@ -1,0 +1,186 @@
+{
+  "competence": "MA-C2-CP-GEO-02",
+  "duree": 5,
+  "essentiel": "Le triangle a 3 côtés et 3 sommets.\nLe carré et le rectangle ont 4 côtés et 4 sommets.\nLes 4 côtés du carré sont égaux. Le disque n’a pas de sommet.",
+  "parties": [
+    {
+      "titre": "Côtés et sommets",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Côté",
+              "definition": "Trait droit qui borde une figure."
+            },
+            {
+              "mot": "Sommet",
+              "definition": "Coin d’une figure ou d’un solide, où des traits se rejoignent."
+            },
+            {
+              "mot": "Disque",
+              "definition": "Surface ronde, limitée par un cercle."
+            }
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 6,
+            "hauteur": 5,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un triangle : 3 côtés, 3 sommets."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "figure",
+            "largeur": 7,
+            "hauteur": 4,
+            "quadrillage": true,
+            "elements": [
+              {
+                "forme": "polygone",
+                "sommets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    6,
+                    1
+                  ],
+                  [
+                    6,
+                    3
+                  ],
+                  [
+                    1,
+                    3
+                  ]
+                ]
+              }
+            ]
+          },
+          "legende": "Un rectangle : 4 côtés, 4 sommets."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de sommets a un carré ?",
+          "options": [
+            "4",
+            "3",
+            "0"
+          ],
+          "reponse": "4",
+          "explication": "Un sommet à chaque coin."
+        }
+      ]
+    },
+    {
+      "titre": "Comparer les figures",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les figures",
+          "colonnes": [
+            "Figure",
+            "Côtés",
+            "Sommets"
+          ],
+          "lignes": [
+            [
+              "triangle",
+              "3",
+              "3"
+            ],
+            [
+              "carré",
+              "4, tous égaux",
+              "4"
+            ],
+            [
+              "rectangle",
+              "4",
+              "4"
+            ],
+            [
+              "disque",
+              "aucun",
+              "aucun"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte deux fois le même sommet.",
+          "correction": "Pose un doigt sur un sommet, puis fais le tour."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de côtés a un triangle ?",
+      "options": [
+        "3",
+        "4",
+        "2"
+      ],
+      "reponse": "3",
+      "explication": "Tri veut dire trois."
+    },
+    {
+      "consigne": "Quelle figure a 4 côtés égaux ?",
+      "options": [
+        "le carré",
+        "le triangle",
+        "le disque"
+      ],
+      "reponse": "le carré",
+      "explication": "Ses 4 côtés ont la même longueur."
+    },
+    {
+      "consigne": "Une pièce de monnaie posée à plat a la forme :",
+      "options": [
+        "d’un disque",
+        "d’un carré",
+        "d’un triangle"
+      ],
+      "reponse": "d’un disque",
+      "explication": "Elle est toute ronde."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 32,
+      "extrait": "L’élève sait donner le nombre de sommets et le nombre de côtés d’un polygone",
+      "appui": "Côtés et sommets des figures"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

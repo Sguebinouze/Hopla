@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CP-CALC-01",
+  "duree": 5,
+  "essentiel": "Connaitre ses tables, c’est répondre vite : 7 + 3 = 10.\nOn trouve aussi le nombre qui manque : 7 + … = 10.\n3 + 9 et 9 + 3 donnent le même résultat.",
+  "parties": [
+    {
+      "titre": "Faire 10",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Toutes ces additions font 10.",
+          "exemples": [
+            "5 + 5 = 10",
+            "6 + 4 = 10",
+            "8 + 2 = 10"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "4 + … = 9 ?",
+          "options": [
+            "5",
+            "13",
+            "4"
+          ],
+          "reponse": "5",
+          "explication": "4 + 5 = 9."
+        }
+      ]
+    },
+    {
+      "titre": "Passer par 10",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 8 + 6",
+          "etapes": [
+            "Complète 8 jusqu’à 10 : 8 + 2.",
+            "Il reste 4 à ajouter.",
+            "10 + 4 = 14."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 3 + 9 et 9 + 3 sont différents.",
+          "correction": "C’est pareil : 12. Commence par le plus grand."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "7 + 8 = ?",
+      "options": [
+        "15",
+        "14",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "7 + 3 = 10, puis 10 + 5 = 15."
+    },
+    {
+      "consigne": "6 + … = 10 ?",
+      "options": [
+        "4",
+        "16",
+        "5"
+      ],
+      "reponse": "4",
+      "explication": "6 + 4 = 10."
+    },
+    {
+      "consigne": "9 + 4 = ?",
+      "options": [
+        "13",
+        "12",
+        "14"
+      ],
+      "reponse": "13",
+      "explication": "9 + 1 = 10, puis 10 + 3 = 13."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "L’élève sait donner oralement et par écrit l’un des trois nombres d’une égalité du type",
+      "appui": "Tables d’addition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

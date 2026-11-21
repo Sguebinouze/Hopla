@@ -1,0 +1,163 @@
+{
+  "competence": "MA-C2-CP-CALC-02",
+  "duree": 5,
+  "essentiel": "Le double de 6, c’est 6 + 6 = 12.\nLa moitié de 12, c’est 6, car 6 + 6 = 12.\nLe double de 20 est 40. La moitié de 40 est 20.",
+  "parties": [
+    {
+      "titre": "Les doubles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Doubles à connaitre",
+          "colonnes": [
+            "Nombre",
+            "Double"
+          ],
+          "lignes": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "2",
+              "4"
+            ],
+            [
+              "3",
+              "6"
+            ],
+            [
+              "4",
+              "8"
+            ],
+            [
+              "5",
+              "10"
+            ],
+            [
+              "6",
+              "12"
+            ],
+            [
+              "7",
+              "14"
+            ],
+            [
+              "8",
+              "16"
+            ],
+            [
+              "9",
+              "18"
+            ],
+            [
+              "10",
+              "20"
+            ],
+            [
+              "20",
+              "40"
+            ],
+            [
+              "30",
+              "60"
+            ],
+            [
+              "40",
+              "80"
+            ],
+            [
+              "50",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le double de 8 est :",
+          "options": [
+            "16",
+            "10",
+            "4"
+          ],
+          "reponse": "16",
+          "explication": "8 + 8 = 16."
+        }
+      ]
+    },
+    {
+      "titre": "Les moitiés",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 2,
+            "colonnes": 7,
+            "coloriees": 14
+          },
+          "legende": "14 jetons en 2 rangées égales : 7 dans chacune."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond double et moitié.",
+          "correction": "Le double est plus grand. La moitié est plus petite."
+        },
+        {
+          "type": "question",
+          "consigne": "La moitié de 18 est :",
+          "options": [
+            "9",
+            "8",
+            "36"
+          ],
+          "reponse": "9",
+          "explication": "9 + 9 = 18."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La moitié de 100 est :",
+      "options": [
+        "50",
+        "200",
+        "10"
+      ],
+      "reponse": "50",
+      "explication": "50 + 50 = 100."
+    },
+    {
+      "consigne": "Le double de 30 est :",
+      "options": [
+        "60",
+        "15",
+        "33"
+      ],
+      "reponse": "60",
+      "explication": "30 + 30 = 60."
+    },
+    {
+      "consigne": "La moitié de 14 est :",
+      "options": [
+        "7",
+        "28",
+        "6"
+      ],
+      "reponse": "7",
+      "explication": "7 + 7 = 14."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 6,
+      "extrait": "les moitiés des dizaines entières 40, 60, 80 et 100.",
+      "appui": "Doubles et moitiés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

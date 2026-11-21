@@ -1,0 +1,106 @@
+{
+  "competence": "MA-C2-CP-CALC-05",
+  "duree": 5,
+  "essentiel": "Pour 38 + 5, on passe par 40.\n38 + 2 = 40, puis 40 + 3 = 43.\nAjouter 9, c’est ajouter 10, puis retirer 1.",
+  "parties": [
+    {
+      "titre": "Passer la dizaine",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 47 + 6.",
+          "etapes": [
+            "47 + 3 = 50 : j’arrive à la dizaine.",
+            "6, c’est 3 + 3. Il reste 3.",
+            "50 + 3 = 53."
+          ],
+          "conclusion": "47 + 6 = 53."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "droite",
+            "min": 44,
+            "max": 56,
+            "depart": 47,
+            "saut": 6
+          },
+          "legende": "De 47, j’avance de 6 : j’arrive à 53."
+        }
+      ]
+    },
+    {
+      "titre": "Ajouter 9",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 25 + 9",
+          "etapes": [
+            "Ajoute 10 : 25 + 10 = 35.",
+            "Retire 1 : 35 − 1 = 34.",
+            "Donc 25 + 9 = 34."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute 10 et on oublie de retirer 1.",
+          "correction": "9, c’est 10 moins 1."
+        },
+        {
+          "type": "question",
+          "consigne": "16 + 9 = ?",
+          "options": [
+            "25",
+            "26",
+            "24"
+          ],
+          "reponse": "25",
+          "explication": "16 + 10 = 26, puis 26 − 1 = 25."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "58 + 4 = ?",
+      "options": [
+        "62",
+        "52",
+        "612"
+      ],
+      "reponse": "62",
+      "explication": "58 + 2 = 60, puis 60 + 2 = 62."
+    },
+    {
+      "consigne": "37 + 9 = ?",
+      "options": [
+        "46",
+        "47",
+        "36"
+      ],
+      "reponse": "46",
+      "explication": "37 + 10 = 47, puis 47 − 1 = 46."
+    },
+    {
+      "consigne": "29 + 3 = ?",
+      "options": [
+        "32",
+        "31",
+        "212"
+      ],
+      "reponse": "32",
+      "explication": "29 + 1 = 30, puis 30 + 2 = 32."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 7,
+      "extrait": "Pour ajouter un nombre inférieur à 9, l’élève sait utiliser une procédure adaptée",
+      "appui": "Ajouter un nombre à un chiffre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

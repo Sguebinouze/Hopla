@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CP-NUM-03",
+  "duree": 5,
+  "essentiel": "Pour comparer, regarde d’abord les dizaines.\nSi elles sont égales, regarde les unités.\n< veut dire « plus petit que ». > veut dire « plus grand que ».",
+  "parties": [
+    {
+      "titre": "Comparer deux nombres",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Regarde les dizaines, puis les unités.",
+          "exemples": [
+            "45 et 52 : 4 dizaines contre 5. Donc 45 < 52.",
+            "67 et 63 : mêmes dizaines. 7 contre 3. Donc 67 > 63.",
+            "38 et 38 : les deux sont pareils. 38 = 38."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que 9 est plus grand que 12.",
+          "correction": "12 a une dizaine. 9 n’en a pas. Donc 9 < 12."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel signe va entre 29 et 31 ?",
+          "options": [
+            "<",
+            ">",
+            "="
+          ],
+          "reponse": "<",
+          "explication": "2 dizaines contre 3 : 29 est plus petit."
+        }
+      ]
+    },
+    {
+      "titre": "Ranger des nombres",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Range du plus petit au plus grand : 42, 24, 40.",
+          "etapes": [
+            "24 a 2 dizaines : c’est le plus petit.",
+            "40 et 42 ont 4 dizaines. 0 est plus petit que 2."
+          ],
+          "conclusion": "24 < 40 < 42."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quel nombre est le plus grand ?",
+      "options": [
+        "71",
+        "17",
+        "70"
+      ],
+      "reponse": "71",
+      "explication": "71 et 70 ont 7 dizaines. 1 est plus grand que 0."
+    },
+    {
+      "consigne": "Quel nombre est entre 38 et 40 ?",
+      "options": [
+        "39",
+        "37",
+        "41"
+      ],
+      "reponse": "39",
+      "explication": "38, 39, 40."
+    },
+    {
+      "consigne": "Quel signe va entre 56 et 65 ?",
+      "options": [
+        "<",
+        ">",
+        "="
+      ],
+      "reponse": "<",
+      "explication": "5 dizaines contre 6 : 56 est plus petit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 4,
+      "extrait": "L’élève sait placer le symbole qui convient (= ou < ou >) entre deux nombres",
+      "appui": "Comparer avec =, < et >"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

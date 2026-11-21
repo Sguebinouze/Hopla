@@ -1,0 +1,121 @@
+{
+  "competence": "MA-C2-CP-LONG-01",
+  "duree": 5,
+  "essentiel": "On mesure en centimètres (cm) ou en mètres (m).\n1 m = 100 cm.\nUne trousse mesure environ 20 cm. Une porte, environ 2 m.",
+  "parties": [
+    {
+      "titre": "Mesurer avec la règle",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "regle",
+            "graduations": 10,
+            "debut": 0,
+            "fin": 6
+          },
+          "legende": "Le trait mesure 6 cm."
+        },
+        {
+          "type": "methode",
+          "titre": "Pour mesurer un trait",
+          "etapes": [
+            "Pose le 0 de la règle au bout du trait.",
+            "Lis le nombre à l’autre bout.",
+            "Écris l’unité : cm."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On commence à mesurer au 1 de la règle.",
+          "correction": "On commence toujours au 0."
+        }
+      ]
+    },
+    {
+      "titre": "Des longueurs à connaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Environ combien ?",
+          "colonnes": [
+            "Objet",
+            "Longueur"
+          ],
+          "lignes": [
+            [
+              "une gomme",
+              "3 cm"
+            ],
+            [
+              "une trousse",
+              "20 cm"
+            ],
+            [
+              "une table",
+              "1 m"
+            ],
+            [
+              "une porte",
+              "2 m"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un trait va du 0 au 9. Il mesure :",
+          "options": [
+            "9 cm",
+            "10 cm",
+            "8 cm"
+          ],
+          "reponse": "9 cm",
+          "explication": "On lit le nombre au bout du trait."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "1 m, c’est :",
+      "options": [
+        "100 cm",
+        "10 cm",
+        "1 cm"
+      ],
+      "reponse": "100 cm",
+      "explication": "Un mètre fait cent centimètres."
+    },
+    {
+      "consigne": "Une trousse mesure environ :",
+      "options": [
+        "20 cm",
+        "2 cm",
+        "1 m"
+      ],
+      "reponse": "20 cm",
+      "explication": "Elle tient dans le cartable."
+    },
+    {
+      "consigne": "Pour mesurer la cour, on compte en :",
+      "options": [
+        "mètres",
+        "centimètres",
+        "litres"
+      ],
+      "reponse": "mètres",
+      "explication": "La cour est très grande."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 25,
+      "extrait": "L’élève sait dire si la longueur d’une trousse est plutôt 2 cm, 20 cm ou 1 m.",
+      "appui": "Mètre et centimètre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

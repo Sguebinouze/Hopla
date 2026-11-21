@@ -1,0 +1,122 @@
+{
+  "competence": "MA-C2-CP-GEO-01",
+  "duree": 5,
+  "essentiel": "Le cube a 6 faces carrées, toutes pareilles.\nLe pavé a 6 faces, comme une boite à chaussures.\nLa boule roule. Le cylindre et le cône aussi.",
+  "parties": [
+    {
+      "titre": "Cube et pavé",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cube"
+          },
+          "legende": "Un cube : 6 faces carrées."
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "pave"
+          },
+          "legende": "Un pavé : 6 faces."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le cube et le pavé sont pareils.",
+          "correction": "Le cube a toutes ses faces carrées et pareilles."
+        },
+        {
+          "type": "question",
+          "consigne": "Une boite à chaussures a la forme :",
+          "options": [
+            "d’un pavé",
+            "d’un cube",
+            "d’une boule"
+          ],
+          "reponse": "d’un pavé",
+          "explication": "Ses faces ne sont pas toutes carrées."
+        }
+      ]
+    },
+    {
+      "titre": "Ce qui roule",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "solide",
+            "solide": "cylindre"
+          },
+          "legende": "Un cylindre, comme une boite de conserve."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des objets",
+          "colonnes": [
+            "Solide",
+            "Objet"
+          ],
+          "lignes": [
+            [
+              "boule",
+              "ballon"
+            ],
+            [
+              "cylindre",
+              "boite de conserve"
+            ],
+            [
+              "cône",
+              "cornet de glace"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de faces a un cube ?",
+      "options": [
+        "6",
+        "4",
+        "8"
+      ],
+      "reponse": "6",
+      "explication": "Haut, bas, devant, derrière, gauche, droite."
+    },
+    {
+      "consigne": "Un ballon a la forme :",
+      "options": [
+        "d’une boule",
+        "d’un cube",
+        "d’un cône"
+      ],
+      "reponse": "d’une boule",
+      "explication": "Il roule dans tous les sens."
+    },
+    {
+      "consigne": "Un dé a la forme :",
+      "options": [
+        "d’un cube",
+        "d’un cylindre",
+        "d’un cône"
+      ],
+      "reponse": "d’un cube",
+      "explication": "Ses 6 faces sont des carrés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 32,
+      "extrait": "qu’une boite à chaussures a la forme d’un pavé",
+      "appui": "Reconnaitre les solides"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

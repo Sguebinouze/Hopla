@@ -1,0 +1,131 @@
+{
+  "competence": "MA-C2-CP-DON-01",
+  "duree": 5,
+  "essentiel": "Un tableau range des informations en lignes et en colonnes.\nOn y lit qui a le plus et qui a le moins.\nOn peut calculer combien de plus et combien en tout.",
+  "parties": [
+    {
+      "titre": "Lire le tableau",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le fruit préféré de la classe",
+          "colonnes": [
+            "Fruit",
+            "Élèves"
+          ],
+          "lignes": [
+            [
+              "pomme",
+              "8"
+            ],
+            [
+              "banane",
+              "5"
+            ],
+            [
+              "fraise",
+              "11"
+            ]
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "diagramme",
+            "titre": "Le fruit préféré",
+            "unite": "élèves",
+            "pas": 2,
+            "barres": [
+              {
+                "nom": "pomme",
+                "valeur": 8
+              },
+              {
+                "nom": "banane",
+                "valeur": 5
+              },
+              {
+                "nom": "fraise",
+                "valeur": 11
+              }
+            ]
+          },
+          "legende": "Les mêmes résultats, en barres."
+        },
+        {
+          "type": "question",
+          "consigne": "Quel fruit est le plus aimé ?",
+          "options": [
+            "la fraise",
+            "la pomme",
+            "la banane"
+          ],
+          "reponse": "la fraise",
+          "explication": "11, c’est le plus grand nombre."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer avec le tableau",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Combien d’élèves de plus pour la fraise que pour la pomme ?",
+          "etapes": [
+            "Fraise : 11. Pomme : 8.",
+            "11 − 8 = 3."
+          ],
+          "conclusion": "3 élèves de plus aiment la fraise."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit la mauvaise ligne.",
+          "correction": "Pose ton doigt sur la ligne, puis glisse jusqu’au nombre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien d’élèves aiment la banane ?",
+      "options": [
+        "5",
+        "8",
+        "11"
+      ],
+      "reponse": "5",
+      "explication": "On lit la ligne banane."
+    },
+    {
+      "consigne": "Quel fruit est le moins aimé ?",
+      "options": [
+        "la banane",
+        "la pomme",
+        "la fraise"
+      ],
+      "reponse": "la banane",
+      "explication": "5, c’est le plus petit nombre."
+    },
+    {
+      "consigne": "Combien d’élèves en tout ?",
+      "options": [
+        "24",
+        "19",
+        "13"
+      ],
+      "reponse": "24",
+      "explication": "8 + 5 + 11 = 24."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 37,
+      "extrait": "L’élève sait ensuite organiser dans un tableau les données recueillies.",
+      "appui": "Organiser et lire des données"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

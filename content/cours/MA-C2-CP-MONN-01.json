@@ -1,0 +1,97 @@
+{
+  "competence": "MA-C2-CP-MONN-01",
+  "duree": 5,
+  "essentiel": "Pièces : 1 € et 2 €. Billets : 5 €, 10 €, 20 €, 50 €.\nPour compter, commence par les plus gros billets.\nPuis ajoute les pièces.",
+  "parties": [
+    {
+      "titre": "Compter une somme",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "monnaie",
+            "valeurs": [
+              20,
+              10,
+              2,
+              1
+            ]
+          },
+          "legende": "20 + 10 + 2 + 1 = 33 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On compte les pièces sans regarder leur valeur.",
+          "correction": "Une pièce de 2 € vaut 2 euros, pas 1."
+        },
+        {
+          "type": "question",
+          "consigne": "Un billet de 10 € et trois pièces de 2 € font :",
+          "options": [
+            "16 €",
+            "13 €",
+            "5 €"
+          ],
+          "reponse": "16 €",
+          "explication": "10 + 2 + 2 + 2 = 16."
+        }
+      ]
+    },
+    {
+      "titre": "Rendre la monnaie",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un livre coûte 7 €. Je paie avec 10 €. Combien me rend-on ?",
+          "etapes": [
+            "De 7 à 10, il manque 3."
+          ],
+          "conclusion": "On me rend 3 €."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "50 € + 20 € + 5 € = ?",
+      "options": [
+        "75 €",
+        "70 €",
+        "57 €"
+      ],
+      "reponse": "75 €",
+      "explication": "Commence par le plus gros billet."
+    },
+    {
+      "consigne": "Un jouet coûte 15 €. Je donne 20 €. On me rend :",
+      "options": [
+        "5 €",
+        "15 €",
+        "35 €"
+      ],
+      "reponse": "5 €",
+      "explication": "De 15 à 20, il manque 5."
+    },
+    {
+      "consigne": "Combien de pièces de 2 € pour faire 10 € ?",
+      "options": [
+        "5",
+        "10",
+        "2"
+      ],
+      "reponse": "5",
+      "explication": "2 + 2 + 2 + 2 + 2 = 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 26,
+      "extrait": "L’élève détermine la valeur d’une somme d’argent en organisant la monnaie",
+      "appui": "Compter la monnaie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

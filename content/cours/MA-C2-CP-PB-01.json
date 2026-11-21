@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CP-PB-01",
+  "duree": 6,
+  "essentiel": "Je lis le problème. Je cherche ce qu’on demande.\nLe tout, c’est une partie plus l’autre partie.\nPour trouver une partie, je retire l’autre partie du tout.",
+  "parties": [
+    {
+      "titre": "Chercher le tout",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Un bouquet a 12 roses et 7 tulipes. Combien de fleurs ?",
+          "etapes": [
+            "On cherche le tout : toutes les fleurs.",
+            "12 + 7 = 19."
+          ],
+          "conclusion": "Il y a 19 fleurs."
+        },
+        {
+          "type": "question",
+          "consigne": "Tom a 8 billes. Il en gagne 5. Combien en a-t-il ?",
+          "options": [
+            "13",
+            "3",
+            "85"
+          ],
+          "reponse": "13",
+          "explication": "8 + 5 = 13."
+        }
+      ]
+    },
+    {
+      "titre": "Chercher une partie",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Il y a 25 élèves. 14 sont des filles. Combien de garçons ?",
+          "etapes": [
+            "On cherche une partie : les garçons.",
+            "25 − 14 = 11."
+          ],
+          "conclusion": "Il y a 11 garçons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On additionne tous les nombres du problème.",
+          "correction": "Demande-toi : je cherche le tout ou une partie ?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Sur 20 bonbons, 6 sont rouges. Les autres sont verts. Combien de verts ?",
+      "options": [
+        "14",
+        "26",
+        "16"
+      ],
+      "reponse": "14",
+      "explication": "20 − 6 = 14."
+    },
+    {
+      "consigne": "Léa a 30 €. Elle dépense 10 €. Combien lui reste-t-il ?",
+      "options": [
+        "20 €",
+        "40 €",
+        "10 €"
+      ],
+      "reponse": "20 €",
+      "explication": "30 − 10 = 20."
+    },
+    {
+      "consigne": "Il y a 15 garçons et 12 filles. Combien d’enfants ?",
+      "options": [
+        "27",
+        "3",
+        "25"
+      ],
+      "reponse": "27",
+      "explication": "15 + 12 = 27."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 9,
+      "extrait": "L’élève sait résoudre des problèmes de parties-tout en une étape",
+      "appui": "Problèmes parties-tout"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

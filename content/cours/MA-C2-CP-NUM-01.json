@@ -1,0 +1,109 @@
+{
+  "competence": "MA-C2-CP-NUM-01",
+  "duree": 5,
+  "essentiel": "10 unités font 1 dizaine.\n34, c’est 3 dizaines et 4 unités.\n34 = 30 + 4.",
+  "parties": [
+    {
+      "titre": "Faire des paquets de dix",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Compte 34 bûchettes.",
+          "exemples": [
+            "Je fais des paquets de 10.",
+            "J’ai 3 paquets.",
+            "Il reste 4 bûchettes seules."
+          ]
+        },
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 4,
+            "colonnes": 10,
+            "coloriees": 34
+          },
+          "legende": "3 rangées de 10 et encore 4 : 34."
+        },
+        {
+          "type": "question",
+          "consigne": "Dans 52, combien de dizaines ?",
+          "options": [
+            "5",
+            "2",
+            "52"
+          ],
+          "reponse": "5",
+          "explication": "52, c’est 5 dizaines et 2 unités."
+        }
+      ]
+    },
+    {
+      "titre": "Écrire le nombre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le nombre 34",
+          "colonnes": [
+            "Dizaines",
+            "Unités"
+          ],
+          "lignes": [
+            [
+              "3",
+              "4"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 304 pour 30 et 4.",
+          "correction": "3 dizaines et 4 unités s’écrivent 34."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "6 dizaines et 2 unités, c’est :",
+      "options": [
+        "62",
+        "26",
+        "8"
+      ],
+      "reponse": "62",
+      "explication": "60 + 2 = 62."
+    },
+    {
+      "consigne": "47, c’est :",
+      "options": [
+        "40 + 7",
+        "4 + 7",
+        "70 + 4"
+      ],
+      "reponse": "40 + 7",
+      "explication": "4 dizaines, donc 40, et 7 unités."
+    },
+    {
+      "consigne": "Combien d’unités dans une dizaine ?",
+      "options": [
+        "10",
+        "1",
+        "100"
+      ],
+      "reponse": "10",
+      "explication": "Un paquet de dix."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 4,
+      "extrait": "L’élève sait associer différentes représentations d’un même nombre",
+      "appui": "Dizaines, unités, représentations d’un nombre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

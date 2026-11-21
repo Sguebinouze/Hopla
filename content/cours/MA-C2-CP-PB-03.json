@@ -1,0 +1,103 @@
+{
+  "competence": "MA-C2-CP-PB-03",
+  "duree": 6,
+  "essentiel": "3 boites de 4 œufs : 4 + 4 + 4 = 12 œufs.\nPartager 12 en 3 parts égales : 4 chacun.",
+  "parties": [
+    {
+      "titre": "Plusieurs fois la même quantité",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "grille",
+            "lignes": 3,
+            "colonnes": 4,
+            "coloriees": 12
+          },
+          "legende": "3 rangées de 4 : 12."
+        },
+        {
+          "type": "exemple-resolu",
+          "enonce": "5 enfants ont chacun 3 billes. Combien de billes en tout ?",
+          "etapes": [
+            "3 + 3 + 3 + 3 + 3 = 15."
+          ],
+          "conclusion": "Il y a 15 billes en tout."
+        }
+      ]
+    },
+    {
+      "titre": "Partager en parts égales",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "On partage 20 bonbons entre 4 enfants. Combien chacun ?",
+          "etapes": [
+            "On donne un bonbon à chacun : 4 bonbons partent.",
+            "On recommence jusqu’au bout : 5 tours."
+          ],
+          "conclusion": "Chaque enfant a 5 bonbons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne plus à un enfant qu’à un autre.",
+          "correction": "Parts égales : chacun reçoit la même quantité."
+        },
+        {
+          "type": "question",
+          "consigne": "On range 18 crayons par paquets de 6. Combien de paquets ?",
+          "options": [
+            "3",
+            "12",
+            "24"
+          ],
+          "reponse": "3",
+          "explication": "6 + 6 + 6 = 18."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "4 sacs de 5 pommes. Combien de pommes ?",
+      "options": [
+        "20",
+        "9",
+        "45"
+      ],
+      "reponse": "20",
+      "explication": "5 + 5 + 5 + 5 = 20."
+    },
+    {
+      "consigne": "On partage 12 gâteaux entre 2 enfants. Combien chacun ?",
+      "options": [
+        "6",
+        "10",
+        "24"
+      ],
+      "reponse": "6",
+      "explication": "6 + 6 = 12."
+    },
+    {
+      "consigne": "Avec 15 cartes, on fait des paquets de 3. Combien de paquets ?",
+      "options": [
+        "5",
+        "12",
+        "18"
+      ],
+      "reponse": "5",
+      "explication": "3 + 3 + 3 + 3 + 3 = 15."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 9,
+      "extrait": "L’élève sait résoudre des problèmes multiplicatifs consistant à rechercher la valeur",
+      "appui": "Problèmes multiplicatifs et de partage"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

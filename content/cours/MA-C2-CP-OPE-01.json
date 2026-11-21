@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CP-OPE-01",
+  "duree": 5,
+  "essentiel": "Ajouter, c’est le signe +. Retirer, c’est le signe −.\n5 + 3 = 8, donc 8 − 3 = 5.\nLa soustraction défait l’addition.",
+  "parties": [
+    {
+      "titre": "Gagner, perdre",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Suis les billes de Nina.",
+          "exemples": [
+            "Nina a 5 billes. Elle en gagne 3 : 5 + 3 = 8.",
+            "Puis elle en perd 3 : 8 − 3 = 5.",
+            "Elle revient à 5 billes."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Si 6 + 4 = 10, alors 10 − 4 = ?",
+          "options": [
+            "6",
+            "14",
+            "4"
+          ],
+          "reponse": "6",
+          "explication": "On défait l’addition : on revient à 6."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver une soustraction",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour calculer 9 − 4",
+          "etapes": [
+            "Pense : 4 + ? = 9.",
+            "4 + 5 = 9.",
+            "Donc 9 − 4 = 5."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 3 − 8 au lieu de 8 − 3.",
+          "correction": "On part du nombre de départ, puis on retire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "7 + 2 = 9, donc 9 − 2 = ?",
+      "options": [
+        "7",
+        "11",
+        "2"
+      ],
+      "reponse": "7",
+      "explication": "On revient au départ."
+    },
+    {
+      "consigne": "Le signe − veut dire :",
+      "options": [
+        "retirer",
+        "ajouter",
+        "égal"
+      ],
+      "reponse": "retirer",
+      "explication": "On enlève."
+    },
+    {
+      "consigne": "Quelle égalité est vraie ?",
+      "options": [
+        "10 − 3 = 7",
+        "10 − 3 = 13",
+        "10 + 3 = 7"
+      ],
+      "reponse": "10 − 3 = 7",
+      "explication": "7 + 3 = 10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 5,
+      "extrait": "La soustraction est comprise par l’élève comme l’opération inverse de l’addition.",
+      "appui": "La soustraction, inverse de l’addition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

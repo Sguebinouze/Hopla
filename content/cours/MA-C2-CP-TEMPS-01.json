@@ -1,0 +1,94 @@
+{
+  "competence": "MA-C2-CP-TEMPS-01",
+  "duree": 4,
+  "essentiel": "La petite aiguille montre les heures.\nLa grande aiguille montre les minutes.\nGrande aiguille sur le 12 : c’est une heure juste.",
+  "parties": [
+    {
+      "titre": "Lire l’heure",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 3,
+            "minutes": 0
+          },
+          "legende": "La petite aiguille est sur le 3. Il est 3 heures."
+        },
+        {
+          "type": "question",
+          "consigne": "Petite aiguille sur le 8, grande sur le 12. Il est :",
+          "options": [
+            "8 heures",
+            "12 heures",
+            "20 heures"
+          ],
+          "reponse": "8 heures",
+          "explication": "La petite aiguille donne l’heure."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "visuel",
+          "visuel": {
+            "type": "horloge",
+            "heures": 10,
+            "minutes": 0
+          },
+          "legende": "Il est 10 heures."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond les deux aiguilles.",
+          "correction": "La petite donne l’heure. La grande est sur le 12."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle aiguille donne l’heure ?",
+      "options": [
+        "la petite",
+        "la grande",
+        "aucune"
+      ],
+      "reponse": "la petite",
+      "explication": "La grande donne les minutes."
+    },
+    {
+      "consigne": "Petite aiguille sur le 6, grande sur le 12 :",
+      "options": [
+        "6 heures",
+        "12 heures",
+        "6 minutes"
+      ],
+      "reponse": "6 heures",
+      "explication": "Une heure juste."
+    },
+    {
+      "consigne": "Midi, c’est :",
+      "options": [
+        "12 heures",
+        "0 heure",
+        "6 heures"
+      ],
+      "reponse": "12 heures",
+      "explication": "Le milieu de la journée."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 26,
+      "extrait": "L’élève sait lire des heures entières",
+      "appui": "Lire les heures entières"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

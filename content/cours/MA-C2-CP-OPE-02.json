@@ -1,0 +1,126 @@
+{
+  "competence": "MA-C2-CP-OPE-02",
+  "duree": 6,
+  "essentiel": "On aligne les unités sous les unités.\nOn aligne les dizaines sous les dizaines.\nOn calcule d’abord les unités. 10 unités font une retenue.",
+  "parties": [
+    {
+      "titre": "Sans retenue",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 32 + 14.",
+          "etapes": [
+            "Unités : 2 + 4 = 6.",
+            "Dizaines : 3 + 1 = 4."
+          ],
+          "conclusion": "32 + 14 = 46."
+        },
+        {
+          "type": "question",
+          "consigne": "23 + 41 = ?",
+          "options": [
+            "64",
+            "55",
+            "46"
+          ],
+          "reponse": "64",
+          "explication": "Unités : 3 + 1 = 4. Dizaines : 2 + 4 = 6."
+        }
+      ]
+    },
+    {
+      "titre": "Avec une retenue",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Calcule 27 + 15.",
+          "etapes": [
+            "Unités : 7 + 5 = 12.",
+            "J’écris 2. Je retiens 1 dizaine.",
+            "Dizaines : 1 + 2 + 1 = 4."
+          ],
+          "conclusion": "27 + 15 = 42."
+        },
+        {
+          "type": "tableau",
+          "titre": "27 + 15 en colonnes",
+          "colonnes": [
+            "Ligne",
+            "Dizaines",
+            "Unités"
+          ],
+          "lignes": [
+            [
+              "retenue",
+              "1",
+              ""
+            ],
+            [
+              "27",
+              "2",
+              "7"
+            ],
+            [
+              "+ 15",
+              "1",
+              "5"
+            ],
+            [
+              "résultat",
+              "4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit 12 dans la colonne des unités.",
+          "correction": "On écrit 2. La dizaine part en retenue."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "12 + 5 + 21 = ?",
+      "options": [
+        "38",
+        "37",
+        "28"
+      ],
+      "reponse": "38",
+      "explication": "Unités : 2 + 5 + 1 = 8. Dizaines : 1 + 2 = 3."
+    },
+    {
+      "consigne": "36 + 18 = ?",
+      "options": [
+        "54",
+        "44",
+        "414"
+      ],
+      "reponse": "54",
+      "explication": "6 + 8 = 14 : j’écris 4, je retiens 1."
+    },
+    {
+      "consigne": "Où écrit-on la retenue ?",
+      "options": [
+        "au-dessus des dizaines",
+        "sous le résultat",
+        "nulle part"
+      ],
+      "reponse": "au-dessus des dizaines",
+      "explication": "Elle s’ajoute aux dizaines."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo41-2024-maths-c2",
+      "page": 5,
+      "extrait": "L’élève sait poser une addition de deux ou trois nombres à un ou deux chiffres",
+      "appui": "Poser une addition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
