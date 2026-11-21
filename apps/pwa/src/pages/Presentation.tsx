@@ -267,6 +267,12 @@ function Installer() {
       <div className="vitrine__installer-tete">
         <span className="tuile__icone vitrine__installer-icone"><Icone nom="appareil" taille={22} /></span>
         <h2 className="vitrine__titre-carte">Installer Hopla</h2>
+        {installee ? (
+          <p className="muet vitrine__installer-action"><Icone nom="coche" taille={16} /> Installé</p>
+        ) : direct ? (
+          <button type="button" className="hp-btn hp-btn--primary vitrine__installer-action"
+            onClick={() => void installer().then((ok) => { setInstallee(ok); setDirect(false); })}>Installer</button>
+        ) : null}
       </div>
       <p>Depuis le navigateur, sans store. Le travail continue sans réseau.</p>
       <div className="hp-segment" role="group" aria-label="Appareil">
@@ -286,12 +292,6 @@ function Installer() {
           <QrCode taille={96} label="QR code : ouvrir Hopla sur un téléphone ou une tablette" />
           <p className="muet">Scannez avec le téléphone ou la tablette de l’enfant.</p>
         </div>
-        {installee ? (
-          <p className="muet"><Icone nom="coche" taille={16} /> Installé sur cet appareil.</p>
-        ) : direct ? (
-          <button type="button" className="hp-btn hp-btn--primary"
-            onClick={() => void installer().then((ok) => { setInstallee(ok); setDirect(false); })}>Installer</button>
-        ) : null}
       </div>
     </aside>
   );

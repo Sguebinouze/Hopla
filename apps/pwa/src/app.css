@@ -631,7 +631,8 @@ body.avec-clavier main { padding-bottom: 340px; }
 /* Présentation (racine du site). Deux écrans : l'accroche, puis programme et installation côte à côte.
    Couleurs : celles du DS (matières, soleil, Octave), mêlées par color-mix comme le fait le DS. */
 .vitrine { min-height: 100dvh; display: flex; flex-direction: column; }
-.vitrine > main { flex-grow: 1; }
+/* Page plus courte que l'écran : le pied de page s'étire, sans bande vide au-dessus. */
+.vitrine > .pied { flex-grow: 1; }
 /* Ancres : la section arrive sous l'en-tête fixe, pas derrière. */
 .vitrine [id] { scroll-margin-top: 72px; }
 .vitrine p { margin: 0; line-height: 1.5; }
@@ -725,6 +726,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__installer > p { font-size: 14px; color: var(--ink-muted); }
 .vitrine__installer-tete { display: flex; align-items: center; gap: var(--space-2); }
 .vitrine__installer-icone { --subj: var(--octave); }
+.vitrine__installer-action { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
 .vitrine__titre-carte { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 22px; }
 .vitrine__stores { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .vitrine__installer-bas { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
@@ -762,5 +764,8 @@ body.avec-clavier main { padding-bottom: 340px; }
 }
 @media (min-width: 1000px) {
   .vitrine__hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: var(--space-6); padding-top: var(--space-6); padding-bottom: var(--space-6); }
-  .vitrine__duo { grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); gap: var(--space-5); }
+  /* Trois rangées partagées (titre, tuiles, note) : la carte d'installation s'arrête au bas des tuiles. */
+  .vitrine__duo { grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); grid-template-rows: auto 1fr auto; column-gap: var(--space-5); row-gap: 0; }
+  .vitrine__programme { grid-row: 1 / span 3; display: grid; grid-template-rows: subgrid; }
+  .vitrine__installer { grid-row: 1 / span 2; }
 }
