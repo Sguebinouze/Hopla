@@ -24,11 +24,11 @@ const ETAPES = [
 
 /** Questions d'exemple, tirées des cours de Hopla. La bonne réponse est `reponse`. */
 const EXEMPLES: { classe: string; matiere: string; subj: string; question: string; options: string[]; reponse: string; bravo: string }[] = [
-  { classe: 'CP', matiere: 'Maths', subj: 'maths', question: 'Quel est le double de 8 ?', options: ['10', '16', '4'], reponse: '16', bravo: '8 + 8 = 16.' },
-  { classe: 'CE1', matiere: 'Français', subj: 'francais', question: 'Un cheval, des… ?', options: ['chevals', 'chevaux', 'chevale'], reponse: 'chevaux', bravo: 'Les noms en -al font leur pluriel en -aux.' },
-  { classe: 'CE2', matiere: 'Sciences', subj: 'sciences', question: 'À quelle température l’eau bout-elle ?', options: ['0 °C', '37 °C', '100 °C'], reponse: '100 °C', bravo: 'Elle devient alors vapeur.' },
-  { classe: '6e', matiere: 'Maths', subj: 'maths', question: 'Quelle est la moitié de 0,5 ?', options: ['0,25', '0,05', '1'], reponse: '0,25', bravo: '0,25 + 0,25 = 0,5.' },
-  { classe: 'CP', matiere: 'Géographie', subj: 'histgeo', question: 'Quel est le plus grand océan ?', options: ['l’Atlantique', 'le Pacifique', 'l’océan Indien'], reponse: 'le Pacifique', bravo: 'C’est le plus grand du monde.' },
+  { classe: 'CP', matiere: 'Maths', subj: 'maths', question: 'Quel est le double de 8 ?', options: ['10', '16', '4', '18'], reponse: '16', bravo: '8 + 8 = 16.' },
+  { classe: 'CE1', matiere: 'Français', subj: 'francais', question: 'Un cheval, des… ?', options: ['chevals', 'chevaux', 'chevale', 'cheveux'], reponse: 'chevaux', bravo: 'Les noms en -al font leur pluriel en -aux.' },
+  { classe: 'CE2', matiere: 'Sciences', subj: 'sciences', question: 'À quelle température l’eau bout-elle ?', options: ['0 °C', '37 °C', '100 °C', '50 °C'], reponse: '100 °C', bravo: 'Elle devient alors vapeur.' },
+  { classe: '6e', matiere: 'Maths', subj: 'maths', question: 'Quelle est la moitié de 0,5 ?', options: ['0,25', '0,05', '1', '2,5'], reponse: '0,25', bravo: '0,25 + 0,25 = 0,5.' },
+  { classe: 'CP', matiere: 'Géographie', subj: 'histgeo', question: 'Quel est le plus grand océan ?', options: ['l’Atlantique', 'le Pacifique', 'l’océan Indien', 'l’Arctique'], reponse: 'le Pacifique', bravo: 'C’est le plus grand du monde.' },
 ];
 
 type Tuile = { icone: NomIcone; titre: string; texte: string; subj: string };
@@ -214,31 +214,32 @@ function Essai() {
       onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setFocus(false); }}>
       <div key={i} className={`hp-card essai__carte hp-subj-${ex.subj}`} aria-live="polite">
         <div className="essai__haut">
-          <span className="essai__matiere">{ex.matiere} · {ex.classe}</span>
+          <span className="hp-chip hp-chip--neutral">{ex.matiere} · {ex.classe}</span>
           <span className="essai__invite">Essaie une question de Hopla</span>
         </div>
         <p className="essai__question">{ex.question}</p>
-        <div className="essai__options">
+        {/* Mêmes composants que l'écran d'exercice : options, bulle d'Octave, retour. */}
+        <div className={`grille-options${ex.options.some((o) => o.length > 9) ? ' grille-options--texte' : ''}`}>
           {ex.options.map((o) => (
             <button key={o} type="button" disabled={choix !== null}
-              className={`hp-option${choix !== null && o === ex.reponse ? ' hp-option--correct' : ''}${choix === o && !juste ? ' hp-option--wrong' : ''}`}
+              className={`hp-option${ex.options.some((x) => x.length > 9) ? ' option-texte' : ''}${choix !== null && o === ex.reponse ? ' hp-option--correct' : ''}${choix === o && !juste ? ' hp-option--wrong' : ''}`}
               onClick={() => setChoix(o)}>{o}</button>
           ))}
         </div>
-        {/* Octave occupe la même place avant et après la réponse : la carte ne change pas de hauteur. */}
-        <div className="essai__octave">
-          <span className="vitrine__octave"><Octave taille={56} humeur={choix ? (juste ? 'reussite' : 'oups') : 'accueil'} /></span>
-          {choix === null ? (
-            <p className="hp-bubble__text essai__bulle">À toi ! Choisis une réponse.</p>
-          ) : (
-            <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'} essai__retour`}>
-              <div>
-                <p className="hp-feedback__title">{juste ? 'Bravo !' : `C’était : ${ex.reponse}`}</p>
-                <p className="hp-feedback__text">{ex.bravo}</p>
-              </div>
+        {choix === null ? (
+          <div className="hp-bubble" style={{ maxWidth: 'none' }}>
+            <Octave humeur="reflechit" taille={56} />
+            <p className="hp-bubble__text pousse" style={{ margin: 0 }}>À toi ! Choisis une réponse.</p>
+          </div>
+        ) : (
+          <div className={`hp-feedback ${juste ? 'hp-feedback--success' : 'hp-feedback--attention'}`} style={{ maxWidth: 'none' }} role="status">
+            <Octave humeur={juste ? 'reussite' : 'oups'} taille={56} />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+              <span className="hp-feedback__title">{juste ? `Juste : ${ex.reponse}.` : 'Pas tout à fait. Regarde :'}</span>
+              <span className="hp-feedback__text">{juste ? ex.bravo : `La réponse est ${ex.reponse}. ${ex.bravo}`}</span>
             </div>
-          )}
-        </div>
+          </div>
+        )}
         <div className="essai__points" role="group" aria-label="Choisir une question">
           {EXEMPLES.map((e, n) => (
             <button key={n} type="button" aria-label={`Question ${n + 1} : ${e.matiere}, ${e.classe}`} aria-current={n === i}

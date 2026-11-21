@@ -644,7 +644,6 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__nav { display: none; gap: var(--space-5); }
 .vitrine__nav a { color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 600; }
 .vitrine__nav a:hover { color: var(--primary); }
-.vitrine__barre .hp-btn { min-height: var(--target-min); padding: 0 var(--space-4); }
 
 /* Accroche : fond animé de trois taches de couleur douces. */
 .vitrine__une { position: relative; overflow: hidden; isolation: isolate; }
@@ -664,8 +663,8 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__titre { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 1.1; text-wrap: balance; }
 .vitrine__surligne { background: linear-gradient(transparent 62%, color-mix(in srgb, var(--sun) 55%, transparent) 62%); padding: 0 2px; }
 .vitrine__chapo { font-size: 17px; color: var(--ink-muted); max-width: 50ch; }
-.vitrine__actions { display: flex; flex-wrap: wrap; gap: var(--space-2); width: 100%; }
-.vitrine__actions .hp-btn { flex: 1 1 200px; }
+/* Boutons du DS tels quels : empilés pleine largeur sur mobile (grille), en ligne au-delà. */
+.vitrine__actions { display: grid; gap: var(--space-2); width: 100%; }
 
 .vitrine__etapes { display: grid; gap: var(--space-2); width: 100%; margin-top: var(--space-2) !important; }
 .vitrine__etape { display: flex; gap: var(--space-2); align-items: flex-start; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); background: color-mix(in srgb, var(--c) 10%, var(--surface-0)); }
@@ -683,15 +682,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .essai__invite { font-size: 13px; font-weight: 600; color: var(--ink-muted); }
 /* La carte prend la hauteur de l'accroche ; l'espace restant se répartit entre les blocs. */
 .essai__carte { position: relative; flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-3); border-top: 6px solid var(--subj); animation: vitrine-entree .35s ease-out both; }
-.essai__matiere { align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 4px 10px; border-radius: var(--radius-pill); color: var(--subj); background: color-mix(in srgb, var(--subj) 14%, transparent); }
 .essai__question { font-family: var(--font-display); font-weight: 600; font-size: 24px; line-height: 1.2; }
-.essai__options { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-.essai__options .hp-option { min-width: 0; flex: 1 1 100px; min-height: 52px; font-size: 18px; }
-.essai__options .hp-option:disabled { cursor: default; }
-.essai__octave { display: flex; align-items: center; gap: var(--space-3); min-height: 72px; }
-.essai__bulle { margin: 0; }
-.essai__retour { flex: 1; max-width: none; animation: vitrine-entree .3s ease-out both; }
-.essai__retour p { margin: 0; }
 .essai__points { display: flex; justify-content: center; gap: 8px; }
 .essai__point { width: 10px; height: 10px; padding: 0; border: 0; border-radius: var(--radius-pill); background: var(--line); cursor: pointer; transition: width .25s, background .25s; }
 .essai__point[aria-current="true"] { width: 26px; background: var(--primary); }
@@ -700,8 +691,6 @@ body.avec-clavier main { padding-bottom: 340px; }
 /* Programme et installation. */
 .vitrine__section { padding: var(--space-5) 0; }
 .vitrine__section--teinte { background: var(--surface-1); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.vitrine__section--teinte .hp-segment button { background: var(--surface-0); }
-.vitrine__section--teinte .hp-segment button[aria-pressed="true"] { background: var(--ink); }
 /* Colonnes de même hauteur : les tuiles s'étirent jusqu'au bas de la carte d'installation. */
 .vitrine__duo { display: grid; gap: var(--space-4); align-items: stretch; }
 .vitrine__programme { display: flex; flex-direction: column; }
@@ -759,7 +748,7 @@ body.avec-clavier main { padding-bottom: 340px; }
   .vitrine__cadre { padding-inline: var(--space-6); }
   .vitrine__nav { display: flex; }
   .vitrine__titre { font-size: 40px; }
-  .vitrine__actions .hp-btn { flex: 0 0 auto; }
+  .vitrine__actions { display: flex; flex-wrap: wrap; }
   .vitrine__etapes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .vitrine__qr { display: flex; }
   .vitrine__tuiles--enfant { grid-template-columns: repeat(3, minmax(0, 1fr)); }
