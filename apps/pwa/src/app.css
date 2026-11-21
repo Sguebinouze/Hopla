@@ -661,7 +661,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__hero-texte > :nth-child(4) { animation-delay: .18s; }
 .vitrine__hero-texte > :nth-child(5) { animation-delay: .24s; }
 .vitrine__titre { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 1.1; text-wrap: balance; }
-.vitrine__surligne { background: linear-gradient(transparent 62%, color-mix(in srgb, var(--sun) 55%, transparent) 62%); padding: 0 2px; }
+.vitrine__surligne { color: var(--primary); }
 .vitrine__chapo { font-size: 17px; color: var(--ink-muted); max-width: 50ch; }
 /* Boutons du DS tels quels : empilés pleine largeur sur mobile (grille), en ligne au-delà. */
 .vitrine__actions { display: grid; gap: var(--space-2); width: 100%; }
