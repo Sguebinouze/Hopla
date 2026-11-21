@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-HIST-09",
+  "duree": 7,
+  "essentiel": "En 1958, en pleine guerre d’Algérie, le général de Gaulle revient au pouvoir. La Constitution de la Ve République est adoptée par référendum.\nElle renforce le pouvoir exécutif. Depuis 1962, le président est élu au suffrage universel direct.\nLe régime connait l’alternance en 1981 et des cohabitations, quand président et majorité de l’Assemblée sont opposés.",
+  "parties": [
+    {
+      "titre": "Les institutions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La Ve République",
+          "colonnes": [
+            "Institution",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "président de la République",
+              "élu pour 5 ans ; nomme le Premier ministre, peut dissoudre l’Assemblée"
+            ],
+            [
+              "gouvernement",
+              "conduit la politique de la nation"
+            ],
+            [
+              "Parlement : Assemblée nationale et Sénat",
+              "vote les lois"
+            ],
+            [
+              "Conseil constitutionnel",
+              "vérifie que les lois respectent la Constitution"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Depuis 1962, le président est élu :",
+          "options": [
+            "au suffrage universel direct",
+            "par les députés",
+            "par le Sénat"
+          ],
+          "reponse": "au suffrage universel direct",
+          "explication": "Par tous les électeurs."
+        }
+      ]
+    },
+    {
+      "titre": "Alternance et cohabitation",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En 1981, François Mitterrand, socialiste, est élu : c’est la première alternance de la Ve République. En 1986, une première cohabitation commence."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le mandat présidentiel a toujours duré 5 ans.",
+          "correction": "Il était de 7 ans. Le quinquennat est adopté par référendum en 2000."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’alternance, c’est :",
+      "options": [
+        "le passage du pouvoir d’un camp politique à l’autre",
+        "une guerre civile",
+        "un référendum"
+      ],
+      "reponse": "le passage du pouvoir d’un camp politique à l’autre",
+      "explication": "Comme en 1981."
+    },
+    {
+      "consigne": "Une cohabitation :",
+      "options": [
+        "associe un président et une majorité opposés",
+        "réunit deux présidents",
+        "supprime l’Assemblée"
+      ],
+      "reponse": "associe un président et une majorité opposés",
+      "explication": "Le président nomme un Premier ministre de l’autre camp."
+    },
+    {
+      "consigne": "Le Conseil constitutionnel :",
+      "options": [
+        "vérifie que les lois respectent la Constitution",
+        "élit le président",
+        "commande l’armée"
+      ],
+      "reponse": "vérifie que les lois respectent la Constitution",
+      "explication": "Il peut censurer une loi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 86,
+      "extrait": "Le retour au pouvoir du général de Gaulle en 1958 donne",
+      "appui": "La Ve République"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,132 @@
+{
+  "competence": "HG-C4-3E-HIST-07",
+  "duree": 7,
+  "essentiel": "Après 1945, des États européens s’unissent pour garantir la paix et la prospérité.\nEn 1957, six pays signent le traité de Rome, qui crée la Communauté économique européenne. En 1992, le traité de Maastricht crée l’Union européenne.\nDes réalisations concrètes en découlent : libre circulation, euro, programme Erasmus.",
+  "parties": [
+    {
+      "titre": "Les étapes",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1951,
+              "date": "1951",
+              "evenement": "CECA : charbon et acier."
+            },
+            {
+              "annee": 1957,
+              "date": "1957",
+              "evenement": "Traité de Rome : CEE."
+            },
+            {
+              "annee": 1992,
+              "date": "1992",
+              "evenement": "Traité de Maastricht : Union européenne."
+            },
+            {
+              "annee": 2002,
+              "date": "2002",
+              "evenement": "Pièces et billets en euros."
+            },
+            {
+              "annee": 2004,
+              "date": "2004",
+              "evenement": "Entrée de dix nouveaux pays."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le traité de Maastricht crée :",
+          "options": [
+            "l’Union européenne",
+            "la CECA",
+            "l’OTAN"
+          ],
+          "reponse": "l’Union européenne",
+          "explication": "En 1992."
+        }
+      ]
+    },
+    {
+      "titre": "Des réalisations concrètes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ce que l’Europe change",
+          "colonnes": [
+            "Réalisation",
+            "Effet"
+          ],
+          "lignes": [
+            [
+              "espace Schengen",
+              "pas de contrôle aux frontières intérieures"
+            ],
+            [
+              "euro",
+              "une monnaie commune à la plupart des membres"
+            ],
+            [
+              "Erasmus",
+              "études à l’étranger"
+            ],
+            [
+              "politique agricole commune",
+              "aides aux agriculteurs"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les pays de l’Union utilisent l’euro.",
+          "correction": "Certains gardent leur monnaie, comme la Suède ou la Pologne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’Union européenne compte aujourd’hui :",
+      "options": [
+        "27 États",
+        "6 États",
+        "50 États"
+      ],
+      "reponse": "27 États",
+      "explication": "Le Royaume-Uni l’a quittée en 2020."
+    },
+    {
+      "consigne": "L’espace Schengen permet :",
+      "options": [
+        "de circuler sans contrôle aux frontières intérieures",
+        "de voter dans tous les pays",
+        "de ne pas payer d’impôts"
+      ],
+      "reponse": "de circuler sans contrôle aux frontières intérieures",
+      "explication": "Libre circulation des personnes."
+    },
+    {
+      "consigne": "Le programme Erasmus concerne :",
+      "options": [
+        "les études à l’étranger",
+        "l’agriculture",
+        "la défense"
+      ],
+      "reponse": "les études à l’étranger",
+      "explication": "Des millions d’étudiants en ont profité."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "Dans ce contexte, les étapes et les enjeux de la construction",
+      "appui": "La construction européenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

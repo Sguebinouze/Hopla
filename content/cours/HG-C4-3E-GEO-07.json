@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-GEO-07",
+  "duree": 7,
+  "essentiel": "La France est l’une des grandes puissances mondiales : membre permanent du Conseil de sécurité de l’ONU, puissance nucléaire, grande économie.\nSon influence culturelle passe par la langue française, parlée sur tous les continents, le tourisme, la gastronomie et la mode.\nL’Union européenne pèse aussi dans le monde : c’est l’une des premières puissances commerciales.",
+  "parties": [
+    {
+      "titre": "Les formes de la puissance",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La France dans le monde",
+          "colonnes": [
+            "Domaine",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "géopolitique",
+              "membre permanent du Conseil de sécurité, armée présente à l’étranger"
+            ],
+            [
+              "économique",
+              "grandes entreprises, luxe, aéronautique"
+            ],
+            [
+              "culturel",
+              "francophonie, cinéma, musées"
+            ],
+            [
+              "maritime",
+              "l’une des plus grandes ZEE du monde"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de membres permanents compte le Conseil de sécurité ?",
+          "options": [
+            "5",
+            "15",
+            "27"
+          ],
+          "reponse": "5",
+          "explication": "États-Unis, Russie, Chine, Royaume-Uni, France."
+        }
+      ]
+    },
+    {
+      "titre": "L’Europe dans le monde",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’Union européenne négocie d’une seule voix les accords commerciaux. Elle est aussi le premier donateur d’aide au développement."
+        },
+        {
+          "type": "piege",
+          "erreur": "On réduit la puissance à la force militaire.",
+          "correction": "La puissance est aussi économique et culturelle : c’est le « soft power », l’influence par l’attraction."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La francophonie désigne :",
+      "options": [
+        "l’ensemble des personnes et pays qui parlent français",
+        "un parti politique",
+        "une région de France"
+      ],
+      "reponse": "l’ensemble des personnes et pays qui parlent français",
+      "explication": "Sur tous les continents."
+    },
+    {
+      "consigne": "Le « soft power » est :",
+      "options": [
+        "l’influence par la culture et l’attraction",
+        "la puissance militaire",
+        "une monnaie"
+      ],
+      "reponse": "l’influence par la culture et l’attraction",
+      "explication": "Une puissance douce."
+    },
+    {
+      "consigne": "Un membre permanent du Conseil de sécurité peut :",
+      "options": [
+        "bloquer une décision par son veto",
+        "élire le secrétaire général seul",
+        "quitter l’ONU sans conséquence"
+      ],
+      "reponse": "bloquer une décision par son veto",
+      "explication": "Le droit de veto."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 91,
+      "extrait": "Cette approche permet de poser la question de la place et de",
+      "appui": "La France et l’Europe dans le monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

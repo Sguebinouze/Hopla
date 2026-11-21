@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-GEO-06",
+  "duree": 7,
+  "essentiel": "L’Union européenne réunit 27 États et environ 450 millions d’habitants.\nSon cœur économique est une dorsale urbaine qui va de Londres à Milan. La France y occupe une position de carrefour.\nDans les régions transfrontalières, des milliers de personnes traversent chaque jour une frontière pour travailler, comme les Lorrains au Luxembourg.",
+  "parties": [
+    {
+      "titre": "Un territoire organisé",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les espaces de l’Union",
+          "colonnes": [
+            "Espace",
+            "Caractères"
+          ],
+          "lignes": [
+            [
+              "dorsale européenne",
+              "métropoles, industries, grands axes, de Londres à Milan"
+            ],
+            [
+              "façades maritimes",
+              "grands ports : Rotterdam, Anvers, Hambourg"
+            ],
+            [
+              "périphéries",
+              "régions moins riches, à l’est et au sud"
+            ],
+            [
+              "régions transfrontalières",
+              "coopération de part et d’autre des frontières"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le plus grand port d’Europe est :",
+          "options": [
+            "Rotterdam",
+            "Marseille",
+            "Lisbonne"
+          ],
+          "reponse": "Rotterdam",
+          "explication": "Aux Pays-Bas."
+        }
+      ]
+    },
+    {
+      "titre": "Vivre une frontière",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les salaires plus élevés au Luxembourg attirent des travailleurs frontaliers. Les routes et les trains sont saturés aux heures de pointe."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la frontière a disparu avec Schengen.",
+          "correction": "Les contrôles ont presque disparu, mais les lois, les salaires et les impôts restent différents."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un travailleur frontalier :",
+      "options": [
+        "vit dans un pays et travaille dans un pays voisin",
+        "travaille à la douane",
+        "habite à l’étranger sans travailler"
+      ],
+      "reponse": "vit dans un pays et travaille dans un pays voisin",
+      "explication": "Il traverse la frontière chaque jour."
+    },
+    {
+      "consigne": "L’Union européenne compte environ :",
+      "options": [
+        "450 millions d’habitants",
+        "45 millions",
+        "4,5 milliards"
+      ],
+      "reponse": "450 millions d’habitants",
+      "explication": "Une des plus grandes populations du monde."
+    },
+    {
+      "consigne": "La dorsale européenne est :",
+      "options": [
+        "l’espace le plus riche et dense de l’Union",
+        "une chaine de montagnes",
+        "une frontière"
+      ],
+      "reponse": "l’espace le plus riche et dense de l’Union",
+      "explication": "De Londres à Milan."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 91,
+      "extrait": "On présente les caractéristiques du territoire de l’UE en insistant",
+      "appui": "L’Union européenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

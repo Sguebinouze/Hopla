@@ -1,0 +1,137 @@
+{
+  "competence": "HG-C4-3E-HIST-06",
+  "duree": 8,
+  "essentiel": "De 1947 à 1991, les États-Unis et l’URSS s’affrontent sans guerre directe entre eux : c’est la guerre froide.\nDeux modèles s’opposent : démocratie libérale et capitalisme à l’Ouest, communisme et parti unique à l’Est.\nLe mur de Berlin, construit en 1961, coupe la ville en deux jusqu’en 1989.",
+  "parties": [
+    {
+      "titre": "Deux blocs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Est contre Ouest",
+          "colonnes": [
+            "Critère",
+            "Bloc de l’Ouest",
+            "Bloc de l’Est"
+          ],
+          "lignes": [
+            [
+              "puissance",
+              "États-Unis",
+              "URSS"
+            ],
+            [
+              "politique",
+              "démocratie libérale",
+              "parti communiste unique"
+            ],
+            [
+              "économie",
+              "capitalisme",
+              "économie planifiée"
+            ],
+            [
+              "alliance militaire",
+              "OTAN (1949)",
+              "pacte de Varsovie (1955)"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi parle-t-on de guerre « froide » ?",
+          "options": [
+            "les deux Grands ne s’affrontent pas directement",
+            "elle a lieu en hiver",
+            "elle se déroule au pôle Nord"
+          ],
+          "reponse": "les deux Grands ne s’affrontent pas directement",
+          "explication": "Les conflits sont indirects."
+        }
+      ]
+    },
+    {
+      "titre": "Des crises",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1948,
+              "date": "1948-1949",
+              "evenement": "Blocus de Berlin."
+            },
+            {
+              "annee": 1950,
+              "date": "1950-1953",
+              "evenement": "Guerre de Corée."
+            },
+            {
+              "annee": 1961,
+              "date": "1961",
+              "evenement": "Construction du mur de Berlin."
+            },
+            {
+              "annee": 1962,
+              "date": "1962",
+              "evenement": "Crise des missiles de Cuba."
+            },
+            {
+              "annee": 1991,
+              "date": "1991",
+              "evenement": "Disparition de l’URSS."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la guerre froide n’a fait aucun mort.",
+          "correction": "Les Grands ne se battent pas directement, mais des guerres comme celles de Corée et du Vietnam font des millions de victimes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La crise de Cuba, en 1962, concerne :",
+      "options": [
+        "des missiles soviétiques installés à Cuba",
+        "le mur de Berlin",
+        "la guerre de Corée"
+      ],
+      "reponse": "des missiles soviétiques installés à Cuba",
+      "explication": "Le monde frôle la guerre nucléaire."
+    },
+    {
+      "consigne": "L’OTAN est l’alliance militaire :",
+      "options": [
+        "du bloc de l’Ouest",
+        "du bloc de l’Est",
+        "des pays non alignés"
+      ],
+      "reponse": "du bloc de l’Ouest",
+      "explication": "Créée en 1949."
+    },
+    {
+      "consigne": "La guerre froide prend fin avec :",
+      "options": [
+        "la disparition de l’URSS en 1991",
+        "la construction du mur",
+        "la crise de Cuba"
+      ],
+      "reponse": "la disparition de l’URSS en 1991",
+      "explication": "Le bloc de l’Est s’effondre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "La guerre froide, l’autre fait majeur de la période, s’inscrit dans",
+      "appui": "La guerre froide"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

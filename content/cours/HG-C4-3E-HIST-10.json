@@ -1,0 +1,127 @@
+{
+  "competence": "HG-C4-3E-HIST-10",
+  "duree": 7,
+  "essentiel": "Des années 1950 aux années 1970, la France connait une forte croissance : les Trente Glorieuses. La consommation de masse se développe.\nLa société change : exode rural, baby-boom, place nouvelle des jeunes et des femmes.\nDes lois accompagnent ces changements : majorité à 18 ans en 1974, loi Veil sur l’IVG en 1975, abolition de la peine de mort en 1981.",
+  "parties": [
+    {
+      "titre": "Une société transformée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des changements",
+          "colonnes": [
+            "Domaine",
+            "Évolution"
+          ],
+          "lignes": [
+            [
+              "économie",
+              "croissance forte, plein emploi jusqu’au choc pétrolier de 1973"
+            ],
+            [
+              "consommation",
+              "voiture, télévision, réfrigérateur, supermarchés"
+            ],
+            [
+              "population",
+              "baby-boom, exode rural, immigration de travail"
+            ],
+            [
+              "jeunesse",
+              "Mai 1968 : contestation des étudiants et grèves"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les Trente Glorieuses désignent :",
+          "options": [
+            "une période de forte croissance",
+            "une guerre",
+            "un parti politique"
+          ],
+          "reponse": "une période de forte croissance",
+          "explication": "De la fin de la guerre aux années 1970."
+        }
+      ]
+    },
+    {
+      "titre": "Des lois",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1965,
+              "date": "1965",
+              "evenement": "Les femmes peuvent travailler sans l’autorisation de leur mari."
+            },
+            {
+              "annee": 1974,
+              "date": "1974",
+              "evenement": "Majorité à 18 ans."
+            },
+            {
+              "annee": 1975,
+              "date": "1975",
+              "evenement": "Loi Veil."
+            },
+            {
+              "annee": 1981,
+              "date": "1981",
+              "evenement": "Abolition de la peine de mort."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la croissance des Trente Glorieuses profite à tous de la même façon.",
+          "correction": "Des bidonvilles existent encore, et les ouvriers immigrés vivent souvent dans des conditions difficiles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La loi Veil date de :",
+      "options": [
+        "1975",
+        "1945",
+        "1981"
+      ],
+      "reponse": "1975",
+      "explication": "Défendue par Simone Veil."
+    },
+    {
+      "consigne": "La peine de mort est abolie en France en :",
+      "options": [
+        "1981",
+        "1945",
+        "1968"
+      ],
+      "reponse": "1981",
+      "explication": "À l’initiative de Robert Badinter."
+    },
+    {
+      "consigne": "Le premier choc pétrolier, en 1973, entraine :",
+      "options": [
+        "la fin des Trente Glorieuses et la montée du chômage",
+        "le baby-boom",
+        "Mai 1968"
+      ],
+      "reponse": "la fin des Trente Glorieuses et la montée du chômage",
+      "explication": "Le prix du pétrole flambe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 86,
+      "extrait": "Dans la seconde moitié du XXe siècle, la société française",
+      "appui": "La société française (1950-1980)"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-HIST-08",
+  "duree": 7,
+  "essentiel": "À la Libération, le Gouvernement provisoire, dirigé par de Gaulle, rétablit la République.\nElle s’élargit : les femmes obtiennent le droit de vote en 1944 et votent pour la première fois en 1945.\nInspirées du programme du Conseil national de la Résistance, des réformes sociales sont adoptées : Sécurité sociale, nationalisations.",
+  "parties": [
+    {
+      "titre": "Des réformes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Refonder la République",
+          "colonnes": [
+            "Date",
+            "Réforme"
+          ],
+          "lignes": [
+            [
+              "1944",
+              "droit de vote des femmes"
+            ],
+            [
+              "1945",
+              "création de la Sécurité sociale"
+            ],
+            [
+              "1945-1946",
+              "nationalisations : Renault, électricité, banques"
+            ],
+            [
+              "1946",
+              "Constitution de la IVe République"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La Sécurité sociale est créée en :",
+          "options": [
+            "1945",
+            "1936",
+            "1958"
+          ],
+          "reponse": "1945",
+          "explication": "Elle protège contre la maladie et la vieillesse."
+        }
+      ]
+    },
+    {
+      "titre": "Le programme du CNR",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Adopté en mars 1944, il prévoit le retour de la démocratie, une sécurité sociale pour tous et la nationalisation des grandes entreprises."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les Françaises votent depuis 1848.",
+          "correction": "Le suffrage de 1848 était seulement masculin. Les femmes votent pour la première fois en 1945."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Nationaliser une entreprise, c’est :",
+      "options": [
+        "la faire passer sous le contrôle de l’État",
+        "la vendre à l’étranger",
+        "la fermer"
+      ],
+      "reponse": "la faire passer sous le contrôle de l’État",
+      "explication": "Comme Renault en 1945."
+    },
+    {
+      "consigne": "Le programme du CNR a été rédigé par :",
+      "options": [
+        "la Résistance",
+        "le régime de Vichy",
+        "les Alliés"
+      ],
+      "reponse": "la Résistance",
+      "explication": "En 1944."
+    },
+    {
+      "consigne": "La IVe République est fondée en :",
+      "options": [
+        "1946",
+        "1958",
+        "1870"
+      ],
+      "reponse": "1946",
+      "explication": "Par une nouvelle Constitution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "En France, la Libération autorise la restauration de la légalité",
+      "appui": "Refonder la République (1944-1947)"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

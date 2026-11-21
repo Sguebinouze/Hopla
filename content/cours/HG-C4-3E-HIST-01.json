@@ -1,0 +1,131 @@
+{
+  "competence": "HG-C4-3E-HIST-01",
+  "duree": 8,
+  "essentiel": "La Première Guerre mondiale (1914-1918) est une guerre totale : elle mobilise les soldats, mais aussi les civils, l’économie et la propagande.\nLes soldats subissent des violences extrêmes dans les tranchées. En 1916, la bataille de Verdun dure dix mois.\nLes civils sont aussi visés : en 1915, l’Empire ottoman commet le génocide des Arméniens.",
+  "parties": [
+    {
+      "titre": "Une guerre totale",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tout un pays mobilisé",
+          "colonnes": [
+            "Domaine",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "militaire",
+              "des millions de soldats mobilisés"
+            ],
+            [
+              "économique",
+              "les usines fabriquent des obus ; les femmes remplacent les hommes"
+            ],
+            [
+              "financier",
+              "emprunts auprès de la population"
+            ],
+            [
+              "moral",
+              "propagande et censure"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi parle-t-on de « guerre totale » ?",
+          "options": [
+            "toute la société est mobilisée",
+            "tous les pays du monde combattent",
+            "elle ne fait aucune victime civile"
+          ],
+          "reponse": "toute la société est mobilisée",
+          "explication": "Soldats, civils, économie, propagande."
+        }
+      ]
+    },
+    {
+      "titre": "Violences de masse",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1914,
+              "date": "1914",
+              "evenement": "Début de la guerre."
+            },
+            {
+              "annee": 1915,
+              "date": "1915",
+              "evenement": "Génocide des Arméniens."
+            },
+            {
+              "annee": 1916,
+              "date": "1916",
+              "evenement": "Verdun, la Somme."
+            },
+            {
+              "annee": 1918,
+              "date": "11 novembre 1918",
+              "evenement": "Armistice."
+            }
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La guerre fait environ 10 millions de morts militaires. Le traité de Versailles, en 1919, impose de lourdes conditions à l’Allemagne."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Grande Guerre ne concerne que les soldats.",
+          "correction": "Les civils subissent occupations, déportations, bombardements et, pour les Arméniens, un génocide."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le génocide des Arméniens est commis par :",
+      "options": [
+        "l’Empire ottoman",
+        "l’Allemagne",
+        "la France"
+      ],
+      "reponse": "l’Empire ottoman",
+      "explication": "En 1915."
+    },
+    {
+      "consigne": "La bataille de Verdun a lieu en :",
+      "options": [
+        "1916",
+        "1914",
+        "1918"
+      ],
+      "reponse": "1916",
+      "explication": "Elle dure dix mois."
+    },
+    {
+      "consigne": "Le traité de Versailles est signé en :",
+      "options": [
+        "1919",
+        "1918",
+        "1914"
+      ],
+      "reponse": "1919",
+      "explication": "Il fixe la paix avec l’Allemagne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "En mobilisant les civils aussi bien que les militaires, la Grande",
+      "appui": "La Première Guerre mondiale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

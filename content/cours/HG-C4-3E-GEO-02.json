@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C4-3E-GEO-02",
+  "duree": 7,
+  "essentiel": "Les espaces productifs créent des richesses : espaces industriels, agricoles, touristiques et d’affaires.\nIls se transforment avec la mondialisation : certaines industries disparaissent, d’autres se concentrent près des métropoles et des littoraux.\nÀ Toulouse, l’aéronautique emploie des dizaines de milliers de personnes autour d’Airbus.",
+  "parties": [
+    {
+      "titre": "Des espaces variés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Exemples en France",
+          "colonnes": [
+            "Type",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "industriel",
+              "aéronautique à Toulouse"
+            ],
+            [
+              "agricole",
+              "grandes cultures de la Beauce"
+            ],
+            [
+              "touristique",
+              "stations de ski des Alpes"
+            ],
+            [
+              "d’affaires",
+              "La Défense, près de Paris"
+            ],
+            [
+              "industrialo-portuaire",
+              "Dunkerque, Fos-sur-Mer"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un technopôle associe :",
+          "options": [
+            "entreprises de pointe, universités et centres de recherche",
+            "champs et fermes",
+            "plages et hôtels"
+          ],
+          "reponse": "entreprises de pointe, universités et centres de recherche",
+          "explication": "Comme autour de Toulouse ou Grenoble."
+        }
+      ]
+    },
+    {
+      "titre": "Des mutations",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La Lorraine a perdu une grande partie de sa sidérurgie. Les zones industrialo-portuaires attirent les industries qui importent leurs matières premières par la mer."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’industrie a disparu de France.",
+          "correction": "Elle emploie moins, mais reste forte dans l’aéronautique, le luxe, l’agroalimentaire ou la pharmacie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La désindustrialisation désigne :",
+      "options": [
+        "le recul des emplois industriels",
+        "la création d’usines",
+        "l’exode rural"
+      ],
+      "reponse": "le recul des emplois industriels",
+      "explication": "Fermetures d’usines, comme en Lorraine."
+    },
+    {
+      "consigne": "La Beauce est un espace productif :",
+      "options": [
+        "agricole",
+        "touristique",
+        "d’affaires"
+      ],
+      "reponse": "agricole",
+      "explication": "Céréales sur de grandes exploitations."
+    },
+    {
+      "consigne": "Les industries lourdes s’installent souvent :",
+      "options": [
+        "sur les littoraux, près des ports",
+        "en haute montagne",
+        "en centre-ville"
+      ],
+      "reponse": "sur les littoraux, près des ports",
+      "explication": "Pour importer et exporter par la mer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "Les mutations des espaces productifs, à dominante industrielle,",
+      "appui": "Les espaces productifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

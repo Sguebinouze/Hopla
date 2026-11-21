@@ -1,0 +1,131 @@
+{
+  "competence": "HG-C4-3E-HIST-04",
+  "duree": 8,
+  "essentiel": "En juin 1940, la France est vaincue. Le maréchal Pétain signe l’armistice et reçoit les pleins pouvoirs : la République laisse place au régime de Vichy.\nVichy collabore avec l’occupant nazi et participe à la persécution des Juifs.\nLe 18 juin 1940, depuis Londres, de Gaulle appelle à continuer le combat. La Résistance s’organise en France.",
+  "parties": [
+    {
+      "titre": "Vichy et la collaboration",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le régime de Vichy",
+          "colonnes": [
+            "Aspect",
+            "Contenu"
+          ],
+          "lignes": [
+            [
+              "régime",
+              "autoritaire, fin de la République"
+            ],
+            [
+              "devise",
+              "Travail, Famille, Patrie"
+            ],
+            [
+              "antisémitisme",
+              "statut des Juifs dès octobre 1940"
+            ],
+            [
+              "collaboration",
+              "rafle du Vél d’Hiv en juillet 1942, par la police française"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La devise du régime de Vichy est :",
+          "options": [
+            "Travail, Famille, Patrie",
+            "Liberté, Égalité, Fraternité",
+            "Ordre et Progrès"
+          ],
+          "reponse": "Travail, Famille, Patrie",
+          "explication": "Elle remplace la devise républicaine."
+        }
+      ]
+    },
+    {
+      "titre": "La Résistance",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les résistants publient des journaux clandestins, sabotent, renseignent les Alliés. Jean Moulin unifie les mouvements en créant le Conseil national de la Résistance en 1943."
+        },
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1940,
+              "date": "juin 1940",
+              "evenement": "Défaite, appel du 18 juin, armistice."
+            },
+            {
+              "annee": 1942,
+              "date": "juillet 1942",
+              "evenement": "Rafle du Vél d’Hiv."
+            },
+            {
+              "annee": 1943,
+              "date": "1943",
+              "evenement": "Création du CNR."
+            },
+            {
+              "annee": 1944,
+              "date": "1944",
+              "evenement": "Débarquement le 6 juin ; libération de Paris le 25 aout."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Vichy était forcé par les nazis de persécuter les Juifs.",
+          "correction": "Vichy adopte de lui-même des lois antisémites et sa police organise des rafles."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Jean Moulin est :",
+      "options": [
+        "un résistant qui unifie les mouvements",
+        "un ministre de Vichy",
+        "un général allemand"
+      ],
+      "reponse": "un résistant qui unifie les mouvements",
+      "explication": "Il crée le CNR."
+    },
+    {
+      "consigne": "Le débarquement de Normandie a lieu le :",
+      "options": [
+        "6 juin 1944",
+        "18 juin 1940",
+        "8 mai 1945"
+      ],
+      "reponse": "6 juin 1944",
+      "explication": "Il ouvre la libération de la France."
+    },
+    {
+      "consigne": "Collaborer, pour Vichy, c’est :",
+      "options": [
+        "coopérer avec l’occupant nazi",
+        "résister",
+        "rester neutre"
+      ],
+      "reponse": "coopérer avec l’occupant nazi",
+      "explication": "Politique, économique, policière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "Dans le contexte du choc de la défaite de 1940, la Résistance",
+      "appui": "Vichy, collaboration, Résistance"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

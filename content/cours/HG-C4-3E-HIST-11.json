@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C4-3E-HIST-11",
+  "duree": 7,
+  "essentiel": "Le 9 novembre 1989, le mur de Berlin tombe. L’Allemagne est réunifiée en 1990, l’URSS disparait en 1991.\nLes États-Unis restent la seule superpuissance, mais de nouveaux conflits éclatent : guerres en ex-Yougoslavie, génocide des Tutsi au Rwanda en 1994.\nLe terrorisme islamiste frappe, notamment le 11 septembre 2001 aux États-Unis.",
+  "parties": [
+    {
+      "titre": "Repères",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1989,
+              "date": "1989",
+              "evenement": "Chute du mur de Berlin."
+            },
+            {
+              "annee": 1991,
+              "date": "1991",
+              "evenement": "Fin de l’URSS."
+            },
+            {
+              "annee": 1994,
+              "date": "1994",
+              "evenement": "Génocide des Tutsi au Rwanda."
+            },
+            {
+              "annee": 2001,
+              "date": "2001",
+              "evenement": "Attentats du 11 septembre."
+            },
+            {
+              "annee": 2022,
+              "date": "2022",
+              "evenement": "Invasion de l’Ukraine par la Russie."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le mur de Berlin tombe le :",
+          "options": [
+            "9 novembre 1989",
+            "11 septembre 2001",
+            "13 aout 1961"
+          ],
+          "reponse": "9 novembre 1989",
+          "explication": "La guerre froide touche à sa fin."
+        }
+      ]
+    },
+    {
+      "titre": "Un monde plus instable",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Après la guerre froide, les conflits sont souvent régionaux ou internes aux États. Des organisations terroristes frappent partout dans le monde, y compris en France en 2015."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la fin de la guerre froide a apporté la paix partout.",
+          "correction": "De nombreuses guerres éclatent : Balkans, Afrique des Grands Lacs, Moyen-Orient, puis Ukraine."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le génocide des Tutsi a lieu au :",
+      "options": [
+        "Rwanda",
+        "Kosovo",
+        "Vietnam"
+      ],
+      "reponse": "Rwanda",
+      "explication": "En 1994."
+    },
+    {
+      "consigne": "L’Allemagne est réunifiée en :",
+      "options": [
+        "1990",
+        "1961",
+        "2002"
+      ],
+      "reponse": "1990",
+      "explication": "Un an après la chute du mur."
+    },
+    {
+      "consigne": "Les attentats du 11 septembre 2001 frappent :",
+      "options": [
+        "les États-Unis",
+        "la France",
+        "le Royaume-Uni"
+      ],
+      "reponse": "les États-Unis",
+      "explication": "New York et Washington."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "Enjeux et conflits dans le monde après 1989",
+      "appui": "Le monde après 1989"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

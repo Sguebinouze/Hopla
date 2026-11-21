@@ -1,0 +1,111 @@
+{
+  "competence": "HG-C4-3E-HIST-02",
+  "duree": 8,
+  "essentiel": "Dans l’entre-deux-guerres, des régimes totalitaires s’installent : l’URSS de Staline et l’Allemagne nazie de Hitler.\nIls reposent sur un parti unique, le culte du chef, la propagande, la terreur et l’embrigadement de la jeunesse.\nLes démocraties, comme la France, sont fragilisées par la crise ; en 1936, le Front populaire y obtient des réformes sociales.",
+  "parties": [
+    {
+      "titre": "Deux totalitarismes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Critère",
+            "URSS de Staline",
+            "Allemagne de Hitler"
+          ],
+          "lignes": [
+            [
+              "arrivée au pouvoir",
+              "années 1920",
+              "1933, chancelier"
+            ],
+            [
+              "idéologie",
+              "communisme",
+              "nazisme, racisme, antisémitisme"
+            ],
+            [
+              "terreur",
+              "goulag, Grande Terreur",
+              "Gestapo, camps de concentration"
+            ],
+            [
+              "économie",
+              "collectivisation, plans",
+              "réarmement, grands travaux"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un régime totalitaire se caractérise par :",
+          "options": [
+            "un parti unique et la terreur",
+            "des élections libres",
+            "la liberté de la presse"
+          ],
+          "reponse": "un parti unique et la terreur",
+          "explication": "Il contrôle toute la société."
+        }
+      ]
+    },
+    {
+      "titre": "La démocratie en France",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En 1936, le Front populaire de Léon Blum accorde deux semaines de congés payés et la semaine de 40 heures."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Hitler a pris le pouvoir par un coup d’État.",
+          "correction": "Il est nommé chancelier légalement en 1933, puis supprime en quelques mois toutes les libertés."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le goulag désigne :",
+      "options": [
+        "les camps de travail forcé en URSS",
+        "un parti politique",
+        "une loi sociale"
+      ],
+      "reponse": "les camps de travail forcé en URSS",
+      "explication": "Des millions de personnes y sont envoyées."
+    },
+    {
+      "consigne": "Les congés payés sont obtenus en France en :",
+      "options": [
+        "1936",
+        "1918",
+        "1945"
+      ],
+      "reponse": "1936",
+      "explication": "Par le Front populaire."
+    },
+    {
+      "consigne": "Les lois de Nuremberg (1935) :",
+      "options": [
+        "privent les Juifs allemands de leurs droits",
+        "créent les congés payés",
+        "fondent l’URSS"
+      ],
+      "reponse": "privent les Juifs allemands de leurs droits",
+      "explication": "Elles traduisent l’antisémitisme nazi."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "Après la paix de Versailles puis la Grande Dépression, le régime",
+      "appui": "Démocraties et totalitarismes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,109 @@
+{
+  "competence": "HG-C4-3E-HIST-03",
+  "duree": 8,
+  "essentiel": "La Seconde Guerre mondiale (1939-1945) est une guerre d’anéantissement : l’ennemi doit être détruit, civils compris.\nElle fait plus de 50 millions de morts, en majorité des civils. Elle se termine après les bombes atomiques sur Hiroshima et Nagasaki.\nLes nazis commettent le génocide des Juifs, environ six millions de victimes, et celui des Tziganes.",
+  "parties": [
+    {
+      "titre": "Une guerre mondiale",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1939,
+              "date": "1939",
+              "evenement": "L’Allemagne envahit la Pologne."
+            },
+            {
+              "annee": 1941,
+              "date": "1941",
+              "evenement": "Attaque de l’URSS ; Pearl Harbor."
+            },
+            {
+              "annee": 1943,
+              "date": "1943",
+              "evenement": "Défaite allemande à Stalingrad."
+            },
+            {
+              "annee": 1945,
+              "date": "1945",
+              "evenement": "Capitulation de l’Allemagne, puis du Japon."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi parle-t-on de « guerre d’anéantissement » ?",
+          "options": [
+            "l’objectif est de détruire l’ennemi, civils compris",
+            "elle est courte",
+            "elle oppose seulement deux pays"
+          ],
+          "reponse": "l’objectif est de détruire l’ennemi, civils compris",
+          "explication": "Les civils sont des cibles."
+        }
+      ]
+    },
+    {
+      "titre": "Les génocides",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les Juifs sont exclus, enfermés dans des ghettos, fusillés, puis déportés vers des centres de mise à mort. À Auschwitz-Birkenau, plus d’un million de personnes sont assassinées."
+        },
+        {
+          "type": "explique",
+          "texte": "Les Tziganes sont aussi victimes d’un génocide. Ces crimes sont jugés au procès de Nuremberg, en 1945-1946."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le génocide des Juifs a lieu seulement dans les camps.",
+          "correction": "Plus d’un million de Juifs sont d’abord fusillés à l’est par des unités mobiles, avant les chambres à gaz."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le génocide des Juifs est appelé :",
+      "options": [
+        "la Shoah",
+        "la Résistance",
+        "le Front populaire"
+      ],
+      "reponse": "la Shoah",
+      "explication": "Un mot hébreu signifiant catastrophe."
+    },
+    {
+      "consigne": "Les bombes atomiques sont lancées en 1945 sur :",
+      "options": [
+        "Hiroshima et Nagasaki",
+        "Berlin et Rome",
+        "Londres et Paris"
+      ],
+      "reponse": "Hiroshima et Nagasaki",
+      "explication": "Le Japon capitule ensuite."
+    },
+    {
+      "consigne": "La défaite allemande à Stalingrad a lieu en :",
+      "options": [
+        "1943",
+        "1939",
+        "1945"
+      ],
+      "reponse": "1943",
+      "explication": "Un tournant de la guerre."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "Violence de masse et anéantissement caractérisent la",
+      "appui": "La Seconde Guerre mondiale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

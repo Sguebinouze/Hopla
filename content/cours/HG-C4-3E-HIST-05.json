@@ -1,0 +1,111 @@
+{
+  "competence": "HG-C4-3E-HIST-05",
+  "duree": 7,
+  "essentiel": "Après 1945, les peuples colonisés réclament leur indépendance. Les empires coloniaux s’effondrent.\nCertaines indépendances sont obtenues par la négociation ou la lutte non violente, comme l’Inde en 1947 avec Gandhi.\nD’autres passent par la guerre, comme en Algérie (1954-1962).",
+  "parties": [
+    {
+      "titre": "Des chemins différents",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des indépendances",
+          "colonnes": [
+            "Pays",
+            "Date",
+            "Modalité"
+          ],
+          "lignes": [
+            [
+              "Inde",
+              "1947",
+              "lutte non violente, partition avec le Pakistan"
+            ],
+            [
+              "Indochine",
+              "1954",
+              "guerre, défaite française à Diên Biên Phu"
+            ],
+            [
+              "Afrique subsaharienne française",
+              "1960",
+              "négociation, pour la plupart"
+            ],
+            [
+              "Algérie",
+              "1962",
+              "guerre, accords d’Évian"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’Algérie devient indépendante en :",
+          "options": [
+            "1962",
+            "1947",
+            "1830"
+          ],
+          "reponse": "1962",
+          "explication": "Après huit ans de guerre."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi en 1945 ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les métropoles sont affaiblies par la guerre. Les colonisés ont combattu pour elles et réclament les droits promis. L’ONU défend le droit des peuples à disposer d’eux-mêmes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que toutes les indépendances ont été obtenues par la guerre.",
+          "correction": "Beaucoup ont été négociées, comme la plupart des colonies françaises d’Afrique subsaharienne en 1960."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Gandhi mène une lutte :",
+      "options": [
+        "non violente",
+        "armée",
+        "navale"
+      ],
+      "reponse": "non violente",
+      "explication": "Désobéissance civile, boycott."
+    },
+    {
+      "consigne": "Les accords d’Évian mettent fin à la guerre :",
+      "options": [
+        "d’Algérie",
+        "d’Indochine",
+        "de Corée"
+      ],
+      "reponse": "d’Algérie",
+      "explication": "En 1962."
+    },
+    {
+      "consigne": "Décoloniser, c’est :",
+      "options": [
+        "accéder à l’indépendance pour une colonie",
+        "conquérir un territoire",
+        "créer un empire"
+      ],
+      "reponse": "accéder à l’indépendance pour une colonie",
+      "explication": "La fin de la domination coloniale."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 85,
+      "extrait": "L’effondrement rapide des empires coloniaux est un fait majeur",
+      "appui": "Les indépendances"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

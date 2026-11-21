@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-GEO-01",
+  "duree": 7,
+  "essentiel": "Une aire urbaine, ou aire d’attraction d’une ville, regroupe une ville-centre, ses banlieues et une couronne périurbaine.\nLa grande majorité des Français vit dans ces espaces urbains.\nChaque jour, des habitants des communes périurbaines rejoignent la ville pour travailler : ce sont des mobilités pendulaires.",
+  "parties": [
+    {
+      "titre": "Du centre à la couronne",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Organisation d’une aire urbaine",
+          "colonnes": [
+            "Espace",
+            "Caractères"
+          ],
+          "lignes": [
+            [
+              "ville-centre",
+              "emplois, commerces, administrations"
+            ],
+            [
+              "banlieue",
+              "logements collectifs, zones d’activités"
+            ],
+            [
+              "couronne périurbaine",
+              "lotissements, villages, terres agricoles"
+            ],
+            [
+              "réseaux",
+              "routes, rocades, transports en commun"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les mobilités pendulaires sont :",
+          "options": [
+            "des trajets quotidiens domicile-travail",
+            "des voyages touristiques",
+            "des migrations internationales"
+          ],
+          "reponse": "des trajets quotidiens domicile-travail",
+          "explication": "Aller-retour chaque jour."
+        }
+      ]
+    },
+    {
+      "titre": "Des défis",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’étalement périurbain allonge les trajets en voiture et grignote les terres agricoles. Les villes développent tramways, pistes cyclables et parkings relais."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les habitants du périurbain sont des ruraux comme les autres.",
+          "correction": "Ils vivent à la campagne mais dépendent de la ville pour l’emploi et les services."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un parking relais permet :",
+      "options": [
+        "de laisser sa voiture pour prendre les transports en commun",
+        "de stationner en centre-ville",
+        "de recharger son téléphone"
+      ],
+      "reponse": "de laisser sa voiture pour prendre les transports en commun",
+      "explication": "Il limite les voitures en ville."
+    },
+    {
+      "consigne": "La couronne périurbaine est :",
+      "options": [
+        "un espace en partie rural sous influence de la ville",
+        "le centre historique",
+        "un quartier d’affaires"
+      ],
+      "reponse": "un espace en partie rural sous influence de la ville",
+      "explication": "Lotissements et villages."
+    },
+    {
+      "consigne": "L’étalement urbain a pour conséquence :",
+      "options": [
+        "des trajets plus longs",
+        "moins de voitures",
+        "plus de terres agricoles"
+      ],
+      "reponse": "des trajets plus longs",
+      "explication": "La ville s’étend."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "Le territoire français a profondément changé depuis 50 ans, en",
+      "appui": "Les aires urbaines"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

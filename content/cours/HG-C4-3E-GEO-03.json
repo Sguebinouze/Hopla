@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-GEO-03",
+  "duree": 6,
+  "essentiel": "Les espaces de faible densité comptent peu d’habitants au kilomètre carré : campagnes isolées, montagnes.\nIls ont des contraintes : services éloignés, vieillissement de la population.\nMais ils ont des atouts : tourisme vert, agriculture de qualité, énergies renouvelables, nouveaux habitants en télétravail.",
+  "parties": [
+    {
+      "titre": "Contraintes et atouts",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les espaces de faible densité",
+          "colonnes": [
+            "Contraintes",
+            "Atouts"
+          ],
+          "lignes": [
+            [
+              "médecins et écoles éloignés",
+              "cadre de vie, nature"
+            ],
+            [
+              "peu de transports en commun",
+              "tourisme vert, randonnée"
+            ],
+            [
+              "population âgée",
+              "produits locaux, labels"
+            ],
+            [
+              "emplois rares",
+              "télétravail, éoliennes, panneaux solaires"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une densité faible signifie :",
+          "options": [
+            "peu d’habitants au km²",
+            "beaucoup d’habitants au km²",
+            "un territoire petit"
+          ],
+          "reponse": "peu d’habitants au km²",
+          "explication": "Le nombre d’habitants rapporté à la surface."
+        }
+      ]
+    },
+    {
+      "titre": "Revitaliser",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans un village de Lozère, une ancienne ferme accueille des gîtes et un espace de télétravail. Des maisons France services regroupent les démarches administratives."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les espaces ruraux perdent des habitants.",
+          "correction": "Certains en gagnent, grâce au télétravail, au tourisme ou à la proximité d’une ville."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Lozère est un département :",
+      "options": [
+        "peu dense",
+        "très urbanisé",
+        "littoral"
+      ],
+      "reponse": "peu dense",
+      "explication": "L’un des moins peuplés de France."
+    },
+    {
+      "consigne": "Un atout des espaces de faible densité :",
+      "options": [
+        "le tourisme vert",
+        "les embouteillages",
+        "les grands aéroports"
+      ],
+      "reponse": "le tourisme vert",
+      "explication": "Nature et randonnée."
+    },
+    {
+      "consigne": "Le télétravail permet :",
+      "options": [
+        "de vivre loin de son lieu de travail",
+        "d’éviter Internet",
+        "de supprimer les villes"
+      ],
+      "reponse": "de vivre loin de son lieu de travail",
+      "explication": "Grâce à une bonne connexion."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 90,
+      "extrait": "Les espaces de faible densité (espaces ruraux, montagnes,",
+      "appui": "Les espaces de faible densité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

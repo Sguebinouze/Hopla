@@ -1,0 +1,110 @@
+{
+  "competence": "HG-C4-3E-GEO-04",
+  "duree": 6,
+  "essentiel": "Aménager le territoire, c’est agir pour réduire les inégalités entre territoires et les rendre plus attractifs.\nDe nombreux acteurs interviennent : État, régions, départements, intercommunalités, communes, Union européenne, entreprises, habitants.\nUne ligne à grande vitesse, la fibre optique ou une maison de santé sont des aménagements.",
+  "parties": [
+    {
+      "titre": "Les acteurs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui aménage ?",
+          "colonnes": [
+            "Acteur",
+            "Exemple d’action"
+          ],
+          "lignes": [
+            [
+              "État",
+              "lignes à grande vitesse, autoroutes"
+            ],
+            [
+              "région",
+              "lycées, trains régionaux"
+            ],
+            [
+              "département",
+              "collèges, routes départementales"
+            ],
+            [
+              "commune ou intercommunalité",
+              "écoles, transports urbains"
+            ],
+            [
+              "Union européenne",
+              "fonds pour les régions en difficulté"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En France, les collèges relèvent :",
+          "options": [
+            "du département",
+            "de la commune",
+            "de la région"
+          ],
+          "reponse": "du département",
+          "explication": "Les lycées relèvent de la région."
+        }
+      ]
+    },
+    {
+      "titre": "Des choix discutés",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un projet d’aménagement peut susciter des oppositions : protection de la nature, cout, nuisances. Une concertation avec les habitants est organisée."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’État décide seul de tous les aménagements.",
+          "correction": "Les collectivités territoriales ont de nombreuses compétences et l’Union européenne finance des projets."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les lycées sont construits et entretenus par :",
+      "options": [
+        "la région",
+        "le département",
+        "la commune"
+      ],
+      "reponse": "la région",
+      "explication": "Une compétence régionale."
+    },
+    {
+      "consigne": "Un désert médical est :",
+      "options": [
+        "une zone qui manque de médecins",
+        "un désert de sable",
+        "un hôpital vide"
+      ],
+      "reponse": "une zone qui manque de médecins",
+      "explication": "Un enjeu d’aménagement."
+    },
+    {
+      "consigne": "Une concertation sert à :",
+      "options": [
+        "recueillir l’avis des habitants sur un projet",
+        "imposer un projet",
+        "voter une loi"
+      ],
+      "reponse": "recueillir l’avis des habitants sur un projet",
+      "explication": "Avant de décider."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 91,
+      "extrait": "Il s’agit de présenter aux élèves l’aménagement du territoire",
+      "appui": "Aménager le territoire"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

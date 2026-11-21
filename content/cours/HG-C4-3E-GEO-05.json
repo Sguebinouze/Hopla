@@ -1,0 +1,106 @@
+{
+  "competence": "HG-C4-3E-GEO-05",
+  "duree": 7,
+  "essentiel": "La France possède des territoires ultramarins dans les océans Atlantique, Indien et Pacifique : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte, Polynésie, Nouvelle-Calédonie…\nIls lui donnent l’une des plus grandes zones économiques exclusives du monde.\nIls ont des contraintes : éloignement, insularité, risques naturels, chômage élevé.",
+  "parties": [
+    {
+      "titre": "Atouts et contraintes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les territoires ultramarins",
+          "colonnes": [
+            "Atouts",
+            "Contraintes"
+          ],
+          "lignes": [
+            [
+              "zone économique exclusive immense",
+              "éloignement de la métropole"
+            ],
+            [
+              "biodiversité exceptionnelle",
+              "cyclones, volcans, séismes"
+            ],
+            [
+              "tourisme",
+              "cout de la vie élevé"
+            ],
+            [
+              "centre spatial de Kourou en Guyane",
+              "chômage plus fort qu’en métropole"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le centre spatial de Kourou se trouve en :",
+          "options": [
+            "Guyane",
+            "Martinique",
+            "Polynésie"
+          ],
+          "reponse": "Guyane",
+          "explication": "Près de l’équateur, idéal pour lancer des fusées."
+        }
+      ]
+    },
+    {
+      "titre": "Des statuts différents",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte sont des départements et régions d’outre-mer. D’autres territoires, comme la Polynésie française, ont plus d’autonomie."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les territoires ultramarins sont des pays étrangers.",
+          "correction": "Ils font partie de la France ; leurs habitants sont des citoyens français."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Réunion se situe dans l’océan :",
+      "options": [
+        "Indien",
+        "Atlantique",
+        "Pacifique"
+      ],
+      "reponse": "Indien",
+      "explication": "À l’est de Madagascar."
+    },
+    {
+      "consigne": "La ZEE de la France est immense grâce :",
+      "options": [
+        "aux territoires ultramarins",
+        "à la Méditerranée",
+        "aux fleuves"
+      ],
+      "reponse": "aux territoires ultramarins",
+      "explication": "Ils sont dispersés sur tous les océans."
+    },
+    {
+      "consigne": "Un risque fréquent aux Antilles :",
+      "options": [
+        "les cyclones",
+        "les avalanches",
+        "le grand froid"
+      ],
+      "reponse": "les cyclones",
+      "explication": "Pendant la saison cyclonique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 91,
+      "extrait": "Les territoires ultra-marins français : une problématique spécifique",
+      "appui": "Les territoires ultramarins"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
