@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C3-CM2-VILLE-01",
+  "duree": 5,
+  "essentiel": "La ville : a park, a library, a hospital, a station, a museum.\n« There is » pour un seul lieu, « there are » pour plusieurs : il y a.\n« There is a big park next to the library. »",
+  "parties": [
+    {
+      "titre": "Les lieux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En ville",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a station",
+              "une gare"
+            ],
+            [
+              "a hospital",
+              "un hôpital"
+            ],
+            [
+              "a museum",
+              "un musée"
+            ],
+            [
+              "a swimming pool",
+              "une piscine"
+            ],
+            [
+              "a flat",
+              "un appartement"
+            ],
+            [
+              "a house",
+              "une maison"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A museum » veut dire :",
+          "options": [
+            "un musée",
+            "une musique",
+            "une mosquée"
+          ],
+          "reponse": "un musée",
+          "explication": "On y voit des œuvres."
+        }
+      ]
+    },
+    {
+      "titre": "Il y a",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« There is a cinema. There are two parks. » : il y a un cinéma, il y a deux parcs."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « there is two parks ».",
+          "correction": "Au pluriel, on dit « there are » : there are two parks."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« There are three schools. » veut dire :",
+      "options": [
+        "Il y a trois écoles.",
+        "Il y avait trois écoles.",
+        "Ils ont trois écoles."
+      ],
+      "reponse": "Il y a trois écoles.",
+      "explication": "There are : il y a."
+    },
+    {
+      "consigne": "« A flat » veut dire :",
+      "options": [
+        "un appartement",
+        "un plat",
+        "une maison"
+      ],
+      "reponse": "un appartement",
+      "explication": "Dans un immeuble."
+    },
+    {
+      "consigne": "Complète : « There … a hospital. »",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "reponse": "is",
+      "explication": "Un seul lieu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "L'environnement urbain : les espaces verts, l’habitat et l’écohabitat (notamment les",
+      "appui": "La ville"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

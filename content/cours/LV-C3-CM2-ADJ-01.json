@@ -1,0 +1,98 @@
+{
+  "competence": "LV-C3-CM2-ADJ-01",
+  "duree": 4,
+  "essentiel": "En anglais, l’adjectif se place avant le nom : a red car.\nIl ne s’accorde jamais : two red cars, pas « two reds cars ».\nOn peut en mettre plusieurs : a big black dog.",
+  "parties": [
+    {
+      "titre": "Avant le nom",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Français",
+            "Anglais"
+          ],
+          "lignes": [
+            [
+              "une voiture rouge",
+              "a red car"
+            ],
+            [
+              "deux voitures rouges",
+              "two red cars"
+            ],
+            [
+              "un gros chien noir",
+              "a big black dog"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Comment dit-on « des chats noirs » ?",
+          "options": [
+            "black cats",
+            "blacks cats",
+            "cats black"
+          ],
+          "reponse": "black cats",
+          "explication": "L’adjectif ne prend pas de s."
+        }
+      ]
+    },
+    {
+      "titre": "Invariable",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On met un s à l’adjectif : « smalls houses ».",
+          "correction": "Seul le nom prend un s : small houses."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle forme est juste ?",
+      "options": [
+        "a green apple",
+        "an apple green",
+        "a apple green"
+      ],
+      "reponse": "a green apple",
+      "explication": "Adjectif avant le nom."
+    },
+    {
+      "consigne": "« Three big trees » veut dire :",
+      "options": [
+        "trois grands arbres",
+        "trois arbres verts",
+        "un grand arbre"
+      ],
+      "reponse": "trois grands arbres",
+      "explication": "Big : grand."
+    },
+    {
+      "consigne": "En anglais, l’adjectif :",
+      "options": [
+        "ne s’accorde jamais",
+        "s’accorde en nombre",
+        "s’accorde en genre"
+      ],
+      "reponse": "ne s’accorde jamais",
+      "explication": "Il reste invariable."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "l’adjectif qualificatif : sa place, son accord",
+      "appui": "La place de l’adjectif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C3-CM1-EPEL-01",
+  "duree": 5,
+  "essentiel": "Pour écrire un mot épelé, on reconnait chaque lettre à l’oral.\nCertaines lettres sonnent différemment du français : A (éï), E (i), I (aï), G (dji), J (djéï).\nC-A-T s’écrit cat.",
+  "parties": [
+    {
+      "titre": "Des lettres à bien entendre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Lettres pièges",
+          "colonnes": [
+            "Lettre",
+            "Se dit à peu près"
+          ],
+          "lignes": [
+            [
+              "A",
+              "éï"
+            ],
+            [
+              "E",
+              "i"
+            ],
+            [
+              "I",
+              "aï"
+            ],
+            [
+              "G",
+              "dji"
+            ],
+            [
+              "J",
+              "djéï"
+            ],
+            [
+              "Y",
+              "ouaï"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "On entend « dji-éï-em-i ». Le mot écrit est :",
+          "options": [
+            "GAME",
+            "JAMI",
+            "GEMI"
+          ],
+          "reponse": "GAME",
+          "explication": "G (dji), A (éï), M, E (i)."
+        }
+      ]
+    },
+    {
+      "titre": "Demander d’épeler",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« How do you spell your name? » « S-A-M. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit I quand on entend « i ».",
+          "correction": "« i » correspond à la lettre E. La lettre I se dit « aï »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La lettre A se dit à peu près :",
+      "options": [
+        "éï",
+        "a",
+        "i"
+      ],
+      "reponse": "éï",
+      "explication": "Comme dans « name »."
+    },
+    {
+      "consigne": "On entend « di-ô-dji ». Le mot est :",
+      "options": [
+        "DOG",
+        "DAG",
+        "DIG"
+      ],
+      "reponse": "DOG",
+      "explication": "D, O, G."
+    },
+    {
+      "consigne": "« Spell » veut dire :",
+      "options": [
+        "épeler",
+        "parler",
+        "écrire vite"
+      ],
+      "reponse": "épeler",
+      "explication": "Dire les lettres une à une."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 63,
+      "extrait": "l’élève peut épeler, copier ou écrire sous la dictée des éléments connus",
+      "appui": "Épeler en anglais"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C3-CM1-PREP-01",
+  "duree": 5,
+  "essentiel": "Les prépositions de lieu disent où se trouve quelque chose : in, on, under, next to, behind.\n« The cat is under the table. » : le chat est sous la table.\nAvec les verbes d’action, on les suit : « Put the book on the shelf! »",
+  "parties": [
+    {
+      "titre": "Où est le chat ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Prépositions de lieu",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "in",
+              "dans"
+            ],
+            [
+              "on",
+              "sur"
+            ],
+            [
+              "under",
+              "sous"
+            ],
+            [
+              "next to",
+              "à côté de"
+            ],
+            [
+              "behind",
+              "derrière"
+            ],
+            [
+              "in front of",
+              "devant"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« The ball is behind the door. » veut dire :",
+          "options": [
+            "La balle est derrière la porte.",
+            "La balle est devant la porte.",
+            "La balle est sur la porte."
+          ],
+          "reponse": "La balle est derrière la porte.",
+          "explication": "Behind : derrière."
+        }
+      ]
+    },
+    {
+      "titre": "Agir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Put your bag under your chair. » : mets ton sac sous ta chaise."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond in et on.",
+          "correction": "In : à l’intérieur. On : posé dessus."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« The pen is in the box. » Le stylo est :",
+      "options": [
+        "dans la boite",
+        "sur la boite",
+        "sous la boite"
+      ],
+      "reponse": "dans la boite",
+      "explication": "In : dans."
+    },
+    {
+      "consigne": "« Next to » veut dire :",
+      "options": [
+        "à côté de",
+        "derrière",
+        "sous"
+      ],
+      "reponse": "à côté de",
+      "explication": "Juste à côté."
+    },
+    {
+      "consigne": "« The cup is on the table. » La tasse est :",
+      "options": [
+        "sur la table",
+        "sous la table",
+        "à côté de la table"
+      ],
+      "reponse": "sur la table",
+      "explication": "On : sur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 52,
+      "extrait": "Relever quelques prépositions permettant des repérages dans l’espace et les verbes d’action associés.",
+      "appui": "Se repérer dans l’espace"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

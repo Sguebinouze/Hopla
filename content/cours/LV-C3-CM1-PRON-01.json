@@ -1,0 +1,116 @@
+{
+  "competence": "LV-C3-CM1-PRON-01",
+  "duree": 5,
+  "essentiel": "He désigne un garçon ou un homme, she une fille ou une femme, they plusieurs personnes.\nLes possessifs changent selon le possesseur : my, your, his, her.\n« This is Tom. His dog is black. » : le chien de Tom est noir.",
+  "parties": [
+    {
+      "titre": "Pronoms et possessifs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui ? À qui ?",
+          "colonnes": [
+            "Pronom",
+            "Possessif",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "I",
+              "my",
+              "my bike"
+            ],
+            [
+              "you",
+              "your",
+              "your bag"
+            ],
+            [
+              "he",
+              "his",
+              "his dog"
+            ],
+            [
+              "she",
+              "her",
+              "her cat"
+            ],
+            [
+              "they",
+              "their",
+              "their house"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« This is Léa. … cat is white. »",
+          "options": [
+            "Her",
+            "His",
+            "My"
+          ],
+          "reponse": "Her",
+          "explication": "Le chat appartient à Léa : her."
+        }
+      ]
+    },
+    {
+      "titre": "His ou her ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En anglais, le possessif dépend du possesseur. « His mother » : la mère d’un garçon. « Her father » : le père d’une fille."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec l’objet, comme en français : « Tom and her sister ».",
+          "correction": "Le possesseur est Tom, un garçon : his sister."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Sam and … brother » (Sam est un garçon)",
+      "options": [
+        "his",
+        "her",
+        "their"
+      ],
+      "reponse": "his",
+      "explication": "Le possesseur est un garçon."
+    },
+    {
+      "consigne": "« They » désigne :",
+      "options": [
+        "plusieurs personnes",
+        "une fille",
+        "un garçon"
+      ],
+      "reponse": "plusieurs personnes",
+      "explication": "Ils ou elles."
+    },
+    {
+      "consigne": "« Her bike » est le vélo :",
+      "options": [
+        "d’une fille",
+        "d’un garçon",
+        "de plusieurs personnes"
+      ],
+      "reponse": "d’une fille",
+      "explication": "Her : à elle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 52,
+      "extrait": "Déterminer de qui on parle en s’appuyant sur les pronoms personnels sujets, compléments et les adjectifs possessifs.",
+      "appui": "De qui parle-t-on ?"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

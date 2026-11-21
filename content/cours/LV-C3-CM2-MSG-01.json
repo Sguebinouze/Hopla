@@ -1,0 +1,112 @@
+{
+  "competence": "LV-C3-CM2-MSG-01",
+  "duree": 5,
+  "essentiel": "Pour comprendre une annonce, on cherche l’information essentielle : où, quand, quoi.\n« The train to London leaves at ten o’clock from platform two. »\nLe train pour Londres part à 10 h, voie 2.",
+  "parties": [
+    {
+      "titre": "Repérer l’essentiel",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Annonce : « The bus to Oxford leaves at half past nine from stop B. »",
+          "etapes": [
+            "Destination : Oxford.",
+            "Heure : half past nine, 9 h 30.",
+            "Lieu : arrêt B."
+          ],
+          "conclusion": "Le bus pour Oxford part à 9 h 30 de l’arrêt B."
+        },
+        {
+          "type": "question",
+          "consigne": "« Half past nine » veut dire :",
+          "options": [
+            "9 h 30",
+            "9 h 15",
+            "8 h 30"
+          ],
+          "reponse": "9 h 30",
+          "explication": "Half : la moitié de l’heure."
+        }
+      ]
+    },
+    {
+      "titre": "L’heure",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dire l’heure",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "ten o’clock",
+              "10 h"
+            ],
+            [
+              "quarter past ten",
+              "10 h 15"
+            ],
+            [
+              "half past ten",
+              "10 h 30"
+            ],
+            [
+              "quarter to eleven",
+              "10 h 45"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit « quarter to eleven » comme 11 h 15.",
+          "correction": "To : moins. Onze heures moins le quart, soit 10 h 45."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Platform » désigne :",
+      "options": [
+        "un quai, une voie",
+        "un billet",
+        "un horaire"
+      ],
+      "reponse": "un quai, une voie",
+      "explication": "Dans une gare."
+    },
+    {
+      "consigne": "« Quarter past three » veut dire :",
+      "options": [
+        "3 h 15",
+        "2 h 45",
+        "3 h 30"
+      ],
+      "reponse": "3 h 15",
+      "explication": "Past : après."
+    },
+    {
+      "consigne": "« The train leaves at six o’clock. » Le train part à :",
+      "options": [
+        "6 h",
+        "16 h 30",
+        "7 h"
+      ],
+      "reponse": "6 h",
+      "explication": "O’clock : heure pile."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 126,
+      "extrait": "Comprendre et extraire l'information",
+      "appui": "Comprendre une annonce"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

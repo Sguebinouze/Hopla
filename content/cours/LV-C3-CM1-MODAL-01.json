@@ -1,0 +1,120 @@
+{
+  "competence": "LV-C3-CM1-MODAL-01",
+  "duree": 6,
+  "essentiel": "Can exprime la capacité ou l’autorisation : « I can swim. » « Can I go to the toilet, please? »\nCan’t exprime l’incapacité ou le refus.\nMust exprime l’obligation, mustn’t l’interdiction : « You mustn’t run in the corridor. »",
+  "parties": [
+    {
+      "titre": "Can et can’t",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Pouvoir, savoir",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I can swim.",
+              "Je sais nager."
+            ],
+            [
+              "I can’t fly.",
+              "Je ne peux pas voler."
+            ],
+            [
+              "Can I go out?",
+              "Est-ce que je peux sortir ?"
+            ],
+            [
+              "Yes, you can.",
+              "Oui, tu peux."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Can I open the window? » veut dire :",
+          "options": [
+            "Est-ce que je peux ouvrir la fenêtre ?",
+            "Je sais ouvrir la fenêtre.",
+            "Ouvre la fenêtre !"
+          ],
+          "reponse": "Est-ce que je peux ouvrir la fenêtre ?",
+          "explication": "On demande une autorisation."
+        }
+      ]
+    },
+    {
+      "titre": "Must et mustn’t",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Règles",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "You must wear a helmet.",
+              "Tu dois porter un casque."
+            ],
+            [
+              "You mustn’t shout.",
+              "Tu ne dois pas crier."
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ajoute un s ou to après can : « She cans to swim ».",
+          "correction": "Can ne change jamais et se suit du verbe seul : she can swim."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« You mustn’t run. » veut dire :",
+      "options": [
+        "Tu ne dois pas courir.",
+        "Tu dois courir.",
+        "Tu sais courir."
+      ],
+      "reponse": "Tu ne dois pas courir.",
+      "explication": "Mustn’t : interdiction."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He can ride a bike.",
+        "He cans ride a bike.",
+        "He can to ride a bike."
+      ],
+      "reponse": "He can ride a bike.",
+      "explication": "Can ne change pas."
+    },
+    {
+      "consigne": "Pour une obligation, on utilise :",
+      "options": [
+        "must",
+        "can",
+        "like"
+      ],
+      "reponse": "must",
+      "explication": "Must : devoir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 52,
+      "extrait": "Identifier les auxiliaires modaux pour exprimer au présent l'autorisation, la capacité ou l’incapacité (A1+) ou l’obligation et",
+      "appui": "Pouvoir et devoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

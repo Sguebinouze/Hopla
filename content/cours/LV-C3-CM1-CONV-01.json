@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C3-CM1-CONV-01",
+  "duree": 5,
+  "essentiel": "On salue selon le moment : good morning le matin, good afternoon l’après-midi, good evening le soir.\nOn présente quelqu’un : « This is my friend Sam. »\nOn prend congé : « See you tomorrow! », « Goodbye! »",
+  "parties": [
+    {
+      "titre": "Commencer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Saluer",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Good morning!",
+              "Bonjour ! (matin)"
+            ],
+            [
+              "Good afternoon!",
+              "Bonjour ! (après-midi)"
+            ],
+            [
+              "Good evening!",
+              "Bonsoir !"
+            ],
+            [
+              "Nice to meet you.",
+              "Enchanté."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "À 16 h, on dit plutôt :",
+          "options": [
+            "Good afternoon!",
+            "Good morning!",
+            "Good night!"
+          ],
+          "reponse": "Good afternoon!",
+          "explication": "L’après-midi."
+        }
+      ]
+    },
+    {
+      "titre": "Finir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Good night! » se dit avant d’aller dormir, pas pour saluer quand on arrive le soir."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « Good night » quand on arrive le soir.",
+          "correction": "Quand on arrive, on dit « Good evening ». « Good night » sert à se quitter pour dormir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Nice to meet you. » veut dire :",
+      "options": [
+        "Enchanté.",
+        "À demain.",
+        "Bonne nuit."
+      ],
+      "reponse": "Enchanté.",
+      "explication": "Quand on rencontre quelqu’un."
+    },
+    {
+      "consigne": "« See you tomorrow! » veut dire :",
+      "options": [
+        "À demain !",
+        "À ce soir !",
+        "Bonjour !"
+      ],
+      "reponse": "À demain !",
+      "explication": "Tomorrow : demain."
+    },
+    {
+      "consigne": "Pour présenter ta sœur, tu dis :",
+      "options": [
+        "This is my sister.",
+        "I am my sister.",
+        "She my sister."
+      ],
+      "reponse": "This is my sister.",
+      "explication": "This is…"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 58,
+      "extrait": "l’élève peut engager et clore une conversation",
+      "appui": "Commencer et finir une conversation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,101 @@
+{
+  "competence": "LV-C3-CM2-NEG-01",
+  "duree": 6,
+  "essentiel": "Au présent, la question se forme avec do, ou does pour he, she, it : « Do you like cats? »\nLa négation se forme avec don’t ou doesn’t : « He doesn’t play tennis. »\nAvec does et doesn’t, le verbe perd son s : she plays, she doesn’t play.",
+  "parties": [
+    {
+      "titre": "Questions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Do ou does ?",
+          "colonnes": [
+            "Sujet",
+            "Question",
+            "Réponse courte"
+          ],
+          "lignes": [
+            [
+              "I, you, we, they",
+              "Do you like cats?",
+              "Yes, I do. / No, I don’t."
+            ],
+            [
+              "he, she, it",
+              "Does she like cats?",
+              "Yes, she does. / No, she doesn’t."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« … Tom play the piano? »",
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "reponse": "Does",
+          "explication": "Tom = he : does."
+        }
+      ]
+    },
+    {
+      "titre": "Négations",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "I don’t eat meat. She doesn’t eat meat. Le s de « eats » disparait après doesn’t."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « She doesn’t plays. »",
+          "correction": "Le s est déjà dans does : she doesn’t play."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« We … like spiders. »",
+      "options": [
+        "don’t",
+        "doesn’t",
+        "not"
+      ],
+      "reponse": "don’t",
+      "explication": "We : don’t."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He doesn’t like fish.",
+        "He don’t like fish.",
+        "He doesn’t likes fish."
+      ],
+      "reponse": "He doesn’t like fish.",
+      "explication": "Doesn’t + verbe sans s."
+    },
+    {
+      "consigne": "« Do you play football? » Tu joues : tu réponds :",
+      "options": [
+        "Yes, I do.",
+        "Yes, I play.",
+        "Yes, I am."
+      ],
+      "reponse": "Yes, I do.",
+      "explication": "Réponse courte avec do."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Type et forme de phrase",
+      "appui": "Questions et négations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

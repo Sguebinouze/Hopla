@@ -1,0 +1,87 @@
+{
+  "competence": "LV-C3-CM1-LIRE-01",
+  "duree": 5,
+  "essentiel": "Pour lire un message court, on cherche les informations utiles : quoi, quand, où, qui.\n« Party on Saturday at 3 pm! » : une fête samedi à 15 h.\nLes mots connus et les nombres aident à comprendre.",
+  "parties": [
+    {
+      "titre": "Lire une invitation",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Invitation : « Come to my birthday party! Saturday 10th May, 3 pm, 12 Rose Street. Love, Emma. »",
+          "etapes": [
+            "Quoi ? Une fête d’anniversaire.",
+            "Quand ? Samedi 10 mai, à 15 h.",
+            "Où ? 12 Rose Street.",
+            "Qui ? Emma."
+          ],
+          "conclusion": "Emma invite à son anniversaire samedi 10 mai à 15 h."
+        },
+        {
+          "type": "question",
+          "consigne": "« pm » après une heure signifie :",
+          "options": [
+            "l’après-midi ou le soir",
+            "le matin",
+            "minuit"
+          ],
+          "reponse": "l’après-midi ou le soir",
+          "explication": "3 pm : 15 h."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer l’essentiel",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On cherche à traduire chaque mot.",
+          "correction": "On cherche d’abord les réponses à quoi, quand, où et qui."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« 9 am » correspond à :",
+      "options": [
+        "9 h du matin",
+        "21 h",
+        "minuit"
+      ],
+      "reponse": "9 h du matin",
+      "explication": "Am : le matin."
+    },
+    {
+      "consigne": "Dans une invitation, « Street » indique :",
+      "options": [
+        "une rue",
+        "une heure",
+        "un prénom"
+      ],
+      "reponse": "une rue",
+      "explication": "L’adresse."
+    },
+    {
+      "consigne": "Pour comprendre un message, on cherche :",
+      "options": [
+        "quoi, quand, où, qui",
+        "chaque mot",
+        "seulement le titre"
+      ],
+      "reponse": "quoi, quand, où, qui",
+      "explication": "L’information utile."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 48,
+      "extrait": "Comprendre des textes courts et simples",
+      "appui": "Lire un message court"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

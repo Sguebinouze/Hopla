@@ -1,0 +1,90 @@
+{
+  "competence": "LV-C3-CM2-ANN-01",
+  "duree": 5,
+  "essentiel": "Pour inviter, on dit quoi, quand et où : « Come to my birthday party on Saturday at three o’clock! »\nOn situe dans le temps avec on (jour) et at (heure), dans l’espace avec at ou in.\nOn ajoute une formule pour répondre : « Please reply by Friday. »",
+  "parties": [
+    {
+      "titre": "Écrire une invitation",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Une invitation",
+          "etapes": [
+            "What? Come to my party!",
+            "When? On Saturday at three o’clock.",
+            "Where? At my house, 5 Park Road.",
+            "Please reply by Friday."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« On Sunday at 2 pm » indique :",
+          "options": [
+            "le jour et l’heure",
+            "le lieu",
+            "le prénom"
+          ],
+          "reponse": "le jour et l’heure",
+          "explication": "On : jour ; at : heure."
+        }
+      ]
+    },
+    {
+      "titre": "Faire une annonce",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Attention please! The school show is on Friday at six in the gym. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie de préciser l’heure ou le lieu.",
+          "correction": "Une invitation complète répond à quoi, quand et où."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Please reply » veut dire :",
+      "options": [
+        "Merci de répondre",
+        "Merci de venir",
+        "Merci d’apporter un cadeau"
+      ],
+      "reponse": "Merci de répondre",
+      "explication": "Reply : répondre."
+    },
+    {
+      "consigne": "« The show is in the gym. » Le spectacle a lieu :",
+      "options": [
+        "dans le gymnase",
+        "dans le jardin",
+        "à la gare"
+      ],
+      "reponse": "dans le gymnase",
+      "explication": "Gym : gymnase."
+    },
+    {
+      "consigne": "Quelle forme est juste ?",
+      "options": [
+        "on Saturday",
+        "at Saturday",
+        "in Saturday"
+      ],
+      "reponse": "on Saturday",
+      "explication": "On avec un jour."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 128,
+      "extrait": "Faire une brève annonce (date, anniversaire,",
+      "appui": "Annoncer, inviter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

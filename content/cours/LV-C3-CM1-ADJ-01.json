@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-CM1-ADJ-01",
+  "duree": 5,
+  "essentiel": "Un adjectif décrit une personne, un animal ou un objet : big, small, old, new.\nBeaucoup d’adjectifs ont un contraire : big et small, fast et slow.\n« The elephant is big. The mouse is small. »",
+  "parties": [
+    {
+      "titre": "Adjectifs et contraires",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Contraires",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "big / small",
+              "grand / petit"
+            ],
+            [
+              "old / young",
+              "vieux / jeune"
+            ],
+            [
+              "fast / slow",
+              "rapide / lent"
+            ],
+            [
+              "hot / cold",
+              "chaud / froid"
+            ],
+            [
+              "happy / sad",
+              "content / triste"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le contraire de « fast » est :",
+          "options": [
+            "slow",
+            "big",
+            "old"
+          ],
+          "reponse": "slow",
+          "explication": "Fast : rapide."
+        }
+      ]
+    },
+    {
+      "titre": "Décrire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« The tortoise is slow. The rabbit is fast. » : la tortue est lente, le lapin est rapide."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde l’adjectif : « the bigs dogs ».",
+          "correction": "En anglais, l’adjectif ne s’accorde pas : the big dogs."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le contraire de « old » pour une personne est :",
+      "options": [
+        "young",
+        "new",
+        "small"
+      ],
+      "reponse": "young",
+      "explication": "Young : jeune."
+    },
+    {
+      "consigne": "« The giraffe is tall. » veut dire :",
+      "options": [
+        "La girafe est grande.",
+        "La girafe est petite.",
+        "La girafe est rapide."
+      ],
+      "reponse": "La girafe est grande.",
+      "explication": "Tall : grand en hauteur."
+    },
+    {
+      "consigne": "Quelle forme est juste ?",
+      "options": [
+        "two small cats",
+        "two smalls cats",
+        "two cats smalls"
+      ],
+      "reponse": "two small cats",
+      "explication": "L’adjectif est invariable et avant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 54,
+      "extrait": "savoir employer quelques adjectifs (A1+) et leurs contraires ;",
+      "appui": "Décrire avec des adjectifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

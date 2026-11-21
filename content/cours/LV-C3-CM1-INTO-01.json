@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C3-CM1-INTO-01",
+  "duree": 5,
+  "essentiel": "À l’oral, la voix monte à la fin d’une question fermée : « Are you hungry? »\nElle descend à la fin d’une affirmation : « You’re hungry. »\nUne exclamation est dite avec plus de force : « Great! »",
+  "parties": [
+    {
+      "titre": "Trois intonations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Écouter la voix",
+          "colonnes": [
+            "Phrase",
+            "Type",
+            "Intonation"
+          ],
+          "lignes": [
+            [
+              "You’re hungry.",
+              "affirmation",
+              "la voix descend"
+            ],
+            [
+              "Are you hungry?",
+              "question",
+              "la voix monte"
+            ],
+            [
+              "Great!",
+              "exclamation",
+              "la voix est forte"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Is it your bike? » est :",
+          "options": [
+            "une question",
+            "une affirmation",
+            "une exclamation"
+          ],
+          "reponse": "une question",
+          "explication": "Le verbe est avant le sujet, la voix monte."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre des mots",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans une question, le verbe passe souvent devant le sujet : « You are » devient « Are you? »."
+        },
+        {
+          "type": "piege",
+          "erreur": "On pose une question en gardant l’ordre de l’affirmation : « You are hungry? »",
+          "correction": "À l’écrit, on inverse : « Are you hungry? »"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans une question fermée, la voix :",
+      "options": [
+        "monte à la fin",
+        "descend à la fin",
+        "reste plate"
+      ],
+      "reponse": "monte à la fin",
+      "explication": "On attend yes ou no."
+    },
+    {
+      "consigne": "« She is tired. » est :",
+      "options": [
+        "une affirmation",
+        "une question",
+        "une exclamation"
+      ],
+      "reponse": "une affirmation",
+      "explication": "Sujet puis verbe."
+    },
+    {
+      "consigne": "La question de « It is cold. » est :",
+      "options": [
+        "Is it cold?",
+        "It is cold?",
+        "Cold it is?"
+      ],
+      "reponse": "Is it cold?",
+      "explication": "Le verbe passe devant."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 51,
+      "extrait": "Identifier une question, une affirmation, une exclamation (surprise, crainte, etc.) en reconnaissant des intonations de phrases",
+      "appui": "Question ou affirmation ?"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

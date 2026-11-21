@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C3-CM2-PREP-01",
+  "duree": 5,
+  "essentiel": "At pour une heure : at 8 o’clock.\nOn pour un jour ou une date : on Monday, on the 3rd of June.\nIn pour un mois, une saison, une année : in July, in summer, in 2026.",
+  "parties": [
+    {
+      "titre": "Trois prépositions de temps",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "At, on, in",
+          "colonnes": [
+            "Préposition",
+            "Avec",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "at",
+              "une heure",
+              "at 8 o’clock, at noon"
+            ],
+            [
+              "on",
+              "un jour, une date",
+              "on Monday, on my birthday"
+            ],
+            [
+              "in",
+              "un mois, une saison, une année",
+              "in July, in winter, in 2026"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Complète : « My birthday is … May. »",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "reponse": "in",
+          "explication": "Un mois : in."
+        }
+      ]
+    },
+    {
+      "titre": "Du plus précis au plus large",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "At : un instant précis. On : une journée. In : une période plus longue."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « in Monday ».",
+          "correction": "Avec un jour, on emploie on : on Monday."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Complète : « The film starts … 7 pm. »",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "reponse": "at",
+      "explication": "Une heure : at."
+    },
+    {
+      "consigne": "Complète : « We go skiing … winter. »",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "reponse": "in",
+      "explication": "Une saison : in."
+    },
+    {
+      "consigne": "Complète : « I have football … Wednesday. »",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "reponse": "on",
+      "explication": "Un jour : on."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "les principales prépositions (de lieu, de temps...)",
+      "appui": "In, on, at"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

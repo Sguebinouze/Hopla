@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C3-CM1-SOUH-01",
+  "duree": 5,
+  "essentiel": "« I would like » exprime un souhait poliment : « I would like an orange juice, please. »\nOn l’écrit souvent I’d like.\nPour proposer : « Would you like a biscuit? » On répond « Yes, please » ou « No, thank you ».",
+  "parties": [
+    {
+      "titre": "Souhaiter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Être poli",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I’d like a sandwich, please.",
+              "Je voudrais un sandwich, s’il vous plait."
+            ],
+            [
+              "Would you like some water?",
+              "Voudrais-tu de l’eau ?"
+            ],
+            [
+              "Yes, please.",
+              "Oui, s’il te plait."
+            ],
+            [
+              "No, thank you.",
+              "Non, merci."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Would you like a cake? » veut dire :",
+          "options": [
+            "Voudrais-tu un gâteau ?",
+            "Aimes-tu les gâteaux ?",
+            "As-tu un gâteau ?"
+          ],
+          "reponse": "Voudrais-tu un gâteau ?",
+          "explication": "Une proposition polie."
+        }
+      ]
+    },
+    {
+      "titre": "Like ou would like ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond « I like » et « I would like ».",
+          "correction": "I like : j’aime, en général. I would like : je voudrais, maintenant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Au café, pour commander poliment, on dit :",
+      "options": [
+        "I’d like a hot chocolate, please.",
+        "I like hot chocolate.",
+        "Hot chocolate!"
+      ],
+      "reponse": "I’d like a hot chocolate, please.",
+      "explication": "I would like."
+    },
+    {
+      "consigne": "On refuse poliment avec :",
+      "options": [
+        "No, thank you.",
+        "No!",
+        "I hate it."
+      ],
+      "reponse": "No, thank you.",
+      "explication": "Avec merci."
+    },
+    {
+      "consigne": "« I’d like » est l’abréviation de :",
+      "options": [
+        "I would like",
+        "I did like",
+        "I do like"
+      ],
+      "reponse": "I would like",
+      "explication": "Je voudrais."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 48,
+      "extrait": "Exprimer ses émotions ou ses souhaits et réagir",
+      "appui": "Exprimer un souhait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

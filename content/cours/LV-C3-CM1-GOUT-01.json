@@ -1,0 +1,106 @@
+{
+  "competence": "LV-C3-CM1-GOUT-01",
+  "duree": 5,
+  "essentiel": "On exprime ses gouts du plus fort au plus faible : I love, I like, I don’t like, I hate.\n« My favourite food is pizza. » : mon plat préféré est la pizza.\n« I love pizza but I hate carrots. » : but relie deux gouts opposés.",
+  "parties": [
+    {
+      "titre": "Une échelle",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du plus au moins",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I love",
+              "j’adore"
+            ],
+            [
+              "I like",
+              "j’aime"
+            ],
+            [
+              "I don’t like",
+              "je n’aime pas"
+            ],
+            [
+              "I hate",
+              "je déteste"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I hate spiders. » veut dire :",
+          "options": [
+            "Je déteste les araignées.",
+            "J’adore les araignées.",
+            "J’ai une araignée."
+          ],
+          "reponse": "Je déteste les araignées.",
+          "explication": "Hate : détester."
+        }
+      ]
+    },
+    {
+      "titre": "Favourite",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« What’s your favourite colour? » « My favourite colour is purple. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On met favourite après le nom : « my colour favourite ».",
+          "correction": "L’adjectif se place avant le nom : my favourite colour."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I love chocolate. » veut dire :",
+      "options": [
+        "J’adore le chocolat.",
+        "Je déteste le chocolat.",
+        "Je mange du chocolat."
+      ],
+      "reponse": "J’adore le chocolat.",
+      "explication": "Love : le plus fort."
+    },
+    {
+      "consigne": "Pour relier deux gouts opposés, on utilise :",
+      "options": [
+        "but",
+        "and",
+        "or"
+      ],
+      "reponse": "but",
+      "explication": "But : mais."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "My favourite sport is tennis.",
+        "My sport favourite is tennis.",
+        "Favourite my sport is tennis."
+      ],
+      "reponse": "My favourite sport is tennis.",
+      "explication": "Favourite avant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 52,
+      "extrait": "Identifier les verbes et les adjectifs de gout et de dégout pour réaliser une tâche qui les prend en compte.",
+      "appui": "Exprimer ses gouts"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

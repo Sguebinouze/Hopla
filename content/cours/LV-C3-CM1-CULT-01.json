@@ -1,0 +1,107 @@
+{
+  "competence": "LV-C3-CM1-CULT-01",
+  "duree": 5,
+  "essentiel": "Les pays anglophones ont des habitudes différentes des nôtres.\nAu Royaume-Uni, les voitures roulent à gauche, et les élèves portent souvent un uniforme.\nLe petit déjeuner anglais traditionnel est salé : œufs, bacon, haricots.",
+  "parties": [
+    {
+      "titre": "Similitudes et différences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "France et Royaume-Uni",
+          "colonnes": [
+            "Domaine",
+            "France",
+            "Royaume-Uni"
+          ],
+          "lignes": [
+            [
+              "circulation",
+              "à droite",
+              "à gauche"
+            ],
+            [
+              "école",
+              "pas d’uniforme en général",
+              "uniforme souvent obligatoire"
+            ],
+            [
+              "monnaie",
+              "euro",
+              "livre sterling"
+            ],
+            [
+              "petit déjeuner traditionnel",
+              "sucré",
+              "salé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Au Royaume-Uni, les voitures roulent :",
+          "options": [
+            "à gauche",
+            "à droite",
+            "au milieu"
+          ],
+          "reponse": "à gauche",
+          "explication": "Attention en traversant !"
+        }
+      ]
+    },
+    {
+      "titre": "Comparer sans juger",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On pense qu’une habitude différente est bizarre ou fausse.",
+          "correction": "Elle est différente, pas meilleure ni moins bonne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un « school uniform » est :",
+      "options": [
+        "un uniforme scolaire",
+        "un cartable",
+        "un emploi du temps"
+      ],
+      "reponse": "un uniforme scolaire",
+      "explication": "Les mêmes vêtements pour tous."
+    },
+    {
+      "consigne": "Au Royaume-Uni, on paie en :",
+      "options": [
+        "livres sterling",
+        "euros",
+        "dollars"
+      ],
+      "reponse": "livres sterling",
+      "explication": "The pound."
+    },
+    {
+      "consigne": "Comparer deux cultures, c’est :",
+      "options": [
+        "repérer ce qui est pareil et différent",
+        "dire laquelle est la meilleure",
+        "se moquer"
+      ],
+      "reponse": "repérer ce qui est pareil et différent",
+      "explication": "Sans juger."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 43,
+      "extrait": "l’élève peut identifier une similitude ou une différence culturelle",
+      "appui": "Repères culturels"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

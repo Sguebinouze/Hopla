@@ -1,0 +1,111 @@
+{
+  "competence": "LV-C3-CM2-TPS-01",
+  "duree": 6,
+  "essentiel": "Des mots repères situent l’action : yesterday (hier), today (aujourd’hui), tomorrow (demain).\nAu passé, beaucoup de verbes prennent -ed : « Yesterday, I played tennis. »\nPour le futur proche, on dit « going to » : « Tomorrow, I’m going to swim. »",
+  "parties": [
+    {
+      "titre": "Passé, présent, futur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois moments",
+          "colonnes": [
+            "Moment",
+            "Repère",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "passé",
+              "yesterday",
+              "I played tennis."
+            ],
+            [
+              "présent",
+              "today, every day",
+              "I play tennis."
+            ],
+            [
+              "futur",
+              "tomorrow",
+              "I’m going to play tennis."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Yesterday, I watched a film. » se passe :",
+          "options": [
+            "hier",
+            "aujourd’hui",
+            "demain"
+          ],
+          "reponse": "hier",
+          "explication": "Yesterday et -ed."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer le temps",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour savoir quand",
+          "etapes": [
+            "Cherche un mot repère : yesterday, tomorrow.",
+            "Regarde la fin du verbe : -ed indique souvent le passé.",
+            "Repère going to pour le futur."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que tous les verbes au passé finissent par -ed.",
+          "correction": "Certains sont irréguliers : go devient went, have devient had."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Tomorrow, I’m going to visit my grandma. » se passe :",
+      "options": [
+        "demain",
+        "hier",
+        "maintenant"
+      ],
+      "reponse": "demain",
+      "explication": "Going to : futur."
+    },
+    {
+      "consigne": "« Yesterday, I went to the cinema. » Le verbe « went » vient de :",
+      "options": [
+        "go",
+        "want",
+        "wait"
+      ],
+      "reponse": "go",
+      "explication": "Un verbe irrégulier."
+    },
+    {
+      "consigne": "« I played » est au :",
+      "options": [
+        "passé",
+        "présent",
+        "futur"
+      ],
+      "reponse": "passé",
+      "explication": "-ed."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Le verbe : son accord avec le sujet ; l'expression du temps : présent, passé, futur ; les",
+      "appui": "Hier, aujourd’hui, demain"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

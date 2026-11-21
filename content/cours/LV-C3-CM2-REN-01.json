@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-CM2-REN-01",
+  "duree": 5,
+  "essentiel": "Pour demander un prix : « How much is the T-shirt? » « It’s ten pounds. »\nPour une quantité : « How many apples do you want? » « Four, please. »\nPour un horaire : « What time does the shop open? »",
+  "parties": [
+    {
+      "titre": "Au magasin",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Dialogue",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Can I help you?",
+              "Je peux vous aider ?"
+            ],
+            [
+              "How much is it?",
+              "Combien ça coute ?"
+            ],
+            [
+              "It’s five pounds.",
+              "Ça coute cinq livres."
+            ],
+            [
+              "Here you are.",
+              "Voilà."
+            ],
+            [
+              "Thank you, goodbye!",
+              "Merci, au revoir !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« How much are the shoes? » veut dire :",
+          "options": [
+            "Combien coutent les chaussures ?",
+            "Combien de chaussures ?",
+            "Où sont les chaussures ?"
+          ],
+          "reponse": "Combien coutent les chaussures ?",
+          "explication": "How much : combien, pour un prix."
+        }
+      ]
+    },
+    {
+      "titre": "Much ou many ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "How many + objets qu’on compte : how many apples. How much pour un prix ou une quantité non comptable."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « How many is it? » pour un prix.",
+          "correction": "Pour un prix : How much is it?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« What time does the museum open? » veut dire :",
+      "options": [
+        "À quelle heure ouvre le musée ?",
+        "Combien coute le musée ?",
+        "Où est le musée ?"
+      ],
+      "reponse": "À quelle heure ouvre le musée ?",
+      "explication": "What time : à quelle heure."
+    },
+    {
+      "consigne": "« Can I help you? » est dit par :",
+      "options": [
+        "le vendeur",
+        "le client",
+        "le chauffeur de bus"
+      ],
+      "reponse": "le vendeur",
+      "explication": "Il propose son aide."
+    },
+    {
+      "consigne": "Pour demander combien de bananes, on dit :",
+      "options": [
+        "How many bananas?",
+        "How much bananas?",
+        "What bananas?"
+      ],
+      "reponse": "How many bananas?",
+      "explication": "On les compte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 130,
+      "extrait": "Dialoguer pour échanger / obtenir des",
+      "appui": "Faire des achats"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

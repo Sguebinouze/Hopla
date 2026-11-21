@@ -1,0 +1,98 @@
+{
+  "competence": "LV-C3-CM2-BEC-01",
+  "duree": 4,
+  "essentiel": "« Why? » veut dire pourquoi ?\nOn répond avec « because » : parce que.\n« I like summer because it’s hot. » : j’aime l’été parce qu’il fait chaud.",
+  "parties": [
+    {
+      "titre": "Donner une raison",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Why et because",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Why do you like dogs?",
+              "Pourquoi aimes-tu les chiens ?"
+            ],
+            [
+              "Because they are funny.",
+              "Parce qu’ils sont drôles."
+            ],
+            [
+              "I’m tired because I ran.",
+              "Je suis fatigué parce que j’ai couru."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Because » veut dire :",
+          "options": [
+            "parce que",
+            "pourquoi",
+            "mais"
+          ],
+          "reponse": "parce que",
+          "explication": "Pour expliquer."
+        }
+      ]
+    },
+    {
+      "titre": "Relier deux idées",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On répond à « Why? » sans « because ».",
+          "correction": "On commence la réponse par because : Because it’s fun."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Why are you happy? » veut dire :",
+      "options": [
+        "Pourquoi es-tu content ?",
+        "Quand es-tu content ?",
+        "Es-tu content ?"
+      ],
+      "reponse": "Pourquoi es-tu content ?",
+      "explication": "Why : pourquoi."
+    },
+    {
+      "consigne": "Complète : « I like winter … I love snow. »",
+      "options": [
+        "because",
+        "but",
+        "why"
+      ],
+      "reponse": "because",
+      "explication": "On donne une raison."
+    },
+    {
+      "consigne": "« I don’t like this film because it’s boring. » Le film est :",
+      "options": [
+        "ennuyeux",
+        "drôle",
+        "long"
+      ],
+      "reponse": "ennuyeux",
+      "explication": "Boring : ennuyeux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Quelques subordonnants",
+      "appui": "Because"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,115 @@
+{
+  "competence": "LV-C3-CM1-RECET-01",
+  "duree": 5,
+  "essentiel": "Une recette ou une règle de jeu donne des instructions à l’impératif : « Mix the flour and the eggs. »\nLes mots first, then, finally indiquent l’ordre.\n« Bake for 20 minutes. » : faire cuire 20 minutes.",
+  "parties": [
+    {
+      "titre": "Des verbes de recette",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "En cuisine",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "mix",
+              "mélanger"
+            ],
+            [
+              "pour",
+              "verser"
+            ],
+            [
+              "cut",
+              "couper"
+            ],
+            [
+              "add",
+              "ajouter"
+            ],
+            [
+              "bake",
+              "cuire au four"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Add the sugar. » veut dire :",
+          "options": [
+            "Ajoute le sucre.",
+            "Mélange le sucre.",
+            "Coupe le sucre."
+          ],
+          "reponse": "Ajoute le sucre.",
+          "explication": "Add : ajouter."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pancakes",
+          "etapes": [
+            "First, mix the flour and the eggs.",
+            "Then, add the milk.",
+            "Finally, cook in a pan."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On suit les étapes dans le désordre.",
+          "correction": "First, then, finally : d’abord, ensuite, enfin."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« First » veut dire :",
+      "options": [
+        "d’abord",
+        "enfin",
+        "ensuite"
+      ],
+      "reponse": "d’abord",
+      "explication": "La première étape."
+    },
+    {
+      "consigne": "« Cut the apples. » veut dire :",
+      "options": [
+        "Coupe les pommes.",
+        "Mange les pommes.",
+        "Lave les pommes."
+      ],
+      "reponse": "Coupe les pommes.",
+      "explication": "Cut : couper."
+    },
+    {
+      "consigne": "« Bake » veut dire :",
+      "options": [
+        "cuire au four",
+        "mélanger",
+        "verser"
+      ],
+      "reponse": "cuire au four",
+      "explication": "Dans le four."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 48,
+      "extrait": "Traiter les informations et agir",
+      "appui": "Suivre une recette"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

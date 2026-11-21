@@ -1,0 +1,132 @@
+{
+  "competence": "LV-C3-CM2-PORT-01",
+  "duree": 5,
+  "essentiel": "Pour décrire l’apparence : « She has got long brown hair. » « He is tall. »\nPour le caractère : funny, kind, shy, clever.\nEn anglais, la couleur des cheveux se place juste avant hair.",
+  "parties": [
+    {
+      "titre": "L’apparence",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Décrire",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "tall / short",
+              "grand / petit"
+            ],
+            [
+              "long / short hair",
+              "cheveux longs / courts"
+            ],
+            [
+              "blond, brown, black hair",
+              "cheveux blonds, bruns, noirs"
+            ],
+            [
+              "blue eyes",
+              "yeux bleus"
+            ],
+            [
+              "glasses",
+              "des lunettes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« He has got short black hair. » veut dire :",
+          "options": [
+            "Il a les cheveux courts et noirs.",
+            "Il a les cheveux longs.",
+            "Il est petit et brun."
+          ],
+          "reponse": "Il a les cheveux courts et noirs.",
+          "explication": "Short : courts."
+        }
+      ]
+    },
+    {
+      "titre": "Le caractère",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Caractère",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "funny",
+              "drôle"
+            ],
+            [
+              "kind",
+              "gentil"
+            ],
+            [
+              "shy",
+              "timide"
+            ],
+            [
+              "clever",
+              "intelligent"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « She has got hair long. »",
+          "correction": "Les adjectifs viennent avant le nom : long brown hair."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« She is kind. » veut dire :",
+      "options": [
+        "Elle est gentille.",
+        "Elle est grande.",
+        "Elle est timide."
+      ],
+      "reponse": "Elle est gentille.",
+      "explication": "Kind : gentil."
+    },
+    {
+      "consigne": "« Shy » veut dire :",
+      "options": [
+        "timide",
+        "drôle",
+        "intelligent"
+      ],
+      "reponse": "timide",
+      "explication": "Il parle peu."
+    },
+    {
+      "consigne": "Quelle phrase est juste ?",
+      "options": [
+        "He has got blue eyes.",
+        "He has got eyes blue.",
+        "He has blue got eyes."
+      ],
+      "reponse": "He has got blue eyes.",
+      "explication": "Adjectif avant le nom."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Le portrait physique et moral.",
+      "appui": "Faire un portrait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

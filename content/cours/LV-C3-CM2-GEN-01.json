@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C3-CM2-GEN-01",
+  "duree": 5,
+  "essentiel": "Pour dire à qui appartient quelque chose, on écrit le possesseur, puis ’s, puis l’objet.\n« Tom’s bike » : le vélo de Tom.\n« My mother’s car » : la voiture de ma mère.",
+  "parties": [
+    {
+      "titre": "Construire le génitif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Français et anglais",
+          "colonnes": [
+            "Français",
+            "Anglais"
+          ],
+          "lignes": [
+            [
+              "le vélo de Tom",
+              "Tom’s bike"
+            ],
+            [
+              "la voiture de ma mère",
+              "my mother’s car"
+            ],
+            [
+              "le chien de Léa",
+              "Léa’s dog"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le cartable de Sam » se dit :",
+          "options": [
+            "Sam’s schoolbag",
+            "the schoolbag Sam",
+            "schoolbag’s Sam"
+          ],
+          "reponse": "Sam’s schoolbag",
+          "explication": "Possesseur + ’s + objet."
+        }
+      ]
+    },
+    {
+      "titre": "L’ordre est inversé",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En français, on dit l’objet puis le possesseur. En anglais, le possesseur vient d’abord."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met le ’s sur l’objet : « bike’s Tom ».",
+          "correction": "Le ’s va sur le possesseur : Tom’s bike."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Emma’s cat » veut dire :",
+      "options": [
+        "le chat d’Emma",
+        "Emma est un chat",
+        "les chats d’Emma"
+      ],
+      "reponse": "le chat d’Emma",
+      "explication": "Le chat appartient à Emma."
+    },
+    {
+      "consigne": "« La maison de mon père » se dit :",
+      "options": [
+        "my father’s house",
+        "the house my father",
+        "my house’s father"
+      ],
+      "reponse": "my father’s house",
+      "explication": "Possesseur d’abord."
+    },
+    {
+      "consigne": "Dans « Paul’s pen », le possesseur est :",
+      "options": [
+        "Paul",
+        "pen",
+        "s"
+      ],
+      "reponse": "Paul",
+      "explication": "Il porte le ’s."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "le génitif (si la langue en comporte)",
+      "appui": "Le génitif ’s"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

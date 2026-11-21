@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-CM1-QUOT-01",
+  "duree": 5,
+  "essentiel": "On raconte sa journée avec le présent simple : « I get up at seven. »\n« I go to school by bus. » : je vais à l’école en bus.\nLes moments : in the morning, in the afternoon, in the evening, at night.",
+  "parties": [
+    {
+      "titre": "Ma journée",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Activités quotidiennes",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "I get up at seven.",
+              "Je me lève à sept heures."
+            ],
+            [
+              "I have breakfast.",
+              "Je prends mon petit déjeuner."
+            ],
+            [
+              "I go to school by bus.",
+              "Je vais à l’école en bus."
+            ],
+            [
+              "I do my homework.",
+              "Je fais mes devoirs."
+            ],
+            [
+              "I go to bed at nine.",
+              "Je me couche à neuf heures."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« I go to school on foot. » veut dire :",
+          "options": [
+            "Je vais à l’école à pied.",
+            "Je vais à l’école en bus.",
+            "Je joue au foot à l’école."
+          ],
+          "reponse": "Je vais à l’école à pied.",
+          "explication": "On foot : à pied."
+        }
+      ]
+    },
+    {
+      "titre": "Les moments de la journée",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "In the morning : le matin. In the afternoon : l’après-midi. In the evening : le soir. At night : la nuit."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « in the night ».",
+          "correction": "On dit « at night »."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I do my homework in the afternoon. » veut dire :",
+      "options": [
+        "Je fais mes devoirs l’après-midi.",
+        "Je fais mes devoirs le matin.",
+        "Je fais mes devoirs la nuit."
+      ],
+      "reponse": "Je fais mes devoirs l’après-midi.",
+      "explication": "Afternoon : après-midi."
+    },
+    {
+      "consigne": "« By bike » veut dire :",
+      "options": [
+        "à vélo",
+        "à pied",
+        "en voiture"
+      ],
+      "reponse": "à vélo",
+      "explication": "Bike : vélo."
+    },
+    {
+      "consigne": "Quelle expression est juste ?",
+      "options": [
+        "at night",
+        "in the night",
+        "on night"
+      ],
+      "reponse": "at night",
+      "explication": "At night."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 26,
+      "extrait": "Donner des informations simples sur des activités quotidiennes, des habitudes :",
+      "appui": "Ma journée"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

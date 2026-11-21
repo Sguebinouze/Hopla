@@ -1,0 +1,102 @@
+{
+  "competence": "LV-C3-CM2-IMAG-01",
+  "duree": 5,
+  "essentiel": "Les pays de langue anglaise ont leurs contes et légendes.\nRobin Hood vit dans la forêt de Sherwood : il vole les riches pour aider les pauvres.\nLe roi Arthur et les chevaliers de la Table ronde sont une autre légende britannique.",
+  "parties": [
+    {
+      "titre": "Des légendes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Personnages célèbres",
+          "colonnes": [
+            "Personnage",
+            "Ce qu’on raconte"
+          ],
+          "lignes": [
+            [
+              "Robin Hood",
+              "un hors-la-loi de la forêt de Sherwood qui aide les pauvres"
+            ],
+            [
+              "King Arthur",
+              "un roi qui retire l’épée Excalibur d’un rocher"
+            ],
+            [
+              "Nessie",
+              "un monstre qui vivrait dans le Loch Ness, en Écosse"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Robin Hood vit dans :",
+          "options": [
+            "la forêt de Sherwood",
+            "un château",
+            "le Loch Ness"
+          ],
+          "reponse": "la forêt de Sherwood",
+          "explication": "Avec ses compagnons."
+        }
+      ]
+    },
+    {
+      "titre": "Lire une légende",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Robin Hood lives in Sherwood Forest. He helps the poor. » : il aide les pauvres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que ces légendes racontent des faits prouvés.",
+          "correction": "Ce sont des récits transmis et embellis : on ne sait pas ce qui est vrai."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’épée du roi Arthur s’appelle :",
+      "options": [
+        "Excalibur",
+        "Durandal",
+        "Sherwood"
+      ],
+      "reponse": "Excalibur",
+      "explication": "Il la retire d’un rocher."
+    },
+    {
+      "consigne": "« He helps the poor. » veut dire :",
+      "options": [
+        "Il aide les pauvres.",
+        "Il vole les pauvres.",
+        "Il est pauvre."
+      ],
+      "reponse": "Il aide les pauvres.",
+      "explication": "Help : aider."
+    },
+    {
+      "consigne": "Le Loch Ness se trouve en :",
+      "options": [
+        "Écosse",
+        "Irlande",
+        "Angleterre"
+      ],
+      "reponse": "Écosse",
+      "explication": "Au nord du Royaume-Uni."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Contes, mythes et légendes du pays ou de la région.",
+      "appui": "Contes et légendes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

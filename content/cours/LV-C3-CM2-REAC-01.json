@@ -1,0 +1,124 @@
+{
+  "competence": "LV-C3-CM2-REAC-01",
+  "duree": 5,
+  "essentiel": "On réagit à une proposition : « Let’s play football. » « Yes, good idea! » ou « Sorry, I can’t. »\nOn félicite : « Well done! », « Congratulations! »\nOn remercie et on s’excuse : « Thank you! », « Sorry! »",
+  "parties": [
+    {
+      "titre": "Accepter, refuser",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Réagir",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Let’s go to the park!",
+              "Allons au parc !"
+            ],
+            [
+              "Good idea!",
+              "Bonne idée !"
+            ],
+            [
+              "OK, why not?",
+              "D’accord, pourquoi pas ?"
+            ],
+            [
+              "Sorry, I can’t.",
+              "Désolé, je ne peux pas."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Let’s play cards! » veut dire :",
+          "options": [
+            "Jouons aux cartes !",
+            "Je joue aux cartes.",
+            "Tu joues aux cartes ?"
+          ],
+          "reponse": "Jouons aux cartes !",
+          "explication": "Let’s : proposition."
+        }
+      ]
+    },
+    {
+      "titre": "Féliciter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Bravo",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Well done!",
+              "Bravo !"
+            ],
+            [
+              "Congratulations!",
+              "Félicitations !"
+            ],
+            [
+              "Good job!",
+              "Beau travail !"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On refuse sèchement : « No! »",
+          "correction": "On refuse poliment : « Sorry, I can’t. »"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Well done! » veut dire :",
+      "options": [
+        "Bravo !",
+        "Bien cuit !",
+        "Bonne nuit !"
+      ],
+      "reponse": "Bravo !",
+      "explication": "Pour féliciter."
+    },
+    {
+      "consigne": "Pour refuser poliment, on dit :",
+      "options": [
+        "Sorry, I can’t.",
+        "No!",
+        "Let’s go!"
+      ],
+      "reponse": "Sorry, I can’t.",
+      "explication": "Avec sorry."
+    },
+    {
+      "consigne": "« Let’s » sert à :",
+      "options": [
+        "faire une proposition",
+        "poser une question",
+        "refuser"
+      ],
+      "reponse": "faire une proposition",
+      "explication": "Let’s : faisons."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 130,
+      "extrait": "Réagir à des propositions, dans des situations",
+      "appui": "Accepter, refuser, féliciter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

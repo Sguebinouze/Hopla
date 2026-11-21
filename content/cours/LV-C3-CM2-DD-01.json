@@ -1,0 +1,110 @@
+{
+  "competence": "LV-C3-CM2-DD-01",
+  "duree": 5,
+  "essentiel": "Pour protéger la planète, on recycle, on économise l’énergie et on choisit des transports propres.\n« Recycle your bottles and turn off the lights! »\nLes consignes sont à l’impératif.",
+  "parties": [
+    {
+      "titre": "Des gestes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Protéger la planète",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "Recycle!",
+              "Recycle !"
+            ],
+            [
+              "Turn off the lights!",
+              "Éteins les lumières !"
+            ],
+            [
+              "Save water!",
+              "Économise l’eau !"
+            ],
+            [
+              "Walk or cycle!",
+              "Marche ou va à vélo !"
+            ],
+            [
+              "Don’t waste food!",
+              "Ne gaspille pas la nourriture !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Turn off the tap! » veut dire :",
+          "options": [
+            "Ferme le robinet !",
+            "Ouvre le robinet !",
+            "Change le robinet !"
+          ],
+          "reponse": "Ferme le robinet !",
+          "explication": "Turn off : éteindre, fermer."
+        }
+      ]
+    },
+    {
+      "titre": "L’impératif négatif",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour interdire, on ajoute « Don’t » : « Don’t throw rubbish on the ground! »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « turn on » et « turn off ».",
+          "correction": "Turn on : allumer. Turn off : éteindre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Save energy! » veut dire :",
+      "options": [
+        "Économise l’énergie !",
+        "Dépense l’énergie !",
+        "Achète de l’énergie !"
+      ],
+      "reponse": "Économise l’énergie !",
+      "explication": "Save : économiser."
+    },
+    {
+      "consigne": "« Don’t waste paper! » veut dire :",
+      "options": [
+        "Ne gaspille pas le papier !",
+        "Recycle le papier !",
+        "Achète du papier !"
+      ],
+      "reponse": "Ne gaspille pas le papier !",
+      "explication": "Waste : gaspiller."
+    },
+    {
+      "consigne": "« Cycle to school » veut dire :",
+      "options": [
+        "aller à l’école à vélo",
+        "aller à l’école à pied",
+        "recycler à l’école"
+      ],
+      "reponse": "aller à l’école à vélo",
+      "explication": "Cycle : faire du vélo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Le développement durable : la lutte contre la pollution, le tri des déchets et le recyclage,",
+      "appui": "Protéger la planète"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

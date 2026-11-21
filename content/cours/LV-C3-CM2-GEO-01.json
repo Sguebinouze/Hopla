@@ -1,0 +1,117 @@
+{
+  "competence": "LV-C3-CM2-GEO-01",
+  "duree": 5,
+  "essentiel": "Le Royaume-Uni réunit quatre pays : England, Scotland, Wales et Northern Ireland.\nLeurs capitales sont London, Edinburgh, Cardiff et Belfast.\nOn parle aussi anglais aux États-Unis, au Canada, en Australie, en Irlande…",
+  "parties": [
+    {
+      "titre": "Quatre pays",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le Royaume-Uni",
+          "colonnes": [
+            "Pays",
+            "En français",
+            "Capitale"
+          ],
+          "lignes": [
+            [
+              "England",
+              "Angleterre",
+              "London"
+            ],
+            [
+              "Scotland",
+              "Écosse",
+              "Edinburgh"
+            ],
+            [
+              "Wales",
+              "pays de Galles",
+              "Cardiff"
+            ],
+            [
+              "Northern Ireland",
+              "Irlande du Nord",
+              "Belfast"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La capitale de l’Écosse est :",
+          "options": [
+            "Edinburgh",
+            "London",
+            "Cardiff"
+          ],
+          "reponse": "Edinburgh",
+          "explication": "Édimbourg en français."
+        }
+      ]
+    },
+    {
+      "titre": "D’autres pays anglophones",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "On parle anglais…",
+          "exemples": [
+            "aux États-Unis : Washington",
+            "au Canada, avec le français : Ottawa",
+            "en Australie : Canberra",
+            "en Irlande : Dublin"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que Royaume-Uni et Angleterre, c’est pareil.",
+          "correction": "L’Angleterre est l’un des quatre pays du Royaume-Uni."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Wales » veut dire :",
+      "options": [
+        "le pays de Galles",
+        "la baleine",
+        "l’Irlande"
+      ],
+      "reponse": "le pays de Galles",
+      "explication": "Capitale : Cardiff."
+    },
+    {
+      "consigne": "Le Royaume-Uni compte :",
+      "options": [
+        "4 pays",
+        "2 pays",
+        "50 pays"
+      ],
+      "reponse": "4 pays",
+      "explication": "Angleterre, Écosse, Galles, Irlande du Nord."
+    },
+    {
+      "consigne": "La capitale de l’Australie est :",
+      "options": [
+        "Canberra",
+        "Sydney",
+        "Londres"
+      ],
+      "reponse": "Canberra",
+      "explication": "Pas Sydney."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Leur situation géographique.",
+      "appui": "Le Royaume-Uni et ses pays"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

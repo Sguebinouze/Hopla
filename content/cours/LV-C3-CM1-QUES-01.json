@@ -1,0 +1,132 @@
+{
+  "competence": "LV-C3-CM1-QUES-01",
+  "duree": 5,
+  "essentiel": "Les mots interrogatifs anglais commencent souvent par wh- : what, where, when, who, why.\nHow veut dire comment ; how old, quel âge ; how many, combien.\n« When is your birthday? » : quand est ton anniversaire ?",
+  "parties": [
+    {
+      "titre": "Les mots en wh-",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Mots interrogatifs",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "What?",
+              "Quoi ? Quel ?"
+            ],
+            [
+              "Where?",
+              "Où ?"
+            ],
+            [
+              "When?",
+              "Quand ?"
+            ],
+            [
+              "Who?",
+              "Qui ?"
+            ],
+            [
+              "Why?",
+              "Pourquoi ?"
+            ],
+            [
+              "How?",
+              "Comment ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Why are you sad? » veut dire :",
+          "options": [
+            "Pourquoi es-tu triste ?",
+            "Quand es-tu triste ?",
+            "Qui est triste ?"
+          ],
+          "reponse": "Pourquoi es-tu triste ?",
+          "explication": "Why : pourquoi."
+        }
+      ]
+    },
+    {
+      "titre": "How + un mot",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Questions avec how",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "How old are you?",
+              "Quel âge as-tu ?"
+            ],
+            [
+              "How many cats?",
+              "Combien de chats ?"
+            ],
+            [
+              "How much is it?",
+              "Combien ça coute ?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « where » et « when ».",
+          "correction": "Where : où, un lieu. When : quand, un moment."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« When » veut dire :",
+      "options": [
+        "quand",
+        "où",
+        "qui"
+      ],
+      "reponse": "quand",
+      "explication": "Pour un moment."
+    },
+    {
+      "consigne": "Pour demander combien de frères, on dit :",
+      "options": [
+        "How many brothers?",
+        "How old brothers?",
+        "Who brothers?"
+      ],
+      "reponse": "How many brothers?",
+      "explication": "How many : combien de."
+    },
+    {
+      "consigne": "« Who is your teacher? » veut dire :",
+      "options": [
+        "Qui est ton professeur ?",
+        "Où est ton professeur ?",
+        "Comment va ton professeur ?"
+      ],
+      "reponse": "Qui est ton professeur ?",
+      "explication": "Who : qui."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 52,
+      "extrait": "Reconnaitre les pronoms interrogatifs usuels (A1+) ou une gamme plus large de pronoms interrogatifs dans des questions",
+      "appui": "Les mots interrogatifs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

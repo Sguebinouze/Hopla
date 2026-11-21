@@ -1,0 +1,114 @@
+{
+  "competence": "LV-C3-CM2-VET-01",
+  "duree": 5,
+  "essentiel": "Les vêtements : a jumper, trousers, a skirt, a dress, trainers.\nPour dire ce qu’on porte maintenant : « I’m wearing a blue jumper. »\n« Trousers » est toujours au pluriel.",
+  "parties": [
+    {
+      "titre": "Les vêtements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vêtements",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "a jumper",
+              "un pull"
+            ],
+            [
+              "trousers",
+              "un pantalon"
+            ],
+            [
+              "a skirt",
+              "une jupe"
+            ],
+            [
+              "a dress",
+              "une robe"
+            ],
+            [
+              "trainers",
+              "des baskets"
+            ],
+            [
+              "a jacket",
+              "une veste"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« A dress » veut dire :",
+          "options": [
+            "une robe",
+            "une jupe",
+            "un pull"
+          ],
+          "reponse": "une robe",
+          "explication": "Elle couvre le haut et le bas."
+        }
+      ]
+    },
+    {
+      "titre": "Ce que je porte",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Today, I’m wearing black trousers and white trainers. » : aujourd’hui, je porte un pantalon noir et des baskets blanches."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « a trouser ».",
+          "correction": "Trousers est toujours au pluriel : my trousers are black."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« I’m wearing a jacket. » veut dire :",
+      "options": [
+        "Je porte une veste.",
+        "J’achète une veste.",
+        "J’aime les vestes."
+      ],
+      "reponse": "Je porte une veste.",
+      "explication": "Wear : porter."
+    },
+    {
+      "consigne": "« Trainers » veut dire :",
+      "options": [
+        "des baskets",
+        "des entraineurs",
+        "des chaussettes"
+      ],
+      "reponse": "des baskets",
+      "explication": "Pour le sport."
+    },
+    {
+      "consigne": "« A jumper » veut dire :",
+      "options": [
+        "un pull",
+        "un sauteur",
+        "une jupe"
+      ],
+      "reponse": "un pull",
+      "explication": "Pour avoir chaud."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 132,
+      "extrait": "Le corps humain, les vêtements, les modes de vie.",
+      "appui": "Les vêtements"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

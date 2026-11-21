@@ -1,0 +1,140 @@
+{
+  "competence": "LV-C3-CM1-NOMB-01",
+  "duree": 5,
+  "essentiel": "Les dizaines finissent par -ty : twenty, thirty, forty, fifty… One hundred, c’est 100.\nPour la date, on utilise les nombres ordinaux : first, second, third, twelfth.\n« My birthday is on the twelfth of March. » : mon anniversaire est le 12 mars.",
+  "parties": [
+    {
+      "titre": "Compter jusqu’à 100",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les dizaines",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "twenty",
+              "20"
+            ],
+            [
+              "thirty",
+              "30"
+            ],
+            [
+              "forty",
+              "40"
+            ],
+            [
+              "fifty",
+              "50"
+            ],
+            [
+              "sixty-five",
+              "65"
+            ],
+            [
+              "one hundred",
+              "100"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Forty-two » veut dire :",
+          "options": [
+            "42",
+            "24",
+            "14"
+          ],
+          "reponse": "42",
+          "explication": "Forty : 40."
+        }
+      ]
+    },
+    {
+      "titre": "Les dates",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ordinaux",
+          "colonnes": [
+            "Anglais",
+            "Français"
+          ],
+          "lignes": [
+            [
+              "first (1st)",
+              "premier"
+            ],
+            [
+              "second (2nd)",
+              "deuxième"
+            ],
+            [
+              "third (3rd)",
+              "troisième"
+            ],
+            [
+              "twelfth (12th)",
+              "douzième"
+            ],
+            [
+              "twentieth (20th)",
+              "vingtième"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond « fourteen » et « forty ».",
+          "correction": "Fourteen : 14. Forty : 40, sans u."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Thirty » veut dire :",
+      "options": [
+        "30",
+        "13",
+        "3"
+      ],
+      "reponse": "30",
+      "explication": "Avec -ty."
+    },
+    {
+      "consigne": "« The first of May » veut dire :",
+      "options": [
+        "le 1er mai",
+        "le 5 mai",
+        "le 10 mai"
+      ],
+      "reponse": "le 1er mai",
+      "explication": "First : premier."
+    },
+    {
+      "consigne": "Comment dit-on 100 ?",
+      "options": [
+        "one hundred",
+        "ten",
+        "one thousand"
+      ],
+      "reponse": "one hundred",
+      "explication": "Hundred : cent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo12-2026-langues-ecole",
+      "page": 54,
+      "extrait": "compter en utilisant la suite numérique des nombres (A1+) au-delà de 100.",
+      "appui": "Nombres et dates"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
