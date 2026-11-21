@@ -1,0 +1,130 @@
+{
+  "competence": "QM-C2-CE2-OBJ-01",
+  "duree": 7,
+  "essentiel": "Un conducteur laisse passer le courant : les métaux.\nUn isolant ne le laisse pas passer : plastique, bois, verre.\nL’interrupteur ouvre ou ferme le circuit. Le courant de la prise est dangereux.",
+  "parties": [
+    {
+      "titre": "Fabriquer un testeur",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Tester un objet",
+          "etapes": [
+            "Fais un circuit avec une pile, une lampe et trois fils.",
+            "Laisse deux fils libres, sans les relier.",
+            "Pose l’objet entre les deux fils libres.",
+            "La lampe brille : l’objet est conducteur."
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Résultats",
+          "colonnes": [
+            "Conducteur",
+            "Isolant"
+          ],
+          "lignes": [
+            [
+              "cuillère en métal",
+              "cuillère en bois"
+            ],
+            [
+              "clé",
+              "bouchon"
+            ],
+            [
+              "pièce de monnaie",
+              "verre"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La lampe reste éteinte avec un bouchon. Le bouchon est :",
+          "options": [
+            "isolant",
+            "conducteur",
+            "cassé"
+          ],
+          "reponse": "isolant",
+          "explication": "Le courant ne le traverse pas."
+        }
+      ]
+    },
+    {
+      "titre": "Pile ou prise ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "D’où vient le courant ?",
+          "colonnes": [
+            "Avec une pile",
+            "Avec la prise"
+          ],
+          "lignes": [
+            [
+              "lampe de poche",
+              "grille-pain"
+            ],
+            [
+              "télécommande",
+              "lave-linge"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Le courant d’une petite pile ne fait pas de mal. Celui de la prise peut tuer."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’eau ne conduit pas le courant.",
+          "correction": "L’eau du robinet le conduit. Jamais d’appareil branché près du bain."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une clé en métal est :",
+      "options": [
+        "conductrice",
+        "isolante",
+        "vivante"
+      ],
+      "reponse": "conductrice",
+      "explication": "Les métaux conduisent le courant."
+    },
+    {
+      "consigne": "L’interrupteur sert à :",
+      "options": [
+        "ouvrir ou fermer le circuit",
+        "recharger la pile",
+        "changer de couleur"
+      ],
+      "reponse": "ouvrir ou fermer le circuit",
+      "explication": "Circuit ouvert, la lampe s’éteint."
+    },
+    {
+      "consigne": "Quel courant est dangereux ?",
+      "options": [
+        "celui de la prise",
+        "celui d’une petite pile",
+        "aucun"
+      ],
+      "reponse": "celui de la prise",
+      "explication": "Il ne faut jamais toucher une prise."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 78,
+      "extrait": "Exemples de bon conducteurs et d’isolants.",
+      "appui": "Conducteurs, isolants, sécurité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

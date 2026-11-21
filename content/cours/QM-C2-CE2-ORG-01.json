@@ -1,0 +1,136 @@
+{
+  "competence": "QM-C2-CE2-ORG-01",
+  "duree": 6,
+  "essentiel": "Une ville ou un village a des espaces pour chaque activité.\nOn y habite, on y travaille, on y achète, on s’y soigne.\nUne ville compte plus d’habitants et de bâtiments qu’un village.",
+  "parties": [
+    {
+      "titre": "Les espaces et leurs fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À quoi sert ce lieu ?",
+          "colonnes": [
+            "Activité",
+            "Lieux"
+          ],
+          "lignes": [
+            [
+              "habiter",
+              "maisons, immeubles"
+            ],
+            [
+              "travailler",
+              "usines, bureaux, champs"
+            ],
+            [
+              "acheter",
+              "magasins, marché"
+            ],
+            [
+              "se soigner",
+              "hôpital, pharmacie"
+            ],
+            [
+              "apprendre",
+              "école, collège"
+            ],
+            [
+              "se détendre",
+              "parc, stade, piscine"
+            ],
+            [
+              "décider pour la commune",
+              "mairie"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Où se réunit le conseil municipal ?",
+          "options": [
+            "à la mairie",
+            "à l’usine",
+            "au stade"
+          ],
+          "reponse": "à la mairie",
+          "explication": "Le maire y travaille."
+        }
+      ]
+    },
+    {
+      "titre": "Village ou ville ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Village",
+            "Ville"
+          ],
+          "lignes": [
+            [
+              "peu d’habitants",
+              "beaucoup d’habitants"
+            ],
+            [
+              "surtout des maisons",
+              "des maisons et des immeubles"
+            ],
+            [
+              "des champs autour",
+              "des bus, parfois un métro"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond quartier et ville.",
+          "correction": "Une ville est faite de plusieurs quartiers."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans une usine, on :",
+      "options": [
+        "travaille",
+        "se soigne",
+        "apprend à lire"
+      ],
+      "reponse": "travaille",
+      "explication": "On y fabrique des objets."
+    },
+    {
+      "consigne": "Où trouve-t-on des immeubles ?",
+      "options": [
+        "surtout en ville",
+        "surtout dans les champs",
+        "sur la banquise"
+      ],
+      "reponse": "surtout en ville",
+      "explication": "Beaucoup de gens y habitent."
+    },
+    {
+      "consigne": "Une ville est faite de plusieurs :",
+      "options": [
+        "quartiers",
+        "villages",
+        "pays"
+      ],
+      "reponse": "quartiers",
+      "explication": "Chaque quartier a ses rues."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 81,
+      "extrait": "Comprendre qu’un espace est organisé",
+      "appui": "Organisation de l’espace"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

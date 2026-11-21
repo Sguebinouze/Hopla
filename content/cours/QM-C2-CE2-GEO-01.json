@@ -1,0 +1,122 @@
+{
+  "competence": "QM-C2-CE2-GEO-01",
+  "duree": 6,
+  "essentiel": "Sur la Terre, il existe des milieux très différents.\nLe désert est très sec. La banquise est très froide.\nLa forêt tropicale est chaude et humide. En montagne, il fait plus froid.",
+  "parties": [
+    {
+      "titre": "Quatre milieux",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des milieux du monde",
+          "colonnes": [
+            "Milieu",
+            "Climat",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "désert",
+              "très peu de pluie",
+              "le Sahara"
+            ],
+            [
+              "banquise",
+              "très froid, eau gelée",
+              "l’Arctique"
+            ],
+            [
+              "forêt tropicale",
+              "chaud, beaucoup de pluie",
+              "l’Amazonie"
+            ],
+            [
+              "montagne",
+              "plus froid en altitude",
+              "les Alpes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans quel milieu pleut-il très peu ?",
+          "options": [
+            "le désert",
+            "la forêt tropicale",
+            "la banquise"
+          ],
+          "reponse": "le désert",
+          "explication": "C’est ce qui fait un désert."
+        }
+      ]
+    },
+    {
+      "titre": "Vivre dans ces milieux",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les habitants adaptent leur maison et leurs vêtements au climat."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un désert est toujours chaud.",
+          "correction": "Un désert est un lieu où il pleut très peu. Il peut être froid."
+        },
+        {
+          "type": "question",
+          "consigne": "Où trouve-t-on beaucoup d’arbres et de pluie ?",
+          "options": [
+            "dans la forêt tropicale",
+            "dans le désert",
+            "sur la banquise"
+          ],
+          "reponse": "dans la forêt tropicale",
+          "explication": "Comme en Amazonie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La banquise, c’est :",
+      "options": [
+        "de l’eau de mer gelée",
+        "du sable",
+        "une forêt"
+      ],
+      "reponse": "de l’eau de mer gelée",
+      "explication": "On la trouve près des pôles."
+    },
+    {
+      "consigne": "Plus on monte en montagne, plus il fait :",
+      "options": [
+        "froid",
+        "chaud",
+        "humide"
+      ],
+      "reponse": "froid",
+      "explication": "C’est pourquoi les sommets sont enneigés."
+    },
+    {
+      "consigne": "Le Sahara est :",
+      "options": [
+        "un désert",
+        "une banquise",
+        "une forêt"
+      ],
+      "reponse": "un désert",
+      "explication": "Il est en Afrique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 80,
+      "extrait": "Au CE2, on commence l’étude de l’espace géographique terrestre à travers quelques milieux géographiques caractéristiques.",
+      "appui": "Milieux géographiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

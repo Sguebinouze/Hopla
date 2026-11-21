@@ -1,0 +1,98 @@
+{
+  "competence": "QM-C2-CE2-VIV-02",
+  "duree": 6,
+  "essentiel": "Une plante a besoin d’eau, de lumière et de sels minéraux.\nSes racines puisent l’eau et les sels minéraux dans le sol.\nSans eau, elle fane. Sans lumière, elle jaunit.",
+  "parties": [
+    {
+      "titre": "Une expérience",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trois pots de haricots, pendant deux semaines.",
+          "exemples": [
+            "Pot 1, au soleil et arrosé : la plante pousse bien.",
+            "Pot 2, au soleil sans eau : la plante fane.",
+            "Pot 3, dans un placard et arrosé : la plante jaunit."
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pour réussir l’expérience",
+          "etapes": [
+            "Change une seule chose à la fois.",
+            "Garde tout le reste pareil.",
+            "Observe et note chaque jour."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi la plante du placard jaunit-elle ?",
+          "options": [
+            "elle manque de lumière",
+            "elle manque d’eau",
+            "elle a trop chaud"
+          ],
+          "reponse": "elle manque de lumière",
+          "explication": "Seule la lumière change entre les pots 1 et 3."
+        }
+      ]
+    },
+    {
+      "titre": "Dans le sol",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les racines tiennent la plante. Elles puisent l’eau et les sels minéraux du sol."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la plante mange la terre.",
+          "correction": "Elle prend seulement l’eau et les sels minéraux. La terre reste."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Par où la plante boit-elle ?",
+      "options": [
+        "par ses racines",
+        "par ses fleurs",
+        "par ses fruits"
+      ],
+      "reponse": "par ses racines",
+      "explication": "Les racines sont dans le sol."
+    },
+    {
+      "consigne": "Une plante privée de lumière :",
+      "options": [
+        "jaunit",
+        "fleurit plus",
+        "devient bleue"
+      ],
+      "reponse": "jaunit",
+      "explication": "Elle a besoin de lumière pour vivre."
+    },
+    {
+      "consigne": "De quoi une plante a-t-elle besoin ?",
+      "options": [
+        "d’eau, de lumière, de sels minéraux",
+        "de sucre et de lait",
+        "seulement de terre"
+      ],
+      "reponse": "d’eau, de lumière, de sels minéraux",
+      "explication": "Ce sont ses besoins vitaux."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Quelques besoins vitaux des végétaux.",
+      "appui": "Besoins des végétaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

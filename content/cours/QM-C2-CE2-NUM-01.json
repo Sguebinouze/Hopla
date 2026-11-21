@@ -1,0 +1,121 @@
+{
+  "competence": "QM-C2-CE2-NUM-01",
+  "duree": 5,
+  "essentiel": "Un ordinateur : écran, clavier, souris et unité centrale.\nLe clavier et la souris envoient des informations à l’ordinateur.\nL’écran les affiche. L’unité centrale calcule et garde les fichiers.",
+  "parties": [
+    {
+      "titre": "Les parties de l’ordinateur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À quoi ça sert ?",
+          "colonnes": [
+            "Élément",
+            "Son rôle"
+          ],
+          "lignes": [
+            [
+              "clavier",
+              "écrire des lettres et des chiffres"
+            ],
+            [
+              "souris",
+              "montrer et cliquer"
+            ],
+            [
+              "écran",
+              "afficher"
+            ],
+            [
+              "unité centrale",
+              "calculer et enregistrer"
+            ],
+            [
+              "imprimante",
+              "mettre sur papier"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour écrire un texte, j’utilise :",
+          "options": [
+            "le clavier",
+            "l’écran",
+            "l’imprimante"
+          ],
+          "reponse": "le clavier",
+          "explication": "Chaque touche donne une lettre."
+        }
+      ]
+    },
+    {
+      "titre": "Entrer et sortir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le clavier et la souris font entrer les informations. L’écran et l’imprimante les font sortir."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’écran est l’ordinateur.",
+          "correction": "L’écran affiche seulement. C’est l’unité centrale qui calcule."
+        },
+        {
+          "type": "question",
+          "consigne": "L’imprimante fait :",
+          "options": [
+            "sortir les informations",
+            "entrer les informations",
+            "calculer"
+          ],
+          "reponse": "sortir les informations",
+          "explication": "Elle met le travail sur papier."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Où l’ordinateur garde-t-il les fichiers ?",
+      "options": [
+        "dans l’unité centrale",
+        "dans la souris",
+        "dans l’écran"
+      ],
+      "reponse": "dans l’unité centrale",
+      "explication": "Elle enregistre le travail."
+    },
+    {
+      "consigne": "La souris sert à :",
+      "options": [
+        "montrer et cliquer",
+        "imprimer",
+        "afficher"
+      ],
+      "reponse": "montrer et cliquer",
+      "explication": "Elle déplace la flèche à l’écran."
+    },
+    {
+      "consigne": "Que fais-tu avant d’éteindre ?",
+      "options": [
+        "j’enregistre mon travail",
+        "je débranche l’écran",
+        "rien"
+      ],
+      "reponse": "j’enregistre mon travail",
+      "explication": "Sinon, le travail peut être perdu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 78,
+      "extrait": "Décrire l’architecture simple d’un dispositif informatique.",
+      "appui": "Matériel informatique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

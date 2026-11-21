@@ -1,0 +1,142 @@
+{
+  "competence": "QM-C2-CE2-MAT-01",
+  "duree": 7,
+  "essentiel": "La matière existe sous trois états : solide, liquide ou gazeux.\nL’air est un gaz. On ne le voit pas, mais il existe.\nL’eau chauffée devient vapeur. La vapeur refroidie redevient de l’eau.",
+  "parties": [
+    {
+      "titre": "Trois états",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les trois états",
+          "colonnes": [
+            "État",
+            "Sa forme",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "solide",
+              "il garde sa forme",
+              "caillou, glaçon"
+            ],
+            [
+              "liquide",
+              "il prend la forme du récipient",
+              "eau, lait"
+            ],
+            [
+              "gazeux",
+              "il occupe tout l’espace",
+              "air, vapeur d’eau"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le lait dans un verre est :",
+          "options": [
+            "liquide",
+            "solide",
+            "gazeux"
+          ],
+          "reponse": "liquide",
+          "explication": "Il prend la forme du verre."
+        }
+      ]
+    },
+    {
+      "titre": "L’air existe",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Trois expériences avec de l’air.",
+          "exemples": [
+            "Je gonfle un ballon : l’air le remplit.",
+            "Je plonge un verre retourné dans l’eau : l’eau n’y entre pas.",
+            "Je bouche une seringue et j’appuie : l’air se laisse serrer."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un verre vide ne contient rien.",
+          "correction": "Il est plein d’air. L’air prend de la place."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi l’eau n’entre pas dans le verre retourné ?",
+          "options": [
+            "il est plein d’air",
+            "il est trop petit",
+            "l’eau est trop froide"
+          ],
+          "reponse": "il est plein d’air",
+          "explication": "L’air occupe la place."
+        }
+      ]
+    },
+    {
+      "titre": "L’eau change d’état",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’eau bout à 100 °C : elle devient vapeur. Sur une vitre froide, la vapeur redevient de l’eau. C’est la condensation."
+        },
+        {
+          "type": "question",
+          "consigne": "Les gouttes sur la vitre de la salle de bains viennent :",
+          "options": [
+            "de la vapeur d’eau",
+            "du savon",
+            "de la vitre"
+          ],
+          "reponse": "de la vapeur d’eau",
+          "explication": "La vapeur touche la vitre froide et redevient liquide."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’air est :",
+      "options": [
+        "un gaz",
+        "un liquide",
+        "un solide"
+      ],
+      "reponse": "un gaz",
+      "explication": "Il occupe tout l’espace."
+    },
+    {
+      "consigne": "À quelle température l’eau bout-elle ?",
+      "options": [
+        "100 °C",
+        "0 °C",
+        "37 °C"
+      ],
+      "reponse": "100 °C",
+      "explication": "Elle devient alors vapeur."
+    },
+    {
+      "consigne": "Quand la vapeur refroidit, elle devient :",
+      "options": [
+        "de l’eau liquide",
+        "de l’air",
+        "du sable"
+      ],
+      "reponse": "de l’eau liquide",
+      "explication": "C’est la condensation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 76,
+      "extrait": "Tout ce qui est lié à l’état gazeux est abordé en CE2.",
+      "appui": "L’air et l’état gazeux au CE2"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

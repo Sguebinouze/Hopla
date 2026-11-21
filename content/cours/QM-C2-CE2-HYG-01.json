@@ -1,0 +1,98 @@
+{
+  "competence": "QM-C2-CE2-HYG-01",
+  "duree": 5,
+  "essentiel": "Bouger chaque jour rend le cœur et les muscles plus forts.\nPendant l’effort, le cœur bat vite et on respire vite.\nLe repos et le sommeil aident le corps à récupérer.",
+  "parties": [
+    {
+      "titre": "Pendant l’effort",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Cours une minute, puis pose la main sur ton cœur.",
+          "exemples": [
+            "Ton cœur bat plus vite.",
+            "Tu respires plus vite.",
+            "Tu as chaud et tu transpires."
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "Pour bouger, les muscles tirent sur les os. Ils ont besoin de plus d’air."
+        },
+        {
+          "type": "question",
+          "consigne": "Après une course, mon cœur bat :",
+          "options": [
+            "plus vite",
+            "moins vite",
+            "pareil"
+          ],
+          "reponse": "plus vite",
+          "explication": "Il envoie plus de sang aux muscles."
+        }
+      ]
+    },
+    {
+      "titre": "Bouger et se reposer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Une journée en forme",
+          "etapes": [
+            "Bouge au moins une heure : jeux, vélo, sport.",
+            "Fais des pauses quand tu es fatigué.",
+            "Dors assez : un enfant a besoin de longues nuits."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que se reposer, c’est être paresseux.",
+          "correction": "Le repos fait partie de la santé. Le corps récupère."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pendant l’effort, je respire :",
+      "options": [
+        "plus vite",
+        "moins vite",
+        "plus du tout"
+      ],
+      "reponse": "plus vite",
+      "explication": "Les muscles ont besoin de plus d’air."
+    },
+    {
+      "consigne": "Qu’est-ce qui aide le corps à récupérer ?",
+      "options": [
+        "le sommeil",
+        "les écrans le soir",
+        "les bonbons"
+      ],
+      "reponse": "le sommeil",
+      "explication": "Pendant la nuit, le corps se répare."
+    },
+    {
+      "consigne": "Pour bouger, les muscles tirent sur :",
+      "options": [
+        "les os",
+        "les cheveux",
+        "les dents"
+      ],
+      "reponse": "les os",
+      "explication": "Les os forment le squelette."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Effets positifs d’une pratique physique régulière sur l’organisme.",
+      "appui": "Activité physique et santé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

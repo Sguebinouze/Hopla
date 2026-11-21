@@ -1,0 +1,123 @@
+{
+  "competence": "QM-C2-CE2-CART-01",
+  "duree": 6,
+  "essentiel": "Une carte a un titre, une légende, une échelle et une orientation.\nLa légende explique les couleurs et les symboles.\nLa flèche indique le nord.",
+  "parties": [
+    {
+      "titre": "Les éléments d’une carte",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Lire une carte",
+          "colonnes": [
+            "Élément",
+            "Il dit"
+          ],
+          "lignes": [
+            [
+              "titre",
+              "de quoi parle la carte"
+            ],
+            [
+              "légende",
+              "ce que veulent dire couleurs et symboles"
+            ],
+            [
+              "échelle",
+              "les vraies distances"
+            ],
+            [
+              "orientation",
+              "où est le nord"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour savoir ce que veut dire un symbole, je lis :",
+          "options": [
+            "la légende",
+            "le titre",
+            "l’échelle"
+          ],
+          "reponse": "la légende",
+          "explication": "Elle explique chaque symbole."
+        }
+      ]
+    },
+    {
+      "titre": "Méthode",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Avant de lire une carte",
+          "etapes": [
+            "Je lis le titre.",
+            "Je lis la légende.",
+            "Je cherche la flèche du nord.",
+            "Je regarde l’échelle pour les distances."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le nord est toujours en haut.",
+          "correction": "Le plus souvent, oui. Mais vérifie toujours la flèche du nord."
+        },
+        {
+          "type": "question",
+          "consigne": "Les quatre points cardinaux sont :",
+          "options": [
+            "nord, sud, est, ouest",
+            "haut, bas, droite, gauche",
+            "devant, derrière, dessus, dessous"
+          ],
+          "reponse": "nord, sud, est, ouest",
+          "explication": "Ils servent à s’orienter."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’échelle sert à :",
+      "options": [
+        "connaitre les vraies distances",
+        "trouver le nord",
+        "lire le titre"
+      ],
+      "reponse": "connaitre les vraies distances",
+      "explication": "Par exemple, 1 cm pour 1 km."
+    },
+    {
+      "consigne": "La flèche du nord donne :",
+      "options": [
+        "l’orientation",
+        "la légende",
+        "le titre"
+      ],
+      "reponse": "l’orientation",
+      "explication": "Elle montre la direction du nord."
+    },
+    {
+      "consigne": "Que lis-tu en premier ?",
+      "options": [
+        "le titre",
+        "l’échelle",
+        "rien"
+      ],
+      "reponse": "le titre",
+      "explication": "Il dit de quoi parle la carte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 79,
+      "extrait": "Éléments constitutifs d’une carte : titre, échelle, orientation, légende.",
+      "appui": "Lire une carte"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

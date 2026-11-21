@@ -1,0 +1,110 @@
+{
+  "competence": "QM-C2-CE2-ESP-01",
+  "duree": 6,
+  "essentiel": "Le Soleil est une étoile. La Terre est une planète.\nEn un jour, la Terre fait un tour sur elle-même.\nElle tourne autour du Soleil en un an. La Lune tourne autour de la Terre.",
+  "parties": [
+    {
+      "titre": "Le jour et la nuit",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Éclaire un globe avec une lampe, dans le noir.",
+          "exemples": [
+            "Un côté du globe est éclairé : il y fait jour.",
+            "L’autre côté est dans l’ombre : il y fait nuit.",
+            "Fais tourner le globe : le jour et la nuit avancent."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le Soleil tourne autour de la Terre.",
+          "correction": "C’est la Terre qui tourne, sur elle-même et autour du Soleil."
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi y a-t-il le jour et la nuit ?",
+          "options": [
+            "la Terre tourne sur elle-même",
+            "le Soleil s’éteint",
+            "la Lune cache le Soleil"
+          ],
+          "reponse": "la Terre tourne sur elle-même",
+          "explication": "Un côté est éclairé, puis l’autre."
+        }
+      ]
+    },
+    {
+      "titre": "Le Soleil, la Terre, la Lune",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui tourne autour de qui ?",
+          "colonnes": [
+            "Astre",
+            "Il tourne autour",
+            "En combien de temps ?"
+          ],
+          "lignes": [
+            [
+              "la Terre",
+              "du Soleil",
+              "un an"
+            ],
+            [
+              "la Lune",
+              "de la Terre",
+              "environ un mois"
+            ]
+          ]
+        },
+        {
+          "type": "explique",
+          "texte": "La Lune ne fait pas de lumière. Le Soleil l’éclaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Soleil est :",
+      "options": [
+        "une étoile",
+        "une planète",
+        "un satellite"
+      ],
+      "reponse": "une étoile",
+      "explication": "Il fait sa propre lumière."
+    },
+    {
+      "consigne": "Combien de temps la Terre met-elle pour tourner autour du Soleil ?",
+      "options": [
+        "un an",
+        "un jour",
+        "une heure"
+      ],
+      "reponse": "un an",
+      "explication": "Environ 365 jours."
+    },
+    {
+      "consigne": "Autour de quoi tourne la Lune ?",
+      "options": [
+        "autour de la Terre",
+        "autour de Mars",
+        "elle ne bouge pas"
+      ],
+      "reponse": "autour de la Terre",
+      "explication": "Elle met environ un mois."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 80,
+      "extrait": "Savoir que la Terre fait partie d’un univers très vaste composé de différents types d’astres.",
+      "appui": "La Terre et les astres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

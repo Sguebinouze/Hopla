@@ -1,0 +1,117 @@
+{
+  "competence": "QM-C2-CE2-CORPS-01",
+  "duree": 6,
+  "essentiel": "Quand je grandis, ma taille, ma masse et ma pointure augmentent.\nVers 6 ans, les dents de lait tombent.\nDes dents définitives poussent : on les garde toute sa vie.",
+  "parties": [
+    {
+      "titre": "Mesurer sa croissance",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les mesures",
+          "colonnes": [
+            "Je mesure",
+            "Avec",
+            "Unité"
+          ],
+          "lignes": [
+            [
+              "ma taille",
+              "une toise",
+              "centimètre"
+            ],
+            [
+              "ma masse",
+              "une balance",
+              "kilogramme"
+            ],
+            [
+              "mon pied",
+              "un mesureur de pointure",
+              "pointure"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour mesurer sa taille, on utilise :",
+          "options": [
+            "une toise",
+            "une balance",
+            "un thermomètre"
+          ],
+          "reponse": "une toise",
+          "explication": "La toise se lit en centimètres."
+        }
+      ]
+    },
+    {
+      "titre": "Les dents",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un enfant a 20 dents de lait. Un adulte a 32 dents définitives."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que chaque dent définitive remplace une dent de lait.",
+          "correction": "Certaines molaires poussent au fond, sans remplacer de dent."
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de dents a un adulte ?",
+          "options": [
+            "32",
+            "20",
+            "10"
+          ],
+          "reponse": "32",
+          "explication": "Ce sont les dents définitives."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Combien de dents de lait a un enfant ?",
+      "options": [
+        "20",
+        "32",
+        "12"
+      ],
+      "reponse": "20",
+      "explication": "Elles tombent peu à peu."
+    },
+    {
+      "consigne": "Ma masse se mesure en :",
+      "options": [
+        "kilogrammes",
+        "centimètres",
+        "litres"
+      ],
+      "reponse": "kilogrammes",
+      "explication": "On se pèse sur une balance."
+    },
+    {
+      "consigne": "Une dent définitive :",
+      "options": [
+        "reste toute la vie",
+        "tombe à 10 ans",
+        "repousse si on la perd"
+      ],
+      "reponse": "reste toute la vie",
+      "explication": "Il faut en prendre soin."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Modifications de la dentition.",
+      "appui": "Croissance et dentition"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

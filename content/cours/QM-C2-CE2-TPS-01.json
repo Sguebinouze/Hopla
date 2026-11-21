@@ -1,0 +1,127 @@
+{
+  "competence": "QM-C2-CE2-TPS-01",
+  "duree": 7,
+  "essentiel": "L’histoire se découpe en grandes périodes.\nPréhistoire, Antiquité, Moyen Âge, Temps modernes, époque contemporaine.\nUne frise chronologique les place dans l’ordre.",
+  "parties": [
+    {
+      "titre": "La frise des périodes",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": -3300,
+              "date": "vers 3300 av. J.-C.",
+              "evenement": "L’écriture est inventée. La Préhistoire se termine."
+            },
+            {
+              "annee": 476,
+              "date": "476",
+              "evenement": "Fin de l’Empire romain d’Occident. Le Moyen Âge commence."
+            },
+            {
+              "annee": 1492,
+              "date": "1492",
+              "evenement": "Christophe Colomb arrive en Amérique. Les Temps modernes commencent."
+            },
+            {
+              "annee": 1789,
+              "date": "1789",
+              "evenement": "La Révolution française. L’époque contemporaine commence."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quelle période vient juste après l’Antiquité ?",
+          "options": [
+            "le Moyen Âge",
+            "la Préhistoire",
+            "les Temps modernes"
+          ],
+          "reponse": "le Moyen Âge",
+          "explication": "Elle commence en 476."
+        }
+      ]
+    },
+    {
+      "titre": "Des personnages",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui a vécu quand ?",
+          "colonnes": [
+            "Période",
+            "Personnage"
+          ],
+          "lignes": [
+            [
+              "Antiquité",
+              "Vercingétorix, chef gaulois"
+            ],
+            [
+              "Moyen Âge",
+              "Charlemagne, empereur"
+            ],
+            [
+              "Temps modernes",
+              "Louis XIV, roi de France"
+            ],
+            [
+              "époque contemporaine",
+              "Marie Curie, savante"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Avant Jésus-Christ, on croit que 3000 est plus récent que 500.",
+          "correction": "Avant J.-C., plus le nombre est grand, plus c’est ancien."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Quelle invention termine la Préhistoire ?",
+      "options": [
+        "l’écriture",
+        "la roue",
+        "la voiture"
+      ],
+      "reponse": "l’écriture",
+      "explication": "Vers 3300 av. J.-C."
+    },
+    {
+      "consigne": "Dans quelle période vivons-nous ?",
+      "options": [
+        "l’époque contemporaine",
+        "le Moyen Âge",
+        "l’Antiquité"
+      ],
+      "reponse": "l’époque contemporaine",
+      "explication": "Elle commence en 1789."
+    },
+    {
+      "consigne": "Charlemagne a vécu :",
+      "options": [
+        "au Moyen Âge",
+        "pendant la Préhistoire",
+        "à l’époque contemporaine"
+      ],
+      "reponse": "au Moyen Âge",
+      "explication": "Il est devenu empereur en 800."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 81,
+      "extrait": "Le repérage des grandes périodes historiques se travaille au CE2.",
+      "appui": "Grandes périodes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

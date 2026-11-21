@@ -1,0 +1,122 @@
+{
+  "competence": "QM-C2-CE2-VIV-01",
+  "duree": 6,
+  "essentiel": "Un être vivant nait, grandit, se reproduit et meurt.\nC’est son cycle de vie.\nCertains animaux changent de forme en grandissant : c’est la métamorphose.",
+  "parties": [
+    {
+      "titre": "Le cycle du papillon",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "De l’œuf au papillon",
+          "colonnes": [
+            "Étape",
+            "Ce qui se passe"
+          ],
+          "lignes": [
+            [
+              "œuf",
+              "le papillon pond sur une feuille"
+            ],
+            [
+              "chenille",
+              "elle mange et grossit"
+            ],
+            [
+              "chrysalide",
+              "elle se transforme à l’abri"
+            ],
+            [
+              "papillon",
+              "il vole et pond à son tour"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la chenille est un autre animal.",
+          "correction": "La chenille est le papillon jeune. Il change de forme."
+        },
+        {
+          "type": "question",
+          "consigne": "Que devient la chrysalide ?",
+          "options": [
+            "un papillon",
+            "une chenille",
+            "un œuf"
+          ],
+          "reponse": "un papillon",
+          "explication": "C’est la dernière étape de la métamorphose."
+        }
+      ]
+    },
+    {
+      "titre": "Le cycle d’une plante",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Le cycle du haricot.",
+          "exemples": [
+            "La graine germe dans la terre humide.",
+            "La plante grandit et fait des fleurs.",
+            "Les fleurs donnent des fruits pleins de graines."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une fleur donne :",
+          "options": [
+            "un fruit avec des graines",
+            "une chenille",
+            "des racines"
+          ],
+          "reponse": "un fruit avec des graines",
+          "explication": "Les graines feront de nouvelles plantes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans quel ordre ?",
+      "options": [
+        "œuf, chenille, chrysalide, papillon",
+        "chenille, œuf, papillon, chrysalide",
+        "papillon, chrysalide, œuf, chenille"
+      ],
+      "reponse": "œuf, chenille, chrysalide, papillon",
+      "explication": "Le papillon pond, et le cycle recommence."
+    },
+    {
+      "consigne": "Quand une graine se met à pousser, on dit qu’elle :",
+      "options": [
+        "germe",
+        "fond",
+        "vole"
+      ],
+      "reponse": "germe",
+      "explication": "Une petite racine et une tige sortent."
+    },
+    {
+      "consigne": "Changer de forme en grandissant, c’est :",
+      "options": [
+        "la métamorphose",
+        "la condensation",
+        "la germination"
+      ],
+      "reponse": "la métamorphose",
+      "explication": "Comme la chenille qui devient papillon."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo31-2020-cycles-2-3-4",
+      "page": 77,
+      "extrait": "Le cycle de vie des êtres vivants.",
+      "appui": "Cycle de vie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
