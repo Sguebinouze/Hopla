@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C4-3E-GRAM-51",
+  "duree": 7,
+  "essentiel": "Le pronom relatif dépend de sa fonction dans la subordonnée relative.\nQui est sujet ; que est COD ; dont remplace un complément introduit par de ; où exprime le lieu ou le temps.\n« Le film que j’ai vu » : que est COD de vu. « Le film dont je parle » : dont est complément de parle.",
+  "parties": [
+    {
+      "titre": "Choisir le relatif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fonction du relatif",
+          "colonnes": [
+            "Relatif",
+            "Fonction",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "qui",
+              "sujet",
+              "Le train qui arrive vient de Lyon."
+            ],
+            [
+              "que",
+              "COD",
+              "Le film que j’ai vu était long."
+            ],
+            [
+              "dont",
+              "complément introduit par de",
+              "Le film dont je parle est sorti hier."
+            ],
+            [
+              "où",
+              "complément de lieu ou de temps",
+              "La ville où je vis. Le jour où il est parti."
+            ],
+            [
+              "lequel, auquel, duquel",
+              "après une préposition",
+              "L’ami auquel je pense."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le livre … tu m’as parlé. »",
+          "options": [
+            "dont",
+            "que",
+            "où"
+          ],
+          "reponse": "dont",
+          "explication": "On parle de quelque chose : dont."
+        }
+      ]
+    },
+    {
+      "titre": "Retrouver la fonction",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour choisir",
+          "etapes": [
+            "Remplace le relatif par son antécédent : « je parle du film ».",
+            "Regarde la construction du verbe : parler de.",
+            "Choisis le relatif qui correspond : de → dont."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « le film que je parle ».",
+          "correction": "On parle de quelque chose : le film dont je parle."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La maison … je suis né est vendue. »",
+      "options": [
+        "où",
+        "que",
+        "dont"
+      ],
+      "reponse": "où",
+      "explication": "Un lieu."
+    },
+    {
+      "consigne": "« L’amie … j’attends est en retard. »",
+      "options": [
+        "que",
+        "qui",
+        "dont"
+      ],
+      "reponse": "que",
+      "explication": "J’attends quelqu’un : COD."
+    },
+    {
+      "consigne": "Dans « L’élève qui parle », qui est :",
+      "options": [
+        "sujet de parle",
+        "COD de parle",
+        "complément du nom"
+      ],
+      "reponse": "sujet de parle",
+      "explication": "Qui est-ce qui parle ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils comprennent le fonctionnement du pronom relatif dans la phrase et sa fonction dans la proposition subordonnée.",
+      "appui": "Fonction du pronom relatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

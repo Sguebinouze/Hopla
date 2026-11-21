@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-3E-ORAL-51",
+  "duree": 6,
+  "essentiel": "Dans un débat, on exprime une opinion, on la justifie par des arguments et des exemples.\nOn réfute un argument adverse en montrant ses limites, sans attaquer la personne.\nOn écoute et on respecte la parole de l’autre : « Je comprends ton argument, mais je pense au contraire que… »",
+  "parties": [
+    {
+      "titre": "Prendre la parole",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des formules utiles",
+          "colonnes": [
+            "Pour…",
+            "Formule"
+          ],
+          "lignes": [
+            [
+              "donner son avis",
+              "À mon sens… Je suis convaincu que…"
+            ],
+            [
+              "concéder",
+              "Certes… Il est vrai que…"
+            ],
+            [
+              "réfuter",
+              "Cependant… Ton exemple ne prouve pas que…"
+            ],
+            [
+              "relancer",
+              "Que réponds-tu à… ?"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Certes, les écrans aident à apprendre, mais… » Ce début :",
+          "options": [
+            "concède un point avant de réfuter",
+            "insulte l’adversaire",
+            "change de sujet"
+          ],
+          "reponse": "concède un point avant de réfuter",
+          "explication": "Certes : on reconnait un argument."
+        }
+      ]
+    },
+    {
+      "titre": "Les règles du débat",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Pour un débat respectueux.",
+          "exemples": [
+            "attendre son tour",
+            "reformuler l’argument de l’autre avant d’y répondre",
+            "critiquer les idées, jamais les personnes",
+            "appuyer ses arguments sur des faits"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On répond « c’est n’importe quoi » sans argument.",
+          "correction": "On explique pourquoi l’argument ne tient pas, avec une raison ou un fait."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Réfuter un argument, c’est :",
+      "options": [
+        "montrer qu’il n’est pas valable",
+        "le répéter",
+        "l’ignorer"
+      ],
+      "reponse": "montrer qu’il n’est pas valable",
+      "explication": "Avec une raison."
+    },
+    {
+      "consigne": "Concéder, c’est :",
+      "options": [
+        "reconnaitre en partie la valeur d’un argument adverse",
+        "abandonner le débat",
+        "couper la parole"
+      ],
+      "reponse": "reconnaitre en partie la valeur d’un argument adverse",
+      "explication": "Certes…, mais…"
+    },
+    {
+      "consigne": "Dans un débat, on critique :",
+      "options": [
+        "les idées",
+        "les personnes",
+        "l’apparence des autres"
+      ],
+      "reponse": "les idées",
+      "explication": "Le respect est la règle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 14,
+      "extrait": "Participer à un débat, exprimer une opinion",
+      "appui": "Débattre et défendre une opinion"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-3E-GRAM-54",
+  "duree": 6,
+  "essentiel": "La subordonnée infinitive a un verbe à l’infinitif et son propre sujet. Elle suit un verbe de perception, ou laisser et faire.\n« J’entends les oiseaux chanter » : les oiseaux est le sujet de chanter.\nLa subordonnée participiale a un participe et son propre sujet : « Le travail terminé, ils partirent. »",
+  "parties": [
+    {
+      "titre": "L’infinitive",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Après un verbe de perception",
+          "colonnes": [
+            "Phrase",
+            "Infinitive",
+            "Sujet de l’infinitif"
+          ],
+          "lignes": [
+            [
+              "J’entends les oiseaux chanter.",
+              "les oiseaux chanter",
+              "les oiseaux"
+            ],
+            [
+              "Je regarde la pluie tomber.",
+              "la pluie tomber",
+              "la pluie"
+            ],
+            [
+              "Il laisse son chien courir.",
+              "son chien courir",
+              "son chien"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Je vois les enfants jouer », le sujet de jouer est :",
+          "options": [
+            "les enfants",
+            "je",
+            "vois"
+          ],
+          "reponse": "les enfants",
+          "explication": "Ce sont les enfants qui jouent."
+        }
+      ]
+    },
+    {
+      "titre": "La participiale",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« La nuit tombant, les promeneurs rentrèrent. » La nuit est le sujet de tombant, différent du sujet de la principale."
+        },
+        {
+          "type": "piege",
+          "erreur": "On prend tout participe en tête de phrase pour une participiale : « Épuisé, il dormit ».",
+          "correction": "Épuisé n’a pas de sujet propre : c’est une apposition à il. La participiale a son propre sujet."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Le repas terminé, nous sortîmes. » La subordonnée est :",
+      "options": [
+        "participiale",
+        "infinitive",
+        "relative"
+      ],
+      "reponse": "participiale",
+      "explication": "Le repas est le sujet de terminé."
+    },
+    {
+      "consigne": "« J’écoute la mer gronder. » La subordonnée est :",
+      "options": [
+        "infinitive",
+        "participiale",
+        "conjonctive"
+      ],
+      "reponse": "infinitive",
+      "explication": "Gronder a pour sujet la mer."
+    },
+    {
+      "consigne": "Une subordonnée infinitive suit souvent un verbe :",
+      "options": [
+        "de perception",
+        "d’état",
+        "impersonnel"
+      ],
+      "reponse": "de perception",
+      "explication": "Voir, entendre, sentir, regarder."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils identifient les propositions subordonnées qui n’ont pas été abordées précédemment : infinitives, participiales.",
+      "appui": "Infinitives et participiales"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

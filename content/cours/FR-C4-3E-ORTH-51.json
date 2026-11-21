@@ -1,0 +1,89 @@
+{
+  "competence": "FR-C4-3E-ORTH-51",
+  "duree": 6,
+  "essentiel": "Dans une relative, que est souvent COD du verbe de la subordonnée.\nPlacé avant le verbe, il commande l’accord du participe passé avec avoir. Il prend le genre et le nombre de son antécédent.\n« Les lettres que j’ai écrites » : que reprend lettres, féminin pluriel.",
+  "parties": [
+    {
+      "titre": "Remonter à l’antécédent",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Pour accorder",
+          "etapes": [
+            "Repère que et son antécédent.",
+            "Vérifie que que est COD : « j’ai écrit les lettres ».",
+            "Accorde le participe passé avec l’antécédent."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Les chansons que nous avons … » (apprendre)",
+          "options": [
+            "apprises",
+            "appris",
+            "apprise"
+          ],
+          "reponse": "apprises",
+          "explication": "Que reprend chansons, féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Quand que n’est pas COD",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Les heures que j’ai dormi » : que indique une durée, ce n’est pas un COD. Le participe reste invariable."
+        },
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le sujet de la relative : « Les fleurs que Tom a cueillis ».",
+          "correction": "On accorde avec l’antécédent de que : fleurs, donc cueillies."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La robe que tu as … est belle. » (choisir)",
+      "options": [
+        "choisie",
+        "choisi",
+        "choisis"
+      ],
+      "reponse": "choisie",
+      "explication": "Que reprend robe."
+    },
+    {
+      "consigne": "« Les efforts qu’il a … ont payé. » (faire)",
+      "options": [
+        "faits",
+        "fait",
+        "faites"
+      ],
+      "reponse": "faits",
+      "explication": "Que reprend efforts, masculin pluriel."
+    },
+    {
+      "consigne": "« Les deux heures qu’il a … » (marcher)",
+      "options": [
+        "marché",
+        "marchées",
+        "marchés"
+      ],
+      "reponse": "marché",
+      "explication": "Que indique une durée, pas un COD."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "l’orthographient correctement quand le COD est un pronom relatif.",
+      "appui": "Participe passé et COD relatif"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

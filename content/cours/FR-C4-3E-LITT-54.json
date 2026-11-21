@@ -1,0 +1,117 @@
+{
+  "competence": "FR-C4-3E-LITT-54",
+  "duree": 7,
+  "essentiel": "Au XXe siècle, face aux guerres et aux dictatures, des écrivains s’engagent.\nPendant l’Occupation, Paul Éluard écrit « Liberté » (1942), poème de la Résistance diffusé clandestinement.\nD’autres témoignent après coup, comme Primo Levi dans Si c’est un homme (1947), sur les camps d’extermination.",
+  "parties": [
+    {
+      "titre": "Des écrivains engagés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Écrire contre l’oppression",
+          "colonnes": [
+            "Auteur",
+            "Œuvre",
+            "Engagement"
+          ],
+          "lignes": [
+            [
+              "Paul Éluard",
+              "« Liberté » (1942)",
+              "poème de la Résistance"
+            ],
+            [
+              "Primo Levi",
+              "Si c’est un homme (1947)",
+              "témoignage sur Auschwitz"
+            ],
+            [
+              "George Orwell",
+              "1984 (1949)",
+              "roman contre le totalitarisme"
+            ],
+            [
+              "Elie Wiesel",
+              "La Nuit (1958)",
+              "témoignage sur la déportation"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pendant l’Occupation, la poésie de la Résistance circule :",
+          "options": [
+            "clandestinement",
+            "dans les journaux officiels",
+            "à la radio d’État"
+          ],
+          "reponse": "clandestinement",
+          "explication": "Elle est interdite."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi écrire ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les buts de l’écrivain engagé.",
+          "exemples": [
+            "dénoncer une injustice",
+            "donner du courage",
+            "témoigner pour ne pas oublier",
+            "faire réfléchir le lecteur"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un roman comme 1984 raconte des faits réels.",
+          "correction": "Orwell invente un monde pour alerter sur les dangers réels des régimes totalitaires."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un écrivain engagé :",
+      "options": [
+        "met son écriture au service d’une cause",
+        "n’écrit que pour divertir",
+        "refuse de publier"
+      ],
+      "reponse": "met son écriture au service d’une cause",
+      "explication": "Il prend position."
+    },
+    {
+      "consigne": "Primo Levi témoigne sur :",
+      "options": [
+        "les camps d’extermination",
+        "la Révolution française",
+        "la conquête spatiale"
+      ],
+      "reponse": "les camps d’extermination",
+      "explication": "Il a été déporté à Auschwitz."
+    },
+    {
+      "consigne": "« Liberté » de Paul Éluard date de :",
+      "options": [
+        "1942",
+        "1789",
+        "1968"
+      ],
+      "reponse": "1942",
+      "explication": "Pendant l’Occupation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 33,
+      "extrait": "découvrir des œuvres et textes du XXe siècle appartenant à des genres divers",
+      "appui": "Agir dans la cité : individu et pouvoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

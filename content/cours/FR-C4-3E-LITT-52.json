@@ -1,0 +1,124 @@
+{
+  "competence": "FR-C4-3E-LITT-52",
+  "duree": 7,
+  "essentiel": "La satire critique les défauts d’une société en s’en moquant.\nSes procédés sont l’ironie, qui dit le contraire de ce qu’on pense, l’exagération et la caricature.\nDans Candide (1759), Voltaire se moque de l’optimisme par l’ironie : son héros traverse les pires malheurs en répétant que tout va bien.",
+  "parties": [
+    {
+      "titre": "Les procédés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Se moquer pour critiquer",
+          "colonnes": [
+            "Procédé",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "ironie",
+              "dire « Quelle belle journée ! » sous l’orage"
+            ],
+            [
+              "exagération",
+              "grossir un défaut jusqu’au ridicule"
+            ],
+            [
+              "caricature",
+              "dessin qui déforme les traits d’un puissant"
+            ],
+            [
+              "regard naïf",
+              "un étranger découvre les coutumes et les trouve absurdes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’ironie consiste à :",
+          "options": [
+            "dire le contraire de ce qu’on pense pour se moquer",
+            "raconter sa vie",
+            "décrire avec précision"
+          ],
+          "reponse": "dire le contraire de ce qu’on pense pour se moquer",
+          "explication": "Le lecteur comprend le vrai sens."
+        }
+      ]
+    },
+    {
+      "titre": "Des œuvres satiriques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques exemples",
+          "colonnes": [
+            "Œuvre",
+            "Cible"
+          ],
+          "lignes": [
+            [
+              "Montesquieu, Lettres persanes (1721)",
+              "les mœurs et le pouvoir en France"
+            ],
+            [
+              "Voltaire, Candide (1759)",
+              "l’optimisme, la guerre, l’intolérance"
+            ],
+            [
+              "Daumier, caricatures (XIXe siècle)",
+              "les hommes politiques, les juges"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit une phrase ironique au premier degré.",
+          "correction": "On repère le décalage entre ce qui est dit et la situation : c’est lui qui révèle la critique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Candide a été écrit par :",
+      "options": [
+        "Voltaire",
+        "Rousseau",
+        "Molière"
+      ],
+      "reponse": "Voltaire",
+      "explication": "En 1759."
+    },
+    {
+      "consigne": "Une caricature :",
+      "options": [
+        "déforme pour critiquer",
+        "représente fidèlement",
+        "raconte une vie"
+      ],
+      "reponse": "déforme pour critiquer",
+      "explication": "Elle exagère les traits."
+    },
+    {
+      "consigne": "Les Lettres persanes utilisent :",
+      "options": [
+        "le regard de voyageurs étrangers",
+        "un journal intime",
+        "des poèmes lyriques"
+      ],
+      "reponse": "le regard de voyageurs étrangers",
+      "explication": "Des Persans découvrent la France."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 32,
+      "extrait": "comprendre les raisons, les visées et les modalités de la satire",
+      "appui": "Dénoncer les travers de la société"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

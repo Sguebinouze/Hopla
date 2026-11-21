@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-3E-CONJ-54",
+  "duree": 7,
+  "essentiel": "Certaines conjonctions sont suivies du subjonctif : bien que, pour que, afin que, avant que, sans que, à condition que.\nD’autres sont suivies de l’indicatif : parce que, puisque, pendant que, alors que, après que.\n« Bien qu’il fasse froid » ; « Parce qu’il fait froid ».",
+  "parties": [
+    {
+      "titre": "Subjonctif ou indicatif ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le mode après la conjonction",
+          "colonnes": [
+            "Subjonctif",
+            "Indicatif"
+          ],
+          "lignes": [
+            [
+              "bien que, quoique",
+              "parce que, puisque"
+            ],
+            [
+              "pour que, afin que",
+              "pendant que, tandis que"
+            ],
+            [
+              "avant que, jusqu’à ce que",
+              "après que, depuis que"
+            ],
+            [
+              "sans que, à condition que",
+              "alors que, si"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je rentre avant qu’il … nuit. » (faire)",
+          "options": [
+            "fasse",
+            "fait",
+            "fera"
+          ],
+          "reponse": "fasse",
+          "explication": "Avant que + subjonctif."
+        }
+      ]
+    },
+    {
+      "titre": "Après que",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Après que exprime un fait réalisé : on emploie l’indicatif. « Après qu’il est parti, nous avons dîné. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « après qu’il soit parti », par analogie avec avant que.",
+          "correction": "Avant que présente un fait pas encore réalisé : subjonctif. Après que présente un fait réalisé : indicatif."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je t’explique pour que tu … » (comprendre)",
+      "options": [
+        "comprennes",
+        "comprends",
+        "comprendras"
+      ],
+      "reponse": "comprennes",
+      "explication": "Pour que + subjonctif."
+    },
+    {
+      "consigne": "« Puisqu’il … beau, sortons. » (faire)",
+      "options": [
+        "fait",
+        "fasse",
+        "ferait"
+      ],
+      "reponse": "fait",
+      "explication": "Puisque + indicatif."
+    },
+    {
+      "consigne": "« Attends jusqu’à ce qu’il … » (revenir)",
+      "options": [
+        "revienne",
+        "revient",
+        "reviendra"
+      ],
+      "reponse": "revienne",
+      "explication": "Jusqu’à ce que + subjonctif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 10,
+      "extrait": "après certaines conjonctions (à condition que, bien que, pour que, de crainte que…).",
+      "appui": "Mode après une conjonction"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

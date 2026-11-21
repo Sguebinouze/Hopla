@@ -1,0 +1,110 @@
+{
+  "competence": "FR-C4-3E-DISC-52",
+  "duree": 6,
+  "essentiel": "Un connecteur logique exprime la relation entre deux idées.\nCause : car, en effet. Conséquence : donc, ainsi, c’est pourquoi. Opposition : mais, pourtant, cependant. Addition : de plus, en outre.\n« Il a révisé ; pourtant, il a échoué » : opposition.",
+  "parties": [
+    {
+      "titre": "Choisir le connecteur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Relations logiques",
+          "colonnes": [
+            "Relation",
+            "Connecteurs"
+          ],
+          "lignes": [
+            [
+              "cause",
+              "car, en effet"
+            ],
+            [
+              "conséquence",
+              "donc, ainsi, c’est pourquoi"
+            ],
+            [
+              "opposition",
+              "mais, pourtant, cependant, néanmoins"
+            ],
+            [
+              "addition",
+              "de plus, en outre, par ailleurs"
+            ],
+            [
+              "illustration",
+              "par exemple, notamment"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il pleuvait ; … , le match a eu lieu. »",
+          "options": [
+            "pourtant",
+            "donc",
+            "en effet"
+          ],
+          "reponse": "pourtant",
+          "explication": "Le match a lieu malgré la pluie : opposition."
+        }
+      ]
+    },
+    {
+      "titre": "Dans une argumentation",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les connecteurs guident le lecteur : ils annoncent un nouvel argument, un exemple ou une conclusion."
+        },
+        {
+          "type": "piege",
+          "erreur": "On met « donc » partout pour relier les idées.",
+          "correction": "Donc annonce une conséquence. Si la seconde idée s’oppose à la première, on choisit mais ou pourtant."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il est malade ; … , il reste chez lui. »",
+      "options": [
+        "c’est pourquoi",
+        "pourtant",
+        "par exemple"
+      ],
+      "reponse": "c’est pourquoi",
+      "explication": "Une conséquence."
+    },
+    {
+      "consigne": "« Il reste chez lui ; … , il est malade. »",
+      "options": [
+        "en effet",
+        "pourtant",
+        "donc"
+      ],
+      "reponse": "en effet",
+      "explication": "La seconde idée explique la première."
+    },
+    {
+      "consigne": "« Le vélo est bon pour la santé ; … , il ne pollue pas. »",
+      "options": [
+        "de plus",
+        "cependant",
+        "car"
+      ],
+      "reponse": "de plus",
+      "explication": "Un argument de plus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 12,
+      "extrait": "Ils repèrent dans un texte et utilisent dans leurs écrits les éléments de reprise et tous les connecteurs.",
+      "appui": "Connecteurs logiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

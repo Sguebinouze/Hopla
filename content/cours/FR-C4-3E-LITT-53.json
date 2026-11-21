@@ -1,0 +1,122 @@
+{
+  "competence": "FR-C4-3E-LITT-53",
+  "duree": 7,
+  "essentiel": "Du romantisme à nos jours, les poètes proposent des visions personnelles du monde.\nLa forme se libère : poème en prose avec Baudelaire, vers sans ponctuation chez Apollinaire, vers libre et langage courant chez Prévert.\nRimbaud, dans « Le Dormeur du val » (1870), dénonce la guerre par une image paisible qui se révèle tragique.",
+  "parties": [
+    {
+      "titre": "Des poètes et des formes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Repères",
+          "colonnes": [
+            "Poète",
+            "Œuvre",
+            "Forme"
+          ],
+          "lignes": [
+            [
+              "Victor Hugo",
+              "Les Contemplations (1856)",
+              "vers réguliers, lyrisme romantique"
+            ],
+            [
+              "Baudelaire",
+              "Petits poèmes en prose (1869)",
+              "prose poétique"
+            ],
+            [
+              "Rimbaud",
+              "« Le Dormeur du val » (1870)",
+              "sonnet"
+            ],
+            [
+              "Apollinaire",
+              "Alcools (1913)",
+              "vers sans ponctuation"
+            ],
+            [
+              "Prévert",
+              "Paroles (1946)",
+              "vers libres, langage courant"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un poème sans rimes ni mètre régulier est en :",
+          "options": [
+            "vers libres",
+            "alexandrins",
+            "prose narrative"
+          ],
+          "reponse": "vers libres",
+          "explication": "Le rythme vient d’ailleurs."
+        }
+      ]
+    },
+    {
+      "titre": "Lire un poème",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Analyser une vision poétique",
+          "etapes": [
+            "Repère le thème et le regard du poète.",
+            "Observe la forme : vers, strophes, ponctuation.",
+            "Relève les images : comparaisons, métaphores.",
+            "Dis l’effet produit sur toi."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un texte sans rimes n’est pas un poème.",
+          "correction": "La poésie tient aussi au rythme, aux images et au travail sur la langue."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un sonnet compte :",
+      "options": [
+        "14 vers",
+        "12 vers",
+        "8 vers"
+      ],
+      "reponse": "14 vers",
+      "explication": "Deux quatrains et deux tercets."
+    },
+    {
+      "consigne": "Prévert écrit souvent :",
+      "options": [
+        "en vers libres, avec des mots simples",
+        "en alexandrins stricts",
+        "en latin"
+      ],
+      "reponse": "en vers libres, avec des mots simples",
+      "explication": "Dans Paroles."
+    },
+    {
+      "consigne": "Le poème en prose :",
+      "options": [
+        "n’est pas découpé en vers",
+        "a toujours des rimes",
+        "est une pièce de théâtre"
+      ],
+      "reponse": "n’est pas découpé en vers",
+      "explication": "Comme chez Baudelaire."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 32,
+      "extrait": "découvrir des œuvres et des textes relevant principalement de la poésie, du romantisme à nos jours",
+      "appui": "Visions poétiques du monde"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

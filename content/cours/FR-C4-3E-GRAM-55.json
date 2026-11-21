@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-3E-GRAM-55",
+  "duree": 6,
+  "essentiel": "L’attribut du COD exprime une qualité attribuée au COD par l’intermédiaire du verbe.\nIl suit des verbes comme trouver, juger, rendre, nommer, élire, considérer comme.\n« Je trouve ce film drôle » : drôle est attribut du COD ce film.",
+  "parties": [
+    {
+      "titre": "Distinguer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois fonctions de l’adjectif",
+          "colonnes": [
+            "Phrase",
+            "Fonction de « drôle »"
+          ],
+          "lignes": [
+            [
+              "Ce film est drôle.",
+              "attribut du sujet"
+            ],
+            [
+              "Je trouve ce film drôle.",
+              "attribut du COD"
+            ],
+            [
+              "J’ai vu un film drôle.",
+              "épithète"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « On a élu Léa déléguée », « déléguée » est :",
+          "options": [
+            "attribut du COD",
+            "épithète",
+            "attribut du sujet"
+          ],
+          "reponse": "attribut du COD",
+          "explication": "On a élu Léa : COD. Déléguée la qualifie par le verbe."
+        }
+      ]
+    },
+    {
+      "titre": "Le test",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On transforme la phrase : « Je trouve ce film drôle » devient « Je trouve que ce film est drôle ». L’attribut du COD devient attribut du sujet."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond attribut du COD et épithète : « Je trouve ce film drôle ».",
+          "correction": "On peut remplacer ce film par le : « Je le trouve drôle ». Drôle reste : il n’est pas épithète."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Ce bruit rend Tom nerveux », « nerveux » est :",
+      "options": [
+        "attribut du COD",
+        "épithète",
+        "COI"
+      ],
+      "reponse": "attribut du COD",
+      "explication": "Rendre + COD + attribut."
+    },
+    {
+      "consigne": "L’attribut du COD s’accorde avec :",
+      "options": [
+        "le COD",
+        "le sujet",
+        "le verbe"
+      ],
+      "reponse": "le COD",
+      "explication": "« Je trouve ces films drôles. »"
+    },
+    {
+      "consigne": "Dans « Je juge cette idée excellente », le COD est :",
+      "options": [
+        "cette idée",
+        "excellente",
+        "je"
+      ],
+      "reponse": "cette idée",
+      "explication": "Excellente en est l’attribut."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 7,
+      "extrait": "Ils élargissent leurs connaissances des fonctions grammaticales et identifient l’attribut du COD dans une phrase simple.",
+      "appui": "Attribut du COD"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "FR-C4-3E-ORTH-52",
+  "duree": 5,
+  "essentiel": "L’adjectif ou le participe apposé s’accorde avec le nom ou le pronom qu’il qualifie, même séparé par une virgule.\n« Épuisés, les randonneurs s’arrêtent. »\nIl faut repérer le nom qualifié, parfois placé loin dans la phrase.",
+  "parties": [
+    {
+      "titre": "Trouver le nom qualifié",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des appositions",
+          "colonnes": [
+            "Phrase",
+            "Nom qualifié",
+            "Accord"
+          ],
+          "lignes": [
+            [
+              "Épuisés, les randonneurs s’arrêtent.",
+              "randonneurs",
+              "masculin pluriel"
+            ],
+            [
+              "Ravie, Léa sourit.",
+              "Léa",
+              "féminin singulier"
+            ],
+            [
+              "Les filles, inquiètes, attendaient.",
+              "filles",
+              "féminin pluriel"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« … par le bruit, les chattes s’enfuirent. » (effrayer)",
+          "options": [
+            "Effrayées",
+            "Effrayés",
+            "Effrayé"
+          ],
+          "reponse": "Effrayées",
+          "explication": "Qualifie chattes : féminin pluriel."
+        }
+      ]
+    },
+    {
+      "titre": "Attention au sujet",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On laisse l’adjectif en tête de phrase au masculin singulier par défaut.",
+          "correction": "On cherche le nom qualifié : souvent le sujet qui suit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« … de leur victoire, les joueuses chantaient. » (fier)",
+      "options": [
+        "Fières",
+        "Fiers",
+        "Fier"
+      ],
+      "reponse": "Fières",
+      "explication": "Qualifie joueuses."
+    },
+    {
+      "consigne": "« Les enfants, … , s’endormirent. » (fatigué)",
+      "options": [
+        "fatigués",
+        "fatigué",
+        "fatiguées"
+      ],
+      "reponse": "fatigués",
+      "explication": "Enfants : masculin pluriel ici."
+    },
+    {
+      "consigne": "L’adjectif apposé s’accorde avec :",
+      "options": [
+        "le nom qu’il qualifie",
+        "le verbe",
+        "le premier mot de la phrase"
+      ],
+      "reponse": "le nom qu’il qualifie",
+      "explication": "Même s’il est séparé par une virgule."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "l’accord de l’adjectif et du participe passé en fonction d’apposition.",
+      "appui": "Accord des mots apposés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

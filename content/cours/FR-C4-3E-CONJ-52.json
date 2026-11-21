@@ -1,0 +1,143 @@
+{
+  "competence": "FR-C4-3E-CONJ-52",
+  "duree": 7,
+  "essentiel": "Au futur et au conditionnel, de nombreux verbes irréguliers changent de radical : voir → je verrai, je verrais.\nPouvoir, courir, mourir et envoyer doublent le r : je pourrais, je courrai, il mourra, j’enverrai.\nAu subjonctif présent, certains radicaux sont à retenir : qu’il fasse, que nous sachions, qu’elle puisse.",
+  "parties": [
+    {
+      "titre": "Futur et conditionnel",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Radicaux irréguliers",
+          "colonnes": [
+            "Verbe",
+            "Futur",
+            "Conditionnel"
+          ],
+          "lignes": [
+            [
+              "voir",
+              "je verrai",
+              "je verrais"
+            ],
+            [
+              "pouvoir",
+              "je pourrai",
+              "je pourrais"
+            ],
+            [
+              "savoir",
+              "je saurai",
+              "je saurais"
+            ],
+            [
+              "envoyer",
+              "j’enverrai",
+              "j’enverrais"
+            ],
+            [
+              "aller",
+              "j’irai",
+              "j’irais"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Si j’avais le temps, je … ce film. » (voir)",
+          "options": [
+            "verrais",
+            "voirais",
+            "verais"
+          ],
+          "reponse": "verrais",
+          "explication": "Radical verr-, terminaison du conditionnel."
+        }
+      ]
+    },
+    {
+      "titre": "Subjonctif",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Radicaux du subjonctif",
+          "colonnes": [
+            "Verbe",
+            "que je",
+            "que nous"
+          ],
+          "lignes": [
+            [
+              "faire",
+              "fasse",
+              "fassions"
+            ],
+            [
+              "savoir",
+              "sache",
+              "sachions"
+            ],
+            [
+              "pouvoir",
+              "puisse",
+              "puissions"
+            ],
+            [
+              "aller",
+              "aille",
+              "allions"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « je courirai » ou « je pourai ».",
+          "correction": "Courir et pouvoir ont deux r au futur : je courrai, je pourrai."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Demain, il … te voir. » (venir, futur)",
+      "options": [
+        "viendra",
+        "venira",
+        "viendrera"
+      ],
+      "reponse": "viendra",
+      "explication": "Radical viendr-."
+    },
+    {
+      "consigne": "« Il faut que vous … la réponse. » (savoir)",
+      "options": [
+        "sachiez",
+        "savez",
+        "saviez"
+      ],
+      "reponse": "sachiez",
+      "explication": "Subjonctif de savoir."
+    },
+    {
+      "consigne": "« Nous … une lettre demain. » (envoyer, futur)",
+      "options": [
+        "enverrons",
+        "envoyerons",
+        "envoirons"
+      ],
+      "reponse": "enverrons",
+      "explication": "Radical enverr-."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "Ils maîtrisent la formation des temps simples et des temps composés à tous les modes.",
+      "appui": "Radicaux des verbes irréguliers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

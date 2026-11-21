@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-3E-DISC-51",
+  "duree": 7,
+  "essentiel": "Au discours direct, les paroles sont citées entre guillemets. Au discours indirect, elles sont rapportées dans une subordonnée.\nLe discours indirect libre mêle les deux : pas de guillemets ni de verbe introducteur, mais le ton du personnage reste.\n« Paul regarda la lettre. Elle ne reviendrait donc jamais. » : la pensée de Paul est rapportée librement.",
+  "parties": [
+    {
+      "titre": "Trois façons de rapporter",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une même pensée",
+          "colonnes": [
+            "Discours",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "direct",
+              "Paul pensa : « Elle ne reviendra jamais ! »"
+            ],
+            [
+              "indirect",
+              "Paul pensa qu’elle ne reviendrait jamais."
+            ],
+            [
+              "indirect libre",
+              "Paul regarda la lettre. Elle ne reviendrait donc jamais !"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le discours indirect libre se reconnait à :",
+          "options": [
+            "l’absence de guillemets et de verbe introducteur",
+            "des tirets",
+            "une subordonnée introduite par que"
+          ],
+          "reponse": "l’absence de guillemets et de verbe introducteur",
+          "explication": "Les paroles se fondent dans le récit."
+        }
+      ]
+    },
+    {
+      "titre": "Les indices",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Ce qui trahit le discours indirect libre.",
+          "exemples": [
+            "des exclamations ou des questions au milieu du récit",
+            "des mots familiers propres au personnage",
+            "le temps et la personne du récit, mais la voix du personnage"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On attribue au narrateur des pensées qui sont celles du personnage.",
+          "correction": "On cherche à qui appartiennent l’émotion et les mots : souvent au personnage."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Il ferma la porte. Quelle journée, tout de même ! » La seconde phrase est au discours :",
+      "options": [
+        "indirect libre",
+        "direct",
+        "indirect"
+      ],
+      "reponse": "indirect libre",
+      "explication": "Exclamation du personnage, sans guillemets."
+    },
+    {
+      "consigne": "« Elle dit qu’elle partirait. » est au discours :",
+      "options": [
+        "indirect",
+        "direct",
+        "indirect libre"
+      ],
+      "reponse": "indirect",
+      "explication": "Une subordonnée introduite par que."
+    },
+    {
+      "consigne": "Le discours direct utilise :",
+      "options": [
+        "des guillemets ou des tirets",
+        "une subordonnée",
+        "seulement le récit"
+      ],
+      "reponse": "des guillemets ou des tirets",
+      "explication": "Les paroles sont citées."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 12,
+      "extrait": "Ils reconnaissent et utilisent les paroles rapportées directement, indirectement et reconnaissent le discours indirect libre.",
+      "appui": "Discours indirect libre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,107 @@
+{
+  "competence": "FR-C4-3E-ORTH-53",
+  "duree": 6,
+  "essentiel": "Quand le sujet comporte un complément du nom, le verbe s’accorde avec le noyau : « Le panier de pommes est lourd. »\nAvec un pronom indéfini comme chacun, aucun, personne, le verbe est au singulier : « Chacun de nous a sa place. »\nAvec la plupart de, il est au pluriel : « La plupart des élèves sont venus. »",
+  "parties": [
+    {
+      "titre": "Cas délicats",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Accords du verbe",
+          "colonnes": [
+            "Sujet",
+            "Accord",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "nom + complément du nom",
+              "avec le noyau",
+              "Le panier de pommes est lourd."
+            ],
+            [
+              "chacun de…",
+              "singulier",
+              "Chacun de nous a sa place."
+            ],
+            [
+              "aucun de…",
+              "singulier",
+              "Aucun des élèves n’est absent."
+            ],
+            [
+              "la plupart de…",
+              "pluriel",
+              "La plupart des élèves sont venus."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Chacun des joueurs … son maillot. » (porter, présent)",
+          "options": [
+            "porte",
+            "portent",
+            "portes"
+          ],
+          "reponse": "porte",
+          "explication": "Chacun : singulier."
+        }
+      ]
+    },
+    {
+      "titre": "Trouver le noyau",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On accorde avec le complément le plus proche : « Le bruit des moteurs gênent ».",
+          "correction": "Le noyau est bruit : le bruit des moteurs gêne."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« La liste des invités … longue. » (être, présent)",
+      "options": [
+        "est",
+        "sont",
+        "es"
+      ],
+      "reponse": "est",
+      "explication": "Le noyau est liste."
+    },
+    {
+      "consigne": "« Personne ne … la réponse. » (connaitre, présent)",
+      "options": [
+        "connait",
+        "connaissent",
+        "connais"
+      ],
+      "reponse": "connait",
+      "explication": "Personne : singulier."
+    },
+    {
+      "consigne": "« La plupart des spectateurs … partis. » (être, présent)",
+      "options": [
+        "sont",
+        "est",
+        "êtes"
+      ],
+      "reponse": "sont",
+      "explication": "La plupart : pluriel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "En fin d’année, les élèves maîtrisent des accords orthographiques exigeant la prise en compte de plus en plus d’éléments.",
+      "appui": "Accords du verbe délicats"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

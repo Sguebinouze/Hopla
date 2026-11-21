@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-3E-ECR-51",
+  "duree": 6,
+  "essentiel": "Réviser un texte, c’est l’améliorer : cohérence, enchainement des idées, précision du vocabulaire, syntaxe et orthographe.\nOn remplace les tournures lourdes : « Il y a des gens qui pensent » devient « Certains pensent ».\nOn relit une fois par critère, à voix basse si possible.",
+  "parties": [
+    {
+      "titre": "Alléger et préciser",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avant, après",
+          "colonnes": [
+            "Avant",
+            "Après"
+          ],
+          "lignes": [
+            [
+              "Il y a des gens qui pensent que…",
+              "Certains pensent que…"
+            ],
+            [
+              "Il a fait un truc bien.",
+              "Il a accompli un exploit."
+            ],
+            [
+              "Il dit que c’est vrai. Il dit aussi que…",
+              "Il affirme que c’est vrai et ajoute que…"
+            ],
+            [
+              "C’est une chose importante.",
+              "C’est un enjeu majeur."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il y a un garçon qui court » devient plutôt :",
+          "options": [
+            "Un garçon court.",
+            "Il y a un garçon courant.",
+            "Il y a un garçon qui court vite."
+          ],
+          "reponse": "Un garçon court.",
+          "explication": "On supprime « il y a… qui »."
+        }
+      ]
+    },
+    {
+      "titre": "Une grille de révision",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Relire en quatre passages",
+          "etapes": [
+            "Le sens : la consigne est-elle respectée, les idées s’enchainent-elles ?",
+            "Le vocabulaire : chaque mot vague est-il remplacé ?",
+            "Les phrases : sont-elles complètes, pas trop longues ?",
+            "L’orthographe : accords, conjugaisons, homophones."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On réécrit tout le texte au lieu de corriger ce qui ne va pas.",
+          "correction": "On garde ce qui fonctionne et on améliore point par point."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Faire » est souvent un verbe :",
+      "options": [
+        "trop vague, à remplacer",
+        "toujours précis",
+        "interdit"
+      ],
+      "reponse": "trop vague, à remplacer",
+      "explication": "Fabriquer, réaliser, accomplir…"
+    },
+    {
+      "consigne": "Un texte cohérent :",
+      "options": [
+        "ne se contredit pas et suit un ordre logique",
+        "n’a aucune faute d’orthographe",
+        "est très long"
+      ],
+      "reponse": "ne se contredit pas et suit un ordre logique",
+      "explication": "Les idées s’enchainent."
+    },
+    {
+      "consigne": "« Il y a des élèves qui travaillent » devient :",
+      "options": [
+        "Des élèves travaillent.",
+        "Il y a des élèves travaillant.",
+        "Il y a des élèves."
+      ],
+      "reponse": "Des élèves travaillent.",
+      "explication": "Plus direct."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 20,
+      "extrait": "Vérifier et améliorer la qualité de son",
+      "appui": "Améliorer son écrit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

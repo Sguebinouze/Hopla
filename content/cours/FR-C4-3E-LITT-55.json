@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-3E-LITT-55",
+  "duree": 6,
+  "essentiel": "Le récit d’anticipation imagine un futur à partir des progrès scientifiques : Jules Verne décrit le sous-marin Nautilus dans Vingt mille lieues sous les mers (1870).\nL’utopie imagine une société idéale. La dystopie imagine une société cauchemardesque, souvent contrôlée par la technique.\nCes récits interrogent les espoirs et les dangers du progrès.",
+  "parties": [
+    {
+      "titre": "Trois genres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Imaginer l’avenir",
+          "colonnes": [
+            "Genre",
+            "Caractère",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "anticipation",
+              "futur imaginé à partir de la science",
+              "Jules Verne, Vingt mille lieues sous les mers"
+            ],
+            [
+              "utopie",
+              "société idéale",
+              "Thomas More, Utopia (1516)"
+            ],
+            [
+              "dystopie",
+              "société oppressive",
+              "Huxley, Le Meilleur des mondes (1932) ; Bradbury, Fahrenheit 451 (1953)"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une dystopie décrit :",
+          "options": [
+            "une société oppressive",
+            "une société idéale",
+            "la vie d’un savant"
+          ],
+          "reponse": "une société oppressive",
+          "explication": "C’est l’inverse de l’utopie."
+        }
+      ]
+    },
+    {
+      "titre": "Ce que disent ces récits",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Dans Fahrenheit 451, les livres sont brulés. Le roman alerte sur une société qui renonce à penser."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la science-fiction ne parle que du futur.",
+          "correction": "Elle parle souvent du présent : elle grossit des tendances actuelles pour les faire voir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le mot utopie vient du grec et signifie :",
+      "options": [
+        "nulle part",
+        "partout",
+        "demain"
+      ],
+      "reponse": "nulle part",
+      "explication": "Un lieu qui n’existe pas."
+    },
+    {
+      "consigne": "Jules Verne écrit des récits :",
+      "options": [
+        "d’anticipation",
+        "autobiographiques",
+        "tragiques du XVIIe siècle"
+      ],
+      "reponse": "d’anticipation",
+      "explication": "Il imagine des inventions à venir."
+    },
+    {
+      "consigne": "Dans Fahrenheit 451, on brule :",
+      "options": [
+        "des livres",
+        "des forêts",
+        "des ordinateurs"
+      ],
+      "reponse": "des livres",
+      "explication": "Le titre évoque la température à laquelle le papier s’enflamme."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 33,
+      "extrait": "Progrès et rêves scientifiques",
+      "appui": "Progrès et rêves scientifiques"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

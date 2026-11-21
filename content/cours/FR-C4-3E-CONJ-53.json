@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-3E-CONJ-53",
+  "duree": 6,
+  "essentiel": "Le subjonctif imparfait appartient surtout à la langue littéraire : qu’il chantât, qu’il partît, qu’il fût.\nÀ la 3e personne du singulier, il se distingue du passé simple par l’accent circonflexe et, pour les verbes en -er, par le t final.\nLe subjonctif plus-que-parfait se forme avec l’auxiliaire au subjonctif imparfait : qu’il eût chanté.",
+  "parties": [
+    {
+      "titre": "Distinguer du passé simple",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "3e personne du singulier",
+          "colonnes": [
+            "Verbe",
+            "Passé simple",
+            "Subjonctif imparfait"
+          ],
+          "lignes": [
+            [
+              "chanter",
+              "il chanta",
+              "qu’il chantât"
+            ],
+            [
+              "partir",
+              "il partit",
+              "qu’il partît"
+            ],
+            [
+              "être",
+              "il fut",
+              "qu’il fût"
+            ],
+            [
+              "avoir",
+              "il eut",
+              "qu’il eût"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il fallait qu’il partît. » « partît » est au :",
+          "options": [
+            "subjonctif imparfait",
+            "passé simple",
+            "imparfait de l’indicatif"
+          ],
+          "reponse": "subjonctif imparfait",
+          "explication": "Accent circonflexe, après il fallait que."
+        }
+      ]
+    },
+    {
+      "titre": "Un temps littéraire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Aujourd’hui, à l’oral et dans l’écrit courant, on le remplace par le subjonctif présent : « Il fallait qu’il parte. »"
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit le passé simple avec un accent : « il partît vers le nord ».",
+          "correction": "Le passé simple n’a pas d’accent : il partit. L’accent marque le subjonctif imparfait."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Bien qu’il fût tard, il travaillait. » « fût » est au :",
+      "options": [
+        "subjonctif imparfait",
+        "passé simple",
+        "futur"
+      ],
+      "reponse": "subjonctif imparfait",
+      "explication": "Après bien que, avec un accent."
+    },
+    {
+      "consigne": "« Il eut chanté » est au :",
+      "options": [
+        "passé antérieur",
+        "subjonctif plus-que-parfait",
+        "subjonctif imparfait"
+      ],
+      "reponse": "passé antérieur",
+      "explication": "Pas d’accent : indicatif."
+    },
+    {
+      "consigne": "Dans le langage courant, « qu’il chantât » se remplace par :",
+      "options": [
+        "qu’il chante",
+        "il chanta",
+        "il chantait"
+      ],
+      "reponse": "qu’il chante",
+      "explication": "Le subjonctif présent."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "En plus des temps déjà maîtrisés, ils identifient le subjonctif imparfait et le subjonctif plus-que-parfait.",
+      "appui": "Subjonctif imparfait"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

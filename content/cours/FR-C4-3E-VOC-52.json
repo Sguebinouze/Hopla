@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-3E-VOC-52",
+  "duree": 5,
+  "essentiel": "La dénotation est le sens de base d’un mot, celui du dictionnaire.\nLa connotation est la nuance qu’il ajoute : méliorative, valorisante, ou péjorative, dévalorisante.\n« Demeure », « maison », « masure » désignent un logement : le premier valorise, le dernier dévalorise.",
+  "parties": [
+    {
+      "titre": "Trois nuances",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un même sens, des connotations",
+          "colonnes": [
+            "Mélioratif",
+            "Neutre",
+            "Péjoratif"
+          ],
+          "lignes": [
+            [
+              "demeure",
+              "maison",
+              "masure"
+            ],
+            [
+              "svelte",
+              "mince",
+              "maigrichon"
+            ],
+            [
+              "économe",
+              "qui dépense peu",
+              "radin"
+            ],
+            [
+              "coursier",
+              "cheval",
+              "canasson"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Une masure » est un terme :",
+          "options": [
+            "péjoratif",
+            "mélioratif",
+            "neutre"
+          ],
+          "reponse": "péjoratif",
+          "explication": "Il désigne une maison misérable."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer un point de vue",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le choix des mots révèle l’opinion de celui qui écrit. Dire « ce gamin » plutôt que « cet enfant » montre une distance ou du mépris."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que deux synonymes sont toujours interchangeables.",
+          "correction": "Leur connotation peut différer : « économe » et « radin » ne donnent pas la même image."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Lequel est mélioratif ?",
+      "options": [
+        "svelte",
+        "maigrichon",
+        "mince"
+      ],
+      "reponse": "svelte",
+      "explication": "Il valorise."
+    },
+    {
+      "consigne": "La dénotation d’un mot est :",
+      "options": [
+        "son sens de base",
+        "son origine",
+        "sa nuance positive"
+      ],
+      "reponse": "son sens de base",
+      "explication": "Le sens du dictionnaire."
+    },
+    {
+      "consigne": "« Un canasson » est :",
+      "options": [
+        "un mot péjoratif pour cheval",
+        "un cheval de course",
+        "un mot soutenu"
+      ],
+      "reponse": "un mot péjoratif pour cheval",
+      "explication": "Il dévalorise."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 11,
+      "extrait": "Ils analysent le sens des mots : nuances et glissements de sens",
+      "appui": "Nuances de sens"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

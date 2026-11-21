@@ -1,0 +1,116 @@
+{
+  "competence": "FR-C4-3E-CONJ-51",
+  "duree": 6,
+  "essentiel": "Le subjonctif passé se forme avec l’auxiliaire avoir ou être au subjonctif présent, suivi du participe passé.\n« Je suis content que tu sois venu. » « Il faut que tu aies fini. »\nIl exprime une action accomplie, antérieure à celle du verbe principal ou à un moment donné.",
+  "parties": [
+    {
+      "titre": "Former",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Subjonctif passé",
+          "colonnes": [
+            "Personne",
+            "finir",
+            "partir"
+          ],
+          "lignes": [
+            [
+              "que je",
+              "aie fini",
+              "sois parti, partie"
+            ],
+            [
+              "que tu",
+              "aies fini",
+              "sois parti, partie"
+            ],
+            [
+              "qu’il, qu’elle",
+              "ait fini",
+              "soit parti, partie"
+            ],
+            [
+              "que nous",
+              "ayons fini",
+              "soyons partis, parties"
+            ],
+            [
+              "qu’ils, qu’elles",
+              "aient fini",
+              "soient partis, parties"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Je doute qu’il … compris. »",
+          "options": [
+            "ait",
+            "a",
+            "est"
+          ],
+          "reponse": "ait",
+          "explication": "Douter que + subjonctif."
+        }
+      ]
+    },
+    {
+      "titre": "Présent ou passé ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "« Je veux que tu finisses » : l’action est à venir. « Je veux que tu aies fini avant midi » : l’action sera terminée à ce moment-là."
+        },
+        {
+          "type": "piege",
+          "erreur": "On écrit « qu’il aie ».",
+          "correction": "À la 3e personne : qu’il ait. Que j’aie prend un e."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Bien qu’elle … partie tôt, elle est arrivée en retard. »",
+      "options": [
+        "soit",
+        "ait",
+        "est"
+      ],
+      "reponse": "soit",
+      "explication": "Partir se conjugue avec être."
+    },
+    {
+      "consigne": "« Il faut que nous … terminé ce soir. »",
+      "options": [
+        "ayons",
+        "avons",
+        "ayions"
+      ],
+      "reponse": "ayons",
+      "explication": "Pas de i après le y."
+    },
+    {
+      "consigne": "Le subjonctif passé exprime une action :",
+      "options": [
+        "accomplie",
+        "future",
+        "habituelle"
+      ],
+      "reponse": "accomplie",
+      "explication": "Elle est terminée à un moment donné."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 9,
+      "extrait": "Ils accroissent leur connaissance des conjugaisons en mémorisant le passé du conditionnel et le passé, l’imparfait et le plus-que-parfait du subjonctif",
+      "appui": "Subjonctif passé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

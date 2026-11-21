@@ -1,0 +1,117 @@
+{
+  "competence": "FR-C4-3E-LITT-51",
+  "duree": 7,
+  "essentiel": "Dans une autobiographie, l’auteur raconte sa propre vie : auteur, narrateur et personnage principal sont la même personne.\nRousseau, dans Les Confessions, veut se montrer tel qu’il est, sans rien cacher.\nIl existe d’autres formes : mémoires, journal intime, autoportrait, roman autobiographique.",
+  "parties": [
+    {
+      "titre": "Les formes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Écrire sur soi",
+          "colonnes": [
+            "Forme",
+            "Caractère",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "autobiographie",
+              "récit rétrospectif de sa vie",
+              "Rousseau, Les Confessions"
+            ],
+            [
+              "mémoires",
+              "sa vie liée aux évènements historiques",
+              "Chateaubriand, Mémoires d’outre-tombe"
+            ],
+            [
+              "journal intime",
+              "notes datées, au jour le jour",
+              "Anne Frank, Journal"
+            ],
+            [
+              "roman autobiographique",
+              "vie de l’auteur, avec des éléments inventés",
+              "souvent avec un autre nom pour le héros"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un récit écrit au jour le jour, avec des dates, est :",
+          "options": [
+            "un journal intime",
+            "des mémoires",
+            "une biographie"
+          ],
+          "reponse": "un journal intime",
+          "explication": "Comme le Journal d’Anne Frank."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi se raconter ?",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des raisons d’écrire sur soi.",
+          "exemples": [
+            "se comprendre",
+            "se justifier",
+            "témoigner d’une époque",
+            "garder la mémoire"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond autobiographie et biographie.",
+          "correction": "La biographie raconte la vie d’un autre. Dans l’autobiographie, on raconte sa propre vie."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans une autobiographie, le narrateur est :",
+      "options": [
+        "l’auteur lui-même",
+        "un personnage inventé",
+        "un témoin extérieur"
+      ],
+      "reponse": "l’auteur lui-même",
+      "explication": "Auteur, narrateur et personnage se confondent."
+    },
+    {
+      "consigne": "Les Mémoires d’outre-tombe ont été écrits par :",
+      "options": [
+        "Chateaubriand",
+        "Rousseau",
+        "Anne Frank"
+      ],
+      "reponse": "Chateaubriand",
+      "explication": "Publiés après sa mort."
+    },
+    {
+      "consigne": "Anne Frank a écrit son journal pendant :",
+      "options": [
+        "la Seconde Guerre mondiale",
+        "la Révolution française",
+        "le Moyen Âge"
+      ],
+      "reponse": "la Seconde Guerre mondiale",
+      "explication": "Cachée à Amsterdam."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 32,
+      "extrait": "découvrir différentes formes de l’écriture de soi et de l’autoportrait",
+      "appui": "Se raconter, se représenter"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

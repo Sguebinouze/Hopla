@@ -1,0 +1,111 @@
+{
+  "competence": "FR-C4-3E-VOC-53",
+  "duree": 6,
+  "essentiel": "Les modalisateurs montrent comment l’auteur considère ce qu’il dit : certain, douteux, approuvé ou critiqué.\nCe sont des adverbes, des verbes, des adjectifs ou le conditionnel : « Il viendra sans doute » ; « ce prétendu expert ».\nLe conditionnel signale aussi une information non confirmée : « Le ministre aurait démissionné. »",
+  "parties": [
+    {
+      "titre": "Des marques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les modalisateurs",
+          "colonnes": [
+            "Marque",
+            "Exemple",
+            "Ce qu’elle montre"
+          ],
+          "lignes": [
+            [
+              "adverbe",
+              "certainement, peut-être",
+              "certitude ou doute"
+            ],
+            [
+              "verbe",
+              "il semble que, je crois",
+              "doute"
+            ],
+            [
+              "adjectif",
+              "prétendu, soi-disant",
+              "jugement défavorable"
+            ],
+            [
+              "conditionnel",
+              "il aurait démissionné",
+              "information non confirmée"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Le suspect aurait quitté la ville. » Le conditionnel indique :",
+          "options": [
+            "une information non confirmée",
+            "un souhait",
+            "un ordre"
+          ],
+          "reponse": "une information non confirmée",
+          "explication": "Le journaliste ne l’affirme pas."
+        }
+      ]
+    },
+    {
+      "titre": "Lire la presse",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un journaliste prudent écrit « selon la police » ou emploie le conditionnel tant qu’un fait n’est pas vérifié."
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit une phrase au conditionnel comme un fait établi.",
+          "correction": "Le conditionnel journalistique signale qu’il faut attendre une confirmation."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ce soi-disant champion » exprime :",
+      "options": [
+        "un jugement défavorable",
+        "une certitude",
+        "une admiration"
+      ],
+      "reponse": "un jugement défavorable",
+      "explication": "L’auteur doute de ce titre."
+    },
+    {
+      "consigne": "« Il viendra peut-être. » exprime :",
+      "options": [
+        "un doute",
+        "une certitude",
+        "un ordre"
+      ],
+      "reponse": "un doute",
+      "explication": "Peut-être : incertitude."
+    },
+    {
+      "consigne": "« Il est évident que tu as raison. » exprime :",
+      "options": [
+        "une certitude",
+        "un doute",
+        "une information non confirmée"
+      ],
+      "reponse": "une certitude",
+      "explication": "Évident : aucun doute."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 12,
+      "extrait": "Ils repèrent et interprètent des marques de modalisation",
+      "appui": "Modalisation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

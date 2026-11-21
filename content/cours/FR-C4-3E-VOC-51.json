@@ -1,0 +1,143 @@
+{
+  "competence": "FR-C4-3E-VOC-51",
+  "duree": 6,
+  "essentiel": "Beaucoup de mots savants sont formés de racines grecques ou latines.\nGéographie vient du grec géo, la terre, et graphie, écrire : décrire la terre.\nConnaitre quelques racines permet de comprendre de nombreux mots.",
+  "parties": [
+    {
+      "titre": "Racines grecques",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du grec",
+          "colonnes": [
+            "Racine",
+            "Sens",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "bio",
+              "vie",
+              "biologie, biographie"
+            ],
+            [
+              "logie",
+              "étude, science",
+              "zoologie"
+            ],
+            [
+              "chrono",
+              "temps",
+              "chronologie"
+            ],
+            [
+              "phone",
+              "son, voix",
+              "téléphone, microphone"
+            ],
+            [
+              "hydro",
+              "eau",
+              "hydravion"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Biographie » signifie :",
+          "options": [
+            "récit d’une vie",
+            "étude des plantes",
+            "écriture de la terre"
+          ],
+          "reponse": "récit d’une vie",
+          "explication": "Bio : vie ; graphie : écrire."
+        }
+      ]
+    },
+    {
+      "titre": "Racines latines",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du latin",
+          "colonnes": [
+            "Racine",
+            "Sens",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "aqua",
+              "eau",
+              "aquarium, aquatique"
+            ],
+            [
+              "omni",
+              "tout",
+              "omnivore, omniprésent"
+            ],
+            [
+              "vore",
+              "qui mange",
+              "carnivore, herbivore"
+            ],
+            [
+              "pater, patr",
+              "père",
+              "paternel, patrie"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On décompose au hasard : « hippopotame » viendrait de « hippie ».",
+          "correction": "Hippos signifie cheval, potamos fleuve : le cheval du fleuve. On vérifie dans le dictionnaire."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un animal omnivore mange :",
+      "options": [
+        "de tout",
+        "seulement de la viande",
+        "seulement des plantes"
+      ],
+      "reponse": "de tout",
+      "explication": "Omni : tout ; vore : qui mange."
+    },
+    {
+      "consigne": "La chronologie est :",
+      "options": [
+        "l’étude de l’ordre des évènements dans le temps",
+        "l’étude des sons",
+        "l’étude de l’eau"
+      ],
+      "reponse": "l’étude de l’ordre des évènements dans le temps",
+      "explication": "Chrono : temps."
+    },
+    {
+      "consigne": "Un hydravion se pose :",
+      "options": [
+        "sur l’eau",
+        "sur la neige",
+        "dans le désert"
+      ],
+      "reponse": "sur l’eau",
+      "explication": "Hydro : eau."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 11,
+      "extrait": "Ils connaissent le sens des préfixes et suffixes les plus fréquents, les racines grecques et latines",
+      "appui": "Racines grecques et latines"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

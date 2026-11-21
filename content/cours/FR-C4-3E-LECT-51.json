@@ -1,0 +1,121 @@
+{
+  "competence": "FR-C4-3E-LECT-51",
+  "duree": 7,
+  "essentiel": "Un registre est la tonalité d’un texte, l’effet qu’il cherche à produire sur le lecteur.\nLyrique : sentiments ; tragique : fatalité ; comique : rire ; épique : exploits grandioses ; pathétique : pitié ; satirique : moquerie critique.\nLe registre pathétique cherche à émouvoir par la souffrance d’un personnage.",
+  "parties": [
+    {
+      "titre": "Six registres",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Registres et effets",
+          "colonnes": [
+            "Registre",
+            "Effet recherché",
+            "Indices"
+          ],
+          "lignes": [
+            [
+              "lyrique",
+              "partager des émotions",
+              "je, sentiments, apostrophes"
+            ],
+            [
+              "tragique",
+              "terreur et pitié face au destin",
+              "fatalité, mort, dilemme"
+            ],
+            [
+              "comique",
+              "faire rire",
+              "quiproquos, exagération, jeux de mots"
+            ],
+            [
+              "épique",
+              "admiration",
+              "combats, hyperboles, héros"
+            ],
+            [
+              "pathétique",
+              "pitié, larmes",
+              "souffrance, plaintes"
+            ],
+            [
+              "satirique",
+              "critique par le rire",
+              "ironie, caricature"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un récit de bataille où le héros affronte seul cent ennemis relève du registre :",
+          "options": [
+            "épique",
+            "lyrique",
+            "comique"
+          ],
+          "reponse": "épique",
+          "explication": "Exploits et exagérations."
+        }
+      ]
+    },
+    {
+      "titre": "Pathétique ou tragique ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le pathétique montre une souffrance pour émouvoir. Le tragique y ajoute la fatalité : le personnage ne peut pas échapper à son destin."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond registre et genre : « le texte est une tragédie, donc il est forcément tragique ».",
+          "correction": "Le genre est la forme de l’œuvre. Le registre est l’effet produit : une comédie peut contenir un passage pathétique."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un texte qui fait rire par des quiproquos relève du registre :",
+      "options": [
+        "comique",
+        "épique",
+        "pathétique"
+      ],
+      "reponse": "comique",
+      "explication": "Le malentendu crée le rire."
+    },
+    {
+      "consigne": "Un personnage condamné par le destin, quoi qu’il fasse : registre",
+      "options": [
+        "tragique",
+        "comique",
+        "satirique"
+      ],
+      "reponse": "tragique",
+      "explication": "La fatalité."
+    },
+    {
+      "consigne": "Le registre lyrique exprime :",
+      "options": [
+        "des sentiments personnels",
+        "des exploits guerriers",
+        "une critique sociale"
+      ],
+      "reponse": "des sentiments personnels",
+      "explication": "Souvent à la première personne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 17,
+      "extrait": "Percevoir les effets esthétiques",
+      "appui": "Registres et effets sur le lecteur"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

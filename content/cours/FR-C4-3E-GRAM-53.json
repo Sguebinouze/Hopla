@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-3E-GRAM-53",
+  "duree": 6,
+  "essentiel": "Les pronoms indéfinis désignent de façon vague : personne, rien, chacun, quelqu’un, aucun, plusieurs.\nLes pronoms interrogatifs posent une question : qui, que, quoi, lequel.\nLes pronoms adverbiaux en et y remplacent un complément : « J’y vais », « J’en veux ».",
+  "parties": [
+    {
+      "titre": "Reconnaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des pronoms",
+          "colonnes": [
+            "Phrase",
+            "Pronom",
+            "Classe"
+          ],
+          "lignes": [
+            [
+              "Personne n’est venu.",
+              "personne",
+              "indéfini"
+            ],
+            [
+              "Qui parle ?",
+              "qui",
+              "interrogatif"
+            ],
+            [
+              "Je vais à Lyon. J’y vais.",
+              "y",
+              "adverbial, remplace à Lyon"
+            ],
+            [
+              "Tu veux du pain ? J’en veux.",
+              "en",
+              "adverbial, remplace du pain"
+            ],
+            [
+              "Le livre qui est là",
+              "qui",
+              "relatif"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans « Lequel préfères-tu ? », « lequel » est un pronom :",
+          "options": [
+            "interrogatif",
+            "relatif",
+            "indéfini"
+          ],
+          "reponse": "interrogatif",
+          "explication": "Il pose une question."
+        }
+      ]
+    },
+    {
+      "titre": "Un même mot, deux classes",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond qui interrogatif et qui relatif.",
+          "correction": "Le relatif a un antécédent : « l’ami qui parle ». L’interrogatif n’en a pas : « Qui parle ? »"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Dans « Chacun a reçu un livre », « chacun » est :",
+      "options": [
+        "un pronom indéfini",
+        "un déterminant",
+        "un pronom interrogatif"
+      ],
+      "reponse": "un pronom indéfini",
+      "explication": "Il désigne chaque personne de façon générale."
+    },
+    {
+      "consigne": "« Tu penses à ton voyage ? » « Oui, j’… pense. »",
+      "options": [
+        "y",
+        "en",
+        "le"
+      ],
+      "reponse": "y",
+      "explication": "Penser à : y."
+    },
+    {
+      "consigne": "« Tu parles de ce film ? » « Oui, j’… parle. »",
+      "options": [
+        "en",
+        "y",
+        "lui"
+      ],
+      "reponse": "en",
+      "explication": "Parler de : en."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils identifient tous les autres pronoms : indéfinis, interrogatifs, adverbiaux et relatifs.",
+      "appui": "Les autres pronoms"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

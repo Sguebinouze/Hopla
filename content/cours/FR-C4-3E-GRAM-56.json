@@ -1,0 +1,130 @@
+{
+  "competence": "FR-C4-3E-GRAM-56",
+  "duree": 8,
+  "essentiel": "Les compléments circonstanciels précisent les circonstances de l’action.\nIls expriment le temps, le lieu, la manière, le moyen, la cause, la conséquence, le but, l’opposition, la condition ou la comparaison.\n« Malgré la pluie, nous sortons » : opposition. « Il court comme un lapin » : comparaison.",
+  "parties": [
+    {
+      "titre": "Dix sens",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les compléments circonstanciels",
+          "colonnes": [
+            "Sens",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "temps",
+              "Dès l’aube, il partit."
+            ],
+            [
+              "lieu",
+              "Il vit à la montagne."
+            ],
+            [
+              "manière",
+              "Il parle avec calme."
+            ],
+            [
+              "moyen",
+              "Il ouvre la porte avec une clé."
+            ],
+            [
+              "cause",
+              "Il tremble de froid."
+            ],
+            [
+              "conséquence",
+              "Il a tant couru qu’il est épuisé."
+            ],
+            [
+              "but",
+              "Il économise pour partir."
+            ],
+            [
+              "opposition",
+              "Malgré la pluie, nous sortons."
+            ],
+            [
+              "condition",
+              "En cas de pluie, le match est reporté."
+            ],
+            [
+              "comparaison",
+              "Il court comme un lapin."
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Bien qu’il soit fatigué, il continue. » Le complément exprime :",
+          "options": [
+            "l’opposition",
+            "la cause",
+            "le but"
+          ],
+          "reponse": "l’opposition",
+          "explication": "Bien que : une idée contraire."
+        }
+      ]
+    },
+    {
+      "titre": "Moyen ou manière ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le moyen répond à « avec quoi ? » : avec une clé. La manière répond à « comment ? » : avec calme, doucement."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond cause et but : « Il économise pour partir » serait une cause.",
+          "correction": "Partir est l’objectif visé, pas ce qui provoque l’action : c’est un but."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Si tu viens, nous jouerons. » Le complément exprime :",
+      "options": [
+        "la condition",
+        "le temps",
+        "la cause"
+      ],
+      "reponse": "la condition",
+      "explication": "Si : une condition."
+    },
+    {
+      "consigne": "« Elle écrit avec un stylo plume. » Le complément exprime :",
+      "options": [
+        "le moyen",
+        "la manière",
+        "le lieu"
+      ],
+      "reponse": "le moyen",
+      "explication": "Avec quoi ?"
+    },
+    {
+      "consigne": "« Il est resté chez lui à cause de la grève. » Le complément exprime :",
+      "options": [
+        "la cause",
+        "le but",
+        "l’opposition"
+      ],
+      "reponse": "la cause",
+      "explication": "Pourquoi est-il resté ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 7,
+      "extrait": "Ils identifient tous les compléments circonstanciels.",
+      "appui": "Tous les compléments circonstanciels"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

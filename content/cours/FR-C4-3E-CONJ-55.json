@@ -1,0 +1,112 @@
+{
+  "competence": "FR-C4-3E-CONJ-55",
+  "duree": 5,
+  "essentiel": "Falloir ne se conjugue qu’à la 3e personne du singulier, avec il impersonnel : il faut, il faudra, qu’il faille.\nValoir se conjugue à toutes les personnes : je vaux, il vaut, nous valons, ils valent.\nAu futur et au conditionnel, leur radical devient faudr- et vaudr- : il faudra, il vaudrait.",
+  "parties": [
+    {
+      "titre": "Deux verbes irréguliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À la 3e personne du singulier",
+          "colonnes": [
+            "Temps",
+            "falloir",
+            "valoir"
+          ],
+          "lignes": [
+            [
+              "présent",
+              "il faut",
+              "il vaut"
+            ],
+            [
+              "imparfait",
+              "il fallait",
+              "il valait"
+            ],
+            [
+              "futur",
+              "il faudra",
+              "il vaudra"
+            ],
+            [
+              "conditionnel",
+              "il faudrait",
+              "il vaudrait"
+            ],
+            [
+              "subjonctif",
+              "qu’il faille",
+              "qu’il vaille"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Il … mieux partir maintenant. » (valoir, conditionnel)",
+          "options": [
+            "vaudrait",
+            "valerait",
+            "vaudrais"
+          ],
+          "reponse": "vaudrait",
+          "explication": "Radical vaudr- et terminaison -ait."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On écrit « Je doute qu’il faut partir ».",
+          "correction": "Après douter que, on emploie le subjonctif : je doute qu’il faille partir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Ces timbres … cher. » (valoir, présent)",
+      "options": [
+        "valent",
+        "vaux",
+        "vaut"
+      ],
+      "reponse": "valent",
+      "explication": "3e personne du pluriel."
+    },
+    {
+      "consigne": "« Je doute qu’il … partir si tôt. » (falloir)",
+      "options": [
+        "faille",
+        "faut",
+        "fallait"
+      ],
+      "reponse": "faille",
+      "explication": "Subjonctif de falloir."
+    },
+    {
+      "consigne": "« Il … du courage. » (falloir, futur)",
+      "options": [
+        "faudra",
+        "fallera",
+        "faudrait"
+      ],
+      "reponse": "faudra",
+      "explication": "Futur : faudr- + a."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 10,
+      "extrait": "Ils mémorisent la conjugaison des verbes falloir et valoir aux temps étudiés.",
+      "appui": "Falloir et valoir"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

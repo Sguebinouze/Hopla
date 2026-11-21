@@ -1,0 +1,106 @@
+{
+  "competence": "FR-C4-3E-GRAM-52",
+  "duree": 7,
+  "essentiel": "Une subordonnée a une fonction dans la phrase, comme un groupe de mots.\nLa relative complète un nom, son antécédent. La conjonctive introduite par que est souvent COD du verbe principal.\nLes circonstancielles sont compléments circonstanciels : temps, cause, but, condition…",
+  "parties": [
+    {
+      "titre": "Trois fonctions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fonction des subordonnées",
+          "colonnes": [
+            "Phrase",
+            "Subordonnée",
+            "Fonction"
+          ],
+          "lignes": [
+            [
+              "Je crois que tu as raison.",
+              "que tu as raison",
+              "COD de crois"
+            ],
+            [
+              "Le chien qui aboie est à moi.",
+              "qui aboie",
+              "complément de l’antécédent chien"
+            ],
+            [
+              "Quand il pleut, je lis.",
+              "quand il pleut",
+              "CC de temps"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« J’espère qu’il viendra. » La subordonnée est :",
+          "options": [
+            "COD de espère",
+            "CC de temps",
+            "complément du nom"
+          ],
+          "reponse": "COD de espère",
+          "explication": "J’espère quoi ? Qu’il viendra."
+        }
+      ]
+    },
+    {
+      "titre": "Le test du remplacement",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "On remplace la subordonnée par un groupe de mots : « Je crois que tu as raison » devient « Je crois cela ». Cela est COD."
+        },
+        {
+          "type": "piege",
+          "erreur": "On donne la nature à la place de la fonction : « c’est une conjonctive ».",
+          "correction": "Conjonctive est la nature. La fonction répond à la question : quel rôle joue-t-elle ?"
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "« Je sortirai si le soleil revient. » La subordonnée est :",
+      "options": [
+        "CC de condition",
+        "COD",
+        "complément du nom"
+      ],
+      "reponse": "CC de condition",
+      "explication": "Si introduit une condition."
+    },
+    {
+      "consigne": "« La lettre que j’ai reçue » : la relative complète :",
+      "options": [
+        "le nom lettre",
+        "le verbe reçue",
+        "le sujet je"
+      ],
+      "reponse": "le nom lettre",
+      "explication": "Lettre est l’antécédent."
+    },
+    {
+      "consigne": "« Il pense que la sortie est annulée. » Fonction de la subordonnée :",
+      "options": [
+        "COD de pense",
+        "sujet",
+        "CC de cause"
+      ],
+      "reponse": "COD de pense",
+      "explication": "Il pense quoi ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo22-2019-reperes-francais-c4",
+      "page": 8,
+      "extrait": "Ils comprennent la fonction grammaticale des propositions subordonnées dans la phrase.",
+      "appui": "Fonction des subordonnées"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
