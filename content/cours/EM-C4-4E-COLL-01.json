@@ -1,0 +1,108 @@
+{
+  "competence": "EM-C4-4E-COLL-01",
+  "duree": 5,
+  "essentiel": "Les libertés collectives permettent d’agir ensemble : se réunir, s’associer, manifester, adhérer à un syndicat, publier un journal.\nLa loi de 1901 encadre la liberté d’association ; celle de 1884 a autorisé les syndicats.\nCes libertés sont essentielles à la démocratie : elles permettent aux citoyens de faire entendre leur voix.",
+  "parties": [
+    {
+      "titre": "Des libertés et leurs lois",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Repères",
+          "colonnes": [
+            "Liberté",
+            "Loi"
+          ],
+          "lignes": [
+            [
+              "presse",
+              "1881"
+            ],
+            [
+              "syndicale",
+              "1884"
+            ],
+            [
+              "association",
+              "1901"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La liberté d’association est encadrée par la loi de :",
+          "options": [
+            "1901",
+            "1789",
+            "1958"
+          ],
+          "reponse": "1901",
+          "explication": "On parle d’« association loi 1901 »."
+        }
+      ]
+    },
+    {
+      "titre": "Agir ensemble",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des exemples.",
+          "exemples": [
+            "créer une association de quartier",
+            "manifester pour le climat",
+            "adhérer à un syndicat de salariés",
+            "publier un journal de collège"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un syndicat est un parti politique.",
+          "correction": "Un syndicat défend les intérêts des travailleurs ; un parti cherche à exercer le pouvoir."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un syndicat défend :",
+      "options": [
+        "les intérêts des travailleurs",
+        "un candidat aux élections",
+        "une religion"
+      ],
+      "reponse": "les intérêts des travailleurs",
+      "explication": "Salaires, conditions de travail."
+    },
+    {
+      "consigne": "Publier un journal relève de la liberté :",
+      "options": [
+        "de la presse",
+        "syndicale",
+        "d’aller et venir"
+      ],
+      "reponse": "de la presse",
+      "explication": "Depuis la loi de 1881."
+    },
+    {
+      "consigne": "Les libertés collectives permettent :",
+      "options": [
+        "d’agir à plusieurs",
+        "de voter seul",
+        "d’éviter les lois"
+      ],
+      "reponse": "d’agir à plusieurs",
+      "explication": "Réunion, association, manifestation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 22,
+      "extrait": "droit de réunion, d’association",
+      "appui": "Les libertés collectives"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

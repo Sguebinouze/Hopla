@@ -1,0 +1,101 @@
+{
+  "competence": "EM-C3-CM2-CIT-01",
+  "duree": 6,
+  "essentiel": "La nationalité est le lien entre une personne et un État. Les Français majeurs sont citoyens : ils ont des droits politiques.\nDroits politiques : voter, se présenter aux élections. Droits civils : se marier, posséder un bien, aller en justice.\nÀ 18 ans, une citoyenne française peut voter et se présenter aux élections.",
+  "parties": [
+    {
+      "titre": "Deux sortes de droits",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Droits civils et politiques",
+          "colonnes": [
+            "Droits",
+            "Exemples",
+            "Pour qui ?"
+          ],
+          "lignes": [
+            [
+              "civils",
+              "se marier, posséder un bien, signer un contrat",
+              "toutes les personnes"
+            ],
+            [
+              "politiques",
+              "voter, être élu",
+              "les citoyens majeurs"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Voter est un droit :",
+          "options": [
+            "politique",
+            "civil",
+            "religieux"
+          ],
+          "reponse": "politique",
+          "explication": "Il permet de participer aux choix collectifs."
+        }
+      ]
+    },
+    {
+      "titre": "Citoyen européen",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Un citoyen d’un autre pays de l’Union européenne qui vit en France peut voter aux élections municipales et européennes."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un enfant n’a aucun droit.",
+          "correction": "Il a des droits civils et les droits de l’enfant. Il aura les droits politiques à sa majorité."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un citoyen français peut voter à partir de :",
+      "options": [
+        "18 ans",
+        "16 ans",
+        "25 ans"
+      ],
+      "reponse": "18 ans",
+      "explication": "À la majorité."
+    },
+    {
+      "consigne": "Se marier est un droit :",
+      "options": [
+        "civil",
+        "politique",
+        "militaire"
+      ],
+      "reponse": "civil",
+      "explication": "Il concerne la vie privée."
+    },
+    {
+      "consigne": "La nationalité est le lien entre :",
+      "options": [
+        "une personne et un État",
+        "deux amis",
+        "une ville et sa région"
+      ],
+      "reponse": "une personne et un État",
+      "explication": "Être Français, par exemple."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Citoyenneté et nationalité",
+      "appui": "Citoyenneté et nationalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

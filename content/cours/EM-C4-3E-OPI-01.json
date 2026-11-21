@@ -1,0 +1,108 @@
+{
+  "competence": "EM-C4-3E-OPI-01",
+  "duree": 6,
+  "essentiel": "L’opinion publique est l’ensemble des idées partagées par une population ; elle pèse sur les décisions des élus.\nLes médias informent et les sondages mesurent l’opinion à un moment donné.\nLa désinformation diffuse volontairement de fausses informations ; le complotisme explique les évènements par un complot caché, sans preuve.",
+  "parties": [
+    {
+      "titre": "S’informer",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Avant de partager une vidéo choc",
+          "etapes": [
+            "Qui l’a publiée ? Un média identifié, un compte anonyme ?",
+            "De quand date-t-elle ?",
+            "D’autres sources fiables la confirment-elles ?",
+            "Une recherche d’image inversée retrouve-t-elle son origine ?"
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un sondage mesure :",
+          "options": [
+            "l’opinion d’un échantillon à un moment donné",
+            "la vérité",
+            "le résultat d’une élection future à coup sûr"
+          ],
+          "reponse": "l’opinion d’un échantillon à un moment donné",
+          "explication": "Il donne une tendance."
+        }
+      ]
+    },
+    {
+      "titre": "Repérer le complotisme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des indices",
+          "colonnes": [
+            "Indice",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "tout s’expliquerait par un groupe caché",
+              "« on nous cache la vérité »"
+            ],
+            [
+              "l’absence de preuve devient une preuve",
+              "« s’il n’y a rien, c’est qu’ils ont tout effacé »"
+            ],
+            [
+              "les sources sérieuses sont rejetées",
+              "« les médias mentent tous »"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une information est vraie parce qu’elle est partagée des milliers de fois.",
+          "correction": "Le nombre de partages ne prouve rien. Seules des sources fiables et vérifiables comptent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La désinformation consiste à :",
+      "options": [
+        "diffuser volontairement une fausse information",
+        "se tromper de bonne foi",
+        "vérifier une source"
+      ],
+      "reponse": "diffuser volontairement une fausse information",
+      "explication": "L’intention de tromper."
+    },
+    {
+      "consigne": "Un discours complotiste :",
+      "options": [
+        "explique tout par un complot caché, sans preuve",
+        "cite des sources vérifiées",
+        "accepte la contradiction"
+      ],
+      "reponse": "explique tout par un complot caché, sans preuve",
+      "explication": "Il rejette les preuves contraires."
+    },
+    {
+      "consigne": "Pour vérifier une information, on :",
+      "options": [
+        "croise plusieurs sources fiables",
+        "la partage vite",
+        "regarde le nombre de likes"
+      ],
+      "reponse": "croise plusieurs sources fiables",
+      "explication": "On recoupe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 24,
+      "extrait": "Les acteurs du jeu démocratique et leur engagement (1) : l’opinion (5 à 6 heures)",
+      "appui": "Opinion et information"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

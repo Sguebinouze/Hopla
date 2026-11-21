@@ -1,0 +1,111 @@
+{
+  "competence": "EM-C4-5E-RISQ-01",
+  "duree": 5,
+  "essentiel": "Inondations, tempêtes, séismes, accidents industriels : ce sont des risques majeurs.\nL’État, les communes et la sécurité civile organisent la prévention et les secours.\nAu collège, un plan prévoit les gestes à faire, et des exercices permettent de s’entrainer.",
+  "parties": [
+    {
+      "titre": "Prévenir et secourir",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Acteur",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "État, préfet",
+              "déclenche les plans de secours, alerte la population"
+            ],
+            [
+              "commune, maire",
+              "informe les habitants, accueille les sinistrés"
+            ],
+            [
+              "sécurité civile, pompiers",
+              "évacuent, secourent"
+            ],
+            [
+              "citoyens",
+              "connaissent les bons gestes, aident les voisins"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Lors d’une inondation, les sinistrés sont accueillis par :",
+          "options": [
+            "la commune",
+            "l’école privée",
+            "personne"
+          ],
+          "reponse": "la commune",
+          "explication": "Le maire organise l’accueil."
+        }
+      ]
+    },
+    {
+      "titre": "Être prêt",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Les bons réflexes.",
+          "exemples": [
+            "écouter la radio et suivre les consignes",
+            "ne pas aller chercher les enfants à l’école : ils y sont protégés",
+            "garder un sac avec eau, lampe et papiers"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les exercices d’alerte sont inutiles.",
+          "correction": "Ils permettent de réagir vite et calmement le jour où le danger est réel."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En cas d’alerte, aller chercher son enfant à l’école est :",
+      "options": [
+        "déconseillé : il y est protégé",
+        "obligatoire",
+        "conseillé"
+      ],
+      "reponse": "déconseillé : il y est protégé",
+      "explication": "L’école applique son plan de sécurité."
+    },
+    {
+      "consigne": "La sécurité civile :",
+      "options": [
+        "protège et secourt la population",
+        "vote les lois",
+        "fixe les impôts"
+      ],
+      "reponse": "protège et secourt la population",
+      "explication": "Avec les pompiers."
+    },
+    {
+      "consigne": "Un risque majeur peut être :",
+      "options": [
+        "une inondation ou un séisme",
+        "une panne de téléphone",
+        "un retard de bus"
+      ],
+      "reponse": "une inondation ou un séisme",
+      "explication": "Il menace beaucoup de personnes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 21,
+      "extrait": "les risques environnementaux",
+      "appui": "Face aux risques majeurs"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

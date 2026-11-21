@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C3-CM1-EGA-01",
+  "duree": 5,
+  "essentiel": "Tous les êtres humains sont égaux en droits et en dignité.\nDiscriminer, c’est traiter moins bien quelqu’un à cause de son origine, son sexe, son handicap ou sa religion.\nLes discriminations sont interdites par la loi.",
+  "parties": [
+    {
+      "titre": "Reconnaitre une discrimination",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Situation",
+            "Discrimination ?"
+          ],
+          "lignes": [
+            [
+              "refuser un enfant dans une équipe à cause de son origine",
+              "oui"
+            ],
+            [
+              "refuser un élève qui n’a pas sa tenue de sport",
+              "non, c’est une règle commune"
+            ],
+            [
+              "payer moins une femme pour le même travail",
+              "oui"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Refuser un enfant dans un club à cause de son handicap, c’est :",
+          "options": [
+            "une discrimination",
+            "une règle normale",
+            "un jeu"
+          ],
+          "reponse": "une discrimination",
+          "explication": "C’est interdit."
+        }
+      ]
+    },
+    {
+      "titre": "Agir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une petite remarque sur l’origine de quelqu’un est sans importance.",
+          "correction": "Ces remarques blessent et peuvent mener à l’exclusion. On les refuse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Être égaux en droits signifie :",
+      "options": [
+        "avoir les mêmes droits",
+        "être identiques",
+        "avoir le même âge"
+      ],
+      "reponse": "avoir les mêmes droits",
+      "explication": "Quelles que soient nos différences."
+    },
+    {
+      "consigne": "Les discriminations sont :",
+      "options": [
+        "interdites par la loi",
+        "autorisées",
+        "obligatoires"
+      ],
+      "reponse": "interdites par la loi",
+      "explication": "Elles sont punies."
+    },
+    {
+      "consigne": "Je suis témoin d’une discrimination. Je :",
+      "options": [
+        "en parle à un adulte",
+        "ris",
+        "ne fais rien"
+      ],
+      "reponse": "en parle à un adulte",
+      "explication": "Je refuse l’injustice."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "L’égalité dans la dignité",
+      "appui": "Égalité et discriminations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

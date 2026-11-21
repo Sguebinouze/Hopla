@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-CM1-INC-01",
+  "duree": 4,
+  "essentiel": "Une incivilité est un comportement qui ne respecte pas les règles de la vie en commun.\nJeter un papier par terre, cracher, tagger un mur : ce sont des incivilités.\nElles gênent tout le monde et dégradent les lieux partagés.",
+  "parties": [
+    {
+      "titre": "Reconnaitre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des incivilités",
+          "colonnes": [
+            "Incivilité",
+            "Conséquence"
+          ],
+          "lignes": [
+            [
+              "jeter un papier par terre",
+              "la rue est sale pour tous"
+            ],
+            [
+              "dégrader un banc",
+              "la commune doit payer la réparation"
+            ],
+            [
+              "faire du bruit la nuit",
+              "les voisins ne dorment pas"
+            ],
+            [
+              "bousculer sans s’excuser",
+              "la personne se sent méprisée"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Tagger le mur de l’école est :",
+          "options": [
+            "une incivilité",
+            "une œuvre autorisée",
+            "un geste de civisme"
+          ],
+          "reponse": "une incivilité",
+          "explication": "C’est une dégradation."
+        }
+      ]
+    },
+    {
+      "titre": "Qui paie ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’abimer un bien public ne coute rien à personne.",
+          "correction": "Les réparations sont payées avec l’argent de tous, par les impôts."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les incivilités :",
+      "options": [
+        "nuisent à la vie en commun",
+        "n’ont aucun effet",
+        "sont des politesses"
+      ],
+      "reponse": "nuisent à la vie en commun",
+      "explication": "Elles gênent tout le monde."
+    },
+    {
+      "consigne": "Réparer un banc dégradé est payé par :",
+      "options": [
+        "l’argent public, donc de tous",
+        "personne",
+        "le banc"
+      ],
+      "reponse": "l’argent public, donc de tous",
+      "explication": "Les impôts."
+    },
+    {
+      "consigne": "Cracher par terre est :",
+      "options": [
+        "une incivilité",
+        "une règle",
+        "un geste poli"
+      ],
+      "reponse": "une incivilité",
+      "explication": "Cela salit les lieux partagés."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 14,
+      "extrait": "identifier les incivilités et comprendre pourquoi elles nuisent à la vie en commun",
+      "appui": "Les incivilités"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

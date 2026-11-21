@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C4-3E-ALER-01",
+  "duree": 5,
+  "essentiel": "Un lanceur d’alerte révèle, de bonne foi et dans l’intérêt général, une menace ou une infraction grave dont il a connaissance.\nLa loi le protège contre les représailles, par exemple un licenciement.\nLes médias sociaux permettent de diffuser une alerte rapidement, mais aussi des rumeurs : il faut vérifier.",
+  "parties": [
+    {
+      "titre": "Le lanceur d’alerte",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une salariée découvre qu’une usine pollue une rivière. Elle le signale aux autorités : elle est lanceuse d’alerte."
+        },
+        {
+          "type": "question",
+          "consigne": "Un lanceur d’alerte agit :",
+          "options": [
+            "dans l’intérêt général",
+            "pour se venger",
+            "pour gagner de l’argent"
+          ],
+          "reponse": "dans l’intérêt général",
+          "explication": "De bonne foi."
+        }
+      ]
+    },
+    {
+      "titre": "Médias sociaux et débat",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Atouts et risques",
+          "colonnes": [
+            "Atouts",
+            "Risques"
+          ],
+          "lignes": [
+            [
+              "diffusion rapide d’une alerte",
+              "propagation de rumeurs"
+            ],
+            [
+              "parole donnée à tous",
+              "harcèlement, haine en ligne"
+            ],
+            [
+              "mobilisation citoyenne",
+              "bulles de filtre : on ne voit que ce qui confirme ses idées"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que toute révélation sur les réseaux est une alerte fiable.",
+          "correction": "Une alerte repose sur des faits vérifiables, transmis de bonne foi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La loi protège le lanceur d’alerte contre :",
+      "options": [
+        "les représailles",
+        "les impôts",
+        "les élections"
+      ],
+      "reponse": "les représailles",
+      "explication": "Par exemple un licenciement."
+    },
+    {
+      "consigne": "Une bulle de filtre :",
+      "options": [
+        "montre surtout des contenus qui confirment nos idées",
+        "protège des virus",
+        "filtre l’eau"
+      ],
+      "reponse": "montre surtout des contenus qui confirment nos idées",
+      "explication": "Les algorithmes sélectionnent pour nous."
+    },
+    {
+      "consigne": "Avant de relayer une alerte vue en ligne, on :",
+      "options": [
+        "vérifie les faits",
+        "la partage à tous",
+        "ajoute des détails"
+      ],
+      "reponse": "vérifie les faits",
+      "explication": "Pour ne pas propager une rumeur."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 24,
+      "extrait": "des lanceurs d’alerte prennent des risques",
+      "appui": "Lanceurs d’alerte et médias sociaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

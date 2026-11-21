@@ -1,0 +1,124 @@
+{
+  "competence": "EM-C4-4E-LIB-01",
+  "duree": 6,
+  "essentiel": "Les libertés individuelles s’exercent seul : liberté d’aller et venir, de conscience, d’expression.\nLes libertés collectives s’exercent à plusieurs : liberté de réunion, d’association, de manifestation, droit syndical.\nElles sont garanties par des textes : Déclaration de 1789, Constitution, Convention européenne des droits de l’homme.",
+  "parties": [
+    {
+      "titre": "Individuelles ou collectives",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Classer les libertés",
+          "colonnes": [
+            "Individuelles",
+            "Collectives"
+          ],
+          "lignes": [
+            [
+              "aller et venir",
+              "réunion"
+            ],
+            [
+              "conscience",
+              "association"
+            ],
+            [
+              "expression",
+              "manifestation"
+            ],
+            [
+              "respect de la vie privée",
+              "droit syndical"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La liberté de manifester est une liberté :",
+          "options": [
+            "collective",
+            "individuelle",
+            "religieuse"
+          ],
+          "reponse": "collective",
+          "explication": "Elle s’exerce à plusieurs."
+        }
+      ]
+    },
+    {
+      "titre": "Des textes qui protègent",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Textes",
+          "colonnes": [
+            "Texte",
+            "Date"
+          ],
+          "lignes": [
+            [
+              "Déclaration des droits de l’homme et du citoyen",
+              "1789"
+            ],
+            [
+              "Préambule de la Constitution",
+              "1946"
+            ],
+            [
+              "Convention européenne des droits de l’homme",
+              "1950"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les libertés existent sans être garanties.",
+          "correction": "Elles reposent sur des textes et sur des juges qui les font respecter."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Créer une association de quartier relève de la liberté :",
+      "options": [
+        "d’association",
+        "de conscience",
+        "d’aller et venir"
+      ],
+      "reponse": "d’association",
+      "explication": "Une liberté collective."
+    },
+    {
+      "consigne": "Voyager librement dans son pays relève de la liberté :",
+      "options": [
+        "d’aller et venir",
+        "de réunion",
+        "syndicale"
+      ],
+      "reponse": "d’aller et venir",
+      "explication": "Une liberté individuelle."
+    },
+    {
+      "consigne": "La Déclaration des droits de l’homme et du citoyen date de :",
+      "options": [
+        "1789",
+        "1905",
+        "1958"
+      ],
+      "reponse": "1789",
+      "explication": "Pendant la Révolution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 21,
+      "extrait": "L’État de droit et les libertés (9 heures)",
+      "appui": "Les libertés"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

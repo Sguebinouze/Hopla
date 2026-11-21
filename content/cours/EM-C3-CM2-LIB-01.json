@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C3-CM2-LIB-01",
+  "duree": 5,
+  "essentiel": "Les libertés fondamentales protègent chacun : liberté d’expression, d’opinion, d’association.\nLes droits fondamentaux garantissent l’éducation et la santé.\nCes libertés ont des limites : la liberté d’expression n’autorise ni l’insulte ni la menace.",
+  "parties": [
+    {
+      "titre": "Des libertés",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Libertés et limites",
+          "colonnes": [
+            "Liberté",
+            "Limite"
+          ],
+          "lignes": [
+            [
+              "expression",
+              "pas d’insulte, pas de menace, pas d’appel à la haine"
+            ],
+            [
+              "association",
+              "respecter la loi"
+            ],
+            [
+              "opinion",
+              "ne pas imposer son avis par la force"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La liberté d’expression permet :",
+          "options": [
+            "de dire ce que l’on pense sans insulter",
+            "d’insulter qui on veut",
+            "de menacer"
+          ],
+          "reponse": "de dire ce que l’on pense sans insulter",
+          "explication": "Elle a des limites."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi des limites ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une liberté sans limite protège mieux.",
+          "correction": "Sans limite, la liberté de l’un écraserait celle des autres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Créer un club avec des amis relève de la liberté :",
+      "options": [
+        "d’association",
+        "de la presse",
+        "religieuse"
+      ],
+      "reponse": "d’association",
+      "explication": "Se regrouper autour d’un projet."
+    },
+    {
+      "consigne": "Aller à l’école est :",
+      "options": [
+        "un droit fondamental",
+        "un privilège",
+        "interdit"
+      ],
+      "reponse": "un droit fondamental",
+      "explication": "Le droit à l’éducation."
+    },
+    {
+      "consigne": "Menacer quelqu’un en ligne est :",
+      "options": [
+        "interdit par la loi",
+        "protégé par la liberté d’expression",
+        "sans conséquence"
+      ],
+      "reponse": "interdit par la loi",
+      "explication": "C’est une limite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Libertés et droits fondamentaux",
+      "appui": "Libertés et droits fondamentaux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

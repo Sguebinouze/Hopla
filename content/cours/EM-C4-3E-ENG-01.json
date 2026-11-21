@@ -1,0 +1,117 @@
+{
+  "competence": "EM-C4-3E-ENG-01",
+  "duree": 6,
+  "essentiel": "Les citoyens votent à plusieurs élections : municipales, départementales, régionales, législatives, présidentielle, européennes. Ils peuvent aussi être consultés par référendum.\nOn peut s’engager de nombreuses façons : dans un parti, un syndicat, une association, ou au collège comme délégué.\nS’engager, c’est agir pour une cause au service des autres.",
+  "parties": [
+    {
+      "titre": "Les élections",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui élit-on ?",
+          "colonnes": [
+            "Élection",
+            "Élus",
+            "Durée du mandat"
+          ],
+          "lignes": [
+            [
+              "municipales",
+              "conseillers municipaux",
+              "6 ans"
+            ],
+            [
+              "législatives",
+              "députés",
+              "5 ans"
+            ],
+            [
+              "présidentielle",
+              "président de la République",
+              "5 ans"
+            ],
+            [
+              "européennes",
+              "députés européens",
+              "5 ans"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un référendum consiste à :",
+          "options": [
+            "demander aux citoyens de répondre par oui ou non à une question",
+            "élire un maire",
+            "nommer un ministre"
+          ],
+          "reponse": "demander aux citoyens de répondre par oui ou non à une question",
+          "explication": "Les citoyens décident directement."
+        }
+      ]
+    },
+    {
+      "titre": "Des formes d’engagement",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "S’engager au collège et ailleurs.",
+          "exemples": [
+            "être délégué de classe ou éco-délégué",
+            "participer au conseil de la vie collégienne",
+            "être bénévole dans une association",
+            "devenir pompier volontaire, à partir de 16 ans"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que s’engager, c’est seulement voter.",
+          "correction": "Le vote est essentiel, mais on s’engage aussi au quotidien dans des associations ou des projets."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les députés sont élus lors des élections :",
+      "options": [
+        "législatives",
+        "municipales",
+        "européennes"
+      ],
+      "reponse": "législatives",
+      "explication": "Pour 5 ans."
+    },
+    {
+      "consigne": "Un éco-délégué :",
+      "options": [
+        "mène des actions pour l’environnement au collège",
+        "note les élèves",
+        "remplace le principal"
+      ],
+      "reponse": "mène des actions pour l’environnement au collège",
+      "explication": "Un engagement scolaire."
+    },
+    {
+      "consigne": "S’engager dans une association, c’est :",
+      "options": [
+        "agir pour une cause",
+        "payer un impôt",
+        "voter une loi"
+      ],
+      "reponse": "agir pour une cause",
+      "explication": "Souvent comme bénévole."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 24,
+      "extrait": "Les acteurs du jeu démocratique et leur engagement (2) : l’engagement collectif (5 à 6 heures)",
+      "appui": "Voter et s’engager"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

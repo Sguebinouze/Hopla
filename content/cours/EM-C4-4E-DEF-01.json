@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C4-4E-DEF-01",
+  "duree": 6,
+  "essentiel": "Les forces de sécurité intérieure, police et gendarmerie, protègent les personnes et les biens. La sécurité civile et les pompiers portent secours.\nLes armées défendent le territoire et les intérêts de la France.\nDe nouveaux enjeux apparaissent : cyberattaques, guerre informationnelle, c’est-à-dire la manipulation de l’information.",
+  "parties": [
+    {
+      "titre": "Qui protège ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les acteurs",
+          "colonnes": [
+            "Acteur",
+            "Mission"
+          ],
+          "lignes": [
+            [
+              "police nationale",
+              "sécurité surtout en ville"
+            ],
+            [
+              "gendarmerie nationale",
+              "sécurité surtout en zone rurale ; statut militaire"
+            ],
+            [
+              "sécurité civile, pompiers",
+              "secours, incendies, catastrophes"
+            ],
+            [
+              "armées",
+              "défense du territoire, opérations extérieures"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La gendarmerie nationale :",
+          "options": [
+            "a un statut militaire",
+            "est une entreprise privée",
+            "vote les lois"
+          ],
+          "reponse": "a un statut militaire",
+          "explication": "Elle assure la sécurité surtout en zone rurale."
+        }
+      ]
+    },
+    {
+      "titre": "La guerre informationnelle",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Des États ou des groupes diffusent de fausses informations pour diviser une population ou influencer une élection."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la défense concerne seulement les militaires.",
+          "correction": "Chaque citoyen y participe : vérifier ses sources, se protéger en ligne, participer à la Journée défense et citoyenneté."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une cyberattaque vise :",
+      "options": [
+        "des systèmes informatiques",
+        "des forêts",
+        "des rivières"
+      ],
+      "reponse": "des systèmes informatiques",
+      "explication": "Pirater, bloquer, voler des données."
+    },
+    {
+      "consigne": "La Journée défense et citoyenneté concerne :",
+      "options": [
+        "tous les jeunes Français",
+        "seulement les militaires",
+        "les retraités"
+      ],
+      "reponse": "tous les jeunes Français",
+      "explication": "Elle informe sur la défense."
+    },
+    {
+      "consigne": "Lors d’un incendie de forêt, interviennent :",
+      "options": [
+        "les pompiers et la sécurité civile",
+        "les juges",
+        "les députés"
+      ],
+      "reponse": "les pompiers et la sécurité civile",
+      "explication": "Ils protègent les habitants."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 22,
+      "extrait": "Défendre le cadre démocratique : sécurité et défense nationale (9 heures)",
+      "appui": "Sécurité et défense"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

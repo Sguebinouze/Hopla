@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C4-5E-SOL-01",
+  "duree": 6,
+  "essentiel": "La solidarité nationale consiste à aider ceux qui en ont besoin grâce à l’effort de tous.\nElle passe par l’impôt, la Sécurité sociale, les aides des collectivités et l’action des associations.\nGrâce à la Sécurité sociale, une grande partie des frais médicaux est remboursée.",
+  "parties": [
+    {
+      "titre": "Les acteurs de la solidarité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui aide ?",
+          "colonnes": [
+            "Acteur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "État",
+              "aides au logement, bourses scolaires"
+            ],
+            [
+              "Sécurité sociale",
+              "remboursement des soins, retraites"
+            ],
+            [
+              "collectivités",
+              "cantine à tarif réduit, aide aux personnes âgées"
+            ],
+            [
+              "associations",
+              "distribution de repas, accompagnement"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une bourse scolaire est une forme de :",
+          "options": [
+            "solidarité nationale",
+            "récompense sportive",
+            "punition"
+          ],
+          "reponse": "solidarité nationale",
+          "explication": "Elle aide les familles aux revenus modestes."
+        }
+      ]
+    },
+    {
+      "titre": "Un principe",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la solidarité ne profite qu’aux plus pauvres.",
+          "correction": "Chacun peut en bénéficier : maladie, accident, retraite concernent tout le monde."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La solidarité nationale est financée surtout par :",
+      "options": [
+        "les impôts et les cotisations",
+        "les dons des entreprises seulement",
+        "les loteries"
+      ],
+      "reponse": "les impôts et les cotisations",
+      "explication": "L’effort de tous."
+    },
+    {
+      "consigne": "Une association caritative :",
+      "options": [
+        "aide des personnes en difficulté",
+        "vote les lois",
+        "lève l’impôt"
+      ],
+      "reponse": "aide des personnes en difficulté",
+      "explication": "Grâce à des bénévoles."
+    },
+    {
+      "consigne": "Être remboursé d’une consultation médicale, c’est grâce à :",
+      "options": [
+        "la Sécurité sociale",
+        "la mairie",
+        "l’école"
+      ],
+      "reponse": "la Sécurité sociale",
+      "explication": "L’Assurance maladie."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 20,
+      "extrait": "La solidarité et ses échelles (7-9 heures)",
+      "appui": "La solidarité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

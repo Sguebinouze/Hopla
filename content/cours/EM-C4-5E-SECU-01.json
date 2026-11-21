@@ -1,0 +1,110 @@
+{
+  "competence": "EM-C4-5E-SECU-01",
+  "duree": 5,
+  "essentiel": "Créée en 1945, la Sécurité sociale protège contre les risques de la vie : maladie, accident du travail, vieillesse, charges de famille.\nElle est financée surtout par les cotisations sur les salaires.\nUne consultation chez le médecin est remboursée en partie par l’Assurance maladie.",
+  "parties": [
+    {
+      "titre": "Les branches",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La Sécurité sociale",
+          "colonnes": [
+            "Branche",
+            "Risque couvert"
+          ],
+          "lignes": [
+            [
+              "maladie",
+              "soins, médicaments, hôpital"
+            ],
+            [
+              "accidents du travail",
+              "blessures au travail"
+            ],
+            [
+              "vieillesse",
+              "retraites"
+            ],
+            [
+              "famille",
+              "allocations familiales"
+            ],
+            [
+              "autonomie",
+              "personnes âgées ou handicapées dépendantes"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les retraites sont versées par la branche :",
+          "options": [
+            "vieillesse",
+            "famille",
+            "maladie"
+          ],
+          "reponse": "vieillesse",
+          "explication": "Elle couvre le risque de l’âge."
+        }
+      ]
+    },
+    {
+      "titre": "Un système solidaire",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Chacun cotise selon ses moyens et reçoit selon ses besoins. Les bien-portants paient pour les malades, les actifs pour les retraités."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les soins sont gratuits parce qu’on ne paie rien chez le médecin.",
+          "correction": "Ils sont financés par les cotisations de tous. On ne voit simplement pas toujours la facture."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Sécurité sociale a été créée en :",
+      "options": [
+        "1945",
+        "1905",
+        "1981"
+      ],
+      "reponse": "1945",
+      "explication": "À la Libération."
+    },
+    {
+      "consigne": "Les allocations familiales relèvent de la branche :",
+      "options": [
+        "famille",
+        "maladie",
+        "vieillesse"
+      ],
+      "reponse": "famille",
+      "explication": "Elles aident les familles."
+    },
+    {
+      "consigne": "La Sécurité sociale est financée surtout par :",
+      "options": [
+        "les cotisations",
+        "les amendes",
+        "la vente de médicaments"
+      ],
+      "reponse": "les cotisations",
+      "explication": "Prélevées sur les salaires."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 21,
+      "extrait": "La Sécurité sociale",
+      "appui": "La Sécurité sociale"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-CM1-NUM-01",
+  "duree": 5,
+  "essentiel": "En ligne, je respecte les autres comme dans la vie réelle.\nJe protège mes informations personnelles et je vérifie la source avant de partager.\nJe limite mon temps d’écran et mes usages inutiles : c’est la sobriété numérique.",
+  "parties": [
+    {
+      "titre": "Des règles en ligne",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les bons réflexes",
+          "colonnes": [
+            "Situation",
+            "Réflexe"
+          ],
+          "lignes": [
+            [
+              "on me demande mon adresse",
+              "je ne la donne pas"
+            ],
+            [
+              "une information étonnante",
+              "je vérifie qui l’a écrite"
+            ],
+            [
+              "un message blessant",
+              "je ne le partage pas et j’en parle à un adulte"
+            ],
+            [
+              "une vidéo de plus",
+              "je sais m’arrêter"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avant de partager une information, je :",
+          "options": [
+            "vérifie qui l’a écrite",
+            "la partage vite",
+            "ajoute des émojis"
+          ],
+          "reponse": "vérifie qui l’a écrite",
+          "explication": "La source dit si elle est fiable."
+        }
+      ]
+    },
+    {
+      "titre": "Respect en ligne",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un message méchant en ligne compte moins.",
+          "correction": "Il blesse autant. Le cyberharcèlement est puni par la loi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Mon mot de passe, je le donne :",
+      "options": [
+        "à personne, sauf mes parents",
+        "à mes amis",
+        "à un site inconnu"
+      ],
+      "reponse": "à personne, sauf mes parents",
+      "explication": "Il protège mes comptes."
+    },
+    {
+      "consigne": "La sobriété numérique consiste à :",
+      "options": [
+        "éviter les usages inutiles",
+        "acheter plus d’écrans",
+        "rester connecté tout le temps"
+      ],
+      "reponse": "éviter les usages inutiles",
+      "explication": "Les écrans consomment de l’énergie."
+    },
+    {
+      "consigne": "Un camarade reçoit des insultes en ligne. Je :",
+      "options": [
+        "en parle à un adulte",
+        "like les messages",
+        "ajoute un commentaire"
+      ],
+      "reponse": "en parle à un adulte",
+      "explication": "Le témoin peut agir."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 14,
+      "extrait": "Afin de développer un civisme numérique, s’appuyer sur la charte",
+      "appui": "Citoyen du numérique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

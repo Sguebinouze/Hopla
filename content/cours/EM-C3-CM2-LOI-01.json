@@ -1,0 +1,107 @@
+{
+  "competence": "EM-C3-CM2-LOI-01",
+  "duree": 6,
+  "essentiel": "Une loi peut être proposée par le gouvernement ou par des parlementaires.\nElle est débattue et votée par l’Assemblée nationale et le Sénat : c’est le Parlement.\nLe président de la République la promulgue, puis elle est publiée au Journal officiel.",
+  "parties": [
+    {
+      "titre": "Les étapes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Comment nait une loi",
+          "etapes": [
+            "Proposition : par le gouvernement ou par des députés ou sénateurs.",
+            "Débat et vote à l’Assemblée nationale.",
+            "Débat et vote au Sénat.",
+            "Promulgation par le président, publication au Journal officiel."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La loi est votée par :",
+          "options": [
+            "le Parlement",
+            "le maire",
+            "les juges"
+          ],
+          "reponse": "le Parlement",
+          "explication": "Assemblée nationale et Sénat."
+        }
+      ]
+    },
+    {
+      "titre": "Le Parlement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux assemblées",
+          "colonnes": [
+            "Assemblée",
+            "Membres",
+            "Élus par"
+          ],
+          "lignes": [
+            [
+              "Assemblée nationale",
+              "députés",
+              "les citoyens, directement"
+            ],
+            [
+              "Sénat",
+              "sénateurs",
+              "des élus locaux"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le président de la République écrit et vote seul les lois.",
+          "correction": "Ce sont les parlementaires qui votent la loi. Le président la promulgue."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les députés siègent :",
+      "options": [
+        "à l’Assemblée nationale",
+        "au Sénat",
+        "à la mairie"
+      ],
+      "reponse": "à l’Assemblée nationale",
+      "explication": "Ils sont élus directement."
+    },
+    {
+      "consigne": "Une loi entre en vigueur après sa publication au :",
+      "options": [
+        "Journal officiel",
+        "journal télévisé",
+        "bulletin scolaire"
+      ],
+      "reponse": "Journal officiel",
+      "explication": "Elle devient connue de tous."
+    },
+    {
+      "consigne": "Promulguer une loi, c’est :",
+      "options": [
+        "la signer pour la rendre applicable",
+        "la refuser",
+        "la proposer"
+      ],
+      "reponse": "la signer pour la rendre applicable",
+      "explication": "Rôle du président."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 15,
+      "extrait": "procédures générales d’élaboration de la loi",
+      "appui": "Comment nait une loi"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

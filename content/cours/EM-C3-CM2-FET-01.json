@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-CM2-FET-01",
+  "duree": 4,
+  "essentiel": "Le 14 juillet est la fête nationale depuis 1880.\nIl rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, en 1790.\nMarianne, femme coiffée d’un bonnet phrygien, représente la République.",
+  "parties": [
+    {
+      "titre": "Le 14 juillet",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux évènements",
+          "colonnes": [
+            "Date",
+            "Évènement"
+          ],
+          "lignes": [
+            [
+              "14 juillet 1789",
+              "prise de la Bastille"
+            ],
+            [
+              "14 juillet 1790",
+              "fête de la Fédération, réunion des Français"
+            ],
+            [
+              "1880",
+              "le 14 juillet devient fête nationale"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le 14 juillet devient fête nationale en :",
+          "options": [
+            "1880",
+            "1789",
+            "1958"
+          ],
+          "reponse": "1880",
+          "explication": "Sous la IIIe République."
+        }
+      ]
+    },
+    {
+      "titre": "Marianne",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le bonnet phrygien de Marianne est un symbole de liberté. Son visage figure sur les timbres et les pièces."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le 14 juillet célèbre seulement une bataille.",
+          "correction": "Il célèbre aussi l’unité des Français, avec la fête de la Fédération."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le bonnet de Marianne s’appelle :",
+      "options": [
+        "le bonnet phrygien",
+        "la couronne",
+        "le béret"
+      ],
+      "reponse": "le bonnet phrygien",
+      "explication": "Un symbole de liberté."
+    },
+    {
+      "consigne": "La prise de la Bastille date de :",
+      "options": [
+        "1789",
+        "1790",
+        "1880"
+      ],
+      "reponse": "1789",
+      "explication": "Le 14 juillet."
+    },
+    {
+      "consigne": "Le 14 juillet, on célèbre :",
+      "options": [
+        "la fête nationale",
+        "la fin d’une guerre",
+        "le premier jour de l’été"
+      ],
+      "reponse": "la fête nationale",
+      "explication": "Avec un défilé à Paris."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 16,
+      "extrait": "connaître la fête nationale du 14 juillet",
+      "appui": "Le 14 Juillet et Marianne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

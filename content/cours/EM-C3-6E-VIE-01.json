@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C3-6E-VIE-01",
+  "duree": 5,
+  "essentiel": "Chacun a droit au respect de sa vie privée et de son image.\nPublier la photo d’un camarade demande son accord, et celui de ses parents.\nSur internet, ces droits s’appliquent aussi.",
+  "parties": [
+    {
+      "titre": "Le droit à l’image",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Avant de publier",
+          "colonnes": [
+            "Situation",
+            "Ce qu’il faut"
+          ],
+          "lignes": [
+            [
+              "photo d’un ami",
+              "son accord et celui de ses parents"
+            ],
+            [
+              "vidéo d’un professeur",
+              "son accord"
+            ],
+            [
+              "photo de groupe en sortie",
+              "l’accord de chaque personne reconnaissable"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pour publier la photo d’un camarade, il faut :",
+          "options": [
+            "son accord",
+            "rien",
+            "qu’elle soit drôle"
+          ],
+          "reponse": "son accord",
+          "explication": "Et celui de ses parents."
+        }
+      ]
+    },
+    {
+      "titre": "La vie privée",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un message privé reste toujours privé.",
+          "correction": "Il peut être copié et partagé. On ne confie pas en ligne ce qu’on ne voudrait pas voir publié."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Diffuser la photo de quelqu’un sans son accord :",
+      "options": [
+        "porte atteinte à son droit à l’image",
+        "est toujours autorisé",
+        "n’a aucune conséquence"
+      ],
+      "reponse": "porte atteinte à son droit à l’image",
+      "explication": "C’est interdit."
+    },
+    {
+      "consigne": "La vie privée comprend :",
+      "options": [
+        "l’adresse, la santé, la famille",
+        "les notes publiques d’un match",
+        "la météo"
+      ],
+      "reponse": "l’adresse, la santé, la famille",
+      "explication": "Ce qui ne regarde que soi."
+    },
+    {
+      "consigne": "Un ami me demande de retirer une photo de lui. Je :",
+      "options": [
+        "la retire",
+        "la laisse",
+        "la partage davantage"
+      ],
+      "reponse": "la retire",
+      "explication": "Je respecte son droit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Avoir des droits en tant que personne et respecter ceux des autres : l’exemple du droit à la vie privée",
+      "appui": "Vie privée et numérique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

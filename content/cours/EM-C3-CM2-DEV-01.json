@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-CM2-DEV-01",
+  "duree": 5,
+  "essentiel": "Le citoyen a des droits, mais aussi des devoirs.\nIl respecte les lois, paie l’impôt, participe à la défense du pays et protège l’environnement.\nVoter est un droit, et aussi un devoir civique.",
+  "parties": [
+    {
+      "titre": "Les devoirs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Devoirs du citoyen",
+          "colonnes": [
+            "Devoir",
+            "Pourquoi"
+          ],
+          "lignes": [
+            [
+              "respecter les lois",
+              "vivre ensemble en sécurité"
+            ],
+            [
+              "payer l’impôt",
+              "financer écoles, hôpitaux, routes"
+            ],
+            [
+              "voter",
+              "choisir ses représentants"
+            ],
+            [
+              "protéger l’environnement",
+              "préserver le bien commun"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les impôts servent notamment à financer :",
+          "options": [
+            "les écoles et les hôpitaux",
+            "les vacances des élus seulement",
+            "rien"
+          ],
+          "reponse": "les écoles et les hôpitaux",
+          "explication": "Des services pour tous."
+        }
+      ]
+    },
+    {
+      "titre": "Droits et devoirs vont ensemble",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut réclamer ses droits sans respecter ses devoirs.",
+          "correction": "Les droits de chacun reposent sur le respect des devoirs par tous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Respecter la loi est :",
+      "options": [
+        "un devoir du citoyen",
+        "facultatif",
+        "réservé aux adultes célèbres"
+      ],
+      "reponse": "un devoir du citoyen",
+      "explication": "Pour tous."
+    },
+    {
+      "consigne": "L’impôt finance :",
+      "options": [
+        "les services publics",
+        "les jeux vidéo",
+        "les supermarchés"
+      ],
+      "reponse": "les services publics",
+      "explication": "École, santé, routes."
+    },
+    {
+      "consigne": "Protéger l’environnement est :",
+      "options": [
+        "un devoir de chacun",
+        "l’affaire des seuls scientifiques",
+        "interdit"
+      ],
+      "reponse": "un devoir de chacun",
+      "explication": "Le bien commun."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 15,
+      "extrait": "L’étude de plusieurs articles de la DDHC permet également de",
+      "appui": "Les devoirs du citoyen"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

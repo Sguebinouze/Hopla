@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C4-4E-DROIT-01",
+  "duree": 6,
+  "essentiel": "Dans un État de droit, l’État lui-même est soumis au droit.\nLes règles sont hiérarchisées : la Constitution est au sommet, puis les traités, les lois, puis les décrets.\nLa justice est indépendante : une loi contraire à la Constitution peut être censurée par le Conseil constitutionnel.",
+  "parties": [
+    {
+      "titre": "La hiérarchie des normes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Du sommet à la base",
+          "colonnes": [
+            "Niveau",
+            "Norme"
+          ],
+          "lignes": [
+            [
+              "1",
+              "Constitution"
+            ],
+            [
+              "2",
+              "traités internationaux"
+            ],
+            [
+              "3",
+              "lois votées par le Parlement"
+            ],
+            [
+              "4",
+              "décrets et arrêtés du gouvernement et des administrations"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une loi doit respecter :",
+          "options": [
+            "la Constitution",
+            "les décrets",
+            "les arrêtés municipaux"
+          ],
+          "reponse": "la Constitution",
+          "explication": "La Constitution est au sommet."
+        }
+      ]
+    },
+    {
+      "titre": "Contrôler le pouvoir",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Si une loi porte atteinte à un droit garanti par la Constitution, le Conseil constitutionnel peut l’annuler."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les dirigeants sont au-dessus des lois.",
+          "correction": "Dans un État de droit, tous, dirigeants compris, doivent respecter le droit."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le Conseil constitutionnel peut :",
+      "options": [
+        "censurer une loi contraire à la Constitution",
+        "élire le président",
+        "juger les vols"
+      ],
+      "reponse": "censurer une loi contraire à la Constitution",
+      "explication": "Il contrôle la conformité des lois."
+    },
+    {
+      "consigne": "Au sommet de la hiérarchie des normes se trouve :",
+      "options": [
+        "la Constitution",
+        "le décret",
+        "le règlement intérieur"
+      ],
+      "reponse": "la Constitution",
+      "explication": "Le texte fondamental."
+    },
+    {
+      "consigne": "Dans un État de droit, le gouvernement :",
+      "options": [
+        "doit respecter le droit",
+        "fait ce qu’il veut",
+        "juge les citoyens"
+      ],
+      "reponse": "doit respecter le droit",
+      "explication": "Personne n’est au-dessus des lois."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 22,
+      "extrait": "les libertés sont garanties par",
+      "appui": "L’État de droit"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

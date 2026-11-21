@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C4-3E-EUR-01",
+  "duree": 7,
+  "essentiel": "L’Union européenne a des institutions communes : le Parlement européen, élu par les citoyens, la Commission, le Conseil de l’UE et le Conseil européen.\nLa citoyenneté européenne s’ajoute à la nationalité : un citoyen européen qui habite en France peut voter aux élections municipales et européennes.\nLe Conseil de l’Europe, distinct de l’UE, défend les droits de l’homme avec la Cour européenne des droits de l’homme.",
+  "parties": [
+    {
+      "titre": "Les institutions de l’Union",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "colonnes": [
+            "Institution",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "Commission européenne",
+              "propose les lois européennes, veille à leur application"
+            ],
+            [
+              "Parlement européen",
+              "vote les lois avec le Conseil ; élu tous les 5 ans"
+            ],
+            [
+              "Conseil de l’UE",
+              "ministres des États ; vote les lois"
+            ],
+            [
+              "Conseil européen",
+              "chefs d’État et de gouvernement ; fixe les grandes orientations"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les députés européens sont élus :",
+          "options": [
+            "au suffrage universel direct, tous les 5 ans",
+            "par les présidents",
+            "par la Commission"
+          ],
+          "reponse": "au suffrage universel direct, tous les 5 ans",
+          "explication": "Par les citoyens de l’Union."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas confondre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On confond le Conseil de l’Europe et le Conseil européen.",
+          "correction": "Le Conseil de l’Europe rassemble plus de 40 États pour les droits de l’homme. Le Conseil européen est une institution de l’UE."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Cour européenne des droits de l’homme siège à :",
+      "options": [
+        "Strasbourg",
+        "Bruxelles",
+        "Paris"
+      ],
+      "reponse": "Strasbourg",
+      "explication": "Elle dépend du Conseil de l’Europe."
+    },
+    {
+      "consigne": "Les lois européennes sont proposées par :",
+      "options": [
+        "la Commission européenne",
+        "le Conseil de l’Europe",
+        "les maires"
+      ],
+      "reponse": "la Commission européenne",
+      "explication": "Elle a l’initiative."
+    },
+    {
+      "consigne": "Un Italien qui vit en France peut voter aux élections :",
+      "options": [
+        "municipales et européennes",
+        "présidentielles",
+        "législatives"
+      ],
+      "reponse": "municipales et européennes",
+      "explication": "Grâce à la citoyenneté européenne."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 23,
+      "extrait": "depuis l’après-guerre, la démocratie",
+      "appui": "Les institutions européennes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

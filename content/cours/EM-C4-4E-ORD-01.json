@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C4-4E-ORD-01",
+  "duree": 5,
+  "essentiel": "Les libertés ont des limites : celles des autres et la défense de l’ordre public, c’est-à-dire la sécurité, la tranquillité et la santé publiques.\nLa liberté d’expression ne permet ni l’injure, ni la diffamation, ni l’incitation à la haine.\nUne manifestation doit être déclarée ; elle peut être interdite en cas de danger grave.",
+  "parties": [
+    {
+      "titre": "Des limites fixées par la loi",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Libertés et limites",
+          "colonnes": [
+            "Liberté",
+            "Limite"
+          ],
+          "lignes": [
+            [
+              "expression",
+              "interdiction de l’injure, de la diffamation, de l’incitation à la haine"
+            ],
+            [
+              "manifestation",
+              "déclaration préalable, interdiction possible si trouble grave"
+            ],
+            [
+              "aller et venir",
+              "restrictions en cas de crise sanitaire ou de danger"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La diffamation consiste à :",
+          "options": [
+            "accuser publiquement quelqu’un d’un fait faux qui porte atteinte à son honneur",
+            "donner son avis",
+            "critiquer un film"
+          ],
+          "reponse": "accuser publiquement quelqu’un d’un fait faux qui porte atteinte à son honneur",
+          "explication": "Elle est punie par la loi."
+        }
+      ]
+    },
+    {
+      "titre": "Équilibre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que toute limite à une liberté est une atteinte à la démocratie.",
+          "correction": "En démocratie, les limites sont fixées par la loi et contrôlées par des juges indépendants."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’ordre public comprend :",
+      "options": [
+        "la sécurité, la tranquillité et la santé publiques",
+        "le rangement des classes",
+        "l’ordre alphabétique"
+      ],
+      "reponse": "la sécurité, la tranquillité et la santé publiques",
+      "explication": "Ce qui protège la vie collective."
+    },
+    {
+      "consigne": "Appeler à la haine contre un groupe est :",
+      "options": [
+        "interdit par la loi",
+        "protégé par la liberté d’expression",
+        "sans conséquence"
+      ],
+      "reponse": "interdit par la loi",
+      "explication": "C’est une limite."
+    },
+    {
+      "consigne": "Les limites aux libertés sont fixées par :",
+      "options": [
+        "la loi",
+        "chaque citoyen",
+        "le hasard"
+      ],
+      "reponse": "la loi",
+      "explication": "Et contrôlées par les juges."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 22,
+      "extrait": "nos libertés sont toutefois encadrées",
+      "appui": "Libertés et ordre public"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

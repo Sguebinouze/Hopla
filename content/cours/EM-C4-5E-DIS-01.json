@@ -1,0 +1,112 @@
+{
+  "competence": "EM-C4-5E-DIS-01",
+  "duree": 6,
+  "essentiel": "Une discrimination est un traitement défavorable fondé sur un critère interdit par la loi : origine, sexe, handicap, religion, orientation sexuelle…\nC’est un délit, puni par la loi.\nLe racisme, l’antisémitisme et le harcèlement sont des atteintes aux personnes, elles aussi punies.",
+  "parties": [
+    {
+      "titre": "Des atteintes punies",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Définitions",
+          "colonnes": [
+            "Atteinte",
+            "Définition"
+          ],
+          "lignes": [
+            [
+              "racisme",
+              "hostilité envers une personne en raison de son origine"
+            ],
+            [
+              "antisémitisme",
+              "hostilité envers les Juifs"
+            ],
+            [
+              "harcèlement",
+              "agissements répétés qui dégradent la vie de la victime"
+            ],
+            [
+              "discrimination",
+              "traitement défavorable fondé sur un critère interdit"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Refuser un emploi à quelqu’un à cause de son nom d’origine étrangère est :",
+          "options": [
+            "une discrimination punie par la loi",
+            "un choix libre",
+            "une simple préférence"
+          ],
+          "reponse": "une discrimination punie par la loi",
+          "explication": "L’origine est un critère interdit."
+        }
+      ]
+    },
+    {
+      "titre": "Recours",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Vers qui se tourner ?",
+          "exemples": [
+            "un adulte de l’établissement",
+            "le 3018, contre le harcèlement",
+            "le Défenseur des droits",
+            "la police ou la gendarmerie pour porter plainte"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le harcèlement en ligne n’est pas puni.",
+          "correction": "Le cyberharcèlement est un délit, même quand chacun n’a envoyé qu’un seul message."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’antisémitisme désigne l’hostilité envers :",
+      "options": [
+        "les Juifs",
+        "les étrangers en général",
+        "les femmes"
+      ],
+      "reponse": "les Juifs",
+      "explication": "C’est un délit."
+    },
+    {
+      "consigne": "Une discrimination repose sur :",
+      "options": [
+        "un critère interdit par la loi",
+        "une règle commune à tous",
+        "les résultats scolaires"
+      ],
+      "reponse": "un critère interdit par la loi",
+      "explication": "Origine, sexe, handicap…"
+    },
+    {
+      "consigne": "Le 3018 est un numéro contre :",
+      "options": [
+        "le harcèlement",
+        "les incendies",
+        "les accidents de la route"
+      ],
+      "reponse": "le harcèlement",
+      "explication": "Il est gratuit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 20,
+      "extrait": "À partir de l’expression de stéréotypes ou de préjugés,",
+      "appui": "Discriminations et harcèlement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

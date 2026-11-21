@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C4-4E-ENV-01",
+  "duree": 5,
+  "essentiel": "Chacun a le droit de vivre dans un environnement équilibré et sain. Ce droit figure dans la Charte de l’environnement, intégrée à la Constitution en 2005.\nLa police de l’environnement contrôle le respect de ce droit.\nLes inspecteurs de l’Office français de la biodiversité contrôlent par exemple les rejets d’une usine dans une rivière.",
+  "parties": [
+    {
+      "titre": "Qui contrôle ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La police de l’environnement",
+          "colonnes": [
+            "Acteur",
+            "Exemple de mission"
+          ],
+          "lignes": [
+            [
+              "Office français de la biodiversité",
+              "contrôler les rejets dans les rivières, lutter contre le braconnage"
+            ],
+            [
+              "gendarmerie",
+              "enquêter sur les dépôts sauvages de déchets"
+            ],
+            [
+              "inspecteurs des installations classées",
+              "contrôler les usines à risque"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un dépôt sauvage de déchets dans une forêt est :",
+          "options": [
+            "une infraction punie",
+            "autorisé",
+            "sans importance"
+          ],
+          "reponse": "une infraction punie",
+          "explication": "La police de l’environnement peut sanctionner."
+        }
+      ]
+    },
+    {
+      "titre": "Un droit et un devoir",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que protéger l’environnement est seulement l’affaire de l’État.",
+          "correction": "La Charte fixe aussi un devoir pour chaque personne : préserver et améliorer l’environnement."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La Charte de l’environnement fait partie :",
+      "options": [
+        "de la Constitution",
+        "du règlement intérieur",
+        "du Code de la route"
+      ],
+      "reponse": "de la Constitution",
+      "explication": "Depuis 2005."
+    },
+    {
+      "consigne": "L’Office français de la biodiversité :",
+      "options": [
+        "protège les milieux naturels et contrôle les atteintes",
+        "vote les lois",
+        "gère les écoles"
+      ],
+      "reponse": "protège les milieux naturels et contrôle les atteintes",
+      "explication": "C’est une police de l’environnement."
+    },
+    {
+      "consigne": "Préserver l’environnement est :",
+      "options": [
+        "un devoir de chacun",
+        "facultatif",
+        "réservé aux scientifiques"
+      ],
+      "reponse": "un devoir de chacun",
+      "explication": "Selon la Charte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 23,
+      "extrait": "la police de l’environnement assure la protection du droit de chacun",
+      "appui": "La police de l’environnement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

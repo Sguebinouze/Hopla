@@ -1,0 +1,106 @@
+{
+  "competence": "EM-C4-5E-IMP-01",
+  "duree": 5,
+  "essentiel": "L’impôt est une contribution obligatoire versée à l’État et aux collectivités.\nIl finance les services publics : écoles, hôpitaux, routes, police, justice. Il permet aussi la solidarité.\nLa TVA, payée sur les achats, est l’impôt qui rapporte le plus à l’État.",
+  "parties": [
+    {
+      "titre": "Des impôts",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques impôts",
+          "colonnes": [
+            "Impôt",
+            "Qui paie ?"
+          ],
+          "lignes": [
+            [
+              "TVA",
+              "tout acheteur, sur le prix d’un produit"
+            ],
+            [
+              "impôt sur le revenu",
+              "les ménages, selon leurs revenus"
+            ],
+            [
+              "taxe foncière",
+              "les propriétaires"
+            ],
+            [
+              "impôt sur les sociétés",
+              "les entreprises, sur leurs bénéfices"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Quand un adolescent achète un livre, il paie :",
+          "options": [
+            "la TVA",
+            "l’impôt sur le revenu",
+            "la taxe foncière"
+          ],
+          "reponse": "la TVA",
+          "explication": "Elle est incluse dans le prix."
+        }
+      ]
+    },
+    {
+      "titre": "Un impôt progressif",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’impôt sur le revenu est progressif : plus les revenus sont élevés, plus la part payée est importante."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que seuls les adultes qui travaillent paient des impôts.",
+          "correction": "Tout le monde paie la TVA sur ses achats, même les enfants."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’impôt sert à financer :",
+      "options": [
+        "les services publics",
+        "des entreprises privées seulement",
+        "rien"
+      ],
+      "reponse": "les services publics",
+      "explication": "École, santé, sécurité."
+    },
+    {
+      "consigne": "Un impôt progressif :",
+      "options": [
+        "augmente avec les revenus",
+        "est le même pour tous",
+        "diminue avec les revenus"
+      ],
+      "reponse": "augmente avec les revenus",
+      "explication": "Comme l’impôt sur le revenu."
+    },
+    {
+      "consigne": "L’impôt est :",
+      "options": [
+        "obligatoire",
+        "facultatif",
+        "réservé aux riches"
+      ],
+      "reponse": "obligatoire",
+      "explication": "Une contribution de chacun."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 21,
+      "extrait": "l’impôt traduit la participation",
+      "appui": "L’impôt et la solidarité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

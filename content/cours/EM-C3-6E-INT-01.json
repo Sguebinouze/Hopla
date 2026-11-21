@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-6E-INT-01",
+  "duree": 5,
+  "essentiel": "L’intérêt général est ce qui profite à l’ensemble de la société, pas seulement à quelques-uns.\nIl prend aussi en compte les générations futures.\nUne piste cyclable peut gêner des automobilistes, mais elle sert à tous et protège l’environnement.",
+  "parties": [
+    {
+      "titre": "Intérêts particuliers et intérêt général",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Une piste cyclable",
+          "colonnes": [
+            "Point de vue",
+            "Intérêt"
+          ],
+          "lignes": [
+            [
+              "automobiliste",
+              "moins de place sur la route"
+            ],
+            [
+              "cycliste",
+              "plus de sécurité"
+            ],
+            [
+              "société",
+              "moins de pollution, meilleure santé"
+            ],
+            [
+              "générations futures",
+              "un air plus sain"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’intérêt général prend en compte :",
+          "options": [
+            "toute la société, y compris les générations futures",
+            "les plus riches",
+            "une seule personne"
+          ],
+          "reponse": "toute la société, y compris les générations futures",
+          "explication": "Il pense aussi à demain."
+        }
+      ]
+    },
+    {
+      "titre": "Débattre",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que l’intérêt général est la somme des intérêts de chacun.",
+          "correction": "Il faut parfois arbitrer : un projet peut gêner certains et servir à tous."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Construire un hôpital sert :",
+      "options": [
+        "l’intérêt général",
+        "un intérêt particulier",
+        "personne"
+      ],
+      "reponse": "l’intérêt général",
+      "explication": "Toute la population."
+    },
+    {
+      "consigne": "Les générations futures sont :",
+      "options": [
+        "les personnes qui vivront plus tard",
+        "les personnes âgées",
+        "les enfants d’aujourd’hui seulement"
+      ],
+      "reponse": "les personnes qui vivront plus tard",
+      "explication": "Ceux qui viendront après nous."
+    },
+    {
+      "consigne": "Qui décide de l’intérêt général en démocratie ?",
+      "options": [
+        "les élus, après débat",
+        "une seule entreprise",
+        "le hasard"
+      ],
+      "reponse": "les élus, après débat",
+      "explication": "Ils arbitrent entre les intérêts."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 18,
+      "extrait": "l’intérêt général est l’intérêt commun de tous les membres de la société",
+      "appui": "L’intérêt général"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

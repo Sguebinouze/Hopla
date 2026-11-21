@@ -1,0 +1,85 @@
+{
+  "competence": "EM-C3-CM1-DIG-01",
+  "duree": 4,
+  "essentiel": "Chaque être humain a une dignité : il mérite le respect, quelle que soit sa situation.\nOn ne se moque pas d’une personne sans abri, malade ou en difficulté.\nRespecter la dignité, c’est traiter chacun comme une personne, jamais comme un objet.",
+  "parties": [
+    {
+      "titre": "Respecter chacun",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des situations.",
+          "exemples": [
+            "Je dis bonjour à l’agent d’entretien.",
+            "Je ne filme pas une personne en difficulté pour me moquer.",
+            "Je parle poliment à une personne sans abri."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Filmer une personne qui tombe pour se moquer, c’est :",
+          "options": [
+            "une atteinte à sa dignité",
+            "drôle",
+            "autorisé"
+          ],
+          "reponse": "une atteinte à sa dignité",
+          "explication": "On ne la respecte pas."
+        }
+      ]
+    },
+    {
+      "titre": "Un principe de la loi",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que le respect se mérite par l’argent ou la réussite.",
+          "correction": "La dignité appartient à chaque être humain, sans condition."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une personne sans abri a :",
+      "options": [
+        "la même dignité que tous",
+        "moins de droits",
+        "aucun droit"
+      ],
+      "reponse": "la même dignité que tous",
+      "explication": "Chaque être humain."
+    },
+    {
+      "consigne": "Respecter la dignité, c’est :",
+      "options": [
+        "traiter chacun comme une personne",
+        "se moquer",
+        "ignorer"
+      ],
+      "reponse": "traiter chacun comme une personne",
+      "explication": "Jamais comme un objet."
+    },
+    {
+      "consigne": "La dignité dépend :",
+      "options": [
+        "de rien : chacun l’a",
+        "de l’argent",
+        "des vêtements"
+      ],
+      "reponse": "de rien : chacun l’a",
+      "explication": "Elle est la même pour tous."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 14,
+      "extrait": "comprendre ce qu’implique le principe de dignité de la personne humaine",
+      "appui": "La dignité humaine"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

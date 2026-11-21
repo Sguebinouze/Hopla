@@ -1,0 +1,124 @@
+{
+  "competence": "EM-C4-4E-JUS-01",
+  "duree": 7,
+  "essentiel": "La justice règle les conflits et punit les infractions. Elle est indépendante des autres pouvoirs.\nToute personne poursuivie est présumée innocente jusqu’à sa condamnation et a droit à un avocat.\nLes mineurs sont jugés par une justice spéciale, qui privilégie l’éducation : juge des enfants, tribunal pour enfants.",
+  "parties": [
+    {
+      "titre": "L’organisation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Juridictions pénales",
+          "colonnes": [
+            "Juridiction",
+            "Juge"
+          ],
+          "lignes": [
+            [
+              "tribunal de police",
+              "les contraventions"
+            ],
+            [
+              "tribunal correctionnel",
+              "les délits"
+            ],
+            [
+              "cour d’assises",
+              "les crimes"
+            ],
+            [
+              "tribunal pour enfants",
+              "les mineurs"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un vol est un délit. Il est jugé par :",
+          "options": [
+            "le tribunal correctionnel",
+            "la cour d’assises",
+            "le conseil municipal"
+          ],
+          "reponse": "le tribunal correctionnel",
+          "explication": "Les délits relèvent du correctionnel."
+        }
+      ]
+    },
+    {
+      "titre": "Les droits des justiciables",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Garanties",
+          "colonnes": [
+            "Droit",
+            "Contenu"
+          ],
+          "lignes": [
+            [
+              "présomption d’innocence",
+              "innocent tant que la culpabilité n’est pas prouvée"
+            ],
+            [
+              "droit à un avocat",
+              "être défendu"
+            ],
+            [
+              "droit de faire appel",
+              "être rejugé par une autre juridiction"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une personne arrêtée est forcément coupable.",
+          "correction": "Seul un jugement peut établir la culpabilité."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un crime, comme un meurtre, est jugé par :",
+      "options": [
+        "la cour d’assises",
+        "le tribunal de police",
+        "le juge des enfants seulement"
+      ],
+      "reponse": "la cour d’assises",
+      "explication": "Avec des jurés citoyens."
+    },
+    {
+      "consigne": "La présomption d’innocence signifie :",
+      "options": [
+        "être considéré innocent jusqu’au jugement",
+        "être toujours innocent",
+        "ne pas être jugé"
+      ],
+      "reponse": "être considéré innocent jusqu’au jugement",
+      "explication": "La preuve revient à l’accusation."
+    },
+    {
+      "consigne": "La justice des mineurs privilégie :",
+      "options": [
+        "l’éducation",
+        "la sanction la plus sévère",
+        "l’absence de règles"
+      ],
+      "reponse": "l’éducation",
+      "explication": "Pour aider le mineur à changer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 22,
+      "extrait": "l’indépendance de la justice est une",
+      "appui": "La justice"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

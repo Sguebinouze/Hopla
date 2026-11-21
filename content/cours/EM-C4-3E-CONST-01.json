@@ -1,0 +1,123 @@
+{
+  "competence": "EM-C4-3E-CONST-01",
+  "duree": 7,
+  "essentiel": "La Constitution de 1958 fonde la Ve République. Elle garantit les droits et libertés et organise la séparation des pouvoirs.\nSon article 1 affirme que la France est une République indivisible, laïque, démocratique et sociale.\nElle a évolué : depuis 1962, le président est élu au suffrage universel direct ; depuis 2000, son mandat dure 5 ans.",
+  "parties": [
+    {
+      "titre": "La séparation des pouvoirs",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois pouvoirs",
+          "colonnes": [
+            "Pouvoir",
+            "Qui l’exerce ?"
+          ],
+          "lignes": [
+            [
+              "législatif : faire les lois",
+              "Parlement : Assemblée nationale et Sénat"
+            ],
+            [
+              "exécutif : appliquer les lois",
+              "président de la République et gouvernement"
+            ],
+            [
+              "judiciaire : juger",
+              "magistrats indépendants"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pouvoir législatif appartient :",
+          "options": [
+            "au Parlement",
+            "au président seul",
+            "aux juges"
+          ],
+          "reponse": "au Parlement",
+          "explication": "Il vote les lois."
+        }
+      ]
+    },
+    {
+      "titre": "Une Constitution qui évolue",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1958,
+              "date": "1958",
+              "evenement": "Adoption par référendum."
+            },
+            {
+              "annee": 1962,
+              "date": "1962",
+              "evenement": "Élection du président au suffrage universel direct."
+            },
+            {
+              "annee": 2000,
+              "date": "2000",
+              "evenement": "Quinquennat."
+            },
+            {
+              "annee": 2005,
+              "date": "2005",
+              "evenement": "Charte de l’environnement."
+            }
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Constitution est figée depuis 1958.",
+          "correction": "Elle a été révisée de nombreuses fois, par le Parlement réuni en Congrès ou par référendum."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La séparation des pouvoirs sert à :",
+      "options": [
+        "éviter qu’un seul pouvoir décide de tout",
+        "supprimer les élections",
+        "renforcer le roi"
+      ],
+      "reponse": "éviter qu’un seul pouvoir décide de tout",
+      "explication": "Idée de Montesquieu."
+    },
+    {
+      "consigne": "Le président est élu pour :",
+      "options": [
+        "5 ans",
+        "7 ans",
+        "4 ans"
+      ],
+      "reponse": "5 ans",
+      "explication": "Depuis le quinquennat."
+    },
+    {
+      "consigne": "La Constitution de la Ve République date de :",
+      "options": [
+        "1958",
+        "1789",
+        "1946"
+      ],
+      "reponse": "1958",
+      "explication": "Adoptée par référendum."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 23,
+      "extrait": "Les règles du jeu démocratique (6 à 8 heures)",
+      "appui": "La Constitution de la Ve République"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

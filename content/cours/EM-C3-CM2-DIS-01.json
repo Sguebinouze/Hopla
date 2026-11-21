@@ -1,0 +1,111 @@
+{
+  "competence": "EM-C3-CM2-DIS-01",
+  "duree": 5,
+  "essentiel": "Le racisme, le sexisme et le harcèlement sont des atteintes aux personnes.\nIls sont punis par la loi.\nRefuser un logement à quelqu’un à cause de son origine est une discrimination interdite.",
+  "parties": [
+    {
+      "titre": "Des atteintes punies",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Reconnaitre",
+          "colonnes": [
+            "Atteinte",
+            "Définition"
+          ],
+          "lignes": [
+            [
+              "racisme",
+              "mépriser ou rejeter quelqu’un à cause de son origine"
+            ],
+            [
+              "sexisme",
+              "mépriser ou rejeter quelqu’un à cause de son sexe"
+            ],
+            [
+              "harcèlement",
+              "agresser quelqu’un de façon répétée"
+            ],
+            [
+              "discrimination",
+              "traiter quelqu’un moins bien pour l’un de ces motifs"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "« Les filles sont nulles en maths » est :",
+          "options": [
+            "un propos sexiste",
+            "une vérité",
+            "une blague sans conséquence"
+          ],
+          "reponse": "un propos sexiste",
+          "explication": "C’est un préjugé."
+        }
+      ]
+    },
+    {
+      "titre": "Agir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Des recours.",
+          "exemples": [
+            "en parler à un adulte de confiance",
+            "le 3018 contre le harcèlement",
+            "le Défenseur des droits, qui aide les victimes de discriminations"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une moquerie raciste « pour rire » n’est pas grave.",
+          "correction": "Elle blesse et peut être punie. L’intention de rire ne l’excuse pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le racisme est :",
+      "options": [
+        "puni par la loi",
+        "autorisé",
+        "une opinion comme une autre"
+      ],
+      "reponse": "puni par la loi",
+      "explication": "C’est un délit."
+    },
+    {
+      "consigne": "Le Défenseur des droits aide :",
+      "options": [
+        "les victimes de discriminations",
+        "les candidats aux élections",
+        "les sportifs"
+      ],
+      "reponse": "les victimes de discriminations",
+      "explication": "Une autorité indépendante."
+    },
+    {
+      "consigne": "Exclure une fille d’un jeu parce qu’elle est une fille, c’est :",
+      "options": [
+        "du sexisme",
+        "une règle du jeu",
+        "normal"
+      ],
+      "reponse": "du sexisme",
+      "explication": "Un rejet à cause du sexe."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 17,
+      "extrait": "faire reconnaitre les atteintes aux personnes",
+      "appui": "Lutter contre les discriminations"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-6E-TRAC-01",
+  "duree": 5,
+  "essentiel": "Tout ce que je publie ou cherche en ligne laisse des traces numériques. Une photo publiée peut circuler longtemps, même supprimée.\nJe protège mes données personnelles : nom, adresse, photos, mots de passe.\nEn France, avant 15 ans, l’inscription sur un réseau social demande l’accord d’un parent : c’est la majorité numérique.",
+  "parties": [
+    {
+      "titre": "Des traces",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Traces et protections",
+          "colonnes": [
+            "Trace",
+            "Protection"
+          ],
+          "lignes": [
+            [
+              "photos publiées",
+              "compte privé, publier peu"
+            ],
+            [
+              "recherches",
+              "navigation privée, refuser les cookies inutiles"
+            ],
+            [
+              "position",
+              "désactiver la géolocalisation"
+            ],
+            [
+              "mots de passe",
+              "longs, différents, jamais partagés"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une photo supprimée d’un réseau social :",
+          "options": [
+            "peut avoir été copiée et continuer à circuler",
+            "disparait toujours partout",
+            "n’a jamais existé"
+          ],
+          "reponse": "peut avoir été copiée et continuer à circuler",
+          "explication": "Internet n’oublie pas."
+        }
+      ]
+    },
+    {
+      "titre": "La majorité numérique",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit qu’on peut s’inscrire seul sur tous les réseaux sociaux à 11 ans.",
+          "correction": "Avant 15 ans, l’accord d’un parent est demandé en France."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une donnée personnelle est par exemple :",
+      "options": [
+        "mon adresse",
+        "la capitale de la France",
+        "la météo"
+      ],
+      "reponse": "mon adresse",
+      "explication": "Elle permet de m’identifier."
+    },
+    {
+      "consigne": "La majorité numérique est fixée à :",
+      "options": [
+        "15 ans",
+        "18 ans",
+        "10 ans"
+      ],
+      "reponse": "15 ans",
+      "explication": "En France."
+    },
+    {
+      "consigne": "Pour limiter mes traces, je peux :",
+      "options": [
+        "désactiver la géolocalisation",
+        "tout publier",
+        "partager mon mot de passe"
+      ],
+      "reponse": "désactiver la géolocalisation",
+      "explication": "Moins de données diffusées."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 19,
+      "extrait": "majorité numérique, données personnelles, traces numériques",
+      "appui": "Traces et majorité numérique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

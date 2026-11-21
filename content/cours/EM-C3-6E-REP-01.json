@@ -1,0 +1,116 @@
+{
+  "competence": "EM-C3-6E-REP-01",
+  "duree": 6,
+  "essentiel": "En démocratie, des représentants élus portent la parole de ceux qui les ont choisis.\nAu collège, les élèves élisent deux délégués de classe. Les citoyens élisent leurs conseillers municipaux, leurs députés, leurs députés européens.\nUn représentant rend compte de son action à ceux qu’il représente.",
+  "parties": [
+    {
+      "titre": "Du délégué au député européen",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des représentants",
+          "colonnes": [
+            "Représentant",
+            "Élu par",
+            "Où ?"
+          ],
+          "lignes": [
+            [
+              "délégué de classe",
+              "les élèves de la classe",
+              "conseil de classe"
+            ],
+            [
+              "conseiller municipal",
+              "les habitants de la commune",
+              "conseil municipal"
+            ],
+            [
+              "député",
+              "les citoyens d’une circonscription",
+              "Assemblée nationale"
+            ],
+            [
+              "député européen",
+              "les citoyens de l’Union",
+              "Parlement européen"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le délégué de classe :",
+          "options": [
+            "porte la parole des élèves",
+            "décide seul des notes",
+            "remplace le professeur"
+          ],
+          "reponse": "porte la parole des élèves",
+          "explication": "Il représente sa classe."
+        }
+      ]
+    },
+    {
+      "titre": "Le rôle du délégué",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Être délégué",
+          "etapes": [
+            "Écouter les avis de la classe.",
+            "Les présenter au conseil de classe.",
+            "Rendre compte à la classe de ce qui a été dit."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le délégué défend seulement ses amis.",
+          "correction": "Il représente tous les élèves de la classe."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les députés européens siègent au :",
+      "options": [
+        "Parlement européen",
+        "Sénat",
+        "conseil municipal"
+      ],
+      "reponse": "Parlement européen",
+      "explication": "À Strasbourg et Bruxelles."
+    },
+    {
+      "consigne": "Rendre compte, c’est :",
+      "options": [
+        "expliquer ce qu’on a fait à ceux qu’on représente",
+        "se taire",
+        "décider seul"
+      ],
+      "reponse": "expliquer ce qu’on a fait à ceux qu’on représente",
+      "explication": "Le représentant informe."
+    },
+    {
+      "consigne": "Combien de délégués par classe au collège ?",
+      "options": [
+        "2",
+        "1",
+        "5"
+      ],
+      "reponse": "2",
+      "explication": "Élus par les élèves."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 18,
+      "extrait": "Représenter les autres et servir l’intérêt général (5 à 6 heures)",
+      "appui": "Représenter les autres"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

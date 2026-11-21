@@ -1,0 +1,90 @@
+{
+  "competence": "EM-C3-CM1-FRA-01",
+  "duree": 5,
+  "essentiel": "La fraternité est une valeur de la République : elle invite à l’entraide et à la solidarité.\nL’empathie, c’est comprendre ce que ressent l’autre.\nDans un débat, je respecte ceux qui ne pensent pas comme moi.",
+  "parties": [
+    {
+      "titre": "L’empathie",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Mon camarade est triste après une mauvaise note. Je comprends ce qu’il ressent, et je l’aide."
+        },
+        {
+          "type": "question",
+          "consigne": "Comprendre ce que ressent l’autre, c’est :",
+          "options": [
+            "l’empathie",
+            "la colère",
+            "l’indifférence"
+          ],
+          "reponse": "l’empathie",
+          "explication": "Se mettre à sa place."
+        }
+      ]
+    },
+    {
+      "titre": "Débattre avec respect",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les règles du débat",
+          "etapes": [
+            "J’écoute jusqu’au bout.",
+            "Je lève la main pour parler.",
+            "Je donne mon avis avec une raison.",
+            "Je critique les idées, pas les personnes."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que celui qui crie le plus fort a raison.",
+          "correction": "Ce sont les arguments qui comptent, pas la force de la voix."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La fraternité invite à :",
+      "options": [
+        "l’entraide",
+        "la compétition",
+        "l’indifférence"
+      ],
+      "reponse": "l’entraide",
+      "explication": "Elle relie les citoyens."
+    },
+    {
+      "consigne": "Dans un débat, on critique :",
+      "options": [
+        "les idées",
+        "les personnes",
+        "les vêtements"
+      ],
+      "reponse": "les idées",
+      "explication": "On respecte chacun."
+    },
+    {
+      "consigne": "Un ami est triste. Faire preuve d’empathie, c’est :",
+      "options": [
+        "essayer de comprendre ce qu’il ressent",
+        "se moquer",
+        "partir"
+      ],
+      "reponse": "essayer de comprendre ce qu’il ressent",
+      "explication": "Se mettre à sa place."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Comment faire société",
+      "appui": "Fraternité et empathie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

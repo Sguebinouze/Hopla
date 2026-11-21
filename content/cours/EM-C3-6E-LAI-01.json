@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C3-6E-LAI-01",
+  "duree": 6,
+  "essentiel": "La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire.\nL’État est neutre : il ne reconnait et ne finance aucun culte, depuis la loi de 1905.\nÀ l’école, la laïcité protège les élèves de toute pression religieuse ou politique.",
+  "parties": [
+    {
+      "titre": "Trois principes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La laïcité",
+          "colonnes": [
+            "Principe",
+            "Ce qu’il signifie"
+          ],
+          "lignes": [
+            [
+              "liberté de conscience",
+              "croire, ne pas croire, changer de religion"
+            ],
+            [
+              "séparation",
+              "l’État et les religions sont indépendants"
+            ],
+            [
+              "égalité",
+              "tous les citoyens sont égaux, quelle que soit leur croyance"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La loi de 1905 :",
+          "options": [
+            "sépare les Églises et l’État",
+            "crée l’école obligatoire",
+            "donne le droit de vote aux femmes"
+          ],
+          "reponse": "sépare les Églises et l’État",
+          "explication": "L’État ne finance aucun culte."
+        }
+      ]
+    },
+    {
+      "titre": "À l’école",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Depuis 2004, les élèves des écoles, collèges et lycées publics ne portent pas de signes religieux ostensibles. Les personnels, eux, sont neutres."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la laïcité interdit les religions dans la société.",
+          "correction": "Chacun peut pratiquer sa religion librement, dans le respect de la loi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La neutralité de l’État signifie qu’il :",
+      "options": [
+        "ne favorise aucune religion",
+        "interdit toutes les religions",
+        "impose une religion"
+      ],
+      "reponse": "ne favorise aucune religion",
+      "explication": "Il traite tous les citoyens de façon égale."
+    },
+    {
+      "consigne": "La liberté de conscience permet :",
+      "options": [
+        "de croire ou de ne pas croire",
+        "d’imposer sa foi",
+        "de refuser la loi"
+      ],
+      "reponse": "de croire ou de ne pas croire",
+      "explication": "Chacun choisit."
+    },
+    {
+      "consigne": "À l’école, la laïcité protège les élèves :",
+      "options": [
+        "de toute pression religieuse",
+        "des notes",
+        "des devoirs"
+      ],
+      "reponse": "de toute pression religieuse",
+      "explication": "Chacun peut se forger son avis."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Respecter des règles et en comprendre la finalité : l’exemple de la laïcité à l’École",
+      "appui": "La laïcité à l’École"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,111 @@
+{
+  "competence": "EM-C3-CM1-DEM-01",
+  "duree": 5,
+  "essentiel": "Démocratie vient du grec : le pouvoir du peuple.\nEn démocratie, les citoyens élisent leurs représentants par le vote.\nAu suffrage direct, les électeurs choisissent eux-mêmes leurs élus, par exemple le président de la République.",
+  "parties": [
+    {
+      "titre": "Le pouvoir du peuple",
+      "blocs": [
+        {
+          "type": "vocabulaire",
+          "mots": [
+            {
+              "mot": "Démocratie",
+              "definition": "Régime politique où le pouvoir appartient aux citoyens."
+            },
+            {
+              "mot": "Citoyen",
+              "definition": "Membre d’une cité ou d’un État qui participe à la vie politique."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En démocratie, le pouvoir appartient :",
+          "options": [
+            "aux citoyens",
+            "à un roi",
+            "à l’armée"
+          ],
+          "reponse": "aux citoyens",
+          "explication": "Ils votent pour choisir leurs représentants."
+        }
+      ]
+    },
+    {
+      "titre": "Le vote",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les règles du vote",
+          "colonnes": [
+            "Règle",
+            "Pourquoi"
+          ],
+          "lignes": [
+            [
+              "vote secret, dans l’isoloir",
+              "chacun choisit librement"
+            ],
+            [
+              "une personne, une voix",
+              "égalité entre électeurs"
+            ],
+            [
+              "dès 18 ans pour les citoyens français",
+              "âge de la majorité"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la démocratie, c’est faire tout ce que veut la majorité.",
+          "correction": "La majorité décide, mais elle doit respecter les droits de chacun."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "L’isoloir permet :",
+      "options": [
+        "de voter en secret",
+        "de compter les voix",
+        "de choisir les candidats"
+      ],
+      "reponse": "de voter en secret",
+      "explication": "Personne ne voit le choix."
+    },
+    {
+      "consigne": "En France, on vote dès :",
+      "options": [
+        "18 ans",
+        "16 ans",
+        "21 ans"
+      ],
+      "reponse": "18 ans",
+      "explication": "L’âge de la majorité."
+    },
+    {
+      "consigne": "Démocratie signifie :",
+      "options": [
+        "le pouvoir du peuple",
+        "le pouvoir d’un seul",
+        "le pouvoir des riches"
+      ],
+      "reponse": "le pouvoir du peuple",
+      "explication": "Du grec dêmos, le peuple."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 14,
+      "extrait": "Exposer les principes généraux de la démocratie",
+      "appui": "La démocratie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

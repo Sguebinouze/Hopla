@@ -1,0 +1,110 @@
+{
+  "competence": "EM-C3-CM2-SYM-01",
+  "duree": 5,
+  "essentiel": "Les symboles de la République sont le drapeau tricolore, La Marseillaise, la devise, Marianne et le 14 juillet.\nLa France est membre de l’Union européenne.\nSur la mairie flottent le drapeau français et le drapeau européen aux douze étoiles.",
+  "parties": [
+    {
+      "titre": "Symboles de la République",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À connaitre",
+          "colonnes": [
+            "Symbole",
+            "Ce qu’il faut savoir"
+          ],
+          "lignes": [
+            [
+              "drapeau",
+              "bleu, blanc, rouge"
+            ],
+            [
+              "hymne",
+              "La Marseillaise"
+            ],
+            [
+              "devise",
+              "Liberté, Égalité, Fraternité"
+            ],
+            [
+              "Marianne",
+              "figure de la République"
+            ],
+            [
+              "fête nationale",
+              "le 14 juillet"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le drapeau européen compte :",
+          "options": [
+            "douze étoiles",
+            "27 étoiles",
+            "une étoile par pays"
+          ],
+          "reponse": "douze étoiles",
+          "explication": "Le nombre ne change pas avec les membres."
+        }
+      ]
+    },
+    {
+      "titre": "La France dans l’Union européenne",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La France est l’un des pays fondateurs de la construction européenne. Elle partage l’euro avec de nombreux pays."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que les douze étoiles représentent douze pays.",
+          "correction": "Douze est un symbole de perfection et d’unité. Leur nombre ne dépend pas des membres."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La fête nationale est le :",
+      "options": [
+        "14 juillet",
+        "1er mai",
+        "11 novembre"
+      ],
+      "reponse": "14 juillet",
+      "explication": "Depuis 1880."
+    },
+    {
+      "consigne": "La monnaie partagée par la France et de nombreux pays européens est :",
+      "options": [
+        "l’euro",
+        "le franc",
+        "le dollar"
+      ],
+      "reponse": "l’euro",
+      "explication": "Depuis 2002 en pièces et billets."
+    },
+    {
+      "consigne": "Marianne représente :",
+      "options": [
+        "la République",
+        "une reine",
+        "l’Europe"
+      ],
+      "reponse": "la République",
+      "explication": "Son buste est dans les mairies."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 16,
+      "extrait": "Connaître le drapeau européen, comprendre pourquoi il est",
+      "appui": "Symboles et Union européenne"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

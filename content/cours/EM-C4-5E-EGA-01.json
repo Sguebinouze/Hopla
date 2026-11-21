@@ -1,0 +1,105 @@
+{
+  "competence": "EM-C4-5E-EGA-01",
+  "duree": 6,
+  "essentiel": "L’égalité entre les femmes et les hommes est un principe de la République, inscrit dans la Constitution.\nElle est le fruit de combats : droit de vote des femmes en 1944, loi sur la parité en 2000.\nDes inégalités persistent, notamment dans les salaires et la répartition des tâches domestiques.",
+  "parties": [
+    {
+      "titre": "Des conquêtes",
+      "blocs": [
+        {
+          "type": "frise",
+          "reperes": [
+            {
+              "annee": 1944,
+              "date": "1944",
+              "evenement": "Droit de vote des femmes."
+            },
+            {
+              "annee": 1965,
+              "date": "1965",
+              "evenement": "Les femmes peuvent travailler sans l’accord de leur mari."
+            },
+            {
+              "annee": 1972,
+              "date": "1972",
+              "evenement": "Principe d’égalité de salaire pour un même travail."
+            },
+            {
+              "annee": 2000,
+              "date": "2000",
+              "evenement": "Loi sur la parité en politique."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La loi sur la parité de 2000 impose :",
+          "options": [
+            "autant de femmes que d’hommes sur les listes électorales",
+            "le vote des femmes",
+            "l’égalité de taille"
+          ],
+          "reponse": "autant de femmes que d’hommes sur les listes électorales",
+          "explication": "Pour plus de femmes élues."
+        }
+      ]
+    },
+    {
+      "titre": "Des inégalités qui persistent",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "À poste comparable, les femmes gagnent encore en moyenne moins que les hommes. Elles assurent une plus grande part des tâches domestiques."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’égalité est entièrement atteinte puisque la loi l’impose.",
+          "correction": "L’égalité en droit existe ; l’égalité dans les faits progresse mais reste incomplète."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La parité signifie :",
+      "options": [
+        "autant de femmes que d’hommes",
+        "plus de femmes que d’hommes",
+        "aucune femme"
+      ],
+      "reponse": "autant de femmes que d’hommes",
+      "explication": "Une représentation égale."
+    },
+    {
+      "consigne": "Les Françaises votent pour la première fois en :",
+      "options": [
+        "1945",
+        "1848",
+        "2000"
+      ],
+      "reponse": "1945",
+      "explication": "Après l’ordonnance de 1944."
+    },
+    {
+      "consigne": "L’égalité de salaire pour un même travail est :",
+      "options": [
+        "un principe de la loi",
+        "interdite",
+        "facultative"
+      ],
+      "reponse": "un principe de la loi",
+      "explication": "Depuis 1972."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 19,
+      "extrait": "Agir pour l’égalité femmes-hommes et lutter contre les discriminations (9-11 heures)",
+      "appui": "Égalité femmes-hommes"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

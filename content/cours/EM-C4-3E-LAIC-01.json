@@ -1,0 +1,102 @@
+{
+  "competence": "EM-C4-3E-LAIC-01",
+  "duree": 6,
+  "essentiel": "La République est laïque : l’autorité politique est indépendante des autorités religieuses.\nL’État ne reconnait et ne finance aucun culte ; il garantit le libre exercice de tous, dans le respect de l’ordre public.\nLes responsables religieux peuvent participer au débat public, comme tous les citoyens, dans le cadre de la loi.",
+  "parties": [
+    {
+      "titre": "Les principes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La laïcité de la République",
+          "colonnes": [
+            "Principe",
+            "Texte"
+          ],
+          "lignes": [
+            [
+              "séparation des Églises et de l’État",
+              "loi de 1905"
+            ],
+            [
+              "République laïque",
+              "article 1 de la Constitution de 1958"
+            ],
+            [
+              "neutralité de l’école publique",
+              "loi de 2004 sur les signes religieux"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La laïcité de la République est inscrite dans :",
+          "options": [
+            "la Constitution",
+            "le Code de la route",
+            "aucun texte"
+          ],
+          "reponse": "la Constitution",
+          "explication": "À l’article 1."
+        }
+      ]
+    },
+    {
+      "titre": "Neutralité et liberté",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "L’État et ses agents sont neutres. Les citoyens, eux, sont libres d’exprimer leurs convictions, dans le respect de la loi et de l’ordre public."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la laïcité oblige chaque citoyen à cacher ses croyances partout.",
+          "correction": "La neutralité s’impose à l’État et à ses agents. Dans l’espace public, les citoyens restent libres, dans le cadre de la loi."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un agent de l’État dans ses fonctions doit être :",
+      "options": [
+        "neutre",
+        "religieux",
+        "militant"
+      ],
+      "reponse": "neutre",
+      "explication": "Il sert tous les citoyens."
+    },
+    {
+      "consigne": "L’État ne finance :",
+      "options": [
+        "aucun culte",
+        "qu’un seul culte",
+        "tous les cultes à égalité"
+      ],
+      "reponse": "aucun culte",
+      "explication": "Depuis 1905."
+    },
+    {
+      "consigne": "Un responsable religieux peut :",
+      "options": [
+        "participer au débat public dans le cadre de la loi",
+        "imposer une loi religieuse",
+        "diriger l’État"
+      ],
+      "reponse": "participer au débat public dans le cadre de la loi",
+      "explication": "Comme tout citoyen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 23,
+      "extrait": "elle affirme que la République est laïque",
+      "appui": "Une République laïque"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

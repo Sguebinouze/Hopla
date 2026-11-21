@@ -1,0 +1,94 @@
+{
+  "competence": "EM-C3-CM1-CIV-01",
+  "duree": 5,
+  "essentiel": "Le civisme, c’est respecter les règles et agir pour la vie en commun.\nLa civilité, ce sont les règles de politesse et de respect au quotidien.\nJe dis bonjour, je laisse ma place à une personne âgée dans le bus.",
+  "parties": [
+    {
+      "titre": "Civisme et civilité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux notions",
+          "colonnes": [
+            "Notion",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "civilité",
+              "saluer, remercier, tenir la porte, laisser sa place"
+            ],
+            [
+              "civisme",
+              "respecter la loi, voter, protéger le bien commun"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Laisser sa place assise à une personne âgée, c’est :",
+          "options": [
+            "un geste de civilité",
+            "une obligation de la loi",
+            "une incivilité"
+          ],
+          "reponse": "un geste de civilité",
+          "explication": "Un geste de respect."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi ?",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la politesse est démodée.",
+          "correction": "Elle montre qu’on respecte les autres et rend la vie en commun plus agréable."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Voter aux élections est un acte de :",
+      "options": [
+        "civisme",
+        "civilité",
+        "politesse"
+      ],
+      "reponse": "civisme",
+      "explication": "On participe à la vie de la cité."
+    },
+    {
+      "consigne": "Tenir la porte à quelqu’un est un geste de :",
+      "options": [
+        "civilité",
+        "civisme",
+        "justice"
+      ],
+      "reponse": "civilité",
+      "explication": "Un geste de politesse."
+    },
+    {
+      "consigne": "Le civisme concerne :",
+      "options": [
+        "la vie en commun et le respect des règles",
+        "seulement la politesse",
+        "les loisirs"
+      ],
+      "reponse": "la vie en commun et le respect des règles",
+      "explication": "On agit pour tous."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 4,
+      "extrait": "Civisme et citoyenneté",
+      "appui": "Civisme et civilité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

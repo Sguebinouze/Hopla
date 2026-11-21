@@ -1,0 +1,98 @@
+{
+  "competence": "EM-C3-CM2-LAI-01",
+  "duree": 5,
+  "essentiel": "La laïcité protège la liberté de conscience : chacun peut croire ou ne pas croire.\nÀ l’école publique, personne ne peut imposer sa religion aux autres.\nPersonne ne peut être exclu à cause de sa religion.",
+  "parties": [
+    {
+      "titre": "Ce que garantit la laïcité",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "À l’école publique",
+          "colonnes": [
+            "La laïcité…",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "protège la liberté de croire ou de ne pas croire",
+              "chaque élève est accueilli"
+            ],
+            [
+              "interdit d’imposer ses croyances",
+              "on ne force personne à prier"
+            ],
+            [
+              "assure la neutralité des enseignants",
+              "ils ne montrent pas leur religion"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "À l’école publique, un élève peut :",
+          "options": [
+            "croire ou ne pas croire",
+            "imposer sa religion",
+            "refuser un cours au nom de sa religion"
+          ],
+          "reponse": "croire ou ne pas croire",
+          "explication": "La laïcité protège chacun."
+        }
+      ]
+    },
+    {
+      "titre": "Vivre ensemble",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que la laïcité est contre les religions.",
+          "correction": "Elle les protège toutes, et protège aussi ceux qui n’en ont pas."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La laïcité protège :",
+      "options": [
+        "la liberté de conscience",
+        "une seule religion",
+        "personne"
+      ],
+      "reponse": "la liberté de conscience",
+      "explication": "Croire ou ne pas croire."
+    },
+    {
+      "consigne": "Les enseignants de l’école publique sont :",
+      "options": [
+        "neutres",
+        "tous de la même religion",
+        "chargés d’enseigner une religion"
+      ],
+      "reponse": "neutres",
+      "explication": "C’est la neutralité."
+    },
+    {
+      "consigne": "Exclure un élève à cause de sa religion est :",
+      "options": [
+        "interdit",
+        "autorisé",
+        "obligatoire"
+      ],
+      "reponse": "interdit",
+      "explication": "Chacun est accueilli."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo24-2024-emc",
+      "page": 17,
+      "extrait": "nul ne peut être discriminé pour sa croyance ou ses convictions",
+      "appui": "La laïcité à l’école"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
