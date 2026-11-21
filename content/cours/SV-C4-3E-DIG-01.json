@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-3E-DIG-01",
+  "duree": 7,
+  "essentiel": "Dans le tube digestif, les aliments sont transformés en nutriments par des enzymes digestives.\nL’amylase de la salive commence à transformer l’amidon du pain en sucres simples. Les protéines deviennent des acides aminés, les lipides des acides gras.\nLes nutriments traversent la paroi de l’intestin grêle et passent dans le sang.",
+  "parties": [
+    {
+      "titre": "Les enzymes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Transformations",
+          "colonnes": [
+            "Aliment",
+            "Nutriments obtenus",
+            "Où ?"
+          ],
+          "lignes": [
+            [
+              "amidon",
+              "glucose",
+              "bouche, puis intestin grêle"
+            ],
+            [
+              "protéines",
+              "acides aminés",
+              "estomac, puis intestin grêle"
+            ],
+            [
+              "lipides",
+              "acides gras et glycérol",
+              "intestin grêle"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’amylase salivaire transforme :",
+          "options": [
+            "l’amidon",
+            "les protéines",
+            "les graisses"
+          ],
+          "reponse": "l’amidon",
+          "explication": "Le pain mâché longtemps devient sucré."
+        }
+      ]
+    },
+    {
+      "titre": "L’absorption",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La paroi de l’intestin grêle porte des millions de replis, les villosités. Leur grande surface favorise le passage des nutriments dans le sang."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la digestion est seulement mécanique, par la mastication.",
+          "correction": "Le broyage aide, mais ce sont les enzymes qui transforment chimiquement les aliments."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les protéines sont transformées en :",
+      "options": [
+        "acides aminés",
+        "glucose",
+        "acides gras"
+      ],
+      "reponse": "acides aminés",
+      "explication": "Ce sont leurs briques."
+    },
+    {
+      "consigne": "Les nutriments passent dans le sang au niveau :",
+      "options": [
+        "de l’intestin grêle",
+        "de l’œsophage",
+        "de la bouche"
+      ],
+      "reponse": "de l’intestin grêle",
+      "explication": "Grâce aux villosités."
+    },
+    {
+      "consigne": "Une enzyme digestive :",
+      "options": [
+        "transforme chimiquement un aliment",
+        "broie les aliments",
+        "transporte le sang"
+      ],
+      "reponse": "transforme chimiquement un aliment",
+      "explication": "Chacune agit sur un type d’aliment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 114,
+      "extrait": "moléculaires à la classe de 3e. On veille à ce que l'éducation à la santé accompagne l'étude",
+      "appui": "Digestion et nutriments"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

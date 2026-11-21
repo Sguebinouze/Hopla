@@ -1,0 +1,112 @@
+{
+  "competence": "TE-C4-3E-MAT-01",
+  "duree": 6,
+  "essentiel": "Une pièce subit des sollicitations : flexion, traction, compression, torsion.\nOn choisit un matériau qui résiste à ces sollicitations et un procédé adapté à sa forme.\nOn tient compte aussi du cout, de la masse et de l’impact environnemental. Une étagère en flexion sera en bois ou en acier plié plutôt qu’en plastique fin.",
+  "parties": [
+    {
+      "titre": "Les sollicitations",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Sollicitation",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "flexion",
+              "une étagère chargée de livres"
+            ],
+            [
+              "traction",
+              "un câble de téléphérique"
+            ],
+            [
+              "compression",
+              "un pied de table"
+            ],
+            [
+              "torsion",
+              "un tournevis qu’on fait tourner"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un câble qui soutient une charge subit surtout :",
+          "options": [
+            "une traction",
+            "une compression",
+            "une flexion"
+          ],
+          "reponse": "une traction",
+          "explication": "On tire dessus."
+        }
+      ]
+    },
+    {
+      "titre": "Justifier un choix",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Choisir le matériau d’une étagère",
+          "etapes": [
+            "Identifie la sollicitation : flexion.",
+            "Liste les matériaux possibles : bois, acier, plastique.",
+            "Compare résistance, cout, masse, recyclage.",
+            "Choisis le procédé : découpe pour le bois, pliage pour l’acier."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On choisit le matériau le plus résistant sans regarder les autres critères.",
+          "correction": "Un matériau trop lourd, trop cher ou non recyclable peut être un mauvais choix."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un pied de table subit surtout :",
+      "options": [
+        "une compression",
+        "une traction",
+        "une torsion"
+      ],
+      "reponse": "une compression",
+      "explication": "Le poids appuie dessus."
+    },
+    {
+      "consigne": "Pour une pièce en tôle d’acier, un procédé adapté est :",
+      "options": [
+        "le pliage",
+        "l’impression 3D en plastique",
+        "le moulage du bois"
+      ],
+      "reponse": "le pliage",
+      "explication": "La tôle se plie."
+    },
+    {
+      "consigne": "Un critère environnemental dans le choix d’un matériau :",
+      "options": [
+        "sa recyclabilité",
+        "sa couleur",
+        "son nom"
+      ],
+      "reponse": "sa recyclabilité",
+      "explication": "Que devient-il en fin de vie ?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 13,
+      "extrait": "Les modes de sollicitation des matériaux (flexion, torsion)",
+      "appui": "Choisir un matériau et un procédé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

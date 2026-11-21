@@ -1,0 +1,120 @@
+{
+  "competence": "SV-C4-3E-RESS-01",
+  "duree": 6,
+  "essentiel": "Une ressource renouvelable se reconstitue à l’échelle humaine : eau, bois, poissons, si on ne les exploite pas trop vite.\nUne ressource non renouvelable ne se reconstitue pas à notre échelle : pétrole, charbon, gaz, minerais.\nUne gestion durable prélève une ressource sans dépasser sa capacité à se renouveler.",
+  "parties": [
+    {
+      "titre": "Classer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des ressources",
+          "colonnes": [
+            "Renouvelables",
+            "Non renouvelables"
+          ],
+          "lignes": [
+            [
+              "eau douce",
+              "pétrole"
+            ],
+            [
+              "bois des forêts",
+              "charbon, gaz naturel"
+            ],
+            [
+              "poissons",
+              "minerais : fer, cuivre, lithium"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le pétrole s’est formé en :",
+          "options": [
+            "des millions d’années",
+            "quelques années",
+            "quelques siècles"
+          ],
+          "reponse": "des millions d’années",
+          "explication": "Ce que nous brulons ne se reformera pas à notre échelle."
+        }
+      ]
+    },
+    {
+      "titre": "Gérer durablement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des choix",
+          "colonnes": [
+            "Ressource",
+            "Gestion durable"
+          ],
+          "lignes": [
+            [
+              "poissons",
+              "quotas de pêche, tailles minimales"
+            ],
+            [
+              "forêts",
+              "replanter autant qu’on coupe"
+            ],
+            [
+              "métaux",
+              "recycler les appareils"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une ressource renouvelable est inépuisable.",
+          "correction": "Exploitée trop vite, elle s’épuise aussi : la surpêche a fait disparaitre certains stocks de poissons."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un quota de pêche limite :",
+      "options": [
+        "la quantité de poissons pêchés",
+        "le nombre de bateaux construits",
+        "la taille des ports"
+      ],
+      "reponse": "la quantité de poissons pêchés",
+      "explication": "Pour laisser les populations se renouveler."
+    },
+    {
+      "consigne": "Le lithium des batteries est une ressource :",
+      "options": [
+        "non renouvelable",
+        "renouvelable",
+        "inépuisable"
+      ],
+      "reponse": "non renouvelable",
+      "explication": "Un minerai."
+    },
+    {
+      "consigne": "Recycler un téléphone permet :",
+      "options": [
+        "de récupérer des métaux",
+        "de produire du pétrole",
+        "de créer de l’eau"
+      ],
+      "reponse": "de récupérer des métaux",
+      "explication": "On économise des minerais."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 110,
+      "extrait": "L’exploitation de quelques ressources naturelles par l’être humain (eau, sol, pétrole, charbon, bois, ressources minérales, ressources halieutiques…)",
+      "appui": "Les ressources naturelles"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

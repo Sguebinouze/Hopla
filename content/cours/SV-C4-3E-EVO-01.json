@@ -1,0 +1,90 @@
+{
+  "competence": "SV-C4-3E-EVO-01",
+  "duree": 8,
+  "essentiel": "Les êtres vivants partagent des caractères hérités d’ancêtres communs : ils sont apparentés.\nLes fossiles montrent que des espèces ont disparu et que d’autres sont apparues : les espèces évoluent.\nDes variations apparaissent au hasard ; la sélection naturelle favorise les individus les mieux adaptés à leur milieu, qui ont plus de descendants.",
+  "parties": [
+    {
+      "titre": "Parenté et ancêtre commun",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le bras humain, l’aile de la chauve-souris et la nageoire de la baleine ont les mêmes os, disposés pareil. Ils viennent d’un ancêtre commun."
+        },
+        {
+          "type": "question",
+          "consigne": "Des caractères partagés entre espèces indiquent :",
+          "options": [
+            "un ancêtre commun",
+            "un hasard sans signification",
+            "un même lieu de vie"
+          ],
+          "reponse": "un ancêtre commun",
+          "explication": "Ils ont été hérités."
+        }
+      ]
+    },
+    {
+      "titre": "La sélection naturelle",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Des bactéries résistantes",
+          "etapes": [
+            "Dans une population de bactéries, une variation au hasard rend quelques-unes résistantes à un antibiotique.",
+            "L’antibiotique tue les autres.",
+            "Les résistantes survivent et se multiplient.",
+            "La population devient résistante."
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un individu se transforme pour s’adapter à son milieu.",
+          "correction": "Les variations apparaissent au hasard. Le milieu trie ensuite les individus qui survivent et se reproduisent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La théorie de la sélection naturelle est proposée par :",
+      "options": [
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Marie Curie"
+      ],
+      "reponse": "Charles Darwin",
+      "explication": "En 1859."
+    },
+    {
+      "consigne": "Les fossiles prouvent que :",
+      "options": [
+        "des espèces ont disparu et d’autres sont apparues",
+        "les espèces ne changent jamais",
+        "la Terre a 6 000 ans"
+      ],
+      "reponse": "des espèces ont disparu et d’autres sont apparues",
+      "explication": "Ils témoignent du passé."
+    },
+    {
+      "consigne": "Les variations génétiques apparaissent :",
+      "options": [
+        "au hasard",
+        "selon les besoins de l’individu",
+        "jamais"
+      ],
+      "reponse": "au hasard",
+      "explication": "Le milieu les trie ensuite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "La classification du vivant et l'évolution des êtres vivants : dans le prolongement du cycle 3",
+      "appui": "L’évolution des êtres vivants"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

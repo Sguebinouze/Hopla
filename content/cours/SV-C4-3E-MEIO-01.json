@@ -1,0 +1,102 @@
+{
+  "competence": "SV-C4-3E-MEIO-01",
+  "duree": 7,
+  "essentiel": "La méiose produit les cellules reproductrices : elles ne contiennent qu’un chromosome de chaque paire, soit 23 chez l’être humain.\nLe chromosome de chaque paire est choisi au hasard : chaque parent peut produire des millions de gamètes différents.\nÀ la fécondation, deux gamètes s’unissent : la cellule-œuf retrouve 46 chromosomes et une combinaison d’allèles unique.",
+  "parties": [
+    {
+      "titre": "Méiose et fécondation",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le nombre de chromosomes",
+          "colonnes": [
+            "Cellule",
+            "Nombre de chromosomes"
+          ],
+          "lignes": [
+            [
+              "cellule ordinaire",
+              "46, soit 23 paires"
+            ],
+            [
+              "gamète : ovule ou spermatozoïde",
+              "23, un de chaque paire"
+            ],
+            [
+              "cellule-œuf",
+              "46 : 23 de chaque parent"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un spermatozoïde humain contient :",
+          "options": [
+            "23 chromosomes",
+            "46 chromosomes",
+            "92 chromosomes"
+          ],
+          "reponse": "23 chromosomes",
+          "explication": "Un de chaque paire."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi chacun est unique",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Avec 23 paires, chaque parent peut fabriquer plus de 8 millions de gamètes différents. La rencontre de deux gamètes multiplie encore les combinaisons."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’enfant reçoit une moitié fixe et identique des chromosomes de chaque parent.",
+          "correction": "Il reçoit un chromosome de chaque paire, choisi au hasard : deux enfants n’ont pas les mêmes."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La méiose produit :",
+      "options": [
+        "les gamètes",
+        "les cellules de la peau",
+        "les globules rouges"
+      ],
+      "reponse": "les gamètes",
+      "explication": "Les cellules reproductrices."
+    },
+    {
+      "consigne": "La cellule-œuf contient :",
+      "options": [
+        "46 chromosomes",
+        "23 chromosomes",
+        "69 chromosomes"
+      ],
+      "reponse": "46 chromosomes",
+      "explication": "23 + 23."
+    },
+    {
+      "consigne": "Deux enfants des mêmes parents :",
+      "options": [
+        "n’ont pas les mêmes allèles, sauf vrais jumeaux",
+        "ont toujours les mêmes allèles",
+        "n’ont aucun allèle commun"
+      ],
+      "reponse": "n’ont pas les mêmes allèles, sauf vrais jumeaux",
+      "explication": "Le hasard de la méiose et de la fécondation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "ADN, mutations, brassage, gène, méiose et fécondation",
+      "appui": "Méiose, fécondation, diversité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,101 @@
+{
+  "competence": "PC-C4-3E-GRAV-01",
+  "duree": 7,
+  "essentiel": "La masse, en kilogrammes, mesure la quantité de matière : elle ne change pas d’un lieu à l’autre.\nLe poids, en newtons, est la force d’attraction exercée par l’astre : P = m × g. Sur Terre, g ≈ 9,8 N/kg ; sur la Lune, 1,6 N/kg.\nLa gravitation est une attraction entre deux corps ayant une masse : elle augmente avec les masses et diminue avec la distance.",
+  "parties": [
+    {
+      "titre": "Masse ou poids ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Un astronaute de 80 kg",
+          "colonnes": [
+            "Lieu",
+            "Masse",
+            "Poids"
+          ],
+          "lignes": [
+            [
+              "Terre",
+              "80 kg",
+              "80 × 9,8 ≈ 784 N"
+            ],
+            [
+              "Lune",
+              "80 kg",
+              "80 × 1,6 = 128 N"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sur la Lune, la masse d’un astronaute :",
+          "options": [
+            "reste la même",
+            "est six fois plus faible",
+            "est nulle"
+          ],
+          "reponse": "reste la même",
+          "explication": "C’est son poids qui diminue."
+        }
+      ]
+    },
+    {
+      "titre": "La gravitation",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La Terre attire la Lune et la maintient sur son orbite. La Lune attire aussi la Terre : c’est l’origine des marées."
+        },
+        {
+          "type": "piege",
+          "erreur": "On dit « je pèse 50 kg ».",
+          "correction": "C’est la masse qui vaut 50 kg. Le poids, en newtons, vaut environ 490 N sur Terre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le poids se mesure avec :",
+      "options": [
+        "un dynamomètre",
+        "une balance",
+        "un thermomètre"
+      ],
+      "reponse": "un dynamomètre",
+      "explication": "En newtons."
+    },
+    {
+      "consigne": "Un objet de 2 kg a sur Terre un poids d’environ :",
+      "options": [
+        "19,6 N",
+        "2 N",
+        "0,2 N"
+      ],
+      "reponse": "19,6 N",
+      "explication": "2 × 9,8."
+    },
+    {
+      "consigne": "La force de gravitation entre deux corps diminue quand :",
+      "options": [
+        "la distance augmente",
+        "les masses augmentent",
+        "il fait nuit"
+      ],
+      "reponse": "la distance augmente",
+      "explication": "Plus loin, moins d’attraction."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 102,
+      "extrait": "En fin de cycle 4, un élève sait exploiter l'expression de la force de gravitation universelle",
+      "appui": "Poids et gravitation"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

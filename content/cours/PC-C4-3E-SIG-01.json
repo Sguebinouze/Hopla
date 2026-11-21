@@ -1,0 +1,107 @@
+{
+  "competence": "PC-C4-3E-SIG-01",
+  "duree": 7,
+  "essentiel": "Un signal sonore a besoin d’un milieu matériel ; dans l’air, il va à environ 340 m/s. La lumière se propage aussi dans le vide, à environ 300 000 km/s.\nLa distance parcourue par un signal vaut d = v × t.\nLa fréquence d’un son, en hertz, indique s’il est grave ou aigu.",
+  "parties": [
+    {
+      "titre": "Calculer une distance",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Pendant un orage, on entend le tonnerre 6 s après avoir vu l’éclair. À quelle distance est l’orage ?",
+          "etapes": [
+            "La lumière arrive presque instantanément.",
+            "d = v × t = 340 × 6 = 2 040 m."
+          ],
+          "conclusion": "L’orage est à environ 2 km."
+        },
+        {
+          "type": "question",
+          "consigne": "Un sonar envoie un son dans l’eau, à 1 500 m/s. L’écho revient en 2 s. Profondeur :",
+          "options": [
+            "1 500 m",
+            "3 000 m",
+            "750 m"
+          ],
+          "reponse": "1 500 m",
+          "explication": "Le son fait l’aller et le retour : 1 500 × 2 ÷ 2."
+        }
+      ]
+    },
+    {
+      "titre": "Fréquence",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Sons et fréquences",
+          "colonnes": [
+            "Domaine",
+            "Fréquence"
+          ],
+          "lignes": [
+            [
+              "infrasons",
+              "moins de 20 Hz"
+            ],
+            [
+              "sons audibles par l’humain",
+              "20 Hz à 20 000 Hz"
+            ],
+            [
+              "ultrasons",
+              "plus de 20 000 Hz"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "Pour un écho, on oublie que le signal fait un aller-retour.",
+          "correction": "La distance jusqu’à l’obstacle vaut la moitié de v × t."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un son grave a une fréquence :",
+      "options": [
+        "basse",
+        "élevée",
+        "nulle"
+      ],
+      "reponse": "basse",
+      "explication": "Les aigus ont une fréquence élevée."
+    },
+    {
+      "consigne": "La lumière met environ combien de temps pour parcourir 300 000 km ?",
+      "options": [
+        "1 s",
+        "1 min",
+        "1 h"
+      ],
+      "reponse": "1 s",
+      "explication": "Elle va à 300 000 km/s."
+    },
+    {
+      "consigne": "Le son ne se propage pas dans :",
+      "options": [
+        "le vide",
+        "l’eau",
+        "l’acier"
+      ],
+      "reponse": "le vide",
+      "explication": "Il faut de la matière."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 105,
+      "extrait": "La maîtrise de la notion de fréquence est un objectif de fin de cycle.",
+      "appui": "Signaux sonores et lumineux"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

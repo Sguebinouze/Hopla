@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-3E-PROJ-01",
+  "duree": 6,
+  "essentiel": "Un projet technique suit des étapes : analyse du besoin, cahier des charges, recherche de solutions, conception, réalisation, tests.\nOn le planifie avec un diagramme des tâches, qui montre qui fait quoi et quand.\nDes revues de projet font le point ; l’écoconception réduit l’impact environnemental dès la conception.",
+  "parties": [
+    {
+      "titre": "Planifier",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Planning d’un projet de six semaines",
+          "colonnes": [
+            "Tâche",
+            "Durée",
+            "Semaines"
+          ],
+          "lignes": [
+            [
+              "recherche d’idées",
+              "1 semaine",
+              "semaine 1"
+            ],
+            [
+              "modélisation",
+              "2 semaines",
+              "semaines 2 et 3"
+            ],
+            [
+              "fabrication",
+              "2 semaines",
+              "semaines 4 et 5"
+            ],
+            [
+              "tests",
+              "1 semaine",
+              "semaine 6"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Si la modélisation prend une semaine de retard, les tests :",
+          "options": [
+            "sont décalés",
+            "commencent quand même en semaine 6",
+            "sont supprimés"
+          ],
+          "reponse": "sont décalés",
+          "explication": "Les tâches s’enchainent."
+        }
+      ]
+    },
+    {
+      "titre": "Revue de projet et écoconception",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Lors d’une revue de projet, l’équipe compare l’avancement au planning et décide des ajustements. L’écoconception choisit des matériaux recyclés et un objet démontable."
+        },
+        {
+          "type": "piege",
+          "erreur": "On pense à l’environnement seulement à la fin du projet.",
+          "correction": "C’est lors de la conception que les choix pèsent le plus : matériaux, démontage, consommation."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une revue de projet sert à :",
+      "options": [
+        "faire le point sur l’avancement",
+        "vendre le produit",
+        "remplacer le cahier des charges"
+      ],
+      "reponse": "faire le point sur l’avancement",
+      "explication": "On ajuste le planning."
+    },
+    {
+      "consigne": "L’écoconception intervient :",
+      "options": [
+        "dès la conception",
+        "seulement au recyclage",
+        "jamais"
+      ],
+      "reponse": "dès la conception",
+      "explication": "Les choix initiaux comptent le plus."
+    },
+    {
+      "consigne": "Un diagramme des tâches montre :",
+      "options": [
+        "l’enchainement des tâches dans le temps",
+        "le prix des matériaux",
+        "le schéma électrique"
+      ],
+      "reponse": "l’enchainement des tâches dans le temps",
+      "explication": "Comme un diagramme de Gantt."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 16,
+      "extrait": "Le diagramme de planification des tâches",
+      "appui": "Gérer un projet technique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

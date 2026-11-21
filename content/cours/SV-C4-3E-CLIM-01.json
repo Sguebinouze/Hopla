@@ -1,0 +1,110 @@
+{
+  "competence": "SV-C4-3E-CLIM-01",
+  "duree": 7,
+  "essentiel": "Depuis le début de l’ère industrielle, la température moyenne de la Terre a augmenté de plus de 1 °C.\nCe réchauffement est dû principalement aux gaz à effet de serre rejetés par les activités humaines, surtout la combustion des énergies fossiles.\nIl a des conséquences : recul des glaciers, montée du niveau des mers, déplacement des espèces.",
+  "parties": [
+    {
+      "titre": "Des preuves",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Observations",
+          "colonnes": [
+            "Observation",
+            "Lien avec le réchauffement"
+          ],
+          "lignes": [
+            [
+              "les glaciers des Alpes reculent",
+              "la glace fond plus vite qu’elle ne se reforme"
+            ],
+            [
+              "le niveau des mers monte",
+              "dilatation de l’eau et fonte des glaces"
+            ],
+            [
+              "des espèces remontent vers le nord ou en altitude",
+              "elles suivent les températures qui leur conviennent"
+            ],
+            [
+              "les coraux blanchissent",
+              "l’eau de mer est trop chaude"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La principale cause du réchauffement actuel est :",
+          "options": [
+            "les gaz à effet de serre d’origine humaine",
+            "l’activité des volcans",
+            "la distance au Soleil"
+          ],
+          "reponse": "les gaz à effet de serre d’origine humaine",
+          "explication": "Selon les rapports du GIEC."
+        }
+      ]
+    },
+    {
+      "titre": "Agir",
+      "blocs": [
+        {
+          "type": "observe",
+          "consigne": "Deux types de réponses.",
+          "exemples": [
+            "atténuer : réduire les émissions, énergies renouvelables, sobriété",
+            "adapter : végétaliser les villes, protéger les côtes, changer les cultures"
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un hiver froid contredit le réchauffement climatique.",
+          "correction": "Le climat se mesure en moyenne sur plusieurs décennies : un hiver froid relève de la météo."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le GIEC est :",
+      "options": [
+        "un groupe d’experts qui évalue les connaissances sur le climat",
+        "un parti politique",
+        "une entreprise pétrolière"
+      ],
+      "reponse": "un groupe d’experts qui évalue les connaissances sur le climat",
+      "explication": "Il publie des rapports scientifiques."
+    },
+    {
+      "consigne": "La montée du niveau des mers s’explique par :",
+      "options": [
+        "la dilatation de l’eau et la fonte des glaces",
+        "l’augmentation des pluies seulement",
+        "les marées"
+      ],
+      "reponse": "la dilatation de l’eau et la fonte des glaces",
+      "explication": "L’eau chaude occupe plus de volume."
+    },
+    {
+      "consigne": "Atténuer le changement climatique, c’est :",
+      "options": [
+        "réduire les émissions de gaz à effet de serre",
+        "construire des digues",
+        "planter des cultures nouvelles"
+      ],
+      "reponse": "réduire les émissions de gaz à effet de serre",
+      "explication": "Agir sur la cause."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 109,
+      "extrait": "Les changements climatiques passés (temps géologiques) et actuels (influence des activités humaines sur le climat notamment par l’émission de gaz à effet de serre)",
+      "appui": "Le changement climatique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

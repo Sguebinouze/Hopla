@@ -1,0 +1,120 @@
+{
+  "competence": "TE-C4-3E-EVO-01",
+  "duree": 7,
+  "essentiel": "Une innovation de rupture change profondément les usages ; une innovation incrémentale améliore un objet existant.\nLe smartphone a réuni téléphone, appareil photo et ordinateur : c’est une innovation de rupture.\nLes intelligences artificielles apprennent à partir de données. Leurs résultats peuvent reproduire les biais de ces données.",
+  "parties": [
+    {
+      "titre": "Rupture ou amélioration ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux types d’innovation",
+          "colonnes": [
+            "Type",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "rupture",
+              "passage de la lampe à incandescence à la DEL ; smartphone"
+            ],
+            [
+              "incrémentale",
+              "un smartphone avec un meilleur appareil photo"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le passage du disque vinyle à l’écoute en ligne est :",
+          "options": [
+            "une innovation de rupture",
+            "une innovation incrémentale",
+            "une absence d’innovation"
+          ],
+          "reponse": "une innovation de rupture",
+          "explication": "Les usages changent complètement."
+        }
+      ]
+    },
+    {
+      "titre": "Comment une IA apprend",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois apprentissages",
+          "colonnes": [
+            "Apprentissage",
+            "Principe",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "supervisé",
+              "données étiquetées avec la bonne réponse",
+              "photos marquées « chat » ou « chien »"
+            ],
+            [
+              "non supervisé",
+              "l’IA regroupe des données sans étiquettes",
+              "classer des clients par habitudes"
+            ],
+            [
+              "par renforcement",
+              "récompenses ou pénalités après chaque essai",
+              "apprendre à jouer à un jeu"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’une IA est objective parce que c’est une machine.",
+          "correction": "Si les données d’apprentissage sont déséquilibrées, l’IA reproduit ces biais. Elle peut aussi se tromper."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un biais d’une IA peut venir :",
+      "options": [
+        "des données d’apprentissage",
+        "de la couleur de l’écran",
+        "de la météo"
+      ],
+      "reponse": "des données d’apprentissage",
+      "explication": "Des données déséquilibrées donnent des résultats déséquilibrés."
+    },
+    {
+      "consigne": "Une IA entrainée avec des photos étiquetées utilise un apprentissage :",
+      "options": [
+        "supervisé",
+        "non supervisé",
+        "par renforcement"
+      ],
+      "reponse": "supervisé",
+      "explication": "Chaque exemple porte la bonne réponse."
+    },
+    {
+      "consigne": "Une innovation incrémentale :",
+      "options": [
+        "améliore un objet existant",
+        "invente un usage totalement nouveau",
+        "supprime un objet"
+      ],
+      "reponse": "améliore un objet existant",
+      "explication": "Une petite évolution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 7,
+      "extrait": "Identifier les innovations de rupture qui",
+      "appui": "Innovations et intelligence artificielle"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

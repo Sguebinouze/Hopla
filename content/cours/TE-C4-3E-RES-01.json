@@ -1,0 +1,90 @@
+{
+  "competence": "TE-C4-3E-RES-01",
+  "duree": 7,
+  "essentiel": "Internet relie entre eux des millions de réseaux. Une information y est découpée en paquets.\nDes routeurs dirigent chaque paquet vers sa destination, grâce à son adresse IP : c’est le routage.\nUn serveur DNS traduit un nom de site, lisible par un humain, en adresse IP.",
+  "parties": [
+    {
+      "titre": "Le trajet d’un message",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Un message de Lyon à Montréal",
+          "etapes": [
+            "Le message est découpé en paquets numérotés.",
+            "Chaque paquet porte l’adresse IP de destination.",
+            "Des routeurs choisissent le chemin, paquet par paquet.",
+            "À l’arrivée, les paquets sont remis dans l’ordre."
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le rôle d’un routeur est de :",
+          "options": [
+            "diriger les paquets vers leur destination",
+            "stocker les sites web",
+            "afficher les pages"
+          ],
+          "reponse": "diriger les paquets vers leur destination",
+          "explication": "Il choisit le chemin."
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi des paquets ?",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Si un câble est coupé, les paquets prennent un autre chemin. Le réseau continue de fonctionner."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un message suit toujours un seul chemin direct.",
+          "correction": "Les paquets d’un même message peuvent emprunter des chemins différents."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le DNS sert à :",
+      "options": [
+        "traduire un nom de site en adresse IP",
+        "découper les paquets",
+        "chiffrer les mots de passe"
+      ],
+      "reponse": "traduire un nom de site en adresse IP",
+      "explication": "Comme un annuaire."
+    },
+    {
+      "consigne": "Internet est :",
+      "options": [
+        "un réseau de réseaux",
+        "un seul ordinateur géant",
+        "un site web"
+      ],
+      "reponse": "un réseau de réseaux",
+      "explication": "Des millions de réseaux interconnectés."
+    },
+    {
+      "consigne": "Un paquet de données contient notamment :",
+      "options": [
+        "l’adresse IP de destination",
+        "la couleur du message",
+        "le nom du routeur"
+      ],
+      "reponse": "l’adresse IP de destination",
+      "explication": "Pour être acheminé."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 12,
+      "extrait": "Identifier et représenter la circulation",
+      "appui": "Internet et routage"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

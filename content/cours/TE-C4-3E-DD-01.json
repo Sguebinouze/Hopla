@@ -1,0 +1,129 @@
+{
+  "competence": "TE-C4-3E-DD-01",
+  "duree": 6,
+  "essentiel": "Pour évaluer un objet, on utilise des critères : performance, cout, note de réparabilité ou de durabilité, classe énergétique.\nLe développement durable repose sur trois piliers : environnemental, économique et social.\nUn lave-linge noté 8,5 sur 10 et classé A est préférable, sur ces critères, à un modèle noté 5 et classé D.",
+  "parties": [
+    {
+      "titre": "Comparer",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux lave-linge",
+          "colonnes": [
+            "Critère",
+            "Modèle 1",
+            "Modèle 2"
+          ],
+          "lignes": [
+            [
+              "note de réparabilité",
+              "8,5/10",
+              "5/10"
+            ],
+            [
+              "classe énergétique",
+              "A",
+              "D"
+            ],
+            [
+              "prix d’achat",
+              "plus élevé",
+              "plus bas"
+            ],
+            [
+              "cout sur 10 ans",
+              "plus bas",
+              "plus élevé"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Sur 10 ans, le modèle le plus avantageux est :",
+          "options": [
+            "le modèle 1",
+            "le modèle 2",
+            "aucun"
+          ],
+          "reponse": "le modèle 1",
+          "explication": "Il consomme moins et se répare mieux."
+        }
+      ]
+    },
+    {
+      "titre": "Les trois piliers",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Argumenter",
+          "colonnes": [
+            "Pilier",
+            "Question"
+          ],
+          "lignes": [
+            [
+              "environnemental",
+              "consommation, matériaux, recyclage ?"
+            ],
+            [
+              "économique",
+              "cout d’achat et d’usage ?"
+            ],
+            [
+              "social",
+              "conditions de fabrication, emplois de réparation ?"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On ne regarde que le prix d’achat.",
+          "correction": "Le cout d’usage et la durée de vie comptent autant : un appareil bon marché peut couter plus cher au final."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "La classe énergétique va de :",
+      "options": [
+        "A à G",
+        "1 à 10",
+        "rouge à vert sans lettre"
+      ],
+      "reponse": "A à G",
+      "explication": "A est la plus économe."
+    },
+    {
+      "consigne": "Les trois piliers du développement durable sont :",
+      "options": [
+        "environnemental, économique, social",
+        "cout, poids, couleur",
+        "air, eau, terre"
+      ],
+      "reponse": "environnemental, économique, social",
+      "explication": "Ils doivent être équilibrés."
+    },
+    {
+      "consigne": "Une note de réparabilité élevée signifie :",
+      "options": [
+        "que l’objet se répare facilement",
+        "qu’il ne tombe jamais en panne",
+        "qu’il est jetable"
+      ],
+      "reponse": "que l’objet se répare facilement",
+      "explication": "Pièces disponibles, démontage facile."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 9,
+      "extrait": "L’indice énergétique et l’indice de réparabilité",
+      "appui": "Réparabilité et étiquette énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

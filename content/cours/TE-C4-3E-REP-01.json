@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-3E-REP-01",
+  "duree": 6,
+  "essentiel": "Pour dépanner un objet, on formule des hypothèses sur la cause de la panne, puis on les teste une par une.\nOn commence par les causes les plus simples à vérifier.\nUne lampe de bureau ne s’allume plus : on vérifie la prise, puis l’ampoule, puis l’interrupteur. Une pièce cassée peut être refaite sur mesure.",
+  "parties": [
+    {
+      "titre": "Un protocole",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "La lampe ne s’allume plus",
+          "colonnes": [
+            "Hypothèse",
+            "Test",
+            "Résultat"
+          ],
+          "lignes": [
+            [
+              "pas de courant",
+              "brancher un autre appareil sur la prise",
+              "fonctionne : la prise est bonne"
+            ],
+            [
+              "ampoule grillée",
+              "essayer une ampoule neuve",
+              "la lampe s’allume : panne trouvée"
+            ],
+            [
+              "interrupteur défectueux",
+              "tester au multimètre",
+              "inutile ici"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi tester d’abord la prise ?",
+          "options": [
+            "c’est la vérification la plus simple",
+            "c’est toujours la cause",
+            "pour gagner du courant"
+          ],
+          "reponse": "c’est la vérification la plus simple",
+          "explication": "On va du plus simple au plus long à vérifier."
+        }
+      ]
+    },
+    {
+      "titre": "Réparer",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Le clip cassé d’un boitier peut être modélisé en 3D et imprimé. La réparation prolonge la vie de l’objet."
+        },
+        {
+          "type": "piege",
+          "erreur": "On change plusieurs pièces en même temps.",
+          "correction": "On ne saurait plus laquelle était en panne : un test à la fois."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Pour tester la continuité d’un fil, on utilise :",
+      "options": [
+        "un multimètre",
+        "une balance",
+        "un thermomètre"
+      ],
+      "reponse": "un multimètre",
+      "explication": "Il vérifie que le courant passe."
+    },
+    {
+      "consigne": "Réparer un objet plutôt que le remplacer :",
+      "options": [
+        "réduit les déchets",
+        "augmente toujours le cout",
+        "est interdit"
+      ],
+      "reponse": "réduit les déchets",
+      "explication": "Il dure plus longtemps."
+    },
+    {
+      "consigne": "Une hypothèse de panne doit être :",
+      "options": [
+        "testée",
+        "acceptée sans vérification",
+        "ignorée"
+      ],
+      "reponse": "testée",
+      "explication": "Le test la confirme ou l’écarte."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 13,
+      "extrait": "Formuler des hypothèses expliquant le",
+      "appui": "Dépanner et réparer"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

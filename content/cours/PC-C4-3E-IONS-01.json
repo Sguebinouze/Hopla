@@ -1,0 +1,123 @@
+{
+  "competence": "PC-C4-3E-IONS-01",
+  "duree": 7,
+  "essentiel": "Une solution acide contient plus d’ions hydrogène H⁺ que d’ions hydroxyde OH⁻. Une solution basique en contient moins. Une solution neutre en contient autant.\nUn acide réagit avec certains métaux : dans l’acide chlorhydrique, le fer est attaqué et du dihydrogène se dégage.\nIl se forme aussi des ions fer Fe²⁺, que la soude révèle par un précipité vert.",
+  "parties": [
+    {
+      "titre": "pH et ions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Caractère d’une solution",
+          "colonnes": [
+            "Solution",
+            "pH",
+            "Ions majoritaires"
+          ],
+          "lignes": [
+            [
+              "acide",
+              "inférieur à 7",
+              "H⁺"
+            ],
+            [
+              "neutre",
+              "7",
+              "autant de H⁺ que de OH⁻"
+            ],
+            [
+              "basique",
+              "supérieur à 7",
+              "OH⁻"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une solution riche en ions OH⁻ est :",
+          "options": [
+            "basique",
+            "acide",
+            "neutre"
+          ],
+          "reponse": "basique",
+          "explication": "Son pH est supérieur à 7."
+        }
+      ]
+    },
+    {
+      "titre": "Acide et métal",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Fer et acide chlorhydrique",
+          "colonnes": [
+            "Observation",
+            "Test",
+            "Conclusion"
+          ],
+          "lignes": [
+            [
+              "des bulles se forment",
+              "petite détonation près d’une flamme",
+              "dihydrogène"
+            ],
+            [
+              "la solution contient de nouveaux ions",
+              "précipité vert avec la soude",
+              "ions Fe²⁺"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que le fer disparait sans laisser de trace.",
+          "correction": "Ses atomes deviennent des ions Fe²⁺ dissous : ils sont toujours là, dans la solution."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le gaz dégagé quand un acide attaque le fer est :",
+      "options": [
+        "le dihydrogène",
+        "le dioxygène",
+        "le dioxyde de carbone"
+      ],
+      "reponse": "le dihydrogène",
+      "explication": "Il produit une petite détonation."
+    },
+    {
+      "consigne": "Les ions H⁺ caractérisent une solution :",
+      "options": [
+        "acide",
+        "basique",
+        "neutre"
+      ],
+      "reponse": "acide",
+      "explication": "pH inférieur à 7."
+    },
+    {
+      "consigne": "Un précipité vert avec la soude révèle :",
+      "options": [
+        "les ions Fe²⁺",
+        "les ions Cu²⁺",
+        "l’eau"
+      ],
+      "reponse": "les ions Fe²⁺",
+      "explication": "Les ions Cu²⁺ donnent un précipité bleu."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Associer le caractère acide ou basique à la présence d’ions H+ et OH-",
+      "appui": "Ions H⁺ et OH⁻"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

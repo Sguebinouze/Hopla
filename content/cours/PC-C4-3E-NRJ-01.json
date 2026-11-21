@@ -1,0 +1,103 @@
+{
+  "competence": "PC-C4-3E-NRJ-01",
+  "duree": 7,
+  "essentiel": "Un objet en mouvement possède une énergie cinétique : Ec = ½ × m × v², avec m en kg, v en m/s et Ec en joules.\nL’énergie cinétique est proportionnelle au carré de la vitesse : à 100 km/h, une voiture a quatre fois plus d’énergie qu’à 50 km/h.\nEn cas de choc, cette énergie se transforme en déformations : c’est pourquoi la vitesse est si dangereuse.",
+  "parties": [
+    {
+      "titre": "Calculer",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Une voiture de 1 000 kg roule à 20 m/s, soit 72 km/h. Quelle est son énergie cinétique ?",
+          "etapes": [
+            "Ec = ½ × 1 000 × 20².",
+            "Ec = 500 × 400 = 200 000."
+          ],
+          "conclusion": "Ec = 200 000 J, soit 200 kJ."
+        },
+        {
+          "type": "question",
+          "consigne": "Si la vitesse double, l’énergie cinétique est multipliée par :",
+          "options": [
+            "4",
+            "2",
+            "8"
+          ],
+          "reponse": "4",
+          "explication": "Elle dépend de v²."
+        }
+      ]
+    },
+    {
+      "titre": "Sécurité routière",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Distance d’arrêt",
+          "colonnes": [
+            "Étape",
+            "Ce qui se passe"
+          ],
+          "lignes": [
+            [
+              "distance de réaction",
+              "le conducteur voit le danger et réagit ; la voiture continue à la même vitesse"
+            ],
+            [
+              "distance de freinage",
+              "la voiture freine ; elle augmente comme le carré de la vitesse"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On oublie de convertir la vitesse : Ec = ½ × 1 000 × 72².",
+          "correction": "La vitesse doit être en m/s : 72 km/h = 20 m/s."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une balle de 0,5 kg lancée à 10 m/s a une énergie cinétique de :",
+      "options": [
+        "25 J",
+        "50 J",
+        "2,5 J"
+      ],
+      "reponse": "25 J",
+      "explication": "½ × 0,5 × 100."
+    },
+    {
+      "consigne": "La distance d’arrêt est la somme :",
+      "options": [
+        "des distances de réaction et de freinage",
+        "de la vitesse et du temps",
+        "de deux freinages"
+      ],
+      "reponse": "des distances de réaction et de freinage",
+      "explication": "Réaction puis freinage."
+    },
+    {
+      "consigne": "Un objet immobile a une énergie cinétique :",
+      "options": [
+        "nulle",
+        "maximale",
+        "négative"
+      ],
+      "reponse": "nulle",
+      "explication": "v = 0."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 104,
+      "extrait": "L'expression littérale de l'énergie cinétique peut être réservée à la classe de 3e.",
+      "appui": "L’énergie cinétique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

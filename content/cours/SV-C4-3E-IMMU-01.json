@@ -1,0 +1,120 @@
+{
+  "competence": "SV-C4-3E-IMMU-01",
+  "duree": 8,
+  "essentiel": "La peau et les muqueuses empêchent la plupart des micro-organismes d’entrer. S’ils pénètrent, une réaction rapide se déclenche : inflammation, phagocytose.\nDes lymphocytes produisent ensuite des anticorps ou détruisent les cellules infectées. L’organisme garde la mémoire du microbe.\nUn vaccin prépare l’organisme à reconnaitre un microbe avant même de le rencontrer.",
+  "parties": [
+    {
+      "titre": "Les défenses de l’organisme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois niveaux",
+          "colonnes": [
+            "Défense",
+            "Action"
+          ],
+          "lignes": [
+            [
+              "barrières",
+              "peau, muqueuses, larmes, mucus"
+            ],
+            [
+              "réaction rapide",
+              "inflammation ; les phagocytes avalent les microbes"
+            ],
+            [
+              "réaction adaptative",
+              "les lymphocytes produisent des anticorps spécifiques et gardent la mémoire"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La phagocytose consiste à :",
+          "options": [
+            "avaler et détruire un microbe",
+            "produire un vaccin",
+            "désinfecter la peau"
+          ],
+          "reponse": "avaler et détruire un microbe",
+          "explication": "Réalisée par des globules blancs."
+        }
+      ]
+    },
+    {
+      "titre": "Aider l’organisme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Vaccins, antiseptiques, antibiotiques",
+          "colonnes": [
+            "Moyen",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "vaccin",
+              "crée une mémoire immunitaire, avant l’infection"
+            ],
+            [
+              "antiseptique",
+              "tue les microbes sur la peau ou une plaie"
+            ],
+            [
+              "antibiotique",
+              "tue les bactéries dans l’organisme, pas les virus"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un vaccin soigne une maladie déjà déclarée.",
+          "correction": "Il prévient : il prépare la mémoire immunitaire avant le contact avec le microbe."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les anticorps sont produits par :",
+      "options": [
+        "les lymphocytes",
+        "les globules rouges",
+        "la peau"
+      ],
+      "reponse": "les lymphocytes",
+      "explication": "Des globules blancs spécialisés."
+    },
+    {
+      "consigne": "Pour désinfecter une plaie, on utilise :",
+      "options": [
+        "un antiseptique",
+        "un antibiotique",
+        "un vaccin"
+      ],
+      "reponse": "un antiseptique",
+      "explication": "Il agit sur la peau."
+    },
+    {
+      "consigne": "La mémoire immunitaire permet :",
+      "options": [
+        "une réaction plus rapide lors d’une seconde infection",
+        "de ne jamais être malade",
+        "de produire des microbes"
+      ],
+      "reponse": "une réaction plus rapide lors d’une seconde infection",
+      "explication": "C’est le principe de la vaccination."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 114,
+      "extrait": "l'explication globale est atteinte en classe de 3e.",
+      "appui": "Immunité et santé"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

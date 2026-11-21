@@ -1,0 +1,114 @@
+{
+  "competence": "PC-C4-3E-PUIS-01",
+  "duree": 7,
+  "essentiel": "La puissance électrique d’un appareil vaut P = U × I : en watts, avec U en volts et I en ampères.\nL’énergie consommée vaut E = P × t : une lampe de 10 W allumée 5 h consomme 50 Wh.\nLa facture d’électricité compte l’énergie en kilowattheures (kWh).",
+  "parties": [
+    {
+      "titre": "Puissance et énergie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des appareils",
+          "colonnes": [
+            "Appareil",
+            "Puissance",
+            "Durée",
+            "Énergie"
+          ],
+          "lignes": [
+            [
+              "lampe à DEL",
+              "10 W",
+              "5 h",
+              "50 Wh"
+            ],
+            [
+              "radiateur",
+              "2 000 W",
+              "3 h",
+              "6 kWh"
+            ],
+            [
+              "four",
+              "2 500 W",
+              "0,5 h",
+              "1,25 kWh"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un appareil fonctionne sous 230 V avec un courant de 2 A. Sa puissance :",
+          "options": [
+            "460 W",
+            "232 W",
+            "115 W"
+          ],
+          "reponse": "460 W",
+          "explication": "P = 230 × 2."
+        }
+      ]
+    },
+    {
+      "titre": "Calculer un cout",
+      "blocs": [
+        {
+          "type": "exemple-resolu",
+          "enonce": "Le radiateur consomme 6 kWh. Si le kWh coute 0,20 €, combien coute son utilisation ?",
+          "etapes": [
+            "6 × 0,20 = 1,20."
+          ],
+          "conclusion": "Elle coute 1,20 €."
+        },
+        {
+          "type": "piege",
+          "erreur": "On confond puissance et énergie : « ce radiateur consomme 2 000 W ».",
+          "correction": "La puissance est en watts. L’énergie consommée dépend aussi de la durée : en Wh ou kWh."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une bouilloire de 2 000 W chauffe 3 min, soit 0,05 h. Énergie :",
+      "options": [
+        "100 Wh",
+        "6 000 Wh",
+        "40 Wh"
+      ],
+      "reponse": "100 Wh",
+      "explication": "2 000 × 0,05."
+    },
+    {
+      "consigne": "La puissance s’exprime en :",
+      "options": [
+        "watts",
+        "joules",
+        "volts"
+      ],
+      "reponse": "watts",
+      "explication": "Symbole W."
+    },
+    {
+      "consigne": "1 kWh = ?",
+      "options": [
+        "1 000 Wh",
+        "100 Wh",
+        "3 600 Wh"
+      ],
+      "reponse": "1 000 Wh",
+      "explication": "Kilo signifie mille."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 104,
+      "extrait": "Les aspects énergétiques peuvent être réservés à la classe de 3e.",
+      "appui": "Puissance et énergie électrique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

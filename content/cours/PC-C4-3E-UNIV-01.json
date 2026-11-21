@@ -1,0 +1,106 @@
+{
+  "competence": "PC-C4-3E-UNIV-01",
+  "duree": 6,
+  "essentiel": "Le système solaire comprend le Soleil, huit planètes et de nombreux petits corps. Il fait partie d’une galaxie, la Voie lactée, qui compte des centaines de milliards d’étoiles.\nL’année-lumière est la distance parcourue par la lumière en un an : environ 9 500 milliards de km.\nLa lumière du Soleil met environ 8 minutes pour atteindre la Terre.",
+  "parties": [
+    {
+      "titre": "Des distances immenses",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Ordres de grandeur",
+          "colonnes": [
+            "Distance",
+            "Valeur environ"
+          ],
+          "lignes": [
+            [
+              "Terre-Lune",
+              "384 000 km, un peu plus d’une seconde-lumière"
+            ],
+            [
+              "Terre-Soleil",
+              "150 millions de km, environ 8 minutes-lumière"
+            ],
+            [
+              "étoile la plus proche du Soleil",
+              "4,2 années-lumière"
+            ],
+            [
+              "diamètre de la Voie lactée",
+              "environ 100 000 années-lumière"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "L’année-lumière est une unité de :",
+          "options": [
+            "distance",
+            "durée",
+            "vitesse"
+          ],
+          "reponse": "distance",
+          "explication": "Une distance parcourue en un an."
+        }
+      ]
+    },
+    {
+      "titre": "Regarder loin, c’est regarder dans le passé",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "La lumière d’une étoile située à 100 années-lumière est partie il y a 100 ans. On la voit telle qu’elle était à ce moment-là."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’année-lumière mesure un temps.",
+          "correction": "Malgré son nom, c’est une distance : celle que parcourt la lumière en une année."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Notre galaxie s’appelle :",
+      "options": [
+        "la Voie lactée",
+        "Andromède",
+        "le système solaire"
+      ],
+      "reponse": "la Voie lactée",
+      "explication": "Elle contient le système solaire."
+    },
+    {
+      "consigne": "Si le Soleil s’éteignait, on s’en apercevrait au bout d’environ :",
+      "options": [
+        "8 minutes",
+        "une seconde",
+        "une année"
+      ],
+      "reponse": "8 minutes",
+      "explication": "Le temps que met sa lumière."
+    },
+    {
+      "consigne": "Le système solaire compte :",
+      "options": [
+        "8 planètes",
+        "9 planètes",
+        "12 planètes"
+      ],
+      "reponse": "8 planètes",
+      "explication": "De Mercure à Neptune."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Aborder les différentes unités de distance et savoir les convertir : du kilomètre à l’année-lumière.",
+      "appui": "L’Univers et ses distances"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

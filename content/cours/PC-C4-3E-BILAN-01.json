@@ -1,0 +1,107 @@
+{
+  "competence": "PC-C4-3E-BILAN-01",
+  "duree": 6,
+  "essentiel": "Un convertisseur reçoit de l’énergie et en restitue une partie sous forme utile. Le reste est perdu, souvent en chaleur.\nÉnergie reçue = énergie utile + énergie perdue.\nLe rendement vaut énergie utile ÷ énergie reçue. Une lampe qui reçoit 100 J et produit 10 J de lumière a un rendement de 0,1, soit 10 %.",
+  "parties": [
+    {
+      "titre": "Établir un bilan",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Deux convertisseurs",
+          "colonnes": [
+            "Convertisseur",
+            "Reçue",
+            "Utile",
+            "Perdue",
+            "Rendement"
+          ],
+          "lignes": [
+            [
+              "lampe à incandescence",
+              "100 J électrique",
+              "10 J lumineuse",
+              "90 J thermique",
+              "10 %"
+            ],
+            [
+              "moteur électrique",
+              "100 J électrique",
+              "90 J mécanique",
+              "10 J thermique",
+              "90 %"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Un moteur reçoit 500 J et fournit 400 J utiles. Rendement :",
+          "options": [
+            "80 %",
+            "125 %",
+            "20 %"
+          ],
+          "reponse": "80 %",
+          "explication": "400 ÷ 500 = 0,8."
+        }
+      ]
+    },
+    {
+      "titre": "Un rendement jamais supérieur à 1",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Aucun appareil ne crée d’énergie : l’énergie utile est toujours inférieure ou égale à l’énergie reçue."
+        },
+        {
+          "type": "piege",
+          "erreur": "On trouve un rendement de 125 %.",
+          "correction": "On a inversé le calcul : c’est utile ÷ reçue, jamais l’inverse."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une lampe reçoit 50 J et en perd 40 J en chaleur. Énergie lumineuse :",
+      "options": [
+        "10 J",
+        "90 J",
+        "40 J"
+      ],
+      "reponse": "10 J",
+      "explication": "50 − 40."
+    },
+    {
+      "consigne": "Le rendement d’une lampe à DEL est :",
+      "options": [
+        "meilleur que celui d’une lampe à incandescence",
+        "moins bon",
+        "identique"
+      ],
+      "reponse": "meilleur que celui d’une lampe à incandescence",
+      "explication": "Elle perd moins en chaleur."
+    },
+    {
+      "consigne": "Un rendement de 0,25 signifie :",
+      "options": [
+        "25 % de l’énergie reçue est utile",
+        "25 J sont perdus",
+        "l’appareil ne marche pas"
+      ],
+      "reponse": "25 % de l’énergie reçue est utile",
+      "explication": "0,25 = 25 %."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 102,
+      "extrait": "Établir un bilan énergétique pour un système simple",
+      "appui": "Bilan énergétique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

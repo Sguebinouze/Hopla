@@ -1,0 +1,120 @@
+{
+  "competence": "PC-C4-3E-UNIT-01",
+  "duree": 5,
+  "essentiel": "L’unité d’énergie du système international est le joule (J). On utilise aussi le kilowattheure (kWh), surtout pour l’électricité.\n1 Wh = 3 600 J, car 1 W pendant 3 600 s. Donc 1 kWh = 3 600 000 J.\nPour comparer des énergies, on les exprime dans la même unité.",
+  "parties": [
+    {
+      "titre": "Convertir",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Correspondances",
+          "colonnes": [
+            "Énergie",
+            "En joules"
+          ],
+          "lignes": [
+            [
+              "1 Wh",
+              "3 600 J"
+            ],
+            [
+              "1 kWh",
+              "3 600 000 J, soit 3,6 × 10⁶ J"
+            ],
+            [
+              "1 kJ",
+              "1 000 J"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "2 kWh = ?",
+          "options": [
+            "7 200 000 J",
+            "7 200 J",
+            "2 000 J"
+          ],
+          "reponse": "7 200 000 J",
+          "explication": "2 × 3 600 000."
+        }
+      ]
+    },
+    {
+      "titre": "Comparer des ordres de grandeur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Quelques énergies",
+          "colonnes": [
+            "Situation",
+            "Énergie environ"
+          ],
+          "lignes": [
+            [
+              "recharger un smartphone",
+              "15 Wh"
+            ],
+            [
+              "une douche chaude de 5 minutes",
+              "1 à 2 kWh"
+            ],
+            [
+              "les aliments d’une journée pour un adolescent",
+              "3 kWh, soit environ 10 000 kJ"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On convertit 1 kWh en 1 000 J.",
+          "correction": "1 kWh = 1 000 Wh, et chaque Wh vaut 3 600 J : 3 600 000 J."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "7 200 J = ?",
+      "options": [
+        "2 Wh",
+        "7,2 Wh",
+        "2 kWh"
+      ],
+      "reponse": "2 Wh",
+      "explication": "7 200 ÷ 3 600."
+    },
+    {
+      "consigne": "L’unité d’énergie du système international est :",
+      "options": [
+        "le joule",
+        "le watt",
+        "le kilowattheure"
+      ],
+      "reponse": "le joule",
+      "explication": "Symbole J."
+    },
+    {
+      "consigne": "Un kilowattheure correspond à :",
+      "options": [
+        "1 000 W pendant 1 heure",
+        "1 W pendant 1 000 heures seulement",
+        "1 000 J"
+      ],
+      "reponse": "1 000 W pendant 1 heure",
+      "explication": "1 kW × 1 h."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 103,
+      "extrait": "Unités d’énergie",
+      "appui": "Unités d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,110 @@
+{
+  "competence": "TE-C4-3E-TEST-01",
+  "duree": 6,
+  "essentiel": "Pour valider une solution, on la teste par une simulation ou par un protocole de mesures.\nOn compare les résultats aux exigences du cahier des charges et on calcule les écarts.\nExigence : autonomie de 2 h. Mesure : 1 h 40. Écart : 20 min, l’exigence n’est pas atteinte.",
+  "parties": [
+    {
+      "titre": "Comparer aux exigences",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Validation d’un robot",
+          "colonnes": [
+            "Exigence",
+            "Valeur attendue",
+            "Mesure",
+            "Validé ?"
+          ],
+          "lignes": [
+            [
+              "autonomie",
+              "2 h",
+              "1 h 40",
+              "non, écart de 20 min"
+            ],
+            [
+              "vitesse",
+              "au moins 0,5 m/s",
+              "0,6 m/s",
+              "oui"
+            ],
+            [
+              "masse",
+              "au plus 2 kg",
+              "1,8 kg",
+              "oui"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Une mesure de 0,6 m/s pour une exigence d’au moins 0,5 m/s :",
+          "options": [
+            "est validée",
+            "n’est pas validée",
+            "n’a pas de sens"
+          ],
+          "reponse": "est validée",
+          "explication": "0,6 ≥ 0,5."
+        }
+      ]
+    },
+    {
+      "titre": "Réduire un écart",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Pour gagner 20 min d’autonomie, on peut choisir une batterie plus puissante, alléger le robot ou réduire sa vitesse."
+        },
+        {
+          "type": "piege",
+          "erreur": "On valide une solution sur un seul essai.",
+          "correction": "On répète les mesures dans les mêmes conditions pour s’assurer du résultat."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un écart, en validation, est :",
+      "options": [
+        "la différence entre la mesure et l’exigence",
+        "une panne",
+        "un nouveau besoin"
+      ],
+      "reponse": "la différence entre la mesure et l’exigence",
+      "explication": "Il dit si l’objectif est atteint."
+    },
+    {
+      "consigne": "Une simulation permet :",
+      "options": [
+        "de tester une solution sur ordinateur avant de la fabriquer",
+        "de fabriquer plus vite",
+        "de remplacer le cahier des charges"
+      ],
+      "reponse": "de tester une solution sur ordinateur avant de la fabriquer",
+      "explication": "On économise du temps et des matériaux."
+    },
+    {
+      "consigne": "Exigence : masse au plus 3 kg. Mesure : 3,4 kg. La solution :",
+      "options": [
+        "n’est pas validée",
+        "est validée",
+        "est parfaite"
+      ],
+      "reponse": "n’est pas validée",
+      "explication": "3,4 > 3."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 15,
+      "extrait": "Valider les solutions techniques par des simulations ou par des protocoles de tests",
+      "appui": "Valider une solution par des tests"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,128 @@
+{
+  "competence": "TE-C4-3E-NUMER-01",
+  "duree": 7,
+  "essentiel": "Une grandeur analogique varie de façon continue, comme la tension fournie par un capteur de température.\nUn convertisseur la transforme en nombre : c’est une donnée numérique, exploitable par le microcontrôleur.\nLes données numériques sont codées en binaire, avec des 0 et des 1 : les bits. Avec 8 bits, on code 256 valeurs.",
+  "parties": [
+    {
+      "titre": "Analogique et numérique",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer",
+          "colonnes": [
+            "Critère",
+            "Analogique",
+            "Numérique"
+          ],
+          "lignes": [
+            [
+              "valeurs",
+              "continues",
+              "en nombre limité"
+            ],
+            [
+              "exemple",
+              "tension du capteur",
+              "nombre lu par le microcontrôleur"
+            ],
+            [
+              "support",
+              "aiguille, signal électrique",
+              "bits : 0 et 1"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Avec 8 bits, combien de valeurs différentes peut-on coder ?",
+          "options": [
+            "256",
+            "8",
+            "16"
+          ],
+          "reponse": "256",
+          "explication": "2⁸ = 256."
+        }
+      ]
+    },
+    {
+      "titre": "Le binaire",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des nombres en binaire",
+          "colonnes": [
+            "Décimal",
+            "Binaire"
+          ],
+          "lignes": [
+            [
+              "2",
+              "10"
+            ],
+            [
+              "5",
+              "101"
+            ],
+            [
+              "13",
+              "1101"
+            ],
+            [
+              "255",
+              "1111 1111"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On lit « 101 » en binaire comme cent un.",
+          "correction": "En binaire, 101 = 1 × 4 + 0 × 2 + 1 × 1 = 5."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En binaire, 110 vaut :",
+      "options": [
+        "6",
+        "110",
+        "3"
+      ],
+      "reponse": "6",
+      "explication": "4 + 2 + 0."
+    },
+    {
+      "consigne": "Un bit peut valoir :",
+      "options": [
+        "0 ou 1",
+        "de 0 à 9",
+        "n’importe quel nombre"
+      ],
+      "reponse": "0 ou 1",
+      "explication": "Deux états."
+    },
+    {
+      "consigne": "Avec 10 bits, on code :",
+      "options": [
+        "1 024 valeurs",
+        "100 valeurs",
+        "20 valeurs"
+      ],
+      "reponse": "1 024 valeurs",
+      "explication": "2¹⁰ = 1 024."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Associer des grandeurs analogiques issues",
+      "appui": "Analogique et numérique"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

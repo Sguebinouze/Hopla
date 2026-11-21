@@ -1,0 +1,106 @@
+{
+  "competence": "SV-C4-3E-GEN-01",
+  "duree": 8,
+  "essentiel": "Le noyau de chaque cellule contient des chromosomes, formés d’ADN. Chez l’être humain, il y en a 46, soit 23 paires.\nUn gène est une portion d’ADN qui gouverne un caractère héréditaire. Un gène peut exister sous plusieurs versions : les allèles.\nChaque enfant reçoit un chromosome de chaque paire de son père et de sa mère : il est unique.",
+  "parties": [
+    {
+      "titre": "Du chromosome au gène",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les supports de l’hérédité",
+          "colonnes": [
+            "Élément",
+            "Définition"
+          ],
+          "lignes": [
+            [
+              "chromosome",
+              "long filament d’ADN dans le noyau"
+            ],
+            [
+              "ADN",
+              "molécule qui porte l’information génétique"
+            ],
+            [
+              "gène",
+              "portion d’ADN qui gouverne un caractère"
+            ],
+            [
+              "allèle",
+              "version d’un gène, par exemple pour le groupe sanguin"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Combien de chromosomes contient une cellule humaine ?",
+          "options": [
+            "46",
+            "23",
+            "92"
+          ],
+          "reponse": "46",
+          "explication": "23 paires."
+        }
+      ]
+    },
+    {
+      "titre": "L’unicité",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Deux frères ont les mêmes parents, mais chacun a reçu une combinaison différente d’allèles. Seuls les vrais jumeaux ont les mêmes allèles."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un gène et un allèle sont la même chose.",
+          "correction": "Le gène gouverne un caractère, par exemple le groupe sanguin. Les allèles sont ses versions : A, B ou O."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Chaque parent transmet à l’enfant :",
+      "options": [
+        "un chromosome de chaque paire",
+        "tous ses chromosomes",
+        "un seul chromosome"
+      ],
+      "reponse": "un chromosome de chaque paire",
+      "explication": "23 chromosomes chacun."
+    },
+    {
+      "consigne": "L’ADN se trouve dans :",
+      "options": [
+        "le noyau des cellules",
+        "le sang seulement",
+        "les os seulement"
+      ],
+      "reponse": "le noyau des cellules",
+      "explication": "Dans les chromosomes."
+    },
+    {
+      "consigne": "Les allèles A, B et O sont des versions du gène :",
+      "options": [
+        "du groupe sanguin",
+        "de la couleur des yeux",
+        "de la taille"
+      ],
+      "reponse": "du groupe sanguin",
+      "explication": "Un gène, plusieurs allèles."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "La diversité génétique des individus : on passe progressivement du constat de la diversité",
+      "appui": "Génétique et hérédité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

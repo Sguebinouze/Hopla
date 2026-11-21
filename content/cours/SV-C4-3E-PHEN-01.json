@@ -1,0 +1,107 @@
+{
+  "competence": "SV-C4-3E-PHEN-01",
+  "duree": 6,
+  "essentiel": "Le phénotype est l’ensemble des caractères observables d’un individu. Le génotype est l’ensemble de ses allèles.\nLe phénotype dépend du génotype, mais aussi de l’environnement.\nDes vrais jumeaux ont les mêmes gènes mais peuvent avoir des peaux plus ou moins bronzées selon leur exposition au soleil.",
+  "parties": [
+    {
+      "titre": "Gènes et environnement",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Caractère",
+            "Rôle des gènes",
+            "Rôle de l’environnement"
+          ],
+          "lignes": [
+            [
+              "groupe sanguin",
+              "total",
+              "aucun"
+            ],
+            [
+              "couleur de peau",
+              "important",
+              "exposition au soleil"
+            ],
+            [
+              "taille adulte",
+              "important",
+              "alimentation, santé"
+            ],
+            [
+              "couleur des hortensias",
+              "présent",
+              "acidité du sol"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le groupe sanguin dépend :",
+          "options": [
+            "uniquement des allèles hérités",
+            "de l’alimentation",
+            "du climat"
+          ],
+          "reponse": "uniquement des allèles hérités",
+          "explication": "L’environnement ne le change pas."
+        }
+      ]
+    },
+    {
+      "titre": "Ne pas tout attribuer aux gènes",
+      "blocs": [
+        {
+          "type": "piege",
+          "erreur": "On croit que tous nos caractères sont fixés à la naissance par nos gènes.",
+          "correction": "Beaucoup de caractères dépendent aussi du mode de vie et du milieu."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le génotype désigne :",
+      "options": [
+        "l’ensemble des allèles d’un individu",
+        "son apparence",
+        "son milieu de vie"
+      ],
+      "reponse": "l’ensemble des allèles d’un individu",
+      "explication": "Son patrimoine génétique."
+    },
+    {
+      "consigne": "Les muscles d’un sportif entrainé dépendent aussi :",
+      "options": [
+        "de l’environnement, ici l’entrainement",
+        "uniquement des gènes",
+        "du groupe sanguin"
+      ],
+      "reponse": "de l’environnement, ici l’entrainement",
+      "explication": "Le phénotype évolue avec le mode de vie."
+    },
+    {
+      "consigne": "Des vrais jumeaux ont :",
+      "options": [
+        "les mêmes allèles",
+        "des allèles différents",
+        "des groupes sanguins différents"
+      ],
+      "reponse": "les mêmes allèles",
+      "explication": "Ils viennent de la même cellule-œuf."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 112,
+      "extrait": "Expliquer comment les phénotypes sont déterminés par les génotypes",
+      "appui": "Génotype, phénotype, environnement"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

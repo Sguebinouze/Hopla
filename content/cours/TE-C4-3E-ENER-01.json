@@ -1,0 +1,111 @@
+{
+  "competence": "TE-C4-3E-ENER-01",
+  "duree": 6,
+  "essentiel": "Le schéma bloc de la chaine d’énergie montre les fonctions alimenter, distribuer, convertir, transmettre, et l’énergie qui circule entre elles.\nPortail automatique : batterie (alimenter) → variateur (distribuer) → moteur (convertir) → engrenages (transmettre).\nOn indique la nature de l’énergie à chaque étape : électrique, puis mécanique.",
+  "parties": [
+    {
+      "titre": "Le schéma bloc",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Portail automatique",
+          "colonnes": [
+            "Fonction",
+            "Constituant",
+            "Énergie en sortie"
+          ],
+          "lignes": [
+            [
+              "alimenter",
+              "batterie",
+              "électrique"
+            ],
+            [
+              "distribuer",
+              "variateur",
+              "électrique dosée"
+            ],
+            [
+              "convertir",
+              "moteur",
+              "mécanique de rotation"
+            ],
+            [
+              "transmettre",
+              "engrenages",
+              "mécanique, vers le vantail"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Dans ce schéma, quel constituant change la nature de l’énergie ?",
+          "options": [
+            "le moteur",
+            "la batterie",
+            "le variateur"
+          ],
+          "reponse": "le moteur",
+          "explication": "Électrique → mécanique."
+        }
+      ]
+    },
+    {
+      "titre": "Des pertes",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "À chaque conversion, une partie de l’énergie est perdue, surtout en chaleur. Le moteur d’un portail chauffe quand il fonctionne longtemps."
+        },
+        {
+          "type": "piege",
+          "erreur": "On place le moteur dans « transmettre ».",
+          "correction": "Le moteur convertit l’énergie. Les engrenages, poulies ou chaines la transmettent."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le variateur sert à :",
+      "options": [
+        "distribuer l’énergie selon la commande",
+        "stocker l’énergie",
+        "convertir en chaleur"
+      ],
+      "reponse": "distribuer l’énergie selon la commande",
+      "explication": "Il dose l’énergie envoyée au moteur."
+    },
+    {
+      "consigne": "Un panneau solaire, en entrée d’une chaine, sert à :",
+      "options": [
+        "alimenter",
+        "transmettre",
+        "distribuer"
+      ],
+      "reponse": "alimenter",
+      "explication": "Il fournit l’énergie électrique."
+    },
+    {
+      "consigne": "Dans un vélo électrique, la chaine assure la fonction :",
+      "options": [
+        "transmettre",
+        "convertir",
+        "alimenter"
+      ],
+      "reponse": "transmettre",
+      "explication": "Elle transmet la rotation à la roue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 11,
+      "extrait": "Élaborer, à l’aide d’un schéma bloc, la",
+      "appui": "Schéma de la chaine d’énergie"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

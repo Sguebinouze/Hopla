@@ -1,0 +1,102 @@
+{
+  "competence": "PC-C4-3E-RAYO-01",
+  "duree": 6,
+  "essentiel": "Un corps qui absorbe un rayonnement reçoit de l’énergie et s’échauffe ; un corps sombre absorbe plus qu’un corps clair.\nLa Terre reçoit le rayonnement du Soleil et émet à son tour un rayonnement infrarouge.\nLes gaz à effet de serre absorbent une partie de ce rayonnement infrarouge : ils retiennent la chaleur près du sol.",
+  "parties": [
+    {
+      "titre": "Absorber, émettre",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Des exemples",
+          "colonnes": [
+            "Situation",
+            "Explication"
+          ],
+          "lignes": [
+            [
+              "une voiture noire au soleil chauffe plus qu’une blanche",
+              "le noir absorbe plus le rayonnement"
+            ],
+            [
+              "un radiateur chauffe la pièce à distance",
+              "il émet un rayonnement infrarouge"
+            ],
+            [
+              "la neige fond lentement au soleil",
+              "elle renvoie beaucoup de rayonnement"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "En été, pour avoir moins chaud, on porte plutôt des vêtements :",
+          "options": [
+            "clairs",
+            "noirs",
+            "épais et sombres"
+          ],
+          "reponse": "clairs",
+          "explication": "Ils absorbent moins le rayonnement."
+        }
+      ]
+    },
+    {
+      "titre": "L’effet de serre",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Sans effet de serre naturel, la température moyenne de la Terre serait d’environ −18 °C au lieu de 15 °C. Les rejets humains le renforcent."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que l’effet de serre est entièrement néfaste.",
+          "correction": "L’effet naturel rend la Terre habitable. C’est son renforcement par les activités humaines qui réchauffe le climat."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Les gaz à effet de serre absorbent surtout :",
+      "options": [
+        "le rayonnement infrarouge émis par la Terre",
+        "la lumière visible du Soleil",
+        "le son"
+      ],
+      "reponse": "le rayonnement infrarouge émis par la Terre",
+      "explication": "Ils retiennent la chaleur."
+    },
+    {
+      "consigne": "Sans effet de serre naturel, la Terre serait :",
+      "options": [
+        "beaucoup plus froide",
+        "plus chaude",
+        "identique"
+      ],
+      "reponse": "beaucoup plus froide",
+      "explication": "Environ −18 °C en moyenne."
+    },
+    {
+      "consigne": "Un corps sombre au soleil :",
+      "options": [
+        "s’échauffe davantage",
+        "reste froid",
+        "émet de la lumière visible"
+      ],
+      "reponse": "s’échauffe davantage",
+      "explication": "Il absorbe plus."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 103,
+      "extrait": "Associer l’émission et l’absorption d’un rayonnement à un transfert d’énergie",
+      "appui": "Rayonnement et effet de serre"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,110 @@
+{
+  "competence": "SV-C4-3E-BIOD-01",
+  "duree": 7,
+  "essentiel": "La biodiversité recule rapidement. Les principales menaces sont la destruction des milieux, la surexploitation, la pollution, le changement climatique et les espèces envahissantes.\nLe frelon asiatique, arrivé par accident en France, chasse les abeilles.\nDes solutions existent : aires protégées, corridors écologiques, agriculture plus respectueuse, lutte contre les espèces envahissantes.",
+  "parties": [
+    {
+      "titre": "Cinq menaces",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Menaces et exemples",
+          "colonnes": [
+            "Menace",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "destruction des milieux",
+              "zones humides asséchées, forêts rasées"
+            ],
+            [
+              "surexploitation",
+              "surpêche"
+            ],
+            [
+              "pollution",
+              "pesticides, plastiques"
+            ],
+            [
+              "changement climatique",
+              "coraux qui blanchissent"
+            ],
+            [
+              "espèces envahissantes",
+              "frelon asiatique"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Le frelon asiatique menace surtout :",
+          "options": [
+            "les abeilles",
+            "les poissons",
+            "les arbres"
+          ],
+          "reponse": "les abeilles",
+          "explication": "Il les chasse devant les ruches."
+        }
+      ]
+    },
+    {
+      "titre": "Préserver",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Une haie replantée entre deux bois relie des populations isolées. Les animaux circulent, se nourrissent et se reproduisent mieux."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que protéger une seule espèce emblématique suffit.",
+          "correction": "Il faut protéger son milieu et tout l’écosystème dont elle dépend."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Une espèce envahissante est :",
+      "options": [
+        "une espèce introduite qui prolifère et nuit aux espèces locales",
+        "une espèce très rare",
+        "une espèce protégée"
+      ],
+      "reponse": "une espèce introduite qui prolifère et nuit aux espèces locales",
+      "explication": "Comme le frelon asiatique."
+    },
+    {
+      "consigne": "Un corridor écologique permet :",
+      "options": [
+        "aux espèces de circuler entre deux milieux",
+        "de chasser plus facilement",
+        "de construire des routes"
+      ],
+      "reponse": "aux espèces de circuler entre deux milieux",
+      "explication": "Il relie les populations."
+    },
+    {
+      "consigne": "La surpêche est une forme de :",
+      "options": [
+        "surexploitation",
+        "pollution",
+        "reproduction"
+      ],
+      "reponse": "surexploitation",
+      "explication": "On prélève plus que la population ne se renouvelle."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 110,
+      "extrait": "Quelques exemples d’interactions entre les activités humaines et l’environnement, dont l’interaction être humain - biodiversité",
+      "appui": "Biodiversité et êtres humains"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

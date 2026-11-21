@@ -1,0 +1,102 @@
+{
+  "competence": "PC-C4-3E-ELEM-01",
+  "duree": 5,
+  "essentiel": "La matière est de même nature partout dans l’Univers : on y retrouve les éléments du tableau périodique.\nL’hydrogène et l’hélium sont de loin les éléments les plus abondants de l’Univers.\nLes éléments plus lourds, comme le carbone, l’oxygène ou le fer, ont été formés dans les étoiles : le fer de notre sang en vient.",
+  "parties": [
+    {
+      "titre": "D’où viennent les éléments ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Origine des éléments",
+          "colonnes": [
+            "Éléments",
+            "Origine"
+          ],
+          "lignes": [
+            [
+              "hydrogène, hélium",
+              "formés peu après le Big Bang"
+            ],
+            [
+              "carbone, oxygène, azote",
+              "formés au cœur des étoiles"
+            ],
+            [
+              "fer et éléments plus lourds",
+              "étoiles massives et explosions d’étoiles"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Les éléments les plus abondants de l’Univers sont :",
+          "options": [
+            "l’hydrogène et l’hélium",
+            "le fer et l’or",
+            "l’oxygène et le carbone"
+          ],
+          "reponse": "l’hydrogène et l’hélium",
+          "explication": "Ils forment l’essentiel des étoiles."
+        }
+      ]
+    },
+    {
+      "titre": "Poussières d’étoiles",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "Les atomes de carbone de notre corps ont été fabriqués dans des étoiles disparues, avant la formation du système solaire."
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit que la Terre est faite d’une matière différente de celle des étoiles.",
+          "correction": "Les spectres de la lumière des étoiles montrent les mêmes éléments que sur Terre."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Le fer de notre sang a été formé :",
+      "options": [
+        "dans des étoiles",
+        "dans notre estomac",
+        "dans les volcans"
+      ],
+      "reponse": "dans des étoiles",
+      "explication": "Par des réactions au cœur des étoiles."
+    },
+    {
+      "consigne": "Le Soleil est surtout composé :",
+      "options": [
+        "d’hydrogène et d’hélium",
+        "de fer",
+        "d’eau"
+      ],
+      "reponse": "d’hydrogène et d’hélium",
+      "explication": "Comme la plupart des étoiles."
+    },
+    {
+      "consigne": "Les éléments présents dans l’Univers sont :",
+      "options": [
+        "les mêmes que sur Terre",
+        "tous inconnus sur Terre",
+        "différents d’une galaxie à l’autre"
+      ],
+      "reponse": "les mêmes que sur Terre",
+      "explication": "La matière est de même nature partout."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 100,
+      "extrait": "Les éléments sur Terre et dans l’Univers",
+      "appui": "Les éléments dans l’Univers"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

@@ -1,0 +1,106 @@
+{
+  "competence": "TE-C4-3E-PROG-01",
+  "duree": 7,
+  "essentiel": "Pour programmer une fonctionnalité, on identifie d’abord les données : entrées des capteurs, sorties vers les actionneurs, variables.\nAlarme : si la porte s’ouvre et que l’alarme est activée, alors la sirène sonne.\nLe même algorithme peut s’écrire en blocs ou en langage textuel, comme Python.",
+  "parties": [
+    {
+      "titre": "Données et algorithme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "L’alarme",
+          "colonnes": [
+            "Donnée",
+            "Type",
+            "Rôle"
+          ],
+          "lignes": [
+            [
+              "porte_ouverte",
+              "booléen",
+              "entrée du capteur"
+            ],
+            [
+              "alarme_active",
+              "booléen",
+              "état choisi par l’utilisateur"
+            ],
+            [
+              "sirene",
+              "commande",
+              "sortie vers l’actionneur"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "La sirène sonne si :",
+          "options": [
+            "la porte est ouverte ET l’alarme est activée",
+            "la porte est ouverte OU l’alarme est activée",
+            "l’alarme est désactivée"
+          ],
+          "reponse": "la porte est ouverte ET l’alarme est activée",
+          "explication": "Les deux conditions sont nécessaires."
+        }
+      ]
+    },
+    {
+      "titre": "En langage textuel",
+      "blocs": [
+        {
+          "type": "explique",
+          "texte": "En Python : « if porte_ouverte and alarme_active: sonner() ». Le mot and correspond au bloc ET."
+        },
+        {
+          "type": "piege",
+          "erreur": "On teste seulement le cas où tout fonctionne.",
+          "correction": "On teste les quatre combinaisons : porte ouverte ou fermée, alarme activée ou non."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "En Python, l’opérateur ET s’écrit :",
+      "options": [
+        "and",
+        "or",
+        "not"
+      ],
+      "reponse": "and",
+      "explication": "or correspond à OU."
+    },
+    {
+      "consigne": "Un capteur fournit au programme :",
+      "options": [
+        "une entrée",
+        "une sortie",
+        "une boucle"
+      ],
+      "reponse": "une entrée",
+      "explication": "Le programme lit sa valeur."
+    },
+    {
+      "consigne": "Pour valider le programme de l’alarme, on teste :",
+      "options": [
+        "toutes les combinaisons d’entrées",
+        "une seule situation",
+        "rien"
+      ],
+      "reponse": "toutes les combinaisons d’entrées",
+      "explication": "Quatre cas ici."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bo9-2024-technologie-c4",
+      "page": 14,
+      "extrait": "Programmer un algorithme lié à une",
+      "appui": "Programmer une fonctionnalité"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}

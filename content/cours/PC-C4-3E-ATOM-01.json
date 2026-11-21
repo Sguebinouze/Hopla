@@ -1,0 +1,124 @@
+{
+  "competence": "PC-C4-3E-ATOM-01",
+  "duree": 7,
+  "essentiel": "Un atome est formé d’un noyau, chargé positivement, et d’électrons, chargés négativement, qui se déplacent autour.\nL’atome est environ 100 000 fois plus grand que son noyau : il est surtout constitué de vide. Il est électriquement neutre.\nUn ion est un atome qui a perdu ou gagné un ou plusieurs électrons : Na⁺, Cl⁻.",
+  "parties": [
+    {
+      "titre": "Ordres de grandeur",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tailles",
+          "colonnes": [
+            "Objet",
+            "Taille environ"
+          ],
+          "lignes": [
+            [
+              "atome",
+              "10⁻¹⁰ m"
+            ],
+            [
+              "noyau",
+              "10⁻¹⁵ m"
+            ],
+            [
+              "rapport atome sur noyau",
+              "10⁵, soit 100 000"
+            ]
+          ]
+        },
+        {
+          "type": "question",
+          "consigne": "Pourquoi dit-on que l’atome est surtout constitué de vide ?",
+          "options": [
+            "le noyau est 100 000 fois plus petit que l’atome",
+            "il ne contient rien",
+            "les électrons sont immobiles"
+          ],
+          "reponse": "le noyau est 100 000 fois plus petit que l’atome",
+          "explication": "Presque toute la masse est dans un minuscule noyau."
+        }
+      ]
+    },
+    {
+      "titre": "Les ions",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Gagner ou perdre des électrons",
+          "colonnes": [
+            "Ion",
+            "Formation",
+            "Charge"
+          ],
+          "lignes": [
+            [
+              "Na⁺",
+              "l’atome de sodium perd 1 électron",
+              "positive"
+            ],
+            [
+              "Cl⁻",
+              "l’atome de chlore gagne 1 électron",
+              "négative"
+            ],
+            [
+              "Cu²⁺",
+              "l’atome de cuivre perd 2 électrons",
+              "positive"
+            ]
+          ]
+        },
+        {
+          "type": "piege",
+          "erreur": "On croit qu’un ion positif a gagné des charges positives.",
+          "correction": "Il a perdu des électrons, négatifs : il lui reste plus de charges positives que de négatives."
+        }
+      ]
+    }
+  ],
+  "a_toi": [
+    {
+      "consigne": "Un atome est électriquement :",
+      "options": [
+        "neutre",
+        "positif",
+        "négatif"
+      ],
+      "reponse": "neutre",
+      "explication": "Il a autant de charges positives que négatives."
+    },
+    {
+      "consigne": "L’ion Fe²⁺ provient d’un atome de fer qui a :",
+      "options": [
+        "perdu 2 électrons",
+        "gagné 2 électrons",
+        "perdu 2 noyaux"
+      ],
+      "reponse": "perdu 2 électrons",
+      "explication": "Charge 2+."
+    },
+    {
+      "consigne": "Les électrons sont chargés :",
+      "options": [
+        "négativement",
+        "positivement",
+        "ils ne sont pas chargés"
+      ],
+      "reponse": "négativement",
+      "explication": "Le noyau est positif."
+    }
+  ],
+  "sources": [
+    {
+      "id": "eduscol-cycle-4-2020",
+      "page": 101,
+      "extrait": "noyau peut être réservée à la classe de 3e, et permet un travail sur les puissances de dix en",
+      "appui": "Structure de l’atome"
+    }
+  ],
+  "statut": "brouillon",
+  "auteur": "ia",
+  "relu_par": null
+}
