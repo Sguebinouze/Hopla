@@ -4,7 +4,6 @@ import { BoutonTheme } from '../composants/BoutonTheme';
 import { Icone, type NomIcone } from '../composants/Icone';
 import { InstructionsInstallation, LIENS_STORES } from '../composants/Installation';
 import { Marque } from '../composants/Marque';
-import { Octave } from '../composants/Octave';
 import { PiedDePage } from '../composants/PiedDePage';
 import { QrCode } from '../composants/QrCode';
 import { surAppareilEnfant } from '../lib/donnees';
@@ -15,17 +14,6 @@ import { ENTREE } from '../lib/routes';
 // N'est jamais montrée dans l'app installée ni sur l'appareil d'un enfant : on va directement à l'app.
 // Animations sobres (apparition au défilement, tuiles qui se retournent au survol), coupées si
 // l'appareil demande moins d'animations.
-
-const MATIERES: { classe: string; nom: string }[] = [
-  { classe: 'hp-subj-francais', nom: 'Français' },
-  { classe: 'hp-subj-maths', nom: 'Mathématiques' },
-  { classe: 'hp-subj-histgeo', nom: 'Histoire-géographie' },
-  { classe: 'hp-subj-sciences', nom: 'Sciences' },
-  { classe: 'hp-subj-physique', nom: 'Physique-chimie' },
-  { classe: 'hp-subj-techno', nom: 'Technologie' },
-  { classe: 'hp-subj-langues', nom: 'Langues vivantes' },
-  { classe: 'hp-subj-emc', nom: 'Enseignement moral et civique' },
-];
 
 const ETAPES = [
   { titre: 'Le parent crée l’espace famille', texte: 'Un e-mail, puis un prénom, un avatar et une classe par enfant.' },
@@ -129,7 +117,6 @@ export function Presentation() {
               <Link to="/appairer" className="hp-btn hp-btn--secondary hp-btn--lg">J’ai un code enfant</Link>
             </div>
           </div>
-          <Apercu />
         </section>
 
         <section id="fonctionnement" className="vitrine__cadre vitrine__fonctionnement" aria-label="Comment ça marche">
@@ -156,9 +143,6 @@ export function Presentation() {
                 ))}
               </div>
             </div>
-            <ul className="vitrine__matieres" aria-label="Matières" data-apparition>
-              {MATIERES.map((m) => <li key={m.nom} className={m.classe}><span className="vitrine__pastille" aria-hidden="true" />{m.nom}</li>)}
-            </ul>
             <ul key={onglet} className={`vitrine__tuiles vitrine__tuiles--${onglet}`}>
               {ONGLETS[onglet].tuiles.map((t, i) => (
                 <li key={t.titre} className="tuile" tabIndex={0} style={{ '--i': i } as CSSProperties}>
@@ -181,45 +165,6 @@ export function Presentation() {
       </main>
 
       <PiedDePage />
-    </div>
-  );
-}
-
-/**
- * Aperçu de l'espace de l'enfant, fait des composants du DS. Illustration : rien n'est cliquable.
- * Une seule petite séquence : la mission en cours se coche, la suivante devient active, Octave félicite.
- */
-function Apercu() {
-  const [fait, setFait] = useState(moinsDAnimations);
-  useEffect(() => {
-    if (fait) return;
-    const t = setTimeout(() => setFait(true), 1800);
-    return () => clearTimeout(t);
-  }, [fait]);
-  const item = (n: number) => (n < 1 || (n === 1 && fait) ? ' hp-mission__item--done' : (n === 1 && !fait) || (n === 2 && fait) ? ' hp-mission__item--current' : '');
-  const coche = (n: number) => <span className="hp-check">{(n < 1 || (n === 1 && fait)) && <Icone nom="coche" taille={14} />}</span>;
-  return (
-    <div className="vitrine__apercu" aria-hidden="true">
-      <div className="hp-bubble">
-        <span className="vitrine__octave"><Octave taille={72} humeur={fait ? 'reussite' : 'accueil'} /></span>
-        <p className="hp-bubble__text"><span className="hp-bubble__name">Octave</span>Bonjour Léa ! Trois missions aujourd’hui.</p>
-      </div>
-      <div className="hp-mission vitrine__mission">
-        <div className="ligne">
-          <span className="hp-mission__title pousse">Mission du jour</span>
-          <span className="hp-chip hp-chip--streak"><Icone nom="flamme" />5</span>
-        </div>
-        <span className={`hp-mission__item${item(0)}`}>{coche(0)}Maths · Les compléments à 10</span>
-        <span className={`hp-mission__item${item(1)}`}>{coche(1)}Français · Le pluriel des noms</span>
-        <span className={`hp-mission__item${item(2)}`}>{coche(2)}Questionner le monde · Les saisons</span>
-      </div>
-      <div className={`hp-feedback hp-feedback--success vitrine__bravo${fait ? ' vitrine__bravo--la' : ''}`}>
-        <Icone nom="coche" />
-        <div>
-          <p className="hp-feedback__title">Bravo !</p>
-          <p className="hp-feedback__text">Un cheval, des chevaux : tu as trouvé.</p>
-        </div>
-      </div>
     </div>
   );
 }

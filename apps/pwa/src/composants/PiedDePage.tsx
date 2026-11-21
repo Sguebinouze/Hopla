@@ -13,18 +13,18 @@ export function PiedDePage() {
           <Marque />
           <p className="muet">Réviser du CP à la 3e, un peu chaque jour.</p>
         </div>
-        <nav className="pied__colonne" aria-label="Hopla">
+        <nav className="pied__colonne pied__colonne--hopla" aria-label="Hopla">
           <h2 className="titre-3">Hopla</h2>
           <Link to="/#fonctionnement">Comment ça marche</Link>
           <Link to="/#parents">Pour les parents</Link>
           <Link to="/#installer">Installer Hopla</Link>
           <Link to={ENTREE}>Ouvrir l’app</Link>
         </nav>
-        <nav className="pied__colonne" aria-label="Informations légales">
+        <nav className="pied__colonne pied__colonne--legal" aria-label="Informations légales">
           <h2 className="titre-3">Informations légales</h2>
-          {PAGES_LEGALES.map((p) => <Link key={p.chemin} to={p.chemin}>{p.titre}</Link>)}
+          <div className="pied__liens">{PAGES_LEGALES.map((p) => <Link key={p.chemin} to={p.chemin}>{p.titre}</Link>)}</div>
         </nav>
-        <div className="pied__colonne">
+        <div className="pied__colonne pied__colonne--contact">
           <h2 className="titre-3">Contact</h2>
           <LienParent href={`mailto:${CONTACT}`}>{CONTACT}</LienParent>
         </div>

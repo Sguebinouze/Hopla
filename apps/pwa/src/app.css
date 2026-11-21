@@ -602,19 +602,29 @@ body.avec-clavier main { padding-bottom: 340px; }
 .qr { display: inline-flex; background: var(--surface-1); border-radius: var(--radius-md); box-shadow: var(--shadow-card); flex-shrink: 0; }
 .qr path { fill: var(--ink); }
 
-/* Pied de page du site (présentation et pages légales). */
-.pied { border-top: 1px solid var(--line); background: var(--surface-1); }
-.pied__corps { max-width: 1100px; margin: 0 auto; padding: var(--space-6) var(--space-4) var(--space-4); display: grid; gap: var(--space-5); grid-template-columns: minmax(0, 1fr); }
-.pied__marque { display: flex; flex-direction: column; gap: var(--space-2); }
-.pied__marque .marque { flex-grow: 0; }
-.pied__colonne { display: flex; flex-direction: column; gap: var(--space-2); font-size: 14px; }
-.pied__colonne .titre-3 { margin: 0 0 var(--space-1); }
-.pied__colonne a { color: var(--ink); text-decoration: none; }
+/* Pied de page du site (présentation et pages légales). Petit corps, colonnes selon la largeur :
+   2 colonnes sur mobile, 4 dès la tablette, liens légaux sur 2 colonnes sur grand écran. */
+.pied { border-top: 1px solid var(--line); background: var(--surface-1); font-size: 13px; }
+.pied__corps { max-width: 1100px; margin: 0 auto; padding: var(--space-5) var(--space-4) var(--space-4); display: grid; gap: var(--space-4) var(--space-3);
+  grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "marque marque" "hopla legal" "contact legal"; }
+.pied__marque { grid-area: marque; display: flex; flex-direction: column; gap: var(--space-1); }
+.pied__marque .marque { flex-grow: 0; font-size: 18px; gap: 8px; }
+.pied__marque .marque img { width: 28px; height: 28px; }
+.pied__colonne--hopla { grid-area: hopla; }
+.pied__colonne--legal { grid-area: legal; }
+.pied__colonne--contact { grid-area: contact; }
+.pied__colonne, .pied__liens { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.pied .titre-3 { margin: 0 0 2px; font-size: 11px; }
+.pied__colonne a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .pied__colonne a:hover { color: var(--primary); text-decoration: underline; }
-.pied p.pied__bas { max-width: 1100px; margin: 0 auto; padding: var(--space-3) var(--space-4) var(--space-5); border-top: 1px solid var(--line); }
+.pied p.pied__bas { max-width: 1100px; margin: 0 auto; padding: var(--space-3) var(--space-4) var(--space-4); border-top: 1px solid var(--line); font-size: 12px; }
 @media (min-width: 760px) {
-  .pied__corps { grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr)); padding-left: var(--space-6); padding-right: var(--space-6); }
+  .pied__corps { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 1fr); grid-template-areas: "marque hopla legal contact"; padding-left: var(--space-6); padding-right: var(--space-6); }
   .pied p.pied__bas { padding-left: var(--space-6); padding-right: var(--space-6); }
+}
+@media (min-width: 1000px) {
+  .pied__corps { grid-template-columns: minmax(0, 1.2fr) minmax(0, .9fr) minmax(0, 2fr) minmax(0, 1fr); }
+  .pied__liens { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px var(--space-4); }
 }
 
 /* Présentation (racine du site). Sections serrées, une largeur de lecture commune. */
@@ -634,26 +644,16 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__nav a:hover { color: var(--primary); }
 .vitrine__barre .hp-btn { min-height: var(--target-min); padding: 0 var(--space-4); }
 
-.vitrine__hero { display: grid; gap: var(--space-5); padding-top: var(--space-6); padding-bottom: var(--space-5); }
-.vitrine__hero-texte { display: flex; flex-direction: column; gap: var(--space-3); align-items: flex-start; }
+.vitrine__hero { padding-top: var(--space-6); padding-bottom: var(--space-5); }
+.vitrine__hero-texte { display: flex; flex-direction: column; gap: var(--space-3); align-items: center; text-align: center; max-width: 720px; margin: 0 auto; }
 .vitrine__hero-texte > * { animation: vitrine-entree .5s ease-out both; }
 .vitrine__hero-texte > :nth-child(2) { animation-delay: .06s; }
 .vitrine__hero-texte > :nth-child(3) { animation-delay: .12s; }
 .vitrine__hero-texte > :nth-child(4) { animation-delay: .18s; }
 .vitrine__titre { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 34px; line-height: 1.1; text-wrap: balance; }
 .vitrine__chapo { font-size: 18px; color: var(--ink-muted); max-width: 52ch; }
-.vitrine__actions { display: flex; flex-wrap: wrap; gap: var(--space-2); width: 100%; }
+.vitrine__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); width: 100%; }
 .vitrine__actions .hp-btn { flex: 1 1 220px; }
-.vitrine__apercu { display: flex; flex-direction: column; gap: var(--space-3); animation: vitrine-entree .6s .15s ease-out both; }
-.vitrine__apercu .hp-bubble__text { margin: 0; }
-.vitrine__apercu .hp-feedback p { margin: 0; }
-.vitrine__octave { display: inline-flex; animation: vitrine-flotte 3s ease-in-out infinite alternate; }
-.vitrine__mission { width: auto; }
-.vitrine__mission .hp-chip--streak { background: var(--surface-1); }
-.vitrine__mission .hp-mission__item { transition: background .3s, color .3s; }
-.vitrine__mission .hp-check svg { animation: vitrine-coche .3s ease-out; }
-.vitrine__bravo { opacity: 0; transform: translateY(8px); transition: opacity .35s ease-out, transform .35s ease-out; }
-.vitrine__bravo--la { opacity: 1; transform: none; }
 
 .vitrine__fonctionnement { padding-bottom: var(--space-6); }
 .vitrine__etapes { display: grid; gap: var(--space-3); padding-top: var(--space-4) !important; border-top: 1px solid var(--line); }
@@ -667,10 +667,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 .vitrine__section--teinte .hp-segment button { background: var(--surface-0); }
 .vitrine__section--teinte .hp-segment button[aria-pressed="true"] { background: var(--ink); }
 .vitrine__titre-section { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 26px; line-height: 1.15; text-wrap: balance; }
-.vitrine__tete { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); }
-.vitrine__matieres { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: var(--space-3) 0 var(--space-4) !important; }
-.vitrine__matieres li { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: var(--ink-muted); }
-.vitrine__pastille { width: 10px; height: 10px; border-radius: 50%; background: var(--subj); }
+.vitrine__tete { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-4); }
 .vitrine__note { margin-top: var(--space-4) !important; }
 
 /* Tuiles : titre et pictogramme ; au survol (ou au focus clavier), la description prend la place.
@@ -709,8 +706,6 @@ body.avec-clavier main { padding-bottom: 340px; }
 [data-apparition].apparu { opacity: 1; transform: none; }
 
 @keyframes vitrine-entree { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-@keyframes vitrine-flotte { from { transform: translateY(0); } to { transform: translateY(-4px); } }
-@keyframes vitrine-coche { from { transform: scale(.4); opacity: 0; } to { transform: none; opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
   .vitrine *, .vitrine *::before { animation: none !important; transition: none !important; }
   [data-apparition] { opacity: 1; transform: none; }
@@ -719,7 +714,7 @@ body.avec-clavier main { padding-bottom: 340px; }
 @media (min-width: 760px) {
   .vitrine__cadre { padding: 0 var(--space-6); }
   .vitrine__nav { display: flex; }
-  .vitrine__hero { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; padding-top: calc(var(--space-6) + var(--space-4)); padding-bottom: var(--space-6); }
+  .vitrine__hero { padding-top: calc(var(--space-6) + var(--space-4)); padding-bottom: var(--space-6); }
   .vitrine__titre { font-size: 46px; }
   .vitrine__actions .hp-btn { flex: 0 0 auto; }
   .vitrine__etapes { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-5); }
